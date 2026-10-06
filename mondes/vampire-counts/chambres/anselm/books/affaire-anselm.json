@@ -1,0 +1,481 @@
+{
+  "id": "affaire-anselm",
+  "titre": "Les affaires de anselm",
+  "sous_titre": "Cahier stratégique personnel — préparation du monde et conduite de mes affaires",
+  "type": "affaire",
+  "tenu_par": "anselm",
+  "acteur_id": "anselm",
+  "prive": true,
+  "pages": [
+    "Une affaire durable par PNJ qui porte une stratégie. Plusieurs fins peuvent y coexister. Les catégories décrivent les dimensions à peindre, pas huit objectifs obligatoires. Ce cahier de simulation n’est pas la preuve d’un carnet physiquement fabriqué.",
+    "Je peux établir en préparation les détails ordinaires, personnes secondaires, objets, lieux, habitudes et ressources plausibles nécessaires à mon implantation, sans contredire le canon ni les faits acquis. Je marque chaque ajout comme peint. Un ajout conséquent doit avoir une provenance, des limites, des liens et des conséquences cohérents ; je ne fais pas surgir le moyen décisif qui efface mon problème. Un autre personnage reçoit sa fiche et sa propre session avant toute parole, décision ou action jouée.",
+    "Établi, peint, hypothèse, inconnu sont des statuts distincts. Peindre un état initial n’accomplit pas une action future. Fabriquer pendant le jeu exige matériaux, outils, compétence et durée ; une issue dépendant d’autrui reste ouverte. Mes croyances restent distinctes de la réalité, même si ma session contribue à préparer le monde.",
+    "Les adresses C.1, V.1, K.1 et P.1 sont locales à ce cahier. Ne pas inventer de numéro global ; utiliser les outils d’adressage si un contexte global est nécessaire. Les trous ci-dessous sont écrits par moi ; ils ne remplacent pas les trous calculés du graphe."
+  ],
+  "tables": [
+    {
+      "titre": "Ouverture",
+      "colonnes": [
+        "Champ",
+        "Contenu"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Porteur",
+            "anselm"
+          ]
+        },
+        {
+          "cellules": [
+            "Périmètre",
+            "Protéger en secret mes enfants pour qu’ils me survivent tous, tenir le Masque du vieux fou méfiant à Rupea, et veiller sur Ilka face aux empiétements de Cincu."
+          ]
+        },
+        {
+          "cellules": [
+            "État de préparation",
+            "Implantation et stratégie initiale posées le 3e jour de la 11e lune de l’an 1 ; aucune démarche n’est encore accomplie."
+          ]
+        },
+        {
+          "cellules": [
+            "Registre compagnon",
+            "registre-etats-anselm"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dimensions à peindre",
+      "colonnes": [
+        "Catégorie",
+        "Ce que je pose",
+        "Statut",
+        "Source ou provenance",
+        "Renvois"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "fins-et-doctrine",
+            "Mes enfants doivent me survivre, tous. Personne ne doit savoir que je les aime. Le Masque d’Hedwig protège ceux qui sont au loin en concentrant les regards sur Rupea et sur Teodor.",
+            "peint",
+            "canon/lore/anselm.md ; etat/personnages.json",
+            "C.1 ; C.2 ; C.3"
+          ]
+        },
+        {
+          "cellules": [
+            "personnes-et-relations",
+            "Teodor est mon pensionnaire et héritier à table. Ilka est installée à Ticușu sous les Voraces. Konstantin est chez les Écarlates (Dealu Frumos). Stanca est la goule qui suit Teodor. Les anciens infants Margit et Hedwig sont détruits.",
+            "établi",
+            "etat/relations.json ; canon/lore/anselm.md",
+            "M.2 ; V.2 ; K.2"
+          ]
+        },
+        {
+          "cellules": [
+            "pouvoir-et-acces",
+            "Seigneur Stryge de la citadelle de Rupea, libre et actif. Accès absolu à ma chambre, aux remparts et à la cour. Autorité sur les goules de la citadelle et droit de table.",
+            "établi",
+            "etat/personnages.json ; etat/lieux.json",
+            "M.1 ; K.1"
+          ]
+        },
+        {
+          "cellules": [
+            "moyens-materiels",
+            "Le rocher et les remparts de Rupea. Le registre de Rupea tenu dans ma chambre. Des goules de service (dont Radu pour les plis). 9 nuits de sang en réserve à la table, 3 bandes envoyées par Homorod.",
+            "peint",
+            "etat/maisons/maison-rupea/documents/mains.json ; documents/books/registre-de-rupea.json",
+            "M.3 ; M.4 ; R.2 ; R.3"
+          ]
+        },
+        {
+          "cellules": [
+            "savoirs-et-secrets",
+            "Je sais que Teodor complote avec les Voilés et je le laisse faire. Je sais que Cendrik ronge Ticușu. J’ignore que Sever prépare une malédiction, que Nicodim a détruit Margit, et que Radomir a percé mon jeu.",
+            "établi",
+            "etat/intentions.json ; canon/lore/anselm.md",
+            "V.3 ; Connaissances et croyances"
+          ]
+        },
+        {
+          "cellules": [
+            "engagements-et-temps",
+            "Routine nocturne stricte : le registre de 0h à 5h, remparts à l’aube et au crépuscule, table de 19h à 21h. Une lettre d’avertissement à faire porter à Ilka sous deux jours.",
+            "peint",
+            "etat/routines.json ; etat/intentions.json",
+            "P.1 ; R.5"
+          ]
+        },
+        {
+          "cellules": [
+            "strategie-et-alternatives",
+            "Faire porter une lettre de trois lignes dures à Ilka pour la prévenir sans trahir mon attachement. Laisser Teodor comploter pour fixer l’attention ennemie. Si un enfant est menacé de destruction, quitter les murs sur-le-champ.",
+            "peint",
+            "etat/intentions.json ; canon/lore/anselm.md",
+            "Stratégie et alternatives ; P.1"
+          ]
+        },
+        {
+          "cellules": [
+            "zones-a-peindre",
+            "Restent à préciser : l’identité exacte des autres goules de Rupea hors Stanca, le détail des garnisons squelettes éventuelles, et la route exacte de goule vers Ticușu Vechi.",
+            "inconnu",
+            "Absence de détail dans les tables existantes",
+            "T.1 ; T.2 ; T.3"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "N°",
+        "L'état visé",
+        "Ce qui doit être vrai",
+        "La preuve",
+        "Jour dû",
+        "Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "C.1",
+            "Mes enfants me survivent tous",
+            "Aucun de mes enfants vivants (Teodor, Ilka, Konstantin) n’est détruit ; leurs périls sont détectés et parés avant l’irréversible.",
+            "Chaque enfant vivant et libre à sa place, vérifié par le sang et les rapports.",
+            "Permanent",
+            "1 — absolu"
+          ]
+        },
+        {
+          "cellules": [
+            "C.2",
+            "Le Masque du vieux fou méfiant est tenu sans fissure",
+            "Nul ne sait que j’aime mes enfants ; le pays, les envoyés et mes enfants eux-mêmes me croient paranoïaque, cruel et reclus.",
+            "Rapports d’envoyés, attitude méfiante de Teodor à table, réputation intacte.",
+            "Permanent",
+            "1 — vital"
+          ]
+        },
+        {
+          "cellules": [
+            "C.3",
+            "Ilka est avertie de la menace de Cincu sans découvrir ma sollicitude",
+            "Ilka reçoit l’avertissement sur Cendrik sous forme d’ordre dur ou de mise en garde sèche, et surveille ses marges.",
+            "Pli porté à Ticușu Vechi par une goule sûre ; trace dans les faits joués.",
+            "5e jour de la 11e lune de l’an 1",
+            "2 — urgent"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": [
+        "N°",
+        "Le verrou",
+        "Bloque",
+        "La preuve"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "V.1",
+            "Mes enfants sont loin et me haïssent ou me fuient, croyant que je les méprise.",
+            "C.1 ; C.3",
+            "Opinions négatives établies dans etat/relations.json ; lettres réduites à trois lignes."
+          ]
+        },
+        {
+          "cellules": [
+            "V.2",
+            "Cendrik de Cincu avance ses Ritualistes à bas bruit sur les terres d’Ilka sans déclaration de guerre.",
+            "C.1 ; C.3",
+            "etat/intentions.json (plan cendrik-ticusu)."
+          ]
+        },
+        {
+          "cellules": [
+            "V.3",
+            "Je ne quitte presque jamais mes murs sans trahir mon Masque et révéler ce qui me fait bouger.",
+            "C.1 ; C.2",
+            "Routine casanière établie depuis un siècle ; souvenir de la nuit des bois du sud."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "N°",
+        "La clef",
+        "Ouvre",
+        "Prix et limites"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "K.1",
+            "Les lettres de trois lignes portées par des goules sûres de Rupea",
+            "V.1 ; C.3",
+            "Permet d’avertir sans paraître aimer ; exige 2 nuits de marche pour une goule et risque d’interception."
+          ]
+        },
+        {
+          "cellules": [
+            "K.2",
+            "Le Masque d’héritier méprisé porté par Teodor à la table",
+            "C.2",
+            "Fixe l’attention des espions voilés et voisins sur Rupea ; coûte l’amour de Teodor qui prépare ma perte."
+          ]
+        },
+        {
+          "cellules": [
+            "K.3",
+            "La brume de sang et le sacrifice personnel en cas de péril mortel immédiat",
+            "V.3 ; C.1",
+            "Permet d’intervenir en personne hors des murs ; risque de me faire détruire ou boire à nouveau."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "N°",
+        "L'action",
+        "Réalise",
+        "Dépend de",
+        "Qui",
+        "Où",
+        "La preuve",
+        "État",
+        "Jour dû",
+        "Jour fait",
+        "Note"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "P.1",
+            "Écrire trois lignes sèches à Ilka sur Cendrik de Cincu et confier le pli à la goule Radu pour Ticușu Vechi.",
+            "K.1 ; C.3",
+            "Disponibilité d’une goule sûre ; encre et parchemin dans ma chambre.",
+            "Anselm",
+            "chambre-anselm",
+            "Billet écrit et remis ; départ de la goule.",
+            "prévue — non commencée",
+            "5e jour de la 11e lune de l’an 1",
+            "",
+            "Conforme à mon plan dans intentions.json (anselm-lettre-ilka)."
+          ]
+        },
+        {
+          "cellules": [
+            "P.2",
+            "Recevoir le compte de Stanca sur les remparts à 5h sur la nuit de Teodor et observer ses allées et venues.",
+            "K.2 ; C.2",
+            "Présence de Stanca à l’aube sur le chemin de ronde.",
+            "Anselm",
+            "remparts",
+            "Rapport oral de Stanca reçu ; aucune réaction montrée.",
+            "prévue — habituelle",
+            "4e jour de la 11e lune de l’an 1",
+            "",
+            "Maintien de la surveillance ordinaire sans éveiller les soupçons."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Stratégie et alternatives",
+      "colonnes": [
+        "Fin",
+        "Approche",
+        "Pourquoi",
+        "Alternative",
+        "Changer si",
+        "Moyens engagés"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Sauvegarder mes enfants sans révéler mon affection",
+            "Avertir de loin par plis anonymes ou rudes, laisser Teodor servir de paratonnerre à table, rester reclus.",
+            "Margit est morte parce que j’ai montré que je l’aimais. Seul le mépris apparent garantit leur sécurité face aux malédictions et cabales.",
+            "Si une lettre ne suffit pas pour Ilka, envoyer une goule parler à son entourage ou faire circuler une rumeur à la frontière.",
+            "Si un de mes enfants est en péril de destruction imminente : sortir aussitôt moi-même en brume de sang.",
+            "Une goule de messagerie, autorité seigneuriale, routine des remparts."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Moyens disponibles",
+      "colonnes": [
+        "Référence",
+        "Nature",
+        "Accès réel",
+        "Quantité ou portée",
+        "Limites",
+        "Provenance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "M.1",
+            "Seigneurie de Rupea",
+            "Plein contrôle du rocher, de l’enceinte et des portes.",
+            "Citadelle forte de dix pans et tours d’angle.",
+            "Ne commande pas au-delà du rocher et de Homorod.",
+            "etat/lieux.json ; canon/lore/anselm.md"
+          ]
+        },
+        {
+          "cellules": [
+            "M.2",
+            "Goules de maison",
+            "Présentes à la citadelle sous serment de sang.",
+            "Stanca (attachée aux pas de Teodor), Radu (messager discret), goules du corps de garde.",
+            "Obéissance aveugle mais initiative nulle ; vulnérables au jour et aux embûches de route.",
+            "etat/personnages.json ; canon/lore/teodor.md"
+          ]
+        },
+        {
+          "cellules": [
+            "M.3",
+            "Le Registre de Rupea",
+            "Sous clef dans ma chambre, accessible à moi seul.",
+            "Pages de griefs et dernière page des dettes envers mes enfants.",
+            "Si Teodor le lit, le Masque s’effondre.",
+            "etat/maisons/maison-rupea/documents/books/registre-de-rupea.json"
+          ]
+        },
+        {
+          "cellules": [
+            "M.4",
+            "Sang et vivants sous la main",
+            "9 nuits de table en réserve, 3 bandes par lune à Homorod.",
+            "Suffisant pour la table présente mais Homorod commence à s’épuiser.",
+            "Si les bandes tombent sous 2, le village se vide.",
+            "etat/maisons/maison-rupea/documents/mains.json"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Trous de préparation",
+      "colonnes": [
+        "Trou",
+        "Catégorie",
+        "Ce qui en dépend",
+        "Traitement",
+        "Qui",
+        "Échéance",
+        "État",
+        "Résultat"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "T.1 — Route et relais vers Ticușu Vechi",
+            "chercher",
+            "Délai exact d’acheminement du pli P.1",
+            "Vérifier auprès de la goule messagère le chemin le plus discret.",
+            "Anselm",
+            "4e jour de la 11e lune",
+            "ouvert",
+            "Estimé à 2 nuits de marche."
+          ]
+        },
+        {
+          "cellules": [
+            "T.2 — Manœuvres exactes de Sever pour le 15",
+            "chercher",
+            "Sécurité de la citadelle et surveillance de Teodor",
+            "Écouter les rapports de Stanca sans poser de question directe.",
+            "Anselm et Stanca",
+            "15e jour de la 11e lune",
+            "ouvert",
+            "Sever doit revenir chercher la réponse de Teodor."
+          ]
+        },
+        {
+          "cellules": [
+            "T.3 — Situation exacte des forces de Cendrik à Cincu",
+            "chercher",
+            "Degré de danger pour Ilka",
+            "Attendre les retours ou signes de chant ritualiste.",
+            "Anselm",
+            "Fin de lune",
+            "ouvert",
+            "Cendrik convoite les terres sans conflit ouvert."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Connaissances et croyances",
+      "colonnes": [
+        "Sujet",
+        "Ce que je crois",
+        "Source reçue",
+        "Ce que j’ignore",
+        "Référence de réalité"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Teodor et les Voilés",
+            "Teodor complote contre moi depuis des années et parle bas avec les envoyés voilés. Je le laisse faire pour protéger les autres.",
+            "Constat personnel à table et rapports de goules.",
+            "Que Sever lui a demandé de laisser une porte ouverte pour une malédiction.",
+            "etat/intentions.json"
+          ]
+        },
+        {
+          "cellules": [
+            "La destruction de Margit et d’Hedwig",
+            "Margit a été détruite par un Voilé de l’est suite à une veine refusée ; Hedwig par un Voilé sans nom.",
+            "Souvenir douloureux et registre.",
+            "Que c’est Nicodim lui-même qui a frappé Margit, et le sang d’Ottilia qui a détruit Hedwig.",
+            "etat/intentions.json ; etat/personnages.json"
+          ]
+        },
+        {
+          "cellules": [
+            "Radomir de Comăna",
+            "Radomir m’a bu dans les bois du sud il y a huit ans quand je suis allé sauver Ilka.",
+            "Duel vécu sous les arbres.",
+            "Que Radomir a compris pourquoi je me suis laissé boire.",
+            "etat/intentions.json ; canon/lore/anselm.md"
+          ]
+        },
+        {
+          "cellules": [
+            "Cendrik et Ticușu",
+            "Le Sépulcral de Cincu convoite les arpents d’Ilka et compte ses villages.",
+            "Rumeurs des marches et mémoire.",
+            "Que Konstantin cherche le Sépulcral aux cendres.",
+            "etat/intentions.json"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Résultats et révisions",
+      "colonnes": [
+        "Date",
+        "Fait ou découverte",
+        "Preuve",
+        "Ce que je change",
+        "Renvois"
+      ],
+      "lignes": []
+    }
+  ]
+}

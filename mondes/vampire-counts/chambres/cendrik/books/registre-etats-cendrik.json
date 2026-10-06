@@ -1,0 +1,221 @@
+{
+  "id": "registre-etats-cendrik",
+  "titre": "Les choses suivies par cendrik",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée au porteur",
+  "type": "registre",
+  "tenu_par": "cendrik",
+  "acteur_id": "cendrik",
+  "prive": true,
+  "pages": [
+    "Catégories : lieux-et-passages, objets-et-documents, ressources-et-populations, organisations-et-dispositifs, usages-et-institutions, situations-et-processus. Une ligne par chose ou situation. L’identité est une référence stable ; plusieurs PNJ citent la même chose au lieu de la recréer. Quand une table canonique du moteur porte déjà le fait, elle garde autorité : la ligne renvoie à cette adresse. Les évolutions arithmétiques vont dans les mains de leur maison. Les lignes purement descriptives sont leur propre autorité jusqu’à matérialisation. Accès au cahier technique n’est pas connaissance du personnage : Qui sait quoi doit être respecté."
+  ],
+  "colonnes": [
+    "Référence",
+    "Catégorie",
+    "Identité et fonction",
+    "Où",
+    "Détenteur ou responsable",
+    "État présent",
+    "Quantité ou propriétés",
+    "Usages et limites",
+    "Liens",
+    "Évolution et échéances",
+    "Statut",
+    "Source ou provenance",
+    "Qui sait quoi",
+    "Date de mise à jour",
+    "Autorité existante"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "lieu:eglise-cincu",
+        "lieux-et-passages",
+        "La vieille église fortifiée de Cincu, sanctuaire et redoute de marche sépulcrale",
+        "cincu",
+        "cendrik",
+        "Établi, remparts épais de pierre calcaire, meurtrières étroites, cour entourée de hauts murs",
+        "Forteresse de culte et de défense de la marche, sol froid et desséché",
+        "Résidence de Cendrik et de sa domesticité morte ; dortoir de jour sous la nef ; ne protège pas du manque de sang",
+        "chemins.json:eglise-cincu",
+        "Stable depuis deux siècles",
+        "établi",
+        "canon/lore/cendrik.md, etat/lieux.json",
+        "Connu de tous dans la région comme la demeure austère du savant reclus",
+        "an 1, lune 11, jour 3",
+        "etat/lieux.json:cincu"
+      ]
+    },
+    {
+      "cellules": [
+        "lieu:crypte-cincu",
+        "lieux-et-passages",
+        "La crypte d arpentage sous l église de Cincu, cabinet d étude et de garde des cartes",
+        "cincu",
+        "cendrik",
+        "Encombree de rouleaux, tables de calcul, ossements triés et registres de mesures",
+        "Fraîcheur sépulcrale constante, voûtes basses, obscurité absolue propice à la veille",
+        "Lieu de retraite et de travail stratégique de Cendrik ; accès strictement interdit aux vivants et étrangers",
+        "chemins.json:crypte-cincu",
+        "Étendue au siècle dernier par excavations",
+        "peint",
+        "canon/lore/cendrik.md",
+        "Seul Cendrik en connaît le contenu exact ; ses goules n y entrent que sur ordre",
+        "an 1, lune 11, jour 3",
+        "chambres/cendrik/books/affaire-cendrik.json"
+      ]
+    },
+    {
+      "cellules": [
+        "lieu:lisiere-ticusu-marche",
+        "lieux-et-passages",
+        "La bande de marche entre le finage de Cincu et les champs de Ticușu Vechi",
+        "entre cincu et ticusu-vechi",
+        "partagé de fait (Cendrik et Ilka)",
+        "Bordure grise d herbe rase et de pierres de bornage disputées",
+        "Arpents de transition où la terre morte gagne insensiblement sur les jachères",
+        "Terrain de manœuvre des Ritualistes de Cendrik ; surveillé de loin par les serfs d Ilka",
+        "etat/lieux.json:ticusu-vechi",
+        "Objet du plan d absorption sous 30 jours (cendrik-ticusu)",
+        "peint",
+        "canon/lore/cendrik.md",
+        "Cendrik mesure chaque arpent ; Ilka sait que sa terre s effrite sans voir la magie agir",
+        "an 1, lune 11, jour 3",
+        "etat/intentions.json:cendrik"
+      ]
+    },
+    {
+      "cellules": [
+        "objet:carnet-mesures-comana",
+        "objets-et-documents",
+        "Le carnet secret d arpentage du sud et relevé des ossements de Comăna",
+        "crypte-cincu",
+        "cendrik",
+        "Manuscrit relié de cuir noir, couvert de chiffres, croquis de gués et notes de terrain",
+        "Porte la formule clef : « En cent cinquante ans, la Crinière n a jamais détruit personne »",
+        "Source de la doctrine de Cendrik ; si découvert, dévoile son ambition et abat son masque d érudit",
+        "croyances:criniere-mur-peint",
+        "Rempli au fil des cinquante dernières années",
+        "peint",
+        "canon/lore/cendrik.md",
+        "Secret absolu de Cendrik ; personne d autre ne l a jamais lu",
+        "an 1, lune 11, jour 3",
+        "chambres/cendrik/books/affaire-cendrik.json"
+      ]
+    },
+    {
+      "cellules": [
+        "objet:outils-arpenteur",
+        "objets-et-documents",
+        "La chaîne d arpentage en fer battu, les piquets de chêne cerclés et les équerres de visée",
+        "crypte-cincu",
+        "cendrik",
+        "Parfaitement entretenus, graissés au suif, intacts depuis l époque vivante",
+        "Outils précis ayant servi à borner la vallée sous le règne des princes vivants",
+        "Servent aux relevés nocturnes secrets des bornes de Ticușu",
+        "lore:arpenteur-vivant",
+        "Inaltérables par l usage soigné",
+        "peint",
+        "canon/lore/cendrik.md",
+        "Connu des goules de corvée qui portent les piquets",
+        "an 1, lune 11, jour 3",
+        "chambres/cendrik/books/affaire-cendrik.json"
+      ]
+    },
+    {
+      "cellules": [
+        "pop:rituel-frere-mihai",
+        "ressources-et-populations",
+        "Frère Mihai et les deux Ritualistes relevés de Cincu",
+        "crypte-cincu et lisière",
+        "cendrik",
+        "Trois prêtres morts, tonsures décharnées, vêtus d étoles fanées, voix monocorde glaçante",
+        "Capables de chanter la terre pour la faire passer sous l allégeance de leur maître sépulcral",
+        "Exécutent les ordres liturgiques de Cendrik ; ne parlent jamais aux vivants ; faibles au corps-à-corps",
+        "actions:P.1-chant-marche",
+        "Actifs et prêts pour le chant prévu dans 30 jours",
+        "peint",
+        "canon/LORE_RECIT.md, canon/lore/cendrik.md",
+        "Connus dans le domaine de Cincu ; redoutés des serfs de marche",
+        "an 1, lune 11, jour 3",
+        "chambres/cendrik/books/affaire-cendrik.json"
+      ]
+    },
+    {
+      "cellules": [
+        "pop:fossoyeurs-vasile",
+        "ressources-et-populations",
+        "Vasile et la troupe des fossoyeurs de Cincu",
+        "cincu et chemins du sud",
+        "cendrik",
+        "Huit fossoyeurs et goules de corvée, silencieux, pelles et crocs ferrés",
+        "Ramassent les cadavres, trient les ossements pour l étude anatomique de Cendrik, tiennent le guet de lisière",
+        "Circulent de jour et de nuit le long des limites ; rapportent ce qu ils voient et ramassent",
+        "actions:P.2-guet-lisiere",
+        "En patrouille régulière sur la lisière de Comăna",
+        "peint",
+        "canon/lore/cendrik.md",
+        "Aperçus par les voyageurs et bergers comme des charognards ordinaires",
+        "an 1, lune 11, jour 3",
+        "chambres/cendrik/books/affaire-cendrik.json"
+      ]
+    },
+    {
+      "cellules": [
+        "org:gardes-lourds-cincu",
+        "organisations-et-dispositifs",
+        "La garde d ossuaire de Cincu",
+        "parvis et portes de l église-cincu",
+        "cendrik",
+        "Une quinzaine de gardes squelettes et relevés cuirassés de fer rouillé et piques lourdes",
+        "Force d arrêt défensive compacte, insensible à la douleur et à la peur",
+        "Défense des murs de Cincu et barrage des défilés occidentaux en cas d alerte sur Konstantin",
+        "declencheur:konstantin-alerte",
+        "En faction silencieuse aux portes de l église",
+        "peint",
+        "canon/lore/cendrik.md, etat/intentions.json:cendrik",
+        "Connus de quiconque approche de l église fortifiée",
+        "an 1, lune 11, jour 3",
+        "etat/intentions.json:cendrik"
+      ]
+    },
+    {
+      "cellules": [
+        "sit:tribut-gontran",
+        "situations-et-processus",
+        "Le tribut magique nocturne issu du duel d Agnita",
+        "entre agnita et cincu",
+        "cendrik (bénéficiaire) / gontran (assujetti)",
+        "Actif : chaque nuit, un filet de magie bue quitte Agnita pour abreuver la crypte de Cendrik",
+        "Flux régulier qui alimente les rites des Ritualistes et compense la disette du domaine",
+        "Invisible aux yeux des vivants ; tribut connu des seuls vampires concernés",
+        "relations:cendrik-gontran, lore:duel-aux-cendres",
+        "Dure tant que Gontran garde le silence et ne lave pas son honneur",
+        "établi",
+        "canon/lore/cendrik.md, etat/relations.json",
+        "Cendrik et Gontran le savent ; Konstantin l ignore mais cherche le vainqueur",
+        "an 1, lune 11, jour 3",
+        "etat/relations.json"
+      ]
+    },
+    {
+      "cellules": [
+        "sit:erosion-ticusu",
+        "situations-et-processus",
+        "Le grignotage territorial progressif de la commune de Ticușu Vechi",
+        "marche sud entre cincu et ticusu",
+        "cendrik (acteur) / ilka (victime)",
+        "En préparation active : visée topographique achevée, début des incantations fixé à 30 jours",
+        "Déplacement imperceptible de la souveraineté terrienne vers l Aîné des Sépulcraux",
+        "Procédé juridique et magique ne constituant pas une déclaration formelle d hostilité",
+        "intentions.json:cendrik-ticusu",
+        "Phase 1 d empiètement prévue sur la 12e lune",
+        "établi",
+        "etat/intentions.json:cendrik, canon/lore/cendrik.md",
+        "Cendrik planifie ; Ilka subit le recul de ses vivants ; les autres seigneurs ignorent l manœuvre",
+        "an 1, lune 11, jour 3",
+        "etat/intentions.json:cendrik"
+      ]
+    }
+  ]
+}

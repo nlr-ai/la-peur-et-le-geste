@@ -1,0 +1,202 @@
+{
+  "id": "registre-etats-konstantin",
+  "titre": "Les choses suivies par konstantin",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée au porteur",
+  "type": "registre",
+  "tenu_par": "konstantin",
+  "acteur_id": "konstantin",
+  "prive": true,
+  "pages": [
+    "Catégories : lieux-et-passages, objets-et-documents, ressources-et-populations, organisations-et-dispositifs, usages-et-institutions, situations-et-processus. Une ligne par chose ou situation. L’identité est une référence stable ; plusieurs PNJ citent la même chose au lieu de la recréer. Quand une table canonique du moteur porte déjà le fait, elle garde autorité : la ligne renvoie à cette adresse. Les évolutions arithmétiques vont dans les mains de leur maison. Les lignes purement descriptives sont leur propre autorité jusqu’à matérialisation. Accès au cahier technique n’est pas connaissance du personnage : Qui sait quoi doit être respecté."
+  ],
+  "colonnes": [
+    "Référence",
+    "Catégorie",
+    "Identité et fonction",
+    "Où",
+    "Détenteur ou responsable",
+    "État présent",
+    "Quantité ou propriétés",
+    "Usages et limites",
+    "Liens",
+    "Évolution et échéances",
+    "Statut",
+    "Source ou provenance",
+    "Qui sait quoi",
+    "Date de mise à jour",
+    "Autorité existante"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "chose:dealu-manoir-basalt",
+        "lieux-et-passages",
+        "Le Manoir de Dealu Frumos, solide demeure fortifiée en pierre de taille grise, avec cour pavée et courtine basse adossée aux vergers.",
+        "dealu-frumos",
+        "konstantin",
+        "Entretenu, froid et austère, cour fermée par une lourde porte de chêne ferré.",
+        "Un corps de logis à deux étages, une tour de guet carrée, celliers profonds",
+        "Résidence du champion, refuge diurne sous les voûtes de pierre, lieu de réception des rares messagers.",
+        "chose:dealu-salle-basse, chose:dealu-ecuries",
+        "Stable depuis plusieurs décennies",
+        "peint",
+        "Fief concédé par Gontran il y a 90 ans",
+        "Connu des habitants de Dealu Frumos et des seigneurs d'Agnita.",
+        "an 1, lune 11, jour 3",
+        "lieux.json:dealu-frumos"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:dealu-salle-basse",
+        "lieux-et-passages",
+        "La grande salle basse du manoir de Dealu Frumos, dallée de schiste, ornée d'étendards écarlates aux armes de Gontran et d'un grand foyer où brûle du chêne sec.",
+        "dealu-frumos",
+        "konstantin",
+        "Sombre, silencieuse, éclairée par deux flambeaux de suif la nuit.",
+        "Grande table de chêne massif, bancs de bois brut, râtelier d'armes",
+        "Lieu où Konstantin veille de 17h21 à 6h40, écoute les rapports de son veneur et garde le silence.",
+        "chose:dealu-manoir-basalt, chose:dealu-lettre-rupea",
+        "Stable",
+        "peint",
+        "Poste de routine de Konstantin",
+        "Konstantin et ses serviteurs immédiats.",
+        "an 1, lune 11, jour 3",
+        "routines.json:konstantin"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:dealu-lettre-rupea",
+        "objets-et-documents",
+        "Le pli cacheté de cire noire aux armes de la tour de Rupea, déposé il y a quelques semaines par une goule messagère d'Anselm.",
+        "dealu-frumos (sur la table de la salle basse)",
+        "konstantin",
+        "Intact, parchemin épais fermé d'un sceau de cire noire sans brisure.",
+        "Une feuille de parchemin pliée en quatre, sceau officiel de la citadelle",
+        "Non décacheté. Konstantin la regarde chaque nuit sans l'ouvrir ni la brûler.",
+        "chose:dealu-salle-basse",
+        "Demeure sur la table depuis la défaite de Gontran",
+        "peint",
+        "Envoyée de Rupea (canon/lore/konstantin.md)",
+        "Seul Konstantin sait qu'elle repose sur cette table sans avoir été brûlée.",
+        "an 1, lune 11, jour 3",
+        "canon/lore/konstantin.md"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:dealu-armure-ecarlate",
+        "objets-et-documents",
+        "L'armure de plates brunies doublée de velours écarlate et sertie de rubis ternis, forgée pour la stature massive de Konstantin.",
+        "dealu-frumos (chambre de Konstantin)",
+        "konstantin",
+        "Polie, graissée, prête pour le combat singulier.",
+        "Harnois complet de plaques, heaume clos à visière crénelée, cape de velours rouge lourd",
+        "Portée lors des déplacements d'apparat, des visites à Agnita et des duels. Renforce son Masque de champion écarlate.",
+        "chose:dealu-epee-batarde",
+        "Stable",
+        "peint",
+        "Don de Gontran après ses premiers duels",
+        "Connue de tous les seigneurs et duellistes de l'ouest.",
+        "an 1, lune 11, jour 3",
+        "canon/lore/konstantin.md"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:dealu-epee-batarde",
+        "objets-et-documents",
+        "Épée bâtarde forgée dans l'acier des monts du nord, pommeau lesté de fer forgé, garde droite à quillons simples.",
+        "dealu-frumos / au côté de Konstantin",
+        "konstantin",
+        "Tranchant affûté, lame sans brèche.",
+        "Lame de quarante pouces, équilibre parfait pour la parade et la frappe",
+        "Arme de prédilection de Konstantin pour les trois passes du duel vampire.",
+        "chose:dealu-armure-ecarlate",
+        "A brisé cinq épées lors de cinq duels passés",
+        "peint",
+        "Acquise lors de son premier duel victorieux",
+        "Redoutée de quiconque a vu combattre le champion.",
+        "an 1, lune 11, jour 3",
+        "canon/lore/konstantin.md"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:dealu-goule-radu",
+        "organisations-et-dispositifs",
+        "Radu le veneur, goule fidèle attachée au chenil et aux bois de Dealu Frumos depuis quarante ans.",
+        "dealu-frumos / chenil et bois",
+        "konstantin",
+        "Vigoureux, taciturne, sens aigu de l'odorat et du pistage en forêt.",
+        "Goule liée au sang de Konstantin, guide de chasse",
+        "Conduit les battues nocturnes, surveille les braconniers vivants et relève les traces suspectes aux lisières orientales.",
+        "chose:dealu-chenil-limiers",
+        "Stable",
+        "peint",
+        "Goule élevée au service du manoir",
+        "Konstantin et les gens de la seigneurie.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:dealu-chenil-limiers",
+        "ressources-et-populations",
+        "Meute de six limiers noirs à poil ras, dressés pour pister le sang et les bêtes sous le couvert épais.",
+        "dealu-frumos / basse-cour",
+        "Radu le veneur / sous l'autorité de Konstantin",
+        "Bien nourris de viande crue, dociles aux sifflets de Radu.",
+        "6 molosses dressés",
+        "Pistage des bandes de vivants et traque des intrus dans les taillis où la brume ne porte pas.",
+        "chose:dealu-goule-radu",
+        "Opérationnels pour les battues",
+        "peint",
+        "Élevage local de Dealu Frumos",
+        "Les serviteurs du manoir et les chasseurs d'Agnita.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:dealu-regisseur-vasile",
+        "organisations-et-dispositifs",
+        "Vasile, vieux serf vivant (62 ans), intendant du manoir et de la communauté paysanne de Dealu Frumos.",
+        "dealu-frumos / village et communs",
+        "konstantin",
+        "Voûté, scrupuleux, tient les comptes de grains et de bois.",
+        "Serf d'âge mûr, respecté des villageois",
+        "Gère les corvées de jour pendant le sommeil du seigneur ; s'assure que le village fournit ses bêtes et ses tributs.",
+        "chose:dealu-manoir-basalt",
+        "Vieillissant mais infatigable régisseur",
+        "peint",
+        "Famille serf établie depuis trois générations à Dealu Frumos",
+        "Le village et le seigneur.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:route-dealu-agnita",
+        "lieux-et-passages",
+        "La piste forestière reliant Dealu Frumos à Agnita, traversant les bois de hêtres et franchissant deux petits ponts de pierre.",
+        "entre Dealu Frumos et Agnita",
+        "maison-agnita",
+        "Praticable à cheval et à pied par temps sec, boueuse en automne.",
+        "Une nuit de marche à pied (environ 25 km)",
+        "Voie de communication directe entre le champion et son suzerain Gontran. Empruntée par les cavaliers et goules messagères.",
+        "chose:dealu-manoir-basalt, lieux.json:agnita",
+        "Surveillée par les patrouilles d'Agnita",
+        "peint",
+        "Voie ancienne tracée par les Écarlates",
+        "Tous les habitants de la seigneurie d'Agnita.",
+        "an 1, lune 11, jour 3",
+        "lieux.json:dealu-frumos"
+      ]
+    }
+  ]
+}

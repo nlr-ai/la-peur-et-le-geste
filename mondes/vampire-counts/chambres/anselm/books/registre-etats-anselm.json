@@ -1,0 +1,164 @@
+{
+  "id": "registre-etats-anselm",
+  "titre": "Les choses suivies par anselm",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée au porteur",
+  "type": "registre",
+  "tenu_par": "anselm",
+  "acteur_id": "anselm",
+  "prive": true,
+  "pages": [
+    "Catégories : lieux-et-passages, objets-et-documents, ressources-et-populations, organisations-et-dispositifs, usages-et-institutions, situations-et-processus. Une ligne par chose ou situation. L’identité est une référence stable ; plusieurs PNJ citent la même chose au lieu de la recréer. Quand une table canonique du moteur porte déjà le fait, elle garde autorité : la ligne renvoie à cette adresse. Les évolutions arithmétiques vont dans les mains de leur maison. Les lignes purement descriptives sont leur propre autorité jusqu’à matérialisation. Accès au cahier technique n’est pas connaissance du personnage : Qui sait quoi doit être respecté."
+  ],
+  "colonnes": [
+    "Référence",
+    "Catégorie",
+    "Identité et fonction",
+    "Où",
+    "Détenteur ou responsable",
+    "État présent",
+    "Quantité ou propriétés",
+    "Usages et limites",
+    "Liens",
+    "Évolution et échéances",
+    "Statut",
+    "Source ou provenance",
+    "Qui sait quoi",
+    "Date de mise à jour",
+    "Autorité existante"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "R.1",
+        "lieux-et-passages",
+        "La chambre haute d’Anselm et ses accès aux remparts",
+        "Citadelle de Rupea (au-dessus de la chambre de Teodor)",
+        "Anselm",
+        "Pièce de pierre nue, fraîche, fermée le jour, donnant directement sur le chemin de ronde est.",
+        "Mobilier spartiate : coffre ferré, table de pierre taillée, lutrin où repose le registre.",
+        "Seul Anselm y pénètre ; aucune goule n’y entre sans convocation formelle.",
+        "plans/rupea.json (chambre-anselm, remparts) ; registre-de-rupea",
+        "Immuable depuis deux siècles.",
+        "peint",
+        "Implantation ordinaire du maître de Rupea (plans/rupea.json, canon/lore/anselm.md)",
+        "Anselm connaît chaque recoin ; Teodor sait qu’elle est au-dessus de la sienne.",
+        "an 1, 11e lune, 3e jour",
+        "plans/rupea.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.2",
+        "objets-et-documents",
+        "Le Registre de Rupea (livre relié de cuir sombre)",
+        "chambre-anselm, sur le lutrin de pierre",
+        "Anselm",
+        "Intact, fermé. Pages noircies de griefs d’un siècle ; dernière page consacrée aux dettes envers ses enfants.",
+        "Un volume lourd in-folio, encre de galle, écriture serrée et anguleuse d’ancien maçon.",
+        "Consulté et complété chaque nuit entre minuit et cinq heures du matin. Ne quitte jamais la chambre.",
+        "etat/maisons/maison-rupea/documents/books/registre-de-rupea.json",
+        "Complété au fil des événements et des demandes.",
+        "établi",
+        "canon/lore/anselm.md §V ; documents/books/registre-de-rupea.json",
+        "Anselm est le seul lecteur ; les envoyés savent qu’il existe ; Teodor ignore ce qu’il contient.",
+        "an 1, 11e lune, 3e jour",
+        "etat/maisons/maison-rupea/documents/books/registre-de-rupea.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.3",
+        "ressources-et-populations",
+        "Réserve de sang de la table et tribut de Homorod",
+        "Citadelle de Rupea (cave sous la table) et village de Homorod",
+        "Teodor (tient les comptes) sous le regard d’Anselm",
+        "9 nuits de table en réserve ; Homorod fournit 3 bandes de vivants par lune.",
+        "9 nuits (plancher 0, plafond 30) ; 3 bandes (seuil critique à 2).",
+        "Nourrit le maître, Teodor et Stanca. Prélèvements pesés pour éviter de vider Homorod.",
+        "etat/maisons/maison-rupea/documents/mains.json",
+        "Saignée d’hiver fixée le 1er jour de la 12e lune.",
+        "établi",
+        "etat/maisons/maison-rupea/documents/mains.json",
+        "Teodor et Anselm connaissent les comptes ; les villageois subissent le tribut.",
+        "an 1, 11e lune, 3e jour",
+        "etat/maisons/maison-rupea/documents/mains.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.4",
+        "organisations-et-dispositifs",
+        "Dispositif des goules de Rupea (Stanca et la goule Radu)",
+        "Citadelle de Rupea, corps de garde, ville basse et routes",
+        "Anselm (maître suprême) ; Teodor (suivi en permanence)",
+        "Stanca suit Teodor pas à pas la nuit ; Radu (goule de messagerie) veille au corps de garde ; sentinelles aux portes.",
+        "Une poignée de goules asservies au sang d’Anselm depuis des décennies.",
+        "Surveillance de l’héritier, portage de plis discrets, garde de jour des accès.",
+        "etat/personnages.json (stanca) ; plans/rupea.json (corps-de-garde)",
+        "Stanca rend compte chaque nuit à 5h sur les remparts.",
+        "peint",
+        "canon/lore/anselm.md ; etat/personnages.json ; Radu peint pour l’acheminement des plis",
+        "Anselm commande ; Stanca et Radu obéissent aveuglément ; Teodor endure Stanca.",
+        "an 1, 11e lune, 3e jour",
+        "etat/personnages.json (pour Stanca)"
+      ]
+    },
+    {
+      "cellules": [
+        "R.5",
+        "usages-et-institutions",
+        "Le rituel de la table et le Masque de la méfiance",
+        "Salle de la table, citadelle de Rupea",
+        "Anselm",
+        "Repas nocturne quotidien de 19h03 à 21h00. Silence lourd, regards de côté, Teodor assis à gauche les yeux baissés.",
+        "Usage institutionnalisé depuis soixante ans.",
+        "Théâtre public manifestant la tyrannie froide du vieux seigneur devant les goules et les émissaires.",
+        "etat/routines.json (la-table) ; canon/lore/anselm.md §IV",
+        "Chaque nuit sans défaillance.",
+        "peint",
+        "canon/lore/anselm.md ; etat/routines.json",
+        "Tous les résidents et visiteurs de la citadelle en sont témoins.",
+        "an 1, 11e lune, 3e jour",
+        "etat/routines.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.6",
+        "situations-et-processus",
+        "Tribut de sang et magie versé à Radomir de Comăna",
+        "Bois de Comăna / Rupea",
+        "Radomir (buveur) / Anselm (bu)",
+        "Actif depuis huit ans. Chaque nuit, une fraction de la magie reçue par Anselm coule vers Radomir.",
+        "Lien de buveur à bu, connu de tout le pays.",
+        "Paiement d’une dette de défaite ; permet en réalité à Ilka de chasser sans être inquiétée.",
+        "etat/relations.json ; canon/lore/anselm.md §VI",
+        "Se poursuivra tant qu’Anselm ou Radomir veille.",
+        "établi",
+        "etat/relations.json ; canon/lore/anselm.md",
+        "Tout le pays sait qu’Anselm a été bu ; seul Anselm sait pourquoi il s’est laissé vaincre.",
+        "an 1, 11e lune, 3e jour",
+        "etat/relations.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.7",
+        "lieux-et-passages",
+        "Chemin muletier de Rupea à Ticușu Vechi par les collines",
+        "De Rupea vers Ticușu Vechi (vers l’ouest)",
+        "Inconnu (traversée de marches contestées)",
+        "Piste discrète de moyenne colline évitant les plaines ouvertes.",
+        "Environ 2 nuits de marche pour une goule rapide à pied.",
+        "Acheminement des lettres de mise en garde destinées à Ilka.",
+        "etat/lieux.json ; canon/map.json",
+        "À emprunter par la goule Radu pour porter le pli P.1.",
+        "peint",
+        "Déduction géographique cohérente avec canon/map.json et les délais de marche",
+        "Connu des messagers et goules de Rupea ; ignoré des PJ.",
+        "an 1, 11e lune, 3e jour",
+        "Description locale subordonnée aux routes régionales"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "id": "affaire-stanca",
+  "titre": "Les affaires de stanca",
+  "sous_titre": "Cahier stratégique personnel — préparation du monde et conduite de mes affaires",
+  "type": "affaire",
+  "tenu_par": "stanca",
+  "acteur_id": "stanca",
+  "prive": true,
+  "pages": [
+    "Une affaire durable par PNJ qui porte une stratégie. Plusieurs fins peuvent y coexister. Les catégories décrivent les dimensions à peindre, pas huit objectifs obligatoires. Ce cahier de simulation n’est pas la preuve d’un carnet physiquement fabriqué.",
+    "Je peux établir en préparation les détails ordinaires, personnes secondaires, objets, lieux, habitudes et ressources plausibles nécessaires à mon implantation, sans contredire le canon ni les faits acquis. Je marque chaque ajout comme peint. Un ajout conséquent doit avoir une provenance, des limites, des liens et des conséquences cohérents ; je ne fais pas surgir le moyen décisif qui efface mon problème. Un autre personnage reçoit sa fiche et sa propre session avant toute parole, décision ou action jouée.",
+    "Établi, peint, hypothèse, inconnu sont des statuts distincts. Peindre un état initial n’accomplit pas une action future. Fabriquer pendant le jeu exige matériaux, outils, compétence et durée ; une issue dépendant d’autrui reste ouverte. Mes croyances restent distinctes de la réalité, même si ma session contribue à préparer le monde.",
+    "Les adresses C.1, V.1, K.1 et P.1 sont locales à ce cahier. Ne pas inventer de numéro global ; utiliser les outils d’adressage si un contexte global est nécessaire. Les trous ci-dessous sont écrits par moi ; ils ne remplacent pas les trous calculés du graphe."
+  ],
+  "tables": [
+    {
+      "titre": "Ouverture",
+      "colonnes": [
+        "Champ",
+        "Contenu"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Porteur",
+            "stanca"
+          ]
+        },
+        {
+          "cellules": [
+            "Périmètre",
+            "Mes intérêts, mon implantation et les affaires que je poursuis : surveiller Teodor sans faillir et conserver ma place à la table du maître."
+          ]
+        },
+        {
+          "cellules": [
+            "État de préparation",
+            "Implantation peinte, fins et verrous posés, registre compagnon lié."
+          ]
+        },
+        {
+          "cellules": [
+            "Registre compagnon",
+            "registre-etats-stanca"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dimensions à peindre",
+      "colonnes": [
+        "Catégorie",
+        "Ce que je pose",
+        "Statut",
+        "Source ou provenance",
+        "Renvois"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "fins-et-doctrine",
+            "Ne jamais perdre Teodor de vue une seconde fois ; garder sa place à la table du maître Anselm ; rapporter fidèlement sans jamais chercher à comprendre.",
+            "établi",
+            "personnages.json, intentions.json",
+            "C.1, C.2"
+          ]
+        },
+        {
+          "cellules": [
+            "personnes-et-relations",
+            "Le maître Anselm (obéissance absolue, terreur de perdre la table) ; Teodor (trois pas derrière, ni haine ni pitié) ; Doina sa vieille mère à la ville basse (lavandière infirme) ; Radu le sergent du pont-levis ; Mircea le tavernier du Corbeau Noir.",
+            "peint",
+            "relations.json, registre-etats-stanca",
+            "registre:gens-ville-basse"
+          ]
+        },
+        {
+          "cellules": [
+            "pouvoir-et-acces",
+            "Accès permanent aux couloirs, escaliers et antichambres de la citadelle ; accès aux remparts vers l'aube pour le rapport ; accès à la chambre de Teodor de jour ; porte basse et chemins de la ville basse.",
+            "établi",
+            "routines.json, personnages.json",
+            "registre:lieux-rupea"
+          ]
+        },
+        {
+          "cellules": [
+            "moyens-materiels",
+            "Son corps infatigable de goule nourrie du sang du maître ; son habit de laine grise et ses semelles usées ; la paillasse chez sa mère sous le rocher.",
+            "peint",
+            "personnages.json",
+            "M.1, M.2"
+          ]
+        },
+        {
+          "cellules": [
+            "savoirs-et-secrets",
+            "Sait compter les marches et reconnaître les pas ; sait que Teodor a été seul une heure le mois dernier dans la ville basse (faute cachée) ; sait que Sever est venu le mois dernier ; ignore le contenu des livres et parchemins.",
+            "établi",
+            "personnages.json, intentions.json",
+            "V.1, V.2"
+          ]
+        },
+        {
+          "cellules": [
+            "engagements-et-temps",
+            "Routine nocturne stricte (17h-7h derrière Teodor, 5h rapport aux remparts) ; matinée à la porte et sommeil chez sa mère ; après-midi aux auberges de la ville basse ; fouille de la chambre de Teodor tous les dix jours.",
+            "établi",
+            "routines.json, intentions.json",
+            "P.1, P.2"
+          ]
+        },
+        {
+          "cellules": [
+            "strategie-et-alternatives",
+            "Coller aux pas de Teodor pour ne laisser aucun interstice à Sever ; surveiller les arrivées aux portes de jour ; si Teodor s'écarte, resserrer la marche ; si le maître commande ailleurs, obéir sans discuter.",
+            "établi",
+            "intentions.json",
+            "K.1, K.2"
+          ]
+        },
+        {
+          "cellules": [
+            "zones-a-peindre",
+            "L'itinéraire quotidien entre citadelle et ville basse, la cour basse, les serviteurs vivants et goules de corvée, l'auberge du Corbeau Noir où descendent les voyageurs.",
+            "peint",
+            "registre-etats-stanca",
+            "registre:lieux-et-passages"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "N°",
+        "L'état visé",
+        "Ce qui doit être vrai",
+        "La preuve",
+        "Jour dû",
+        "Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "C.1",
+            "Teodor sous surveillance ininterrompue chaque nuit",
+            "Stanca ne perd pas de vue Teodor entre 17h00 et 7h00, sauf ordre exprès d'Anselm",
+            "Rapports quotidiens complets remis au maître Anselm aux remparts sans omission",
+            "chaque jour",
+            "vitale"
+          ]
+        },
+        {
+          "cellules": [
+            "C.2",
+            "La place préservée à la table du maître",
+            "Le maître continue de donner son sang à Stanca et ne la fait ni chasser ni détruire",
+            "Stanca appelée à la table pour boire sa part chaque nuit de service",
+            "chaque jour",
+            "vitale"
+          ]
+        },
+        {
+          "cellules": [
+            "C.3",
+            "Sever repéré et signalé dès son approche",
+            "La venue de Sever à Rupea est connue de Stanca avant qu'il ne puisse approcher Teodor seul",
+            "Alerte immédiate transmise à Anselm sur les remparts ou à sa chambre",
+            "an 1, lune 11, jour 15",
+            "haute"
+          ]
+        },
+        {
+          "cellules": [
+            "C.4",
+            "La chambre de Teodor tenue nette d'écrits secrets",
+            "Aucun livre, billet ou registre physique dissimulé par Teodor dans sa chambre",
+            "Fouille régulière tous les dix jours et saisie immédiate pour le maître",
+            "an 1, lune 11, jour 10",
+            "moyenne"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": [
+        "N°",
+        "Le verrou",
+        "Bloque",
+        "La preuve"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "V.1",
+            "Ordre supérieur d'Anselm éloignant Stanca",
+            "C.1, C.3",
+            "Le maître lui commande une corvée lointaine ou un pli (comme il y a 15 ans) ; tant qu'elle part, Teodor est sans garde"
+          ]
+        },
+        {
+          "cellules": [
+            "V.2",
+            "L'écart et la dissimulation de Teodor en foule",
+            "C.1",
+            "Teodor profite d'une ruelle de la ville basse ou d'un passage pour fausser compagnie, comme le mois dernier"
+          ]
+        },
+        {
+          "cellules": [
+            "V.3",
+            "Illettrisme absolu de Stanca",
+            "C.4",
+            "Incapable de lire un mot, elle ne peut évaluer la gravité d'un billet ni savoir ce qu'un visiteur remet sous le manteau"
+          ]
+        },
+        {
+          "cellules": [
+            "V.4",
+            "Terreur d'avouer l'heure perdue du mois dernier",
+            "C.2",
+            "Si le maître apprend qu'elle a perdu Teodor une heure à la ville basse, elle craint d'être jetée du haut du rocher"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "N°",
+        "La clef",
+        "Ouvre",
+        "Prix et limites"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "K.1",
+            "Resserrer la distance à trois pas stricts et compter les marches",
+            "V.2 (vers C.1)",
+            "Prix : fatigue nerveuse, risque d'irriter Teodor ; limite : ne peut entrer dans son lit ni franchir une porte fermée au verrou"
+          ]
+        },
+        {
+          "cellules": [
+            "K.2",
+            "Guet diurne à la porte de la citadelle et aux auberges",
+            "V.1, V.2 (vers C.3)",
+            "Prix : sacrifie son repos ; limite : ne voit que les arrivées visibles par la route du pont et le marché"
+          ]
+        },
+        {
+          "cellules": [
+            "K.3",
+            "Saisie aveugle de tout bout de parchemin trouvé",
+            "V.3 (vers C.4)",
+            "Prix : si c'est un compte ordinaire du domaine, Teodor la rudoyera ; limite : porter tout papier directement au maître sans intermédiaire"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "N°",
+        "L'action",
+        "Réalise",
+        "Dépend de",
+        "Qui",
+        "Où",
+        "La preuve",
+        "État",
+        "Jour dû",
+        "Jour fait",
+        "Note"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "P.1",
+            "Rapport nocturne au maître sur les remparts",
+            "C.1, C.2",
+            "Avoir suivi Teodor toute la nuit sans accroc",
+            "stanca",
+            "remparts de Rupea",
+            "Anselm écoute sur les remparts vers cinq heures et valide la nuit",
+            "a-faire",
+            "an 1, lune 11, jour 4",
+            "",
+            "Étape quotidienne inscrite dans intentions.json (stanca-compte)"
+          ]
+        },
+        {
+          "cellules": [
+            "P.2",
+            "Guet du matin à la porte de la citadelle (7h-8h)",
+            "C.3",
+            "Fin de la garde de nuit",
+            "stanca",
+            "porte de Rupea",
+            "Relevé des porteurs, cavaliers et piétons sortant ou approchant",
+            "a-faire",
+            "an 1, lune 11, jour 3",
+            "",
+            "Créneau de routine"
+          ]
+        },
+        {
+          "cellules": [
+            "P.3",
+            "Reconnaissance à la ville basse et au Corbeau Noir (13h-16h)",
+            "C.3",
+            "Repos du matin chez sa mère terminé",
+            "stanca",
+            "ville-basse de Rupea",
+            "S'assurer qu'aucun envoyé drapé de voile n'a pris logis sous le rocher",
+            "a-faire",
+            "an 1, lune 11, jour 3",
+            "",
+            "Créneau de routine"
+          ]
+        },
+        {
+          "cellules": [
+            "P.4",
+            "Fouille de jour de la chambre de Teodor",
+            "C.4",
+            "Teodor endormi du sommeil de jour",
+            "stanca",
+            "chambre de Teodor",
+            "Inspection sous la paillasse et fentes du mur ; aucun papier trouvé ou remise au maître",
+            "a-faire",
+            "an 1, lune 11, jour 10",
+            "",
+            "Prévu tous les dix jours selon intentions.json (stanca-chambre)"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Stratégie et alternatives",
+      "colonnes": [
+        "Fin",
+        "Approche",
+        "Pourquoi",
+        "Alternative",
+        "Changer si",
+        "Moyens engagés"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "C.1, C.2",
+            "Ombre muette et obstinée : trois pas derrière, pas un mot superflu, rapport à l'aube.",
+            "Le maître exige d'avoir l'œil sur Teodor ; la fidélité aveugle est la seule garantie de ne pas être jetée hors de la table.",
+            "Si Teodor s'isole dans un lieu clos interdit à la goule, attendre devant l'unique issue en comptant les battements.",
+            "Si le maître m'ordonne de partir porter un pli ou fouiller ailleurs, obéir immédiatement sans poser de question.",
+            "Son temps, ses jambes de goule infatigable, sa voix brève pour dire les faits sans broder."
+          ]
+        },
+        {
+          "cellules": [
+            "C.3",
+            "Surveillance avancée du bas du rocher pendant les creux de jour.",
+            "Sever ne viendra pas par le ciel : il viendra par la route ou les auberges. Le repérer en bas avant qu'il ne gravisse le rocher.",
+            "Demander discrètement aux serfs du pont s'ils ont vu un homme courtois parlant bas.",
+            "Si Sever est annoncé officiellement par le maître, ne plus quitter le couloir de Teodor d'une semelle.",
+            "Ses passages quotidiens à la porte et au marché de la ville basse."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Moyens disponibles",
+      "colonnes": [
+        "Référence",
+        "Nature",
+        "Accès réel",
+        "Quantité ou portée",
+        "Limites",
+        "Provenance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "M.1",
+            "Condition de goule liée",
+            "Corps de Stanca",
+            "Infatigable la nuit, veille de jour partielle, résistance au froid",
+            "Besoin impérieux de boire à la table du maître pour subsister ; esprit obéissant incapable de ruse complexe",
+            "Étreinte/nourriture d'Anselm depuis 27 ans"
+          ]
+        },
+        {
+          "cellules": [
+            "M.2",
+            "Statut d'ombre reconnue à la citadelle",
+            "Tous passages intérieurs autorisés sauf chambres scellées",
+            "Citadelle haute, escaliers, coursives, remparts",
+            "Ne peut forcer une porte fermée de l'intérieur par un vampire",
+            "Ordre ancien d'Anselm"
+          ]
+        },
+        {
+          "cellules": [
+            "M.3",
+            "Réseau familial et d'attache à la ville basse",
+            "Doina (mère), connaissances parmi les lavandières et valets",
+            "Bourg sous le rocher",
+            "Vivants craintifs, bavards mais terrifiés par les maîtres",
+            "Origine natale à Rupea"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Trous de préparation",
+      "colonnes": [
+        "Trou",
+        "Catégorie",
+        "Ce qui en dépend",
+        "Traitement",
+        "Qui",
+        "Échéance",
+        "État",
+        "Résultat"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Date précise de la venue de Sever à Rupea",
+            "savoirs-et-secrets",
+            "C.3, P.3",
+            "Veille active aux portes et auberges",
+            "stanca",
+            "an 1, lune 11, jour 15",
+            "ouvert",
+            "Inscrit comme événement à venir (vers le 15)"
+          ]
+        },
+        {
+          "cellules": [
+            "Identité de l'intermédiaire qui a favorisé la rencontre d'il y a 15 ans",
+            "savoirs-et-secrets",
+            "V.1",
+            "Inconnu de Stanca : elle a obéi à l'ordre d'Anselm sans savoir qui avait suggéré la corvée",
+            "stanca",
+            "indéterminée",
+            "clos",
+            "Ignoré par le personnage"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Connaissances et croyances",
+      "colonnes": [
+        "Sujet",
+        "Ce que je crois",
+        "Source reçue",
+        "Ce que j’ignore",
+        "Référence de réalité"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Ordre de surveillance",
+            "Le maître a ordonné de suivre Teodor partout, la nuit, sans répit ; c'est la condition pour garder la table.",
+            "Anselm de vive voix",
+            "Pourquoi le maître surveille Teodor (amour secret, protection ou paranoïa)",
+            "personnages.json, lore/teodor.md"
+          ]
+        },
+        {
+          "cellules": [
+            "Sever l'envoyé voilé",
+            "Un étranger dangereux qui parle bas et cherche Teodor sans goule.",
+            "Vu il y a 15 ans et le mois dernier",
+            "Qu'il prépare une malédiction avec l'Abbé pour frapper Anselm",
+            "lore/teodor.md, evenements.json"
+          ]
+        },
+        {
+          "cellules": [
+            "Le registre de Teodor",
+            "Elle croit que Teodor pourrait cacher des livres ou des listes physiques.",
+            "Soupçon transmis",
+            "Teodor n'écrit rien : il récite tout de mémoire chaque nuit",
+            "lore/teodor.md, intentions.json"
+          ]
+        },
+        {
+          "cellules": [
+            "La chambre haute du maître",
+            "Elle croit que le registre du maître contient des noms et des châtiments effrayants.",
+            "Rumeurs de goules",
+            "La dernière page porte ce qu'Anselm doit à ses enfants et non des rancunes",
+            "lore/anselm.md, intentions.json"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Résultats et révisions",
+      "colonnes": [
+        "Date",
+        "Fait ou découverte",
+        "Preuve",
+        "Ce que je change",
+        "Renvois"
+      ],
+      "lignes": []
+    }
+  ]
+}

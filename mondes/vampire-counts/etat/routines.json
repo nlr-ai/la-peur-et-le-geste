@@ -48,11 +48,152 @@
      "salle": "@dortoir"
     }
    ]
+  },
+  "goule": {
+   "nom": "La goule qui suit Teodor : la nuit derriere lui, le jour a la porte et a la ville basse",
+   "dortoir": {
+    "salle": "ville-basse",
+    "lieu": "La ville basse, sous le rocher de Rupea"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 420,
+     "salle": "@suit",
+     "pourquoi": "trois pas derriere Teodor ; vers cinq heures, un mot au maitre sur les remparts"
+    },
+    {
+     "de": 420,
+     "a": 480,
+     "salle": "porte",
+     "lieu": "La porte, citadelle de Rupea",
+     "pourquoi": "le jour se leve : elle voit qui sort, quels porteurs partent"
+    },
+    {
+     "de": 480,
+     "a": 780,
+     "salle": "@dortoir",
+     "pourquoi": "elle dort, le matin, chez sa mere a la ville basse"
+    },
+    {
+     "de": 780,
+     "a": 960,
+     "salle": "ville-basse",
+     "lieu": "La ville basse, sous le rocher de Rupea",
+     "pourquoi": "le marche, les auberges : qui est arrive, qui demande la citadelle"
+    },
+    {
+     "de": 960,
+     "a": 1020,
+     "salle": "porte",
+     "lieu": "La porte, citadelle de Rupea",
+     "pourquoi": "avant le crepuscule, elle compte qui est entre"
+    },
+    {
+     "de": 1020,
+     "a": 1440,
+     "salle": "@suit",
+     "pourquoi": "Teodor s'eveille : elle l'attend a sa porte et ne le quitte plus"
+    }
+   ]
+  },
+  "seigneur-lointain": {
+   "nom": "La nuit d'un seigneur dans son siege",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 400,
+     "salle": "@poste",
+     "pourquoi": "ses affaires de la nuit"
+    },
+    {
+     "de": 400,
+     "a": 1040,
+     "salle": "@dortoir",
+     "ferme": true,
+     "pourquoi": "le jour"
+    },
+    {
+     "de": 1040,
+     "a": 1440,
+     "salle": "@poste"
+    }
+   ]
   }
  },
  "gens": {
   "anselm": {
    "modele": "maitre"
+  },
+  "stanca": {
+   "modele": "goule",
+   "suit": "teodor"
+  },
+  "sever": {
+   "modele": "seigneur-lointain",
+   "dortoir": {
+    "salle": "cellule-sever",
+    "lieu": "La cellule de Sever, Odorheiu Secuiesc"
+   },
+   "poste": {
+    "salle": "chapelle-odorheiu",
+    "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc"
+   }
+  },
+  "nicodim": {
+   "modele": "seigneur-lointain",
+   "dortoir": {
+    "salle": "crypte-odorheiu",
+    "lieu": "Sous la chapelle, Odorheiu Secuiesc"
+   },
+   "poste": {
+    "salle": "chapelle-odorheiu",
+    "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc"
+   }
+  },
+  "radomir": {
+   "modele": "seigneur-lointain",
+   "dortoir": {
+    "salle": "tanniere-comana",
+    "lieu": "Le logis de Radomir, Comăna de Jos"
+   },
+   "poste": {
+    "salle": "lisiere-comana",
+    "lieu": "La lisiere des bois de Comăna"
+   }
+  },
+  "ilka": {
+   "modele": "seigneur-lointain",
+   "dortoir": {
+    "salle": "chambre-ilka",
+    "lieu": "La chambre d'Ilka, Ticușu Vechi"
+   },
+   "poste": {
+    "salle": "salle-ticusu",
+    "lieu": "La salle d'Ilka, Ticușu Vechi"
+   }
+  },
+  "konstantin": {
+   "modele": "seigneur-lointain",
+   "dortoir": {
+    "salle": "chambre-konstantin",
+    "lieu": "La chambre de Konstantin, Dealu Frumos"
+   },
+   "poste": {
+    "salle": "salle-dealu",
+    "lieu": "La salle de Konstantin, Dealu Frumos"
+   }
+  },
+  "cendrik": {
+   "modele": "seigneur-lointain",
+   "dortoir": {
+    "salle": "crypte-cincu",
+    "lieu": "La crypte sous l'eglise fortifiee, Cincu"
+   },
+   "poste": {
+    "salle": "crypte-cincu",
+    "lieu": "La crypte sous l'eglise fortifiee, Cincu"
+   }
   }
  }
 }

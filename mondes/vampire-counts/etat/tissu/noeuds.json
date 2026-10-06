@@ -1,0 +1,704 @@
+{
+ "pers:anselm": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Anselm",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "rupea",
+  "objectifs": [
+   {
+    "but": "Que ses enfants lui survivent, tous",
+    "priorite": 1
+   },
+   {
+    "but": "Que personne ne sache qu'il les aime",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:anselm-lettre-ilka": {
+  "genre": "etape",
+  "ou": "anselm",
+  "quoi": "Ecrire trois lignes a Ilka sur Cendrik de Cincu, et les faire porter p",
+  "etat": "a-faire",
+  "jours_restants": 2,
+  "cout": [
+   "une goule sure pour la route",
+   "deux nuits de route"
+  ],
+  "depend_de": []
+ },
+ "pers:sever": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Sever",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "odorheiu-secuiesc",
+  "objectifs": [
+   {
+    "but": "Faire entrer Rupea dans le livre de son pere",
+    "priorite": 1
+   },
+   {
+    "but": "Que Teodor laisse une porte ouverte",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:sever-retour": {
+  "genre": "etape",
+  "ou": "sever",
+  "quoi": "Faire la route d'Odorheiu a Rupea et chercher Teodor sans goule, dans ",
+  "etat": "a-faire",
+  "jours_restants": 12,
+  "cout": [
+   "une raison de passer a Rupea que le maitre n'interroge pas",
+   "une nuit ou Teodor est seul"
+  ],
+  "depend_de": []
+ },
+ "pers:nicodim": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Nicodim",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "odorheiu-secuiesc",
+  "objectifs": [
+   {
+    "but": "Que tout l'est soit inscrit dans ses livres",
+    "priorite": 1
+   },
+   {
+    "but": "Qu'aucune ligne n'y reste ouverte",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:nicodim-malediction": {
+  "genre": "etape",
+  "ou": "nicodim",
+  "quoi": "Lancer la malediction contre Anselm la nuit ou la porte de la citadell",
+  "etat": "a-faire",
+  "jours_restants": 20,
+  "cout": [
+   "la nuit donnee par Teodor",
+   "assez de magie et de sang mis dans le coup pour valoir la defense de Rupea"
+  ],
+  "depend_de": [
+   "sever-retour"
+  ]
+ },
+ "pers:radomir": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Radomir",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "comana-de-jos",
+  "objectifs": [
+   {
+    "but": "Se maitriser jusqu'au bout",
+    "priorite": 1
+   },
+   {
+    "but": "Que ses bois restent pleins de vivants",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:radomir-os": {
+  "genre": "etape",
+  "ou": "radomir",
+  "quoi": "Faire deposer a la lisiere les os de loups et d'ours du printemps",
+  "etat": "a-faire",
+  "jours_restants": 120,
+  "cout": [
+   "des goules",
+   "des os"
+  ],
+  "depend_de": []
+ },
+ "pers:ilka": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Ilka",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "ticusu-vechi",
+  "objectifs": [
+   {
+    "but": "Rentrer un jour a Rupea, pure, et y etre reconnue",
+    "priorite": 1
+   },
+   {
+    "but": "Ne jamais meler son sang",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:ilka-hiver": {
+  "genre": "etape",
+  "ou": "ilka",
+  "quoi": "Passer l'hiver sur ce que rendent ses villages, et boire dans les bois",
+  "etat": "a-faire",
+  "jours_restants": 30,
+  "cout": [
+   "des bandes de vivants",
+   "les bois de Comăna ouverts"
+  ],
+  "depend_de": []
+ },
+ "pers:konstantin": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Konstantin",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "dealu-frumos",
+  "objectifs": [
+   {
+    "but": "Boire le Sepulcral qui a bu Gontran",
+    "priorite": 1
+   },
+   {
+    "but": "Ne plus manquer quand on a besoin de lui",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:konstantin-nom": {
+  "genre": "etape",
+  "ou": "konstantin",
+  "quoi": "Chercher vers l'est le Sepulcral qui fait tomber les cendres",
+  "etat": "a-faire",
+  "jours_restants": 25,
+  "cout": [
+   "des nuits loin de Dealu Frumos",
+   "des gens qui parlent"
+  ],
+  "depend_de": []
+ },
+ "pers:cendrik": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Cendrik",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "cincu",
+  "objectifs": [
+   {
+    "but": "Les bois verts du sud",
+    "priorite": 1
+   },
+   {
+    "but": "Du sang pour toute sa branche",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:cendrik-ticusu": {
+  "genre": "etape",
+  "ou": "cendrik",
+  "quoi": "Faire chanter ses Ritualistes au bord de la terre de Ticușu, d'un arpe",
+  "etat": "a-faire",
+  "jours_restants": 30,
+  "cout": [
+   "des Ritualistes",
+   "la magie bue a Gontran"
+  ],
+  "depend_de": []
+ },
+ "etape:cendrik-comana": {
+  "genre": "etape",
+  "ou": "cendrik",
+  "quoi": "Atteindre la lisiere des bois de Comăna et y chasser",
+  "etat": "a-faire",
+  "jours_restants": 180,
+  "cout": [
+   "la terre de Ticușu tombee"
+  ],
+  "depend_de": [
+   "cendrik-ticusu"
+  ]
+ },
+ "pers:stanca": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Stanca",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "rupea",
+  "objectifs": [
+   {
+    "but": "Ne pas perdre Teodor de vue une seule nuit",
+    "priorite": 1
+   },
+   {
+    "but": "Garder sa place a la table du maitre",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:stanca-compte": {
+  "genre": "etape",
+  "ou": "stanca",
+  "quoi": "Rendre compte au maitre, sur les remparts vers cinq heures, de la nuit",
+  "etat": "a-faire",
+  "jours_restants": 1,
+  "cout": [
+   "une nuit entiere derriere Teodor sans le perdre",
+   "le maitre sur les remparts avant l'aube"
+  ],
+  "depend_de": []
+ },
+ "etape:stanca-chambre": {
+  "genre": "etape",
+  "ou": "stanca",
+  "quoi": "Fouiller la chambre de Teodor pendant son sommeil de jour, sous la pai",
+  "etat": "a-faire",
+  "jours_restants": 7,
+  "cout": [
+   "Teodor endormi dans sa chambre",
+   "une heure de jour sans autre ordre du maitre"
+  ],
+  "depend_de": []
+ },
+ "main:la-table-de-rupea": {
+  "genre": "compte",
+  "ou": "mains",
+  "quoi": "Le sang de la table de Rupea, et ce que Homorod envoie dans les bois"
+ },
+ "la-table-de-rupea.nuits-de-table": {
+  "genre": "mesure",
+  "ou": "la-table-de-rupea",
+  "quoi": "nuits de sang en reserve pour la table (le maitre et le pensionnaire)"
+ },
+ "la-table-de-rupea.bandes-de-homorod": {
+  "genre": "mesure",
+  "ou": "la-table-de-rupea",
+  "quoi": "bandes que Homorod envoie dans les bois par lune"
+ },
+ "ev:sever-revient": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Sever arrive a Rupea pour une affaire de passage et cherche Teodor seu"
+ },
+ "ev:saignee-d-hiver": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "A la table, Anselm fixe ce que Rupea prendra a Homorod pendant l'hiver"
+ },
+ "pers:teodor": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Teodor",
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "rupea",
+  "objectifs": [
+   {
+    "but": "Survivre a son pere",
+    "priorite": 1
+   },
+   {
+    "but": "Que Homorod cesse de saigner",
+    "priorite": 2
+   }
+  ]
+ },
+ "pers:ottilia": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Ottilia",
+  "etat": "dormant",
+  "condition": "libre",
+  "lieu_id": "odorheiu-secuiesc",
+  "objectifs": [
+   {
+    "but": "Echapper aux Stryges",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:vlaicu": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Vlaicu",
+  "etat": "dormant",
+  "condition": "libre",
+  "objectifs": [
+   {
+    "but": "Que la Bete regne",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:gontran": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Gontran",
+  "etat": "dormant",
+  "condition": "libre",
+  "lieu_id": "agnita",
+  "objectifs": [
+   {
+    "but": "Taire qu'il a ete bu",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:hedwig": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Hedwig la Grise",
+  "etat": "mort",
+  "condition": "libre",
+  "lieu_id": "rupea",
+  "objectifs": []
+ },
+ "pers:margit": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Margit",
+  "etat": "mort",
+  "condition": "libre",
+  "lieu_id": "rupea",
+  "objectifs": []
+ },
+ "lieu:rupea": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Rupea",
+  "jours_de_pr": 0,
+  "region": "La Terre des Cinq",
+  "type_lieu": "chateau"
+ },
+ "lieu:homorod": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Homorod",
+  "jours_de_pr": 0,
+  "region": "La Terre des Cinq",
+  "type_lieu": "village"
+ },
+ "lieu:comana-de-jos": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Comăna de Jos",
+  "jours_de_pr": 1,
+  "region": "La Terre des Cinq",
+  "type_lieu": "ville"
+ },
+ "lieu:ticusu-vechi": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Ticușu Vechi",
+  "jours_de_pr": 1,
+  "region": "La Terre des Cinq",
+  "type_lieu": "ville"
+ },
+ "lieu:cincu": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Cincu",
+  "jours_de_pr": 1,
+  "region": "La Terre des Cinq",
+  "type_lieu": "ville"
+ },
+ "lieu:odorheiu-secuiesc": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Odorheiu Secuiesc",
+  "jours_de_pr": 1,
+  "region": "La Terre des Cinq",
+  "type_lieu": "ville"
+ },
+ "lieu:agnita": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Agnita",
+  "jours_de_pr": 2,
+  "region": "La Terre des Cinq",
+  "type_lieu": "ville"
+ },
+ "lieu:dealu-frumos": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Dealu Frumos",
+  "jours_de_pr": 2,
+  "region": "La Terre des Cinq",
+  "type_lieu": "ville"
+ },
+ "lieu:sighisoara": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Sighișoara",
+  "jours_de_pr": 1,
+  "region": "La Terre des Cinq",
+  "type_lieu": "ville"
+ },
+ "lieu:medias": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Mediaș",
+  "jours_de_pr": 3,
+  "region": "La Terre des Cinq",
+  "type_lieu": "ville"
+ },
+ "lieu:targu-mures": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Târgu Mureș",
+  "jours_de_pr": 3,
+  "region": "La Terre des Cinq",
+  "type_lieu": "ville"
+ },
+ "lieu:tarnaveni": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Târnăveni",
+  "jours_de_pr": 3,
+  "region": "La Terre des Cinq",
+  "type_lieu": "ville"
+ },
+ "lieu:cristuru-secuiesc": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Cristuru Secuiesc",
+  "jours_de_pr": 1,
+  "region": "La Terre des Cinq",
+  "type_lieu": "ville"
+ },
+ "echelle:scene": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "scene"
+ },
+ "echelle:orbite": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "orbite"
+ },
+ "echelle:royaume": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "royaume"
+ },
+ "neant": {
+  "genre": "rien",
+  "ou": "schema",
+  "quoi": "ce qui ne coute rien"
+ },
+ "a_designer": {
+  "genre": "vacant",
+  "ou": "schema",
+  "quoi": "aucun titulaire — case ouverte"
+ },
+ "unite:homme": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "homme"
+ },
+ "unite:hommes": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "hommes"
+ },
+ "unite:quille": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "quille"
+ },
+ "unite:quilles": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "quilles"
+ },
+ "unite:coque": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "coque"
+ },
+ "unite:coques": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "coques"
+ },
+ "unite:cheval": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "cheval"
+ },
+ "unite:chevaux": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "chevaux"
+ },
+ "unite:corbeau": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "corbeau"
+ },
+ "unite:corbeaux": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "corbeaux"
+ },
+ "unite:compagnie": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "compagnie"
+ },
+ "unite:compagnies": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "compagnies"
+ },
+ "unite:emissaire": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "emissaire"
+ },
+ "unite:emissaires": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "emissaires"
+ },
+ "unite:clerc": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "clerc"
+ },
+ "unite:clercs": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "clercs"
+ },
+ "unite:barque": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "barque"
+ },
+ "unite:barques": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "barques"
+ },
+ "unite:mesure de sang": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "mesure de sang"
+ },
+ "unite:mesures de sang": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "mesures de sang"
+ },
+ "perso:anselm:affaire-anselm": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:anselm",
+  "quoi": "Les affaires de anselm",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "anselm",
+  "livre_id": "affaire-anselm",
+  "namespace": "personnel"
+ },
+ "perso:cendrik:affaire-cendrik": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:cendrik",
+  "quoi": "Les affaires de cendrik",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "cendrik",
+  "livre_id": "affaire-cendrik",
+  "namespace": "personnel"
+ },
+ "perso:ilka:affaire-ilka": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:ilka",
+  "quoi": "Les affaires de ilka",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "ilka",
+  "livre_id": "affaire-ilka",
+  "namespace": "personnel"
+ },
+ "perso:konstantin:affaire-konstantin": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:konstantin",
+  "quoi": "Les affaires de konstantin",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "konstantin",
+  "livre_id": "affaire-konstantin",
+  "namespace": "personnel"
+ },
+ "perso:nicodim:affaire-nicodim": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:nicodim",
+  "quoi": "Les affaires de nicodim",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "nicodim",
+  "livre_id": "affaire-nicodim",
+  "namespace": "personnel"
+ },
+ "perso:radomir:affaire-radomir": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:radomir",
+  "quoi": "Les affaires de radomir",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "radomir",
+  "livre_id": "affaire-radomir",
+  "namespace": "personnel"
+ },
+ "perso:sever:affaire-sever": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:sever",
+  "quoi": "Les affaires de sever",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "sever",
+  "livre_id": "affaire-sever",
+  "namespace": "personnel"
+ },
+ "perso:stanca:affaire-stanca": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:stanca",
+  "quoi": "Les affaires de stanca",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "stanca",
+  "livre_id": "affaire-stanca",
+  "namespace": "personnel"
+ }
+}

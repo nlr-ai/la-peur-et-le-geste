@@ -1,0 +1,490 @@
+{
+  "id": "affaire-sever",
+  "titre": "Les affaires de sever",
+  "sous_titre": "Cahier stratégique personnel — préparation du monde et conduite de mes affaires",
+  "type": "affaire",
+  "tenu_par": "sever",
+  "acteur_id": "sever",
+  "prive": true,
+  "pages": [
+    "Une affaire durable par PNJ qui porte une stratégie. Plusieurs fins peuvent y coexister. Les catégories décrivent les dimensions à peindre, pas huit objectifs obligatoires. Ce cahier de simulation n’est pas la preuve d’un carnet physiquement fabriqué.",
+    "Je peux établir en préparation les détails ordinaires, personnes secondaires, objets, lieux, habitudes et ressources plausibles nécessaires à mon implantation, sans contredire le canon ni les faits acquis. Je marque chaque ajout comme peint. Un ajout conséquent doit avoir une provenance, des limites, des liens et des conséquences cohérents ; je ne fais pas surgir le moyen décisif qui efface mon problème. Un autre personnage reçoit sa fiche et sa propre session avant toute parole, décision ou action jouée.",
+    "Établi, peint, hypothèse, inconnu sont des statuts distincts. Peindre un état initial n’accomplit pas une action future. Fabriquer pendant le jeu exige matériaux, outils, compétence et durée ; une issue dépendant d’autrui reste ouverte. Mes croyances restent distinctes de la réalité, même si ma session contribue à préparer le monde.",
+    "Les adresses C.1, V.1, K.1 et P.1 sont locales à ce cahier. Ne pas inventer de numéro global ; utiliser les outils d’adressage si un contexte global est nécessaire. Les trous ci-dessous sont écrits par moi ; ils ne remplacent pas les trous calculés du graphe."
+  ],
+  "tables": [
+    {
+      "titre": "Ouverture",
+      "colonnes": [
+        "Champ",
+        "Contenu"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Porteur",
+            "sever"
+          ]
+        },
+        {
+          "cellules": [
+            "Périmètre",
+            "Mes missions pour le compte de mon père Nicodim, mon implantation à Odorheiu et mes allées et venues discrètes à Rupea."
+          ]
+        },
+        {
+          "cellules": [
+            "État de préparation",
+            "Complété lors de la préparation initiale du monde."
+          ]
+        },
+        {
+          "cellules": [
+            "Registre compagnon",
+            "registre-etats-sever"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dimensions à peindre",
+      "colonnes": [
+        "Catégorie",
+        "Ce que je pose",
+        "Statut",
+        "Source ou provenance",
+        "Renvois"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "fins-et-doctrine",
+            "Faire entrer Rupea dans le livre de mon père Nicodim sans bruit ni fureur d’armes ; que Teodor laisse une porte ouverte à la malédiction ; servir fidèlement le dessein de mon sire et porter ses promesses.",
+            "établi",
+            "personnages.json, intentions.json",
+            "C.1, C.2"
+          ]
+        },
+        {
+          "cellules": [
+            "personnes-et-relations",
+            "Nicodim dit l’Abbé (mon sire et maître absolu) ; Teodor (pensionnaire craintif, héritier selon le droit du sire, débiteur qui s’ignore) ; Ottilia (la dormeuse sous la chapelle) ; Anselm (seigneur de Rupea, cible de la malédiction) ; frère Paul (moine copiste goule à la chapelle) ; Mihai (palefrenier vivant des relais discrets).",
+            "peint",
+            "relations.json, registre-etats-sever",
+            "registre:gens-odorheiu"
+          ]
+        },
+        {
+          "cellules": [
+            "pouvoir-et-acces",
+            "Libre circulation sous le couvert forestier et les chemins discrets entre Odorheiu et Rupea ; cellule de veille dans la chapelle d’Odorheiu ; droit de cité feutré et toléré à la ville basse de Rupea (auprès du Corbeau Noir) sans éveiller le ban immédiat.",
+            "établi",
+            "lieux.json, chemins.json",
+            "registre:lieux-et-passages"
+          ]
+        },
+        {
+          "cellules": [
+            "moyens-materiels",
+            "Capuchon et manteau de drap gris sombre ne reflétant point la lune ; monture de relais ménagée au poste des bois de Homorod ; deux besaces étanches pour rouleaux de parchemin scellés ; dague fine sans éclat.",
+            "peint",
+            "maison-odorheiu",
+            "M.1, M.2"
+          ]
+        },
+        {
+          "cellules": [
+            "savoirs-et-secrets",
+            "Sait que Teodor tremble devant son père et n’a nul autre recours ; sait que la malédiction de Nicodim est prête et n’attend qu’une porte ouverte ; ignore qu’Anselm sait qu’il parle à Teodor ; ignore les hésitations de Teodor sur la nuit des bois du sud.",
+            "établi",
+            "intentions.json",
+            "V.1, V.2"
+          ]
+        },
+        {
+          "cellules": [
+            "engagements-et-temps",
+            "Retour fixé à Rupea au 15 de cette 11e lune (dans 12 jours) ; heures creuses passées en veille silencieuse à la chapelle d’Odorheiu (0h00-6h40 et 17h22-0h00) ; voyage de retour de deux nuits par les lisières.",
+            "établi",
+            "intentions.json, routines.json",
+            "P.1, P.2"
+          ]
+        },
+        {
+          "cellules": [
+            "strategie-et-alternatives",
+            "Parler bas, promettre refuge et maintien des droits à Teodor, obtenir la nuit et la porte sans menace ; si Teodor hésite, attendre trois nuits à la ville basse ; s’il refuse, ne pas braquer, promettre encore et rapporter à Nicodim pour changer de levier.",
+            "établi",
+            "intentions.json",
+            "K.1, K.2"
+          ]
+        },
+        {
+          "cellules": [
+            "zones-a-peindre",
+            "La cellule de Sever à la chapelle d’Odorheiu, le relais de chevaux des bois de Homorod, les serviteurs discrets de Nicodim (frère Paul, le palefrenier Mihai), les règles de marche nocturne discrète.",
+            "peint",
+            "registre-etats-sever",
+            "registre:lieux-et-passages"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "N°",
+        "L'état visé",
+        "Ce qui doit être vrai",
+        "La preuve",
+        "Jour dû",
+        "Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "C.1",
+            "Une nuit et une porte ouverte convenues avec Teodor",
+            "Teodor a désigné avec certitude une nuit où la porte de la citadelle sera déverrouillée et les goules tenues à distance",
+            "L’engagement verbal explicite de Teodor reçu sans témoin",
+            "an 1, lune 11, jour 16",
+            "haute"
+          ]
+        },
+        {
+          "cellules": [
+            "C.2",
+            "La malédiction de mon père Nicodim abattue sur Rupea",
+            "Anselm est frappé sans défense dans ses murs et Teodor lui succède en débiteur d’Odorheiu",
+            "Anselm détruit ou entré en torpeur, Rupea inscrite dans le grand livre de Nicodim",
+            "an 1, lune 11, jour 23",
+            "vitale"
+          ]
+        },
+        {
+          "cellules": [
+            "C.3",
+            "Préserver la confiance et la dépendance de Teodor envers moi",
+            "Teodor me regarde comme sa seule issue et ne divulgue rien à son père Anselm",
+            "Absence de dénonciation, poursuite des entrevues secrètes à la ville basse",
+            "permanent",
+            "haute"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": [
+        "N°",
+        "Le verrou",
+        "Bloque",
+        "La preuve"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "V.1",
+            "Surveillance pesante des goules d’Anselm (Stanca) autour de Teodor",
+            "C.1, C.3",
+            "Stanca suit Teodor à trois pas en tout lieu ; Teodor ne peut s’isoler sans ruse ou détour à la ville basse"
+          ]
+        },
+        {
+          "cellules": [
+            "V.2",
+            "Hésitation et terreur viscérale de Teodor à trahir son sire",
+            "C.1",
+            "Teodor a dit qu’il réfléchirait le mois dernier mais ne s’est pas encore résolu à livrer la porte"
+          ]
+        },
+        {
+          "cellules": [
+            "V.3",
+            "Délai de voyage et distance entre Odorheiu et Rupea",
+            "C.1, C.2",
+            "Quarante kilomètres de marche de nuit ou de sentiers forestiers ; deux nuits pleines pour chaque aller"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "N°",
+        "La clef",
+        "Ouvre",
+        "Prix et limites"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "K.1",
+            "La promesse de survie et d’investiture sans partage sous le patronage d’Odorheiu",
+            "V.2 (décide Teodor)",
+            "Engage la parole de Nicodim ; ne coûte ni sang ni or dans l’immédiat, mais lie l’honneur voilé"
+          ]
+        },
+        {
+          "cellules": [
+            "K.2",
+            "Rendez-vous à la tombée de la nuit à la ville basse de Rupea, profitant d’un décalage de garde",
+            "V.1 (contourne Stanca)",
+            "Exige patience et discrétion ; si Stanca le voit, l’entrevue est compromise et Anselm alerté"
+          ]
+        },
+        {
+          "cellules": [
+            "K.3",
+            "Relais équestre dissimulé aux lisières de Homorod",
+            "V.3 (réduit le délai)",
+            "Maintien d’un serviteur discret et de montures reposées sous le couvert des bois"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "N°",
+        "L'action",
+        "Réalise",
+        "Dépend de",
+        "Qui",
+        "Où",
+        "La preuve",
+        "État",
+        "Jour dû",
+        "Jour fait",
+        "Note"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "P.1",
+            "Prendre les dernières instructions de mon père Nicodim avant le départ",
+            "Validation des termes exacts de la malédiction",
+            "Présence de Nicodim à la chapelle",
+            "sever",
+            "chapelle-odorheiu",
+            "Mots murmurés par Nicodim dans la crypte ou la chapelle",
+            "a-faire",
+            "an 1, lune 11, jour 12",
+            "",
+            "Préparer le départ sans éveiller l’attention."
+          ]
+        },
+        {
+          "cellules": [
+            "P.2",
+            "Chevaucher d’Odorheiu aux abords de Rupea par le relais des bois de Homorod",
+            "Arrivée à pied d’œuvre pour le jour 15",
+            "P.1, monture prête",
+            "sever",
+            "odorheiu-secuiesc",
+            "Présence discrète attestée au Corbeau Noir ou sous le rocher de Rupea",
+            "a-faire",
+            "an 1, lune 11, jour 14",
+            "",
+            "Trajet nocturne sous les frondaisons."
+          ]
+        },
+        {
+          "cellules": [
+            "P.3",
+            "Aborder Teodor à l’écart de Stanca et recueillir sa réponse ferme",
+            "C.1, C.3",
+            "P.2, moment d’isolement de Teodor",
+            "sever",
+            "rupea",
+            "Paroles échangées et nuit fixée",
+            "a-faire",
+            "an 1, lune 11, jour 15",
+            "",
+            "Parler bas ; ne jamais menacer ; promettre encore s’il hésite."
+          ]
+        },
+        {
+          "cellules": [
+            "P.4",
+            "Galoper vers Odorheiu rapporter la date convenue à Nicodim",
+            "C.2",
+            "P.3 (accord de Teodor)",
+            "sever",
+            "odorheiu-secuiesc",
+            "Rapport direct délivré à Nicodim",
+            "a-faire",
+            "an 1, lune 11, jour 17",
+            "",
+            "Déclenche la préparation immédiate du rituel de malédiction."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Stratégie et alternatives",
+      "colonnes": [
+        "Fin",
+        "Approche",
+        "Pourquoi",
+        "Alternative",
+        "Changer si",
+        "Moyens engagés"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "C.1 (Réponse de Teodor)",
+            "Approche feutrée et rassurante ; se poser en ami et bienfaiteur patient.",
+            "Teodor est craintif, isolé et méfiant. La brusquerie le jetterait aux pieds d’Anselm.",
+            "S’il hésite encore, lui accorder trois nuits de réflexion de plus à la ville basse sans le presser.",
+            "Si Teodor refuse formellement ou menace d’appeler la garde, rompre sans menace et chercher une autre prise par la rumeur ou Radomir.",
+            "Temps de voyage, discrétion personnelle, promesses politiques."
+          ]
+        },
+        {
+          "cellules": [
+            "C.2 (Chute d’Anselm)",
+            "Frappe à distance par malédiction grâce à la complicité interne de l’héritier.",
+            "Anselm est retranché dans une forteresse réputée imprenable ; une attaque frontale coûterait trop de sang et ameuterait les autres maisons.",
+            "Exploiter le secret de la Crinière (le duel où Anselm s’est laissé boire) pour le déstabiliser.",
+            "Si la malédiction échoue ou est contrée, se replier derrière les murs d’Odorheiu et attendre le réveil d’Ottilia.",
+            "Réserve occulte de Nicodim, alignement d’une nuit sans lune ni garde."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Moyens disponibles",
+      "colonnes": [
+        "Référence",
+        "Nature",
+        "Accès réel",
+        "Quantité ou portée",
+        "Limites",
+        "Provenance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "M.1",
+            "Matériel et montures de voyage",
+            "Accès direct aux écuries d’Odorheiu et au relais de Homorod",
+            "Deux coursiers entraînés à la nuit",
+            "Ne traversent pas l’eau vive sans gué ni pont",
+            "Maison Odorheiu"
+          ]
+        },
+        {
+          "cellules": [
+            "M.2",
+            "Cellule personnelle à la chapelle",
+            "Accès permanent et solitaire",
+            "Une pièce voûtée, table de bois dur, prie-Dieu, coffre ferré",
+            "Nulle issue secrète directe vers l’extérieur",
+            "Chapelle d’Odorheiu"
+          ]
+        },
+        {
+          "cellules": [
+            "M.3",
+            "Appui politique et promesses de Nicodim",
+            "Mandat plein et entier d’envoyé",
+            "Peut engager la protection d’Odorheiu pour le futur règne de Teodor",
+            "Ne peut promettre de sang ni de don sans l’aval préalable de Nicodim",
+            "Nicodim l’Abbé"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Trous de préparation",
+      "colonnes": [
+        "Trou",
+        "Catégorie",
+        "Ce qui en dépend",
+        "Traitement",
+        "Qui",
+        "Échéance",
+        "État",
+        "Résultat"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "T.1 : Dispositif exact de surveillance autour de Teodor à la ville basse",
+            "Connaissance du terrain",
+            "P.3 (approche sans témoin)",
+            "Observer les habitudes de Stanca et les allées et venues au Corbeau Noir",
+            "sever",
+            "an 1, lune 11, jour 15",
+            "a-faire",
+            "Identifier l’angle mort où Stanca s’attarde ou reste à la porte"
+          ]
+        },
+        {
+          "cellules": [
+            "T.2 : Portée de la malédiction préparée par Nicodim",
+            "Savoir occulte",
+            "C.2",
+            "Prendre confirmation des exigences exactes (durée d’ouverture de la porte, heure précise)",
+            "sever",
+            "an 1, lune 11, jour 12",
+            "a-faire",
+            "Instructions fermes reçues de Nicodim"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Connaissances et croyances",
+      "colonnes": [
+        "Sujet",
+        "Ce que je crois",
+        "Source reçue",
+        "Ce que j’ignore",
+        "Référence de réalité"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Teodor",
+            "A peur de son père Anselm, n’a personne d’autre que lui et finira par céder par terreur de rester pensionnaire méprisé.",
+            "Entretiens passés, observation directe",
+            "Ignore qu’il doute de la nuit des bois du sud et songe peut-être à temporiser indéfiniment.",
+            "intentions.json:teodor"
+          ]
+        },
+        {
+          "cellules": [
+            "Anselm",
+            "Vieux seigneur cloîtré dans sa citadelle, usé et rendu aveugle par l’amertume depuis la destruction de Margit.",
+            "Bruits du monde, paroles de Nicodim",
+            "Ignore qu’Anselm sait depuis le début que Teodor parle aux envoyés voilés et le laisse faire sciemment.",
+            "intentions.json:anselm"
+          ]
+        },
+        {
+          "cellules": [
+            "Nicodim",
+            "Mon sire est méthodique, infaillible et sa malédiction détruira Anselm dès qu’une brèche existera.",
+            "Éducation, dévotion d’infant",
+            "Ignore si Nicodim a un plan de rechange immédiat en cas d’échec du rituel.",
+            "intentions.json:nicodim"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Résultats et révisions",
+      "colonnes": [
+        "Date",
+        "Fait ou découverte",
+        "Preuve",
+        "Ce que je change",
+        "Renvois"
+      ],
+      "lignes": []
+    }
+  ]
+}

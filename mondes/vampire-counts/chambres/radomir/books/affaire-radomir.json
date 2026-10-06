@@ -1,0 +1,503 @@
+{
+  "id": "affaire-radomir",
+  "titre": "Les affaires de radomir",
+  "sous_titre": "Cahier stratégique personnel — préparation du monde et conduite de mes affaires",
+  "type": "affaire",
+  "tenu_par": "radomir",
+  "acteur_id": "radomir",
+  "prive": true,
+  "pages": [
+    "Une affaire durable par PNJ qui porte une stratégie. Plusieurs fins peuvent y coexister. Les catégories décrivent les dimensions à peindre, pas huit objectifs obligatoires. Ce cahier de simulation n’est pas la preuve d’un carnet physiquement fabriqué.",
+    "Je peux établir en préparation les détails ordinaires, personnes secondaires, objets, lieux, habitudes et ressources plausibles nécessaires à mon implantation, sans contredire le canon ni les faits acquis. Je marque chaque ajout comme peint. Un ajout conséquent doit avoir une provenance, des limites, des liens et des conséquences cohérents ; je ne fais pas surgir le moyen décisif qui efface mon problème. Un autre personnage reçoit sa fiche et sa propre session avant toute parole, décision ou action jouée.",
+    "Établi, peint, hypothèse, inconnu sont des statuts distincts. Peindre un état initial n’accomplit pas une action future. Fabriquer pendant le jeu exige matériaux, outils, compétence et durée ; une issue dépendant d’autrui reste ouverte. Mes croyances restent distinctes de la réalité, même si ma session contribue à préparer le monde.",
+    "Les adresses C.1, V.1, K.1 et P.1 sont locales à ce cahier. Ne pas inventer de numéro global ; utiliser les outils d’adressage si un contexte global est nécessaire. Les trous ci-dessous sont écrits par moi ; ils ne remplacent pas les trous calculés du graphe."
+  ],
+  "tables": [
+    {
+      "titre": "Ouverture",
+      "colonnes": [
+        "Champ",
+        "Contenu"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Porteur",
+            "radomir"
+          ]
+        },
+        {
+          "cellules": [
+            "Périmètre",
+            "Mes intérêts, mon implantation à Comăna de Jos, la garde des bois du sud et la préservation de mon Masque."
+          ]
+        },
+        {
+          "cellules": [
+            "État de préparation",
+            "Implantation initiale peinte, doctrine d'ascète et terreur simulée posées, registre compagnon lié."
+          ]
+        },
+        {
+          "cellules": [
+            "Registre compagnon",
+            "registre-etats-radomir"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dimensions à peindre",
+      "colonnes": [
+        "Catégorie",
+        "Ce que je pose",
+        "Statut",
+        "Source ou provenance",
+        "Renvois"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "fins-et-doctrine",
+            "Se maîtriser jusqu'au bout face à la Bête intérieure ; que les bois de Comăna restent pleins de vivants sans saignée excessive ; préserver la terreur du Masque sans jamais détruire personne.",
+            "établi",
+            "personnages.json, canon/lore/radomir.md",
+            "C.1, C.2, C.3"
+          ]
+        },
+        {
+          "cellules": [
+            "personnes-et-relations",
+            "Vlaicu mon sire et chef (Vorace méprisant la retenue, exigeant la sauvagerie) ; Anselm mon bu à Rupea (respect tacite, je sais qu'il s'est laissé battre pour Ilka) ; Ilka à Ticușu Vechi (protégée secrète, autorisée à chasser à l'insu des goules) ; Cendrik à Cincu (Sépulcral calculateur cherchant à tester la lisière) ; Nicodim à Odorheiu (qui voudrait percer le secret de Rupea) ; Barbu ma goule de lisière et Dobre mon vieux serf veneur.",
+            "établi",
+            "relations.json, canon/lore/radomir.md, registre-etats-radomir",
+            "registre:gens-comana"
+          ]
+        },
+        {
+          "cellules": [
+            "pouvoir-et-acces",
+            "Maître souverain de Comăna de Jos, du logis fortifié et des grands massifs forestiers du sud ; libre passage sous le couvert des forêts vivantes où la brume ne porte plus ; surveillance des sentiers et de la lisière de Ticușu Vechi.",
+            "établi",
+            "lieux.json:comana-de-jos, routines.json",
+            "registre:lieux-comana"
+          ]
+        },
+        {
+          "cellules": [
+            "moyens-materiels",
+            "Réserves forestières giboyeuses et vivants nombreux des villages ; troupe de goules silencieuses et serfs bûcherons ; os blanchis d'ours et de loups amassés pour la lisière ; tribut magique reçu chaque nuit d'Anselm.",
+            "peint",
+            "canon/lore/radomir.md, registre-etats-radomir",
+            "M.1, M.2, M.3"
+          ]
+        },
+        {
+          "cellules": [
+            "savoirs-et-secrets",
+            "Sait qu'Anselm s'est laissé vaincre et boire pour sauver Ilka ; sait que la réputation de bête sanguinaire protège ses vivants ; ignore que Cendrik a fait examiner les os et soupçonne un faux mur ; ignore les convoitises de Nicodim sur ce duel.",
+            "établi",
+            "intentions.json, canon/lore/radomir.md",
+            "V.1, V.2"
+          ]
+        },
+        {
+          "cellules": [
+            "engagements-et-temps",
+            "Routine stricte : nuit sur la lisière et les clairières (0h-6h40 et 17h35-0h00) ; sommeil de jour dans la tanière de Comăna (6h40-17h35) ; boisson à heure fixe au crépuscule pour dompter la faim.",
+            "établi",
+            "routines.json:radomir",
+            "P.1, P.2"
+          ]
+        },
+        {
+          "cellules": [
+            "strategie-et-alternatives",
+            "Terroriser sans tuer : frapper la terre, faire courir les pires rumeurs, semer des charognes de bêtes sauvages pour décourager les intrus ; laisser Ilka chasser sans la voir ; si un Ritualiste approche de Ticușu, se montrer en bête pour le faire fuir sans combat.",
+            "établi",
+            "intentions.json, canon/lore/radomir.md",
+            "K.1, K.2"
+          ]
+        },
+        {
+          "cellules": [
+            "zones-a-peindre",
+            "Le domaine de Comăna de Jos, le logis de pierre grise (tanière), l'étang et le moulin, les goules de bois (Barbu), les dépôts d'ossements et la lisière bordant Ticușu Vechi.",
+            "peint",
+            "registre-etats-radomir",
+            "registre:lieux-et-passages"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "N°",
+        "L'état visé",
+        "Ce qui doit être vrai",
+        "La preuve",
+        "Jour dû",
+        "Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "C.1",
+            "La maîtrise de soi absolue et le domptage de la Bête",
+            "Radomir boit à heure fixe au crépuscule sans jamais céder à la frénésie, ne tue aucun vivant et s'arrête toujours avant d'avoir vidé sa coupe",
+            "Aucun meurtre ni acte de sauvagerie aveugle commis de ses mains",
+            "chaque jour",
+            "vitale"
+          ]
+        },
+        {
+          "cellules": [
+            "C.2",
+            "Les bois de Comăna et leurs villages tenus pleins de vivants",
+            "Les villages ne sont jamais saignés au-delà d'une dîme légère, la moitié de chaque bande rentre intacte, les forêts restent peuplées et giboyeuses",
+            "Les bandes de Comăna demeurent stables et aucun village ne se dépeuple à l'approche de l'hiver",
+            "an 1, lune 12, jour 30",
+            "haute"
+          ]
+        },
+        {
+          "cellules": [
+            "C.3",
+            "Le Masque du prédateur intraitable préservé aux frontières",
+            "Les seigneurs voisins et leurs envoyés continuent de croire que la Crinière détruit impitoyablement tout intrus franchissant ses lisières",
+            "Aucune incursion directe de prédateur étranger dans le cœur des massifs de Comăna",
+            "an 2, lune 1, jour 1",
+            "haute"
+          ]
+        },
+        {
+          "cellules": [
+            "C.4",
+            "La protection discrète d'Ilka assurée sans éventer son secret",
+            "Ilka peut s'alimenter à la lisière nord de Comăna sans être capturée, dénoncée ou mise à mort par les goules",
+            "Ilka passe l'hiver sans tomber en détresse de faim et sans que Vlaicu ou Anselm n'apprennent le pacte muet",
+            "an 1, lune 12, jour 30",
+            "moyenne"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": [
+        "N°",
+        "Le verrou",
+        "Bloque",
+        "La preuve"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "V.1",
+            "Soupçon et espionnage de Cendrik sur les ossements de la lisière",
+            "C.3",
+            "Cendrik a étudié les os de la lisière et a compris qu'il s'agit d'os d'ours et de loups et non de vampires détruits ; il prépare une avancée de ses Ritualistes sur Ticușu pour tester Comăna"
+          ]
+        },
+        {
+          "cellules": [
+            "V.2",
+            "Pression ou ordre de chasse impitoyable émanant de Vlaicu",
+            "C.1, C.2",
+            "Vlaicu mon sire méprise la retenue ; s'il m'ordonne une battue générale ou d'écraser Rupea, je devrai feindre la sauvagerie sans tuer ou braver son serment"
+          ]
+        },
+        {
+          "cellules": [
+            "V.3",
+            "Curiosité de Nicodim concernant le duel avec Anselm",
+            "C.3, C.4",
+            "Nicodim cherche à savoir pourquoi Anselm a cédé sa magie si aisément et si un pacte lie Rupea et Comăna"
+          ]
+        },
+        {
+          "cellules": [
+            "V.4",
+            "Nourrissement involontaire de la Bête par le jeu du Masque",
+            "C.1",
+            "Chaque grondement, chaque mise en scène féroce réveille la bête qui menace de briser la volonté de l'ascète"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "N°",
+        "La clef",
+        "Ouvre",
+        "Prix et limites"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "K.1",
+            "Dépôt renouvelé d'ossements frais et mise en scène nocturne de prédation",
+            "V.1 (vers C.3)",
+            "Prix : temps de traque de prédateurs réels (loups géants, ours) et mobilisation des goules ; limite : ne trompera pas un nécromancien qui examine les crânes de près"
+          ]
+        },
+        {
+          "cellules": [
+            "K.2",
+            "Apparition en bête terrible à la lisière dès qu'un chant résonne",
+            "V.1 (vers C.3, C.4)",
+            "Prix : nourrir la Bête intérieure par le rugissement ; limite : ne peut durer que la nuit, inefficace si l'arpentage se fait en plein jour par des serviteurs vivants"
+          ]
+        },
+        {
+          "cellules": [
+            "K.3",
+            "Patience ascétique et isolement dans la tanière de Comăna",
+            "V.4 (vers C.1)",
+            "Prix : solitude austère, rejet des festivités de cour voraces ; limite : isole diplomatiquement Comăna du reste des seigneurs"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "N°",
+        "L'action",
+        "Réalise",
+        "Dépend de",
+        "Qui",
+        "Où",
+        "La preuve",
+        "État",
+        "Jour dû",
+        "Jour fait",
+        "Note"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "P.1",
+            "Reconnaissance nocturne à la lisière de Comăna et Ticușu",
+            "C.3, C.4",
+            "Surveillance du créneau nocturne (17h35-0h00)",
+            "radomir",
+            "lisiere-comana",
+            "Inspection des sentiers, absence d'incursion étrangère ou traces d'Ilka notées sans alerte",
+            "a-faire",
+            "an 1, lune 11, jour 3",
+            "",
+            "Créneau de garde ordinaire de la nuit"
+          ]
+        },
+        {
+          "cellules": [
+            "P.2",
+            "Collecte et dépôt d'os de bêtes sauvages aux fourrés de bordure",
+            "C.3",
+            "Chasses d'automne des goules de bois",
+            "radomir",
+            "lisiere-comana",
+            "Dépôts réguliers d'os brisés pour entretenir le mythe du Vorace carnassier",
+            "a-faire",
+            "an 1, lune 12, jour 10",
+            "",
+            "Prévu dans intentions.json (radomir-os, échéance longue)"
+          ]
+        },
+        {
+          "cellules": [
+            "P.3",
+            "Surveillance des chants de Ritualistes vers Ticușu Vechi",
+            "C.3, C.4",
+            "Alerte transmise par les goules de guet si un mort chante la terre",
+            "radomir",
+            "lisiere-comana",
+            "Surgissement immédiat sous forme bestiale pour faire reculer les prêtres de Cendrik",
+            "a-faire",
+            "an 1, lune 11, jour 20",
+            "",
+            "Déclencheur d'intentions.json"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Stratégie et alternatives",
+      "colonnes": [
+        "Fin",
+        "Approche",
+        "Pourquoi",
+        "Alternative",
+        "Changer si",
+        "Moyens engagés"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "C.1, C.2",
+            "Discipline ascétique rigoureuse : boire une coupe mesurée à l'heure fixe du crépuscule, ne prélever qu'un faible tribut sur les hameaux de bûcherons, laisser les bandes forestières repartir indemnes.",
+            "Si la soif s'emballe, la Bête prend le commandement ; si les vivants sont trop saignés, le refuge s'effondre et les bois deviennent déserts.",
+            "Si une famine hivernale frappe les villages, puiser dans la magie transmise par Anselm pour apaiser la terre et soutenir les serfs plutôt que les mordre.",
+            "Si Vlaicu exige une hécatombe, déclarer que les proies sont gardées pour un festin plus vaste et refuser le massacre immédiat sous prétexte de préservation du territoire.",
+            "Sa volonté, son refus des excès, l'autorité sur le vieux Dobre et les bûcherons."
+          ]
+        },
+        {
+          "cellules": [
+            "C.3, C.4",
+            "Terreur théâtrale à la lisière : rugissements, bris de branches, déploiement d'ossements carnassiers et feinte de sauvagerie aveugle sans jamais porter de coup fatal.",
+            "Le Masque du monstre empêche les voisins d'entrer ; les hommes craignent la bête et ne découvrent pas l'homme.",
+            "Si un curieux (comme Cendrik ou un émissaire de Nicodim) pénètre trop avant, le traquer jusqu'à épuisement dans les fourrés pour le chasser honteux sans verser son sang.",
+            "Si Cendrik franchit ouvertement la frontière avec ses Ritualistes, sortir en plein jour sous la frondaison des grands arbres vivants pour briser ses piquets d'arpentage.",
+            "Son corps massif de Vorace, la crinière au vent, ses goules forestières muettes."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Moyens disponibles",
+      "colonnes": [
+        "Référence",
+        "Nature",
+        "Accès réel",
+        "Quantité ou portée",
+        "Limites",
+        "Provenance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "M.1",
+            "Puissance martiale et physique du Vorace",
+            "Corps de Radomir",
+            "Force herculéenne, endurance séculaire, célérité sous les bois",
+            "Risque permanent de réveiller la Bête féroce lors des emportements",
+            "Étreinte de Vlaicu reçue il y a 180 ans"
+          ]
+        },
+        {
+          "cellules": [
+            "M.2",
+            "Forêts vivantes de Comăna",
+            "Territoire domanial",
+            "Massif forestier dense, brume de sang inopérante permettant la marche de jour sous couvert",
+            "Infranchissable aux cavaleries lourdes mais difficile à surveiller sur toute sa circonférence",
+            "Domaine immémorial de Comăna de Jos"
+          ]
+        },
+        {
+          "cellules": [
+            "M.3",
+            "Tribut magique d'Anselm",
+            "Lien de buveur",
+            "Flux magique régulier coulant chaque nuit de Rupea vers Comăna",
+            "Entretient une dette morale pesante et attire les soupçons d'Odorheiu s'il est divulgué",
+            "Duel remporté contre Anselme il y a huit ans"
+          ]
+        },
+        {
+          "cellules": [
+            "M.4",
+            "Bandes de vivants et hameaux de Comăna",
+            "Population de bûcherons et charbonniers",
+            "Villages les plus peuplés du sud, bandes régulières envoyées dans les bois",
+            "Sensibles aux hivers rudes et à la terreur si la Bête déborde",
+            "Communauté protégée depuis plus d'un siècle"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Trous de préparation",
+      "colonnes": [
+        "Trou",
+        "Catégorie",
+        "Ce qui en dépend",
+        "Traitement",
+        "Qui",
+        "Échéance",
+        "État",
+        "Résultat"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Date exacte de la première tentative de chant de Cendrik sur Ticușu",
+            "savoirs-et-secrets",
+            "C.3, P.3",
+            "Guet aux frontières et surveillance des sentiers nord",
+            "radomir",
+            "an 1, lune 11, jour 25",
+            "ouvert",
+            "Surveillance nocturne maintenue à la lisière"
+          ]
+        },
+        {
+          "cellules": [
+            "Intentions réelles de Nicodim à l'égard du tribut magique de Rupea",
+            "savoirs-et-secrets",
+            "V.3",
+            "Attention portée aux courriers traversant le gué ou les cols",
+            "radomir",
+            "indéterminée",
+            "ouvert",
+            "Garder le silence absolu sur le duel d'il y a huit ans"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Connaissances et croyances",
+      "colonnes": [
+        "Sujet",
+        "Ce que je crois",
+        "Source reçue",
+        "Ce que j’ignore",
+        "Référence de réalité"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Le sacrifice d'Anselm",
+            "Anselm s'est volontairement laissé battre et boire il y a huit ans pour protéger la fuite d'Ilka : il aime secrètement ses enfants.",
+            "Expérience vécue lors du duel en clairière",
+            "Pourquoi Anselm dissimule cet amour derrière une sévérité implacable envers Teodor",
+            "canon/lore/radomir.md, canon/lore/anselm.md"
+          ]
+        },
+        {
+          "cellules": [
+            "Le Masque protecteur",
+            "Si le pays apprenait que la Crinière ne tue personne et épargne les serfs, ses bois seraient pillés et dévastés en dix ans.",
+            "Méditation de 150 ans",
+            "Que Cendrik commence déjà à douter de la véracité de ses massacres",
+            "canon/lore/radomir.md, intentions.json:cendrik"
+          ]
+        },
+        {
+          "cellules": [
+            "La Bête intérieure",
+            "Chaque rugissement, chaque mise en scène féroce nourrit la part bestiale et rapproche le jour où elle submergera sa volonté.",
+            "Épreuve intime",
+            "Si la torpeur permettrait d'apaiser la bête sans détruire son domaine",
+            "canon/lore/radomir.md"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Résultats et révisions",
+      "colonnes": [
+        "Date",
+        "Fait ou découverte",
+        "Preuve",
+        "Ce que je change",
+        "Renvois"
+      ],
+      "lignes": []
+    }
+  ]
+}

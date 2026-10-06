@@ -1,0 +1,202 @@
+{
+  "id": "registre-etats-nicodim",
+  "titre": "Les choses suivies par nicodim",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée au porteur",
+  "type": "registre",
+  "tenu_par": "nicodim",
+  "acteur_id": "nicodim",
+  "prive": true,
+  "pages": [
+    "Catégories : lieux-et-passages, objets-et-documents, ressources-et-populations, organisations-et-dispositifs, usages-et-institutions, situations-et-processus. Une ligne par chose ou situation. L’identité est une référence stable ; plusieurs PNJ citent la même chose au lieu de la recréer. Quand une table canonique du moteur porte déjà le fait, elle garde autorité : la ligne renvoie à cette adresse. Les évolutions arithmétiques vont dans les mains de leur maison. Les lignes purement descriptives sont leur propre autorité jusqu’à matérialisation. Accès au cahier technique n’est pas connaissance du personnage : Qui sait quoi doit être respecté."
+  ],
+  "colonnes": [
+    "Référence",
+    "Catégorie",
+    "Identité et fonction",
+    "Où",
+    "Détenteur ou responsable",
+    "État présent",
+    "Quantité ou propriétés",
+    "Usages et limites",
+    "Liens",
+    "Évolution et échéances",
+    "Statut",
+    "Source ou provenance",
+    "Qui sait quoi",
+    "Date de mise à jour",
+    "Autorité existante"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "chose:odorheiu-chapelle-froide",
+        "lieux-et-passages",
+        "La chapelle de pierre nue où Nicodim donne audience ; dallage sombre, sans feu ni tapisserie, éclairée de deux cierges de suif.",
+        "odorheiu-secuiesc",
+        "nicodim",
+        "Impeccablement tenue, froide et silencieuse.",
+        "Grande nef dépouillée, un pupitre de chêne, bancs de bois dur",
+        "Lieu des arbitrages et des audiences nocturnes. On n\\'y élève jamais la voix.",
+        "lieux.json:odorheiu-secuiesc",
+        "Stable",
+        "peint",
+        "canon/lore/nicodim.md §Ce qu\\'on dit de lui",
+        "Connue de tous les seigneurs de l\\'est venus demander arbitrage.",
+        "an 1, lune 11, jour 3",
+        "lieux.json:odorheiu-secuiesc"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-crypte-ottilia",
+        "lieux-et-passages",
+        "La crypte basse sous la chapelle, fermée par une lourde dalle de granit aux sceaux de cire noire, où repose le sarcophage d\\'Ottilia.",
+        "odorheiu-secuiesc",
+        "nicodim",
+        "Scellée, suintante et glaciale. Le silence n\\'y est rompu que par la visite rituelle de Nicodim.",
+        "Une chambre voûtée, un sarcophage scellé de plomb et de granit",
+        "Refuge de torpeur d\\'Ottilia. Interdite à tout vivant ou visiteur.",
+        "personnages.json:ottilia, chemins.json:crypte-odorheiu",
+        "Visite d\\'inspection de Nicodim chaque nuit au réveil",
+        "peint",
+        "canon/lore/nicodim.md §II, §VI",
+        "Nicodim seul en connaît l\\'accès exact et la disposition ; le pays sait seulement qu\\'Ottilia y dort.",
+        "an 1, lune 11, jour 3",
+        "personnages.json:ottilia"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-grand-livre-est",
+        "objets-et-documents",
+        "Le Grand Livre de l\\'Est : épais in-folio relié de cuir noir, où sont inscrits d\\'une écriture serrée les pactes, veines, arbitrages et dettes accumulées depuis deux siècles.",
+        "odorheiu-secuiesc",
+        "nicodim",
+        "Parchemin épais, encres indélébiles, fermoirs d\\'argent terni.",
+        "Un registre unique de plusieurs centaines de feuillets",
+        "Instrument central du pouvoir de Nicodim. Chaque page porte les créances d\\'un domaine. Seule Rupea y figure sans dette soldée.",
+        "personnages.json:nicodim, canon/lore/nicodim.md",
+        "Mis à jour personnellement par Nicodim lors de chaque arbitrage ou tribut reçu",
+        "peint",
+        "canon/lore/nicodim.md §I, §III, §IV",
+        "Nicodim seul le lit et y écrit ; Sever en a vu la reliure et le poids ; les seigneurs de l\\'est en redoutent les mentions.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-ampoules-rituel",
+        "objets-et-documents",
+        "Les fioles et ampoules de verre sombre scellées de plomb conservées dans le tabernacle de la sacristie, contenant le concentré de tributs destiné aux malédictions.",
+        "odorheiu-secuiesc",
+        "nicodim",
+        "Intactes, rangées par millésime et provenance.",
+        "Douze ampoules de sang épais et condensé magique",
+        "Réserves réservées aux œuvres occultes majeures (malédictions à distance).",
+        "chose:odorheiu-chapelle-froide",
+        "Consommation prévue lors de la nuit où Rupea ouvrira ses portes",
+        "peint",
+        "canon/lore/nicodim.md §IV, §En partie",
+        "Nicodim seul en connaît l\\'existence et la teneur exacte.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-goules-scripturaires",
+        "ressources-et-populations",
+        "Quatre goules lettrées, vêtues de bures grises, chargées de transcrire les actes ordinaires, d\\'entretenir les parchemins et de veiller sur le scriptorium du prieuré.",
+        "odorheiu-secuiesc",
+        "nicodim",
+        "Dociles, silencieuses, les yeux rougis par le travail à la lampe.",
+        "Quatre individus vieillissants menés par le frère Vasile",
+        "Travail de chancellerie diurne et nocturne, veille sur la correspondance civile de la ville.",
+        "maisons.json:maison-odorheiu",
+        "Alimentées à la coupe de sang d\\'Odorheiu à chaque nouvelle lune",
+        "peint",
+        "Invention déclarée : organisation domestique d\\'Odorheiu",
+        "Nicodim et Sever les commandent ; les émissaires étrangers les voient porter des registres.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-milice-bourgeoise",
+        "organisations-et-dispositifs",
+        "Le guet urbain d\\'Odorheiu Secuiesc : cent cinquante serfs vivants armés de piques et d\\'arbalètes, soldés par les corporations de la ville sous l\\'œil du bailli.",
+        "odorheiu-secuiesc",
+        "nicodim (par son bailli)",
+        "Discipline stricte, patrouilles régulières de jour et aux portes.",
+        "Cent cinquante hommes d\\'armes vivants",
+        "Maintien de l\\'ordre dans les rues et protection des remparts contre les brigands ou bêtes sauvages.",
+        "lieux.json:odorheiu-secuiesc",
+        "Relevée aux créneaux toutes les six heures",
+        "peint",
+        "Invention déclarée : statut de grande ville",
+        "Les bourgeois et manants de la ville la connaissent ; les seigneurs voisins savent qu\\'Odorheiu est tenue.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:est-coutume-arbitrage",
+        "usages-et-institutions",
+        "L\\'usage séculaire des seigneurs de l\\'Est de porter leurs litiges de bornage, de bêtes ou de routes devant la chapelle de Nicodim plutôt que de vider la querelle en armes.",
+        "odorheiu-secuiesc",
+        "nicodim",
+        "Universellement respecté à l\\'est du défilé.",
+        "Institution coutumière acceptée",
+        "Permet à Odorheiu de régenter la région sans armée féodale et de lier chaque partie par une obligation morale.",
+        "canon/lore/nicodim.md §Ce qu\\'on dit de lui",
+        "Permanente",
+        "établi",
+        "canon/lore/nicodim.md §Ce qu\\'on dit de lui",
+        "Tous les seigneurs, chevaliers et anciens de l\\'Est.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:rupea-dette-margit-soldee",
+        "situations-et-processus",
+        "La ligne close du meurtre de Margit dans le livre de Nicodim : destruction de la fille aînée d\\'Anselm payée en sang occulte pour punir le refus de la veine.",
+        "rupea",
+        "nicodim",
+        "Considérée comme soldée par Nicodim dans son registre personnel.",
+        "1 malédiction exécutée il y a cent ans",
+        "Secret capital d\\'Odorheiu : la divulgation détruirait le crédit moral de l\\'Abbé.",
+        "personnages.json:margit, personnages.json:anselm",
+        "Immuable depuis un siècle",
+        "établi",
+        "canon/lore/nicodim.md §IV",
+        "Nicodim seul sait qu\\'il a lancé le sort ; Anselm et toute la contrée ignorent d\\'où est venu le coup.",
+        "an 1, lune 11, jour 3",
+        "personnages.json:margit"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:rupea-attente-sever",
+        "situations-et-processus",
+        "L\\'imminence du retour de l\\'envoyé voilé Sever vers la mi-lune, pour chercher à nouveau Teodor en l\\'absence de garde.",
+        "rupea",
+        "sever",
+        "En cours de voyage depuis Odorheiu Secuiesc.",
+        "1 émissaire à cheval ou accompagné de serfs",
+        "Menace directe pour la surveillance de Teodor et la quiétude de la citadelle.",
+        "evenements.json:sever-revient, personnages.json:sever",
+        "Prévu vers lune 11, jour 15",
+        "établi",
+        "evenements.json:sever-revient, lore/teodor.md",
+        "Le narrateur sait ; Sever et Nicodim préparent ; Teodor attend ; Stanca craint son retour sans en connaître la trame.",
+        "an 1, lune 11, jour 3",
+        "evenements.json:sever-revient"
+      ]
+    }
+  ]
+}

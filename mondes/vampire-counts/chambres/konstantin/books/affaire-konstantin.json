@@ -1,0 +1,484 @@
+{
+  "id": "affaire-konstantin",
+  "titre": "Les affaires de konstantin",
+  "sous_titre": "Cahier stratégique personnel — préparation du monde et conduite de mes affaires",
+  "type": "affaire",
+  "tenu_par": "konstantin",
+  "acteur_id": "konstantin",
+  "prive": true,
+  "pages": [
+    "Une affaire durable par PNJ qui porte une stratégie. Plusieurs fins peuvent y coexister. Les catégories décrivent les dimensions à peindre, pas huit objectifs obligatoires. Ce cahier de simulation n’est pas la preuve d’un carnet physiquement fabriqué.",
+    "Je peux établir en préparation les détails ordinaires, personnes secondaires, objets, lieux, habitudes et ressources plausibles nécessaires à mon implantation, sans contredire le canon ni les faits acquis. Je marque chaque ajout comme peint. Un ajout conséquent doit avoir une provenance, des limites, des liens et des conséquences cohérents ; je ne fais pas surgir le moyen décisif qui efface mon problème. Un autre personnage reçoit sa fiche et sa propre session avant toute parole, décision ou action jouée.",
+    "Établi, peint, hypothèse, inconnu sont des statuts distincts. Peindre un état initial n’accomplit pas une action future. Fabriquer pendant le jeu exige matériaux, outils, compétence et durée ; une issue dépendant d’autrui reste ouverte. Mes croyances restent distinctes de la réalité, même si ma session contribue à préparer le monde.",
+    "Les adresses C.1, V.1, K.1 et P.1 sont locales à ce cahier. Ne pas inventer de numéro global ; utiliser les outils d’adressage si un contexte global est nécessaire. Les trous ci-dessous sont écrits par moi ; ils ne remplacent pas les trous calculés du graphe."
+  ],
+  "tables": [
+    {
+      "titre": "Ouverture",
+      "colonnes": [
+        "Champ",
+        "Contenu"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Porteur",
+            "konstantin"
+          ]
+        },
+        {
+          "cellules": [
+            "Périmètre",
+            "Mes intérêts, mon fief de Dealu Frumos, la vengeance de Gontran et l'honneur d'Agnita."
+          ]
+        },
+        {
+          "cellules": [
+            "État de préparation",
+            "Implantation peinte, fins de vengeance et de devoir posées, registre compagnon lié."
+          ]
+        },
+        {
+          "cellules": [
+            "Registre compagnon",
+            "registre-etats-konstantin"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dimensions à peindre",
+      "colonnes": [
+        "Catégorie",
+        "Ce que je pose",
+        "Statut",
+        "Source ou provenance",
+        "Renvois"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "fins-et-doctrine",
+            "Identifier et provoquer en duel le Sépulcral aux cendres pour le boire afin de laver l'affront fait à Gontran ; veiller sur Gontran et le fief d'Agnita sans jamais faire défaut ; tenir mon serment sans mot dire.",
+            "établi",
+            "personnages.json, intentions.json, canon/lore/konstantin.md",
+            "C.1, C.2"
+          ]
+        },
+        {
+          "cellules": [
+            "personnes-et-relations",
+            "Gontran (père choisi, chef vénéré, bu dans la honte) ; le pensionnaire d'Agnita (héritier soupçonneux qui épie mes visites) ; Anselm de Rupea (père de sang qui m'a jeté dans la neige, détesté) ; Ilka de Ticușu Vechi (sœur de sang inconnue, dont un Sépulcral ronge la terre) ; Radu le veneur (goule de chasse de Dealu Frumos) ; Vasile (vieux régisseur serf du manoir).",
+            "peint",
+            "relations.json, canon/lore/konstantin.md, registre-etats-konstantin",
+            "registre:gens-dealu"
+          ]
+        },
+        {
+          "cellules": [
+            "pouvoir-et-acces",
+            "Seigneurie de Dealu Frumos (manoir fortifié, village, taillis) ; accès libre à la salle et aux terres d'Agnita auprès de Gontran ; accès aux forêts et sentiers de chasse de l'est ; cinq tributs magiques personnels de seigneurs vaincus qui ne remontent à personne.",
+            "établi",
+            "lieux.json, canon/lore/konstantin.md",
+            "registre:lieux-dealu"
+          ]
+        },
+        {
+          "cellules": [
+            "moyens-materiels",
+            "Armure de plaques aux reflets écarlates sertie de rubis ternis ; épée bâtarde de duel équilibrée pour les trois passes ; le manoir de pierre grise de Dealu Frumos ; meute de limiers de nuit conduits par Radu ; monture noire.",
+            "peint",
+            "canon/lore/konstantin.md, registre-etats-konstantin",
+            "M.1, M.2, M.3"
+          ]
+        },
+        {
+          "cellules": [
+            "savoirs-et-secrets",
+            "Sait que le vainqueur de Gontran est un Sépulcral maîtrisant la chute de cendres et chassant à l'est ; sait que les tributs de duel ne remontent à aucun ancêtre ; sait qu'une sœur Stryge est installée à Ticușu Vechi ; ignore le nom exact du Sépulcral (Cendrik de Cincu) ; ignore le contenu des lettres de son père Anselm.",
+            "établi",
+            "intentions.json, canon/lore/konstantin.md",
+            "V.1, V.2"
+          ]
+        },
+        {
+          "cellules": [
+            "engagements-et-temps",
+            "Routine de seigneur loyal (veille nocturne en sa salle de Dealu Frumos de 17h21 à 6h40, sommeil de jour) ; chevauchées régulières vers Agnita pour prendre des nouvelles de Gontran ; battues nocturnes vers l'est.",
+            "établi",
+            "routines.json, intentions.json",
+            "P.1, P.2"
+          ]
+        },
+        {
+          "cellules": [
+            "strategie-et-alternatives",
+            "Pister le Sépulcral vers l'est par les traces de cendre et les récits de chasseurs sans éveiller l'attention des Écarlates d'Agnita ; dès son nom ou son repaire confirmé, le provoquer selon les formes du duel et le boire pour rediriger la puissance perdue vers la maison.",
+            "établi",
+            "intentions.json, canon/lore/konstantin.md",
+            "K.1, K.2"
+          ]
+        },
+        {
+          "cellules": [
+            "zones-a-peindre",
+            "Le manoir de Dealu Frumos, la salle basse et la cour aux chevaux ; la route forestière entre Dealu Frumos et Agnita ; les serviteurs et goules du manoir (Radu, Vasile) ; la lettre cachetée de Rupea posée sur la table.",
+            "peint",
+            "registre-etats-konstantin",
+            "registre:lieux-et-passages"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "N°",
+        "L'état visé",
+        "Ce qui doit être vrai",
+        "La preuve",
+        "Jour dû",
+        "Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "C.1",
+            "Le Sépulcral aux cendres identifié et bu en duel singulier",
+            "Le vampire ayant bu Gontran est localisé, défié selon les trois passes, vaincu et bu, son tribut détourné.",
+            "Le nom inscrit au registre des vaincus de Konstantin et le tribut magique perçu chaque nuit sans remonter à Anselm.",
+            "an 1, lune 12, jour 1",
+            "vitale"
+          ]
+        },
+        {
+          "cellules": [
+            "C.2",
+            "Gontran protégé et la fierté d'Agnita préservée",
+            "Gontran ne retombe plus en embuscade ; le secret de sa honte reste préservé des autres seigneurs.",
+            "Gontran continue de régner à Agnita et personne à la cour ne sait publiquement qui l'a bu.",
+            "chaque jour",
+            "haute"
+          ]
+        },
+        {
+          "cellules": [
+            "C.3",
+            "Fief de Dealu Frumos tenu solide et respecté",
+            "Aucune incursion ennemie ni contestation par le pensionnaire d'Agnita.",
+            "La garde et les vivants de Dealu Frumos obéissants, les tributs acquittés.",
+            "chaque lune",
+            "moyenne"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": [
+        "N°",
+        "Le verrou",
+        "Bloque",
+        "La preuve"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "V.1",
+            "Le nom et le repaire exacts du Sépulcral demeurent tus",
+            "C.1",
+            "Gontran refuse d'avouer qui l'a bu par honte d'Écarlate ; les pistes de chasse à l'est sont brouillées par les vivants sous bois."
+          ]
+        },
+        {
+          "cellules": [
+            "V.2",
+            "La méfiance du pensionnaire d'Agnita",
+            "C.2",
+            "Le pensionnaire surveille les allées et venues de Konstantin, croyant qu'il complote pour s'emparer du siège d'Agnita à la mort de Gontran."
+          ]
+        },
+        {
+          "cellules": [
+            "V.3",
+            "Le serment et l'interdiction de trahir la parole donnée",
+            "C.1, C.2",
+            "Konstantin ne peut défier publiquement un allié ni agir de façon déloyale envers l'honneur des Écarlates."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "N°",
+        "La clef",
+        "Ouvre",
+        "Prix et limites"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "K.1",
+            "Reconnaissance et battue méthodique des lisières vers l'est",
+            "V.1 (vers C.1)",
+            "Prix : nuits passées loin de Dealu Frumos, risque de heurter des chasseurs ennemis sous les arbres où la brume se brise."
+          ]
+        },
+        {
+          "cellules": [
+            "K.2",
+            "Silence absolu et maintien du Masque d'ambitieux sans scrupule",
+            "V.2 (vers C.2)",
+            "Prix : subir les regards hostiles du pensionnaire sans se justifier, laisser calomnier sa loyauté."
+          ]
+        },
+        {
+          "cellules": [
+            "K.3",
+            "Ouvrir la lettre cachetée d'Anselm",
+            "V.1 (vers C.1)",
+            "Prix : briser un siècle de refus, risquer d'apprendre qu'Anselm savait ou veillait ; limite : le sceau de cire noire de Rupea."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "N°",
+        "L'action",
+        "Réalise",
+        "Dépend de",
+        "Qui",
+        "Où",
+        "La preuve",
+        "État",
+        "Jour dû",
+        "Jour fait",
+        "Note"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "P.1",
+            "Reconnaissance des marches et taillis à l'est de Dealu Frumos",
+            "C.1",
+            "Préparatifs de la monture et de la meute de Radu",
+            "konstantin",
+            "lisières est d'Agnita et marches de Cincu",
+            "Rapport des bûcherons et traces de brûlis ou de cendres froides sous les frondaisons.",
+            "a-faire",
+            "an 1, lune 11, jour 28",
+            "",
+            "Inscrit dans intentions.json (konstantin-nom, 25 jours restants)"
+          ]
+        },
+        {
+          "cellules": [
+            "P.2",
+            "Visite de courtoisie et de veille à Agnita",
+            "C.2",
+            "Chevauchée nocturne d'une nuit",
+            "konstantin",
+            "salle d'Agnita",
+            "Entretien avec Gontran, constat de sa vitalité et observation des manigances du pensionnaire.",
+            "a-faire",
+            "an 1, lune 11, jour 10",
+            "",
+            "Devoir périodique de champion"
+          ]
+        },
+        {
+          "cellules": [
+            "P.3",
+            "Examen silencieux de la lettre cachetée de Rupea",
+            "C.1",
+            "Se trouver seul dans sa chambre à Dealu Frumos",
+            "konstantin",
+            "chambre-konstantin",
+            "La lettre reste intacte sur la table ou le sceau est brisé.",
+            "a-faire",
+            "an 1, lune 11, jour 5",
+            "",
+            "Objet posé sur la table depuis la blessure de Gontran"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Stratégie et alternatives",
+      "colonnes": [
+        "Fin",
+        "Approche",
+        "Pourquoi",
+        "Alternative",
+        "Changer si",
+        "Moyens engagés"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "C.1",
+            "Battue solitaire et silencieuse sous le couvert forestier pour débusquer les traces de cendres.",
+            "Un champion ne lance pas d'armée pour une vendetta personnelle : les trois passes règlent la dette d'honneur sans embraser les domaines.",
+            "Si la piste orientale reste stérile, se renseigner discrètement sur les mouvements des Sépulcraux voisins (Cincu).",
+            "Si Gontran m'ordonne expressément de renoncer ou si son agresseur se révèle être un hôte officiel d'Agnita.",
+            "Sa monture, son épée bâtarde, sa résistance de Stryge, ses 5 tributs magiques accumulés."
+          ]
+        },
+        {
+          "cellules": [
+            "C.2",
+            "Garder le masque de l'héritier rapace pour dissuader les prédateurs d'attaquer un Gontran affaibli.",
+            "Tant que le monde croit que Konstantin dévorera quiconque touche à Agnita pour s'en emparer lui-même, personne n'ose défier Gontran.",
+            "Proposer une garde d'honneur permanente de Dealu Frumos aux portes d'Agnita si la santé de Gontran décline.",
+            "Si Gontran le délie de son serment ou le somme de partir.",
+            "Sa réputation redoutable, son silence d'airain, son armure écarlate."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Moyens disponibles",
+      "colonnes": [
+        "Référence",
+        "Nature",
+        "Accès réel",
+        "Quantité ou portée",
+        "Limites",
+        "Provenance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "M.1",
+            "Tributs de duel de cinq seigneurs vaincus",
+            "Konstantin en personne",
+            "Cinq tributs magiques réguliers ne remontant à aucun ancêtre",
+            "Liés à sa survie et sa puissance personnelle",
+            "Duels singuliers remportés depuis un demi-siècle"
+          ]
+        },
+        {
+          "cellules": [
+            "M.2",
+            "Fief fortifié de Dealu Frumos",
+            "Seigneurie de Konstantin sous suzeraineté d'Agnita",
+            "Une petite ville fortifiée, un manoir en pierre, des serfs et des bois",
+            "À une nuit de marche d'Agnita, ressource modeste mais défendable",
+            "Fief concédé par Gontran il y a 90 ans"
+          ]
+        },
+        {
+          "cellules": [
+            "M.3",
+            "Armes et harnois de duelliste écarlate",
+            "Équipement personnel",
+            "Épée bâtarde de maître, plates d'acier bruni et velours écarlate serti de gemmes",
+            "Lourd à pied en forêt dense où la brume se brise",
+            "Forge d'Agnita et butin de duels"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Trous de préparation",
+      "colonnes": [
+        "Trou",
+        "Catégorie",
+        "Ce qui en dépend",
+        "Traitement",
+        "Qui",
+        "Échéance",
+        "État",
+        "Résultat"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Le nom exact du Sépulcral aux cendres",
+            "savoirs-et-secrets",
+            "C.1, P.1",
+            "Battue vers l'est et écoute des rumeurs de bois",
+            "konstantin",
+            "an 1, lune 11, jour 28",
+            "ouvert",
+            "Soupçon vers Cendrik de Cincu, à confirmer en jeu"
+          ]
+        },
+        {
+          "cellules": [
+            "Le contenu de la lettre fermée de Rupea",
+            "savoirs-et-secrets",
+            "C.1, P.3",
+            "Décision intime d'ouvrir ou brûler le pli",
+            "konstantin",
+            "an 1, lune 11, jour 5",
+            "ouvert",
+            "Lettre cachetée sur sa table de Dealu Frumos"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Connaissances et croyances",
+      "colonnes": [
+        "Sujet",
+        "Ce que je crois",
+        "Source reçue",
+        "Ce que j’ignore",
+        "Référence de réalité"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Le Sépulcral ayant bu Gontran",
+            "C'est un Sépulcral qui commande aux cendres et chasse à l'est d'Agnita.",
+            "Goules de Gontran et rumeurs de chasseurs",
+            "Son identité formelle (Cendrik de Cincu) et son motif exact",
+            "lore/cendrik.md, lore/konstantin.md"
+          ]
+        },
+        {
+          "cellules": [
+            "Le sort d'Ilka à Ticușu Vechi",
+            "C'est une jeune Stryge du sang de Rupea dont un Sépulcral grignote le domaine au sud.",
+            "Rumeurs de voyageurs et bergers de la marche",
+            "Qu'elle est sa propre sœur de sang et que le même Sépulcral la presse",
+            "lore/ilka.md, lieux.json:ticusu-vechi"
+          ]
+        },
+        {
+          "cellules": [
+            "Les lettres d'Anselm",
+            "Qu'elles ne contiennent que mépris, ordres ou vaines relances d'un père qui l'a chassé.",
+            "Souvenir de son renvoi il y a un siècle",
+            "Si Anselm cherchait à le prévenir de l'embuscade ou à maintenir un lien",
+            "lore/anselm.md, lore/konstantin.md"
+          ]
+        },
+        {
+          "cellules": [
+            "Les intentions du pensionnaire d'Agnita",
+            "Le pensionnaire attend la mort de Gontran et craint que Konstantin ne s'empare du trône.",
+            "Regards et chuchotements à la table d'Agnita",
+            "La profondeur de ses intrigues ou s'il cherche des appuis extérieurs",
+            "canon/lore/konstantin.md"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Résultats et révisions",
+      "colonnes": [
+        "Date",
+        "Fait ou découverte",
+        "Preuve",
+        "Ce que je change",
+        "Renvois"
+      ],
+      "lignes": []
+    }
+  ]
+}

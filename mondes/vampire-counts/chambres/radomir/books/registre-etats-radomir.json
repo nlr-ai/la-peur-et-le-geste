@@ -1,0 +1,240 @@
+{
+  "id": "registre-etats-radomir",
+  "titre": "Les choses suivies par radomir",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée au porteur",
+  "type": "registre",
+  "tenu_par": "radomir",
+  "acteur_id": "radomir",
+  "prive": true,
+  "pages": [
+    "Catégories : lieux-et-passages, objets-et-documents, ressources-et-populations, organisations-et-dispositifs, usages-et-institutions, situations-et-processus. Une ligne par chose ou situation. L’identité est une référence stable ; plusieurs PNJ citent la même chose au lieu de la recréer. Quand une table canonique du moteur porte déjà le fait, elle garde autorité : la ligne renvoie à cette adresse. Les évolutions arithmétiques vont dans les mains de leur maison. Les lignes purement descriptives sont leur propre autorité jusqu’à matérialisation. Accès au cahier technique n’est pas connaissance du personnage : Qui sait quoi doit être respecté."
+  ],
+  "colonnes": [
+    "Référence",
+    "Catégorie",
+    "Identité et fonction",
+    "Où",
+    "Détenteur ou responsable",
+    "État présent",
+    "Quantité ou propriétés",
+    "Usages et limites",
+    "Liens",
+    "Évolution et échéances",
+    "Statut",
+    "Source ou provenance",
+    "Qui sait quoi",
+    "Date de mise à jour",
+    "Autorité existante"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "chose:comana-taniere",
+        "lieux-et-passages",
+        "La Tanière de Comăna : ancien manoir de pierre massive à demi enfoncé dans le flanc d'une colline boisée, aux volets bardés de fer, servant de logis et de crypte à Radomir.",
+        "comana-de-jos",
+        "radomir",
+        "Frais, austère, obscur, sans faste ni tenture, entretenu par deux goules domestiques.",
+        "1 bâtisse fortifiée de basalte, cave voûtée sous roche",
+        "Refuge diurne où dort Radomir entre 6h40 et 17h35 ; salle d'armes désaffectée.",
+        "lieux.json:comana-de-jos, routines.json:radomir",
+        "Permanent",
+        "peint",
+        "Implantation de Radomir",
+        "Radomir et ses serviteurs de confiance connaissent l'aménagement intérieur ; les vivants n'en voient que la porte ferrée.",
+        "an 1, lune 11, jour 3",
+        "routines.json:radomir"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:comana-lisiere-sud",
+        "lieux-et-passages",
+        "La Lisière des grands bois de Comăna : vaste bande de sous-bois denses, de ravines et de chênes séculaires marquant la frontière nord vers Ticușu Vechi et le pays découvert.",
+        "comana-de-jos",
+        "radomir",
+        "Sombre, hérissée de ronces et de sentiers détournés tracés par les bêtes.",
+        "Massif forestier continu sur plusieurs lieues",
+        "Lieu de guet nocturne de Radomir (0h-6h40 et 17h35-0h) ; zone sous forêt vivante où la brume ne vole pas.",
+        "lieux.json:comana-de-jos, routines.json:radomir",
+        "Stable",
+        "établi",
+        "routines.json:radomir, canon/lore/radomir.md",
+        "Tous les seigneurs du sud connaissent la sinistre renommée de cette lisière.",
+        "an 1, lune 11, jour 3",
+        "routines.json:radomir"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:comana-clairiere-duel",
+        "lieux-et-passages",
+        "La Clairière des Fougères : repli forestier moussu à deux lieues au nord du logis, où eut lieu il y a huit ans le duel nocturne entre Anselm et Radomir.",
+        "comana-de-jos",
+        "radomir",
+        "Silencieuse, entourée de grands hêtres, tapis de fougères épaisses.",
+        "1 clairière circulaire, ruisseau encaissé à l'est",
+        "Lieu mémorable où s'est scellé le tribut de Rupea et le passage secret d'Ilka.",
+        "personnages.json:anselm, personnages.json:radomir",
+        "Invariable",
+        "établi",
+        "canon/lore/radomir.md",
+        "Seuls Radomir et Anselm savent ce qui s'y est exactement dit et passé ; Ilka ignore l'endroit précis.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:comana-charnier-lisiere",
+        "objets-et-documents",
+        "Les tas d'ossements blanchis de la lisière : amas de crânes fendus et d'os longs déposés au bord des sentiers forestiers pour effrayer les intrus.",
+        "comana-de-jos",
+        "radomir",
+        "Os blanchis par la chaux et les intempéries, disposés sur des tertres de terre noire.",
+        "Une vingtaine d'amas d'os répartis sur deux lieues de frontière",
+        "Support matériel du Masque de férocité sanguinaire entretenu par Radomir.",
+        "intentions.json:radomir, canon/lore/radomir.md",
+        "Renouvelé chaque printemps par les goules avec des dépouilles de loups et d'ours",
+        "établi",
+        "canon/lore/radomir.md, intentions.json:radomir",
+        "Radomir et ses goules savent que ce sont des bêtes ; les étrangers croient à des intrus dévorés ; Cendrik commence à suspecter la supercherie.",
+        "an 1, lune 11, jour 3",
+        "intentions.json:radomir"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:comana-coupe-etain",
+        "objets-et-documents",
+        "La Coupe d'étain sobre de Radomir : hanap lourd de métal sans dorure ni armoirie, servant à mesurer sa ration exacte de sang au crépuscule.",
+        "comana-de-jos",
+        "radomir",
+        "Métal épais, marques discrètes gravées à l'intérieur pour fixer la dose.",
+        "1 coupe de mesure",
+        "Instrument de sa discipline ascétique pour rompre le jeûne sans laisser la soif déborder.",
+        "claude.md, canon/lore/radomir.md",
+        "Usage quotidien au réveil",
+        "peint",
+        "Règle de vie de Radomir",
+        "Radomir seul s'en sert dans le secret de sa salle basse.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:comana-goule-barbu",
+        "ressources-et-populations",
+        "Barbu : goule de confiance de Radomir, ancien bûcheron trapu aux mains calleuses, chargé de guetter la lisière et de déplacer les ossements.",
+        "comana-de-jos",
+        "radomir",
+        "Silencieux, dévoué, vêtu de peaux de loup et de bure boueuse.",
+        "1 serviteur goule endurant et vigilant",
+        "Surveille les abords nord, avertit Radomir de l'approche d'Ilka ou d'étrangers, ramasse les carcasses.",
+        "personnages.json:radomir, intentions.json:radomir",
+        "Goule robuste depuis quarante ans",
+        "peint",
+        "Organisation de la maison Comăna",
+        "Radomir et les serfs du domaine le connaissent ; les voyageurs le fuient comme une bête des bois.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:comana-veueur-dobre",
+        "ressources-et-populations",
+        "Dobre le Veneur : doyen des serfs vivants de Comăna de Jos (62 ans), chef des bûcherons et des bandes envoyées en forêt.",
+        "comana-de-jos",
+        "Dobre (vivant)",
+        "Cheveux blancs, œil perçant, respectueux mais sans terreur servile.",
+        "1 ancien régissant la communauté villageoise",
+        "Organise les coupes de bois, conduit les bandes autorisées en lisière et recueille la dîme légère de sang.",
+        "lieux.json:comana-de-jos, canon/lore/radomir.md",
+        "Veille sur la subsistance des familles du bourg",
+        "peint",
+        "Implantation de Comăna",
+        "Tous les villageois de Comăna le respectent ; Radomir traite directement avec lui au seuil du domaine.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:comana-bandes-vivants",
+        "ressources-et-populations",
+        "La population des vivants de Comăna de Jos : la plus nombreuse et la plus stable du sud, groupée en trois hameaux de bûcherons et charbonniers.",
+        "comana-de-jos",
+        "radomir",
+        "Prospère, bien nourrie par les ressources de la forêt, vivant à l'abri des pillages extérieurs.",
+        "Trois hameaux, plusieurs centaines de bûcherons, charbonniers et éleveurs de porcs",
+        "Fournit les bûches, le gibier et une dîme sanguine modérée n'épuisant jamais les foyers.",
+        "lieux.json:comana-de-jos, canon/lore/radomir.md",
+        "Croissance démographique modérée protégée par la renommée féroce du seigneur",
+        "établi",
+        "canon/lore/radomir.md, lieux.json:comana-de-jos",
+        "Tous les seigneurs voisins savent que Comăna possède les villages les plus pleins, mais n'osent y toucher.",
+        "an 1, lune 11, jour 3",
+        "lieux.json:comana-de-jos"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:comana-regle-dime-moderee",
+        "usages-et-institutions",
+        "La Règle de la Dîme Mesurée : loi coutumière interne interdisant formellement de saigner un villageois jusqu'à la mort ou d'épuiser une bande de bois.",
+        "comana-de-jos",
+        "radomir",
+        "Scrupuleusement observée par Radomir et ses goules.",
+        "Coutume seigneuriale non écrite",
+        "Garantit la pérennité du bétail humain et prévient la désertion des serfs vers d'autres vallées.",
+        "canon/lore/radomir.md, claude.md",
+        "En vigueur depuis plus d'un siècle",
+        "établi",
+        "canon/lore/radomir.md",
+        "Radomir et les anciens du village savent la règle ; les étrangers croient au carnage total.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:comana-tribut-magie-rupea",
+        "situations-et-processus",
+        "Le tribut magique d'Anselm : flux de magie remontant chaque nuit de Rupea vers Radomir en vertu du duel d'il y a huit ans.",
+        "comana-de-jos",
+        "radomir",
+        "Actif et régulier, versé nuitamment à l'heure où les maîtres se lèvent.",
+        "Prélèvement constant de magie sans intermédiaire physique",
+        "Nourrit la puissance occulte de Comăna sans saigner ses propres serfs ; honte d'Anselm, fardeau moral pour Radomir.",
+        "personnages.json:radomir, personnages.json:anselm, relations.json",
+        "Dure tant que les deux seigneurs veillent",
+        "établi",
+        "canon/lore/radomir.md, relations.json",
+        "Radomir et Anselm connaissent le lien ; Nicodim s'interroge sur sa cause ; Cendrik et les autres ignorent le pacte sous-jacent.",
+        "an 1, lune 11, jour 3",
+        "relations.json"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:comana-menace-chant-cincu",
+        "situations-et-processus",
+        "L'empiètement potentiel des Ritualistes de Cincu le long de la terre de Ticușu Vechi et des abords de Comăna.",
+        "ticusu-vechi",
+        "cendrik",
+        "En préparation du côté de Cincu, surveillance étroite maintenue par Radomir.",
+        "Prêtres morts relevés capables de chanter la terre arpent par arpent",
+        "Risque d'avancée territoriale menaçant le sanctuaire d'Ilka et la lisière sud de Comăna.",
+        "intentions.json:cendrik, intentions.json:radomir, intentions.json:ilka",
+        "Surveillance renforcée à l'approche de la fin de lune",
+        "établi",
+        "intentions.json:cendrik, intentions.json:radomir",
+        "Cendrik prépare son arpentage ; Radomir est prêt à bondir en bête à la lisière pour les mettre en fuite.",
+        "an 1, lune 11, jour 3",
+        "intentions.json:cendrik"
+      ]
+    }
+  ]
+}

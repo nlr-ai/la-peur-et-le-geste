@@ -21,8 +21,8 @@
    }
   },
   "sever": {
-   "salle": "odorheiu-secuiesc",
-   "lieu": "Odorheiu Secuiesc",
+   "salle": "chapelle-odorheiu",
+   "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc",
    "date": {
     "annee": 1,
     "lune": 11,
@@ -41,8 +41,8 @@
    }
   },
   "radomir": {
-   "salle": "comana-de-jos",
-   "lieu": "Comăna de Jos",
+   "salle": "lisiere-comana",
+   "lieu": "La lisiere des bois de Comăna",
    "date": {
     "annee": 1,
     "lune": 11,
@@ -51,8 +51,8 @@
    }
   },
   "ilka": {
-   "salle": "ticusu-vechi",
-   "lieu": "Ticușu Vechi",
+   "salle": "salle-ticusu",
+   "lieu": "La salle d'Ilka, Ticușu Vechi",
    "date": {
     "annee": 1,
     "lune": 11,
@@ -61,8 +61,8 @@
    }
   },
   "konstantin": {
-   "salle": "dealu-frumos",
-   "lieu": "Dealu Frumos",
+   "salle": "salle-dealu",
+   "lieu": "La salle de Konstantin, Dealu Frumos",
    "date": {
     "annee": 1,
     "lune": 11,
@@ -88,6 +88,22 @@
     "lune": 11,
     "jour": 3,
     "minute": 1020
+   }
+  },
+  "stanca": {
+   "salle": "chambre-teodor",
+   "lieu": "Au seuil de la chambre de Teodor, citadelle de Rupea",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1020
+   },
+   "jusqu_a": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1021
    }
   }
  },

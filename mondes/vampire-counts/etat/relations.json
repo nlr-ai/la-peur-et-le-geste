@@ -169,5 +169,46 @@
    "le Vorace qui a bu le maitre"
   ],
   "connue_du_joueur": true
+ },
+ {
+  "de": "stanca",
+  "vers": "anselm",
+  "opinion": 80,
+  "liens": [
+   "le maitre",
+   "la table ou elle boit"
+  ],
+  "connue_du_joueur": false,
+  "_": "Goule : elle ne sait plus qu'obeir. Ce qu'elle craint le plus, c'est qu'on lui retire la table."
+ },
+ {
+  "de": "anselm",
+  "vers": "stanca",
+  "opinion": 15,
+  "liens": [
+   "la goule qui suit Teodor",
+   "celle qu'il a envoyee ailleurs il y a quinze ans"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "stanca",
+  "vers": "teodor",
+  "opinion": 0,
+  "liens": [
+   "celui qu'elle suit",
+   "un ordre du maitre"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "teodor",
+  "vers": "stanca",
+  "opinion": -15,
+  "liens": [
+   "l'oeil de son pere dans les couloirs",
+   "trois pas derriere lui depuis vingt-cinq ans"
+  ],
+  "connue_du_joueur": true
  }
 ]

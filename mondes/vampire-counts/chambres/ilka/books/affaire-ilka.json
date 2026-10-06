@@ -1,0 +1,524 @@
+{
+  "id": "affaire-ilka",
+  "titre": "Les affaires de ilka",
+  "sous_titre": "Cahier stratégique personnel — préparation du monde et conduite de mes affaires",
+  "type": "affaire",
+  "tenu_par": "ilka",
+  "acteur_id": "ilka",
+  "prive": true,
+  "pages": [
+    "Une affaire durable par PNJ qui porte une stratégie. Plusieurs fins peuvent y coexister. Les catégories décrivent les dimensions à peindre, pas huit objectifs obligatoires. Ce cahier de simulation n’est pas la preuve d’un carnet physiquement fabriqué.",
+    "Je peux établir en préparation les détails ordinaires, personnes secondaires, objets, lieux, habitudes et ressources plausibles nécessaires à mon implantation, sans contredire le canon ni les faits acquis. Je marque chaque ajout comme peint. Un ajout conséquent doit avoir une provenance, des limites, des liens et des conséquences cohérents ; je ne fais pas surgir le moyen décisif qui efface mon problème. Un autre personnage reçoit sa fiche et sa propre session avant toute parole, décision ou action jouée.",
+    "Établi, peint, hypothèse, inconnu sont des statuts distincts. Peindre un état initial n’accomplit pas une action future. Fabriquer pendant le jeu exige matériaux, outils, compétence et durée ; une issue dépendant d'autrui reste ouverte. Mes croyances restent distinctes de la réalité, même si ma session contribue à préparer le monde.",
+    "Les adresses C.1, V.1, K.1 et P.1 sont locales à ce cahier. Ne pas inventer de numéro global ; utiliser les outils d’adressage si un contexte global est nécessaire. Les trous ci-dessous sont écrits par moi ; ils ne remplacent pas les trous calculés du graphe."
+  ],
+  "tables": [
+    {
+      "titre": "Ouverture",
+      "colonnes": [
+        "Champ",
+        "Contenu"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Porteur",
+            "ilka"
+          ]
+        },
+        {
+          "cellules": [
+            "Périmètre",
+            "Mon fief de Ticușu Vechi, la pureté de mon sang stryge, la traversée de l'hiver et mon retour légitime à Rupea."
+          ]
+        },
+        {
+          "cellules": [
+            "État de préparation",
+            "Implantation posée, moyens décrits, verrous et stratégie articulés."
+          ]
+        },
+        {
+          "cellules": [
+            "Registre compagnon",
+            "registre-etats-ilka"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dimensions à peindre",
+      "colonnes": [
+        "Catégorie",
+        "Ce que je pose",
+        "Statut",
+        "Source ou provenance",
+        "Renvois"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "fins-et-doctrine",
+            "Garder le sang de Rupea immaculé sans jamais accepter de veine ni de Communion ; plier l'échine devant Vlaicu et Cendrik pour préserver le fief ; passer l'hiver sur les maigres bandes locales et des incursions discrètes à Comăna ; rentrer un jour à Rupea reconnue par mon sire.",
+            "établi",
+            "personnages.json:ilka, canon/lore/ilka.md",
+            "C.1, C.2, C.3"
+          ]
+        },
+        {
+          "cellules": [
+            "personnes-et-relations",
+            "Vlaicu (chef lointain, tribut en sang) ; Anselm (sire redouté, lettres menaçantes reçues) ; Teodor (pensionnaire usurpateur envié) ; Radomir (protecteur secret supposé, accès tacite aux bois de Comăna) ; Cendrik (voisin sépulcral prédateur convoitant Ticușu) ; Toma (bailli et intendant de Ticușu) ; Mara (goule messagère de confiance) ; Constantin (vieux fossoyeur de la bourgade).",
+            "peint",
+            "relations.json, canon/lore/ilka.md, registre-etats-ilka",
+            "registre:gens-ticusu"
+          ]
+        },
+        {
+          "cellules": [
+            "pouvoir-et-acces",
+            "Seigneurie installée sur Ticușu Vechi et ses hameaux de lisière ; accès souverain au manoir de pierre et à la cave scellée ; droit de passage toléré de fait dans les bois de Comăna de Jos ; aucun accès ni droit à Rupea actuellement.",
+            "établi",
+            "lieux.json:ticusu-vechi, canon/lore/ilka.md",
+            "registre:lieux-et-passages"
+          ]
+        },
+        {
+          "cellules": [
+            "moyens-materiels",
+            "Manoir fortifié de Ticușu Vechi ; la petite couronne de fer noir des Stryges ; coffret de chêne cerclé contenant les lettres d'Anselm ; réserve de sang précaire issue de quatre métairies ; vingt-cinq serfs vivants et quatre goules de courtoisie ; herbes et racines séchées.",
+            "peint",
+            "canon/lore/ilka.md, registre-etats-ilka",
+            "M.1, M.2, M.3, M.4"
+          ]
+        },
+        {
+          "cellules": [
+            "savoirs-et-secrets",
+            "Connaissance intime de l'herboristerie et des remparts de Rupea ; certitude que Radomir a intercepté Anselm il y a huit ans ; conviction que les lettres d'Anselm sont des avertissements punitifs ; observation des bandes de vivants amaigries par la rapine de Cendrik.",
+            "établi",
+            "intentions.json:ilka, canon/lore/ilka.md",
+            "V.1, V.2"
+          ]
+        },
+        {
+          "cellules": [
+            "engagements-et-temps",
+            "Serment d'allégeance prêté à Vlaicu (Vorace) ; tribut de sang dû chaque fin de saison ; veille nocturne à la salle de Ticușu (0h00-6h40 et 17h21-0h00) ; sommeil diurne dans la crypte du manoir ; hivernage de 30 jours à tenir.",
+            "établi",
+            "routines.json:ilka, intentions.json:ilka",
+            "P.1, P.2"
+          ]
+        },
+        {
+          "cellules": [
+            "strategie-et-alternatives",
+            "Stratégie du roseau : plier devant les exigences et insolences sans jamais offrir de résistance frontale ni lier ses veines ; ponctionner a minima Comăna en évitant d'attirer l'attention ; si Cendrik fait chanter ses Ritualistes, céder d'abord les confins, puis appeler l'arbitrage de Radomir ou se battre à la dernière extrémité.",
+            "établi",
+            "intentions.json:ilka, canon/lore/ilka.md",
+            "K.1, K.2, K.3"
+          ]
+        },
+        {
+          "cellules": [
+            "zones-a-peindre",
+            "Le manoir et la crypte de Ticușu Vechi, les métairies nourricières, les chemins boueux vers Cincu et vers Comăna, le bailli Toma, la goule Mara, le coffret aux lettres de Rupea.",
+            "peint",
+            "registre-etats-ilka",
+            "registre:lieux-et-passages"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "N°",
+        "L'état visé",
+        "Ce qui doit être vrai",
+        "La preuve",
+        "Jour dû",
+        "Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "C.1",
+            "Sang stryge préservé de tout mélange",
+            "Aucune veine ouverte, aucun don reçu d'une autre lignée, aucune Communion acceptée avec un Vorace ou un Sépulcral",
+            "Absence de pacte dans le registre des veines et rejet constant des offres",
+            "permanent",
+            "vitale"
+          ]
+        },
+        {
+          "cellules": [
+            "C.2",
+            "Passer l'hiver à Ticușu Vechi sans famine ni dépeuplement fatal",
+            "Les quatre métairies conservent assez de bras vivants pour nourrir la maison et acquitter la part due à Vlaicu",
+            "Les bandes de vivants ne tombent pas sous le seuil critique à l'issue des 30 jours",
+            "an 1, lune 12, jour 3",
+            "haute"
+          ]
+        },
+        {
+          "cellules": [
+            "C.3",
+            "Maintien de la tolérance dans les bois de Comăna",
+            "Les goules et patrouilles de Radomir continuent de fermer les yeux lors des chasses nocturnes d'Ilka",
+            "Retours de chasse à Comăna sans heurt ni capture",
+            "chaque décade",
+            "haute"
+          ]
+        },
+        {
+          "cellules": [
+            "C.4",
+            "Retour triomphal et pur à Rupea",
+            "Anselm reconnaît son erreur, écarte ou congédie Teodor, et réintègre Ilka comme digne héritière de la citadelle",
+            "Rappel formel par Anselm et installation sur le siège de Rupea",
+            "indéterminé",
+            "suprême"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": [
+        "N°",
+        "Le verrou",
+        "Bloque",
+        "La preuve"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "V.1",
+            "Grignotage territorial et prédation des bandes par Cendrik de Cincu",
+            "C.2",
+            "Bandes de vivants qui rentrent amincies des lisières ouest ; menaces d'envoi de Ritualistes sépulcraux"
+          ]
+        },
+        {
+          "cellules": [
+            "V.2",
+            "Faim endémique causée par le refus des veines et la pauvreté du fief",
+            "C.1, C.2",
+            "Faiblesse physique et magique d'Ilka, obligée de chasser hors de son domaine"
+          ]
+        },
+        {
+          "cellules": [
+            "V.3",
+            "Surveillance et rejet persistants du sire Anselm",
+            "C.4",
+            "Lettres sèches reçues par goule rappelant les interdits et la mise à l'écart ; maintien de Teodor à la table haute"
+          ]
+        },
+        {
+          "cellules": [
+            "V.4",
+            "Risque d'affrontement ou de rupture du Masque de Radomir à Comăna",
+            "C.3",
+            "Si Ilka chasse trop visiblement ou adresse un merci formel créant une dette, Radomir pourrait fermer ses bois"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "N°",
+        "La clef",
+        "Ouvre",
+        "Prix et limites"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "K.1",
+            "Soumission feinte et recul tactique devant Cendrik",
+            "V.1 (vers C.2)",
+            "Prix : perte d'estime et de quelques arpents incultes ; limite : ne pas laisser entamer les villages ni le bourg"
+          ]
+        },
+        {
+          "cellules": [
+            "K.2",
+            "Chasse d'ombre solitaire sous les arbres de Comăna",
+            "V.2 (vers C.2, C.3)",
+            "Prix : fatigue et danger de croiser un prédateur vorace égaré ; limite : prélever une seule proie sans bruit ni violence"
+          ]
+        },
+        {
+          "cellules": [
+            "K.3",
+            "Conserver et méditer chaque avertissement d'Anselm",
+            "V.3 (vers C.4)",
+            "Prix : humiliation et angoisse constante ; limite : obéir à la lettre pour prouver une piété filiale absolue"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "N°",
+        "L'action",
+        "Réalise",
+        "Dépend de",
+        "Qui",
+        "Où",
+        "La preuve",
+        "État",
+        "Jour dû",
+        "Jour fait",
+        "Note"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "P.1",
+            "Tenir le compte d'hivernage des bandes de vivants de Ticușu",
+            "C.2",
+            "Rapport du bailli Toma à la salle de Ticușu",
+            "ilka",
+            "salle-ticusu",
+            "Registre des serfs et des rations vérifié au manoir",
+            "a-faire",
+            "an 1, lune 11, jour 5",
+            "",
+            "Étape nécessaire pour mesurer l'usure causée par Cendrik"
+          ]
+        },
+        {
+          "cellules": [
+            "P.2",
+            "Sortie de chasse d'appoint dans les lisières de Comăna",
+            "C.2, C.3",
+            "Nuit noire, absence de patrouille hostile",
+            "ilka",
+            "lisiere-comana",
+            "Une proie prélevée sans alerte, retour avant l'aube",
+            "a-faire",
+            "an 1, lune 11, jour 8",
+            "",
+            "Prévu dans le plan d'hiver pour calmer la faim sans vider Ticușu"
+          ]
+        },
+        {
+          "cellules": [
+            "P.3",
+            "Inspection des bornes ouest face à Cincu par la goule Mara",
+            "C.2",
+            "Mara envoyée de jour longer le ruisseau frontière",
+            "ilka",
+            "ticusu-vechi",
+            "Rapport au crépuscule sur la présence éventuelle de Ritualistes",
+            "a-faire",
+            "an 1, lune 11, jour 10",
+            "",
+            "Guet préventif contre les chants de Cendrik"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Stratégie et alternatives",
+      "colonnes": [
+        "Fin",
+        "Approche",
+        "Pourquoi",
+        "Alternative",
+        "Changer si",
+        "Moyens engagés"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "C.1, C.2",
+            "Profil bas absolu : plier le cou devant tous, refuser les pactes et compenser le manque par Comăna.",
+            "Tout refus ostensible provoquerait une frappe de Cendrik ou le courroux de Vlaicu ; la soumission apparente est la seule armure d'un installé isolé.",
+            "Si les bandes s'effondrent, demander un allègement de tribut à Vlaicu par supplique humble.",
+            "Si Cendrik amène des Ritualistes sur le bourg même de Ticușu, appeler Radomir ou livrer bataille sur le seuil.",
+            "Son endurance de Stryge, ses serfs locaux, sa ruse d'herboriste pour prélever sans tuer."
+          ]
+        },
+        {
+          "cellules": [
+            "C.3, C.4",
+            "Silence sacré envers Radomir et piété rigoureuse envers les lettres d'Anselm.",
+            "Remercier Radomir créerait une dette et romprait son secret ; désobéir à Anselm fermerait à jamais la porte de Rupea.",
+            "Garder chaque lettre dans le coffret ferré comme relique et preuve de vigilance.",
+            "Si Teodor tombe ou si Rupea est menacée par Odorheiu, se porter au secours du rocher pour revendiquer sa place.",
+            "Le coffret de lettres, le silence, la petite couronne noire portée sans faille."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Moyens disponibles",
+      "colonnes": [
+        "Référence",
+        "Nature",
+        "Accès réel",
+        "Quantité ou portée",
+        "Limites",
+        "Provenance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "M.1",
+            "Fief de Ticușu Vechi et manoir fortifié",
+            "Contrôle direct comme installée jurée",
+            "Un bourg modeste, quatre métairies, environ cent vingt vivants serfs",
+            "Terre maigre, lisière exposée aux incursions des Sépulcraux de Cincu",
+            "Concédé par Vlaicu il y a quarante ans"
+          ]
+        },
+        {
+          "cellules": [
+            "M.2",
+            "Sang pur de la lignée de Rupea",
+            "Corps et esprit d'Ilka",
+            "Résistance stryge, insensibilité au mensonge flatteur, sang sans mélange",
+            "Faim permanente, magie limitée faute de veines ouvertes",
+            "Étreinte d'Anselm il y a cinquante ans"
+          ]
+        },
+        {
+          "cellules": [
+            "M.3",
+            "Coffret aux lettres de Rupea",
+            "Dans l'alcôve scellée de la chambre d'Ilka",
+            "Huit missives autographes d'Anselm",
+            "Mots laconiques et menaçants ; aucune chaleur",
+            "Livrées au fil des décennies par les goules de Rupea"
+          ]
+        },
+        {
+          "cellules": [
+            "M.4",
+            "Serviteurs dévoués de Ticușu",
+            "Manoir et cours",
+            "Toma (bailli vivant), Mara (goule messagère), Constantin (fossoyeur)",
+            "Vivants mortels ou goules fragiles face à des seigneurs de guerre",
+            "Attachement local à la maison de Ticușu"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Trous de préparation",
+      "colonnes": [
+        "Trou",
+        "Catégorie",
+        "Ce qui en dépend",
+        "Traitement",
+        "Qui",
+        "Échéance",
+        "État",
+        "Résultat"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Vraie raison pour laquelle Anselm s'est laissé boire à Comăna",
+            "savoirs-et-secrets",
+            "C.4, V.3",
+            "Observation des messagers de Rupea et mémoire du passé",
+            "ilka",
+            "indéterminée",
+            "ouvert",
+            "Ilka croit qu'il venait la détruire et que la Crinière s'est interposée"
+          ]
+        },
+        {
+          "cellules": [
+            "Objectif réel de Cendrik envers Comăna à travers Ticușu",
+            "savoirs-et-secrets",
+            "V.1, C.2",
+            "Surveillance des chemins par Mara",
+            "ilka",
+            "an 1, lune 11, jour 20",
+            "ouvert",
+            "Ilka sait qu'il convoite sa terre, ignore qu'il veut ouvrir la voie vers la forêt"
+          ]
+        },
+        {
+          "cellules": [
+            "Date du prochain passage d'une goule d'Anselm avec un pli",
+            "engagements-et-temps",
+            "V.3, M.3",
+            "Guet sur la route nord",
+            "ilka",
+            "hiver an 1",
+            "ouvert",
+            "Habituellement un pli par an vers le solstice d'hiver"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Connaissances et croyances",
+      "colonnes": [
+        "Sujet",
+        "Ce que je crois",
+        "Source reçue",
+        "Ce que j’ignore",
+        "Référence de réalité"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "La nuit des bois du sud",
+            "Mon père Anselm est venu dans les bois de Comăna pour me détruire, et Radomir s'est mis en travers pour me sauver.",
+            "Rumeurs du printemps suivant et bruit du combat entendu au loin",
+            "Qu'Anselm s'est offert en duel et s'est laissé boire pour payer le droit d'Ilka de chasser à Comăna",
+            "canon/lore/ilka.md, canon/lore/anselm.md"
+          ]
+        },
+        {
+          "cellules": [
+            "Les lettres de mon père",
+            "Ce sont des menaces glaciales : il me surveille, sait où je bois, et n'attend qu'une faiblesse pour me frapper.",
+            "Les huit lettres dans le coffret",
+            "Qu'Anselm tente maladroitement de la protéger des prédateurs voisins sans montrer son amour",
+            "canon/lore/ilka.md, canon/lore/anselm.md"
+          ]
+        },
+        {
+          "cellules": [
+            "Les visées de Cendrik de Cincu",
+            "Il me méprise, vole mes serfs parce que j'ai refusé sa veine, et veut absorber Ticușu par cupidité.",
+            "Bandes revenues amaigries, proposition de veine rejetée l'an passé",
+            "Qu'il utilise Ticușu comme un simple marchepied géométrique pour tester et abattre Radomir",
+            "canon/lore/cendrik.md, intentions.json:ilka"
+          ]
+        },
+        {
+          "cellules": [
+            "Teodor le pensionnaire",
+            "C'est un incapable, un ancien serf sans noblesse de sang, gardé par caprice d'Anselm et destiné à voler Rupea.",
+            "Souvenir des six hivers à la citadelle",
+            "Que Teodor étouffe à la citadelle et rêve d'une terre lointaine loin du rocher",
+            "canon/lore/teodor.md, canon/lore/ilka.md"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Résultats et révisions",
+      "colonnes": [
+        "Date",
+        "Fait ou découverte",
+        "Preuve",
+        "Ce que je change",
+        "Renvois"
+      ],
+      "lignes": []
+    }
+  ]
+}

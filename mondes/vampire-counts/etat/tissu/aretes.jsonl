@@ -1,0 +1,59 @@
+{"de": "pers:anselm", "vers": "etape:anselm-lettre-ilka", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:anselm-lettre-ilka", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une goule sure pour la route"}
+{"de": "etape:anselm-lettre-ilka", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "deux nuits de route"}
+{"de": "pers:anselm", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "un de ses enfants est en danger de destruction et il l'apprend"}
+{"de": "pers:anselm", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Teodor leve les yeux a table et demande quelque chose devant temoins"}
+{"de": "pers:anselm", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "une goule lui rapporte que Sever est revenu a Rupea ou dans la ville basse"}
+{"de": "pers:sever", "vers": "etape:sever-retour", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:sever-retour", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une raison de passer a Rupea que le maitre n'interroge pas"}
+{"de": "etape:sever-retour", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une nuit ou Teodor est seul"}
+{"de": "pers:sever", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Teodor donne sa reponse"}
+{"de": "pers:nicodim", "vers": "etape:nicodim-malediction", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:nicodim-malediction", "vers": "etape:sever-retour", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:nicodim-malediction", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "la nuit donnee par Teodor"}
+{"de": "etape:nicodim-malediction", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "assez de magie et de sang mis dans le coup pour valoir la defense de Rupea"}
+{"de": "pers:nicodim", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Sever rapporte que Teodor refuse"}
+{"de": "pers:radomir", "vers": "etape:radomir-os", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:radomir-os", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "des goules"}
+{"de": "etape:radomir-os", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "des os"}
+{"de": "pers:radomir", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "des Ritualistes chantent au bord de Ticușu Vechi ou de ses propres bois"}
+{"de": "pers:ilka", "vers": "etape:ilka-hiver", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:ilka-hiver", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "des bandes de vivants"}
+{"de": "etape:ilka-hiver", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "les bois de Comăna ouverts"}
+{"de": "pers:ilka", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "les Ritualistes de Cincu chantent au bord de Ticușu"}
+{"de": "pers:konstantin", "vers": "etape:konstantin-nom", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:konstantin-nom", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "des nuits loin de Dealu Frumos"}
+{"de": "etape:konstantin-nom", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "des gens qui parlent"}
+{"de": "pers:konstantin", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "on lui nomme Cendrik de Cincu"}
+{"de": "pers:cendrik", "vers": "etape:cendrik-ticusu", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:cendrik-ticusu", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "des Ritualistes"}
+{"de": "etape:cendrik-ticusu", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "la magie bue a Gontran"}
+{"de": "pers:cendrik", "vers": "etape:cendrik-comana", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:cendrik-comana", "vers": "etape:cendrik-ticusu", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:cendrik-comana", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "la terre de Ticușu tombee"}
+{"de": "pers:cendrik", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "il apprend que Konstantin cherche le Sepulcral aux cendres"}
+{"de": "pers:stanca", "vers": "etape:stanca-compte", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:stanca-compte", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une nuit entiere derriere Teodor sans le perdre"}
+{"de": "etape:stanca-compte", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "le maitre sur les remparts avant l'aube"}
+{"de": "pers:stanca", "vers": "etape:stanca-chambre", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:stanca-chambre", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "Teodor endormi dans sa chambre"}
+{"de": "etape:stanca-chambre", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une heure de jour sans autre ordre du maitre"}
+{"de": "pers:stanca", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "l'envoye voile Sever parait a la porte de la citadelle ou dans une auberge de la ville basse"}
+{"de": "pers:stanca", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "le maitre lui ordonne de porter un pli ou d'aller ailleurs"}
+{"de": "pers:stanca", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "elle trouve un ecrit, une liste ou un livre chez Teodor"}
+{"de": "?", "vers": "ev:sever-revient", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Teodor a fait savoir son refus a Odorheiu avant le 15, Sever ne vient pas"}
+{"de": "?", "vers": "ev:sever-revient", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Anselm a appris la demande, Sever trouve une goule a chaque couloir"}
+{"de": "pers:sever", "vers": "ev:sever-revient", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:teodor", "vers": "ev:sever-revient", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:anselm", "vers": "ev:saignee-d-hiver", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:teodor", "vers": "ev:saignee-d-hiver", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:teodor", "vers": "main:la-table-de-rupea", "nature": "tient", "source": "mains/porteur", "flou": false, "texte": ""}
+{"de": "main:la-table-de-rupea", "vers": "echelle:scene", "nature": "promeut", "source": "mains/seuils", "flou": false, "texte": ""}
+{"de": "pers:anselm", "vers": "perso:anselm:affaire-anselm", "nature": "porte", "source": "chambres/personnelles/porteur", "flou": false, "texte": "affaire-anselm", "local": true, "autorite": "personnelle"}
+{"de": "pers:cendrik", "vers": "perso:cendrik:affaire-cendrik", "nature": "porte", "source": "chambres/personnelles/porteur", "flou": false, "texte": "affaire-cendrik", "local": true, "autorite": "personnelle"}
+{"de": "pers:ilka", "vers": "perso:ilka:affaire-ilka", "nature": "porte", "source": "chambres/personnelles/porteur", "flou": false, "texte": "affaire-ilka", "local": true, "autorite": "personnelle"}
+{"de": "pers:konstantin", "vers": "perso:konstantin:affaire-konstantin", "nature": "porte", "source": "chambres/personnelles/porteur", "flou": false, "texte": "affaire-konstantin", "local": true, "autorite": "personnelle"}
+{"de": "pers:nicodim", "vers": "perso:nicodim:affaire-nicodim", "nature": "porte", "source": "chambres/personnelles/porteur", "flou": false, "texte": "affaire-nicodim", "local": true, "autorite": "personnelle"}
+{"de": "pers:radomir", "vers": "perso:radomir:affaire-radomir", "nature": "porte", "source": "chambres/personnelles/porteur", "flou": false, "texte": "affaire-radomir", "local": true, "autorite": "personnelle"}
+{"de": "pers:sever", "vers": "perso:sever:affaire-sever", "nature": "porte", "source": "chambres/personnelles/porteur", "flou": false, "texte": "affaire-sever", "local": true, "autorite": "personnelle"}
+{"de": "pers:stanca", "vers": "perso:stanca:affaire-stanca", "nature": "porte", "source": "chambres/personnelles/porteur", "flou": false, "texte": "affaire-stanca", "local": true, "autorite": "personnelle"}

@@ -306,5 +306,73 @@
    "lune": 11,
    "jour": 3
   }
+ },
+ {
+  "personnage_id": "stanca",
+  "croyances": [
+   "Le maitre a ordonne qu'on suive Teodor dans les couloirs, la nuit, partout ou il va. Elle ne demande pas pourquoi : c'est l'ordre, et c'est la table.",
+   "Teodor est le fils du maitre : elle lui obeit tant qu'il ne contredit pas l'ordre du maitre. S'il lui dit de s'eloigner, elle reste trois pas derriere, sans un mot, et le rapporte avant l'aube.",
+   "Teodor n'a pas le droit de tenir un livre ni un ecrit a lui ; si elle en trouve un dans sa chambre, elle le porte au maitre.",
+   "L'envoye voile d'Odorheiu vient a la table tous les deux ou trois ans ; il est venu le mois dernier. Elle l'a vu saluer Teodor devant le maitre, jamais seul a seul.",
+   "Le mois dernier, une nuit, elle a perdu Teodor une heure dans la ville basse. Elle ne l'a pas dit au maitre : elle a peur qu'on lui retire la table.",
+   "Il y a huit ans, un porteur de la route du sud est entre en courant dans la cour une heure avant l'aube ; le maitre l'a ecoute, puis il est sorti, et il est rentre bu. Ce n'est pas a elle de savoir pourquoi."
+  ],
+  "ignore": [
+   "Ce qu'il y a sur la derniere page du registre du maitre — elle ne sait pas lire, et elle n'entre pas dans la chambre du maitre sans qu'on l'appelle.",
+   "Que Sever a demande a Teodor qu'une nuit une porte reste ouverte et qu'une goule soit ailleurs.",
+   "Qu'il y a quinze ans, la nuit ou le maitre l'a envoyee a la ville basse chercher ce dont il n'avait pas besoin, l'envoye voile a croise Teodor seul.",
+   "Que le maitre sait depuis toujours que Teodor parle bas aux envoyes voiles, et le laisse faire.",
+   "Que Teodor tient un registre de tete, qu'il recite chaque nuit."
+  ],
+  "intention": "Suivre Teodor chaque nuit sans le perdre une seconde fois, et rendre compte au maitre sur les remparts avant l'aube.",
+  "plan": [
+   {
+    "id": "stanca-compte",
+    "quoi": "Rendre compte au maitre, sur les remparts vers cinq heures, de la nuit de Teodor : ou il est alle, a qui il a parle, combien de temps",
+    "etat": "a-faire",
+    "jours_restants": 1,
+    "depend_de": [],
+    "cout": [
+     "une nuit entiere derriere Teodor sans le perdre",
+     "le maitre sur les remparts avant l'aube"
+    ],
+    "si_bloque": "Si elle l'a perdu de vue, elle le dit au maitre — sauf si c'est la deuxieme fois en deux lunes : alors elle se tait, et le suit de plus pres la nuit suivante."
+   },
+   {
+    "id": "stanca-chambre",
+    "quoi": "Fouiller la chambre de Teodor pendant son sommeil de jour, sous la paillasse et derriere les pierres, comme tous les dix jours",
+    "etat": "a-faire",
+    "jours_restants": 7,
+    "depend_de": [],
+    "cout": [
+     "Teodor endormi dans sa chambre",
+     "une heure de jour sans autre ordre du maitre"
+    ],
+    "si_bloque": "Si Teodor n'est pas couche dans sa chambre au lever du soleil, elle ne fouille pas : elle va le dire au maitre au crepuscule, avant tout le reste."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "l'envoye voile Sever parait a la porte de la citadelle ou dans une auberge de la ville basse",
+    "alors": "Elle le dit au maitre a la premiere occasion, et ne lache plus Teodor d'une marche tant que l'envoye est a Rupea.",
+    "une_fois": false
+   },
+   {
+    "si": "le maitre lui ordonne de porter un pli ou d'aller ailleurs",
+    "alors": "Elle obeit sur-le-champ, sans demander ; tant qu'elle est partie, personne de nomme ne suit Teodor.",
+    "une_fois": false
+   },
+   {
+    "si": "elle trouve un ecrit, une liste ou un livre chez Teodor",
+    "alors": "Elle le porte au maitre sans le lire — elle ne sait pas — et ne le rend jamais a Teodor.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "elle le suit comme on suit un ordre, ni haine ni pitie ; elle a peur de lui un peu moins que du maitre",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
  }
 ]

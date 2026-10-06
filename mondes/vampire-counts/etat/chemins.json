@@ -1,5 +1,5 @@
 {
- "_": "LA TOPOLOGIE DE LA CITADELLE DE RUPEA — en minutes. Homorod est relie a la ville basse (deux heures de marche) : meme composante, hors quartier.",
+ "_": "LA TOPOLOGIE DE LA CITADELLE DE RUPEA — en minutes, mêmes ids que plans/rupea.json. La porte descend à la ville basse par l'escalier taillé dans la roche (3 + 3). Homorod est relie a la ville basse (deux heures de marche) : meme composante, hors quartier. Les sieges lointains (Odorheiu, Comăna, Ticușu, Dealu Frumos, Cincu) sont des ilots a part : hors quartier, mais chacun a ses salles pour que ses habitants aient une journee.",
  "alias": {
   "ma-chambre": "chambre-teodor",
   "grande-salle": "la-table",
@@ -38,14 +38,54 @@
    1
   ],
   [
-   "porte",
-   "ville-basse",
-   6
-  ],
-  [
    "ville-basse",
    "homorod",
    120
+  ],
+  [
+   "porte",
+   "corps-de-garde",
+   1
+  ],
+  [
+   "porte",
+   "escalier-roche",
+   3
+  ],
+  [
+   "escalier-roche",
+   "ville-basse",
+   3
+  ],
+  [
+   "cellule-sever",
+   "chapelle-odorheiu",
+   2
+  ],
+  [
+   "crypte-odorheiu",
+   "chapelle-odorheiu",
+   1
+  ],
+  [
+   "tanniere-comana",
+   "lisiere-comana",
+   15
+  ],
+  [
+   "chambre-ilka",
+   "salle-ticusu",
+   1
+  ],
+  [
+   "chambre-konstantin",
+   "salle-dealu",
+   1
+  ],
+  [
+   "crypte-cincu",
+   "eglise-cincu",
+   1
   ]
  ]
 }

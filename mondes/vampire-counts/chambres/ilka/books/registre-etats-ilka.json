@@ -1,0 +1,259 @@
+{
+  "id": "registre-etats-ilka",
+  "titre": "Les choses suivies par ilka",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée au porteur",
+  "type": "registre",
+  "tenu_par": "ilka",
+  "acteur_id": "ilka",
+  "prive": true,
+  "pages": [
+    "Catégories : lieux-et-passages, objets-et-documents, ressources-et-populations, organisations-et-dispositifs, usages-et-institutions, situations-et-processus. Une ligne par chose ou situation. L’identité est une référence stable ; plusieurs PNJ citent la même chose au lieu de la recréer. Quand une table canonique du moteur porte déjà le fait, elle garde autorité : la ligne renvoie à cette adresse. Les évolutions arithmétiques vont dans les mains de leur maison. Les lignes purement descriptives sont leur propre autorité jusqu’à matérialisation. Accès au cahier technique n’est pas connaissance du personnage : Qui sait quoi doit être respecté."
+  ],
+  "colonnes": [
+    "Référence",
+    "Catégorie",
+    "Identité et fonction",
+    "Où",
+    "Détenteur ou responsable",
+    "État présent",
+    "Quantité ou propriétés",
+    "Usages et limites",
+    "Liens",
+    "Évolution et échéances",
+    "Statut",
+    "Source ou provenance",
+    "Qui sait quoi",
+    "Date de mise à jour",
+    "Autorité existante"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "chose:ticusu-manoir-bas",
+        "lieux-et-passages",
+        "Le manoir bas de Ticușu Vechi, ancienne métairie fortifiée de gros moellons et de chêne noirci, siège d'Ilka.",
+        "ticusu-vechi",
+        "ilka",
+        "Frais, austère, clos de volets épais ferrés.",
+        "Un corps de logis à deux niveaux, une salle basse pavée, une crypte scellée sous la cave",
+        "Demeure et refuge d'Ilka. La lumière du jour y est strictement bannie dès l'aurore.",
+        "lieux.json:ticusu-vechi, chem:chambre-ilka",
+        "Stable",
+        "peint",
+        "Implantation d'Ilka",
+        "Ilka et ses quelques serviteurs connaissent chaque recoin ; les émissaires étrangers n'entrent que dans la salle basse.",
+        "an 1, lune 11, jour 3",
+        "lieux.json:ticusu-vechi"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:ticusu-crypte-sommeil",
+        "lieux-et-passages",
+        "La crypte voûtée sous le cellier du manoir, où repose la couche de pierre où dort Ilka du lever au coucher du soleil.",
+        "ticusu-vechi",
+        "ilka",
+        "Obscurité totale, sol en terre battue et dalles froides, porte renforcée verrouillée de l'intérieur.",
+        "Une cuve de calcaire gris, trois verrous de fer forgé",
+        "Refuge de jour inviolable où Ilka passe ses heures vulnérables.",
+        "chose:ticusu-manoir-bas, routines.json:gens:ilka",
+        "Permanent",
+        "peint",
+        "Implantation d'Ilka",
+        "Seule Ilka y pénètre ; la goule Mara veille au haut des marches.",
+        "an 1, lune 11, jour 3",
+        "chemins.json:chambre-ilka"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:ticusu-chemin-comana",
+        "lieux-et-passages",
+        "Le sentier forestier des Ravins, reliant la lisière est de Ticușu aux bois profonds de Comăna de Jos.",
+        "ticusu-vechi",
+        "radomir",
+        "Boueux, encombré de ronces et de hêtres anciens, couvert par la canopée qui brise la brume de sang.",
+        "Chemin creux praticable à pied en 2 heures de marche nocturne",
+        "Passage discret emprunté par Ilka pour ses chasses d'appoint sans croiser la route principale.",
+        "lieux.json:comana-de-jos, lieux.json:ticusu-vechi",
+        "Surveillance lointaine par les bêtes de la Crinière",
+        "peint",
+        "Habitude de chasse d'Ilka",
+        "Ilka et les pisteurs de Radomir le connaissent ; Cendrik cherche à le cartographier.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:ticusu-gue-cincu",
+        "lieux-et-passages",
+        "Le gué de l'Oltet, ruisseau marécageux marquant la limite disputée entre la terre de Ticușu et les marches mortes de Cincu.",
+        "ticusu-vechi",
+        "cendrik",
+        "Eaux troubles, berges herbeuses jaunies par l'approche de la terre sépulcrale.",
+        "Passage à gué sur grosses pierres plates",
+        "Point de friction où les serfs de Cincu s'infiltrent pour détourner les bandes d'Ilka.",
+        "lieux.json:cincu, lieux.json:ticusu-vechi",
+        "Terre grignotée arpent par arpent par les Ritualistes de Cincu",
+        "peint",
+        "Frontière ouest",
+        "Les vivants des deux rives s'y évitent ; les fossoyeurs de Cendrik y rôdent.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:ticusu-couronne-noire",
+        "objets-et-documents",
+        "La petite couronne de fer noir martelé des Stryges, sans joyau ni fard, posée sur les cheveux d'Ilka.",
+        "ticusu-vechi",
+        "ilka",
+        "Froide, patinée par les décennies, portée sans discontinuer.",
+        "Un cercle de fer d'un pouce de haut",
+        "Signe public de son sang et de sa fidélité obstinée à Rupea, objet d'étonnement pour les Voraces.",
+        "personnages.json:ilka, canon/lore/ilka.md",
+        "Inaltérable",
+        "établi",
+        "canon/lore/ilka.md",
+        "Tout le pays sait qu'elle la porte et en sourit comme d'une vanité inutile.",
+        "an 1, lune 11, jour 3",
+        "personnages.json:ilka:traits"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:ticusu-coffret-rupea",
+        "objets-et-documents",
+        "Un coffret de chêne cerclé de fer forgé, scellé dans une niche du mur de sa chambre, contenant les huit lettres d'Anselm.",
+        "ticusu-vechi",
+        "ilka",
+        "Intact, bois ciré, serrure à double panneton.",
+        "Huit feuillets de parchemin épais écrits de la main sèche d'Anselm",
+        "Reliques de sa filiation et mémoire des ordres reçus. Relues en silence lors des nuits de doute.",
+        "personnages.json:anselm, canon/lore/ilka.md",
+        "Un nouveau feuillet s'ajoute environ chaque année",
+        "établi",
+        "canon/lore/ilka.md",
+        "Ilka seule en connaît le contenu exact ; elle croit que ce sont des menaces de mort.",
+        "an 1, lune 11, jour 3",
+        "intentions.json:ilka:croyances"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:ticusu-trousse-herboriste",
+        "objets-et-documents",
+        "Un rouleau de cuir gras contenant les serpes de bronze, râpes et sachets de graines hérités de sa mère herboriste de Rupea.",
+        "ticusu-vechi",
+        "ilka",
+        "Usé, patiné par un demi-siècle de soins, tranchants affûtés.",
+        "Douze outils et baumes de racines séchées (morelle, aconit, racines d'orme)",
+        "Sert à préparer les filtres pour calmer les fièvres des serfs ou masquer l'odeur des proies sous bois.",
+        "canon/lore/ilka.md:I. La fille de l'herboriste",
+        "Entretien régulier",
+        "peint",
+        "Passé mortel d'Ilka",
+        "Ilka seule sait s'en servir ; Toma sait où elle range les baumes ordinaires.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:ticusu-gens-bourgade",
+        "ressources-et-populations",
+        "La population servile de Ticușu Vechi et des quatre métairies : bûcherons, chevriers et cultivateurs de seigle.",
+        "ticusu-vechi",
+        "ilka",
+        "Maigres, apeurés, habitués au pas lourd de la nuit et aux hivers rigoureux.",
+        "Environ 120 vivants organisés en 4 bandes de corvée",
+        "Fournissent le sang de table nécessaire à Ilka, la subsistance de ses serviteurs et le tribut annuel de Vlaicu.",
+        "maisons.json:maison-ticusu",
+        "En baisse en raison des ponctions discrètes des rabatteurs de Cincu",
+        "peint",
+        "Population du fief",
+        "Toma tient le rôle des feux ; Cendrik compte leurs têtes de loin.",
+        "an 1, lune 11, jour 3",
+        "lieux.json:ticusu-vechi"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:ticusu-bailli-toma",
+        "ressources-et-populations",
+        "Toma, bailli mortel de Ticușu Vechi (52 ans), rude montagnard veillant sur les granges et la rentrée des bandes.",
+        "ticusu-vechi",
+        "ilka",
+        "Homme trapu au regard baissé, respectueux et terrifié par la dame de pierre.",
+        "1 individu vivant, appuyé sur son bâton de chêne ferré",
+        "Administre les corvées de jour, consigne le grain et rassemble les bandes au crépuscule.",
+        "chose:ticusu-gens-bourgade",
+        "Vieillissant mais infatigable régisseur",
+        "peint",
+        "Maison de Ticușu",
+        "Tout le village lui obéit le jour ; il ne parle à Ilka qu'à la tombée de la nuit.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:ticusu-goule-mara",
+        "ressources-et-populations",
+        "Mara, jeune goule liée à Ilka depuis douze hivers, fille d'un charron local.",
+        "ticusu-vechi",
+        "ilka",
+        "Rapide, silencieuse, regard fixe et dévouement docile.",
+        "1 goule, vêtue d'une pelisse de mouton sombre",
+        "Porte les plis dans la bourgade, surveille le manoir de jour et accompagne Ilka jusqu'à la lisière des bois.",
+        "chose:ticusu-manoir-bas",
+        "Dévouée tant qu'elle reçoit sa part au calice d'Ilka",
+        "peint",
+        "Maison de Ticușu",
+        "Les gens du village la craignent comme le regard de la maîtresse en plein midi.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:ticusu-coutume-courbette",
+        "usages-et-institutions",
+        "L'habitude d'Ilka de saluer les messagers étrangers par une révérence basse, tête inclinée et mains jointes, simulant l'impuissance.",
+        "ticusu-vechi",
+        "ilka",
+        "Régulière, masque invariable face aux exigences des Voraces et des Sépulcraux.",
+        "Usage personnel et diplomatique",
+        "Désarme la méfiance, fait croire à une installée faible prête à céder sans combat.",
+        "personnages.json:ilka:maniere",
+        "Permanent",
+        "établi",
+        "canon/lore/ilka.md:IV. Le Masque",
+        "Tous les visiteurs la croient brisée ; seul son for intérieur sait que le sang ne plie pas.",
+        "an 1, lune 11, jour 3",
+        "personnages.json:ilka:maniere"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:ticusu-predation-cendrik",
+        "situations-et-processus",
+        "La pression croissante de Cendrik de Cincu sur les bandes de l'ouest, faisant rentrer les vivants plus maigres chaque mois.",
+        "ticusu-vechi",
+        "cendrik",
+        "Insidieuse, sans déclaration de guerre ouverte, par rabattage et intimidation.",
+        "Perte estimée à une demi-bande par décade sur les confins",
+        "Affame Ticușu et pousse Ilka à chercher subsistance plus profondément vers Comăna.",
+        "personnages.json:cendrik, canon/lore/cendrik.md:VI. Le plan",
+        "Risque d'envoi de Ritualistes si Ilka ne proteste pas ou ne plie pas davantage",
+        "établi",
+        "intentions.json:ilka, canon/lore/cendrik.md",
+        "Ilka le constate amèrement ; Cendrik mesure la progression sur ses cartes.",
+        "an 1, lune 11, jour 3",
+        "intentions.json:ilka:croyances"
+      ]
+    }
+  ]
+}

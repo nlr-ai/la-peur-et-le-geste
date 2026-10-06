@@ -1,0 +1,221 @@
+{
+  "id": "registre-etats-sever",
+  "titre": "Les choses suivies par sever",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée au porteur",
+  "type": "registre",
+  "tenu_par": "sever",
+  "acteur_id": "sever",
+  "prive": true,
+  "pages": [
+    "Catégories : lieux-et-passages, objets-et-documents, ressources-et-populations, organisations-et-dispositifs, usages-et-institutions, situations-et-processus. Une ligne par chose ou situation. L’identité est une référence stable ; plusieurs PNJ citent la même chose au lieu de la recréer. Quand une table canonique du moteur porte déjà le fait, elle garde autorité : la ligne renvoie à cette adresse. Les évolutions arithmétiques vont dans les mains de leur maison. Les lignes purement descriptives sont leur propre autorité jusqu’à matérialisation. Accès au cahier technique n’est pas connaissance du personnage : Qui sait quoi doit être respecté."
+  ],
+  "colonnes": [
+    "Référence",
+    "Catégorie",
+    "Identité et fonction",
+    "Où",
+    "Détenteur ou responsable",
+    "État présent",
+    "Quantité ou propriétés",
+    "Usages et limites",
+    "Liens",
+    "Évolution et échéances",
+    "Statut",
+    "Source ou provenance",
+    "Qui sait quoi",
+    "Date de mise à jour",
+    "Autorité existante"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "chose:odorheiu-cellule-sever",
+        "lieux-et-passages",
+        "La cellule de Sever contiguë à la chapelle d’Odorheiu ; une pièce froide sous voûte de pierre calcaire, aux murs nus, meublée d’une table basse et d’un prie-Dieu de chêne.",
+        "odorheiu-secuiesc",
+        "sever",
+        "Calme, obscure, abritée du jour.",
+        "Une pièce de 12 pas sur 8, lucarne étroite bouchée d’ardoise",
+        "Lieu de retraite, de repos diurne et de méditation avant les départs en mission.",
+        "lieux.json:odorheiu-secuiesc",
+        "Stable",
+        "peint",
+        "Habitude de Sever",
+        "Nicodim et Sever y ont seuls accès régulier ; frère Paul en balaie les dalles.",
+        "an 1, lune 11, jour 3",
+        "chemins.json:cellule-sever"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-chapelle-haute",
+        "lieux-et-passages",
+        "La chapelle froide d’Odorheiu où Nicodim reçoit et tient ses registres ; dalles glacées, absence d’icônes vivantes, cierges de suif sans flamme.",
+        "odorheiu-secuiesc",
+        "nicodim",
+        "Silencieuse et glacée.",
+        "Grande nef austère, stalles de bois sombre",
+        "Lieu d’audience de l’Abbé et point de ralliement des voilés d’Odorheiu.",
+        "lieux.json:odorheiu-secuiesc",
+        "Stable",
+        "établi",
+        "personnages.json:nicodim",
+        "Connu de tous les envoyés et serviteurs d’Odorheiu.",
+        "an 1, lune 11, jour 3",
+        "lieux.json:odorheiu-secuiesc"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:homorod-relais-forestier",
+        "lieux-et-passages",
+        "Une grange discrète et un enclos dissimulés sous les hêtres à la lisière des bois de Homorod, à mi-chemin entre Odorheiu et Rupea.",
+        "homorod",
+        "maison-odorheiu",
+        "Entretenu dans l’ombre, discret.",
+        "Un abri couvert, réserve de foin sec et stalle pour deux montures",
+        "Permet de changer de cheval ou d’attendre le crépuscule sans entrer dans le village de Homorod.",
+        "lieux.json:homorod",
+        "Surveillé par le palefrenier Mihai",
+        "peint",
+        "Réseau d’envoyés d’Odorheiu",
+        "Sever, Nicodim et Mihai seuls en connaissent l’usage précis.",
+        "an 1, lune 11, jour 3",
+        "lieux.json:homorod"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-manteau-voyage-sever",
+        "objets-et-documents",
+        "Le long manteau de voyage de drap de bure gris sombre et son capuchon profond que porte Sever sur les routes ; tissu lourd imprégné de cire pour braver la pluie.",
+        "odorheiu-secuiesc",
+        "sever",
+        "Bon état, sans ornements ni armoiries visibles.",
+        "Un manteau, deux fermoirs de fer mat",
+        "Dissimule la pâleur du visage et protège des regards curieux dans les bourgs.",
+        "chose:odorheiu-cellule-sever",
+        "Stable",
+        "peint",
+        "Équipement personnel",
+        "Sever et ceux qui le croisent sur la route.",
+        "an 1, lune 11, jour 3",
+        "personnages.json:sever"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-rouleaux-scelles",
+        "objets-et-documents",
+        "Deux étuis de cuir bouilli contenant des parchemins vierges et de la cire noire sans sceau nominatif pour consigner d’éventuels engagements.",
+        "odorheiu-secuiesc",
+        "sever",
+        "Intacts, étanches.",
+        "Deux étuis tubulaires à sangle",
+        "Réservés à la fixation par écrit de pactes secrets ou de déclarations solennelles.",
+        "chose:odorheiu-cellule-sever",
+        "Stable",
+        "peint",
+        "Chancellerie feutrée de Nicodim",
+        "Sever et Nicodim.",
+        "an 1, lune 11, jour 3",
+        "personnages.json:sever"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-goule-paul",
+        "ressources-et-populations",
+        "Frère Paul, goule ancienne au service de la chapelle ; ancien moine copiste au teint cireux, silencieux, chargé de l’entretien des lampes à huile et des parchemins.",
+        "odorheiu-secuiesc",
+        "nicodim",
+        "Dévoué, effacé, muet.",
+        "Une goule domestique",
+        "Entretient la chapelle et la cellule de Sever ; ne quitte jamais l’enceinte.",
+        "chose:odorheiu-chapelle-haute",
+        "Stable",
+        "peint",
+        "Maison d’Odorheiu",
+        "Les habitants de la chapelle d’Odorheiu.",
+        "an 1, lune 11, jour 3",
+        "maisons.json:maison-odorheiu"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-palefrenier-mihai",
+        "ressources-et-populations",
+        "Mihai, serf vivant d’Odorheiu, vieux palefrenier fidèle sachant ferrer et soigner les montures de nuit sans poser de questions.",
+        "odorheiu-secuiesc",
+        "maison-odorheiu",
+        "Vigoureux malgré l’âge, loyal.",
+        "Un homme d’écurie",
+        "Gère les montures d’Odorheiu et assure le ravitaillement du relais de Homorod.",
+        "chose:homorod-relais-forestier",
+        "Stable",
+        "peint",
+        "Maison d’Odorheiu",
+        "Sever, Nicodim et les gens de l’écurie.",
+        "an 1, lune 11, jour 3",
+        "maisons.json:maison-odorheiu"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:rupea-auberge-corbeau",
+        "lieux-et-passages",
+        "L’auberge du Corbeau Noir, relais de terre et d’écuries adossé au bas du rocher de Rupea, tenue par Mircea.",
+        "rupea",
+        "anselm",
+        "Ouverte aux voyageurs, marchands et porteurs de nuit.",
+        "Une grande salle basse enfumée et une cour encombrée d’attelages",
+        "Lieu de séjour discret de Sever lorsqu’il attend Teodor à la ville basse.",
+        "chose:rupea-porte-basse",
+        "Surveillance des goules de Rupea",
+        "établi",
+        "registre-etats-stanca:chose:rupea-auberge-corbeau",
+        "Les gens de la ville basse de Rupea, voyageurs, Stanca, Teodor, Sever.",
+        "an 1, lune 11, jour 3",
+        "registre-etats-stanca.json"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-coutume-chuchotement",
+        "usages-et-institutions",
+        "La discipline des envoyés voilés d’Odorheiu : ne jamais élever la voix, ne jamais menacer, laisser l’interlocuteur remplir le silence par ses propres aveux.",
+        "odorheiu-secuiesc",
+        "sever",
+        "Observée scrupuleusement.",
+        "Principe de conduite diplomatique",
+        "Guide chaque entrevue avec Teodor et les seigneurs de passage.",
+        "personnages.json:sever",
+        "Immuable",
+        "peint",
+        "Règle de Nicodim",
+        "Sever et Nicodim.",
+        "an 1, lune 11, jour 3",
+        "personnages.json:sever"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-attente-reponse-teodor",
+        "situations-et-processus",
+        "L’attente de l’échéance du 15e jour de la 11e lune, où Sever doit se rendre à Rupea pour cueillir la décision de Teodor sur la porte ouverte.",
+        "odorheiu-secuiesc",
+        "sever",
+        "En cours (12 jours restants avant le départ).",
+        "Affaire en suspens",
+        "Conditionne le lancement de la malédiction de Nicodim contre Anselm.",
+        "chose:rupea-attente-sever",
+        "Échéance ferme au jour 15",
+        "établi",
+        "intentions.json:sever",
+        "Sever, Nicodim ; soupçonné par Stanca et Anselm.",
+        "an 1, lune 11, jour 3",
+        "intentions.json:sever"
+      ]
+    }
+  ]
+}

@@ -322,5 +322,33 @@
   "lieu_id": "rupea",
   "condition": "libre",
   "_": "Detruite par malediction de Nicodim, la quarantieme annee apres son Etreinte, parce que tout le pays savait qu'Anselm l'aimait."
+ },
+ {
+  "id": "stanca",
+  "nom": "Stanca",
+  "maison_id": "maison-rupea",
+  "titre": "La goule qui suit Teodor",
+  "naissance": -45,
+  "traits": [
+   "obeissante",
+   "infatigable",
+   "illettree",
+   "peureuse"
+  ],
+  "objectifs": [
+   {
+    "but": "Ne pas perdre Teodor de vue une seule nuit",
+    "priorite": 1
+   },
+   {
+    "but": "Garder sa place a la table du maitre",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Toujours trois pas derriere, jamais plus pres ; ne parle que si on lui parle, et alors du maitre, a la troisieme personne ; compte les marches a mi-voix comme d'autres prient.",
+  "etat": "actif",
+  "lieu_id": "rupea",
+  "condition": "libre",
+  "_": "Goule vivante de la citadelle. CANON (canon/LORE_RECIT.md §9, canon/lore/teodor.md) : les goules sont des vivants qui ont trop bu a la table d'un maitre et ne savent plus qu'obeir ; elles suivent Teodor dans les couloirs sur ordre d'Anselm ; Teodor ne peut tenir de livre car elles le trouveraient. INVENTION DECLAREE (ouverture du monde) : le nom Stanca (roumain, « roche » — stanca), quarante-six ans, nee a la ville basse sous le rocher, fille d'une lavandiere de la citadelle ; entree au service a dix-neuf ans comme porteuse d'eau ; goule depuis vingt-sept ans ; derriere Teodor depuis vingt-cinq ans, apres une vieille goule morte ; ne sait pas lire ; dort le matin a la ville basse ; il y a quinze ans, le maitre l'a envoyee une nuit chercher a la ville basse une chose dont il n'avait pas besoin — c'est la nuit ou Sever a croise Teodor « sans goule » ; le mois dernier, elle a perdu Teodor une heure dans la ville basse et ne l'a pas dit. Elle n'a pas couru la nuit des bois du sud : c'etait un porteur de la route du sud, qu'elle a vu arriver dans la cour."
  }
 ]

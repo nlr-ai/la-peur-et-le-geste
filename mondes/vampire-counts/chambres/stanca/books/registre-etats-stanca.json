@@ -1,0 +1,202 @@
+{
+  "id": "registre-etats-stanca",
+  "titre": "Les choses suivies par stanca",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée au porteur",
+  "type": "registre",
+  "tenu_par": "stanca",
+  "acteur_id": "stanca",
+  "prive": true,
+  "pages": [
+    "Catégories : lieux-et-passages, objets-et-documents, ressources-et-populations, organisations-et-dispositifs, usages-et-institutions, situations-et-processus. Une ligne par chose ou situation. L’identité est une référence stable ; plusieurs PNJ citent la même chose au lieu de la recréer. Quand une table canonique du moteur porte déjà le fait, elle garde autorité : la ligne renvoie à cette adresse. Les évolutions arithmétiques vont dans les mains de leur maison. Les lignes purement descriptives sont leur propre autorité jusqu’à matérialisation. Accès au cahier technique n’est pas connaissance du personnage : Qui sait quoi doit être respecté."
+  ],
+  "colonnes": [
+    "Référence",
+    "Catégorie",
+    "Identité et fonction",
+    "Où",
+    "Détenteur ou responsable",
+    "État présent",
+    "Quantité ou propriétés",
+    "Usages et limites",
+    "Liens",
+    "Évolution et échéances",
+    "Statut",
+    "Source ou provenance",
+    "Qui sait quoi",
+    "Date de mise à jour",
+    "Autorité existante"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "chose:rupea-escalier-grand",
+        "lieux-et-passages",
+        "Le Grand Escalier de pierre reliant la cour basse au logis haut et aux remparts ; cent quarante-trois marches usées par deux siècles de pas.",
+        "rupea",
+        "anselm",
+        "Praticable, marches froides et suintantes d'humidité.",
+        "143 marches de basalte taillé",
+        "Passage obligé pour monter aux remparts et aux appartements du maître. Stanca y compte chaque marche à mi-voix.",
+        "chose:rupea-remparts",
+        "Stable",
+        "peint",
+        "Habitude de Stanca",
+        "Tous les habitants de Rupea connaissent l'escalier ; seule Stanca en sait le compte exact des marches.",
+        "an 1, lune 11, jour 3",
+        "lieux.json:rupea"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:rupea-porte-basse",
+        "lieux-et-passages",
+        "La Porte Basse et sa herse de chêne ferré, débouchant sur la rampe qui descend vers le bourg sous le rocher.",
+        "rupea",
+        "anselm",
+        "Gardée de jour comme de nuit par des serfs et des gardes lourds.",
+        "Herse simple, pont dormant en bois",
+        "Point de passage obligé des convois, messagers et porteurs. Fermée au coucher du soleil sauf ordre exprès.",
+        "chose:bourg-rupea",
+        "Surveillance renforcée à l'aube et au crépuscule",
+        "peint",
+        "Routine de garde",
+        "Tous les serviteurs et voyageurs savent où se trouve la porte ; Stanca y surveille les entrées et sorties aux heures de creux.",
+        "an 1, lune 11, jour 3",
+        "routines.json:stanca"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:rupea-auberge-corbeau",
+        "lieux-et-passages",
+        "L'auberge du Corbeau Noir, relais de terre et d'écuries adossé au bas du rocher, tenu par le vieux Mircea.",
+        "rupea",
+        "Mircea (aubergiste vivant)",
+        "Bâtisse basse aux murs de torchis enfumés, souvent fréquentée par les marchands de passage et les porteurs.",
+        "Six tables grasses, grenier commun sur paille",
+        "Lieu où logent les étrangers n'ayant pas accès immédiat à la citadelle haute. Stanca y passe chaque après-midi.",
+        "chose:bourg-rupea",
+        "Point d'arrivée ordinaire des voyageurs venant d'Odorheiu ou de Homorod",
+        "peint",
+        "Vie de la ville basse",
+        "Les vivants de la ville basse s'y réunissent ; Stanca y glisse son ombre pour écouter les arrivées.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:rupea-maison-doina",
+        "lieux-et-passages",
+        "La masure de Doina, ancienne lavandière de la citadelle et mère de Stanca, nichée dans une ruelle boueuse de la ville basse.",
+        "rupea",
+        "Doina (vivante, 68 ans)",
+        "Humide, basse sous toit de chaume noirci, odeur de suif et de lessive ancienne.",
+        "Une paillasse, un foyer sans cheminée, deux baquets de bois",
+        "Refuge où Stanca dort le matin de 8h à 13h, loin du regard des vampires.",
+        "chose:bourg-rupea",
+        "Doina vieillit et a les genoux noués",
+        "peint",
+        "Origine de Stanca",
+        "Connu de Stanca et des voisins de la ruelle ; Anselm et Teodor ignorent où dort précisément la goule.",
+        "an 1, lune 11, jour 3",
+        "personnages.json:stanca"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:rupea-table-maitre",
+        "objets-et-documents",
+        "La grande table massive de chêne noirci dans la salle haute, où le maître préside et où Teodor s'assied à gauche.",
+        "rupea",
+        "anselm",
+        "Intacte, cire sombre, entourée de chaises à haut dossier.",
+        "1 table seigneuriale, vaisselle de corne et de métal terne",
+        "Lieu du repas nocturne et de la dispensation du sang aux goules et serviteurs jurés.",
+        "personnages.json:anselm, personnages.json:teodor",
+        "Chaque nuit vers minuit",
+        "établi",
+        "canon/lore/teodor.md, canon/lore/anselm.md",
+        "Tous les familiers de la cour haute connaissent la table ; Stanca y reçoit sa vie.",
+        "an 1, lune 11, jour 3",
+        "mains.json:la-table-de-rupea"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:rupea-bol-etain-stanca",
+        "objets-et-documents",
+        "Une écuelle d'étain cabossée et noircie, gardée sous le buffet de la salle basse, dans laquelle Stanca reçoit sa ration.",
+        "rupea",
+        "stanca",
+        "Métal terne, bords rongés.",
+        "1 écuelle",
+        "Sert à boire la part de sang qui lui est concédée lorsque le maître nourrit ses serviteurs.",
+        "chose:rupea-table-maitre",
+        "Objet personnel sans valeur marchande",
+        "peint",
+        "Usage quotidien de Stanca",
+        "Stanca seule en a l'usage strict.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:rupea-goules-corvees",
+        "ressources-et-populations",
+        "La bande des sept goules inférieures de la citadelle, affectées aux charrois de bûches, à l'eau de la citerne et au curage.",
+        "rupea",
+        "anselm",
+        "Vivants abrutis par le sang, dociles et silencieux, menés par le vieux Vasile.",
+        "Sept individus décharnés",
+        "Entretien lourd du château, tâches salissantes de nuit comme de jour sous abri.",
+        "personnages.json:anselm",
+        "Renouvellement au gré des morts d'usure",
+        "peint",
+        "Organisation domestique",
+        "Les maîtres ne les distinguent guère ; Stanca les croise sans leur parler pour ne pas perdre son rang.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:rupea-coutume-silence",
+        "usages-et-institutions",
+        "La règle non écrite de la citadelle : défense aux goules et serfs de croiser le regard des maîtres ou d'adresser la parole sans y être invités.",
+        "rupea",
+        "anselm",
+        "Respectée scrupuleusement sous peine d'être jeté aux chiens ou vidé.",
+        "Usage immémorial",
+        "Protège le secret des seigneurs et impose aux goules de marcher la tête basse.",
+        "personnages.json:anselm",
+        "Permanent",
+        "établi",
+        "canon/lore/anselm.md, canon/lore/teodor.md",
+        "Tout le château sait et tremble.",
+        "an 1, lune 11, jour 3",
+        ""
+      ]
+    },
+    {
+      "cellules": [
+        "chose:rupea-attente-sever",
+        "situations-et-processus",
+        "L'imminence du retour de l'envoyé voilé Sever vers la mi-lune, pour chercher à nouveau Teodor en l'absence de garde.",
+        "rupea",
+        "sever",
+        "En cours de voyage depuis Odorheiu Secuiesc.",
+        "1 émissaire à cheval ou accompagné de serfs",
+        "Menace directe pour la surveillance de Teodor et la quiétude de la citadelle.",
+        "evenements.json:sever-revient, personnages.json:sever",
+        "Prévu vers lune 11, jour 15",
+        "établi",
+        "evenements.json:sever-revient, lore/teodor.md",
+        "Le narrateur sait ; Sever et Nicodim préparent ; Teodor attend ; Stanca craint son retour sans en connaître la trame.",
+        "an 1, lune 11, jour 3",
+        "evenements.json:sever-revient"
+      ]
+    }
+  ]
+}
