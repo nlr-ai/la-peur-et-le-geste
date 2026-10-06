@@ -591,5 +591,176 @@
    "lune": 11,
    "jour": 3
   }
+ },
+ {
+  "personnage_id": "hilde",
+  "croyances": [
+   "Sa table est vide : trente-neuf bouches, et plus une goutte en reserve. Elle a envoye ses messagers chez ses vassaux. La faim lui retire sa force nuit apres nuit, et ses petits le voient.",
+   "La meute de Vlaicu grandit chaque annee ; elle la compte, et chaque annee elle la trouve plus grande. Une meute nombreuse, c'est un rival qui grandit.",
+   "On ne l'approche pas sans y laisser du sang : c'est ce qui la garde. La meute qu'elle appelle, elle, ne se dissipe pas."
+  ],
+  "ignore": [
+   "Ce que Vlaicu a repondu a son messager.",
+   "Pourquoi les bois de Radomir sont si pleins."
+  ],
+  "intention": "Nourrir sa table sans laisser personne s'approcher assez pour la mordre.",
+  "plan": [
+   {
+    "id": "hilde-messagers",
+    "quoi": "Attendre le retour de ses messagers et compter ce que chaque vassal envoie a Apața",
+    "etat": "a-faire",
+    "jours_restants": 2,
+    "depend_de": [],
+    "cout": [
+     "ses messagers revenus"
+    ],
+    "si_bloque": "Si rien n'arrive, elle renvoie de sa table les plus jeunes sans-terre chasser sur les terres de ses vassaux, qui devront les nourrir."
+   },
+   {
+    "id": "hilde-alleger",
+    "quoi": "Renvoyer de sa table les sans-terre les plus jeunes vers les terres de ses vassaux",
+    "etat": "a-faire",
+    "jours_restants": 5,
+    "depend_de": [
+     "hilde-messagers"
+    ],
+    "cout": [
+     "des vassaux qui les recoivent"
+    ],
+    "si_bloque": "Si un vassal les refuse, elle le note, et va chasser elle-meme dans ses bois."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "elle apprend que Vlaicu rassemble toute sa meute ou mene une grande chasse",
+    "alors": "Elle y voit un rival qui grandit : elle exige sa part de la chasse et fait surveiller Hoghiz par Loup, son heritier.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "un pensionnaire stryge ; rien",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
+ },
+ {
+  "personnage_id": "melusine",
+  "croyances": [
+   "Sa table n'a presque plus de sang : vingt-cinq bouches, moins d'une nuit. Elle a envoye un messager a Nicodim, d'autres a ses autres vassaux.",
+   "On lui prete tous les coups de l'est, et elle laisse dire : personne n'ose toucher une Ainee qu'on croit derriere chaque complot. Elle garde quelques secrets de chacun — elle sait qu'Ottilia, son infant, dort pour fuir les Stryges.",
+   "Elle ne reveillera Ottilia pour rien au monde : le jour ou elle s'eveille, la guerre stryge recommence, et la guerre est la seule chose qui menace une survivante."
+  ],
+  "ignore": [
+   "Ce que Nicodim a repondu a son messager.",
+   "Ce que Sever prepare contre son pere."
+  ],
+  "intention": "Se faire nourrir par ceux qui lui doivent, sans jamais prendre parti.",
+  "plan": [
+   {
+    "id": "melusine-secours",
+    "quoi": "Rappeler a chacun de ses vassaux, par ses gens, le service qu'elle lui a rendu, et recevoir leur sang",
+    "etat": "a-faire",
+    "jours_restants": 2,
+    "depend_de": [],
+    "cout": [
+     "des vassaux qui se souviennent"
+    ],
+    "si_bloque": "Si ses vassaux se derobent, elle renvoie ses plus jeunes sans-terre chez eux, a nourrir, avec un mot aimable."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "elle apprend que Nicodim refuse sans dette inscrite",
+    "alors": "Elle ne le menace pas : elle lui fait porter un service, et une phrase — qu'elle sait qui dort sous sa chapelle, et pourquoi. Elle n'en dit pas plus.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "le pensionnaire de Rupea ; elle sait que l'Abbe le regarde",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
+ },
+ {
+  "personnage_id": "ysolde",
+  "croyances": [
+   "Sa table sera a sec dans un jour ou deux : seize bouches. Elle a envoye ses messagers a Sulpice, a Cendrik, a ses vassaux.",
+   "Les Sepulcraux mourront de faim s'ils restent chez eux : les terres mortes rendent la magie, jamais le sang. Chaque branche installee ailleurs est une bouche de moins, et une veine vers les vivants.",
+   "On la croit la plus dure des Cinq. C'est le seul moyen qu'elle ait jamais eu de nourrir son sang."
+  ],
+  "ignore": [
+   "Ce que Cendrik a repondu a son messager.",
+   "La fosse que Sulpice creuse sous Sighisoara, et l'usage des cartes de Cendrik."
+  ],
+  "intention": "Chasser les bouches de sa table vers les terres des autres, comme toujours.",
+  "plan": [
+   {
+    "id": "ysolde-essaimer",
+    "quoi": "Envoyer ses sans-terre les plus aguerris s'installer chez les voisins riches en vivants, au sud",
+    "etat": "a-faire",
+    "jours_restants": 7,
+    "depend_de": [],
+    "cout": [
+     "une terre qui les accepte",
+     "des messagers"
+    ],
+    "si_bloque": "Si personne ne les accepte, elle les installe de force sur les terres de ses propres vassaux."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "elle apprend qu'un vassal promet pour plus tard au lieu de donner",
+    "alors": "Elle lui envoie deux de ses sans-terre a nourrir des ce soir, et une date pour le reste.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "un pensionnaire stryge ; rien",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
+ },
+ {
+  "personnage_id": "aldebrand",
+  "croyances": [
+   "Sa table n'a de sang que pour deux nuits : dix-sept bouches. Ses messagers sont partis chez ses vassaux, Gontran compris.",
+   "Chaque ville ecarlate doit lui rendre des comptes ; une campagne est d'abord une reorganisation — remplacer un vassal, redecouper une marche, placer un fidele.",
+   "Gontran est commode : un vassal entoure d'installes fideles a l'ouest. Il ne s'est jamais demande pourquoi."
+  ],
+  "ignore": [
+   "Ce que Konstantin a fait de la goule d'Agnita.",
+   "Pourquoi Gontran s'entoure d'enfants trouves d'autres sangs."
+  ],
+  "intention": "Annoncer une campagne qui le nourrisse, et qui lui serve a tout tenir.",
+  "plan": [
+   {
+    "id": "aldebrand-chasse-hiver",
+    "quoi": "Convoquer ses vassaux a Alțâna pour une chasse d'hiver, chacun avec son tribut de sang",
+    "etat": "a-faire",
+    "jours_restants": 5,
+    "depend_de": [],
+    "cout": [
+     "des messagers",
+     "des vassaux qui viennent"
+    ],
+    "si_bloque": "Si un vassal ne vient pas, il le porte au registre et choisit un fidele de sa table pour lui prendre sa marche."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "il apprend qu'un vassal ou un homme de vassal a refuse son sang",
+    "alors": "Il y voit une marche a redecouper : il nomme un fidele de sa table pour la tenir, et annonce un duel.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "un pensionnaire stryge ; rien",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
  }
 ]
