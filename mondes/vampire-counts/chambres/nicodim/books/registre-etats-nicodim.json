@@ -197,6 +197,82 @@
         "an 1, lune 11, jour 3",
         "evenements.json:sever-revient"
       ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-athanor-nicodim",
+        "lieux-et-passages",
+        "L'athanor d'Odorheiu, four d'alchimie lente en pierre noire doublé de briques réfractaires et de plaques de plomb, aménagé derrière la chapelle au-dessus de la crypte scellée d'Ottilia.",
+        "odorheiu-secuiesc",
+        "nicodim",
+        "Foyer actif à combustion lente et froide, suie grasse et résidus métalliques.",
+        "Un athanor maçonné, creusets de plomb, cornues et récipients de décantation",
+        "Four lent où Nicodim brûle de la magie récoltée, un peu de sang et l'effroi sacrificiel de chaque décennie pour faire progresser la recherche de l'Académie de Sighișoara.",
+        "chose:odorheiu-chapelle-froide, chose:odorheiu-crypte-ottilia, chose:academie-sighisoara",
+        "Alimenté de façon continue lors des veilles nocturnes",
+        "peint",
+        "canon/LORE_CERCLES.md §1",
+        "Nicodim seul y opère ; Sever en connaît l'existence et y a accès sur ordre ; les membres de l'Académie savent qu'il dispose d'un athanor en état de marche.",
+        "an 1, lune 11, jour 3",
+        "canon/LORE_CERCLES.md"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-noeud-ley-chapelle",
+        "lieux-et-passages",
+        "La résurgence du nœud de ley froid sous les fondations de la chapelle et de la crypte d'Odorheiu, faille tellurique d'où sourd continuellement de la magie morte.",
+        "odorheiu-secuiesc",
+        "nicodim",
+        "Actif, glacé, régulier, imprègne les dalles de la nef et alimente la récolte nocturne.",
+        "1 nœud de ley de puissance moyenne",
+        "Assure le flux de magie territoriale de base d'Odorheiu et fournit le carburant des rituels et de l'athanor.",
+        "chose:odorheiu-chapelle-froide, documents/mains.json:magie-d-odorheiu",
+        "Permanent",
+        "peint",
+        "canon/LORE_MAGIES.md §Ce que tout infant apprend",
+        "Nicodim et Sever en perçoivent le froid et le murmure ; les devins de passage sentent la ley sous leurs pieds.",
+        "an 1, lune 11, jour 3",
+        "canon/LORE_MAGIES.md"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-notes-recherche-ombre",
+        "objets-et-documents",
+        "Cahier de parchemin sombre relié de fer et de soie noire, conservé dans un coffret de plomb près de l'athanor, portant les équations occultes, observations et calculs pour débloquer le Visage Emprunté (Ombre rang 5).",
+        "odorheiu-secuiesc",
+        "nicodim",
+        "Rempli d'une écriture voilée, schémas de masques d'illusion et de dissipation de la Seconde vue.",
+        "Un volume secret de cent feuillets",
+        "Fixe les travaux de Nicodim sur l'école de l'Ombre et ses estimations du coût en effroi face aux choix de Malachie.",
+        "chose:odorheiu-athanor-nicodim, chose:academie-sighisoara",
+        "Nécessite encore environ 1 000 points d'avancée de Cercle pour aboutir",
+        "peint",
+        "canon/LORE_CERCLES.md §1",
+        "Nicodim exclusivement.",
+        "an 1, lune 11, jour 3",
+        "canon/LORE_CERCLES.md"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:academie-sighisoara",
+        "organisations-et-dispositifs",
+        "L'Académie de Sighișoara : anneau de serments unissant six seigneurs (Malachie, Sulpice, Radomir, Gontran, Nicodim, Ossiane) en chaîne fermée, fondé par Malachie il y a deux siècles.",
+        "terre-des-cinq",
+        "malachie",
+        "Actif, 6 membres, 4 athanors en activité, progression de 80 points par an. Recherche orientée sur l'Augure (rang 7, vers la Prophétie rang 8).",
+        "Anneau fermé : Nicodim est lié à Gontran d'Agnita et à Ossiane ; chaque membre n'a de serment qu'avec ses deux voisins.",
+        "Partage universel des sorts débloqués au sein de l'anneau. Interdiction tacite de frapper un frère d'anneau sous peine de détection par la Seconde vue.",
+        "chose:odorheiu-athanor-nicodim, personnages.json:nicodim",
+        "Aboutissement de la Prophétie estimé à environ sept ans et demi (manque 600 points)",
+        "établi",
+        "canon/LORE_CERCLES.md §1",
+        "Tous les membres du Cercle ; Sever qui y assiste pour Nicodim ; les autres Cercles connaissent sa renommée.",
+        "an 1, lune 11, jour 3",
+        "canon/LORE_CERCLES.md"
+      ]
     }
   ]
 }

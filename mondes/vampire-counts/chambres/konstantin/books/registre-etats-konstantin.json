@@ -197,6 +197,63 @@
         "an 1, lune 11, jour 3",
         "lieux.json:dealu-frumos"
       ]
+    },
+    {
+      "cellules": [
+        "chose:dealu-athanor",
+        "lieux-et-passages",
+        "L'athanor de Dealu Frumos, four d'alchimie nocturne en pierre volcanique et fer forgé, bâti dans une cave voûtée sous le manoir.",
+        "dealu-frumos / cave du manoir",
+        "konstantin",
+        "Actif, rougeoyant à feu couvert, entretenu avec soin lors des veilles.",
+        "Four scellé, creusets de terre réfractaire, alambics de verre sombre",
+        "Four lent où Konstantin brûle sa magie récoltée (issues des tributs de duels) et quelques gouttes de sang pour nourrir la recherche du Cercle des Enfants trouvés.",
+        "chose:dealu-manoir-basalt, chose:cercle-enfants-trouves, chose:dealu-notes-recherche",
+        "Brûle continuellement depuis quarante ans",
+        "peint",
+        "Installé sur les conseils de Gontran lors de la fondation de l'anneau",
+        "Konstantin seul y descend ; Cassien sait qu'il y cherche.",
+        "an 1, lune 11, jour 3",
+        "canon/LORE_CERCLES.md"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:dealu-notes-recherche",
+        "objets-et-documents",
+        "Cahier de vélin épais relié de cuir de loup, posé près de l'athanor, consignant les observations sur le vent, la foudre et la levée des brumes.",
+        "dealu-frumos / cave de l'athanor",
+        "konstantin",
+        "À demi rempli de formules calligraphiées d'une main serrée, schémas de vents et d'arbres.",
+        "Un volume de soixante feuillets manuscrits",
+        "Mémoire de l'avancée vers le Vent noir (Tempête rang 2). Permet de fixer ce que le four révèle.",
+        "chose:dealu-athanor",
+        "Environ trois années de travail restantes pour achever la formule du Vent noir",
+        "peint",
+        "Tenu de la main de Konstantin depuis le début de la décennie",
+        "Konstantin exclusivement.",
+        "an 1, lune 11, jour 3",
+        "canon/LORE_CERCLES.md"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:cercle-enfants-trouves",
+        "organisations-et-dispositifs",
+        "Le Cercle des Enfants trouvés : anneau de serments unissant Konstantin, Ronce et Cassien, fondé par Gontran.",
+        "marches de Dealu Frumos, Agnita et lisière nord",
+        "konstantin, ronce, cassien",
+        "Actif, anneau fermé, recherche orientée sur la Tempête.",
+        "3 membres, 2 athanors (Konstantin et Cassien), progression de 28 points par an",
+        "Partage des connaissances magiques sans mêler les sangs. Ne peut chercher qu'une seule école à la fois.",
+        "chose:dealu-athanor, personnages.json:konstantin",
+        "Fin de la recherche du Vent noir prévue dans environ 3 ans",
+        "peint",
+        "Pacte conclu il y a quarante ans à la table de Gontran",
+        "Konstantin, Ronce, Cassien, et Gontran qui l'a suscité.",
+        "an 1, lune 11, jour 3",
+        "canon/LORE_CERCLES.md"
+      ]
     }
   ]
 }

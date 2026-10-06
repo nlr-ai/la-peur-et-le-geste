@@ -216,6 +216,63 @@
         "an 1, lune 11, jour 3",
         "intentions.json:sever"
       ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-athanor-nicodim",
+        "lieux-et-passages",
+        "L'athanor de pierre noire et de plomb de Nicodim, aménagé dans une galerie aveugle attenante à la crypte basse d'Odorheiu ; le foyer où l'Abbé brûle l'effroi pour les recherches du Cercle.",
+        "odorheiu-secuiesc",
+        "nicodim",
+        "Scellé, froid en surface, imprégné d'une odeur de suie grasse et de sang séché.",
+        "Un fourreau de pierre noire doublé de briques réfractaires et de plaques de plomb",
+        "Lieu de recherche occulte réservé au maître ; Sever n'y entre que pour porter les messages ou les offrandes d'effroi.",
+        "chose:odorheiu-crypte-ottilia",
+        "Permanent",
+        "peint",
+        "Implantation d'Odorheiu",
+        "Nicodim seul y opère ; Sever en connaît la porte et le foyer ; frère Paul n'en approche pas.",
+        "an 1, lune 11, jour 3",
+        "chambres/nicodim/books/registre-etats-nicodim.json"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-notes-academie",
+        "objets-et-documents",
+        "Un carnet étroit cousu de cuir sombre où Sever consigne les délibérations de l'Académie de Sighișoara, les progrès des trois Cercles et les écoles recherchées.",
+        "odorheiu-secuiesc",
+        "sever",
+        "Caché sous une dalle de sa cellule, écriture chiffrée voilée.",
+        "Un cahier d'une trentaine de feuillets de vélin fin",
+        "Aide-mémoire diplomatique et occulte pour les affaires portées au nom de Nicodim.",
+        "chose:odorheiu-cellule-sever",
+        "Mis à jour après chaque conclave de l'Académie",
+        "peint",
+        "Notes personnelles d'émissaire",
+        "Sever seul ; Nicodim en a connaissance.",
+        "an 1, lune 11, jour 3",
+        "chambres/sever/la-magie.md"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:odorheiu-noeud-ley-chapelle",
+        "lieux-et-passages",
+        "La résurgence du nœud de ley froid sous les fondations de la chapelle d'Odorheiu, d'où sourd la magie captée par Nicodim.",
+        "odorheiu-secuiesc",
+        "nicodim",
+        "Actif, pulsation imperceptible qui glace l'air de la nef et alimente les réserves.",
+        "Source tellurique de magie",
+        "Alimente les athanors et les préparations de rituels ; ne peut être déplacé.",
+        "chose:odorheiu-chapelle-haute",
+        "Permanent",
+        "peint",
+        "Nature du sol d'Odorheiu",
+        "Nicodim en draine la puissance ; Sever en ressent le froid sous ses pas ; les autres seigneurs de l'Académie le savent assis sur un nœud.",
+        "an 1, lune 11, jour 3",
+        "canon/LORE_MAGIES.md"
+      ]
     }
   ]
 }

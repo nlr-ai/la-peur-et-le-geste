@@ -205,6 +205,14 @@
             "C.1, C.2",
             "Quarante kilomètres de marche de nuit ou de sentiers forestiers ; deux nuits pleines pour chaque aller"
           ]
+        },
+        {
+          "cellules": [
+            "V.4",
+            "Risque de détection par la Seconde vue ou contre-malédiction",
+            "C.2",
+            "Si un devin d'un Cercle voisin sonde la citadelle ou si Anselm jette ses dernières réserves dans une malédiction de mort désespérée, l'incantation peut être éventée ou se retourner."
+          ]
         }
       ]
     },
@@ -239,6 +247,14 @@
             "Relais équestre dissimulé aux lisières de Homorod",
             "V.3 (réduit le délai)",
             "Maintien d’un serviteur discret et de montures reposées sous le couvert des bois"
+          ]
+        },
+        {
+          "cellules": [
+            "K.4",
+            "Voilement du rituel et maintien des serments à l'Académie de Sighișoara",
+            "V.4 (protège l'incantation)",
+            "L'Abbé paie son effroi à l'Académie pour pousser l'Ombre et masquer ses desseins ; ne pas impliquer de Cercle concurrent"
           ]
         }
       ]
@@ -484,7 +500,17 @@
         "Ce que je change",
         "Renvois"
       ],
-      "lignes": []
+      "lignes": [
+        {
+          "cellules": [
+            "an 1, lune 11, jour 3",
+            "La magie et les règles des Cercles s'imposent à nos calculs : Nicodim opère par son athanor et dépend de l'Académie de Sighișoara. Ni Anselm ni Teodor ne sont dans un Cercle.",
+            "chambres/sever/la-magie.md",
+            "Prise en compte des verrous occultes (V.4 : risque de détection par devins ou contre-malédiction) et de la clef K.4 (maintien du secret face aux voisins d'anneau). Confirmation que je ne lance moi-même que la malédiction de mort et la diablerie.",
+            "V.4, K.4, la-magie.md"
+          ]
+        }
+      ]
     }
   ]
 }

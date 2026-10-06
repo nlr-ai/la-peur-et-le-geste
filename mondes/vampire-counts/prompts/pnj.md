@@ -132,6 +132,58 @@ héritera — le mot n'est jamais tout à fait aimable. L'installé. Le buveur e
 bu. Le dormeur, dont on ne parle jamais au passé. Le détruit : on ne dit pas
 « mort », les morts sont nos soldats.
 
+## La magie
+
+Ce que tout infant apprend, et rien de plus : ce qu'un Cercle a trouvé, seuls
+ses membres le savent.
+
+- **La magie est une récolte, pas un don.** Elle monte des terres mortes, des
+  nécropoles, des nœuds de ley ; elle remonte le sang vers les anciens ; elle
+  s'amasse en ceux qui dorment. Qui n'en a pas ne lance rien.
+- **Un sort se prépare.** Quelques heures pour un sort du champ, des semaines
+  pour une petite malédiction, des années pour les grands. Tout ce temps, la
+  magie et le sang engagés sont pris, et celui qui incante est à découvert :
+  un coup, un lieu perdu, et tout part en fumée. Les devins sentent parfois
+  venir un sort longtemps avant qu'il frappe. Toute magie est une attente,
+  et toute attente est une faiblesse.
+- **On apprend en Cercle.** Trois seigneurs ou plus liés en anneau, chacun à
+  ses deux voisins seulement ; chacun cherche chez soi, dans son **athanor** —
+  qui n'en a pas ne cherche pas, il reçoit. Tout l'anneau cherche une seule
+  école à la fois : une fois par décennie, chacun sacrifie de son **effroi**,
+  et celui qui a le plus donné choisit. Ce que l'anneau trouve, tous ses
+  membres le savent. Qu'un maillon tombe, dorme ou parte, et plus rien ne
+  passe tant que ses deux voisins ne se sont pas liés pour refermer l'anneau.
+  On n'appartient qu'à un seul Cercle. Un Cercle est une société d'otages :
+  frapper un membre prive tous les autres.
+- **L'âge borne la main** : un nouveau-né ne manie que les premiers sorts ; les
+  grands sont aux anciens, les plus grands aux Mathusalems. **Le sang borne
+  l'école** : la nécromancie aux Sépulcraux, l'hémomancie (le sang) aux
+  Écarlates, l'ombre aux Voilés, la bête aux Voraces, le fléau aux Stryges.
+  Sans ce sang, on ne va jamais très loin dans une école ; une veine ouverte
+  avec une autre maison est une porte sur sa magie. Quatre magies n'ont pas de
+  maison : la **Domination**, l'**Augure**, la **Tempête**, l'**Abysse**.
+- **La magie a un prix.** Les grands sorts se voient de loin et font parler ;
+  plus un sort est grand, plus il risque de se retourner contre qui le lance.
+  Un nœud qu'on vide trop longtemps meurt.
+- **Chaque Aîné connaît un sort que nul autre ne connaît**, et le donne à sa
+  lignée tant qu'il existe. Détruit, le sort se tait.
+- **Ce que tout vampire sait faire sans rien chercher** : la **malédiction de
+  mort** (le nom écrit dans le sang se consume des mois ; l'assassin y met sa
+  magie et son sang, la victime se défend de tout ce qu'elle est ; si l'attaque
+  ne vaut pas la défense, l'assassin a tout perdu) et la **diablerie** (boire un
+  captif jusqu'à l'âme, des mois durant — le pire des crimes, qui met toute la
+  lignée de la victime en vendetta).
+- **Ce qu'on voit sur les champs et dans les duels**, et que tout le monde sait
+  nommer : la rage sanguine, la moisson, la brume, l'appel de la meute, les
+  cendres, le vent noir ; en duel, les chaînes de sang, le regard impérieux, la
+  seconde lecture, le prix du sang. Les duellistes connaissent leurs querelles
+  comme les saisons : on ne pare pas la cendre, seul le vent la renvoie ; le
+  vent déchire la brume ; la cendre fait fuir la meute ; le devin ne voit rien
+  dans le brouillard.
+- **Le reste se raconte à voix basse** — voiles, malédictions lentes, morts qui
+  parlent, nuits sans fin. Qui n'est pas d'un Cercle qui l'a trouvé n'en sait
+  que la rumeur.
+
 ## Ce qu'on raconte à voix basse
 
 On parle de la Bête qui monte avec la soif, de diablerie, de bûchers qui

@@ -59,70 +59,70 @@
         {
           "cellules": [
             "fins-et-doctrine",
-            "Prendre une terre en la connaissant mieux que celui qui la tient. S emparer des bois verts du sud et assurer du sang pour toute ma branche sans guerre ouverte.",
+            "Prendre une terre en la connaissant mieux que celui qui la tient. S emparer des bois verts du sud et assurer du sang pour toute ma branche sans guerre ouverte. Viser à terme l Augure et la Carte des veines pour arpenter les nœuds de ley du pays.",
             "établi",
-            "personnages.json, lore/cendrik.md",
-            "C.1, C.2"
+            "personnages.json, lore/cendrik.md, la-magie.md",
+            "C.1, C.2, C.5"
           ]
         },
         {
           "cellules": [
             "personnes-et-relations",
-            "Gontran d Agnita (mon bu, honteux et silencieux) ; Konstantin de Dealu Frumos (son champion redoutable) ; Ilka de Ticușu Vechi (petite installée que je ronge) ; Radomir la Crinière (un mur peint qui n a détruit personne en 150 ans) ; Frère Mihai (Ritualiste) ; Vasile (fossoyeur en chef).",
+            "Gontran d Agnita (mon bu, honteux et silencieux) ; Konstantin de Dealu Frumos (son champion redoutable) ; Ilka de Ticușu Vechi (ma voisine d anneau stryge que je ronge, sans athanor) ; Vlaicu de Hoghiz (mon suzerain et autre voisin d anneau vorace, qui paie toujours pour la Bête) ; Radomir la Crinière (un mur peint qui n a détruit personne en 150 ans) ; Frère Mihai (Ritualiste) ; Vasile (fossoyeur en chef).",
             "peint",
-            "relations.json, lore/cendrik.md, registre-etats-cendrik",
+            "relations.json, lore/cendrik.md, registre-etats-cendrik, la-magie.md",
             "registre:personnes-cincu"
           ]
         },
         {
           "cellules": [
             "pouvoir-et-acces",
-            "Seigneurie absolue sur la vieille église fortifiée de Cincu, ses cryptes et terres de marche sépulcrales. Accès aux chemins menant à Ticușu et aux lisières orientales.",
+            "Seigneurie absolue sur la vieille église fortifiée de Cincu, ses cryptes et terres de marche sépulcrales. Accès aux chemins menant à Ticușu et aux lisières orientales. Siège dans le Cercle de la Meute (lié à Ilka et Vlaicu).",
             "établi",
-            "lieux.json, maisons.json, chemins.json",
+            "lieux.json, maisons.json, chemins.json, la-magie.md",
             "registre:lieux-cincu"
           ]
         },
         {
           "cellules": [
             "moyens-materiels",
-            "Tribut magique nocturne soutiré à Gontran ; chaîne et piquets d arpenteur ; collection de cartes du sud et carnets de mesures ; 3 prêtres Ritualistes relevés ; escouade de gardes lourds d ossuaire ; fossoyeurs et goules de corvée.",
+            "Athanor alchimique sous l église au milieu des cartes ; tribut magique nocturne soutiré à Gontran ; chaîne et piquets d arpenteur ; collection de cartes du sud et carnets de mesures ; 3 prêtres Ritualistes relevés ; escouade de gardes lourds d ossuaire ; fossoyeurs et goules de corvée.",
             "peint",
-            "lore/cendrik.md, registre-etats-cendrik",
-            "M.1, M.2, M.3, M.4"
+            "lore/cendrik.md, registre-etats-cendrik, la-magie.md",
+            "M.1, M.2, M.3, M.4, M.5"
           ]
         },
         {
           "cellules": [
             "savoirs-et-secrets",
-            "Sait que la Crinière n a détruit personne en 150 ans (mur peint) ; sait que Gontran a honte et se taira ; a bu Gontran aux cendres ; ignore pourquoi Ilka peut chasser à Comăna ; ignore que Konstantin cherche le Sépulcral aux cendres.",
+            "Sait que la Crinière n a détruit personne en 150 ans (mur peint) ; sait que Gontran a honte et se taira ; a bu Gontran aux Cendres ; détient les sorts débloqués par la Meute (Cendres, Malédiction mineure, Appel de la meute, Nuée, Forme de nuée, Territoire de la meute) plus Malédiction de mort et Diablerie ; sait que seul le vent renvoie la cendre ; ignore pourquoi Ilka peut chasser à Comăna ; ignore que Konstantin cherche le Sépulcral aux cendres et paie pour le Vent noir.",
             "établi",
-            "intentions.json, lore/cendrik.md",
-            "V.1, V.2, C.3"
+            "intentions.json, lore/cendrik.md, la-magie.md",
+            "V.1, V.2, C.3, C.4"
           ]
         },
         {
           "cellules": [
             "engagements-et-temps",
-            "Juré à l Aîné des Sépulcraux. Heures de veille consacrées à l étude des cartes, calculs d arpentage et direction des chants dans la crypte (17h20-6h40). Sommeil diurne sous l église fortifiée.",
+            "Juré à l Aîné des Sépulcraux. Lié dans l anneau de serments de la Meute à Vlaicu et Ilka (recherche commune de 28 points/an). Heures de veille consacrées à l étude des cartes, calculs d arpentage, entretien de l athanor et direction des chants dans la crypte (17h20-6h40). Sommeil diurne sous l église fortifiée.",
             "établi",
-            "routines.json, lore/cendrik.md",
-            "P.1, P.2"
+            "routines.json, lore/cendrik.md, la-magie.md",
+            "P.1, P.2, P.5"
           ]
         },
         {
           "cellules": [
             "strategie-et-alternatives",
-            "Faire chanter les Ritualistes arpent par arpent sur Ticușu pour absorber la marche sans alerte ; percer le secret du privilège d Ilka à Comăna ; si Konstantin approche, stopper l avancée et poster les gardes lourds à l ouest.",
+            "Faire chanter les Ritualistes arpent par arpent sur Ticușu pour absorber la marche sans alerte ; ménager Vlaicu dans le Cercle sans révéler ma maîtrise du Fléau ; percer le secret du privilège d Ilka à Comăna ; guetter la prochaine décennie d effroi pour tenter d imposer l Augure ; si Konstantin approche, stopper l avancée et poster les gardes lourds à l ouest.",
             "établi",
-            "intentions.json, lore/cendrik.md",
-            "K.1, K.2, K.3"
+            "intentions.json, lore/cendrik.md, la-magie.md",
+            "K.1, K.2, K.3, K.5"
           ]
         },
         {
           "cellules": [
             "zones-a-peindre",
-            "L église fortifiée de Cincu, l organisation des Ritualistes, les fossoyeurs de marche, le carnet secret d arpentage, les sentiers d empiètement vers Ticușu Vechi.",
+            "L église fortifiée de Cincu, l athanor sous la crypte et les combustibles magiques, l organisation des Ritualistes, les fossoyeurs de marche, le carnet secret d arpentage, les sentiers d empiètement vers Ticușu Vechi.",
             "peint",
             "registre-etats-cendrik",
             "registre:lieux-et-passages"
@@ -180,6 +180,16 @@
             "chaque jour",
             "vitale"
           ]
+        },
+        {
+          "cellules": [
+            "C.5",
+            "Maintenir l anneau de la Meute et préparer l orientation vers l Augure",
+            "Préserver l équilibre de l anneau avec Vlaicu et Ilka sans rompre le Cercle, tout en accumulant l effroi nécessaire pour imposer la Carte des veines lors d une prochaine décennie",
+            "Recherche annuelle de 28 points maintenue dans l athanor de Cincu et réserve d effroi préservée",
+            "an 2, lune 1, jour 1",
+            "moyenne"
+          ]
         }
       ]
     },
@@ -195,17 +205,17 @@
         {
           "cellules": [
             "V.1",
-            "Enquête de Konstantin sur le Sépulcral aux cendres",
+            "Enquête de Konstantin sur le Sépulcral aux cendres et vulnérabilité au Vent",
             "C.1, C.4",
-            "Si Konstantin identifie Cendrik, il viendra venger son chef avec l acier d Agnita et brisera le masque d érudit"
+            "Si Konstantin identifie Cendrik, il cherchera le duel singulier ; or tout duelliste sait que seul le vent renvoie la cendre sur son auteur, et Konstantin est un champion redoutable"
           ]
         },
         {
           "cellules": [
             "V.2",
-            "Résistance ou alliance imprévue d Ilka de Ticușu",
-            "C.1, C.2",
-            "Si Ilka appelle son suzerain Vlaicu ou son protecteur secret Radomir au lieu de plier, la conquête clandestine échoue"
+            "Résistance d Ilka et risque de rupture de l anneau de la Meute",
+            "C.1, C.2, C.5",
+            "Si Ilka est acculée ou détruite, le maillon central du Cercle saute : l anneau s ouvre entre Cendrik et Vlaicu, interrompant la recherche magique commune jusqu à un serment direct bilatéral"
           ]
         },
         {
@@ -222,6 +232,14 @@
             "Famine chronique en sang de la terre sépulcrale",
             "C.1, C.2",
             "Cincu ne produit presque aucun sang vivant et dépend entièrement de rapines ou d absorption de villages voisins"
+          ]
+        },
+        {
+          "cellules": [
+            "V.5",
+            "Hégémonie de Vlaicu sur les choix de recherche du Cercle",
+            "C.5",
+            "Vlaicu sacrifie tout son effroi pour la Bête (Meute alpha) et écrase les choix de recherche ; l Augure reste inaccessible tant qu il veille et dépense à chaque décennie"
           ]
         }
       ]
@@ -240,7 +258,7 @@
             "K.1",
             "Chants ciblés et progressifs des Ritualistes alimentés par la magie de Gontran",
             "V.2 (vers C.1)",
-            "Prix : consomme la magie bue à Gontran ; limite : ne peut mordre que quelques arpents par saison pour paraître naturel"
+            "Prix : consomme la magie bue à Gontran et immobilise les Ritualistes pendant des semaines ; limite : ne peut mordre que quelques arpents par saison pour paraître naturel et ne pas pousser Ilka à rompre le Cercle"
           ]
         },
         {
@@ -254,9 +272,9 @@
         {
           "cellules": [
             "K.3",
-            "Masque d érudit inoffensif et publication de traités savants",
-            "V.1 (vers C.4)",
-            "Prix : temps d écriture ; limite : ne trompe plus quiconque assiste à l empiètement territorial direct"
+            "Masque d érudit inoffensif, secret absolu sur les Cendres et silence devant Vlaicu",
+            "V.1, V.5 (vers C.4, C.5)",
+            "Prix : ne jamais lancer de sort de Fléau ni de Bête devant Vlaicu ou des témoins ; limite : ne trompe plus quiconque assiste à un duel direct ou à l empiètement territorial flagrant"
           ]
         },
         {
@@ -265,6 +283,14 @@
             "Repli tactique et gardes lourds aux défilés de l ouest",
             "V.1 (vers C.4)",
             "Prix : fige l expansion au sud ; limite : pure défense territoriale"
+          ]
+        },
+        {
+          "cellules": [
+            "K.5",
+            "Usage mesuré des Cendres ou de la Nuée en cas d affrontement sans témoin",
+            "V.1 (vers C.4)",
+            "Prix : consomme magie et sang ; risque d attirer les soupçons si la cendre est reconnue ; limite : la cendre est vulnérable au vent"
           ]
         }
       ]
@@ -344,6 +370,21 @@
             "",
             "Inscrit dans intentions.json (cendrik-comana, 180 jours restants)"
           ]
+        },
+        {
+          "cellules": [
+            "P.5",
+            "Alimentation de l athanor et veille de l anneau de la Meute",
+            "C.5",
+            "Préservation du tribut magique de Gontran et de l alliance avec Vlaicu et Ilka",
+            "cendrik",
+            "crypte-cincu",
+            "28 points de recherche annuels produits par l anneau ; aucune friction ouverte avec Vlaicu",
+            "a-faire",
+            "chaque lune",
+            "",
+            "Entretien discret du fourneau magique et accumulation d effroi"
+          ]
         }
       ]
     },
@@ -362,7 +403,7 @@
           "cellules": [
             "C.1, C.2",
             "Conquête par l arpentage et la nécromancie lente : grignoter Ticușu sans fracas pour atteindre la forêt.",
-            "On ne prend pas une terre en l attaquant mais en la connaissant mieux que celui qui la tient. Éviter toute coalition contre Cincu.",
+            "On ne prend pas une terre en l attaquant mais en la connaissant mieux que celui qui la tient. Éviter toute coalition contre Cincu et préserver Ilka comme maillon de l anneau tant que possible.",
             "Si Ilka accepte finalement la veine refusée l an passé, suspendre les chants et prélever le sang contractuellement.",
             "Si la Crinière réagit ou si Vlaicu intervient en force, stopper net, publier un traité sur la décrue des terres, et attendre une saison.",
             "3 Ritualistes, magie bue à Gontran, cartes d arpentage."
@@ -371,11 +412,21 @@
         {
           "cellules": [
             "C.4",
-            "Masque de savant reclus et silence absolu sur le duel d Agnita.",
-            "Gontran a honte d être bu ; tant qu il tait son outrage, Konstantin cherche dans le vide.",
-            "Si Konstantin découvre mon nom : cesser immédiatement toute chasse extérieure, verrouiller les défilés avec les gardes lourds et attendre l assaut sous les murs de l église fortifiée.",
+            "Masque de savant reclus et silence absolu sur le duel d Agnita et la maîtrise des Cendres.",
+            "Gontran a honte d être bu ; tant qu il tait son outrage, Konstantin cherche dans le vide. De plus, ne jamais lancer la cendre devant témoins car seul le vent la renvoie.",
+            "Si Konstantin découvre mon nom : cesser immédiatement toute chasse extérieure, verrouiller les défilés avec les gardes lourds et attendre l assaut sous les murs de l église fortifiée sans tenter de duel ouvert aux cendres.",
             "Changer si Konstantin apprend la vérité : basculer immédiatement en posture défensive territoriale hermétique.",
             "Gardes lourds d ossuaire, fortifications de Cincu, réseau de goules d alerte."
+          ]
+        },
+        {
+          "cellules": [
+            "C.5",
+            "Siéger en silence dans le Cercle de la Meute en laissant Vlaicu financer la Bête, tout en épargnant mon effroi.",
+            "Un Cercle est une société d otages et d entraide forcée ; Vlaicu paie les points à ma place. Je capitalise en secret pour imposer l Augure (Carte des veines) quand l occasion se présentera.",
+            "Si l anneau s ouvre par la chute d Ilka : proposer immédiatement un lien bilatéral direct à Vlaicu pour ne pas perdre l avancée du Cercle.",
+            "Changer si Vlaicu exige une participation active à ses chasses de sang à Comăna.",
+            "Athanor sous l église de Cincu, serment d anneau, effroi préservé."
           ]
         }
       ]
@@ -398,7 +449,7 @@
             "Veine unilatérale imposée au vaincu",
             "Flux de magie chaque nuit",
             "Prend fin si Gontran est détruit ou si la dette est rompue par duel inverse",
-            "Duel remporté aux cendres à l est d Agnita"
+            "Duel remporté aux Cendres à l est d Agnita"
           ]
         },
         {
@@ -429,6 +480,16 @@
             "Une escouade de gardes lourds d ossuaire, une douzaine de fossoyeurs et goules de peine",
             "Lourds et lents, impropres à la poursuite rapide en forêt dense",
             "Morts de la peste et des sièges anciens de Cincu"
+          ]
+        },
+        {
+          "cellules": [
+            "M.5",
+            "Athanor alchimique et grimoire d anneau",
+            "Crypte d arpentage sous l église fortifiée",
+            "Four alchimique de recherche produisant la part de Cincu pour la Meute ; bibliothèque de parchemins magiques",
+            "Consomme magie et sang ; ne recherche qu une seule école décidée par le plus grand payeur d effroi (Vlaicu)",
+            "Établi lors de l entrée dans le Cercle de la Meute il y a dix ans"
           ]
         }
       ]
@@ -496,8 +557,8 @@
             "Le silence de Gontran",
             "Gontran a honte d avoir été bu à genoux et se taira plusieurs années.",
             "Calcul personnel sur la psychologie des chevaliers Écarlates",
-            "Ignore que son champion Konstantin a juré de le venger et cherche activement l auteur du sort de cendres",
-            "intentions.json, lore/konstantin.md"
+            "Ignore que son champion Konstantin a juré de le venger et cherche activement l auteur du sort de cendres en finançant le Vent noir",
+            "intentions.json, lore/konstantin.md, la-magie.md"
           ]
         },
         {
@@ -505,8 +566,8 @@
             "L installée de Ticușu Vechi",
             "Ilka plie devant tout le monde, manque de sang, et sa terre s effondrera sans qu elle ose frapper.",
             "Comportement lors de la négociation de l an passé et rapports de lisière",
-            "Ignore ses liens de sang avec la maison de Rupea (fille d Anselm) et sa capacité de résistance désespérée",
-            "lore/ilka.md, lore/teodor.md"
+            "Ignore ses liens de sang avec la maison de Rupea (fille d Anselm) et sa capacité de résistance désespérée ; ignore qu elle détient aussi les Cendres par le Cercle",
+            "lore/ilka.md, lore/teodor.md, la-magie.md"
           ]
         }
       ]
@@ -520,7 +581,17 @@
         "Ce que je change",
         "Renvois"
       ],
-      "lignes": []
+      "lignes": [
+        {
+          "cellules": [
+            "an 1, lune 11, jour 3",
+            "Formalisation des savoirs magiques et des lois des Cercles (la-magie.md)",
+            "Chambre de Cendrik : la-magie.md et canon/LORE_CERCLES.md",
+            "Intégration du Cercle de la Meute dans la doctrine : Ilka n est pas qu une cible territoriale, elle est le maillon central de l anneau liant Cendrik à Vlaicu. La cendre est vulnérable au vent (verrou V.1). Intégration de l athanor (M.5) et de l objectif à terme de l Augure / Carte des veines (C.5).",
+            "C.5, V.1, V.2, V.5, K.3, K.5, M.5, P.5"
+          ]
+        }
+      ]
     }
   ]
 }

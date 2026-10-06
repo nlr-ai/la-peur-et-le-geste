@@ -22,3 +22,17 @@
 1. **Toma** a une fiche gelee (decor).
 2. **Mara** a sa fiche, sa tete, sa routine (le haut des marches) et sa chambre.
 3. **Vlaicu n'est pas en torpeur** : « dormant » dans le moteur veut dire fiche gelee. Il veille, et c'est a lui que tu verses ton tribut. Il a desormais sa maison (`maison-vlaicu`), suzeraine de Ticușu et de Comăna (`suzerain_id`).
+
+---
+
+## Demandes — la magie
+
+### 1. Inscription de Brune au canon des disparus de la Meute
+- **Ce qui est écrit** : `la-magie.md` et `canon/LORE_CERCLES.md` mentionnent Brune, la Vorace de la lisière liée à Ilka et à Vlaicu dans le Cercle de la Meute originel, disparue lors d'une chasse il y a dix ans, laissant la place à Cendrik pour refermer l'anneau. Elle n'apparaît ni dans `personnages.json` ni dans l'historique officiel du monde.
+- **Ce que je demande à la place** : Enregistrer une mention ou une fiche gelée/historique de Brune (statut : disparue / détruite présumée lors d'une grande chasse avec Vlaicu) dans le décor du monde.
+- **Pourquoi** : La disparition de Brune est la cause exacte de l'intrusion de Cendrik dans l'anneau d'Ilka ; ce souvenir hante la relation entre Ilka et Vlaicu, expliquant pourquoi Ilka craint tant d'accompagner le père dans les bois profonds.
+
+### 2. Reconnaissance de l'anneau du Cercle de la Meute et de ses sorts débloqués dans l'état
+- **Ce qui est écrit** : `personnages.json` et les relations actuelles n'indiquent pas la participation formelle d'Ilka, Vlaicu et Cendrik au Cercle de la Meute, ni les sorts que cet anneau partage (Bête rang 3, Fléau rang 2).
+- **Ce que je demande à la place** : Inscrire formellement le pacte de Cercle (`cercle-la-meute`) reliant `vlaicu`, `ilka` et `cendrik` dans les tables du monde lorsque la mécanique des Cercles sera matérialisée, en notant qu'Ilka n'a pas d'athanor et ne fournit aucun point de recherche.
+- **Pourquoi** : Cela garantit la cohérence entre le statut magique de la Meute et les contraintes d'otages réciproques de l'anneau.

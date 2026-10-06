@@ -170,6 +170,16 @@
             "5e jour de la 11e lune de l’an 1",
             "2 — urgent"
           ]
+        },
+        {
+          "cellules": [
+            "C.4",
+            "Maintenir la réserve magique accumulée comme muraille contre les malédictions",
+            "Conserver un stock élevé de magie à Rupea (au moins 140 mesures nettes) pour qu'aucune malédiction ne puisse égaler ma défense, tout en acquittant la mesure nocturne due à Radomir.",
+            "mains.json (magie-de-rupea >= 140) ; absence de brèche occulte.",
+            "Permanent",
+            "1 — vital"
+          ]
         }
       ]
     },
@@ -205,6 +215,24 @@
             "C.1 ; C.2",
             "Routine casanière établie depuis un siècle ; souvenir de la nuit des bois du sud."
           ]
+        },
+        {
+          "cellules": [
+            "V.4",
+            "Isolement magique total : hors de tout Cercle, sans athanor ni science apprise, aveugle aux cœurs.",
+            "C.1 ; C.2",
+            "Pas d'athanor, refus des veines et anneaux ; impossible de lancer 'Lire le sang' sur Teodor ou de percer les voiles occultes.",
+            "la-magie.md"
+          ]
+        },
+        {
+          "cellules": [
+            "V.5",
+            "Paiement du tribut nocturne de magie à Radomir (son buveur).",
+            "C.4",
+            "Une mesure par nuit coule vers Comăna, réduisant l'accroissement net de la muraille.",
+            "mains.json (part-vers-comana) ; relations.json"
+          ]
         }
       ]
     },
@@ -239,6 +267,14 @@
             "La brume de sang et le sacrifice personnel en cas de péril mortel immédiat",
             "V.3 ; C.1",
             "Permet d’intervenir en personne hors des murs ; risque de me faire détruire ou boire à nouveau."
+          ]
+        },
+        {
+          "cellules": [
+            "K.4",
+            "La muraille de magie amassée (défense absolue contre la malédiction de mort)",
+            "V.4 ; C.4 ; C.1",
+            "Amasser protège, dépenser expose. En refusant d'engager de la magie dans des sorts ou des cercles, toute ma puissance sert de bouclier passif contre les attaques occultes."
           ]
         }
       ]
@@ -311,6 +347,16 @@
             "Si un de mes enfants est en péril de destruction imminente : sortir aussitôt moi-même en brume de sang.",
             "Une goule de messagerie, autorité seigneuriale, routine des remparts."
           ]
+        },
+        {
+          "cellules": [
+            "Parer la guerre occulte sans Cercle ni athanor",
+            "Amasser la magie sans jamais la dépenser : faire de la réserve de Rupea une muraille infranchissable pour les malédictions.",
+            "Une malédiction exige des semaines/mois et doit égaler ce que tient la victime. En restant sobre et thésauriseur, aucun assaillant ne peut égaler mes réserves sans s'exposer mortellement.",
+            "Si un sort frappe malgré tout un enfant : quitter les murs et frapper l'incantateur pendant sa vulnérabilité.",
+            "Si le tribut à Radomir s'alourdit ou que la récolte de magie de Rupea baisse dangereusement.",
+            "140 mesures de magie nettes à la citadelle, rigueur et refus des dépenses magiques."
+          ]
         }
       ]
     },
@@ -363,6 +409,16 @@
             "Suffisant pour la table présente mais Homorod commence à s’épuiser.",
             "Si les bandes tombent sous 2, le village se vide.",
             "etat/maisons/maison-rupea/documents/mains.json"
+          ]
+        },
+        {
+          "cellules": [
+            "M.5",
+            "Réserve magique de Rupea",
+            "Accès direct par le rocher et les flux remontant des enfants.",
+            "140 mesures de magie nettes (+2/jour net, 1 versée à Radomir).",
+            "Ne peut être projetée à distance sans incantation longue et périlleuse ; sert uniquement de masse défensive passive.",
+            "etat/maisons/maison-rupea/documents/mains.json (la-magie-de-rupea)"
           ]
         }
       ]
@@ -463,6 +519,15 @@
             "Que Konstantin cherche le Sépulcral aux cendres.",
             "etat/intentions.json"
           ]
+        },
+        {
+          "cellules": [
+            "Les Cercles et les sciences occultes",
+            "Je sais que l'Académie siège à Sighișoara autour de Malachie, que Vlaicu tient un Cercle au sud où Ilka est liée, et que les Écarlates d'Agnita ont leur anneau où Konstantin est entré. Je n'ai ni Cercle ni athanor.",
+            "la-magie.md ; rumeurs du pays.",
+            "Ce que ces Cercles ont trouvé ou cherchent, et la teneur exacte de leurs écoles.",
+            "canon/LORE_CERCLES.md"
+          ]
         }
       ]
     },
@@ -475,7 +540,17 @@
         "Ce que je change",
         "Renvois"
       ],
-      "lignes": []
+      "lignes": [
+        {
+          "cellules": [
+            "an 1, 11e lune, 3e jour",
+            "Arrivée de la magie dans le monde et prise en compte de mon statut",
+            "la-magie.md ; mains.json",
+            "Confirmation de ma doctrine : aucun Cercle, aucun athanor. Refus de dépenser de la magie dans des sorts actifs. Défense passive fondée sur l'accumulation massive (140 mesures nettes). Ajout de C.4, V.4, V.5, K.4 et M.5. Prise en compte du tribut d'une mesure/nuit vers Comăna.",
+            "C.4 ; V.4 ; V.5 ; K.4 ; M.5"
+          ]
+        }
+      ]
     }
   ]
 }

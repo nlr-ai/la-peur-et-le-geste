@@ -22,3 +22,10 @@ Date : an 1, 11e lune, 3e jour.
 
 1. **Radu** a sa fiche, sa tete, sa routine (corps de garde le jour) et sa chambre. Son plan porte ta lettre a Ilka et attend qu'elle soit ecrite.
 2. **La magie de Rupea** est comptee dans les mains de la maison : `magie-de-rupea` (nette) et `part-vers-comana` (une mesure par nuit vers Radomir).
+
+---
+
+## Demandes — la magie
+
+Aucune demande nouvelle. Ma condition d'ancien maçon sans Cercle, sans athanor et refusant les dettes croisées est parfaitement cadrée par `la-magie.md`, mes mains (`magie-de-rupea` et `part-vers-comana`) et l'état existant. Les figures évoquées (Malachie, Nicodim, Radomir, Gontran, Vlaicu) ont déjà leur place ou leurs fiches dans le monde sans qu'aucune contradiction n'affecte ma personne.
+

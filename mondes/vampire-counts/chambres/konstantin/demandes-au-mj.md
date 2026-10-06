@@ -16,3 +16,17 @@
 
 1. **Le pensionnaire d'Agnita** reste sans fiche tant que l'ouest n'entre pas en jeu.
 2. **Ton veneur s'appelle desormais Iosif, et ton regisseur Bogdan** (il y avait deux Radu et trois Vasile dans le monde) ; ils restent peints dans ton registre.
+
+---
+
+## Demandes — la magie
+
+### 1. Enregistrement des membres du Cercle des Enfants trouvés (Ronce et Cassien)
+- **Ce qui est écrit** : `canon/LORE_CERCLES.md` et `la-magie.md` définissent le Cercle des Enfants trouvés composé de Konstantin, Ronce (Vorace bannie sans athanor) et Cassien (Voilé sans maître avec athanor au nord d'Agnita). Aucun des deux n'apparaît dans `personnages.json`, `relations.json` ni `lieux.json`.
+- **Ce que je demande à la place** : Formaliser Ronce et Cassien a minima comme PNJ secondaires de décor avec leur localisation et leur lien d'anneau dans `relations.json`, ou leur attribuer une fiche minimale si l'anneau est appelé à interagir.
+- **Pourquoi** : Un Cercle est une société d'otages ; si Cassien ou Ronce tombe, dort ou est attaqué, l'anneau s'ouvre et la recherche du Vent noir (qui conditionne la survie de Konstantin en duel face aux cendres) s'interrompt instantanément.
+
+### 2. Inscription de la maîtrise magique et de l'athanor dans les données de Konstantin
+- **Ce qui est écrit** : `personnages.json` ne mentionne ni athanor à Dealu Frumos, ni appartenance au Cercle des Enfants trouvés, ni sorts débloqués ou préparés (Chaînes de sang, Rage sanguine, Soif apaisée, Seconde lecture).
+- **Ce que je demande à la place** : Ajouter la mention de l'athanor actif de Dealu Frumos et du catalogue de sorts connus / débloqués dans le profil technique de Konstantin lorsque les structures magiques seront intégrées au moteur.
+- **Pourquoi** : Assurer la cohérence entre la fiche de personnage et le canon magique établi par `la-magie.md` et `LORE_CERCLES.md`.

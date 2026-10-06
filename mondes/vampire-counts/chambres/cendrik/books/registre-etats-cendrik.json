@@ -216,6 +216,82 @@
         "an 1, lune 11, jour 3",
         "etat/intentions.json:cendrik"
       ]
+    },
+    {
+      "cellules": [
+        "chose:cincu-athanor-crypte",
+        "lieux-et-passages",
+        "L athanor de Cincu : fourneau alchimique lent en brique réfractaire et plomb, scellé dans le second caveau sous l église fortifiée",
+        "crypte-cincu",
+        "cendrik",
+        "Actif, rougeoiement sourd et régulier, entretenu lors des veilles nocturnes",
+        "1 four alchimique de recherche hermétique, cornues de verre épais, creusets de terre cuite",
+        "Sert à brûler la magie recueillie et une part de sang pour alimenter la recherche de l anneau de la Meute (produit 8 points par an de base)",
+        "la-magie.md, canon/LORE_CERCLES.md",
+        "Alimenté de façon continue depuis dix ans",
+        "peint",
+        "la-magie.md",
+        "Cendrik seul y touche ; les membres du Cercle (Vlaicu, Ilka) savent qu il possède un athanor en fonction",
+        "an 1, lune 11, jour 3",
+        "chambres/cendrik/la-magie.md"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:cincu-registre-cercle-meute",
+        "objets-et-documents",
+        "Le grimoire d anneau et notes de recherche du Cercle de la Meute",
+        "crypte-cincu",
+        "cendrik",
+        "Cahier de parchemin rude relié d éclisse de chêne, tables de progression, notes sur le Fléau et la Bête",
+        "1 registre manuscrit consignant les sorts débloqués (Appel de la meute, Nuée, Forme de nuée, Territoire de la meute, Cendres, Malédiction mineure)",
+        "Conserve la trace des calculs de recherche et des points accumulés vers la Meute alpha",
+        "la-magie.md, canon/LORE_CERCLES.md",
+        "Mis à jour chaque solstice après transmission avec Hoghiz",
+        "peint",
+        "la-magie.md",
+        "Cendrik ; contenu technique partagé en anneau avec Vlaicu et Ilka",
+        "an 1, lune 11, jour 3",
+        "chambres/cendrik/la-magie.md"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:cincu-combustibles-athanor",
+        "ressources-et-populations",
+        "Les réactifs et réserves de chauffe de l athanor : sels de terre sépulcrale, suif purifié, braises de chêne noir et fioles de concentré magique",
+        "crypte-cincu",
+        "cendrik",
+        "Stock suffisant pour deux saisons de combustion lente sous surveillance",
+        "Trois jarres de sels minéraux de nécropole, fioles de tribut de Gontran décanté",
+        "Alimentation exclusive du four alchimique ; ne peut suppléer au manque de sang de bouche",
+        "chose:cincu-athanor-crypte",
+        "Renouvelé au fil du tribut d Agnita et des fouilles de fossoyeurs",
+        "peint",
+        "Implantation de Cendrik",
+        "Cendrik seul en connaît les proportions et l emplacement exact",
+        "an 1, lune 11, jour 3",
+        "chambres/cendrik/books/affaire-cendrik.json"
+      ]
+    },
+    {
+      "cellules": [
+        "sit:cercle-meute-recherche",
+        "situations-et-processus",
+        "La recherche magique commune du Cercle de la Meute (Vlaicu, Ilka, Cendrik)",
+        "Hoghiz, Cincu, Ticușu",
+        "vlaicu (meneur par l effroi) / cendrik (chercheur actif) / ilka (membre sans athanor)",
+        "En cours : recherche orientée sur l école de la Bête vers la Meute alpha (rang 5, 470/1250 points acquis)",
+        "Progression de 28 points par an (deux athanors chez Vlaicu et Cendrik pour trois membres)",
+        "Recherche partagée en anneau de serments ; tout le Cercle apprend ce qu un maillon trouve ; s interrompt si un maillon tombe",
+        "la-magie.md, canon/LORE_CERCLES.md",
+        "Prochaine réunion décennale d effroi dans quelques années",
+        "établi",
+        "la-magie.md, canon/LORE_CERCLES.md",
+        "Vlaicu, Ilka et Cendrik connaissent l état exact de l anneau ; les Cercles extérieurs savent seulement que la Meute existe",
+        "an 1, lune 11, jour 3",
+        "chambres/cendrik/la-magie.md"
+      ]
     }
   ]
 }

@@ -349,6 +349,16 @@
         "5e jour de la 11e lune de l’an 1",
         "2 — urgent"
        ]
+      },
+      {
+       "cellules": [
+        "C.4",
+        "Maintenir la réserve magique accumulée comme muraille contre les malédictions",
+        "Conserver un stock élevé de magie à Rupea (au moins 140 mesures nettes) pour qu'aucune malédiction ne puisse égaler ma défense, tout en acquittant la mesure nocturne due à Radomir.",
+        "mains.json (magie-de-rupea >= 140) ; absence de brèche occulte.",
+        "Permanent",
+        "1 — vital"
+       ]
       }
      ]
     },
@@ -384,6 +394,24 @@
         "C.1 ; C.2",
         "Routine casanière établie depuis un siècle ; souvenir de la nuit des bois du sud."
        ]
+      },
+      {
+       "cellules": [
+        "V.4",
+        "Isolement magique total : hors de tout Cercle, sans athanor ni science apprise, aveugle aux cœurs.",
+        "C.1 ; C.2",
+        "Pas d'athanor, refus des veines et anneaux ; impossible de lancer 'Lire le sang' sur Teodor ou de percer les voiles occultes.",
+        "la-magie.md"
+       ]
+      },
+      {
+       "cellules": [
+        "V.5",
+        "Paiement du tribut nocturne de magie à Radomir (son buveur).",
+        "C.4",
+        "Une mesure par nuit coule vers Comăna, réduisant l'accroissement net de la muraille.",
+        "mains.json (part-vers-comana) ; relations.json"
+       ]
       }
      ]
     },
@@ -418,6 +446,14 @@
         "La brume de sang et le sacrifice personnel en cas de péril mortel immédiat",
         "V.3 ; C.1",
         "Permet d’intervenir en personne hors des murs ; risque de me faire détruire ou boire à nouveau."
+       ]
+      },
+      {
+       "cellules": [
+        "K.4",
+        "La muraille de magie amassée (défense absolue contre la malédiction de mort)",
+        "V.4 ; C.4 ; C.1",
+        "Amasser protège, dépenser expose. En refusant d'engager de la magie dans des sorts ou des cercles, toute ma puissance sert de bouclier passif contre les attaques occultes."
        ]
       }
      ]
@@ -490,6 +526,16 @@
         "Si un de mes enfants est en péril de destruction imminente : sortir aussitôt moi-même en brume de sang.",
         "Une goule de messagerie, autorité seigneuriale, routine des remparts."
        ]
+      },
+      {
+       "cellules": [
+        "Parer la guerre occulte sans Cercle ni athanor",
+        "Amasser la magie sans jamais la dépenser : faire de la réserve de Rupea une muraille infranchissable pour les malédictions.",
+        "Une malédiction exige des semaines/mois et doit égaler ce que tient la victime. En restant sobre et thésauriseur, aucun assaillant ne peut égaler mes réserves sans s'exposer mortellement.",
+        "Si un sort frappe malgré tout un enfant : quitter les murs et frapper l'incantateur pendant sa vulnérabilité.",
+        "Si le tribut à Radomir s'alourdit ou que la récolte de magie de Rupea baisse dangereusement.",
+        "140 mesures de magie nettes à la citadelle, rigueur et refus des dépenses magiques."
+       ]
       }
      ]
     },
@@ -542,6 +588,16 @@
         "Suffisant pour la table présente mais Homorod commence à s’épuiser.",
         "Si les bandes tombent sous 2, le village se vide.",
         "etat/maisons/maison-rupea/documents/mains.json"
+       ]
+      },
+      {
+       "cellules": [
+        "M.5",
+        "Réserve magique de Rupea",
+        "Accès direct par le rocher et les flux remontant des enfants.",
+        "140 mesures de magie nettes (+2/jour net, 1 versée à Radomir).",
+        "Ne peut être projetée à distance sans incantation longue et périlleuse ; sert uniquement de masse défensive passive.",
+        "etat/maisons/maison-rupea/documents/mains.json (la-magie-de-rupea)"
        ]
       }
      ]
@@ -642,6 +698,15 @@
         "Que Konstantin cherche le Sépulcral aux cendres.",
         "etat/intentions.json"
        ]
+      },
+      {
+       "cellules": [
+        "Les Cercles et les sciences occultes",
+        "Je sais que l'Académie siège à Sighișoara autour de Malachie, que Vlaicu tient un Cercle au sud où Ilka est liée, et que les Écarlates d'Agnita ont leur anneau où Konstantin est entré. Je n'ai ni Cercle ni athanor.",
+        "la-magie.md ; rumeurs du pays.",
+        "Ce que ces Cercles ont trouvé ou cherchent, et la teneur exacte de leurs écoles.",
+        "canon/LORE_CERCLES.md"
+       ]
       }
      ]
     },
@@ -654,7 +719,17 @@
       "Ce que je change",
       "Renvois"
      ],
-     "lignes": []
+     "lignes": [
+      {
+       "cellules": [
+        "an 1, 11e lune, 3e jour",
+        "Arrivée de la magie dans le monde et prise en compte de mon statut",
+        "la-magie.md ; mains.json",
+        "Confirmation de ma doctrine : aucun Cercle, aucun athanor. Refus de dépenser de la magie dans des sorts actifs. Défense passive fondée sur l'accumulation massive (140 mesures nettes). Ajout de C.4, V.4, V.5, K.4 et M.5. Prise en compte du tribut d'une mesure/nuit vers Comăna.",
+        "C.4 ; V.4 ; V.5 ; K.4 ; M.5"
+       ]
+      }
+     ]
     }
    ]
   },
@@ -819,6 +894,63 @@
       "an 1, 11e lune, 3e jour",
       "Description locale subordonnée aux routes régionales"
      ]
+    },
+    {
+     "cellules": [
+      "R.8",
+      "lieux-et-passages",
+      "Le rocher de basalte et nœud de ley de la citadelle de Rupea",
+      "Citadelle de Rupea, assise rocheuse de la motte haute",
+      "Anselm",
+      "Sombre, froid, roche massive suintante canalisant les flux de la terre",
+      "Source naturelle de magie terrestre rendant une récolte constante à la citadelle",
+      "Nourrit le stock défensif de Rupea (+2 mesures de magie nettes par jour). Absence d'athanor : aucune distillation active ni transmutation.",
+      "mains.json:la-magie-de-rupea, plans/rupea.json",
+      "Permanent",
+      "peint",
+      "Canon de la magie des terres et citadelles fortifiées (la-magie.md, mains.json)",
+      "Anselm en sent les courants dans la pierre ; Teodor en voit le chiffre dans les comptes de table.",
+      "an 1, 11e lune, 3e jour",
+      "etat/maisons/maison-rupea/documents/mains.json"
+     ]
+    },
+    {
+     "cellules": [
+      "R.9",
+      "ressources-et-populations",
+      "Réserve de magie amassée de Rupea et filet du sang",
+      "Citadelle de Rupea (chambre et personne d'Anselm)",
+      "Anselm",
+      "Intacte, stock dense et préservé contre toute dépense",
+      "140 mesures de magie nettes accumulées ; alimenté par le rocher et ce qui remonte des infants dispersés",
+      "Sert exclusivement de muraille et rempart passif contre les malédictions (amasser protège, dépenser expose). 1 mesure cédée par nuit à Radomir de Comăna.",
+      "mains.json:la-magie-de-rupea, relations.json:radomir",
+      "Accroissement régulier de 2 mesures par jour net",
+      "peint",
+      "etat/maisons/maison-rupea/documents/mains.json, la-magie.md",
+      "Anselm et Teodor connaissent le volume brut ; Radomir reçoit sa part chaque nuit sans mot dire.",
+      "an 1, 11e lune, 3e jour",
+      "etat/maisons/maison-rupea/documents/mains.json"
+     ]
+    },
+    {
+     "cellules": [
+      "R.10",
+      "usages-et-institutions",
+      "Refus de l'athanor et rejet des Cercles",
+      "Citadelle de Rupea (chambre haute et cryptes)",
+      "Anselm",
+      "Aucun athanor construit, aucun creuset, pas de combustible d'effroi consumé, nulle note de recherche occulte.",
+      "Néant matériel (choix délibéré de bâtisseur d'écarter la sorcellerie active)",
+      "Préserve Anselm des dettes croisées d'un anneau d'otages et de l'exposition mortelle des incantations. Interdit l'accès aux sorts trouvés (Lire le sang, etc.).",
+      "la-magie.md, canon/LORE_CERCLES.md",
+      "Permanent depuis l'érection de la citadelle",
+      "peint",
+      "la-magie.md (§Pas de Cercle)",
+      "Anselm l'a juré en lui-même ; l'Abbé d'Odorheiu sait qu'Anselm a rejeté sa veine et son Cercle.",
+      "an 1, 11e lune, 3e jour",
+      "la-magie.md"
+     ]
     }
    ]
   }
@@ -885,70 +1017,70 @@
       {
        "cellules": [
         "fins-et-doctrine",
-        "Prendre une terre en la connaissant mieux que celui qui la tient. S emparer des bois verts du sud et assurer du sang pour toute ma branche sans guerre ouverte.",
+        "Prendre une terre en la connaissant mieux que celui qui la tient. S emparer des bois verts du sud et assurer du sang pour toute ma branche sans guerre ouverte. Viser à terme l Augure et la Carte des veines pour arpenter les nœuds de ley du pays.",
         "établi",
-        "personnages.json, lore/cendrik.md",
-        "C.1, C.2"
+        "personnages.json, lore/cendrik.md, la-magie.md",
+        "C.1, C.2, C.5"
        ]
       },
       {
        "cellules": [
         "personnes-et-relations",
-        "Gontran d Agnita (mon bu, honteux et silencieux) ; Konstantin de Dealu Frumos (son champion redoutable) ; Ilka de Ticușu Vechi (petite installée que je ronge) ; Radomir la Crinière (un mur peint qui n a détruit personne en 150 ans) ; Frère Mihai (Ritualiste) ; Vasile (fossoyeur en chef).",
+        "Gontran d Agnita (mon bu, honteux et silencieux) ; Konstantin de Dealu Frumos (son champion redoutable) ; Ilka de Ticușu Vechi (ma voisine d anneau stryge que je ronge, sans athanor) ; Vlaicu de Hoghiz (mon suzerain et autre voisin d anneau vorace, qui paie toujours pour la Bête) ; Radomir la Crinière (un mur peint qui n a détruit personne en 150 ans) ; Frère Mihai (Ritualiste) ; Vasile (fossoyeur en chef).",
         "peint",
-        "relations.json, lore/cendrik.md, registre-etats-cendrik",
+        "relations.json, lore/cendrik.md, registre-etats-cendrik, la-magie.md",
         "registre:personnes-cincu"
        ]
       },
       {
        "cellules": [
         "pouvoir-et-acces",
-        "Seigneurie absolue sur la vieille église fortifiée de Cincu, ses cryptes et terres de marche sépulcrales. Accès aux chemins menant à Ticușu et aux lisières orientales.",
+        "Seigneurie absolue sur la vieille église fortifiée de Cincu, ses cryptes et terres de marche sépulcrales. Accès aux chemins menant à Ticușu et aux lisières orientales. Siège dans le Cercle de la Meute (lié à Ilka et Vlaicu).",
         "établi",
-        "lieux.json, maisons.json, chemins.json",
+        "lieux.json, maisons.json, chemins.json, la-magie.md",
         "registre:lieux-cincu"
        ]
       },
       {
        "cellules": [
         "moyens-materiels",
-        "Tribut magique nocturne soutiré à Gontran ; chaîne et piquets d arpenteur ; collection de cartes du sud et carnets de mesures ; 3 prêtres Ritualistes relevés ; escouade de gardes lourds d ossuaire ; fossoyeurs et goules de corvée.",
+        "Athanor alchimique sous l église au milieu des cartes ; tribut magique nocturne soutiré à Gontran ; chaîne et piquets d arpenteur ; collection de cartes du sud et carnets de mesures ; 3 prêtres Ritualistes relevés ; escouade de gardes lourds d ossuaire ; fossoyeurs et goules de corvée.",
         "peint",
-        "lore/cendrik.md, registre-etats-cendrik",
-        "M.1, M.2, M.3, M.4"
+        "lore/cendrik.md, registre-etats-cendrik, la-magie.md",
+        "M.1, M.2, M.3, M.4, M.5"
        ]
       },
       {
        "cellules": [
         "savoirs-et-secrets",
-        "Sait que la Crinière n a détruit personne en 150 ans (mur peint) ; sait que Gontran a honte et se taira ; a bu Gontran aux cendres ; ignore pourquoi Ilka peut chasser à Comăna ; ignore que Konstantin cherche le Sépulcral aux cendres.",
+        "Sait que la Crinière n a détruit personne en 150 ans (mur peint) ; sait que Gontran a honte et se taira ; a bu Gontran aux Cendres ; détient les sorts débloqués par la Meute (Cendres, Malédiction mineure, Appel de la meute, Nuée, Forme de nuée, Territoire de la meute) plus Malédiction de mort et Diablerie ; sait que seul le vent renvoie la cendre ; ignore pourquoi Ilka peut chasser à Comăna ; ignore que Konstantin cherche le Sépulcral aux cendres et paie pour le Vent noir.",
         "établi",
-        "intentions.json, lore/cendrik.md",
-        "V.1, V.2, C.3"
+        "intentions.json, lore/cendrik.md, la-magie.md",
+        "V.1, V.2, C.3, C.4"
        ]
       },
       {
        "cellules": [
         "engagements-et-temps",
-        "Juré à l Aîné des Sépulcraux. Heures de veille consacrées à l étude des cartes, calculs d arpentage et direction des chants dans la crypte (17h20-6h40). Sommeil diurne sous l église fortifiée.",
+        "Juré à l Aîné des Sépulcraux. Lié dans l anneau de serments de la Meute à Vlaicu et Ilka (recherche commune de 28 points/an). Heures de veille consacrées à l étude des cartes, calculs d arpentage, entretien de l athanor et direction des chants dans la crypte (17h20-6h40). Sommeil diurne sous l église fortifiée.",
         "établi",
-        "routines.json, lore/cendrik.md",
-        "P.1, P.2"
+        "routines.json, lore/cendrik.md, la-magie.md",
+        "P.1, P.2, P.5"
        ]
       },
       {
        "cellules": [
         "strategie-et-alternatives",
-        "Faire chanter les Ritualistes arpent par arpent sur Ticușu pour absorber la marche sans alerte ; percer le secret du privilège d Ilka à Comăna ; si Konstantin approche, stopper l avancée et poster les gardes lourds à l ouest.",
+        "Faire chanter les Ritualistes arpent par arpent sur Ticușu pour absorber la marche sans alerte ; ménager Vlaicu dans le Cercle sans révéler ma maîtrise du Fléau ; percer le secret du privilège d Ilka à Comăna ; guetter la prochaine décennie d effroi pour tenter d imposer l Augure ; si Konstantin approche, stopper l avancée et poster les gardes lourds à l ouest.",
         "établi",
-        "intentions.json, lore/cendrik.md",
-        "K.1, K.2, K.3"
+        "intentions.json, lore/cendrik.md, la-magie.md",
+        "K.1, K.2, K.3, K.5"
        ]
       },
       {
        "cellules": [
         "zones-a-peindre",
-        "L église fortifiée de Cincu, l organisation des Ritualistes, les fossoyeurs de marche, le carnet secret d arpentage, les sentiers d empiètement vers Ticușu Vechi.",
+        "L église fortifiée de Cincu, l athanor sous la crypte et les combustibles magiques, l organisation des Ritualistes, les fossoyeurs de marche, le carnet secret d arpentage, les sentiers d empiètement vers Ticușu Vechi.",
         "peint",
         "registre-etats-cendrik",
         "registre:lieux-et-passages"
@@ -1006,6 +1138,16 @@
         "chaque jour",
         "vitale"
        ]
+      },
+      {
+       "cellules": [
+        "C.5",
+        "Maintenir l anneau de la Meute et préparer l orientation vers l Augure",
+        "Préserver l équilibre de l anneau avec Vlaicu et Ilka sans rompre le Cercle, tout en accumulant l effroi nécessaire pour imposer la Carte des veines lors d une prochaine décennie",
+        "Recherche annuelle de 28 points maintenue dans l athanor de Cincu et réserve d effroi préservée",
+        "an 2, lune 1, jour 1",
+        "moyenne"
+       ]
       }
      ]
     },
@@ -1021,17 +1163,17 @@
       {
        "cellules": [
         "V.1",
-        "Enquête de Konstantin sur le Sépulcral aux cendres",
+        "Enquête de Konstantin sur le Sépulcral aux cendres et vulnérabilité au Vent",
         "C.1, C.4",
-        "Si Konstantin identifie Cendrik, il viendra venger son chef avec l acier d Agnita et brisera le masque d érudit"
+        "Si Konstantin identifie Cendrik, il cherchera le duel singulier ; or tout duelliste sait que seul le vent renvoie la cendre sur son auteur, et Konstantin est un champion redoutable"
        ]
       },
       {
        "cellules": [
         "V.2",
-        "Résistance ou alliance imprévue d Ilka de Ticușu",
-        "C.1, C.2",
-        "Si Ilka appelle son suzerain Vlaicu ou son protecteur secret Radomir au lieu de plier, la conquête clandestine échoue"
+        "Résistance d Ilka et risque de rupture de l anneau de la Meute",
+        "C.1, C.2, C.5",
+        "Si Ilka est acculée ou détruite, le maillon central du Cercle saute : l anneau s ouvre entre Cendrik et Vlaicu, interrompant la recherche magique commune jusqu à un serment direct bilatéral"
        ]
       },
       {
@@ -1048,6 +1190,14 @@
         "Famine chronique en sang de la terre sépulcrale",
         "C.1, C.2",
         "Cincu ne produit presque aucun sang vivant et dépend entièrement de rapines ou d absorption de villages voisins"
+       ]
+      },
+      {
+       "cellules": [
+        "V.5",
+        "Hégémonie de Vlaicu sur les choix de recherche du Cercle",
+        "C.5",
+        "Vlaicu sacrifie tout son effroi pour la Bête (Meute alpha) et écrase les choix de recherche ; l Augure reste inaccessible tant qu il veille et dépense à chaque décennie"
        ]
       }
      ]
@@ -1066,7 +1216,7 @@
         "K.1",
         "Chants ciblés et progressifs des Ritualistes alimentés par la magie de Gontran",
         "V.2 (vers C.1)",
-        "Prix : consomme la magie bue à Gontran ; limite : ne peut mordre que quelques arpents par saison pour paraître naturel"
+        "Prix : consomme la magie bue à Gontran et immobilise les Ritualistes pendant des semaines ; limite : ne peut mordre que quelques arpents par saison pour paraître naturel et ne pas pousser Ilka à rompre le Cercle"
        ]
       },
       {
@@ -1080,9 +1230,9 @@
       {
        "cellules": [
         "K.3",
-        "Masque d érudit inoffensif et publication de traités savants",
-        "V.1 (vers C.4)",
-        "Prix : temps d écriture ; limite : ne trompe plus quiconque assiste à l empiètement territorial direct"
+        "Masque d érudit inoffensif, secret absolu sur les Cendres et silence devant Vlaicu",
+        "V.1, V.5 (vers C.4, C.5)",
+        "Prix : ne jamais lancer de sort de Fléau ni de Bête devant Vlaicu ou des témoins ; limite : ne trompe plus quiconque assiste à un duel direct ou à l empiètement territorial flagrant"
        ]
       },
       {
@@ -1091,6 +1241,14 @@
         "Repli tactique et gardes lourds aux défilés de l ouest",
         "V.1 (vers C.4)",
         "Prix : fige l expansion au sud ; limite : pure défense territoriale"
+       ]
+      },
+      {
+       "cellules": [
+        "K.5",
+        "Usage mesuré des Cendres ou de la Nuée en cas d affrontement sans témoin",
+        "V.1 (vers C.4)",
+        "Prix : consomme magie et sang ; risque d attirer les soupçons si la cendre est reconnue ; limite : la cendre est vulnérable au vent"
        ]
       }
      ]
@@ -1170,6 +1328,21 @@
         "",
         "Inscrit dans intentions.json (cendrik-comana, 180 jours restants)"
        ]
+      },
+      {
+       "cellules": [
+        "P.5",
+        "Alimentation de l athanor et veille de l anneau de la Meute",
+        "C.5",
+        "Préservation du tribut magique de Gontran et de l alliance avec Vlaicu et Ilka",
+        "cendrik",
+        "crypte-cincu",
+        "28 points de recherche annuels produits par l anneau ; aucune friction ouverte avec Vlaicu",
+        "a-faire",
+        "chaque lune",
+        "",
+        "Entretien discret du fourneau magique et accumulation d effroi"
+       ]
       }
      ]
     },
@@ -1188,7 +1361,7 @@
        "cellules": [
         "C.1, C.2",
         "Conquête par l arpentage et la nécromancie lente : grignoter Ticușu sans fracas pour atteindre la forêt.",
-        "On ne prend pas une terre en l attaquant mais en la connaissant mieux que celui qui la tient. Éviter toute coalition contre Cincu.",
+        "On ne prend pas une terre en l attaquant mais en la connaissant mieux que celui qui la tient. Éviter toute coalition contre Cincu et préserver Ilka comme maillon de l anneau tant que possible.",
         "Si Ilka accepte finalement la veine refusée l an passé, suspendre les chants et prélever le sang contractuellement.",
         "Si la Crinière réagit ou si Vlaicu intervient en force, stopper net, publier un traité sur la décrue des terres, et attendre une saison.",
         "3 Ritualistes, magie bue à Gontran, cartes d arpentage."
@@ -1197,11 +1370,21 @@
       {
        "cellules": [
         "C.4",
-        "Masque de savant reclus et silence absolu sur le duel d Agnita.",
-        "Gontran a honte d être bu ; tant qu il tait son outrage, Konstantin cherche dans le vide.",
-        "Si Konstantin découvre mon nom : cesser immédiatement toute chasse extérieure, verrouiller les défilés avec les gardes lourds et attendre l assaut sous les murs de l église fortifiée.",
+        "Masque de savant reclus et silence absolu sur le duel d Agnita et la maîtrise des Cendres.",
+        "Gontran a honte d être bu ; tant qu il tait son outrage, Konstantin cherche dans le vide. De plus, ne jamais lancer la cendre devant témoins car seul le vent la renvoie.",
+        "Si Konstantin découvre mon nom : cesser immédiatement toute chasse extérieure, verrouiller les défilés avec les gardes lourds et attendre l assaut sous les murs de l église fortifiée sans tenter de duel ouvert aux cendres.",
         "Changer si Konstantin apprend la vérité : basculer immédiatement en posture défensive territoriale hermétique.",
         "Gardes lourds d ossuaire, fortifications de Cincu, réseau de goules d alerte."
+       ]
+      },
+      {
+       "cellules": [
+        "C.5",
+        "Siéger en silence dans le Cercle de la Meute en laissant Vlaicu financer la Bête, tout en épargnant mon effroi.",
+        "Un Cercle est une société d otages et d entraide forcée ; Vlaicu paie les points à ma place. Je capitalise en secret pour imposer l Augure (Carte des veines) quand l occasion se présentera.",
+        "Si l anneau s ouvre par la chute d Ilka : proposer immédiatement un lien bilatéral direct à Vlaicu pour ne pas perdre l avancée du Cercle.",
+        "Changer si Vlaicu exige une participation active à ses chasses de sang à Comăna.",
+        "Athanor sous l église de Cincu, serment d anneau, effroi préservé."
        ]
       }
      ]
@@ -1224,7 +1407,7 @@
         "Veine unilatérale imposée au vaincu",
         "Flux de magie chaque nuit",
         "Prend fin si Gontran est détruit ou si la dette est rompue par duel inverse",
-        "Duel remporté aux cendres à l est d Agnita"
+        "Duel remporté aux Cendres à l est d Agnita"
        ]
       },
       {
@@ -1255,6 +1438,16 @@
         "Une escouade de gardes lourds d ossuaire, une douzaine de fossoyeurs et goules de peine",
         "Lourds et lents, impropres à la poursuite rapide en forêt dense",
         "Morts de la peste et des sièges anciens de Cincu"
+       ]
+      },
+      {
+       "cellules": [
+        "M.5",
+        "Athanor alchimique et grimoire d anneau",
+        "Crypte d arpentage sous l église fortifiée",
+        "Four alchimique de recherche produisant la part de Cincu pour la Meute ; bibliothèque de parchemins magiques",
+        "Consomme magie et sang ; ne recherche qu une seule école décidée par le plus grand payeur d effroi (Vlaicu)",
+        "Établi lors de l entrée dans le Cercle de la Meute il y a dix ans"
        ]
       }
      ]
@@ -1322,8 +1515,8 @@
         "Le silence de Gontran",
         "Gontran a honte d avoir été bu à genoux et se taira plusieurs années.",
         "Calcul personnel sur la psychologie des chevaliers Écarlates",
-        "Ignore que son champion Konstantin a juré de le venger et cherche activement l auteur du sort de cendres",
-        "intentions.json, lore/konstantin.md"
+        "Ignore que son champion Konstantin a juré de le venger et cherche activement l auteur du sort de cendres en finançant le Vent noir",
+        "intentions.json, lore/konstantin.md, la-magie.md"
        ]
       },
       {
@@ -1331,8 +1524,8 @@
         "L installée de Ticușu Vechi",
         "Ilka plie devant tout le monde, manque de sang, et sa terre s effondrera sans qu elle ose frapper.",
         "Comportement lors de la négociation de l an passé et rapports de lisière",
-        "Ignore ses liens de sang avec la maison de Rupea (fille d Anselm) et sa capacité de résistance désespérée",
-        "lore/ilka.md, lore/teodor.md"
+        "Ignore ses liens de sang avec la maison de Rupea (fille d Anselm) et sa capacité de résistance désespérée ; ignore qu elle détient aussi les Cendres par le Cercle",
+        "lore/ilka.md, lore/teodor.md, la-magie.md"
        ]
       }
      ]
@@ -1346,7 +1539,17 @@
       "Ce que je change",
       "Renvois"
      ],
-     "lignes": []
+     "lignes": [
+      {
+       "cellules": [
+        "an 1, lune 11, jour 3",
+        "Formalisation des savoirs magiques et des lois des Cercles (la-magie.md)",
+        "Chambre de Cendrik : la-magie.md et canon/LORE_CERCLES.md",
+        "Intégration du Cercle de la Meute dans la doctrine : Ilka n est pas qu une cible territoriale, elle est le maillon central de l anneau liant Cendrik à Vlaicu. La cendre est vulnérable au vent (verrou V.1). Intégration de l athanor (M.5) et de l objectif à terme de l Augure / Carte des veines (C.5).",
+        "C.5, V.1, V.2, V.5, K.3, K.5, M.5, P.5"
+       ]
+      }
+     ]
     }
    ]
   },
@@ -1568,6 +1771,82 @@
       "an 1, lune 11, jour 3",
       "etat/intentions.json:cendrik"
      ]
+    },
+    {
+     "cellules": [
+      "chose:cincu-athanor-crypte",
+      "lieux-et-passages",
+      "L athanor de Cincu : fourneau alchimique lent en brique réfractaire et plomb, scellé dans le second caveau sous l église fortifiée",
+      "crypte-cincu",
+      "cendrik",
+      "Actif, rougeoiement sourd et régulier, entretenu lors des veilles nocturnes",
+      "1 four alchimique de recherche hermétique, cornues de verre épais, creusets de terre cuite",
+      "Sert à brûler la magie recueillie et une part de sang pour alimenter la recherche de l anneau de la Meute (produit 8 points par an de base)",
+      "la-magie.md, canon/LORE_CERCLES.md",
+      "Alimenté de façon continue depuis dix ans",
+      "peint",
+      "la-magie.md",
+      "Cendrik seul y touche ; les membres du Cercle (Vlaicu, Ilka) savent qu il possède un athanor en fonction",
+      "an 1, lune 11, jour 3",
+      "chambres/cendrik/la-magie.md"
+     ]
+    },
+    {
+     "cellules": [
+      "chose:cincu-registre-cercle-meute",
+      "objets-et-documents",
+      "Le grimoire d anneau et notes de recherche du Cercle de la Meute",
+      "crypte-cincu",
+      "cendrik",
+      "Cahier de parchemin rude relié d éclisse de chêne, tables de progression, notes sur le Fléau et la Bête",
+      "1 registre manuscrit consignant les sorts débloqués (Appel de la meute, Nuée, Forme de nuée, Territoire de la meute, Cendres, Malédiction mineure)",
+      "Conserve la trace des calculs de recherche et des points accumulés vers la Meute alpha",
+      "la-magie.md, canon/LORE_CERCLES.md",
+      "Mis à jour chaque solstice après transmission avec Hoghiz",
+      "peint",
+      "la-magie.md",
+      "Cendrik ; contenu technique partagé en anneau avec Vlaicu et Ilka",
+      "an 1, lune 11, jour 3",
+      "chambres/cendrik/la-magie.md"
+     ]
+    },
+    {
+     "cellules": [
+      "chose:cincu-combustibles-athanor",
+      "ressources-et-populations",
+      "Les réactifs et réserves de chauffe de l athanor : sels de terre sépulcrale, suif purifié, braises de chêne noir et fioles de concentré magique",
+      "crypte-cincu",
+      "cendrik",
+      "Stock suffisant pour deux saisons de combustion lente sous surveillance",
+      "Trois jarres de sels minéraux de nécropole, fioles de tribut de Gontran décanté",
+      "Alimentation exclusive du four alchimique ; ne peut suppléer au manque de sang de bouche",
+      "chose:cincu-athanor-crypte",
+      "Renouvelé au fil du tribut d Agnita et des fouilles de fossoyeurs",
+      "peint",
+      "Implantation de Cendrik",
+      "Cendrik seul en connaît les proportions et l emplacement exact",
+      "an 1, lune 11, jour 3",
+      "chambres/cendrik/books/affaire-cendrik.json"
+     ]
+    },
+    {
+     "cellules": [
+      "sit:cercle-meute-recherche",
+      "situations-et-processus",
+      "La recherche magique commune du Cercle de la Meute (Vlaicu, Ilka, Cendrik)",
+      "Hoghiz, Cincu, Ticușu",
+      "vlaicu (meneur par l effroi) / cendrik (chercheur actif) / ilka (membre sans athanor)",
+      "En cours : recherche orientée sur l école de la Bête vers la Meute alpha (rang 5, 470/1250 points acquis)",
+      "Progression de 28 points par an (deux athanors chez Vlaicu et Cendrik pour trois membres)",
+      "Recherche partagée en anneau de serments ; tout le Cercle apprend ce qu un maillon trouve ; s interrompt si un maillon tombe",
+      "la-magie.md, canon/LORE_CERCLES.md",
+      "Prochaine réunion décennale d effroi dans quelques années",
+      "établi",
+      "la-magie.md, canon/LORE_CERCLES.md",
+      "Vlaicu, Ilka et Cendrik connaissent l état exact de l anneau ; les Cercles extérieurs savent seulement que la Meute existe",
+      "an 1, lune 11, jour 3",
+      "chambres/cendrik/la-magie.md"
+     ]
     }
    ]
   }
@@ -1634,7 +1913,7 @@
       {
        "cellules": [
         "fins-et-doctrine",
-        "Garder le sang de Rupea immaculé sans jamais accepter de veine ni de Communion ; plier l'échine devant Vlaicu et Cendrik pour préserver le fief ; passer l'hiver sur les maigres bandes locales et des incursions discrètes à Comăna ; rentrer un jour à Rupea reconnue par mon sire.",
+        "Garder le sang de Rupea immaculé sans jamais accepter de veine ni de Communion ; refuser de payer l'effroi pour la Bête ou d'employer la magie offerte par Cendrik ; plier l'échine devant Vlaicu et Cendrik pour préserver le fief ; passer l'hiver sur les maigres bandes locales et des incursions discrètes à Comăna ; rentrer un jour à Rupea reconnue par mon sire.",
         "établi",
         "personnages.json:ilka, canon/lore/ilka.md",
         "C.1, C.2, C.3"
@@ -1661,7 +1940,7 @@
       {
        "cellules": [
         "moyens-materiels",
-        "Manoir fortifié de Ticușu Vechi ; la petite couronne de fer noir des Stryges ; coffret de chêne cerclé contenant les lettres d'Anselm ; réserve de sang précaire issue de quatre métairies ; vingt-cinq serfs vivants et quatre goules de courtoisie ; herbes et racines séchées.",
+        "Manoir fortifié de Ticușu Vechi ; couronne de fer noir des Stryges ; coffret de chêne aux huit lettres d'Anselm ; réserve de sang précaire (quatre métairies) ; serfs vivants et goule Mara ; trousse d'herboriste ; aucun athanor (ni la magie ni le sang nécessaires pour en bâtir un).",
         "peint",
         "canon/lore/ilka.md, registre-etats-ilka",
         "M.1, M.2, M.3, M.4"
@@ -1670,7 +1949,7 @@
       {
        "cellules": [
         "savoirs-et-secrets",
-        "Connaissance intime de l'herboristerie et des remparts de Rupea ; certitude que Radomir a intercepté Anselm il y a huit ans ; conviction que les lettres d'Anselm sont des avertissements punitifs ; observation des bandes de vivants amaigries par la rapine de Cendrik.",
+        "Connaissance de l'herboristerie et des remparts de Rupea ; certitude que Radomir a intercepté Anselm il y a huit ans ; conviction que les lettres d'Anselm sont des menaces ; observation de la rapine de Cendrik ; savoir du Cercle de la Meute : Bête rang 3 et Fléau rang 2 (Cendres, Malédiction mineure) débloqués par le paiement de Cendrik.",
         "établi",
         "intentions.json:ilka, canon/lore/ilka.md",
         "V.1, V.2"
@@ -1679,7 +1958,7 @@
       {
        "cellules": [
         "engagements-et-temps",
-        "Serment d'allégeance prêté à Vlaicu (Vorace) ; tribut de sang dû chaque fin de saison ; veille nocturne à la salle de Ticușu (0h00-6h40 et 17h21-0h00) ; sommeil diurne dans la crypte du manoir ; hivernage de 30 jours à tenir.",
+        "Allégeance à Vlaicu (Vorace) ; anneau du Cercle de la Meute (maillon du milieu entre Vlaicu et Cendrik, sans athanor) ; tribut de sang dû chaque saison ; veille nocturne à la salle de Ticușu ; sommeil diurne en crypte ; hivernage de 30 jours.",
         "établi",
         "routines.json:ilka, intentions.json:ilka",
         "P.1, P.2"
@@ -1798,6 +2077,14 @@
         "C.3",
         "Si Ilka chasse trop visiblement ou adresse un merci formel créant une dette, Radomir pourrait fermer ses bois"
        ]
+      },
+      {
+       "cellules": [
+        "V.5",
+        "Piège occulte du Cercle de la Meute et dette envers Cendrik",
+        "C.1, C.2",
+        "La seule magie de son sang débloquée (Cendres, Malédiction mineure) a été payée en effroi par Cendrik ; s'en servir équivaudrait à contracter une dette envers son prédateur ; de plus, un sort engagé prend des mois et expose le lanceur sans défense."
+       ]
       }
      ]
     },
@@ -1832,6 +2119,14 @@
         "Conserver et méditer chaque avertissement d'Anselm",
         "V.3 (vers C.4)",
         "Prix : humiliation et angoisse constante ; limite : obéir à la lettre pour prouver une piété filiale absolue"
+       ]
+      },
+      {
+       "cellules": [
+        "K.4",
+        "Recours d'ultime extrémité aux Cendres du sang stryge",
+        "V.1 (vers C.2)",
+        "Prix et limites : Utiliser le sort de son propre sang (Cendres) sans athanor, au prix de mois de préparation, d'une exposition totale et de l'amertume de devoir ce déblocage à Cendrik ; ne recourir aux Cendres que si le bourg même est envahi, sachant que la cendre couche les morts et fait fuir la meute mais est renvoyée par le vent."
        ]
       }
      ]
@@ -1896,6 +2191,21 @@
         "",
         "Guet préventif contre les chants de Cendrik"
        ]
+      },
+      {
+       "cellules": [
+        "P.4",
+        "Veille passive des flux et murmures du Cercle de la Meute",
+        "C.1, C.2",
+        "Séance de veille nocturne en salle de Ticușu",
+        "ilka",
+        "salle-ticusu",
+        "Aucune dépense d'effroi engagée pour la Bête ; maintien de l'isolement magique sans athanor",
+        "a-faire",
+        "an 1, lune 11, jour 15",
+        "",
+        "Surveiller les intentions de Cendrik et de Vlaicu dans l'anneau sans rien céder de son effroi"
+       ]
       }
      ]
     },
@@ -1928,6 +2238,16 @@
         "Garder chaque lettre dans le coffret ferré comme relique et preuve de vigilance.",
         "Si Teodor tombe ou si Rupea est menacée par Odorheiu, se porter au secours du rocher pour revendiquer sa place.",
         "Le coffret de lettres, le silence, la petite couronne noire portée sans faille."
+       ]
+      },
+      {
+       "cellules": [
+        "C.1, C.2 (Magie)",
+        "Position de témoin muet dans l'anneau de la Meute : ne jamais payer d'effroi pour la Bête, laisser Vlaicu chercher seul, refuser de pratiquer la magie payée par Cendrik sauf si Ticușu brûle.",
+        "Un Cercle est une société d'otages. En étant le maillon entre Vlaicu et Cendrik, Ilka retient leurs ambitions mutuelles. Lancer un sort l'exposerait des mois durant, alors qu'elle n'a ni troupes de relevés ni athanor.",
+        "Si Cendrik lance ses Ritualistes contre le manoir, briser son refus et lever les Cendres pour disperser les morts et détacher la terre disputée.",
+        "Si l'anneau se rompt par la chute de Cendrik ou le départ de Vlaicu, préserver le secret de son sang sans chercher à refermer le Cercle avec un étranger.",
+        "Son statut de maillon de l'anneau, l'héritage du Fléau dans ses veines, le refus absolu d'athanor."
        ]
       }
      ]
@@ -1981,6 +2301,16 @@
         "Toma (bailli vivant), Mara (goule messagère), Constantin (fossoyeur)",
         "Vivants mortels ou goules fragiles face à des seigneurs de guerre",
         "Attachement local à la maison de Ticușu"
+       ]
+      },
+      {
+       "cellules": [
+        "M.5",
+        "Place dans l'anneau du Cercle de la Meute",
+        "Reconnue par serment envers Vlaicu et Cendrik",
+        "Maillon intermédiaire sans athanor ; accès aux savoirs débloqués (Fléau rang 2, Bête rang 3)",
+        "Ne peut chercher activement (aucun athanor) ; refuse de lancer les sorts de Bête ; soumise à la volonté de Vlaicu qui impose l'école",
+        "Fondation du Cercle par Vlaicu il y a trente ans ; entrée de Cendrik il y a dix ans"
        ]
       }
      ]
@@ -2081,6 +2411,15 @@
         "Que Teodor étouffe à la citadelle et rêve d'une terre lointaine loin du rocher",
         "canon/lore/teodor.md, canon/lore/ilka.md"
        ]
+      },
+      {
+       "cellules": [
+        "La magie du Cercle de la Meute",
+        "Vlaicu cherche la Meute alpha pour ses chasses ; Cendrik a payé pour le Fléau par curiosité d'érudit ; je refuse de rien devoir à Cendrik ni de mêler mon effroi à leurs bêtes.",
+        "Serment du Cercle et réunions décennales d'effroi",
+        "Que Cendrik a utilisé les Cendres pour vaincre et boire Gontran d'Agnita ; ce que Cendrik apprend en m'écoutant dans l'anneau",
+        "canon/LORE_CERCLES.md, la-magie.md"
+       ]
       }
      ]
     },
@@ -2093,7 +2432,17 @@
       "Ce que je change",
       "Renvois"
      ],
-     "lignes": []
+     "lignes": [
+      {
+       "cellules": [
+        "an 1, lune 11, jour 3",
+        "Arrivée de la magie et intégration des règles du Cercle de la Meute",
+        "Cahier la-magie.md et serment de Cercle",
+        "Correction de l'isolement supposé : Ilka est membre de la Meute (liée à Vlaicu et Cendrik), bénéficie du Fléau rang 2 (Cendres, Malédiction mineure) débloqué par Cendrik mais refuse d'en user par fierté et prudence. Ajout des verrous V.5, clef K.4, action P.4 et moyen M.5.",
+        "V.5, K.4, P.4, M.5, la-magie.md"
+       ]
+      }
+     ]
     }
    ]
   },
@@ -2353,6 +2702,82 @@
       "an 1, lune 11, jour 3",
       "intentions.json:ilka:croyances"
      ]
+    },
+    {
+     "cellules": [
+      "chose:ticusu-absence-athanor",
+      "organisations-et-dispositifs",
+      "L'absence délibérée d'athanor au manoir de Ticușu Vechi : ni fourneau alchimique, ni creuset sous les voûtes.",
+      "ticusu-vechi",
+      "ilka",
+      "Néant matériel : aucun fourneau n'est bâti dans les caves ni la crypte.",
+      "Refus d'installation d'athanor",
+      "Empêche Ilka de mener des recherches actives ou de brûler magie et sang pour le Cercle ; la dispense de sacrifier son maigre sang ; elle ne fait que recevoir le savoir de l'anneau.",
+      "chose:ticusu-manoir-bas, la-magie.md",
+      "Permanent",
+      "peint",
+      "Choix d'installation d'Ilka",
+      "Ilka sait qu'elle n'en a pas ; Vlaicu et Cendrik savent qu'elle ne fournit aucun point de recherche au Cercle.",
+      "an 1, lune 11, jour 3",
+      "canon/LORE_CERCLES.md"
+     ]
+    },
+    {
+     "cellules": [
+      "chose:cercle-anneau-meute",
+      "usages-et-institutions",
+      "L'anneau de serments du Cercle de la Meute, liant Vlaicu, Ilka et Cendrik.",
+      "sud de la région (Hoghiz, Ticușu, Cincu)",
+      "vlaicu (fondateur), ilka, cendrik",
+      "Actif : anneau à trois maillons, deux athanors en fonction (Hoghiz et Cincu), progression de 28 points par an.",
+      "Recherche en cours : la Bête vers le rang 5 (Meute alpha) ; savoirs acquis : Bête rang 3, Fléau rang 2.",
+      "Partage automatique des sorts débloqués entre membres ; société d'otages mutuelle interdisant la rupture sans avertissement.",
+      "la-magie.md, canon/LORE_CERCLES.md",
+      "Prochaine réunion décennale d'effroi dans plusieurs années",
+      "peint",
+      "Serment prêté il y a 30 ans, refermé avec Cendrik il y a 10 ans",
+      "Vlaicu, Ilka et Cendrik connaissent l'anneau ; les autres seigneurs savent que Vlaicu a un Cercle sans en connaître tous les accords.",
+      "an 1, lune 11, jour 3",
+      "canon/LORE_CERCLES.md"
+     ]
+    },
+    {
+     "cellules": [
+      "chose:ticusu-savoir-cendres",
+      "ressources-et-populations",
+      "La maîtrise théorique des Cendres et de la Malédiction mineure, inscrite dans l'esprit d'Ilka par son sang stryge.",
+      "ticusu-vechi",
+      "ilka",
+      "Latente : sort connu et prêt à être préparé, mais jamais incanté.",
+      "Sort de rang 2 du Fléau (la cendre détache la terre, ronge les chairs, couche les morts et fait fuir les bêtes ; renvoyée par le vent).",
+      "Arme occulte défensive d'ultime recours ; exige des heures à des semaines de préparation pendant lesquelles le lanceur est vulnérable.",
+      "la-magie.md, canon/LORE_MAGIES.md",
+      "Demeure en suspens tant qu'Ilka refuse de devoir sa magie à Cendrik",
+      "peint",
+      "Débloqué par le paiement d'effroi de Cendrik il y a une décennie",
+      "Ilka sait qu'elle le possède ; Cendrik sait que l'anneau l'a débloqué ; Vlaicu l'a oublié au profit de sa meute.",
+      "an 1, lune 11, jour 3",
+      "canon/LORE_MAGIES.md"
+     ]
+    },
+    {
+     "cellules": [
+      "chose:ticusu-notes-herbes-ley",
+      "objets-et-documents",
+      "Un cahier de feuillets de chanvre rugueux contenant les observations d'Ilka sur les suintements de magie du sol et les racines de Ticușu.",
+      "salle-ticusu",
+      "ilka",
+      "Cahier usé, encre d'écorce de chêne, rangé dans la trousse d'herboriste.",
+      "Une quinzaine de feuillets griffonnés de notes botaniques et telluriques",
+      "Sert à consigner les variations de sève et la maigreur du sol sous la pression des marches mortes de Cincu ; n'est pas un grimoire alchimique.",
+      "chose:ticusu-trousse-herboriste",
+      "Mis à jour lors des cueillettes nocturnes",
+      "peint",
+      "Pratique continue d'Ilka",
+      "Ilka seule le lit et sait interpréter les signes de la terre.",
+      "an 1, lune 11, jour 3",
+      ""
+     ]
     }
    ]
   }
@@ -2419,73 +2844,73 @@
       {
        "cellules": [
         "fins-et-doctrine",
-        "Identifier et provoquer en duel le Sépulcral aux cendres pour le boire afin de laver l'affront fait à Gontran ; veiller sur Gontran et le fief d'Agnita sans jamais faire défaut ; tenir mon serment sans mot dire.",
+        "Identifier et provoquer en duel le Sépulcral aux cendres pour le boire afin de laver l'affront fait à Gontran ; acquérir le Vent noir pour contrer les cendres ; veiller sur Gontran et le fief d'Agnita sans jamais faire défaut ni exposer mes frères de Cercle ; tenir mon serment sans mot dire.",
         "établi",
-        "personnages.json, intentions.json, canon/lore/konstantin.md",
+        "personnages.json, intentions.json, canon/lore/konstantin.md, la-magie.md",
         "C.1, C.2"
        ]
       },
       {
        "cellules": [
         "personnes-et-relations",
-        "Gontran (père choisi, chef vénéré, bu dans la honte) ; le pensionnaire d'Agnita (héritier soupçonneux qui épie mes visites) ; Anselm de Rupea (père de sang qui m'a jeté dans la neige, détesté) ; Ilka de Ticușu Vechi (sœur de sang inconnue, dont un Sépulcral ronge la terre) ; Iosif le veneur (goule de chasse de Dealu Frumos) ; Bogdan (vieux régisseur serf du manoir).",
+        "Gontran (père choisi, chef vénéré, bu dans la honte, a fondé l'anneau sans y siéger) ; Ronce (sœur d'anneau des Enfants trouvés, Vorace bannie, sans athanor, à préserver du Sang partagé) ; Cassien (frère d'anneau des Enfants trouvés, Voilé sans maître, athanor au nord d'Agnita, a payé la Seconde lecture) ; le pensionnaire d'Agnita (héritier soupçonneux qui épie mes visites) ; Anselm de Rupea (père de sang qui m'a jeté dans la neige, détesté) ; Ilka de Ticușu Vechi (sœur de sang inconnue, dont un Sépulcral ronge la terre) ; Iosif le veneur (goule de chasse de Dealu Frumos) ; Bogdan (vieux régisseur serf du manoir).",
         "peint",
-        "relations.json, canon/lore/konstantin.md, registre-etats-konstantin",
-        "registre:gens-dealu"
+        "relations.json, canon/lore/konstantin.md, la-magie.md, registre-etats-konstantin",
+        "registre:gens-dealu, registre:cercle-enfants-trouves"
        ]
       },
       {
        "cellules": [
         "pouvoir-et-acces",
-        "Seigneurie de Dealu Frumos (manoir fortifié, village, taillis) ; accès libre à la salle et aux terres d'Agnita auprès de Gontran ; accès aux forêts et sentiers de chasse de l'est ; cinq tributs magiques personnels de seigneurs vaincus qui ne remontent à personne.",
+        "Seigneurie de Dealu Frumos (manoir fortifié, village, taillis) ; athanor actif en cave ; accès libre à la salle et aux terres d'Agnita auprès de Gontran ; accès aux forêts et sentiers de chasse de l'est ; cinq tributs magiques personnels de seigneurs vaincus qui ne remontent à personne et alimentent mon athanor.",
         "établi",
-        "lieux.json, canon/lore/konstantin.md",
-        "registre:lieux-dealu"
+        "lieux.json, canon/lore/konstantin.md, la-magie.md",
+        "registre:lieux-dealu, registre:dealu-athanor"
        ]
       },
       {
        "cellules": [
         "moyens-materiels",
-        "Armure de plaques aux reflets écarlates sertie de rubis ternis ; épée bâtarde de duel équilibrée pour les trois passes ; le manoir de pierre grise de Dealu Frumos ; meute de limiers de nuit conduits par Iosif ; monture noire.",
+        "Armure de plaques aux reflets écarlates sertie de rubis ternis ; épée bâtarde de duel équilibrée pour les trois passes ; le manoir de pierre grise de Dealu Frumos ; l'athanor de pierre volcanique et ses creusets ; cahier de recherche sur le vent ; meute de limiers de nuit conduits par Iosif ; monture noire.",
         "peint",
         "canon/lore/konstantin.md, registre-etats-konstantin",
-        "M.1, M.2, M.3"
+        "M.1, M.2, M.3, M.4, M.5"
        ]
       },
       {
        "cellules": [
         "savoirs-et-secrets",
-        "Sait que le vainqueur de Gontran est un Sépulcral maîtrisant la chute de cendres et chassant à l'est ; sait que les tributs de duel ne remontent à aucun ancêtre ; sait qu'une sœur Stryge est installée à Ticușu Vechi ; ignore le nom exact du Sépulcral (Cendrik de Cincu) ; ignore le contenu des lettres de son père Anselm.",
+        "Sait que le vainqueur de Gontran est un Sépulcral maîtrisant la chute de cendres et chassant à l'est ; sait que la cendre ne se pare pas et que seul le vent la renvoie ; sait que l'anneau cherche le Vent noir et qu'il reste trois ans ; sait manier Chaînes de sang, Rage sanguine et Seconde lecture ; refuse de lancer Sang partagé pour ne pas faire payer son Cercle ni son chef ; sait que les tributs de duel ne remontent à aucun ancêtre ; sait qu'une sœur Stryge est installée à Ticușu Vechi ; ignore le nom exact du Sépulcral (Cendrik de Cincu) qui siège dans la Meute avec Ilka ; ignore le contenu des lettres d'Anselm.",
         "établi",
-        "intentions.json, canon/lore/konstantin.md",
-        "V.1, V.2"
+        "intentions.json, canon/lore/konstantin.md, la-magie.md",
+        "V.1, V.2, V.4"
        ]
       },
       {
        "cellules": [
         "engagements-et-temps",
-        "Routine de seigneur loyal (veille nocturne en sa salle de Dealu Frumos de 17h21 à 6h40, sommeil de jour) ; chevauchées régulières vers Agnita pour prendre des nouvelles de Gontran ; battues nocturnes vers l'est.",
+        "Routine de seigneur loyal (veille nocturne en sa salle de Dealu Frumos de 17h21 à 6h40, sommeil de jour) ; entretien régulier du feu de l'athanor ; chevauchées régulières vers Agnita pour prendre des nouvelles de Gontran ; battues nocturnes vers l'est ; décennie de recherche en Cercle (trois ans restants pour la Tempête rang 2).",
         "établi",
-        "routines.json, intentions.json",
-        "P.1, P.2"
+        "routines.json, intentions.json, la-magie.md",
+        "P.1, P.2, P.4"
        ]
       },
       {
        "cellules": [
         "strategie-et-alternatives",
-        "Pister le Sépulcral vers l'est par les traces de cendre et les récits de chasseurs sans éveiller l'attention des Écarlates d'Agnita ; dès son nom ou son repaire confirmé, le provoquer selon les formes du duel et le boire pour rediriger la puissance perdue vers la maison.",
+        "Pister le Sépulcral vers l'est par les traces de cendre et les récits de chasseurs sans éveiller l'attention des Écarlates d'Agnita ; alimenter l'athanor pour maîtriser le Vent noir d'ici trois ans afin d'annihiler la pluie de cendre en duel ; dès son nom ou son repaire confirmé, le provoquer en duel singulier avec Seconde lecture et Vent noir, le lier aux Chaînes de sang et le boire.",
         "établi",
-        "intentions.json, canon/lore/konstantin.md",
-        "K.1, K.2"
+        "intentions.json, canon/lore/konstantin.md, la-magie.md",
+        "K.1, K.2, K.4"
        ]
       },
       {
        "cellules": [
         "zones-a-peindre",
-        "Le manoir de Dealu Frumos, la salle basse et la cour aux chevaux ; la route forestière entre Dealu Frumos et Agnita ; les serviteurs et goules du manoir (Iosif, Bogdan) ; la lettre cachetée de Rupea posée sur la table.",
+        "Le manoir de Dealu Frumos, la cave de l'athanor, la salle basse et la cour aux chevaux ; la route forestière entre Dealu Frumos et Agnita ; les serviteurs et goules du manoir (Iosif, Bogdan) ; la lettre cachetée de Rupea posée sur la table ; le cahier des formules du vent.",
         "peint",
         "registre-etats-konstantin",
-        "registre:lieux-et-passages"
+        "registre:lieux-et-passages, registre:dealu-athanor"
        ]
       }
      ]
@@ -2565,6 +2990,22 @@
         "C.1, C.2",
         "Konstantin ne peut défier publiquement un allié ni agir de façon déloyale envers l'honneur des Écarlates."
        ]
+      },
+      {
+       "cellules": [
+        "V.4",
+        "La pluie de cendre ne se pare pas sans le Vent noir",
+        "C.1",
+        "La cendre passe toute garde ordinaire en duel et ronge la chair ; seul le vent la renvoie à celui qui l'a appelée. Le Vent noir demande encore trois ans de recherche dans l'athanor."
+       ]
+      },
+      {
+       "cellules": [
+        "V.5",
+        "L'interdit moral du Sang partagé",
+        "C.1, C.2",
+        "Bien que débloqué par le Cercle, lancer Sang partagé exposerait Ronce, Cassien et Gontran à payer de leur propre sang pour Konstantin en duel. Refus absolu de s'en servir."
+       ]
       }
      ]
     },
@@ -2598,7 +3039,23 @@
         "K.3",
         "Ouvrir la lettre cachetée d'Anselm",
         "V.1 (vers C.1)",
-        "Prix : briser un siècle de refus, risquer d'apprendre qu'Anselm savait ou veillait ; limite : le sceau de cire noire de Rupea."
+        "Prix : briser un siècle de refus, risquer d'apprendre quAnselm savait ou veillait ; limite : le sceau de cire noire de Rupea."
+       ]
+      },
+      {
+       "cellules": [
+        "K.4",
+        "Aboutissement de la recherche du Vent noir (Tempête rang 2)",
+        "V.4 (vers C.1)",
+        "Prix : payer de son effroi et brûler chaque nuit de la magie et du sang dans l'athanor ; limite : 80 points restants (environ 3 ans), anneau dépendant de la fidélité de Cassien et Ronce."
+       ]
+      },
+      {
+       "cellules": [
+        "K.5",
+        "Combinaison de duel : Seconde lecture et Chaînes de sang",
+        "C.1",
+        "Prix : consomme de la magie en passe d'ouverture ; limite : la Seconde lecture ne voit rien dans le brouillard, et les Chaînes n'empêchent pas la cendre sans le Vent."
        ]
       }
      ]
@@ -2663,6 +3120,21 @@
         "",
         "Objet posé sur la table depuis la blessure de Gontran"
        ]
+      },
+      {
+       "cellules": [
+        "P.4",
+        "Alimentation rituelle de l'athanor et consignation au cahier de Tempête",
+        "K.4",
+        "Magie des tributs disponible à Dealu Frumos",
+        "konstantin",
+        "cave-athanor (Dealu Frumos)",
+        "Braises entretenues, distillation des vapeurs et formule du Vent noir affinée d'une note.",
+        "a-faire",
+        "chaque nuit",
+        "",
+        "Effort continu du Cercle des Enfants trouvés (28 points/an avec Cassien)"
+       ]
       }
      ]
     },
@@ -2680,11 +3152,11 @@
       {
        "cellules": [
         "C.1",
-        "Battue solitaire et silencieuse sous le couvert forestier pour débusquer les traces de cendres.",
-        "Un champion ne lance pas d'armée pour une vendetta personnelle : les trois passes règlent la dette d'honneur sans embraser les domaines.",
-        "Si la piste orientale reste stérile, se renseigner discrètement sur les mouvements des Sépulcraux voisins (Cincu).",
-        "Si Gontran m'ordonne expressément de renoncer ou si son agresseur se révèle être un hôte officiel d'Agnita.",
-        "Sa monture, son épée bâtarde, sa résistance de Stryge, ses 5 tributs magiques accumulés."
+        "Battue silencieuse pour identifier le Sépulcral, tout en menant l'athanor au terme des 3 ans de Vent noir avant le duel final.",
+        "Provoquer sans le Vent noir expose à périr sous les cendres comme Gontran. Avec le Vent noir, la cendre est renvoyée sur l'agresseur.",
+        "Si le nom est découvert avant les 3 ans, surveiller le rival sans le défier ou tenter un duel fondé sur la feinte et la vitesse brute sans sort.",
+        "Si le Sépulcral tente d'attaquer Agnita directement avant les 3 ans : duel immédiat obligatoire au corps à corps.",
+        "Monture, épée bâtarde, Seconde lecture, Chaînes de sang, Rage sanguine, athanor de Dealu Frumos, tributs magiques."
        ]
       },
       {
@@ -2716,7 +3188,7 @@
         "Tributs de duel de cinq seigneurs vaincus",
         "Konstantin en personne",
         "Cinq tributs magiques réguliers ne remontant à aucun ancêtre",
-        "Liés à sa survie et sa puissance personnelle",
+        "Liés à sa survie et sa puissance personnelle ; nourrissent l'athanor",
         "Duels singuliers remportés depuis un demi-siècle"
        ]
       },
@@ -2738,6 +3210,26 @@
         "Épée bâtarde de maître, plates d'acier bruni et velours écarlate serti de gemmes",
         "Lourd à pied en forêt dense où la brume se brise",
         "Forge d'Agnita et butin de duels"
+       ]
+      },
+      {
+       "cellules": [
+        "M.4",
+        "Athanor et laboratoire souterrain de Dealu Frumos",
+        "Cave du manoir de Konstantin",
+        "Un four lent alchimique en pierre volcanique",
+        "Exige combustible magique et sang régulier ; 14 points/an apportés au Cercle",
+        "Aménagé il y a quarante ans sur conseil de Gontran"
+       ]
+      },
+      {
+       "cellules": [
+        "M.5",
+        "Sorts maîtrisés et débloqués du Cercle",
+        "Mémoire et maîtrise de Konstantin",
+        "Chaînes de sang, Rage sanguine, Soif apaisée, Seconde lecture (débloqués Hémomancie 4, Augure 2, Tempête 1)",
+        "Limité par son âge (adulte) et son sang Stryge (ne dépassera jamais rang 4 en Hémomancie)",
+        "Quarante années de recherche au Cercle des Enfants trouvés"
        ]
       }
      ]
@@ -2838,7 +3330,17 @@
       "Ce que je change",
       "Renvois"
      ],
-     "lignes": []
+     "lignes": [
+      {
+       "cellules": [
+        "an 1, lune 11, jour 3",
+        "Prise en compte de la magie de duel et du fonctionnement des Cercles : la cendre ne se pare pas, seul le vent la renvoie ; le Cercle des Enfants trouvés a besoin de 3 ans pour achever le Vent noir.",
+        "la-magie.md, canon/LORE_CERCLES.md, canon/LORE_MAGIES.md",
+        "Correction de la stratégie C.1 : la vengeance ne peut être un simple assaut d'acier précipité ; elle s'articule désormais avec l'échéance des 3 ans de recherche dans l'athanor. Ajout des verrous V.4 (cendre) et V.5 (refus du Sang partagé), de la clef K.4 (Vent noir) et K.5 (duo Seconde lecture / Chaînes), et de l'action récurrente P.4 (athanor).",
+        "C.1, V.4, V.5, K.4, K.5, P.4, M.4, M.5"
+       ]
+      }
+     ]
     }
    ]
   },
@@ -3041,6 +3543,63 @@
       "an 1, lune 11, jour 3",
       "lieux.json:dealu-frumos"
      ]
+    },
+    {
+     "cellules": [
+      "chose:dealu-athanor",
+      "lieux-et-passages",
+      "L'athanor de Dealu Frumos, four d'alchimie nocturne en pierre volcanique et fer forgé, bâti dans une cave voûtée sous le manoir.",
+      "dealu-frumos / cave du manoir",
+      "konstantin",
+      "Actif, rougeoyant à feu couvert, entretenu avec soin lors des veilles.",
+      "Four scellé, creusets de terre réfractaire, alambics de verre sombre",
+      "Four lent où Konstantin brûle sa magie récoltée (issues des tributs de duels) et quelques gouttes de sang pour nourrir la recherche du Cercle des Enfants trouvés.",
+      "chose:dealu-manoir-basalt, chose:cercle-enfants-trouves, chose:dealu-notes-recherche",
+      "Brûle continuellement depuis quarante ans",
+      "peint",
+      "Installé sur les conseils de Gontran lors de la fondation de l'anneau",
+      "Konstantin seul y descend ; Cassien sait qu'il y cherche.",
+      "an 1, lune 11, jour 3",
+      "canon/LORE_CERCLES.md"
+     ]
+    },
+    {
+     "cellules": [
+      "chose:dealu-notes-recherche",
+      "objets-et-documents",
+      "Cahier de vélin épais relié de cuir de loup, posé près de l'athanor, consignant les observations sur le vent, la foudre et la levée des brumes.",
+      "dealu-frumos / cave de l'athanor",
+      "konstantin",
+      "À demi rempli de formules calligraphiées d'une main serrée, schémas de vents et d'arbres.",
+      "Un volume de soixante feuillets manuscrits",
+      "Mémoire de l'avancée vers le Vent noir (Tempête rang 2). Permet de fixer ce que le four révèle.",
+      "chose:dealu-athanor",
+      "Environ trois années de travail restantes pour achever la formule du Vent noir",
+      "peint",
+      "Tenu de la main de Konstantin depuis le début de la décennie",
+      "Konstantin exclusivement.",
+      "an 1, lune 11, jour 3",
+      "canon/LORE_CERCLES.md"
+     ]
+    },
+    {
+     "cellules": [
+      "chose:cercle-enfants-trouves",
+      "organisations-et-dispositifs",
+      "Le Cercle des Enfants trouvés : anneau de serments unissant Konstantin, Ronce et Cassien, fondé par Gontran.",
+      "marches de Dealu Frumos, Agnita et lisière nord",
+      "konstantin, ronce, cassien",
+      "Actif, anneau fermé, recherche orientée sur la Tempête.",
+      "3 membres, 2 athanors (Konstantin et Cassien), progression de 28 points par an",
+      "Partage des connaissances magiques sans mêler les sangs. Ne peut chercher qu'une seule école à la fois.",
+      "chose:dealu-athanor, personnages.json:konstantin",
+      "Fin de la recherche du Vent noir prévue dans environ 3 ans",
+      "peint",
+      "Pacte conclu il y a quarante ans à la table de Gontran",
+      "Konstantin, Ronce, Cassien, et Gontran qui l'a suscité.",
+      "an 1, lune 11, jour 3",
+      "canon/LORE_CERCLES.md"
+     ]
     }
    ]
   }
@@ -3119,72 +3678,72 @@
       {
        "cellules": [
         "fins-et-doctrine",
-        "Inscrire tout l\\'est dans mes registres, ne laisser aucune ligne ouverte, tenir les seigneurs par leurs dettes plutôt que par l\\'effroi, frapper une seule fois par malédiction si un refus menace l\\'édifice.",
+        "Inscrire tout l'est dans mes registres, ne laisser aucune ligne ouverte, tenir les seigneurs par leurs dettes plutôt que par l'effroi. Sacrifier mon effroi décennal à l'Académie pour imposer l'Ombre et débloquer le Visage Emprunté. Frapper par malédiction de mort couverte d'un Voile si un refus menace l'édifice.",
         "établi",
-        "canon/lore/nicodim.md",
+        "canon/lore/nicodim.md, canon/LORE_CERCLES.md §1",
         "personnages.json:nicodim"
        ]
       },
       {
        "cellules": [
         "personnes-et-relations",
-        "Sever (infant et messager fidèle), Ottilia (sire en torpeur sous la chapelle), Teodor (héritier de Rupea, débiteur en gestation), Anselm (le seul refus et la seule ligne ouverte), Radomir (alternative de négociation au sud). Serviteurs locaux : frère Ioan (goule copiste) et le veilleur Mihai.",
+        "Sever (infant et envoyé au Cercle), Ottilia (sire en torpeur sous la chapelle), Teodor (héritier de Rupea, débiteur en gestation), Anselm (le seul refus hors Cercle), Radomir (voisin d'anneau de Gontran et alternative au sud). Frères d'anneau de l'Académie de Sighișoara : Gontran d'Agnita (voisin d'anneau), Ossiane (voisine d'anneau), Malachie (Aîné des Stryges, chef du Cercle), Sulpice (Mediaș). Serviteurs : frère Ioan et frère Paul.",
         "peint",
-        "canon/lore/nicodim.md, lore/characters.json",
+        "canon/lore/nicodim.md, canon/LORE_CERCLES.md §1",
         "relations.json, registre-etats-nicodim"
        ]
       },
       {
        "cellules": [
         "pouvoir-et-acces",
-        "Grande ville d\\'Odorheiu Secuiesc sous autorité incontestée ; magistère moral d\\'arbitre suprême à l\\'est ; réseau étendu de veines fournissant tribut régulier de sang et de magie sans mobiliser de garnison.",
+        "Grande ville d'Odorheiu Secuiesc sous autorité incontestée ; magistère moral d'arbitre suprême à l'est ; membre actif de l'Académie de Sighișoara (6 membres, 80 pts/an) ; réseau étendu de veines et nœud de ley fournissant un flux régulier de magie et de sang.",
         "établi",
-        "canon/lore/nicodim.md",
+        "canon/lore/nicodim.md, canon/LORE_CERCLES.md §1",
         "maisons.json:maison-odorheiu, lieux.json:odorheiu-secuiesc"
        ]
       },
       {
        "cellules": [
         "moyens-materiels",
-        "Le Grand Livre des Veines et Dettes de l\\'Est (registre tenu depuis deux siècles) ; réserves de magie et de sang issues des veines courantes ; la chapelle froide et la crypte scellée d\\'Ottilia.",
+        "Le Grand Livre des Veines et Dettes de l'Est ; l'athanor d'Odorheiu maçonné au-dessus de la crypte scellée d'Ottilia ; réserves de magie (260 mesures) et 12 ampoules de sang condensé du tabernacle ; le nœud de ley froid de la chapelle.",
         "peint",
-        "canon/lore/nicodim.md",
+        "canon/lore/nicodim.md, documents/mains.json, canon/LORE_CERCLES.md §1",
         "registre-etats-nicodim"
        ]
       },
       {
        "cellules": [
         "savoirs-et-secrets",
-        "Sait qu\\'Ottilia a détruit Hedwig il y a 140 ans ; sait que lui-même a détruit Margit par malédiction il y a un siècle ; sait que si Ottilia s\\'éveille, la vendetta des Stryges renaîtra. Ignore pourquoi Rupea a refusé sa veine il y a 100 ans et ignore qu\\'Anselm aime ses enfants.",
+        "Sait qu'Ottilia a détruit Hedwig il y a 140 ans par le Voile de l'Académie ; sait qu'il a détruit Margit par le Voile il y a un siècle ; sait que l'Académie a débloqué la Seconde vue (rang 4) qui percerait son Voile (rang 2) s'il frappait un membre du Cercle ; sait qu'Anselm est hors Cercle et ne possède que la malédiction de mort sans sortilège de vision. Ignore pourquoi Rupea a refusé sa veine il y a 100 ans et ignore qu'Anselm aime ses enfants.",
         "établi",
-        "canon/lore/nicodim.md",
+        "canon/lore/nicodim.md, canon/LORE_CERCLES.md §1",
         "intentions.json:nicodim"
        ]
       },
       {
        "cellules": [
         "engagements-et-temps",
-        "Attente du retour de Sever fixé vers le 15 de la 11e lune (evenements.json:sever-revient) ; échéance de la frappe par malédiction fixée sous 20 jours si la porte s\\'ouvre (plan nicodim-malediction).",
+        "Attente du retour de Sever fixé vers le 15 de la 11e lune (evenements.json:sever-revient) ; échéance de la frappe par malédiction fixée sous 20 jours si la porte s'ouvre (plan nicodim-malediction) ; échéance décennale du sacrifice d'effroi de l'Académie pour imposer l'Ombre ; 7 ans et demi pour la fin de la Prophétie.",
         "établi",
-        "etat/evenements.json, etat/intentions.json",
+        "etat/evenements.json, etat/intentions.json, canon/LORE_CERCLES.md §1",
         "evenements.json:sever-revient"
        ]
       },
       {
        "cellules": [
         "strategie-et-alternatives",
-        "Voie principale : Teodor ouvre la porte contre la promesse du trône, malédiction foudroyante sur Anselm, Teodor hérite chargé d\\'une dette imprescriptible. Voie alternative : si Teodor refuse, sonder Radomir sur la nuit des bois du sud ou exploiter le secret de la Crinière.",
+        "Voie principale : Teodor ouvre la citadelle, malédiction de mort couverte d'un Voile d'Ombre sur Anselm (hors Cercle), Teodor hérite lié par le parricide et la dette. Voie alternative : si Teodor refuse, sonder Radomir (frère d'anneau par Gontran) sur les bois du sud ou faire levier sur le secret d'Anselm bu par lui. Ménager impérativement Gontran et Ossiane pour maintenir l'anneau fermé.",
         "établi",
-        "canon/lore/nicodim.md",
+        "canon/lore/nicodim.md, canon/LORE_CERCLES.md §1",
         "intentions.json:nicodim"
        ]
       },
       {
        "cellules": [
         "zones-a-peindre",
-        "L\\'agencement intérieur du prieuré et de la chapelle froide d\\'Odorheiu, la trappe scellée menant au sarcophage d\\'Ottilia, les goules scripturaires de la maison, l\\'état des réserves de tributs.",
+        "L'athanor et son conduit de fumée froide, les ampoules de sang du tabernacle, les notes de recherche sur l'Ombre, le nœud de ley de la chapelle, les protocoles de serment avec Gontran et Ossiane.",
         "peint",
-        "Invention déclarée cohérente avec le lore",
+        "Invention déclarée cohérente avec le lore de la magie",
         "registre-etats-nicodim"
        ]
       }
@@ -3257,31 +3816,39 @@
         "V.1",
         "Refus persistant ou hésitation de Teodor à ouvrir la porte",
         "C.1, C.2",
-        "Sever revient sans promesse ferme ou rapporte le refus de l\\'héritier"
+        "Sever revient sans promesse ferme ou rapporte le refus de l'héritier"
        ]
       },
       {
        "cellules": [
         "V.2",
-        "Défense magique et physique d\\'Anselm et de la citadelle",
+        "Défense magique d'Anselm et coût exorbitant de la malédiction de mort",
         "C.1",
-        "Une malédiction lancée sans faille ni porte ouverte dissiperait inutilement du sang et de la magie sans terrasser le Stryge"
+        "Une malédiction de mort exige que l'attaque vaille toute la défense accumulée d'Anselm (magie et sang engagés absorbés). Si l'attaque ne vaut pas la défense, Nicodim perd tout ce qu'il a engagé et s'expose sans réserve."
        ]
       },
       {
        "cellules": [
         "V.3",
-        "Réveil imprévu d\\'Ottilia avant le règlement de Rupea",
+        "Réveil imprévu d'Ottilia ou convoitise d'Ossiane sur la crypte",
         "C.3, C.4",
-        "Ottilia émerge chargée de magie et réclame la restitution immédiate de son siège ou ranime la guerre des Stryges"
+        "Ottilia émerge chargée de magie amassée ou un frère de Cercle (Ossiane) tente de pénétrer la crypte ; l'anneau se déstabilise."
        ]
       },
       {
        "cellules": [
         "V.4",
-        "Révélation publique de la malédiction de Margit",
+        "Détection par la Seconde vue au sein du Cercle",
         "C.4",
-        "Si Anselm ou les seigneurs de l\\'est découvrent qui a frappé Margit, la ligue des débiteurs se retourne contre l\\'arbitre"
+        "L'Académie a débloqué la Seconde vue (Augure rang 4). Tout coup porté contre un membre du Cercle percerait le Voile (Ombre rang 2). Frapper hors Cercle (Anselm) est impératif tant que le Visage Emprunté n'est pas trouvé."
+       ]
+      },
+      {
+       "cellules": [
+        "V.5",
+        "Rupture de l'anneau de l'Académie si un maillon tombe",
+        "C.4",
+        "Si Gontran ou Ossiane est détruit ou s'endort, l'anneau s'ouvre ; toute la recherche (80 pts/an) s'arrête net jusqu'à serment direct entre les deux voisins restants."
        ]
       }
      ]
@@ -3298,17 +3865,17 @@
       {
        "cellules": [
         "K.1",
-        "Pression et promesses de Sever sur l\\'héritier pensionnaire",
+        "Pression et promesses de Sever sur l'héritier pensionnaire",
         "V.1 (vers C.1)",
-        "Prix : promesse d\\'appui à Teodor ; limite : Teodor est craintif et surveillé par les goules"
+        "Prix : promesse d'appui à Teodor ; limite : Teodor est craintif et surveillé par les goules"
        ]
       },
       {
        "cellules": [
         "K.2",
-        "Frappe par malédiction ciblée lors de la nuit fixée",
-        "V.2 (vers C.1)",
-        "Prix : engagement massif de magie et de sang amassés dans les veines ; limite : exige que la porte soit ouverte pour porter"
+        "Malédiction de mort couverte par le Voile de l'Académie",
+        "V.2, V.4 (vers C.1)",
+        "Prix : engagement massif de magie (mange la plus grande part des 260 mesures d'Odorheiu) et d'ampoules de sang condensé du tabernacle ; préparation de plusieurs semaines à découvert. Limite : le Voile (Ombre rang 2) protège contre les profanes comme Anselm mais pas contre la Seconde vue d'un devin de rang 4."
        ]
       },
       {
@@ -3316,7 +3883,15 @@
         "K.3",
         "Pression diplomatique par Radomir et les bois du sud",
         "V.1 (vers C.1)",
-        "Prix : partager l\\'influence avec le Vorace ou lui céder du terrain ; limite : Radomir répugne à détruire"
+        "Prix : partager l'influence avec le Vorace ou lui céder du terrain ; limite : Radomir répugne à détruire et protège son propre arrangement secret avec Anselm."
+       ]
+      },
+      {
+       "cellules": [
+        "K.4",
+        "Sacrifice décennal d'effroi à l'athanor pour imposer l'Ombre",
+        "V.4 (vers C.4)",
+        "Prix : tout l'effroi amassé par Nicodim sacrifié au conclave décennal de l'Académie pour surclasser l'Augure de Malachie ; limite : Malachie dispose d'un effroi immense et oriente le Cercle depuis deux siècles."
        ]
       }
      ]
@@ -3325,7 +3900,7 @@
      "titre": "⚔️ Actions",
      "colonnes": [
       "N°",
-      "L\\'action",
+      "L'action",
       "Réalise",
       "Dépend de",
       "Qui",
@@ -3340,7 +3915,7 @@
       {
        "cellules": [
         "P.1",
-        "Attendre le rapport de Sever sur l\\'entrevue avec Teodor",
+        "Attendre le rapport de Sever sur l'entrevue avec Teodor",
         "C.1",
         "Retour de Sever depuis Rupea",
         "nicodim",
@@ -3355,27 +3930,27 @@
       {
        "cellules": [
         "P.2",
-        "Rassembler la magie et le sang pour la malédiction",
+        "Rassembler la magie et le sang pour la malédiction sous Voile",
         "C.1, C.2",
-        "Réserves des veines d\\'Odorheiu",
+        "Réserves des mains d'Odorheiu (260 mesures, 12 ampoules)",
         "nicodim",
         "chapelle-odorheiu",
-        "Fluides préparés dans les ampoules rituelles de la chapelle",
+        "Fluides préparés dans les ampoules rituelles du tabernacle et formule du Voile liée",
         "a-faire",
         "an 1, lune 11, jour 20",
         "",
-        "Préparation du coup décisif"
+        "Préparation occulte du coup décisif"
        ]
       },
       {
        "cellules": [
         "P.3",
-        "Frapper Anselm par malédiction la nuit convenue",
+        "Frapper Anselm par malédiction couverte du Voile la nuit convenue",
         "C.1, C.2",
-        "P.1, P.2 et porte ouverte par Teodor",
+        "P.1, P.2 et brèche ouverte par Teodor",
         "nicodim",
         "chapelle-odorheiu",
-        "Anselm détruit ; Teodor prend la succession",
+        "Anselm détruit sans signature visible ; Teodor prend la succession",
         "a-faire",
         "an 1, lune 11, jour 23",
         "",
@@ -3396,6 +3971,21 @@
         "",
         "Déclencheur inscrit dans intentions.json"
        ]
+      },
+      {
+       "cellules": [
+        "P.5",
+        "Entretenir l'athanor d'Odorheiu et consigner les avancées de l'Académie",
+        "C.4",
+        "Veille nocturne et alimentation en magie du nœud",
+        "nicodim",
+        "odorheiu-secuiesc",
+        "Foyer maintenu, notes de recherche à jour vers l'Ombre",
+        "a-faire",
+        "permanent",
+        "",
+        "Contribution annuelle de 20 points (sur 80) au Cercle de Malachie"
+       ]
       }
      ]
     },
@@ -3413,21 +4003,21 @@
       {
        "cellules": [
         "C.1, C.2",
-        "La voie de l\\'héritier : négocier l\\'ouverture de la citadelle avec Teodor via Sever, puis abattre Anselm d\\'une seule malédiction sans livrer bataille.",
-        "On ne prend pas Rupea par les armes. Un héritier complice devient un débiteur éternel, lié par le parricide et la dette.",
+        "La voie de l'héritier : négocier l'ouverture de la citadelle avec Teodor via Sever, puis abattre Anselm d'une malédiction de mort couverte du Voile sans livrer bataille.",
+        "On ne prend pas Rupea par les armes. Anselm est hors Cercle et ne possède aucun sort d'Augure ; le Voile de l'Académie masque l'origine du coup. Teodor complice devient un débiteur éternel.",
         "Sonder Radomir sur la nuit des bois du sud ou faire levier sur le secret de la Crinière (Radomir ayant bu Anselm).",
-        "Sever rapporte que Teodor refuse tout net d\\'ouvrir la porte.",
-        "Sever comme négociateur, le réseau de sang et de magie d\\'Odorheiu pour alimenter le sort."
+        "Sever rapporte que Teodor refuse tout net d'ouvrir la porte.",
+        "Sever comme négociateur, les réserves de magie (260 mesures) et les ampoules de sang d'Odorheiu, le sort de Voile."
        ]
       },
       {
        "cellules": [
         "C.3, C.4",
-        "Le Masque de l\\'Ascète : demeurer dans la chapelle froide, rendre des arbitrages équitables, ne rien réclamer immédiatement pour que la dette gonfle.",
-        "La réputation de justice désintéressée est le bouclier absolu qui empêche les voisins de s\\'unir contre Odorheiu.",
-        "Révéler la puissance nue en cas de sédition ouverte.",
-        "Un vassal ou un voisin met en cause l\\'arbitrage ou découvre le sortilège de Margit.",
-        "Le prestige personnel de Nicodim, les registres de dettes, le silence rigoureux sur le passé."
+        "Le Masque de l'Ascète et la discipline du Cercle : demeurer dans la chapelle froide, rendre des arbitrages équitables, ne frapper aucun frère d'anneau sous peine de percer le Voile face à la Seconde vue.",
+        "La réputation de justice est le bouclier contre les coalitions ; le respect de l'anneau protège l'Académie et garantit la progression vers le Visage Emprunté.",
+        "Révéler la puissance nue en cas de sédition ouverte ou rompre l'anneau si un frère trahit.",
+        "Un voisin découvre le sortilège de Margit ou un membre du Cercle tente d'entrer dans la crypte.",
+        "Le prestige personnel de Nicodim, le Grand Livre, le secret du Voile, l'athanor d'Odorheiu."
        ]
       }
      ]
@@ -3446,31 +4036,41 @@
       {
        "cellules": [
         "M.1",
-        "Réseau de veines de l\\'Est",
-        "Contrats et flux annuels",
-        "Alimente régulièrement Odorheiu en sang et magie de plusieurs domaines",
+        "Réseau de veines de l'Est et nœud de ley",
+        "Contrats de veines et source tellurique sous la chapelle",
+        "Alimente régulièrement Odorheiu : 260 mesures de magie en réserve (+3/jour)",
         "Ne donne aucune troupe territoriale propre sous ses ordres directs",
-        "canon/lore/nicodim.md §III"
+        "canon/lore/nicodim.md §III, documents/mains.json"
        ]
       },
       {
        "cellules": [
         "M.2",
-        "Maîtrise de la malédiction à distance",
-        "Art ésotérique voilé",
-        "Portée sur tout le pays si la cible a une brèche ou si l\\'offrande égale la défense",
-        "Coûteux en sang et magie accumulés ; expose si les réserves sont vidées",
-        "canon/lore/nicodim.md §IV"
+        "Maîtrise de la malédiction de mort et sort de Voile",
+        "Art occulte du sang et Ombre rang 2 débloqué à l'Académie",
+        "Portée sur tout le pays ; le Voile laisse le coup sans auteur",
+        "Coûteux : consomme la quasi-totalité des 260 mesures de magie et des 12 ampoules de sang ; vulnérable à la Seconde vue (rang 4)",
+        "canon/LORE_MAGIES.md, canon/LORE_CERCLES.md §1"
        ]
       },
       {
        "cellules": [
         "M.3",
-        "Sever, infant et diplomate",
+        "Sever, infant, diplomate et observateur du Cercle",
         "Fils de sang obéissant",
-        "Un seigneur voilé mobile, courtois et persuasif",
-        "Ne peut forcer Teodor s\\'il refuse de sa propre volonté",
-        "personnages.json:sever"
+        "Un seigneur voilé mobile ; assiste aux conclaves de l'Académie et sait ce que chaque Cercle trouve",
+        "Ne peut forcer Teodor s'il refuse de sa propre volonté",
+        "personnages.json:sever, canon/LORE_CERCLES.md §Ceux qui ne sont dans aucun Cercle"
+       ]
+      },
+      {
+       "cellules": [
+        "M.4",
+        "L'athanor d'Odorheiu",
+        "Four d'alchimie lente maçonné au-dessus de la crypte",
+        "Fournit 20 points de recherche par an à l'Académie (anneau à 80 pts/an)",
+        "Recherche collective contrainte par le sacrifice décennal d'effroi (actuellement vers l'Augure)",
+        "canon/LORE_CERCLES.md §1, registre-etats-nicodim"
        ]
       }
      ]
@@ -3557,19 +4157,28 @@
       {
        "cellules": [
         "La menace des Stryges",
-        "Tant qu\\'Ottilia dort, les infants d\\'Hedwig ne peuvent rien contre Odorheiu.",
+        "Tant qu'Ottilia dort, les infants d'Hedwig ne peuvent rien contre Odorheiu.",
         "Mémoire des cent trente dernières années",
-        "Si Rupea tombe, la rancune des Stryges survivants (Konstantin, Ilka) remontera vers Odorheiu si le lien est découvert.",
-        "canon/lore/nicodim.md §VI"
+        "Si Rupea tombe, la rancune des Stryges survivants (Konstantin, Ilka) remontera vers Odorheiu si le lien est découvert ; de plus Ossiane cherche à boire Ottilia dans sa crypte.",
+        "canon/lore/nicodim.md §VI, canon/LORE_CERCLES.md §1"
        ]
       },
       {
        "cellules": [
         "Le duel de Radomir",
-        "Radomir détient un ascendant sur Anselm car il l\\'a bu il y a huit ans.",
+        "Radomir détient un ascendant sur Anselm car il l'a bu il y a huit ans.",
         "Fait public connu de toute la contrée",
-        "La nature exacte de l\\'arrangement secret entre Radomir et Anselm.",
+        "La nature exacte de l'arrangement secret entre Radomir et Anselm.",
         "canon/lore/radomir.md, lore/anselm.md"
+       ]
+      },
+      {
+       "cellules": [
+        "La Seconde vue et l'Ombre",
+        "Mon Voile me protège de toute détection profane, y compris d'Anselm qui ne possède aucun sortilège d'Augure.",
+        "canon/LORE_MAGIES.md, canon/LORE_CERCLES.md",
+        "La Seconde vue débloquée au rang 4 par l'Académie perce le Voile (rang 2) si un frère de Cercle est frappé ; seul le Visage Emprunté (Ombre rang 5) donnerait l'impunité totale.",
+        "canon/LORE_CERCLES.md §1"
        ]
       }
      ]
@@ -3583,7 +4192,17 @@
       "Ce que je change",
       "Renvois"
      ],
-     "lignes": []
+     "lignes": [
+      {
+       "cellules": [
+        "an 1, lune 11, jour 3",
+        "Arrivée des lois de la magie et structure de l'Académie de Sighișoara",
+        "canon/LORE_CERCLES.md, canon/LORE_MAGIES.md, la-magie.md",
+        "Intégration de l'anneau (6 membres, 80 pts/an, lié à Gontran et Ossiane). Correction de la doctrine de frappe : interdiction formelle de viser un membre du Cercle à cause de la Seconde vue (rang 4) qui percerait le Voile (rang 2). Confortation du coup contre Anselm qui est hors Cercle et aveugle à l'Augure. Ajout de l'entretien de l'athanor (P.5) et du verrou d'intégrité de l'anneau (V.5). Prise en compte du coût réel de la malédiction de mort dans les mains d'Odorheiu (260 mesures de magie, 12 ampoules de sang).",
+        "V.2, V.4, V.5, K.2, K.4, P.2, P.3, P.5, M.1, M.2, M.4, registre-etats-nicodim"
+       ]
+      }
+     ]
     }
    ]
   },
@@ -3786,6 +4405,82 @@
       "an 1, lune 11, jour 3",
       "evenements.json:sever-revient"
      ]
+    },
+    {
+     "cellules": [
+      "chose:odorheiu-athanor-nicodim",
+      "lieux-et-passages",
+      "L'athanor d'Odorheiu, four d'alchimie lente en pierre noire doublé de briques réfractaires et de plaques de plomb, aménagé derrière la chapelle au-dessus de la crypte scellée d'Ottilia.",
+      "odorheiu-secuiesc",
+      "nicodim",
+      "Foyer actif à combustion lente et froide, suie grasse et résidus métalliques.",
+      "Un athanor maçonné, creusets de plomb, cornues et récipients de décantation",
+      "Four lent où Nicodim brûle de la magie récoltée, un peu de sang et l'effroi sacrificiel de chaque décennie pour faire progresser la recherche de l'Académie de Sighișoara.",
+      "chose:odorheiu-chapelle-froide, chose:odorheiu-crypte-ottilia, chose:academie-sighisoara",
+      "Alimenté de façon continue lors des veilles nocturnes",
+      "peint",
+      "canon/LORE_CERCLES.md §1",
+      "Nicodim seul y opère ; Sever en connaît l'existence et y a accès sur ordre ; les membres de l'Académie savent qu'il dispose d'un athanor en état de marche.",
+      "an 1, lune 11, jour 3",
+      "canon/LORE_CERCLES.md"
+     ]
+    },
+    {
+     "cellules": [
+      "chose:odorheiu-noeud-ley-chapelle",
+      "lieux-et-passages",
+      "La résurgence du nœud de ley froid sous les fondations de la chapelle et de la crypte d'Odorheiu, faille tellurique d'où sourd continuellement de la magie morte.",
+      "odorheiu-secuiesc",
+      "nicodim",
+      "Actif, glacé, régulier, imprègne les dalles de la nef et alimente la récolte nocturne.",
+      "1 nœud de ley de puissance moyenne",
+      "Assure le flux de magie territoriale de base d'Odorheiu et fournit le carburant des rituels et de l'athanor.",
+      "chose:odorheiu-chapelle-froide, documents/mains.json:magie-d-odorheiu",
+      "Permanent",
+      "peint",
+      "canon/LORE_MAGIES.md §Ce que tout infant apprend",
+      "Nicodim et Sever en perçoivent le froid et le murmure ; les devins de passage sentent la ley sous leurs pieds.",
+      "an 1, lune 11, jour 3",
+      "canon/LORE_MAGIES.md"
+     ]
+    },
+    {
+     "cellules": [
+      "chose:odorheiu-notes-recherche-ombre",
+      "objets-et-documents",
+      "Cahier de parchemin sombre relié de fer et de soie noire, conservé dans un coffret de plomb près de l'athanor, portant les équations occultes, observations et calculs pour débloquer le Visage Emprunté (Ombre rang 5).",
+      "odorheiu-secuiesc",
+      "nicodim",
+      "Rempli d'une écriture voilée, schémas de masques d'illusion et de dissipation de la Seconde vue.",
+      "Un volume secret de cent feuillets",
+      "Fixe les travaux de Nicodim sur l'école de l'Ombre et ses estimations du coût en effroi face aux choix de Malachie.",
+      "chose:odorheiu-athanor-nicodim, chose:academie-sighisoara",
+      "Nécessite encore environ 1 000 points d'avancée de Cercle pour aboutir",
+      "peint",
+      "canon/LORE_CERCLES.md §1",
+      "Nicodim exclusivement.",
+      "an 1, lune 11, jour 3",
+      "canon/LORE_CERCLES.md"
+     ]
+    },
+    {
+     "cellules": [
+      "chose:academie-sighisoara",
+      "organisations-et-dispositifs",
+      "L'Académie de Sighișoara : anneau de serments unissant six seigneurs (Malachie, Sulpice, Radomir, Gontran, Nicodim, Ossiane) en chaîne fermée, fondé par Malachie il y a deux siècles.",
+      "terre-des-cinq",
+      "malachie",
+      "Actif, 6 membres, 4 athanors en activité, progression de 80 points par an. Recherche orientée sur l'Augure (rang 7, vers la Prophétie rang 8).",
+      "Anneau fermé : Nicodim est lié à Gontran d'Agnita et à Ossiane ; chaque membre n'a de serment qu'avec ses deux voisins.",
+      "Partage universel des sorts débloqués au sein de l'anneau. Interdiction tacite de frapper un frère d'anneau sous peine de détection par la Seconde vue.",
+      "chose:odorheiu-athanor-nicodim, personnages.json:nicodim",
+      "Aboutissement de la Prophétie estimé à environ sept ans et demi (manque 600 points)",
+      "établi",
+      "canon/LORE_CERCLES.md §1",
+      "Tous les membres du Cercle ; Sever qui y assiste pour Nicodim ; les autres Cercles connaissent sa renommée.",
+      "an 1, lune 11, jour 3",
+      "canon/LORE_CERCLES.md"
+     ]
     }
    ]
   }
@@ -3852,70 +4547,70 @@
       {
        "cellules": [
         "fins-et-doctrine",
-        "Se maîtriser jusqu'au bout face à la Bête intérieure ; que les bois de Comăna restent pleins de vivants sans saignée excessive ; préserver la terreur du Masque sans jamais détruire personne.",
+        "Se maîtriser jusqu'au bout face à la Bête intérieure ; que les bois de Comăna restent pleins de vivants sans saignée excessive ; préserver la terreur du Masque sans jamais détruire personne ; contenir la faim grâce au sort Soif apaisée sans jamais réclamer ni payer pour la magie de la Bête.",
         "établi",
-        "personnages.json, canon/lore/radomir.md",
+        "personnages.json, canon/lore/radomir.md, la-magie.md",
         "C.1, C.2, C.3"
        ]
       },
       {
        "cellules": [
         "personnes-et-relations",
-        "Vlaicu mon sire et chef (Vorace méprisant la retenue, exigeant la sauvagerie) ; Anselm mon bu à Rupea (respect tacite, je sais qu'il s'est laissé battre pour Ilka) ; Ilka à Ticușu Vechi (protégée secrète, autorisée à chasser à l'insu des goules) ; Cendrik à Cincu (Sépulcral calculateur cherchant à tester la lisière) ; Nicodim à Odorheiu (qui voudrait percer le secret de Rupea) ; Barbu ma goule de lisière et Dobre mon vieux serf veneur.",
+        "Vlaicu mon sire et chef (Vorace de la Meute cherchant la Bête) ; Anselm mon bu à Rupea (respect tacite, tribut magique nocturne) ; Ilka à Ticușu Vechi (protégée secrète) ; Cendrik à Cincu (Sépulcral aux Cendres) ; Nicodim à Odorheiu (co-membre de l'Académie, obstiné pour l'Ombre) ; mes deux voisins d'anneau à l'Académie de Sighișoara : Sulpice de Mediaș (Sépulcral) et Gontran d'Agnita (Écarlate) ; Malachie l'Aîné des Stryges qui préside le Cercle ; Ossiane (Stryge qui jeûne) ; Barbu ma goule et Dobre mon vieux veneur.",
         "établi",
-        "relations.json, canon/lore/radomir.md, registre-etats-radomir",
-        "registre:gens-comana"
+        "relations.json, canon/lore/radomir.md, la-magie.md, registre-etats-radomir",
+        "registre:gens-comana, registre:comana-lien-cercle-sighisoara"
        ]
       },
       {
        "cellules": [
         "pouvoir-et-acces",
-        "Maître souverain de Comăna de Jos, du logis fortifié et des grands massifs forestiers du sud ; libre passage sous le couvert des forêts vivantes où la brume ne porte plus ; surveillance des sentiers et de la lisière de Ticușu Vechi.",
+        "Maître souverain de Comăna de Jos et des grands massifs forestiers ; libre passage sous le couvert des forêts vivantes où la brume ne porte plus ; membre de l'Académie de Sighișoara (sans athanor, recevant le savoir partagé : Augure 7, Fléau 4, Nécromancie 3, Ombre 2, Hémomancie 1).",
         "établi",
-        "lieux.json:comana-de-jos, routines.json",
-        "registre:lieux-comana"
+        "lieux.json:comana-de-jos, routines.json, la-magie.md",
+        "registre:lieux-comana, registre:comana-lien-cercle-sighisoara"
        ]
       },
       {
        "cellules": [
         "moyens-materiels",
-        "Réserves forestières giboyeuses et vivants nombreux des villages ; troupe de goules silencieuses et serfs bûcherons ; os blanchis d'ours et de loups amassés pour la lisière ; tribut magique reçu chaque nuit d'Anselm.",
+        "Réserves forestières giboyeuses et vivants des villages ; troupe de goules et serfs bûcherons ; os blanchis d'ours et de loups ; tribut magique reçu chaque nuit d'Anselm ; suintements de ley des combes de Comăna ; formules de 'Soif apaisée', 'Lire le sang' et 'Prémonition' débloquées par l'Académie.",
         "peint",
-        "canon/lore/radomir.md, registre-etats-radomir",
-        "M.1, M.2, M.3"
+        "canon/lore/radomir.md, registre-etats-radomir, la-magie.md",
+        "M.1, M.2, M.3, M.5"
        ]
       },
       {
        "cellules": [
         "savoirs-et-secrets",
-        "Sait qu'Anselm s'est laissé vaincre et boire pour sauver Ilka ; sait que la réputation de bête sanguinaire protège ses vivants ; ignore que Cendrik a fait examiner les os et soupçonne un faux mur ; ignore les convoitises de Nicodim sur ce duel.",
+        "Sait qu'Anselm s'est laissé vaincre pour sauver Ilka ; sait que la Bête intérieure se nourrit de chaque sort de Bête (refus absolu de payer pour cette école) ; connaît les sorts débloqués par l'Académie ; sait que la Seconde vue perce les voiles et que la cendre brûle sans parade ; ignore que Cendrik a fait examiner les os ; ignore ce que cache Nicodim derrière son obstination pour l'Ombre.",
         "établi",
-        "intentions.json, canon/lore/radomir.md",
-        "V.1, V.2"
+        "intentions.json, canon/lore/radomir.md, la-magie.md",
+        "V.1, V.2, V.5"
        ]
       },
       {
        "cellules": [
         "engagements-et-temps",
-        "Routine stricte : nuit sur la lisière et les clairières (0h-6h40 et 17h35-0h00) ; sommeil de jour dans la tanière de Comăna (6h40-17h35) ; boisson à heure fixe au crépuscule pour dompter la faim.",
+        "Routine stricte : nuit sur la lisière et les clairières (0h-6h40 et 17h35-0h00) ; sommeil de jour dans la tanière de Comăna (6h40-17h35) ; boisson à heure fixe au crépuscule apaisée par sort ; serment d'anneau de l'Académie (rencontre décennale d'effroi, ménagement de Sulpice et Gontran).",
         "établi",
-        "routines.json:radomir",
-        "P.1, P.2"
+        "routines.json:radomir, la-magie.md",
+        "P.1, P.2, P.4"
        ]
       },
       {
        "cellules": [
         "strategie-et-alternatives",
-        "Terroriser sans tuer : frapper la terre, faire courir les pires rumeurs, semer des charognes de bêtes sauvages pour décourager les intrus ; laisser Ilka chasser sans la voir ; si un Ritualiste approche de Ticușu, se montrer en bête pour le faire fuir sans combat.",
+        "Terroriser sans tuer : frapper la terre, faire courir les rumeurs, semer des charognes ; dompter la faim par 'Soif apaisée' ; laisser Ilka chasser ; surveiller les sorts d'arpentage et de cendre de Cendrik ; si un Ritualiste approche, se montrer en bête pour le chasser sans duel ; maintenir la paix d'anneau avec Sulpice et Gontran sans jamais éveiller la curiosité du Cercle.",
         "établi",
-        "intentions.json, canon/lore/radomir.md",
-        "K.1, K.2"
+        "intentions.json, canon/lore/radomir.md, la-magie.md",
+        "K.1, K.2, K.4"
        ]
       },
       {
        "cellules": [
         "zones-a-peindre",
-        "Le domaine de Comăna de Jos, le logis de pierre grise (tanière), l'étang et le moulin, les goules de bois (Barbu), les dépôts d'ossements et la lisière bordant Ticușu Vechi.",
+        "Le domaine de Comăna de Jos, la tanière sans athanor, les combes à ley, les notes de 'Soif apaisée', les goules de bois (Barbu), les dépôts d'ossements et la lisière bordant Ticușu Vechi.",
         "peint",
         "registre-etats-radomir",
         "registre:lieux-et-passages"
@@ -4016,6 +4711,22 @@
         "C.1",
         "Chaque grondement, chaque mise en scène féroce réveille la bête qui menace de briser la volonté de l'ascète"
        ]
+      },
+      {
+       "cellules": [
+        "V.5",
+        "Péril magique de la Cendre et des sorts de champ de Cendrik",
+        "C.1, C.3",
+        "Cendrik a débloqué les Cendres dans son Cercle de la Meute ; la cendre ne se pare pas et couche les bêtes ; si un affrontement éclate, la terreur physique ne suffira pas"
+       ]
+      },
+      {
+       "cellules": [
+        "V.6",
+        "Fragilité de l'anneau de l'Académie de Sighișoara",
+        "C.1",
+        "L'anneau repose sur six membres ; si Nicodim ou un autre maillon tombe, la recherche s'arrête et la protection mutuelle d'otages s'effondre"
+       ]
       }
      ]
     },
@@ -4050,6 +4761,14 @@
         "Patience ascétique et isolement dans la tanière de Comăna",
         "V.4 (vers C.1)",
         "Prix : solitude austère, rejet des festivités de cour voraces ; limite : isole diplomatiquement Comăna du reste des seigneurs"
+       ]
+      },
+      {
+       "cellules": [
+        "K.4",
+        "Usage strict des sorts de retenue ('Soif apaisée' et 'Prémonition')",
+        "V.4, V.5 (vers C.1, C.3)",
+        "Prix : engagement de magie et vigilance constante ; limite : Soif apaisée ne peut se lancer souvent ; Prémonition alerte du sort mais sans nommer l'auteur"
        ]
       }
      ]
@@ -4113,6 +4832,21 @@
         "an 1, lune 11, jour 20",
         "",
         "Déclencheur d'intentions.json"
+       ]
+      },
+      {
+       "cellules": [
+        "P.4",
+        "Maintien de la veille et du serment d'anneau avec Sulpice et Gontran",
+        "C.1, C.3",
+        "Lien de Cercle de l'Académie de Sighișoara",
+        "radomir",
+        "comana-de-jos",
+        "Silence gardé sur ses affaires, absence de rupture d'anneau, veille sur les messagers de Mediaș et Agnita",
+        "a-faire",
+        "an 1, lune 12, jour 1",
+        "",
+        "Devoir de voisin d'anneau"
        ]
       }
      ]
@@ -4200,6 +4934,16 @@
         "Sensibles aux hivers rudes et à la terreur si la Bête déborde",
         "Communauté protégée depuis plus d'un siècle"
        ]
+      },
+      {
+       "cellules": [
+        "M.5",
+        "Savoirs magiques de l'Académie de Sighișoara",
+        "Cercle de serments",
+        "Accès aux sorts débloqués par l'anneau : 'Soif apaisée' (Hémomancie 1), 'Lire le sang' (Augure 1), 'Prémonition' (Augure 2)",
+        "Ne lance aucun sort au-delà de son rang sans affinité ; refus absolu d'utiliser la magie de la Bête",
+        "Entrée dans l'Académie il y a 60 ans, sacrifice d'effroi il y a 50 ans"
+       ]
       }
      ]
     },
@@ -4238,6 +4982,18 @@
         "indéterminée",
         "ouvert",
         "Garder le silence absolu sur le duel d'il y a huit ans"
+       ]
+      },
+      {
+       "cellules": [
+        "Raison de l'obstination de Nicodim pour l'école de l'Ombre au Cercle",
+        "savoirs-et-secrets",
+        "V.6",
+        "Veille discrète lors des assemblées décennales ou messages de Gontran",
+        "radomir",
+        "indéterminée",
+        "ouvert",
+        "Ignoré pour l'heure ; maintenir le serment d'anneau sans poser de question"
        ]
       }
      ]
@@ -4278,6 +5034,15 @@
         "Si la torpeur permettrait d'apaiser la bête sans détruire son domaine",
         "canon/lore/radomir.md"
        ]
+      },
+      {
+       "cellules": [
+        "L'anneau de l'Académie",
+        "Un Cercle est une société d'otages : tant que les six veillent, la recherche avance et personne ne frappe Malachie ni ses voisins sans priver tout le monde.",
+        "la-magie.md, canon/LORE_CERCLES.md",
+        "Ce que l'Académie fera si Nicodim ou un maillon tombe ; ce que Sulpice creuse sous Mediaș",
+        "canon/LORE_CERCLES.md"
+       ]
       }
      ]
     },
@@ -4290,7 +5055,17 @@
       "Ce que je change",
       "Renvois"
      ],
-     "lignes": []
+     "lignes": [
+      {
+       "cellules": [
+        "an 1, lune 11, jour 3",
+        "Intégration de la magie : Cercle de Sighișoara, maîtrise de Soif apaisée, refus de payer pour la Bête",
+        "la-magie.md, canon/LORE_CERCLES.md, LORE_MAGIES.md",
+        "Clarification que la discipline d'ascète repose sur Soif apaisée achetée il y a 50 ans ; ajout des verrous V.5 (Cendres de Cendrik) et V.6 (fragilité de l'anneau), clef K.4, action P.4, moyen M.5.",
+        "V.5, V.6, K.4, P.4, M.5"
+       ]
+      }
+     ]
     }
    ]
   },
@@ -4531,6 +5306,82 @@
       "an 1, lune 11, jour 3",
       "intentions.json:cendrik"
      ]
+    },
+    {
+     "cellules": [
+      "chose:comana-absence-athanor",
+      "organisations-et-dispositifs",
+      "L'absence d'athanor à Comăna : Radomir ne possède aucun fourneau d'alchimie nocturne ni athanor dans sa tanière.",
+      "comana-de-jos",
+      "radomir",
+      "Volontairement inexistant ; aucune braise magique entretenue.",
+      "Néant ; Radomir ne cherche pas dans l'Académie de Sighișoara, il reçoit seulement ce que l'anneau découvre.",
+      "Dispense de brûler sang et magie dans les recherches continues ; limite : aucune influence sur le choix de l'école recherchée sans sacrifice massif d'effroi.",
+      "la-magie.md, canon/LORE_CERCLES.md",
+      "Permanent",
+      "peint",
+      "Implantation de Radomir, la-magie.md",
+      "Les membres de l'Académie savent qu'il ne cherche pas ; les étrangers l'ignorent.",
+      "an 1, lune 11, jour 3",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "chose:comana-notes-soif-apaisee",
+      "objets-et-documents",
+      "Feuillet de velin ancien portant les préceptes de 'Soif apaisée' : formule mnémotechnique de l'Hémomancie acquise il y a cinquante ans.",
+      "comana-de-jos",
+      "radomir",
+      "Roulé dans un étui de corne noire, conservé dans la roche de la salle basse.",
+      "1 court rouleau décrivant l'art de boire quelques gouttes mesurées pour endormir la faim sans massacrer la proie.",
+      "Fondement magique de sa discipline ascétique ; permet de boire à heure fixe sans céder à la Bête.",
+      "chose:comana-coupe-etain, la-magie.md",
+      "Invariable depuis un demi-siècle",
+      "peint",
+      "la-magie.md, canon/LORE_CERCLES.md",
+      "Radomir seul le consulte en secret.",
+      "an 1, lune 11, jour 3",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "chose:comana-sources-magie-massif",
+      "lieux-et-passages",
+      "Les suintements de ley des combes de Comăna : filets de magie tellurique montant des ravins boisés sous la forêt vivante.",
+      "comana-de-jos",
+      "radomir",
+      "Discrets, filtrés par l'humus et les racines des chênes anciens.",
+      "Minuscules résurgences forestières complétant le tribut nocturne reçu d'Anselm.",
+      "Assurent la régénération lente de ses forces sans exiger d'abattre la forêt ni d'extorquer les serfs.",
+      "lieux.json:comana-de-jos, canon/LORE_MAGIES.md",
+      "Stable sous couvert forestier",
+      "peint",
+      "Territoire de Comăna de Jos",
+      "Radomir en sent la fraîcheur nocturne ; les vivants n'y voient que brume d'automne.",
+      "an 1, lune 11, jour 3",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "chose:comana-lien-cercle-sighisoara",
+      "usages-et-institutions",
+      "L'anneau de l'Académie de Sighișoara : serment de Cercle liant Radomir à ses deux voisins directs, Sulpice de Mediaș et Gontran d'Agnita.",
+      "sighisoara",
+      "malachie",
+      "Actif ; recherche collective de l'Augure vers le rang 8 (Prophétie).",
+      "Anneau de six membres ; Radomir ne traite directement qu'avec Sulpice et Gontran.",
+      "Obligation de solidarité d'otages ; interdiction d'attaquer les membres sous peine de rompre le flux ; aucun sang mêlé mais savoir partagé.",
+      "la-magie.md, canon/LORE_CERCLES.md",
+      "Réunion décennale d'effroi ; menace si Nicodim ou un maillon tombe",
+      "établi",
+      "la-magie.md, canon/LORE_CERCLES.md",
+      "Les six membres du Cercle et Sever (émissaire de l'Abbé) connaissent les termes de l'anneau.",
+      "an 1, lune 11, jour 3",
+      ""
+     ]
     }
    ]
   }
@@ -4743,6 +5594,14 @@
         "C.1, C.2",
         "Quarante kilomètres de marche de nuit ou de sentiers forestiers ; deux nuits pleines pour chaque aller"
        ]
+      },
+      {
+       "cellules": [
+        "V.4",
+        "Risque de détection par la Seconde vue ou contre-malédiction",
+        "C.2",
+        "Si un devin d'un Cercle voisin sonde la citadelle ou si Anselm jette ses dernières réserves dans une malédiction de mort désespérée, l'incantation peut être éventée ou se retourner."
+       ]
       }
      ]
     },
@@ -4777,6 +5636,14 @@
         "Relais équestre dissimulé aux lisières de Homorod",
         "V.3 (réduit le délai)",
         "Maintien d’un serviteur discret et de montures reposées sous le couvert des bois"
+       ]
+      },
+      {
+       "cellules": [
+        "K.4",
+        "Voilement du rituel et maintien des serments à l'Académie de Sighișoara",
+        "V.4 (protège l'incantation)",
+        "L'Abbé paie son effroi à l'Académie pour pousser l'Ombre et masquer ses desseins ; ne pas impliquer de Cercle concurrent"
        ]
       }
      ]
@@ -5022,7 +5889,17 @@
       "Ce que je change",
       "Renvois"
      ],
-     "lignes": []
+     "lignes": [
+      {
+       "cellules": [
+        "an 1, lune 11, jour 3",
+        "La magie et les règles des Cercles s'imposent à nos calculs : Nicodim opère par son athanor et dépend de l'Académie de Sighișoara. Ni Anselm ni Teodor ne sont dans un Cercle.",
+        "chambres/sever/la-magie.md",
+        "Prise en compte des verrous occultes (V.4 : risque de détection par devins ou contre-malédiction) et de la clef K.4 (maintien du secret face aux voisins d'anneau). Confirmation que je ne lance moi-même que la malédiction de mort et la diablerie.",
+        "V.4, K.4, la-magie.md"
+       ]
+      }
+     ]
     }
    ]
   },
@@ -5243,6 +6120,63 @@
       "Sever, Nicodim ; soupçonné par Stanca et Anselm.",
       "an 1, lune 11, jour 3",
       "intentions.json:sever"
+     ]
+    },
+    {
+     "cellules": [
+      "chose:odorheiu-athanor-nicodim",
+      "lieux-et-passages",
+      "L'athanor de pierre noire et de plomb de Nicodim, aménagé dans une galerie aveugle attenante à la crypte basse d'Odorheiu ; le foyer où l'Abbé brûle l'effroi pour les recherches du Cercle.",
+      "odorheiu-secuiesc",
+      "nicodim",
+      "Scellé, froid en surface, imprégné d'une odeur de suie grasse et de sang séché.",
+      "Un fourreau de pierre noire doublé de briques réfractaires et de plaques de plomb",
+      "Lieu de recherche occulte réservé au maître ; Sever n'y entre que pour porter les messages ou les offrandes d'effroi.",
+      "chose:odorheiu-crypte-ottilia",
+      "Permanent",
+      "peint",
+      "Implantation d'Odorheiu",
+      "Nicodim seul y opère ; Sever en connaît la porte et le foyer ; frère Paul n'en approche pas.",
+      "an 1, lune 11, jour 3",
+      "chambres/nicodim/books/registre-etats-nicodim.json"
+     ]
+    },
+    {
+     "cellules": [
+      "chose:odorheiu-notes-academie",
+      "objets-et-documents",
+      "Un carnet étroit cousu de cuir sombre où Sever consigne les délibérations de l'Académie de Sighișoara, les progrès des trois Cercles et les écoles recherchées.",
+      "odorheiu-secuiesc",
+      "sever",
+      "Caché sous une dalle de sa cellule, écriture chiffrée voilée.",
+      "Un cahier d'une trentaine de feuillets de vélin fin",
+      "Aide-mémoire diplomatique et occulte pour les affaires portées au nom de Nicodim.",
+      "chose:odorheiu-cellule-sever",
+      "Mis à jour après chaque conclave de l'Académie",
+      "peint",
+      "Notes personnelles d'émissaire",
+      "Sever seul ; Nicodim en a connaissance.",
+      "an 1, lune 11, jour 3",
+      "chambres/sever/la-magie.md"
+     ]
+    },
+    {
+     "cellules": [
+      "chose:odorheiu-noeud-ley-chapelle",
+      "lieux-et-passages",
+      "La résurgence du nœud de ley froid sous les fondations de la chapelle d'Odorheiu, d'où sourd la magie captée par Nicodim.",
+      "odorheiu-secuiesc",
+      "nicodim",
+      "Actif, pulsation imperceptible qui glace l'air de la nef et alimente les réserves.",
+      "Source tellurique de magie",
+      "Alimente les athanors et les préparations de rituels ; ne peut être déplacé.",
+      "chose:odorheiu-chapelle-haute",
+      "Permanent",
+      "peint",
+      "Nature du sol d'Odorheiu",
+      "Nicodim en draine la puissance ; Sever en ressent le froid sous ses pas ; les autres seigneurs de l'Académie le savent assis sur un nœud.",
+      "an 1, lune 11, jour 3",
+      "canon/LORE_MAGIES.md"
      ]
     }
    ]

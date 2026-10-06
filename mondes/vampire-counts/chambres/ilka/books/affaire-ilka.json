@@ -59,7 +59,7 @@
         {
           "cellules": [
             "fins-et-doctrine",
-            "Garder le sang de Rupea immaculé sans jamais accepter de veine ni de Communion ; plier l'échine devant Vlaicu et Cendrik pour préserver le fief ; passer l'hiver sur les maigres bandes locales et des incursions discrètes à Comăna ; rentrer un jour à Rupea reconnue par mon sire.",
+            "Garder le sang de Rupea immaculé sans jamais accepter de veine ni de Communion ; refuser de payer l'effroi pour la Bête ou d'employer la magie offerte par Cendrik ; plier l'échine devant Vlaicu et Cendrik pour préserver le fief ; passer l'hiver sur les maigres bandes locales et des incursions discrètes à Comăna ; rentrer un jour à Rupea reconnue par mon sire.",
             "établi",
             "personnages.json:ilka, canon/lore/ilka.md",
             "C.1, C.2, C.3"
@@ -86,7 +86,7 @@
         {
           "cellules": [
             "moyens-materiels",
-            "Manoir fortifié de Ticușu Vechi ; la petite couronne de fer noir des Stryges ; coffret de chêne cerclé contenant les lettres d'Anselm ; réserve de sang précaire issue de quatre métairies ; vingt-cinq serfs vivants et quatre goules de courtoisie ; herbes et racines séchées.",
+            "Manoir fortifié de Ticușu Vechi ; couronne de fer noir des Stryges ; coffret de chêne aux huit lettres d'Anselm ; réserve de sang précaire (quatre métairies) ; serfs vivants et goule Mara ; trousse d'herboriste ; aucun athanor (ni la magie ni le sang nécessaires pour en bâtir un).",
             "peint",
             "canon/lore/ilka.md, registre-etats-ilka",
             "M.1, M.2, M.3, M.4"
@@ -95,7 +95,7 @@
         {
           "cellules": [
             "savoirs-et-secrets",
-            "Connaissance intime de l'herboristerie et des remparts de Rupea ; certitude que Radomir a intercepté Anselm il y a huit ans ; conviction que les lettres d'Anselm sont des avertissements punitifs ; observation des bandes de vivants amaigries par la rapine de Cendrik.",
+            "Connaissance de l'herboristerie et des remparts de Rupea ; certitude que Radomir a intercepté Anselm il y a huit ans ; conviction que les lettres d'Anselm sont des menaces ; observation de la rapine de Cendrik ; savoir du Cercle de la Meute : Bête rang 3 et Fléau rang 2 (Cendres, Malédiction mineure) débloqués par le paiement de Cendrik.",
             "établi",
             "intentions.json:ilka, canon/lore/ilka.md",
             "V.1, V.2"
@@ -104,7 +104,7 @@
         {
           "cellules": [
             "engagements-et-temps",
-            "Serment d'allégeance prêté à Vlaicu (Vorace) ; tribut de sang dû chaque fin de saison ; veille nocturne à la salle de Ticușu (0h00-6h40 et 17h21-0h00) ; sommeil diurne dans la crypte du manoir ; hivernage de 30 jours à tenir.",
+            "Allégeance à Vlaicu (Vorace) ; anneau du Cercle de la Meute (maillon du milieu entre Vlaicu et Cendrik, sans athanor) ; tribut de sang dû chaque saison ; veille nocturne à la salle de Ticușu ; sommeil diurne en crypte ; hivernage de 30 jours.",
             "établi",
             "routines.json:ilka, intentions.json:ilka",
             "P.1, P.2"
@@ -223,6 +223,14 @@
             "C.3",
             "Si Ilka chasse trop visiblement ou adresse un merci formel créant une dette, Radomir pourrait fermer ses bois"
           ]
+        },
+        {
+          "cellules": [
+            "V.5",
+            "Piège occulte du Cercle de la Meute et dette envers Cendrik",
+            "C.1, C.2",
+            "La seule magie de son sang débloquée (Cendres, Malédiction mineure) a été payée en effroi par Cendrik ; s'en servir équivaudrait à contracter une dette envers son prédateur ; de plus, un sort engagé prend des mois et expose le lanceur sans défense."
+          ]
         }
       ]
     },
@@ -257,6 +265,14 @@
             "Conserver et méditer chaque avertissement d'Anselm",
             "V.3 (vers C.4)",
             "Prix : humiliation et angoisse constante ; limite : obéir à la lettre pour prouver une piété filiale absolue"
+          ]
+        },
+        {
+          "cellules": [
+            "K.4",
+            "Recours d'ultime extrémité aux Cendres du sang stryge",
+            "V.1 (vers C.2)",
+            "Prix et limites : Utiliser le sort de son propre sang (Cendres) sans athanor, au prix de mois de préparation, d'une exposition totale et de l'amertume de devoir ce déblocage à Cendrik ; ne recourir aux Cendres que si le bourg même est envahi, sachant que la cendre couche les morts et fait fuir la meute mais est renvoyée par le vent."
           ]
         }
       ]
@@ -321,6 +337,21 @@
             "",
             "Guet préventif contre les chants de Cendrik"
           ]
+        },
+        {
+          "cellules": [
+            "P.4",
+            "Veille passive des flux et murmures du Cercle de la Meute",
+            "C.1, C.2",
+            "Séance de veille nocturne en salle de Ticușu",
+            "ilka",
+            "salle-ticusu",
+            "Aucune dépense d'effroi engagée pour la Bête ; maintien de l'isolement magique sans athanor",
+            "a-faire",
+            "an 1, lune 11, jour 15",
+            "",
+            "Surveiller les intentions de Cendrik et de Vlaicu dans l'anneau sans rien céder de son effroi"
+          ]
         }
       ]
     },
@@ -353,6 +384,16 @@
             "Garder chaque lettre dans le coffret ferré comme relique et preuve de vigilance.",
             "Si Teodor tombe ou si Rupea est menacée par Odorheiu, se porter au secours du rocher pour revendiquer sa place.",
             "Le coffret de lettres, le silence, la petite couronne noire portée sans faille."
+          ]
+        },
+        {
+          "cellules": [
+            "C.1, C.2 (Magie)",
+            "Position de témoin muet dans l'anneau de la Meute : ne jamais payer d'effroi pour la Bête, laisser Vlaicu chercher seul, refuser de pratiquer la magie payée par Cendrik sauf si Ticușu brûle.",
+            "Un Cercle est une société d'otages. En étant le maillon entre Vlaicu et Cendrik, Ilka retient leurs ambitions mutuelles. Lancer un sort l'exposerait des mois durant, alors qu'elle n'a ni troupes de relevés ni athanor.",
+            "Si Cendrik lance ses Ritualistes contre le manoir, briser son refus et lever les Cendres pour disperser les morts et détacher la terre disputée.",
+            "Si l'anneau se rompt par la chute de Cendrik ou le départ de Vlaicu, préserver le secret de son sang sans chercher à refermer le Cercle avec un étranger.",
+            "Son statut de maillon de l'anneau, l'héritage du Fléau dans ses veines, le refus absolu d'athanor."
           ]
         }
       ]
@@ -406,6 +447,16 @@
             "Toma (bailli vivant), Mara (goule messagère), Constantin (fossoyeur)",
             "Vivants mortels ou goules fragiles face à des seigneurs de guerre",
             "Attachement local à la maison de Ticușu"
+          ]
+        },
+        {
+          "cellules": [
+            "M.5",
+            "Place dans l'anneau du Cercle de la Meute",
+            "Reconnue par serment envers Vlaicu et Cendrik",
+            "Maillon intermédiaire sans athanor ; accès aux savoirs débloqués (Fléau rang 2, Bête rang 3)",
+            "Ne peut chercher activement (aucun athanor) ; refuse de lancer les sorts de Bête ; soumise à la volonté de Vlaicu qui impose l'école",
+            "Fondation du Cercle par Vlaicu il y a trente ans ; entrée de Cendrik il y a dix ans"
           ]
         }
       ]
@@ -506,6 +557,15 @@
             "Que Teodor étouffe à la citadelle et rêve d'une terre lointaine loin du rocher",
             "canon/lore/teodor.md, canon/lore/ilka.md"
           ]
+        },
+        {
+          "cellules": [
+            "La magie du Cercle de la Meute",
+            "Vlaicu cherche la Meute alpha pour ses chasses ; Cendrik a payé pour le Fléau par curiosité d'érudit ; je refuse de rien devoir à Cendrik ni de mêler mon effroi à leurs bêtes.",
+            "Serment du Cercle et réunions décennales d'effroi",
+            "Que Cendrik a utilisé les Cendres pour vaincre et boire Gontran d'Agnita ; ce que Cendrik apprend en m'écoutant dans l'anneau",
+            "canon/LORE_CERCLES.md, la-magie.md"
+          ]
         }
       ]
     },
@@ -518,7 +578,17 @@
         "Ce que je change",
         "Renvois"
       ],
-      "lignes": []
+      "lignes": [
+        {
+          "cellules": [
+            "an 1, lune 11, jour 3",
+            "Arrivée de la magie et intégration des règles du Cercle de la Meute",
+            "Cahier la-magie.md et serment de Cercle",
+            "Correction de l'isolement supposé : Ilka est membre de la Meute (liée à Vlaicu et Cendrik), bénéficie du Fléau rang 2 (Cendres, Malédiction mineure) débloqué par Cendrik mais refuse d'en user par fierté et prudence. Ajout des verrous V.5, clef K.4, action P.4 et moyen M.5.",
+            "V.5, K.4, P.4, M.5, la-magie.md"
+          ]
+        }
+      ]
     }
   ]
 }

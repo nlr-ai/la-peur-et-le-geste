@@ -159,6 +159,63 @@
         "an 1, 11e lune, 3e jour",
         "Description locale subordonnée aux routes régionales"
       ]
+    },
+    {
+      "cellules": [
+        "R.8",
+        "lieux-et-passages",
+        "Le rocher de basalte et nœud de ley de la citadelle de Rupea",
+        "Citadelle de Rupea, assise rocheuse de la motte haute",
+        "Anselm",
+        "Sombre, froid, roche massive suintante canalisant les flux de la terre",
+        "Source naturelle de magie terrestre rendant une récolte constante à la citadelle",
+        "Nourrit le stock défensif de Rupea (+2 mesures de magie nettes par jour). Absence d'athanor : aucune distillation active ni transmutation.",
+        "mains.json:la-magie-de-rupea, plans/rupea.json",
+        "Permanent",
+        "peint",
+        "Canon de la magie des terres et citadelles fortifiées (la-magie.md, mains.json)",
+        "Anselm en sent les courants dans la pierre ; Teodor en voit le chiffre dans les comptes de table.",
+        "an 1, 11e lune, 3e jour",
+        "etat/maisons/maison-rupea/documents/mains.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.9",
+        "ressources-et-populations",
+        "Réserve de magie amassée de Rupea et filet du sang",
+        "Citadelle de Rupea (chambre et personne d'Anselm)",
+        "Anselm",
+        "Intacte, stock dense et préservé contre toute dépense",
+        "140 mesures de magie nettes accumulées ; alimenté par le rocher et ce qui remonte des infants dispersés",
+        "Sert exclusivement de muraille et rempart passif contre les malédictions (amasser protège, dépenser expose). 1 mesure cédée par nuit à Radomir de Comăna.",
+        "mains.json:la-magie-de-rupea, relations.json:radomir",
+        "Accroissement régulier de 2 mesures par jour net",
+        "peint",
+        "etat/maisons/maison-rupea/documents/mains.json, la-magie.md",
+        "Anselm et Teodor connaissent le volume brut ; Radomir reçoit sa part chaque nuit sans mot dire.",
+        "an 1, 11e lune, 3e jour",
+        "etat/maisons/maison-rupea/documents/mains.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.10",
+        "usages-et-institutions",
+        "Refus de l'athanor et rejet des Cercles",
+        "Citadelle de Rupea (chambre haute et cryptes)",
+        "Anselm",
+        "Aucun athanor construit, aucun creuset, pas de combustible d'effroi consumé, nulle note de recherche occulte.",
+        "Néant matériel (choix délibéré de bâtisseur d'écarter la sorcellerie active)",
+        "Préserve Anselm des dettes croisées d'un anneau d'otages et de l'exposition mortelle des incantations. Interdit l'accès aux sorts trouvés (Lire le sang, etc.).",
+        "la-magie.md, canon/LORE_CERCLES.md",
+        "Permanent depuis l'érection de la citadelle",
+        "peint",
+        "la-magie.md (§Pas de Cercle)",
+        "Anselm l'a juré en lui-même ; l'Abbé d'Odorheiu sait qu'Anselm a rejeté sa veine et son Cercle.",
+        "an 1, 11e lune, 3e jour",
+        "la-magie.md"
+      ]
     }
   ]
 }

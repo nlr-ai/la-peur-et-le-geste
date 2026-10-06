@@ -59,70 +59,70 @@
         {
           "cellules": [
             "fins-et-doctrine",
-            "Se maîtriser jusqu'au bout face à la Bête intérieure ; que les bois de Comăna restent pleins de vivants sans saignée excessive ; préserver la terreur du Masque sans jamais détruire personne.",
+            "Se maîtriser jusqu'au bout face à la Bête intérieure ; que les bois de Comăna restent pleins de vivants sans saignée excessive ; préserver la terreur du Masque sans jamais détruire personne ; contenir la faim grâce au sort Soif apaisée sans jamais réclamer ni payer pour la magie de la Bête.",
             "établi",
-            "personnages.json, canon/lore/radomir.md",
+            "personnages.json, canon/lore/radomir.md, la-magie.md",
             "C.1, C.2, C.3"
           ]
         },
         {
           "cellules": [
             "personnes-et-relations",
-            "Vlaicu mon sire et chef (Vorace méprisant la retenue, exigeant la sauvagerie) ; Anselm mon bu à Rupea (respect tacite, je sais qu'il s'est laissé battre pour Ilka) ; Ilka à Ticușu Vechi (protégée secrète, autorisée à chasser à l'insu des goules) ; Cendrik à Cincu (Sépulcral calculateur cherchant à tester la lisière) ; Nicodim à Odorheiu (qui voudrait percer le secret de Rupea) ; Barbu ma goule de lisière et Dobre mon vieux serf veneur.",
+            "Vlaicu mon sire et chef (Vorace de la Meute cherchant la Bête) ; Anselm mon bu à Rupea (respect tacite, tribut magique nocturne) ; Ilka à Ticușu Vechi (protégée secrète) ; Cendrik à Cincu (Sépulcral aux Cendres) ; Nicodim à Odorheiu (co-membre de l'Académie, obstiné pour l'Ombre) ; mes deux voisins d'anneau à l'Académie de Sighișoara : Sulpice de Mediaș (Sépulcral) et Gontran d'Agnita (Écarlate) ; Malachie l'Aîné des Stryges qui préside le Cercle ; Ossiane (Stryge qui jeûne) ; Barbu ma goule et Dobre mon vieux veneur.",
             "établi",
-            "relations.json, canon/lore/radomir.md, registre-etats-radomir",
-            "registre:gens-comana"
+            "relations.json, canon/lore/radomir.md, la-magie.md, registre-etats-radomir",
+            "registre:gens-comana, registre:comana-lien-cercle-sighisoara"
           ]
         },
         {
           "cellules": [
             "pouvoir-et-acces",
-            "Maître souverain de Comăna de Jos, du logis fortifié et des grands massifs forestiers du sud ; libre passage sous le couvert des forêts vivantes où la brume ne porte plus ; surveillance des sentiers et de la lisière de Ticușu Vechi.",
+            "Maître souverain de Comăna de Jos et des grands massifs forestiers ; libre passage sous le couvert des forêts vivantes où la brume ne porte plus ; membre de l'Académie de Sighișoara (sans athanor, recevant le savoir partagé : Augure 7, Fléau 4, Nécromancie 3, Ombre 2, Hémomancie 1).",
             "établi",
-            "lieux.json:comana-de-jos, routines.json",
-            "registre:lieux-comana"
+            "lieux.json:comana-de-jos, routines.json, la-magie.md",
+            "registre:lieux-comana, registre:comana-lien-cercle-sighisoara"
           ]
         },
         {
           "cellules": [
             "moyens-materiels",
-            "Réserves forestières giboyeuses et vivants nombreux des villages ; troupe de goules silencieuses et serfs bûcherons ; os blanchis d'ours et de loups amassés pour la lisière ; tribut magique reçu chaque nuit d'Anselm.",
+            "Réserves forestières giboyeuses et vivants des villages ; troupe de goules et serfs bûcherons ; os blanchis d'ours et de loups ; tribut magique reçu chaque nuit d'Anselm ; suintements de ley des combes de Comăna ; formules de 'Soif apaisée', 'Lire le sang' et 'Prémonition' débloquées par l'Académie.",
             "peint",
-            "canon/lore/radomir.md, registre-etats-radomir",
-            "M.1, M.2, M.3"
+            "canon/lore/radomir.md, registre-etats-radomir, la-magie.md",
+            "M.1, M.2, M.3, M.5"
           ]
         },
         {
           "cellules": [
             "savoirs-et-secrets",
-            "Sait qu'Anselm s'est laissé vaincre et boire pour sauver Ilka ; sait que la réputation de bête sanguinaire protège ses vivants ; ignore que Cendrik a fait examiner les os et soupçonne un faux mur ; ignore les convoitises de Nicodim sur ce duel.",
+            "Sait qu'Anselm s'est laissé vaincre pour sauver Ilka ; sait que la Bête intérieure se nourrit de chaque sort de Bête (refus absolu de payer pour cette école) ; connaît les sorts débloqués par l'Académie ; sait que la Seconde vue perce les voiles et que la cendre brûle sans parade ; ignore que Cendrik a fait examiner les os ; ignore ce que cache Nicodim derrière son obstination pour l'Ombre.",
             "établi",
-            "intentions.json, canon/lore/radomir.md",
-            "V.1, V.2"
+            "intentions.json, canon/lore/radomir.md, la-magie.md",
+            "V.1, V.2, V.5"
           ]
         },
         {
           "cellules": [
             "engagements-et-temps",
-            "Routine stricte : nuit sur la lisière et les clairières (0h-6h40 et 17h35-0h00) ; sommeil de jour dans la tanière de Comăna (6h40-17h35) ; boisson à heure fixe au crépuscule pour dompter la faim.",
+            "Routine stricte : nuit sur la lisière et les clairières (0h-6h40 et 17h35-0h00) ; sommeil de jour dans la tanière de Comăna (6h40-17h35) ; boisson à heure fixe au crépuscule apaisée par sort ; serment d'anneau de l'Académie (rencontre décennale d'effroi, ménagement de Sulpice et Gontran).",
             "établi",
-            "routines.json:radomir",
-            "P.1, P.2"
+            "routines.json:radomir, la-magie.md",
+            "P.1, P.2, P.4"
           ]
         },
         {
           "cellules": [
             "strategie-et-alternatives",
-            "Terroriser sans tuer : frapper la terre, faire courir les pires rumeurs, semer des charognes de bêtes sauvages pour décourager les intrus ; laisser Ilka chasser sans la voir ; si un Ritualiste approche de Ticușu, se montrer en bête pour le faire fuir sans combat.",
+            "Terroriser sans tuer : frapper la terre, faire courir les rumeurs, semer des charognes ; dompter la faim par 'Soif apaisée' ; laisser Ilka chasser ; surveiller les sorts d'arpentage et de cendre de Cendrik ; si un Ritualiste approche, se montrer en bête pour le chasser sans duel ; maintenir la paix d'anneau avec Sulpice et Gontran sans jamais éveiller la curiosité du Cercle.",
             "établi",
-            "intentions.json, canon/lore/radomir.md",
-            "K.1, K.2"
+            "intentions.json, canon/lore/radomir.md, la-magie.md",
+            "K.1, K.2, K.4"
           ]
         },
         {
           "cellules": [
             "zones-a-peindre",
-            "Le domaine de Comăna de Jos, le logis de pierre grise (tanière), l'étang et le moulin, les goules de bois (Barbu), les dépôts d'ossements et la lisière bordant Ticușu Vechi.",
+            "Le domaine de Comăna de Jos, la tanière sans athanor, les combes à ley, les notes de 'Soif apaisée', les goules de bois (Barbu), les dépôts d'ossements et la lisière bordant Ticușu Vechi.",
             "peint",
             "registre-etats-radomir",
             "registre:lieux-et-passages"
@@ -223,6 +223,22 @@
             "C.1",
             "Chaque grondement, chaque mise en scène féroce réveille la bête qui menace de briser la volonté de l'ascète"
           ]
+        },
+        {
+          "cellules": [
+            "V.5",
+            "Péril magique de la Cendre et des sorts de champ de Cendrik",
+            "C.1, C.3",
+            "Cendrik a débloqué les Cendres dans son Cercle de la Meute ; la cendre ne se pare pas et couche les bêtes ; si un affrontement éclate, la terreur physique ne suffira pas"
+          ]
+        },
+        {
+          "cellules": [
+            "V.6",
+            "Fragilité de l'anneau de l'Académie de Sighișoara",
+            "C.1",
+            "L'anneau repose sur six membres ; si Nicodim ou un autre maillon tombe, la recherche s'arrête et la protection mutuelle d'otages s'effondre"
+          ]
         }
       ]
     },
@@ -257,6 +273,14 @@
             "Patience ascétique et isolement dans la tanière de Comăna",
             "V.4 (vers C.1)",
             "Prix : solitude austère, rejet des festivités de cour voraces ; limite : isole diplomatiquement Comăna du reste des seigneurs"
+          ]
+        },
+        {
+          "cellules": [
+            "K.4",
+            "Usage strict des sorts de retenue ('Soif apaisée' et 'Prémonition')",
+            "V.4, V.5 (vers C.1, C.3)",
+            "Prix : engagement de magie et vigilance constante ; limite : Soif apaisée ne peut se lancer souvent ; Prémonition alerte du sort mais sans nommer l'auteur"
           ]
         }
       ]
@@ -320,6 +344,21 @@
             "an 1, lune 11, jour 20",
             "",
             "Déclencheur d'intentions.json"
+          ]
+        },
+        {
+          "cellules": [
+            "P.4",
+            "Maintien de la veille et du serment d'anneau avec Sulpice et Gontran",
+            "C.1, C.3",
+            "Lien de Cercle de l'Académie de Sighișoara",
+            "radomir",
+            "comana-de-jos",
+            "Silence gardé sur ses affaires, absence de rupture d'anneau, veille sur les messagers de Mediaș et Agnita",
+            "a-faire",
+            "an 1, lune 12, jour 1",
+            "",
+            "Devoir de voisin d'anneau"
           ]
         }
       ]
@@ -407,6 +446,16 @@
             "Sensibles aux hivers rudes et à la terreur si la Bête déborde",
             "Communauté protégée depuis plus d'un siècle"
           ]
+        },
+        {
+          "cellules": [
+            "M.5",
+            "Savoirs magiques de l'Académie de Sighișoara",
+            "Cercle de serments",
+            "Accès aux sorts débloqués par l'anneau : 'Soif apaisée' (Hémomancie 1), 'Lire le sang' (Augure 1), 'Prémonition' (Augure 2)",
+            "Ne lance aucun sort au-delà de son rang sans affinité ; refus absolu d'utiliser la magie de la Bête",
+            "Entrée dans l'Académie il y a 60 ans, sacrifice d'effroi il y a 50 ans"
+          ]
         }
       ]
     },
@@ -445,6 +494,18 @@
             "indéterminée",
             "ouvert",
             "Garder le silence absolu sur le duel d'il y a huit ans"
+          ]
+        },
+        {
+          "cellules": [
+            "Raison de l'obstination de Nicodim pour l'école de l'Ombre au Cercle",
+            "savoirs-et-secrets",
+            "V.6",
+            "Veille discrète lors des assemblées décennales ou messages de Gontran",
+            "radomir",
+            "indéterminée",
+            "ouvert",
+            "Ignoré pour l'heure ; maintenir le serment d'anneau sans poser de question"
           ]
         }
       ]
@@ -485,6 +546,15 @@
             "Si la torpeur permettrait d'apaiser la bête sans détruire son domaine",
             "canon/lore/radomir.md"
           ]
+        },
+        {
+          "cellules": [
+            "L'anneau de l'Académie",
+            "Un Cercle est une société d'otages : tant que les six veillent, la recherche avance et personne ne frappe Malachie ni ses voisins sans priver tout le monde.",
+            "la-magie.md, canon/LORE_CERCLES.md",
+            "Ce que l'Académie fera si Nicodim ou un maillon tombe ; ce que Sulpice creuse sous Mediaș",
+            "canon/LORE_CERCLES.md"
+          ]
         }
       ]
     },
@@ -497,7 +567,17 @@
         "Ce que je change",
         "Renvois"
       ],
-      "lignes": []
+      "lignes": [
+        {
+          "cellules": [
+            "an 1, lune 11, jour 3",
+            "Intégration de la magie : Cercle de Sighișoara, maîtrise de Soif apaisée, refus de payer pour la Bête",
+            "la-magie.md, canon/LORE_CERCLES.md, LORE_MAGIES.md",
+            "Clarification que la discipline d'ascète repose sur Soif apaisée achetée il y a 50 ans ; ajout des verrous V.5 (Cendres de Cendrik) et V.6 (fragilité de l'anneau), clef K.4, action P.4, moyen M.5.",
+            "V.5, V.6, K.4, P.4, M.5"
+          ]
+        }
+      ]
     }
   ]
 }
