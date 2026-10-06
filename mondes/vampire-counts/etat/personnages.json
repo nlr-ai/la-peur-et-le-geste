@@ -65,15 +65,15 @@
    "courtois",
    "patient",
    "discret",
-   "fidele a son pere"
+   "compatissant pour de vrai"
   ],
   "objectifs": [
    {
-    "but": "Faire entrer Rupea dans le livre de son pere",
+    "but": "Odorheiu, et le grand livre qui va avec",
     "priorite": 1
    },
    {
-    "but": "Que Teodor laisse une porte ouverte",
+    "but": "Que Teodor ouvre la porte de Rupea",
     "priorite": 2
    }
   ],
@@ -81,7 +81,7 @@
   "etat": "actif",
   "lieu_id": "odorheiu-secuiesc",
   "condition": "libre",
-  "_": "Voile, infant de Nicodim. Vient a Rupea tous les deux ou trois ans depuis quinze ans ; est venu le mois dernier. Source : canon/lore/characters.json, teodor.md."
+  "_": "Voile, infant de Nicodim. Vient a Rupea tous les deux ou trois ans depuis quinze ans ; est venu le mois dernier. Source : canon/lore/characters.json, teodor.md. Canon du 6.10 (lore/sever.md) : Nature Intrigant, Masque Fidele. Pensionnaire d'Odorheiu, heritier selon le droit du sire ; veut la chute de son pere."
  },
  {
   "id": "nicodim",
@@ -264,7 +264,7 @@
   ],
   "maniere": "Pour lui, la Bete est un don.",
   "etat": "dormant",
-  "lieu_id": null,
+  "lieu_id": "hoghiz",
   "condition": "libre",
   "_": "Sire et chef de Radomir, chef d'Ilka. Siege non donne par la source : lieu_id null. Etat moteur « dormant » = fiche gelee, PAS torpeur dans le monde : Vlaicu veille et recoit le tribut d'Ilka."
  },
@@ -288,7 +288,7 @@
   "etat": "dormant",
   "lieu_id": "agnita",
   "condition": "libre",
-  "_": "Bu recemment par Cendrik a la chasse ; a inscrit son nom au registre sans le dire. Fiche gelee tant que l'ouest n'entre pas en jeu."
+  "_": "Bu recemment par Cendrik a la chasse ; a inscrit son nom au registre sans le dire. Fiche gelee tant que l'ouest n'entre pas en jeu. Canon du 6.10 (lore/gontran.md) : le nom inscrit dans son registre la nuit des cendres est celui de THIBAUT, son pensionnaire, pas celui du Sepulcral. Membre de l'Academie de Sighisoara (voisin de Radomir et de Nicodim)."
  },
  {
   "id": "hedwig",
@@ -520,5 +520,127 @@
   "lieu_id": "cincu",
   "condition": "libre",
   "_": "PEINT en preparation par Cendrik (registre pop:rituel-frere-mihai), fiche accordee par le MJ le 6.10 sur demande hors fiction ; invention declaree. Conduit les deux autres Ritualistes ; a promouvoir quand le chant sur Ticușu commence."
+ },
+ {
+  "id": "ossiane",
+  "nom": "Ossiane",
+  "maison_id": "maison-racos",
+  "titre": "Racoș, la gardienne du deuil d'Hedwig",
+  "naissance": null,
+  "traits": [
+   "jeuneuse",
+   "patiente",
+   "observatrice",
+   "affamee"
+  ],
+  "objectifs": [
+   {
+    "but": "Boire Ottilia tout entiere le jour de son reveil",
+    "priorite": 1
+   },
+   {
+    "but": "Qu'aucun autre ne la boive avant elle",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Parle peu, bas, en veuve ; ne regarde jamais celui qu'elle etudie mais tout le reste ; boit a peine.",
+  "etat": "actif",
+  "lieu_id": "racos",
+  "condition": "libre",
+  "_": "Stryge, infant d'Hedwig, soeur de sang d'Anselm, juree a Malachie ; etreinte il y a pres de trois siecles. Membre de l'Academie (voisine de Nicodim et de Malachie), sans athanor. Chaque annee, a la date de la destruction d'Hedwig, elle s'agenouille sur la dalle de la cour de Rupea. Source : canon/lore/ossiane.md."
+ },
+ {
+  "id": "malachie",
+  "nom": "Malachie",
+  "maison_id": "maison-malachie",
+  "titre": "L'Aine des Stryges, chef sans chef",
+  "naissance": null,
+  "traits": [
+   "immemorial",
+   "savant",
+   "survivant"
+  ],
+  "objectifs": [
+   {
+    "but": "Etre encore la quand tous les autres auront disparu",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Pense en siecles ; au-dessus des querelles.",
+  "etat": "dormant",
+  "lieu_id": "sighisoara",
+  "condition": "libre",
+  "_": "Mathusalem. Fondateur de l'Academie de Sighisoara, le plus grand athanor du pays. Fiche gelee : a promouvoir s'il entre dans l'orbite de Teodor. Source : canon/lore/malachie.md."
+ },
+ {
+  "id": "sulpice",
+  "nom": "Sulpice",
+  "maison_id": "maison-sulpice",
+  "titre": "Mediaș, l'Ogre",
+  "naissance": null,
+  "traits": [
+   "erudit",
+   "terrible a voir"
+  ],
+  "objectifs": [
+   {
+    "but": "Voir ce qui est descendu sur la colline de Sighisoara",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Le monstre des legendes, qui vide les tombes — pour interroger les morts.",
+  "etat": "dormant",
+  "lieu_id": "medias",
+  "condition": "libre",
+  "_": "Sepulcral, etreint il y a quatre siecles. Membre de l'Academie (voisin de Malachie et de Radomir), athanor dans ses fosses. Sire de Cendrik. Fiche gelee. Source : canon/lore/sulpice.md."
+ },
+ {
+  "id": "ronce",
+  "nom": "Ronce",
+  "maison_id": "maison-agnita",
+  "titre": "Vorace bannie, enfant trouvee de Gontran",
+  "naissance": null,
+  "traits": [
+   "bannie",
+   "detachee de la magie"
+  ],
+  "objectifs": [],
+  "maniere": "Ne paie jamais, ne veut rien de la magie.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre",
+  "_": "Membre du Cercle des Enfants trouves (voisine de Konstantin et de Cassien), sans athanor. Siege non donne. Fiche gelee. Source : canon/LORE_CERCLES.md."
+ },
+ {
+  "id": "cassien",
+  "nom": "Cassien",
+  "maison_id": "maison-agnita",
+  "titre": "Voile sans maitre, enfant trouve de Gontran",
+  "naissance": null,
+  "traits": [
+   "discret"
+  ],
+  "objectifs": [],
+  "maniere": "",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre",
+  "_": "Tient une petite ville au nord d'Agnita, avec un athanor. Membre du Cercle des Enfants trouves (voisin de Ronce et de Konstantin) ; a paye une fois pour l'Augure (Seconde lecture). Fiche gelee. Source : canon/LORE_CERCLES.md."
+ },
+ {
+  "id": "brune",
+  "nom": "Brune",
+  "maison_id": "maison-vlaicu",
+  "titre": "Installee vorace de la lisiere, disparue",
+  "naissance": null,
+  "traits": [
+   "disparue"
+  ],
+  "objectifs": [],
+  "maniere": "",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre",
+  "_": "Ancien membre du Cercle de la Meute. Partie chasser avec Vlaicu il y a une dizaine d'annees, jamais revenue ; Vlaicu a beaucoup pleure. Detruite ou non : PERSONNE NE LE SAIT, et l'etat ne le tranche pas. Fiche d'archive, gelee. Source : canon/LORE_CERCLES.md, lore/vlaicu.md."
  }
 ]

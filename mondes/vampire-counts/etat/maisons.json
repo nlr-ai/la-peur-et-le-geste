@@ -77,12 +77,49 @@
   "id": "maison-vlaicu",
   "nom": "Le sang de Vlaicu",
   "devise": null,
-  "siege_id": null,
+  "siege_id": "hoghiz",
   "statut": "petite",
   "or": 0,
   "revenus": 0,
   "allegeance_affichee": null,
   "canon": true,
-  "_": "Voraces. Vlaicu, sire et chef de Radomir, chef d'Ilka. Siege non donne par la source. Cree le 6.10 : Vlaicu etait range par erreur dans la maison de Comăna, dont il est le suzerain et non le vassal."
+  "_": "Voraces. Vlaicu, sire et chef de Radomir, chef d'Ilka, jure a l'Aine des Voraces. Siege a Hoghiz (canon/lore/vlaicu.md). Le Cercle de la Meute."
+ },
+ {
+  "id": "maison-malachie",
+  "nom": "Sighisoara — Malachie, l'Aine des Stryges",
+  "siege_id": "sighisoara",
+  "statut": "grande",
+  "_": "Stryges. L'Aine, chef sans chef ; le plus grand athanor du pays ; l'Academie de Sighisoara. Anselm, Ossiane, Teodor, Ilka, Konstantin sont de son sang.",
+  "devise": null,
+  "or": 0,
+  "revenus": 0,
+  "allegeance_affichee": null,
+  "canon": true
+ },
+ {
+  "id": "maison-sulpice",
+  "nom": "Mediaș — Sulpice, l'Ogre",
+  "siege_id": "medias",
+  "statut": "grande",
+  "_": "Sepulcraux. Jure a l'Aine des Sepulcraux. A fait etreindre Cendrik pour ses cartes. Membre de l'Academie.",
+  "devise": null,
+  "or": 0,
+  "revenus": 0,
+  "allegeance_affichee": null,
+  "canon": true
+ },
+ {
+  "id": "maison-racos",
+  "nom": "Racoș — Ossiane",
+  "siege_id": "racos",
+  "statut": "petite",
+  "suzerain_id": "maison-malachie",
+  "_": "Stryges. Ossiane, infant d'Hedwig, juree a Malachie. Un chateau nu.",
+  "devise": null,
+  "or": 0,
+  "revenus": 0,
+  "allegeance_affichee": null,
+  "canon": true
  }
 ]

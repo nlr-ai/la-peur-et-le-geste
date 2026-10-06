@@ -139,7 +139,8 @@
   "vers": "ilka",
   "opinion": -10,
   "liens": [
-   "une ville a ronger"
+   "une ville a ronger",
+   "cercle:la-meute — voisin d'anneau"
   ],
   "connue_du_joueur": false
  },
@@ -217,10 +218,10 @@
   "opinion": -60,
   "liens": [
    "son buveur",
-   "a la ligne des choses qui ne se pardonnent pas"
+   "une honte qu'il tait"
   ],
   "connue_du_joueur": false,
-  "_": "Gontran ne l'a dit a personne, pas meme a Konstantin."
+  "_": "Gontran ne l'a dit a personne. Le nom qu'il a inscrit au registre cette nuit-la est celui de Thibaut, pas celui du Sepulcral (lore/gontran.md)."
  },
  {
   "de": "radu",
@@ -265,6 +266,269 @@
   "opinion": 40,
   "liens": [
    "goule"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "malachie",
+  "vers": "sulpice",
+  "opinion": 0,
+  "liens": [
+   "cercle:academie-de-sighisoara — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "sulpice",
+  "vers": "malachie",
+  "opinion": 0,
+  "liens": [
+   "cercle:academie-de-sighisoara — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "sulpice",
+  "vers": "radomir",
+  "opinion": 0,
+  "liens": [
+   "cercle:academie-de-sighisoara — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "radomir",
+  "vers": "sulpice",
+  "opinion": 0,
+  "liens": [
+   "cercle:academie-de-sighisoara — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "radomir",
+  "vers": "gontran",
+  "opinion": 0,
+  "liens": [
+   "cercle:academie-de-sighisoara — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "gontran",
+  "vers": "radomir",
+  "opinion": 0,
+  "liens": [
+   "cercle:academie-de-sighisoara — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "gontran",
+  "vers": "nicodim",
+  "opinion": 0,
+  "liens": [
+   "cercle:academie-de-sighisoara — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "nicodim",
+  "vers": "gontran",
+  "opinion": 0,
+  "liens": [
+   "cercle:academie-de-sighisoara — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "nicodim",
+  "vers": "ossiane",
+  "opinion": 0,
+  "liens": [
+   "cercle:academie-de-sighisoara — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "ossiane",
+  "vers": "nicodim",
+  "opinion": 0,
+  "liens": [
+   "cercle:academie-de-sighisoara — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "ossiane",
+  "vers": "malachie",
+  "opinion": 0,
+  "liens": [
+   "cercle:academie-de-sighisoara — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "malachie",
+  "vers": "ossiane",
+  "opinion": 0,
+  "liens": [
+   "cercle:academie-de-sighisoara — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "vlaicu",
+  "vers": "ilka",
+  "opinion": 0,
+  "liens": [
+   "cercle:la-meute — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "ilka",
+  "vers": "vlaicu",
+  "opinion": 0,
+  "liens": [
+   "cercle:la-meute — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "ilka",
+  "vers": "cendrik",
+  "opinion": 0,
+  "liens": [
+   "cercle:la-meute — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "cendrik",
+  "vers": "vlaicu",
+  "opinion": 0,
+  "liens": [
+   "cercle:la-meute — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "vlaicu",
+  "vers": "cendrik",
+  "opinion": 0,
+  "liens": [
+   "cercle:la-meute — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "konstantin",
+  "vers": "ronce",
+  "opinion": 0,
+  "liens": [
+   "cercle:enfants-trouves — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "ronce",
+  "vers": "konstantin",
+  "opinion": 0,
+  "liens": [
+   "cercle:enfants-trouves — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "ronce",
+  "vers": "cassien",
+  "opinion": 0,
+  "liens": [
+   "cercle:enfants-trouves — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "cassien",
+  "vers": "ronce",
+  "opinion": 0,
+  "liens": [
+   "cercle:enfants-trouves — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "cassien",
+  "vers": "konstantin",
+  "opinion": 0,
+  "liens": [
+   "cercle:enfants-trouves — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "konstantin",
+  "vers": "cassien",
+  "opinion": 0,
+  "liens": [
+   "cercle:enfants-trouves — voisin d'anneau"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "ossiane",
+  "vers": "anselm",
+  "opinion": -15,
+  "liens": [
+   "soeur de sang"
+  ],
+  "connue_du_joueur": false,
+  "_": "Elle le meprise un peu et le surveille beaucoup ; elle le protegera s'il le faut, pour de mauvaises raisons."
+ },
+ {
+  "de": "anselm",
+  "vers": "ossiane",
+  "opinion": 0,
+  "liens": [
+   "soeur de sang"
+  ],
+  "connue_du_joueur": false,
+  "_": "Il la laisse s'agenouiller chaque annee sur la dalle de la cour. Ils ne se parlent pas."
+ },
+ {
+  "de": "ossiane",
+  "vers": "sever",
+  "opinion": 10,
+  "liens": [
+   "celui qui lui a donne les nuits de garde"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "sever",
+  "vers": "ossiane",
+  "opinion": 0,
+  "liens": [
+   "la seconde porte"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "ossiane",
+  "vers": "ottilia",
+  "opinion": -90,
+  "liens": [
+   "le vase"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "sever",
+  "vers": "nicodim",
+  "opinion": -40,
+  "liens": [
+   "le pere dont il prepare la chute"
   ],
   "connue_du_joueur": false
  }

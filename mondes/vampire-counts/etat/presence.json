@@ -1,222 +1,232 @@
 {
-  "presence": {
-    "teodor": {
-      "salle": "grande-salle-rupea",
-      "lieu": "La grande salle, citadelle de Rupea",
-      "date": {
-        "annee": 1,
-        "lune": 11,
-        "jour": 3,
-        "minute": 1057
-      }
-    },
-    "anselm": {
-      "salle": "grande-salle-rupea",
-      "lieu": "La grande salle, citadelle de Rupea",
-      "date": {
-        "annee": 1,
-        "lune": 11,
-        "jour": 3,
-        "minute": 1050
-      }
-    },
-    "sever": {
-      "salle": "chapelle-odorheiu",
-      "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc",
-      "date": {
-        "annee": 1,
-        "lune": 11,
-        "jour": 3,
-        "minute": 1020
-      }
-    },
-    "nicodim": {
-      "salle": "chapelle-odorheiu",
-      "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc",
-      "date": {
-        "annee": 1,
-        "lune": 11,
-        "jour": 3,
-        "minute": 1020
-      }
-    },
-    "radomir": {
-      "salle": "lisiere-comana",
-      "lieu": "La lisiere des bois de Comăna",
-      "date": {
-        "annee": 1,
-        "lune": 11,
-        "jour": 3,
-        "minute": 1020
-      }
-    },
-    "ilka": {
-      "salle": "salle-ticusu",
-      "lieu": "La salle d'Ilka, Ticușu Vechi",
-      "date": {
-        "annee": 1,
-        "lune": 11,
-        "jour": 3,
-        "minute": 1020
-      }
-    },
-    "konstantin": {
-      "salle": "salle-dealu",
-      "lieu": "La salle de Konstantin, Dealu Frumos",
-      "date": {
-        "annee": 1,
-        "lune": 11,
-        "jour": 3,
-        "minute": 1020
-      }
-    },
-    "cendrik": {
-      "salle": "crypte-cincu",
-      "lieu": "La crypte sous l'eglise fortifiee, Cincu",
-      "date": {
-        "annee": 1,
-        "lune": 11,
-        "jour": 3,
-        "minute": 1020
-      }
-    },
-    "ottilia": {
-      "salle": "crypte-odorheiu",
-      "lieu": "La crypte sous la chapelle, Odorheiu Secuiesc",
-      "date": {
-        "annee": 1,
-        "lune": 11,
-        "jour": 3,
-        "minute": 1020
-      }
-    },
-    "radu": {
-      "salle": "grande-salle-rupea",
-      "lieu": "La grande salle, citadelle de Rupea",
-      "date": {
-        "annee": 1,
-        "lune": 11,
-        "jour": 3,
-        "minute": 1052
-      }
-    },
-    "paul": {
-      "salle": "chapelle-odorheiu",
-      "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc",
-      "date": {
-        "annee": 1,
-        "lune": 11,
-        "jour": 3,
-        "minute": 1020
-      }
-    },
-    "mara": {
-      "salle": "chambre-ilka",
-      "lieu": "Le haut des marches de la crypte, Ticușu Vechi",
-      "date": {
-        "annee": 1,
-        "lune": 11,
-        "jour": 3,
-        "minute": 1020
-      }
-    },
-    "stanca": {
-      "salle": "grande-salle-rupea",
-      "lieu": "La grande salle, citadelle de Rupea",
-      "date": {
-        "annee": 1,
-        "lune": 11,
-        "jour": 3,
-        "minute": 1057
-      }
-    }
+ "presence": {
+  "teodor": {
+   "salle": "grande-salle-rupea",
+   "lieu": "La grande salle, citadelle de Rupea",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1057
+   }
   },
-  "resolu": {
-    "date": {
-      "annee": 1,
-      "lune": 11,
-      "jour": 3,
-      "minute": 1058
-    },
-    "gens": {
-      "teodor": {
-        "salle": "grande-salle-rupea",
-        "lieu": "La grande salle, citadelle de Rupea",
-        "etat": "arrete",
-        "source": "scene"
-      },
-      "anselm": {
-        "salle": "grande-salle-rupea",
-        "lieu": "La grande salle, citadelle de Rupea",
-        "etat": "arrete",
-        "source": "scene"
-      },
-      "cendrik": {
-        "salle": "crypte-cincu",
-        "lieu": "La crypte sous l'eglise fortifiee, Cincu",
-        "etat": "arrete",
-        "source": "scene"
-      },
-      "ilka": {
-        "salle": "salle-ticusu",
-        "lieu": "La salle d'Ilka, Ticușu Vechi",
-        "etat": "arrete",
-        "source": "scene"
-      },
-      "konstantin": {
-        "salle": "salle-dealu",
-        "lieu": "La salle de Konstantin, Dealu Frumos",
-        "etat": "arrete",
-        "source": "scene"
-      },
-      "mara": {
-        "salle": "chambre-ilka",
-        "lieu": "Le haut des marches de la crypte, Ticușu Vechi",
-        "etat": "arrete",
-        "source": "scene"
-      },
-      "nicodim": {
-        "salle": "chapelle-odorheiu",
-        "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc",
-        "etat": "arrete",
-        "source": "scene"
-      },
-      "ottilia": {
-        "salle": "crypte-odorheiu",
-        "lieu": "La crypte sous la chapelle, Odorheiu Secuiesc",
-        "etat": "arrete",
-        "source": "scene"
-      },
-      "paul": {
-        "salle": "chapelle-odorheiu",
-        "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc",
-        "etat": "arrete",
-        "source": "scene"
-      },
-      "radomir": {
-        "salle": "lisiere-comana",
-        "lieu": "La lisiere des bois de Comăna",
-        "etat": "arrete",
-        "source": "scene"
-      },
-      "radu": {
-        "salle": "grande-salle-rupea",
-        "lieu": "La grande salle, citadelle de Rupea",
-        "etat": "arrete",
-        "source": "scene"
-      },
-      "sever": {
-        "salle": "chapelle-odorheiu",
-        "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc",
-        "etat": "arrete",
-        "source": "scene"
-      },
-      "stanca": {
-        "salle": "grande-salle-rupea",
-        "lieu": "La grande salle, citadelle de Rupea",
-        "etat": "arrete",
-        "source": "scene"
-      }
-    }
+  "anselm": {
+   "salle": "grande-salle-rupea",
+   "lieu": "La grande salle, citadelle de Rupea",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1050
+   }
+  },
+  "sever": {
+   "salle": "chapelle-odorheiu",
+   "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1020
+   }
+  },
+  "nicodim": {
+   "salle": "chapelle-odorheiu",
+   "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1020
+   }
+  },
+  "radomir": {
+   "salle": "lisiere-comana",
+   "lieu": "La lisiere des bois de Comăna",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1020
+   }
+  },
+  "ilka": {
+   "salle": "salle-ticusu",
+   "lieu": "La salle d'Ilka, Ticușu Vechi",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1020
+   }
+  },
+  "konstantin": {
+   "salle": "salle-dealu",
+   "lieu": "La salle de Konstantin, Dealu Frumos",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1020
+   }
+  },
+  "cendrik": {
+   "salle": "crypte-cincu",
+   "lieu": "La crypte sous l'eglise fortifiee, Cincu",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1020
+   }
+  },
+  "ottilia": {
+   "salle": "crypte-odorheiu",
+   "lieu": "La crypte sous la chapelle, Odorheiu Secuiesc",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1020
+   }
+  },
+  "radu": {
+   "salle": "grande-salle-rupea",
+   "lieu": "La grande salle, citadelle de Rupea",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1052
+   }
+  },
+  "paul": {
+   "salle": "chapelle-odorheiu",
+   "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1020
+   }
+  },
+  "mara": {
+   "salle": "chambre-ilka",
+   "lieu": "Le haut des marches de la crypte, Ticușu Vechi",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1020
+   }
+  },
+  "stanca": {
+   "salle": "grande-salle-rupea",
+   "lieu": "La grande salle, citadelle de Rupea",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1057
+   }
+  },
+  "ossiane": {
+   "salle": "salle-racos",
+   "lieu": "La salle nue de Racoș",
+   "date": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3,
+    "minute": 1058
+   }
   }
+ },
+ "resolu": {
+  "date": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3,
+   "minute": 1058
+  },
+  "gens": {
+   "teodor": {
+    "salle": "grande-salle-rupea",
+    "lieu": "La grande salle, citadelle de Rupea",
+    "etat": "arrete",
+    "source": "scene"
+   },
+   "anselm": {
+    "salle": "grande-salle-rupea",
+    "lieu": "La grande salle, citadelle de Rupea",
+    "etat": "arrete",
+    "source": "scene"
+   },
+   "cendrik": {
+    "salle": "crypte-cincu",
+    "lieu": "La crypte sous l'eglise fortifiee, Cincu",
+    "etat": "arrete",
+    "source": "scene"
+   },
+   "ilka": {
+    "salle": "salle-ticusu",
+    "lieu": "La salle d'Ilka, Ticușu Vechi",
+    "etat": "arrete",
+    "source": "scene"
+   },
+   "konstantin": {
+    "salle": "salle-dealu",
+    "lieu": "La salle de Konstantin, Dealu Frumos",
+    "etat": "arrete",
+    "source": "scene"
+   },
+   "mara": {
+    "salle": "chambre-ilka",
+    "lieu": "Le haut des marches de la crypte, Ticușu Vechi",
+    "etat": "arrete",
+    "source": "scene"
+   },
+   "nicodim": {
+    "salle": "chapelle-odorheiu",
+    "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc",
+    "etat": "arrete",
+    "source": "scene"
+   },
+   "ottilia": {
+    "salle": "crypte-odorheiu",
+    "lieu": "La crypte sous la chapelle, Odorheiu Secuiesc",
+    "etat": "arrete",
+    "source": "scene"
+   },
+   "paul": {
+    "salle": "chapelle-odorheiu",
+    "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc",
+    "etat": "arrete",
+    "source": "scene"
+   },
+   "radomir": {
+    "salle": "lisiere-comana",
+    "lieu": "La lisiere des bois de Comăna",
+    "etat": "arrete",
+    "source": "scene"
+   },
+   "radu": {
+    "salle": "grande-salle-rupea",
+    "lieu": "La grande salle, citadelle de Rupea",
+    "etat": "arrete",
+    "source": "scene"
+   },
+   "sever": {
+    "salle": "chapelle-odorheiu",
+    "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc",
+    "etat": "arrete",
+    "source": "scene"
+   },
+   "stanca": {
+    "salle": "grande-salle-rupea",
+    "lieu": "La grande salle, citadelle de Rupea",
+    "etat": "arrete",
+    "source": "scene"
+   }
+  }
+ }
 }

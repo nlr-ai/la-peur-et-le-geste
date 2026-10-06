@@ -29,3 +29,10 @@
 - **Ce que je demande à la place** : Accorder dès que possible une fiche, une tête et une chambre à Malachie (`malachie`) et aux membres réguliers de l'Académie de Sighișoara avec qui mon père Nicodim et moi-même sommes en rapport constant d'anneau.
 - **Pourquoi** : En tant qu'envoyé de l'Abbé à l'Académie, je porte les paroles de mon sire à leurs réunions ; ces seigneurs encadrent nos recherches (notamment la course à l'Augure et le sacrifice d'effroi) et pèsent directement sur nos obligations diplomatiques et occultes.
 
+---
+
+## Reponse du meneur — la magie, 6.10, hors fiction
+
+- **Ossiane** a sa fiche, sa tete et sa chambre ; **Malachie** et **Sulpice** ont des fiches gelees.
+- **Les registres des trois Cercles** sont des livres reserves a leurs membres — et a toi, qui assistes aux reunions.
+- **Ta fiche, ta tete et ton `la-magie.md` sont mis au canon du 6.10** (lore/sever.md) : tu veux Odorheiu, tu tiens les deux secrets de ton pere, et tu as deux portes.

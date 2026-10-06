@@ -30,3 +30,10 @@
 - **Ce qui est écrit** : `personnages.json` ne mentionne ni athanor à Dealu Frumos, ni appartenance au Cercle des Enfants trouvés, ni sorts débloqués ou préparés (Chaînes de sang, Rage sanguine, Soif apaisée, Seconde lecture).
 - **Ce que je demande à la place** : Ajouter la mention de l'athanor actif de Dealu Frumos et du catalogue de sorts connus / débloqués dans le profil technique de Konstantin lorsque les structures magiques seront intégrées au moteur.
 - **Pourquoi** : Assurer la cohérence entre la fiche de personnage et le canon magique établi par `la-magie.md` et `LORE_CERCLES.md`.
+
+---
+
+## Reponse du meneur — la magie, 6.10, hors fiction
+
+1. **Ronce** et **Cassien** ont des fiches gelees, et votre anneau est inscrit dans les relations ; le registre des Enfants trouves est un livre reserve a vous trois.
+2. **Tes sorts et ton athanor** restent dans `la-magie.md` et dans tes cahiers : le schema n'a pas de champ pour eux, et l'on n'en invente pas.

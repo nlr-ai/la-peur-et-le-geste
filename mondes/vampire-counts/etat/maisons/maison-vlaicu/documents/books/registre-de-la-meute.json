@@ -1,0 +1,97 @@
+{
+ "id": "registre-de-la-meute",
+ "titre": "Le registre de la Meute",
+ "sous_titre": "Le Cercle de Vlaicu, au sud : trois membres, deux athanors.",
+ "type": "registre",
+ "embleme": "🐺",
+ "couleur": "#2e2a33",
+ "tenu_par": "vlaicu",
+ "office": "Ce que l'anneau a trouve, et ce qu'il cherche",
+ "lieu_id": "hoghiz",
+ "salle_id": "athanor-hoghiz",
+ "lecteurs": [
+  "vlaicu",
+  "ilka",
+  "cendrik",
+  "sever"
+ ],
+ "maison_id": "maison-vlaicu",
+ "tables": [
+  {
+   "titre": "L'anneau",
+   "colonnes": [
+    "Membre",
+    "Sang",
+    "Lie a",
+    "Athanor"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**Vlaicu**",
+      "Vorace",
+      "Ilka et Cendrik",
+      "a Hoghiz, pres de l'eau qui court"
+     ]
+    },
+    {
+     "cellules": [
+      "**Ilka**",
+      "Stryge",
+      "Vlaicu et Cendrik",
+      "aucun"
+     ]
+    },
+    {
+     "cellules": [
+      "**Cendrik**",
+      "Sepulcral",
+      "Ilka et Vlaicu",
+      "sous l'eglise fortifiee de Cincu"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Ce que l'anneau a trouve",
+   "colonnes": [
+    "Ecole",
+    "Rang",
+    "Sorts debloques"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Bete",
+      "3",
+      "Appel de la meute, Nuee, Forme de nuee, Territoire de la meute"
+     ]
+    },
+    {
+     "cellules": [
+      "Fleau",
+      "2",
+      "Malediction mineure, Cendres"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Ce qu'il cherche",
+   "colonnes": [
+    "Ecole",
+    "Vers",
+    "Qui a paye"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Bete",
+      "la Meute alpha (rang 5), pres de trente ans",
+      "Vlaicu, toujours"
+     ]
+    }
+   ]
+  }
+ ]
+}

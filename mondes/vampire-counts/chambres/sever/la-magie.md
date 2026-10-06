@@ -45,6 +45,12 @@ Ils cherchent la Tempête vers le **Vent noir** (rang 2), environ trois ans.
 
 Anselm n'est dans aucun Cercle et n'en veut pas. Il ne connaît que la malédiction de mort et la diablerie. Teodor non plus : il est pensionnaire, comme toi.
 
+## Ce que tu sais de ton père
+
+- **Margit** a été détruite par une malédiction partie d'Odorheiu, pour une veine refusée ; dans le grand livre, un mot en face du nom : *soldé*. L'Académie a trouvé le **Voile** : tu sais par quoi on frappe sans montrer sa main.
+- **Ottilia**, la dormeuse, a détruit Hedwig il y a cent quarante ans, du temps où elle siégeait à l'Académie et y avait imposé l'Ombre. Elle se cache des Stryges.
+- La **Seconde vue** de l'Académie perce un voile moins ancien qu'elle : c'est pourquoi ton père ne frappe jamais un membre de son Cercle, et paie pour l'Ombre vers le *Visage Emprunté*.
+
 ## Ce que tu ignores
 
-Ce que ton père a fait à Margit, et par quel sort. Ce que ton père sait d'Ottilia et de Hedwig. Pourquoi il paie pour l'Ombre.
+Qu'Ossiane ne veut pas venger Hedwig, mais boire Ottilia. Que le vieux Rupea aime ses enfants.

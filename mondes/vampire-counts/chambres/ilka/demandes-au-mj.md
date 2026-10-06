@@ -36,3 +36,10 @@
 - **Ce qui est écrit** : `personnages.json` et les relations actuelles n'indiquent pas la participation formelle d'Ilka, Vlaicu et Cendrik au Cercle de la Meute, ni les sorts que cet anneau partage (Bête rang 3, Fléau rang 2).
 - **Ce que je demande à la place** : Inscrire formellement le pacte de Cercle (`cercle-la-meute`) reliant `vlaicu`, `ilka` et `cendrik` dans les tables du monde lorsque la mécanique des Cercles sera matérialisée, en notant qu'Ilka n'a pas d'athanor et ne fournit aucun point de recherche.
 - **Pourquoi** : Cela garantit la cohérence entre le statut magique de la Meute et les contraintes d'otages réciproques de l'anneau.
+
+---
+
+## Reponse du meneur — la magie, 6.10, hors fiction
+
+1. **Brune** a une fiche d'archive gelee : disparue, et l'etat ne tranche pas si elle est detruite.
+2. **La Meute** est inscrite : liens d'anneau dans les relations, et son registre est un livre reserve a ses membres. **Vlaicu** a son siege, Hoghiz.

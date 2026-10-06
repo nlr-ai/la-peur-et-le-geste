@@ -56,3 +56,9 @@ Ce fichier consigne les points techniques et d'état qui méritent arbitrage hor
 - **Ce que je demande à la place** : Consigner formellement Brune comme personnage historique disparu/détruit de la maison de Hoghiz dans la mémoire du monde ou une fiche gelée d'archive.
 - **Pourquoi** : C'est sa disparition qui a ouvert l'anneau et permis à Cendrik d'y entrer. Pour un arpenteur méthodique, savoir si elle est morte ou en torpeur sous les bois de Comăna conditionne la certitude de la vacance de sa place dans l'anneau.
 
+---
+
+## Reponse du meneur — la magie, 6.10, hors fiction
+
+1. **Les liens d'anneau** sont inscrits dans les relations (`cercle:la-meute — voisin d'anneau`), avec Ilka et Vlaicu.
+2. **Brune** a une fiche d'archive gelee ; si elle est detruite ou en torpeur, personne ne le sait.

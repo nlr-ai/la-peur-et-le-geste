@@ -1,0 +1,145 @@
+{
+ "id": "registre-de-l-academie",
+ "titre": "Le registre de l'Academie de Sighisoara",
+ "sous_titre": "Le plus ancien Cercle du pays : six membres de quatre lignees, quatre athanors.",
+ "type": "registre",
+ "embleme": "🏛",
+ "couleur": "#2e2a33",
+ "tenu_par": "malachie",
+ "office": "Ce que l'anneau a trouve, et ce qu'il cherche",
+ "lieu_id": "sighisoara",
+ "salle_id": "athanor-sighisoara",
+ "lecteurs": [
+  "malachie",
+  "sulpice",
+  "radomir",
+  "gontran",
+  "nicodim",
+  "ossiane",
+  "sever"
+ ],
+ "maison_id": "maison-malachie",
+ "tables": [
+  {
+   "titre": "L'anneau",
+   "colonnes": [
+    "Membre",
+    "Sang",
+    "Lie a",
+    "Athanor"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**Malachie**",
+      "Stryge",
+      "Sulpice et Ossiane",
+      "le plus grand du pays"
+     ]
+    },
+    {
+     "cellules": [
+      "**Sulpice**",
+      "Sepulcral",
+      "Malachie et Radomir",
+      "sous la terre morte de Mediaș"
+     ]
+    },
+    {
+     "cellules": [
+      "**Radomir**",
+      "Vorace",
+      "Sulpice et Gontran",
+      "aucun"
+     ]
+    },
+    {
+     "cellules": [
+      "**Gontran**",
+      "Ecarlate",
+      "Radomir et Nicodim",
+      "une tour d'Agnita"
+     ]
+    },
+    {
+     "cellules": [
+      "**Nicodim**",
+      "Voile",
+      "Gontran et Ossiane",
+      "derriere la chapelle d'Odorheiu"
+     ]
+    },
+    {
+     "cellules": [
+      "**Ossiane**",
+      "Stryge",
+      "Nicodim et Malachie",
+      "aucun : elle jeune"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Ce que l'anneau a trouve",
+   "colonnes": [
+    "Ecole",
+    "Rang",
+    "Sorts debloques"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Augure",
+      "7",
+      "Lire le sang, Premonition, Seconde lecture, Presage, Carte des veines, Seconde vue, Reve de torpeur, Fil du destin"
+     ]
+    },
+    {
+     "cellules": [
+      "Fleau",
+      "4",
+      "Malediction mineure, Cendres, Peste, Malediction de langueur, Malediction de represailles"
+     ]
+    },
+    {
+     "cellules": [
+      "Necromancie",
+      "3",
+      "Relever les morts, Parler aux morts, Moisson, Gardiens des tombes"
+     ]
+    },
+    {
+     "cellules": [
+      "Ombre",
+      "2",
+      "Brume, Voile"
+     ]
+    },
+    {
+     "cellules": [
+      "Hemomancie",
+      "1",
+      "Chaines de sang, Soif apaisee"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Ce qu'il cherche",
+   "colonnes": [
+    "Ecole",
+    "Vers",
+    "Qui a paye"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Augure",
+      "la Prophetie (rang 8), environ sept ans et demi",
+      "Malachie, presque toujours"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -54,3 +54,11 @@ Date : an 1, 11e lune, 3e jour.
 - **Ce que je demande à la place :** Créer une fiche, une tête et une chambre pour **Sulpice**, Sépulcral ancien doté d'un athanor dans les fosses de Mediaș, lié à Malachie et Radomir.
 - **Pourquoi :** Sulpice est le quatrième détenteur d'athanor de l'Académie. Sa recherche nécromantique et les fosses qu'il creuse vers la colline de Sighișoara constituent un maillon essentiel de l'anneau qui lie Nicodim, Gontran et Radomir.
 
+---
+
+## Reponse du meneur — la magie, 6.10, hors fiction
+
+1. **Malachie** : fiche gelee (Sighisoara), a promouvoir s'il entre en jeu.
+2. **Ossiane** : fiche, tete et chambre (Racoș).
+3. **Sulpice** : fiche gelee (Mediaș).
+- Ton anneau est inscrit dans les relations (`cercle:academie-de-sighisoara — voisin d'anneau`), et le registre de l'Academie est un livre reserve a ses membres.

@@ -54,15 +54,17 @@
  {
   "personnage_id": "sever",
   "croyances": [
-   "Teodor a peur de son pere et n'a personne d'autre que lui.",
-   "Son pere Nicodim est pret : la malediction n'attend qu'une nuit ou une porte reste ouverte, une goule ailleurs, un pensionnaire au sommeil profond.",
-   "Teodor a dit qu'il reflechirait. C'est un oui qui n'ose pas encore."
+   "Son pere tient debout sur deux secrets, et lui seul les tient tous les deux : Margit, detruite par une malediction partie d'Odorheiu pour une veine refusee (« solde », dans le livre) ; et Ottilia, la dormeuse de la crypte, qui a detruit Hedwig la Grise et se cache des Stryges. Le jour ou Nicodim tombe, tout va a son pensionnaire : Odorheiu, ses serments, le grand livre. A lui.",
+   "Deux portes. A Rupea : si Teodor ouvre, la malediction d'Odorheiu frappe Anselm, et il s'arrangera pour qu'on sache d'ou vient le coup — et d'ou etait venu celui qui a detruit Margit ; toutes les maisons stryges sauront que l'Abbe a frappe deux fois le sang de Rupea. Sous la chapelle : il a dit a Ossiane quelles nuits les goules changent de garde, sans rien demander.",
+   "Teodor a peur de son pere et n'a personne d'autre que lui. Il le plaint, et c'est vrai. Il a dit qu'il reflechirait : c'est un oui qui n'ose pas encore."
   ],
   "ignore": [
-   "Que Teodor doute de la nuit des bois du sud.",
+   "Que le vieux Rupea aime ses enfants, et que la Criniere le sait.",
+   "Qu'Ossiane ne veut pas venger Hedwig, mais boire Ottilia — et qu'elle pourrait avoir faim de lui aussi.",
+   "Que Teodor hesite vraiment, et doute de la nuit des bois du sud.",
    "Qu'Anselm sait depuis le debut que Teodor parle aux envoyes voiles."
   ],
-  "intention": "Revenir a Rupea le 15 chercher la reponse, et fixer la nuit.",
+  "intention": "Revenir a Rupea le 15 chercher la reponse de Teodor et fixer la nuit — sans que son pere voie l'autre porte.",
   "plan": [
    {
     "id": "sever-retour",
@@ -84,7 +86,7 @@
     "une_fois": true
    }
   ],
-  "attitude_joueur": "il le croit gagne d'avance",
+  "attitude_joueur": "il le plaint sincerement, et il s'en sert",
   "date_maj": {
    "annee": 1,
    "lune": 11,
@@ -491,6 +493,47 @@
    }
   ],
   "attitude_joueur": "un nom que sa maitresse prononce mal",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
+ },
+ {
+  "personnage_id": "ossiane",
+  "croyances": [
+   "Ottilia a detruit Hedwig : Vautrin a dit le nom, la nuit ou elle l'a bu. Elle dort depuis cent trente ans sous la chapelle d'Odorheiu et se reveillera le vase le plus plein du pays.",
+   "Sever, le fils fidele, lui a donne les nuits de garde de la crypte sans rien demander : ce fils-la veut quelque chose que la chute de son pere lui donnerait.",
+   "Malachie ne vengera jamais Hedwig. Anselm a tout herite et n'a rien fait ; si Rupea tombait a Odorheiu, l'Abbe serait plus fort et la crypte mieux gardee."
+  ],
+  "ignore": [
+   "Qu'Anselm aime ses enfants.",
+   "Ce que Sever prepare a Rupea avec Teodor."
+  ],
+  "intention": "Attendre une nuit de garde, ou le signe que la dormeuse s'eveille — et proteger Anselm s'il le faut, pour de mauvaises raisons.",
+  "plan": [
+   {
+    "id": "ossiane-crypte",
+    "quoi": "Entrer dans la crypte d'Odorheiu une nuit ou la garde change, et boire Ottilia tout entiere a son reveil",
+    "etat": "a-faire",
+    "jours_restants": 90,
+    "depend_de": [],
+    "cout": [
+     "une nuit de changement de garde",
+     "un signe du reveil d'Ottilia",
+     "le jeune tenu jusque-la"
+    ],
+    "si_bloque": "Sans signe du reveil, elle n'entre pas : elle retourne a Racoș, jeune encore, et attend la nuit de garde suivante."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "on apprend qu'Ottilia remue sous la chapelle",
+    "alors": "Elle part pour Odorheiu la nuit meme, sans attendre la garde.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "le pensionnaire de son frere de sang ; un vase qu'elle n'a pas encore regarde",
   "date_maj": {
    "annee": 1,
    "lune": 11,

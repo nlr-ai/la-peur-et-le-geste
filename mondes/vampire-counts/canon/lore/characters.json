@@ -7,7 +7,14 @@
     "lore/ilka.md",
     "lore/cendrik.md",
     "lore/konstantin.md",
-    "docs/LORE_RECIT.md (prologue : Gontran)"
+    "docs/LORE_RECIT.md (prologue : Gontran)",
+    "lore/sever.md",
+    "lore/ossiane.md",
+    "lore/malachie.md",
+    "lore/gontran.md",
+    "lore/vlaicu.md",
+    "lore/sulpice.md",
+    "docs/LORE_CERCLES.md"
   ],
   "note": "Personnages d'exploration narrative, sans règle de jeu. Nature et Masque : voir docs/NATURES_MASQUES.md.",
   "characters": [
@@ -60,7 +67,13 @@
       "infants_count": 11,
       "infants_remaining_at_anselm_arrival": 4,
       "heir": "anselm",
-      "destroyed_years_ago": 140
+      "destroyed_years_ago": 140,
+      "elder": "malachie",
+      "infants_known": [
+        "anselm",
+        "ossiane",
+        "vautrin"
+      ]
     },
     {
       "id": "margit",
@@ -105,7 +118,14 @@
         "La lettre fermée",
         "Ilka"
       ],
-      "story": "lore/konstantin.md"
+      "story": "lore/konstantin.md",
+      "circle": {
+        "id": "enfants_trouves",
+        "neighbors": [
+          "cassien",
+          "ronce"
+        ]
+      }
     },
     {
       "id": "ilka",
@@ -139,7 +159,14 @@
         "Un ordre de Vlaicu contre Rupea",
         "Ses lettres lues par un autre"
       ],
-      "story": "lore/ilka.md"
+      "story": "lore/ilka.md",
+      "circle": {
+        "id": "cercle_meute",
+        "neighbors": [
+          "vlaicu",
+          "cendrik"
+        ]
+      }
     },
     {
       "id": "teodor",
@@ -182,7 +209,28 @@
       "status": "active",
       "serves": "nicodim",
       "summary": "Envoyé du Voilé de l'est. Venu à Rupea il y a quinze ans pour une veine refusée ; a approché Teodor et revient tous les deux ou trois ans. Demande désormais qu'une nuit, une porte reste ouverte pour une malédiction contre Anselm.",
-      "sire": "nicodim"
+      "sire": "nicodim",
+      "role": "Pensionnaire d'Odorheiu, héritier selon le droit du sire",
+      "embraced_years_ago": 80,
+      "nature": "Intrigant",
+      "mask": "Fidèle",
+      "figure": "Le Confident",
+      "mortal_life": "Prêtre confesseur à Odorheiu, à qui l'on disait tout.",
+      "wants": "Odorheiu, et le grand livre qui va avec.",
+      "fears": "Que quelqu'un le connaisse aussi bien qu'il connaît les autres.",
+      "secret": "Connaît les deux secrets de Nicodim (Margit, Ottilia). Prépare deux portes : celle de Rupea, pour que le coup soit attribué à Odorheiu ; celle de la crypte, dont il a donné les nuits de garde à Ossiane. Veut la chute de son père pour hériter.",
+      "reputation": "L'envoyé parfait, à la parole d'or, le fils le plus fidèle de l'est.",
+      "contacts": [
+        "teodor",
+        "ossiane"
+      ],
+      "mask_threats": [
+        "Teodor",
+        "Ossiane",
+        "Nicodim",
+        "Sa compassion sincère pour Teodor"
+      ],
+      "story": "lore/sever.md"
     },
     {
       "id": "famille_mortelle_teodor",
@@ -226,7 +274,14 @@
         "Teodor",
         "Les infants d'Hedwig, si Ottilia s'éveille"
       ],
-      "story": "lore/nicodim.md"
+      "story": "lore/nicodim.md",
+      "circle": {
+        "id": "academie_sighisoara",
+        "neighbors": [
+          "gontran",
+          "ossiane"
+        ]
+      }
     },
     {
       "id": "radomir",
@@ -260,7 +315,14 @@
         "Ilka vue sortant vivante de ses bois",
         "Nicodim, qui voudrait le secret de Rupea"
       ],
-      "story": "lore/radomir.md"
+      "story": "lore/radomir.md",
+      "circle": {
+        "id": "academie_sighisoara",
+        "neighbors": [
+          "sulpice",
+          "gontran"
+        ]
+      }
     },
     {
       "id": "famille_mortelle_anselm",
@@ -286,7 +348,8 @@
         "hedwig"
       ],
       "secret": "C'est elle, le « seigneur voilé sans nom » qui a détruit Hedwig il y a cent quarante ans, pour la citadelle de Rupea. Le droit du sire a tout donné à Anselm. Une infant d'Hedwig a retrouvé sa trace dix ans plus tard ; elle s'est réfugiée dans la torpeur pour échapper à la vengeance des Stryges.",
-      "enemies": "Les infants survivants d'Hedwig"
+      "enemies": "Les infants survivants d'Hedwig, surtout Ossiane, qui attend son réveil pour la boire.",
+      "former_circle": "academie_sighisoara"
     },
     {
       "id": "vlaicu",
@@ -298,7 +361,37 @@
       "infants": [
         "radomir"
       ],
-      "summary": "Vorace énorme à la crinière grise, sire et chef de Radomir. A étreint Radomir par amusement, pour voir ce que donnerait un homme qui ne fuyait pas. Méprise la retenue : pour lui, la Bête est un don."
+      "summary": "Vorace énorme à la crinière grise, sire et chef de Radomir. A étreint Radomir par amusement, pour voir ce que donnerait un homme qui ne fuyait pas. Méprise la retenue : pour lui, la Bête est un don.",
+      "known_as": "La Meute",
+      "seat": "Hoghiz",
+      "oath": "Aîné des Voraces",
+      "embraced_years_ago": 300,
+      "mask": "Patriarche",
+      "figure": "Le Père dévorant",
+      "mortal_life": "Un hiver de faim dans une cabane de la forêt, onze frères au début de l'hiver, quatre au printemps.",
+      "wants": "Manger, tout, et d'abord ce qui lui appartient.",
+      "fears": "Rien.",
+      "secret": "Aime ses petits comme on aime ce qu'on va manger. Certains de ses petits ne sont jamais revenus de la chasse. Prépare une grande chasse de toute la meute dans les bois de Comăna, pour vider les bois ou voir enfin la Bête de Radomir.",
+      "reputation": "Le grand père de la meute, généreux, rieur, qui accueille tous les rejetés.",
+      "vassals": [
+        "radomir",
+        "ilka"
+      ],
+      "suspects": "Les bois de Radomir sont pleins : une vraie bête ne laisse pas de gibier.",
+      "mask_threats": [
+        "Radomir pendant la grande chasse",
+        "Ilka si elle cesse de payer",
+        "Un survivant de ceux qui ne sont pas revenus",
+        "Cendrik"
+      ],
+      "story": "lore/vlaicu.md",
+      "circle": {
+        "id": "cercle_meute",
+        "neighbors": [
+          "cendrik",
+          "ilka"
+        ]
+      }
     },
     {
       "id": "cendrik",
@@ -333,7 +426,15 @@
         "Son carnet",
         "Radomir poussé à bout"
       ],
-      "story": "lore/cendrik.md"
+      "story": "lore/cendrik.md",
+      "sire": "sulpice",
+      "circle": {
+        "id": "cercle_meute",
+        "neighbors": [
+          "ilka",
+          "vlaicu"
+        ]
+      }
     },
     {
       "id": "gontran",
@@ -348,19 +449,305 @@
         "konstantin"
       ],
       "summary": "Seigneur d'Agnita (prologue de LORE_RECIT). A recueilli Konstantin dans la neige et lui a donné Dealu Frumos. Récemment bu par Cendrik à la chasse ; a inscrit son nom dans son registre sans le dire à personne.",
-      "source": "docs/LORE_RECIT.md"
+      "source": "docs/LORE_RECIT.md",
+      "oath": "Aîné des Écarlates",
+      "embraced_years_ago": 200,
+      "nature": "Paranoïaque",
+      "mask": "Patriarche",
+      "figure": "Le Faux père",
+      "mortal_life": "Cadet d'une maison noble ; a vu son père tué par son frère aîné, puis son frère par son neveu, pour la même terre. Devenu chevalier pour ne rien hériter.",
+      "wants": "Que personne de son sang ne lui succède jamais.",
+      "fears": "Thibaut, son pensionnaire.",
+      "secret": "S'entoure d'enfants trouvés d'autres sangs parce qu'ils ne peuvent pas hériter de lui. A soufflé à Konstantin son Masque d'ambitieux pour détourner la peur de Thibaut. Le nom inscrit dans son registre la nuit des cendres est celui de Thibaut, pas celui du Sépulcral.",
+      "reputation": "Le père de tous, dont la cour est la maison des enfants trouvés.",
+      "infants": [
+        "thibaut"
+      ],
+      "plans": "Pousser Konstantin et Thibaut l'un contre l'autre, sans rien faire lui-même.",
+      "mask_threats": [
+        "Le registre",
+        "Thibaut",
+        "Konstantin revenant vainqueur de Cendrik",
+        "La lettre fermée de Konstantin"
+      ],
+      "story": "lore/gontran.md",
+      "circle": {
+        "id": "academie_sighisoara",
+        "neighbors": [
+          "radomir",
+          "nicodim"
+        ]
+      }
     },
     {
-      "id": "pensionnaire_agnita",
-      "name": null,
+      "id": "thibaut",
+      "name": "Thibaut",
       "known_as": "Le pensionnaire d'Agnita",
       "kind": "vampire",
       "lineage": "Écarlates",
       "status": "active",
       "sire": "gontran",
       "role": "Pensionnaire, héritier selon le droit du sire",
-      "summary": "Infant le plus âgé et sans terre de Gontran. Regarde Gontran, et Konstantin, un peu trop longtemps : croit que le champion veut Agnita.",
+      "summary": "Infant le plus âgé et sans terre de Gontran. A regardé son père rentrer bu, et son nom a été inscrit au registre ce soir-là. Croit que Konstantin veut Agnita.",
       "source": "docs/LORE_RECIT.md"
+    },
+    {
+      "id": "ossiane",
+      "name": "Ossiane",
+      "known_as": "Racoș",
+      "kind": "vampire",
+      "lineage": "Stryges",
+      "status": "active",
+      "seat": "Racoș",
+      "oath": "malachie",
+      "sire": "hedwig",
+      "embraced_years_ago": 280,
+      "nature": "Collectionneur",
+      "mask": "Ascète",
+      "figure": "Le Jeûneur",
+      "wants": "Boire Ottilia tout entière le jour de son réveil.",
+      "fears": "Qu'un autre la boive avant elle.",
+      "secret": "Ne veut pas venger Hedwig : veut diableriser Ottilia, chargée de 130 ans de torpeur. A diablerisé son frère de sang Vautrin pour apprendre le nom d'Ottilia. Son jeûne est une diète. Sever lui a donné les nuits de garde de la crypte.",
+      "reputation": "Gardienne du deuil d'Hedwig, qui jeûne et attend une vengeance qui ne vient pas.",
+      "watches": [
+        "ottilia",
+        "malachie",
+        "anselm",
+        "sever"
+      ],
+      "diablerized": [
+        "vautrin"
+      ],
+      "mask_threats": [
+        "La nuit de la crypte",
+        "La disparition de Vautrin",
+        "Sever",
+        "Sa faim face à un autre vase plein"
+      ],
+      "story": "lore/ossiane.md",
+      "circle": {
+        "id": "academie_sighisoara",
+        "neighbors": [
+          "nicodim",
+          "malachie"
+        ]
+      }
+    },
+    {
+      "id": "vautrin",
+      "name": "Vautrin",
+      "kind": "vampire",
+      "lineage": "Stryges",
+      "status": "destroyed",
+      "sire": "hedwig",
+      "destroyed_by": "ossiane",
+      "destruction": "Diablerisé à Racoș, il y a environ 130 ans ; on a dit qu'il était parti vers le nord.",
+      "summary": "Infant d'Hedwig, endetté auprès d'Ottilia, qui buvait trop et parlait trop. A livré à Ossiane le nom d'Ottilia."
+    },
+    {
+      "id": "malachie",
+      "name": "Malachie",
+      "known_as": "L'Aîné des Stryges",
+      "kind": "vampire",
+      "lineage": "Stryges",
+      "status": "active",
+      "role": "Aîné, chef sans chef",
+      "seat": "Sighișoara",
+      "age": "inconnu",
+      "nature": "Survivant",
+      "mask": "Érudit",
+      "figure": "Le Dormeur",
+      "wants": "Être encore là quand tous les autres auront disparu.",
+      "fears": "Ce qui dort sous la colline de Sighișoara.",
+      "secret": "Ne venge jamais personne tant qu'aucune branche n'est détruite. Son Cercle est un rempart d'otages ; ses recherches ne portent que sur la torpeur et la manière de se cacher. Sait que quelque chose dort sous la colline depuis le commencement.",
+      "reputation": "Le plus grand savant de la nuit, au-dessus des querelles, qui pense en siècles.",
+      "holds": [
+        "Le plus grand athanor du pays",
+        "Un Cercle de toutes les lignées"
+      ],
+      "descendants_known": [
+        "hedwig",
+        "anselm",
+        "ossiane",
+        "teodor",
+        "ilka",
+        "konstantin"
+      ],
+      "blind_spot": "Ossiane, qu'il croit pieuse.",
+      "mask_threats": [
+        "Une guerre de vengeance stryge",
+        "Le Cercle découvrant le but des recherches",
+        "Ossiane",
+        "Le réveil de ce qui dort sous la colline"
+      ],
+      "story": "lore/malachie.md",
+      "circle": {
+        "id": "academie_sighisoara",
+        "neighbors": [
+          "ossiane",
+          "sulpice"
+        ]
+      }
+    },
+    {
+      "id": "sulpice",
+      "name": "Sulpice",
+      "known_as": "L'Ogre de Mediaș",
+      "kind": "vampire",
+      "lineage": "Sépulcraux",
+      "status": "active",
+      "seat": "Mediaș",
+      "oath": "Aîné des Sépulcraux",
+      "embraced_years_ago": 400,
+      "nature": "Érudit",
+      "mask": "Prédateur",
+      "figure": "Le Monstre des légendes",
+      "mortal_life": "Moine fossoyeur qui a remarqué que les morts les plus anciens étaient enterrés face contre terre, sous des pierres.",
+      "wants": "Voir ce qui est descendu sur la colline de Sighișoara.",
+      "fears": "Qu'on vienne le déranger avant qu'il ait compris.",
+      "secret": "Relève les morts les plus anciens pour les interroger, pas pour se battre. A fait étreindre Cendrik pour ses cartes, qui lui servent de cartes de fouilles. Creuse en secret vers la colline de Sighișoara, dans le dos de Malachie ; les morts les plus profonds parlent d'un battement.",
+      "reputation": "L'Ogre, le plus terrible des Sépulcraux, qui vide les tombes.",
+      "infants": [
+        "cendrik"
+      ],
+      "circle": {
+        "id": "academie_sighisoara",
+        "neighbors": [
+          "malachie",
+          "radomir"
+        ]
+      },
+      "mask_threats": [
+        "Malachie découvrant la fosse",
+        "Cendrik comprenant ses cartes",
+        "Les villages remarquant qu'il tue peu",
+        "Ce qui bat sous la colline"
+      ],
+      "story": "lore/sulpice.md"
+    },
+    {
+      "id": "ronce",
+      "name": "Ronce",
+      "kind": "vampire",
+      "lineage": "Voraces",
+      "status": "active",
+      "oath": "gontran",
+      "summary": "Vorace bannie de sa meute, enfant trouvée de Gontran. Membre du Cercle des Enfants trouvés ; ne paie jamais, ne veut rien de la magie.",
+      "circle": {
+        "id": "enfants_trouves",
+        "neighbors": [
+          "konstantin",
+          "cassien"
+        ]
+      },
+      "source": "docs/LORE_CERCLES.md"
+    },
+    {
+      "id": "cassien",
+      "name": "Cassien",
+      "kind": "vampire",
+      "lineage": "Voilés",
+      "status": "active",
+      "oath": "gontran",
+      "summary": "Voilé sans maître, enfant trouvé de Gontran, tient une petite ville au nord d'Agnita avec un athanor. A payé une fois pour l'Augure (Seconde lecture).",
+      "circle": {
+        "id": "enfants_trouves",
+        "neighbors": [
+          "ronce",
+          "konstantin"
+        ]
+      },
+      "source": "docs/LORE_CERCLES.md"
+    },
+    {
+      "id": "brune",
+      "name": "Brune",
+      "kind": "vampire",
+      "lineage": "Voraces",
+      "status": "unknown",
+      "summary": "Installée vorace de la lisière, ancien membre du Cercle de la Meute. Partie chasser avec Vlaicu il y a une dizaine d'années, jamais revenue.",
+      "former_circle": "cercle_meute",
+      "source": "docs/LORE_CERCLES.md"
+    }
+  ],
+  "circles": [
+    {
+      "id": "academie_sighisoara",
+      "name": "L'Académie de Sighișoara",
+      "founder": "malachie",
+      "ring": [
+        "malachie",
+        "sulpice",
+        "radomir",
+        "gontran",
+        "nicodim",
+        "ossiane"
+      ],
+      "athanors": [
+        "malachie",
+        "sulpice",
+        "gontran",
+        "nicodim"
+      ],
+      "points_per_year": 80,
+      "research": {
+        "augury": 2600,
+        "blight": 900,
+        "necromancy": 460,
+        "shadow": 250,
+        "hemomancy": 60
+      },
+      "priority": "augury",
+      "next": "Rang 8 (Prophétie), dans environ 7,5 ans",
+      "former_members": [
+        "ottilia"
+      ]
+    },
+    {
+      "id": "cercle_meute",
+      "name": "Le Cercle de la Meute",
+      "founder": "vlaicu",
+      "ring": [
+        "vlaicu",
+        "ilka",
+        "cendrik"
+      ],
+      "athanors": [
+        "vlaicu",
+        "cendrik"
+      ],
+      "points_per_year": 28,
+      "research": {
+        "beast": 470,
+        "blight": 200
+      },
+      "priority": "beast",
+      "next": "Rang 5 (Meute alpha), dans près de 30 ans",
+      "former_members": [
+        "brune"
+      ]
+    },
+    {
+      "id": "enfants_trouves",
+      "name": "Le Cercle des Enfants trouvés",
+      "founder": "gontran (non-membre)",
+      "ring": [
+        "konstantin",
+        "ronce",
+        "cassien"
+      ],
+      "athanors": [
+        "konstantin",
+        "cassien"
+      ],
+      "points_per_year": 28,
+      "research": {
+        "hemomancy": 820,
+        "augury": 300,
+        "tempest": 120
+      },
+      "priority": "tempest",
+      "next": "Rang 2 (Vent noir), dans environ 3 ans"
     }
   ]
 }
