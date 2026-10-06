@@ -1,0 +1,210 @@
+/* VAMPIRE COUNTS — l'habillage de la partie.
+   La citadelle de Rupea sur son rocher noir. Le cadre est de basalte ; chaque
+   colonne est une page de registre posée dessus, bordée d'un double filet
+   d'argent terni ; l'encre est brune-noire, et le rouge — sang séché, jamais
+   vif — ne marque que ce qui engage ou ce qui saigne.
+
+   DEUX LUMIÈRES, un seul livre. Le système en clair : un parchemin vieilli,
+   lu à la chandelle. Le système en sombre : la même page dans la nuit de la
+   citadelle — vélin noirci, encre d'os. Le cadre de basalte ne change pas.
+   La lumière du jour (modules/lumiere.js) ne teinte pas la page : un maître
+   ne voit jamais le jour, et --fond porte !important, seul moyen de battre le
+   style en ligne que lumiere.js pose sur <html>.
+
+   Textures fabriquées ici, par bruit spectral (tuiles raccordables) :
+   basalte.webp, parchemin.webp, velin-nuit.webp ; logo.svg dessiné à la main.
+   Aucune image tirée d'ailleurs.
+
+   Chargée en DERNIER (voir serveur/routes/habillage.js) : elle surcharge
+   jeu.css et ne retire rien. Elle ne connaît que des sélecteurs de jeu.css ;
+   si l'un d'eux change de nom là-bas, la page retombe sur son dessin ivoire,
+   elle ne casse pas. */
+
+:root{
+  --hb-haut:64px;            /* le bandeau : titre gravé à gauche, couronne à droite */
+  --hb-bas:14px;
+  --hb-cote:18px;
+  --hb-basalte:#141416;
+  --hb-argent:#a7acb1;       /* l'argent terni des libellés sur la pierre */
+  --hb-argent-vif:#d6d9dc;
+  --hb-filet:#7f858b;        /* le filet d'argent des pages et des boutons */
+  --hb-pierre:linear-gradient(#2c2c31,#151518);
+  --hb-pierre-survol:linear-gradient(#3a2325,#1d1213);
+  --hb-sang-seche:#6e1714;
+  --hb-lettres:'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif;
+  --hb-page:#e4d4b3 url('/habillage/parchemin.webp') 0 0/512px 512px repeat;
+  --hb-page-ombre:inset 0 0 60px rgba(84,56,24,.28), inset 0 0 6px rgba(84,56,24,.35);
+  --hb-case:#f1e7d2;
+
+  /* l'encre du registre : brune-noire, et des gris assez sombres pour qu'un
+     récit en --muted se lise une heure durant sur le parchemin */
+  --ink:#24180f; --muted:#4f3f2e; --paper:rgba(90,60,30,.08);
+  --bord:rgba(92,70,44,.42); --accent:#7c1d19; --braise:#8a2a22;
+  --btn:rgba(60,45,30,.08); --btn-hover:rgba(124,29,25,.13);
+  --fond:#e4d4b3 !important; --jour-lueur:transparent !important;
+  --fond-lateral:transparent;
+  --pensee:#4a3f63; --monde:#46554c; --sang:#7a1414; --vert:#3d5a3e;
+  --loge:#32596a; --or-joueur:#9a7a1c;
+  --book-registre:#5a3d1c; --book-carnet:#4a3f63; --book-plan:#7c1d19;
+  --book-memento:#46554c; --book-dossier:#32596a; --book-regle:#7a1414;
+  --book-oeuvre:#7a5e1a;
+}
+/* la nuit de la citadelle : vélin noirci, encre d'os, sang plus clair pour
+   garder son contraste sur le noir */
+@media (prefers-color-scheme: dark){
+  :root{
+    --hb-page:#1c1816 url('/habillage/velin-nuit.webp') 0 0/512px 512px repeat;
+    --hb-page-ombre:inset 0 0 70px rgba(0,0,0,.55), inset 0 0 4px rgba(0,0,0,.6);
+    --hb-case:#120f0e;
+    --ink:#e2d7c3; --muted:#b3a58e; --paper:rgba(230,215,190,.05);
+    --bord:rgba(175,182,188,.26); --accent:#c9574f; --braise:#c4605a;
+    --btn:rgba(230,215,190,.06); --btn-hover:rgba(201,87,79,.16);
+    --fond:#1c1816 !important;
+    --pensee:#ab9fc6; --monde:#97a69c; --sang:#d2554c; --vert:#7da37e;
+    --loge:#7db3c4; --or-joueur:#e2c35a;
+    --book-registre:#c6a274; --book-carnet:#ab9fc6; --book-plan:#c9574f;
+    --book-memento:#97a69c; --book-dossier:#7db3c4; --book-regle:#d2554c;
+    --book-oeuvre:#cfb062;
+  }
+}
+
+/* ------- le rocher : du basalte, partout où il n'y a pas de page ------- */
+html{background:var(--hb-basalte);}
+body{box-sizing:border-box;padding:var(--hb-haut) var(--hb-cote) var(--hb-bas);
+  column-gap:10px;
+  background:var(--hb-basalte) url('/habillage/basalte.webp') 0 0/512px 512px repeat fixed;}
+::selection{background:#7c1d1940;}
+*{scrollbar-color:#8a8f95 transparent;}
+
+/* ------- le bandeau : le nom de la place, gravé ; la couronne noire ------- */
+#habillage-bandeau{position:fixed;top:0;left:0;right:0;height:var(--hb-haut);
+  z-index:4;pointer-events:none;
+  background:linear-gradient(to bottom,rgba(0,0,0,.45),transparent);
+  border-bottom:1px solid transparent;}
+#habillage-bandeau::after{content:"";position:absolute;left:var(--hb-cote);right:var(--hb-cote);
+  bottom:6px;height:1px;
+  background:linear-gradient(to right,transparent,#7f858b99 12%,#7f858b99 88%,transparent);}
+#habillage-bandeau .hb-titre{position:absolute;left:calc(var(--hb-cote) + 66px);
+  top:calc(var(--hb-haut) / 2 - 15px);
+  font:400 17px/1.4 var(--hb-lettres);letter-spacing:.2em;text-transform:uppercase;
+  color:var(--hb-argent);white-space:nowrap;
+  text-shadow:0 1px 0 #000,0 -1px 0 #ffffff14;}
+#habillage-bandeau .hb-logo{position:absolute;right:calc(var(--hb-cote) + 4px);top:6px;
+  height:calc(var(--hb-haut) - 16px);width:auto;opacity:.92;}
+
+/* ------- les pages : chaque colonne est un feuillet de registre -------
+   Fond en tuile (le parchemin raccorde), ombre portée vers l'intérieur pour
+   l'âge des bords, et le double filet d'argent en ombres pleines : pas de
+   `filter` sur les colonnes, qui ferait des contenants pour les éléments fixes
+   qu'elles portent. */
+#fil, #scene, #lateral:not(.ferme){
+  height:calc(100vh - var(--hb-haut) - var(--hb-bas));
+  background:var(--hb-page);
+  border:0;border-radius:2px;
+  box-shadow:var(--hb-page-ombre),
+    0 0 0 1px #8d9399aa, 0 0 0 4px #17171a, 0 0 0 5px #6c727866,
+    0 6px 18px rgba(0,0,0,.65);}
+#fil{padding:22px 26px 16px;}
+#scene{padding:18px 18px 14px;}
+
+/* le corps du fil : un peu plus grand que l'ivoire, interligné large — c'est
+   la colonne qu'on lit longtemps */
+#fil-corps .chr{font-size:.84em;line-height:1.66;}
+#fil-corps .chr-breve{font-size:.78em;}
+#fil-corps .chr-recit{color:var(--ink);opacity:.9;}
+.chr-qui{font-family:var(--hb-lettres);letter-spacing:.08em;}
+
+/* les présents : hors des pages, sur la pierre — leurs noms en argent */
+#acteurs{height:calc(100vh - var(--hb-haut) - var(--hb-bas));background:none;
+  border-right:0;padding:6px 4px;}
+#acteurs .acteur .qui{color:var(--hb-argent);text-shadow:0 1px 2px #000;}
+#acteurs .acteur.parle .qui{color:var(--hb-argent-vif);}
+#acteurs .acteur .medaillon svg{filter:drop-shadow(0 2px 3px #000c);}
+.acteurs-tri{background:var(--hb-pierre);color:var(--hb-argent);border-color:var(--hb-filet);}
+.acteurs-tri:hover{background:var(--hb-pierre-survol);color:var(--hb-argent-vif);}
+.acteurs-bas{color:var(--hb-argent);background:linear-gradient(to bottom,transparent,var(--hb-basalte) 72%);}
+
+/* les échelles du décor : onglets serrés, l'onglet tenu marqué de sang */
+/* elles laissent libre le coin droit, où la table pose ses filtres en colonne */
+#vue-bascule{max-width:calc(100% - 96px);margin:0 auto 3px 0;flex-wrap:wrap;row-gap:2px;}
+#vue-bascule button{padding:3px 7px;white-space:nowrap;}
+#vue-bascule button.actif{background:var(--btn-hover);border-color:var(--accent);color:var(--ink);}
+
+/* le rail replié : un fermoir de pierre à filet d'argent */
+#lateral{height:calc(100vh - var(--hb-haut) - var(--hb-bas));border-right:0;background:none;}
+#lateral.ferme{padding:4px 6px;}
+#lateral.ferme #lateral-bascule{color:var(--hb-argent);background:var(--hb-pierre);
+  border:1px solid var(--hb-filet);box-shadow:0 2px 4px #000a;}
+#lateral.ferme #lateral-bascule:hover{color:var(--hb-argent-vif);background:var(--hb-pierre-survol);}
+#lateral:not(.ferme){padding:22px 22px 20px;}
+#lateral:not(.ferme) #lateral-bascule{background:none;border-color:transparent;color:var(--muted);}
+#lateral:not(.ferme) #lateral-bascule:hover{color:var(--accent);border-color:var(--bord);}
+
+/* ------- l'encre ------- */
+.zone-titre{font-family:var(--hb-lettres);font-variant:normal;text-transform:uppercase;
+  font-size:.68em;letter-spacing:.18em;color:var(--muted);
+  border-bottom:1px solid var(--bord);}
+a{color:var(--accent);}
+
+/* ------- ce qui engage : pierre noire, filet d'argent -------
+   Le bouton d'envoi, le mode tenu, et les boutons qui tranchent. Les autres
+   gardent le trait léger de jeu.css, teinté d'encre. */
+#btn-libre, #mode-input button.actif{background:var(--hb-pierre);color:#e9e4da;
+  border:1px solid var(--hb-filet);box-shadow:0 2px 4px #0006;}
+#btn-libre:hover, #mode-input button.actif:hover{background:var(--hb-pierre-survol);
+  color:#fff6ea;border-color:#b9bec3;}
+#mode-input #mode-dire.actif, #mode-input #mode-agir.actif{color:#e9e4da;
+  border-color:var(--hb-filet);background:var(--hb-pierre);}
+#mode-input button:not(.actif){background:var(--btn);border-color:var(--bord);color:var(--muted);}
+/* la page est plus étroite que l'écran nu : les modes passent à la ligne
+   plutôt que de sortir du feuillet */
+#fil #mode-input{flex-wrap:wrap;gap:4px;}
+#fil #mode-input button{white-space:nowrap;font-size:.68em;padding:3px 10px;}
+
+/* la case d'écriture : une feuille plus claire glissée dans le registre */
+#fil .libre textarea, #champ-libre{box-sizing:border-box;background:var(--hb-case);color:var(--ink);
+  border:1px solid var(--bord);border-radius:2px;box-shadow:inset 0 1px 3px #0000002a;}
+#fil .libre textarea:focus, #champ-libre:focus{outline:none;border-color:var(--accent);
+  box-shadow:inset 0 1px 3px #0000002a,0 0 0 2px #7c1d1926;}
+#fil .libre textarea::placeholder, #champ-libre::placeholder{color:var(--muted);opacity:.8;}
+
+/* le bas de page : où l'on est, et quand */
+#bandeau{color:var(--muted);font-family:var(--hb-lettres);font-style:italic;}
+#fil #fil-actions{border-top-color:var(--bord);}
+
+/* la nuit, la pierre se perdrait sur le vélin : ce qui engage passe au sang
+   séché, toujours sous filet d'argent */
+@media (prefers-color-scheme: dark){
+  :root{
+    --hb-pierre:linear-gradient(#5a1a17,#2e0c0b);
+    --hb-pierre-survol:linear-gradient(#6e221e,#3a0f0d);
+  }
+  #acteurs .acteur .qui{color:var(--hb-argent);}
+  .acteurs-tri, #lateral.ferme #lateral-bascule{background:linear-gradient(#2c2c31,#151518);}
+}
+
+/* ------- la table peinte de la Terre des Cinq -------
+   Deux lavis posés sur le parchemin, en transparence comme ceux de jeu.css :
+   les forêts vivantes — où la brume se brise et où les vivants se cachent —
+   d'un vert noir de sapinière ; les plaines d'un ocre de chaume. L'eau qui
+   court (la Târnava) est une ardoise franche : c'est elle qui décide d'un
+   voyage, elle doit se voir d'un coup d'œil. */
+:root{
+  --mer:#8ea2aa; --hautfond:#6f848d;
+  --hb-t-forets:rgba(52,78,58,.34); --hb-t-plaines:rgba(184,150,82,.22);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --mer:#2e4550; --hautfond:#48626d;
+    --hb-t-forets:rgba(70,104,78,.30); --hb-t-plaines:rgba(176,142,80,.16);
+  }
+}
+.region-terre[data-region="forets-vivantes"]{fill:var(--hb-t-forets);}
+.region-terre[data-region="plaines"]{fill:var(--hb-t-plaines);}
+.eaux{fill:var(--mer);stroke:var(--hautfond);}
+.rivieres{fill:var(--mer);stroke:var(--hautfond);opacity:.9;}
+
+/* écrans étroits : le bandeau ne garde que la couronne */
+@media (max-width:900px){
+  #habillage-bandeau .hb-titre{display:none;}
+}

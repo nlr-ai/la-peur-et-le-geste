@@ -1,0 +1,391 @@
+{
+ "_": "LA CITADELLE DE RUPEA, VUE D'EN HAUT. Le rocher noir au milieu, l'enceinte de la Stryge posée sur son sommet, la ville basse au pied du rocher (en bas), et Homorod au bord du dessin, deux heures plus loin par la route. Les ids sont ceux de etat/chemins.json, sinon le quartier calcule sur des salles que l'écran ne montre pas. CE QUI EST CANON (manuel.md, canon/lore/anselm.md, teodor.md) : le rocher noir au-dessus de la ville basse ; la table, Teodor à gauche ; la chambre de Teodor sous celle du maître, le registre chez le maître ; les remparts que le maître longe la nuit en touchant les pierres ; la cour où Hedwig la Grise fut détruite ; la porte qu'on peut laisser ouverte ; Homorod à deux heures. CE QUI EST INVENTÉ ICI, et qu'une source canon peut défaire : la forme de l'enceinte (dix pans, une tour à chaque angle) ; le logis au nord, la table et les deux chambres côte à côte (le plan est plat : l'étage du maître est dit par le pointillé) ; les remparts dessinés comme le chemin de ronde du flanc est, sur lequel donne la chambre du maître ; la dalle plus noire au milieu de la cour, à l'endroit où Hedwig est tombée ; deux salles ajoutées : le corps de garde des goules contre la porte (parce que la porte « ouverte » se joue avec « une goule ailleurs ») et l'escalier taillé dans la roche entre la porte et la ville basse (il remplace l'arête nue porte → ville basse de 6 minutes : 3 + 3, même durée) ; les maisons de la ville basse. Pas de rose des vents : rien dans le canon n'oriente la citadelle.",
+ "nom": "La citadelle de Rupea",
+ "viewBox": "0 0 420 340",
+ "fonds": [
+  {
+   "classe": "plan-roche",
+   "style": "fill:#3b3532;fill-opacity:.32;stroke:var(--bord);stroke-width:.8;stroke-opacity:.5",
+   "d": "M58,44 L130,18 L220,14 L316,22 L376,58 L398,124 L388,196 L352,250 L290,272 L230,280 L170,274 L110,256 L66,214 L42,150 L44,90 Z"
+  }
+ ],
+ "mur": "M88,76 L160,50 L270,50 L346,82 L360,150 L334,214 L250,236 L150,232 L96,196 L76,134 Z",
+ "guet": [
+  [
+   88,
+   76
+  ],
+  [
+   160,
+   50
+  ],
+  [
+   270,
+   50
+  ],
+  [
+   346,
+   82
+  ],
+  [
+   360,
+   150
+  ],
+  [
+   334,
+   214
+  ],
+  [
+   250,
+   236
+  ],
+  [
+   150,
+   232
+  ],
+  [
+   96,
+   196
+  ],
+  [
+   76,
+   134
+  ]
+ ],
+ "decor": [
+  {
+   "classe": "plan-arete",
+   "style": "fill:none;stroke:var(--bord);stroke-width:.7;opacity:.4;stroke-linecap:round",
+   "d": "M62.0,42.6 l-1.7,-4.7 M70.0,39.7 l-2.2,-6.1 M78.0,36.8 l-2.7,-7.5 M86.0,33.9 l-1.7,-4.7 M94.0,31.0 l-2.2,-6.1 M102.0,28.1 l-2.7,-7.5 M110.0,25.2 l-1.7,-4.7 M118.0,22.3 l-2.2,-6.1 M126.0,19.4 l-2.7,-7.5 M134.5,17.8 l-0.2,-5.0 M143.5,17.4 l-0.3,-6.5 M152.5,17.0 l-0.4,-8.0 M161.5,16.6 l-0.2,-5.0 M170.5,16.2 l-0.3,-6.5 M179.5,15.8 l-0.4,-8.0 M188.5,15.4 l-0.2,-5.0 M197.5,15.0 l-0.3,-6.5 M206.5,14.6 l-0.4,-8.0 M215.5,14.2 l-0.2,-5.0 M224.4,14.4 l0.4,-5.0 M233.1,15.1 l0.5,-6.5 M241.8,15.8 l0.7,-8.0 M250.5,16.5 l0.4,-5.0 M259.3,17.3 l0.5,-6.5 M268.0,18.0 l0.7,-8.0 M276.7,18.7 l0.4,-5.0 M285.5,19.5 l0.5,-6.5 M294.2,20.2 l0.7,-8.0 M302.9,20.9 l0.4,-5.0 M311.6,21.6 l0.5,-6.5 M319.8,24.2 l2.6,-4.3 M327.2,28.8 l3.3,-5.6 M334.8,33.2 l4.1,-6.9 M342.2,37.8 l2.6,-4.3 M349.8,42.2 l3.3,-5.6 M357.2,46.8 l4.1,-6.9 M364.8,51.2 l2.6,-4.3 M372.2,55.8 l3.3,-5.6 M377.4,62.1 l4.7,-1.6 M380.1,70.4 l6.2,-2.1 M382.9,78.6 l7.6,-2.5 M385.6,86.9 l4.7,-1.6 M388.4,95.1 l6.2,-2.1 M391.1,103.4 l7.6,-2.5 M393.9,111.6 l4.7,-1.6 M396.6,119.9 l6.2,-2.1 M397.4,128.5 l5.0,0.7 M396.1,137.5 l6.4,0.9 M394.9,146.5 l7.9,1.1 M393.6,155.5 l5.0,0.7 M392.4,164.5 l6.4,0.9 M391.1,173.5 l7.9,1.1 M389.9,182.5 l5.0,0.7 M388.6,191.5 l6.4,0.9 M385.4,199.9 l4.2,2.8 M380.3,207.6 l5.4,3.6 M375.1,215.3 l6.7,4.4 M370.0,223.0 l4.2,2.8 M364.9,230.7 l5.4,3.6 M359.7,238.4 l6.7,4.4 M354.6,246.1 l4.2,2.8 M347.6,251.6 l1.7,4.7 M338.7,254.7 l2.2,6.1 M329.9,257.9 l2.7,7.5 M321.0,261.0 l1.7,4.7 M312.1,264.1 l2.2,6.1 M303.3,267.3 l2.7,7.5 M294.4,270.4 l1.7,4.7 M285.7,272.6 l0.7,5.0 M277.1,273.7 l0.9,6.4 M268.6,274.9 l1.1,7.9 M260.0,276.0 l0.7,5.0 M251.4,277.1 l0.9,6.4 M242.9,278.3 l1.1,7.9 M234.3,279.4 l0.7,5.0 M225.7,279.6 l-0.5,5.0 M217.1,278.7 l-0.6,6.5 M208.6,277.9 l-0.8,8.0 M200.0,277.0 l-0.5,5.0 M191.4,276.1 l-0.6,6.5 M182.9,275.3 l-0.8,8.0 M174.3,274.4 l-0.5,5.0 M165.7,272.7 l-1.4,4.8 M157.1,270.1 l-1.9,6.2 M148.6,267.6 l-2.3,7.7 M140.0,265.0 l-1.4,4.8 M131.4,262.4 l-1.9,6.2 M122.9,259.9 l-2.3,7.7 M114.3,257.3 l-1.4,4.8 M106.9,253.0 l-3.5,3.6 M100.6,247.0 l-4.5,4.7 M94.3,241.0 l-5.5,5.8 M88.0,235.0 l-3.5,3.6 M81.7,229.0 l-4.5,4.7 M75.4,223.0 l-5.5,5.8 M69.1,217.0 l-3.5,3.6 M64.5,210.0 l-4.7,1.8 M61.5,202.0 l-6.1,2.3 M58.5,194.0 l-7.5,2.8 M55.5,186.0 l-4.7,1.8 M52.5,178.0 l-6.1,2.3 M49.5,170.0 l-7.5,2.8 M46.5,162.0 l-4.7,1.8 M43.5,154.0 l-6.1,2.3 M42.1,145.7 l-5.0,-0.2 M42.4,137.1 l-6.5,-0.2 M42.7,128.6 l-8.0,-0.3 M43.0,120.0 l-5.0,-0.2 M43.3,111.4 l-6.5,-0.2 M43.6,102.9 l-8.0,-0.3 M43.9,94.3 l-5.0,-0.2 M45.4,85.4 l-4.8,-1.5 M48.2,76.2 l-6.2,-1.9 M51.0,67.0 l-7.7,-2.3 M53.8,57.8 l-4.8,-1.5 M56.6,48.6 l-6.2,-1.9"
+  },
+  {
+   "classe": "plan-arete",
+   "d": "M6,60 L22,40 L36,58 M392,40 L404,26 L416,40 M8,250 L20,236 L32,250 M396,250 L406,238 L416,250"
+  },
+  {
+   "classe": "plan-arete",
+   "style": "fill:none;stroke:var(--bord);stroke-width:.8;opacity:.45;stroke-dasharray:3 3",
+   "d": "M96,316 Q84,318 70,315"
+  }
+ ],
+ "etiquettes": [
+  {
+   "classe": "plan-large",
+   "x": 210,
+   "y": 10,
+   "texte": "Le rocher noir"
+  },
+  {
+   "classe": "plan-eau",
+   "x": 40,
+   "y": 292,
+   "texte": "deux heures de route"
+  }
+ ],
+ "rose": null,
+ "salles": [
+  {
+   "id": "cour",
+   "nom": "La cour",
+   "fond": true,
+   "cle": true,
+   "forme": {
+    "d": "M88,76 L160,50 L270,50 L346,82 L360,150 L334,214 L250,236 L150,232 L96,196 L76,134 Z"
+   },
+   "etiq": [
+    200,
+    176
+   ],
+   "lignes": [
+    "La cour"
+   ],
+   "quoi": "Les pavés de la Stryge entre le logis et la porte. Hedwig la Grise y fut détruite, une nuit sans lune.",
+   "alias": [],
+   "motifs": [
+    "la cour",
+    "cour de la citadelle"
+   ],
+   "traits": [
+    "M143,196 a7,5 0 1 0 14,0 a7,5 0 1 0 -14,0 M146,194 l8,4 M146,198 l8,-4"
+   ]
+  },
+  {
+   "id": "la-table",
+   "nom": "La table",
+   "cle": true,
+   "forme": {
+    "r": [
+     128,
+     66,
+     114,
+     56,
+     2
+    ]
+   },
+   "etiq": [
+    185,
+    96
+   ],
+   "lignes": [
+    "La table"
+   ],
+   "quoi": "La grande salle, où le maître reçoit. Teodor à sa gauche, jamais à droite.",
+   "alias": [
+    "la table du maître"
+   ],
+   "motifs": [
+    "la table",
+    "grande salle",
+    "table du maitre"
+   ],
+   "orne": [
+    "tables",
+    185,
+    110,
+    6
+   ]
+  },
+  {
+   "id": "chambre-teodor",
+   "nom": "La chambre de Teodor",
+   "cle": true,
+   "forme": {
+    "r": [
+     258,
+     66,
+     44,
+     46,
+     2
+    ]
+   },
+   "etiq": [
+    280,
+    84
+   ],
+   "lignes": [
+    "Votre",
+    "chambre"
+   ],
+   "quoi": "Sous celle du maître. Rien d'écrit ici : les goules le trouveraient.",
+   "alias": [
+    "chambre de Teodor"
+   ],
+   "motifs": [
+    "chambre de teodor",
+    "votre chambre",
+    "ma chambre"
+   ],
+   "orne": [
+    "lit",
+    280,
+    104,
+    4.5
+   ]
+  },
+  {
+   "id": "chambre-anselm",
+   "nom": "La chambre du maître",
+   "etage": "sommet",
+   "forme": {
+    "r": [
+     308,
+     84,
+     28,
+     36,
+     2
+    ]
+   },
+   "etiq": [
+    322,
+    98
+   ],
+   "lignes": [
+    "Le",
+    "maître"
+   ],
+   "quoi": "Au-dessus de votre chambre, un escalier plus haut. Le registre y est. Elle donne sur les remparts.",
+   "alias": [
+    "chambre du maître"
+   ],
+   "motifs": [
+    "chambre du maitre",
+    "chambre d'anselm"
+   ],
+   "orne": [
+    "rouleau",
+    322,
+    113,
+    3.5
+   ]
+  },
+  {
+   "id": "remparts",
+   "nom": "Les remparts",
+   "forme": {
+    "d": "M346,82 L360,150 L334,214 L322,206 L346,150 L338,94 Z"
+   },
+   "etiq": [
+    314,
+    156
+   ],
+   "lignes": [
+    "Les",
+    "remparts"
+   ],
+   "quoi": "Le chemin de ronde. Le maître y marche la nuit, en touchant les pierres une à une.",
+   "alias": [],
+   "motifs": [
+    "les remparts",
+    "rempart",
+    "chemin de ronde"
+   ],
+   "orne": [
+    "creneaux",
+    352,
+    150,
+    4
+   ]
+  },
+  {
+   "id": "corps-de-garde",
+   "nom": "Le corps de garde",
+   "forme": {
+    "r": [
+     226,
+     204,
+     40,
+     22,
+     2
+    ]
+   },
+   "etiq": [
+    246,
+    213
+   ],
+   "lignes": [
+    "Corps",
+    "de garde"
+   ],
+   "quoi": "Contre la porte : les goules de faction, leurs arbalètes, le feu qu'elles gardent le jour.",
+   "alias": [
+    "corps de garde"
+   ],
+   "motifs": [
+    "corps de garde",
+    "salle des goules"
+   ]
+  },
+  {
+   "id": "porte",
+   "nom": "La porte",
+   "cle": true,
+   "forme": {
+    "r": [
+     186,
+     222,
+     30,
+     22,
+     2
+    ]
+   },
+   "etiq": [
+    158,
+    250
+   ],
+   "lignes": [
+    "La porte"
+   ],
+   "quoi": "La porte de la citadelle, dans le mur sud. Celle qu'on peut laisser ouverte.",
+   "alias": [],
+   "motifs": [
+    "la porte",
+    "porte de la citadelle"
+   ],
+   "orne": [
+    "herse",
+    201,
+    233,
+    5
+   ]
+  },
+  {
+   "id": "escalier-roche",
+   "nom": "L'escalier de la roche",
+   "etage": "dessous",
+   "forme": {
+    "d": "M192,244 H210 L222,262 L206,286 H190 L204,262 Z"
+   },
+   "etiq": [
+    250,
+    262
+   ],
+   "lignes": [
+    "L'escalier",
+    "de la roche"
+   ],
+   "quoi": "Taillé dans le rocher noir, de la porte à la ville basse. Une seule voie, à vue des remparts.",
+   "alias": [
+    "escalier de la roche"
+   ],
+   "motifs": [
+    "escalier de la roche",
+    "escalier taille"
+   ],
+   "traits": [
+    "M196,250 h10 M201,256 h10 M206,262 h10 M203,268 h10 M199,274 h10 M195,280 h10"
+   ]
+  },
+  {
+   "id": "ville-basse",
+   "nom": "La ville basse",
+   "dehors": true,
+   "forme": {
+    "d": "M96,292 Q170,284 240,290 Q320,296 410,286 V336 H96 Z"
+   },
+   "etiq": [
+    330,
+    330
+   ],
+   "lignes": [
+    "La ville basse"
+   ],
+   "quoi": "Sous le rocher : les vivants de la citadelle, leurs maisons serrées.",
+   "alias": [
+    "ville basse"
+   ],
+   "motifs": [
+    "ville basse",
+    "le bourg"
+   ],
+   "traits": [
+    "M112,300 h9 v6 h-9 Z M112,300 l4.5,-3.5 l4.5,3.5 M130,312 h9 v6 h-9 Z M130,312 l4.5,-3.5 l4.5,3.5 M150,298 h9 v6 h-9 Z M150,298 l4.5,-3.5 l4.5,3.5 M170,316 h9 v6 h-9 Z M170,316 l4.5,-3.5 l4.5,3.5 M118,326 h9 v6 h-9 Z M118,326 l4.5,-3.5 l4.5,3.5 M196,304 h9 v6 h-9 Z M196,304 l4.5,-3.5 l4.5,3.5 M214,320 h9 v6 h-9 Z M214,320 l4.5,-3.5 l4.5,3.5 M236,300 h9 v6 h-9 Z M236,300 l4.5,-3.5 l4.5,3.5 M258,316 h9 v6 h-9 Z M258,316 l4.5,-3.5 l4.5,3.5 M280,302 h9 v6 h-9 Z M280,302 l4.5,-3.5 l4.5,3.5 M300,318 h9 v6 h-9 Z M300,318 l4.5,-3.5 l4.5,3.5 M322,300 h9 v6 h-9 Z M322,300 l4.5,-3.5 l4.5,3.5 M346,312 h9 v6 h-9 Z M346,312 l4.5,-3.5 l4.5,3.5 M372,298 h9 v6 h-9 Z M372,298 l4.5,-3.5 l4.5,3.5 M390,318 h9 v6 h-9 Z M390,318 l4.5,-3.5 l4.5,3.5 M150,328 h9 v6 h-9 Z M150,328 l4.5,-3.5 l4.5,3.5 M240,330 h9 v6 h-9 Z M240,330 l4.5,-3.5 l4.5,3.5 M198,328 h9 v6 h-9 Z M198,328 l4.5,-3.5 l4.5,3.5"
+   ]
+  },
+  {
+   "id": "homorod",
+   "nom": "Homorod",
+   "dehors": true,
+   "forme": {
+    "r": [
+     6,
+     302,
+     64,
+     28,
+     2
+    ]
+   },
+   "etiq": [
+    38,
+    320
+   ],
+   "lignes": [
+    "Homorod"
+   ],
+   "quoi": "Le village natal de Teodor, à deux heures de marche. Il saigne.",
+   "alias": [],
+   "motifs": [
+    "homorod"
+   ]
+  }
+ ]
+}

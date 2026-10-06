@@ -51,6 +51,22 @@ réfléchirait. Sever revient le 15.
   est juré. Le monde lui-même ne nomme pas les Aînés (« on ne le nomme pas
   autrement ») : on peut s'en tenir là.
 
+## Le point de vue du joueur
+
+- Teodor sait tout ce que `canon/LORE_RECIT.md` §1-17 enseigne à un infant, et
+  tout ce que soixante ans à la table de Rupea lui ont appris : les préséances,
+  le droit du sire, les comptes de la citadelle (il les tient).
+- Il ne sait des autres que ce que la rumeur en dit — jamais leur Masque.
+- Il ne lit pas le registre de son père : le volume est réservé (`lecteurs`).
+
+## Ce que savent les habitants
+
+`prompts/pnj.md` donne à chaque PNJ dépêché le savoir commun d'un infant
+(LORE_RECIT §1-17 condensé, le §18 réduit à des rumeurs), avec une règle de
+portée : une goule ou un vivant n'en sait que ce que sa vie lui a montré. Le
+canon, le manuel et les Masques n'y entrent jamais. `AGENTS.md` part aussi chez
+eux : n'y écrire que des consignes valables pour tous.
+
 ## Le brouillard de ce monde
 
 - **Il n'y a pas de corbeaux.** Les plis vont par les goules, à pied ou à

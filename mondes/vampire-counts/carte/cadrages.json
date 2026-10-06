@@ -1,0 +1,23 @@
+{
+ "_": "LA TABLE DE VAMPIRE COUNTS — la Terre des Cinq, sans mer. La geometrie vit dans geo.js (engendre par dessiner_geo.py depuis canon/map.json, servi a la place de Westeros par serveur/routes/geo.js). `tout` montre le pays entier ; `repos` serre sur le sud-est : Rupea, Homorod, Comana de Jos, Ticusu Vechi, Odorheiu Secuiesc, Cincu.",
+ "cadrages": {
+  "tout": "pays",
+  "repos": "sud-est"
+ },
+ "mers": [
+  [196, 194, "Târnava"]
+ ],
+ "_mers": "Pas de mer : la seule entree est le nom de la riviere, pose sous son cours entre Dumbraveni et Sighisoara. Son trace est INVENTE (voir dessiner_geo.py).",
+ "etiquettes": {
+  "rupea": [-4, 1, "g"],
+  "homorod": [4, 1, "d"],
+  "ticusu-vechi": [-4, 1, "g"],
+  "agnita": [-4, 1, "g"],
+  "dealu-frumos": [4, -2, "d"],
+  "odorheiu-secuiesc": [4, -2, "d"]
+ },
+ "regions": {
+  "plaines": null
+ },
+ "_regions": "Deux regions engendrees du `terrain` des sites : `plaines` (sans etiquette, c'est le fond) et `forets-vivantes`. L'habillage peut les teindre par .region-terre[data-region=...]."
+}

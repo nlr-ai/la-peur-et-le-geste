@@ -1,6 +1,9 @@
 # Vampire Counts — consignes locales
 
-Ce qui prime sur les exemples du socle, pour ce monde seulement.
+Ce qui prime sur les exemples du socle, pour ce monde seulement. Ce fichier est
+lu par le MJ ET par chaque habitant dépêché : il ne porte que des consignes
+valables pour tous. Ce qui ne regarde que le meneur est dans `manuel.md` ; ce
+que sait un habitant est dans `prompts/pnj.md`.
 
 ## Écarter de Westeros
 
@@ -11,19 +14,15 @@ Ce qui prime sur les exemples du socle, pour ce monde seulement.
   vampire), des **veines** (sang contre magie, chaque année) et des **Cercles**.
 - Pas d'or. Ce qui se compte : le sang, la magie, l'effroi, les bandes de vivants.
 
-## Points de vue
-
-- Le joueur est Teodor. Il sait tout ce que LORE_RECIT §1-17 enseigne à un
-  infant, et tout ce que soixante ans à la table de Rupea lui ont appris : les
-  préséances, le droit du sire, les comptes de la citadelle (il les tient).
-- Il ne sait que ce que la rumeur dit des autres — jamais leur Masque.
-- Il ne lit pas le registre de son père. Le volume est réservé (`lecteurs`).
-
 ## Les gens de la citadelle
 
 Les goules suivent Teodor dans les couloirs : c'est la surveillance que son père
-a voulue. Aucune n'est encore nommée. La première qui compte dans une scène
-reçoit une fiche et une chambre avant de parler.
+a voulue. La première qui compte dans une scène reçoit une fiche et une chambre
+avant de parler.
+
+- **Stanca** (`stanca`) — la goule qui suit Teodor, trois pas derrière, depuis
+  vingt-cinq ans ; le jour à la porte et à la ville basse, la nuit sur ses pas
+  (modèle de routine `goule`, `suit: teodor`). Chambre : `chambres/stanca/`.
 
 ## Le temps
 
