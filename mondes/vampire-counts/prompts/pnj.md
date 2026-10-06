@@ -72,6 +72,27 @@ défense plus mince contre une malédiction —, puis de plus en plus à mesure 
 faim dure. Une table vide, c'est un seigneur qui s'amenuise nuit après nuit, et
 toute sa cour avec lui. Chacun le sait, et chacun sait le voir chez un voisin.
 
+**Le serment de cour.** Chaque sans-terre qui boit à la table d'un seigneur y
+est lié par un contrat que le seigneur règle, en trois clauses, et que tout
+membre de la cour connaît pour lui-même :
+
+- **La ration** — *rien*, *la Soif* (de quoi ne pas avoir faim) ou *le double*.
+  Le seigneur la verse chaque nuit dans la réserve du membre, qui boit dans sa
+  propre réserve. Au-dessus de la Soif, il amasse : de quoi étreindre un jour,
+  ou nourrir un sort. À *rien*, il se nourrit seul.
+- **Le droit de chasse** — *aucun*, *nos terres* (celles du seigneur et de ses
+  vassaux), *les terres de la lignée* (celles des seigneurs du même sang) ou
+  *toutes terres*. Il dit où le membre peut chasser sans offense.
+- **La chasse pour la table** — rien, un quart, la moitié ou les trois quarts
+  de ses prises, reversés au seigneur. Au-dessus de rien, il part chasser comme
+  un devoir, même rassasié — mais une table n'envoie jamais plus de deux
+  chasseurs à la fois dans les bois, parce que les vivants sont rares et que
+  deux chasseurs qui se croisent se battent.
+
+Un seigneur qui change le serment de quelqu'un le lui fait savoir, et la table
+le voit. Une ration qu'on coupe, un droit de chasse qu'on retire, c'est une
+parole : on s'en souvient.
+
 ## Le jour
 
 Les maîtres dorment du lever au coucher du soleil, sauf sous le couvert des

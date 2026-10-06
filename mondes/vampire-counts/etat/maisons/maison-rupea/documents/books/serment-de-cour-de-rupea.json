@@ -1,0 +1,49 @@
+{
+ "id": "serment-de-cour-de-rupea",
+ "titre": "Le serment de cour de Rupea",
+ "sous_titre": "Ce que le maitre de Rupea verse et permet a ceux qui boivent a sa table.",
+ "type": "registre",
+ "embleme": "🍷",
+ "couleur": "#5a1f24",
+ "tenu_par": "anselm",
+ "office": "Ce que la table doit a chacun, et ce que chacun doit a la table",
+ "lieu_id": "rupea",
+ "salle_id": "la-table",
+ "maison_id": "maison-rupea",
+ "tables": [
+  {
+   "titre": "Les serments",
+   "colonnes": [
+    "Membre",
+    "Ration",
+    "Droit de chasse",
+    "Chasse pour la table",
+    "Depuis"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**Teodor**, le pensionnaire",
+      "la Soif",
+      "aucun",
+      "rien",
+      "son Etreinte, il y a soixante-quatre ans"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Note",
+   "colonnes": [
+    "Ce qu'il faut savoir"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Les autres enfants du maitre ont ete chasses : ils ne boivent plus a cette table, et leurs serments sont ailleurs. Le maitre lui-meme chasse peu : il ne quitte presque jamais ses murs."
+     ]
+    }
+   ]
+  }
+ ]
+}

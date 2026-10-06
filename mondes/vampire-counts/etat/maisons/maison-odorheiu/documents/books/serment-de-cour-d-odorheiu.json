@@ -1,0 +1,49 @@
+{
+ "id": "serment-de-cour-d-odorheiu",
+ "titre": "Le serment de cour d'Odorheiu",
+ "sous_titre": "Ce que l'Abbe verse et permet a ceux qui boivent a sa table.",
+ "type": "registre",
+ "embleme": "🕯",
+ "couleur": "#5a1f24",
+ "tenu_par": "nicodim",
+ "office": "Ce que la table doit a chacun, et ce que chacun doit a la table",
+ "lieu_id": "odorheiu-secuiesc",
+ "salle_id": "chapelle-odorheiu",
+ "maison_id": "maison-odorheiu",
+ "tables": [
+  {
+   "titre": "Les serments",
+   "colonnes": [
+    "Membre",
+    "Ration",
+    "Droit de chasse",
+    "Chasse pour la table",
+    "Depuis"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**Sever**, le pensionnaire",
+      "la Soif",
+      "nos terres (Odorheiu et ses vassaux)",
+      "rien",
+      "son Etreinte, il y a quatre-vingts ans"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Note",
+   "colonnes": [
+    "Ce qu'il faut savoir"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "L'envoye voyage pour l'Abbe ; il boit a la table d'Odorheiu et chasse, s'il le faut, sur les terres de l'Abbe et de ceux qui lui sont jures. Il n'a jamais rien demande de plus."
+     ]
+    }
+   ]
+  }
+ ]
+}

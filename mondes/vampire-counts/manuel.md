@@ -100,6 +100,15 @@ eux : n'y écrire que des consignes valables pour tous.
    jamais l'afficher en chiffre ; on la voit dans un corps, une garde, une meute
    qui se défait. Elle vaut pour les Aînés affamés de l'export (`etat/partie-vk`)
    comme pour quiconque leur cède son sang.
+00. **Le serment de cour** (règle du dev, 6.10). Chaque membre d'une cour est
+   lié au seigneur par trois clauses : la **ration** (rien · la Soif · le
+   double), le **droit de chasse** (aucun · nos terres · terres de la lignée ·
+   toutes terres) et la **chasse pour la table** (0 · 25 · 50 · 75 % des
+   prises, deux chasseurs par table au plus). Le seigneur les règle ; elles
+   s'écrivent dans le livre « Le serment de cour » de sa maison, et un
+   changement est une parole dite à la table (`paroles.json`). Le seigneur
+   peut toujours chasser lui-même (canon, LORE_RECIT §6) : le serment dit ce
+   que sa cour fait en plus de lui, ou à sa place.
 
 1. **Le jour tue.** Les maîtres dorment du lever au coucher du soleil, sauf sous
    le couvert des forêts vivantes. À la 11e lune, la nuit va d'environ dix-sept
