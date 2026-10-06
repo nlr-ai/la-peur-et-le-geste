@@ -642,5 +642,85 @@
   "lieu_id": null,
   "condition": "libre",
   "_": "Ancien membre du Cercle de la Meute. Partie chasser avec Vlaicu il y a une dizaine d'annees, jamais revenue ; Vlaicu a beaucoup pleure. Detruite ou non : PERSONNE NE LE SAIT, et l'etat ne le tranche pas. Fiche d'archive, gelee. Source : canon/LORE_CERCLES.md, lore/vlaicu.md."
+ },
+ {
+  "id": "hilde",
+  "nom": "Hilde",
+  "maison_id": "maison-hilde",
+  "titre": "L'Aînée des Voraces, chef sans chef",
+  "naissance": null,
+  "traits": [],
+  "objectifs": [
+   {
+    "but": "Que personne ne s'approche assez pour la mordre",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Joue le fauve pour que personne n'approche ; ne reçoit pas, gronde à toute ambassade.",
+  "etat": "dormant",
+  "lieu_id": "apata",
+  "condition": "libre",
+  "_": "Mathusalem. Nature Paranoïaque, Masque Prédateur. Compte chaque année la meute de Vlaicu et la trouve plus grande. Selon l'export : 39 bouches à sa table, sang presque épuisé. Fiche gelée. Source : canon/lore/aines.md ; sieges et vassalite selon l'export de la partie Vampire Kings (etat/partie-vk), pris pour vrai le 6.10."
+ },
+ {
+  "id": "melusine",
+  "nom": "Mélusine",
+  "maison_id": "maison-melusine",
+  "titre": "L'Aînée des Voilés, chef sans chef",
+  "naissance": null,
+  "traits": [],
+  "objectifs": [
+   {
+    "but": "Durer",
+    "priorite": 1
+   },
+   {
+    "but": "Être trop utile à chacun pour qu'on ose la frapper",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Rend service à tous, garde quelques secrets de chacun, ne prend jamais parti.",
+  "etat": "dormant",
+  "lieu_id": "vlahita",
+  "condition": "libre",
+  "_": "Mathusalem. Nature Survivant, Masque Intrigant. Sire d'Ottilia : sait qu'elle dort pour fuir les Stryges, et ne la réveillera pour rien au monde. Selon l'export : 25 bouches à sa table, sang presque épuisé. Fiche gelée. Source : canon/lore/aines.md ; sieges et vassalite selon l'export de la partie Vampire Kings (etat/partie-vk), pris pour vrai le 6.10."
+ },
+ {
+  "id": "ysolde",
+  "nom": "Ysolde",
+  "maison_id": "maison-ysolde",
+  "titre": "L'Aînée des Sépulcraux, chef sans chef",
+  "naissance": null,
+  "traits": [],
+  "objectifs": [
+   {
+    "but": "Que le sang sépulcral survive partout où il y a des vivants",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Froide, donne peu, exige beaucoup ; chasse ses branches vers les terres des autres.",
+  "etat": "dormant",
+  "lieu_id": "dumbraveni",
+  "condition": "libre",
+  "_": "Mathusalem. Nature Patriarche, Masque Autocrate. Ignore la fosse de Sulpice et l'usage des cartes de Cendrik. Selon l'export : 16 bouches à sa table, déficit de sang. Fiche gelée. Source : canon/lore/aines.md ; sieges et vassalite selon l'export de la partie Vampire Kings (etat/partie-vk), pris pour vrai le 6.10."
+ },
+ {
+  "id": "aldebrand",
+  "nom": "Aldebrand",
+  "maison_id": "maison-aldebrand",
+  "titre": "L'Aîné des Écarlates, chef sans chef",
+  "naissance": null,
+  "traits": [],
+  "objectifs": [
+   {
+    "but": "Tout tenir, et que la guerre serve de prétexte à tout tenir",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Se montre en armure, ne parle que de guerre et d'honneur ; chaque campagne est une réorganisation.",
+  "etat": "dormant",
+  "lieu_id": "altana",
+  "condition": "libre",
+  "_": "Mathusalem. Nature Autocrate, Masque Conquérant. Ne voit de Gontran que sa maison d'enfants trouvés. Selon l'export : 17 bouches à sa table, déficit de sang. Fiche gelée. Source : canon/lore/aines.md ; sieges et vassalite selon l'export de la partie Vampire Kings (etat/partie-vk), pris pour vrai le 6.10."
  }
 ]

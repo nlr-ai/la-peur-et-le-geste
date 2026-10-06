@@ -9,7 +9,8 @@
   "revenus": 0,
   "allegeance_affichee": null,
   "canon": true,
-  "_": "Stryges. Anselm et sa descendance dispersee : Teodor a table, Konstantin chez les Ecarlates, Ilka chez les Voraces. Ni or ni revenus : le sang et la magie vivent dans documents/mains.json."
+  "_": "Stryges. Anselm et sa descendance dispersee : Teodor a table, Konstantin chez les Ecarlates, Ilka chez les Voraces. Ni or ni revenus : le sang et la magie vivent dans documents/mains.json.",
+  "suzerain_id": "maison-malachie"
  },
  {
   "id": "maison-odorheiu",
@@ -21,7 +22,8 @@
   "revenus": 0,
   "allegeance_affichee": null,
   "canon": true,
-  "_": "Voiles. Nicodim tient la ville pour sa sire endormie ; Sever est son infant. Riche en sang et en magie par ses veines, sans tenir les terres qui les produisent."
+  "_": "Voiles. Nicodim tient la ville pour sa sire endormie ; Sever est son infant. Riche en sang et en magie par ses veines, sans tenir les terres qui les produisent.",
+  "suzerain_id": "maison-melusine"
  },
  {
   "id": "maison-comana",
@@ -59,7 +61,8 @@
   "revenus": 0,
   "allegeance_affichee": null,
   "canon": true,
-  "_": "Sepulcraux. Jure a l'Aine des Sepulcraux. Riche en magie, pauvre en sang ; boit chaque nuit le tribut de Gontran."
+  "_": "Sepulcraux. Jure a l'Aine des Sepulcraux. Riche en magie, pauvre en sang ; boit chaque nuit le tribut de Gontran.",
+  "suzerain_id": "maison-ysolde"
  },
  {
   "id": "maison-agnita",
@@ -71,7 +74,8 @@
   "revenus": 0,
   "allegeance_affichee": null,
   "canon": true,
-  "_": "Ecarlates. Gontran, recemment bu ; Konstantin son champion a Dealu Frumos ; un pensionnaire a table."
+  "_": "Ecarlates. Gontran, recemment bu ; Konstantin son champion a Dealu Frumos ; un pensionnaire a table.",
+  "suzerain_id": "maison-aldebrand"
  },
  {
   "id": "maison-vlaicu",
@@ -83,7 +87,8 @@
   "revenus": 0,
   "allegeance_affichee": null,
   "canon": true,
-  "_": "Voraces. Vlaicu, sire et chef de Radomir, chef d'Ilka, jure a l'Aine des Voraces. Siege a Hoghiz (canon/lore/vlaicu.md). Le Cercle de la Meute."
+  "_": "Voraces. Vlaicu, sire et chef de Radomir, chef d'Ilka, jure a l'Aine des Voraces. Siege a Hoghiz (canon/lore/vlaicu.md). Le Cercle de la Meute.",
+  "suzerain_id": "maison-hilde"
  },
  {
   "id": "maison-malachie",
@@ -107,7 +112,8 @@
   "or": 0,
   "revenus": 0,
   "allegeance_affichee": null,
-  "canon": true
+  "canon": true,
+  "suzerain_id": "maison-ysolde"
  },
  {
   "id": "maison-racos",
@@ -121,5 +127,53 @@
   "revenus": 0,
   "allegeance_affichee": null,
   "canon": true
+ },
+ {
+  "id": "maison-hilde",
+  "nom": "Apața — Hilde, l'aînée des voraces",
+  "devise": null,
+  "siege_id": "apata",
+  "statut": "grande",
+  "or": 0,
+  "revenus": 0,
+  "allegeance_affichee": null,
+  "canon": true,
+  "_": "Voraces. Chef sans chef. Source : canon/lore/aines.md ; sieges et vassalite selon l'export de la partie Vampire Kings (etat/partie-vk), pris pour vrai le 6.10."
+ },
+ {
+  "id": "maison-melusine",
+  "nom": "Vlăhița — Mélusine, l'aînée des voilés",
+  "devise": null,
+  "siege_id": "vlahita",
+  "statut": "grande",
+  "or": 0,
+  "revenus": 0,
+  "allegeance_affichee": null,
+  "canon": true,
+  "_": "Voilés. Chef sans chef. Source : canon/lore/aines.md ; sieges et vassalite selon l'export de la partie Vampire Kings (etat/partie-vk), pris pour vrai le 6.10."
+ },
+ {
+  "id": "maison-ysolde",
+  "nom": "Dumbrăveni — Ysolde, l'aînée des sépulcraux",
+  "devise": null,
+  "siege_id": "dumbraveni",
+  "statut": "grande",
+  "or": 0,
+  "revenus": 0,
+  "allegeance_affichee": null,
+  "canon": true,
+  "_": "Sépulcraux. Chef sans chef. Source : canon/lore/aines.md ; sieges et vassalite selon l'export de la partie Vampire Kings (etat/partie-vk), pris pour vrai le 6.10."
+ },
+ {
+  "id": "maison-aldebrand",
+  "nom": "Alțâna — Aldebrand, l'aîné des écarlates",
+  "devise": null,
+  "siege_id": "altana",
+  "statut": "grande",
+  "or": 0,
+  "revenus": 0,
+  "allegeance_affichee": null,
+  "canon": true,
+  "_": "Écarlates. Chef sans chef. Source : canon/lore/aines.md ; sieges et vassalite selon l'export de la partie Vampire Kings (etat/partie-vk), pris pour vrai le 6.10."
  }
 ]
