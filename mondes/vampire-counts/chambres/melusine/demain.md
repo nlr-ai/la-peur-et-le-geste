@@ -1,1 +1,3 @@
-J'ai réglé le serment de la cour sans bruit ni heurt, en ménageant le sang de Vlăhița. Ophélie et Séléné chassent pour la table ; les autres se nourrissent seuls sous nos bois sans troubler les frontières. J'attends la réponse de Nicodim et le retour des messagers.
+J'ai renvoyé mon messager à Nicodim avec une offre de bienveillant service et le rappel discret du secret dormant sous sa chapelle, sans céder à la rancœur ni signer de dette.
+À Nicodim d'Odorheiu, en réponse à ses prétentions et à son refus de partage.
+J'attends qu'il mesure la valeur du silence et de la concorde, et que mes autres vassaux fassent entendre leur voix.

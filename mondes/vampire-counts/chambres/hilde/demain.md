@@ -1,1 +1,3 @@
-*Rien encore. Je ne me suis pas encore laisse quelque part.*
+J'ai dépêché ma réponse à Vlaicu par messager pour exiger sans délai la moitié des prises de sa première battue à Comăna et envoyé Loup tenir Hoghiz à l'œil.
+À Vlaicu, pour lui rappeler qui commande et que son rire gras ne nourrira pas ma table à ma place.
+J'attends le retour de mes bêtes et ce que ses crocs oseront répondre quand il verra Loup roder à l'orée de ses bois.

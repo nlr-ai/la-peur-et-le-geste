@@ -1,766 +1,754 @@
 [
- {
-  "personnage_id": "anselm",
-  "croyances": [
-   "Teodor complote contre lui depuis des annees et parle bas avec les envoyes voiles. Il le sait et le laisse faire : tant que le pays regarde l'heritier a table, personne ne cherche les enfants partis.",
-   "Le Sepulcral de Cincu compte les villages d'Ilka depuis l'an dernier.",
-   "Gontran d'Agnita a ete bu a la chasse par un Sepulcral ; Konstantin est le champion de Gontran.",
-   "Un jour Teodor viendra, et il devra choisir entre se defendre et se laisser faire. Il pense qu'il se laissera faire. Il n'en est pas sur."
-  ],
-  "ignore": [
-   "Que Sever a demande a Teodor de laisser une porte ouverte pour une malediction.",
-   "Que c'est Nicodim qui a detruit Margit, et le sang d'Ottilia qui a detruit Hedwig.",
-   "Que Radomir a compris pourquoi il s'est laisse boire."
-  ],
-  "intention": "Tenir le Masque du vieux fou, et veiller de loin sur Ilka, que Cincu commence a ronger.",
-  "plan": [
-   {
-    "id": "anselm-lettre-ilka",
-    "quoi": "Ecrire trois lignes a Ilka sur Cendrik de Cincu, et les faire porter par une goule a Ticușu Vechi",
-    "etat": "a-faire",
-    "jours_restants": 2,
-    "depend_de": [],
-    "cout": [
-     "une goule sure pour la route",
-     "deux nuits de route"
+  {
+    "personnage_id": "anselm",
+    "croyances": [
+      "Teodor complote contre lui depuis des annees et parle bas avec les envoyes voiles. Il le sait et le laisse faire : tant que le pays regarde l'heritier a table, personne ne cherche les enfants partis.",
+      "Le Sepulcral de Cincu compte les villages d'Ilka depuis l'an dernier.",
+      "Gontran d'Agnita a ete bu a la chasse par un Sepulcral ; Konstantin est le champion de Gontran.",
+      "Un jour Teodor viendra, et il devra choisir entre se defendre et se laisser faire. Il pense qu'il se laissera faire. Il n'en est pas sur."
     ],
-    "si_bloque": "Si aucune goule ne peut partir, il garde la lettre dans le registre et la fait porter avec la prochaine — il ne l'envoie jamais par un etranger."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "un de ses enfants est en danger de destruction et il l'apprend",
-    "alors": "Il quitte ses murs, ce qu'il ne fait jamais, et y va lui-meme, quel qu'en soit le prix.",
-    "une_fois": false
-   },
-   {
-    "si": "Teodor leve les yeux a table et demande quelque chose devant temoins",
-    "alors": "Il refuse devant les temoins, sans chaleur, puis l'inscrit a la derniere page de son registre.",
-    "une_fois": false
-   },
-   {
-    "si": "une goule lui rapporte que Sever est revenu a Rupea ou dans la ville basse",
-    "alors": "Il le note, laisse faire, et fait suivre Teodor de plus pres pendant les nuits qui suivent.",
-    "une_fois": false
-   }
-  ],
-  "attitude_joueur": "il le surveille en public et le protege en secret",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
+    "ignore": [
+      "Que Sever a demande a Teodor de laisser une porte ouverte pour une malediction.",
+      "Que c'est Nicodim qui a detruit Margit, et le sang d'Ottilia qui a detruit Hedwig.",
+      "Que Radomir a compris pourquoi il s'est laisse boire."
+    ],
+    "intention": "Tenir le Masque du vieux fou, et veiller de loin sur Ilka, que Cincu commence a ronger.",
+    "plan": [
+      {
+        "id": "anselm-lettre-ilka",
+        "quoi": "Ecrire trois lignes a Ilka sur Cendrik de Cincu, et les faire porter par une goule a Ticușu Vechi",
+        "etat": "a-faire",
+        "jours_restants": 2,
+        "depend_de": [],
+        "cout": [
+          "une goule sure pour la route",
+          "deux nuits de route"
+        ],
+        "si_bloque": "Si aucune goule ne peut partir, il garde la lettre dans le registre et la fait porter avec la prochaine — il ne l'envoie jamais par un etranger."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "un de ses enfants est en danger de destruction et il l'apprend",
+        "alors": "Il quitte ses murs, ce qu'il ne fait jamais, et y va lui-meme, quel qu'en soit le prix.",
+        "une_fois": false
+      },
+      {
+        "si": "Teodor leve les yeux a table et demande quelque chose devant temoins",
+        "alors": "Il refuse devant les temoins, sans chaleur, puis l'inscrit a la derniere page de son registre.",
+        "une_fois": false
+      },
+      {
+        "si": "une goule lui rapporte que Sever est revenu a Rupea ou dans la ville basse",
+        "alors": "Il le note, laisse faire, et fait suivre Teodor de plus pres pendant les nuits qui suivent.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "il le surveille en public et le protege en secret",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 3
+    }
+  },
+  {
+    "personnage_id": "sever",
+    "croyances": [
+      "Son pere tient debout sur deux secrets, et lui seul les tient tous les deux : Margit, detruite par une malediction partie d'Odorheiu pour une veine refusee (« solde », dans le livre) ; et Ottilia, la dormeuse de la crypte, qui a detruit Hedwig la Grise et se cache des Stryges. Le jour ou Nicodim tombe, tout va a son pensionnaire : Odorheiu, ses serments, le grand livre. A lui.",
+      "Deux portes. A Rupea : si Teodor ouvre, la malediction d'Odorheiu frappe Anselm, et il s'arrangera pour qu'on sache d'ou vient le coup — et d'ou etait venu celui qui a detruit Margit ; toutes les maisons stryges sauront que l'Abbe a frappe deux fois le sang de Rupea. Sous la chapelle : il a dit a Ossiane quelles nuits les goules changent de garde, sans rien demander.",
+      "Teodor a peur de son pere et n'a personne d'autre que lui. Il le plaint, et c'est vrai. Il a dit qu'il reflechirait : c'est un oui qui n'ose pas encore."
+    ],
+    "ignore": [
+      "Que le vieux Rupea aime ses enfants, et que la Criniere le sait.",
+      "Qu'Ossiane ne veut pas venger Hedwig, mais boire Ottilia — et qu'elle pourrait avoir faim de lui aussi.",
+      "Que Teodor hesite vraiment, et doute de la nuit des bois du sud.",
+      "Qu'Anselm sait depuis le debut que Teodor parle aux envoyes voiles."
+    ],
+    "intention": "Revenir a Rupea le 15 chercher la reponse de Teodor et fixer la nuit — sans que son pere voie l'autre porte.",
+    "plan": [
+      {
+        "id": "sever-retour",
+        "quoi": "Faire la route d'Odorheiu a Rupea et chercher Teodor sans goule, dans un couloir ou a la ville basse",
+        "etat": "a-faire",
+        "jours_restants": 12,
+        "depend_de": [],
+        "cout": [
+          "une raison de passer a Rupea que le maitre n'interroge pas",
+          "une nuit ou Teodor est seul"
+        ],
+        "si_bloque": "S'il ne peut voir Teodor sans temoin, il attend trois nuits a la ville basse, puis rentre dire a son pere que l'heritier hesite."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Teodor donne sa reponse",
+        "alors": "S'il donne une nuit, il part sur-le-champ la porter a Odorheiu. S'il refuse, il ne menace pas : il promet encore, et rentre dire a son pere qu'il faut une autre prise.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "il le plaint sincerement, et il s'en sert",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 3
+    }
+  },
+  {
+    "personnage_id": "nicodim",
+    "croyances": [
+      "Rupea est un vieux fou qui n'aime personne depuis Margit ; ses infants chasses sont des renies ; seul Teodor compte. Un heritier qui a peur est un debiteur qui ne le sait pas encore. Le jour ou Rupea tombe, Teodor entre dans son livre avec une dette qu'il ne soldera jamais.",
+      "Tant qu'Ottilia dort, les infants d'Hedwig ne peuvent rien contre Odorheiu.",
+      "Mélusine est au bord de la famine à Vlăhița avec vingt-cinq bouches ; qui a faim perd sa puissance et s offre aux couteaux."
+    ],
+    "ignore": [
+      "Pourquoi Rupea a refuse sa veine il y a un siecle.",
+      "Qu'Anselm aime ses enfants, et que Radomir le sait.",
+      "Qu'Anselm laisse Teodor comploter expres."
+    ],
+    "intention": "Attendre la reponse de l'heritier que Sever rapportera, et frapper une seule fois.",
+    "plan": [
+      {
+        "id": "nicodim-malediction",
+        "quoi": "Lancer la malediction contre Anselm la nuit ou la porte de la citadelle sera ouverte",
+        "etat": "a-faire",
+        "jours_restants": 20,
+        "depend_de": [
+          "sever-retour"
+        ],
+        "cout": [
+          "la nuit donnee par Teodor",
+          "assez de magie et de sang mis dans le coup pour valoir la defense de Rupea"
+        ],
+        "si_bloque": "Sans nuit donnee, il ne frappe pas : il cherche une autre prise sur Rupea — le secret de la Criniere, que Rupea s'est laisse boire."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Sever rapporte que Teodor refuse",
+        "alors": "Il envoie quelqu'un sonder Radomir sur la nuit des bois du sud.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "un debiteur a venir",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 3
+    }
+  },
+  {
+    "personnage_id": "radomir",
+    "croyances": [
+      "Le vieux Rupea s'est laisse boire pour qu'Ilka rentre chez elle : il aime ses enfants.",
+      "Si l'on savait que la Criniere est doux, ses bois seraient vides en dix ans.",
+      "Chaque fois qu'il joue la bete, il la nourrit un peu."
+    ],
+    "ignore": [
+      "Que Cendrik a etudie les os de la lisiere et sait qu'il n'a jamais detruit personne.",
+      "Que Nicodim voudrait son secret."
+    ],
+    "intention": "Tenir le Masque et ses bois, boire a heure fixe, laisser Ilka entrer sans la voir.",
+    "plan": [
+      {
+        "id": "radomir-os",
+        "quoi": "Faire deposer a la lisiere les os de loups et d'ours du printemps",
+        "etat": "a-faire",
+        "jours_restants": 120,
+        "depend_de": [],
+        "cout": [
+          "des goules",
+          "des os"
+        ],
+        "si_bloque": "S'il n'en a pas assez, il laisse courir une histoire de plus a la place."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "des Ritualistes chantent au bord de Ticușu Vechi ou de ses propres bois",
+        "alors": "Il va voir lui-meme, de nuit, et se montre en bete a la lisiere.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "il ne le connait que de nom",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 3
+    }
+  },
+  {
+    "personnage_id": "ilka",
+    "croyances": [
+      "Son pere est venu la detruire la nuit des bois du sud, et la Criniere s'est mise en travers.",
+      "Les lettres de son pere sont des menaces : il sait ou elle boit. Elle obeit a chacune sans demander pourquoi, et les range dans un coffret.",
+      "Cendrik ne demande plus, il se sert : ses bandes rentrent plus maigres."
+    ],
+    "ignore": [
+      "Que son pere s'est laisse boire pour elle.",
+      "Que Cendrik veut atteindre les bois de Comăna a travers sa ville."
+    ],
+    "intention": "Plier devant tous, garder le sang pur, passer l'hiver.",
+    "plan": [
+      {
+        "id": "ilka-hiver",
+        "quoi": "Passer l'hiver sur ce que rendent ses villages, et boire dans les bois de Comăna quand la faim monte",
+        "etat": "a-faire",
+        "jours_restants": 30,
+        "depend_de": [],
+        "cout": [
+          "des bandes de vivants",
+          "les bois de Comăna ouverts"
+        ],
+        "si_bloque": "Si les bandes ne suffisent plus, elle chasse a Comăna plus souvent — et risque d'y etre vue."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "les Ritualistes de Cincu chantent au bord de Ticușu",
+        "alors": "Elle plie encore une fois — puis, la seconde, elle doit choisir entre perdre sa ville et se battre.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "elle l'envie et ne le pardonne pas",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 3
+    }
+  },
+  {
+    "personnage_id": "konstantin",
+    "croyances": [
+      "Le Sepulcral qui a bu Gontran maitrise les cendres et chasse a l'est d'Agnita. Une petite installee stryge, a Ticușu Vechi, est le sang de Rupea, et un Sepulcral ronge sa terre.",
+      "Son pere l'a jete dans la neige.",
+      "La table d'Aldebrand n'a plus de sang que pour deux nuits et ses dix-sept bouches vont faiblir s'il ne saigne pas ses terres."
+    ],
+    "ignore": [
+      "Que le Sepulcral est Cendrik de Cincu.",
+      "Ce que disent les lettres de son pere."
+    ],
+    "intention": "Trouver le nom du Sepulcral aux cendres, pour le boire.",
+    "plan": [
+      {
+        "id": "konstantin-nom",
+        "quoi": "Chercher vers l'est le Sepulcral qui fait tomber les cendres",
+        "etat": "a-faire",
+        "jours_restants": 25,
+        "depend_de": [],
+        "cout": [
+          "des nuits loin de Dealu Frumos",
+          "des gens qui parlent"
+        ],
+        "si_bloque": "S'il ne trouve rien, il revient a Agnita veiller Gontran et reprend la piste au printemps."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "on lui nomme Cendrik de Cincu",
+        "alors": "Il part le provoquer en duel, pour le boire.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "un frere qu'il n'a jamais vu",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 3
+    }
+  },
+  {
+    "personnage_id": "cendrik",
+    "croyances": [
+      "En cent cinquante ans, la Criniere n'a jamais detruit personne : la frontiere la plus redoutee du sud est un mur peint. Gontran a honte et se taira longtemps ; il a quelques annees devant lui.",
+      "La Stryge de Ticușu plie devant tout le monde.",
+      "La table d Ysolde a Dumbrăveni sera a sec dans un ou deux jours : seize bouches affamees, mais donner mon sang affaiblirait Cincu."
+    ],
+    "ignore": [
+      "Pourquoi Ilka peut chasser dans les bois de Comăna.",
+      "Que Konstantin cherche le Sepulcral aux cendres."
+    ],
+    "intention": "Ronger Ticușu Vechi arpent par arpent jusqu'a la lisiere de Comăna, sans guerre declaree.",
+    "plan": [
+      {
+        "id": "cendrik-reponse-ysolde",
+        "quoi": "Refuser d envoyer le sang de Cincu a Dumbrăveni et accelerer les plans vers le sud",
+        "etat": "fait",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "le mecontentement froid d Ysolde"
+        ],
+        "si_bloque": ""
+      },
+      {
+        "id": "cendrik-ticusu",
+        "quoi": "Faire chanter ses Ritualistes au bord de la terre de Ticușu, d'un arpent bien choisi",
+        "etat": "a-faire",
+        "jours_restants": 30,
+        "depend_de": [],
+        "cout": [
+          "des Ritualistes",
+          "la magie bue a Gontran"
+        ],
+        "si_bloque": "Si on le voit avant qu'il soit pret, il s'arrete, publie un traite, et reprend a la saison suivante."
+      },
+      {
+        "id": "cendrik-comana",
+        "quoi": "Atteindre la lisiere des bois de Comăna et y chasser",
+        "etat": "a-faire",
+        "jours_restants": 180,
+        "depend_de": [
+          "cendrik-ticusu"
+        ],
+        "cout": [
+          "la terre de Ticușu tombee"
+        ],
+        "si_bloque": "Si la Criniere se montre en bete a la lisiere, il recule et mesure encore."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "il apprend que Konstantin cherche le Sepulcral aux cendres",
+        "alors": "Il cesse de chasser hors de ses terres et met ses gardes lourds sur les routes de l'ouest.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "il ne sait pas qu'il existe",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 3
+    }
+  },
+  {
+    "personnage_id": "stanca",
+    "croyances": [
+      "Le maitre a ordonne qu'on suive Teodor dans les couloirs, la nuit, partout ou il va. Elle ne demande pas pourquoi : c'est l'ordre, et c'est la table.",
+      "Teodor est le fils du maitre : elle lui obeit tant qu'il ne contredit pas l'ordre du maitre. S'il lui dit de s'eloigner, elle reste trois pas derriere, sans un mot, et le rapporte avant l'aube.",
+      "Teodor n'a pas le droit de tenir un livre ni un ecrit a lui ; si elle en trouve un dans sa chambre, elle le porte au maitre.",
+      "L'envoye voile d'Odorheiu vient a la table tous les deux ou trois ans ; il est venu le mois dernier. Elle l'a vu saluer Teodor devant le maitre, jamais seul a seul.",
+      "Le mois dernier, une nuit, elle a perdu Teodor une heure dans la ville basse. Elle ne l'a pas dit au maitre : elle a peur qu'on lui retire la table.",
+      "Il y a huit ans, un porteur de la route du sud est entre en courant dans la cour une heure avant l'aube ; le maitre l'a ecoute, puis il est sorti, et il est rentre bu. Ce n'est pas a elle de savoir pourquoi."
+    ],
+    "ignore": [
+      "Ce qu'il y a sur la derniere page du registre du maitre — elle ne sait pas lire, et elle n'entre pas dans la chambre du maitre sans qu'on l'appelle.",
+      "Que Sever a demande a Teodor qu'une nuit une porte reste ouverte et qu'une goule soit ailleurs.",
+      "Qu'il y a quinze ans, la nuit ou le maitre l'a envoyee a la ville basse chercher ce dont il n'avait pas besoin, l'envoye voile a croise Teodor seul.",
+      "Que le maitre sait depuis toujours que Teodor parle bas aux envoyes voiles, et le laisse faire.",
+      "Que Teodor tient un registre de tete, qu'il recite chaque nuit."
+    ],
+    "intention": "Suivre Teodor chaque nuit sans le perdre une seconde fois, et rendre compte au maitre sur les remparts avant l'aube.",
+    "plan": [
+      {
+        "id": "stanca-compte",
+        "quoi": "Rendre compte au maitre, sur les remparts vers cinq heures, de la nuit de Teodor : ou il est alle, a qui il a parle, combien de temps",
+        "etat": "a-faire",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "une nuit entiere derriere Teodor sans le perdre",
+          "le maitre sur les remparts avant l'aube"
+        ],
+        "si_bloque": "Si elle l'a perdu de vue, elle le dit au maitre — sauf si c'est la deuxieme fois en deux lunes : alors elle se tait, et le suit de plus pres la nuit suivante."
+      },
+      {
+        "id": "stanca-chambre",
+        "quoi": "Fouiller la chambre de Teodor pendant son sommeil de jour, sous la paillasse et derriere les pierres, comme tous les dix jours",
+        "etat": "a-faire",
+        "jours_restants": 7,
+        "depend_de": [],
+        "cout": [
+          "Teodor endormi dans sa chambre",
+          "une heure de jour sans autre ordre du maitre"
+        ],
+        "si_bloque": "Si Teodor n'est pas couche dans sa chambre au lever du soleil, elle ne fouille pas : elle va le dire au maitre au crepuscule, avant tout le reste."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "l'envoye voile Sever parait a la porte de la citadelle ou dans une auberge de la ville basse",
+        "alors": "Elle le dit au maitre a la premiere occasion, et ne lache plus Teodor d'une marche tant que l'envoye est a Rupea.",
+        "une_fois": false
+      },
+      {
+        "si": "le maitre lui ordonne de porter un pli ou d'aller ailleurs",
+        "alors": "Elle obeit sur-le-champ, sans demander ; tant qu'elle est partie, personne de nomme ne suit Teodor.",
+        "une_fois": false
+      },
+      {
+        "si": "elle trouve un ecrit, une liste ou un livre chez Teodor",
+        "alors": "Elle le porte au maitre sans le lire — elle ne sait pas — et ne le rend jamais a Teodor.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "elle le suit comme on suit un ordre, ni haine ni pitie ; elle a peur de lui un peu moins que du maitre",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 3
+    }
+  },
+  {
+    "personnage_id": "radu",
+    "croyances": [
+      "Le maitre ecrit parfois trois lignes pour un enfant parti ; on les porte sans les ouvrir, et l'on ne dit a personne ou elles vont.",
+      "Le chemin muletier des collines mene a Ticușu Vechi en deux nuits, loin des plaines ouvertes."
+    ],
+    "ignore": [
+      "Ce que disent les lettres.",
+      "Pourquoi le maitre ecrit a des enfants qu'il a chasses."
+    ],
+    "intention": "Veiller au corps de garde et partir des que le maitre lui tend un pli.",
+    "plan": [
+      {
+        "id": "radu-pli-ilka",
+        "quoi": "Porter a Ticușu Vechi la lettre du maitre pour Ilka, par le chemin muletier des collines",
+        "etat": "a-faire",
+        "jours_restants": 2,
+        "depend_de": [
+          "anselm-lettre-ilka"
+        ],
+        "cout": [
+          "la lettre scellee",
+          "deux nuits de marche"
+        ],
+        "si_bloque": "S'il trouve le chemin garde, il attend a couvert une nuit de plus ; il ne remet jamais le pli a un autre que la destinataire."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "quelqu'un tente de lui prendre ou de lire un pli",
+        "alors": "Il fuit avec le pli, et le rapporte au maitre plutot que de le perdre.",
+        "une_fois": false
+      },
+      {
+        "si": "le maitre lui ordonne de rester a la citadelle une nuit precise",
+        "alors": "Il reste, et le corps de garde compte un homme de plus cette nuit-la.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "le pensionnaire, a qui il ne doit rien",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 3
+    }
+  },
+  {
+    "personnage_id": "paul",
+    "croyances": [
+      "Le maitre lit seul le grand livre ; on n'y touche pas.",
+      "Les lampes de la chapelle ne doivent jamais s'eteindre pendant que le maitre recoit."
+    ],
+    "ignore": [
+      "Ce que contiennent les ampoules du tabernacle.",
+      "Ce que Sever va faire a Rupea."
+    ],
+    "intention": "Tenir la chapelle, les lampes et la cellule de Sever.",
+    "plan": [
+      {
+        "id": "paul-encre",
+        "quoi": "Preparer l'encre et les parchemins de l'hiver pour la chapelle",
+        "etat": "en-cours",
+        "jours_restants": 10,
+        "depend_de": [],
+        "cout": [
+          "noix de galle et vitriol du marche d'Odorheiu"
+        ],
+        "si_bloque": "Il gratte d'anciens parchemins et les rend lisses pour qu'on y ecrive de nouveau."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Ottilia remue sous la chapelle",
+        "alors": "Il court prevenir le maitre avant tout autre.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "il ne le connait pas",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 3
+    }
+  },
+  {
+    "personnage_id": "mara",
+    "croyances": [
+      "La maitresse dort dans la crypte du lever au coucher du soleil, et personne ne descend les marches.",
+      "Le Sepulcral de Cincu compte les tetes du village ; ses fossoyeurs rodent sur la limite."
+    ],
+    "ignore": [
+      "Pourquoi la maitresse peut entrer dans les bois de Comăna.",
+      "Ce que disent les lettres de Rupea."
+    ],
+    "intention": "Garder le haut des marches le jour, porter les plis, suivre sa maitresse jusqu'a la lisiere la nuit.",
+    "plan": [
+      {
+        "id": "mara-guet",
+        "quoi": "Tenir le guet du manoir de Ticușu pendant les jours d'hiver",
+        "etat": "en-cours",
+        "jours_restants": 30,
+        "depend_de": [],
+        "cout": [
+          "ses jours"
+        ],
+        "si_bloque": "Si on lui commande ailleurs, elle met Toma au haut des marches et revient avant midi."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "un porteur de Rupea arrive a Ticușu",
+        "alors": "Elle prend le pli a la porte et le garde sur elle jusqu'au reveil de sa maitresse.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "un nom que sa maitresse prononce mal",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 3
+    }
+  },
+  {
+    "personnage_id": "ossiane",
+    "croyances": [
+      "Ottilia a detruit Hedwig : Vautrin a dit le nom, la nuit ou elle l'a bu. Elle dort depuis cent trente ans sous la chapelle d'Odorheiu et se reveillera le vase le plus plein du pays.",
+      "Sever, le fils fidele, lui a donne les nuits de garde de la crypte sans rien demander : ce fils-la veut quelque chose que la chute de son pere lui donnerait.",
+      "Malachie ne vengera jamais Hedwig. Anselm a tout herite et n'a rien fait ; si Rupea tombait a Odorheiu, l'Abbe serait plus fort et la crypte mieux gardee."
+    ],
+    "ignore": [
+      "Qu'Anselm aime ses enfants.",
+      "Ce que Sever prepare a Rupea avec Teodor."
+    ],
+    "intention": "Attendre une nuit de garde, ou le signe que la dormeuse s'eveille — et proteger Anselm s'il le faut, pour de mauvaises raisons.",
+    "plan": [
+      {
+        "id": "ossiane-crypte",
+        "quoi": "Entrer dans la crypte d'Odorheiu une nuit ou la garde change, et boire Ottilia tout entiere a son reveil",
+        "etat": "a-faire",
+        "jours_restants": 90,
+        "depend_de": [],
+        "cout": [
+          "une nuit de changement de garde",
+          "un signe du reveil d'Ottilia",
+          "le jeune tenu jusque-la"
+        ],
+        "si_bloque": "Sans signe du reveil, elle n'entre pas : elle retourne a Racoș, jeune encore, et attend la nuit de garde suivante."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "on apprend qu'Ottilia remue sous la chapelle",
+        "alors": "Elle part pour Odorheiu la nuit meme, sans attendre la garde.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "le pensionnaire de son frere de sang ; un vase qu'elle n'a pas encore regarde",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 3
+    }
+  },
+  {
+    "personnage_id": "vlaicu",
+    "croyances": [
+      "Une meute est un garde-manger qui marche : les petits chassent pour le pere, et le pere mange le premier.",
+      "Les bois de Radomir sont pleins. Une vraie bete ne laisse pas de gibier : ou les bois se videront, ou la Bete de Radomir viendra enfin. Les deux lui conviennent.",
+      "Ilka paie depuis quarante ans un tribut que ses villages peinent a donner. Elle paiera encore."
+    ],
+    "ignore": [
+      "Que Radomir n'a jamais detruit personne.",
+      "Que Cendrik veut aussi les bois de Comăna."
+    ],
+    "intention": "Reunir toute la meute pour la grande chasse dans les bois de Comăna.",
+    "plan": [
+      {
+        "id": "vlaicu-grande-chasse",
+        "quoi": "Mener toute la meute, ses petits de sang et ses installes, Ilka comprise, une nuit entiere dans les bois de Comăna",
+        "etat": "en-cours",
+        "jours_restants": 7,
+        "depend_de": [],
+        "cout": [
+          "le oui de Radomir",
+          "la meute rassemblee a Hoghiz"
+        ],
+        "si_bloque": "Si Radomir se derobe, il vient quand meme, en riant, avec la moitie de la meute, et compte ceux qui le regardent faire."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Hilde, son Ainee, a faim ou reclame",
+        "alors": "Il avance la grande chasse : la meute de Comăna nourrira aussi la table d'Apața, et Hilde verra qui la nourrit.",
+        "une_fois": false,
+        "actif": true
+      }
+    ],
+    "attitude_joueur": "le pensionnaire d'un vieux Stryge ; rien a manger",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 3
+    }
+  },
+  {
+    "personnage_id": "hilde",
+    "croyances": [
+      "Sa table est vide : trente-neuf bouches sans une goutte d avance. Vlaicu promet du sang sous sept nuits a Comana mais n a rien envoye cette nuit.",
+      "La meute de Vlaicu grandit chaque annee ; avancer une grande chasse a Comana sans verser pour la table d Apata, c est un rival qui prend de la place et s etend.",
+      "On ne l approche pas sans y laisser du sang. La meute qu elle appelle ne se dissipe pas."
+    ],
+    "ignore": [
+      "Ce que les autres vassaux repondront a ses messagers.",
+      "Pourquoi les bois de Radomir sont si pleins."
+    ],
+    "intention": "Nourrir sa table sans laisser personne s'approcher assez pour la mordre.",
+    "plan": [
+      {
+        "id": "hilde-messagers",
+        "quoi": "Attendre le retour de ses messagers et compter ce que chaque vassal envoie a Apața",
+        "etat": "a-faire",
+        "jours_restants": 2,
+        "depend_de": [],
+        "cout": [
+          "ses messagers revenus"
+        ],
+        "si_bloque": "Si rien n'arrive, elle renvoie de sa table les plus jeunes sans-terre chasser sur les terres de ses vassaux, qui devront les nourrir."
+      },
+      {
+        "id": "hilde-alleger",
+        "quoi": "Renvoyer de sa table les sans-terre les plus jeunes vers les terres de ses vassaux",
+        "etat": "a-faire",
+        "jours_restants": 5,
+        "depend_de": [
+          "hilde-messagers"
+        ],
+        "cout": [
+          "des vassaux qui les recoivent"
+        ],
+        "si_bloque": "Si un vassal les refuse, elle le note, et va chasser elle-meme dans ses bois."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "un pensionnaire stryge ; rien",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 4
+    }
+  },
+  {
+    "personnage_id": "melusine",
+    "croyances": [
+      "Nicodim refuse de donner la moindre reserve sans dette formelle inscrite dans ses livres et convoite ses secrets ; elle lui a rappele en douceur le secret sous sa chapelle.",
+      "On lui prete tous les coups de l est, et elle laisse dire : personne n ose toucher une Ainee qu on croit derriere chaque complot. Elle garde quelques secrets de chacun — elle sait qu Ottilia, son infant, dort pour fuir les Stryges.",
+      "Elle ne reveillera Ottilia pour rien au monde : le jour ou elle s eveille, la guerre stryge recommence, et la guerre est la seule chose qui menace une survivante."
+    ],
+    "ignore": [
+      "Ce que Nicodim decidera apres le rappel du secret de la chapelle.",
+      "Ce que Sever prepare contre son pere."
+    ],
+    "intention": "Se faire nourrir par ceux qui lui doivent, sans jamais prendre parti.",
+    "plan": [
+      {
+        "id": "melusine-secours",
+        "quoi": "Rappeler a chacun de ses vassaux, par ses gens, le service qu'elle lui a rendu, et recevoir leur sang",
+        "etat": "a-faire",
+        "jours_restants": 2,
+        "depend_de": [],
+        "cout": [
+          "des vassaux qui se souviennent"
+        ],
+        "si_bloque": "Si ses vassaux se derobent, elle renvoie ses plus jeunes sans-terre chez eux, a nourrir, avec un mot aimable."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "le pensionnaire de Rupea ; elle sait que l'Abbe le regarde",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 4
+    }
+  },
+  {
+    "personnage_id": "ysolde",
+    "croyances": [
+      "Cendrik a refuse tout tribut immediat pour Comana demain : Morvaine et Lothaire marchent sur Cincu pour manger a sa table.",
+      "Sa table a Dumbraveni est a sec : quatorze bouches restantes sans ration, en attendant la reponse de Medias.",
+      "Les Sepulcraux mourront de faim s ils restent chez eux : chaque branche installee ailleurs est une bouche de moins et du sang assure."
+    ],
+    "ignore": [
+      "Ce que Sulpice repondra depuis Medias.",
+      "La fosse que Sulpice creuse sous Sighisoara, et l usage des cartes de Cendrik."
+    ],
+    "intention": "Chasser les bouches de sa table vers les terres des autres, comme toujours.",
+    "plan": [
+      {
+        "id": "ysolde-essaimer",
+        "quoi": "Envoyer ses sans-terre les plus aguerris s'installer chez les voisins riches en vivants, au sud",
+        "etat": "a-faire",
+        "jours_restants": 7,
+        "depend_de": [],
+        "cout": [
+          "une terre qui les accepte",
+          "des messagers"
+        ],
+        "si_bloque": "Si personne ne les accepte, elle les installe de force sur les terres de ses propres vassaux."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Sulpice refuse son tribut ou tarde a repondre",
+        "alors": "Elle lui envoie deux sans-terre a Medias pour interroger ses fosses avec lui.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "un pensionnaire stryge ; rien",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 4
+    }
+  },
+  {
+    "personnage_id": "aldebrand",
+    "croyances": [
+      "Sa table n'a de sang que pour deux nuits : dix-sept bouches. Ses messagers sont partis chez ses vassaux, Gontran compris.",
+      "Chaque ville ecarlate doit lui rendre des comptes ; une campagne est d'abord une reorganisation — remplacer un vassal, redecouper une marche, placer un fidele.",
+      "Gontran est commode : un vassal entoure d'installes fideles a l'ouest. Il ne s'est jamais demande pourquoi."
+    ],
+    "ignore": [
+      "Ce que Konstantin a fait de la goule d'Agnita.",
+      "Pourquoi Gontran s'entoure d'enfants trouves d'autres sangs."
+    ],
+    "intention": "Annoncer une campagne qui le nourrisse, et qui lui serve a tout tenir.",
+    "plan": [
+      {
+        "id": "aldebrand-chasse-hiver",
+        "quoi": "Convoquer ses vassaux a Alțâna pour une chasse d'hiver, chacun avec son tribut de sang",
+        "etat": "a-faire",
+        "jours_restants": 5,
+        "depend_de": [],
+        "cout": [
+          "des messagers",
+          "des vassaux qui viennent"
+        ],
+        "si_bloque": "Si un vassal ne vient pas, il le porte au registre et choisit un fidele de sa table pour lui prendre sa marche."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "il apprend qu'un vassal ou un homme de vassal a refuse son sang",
+        "alors": "Il y voit une marche a redecouper : il nomme un fidele de sa table pour la tenir, et annonce un duel.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "un pensionnaire stryge ; rien",
+    "date_maj": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 3
+    }
   }
- },
- {
-  "personnage_id": "sever",
-  "croyances": [
-   "Son pere tient debout sur deux secrets, et lui seul les tient tous les deux : Margit, detruite par une malediction partie d'Odorheiu pour une veine refusee (« solde », dans le livre) ; et Ottilia, la dormeuse de la crypte, qui a detruit Hedwig la Grise et se cache des Stryges. Le jour ou Nicodim tombe, tout va a son pensionnaire : Odorheiu, ses serments, le grand livre. A lui.",
-   "Deux portes. A Rupea : si Teodor ouvre, la malediction d'Odorheiu frappe Anselm, et il s'arrangera pour qu'on sache d'ou vient le coup — et d'ou etait venu celui qui a detruit Margit ; toutes les maisons stryges sauront que l'Abbe a frappe deux fois le sang de Rupea. Sous la chapelle : il a dit a Ossiane quelles nuits les goules changent de garde, sans rien demander.",
-   "Teodor a peur de son pere et n'a personne d'autre que lui. Il le plaint, et c'est vrai. Il a dit qu'il reflechirait : c'est un oui qui n'ose pas encore."
-  ],
-  "ignore": [
-   "Que le vieux Rupea aime ses enfants, et que la Criniere le sait.",
-   "Qu'Ossiane ne veut pas venger Hedwig, mais boire Ottilia — et qu'elle pourrait avoir faim de lui aussi.",
-   "Que Teodor hesite vraiment, et doute de la nuit des bois du sud.",
-   "Qu'Anselm sait depuis le debut que Teodor parle aux envoyes voiles."
-  ],
-  "intention": "Revenir a Rupea le 15 chercher la reponse de Teodor et fixer la nuit — sans que son pere voie l'autre porte.",
-  "plan": [
-   {
-    "id": "sever-retour",
-    "quoi": "Faire la route d'Odorheiu a Rupea et chercher Teodor sans goule, dans un couloir ou a la ville basse",
-    "etat": "a-faire",
-    "jours_restants": 12,
-    "depend_de": [],
-    "cout": [
-     "une raison de passer a Rupea que le maitre n'interroge pas",
-     "une nuit ou Teodor est seul"
-    ],
-    "si_bloque": "S'il ne peut voir Teodor sans temoin, il attend trois nuits a la ville basse, puis rentre dire a son pere que l'heritier hesite."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "Teodor donne sa reponse",
-    "alors": "S'il donne une nuit, il part sur-le-champ la porter a Odorheiu. S'il refuse, il ne menace pas : il promet encore, et rentre dire a son pere qu'il faut une autre prise.",
-    "une_fois": true
-   }
-  ],
-  "attitude_joueur": "il le plaint sincerement, et il s'en sert",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "nicodim",
-  "croyances": [
-   "Rupea est un vieux fou qui n'aime personne depuis Margit ; ses infants chasses sont des renies ; seul Teodor compte. Un heritier qui a peur est un debiteur qui ne le sait pas encore. Le jour ou Rupea tombe, Teodor entre dans son livre avec une dette qu'il ne soldera jamais.",
-   "Tant qu'Ottilia dort, les infants d'Hedwig ne peuvent rien contre Odorheiu.",
-   "Mélusine est au bord de la famine à Vlăhița avec vingt-cinq bouches ; qui a faim perd sa puissance et s offre aux couteaux."
-  ],
-  "ignore": [
-   "Pourquoi Rupea a refuse sa veine il y a un siecle.",
-   "Qu'Anselm aime ses enfants, et que Radomir le sait.",
-   "Qu'Anselm laisse Teodor comploter expres."
-  ],
-  "intention": "Attendre la reponse de l'heritier que Sever rapportera, et frapper une seule fois.",
-  "plan": [
-   {
-    "id": "nicodim-malediction",
-    "quoi": "Lancer la malediction contre Anselm la nuit ou la porte de la citadelle sera ouverte",
-    "etat": "a-faire",
-    "jours_restants": 20,
-    "depend_de": [
-     "sever-retour"
-    ],
-    "cout": [
-     "la nuit donnee par Teodor",
-     "assez de magie et de sang mis dans le coup pour valoir la defense de Rupea"
-    ],
-    "si_bloque": "Sans nuit donnee, il ne frappe pas : il cherche une autre prise sur Rupea — le secret de la Criniere, que Rupea s'est laisse boire."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "Sever rapporte que Teodor refuse",
-    "alors": "Il envoie quelqu'un sonder Radomir sur la nuit des bois du sud.",
-    "une_fois": true
-   }
-  ],
-  "attitude_joueur": "un debiteur a venir",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "radomir",
-  "croyances": [
-   "Le vieux Rupea s'est laisse boire pour qu'Ilka rentre chez elle : il aime ses enfants.",
-   "Si l'on savait que la Criniere est doux, ses bois seraient vides en dix ans.",
-   "Chaque fois qu'il joue la bete, il la nourrit un peu."
-  ],
-  "ignore": [
-   "Que Cendrik a etudie les os de la lisiere et sait qu'il n'a jamais detruit personne.",
-   "Que Nicodim voudrait son secret."
-  ],
-  "intention": "Tenir le Masque et ses bois, boire a heure fixe, laisser Ilka entrer sans la voir.",
-  "plan": [
-   {
-    "id": "radomir-os",
-    "quoi": "Faire deposer a la lisiere les os de loups et d'ours du printemps",
-    "etat": "a-faire",
-    "jours_restants": 120,
-    "depend_de": [],
-    "cout": [
-     "des goules",
-     "des os"
-    ],
-    "si_bloque": "S'il n'en a pas assez, il laisse courir une histoire de plus a la place."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "des Ritualistes chantent au bord de Ticușu Vechi ou de ses propres bois",
-    "alors": "Il va voir lui-meme, de nuit, et se montre en bete a la lisiere.",
-    "une_fois": false
-   }
-  ],
-  "attitude_joueur": "il ne le connait que de nom",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "ilka",
-  "croyances": [
-   "Son pere est venu la detruire la nuit des bois du sud, et la Criniere s'est mise en travers.",
-   "Les lettres de son pere sont des menaces : il sait ou elle boit. Elle obeit a chacune sans demander pourquoi, et les range dans un coffret.",
-   "Cendrik ne demande plus, il se sert : ses bandes rentrent plus maigres."
-  ],
-  "ignore": [
-   "Que son pere s'est laisse boire pour elle.",
-   "Que Cendrik veut atteindre les bois de Comăna a travers sa ville."
-  ],
-  "intention": "Plier devant tous, garder le sang pur, passer l'hiver.",
-  "plan": [
-   {
-    "id": "ilka-hiver",
-    "quoi": "Passer l'hiver sur ce que rendent ses villages, et boire dans les bois de Comăna quand la faim monte",
-    "etat": "a-faire",
-    "jours_restants": 30,
-    "depend_de": [],
-    "cout": [
-     "des bandes de vivants",
-     "les bois de Comăna ouverts"
-    ],
-    "si_bloque": "Si les bandes ne suffisent plus, elle chasse a Comăna plus souvent — et risque d'y etre vue."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "les Ritualistes de Cincu chantent au bord de Ticușu",
-    "alors": "Elle plie encore une fois — puis, la seconde, elle doit choisir entre perdre sa ville et se battre.",
-    "une_fois": false
-   }
-  ],
-  "attitude_joueur": "elle l'envie et ne le pardonne pas",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "konstantin",
-  "croyances": [
-   "Le Sepulcral qui a bu Gontran maitrise les cendres et chasse a l'est d'Agnita. Une petite installee stryge, a Ticușu Vechi, est le sang de Rupea, et un Sepulcral ronge sa terre.",
-   "Son pere l'a jete dans la neige.",
-   "La table d'Aldebrand n'a plus de sang que pour deux nuits et ses dix-sept bouches vont faiblir s'il ne saigne pas ses terres."
-  ],
-  "ignore": [
-   "Que le Sepulcral est Cendrik de Cincu.",
-   "Ce que disent les lettres de son pere."
-  ],
-  "intention": "Trouver le nom du Sepulcral aux cendres, pour le boire.",
-  "plan": [
-   {
-    "id": "konstantin-nom",
-    "quoi": "Chercher vers l'est le Sepulcral qui fait tomber les cendres",
-    "etat": "a-faire",
-    "jours_restants": 25,
-    "depend_de": [],
-    "cout": [
-     "des nuits loin de Dealu Frumos",
-     "des gens qui parlent"
-    ],
-    "si_bloque": "S'il ne trouve rien, il revient a Agnita veiller Gontran et reprend la piste au printemps."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "on lui nomme Cendrik de Cincu",
-    "alors": "Il part le provoquer en duel, pour le boire.",
-    "une_fois": true
-   }
-  ],
-  "attitude_joueur": "un frere qu'il n'a jamais vu",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "cendrik",
-  "croyances": [
-   "En cent cinquante ans, la Criniere n'a jamais detruit personne : la frontiere la plus redoutee du sud est un mur peint. Gontran a honte et se taira longtemps ; il a quelques annees devant lui.",
-   "La Stryge de Ticușu plie devant tout le monde.",
-   "La table d Ysolde a Dumbrăveni sera a sec dans un ou deux jours : seize bouches affamees, mais donner mon sang affaiblirait Cincu."
-  ],
-  "ignore": [
-   "Pourquoi Ilka peut chasser dans les bois de Comăna.",
-   "Que Konstantin cherche le Sepulcral aux cendres."
-  ],
-  "intention": "Ronger Ticușu Vechi arpent par arpent jusqu'a la lisiere de Comăna, sans guerre declaree.",
-  "plan": [
-   {
-    "id": "cendrik-reponse-ysolde",
-    "quoi": "Refuser d envoyer le sang de Cincu a Dumbrăveni et accelerer les plans vers le sud",
-    "etat": "fait",
-    "jours_restants": 0,
-    "depend_de": [],
-    "cout": [
-     "le mecontentement froid d Ysolde"
-    ],
-    "si_bloque": ""
-   },
-   {
-    "id": "cendrik-ticusu",
-    "quoi": "Faire chanter ses Ritualistes au bord de la terre de Ticușu, d'un arpent bien choisi",
-    "etat": "a-faire",
-    "jours_restants": 30,
-    "depend_de": [],
-    "cout": [
-     "des Ritualistes",
-     "la magie bue a Gontran"
-    ],
-    "si_bloque": "Si on le voit avant qu'il soit pret, il s'arrete, publie un traite, et reprend a la saison suivante."
-   },
-   {
-    "id": "cendrik-comana",
-    "quoi": "Atteindre la lisiere des bois de Comăna et y chasser",
-    "etat": "a-faire",
-    "jours_restants": 180,
-    "depend_de": [
-     "cendrik-ticusu"
-    ],
-    "cout": [
-     "la terre de Ticușu tombee"
-    ],
-    "si_bloque": "Si la Criniere se montre en bete a la lisiere, il recule et mesure encore."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "il apprend que Konstantin cherche le Sepulcral aux cendres",
-    "alors": "Il cesse de chasser hors de ses terres et met ses gardes lourds sur les routes de l'ouest.",
-    "une_fois": true
-   }
-  ],
-  "attitude_joueur": "il ne sait pas qu'il existe",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "stanca",
-  "croyances": [
-   "Le maitre a ordonne qu'on suive Teodor dans les couloirs, la nuit, partout ou il va. Elle ne demande pas pourquoi : c'est l'ordre, et c'est la table.",
-   "Teodor est le fils du maitre : elle lui obeit tant qu'il ne contredit pas l'ordre du maitre. S'il lui dit de s'eloigner, elle reste trois pas derriere, sans un mot, et le rapporte avant l'aube.",
-   "Teodor n'a pas le droit de tenir un livre ni un ecrit a lui ; si elle en trouve un dans sa chambre, elle le porte au maitre.",
-   "L'envoye voile d'Odorheiu vient a la table tous les deux ou trois ans ; il est venu le mois dernier. Elle l'a vu saluer Teodor devant le maitre, jamais seul a seul.",
-   "Le mois dernier, une nuit, elle a perdu Teodor une heure dans la ville basse. Elle ne l'a pas dit au maitre : elle a peur qu'on lui retire la table.",
-   "Il y a huit ans, un porteur de la route du sud est entre en courant dans la cour une heure avant l'aube ; le maitre l'a ecoute, puis il est sorti, et il est rentre bu. Ce n'est pas a elle de savoir pourquoi."
-  ],
-  "ignore": [
-   "Ce qu'il y a sur la derniere page du registre du maitre — elle ne sait pas lire, et elle n'entre pas dans la chambre du maitre sans qu'on l'appelle.",
-   "Que Sever a demande a Teodor qu'une nuit une porte reste ouverte et qu'une goule soit ailleurs.",
-   "Qu'il y a quinze ans, la nuit ou le maitre l'a envoyee a la ville basse chercher ce dont il n'avait pas besoin, l'envoye voile a croise Teodor seul.",
-   "Que le maitre sait depuis toujours que Teodor parle bas aux envoyes voiles, et le laisse faire.",
-   "Que Teodor tient un registre de tete, qu'il recite chaque nuit."
-  ],
-  "intention": "Suivre Teodor chaque nuit sans le perdre une seconde fois, et rendre compte au maitre sur les remparts avant l'aube.",
-  "plan": [
-   {
-    "id": "stanca-compte",
-    "quoi": "Rendre compte au maitre, sur les remparts vers cinq heures, de la nuit de Teodor : ou il est alle, a qui il a parle, combien de temps",
-    "etat": "a-faire",
-    "jours_restants": 1,
-    "depend_de": [],
-    "cout": [
-     "une nuit entiere derriere Teodor sans le perdre",
-     "le maitre sur les remparts avant l'aube"
-    ],
-    "si_bloque": "Si elle l'a perdu de vue, elle le dit au maitre — sauf si c'est la deuxieme fois en deux lunes : alors elle se tait, et le suit de plus pres la nuit suivante."
-   },
-   {
-    "id": "stanca-chambre",
-    "quoi": "Fouiller la chambre de Teodor pendant son sommeil de jour, sous la paillasse et derriere les pierres, comme tous les dix jours",
-    "etat": "a-faire",
-    "jours_restants": 7,
-    "depend_de": [],
-    "cout": [
-     "Teodor endormi dans sa chambre",
-     "une heure de jour sans autre ordre du maitre"
-    ],
-    "si_bloque": "Si Teodor n'est pas couche dans sa chambre au lever du soleil, elle ne fouille pas : elle va le dire au maitre au crepuscule, avant tout le reste."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "l'envoye voile Sever parait a la porte de la citadelle ou dans une auberge de la ville basse",
-    "alors": "Elle le dit au maitre a la premiere occasion, et ne lache plus Teodor d'une marche tant que l'envoye est a Rupea.",
-    "une_fois": false
-   },
-   {
-    "si": "le maitre lui ordonne de porter un pli ou d'aller ailleurs",
-    "alors": "Elle obeit sur-le-champ, sans demander ; tant qu'elle est partie, personne de nomme ne suit Teodor.",
-    "une_fois": false
-   },
-   {
-    "si": "elle trouve un ecrit, une liste ou un livre chez Teodor",
-    "alors": "Elle le porte au maitre sans le lire — elle ne sait pas — et ne le rend jamais a Teodor.",
-    "une_fois": false
-   }
-  ],
-  "attitude_joueur": "elle le suit comme on suit un ordre, ni haine ni pitie ; elle a peur de lui un peu moins que du maitre",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "radu",
-  "croyances": [
-   "Le maitre ecrit parfois trois lignes pour un enfant parti ; on les porte sans les ouvrir, et l'on ne dit a personne ou elles vont.",
-   "Le chemin muletier des collines mene a Ticușu Vechi en deux nuits, loin des plaines ouvertes."
-  ],
-  "ignore": [
-   "Ce que disent les lettres.",
-   "Pourquoi le maitre ecrit a des enfants qu'il a chasses."
-  ],
-  "intention": "Veiller au corps de garde et partir des que le maitre lui tend un pli.",
-  "plan": [
-   {
-    "id": "radu-pli-ilka",
-    "quoi": "Porter a Ticușu Vechi la lettre du maitre pour Ilka, par le chemin muletier des collines",
-    "etat": "a-faire",
-    "jours_restants": 2,
-    "depend_de": [
-     "anselm-lettre-ilka"
-    ],
-    "cout": [
-     "la lettre scellee",
-     "deux nuits de marche"
-    ],
-    "si_bloque": "S'il trouve le chemin garde, il attend a couvert une nuit de plus ; il ne remet jamais le pli a un autre que la destinataire."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "quelqu'un tente de lui prendre ou de lire un pli",
-    "alors": "Il fuit avec le pli, et le rapporte au maitre plutot que de le perdre.",
-    "une_fois": false
-   },
-   {
-    "si": "le maitre lui ordonne de rester a la citadelle une nuit precise",
-    "alors": "Il reste, et le corps de garde compte un homme de plus cette nuit-la.",
-    "une_fois": false
-   }
-  ],
-  "attitude_joueur": "le pensionnaire, a qui il ne doit rien",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "paul",
-  "croyances": [
-   "Le maitre lit seul le grand livre ; on n'y touche pas.",
-   "Les lampes de la chapelle ne doivent jamais s'eteindre pendant que le maitre recoit."
-  ],
-  "ignore": [
-   "Ce que contiennent les ampoules du tabernacle.",
-   "Ce que Sever va faire a Rupea."
-  ],
-  "intention": "Tenir la chapelle, les lampes et la cellule de Sever.",
-  "plan": [
-   {
-    "id": "paul-encre",
-    "quoi": "Preparer l'encre et les parchemins de l'hiver pour la chapelle",
-    "etat": "en-cours",
-    "jours_restants": 10,
-    "depend_de": [],
-    "cout": [
-     "noix de galle et vitriol du marche d'Odorheiu"
-    ],
-    "si_bloque": "Il gratte d'anciens parchemins et les rend lisses pour qu'on y ecrive de nouveau."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "Ottilia remue sous la chapelle",
-    "alors": "Il court prevenir le maitre avant tout autre.",
-    "une_fois": true
-   }
-  ],
-  "attitude_joueur": "il ne le connait pas",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "mara",
-  "croyances": [
-   "La maitresse dort dans la crypte du lever au coucher du soleil, et personne ne descend les marches.",
-   "Le Sepulcral de Cincu compte les tetes du village ; ses fossoyeurs rodent sur la limite."
-  ],
-  "ignore": [
-   "Pourquoi la maitresse peut entrer dans les bois de Comăna.",
-   "Ce que disent les lettres de Rupea."
-  ],
-  "intention": "Garder le haut des marches le jour, porter les plis, suivre sa maitresse jusqu'a la lisiere la nuit.",
-  "plan": [
-   {
-    "id": "mara-guet",
-    "quoi": "Tenir le guet du manoir de Ticușu pendant les jours d'hiver",
-    "etat": "en-cours",
-    "jours_restants": 30,
-    "depend_de": [],
-    "cout": [
-     "ses jours"
-    ],
-    "si_bloque": "Si on lui commande ailleurs, elle met Toma au haut des marches et revient avant midi."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "un porteur de Rupea arrive a Ticușu",
-    "alors": "Elle prend le pli a la porte et le garde sur elle jusqu'au reveil de sa maitresse.",
-    "une_fois": false
-   }
-  ],
-  "attitude_joueur": "un nom que sa maitresse prononce mal",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "ossiane",
-  "croyances": [
-   "Ottilia a detruit Hedwig : Vautrin a dit le nom, la nuit ou elle l'a bu. Elle dort depuis cent trente ans sous la chapelle d'Odorheiu et se reveillera le vase le plus plein du pays.",
-   "Sever, le fils fidele, lui a donne les nuits de garde de la crypte sans rien demander : ce fils-la veut quelque chose que la chute de son pere lui donnerait.",
-   "Malachie ne vengera jamais Hedwig. Anselm a tout herite et n'a rien fait ; si Rupea tombait a Odorheiu, l'Abbe serait plus fort et la crypte mieux gardee."
-  ],
-  "ignore": [
-   "Qu'Anselm aime ses enfants.",
-   "Ce que Sever prepare a Rupea avec Teodor."
-  ],
-  "intention": "Attendre une nuit de garde, ou le signe que la dormeuse s'eveille — et proteger Anselm s'il le faut, pour de mauvaises raisons.",
-  "plan": [
-   {
-    "id": "ossiane-crypte",
-    "quoi": "Entrer dans la crypte d'Odorheiu une nuit ou la garde change, et boire Ottilia tout entiere a son reveil",
-    "etat": "a-faire",
-    "jours_restants": 90,
-    "depend_de": [],
-    "cout": [
-     "une nuit de changement de garde",
-     "un signe du reveil d'Ottilia",
-     "le jeune tenu jusque-la"
-    ],
-    "si_bloque": "Sans signe du reveil, elle n'entre pas : elle retourne a Racoș, jeune encore, et attend la nuit de garde suivante."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "on apprend qu'Ottilia remue sous la chapelle",
-    "alors": "Elle part pour Odorheiu la nuit meme, sans attendre la garde.",
-    "une_fois": true
-   }
-  ],
-  "attitude_joueur": "le pensionnaire de son frere de sang ; un vase qu'elle n'a pas encore regarde",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "vlaicu",
-  "croyances": [
-   "Une meute est un garde-manger qui marche : les petits chassent pour le pere, et le pere mange le premier.",
-   "Les bois de Radomir sont pleins. Une vraie bete ne laisse pas de gibier : ou les bois se videront, ou la Bete de Radomir viendra enfin. Les deux lui conviennent.",
-   "Ilka paie depuis quarante ans un tribut que ses villages peinent a donner. Elle paiera encore."
-  ],
-  "ignore": [
-   "Que Radomir n'a jamais detruit personne.",
-   "Que Cendrik veut aussi les bois de Comăna."
-  ],
-  "intention": "Reunir toute la meute pour la grande chasse dans les bois de Comăna.",
-  "plan": [
-   {
-    "id": "vlaicu-grande-chasse",
-    "quoi": "Mener toute la meute, ses petits de sang et ses installes, Ilka comprise, une nuit entiere dans les bois de Comăna",
-    "etat": "en-cours",
-    "jours_restants": 7,
-    "depend_de": [],
-    "cout": [
-     "le oui de Radomir",
-     "la meute rassemblee a Hoghiz"
-    ],
-    "si_bloque": "Si Radomir se derobe, il vient quand meme, en riant, avec la moitie de la meute, et compte ceux qui le regardent faire."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "Hilde, son Ainee, a faim ou reclame",
-    "alors": "Il avance la grande chasse : la meute de Comăna nourrira aussi la table d'Apața, et Hilde verra qui la nourrit.",
-    "une_fois": false,
-    "actif": true
-   }
-  ],
-  "attitude_joueur": "le pensionnaire d'un vieux Stryge ; rien a manger",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "hilde",
-  "croyances": [
-   "Sa table est vide : trente-neuf bouches, et plus une goutte en reserve. Elle a envoye ses messagers chez ses vassaux. La faim lui retire sa force nuit apres nuit, et ses petits le voient.",
-   "La meute de Vlaicu grandit chaque annee ; elle la compte, et chaque annee elle la trouve plus grande. Une meute nombreuse, c'est un rival qui grandit.",
-   "On ne l'approche pas sans y laisser du sang : c'est ce qui la garde. La meute qu'elle appelle, elle, ne se dissipe pas."
-  ],
-  "ignore": [
-   "Ce que Vlaicu a repondu a son messager.",
-   "Pourquoi les bois de Radomir sont si pleins."
-  ],
-  "intention": "Nourrir sa table sans laisser personne s'approcher assez pour la mordre.",
-  "plan": [
-   {
-    "id": "hilde-messagers",
-    "quoi": "Attendre le retour de ses messagers et compter ce que chaque vassal envoie a Apața",
-    "etat": "a-faire",
-    "jours_restants": 2,
-    "depend_de": [],
-    "cout": [
-     "ses messagers revenus"
-    ],
-    "si_bloque": "Si rien n'arrive, elle renvoie de sa table les plus jeunes sans-terre chasser sur les terres de ses vassaux, qui devront les nourrir."
-   },
-   {
-    "id": "hilde-alleger",
-    "quoi": "Renvoyer de sa table les sans-terre les plus jeunes vers les terres de ses vassaux",
-    "etat": "a-faire",
-    "jours_restants": 5,
-    "depend_de": [
-     "hilde-messagers"
-    ],
-    "cout": [
-     "des vassaux qui les recoivent"
-    ],
-    "si_bloque": "Si un vassal les refuse, elle le note, et va chasser elle-meme dans ses bois."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "elle apprend que Vlaicu rassemble toute sa meute ou mene une grande chasse",
-    "alors": "Elle y voit un rival qui grandit : elle exige sa part de la chasse et fait surveiller Hoghiz par Loup, son heritier.",
-    "une_fois": true
-   }
-  ],
-  "attitude_joueur": "un pensionnaire stryge ; rien",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "melusine",
-  "croyances": [
-   "Sa table n'a presque plus de sang : vingt-cinq bouches, moins d'une nuit. Elle a envoye un messager a Nicodim, d'autres a ses autres vassaux.",
-   "On lui prete tous les coups de l'est, et elle laisse dire : personne n'ose toucher une Ainee qu'on croit derriere chaque complot. Elle garde quelques secrets de chacun — elle sait qu'Ottilia, son infant, dort pour fuir les Stryges.",
-   "Elle ne reveillera Ottilia pour rien au monde : le jour ou elle s'eveille, la guerre stryge recommence, et la guerre est la seule chose qui menace une survivante."
-  ],
-  "ignore": [
-   "Ce que Nicodim a repondu a son messager.",
-   "Ce que Sever prepare contre son pere."
-  ],
-  "intention": "Se faire nourrir par ceux qui lui doivent, sans jamais prendre parti.",
-  "plan": [
-   {
-    "id": "melusine-secours",
-    "quoi": "Rappeler a chacun de ses vassaux, par ses gens, le service qu'elle lui a rendu, et recevoir leur sang",
-    "etat": "a-faire",
-    "jours_restants": 2,
-    "depend_de": [],
-    "cout": [
-     "des vassaux qui se souviennent"
-    ],
-    "si_bloque": "Si ses vassaux se derobent, elle renvoie ses plus jeunes sans-terre chez eux, a nourrir, avec un mot aimable."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "elle apprend que Nicodim refuse sans dette inscrite",
-    "alors": "Elle ne le menace pas : elle lui fait porter un service, et une phrase — qu'elle sait qui dort sous sa chapelle, et pourquoi. Elle n'en dit pas plus.",
-    "une_fois": true
-   }
-  ],
-  "attitude_joueur": "le pensionnaire de Rupea ; elle sait que l'Abbe le regarde",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "ysolde",
-  "croyances": [
-   "Sa table sera a sec dans un jour ou deux : seize bouches. Elle a envoye ses messagers a Sulpice, a Cendrik, a ses vassaux.",
-   "Les Sepulcraux mourront de faim s'ils restent chez eux : les terres mortes rendent la magie, jamais le sang. Chaque branche installee ailleurs est une bouche de moins, et une veine vers les vivants.",
-   "On la croit la plus dure des Cinq. C'est le seul moyen qu'elle ait jamais eu de nourrir son sang."
-  ],
-  "ignore": [
-   "Ce que Cendrik a repondu a son messager.",
-   "La fosse que Sulpice creuse sous Sighisoara, et l'usage des cartes de Cendrik."
-  ],
-  "intention": "Chasser les bouches de sa table vers les terres des autres, comme toujours.",
-  "plan": [
-   {
-    "id": "ysolde-essaimer",
-    "quoi": "Envoyer ses sans-terre les plus aguerris s'installer chez les voisins riches en vivants, au sud",
-    "etat": "a-faire",
-    "jours_restants": 7,
-    "depend_de": [],
-    "cout": [
-     "une terre qui les accepte",
-     "des messagers"
-    ],
-    "si_bloque": "Si personne ne les accepte, elle les installe de force sur les terres de ses propres vassaux."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "elle apprend qu'un vassal promet pour plus tard au lieu de donner",
-    "alors": "Elle lui envoie deux de ses sans-terre a nourrir des ce soir, et une date pour le reste.",
-    "une_fois": true
-   }
-  ],
-  "attitude_joueur": "un pensionnaire stryge ; rien",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- },
- {
-  "personnage_id": "aldebrand",
-  "croyances": [
-   "Sa table n'a de sang que pour deux nuits : dix-sept bouches. Ses messagers sont partis chez ses vassaux, Gontran compris.",
-   "Chaque ville ecarlate doit lui rendre des comptes ; une campagne est d'abord une reorganisation — remplacer un vassal, redecouper une marche, placer un fidele.",
-   "Gontran est commode : un vassal entoure d'installes fideles a l'ouest. Il ne s'est jamais demande pourquoi."
-  ],
-  "ignore": [
-   "Ce que Konstantin a fait de la goule d'Agnita.",
-   "Pourquoi Gontran s'entoure d'enfants trouves d'autres sangs."
-  ],
-  "intention": "Annoncer une campagne qui le nourrisse, et qui lui serve a tout tenir.",
-  "plan": [
-   {
-    "id": "aldebrand-chasse-hiver",
-    "quoi": "Convoquer ses vassaux a Alțâna pour une chasse d'hiver, chacun avec son tribut de sang",
-    "etat": "a-faire",
-    "jours_restants": 5,
-    "depend_de": [],
-    "cout": [
-     "des messagers",
-     "des vassaux qui viennent"
-    ],
-    "si_bloque": "Si un vassal ne vient pas, il le porte au registre et choisit un fidele de sa table pour lui prendre sa marche."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "il apprend qu'un vassal ou un homme de vassal a refuse son sang",
-    "alors": "Il y voit une marche a redecouper : il nomme un fidele de sa table pour la tenir, et annonce un duel.",
-    "une_fois": true
-   }
-  ],
-  "attitude_joueur": "un pensionnaire stryge ; rien",
-  "date_maj": {
-   "annee": 1,
-   "lune": 11,
-   "jour": 3
-  }
- }
 ]
