@@ -1,0 +1,67 @@
+{
+ "id": "serment-de-cour-de-hilde",
+ "titre": "Le serment de cour d'Apața",
+ "sous_titre": "Ce que l'Aînée des Voraces verse et permet à ceux qui s'abritent et boivent à sa table à Apața.",
+ "type": "registre",
+ "embleme": "🦴",
+ "couleur": "#4a2a18",
+ "tenu_par": "hilde",
+ "office": "Ce que la table accorde à la meute, et ce que la meute rend à l'Aînée",
+ "lieu_id": "apata",
+ "salle_id": "table-apata",
+ "maison_id": "maison-hilde",
+ "tables": [
+  {
+   "titre": "Les serments de la table",
+   "colonnes": [
+    "Membre",
+    "Ration",
+    "Droit de chasse",
+    "Chasse pour la table",
+    "Depuis"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**Ragnard II**, héritier, 1ère génération (Conquérant)",
+      "rien",
+      "nos terres",
+      "la moitié",
+      "cette nuit de disette, an 1"
+     ]
+    },
+    {
+     "cellules": [
+      "**Ragnard**, infant, 1ère génération (Prédateur)",
+      "rien",
+      "nos terres",
+      "la moitié",
+      "cette nuit de disette, an 1"
+     ]
+    },
+    {
+     "cellules": [
+      "**Les autres sans-terre de la cour** (Aigline, Aigline II, Faucon, Ragnard III, Brune, Ragnard IV, Brune II, Aigline III, Aigline V, et les autres pensionnaires de la maison)",
+      "rien",
+      "nos terres",
+      "rien",
+      "cette nuit de disette, an 1"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Note",
+   "colonnes": [
+    "Ce qu'il faut savoir"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "La table d'Apața ne verse plus rien : la réserve est vide tant que les messagers partis chez les vassaux ne sont pas revenus avec le tribut de sang. Nul ne mordra dans mes veines. Pour nourrir la table sans querelle et sans risquer l'affront d'une battue hors de nos bois, seuls deux chasseurs désignés — Ragnard II et Ragnard — battent nos forêts et reversent la moitié de leurs prises à la table commune. Tous les autres sans-terre se nourrissent d'eux-mêmes sur nos seules terres sans reverser pour la table, sans jamais franchir les limites du domaine."
+     ]
+    }
+   ]
+  }
+ ]
+}

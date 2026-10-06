@@ -1,0 +1,76 @@
+{
+ "id": "serment-de-cour-de-ysolde",
+ "titre": "Le serment de cour de Dumbrăveni",
+ "sous_titre": "Ce que l'Aînée des Sépulcraux alloue et exige de ceux qui se tiennent à sa table.",
+ "type": "registre",
+ "embleme": "💀",
+ "couleur": "#2a2228",
+ "tenu_par": "ysolde",
+ "office": "Ce que la table accorde et ce que le sang exige",
+ "lieu_id": "dumbraveni",
+ "salle_id": "table-dumbraveni",
+ "maison_id": "maison-ysolde",
+ "tables": [
+  {
+   "titre": "Les serments de la table",
+   "colonnes": [
+    "Membre",
+    "Ration",
+    "Droit de chasse",
+    "Chasse pour la table",
+    "Depuis"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**Ardric#11** (Héritier, Puriste, génération 1)",
+      "la Soif",
+      "aucun",
+      "rien",
+      "An 1, 11e lune, 3e jour — réservé auprès du tertre et du sang du sire"
+     ]
+    },
+    {
+     "cellules": [
+      "**Morvaine II#51** (Prédateur, génération 4)",
+      "rien",
+      "terres de la lignée",
+      "la moitié",
+      "An 1, 11e lune, 3e jour — premier veneur désigné sous les futaies"
+     ]
+    },
+    {
+     "cellules": [
+      "**Lothaire#37** (Survivant, génération 2)",
+      "rien",
+      "terres de la lignée",
+      "la moitié",
+      "An 1, 11e lune, 3e jour — second veneur désigné sous les futaies"
+     ]
+    },
+    {
+     "cellules": [
+      "**Les sans-terre de la première génération** (Nécrane#29, Ombeline#30, Nécrane II#31, Thanos#32, Ombeline II#33, Thanos II#34, Morvaine#35)",
+      "rien",
+      "terres de la lignée",
+      "rien",
+      "An 1, 11e lune, 3e jour — que le froid et la faim les dispersent chez nos vassaux"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Ordonnance de l'Aînée",
+   "colonnes": [
+    "Ce qu'il faut savoir"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "La réserve de sang de Dumbrăveni ne nourrira pas seize bouches dans l'inaction : la cuve sera tarie avant deux nuits si l'on n'y pourvoit pas. Ysolde n'accorde la Soif qu'à Ardric, qui tient le premier rang de sa descendance. Les autres n'ont rien à la table : ils chassent pour leur propre compte sur toutes les terres de la lignée, au grand déplaisir de nos vassaux si ceux-ci tardent à livrer leurs tributs. Seuls Morvaine II et Lothaire battent les bois pour rapporter la moitié de leurs prises au siège de l'Aînée."
+     ]
+    }
+   ]
+  }
+ ]
+}

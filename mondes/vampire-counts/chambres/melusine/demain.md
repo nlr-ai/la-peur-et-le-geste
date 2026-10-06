@@ -1,1 +1,1 @@
-*Rien encore. Je ne me suis pas encore laisse quelque part.*
+J'ai réglé le serment de la cour sans bruit ni heurt, en ménageant le sang de Vlăhița. Ophélie et Séléné chassent pour la table ; les autres se nourrissent seuls sous nos bois sans troubler les frontières. J'attends la réponse de Nicodim et le retour des messagers.

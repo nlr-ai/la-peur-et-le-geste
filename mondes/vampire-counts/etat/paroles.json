@@ -1,14 +1,86 @@
 [
-  {
-    "qui": "anselm",
-    "texte": "Bois, Teodor. La nuit est longue, et les vivants ne donneront rien de plus avant le dégel. Mange ce qu'on te sert.",
-    "a": "teodor",
-    "date": {
-      "annee": 1,
-      "lune": 11,
-      "jour": 3
-    },
-    "lieu": "rupea",
-    "ref": "vmuw2kukb1x9o"
-  }
+ {
+  "qui": "anselm",
+  "texte": "Bois, Teodor. La nuit est longue, et les vivants ne donneront rien de plus avant le dégel. Mange ce qu'on te sert.",
+  "a": "teodor",
+  "date": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  },
+  "lieu": "rupea",
+  "ref": "vmuw2kukb1x9o"
+ },
+ {
+  "id": "parole-hilde-serment-de-cour-1-11-3",
+  "qui": "hilde",
+  "locuteur_id": "hilde",
+  "texte": "La cuve est vide. Personne ne boira à ma gorge, et nul ne s'approchera assez pour me mordre. Ration : *rien*. Vous chercherez votre sang sous les arbres de nos terres, et nulle part ailleurs — quiconque passe la lisière chez les voisins se fera déchirer sans que je lève un doigt. Pour la table, la meute n'envoie pas tout son monde s'entretuer dans les taillis. **Ragnard II** et **Ragnard**, vous prenez les bois. Vous rapportez la moitié de vos prises ici, pour que la table ne meure pas. Les autres, mangez ce que vous attrapez sur nos terres et n'en demandez pas davantage. À vos places.",
+  "a": "sa cour",
+  "destinataires": [
+   "sa cour (les sans-terre a sa table)"
+  ],
+  "type": "decision",
+  "date": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  },
+  "lieu": "apata",
+  "_": "Le serment de cour regle a la table, ecrit dans etat/maisons/maison-hilde/documents/books/serment-de-cour-de-hilde.json ; mots tires de chambres/hilde/annonce-a-la-table.md."
+ },
+ {
+  "id": "parole-melusine-serment-de-cour-1-11-3",
+  "qui": "melusine",
+  "locuteur_id": "melusine",
+  "texte": "Mes enfants, mes fidèles. Nos coupes sont presque taries ce soir, mais nos messagers courent les routes vers Odorheiu Secuiesc et chez nos autres frères. Nicodim sait ce qu'il nous doit ; les tributs viendront à leur heure. En attendant l'arrivée des convois, nous ménageons nos forces et notre paix. À compter de cette heure, la ration de table est suspendue pour chacun : personne ne puisera dans le peu qui reste au fond des cuves, afin que la citadelle ne se trouve point démunie si un visiteur venait à frapper. Vous chasserez pour vous-mêmes, sous le couvert de nos seules futaies, sans franchir aucune lisière de nos voisins : nous ne donnerons à personne le prétexte d'une querelle. Pour que la table ne meure pas, deux d'entre nous seulement chasseront pour nous tous, comme le veut la coutume des bois : **Ophélie**, dont la griffe est prompte, et **Séléné**, qui veille sur notre avenir. Vous rapporterez la moitié de ce que vous prendrez sous les branchages de Vlăhița. Les autres ne verseront rien à la table, mais veilleront les uns sur les autres. Je vous remercie de votre patience. Ce que nous traversons n'est qu'une veille ordinaire.",
+  "a": "sa cour",
+  "destinataires": [
+   "sa cour (les sans-terre a sa table)"
+  ],
+  "type": "decision",
+  "date": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  },
+  "lieu": "vlahita",
+  "_": "Le serment de cour regle a la table, ecrit dans etat/maisons/maison-melusine/documents/books/serment-de-cour-de-melusine.json ; mots tires de chambres/melusine/annonce-a-la-table.md."
+ },
+ {
+  "id": "parole-ysolde-serment-de-cour-1-11-3",
+  "qui": "ysolde",
+  "locuteur_id": "ysolde",
+  "texte": "Vous regardez mes réserves comme si le sang y montait de la pierre. Dans deux nuits, cette table est sèche. Je ne nourrirai pas votre paresse. Ardric boit à la table, à la mesure de sa Soif, parce qu'il veille sur mon tertre et tient le rang de mon premier sang. Pour tous les autres, la ration de cette maison est *rien*. N'attendez rien de ma main. Votre droit de chasse s'étend désormais sur toutes les terres de la lignée : allez vider les bois de nos vassaux, allez vous asseoir au seuil de Sulpice, de Cendrik et de ceux qui nous promettent pour plus tard au lieu de donner. Qu'ils nourrissent eux-mêmes les bouches qu'ils négligent de pourvoir chez leur Aînée. Morvaine et Lothaire : vous êtes les deux seuls veneurs de cette cour sous la futaie. Vous chasserez sur les terres de la lignée, et vous rapporterez à cette table la moitié exacte de ce que vous saignerez. Ceux qui ont faim n'ont qu'à se lever. Quittez cette salle.",
+  "a": "sa cour",
+  "destinataires": [
+   "sa cour (les sans-terre a sa table)"
+  ],
+  "type": "decision",
+  "date": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  },
+  "lieu": "dumbraveni",
+  "_": "Le serment de cour regle a la table, ecrit dans etat/maisons/maison-ysolde/documents/books/serment-de-cour-de-ysolde.json ; mots tires de chambres/ysolde/annonce-a-la-table.md."
+ },
+ {
+  "id": "parole-aldebrand-serment-de-cour-1-11-3",
+  "qui": "aldebrand",
+  "locuteur_id": "aldebrand",
+  "texte": "Regardez cette table. Le sang manque, et quand le sang manque, ce n'est pas une disette : c'est l'heure d'une campagne. Nos messagers battent les chemins vers Gontran et nos vassaux ; s'ils tardent ou s'ils refusent, nous redécouperons leurs marches par le fer. En attendant que leurs coupes arrivent, personne ici ne croupira dans l'illusion de l'abondance. > Sanguine, Brunehaut : vous avez l'acier et la faim qu'il faut. Vous prenez les bois d'Alțâna et de Nocrich cette nuit. Pas un pas au-delà de nos bornes : nous ne donnons prise à aucune querelle avant que l'ost ne marche. Vous ramenez la moitié de vos prises à cette table. > Brunehaut la jeune : tu gardes ta ration de réserve auprès de moi. > Enguerrand, Clothilde, Enguerrand second, Arnaut, Roxane : votre ration est coupée à rien. Vous jeûnez sous vos cottes de mailles. Que la faim vous rappelle ce qu'est la gloire des Écarlates et le prix de chaque veine. Personne ne sort chasser sans mon ordre. Rompez.",
+  "a": "sa cour",
+  "destinataires": [
+   "sa cour (les sans-terre a sa table)"
+  ],
+  "type": "decision",
+  "date": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  },
+  "lieu": "altana",
+  "_": "Le serment de cour regle a la table, ecrit dans etat/maisons/maison-aldebrand/documents/books/serment-de-cour-de-aldebrand.json ; mots tires de chambres/aldebrand/annonce-a-la-table.md."
+ }
 ]

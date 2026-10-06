@@ -1,0 +1,67 @@
+{
+ "id": "serment-de-cour-de-melusine",
+ "titre": "Le serment de cour de Mélusine",
+ "sous_titre": "Ce que la Première des Voilés règle pour ceux qui s'abritent et boivent à sa table à Vlăhița.",
+ "type": "registre",
+ "embleme": "🗝️",
+ "couleur": "#2c2a38",
+ "tenu_par": "melusine",
+ "office": "Ce que la table offre à chacun, et ce que chacun rend aux ombres de Vlăhița",
+ "lieu_id": "vlahita",
+ "salle_id": "table-vlahita",
+ "maison_id": "maison-melusine",
+ "tables": [
+  {
+   "titre": "Les serments de la table",
+   "colonnes": [
+    "Membre",
+    "Ration",
+    "Droit de chasse",
+    "Chasse pour la table",
+    "Depuis"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**Ophélie**, infante de la première génération (Prédateur)",
+      "rien",
+      "nos terres",
+      "la moitié",
+      "son serment renouvelé en cette nuit"
+     ]
+    },
+    {
+     "cellules": [
+      "**Séléné**, infante héritière de la première génération (Conquérant)",
+      "rien",
+      "nos terres",
+      "la moitié",
+      "son serment renouvelé en cette nuit"
+     ]
+    },
+    {
+     "cellules": [
+      "**Les autres sans-terre de la cour** (Ysaline, Nyx, Nyx II, Silas, Octave, Perrine, Lucien, Estelle II, Séléné II)",
+      "rien",
+      "nos terres",
+      "rien",
+      "la disette de l'automne, an 1"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Note",
+   "colonnes": [
+    "Ce qu'il faut savoir"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "La réserve de Vlăhița touche à sa fin en attendant le retour des envoyés dépêchés auprès de Nicodim et des autres vassaux. Pour protéger le domaine de toute querelle sous les arbres et ne pas outrager les voisins, seuls deux veneurs désignés — Ophélie et Séléné — parcourent nos bois et reversent la moitié de leurs prises à la table commune. Tous les autres chassent sur nos seules terres pour leur propre subsistance sans prélever pour la table, évitant ainsi d'épuiser les réserves intérieures."
+     ]
+    }
+   ]
+  }
+ ]
+}
