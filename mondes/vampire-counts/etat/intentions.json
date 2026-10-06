@@ -96,9 +96,9 @@
  {
   "personnage_id": "nicodim",
   "croyances": [
-   "Rupea est un vieux fou qui n'aime personne depuis Margit ; ses infants chasses sont des renies ; seul Teodor compte.",
-   "Un heritier qui a peur est un debiteur qui ne le sait pas encore. Le jour ou Rupea tombe, Teodor entre dans son livre avec une dette qu'il ne soldera jamais.",
-   "Tant qu'Ottilia dort, les infants d'Hedwig ne peuvent rien contre Odorheiu."
+   "Rupea est un vieux fou qui n'aime personne depuis Margit ; ses infants chasses sont des renies ; seul Teodor compte. Un heritier qui a peur est un debiteur qui ne le sait pas encore. Le jour ou Rupea tombe, Teodor entre dans son livre avec une dette qu'il ne soldera jamais.",
+   "Tant qu'Ottilia dort, les infants d'Hedwig ne peuvent rien contre Odorheiu.",
+   "Mélusine est au bord de la famine à Vlăhița avec vingt-cinq bouches ; qui a faim perd sa puissance et s offre aux couteaux."
   ],
   "ignore": [
    "Pourquoi Rupea a refuse sa veine il y a un siecle.",
@@ -219,9 +219,9 @@
  {
   "personnage_id": "konstantin",
   "croyances": [
-   "Le Sepulcral qui a bu Gontran maitrise les cendres et chasse a l'est d'Agnita.",
-   "Une petite installee stryge, a Ticușu Vechi, est le sang de Rupea, et un Sepulcral ronge sa terre.",
-   "Son pere l'a jete dans la neige."
+   "Le Sepulcral qui a bu Gontran maitrise les cendres et chasse a l'est d'Agnita. Une petite installee stryge, a Ticușu Vechi, est le sang de Rupea, et un Sepulcral ronge sa terre.",
+   "Son pere l'a jete dans la neige.",
+   "La table d'Aldebrand n'a plus de sang que pour deux nuits et ses dix-sept bouches vont faiblir s'il ne saigne pas ses terres."
   ],
   "ignore": [
    "Que le Sepulcral est Cendrik de Cincu.",
@@ -259,9 +259,9 @@
  {
   "personnage_id": "cendrik",
   "croyances": [
-   "En cent cinquante ans, la Criniere n'a jamais detruit personne : la frontiere la plus redoutee du sud est un mur peint.",
-   "Gontran a honte et se taira longtemps ; il a quelques annees devant lui.",
-   "La Stryge de Ticușu plie devant tout le monde."
+   "En cent cinquante ans, la Criniere n'a jamais detruit personne : la frontiere la plus redoutee du sud est un mur peint. Gontran a honte et se taira longtemps ; il a quelques annees devant lui.",
+   "La Stryge de Ticușu plie devant tout le monde.",
+   "La table d Ysolde a Dumbrăveni sera a sec dans un ou deux jours : seize bouches affamees, mais donner mon sang affaiblirait Cincu."
   ],
   "ignore": [
    "Pourquoi Ilka peut chasser dans les bois de Comăna.",
@@ -269,6 +269,17 @@
   ],
   "intention": "Ronger Ticușu Vechi arpent par arpent jusqu'a la lisiere de Comăna, sans guerre declaree.",
   "plan": [
+   {
+    "id": "cendrik-reponse-ysolde",
+    "quoi": "Refuser d envoyer le sang de Cincu a Dumbrăveni et accelerer les plans vers le sud",
+    "etat": "fait",
+    "jours_restants": 0,
+    "depend_de": [],
+    "cout": [
+     "le mecontentement froid d Ysolde"
+    ],
+    "si_bloque": ""
+   },
    {
     "id": "cendrik-ticusu",
     "quoi": "Faire chanter ses Ritualistes au bord de la terre de Ticușu, d'un arpent bien choisi",
@@ -534,6 +545,47 @@
    }
   ],
   "attitude_joueur": "le pensionnaire de son frere de sang ; un vase qu'elle n'a pas encore regarde",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
+ },
+ {
+  "personnage_id": "vlaicu",
+  "croyances": [
+   "Une meute est un garde-manger qui marche : les petits chassent pour le pere, et le pere mange le premier.",
+   "Les bois de Radomir sont pleins. Une vraie bete ne laisse pas de gibier : ou les bois se videront, ou la Bete de Radomir viendra enfin. Les deux lui conviennent.",
+   "Ilka paie depuis quarante ans un tribut que ses villages peinent a donner. Elle paiera encore."
+  ],
+  "ignore": [
+   "Que Radomir n'a jamais detruit personne.",
+   "Que Cendrik veut aussi les bois de Comăna."
+  ],
+  "intention": "Reunir toute la meute pour la grande chasse dans les bois de Comăna.",
+  "plan": [
+   {
+    "id": "vlaicu-grande-chasse",
+    "quoi": "Mener toute la meute, ses petits de sang et ses installes, Ilka comprise, une nuit entiere dans les bois de Comăna",
+    "etat": "en-cours",
+    "jours_restants": 7,
+    "depend_de": [],
+    "cout": [
+     "le oui de Radomir",
+     "la meute rassemblee a Hoghiz"
+    ],
+    "si_bloque": "Si Radomir se derobe, il vient quand meme, en riant, avec la moitie de la meute, et compte ceux qui le regardent faire."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Hilde, son Ainee, a faim ou reclame",
+    "alors": "Il avance la grande chasse : la meute de Comăna nourrira aussi la table d'Apața, et Hilde verra qui la nourrit.",
+    "une_fois": false,
+    "actif": true
+   }
+  ],
+  "attitude_joueur": "le pensionnaire d'un vieux Stryge ; rien a manger",
   "date_maj": {
    "annee": 1,
    "lune": 11,

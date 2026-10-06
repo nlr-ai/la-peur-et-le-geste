@@ -249,24 +249,29 @@
   "id": "vlaicu",
   "nom": "Vlaicu",
   "maison_id": "maison-vlaicu",
-  "titre": "Le Vorace a la criniere grise",
+  "titre": "Hoghiz, dit la Meute",
   "naissance": null,
   "traits": [
    "enorme",
-   "predateur",
-   "meprisant"
+   "rieur",
+   "genereux en apparence",
+   "devorant"
   ],
   "objectifs": [
    {
-    "but": "Que la Bete regne",
+    "but": "Manger, tout, et d'abord ce qui lui appartient",
     "priorite": 1
+   },
+   {
+    "but": "La grande chasse dans les bois de Comăna",
+    "priorite": 2
    }
   ],
-  "maniere": "Pour lui, la Bete est un don.",
-  "etat": "dormant",
+  "maniere": "Rit fort, appelle tout le monde « mon petit », pose la main sur l'epaule ; pleure beaucoup a table.",
+  "etat": "actif",
   "lieu_id": "hoghiz",
   "condition": "libre",
-  "_": "Sire et chef de Radomir, chef d'Ilka. Siege non donne par la source : lieu_id null. Etat moteur « dormant » = fiche gelee, PAS torpeur dans le monde : Vlaicu veille et recoit le tribut d'Ilka."
+  "_": "Vorace, etreint il y a trois siecles. Jure a Hilde, l'Ainee des Voraces. Sire et chef de Radomir, chef d'Ilka. Cercle de la Meute (athanor a Hoghiz). Promu actif le 6.10 pour la scene de la famine de Hilde. Source : canon/lore/vlaicu.md."
  },
  {
   "id": "gontran",

@@ -1,0 +1,1 @@
+Le messager d'Apața est venu dire que Hilde et ses trente-neuf bouches ont faim. J'ai ri, je lui ai offert a boire a ma table, et je lui ai dit que la meute avancera la grande chasse a Comăna dans sept nuits pour nourrir son Ainee. Hilde saura qui remplit sa coupe. J'attends le rassemblement de la meute et la reponse de Radomir.

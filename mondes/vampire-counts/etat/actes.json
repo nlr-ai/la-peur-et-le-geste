@@ -1,1 +1,85 @@
-[]
+[
+ {
+  "id": "acte-cendrik-reponse-messager-ysolde-1-11-3",
+  "date": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3,
+   "minute": 120
+  },
+  "acteur_id": "cendrik",
+  "cible_id": "ysolde",
+  "lieu_id": "cincu",
+  "type": "reponse-au-messager",
+  "description": "Cendrik reçoit dans sa crypte le messager de Dumbrăveni venu annoncer la disette d Ysolde. Il pose ses mesures : Cincu n a pas de vivants à saigner et ne donnera ni une fiole de sang ni une once de force. Il promet en retour de presser l arpentage vers le sud pour ouvrir les bois vivants de Comăna d où viendra le tribut de chair, et renvoie le messager sans rien céder de sa réserve.",
+  "temoins": [],
+  "connu_de": [
+   "cendrik",
+   "ysolde"
+  ]
+ },
+ {
+  "id": "acte-vlaicu-reponse-messager-hilde-1-11-3",
+  "date": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3,
+   "minute": 120
+  },
+  "acteur_id": "vlaicu",
+  "cible_id": "hilde",
+  "lieu_id": "hoghiz",
+  "type": "reponse-au-messager",
+  "description": "Vlaicu recoit a sa table le messager d'Apața venu dire la famine de Hilde. Il rit, lui tape sur l'epaule, et ordonne d'avancer la grande chasse dans les bois de Comăna d'ici sept nuits pour ravitailler la cour de son Ainee. Il renvoie le messager avec cet engagement.",
+  "temoins": [
+   "la meute presente a la table de Hoghiz"
+  ],
+  "connu_de": [
+   "vlaicu",
+   "hilde"
+  ],
+  "_": "Reconstitue par le MJ depuis le rapport de fin de depeche (fil/depeche-20261006-1707*.log) : l'ecriture d'origine a ete ecrasee par une ecriture concurrente d'actes.json."
+ },
+ {
+  "id": "acte-nicodim-refus-messager-melusine-1-11-3",
+  "date": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3,
+   "minute": 120
+  },
+  "acteur_id": "nicodim",
+  "cible_id": "melusine",
+  "lieu_id": "odorheiu-secuiesc",
+  "type": "reponse-au-messager",
+  "description": "Nicodim recoit dans sa chapelle le messager de Vlăhița. Il refuse le moindre don de sang ou de reserve d'Odorheiu sans dette formellement souscrite dans ses livres, et laisse entendre que Melusine pourra offrir ses terres et ses secrets au prix qu'il fixera.",
+  "temoins": [
+   "sever"
+  ],
+  "connu_de": [
+   "nicodim",
+   "melusine",
+   "sever"
+  ],
+  "_": "Reconstitue par le MJ depuis le rapport de fin de depeche (fil/depeche-20261006-1707*.log) : l'ecriture d'origine a ete ecrasee par une ecriture concurrente d'actes.json."
+ },
+ {
+  "id": "acte-konstantin-refus-messager-agnita-1-11-3",
+  "date": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3,
+   "minute": 120
+  },
+  "acteur_id": "konstantin",
+  "cible_id": "aldebrand",
+  "lieu_id": "dealu-frumos",
+  "type": "reponse-au-messager",
+  "description": "Konstantin ecoute en silence la goule d'Agnita annoncer qu'Aldebrand et ses dix-sept bouches n'ont plus de sang que pour deux nuits, et la renvoie sans ceder une goutte ni faire la moindre promesse : le sang de Dealu Frumos nourrit son athanor et garde la maison de Gontran.",
+  "temoins": [],
+  "connu_de": [
+   "konstantin"
+  ],
+  "_": "Reconstitue par le MJ depuis le rapport de fin de depeche (fil/depeche-20261006-1707*.log) : l'ecriture d'origine a ete ecrasee par une ecriture concurrente d'actes.json."
+ }
+]

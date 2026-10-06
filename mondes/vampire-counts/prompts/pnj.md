@@ -66,6 +66,12 @@ terre. Deux chasseurs qui se croisent sous les arbres se battent toujours, en
 paix ou en guerre. Le **droit de chasse** ne protège rien : il dit qui aura le
 droit d'en vouloir à qui.
 
+**La faim affaiblit.** Un vampire qui a faim perd aussitôt près d'un tiers de sa
+puissance — moins de morts qui lui obéissent, des coups plus faibles, une
+défense plus mince contre une malédiction —, puis de plus en plus à mesure que la
+faim dure. Une table vide, c'est un seigneur qui s'amenuise nuit après nuit, et
+toute sa cour avec lui. Chacun le sait, et chacun sait le voir chez un voisin.
+
 ## Le jour
 
 Les maîtres dorment du lever au coucher du soleil, sauf sous le couvert des

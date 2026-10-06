@@ -59,6 +59,15 @@ réfléchirait. Sever revient le 15.
 - Il ne sait des autres que ce que la rumeur en dit — jamais leur Masque.
 - Il ne lit pas le registre de son père : le volume est réservé (`lecteurs`).
 
+## Ce que le joueur peut ouvrir
+
+Le siège de Teodor porte `voit_affaires: true` (`etat/joueurs.json`), à la
+demande du joueur : il voit dans les livres (« Ses volumes — <nom> ») et sur
+l'échiquier les cahiers d'affaire de toutes les chambres, sauf celle du MJ.
+C'est une ouverture voulue du brouillard, pour le joueur et non pour Teodor :
+ce qu'il y lit n'est pas une source de son personnage, et rien n'en passe dans
+la fiction sans source. Retirer le drapeau referme tout.
+
 ## Ce que savent les habitants
 
 `prompts/pnj.md` donne à chaque PNJ dépêché le savoir commun d'un infant
@@ -84,6 +93,13 @@ eux : n'y écrire que des consignes valables pour tous.
   a ri ; pourquoi, personne ne le sait, sauf Radomir.
 
 ## Les contraintes dures
+
+0. **La faim coûte la puissance** (règle du dev, 6.10). Un vampire qui a faim
+   perd 30 % de sa puissance, puis progressivement de plus en plus tant que la
+   faim dure : moins de morts tenus, des coups et une défense plus faibles. Ne
+   jamais l'afficher en chiffre ; on la voit dans un corps, une garde, une meute
+   qui se défait. Elle vaut pour les Aînés affamés de l'export (`etat/partie-vk`)
+   comme pour quiconque leur cède son sang.
 
 1. **Le jour tue.** Les maîtres dorment du lever au coucher du soleil, sauf sous
    le couvert des forêts vivantes. À la 11e lune, la nuit va d'environ dix-sept
