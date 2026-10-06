@@ -1,2 +1,3 @@
-*Le messager de Dumbrăveni est reparti les mains vides : pas une goutte du sang de Cincu ne partira combler le gouffre d'Ysolde pour nous amenuiser d'un tiers. La réponse est dans le sud, sous le couvert de Comăna : presser le pas des Ritualistes sur Ticușu dès le crépuscule.*
-
+J'ai reçu Morvaine et Lothaire dans ma crypte sous l'église fortifiée de Cincu, leur imposant un serment de cour strict : ration nulle sur nos réserves pour préserver nos forces, droit de chasse élargi sur les lisières de Comăna sous la conduite de mes fossoyeurs, et devoir de reverser la moitié de leurs prises pour amasser le tribut de la douzième lune.
+À Ysolde, j'ai signifié par cet accueil que Cincu nourrit ses sans-terre par la conquête extérieure et non en s'amenuisant d'un tiers, transformant ses deux bouches affamées en fers de lance vers les bois vivants du sud.
+J'attends le retour de leur première battue aux gués de lisière guidée par Vasile, et les premiers prélèvements de chair vivante qui viendront combler l'échéance de l'Aînée sans toucher à ma terre.

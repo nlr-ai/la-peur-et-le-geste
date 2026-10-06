@@ -1,1 +1,3 @@
-Le messager d'Apața est venu dire que Hilde et ses trente-neuf bouches ont faim. J'ai ri, je lui ai offert a boire a ma table, et je lui ai dit que la meute avancera la grande chasse a Comăna dans sept nuits pour nourrir son Ainee. Hilde saura qui remplit sa coupe. J'attends le rassemblement de la meute et la reponse de Radomir.
+J'ai accueilli à grand bruit Loup et la goule d'Apața à ma table de Hoghiz en leur jurant la moitié des prises dès la première battue.
+À Loup assis à ma droite, à la goule et à toute ma meute, pour que l'Aînée sache qui remplit sa coupe.
+J'attends le rassemblement complet des meutes dans cinq nuits et de voir la tête de Radomir quand nous entrerons dans les bois de Comăna.

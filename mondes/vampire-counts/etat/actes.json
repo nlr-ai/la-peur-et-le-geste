@@ -144,5 +144,75 @@
       "ysolde",
       "cendrik"
     ]
+  },
+  {
+    "id": "acte-vlaicu-reponse-goule-apata-1-11-5",
+    "date": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 5,
+      "minute": 20
+    },
+    "acteur_id": "vlaicu",
+    "cible_id": "loup",
+    "lieu_id": "hoghiz",
+    "type": "declaration",
+    "description": "Vlaicu accueille a sa table de Hoghiz la goule d Apața et Loup envoyes par Hilde. Rieur et tonitruant, il accepte devant toute la meute de verser a l Ainee la moitie des prises de la grande chasse des la premiere battue, assied Loup a sa droite comme invite d honneur pour observer les preparatifs, et ordonne a ses coureurs de battre le rappel des meutes pour lancer la chasse a Comăna dans cinq nuits.",
+    "temoins": [
+      "la table de Hoghiz",
+      "la meute de Vlaicu",
+      "la goule d Apața"
+    ],
+    "connu_de": [
+      "vlaicu",
+      "loup",
+      "hilde"
+    ]
+  },
+  {
+    "id": "acte-nicodim-reception-pli-melusine-1-11-5",
+    "date": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 5,
+      "minute": 60
+    },
+    "acteur_id": "nicodim",
+    "cible_id": "melusine",
+    "lieu_id": "odorheiu-secuiesc",
+    "type": "reception-pli",
+    "description": "Nicodim reçoit dans sa chapelle froide le messager de Vlăhița porteur du pli de Mélusine. Il prend acte de l offre de veille sur les routes de l est et de l allusion au sommeil sous la chapelle. Il congédie le messager sans faire porter la moindre promesse ni ouvrir ses réserves, et ordonne à Sever de redoubler de vigilance autour des accès de la crypte.",
+    "temoins": [
+      "sever",
+      "frere-paul"
+    ],
+    "connu_de": [
+      "nicodim",
+      "melusine",
+      "sever"
+    ]
+  },
+  {
+    "id": "acte-cendrik-accueil-sans-terre-ysolde-1-11-6",
+    "date": {
+      "annee": 1,
+      "lune": 11,
+      "jour": 6,
+      "minute": 120
+    },
+    "acteur_id": "cendrik",
+    "cible_id": "morvaine",
+    "lieu_id": "cincu",
+    "type": "accueil-sans-terre",
+    "description": "Cendrik reçoit Morvaine et Lothaire dans sa crypte sous l église fortifiée de Cincu. Constatant l ordre d Ysolde et la disette de sa terre, il leur applique un serment de cour strict : ration nulle sur les réserves de la crypte pour ne pas s affaiblir, mais droit de chasse étendu à la lisière de Ticușu et aux bois de Comăna, avec devoir de rapporter la moitié de leurs prises à la table de Cincu sous la conduite de ses fossoyeurs.",
+    "temoins": [
+      "lothaire"
+    ],
+    "connu_de": [
+      "cendrik",
+      "morvaine",
+      "lothaire",
+      "ysolde"
+    ]
   }
 ]

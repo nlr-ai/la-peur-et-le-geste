@@ -1,0 +1,107 @@
+{
+  "id": "registre-etats-vlaicu",
+  "titre": "Les choses suivies par vlaicu",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée au porteur",
+  "type": "registre",
+  "tenu_par": "vlaicu",
+  "acteur_id": "vlaicu",
+  "prive": true,
+  "pages": [
+    "Catégories : lieux-et-passages, objets-et-documents, ressources-et-populations, organisations-et-dispositifs, usages-et-institutions, situations-et-processus. Une ligne par chose ou situation. L’identité est une référence stable ; plusieurs PNJ citent la même chose au lieu de la recréer. Quand une table canonique du moteur porte déjà le fait, elle garde autorité : la ligne renvoie à cette adresse. Les évolutions arithmétiques vont dans les mains de leur maison. Les lignes purement descriptives sont leur propre autorité jusqu’à matérialisation. Accès au cahier technique n’est pas connaissance du personnage : Qui sait quoi doit être respecté."
+  ],
+  "colonnes": [
+    "Référence",
+    "Catégorie",
+    "Identité et fonction",
+    "Où",
+    "Détenteur ou responsable",
+    "État présent",
+    "Quantité ou propriétés",
+    "Usages et limites",
+    "Liens",
+    "Évolution et échéances",
+    "Statut",
+    "Source ou provenance",
+    "Qui sait quoi",
+    "Date de mise à jour",
+    "Autorité existante"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "chose:hoghiz-salle-festin",
+        "lieux-et-passages",
+        "La grande salle basse de Hoghiz, lourdes tables de chêne gras, feux de souches et odeur de venaison crue.",
+        "hoghiz",
+        "vlaicu",
+        "Bruyante, pleine de viande, de chiens et de rires d'ogre.",
+        "Une vaste salle pavée pouvant asseoir cinquante convives voraces",
+        "Lieu de rassemblement, de beuverie et de commandement de la meute.",
+        "lieux.json:hoghiz",
+        "Stable",
+        "peint",
+        "Implantation de Vlaicu",
+        "Vlaicu, ses enfants et les émissaires reçus à la table.",
+        "an 1, lune 11, jour 5",
+        "lieux.json:hoghiz"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:hoghiz-meute-voraces",
+        "ressources-et-populations",
+        "Les coureurs sans-terre et enfants de sang de Hoghiz, avides et disciplinés par la peur et la faim.",
+        "hoghiz",
+        "vlaicu",
+        "En alerte, affûtés, impatients d'être lâchés dans les bois de Comăna.",
+        "Une trentaine de chasseurs et pisteurs voraces",
+        "Battue, garde de Hoghiz, prédation des forêts.",
+        "personnages.json:vlaicu",
+        "Rassemblement sous 5 nuits",
+        "peint",
+        "Maison de Vlaicu",
+        "La cour de Hoghiz.",
+        "an 1, lune 11, jour 5",
+        "maisons.json:maison-vlaicu"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:hoghiz-athanor",
+        "organisations-et-dispositifs",
+        "L'athanor de Hoghiz, creusé dans le basalte près de l'eau qui court, où Vlaicu sacrifie son effroi.",
+        "hoghiz",
+        "vlaicu",
+        "Froid, suintant, veillé par deux gardes lourds.",
+        "Foyer de recherche du Cercle de la Meute",
+        "Recherche de la Bête rang 5 (Meute alpha).",
+        "registre-de-la-meute.json",
+        "Recherche en cours depuis près de trente ans",
+        "établi",
+        "registre-de-la-meute.json",
+        "Vlaicu, Ilka, Cendrik.",
+        "an 1, lune 11, jour 5",
+        "registre-de-la-meute.json"
+      ]
+    },
+    {
+      "cellules": [
+        "chose:hoghiz-presence-loup",
+        "situations-et-processus",
+        "L'installation de Loup à la table de Hoghiz comme œil de Hilde.",
+        "hoghiz",
+        "loup",
+        "Assis à la table d'honneur, observant la meute sans se découvrir.",
+        "Émissaire et garant de la part d'Apața",
+        "Observe les préparatifs de la grande chasse et attend sa part de sang.",
+        "actes.json:acte-vlaicu-reponse-goule-apata-1-11-5",
+        "Durera jusqu'à la fin de la battue de Comăna",
+        "établi",
+        "Déclencheur d'Hilde",
+        "Vlaicu, Loup, Hilde, la table de Hoghiz.",
+        "an 1, lune 11, jour 5",
+        "actes.json:acte-vlaicu-reponse-goule-apata-1-11-5"
+      ]
+    }
+  ]
+}

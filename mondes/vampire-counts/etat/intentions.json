@@ -97,8 +97,8 @@
     "personnage_id": "nicodim",
     "croyances": [
       "Rupea est un vieux fou qui n'aime personne depuis Margit ; ses infants chasses sont des renies ; seul Teodor compte. Un heritier qui a peur est un debiteur qui ne le sait pas encore. Le jour ou Rupea tombe, Teodor entre dans son livre avec une dette qu'il ne soldera jamais.",
-      "Tant qu'Ottilia dort, les infants d'Hedwig ne peuvent rien contre Odorheiu.",
-      "Mélusine est au bord de la famine à Vlăhița avec vingt-cinq bouches ; qui a faim perd sa puissance et s offre aux couteaux."
+      "Tant qu'Ottilia dort, les infants d'Hedwig ne peuvent rien contre Odorheiu ; Mélusine sait qu'elle dort sous la chapelle mais redoute la guerre stryge plus que la disette et n'ouvrira pas la crypte.",
+      "Mélusine est affaiblie par le jeûne à Vlăhița avec vingt-cinq bouches ; offrir ses yeux sur l'est est une invite de débitrice qui cherche une prise sans oser menacer."
     ],
     "ignore": [
       "Pourquoi Rupea a refuse sa veine il y a un siecle.",
@@ -133,7 +133,7 @@
     "date_maj": {
       "annee": 1,
       "lune": 11,
-      "jour": 3
+      "jour": 5
     }
   },
   {
@@ -261,7 +261,7 @@
     "croyances": [
       "En cent cinquante ans, la Criniere n'a jamais detruit personne : la frontiere la plus redoutee du sud est un mur peint. Gontran a honte et se taira longtemps ; il a quelques annees devant lui.",
       "La Stryge de Ticușu plie devant tout le monde.",
-      "La table d Ysolde a Dumbrăveni sera a sec dans un ou deux jours : seize bouches affamees, mais donner mon sang affaiblirait Cincu."
+      "Morvaine et Lothaire sont a Cincu : ration nulle sur ma reserve, ils chassent a Comana pour nourrir ma table et payer le tribut du 1er jour de la 12e lune."
     ],
     "ignore": [
       "Pourquoi Ilka peut chasser dans les bois de Comăna.",
@@ -281,10 +281,21 @@
         "si_bloque": ""
       },
       {
+        "id": "cendrik-serment-morvaine-lothaire",
+        "quoi": "Imposer le serment de cour a Morvaine et Lothaire pour chasser a Comana et amasser le tribut de la douzieme lune",
+        "etat": "fait",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "guider deux chasseurs etrangers par les fossoyeurs"
+        ],
+        "si_bloque": ""
+      },
+      {
         "id": "cendrik-ticusu",
         "quoi": "Faire chanter ses Ritualistes au bord de la terre de Ticușu, d'un arpent bien choisi",
         "etat": "a-faire",
-        "jours_restants": 30,
+        "jours_restants": 27,
         "depend_de": [],
         "cout": [
           "des Ritualistes",
@@ -296,7 +307,7 @@
         "id": "cendrik-comana",
         "quoi": "Atteindre la lisiere des bois de Comăna et y chasser",
         "etat": "a-faire",
-        "jours_restants": 180,
+        "jours_restants": 177,
         "depend_de": [
           "cendrik-ticusu"
         ],
@@ -317,7 +328,7 @@
     "date_maj": {
       "annee": 1,
       "lune": 11,
-      "jour": 3
+      "jour": 6
     }
   },
   {
@@ -555,8 +566,8 @@
     "personnage_id": "vlaicu",
     "croyances": [
       "Une meute est un garde-manger qui marche : les petits chassent pour le pere, et le pere mange le premier.",
-      "Les bois de Radomir sont pleins. Une vraie bete ne laisse pas de gibier : ou les bois se videront, ou la Bete de Radomir viendra enfin. Les deux lui conviennent.",
-      "Ilka paie depuis quarante ans un tribut que ses villages peinent a donner. Elle paiera encore."
+      "Hilde a faim et demande la moitie des prises : en nourrissant Apața, la meute montrera a toute la lignee Vorace qui tient la gorge du pays.",
+      "Loup est installe a ma table pour me surveiller : plus il verra la force de la meute se deployer, plus Hilde saura a qui elle doit sa pitance."
     ],
     "ignore": [
       "Que Radomir n'a jamais detruit personne.",
@@ -568,7 +579,7 @@
         "id": "vlaicu-grande-chasse",
         "quoi": "Mener toute la meute, ses petits de sang et ses installes, Ilka comprise, une nuit entiere dans les bois de Comăna",
         "etat": "en-cours",
-        "jours_restants": 7,
+        "jours_restants": 5,
         "depend_de": [],
         "cout": [
           "le oui de Radomir",
@@ -589,7 +600,7 @@
     "date_maj": {
       "annee": 1,
       "lune": 11,
-      "jour": 3
+      "jour": 5
     }
   },
   {

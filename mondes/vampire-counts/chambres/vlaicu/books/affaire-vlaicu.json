@@ -1,0 +1,282 @@
+{
+  "id": "affaire-vlaicu",
+  "titre": "Les affaires de vlaicu",
+  "sous_titre": "Cahier stratégique personnel — préparation du monde et conduite de la meute",
+  "type": "affaire",
+  "tenu_par": "vlaicu",
+  "acteur_id": "vlaicu",
+  "prive": true,
+  "pages": [
+    "Une affaire durable par PNJ qui porte une stratégie. Plusieurs fins peuvent y coexister. Les catégories décrivent les dimensions à peindre, pas huit objectifs obligatoires. Ce cahier de simulation n’est pas la preuve d’un carnet physiquement fabriqué.",
+    "Je peux établir en préparation les détails ordinaires, personnes secondaires, objets, lieux, habitudes et ressources plausibles nécessaires à mon implantation, sans contredire le canon ni les faits acquis. Je marque chaque ajout comme peint. Un ajout conséquent doit avoir une provenance, des limites, des liens et des conséquences cohérents ; je ne fais pas surgir le moyen décisif qui efface mon problème.",
+    "Établi, peint, hypothèse, inconnu sont des statuts distincts. Peindre un état initial n’accomplit pas une action future. Mes croyances restent distinctes de la réalité.",
+    "Les adresses C.1, V.1, K.1 et P.1 sont locales à ce cahier."
+  ],
+  "tables": [
+    {
+      "titre": "Ouverture",
+      "colonnes": [
+        "Champ",
+        "Contenu"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Porteur",
+            "vlaicu"
+          ]
+        },
+        {
+          "cellules": [
+            "Périmètre",
+            "Mon fief de Hoghiz, la meute de sang et les installés, la grande chasse dans les bois de Comăna, le tribut pour la table de Hilde à Apața et l'anneau du Cercle de la Meute."
+          ]
+        },
+        {
+          "cellules": [
+            "État de préparation",
+            "Implantation posée, moyens décrits, verrous et stratégie articulés."
+          ]
+        },
+        {
+          "cellules": [
+            "Registre compagnon",
+            "registre-etats-vlaicu"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dimensions à peindre",
+      "colonnes": [
+        "Catégorie",
+        "Ce que je pose",
+        "Statut",
+        "Source ou provenance",
+        "Renvois"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "fins et doctrine",
+            "Manger, tout dévorer, faire chasser les petits pour nourrir le père et engraisser la meute.",
+            "établi",
+            "claude.md, intentions.json",
+            "C.1"
+          ]
+        },
+        {
+          "cellules": [
+            "personnes et relations",
+            "Radomir (infant de Comăna), Hilde (Aînée sans chef à Apața), Loup (émissaire installé à table), Ilka (installée à Ticușu), Cendrik (Cercle à Cincu).",
+            "établi",
+            "personnages.json, relations.json",
+            "C.1, C.2"
+          ]
+        },
+        {
+          "cellules": [
+            "pouvoir et accès",
+            "Seigneur de Hoghiz, suzerain de Ticușu et Comăna, athanor près de l'eau qui court.",
+            "établi",
+            "maisons.json, registre-de-la-meute.json",
+            "C.1"
+          ]
+        },
+        {
+          "cellules": [
+            "moyens matériels",
+            "Grande salle de festin de Hoghiz, hardes de sans-terre Voraces, athanor de pierre brute.",
+            "peint",
+            "chambre de Vlaicu",
+            "C.1, C.2"
+          ]
+        },
+        {
+          "cellules": [
+            "savoirs et secrets",
+            "Magie de la Bête rang 3 (Appel de la meute, Nuée, Forme de nuée, Territoire de la meute), Fléau rang 2.",
+            "établi",
+            "la-magie.md, registre-de-la-meute.json",
+            "K.1"
+          ]
+        },
+        {
+          "cellules": [
+            "engagements et temps",
+            "Grande chasse à Comăna dans cinq nuits (an 1, lune 11, jour 10). Moitié des prises promise à Hilde dès la première battue.",
+            "établi",
+            "actes.json:acte-vlaicu-reponse-goule-apata-1-11-5",
+            "P.1"
+          ]
+        },
+        {
+          "cellules": [
+            "stratégie et alternatives",
+            "Submerger Comăna par le nombre et le rire, gaver Hilde pour la tenir par la faim, garder Loup à table sous les yeux de la meute.",
+            "établi",
+            "intentions.json",
+            "K.1, K.2"
+          ]
+        },
+        {
+          "cellules": [
+            "zones à peindre",
+            "La grande salle de banquet de Hoghiz et les chenils de la meute.",
+            "peint",
+            "registre-etats-vlaicu",
+            "chose:hoghiz-salle-festin"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 Cibles",
+      "colonnes": [
+        "N°",
+        "La cible",
+        "Le critère",
+        "L'épreuve",
+        "Échéance",
+        "Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "C.1",
+            "Réunir toute la meute à Hoghiz pour la grande chasse",
+            "Tous les coureurs, sans-terre et installés assemblés",
+            "Départ ordonné vers Comăna",
+            "dans 5 nuits",
+            "haute"
+          ]
+        },
+        {
+          "cellules": [
+            "C.2",
+            "Nourrir la table de Hilde à Apața avec la moitié des prises",
+            "Convois de gibier et de sang expédiés à Apața dès la première battue",
+            "Hilde reconnaît publiquement qui remplit sa coupe",
+            "dans 6 nuits",
+            "haute"
+          ]
+        },
+        {
+          "cellules": [
+            "C.3",
+            "Vider les bois de Comăna ou forcer la Bête de Radomir à sortir",
+            "Les bois de Comăna battus de fond en comble par la meute",
+            "Radomir plie ou combat à la loyale",
+            "dans 6 nuits",
+            "moyenne"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": [
+        "N°",
+        "Le verrou",
+        "Bloque",
+        "La preuve"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "V.1",
+            "Refus ou hésitation de Radomir d'ouvrir les bois de Comăna",
+            "C.1, C.3",
+            "Silence ou protestations de Radomir face aux meutes qui approchent"
+          ]
+        },
+        {
+          "cellules": [
+            "V.2",
+            "Surveillance et espionnage de Loup à la table de Hoghiz",
+            "C.1, C.2",
+            "Loup assis à la table observant chaque mouvement et comptant les gorges"
+          ]
+        },
+        {
+          "cellules": [
+            "V.3",
+            "Faim qui ronge les sans-terre avant le départ",
+            "C.1",
+            "Affaiblissement des coureurs si les rations manquent avant la battue"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "N°",
+        "La clef",
+        "Ouvre",
+        "Prix et limites"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "K.1",
+            "Générosité outrancière et festin public pour noyer Loup sous les viandes et le vin noir",
+            "V.2 (vers C.2)",
+            "Coût en rations immédiates, mais neutralise le soupçon par le spectacle de l'abondance"
+          ]
+        },
+        {
+          "cellules": [
+            "K.2",
+            "Forcer le pas et passer outre les réticences de Radomir par le nombre",
+            "V.1 (vers C.3)",
+            "Risque de querelle avec Radomir, mais la meute est trop nombreuse pour être arrêtée"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "N°",
+        "L'action",
+        "Porteur",
+        "Échéance",
+        "État",
+        "Notes"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "P.1",
+            "Accueillir Loup et la goule d'Apața à la table de banquet et accepter le partage",
+            "vlaicu",
+            "an 1, lune 11, jour 5",
+            "close",
+            "Accomplie cette nuit à la table de Hoghiz (acte-vlaicu-reponse-goule-apata-1-11-5)"
+          ]
+        },
+        {
+          "cellules": [
+            "P.2",
+            "Envoyer les rabatteurs rassembler la meute et sommer Ilka de Ticușu",
+            "vlaicu",
+            "an 1, lune 11, jour 7",
+            "en-cours",
+            "Préparatifs de rassemblement à Hoghiz"
+          ]
+        },
+        {
+          "cellules": [
+            "P.3",
+            "Lancer la grande chasse dans les bois de Comăna",
+            "vlaicu",
+            "an 1, lune 11, jour 10",
+            "à-venir",
+            "Battue générale avec Loup et la meute"
+          ]
+        }
+      ]
+    }
+  ]
+}
