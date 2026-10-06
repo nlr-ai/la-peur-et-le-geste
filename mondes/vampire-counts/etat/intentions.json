@@ -374,5 +374,127 @@
    "lune": 11,
    "jour": 3
   }
+ },
+ {
+  "personnage_id": "radu",
+  "croyances": [
+   "Le maitre ecrit parfois trois lignes pour un enfant parti ; on les porte sans les ouvrir, et l'on ne dit a personne ou elles vont.",
+   "Le chemin muletier des collines mene a Ticușu Vechi en deux nuits, loin des plaines ouvertes."
+  ],
+  "ignore": [
+   "Ce que disent les lettres.",
+   "Pourquoi le maitre ecrit a des enfants qu'il a chasses."
+  ],
+  "intention": "Veiller au corps de garde et partir des que le maitre lui tend un pli.",
+  "plan": [
+   {
+    "id": "radu-pli-ilka",
+    "quoi": "Porter a Ticușu Vechi la lettre du maitre pour Ilka, par le chemin muletier des collines",
+    "etat": "a-faire",
+    "jours_restants": 2,
+    "depend_de": [
+     "anselm-lettre-ilka"
+    ],
+    "cout": [
+     "la lettre scellee",
+     "deux nuits de marche"
+    ],
+    "si_bloque": "S'il trouve le chemin garde, il attend a couvert une nuit de plus ; il ne remet jamais le pli a un autre que la destinataire."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "quelqu'un tente de lui prendre ou de lire un pli",
+    "alors": "Il fuit avec le pli, et le rapporte au maitre plutot que de le perdre.",
+    "une_fois": false
+   },
+   {
+    "si": "le maitre lui ordonne de rester a la citadelle une nuit precise",
+    "alors": "Il reste, et le corps de garde compte un homme de plus cette nuit-la.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "le pensionnaire, a qui il ne doit rien",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
+ },
+ {
+  "personnage_id": "paul",
+  "croyances": [
+   "Le maitre lit seul le grand livre ; on n'y touche pas.",
+   "Les lampes de la chapelle ne doivent jamais s'eteindre pendant que le maitre recoit."
+  ],
+  "ignore": [
+   "Ce que contiennent les ampoules du tabernacle.",
+   "Ce que Sever va faire a Rupea."
+  ],
+  "intention": "Tenir la chapelle, les lampes et la cellule de Sever.",
+  "plan": [
+   {
+    "id": "paul-encre",
+    "quoi": "Preparer l'encre et les parchemins de l'hiver pour la chapelle",
+    "etat": "en-cours",
+    "jours_restants": 10,
+    "depend_de": [],
+    "cout": [
+     "noix de galle et vitriol du marche d'Odorheiu"
+    ],
+    "si_bloque": "Il gratte d'anciens parchemins et les rend lisses pour qu'on y ecrive de nouveau."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Ottilia remue sous la chapelle",
+    "alors": "Il court prevenir le maitre avant tout autre.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "il ne le connait pas",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
+ },
+ {
+  "personnage_id": "mara",
+  "croyances": [
+   "La maitresse dort dans la crypte du lever au coucher du soleil, et personne ne descend les marches.",
+   "Le Sepulcral de Cincu compte les tetes du village ; ses fossoyeurs rodent sur la limite."
+  ],
+  "ignore": [
+   "Pourquoi la maitresse peut entrer dans les bois de Comăna.",
+   "Ce que disent les lettres de Rupea."
+  ],
+  "intention": "Garder le haut des marches le jour, porter les plis, suivre sa maitresse jusqu'a la lisiere la nuit.",
+  "plan": [
+   {
+    "id": "mara-guet",
+    "quoi": "Tenir le guet du manoir de Ticușu pendant les jours d'hiver",
+    "etat": "en-cours",
+    "jours_restants": 30,
+    "depend_de": [],
+    "cout": [
+     "ses jours"
+    ],
+    "si_bloque": "Si on lui commande ailleurs, elle met Toma au haut des marches et revient avant midi."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "un porteur de Rupea arrive a Ticușu",
+    "alors": "Elle prend le pli a la porte et le garde sur elle jusqu'au reveil de sa maitresse.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "un nom que sa maitresse prononce mal",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
  }
 ]

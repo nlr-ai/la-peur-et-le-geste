@@ -9,3 +9,10 @@
 - **Ce qui est écrit** : La ville basse sous le rocher de Rupea est mentionnée dans les lieux et les routines (« le marché, les auberges : qui est arrivé, qui demande la citadelle »), mais aucun établissement d'accueil ni aucun tavernier n'est nommé.
 - **Ce que je demande à la place** : Valider l'existence de l'auberge du *Corbeau Noir* tenue par le vieux Mircea au bas de la rampe du rocher, comme lieu d'étape où descendent courriers et voyageurs avant de monter à la citadelle.
 - **Pourquoi** : C'est le lieu d'observation naturel où Stanca passe ses après-midis (13h-16h) pour guetter l'arrivée d'émissaires voilés ou de cavaliers étrangers sans trahir sa fonction auprès de Teodor.
+
+---
+
+## Reponse du meneur — 6.10, hors fiction
+
+1. **Doina** a une fiche gelee (decor).
+2. **Mircea** et l'auberge du Corbeau Noir sont valides ; Mircea a une fiche gelee. **Radu**, goule messagere, est desormais au corps de garde a cote de toi.

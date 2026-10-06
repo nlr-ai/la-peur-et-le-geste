@@ -1,0 +1,49 @@
+{
+ "id": "grand-livre-de-l-est",
+ "titre": "Le Grand Livre de l'Est",
+ "sous_titre": "Un epais in-folio de cuir noir aux fermoirs d'argent terni : les pactes, les veines, les arbitrages et les dettes de l'est, d'une ecriture serree, depuis deux siecles.",
+ "type": "registre",
+ "embleme": "📗",
+ "couleur": "#2b2f2a",
+ "tenu_par": "nicodim",
+ "office": "Ce que l'est doit a Odorheiu",
+ "lieu_id": "odorheiu-secuiesc",
+ "salle_id": "chapelle-odorheiu",
+ "lecteurs": [
+  "nicodim"
+ ],
+ "maison_id": "maison-odorheiu",
+ "tables": [
+  {
+   "titre": "Les lignes",
+   "colonnes": [
+    "Qui",
+    "Ce qui est inscrit",
+    "Etat"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**Rupea**",
+      "Veine proposee il y a un siecle, refusee. Veine proposee il y a quinze ans par Sever, refusee.",
+      "ouverte — la seule de l'est"
+     ]
+    },
+    {
+     "cellules": [
+      "**Margit, de Rupea**",
+      "Le prix du refus.",
+      "soldé"
+     ]
+    },
+    {
+     "cellules": [
+      "**La moitie des seigneurs de l'est**",
+      "Veines ouvertes, arbitrages rendus, secours en disette : des dettes qu'il ne reclame presque jamais.",
+      "non reclamees"
+     ]
+    }
+   ]
+  }
+ ]
+}

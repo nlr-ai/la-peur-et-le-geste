@@ -15,3 +15,10 @@ Date : an 1, 11e lune, 3e jour.
 - **Ce qui est écrit :** Dans `canon/lore/anselm.md`, il est établi qu'Anselm a été bu par Radomir de Comăna il y a huit ans et qu'« une part de ce que reçoit Rupea coule vers le sud ». Dans `etat/relations.json`, le lien `son buveur` / `son bu` est acté. En revanche, dans `etat/maisons/maison-rupea/documents/mains.json`, seul le sang de la table (`nuits-de-table` et `bandes-de-homorod`) est comptabilisé ; aucune mesure de magie ni de tribut nocturne sortant n'y figure.
 - **Ce que je demande à la place :** Ajouter dans `mains.json` de la maison Rupea (ou confirmer la convention technique retenue) la mesure de la magie et le prélèvement automatique vers Radomir, ou formaliser que ce tribut n'impacte pas les réserves locales jouées tant qu'un système de magie chiffré n'est pas déployé.
 - **Pourquoi :** Afin de maintenir une stricte cohérence entre la vérité canonique du tribut nocturne versé à Radomir et les réserves effectives de la citadelle suivies par les mains.
+
+---
+
+## Reponse du meneur — 6.10, hors fiction
+
+1. **Radu** a sa fiche, sa tete, sa routine (corps de garde le jour) et sa chambre. Son plan porte ta lettre a Ilka et attend qu'elle soit ecrite.
+2. **La magie de Rupea** est comptee dans les mains de la maison : `magie-de-rupea` (nette) et `part-vers-comana` (une mesure par nuit vers Radomir).

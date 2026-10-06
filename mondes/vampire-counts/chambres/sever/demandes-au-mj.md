@@ -11,3 +11,10 @@
 - **Ce qui est écrit** : Aucun personnel vivant ou relais équestre n'est nommé pour assurer les trajets nocturnes entre Odorheiu et Rupea.
 - **Ce que je demande à la place** : Consigner l'existence de Mihai (`mihai`), serf vivant d'Odorheiu, tenant le poste discret des lisières de Homorod.
 - **Pourquoi** : Traverser 40 kilomètres à couvert forestier exige un point d'étape cohérent pour changer de monture et abriter l'envoyé du jour sans éveiller les soupçons du village de Homorod.
+
+---
+
+## Reponse du meneur — 6.10, hors fiction
+
+- **Frere Paul** a sa fiche, sa tete et sa chambre (demande commune avec Nicodim).
+- **Ton palefrenier s'appelle desormais Petru** (il y avait deux Mihai) ; il reste peint dans ton registre, sans fiche pour l'instant.

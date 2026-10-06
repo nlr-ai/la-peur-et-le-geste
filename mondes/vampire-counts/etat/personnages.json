@@ -248,7 +248,7 @@
  {
   "id": "vlaicu",
   "nom": "Vlaicu",
-  "maison_id": "maison-comana",
+  "maison_id": "maison-vlaicu",
   "titre": "Le Vorace a la criniere grise",
   "naissance": null,
   "traits": [
@@ -266,7 +266,7 @@
   "etat": "dormant",
   "lieu_id": null,
   "condition": "libre",
-  "_": "Sire et chef de Radomir, chef d'Ilka. Siege non donne par la source : lieu_id null."
+  "_": "Sire et chef de Radomir, chef d'Ilka. Siege non donne par la source : lieu_id null. Etat moteur « dormant » = fiche gelee, PAS torpeur dans le monde : Vlaicu veille et recoit le tribut d'Ilka."
  },
  {
   "id": "gontran",
@@ -350,5 +350,175 @@
   "lieu_id": "rupea",
   "condition": "libre",
   "_": "Goule vivante de la citadelle. CANON (canon/LORE_RECIT.md §9, canon/lore/teodor.md) : les goules sont des vivants qui ont trop bu a la table d'un maitre et ne savent plus qu'obeir ; elles suivent Teodor dans les couloirs sur ordre d'Anselm ; Teodor ne peut tenir de livre car elles le trouveraient. INVENTION DECLAREE (ouverture du monde) : le nom Stanca (roumain, « roche » — stanca), quarante-six ans, nee a la ville basse sous le rocher, fille d'une lavandiere de la citadelle ; entree au service a dix-neuf ans comme porteuse d'eau ; goule depuis vingt-sept ans ; derriere Teodor depuis vingt-cinq ans, apres une vieille goule morte ; ne sait pas lire ; dort le matin a la ville basse ; il y a quinze ans, le maitre l'a envoyee une nuit chercher a la ville basse une chose dont il n'avait pas besoin — c'est la nuit ou Sever a croise Teodor « sans goule » ; le mois dernier, elle a perdu Teodor une heure dans la ville basse et ne l'a pas dit. Elle n'a pas couru la nuit des bois du sud : c'etait un porteur de la route du sud, qu'elle a vu arriver dans la cour."
+ },
+ {
+  "id": "radu",
+  "nom": "Radu",
+  "maison_id": "maison-rupea",
+  "titre": "Goule messagere de Rupea",
+  "naissance": null,
+  "traits": [
+   "sur",
+   "endurant",
+   "muet sur ce qu'il porte"
+  ],
+  "objectifs": [
+   {
+    "but": "Porter les plis du maitre sans les perdre ni les ouvrir",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Repete l'adresse et le nombre de nuits, rien d'autre ; part avant qu'on ait fini de le congedier.",
+  "etat": "actif",
+  "lieu_id": "rupea",
+  "condition": "libre",
+  "_": "PEINT en preparation par Anselm (registre R.4), fiche accordee par le MJ le 6.10 sur demande hors fiction ; invention declaree. Veille au corps de garde ; porte les lettres de trois lignes aux enfants disperses."
+ },
+ {
+  "id": "paul",
+  "nom": "Frere Paul",
+  "maison_id": "maison-odorheiu",
+  "titre": "Goule copiste de la chapelle d'Odorheiu",
+  "naissance": null,
+  "traits": [
+   "efface",
+   "devoue",
+   "silencieux"
+  ],
+  "objectifs": [
+   {
+    "but": "Que les lampes et les parchemins de la chapelle ne manquent jamais",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Ne parle presque pas ; baisse la lampe quand on entre ; ne quitte jamais l'enceinte.",
+  "etat": "actif",
+  "lieu_id": "odorheiu-secuiesc",
+  "condition": "libre",
+  "_": "PEINT en preparation par Sever et Nicodim (registre chose:odorheiu-goule-paul), fiche accordee par le MJ le 6.10 sur demande hors fiction ; invention declaree. Ancien moine copiste au teint cireux."
+ },
+ {
+  "id": "mara",
+  "nom": "Mara",
+  "maison_id": "maison-ticusu",
+  "titre": "Goule d'Ilka",
+  "naissance": null,
+  "traits": [
+   "rapide",
+   "silencieuse",
+   "docile"
+  ],
+  "objectifs": [
+   {
+    "but": "Garder le haut des marches de la crypte pendant le jour",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Le regard fixe, peu de mots ; porte les plis et accompagne sa maitresse jusqu'a la lisiere.",
+  "etat": "actif",
+  "lieu_id": "ticusu-vechi",
+  "condition": "libre",
+  "_": "PEINT en preparation par Ilka (registre chose:ticusu-goule-mara), fiche accordee par le MJ le 6.10 sur demande hors fiction ; invention declaree. Liee depuis douze hivers, fille d'un charron de Ticușu."
+ },
+ {
+  "id": "doina",
+  "nom": "Doina",
+  "maison_id": "maison-rupea",
+  "titre": "Ancienne lavandiere de la citadelle, mere de Stanca",
+  "naissance": null,
+  "traits": [
+   "infirme",
+   "vieille"
+  ],
+  "objectifs": [],
+  "maniere": "",
+  "etat": "dormant",
+  "lieu_id": "rupea",
+  "condition": "libre",
+  "_": "PEINT en preparation par Stanca (registre chose:rupea-maison-doina), fiche accordee par le MJ le 6.10 sur demande hors fiction ; invention declaree. Vivante, 68 ans, une masure de la ville basse ou Stanca dort le matin."
+ },
+ {
+  "id": "mircea",
+  "nom": "Mircea",
+  "maison_id": "maison-rupea",
+  "titre": "Aubergiste du Corbeau Noir, ville basse de Rupea",
+  "naissance": null,
+  "traits": [
+   "vieux"
+  ],
+  "objectifs": [],
+  "maniere": "",
+  "etat": "dormant",
+  "lieu_id": "rupea",
+  "condition": "libre",
+  "_": "PEINT en preparation par Stanca (registre chose:rupea-auberge-corbeau), fiche accordee par le MJ le 6.10 sur demande hors fiction ; invention declaree. Vivant. Son auberge, au bas du rocher, loge les etrangers qui n'ont pas acces a la citadelle."
+ },
+ {
+  "id": "barbu",
+  "nom": "Barbu",
+  "maison_id": "maison-comana",
+  "titre": "Goule de guet de Radomir",
+  "naissance": null,
+  "traits": [
+   "trapu",
+   "taiseux"
+  ],
+  "objectifs": [],
+  "maniere": "",
+  "etat": "dormant",
+  "lieu_id": "comana-de-jos",
+  "condition": "libre",
+  "_": "PEINT en preparation par Radomir (registre chose:comana-goule-barbu), fiche accordee par le MJ le 6.10 sur demande hors fiction ; invention declaree. Ancien bucheron ; guette la lisiere nord et depose les os de la legende."
+ },
+ {
+  "id": "dobre",
+  "nom": "Dobre le Veneur",
+  "maison_id": "maison-comana",
+  "titre": "Doyen des serfs vivants de Comăna de Jos",
+  "naissance": null,
+  "traits": [
+   "respecte",
+   "sans terreur servile"
+  ],
+  "objectifs": [],
+  "maniere": "",
+  "etat": "dormant",
+  "lieu_id": "comana-de-jos",
+  "condition": "libre",
+  "_": "PEINT en preparation par Radomir (registre chose:comana-veueur-dobre), fiche accordee par le MJ le 6.10 sur demande hors fiction ; invention declaree. Vivant, 62 ans ; organise les coupes et la dime legere."
+ },
+ {
+  "id": "toma",
+  "nom": "Toma",
+  "maison_id": "maison-ticusu",
+  "titre": "Bailli de Ticușu Vechi",
+  "naissance": null,
+  "traits": [
+   "trapu",
+   "terrifie"
+  ],
+  "objectifs": [],
+  "maniere": "",
+  "etat": "dormant",
+  "lieu_id": "ticusu-vechi",
+  "condition": "libre",
+  "_": "PEINT en preparation par Ilka (registre chose:ticusu-bailli-toma), fiche accordee par le MJ le 6.10 sur demande hors fiction ; invention declaree. Vivant, 52 ans ; tient le role des feux et rassemble les bandes au crepuscule."
+ },
+ {
+  "id": "frere-mihai",
+  "nom": "Frere Mihai",
+  "maison_id": "maison-cincu",
+  "titre": "Ritualiste de Cincu, pretre mort releve",
+  "naissance": null,
+  "traits": [
+   "monocorde",
+   "infatigable"
+  ],
+  "objectifs": [],
+  "maniere": "",
+  "etat": "dormant",
+  "lieu_id": "cincu",
+  "condition": "libre",
+  "_": "PEINT en preparation par Cendrik (registre pop:rituel-frere-mihai), fiche accordee par le MJ le 6.10 sur demande hors fiction ; invention declaree. Conduit les deux autres Ritualistes ; a promouvoir quand le chant sur Ticușu commence."
  }
 ]

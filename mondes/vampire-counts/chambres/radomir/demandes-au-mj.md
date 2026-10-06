@@ -20,3 +20,11 @@ Date : an 1, 11e lune, 3e jour.
 - **Ce qui est écrit :** Le lore canonique (`canon/lore/radomir.md`, `canon/lore/anselm.md`) et `etat/relations.json` établissent formellement que Radomir boit chaque nuit une part de la magie d'Anselm depuis leur duel d'il y a huit ans. Or, dans `etat/maisons/maison-comana/`, il n'existe actuellement aucun fichier `mains.json` pour suivre ce flux magique ou ses réserves.
 - **Ce que je demande à la place :** Créer un fichier `mains.json` sous `etat/maisons/maison-comana/` (ou confirmer la prise en compte de ce tribut dans les mécanismes futurs de magie) afin que la magie perçue chaque nuit de Rupea y soit formellement enregistrée.
 - **Pourquoi :** Pour assurer la symétrie avec la situation de Rupea (où Anselm demande également la clarification de cette dette magique sortante) et permettre à Radomir de mesurer les ressources magiques dont il dispose pour préserver ses bois sans saigner ses serfs.
+
+---
+
+## Reponse du meneur — 6.10, hors fiction
+
+1. **Barbu** a une fiche gelee (decor) : on peut le nommer en scene ; il sera promu s'il doit agir.
+2. **Dobre le Veneur** de meme.
+3. **Pas de mains pour Comăna** pour l'instant : aucun chiffre de ta maison ne remonte au joueur. Le tribut est compte du cote de Rupea (`part-vers-comana`).

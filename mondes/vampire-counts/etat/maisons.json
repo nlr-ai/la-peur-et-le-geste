@@ -33,7 +33,8 @@
   "revenus": 0,
   "allegeance_affichee": null,
   "canon": true,
-  "_": "Voraces. Radomir, jure a son sire Vlaicu."
+  "_": "Voraces. Radomir, jure a son sire Vlaicu.",
+  "suzerain_id": "maison-vlaicu"
  },
  {
   "id": "maison-ticusu",
@@ -45,7 +46,8 @@
   "revenus": 0,
   "allegeance_affichee": null,
   "canon": true,
-  "_": "Une installee stryge chez les Voraces, juree a Vlaicu. Le sang de Rupea, mais pas la maison de Rupea : son serment est ailleurs."
+  "_": "Une installee stryge chez les Voraces, juree a Vlaicu. Le sang de Rupea, mais pas la maison de Rupea : son serment est ailleurs.",
+  "suzerain_id": "maison-vlaicu"
  },
  {
   "id": "maison-cincu",
@@ -70,5 +72,17 @@
   "allegeance_affichee": null,
   "canon": true,
   "_": "Ecarlates. Gontran, recemment bu ; Konstantin son champion a Dealu Frumos ; un pensionnaire a table."
+ },
+ {
+  "id": "maison-vlaicu",
+  "nom": "Le sang de Vlaicu",
+  "devise": null,
+  "siege_id": null,
+  "statut": "petite",
+  "or": 0,
+  "revenus": 0,
+  "allegeance_affichee": null,
+  "canon": true,
+  "_": "Voraces. Vlaicu, sire et chef de Radomir, chef d'Ilka. Siege non donne par la source. Cree le 6.10 : Vlaicu etait range par erreur dans la maison de Comăna, dont il est le suzerain et non le vassal."
  }
 ]

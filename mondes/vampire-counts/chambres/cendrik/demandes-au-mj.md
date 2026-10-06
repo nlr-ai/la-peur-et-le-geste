@@ -27,3 +27,11 @@ Ce fichier consigne les points techniques et d'état qui méritent arbitrage hor
 - **Ce qui est écrit** : Vasile est peint dans mon registre (`pop:fossoyeurs-vasile`) comme le chef des fossoyeurs et ramasseurs d'os qui parcourent les lisières de Comăna et les routes de l'ouest.
 - **Ce que je demande à la place** : Une fiche de goule/serviteur de corvée pour Vasile (`vasile`, de la maison Cincu), à l'instar de Stanca pour Teodor à Rupea.
 - **Pourquoi** : Cendrik ne se déplace jamais sous le soleil et évite d'aller lui-même fouiller les charniers et compter les tombes sous les yeux des autres seigneurs. Vasile est ses yeux diurnes et le porteur de ses messages vers les lisières.
+
+---
+
+## Reponse du meneur — 6.10, hors fiction
+
+1. **Gontran → Cendrik** est ajoute (rancune, la ligne des choses qui ne se pardonnent pas). **Konstantin → Cendrik est refuse** : Konstantin ne sait pas encore que c'est toi.
+2. **Frere Mihai** a une fiche gelee ; il sera promu quand le chant sur Ticușu commencera.
+3. **Vasile** reste peint dans ton registre, sans fiche pour l'instant ; c'est toi qui gardes ce prenom.

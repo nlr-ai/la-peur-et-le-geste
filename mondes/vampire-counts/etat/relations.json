@@ -210,5 +210,62 @@
    "trois pas derriere lui depuis vingt-cinq ans"
   ],
   "connue_du_joueur": true
+ },
+ {
+  "de": "gontran",
+  "vers": "cendrik",
+  "opinion": -60,
+  "liens": [
+   "son buveur",
+   "a la ligne des choses qui ne se pardonnent pas"
+  ],
+  "connue_du_joueur": false,
+  "_": "Gontran ne l'a dit a personne, pas meme a Konstantin."
+ },
+ {
+  "de": "radu",
+  "vers": "anselm",
+  "opinion": 75,
+  "liens": [
+   "maitre",
+   "la table"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "anselm",
+  "vers": "radu",
+  "opinion": 30,
+  "liens": [
+   "goule sure"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "paul",
+  "vers": "nicodim",
+  "opinion": 70,
+  "liens": [
+   "maitre"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "mara",
+  "vers": "ilka",
+  "opinion": 80,
+  "liens": [
+   "maitresse"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "ilka",
+  "vers": "mara",
+  "opinion": 40,
+  "liens": [
+   "goule"
+  ],
+  "connue_du_joueur": false
  }
 ]

@@ -119,6 +119,22 @@
      "salle": "@poste"
     }
    ]
+  },
+  "serviteur": {
+   "nom": "Le jour d'un serviteur vivant ou goule",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 360,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil des vivants"
+    },
+    {
+     "de": 360,
+     "a": 1440,
+     "salle": "@poste"
+    }
+   ]
   }
  },
  "gens": {
@@ -193,6 +209,39 @@
    "poste": {
     "salle": "crypte-cincu",
     "lieu": "La crypte sous l'eglise fortifiee, Cincu"
+   }
+  },
+  "radu": {
+   "modele": "serviteur",
+   "dortoir": {
+    "salle": "ville-basse",
+    "lieu": "La ville basse, sous le rocher de Rupea"
+   },
+   "poste": {
+    "salle": "corps-de-garde",
+    "lieu": "Le corps de garde des goules, citadelle de Rupea"
+   }
+  },
+  "paul": {
+   "modele": "serviteur",
+   "dortoir": {
+    "salle": "cellule-sever",
+    "lieu": "Pres de la cellule de Sever, Odorheiu Secuiesc"
+   },
+   "poste": {
+    "salle": "chapelle-odorheiu",
+    "lieu": "La chapelle de Nicodim, Odorheiu Secuiesc"
+   }
+  },
+  "mara": {
+   "modele": "serviteur",
+   "dortoir": {
+    "salle": "salle-ticusu",
+    "lieu": "La salle d'Ilka, Ticușu Vechi"
+   },
+   "poste": {
+    "salle": "chambre-ilka",
+    "lieu": "Le haut des marches de la crypte, Ticușu Vechi"
    }
   }
  }

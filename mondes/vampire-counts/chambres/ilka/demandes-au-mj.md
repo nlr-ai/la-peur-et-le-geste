@@ -14,3 +14,11 @@
 - **Ce qui est écrit** : `maison-ticusu` a `allegeance_affichee: null` dans `maisons.json`, tandis que le canon et `personnages.json` mentionnent qu'Ilka est jurée à Vlaicu. De plus, Vlaicu est actuellement marqué `etat: dormant` dans `personnages.json`.
 - **Ce que je demande à la place** : Confirmer si l'allégeance affichée de `maison-ticusu` doit pointer vers `maison-comana` (la maison de Vlaicu et Radomir) ou rester non formalisée sur le plan diplomatique, et à qui le tribut de sang d'Ilka est remis pendant la torpeur de Vlaicu (aux intendants de Comăna ou mis en réserve).
 - **Pourquoi** : Cela clarifie la chaîne d'autorité réelle au sud si Cendrik ou un autre seigneur venait contester les frontières de Ticușu pendant l'hiver.
+
+---
+
+## Reponse du meneur — 6.10, hors fiction
+
+1. **Toma** a une fiche gelee (decor).
+2. **Mara** a sa fiche, sa tete, sa routine (le haut des marches) et sa chambre.
+3. **Vlaicu n'est pas en torpeur** : « dormant » dans le moteur veut dire fiche gelee. Il veille, et c'est a lui que tu verses ton tribut. Il a desormais sa maison (`maison-vlaicu`), suzeraine de Ticușu et de Comăna (`suzerain_id`).

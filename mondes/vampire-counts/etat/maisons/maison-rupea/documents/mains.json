@@ -60,6 +60,55 @@
     "lune": 11,
     "jour": 3
    }
+  },
+  {
+   "id": "la-magie-de-rupea",
+   "quoi": "La magie que tient la citadelle, et la part qui coule vers Comăna",
+   "porteur": {
+    "type": "personnage",
+    "id": "teodor"
+   },
+   "lieu_id": "rupea",
+   "mandat": null,
+   "mesure": [
+    {
+     "id": "magie-de-rupea",
+     "quoi": "la magie que tient le maitre de Rupea (terre, filet propre, ce que remontent les infants disperses), une fois paye ce qui coule vers Comăna",
+     "unite": "mesures de magie",
+     "valeur": 140,
+     "rythme": {
+      "par": 2,
+      "jours": 1
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": null,
+     "depend_de": [],
+     "_": "INVENTION DECLAREE, chiffres de jeu. Net de la part-vers-comana. Une malediction contre Anselm doit valoir CE qu'il tient : amasser protege, depenser expose (LORE_RECIT §17)."
+    },
+    {
+     "id": "part-vers-comana",
+     "quoi": "ce que Rupea cede chaque nuit a Radomir depuis le duel des bois du sud, il y a huit ans",
+     "unite": "mesures de magie par nuit",
+     "valeur": 1,
+     "rythme": {
+      "par": 0,
+      "jours": 1
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": null,
+     "depend_de": [],
+     "_": "Beaucoup au debut, de moins en moins ensuite (LORE_RECIT §11) ; huit ans apres, une mesure par nuit. Teodor tient les comptes : il voit ce chiffre, pas sa raison."
+    }
+   ],
+   "seuils": [],
+   "dernier_rapport": null,
+   "date_maj": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3
+   }
   }
  ]
 }

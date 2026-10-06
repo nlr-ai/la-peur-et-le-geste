@@ -24,6 +24,9 @@ avant de parler.
   vingt-cinq ans ; le jour à la porte et à la ville basse, la nuit sur ses pas
   (modèle de routine `goule`, `suit: teodor`). Chambre : `chambres/stanca/`.
 
+- **Radu** (`radu`) — la goule messagère du maître ; le jour au corps de garde,
+  il porte les plis de trois lignes aux enfants partis. Chambre : `chambres/radu/`.
+
 ## Le temps
 
 Le jour, les maîtres dorment ; ce que font les goules et les vivants pendant le

@@ -23,3 +23,11 @@ Date : an 1, 11e lune, 3e jour.
 - **Ce qui est écrit :** Dans `etat/maisons.json`, la fiche de `maison-odorheiu` précise : « Riche en sang et en magie par ses veines, sans tenir les terres qui les produisent ». Cependant, il n'existe aucun fichier `documents/mains.json` pour `maison-odorheiu`, contrairement à `maison-rupea`.
 - **Ce que je demande à la place :** Créer un fichier `mains.json` pour `maison-odorheiu` comptabilisant les réserves de magie et de sang issues des tributs annuels et mensuels des veines de l'Est.
 - **Pourquoi :** Le plan stratégique de Nicodim repose sur le lancement d'une malédiction majeure nécessitant « assez de magie et de sang mis dans le coup pour valoir la défense de Rupea » (`etat/intentions.json`). Disposer d'une mesure dans `mains.json` donnera un ancrage matériel et chiffré à ce coût occulte.
+
+---
+
+## Reponse du meneur — 6.10, hors fiction
+
+1. **Frere Paul** a sa fiche, sa tete et sa chambre. **Ton frere Vasile s'appelle desormais Ioan** (il y avait trois Vasile) ; les copistes restent peints dans ton registre.
+2. **Le Grand Livre de l'Est** est un livre de ta maison, reserve a toi seul (`grand-livre-de-l-est`).
+3. **Tes reserves** sont comptees : `magie-d-odorheiu` et `ampoules-du-tabernacle` dans les mains de ta maison.

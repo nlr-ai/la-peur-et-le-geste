@@ -1,0 +1,55 @@
+{
+ "maison_id": "maison-odorheiu",
+ "_": "CE QU'ODORHEIU TIENT EN RESERVE — le chiffre qui dira si l'Abbe a de quoi payer sa malediction. INVENTION DECLAREE, chiffres de jeu ; les douze ampoules du tabernacle sont peintes par Nicodim (chose:odorheiu-ampoules-rituel).",
+ "mains": [
+  {
+   "id": "les-reserves-de-l-abbe",
+   "quoi": "Le sang et la magie que les veines de l'est versent a Odorheiu",
+   "porteur": {
+    "type": "personnage",
+    "id": "nicodim"
+   },
+   "lieu_id": "odorheiu-secuiesc",
+   "mandat": null,
+   "mesure": [
+    {
+     "id": "magie-d-odorheiu",
+     "quoi": "magie en reserve, tributs des veines compris",
+     "unite": "mesures de magie",
+     "valeur": 260,
+     "rythme": {
+      "par": 3,
+      "jours": 1
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": null,
+     "depend_de": [],
+     "_": "Une malediction qui doit valoir la defense de Rupea (magie-de-rupea) en mange la plus grande part. Ce qu'il y met, il le perd toujours."
+    },
+    {
+     "id": "ampoules-du-tabernacle",
+     "quoi": "ampoules de sang condense reservees aux malediction",
+     "unite": "ampoules",
+     "valeur": 12,
+     "rythme": {
+      "par": 0,
+      "jours": 1
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": null,
+     "depend_de": [],
+     "_": "Le sang qu'on met dans le coup. Ne remonte qu'a la main, quand il en fait condenser."
+    }
+   ],
+   "seuils": [],
+   "dernier_rapport": null,
+   "date_maj": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3
+   }
+  }
+ ]
+}
