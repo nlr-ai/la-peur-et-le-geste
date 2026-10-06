@@ -1,0 +1,310 @@
+[
+ {
+  "personnage_id": "anselm",
+  "croyances": [
+   "Teodor complote contre lui depuis des annees et parle bas avec les envoyes voiles. Il le sait et le laisse faire : tant que le pays regarde l'heritier a table, personne ne cherche les enfants partis.",
+   "Le Sepulcral de Cincu compte les villages d'Ilka depuis l'an dernier.",
+   "Gontran d'Agnita a ete bu a la chasse par un Sepulcral ; Konstantin est le champion de Gontran.",
+   "Un jour Teodor viendra, et il devra choisir entre se defendre et se laisser faire. Il pense qu'il se laissera faire. Il n'en est pas sur."
+  ],
+  "ignore": [
+   "Que Sever a demande a Teodor de laisser une porte ouverte pour une malediction.",
+   "Que c'est Nicodim qui a detruit Margit, et le sang d'Ottilia qui a detruit Hedwig.",
+   "Que Radomir a compris pourquoi il s'est laisse boire."
+  ],
+  "intention": "Tenir le Masque du vieux fou, et veiller de loin sur Ilka, que Cincu commence a ronger.",
+  "plan": [
+   {
+    "id": "anselm-lettre-ilka",
+    "quoi": "Ecrire trois lignes a Ilka sur Cendrik de Cincu, et les faire porter par une goule a Ticușu Vechi",
+    "etat": "a-faire",
+    "jours_restants": 2,
+    "depend_de": [],
+    "cout": [
+     "une goule sure pour la route",
+     "deux nuits de route"
+    ],
+    "si_bloque": "Si aucune goule ne peut partir, il garde la lettre dans le registre et la fait porter avec la prochaine — il ne l'envoie jamais par un etranger."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "un de ses enfants est en danger de destruction et il l'apprend",
+    "alors": "Il quitte ses murs, ce qu'il ne fait jamais, et y va lui-meme, quel qu'en soit le prix.",
+    "une_fois": false
+   },
+   {
+    "si": "Teodor leve les yeux a table et demande quelque chose devant temoins",
+    "alors": "Il refuse devant les temoins, sans chaleur, puis l'inscrit a la derniere page de son registre.",
+    "une_fois": false
+   },
+   {
+    "si": "une goule lui rapporte que Sever est revenu a Rupea ou dans la ville basse",
+    "alors": "Il le note, laisse faire, et fait suivre Teodor de plus pres pendant les nuits qui suivent.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "il le surveille en public et le protege en secret",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
+ },
+ {
+  "personnage_id": "sever",
+  "croyances": [
+   "Teodor a peur de son pere et n'a personne d'autre que lui.",
+   "Son pere Nicodim est pret : la malediction n'attend qu'une nuit ou une porte reste ouverte, une goule ailleurs, un pensionnaire au sommeil profond.",
+   "Teodor a dit qu'il reflechirait. C'est un oui qui n'ose pas encore."
+  ],
+  "ignore": [
+   "Que Teodor doute de la nuit des bois du sud.",
+   "Qu'Anselm sait depuis le debut que Teodor parle aux envoyes voiles."
+  ],
+  "intention": "Revenir a Rupea le 15 chercher la reponse, et fixer la nuit.",
+  "plan": [
+   {
+    "id": "sever-retour",
+    "quoi": "Faire la route d'Odorheiu a Rupea et chercher Teodor sans goule, dans un couloir ou a la ville basse",
+    "etat": "a-faire",
+    "jours_restants": 12,
+    "depend_de": [],
+    "cout": [
+     "une raison de passer a Rupea que le maitre n'interroge pas",
+     "une nuit ou Teodor est seul"
+    ],
+    "si_bloque": "S'il ne peut voir Teodor sans temoin, il attend trois nuits a la ville basse, puis rentre dire a son pere que l'heritier hesite."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Teodor donne sa reponse",
+    "alors": "S'il donne une nuit, il part sur-le-champ la porter a Odorheiu. S'il refuse, il ne menace pas : il promet encore, et rentre dire a son pere qu'il faut une autre prise.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "il le croit gagne d'avance",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
+ },
+ {
+  "personnage_id": "nicodim",
+  "croyances": [
+   "Rupea est un vieux fou qui n'aime personne depuis Margit ; ses infants chasses sont des renies ; seul Teodor compte.",
+   "Un heritier qui a peur est un debiteur qui ne le sait pas encore. Le jour ou Rupea tombe, Teodor entre dans son livre avec une dette qu'il ne soldera jamais.",
+   "Tant qu'Ottilia dort, les infants d'Hedwig ne peuvent rien contre Odorheiu."
+  ],
+  "ignore": [
+   "Pourquoi Rupea a refuse sa veine il y a un siecle.",
+   "Qu'Anselm aime ses enfants, et que Radomir le sait.",
+   "Qu'Anselm laisse Teodor comploter expres."
+  ],
+  "intention": "Attendre la reponse de l'heritier que Sever rapportera, et frapper une seule fois.",
+  "plan": [
+   {
+    "id": "nicodim-malediction",
+    "quoi": "Lancer la malediction contre Anselm la nuit ou la porte de la citadelle sera ouverte",
+    "etat": "a-faire",
+    "jours_restants": 20,
+    "depend_de": [
+     "sever-retour"
+    ],
+    "cout": [
+     "la nuit donnee par Teodor",
+     "assez de magie et de sang mis dans le coup pour valoir la defense de Rupea"
+    ],
+    "si_bloque": "Sans nuit donnee, il ne frappe pas : il cherche une autre prise sur Rupea — le secret de la Criniere, que Rupea s'est laisse boire."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Sever rapporte que Teodor refuse",
+    "alors": "Il envoie quelqu'un sonder Radomir sur la nuit des bois du sud.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "un debiteur a venir",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
+ },
+ {
+  "personnage_id": "radomir",
+  "croyances": [
+   "Le vieux Rupea s'est laisse boire pour qu'Ilka rentre chez elle : il aime ses enfants.",
+   "Si l'on savait que la Criniere est doux, ses bois seraient vides en dix ans.",
+   "Chaque fois qu'il joue la bete, il la nourrit un peu."
+  ],
+  "ignore": [
+   "Que Cendrik a etudie les os de la lisiere et sait qu'il n'a jamais detruit personne.",
+   "Que Nicodim voudrait son secret."
+  ],
+  "intention": "Tenir le Masque et ses bois, boire a heure fixe, laisser Ilka entrer sans la voir.",
+  "plan": [
+   {
+    "id": "radomir-os",
+    "quoi": "Faire deposer a la lisiere les os de loups et d'ours du printemps",
+    "etat": "a-faire",
+    "jours_restants": 120,
+    "depend_de": [],
+    "cout": [
+     "des goules",
+     "des os"
+    ],
+    "si_bloque": "S'il n'en a pas assez, il laisse courir une histoire de plus a la place."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "des Ritualistes chantent au bord de Ticușu Vechi ou de ses propres bois",
+    "alors": "Il va voir lui-meme, de nuit, et se montre en bete a la lisiere.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "il ne le connait que de nom",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
+ },
+ {
+  "personnage_id": "ilka",
+  "croyances": [
+   "Son pere est venu la detruire la nuit des bois du sud, et la Criniere s'est mise en travers.",
+   "Les lettres de son pere sont des menaces : il sait ou elle boit. Elle obeit a chacune sans demander pourquoi, et les range dans un coffret.",
+   "Cendrik ne demande plus, il se sert : ses bandes rentrent plus maigres."
+  ],
+  "ignore": [
+   "Que son pere s'est laisse boire pour elle.",
+   "Que Cendrik veut atteindre les bois de Comăna a travers sa ville."
+  ],
+  "intention": "Plier devant tous, garder le sang pur, passer l'hiver.",
+  "plan": [
+   {
+    "id": "ilka-hiver",
+    "quoi": "Passer l'hiver sur ce que rendent ses villages, et boire dans les bois de Comăna quand la faim monte",
+    "etat": "a-faire",
+    "jours_restants": 30,
+    "depend_de": [],
+    "cout": [
+     "des bandes de vivants",
+     "les bois de Comăna ouverts"
+    ],
+    "si_bloque": "Si les bandes ne suffisent plus, elle chasse a Comăna plus souvent — et risque d'y etre vue."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "les Ritualistes de Cincu chantent au bord de Ticușu",
+    "alors": "Elle plie encore une fois — puis, la seconde, elle doit choisir entre perdre sa ville et se battre.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "elle l'envie et ne le pardonne pas",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
+ },
+ {
+  "personnage_id": "konstantin",
+  "croyances": [
+   "Le Sepulcral qui a bu Gontran maitrise les cendres et chasse a l'est d'Agnita.",
+   "Une petite installee stryge, a Ticușu Vechi, est le sang de Rupea, et un Sepulcral ronge sa terre.",
+   "Son pere l'a jete dans la neige."
+  ],
+  "ignore": [
+   "Que le Sepulcral est Cendrik de Cincu.",
+   "Ce que disent les lettres de son pere."
+  ],
+  "intention": "Trouver le nom du Sepulcral aux cendres, pour le boire.",
+  "plan": [
+   {
+    "id": "konstantin-nom",
+    "quoi": "Chercher vers l'est le Sepulcral qui fait tomber les cendres",
+    "etat": "a-faire",
+    "jours_restants": 25,
+    "depend_de": [],
+    "cout": [
+     "des nuits loin de Dealu Frumos",
+     "des gens qui parlent"
+    ],
+    "si_bloque": "S'il ne trouve rien, il revient a Agnita veiller Gontran et reprend la piste au printemps."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "on lui nomme Cendrik de Cincu",
+    "alors": "Il part le provoquer en duel, pour le boire.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "un frere qu'il n'a jamais vu",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
+ },
+ {
+  "personnage_id": "cendrik",
+  "croyances": [
+   "En cent cinquante ans, la Criniere n'a jamais detruit personne : la frontiere la plus redoutee du sud est un mur peint.",
+   "Gontran a honte et se taira longtemps ; il a quelques annees devant lui.",
+   "La Stryge de Ticușu plie devant tout le monde."
+  ],
+  "ignore": [
+   "Pourquoi Ilka peut chasser dans les bois de Comăna.",
+   "Que Konstantin cherche le Sepulcral aux cendres."
+  ],
+  "intention": "Ronger Ticușu Vechi arpent par arpent jusqu'a la lisiere de Comăna, sans guerre declaree.",
+  "plan": [
+   {
+    "id": "cendrik-ticusu",
+    "quoi": "Faire chanter ses Ritualistes au bord de la terre de Ticușu, d'un arpent bien choisi",
+    "etat": "a-faire",
+    "jours_restants": 30,
+    "depend_de": [],
+    "cout": [
+     "des Ritualistes",
+     "la magie bue a Gontran"
+    ],
+    "si_bloque": "Si on le voit avant qu'il soit pret, il s'arrete, publie un traite, et reprend a la saison suivante."
+   },
+   {
+    "id": "cendrik-comana",
+    "quoi": "Atteindre la lisiere des bois de Comăna et y chasser",
+    "etat": "a-faire",
+    "jours_restants": 180,
+    "depend_de": [
+     "cendrik-ticusu"
+    ],
+    "cout": [
+     "la terre de Ticușu tombee"
+    ],
+    "si_bloque": "Si la Criniere se montre en bete a la lisiere, il recule et mesure encore."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "il apprend que Konstantin cherche le Sepulcral aux cendres",
+    "alors": "Il cesse de chasser hors de ses terres et met ses gardes lourds sur les routes de l'ouest.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "il ne sait pas qu'il existe",
+  "date_maj": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 3
+  }
+ }
+]

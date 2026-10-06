@@ -1,0 +1,58 @@
+{
+ "_": "Les nuits de la citadelle de Rupea. Une bande = {de, a, salle, lieu} en minutes 0-1439. A la 11e lune la nuit va de 1020 (17 h) a 420 (7 h) ; le jour, les maitres dorment. Fichier technique, hors docs/schema.md.",
+ "peremption_minutes": 240,
+ "modeles": {
+  "maitre": {
+   "nom": "La nuit d'Anselm",
+   "dortoir": {
+    "salle": "chambre-anselm",
+    "lieu": "La chambre du maitre, citadelle de Rupea"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 300,
+     "salle": "@dortoir",
+     "pourquoi": "le registre et les lettres"
+    },
+    {
+     "de": 300,
+     "a": 400,
+     "salle": "remparts",
+     "lieu": "Les remparts, citadelle de Rupea",
+     "pourquoi": "il touche les pierres une a une"
+    },
+    {
+     "de": 400,
+     "a": 1040,
+     "salle": "@dortoir",
+     "ferme": true,
+     "pourquoi": "le jour"
+    },
+    {
+     "de": 1040,
+     "a": 1140,
+     "salle": "remparts",
+     "lieu": "Les remparts, citadelle de Rupea"
+    },
+    {
+     "de": 1140,
+     "a": 1260,
+     "salle": "la-table",
+     "lieu": "La table, citadelle de Rupea",
+     "pourquoi": "la table du maitre, Teodor a gauche"
+    },
+    {
+     "de": 1260,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  }
+ },
+ "gens": {
+  "anselm": {
+   "modele": "maitre"
+  }
+ }
+}

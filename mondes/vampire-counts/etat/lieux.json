@@ -1,0 +1,119 @@
+[
+ {
+  "id": "rupea",
+  "nom": "Rupea",
+  "region": "La Terre des Cinq",
+  "type": "chateau",
+  "controle_id": "maison-rupea",
+  "jours_de_pr": 0,
+  "_": "La citadelle sur le rocher noir, et la ville basse dessous. Le hub : les distances se comptent d'ici. Bourg (niveau 2 de la carte). A 0 km de Rupea (carte, 1 unite = 80 m) ; jours_de_pr = jours de goule a pied depuis Rupea."
+ },
+ {
+  "id": "homorod",
+  "nom": "Homorod",
+  "region": "La Terre des Cinq",
+  "type": "village",
+  "controle_id": "maison-rupea",
+  "jours_de_pr": 0,
+  "_": "Village tenu sous le joug de Rupea, a deux heures de marche du rocher. Le village natal de Teodor. Il saigne. A 6 km de Rupea (carte, 1 unite = 80 m) ; jours_de_pr = jours de goule a pied depuis Rupea."
+ },
+ {
+  "id": "comana-de-jos",
+  "nom": "Comăna de Jos",
+  "region": "La Terre des Cinq",
+  "type": "ville",
+  "controle_id": "maison-comana",
+  "jours_de_pr": 1,
+  "_": "Le siege de Radomir, la Criniere, au bord des grandes forets du sud. Les villages les mieux peuples du pays. A 18 km de Rupea (carte, 1 unite = 80 m) ; jours_de_pr = jours de goule a pied depuis Rupea."
+ },
+ {
+  "id": "ticusu-vechi",
+  "nom": "Ticușu Vechi",
+  "region": "La Terre des Cinq",
+  "type": "ville",
+  "controle_id": "maison-ticusu",
+  "jours_de_pr": 1,
+  "_": "La petite ville d'Ilka, entre la terre sepulcrale de Cincu et les bois de Comăna. A 20 km de Rupea (carte, 1 unite = 80 m) ; jours_de_pr = jours de goule a pied depuis Rupea."
+ },
+ {
+  "id": "cincu",
+  "nom": "Cincu",
+  "region": "La Terre des Cinq",
+  "type": "ville",
+  "controle_id": "maison-cincu",
+  "jours_de_pr": 1,
+  "_": "Le siege de Cendrik : la vieille eglise fortifiee, sur une terre qui meurt lentement. Marche des Sepulcraux au sud. A 47 km de Rupea (carte, 1 unite = 80 m) ; jours_de_pr = jours de goule a pied depuis Rupea."
+ },
+ {
+  "id": "odorheiu-secuiesc",
+  "nom": "Odorheiu Secuiesc",
+  "region": "La Terre des Cinq",
+  "type": "ville",
+  "controle_id": "maison-odorheiu",
+  "jours_de_pr": 1,
+  "_": "La grande ville de l'est, siege de Nicodim l'Abbe. Sa chapelle, et la crypte dessous ou dort Ottilia. A 40 km de Rupea (carte, 1 unite = 80 m) ; jours_de_pr = jours de goule a pied depuis Rupea."
+ },
+ {
+  "id": "agnita",
+  "nom": "Agnita",
+  "region": "La Terre des Cinq",
+  "type": "ville",
+  "controle_id": "maison-agnita",
+  "jours_de_pr": 2,
+  "_": "Le siege de Gontran, Ecarlate. Le prologue de LORE_RECIT. A 62 km de Rupea (carte, 1 unite = 80 m) ; jours_de_pr = jours de goule a pied depuis Rupea."
+ },
+ {
+  "id": "dealu-frumos",
+  "nom": "Dealu Frumos",
+  "region": "La Terre des Cinq",
+  "type": "ville",
+  "controle_id": "maison-agnita",
+  "jours_de_pr": 2,
+  "_": "La petite ville de Konstantin, a une nuit de marche d'Agnita, sous serment de Gontran. A 54 km de Rupea (carte, 1 unite = 80 m) ; jours_de_pr = jours de goule a pied depuis Rupea."
+ },
+ {
+  "id": "sighisoara",
+  "nom": "Sighișoara",
+  "region": "La Terre des Cinq",
+  "type": "ville",
+  "controle_id": null,
+  "jours_de_pr": 1,
+  "_": "La ville perchee, ou naquit un fils du Dragon. On dit que le premier sang est descendu de sa colline. Grande ville. A 51 km de Rupea (carte, 1 unite = 80 m) ; jours_de_pr = jours de goule a pied depuis Rupea."
+ },
+ {
+  "id": "medias",
+  "nom": "Mediaș",
+  "region": "La Terre des Cinq",
+  "type": "ville",
+  "controle_id": null,
+  "jours_de_pr": 3,
+  "_": "Grande ville de l'ouest. A 91 km de Rupea (carte, 1 unite = 80 m) ; jours_de_pr = jours de goule a pied depuis Rupea."
+ },
+ {
+  "id": "targu-mures",
+  "nom": "Târgu Mureș",
+  "region": "La Terre des Cinq",
+  "type": "ville",
+  "controle_id": null,
+  "jours_de_pr": 3,
+  "_": "Grande ville du nord. A 101 km de Rupea (carte, 1 unite = 80 m) ; jours_de_pr = jours de goule a pied depuis Rupea."
+ },
+ {
+  "id": "tarnaveni",
+  "nom": "Târnăveni",
+  "region": "La Terre des Cinq",
+  "type": "ville",
+  "controle_id": null,
+  "jours_de_pr": 3,
+  "_": "Grande ville du nord-ouest. A 106 km de Rupea (carte, 1 unite = 80 m) ; jours_de_pr = jours de goule a pied depuis Rupea."
+ },
+ {
+  "id": "cristuru-secuiesc",
+  "nom": "Cristuru Secuiesc",
+  "region": "La Terre des Cinq",
+  "type": "ville",
+  "controle_id": null,
+  "jours_de_pr": 1,
+  "_": "Bourg sur la route de Rupea a Odorheiu : c'est par la que passent les envoyes voiles. A 42 km de Rupea (carte, 1 unite = 80 m) ; jours_de_pr = jours de goule a pied depuis Rupea."
+ }
+]

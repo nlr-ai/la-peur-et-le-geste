@@ -1,0 +1,53 @@
+[
+ {
+  "id": "sever-revient",
+  "date_prevue": {
+   "annee": 1,
+   "lune": 11,
+   "jour": 15,
+   "minute": 1140
+  },
+  "type": "programme",
+  "importance": 85,
+  "description": "Sever arrive a Rupea pour une affaire de passage et cherche Teodor seul, sans goule, pour entendre sa reponse et fixer la nuit.",
+  "lieu_id": "rupea",
+  "acteurs": [
+   "sever",
+   "teodor"
+  ],
+  "conditions": [
+   "si Teodor a fait savoir son refus a Odorheiu avant le 15, Sever ne vient pas",
+   "si Anselm a appris la demande, Sever trouve une goule a chaque couloir"
+  ],
+  "statut": "a-venir",
+  "effets": [
+   "Teodor doit donner sa reponse, ou la faire attendre une fois de plus"
+  ],
+  "diffusion": [],
+  "_": "Invention declaree : la date. Sert sever-retour dans intentions.json."
+ },
+ {
+  "id": "saignee-d-hiver",
+  "date_prevue": {
+   "annee": 1,
+   "lune": 12,
+   "jour": 1,
+   "minute": 1200
+  },
+  "type": "programme",
+  "importance": 60,
+  "description": "A la table, Anselm fixe ce que Rupea prendra a Homorod pendant l'hiver : un peu, beaucoup ou trop.",
+  "lieu_id": "rupea",
+  "acteurs": [
+   "anselm",
+   "teodor"
+  ],
+  "conditions": [],
+  "statut": "a-venir",
+  "effets": [
+   "la mesure bandes-de-homorod prend son rythme d'hiver"
+  ],
+  "diffusion": [],
+  "_": "Invention declaree. Teodor tient les comptes : c'est lui qui sait ce que Homorod peut donner."
+ }
+]

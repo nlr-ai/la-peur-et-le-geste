@@ -1,0 +1,65 @@
+{
+ "maison_id": "maison-rupea",
+ "_": "CE QUE LA CITADELLE A SOUS LA MAIN — ce que Teodor sait de tete, puisqu'il tient les comptes depuis soixante ans. INVENTION DECLAREE, chiffres de jeu.",
+ "mains": [
+  {
+   "id": "la-table-de-rupea",
+   "quoi": "Le sang de la table de Rupea, et ce que Homorod envoie dans les bois",
+   "porteur": {
+    "type": "personnage",
+    "id": "teodor"
+   },
+   "lieu_id": "rupea",
+   "mandat": null,
+   "mesure": [
+    {
+     "id": "nuits-de-table",
+     "quoi": "nuits de sang en reserve pour la table (le maitre et le pensionnaire)",
+     "unite": "nuits",
+     "valeur": 9,
+     "rythme": {
+      "par": -1,
+      "jours": 1
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": 30,
+     "depend_de": [],
+     "_": "Remonte quand le maitre chasse ou que Homorod donne. Le maitre chasse peu : il ne quitte presque jamais ses murs."
+    },
+    {
+     "id": "bandes-de-homorod",
+     "quoi": "bandes que Homorod envoie dans les bois par lune",
+     "unite": "bandes",
+     "valeur": 3,
+     "rythme": {
+      "par": 0,
+      "jours": 30
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": 8,
+     "depend_de": [],
+     "_": "Il y en avait six du temps ou Teodor etait arbaletrier. La maison de son pere est vide ; les petits-enfants de ses soeurs y vont a leur tour. La saignee d'hiver (evenements.json) fixe la suite."
+    }
+   ],
+   "seuils": [
+    {
+     "id": "homorod-se-vide",
+     "mesure_id": "bandes-de-homorod",
+     "quand": "sous",
+     "valeur": 2,
+     "promeut": "scene",
+     "affaire": "Homorod n'envoie plus que deux bandes par lune : encore un hiver comme celui-la et il n'y aura plus personne dans les bois de Rupea.",
+     "franchi_le": null
+    }
+   ],
+   "dernier_rapport": null,
+   "date_maj": {
+    "annee": 1,
+    "lune": 11,
+    "jour": 3
+   }
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+[
+ {
+  "id": "teodor",
+  "nom": "Teodor",
+  "maison_id": "maison-rupea",
+  "titre": "Le pensionnaire de Rupea, heritier selon le droit du sire",
+  "naissance": -93,
+  "traits": [
+   "silencieux",
+   "patient",
+   "mefiant",
+   "comptable"
+  ],
+  "objectifs": [
+   {
+    "but": "Survivre a son pere",
+    "priorite": 1
+   },
+   {
+    "but": "Que Homorod cesse de saigner",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Les yeux baisses, la voix basse, jamais un mot de plus qu'on ne lui demande ; il compte tout, en silence.",
+  "etat": "actif",
+  "lieu_id": "rupea",
+  "condition": "libre",
+  "_": "LE SIEGE JOUEUR. Stryge, etreint il y a 64 ans a trente ans, ancien arbaletrier ne a Homorod. Tient les comptes de la citadelle depuis 60 ans. Aucune entree dans intentions.json. Source : canon/lore/teodor.md."
+ },
+ {
+  "id": "anselm",
+  "nom": "Anselm",
+  "maison_id": "maison-rupea",
+  "titre": "Rupea — le seigneur de la citadelle",
+  "naissance": null,
+  "traits": [
+   "mefiant",
+   "taciturne",
+   "batisseur",
+   "tendre en secret"
+  ],
+  "objectifs": [
+   {
+    "but": "Que ses enfants lui survivent, tous",
+    "priorite": 1
+   },
+   {
+    "but": "Que personne ne sache qu'il les aime",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Parle peu et sans chaleur ; regarde de cote, longtemps, avec l'air de compter ; touche les pierres en marchant.",
+  "etat": "actif",
+  "lieu_id": "rupea",
+  "condition": "libre",
+  "_": "Stryge, troisieme generation sous l'Aine, etreint il y a 240 ans. Ancien macon de la citadelle. Bu par Radomir il y a huit ans. Source : canon/lore/anselm.md."
+ },
+ {
+  "id": "sever",
+  "nom": "Sever",
+  "maison_id": "maison-odorheiu",
+  "titre": "L'envoye voile d'Odorheiu",
+  "naissance": null,
+  "traits": [
+   "courtois",
+   "patient",
+   "discret",
+   "fidele a son pere"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire entrer Rupea dans le livre de son pere",
+    "priorite": 1
+   },
+   {
+    "but": "Que Teodor laisse une porte ouverte",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Parle bas et jamais longtemps ; promet plus qu'il ne demande ; ne dit jamais ce qu'il a compris.",
+  "etat": "actif",
+  "lieu_id": "odorheiu-secuiesc",
+  "condition": "libre",
+  "_": "Voile, infant de Nicodim. Vient a Rupea tous les deux ou trois ans depuis quinze ans ; est venu le mois dernier. Source : canon/lore/characters.json, teodor.md."
+ },
+ {
+  "id": "nicodim",
+  "nom": "Nicodim",
+  "maison_id": "maison-odorheiu",
+  "titre": "Odorheiu, dit l'Abbe",
+  "naissance": null,
+  "traits": [
+   "sobre",
+   "patient",
+   "calculateur",
+   "implacable"
+  ],
+  "objectifs": [
+   {
+    "but": "Que tout l'est soit inscrit dans ses livres",
+    "priorite": 1
+   },
+   {
+    "but": "Qu'aucune ligne n'y reste ouverte",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Recoit dans une chapelle froide ; ecoute, pose deux ou trois questions, dit ce qui est juste ; ne parle jamais fort.",
+  "etat": "actif",
+  "lieu_id": "odorheiu-secuiesc",
+  "condition": "libre",
+  "_": "Voile, etreint il y a 300 ans, ancien prieur. A detruit Margit. Source : canon/lore/nicodim.md."
+ },
+ {
+  "id": "radomir",
+  "nom": "Radomir",
+  "maison_id": "maison-comana",
+  "titre": "Comăna, dit la Criniere",
+  "naissance": null,
+  "traits": [
+   "maitre de soi",
+   "ascete",
+   "terrible a voir",
+   "doux en secret"
+  ],
+  "objectifs": [
+   {
+    "but": "Se maitriser jusqu'au bout",
+    "priorite": 1
+   },
+   {
+    "but": "Que ses bois restent pleins de vivants",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Gronde a table, frappe la terre quand on le contredit — et s'arrete toujours avant d'avoir fini.",
+  "etat": "actif",
+  "lieu_id": "comana-de-jos",
+  "condition": "libre",
+  "_": "Vorace, etreint il y a 180 ans, ancien mercenaire. A bu Anselm. N'a jamais detruit personne. Source : canon/lore/radomir.md."
+ },
+ {
+  "id": "ilka",
+  "nom": "Ilka",
+  "maison_id": "maison-ticusu",
+  "titre": "Ticușu, l'installee stryge",
+  "naissance": null,
+  "traits": [
+   "fiere",
+   "affamee",
+   "pliante",
+   "pure"
+  ],
+  "objectifs": [
+   {
+    "but": "Rentrer un jour a Rupea, pure, et y etre reconnue",
+    "priorite": 1
+   },
+   {
+    "but": "Ne jamais meler son sang",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Plie le cou et s'excuse ; porte la couronne noire ; ne cede jamais sur le sang.",
+  "etat": "actif",
+  "lieu_id": "ticusu-vechi",
+  "condition": "libre",
+  "_": "Stryge, fille d'Anselm, chassee apres six hivers, juree a Vlaicu. Source : canon/lore/ilka.md."
+ },
+ {
+  "id": "konstantin",
+  "nom": "Konstantin",
+  "maison_id": "maison-agnita",
+  "titre": "Dealu Frumos, le champion d'Agnita",
+  "naissance": null,
+  "traits": [
+   "fidele",
+   "redoute",
+   "rancunier envers son sang",
+   "silencieux sur lui-meme"
+  ],
+  "objectifs": [
+   {
+    "but": "Boire le Sepulcral qui a bu Gontran",
+    "priorite": 1
+   },
+   {
+    "but": "Ne plus manquer quand on a besoin de lui",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Laisse croire ce qu'on croit de lui ; ne dement jamais ; ne ment jamais a Gontran.",
+  "etat": "actif",
+  "lieu_id": "dealu-frumos",
+  "condition": "libre",
+  "_": "Stryge, fils chasse d'Anselm, installe chez les Ecarlates, jure a Gontran. A bu cinq seigneurs. Source : canon/lore/konstantin.md."
+ },
+ {
+  "id": "cendrik",
+  "nom": "Cendrik",
+  "maison_id": "maison-cincu",
+  "titre": "Cincu, le savant des morts",
+  "naissance": null,
+  "traits": [
+   "meticuleux",
+   "patient",
+   "conquerant",
+   "secret"
+  ],
+  "objectifs": [
+   {
+    "but": "Les bois verts du sud",
+    "priorite": 1
+   },
+   {
+    "but": "Du sang pour toute sa branche",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Parle comme un traite, assomme ses visiteurs de mesures ; ne fait pas un pas avant d'avoir mesure.",
+  "etat": "actif",
+  "lieu_id": "cincu",
+  "condition": "libre",
+  "_": "Sepulcral, etreint il y a 200 ans, ancien arpenteur. A bu Gontran. Source : canon/lore/cendrik.md."
+ },
+ {
+  "id": "ottilia",
+  "nom": "Ottilia",
+  "maison_id": "maison-odorheiu",
+  "titre": "La dormeuse d'Odorheiu",
+  "naissance": null,
+  "traits": [
+   "ancienne",
+   "endormie"
+  ],
+  "objectifs": [
+   {
+    "but": "Echapper aux Stryges",
+    "priorite": 1
+   }
+  ],
+  "maniere": "On ne parle jamais d'un dormeur au passe.",
+  "etat": "dormant",
+  "lieu_id": "odorheiu-secuiesc",
+  "condition": "libre",
+  "_": "Voilee, sire de Nicodim. En torpeur depuis 130 ans dans la crypte sous la chapelle. A detruit Hedwig (le « seigneur voile sans nom »). Se reveillera chargee de magie."
+ },
+ {
+  "id": "vlaicu",
+  "nom": "Vlaicu",
+  "maison_id": "maison-comana",
+  "titre": "Le Vorace a la criniere grise",
+  "naissance": null,
+  "traits": [
+   "enorme",
+   "predateur",
+   "meprisant"
+  ],
+  "objectifs": [
+   {
+    "but": "Que la Bete regne",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Pour lui, la Bete est un don.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre",
+  "_": "Sire et chef de Radomir, chef d'Ilka. Siege non donne par la source : lieu_id null."
+ },
+ {
+  "id": "gontran",
+  "nom": "Gontran",
+  "maison_id": "maison-agnita",
+  "titre": "Agnita",
+  "naissance": null,
+  "traits": [
+   "Ecarlate",
+   "honteux"
+  ],
+  "objectifs": [
+   {
+    "but": "Taire qu'il a ete bu",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Un Ecarlate bu se tait.",
+  "etat": "dormant",
+  "lieu_id": "agnita",
+  "condition": "libre",
+  "_": "Bu recemment par Cendrik a la chasse ; a inscrit son nom au registre sans le dire. Fiche gelee tant que l'ouest n'entre pas en jeu."
+ },
+ {
+  "id": "hedwig",
+  "nom": "Hedwig la Grise",
+  "maison_id": "maison-rupea",
+  "titre": "L'ancienne de Rupea",
+  "naissance": null,
+  "traits": [
+   "recluse",
+   "paranoiaque"
+  ],
+  "objectifs": [],
+  "maniere": "",
+  "etat": "mort",
+  "lieu_id": "rupea",
+  "condition": "libre",
+  "_": "Detruite dans la cour de la citadelle par Ottilia. Sire d'Anselm. A fait detruire sept de ses onze infants."
+ },
+ {
+  "id": "margit",
+  "nom": "Margit",
+  "maison_id": "maison-rupea",
+  "titre": "Premiere infant d'Anselm",
+  "naissance": null,
+  "traits": [
+   "rieuse"
+  ],
+  "objectifs": [],
+  "maniere": "",
+  "etat": "mort",
+  "lieu_id": "rupea",
+  "condition": "libre",
+  "_": "Detruite par malediction de Nicodim, la quarantieme annee apres son Etreinte, parce que tout le pays savait qu'Anselm l'aimait."
+ }
+]

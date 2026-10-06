@@ -1,0 +1,89 @@
+{
+ "id": "registre-de-rupea",
+ "titre": "Le registre de Rupea",
+ "sous_titre": "Des pages entieres de noms, de dates et de griefs, de la main d'Anselm. Les envoyes qui l'ont apercu en parlent avec un frisson. Il ne quitte pas la chambre du maitre.",
+ "type": "registre",
+ "embleme": "📕",
+ "couleur": "#3a2a2a",
+ "tenu_par": "anselm",
+ "office": "Ce qu'on a fait a Rupea — et, a la derniere page, ce que Rupea doit",
+ "lieu_id": "rupea",
+ "salle_id": "chambre-anselm",
+ "lecteurs": [
+  "anselm"
+ ],
+ "maison_id": "maison-rupea",
+ "tables": [
+  {
+   "titre": "Ce qu'on a fait a Rupea",
+   "colonnes": [
+    "Qui",
+    "Quoi",
+    "Quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**Un seigneur voile, sans nom**",
+      "A detruit Hedwig la Grise dans la cour",
+      "une nuit sans lune, il y a plus d'un siecle"
+     ]
+    },
+    {
+     "cellules": [
+      "**Un Voile de l'est**",
+      "A detruit Margit par malediction, apres la veine refusee",
+      "il y a un siecle"
+     ]
+    },
+    {
+     "cellules": [
+      "**Radomir, dit la Criniere**",
+      "M'a bu dans les bois de Comăna",
+      "il y a huit ans"
+     ]
+    },
+    {
+     "cellules": [
+      "**Odorheiu**",
+      "Veine proposee par son envoye, refusee",
+      "il y a quinze ans"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "La derniere page",
+   "colonnes": [
+    "L'enfant",
+    "Ce que je lui dois"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**Margit**",
+      "Je l'ai montree au monde."
+     ]
+    },
+    {
+     "cellules": [
+      "**Konstantin**",
+      "Je l'ai chasse le soir de son premier hiver."
+     ]
+    },
+    {
+     "cellules": [
+      "**Ilka**",
+      "Elle croit que je l'ai renvoyee par peur d'elle."
+     ]
+    },
+    {
+     "cellules": [
+      "**Teodor**",
+      "Je l'ai garde pour qu'on le regarde, lui, et pas les autres."
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4749 @@
+{
+ "$schema": "../schemas/map/map.schema.json",
+ "version": 2,
+ "generator": "tools/realmap/export_map.py",
+ "seed": 1,
+ "width": 2000,
+ "height": 1400,
+ "rivers": [
+  {
+   "key": "tarnava",
+   "name": "Târnava"
+  }
+ ],
+ "towns": [
+  {
+   "id": 0,
+   "name": "Mediaș",
+   "level": 1,
+   "x": 432.1,
+   "y": 824.3
+  },
+  {
+   "id": 1,
+   "name": "Odorheiu Secuiesc",
+   "level": 1,
+   "x": 1648.0,
+   "y": 562.3
+  },
+  {
+   "id": 2,
+   "name": "Sighișoara",
+   "level": 1,
+   "x": 1004.4,
+   "y": 718.1
+  },
+  {
+   "id": 3,
+   "name": "Târgu Mureș",
+   "level": 1,
+   "x": 706.4,
+   "y": 120.4
+  },
+  {
+   "id": 4,
+   "name": "Târnăveni",
+   "level": 1,
+   "x": 346.2,
+   "y": 516.7
+  },
+  {
+   "id": 5,
+   "name": "Agnita",
+   "level": 2,
+   "x": 786.2,
+   "y": 1170.3
+  },
+  {
+   "id": 6,
+   "name": "Copșa Mică",
+   "level": 2,
+   "x": 279.2,
+   "y": 916.8
+  },
+  {
+   "id": 7,
+   "name": "Cristuru Secuiesc",
+   "level": 2,
+   "x": 1308.6,
+   "y": 592.0
+  },
+  {
+   "id": 8,
+   "name": "Dumbrăveni",
+   "level": 2,
+   "x": 725.6,
+   "y": 709.9
+  },
+  {
+   "id": 9,
+   "name": "Iernut",
+   "level": 2,
+   "x": 282.3,
+   "y": 294.4
+  },
+  {
+   "id": 10,
+   "name": "Luduș",
+   "level": 2,
+   "x": 108.3,
+   "y": 233.4
+  },
+  {
+   "id": 11,
+   "name": "Miercurea Nirajului",
+   "level": 2,
+   "x": 1012.6,
+   "y": 139.4
+  },
+  {
+   "id": 12,
+   "name": "Ocna Sibiului",
+   "level": 2,
+   "x": 60.3,
+   "y": 1343.9
+  },
+  {
+   "id": 13,
+   "name": "Rupea",
+   "level": 2,
+   "x": 1552.6,
+   "y": 1053.0
+  },
+  {
+   "id": 14,
+   "name": "Sovata",
+   "level": 2,
+   "x": 1363.5,
+   "y": 23.7
+  },
+  {
+   "id": 15,
+   "name": "Sângeorgiu de Pădure",
+   "level": 2,
+   "x": 1066.9,
+   "y": 328.9
+  },
+  {
+   "id": 16,
+   "name": "Ungheni",
+   "level": 2,
+   "x": 573.2,
+   "y": 233.1
+  },
+  {
+   "id": 17,
+   "name": "Vlăhița",
+   "level": 2,
+   "x": 1949.2,
+   "y": 489.0
+  },
+  {
+   "id": 18,
+   "name": "Adrianu Mic",
+   "level": 3,
+   "x": 1000.7,
+   "y": 201.1
+  },
+  {
+   "id": 19,
+   "name": "Adămuș",
+   "level": 3,
+   "x": 289.4,
+   "y": 563.3
+  },
+  {
+   "id": 20,
+   "name": "Agârbiciu",
+   "level": 3,
+   "x": 231.8,
+   "y": 998.4
+  },
+  {
+   "id": 21,
+   "name": "Albi",
+   "level": 3,
+   "x": 302.8,
+   "y": 1241.7
+  },
+  {
+   "id": 22,
+   "name": "Alma",
+   "level": 3,
+   "x": 601.2,
+   "y": 730.5
+  },
+  {
+   "id": 23,
+   "name": "Alma Vii",
+   "level": 3,
+   "x": 542.1,
+   "y": 1035.4
+  },
+  {
+   "id": 24,
+   "name": "Alțâna",
+   "level": 3,
+   "x": 580.1,
+   "y": 1252.2
+  },
+  {
+   "id": 25,
+   "name": "Apața",
+   "level": 3,
+   "x": 1953.5,
+   "y": 1215.0
+  },
+  {
+   "id": 26,
+   "name": "Apold",
+   "level": 3,
+   "x": 1038.9,
+   "y": 889.1
+  },
+  {
+   "id": 27,
+   "name": "Apoș",
+   "level": 3,
+   "x": 696.6,
+   "y": 1068.8
+  },
+  {
+   "id": 28,
+   "name": "Archita",
+   "level": 3,
+   "x": 1381.3,
+   "y": 790.8
+  },
+  {
+   "id": 29,
+   "name": "Atia",
+   "level": 3,
+   "x": 1435.8,
+   "y": 227.0
+  },
+  {
+   "id": 30,
+   "name": "Augustin",
+   "level": 3,
+   "x": 1979.4,
+   "y": 1038.7
+  },
+  {
+   "id": 31,
+   "name": "Avrămești",
+   "level": 3,
+   "x": 1283.2,
+   "y": 499.2
+  },
+  {
+   "id": 32,
+   "name": "Ațintiș",
+   "level": 3,
+   "x": 121.2,
+   "y": 330.3
+  },
+  {
+   "id": 33,
+   "name": "Bahnea",
+   "level": 3,
+   "x": 601.0,
+   "y": 434.7
+  },
+  {
+   "id": 34,
+   "name": "Bazna",
+   "level": 3,
+   "x": 350.0,
+   "y": 754.1
+  },
+  {
+   "id": 35,
+   "name": "Becaș",
+   "level": 3,
+   "x": 1522.8,
+   "y": 171.4
+  },
+  {
+   "id": 36,
+   "name": "Bedeni",
+   "level": 3,
+   "x": 990.7,
+   "y": 262.8
+  },
+  {
+   "id": 37,
+   "name": "Beia",
+   "level": 3,
+   "x": 1505.2,
+   "y": 855.0
+  },
+  {
+   "id": 38,
+   "name": "Benești",
+   "level": 3,
+   "x": 629.4,
+   "y": 1206.6
+  },
+  {
+   "id": 39,
+   "name": "Berghia",
+   "level": 3,
+   "x": 537.6,
+   "y": 129.6
+  },
+  {
+   "id": 40,
+   "name": "Bezid",
+   "level": 3,
+   "x": 1170.5,
+   "y": 375.2
+  },
+  {
+   "id": 41,
+   "name": "Blăjel",
+   "level": 3,
+   "x": 404.8,
+   "y": 739.8
+  },
+  {
+   "id": 42,
+   "name": "Boarta",
+   "level": 3,
+   "x": 242.1,
+   "y": 1109.8
+  },
+  {
+   "id": 43,
+   "name": "Bobohalma",
+   "level": 3,
+   "x": 287.8,
+   "y": 476.8
+  },
+  {
+   "id": 44,
+   "name": "Boian",
+   "level": 3,
+   "x": 279.7,
+   "y": 752.3
+  },
+  {
+   "id": 45,
+   "name": "Bolintineni",
+   "level": 3,
+   "x": 901.3,
+   "y": 216.5
+  },
+  {
+   "id": 46,
+   "name": "Botorca",
+   "level": 3,
+   "x": 373.5,
+   "y": 603.0
+  },
+  {
+   "id": 47,
+   "name": "Bozeni",
+   "level": 3,
+   "x": 847.6,
+   "y": 143.4
+  },
+  {
+   "id": 48,
+   "name": "Brădeni",
+   "level": 3,
+   "x": 1048.8,
+   "y": 982.3
+  },
+  {
+   "id": 49,
+   "name": "Budiu Mic",
+   "level": 3,
+   "x": 736.8,
+   "y": 185.7
+  },
+  {
+   "id": 50,
+   "name": "Buia",
+   "level": 3,
+   "x": 339.8,
+   "y": 1172.9
+  },
+  {
+   "id": 51,
+   "name": "Bunești",
+   "level": 3,
+   "x": 1343.3,
+   "y": 927.6
+  },
+  {
+   "id": 52,
+   "name": "Buzd",
+   "level": 3,
+   "x": 509.0,
+   "y": 863.8
+  },
+  {
+   "id": 53,
+   "name": "Bârghiș",
+   "level": 3,
+   "x": 673.4,
+   "y": 1154.3
+  },
+  {
+   "id": 54,
+   "name": "Bârza",
+   "level": 3,
+   "x": 174.0,
+   "y": 66.0
+  },
+  {
+   "id": 55,
+   "name": "Bădeni",
+   "level": 3,
+   "x": 1715.5,
+   "y": 722.5
+  },
+  {
+   "id": 56,
+   "name": "Băgaciu",
+   "level": 3,
+   "x": 465.8,
+   "y": 623.9
+  },
+  {
+   "id": 57,
+   "name": "Băile Homorod",
+   "level": 3,
+   "x": 1872.1,
+   "y": 474.1
+  },
+  {
+   "id": 58,
+   "name": "Bălcaciu",
+   "level": 3,
+   "x": 65.1,
+   "y": 771.4
+  },
+  {
+   "id": 59,
+   "name": "Bărcuț",
+   "level": 3,
+   "x": 1171.4,
+   "y": 1122.0
+  },
+  {
+   "id": 60,
+   "name": "Bărdești",
+   "level": 3,
+   "x": 644.7,
+   "y": 28.5
+  },
+  {
+   "id": 61,
+   "name": "Calbor",
+   "level": 3,
+   "x": 1143.8,
+   "y": 1362.7
+  },
+  {
+   "id": 62,
+   "name": "Calonda",
+   "level": 3,
+   "x": 1548.7,
+   "y": 306.6
+  },
+  {
+   "id": 63,
+   "name": "Capu Dealului",
+   "level": 3,
+   "x": 35.6,
+   "y": 948.8
+  },
+  {
+   "id": 64,
+   "name": "Cața",
+   "level": 3,
+   "x": 1629.2,
+   "y": 958.6
+  },
+  {
+   "id": 65,
+   "name": "Ceie",
+   "level": 3,
+   "x": 1248.8,
+   "y": 268.8
+  },
+  {
+   "id": 66,
+   "name": "Cerghid",
+   "level": 3,
+   "x": 558.7,
+   "y": 360.1
+  },
+  {
+   "id": 67,
+   "name": "Cerghizel",
+   "level": 3,
+   "x": 560.5,
+   "y": 295.1
+  },
+  {
+   "id": 68,
+   "name": "Cetatea de Baltă",
+   "level": 3,
+   "x": 207.6,
+   "y": 666.9
+  },
+  {
+   "id": 69,
+   "name": "Ceuaș",
+   "level": 3,
+   "x": 554.7,
+   "y": 491.7
+  },
+  {
+   "id": 70,
+   "name": "Chendu",
+   "level": 3,
+   "x": 923.9,
+   "y": 410.7
+  },
+  {
+   "id": 71,
+   "name": "Chesler",
+   "level": 3,
+   "x": 228.0,
+   "y": 859.7
+  },
+  {
+   "id": 72,
+   "name": "Chețani",
+   "level": 3,
+   "x": 22.1,
+   "y": 268.3
+  },
+  {
+   "id": 73,
+   "name": "Chibed",
+   "level": 3,
+   "x": 1221.2,
+   "y": 142.1
+  },
+  {
+   "id": 74,
+   "name": "Chinari",
+   "level": 3,
+   "x": 743.0,
+   "y": 8.8
+  },
+  {
+   "id": 75,
+   "name": "Chinușu",
+   "level": 3,
+   "x": 1732.6,
+   "y": 649.2
+  },
+  {
+   "id": 76,
+   "name": "Chirpăr",
+   "level": 3,
+   "x": 752.0,
+   "y": 1318.7
+  },
+  {
+   "id": 77,
+   "name": "Cibu",
+   "level": 3,
+   "x": 1017.6,
+   "y": 425.4
+  },
+  {
+   "id": 78,
+   "name": "Cincu",
+   "level": 3,
+   "x": 1016.7,
+   "y": 1279.2
+  },
+  {
+   "id": 79,
+   "name": "Cipăieni",
+   "level": 3,
+   "x": 201.5,
+   "y": 142.8
+  },
+  {
+   "id": 80,
+   "name": "Cipău",
+   "level": 3,
+   "x": 342.8,
+   "y": 297.0
+  },
+  {
+   "id": 81,
+   "name": "Cloașterf",
+   "level": 3,
+   "x": 1264.6,
+   "y": 851.8
+  },
+  {
+   "id": 82,
+   "name": "Cobor",
+   "level": 3,
+   "x": 1335.7,
+   "y": 1223.3
+  },
+  {
+   "id": 83,
+   "name": "Comăna de Jos",
+   "level": 3,
+   "x": 1566.2,
+   "y": 1282.4
+  },
+  {
+   "id": 84,
+   "name": "Comăna de Sus",
+   "level": 3,
+   "x": 1614.2,
+   "y": 1315.8
+  },
+  {
+   "id": 85,
+   "name": "Copșa Mare",
+   "level": 3,
+   "x": 693.0,
+   "y": 877.3
+  },
+  {
+   "id": 86,
+   "name": "Corbești",
+   "level": 3,
+   "x": 744.3,
+   "y": 332.7
+  },
+  {
+   "id": 87,
+   "name": "Cordoș",
+   "level": 3,
+   "x": 15.9,
+   "y": 179.0
+  },
+  {
+   "id": 88,
+   "name": "Coroi",
+   "level": 3,
+   "x": 799.7,
+   "y": 370.1
+  },
+  {
+   "id": 89,
+   "name": "Corund",
+   "level": 3,
+   "x": 1505.1,
+   "y": 255.9
+  },
+  {
+   "id": 90,
+   "name": "Cotuș",
+   "level": 3,
+   "x": 848.2,
+   "y": 63.3
+  },
+  {
+   "id": 91,
+   "name": "Cristești",
+   "level": 3,
+   "x": 617.8,
+   "y": 198.5
+  },
+  {
+   "id": 92,
+   "name": "Criș",
+   "level": 3,
+   "x": 876.6,
+   "y": 859.2
+  },
+  {
+   "id": 93,
+   "name": "Crișeni",
+   "level": 3,
+   "x": 1231.9,
+   "y": 355.7
+  },
+  {
+   "id": 94,
+   "name": "Criț",
+   "level": 3,
+   "x": 1295.4,
+   "y": 900.4
+  },
+  {
+   "id": 95,
+   "name": "Crăciunel",
+   "level": 3,
+   "x": 1824.8,
+   "y": 788.1
+  },
+  {
+   "id": 96,
+   "name": "Cucerdea",
+   "level": 3,
+   "x": 328.3,
+   "y": 381.5
+  },
+  {
+   "id": 97,
+   "name": "Cuciulata",
+   "level": 3,
+   "x": 1622.8,
+   "y": 1227.0
+  },
+  {
+   "id": 98,
+   "name": "Cund",
+   "level": 3,
+   "x": 645.3,
+   "y": 623.2
+  },
+  {
+   "id": 99,
+   "name": "Curciu",
+   "level": 3,
+   "x": 508.9,
+   "y": 673.7
+  },
+  {
+   "id": 100,
+   "name": "Cușmed",
+   "level": 3,
+   "x": 1327.9,
+   "y": 246.7
+  },
+  {
+   "id": 101,
+   "name": "Cădaciu Mare",
+   "level": 3,
+   "x": 1441.7,
+   "y": 473.0
+  },
+  {
+   "id": 102,
+   "name": "Călugăreni",
+   "level": 3,
+   "x": 1783.9,
+   "y": 585.7
+  },
+  {
+   "id": 103,
+   "name": "Călușeri",
+   "level": 3,
+   "x": 932.3,
+   "y": 6.7
+  },
+  {
+   "id": 104,
+   "name": "Căpușu de Câmpie",
+   "level": 3,
+   "x": 389.4,
+   "y": 124.8
+  },
+  {
+   "id": 105,
+   "name": "Dacia",
+   "level": 3,
+   "x": 1463.0,
+   "y": 1106.8
+  },
+  {
+   "id": 106,
+   "name": "Daia",
+   "level": 3,
+   "x": 1667.0,
+   "y": 766.9
+  },
+  {
+   "id": 107,
+   "name": "Daia",
+   "level": 3,
+   "x": 1144.7,
+   "y": 852.8
+  },
+  {
+   "id": 108,
+   "name": "Daia",
+   "level": 3,
+   "x": 580.1,
+   "y": 560.8
+  },
+  {
+   "id": 109,
+   "name": "Deag",
+   "level": 3,
+   "x": 232.9,
+   "y": 406.8
+  },
+  {
+   "id": 110,
+   "name": "Dealu",
+   "level": 3,
+   "x": 1660.0,
+   "y": 396.0
+  },
+  {
+   "id": 111,
+   "name": "Dealu Frumos",
+   "level": 3,
+   "x": 879.3,
+   "y": 1153.7
+  },
+  {
+   "id": 112,
+   "name": "Dileu Nou",
+   "level": 3,
+   "x": 413.2,
+   "y": 270.3
+  },
+  {
+   "id": 113,
+   "name": "Dobeni",
+   "level": 3,
+   "x": 1510.6,
+   "y": 593.5
+  },
+  {
+   "id": 114,
+   "name": "Dopca",
+   "level": 3,
+   "x": 1760.9,
+   "y": 1155.6
+  },
+  {
+   "id": 115,
+   "name": "Drojdii",
+   "level": 3,
+   "x": 1086.1,
+   "y": 117.9
+  },
+  {
+   "id": 116,
+   "name": "Dupuș",
+   "level": 3,
+   "x": 625.4,
+   "y": 844.0
+  },
+  {
+   "id": 117,
+   "name": "Dârjiu",
+   "level": 3,
+   "x": 1524.7,
+   "y": 753.9
+  },
+  {
+   "id": 118,
+   "name": "Dârlos",
+   "level": 3,
+   "x": 517.8,
+   "y": 774.0
+  },
+  {
+   "id": 119,
+   "name": "Dăișoara",
+   "level": 3,
+   "x": 1484.8,
+   "y": 1175.0
+  },
+  {
+   "id": 120,
+   "name": "Dătășeni",
+   "level": 3,
+   "x": 210.7,
+   "y": 249.2
+  },
+  {
+   "id": 121,
+   "name": "Ernea",
+   "level": 3,
+   "x": 667.6,
+   "y": 691.7
+  },
+  {
+   "id": 122,
+   "name": "Ernei",
+   "level": 3,
+   "x": 812.3,
+   "y": 7.8
+  },
+  {
+   "id": 123,
+   "name": "Feliceni",
+   "level": 3,
+   "x": 1626.8,
+   "y": 620.5
+  },
+  {
+   "id": 124,
+   "name": "Felmer",
+   "level": 3,
+   "x": 1285.1,
+   "y": 1255.2
+  },
+  {
+   "id": 125,
+   "name": "Filitelnic",
+   "level": 3,
+   "x": 843.5,
+   "y": 448.8
+  },
+  {
+   "id": 126,
+   "name": "Firtușu",
+   "level": 3,
+   "x": 1459.4,
+   "y": 338.9
+  },
+  {
+   "id": 127,
+   "name": "Firtănuș",
+   "level": 3,
+   "x": 1392.3,
+   "y": 372.8
+  },
+  {
+   "id": 128,
+   "name": "Fișer",
+   "level": 3,
+   "x": 1455.2,
+   "y": 976.8
+  },
+  {
+   "id": 129,
+   "name": "Forțeni",
+   "level": 3,
+   "x": 1576.2,
+   "y": 556.5
+  },
+  {
+   "id": 130,
+   "name": "Fundătura",
+   "level": 3,
+   "x": 42.3,
+   "y": 122.9
+  },
+  {
+   "id": 131,
+   "name": "Fânațele Căpușului",
+   "level": 3,
+   "x": 329.3,
+   "y": 56.2
+  },
+  {
+   "id": 132,
+   "name": "Fântâna Brazilor",
+   "level": 3,
+   "x": 1591.5,
+   "y": 227.9
+  },
+  {
+   "id": 133,
+   "name": "Fântânele",
+   "level": 3,
+   "x": 973.0,
+   "y": 347.3
+  },
+  {
+   "id": 134,
+   "name": "Gaura Sângerului",
+   "level": 3,
+   "x": 147.2,
+   "y": 17.8
+  },
+  {
+   "id": 135,
+   "name": "Gheja",
+   "level": 3,
+   "x": 65.1,
+   "y": 304.1
+  },
+  {
+   "id": 136,
+   "name": "Gherdeal",
+   "level": 3,
+   "x": 928.9,
+   "y": 1384.1
+  },
+  {
+   "id": 137,
+   "name": "Ghijasa de Jos",
+   "level": 3,
+   "x": 490.2,
+   "y": 1270.8
+  },
+  {
+   "id": 138,
+   "name": "Ghindari",
+   "level": 3,
+   "x": 1173.7,
+   "y": 193.6
+  },
+  {
+   "id": 139,
+   "name": "Ghipeș",
+   "level": 3,
+   "x": 1788.6,
+   "y": 641.7
+  },
+  {
+   "id": 140,
+   "name": "Giacăș",
+   "level": 3,
+   "x": 600.4,
+   "y": 676.2
+  },
+  {
+   "id": 141,
+   "name": "Giuluș",
+   "level": 3,
+   "x": 385.8,
+   "y": 383.8
+  },
+  {
+   "id": 142,
+   "name": "Goagiu",
+   "level": 3,
+   "x": 1308.3,
+   "y": 450.8
+  },
+  {
+   "id": 143,
+   "name": "Gogan",
+   "level": 3,
+   "x": 649.8,
+   "y": 562.0
+  },
+  {
+   "id": 144,
+   "name": "Grebenișu de Câmpie",
+   "level": 3,
+   "x": 386.3,
+   "y": 2.2
+  },
+  {
+   "id": 145,
+   "name": "Grânari",
+   "level": 3,
+   "x": 1233.4,
+   "y": 1049.1
+  },
+  {
+   "id": 146,
+   "name": "Gâmbuț",
+   "level": 3,
+   "x": 70.0,
+   "y": 474.5
+  },
+  {
+   "id": 147,
+   "name": "Găbud",
+   "level": 3,
+   "x": 1.0,
+   "y": 369.6
+  },
+  {
+   "id": 148,
+   "name": "Găiești",
+   "level": 3,
+   "x": 847.2,
+   "y": 339.8
+  },
+  {
+   "id": 149,
+   "name": "Gălești",
+   "level": 3,
+   "x": 949.2,
+   "y": 184.0
+  },
+  {
+   "id": 150,
+   "name": "Gănești",
+   "level": 3,
+   "x": 448.8,
+   "y": 507.8
+  },
+  {
+   "id": 151,
+   "name": "Hașag",
+   "level": 3,
+   "x": 92.5,
+   "y": 1164.9
+  },
+  {
+   "id": 152,
+   "name": "Herepea",
+   "level": 3,
+   "x": 185.4,
+   "y": 514.4
+  },
+  {
+   "id": 153,
+   "name": "Hetiur",
+   "level": 3,
+   "x": 970.2,
+   "y": 629.8
+  },
+  {
+   "id": 154,
+   "name": "Hoghiz",
+   "level": 3,
+   "x": 1662.1,
+   "y": 1153.0
+  },
+  {
+   "id": 155,
+   "name": "Homorod",
+   "level": 3,
+   "x": 1627.9,
+   "y": 1047.6
+  },
+  {
+   "id": 156,
+   "name": "Hălmeag",
+   "level": 3,
+   "x": 1439.2,
+   "y": 1370.0
+  },
+  {
+   "id": 157,
+   "name": "Hărănglab",
+   "level": 3,
+   "x": 519.2,
+   "y": 562.3
+  },
+  {
+   "id": 158,
+   "name": "Iacobeni",
+   "level": 3,
+   "x": 905.1,
+   "y": 1029.8
+  },
+  {
+   "id": 159,
+   "name": "Idiciu",
+   "level": 3,
+   "x": 577.9,
+   "y": 614.8
+  },
+  {
+   "id": 160,
+   "name": "Ighișu Nou",
+   "level": 3,
+   "x": 434.4,
+   "y": 918.8
+  },
+  {
+   "id": 161,
+   "name": "Ilieși",
+   "level": 3,
+   "x": 1433.4,
+   "y": 50.5
+  },
+  {
+   "id": 162,
+   "name": "Ilimbav",
+   "level": 3,
+   "x": 659.4,
+   "y": 1361.8
+  },
+  {
+   "id": 163,
+   "name": "Ionești",
+   "level": 3,
+   "x": 1700.2,
+   "y": 829.7
+  },
+  {
+   "id": 164,
+   "name": "Izvoare",
+   "level": 3,
+   "x": 1855.0,
+   "y": 272.8
+  },
+  {
+   "id": 165,
+   "name": "Iștihaza",
+   "level": 3,
+   "x": 121.3,
+   "y": 400.3
+  },
+  {
+   "id": 166,
+   "name": "Jacu",
+   "level": 3,
+   "x": 1031.2,
+   "y": 531.9
+  },
+  {
+   "id": 167,
+   "name": "Jibert",
+   "level": 3,
+   "x": 1362.8,
+   "y": 1116.9
+  },
+  {
+   "id": 168,
+   "name": "Jidvei",
+   "level": 3,
+   "x": 128.2,
+   "y": 713.9
+  },
+  {
+   "id": 169,
+   "name": "Jimbor",
+   "level": 3,
+   "x": 1767.6,
+   "y": 921.9
+  },
+  {
+   "id": 170,
+   "name": "Laslea",
+   "level": 3,
+   "x": 827.9,
+   "y": 745.0
+  },
+  {
+   "id": 171,
+   "name": "Laslău Mic",
+   "level": 3,
+   "x": 698.0,
+   "y": 446.6
+  },
+  {
+   "id": 172,
+   "name": "Laz-Șoimuș",
+   "level": 3,
+   "x": 1246.6,
+   "y": 459.2
+  },
+  {
+   "id": 173,
+   "name": "Leorința",
+   "level": 3,
+   "x": 281.1,
+   "y": 3.2
+  },
+  {
+   "id": 174,
+   "name": "Liban",
+   "level": 3,
+   "x": 1906.7,
+   "y": 133.8
+  },
+  {
+   "id": 175,
+   "name": "Livezeni",
+   "level": 3,
+   "x": 799.0,
+   "y": 109.6
+  },
+  {
+   "id": 176,
+   "name": "Loamneș",
+   "level": 3,
+   "x": 95.1,
+   "y": 1225.8
+  },
+  {
+   "id": 177,
+   "name": "Lodroman",
+   "level": 3,
+   "x": 81.4,
+   "y": 906.5
+  },
+  {
+   "id": 178,
+   "name": "Lovnic",
+   "level": 3,
+   "x": 1280.2,
+   "y": 1151.3
+  },
+  {
+   "id": 179,
+   "name": "Lueta",
+   "level": 3,
+   "x": 1898.1,
+   "y": 619.3
+  },
+  {
+   "id": 180,
+   "name": "Maia",
+   "level": 3,
+   "x": 1074.7,
+   "y": 53.1
+  },
+  {
+   "id": 181,
+   "name": "Malea",
+   "level": 3,
+   "x": 231.2,
+   "y": 50.8
+  },
+  {
+   "id": 182,
+   "name": "Mercheașa",
+   "level": 3,
+   "x": 1700.8,
+   "y": 1001.0
+  },
+  {
+   "id": 183,
+   "name": "Merești",
+   "level": 3,
+   "x": 1860.9,
+   "y": 691.6
+  },
+  {
+   "id": 184,
+   "name": "Metiș",
+   "level": 3,
+   "x": 506.9,
+   "y": 1087.6
+  },
+  {
+   "id": 185,
+   "name": "Meșendorf",
+   "level": 3,
+   "x": 1253.1,
+   "y": 964.2
+  },
+  {
+   "id": 186,
+   "name": "Mica",
+   "level": 3,
+   "x": 515.5,
+   "y": 445.7
+  },
+  {
+   "id": 187,
+   "name": "Mihăileni",
+   "level": 3,
+   "x": 1494.5,
+   "y": 455.2
+  },
+  {
+   "id": 188,
+   "name": "Minele Lueta",
+   "level": 3,
+   "x": 1919.2,
+   "y": 559.3
+  },
+  {
+   "id": 189,
+   "name": "Moardăș",
+   "level": 3,
+   "x": 442.3,
+   "y": 1107.9
+  },
+  {
+   "id": 190,
+   "name": "Morăreni",
+   "level": 3,
+   "x": 1549.7,
+   "y": 465.9
+  },
+  {
+   "id": 191,
+   "name": "Motiș",
+   "level": 3,
+   "x": 426.7,
+   "y": 1012.8
+  },
+  {
+   "id": 192,
+   "name": "Movile",
+   "level": 3,
+   "x": 1002.3,
+   "y": 1082.2
+  },
+  {
+   "id": 193,
+   "name": "Moșna",
+   "level": 3,
+   "x": 494.1,
+   "y": 953.4
+  },
+  {
+   "id": 194,
+   "name": "Moșuni",
+   "level": 3,
+   "x": 939.6,
+   "y": 75.2
+  },
+  {
+   "id": 195,
+   "name": "Mugeni",
+   "level": 3,
+   "x": 1552.3,
+   "y": 649.8
+  },
+  {
+   "id": 196,
+   "name": "Mujna",
+   "level": 3,
+   "x": 1462.4,
+   "y": 742.7
+  },
+  {
+   "id": 197,
+   "name": "Mureni",
+   "level": 3,
+   "x": 1255.6,
+   "y": 699.2
+  },
+  {
+   "id": 198,
+   "name": "Mădărășeni",
+   "level": 3,
+   "x": 315.9,
+   "y": 196.7
+  },
+  {
+   "id": 199,
+   "name": "Măgherani",
+   "level": 3,
+   "x": 1150.3,
+   "y": 85.2
+  },
+  {
+   "id": 200,
+   "name": "Măgheruș",
+   "level": 3,
+   "x": 871.0,
+   "y": 530.6
+  },
+  {
+   "id": 201,
+   "name": "Măieruș",
+   "level": 3,
+   "x": 1963.7,
+   "y": 1309.8
+  },
+  {
+   "id": 202,
+   "name": "Mălâncrav",
+   "level": 3,
+   "x": 818.3,
+   "y": 918.9
+  },
+  {
+   "id": 203,
+   "name": "Mărtiniș",
+   "level": 3,
+   "x": 1771.0,
+   "y": 694.8
+  },
+  {
+   "id": 204,
+   "name": "Mătișeni",
+   "level": 3,
+   "x": 1485.4,
+   "y": 690.7
+  },
+  {
+   "id": 205,
+   "name": "Neaua",
+   "level": 3,
+   "x": 1052.1,
+   "y": 244.8
+  },
+  {
+   "id": 206,
+   "name": "Nemșa",
+   "level": 3,
+   "x": 556.7,
+   "y": 965.3
+  },
+  {
+   "id": 207,
+   "name": "Netuș",
+   "level": 3,
+   "x": 995.7,
+   "y": 1015.8
+  },
+  {
+   "id": 208,
+   "name": "Nicoleni",
+   "level": 3,
+   "x": 1381.9,
+   "y": 499.6
+  },
+  {
+   "id": 209,
+   "name": "Nocrich",
+   "level": 3,
+   "x": 570.0,
+   "y": 1316.4
+  },
+  {
+   "id": 210,
+   "name": "Nou Săsesc",
+   "level": 3,
+   "x": 763.1,
+   "y": 919.4
+  },
+  {
+   "id": 211,
+   "name": "Obrănești",
+   "level": 3,
+   "x": 1643.8,
+   "y": 703.3
+  },
+  {
+   "id": 212,
+   "name": "Ocna de Jos",
+   "level": 3,
+   "x": 1437.0,
+   "y": 157.8
+  },
+  {
+   "id": 213,
+   "name": "Ormeniș",
+   "level": 3,
+   "x": 1983.9,
+   "y": 1115.0
+  },
+  {
+   "id": 214,
+   "name": "Ormeniș",
+   "level": 3,
+   "x": 684.8,
+   "y": 519.0
+  },
+  {
+   "id": 215,
+   "name": "Orosia",
+   "level": 3,
+   "x": 166.6,
+   "y": 282.8
+  },
+  {
+   "id": 216,
+   "name": "Ozd",
+   "level": 3,
+   "x": 140.2,
+   "y": 464.4
+  },
+  {
+   "id": 217,
+   "name": "Paloș",
+   "level": 3,
+   "x": 1568.4,
+   "y": 900.9
+  },
+  {
+   "id": 218,
+   "name": "Pelișor",
+   "level": 3,
+   "x": 647.4,
+   "y": 1038.3
+  },
+  {
+   "id": 219,
+   "name": "Petea",
+   "level": 3,
+   "x": 429.9,
+   "y": 183.3
+  },
+  {
+   "id": 220,
+   "name": "Petecu",
+   "level": 3,
+   "x": 1570.8,
+   "y": 805.5
+  },
+  {
+   "id": 221,
+   "name": "Petiș",
+   "level": 3,
+   "x": 351.7,
+   "y": 1092.9
+  },
+  {
+   "id": 222,
+   "name": "Petrilaca",
+   "level": 3,
+   "x": 173.6,
+   "y": 366.3
+  },
+  {
+   "id": 223,
+   "name": "Poiana Târnavei",
+   "level": 3,
+   "x": 1813.3,
+   "y": 192.8
+  },
+  {
+   "id": 224,
+   "name": "Porumbenii Mici",
+   "level": 3,
+   "x": 1400.8,
+   "y": 622.1
+  },
+  {
+   "id": 225,
+   "name": "Prod",
+   "level": 3,
+   "x": 822.2,
+   "y": 645.9
+  },
+  {
+   "id": 226,
+   "name": "Pădureni",
+   "level": 3,
+   "x": 21.0,
+   "y": 31.0
+  },
+  {
+   "id": 227,
+   "name": "Păltiniș",
+   "level": 3,
+   "x": 1523.5,
+   "y": 401.7
+  },
+  {
+   "id": 228,
+   "name": "Pănet",
+   "level": 3,
+   "x": 589.9,
+   "y": 99.1
+  },
+  {
+   "id": 229,
+   "name": "Racoș",
+   "level": 3,
+   "x": 1794.8,
+   "y": 1078.7
+  },
+  {
+   "id": 230,
+   "name": "Racoșul de Sus",
+   "level": 3,
+   "x": 1972.4,
+   "y": 978.0
+  },
+  {
+   "id": 231,
+   "name": "Retiș",
+   "level": 3,
+   "x": 1078.5,
+   "y": 1043.8
+  },
+  {
+   "id": 232,
+   "name": "Rigmani",
+   "level": 3,
+   "x": 1061.7,
+   "y": 185.8
+  },
+  {
+   "id": 233,
+   "name": "Roadeș",
+   "level": 3,
+   "x": 1410.5,
+   "y": 888.2
+  },
+  {
+   "id": 234,
+   "name": "Roandola",
+   "level": 3,
+   "x": 775.1,
+   "y": 824.8
+  },
+  {
+   "id": 235,
+   "name": "Rodbav",
+   "level": 3,
+   "x": 1112.5,
+   "y": 1286.0
+  },
+  {
+   "id": 236,
+   "name": "Romanești",
+   "level": 3,
+   "x": 423.6,
+   "y": 667.2
+  },
+  {
+   "id": 237,
+   "name": "Rora",
+   "level": 3,
+   "x": 940.1,
+   "y": 707.3
+  },
+  {
+   "id": 238,
+   "name": "Roteni",
+   "level": 3,
+   "x": 861.2,
+   "y": 278.6
+  },
+  {
+   "id": 239,
+   "name": "Roșiori",
+   "level": 3,
+   "x": 107.9,
+   "y": 176.2
+  },
+  {
+   "id": 240,
+   "name": "Rugănești",
+   "level": 3,
+   "x": 1363.7,
+   "y": 562.4
+  },
+  {
+   "id": 241,
+   "name": "Ruja",
+   "level": 3,
+   "x": 818.8,
+   "y": 1104.5
+  },
+  {
+   "id": 242,
+   "name": "Saschiz",
+   "level": 3,
+   "x": 1220.6,
+   "y": 766.1
+  },
+  {
+   "id": 243,
+   "name": "Satu Mare",
+   "level": 3,
+   "x": 1762.0,
+   "y": 494.8
+  },
+  {
+   "id": 244,
+   "name": "Satu Nou",
+   "level": 3,
+   "x": 1804.7,
+   "y": 855.6
+  },
+  {
+   "id": 245,
+   "name": "Satu Nou",
+   "level": 3,
+   "x": 643.6,
+   "y": 282.2
+  },
+  {
+   "id": 246,
+   "name": "Secuieni",
+   "level": 3,
+   "x": 1233.7,
+   "y": 642.3
+  },
+  {
+   "id": 247,
+   "name": "Seleuș",
+   "level": 3,
+   "x": 875.0,
+   "y": 676.2
+  },
+  {
+   "id": 248,
+   "name": "Seliștat",
+   "level": 3,
+   "x": 1093.8,
+   "y": 1148.7
+  },
+  {
+   "id": 249,
+   "name": "Senereuș",
+   "level": 3,
+   "x": 816.6,
+   "y": 511.5
+  },
+  {
+   "id": 250,
+   "name": "Slimnic",
+   "level": 3,
+   "x": 184.1,
+   "y": 1272.8
+  },
+  {
+   "id": 251,
+   "name": "Soroștin",
+   "level": 3,
+   "x": 64.7,
+   "y": 1069.8
+  },
+  {
+   "id": 252,
+   "name": "Stejeriș",
+   "level": 3,
+   "x": 777.3,
+   "y": 241.5
+  },
+  {
+   "id": 253,
+   "name": "Stejărișu",
+   "level": 3,
+   "x": 854.6,
+   "y": 1052.8
+  },
+  {
+   "id": 254,
+   "name": "Sub Cetate",
+   "level": 3,
+   "x": 1772.7,
+   "y": 305.3
+  },
+  {
+   "id": 255,
+   "name": "Sub Pădure",
+   "level": 3,
+   "x": 404.0,
+   "y": 443.6
+  },
+  {
+   "id": 256,
+   "name": "Suveica",
+   "level": 3,
+   "x": 904.8,
+   "y": 324.3
+  },
+  {
+   "id": 257,
+   "name": "Sânbenedic",
+   "level": 3,
+   "x": 50.4,
+   "y": 544.4
+  },
+  {
+   "id": 258,
+   "name": "Sâncel",
+   "level": 3,
+   "x": 1650.1,
+   "y": 259.2
+  },
+  {
+   "id": 259,
+   "name": "Sâncraiu de Mureș",
+   "level": 3,
+   "x": 651.2,
+   "y": 117.4
+  },
+  {
+   "id": 260,
+   "name": "Sângeorgiu de Mureș",
+   "level": 3,
+   "x": 761.6,
+   "y": 61.8
+  },
+  {
+   "id": 261,
+   "name": "Sânmiclăuș",
+   "level": 3,
+   "x": 57.6,
+   "y": 668.6
+  },
+  {
+   "id": 262,
+   "name": "Sânpaul",
+   "level": 3,
+   "x": 1760.1,
+   "y": 771.1
+  },
+  {
+   "id": 263,
+   "name": "Sântana de Mureș",
+   "level": 3,
+   "x": 704.6,
+   "y": 53.9
+  },
+  {
+   "id": 264,
+   "name": "Săcel",
+   "level": 3,
+   "x": 1179.7,
+   "y": 545.9
+  },
+  {
+   "id": 265,
+   "name": "Sădinca",
+   "level": 3,
+   "x": 38.8,
+   "y": 1155.8
+  },
+  {
+   "id": 266,
+   "name": "Sărățeni",
+   "level": 3,
+   "x": 1282.7,
+   "y": 88.5
+  },
+  {
+   "id": 267,
+   "name": "Ticușu Nou",
+   "level": 3,
+   "x": 1502.0,
+   "y": 1273.3
+  },
+  {
+   "id": 268,
+   "name": "Ticușu Vechi",
+   "level": 3,
+   "x": 1400.1,
+   "y": 1254.2
+  },
+  {
+   "id": 269,
+   "name": "Toarcla",
+   "level": 3,
+   "x": 935.8,
+   "y": 1310.4
+  },
+  {
+   "id": 270,
+   "name": "Trei Sate",
+   "level": 3,
+   "x": 1137.3,
+   "y": 246.0
+  },
+  {
+   "id": 271,
+   "name": "Târnava",
+   "level": 3,
+   "x": 364.5,
+   "y": 868.3
+  },
+  {
+   "id": 272,
+   "name": "Târnovița",
+   "level": 3,
+   "x": 1730.6,
+   "y": 439.6
+  },
+  {
+   "id": 273,
+   "name": "Tătârlaua",
+   "level": 3,
+   "x": 200.2,
+   "y": 750.2
+  },
+  {
+   "id": 274,
+   "name": "Tăuni",
+   "level": 3,
+   "x": 155.3,
+   "y": 846.1
+  },
+  {
+   "id": 275,
+   "name": "Tăureni",
+   "level": 3,
+   "x": 90.0,
+   "y": 56.2
+  },
+  {
+   "id": 276,
+   "name": "Uilac",
+   "level": 3,
+   "x": 1100.2,
+   "y": 556.2
+  },
+  {
+   "id": 277,
+   "name": "Ulcani",
+   "level": 3,
+   "x": 1626.6,
+   "y": 461.2
+  },
+  {
+   "id": 278,
+   "name": "Ulieș",
+   "level": 3,
+   "x": 1579.5,
+   "y": 731.3
+  },
+  {
+   "id": 279,
+   "name": "Ungra",
+   "level": 3,
+   "x": 1605.9,
+   "y": 1157.4
+  },
+  {
+   "id": 280,
+   "name": "Ursoaia",
+   "level": 3,
+   "x": 274.7,
+   "y": 111.5
+  },
+  {
+   "id": 281,
+   "name": "Vadu",
+   "level": 3,
+   "x": 989.6,
+   "y": 3.5
+  },
+  {
+   "id": 282,
+   "name": "Vaidacuta",
+   "level": 3,
+   "x": 661.6,
+   "y": 351.8
+  },
+  {
+   "id": 283,
+   "name": "Valea Albeștiului",
+   "level": 3,
+   "x": 1074.8,
+   "y": 728.3
+  },
+  {
+   "id": 284,
+   "name": "Valea Dăii",
+   "level": 3,
+   "x": 1136.1,
+   "y": 712.0
+  },
+  {
+   "id": 285,
+   "name": "Valea Izvoarelor",
+   "level": 3,
+   "x": 470.1,
+   "y": 316.0
+  },
+  {
+   "id": 286,
+   "name": "Valea Lungă",
+   "level": 3,
+   "x": 461.9,
+   "y": 774.2
+  },
+  {
+   "id": 287,
+   "name": "Valea Rece",
+   "level": 3,
+   "x": 417.6,
+   "y": 71.8
+  },
+  {
+   "id": 288,
+   "name": "Valea Viilor",
+   "level": 3,
+   "x": 344.2,
+   "y": 972.9
+  },
+  {
+   "id": 289,
+   "name": "Vecerd",
+   "level": 3,
+   "x": 571.1,
+   "y": 1153.1
+  },
+  {
+   "id": 290,
+   "name": "Velț",
+   "level": 3,
+   "x": 347.0,
+   "y": 682.9
+  },
+  {
+   "id": 291,
+   "name": "Veneția de Jos",
+   "level": 3,
+   "x": 1541.8,
+   "y": 1353.8
+  },
+  {
+   "id": 292,
+   "name": "Veseud",
+   "level": 3,
+   "x": 233.2,
+   "y": 1164.9
+  },
+  {
+   "id": 293,
+   "name": "Veseud",
+   "level": 3,
+   "x": 809.2,
+   "y": 1253.3
+  },
+  {
+   "id": 294,
+   "name": "Veseuș",
+   "level": 3,
+   "x": 169.2,
+   "y": 616.8
+  },
+  {
+   "id": 295,
+   "name": "Vidacut",
+   "level": 3,
+   "x": 1134.7,
+   "y": 500.2
+  },
+  {
+   "id": 296,
+   "name": "Vidrasău",
+   "level": 3,
+   "x": 515.8,
+   "y": 249.0
+  },
+  {
+   "id": 297,
+   "name": "Viișoara",
+   "level": 3,
+   "x": 755.0,
+   "y": 578.2
+  },
+  {
+   "id": 298,
+   "name": "Viscri",
+   "level": 3,
+   "x": 1394.4,
+   "y": 1019.2
+  },
+  {
+   "id": 299,
+   "name": "Vulcan",
+   "level": 3,
+   "x": 1081.7,
+   "y": 849.3
+  },
+  {
+   "id": 300,
+   "name": "Vurpăr",
+   "level": 3,
+   "x": 425.2,
+   "y": 1317.2
+  },
+  {
+   "id": 301,
+   "name": "Vârghiș",
+   "level": 3,
+   "x": 1983.8,
+   "y": 888.3
+  },
+  {
+   "id": 302,
+   "name": "Văleni",
+   "level": 3,
+   "x": 1229.2,
+   "y": 1196.0
+  },
+  {
+   "id": 303,
+   "name": "Vălureni",
+   "level": 3,
+   "x": 683.4,
+   "y": 202.1
+  },
+  {
+   "id": 304,
+   "name": "Vărd",
+   "level": 3,
+   "x": 759.2,
+   "y": 1223.1
+  },
+  {
+   "id": 305,
+   "name": "Vărgata",
+   "level": 3,
+   "x": 1015.6,
+   "y": 56.0
+  },
+  {
+   "id": 306,
+   "name": "Vărșag",
+   "level": 3,
+   "x": 1704.4,
+   "y": 144.5
+  },
+  {
+   "id": 307,
+   "name": "Zlagna",
+   "level": 3,
+   "x": 589.8,
+   "y": 1064.2
+  },
+  {
+   "id": 308,
+   "name": "Zăpodea",
+   "level": 3,
+   "x": 137.1,
+   "y": 127.9
+  },
+  {
+   "id": 309,
+   "name": "Șaeș",
+   "level": 3,
+   "x": 973.3,
+   "y": 836.5
+  },
+  {
+   "id": 310,
+   "name": "Șalcău",
+   "level": 3,
+   "x": 431.3,
+   "y": 1175.1
+  },
+  {
+   "id": 311,
+   "name": "Șeica Mare",
+   "level": 3,
+   "x": 186.9,
+   "y": 1078.2
+  },
+  {
+   "id": 312,
+   "name": "Șeica Mică",
+   "level": 3,
+   "x": 153.5,
+   "y": 1022.8
+  },
+  {
+   "id": 313,
+   "name": "Șicasău",
+   "level": 3,
+   "x": 1867.1,
+   "y": 174.8
+  },
+  {
+   "id": 314,
+   "name": "Șiclod",
+   "level": 3,
+   "x": 1321.8,
+   "y": 170.9
+  },
+  {
+   "id": 315,
+   "name": "Șilea Nirajului",
+   "level": 3,
+   "x": 1170.9,
+   "y": 20.5
+  },
+  {
+   "id": 316,
+   "name": "Șoard",
+   "level": 3,
+   "x": 1174.8,
+   "y": 639.2
+  },
+  {
+   "id": 317,
+   "name": "Șoarș",
+   "level": 3,
+   "x": 1179.8,
+   "y": 1255.6
+  },
+  {
+   "id": 318,
+   "name": "Șoimuș",
+   "level": 3,
+   "x": 739.6,
+   "y": 398.1
+  },
+  {
+   "id": 319,
+   "name": "Șomartin",
+   "level": 3,
+   "x": 846.6,
+   "y": 1390.9
+  },
+  {
+   "id": 320,
+   "name": "Șomoștelnic",
+   "level": 3,
+   "x": 480.8,
+   "y": 402.0
+  },
+  {
+   "id": 321,
+   "name": "Șona",
+   "level": 3,
+   "x": 6.9,
+   "y": 719.8
+  },
+  {
+   "id": 322,
+   "name": "Șura Mare",
+   "level": 3,
+   "x": 203.9,
+   "y": 1394.8
+  },
+  {
+   "id": 323,
+   "name": "Șăușa",
+   "level": 3,
+   "x": 494.7,
+   "y": 195.7
+  },
+  {
+   "id": 324,
+   "name": "Țapu",
+   "level": 3,
+   "x": 105.8,
+   "y": 987.7
+  },
+  {
+   "id": 325,
+   "name": "Țeline",
+   "level": 3,
+   "x": 1146.9,
+   "y": 984.8
+  },
+  {
+   "id": 326,
+   "name": "Țichindeal",
+   "level": 3,
+   "x": 487.8,
+   "y": 1364.8
+  },
+  {
+   "id": 327,
+   "name": "Țigmandru",
+   "level": 3,
+   "x": 905.5,
+   "y": 469.6
+  },
+  {
+   "id": 328,
+   "name": "Țiptelnic",
+   "level": 3,
+   "x": 515.0,
+   "y": 47.8
+  },
+  {
+   "id": 329,
+   "name": "Țopa",
+   "level": 3,
+   "x": 1117.6,
+   "y": 655.0
+  }
+ ],
+ "sites": [
+  {
+   "id": 0,
+   "type": "ruin",
+   "name": "Odorheiu Secuiesc 1",
+   "x": 1697,
+   "y": 599,
+   "terrain": "LivingForest",
+   "town": 1
+  },
+  {
+   "id": 1,
+   "type": "barrow",
+   "name": "Sighișoara 1",
+   "x": 971,
+   "y": 773,
+   "terrain": "Plains",
+   "town": 2
+  },
+  {
+   "id": 2,
+   "type": "necropolis",
+   "name": "Agnita 1",
+   "x": 751,
+   "y": 1111,
+   "terrain": "Plains",
+   "town": 5
+  },
+  {
+   "id": 3,
+   "type": "dead_grove",
+   "name": "Cristuru Secuiesc 1",
+   "x": 1247,
+   "y": 561,
+   "terrain": "Plains",
+   "town": 7
+  },
+  {
+   "id": 4,
+   "type": "barrow",
+   "name": "Dumbrăveni 1",
+   "x": 715,
+   "y": 639,
+   "terrain": "LivingForest",
+   "town": 8
+  },
+  {
+   "id": 5,
+   "type": "cemetery",
+   "name": "Dumbrăveni 2",
+   "x": 787,
+   "y": 695,
+   "terrain": "Plains",
+   "town": 8
+  },
+  {
+   "id": 6,
+   "type": "cemetery",
+   "name": "Iernut 1",
+   "x": 223,
+   "y": 323,
+   "terrain": "Plains",
+   "town": 9
+  },
+  {
+   "id": 7,
+   "type": "crypt",
+   "name": "Iernut 2",
+   "x": 273,
+   "y": 357,
+   "terrain": "Plains",
+   "town": 9
+  },
+  {
+   "id": 8,
+   "type": "ruin",
+   "name": "Ocna Sibiului 1",
+   "x": 115,
+   "y": 1295,
+   "terrain": "Plains",
+   "town": 12
+  },
+  {
+   "id": 9,
+   "type": "cemetery",
+   "name": "Ocna Sibiului 2",
+   "x": 1,
+   "y": 1325,
+   "terrain": "Plains",
+   "town": 12
+  },
+  {
+   "id": 10,
+   "type": "enslaved_village",
+   "name": "Ocna Sibiului 3",
+   "x": 111,
+   "y": 1379,
+   "terrain": "LivingForest",
+   "town": 12
+  },
+  {
+   "id": 11,
+   "type": "crypt",
+   "name": "Ocna Sibiului 4",
+   "x": 1,
+   "y": 1399,
+   "terrain": "LivingForest",
+   "town": 12
+  },
+  {
+   "id": 12,
+   "type": "ruin",
+   "name": "Rupea 1",
+   "x": 1525,
+   "y": 1107,
+   "terrain": "Plains",
+   "town": 13
+  },
+  {
+   "id": 13,
+   "type": "enslaved_village",
+   "name": "Sovata 1",
+   "x": 1281,
+   "y": 5,
+   "terrain": "LivingForest",
+   "town": 14
+  },
+  {
+   "id": 14,
+   "type": "enslaved_village",
+   "name": "Vlăhița 1",
+   "x": 1991,
+   "y": 351,
+   "terrain": "LivingForest",
+   "town": 17
+  },
+  {
+   "id": 15,
+   "type": "cemetery",
+   "name": "Vlăhița 2",
+   "x": 1929,
+   "y": 425,
+   "terrain": "Plains",
+   "town": 17
+  },
+  {
+   "id": 16,
+   "type": "crypt",
+   "name": "Vlăhița 3",
+   "x": 1999,
+   "y": 429,
+   "terrain": "Plains",
+   "town": 17
+  },
+  {
+   "id": 17,
+   "type": "enslaved_village",
+   "name": "Vlăhița 4",
+   "x": 1969,
+   "y": 551,
+   "terrain": "LivingForest",
+   "town": 17
+  },
+  {
+   "id": 18,
+   "type": "cemetery",
+   "name": "Agârbiciu 1",
+   "x": 299,
+   "y": 1033,
+   "terrain": "LivingForest",
+   "town": 20
+  },
+  {
+   "id": 19,
+   "type": "necropolis",
+   "name": "Alma 1",
+   "x": 543,
+   "y": 721,
+   "terrain": "Plains",
+   "town": 22
+  },
+  {
+   "id": 20,
+   "type": "ruin",
+   "name": "Alma 2",
+   "x": 691,
+   "y": 789,
+   "terrain": "LivingForest",
+   "town": 22
+  },
+  {
+   "id": 21,
+   "type": "lair",
+   "name": "Apața 1",
+   "x": 1903,
+   "y": 1151,
+   "terrain": "LivingForest",
+   "town": 25
+  },
+  {
+   "id": 22,
+   "type": "cemetery",
+   "name": "Apața 2",
+   "x": 1999,
+   "y": 1175,
+   "terrain": "Plains",
+   "town": 25
+  },
+  {
+   "id": 23,
+   "type": "cemetery",
+   "name": "Apața 3",
+   "x": 1855,
+   "y": 1217,
+   "terrain": "Plains",
+   "town": 25
+  },
+  {
+   "id": 24,
+   "type": "cemetery",
+   "name": "Apața 4",
+   "x": 1999,
+   "y": 1255,
+   "terrain": "Plains",
+   "town": 25
+  },
+  {
+   "id": 25,
+   "type": "cemetery",
+   "name": "Apața 5",
+   "x": 1999,
+   "y": 1399,
+   "terrain": "Plains",
+   "town": 25
+  },
+  {
+   "id": 26,
+   "type": "necropolis",
+   "name": "Archita 1",
+   "x": 1347,
+   "y": 853,
+   "terrain": "LivingForest",
+   "town": 28
+  },
+  {
+   "id": 27,
+   "type": "enslaved_village",
+   "name": "Atia 1",
+   "x": 1387,
+   "y": 249,
+   "terrain": "LivingForest",
+   "town": 29
+  },
+  {
+   "id": 28,
+   "type": "crypt",
+   "name": "Augustin 1",
+   "x": 1923,
+   "y": 1015,
+   "terrain": "LivingForest",
+   "town": 30
+  },
+  {
+   "id": 29,
+   "type": "crypt",
+   "name": "Becaș 1",
+   "x": 1597,
+   "y": 1,
+   "terrain": "LivingForest",
+   "town": 35
+  },
+  {
+   "id": 30,
+   "type": "lair",
+   "name": "Becaș 2",
+   "x": 1657,
+   "y": 11,
+   "terrain": "LivingForest",
+   "town": 35
+  },
+  {
+   "id": 31,
+   "type": "lair",
+   "name": "Becaș 3",
+   "x": 1551,
+   "y": 117,
+   "terrain": "LivingForest",
+   "town": 35
+  },
+  {
+   "id": 32,
+   "type": "cemetery",
+   "name": "Bedeni 1",
+   "x": 931,
+   "y": 269,
+   "terrain": "Plains",
+   "town": 36
+  },
+  {
+   "id": 33,
+   "type": "crypt",
+   "name": "Berghia 1",
+   "x": 467,
+   "y": 121,
+   "terrain": "Plains",
+   "town": 39
+  },
+  {
+   "id": 34,
+   "type": "ley_node",
+   "name": "Blăjel 1",
+   "x": 463,
+   "y": 713,
+   "terrain": "LivingForest",
+   "town": 41
+  },
+  {
+   "id": 35,
+   "type": "crypt",
+   "name": "Bobohalma 1",
+   "x": 341,
+   "y": 443,
+   "terrain": "LivingForest",
+   "town": 43
+  },
+  {
+   "id": 36,
+   "type": "cemetery",
+   "name": "Boian 1",
+   "x": 259,
+   "y": 697,
+   "terrain": "LivingForest",
+   "town": 44
+  },
+  {
+   "id": 37,
+   "type": "necropolis",
+   "name": "Botorca 1",
+   "x": 429,
+   "y": 569,
+   "terrain": "Plains",
+   "town": 46
+  },
+  {
+   "id": 38,
+   "type": "ley_node",
+   "name": "Bozeni 1",
+   "x": 793,
+   "y": 167,
+   "terrain": "Plains",
+   "town": 47
+  },
+  {
+   "id": 39,
+   "type": "lair",
+   "name": "Brădeni 1",
+   "x": 1109,
+   "y": 919,
+   "terrain": "LivingForest",
+   "town": 48
+  },
+  {
+   "id": 40,
+   "type": "necropolis",
+   "name": "Bunești 1",
+   "x": 1397,
+   "y": 957,
+   "terrain": "Plains",
+   "town": 51
+  },
+  {
+   "id": 41,
+   "type": "necropolis",
+   "name": "Buzd 1",
+   "x": 573,
+   "y": 895,
+   "terrain": "Plains",
+   "town": 52
+  },
+  {
+   "id": 42,
+   "type": "crypt",
+   "name": "Băile Homorod 1",
+   "x": 1889,
+   "y": 371,
+   "terrain": "LivingForest",
+   "town": 57
+  },
+  {
+   "id": 43,
+   "type": "dead_grove",
+   "name": "Băile Homorod 2",
+   "x": 1843,
+   "y": 543,
+   "terrain": "LivingForest",
+   "town": 57
+  },
+  {
+   "id": 44,
+   "type": "enslaved_village",
+   "name": "Bărcuț 1",
+   "x": 1185,
+   "y": 1089,
+   "terrain": "LivingForest",
+   "town": 59
+  },
+  {
+   "id": 45,
+   "type": "ancient_battlefield",
+   "name": "Bărdești 1",
+   "x": 575,
+   "y": 1,
+   "terrain": "LivingForest",
+   "town": 60
+  },
+  {
+   "id": 46,
+   "type": "enslaved_village",
+   "name": "Bărdești 2",
+   "x": 659,
+   "y": 15,
+   "terrain": "LivingForest",
+   "town": 60
+  },
+  {
+   "id": 47,
+   "type": "enslaved_village",
+   "name": "Calbor 1",
+   "x": 1211,
+   "y": 1383,
+   "terrain": "LivingForest",
+   "town": 61
+  },
+  {
+   "id": 48,
+   "type": "crypt",
+   "name": "Calbor 2",
+   "x": 1057,
+   "y": 1399,
+   "terrain": "LivingForest",
+   "town": 61
+  },
+  {
+   "id": 49,
+   "type": "ancient_battlefield",
+   "name": "Calonda 1",
+   "x": 1619,
+   "y": 327,
+   "terrain": "LivingForest",
+   "town": 62
+  },
+  {
+   "id": 50,
+   "type": "cemetery",
+   "name": "Capu Dealului 1",
+   "x": 1,
+   "y": 837,
+   "terrain": "LivingForest",
+   "town": 63
+  },
+  {
+   "id": 51,
+   "type": "enslaved_village",
+   "name": "Capu Dealului 2",
+   "x": 5,
+   "y": 929,
+   "terrain": "LivingForest",
+   "town": 63
+  },
+  {
+   "id": 52,
+   "type": "cemetery",
+   "name": "Capu Dealului 3",
+   "x": 1,
+   "y": 1021,
+   "terrain": "Plains",
+   "town": 63
+  },
+  {
+   "id": 53,
+   "type": "barrow",
+   "name": "Cața 1",
+   "x": 1645,
+   "y": 883,
+   "terrain": "Plains",
+   "town": 64
+  },
+  {
+   "id": 54,
+   "type": "cemetery",
+   "name": "Cața 2",
+   "x": 1587,
+   "y": 1003,
+   "terrain": "Plains",
+   "town": 64
+  },
+  {
+   "id": 55,
+   "type": "necropolis",
+   "name": "Ceie 1",
+   "x": 1259,
+   "y": 201,
+   "terrain": "Plains",
+   "town": 65
+  },
+  {
+   "id": 56,
+   "type": "lair",
+   "name": "Cetatea de Baltă 1",
+   "x": 281,
+   "y": 641,
+   "terrain": "LivingForest",
+   "town": 68
+  },
+  {
+   "id": 57,
+   "type": "enslaved_village",
+   "name": "Chesler 1",
+   "x": 253,
+   "y": 833,
+   "terrain": "LivingForest",
+   "town": 71
+  },
+  {
+   "id": 58,
+   "type": "ruin",
+   "name": "Chesler 2",
+   "x": 177,
+   "y": 931,
+   "terrain": "Plains",
+   "town": 71
+  },
+  {
+   "id": 59,
+   "type": "cemetery",
+   "name": "Chirpăr 1",
+   "x": 679,
+   "y": 1277,
+   "terrain": "Plains",
+   "town": 76
+  },
+  {
+   "id": 60,
+   "type": "enslaved_village",
+   "name": "Chirpăr 2",
+   "x": 757,
+   "y": 1359,
+   "terrain": "LivingForest",
+   "town": 76
+  },
+  {
+   "id": 61,
+   "type": "lair",
+   "name": "Cibu 1",
+   "x": 1127,
+   "y": 323,
+   "terrain": "LivingForest",
+   "town": 77
+  },
+  {
+   "id": 62,
+   "type": "enslaved_village",
+   "name": "Cibu 2",
+   "x": 1087,
+   "y": 371,
+   "terrain": "LivingForest",
+   "town": 77
+  },
+  {
+   "id": 63,
+   "type": "lair",
+   "name": "Cibu 3",
+   "x": 1087,
+   "y": 445,
+   "terrain": "Plains",
+   "town": 77
+  },
+  {
+   "id": 64,
+   "type": "necropolis",
+   "name": "Cibu 4",
+   "x": 971,
+   "y": 471,
+   "terrain": "Plains",
+   "town": 77
+  },
+  {
+   "id": 65,
+   "type": "dead_grove",
+   "name": "Cincu 1",
+   "x": 979,
+   "y": 1183,
+   "terrain": "LivingForest",
+   "town": 78
+  },
+  {
+   "id": 66,
+   "type": "necropolis",
+   "name": "Cincu 2",
+   "x": 1067,
+   "y": 1221,
+   "terrain": "Plains",
+   "town": 78
+  },
+  {
+   "id": 67,
+   "type": "cemetery",
+   "name": "Cincu 3",
+   "x": 959,
+   "y": 1247,
+   "terrain": "LivingForest",
+   "town": 78
+  },
+  {
+   "id": 68,
+   "type": "barrow",
+   "name": "Cipăieni 1",
+   "x": 247,
+   "y": 193,
+   "terrain": "Plains",
+   "town": 79
+  },
+  {
+   "id": 69,
+   "type": "ley_node",
+   "name": "Cipăieni 2",
+   "x": 167,
+   "y": 201,
+   "terrain": "Plains",
+   "town": 79
+  },
+  {
+   "id": 70,
+   "type": "cemetery",
+   "name": "Cloașterf 1",
+   "x": 1301,
+   "y": 777,
+   "terrain": "LivingForest",
+   "town": 81
+  },
+  {
+   "id": 71,
+   "type": "enslaved_village",
+   "name": "Cloașterf 2",
+   "x": 1245,
+   "y": 891,
+   "terrain": "LivingForest",
+   "town": 81
+  },
+  {
+   "id": 72,
+   "type": "cemetery",
+   "name": "Comăna de Jos 1",
+   "x": 1685,
+   "y": 1347,
+   "terrain": "LivingForest",
+   "town": 83
+  },
+  {
+   "id": 73,
+   "type": "ruin",
+   "name": "Comăna de Jos 2",
+   "x": 1745,
+   "y": 1397,
+   "terrain": "LivingForest",
+   "town": 83
+  },
+  {
+   "id": 74,
+   "type": "crypt",
+   "name": "Comăna de Sus 1",
+   "x": 1757,
+   "y": 1333,
+   "terrain": "LivingForest",
+   "town": 84
+  },
+  {
+   "id": 75,
+   "type": "cemetery",
+   "name": "Copșa Mare 1",
+   "x": 645,
+   "y": 951,
+   "terrain": "Plains",
+   "town": 85
+  },
+  {
+   "id": 76,
+   "type": "enslaved_village",
+   "name": "Cordoș 1",
+   "x": 47,
+   "y": 199,
+   "terrain": "LivingForest",
+   "town": 87
+  },
+  {
+   "id": 77,
+   "type": "necropolis",
+   "name": "Coroi 1",
+   "x": 767,
+   "y": 463,
+   "terrain": "Plains",
+   "town": 88
+  },
+  {
+   "id": 78,
+   "type": "pass_fortress",
+   "name": "Corund 1",
+   "x": 1539,
+   "y": 237,
+   "terrain": "Plains",
+   "town": 89
+  },
+  {
+   "id": 79,
+   "type": "necropolis",
+   "name": "Criș 1",
+   "x": 909,
+   "y": 783,
+   "terrain": "LivingForest",
+   "town": 92
+  },
+  {
+   "id": 80,
+   "type": "cemetery",
+   "name": "Criș 2",
+   "x": 925,
+   "y": 939,
+   "terrain": "LivingForest",
+   "town": 92
+  },
+  {
+   "id": 81,
+   "type": "necropolis",
+   "name": "Crișeni 1",
+   "x": 1183,
+   "y": 301,
+   "terrain": "LivingForest",
+   "town": 93
+  },
+  {
+   "id": 82,
+   "type": "cemetery",
+   "name": "Crișeni 2",
+   "x": 1283,
+   "y": 391,
+   "terrain": "LivingForest",
+   "town": 93
+  },
+  {
+   "id": 83,
+   "type": "necropolis",
+   "name": "Crăciunel 1",
+   "x": 1817,
+   "y": 731,
+   "terrain": "Plains",
+   "town": 95
+  },
+  {
+   "id": 84,
+   "type": "cemetery",
+   "name": "Cuciulata 1",
+   "x": 1543,
+   "y": 1215,
+   "terrain": "LivingForest",
+   "town": 97
+  },
+  {
+   "id": 85,
+   "type": "crypt",
+   "name": "Cuciulata 2",
+   "x": 1663,
+   "y": 1273,
+   "terrain": "LivingForest",
+   "town": 97
+  },
+  {
+   "id": 86,
+   "type": "cemetery",
+   "name": "Cuciulata 3",
+   "x": 1723,
+   "y": 1277,
+   "terrain": "LivingForest",
+   "town": 97
+  },
+  {
+   "id": 87,
+   "type": "lair",
+   "name": "Cușmed 1",
+   "x": 1315,
+   "y": 333,
+   "terrain": "LivingForest",
+   "town": 100
+  },
+  {
+   "id": 88,
+   "type": "enslaved_village",
+   "name": "Călugăreni 1",
+   "x": 1757,
+   "y": 585,
+   "terrain": "LivingForest",
+   "town": 102
+  },
+  {
+   "id": 89,
+   "type": "ruin",
+   "name": "Călușeri 1",
+   "x": 873,
+   "y": 1,
+   "terrain": "Plains",
+   "town": 103
+  },
+  {
+   "id": 90,
+   "type": "lair",
+   "name": "Căpușu de Câmpie 1",
+   "x": 329,
+   "y": 137,
+   "terrain": "LivingForest",
+   "town": 104
+  },
+  {
+   "id": 91,
+   "type": "ancient_battlefield",
+   "name": "Dacia 1",
+   "x": 1411,
+   "y": 1077,
+   "terrain": "Plains",
+   "town": 105
+  },
+  {
+   "id": 92,
+   "type": "cemetery",
+   "name": "Daia 1",
+   "x": 1181,
+   "y": 923,
+   "terrain": "LivingForest",
+   "town": 107
+  },
+  {
+   "id": 93,
+   "type": "dead_grove",
+   "name": "Deag 1",
+   "x": 225,
+   "y": 469,
+   "terrain": "Plains",
+   "town": 109
+  },
+  {
+   "id": 94,
+   "type": "pass_fortress",
+   "name": "Dealu 1",
+   "x": 1647,
+   "y": 395,
+   "terrain": "Plains",
+   "town": 110
+  },
+  {
+   "id": 95,
+   "type": "necropolis",
+   "name": "Dealu Frumos 1",
+   "x": 931,
+   "y": 1099,
+   "terrain": "Plains",
+   "town": 111
+  },
+  {
+   "id": 96,
+   "type": "enslaved_village",
+   "name": "Dealu Frumos 2",
+   "x": 861,
+   "y": 1159,
+   "terrain": "LivingForest",
+   "town": 111
+  },
+  {
+   "id": 97,
+   "type": "ruin",
+   "name": "Dealu Frumos 3",
+   "x": 893,
+   "y": 1237,
+   "terrain": "LivingForest",
+   "town": 111
+  },
+  {
+   "id": 98,
+   "type": "necropolis",
+   "name": "Dobeni 1",
+   "x": 1441,
+   "y": 555,
+   "terrain": "LivingForest",
+   "town": 113
+  },
+  {
+   "id": 99,
+   "type": "enslaved_village",
+   "name": "Dopca 1",
+   "x": 1825,
+   "y": 1125,
+   "terrain": "LivingForest",
+   "town": 114
+  },
+  {
+   "id": 100,
+   "type": "cemetery",
+   "name": "Dopca 2",
+   "x": 1781,
+   "y": 1229,
+   "terrain": "LivingForest",
+   "town": 114
+  },
+  {
+   "id": 101,
+   "type": "ancient_battlefield",
+   "name": "Drojdii 1",
+   "x": 1119,
+   "y": 167,
+   "terrain": "Plains",
+   "town": 115
+  },
+  {
+   "id": 102,
+   "type": "cemetery",
+   "name": "Dârlos 1",
+   "x": 581,
+   "y": 795,
+   "terrain": "LivingForest",
+   "town": 118
+  },
+  {
+   "id": 103,
+   "type": "enslaved_village",
+   "name": "Dârlos 2",
+   "x": 519,
+   "y": 825,
+   "terrain": "LivingForest",
+   "town": 118
+  },
+  {
+   "id": 104,
+   "type": "cemetery",
+   "name": "Dăișoara 1",
+   "x": 1409,
+   "y": 1179,
+   "terrain": "Plains",
+   "town": 119
+  },
+  {
+   "id": 105,
+   "type": "lair",
+   "name": "Felmer 1",
+   "x": 1337,
+   "y": 1317,
+   "terrain": "LivingForest",
+   "town": 124
+  },
+  {
+   "id": 106,
+   "type": "barrow",
+   "name": "Firtănuș 1",
+   "x": 1375,
+   "y": 311,
+   "terrain": "Plains",
+   "town": 127
+  },
+  {
+   "id": 107,
+   "type": "necropolis",
+   "name": "Fișer 1",
+   "x": 1535,
+   "y": 975,
+   "terrain": "LivingForest",
+   "town": 128
+  },
+  {
+   "id": 108,
+   "type": "cemetery",
+   "name": "Fișer 2",
+   "x": 1485,
+   "y": 1041,
+   "terrain": "Plains",
+   "town": 128
+  },
+  {
+   "id": 109,
+   "type": "lair",
+   "name": "Fântâna Brazilor 1",
+   "x": 1605,
+   "y": 145,
+   "terrain": "LivingForest",
+   "town": 132
+  },
+  {
+   "id": 110,
+   "type": "enslaved_village",
+   "name": "Gherdeal 1",
+   "x": 967,
+   "y": 1377,
+   "terrain": "LivingForest",
+   "town": 136
+  },
+  {
+   "id": 111,
+   "type": "necropolis",
+   "name": "Ghijasa de Jos 1",
+   "x": 505,
+   "y": 1195,
+   "terrain": "Plains",
+   "town": 137
+  },
+  {
+   "id": 112,
+   "type": "ley_node",
+   "name": "Ghijasa de Jos 2",
+   "x": 445,
+   "y": 1233,
+   "terrain": "LivingForest",
+   "town": 137
+  },
+  {
+   "id": 113,
+   "type": "lair",
+   "name": "Ghipeș 1",
+   "x": 1839,
+   "y": 607,
+   "terrain": "Plains",
+   "town": 139
+  },
+  {
+   "id": 114,
+   "type": "enslaved_village",
+   "name": "Goagiu 1",
+   "x": 1285,
+   "y": 455,
+   "terrain": "LivingForest",
+   "town": 142
+  },
+  {
+   "id": 115,
+   "type": "cemetery",
+   "name": "Gogan 1",
+   "x": 621,
+   "y": 499,
+   "terrain": "LivingForest",
+   "town": 143
+  },
+  {
+   "id": 116,
+   "type": "enslaved_village",
+   "name": "Grebenișu de Câmpie 1",
+   "x": 379,
+   "y": 23,
+   "terrain": "LivingForest",
+   "town": 144
+  },
+  {
+   "id": 117,
+   "type": "cemetery",
+   "name": "Gâmbuț 1",
+   "x": 1,
+   "y": 445,
+   "terrain": "Plains",
+   "town": 146
+  },
+  {
+   "id": 118,
+   "type": "ruin",
+   "name": "Găiești 1",
+   "x": 799,
+   "y": 299,
+   "terrain": "Plains",
+   "town": 148
+  },
+  {
+   "id": 119,
+   "type": "enslaved_village",
+   "name": "Gănești 1",
+   "x": 479,
+   "y": 525,
+   "terrain": "LivingForest",
+   "town": 150
+  },
+  {
+   "id": 120,
+   "type": "cemetery",
+   "name": "Hașag 1",
+   "x": 147,
+   "y": 1129,
+   "terrain": "LivingForest",
+   "town": 151
+  },
+  {
+   "id": 121,
+   "type": "cemetery",
+   "name": "Herepea 1",
+   "x": 243,
+   "y": 525,
+   "terrain": "LivingForest",
+   "town": 152
+  },
+  {
+   "id": 122,
+   "type": "crypt",
+   "name": "Herepea 2",
+   "x": 121,
+   "y": 541,
+   "terrain": "Plains",
+   "town": 152
+  },
+  {
+   "id": 123,
+   "type": "enslaved_village",
+   "name": "Herepea 3",
+   "x": 189,
+   "y": 575,
+   "terrain": "LivingForest",
+   "town": 152
+  },
+  {
+   "id": 124,
+   "type": "cemetery",
+   "name": "Hoghiz 1",
+   "x": 1711,
+   "y": 1207,
+   "terrain": "Plains",
+   "town": 154
+  },
+  {
+   "id": 125,
+   "type": "ley_node",
+   "name": "Hălmeag 1",
+   "x": 1377,
+   "y": 1363,
+   "terrain": "Plains",
+   "town": 156
+  },
+  {
+   "id": 126,
+   "type": "barrow",
+   "name": "Hălmeag 2",
+   "x": 1327,
+   "y": 1399,
+   "terrain": "Plains",
+   "town": 156
+  },
+  {
+   "id": 127,
+   "type": "cemetery",
+   "name": "Ilieși 1",
+   "x": 1505,
+   "y": 1,
+   "terrain": "Plains",
+   "town": 161
+  },
+  {
+   "id": 128,
+   "type": "enslaved_village",
+   "name": "Ilieși 2",
+   "x": 1509,
+   "y": 65,
+   "terrain": "LivingForest",
+   "town": 161
+  },
+  {
+   "id": 129,
+   "type": "crypt",
+   "name": "Ilimbav 1",
+   "x": 629,
+   "y": 1309,
+   "terrain": "Plains",
+   "town": 162
+  },
+  {
+   "id": 130,
+   "type": "lair",
+   "name": "Ilimbav 2",
+   "x": 595,
+   "y": 1399,
+   "terrain": "Plains",
+   "town": 162
+  },
+  {
+   "id": 131,
+   "type": "lair",
+   "name": "Ilimbav 3",
+   "x": 709,
+   "y": 1399,
+   "terrain": "LivingForest",
+   "town": 162
+  },
+  {
+   "id": 132,
+   "type": "ley_node",
+   "name": "Ionești 1",
+   "x": 1633,
+   "y": 821,
+   "terrain": "Plains",
+   "town": 163
+  },
+  {
+   "id": 133,
+   "type": "enslaved_village",
+   "name": "Ionești 2",
+   "x": 1725,
+   "y": 877,
+   "terrain": "LivingForest",
+   "town": 163
+  },
+  {
+   "id": 134,
+   "type": "cemetery",
+   "name": "Izvoare 1",
+   "x": 1939,
+   "y": 283,
+   "terrain": "LivingForest",
+   "town": 164
+  },
+  {
+   "id": 135,
+   "type": "ruin",
+   "name": "Izvoare 2",
+   "x": 1833,
+   "y": 333,
+   "terrain": "LivingForest",
+   "town": 164
+  },
+  {
+   "id": 136,
+   "type": "crypt",
+   "name": "Iștihaza 1",
+   "x": 55,
+   "y": 407,
+   "terrain": "Plains",
+   "town": 165
+  },
+  {
+   "id": 137,
+   "type": "enslaved_village",
+   "name": "Jacu 1",
+   "x": 1017,
+   "y": 577,
+   "terrain": "LivingForest",
+   "town": 166
+  },
+  {
+   "id": 138,
+   "type": "crypt",
+   "name": "Jibert 1",
+   "x": 1317,
+   "y": 1047,
+   "terrain": "Plains",
+   "town": 167
+  },
+  {
+   "id": 139,
+   "type": "crypt",
+   "name": "Jidvei 1",
+   "x": 137,
+   "y": 781,
+   "terrain": "Plains",
+   "town": 168
+  },
+  {
+   "id": 140,
+   "type": "lair",
+   "name": "Jimbor 1",
+   "x": 1691,
+   "y": 935,
+   "terrain": "LivingForest",
+   "town": 169
+  },
+  {
+   "id": 141,
+   "type": "cemetery",
+   "name": "Jimbor 2",
+   "x": 1827,
+   "y": 937,
+   "terrain": "LivingForest",
+   "town": 169
+  },
+  {
+   "id": 142,
+   "type": "cemetery",
+   "name": "Laslea 1",
+   "x": 763,
+   "y": 761,
+   "terrain": "LivingForest",
+   "town": 170
+  },
+  {
+   "id": 143,
+   "type": "crypt",
+   "name": "Laslea 2",
+   "x": 837,
+   "y": 809,
+   "terrain": "LivingForest",
+   "town": 170
+  },
+  {
+   "id": 144,
+   "type": "crypt",
+   "name": "Liban 1",
+   "x": 1935,
+   "y": 1,
+   "terrain": "LivingForest",
+   "town": 174
+  },
+  {
+   "id": 145,
+   "type": "cemetery",
+   "name": "Liban 2",
+   "x": 1851,
+   "y": 5,
+   "terrain": "Plains",
+   "town": 174
+  },
+  {
+   "id": 146,
+   "type": "enslaved_village",
+   "name": "Liban 3",
+   "x": 1995,
+   "y": 55,
+   "terrain": "LivingForest",
+   "town": 174
+  },
+  {
+   "id": 147,
+   "type": "pass_fortress",
+   "name": "Liban 4",
+   "x": 1909,
+   "y": 79,
+   "terrain": "LivingForest",
+   "town": 174
+  },
+  {
+   "id": 148,
+   "type": "crypt",
+   "name": "Liban 5",
+   "x": 1991,
+   "y": 139,
+   "terrain": "LivingForest",
+   "town": 174
+  },
+  {
+   "id": 149,
+   "type": "lair",
+   "name": "Loamneș 1",
+   "x": 163,
+   "y": 1193,
+   "terrain": "Plains",
+   "town": 176
+  },
+  {
+   "id": 150,
+   "type": "crypt",
+   "name": "Loamneș 2",
+   "x": 1,
+   "y": 1261,
+   "terrain": "Plains",
+   "town": 176
+  },
+  {
+   "id": 151,
+   "type": "ley_node",
+   "name": "Loamneș 3",
+   "x": 59,
+   "y": 1275,
+   "terrain": "Plains",
+   "town": 176
+  },
+  {
+   "id": 152,
+   "type": "ruin",
+   "name": "Lovnic 1",
+   "x": 1277,
+   "y": 1091,
+   "terrain": "Plains",
+   "town": 178
+  },
+  {
+   "id": 153,
+   "type": "ley_node",
+   "name": "Lueta 1",
+   "x": 1957,
+   "y": 609,
+   "terrain": "Plains",
+   "town": 179
+  },
+  {
+   "id": 154,
+   "type": "lair",
+   "name": "Lueta 2",
+   "x": 1999,
+   "y": 651,
+   "terrain": "Plains",
+   "town": 179
+  },
+  {
+   "id": 155,
+   "type": "crypt",
+   "name": "Maia 1",
+   "x": 1111,
+   "y": 1,
+   "terrain": "Plains",
+   "town": 180
+  },
+  {
+   "id": 156,
+   "type": "lair",
+   "name": "Mercheașa 1",
+   "x": 1781,
+   "y": 999,
+   "terrain": "LivingForest",
+   "town": 182
+  },
+  {
+   "id": 157,
+   "type": "barrow",
+   "name": "Merești 1",
+   "x": 1935,
+   "y": 689,
+   "terrain": "Plains",
+   "town": 183
+  },
+  {
+   "id": 158,
+   "type": "ruin",
+   "name": "Merești 2",
+   "x": 1899,
+   "y": 753,
+   "terrain": "Plains",
+   "town": 183
+  },
+  {
+   "id": 159,
+   "type": "ley_node",
+   "name": "Mihăileni 1",
+   "x": 1451,
+   "y": 405,
+   "terrain": "LivingForest",
+   "town": 187
+  },
+  {
+   "id": 160,
+   "type": "enslaved_village",
+   "name": "Mihăileni 2",
+   "x": 1495,
+   "y": 499,
+   "terrain": "LivingForest",
+   "town": 187
+  },
+  {
+   "id": 161,
+   "type": "cemetery",
+   "name": "Motiș 1",
+   "x": 367,
+   "y": 1033,
+   "terrain": "LivingForest",
+   "town": 191
+  },
+  {
+   "id": 162,
+   "type": "crypt",
+   "name": "Movile 1",
+   "x": 1029,
+   "y": 1143,
+   "terrain": "Plains",
+   "town": 192
+  },
+  {
+   "id": 163,
+   "type": "cemetery",
+   "name": "Moșna 1",
+   "x": 487,
+   "y": 1013,
+   "terrain": "LivingForest",
+   "town": 193
+  },
+  {
+   "id": 164,
+   "type": "enslaved_village",
+   "name": "Moșuni 1",
+   "x": 959,
+   "y": 59,
+   "terrain": "LivingForest",
+   "town": 194
+  },
+  {
+   "id": 165,
+   "type": "cemetery",
+   "name": "Moșuni 2",
+   "x": 911,
+   "y": 133,
+   "terrain": "Plains",
+   "town": 194
+  },
+  {
+   "id": 166,
+   "type": "cemetery",
+   "name": "Mujna 1",
+   "x": 1395,
+   "y": 703,
+   "terrain": "LivingForest",
+   "town": 196
+  },
+  {
+   "id": 167,
+   "type": "ancient_battlefield",
+   "name": "Mujna 2",
+   "x": 1447,
+   "y": 815,
+   "terrain": "Plains",
+   "town": 196
+  },
+  {
+   "id": 168,
+   "type": "crypt",
+   "name": "Mureni 1",
+   "x": 1195,
+   "y": 697,
+   "terrain": "Plains",
+   "town": 197
+  },
+  {
+   "id": 169,
+   "type": "enslaved_village",
+   "name": "Mureni 2",
+   "x": 1315,
+   "y": 697,
+   "terrain": "LivingForest",
+   "town": 197
+  },
+  {
+   "id": 170,
+   "type": "enslaved_village",
+   "name": "Mădărășeni 1",
+   "x": 339,
+   "y": 243,
+   "terrain": "LivingForest",
+   "town": 198
+  },
+  {
+   "id": 171,
+   "type": "necropolis",
+   "name": "Măgheruș 1",
+   "x": 897,
+   "y": 603,
+   "terrain": "LivingForest",
+   "town": 200
+  },
+  {
+   "id": 172,
+   "type": "crypt",
+   "name": "Măieruș 1",
+   "x": 1895,
+   "y": 1279,
+   "terrain": "LivingForest",
+   "town": 201
+  },
+  {
+   "id": 173,
+   "type": "pass_fortress",
+   "name": "Măieruș 2",
+   "x": 1829,
+   "y": 1311,
+   "terrain": "LivingForest",
+   "town": 201
+  },
+  {
+   "id": 174,
+   "type": "ley_node",
+   "name": "Măieruș 3",
+   "x": 1947,
+   "y": 1365,
+   "terrain": "Plains",
+   "town": 201
+  },
+  {
+   "id": 175,
+   "type": "enslaved_village",
+   "name": "Măieruș 4",
+   "x": 1889,
+   "y": 1385,
+   "terrain": "LivingForest",
+   "town": 201
+  },
+  {
+   "id": 176,
+   "type": "cemetery",
+   "name": "Măieruș 5",
+   "x": 1817,
+   "y": 1387,
+   "terrain": "LivingForest",
+   "town": 201
+  },
+  {
+   "id": 177,
+   "type": "enslaved_village",
+   "name": "Mălâncrav 1",
+   "x": 789,
+   "y": 889,
+   "terrain": "LivingForest",
+   "town": 202
+  },
+  {
+   "id": 178,
+   "type": "cemetery",
+   "name": "Mălâncrav 2",
+   "x": 853,
+   "y": 981,
+   "terrain": "Plains",
+   "town": 202
+  },
+  {
+   "id": 179,
+   "type": "enslaved_village",
+   "name": "Netuș 1",
+   "x": 1003,
+   "y": 989,
+   "terrain": "LivingForest",
+   "town": 207
+  },
+  {
+   "id": 180,
+   "type": "cemetery",
+   "name": "Nicoleni 1",
+   "x": 1373,
+   "y": 435,
+   "terrain": "Plains",
+   "town": 208
+  },
+  {
+   "id": 181,
+   "type": "ley_node",
+   "name": "Nou Săsesc 1",
+   "x": 713,
+   "y": 971,
+   "terrain": "LivingForest",
+   "town": 210
+  },
+  {
+   "id": 182,
+   "type": "pass_fortress",
+   "name": "Ocna de Jos 1",
+   "x": 1539,
+   "y": 57,
+   "terrain": "LivingForest",
+   "town": 212
+  },
+  {
+   "id": 183,
+   "type": "barrow",
+   "name": "Ocna de Jos 2",
+   "x": 1371,
+   "y": 105,
+   "terrain": "LivingForest",
+   "town": 212
+  },
+  {
+   "id": 184,
+   "type": "ruin",
+   "name": "Ocna de Jos 3",
+   "x": 1487,
+   "y": 121,
+   "terrain": "Plains",
+   "town": 212
+  },
+  {
+   "id": 185,
+   "type": "lair",
+   "name": "Ormeniș 1",
+   "x": 1895,
+   "y": 1069,
+   "terrain": "LivingForest",
+   "town": 213
+  },
+  {
+   "id": 186,
+   "type": "enslaved_village",
+   "name": "Petiș 1",
+   "x": 319,
+   "y": 1105,
+   "terrain": "LivingForest",
+   "town": 221
+  },
+  {
+   "id": 187,
+   "type": "enslaved_village",
+   "name": "Petrilaca 1",
+   "x": 149,
+   "y": 375,
+   "terrain": "LivingForest",
+   "town": 222
+  },
+  {
+   "id": 188,
+   "type": "cemetery",
+   "name": "Porumbenii Mici 1",
+   "x": 1463,
+   "y": 633,
+   "terrain": "Plains",
+   "town": 224
+  },
+  {
+   "id": 189,
+   "type": "crypt",
+   "name": "Porumbenii Mici 2",
+   "x": 1343,
+   "y": 643,
+   "terrain": "Plains",
+   "town": 224
+  },
+  {
+   "id": 190,
+   "type": "dead_grove",
+   "name": "Păltiniș 1",
+   "x": 1585,
+   "y": 381,
+   "terrain": "LivingForest",
+   "town": 227
+  },
+  {
+   "id": 191,
+   "type": "lair",
+   "name": "Racoș 1",
+   "x": 1841,
+   "y": 1043,
+   "terrain": "LivingForest",
+   "town": 229
+  },
+  {
+   "id": 192,
+   "type": "lair",
+   "name": "Racoș 2",
+   "x": 1711,
+   "y": 1085,
+   "terrain": "LivingForest",
+   "town": 229
+  },
+  {
+   "id": 193,
+   "type": "cemetery",
+   "name": "Racoșul de Sus 1",
+   "x": 1915,
+   "y": 953,
+   "terrain": "Plains",
+   "town": 230
+  },
+  {
+   "id": 194,
+   "type": "ruin",
+   "name": "Racoșul de Sus 2",
+   "x": 1861,
+   "y": 987,
+   "terrain": "LivingForest",
+   "town": 230
+  },
+  {
+   "id": 195,
+   "type": "cemetery",
+   "name": "Retiș 1",
+   "x": 1117,
+   "y": 1091,
+   "terrain": "LivingForest",
+   "town": 231
+  },
+  {
+   "id": 196,
+   "type": "enslaved_village",
+   "name": "Roadeș 1",
+   "x": 1461,
+   "y": 921,
+   "terrain": "LivingForest",
+   "town": 233
+  },
+  {
+   "id": 197,
+   "type": "dead_grove",
+   "name": "Rodbav 1",
+   "x": 1061,
+   "y": 1331,
+   "terrain": "LivingForest",
+   "town": 235
+  },
+  {
+   "id": 198,
+   "type": "cemetery",
+   "name": "Ruja 1",
+   "x": 771,
+   "y": 1013,
+   "terrain": "LivingForest",
+   "town": 241
+  },
+  {
+   "id": 199,
+   "type": "crypt",
+   "name": "Saschiz 1",
+   "x": 1151,
+   "y": 783,
+   "terrain": "LivingForest",
+   "town": 242
+  },
+  {
+   "id": 200,
+   "type": "necropolis",
+   "name": "Saschiz 2",
+   "x": 1205,
+   "y": 829,
+   "terrain": "LivingForest",
+   "town": 242
+  },
+  {
+   "id": 201,
+   "type": "ruin",
+   "name": "Satu Mare 1",
+   "x": 1813,
+   "y": 453,
+   "terrain": "Plains",
+   "town": 243
+  },
+  {
+   "id": 202,
+   "type": "cemetery",
+   "name": "Satu Nou 1",
+   "x": 1913,
+   "y": 825,
+   "terrain": "LivingForest",
+   "town": 244
+  },
+  {
+   "id": 203,
+   "type": "dead_grove",
+   "name": "Satu Nou 2",
+   "x": 1877,
+   "y": 903,
+   "terrain": "LivingForest",
+   "town": 244
+  },
+  {
+   "id": 204,
+   "type": "enslaved_village",
+   "name": "Satu Nou 1",
+   "x": 679,
+   "y": 283,
+   "terrain": "LivingForest",
+   "town": 245
+  },
+  {
+   "id": 205,
+   "type": "cemetery",
+   "name": "Slimnic 1",
+   "x": 237,
+   "y": 1231,
+   "terrain": "Plains",
+   "town": 250
+  },
+  {
+   "id": 206,
+   "type": "cemetery",
+   "name": "Slimnic 2",
+   "x": 241,
+   "y": 1327,
+   "terrain": "LivingForest",
+   "town": 250
+  },
+  {
+   "id": 207,
+   "type": "cemetery",
+   "name": "Soroștin 1",
+   "x": 1,
+   "y": 1097,
+   "terrain": "Plains",
+   "town": 251
+  },
+  {
+   "id": 208,
+   "type": "lair",
+   "name": "Stejeriș 1",
+   "x": 835,
+   "y": 209,
+   "terrain": "LivingForest",
+   "town": 252
+  },
+  {
+   "id": 209,
+   "type": "cemetery",
+   "name": "Sub Cetate 1",
+   "x": 1803,
+   "y": 389,
+   "terrain": "Plains",
+   "town": 254
+  },
+  {
+   "id": 210,
+   "type": "enslaved_village",
+   "name": "Suveica 1",
+   "x": 875,
+   "y": 361,
+   "terrain": "LivingForest",
+   "town": 256
+  },
+  {
+   "id": 211,
+   "type": "cemetery",
+   "name": "Sânbenedic 1",
+   "x": 1,
+   "y": 507,
+   "terrain": "Plains",
+   "town": 257
+  },
+  {
+   "id": 212,
+   "type": "lair",
+   "name": "Sâncel 1",
+   "x": 1753,
+   "y": 235,
+   "terrain": "LivingForest",
+   "town": 258
+  },
+  {
+   "id": 213,
+   "type": "enslaved_village",
+   "name": "Sâncel 2",
+   "x": 1687,
+   "y": 289,
+   "terrain": "LivingForest",
+   "town": 258
+  },
+  {
+   "id": 214,
+   "type": "lair",
+   "name": "Sânmiclăuș 1",
+   "x": 95,
+   "y": 605,
+   "terrain": "LivingForest",
+   "town": 261
+  },
+  {
+   "id": 215,
+   "type": "barrow",
+   "name": "Sânmiclăuș 2",
+   "x": 1,
+   "y": 609,
+   "terrain": "Plains",
+   "town": 261
+  },
+  {
+   "id": 216,
+   "type": "crypt",
+   "name": "Săcel 1",
+   "x": 1177,
+   "y": 445,
+   "terrain": "LivingForest",
+   "town": 264
+  },
+  {
+   "id": 217,
+   "type": "enslaved_village",
+   "name": "Sădinca 1",
+   "x": 75,
+   "y": 1123,
+   "terrain": "LivingForest",
+   "town": 265
+  },
+  {
+   "id": 218,
+   "type": "cemetery",
+   "name": "Sădinca 2",
+   "x": 1,
+   "y": 1201,
+   "terrain": "Plains",
+   "town": 265
+  },
+  {
+   "id": 219,
+   "type": "ley_node",
+   "name": "Sărățeni 1",
+   "x": 1217,
+   "y": 71,
+   "terrain": "LivingForest",
+   "town": 266
+  },
+  {
+   "id": 220,
+   "type": "cemetery",
+   "name": "Ticușu Nou 1",
+   "x": 1485,
+   "y": 1331,
+   "terrain": "LivingForest",
+   "town": 267
+  },
+  {
+   "id": 221,
+   "type": "cemetery",
+   "name": "Ticușu Vechi 1",
+   "x": 1457,
+   "y": 1231,
+   "terrain": "LivingForest",
+   "town": 268
+  },
+  {
+   "id": 222,
+   "type": "enslaved_village",
+   "name": "Ticușu Vechi 2",
+   "x": 1419,
+   "y": 1317,
+   "terrain": "LivingForest",
+   "town": 268
+  },
+  {
+   "id": 223,
+   "type": "crypt",
+   "name": "Târnava 1",
+   "x": 321,
+   "y": 817,
+   "terrain": "LivingForest",
+   "town": 271
+  },
+  {
+   "id": 224,
+   "type": "ruin",
+   "name": "Târnovița 1",
+   "x": 1727,
+   "y": 363,
+   "terrain": "Plains",
+   "town": 272
+  },
+  {
+   "id": 225,
+   "type": "ley_node",
+   "name": "Tăuni 1",
+   "x": 85,
+   "y": 837,
+   "terrain": "Plains",
+   "town": 274
+  },
+  {
+   "id": 226,
+   "type": "ruin",
+   "name": "Tăureni 1",
+   "x": 73,
+   "y": 1,
+   "terrain": "Plains",
+   "town": 275
+  },
+  {
+   "id": 227,
+   "type": "crypt",
+   "name": "Ulcani 1",
+   "x": 1689,
+   "y": 501,
+   "terrain": "LivingForest",
+   "town": 277
+  },
+  {
+   "id": 228,
+   "type": "enslaved_village",
+   "name": "Ulieș 1",
+   "x": 1563,
+   "y": 717,
+   "terrain": "LivingForest",
+   "town": 278
+  },
+  {
+   "id": 229,
+   "type": "enslaved_village",
+   "name": "Ungra 1",
+   "x": 1569,
+   "y": 1149,
+   "terrain": "LivingForest",
+   "town": 279
+  },
+  {
+   "id": 230,
+   "type": "cemetery",
+   "name": "Valea Izvoarelor 1",
+   "x": 407,
+   "y": 329,
+   "terrain": "Plains",
+   "town": 285
+  },
+  {
+   "id": 231,
+   "type": "enslaved_village",
+   "name": "Veneția de Jos 1",
+   "x": 1623,
+   "y": 1395,
+   "terrain": "LivingForest",
+   "town": 291
+  },
+  {
+   "id": 232,
+   "type": "crypt",
+   "name": "Veneția de Jos 2",
+   "x": 1497,
+   "y": 1399,
+   "terrain": "Plains",
+   "town": 291
+  },
+  {
+   "id": 233,
+   "type": "dead_grove",
+   "name": "Viișoara 1",
+   "x": 745,
+   "y": 519,
+   "terrain": "LivingForest",
+   "town": 297
+  },
+  {
+   "id": 234,
+   "type": "enslaved_village",
+   "name": "Viișoara 2",
+   "x": 799,
+   "y": 595,
+   "terrain": "LivingForest",
+   "town": 297
+  },
+  {
+   "id": 235,
+   "type": "necropolis",
+   "name": "Viscri 1",
+   "x": 1313,
+   "y": 983,
+   "terrain": "LivingForest",
+   "town": 298
+  },
+  {
+   "id": 236,
+   "type": "enslaved_village",
+   "name": "Vulcan 1",
+   "x": 1065,
+   "y": 789,
+   "terrain": "LivingForest",
+   "town": 299
+  },
+  {
+   "id": 237,
+   "type": "crypt",
+   "name": "Vurpăr 1",
+   "x": 385,
+   "y": 1245,
+   "terrain": "LivingForest",
+   "town": 300
+  },
+  {
+   "id": 238,
+   "type": "enslaved_village",
+   "name": "Vurpăr 2",
+   "x": 319,
+   "y": 1321,
+   "terrain": "LivingForest",
+   "town": 300
+  },
+  {
+   "id": 239,
+   "type": "crypt",
+   "name": "Vurpăr 3",
+   "x": 375,
+   "y": 1399,
+   "terrain": "Plains",
+   "town": 300
+  },
+  {
+   "id": 240,
+   "type": "enslaved_village",
+   "name": "Vârghiș 1",
+   "x": 1975,
+   "y": 753,
+   "terrain": "LivingForest",
+   "town": 301
+  },
+  {
+   "id": 241,
+   "type": "cemetery",
+   "name": "Vârghiș 2",
+   "x": 1999,
+   "y": 819,
+   "terrain": "LivingForest",
+   "town": 301
+  },
+  {
+   "id": 242,
+   "type": "necropolis",
+   "name": "Vărd 1",
+   "x": 695,
+   "y": 1215,
+   "terrain": "Plains",
+   "town": 304
+  },
+  {
+   "id": 243,
+   "type": "enslaved_village",
+   "name": "Vărșag 1",
+   "x": 1719,
+   "y": 7,
+   "terrain": "LivingForest",
+   "town": 306
+  },
+  {
+   "id": 244,
+   "type": "ruin",
+   "name": "Vărșag 2",
+   "x": 1785,
+   "y": 17,
+   "terrain": "LivingForest",
+   "town": 306
+  },
+  {
+   "id": 245,
+   "type": "barrow",
+   "name": "Vărșag 3",
+   "x": 1639,
+   "y": 69,
+   "terrain": "LivingForest",
+   "town": 306
+  },
+  {
+   "id": 246,
+   "type": "cemetery",
+   "name": "Vărșag 4",
+   "x": 1727,
+   "y": 77,
+   "terrain": "LivingForest",
+   "town": 306
+  },
+  {
+   "id": 247,
+   "type": "crypt",
+   "name": "Vărșag 5",
+   "x": 1799,
+   "y": 83,
+   "terrain": "LivingForest",
+   "town": 306
+  },
+  {
+   "id": 248,
+   "type": "crypt",
+   "name": "Vărșag 6",
+   "x": 1771,
+   "y": 143,
+   "terrain": "LivingForest",
+   "town": 306
+  },
+  {
+   "id": 249,
+   "type": "pass_fortress",
+   "name": "Vărșag 7",
+   "x": 1689,
+   "y": 201,
+   "terrain": "LivingForest",
+   "town": 306
+  },
+  {
+   "id": 250,
+   "type": "enslaved_village",
+   "name": "Zlagna 1",
+   "x": 589,
+   "y": 1099,
+   "terrain": "LivingForest",
+   "town": 307
+  },
+  {
+   "id": 251,
+   "type": "dead_grove",
+   "name": "Șaeș 1",
+   "x": 977,
+   "y": 903,
+   "terrain": "LivingForest",
+   "town": 309
+  },
+  {
+   "id": 252,
+   "type": "cemetery",
+   "name": "Șicasău 1",
+   "x": 1849,
+   "y": 117,
+   "terrain": "LivingForest",
+   "town": 313
+  },
+  {
+   "id": 253,
+   "type": "enslaved_village",
+   "name": "Șicasău 2",
+   "x": 1861,
+   "y": 199,
+   "terrain": "LivingForest",
+   "town": 313
+  },
+  {
+   "id": 254,
+   "type": "ley_node",
+   "name": "Șicasău 3",
+   "x": 1931,
+   "y": 205,
+   "terrain": "LivingForest",
+   "town": 313
+  },
+  {
+   "id": 255,
+   "type": "crypt",
+   "name": "Șicasău 4",
+   "x": 1999,
+   "y": 223,
+   "terrain": "LivingForest",
+   "town": 313
+  },
+  {
+   "id": 256,
+   "type": "dead_grove",
+   "name": "Șiclod 1",
+   "x": 1381,
+   "y": 187,
+   "terrain": "LivingForest",
+   "town": 314
+  },
+  {
+   "id": 257,
+   "type": "barrow",
+   "name": "Șoarș 1",
+   "x": 1149,
+   "y": 1191,
+   "terrain": "Plains",
+   "town": 317
+  },
+  {
+   "id": 258,
+   "type": "crypt",
+   "name": "Șoarș 2",
+   "x": 1233,
+   "y": 1311,
+   "terrain": "Plains",
+   "town": 317
+  },
+  {
+   "id": 259,
+   "type": "crypt",
+   "name": "Șoarș 3",
+   "x": 1273,
+   "y": 1363,
+   "terrain": "LivingForest",
+   "town": 317
+  },
+  {
+   "id": 260,
+   "type": "ley_node",
+   "name": "Șomartin 1",
+   "x": 857,
+   "y": 1313,
+   "terrain": "LivingForest",
+   "town": 319
+  },
+  {
+   "id": 261,
+   "type": "crypt",
+   "name": "Șona 1",
+   "x": 1,
+   "y": 777,
+   "terrain": "Plains",
+   "town": 321
+  },
+  {
+   "id": 262,
+   "type": "cemetery",
+   "name": "Șura Mare 1",
+   "x": 165,
+   "y": 1339,
+   "terrain": "Plains",
+   "town": 322
+  },
+  {
+   "id": 263,
+   "type": "cemetery",
+   "name": "Șura Mare 2",
+   "x": 287,
+   "y": 1399,
+   "terrain": "LivingForest",
+   "town": 322
+  },
+  {
+   "id": 264,
+   "type": "enslaved_village",
+   "name": "Țichindeal 1",
+   "x": 521,
+   "y": 1395,
+   "terrain": "LivingForest",
+   "town": 326
+  },
+  {
+   "id": 265,
+   "type": "crypt",
+   "name": "Țichindeal 2",
+   "x": 437,
+   "y": 1399,
+   "terrain": "LivingForest",
+   "town": 326
+  },
+  {
+   "id": 266,
+   "type": "necropolis",
+   "name": "Țigmandru 1",
+   "x": 951,
+   "y": 533,
+   "terrain": "Plains",
+   "town": 327
+  },
+  {
+   "id": 267,
+   "type": "crypt",
+   "name": "Țiptelnic 1",
+   "x": 459,
+   "y": 1,
+   "terrain": "Plains",
+   "town": 328
+  },
+  {
+   "id": 268,
+   "type": "ley_node",
+   "name": "Țopa 1",
+   "x": 1043,
+   "y": 649,
+   "terrain": "Plains",
+   "town": 329
+  }
+ ]
+}

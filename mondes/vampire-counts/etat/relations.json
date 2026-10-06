@@ -1,0 +1,173 @@
+[
+ {
+  "de": "teodor",
+  "vers": "anselm",
+  "opinion": -30,
+  "liens": [
+   "sire",
+   "il me garde pour me surveiller"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "anselm",
+  "vers": "teodor",
+  "opinion": 85,
+  "liens": [
+   "infant",
+   "celui a qui j'ai le plus menti"
+  ],
+  "connue_du_joueur": false,
+  "_": "Il sait que Teodor complote et le laisse faire : Teodor attire les regards loin des autres."
+ },
+ {
+  "de": "teodor",
+  "vers": "sever",
+  "opinion": 15,
+  "liens": [
+   "l'envoye voile",
+   "le seul qui lui parle"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "sever",
+  "vers": "teodor",
+  "opinion": 10,
+  "liens": [
+   "un heritier qui a peur est un debiteur qui ne le sait pas"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "nicodim",
+  "vers": "anselm",
+  "opinion": -35,
+  "liens": [
+   "la seule ligne ouverte de l'est"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "anselm",
+  "vers": "nicodim",
+  "opinion": -20,
+  "liens": [
+   "l'Abbe",
+   "il a refuse sa veine"
+  ],
+  "connue_du_joueur": false,
+  "_": "Anselm ignore que c'est Nicodim qui a detruit Margit, et que le sang d'Ottilia a detruit Hedwig."
+ },
+ {
+  "de": "radomir",
+  "vers": "anselm",
+  "opinion": 45,
+  "liens": [
+   "son bu",
+   "il a reconnu un Masque"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "anselm",
+  "vers": "radomir",
+  "opinion": 0,
+  "liens": [
+   "son buveur"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "radomir",
+  "vers": "ilka",
+  "opinion": 55,
+  "liens": [
+   "protegee secrete"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "ilka",
+  "vers": "radomir",
+  "opinion": 60,
+  "liens": [
+   "il me protege de mon pere"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "ilka",
+  "vers": "anselm",
+  "opinion": -50,
+  "liens": [
+   "sire",
+   "il me surveille"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "ilka",
+  "vers": "teodor",
+  "opinion": -35,
+  "liens": [
+   "celui qu'il a garde"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "konstantin",
+  "vers": "anselm",
+  "opinion": -60,
+  "liens": [
+   "l'homme qui m'a jete dans la neige"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "konstantin",
+  "vers": "gontran",
+  "opinion": 100,
+  "liens": [
+   "le pere qu'il a choisi",
+   "chef"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "cendrik",
+  "vers": "ilka",
+  "opinion": -10,
+  "liens": [
+   "une ville a ronger"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "cendrik",
+  "vers": "radomir",
+  "opinion": -5,
+  "liens": [
+   "un mur peint"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "cendrik",
+  "vers": "gontran",
+  "opinion": 0,
+  "liens": [
+   "son bu"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "teodor",
+  "vers": "radomir",
+  "opinion": -20,
+  "liens": [
+   "le Vorace qui a bu le maitre"
+  ],
+  "connue_du_joueur": true
+ }
+]

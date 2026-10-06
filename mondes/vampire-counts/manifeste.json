@@ -1,0 +1,23 @@
+{
+  "_": "VAMPIRE COUNTS — la Terre des Cinq, un pays sans mer autour de Sighisoara, tenu par cinq sangs de vampires et leurs lignees. Monde ORIGINAL (projet Vampire Kings), pose sur la toponymie reelle de la Transylvanie. On y joue Teodor, le pensionnaire de Rupea : soixante ans a la gauche de son pere, et l'envoye d'Odorheiu qui lui demande de laisser une porte ouverte.",
+
+  "id": "vampire-counts",
+  "nom": "Vampire Counts",
+
+  "calendrier": {
+    "lunes": 12,
+    "jours_par_lune": 30,
+    "dit": "%(jour)d / %(lune)d / an %(annee)d",
+    "_": "Le monde compte 364 jours en 12 mois (canon/LORE_RECIT.md §15) ; le moteur compte 12 lunes de 30 jours. L'ecart est assume comme dans charmed-1906. Le monde ne numerote pas ses annees : on vit dans une ere et l'on compte en « il y a ». L'an 1 est donc l'annee ou la partie commence ; tout ce qui precede est negatif, et ne sert qu'aux fiches."
+  },
+
+  "monnaie": {
+    "unites": ["mesure de sang", "mesures de sang"],
+    "_": "Pas de pieces chez les maitres. Ce qui s'echange : le sang, la magie, l'effroi. Ils vivent dans les mains (maisons/<id>/documents/mains.json), pas dans maisons.or."
+  },
+
+  "depart": {
+    "lieu": "rupea",
+    "siege": "teodor"
+  }
+}

@@ -10,6 +10,18 @@
       "port": 3129
     },
     {
+      "name": "vampire-counts",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "serveur/serveur.js",
+        "3201",
+        "--monde",
+        "vampire-counts"
+      ],
+      "port": 3201,
+      "autoPort": false
+    },
+    {
       "name": "jeu-atelier",
       "runtimeExecutable": "node",
       "runtimeArgs": [

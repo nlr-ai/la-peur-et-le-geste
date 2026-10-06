@@ -1,0 +1,51 @@
+{
+ "_": "LA TOPOLOGIE DE LA CITADELLE DE RUPEA — en minutes. Homorod est relie a la ville basse (deux heures de marche) : meme composante, hors quartier.",
+ "alias": {
+  "ma-chambre": "chambre-teodor",
+  "grande-salle": "la-table",
+  "rempart": "remparts",
+  "bourg": "ville-basse"
+ },
+ "aretes": [
+  [
+   "chambre-teodor",
+   "chambre-anselm",
+   1
+  ],
+  [
+   "chambre-teodor",
+   "la-table",
+   2
+  ],
+  [
+   "chambre-anselm",
+   "remparts",
+   2
+  ],
+  [
+   "la-table",
+   "cour",
+   1
+  ],
+  [
+   "remparts",
+   "cour",
+   2
+  ],
+  [
+   "cour",
+   "porte",
+   1
+  ],
+  [
+   "porte",
+   "ville-basse",
+   6
+  ],
+  [
+   "ville-basse",
+   "homorod",
+   120
+  ]
+ ]
+}

@@ -1,0 +1,366 @@
+{
+  "sources": [
+    "lore/anselm.md",
+    "lore/teodor.md",
+    "lore/nicodim.md",
+    "lore/radomir.md",
+    "lore/ilka.md",
+    "lore/cendrik.md",
+    "lore/konstantin.md",
+    "docs/LORE_RECIT.md (prologue : Gontran)"
+  ],
+  "note": "Personnages d'exploration narrative, sans règle de jeu. Nature et Masque : voir docs/NATURES_MASQUES.md.",
+  "characters": [
+    {
+      "id": "anselm",
+      "name": "Anselm",
+      "known_as": "Rupea",
+      "kind": "vampire",
+      "lineage": "Stryges",
+      "generation_below_elder": 3,
+      "status": "active",
+      "seat": "Rupea",
+      "embraced_years_ago": 240,
+      "sire": "hedwig",
+      "nature": "Patriarche",
+      "mask": "Paranoïaque",
+      "figure": "Le Père méfiant",
+      "mortal_life": "Maçon de la citadelle de Rupea, marié, père de sept enfants ; pris dans les bois pendant un hiver de faim.",
+      "wants": "Que ses enfants lui survivent, tous.",
+      "fears": "Qu'on sache qu'il les aime.",
+      "secret": "Il disperse ses infants chez d'autres Aînés pour les rendre invisibles, et non par méfiance ; la dernière page de son registre tient ce qu'il leur doit.",
+      "reputation": "Vieux fou de pierre qui chasse ses propres infants ; a été bu par un Vorace en chassant chez un autre.",
+      "infants": [
+        "margit",
+        "konstantin",
+        "ilka",
+        "teodor"
+      ],
+      "drunk_by": "radomir",
+      "mask_threats": [
+        "Un infant en danger",
+        "Ses lettres",
+        "Le Vorace qui l'a bu",
+        "Teodor et la dernière page du registre"
+      ]
+    },
+    {
+      "id": "hedwig",
+      "name": "Hedwig",
+      "known_as": "Hedwig la Grise",
+      "kind": "vampire",
+      "lineage": "Stryges",
+      "status": "destroyed",
+      "destroyed_by": "ottilia",
+      "seat": "Rupea",
+      "nature": "Paranoïaque",
+      "mask": "Paranoïaque",
+      "figure": "Le Reclus",
+      "summary": "Stryge très ancienne qui ne quittait presque jamais ses murs. A étreint Anselm pour réparer sa citadelle. A fait détruire sept de ses onze infants par peur d'eux.",
+      "infants_count": 11,
+      "infants_remaining_at_anselm_arrival": 4,
+      "heir": "anselm",
+      "destroyed_years_ago": 140
+    },
+    {
+      "id": "margit",
+      "name": "Margit",
+      "kind": "vampire",
+      "lineage": "Stryges",
+      "status": "destroyed",
+      "destroyed_by": "nicodim",
+      "destruction": "Malédiction, la quarantième année après son Étreinte.",
+      "sire": "anselm",
+      "mortal_life": "Fille d'un charretier de Rupea, vingt ans, rire qui rappelait celui de la femme d'Anselm.",
+      "summary": "Première infant d'Anselm, aimée au grand jour ; détruite uniquement parce que tout le monde savait qu'il l'aimait. Sa destruction fait naître le Masque d'Anselm.",
+      "registry_line": "Margit : je l'ai montrée au monde."
+    },
+    {
+      "id": "konstantin",
+      "name": "Konstantin",
+      "kind": "vampire",
+      "lineage": "Stryges",
+      "status": "active",
+      "sire": "anselm",
+      "summary": "Fils chassé d'Anselm, champion de Gontran d'Agnita. Cherche le Sépulcral aux cendres ; vient d'apprendre qu'une sœur stryge, Ilka, est rongée par un Sépulcral.",
+      "registry_line": "Konstantin : je l'ai chassé le soir de son premier hiver.",
+      "seat": "Dealu Frumos",
+      "oath": "gontran",
+      "installed_with": "Écarlates",
+      "embraced_years_ago": 100,
+      "nature": "Fidèle",
+      "mask": "Conquérant",
+      "figure": "Le Champion",
+      "mortal_life": "Palefrenier à la citadelle de Rupea. Premier infant d'Anselm après la destruction de Margit ; chassé à moins de dix mois de nuit, recueilli par Gontran dans la neige.",
+      "wants": "Boire le Sépulcral qui a bu Gontran.",
+      "fears": "Manquer une seconde fois quand on a besoin de lui.",
+      "secret": "Ne convoite pas Agnita : laisse croire qu'il la veut pour protéger Gontran. Se bat en duel parce que le tribut des bus ne remonte vers personne, donc pas vers Rupea.",
+      "drinks_count": 5,
+      "letters": "Brûle sans les ouvrir les lettres de son père ; garde fermée la dernière, arrivée une semaine après la défaite de Gontran.",
+      "reputation": "Le duelliste le plus redouté de l'ouest, ambitieux, qui attend la destruction de Gontran pour prendre Agnita.",
+      "hunts": "cendrik",
+      "mask_threats": [
+        "Le pensionnaire d'Agnita",
+        "La destruction de Gontran",
+        "La lettre fermée",
+        "Ilka"
+      ],
+      "story": "lore/konstantin.md"
+    },
+    {
+      "id": "ilka",
+      "name": "Ilka",
+      "kind": "vampire",
+      "lineage": "Stryges",
+      "status": "active",
+      "sire": "anselm",
+      "installed_with": "Voraces",
+      "summary": "Infant d'Anselm, chassée après six hivers, installée chez les Voraces à Ticușu Vechi, entre Cendrik et Radomir. Protégée par Radomir sans savoir pourquoi, convoitée par Cendrik.",
+      "believes": "Que son père est venu la détruire la nuit des bois du sud, et que Radomir l'a sauvée ; que les lettres de son père sont des menaces.",
+      "registry_line": "Ilka : elle croit que je l'ai renvoyée par peur d'elle.",
+      "protected_by": "radomir",
+      "known_as": "Ticușu",
+      "seat": "Ticușu Vechi",
+      "oath": "vlaicu",
+      "embraced_years_ago": 50,
+      "years_at_table": 6,
+      "nature": "Puriste",
+      "mask": "Survivant",
+      "figure": "Le Dernier de sa race",
+      "mortal_life": "Fille d'une herboriste de la ville basse de Rupea ; enfant, a vu le maître toucher les pierres des remparts une à une.",
+      "wants": "Rentrer un jour à Rupea, pure, et y être reconnue.",
+      "fears": "Son père.",
+      "secret": "Refuse toute veine et toute Communion pour garder pur le sang de Rupea ; c'est ce qui l'affame. Plie la nuque, jamais le sang.",
+      "envies": "teodor",
+      "reputation": "Petite installée affamée qui plie devant tout le monde ; ne tiendra pas dix ans.",
+      "mask_threats": [
+        "Cendrik",
+        "Un merci public à Radomir",
+        "Un ordre de Vlaicu contre Rupea",
+        "Ses lettres lues par un autre"
+      ],
+      "story": "lore/ilka.md"
+    },
+    {
+      "id": "teodor",
+      "name": "Teodor",
+      "kind": "vampire",
+      "lineage": "Stryges",
+      "status": "active",
+      "sire": "anselm",
+      "role": "Pensionnaire, héritier selon le droit du sire",
+      "embraced_years_ago": 64,
+      "years_at_table": 60,
+      "nature": "Paranoïaque",
+      "mask": "Fidèle",
+      "figure": "Le Vassal à l'affût",
+      "mortal_life": "Né à Homorod, village tenu sous le joug de Rupea ; fils d'un charron et d'une tisserande. Pris à seize ans comme arbalétrier sur les remparts de la citadelle ; étreint à trente ans.",
+      "wants": "Survivre à son père, et que Homorod cesse de saigner.",
+      "fears": "Finir comme les sept infants d'Hedwig.",
+      "believes": "Que son père le hait et le garde à sa table pour le surveiller.",
+      "secret": "Tient un registre récité de mémoire : les fautes de son père, les départs des infants, et la question « quand ? ». Écoute depuis quinze ans Sever, envoyé du Voilé de l'est, qui lui demande désormais de laisser une porte ouverte.",
+      "doubt": "La nuit des bois du sud : la table était pleine, son père n'avait pas faim, et Ilka vivait chez les Voraces.",
+      "does_not_know": "Que Sever sert le seigneur qui a détruit Margit ; que son propre nom est sur la dernière page du registre de son père.",
+      "contacts": [
+        "sever"
+      ],
+      "mask_threats": [
+        "Sever",
+        "Homorod",
+        "La dernière page du registre d'Anselm",
+        "Ilka"
+      ],
+      "summary": "Le seul infant qu'Anselm n'a jamais chassé. Complote contre son père avec des envoyés voilés ; Anselm le sait et le laisse faire, car Teodor attire les regards loin des autres infants.",
+      "story": "lore/teodor.md"
+    },
+    {
+      "id": "sever",
+      "name": "Sever",
+      "known_as": "L'envoyé voilé",
+      "kind": "vampire",
+      "lineage": "Voilés",
+      "status": "active",
+      "serves": "nicodim",
+      "summary": "Envoyé du Voilé de l'est. Venu à Rupea il y a quinze ans pour une veine refusée ; a approché Teodor et revient tous les deux ou trois ans. Demande désormais qu'une nuit, une porte reste ouverte pour une malédiction contre Anselm.",
+      "sire": "nicodim"
+    },
+    {
+      "id": "famille_mortelle_teodor",
+      "name": null,
+      "known_as": "La famille mortelle de Teodor",
+      "kind": "human",
+      "status": "destroyed_or_gone",
+      "home": "Homorod",
+      "summary": "Son père charron et sa mère tisserande, à Homorod ; leur maison est vide depuis longtemps. Les petits-enfants de ses sœurs vont aujourd'hui dans les bois à leur tour."
+    },
+    {
+      "id": "nicodim",
+      "name": "Nicodim",
+      "known_as": "Odorheiu, dit « l'Abbé »",
+      "kind": "vampire",
+      "lineage": "Voilés",
+      "status": "active",
+      "summary": "Seigneur d'Odorheiu Secuiesc. A détruit Margit il y a un siècle pour une veine refusée par Anselm. Veut faire entrer Rupea dans son grand livre par l'intermédiaire de Sever et de Teodor.",
+      "envoys": [
+        "sever"
+      ],
+      "seat": "Odorheiu Secuiesc",
+      "oath": "Aîné des Voilés",
+      "embraced_years_ago": 300,
+      "sire": "ottilia",
+      "nature": "Autocrate",
+      "mask": "Ascète",
+      "figure": "L'Abbé",
+      "mortal_life": "Prieur d'un couvent de la vallée, qui tenait les livres : dîmes, prêts, dettes de chaque famille.",
+      "wants": "Que tout l'est soit inscrit dans ses livres, et qu'aucune ligne n'y reste ouverte.",
+      "fears": "Le réveil de sa sire Ottilia, qui dort en torpeur sous sa chapelle.",
+      "secret": "A détruit Margit par malédiction parce qu'Anselm avait refusé sa veine ; tient la moitié de l'est par des veines et des dettes qu'il ne réclame presque jamais. Sait que sa sire Ottilia a détruit Hedwig : il finit l'œuvre d'Ottilia sur Rupea.",
+      "reputation": "Sage retiré, sobre, arbitre impartial des querelles de l'est.",
+      "infants": [
+        "sever"
+      ],
+      "mask_threats": [
+        "Margit",
+        "Le réveil d'Ottilia",
+        "Sever",
+        "Teodor",
+        "Les infants d'Hedwig, si Ottilia s'éveille"
+      ],
+      "story": "lore/nicodim.md"
+    },
+    {
+      "id": "radomir",
+      "name": "Radomir",
+      "known_as": "La Crinière",
+      "kind": "vampire",
+      "lineage": "Voraces",
+      "status": "active",
+      "summary": "Seigneur de Comăna de Jos. Joue la bête pour que personne ne chasse dans ses bois : son Masque protège ses villages, les mieux peuplés du pays.",
+      "seat": "Comăna de Jos",
+      "oath": "vlaicu",
+      "embraced_years_ago": 180,
+      "sire": "vlaicu",
+      "nature": "Ascète",
+      "mask": "Prédateur",
+      "figure": "Le Loup apprivoisé",
+      "mortal_life": "Mercenaire qui a pillé des villages ; après une nuit de sac, a jeté son épée et vécu dix ans seul dans les forêts du sud.",
+      "wants": "Se maîtriser jusqu'au bout, et que ses bois restent pleins de vivants.",
+      "fears": "Que le Masque devienne vrai un jour, et que personne ne s'en aperçoive.",
+      "secret": "N'a jamais détruit personne ; ses os blanchis sont des os de loups et d'ours. Sait qu'Anselm aime ses enfants ; laisse Ilka chasser dans ses bois sans la voir.",
+      "reputation": "La bête la plus sauvage du sud, qui ne pardonne jamais aux intrus ; a bu le vieux Rupea.",
+      "drinks": [
+        "anselm"
+      ],
+      "protects": [
+        "ilka"
+      ],
+      "mask_threats": [
+        "Un jeune Vorace qui le défie",
+        "Les ordres de Vlaicu",
+        "Ilka vue sortant vivante de ses bois",
+        "Nicodim, qui voudrait le secret de Rupea"
+      ],
+      "story": "lore/radomir.md"
+    },
+    {
+      "id": "famille_mortelle_anselm",
+      "name": null,
+      "known_as": "La famille mortelle d'Anselm",
+      "kind": "human",
+      "status": "unknown",
+      "summary": "Sa femme, qui riait fort, et ses sept enfants, dans la maison basse sous le rocher de Rupea. Ses deux fils aînés étaient avec lui dans les bois et ont fui ; leur sort n'est pas raconté."
+    },
+    {
+      "id": "ottilia",
+      "name": "Ottilia",
+      "kind": "vampire",
+      "lineage": "Voilés",
+      "status": "torpor",
+      "seat": "Odorheiu Secuiesc",
+      "torpor_years": 130,
+      "infants": [
+        "nicodim"
+      ],
+      "summary": "Voilée d'Odorheiu qui a étreint Nicodim pour ses livres. Dort en torpeur dans la crypte sous la chapelle de Nicodim, depuis cent trente ans, pour échapper à une menace qu'elle n'a confiée à personne. Se réveillera chargée de magie, et trouvera sa ville tenue par son infant.",
+      "destroyed": [
+        "hedwig"
+      ],
+      "secret": "C'est elle, le « seigneur voilé sans nom » qui a détruit Hedwig il y a cent quarante ans, pour la citadelle de Rupea. Le droit du sire a tout donné à Anselm. Une infant d'Hedwig a retrouvé sa trace dix ans plus tard ; elle s'est réfugiée dans la torpeur pour échapper à la vengeance des Stryges.",
+      "enemies": "Les infants survivants d'Hedwig"
+    },
+    {
+      "id": "vlaicu",
+      "name": "Vlaicu",
+      "kind": "vampire",
+      "lineage": "Voraces",
+      "status": "active",
+      "nature": "Prédateur",
+      "infants": [
+        "radomir"
+      ],
+      "summary": "Vorace énorme à la crinière grise, sire et chef de Radomir. A étreint Radomir par amusement, pour voir ce que donnerait un homme qui ne fuyait pas. Méprise la retenue : pour lui, la Bête est un don."
+    },
+    {
+      "id": "cendrik",
+      "name": "Cendrik",
+      "known_as": "Cincu",
+      "kind": "vampire",
+      "lineage": "Sépulcraux",
+      "status": "active",
+      "seat": "Cincu",
+      "oath": "Aîné des Sépulcraux",
+      "embraced_years_ago": 200,
+      "nature": "Conquérant",
+      "mask": "Érudit",
+      "figure": "Le Stratège de cabinet",
+      "mortal_life": "Arpenteur d'un prince, qui a mesuré la vallée pour l'impôt pendant quinze ans.",
+      "wants": "Les bois verts du sud, et du sang pour toute sa branche.",
+      "fears": "La faim de ses infants, et d'être vu avant d'être prêt.",
+      "secret": "Sous ses traités sur les morts, des cartes de tout le sud. A découvert que la Crinière n'a jamais détruit personne. Prévoit de ronger Ticușu Vechi pour atteindre les bois de Comăna.",
+      "reputation": "Rat de bibliothèque, savant des morts trop instruit.",
+      "drinks": [
+        "gontran"
+      ],
+      "targets": [
+        "ilka",
+        "radomir"
+      ],
+      "unknown": "Pourquoi Ilka peut chasser dans les bois de Comăna.",
+      "summary": "Le Sépulcral du prologue, qui a bu Gontran avec une pluie de cendres. Menace extérieure du réseau : il a vu à travers le Masque de Radomir.",
+      "mask_threats": [
+        "Son premier pas sur Ticușu",
+        "Konstantin",
+        "Son carnet",
+        "Radomir poussé à bout"
+      ],
+      "story": "lore/cendrik.md"
+    },
+    {
+      "id": "gontran",
+      "name": "Gontran",
+      "known_as": "Agnita",
+      "kind": "vampire",
+      "lineage": "Écarlates",
+      "status": "active",
+      "seat": "Agnita",
+      "drunk_by": "cendrik",
+      "vassals": [
+        "konstantin"
+      ],
+      "summary": "Seigneur d'Agnita (prologue de LORE_RECIT). A recueilli Konstantin dans la neige et lui a donné Dealu Frumos. Récemment bu par Cendrik à la chasse ; a inscrit son nom dans son registre sans le dire à personne.",
+      "source": "docs/LORE_RECIT.md"
+    },
+    {
+      "id": "pensionnaire_agnita",
+      "name": null,
+      "known_as": "Le pensionnaire d'Agnita",
+      "kind": "vampire",
+      "lineage": "Écarlates",
+      "status": "active",
+      "sire": "gontran",
+      "role": "Pensionnaire, héritier selon le droit du sire",
+      "summary": "Infant le plus âgé et sans terre de Gontran. Regarde Gontran, et Konstantin, un peu trop longtemps : croit que le champion veut Agnita.",
+      "source": "docs/LORE_RECIT.md"
+    }
+  ]
+}
