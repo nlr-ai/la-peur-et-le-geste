@@ -10,8 +10,10 @@ l'être, il descend ici, et c'est la règle qui garde le classement honnête.
 
 | Module | Ce qu'il tient | Importé par |
 |---|---|---|
+| `racines.py` | **où vit l'état, et de quel monde il est** : `DEPOT` (le code, immuable), `racine()`/`etat()`/`chambres()` (le monde courant), `manifeste()`/`dit()` (ce que le monde déclare de lui-même). Trois sources dans cet ordre — `CONSEIL_RACINE`, `CONSEIL_MONDE`, puis la disposition héritée, qui reste le défaut à l'octet près. Un monde nommé qui n'existe pas plante, il ne sert jamais celui d'à côté. Jumeau exact en Node : `serveur/racines.js`, mêmes variables, mêmes défauts. `--verifier` compte les fichiers qui décident encore seuls où vit l'état (74 le 9.9) ; ce chiffre ne doit que descendre | `tables.py`, et tout ce qui doit changer de monde |
 | `bibliotheque.py` | l'agrégat des livres possédés par les maisons, avec écriture optimiste par volume | 24 scripts |
 | `plan_modele.py` | le plan visible d'un siège, normalisé avant toute mesure | `criticite`, `etat_du_plan`, `depecher` |
+| `affaires_chambres.py` | ce qu'un siège `voit_affaires` (joueurs.json) ajoute à son damier : les cahiers de plan de toutes les chambres (sauf `mj`), ids `chambre-<h>-<id>` comme les coffrets des livres, numéros locaux C/V/K/P renumérotés à la lecture en blocs de mille au-dessus de 100000 — rien ne s'écrit | `plan_modele` |
 | `rapporteurs.py` | le registre des battements dérivés : qui doit tourner, quand | `tick`, `couverture`, `criticite` |
 | `livre.py` | ouvrir UN volume pour quelqu'un de nommé (`books.json` fait 2 Mo) | `depecher`, `plan_modele` |
 | `jours_relatifs.py` | l'échelle J−N du plan, lue par une seule main | `dater_plan`, `etat_du_plan` |

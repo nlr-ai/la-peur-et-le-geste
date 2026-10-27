@@ -14,10 +14,14 @@ from plan.tisser.personnelles import noeuds_affaires_personnelles
 
 from etat.expose import tables  # LA PORTE de etat/
 
-# Trois etages de plus qu'a la racine : scripts/plan/tisser/.
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.dirname(os.path.abspath(__file__)))))
-ETAT = os.path.join(RACINE, "etat")
+import racines
+
+# LA RACINE DU MONDE, pas celle du depot : `tissage` et
+# `depeche/contexte_affaire` passent ce nom a `charger_affaires_mj`, qui le
+# joint a `chambres/`. Le pointer sur le depot ferait lire les affaires du
+# monde d'a cote des qu'un monde est nomme.
+RACINE = racines.racine()
+ETAT = racines.etat()
 SORTIE = os.path.join(ETAT, "tissu")
 
 

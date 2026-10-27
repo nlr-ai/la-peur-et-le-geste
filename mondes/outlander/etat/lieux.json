@@ -1,0 +1,135 @@
+[
+  {
+    "id": "craigh-na-dun",
+    "nom": "Craigh na Dun",
+    "region": "Highlands",
+    "type": "colline",
+    "controle_id": null,
+    "alias": []
+  },
+  {
+    "id": "lisiere-craigh",
+    "nom": "Lisière sous les pierres",
+    "region": "Highlands",
+    "type": "bois",
+    "controle_id": null,
+    "alias": []
+  },
+  {
+    "id": "croisee-craigh",
+    "nom": "Croisée du chemin de la colline",
+    "region": "Highlands",
+    "type": "chemin",
+    "controle_id": null,
+    "alias": []
+  },
+  {
+    "id": "ferme-du-ruisseau",
+    "nom": "Ferme du ruisseau",
+    "region": "Highlands",
+    "type": "ferme",
+    "controle_id": null,
+    "alias": []
+  },
+  {
+    "id": "chemin-aval-ruisseau",
+    "nom": "Chemin en aval du ruisseau",
+    "region": "Highlands",
+    "type": "chemin",
+    "controle_id": null,
+    "alias": []
+  },
+  {
+    "id": "route-basse-craigh",
+    "nom": "Route basse sous Craigh na Dun",
+    "region": "Highlands",
+    "type": "route",
+    "controle_id": null,
+    "alias": []
+  },
+  {
+    "id": "gue-route-basse",
+    "nom": "Gué de la route basse",
+    "region": "Highlands",
+    "type": "gue",
+    "controle_id": null,
+    "alias": []
+  },
+  {
+    "id": "hameau-derriere-crete",
+    "nom": "Petit hameau derrière la crête",
+    "region": "Highlands",
+    "type": "hameau",
+    "controle_id": null,
+    "alias": []
+  },
+  {
+    "id": "embranchement-des-aulnes",
+    "nom": "Embranchement des aulnes",
+    "region": "Highlands",
+    "type": "croisee",
+    "controle_id": null,
+    "alias": []
+  },
+  {
+    "id": "pierre-fendue-inverness",
+    "nom": "Pierre fendue du chemin d'Inverness",
+    "region": "Highlands",
+    "type": "repere",
+    "controle_id": null,
+    "alias": []
+  },
+  {
+    "id": "inverness",
+    "nom": "Inverness",
+    "region": "Highlands",
+    "type": "ville",
+    "controle_id": null,
+    "alias": []
+  },
+  {
+    "id": "leoch",
+    "nom": "Château Leoch",
+    "region": "Highlands",
+    "type": "chateau",
+    "controle_id": "mackenzie",
+    "alias": []
+  },
+  {
+    "id": "cranesmuir",
+    "nom": "Cranesmuir",
+    "region": "Highlands",
+    "type": "village",
+    "controle_id": null,
+    "alias": []
+  },
+  {
+    "id": "lallybroch",
+    "nom": "Lallybroch — Broch Tuarach",
+    "region": "Highlands",
+    "type": "domaine",
+    "controle_id": "fraser",
+    "alias": [
+      "broch-tuarach",
+      "broc-touarach"
+    ]
+  },
+  {
+    "id": "fort-william",
+    "nom": "Fort William",
+    "region": "Highlands",
+    "type": "ville",
+    "controle_id": null,
+    "alias": [
+      "fort-williams"
+    ]
+  },
+  {
+    "id": "fort-william-fort",
+    "nom": "Fort de Fort William",
+    "region": "Highlands",
+    "type": "chateau",
+    "controle_id": null,
+    "alias": []
+  }
+]

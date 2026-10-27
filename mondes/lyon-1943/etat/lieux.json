@@ -1,0 +1,92 @@
+[
+ {
+  "id": "lyon",
+  "nom": "Lyon",
+  "region": "Rhône",
+  "type": "ville",
+  "controle_id": "sipo-sd-lyon",
+  "jours_de_pr": 0,
+  "_": "Le hub. jours_de_pr se lit ici : jours de route depuis Lyon. Les salles de la ville et de Caluire sont dans chemins.json."
+ },
+ {
+  "id": "vichy",
+  "nom": "Vichy",
+  "region": "Allier",
+  "type": "ville",
+  "controle_id": "police-lyon",
+  "jours_de_pr": 1,
+  "_": "Le siège du gouvernement du Maréchal."
+ },
+ {
+  "id": "macon",
+  "nom": "Mâcon",
+  "region": "Saône-et-Loire",
+  "type": "ville",
+  "controle_id": "sipo-sd-lyon",
+  "jours_de_pr": 1,
+  "_": "Au nord sur la Saône ; Berty Albrecht y est arrêtée le 28 mai."
+ },
+ {
+  "id": "chalon-sur-saone",
+  "nom": "Chalon-sur-Saône",
+  "region": "Saône-et-Loire",
+  "type": "ville",
+  "controle_id": "sipo-sd-lyon",
+  "jours_de_pr": 1,
+  "_": "Ancienne ville de la ligne de démarcation ; Hardy y est arrêté dans le train dans la nuit du 7 au 8 juin."
+ },
+ {
+  "id": "dijon",
+  "nom": "Dijon",
+  "region": "Côte-d'Or",
+  "type": "ville",
+  "controle_id": "sipo-sd-lyon",
+  "jours_de_pr": 1,
+  "_": "L'Abwehr d'où vient Moog."
+ },
+ {
+  "id": "oyonnax",
+  "nom": "Oyonnax",
+  "region": "Ain",
+  "type": "ville",
+  "controle_id": "police-lyon",
+  "jours_de_pr": 1,
+  "_": "Le maquis de l'Ain y défile le 11 novembre 1943."
+ },
+ {
+  "id": "vercors",
+  "nom": "Le Vercors",
+  "region": "Isère",
+  "type": "maquis",
+  "controle_id": null,
+  "jours_de_pr": 1,
+  "_": "Massif où montent les réfractaires."
+ },
+ {
+  "id": "marseille",
+  "nom": "Marseille",
+  "region": "Bouches-du-Rhône",
+  "type": "ville",
+  "controle_id": "sipo-sd-lyon",
+  "jours_de_pr": 1,
+  "_": "Multon y est au départ."
+ },
+ {
+  "id": "paris",
+  "nom": "Paris",
+  "region": "Seine",
+  "type": "ville",
+  "controle_id": "sipo-sd-lyon",
+  "jours_de_pr": 1,
+  "_": "Le CNR s'y réunit le 27 mai ; Delestraint y est arrêté le 9 juin."
+ },
+ {
+  "id": "londres",
+  "nom": "Londres",
+  "region": "Angleterre",
+  "type": "ville",
+  "controle_id": "france-libre",
+  "jours_de_pr": 3,
+  "_": "La France libre et le BCRA. On y va par Lysander, depuis un terrain de nuit."
+ }
+]

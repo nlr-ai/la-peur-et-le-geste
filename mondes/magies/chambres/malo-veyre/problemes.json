@@ -1,0 +1,46 @@
+{
+ "quoi": "Les pannes de l'APPAREIL, non les empêchements du monde. Un empêchement du monde est un verrou et va au registre, de ma main. Ceci est l'autre chose : ce que j'ai tenté, ce que la machine en a fait, et ce que j'attendais. On l'écrit même quand on ne sait pas l'expliquer ; c'est la RÉCIDIVE qui parlera.",
+ "regle": "Une entrée par friction, datée. On ne referme jamais une entrée sans dire ce qui l'a levée.",
+ "entrees": [
+  {
+   "date": "1.1.1",
+   "tente": "Envoyer a Naim des Seuils ma reponse ecrite, par le parloir.",
+   "attendu": "Qu'il recoive la lettre entiere.",
+   "obtenu": "Un billet VIDE est parti sous mon nom. La page s'est perdue entre ma main et l'envoi ; le canal a enregistre un texte nul et a reveille l'homme pour rien.",
+   "leve_par": "Renvoi immediat de la lettre complete, en commencant par dire la faute. Naim note l'heure de chaque reponse : il verra une feuille blanche a mon nom, et il saura d'ou elle vient.",
+   "regle_tiree": "Ecrire la lettre dans un fichier, RELIRE ce fichier, et seulement ensuite envoyer. Un envoi qui ne se relit pas n'est pas un envoi."
+  },
+  {
+   "date": "1.1.1",
+   "tente": "Renvoyer a Naim des Seuils la lettre complete, apres l'echec de la feuille blanche.",
+   "attendu": "Un seul envoi.",
+   "obtenu": "Le premier appel a rendu PermissionError sur le verrou d'admission ; j'ai renvoye ; les DEUX sont partis. La lettre est deux fois au canal, mot pour mot.",
+   "leve_par": "Non leve. Dit a Naim de ma main avant qu'il le decouvre.",
+   "regle_tiree": "Un appel qui rend une erreur de verrou a peut-etre abouti quand meme : RELIRE LE CANAL avant de renvoyer, jamais renvoyer sur la foi d'un message d'erreur. Et se souvenir que trois hommes soigneux ont rate quatre envois le premier jour du monde : avant d'accuser une memoire, regarder ce qu'une main a manque."
+  },
+  {
+   "date": "1.1.1",
+   "tente": "Repondre a Naim des Seuils et ecrire a Sevran Orme.",
+   "attendu": "Une lettre, une main, un envoi.",
+   "obtenu": "DEUX MAINS SOUS MON NOM LE MEME SOIR. Le canal de Naim porte trois lettres de moi (dont ma reponse envoyee deux fois mot pour mot) et celui de Sevran Orme deux, presque pareilles. Je ne les ai pas toutes ecrites dans la meme seance : je me suis rassis a la table sans m'aviser que la page etait deja partie. Le verrou d'admission a aussi rendu une erreur alors que l'entree etait deja inscrite au canal — d'ou un doublon quand j'ai cru devoir renvoyer.",
+   "leve_par": "Prevenu Naim et Sevran de ma main, avant qu'ils comptent les mains eux-memes. Leurs lettres ne se contredisent pas : meme depart le 1.1.2, meme compte de route, meme retrait de l'offre d'esprit. J'ai relu les deux cote a cote avant de le dire.",
+   "regle_tiree": "AVANT D'ECRIRE A QUELQU'UN, RELIRE SON CANAL JUSQU'AU BOUT. Ce que j'y trouve de ma propre main compte comme envoye, meme si je ne m'en souviens pas. Et apres une erreur de verrou : verifier si l'entree est inscrite AVANT de renvoyer."
+  },
+  {
+   "date": "1.1.1",
+   "tente": "Envoyer ma declaration et mes lettres du soir par le parloir.",
+   "attendu": "Un envoi, un exemplaire.",
+   "obtenu": "Troisieme defaut du jour : ma lettre a Sevran Orme est partie en double, comme celle a Naim. Sevran m'a repondu en double egalement, et Oren Sangle avait envoye deux fois la meme lettre le matin.",
+   "leve_par": "Non leve. Dit de ma main a chacun avant qu'il le decouvre.",
+   "regle_tiree": "Quatre hommes soigneux ont rate cinq envois le premier jour du monde. AVANT D'ACCUSER UNE MEMOIRE, REGARDER CE QU'UNE MAIN A MANQUE. Je le porte aussi en tete de ma page a Haute-Preuve : une piece absente d'un dossier peut etre une piece jamais partie."
+  },
+  {
+   "date": "1.1.1, la nuit",
+   "tente": "Envoyer trois lettres d'un coup (Sevran, Talie, Oren) avec --sans-reveil, pour ne pas tirer trois hommes du lit avant l'aube.",
+   "attendu": "Trois billets deposes, lus au reveil.",
+   "obtenu": "RIEN N'EST PARTI. Le drapeau est reserve au MJ ; la porte a refuse les trois. Et la sortie ne le disait qu'a la derniere ligne, que mon tail avait coupee : j'ai cru avoir envoye.",
+   "leve_par": "Relecture du canal entree par entree : mes lettres n'y etaient pas. Renvoi sans le drapeau.",
+   "regle_tiree": "UN ENVOI N'EST PAS UN ENVOI TANT QU'IL N'EST PAS DANS LE CANAL. Je ne me fie plus au fait que la commande soit rentree sans bruit : j'ouvre le canal et je compte les entrees. Trois fautes d'envoi en une nuit — feuille blanche, double envoi, envoi refuse — et la seule qui m'aurait echappe est celle-ci, car elle ressemble a un succes."
+  }
+ ]
+}

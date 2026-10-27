@@ -194,13 +194,15 @@ body.sans-gestes .gestes{display:none;}
 #decor{flex:1 1 auto;min-height:0;position:relative;}
 #carte{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
   flex-direction:column;}
-#carte svg{max-height:100%;max-width:100%;width:auto;height:auto;display:block;}
+/* la carte REMPLIT sa boîte (le dessin porte `slice` et déborde) au lieu de
+   s'y ajuster en laissant du papier nu au-dessus et au-dessous */
+#carte svg{width:100%;height:100%;display:block;}
 #acteurs{position:absolute;inset:0;pointer-events:none;}
 .acteur{position:absolute;width:0;height:0;pointer-events:none;}
 .acteur .medaillon{position:absolute;left:50%;top:0;transform:translate(-50%,-50%);
   width:110px;text-align:center;opacity:.5;filter:saturate(.55);pointer-events:auto;
   transition:opacity .5s,filter .5s,transform .5s;}
-.acteur .medaillon svg{width:58px;height:58px;display:block;margin:0 auto;}
+.acteur .medaillon .med-rond > svg{width:58px;height:58px;display:block;margin:0 auto;}
 .acteur .qui{display:block;font-size:.66em;color:var(--muted);line-height:1.2;margin-top:2px;}
 .acteur.parle .medaillon{opacity:1;filter:none;transform:translate(-50%,-50%) scale(1.08);}
 .acteur.parle .qui{color:var(--ink);}
@@ -896,9 +898,9 @@ body.sans-gestes .gestes{display:none;}
 .bourg{pointer-events:none;}
 .bourg circle{fill:none;stroke:var(--muted);
   stroke-width:calc(.8px * var(--k));opacity:.6;}
-.bourg text{font-family:inherit;font-size:.72em;fill:var(--muted);opacity:.72;
+.bourg text{font-family:inherit;font-size:.72em;fill:var(--muted);opacity:.82;
   font-style:italic;paint-order:stroke;stroke:var(--fond);
-  stroke-width:calc(1.8px * var(--k));stroke-linejoin:round;}
+  stroke-width:.32em;stroke-linejoin:round;}
 .region{font-family:inherit;font-size:1.15em;fill:var(--muted);opacity:.7;
   font-variant:small-caps;letter-spacing:.18em;text-anchor:middle;}
 .mer-nom{font-family:inherit;font-size:.92em;fill:var(--muted);opacity:.55;
@@ -908,9 +910,9 @@ body.sans-gestes .gestes{display:none;}
 .allg-noir .point{fill:var(--sang);}
 .allg-vert .point{fill:var(--vert);}
 .allg-neutre .point{fill:var(--muted);}
-.lieu-carte .nom{font-family:inherit;font-size:1em;fill:var(--muted);
-  paint-order:stroke;stroke:var(--fond);stroke-width:calc(2.6px * var(--k));
-  stroke-linejoin:round;}
+.lieu-carte .nom{font-family:inherit;font-size:1em;fill:var(--ink);
+  paint-order:stroke;stroke:var(--fond);stroke-width:.34em;
+  stroke-linejoin:round;letter-spacing:.01em;}
 .lieu-carte:hover .nom{fill:var(--ink);}
 .lieu-carte:hover .point{stroke:var(--accent);}
 .lieu-carte.ici .nom{fill:var(--ink);}
@@ -1341,7 +1343,7 @@ svg .zone{fill:currentColor;opacity:.09;stroke:none;pointer-events:none;}
 /* La table occupe tout le décor : les conseillers se penchent DESSUS, ils ne
    l'encerclent pas à distance. La vignette est cadrée sur la baie de la Néra
    (voir CADRE_BAIE dans carte.js), donc elle reste lisible à cette taille. */
-#carte svg{max-width:100%;}
+#carte svg{width:100%;}
 
 /* =========================================================
    GRAMMAIRE VISUELLE — chaque nature de texte a sa forme.
@@ -1650,7 +1652,7 @@ body{grid-template-columns:auto minmax(0,2fr) minmax(300px,1fr);}
   0%{box-shadow:0 0 0 0 var(--role,var(--accent));}
   100%{box-shadow:0 0 0 14px transparent;}
 }
-.acteur.parle .medaillon svg{border-radius:50%;animation:reveil .7s ease-out;}
+.acteur.parle .medaillon .med-rond > svg{border-radius:50%;animation:reveil .7s ease-out;}
 
 /* LA BORDURE DIT L'OFFICE — la même encre que la tache du plan (voir taches.js
    et sa table COULEURS). `--role` est posée sur le slot par galerie.js ; sans
@@ -1678,7 +1680,7 @@ body{grid-template-columns:auto minmax(0,2fr) minmax(300px,1fr);}
 
 @media (prefers-reduced-motion: reduce){
   .chr.entre,.chr.entre .chr-icone,.acteur .bulle.pleine.eclot,
-  .acteur.parle .medaillon svg{animation:none;}
+  .acteur.parle .medaillon .med-rond > svg{animation:none;}
 }
 
 /* la page de la carte ne porte plus de texte : la salle, rien que la salle */
@@ -1769,6 +1771,8 @@ body{grid-template-columns:auto minmax(0,2fr) minmax(300px,1fr);}
   opacity:.58;}
 .chr-repondre:hover,.chr-repondre:focus-visible{color:var(--accent);opacity:1;}
 .chr-repondre:focus-visible{outline:1px dotted currentColor;outline-offset:2px;}
+.reponse-cible{padding:4px 8px;color:var(--accent);font-size:13px;}
+.reponse-cible button{margin-left:8px;border:0;background:none;color:inherit;cursor:pointer;}
 
 /* — votre voix : la seule qui pose une surface, et elle se voit —
    Dans un fil où tout le reste est posé à plat, la parole du joueur doit se
@@ -2120,6 +2124,10 @@ body{grid-template-columns:auto minmax(0,2fr) minmax(300px,1fr);}
 .chr-question .chr-qui,.chr-reponse .chr-qui{color:var(--muted);}
 .chr-question .chr-texte,.chr-reponse .chr-texte{font-size:.8em;color:var(--muted);}
 .chr-question .chr-icone,.chr-reponse .chr-icone{opacity:.75;}
+/* Le battement du MJ (statut.js) : une ligne de machine, la plus effacée du fil. */
+.chr-statut .chr-corps{border-left:1px dotted var(--bord);padding:1px 0 2px 13px;}
+.chr-statut .chr-qui{color:var(--muted);}
+.chr-statut .chr-texte{font-size:.75em;color:var(--muted);font-style:italic;}
 
 /* hors univers : la loge. Elle ne ressemble à rien d'autre dans le fil —
    sans-serif, cadre plein, pas de filet dans la marge : on doit voir d'un
@@ -2423,7 +2431,7 @@ body{grid-template-columns:auto minmax(0,2fr) minmax(300px,1fr);}
 .acteur{position:static;width:auto;height:auto;flex:0 1 94px;min-width:56px;}
 .acteur .medaillon{position:static;transform:none;width:100%;padding:0 1px;
   box-sizing:border-box;opacity:.62;}
-.acteur .medaillon svg{width:57px;height:57px;}
+.acteur .medaillon .med-rond > svg{width:57px;height:57px;}
 .acteur .qui{font-size:.6em;margin-top:3px;}
 .acteur .qui .role{font-size:.85em;}
 /* le locuteur s'illumine sur place : plus de recentrage à compenser */
@@ -2440,7 +2448,9 @@ body{grid-template-columns:auto minmax(0,2fr) minmax(300px,1fr);}
    se serre sur la carte affichée. Le bloc carte + visages tient d'un seul
    tenant, le vide restant passe au-dessus, sous le bandeau. */
 #cartes{flex:0 1 auto;min-height:0;display:flex;flex-direction:column;}
-#plan,#carte{position:static;flex:0 1 auto;min-height:0;}
+#plan{position:static;flex:0 1 auto;min-height:0;}
+/* la table peinte prend toute la hauteur qu'on lui laisse : elle se remplit */
+#carte{position:static;flex:1 1 auto;min-height:0;overflow:hidden;}
 /* Le château, lui, prend TOUTE la hauteur qu'on lui laisse — comme le volume,
    l'échiquier ou les livres. Un plan de salles se lit à la loupe : on y entre,
    on pousse le dessin du doigt, et une carte serrée en bas du décor ne laisse
@@ -2942,6 +2952,21 @@ body{grid-template-columns:auto minmax(0,2fr) minmax(300px,1fr);}
 .gens-dit b{display:block;font-size:.62em;font-weight:600;}
 .gens-dit small{display:block;font-size:.55em;color:var(--muted);}
 .gens-dit small .emb{margin-right:3px;font-size:1.05em;}
+.gens-traits{display:flex;flex-wrap:wrap;justify-content:center;gap:4px;margin:6px 0 8px;}
+.gens-gars:has(.gens-contacts){flex-basis:400px;display:grid;grid-template-columns:150px minmax(0,1fr);align-items:start;column-gap:12px;}
+.gens-gars:has(.gens-contacts)>:not(.gens-contacts){grid-column:1;}
+.gens-gars>.gens-contacts{grid-column:2;grid-row:1 / span 2;}
+.gens-contacts{width:100%;margin:8px 0;border-top:1px solid var(--muted);padding-top:6px;cursor:default;}
+.gens-contacts summary{font-size:11px;cursor:pointer;color:var(--muted);}
+.gens-contacts-liste{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 4px;padding-top:8px;}
+.gens-contact-indirect{font-size:10px;line-height:1.2;overflow-wrap:anywhere;}
+.gens-contact-indirect svg{width:48px;height:48px;margin:auto;}
+.gens-contact-indirect>span{display:block;}
+.gens-contact-metier{display:block;color:var(--muted);font-size:10px;line-height:1.25;margin-top:3px;}
+.gens-contact-indirect .contact-visage{width:48px;height:48px;margin:0 auto 5px;}
+.gens-contact-indirect .visage-opinion,.gens-contact-indirect .visage-ferveur{width:15px;height:15px;font-size:10px;}
+.gens-contact-indirect .visage-opinion svg,.gens-contact-indirect .visage-ferveur svg{width:12px;height:12px;}
+.gens-trait{font-size:11px;line-height:1.35;padding:2px 6px;border:1px solid var(--muted);border-radius:8px;overflow-wrap:anywhere;}
 .gens-gars.gens-joueur{opacity:1;}
 .gens-gars.gens-joueur .gens-face{box-shadow:0 0 0 1px var(--muted);border-radius:50%;}
 /* la vue des gens n'est pas une carte : elle prend toute la colonne */
@@ -3114,7 +3139,7 @@ body{grid-template-columns:auto auto minmax(0,2fr) minmax(300px,1fr);}
    Plus de `flex-basis` — c'était la mesure d'une rangée horizontale. */
 #acteurs .acteur{flex:0 0 auto;width:auto;min-width:0;}
 #acteurs .acteur .medaillon{width:100%;padding:0;}
-#acteurs .acteur .medaillon svg{width:53px;height:53px;}
+#acteurs .acteur .medaillon .med-rond > svg{width:53px;height:53px;}
 #acteurs .acteur .qui{font-size:.58em;margin-top:2px;
   overflow-wrap:anywhere;}
 
@@ -3148,7 +3173,7 @@ body{grid-template-columns:auto minmax(0,1fr) minmax(620px,1.15fr);}
 #acteurs::-webkit-scrollbar{height:0;}
 #acteurs .acteur{flex:0 0 auto;width:auto;text-align:center;}
 #acteurs .acteur .medaillon{width:auto;}
-#acteurs .acteur .medaillon svg{width:46px;height:46px;}
+#acteurs .acteur .medaillon .med-rond > svg{width:46px;height:46px;}
 #acteurs .acteur .qui{font-size:.56em;margin-top:2px;max-width:76px;
   overflow-wrap:anywhere;}
 /* la rangée ne passe jamais à la ligne et ne rapetisse pas : elle défile. */
@@ -3177,7 +3202,7 @@ body{grid-template-columns:auto auto minmax(0,1fr) var(--decor,560px);}
   overflow-y:auto;overflow-x:hidden;}
 #acteurs .acteur{flex:0 0 auto;width:auto;text-align:center;}
 #acteurs .acteur .medaillon{width:100%;padding:0;}
-#acteurs .acteur .medaillon svg{width:51px;height:51px;}
+#acteurs .acteur .medaillon .med-rond > svg{width:51px;height:51px;}
 #acteurs .acteur .qui{font-size:.58em;margin-top:3px;max-width:none;
   overflow-wrap:anywhere;}
 /* Le titre ne s'efface JAMAIS, quel que soit le nombre : c'est la description
@@ -3186,6 +3211,14 @@ body{grid-template-columns:auto auto minmax(0,1fr) var(--decor,560px);}
    défile, elle ne rapetisse pas. */
 #acteurs .acteur .qui .role{display:block;font-size:.9em;opacity:.75;
   font-style:italic;line-height:1.25;}
+/* Chaque colonne a SA piste : sans ça, une salle vide (#acteurs:empty →
+   display:none) décalait tout d'un cran et le décor tombait à zéro. */
+@media (min-width:1101px){
+  #lateral{grid-column:1;grid-row:1;}
+  #acteurs{grid-column:2;grid-row:1;}
+  #fil{grid-column:3;grid-row:1;}
+  #scene{grid-column:4;grid-row:1;}
+}
 
 /* Défiler sans barre : ni la barre native de Firefox, ni celle de Chrome, ni
    celle d'Edge. À la place, une flèche au bas de la colonne, qui ne paraît que
@@ -3514,6 +3547,63 @@ body{grid-template-columns:auto auto minmax(0,1fr) var(--decor,560px);}
 .md-t3,.md-t4{font-size:.88em;color:var(--muted);}
 .chr-fil .chr-texte strong{color:var(--ink);}
 .md-puce{color:var(--muted);}
+/* ---- la recherche : « search: un mot » ------------------------------------
+   Hors fiction, comme la régie, et pour la même raison visible : ce bloc n'est
+   pas un moment de la partie, c'est une LECTURE posée dedans. On lui donne donc
+   le cadre froid, mais l'or du joueur plutôt que le bleu de la loge — c'est LUI
+   qui a cherché, ce n'est pas quelqu'un qui regarde la partie de l'extérieur. */
+.rech{margin:14px 0;padding:8px 10px 10px;
+  border:1px solid var(--or-joueur);border-radius:6px;
+  background:color-mix(in srgb,var(--or-joueur) 5%,transparent);}
+.rech-tete{display:flex;align-items:baseline;gap:10px;
+  padding-bottom:6px;border-bottom:1px solid var(--bord);}
+.rech-tete span{font-variant:small-caps;letter-spacing:.06em;
+  font-size:.9em;color:var(--or-joueur);}
+.rech-tete em{flex:1;font-size:.66em;color:var(--muted);font-style:normal;}
+.rech-fermer{padding:0 7px;font-size:.8em;line-height:1.4;
+  background:none;border:0;color:var(--muted);}
+.rech-fermer:hover{color:var(--sang);background:none;}
+
+/* Le nom de la famille, et son compte. « 6 sur 200 » se lit ici : un résultat
+   coupé sans le dire fait croire qu'il n'y a que ça. */
+.rech-famille{margin:11px 0 5px;font-size:.66em;font-variant:small-caps;
+  letter-spacing:.12em;color:var(--muted);
+  border-top:1px dotted var(--bord);padding-top:6px;
+  display:flex;gap:8px;align-items:baseline;}
+.rech-famille em{font-size:.94em;font-style:italic;letter-spacing:0;opacity:.8;}
+.rech-item{margin:0 0 8px;padding-left:9px;
+  border-left:2px solid var(--bord);font-size:.78em;}
+.rech-quoi{color:var(--ink);}
+.rech-ou{font-size:.82em;color:var(--muted);}
+.rech-genre{font-size:.9em;font-variant:small-caps;letter-spacing:.09em;
+  color:var(--muted);margin-left:7px;}
+.rech-qui{font-size:.94em;font-variant:small-caps;letter-spacing:.04em;
+  color:var(--braise);margin-left:7px;}
+.rech-extrait{margin-top:2px;font-size:.92em;font-style:italic;color:var(--muted);}
+.rech-vide{font-size:.78em;font-style:italic;color:var(--muted);}
+/* Un cahier sans adresse s'ouvre par un bouton à nous ; une ligne adressée
+   passe par le pointeur du fil (`renvois.js`), donc ne vient jamais ici. */
+.rech-lien{padding:0;font-size:1em;font-family:inherit;text-align:left;
+  background:none;border:0;color:var(--book-plan);
+  border-bottom:1px dotted var(--book-plan);}
+.rech-lien:hover{background:none;color:var(--braise);border-bottom-color:var(--braise);}
+.rech-hors-portee{color:var(--muted);border-bottom-style:none;
+  text-decoration:line-through;}
+.rech-montrer{margin-top:3px;padding:1px 7px;font-size:.86em;font-family:inherit;
+  background:var(--btn);border:1px solid var(--bord);border-radius:4px;
+  color:var(--muted);}
+.rech-montrer:hover{background:var(--btn-hover);color:var(--ink);}
+
+/* La tranche de fil dépliée sous un résultat : le moment tel qu'il a été joué,
+   la ligne cherchée en braise pour qu'on la retrouve d'un coup d'œil. */
+.rech-tranche{margin:6px 0 2px;padding:5px 0 2px 8px;
+  border-left:1px dashed var(--bord);}
+.rech-jour{margin:7px 0 3px;font-size:.8em;font-variant:small-caps;
+  letter-spacing:.1em;color:var(--muted);}
+.rech-entree{margin:0 0 5px;font-size:.94em;}
+.rech-ici{border-left:2px solid var(--or-joueur);padding-left:7px;margin-left:-9px;}
+.rech-texte{margin-top:1px;}
+
 /* ---- la régie : le siège de Corneille ------------------------------------
    Hors fiction, et ça doit se voir : un cadre froid dans un fil qui ne l'est
    pas. Ce bloc n'est pas un moment de la partie — c'est une lecture, posée là
@@ -4385,6 +4475,16 @@ body{grid-template-columns:auto auto minmax(0,1fr) var(--decor,560px);}
 .ech-e-ouvrir:hover{background:var(--btn-hover);border-color:var(--accent);}
 .ech-e-ouvrir .ech-icone{font-size:1.3em;flex:0 0 auto;}
 .ech-e-ouvrir span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.ech-commentaire{margin-top:12px;padding-top:10px;border-top:1px solid var(--accent);}
+.ech-encart.ech-commenter{max-height:calc(100vh - 12px);overflow-y:auto;}
+.ech-commentaire form{font-size:13px;}
+.ech-commentaire form{margin-top:10px;}
+.ech-commentaire form[hidden]{display:none;}
+.ech-commentaire label{display:block;}
+.ech-commentaire textarea{display:block;box-sizing:border-box;width:100%;margin:7px 0;
+  padding:8px;min-height:80px;resize:vertical;font:inherit;color:inherit;background:var(--fond);
+  border:1px solid var(--accent);border-radius:4px;}
+.ech-commentaire [role=status]{font-size:.9em;margin:8px 0 0;}
 
 /* ------- LES IDÉES DANS « LES SUJETS » -------
    Le coffret des affaires peut montrer, sous chaque volume et en retrait, la
@@ -5003,3 +5103,57 @@ body.tire #poignee{pointer-events:auto;}
 ::-webkit-scrollbar-thumb{background:var(--bord);border-radius:4px;
   border:1px solid transparent;background-clip:padding-box;}
 ::-webkit-scrollbar-thumb:hover{background:var(--braise);}
+
+/* Opinion connue du personnage envers le siège joueur. */
+.visage .visage-opinion{position:absolute;left:14.6%;top:85.4%;transform:translate(-50%,-50%);
+  z-index:3;min-width:25px;height:22px;padding:0 4px;box-sizing:border-box;border-radius:12px;
+  display:flex;align-items:center;justify-content:center;border:1px solid #d7cbb5;
+  background:#454a50;color:#fff;font:700 12px/1 system-ui,sans-serif;font-variant-numeric:tabular-nums;
+  box-shadow:0 2px 5px #0008;}
+.visage .visage-opinion.positive{background:#c85b12;}
+.visage .visage-opinion.negative{background:#14462b;}
+.visage .visage-opinion.inconnue{color:#ded7cb;}
+.visage .visage-opinion{cursor:help;}
+.visage .visage-opinion:focus-visible{outline:2px solid var(--braise);outline-offset:3px;}
+.visage-fiche.opinion-fiche{width:max-content;max-width:min(340px,calc(100vw - 24px));
+  box-sizing:border-box;padding:14px 16px;background:var(--fond);color:var(--ink);
+  border:1px solid var(--bord);border-radius:8px;box-shadow:0 6px 24px #0004;
+  white-space:pre-line;font:14px/1.6 system-ui,sans-serif;}
+
+/* Ferveur : quatre niveaux, en bas à droite du portrait. */
+.visage .visage-ferveur{position:absolute;left:85.4%;top:85.4%;transform:translate(-50%,-50%);
+  width:25px;height:27px;z-index:3;display:flex;align-items:center;justify-content:center;
+  border-radius:50%;background:#292a2d;border:1px solid #d7cbb5;box-shadow:0 2px 5px #0008;}
+.visage .visage-ferveur svg.flamme{width:18px;height:22px;display:block;border:0;border-radius:0;box-shadow:none;overflow:visible;}
+.visage-ferveur .flamme path{fill:currentColor;stroke:currentColor;stroke-width:1.2;}
+.visage-ferveur.vert{color:#69ca87;}.visage-ferveur.gris{color:#aeb2b8;}
+.visage-ferveur.jaune{color:#ff8b32;}.visage-ferveur.orange{color:#e8403a;}
+.visage-ferveur.inconnue{color:#aeb2b8;}.visage-ferveur.inconnue .flamme path{fill:none;}
+/* L'activité reste distincte de la ferveur. */
+#acteurs .acteur .visage .depeche{left:14.6%;top:14.6%;}
+
+/* Les portraits conservent uniquement les indicateurs du bas. */
+.visage .emb-coin{display:none;}
+
+/* Quatre expressions d'opinion, valeur et détail conservés dans la bulle. */
+.visage .visage-opinion{width:26px;height:26px;min-width:26px;padding:2px;border-radius:50%;}
+.visage .visage-opinion svg.opinion-bouclier{width:21px;height:21px;border:0;border-radius:0;box-shadow:none;overflow:visible;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;}
+.visage .opinion-smiley .yeux{stroke-width:2.8;}
+
+/* Smiley compact, sans contour circulaire, traits renforcés. */
+.visage .visage-opinion{width:22px;height:22px;min-width:22px;padding:1px;border:0;box-shadow:none;border-radius:5px;}
+.visage .visage-opinion svg.opinion-bouclier{width:19px;height:19px;stroke-width:2.6;}
+.visage .opinion-smiley .yeux{stroke-width:3.4;}
+
+/* Pastille ronde et bordée ; le smiley reste sans cercle intérieur. */
+.visage .visage-opinion{border-radius:50%;border:1px solid #d7cbb5;}
+
+/* Dans le rail Récents, les indicateurs suivent les portraits de 51 px. */
+#acteurs .visage .visage-opinion{width:18px;height:18px;min-width:18px;padding:1px;}
+#acteurs .visage .visage-opinion svg.opinion-bouclier{width:15px;height:15px;}
+#acteurs .visage .visage-ferveur{width:18px;height:20px;}
+#acteurs .visage .visage-ferveur svg.flamme{width:12px;height:16px;}
+
+/* Bouclier de confiance : contour puis remplissage croissant. */
+.visage .visage-opinion svg.opinion-bouclier{stroke-width:2;stroke-linejoin:round;}
+.visage .opinion-bouclier .bouclier-plein{fill:currentColor;stroke:none;}

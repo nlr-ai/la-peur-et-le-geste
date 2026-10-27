@@ -1,0 +1,146 @@
+{
+ "_": "LES ENFERS, le quartier de la Source. Un plan de cavernes et non d'architecte : la salle de la Source au centre, l'antre de l'Oracle et son bassin à gauche, les galeries où vivent les démons à droite, les cavernes au-delà. Aucune porte ne mène en haut : on n'entre et ne sort qu'en miroitant. Les ids sont ceux de etat/chemins.json.",
+ "nom": "Les Enfers",
+ "viewBox": "0 0 420 260",
+ "fonds": [
+  {
+   "classe": "plan-roche",
+   "d": "M0,0 H420 V260 H0 Z"
+  }
+ ],
+ "mur": "M30,120 Q40,60 110,58 Q150,40 210,44 Q290,40 330,70 Q400,80 404,140 Q406,214 330,214 Q260,232 200,220 Q130,232 80,206 Q24,190 30,120 Z",
+ "guet": [],
+ "decor": [
+  {
+   "classe": "plan-arete",
+   "style": "fill:#3a2a26;fill-opacity:.55;stroke:none;opacity:1",
+   "d": "M30,120 Q40,60 110,58 Q150,40 210,44 Q290,40 330,70 Q400,80 404,140 Q406,214 330,214 Q260,232 200,220 Q130,232 80,206 Q24,190 30,120 Z"
+  },
+  {
+   "classe": "plan-arete",
+   "style": "fill:none;stroke:var(--bord);stroke-width:.5;opacity:.35",
+   "d": "M20,30 l8,-6 l6,8 M380,30 l-6,-8 l-8,6 M20,240 l10,-8 l8,8 M390,236 l-8,-8 l-6,10 M200,16 l6,-8 l6,8"
+  },
+  {
+   "classe": "plan-arete",
+   "style": "fill:var(--braise);fill-opacity:.55;stroke:none;opacity:1",
+   "d": "M150,110 m-2.5,0 a2.5,2.5 0 1 0 5,0 a2.5,2.5 0 1 0 -5,0 M262,110 m-2.5,0 a2.5,2.5 0 1 0 5,0 a2.5,2.5 0 1 0 -5,0"
+  }
+ ],
+ "etiquettes": [
+  {
+   "classe": "plan-eau",
+   "x": 210,
+   "y": 248,
+   "texte": "on n'en sort qu'en miroitant"
+  }
+ ],
+ "rose": null,
+ "salles": [
+  {
+   "id": "salle-de-la-source",
+   "nom": "La salle de la Source",
+   "cle": true,
+   "forme": {
+    "d": "M156,92 Q206,70 256,92 Q276,130 256,170 Q206,190 156,170 Q136,130 156,92 Z"
+   },
+   "etiq": [
+    206,
+    160
+   ],
+   "lignes": [
+    "La Source"
+   ],
+   "quoi": "La grande caverne de roche noire, les torches, le siège de la Source au fond. On y vient appelé, et l'on n'y parle pas le premier.",
+   "alias": [
+    "la salle de la Source"
+   ],
+   "motifs": [
+    "la salle de la source",
+    "le trône de la source",
+    "chez la source"
+   ],
+   "orne": [
+    "flamme",
+    206,
+    118,
+    9
+   ]
+  },
+  {
+   "id": "antre-de-l-oracle",
+   "nom": "L'antre de l'Oracle",
+   "cle": true,
+   "forme": {
+    "d": "M44,124 Q54,80 104,78 Q140,90 140,132 Q132,176 92,182 Q48,170 44,124 Z"
+   },
+   "etiq": [
+    92,
+    166
+   ],
+   "lignes": [
+    "L'Oracle"
+   ],
+   "quoi": "Une grotte plus basse, le bassin où l'Oracle regarde, les voiles. Ce qu'elle y voit s'embrouille dès que la magie s'en mêle.",
+   "alias": [
+    "l'antre de l'Oracle"
+   ],
+   "motifs": [
+    "l'antre de l'oracle",
+    "chez l'oracle",
+    "le bassin"
+   ],
+   "orne": [
+    "ondes",
+    92,
+    122,
+    9
+   ]
+  },
+  {
+   "id": "les-galeries",
+   "nom": "Les galeries",
+   "forme": {
+    "d": "M272,90 Q318,72 352,96 Q366,130 350,160 Q318,178 276,166 Q290,128 272,90 Z"
+   },
+   "etiq": [
+    316,
+    158
+   ],
+   "lignes": [
+    "Galeries"
+   ],
+   "quoi": "Des boyaux taillés dans la roche, où les démons de la cour tiennent leurs repaires et attendent qu'on les appelle.",
+   "alias": [
+    "les galeries"
+   ],
+   "motifs": [
+    "les galeries",
+    "ses galeries",
+    "les repaires"
+   ]
+  },
+  {
+   "id": "les-cavernes",
+   "nom": "Les cavernes",
+   "forme": {
+    "d": "M330,170 Q372,160 392,182 Q392,206 352,210 Q318,212 300,196 Q306,178 330,170 Z"
+   },
+   "etiq": [
+    350,
+    198
+   ],
+   "lignes": [
+    "Cavernes"
+   ],
+   "quoi": "Le dédale au-delà des galeries : on s'y perd, on s'y cache, et l'on y règle ce que la Source ne doit pas voir.",
+   "alias": [
+    "les cavernes"
+   ],
+   "motifs": [
+    "les cavernes",
+    "le dédale"
+   ]
+  }
+ ]
+}

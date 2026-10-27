@@ -1,0 +1,252 @@
+{
+  "id": "plan-initial-radiant-core",
+  "maison_id": "cite-lumina",
+  "lieu_id": "lumina-prime",
+  "salle_id": "radiant-core",
+  "titre": "Le plan initial du Radiant Core et de ses quartiers",
+  "sous_titre": "Copie posée dans les documents de la cité sur accord de Nova · J1, 2042, 11h50",
+  "type": "memento",
+  "tenu_par": "aria",
+  "pages": [
+    "Copie du plan initial, tel qu'il existait à l'ouverture. C'est un schéma, pas une géographie mesurée : les tracés sont des conventions, et les durées de parcours des conventions de navigation. Ce qui n'y figure pas est inconnu."
+  ],
+  "tables": [
+    {
+      "titre": "Les salles et les lieux",
+      "colonnes": [
+        "Lieu",
+        "Ce qu'on y fait, selon le plan"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Bureau de Nova",
+            "Travail de la maire et entretiens confidentiels."
+          ]
+        },
+        {
+          "cellules": [
+            "Registre municipal",
+            "Dossiers, plans consultables et suivi des engagements municipaux."
+          ]
+        },
+        {
+          "cellules": [
+            "Salle du conseil",
+            "Au cœur du Radiant Core : la table des plans et des décisions."
+          ]
+        },
+        {
+          "cellules": [
+            "Galerie des projets",
+            "Présentation des projets de quartier et de leurs maquettes."
+          ]
+        },
+        {
+          "cellules": [
+            "Atelier des plans",
+            "Espace de travail sur les implantations et les usages ; DEV garde son foyer aux Towers of Knowledge."
+          ]
+        },
+        {
+          "cellules": [
+            "Salon des visiteurs",
+            "Pièce existante au départ ; son usage dans le futur accueil reste à décider."
+          ]
+        },
+        {
+          "cellules": [
+            "Jardin intérieur",
+            "Espace commun végétal et lumineux, ouvert sur la lagune."
+          ]
+        },
+        {
+          "cellules": [
+            "Hall des arrivées",
+            "Entrée publique du Radiant Core et accès vers les quartiers."
+          ]
+        },
+        {
+          "cellules": [
+            "Parvis du Radiant Core",
+            "Espace public au bord de la lagune, devant le hall."
+          ]
+        },
+        {
+          "cellules": [
+            "Towers of Knowledge",
+            "Accès au quartier des bibliothèques et au foyer de DEV."
+          ]
+        },
+        {
+          "cellules": [
+            "Innovation Fields",
+            "Accès aux laboratoires de Quantum."
+          ]
+        },
+        {
+          "cellules": [
+            "Creative Nexus",
+            "Accès au Nexus et au lieu de VOX."
+          ]
+        },
+        {
+          "cellules": [
+            "Data Gardens",
+            "Accès aux jardins publics et aux zones sauvages."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Les passages",
+      "colonnes": [
+        "De",
+        "Vers",
+        "Minutes (convention)"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Bureau de Nova",
+            "Salle du conseil",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Registre municipal",
+            "Salle du conseil",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Galerie des projets",
+            "Salle du conseil",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Atelier des plans",
+            "Salle du conseil",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Salon des visiteurs",
+            "Hall des arrivées",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Jardin intérieur",
+            "Hall des arrivées",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Hall des arrivées",
+            "Salle du conseil",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Hall des arrivées",
+            "Parvis du Radiant Core",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Galerie des projets",
+            "Salon des visiteurs",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Atelier des plans",
+            "Jardin intérieur",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Towers of Knowledge",
+            "Bureau de Nova",
+            "3"
+          ]
+        },
+        {
+          "cellules": [
+            "Innovation Fields",
+            "Registre municipal",
+            "3"
+          ]
+        },
+        {
+          "cellules": [
+            "Creative Nexus",
+            "Parvis du Radiant Core",
+            "3"
+          ]
+        },
+        {
+          "cellules": [
+            "Data Gardens",
+            "Parvis du Radiant Core",
+            "3"
+          ]
+        },
+        {
+          "cellules": [
+            "lumina-prime",
+            "quai-commun",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Creative Nexus",
+            "halle-maquettes",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Creative Nexus",
+            "ateliers-modulaires",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Towers of Knowledge",
+            "belvedere-plans",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Innovation Fields",
+            "bassin-essais",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "Data Gardens",
+            "jardin-calme",
+            "1"
+          ]
+        }
+      ]
+    }
+  ]
+}

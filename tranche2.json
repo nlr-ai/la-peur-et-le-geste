@@ -1,0 +1,26 @@
+[
+  {
+    "type": "salle",
+    "salle": "grande-salle-rupea",
+    "lieu": "La grande salle, citadelle de Rupea",
+    "moment": "au crepuscule",
+    "presents": [
+      "teodor",
+      "stanca",
+      "radu"
+    ],
+    "pour": "teodor"
+  },
+  {
+    "type": "recit",
+    "texte": "La grande salle s'ouvre sous sa voûte basse. Les longues tables de chêne nu sont désertes. Au fond, près de l'arche du corps de garde, Radu est assis sur un banc de pierre, sa sacoche de cuir graisseux serrée contre la hanche, les mains à plat sur les genoux. Il tourne la tête à vos pas sans se lever.",
+    "duree": 2,
+    "pour": "teodor"
+  },
+  {
+    "type": "recit",
+    "texte": "Au haut bout de la salle, la haute chaire d'Anselm est encore vide. Devant sa place, un hanap de fer et l'écuelle de sel attendent le service de la nuit. Derrière vous, Stanca s'est arrêtée net, à trois pas.",
+    "duree": 1,
+    "pour": "teodor"
+  }
+]

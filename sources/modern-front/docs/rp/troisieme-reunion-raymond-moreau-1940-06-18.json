@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "troisieme-reunion-raymond-moreau-1940-06-18",
+  "title": "Troisième réunion chez Raymond Moreau — ce qu’ils peuvent nous retirer",
+  "language": "fr",
+  "recordedOn": "2026-10-21",
+  "scene": {
+    "scenario": "arrival",
+    "seed": 1,
+    "date": "1940-06-18",
+    "time": "Après le repas du soir ; heure précise non fixée.",
+    "location": "Chez Raymond et Josette Moreau, Niort",
+    "participants": [
+      {"id": 3050, "name": "Raymond Moreau", "role": "player-character-and-host"},
+      {"id": 790, "name": "Josette Moreau", "role": "household-member-and-participant"},
+      {"id": 2181, "name": "Jacques Augereau", "role": "guest"},
+      {"id": 7472, "name": "Émile Guillon", "role": "guest"},
+      {"id": 7581, "name": "Ernest Gaillard", "role": "guest"}
+    ],
+    "ending": "La discussion s’interrompt pour écouter la radio ; aucune émission précise ni information entendue n’est identifiée dans ce passage."
+  },
+  "provenance": {
+    "kind": "chat-roleplay-transcript",
+    "previousScene": "docs/rp/seconde-reunion-raymond-moreau-1940-06-17.json",
+    "note": "Raymond est joué par l’utilisateur ; les autres personnages et la narration par l’assistant. Les déclarations, craintes et chiffres des personnages sont conservés comme paroles, sans validation automatique comme faits du monde.",
+    "appliedToSimulation": false,
+    "continuityNotes": [
+      "La mention des enfants et du père de Raymond provient de ses interventions RP ; aucun identifiant ni nouveau membre de famille n’est créé par cet enregistrement.",
+      "La démarche de Josette et la demande de copie rapportée par Ernest sont des développements RP, non des événements relus depuis la simulation.",
+      "Le souhait de Raymond de se procurer un revolver ne constitue ni une acquisition ni un accord du groupe."
+    ]
+  },
+  "transcript": {
+    "format": "markdown",
+    "scope": "Demande d’introduction, introduction complète, quatre interventions de Raymond et quatre réponses narratives. Texte des interventions conservé, y compris les coquilles.",
+    "messages": [
+      {
+        "index": 1,
+        "role": "user",
+        "content": "mon idée là c'est de jouer les reunions et de créer les systemes au fur et a mesure, tout en sauvegardant au cas ou c'est réutilisable.\n\nfaisons la réu 3, mais je prends raymond. Introduis la scene"
+      },
+      {
+        "index": 2,
+        "role": "assistant",
+        "content": "*18 juin 1940, après le repas. Chez Raymond et Josette, à Niort. Nous poursuivons le RP ; tu décides des paroles et des gestes de Raymond.*\n\nOn frappe à la porte avant que Josette ait fini d’essuyer la table.\n\nJacques est revenu comme convenu. Émile l’accompagne.\n\n— Bonsoir. J’ai croisé Jacques, explique Émile depuis le seuil. Il m’a dit que vous écouteriez peut-être encore.\n\nJacques tient sa casquette à deux mains.\n\n— Je lui ai dit qu’il pouvait venir demander.\n\nJosette rapporte deux assiettes vers la cuisine. En passant, elle regarde Raymond, puis les hommes qui attendent.\n\n— Entrez. Vous allez laisser la porte ouverte toute la soirée.\n\nÉmile prend la chaise la plus proche. Jacques reste debout près du poste, encore éteint. Les feuilles de la veille sont dans le tiroir.\n\n— Maurice m’a demandé ce qu’on avait décidé, dit Émile. Je lui ai raconté que vous compariez les annonces. Il m’a demandé ce qu’il devait faire, lui.\n\nIl frotte son pouce contre une écharde du dossier.\n\n— Je n’ai pas bien su quoi lui répondre.\n\nJacques regarde Josette. Elle surprend son regard et pose le torchon.\n\n— J’ai demandé.\n\nIl se redresse.\n\n— Pour les prisonniers ?\n\n— Oui. Je n’ai pas encore de nom à vous donner. La personne à qui j’ai parlé veut savoir si vous cherchez à joindre quelqu’un en particulier ou si vous voulez un renseignement général.\n\n— Quelqu’un en particulier.\n\n— Alors il faudra peut-être donner son nom.\n\nJacques baisse les yeux vers sa casquette.\n\n— À qui ?\n\n— C’est précisément ce que je n’ai pas encore obtenu.\n\nÉmile cesse de jouer avec l’écharde. Il regarde Jacques, puis Josette.\n\n— Ça pourrait m’intéresser aussi.\n\nElle tire enfin sa chaise.\n\n— Je veux bien poser une autre question. Mais ne dites pas autour de vous que je retrouve les prisonniers.\n\n— Personne ne dit ça, répond Jacques.\n\n— Pas encore.\n\nUn bruit de pas s’arrête devant la maison. Deux coups brefs : Ernest.\n\nIl entre avec sa feuille pliée dans la main.\n\n— Bonsoir. Ah, tu es là aussi, Émile.\n\nIl remarque le silence et ralentit.\n\n— Je dérange ?\n\nJosette lui indique une chaise. Ernest s’assied, mais garde son papier.\n\n— J’ai une chose à vous dire avant qu’on recommence. Je n’ai pas prêté ma feuille. Comme convenu.\n\nIl regarde Raymond.\n\n— Mais quelqu’un m’a demandé de lui en faire une copie. Pour sa femme, qui n’entend pas les annonces.\n\nJacques ouvre la bouche, puis attend.\n\nErnest pose la feuille devant lui.\n\n— Je lui ai dit que je verrais avec vous. Mais enfin… c’est bien pour que ça serve à quelqu’un qu’on fait ça ?\n\nTous les regards ne se tournent pas vers Raymond en même temps. Celui d’Émile arrive le dernier.\n\nLe poste est toujours éteint."
+      },
+      {
+        "index": 3,
+        "role": "user",
+        "actorId": 3050,
+        "content": "J'ai un truc à vous dire les amis. J'ai parlé à mon père ce matin, et vous le savez il a vécu la grande guerre. Alors, comme on se dirige vers la notre je lui ai demandé de me raconter.\n\n\n\nJ'ai pris trois décisions :\n\n- de me procurer un revolver le plus rapidement possible.\n- de ne jamais accepter les Allemands\n- de tout faire pour faire repartir les boshes le plus vite possible chez eux\n\n\n\nCes gens sont là pour piller nos vies ! Croyez-vous qu'on puisse envahir, sans asservir? Il n'y qu'un seul vrai choix, et vous devez le faire avec moi: nous sommes 70 millions eux? Deux! Il faut qu'on ait confiance en nous meme, en ce groupe, en notre patrie!\n\n\n\nDehors les boshs [scande]"
+      },
+      {
+        "index": 4,
+        "role": "assistant",
+        "content": "Le premier cri surprend Ernest. Au second, Josette se lève.\n\n— Raymond. Moins fort.\n\nElle attend que tu la regardes.\n\n— Il y a des fenêtres.\n\nJacques a posé sa casquette sur la table. Il ne reprend pas le cri, mais il te regarde droit.\n\n— Je ne veux pas d’eux ici non plus.\n\nIl avance les avant-bras sur ses genoux.\n\n— Mais quand tu dis qu’on doit faire ce choix avec toi… lequel ? Refuser leur présence ? Ou prendre une arme ? Parce que tu viens de mettre les deux ensemble.\n\n— Laisse-le finir, dit Émile.\n\nSa voix est plus sèche que prévu. Jacques se tourne vers lui.\n\nÉmile ne le regarde pas. Il te fixe.\n\n— Ton père t’a raconté quoi ?\n\nUn silence.\n\n— J’y étais, moi, à la guerre. Je veux savoir ce qu’il t’a dit qui te fait demander un revolver aujourd’hui.\n\nIl passe une main sur sa bouche.\n\n— Je ne te dis pas de les accueillir. Mais un revolver, Raymond… Tu comptes en faire quoi quand ils arriveront ?\n\nErnest replie sa feuille le long d’un pli déjà marqué. Il appuie dessus, soigneusement.\n\n— Et tes chiffres, je ne les comprends pas. Soixante-dix millions contre deux, tu comptes qui ?\n\nIl relève la tête.\n\n— Hier, on faisait attention à chaque mot du poste. Il faut qu’on fasse pareil avec les nôtres.\n\nJosette est restée debout. Quand elle reprend la parole, elle ne s’adresse qu’à toi.\n\n— Ce matin, tu as pris trois décisions. Très bien. Est-ce que tu as aussi décidé que cette arme entrerait chez nous ?\n\nJacques baisse un instant les yeux, puis revient vers toi.\n\n— Je suis prêt à parler de ce qu’on peut faire. Mais ne me demande pas de crier pour te prouver que je suis avec toi.\n\nÉmile hoche à peine la tête.\n\n— Raconte-nous d’abord ce qu’a dit ton père."
+      },
+      {
+        "index": 5,
+        "role": "user",
+        "actorId": 3050,
+        "content": "d'ici quelques jours, nous serons occupés. Occupés. Je sais que c'est difficile a àréaliser, mais c'est nous versus eux. Je ne sais pas combien ils seront, un bataillon?\n\nJe ne sais pas encore comment le battre mais regardez nos choix: donner tout ou se revolter\n\nNe croyez vous pas qu'ils vont venir pour vos radios ? Pour vos billets? Des femmes même, oui!\n\nLe constat m'est implacable: nous ne pouvons pas rien faire et nous devons chercher, nous organiser"
+      },
+      {
+        "index": 6,
+        "role": "assistant",
+        "content": "— Nous organiser pour quoi, dès demain ? demande Ernest.\n\nIl a cessé de plier son papier.\n\n— Je ne te demande pas comment on bat un bataillon. Je te demande ce que tu attends de moi quand je sortirai d’ici.\n\n— Attends, dit Josette.\n\nElle tire sa chaise, mais ne s’assied pas encore.\n\n— Tu viens de dire qu’ils allaient prendre des femmes. Tu as appris quelque chose ? Quelqu’un t’a raconté quelque chose de précis ?\n\n— On sait ce qu’une armée peut faire, dit Émile.\n\n— Alors qu’il dise ce qu’il sait.\n\nElle te regarde.\n\n— J’ai peur aussi, Raymond. Tu n’as pas besoin d’en rajouter pour que je comprenne qu’ils arrivent.\n\nJacques prend une inspiration.\n\n— Sur une chose, je suis d’accord avec toi : si on attend tous chacun chez soi, on ne saura même plus à qui parler.\n\nIl cherche le regard d’Émile.\n\n— On peut continuer à se voir. Faire passer ce qu’on apprend. Aider quelqu’un qui en a besoin.\n\n— Ça, on le faisait déjà hier, répond Ernest.\n\n— Hier, on pensait surtout à comprendre la radio.\n\nÉmile recule légèrement sa chaise.\n\n— Raymond veut qu’on décide de rester ensemble quand ils seront là.\n\nIl se tourne vers toi.\n\n— C’est ça ?\n\nPuis, sans attendre tout à fait :\n\n— Moi, je peux te dire que je ne vais pas cesser de te connaître parce qu’un Allemand passe dans ta rue. Et si tu as besoin d’aide, tu viens me chercher. Mais je veux pouvoir te dire que tu fais une bêtise sans que tu me ranges avec eux.\n\nErnest pose enfin sa feuille à plat.\n\n— Celui qui m’a demandé une copie, il veut renseigner sa femme. Il n’a pas demandé à se révolter. Si je lui donne notre papier, est-ce que je l’embarque dans quelque chose ? Il faut que je le sache.\n\nJosette s’assied.\n\n— Et moi, j’ai dit que je me renseignerais pour les prisonniers. Je vais le faire.\n\nElle rapproche sa chaise de la table.\n\n— Mais si chaque personne qui accepte de t’aider se retrouve engagée dans tes trois décisions, bientôt personne ne te promettra rien.\n\nJacques garde les yeux sur toi.\n\n— Je veux qu’on cherche, oui. Je suis prêt à revenir. Tu peux compter là-dessus.\n\nIl hésite.\n\n— Est-ce que ça te suffit pour commencer ?"
+      },
+      {
+        "index": 7,
+        "role": "user",
+        "actorId": 3050,
+        "content": "je vous laisse avec une chose: faites la liste de tout ce qu'ils seront capable de vous retirer. Et dites moi si ça cogite pas"
+      },
+      {
+        "index": 8,
+        "role": "assistant",
+        "content": "Personne ne répond tout de suite.\n\nErnest regarde sa feuille, puis la retourne. Il sort un bout de crayon de sa poche.\n\n— Mon camion, dit-il. L’essence. Avec ça, une bonne partie de ce que je peux faire.\n\nIl écrit quelques mots.\n\n— Mais si je fais cette liste, c’est aussi pour chercher ce que je peux mettre à l’abri.\n\nJacques ne prend pas de papier.\n\n— Moi, il y a déjà quelqu’un qui me manque.\n\nJosette baisse les yeux. La question des prisonniers est restée entre eux, sans adresse où l’envoyer.\n\n— Alors oui, ça cogite, reprend Jacques. Même quand je ne dis rien.\n\nÉmile se penche pour lire ce qu’Ernest a noté.\n\n— Ajoute le travail.\n\nErnest lui tend le crayon. Émile hésite, puis le prend.\n\n— Et la possibilité de dire non.\n\nIl écrit lentement. Quand il repose le crayon, il garde la main près de la feuille.\n\n— Ça, je ne sais pas comment on le cache.\n\nJosette regarde les trois hommes, puis toi.\n\n— Vous pouvez mettre cette maison sur votre liste. La porte qu’on ferme. Les gens qu’on choisit d’y recevoir.\n\nElle s’arrête.\n\n— Je voudrais qu’on puisse encore s’y parler sans avoir peur.\n\nErnest pousse la feuille vers le milieu de la table. Il n’y a que quelques lignes, et beaucoup de place dessous.\n\n— On peut la continuer chacun de notre côté. Revenir avec ce qu’on craint de perdre… et une idée de ce qu’on peut faire.\n\n— Pas de noms, dit Jacques.\n\nErnest relève les yeux.\n\n— Sur la feuille. Si on commence à parler des gens qu’on veut protéger, je préfère qu’on ne les écrive pas.\n\nÉmile approuve d’un signe de tête.\n\nJosette, elle, n’a pas quitté ton visage.\n\n— Et toi, Raymond ? Tu vas la faire aussi ?\n\nElle désigne le papier.\n\n— Je voudrais savoir ce que tu mettrais en premier."
+      },
+      {
+        "index": 9,
+        "role": "user",
+        "actorId": 3050,
+        "content": "mes enfants bien sûr, et ma femme. Tout ce que je fais je le fais pour eux.\n\nDemain viendra le temps de décider notre posture. En attendant, il faut rester informés via la radio"
+      },
+      {
+        "index": 10,
+        "role": "assistant",
+        "content": "Josette te regarde un moment.\n\n— Alors parle-moi de ce que tu comptes faire avant de le décider.\n\nSa voix a baissé. Elle ne revient pas sur le revolver devant les autres, mais elle ne t’a pas donné son accord.\n\nÉmile rapproche sa chaise du poste.\n\n— Demain, on en reparle. On aura peut-être dormi un peu.\n\n— Et réfléchi, ajoute Ernest.\n\nIl reprend sa feuille, celle des annonces. L’autre reste au milieu de la table.\n\n— Pour la copie qu’on m’a demandée, je vais attendre. Je préfère vérifier encore ce qu’on a écrit.\n\nJacques se lève pour déplacer sa chaise. Il la place assez près du poste pour entendre sans monter le son.\n\n— On note l’heure ?\n\nErnest sort son crayon.\n\nJosette débarrasse les derniers verres, puis revient s’asseoir. Cette fois, elle ne prend rien pour s’occuper les mains.\n\nLe bouton tourne. Un souffle remplit la pièce, suivi d’un sifflement aigu. Jacques grimace ; le réglage continue jusqu’à faire apparaître quelques mots, puis une phrase entière.\n\nLes conversations cessent.\n\nSur la table, la liste de ce qu’ils craignent de perdre est restée ouverte."
+      }
+    ]
+  }
+}

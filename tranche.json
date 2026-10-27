@@ -1,0 +1,26 @@
+[
+  {
+    "type": "salle",
+    "salle": "couloir-rupea",
+    "lieu": "Le couloir haut, citadelle de Rupea",
+    "moment": "au crepuscule",
+    "presents": [
+      "teodor",
+      "stanca"
+    ],
+    "pour": "teodor"
+  },
+  {
+    "type": "geste",
+    "acteur_id": "stanca",
+    "texte": "Trois pas. Dès que vous franchissez le seuil, la silhouette voûtée de Stanca se détache de l'ombre du chambranle. Elle ne lève pas les yeux vers votre visage, ne pose aucune question. Elle emboîte le pas, exactement à trois pas derrière, comptant les dalles à mi-voix.",
+    "duree": 1,
+    "pour": "teodor"
+  },
+  {
+    "type": "recit",
+    "texte": "Le couloir de pierre froide descend vers la grande salle. Au bas des marches, une odeur de suif et de cendre monte des cuisines mortes. En haut, la voûte est muette : Anselm n'est pas encore descendu.",
+    "duree": 2,
+    "pour": "teodor"
+  }
+]

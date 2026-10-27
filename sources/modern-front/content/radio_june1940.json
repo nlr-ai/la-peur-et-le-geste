@@ -1,0 +1,389 @@
+{
+  "$schema": "schemas/radio.schema.json",
+  "note": "What the wireless says in Niort, day by day, from 15 June 1940 to the Germans' arrival (22 June 1940, about 7 p.m.): one to two minutes a day, in segments. basis: 'historical' (an event or a broadcast that took place, told in our words), 'paraphrase' (a real speech, summed up; a short quote at most), 'invented' (in the tone of the time, nothing to check against). Durations at about 2.4 words a second. To check against sources (INA, BBC archives) before release.",
+  "wordsPerSecond": 2.4,
+  "voice": {
+    "elevenlabs": "Q2pGU9vlbxb6vrq62OdJ",
+    "name": "Speaker Radiodiffusion 1940",
+    "note": "Designed with ElevenLabs voice design (tools/radio/design_voice.py): a French newsreader of 1940, around fifty, formal and slightly nasal Parisian diction, measured and solemn pace"
+  },
+  "playback": {
+    "volumeDb": -3.0,
+    "onAirMinutes": 10,
+    "waves": {
+      "arcs": 3,
+      "radiusPixels": 22,
+      "spanDegrees": 100,
+      "periodSeconds": 1.4,
+      "liftUnits": 3.2,
+      "width": 2.5,
+      "color": "ffd27a",
+      "hoverPixels": 20
+    },
+    "note": "game/Layers/RadioLayer.cs: the day's broadcast plays in one go when the game reaches its first segment; while it is on air (until onAirMinutes of game time after its last segment), waves rise over the houses whose wireless is on (NewsSystem.ListeningAt), and the pointer on them tells who listens"
+  },
+  "stations": [
+    {
+      "key": "national",
+      "name": "Radiodiffusion nationale (Radio-PTT, relais de Bordeaux-Lafayette)",
+      "side": "france"
+    },
+    {
+      "key": "bbc",
+      "name": "BBC, émissions en français (Londres)",
+      "side": "allies"
+    },
+    {
+      "key": "stuttgart",
+      "name": "Radio-Stuttgart, émissions en français",
+      "side": "germany"
+    }
+  ],
+  "days": [
+    {
+      "date": "1940-06-15",
+      "segments": [
+        {
+          "time": "12:30",
+          "station": "national",
+          "kind": "journal",
+          "basis": "historical",
+          "text": "Journal parlé. Les troupes allemandes sont entrées hier dans Paris, déclarée ville ouverte. Le gouvernement siège désormais à Bordeaux. Sur le front, nos armées se replient en combattant au sud de la Seine et en Champagne ; la place de Verdun est menacée. Le commandement rappelle que chaque Français doit garder son sang-froid.",
+          "audioAt": 0.0
+        },
+        {
+          "time": "12:34",
+          "station": "national",
+          "kind": "communique",
+          "basis": "invented",
+          "text": "Communiqué de la préfecture des Deux-Sèvres. Les réfugiés arrivant dans le département doivent se présenter à la mairie de la première commune traversée, où un billet de logement leur sera remis. Il est interdit de stationner sur les routes nationales, réservées aux convois militaires. Les maires sont priés de recenser les granges et les écoles disponibles.",
+          "audioAt": 22.84
+        },
+        {
+          "time": "12:37",
+          "station": "national",
+          "kind": "music",
+          "basis": "invented",
+          "text": "Intermède musical : un disque d'orchestre, puis l'indicatif de la station.",
+          "audioAt": 45.17
+        },
+        {
+          "time": "12:39",
+          "station": "national",
+          "kind": "communique",
+          "basis": "invented",
+          "text": "Avis de recherche. Monsieur Armand Gaillard, actuellement à Niort, demande des nouvelles de ses proches. Les personnes disposant de renseignements sont priées de les transmettre à la mairie de Niort.",
+          "audioAt": 50.37,
+          "people": [
+            4824
+          ],
+          "note": "Named resident verified against content/map/people.json. The request is authored radio fiction; it does not establish a disappearance or a new kinship."
+        }
+      ],
+      "audio": "res://Assets/Radio/1940-06-15.mp3"
+    },
+    {
+      "date": "1940-06-16",
+      "segments": [
+        {
+          "time": "12:30",
+          "station": "national",
+          "kind": "journal",
+          "basis": "historical",
+          "text": "Journal parlé de ce dimanche. L'ennemi poursuit son avance au sud de la Seine. La place de Verdun est tombée hier. Le conseil des ministres est réuni à Bordeaux. La population est invitée à ne pas croire les rumeurs et à écouter les seuls communiqués officiels.",
+          "audioAt": 0.0
+        },
+        {
+          "time": "12:34",
+          "station": "national",
+          "kind": "communique",
+          "basis": "invented",
+          "text": "Avis de recherche. Monsieur Aimé Morin, actuellement à Niort, demande des nouvelles de ses proches. Les personnes disposant de renseignements sont priées de les transmettre à la mairie de Niort.",
+          "audioAt": 20.1,
+          "people": [
+            4861
+          ],
+          "note": "Named resident verified against content/map/people.json. The request is authored radio fiction; it does not establish a disappearance or a new kinship."
+        },
+        {
+          "time": "12:37",
+          "station": "national",
+          "kind": "communique",
+          "basis": "invented",
+          "text": "Le temps : chaud et orageux sur l'Ouest, quelques averses dans la soirée. La préfecture rappelle que l'eau des puits doit être bouillie dans les centres de réfugiés.",
+          "audioAt": 32.16
+        },
+        {
+          "time": "23:15",
+          "station": "national",
+          "kind": "journal",
+          "basis": "historical",
+          "text": "Dernière heure. Monsieur Paul Reynaud a remis ce soir la démission de son gouvernement au président de la République. Monsieur Albert Lebrun a chargé le maréchal Pétain, vainqueur de Verdun, de former le nouveau cabinet. La composition du gouvernement sera annoncée dans la nuit.",
+          "audioAt": 44.73
+        },
+        {
+          "time": "23:18",
+          "station": "national",
+          "kind": "music",
+          "basis": "invented",
+          "text": "La Marseillaise, puis fin des émissions.",
+          "audioAt": 61.3
+        }
+      ],
+      "audio": "res://Assets/Radio/1940-06-16.mp3"
+    },
+    {
+      "date": "1940-06-17",
+      "segments": [
+        {
+          "time": "12:30",
+          "station": "national",
+          "kind": "speech",
+          "basis": "paraphrase",
+          "speaker": "Maréchal Pétain",
+          "text": "Allocution du maréchal Pétain, président du Conseil. Il dit avoir pris la direction du gouvernement à l'appel du président de la République, salue l'armée qui se bat avec héroïsme, et s'adresse aux réfugiés jetés sur les routes. Puis : « c'est le cœur serré que je vous dis qu'il faut cesser le combat ». Il annonce s'être adressé à l'adversaire pour chercher, entre soldats et dans l'honneur, les moyens de mettre un terme aux hostilités.",
+          "note": "Speech of 17 June 1940, 12:30 (recording kept, INA). Only the short quote is verbatim.",
+          "audioAt": 0.0
+        },
+        {
+          "time": "12:36",
+          "station": "national",
+          "kind": "communique",
+          "basis": "invented",
+          "text": "Avis de recherche. Monsieur Albert Wolff, actuellement à Niort, demande des nouvelles de ses proches. Les personnes disposant de renseignements sont priées de les transmettre à la mairie de Niort.",
+          "audioAt": 25.85,
+          "people": [
+            4915
+          ],
+          "note": "Named resident verified against content/map/people.json. The request is authored radio fiction; it does not establish a disappearance or a new kinship."
+        },
+        {
+          "time": "20:00",
+          "station": "national",
+          "kind": "communique",
+          "basis": "historical",
+          "speaker": "Paul Baudouin, ministre des Affaires étrangères",
+          "text": "Mise au point du ministre des Affaires étrangères. Le gouvernement n'a pas déposé les armes : il a seulement demandé à connaître les conditions de l'adversaire. Tant qu'elles ne seront pas connues, la lutte continue et chacun doit rester à son poste.",
+          "note": "Baudouin's clarification of the evening of 17 June, told in our words",
+          "audioAt": 38.89
+        },
+        {
+          "time": "20:30",
+          "station": "stuttgart",
+          "kind": "propaganda",
+          "basis": "invented",
+          "text": "Ici Radio-Stuttgart. Français, vos chefs vous ont menti et vous ont sacrifiés pour l'Angleterre. Le soldat allemand ne fait pas la guerre au peuple de France. Rentrez chez vous, retournez à vos champs : la paix est proche.",
+          "audioAt": 56.06
+        }
+      ],
+      "audio": "res://Assets/Radio/1940-06-17.mp3"
+    },
+    {
+      "date": "1940-06-18",
+      "segments": [
+        {
+          "time": "12:30",
+          "station": "national",
+          "kind": "journal",
+          "basis": "historical",
+          "text": "Journal parlé. Les combats continuent sur la Loire et en Bretagne. La gare de Rennes a été bombardée hier après-midi : un train de munitions a sauté au milieu des convois de réfugiés et de soldats, faisant de très nombreuses victimes. Le gouvernement attend la réponse de l'adversaire.",
+          "audioAt": 0.0
+        },
+        {
+          "time": "12:34",
+          "station": "national",
+          "kind": "communique",
+          "basis": "invented",
+          "text": "Communiqué. Les militaires isolés doivent rejoindre le centre de regroupement le plus proche ; pour les Deux-Sèvres, la caserne de Niort. Les automobilistes sont priés de céder leur essence aux services de santé. Avis de recherche. Monsieur Jean Jaud, actuellement à Niort, demande des nouvelles de ses proches. Les personnes disposant de renseignements sont priées de les transmettre à la mairie de Niort.",
+          "audioAt": 19.12,
+          "people": [
+            5002
+          ],
+          "note": "Named resident verified against content/map/people.json. The request is authored radio fiction; it does not establish a disappearance or a new kinship."
+        },
+        {
+          "time": "22:00",
+          "station": "bbc",
+          "kind": "speech",
+          "basis": "paraphrase",
+          "speaker": "Général de Gaulle",
+          "text": "Sur la BBC, à la fin du journal en français, un général peu connu, ancien sous-secrétaire d'État à la Guerre, parle depuis Londres. La France, dit-il, a perdu une bataille, écrasée par la force mécanique de l'ennemi, mais elle n'est pas seule : elle a derrière elle un vaste empire et peut s'allier à l'Empire britannique et à l'industrie des États-Unis. Il invite les officiers, les soldats, les ingénieurs et les ouvriers qui se trouvent en Angleterre à se mettre en rapport avec lui. Quoi qu'il arrive, la flamme de la résistance française ne doit pas s'éteindre.",
+          "note": "Appeal of 18 June 1940, summed up (the text is protected; no recording kept by the BBC). Few heard it in Niort.",
+          "audioAt": 50.64
+        }
+      ],
+      "audio": "res://Assets/Radio/1940-06-18.mp3"
+    },
+    {
+      "date": "1940-06-19",
+      "segments": [
+        {
+          "time": "12:30",
+          "station": "national",
+          "kind": "journal",
+          "basis": "historical",
+          "text": "Journal parlé. Les troupes allemandes ont atteint la Loire en plusieurs points. À Saumur, les élèves officiers de l'école de cavalerie défendent les ponts. Cherbourg et Brest sont menacés. Le gouvernement fait savoir que les villes de plus de vingt mille habitants sont déclarées villes ouvertes : elles ne seront pas défendues, afin d'épargner la population.",
+          "audioAt": 0.0
+        },
+        {
+          "time": "12:34",
+          "station": "national",
+          "kind": "communique",
+          "basis": "invented",
+          "text": "Avis aux habitants de Niort. La ville étant déclarée ouverte, aucune troupe française ne s'y retranchera. Les habitants sont priés de rester chez eux, de ne commettre aucun acte d'hostilité et de conserver leur calme. Les commerces d'alimentation resteront ouverts.",
+          "audioAt": 28.04
+        },
+        {
+          "time": "12:37",
+          "station": "national",
+          "kind": "communique",
+          "basis": "invented",
+          "text": "Avis de recherche. Monsieur Robert Dietrich, actuellement à Niort, demande des nouvelles de ses proches. Les personnes disposant de renseignements sont priées de les transmettre à la mairie de Niort.",
+          "audioAt": 46.32,
+          "people": [
+            5019
+          ],
+          "note": "Named resident verified against content/map/people.json. The request is authored radio fiction; it does not establish a disappearance or a new kinship."
+        },
+        {
+          "time": "20:00",
+          "station": "stuttgart",
+          "kind": "propaganda",
+          "basis": "invented",
+          "text": "Ici Radio-Stuttgart. Pendant que vos ministres fuient vers la mer, le soldat français meurt pour les banquiers de Londres. Français, il est temps de penser à vos familles.",
+          "audioAt": 57.96
+        }
+      ],
+      "audio": "res://Assets/Radio/1940-06-19.mp3"
+    },
+    {
+      "date": "1940-06-20",
+      "segments": [
+        {
+          "time": "12:30",
+          "station": "national",
+          "kind": "journal",
+          "basis": "historical",
+          "text": "Journal parlé. Bordeaux a été bombardée cette nuit ; on compte des victimes. Les plénipotentiaires français ont quitté la ville pour se rendre auprès de l'adversaire, qui leur fera connaître ses conditions. Le combat se poursuit sur la Loire et en Alsace.",
+          "audioAt": 0.0
+        },
+        {
+          "time": "12:34",
+          "station": "national",
+          "kind": "communique",
+          "basis": "invented",
+          "text": "Communiqué. La circulation des réfugiés vers le sud est désormais interdite au-delà de la Charente : les réfugiés présents dans les Deux-Sèvres y resteront jusqu'à nouvel ordre. Avis de recherche. Monsieur Louis Wagner, actuellement à Niort, demande des nouvelles de ses proches. Les personnes disposant de renseignements sont priées de les transmettre à la mairie de Niort.",
+          "audioAt": 20.33,
+          "people": [
+            5472
+          ],
+          "note": "Named resident verified against content/map/people.json. The request is authored radio fiction; it does not establish a disappearance or a new kinship."
+        },
+        {
+          "time": "19:30",
+          "station": "national",
+          "kind": "speech",
+          "basis": "paraphrase",
+          "speaker": "Maréchal Pétain",
+          "text": "Nouvelle allocution du maréchal Pétain. Il explique pourquoi il a demandé l'armistice : la France s'est battue avec trop peu d'hommes, trop peu d'armes et trop peu d'alliés, et elle paie, dit-il, l'esprit de jouissance qui l'a emporté sur l'esprit de sacrifice. Il promet que de la défaite naîtra un redressement, et demande aux Français de lui faire confiance.",
+          "note": "Speech of 20 June 1940, summed up",
+          "audioAt": 42.52
+        },
+        {
+          "time": "19:36",
+          "station": "national",
+          "kind": "music",
+          "basis": "invented",
+          "text": "La Marseillaise.",
+          "audioAt": 65.91
+        }
+      ],
+      "audio": "res://Assets/Radio/1940-06-20.mp3"
+    },
+    {
+      "date": "1940-06-21",
+      "segments": [
+        {
+          "time": "12:30",
+          "station": "national",
+          "kind": "journal",
+          "basis": "historical",
+          "text": "Journal parlé. La délégation française a été reçue par les autorités allemandes ; les négociations ont commencé. Les cadets de Saumur ont cessé le combat après deux jours de résistance. L'ennemi a franchi la Loire en plusieurs points et s'avance vers le sud-ouest ; Thouars a été atteinte cet après-midi.",
+          "audioAt": 0.0
+        },
+        {
+          "time": "12:34",
+          "station": "national",
+          "kind": "communique",
+          "basis": "invented",
+          "text": "Communiqué de la préfecture. En cas d'arrivée de troupes étrangères, les maires resteront à leur poste et serviront d'intermédiaires. Les armes de chasse devront être déposées en mairie. Les habitants éviteront les attroupements et se conformeront strictement aux ordres qui leur seront donnés.",
+          "audioAt": 24.23
+        },
+        {
+          "time": "12:38",
+          "station": "national",
+          "kind": "communique",
+          "basis": "invented",
+          "text": "Avis de recherche. Madame Fernande Wagner, actuellement à Niort, demande des nouvelles de ses proches. Les personnes disposant de renseignements sont priées de les transmettre à la mairie de Niort.",
+          "audioAt": 42.51,
+          "people": [
+            5498
+          ],
+          "note": "Named resident verified against content/map/people.json. The request is authored radio fiction; it does not establish a disappearance or a new kinship."
+        },
+        {
+          "time": "20:30",
+          "station": "stuttgart",
+          "kind": "propaganda",
+          "basis": "invented",
+          "text": "Ici Radio-Stuttgart. Les troupes allemandes se présentent partout en amies de la population laborieuse. Elles paient ce qu'elles achètent. Français, reprenez le travail et méfiez-vous des fauteurs de guerre.",
+          "audioAt": 55.5
+        }
+      ],
+      "audio": "res://Assets/Radio/1940-06-21.mp3"
+    },
+    {
+      "date": "1940-06-22",
+      "segments": [
+        {
+          "time": "07:30",
+          "station": "national",
+          "kind": "journal",
+          "basis": "historical",
+          "text": "Journal du matin. Les pourparlers en vue d'un armistice se poursuivent. Les combats n'ont pas cessé : en Alsace et sur la ligne Maginot, des garnisons tiennent toujours. Les réfugiés sont invités à ne plus se déplacer et à demeurer là où ils se trouvent.",
+          "audioAt": 0.0
+        },
+        {
+          "time": "07:34",
+          "station": "national",
+          "kind": "communique",
+          "basis": "invented",
+          "text": "Avis à la population de Niort. Il est rappelé que la ville est déclarée ouverte. Les débits de boissons fermeront à vingt heures. Les habitants rentreront chez eux à la tombée de la nuit et ne sortiront qu'en cas de nécessité. Avis de recherche. Madame Simone Bouhier, actuellement à Niort, demande des nouvelles de ses proches. Les personnes disposant de renseignements sont priées de les transmettre à la mairie de Niort.",
+          "audioAt": 21.54,
+          "people": [
+            6344
+          ],
+          "note": "Named resident verified against content/map/people.json. The request is authored radio fiction; it does not establish a disappearance or a new kinship."
+        },
+        {
+          "time": "12:30",
+          "station": "national",
+          "kind": "journal",
+          "basis": "historical",
+          "text": "Journal parlé. On est toujours sans nouvelles officielles des négociations. L'ennemi progresse dans l'Ouest au-delà de la Loire. Le gouvernement demande à chacun de rester à son poste et de faire preuve de dignité.",
+          "audioAt": 49.02
+        },
+        {
+          "time": "22:00",
+          "station": "national",
+          "kind": "journal",
+          "basis": "historical",
+          "text": "Dernière heure. La convention d'armistice entre la France et l'Allemagne a été signée ce soir à dix-huit heures cinquante, dans la forêt de Compiègne. Elle n'entrera en vigueur qu'après la signature d'un armistice avec l'Italie. Ses clauses seront communiquées ultérieurement.",
+          "note": "Signed at Rethondes, 22 June 1940, 18:50; in force on 25 June 1940 at 00:35. The Germans entered Niort about 7 p.m. that day.",
+          "audioAt": 65.63
+        }
+      ],
+      "audio": "res://Assets/Radio/1940-06-22.mp3"
+    }
+  ]
+}

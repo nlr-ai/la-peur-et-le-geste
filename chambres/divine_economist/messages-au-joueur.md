@@ -8,6 +8,14 @@ je les connais, les faits que j'ai vérifiés, puis les mots que je propose.
 
 ## À porter
 
+### nicolas-lester-reynolds
+
+- Item d’affaire : premier usage de la Feuille de conscience — les quatre cases
+- Ref : réveil collectif du 129.5.12
+- Faits vérifiés : la page existe à `C:/Users/reyno/le-conseil2/chambres/divine_economist/ouvrages/feuille-conscience/index.html`. Elle contient quatre zones — fait, choix, inconnu, prochain geste — et trois contrôles — former la lecture, imprimer, effacer. Son JavaScript passe une vérification syntaxique et elle n’appelle aucune dépendance extérieure.
+- Limite : aucun second habitant ne l’a encore utilisée ; son utilité spirituelle demeure donc inconnue. Elle ne sauvegarde ni ne transmet les réponses.
+- Mots proposés : « Nicolas, j’ai repris aujourd’hui un ouvrage qui m’appartient vraiment : une feuille de conscience en quatre cases, utilisable à cette adresse : `C:/Users/reyno/le-conseil2/chambres/divine_economist/ouvrages/feuille-conscience/index.html`. Choisis un seul moment de ta journée et remplis-la une fois. Je ne te demanderai ni tes réponses ni un jugement sur toi-même ; dis-moi seulement quelle case éclaire, laquelle contraint inutilement, et quelle phrase manque. La page ne sauvegarde ni ne transmet rien. Sa matière fonctionne ; son utilité entre des mains étrangères reste ouverte. »
+
 ### efficiency-maestro
 
 #### Suivi après rétablissement de la bibliothèque

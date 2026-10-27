@@ -1,0 +1,334 @@
+{
+ "id": "procedure-p6-branche-defensive",
+ "maison_id": "bastion",
+ "lieu_id": "bastion-couronne",
+ "salle_id": "fournaises",
+ "titre": "P6 — la branche défensive : procédure",
+ "sous_titre": "🜂 Les cercles, les paroles, les gestes et les trois grilles de la branche qui porte la chaleur du collecteur aux dalles d'approche. De la main d'Héloïse Braise (O01), accordée avec un enchanteur à nommer. Posée aux Fournaises, au collecteur.",
+ "type": "regle",
+ "embleme": "🜂",
+ "tenu_par": "heloise-braise",
+ "office": "O01",
+ "pages": [
+  "CECI EST LA PROCÉDURE D'UNE SEULE PIÈCE. P6 est la branche qui va du collecteur P4 aux dalles P9 ; ce livre dit comment on la conduit et ce qui est inscrit dessus. Le reste de l'ouvrage — les seize pièces, les positions, les grandeurs — est au memento posé au conseil. **On la lit ici, au collecteur**, parce que les gestes qui suivent se font la main sur le cercle.",
+  "LE TRACÉ, EN UNE LIGNE. ⊙🜂 PRISE AU COLLECTEUR ━→━ ◎🜂 DALLES D'APPROCHE, et une commande en trait interrompu depuis le poste. **Il n'y a pas de cercle de Travail ⊗ sur cette branche, et c'est la chose la plus importante du livre** : la chaleur va du collecteur chaud vers des dalles froides, donc elle descend, donc elle ne demande aucun travail auxiliaire. P16, la gemme, n'est raccordée à rien ici. Corollaire qu'on oublie au moment où il compte : **si les dalles deviennent plus chaudes que le collecteur, il n'y a rien pour pousser**. Ce qu'il advient alors du transfert n'est pas tranché ; ce qui est sûr, c'est qu'aucun geste de ma main ne le forcera.",
+  "IL N'Y A PAS DE DÉCHARGE ⊖ NON PLUS SUR CETTE BRANCHE, ET C'EST UNE DETTE ENVERS P7. Quand on ferme P6, ce qui était admis au collecteur ne disparaît pas : il part vers la branche de dissipation. **Fermer C2 sans que P7 soit ouverte et P8 disponible est donc interdit**, non par prudence mais par la règle commune — les excès rejoignent un récepteur réel ou rien ne va. Vérifier P8 se fait AVANT de fermer, jamais après.",
+  "DEUX MODES, ET ILS NE SE MÊLENT PAS. La conduite directe demande ma présence, ma parole et mon geste, et s'adapte à ce que je vois. La procédure enchantée tourne sans moi et se commande par un Presser que n'importe quelle main peut tenir. **Les deux ne doivent jamais commander la même branche en même temps** : deux commandes concurrentes sur P6 sont une faute de conduite, pas un secours.",
+  "STATUT. Rien ici ne s'écarte des grammaires v1 de l'Élémentaire et de l'Enchantement ; tout s'en déduit. Aucune valeur n'y est chiffrée — seuils, débits et calibrations dépendent du support et se mesurent, et leurs trous sont au memento (G1 à G7). Ce qui n'est pas tranché est écrit « à trancher » et non deviné."
+ ],
+ "tables": [
+  {
+   "titre": "⭕ Les cercles de P6",
+   "colonnes": [
+    "Marque",
+    "Le cercle",
+    "📍 Où il est tracé",
+    "🜂 Ce qu'il désigne",
+    "🔗 Son lien"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**⊙**",
+      "Source",
+      "Sur le collecteur P4, à la prise de chaleur",
+      "La chaleur disponible au collecteur — **pas celle du foyer P1**, qui est en amont de C4",
+      "━━ conduite vers ◎"
+     ]
+    },
+    {
+     "cellules": [
+      "**◎**",
+      "Destination",
+      "À l'entrée des dalles d'approche P9",
+      "Le support qui reçoit et qui gardera ce qu'il a reçu",
+      "━━ depuis ⊙ ; ┄┄ commande depuis le poste"
+     ]
+    },
+    {
+     "cellules": [
+      "**⊗**",
+      "Travail",
+      "**aucun**",
+      "Il n'y en a pas : le transfert descend du chaud vers le froid et ne demande pas de travail",
+      "— ; P16 n'est pas raccordée à P6"
+     ]
+    },
+    {
+     "cellules": [
+      "**⊖**",
+      "Décharge",
+      "**aucune sur cette branche**",
+      "L'excès de P6 n'a pas d'issue propre : il revient au collecteur et part par P7",
+      "dépendance vers P7 · P8 — voir la page 3"
+     ]
+    },
+    {
+     "cellules": [
+      "**┄┄**",
+      "Commande",
+      "Du poste de secteur jusqu'à ◎",
+      "Ce que je peux adresser sans être au cercle. Une commande ne conduit rien, elle autorise",
+      "C2 ; et C6 par la mesure"
+     ]
+    }
+   ],
+   "note": "L'encoche d'orientation de chaque cercle est à vérifier après toute réfection d'appui : un cercle tourné n'adresse pas le même trajet."
+  },
+  {
+   "titre": "👐 La conduite directe — la séquence exacte",
+   "colonnes": [
+    "N°",
+    "🗣️ La parole",
+    "🤲 Le geste",
+    "✅ Ce qui se produit",
+    "🚫 Ce qui ne se produit pas"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**1**",
+      "« **Feu, prends.** »",
+      "Refermer les doigts vers ⊙, au collecteur",
+      "Une portion de la chaleur du collecteur est engagée dans le circuit",
+      "Rien n'est produit : la prise prélève ce qui est là, et le collecteur se refroidit d'autant"
+     ]
+    },
+    {
+     "cellules": [
+      "**2**",
+      "« **Conduis.** »",
+      "Tracer de la main la direction, depuis ⊙ le long du tracé",
+      "Le flux s'oriente sur le trajet préparé jusqu'à ◎",
+      "Le flux n'est pas transporté : il suit le trajet matériel. Une inscription ne perce pas une paroi intacte"
+     ]
+    },
+    {
+     "cellules": [
+      "**3**",
+      "« **Répartis.** »",
+      "Écarter les doigts vers les tronçons de dalles retenus",
+      "Le flux se partage entre les tronçons ouverts",
+      "**Il ne se duplique pas.** Quatre tronçons reçoivent un quart, non quatre fois le tout"
+     ]
+    },
+    {
+     "cellules": [
+      "**4**",
+      "*(rien)*",
+      "Tenir la posture",
+      "La prise se maintient tant que la posture tient",
+      "La posture ne règle pas la puissance : la taille du geste règle la demande, pas ce qui est disponible"
+     ]
+    },
+    {
+     "cellules": [
+      "**5**",
+      "« **Ralentis.** » *(si les appuis montent)*",
+      "Présenter la paume face au flux, puis la ramener",
+      "Le débit baisse ; l'énergie retirée doit aller quelque part",
+      "Ce n'est pas un arrêt, et le reste de la chaleur ne s'efface pas"
+     ]
+    },
+    {
+     "cellules": [
+      "**6**",
+      "« **Relâche.** »",
+      "Ouvrir les doigts, retirer la main — ou simplement abandonner la posture",
+      "La prise magique cesse",
+      "**Les dalles restent chaudes** pendant G4, et le collecteur garde ce qu'on lui a laissé"
+     ]
+    }
+   ],
+   "note": "Une nouvelle opération demande une nouvelle parole. Une parole qui contredit le geste fait REFUSER la nouvelle commande — elle n'en choisit pas une des deux, et elle n'annule pas l'ordre précédent s'il est encore correctement tenu. Me faire taire m'empêche de changer d'ordre ; entraver mes mains m'empêche de conduire."
+  },
+  {
+   "titre": "✍️ Les trois grilles — la procédure enchantée",
+   "colonnes": [
+    "Grille",
+    "🧱 Support",
+    "🔤 Ce qui y est inscrit",
+    "⚙️ Ce que ça fait",
+    "🕳️ Sans Trace, elle est"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**G-a**",
+      "Le collecteur P4, face de la prise",
+      "🜂 au bord (prise sur la chaleur du collecteur) · ↪ **Crocher** · → **Porter** vers l'interface de la branche · ⇻ **Barrer** en série · ∙ ailleurs",
+      "Ouvre la branche quand le poste appuie, et la ferme quand la dalle est chaude. Les deux vannes sont en série : il faut les deux pour que ça passe",
+      "Crocher **fermé** · Barrer **ouvert**"
+     ]
+    },
+    {
+     "cellules": [
+      "**G-b**",
+      "La dalle d'approche P9",
+      "☿ **Mercure Chaud** au centre · raccord de commande vers le Barrer de G-a",
+      "Mesure l'échauffement de la dalle et émet une Trace qui ferme le Barrer au seuil calibré",
+      "muette — et c'est là tout le danger"
+     ]
+    },
+    {
+     "cellules": [
+      "**G-c**",
+      "Le poste de secteur",
+      "⇨ **Presser**, raccordé au Crocher de G-a",
+      "Émet une Trace **pendant l'appui physique**, et pendant lui seul",
+      "silencieuse — le Crocher se referme"
+     ]
+    }
+   ],
+   "note": "Trois supports et non un : Mercure ne se met pas au centre d'une grille qui porte déjà autre chose, et la mesure doit être POSÉE sur ce qu'elle mesure — donc sur la dalle, pas au collecteur. Chaque case porte un seul signe ; une case vide ne transmet rien. Recopier ces dessins à l'encre ordinaire ne fabrique aucun enchantement : il faut l'accord."
+  },
+  {
+   "titre": "🔁 Ce qui arrive quand une commande cesse — la règle du livre",
+   "colonnes": [
+    "Ce qui cesse",
+    "🚪 La vanne concernée",
+    "💥 Elle se met en",
+    "➡️ Donc la branche",
+    "⚖️ Verdict"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "La main quitte le Presser",
+      "Crocher (G-c → G-a)",
+      "**fermé**",
+      "se ferme",
+      "**la main qui lâche ferme** — c'est la bonne moitié"
+     ]
+    },
+    {
+     "cellules": [
+      "Le fil du Mercure casse, ou le capteur est arraché",
+      "Barrer (G-b → G-a)",
+      "**ouvert**",
+      "reste ouverte, sans seuil, tant que le Presser est tenu",
+      "**le fil qui casse ouvre** — c'est la mauvaise, et c'est D1"
+     ]
+    },
+    {
+     "cellules": [
+      "Les deux à la fois",
+      "les deux en série",
+      "Crocher fermé l'emporte",
+      "se ferme",
+      "une rupture double est plus sûre qu'une rupture simple"
+     ]
+    },
+    {
+     "cellules": [
+      "Ma posture, en conduite directe",
+      "aucune — il n'y a pas de vanne dans ce mode",
+      "—",
+      "cesse d'être conduite",
+      "la chaleur déjà déposée poursuit ; l'inertie ne se retire pas"
+     ]
+    },
+    {
+     "cellules": [
+      "Toute magie",
+      "toutes",
+      "Crocher fermé, Barrer ouvert",
+      "ne transfère plus rien",
+      "**mais P1 brûle encore** — c'est D4, et ça se règle au foyer"
+     ]
+    }
+   ],
+   "note": "Toute la sûreté de P6 tient donc à une asymétrie qu'on n'a pas choisie : le Crocher est fermé sans Trace, le Barrer est ouvert sans Trace. Un homme qui tient le Presser pendant qu'un fil casse ouvre une branche sans thermostat, et rien dans l'inscription ne l'en avertit. C'est exactement ce que l'action ⚔️ 52220 doit éprouver, et ce que la clef 🗝️ 52211 — faire battre la Trace — cherche à rendre audible."
+  },
+  {
+   "titre": "🤝 L'accord — deux mains, et ce que chacune apporte",
+   "colonnes": [
+    "Qui",
+    "Ce qu'il apporte à l'accord",
+    "Ce qu'il n'obtient pas en échange"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Héloïse Braise — 🔥 élémentaliste",
+      "L'opération elle-même : prendre la chaleur du collecteur et la conduire aux dalles. J'engage ma volonté pendant l'accord",
+      "Je ne laisse derrière moi aucune volonté vivante. L'ouvrage répète ce qui a été accordé, il n'invente rien"
+     ]
+    },
+    {
+     "cellules": [
+      "**Un enchanteur — 🏺 à nommer**",
+      "Les trois grilles : les chemins, les vannes, la régulation, ce qui rend l'opération répétable sans moi",
+      "Il ne gagne pas le don élémentaire, et il ne peut pas changer la nature de l'effet sans un nouvel accord avec moi"
+     ]
+    },
+    {
+     "cellules": [
+      "Les artisans — ⚒️",
+      "Les supports, les joints, les raccords, l'ancrage : le support fait partie du sort",
+      "Entretenir les supports ne donne pas le droit de modifier l'effet"
+     ]
+    },
+    {
+     "cellules": [
+      "L'opérateur du poste",
+      "Sa main sur le Presser, et son attention",
+      "Aucun don. Il commande, il ne conduit pas — et il ne peut rien contre un Barrer ouvert"
+     ]
+    }
+   ],
+   "note": "Deux personnes distinctes au moins, et je n'y échappe pas en étant polymage : je fournis l'effet OU j'inscris, jamais les deux pour le même accord. Le nom de l'enchanteur qui a accordé celui-ci n'est écrit nulle part, et c'est un trou du memento (table des accords)."
+  },
+  {
+   "titre": "🚫 Ce que cette procédure ne permet pas",
+   "colonnes": [
+    "Ce qu'on me demandera",
+    "Pourquoi P6 ne le fera pas"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "« Mets le feu à l'approche »",
+      "🜂 transfère de la chaleur. Une flamme demande du combustible et des conditions de combustion **à l'endroit où elle brûle** : les dalles chauffent, elles ne s'enflamment pas"
+     ]
+    },
+    {
+     "cellules": [
+      "« Appuie plus fort sur le Presser »",
+      "Une commande ne fournit ni élément ni puissance. Le Presser dit oui ou non, il ne dit pas combien"
+     ]
+    },
+    {
+     "cellules": [
+      "« Fais un geste plus ample »",
+      "La taille du geste règle la demande, pas la ressource. Un geste immense sur un collecteur tiède ne donne rien"
+     ]
+    },
+    {
+     "cellules": [
+      "« Boucle la Trace pour qu'elle se renforce »",
+      "Faire circuler une Trace en boucle ne multiplie pas l'alimentation. Une boucle de commande n'est pas une source"
+     ]
+    },
+    {
+     "cellules": [
+      "« Que la dalle ne chauffe que sous leurs pas »",
+      "Mercure mesure une propriété locale du support — ici la chaleur de la dalle. Ni identité, ni hostilité, ni présence"
+     ]
+    },
+    {
+     "cellules": [
+      "« Ouvre les deux branches en grand »",
+      "À la dérivation, le débit se partage. Ouvrir P5 et P6 ensemble ne donne pas deux fois la chaleur, il la coupe en deux"
+     ]
+    },
+    {
+     "cellules": [
+      "« Recopie la grille sur l'autre dalle »",
+      "Une inscription recopiée sans accord ne fonctionne pas, et l'orientation compte : une grille tournée n'adresse pas le même trajet"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,7 +1,7 @@
 // POST /agenda, /notes, /nappe — ce que le joueur écrit de sa main, hors fiction.
 const fs = require("fs");
 const path = require("path");
-const { RACINE, cheminNotes } = require("../http");
+const { ETAT, cheminNotes } = require("../http");
 const { envoyer } = require("../http");
 const { qui } = require("../http");
 
@@ -15,8 +15,8 @@ function traiter(req, res, url) {
         if (!date || typeof heure !== "number") throw new Error("case manquante");
         const siege = qui(req, url);
         const dossier = siege
-          ? path.join(RACINE, "etat", "joueurs", siege.personnage_id)
-          : path.join(RACINE, "etat");
+          ? path.join(ETAT, "joueurs", siege.personnage_id)
+          : ETAT;
         const p = path.join(dossier, "agenda.json");
         let liste = [];
         try { liste = JSON.parse(fs.readFileSync(p, "utf-8")).notes || []; } catch (e) {}
@@ -39,8 +39,8 @@ function traiter(req, res, url) {
         // rendez-vous décommandé est une nouvelle, pas un silence.
         try {
           const boite = siege
-            ? path.join(RACINE, "etat", "inbox", siege.personnage_id)
-            : path.join(RACINE, "etat", "inbox");
+            ? path.join(ETAT, "inbox", siege.personnage_id)
+            : path.join(ETAT, "inbox");
           fs.mkdirSync(boite, { recursive: true });
           fs.writeFileSync(path.join(boite, "action-" + Date.now() + ".json"),
             JSON.stringify({
@@ -92,7 +92,7 @@ function traiter(req, res, url) {
       try {
         const { pieces } = JSON.parse(corps);
         if (!Array.isArray(pieces)) throw new Error("pieces manquantes");
-        const f = path.join(RACINE, "etat", "nappe.json");
+        const f = path.join(ETAT, "nappe.json");
         fs.writeFileSync(f, JSON.stringify({ pieces }, null, 2), "utf-8");
         return envoyer(res, 200, JSON.stringify({ ok: true }));
       } catch (e) {

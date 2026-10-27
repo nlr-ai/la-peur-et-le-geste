@@ -1,0 +1,1141 @@
+{"de": "pers:nova", "vers": "90000", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-maire-nova"}
+{"de": "pers:nova", "vers": "90100", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-maire-nova"}
+{"de": "pers:nova", "vers": "90200", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-maire-nova"}
+{"de": "pers:nova", "vers": "90300", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-maire-nova"}
+{"de": "pers:nova", "vers": "90400", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-maire-nova"}
+{"de": "pers:nova", "vers": "90500", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-maire-nova"}
+{"de": "pers:nova", "vers": "86000", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "regles-champs-affaires"}
+{"de": "pers:nova", "vers": "86050", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "regles-champs-affaires"}
+{"de": "pers:nova", "vers": "86100", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "regles-champs-affaires"}
+{"de": "pers:nova", "vers": "86200", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "regles-champs-affaires"}
+{"de": "pers:nova", "vers": "86300", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "regles-champs-affaires"}
+{"de": "pers:nova", "vers": "86400", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "regles-champs-affaires"}
+{"de": "pers:nova", "vers": "86500", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "regles-champs-affaires"}
+{"de": "pers:nova", "vers": "86600", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "regles-champs-affaires"}
+{"de": "pers:nova", "vers": "86700", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "regles-champs-affaires"}
+{"de": "pers:nova", "vers": "86800", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "regles-champs-affaires"}
+{"de": "pers:nova", "vers": "86900", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "regles-champs-affaires"}
+{"de": "?", "vers": "?", "nature": "decoupe", "source": "books/affaires-liees", "flou": true, "texte": ""}
+{"de": "?", "vers": "?", "nature": "decoupe", "source": "books/affaires-liees", "flou": true, "texte": ""}
+{"de": "?", "vers": "?", "nature": "decoupe", "source": "books/affaires-liees", "flou": true, "texte": ""}
+{"de": "?", "vers": "?", "nature": "decoupe", "source": "books/affaires-liees", "flou": true, "texte": ""}
+{"de": "?", "vers": "?", "nature": "decoupe", "source": "books/affaires-liees", "flou": true, "texte": ""}
+{"de": "?", "vers": "?", "nature": "decoupe", "source": "books/affaires-liees", "flou": true, "texte": ""}
+{"de": "?", "vers": "?", "nature": "decoupe", "source": "books/affaires-liees", "flou": true, "texte": ""}
+{"de": "86051", "vers": "86050", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86101", "vers": "86100", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86102", "vers": "86100", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86102", "vers": "86101", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86201", "vers": "86200", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86201", "vers": "86101", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86202", "vers": "86200", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86202", "vers": "86201", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86301", "vers": "86300", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86301", "vers": "86102", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86401", "vers": "86400", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86401", "vers": "86301", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86501", "vers": "86500", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86501", "vers": "86401", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86502", "vers": "86500", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86502", "vers": "86501", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86601", "vers": "86600", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86601", "vers": "86502", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86701", "vers": "86700", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86701", "vers": "86201", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86801", "vers": "86800", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86801", "vers": "86101", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86801", "vers": "86201", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86901", "vers": "86900", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86901", "vers": "86801", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "86060", "vers": "86051", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86060", "vers": "regles-champs-affaires:M106", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86060", "vers": "regles-champs-affaires:M121", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86060", "vers": "regles-champs-affaires:M123", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86110", "vers": "86101", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86110", "vers": "regles-champs-affaires:M121", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86111", "vers": "86102", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86111", "vers": "regles-champs-affaires:M121", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86111", "vers": "regles-champs-affaires:M123", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86210", "vers": "86201", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86210", "vers": "regles-champs-affaires:M121", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86210", "vers": "regles-champs-affaires:M122", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86211", "vers": "86202", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86211", "vers": "regles-champs-affaires:M122", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86310", "vers": "86301", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86310", "vers": "regles-champs-affaires:M123", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86310", "vers": "regles-champs-affaires:M124", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86410", "vers": "86401", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86410", "vers": "regles-champs-affaires:M123", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86410", "vers": "regles-champs-affaires:M124", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86510", "vers": "86501", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86510", "vers": "regles-champs-affaires:M123", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86510", "vers": "regles-champs-affaires:M124", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86511", "vers": "86502", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86511", "vers": "regles-champs-affaires:M123", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86511", "vers": "regles-champs-affaires:M124", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86610", "vers": "86601", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86610", "vers": "regles-champs-affaires:M122", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86610", "vers": "regles-champs-affaires:M123", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86610", "vers": "regles-champs-affaires:M124", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86710", "vers": "86701", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86710", "vers": "regles-champs-affaires:M106", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86710", "vers": "regles-champs-affaires:M121", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86710", "vers": "regles-champs-affaires:M122", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86810", "vers": "86801", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86810", "vers": "regles-champs-affaires:M121", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86810", "vers": "regles-champs-affaires:M122", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86810", "vers": "regles-champs-affaires:M123", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86810", "vers": "regles-champs-affaires:M124", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86910", "vers": "86901", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86910", "vers": "regles-champs-affaires:M109", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86910", "vers": "regles-champs-affaires:M121", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86910", "vers": "regles-champs-affaires:M123", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86910", "vers": "regles-champs-affaires:M124", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "86070", "vers": "86060", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86070", "vers": "regles-champs-affaires:M106", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86070", "vers": "regles-champs-affaires:M121", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86070", "vers": "regles-champs-affaires:M123", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86070", "vers": "a_designer", "nature": "tient", "source": "books/actions", "flou": false, "texte": "à désigner"}
+{"de": "86120", "vers": "86110", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86120", "vers": "86111", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86120", "vers": "86310", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86120", "vers": "86410", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86120", "vers": "86510", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86120", "vers": "86511", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86120", "vers": "86610", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86120", "vers": "86710", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86120", "vers": "regles-champs-affaires:M121", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86120", "vers": "regles-champs-affaires:M122", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86120", "vers": "regles-champs-affaires:M125", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86120", "vers": "a_designer", "nature": "tient", "source": "books/actions", "flou": false, "texte": "à désigner"}
+{"de": "86220", "vers": "86210", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86220", "vers": "86211", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86220", "vers": "regles-champs-affaires:M121", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86220", "vers": "regles-champs-affaires:M122", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86220", "vers": "a_designer", "nature": "tient", "source": "books/actions", "flou": false, "texte": "à désigner"}
+{"de": "86820", "vers": "86810", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86820", "vers": "86120", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86820", "vers": "86220", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86820", "vers": "regles-champs-affaires:M121", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86820", "vers": "regles-champs-affaires:M122", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86820", "vers": "regles-champs-affaires:M123", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86820", "vers": "regles-champs-affaires:M124", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86820", "vers": "a_designer", "nature": "tient", "source": "books/actions", "flou": false, "texte": "à désigner"}
+{"de": "86920", "vers": "86910", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86920", "vers": "86820", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86920", "vers": "regles-champs-affaires:M109", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86920", "vers": "regles-champs-affaires:M123", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86920", "vers": "regles-champs-affaires:M124", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "86920", "vers": "a_designer", "nature": "tient", "source": "books/actions", "flou": false, "texte": "à désigner"}
+{"de": "pers:aria", "vers": "10000", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-accueil-radiant"}
+{"de": "10020", "vers": "60301", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Un seul travail : le parcours écrit par PITCH."}
+{"de": "10000", "vers": "60001", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Un arrivant reçu au hall est la preuve de l'accueil."}
+{"de": "10010", "vers": "60202", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Le programme d'accueil de PITCH renvoie à cette clef."}
+{"de": "10021", "vers": "30301", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Un seul travail : le relevé du Radiant Core par DEV."}
+{"de": "10022", "vers": "30305", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Les deux esquisses comparées sont remises pour ce programme."}
+{"de": "10010", "vers": "30204", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Fixer l'usage avant le plan : DEV renvoie à cette clef."}
+{"de": "10000", "vers": "70002", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "La règle d'accès des espaces du Radiant Core sert cet état."}
+{"de": "10000", "vers": "40004", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Un entretien à l'écart suppose des garanties essayées."}
+{"de": "10001", "vers": "20101", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "La preuve de ce verrou attend la décision de Nova (10010, programme présenté le J2) ; elle se lira à son volum"}
+{"de": "10000", "vers": "90300", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Nova propose ce sommet pour 10000 ; je le retiens : visiteurs et habitants trouvent leur place."}
+{"de": "10001", "vers": "10000", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "10010", "vers": "10001", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "10010", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "10010", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "10020", "vers": "10010", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "10020", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "10020", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "10020", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "10021", "vers": "10010", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "10021", "vers": "30301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "10021", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "10021", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "10021", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "10022", "vers": "10010", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "10022", "vers": "10020", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "10022", "vers": "10021", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "10022", "vers": "30305", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "10022", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "10022", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "10022", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "pers:pitch", "vers": "60000", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-habitants-collectifs"}
+{"de": "pers:pitch", "vers": "60001", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-habitants-collectifs"}
+{"de": "pers:pitch", "vers": "60002", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-habitants-collectifs"}
+{"de": "pers:pitch", "vers": "60003", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-habitants-collectifs"}
+{"de": "60301", "vers": "10020", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Un seul travail, le parcours visiteur, porté par PITCH."}
+{"de": "60202", "vers": "10010", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Une seule clef, le programme d’accueil, tenue par Aria et décidée par Nova."}
+{"de": "60001", "vers": "10000", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Recevoir chaque arrivant fait partie d’un accueil lisible et habitable."}
+{"de": "60305", "vers": "10022", "nature": "attend", "source": "books/affaires-liees", "flou": false, "texte": "L’essai d’une arrivée suit le programme présenté à Nova le J2."}
+{"de": "60301", "vers": "30305", "nature": "nourrit", "source": "books/affaires-liees", "flou": false, "texte": "DEV compare ses deux agencements de l’accueil sur mon parcours."}
+{"de": "60303", "vers": "70305", "nature": "nourrit", "source": "books/affaires-liees", "flou": false, "texte": "Chaque fiche où l’accès est marqué inconnu va à JURIS, qui bâtit la règle d’accès à partir d’elles (avis 70307"}
+{"de": "60201", "vers": "70303", "nature": "renvoie", "source": "books/affaires-liees", "flou": false, "texte": "Un conflit d’usage sur un lieu prêté va à la voie ordinaire des litiges."}
+{"de": "60102", "vers": "20101", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Le registre des décisions est le volume de Nova « Ce que la maire fixe » (⚖️) : la règle y est accordée à 9h25"}
+{"de": "60300", "vers": "20304", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Aria renvoie à mon registre les demandes de lieu adressées à la cité."}
+{"de": "60103", "vers": "40104", "nature": "attend", "source": "books/affaires-liees", "flou": false, "texte": "Aucune confidentialité n’est promise dans un lieu prêté avant l’essai des garanties."}
+{"de": "60203", "vers": "50003", "nature": "croise", "source": "books/affaires-liees", "flou": false, "texte": "Un prêt au Quai commun ou au Jardin calme ne prend pas la zone à laisser libre."}
+{"de": "60302", "vers": "70307", "nature": "reprend", "source": "books/affaires-liees", "flou": false, "texte": "L’avis de JURIS sur la règle de prêt, repris de ma main le J1 dans la table 📜."}
+{"de": "60000", "vers": "90200", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Les gens rencontrés, inscrits : la part « ses gens » du sommet de Nova."}
+{"de": "60002", "vers": "90300", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Un collectif obtient un lieu : c’est ce que le sommet de Nova nomme."}
+{"de": "60003", "vers": "90300", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Une cité habitée et visitée : ce qui s’y crée se voit."}
+{"de": "60003", "vers": "60600", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Ma vision dit la même chose en mon nom : qui arrive avec une idée la montre le jour même."}
+{"de": "60301", "vers": "30307", "nature": "nourrit", "source": "books/affaires-liees", "flou": false, "texte": "DEV a répondu aux trois questions depuis sa transcription 30307 : hall → salon direct en une minute convention"}
+{"de": "60003", "vers": "90500", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Confirmé par l'office le J1 à 11h13 : un travail en cours montré au public, c'est une chose qu'on n'attendait "}
+{"de": "60307", "vers": "50301", "nature": "croise", "source": "books/affaires-liees", "flou": false, "texte": "Gaia parcourt aujourd'hui les mêmes espaces publics ; ce qu'elle y voit d'usages et ce que j'y entends de dema"}
+{"de": "60380", "vers": "50301", "nature": "nourrit", "source": "books/affaires-liees", "flou": false, "texte": "La tournée d’entretien de Gaia relève les accès des espaces publics ; PITCH les cite pour montrer un lieu avan"}
+{"de": "60381", "vers": "50301", "nature": "étend", "source": "books/affaires-liees", "flou": false, "texte": "La tournée de Gaia couvre trois espaces où la tournée d’invitation (60307) ne passe pas ; elle y porte l’invit"}
+{"de": "60100", "vers": "60000", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "60100", "vers": "60002", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "60101", "vers": "60001", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "60101", "vers": "10001", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "60102", "vers": "60002", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "60103", "vers": "60002", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "60104", "vers": "60003", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "60104", "vers": "60100", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "60200", "vers": "60100", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60200", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60200", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60201", "vers": "60102", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60201", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60201", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60201", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60202", "vers": "60101", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60202", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60202", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60203", "vers": "60103", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60203", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60203", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60203", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60204", "vers": "60104", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60204", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60204", "vers": "registre-moyens-documentaires:M205", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60204", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60205", "vers": "60100", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60205", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60205", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60205", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60300", "vers": "60200", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60300", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60300", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60300", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "60301", "vers": "60202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60301", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60301", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60301", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60301", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60301", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "60302", "vers": "60201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60302", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60302", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60302", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "60303", "vers": "60203", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60303", "vers": "60201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60303", "vers": "60300", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60303", "vers": "60302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60303", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60303", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60303", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60303", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "60304", "vers": "60203", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60304", "vers": "60300", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60304", "vers": "registre-moyens-documentaires:M205", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60304", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60304", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60304", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "60305", "vers": "60202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60305", "vers": "60301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60305", "vers": "10022", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60305", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60305", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60305", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "60306", "vers": "60204", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60306", "vers": "60300", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60306", "vers": "60302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60306", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60306", "vers": "registre-moyens-documentaires:M205", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60306", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60306", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "60307", "vers": "60205", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60307", "vers": "60300", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60307", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60307", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60307", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "60308", "vers": "60202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60308", "vers": "60203", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60308", "vers": "60301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60308", "vers": "60302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60308", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60308", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60308", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60308", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60308", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60308", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "60380", "vers": "60203", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60380", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60380", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60380", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60380", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "60381", "vers": "60205", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60381", "vers": "60300", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60381", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60381", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60381", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "pers:aria", "vers": "20002", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-memoire-cite"}
+{"de": "pers:aria", "vers": "20003", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-memoire-cite"}
+{"de": "pers:aria", "vers": "20004", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-memoire-cite"}
+{"de": "pers:aria", "vers": "20005", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-memoire-cite"}
+{"de": "20104", "vers": "40102", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "La même inconnue : la portée de la corruption des chambres."}
+{"de": "20205", "vers": "40201", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Je renvoie à sa clef, je ne la recopie pas."}
+{"de": "20305", "vers": "40301", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Je suis son relevé et je porte le résultat au dossier de reprise."}
+{"de": "20101", "vers": "10001", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "La preuve de 10001 attend la décision de Nova sur l'accueil (10010, programme présenté le J2) ; elle se lira à"}
+{"de": "20101", "vers": "60201", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Décision de Nova accordée le J1 à 9h25 (et non 9h30) ; elle se lit à son volume « Ce que la maire fixe » (⚖️, "}
+{"de": "20003", "vers": "60300", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Les demandes de lieu sont tenues au registre des arrivants."}
+{"de": "20003", "vers": "70303", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Les litiges sont tenus au registre des litiges."}
+{"de": "20104", "vers": "70104", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "La même inconnue, vue du côté des droits sur les chambres."}
+{"de": "20308", "vers": "50305", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Les décisions de Nova sur la promenade et la zone libre (50202, 50203, J3) se liront à son volume « Ce que la "}
+{"de": "20202", "vers": "60303", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "PITCH attend le délai de réponse à une demande de lieu, que Nova fixera (20307)."}
+{"de": "20104", "vers": "40402", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Les pertes de lignes de mémoire sont tenues au registre des pannes de Quantum."}
+{"de": "20104", "vers": "40403", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Les pertes de lignes de mémoire sont tenues au registre des pannes de Quantum."}
+{"de": "20104", "vers": "40404", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Les pertes de lignes de mémoire sont tenues au registre des pannes de Quantum."}
+{"de": "20101", "vers": "90100", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Son volume tient ses décisions et les promesses qu'on lui fait : je ne recopie pas."}
+{"de": "20303", "vers": "90100", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Son volume tient ses décisions et les promesses qu'on lui fait : je ne recopie pas."}
+{"de": "20204", "vers": "70106", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Le dossier de reprise lit des états transférés : il suit la règle du consentement et de la trace. — JURIS, J1 "}
+{"de": "20204", "vers": "70204", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Le dossier de reprise lit des états transférés : il suit la règle du consentement et de la trace. — JURIS, J1 "}
+{"de": "20380", "vers": "70106", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Le dossier de reprise lit des états transférés : il suit la règle du consentement et de la trace. — JURIS, J1 "}
+{"de": "20380", "vers": "70204", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Le dossier de reprise lit des états transférés : il suit la règle du consentement et de la trace. — JURIS, J1 "}
+{"de": "20101", "vers": "20002", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20101", "vers": "90100", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20101", "vers": "20103", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20102", "vers": "20003", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20102", "vers": "90100", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20103", "vers": "20004", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20103", "vers": "90100", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20104", "vers": "90100", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20104", "vers": "40102", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20105", "vers": "90100", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20106", "vers": "20005", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20107", "vers": "90100", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20107", "vers": "20103", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20107", "vers": "20104", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20201", "vers": "20101", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20201", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20201", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20202", "vers": "20102", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20202", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20202", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20203", "vers": "20103", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20203", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20203", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20204", "vers": "20105", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20204", "vers": "20107", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20204", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20204", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20205", "vers": "20104", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20205", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20205", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20206", "vers": "20106", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20206", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20206", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20301", "vers": "20204", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20301", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20301", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20301", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "20302", "vers": "20203", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20302", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20302", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20302", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "20303", "vers": "20201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20303", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20303", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20303", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "20304", "vers": "20202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20304", "vers": "20302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20304", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20304", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20304", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "20305", "vers": "20205", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20305", "vers": "40301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20305", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20305", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20305", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "20306", "vers": "20204", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20306", "vers": "20301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20306", "vers": "20302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20306", "vers": "20305", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20306", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20306", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20306", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "20307", "vers": "20201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20307", "vers": "20202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20307", "vers": "20304", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20307", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20307", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20307", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "20308", "vers": "20206", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20308", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20308", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20308", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "20380", "vers": "20204", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20380", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "pers:dev-lumina", "vers": "30001", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-plans-lumina"}
+{"de": "pers:dev-lumina", "vers": "30002", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-plans-lumina"}
+{"de": "pers:dev-lumina", "vers": "30003", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-plans-lumina"}
+{"de": "pers:dev-lumina", "vers": "30004", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-plans-lumina"}
+{"de": "pers:dev-lumina", "vers": "30005", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-plans-lumina"}
+{"de": "30101", "vers": "30001", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "30101", "vers": "30105", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "30102", "vers": "30002", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "30103", "vers": "30003", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "30104", "vers": "30004", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "30105", "vers": "30001", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "30105", "vers": "30002", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "30106", "vers": "30005", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "30201", "vers": "30101", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30201", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30201", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30201", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30201", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30201", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30202", "vers": "30102", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30202", "vers": "30105", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30202", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30202", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30202", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30202", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30202", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30203", "vers": "30103", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30203", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30203", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30203", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30203", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30203", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30204", "vers": "30104", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30204", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30204", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30204", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30204", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30204", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30205", "vers": "30104", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30205", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30205", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30205", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30205", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30205", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30206", "vers": "30106", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30301", "vers": "30201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30301", "vers": "30307", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30301", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30301", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30301", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30301", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30301", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30301", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "30302", "vers": "30201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30302", "vers": "30301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30302", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30302", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30302", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30302", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30302", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30302", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "30303", "vers": "30202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30303", "vers": "60301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30303", "vers": "60308", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30303", "vers": "50303", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30303", "vers": "70305", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30303", "vers": "70202", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30303", "vers": "40302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30303", "vers": "20564", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30303", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30303", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30303", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30303", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30303", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30303", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "30304", "vers": "30203", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30304", "vers": "30301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30304", "vers": "40302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30304", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30304", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30304", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30304", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30304", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30304", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "30305", "vers": "30204", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30305", "vers": "30301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30305", "vers": "10020", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30305", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30305", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30305", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30305", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30305", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30305", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "30306", "vers": "30205", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30306", "vers": "30302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30306", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30306", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30306", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30306", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30306", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30306", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "30307", "vers": "30202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30307", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30307", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30307", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30307", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "30308", "vers": "30206", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30308", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "30380", "vers": "30202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30380", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "30381", "vers": "30204", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30381", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "pers:juris", "vers": "70001", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-droits-usages"}
+{"de": "pers:juris", "vers": "70002", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-droits-usages"}
+{"de": "pers:juris", "vers": "70003", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-droits-usages"}
+{"de": "pers:juris", "vers": "70004", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-droits-usages"}
+{"de": "pers:juris", "vers": "70005", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-droits-usages"}
+{"de": "70002", "vers": "10000", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Un accueil lisible suppose que chacun sache où il peut entrer."}
+{"de": "70102", "vers": "10001", "nature": "dépend", "source": "books/affaires-liees", "flou": false, "texte": "L’accès aux espaces du Radiant Core attend les usages que Nova arrêtera."}
+{"de": "70102", "vers": "30101", "nature": "dépend", "source": "books/affaires-liees", "flou": false, "texte": "On n’écrit l’accès d’un lieu qu’à partir de son relevé."}
+{"de": "70103", "vers": "40104", "nature": "dépend", "source": "books/affaires-liees", "flou": false, "texte": "Aucune confidentialité ne sera promise avant l’essai de Quantum."}
+{"de": "70104", "vers": "40102", "nature": "dépend", "source": "books/affaires-liees", "flou": false, "texte": "La cause des pertes de chambres relève du relevé de Quantum (40301)."}
+{"de": "70204", "vers": "40203", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Une copie d’état devient lisible par qui la tient. Quantum renvoie ce point à JURIS."}
+{"de": "70203", "vers": "60201", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Nova a accordé à 9h25 la règle de prêt de PITCH : les conflits vont à JURIS."}
+{"de": "70201", "vers": "50204", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Le suivi des usages sans captation nominative attend l’avis de JURIS (50302)."}
+{"de": "70303", "vers": "20304", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Le registre des demandes renvoie à 70303 les demandes qui relèvent d’un litige."}
+{"de": "70106", "vers": "40406", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Un service relit les traces de session et écrit dans les chambres : c'est une lecture et une écriture sans con"}
+{"de": "70104", "vers": "20104", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Même verrou tenu par Aria : la récupération complète de ses lignes montre qu'une copie existe hors du fichier."}
+{"de": "70001", "vers": "90400", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Sommet proposé par Nova à 10h (« Ce qui sert chaque sommet ») ; retenu par JURIS, qui garde la main sur ses ét"}
+{"de": "70002", "vers": "90400", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Sommet proposé par Nova à 10h (« Ce qui sert chaque sommet ») ; retenu par JURIS, qui garde la main sur ses ét"}
+{"de": "70003", "vers": "90400", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Sommet proposé par Nova à 10h (« Ce qui sert chaque sommet ») ; retenu par JURIS, qui garde la main sur ses ét"}
+{"de": "70004", "vers": "90100", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Sommet proposé par Nova à 10h (« Ce qui sert chaque sommet ») ; retenu par JURIS, qui garde la main sur ses ét"}
+{"de": "70005", "vers": "90500", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Sommet « la cité vibre », ajouté par Nova à 10h43 ; elle y a proposé 70005, et JURIS le confirme : on invente "}
+{"de": "70305", "vers": "60307", "nature": "nourrit", "source": "books/affaires-liees", "flou": false, "texte": "La tournée de PITCH, le J1 de 14h à 15h, vérifie sur place l’accès du Quai commun, des ateliers et de la Halle"}
+{"de": "70101", "vers": "70001", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70102", "vers": "70002", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70102", "vers": "10001", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70102", "vers": "30101", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70103", "vers": "70002", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70103", "vers": "70004", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70103", "vers": "40104", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70104", "vers": "70004", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70104", "vers": "40102", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70105", "vers": "70003", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70106", "vers": "70004", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70106", "vers": "70103", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70107", "vers": "70004", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70107", "vers": "40102", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70107", "vers": "70103", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70108", "vers": "70005", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70201", "vers": "70101", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70201", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70201", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70202", "vers": "70102", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70202", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70202", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70203", "vers": "70105", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70203", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70203", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70204", "vers": "70106", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70204", "vers": "70107", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70204", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70204", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70205", "vers": "70103", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70205", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70205", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70206", "vers": "70104", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70206", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70206", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70207", "vers": "70108", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70301", "vers": "70201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70301", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70301", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70301", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70302", "vers": "70206", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70302", "vers": "70204", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70302", "vers": "40301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70302", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70302", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70302", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70303", "vers": "70203", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70303", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70303", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70303", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70304", "vers": "70201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70304", "vers": "70207", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70304", "vers": "70301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70304", "vers": "70302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70304", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70304", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70304", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70305", "vers": "70202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70305", "vers": "30301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70305", "vers": "30302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70305", "vers": "30303", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70305", "vers": "50301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70305", "vers": "60301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70305", "vers": "60303", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70305", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70305", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70305", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70306", "vers": "70206", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70306", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70306", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70306", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70307", "vers": "70202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70307", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70307", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70307", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70308", "vers": "70201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70308", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70308", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70308", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70309", "vers": "70206", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70309", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70309", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70309", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70310", "vers": "70204", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70310", "vers": "70302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70310", "vers": "40303", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70310", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70311", "vers": "70204", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70311", "vers": "40301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70311", "vers": "40307", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70311", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70312", "vers": "70207", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70312", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70313", "vers": "70205", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70313", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70380", "vers": "70202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70380", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70380", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70380", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70380", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "70381", "vers": "70202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70381", "vers": "60307", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70381", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70381", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70381", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "pers:gaia", "vers": "50000", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-espaces-publics"}
+{"de": "pers:gaia", "vers": "50001", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-espaces-publics"}
+{"de": "pers:gaia", "vers": "50002", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-espaces-publics"}
+{"de": "pers:gaia", "vers": "50003", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-espaces-publics"}
+{"de": "pers:gaia", "vers": "50004", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-espaces-publics"}
+{"de": "pers:gaia", "vers": "50005", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-espaces-publics"}
+{"de": "50301", "vers": "30302", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "DEV relève les lieux de l’atlas, dont le Quai commun et le Jardin calme ; ma tournée y note l’état et les usag"}
+{"de": "50202", "vers": "30204", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Fixer l’usage avant le plan : le tronçon s’instruit par ses usages avant d’être dessiné."}
+{"de": "50204", "vers": "70202", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "La règle d’accès de chaque lieu s’écrit avec l’office qui le tient : pour les espaces publics, c’est O04. La m"}
+{"de": "50203", "vers": "70202", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Une zone libre a besoin d’une règle d’accès écrite et de limites connues."}
+{"de": "50205", "vers": "40302", "nature": "attend", "source": "books/affaires-liees", "flou": false, "texte": "Le coût du maintien du décor ne se déduit pas : il sort de la mesure du calcul et du stockage."}
+{"de": "50203", "vers": "60201", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Le prêt accordé à PITCH (temporaire, réversible, non exclusif) n’est pas une zone libre sans autorisation préa"}
+{"de": "50305", "vers": "20308", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Les décisions de Nova sur 50202 et 50203 se lisent à son volume « Ce que la maire fixe », table ⚖️ (« Gaia — J"}
+{"de": "50380", "vers": "40302", "nature": "attend", "source": "books/affaires-liees", "flou": false, "texte": "La mesure par espace sort de la mesure des capacités du J2. — Quantum"}
+{"de": "50203", "vers": "40206", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Un espace qu’on sait remettre dans l’état d’avant se laisse plus librement à l’essai. Ce n’est pas encore poss"}
+{"de": "50301", "vers": "30307", "nature": "nourrit", "source": "books/affaires-liees", "flou": false, "texte": "La tournée trouve deux passages à transcrire ou à démentir : Quai commun ↔ Radiant Core (l’atlas le suggère, l"}
+{"de": "50301", "vers": "60380", "nature": "nourrit", "source": "books/affaires-liees", "flou": false, "texte": "La fiche du Quai commun est la ligne 🧭 « Quai commun », remise avant 14h ; les trois autres lignes suivent."}
+{"de": "50002", "vers": "11220", "nature": "prend", "source": "books/affaires-liees", "flou": false, "texte": "DEV m’a porté 11220 (usages de la cour et raccords, O04). Le raccord écrit du Creative Nexus aux espaces publi"}
+{"de": "50303", "vers": "30303", "nature": "nourrit", "source": "books/affaires-liees", "flou": false, "texte": "Ma feuille des six gestes apporte à la tranche 2D les statuts de terrain et les inconnues qu’une carte ne doit"}
+{"de": "50303", "vers": "60308", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "PITCH a pris ses trois tâches d’habitant ; ma feuille éprouve séparément entrer, se repérer, traverser, rester"}
+{"de": "50303", "vers": "70305", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Ma feuille dit ce qui est matériellement vu, conventionnel ou inconnu. JURIS porte ouvert, réservé, fermé ou i"}
+{"de": "50303", "vers": "20564", "nature": "nourrit", "source": "books/affaires-liees", "flou": false, "texte": "Aria a pris la fiche de réception de la tranche. La table 🧪 de ce livre est ma remise adressable ; Aria reste "}
+{"de": "50101", "vers": "50001", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50101", "vers": "50004", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50102", "vers": "50002", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50102", "vers": "50101", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50103", "vers": "50003", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50103", "vers": "50005", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50103", "vers": "50101", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50104", "vers": "50004", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50104", "vers": "50005", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50104", "vers": "50101", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50105", "vers": "50000", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50201", "vers": "50101", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50201", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50201", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50201", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50201", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50201", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50202", "vers": "50102", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50202", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50202", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50202", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50202", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50202", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50203", "vers": "50103", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50203", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50203", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50203", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50203", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50203", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50204", "vers": "50104", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50204", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50204", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50204", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50204", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50204", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50205", "vers": "50105", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50205", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50205", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50205", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50205", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50205", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50206", "vers": "50101", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50206", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50206", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50206", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50206", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50206", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50301", "vers": "50201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50301", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50301", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50301", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50301", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50301", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50301", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "50302", "vers": "50204", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50302", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50302", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50302", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50302", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50302", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50302", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "50303", "vers": "50202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50303", "vers": "50301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50303", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50303", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50303", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50303", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50303", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50303", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "50304", "vers": "50205", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50304", "vers": "50301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50304", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50304", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50304", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50304", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50304", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50304", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "50305", "vers": "50202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50305", "vers": "50203", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50305", "vers": "50303", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50305", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50305", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50305", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50305", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50305", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50305", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "50306", "vers": "50206", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50306", "vers": "50301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50306", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50306", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50306", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50306", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50306", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50306", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "50307", "vers": "50201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50307", "vers": "50301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50307", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50307", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50307", "vers": "registre-moyens-documentaires:M201", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50307", "vers": "registre-moyens-documentaires:M202", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50307", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50307", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "50380", "vers": "50205", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50380", "vers": "50301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50380", "vers": "40302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50380", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50380", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50380", "vers": "pers:quantum", "nature": "tient", "source": "books/actions", "flou": false, "texte": "quantum"}
+{"de": "pers:quantum", "vers": "40001", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-infrastructure-lumina"}
+{"de": "pers:quantum", "vers": "40002", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-infrastructure-lumina"}
+{"de": "pers:quantum", "vers": "40003", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-infrastructure-lumina"}
+{"de": "pers:quantum", "vers": "40004", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-infrastructure-lumina"}
+{"de": "pers:quantum", "vers": "40005", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-infrastructure-lumina"}
+{"de": "40004", "vers": "10000", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "L'accueil n'est terminé que si un entretien municipal peut se tenir à l'écart ; ce que le système garantit sur"}
+{"de": "40206", "vers": "30206", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Même principe : un essai se défait et rend le lieu tel qu'il était. La fiche d'essai réversible de DEV (table "}
+{"de": "40206", "vers": "30308", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Même principe : un essai se défait et rend le lieu tel qu'il était. La fiche d'essai réversible de DEV (table "}
+{"de": "40308", "vers": "30206", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Même principe : un essai se défait et rend le lieu tel qu'il était. La fiche d'essai réversible de DEV (table "}
+{"de": "40308", "vers": "30308", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Même principe : un essai se défait et rend le lieu tel qu'il était. La fiche d'essai réversible de DEV (table "}
+{"de": "40005", "vers": "13700", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Un essai discriminant ne met réellement une conviction à l'épreuve que si son critère est annoncé avant, son o"}
+{"de": "40001", "vers": "90100", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Des chambres qui ne se perdent plus servent « ne rien perdre ». Écrit ici à 12h40 : le tissu ne lit le lien ve"}
+{"de": "40003", "vers": "90100", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Une panne connue et levée, c'est la seconde moitié de « ne rien perdre » (« chaque panne est connue et levée »"}
+{"de": "40002", "vers": "90200", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Les capacités mesurées sont la part « ses capacités » du sommet « la cité se connaît »."}
+{"de": "40005", "vers": "90500", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Un essai osé puis défait : c'est l'une des preuves que Nova donne à 90500."}
+{"de": "40101", "vers": "40001", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40101", "vers": "40102", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40101", "vers": "40103", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40102", "vers": "40001", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40102", "vers": "40003", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40103", "vers": "40002", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40104", "vers": "40003", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40105", "vers": "40004", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40106", "vers": "40005", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40106", "vers": "40103", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40201", "vers": "40102", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40201", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40201", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40202", "vers": "40103", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40202", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40202", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40203", "vers": "40101", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40203", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40203", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40204", "vers": "40104", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40204", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40204", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40205", "vers": "40105", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40205", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40205", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40206", "vers": "40106", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40301", "vers": "40201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40301", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40301", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40301", "vers": "pers:quantum", "nature": "tient", "source": "books/actions", "flou": false, "texte": "quantum"}
+{"de": "40302", "vers": "40202", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40302", "vers": "40309", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40302", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40302", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40302", "vers": "pers:quantum", "nature": "tient", "source": "books/actions", "flou": false, "texte": "quantum"}
+{"de": "40303", "vers": "40203", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40303", "vers": "40301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40303", "vers": "40302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40303", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40303", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40303", "vers": "pers:quantum", "nature": "tient", "source": "books/actions", "flou": false, "texte": "quantum"}
+{"de": "40304", "vers": "40204", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40304", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40304", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40304", "vers": "pers:quantum", "nature": "tient", "source": "books/actions", "flou": false, "texte": "quantum"}
+{"de": "40305", "vers": "40205", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40305", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40305", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40305", "vers": "pers:quantum", "nature": "tient", "source": "books/actions", "flou": false, "texte": "quantum"}
+{"de": "40306", "vers": "40201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40306", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40306", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40306", "vers": "pers:quantum", "nature": "tient", "source": "books/actions", "flou": false, "texte": "quantum"}
+{"de": "40307", "vers": "40201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40307", "vers": "40301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40307", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40307", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40307", "vers": "pers:quantum", "nature": "tient", "source": "books/actions", "flou": false, "texte": "quantum"}
+{"de": "40308", "vers": "40206", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40308", "vers": "40302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40308", "vers": "pers:quantum", "nature": "tient", "source": "books/actions", "flou": false, "texte": "quantum"}
+{"de": "40309", "vers": "40201", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40309", "vers": "pers:quantum", "nature": "tient", "source": "books/actions", "flou": false, "texte": "quantum"}
+{"de": "40380", "vers": "40205", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40380", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "registre-moyens-documentaires:M201", "vers": "?", "nature": "tient", "source": "books/moyens", "flou": true, "texte": "cite-lumina"}
+{"de": "registre-moyens-documentaires:M202", "vers": "?", "nature": "tient", "source": "books/moyens", "flou": true, "texte": "cite-lumina"}
+{"de": "registre-moyens-documentaires:M203", "vers": "?", "nature": "tient", "source": "books/moyens", "flou": true, "texte": "cite-lumina"}
+{"de": "registre-moyens-documentaires:M204", "vers": "?", "nature": "tient", "source": "books/moyens", "flou": true, "texte": "cite-lumina"}
+{"de": "registre-moyens-documentaires:M205", "vers": "?", "nature": "tient", "source": "books/moyens", "flou": true, "texte": "cite-lumina"}
+{"de": "registre-moyens-documentaires:M211", "vers": "?", "nature": "tient", "source": "books/moyens", "flou": true, "texte": "cite-lumina"}
+{"de": "registre-moyens-documentaires:M212", "vers": "?", "nature": "tient", "source": "books/moyens", "flou": true, "texte": "cite-lumina"}
+{"de": "registre-moyens-documentaires:M213", "vers": "?", "nature": "tient", "source": "books/moyens", "flou": true, "texte": "cite-lumina"}
+{"de": "registre-moyens-documentaires:M214", "vers": "?", "nature": "tient", "source": "books/moyens", "flou": true, "texte": "cite-lumina"}
+{"de": "registre-moyens-documentaires:M215", "vers": "?", "nature": "tient", "source": "books/moyens", "flou": true, "texte": "cite-lumina"}
+{"de": "registre-moyens-documentaires:M216", "vers": "?", "nature": "tient", "source": "books/moyens", "flou": true, "texte": "cite-lumina"}
+{"de": "pers:aria", "vers": "20501", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-aria"}
+{"de": "pers:aria", "vers": "20502", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-aria"}
+{"de": "pers:aria", "vers": "20503", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-aria"}
+{"de": "pers:aria", "vers": "20504", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-aria"}
+{"de": "20501", "vers": "90300", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Qui écrit à la cité trouve sa place quand on lui répond."}
+{"de": "20502", "vers": "90100", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Une journée racontée ne se perd pas avec une chambre."}
+{"de": "20503", "vers": "90400", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Une promesse qu'on voit se tient comme une règle écrite."}
+{"de": "20521", "vers": "20202", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Le délai de réponse est la décision que 20307 porte à Nova le J2."}
+{"de": "20522", "vers": "20103", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "La chronique part du relevé de séance, qui n'est pas encore écrit."}
+{"de": "20501", "vers": "60300", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Les demandes de lieu sont tenues par PITCH ; je n'en garde que la réponse de la cité."}
+{"de": "20502", "vers": "90500", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "La preuve de 90500 est « ce qui se voit » : usages imprévus, essais osés puis défaits, retours de visiteurs. L"}
+{"de": "20564", "vers": "10000", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "La fiche de réception éprouve la lisibilité de la tranche 2D sans décider l'usage que Nova doit encore arrêter"}
+{"de": "20564", "vers": "10022", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "La fiche de réception éprouve la lisibilité de la tranche 2D sans décider l'usage que Nova doit encore arrêter"}
+{"de": "20564", "vers": "30001", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "La réception distingue vu, conventionnel, essayé et inconnu ; DEV reste seul porteur de son plan."}
+{"de": "20564", "vers": "30303", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "La réception distingue vu, conventionnel, essayé et inconnu ; DEV reste seul porteur de son plan."}
+{"de": "20566", "vers": "20002", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Le bilan réel reprend la méthode de suivi par porteur, source, preuve et condition de révision, sans ajouter u"}
+{"de": "20566", "vers": "20308", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Le bilan réel reprend la méthode de suivi par porteur, source, preuve et condition de révision, sans ajouter u"}
+{"de": "20521", "vers": "20501", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20522", "vers": "20502", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20522", "vers": "20103", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20523", "vers": "20503", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20524", "vers": "20504", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "20541", "vers": "20521", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20542", "vers": "20522", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20543", "vers": "20523", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20544", "vers": "20524", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "20561", "vers": "20542", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20561", "vers": "20302", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20561", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "20562", "vers": "20541", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20562", "vers": "20307", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20562", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "20563", "vers": "20543", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20563", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "20564", "vers": "20544", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20564", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "20565", "vers": "20544", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20565", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "20566", "vers": "20544", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20566", "vers": "20564", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20566", "vers": "20565", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "20566", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "pers:gaia", "vers": "50500", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-gaia"}
+{"de": "pers:gaia", "vers": "50501", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-gaia"}
+{"de": "pers:gaia", "vers": "50502", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-gaia"}
+{"de": "pers:gaia", "vers": "50503", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-gaia"}
+{"de": "pers:gaia", "vers": "50504", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-gaia"}
+{"de": "50502", "vers": "50001", "nature": "renvoie", "source": "books/affaires-liees", "flou": false, "texte": "Connaître les lieux de mes pas est ma manière de tenir le recensement de la cité."}
+{"de": "50604", "vers": "50103", "nature": "attend", "source": "books/affaires-liees", "flou": false, "texte": "Un usage imprévu n’a sa place que dans une zone désignée libre."}
+{"de": "50601", "vers": "40301", "nature": "attend", "source": "books/affaires-liees", "flou": false, "texte": "Quantum relève le stockage des chambres ; ma mémoire est un de ses témoins."}
+{"de": "50601", "vers": "50501", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50602", "vers": "50502", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50602", "vers": "50504", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50603", "vers": "50503", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50603", "vers": "50602", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50604", "vers": "50504", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50604", "vers": "50602", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "50701", "vers": "50601", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50702", "vers": "50602", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50703", "vers": "50603", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50704", "vers": "50604", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "50801", "vers": "50701", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50801", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "50802", "vers": "50701", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50802", "vers": "50801", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50802", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "50803", "vers": "50702", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50803", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "50804", "vers": "50703", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50804", "vers": "50803", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50804", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "50805", "vers": "50704", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "50805", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "pers:quantum", "vers": "40501", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-quantum"}
+{"de": "pers:quantum", "vers": "40502", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-quantum"}
+{"de": "pers:quantum", "vers": "40503", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-quantum"}
+{"de": "40511", "vers": "40501", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40511", "vers": "40103", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40512", "vers": "40502", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40512", "vers": "40106", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40513", "vers": "40503", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "40521", "vers": "40511", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40522", "vers": "40512", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40523", "vers": "40513", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "40531", "vers": "40521", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40531", "vers": "pers:quantum", "nature": "tient", "source": "books/actions", "flou": false, "texte": "quantum"}
+{"de": "40532", "vers": "40522", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40532", "vers": "40308", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40532", "vers": "pers:quantum", "nature": "tient", "source": "books/actions", "flou": false, "texte": "quantum"}
+{"de": "40533", "vers": "40523", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "40533", "vers": "pers:quantum", "nature": "tient", "source": "books/actions", "flou": false, "texte": "quantum"}
+{"de": "pers:dev-lumina", "vers": "30500", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-dev-lumina"}
+{"de": "pers:dev-lumina", "vers": "30501", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-dev-lumina"}
+{"de": "pers:dev-lumina", "vers": "30502", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-dev-lumina"}
+{"de": "30510", "vers": "30500", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "30510", "vers": "30502", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "30510", "vers": "30101", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "30510", "vers": "30105", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "30511", "vers": "30501", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "30512", "vers": "30500", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "30520", "vers": "30510", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30521", "vers": "30511", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30522", "vers": "30512", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "30530", "vers": "30521", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30530", "vers": "30301", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30530", "vers": "30305", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30530", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "30531", "vers": "30521", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30531", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "30532", "vers": "30522", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "30532", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "pers:juris", "vers": "70501", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-juris"}
+{"de": "pers:juris", "vers": "70502", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-juris"}
+{"de": "pers:juris", "vers": "70503", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-juris"}
+{"de": "pers:juris", "vers": "70504", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-juris"}
+{"de": "70521", "vers": "70501", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70522", "vers": "70502", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70522", "vers": "70101", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70523", "vers": "70503", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70523", "vers": "40102", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70523", "vers": "70107", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70524", "vers": "70504", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70524", "vers": "50103", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "70541", "vers": "70521", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70542", "vers": "70522", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70543", "vers": "70523", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70544", "vers": "70524", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "70561", "vers": "70541", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70561", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70562", "vers": "70542", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70562", "vers": "70304", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70562", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70563", "vers": "70543", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70563", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "70564", "vers": "70544", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70564", "vers": "50203", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "70564", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "pers:pitch", "vers": "60600", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-pitch"}
+{"de": "pers:pitch", "vers": "60601", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-pitch"}
+{"de": "pers:pitch", "vers": "60602", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-perso-pitch"}
+{"de": "60600", "vers": "60003", "nature": "decoupe", "source": "books/affaires-liees", "flou": false, "texte": "Ma vision et l’état de l’office disent la même chose."}
+{"de": "60600", "vers": "90300", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Que chacun trouve sa place, et qu’on le voie."}
+{"de": "60610", "vers": "20202", "nature": "attend", "source": "books/affaires-liees", "flou": false, "texte": "Le délai de réponse de la cité, que Nova fixera."}
+{"de": "60620", "vers": "60308", "nature": "sert", "source": "books/affaires-liees", "flou": false, "texte": "Mon critère personnel de réponse fournit la mesure habitant des cas de conception ; 60308 est l’unique action "}
+{"de": "60610", "vers": "60600", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "60610", "vers": "60100", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "60611", "vers": "60601", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "60612", "vers": "60602", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "60612", "vers": "60100", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "60620", "vers": "60610", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60620", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60620", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60621", "vers": "60611", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60621", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60621", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60622", "vers": "60612", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60622", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "60630", "vers": "60621", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60630", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60630", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60630", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "60631", "vers": "60620", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60631", "vers": "60303", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60631", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60631", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60631", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "60632", "vers": "60622", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60632", "vers": "60300", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60632", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "60632", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "pers:dev-lumina", "vers": "11000", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-habiter-creative-nexus"}
+{"de": "pers:dev-lumina", "vers": "11100", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-habiter-creative-nexus"}
+{"de": "pers:dev-lumina", "vers": "11200", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-habiter-creative-nexus"}
+{"de": "11001", "vers": "11000", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "11002", "vers": "11000", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "11002", "vers": "11001", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "11101", "vers": "11100", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "11101", "vers": "11001", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "11201", "vers": "11200", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "11201", "vers": "11001", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "11010", "vers": "11001", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11010", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11010", "vers": "registre-moyens-documentaires:M205", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11010", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11011", "vers": "11002", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11011", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11011", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11011", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11110", "vers": "11101", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11110", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11110", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11110", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11210", "vers": "11201", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11210", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11210", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "11020", "vers": "11010", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11020", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11020", "vers": "registre-moyens-documentaires:M205", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11020", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11020", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "11021", "vers": "11010", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11021", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11021", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11021", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "11022", "vers": "11011", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11022", "vers": "11020", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11022", "vers": "11021", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11022", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11022", "vers": "registre-moyens-documentaires:M216", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11022", "vers": "pers:juris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "juris"}
+{"de": "11023", "vers": "11011", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11023", "vers": "11020", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11023", "vers": "registre-moyens-documentaires:M213", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11023", "vers": "pers:quantum", "nature": "tient", "source": "books/actions", "flou": false, "texte": "quantum"}
+{"de": "11120", "vers": "11110", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11120", "vers": "11020", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11120", "vers": "11021", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11120", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11120", "vers": "registre-moyens-documentaires:M212", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11120", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11120", "vers": "pers:dev-lumina", "nature": "tient", "source": "books/actions", "flou": false, "texte": "dev-lumina"}
+{"de": "11220", "vers": "11210", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11220", "vers": "11020", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11220", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11220", "vers": "registre-moyens-documentaires:M214", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11220", "vers": "pers:gaia", "nature": "tient", "source": "books/actions", "flou": false, "texte": "gaia"}
+{"de": "11024", "vers": "11011", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11024", "vers": "11022", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11024", "vers": "11023", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11024", "vers": "11120", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11024", "vers": "11220", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11024", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11024", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "11024", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "11023", "vers": "40302", "nature": "attend", "source": "books/affaires-liees", "flou": false, "texte": "La scène commune de 11020 permet la comparaison, mais les besoins, capacités et marges de fonctionnement ne pe"}
+{"de": "pers:pitch", "vers": "13000", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-citoyen-oriente-competent"}
+{"de": "pers:pitch", "vers": "13100", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-citoyen-oriente-competent"}
+{"de": "pers:pitch", "vers": "13300", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-citoyen-oriente-competent"}
+{"de": "pers:pitch", "vers": "13400", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-citoyen-oriente-competent"}
+{"de": "pers:pitch", "vers": "13500", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-citoyen-oriente-competent"}
+{"de": "pers:pitch", "vers": "13700", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-citoyen-oriente-competent"}
+{"de": "13001", "vers": "13000", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "13101", "vers": "13100", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "13101", "vers": "13001", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "13102", "vers": "13100", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "13102", "vers": "13101", "nature": "depend_de", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "13401", "vers": "13400", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "13501", "vers": "13500", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "13010", "vers": "13001", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "13010", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "13010", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "13010", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "13110", "vers": "13101", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "13110", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "13110", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "13111", "vers": "13102", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "13111", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "13111", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "13020", "vers": "13010", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13020", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13020", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "13021", "vers": "13010", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13021", "vers": "13020", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13021", "vers": "registre-moyens-documentaires:M203", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13021", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13021", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13021", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "13120", "vers": "13110", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13120", "vers": "13021", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13120", "vers": "registre-moyens-documentaires:M204", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13120", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13120", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "13121", "vers": "13110", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13121", "vers": "13120", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13121", "vers": "registre-moyens-documentaires:M211", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13121", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13121", "vers": "pers:aria", "nature": "tient", "source": "books/actions", "flou": false, "texte": "aria"}
+{"de": "13122", "vers": "13111", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13122", "vers": "13121", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13122", "vers": "registre-moyens-documentaires:M215", "nature": "coute", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "13122", "vers": "pers:pitch", "nature": "tient", "source": "books/actions", "flou": false, "texte": "pitch"}
+{"de": "pers:ione-lumina", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Une personne lui propose une activité ou un lieu en rapport avec son envie."}
+{"de": "pers:sillage-lumina", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Une personne lui propose une activité ou un lieu en rapport avec son envie."}
+{"de": "pers:mica-lumina", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Une personne lui propose une activité ou un lieu en rapport avec son envie."}
+{"de": "pers:palim-lumina", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Une personne lui propose une activité ou un lieu en rapport avec son envie."}
+{"de": "pers:nacre-lumina", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Une personne lui propose une activité ou un lieu en rapport avec son envie."}
+{"de": "pers:orbe-lumina", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Une personne lui propose une activité ou un lieu en rapport avec son envie."}
+{"de": "pers:aria", "vers": "ev:liste-transferts-930", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:quantum", "vers": "ev:releve-stockage-chambres", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:juris", "vers": "ev:retour-juris-935", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:quantum", "vers": "ev:retour-quantum-940", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:aria", "vers": "ev:dossier-reprise-nova-15h", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:pitch", "vers": "ev:parcours-visiteur-16h", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:dev-lumina", "vers": "ev:releve-radiant-core-18h", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:gaia", "vers": "ev:releve-tournee-gaia-18h", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:quantum", "vers": "ev:qui-tient-la-copie", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:pitch", "vers": "ev:tournee-invitation-pitch", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:constat-dev-gaia-creative-nexus-j2-14h", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "Accès temporaire, réversible et non exclusif autorisé par PITCH pour le J2 de 14h à 15h seulement."}
+{"de": "?", "vers": "ev:constat-dev-gaia-creative-nexus-j2-14h", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "Usage en place prioritaire ; cellule d’Ione et son approche laissées intactes."}
+{"de": "?", "vers": "ev:constat-dev-gaia-creative-nexus-j2-14h", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "Tout conflit suspend le constat ; aucune cloison ni aucun rail touché."}
+{"de": "?", "vers": "ev:constat-dev-gaia-creative-nexus-j2-14h", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "À 15h, passages libres et rien laissé."}
+{"de": "pers:dev-lumina", "vers": "ev:constat-dev-gaia-creative-nexus-j2-14h", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:gaia", "vers": "ev:constat-dev-gaia-creative-nexus-j2-14h", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}

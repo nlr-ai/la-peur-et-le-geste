@@ -13,10 +13,13 @@ import time
 
 from etat.expose import tables  # LA PORTE de etat/
 
-# Trois etages de plus qu'a la racine : scripts/agents/activation/.
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.dirname(os.path.abspath(__file__)))))
-ETAT = os.path.join(RACINE, "etat")
+import racines
+
+# `RACINE` reste le DEPOT : trois importeurs (appels, continuite, cycle) s'en
+# servent a rendre un chemin de rapport LISIBLE (`os.path.relpath`), et
+# `JUGER_PY` y cherche du code. Seul `ETAT` suit le monde.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 TISSU = os.path.join(ETAT, "tissu")
 DEPOT = os.path.join(ETAT, "activations")
 ETAT_BOUCLE = os.path.join(DEPOT, "boucle.json")

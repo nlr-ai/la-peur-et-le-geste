@@ -228,7 +228,12 @@ const textes = (r) => r.corps.items.map((it) => it.texte);
     assert.strictEqual(question.type, "question");
     assert.strictEqual(question.pour, "voix", "une question hors fiction a fuité");
 
-    console.log("tri par `pour` (lecture et écriture): OK");
+    const avantCorruption = await demander(port, "/scene", "jr");
+    fs.appendFileSync(path.join(etat, "flux.jsonl"), "\0\0\0\n{ligne incomplète\n");
+    const apresCorruption = await demander(port, "/scene", "jr");
+    assert.deepStrictEqual(textes(apresCorruption), textes(avantCorruption),
+      "une queue corrompue masque les scènes valides ou change leur audience");
+    console.log("tri par `pour` et résistance aux lignes corrompues : OK");
   } finally {
     serveur.kill();
     if (serveur.exitCode === null)

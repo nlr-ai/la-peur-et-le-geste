@@ -1,0 +1,183 @@
+{
+  "id": "registre-etats-colum-mackenzie",
+  "titre": "Les choses suivies par colum-mackenzie",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée au porteur",
+  "type": "registre",
+  "tenu_par": "colum-mackenzie",
+  "acteur_id": "colum-mackenzie",
+  "prive": true,
+  "pages": [
+    "Catégories : lieux-et-passages, objets-et-documents, ressources-et-populations, organisations-et-dispositifs, usages-et-institutions, situations-et-processus. Une ligne par chose ou situation. L’identité est une référence stable ; plusieurs PNJ citent la même chose au lieu de la recréer. Quand une table canonique du moteur porte déjà le fait, elle garde autorité : la ligne renvoie à cette adresse. Les évolutions arithmétiques vont dans les mains de leur maison. Les lignes purement descriptives sont leur propre autorité jusqu’à matérialisation. Accès au cahier technique n’est pas connaissance du personnage : Qui sait quoi doit être respecté."
+  ],
+  "colonnes": [
+    "Référence",
+    "Catégorie",
+    "Identité et fonction",
+    "Où",
+    "Détenteur ou responsable",
+    "État présent",
+    "Quantité ou propriétés",
+    "Usages et limites",
+    "Liens",
+    "Évolution et échéances",
+    "Statut",
+    "Source ou provenance",
+    "Qui sait quoi",
+    "Date de mise à jour",
+    "Autorité existante"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "R.1",
+        "situations-et-processus",
+        "Charge actuelle de Colum à Leoch",
+        "Leoch",
+        "Colum",
+        "Colum est actif, libre, présent et Laird de Leoch.",
+        "Autorité locale sans effectif ni ressources chiffrés",
+        "Permet les décisions ordinaires relevant de Leoch ; ne vaut ni connaissance universelle, ni contrôle de toute personne ou route.",
+        "Affaire C.1 ; M.1",
+        "À réviser après fait joué ou changement d’état.",
+        "établi",
+        "etat/personnages.json ; canon/personnages.md",
+        "Colum connaît sa charge ; les PJ n’apprennent rien par ce registre.",
+        "4 mai 1743, 10 h",
+        "etat/personnages.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.2",
+        "lieux-et-passages",
+        "Espaces familiers de travail et d’audience de Colum",
+        "À l’intérieur de Leoch, sans plan détaillé",
+        "Maison MacKenzie ; usage ordinaire de Colum",
+        "Une chambre de travail, un lieu d’audience et des espaces familiaux ordinaires sont disponibles ; leur géométrie n’est pas fixée.",
+        "Mobilier et rangement usuels non inventoriés",
+        "Recevoir, examiner et décider ; ne crée ni passage secret, ni cache, ni accès à toute pièce du château.",
+        "Affaire M.4 ; T.1",
+        "À préciser seulement si une scène ou une contrainte spatiale l’exige.",
+        "peint",
+        "Implantation minimale plausible pour le Laird de Leoch",
+        "Colum et les gens de maison connaissent les usages auxquels ils participent ; aucune connaissance transmise aux PJ.",
+        "4 mai 1743, 10 h",
+        "Description locale, subordonnée aux futurs plans de Leoch"
+      ]
+    },
+    {
+      "cellules": [
+        "R.3",
+        "objets-et-documents",
+        "Effets personnels ordinaires de Colum",
+        "Avec Colum ou dans ses espaces familiers",
+        "Colum",
+        "Effets de rang en usage, sans inventaire chiffré.",
+        "Vêtements de laine et de lin de qualité convenable, manteau ou plaid, ceinture, petit couteau utilitaire, nécessaire personnel d’écriture et de scellement.",
+        "Se vêtir, écrire une note ou authentifier une décision future ; aucun écrit, ordre ou scellement n’est produit par cette préparation.",
+        "Affaire M.3 ; T.2",
+        "Usure, quantité et contenu seulement après constat.",
+        "peint",
+        "Implantation ordinaire plausible au regard du rang ; aucune source canonique précise",
+        "Colum connaît ses effets ; autrui seulement ce qu’il voit ou reçoit réellement.",
+        "4 mai 1743, 10 h",
+        "Description locale du registre jusqu’à matérialisation plus précise"
+      ]
+    },
+    {
+      "cellules": [
+        "R.4",
+        "organisations-et-dispositifs",
+        "Chaîne ordinaire de responsabilités autour de Colum",
+        "Leoch",
+        "Colum pour les décisions ; chaque responsable pour son domaine",
+        "Mrs Fitz est liée à la maisonnée, Ned au conseil juridique, Alec aux chevaux ; Dougal, Rupert et Angus ont leurs liens de clan établis.",
+        "Fonctions relationnelles sans nombre d’hommes, stock ni disponibilité garantis",
+        "Permet d’adresser une question à la personne compétente ; ne permet pas de jouer sa réponse ou son action.",
+        "Affaire M.2 ; C.3 ; K.2",
+        "Toute mission nouvelle exige formulation puis session du destinataire.",
+        "établi",
+        "etat/relations.json ; canon/clans.md",
+        "Colum connaît ces rapports vécus ; cela ne rend pas leurs informations présentes dans sa tête.",
+        "4 mai 1743, 10 h",
+        "etat/relations.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.5",
+        "usages-et-institutions",
+        "Habitude de gouvernement factuel de Colum",
+        "Leoch",
+        "Colum",
+        "Dans ses temps ordinaires de travail, Colum demande qui a vu quoi, sépare rapport et supposition, puis attribue ou diffère la décision.",
+        "Habitude personnelle, non règle automatique imposée à autrui",
+        "Cadre les audiences et les affaires courantes ; ne garantit ni sincérité, ni exactitude, ni obéissance.",
+        "Affaire P.1 ; P.2 ; C.1",
+        "Révisable si une journée vécue la contredit.",
+        "peint",
+        "Choix d’incarnation cohérent avec les traits calculateur et attentif",
+        "Colum connaît sa méthode ; chaque interlocuteur conserve sa propre conduite.",
+        "4 mai 1743, 10 h",
+        "Description locale du registre"
+      ]
+    },
+    {
+      "cellules": [
+        "R.6",
+        "situations-et-processus",
+        "Hospitalité surveillée accordée à Claire",
+        "Leoch",
+        "Colum pour les conditions relevant de Leoch ; Claire pour ses décisions",
+        "Claire est présente comme étrangère ; aucun entretien nouveau, aveu, faute ou modification d’accès n’est établi.",
+        "Situation relationnelle, sans durée ou contrainte supplémentaire peinte",
+        "Autorise l’accueil et une attention prudente ; ne vaut ni captivité, ni confiance, ni preuve sur son origine.",
+        "Affaire C.2 ; V.3 ; T.3 ; T.4",
+        "P.1 puis P.2 doivent produire des faits joués avant toute révision.",
+        "établi",
+        "etat/personnages.json ; etat/relations.json ; ma-memoire",
+        "Colum sait Claire présente et étrangère ; il ignore son origine temporelle. Les PJ ne reçoivent rien.",
+        "4 mai 1743, 10 h",
+        "etat/personnages.json ; etat/relations.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.7",
+        "ressources-et-populations",
+        "Ressources matérielles et humaines de Leoch mobilisables par Colum",
+        "Leoch",
+        "Maison MacKenzie sous l’autorité de Colum",
+        "Le château implique une maisonnée et des moyens ordinaires, mais aucun total, caisse, stock, effectif ou disponibilité n’est établi ici.",
+        "Quantités et état inconnus",
+        "Aucune dépense, levée, escorte, logement supplémentaire ou prélèvement ne peut être calculé depuis cette ligne.",
+        "Affaire V.1 ; T.1",
+        "À définir ou chercher seulement lorsqu’une décision concrète l’exige.",
+        "inconnu",
+        "canon/implantation.md interdit de déduire les ressources d’une absence de valeur",
+        "Colum connaît les affaires ordinaires qu’il a effectivement vues ou reçues ; le registre ne lui livre aucun chiffre absent.",
+        "4 mai 1743, 10 h",
+        "Aucune table chiffrée existante trouvée"
+      ]
+    },
+    {
+      "cellules": [
+        "R.8",
+        "lieux-et-passages",
+        "Routes depuis Leoch vers Craigh na Dun, Inverness, Cranesmuir ou Lallybroch",
+        "Hors de Leoch",
+        "Inconnu",
+        "Aucun raccord, itinéraire, durée ou condition de voyage n’est établi dans le réseau actuel.",
+        "Distance, porteur, coût et dangers inconnus",
+        "Ne peut servir à dater un déplacement, une arrivée ou un message.",
+        "Affaire T.5",
+        "À chercher auprès d’une source accessible lorsqu’un trajet concret l’exige.",
+        "inconnu",
+        "canon/implantation.md ; etat/chemins.json",
+        "Colum ne reçoit aucune route par l’existence technique de cette ligne.",
+        "4 mai 1743, 10 h",
+        "etat/chemins.json"
+      ]
+    }
+  ]
+}

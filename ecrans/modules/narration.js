@@ -9,6 +9,7 @@
   });
   Bus.enregistrer("recit", (it, ctx) => {
     const entree = Bus.chronique("chr-recit", null, it.texte);
+    if (window.Demandes) Demandes.poser(entree, it);
     if (window.Voix) Voix.dire("narrateur", it.texte, ctx, entree);
   });
 })();

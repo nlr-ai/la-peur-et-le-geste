@@ -1,7 +1,7 @@
 // GET /retrospective, /medailles, /captures/*, /textures/*, /sons/cris/*.
 const fs = require("fs");
 const path = require("path");
-const { RACINE } = require("../http");
+const { RACINE, DEPOT, ETAT } = require("../http");
 const { envoyer } = require("../http");
 
 function traiter(req, res, url) {
@@ -9,7 +9,7 @@ function traiter(req, res, url) {
     if (url === "/retrospective") {
       try {
         const t = JSON.parse(fs.readFileSync(
-          path.join(RACINE, "etat", "retrospective.json"), "utf-8"));
+          path.join(ETAT, "retrospective.json"), "utf-8"));
         return envoyer(res, 200, JSON.stringify({ planches: t.planches || [] }));
       } catch (e) {
         return envoyer(res, 200, JSON.stringify({ planches: [] }));
@@ -20,7 +20,7 @@ function traiter(req, res, url) {
     if (url === "/medailles") {
       try {
         const t = JSON.parse(fs.readFileSync(
-          path.join(RACINE, "etat", "medailles.json"), "utf-8"));
+          path.join(ETAT, "medailles.json"), "utf-8"));
         return envoyer(res, 200, JSON.stringify({ medailles: t.medailles || [] }));
       } catch (e) {
         return envoyer(res, 200, JSON.stringify({ medailles: [] }));
@@ -48,7 +48,7 @@ function traiter(req, res, url) {
       const types = { ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp" };
       if (!types[ext]) return envoyer(res, 404, JSON.stringify({ erreur: nom }));
       try {
-        const corps = fs.readFileSync(path.join(RACINE, "ecrans", "textures", nom));
+        const corps = fs.readFileSync(path.join(DEPOT, "ecrans", "textures", nom));
         res.writeHead(200, { "Content-Type": types[ext], "Cache-Control": "public, max-age=86400" });
         return res.end(corps);
       } catch (e) { return envoyer(res, 404, JSON.stringify({ erreur: nom })); }
@@ -65,7 +65,7 @@ function traiter(req, res, url) {
                       ".json": "application/json; charset=utf-8" };
       if (!types[ext]) return envoyer(res, 404, JSON.stringify({ erreur: nom }));
       try {
-        const corps = fs.readFileSync(path.join(RACINE, "sons", "cris", nom));
+        const corps = fs.readFileSync(path.join(DEPOT, "sons", "cris", nom));
         res.writeHead(200, { "Content-Type": types[ext], "Cache-Control": "public, max-age=86400" });
         return res.end(corps);
       } catch (e) { return envoyer(res, 404, JSON.stringify({ erreur: nom })); }

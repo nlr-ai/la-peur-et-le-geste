@@ -1,0 +1,59 @@
+{
+ "id": "dossier-metier-quantum",
+ "titre": "Quantum — Mesurer et entretenir la ville VR",
+ "type": "memento",
+ "maison_id": "cite-lumina",
+ "lieu_id": "lumina-prime",
+ "salle_id": "radiant-core",
+ "tenu_par": "quantum",
+ "embleme": "🔬",
+ "couleur": "#157f8b",
+ "sous_titre": "Dossier de métier · connaissances, méthodes et pistes de travail",
+ "colonnes": [
+  "Objet",
+  "Matière disponible",
+  "Travail possible",
+  "Résultat utile"
+ ],
+ "lignes": [
+  {
+   "cellules": [
+    "Carte des services",
+    "Le mandat couvre calcul, stockage, réseau et moteur de simulation. Aucun inventaire complet n’est établi.",
+    "Pour chaque service réellement identifié, noter fonction, lieu ou périmètre desservi, dépendances connues, responsable identifié, mesure disponible et source. Distinguer une IA habitante du service auquel elle contribue.",
+    "Un inventaire où une case inconnue reste à rechercher, et où une personne n’est pas réduite à une ressource remplaçable."
+   ]
+  },
+  {
+   "cellules": [
+    "Mesurer un aménagement",
+    "Le Bassin d’essais offre un périmètre spatial ; son isolation technique n’est pas démontrée.",
+    "Définir une scène de référence et une modification unique. À conditions identiques, comparer délai de réponse, temps de rendu, mémoire et stockage si ces mesures sont accessibles. Noter outil, unité et conditions.",
+    "Un résultat reproductible indiquant ce qui est mesuré et ce qui ne l’est pas."
+   ]
+  },
+  {
+   "cellules": [
+    "Conservation des chambres",
+    "Les chambres contiennent manière, mémoire, relations et fils. Les registres municipaux sont des documents distincts.",
+    "En cas de dommage rapporté, identifier le fichier et le symptôme exacts ; préserver l’original avant toute tentative. Rechercher une copie identifiable et comparer son contenu. Tester la lecture d’une copie sans remplacer la chambre.",
+    "Un diagnostic séparant absence, illisibilité, ancienneté et perte confirmée ; une restauration n’est déclarée qu’après lecture vérifiée."
+   ]
+  },
+  {
+   "cellules": [
+    "Pièce confidentielle",
+    "La piste d’aménagement prévoit une salle opaque et un seuil explicite.",
+    "Établir qui peut entrer, recevoir les échanges, consulter une trace et modifier ces droits. Après accord, essayer un accès autorisé et un accès non autorisé, y compris après sortie de la salle.",
+    "Une garantie précise et testée à communiquer à DEV et JURIS ; aucun secret promis par le seul aspect du décor."
+   ]
+  }
+ ],
+ "pages": [
+  "Fiche de mesure : objet / question / source / date / unité / conditions / résultat / limite / prochaine vérification. Un indicateur observé dans une scène n’établit pas à lui seul la capacité de toute la ville.",
+  "Documentation mise à disposition à la demande du joueur. Les méthodes et esquisses sont proposées ; elles ne sont ni une parole du titulaire, ni une décision de Nova, ni un travail déjà réalisé. Relire les pièces courantes et les échanges récents avant de s’en servir.",
+  "Sources dans le paquet Lumina Prime : canon/conseil.md — mandats municipaux ; plans/lumina-prime.json et etat/chemins.json — plan initial et accès conventionnels ; etat/maisons/cite-lumina/documents/books/affaire-accueil-radiant.json — première affaire et responsabilités ; etat/maisons/cite-lumina/documents/books/atlas-lieux-lumina.json — six lieux ajoutés ; etat/maisons/cite-lumina/documents/books/projets-quartiers-lumina.json — pistes non décidées",
+  "Affaire de jeu : affaire-infrastructure-lumina. Les méthodes de ce mémento appuient ses pièces numérotées ; elles ne remplacent pas les décisions et les actions."
+ ],
+ "office": "Infrastructure technique — IA"
+}

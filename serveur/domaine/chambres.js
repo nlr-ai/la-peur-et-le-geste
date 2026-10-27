@@ -17,12 +17,9 @@
 // sans horodatage réel plutôt que de les placer au hasard.
 const fs = require("fs");
 const path = require("path");
-const { RACINE } = require("../http");
+const { ETAT, CHAMBRES } = require("../http");
 // Le composant de portrait du jeu, reutilise tel quel.
 const { portraitDefaut, portraitFrais } = require("../peinture").portraits;
-
-const CHAMBRES = path.join(RACINE, "chambres");
-const ETAT = path.join(RACINE, "etat");
 
 function lire(p, defaut) {
   try { return JSON.parse(fs.readFileSync(p, "utf-8")); }

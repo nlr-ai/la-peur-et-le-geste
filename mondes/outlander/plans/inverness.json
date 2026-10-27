@@ -1,0 +1,602 @@
+{
+  "nom": "Inverness",
+  "viewBox": "0 0 680 550",
+  "_": "Plan de préparation en 1743. Géographie schématique, non cadastrale. Pièces et commerces génériques ajoutés pour la partie, sans habitants, stocks ou événement. Voir canon/carte-ville.md.",
+  "mur": "",
+  "guet": [],
+  "fonds": [
+    {
+      "classe": "plan-mer",
+      "d": "M90,0 Q175,125 120,250 Q70,370 145,550 L215,550 Q145,365 190,250 Q240,120 155,0 Z",
+      "style": "fill:#789195;opacity:.23"
+    },
+    {
+      "classe": "plan-roche",
+      "d": "M220,55 Q470,10 630,110 L645,440 Q485,540 230,480 Q200,300 220,55 Z",
+      "style": "fill:#c6b99a;opacity:.13"
+    }
+  ],
+  "decor": [
+    {
+      "classe": "plan-arete",
+      "d": "M90,270 L265,250 Q345,205 565,230 M290,230 Q280,125 320,60 M325,235 Q365,350 385,475 M405,225 Q475,280 565,410",
+      "style": "fill:none;stroke:#ad9b78;stroke-width:13;opacity:.35"
+    },
+    {
+      "classe": "plan-arete",
+      "d": "M245,99 l10,-4 l10,4 v20 h-20 Z M245,100 h20",
+      "style": "fill:#bbad90;stroke:#99896b;stroke-width:.8;opacity:.35"
+    },
+    {
+      "classe": "plan-arete",
+      "d": "M230,124 l10,-4 l10,4 v20 h-20 Z M230,125 h20",
+      "style": "fill:#bbad90;stroke:#99896b;stroke-width:.8;opacity:.35"
+    },
+    {
+      "classe": "plan-arete",
+      "d": "M405,144 l10,-4 l10,4 v20 h-20 Z M405,145 h20",
+      "style": "fill:#bbad90;stroke:#99896b;stroke-width:.8;opacity:.35"
+    },
+    {
+      "classe": "plan-arete",
+      "d": "M410,169 l10,-4 l10,4 v20 h-20 Z M410,170 h20",
+      "style": "fill:#bbad90;stroke:#99896b;stroke-width:.8;opacity:.35"
+    },
+    {
+      "classe": "plan-arete",
+      "d": "M585,174 l10,-4 l10,4 v20 h-20 Z M585,175 h20",
+      "style": "fill:#bbad90;stroke:#99896b;stroke-width:.8;opacity:.35"
+    },
+    {
+      "classe": "plan-arete",
+      "d": "M605,199 l10,-4 l10,4 v20 h-20 Z M605,200 h20",
+      "style": "fill:#bbad90;stroke:#99896b;stroke-width:.8;opacity:.35"
+    },
+    {
+      "classe": "plan-arete",
+      "d": "M245,339 l10,-4 l10,4 v20 h-20 Z M245,340 h20",
+      "style": "fill:#bbad90;stroke:#99896b;stroke-width:.8;opacity:.35"
+    },
+    {
+      "classe": "plan-arete",
+      "d": "M235,364 l10,-4 l10,4 v20 h-20 Z M235,365 h20",
+      "style": "fill:#bbad90;stroke:#99896b;stroke-width:.8;opacity:.35"
+    },
+    {
+      "classe": "plan-arete",
+      "d": "M400,384 l10,-4 l10,4 v20 h-20 Z M400,385 h20",
+      "style": "fill:#bbad90;stroke:#99896b;stroke-width:.8;opacity:.35"
+    },
+    {
+      "classe": "plan-arete",
+      "d": "M575,394 l10,-4 l10,4 v20 h-20 Z M575,395 h20",
+      "style": "fill:#bbad90;stroke:#99896b;stroke-width:.8;opacity:.35"
+    },
+    {
+      "classe": "plan-arete",
+      "d": "M130,374 l10,-4 l10,4 v20 h-20 Z M130,375 h20",
+      "style": "fill:#bbad90;stroke:#99896b;stroke-width:.8;opacity:.35"
+    },
+    {
+      "classe": "plan-arete",
+      "d": "M145,399 l10,-4 l10,4 v20 h-20 Z M145,400 h20",
+      "style": "fill:#bbad90;stroke:#99896b;stroke-width:.8;opacity:.35"
+    }
+  ],
+  "etiquettes": [
+    {
+      "x": 100,
+      "y": 210,
+      "texte": "La Ness"
+    },
+    {
+      "x": 345,
+      "y": 530,
+      "texte": "Inverness · disposition de jeu"
+    }
+  ],
+  "rose": [
+    625,
+    30,
+    14
+  ],
+  "salles": [
+    {
+      "id": "inverness-eglise",
+      "nom": "Église paroissiale",
+      "forme": {
+        "d": "M270,72 L277,65 L368,65 L375,72 L375,125 L270,125 Z"
+      },
+      "etiq": [
+        322.5,
+        77
+      ],
+      "lignes": [
+        "Église",
+        "paroissiale"
+      ],
+      "quoi": "Lieu de culte et cimetière ; disposition de jeu, bâtiment de 1743 non reconstitué.",
+      "cle": true,
+      "alias": [
+        "Église paroissiale"
+      ],
+      "motifs": [
+        "église paroissiale"
+      ],
+      "orne": [
+        "cierge",
+        322.5,
+        113,
+        6
+      ],
+      "traits": [
+        "M275,74 H370"
+      ]
+    },
+    {
+      "id": "inverness-cimetiere",
+      "nom": "Cimetière",
+      "forme": {
+        "d": "M396,65 L477,69 L485,119 L394,125 Z"
+      },
+      "etiq": [
+        437.5,
+        77
+      ],
+      "lignes": [
+        "Cimetière"
+      ],
+      "quoi": "Enclos funéraire auprès de l’église ; implantation de jeu.",
+      "cle": true,
+      "alias": [
+        "Cimetière"
+      ],
+      "motifs": [
+        "cimetière"
+      ],
+      "orne": [
+        "cierge",
+        437.5,
+        113,
+        6
+      ]
+    },
+    {
+      "id": "inverness-quai",
+      "nom": "Quai de la Ness",
+      "forme": {
+        "d": "M186,165 L257,169 L265,221 L184,227 Z"
+      },
+      "etiq": [
+        222.5,
+        177
+      ],
+      "lignes": [
+        "Quai de",
+        "la Ness"
+      ],
+      "quoi": "Rive de travail et débarquement ; aucun bateau ni chargement présumé.",
+      "cle": true,
+      "alias": [
+        "Quai de la Ness"
+      ],
+      "motifs": [
+        "quai de la ness"
+      ],
+      "orne": [
+        "coques",
+        222.5,
+        215,
+        6
+      ]
+    },
+    {
+      "id": "inverness-marche",
+      "nom": "Place du marché",
+      "forme": {
+        "d": "M291,175 L382,179 L390,239 L289,245 Z"
+      },
+      "etiq": [
+        337.5,
+        187
+      ],
+      "lignes": [
+        "Place du",
+        "marché"
+      ],
+      "quoi": "Espace public pour les échanges ; étals et disponibilité à établir en jeu.",
+      "cle": true,
+      "alias": [
+        "Place du marché"
+      ],
+      "motifs": [
+        "place du marché"
+      ],
+      "orne": [
+        "tonneaux",
+        337.5,
+        233,
+        6
+      ]
+    },
+    {
+      "id": "inverness-auberge",
+      "nom": "Salle de l’auberge",
+      "forme": {
+        "d": "M460,147 L467,140 L568,140 L575,147 L575,204 L460,204 Z"
+      },
+      "etiq": [
+        517.5,
+        152
+      ],
+      "lignes": [
+        "Salle de",
+        "l’auberge"
+      ],
+      "quoi": "Salle commune de l’auberge de Mairi MacLeod ; prix et disponibilités à établir en scène.",
+      "cle": true,
+      "alias": [
+        "Salle de l’auberge"
+      ],
+      "motifs": [
+        "salle de l’auberge"
+      ],
+      "orne": [
+        "chaudron",
+        517.5,
+        192,
+        6
+      ],
+      "traits": [
+        "M465,149 H570"
+      ]
+    },
+    {
+      "id": "inverness-chambre",
+      "nom": "Chambre de l’auberge",
+      "forme": {
+        "d": "M478,227 L485,220 L566,220 L573,227 L573,272 L478,272 Z"
+      },
+      "etiq": [
+        525.5,
+        232
+      ],
+      "lignes": [
+        "Chambre de",
+        "l’auberge"
+      ],
+      "quoi": "Ajout de partie : chambre à l’étage ; ni lit attribué ni prix fixé.",
+      "cle": true,
+      "alias": [
+        "Chambre de l’auberge"
+      ],
+      "motifs": [
+        "chambre de l’auberge"
+      ],
+      "orne": [
+        "lit",
+        525.5,
+        260,
+        6
+      ],
+      "traits": [
+        "M483,229 H568"
+      ],
+      "etage": "sommet"
+    },
+    {
+      "id": "inverness-pont",
+      "nom": "Pont sur la Ness",
+      "forme": {
+        "r": [
+          75,
+          270,
+          160,
+          40,
+          1
+        ]
+      },
+      "etiq": [
+        155.0,
+        282
+      ],
+      "lignes": [
+        "Pont de la Ness"
+      ],
+      "quoi": "Passage entre les rives ; tracé schématique du pont ancien, pas le pont moderne.",
+      "cle": true,
+      "alias": [
+        "Pont sur la Ness"
+      ],
+      "motifs": [
+        "pont sur la ness"
+      ],
+      "orne": [],
+      "traits": [
+        "M75,274 H235",
+        "M75,306 H235"
+      ]
+    },
+    {
+      "id": "inverness-tolbooth",
+      "nom": "Tolbooth",
+      "forme": {
+        "d": "M285,307 L292,300 L383,300 L390,307 L390,370 L285,370 Z"
+      },
+      "etiq": [
+        337.5,
+        312
+      ],
+      "lignes": [
+        "Tolbooth"
+      ],
+      "quoi": "Siège civique et justice du bourg ; aménagement intérieur proposé pour la partie.",
+      "cle": true,
+      "alias": [
+        "Tolbooth"
+      ],
+      "motifs": [
+        "tolbooth"
+      ],
+      "orne": [
+        "rouleau",
+        337.5,
+        358,
+        6
+      ],
+      "traits": [
+        "M290,309 H385"
+      ]
+    },
+    {
+      "id": "inverness-greffe",
+      "nom": "Chambre du greffe",
+      "forme": {
+        "d": "M400,307 L407,300 L483,300 L490,307 L490,360 L400,360 Z"
+      },
+      "etiq": [
+        445.0,
+        312
+      ],
+      "lignes": [
+        "Chambre",
+        "du greffe"
+      ],
+      "quoi": "Ajout de partie : registres municipaux ; consultation soumise à la scène.",
+      "cle": true,
+      "alias": [
+        "Chambre du greffe"
+      ],
+      "motifs": [
+        "chambre du greffe"
+      ],
+      "orne": [
+        "rouleau",
+        445.0,
+        348,
+        6
+      ],
+      "traits": [
+        "M405,309 H485"
+      ]
+    },
+    {
+      "id": "inverness-cellule",
+      "nom": "Cellule du bourg",
+      "forme": {
+        "d": "M505,307 L512,300 L588,300 L595,307 L595,360 L505,360 Z"
+      },
+      "etiq": [
+        550.0,
+        312
+      ],
+      "lignes": [
+        "Cellule",
+        "du bourg"
+      ],
+      "quoi": "Ajout de partie : pièce de détention ; aucun prisonnier placé.",
+      "cle": true,
+      "alias": [
+        "Cellule du bourg"
+      ],
+      "motifs": [
+        "cellule du bourg"
+      ],
+      "orne": [
+        "banc",
+        550.0,
+        348,
+        6
+      ],
+      "traits": [
+        "M510,309 H590"
+      ]
+    },
+    {
+      "id": "inverness-forge",
+      "nom": "Atelier du forgeron",
+      "forme": {
+        "d": "M285,427 L292,420 L383,420 L390,427 L390,485 L285,485 Z"
+      },
+      "etiq": [
+        337.5,
+        432
+      ],
+      "lignes": [
+        "Atelier du",
+        "forgeron"
+      ],
+      "quoi": "Ajout de partie : établi et foyer ; artisan, outils et commandes à établir.",
+      "cle": true,
+      "alias": [
+        "Atelier du forgeron"
+      ],
+      "motifs": [
+        "atelier du forgeron"
+      ],
+      "orne": [
+        "enclume",
+        337.5,
+        473,
+        6
+      ],
+      "traits": [
+        "M290,429 H385"
+      ]
+    },
+    {
+      "id": "inverness-apothicaire",
+      "nom": "Échoppe de l’apothicaire",
+      "forme": {
+        "d": "M445,417 L452,410 L553,410 L560,417 L560,470 L445,470 Z"
+      },
+      "etiq": [
+        502.5,
+        422
+      ],
+      "lignes": [
+        "Échoppe de",
+        "l’apothicaire"
+      ],
+      "quoi": "Ajout de partie : comptoir et rangement ; aucun remède disponible par défaut.",
+      "cle": true,
+      "alias": [
+        "Échoppe de l’apothicaire"
+      ],
+      "motifs": [
+        "échoppe de l’apothicaire"
+      ],
+      "orne": [
+        "fiole",
+        502.5,
+        458,
+        6
+      ],
+      "traits": [
+        "M450,419 H555"
+      ]
+    },
+    {
+      "id": "inverness-ecurie",
+      "nom": "Cour des écuries",
+      "forme": {
+        "d": "M540,72 L547,65 L643,65 L650,72 L650,125 L540,125 Z"
+      },
+      "etiq": [
+        595.0,
+        77
+      ],
+      "lignes": [
+        "Cour des",
+        "écuries"
+      ],
+      "quoi": "Ajout de partie : cour et abri ; chevaux et propriétaires non établis.",
+      "cle": true,
+      "alias": [
+        "Cour des écuries"
+      ],
+      "motifs": [
+        "cour des écuries"
+      ],
+      "orne": [
+        "toiles",
+        595.0,
+        113,
+        6
+      ],
+      "traits": [
+        "M545,74 H645"
+      ]
+    },
+    {
+      "id": "inverness-chateau",
+      "nom": "Accès au vieux château",
+      "forme": {
+        "d": "M165,427 L172,420 L258,420 L265,427 L265,490 L165,490 Z"
+      },
+      "etiq": [
+        215.0,
+        432
+      ],
+      "lignes": [
+        "Accès au",
+        "vieux château"
+      ],
+      "quoi": "Repère historique antérieur à 1746 ; aucun accès à la garnison ni château du XIXe siècle.",
+      "cle": true,
+      "alias": [
+        "Accès au vieux château"
+      ],
+      "motifs": [
+        "accès au vieux château"
+      ],
+      "orne": [
+        "creneaux",
+        215.0,
+        478,
+        6
+      ],
+      "traits": [
+        "M170,429 H260"
+      ]
+    },
+    {
+      "id": "inverness-jardin",
+      "nom": "Jardins de rive",
+      "forme": {
+        "d": "M546,475 L642,479 L650,524 L544,530 Z"
+      },
+      "etiq": [
+        595.0,
+        487
+      ],
+      "lignes": [
+        "Jardins",
+        "de rive"
+      ],
+      "quoi": "Ajout de partie : terrain cultivable ; plantes et récoltes non présumées.",
+      "cle": true,
+      "alias": [
+        "Jardins de rive"
+      ],
+      "motifs": [
+        "jardins de rive"
+      ],
+      "orne": [
+        "arbres",
+        595.0,
+        518,
+        6
+      ]
+    },
+    {
+      "id": "inverness-sortie",
+      "nom": "Chemin hors du bourg",
+      "forme": {
+        "d": "M41,80 L152,84 L160,134 L39,140 Z"
+      },
+      "etiq": [
+        97.5,
+        92
+      ],
+      "lignes": [
+        "Chemin hors",
+        "du bourg"
+      ],
+      "quoi": "Sortie locale ; aucune route vers Leoch ou les pierres encore raccordée.",
+      "cle": true,
+      "alias": [
+        "Chemin hors du bourg"
+      ],
+      "motifs": [
+        "chemin hors du bourg"
+      ],
+      "orne": [
+        "arbres",
+        97.5,
+        128,
+        6
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Les lieux — La peur et le geste</title>
+<style>
+:root{color-scheme:light;--ink:#273b36;--paper:#f1ecdf;--line:#c5bda9;--accent:#9d5039}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 Georgia,serif}header{background:#263b35;color:#f2eddd;padding:26px 5vw 30px;display:flex;justify-content:space-between;align-items:end;border-bottom:5px solid #b29261}h1{font-size:34px;font-weight:400;margin:3px 0 0;line-height:1.2}.eyebrow{font:11px/1.5 system-ui,sans-serif;letter-spacing:2.5px;text-transform:uppercase}.header-note{font-size:14px;opacity:.72}main{display:grid;grid-template-columns:260px minmax(0,1fr);min-height:calc(100vh - 130px)}nav{padding:30px 20px 30px 28px;border-right:1px solid var(--line)}nav .eyebrow{margin:0 0 18px 12px}button{font:inherit;color:inherit;cursor:pointer}nav button{display:flex;text-align:left;width:100%;gap:12px;align-items:baseline;background:none;border:0;border-bottom:1px solid #d8d0bd;padding:12px 10px;line-height:1.35}nav button small{font:11px system-ui,sans-serif;color:#807b6c}nav button:hover,nav button[aria-current=true]{background:#e1dbc9}nav button[aria-current=true]{box-shadow:inset 3px 0 var(--accent)}article{padding:30px 4vw 20px}.bar{display:flex;justify-content:space-between;gap:12px;align-items:start}.bar h2{font-size:29px;font-weight:400;margin:5px 0 9px}.bar p{margin:0;color:#6c7063}.return{border:1px solid var(--line);background:transparent;padding:8px 14px;white-space:nowrap}.drawing{position:relative;margin-top:24px;border:1px solid #c7bda5;background:#e7e0cf;background-image:linear-gradient(#d9d0bd45 1px,transparent 1px),linear-gradient(90deg,#d9d0bd45 1px,transparent 1px);background-size:28px 28px;box-shadow:0 8px 24px #302c2010}svg{display:block;width:100%;height:auto;max-height:68vh}svg text{font-family:Georgia,serif;fill:#35443b;text-anchor:middle;font-size:15px}svg .room{cursor:pointer;outline:none}svg .room rect{fill:#f4efdf;stroke:#716b57;stroke-width:2}svg .room:hover rect,svg .room:focus rect{fill:#e4d6b9;stroke:var(--accent);stroke-width:3}svg .room.selected rect{fill:#dec8a6;stroke:var(--accent);stroke-width:3}svg .room .small{font:10px system-ui,sans-serif;letter-spacing:1.2px;fill:#817766}svg .decor{stroke:#a4926b;stroke-width:4;fill:none}svg .furniture{stroke:#a19377;stroke-width:1.2;fill:none;pointer-events:none}footer{display:flex;gap:20px;justify-content:space-between;border-top:1px solid var(--line);padding-top:15px;margin-top:22px;color:#717365;font-size:12px}.detail{min-height:77px;padding:18px 0 0;display:grid;grid-template-columns:1fr auto;gap:15px}.detail h3{font-size:19px;font-weight:400;margin:0}.detail p{font-size:14px;margin:3px 0;color:#6b6d5e}.tag{font:10px system-ui,sans-serif;text-transform:uppercase;letter-spacing:1.2px;border:1px solid #b7ac95;padding:8px 12px;align-self:start}.error{padding:35px;color:#963f2c}@media(max-width:850px){main{grid-template-columns:1fr}nav{display:flex;overflow:auto;padding:12px;border-right:0;border-bottom:1px solid var(--line)}nav .eyebrow{display:none}#nav{display:flex}nav button{min-width:175px;border-bottom:0}header{padding:22px}h1{font-size:27px}.header-note{display:none}article{padding:22px}svg{max-height:none}.bar h2{font-size:24px}footer{flex-direction:column;gap:4px}.detail{grid-template-columns:1fr}}
+
+[hidden]{display:none!important}.interieur{margin:24px 0 10px}.interieur img{display:block;width:100%;max-height:58vh;object-fit:contain;background:#263b35;border:1px solid #b7ac95}.interieur figcaption{font-size:13px;color:#6b6d5e;padding:8px 0}.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px;margin-top:26px}.place-card{display:block;border:1px solid var(--line);padding:0;background:#e7e0cf;text-align:left}.place-card:hover{border-color:var(--accent)}.place-card img{width:100%;aspect-ratio:3/2;object-fit:cover;display:block}.place-card strong{display:block;font-weight:400;font-size:19px;padding:12px 14px 2px}.place-card small{display:block;padding:0 14px 14px;color:#737361}.place-card:focus-visible{outline:3px solid var(--accent)}
+
+html.integre header,html.integre nav{display:none}
+html.integre main{display:block;min-height:100vh}
+html.integre article{padding:18px}
+html.integre .bar h2{font-size:25px}
+html.integre .gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}
+html.integre .place-card strong{font-size:16px}
+html.integre .place-card small{font-size:12px}
+html.integre .detail,html.integre footer{font-size:11px}
+@media(max-width:360px){html.integre .gallery{grid-template-columns:1fr}}
+</style>
+<script>if(new URLSearchParams(location.search).has('integre'))document.documentElement.classList.add('integre');</script>
+<header><div><div class="eyebrow">Niort · Coulon</div><h1>La peur et le geste</h1></div><div class="header-note">Les endroits où une histoire peut commencer.</div></header>
+<main><nav aria-label="Lieux canoniques"><div class="eyebrow">Dix lieux</div><div id="nav"></div></nav><article>
+<div class="bar"><div><div class="eyebrow" id="kind">Atlas des lieux</div><h2 id="title">Niort et le marais</h2><p id="subtitle">Ouvrir un lieu pour parcourir ses pièces.</p></div><button class="return" id="back" hidden>← Tous les lieux</button></div>
+<div class="gallery" id="gallery" hidden></div>
+<figure class="interieur" id="interieur" hidden><a id="image-link" target="_blank" rel="noopener"><img id="image-interieur" alt=""></a><figcaption id="image-caption"></figcaption></figure>
+<div class="drawing" id="drawing" aria-live="polite"></div>
+<div class="detail" aria-live="polite"><div><h3 id="room-title">Choisissez un lieu</h3><p id="room-description">Chaque bâtiment possède son plan et ses passages intérieurs.</p></div><span class="tag" id="tag">Canon du jeu</span></div>
+<footer><span>Vue château · plans schématiques, sans échelle</span><span>Intérieurs de fiction · consulter un plan ne déplace aucun personnage.</span></footer>
+</article></main>
+<script>
+'use strict';
+const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
+const INTERIEURS={"hotel-voyageurs": {"salle": "hotel-voyageurs", "titre": "Salle du café — Hôtel-café des Voyageurs", "url": "/salles/hotel-voyageurs.jpg?v=interieurs-1940-v1"}, "imprimerie-progres": {"salle": "imprimerie-progres-piece-3", "titre": "Salle des presses — Imprimerie du Progrès", "url": "/salles/imprimerie-progres-piece-3.jpg?v=interieurs-1940-v1"}, "gare-niort": {"salle": "gare-niort", "titre": "Hall — Gare de Niort", "url": "/salles/gare-niort.jpg?v=interieurs-1940-v1"}, "atelier-photographie": {"salle": "atelier-photographie-piece-2", "titre": "Studio — Atelier de photographie", "url": "/salles/atelier-photographie-piece-2.jpg?v=interieurs-1940-v1"}, "ferme-coulon": {"salle": "ferme-coulon-piece-2", "titre": "Cuisine du logis — Ferme de Coulon", "url": "/salles/ferme-coulon-piece-2.jpg?v=interieurs-1940-v1"}, "hotel-breche": {"salle": "hotel-breche-piece-2", "titre": "Réception — Hôtel de la Brèche", "url": "/salles/hotel-breche-piece-2.jpg?v=interieurs-1940-v1"}, "papeterie-centre": {"salle": "papeterie-centre", "titre": "Boutique — Papeterie du Centre", "url": "/salles/papeterie-centre.jpg?v=interieurs-1940-v1"}, "prefecture": {"salle": "prefecture-piece-4", "titre": "Secrétariat — Préfecture", "url": "/salles/prefecture-piece-4.jpg?v=interieurs-1940-v1"}, "cafe-commerce-coulon": {"salle": "cafe-commerce-coulon", "titre": "Salle du café — Café du Commerce, Coulon", "url": "/salles/cafe-commerce-coulon.jpg?v=interieurs-1940-v1"}, "maison-arret": {"salle": "maison-arret-piece-4", "titre": "Parloir — Maison d’arrêt de Niort", "url": "/salles/maison-arret-piece-4.jpg?v=interieurs-1940-v1"}};
+let plans,overview,current=null;
+const communes=['Niort','Niort','Niort','Niort','Coulon','Niort','Niort','Niort','Coulon','Niort'];
+const sources=['Lieu généré','Lieu généré','Fond cartographique','Lieu généré','Fond cartographique','Dossier historique','Lieu généré','Dossier historique','Lieu généré','Dossier historique'];
+function selectRoom(id){
+ const s=plans[current].salles.find(s=>s.id===id);if(!s)return;
+ document.querySelectorAll('svg .room').forEach(el=>el.classList.toggle('selected',el.dataset.id===id));
+ document.getElementById('room-title').textContent=s.nom;
+ document.getElementById('room-description').textContent=s.quoi;
+ document.getElementById('tag').textContent='Intérieur de fiction';
+}
+function furniture(s){
+ const [x,y,w,h]=s.forme.r;let marks='';const name=s.nom.toLowerCase();
+ if(/chambre|cellule/.test(name))marks=`<path d="M${x+15},${y+18}h45v55h-45z m0,12h45"/>`;
+ else if(/réserve|archives|rayonnages|bagagerie/.test(name))marks=[0,1,2].map(n=>`<path d="M${x+15+n*75},${y+h-22}h60v10h-60z"/>`).join('');
+ else if(/cour|quai|palier|couloir/.test(name))marks=`<path stroke-dasharray="4 5" d="M${x+20},${y+h-23}h${w-40}"/>`;
+ else marks=`<path d="M${x+w-70},${y+h-38}h45v20h-45z"/>`;
+ return `<g class="furniture">${marks}</g>`;
+}
+function render(id){
+ current=id;const p=id?plans[id]:overview;
+ document.getElementById('title').textContent=p.nom;
+ document.getElementById('kind').textContent=id?'Vue château · intérieur':'Atlas des lieux';
+ document.getElementById('subtitle').textContent=id?'Sélectionnez une pièce. Les traits relient les passages.':'Dix lieux canoniques. Ouvrez un bâtiment pour découvrir son intérieur.';
+ document.getElementById('back').hidden=!id;
+ const photo=id&&INTERIEURS[id];
+ document.getElementById('interieur').hidden=!photo;
+ document.getElementById('gallery').hidden=!!id;
+ document.getElementById('drawing').hidden=!id;
+ if(photo){
+  document.getElementById('image-interieur').src=photo.url;
+  document.getElementById('image-interieur').alt=photo.titre+' — reconstitution de fiction';
+  document.getElementById('image-link').href=photo.url;
+  document.getElementById('image-caption').textContent=photo.titre+' · Image générée, intérieur de fiction évoquant juin 1940.';
+ }else{
+  document.getElementById('gallery').innerHTML=overview.salles.map(s=>{const photo=INTERIEURS[s.id];return `<button class="place-card" data-place="${s.id}"><img src="${esc(photo.url)}" alt="${esc(photo.titre)}" loading="lazy"><strong>${esc(s.nom)}</strong><small>${esc(photo.titre.split(' — ')[0])}</small></button>`;}).join('');
+  document.querySelectorAll('.place-card').forEach(b=>b.onclick=()=>openPlace(b.dataset.place));
+ }
+ document.querySelectorAll('nav button').forEach(b=>b.setAttribute('aria-current',String(b.dataset.id===id)));
+ let svg=`<svg viewBox="${p.viewBox}" role="group" aria-label="Plan : ${esc(p.nom)}">`;
+ for(const d of p.decor||[])svg+=`<path class="decor" d="${esc(d.d)}"/>`;
+ p.salles.forEach((s,i)=>{
+  const [x,y,w,h,r]=s.forme.r;
+  svg+=`<g class="room" role="button" tabindex="0" aria-label="${esc(s.nom)}" data-id="${s.id}"><title>${esc(s.quoi)}</title><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${r}"/>`;
+  if(id)svg+=furniture(s);
+  const lines=id?s.lignes:(s.nom.length>28?[s.nom.slice(0,s.nom.lastIndexOf(' ',25)),s.nom.slice(s.nom.lastIndexOf(' ',25)+1)]:[s.nom]);
+  lines.forEach((line,k)=>svg+=`<text x="${x+w/2}" y="${y+48+k*20}">${esc(line)}</text>`);
+  svg+=`<text class="small" x="${x+w/2}" y="${y+h-16}">${id?'PIÈCE '+String(i+1).padStart(2,'0'):communes[i].toUpperCase()+' · '+sources[i].toUpperCase()}</text></g>`;
+ });
+ document.getElementById('drawing').innerHTML=svg+'</svg>';
+ document.querySelectorAll('svg .room').forEach(el=>{const activate=()=>id?selectRoom(el.dataset.id):openPlace(el.dataset.id);el.onclick=activate;el.onkeydown=e=>{if(['Enter',' '].includes(e.key)){e.preventDefault();activate();}};});
+ if(id)selectRoom(INTERIEURS[id]?.salle || p.salles[0].id);else{document.getElementById('room-title').textContent='Un lieu, plusieurs façons d’entrer dans l’histoire';document.getElementById('room-description').textContent='Le répertoire est schématique : la position des cartes ne représente pas les distances.';document.getElementById('tag').textContent='Canon du jeu';}
+}
+function openPlace(id){location.hash=id;render(id);}
+document.getElementById('back').onclick=()=>{history.replaceState(null,'',location.pathname+location.search);render(null);};
+window.addEventListener('hashchange',()=>render(plans[location.hash.slice(1)]?location.hash.slice(1):null));
+fetch('/monde.json').then(r=>{if(!r.ok)throw Error('Monde indisponible');return r.json();}).then(data=>{
+ if(data.manifeste.id!=='la-peur-et-le-geste')throw Error('Ce serveur ne sert pas La peur et le geste.');
+ plans=data.plans;overview=plans['niort-et-marais'];
+ document.getElementById('nav').innerHTML=overview.salles.map((s,i)=>`<button data-id="${s.id}"><small>${String(i+1).padStart(2,'0')}</small><span>${esc(s.nom)}</span></button>`).join('');
+ document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>openPlace(b.dataset.id));
+ render(plans[location.hash.slice(1)]?location.hash.slice(1):null);
+}).catch(e=>{document.getElementById('drawing').innerHTML='<p class="error">'+esc(e.message)+'</p>';});
+</script></html>

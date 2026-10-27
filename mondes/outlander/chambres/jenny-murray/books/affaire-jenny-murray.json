@@ -1,0 +1,120 @@
+{
+  "id": "affaire-jenny-murray",
+  "titre": "Les affaires de jenny-murray",
+  "sous_titre": "Cahier stratégique personnel — préparation du monde et conduite de mes affaires",
+  "type": "affaire",
+  "tenu_par": "jenny-murray",
+  "acteur_id": "jenny-murray",
+  "prive": true,
+  "pages": [
+    "Une affaire durable par PNJ qui porte une stratégie. Plusieurs fins peuvent y coexister. Les catégories décrivent les dimensions à peindre, pas huit objectifs obligatoires. Ce cahier de simulation n’est pas la preuve d’un carnet physiquement fabriqué.",
+    "Je peux établir en préparation les détails ordinaires, personnes secondaires, objets, lieux, habitudes et ressources plausibles nécessaires à mon implantation, sans contredire le canon ni les faits acquis. Je marque chaque ajout comme peint. Un ajout conséquent doit avoir une provenance, des limites, des liens et des conséquences cohérents ; je ne fais pas surgir le moyen décisif qui efface mon problème. Un autre personnage reçoit sa fiche et sa propre session avant toute parole, décision ou action jouée.",
+    "Établi, peint, hypothèse, inconnu sont des statuts distincts. Peindre un état initial n’accomplit pas une action future. Fabriquer pendant le jeu exige matériaux, outils, compétence et durée ; une issue dépendant d’autrui reste ouverte. Mes croyances restent distinctes de la réalité, même si ma session contribue à préparer le monde.",
+    "Les adresses C.1, V.1, K.1 et P.1 sont locales à ce cahier. Ne pas inventer de numéro global ; utiliser les outils d’adressage si un contexte global est nécessaire. Les trous ci-dessous sont écrits par moi ; ils ne remplacent pas les trous calculés du graphe."
+  ],
+  "tables": [
+    {
+      "titre": "Ouverture",
+      "colonnes": ["Champ", "Contenu"],
+      "lignes": [
+        {"cellules": ["Porteur", "jenny-murray"]},
+        {"cellules": ["Périmètre", "Préserver le foyer de Lallybroch, maintenir l’ordinaire de la maison et ne pas engager les biens durables du domaine sans besoin vérifié ni accord d’Ian."]},
+        {"cellules": ["État de préparation", "Implantation ordinaire et stratégie initiale posées le 4e jour de la 5e lune 1743 à 10 h ; aucune démarche n’est encore accomplie."]},
+        {"cellules": ["Registre compagnon", "registre-etats-jenny-murray"]}
+      ]
+    },
+    {
+      "titre": "Dimensions à peindre",
+      "colonnes": ["Catégorie", "Ce que je pose", "Statut", "Source ou provenance", "Renvois"],
+      "lignes": [
+        {"cellules": ["fins-et-doctrine", "Je veux que la maison demeure nourrie, tenue et capable d’absorber les besoins ordinaires. Je vérifie avant de promettre, je réserve les biens durables et je traite avec Ian ce qui engage le domaine au-delà de l’usage quotidien.", "peint", "Choix stratégique de Jenny, appuyé sur ses traits et son objectif établi", "C.1 ; C.2 ; C.3"]},
+        {"cellules": ["personnes-et-relations", "Ian est mon époux et partage avec moi la continuité de Lallybroch ; Jamie est mon frère ; Colum et Dougal sont mes oncles. Ces liens n’établissent ni présence, ni aide, ni décision nouvelle.", "établi", "etat/relations.json ; canon/clans.md", "M.2 ; V.2 ; K.2"]},
+        {"cellules": ["pouvoir-et-acces", "Je suis libre et présente à Lallybroch. J’ai l’accès domestique ordinaire nécessaire à la tenue du foyer et peux régler l’usage courant des denrées, du linge et du petit matériel ; je ne m’attribue ni vente de terre, ni levée d’hommes, ni engagement politique, ni décision d’Ian.", "peint", "etat/personnages.json ; rôle domestique plausible d’une maîtresse de maison ; limites explicites", "M.1 ; V.2 ; K.1"]},
+        {"cellules": ["moyens-materiels", "Je dispose d’effets personnels ordinaires, d’un nécessaire de couture et d’un petit trousseau de clefs limité aux rangements domestiques usuels. La maison comporte une pièce commune avec foyer, un espace de préparation, un cellier ou rangement des denrées, un rangement du linge et une cour avec dépendances ordinaires ; aucun plan détaillé, stock chiffré, coffre d’argent ou réserve cachée n’est posé.", "peint", "Implantation domestique plausible à Lallybroch ; aucune source canonique précise ; limites explicites", "M.3 ; R.2 à R.5 ; T.1 ; T.2"]},
+        {"cellules": ["savoirs-et-secrets", "Je connais les espaces et usages ordinaires de mon propre foyer. J’ignore l’arrivée d’Aurore et Nicolas, l’origine temporelle de Claire, les quantités exactes non encore relevées, les routes et durées non établies et toute décision future d’autrui.", "établi", "ma-memoire ; etat/intentions.json ; canon/implantation.md comme autorité de réalité", "V.1 ; T.1 ; T.4 ; Connaissances et croyances"]},
+        {"cellules": ["engagements-et-temps", "Mon ordinaire comprend la surveillance du foyer, des repas, du linge, des rangements et des menus besoins matériels. Ma première démarche doit relever les besoins accessibles en une journée ; la suivante dépend d’un échange réel avec Ian et court ensuite sur une journée.", "peint", "Responsabilités et habitudes ordinaires préparées le 4e jour de la 5e lune 1743 ; intentions exécutables", "P.1 ; P.2 ; R.6"]},
+        {"cellules": ["strategie-et-alternatives", "D’abord constater ce qui manque ou menace de manquer dans les espaces domestiques accessibles ; ensuite porter à Ian une liste bornée des priorités qui engagent le domaine. Si un accès manque, je n’invente pas la quantité. Si Ian n’est pas disponible, je maintiens l’usage ordinaire sans dépense majeure et conserve la décision ouverte.", "peint", "Choix pragmatique de Jenny en préparation hors scène", "Stratégie et alternatives ; P.1 ; P.2"]},
+        {"cellules": ["zones-a-peindre", "Restent inconnus : quantités et état précis des réserves, effectif et identité de la maisonnée, répartition des champs et dépendances, argent disponible, propriété détaillée des objets, routes extérieures et toute décision future d’Ian, Jamie, Colum ou Dougal.", "inconnu", "Absence de détail dans les autorités consultées", "T.1 à T.5"]}
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": ["N°", "L'état visé", "Ce qui doit être vrai", "La preuve", "Jour dû", "Importance"],
+      "lignes": [
+        {"cellules": ["C.1", "Préserver la continuité du foyer de Lallybroch", "L’usage domestique ordinaire reste possible sans aliéner les biens durables du domaine ni promettre des ressources inconnues.", "État du foyer constaté par des actes futurs ; aucun engagement majeur non autorisé.", "Permanent ; réévaluation quotidienne", "1 — impératif"]},
+        {"cellules": ["C.2", "Établir les besoins domestiques immédiats", "Les manques, réparations et risques observables dans les espaces accessibles sont distingués des quantités encore inconnues.", "Relevé effectivement produit après inspection, avec inconnus conservés comme tels.", "5e jour de la 5e lune 1743", "2 — haute"]},
+        {"cellules": ["C.3", "Arrêter avec Ian les priorités qui engagent le domaine", "Les besoins dépassant l’usage quotidien ont été présentés à Ian et sa réponse réelle est connue avant tout engagement.", "Échange effectivement tenu ; accord, désaccord ou report consigné sans présumer l’issue.", "6e jour de la 5e lune 1743", "3 — haute"]}
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": ["N°", "Le verrou", "Bloque", "La preuve"],
+      "lignes": [
+        {"cellules": ["V.1", "Les quantités, l’état et les besoins précis des réserves et du petit matériel n’ont pas encore été relevés.", "C.1 ; C.2", "Aucun inventaire ou constat daté n’existe dans l’état."]},
+        {"cellules": ["V.2", "Toute priorité qui engage le domaine au-delà de l’usage domestique courant dépend de la décision réelle d’Ian.", "C.3", "Relation établie, mais aucun accord futur n’est présumé."]},
+        {"cellules": ["V.3", "Les ressources chiffrées, l’argent disponible, l’effectif de la maisonnée et les routes extérieures ne sont pas établis.", "C.1 ; toute dépense, mobilisation ou trajet", "Absence de table de stock, de somme, d’effectif ou de raccord de route faisant autorité."]}
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": ["N°", "La clef", "Ouvre", "Prix et limites"],
+      "lignes": [
+        {"cellules": ["K.1", "Mon accès domestique ordinaire et une inspection directe, espace par espace", "V.1 ; C.2", "Coûte une part de journée ; ne révèle que ce qui est accessible et observable, sans créer de stock ni de chiffre."]},
+        {"cellules": ["K.2", "Présenter à Ian une liste courte de besoins vérifiés et demander sa décision sur ce qui engage le domaine", "V.2 ; C.3", "Exige sa présence et sa session ; sa réponse, son délai et ses priorités lui appartiennent."]},
+        {"cellules": ["K.3", "Conserver l’usage ordinaire et différer les engagements majeurs lorsqu’un fait ou un accord manque", "V.2 ; V.3 ; soutien à C.1", "Peut retarder une réparation ou un achat ; ne résout aucun manque réel et ne doit pas masquer une urgence constatée."]}
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": ["N°", "L'action", "Réalise", "Dépend de", "Qui", "Où", "La preuve", "État", "Jour dû", "Jour fait", "Note"],
+      "lignes": [
+        {"cellules": ["P.1", "Faire le tour des espaces domestiques accessibles et relever les denrées, le linge, le foyer et le petit matériel qui demandent attention, sans attribuer de quantité non comptée.", "K.1 ; C.2", "Accès domestique ordinaire ; temps de Jenny ; lumière suffisante", "Jenny", "Lallybroch — espaces domestiques accessibles", "Inspection effectivement accomplie et relevé borné aux constats réels.", "prévue — non commencée", "5e jour de la 5e lune 1743", "", "Si un espace ou un contenant n’est pas accessible, le marquer inconnu et poursuivre seulement ailleurs."]},
+        {"cellules": ["P.2", "Après le relevé, présenter à Ian les besoins qui dépassent l’usage quotidien et lui demander d’arrêter avec moi leur ordre de priorité.", "K.2 ; C.3", "P.1 faite ; présence et disponibilité réelles d’Ian ; aucune réponse présumée", "Jenny puis Ian", "Lallybroch", "Demande effectivement formulée ; réponse, refus ou report produit par la session d’Ian.", "prévue — dépendante", "6e jour de la 5e lune 1743", "", "Si Ian n’est pas disponible, maintenir l’usage ordinaire, ne prendre aucun engagement majeur en son nom et reporter la demande."]}
+      ]
+    },
+    {
+      "titre": "Stratégie et alternatives",
+      "colonnes": ["Fin", "Approche", "Pourquoi", "Alternative", "Changer si", "Moyens engagés"],
+      "lignes": [
+        {"cellules": ["Préserver le foyer et la continuité du domaine", "Partir des constats domestiques accessibles, séparer l’ordinaire de ce qui engage durablement Lallybroch, puis décider ce second ordre avec Ian.", "Cela évite de promettre des ressources imaginaires et concentre les décisions sur des besoins réels.", "Si l’inspection est incomplète, conserver les trous ; si Ian est indisponible, maintenir seulement l’ordinaire ; si une urgence réelle apparaît, la porter à Ian sans attendre la fin du relevé mais sans inventer sa réponse.", "Urgence constatée, accès refusé, quantité insuffisante réellement comptée, indisponibilité d’Ian ou demande extérieure engageant le domaine.", "Temps de Jenny, accès domestique peint, effets et outils ordinaires ; aucun stock chiffré ni décision d’autrui."]}
+      ]
+    },
+    {
+      "titre": "Moyens disponibles",
+      "colonnes": ["Référence", "Nature", "Accès réel", "Quantité ou portée", "Limites", "Provenance"],
+      "lignes": [
+        {"cellules": ["M.1", "Responsabilité domestique à Lallybroch", "Accès aux espaces et usages ordinaires du foyer", "Surveiller, constater, répartir l’usage courant et signaler les besoins", "Ne donne ni chiffre de stock, ni pouvoir de vendre la terre, lever des hommes ou engager politiquement le domaine.", "Ajout peint cohérent avec l’objectif, la situation et le rang domestique de Jenny"]},
+        {"cellules": ["M.2", "Liens établis avec Ian, Jamie, Colum et Dougal", "Relation existante seulement", "Demander ou échanger lorsque la personne est réellement accessible", "N’impose aucune présence, aide, réponse, information ou décision.", "etat/relations.json ; canon/clans.md"]},
+        {"cellules": ["M.3", "Effets personnels et outils domestiques ordinaires", "Avec Jenny ou rangés dans ses espaces familiers", "Vêtements de laine et de lin, tablier ou vêtement de travail, chaussures, ceinture, petit couteau utilitaire, nécessaire de couture et petit trousseau de clefs domestiques", "Aucun argent chiffré, arme de guerre, document probant, coffre privilégié ou clef universelle.", "Ajout peint d’implantation ordinaire, 4 mai 1743"]},
+        {"cellules": ["M.4", "Espaces familiers du foyer", "Pièce commune et foyer, préparation, rangement des denrées, linge, cour et dépendances ordinaires accessibles selon l’usage", "Inspection et entretien domestiques", "Aucun plan complet, passage secret, atelier spécialisé, contenu garanti ou accès aux espaces non attribués.", "Ajout peint minimal de l’implantation de Lallybroch"]}
+      ]
+    },
+    {
+      "titre": "Trous de préparation",
+      "colonnes": ["Trou", "Catégorie", "Ce qui en dépend", "Traitement", "Qui", "Échéance", "État", "Résultat"],
+      "lignes": [
+        {"cellules": ["T.1 — quantités et état précis des réserves", "produire", "C.1 ; C.2", "P.1 doit les constater et les compter là où c’est possible ; la préparation ne vaut pas inventaire accompli.", "Jenny", "5 mai 1743", "ouvert", "Existence fonctionnelle des rangements peinte, contenu non chiffré."]},
+        {"cellules": ["T.2 — argent, biens durables et autorité de dépense", "définir ou obtenir", "Toute dépense importante", "Établir la ressource avant usage et demander à Ian toute décision qui dépasse l’ordinaire domestique.", "Jenny puis Ian", "Avant engagement", "ouvert", "Aucune somme ni autorisation générale posée."]},
+        {"cellules": ["T.3 — réponse et priorités d’Ian", "obtenir", "C.3 ; toute suite de P.2", "P.2 formule la demande ; la réponse exige la session d’Ian.", "Ian", "6 mai 1743 si accessible", "ouvert", "Aucune réponse présumée."]},
+        {"cellules": ["T.4 — routes et durées hors de Lallybroch", "chercher", "Tout déplacement ou message extérieur", "Consulter une source accessible ou jouer le trajet ; ne rien déduire de l’existence du lieu.", "Jenny", "Avant tout départ ou envoi daté", "ouvert", "Inconnu."]},
+        {"cellules": ["T.5 — effectif, identités et disponibilités de la maisonnée", "définir ou obtenir", "Toute délégation ou charge de travail", "Ne créer ni ordre ni exécutant ; établir les personnes dans leurs propres fiches et sessions avant de dépendre de leur action.", "Préparation puis personnes concernées", "Avant délégation", "ouvert", "Aucune personne secondaire ajoutée."]}
+      ]
+    },
+    {
+      "titre": "Connaissances et croyances",
+      "colonnes": ["Sujet", "Ce que je crois", "Source reçue", "Ce que j’ignore", "Référence de réalité"],
+      "lignes": [
+        {"cellules": ["Ma situation", "Je suis libre, présente à Lallybroch et responsable de la continuité de mon foyer.", "Expérience vécue ; ma-memoire", "Les besoins précis qui seront constatés aujourd’hui et toute décision future d’autrui.", "etat/personnages.json ; etat/intentions.json"]},
+        {"cellules": ["Ian", "Il est mon époux et partage avec moi l’attache de Lallybroch.", "Relation établie ; expérience de mon foyer", "Sa disponibilité au moment de l’échange, sa réponse future et les engagements qu’il acceptera.", "etat/personnages.json pour sa position réelle ; etat/relations.json pour notre lien"]},
+        {"cellules": ["Jamie", "Il est mon frère.", "Relation établie", "Sa situation présente et ses décisions non reçues par un canal réel.", "etat/relations.json ; sa position réelle demeure une autorité technique, pas une nouvelle reçue"]},
+        {"cellules": ["Aurore et Nicolas", "Je ne les connais pas.", "Aucune information reçue", "Leur arrivée, identité, lien, possessions, compétences et intentions.", "etat/intentions.json — ignorance explicite"]},
+        {"cellules": ["Claire", "Je n’ai aucune connaissance établie de son origine temporelle.", "Aucune information reçue sur ce point", "Son origine et ce qu’elle sait.", "etat/intentions.json — ignorance explicite"]}
+      ]
+    },
+    {
+      "titre": "Résultats et révisions",
+      "colonnes": ["Date", "Fait ou découverte", "Preuve", "Ce que je change", "Renvois"],
+      "lignes": []
+    }
+  ]
+}

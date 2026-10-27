@@ -1,0 +1,30 @@
+{
+  "type": "suites",
+  "suites_id": null,
+  "retenues": [
+    {
+      "id": "attendre_voyageur",
+      "texte": "Reporter votre départ et demander à Mairi de vous prévenir"
+    }
+  ],
+  "ecartees": [
+    {
+      "id": "proposer_ruairidh",
+      "texte": "Proposer à Ruairidh de partir ensemble aujourd hui"
+    },
+    {
+      "id": "preparer_route",
+      "texte": "Préparer d abord le trajet"
+    }
+  ],
+  "texte": "Reporter votre départ et demander à Mairi de vous prévenir",
+  "date_atteinte": {
+    "annee": 1743,
+    "lune": 5,
+    "jour": 5,
+    "minute": 379
+  },
+  "recu_a": "2026-10-03T14:49:13.797Z",
+  "joueur_id": "aurore",
+  "ref": "vmusicldxnppb"
+}

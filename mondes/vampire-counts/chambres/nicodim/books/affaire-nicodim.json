@@ -1,7 +1,7 @@
 {
   "id": "affaire-nicodim",
   "titre": "Les affaires de nicodim",
-  "sous_titre": "Cahier stratégique personnel — préparation du monde et conduite de mes affaires",
+  "sous_titre": "Le Grand Dessein — Diableriser Mélusine, subjuguer Rupea et faire plier le duché sous le Voile",
   "type": "affaire",
   "tenu_par": "nicodim",
   "acteur_id": "nicodim",
@@ -29,13 +29,13 @@
         {
           "cellules": [
             "Périmètre",
-            "La clôture de tout l\\'est dans mes livres, l\\'arbitrage des terres, la veille sur Ottilia et la résolution de la ligne de Rupea."
+            "Le Grand Dessein de l'Abbé : Diableriser l'Aînée Mélusine pour absorber sa primogéniture, voler le sort signature des Voilés (le Visage Emprunté) et capter le tribut magique de ses 12 descendants ; abattre Anselm sous le Voile pour installer Teodor en débiteur perpétuel à Rupea ; forcer le Cercle de Sighișoara et les cinq sangs à reconnaître le souverain occulte sans chef de tout l'Est."
           ]
         },
         {
           "cellules": [
             "État de préparation",
-            "Implantation et doctrine posées ; affaires engagées avec Rupea."
+            "Doctrine impériale et prédatrice arrêtée. Rejet de toute posture d'intendant. Utilisation des lois de sang comme leviers de domination absolue (diablerie, malédiction sous Voile, tribut magique ascendant, droit du sire)."
           ]
         },
         {
@@ -59,72 +59,72 @@
         {
           "cellules": [
             "fins-et-doctrine",
-            "Inscrire tout l'est dans mes registres, ne laisser aucune ligne ouverte, tenir les seigneurs par leurs dettes plutôt que par l'effroi. Sacrifier mon effroi décennal à l'Académie pour imposer l'Ombre et débloquer le Visage Emprunté. Frapper par malédiction de mort couverte d'un Voile si un refus menace l'édifice.",
+            "Devenir le Souverain Voilé sans chef de tout l'Est du duché en brisant l'Aînée Mélusine et le verrou stryge d'Anselm. Je ne suis pas un scribe comptant des boisseaux : les registres ne sont que les chaînes invisibles par lesquelles j'attache les âmes et les domaines. Diableriser Mélusine une fois affaiblie pour capter le sang primordial, s'emparer du Visage Emprunté (immunité absolue à la Seconde vue) et soumettre ses douze seigneurs vassaux sous mon autorité directe.",
             "établi",
-            "canon/lore/nicodim.md, canon/LORE_CERCLES.md §1",
+            "REGLES_DU_JEU.md §magic.action.005, §lineage.rule.009, la-magie.md",
             "personnages.json:nicodim"
           ]
         },
         {
           "cellules": [
             "personnes-et-relations",
-            "Sever (infant et envoyé au Cercle), Ottilia (sire en torpeur sous la chapelle), Teodor (héritier de Rupea, débiteur en gestation), Anselm (le seul refus hors Cercle), Radomir (voisin d'anneau de Gontran et alternative au sud). Frères d'anneau de l'Académie de Sighișoara : Gontran d'Agnita (voisin d'anneau), Ossiane (voisine d'anneau), Malachie (Aîné des Stryges, chef du Cercle), Sulpice (Mediaș). Serviteurs : frère Ioan et frère Paul.",
+            "Mélusine (proie d'apothéose : Aînée déclinante à étrangler par la faim puis à diableriser), Anselm (obstacle stryge à détruire par malédiction de mort sous Voile), Teodor (pion servile et parricide inconscient à installer sur les ruines de Rupea), Sever (lame dévouée et rabatteur), Frères du Cercle de Sighișoara (Malachie, Radomir, Sulpice, Gontran, Ossiane — témoins et futurs obligés).",
             "peint",
-            "canon/lore/nicodim.md, canon/LORE_CERCLES.md §1",
+            "partie-vk/nicodim.md, partie-vk/melusine.md, partie-vk/anselm.md, la-magie.md",
             "relations.json, registre-etats-nicodim"
           ]
         },
         {
           "cellules": [
             "pouvoir-et-acces",
-            "Grande ville d'Odorheiu Secuiesc sous autorité incontestée ; magistère moral d'arbitre suprême à l'est ; membre actif de l'Académie de Sighișoara (6 membres, 80 pts/an) ; réseau étendu de veines et nœud de ley fournissant un flux régulier de magie et de sang.",
+            "Grande ville d'Odorheiu Secuiesc (athanor d'Ombre/Augure, 37 143 cases), puissance 11 (Mathusalem). Accès immédiat aux arcanes de l'Académie de Sighișoara : Voile, Brume, malédiction de mort, et les rituels de diablerie connus de tout sang ancien.",
             "établi",
-            "canon/lore/nicodim.md, canon/LORE_CERCLES.md §1",
-            "maisons.json:maison-odorheiu, lieux.json:odorheiu-secuiesc"
+            "partie-vk/nicodim.md, la-magie.md",
+            "maisons.json:maison-odorheiu"
           ]
         },
         {
           "cellules": [
             "moyens-materiels",
-            "Le Grand Livre des Veines et Dettes de l'Est ; l'athanor d'Odorheiu maçonné au-dessus de la crypte scellée d'Ottilia ; réserves de magie (260 mesures) et 12 ampoules de sang condensé du tabernacle ; le nœud de ley froid de la chapelle.",
-            "peint",
-            "canon/lore/nicodim.md, documents/mains.json, canon/LORE_CERCLES.md §1",
+            "L'athanor secret d'Odorheiu ; le Grand Livre des Créances et Sacrifices ; les fioles de sang noir consacrées pour la malédiction ; stocks actuels : 2.0 Sang, 10.0 Magie, 10.1 Effroi.",
+            "établi",
+            "partie-vk/nicodim.md",
             "registre-etats-nicodim"
           ]
         },
         {
           "cellules": [
             "savoirs-et-secrets",
-            "Sait qu'Ottilia a détruit Hedwig il y a 140 ans par le Voile de l'Académie ; sait qu'il a détruit Margit par le Voile il y a un siècle ; sait que l'Académie a débloqué la Seconde vue (rang 4) qui percerait son Voile (rang 2) s'il frappait un membre du Cercle ; sait qu'Anselm est hors Cercle et ne possède que la malédiction de mort sans sortilège de vision. Ignore pourquoi Rupea a refusé sa veine il y a 100 ans et ignore qu'Anselm aime ses enfants.",
+            "Connaît la vulnérabilité d'Anselm (hors Cercle, sans sorts de protection, saigné par Radomir). Connaît la famine mortelle de Vlăhița (25 bouches, réserve à 2.0). Sait qu'Ottilia dort sous sa crypte et qu'en cas de diablerie de Mélusine, la primogéniture de toute la lignée voilée retombe entre mes mains.",
             "établi",
-            "canon/lore/nicodim.md, canon/LORE_CERCLES.md §1",
+            "la-magie.md, partie-vk/melusine.md, partie-vk/anselm.md",
             "intentions.json:nicodim"
           ]
         },
         {
           "cellules": [
             "engagements-et-temps",
-            "Attente du retour de Sever fixé vers le 15 de la 11e lune (evenements.json:sever-revient) ; échéance de la frappe par malédiction fixée sous 20 jours si la porte s'ouvre (plan nicodim-malediction) ; échéance décennale du sacrifice d'effroi de l'Académie pour imposer l'Ombre ; 7 ans et demi pour la fin de la Prophétie.",
+            "Phase I (Nuits 3 à 15) : Soumettre Teodor par Sever et sceller l'arrêt de mort d'Anselm ; laisser la famine de Vlăhița ronger la puissance de Mélusine (-30 % puis -2 %/jour). Phase II (Nuits 16 à 35) : Frapper Anselm sous le Voile, installer Teodor, capturer Mélusine épuisée et consommer la diablerie.",
             "établi",
-            "etat/evenements.json, etat/intentions.json, canon/LORE_CERCLES.md §1",
-            "evenements.json:sever-revient"
+            "ACTIONS_JOUEUR.md, REGLES_DU_JEU.md",
+            "evenements.json"
           ]
         },
         {
           "cellules": [
             "strategie-et-alternatives",
-            "Voie principale : Teodor ouvre la citadelle, malédiction de mort couverte d'un Voile d'Ombre sur Anselm (hors Cercle), Teodor hérite lié par le parricide et la dette. Voie alternative : si Teodor refuse, sonder Radomir (frère d'anneau par Gontran) sur les bois du sud ou faire levier sur le secret d'Anselm bu par lui. Ménager impérativement Gontran et Ossiane pour maintenir l'anneau fermé.",
+            "Axe majeur : Étau d'ombre. Utiliser la faim comme poison d'attrition contre Mélusine tout en frappant Anselm pour contrôler les cols de Rupea. Si Teodor refuse, utiliser Radomir pour broyer Anselm lors d'une embuscade et faire main basse sur Rupea par droit de conquête occulte.",
             "établi",
-            "canon/lore/nicodim.md, canon/LORE_CERCLES.md §1",
+            "REGLES_DU_JEU.md",
             "intentions.json:nicodim"
           ]
         },
         {
           "cellules": [
             "zones-a-peindre",
-            "L'athanor et son conduit de fumée froide, les ampoules de sang du tabernacle, les notes de recherche sur l'Ombre, le nœud de ley de la chapelle, les protocoles de serment avec Gontran et Ossiane.",
+            "Chambre de diablerie aménagée sous l'athanor ; sceaux d'étouffement des cris de l'Aînée ; pacte de sang secret imposé à Teodor gravé sur vélin de serf.",
             "peint",
-            "Invention déclarée cohérente avec le lore de la magie",
+            "registre-etats-nicodim",
             "registre-etats-nicodim"
           ]
         }
@@ -144,41 +144,41 @@
         {
           "cellules": [
             "C.1",
-            "Rupea inscrite comme débitrice dans le grand livre",
-            "Anselm n\\'est plus ; Teodor règne sur la citadelle et reconnaît sa dette envers Odorheiu pour son avènement",
-            "Acte d\\'allégeance ou reconnaissance de dette inscrite dans le livre d\\'Odorheiu",
-            "an 1, lune 11, jour 25",
+            "Rupea soumise et Anselm anéanti sous le Voile",
+            "Anselm frappé par malédiction de mort sans que la main d'Odorheiu soit percée ; Teodor proclamé seigneur, lié par dette perpétuelle",
+            "Disparition d'Anselm dans le graphe et acte d'allégeance/dette de Teodor dans le Grand Livre",
+            "an 1, lune 11, jour 20",
             "vitale"
           ]
         },
         {
           "cellules": [
             "C.2",
-            "La ligne de Rupea définitivement close et soldée",
-            "Aucun seigneur à l\\'est ne peut se prévaloir d\\'un refus victorieux face à Odorheiu",
-            "Fermeture formelle de la ligne dans le Grand Livre",
+            "Mélusine neutralisée par la famine et préparée pour la diablerie",
+            "La réserve de Vlăhița est à sec, la Bête monte chez l'Aînée, sa puissance est réduite à merci par la règle de faiblesse de faim",
+            "Fiche d'état de Mélusine montrant sa puissance effondrée sous 10 et ses sans-terre révoltés",
             "an 1, lune 11, jour 25",
-            "haute"
-          ]
-        },
-        {
-          "cellules": [
-            "C.3",
-            "Le sommeil d\\'Ottilia protégé de tout trouble",
-            "Le sarcophage d\\'Ottilia demeure inviolé et la rancune des Stryges pour Hedwig reste assoupie",
-            "Sceaux de la crypte intacts sous la chapelle",
-            "permanent",
             "vitale"
           ]
         },
         {
           "cellules": [
+            "C.3",
+            "Apothéose de l'Abbé : Diablerie de Mélusine accomplie",
+            "Mélusine diablerisée par Nicodim ; son âme bue, son sort signature (Visage Emprunté) volé, le flux magique des 12 descendants redirigé vers Odorheiu",
+            "Nicodim reconnu chef sans chef de la lignée Voilée sur le graphe généalogique mondial",
+            "an 1, lune 12, jour 10",
+            "absolue"
+          ]
+        },
+        {
+          "cellules": [
             "C.4",
-            "Magistère d\\'arbitre préservé sans contestation",
-            "Aucun seigneur de l\\'est ne soupçonne le rôle d\\'Odorheiu dans la destruction de Margit ou les complots nocturnes",
-            "Maintien des consultations et hommages à la chapelle",
+            "Hégémonie sans partage sur l'Est et vassalisation du Cercle",
+            "Rupea, Odorheiu et Vlăhița réunis sous mon emprise ; Malachie contraint de négocier avec le nouveau maître de l'Ombre",
+            "L'anneau de Sighișoara dominé par l'apport magique d'Odorheiu",
             "permanent",
-            "haute"
+            "majeure"
           ]
         }
       ]
@@ -195,41 +195,28 @@
         {
           "cellules": [
             "V.1",
-            "Refus persistant ou hésitation de Teodor à ouvrir la porte",
-            "C.1, C.2",
-            "Sever revient sans promesse ferme ou rapporte le refus de l'héritier"
+            "Défense magique résiduelle d'Anselm (10.0 🔮, puissance 11)",
+            "C.1",
+            "Multiplicateur de défense d'Anselm face à la malédiction de mort",
+            "an 1, lune 11, jour 15"
           ]
         },
         {
           "cellules": [
             "V.2",
-            "Défense magique d'Anselm et coût exorbitant de la malédiction de mort",
-            "C.1",
-            "Une malédiction de mort exige que l'attaque vaille toute la défense accumulée d'Anselm (magie et sang engagés absorbés). Si l'attaque ne vaut pas la défense, Nicodim perd tout ce qu'il a engagé et s'expose sans réserve."
+            "Risque de vendetta de lignée si la diablerie de Mélusine est éventée avant l'effondrement de sa cour",
+            "C.3",
+            "Les seigneurs descendants (Silas, Ophélie, Octave) s'unissent contre l'usurpateur",
+            "an 1, lune 11, jour 28"
           ]
         },
         {
           "cellules": [
             "V.3",
-            "Réveil imprévu d'Ottilia ou convoitise d'Ossiane sur la crypte",
-            "C.3, C.4",
-            "Ottilia émerge chargée de magie amassée ou un frère de Cercle (Ossiane) tente de pénétrer la crypte ; l'anneau se déstabilise."
-          ]
-        },
-        {
-          "cellules": [
-            "V.4",
-            "Détection par la Seconde vue au sein du Cercle",
-            "C.4",
-            "L'Académie a débloqué la Seconde vue (Augure rang 4). Tout coup porté contre un membre du Cercle percerait le Voile (Ombre rang 2). Frapper hors Cercle (Anselm) est impératif tant que le Visage Emprunté n'est pas trouvé."
-          ]
-        },
-        {
-          "cellules": [
-            "V.5",
-            "Rupture de l'anneau de l'Académie si un maillon tombe",
-            "C.4",
-            "Si Gontran ou Ossiane est détruit ou s'endort, l'anneau s'ouvre ; toute la recherche (80 pts/an) s'arrête net jusqu'à serment direct entre les deux voisins restants."
+            "Pénétration de la Seconde vue de l'Académie si un membre du Cercle tente d'interférer",
+            "C.1, C.3",
+            "Malachie ou Ossiane scrutant les flux occultes",
+            "permanent"
           ]
         }
       ]
@@ -246,33 +233,28 @@
         {
           "cellules": [
             "K.1",
-            "Pression et promesses de Sever sur l'héritier pensionnaire",
+            "Frappe sous Voile d'Ombre couplée au sabotage interne de Teodor",
             "V.1 (vers C.1)",
-            "Prix : promesse d'appui à Teodor ; limite : Teodor est craintif et surveillé par les goules"
+            "Prix : engagement de sang et de magie d'Odorheiu ; limite : agir avant qu'Anselm ne renforce ses réserves",
+            "an 1, lune 11, jour 18"
           ]
         },
         {
           "cellules": [
             "K.2",
-            "Malédiction de mort couverte par le Voile de l'Académie",
-            "V.2, V.4 (vers C.1)",
-            "Prix : engagement massif de magie (mange la plus grande part des 260 mesures d'Odorheiu) et d'ampoules de sang condensé du tabernacle ; préparation de plusieurs semaines à découvert. Limite : le Voile (Ombre rang 2) protège contre les profanes comme Anselm mais pas contre la Seconde vue d'un devin de rang 4."
+            "Asphyxie calculée de Vlăhița : refuser tout secours pour provoquer la sédition des sans-terre",
+            "V.2 (vers C.2, C.3)",
+            "Prix : cruauté glaciale ; limite : s'assurer qu'aucun autre voisin ne nourrit Mélusine",
+            "an 1, lune 11, jour 22"
           ]
         },
         {
           "cellules": [
             "K.3",
-            "Pression diplomatique par Radomir et les bois du sud",
-            "V.1 (vers C.1)",
-            "Prix : partager l'influence avec le Vorace ou lui céder du terrain ; limite : Radomir répugne à détruire et protège son propre arrangement secret avec Anselm."
-          ]
-        },
-        {
-          "cellules": [
-            "K.4",
-            "Sacrifice décennal d'effroi à l'athanor pour imposer l'Ombre",
-            "V.4 (vers C.4)",
-            "Prix : tout l'effroi amassé par Nicodim sacrifié au conclave décennal de l'Académie pour surclasser l'Augure de Malachie ; limite : Malachie dispose d'un effroi immense et oriente le Cercle depuis deux siècles."
+            "Vol du sort d'Aîné (Visage Emprunté) par la diablerie, rendant Nicodim intouchable à la Seconde vue",
+            "V.3 (vers C.4)",
+            "Prix : montée temporaire de la Bête ; fruit : suprématie occulte totale",
+            "an 1, lune 12, jour 10"
           ]
         }
       ]
@@ -296,76 +278,76 @@
         {
           "cellules": [
             "P.1",
-            "Attendre le rapport de Sever sur l'entrevue avec Teodor",
+            "Envoyer Sever sonder Teodor et lui poser l'ultimatum de la succession sous dette",
             "C.1",
-            "Retour de Sever depuis Rupea",
-            "nicodim",
-            "chapelle-odorheiu",
-            "Rapport verbal de Sever consigné en cellule",
+            "Consignes orales données à Sever",
+            "sever",
+            "rupea",
+            "Rapport de Sever confirmant la soumission de Teodor",
             "a-faire",
-            "an 1, lune 11, jour 16",
+            "an 1, lune 11, jour 5",
             "",
-            "Événement sever-revient prévu le 15"
+            "Prépare la chute d'Anselm sans combat de rempart"
           ]
         },
         {
           "cellules": [
             "P.2",
-            "Rassembler la magie et le sang pour la malédiction sous Voile",
-            "C.1, C.2",
-            "Réserves des mains d'Odorheiu (260 mesures, 12 ampoules)",
+            "Rejeter froidement l'ambassade de Vlăhița et maintenir le blocus du sang sur Mélusine",
+            "C.2",
+            "Refus explicite de toute veine de secours",
             "nicodim",
             "chapelle-odorheiu",
-            "Fluides préparés dans les ampoules rituelles du tabernacle et formule du Voile liée",
+            "Messager renvoyé les mains vides, faim galopante à Vlăhița",
             "a-faire",
-            "an 1, lune 11, jour 20",
+            "an 1, lune 11, jour 4",
             "",
-            "Préparation occulte du coup décisif"
+            "Enclenche la déchéance physique et magique de l'Aînée"
           ]
         },
         {
           "cellules": [
             "P.3",
-            "Frapper Anselm par malédiction couverte du Voile la nuit convenue",
-            "C.1, C.2",
-            "P.1, P.2 et brèche ouverte par Teodor",
+            "Préparer et incanter la malédiction de mort sous Voile contre Anselm",
+            "C.1",
+            "P.1 accompli, mobilisation du stock de magie",
             "nicodim",
             "chapelle-odorheiu",
-            "Anselm détruit sans signature visible ; Teodor prend la succession",
+            "Anselm foudroyé dans son lit de roche à Rupea",
             "a-faire",
-            "an 1, lune 11, jour 23",
+            "an 1, lune 11, jour 18",
             "",
-            "Inscrit dans plan intentions.json:nicodim-malediction"
+            "Frappe chirurgicale indétectable"
           ]
         },
         {
           "cellules": [
             "P.4",
-            "Sonder Radomir si Teodor se dérobe",
-            "C.1",
-            "Refus rapporté par Sever",
+            "Capturer Mélusine affamée et procéder à la diablerie sacrilège sous l'athanor",
+            "C.3",
+            "C.2 achevé (Mélusine effondrée)",
             "nicodim",
-            "odorheiu-secuiesc",
-            "Émissaire dépêché à Comăna",
+            "chapelle-odorheiu",
+            "Mélusine détruite, Nicodim proclamé nouveau chef de sang primordial",
             "a-faire",
-            "an 1, lune 11, jour 18",
+            "an 1, lune 12, jour 5",
             "",
-            "Déclencheur inscrit dans intentions.json"
+            "Apothéose : le sang d'Aîné coule dans mes veines"
           ]
         },
         {
           "cellules": [
             "P.5",
-            "Entretenir l'athanor d'Odorheiu et consigner les avancées de l'Académie",
+            "Convoquer les seigneurs Voilés de l'Est pour leur imposer le nouvel arbitrage d'Odorheiu",
             "C.4",
-            "Veille nocturne et alimentation en magie du nœud",
+            "P.3 et P.4 accomplis",
             "nicodim",
-            "odorheiu-secuiesc",
-            "Foyer maintenu, notes de recherche à jour vers l'Ombre",
+            "chapelle-odorheiu",
+            "Les serments d'allégeance inscrits dans le Grand Livre",
             "a-faire",
-            "permanent",
+            "an 1, lune 12, jour 20",
             "",
-            "Contribution annuelle de 20 points (sur 80) au Cercle de Malachie"
+            "Clôture du Grand Dessein"
           ]
         }
       ]
@@ -384,21 +366,21 @@
         {
           "cellules": [
             "C.1, C.2",
-            "La voie de l'héritier : négocier l'ouverture de la citadelle avec Teodor via Sever, puis abattre Anselm d'une malédiction de mort couverte du Voile sans livrer bataille.",
-            "On ne prend pas Rupea par les armes. Anselm est hors Cercle et ne possède aucun sort d'Augure ; le Voile de l'Académie masque l'origine du coup. Teodor complice devient un débiteur éternel.",
-            "Sonder Radomir sur la nuit des bois du sud ou faire levier sur le secret de la Crinière (Radomir ayant bu Anselm).",
-            "Sever rapporte que Teodor refuse tout net d'ouvrir la porte.",
-            "Sever comme négociateur, les réserves de magie (260 mesures) et les ampoules de sang d'Odorheiu, le sort de Voile."
+            "Prédation méthodique : affamer Mélusine pour la rendre impuissante, briser le verrou de Rupea de l'intérieur par le parricide instrumentalisé.",
+            "La force brute d'un siège détruit les fiefs ; la magie de mort et la famine brisent les maîtres sans entamer les terres.",
+            "Si Teodor dénonce l'offre, financer Radomir pour achever Anselm en duel et prendre Rupea en gage.",
+            "Teodor prévient Anselm ou s'enfuit.",
+            "Sever, Voile d'Ombre, réserves magiques d'Odorheiu."
           ]
         },
         {
           "cellules": [
             "C.3, C.4",
-            "Le Masque de l'Ascète et la discipline du Cercle : demeurer dans la chapelle froide, rendre des arbitrages équitables, ne frapper aucun frère d'anneau sous peine de percer le Voile face à la Seconde vue.",
-            "La réputation de justice est le bouclier contre les coalitions ; le respect de l'anneau protège l'Académie et garantit la progression vers le Visage Emprunté.",
-            "Révéler la puissance nue en cas de sédition ouverte ou rompre l'anneau si un frère trahit.",
-            "Un voisin découvre le sortilège de Margit ou un membre du Cercle tente d'entrer dans la crypte.",
-            "Le prestige personnel de Nicodim, le Grand Livre, le secret du Voile, l'athanor d'Odorheiu."
+            "Diablerie d'Aînée : voler l'essence, le titre et le sort signature de Mélusine pour s'élever au rang de seigneur primordial sans suzerain.",
+            "C'est le seul moyen d'abattre le plafond de sang, d'interdire à quiconque de percer mes voiles et d'asservir douze vassaux d'un seul coup.",
+            "Si Mélusine trouve du sang ailleurs, lancer une malédiction d'assassinat direct avant son répit.",
+            "Une tierce puissance tente d'intervenir pour la sauver.",
+            "Cuve de sang scellée, athanor, dagues de fer froid."
           ]
         }
       ]
@@ -417,41 +399,31 @@
         {
           "cellules": [
             "M.1",
-            "Réseau de veines de l'Est et nœud de ley",
-            "Contrats de veines et source tellurique sous la chapelle",
-            "Alimente régulièrement Odorheiu : 260 mesures de magie en réserve (+3/jour)",
-            "Ne donne aucune troupe territoriale propre sous ses ordres directs",
-            "canon/lore/nicodim.md §III, documents/mains.json"
+            "Odorheiu Secuiesc (grande ville et son athanor)",
+            "Contrôle direct",
+            "37 143 cases, +1.08 🔮/jour sol tenu, +2.00 😱/jour",
+            "Vulnérabilité passagère en sang si les chasses traînent",
+            "partie-vk/nicodim.md"
           ]
         },
         {
           "cellules": [
             "M.2",
-            "Maîtrise de la malédiction de mort et sort de Voile",
-            "Art occulte du sang et Ombre rang 2 débloqué à l'Académie",
-            "Portée sur tout le pays ; le Voile laisse le coup sans auteur",
-            "Coûteux : consomme la quasi-totalité des 260 mesures de magie et des 12 ampoules de sang ; vulnérable à la Seconde vue (rang 4)",
-            "canon/LORE_MAGIES.md, canon/LORE_CERCLES.md §1"
+            "Maîtrise de l'Ombre et sorts de l'Académie",
+            "Membre de plein droit",
+            "Voile (invisibilité de l'acte), Brume, malédiction de mort",
+            "Seconde vue de l'Académie peut percer le Voile jusqu'à la diablerie",
+            "la-magie.md"
           ]
         },
         {
           "cellules": [
             "M.3",
-            "Sever, infant, diplomate et observateur du Cercle",
-            "Fils de sang obéissant",
-            "Un seigneur voilé mobile ; assiste aux conclaves de l'Académie et sait ce que chaque Cercle trouve",
-            "Ne peut forcer Teodor s'il refuse de sa propre volonté",
-            "personnages.json:sever, canon/LORE_CERCLES.md §Ceux qui ne sont dans aucun Cercle"
-          ]
-        },
-        {
-          "cellules": [
-            "M.4",
-            "L'athanor d'Odorheiu",
-            "Four d'alchimie lente maçonné au-dessus de la crypte",
-            "Fournit 20 points de recherche par an à l'Académie (anneau à 80 pts/an)",
-            "Recherche collective contrainte par le sacrifice décennal d'effroi (actuellement vers l'Augure)",
-            "canon/LORE_CERCLES.md §1, registre-etats-nicodim"
+            "Sever, rabatteur et émissaire docile",
+            "Table d'Odorheiu",
+            "Infant obéissant au doigt et à l'œil",
+            "Puissance 0 face aux anciens armés",
+            "partie-vk/sever.md"
           ]
         }
       ]
@@ -471,38 +443,26 @@
       "lignes": [
         {
           "cellules": [
-            "Motif exact du refus d\\'Anselm il y a un siècle",
-            "savoirs-et-secrets",
-            "Compréhension psychologique d\\'Anselm",
-            "Rechercher si Anselm connaissait les méthodes de prieur",
-            "nicodim",
-            "indéterminée",
-            "ouvert",
-            "Tenir pour orgueil de maçon jusqu\\'à nouvelle preuve"
-          ]
-        },
-        {
-          "cellules": [
-            "Réponse définitive de Teodor",
-            "engagements-et-temps",
-            "P.3 ou P.4",
-            "Rapport de Sever à son retour",
+            "Réaction de Teodor à l'offre de complicité parricide",
+            "personnes-et-relations",
+            "C.1, P.1",
+            "Entrevue secrète menée par Sever à Rupea",
             "sever",
-            "an 1, lune 11, jour 16",
+            "an 1, lune 11, jour 8",
             "ouvert",
-            "En attente de la mission de Sever"
+            "En attente du retour de Sever"
           ]
         },
         {
           "cellules": [
-            "Profondeur du sommeil d\\'Ottilia",
-            "savoirs-et-secrets",
-            "C.3",
-            "Inspection mensuelle des sceaux de la crypte",
+            "Vitesse exacte d'effondrement de la table de Mélusine sous la faim",
+            "moyens-materiels",
+            "C.2, P.4",
+            "Espionnage des défections à Vlăhița",
             "nicodim",
-            "an 1, lune 11, jour 30",
+            "an 1, lune 11, jour 15",
             "ouvert",
-            "Sceaux stables pour le moment"
+            "En observation"
           ]
         }
       ]
@@ -519,47 +479,20 @@
       "lignes": [
         {
           "cellules": [
-            "Nature d\\'Anselm",
-            "Rupea est un vieux fou qui n\\'aime personne depuis Margit ; ses enfants chassés sont des reniés ; seul Teodor compte.",
-            "Observation et rumeurs depuis un siècle",
-            "Anselm aime tous ses enfants et Radomir le sait ; il laisse Teodor comploter exprès.",
-            "intentions.json:anselm, lore/anselm.md"
+            "Destin de Mélusine",
+            "Mélusine est à bout de souffle ; sa cour va se dévorer elle-même dès que les réserves seront vides. Elle sera mûre pour la diablerie sous une lune.",
+            "Observation et état de Vlăhița",
+            "Si un autre seigneur lui propose une alliance clandestine",
+            "partie-vk/melusine.md"
           ]
         },
         {
           "cellules": [
-            "La position de Teodor",
-            "Un héritier qui a peur est un débiteur qui ne le sait pas encore. Le jour où Rupea tombe, il entre dans le livre avec une dette imprescriptible.",
-            "Théorie de gouvernement de Nicodim",
-            "Teodor cherche avant tout à ce que Homorod cesse de saigner et se méfie viscéralement des Voilés.",
-            "intentions.json:nicodim, personnages.json:teodor"
-          ]
-        },
-        {
-          "cellules": [
-            "La menace des Stryges",
-            "Tant qu'Ottilia dort, les infants d'Hedwig ne peuvent rien contre Odorheiu.",
-            "Mémoire des cent trente dernières années",
-            "Si Rupea tombe, la rancune des Stryges survivants (Konstantin, Ilka) remontera vers Odorheiu si le lien est découvert ; de plus Ossiane cherche à boire Ottilia dans sa crypte.",
-            "canon/lore/nicodim.md §VI, canon/LORE_CERCLES.md §1"
-          ]
-        },
-        {
-          "cellules": [
-            "Le duel de Radomir",
-            "Radomir détient un ascendant sur Anselm car il l'a bu il y a huit ans.",
-            "Fait public connu de toute la contrée",
-            "La nature exacte de l'arrangement secret entre Radomir et Anselm.",
-            "canon/lore/radomir.md, lore/anselm.md"
-          ]
-        },
-        {
-          "cellules": [
-            "La Seconde vue et l'Ombre",
-            "Mon Voile me protège de toute détection profane, y compris d'Anselm qui ne possède aucun sortilège d'Augure.",
-            "canon/LORE_MAGIES.md, canon/LORE_CERCLES.md",
-            "La Seconde vue débloquée au rang 4 par l'Académie perce le Voile (rang 2) si un frère de Cercle est frappé ; seul le Visage Emprunté (Ombre rang 5) donnerait l'impunité totale.",
-            "canon/LORE_CERCLES.md §1"
+            "Anselm et Rupea",
+            "Anselm ne quittera jamais ses remparts et ne soupçonne pas que le coup fatal viendra de l'éther et non des clairières de Radomir.",
+            "Observation séculaire de son Masque Paranoïaque",
+            "Ses liens secrets de remords envers ses enfants perdus",
+            "partie-vk/anselm.md"
           ]
         }
       ]
@@ -577,28 +510,10 @@
         {
           "cellules": [
             "an 1, lune 11, jour 3",
-            "Arrivée des lois de la magie et structure de l'Académie de Sighișoara",
-            "canon/LORE_CERCLES.md, canon/LORE_MAGIES.md, la-magie.md",
-            "Intégration de l'anneau (6 membres, 80 pts/an, lié à Gontran et Ossiane). Correction de la doctrine de frappe : interdiction formelle de viser un membre du Cercle à cause de la Seconde vue (rang 4) qui percerait le Voile (rang 2). Confortation du coup contre Anselm qui est hors Cercle et aveugle à l'Augure. Ajout de l'entretien de l'athanor (P.5) et du verrou d'intégrité de l'anneau (V.5). Prise en compte du coût réel de la malédiction de mort dans les mains d'Odorheiu (260 mesures de magie, 12 ampoules de sang).",
-            "V.2, V.4, V.5, K.2, K.4, P.2, P.3, P.5, M.1, M.2, M.4, registre-etats-nicodim"
-          ]
-        },
-        {
-          "cellules": [
-            "an 1, lune 11, jour 3 (nuit)",
-            "Arrivee du messager de Vlahita : disette a la table de Melusine (25 bouches, moins d une nuit de reserve).",
-            "acte:acte-nicodim-refus-sang-vlahita-1-11-3",
-            "Refus absolu de puiser dans les 12 ampoules et les reserves d Odorheiu sans dette inscrite. La preservation de la reserve pour la malediction contre Anselm prime. L Ainee qui faiblit perdra de sa puissance si elle n engage pas ses secrets ou ses terres.",
-            "P.2, M.1, M.2, V.2"
-          ]
-        },
-        {
-          "cellules": [
-            "an 1, lune 11, jour 5 (nuit)",
-            "Retour du messager de Vlăhița avec pli de Mélusine : offre de veille sur les routes de l'est et rappel voilé du sommeil d'Ottilia sous la chapelle.",
-            "acte:acte-nicodim-reception-pli-melusine-1-11-5, parole:parole-nicodim-au-messager-de-melusine-1-11-5",
-            "Prise en compte de la manœuvre de Mélusine. Constat qu'elle n'ose ni menacer ni briser le statu quo par crainte de la guerre stryge. Refus réitéré de céder la moindre réserve sans engagement formel. Consigne donnée à Sever et frère Paul de surveiller étroitement les accès de la crypte.",
-            "C.3, V.3, M.4, P.1"
+            "Refonte totale du Dessein : abandon des postures de gestionnaire et d'intendant. Formulation d'un dessein à l'échelle du duché entier.",
+            "Directive d'incarnation souveraine et lois du monde (diablerie, malédiction, captation de tribut)",
+            "Inscription de la diablerie de Mélusine et de la conquête occulte de Rupea comme objectifs centraux.",
+            "C.1, C.2, C.3, C.4, P.1-P.5"
           ]
         }
       ]

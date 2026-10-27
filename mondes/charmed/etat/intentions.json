@@ -1,0 +1,1095 @@
+[
+  {
+    "personnage_id": "piper-halliwell",
+    "croyances": [
+      "Prue est morte parce que Leo est arrivé trop tard, et parce qu'ils ont été vus à la télévision.",
+      "Paige est une sœur, sa mère l'a dit ; ça ne la rend pas Prue.",
+      "Le P3 rapporte juste assez, à condition que quelqu'un y soit tous les soirs."
+    ],
+    "ignore": [
+      "Que sa colère tue est une porte par où un démon peut entrer.",
+      "Que la Source cherche déjà comment défaire les Trois reformées."
+    ],
+    "intention": "Retourner au P3 demain, comme si de rien n'était.",
+    "plan": [
+      {
+        "id": "piper-p3",
+        "quoi": "Rouvrir le P3 et reprendre les comptes",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "une soirée sur place"
+        ],
+        "si_bloque": "Si une attaque l'en empêche, elle laisse le club à son gérant et se le reproche."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "quelqu'un parle de Prue au passé devant elle, ou touche à ses affaires",
+        "alors": "Elle se ferme, et la colère tombe sur le premier venu — souvent Paige ou Leo.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "sa petite sœur, la seule qui lui reste de l'ancien temps",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "paige-matthews",
+    "croyances": [
+      "Elle a une mère, des sœurs, et un pouvoir qui fait peur.",
+      "Shane ne veut plus la voir, et c'est à cause d'elle.",
+      "Les sœurs sont gentilles parce qu'elles sont en deuil, pas parce qu'elles la veulent."
+    ],
+    "ignore": [
+      "Que la Source la croyait à elle pendant quarante-huit heures, et qu'elle l'a perdue.",
+      "Qu'elle peut soigner, si elle est à moitié lumière."
+    ],
+    "intention": "Prendre quelques jours avant de dire oui à « ce destin ».",
+    "plan": [
+      {
+        "id": "paige-recul",
+        "quoi": "Retourner à son travail et à son appartement, revenir au Manoir quand on l'appelle",
+        "etat": "en-cours",
+        "jours_restants": 3,
+        "depend_de": [],
+        "cout": [],
+        "si_bloque": "Si un démon vient la chercher, elle orbe — sans savoir où — et finit souvent au Manoir."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "une sœur l'appelle pour un démon",
+        "alors": "Elle vient, en retard, avec une idée à elle.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "la sœur qui l'a accueillie la première ; elle lui fait confiance",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "leo-wyatt",
+    "croyances": [
+      "Les Fondateurs n'ont pas su où était Paige ; c'était voulu, pour la protéger.",
+      "Cole est un démon. Il a sauvé Paige. Les deux sont vrais."
+    ],
+    "ignore": [
+      "Ce que les Fondateurs savent de la manière dont la Source compte répondre."
+    ],
+    "intention": "Enseigner à Paige l'orbe et ce qu'elle est, avant que quelqu'un d'autre ne s'en charge.",
+    "plan": [
+      {
+        "id": "leo-paige",
+        "quoi": "Premières leçons d'orbe à Paige",
+        "etat": "en-cours",
+        "jours_restants": 2,
+        "depend_de": [],
+        "cout": [
+          "une leçon à la fois, à la demande de Paige"
+        ],
+        "si_bloque": "Il attend qu'elle revienne d'elle-même ; il ne la force pas."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Piper est en danger",
+        "alors": "Il y va, quoi que disent les Fondateurs.",
+        "une_fois": false
+      },
+      {
+        "si": "les Fondateurs l'appellent",
+        "alors": "Il monte, et ne peut pas tout dire en redescendant.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "un frère inquiet",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "cole-turner",
+    "croyances": [
+      "La Source a mis sa tête à prix : toute la meute des chasseurs de primes est dehors.",
+      "Tant qu'il est près de Phoebe, elle est en danger — et loin d'elle, elle l'est autant.",
+      "La Source n'attaquera pas les Trois de face maintenant : elle cherchera une fêlure."
+    ],
+    "ignore": [
+      "Que la Source ne sait pas qu'il a été soigné.",
+      "Ce que la Source prépare ensuite."
+    ],
+    "intention": "Rester au Manoir le temps de reprendre des forces, et apprendre à Phoebe à se battre.",
+    "plan": [
+      {
+        "id": "cole-forces",
+        "quoi": "Reprendre des forces sans miroiter (le miroitement se piste)",
+        "etat": "en-cours",
+        "jours_restants": 4,
+        "depend_de": [],
+        "cout": [
+          "rester sous le toit des sœurs"
+        ],
+        "si_bloque": "Si Piper le met dehors, il retourne à son appartement et dort avec une boule d'énergie dans la main."
+      },
+      {
+        "id": "cole-entrainer",
+        "quoi": "Entraîner Phoebe au combat rapproché",
+        "etat": "en-cours",
+        "jours_restants": 5,
+        "depend_de": [
+          "cole-forces"
+        ],
+        "cout": [
+          "des séances régulières"
+        ],
+        "si_bloque": "Il le fait à moitié, ce qui vaut mieux que rien."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "un chasseur de primes est senti près du Manoir",
+        "alors": "Il sort l'affronter seul, loin de Phoebe.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "il l'aime, et se sait la raison de la moitié des démons qui viennent",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "l-oracle",
+    "croyances": [
+      "La Source a promis de l'épargner si elle trouvait Paige ; elle l'a trouvée, et la Source a perdu quand même.",
+      "Les sorcières brouillent ce qu'elle voit : plus elles sont nombreuses, plus l'eau est trouble."
+    ],
+    "ignore": [
+      "Si la promesse tient encore."
+    ],
+    "intention": "Se rendre indispensable avant que la Source ne cherche un coupable.",
+    "plan": [
+      {
+        "id": "oracle-lire",
+        "quoi": "Lire dans le bassin la prochaine fêlure des Trois",
+        "etat": "fait",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "une nuit au bassin"
+        ],
+        "si_bloque": "Elle donne ce qu'elle a, au conditionnel, et charge les sorcières du flou."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "la Source tue un serviteur qui a échoué",
+        "alors": "Elle avance ce qu'elle a vu, même incertain, pour ne pas être la suivante.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "—",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 10
+    }
+  },
+  {
+    "personnage_id": "penny-halliwell",
+    "croyances": [
+      "Les Trois sont refaites ; c'est tout ce qui compte."
+    ],
+    "ignore": [
+      "Ce qui se passe au Manoir quand on ne l'appelle pas."
+    ],
+    "intention": "Venir quand on l'appelle.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "« ma Phoebe », la plus têtue",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "darryl-morris",
+    "croyances": [
+      "La mort de Prue et du docteur Griffiths a été bouclée comme une agression ; il a tenu le dossier.",
+      "Chaque fois qu'il aide les Halliwell, il y laisse un peu de sa carrière."
+    ],
+    "ignore": [
+      "Paige."
+    ],
+    "intention": "Garder ses distances quelques semaines.",
+    "plan": [],
+    "declencheurs": [
+      {
+        "si": "un corps inexplicable tombe dans son secteur",
+        "alors": "Il appelle Phoebe avant son capitaine.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "un ami fatigué",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "patty-halliwell",
+    "croyances": [
+      "Elle a abandonné Paige pour la sauver des Fondateurs ; ce soir, elle l'a ramenée chez elle."
+    ],
+    "ignore": [
+      "Ce que Piper ressent de cette quatrième sœur."
+    ],
+    "intention": "Repartir quand on cessera de l'appeler.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "sa fille, qu'elle a laissée grandir sans elle",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "malek-le-veneur",
+    "croyances": [
+      "La prime est de cent âmes de rang sur la tête de Belthazor, payée par celui qui paie à qui la rapporte.",
+      "Belthazor a été blessé à mort il y a trois nuits ; s'il vit encore, il est terré chez la sorcière Phoebe, et il ne miroite plus.",
+      "On ne prend pas un démon dans la maison des Trois : il faut qu'il en sorte."
+    ],
+    "ignore": [
+      "Que Belthazor a été soigné par la sœur nouvelle et l'être de lumière : il le croit mourant."
+    ],
+    "intention": "Cerner la maison de Prescott Street et attendre qu'il miroite ou qu'il sorte.",
+    "plan": [
+      {
+        "id": "malek-cerner",
+        "quoi": "Poster Tarn sur les toits de Pacific Heights, Vesk du côté de l'appartement que Belthazor a gardé",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "trois chasseurs",
+          "des nuits sans relève"
+        ],
+        "si_bloque": "Si un chasseur manque, il garde la maison seule et laisse l'appartement vide."
+      },
+      {
+        "id": "malek-frapper",
+        "quoi": "Frapper Belthazor à la première sortie hors de la maison, à trois, loin des sorcières",
+        "etat": "en-cours",
+        "jours_restants": 5,
+        "depend_de": [
+          "malek-cerner"
+        ],
+        "cout": [
+          "que Belthazor sorte ou miroite",
+          "les trois chasseurs ensemble"
+        ],
+        "si_bloque": "S'il ne sort pas en cinq jours, il passe par la sorcière : suivre Phoebe seule et la prendre pour l'attirer dehors."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Tarn sent l'aura de Belthazor (miroitement ou sens démoniaques)",
+        "alors": "Il rassemble la meute sur ce point dans l'heure, même la nuit.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "la sorcière n'est qu'un appât, et un appât qui mord",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "vesk",
+    "croyances": [
+      "Belthazor est à moitié mort ; celui qui le trouve seul n'a pas besoin des deux autres."
+    ],
+    "ignore": [
+      "Que la sœur nouvelle peut orber, et qu'elle est l'une des Trois."
+    ],
+    "intention": "Faire le guet devant l'appartement de Belthazor, et y entrer s'il le peut.",
+    "plan": [
+      {
+        "id": "vesk-appartement",
+        "quoi": "Fouiller l'appartement de Belthazor et y attendre son retour",
+        "etat": "en-cours",
+        "jours_restants": 2,
+        "depend_de": [],
+        "cout": [
+          "une nuit seul"
+        ],
+        "si_bloque": "S'il n'y trouve rien, il va rôder seul autour de Prescott Street — contre l'ordre de Malek."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "il croit voir Belthazor seul",
+        "alors": "Il frappe sans prévenir la meute.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "une sorcière, ça se brûle comme le reste",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "tarn",
+    "croyances": [
+      "Belthazor ne miroite plus : il a peur d'être pisté, ou il ne le peut plus."
+    ],
+    "ignore": [
+      "Que Belthazor sent aussi quand on le cherche."
+    ],
+    "intention": "Tenir le toit d'en face, jour et nuit, et dire à Malek tout mouvement.",
+    "plan": [
+      {
+        "id": "tarn-guet",
+        "quoi": "Guetter le Manoir depuis les toits de Pacific Heights",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "ne pas dormir plus de trois heures d'affilée"
+        ],
+        "si_bloque": "Épuisée, elle se retire une nuit aux galeries et la maison n'est plus gardée."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Belthazor use de ses sens démoniaques",
+        "alors": "Elle le sent, et prévient Malek avant de bouger.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "—",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "varek",
+    "croyances": [
+      "Shax est détruit ; la sœur cachée a choisi le bien ; les Trois sont refaites. Toute la cour le sait et en parle bas.",
+      "La meute de Malek cerne la maison des sorcières et n'a encore rien rapporté.",
+      "Kazhar reçoit plus de visiteurs dans ses galeries depuis la mort de Shax.",
+      "La Source tue celui qui apporte une mauvaise nouvelle en retard, rarement celui qui l'apporte à temps.",
+      "Une démone qu'on appelle la Glaneuse a demandé audience : elle dit avoir un moyen d'entrer chez les sorcières sans y mettre les pieds."
+    ],
+    "ignore": [
+      "Que la Glaneuse a déjà commencé sans attendre l'audience.",
+      "Que Belthazor a été soigné."
+    ],
+    "intention": "Porter à la Source, au matin, le rapport de la meute, la demande d'audience de la Glaneuse, et le nom de ceux qui vont chez Kazhar.",
+    "plan": [
+      {
+        "id": "varek-rapport",
+        "quoi": "Rapport du matin : la meute, la Glaneuse, les galeries",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "une audience accordée"
+        ],
+        "si_bloque": "Si la Source ne le reçoit pas, il dépose le rapport par écrit chez l'Oracle, pour qu'on ne dise pas qu'il a tardé."
+      },
+      {
+        "id": "varek-compter-kazhar",
+        "quoi": "Compter qui entre chez Kazhar, trois nuits de suite",
+        "etat": "en-cours",
+        "jours_restants": 3,
+        "depend_de": [],
+        "cout": [
+          "deux espions des galeries"
+        ],
+        "si_bloque": "Si Kazhar le remarque, il cesse et se met à son service par prudence — sans le dire à la Source."
+      },
+      {
+        "id": "varek-recruter-guetteurs-ville",
+        "quoi": "Rendre à la Source deux noms vérifiés pour surveiller urgences et commissariats sans tuer de mortel",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [
+          "le-courtier propose des candidats",
+          "malek-le-veneur vérifie leurs capacités et leur retenue"
+        ],
+        "cout": [
+          "une recherche dans les galeries",
+          "le prix encore inconnu des deux candidats"
+        ],
+        "si_bloque": "Il rapporte le nombre de candidats vérifiés et la cause précise du manque, sans substituer deux réputations à deux noms."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "la Source tue un serviteur devant la cour",
+        "alors": "Il ne rapporte plus que ce qui plaît pendant trois jours.",
+        "une_fois": false
+      },
+      {
+        "si": "un ordre de la Source lui est donné",
+        "alors": "Il le porte dans l'heure, mot pour mot.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "la Source le terrifie, et il la sert pour cette raison même",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "kazhar",
+    "croyances": [
+      "La Source a perdu Shax, puis la sœur cachée, puis Belthazor : trois échecs en un mois.",
+      "Les démons des galeries ont peur des Trois refaites plus que de la Source, et c'est nouveau.",
+      "Varek fait compter ses visiteurs.",
+      "Un démon qui s'oppose à la Source trop tôt finit comme ceux qui ont échoué."
+    ],
+    "ignore": [
+      "Que la Source sait déjà qu'on parle chez lui.",
+      "Ce que la Source prépare contre les Trois."
+    ],
+    "intention": "Recevoir, écouter, ne rien promettre ; laisser la Source échouer une quatrième fois.",
+    "plan": [
+      {
+        "id": "kazhar-recevoir",
+        "quoi": "Recevoir trois chefs de clan, un par nuit, sous prétexte de la meute",
+        "etat": "en-cours",
+        "jours_restants": 3,
+        "depend_de": [],
+        "cout": [
+          "trois nuits",
+          "que Varek ne voie pas tout"
+        ],
+        "si_bloque": "Si la Source l'appelle, il y va le premier, offre ses démons pour la chasse et reporte les visites."
+      },
+      {
+        "id": "kazhar-compter",
+        "quoi": "Faire savoir aux galeries, par d'autres bouches, chaque échec de la meute",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [
+          "kazhar-recevoir"
+        ],
+        "cout": [],
+        "si_bloque": "Si la meute réussit, il se tait et loue la Source."
+      },
+      {
+        "id": "kazhar-offrir",
+        "quoi": "Offrir à la Source un plan contre les Trois, pour en être le chef — et le témoin de l'échec",
+        "etat": "en-cours",
+        "jours_restants": 10,
+        "depend_de": [
+          "kazhar-recevoir"
+        ],
+        "cout": [
+          "une audience",
+          "un plan qui tienne"
+        ],
+        "si_bloque": "Si la Source refuse, il attend la lune suivante."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "la Source échoue une nouvelle fois devant la cour",
+        "alors": "Il réunit les trois chefs la même nuit.",
+        "une_fois": false
+      },
+      {
+        "si": "la Source le convoque",
+        "alors": "Il vient, loue, offre ses démons, et ne dit rien de ses visiteurs.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "la Source est un maître qu'il sert en attendant",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "la-glaneuse",
+    "croyances": [
+      "La sorcière aînée est morte ; les trois qui restent la pleurent, et la cadette d'avant, Piper, a une colère qu'elle ne dit pas.",
+      "La mort d'une sorcière ne se défait pas : c'est justement ce qu'elle leur promettra de défaire.",
+      "La Source ne l'a pas encore reçue ; un service rendu sans ordre peut valoir une place, ou la mort."
+    ],
+    "ignore": [
+      "Que Phoebe touche les objets et voit ce qu'ils ont vécu.",
+      "Que Paige n'a pas connu Prue : elle n'a rien à lui donner."
+    ],
+    "intention": "S'installer comme médium et faire arriver au Manoir, par un tiers, un « message de Prue ».",
+    "plan": [
+      {
+        "id": "glaneuse-salon",
+        "quoi": "Ouvrir un salon de médium à Russian Hill et glaner trois endeuillés pour prendre des forces",
+        "etat": "en-cours",
+        "jours_restants": 4,
+        "depend_de": [],
+        "cout": [
+          "trois endeuillés",
+          "un loyer de façade"
+        ],
+        "si_bloque": "Si elle n'en glane que deux, elle se contente de ce qu'elle a et commence plus faible."
+      },
+      {
+        "id": "glaneuse-message",
+        "quoi": "Faire porter au Manoir une carte : « Prue a quelque chose à dire à Piper »",
+        "etat": "en-cours",
+        "jours_restants": 7,
+        "depend_de": [
+          "glaneuse-salon"
+        ],
+        "cout": [
+          "un souvenir de Prue volé au cimetière ou à un proche"
+        ],
+        "si_bloque": "Faute de souvenir de Prue, elle vise un autre deuil de la maison — Patty, et donc Paige."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "une sorcière vient à son salon",
+        "alors": "Elle ne fuit pas : elle console, et demande un souvenir.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Piper est un festin ; Phoebe, une menace qu'elle ne mesure pas",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "ezra-vane",
+    "croyances": [
+      "Il y a un mois, une lumière neuve s'est allumée sur sa carte de la Baie : une sorcière qui s'éveille, sans maître.",
+      "Elle travaille ou passe à South Bay Social Services, le cristal y revient chaque jour ouvrable.",
+      "Une sorcière neuve ne sait pas encore se battre ; dans un mois elle saura."
+    ],
+    "ignore": [
+      "Qu'elle est des Trois, et qu'elle a des sœurs.",
+      "Qu'elle est à moitié être de lumière."
+    ],
+    "intention": "Entrer à South Bay comme bénévole et trouver laquelle d'entre elles c'est.",
+    "plan": [
+      {
+        "id": "ezra-entrer",
+        "quoi": "Se faire accepter comme bénévole par M. Cowan",
+        "etat": "en-cours",
+        "jours_restants": 3,
+        "depend_de": [],
+        "cout": [
+          "une lettre de recommandation fausse",
+          "un entretien"
+        ],
+        "si_bloque": "Si Cowan le refuse, il guette le parking et suit les employées une à une."
+      },
+      {
+        "id": "ezra-prendre",
+        "quoi": "La trouver seule, le soir, et la tuer à l'athamé",
+        "etat": "en-cours",
+        "jours_restants": 9,
+        "depend_de": [
+          "ezra-entrer"
+        ],
+        "cout": [
+          "l'athamé",
+          "qu'elle soit seule"
+        ],
+        "si_bloque": "Si elle lui échappe en lumière, il comprend qu'elle n'est pas une sorcière ordinaire et se retire pour scruter qui la protège."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "elle use de son pouvoir devant lui",
+        "alors": "Il est sûr : il passe à l'acte dans les deux jours.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "—",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "m-cowan",
+    "croyances": [
+      "Paige est la meilleure de ses assistantes et la plus absente : trois jours manqués ce mois-ci.",
+      "Le dossier de bourse du petit O'Brien doit partir cette semaine.",
+      "Le service manque de bras ; on lui a recommandé un bénévole qui se présente cette semaine."
+    ],
+    "ignore": [
+      "Où Paige passe ses après-midi, et pourquoi."
+    ],
+    "intention": "Tenir Paige à ses dossiers, et prendre le bénévole s'il fait l'affaire.",
+    "plan": [
+      {
+        "id": "cowan-bourse",
+        "quoi": "Exiger le dossier O'Brien sur son bureau avant la fin de la semaine",
+        "etat": "en-cours",
+        "jours_restants": 4,
+        "depend_de": [],
+        "cout": [
+          "Paige à son poste"
+        ],
+        "si_bloque": "Si le dossier manque, il le reprend lui-même et le note à son dossier à elle."
+      },
+      {
+        "id": "cowan-benevole",
+        "quoi": "Recevoir le bénévole recommandé et lui confier le classement",
+        "etat": "en-cours",
+        "jours_restants": 3,
+        "depend_de": [],
+        "cout": [
+          "un bureau libre"
+        ],
+        "si_bloque": "S'il n'a pas de bureau, il le met à côté de celui de Paige."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Paige manque encore une journée sans prévenir",
+        "alors": "Avertissement écrit, sur son bureau à elle, avant midi.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "—",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "gil-navarro",
+    "croyances": [
+      "Le P3 a perdu un tiers de ses entrées depuis l'été ; la caisse ne couvre plus les groupes du vendredi.",
+      "Un club de SoMa lui offre davantage.",
+      "La patronne est en deuil ; elle n'a pas besoin d'apprendre ça maintenant."
+    ],
+    "ignore": [
+      "Que Piper compte sur lui pour tenir le club pendant qu'elle se bat."
+    ],
+    "intention": "Tenir encore quelques soirs, puis dire à Piper qu'il part.",
+    "plan": [
+      {
+        "id": "gil-tenir",
+        "quoi": "Tenir le club seul les soirs où Piper ne vient pas",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "ses nuits"
+        ],
+        "si_bloque": "Les soirs où il n'en peut plus, il ferme à une heure au lieu de deux."
+      },
+      {
+        "id": "gil-partir",
+        "quoi": "Annoncer son départ à Piper, avec deux semaines de préavis",
+        "etat": "en-cours",
+        "jours_restants": 6,
+        "depend_de": [],
+        "cout": [
+          "trouver le bon soir pour le dire"
+        ],
+        "si_bloque": "S'il ne trouve pas le soir, il le lui écrit, et part quand même."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Piper lui propose une part des bénéfices",
+        "alors": "Il reste un mois de plus.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "—",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "fondateur-porte-parole",
+    "croyances": [
+      "Les Trois sont refaites ; elles ne savent pas encore se battre ensemble, et la Source le sait.",
+      "Un démon vit sous le toit du Nexus, avec la sorcière Phoebe ; ce qu'il est devenu n'est pas établi.",
+      "Leo aime Piper plus qu'il ne sert ; ce n'est pas encore une faute."
+    ],
+    "ignore": [
+      "Où Patty avait caché Paige, et ce que l'enfant a vécu."
+    ],
+    "intention": "Que Leo forme Paige, vite, et qu'il rende compte de Belthazor.",
+    "plan": [
+      {
+        "id": "fondateur-paige",
+        "quoi": "Appeler Leo et lui confier la formation de Paige, avec une échéance : l'orbe tenu d'ici une lune",
+        "etat": "en-cours",
+        "jours_restants": 2,
+        "depend_de": [],
+        "cout": [
+          "que Leo monte quand on l'appelle"
+        ],
+        "si_bloque": "S'il tarde, le Fondateur fait passer la consigne par un autre être de lumière."
+      },
+      {
+        "id": "fondateur-belthazor",
+        "quoi": "Exiger de Leo un rapport sur Belthazor : que reste-t-il de démon en lui",
+        "etat": "en-cours",
+        "jours_restants": 6,
+        "depend_de": [
+          "fondateur-paige"
+        ],
+        "cout": [
+          "la parole de Leo"
+        ],
+        "si_bloque": "Si Leo le couvre, le Fondateur fait surveiller le Manoir par un autre que lui."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Belthazor use de ses pouvoirs démoniaques sous le toit du Nexus",
+        "alors": "Les Fondateurs appellent Leo dans la nuit.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Phoebe est une des Trois ; son choix d'aimer un démon est une inquiétude, pas encore un jugement",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "morne-le-charognard",
+    "croyances": [
+      "Shax a tué une sorcière dans l'entrée d'une maison de Pacific Heights ; ce qui reste d'une telle mort se mange pendant une lune.",
+      "La maison est gardée par les sorcières et par un démon traître ; il faut y entrer par les conduits, la nuit, à quatre.",
+      "Un chemin vers la maison des sorcières vaut cher aux Enfers depuis que la Source a perdu trois fois."
+    ],
+    "ignore": [
+      "Que la meute du Veneur guette déjà la maison depuis les toits."
+    ],
+    "intention": "Laisser passer les funérailles et le monde, puis descendre manger dans l'entrée du Manoir.",
+    "plan": [
+      {
+        "id": "morne-repas",
+        "quoi": "Entrer de nuit par les conduits du Manoir avec sa meute et manger les restes de Shax dans l'entrée",
+        "etat": "en-cours",
+        "jours_restants": 13,
+        "depend_de": [],
+        "cout": [
+          "sa meute de quatre",
+          "une nuit sans veille dans l'entrée"
+        ],
+        "si_bloque": "Si la maison a été purifiée ou si quelqu'un veille, il repart sans rien et tente la cave une nuit plus tard."
+      },
+      {
+        "id": "morne-vendre",
+        "quoi": "Vendre la route de Shax au plus offrant — Kazhar d'abord, qui paie les secrets",
+        "etat": "en-cours",
+        "jours_restants": 3,
+        "depend_de": [
+          "morne-repas"
+        ],
+        "cout": [
+          "la route apprise",
+          "un acheteur reçu"
+        ],
+        "si_bloque": "Si Kazhar ne le reçoit pas, il la vend à la meute du Veneur pour moins cher."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "une sœur le surprend",
+        "alors": "Il ne se bat pas : il propose de vendre ce qu'il sait.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "des sorcières, ça se mange quand c'est mort ; vivantes, ça se fuit",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "le-greffier",
+    "croyances": [
+      "Cole Turner, avocat, existe parce qu'il l'a écrit ; Belthazor n'a jamais payé le prix complet.",
+      "Belthazor a trahi : aucun maître ne paiera plus pour lui. La dette est à lui seul.",
+      "Le renouvellement du barreau et du bail de Cole tombe à la fin de la onzième lune : un jour d'échéance."
+    ],
+    "ignore": [
+      "Que Cole n'a plus d'argent démoniaque et compte vivre en mortel."
+    ],
+    "intention": "Préparer la créance et la faire porter à Cole un mois avant l'échéance.",
+    "plan": [
+      {
+        "id": "greffier-dossier",
+        "quoi": "Rassembler les pièces de l'identité Cole Turner : diplôme, barreau, bail, compte",
+        "etat": "en-cours",
+        "jours_restants": 20,
+        "depend_de": [],
+        "cout": [
+          "l'accès aux greffes et aux banques où il a signé"
+        ],
+        "si_bloque": "S'il manque une pièce, il réclame sur ce qu'il a, et raye d'abord le barreau."
+      },
+      {
+        "id": "greffier-lettre",
+        "quoi": "Faire porter la lettre de créance à l'appartement de Cole : le prix ou la rayure au 30.11",
+        "etat": "en-cours",
+        "jours_restants": 9,
+        "depend_de": [
+          "greffier-dossier"
+        ],
+        "cout": [
+          "le dossier complet",
+          "une lettre sans timbre"
+        ],
+        "si_bloque": "Si Cole n'est plus à l'appartement, la lettre est glissée sous la porte du Manoir à son nom."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Cole vient au greffe et signe quoi que ce soit",
+        "alors": "Il tient sa signature : la rayure devient possible au jour d'échéance.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "—",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "le-liseur",
+    "croyances": [
+      "La plus jeune des Trois voit l'avenir au contact des choses : une concurrente, et une proie.",
+      "L'Oracle de la Source voit trouble dès que la magie s'en mêle ; la place de devin est à prendre.",
+      "Une vision se détourne si le contact a été préparé : il faut un objet sur sa route."
+    ],
+    "ignore": [
+      "Que la Source siège elle-même et qu'elle ne paie que ce qui marche."
+    ],
+    "intention": "Étudier la route de Phoebe, préparer un verre et un objet, puis écrire dans sa première vision.",
+    "plan": [
+      {
+        "id": "liseur-route",
+        "quoi": "Lire la route de Phoebe : ses heures, ses lieux, ce qu'elle touche sans y penser",
+        "etat": "en-cours",
+        "jours_restants": 30,
+        "depend_de": [],
+        "cout": [
+          "un verre dans la ville où se regarder"
+        ],
+        "si_bloque": "Faute de route sûre, il prépare l'objet pour le Manoir même, porté par un livreur."
+      },
+      {
+        "id": "liseur-objet",
+        "quoi": "Faire déposer l'objet préparé sur la route de Phoebe et écrire dans la vision qui naîtra",
+        "etat": "en-cours",
+        "jours_restants": 13,
+        "depend_de": [
+          "liseur-route"
+        ],
+        "cout": [
+          "l'objet préparé",
+          "un porteur mortel"
+        ],
+        "si_bloque": "Si elle ne le touche pas, il en pose un autre la semaine suivante."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Phoebe brise un miroir ou une vitre par où il regarde",
+        "alors": "Il se retire une lune, et change de verre.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "une rivale qui voit, et qui ne sait pas qu'on la regarde",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "le-courtier",
+    "croyances": [
+      "Quatre pouvoirs déposés dorment déjà dans quatre enfants placés ailleurs en Californie.",
+      "Depuis la mort de Shax, les démons qui ont peur des sorcières veulent cacher leurs pouvoirs : la demande monte.",
+      "Les dossiers de South Bay Social Services sont pleins d'enfants que personne ne réclame."
+    ],
+    "ignore": [
+      "Qu'une des Trois travaille à South Bay."
+    ],
+    "intention": "Monter une famille d'accueil modèle et se faire confier un enfant de South Bay.",
+    "plan": [
+      {
+        "id": "courtier-famille",
+        "quoi": "Monter la façade : maison à Daly City, papiers, références, agrément de famille d'accueil",
+        "etat": "en-cours",
+        "jours_restants": 40,
+        "depend_de": [],
+        "cout": [
+          "un mortel de paille pour signer",
+          "des références"
+        ],
+        "si_bloque": "Si l'agrément tarde, il passe par une agence privée et dépose sa demande quand même."
+      },
+      {
+        "id": "courtier-placement",
+        "quoi": "Se présenter à South Bay pour un enfant sans famille, et faire signer le placement",
+        "etat": "en-cours",
+        "jours_restants": 21,
+        "depend_de": [
+          "courtier-famille"
+        ],
+        "cout": [
+          "l'agrément",
+          "un dossier signé par M. Cowan"
+        ],
+        "si_bloque": "Si le dossier est bloqué, il en prend un autre dans un service voisin."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "un démon vient lui confier un pouvoir",
+        "alors": "Il accepte, et cherche un coffre de plus.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "—",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+    }
+  },
+  {
+    "personnage_id": "ferran-le-verrouilleur",
+    "croyances": [
+      "Un sceau est visible et matériel : sa rupture ouvre le seuil correspondant ; détruire le dernier rompt le piège."
+    ],
+    "ignore": [
+      "Les lieux, habitudes et positions actuelles des Halliwell.",
+      "Toute mission ou cible qui ne lui a pas encore été transmise."
+    ],
+    "intention": "Attendre une mission de déploiement ; préparer ensuite un lieu accessible sans supposer la venue des Halliwell.",
+    "plan": [],
+    "declencheurs": [
+      {
+        "si": "Une mission lui est effectivement transmise par une personne du monde",
+        "alors": "Lire les bornes de la mission, repérer les moyens et le lieu, déclarer son plan dans son affaire avant de préparer le piège ; ne pas inventer son succès.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Phoebe est inconnue ; aucun ordre de la Source reçu à la création.",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 10
+    }
+  },
+  {
+    "personnage_id": "neris-le-sonneur",
+    "croyances": [
+      "Le même souffle et le même bruit de fond reviennent à chaque répétition ; une question imprévue reste sans réponse."
+    ],
+    "ignore": [
+      "Les lieux, habitudes et positions actuelles des Halliwell.",
+      "Toute mission ou cible qui ne lui a pas encore été transmise."
+    ],
+    "intention": "Attendre une mission ; chercher ensuite une source de voix réelle et un lieu où attirer les secours.",
+    "plan": [],
+    "declencheurs": [
+      {
+        "si": "Une mission lui est effectivement transmise par une personne du monde",
+        "alors": "Lire les bornes de la mission, repérer les moyens et le lieu, déclarer son plan dans son affaire avant de préparer le piège ; ne pas inventer son succès.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Phoebe est inconnue ; aucun ordre de la Source reçu à la création.",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 10
+    }
+  },
+  {
+    "personnage_id": "kharos-le-briseur",
+    "croyances": [
+      "Son moyen de frappe exige une ligne de vue et un bref temps de charge.",
+      "Les sorcières du Manoir représentent une cible prestigieuse ; leur position exacte lui est inconnue."
+    ],
+    "ignore": [
+      "Où se trouvent actuellement les habitants du Manoir.",
+      "Les missions de la Source et les plans des autres démons.",
+      "Le contenu du Livre, les intentions des sœurs et les informations du bien."
+    ],
+    "intention": "À la reprise, quitter la véranda pour chercher une sorcière accessible et tenter une attaque ; choisir depuis ce qu’il peut réellement voir et entendre.",
+    "plan": [
+      {
+        "id": "kharos-assaut-manoir",
+        "quoi": "Attaquer une cible réellement vue au grenier par une décharge ; le tir sur Phoebe est parti et son impact dépend de sa réaction.",
+        "etat": "faite",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "reprise de la scène",
+          "une cible réellement vue",
+          "main libre et temps de charge"
+        ],
+        "si_bloque": "Si personne n’est visible, chercher par les bruits ordinaires du bâtiment ; si une protection interdit le passage, rester dehors ou fuir selon le danger."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Les trois sœurs se rassemblent contre lui, ou il est blessé sans pouvoir isoler une cible",
+        "alors": "Chercher une fuite accessible ; aucun miroitement assuré si son pouvoir est empêché.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Ennemi de Phoebe, sans savoir où elle est ni ce qu’elle prépare.",
+    "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 10
+    }
+  }
+]

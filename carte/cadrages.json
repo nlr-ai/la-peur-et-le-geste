@@ -1,0 +1,46 @@
+{
+  "_": "LA TABLE PEINTE — ce que le monde en dit, et que le moteur ne doit pas savoir.\n\nLa géométrie (côtes, régions, fleuves, position des lieux, cadrages en clair) vit dans ecrans/modules/geo.js, engendré par scripts/carte_geo.py. Ce fichier-ci porte ce qui restait ÉCRIT À LA MAIN dans ecrans/modules/carte.js : le nom des deux cadrages dont le module se sert, les décalages d'étiquettes de lieux, les noms de mers, et les trois régions dont l'étiquette engendrée tombe mal. Sorti le 9.9 (lot 3, docs/refonte-plan.md).",
+  "__": "CE FICHIER NE DOIT RIEN CHANGER. Ses valeurs sont, à l'unité près, celles que carte.js portait. Le jour où l'une d'elles diffère, c'est une décision de mise en page, et elle se voit.",
+
+  "_cadrages": "Les deux cadrages que le module NOMME. `tout` est ce qu'on ouvre en s'approchant de la table — le royaume entier ; `repos` est celui de la vignette étroite du décor, le théâtre de la guerre en cours. Les rectangles eux-mêmes sont dans geo.js (`cadres`) : ici on ne dit que lequel sert à quoi.",
+  "cadrages": { "tout": "westeros", "repos": "baie" },
+
+  "_etiquettes": "Étiquettes des lieux : [dx, dy, ancre], en unités de la grande carte. Ancre \"g\" = texte aligné à droite (fin), \"d\" = à gauche, \"c\" = centré. Autour de la baie, les noms rayonnent vers l'extérieur de la grappe. Un lieu absent d'ici prend le défaut du module.",
+  "etiquettes": {
+    "harrenhal": [-4, 0, "g"],
+    "port-real": [-4, 3.5, "g"],
+    "rosby": [-4, 1, "g"],
+    "stokeworth": [-4, 0, "g"],
+    "sombreval": [-4, -1.5, "g"],
+    "repaire-aux-corneilles": [0, -4, "c"],
+    "griffes": [0, -4, "c"],
+    "cracfosse": [-4, -1.5, "g"],
+    "sweetport-sound": [-4, 1, "g"],
+    "peyredragon": [4, 0, "d"],
+    "lamarck": [-3, 4, "g"],
+    "sharp-point": [4, 1, "d"],
+    "pointe-massey": [4, 2.5, "d"],
+    "winterfell": [4, 1, "d"],
+    "les-eyrie": [4, 1, "d"],
+    "vivesaigues": [-4, -1, "g"],
+    "castral-roc": [-4, 1, "g"],
+    "villevieille": [-4, 1, "g"],
+    "accalmie": [4, 1, "d"]
+  },
+
+  "_mers": "Les mers n'ont pas de contour dans l'état : leurs noms sont posés à la main, dans le repère de geo.js. [x, y, nom].",
+  "mers": [
+    [366, 290, "Le Détroit"],
+    [268, 268, "La Morsure"],
+    [288, 424, "La Néra"],
+    [42, 330, "Mer du Crépuscule"],
+    [305, 598, "Mer de Dorne"]
+  ],
+
+  "_regions": "Le générateur pose l'étiquette d'une région en son centre. Trois d'entre elles tombent alors sur un nom de lieu : on les décale. La Couronne, elle, n'est qu'un anneau de côtes autour de la baie — aucun creux ne peut porter son nom, et ses places la nomment assez : null = pas d'étiquette. Une région absente d'ici garde l'étiquette engendrée.",
+  "regions": {
+    "the_crownlands": null,
+    "the_riverlands": [215, 340],
+    "the_westerlands": [140, 420]
+  }
+}

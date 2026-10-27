@@ -13,7 +13,7 @@
 // calent dessus (voir serveur/CLAUDE.md).
 const fs = require("fs");
 const path = require("path");
-const { RACINE } = require("../http");
+const { ETAT } = require("../http");
 const { DEBUG_MARCHE_AU_FIL, LIEU3D_DEFAUT, LIEUX3D, PLURIELS, SESSION_SERVEUR,
         _resteMarche, batiAutour, direGens, metier, repereProche } = require("../monde3d");
 
@@ -27,7 +27,7 @@ try {
   if (!pid) return { code: 200, corps: { ok: false, erreur: "sans siège" } };
   if (!isFinite(x) || !isFinite(y))
     return { code: 400, corps: { erreur: "x/y" } };
-  const f = path.join(RACINE, "etat", "corps.json");
+  const f = path.join(ETAT, "corps.json");
   let L = { liens: {}, affectations: {} };
   try { L = JSON.parse(fs.readFileSync(f, "utf-8")); } catch (e) {}
   L.affectations = L.affectations || {};
@@ -64,7 +64,7 @@ try {
   if (!isFinite(x) || !isFinite(y))
     return { code: 400, corps: { erreur: "x/y" } };
   const minutes = Math.max(0, +p.minutes || 0);
-  const fichier = (f) => path.join(RACINE, "etat", f);
+  const fichier = (f) => path.join(ETAT, f);
   const lire = (f, d) => {
     try { return JSON.parse(fs.readFileSync(fichier(f), "utf-8")); }
     catch (e) { return d; }
@@ -245,7 +245,7 @@ try {
         : null,
     ].filter(Boolean);
     try {
-      fs.appendFileSync(path.join(RACINE, "etat", "flux.jsonl"),
+      fs.appendFileSync(path.join(ETAT, "flux.jsonl"),
         JSON.stringify({ type: "breve", texte: lignes.join("\n"),
                          // LA DATE, et ce n'est pas du décor : le
                          // bandeau du fil n'écrit l'heure QUE sur un
@@ -261,13 +261,13 @@ try {
     } catch (e) { /* le debug ne casse jamais la marche */ }
   }
   const dossier = pid
-    ? path.join(RACINE, "etat", "inbox", pid)
-    : path.join(RACINE, "etat", "inbox");
+    ? path.join(ETAT, "inbox", pid)
+    : path.join(ETAT, "inbox");
   // Le tampon de la balade en cours, hors de l'inbox pour ne pas
   // réveiller le guetteur avant l'arrivée. Sans roster il n'y a pas
   // d'id de siège : le sac de la partie seule s'appelle
   // `_sans-siege.json`, l'underscore le distinguant d'un vrai id.
-  const tampons = path.join(RACINE, "etat", "marches");
+  const tampons = path.join(ETAT, "marches");
   fs.mkdirSync(tampons, { recursive: true });
   const tampon = path.join(tampons, (pid || "_sans-siege") + ".json");
   // DÉPOSER = fermer le sac dans l'inbox et oublier le tampon. C'est le

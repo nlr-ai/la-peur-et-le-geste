@@ -20,15 +20,15 @@
 
 const fs = require("fs");
 const path = require("path");
-const { RACINE, lireMainsMaisons } = require("../http");
+const { DEPOT, ETAT, lireMainsMaisons } = require("../http");
 const { absolues, dateCourte, jourAbsolu } = require("../http");
 const { DEPOT_ACTIVATIONS, lireJsonSansFaillir, ouQuartier } = require("./activations");
-const { qui } = require("../http");
+const { qui, roster } = require("../http");
 
 const JOUR_MINUTES = 1440;
 
 function nomsDesPersonnages() {
-  const brut = lireJsonSansFaillir(path.join(RACINE, "etat", "personnages.json"), []);
+  const brut = lireJsonSansFaillir(path.join(ETAT, "personnages.json"), []);
   const liste = Array.isArray(brut) ? brut : (brut.personnages || []);
   return new Map(liste.map((p) => [p.id, p.nom || p.id]));
 }
@@ -51,7 +51,7 @@ function filPersonnage(id) {
 
   let flux = [];
   try {
-    flux = fs.readFileSync(path.join(RACINE, "etat", "flux.jsonl"), "utf-8")
+    flux = fs.readFileSync(path.join(ETAT, "flux.jsonl"), "utf-8")
       .split("\n").filter((l) => l.trim())
       .map((l) => { try { return JSON.parse(l); } catch (_e) { return null; } })
       .filter(Boolean);
@@ -173,7 +173,7 @@ function chercherDansFlux(q, max) {
   const mots = besoin.split(/\s+/).filter((m) => m.length > 2);
   let flux = [];
   try {
-    flux = fs.readFileSync(path.join(RACINE, "etat", "flux.jsonl"), "utf-8")
+    flux = fs.readFileSync(path.join(ETAT, "flux.jsonl"), "utf-8")
       .split("\n").filter((l) => l.trim())
       .map((l) => { try { return JSON.parse(l); } catch (_e) { return null; } });
   } catch (_e) { return { q, trouves: [] }; }
@@ -201,7 +201,7 @@ function chercherDansFlux(q, max) {
 function extraitDuFlux(de, a) {
   let flux = [];
   try {
-    flux = fs.readFileSync(path.join(RACINE, "etat", "flux.jsonl"), "utf-8")
+    flux = fs.readFileSync(path.join(ETAT, "flux.jsonl"), "utf-8")
       .split("\n").filter((l) => l.trim())
       .map((l) => { try { return JSON.parse(l); } catch (_e) { return null; } })
       .filter(Boolean);
@@ -219,7 +219,7 @@ function extraitDuFlux(de, a) {
 
 function regie() {
   const lire = (f, defaut) => {
-    try { return JSON.parse(fs.readFileSync(path.join(RACINE, "etat", f), "utf-8")); }
+    try { return JSON.parse(fs.readFileSync(path.join(ETAT, f), "utf-8")); }
     catch (e) { return defaut; }
   };
   const monde = lire("monde.json", {});
@@ -239,7 +239,12 @@ function regie() {
 
   // ---- 1. les têtes -------------------------------------------------------
   const intentions = lire("intentions.json", []) || [];
-  const sieges = lire("joueurs.json", null);
+  // PAR LE LECTEUR DU ROSTER, jamais par le fichier nu : c'est lui qui élit un
+  // principal quand aucun siège ne se déclare tel (voir `serveur/siege.js`).
+  // Lu à plat ici, la lentille de diffusion n'avait aucun émetteur dans tout
+  // monde autre que Westeros et peignait un canvas noir. Le repli garde la
+  // forme `{sieges: []}`, que `roster()` ne rend pas.
+  const sieges = roster() || lire("joueurs.json", null);
   const listeSieges = (sieges && (sieges.sieges || sieges)) || [];
   const occupes = new Set((Array.isArray(listeSieges) ? listeSieges : [])
     .filter((s) => s && s.occupe).map((s) => s.personnage_id));
@@ -409,7 +414,7 @@ function regie() {
   // cache d'une minute que cette page refuse deja.
   let tissu = null;
   try {
-    const pt = path.join(RACINE, "etat", "tissu", "evaluation.json");
+    const pt = path.join(ETAT, "tissu", "evaluation.json");
     tissu = JSON.parse(fs.readFileSync(pt, "utf-8"));
     tissu.calcule_il_y_a_s = Math.round((Date.now() - fs.statSync(pt).mtimeMs) / 1000);
   } catch (e) { tissu = null; }
@@ -419,7 +424,7 @@ function regie() {
   // l'evaluation sur les noeuds et des aretes fantomes pour les candidats.
   let graphe = null;
   try {
-    const base = path.join(RACINE, "etat", "tissu");
+    const base = path.join(ETAT, "tissu");
     const brutNoeuds = JSON.parse(fs.readFileSync(path.join(base, "noeuds.json"), "utf-8"));
     const aretes = fs.readFileSync(path.join(base, "aretes.jsonl"), "utf-8")
       .split(/\r?\n/).filter(Boolean).map((ligne, i) => Object.assign({ id: "a:" + i }, JSON.parse(ligne)));
@@ -497,7 +502,7 @@ function regie() {
     let physique = null;
     try {
       physique = JSON.parse(fs.readFileSync(
-        path.join(RACINE, "scripts", "noyau", "diffusion.json"), "utf-8"));
+        path.join(DEPOT, "scripts", "noyau", "diffusion.json"), "utf-8"));
     } catch (e) { physique = { erreur: String(e.message || e) }; }
 
     const suivables = aretes.filter((a) => !a.flou && !a.virtuel);

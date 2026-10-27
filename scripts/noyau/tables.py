@@ -68,8 +68,26 @@ import re
 import sys
 import time
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ETAT = os.path.join(RACINE, "etat")
+import racines
+
+# L'ETAT NE SE DEDUIT PLUS DE `__file__` (9.9). Il le faisait, et c'etait la
+# raison pour laquelle deux mondes ne pouvaient pas coexister : un chemin
+# calcule depuis la position du CODE designe toujours le dossier ou le code se
+# trouve, jamais celui ou les DONNEES sont. `racines` tranche la question une
+# fois pour toutes et pour les deux langues — le serveur lit la meme variable.
+#
+# LES DEUX RACINES NE SONT PAS LA MEME, et les confondre est un piege qu'on a
+# failli poser ici meme. `RACINE` ne sert dans ce fichier qu'a `--verifier`, qui
+# balaie les `*.py` SUIVIS PAR GIT : c'est la racine du DEPOT qu'il lui faut, et
+# pointer un monde y ferait chercher du code dans un dossier de donnees. Elle
+# reste donc `DEPOT`. Seul `ETAT` suit le monde.
+#
+# `ETAT` reste un nom de module, et c'est VOULU : treize fichiers le lisent, et
+# le rendre fonction les casserait d'un coup. Il vaut ce qu'il valait au
+# chargement. Un processus qui doit changer de monde en cours de route appelle
+# `racines.etat()`, jamais ce nom-ci.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 
 _RIEN = object()          # « aucun defaut fourni », distinct de None
 

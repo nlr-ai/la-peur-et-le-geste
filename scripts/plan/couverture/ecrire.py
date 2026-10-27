@@ -9,8 +9,8 @@ import sys
 import bibliotheque
 import rapporteurs
 
-from plan.couverture.lecture import (nu, sans_emoji, RACINE, LIVRES, VIEUX,
-                                     ECRITS, charger)
+from plan.couverture.lecture import (nu, sans_emoji, RACINE, ETAT, LIVRES,
+                                     VIEUX, ECRITS, charger)
 from plan.couverture.blocs import blocs, marque
 from plan.couverture.registres import CALCULE, deriver
 
@@ -101,7 +101,7 @@ def verser(session):
     titulaires peuvent enfin écrire deux livres distincts en parallèle.
     """
     import shutil, time
-    scindee = bibliotheque.est_scindee(os.path.join(RACINE, "etat"))
+    scindee = bibliotheque.est_scindee(ETAT)
     sauve = None
     if not scindee:
         sauve = LIVRES + u".avant-couverture-" + time.strftime("%Y%m%d-%H%M%S")
@@ -136,7 +136,7 @@ def main(args=None):
     filtre = args[args.index("--affaire") + 1] if "--affaire" in args else None
 
     if "--registres" in args:
-        session = bibliotheque.ouvrir(os.path.join(RACINE, "etat"))
+        session = bibliotheque.ouvrir(ETAT)
         livres = session.livres
         pieces_avant = charger(livres)[1]
         sorties = refaire_registres(livres)
@@ -159,7 +159,7 @@ def main(args=None):
             sys.exit(0)
         if not verser(session):
             sys.exit(1)
-        ap = charger(bibliotheque.charger(os.path.join(RACINE, "etat")))[1]
+        ap = charger(bibliotheque.charger(ETAT))[1]
         pend_ap = sorted(v for n in ap for v in ap[n]["vers"] if v not in ap)
         sys.stdout.write(u"  pieces apres %d · pendantes apres %d %s\n"
                          % (len(ap), len(pend_ap), pend_ap))
@@ -170,7 +170,7 @@ def main(args=None):
         sys.stdout.write(u"4 registre(s) derive(s) dans etat/books.json\n")
         sys.exit(0)
 
-    session = bibliotheque.ouvrir(os.path.join(RACINE, "etat"))
+    session = bibliotheque.ouvrir(ETAT)
     livres, pieces, inventaire, affaires = charger(session.livres)
     if filtre:
         affaires = [a for a in affaires if sans_emoji(filtre).lower() in sans_emoji(a["titre"]).lower()]

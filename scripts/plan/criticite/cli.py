@@ -15,7 +15,7 @@ import plan_modele as PM
 from plan.expose import nu, sans_emoji, NOM_GENRE, FINI, premier_mot
 
 from plan.criticite.page import (LARGEUR, titre, cale, statut, prix, faite)
-from plan.criticite.graphe import (RACINE, POIDS, CONJONCTIF, DISJONCTIF,
+from plan.criticite.graphe import (RACINE, ETAT, POIDS, CONJONCTIF, DISJONCTIF,
                                    amonts, atteignables, cercles, pourquoi)
 from plan.criticite.hommes import (gens, cle_homme, idees, porte_des_hommes,
                                    charge_des_hommes, section_charge, affiche)
@@ -60,7 +60,7 @@ def main():
     # La date du monde, notée à côté de chaque instantané : elle ne sert pas à
     # comparer (deux mesures d'un même jour de jeu peuvent être séparées d'une
     # semaine de travail) mais à relire la trace en années de règne.
-    date = json.load(io.open(os.path.join(RACINE, "etat", "monde.json"),
+    date = json.load(io.open(os.path.join(ETAT, "monde.json"),
                              encoding="utf-8")).get("date") or {}
     mode_dep = u"aucune" if a.sans_dep else a.dep
     lignes, base, poids, saisis, m0, dehors = calculer(
@@ -136,7 +136,7 @@ def main():
                                                  "pas": office_en_clair[1]}},
             "tenu": tenu,
             "masse": m0, "saisis": saisis, "mode_dep": mode_dep,
-            "date": json.load(io.open(os.path.join(RACINE, "etat", "monde.json"),
+            "date": json.load(io.open(os.path.join(ETAT, "monde.json"),
                                       encoding="utf-8")).get("date") or {},
             "etats": {n: {"poids": w, "atteignable": bool(base.get(n)),
                           "nom": pieces[n]["nom"], "affaire": pieces[n]["affaire"]}

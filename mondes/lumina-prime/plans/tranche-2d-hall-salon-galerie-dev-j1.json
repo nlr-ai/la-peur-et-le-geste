@@ -1,0 +1,104 @@
+{
+  "id": "tranche-2d-hall-salon-galerie-dev-j1-v0.1",
+  "titre": "Tranche 2D hall–salon–galerie",
+  "version": "0.1",
+  "statut": "proposition de conception — structure DEV",
+  "auteur": "dev-lumina",
+  "date_fictionnelle": "2042.1.1, 17h10",
+  "perimetre": {
+    "inclus": [
+      "Hall des arrivées",
+      "Salon des visiteurs",
+      "Galerie des projets",
+      "raccords de bord vers Parvis du Radiant Core et Salle du conseil"
+    ],
+    "exclus": [
+      "affectation des usages",
+      "droits d'accès",
+      "constat de praticabilité",
+      "mesures techniques",
+      "nouveau passage hall–galerie",
+      "chantier"
+    ]
+  },
+  "sources": [
+    {
+      "id": "plan-initial-radiant-core",
+      "objet": "nœuds et passages conventionnels"
+    },
+    {
+      "id": "30307",
+      "objet": "transcription DEV des passages, tous dessinés et non essayés"
+    },
+    {
+      "id": "60301",
+      "objet": "trois tâches initiales du parcours visiteur"
+    },
+    {
+      "id": "30305",
+      "objet": "comparaison des agencements, sans affectation"
+    }
+  ],
+  "topologie": {
+    "noeuds": [
+      {"id": "parvis", "nom": "Parvis du Radiant Core", "statut": "bord de tranche"},
+      {"id": "hall", "nom": "Hall des arrivées", "statut": "existant au plan"},
+      {"id": "salon", "nom": "Salon des visiteurs", "statut": "existant au plan"},
+      {"id": "galerie", "nom": "Galerie des projets", "statut": "existant au plan"},
+      {"id": "conseil", "nom": "Salle du conseil", "statut": "bord de tranche — espace de travail"}
+    ],
+    "passages": [
+      {"de": "parvis", "vers": "hall", "duree": 1, "unite": "minute conventionnelle", "preuve": "dessiné, non essayé"},
+      {"de": "hall", "vers": "salon", "duree": 1, "unite": "minute conventionnelle", "preuve": "dessiné, non essayé"},
+      {"de": "salon", "vers": "galerie", "duree": 1, "unite": "minute conventionnelle", "preuve": "dessiné, non essayé"},
+      {"de": "hall", "vers": "conseil", "duree": 1, "unite": "minute conventionnelle", "preuve": "dessiné, non essayé"},
+      {"de": "galerie", "vers": "conseil", "duree": 1, "unite": "minute conventionnelle", "preuve": "dessiné, non essayé"}
+    ],
+    "absence_etablie": "Aucun passage direct hall–galerie n'est porté par le plan initial."
+  },
+  "lecture_publique": [
+    {
+      "tache": "Rejoindre un entretien",
+      "depart": "Hall des arrivées",
+      "destination": "Salon des visiteurs",
+      "resultat_2d": "chemin trouvé : hall → salon",
+      "limite": "dessiné, non essayé ; usage non décidé ; contact opérationnel inconnu"
+    },
+    {
+      "tache": "Attendre hors passage",
+      "depart": "Hall des arrivées",
+      "destination": null,
+      "resultat_2d": "impossibilité nommée : aucun espace d'attente hors passage n'est établi",
+      "limite": "le jardin intérieur touche le hall mais son usage d'attente n'est pas décidé"
+    },
+    {
+      "tache": "Atteindre une présentation sans traverser le travail",
+      "depart": "Hall des arrivées",
+      "destination": "Galerie des projets",
+      "resultat_2d": "impossibilité nommée sur le plan actuel",
+      "limite": "le chemin par le salon traverse l'entretien ; l'autre chemin traverse la salle du conseil"
+    }
+  ],
+  "couches_municipales": [
+    {"couche": "géométrie", "porteur": "dev-lumina", "source": "30307", "etat": "livrée dans cette version"},
+    {"couche": "tâches d'habitant détaillées", "porteur": "pitch", "source": "60308", "etat": "non remise ; base 60301 seulement"},
+    {"couche": "constat matériel et six gestes", "porteur": "gaia", "source": "50303", "etat": "feuille des six gestes remise sur Quai–Data Gardens ; aucun constat matériel hall–salon–galerie, donc vu, praticable et essayé restent inconnus dans cette tranche"},
+    {"couche": "règle d'accès", "porteur": "juris", "source": "70305 · 70202", "etat": "remise : permission inconnue pour Hall, Salon, Galerie et les trois tâches ; Nova décide par 10010 sur 10022 ; désaccord concret par 70303"},
+    {"couche": "mesures techniques", "porteur": "quantum", "source": "40302 après 40309", "etat": "non remise ; valeurs et validité restent inconnues"},
+    {"couche": "réception indépendante", "porteur": "aria", "source": "20564", "etat": "fiche ouverte et raccordée aux trois tâches ; lecture extérieure non encore consignée, action en cours"}
+  ],
+  "blancs_visibles": [
+    "usage décidé de chaque pièce",
+    "lieu d'attente hors passage",
+    "voie publique indépendante vers la galerie",
+    "contact opérationnel pour chaque destination",
+    "praticabilité réelle des cinq passages",
+    "droits et décideurs d'accès",
+    "cotes, capacités, état technique et durée de validité"
+  ],
+  "decisions_reservees": [
+    "Nova : usages nouveaux, grand aménagement, moyens, publication municipale et chantier",
+    "Porteurs respectifs : contenu et correction de chaque couche concurrente"
+  ],
+  "preuve_attendue": "Un lecteur extérieur doit trouver le chemin hall–salon et nommer les deux impossibilités sans explication de DEV, tout en distinguant dessiné, essayé, permis et inconnu."
+}

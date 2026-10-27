@@ -31,7 +31,7 @@
     ],
     "occupe": true,
     "alterne_avec": "marlo-vasse",
-    "laisser_faire": true,
+    "laisser_faire": false,
     "note": "LAISSER FAIRE PERMANENT (decide le 31.8) : personne ne s'assoit, la machine la joue comme un absent (tete dans intentions.json, boucle d'activation), et son siege ANCRE le quartier malgre occupe:false — voir ancres() dans scripts/temps/presence_quartier.py. `occupe` reste la mesure et reste faux ; s'asseoir vraiment reprendrait la main sans rien casser."
   },
   {
@@ -237,5 +237,23 @@
     "note": "Siege de REGIE, pas un personnage du monde : Corneille n'a ni fiche, ni tete, ni horloge, et n'entre dans aucune boucle (scripts/occupation.py l'ecarte du roster mesure). Elle se tient au chemin de ronde de Peyredragon — `salle` et `lieu` ci-dessus sont son poste d'observation, declare ici et nulle part ailleurs : rien ne la met dans presence.json, rien ne l'en sort. Elle voit le flux entier, sans le tri par `pour`, et ouvre le fil refait d'un homme en touchant son visage sur le plan du chateau.",
     "salle": "chemin-ronde",
     "lieu": "Le chemin de ronde, Peyredragon"
+  },
+  {
+    "jeton": "cire-balance-7342",
+    "personnage_id": "otto",
+    "nom": "Otto",
+    "depuis": 12742,
+    "role": "second",
+    "pnj": [
+      "alicent",
+      "aegon-ii",
+      "aemond",
+      "helaena",
+      "larys",
+      "orwyle"
+    ],
+    "occupe": true,
+    "note": "Siege tenu par le joueur PNJ (scripts/joueur_pnj.py --qui otto), ouvert le 2026-10-07. Sa tete est archivee dans etat/archive/tetes/ ; pour le rendre au monde : sieges.py --quitter otto apres lui avoir reecrit une tete.",
+    "assis_a": 1791328523.235
   }
 ]

@@ -1,7 +1,7 @@
 {
   "id": "affaire-anselm",
   "titre": "Les affaires de anselm",
-  "sous_titre": "Cahier stratégique personnel — préparation du monde et conduite de mes affaires",
+  "sous_titre": "Le Trône de Nuit des Cinq Sangs — Briser l'Aîné Malachie, asservir le duché et sacrer ma lignée",
   "type": "affaire",
   "tenu_par": "anselm",
   "acteur_id": "anselm",
@@ -29,13 +29,13 @@
         {
           "cellules": [
             "Périmètre",
-            "Protéger en secret mes enfants pour qu’ils me survivent tous, tenir le Masque du vieux fou méfiant à Rupea, et veiller sur Ilka face aux empiétements de Cincu."
+            "Le Trône de Nuit des Cinq Sangs : briser l'Aîné Malachie à Sighișoara, le boire jusqu'à l'âme en diablerie pour arracher le sort unique des Stryges, écraser le Cercle d'Odorheiu par la malédiction de mort, et devenir le Chef sans Chef souverain de tout le duché devant qui tremblent Voraces, Voilés, Écarlates et Sépulcraux."
           ]
         },
         {
           "cellules": [
             "État de préparation",
-            "Implantation et stratégie initiale posées le 3e jour de la 11e lune de l’an 1 ; aucune démarche n’est encore accomplie."
+            "Refonte totale de la doctrine de puissance. Passage de la posture d'intendant retranché au règne absolu du conquérant nocturne. Les lois du sang, du duel, de la malédiction et de la diablerie deviennent mes fers et mes armes."
           ]
         },
         {
@@ -59,73 +59,73 @@
         {
           "cellules": [
             "fins-et-doctrine",
-            "Mes enfants doivent me survivre, tous. Personne ne doit savoir que je les aime. Le Masque d’Hedwig protège ceux qui sont au loin en concentrant les regards sur Rupea et sur Teodor.",
+            "Cesser de compter des pierres et de payer tribut. Boire l'Aîné Malachie pour hériter du pouvoir primordial des Stryges et de tout son sol ; dissoudre l'Académie de Sighișoara ; anéantir Nicodim d'Odorheiu d'une malédiction totale ; faire de mes enfants Konstantin, Ilka et Teodor les trois piliers intouchables régnant sur les domaines soumis.",
             "peint",
-            "canon/lore/anselm.md ; etat/personnages.json",
-            "C.1 ; C.2 ; C.3"
+            "REGLES_DU_JEU.md ; ACTIONS_JOUEUR.md ; canon/lore/anselm.md",
+            "C.1 ; C.2 ; C.3 ; C.4"
           ]
         },
         {
           "cellules": [
             "personnes-et-relations",
-            "Teodor est mon pensionnaire et héritier à table. Ilka est installée à Ticușu sous les Voraces. Konstantin est chez les Écarlates (Dealu Frumos). Stanca est la goule qui suit Teodor. Les anciens infants Margit et Hedwig sont détruits.",
+            "Malachie#0 est mon Aîné et suzerain à Sighișoara (puissance 14) : il sera bu. Nicodim d'Odorheiu est le corrupteur voilé : il sera consumé par le sang et la magie. Radomir de Comăna (qui m'a bu) sera forcé d'avaler son allégeance à Vlaicu et de payer sa dette. Konstantin deviendra le poing sanglant du duché. Teodor sera métamorphosé en prévôt impitoyable de Rupea.",
             "établi",
-            "etat/relations.json ; canon/lore/anselm.md",
+            "etat/partie-vk/anselm.md ; etat/relations.json ; canon/lore/anselm.md",
             "M.2 ; V.2 ; K.2"
           ]
         },
         {
           "cellules": [
             "pouvoir-et-acces",
-            "Seigneur Stryge de la citadelle de Rupea, libre et actif. Accès absolu à ma chambre, aux remparts et à la cour. Autorité sur les goules de la citadelle et droit de table.",
+            "Seigneur souverain de Rupea, Cața, Dacia, Fișer. Pouvoir de lever des armées complètes de morts et de créatures, de lancer la malédiction de mort (schemes.action.002), de provoquer en duel et de boire le vaincu (magic.action.009), de décréter la diablerie sur les captifs (magic.action.005) et d'imposer le serment de Meute sans merci.",
             "établi",
-            "etat/personnages.json ; etat/lieux.json",
+            "REGLES_DU_JEU.md ; ACTIONS_JOUEUR.md",
             "M.1 ; K.1"
           ]
         },
         {
           "cellules": [
             "moyens-materiels",
-            "Le rocher et les remparts de Rupea. Le registre de Rupea tenu dans ma chambre. Des goules de service (dont Radu pour les plis). 9 nuits de sang en réserve à la table, 3 bandes envoyées par Homorod.",
+            "Citadelle imprenable de Rupea avec 4 villes et nécropoles. Stock magique de 140 mesures à consacrer non plus à une défense passive servile mais à la frappe d'anéantissement magique. Bâtiments militaires à armer : Chambre des rites (Ritualistes), Arsenal maudit (Gardes lourds), Autel de liaison.",
             "peint",
-            "etat/maisons/maison-rupea/documents/mains.json ; documents/books/registre-de-rupea.json",
-            "M.3 ; M.4 ; R.2 ; R.3"
+            "mains.json ; ACTIONS_JOUEUR.md",
+            "M.3 ; M.4 ; M.5"
           ]
         },
         {
           "cellules": [
             "savoirs-et-secrets",
-            "Je sais que Teodor complote avec les Voilés et je le laisse faire. Je sais que Cendrik ronge Ticușu. J’ignore que Sever prépare une malédiction, que Nicodim a détruit Margit, et que Radomir a percé mon jeu.",
+            "Je connais les rouages du sang : la magie qui remonte aux anciens, le duel où l'on boit la puissance adverse, la malédiction de mort où l'on anéantit la défense d'un maître, la diablerie qui dévore le sort d'un Aîné. Malachie s'endort dans ses livres ; Odorheiu se croit protégé par des intrigues d'alcôve.",
             "établi",
-            "etat/intentions.json ; canon/lore/anselm.md",
-            "V.3 ; Connaissances et croyances"
+            "canon/LORE_MAGIES.md ; REGLES_DU_JEU.md",
+            "V.1 ; V.3"
           ]
         },
         {
           "cellules": [
             "engagements-et-temps",
-            "Routine nocturne stricte : le registre de 0h à 5h, remparts à l’aube et au crépuscule, table de 19h à 21h. Une lettre d’avertissement à faire porter à Ilka sous deux jours.",
+            "Rupture de la posture d'attente. Nuit 3-4 : sceller les sommations et mobiliser l'effroi. Nuit 5 : conjurer l'embuscade pour Malachie ou abattre Nicodim par une malédiction de sang et de magie conjointe.",
             "peint",
-            "etat/routines.json ; etat/intentions.json",
-            "P.1 ; R.5"
+            "etat/routines.json",
+            "P.1 ; P.2 ; P.3"
           ]
         },
         {
           "cellules": [
             "strategie-et-alternatives",
-            "Faire porter une lettre de trois lignes dures à Ilka pour la prévenir sans trahir mon attachement. Laisser Teodor comploter pour fixer l’attention ennemie. Si un enfant est menacé de destruction, quitter les murs sur-le-champ.",
+            "Stratégie de l'Éclipse Stryge : 1° Isoler Malachie en débauchant ses vassaux ou en le défiant dans une rencontre arrangée hors de Sighișoara pour le vaincre et le boire ; 2° Lancer 100 mesures de magie et tout mon sang pour consumer l'âme de Nicodim d'Odorheiu à distance ; 3° Faire marcher Konstantin sur Cincu et Agnita pour soumettre les Écarlates ; 4° Proclamer l'Aînesse absolue sur le duché.",
             "peint",
-            "etat/intentions.json ; canon/lore/anselm.md",
-            "Stratégie et alternatives ; P.1"
+            "REGLES_DU_JEU.md",
+            "Stratégie et alternatives"
           ]
         },
         {
           "cellules": [
             "zones-a-peindre",
-            "Restent à préciser : l’identité exacte des autres goules de Rupea hors Stanca, le détail des garnisons squelettes éventuelles, et la route exacte de goule vers Ticușu Vechi.",
+            "Faiblesse exacte de la garde de Malachie à Sighișoara ; résistance magique de Nicodim à Odorheiu.",
             "inconnu",
-            "Absence de détail dans les tables existantes",
-            "T.1 ; T.2 ; T.3"
+            "Fiches et tables du monde",
+            "T.1 ; T.2"
           ]
         }
       ]
@@ -144,41 +144,41 @@
         {
           "cellules": [
             "C.1",
-            "Mes enfants me survivent tous",
-            "Aucun de mes enfants vivants (Teodor, Ilka, Konstantin) n’est détruit ; leurs périls sont détectés et parés avant l’irréversible.",
-            "Chaque enfant vivant et libre à sa place, vérifié par le sang et les rapports.",
-            "Permanent",
+            "Malachie est détruit et bu en diablerie : Anselm devient le nouvel Aîné suprême des Stryges",
+            "Malachie#0 est détruit ; Anselm détient son sort d'Aîné et hérite de sa lignée, de Sighișoara et de tous ses vassaux.",
+            "Graphe de lignée mis à jour (lineage.rule.003, magic.action.005).",
+            "Fin de l'an 1",
             "1 — absolu"
           ]
         },
         {
           "cellules": [
             "C.2",
-            "Le Masque du vieux fou méfiant est tenu sans fissure",
-            "Nul ne sait que j’aime mes enfants ; le pays, les envoyés et mes enfants eux-mêmes me croient paranoïaque, cruel et reclus.",
-            "Rapports d’envoyés, attitude méfiante de Teodor à table, réputation intacte.",
-            "Permanent",
+            "Nicodim d'Odorheiu et son réseau voilé sont anéantis par malédiction de mort",
+            "Nicodim est détruit ou vidé de toute sa magie par une malédiction souveraine ; Sever est mis aux fers ou détruit.",
+            "Disparition de Nicodim d'Odorheiu des tables actives (schemes.action.002).",
+            "Milieu de l'an 1",
             "1 — vital"
           ]
         },
         {
           "cellules": [
             "C.3",
-            "Ilka est avertie de la menace de Cincu sans découvrir ma sollicitude",
-            "Ilka reçoit l’avertissement sur Cendrik sous forme d’ordre dur ou de mise en garde sèche, et surveille ses marges.",
-            "Pli porté à Ticușu Vechi par une goule sûre ; trace dans les faits joués.",
-            "5e jour de la 11e lune de l’an 1",
-            "2 — urgent"
+            "Les seigneurs voisins (Radomir, Cendrik, Vlaicu) courbent le genou devant Rupea",
+            "Les Voraces et Sépulcraux des frontières prêtent allégeance ou sont bus en duel et leurs terres annexées.",
+            "Pactes d'allégeance enregistrés au bénéfice d'Anselm.",
+            "An 2",
+            "2 — stratégique"
           ]
         },
         {
           "cellules": [
             "C.4",
-            "Maintenir la réserve magique accumulée comme muraille contre les malédictions",
-            "Conserver un stock élevé de magie à Rupea (au moins 140 mesures nettes) pour qu'aucune malédiction ne puisse égaler ma défense, tout en acquittant la mesure nocturne due à Radomir.",
-            "mains.json (magie-de-rupea >= 140) ; absence de brèche occulte.",
+            "Mes trois enfants règnent en princes sous ma bannière incontestée",
+            "Konstantin maître d'Agnita et des Écarlates, Ilka maîtresse de la vallée de l'Olt, Teodor régent craint de Rupea.",
+            "Territoires et titres attribués sans rival.",
             "Permanent",
-            "1 — vital"
+            "1 — absolu"
           ]
         }
       ]
@@ -195,43 +195,28 @@
         {
           "cellules": [
             "V.1",
-            "Mes enfants sont loin et me haïssent ou me fuient, croyant que je les méprise.",
-            "C.1 ; C.3",
-            "Opinions négatives établies dans etat/relations.json ; lettres réduites à trois lignes."
+            "L'allégeance formelle due à Malachie et son Académie à Sighișoara",
+            "C.1",
+            "Pacte d'allégeance existant dans etat/relations.json.",
+            "relations.json"
           ]
         },
         {
           "cellules": [
             "V.2",
-            "Cendrik de Cincu avance ses Ritualistes à bas bruit sur les terres d’Ilka sans déclaration de guerre.",
-            "C.1 ; C.3",
-            "etat/intentions.json (plan cendrik-ticusu)."
+            "Le Cercle d'Odorheiu et la trame occulte de Nicodim",
+            "C.2",
+            "Pénétration des émissaires voilés jusqu'au seuil de Rupea.",
+            "intentions.json"
           ]
         },
         {
           "cellules": [
             "V.3",
-            "Je ne quitte presque jamais mes murs sans trahir mon Masque et révéler ce qui me fait bouger.",
-            "C.1 ; C.2",
-            "Routine casanière établie depuis un siècle ; souvenir de la nuit des bois du sud."
-          ]
-        },
-        {
-          "cellules": [
-            "V.4",
-            "Isolement magique total : hors de tout Cercle, sans athanor ni science apprise, aveugle aux cœurs.",
-            "C.1 ; C.2",
-            "Pas d'athanor, refus des veines et anneaux ; impossible de lancer 'Lire le sang' sur Teodor ou de percer les voiles occultes.",
-            "la-magie.md"
-          ]
-        },
-        {
-          "cellules": [
-            "V.5",
-            "Paiement du tribut nocturne de magie à Radomir (son buveur).",
-            "C.4",
-            "Une mesure par nuit coule vers Comăna, réduisant l'accroissement net de la muraille.",
-            "mains.json (part-vers-comana) ; relations.json"
+            "Le tribut magique versé à Radomir de Comăna suite au duel passé",
+            "C.3",
+            "Arête de sang bu prélevant de la magie chaque nuit.",
+            "partie-vk/anselm.md"
           ]
         }
       ]
@@ -248,33 +233,28 @@
         {
           "cellules": [
             "K.1",
-            "Les lettres de trois lignes portées par des goules sûres de Rupea",
-            "V.1 ; C.3",
-            "Permet d’avertir sans paraître aimer ; exige 2 nuits de marche pour une goule et risque d’interception."
+            "Attirer Malachie dans un duel isolé ou une rencontre en lisière pour le briser et le diableriser",
+            "V.1 ; C.1",
+            "Provoquer l'Aîné par défi public de puissance ou piège de sang.",
+            "Prix : risque mortel en combat singulier ; limite : Malachie est puissance 14."
           ]
         },
         {
           "cellules": [
             "K.2",
-            "Le Masque d’héritier méprisé porté par Teodor à la table",
-            "C.2",
-            "Fixe l’attention des espions voilés et voisins sur Rupea ; coûte l’amour de Teodor qui prépare ma perte."
+            "Frapper Nicodim d'Odorheiu d'une malédiction de mort massive (100 magie + tout mon sang)",
+            "V.2 ; C.2",
+            "Consacrer la réserve de Rupea à la destruction pure de l'évêque voilé.",
+            "Prix : mise définitivement perdue selon magic.rule.004 ; limite : portée de la malédiction."
           ]
         },
         {
           "cellules": [
             "K.3",
-            "La brume de sang et le sacrifice personnel en cas de péril mortel immédiat",
-            "V.3 ; C.1",
-            "Permet d’intervenir en personne hors des murs ; risque de me faire détruire ou boire à nouveau."
-          ]
-        },
-        {
-          "cellules": [
-            "K.4",
-            "La muraille de magie amassée (défense absolue contre la malédiction de mort)",
-            "V.4 ; C.4 ; C.1",
-            "Amasser protège, dépenser expose. En refusant d'engager de la magie dans des sorts ou des cercles, toute ma puissance sert de bouclier passif contre les attaques occultes."
+            "Forcer Radomir à un nouveau duel ou le contraindre à l'allégeance par la terreur de mes osts",
+            "V.3 ; C.3",
+            "Envoyer mes compagnies de gardes lourds et mes Ritualistes border ses bois.",
+            "Prix : réveil des bêtes de Comăna ; limite : les forêts vivantes."
           ]
         }
       ]
@@ -298,31 +278,61 @@
         {
           "cellules": [
             "P.1",
-            "Écrire trois lignes sèches à Ilka sur Cendrik de Cincu et confier le pli à la goule Radu pour Ticușu Vechi.",
-            "K.1 ; C.3",
-            "Disponibilité d’une goule sûre ; encre et parchemin dans ma chambre.",
+            "Dicter le défi d'hégémonie à Malachie de Sighișoara sommé de céder l'anneau et le titre d'Aîné ou d'affronter le maître de Rupea.",
+            "K.1 ; C.1",
+            "Courrier de défi scellé de sang.",
             "Anselm",
             "chambre-anselm",
-            "Billet écrit et remis ; départ de la goule.",
-            "prévue — non commencée",
-            "5e jour de la 11e lune de l’an 1",
+            "Message rédigé dans paroles-a-porter.md.",
+            "prévue — prête",
+            "3e jour de la 11e lune",
             "",
-            "Conforme à mon plan dans intentions.json (anselm-lettre-ilka)."
+            "Sommation préalable au duel et à la diablerie."
           ]
         },
         {
           "cellules": [
             "P.2",
-            "Recevoir le compte de Stanca sur les remparts à 5h sur la nuit de Teodor et observer ses allées et venues.",
+            "Lancer la malédiction de mort sur Nicodim d'Odorheiu en engageant la magie souveraine de Rupea.",
             "K.2 ; C.2",
-            "Présence de Stanca à l’aube sur le chemin de ronde.",
+            "Rituel d'assassinat magique (schemes.action.002).",
             "Anselm",
-            "remparts",
-            "Rapport oral de Stanca reçu ; aucune réaction montrée.",
-            "prévue — habituelle",
-            "4e jour de la 11e lune de l’an 1",
+            "chambre-anselm",
+            "Nom inscrit dans le sang et la magie consumée.",
+            "prévue — prête",
+            "4e jour de la 11e lune",
             "",
-            "Maintien de la surveillance ordinaire sans éveiller les soupçons."
+            "Anéantir le cœur voilé du duché."
+          ]
+        },
+        {
+          "cellules": [
+            "P.3",
+            "Imposer à Teodor le serment de fer à table : duels obligatoires, marche en armes contre les espions de Sever, fin des hésitations.",
+            "C.4",
+            "Entrevue à table à 19h03.",
+            "Anselm",
+            "la-table",
+            "Serment de Meute révisé (pacts.action.007).",
+            "prévue — prête",
+            "3e jour de la 11e lune",
+            "",
+            "Transformer l'héritier en instrument de terreur."
+          ]
+        },
+        {
+          "cellules": [
+            "P.4",
+            "Ordonner à Konstantin de lever l'ost écarlate et d'écraser Cendrik de Cincu sans quartier pour s'emparer de ses domaines.",
+            "C.3 ; C.4",
+            "Billet sans appel à Dealu Frumos.",
+            "Anselm",
+            "chambre-anselm",
+            "Ordre militaire impérieux confié à Radu.",
+            "prévue — prête",
+            "4e jour de la 11e lune",
+            "",
+            "Prendre en tenaille le flanc est du duché."
           ]
         }
       ]
@@ -340,22 +350,12 @@
       "lignes": [
         {
           "cellules": [
-            "Sauvegarder mes enfants sans révéler mon affection",
-            "Avertir de loin par plis anonymes ou rudes, laisser Teodor servir de paratonnerre à table, rester reclus.",
-            "Margit est morte parce que j’ai montré que je l’aimais. Seul le mépris apparent garantit leur sécurité face aux malédictions et cabales.",
-            "Si une lettre ne suffit pas pour Ilka, envoyer une goule parler à son entourage ou faire circuler une rumeur à la frontière.",
-            "Si un de mes enfants est en péril de destruction imminente : sortir aussitôt moi-même en brume de sang.",
-            "Une goule de messagerie, autorité seigneuriale, routine des remparts."
-          ]
-        },
-        {
-          "cellules": [
-            "Parer la guerre occulte sans Cercle ni athanor",
-            "Amasser la magie sans jamais la dépenser : faire de la réserve de Rupea une muraille infranchissable pour les malédictions.",
-            "Une malédiction exige des semaines/mois et doit égaler ce que tient la victime. En restant sobre et thésauriseur, aucun assaillant ne peut égaler mes réserves sans s'exposer mortellement.",
-            "Si un sort frappe malgré tout un enfant : quitter les murs et frapper l'incantateur pendant sa vulnérabilité.",
-            "Si le tribut à Radomir s'alourdit ou que la récolte de magie de Rupea baisse dangereusement.",
-            "140 mesures de magie nettes à la citadelle, rigueur et refus des dépenses magiques."
+            "Conquérir le Trône de Nuit et asservir les Cinq Sangs",
+            "Diableriser Malachie, foudroyer Nicodim par malédiction, soumettre les marches par Konstantin et mes compagnies.",
+            "Ceux qui comptent des pierres finissent sous les décombres. La survie n'est rien sans la suprématie absolue. Un Stryge de mon âge ne mendie pas la paix : il dévore ses rivaux et impose sa loi.",
+            "Si Malachie refuse le duel : marcher sur Sighișoara à la tête de compagnies d'Élémentaires et de Gardes lourds en rasant ses nécropoles.",
+            "Si la malédiction contre Nicodim échoue : lever le ban des morts et assiéger Odorheiu par le sol.",
+            "140 mesures de magie, réserve de sang, l'ost de Rupea, la vie de mes ennemis."
           ]
         }
       ]
@@ -374,51 +374,41 @@
         {
           "cellules": [
             "M.1",
-            "Seigneurie de Rupea",
-            "Plein contrôle du rocher, de l’enceinte et des portes.",
-            "Citadelle forte de dix pans et tours d’angle.",
-            "Ne commande pas au-delà du rocher et de Homorod.",
-            "etat/lieux.json ; canon/lore/anselm.md"
+            "Puissance Stryge millénaire",
+            "Plein pouvoir d'un Ancien actif.",
+            "Puissance 11, capable d'engager des duels mortels et des rituels majeurs.",
+            "Lié à l'état de veille.",
+            "etat/partie-vk/anselm.md"
           ]
         },
         {
           "cellules": [
             "M.2",
-            "Goules de maison",
-            "Présentes à la citadelle sous serment de sang.",
-            "Stanca (attachée aux pas de Teodor), Radu (messager discret), goules du corps de garde.",
-            "Obéissance aveugle mais initiative nulle ; vulnérables au jour et aux embûches de route.",
-            "etat/personnages.json ; canon/lore/teodor.md"
+            "Malédiction de mort",
+            "Savoir inné de tout vampire ancien.",
+            "Destruction à distance par frappe combinée magie × sang.",
+            "Mise perdue quel que soit le sort de l'assassinat.",
+            "REGLES_DU_JEU.md (magic.action.004)"
           ]
         },
         {
           "cellules": [
             "M.3",
-            "Le Registre de Rupea",
-            "Sous clef dans ma chambre, accessible à moi seul.",
-            "Pages de griefs et dernière page des dettes envers mes enfants.",
-            "Si Teodor le lit, le Masque s’effondre.",
-            "etat/maisons/maison-rupea/documents/books/registre-de-rupea.json"
+            "Diablerie primordiale",
+            "Droit du vainqueur sur un captif d'Aîné.",
+            "Vol du don, des traits et du sort d'Aîné.",
+            "Exige la mise en captivité préalable de Malachie.",
+            "REGLES_DU_JEU.md (magic.action.005)"
           ]
         },
         {
           "cellules": [
             "M.4",
-            "Sang et vivants sous la main",
-            "9 nuits de table en réserve, 3 bandes par lune à Homorod.",
-            "Suffisant pour la table présente mais Homorod commence à s’épuiser.",
-            "Si les bandes tombent sous 2, le village se vide.",
-            "etat/maisons/maison-rupea/documents/mains.json"
-          ]
-        },
-        {
-          "cellules": [
-            "M.5",
-            "Réserve magique de Rupea",
-            "Accès direct par le rocher et les flux remontant des enfants.",
-            "140 mesures de magie nettes (+2/jour net, 1 versée à Radomir).",
-            "Ne peut être projetée à distance sans incantation longue et périlleuse ; sert uniquement de masse défensive passive.",
-            "etat/maisons/maison-rupea/documents/mains.json (la-magie-de-rupea)"
+            "Arsenal de Rupea et sol de guerre",
+            "Quatre cités et nécropoles, capacité de levée de gardes lourds et ritualistes.",
+            "Plafond de troupes lié à la puissance.",
+            "Entretien quotidien en sang et magie.",
+            "ACTIONS_JOUEUR.md"
           ]
         }
       ]
@@ -438,38 +428,26 @@
       "lignes": [
         {
           "cellules": [
-            "T.1 — Route et relais vers Ticușu Vechi",
+            "T.1 — Réserves exactes de magie de Malachie à Sighișoara",
             "chercher",
-            "Délai exact d’acheminement du pli P.1",
-            "Vérifier auprès de la goule messagère le chemin le plus discret.",
+            "Certitude du succès en duel et résistance à la domination",
+            "Espionnage par les émissaires de la Meute.",
+            "Anselm",
+            "5e jour de la 11e lune",
+            "ouvert",
+            "Évaluer le moment exact où Malachie sort de ses murs."
+          ]
+        },
+        {
+          "cellules": [
+            "T.2 — Niveau de défense magique de Nicodim d'Odorheiu",
+            "chercher",
+            "Calcul de la mise de malédiction requise pour sa destruction",
+            "Analyse du flux des veines d'Odorheiu.",
             "Anselm",
             "4e jour de la 11e lune",
             "ouvert",
-            "Estimé à 2 nuits de marche."
-          ]
-        },
-        {
-          "cellules": [
-            "T.2 — Manœuvres exactes de Sever pour le 15",
-            "chercher",
-            "Sécurité de la citadelle et surveillance de Teodor",
-            "Écouter les rapports de Stanca sans poser de question directe.",
-            "Anselm et Stanca",
-            "15e jour de la 11e lune",
-            "ouvert",
-            "Sever doit revenir chercher la réponse de Teodor."
-          ]
-        },
-        {
-          "cellules": [
-            "T.3 — Situation exacte des forces de Cendrik à Cincu",
-            "chercher",
-            "Degré de danger pour Ilka",
-            "Attendre les retours ou signes de chant ritualiste.",
-            "Anselm",
-            "Fin de lune",
-            "ouvert",
-            "Cendrik convoite les terres sans conflit ouvert."
+            "S'assurer que la défense ne dépasse pas la frappe."
           ]
         }
       ]
@@ -486,47 +464,20 @@
       "lignes": [
         {
           "cellules": [
-            "Teodor et les Voilés",
-            "Teodor complote contre moi depuis des années et parle bas avec les envoyés voilés. Je le laisse faire pour protéger les autres.",
-            "Constat personnel à table et rapports de goules.",
-            "Que Sever lui a demandé de laisser une porte ouverte pour une malédiction.",
-            "etat/intentions.json"
+            "L'Aîné Malachie",
+            "Malachie s'est encroûté dans ses grimoires à Sighișoara. Sa puissance de 14 ne repose que sur des serments vermoulus. Il n'a plus la férocité des premiers siècles.",
+            "Observation des siècles.",
+            "S'il dispose d'un artefact antique de défense dans sa tour.",
+            "etat/partie-vk/malachie.md"
           ]
         },
         {
           "cellules": [
-            "La destruction de Margit et d’Hedwig",
-            "Margit a été détruite par un Voilé de l’est suite à une veine refusée ; Hedwig par un Voilé sans nom.",
-            "Souvenir douloureux et registre.",
-            "Que c’est Nicodim lui-même qui a frappé Margit, et le sang d’Ottilia qui a détruit Hedwig.",
-            "etat/intentions.json ; etat/personnages.json"
-          ]
-        },
-        {
-          "cellules": [
-            "Radomir de Comăna",
-            "Radomir m’a bu dans les bois du sud il y a huit ans quand je suis allé sauver Ilka.",
-            "Duel vécu sous les arbres.",
-            "Que Radomir a compris pourquoi je me suis laissé boire.",
-            "etat/intentions.json ; canon/lore/anselm.md"
-          ]
-        },
-        {
-          "cellules": [
-            "Cendrik et Ticușu",
-            "Le Sépulcral de Cincu convoite les arpents d’Ilka et compte ses villages.",
-            "Rumeurs des marches et mémoire.",
-            "Que Konstantin cherche le Sépulcral aux cendres.",
-            "etat/intentions.json"
-          ]
-        },
-        {
-          "cellules": [
-            "Les Cercles et les sciences occultes",
-            "Je sais que l'Académie siège à Sighișoara autour de Malachie, que Vlaicu tient un Cercle au sud où Ilka est liée, et que les Écarlates d'Agnita ont leur anneau où Konstantin est entré. Je n'ai ni Cercle ni athanor.",
-            "la-magie.md ; rumeurs du pays.",
-            "Ce que ces Cercles ont trouvé ou cherchent, et la teneur exacte de leurs écoles.",
-            "canon/LORE_CERCLES.md"
+            "Nicodim d'Odorheiu",
+            "Nicodim tisse des toiles de lâcheté avec Sever, espérant vider Rupea sans tirer l'épée. Il tremble devant la confrontation directe.",
+            "Rapports de Stanca et mouvements de Sever.",
+            "Le nombre exact d'alliés prêts à le secourir en cas de malédiction.",
+            "canon/lore/anselm.md"
           ]
         }
       ]
@@ -544,10 +495,10 @@
         {
           "cellules": [
             "an 1, 11e lune, 3e jour",
-            "Arrivée de la magie dans le monde et prise en compte de mon statut",
-            "la-magie.md ; mains.json",
-            "Confirmation de ma doctrine : aucun Cercle, aucun athanor. Refus de dépenser de la magie dans des sorts actifs. Défense passive fondée sur l'accumulation massive (140 mesures nettes). Ajout de C.4, V.4, V.5, K.4 et M.5. Prise en compte du tribut d'une mesure/nuit vers Comăna.",
-            "C.4 ; V.4 ; V.5 ; K.4 ; M.5"
+            "Adoption du dessein démesuré : Le Trône de Nuit des Cinq Sangs",
+            "Décision souveraine d'Anselm",
+            "Abandon de la posture de maçon retranché ; bascule vers l'offensive totale, la diablerie de Malachie et l'extermination magique de Nicodim.",
+            "C.1 ; C.2 ; C.3 ; C.4 ; P.1 ; P.2 ; P.3 ; P.4"
           ]
         }
       ]

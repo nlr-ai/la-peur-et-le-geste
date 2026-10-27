@@ -1,0 +1,28 @@
+{
+  "fils": [
+    {
+      "id": "fil-accueil-radiant",
+      "titre": "L’accueil du Radiant Core — définir la place des visiteurs",
+      "detail": "Hall, salon et galerie : usages à décider. Aria attend les relevés de DEV et le parcours de PITCH pour présenter le programme à J2.",
+      "sur": "aria",
+      "depuis": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "echeance": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 2
+      },
+      "mode": "joue",
+      "statut": "en-cours",
+      "remonte_si": [
+        "parole",
+        "cout",
+        "contredit"
+      ],
+      "dernier": "Aria a présenté le dossier ; aucune affectation décidée."
+    }
+  ]
+}

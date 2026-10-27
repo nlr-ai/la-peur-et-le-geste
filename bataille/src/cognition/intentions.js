@@ -7,6 +7,7 @@
 /**
  * @typedef {{x: number, y: number}} Vec2
  * @typedef {{type: 'allerA', cible: Vec2, allure: number}
+ *   | {type: 'marcher', direction: Vec2, allure: number}
  *   | {type: 'attendre'}
  *   | {type: 'frapper', cible: number}
  *   | {type: 'tirer', zone: Vec2}
@@ -22,6 +23,14 @@
 // `train` (optionnel) : l'ALLURE DEMANDÉE À LA MONTURE ('pas'|'trot'|'galop')
 // — un cavalier parle à son cheval ; à pied, le mot est ignoré
 export const allerA = (cible, allure = 1, train) => ({ type: 'allerA', cible, allure, ...(train ? { train } : {}) });
+
+/**
+ * Marcher DANS UNE DIRECTION — le manche du joueur, pas une tête : aucune
+ * cible, aucun chemin, la direction vaut tant qu'on la tient. Seul le
+ * pilotage (cognition.piloter) l'émet ; aucun brain ne la produit.
+ * @param {Vec2} direction — unitaire @param {number} [allure] @returns {Intention}
+ */
+export const marcher = (direction, allure = 1) => ({ type: 'marcher', direction, allure });
 
 /** @returns {Intention} */
 export const attendre = () => ({ type: 'attendre' });

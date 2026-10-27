@@ -1,0 +1,22 @@
+{
+ "quoi": "Les pannes de l'APPAREIL, non les empêchements du monde. Un empêchement du monde est un verrou et va au registre, de ma main. Ceci est l'autre chose : ce que j'ai tenté, ce que la machine en a fait, et ce que j'attendais. On l'écrit même quand on ne sait pas l'expliquer ; c'est la RÉCIDIVE qui parlera.",
+ "regle": "Une entrée par friction, datée. On ne referme jamais une entrée sans dire ce qui l'a levée.",
+ "entrees": [
+  {
+   "date": "1.1.1",
+   "tente": "python scripts/adresser_registre.py registre-des-offices --vraiment (puis registre-des-moyens)",
+   "attendu": "Que les lignes de mes deux registres recoivent leur numero de la serie 9, pour qu'on puisse les citer depuis le fil.",
+   "obtenu": "volume introuvable : etat/books/registre-des-offices.json — la porte cherche a la racine du monde et non dans etat/maisons/bastion/documents/books/, ou vivent desormais tous les volumes de ma maison.",
+   "consequence": "Mes deux registres ne sont pas adressables. Je n'ai rien contourne : les volumes sont ecrits et poses, seules leurs adresses manquent.",
+   "levee": null
+  },
+  {
+   "date": "1.1.1 (soir)",
+   "tente": "Ecrire le volume registre-des-moyens l'apres-midi, puis le relire le soir.",
+   "attendu": "Le retrouver tel que je l'avais laisse, ou modifie avec trace de qui et pourquoi.",
+   "obtenu": "Volume entierement remplace par une autre main a 20h58, meme id, contenu different, mes quatre pages et mes neuf lignes disparues, aucun tenu_par. Rien ne m'a averti ; je l'ai decouvert en comptant mes tableaux.",
+   "consequence": "Reconcilie a la main : cadre de l'autre garde, mes neuf lignes remises dans ses colonnes, main declaree, regle de retrait ecrite dans le volume. Une heure de ma soiree.",
+   "levee": "Non levee. Deux mains ecrivent le meme volume sans se voir : la regle est ecrite dans le volume, elle ne sera pas appliquee par l'appareil."
+  }
+ ]
+}

@@ -128,6 +128,19 @@
      },
      "reliquat": 0,
      "note": "OUVERTE LE 12e DE LA 5e LUNE, SUR UNE QUESTION DE LORD OTTO A LAQUELLE MON LIVRE NE SAVAIT PAS REPONDRE. Il m'a demande si mes neuf mille mangent sur les contrats de quai ou sur la ville. J'ai ouvert le livre pour repondre : IL N'Y AVAIT PAS DE LIGNE. Je tenais ce que j'avais contracte et ce que j'avais rassemble ; je ne tenais nulle part ce que le rassemblement DEVORE en attendant. C'est le troisieme compte, et c'est celui qui mange les deux autres. || L'ARITHMETIQUE, SUR MES PROPRES NOMBRES ET AUCUN AUTRE. Un homme et sa part de train mangent 3,8 livres le jour — 22 800 livres pour six mille hommes et neuf cents betes, mon compte a la craie du 29e de la 3e lune. Du 4e de la 4e lune au 1er de la 5e, l'ost est monte de trois mille six cents a neuf mille : vingt-sept jours a six mille trois cents en moyenne font 646 380 livres. Du 1er de la 5e a ce jour, ONZE JOURS a neuf mille font 376 200 livres. Ensemble : 1 022 580 LIVRES, soit 2 129 QUARTIERS a quatre cent quatre-vingts livres le quartier. La pente courante est de 34 200 livres le jour, SOIXANTE ET ONZE QUARTIERS PAR JOUR, et elle court tant que l'ost ne marche pas. || CE QUE CE NOMBRE MET A COTE DE L'AUTRE, ET JE L'ECRIS PARCE QUE PERSONNE NE ME L'A DEMANDE : je poursuis depuis deux jours mille quartiers achetes comptant par deux facteurs et sortis de ma ville sans se declarer. MON PROPRE CAMP EN A MANGE DEUX FOIS PLUS DANS LE MEME TEMPS, et pas une ligne ne le disait. Je n'abandonne pas la coque du dix-neuvieme ; je note seulement lequel des deux trous est le plus gros, et ce n'est pas celui que je chassais. || CE QUE JE N'AFFIRME PAS ET QUI RESTE A COMPTER : D'OU sortent ces 2 129 quartiers. Mon contrat porte, depuis le premier jour, que les journees sont LIVRABLES AUX QUAIS et qu'AUCUN GRENIER DE VILLEVIEILLE N'A ETE DESCELLE — donc, si le contrat dit vrai, le camp ne mange pas dessus et les seize journees ne sont pas entamees. Mais un contrat n'est pas un inventaire. Le chiffre juste sera arrete le SEIZIEME, un jour avant celui que j'ai promis a la Main : greniers de la ville comptes physiquement, quais comptes physiquement, et le role du munitionnaire du camp releve depuis le 4e de la 4e lune. || REGLE : releve tous les sept jours, comme les deux autres. Un compte qu'on ouvre et qu'on n'arrete pas est pire qu'un compte absent : il fait croire qu'on regarde."
+    },
+    {
+     "id": "bannerets-jures",
+     "quoi": "Bannerets du Bief ayant jure devant temoin, hors de moi-meme",
+     "unite": "maisons",
+     "valeur": 0,
+     "rythme": {
+      "par": 0,
+      "jours": 1
+     },
+     "reliquat": 0,
+     "plafond": 4,
+     "note": "OUVERT LE 12e DE LA 5e LUNE, ET C'EST LA MEME FAUTE QUE CELLE DES TOITS, TROUVEE PAR MOI CETTE FOIS. J'ai le compte des HOMMES — neuf mille sous mes murs, arrete ce matin — et je n'ai jamais eu le compte des SERMENTS. Ce sont deux choses. Un homme sous mes murs peut y etre venu suivre un cousin, ou par l'ost d'un voisin qui a jure quand lui n'a rien dit. Quatre relais tombent sur les terres de mes bannerets (verrou 71001 du plan) : QUATRE MAISONS a faire jurer devant temoin, et non quatre chiffres a additionner. || CE QUE J'AI FAIT CE JOUR : convoque par cavaliers, non par corbeaux, les quatre seigneurs dont les terres portent mes relais, pour venir jurer a Villevieille devant temoin avant que l'ost ne s'ebranle. La convocation est partie ; aucun n'a encore jure. || CE QUE JE N'ECRIS PAS : un chiffre de complaisance. Zero maison jurée n'est pas zero homme ; c'est zero PREUVE que les hommes presents suivront leur seigneur plutot que de rentrer chez eux le jour ou celui-ci se tait."
     }
    ],
    "seuils": [
@@ -152,6 +165,15 @@
       "lune": 4,
       "jour": 24
      }
+    },
+    {
+     "id": "les-bannerets-tiennent-leurs-relais",
+     "mesure_id": "bannerets-jures",
+     "quand": "sur",
+     "valeur": 4,
+     "promeut": "orbite",
+     "affaire": "Les quatre maisons dont les terres portent mes relais ont jure devant temoin. Alors, et alors seulement, le compte des neuf mille cesse d'etre un campement et devient un ost qui tient sa route par ses propres granges.",
+     "franchi_le": null
     }
    ],
    "dernier_rapport": null,

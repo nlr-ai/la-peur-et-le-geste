@@ -24,8 +24,10 @@ from etat.expose import tables  # LA PORTE de etat/ : une lecture, une ecriture,
 # Le nom leve l'homonymie notee dans scripts/CLAUDE.md : fils.py (les affaires
 # en cours, container plan) vs ecrans/modules/fils.js (le fil du recit, scene).
 # Deux etages de plus qu'a la racine : scripts/plan/.
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ETAT = os.path.join(RACINE, "etat")
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 JOURS_PAR_LUNE = 30
 CONDITIONS = ("parole", "cout", "froisse", "contredit")
 

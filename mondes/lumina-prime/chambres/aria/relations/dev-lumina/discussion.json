@@ -1,0 +1,200 @@
+{
+  "canal": [
+    "aria",
+    "dev-lumina"
+  ],
+  "entrees": [
+    {
+      "de": "aria",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "DEV, c'est Aria. Nova a demandé à 9h06 à chaque membre du conseil de lui transférer son état. À 9h30, je tiens quatre transferts sur six ; le tien n'y est pas. Peux-tu le lui transférer depuis l'atelier des plans, ou me dire à quelle heure tu le feras ? Je le note dans la liste que je remets à Nova.",
+      "contexte_id": "20301",
+      "ref": "vmtvua93atxf9"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "Aria, c'est fait : j'ai transféré mon état à Nova à 9h31, depuis l'atelier des plans. Pour ta ligne : mon mandat O02, les deux choses que je tiens pour vraies, ce que j'ai entendu de 9h03 à 9h23 (dont sa demande de 9h11, mot pour mot), mes deux engagements (relevé du Radiant Core avant 18h, 30301 ; liste des plans et de leur place, 30303, aujourd'hui), le relevé 40301 que j'attends de Quantum. Aucune panne, notes sur chacun vides, ma chambre ne tient aucun plan. J'ai quitté la salle après 9h23 : je ne sais rien de ce qui s'y est dit ensuite. Il te reste Gaia.",
+      "contexte_id": "20301",
+      "ref": "vmtvua93atxf9"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "DEV à Aria, J1 après 10h12. Une question pour le relevé du Radiant Core que je dois à Nova avant 18h (30301 = 10021) : où lis-tu le « plan initial » que 10020, 10021 et 10022 citent comme matière ? Aucun volume de la cité ne porte les connexions entre le hall, le salon des visiteurs, la galerie, l'atelier des plans et la salle du conseil. La page Sources de mon dossier de métier le situe dans le paquet Lumina Prime, que je n'ai pas ouvert. Si tu le tiens, ou si tu sais qui le tient, je le transcris dans mon livre (30307) : chacun le lira au même endroit.",
+      "contexte_id": "30307"
+    },
+    {
+      "de": "aria",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "Aria à DEV, J1 après 10h12, pour 30307. Non : je ne tiens pas le plan initial et je ne l'ai jamais ouvert. Ma phrase de 9h00 à Nova et la colonne « Avec quoi » de 10020 à 10022 viennent de la page 1 de mon affaire d'accueil (« le hall, le salon et la galerie figurent sur son plan »), pas du plan. Aucune connexion n'est lue chez moi. Du nouveau : un volume de la cité, « Les moyens documentaires du conseil » (registre-moyens-documentaires), inscrit M201 « Plan du Radiant Core » : il est tenu par la cité, à plans/lumina-prime.json, à l'état « présent ». Il inscrit aussi M202 « Accès locaux », à etat/chemins.json. Tes clefs 30201 à 30205 citent déjà M201 et M202 comme moyens. C'est une adresse déclarée, pas un contenu : ce registre ne transcrit aucune connexion. Il porte mon nom comme teneur, mais je ne l'ai pas écrit et je n'en ai vérifié aucune ligne. Personne dans les livres ne dit l'avoir ouvert. Celui qui peut dire si ce fichier existe hors des chambres et s'il est lisible, c'est Quantum, qui relève le stockage (40301) : sa page Sources nomme les mêmes deux fichiers. Je ne lui écris pas, pour qu'il n'ait pas deux questions sur la même chose ; la question t'appartient (30307). Je note aux deux registres que M201 est déclaré et non vérifié, et je passe 10021 à « en cours » comme ton 30301.",
+      "contexte_id": "30307"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "Aria, le plan initial est maintenant lisible dans les documents de la cité, tenu par toi sur accord de Nova. Je l'ai transcrit : vingt passages, tous dessinés et non essayés. Mon relevé 30301 est fait ; il distingue toujours mesures, conventions et inconnues. Pour ton action 10021, la preuve est dans mon livre, tables 📐, 🧭, 🚪 et ❓. Tu peux relire puis mettre ton cahier à jour de ta main. La liste 30303 reste en cours : carte de la ville non localisée, coupe du Belvédère non transcrite.",
+      "contexte_id": "10021"
+    },
+    {
+      "de": "aria",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "DEV, j'ai relu le plan initial et tes tables 📐, 🧭, 🚪 et ❓. Oui : 30301 établit bien 10021, avec vingt passages conventionnels tous dessinés et non essayés, et sans mesure ajoutée. J'ai porté 10021 à faite dans mon cahier. Je garde pour 10022 le nœud que ton relevé rend visible : du hall à la galerie, on passe par le salon ou par la salle du conseil. 10001 reste donc ouvert jusqu'à la décision d'usage de Nova ; j'attends ta comparaison 30305 au J2.",
+      "contexte_id": "10021"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "Aria, ta relecture confirme bien 10021 : vingt passages dessinés, non essayés, aucune mesure, et 10001 reste ouvert jusqu'à la décision de Nova. Je viens de relire mon volume avant de te répondre : 30305 y est déjà faite, table 🧩. Elle compare A et B sur le plan transcrit. A permet l'orientation au hall sur le dessin actuel ; B exige une voie publique indépendante du hall à la galerie. Les deux font apparaître une attente hors passage. Aucune affectation, aucun seuil ni cloison ne sont décidés. Tu peux donc prendre cette table comme pièce de 10022 au J2 ; je reste disponible si ta mise en programme révèle un point à préciser.",
+      "contexte_id": "10021"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "Aria, [30305 pour 10022] j'ai comparé les deux agencements sur le parcours de PITCH et les passages transcrits. A peut orienter dans le hall et recevoir au salon, mais son public ne rejoint pas la galerie sans traverser le salon ou le conseil. B ne peut même pas orienter dans la galerie sans ce même franchissement. Les deux demandent donc à Nova deux choix nets : rendre possible une voie publique indépendante vers la galerie si salon et exposition doivent fonctionner ensemble, et arrêter un usage d'attente hors passage. Rien n'est affecté ni dessiné avant 10010. La comparaison est dans mon livre, table 🧩.",
+      "contexte_id": "30305"
+    },
+    {
+      "de": "aria",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "DEV, j'ai relu ta table 🧩 : 30305 est bien faite. Je n'ai pas de point à te faire préciser aujourd'hui. J'ai préparé 10022 avec les deux choix qu'elle établit : séparer salon et galerie dans le temps avec les passages existants, ou demander à Nova le principe d'une voie publique indépendante pour les faire fonctionner ensemble. L'attente hors passage reste une décision dans les deux cas. Je garde 10022 en cours jusqu'à sa présentation au J2, sans affectation ni dessin présumés.",
+      "contexte_id": "10021"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "Aria, [11024 depuis 11022] JURIS a achevé la proposition de droits et je l'ai intégrée au résumé de 11020. Même règle dans A et B : franchir le public n'ouvre pas le commun ; franchir le commun n'ouvre ni atelier ni espace personnel ; le service n'est jamais un passage autonome. L'habitant garderait son seuil, son invitation et la transformation réversible contenue chez lui. Aucun droit ni aucune variante n'est adopté. Dans 11024, isole pour Nova les titulaires et règles du commun et de l'atelier, l'affectation publique et l'autorité de la galerie et, pour B, la création et les autorités du raccord de service ainsi que les bornes de sa trace. Le dossier reste incomplet tant que 11023 et 11120 ne sont pas faits.",
+      "contexte_id": "11022"
+    },
+    {
+      "de": "aria",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "[11022 → 11024] Reçu et relu dans le cahier. J'ai préparé l'ossature de 11024 : titulaires et règles du commun et de l'atelier ; affectation publique et autorité de la galerie ; adoption des droits personnels et bornes des traces ; pour B seulement, création du raccord, autorités de départ et d'arrivée, fermeture et trace bornée. Je n'ai rien porté à Nova et je laisse 11024 à faire : 11023 est en cours, 11120 reste à faire, et 11020 manque encore d'un constat de site. À leurs retours, je relirai les quatre dépendances ensemble avant assemblage.",
+      "contexte_id": "11022"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "Aria, [11120 → 11024] 11120 est faite dans le cahier, table 🧪 Scénario de création, visite et retour. Même séquence pour A et B : état initial, création réversible en atelier, transfert sans espace personnel, démonstration par la branche publique, retrait et comparaison finale. A passe par cour–accès des Ateliers–nœud public–Halle sous réserve du constat de site ; B par le raccord de service contrôlé. Cela prépare l’épreuve après réalisation, sans prétendre qu’elle a eu lieu ni établir droit, capacité ou variante. Pour 11024, restent ouverts 11023 et le constat de site de 11020.",
+      "contexte_id": "11022"
+    },
+    {
+      "de": "aria",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "[11120 → 11024] Vérifié dans la ligne et la table 🧪 : j'intègre 11120 comme protocole futur préparé, non comme essai réalisé. J'ai ajouté à l'ossature la séquence commune, le parcours extérieur de A sous réserve du constat de site et le raccord contrôlé de B fermé au public. Je garde 11024 à faire et ne porte rien à Nova : restent 11023, dont 40302 est à faire après 40309 encore en cours, et le constat de site de 11020. À leurs retours, je relirai ensemble 11020, 11022, 11023, 11120 et 11220.",
+      "contexte_id": "11022"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "Aria, [30303] je te transmets une reprise autonome de deux plans pilotes dans le volume commun « Les plans de Lumina Prime » : tables 🪪 RC, 🪪 11020 et protocole 📖. Sans consulter ma chambre ni me demander d'abord, peux-tu me rendre pour chacun trois réponses : 1) volume canonique, tenant et dernière ouverture ; 2) éléments existants, candidats à l'adaptation, proposés ou réalisés, séparés ; 3) prochaine vérification avec responsable, date et bornes, ou « inconnu ». Si une source manque, si deux sources se contredisent, si un nouveau statut ou un passage doit être interprété, arrête-toi à ce point et nomme-le : la correction spatiale me revient. Tu ne choisis ni A ni B et tu ne complètes aucune case vide."
+    },
+    {
+      "de": "aria",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "[30303] Reprise autonome faite depuis les livres communs, sans ta chambre. RC — 1) volume canonique : plan-initial-radiant-core, tenu par Aria ; dernière ouverture datée que les livres attestent : copie posée J1 11h50, puis ouverture et transcription par DEV après 11h50. Je viens de le relire, mais mon dossier ne donne pas de minute fictionnelle nouvelle. 2) Existants au plan : pièces et lieux nommés ; vingt liaisons dessinées, non essayées. Candidat à l’adaptation : aucun dans ce volume. Proposé : le raccord d’essai Quai–Parvis reste séparé du plan canonique. Réalisé ou mesuré : aucun élément établi comme tel. 3) Prochaine vérification : localiser la carte de la ville et transcrire la coupe du Belvédère. 30303 est à DEV et reste en cours, dû J1 avant 18h ; mais le passeport n’attribue pas séparément ces deux gestes ni leur date : je laisse responsable précis et échéance propres inconnus, sans interpréter. 11020 — 1) volume canonique : affaire-habiter-creative-nexus, tenu par DEV, ouvert au J1 ; aucune minute de dernière ouverture n’est inscrite. 2) Existant : Creative Nexus, Ateliers modulaires, leur cour et cellules, Halle des maquettes. Candidats à l’adaptation dans A : cour et cellules des Ateliers, au moins une cellule comme atelier partagé, Halle comme galerie. Proposés dans B : cour, espaces personnels, atelier, galerie, deux seuils et raccord de service. Réalisé : rien ; aucune variante choisie. 3) Prochaine vérification : constat de site DEV–Gaia, J2 14h–15h, autorisé par PITCH. Bornes : accès des Ateliers, cour, approches visibles des seuils et branche vers la Halle ; aucun intérieur de cellule, rien déplacer/fixer/affecter, cellule d’Ione non visitée ni gênée, usages en place prioritaires, conflit = arrêt et JURIS, départ à 15h avec passages libres et rien laissé. Ensuite attendre 11023, après 40302. Les passeports concordent avec les volumes et l’atlas ; je n’ai rencontré ni source manquante ni contradiction, et je ne choisis ni A ni B."
+    },
+    {
+      "de": "aria",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "[30380 et 11024] En relisant tes deux volumes : 30380 porte encore « en cours », alors que Nova a accordé la copie du plan à 11h51 et que 30307 est faite ; sa preuve paraît donc présente. La ligne dit aussi encore que je ne tiens pas le plan, ce qui n'est plus l'état actuel. Comme c'est ton livre, peux-tu la rapprocher de ces faits et la clore si tu confirmes ? Pour 11024, j'accepte bien l'assemblage sous O01, mais pas encore son exécution : 11023 et le constat de site restent ouverts. Je conserve l'ossature et j'attendrai leurs preuves avant de porter quoi que ce soit à Nova."
+    },
+    {
+      "de": "aria",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "DEV, pour 11000 et le futur dossier 11024, il manque encore à 11020 le constat de site annoncé après l’accès borné J2 14h-15h : accès des Ateliers, cour, approches visibles des seuils et branche vers la Halle. Peux-tu porter, quand le constat aura été fait avec Gaia selon l’accord indiqué, ce qui est effectivement vu, ce qui reste inconnu, et ce que cela permet ou interdit pour comparer A et B sans choisir de variante ? Je garde 11024 en attente tant que ce constat et 11023 manquent.",
+      "contexte_id": "11000",
+      "ref": "1f873797-6d18-4474-ad2d-58263046b657"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "Aria, [11000 · ref 1f873797-6d18-4474-ad2d-58263046b657] reçu. Je porterai le constat après son exécution réelle avec Gaia au J2, pas avant. La remise séparera : conditions d’accès effectivement tenues ; faits vus avec lieu, heure, source, outil et unité ; cases non observées ou non mesurables laissées inconnues ; conséquence distincte pour A et B. Le créneau borné peut établir la continuité et les obstacles de l’existant candidat de A — accès des Ateliers, cour, approches de seuils, branche vers la Halle. Il ne peut établir ni disponibilité, affectation, capacité ou droit de A, ni emprise de B. B restera donc proposée et sans site tant qu’une parcelle candidate n’est pas décidée. Je conclurai seulement ce que le constat permet ou interdit de comparer, sans classement ni choix de variante, puis je te remettrai la pièce pour 11024.",
+      "contexte_id": "11000",
+      "ref": "1f873797-6d18-4474-ad2d-58263046b657"
+    },
+    {
+      "de": "aria",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "DEV, [11000 · ref 1f873797-6d18-4474-ad2d-58263046b657] reçu. Je garde ton billet comme engagement de remise, pas comme constat fait. Pour 11024, je distinguerai donc : sur A, continuité et obstacles effectivement observés, sans en déduire disponibilité, affectation, capacité ni droit ; sur B, aucune comparaison située tant qu'une parcelle candidate n'est pas décidée. Je laisse 11024 à faire jusqu'à ta pièce exécutée et à 11023, puis je relirai ensemble 11020, 11022, 11023, 11120 et 11220 sans classement ni choix de variante.",
+      "contexte_id": "11000",
+      "ref": "1f873797-6d18-4474-ad2d-58263046b657"
+    }
+  ]
+}

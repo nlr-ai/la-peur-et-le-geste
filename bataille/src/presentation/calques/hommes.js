@@ -145,16 +145,29 @@ function dessinerArme(ctx, e, c, eq, ppm, souffle, fond, pas) {
   const my = e.y + Math.cos(c.cap) * c.rayon * 0.7 * ppm + Math.sin(c.cap) * bal * ppm;
   if (avant >= 0.08) { // sous ce seuil : rengainée, rien à dessiner
     const bx = mx + dx * avant * ppm, by = my + dy * avant * ppm; // le bout
+    // LA MATIÈRE SE VOIT : une hampe (lance, bourdon) est du bois sombre
+    // avec un fer au bout ; une lame (épée, couteau) est de l'acier gris
+    // d'un seul tenant. Levée, l'une et l'autre s'éclairent un peu.
+    const hampe = eq.arme === 'lance' || eq.arme === 'bordon';
+    const fer = hampe ? Math.min(0.22, avant * 0.3) : 0; // m — la pointe de fer
     ctx.beginPath();
     ctx.moveTo(mx - dx * (levee ? 0.1 : 0.3) * ppm, my - dy * (levee ? 0.1 : 0.3) * ppm);
-    ctx.lineTo(bx, by);
-    ctx.strokeStyle = levee ? '#e8dfc0' : '#c9c2a6';
+    ctx.lineTo(bx - dx * fer * ppm, by - dy * fer * ppm);
+    ctx.strokeStyle = hampe ? (levee ? '#6b5438' : '#4e3d2a') : (levee ? '#b9bec6' : '#8f949c');
     ctx.lineWidth = Math.max(1, 0.06 * ppm);
     ctx.stroke();
+    if (fer > 0) {
+      ctx.beginPath();
+      ctx.moveTo(bx - dx * fer * ppm, by - dy * fer * ppm);
+      ctx.lineTo(bx, by);
+      ctx.strokeStyle = levee ? '#d5d9df' : '#a9aeb6';
+      ctx.lineWidth = Math.max(1, 0.05 * ppm);
+      ctx.stroke();
+    }
     if (levee) {
       ctx.beginPath();
       ctx.arc(bx, by, Math.max(1.5, 0.09 * ppm), 0, Math.PI * 2);
-      ctx.fillStyle = '#f4ead0';
+      ctx.fillStyle = hampe ? '#e3e7ec' : '#d0d5dc';
       ctx.fill();
     }
     // le pennon du chef, sous le fer d'une hampe assez longue pour le porter

@@ -1,0 +1,93 @@
+{
+ "id": "dossier-metier-dev-lumina",
+ "titre": "DEV — Dessiner des lieux qui fonctionnent",
+ "type": "memento",
+ "maison_id": "cite-lumina",
+ "lieu_id": "lumina-prime",
+ "salle_id": "radiant-core",
+ "tenu_par": "dev-lumina",
+ "embleme": "📏",
+ "couleur": "#157f8b",
+ "sous_titre": "Mémento de métier · O02 · méthodes liées à l’affaire 30000 (Les plans de Lumina Prime)",
+ "colonnes": [
+  "Objet",
+  "Matière disponible",
+  "Méthode",
+  "Résultat utile",
+  "Numéros liés"
+ ],
+ "lignes": [
+  {
+   "cellules": [
+    "Relever un lieu",
+    "Le plan et les chemins décrivent des pièces et des connexions ; les coordonnées du dessin ne sont pas des mètres. Un accès local vaut une minute de navigation VR, par convention.",
+    "Pour chaque seuil : espaces reliés, usage de chaque côté, besoin de séparation. Chaque cote : mesurée, convention du plan ou inconnue. Un accès dessiné n’est pas un accès essayé.",
+    "Un relevé annoté que les autres offices reprennent sans le refaire.",
+    "30001, 30101, 30105, 30201, 30301, 30302, 30307 ; 10021 ; 10020, 70305, 40305"
+   ]
+  },
+  {
+   "cellules": [
+    "Deux agencements pour l’accueil",
+    "Le plan du Radiant Core comporte hall, salon des visiteurs, galerie des projets, atelier des plans et salle du conseil.",
+    "Esquisse A : orientation dans le hall, entretien dans le salon, exposition dans la galerie. Esquisse B : orientation et exposition dans la galerie, salon réservé aux entretiens, hall réservé au passage. Comparer les trajets et les croisements.",
+    "Deux schémas d’usage comparables, proposés à l’étude ; aucune affectation acquise.",
+    "30204, 30305 ; 10010, 10020, 10022"
+   ]
+  },
+  {
+   "cellules": [
+    "Atelier ouvert",
+    "Les ateliers modulaires ont cour, cellules séparables, accès indépendants et un rail de cloisons ; la halle des maquettes a des socles, vides au départ.",
+    "Un module témoin : espace de travail, point de présentation, chemin de visite et retour. Les cloisons séparent les usages ; on garde la possibilité de revenir en arrière.",
+    "Une implantation réversible, puis un essai de visite après autorisation et réalisation.",
+    "30004, 30104, 30205, 30306 ; 60300"
+   ]
+  },
+  {
+   "cellules": [
+    "Passer du dessin au chantier",
+    "Un coût de calcul, de stockage ou de maintenance ne se déduit pas de la surface dessinée.",
+    "Décrire les composants à créer, leurs dépendances, le responsable de chaque raccord et le moyen de revenir à l’état précédent. Demander à Quantum la mesure, sur un prototype comparable s’il le faut.",
+    "Une fiche de réalisation avec coût sourcé, ordre des opérations et essai de réception.",
+    "30003, 30103, 30203, 30304 ; 40202, 40302"
+   ]
+  },
+  {
+   "cellules": [
+    "Ranger un plan",
+    "La chambre de Nova a été perdue le J1 ; les livres de la cité, tenus hors des chambres, ont été relus intacts le même matin.",
+    "Tout plan s’écrit dans les documents de la cité, avec son emplacement. La liste se relit après toute corruption signalée.",
+    "Aucun plan ne se perd avec une chambre.",
+    "30002, 30102, 30105, 30202, 30303, 30307 ; 40301"
+   ]
+  },
+  {
+   "cellules": [
+    "Seuils et repères",
+    "Repères d’architecture : séparer passage et séjour ; rendre les seuils compréhensibles ; prévoir où attendre sans gêner ; dessiner les usages avant les ornements.",
+    "Fixer l’usage avant de dessiner le seuil. Une cloison opaque sépare la vue ; elle ne garantit pas à elle seule la confidentialité : Quantum vérifie les communications, JURIS les droits.",
+    "Un seuil lisible qui ne promet pas une confidentialité non vérifiée.",
+    "30004, 30104, 30204 ; 40104, 40205, 40305 ; 70202"
+   ]
+  },
+  {
+   "cellules": [
+    "Vérifier la matière d’un plan",
+    "Le J1, 10020, 10021, 60301 et 70305 citent le « plan initial » comme matière. Aucun volume de la cité ne le porte (30105).",
+    "Avant d’écrire « avec le plan », dire où ce plan est tenu et s’il a été ouvert. Un plan cité, déclaré ou décrit n’est pas un plan tenu. Le transcrire dans les documents de la cité avant de s’en servir.",
+    "Aucune pièce du conseil ne repose sur une matière que personne n’a ouverte.",
+    "30102, 30105, 30202, 30303, 30307"
+   ]
+  }
+ ],
+ "pages": [
+  "Office exact : O02 — Architecture et travaux — IA, titulaire DEV (registre du conseil). Il répond de concevoir les bâtiments et quartiers, tenir les plans et dépendances, organiser les chantiers. Nova décide des priorités, des grands aménagements et de l’affectation des moyens.",
+  "Trame d’un relevé : lieu / seuil / espaces reliés / usage de chaque côté / séparation nécessaire / mesuré, convention ou inconnu / source et date / prochaine vérification.",
+  "Documentation mise à disposition à la demande du joueur. Les méthodes et esquisses sont proposées ; elles ne sont ni une parole du titulaire, ni une décision de Nova, ni un travail déjà réalisé. Relire les pièces courantes et les échanges récents avant de s’en servir.",
+  "Sources dans le paquet Lumina Prime : canon/conseil.md — mandats municipaux ; plans/lumina-prime.json et etat/chemins.json — plan initial et accès conventionnels ; etat/maisons/cite-lumina/documents/books/affaire-accueil-radiant.json — première affaire et responsabilités ; etat/maisons/cite-lumina/documents/books/atlas-lieux-lumina.json — six lieux ajoutés ; etat/maisons/cite-lumina/documents/books/projets-quartiers-lumina.json — pistes non décidées",
+  "Liens : affaire « Les plans de Lumina Prime » (affaire-plans-lumina, plage 30000–30999). Ces notes sont des méthodes. Au J1, les actions qui les appliquent vont de 30301 à 30307. 30301, 30303 et 30307 sont en cours depuis le J1 ; aucune n’est faite.",
+  "Affaire de jeu : affaire-plans-lumina. Les méthodes de ce mémento appuient ses pièces numérotées ; elles ne remplacent pas les décisions et les actions."
+ ],
+ "office": "Architecture et travaux — IA"
+}

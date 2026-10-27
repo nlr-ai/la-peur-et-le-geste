@@ -1,0 +1,527 @@
+{
+  "id": "affaire-ned-gowan",
+  "titre": "Les affaires de ned-gowan",
+  "sous_titre": "Cahier stratégique personnel — préparation du monde et conduite de mes affaires",
+  "type": "affaire",
+  "tenu_par": "ned-gowan",
+  "acteur_id": "ned-gowan",
+  "prive": true,
+  "pages": [
+    "Une affaire durable par PNJ qui porte une stratégie. Plusieurs fins peuvent y coexister. Les catégories décrivent les dimensions à peindre, pas huit objectifs obligatoires. Ce cahier de simulation n’est pas la preuve d’un carnet physiquement fabriqué.",
+    "Je peux établir en préparation les détails ordinaires, personnes secondaires, objets, lieux, habitudes et ressources plausibles nécessaires à mon implantation, sans contredire le canon ni les faits acquis. Je marque chaque ajout comme peint. Un ajout conséquent doit avoir une provenance, des limites, des liens et des conséquences cohérents ; je ne fais pas surgir le moyen décisif qui efface mon problème. Un autre personnage reçoit sa fiche et sa propre session avant toute parole, décision ou action jouée.",
+    "Établi, peint, hypothèse, inconnu sont des statuts distincts. Peindre un état initial n’accomplit pas une action future. Fabriquer pendant le jeu exige matériaux, outils, compétence et durée ; une issue dépendant d’autrui reste ouverte. Mes croyances restent distinctes de la réalité, même si ma session contribue à préparer le monde.",
+    "Les adresses C.1, V.1, K.1 et P.1 sont locales à ce cahier. Ne pas inventer de numéro global ; utiliser les outils d’adressage si un contexte global est nécessaire. Les trous ci-dessous sont écrits par moi ; ils ne remplacent pas les trous calculés du graphe."
+  ],
+  "tables": [
+    {
+      "titre": "Ouverture",
+      "colonnes": [
+        "Champ",
+        "Contenu"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Porteur",
+            "ned-gowan"
+          ]
+        },
+        {
+          "cellules": [
+            "Périmètre",
+            "Préserver les intérêts du clan en distinguant les faits établis, les droits invoqués et les engagements réellement autorisés ; tenir mes instruments de travail en ordre et ne jamais engager le clan de ma seule initiative."
+          ]
+        },
+        {
+          "cellules": [
+            "État de préparation",
+            "Implantation ordinaire et stratégie initiale posées le 4e jour de la 5e lune 1743 à 10 h ; aucune revue, demande, remise de note ou décision d’autrui n’est encore accomplie."
+          ]
+        },
+        {
+          "cellules": [
+            "Registre compagnon",
+            "registre-etats-ned-gowan"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dimensions à peindre",
+      "colonnes": [
+        "Catégorie",
+        "Ce que je pose",
+        "Statut",
+        "Source ou provenance",
+        "Renvois"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "fins-et-doctrine",
+            "Je veux que tout engagement présenté au nom des MacKenzie repose sur une autorité identifiable, des termes intelligibles et une preuve conservable. Je conseille et rédige ; je ne décide ni ne promets à la place de Colum.",
+            "peint",
+            "Choix stratégique de Ned, appuyé sur son titre, ses traits et son objectif établis",
+            "C.1 ; C.2 ; C.3"
+          ]
+        },
+        {
+          "cellules": [
+            "personnes-et-relations",
+            "Je sers Colum comme juriste et travaille avec Dougal. Ces liens autorisent le conseil et la demande de précisions dans mon office ; ils ne valent ni ordre nouveau, ni accord, ni accès universel aux affaires de l’un ou de l’autre.",
+            "établi",
+            "etat/relations.json",
+            "V.1 ; K.2 ; P.2"
+          ]
+        },
+        {
+          "cellules": [
+            "pouvoir-et-acces",
+            "Je suis libre et présent à Leoch. J’ai accès à mon lieu de travail, à mon nécessaire et aux pièces effectivement remises à mon examen. Les archives, sceaux, fonds, hommes et décisions du clan restent sous l’autorité de leurs détenteurs.",
+            "établi et peint",
+            "etat/personnages.json ; etat/relations.json ; limites peintes de l’implantation",
+            "M.1 ; M.2 ; V.1 ; V.2"
+          ]
+        },
+        {
+          "cellules": [
+            "moyens-materiels",
+            "Je dispose d’effets personnels convenables mais modestes, d’un nécessaire portatif d’écriture et d’un portefeuille de travail. Le contenu juridique précis des pièces confiées n’est pas inventé ; aucun sceau du clan, somme, cheval ni preuve décisive ne m’est attribué.",
+            "peint",
+            "Implantation ordinaire plausible d’un juriste en service à Leoch, avec limites explicites",
+            "M.2 ; M.3 ; R.2 ; R.4"
+          ]
+        },
+        {
+          "cellules": [
+            "savoirs-et-secrets",
+            "Je sais lire, comparer, résumer et rédiger dans l’exercice ordinaire de mon office, sans que soient établis ici langues, diplômes ou juridictions supplémentaires. J’ignore l’arrivée d’Aurore et Nicolas, l’origine temporelle de Claire et le contenu de tout secret non reçu.",
+            "établi et inconnu",
+            "Titre et manière dans etat/personnages.json ; ignorances dans etat/intentions.json",
+            "V.2 ; T.3 ; Connaissances et croyances"
+          ]
+        },
+        {
+          "cellules": [
+            "engagements-et-temps",
+            "Ma journée ordinaire comporte des plages de lecture, rédaction, classement et disponibilité à Leoch. Ma première revue et la demande qui peut la suivre courent sur les deux prochains jours ; elles ne valent pas travail accompli.",
+            "peint",
+            "Routine professionnelle préparée le 4e jour de la 5e lune 1743 ; intentions exécutables",
+            "P.1 ; P.2 ; etat/routines.json"
+          ]
+        },
+        {
+          "cellules": [
+            "strategie-et-alternatives",
+            "D’abord inventorier seulement ce qui m’est effectivement accessible ; ensuite séparer faits, autorité, termes, preuve et lacunes dans une note bornée à soumettre à Colum. Si une source ou un accès manque, je marque l’inconnu et m’abstiens de conclure.",
+            "peint",
+            "Choix méthodique et prudent de Ned en préparation hors scène",
+            "Stratégie et alternatives ; P.1 ; P.2"
+          ]
+        },
+        {
+          "cellules": [
+            "zones-a-peindre",
+            "Restent inconnus : la pièce exacte où je loge, le contenu et le nombre des dossiers confiés, les archives et sceaux auxquels j’ai réellement accès, mes fonds disponibles, toute priorité nouvelle de Colum ou Dougal et les routes hors de Leoch.",
+            "inconnu",
+            "Absence de détail dans les autorités consultées",
+            "T.1 à T.6"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "N°",
+        "L'état visé",
+        "Ce qui doit être vrai",
+        "La preuve",
+        "Jour dû",
+        "Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "C.1",
+            "Préserver le clan d’un engagement mal fondé",
+            "Tout projet que j’examine distingue l’autorité de celui qui engage, les parties, les termes, les conditions de preuve et ce qui reste inconnu.",
+            "Instrument ou avis effectivement rédigé, relu et relié à ses sources ; aucune preuve n’est créée par le cahier.",
+            "Permanent",
+            "1 — impératif"
+          ]
+        },
+        {
+          "cellules": [
+            "C.2",
+            "Établir l’état de mes dossiers accessibles",
+            "Les pièces déjà sous ma garde ou effectivement remises sont classées comme original, copie, brouillon ou simple note, avec leurs lacunes signalées.",
+            "Inventaire de travail effectivement achevé ; les dossiers absents restent signalés comme inconnus.",
+            "5e jour de la 5e lune 1743",
+            "2 — haute"
+          ]
+        },
+        {
+          "cellules": [
+            "C.3",
+            "Obtenir un mandat borné pour la suite",
+            "Colum a reçu mes questions vérifiées et a pu fixer lui-même les priorités et limites de mon travail.",
+            "Demande effectivement remise ; toute réponse, absence ou refus constaté dans la session de Colum.",
+            "6e jour de la 5e lune 1743",
+            "3 — nécessaire"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": [
+        "N°",
+        "Le verrou",
+        "Bloque",
+        "La preuve"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "V.1",
+            "Mon office conseille le chef du clan mais ne me donne pas le pouvoir d’engager les MacKenzie ni d’ouvrir toutes leurs archives.",
+            "C.1 ; C.3",
+            "Titre et relations établis ; aucune délégation générale ni autorisation nouvelle dans l’état."
+          ]
+        },
+        {
+          "cellules": [
+            "V.2",
+            "Le contenu, l’authenticité et l’exhaustivité des pièces actuellement accessibles ne sont pas établis.",
+            "C.1 ; C.2",
+            "Aucun inventaire joué, stock d’archives ou instrument précis n’existe dans les autorités consultées."
+          ]
+        },
+        {
+          "cellules": [
+            "V.3",
+            "Les priorités présentes de Colum et les affaires que Dougal pourrait vouloir soumettre sont inconnues.",
+            "C.3",
+            "Aucune instruction, demande ou réponse future n’a été jouée."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "N°",
+        "La clef",
+        "Ouvre",
+        "Prix et limites"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "K.1",
+            "Ma méthode de revue : provenance, autorité, parties, termes, témoins ou copies, échéance et lacunes",
+            "V.2 ; C.1 ; C.2",
+            "Elle ordonne ce qui est accessible mais ne rend pas authentique une pièce douteuse et ne remplace aucune source manquante."
+          ]
+        },
+        {
+          "cellules": [
+            "K.2",
+            "Une demande concise adressée à Colum après la revue",
+            "V.1 ; V.3 ; C.3",
+            "Colum seul répond et décide ; sa présence, son temps, son accord et toute délégation restent ouverts."
+          ]
+        },
+        {
+          "cellules": [
+            "K.3",
+            "La collaboration établie avec Dougal",
+            "Peut fournir une affaire ou une précision utile à C.1",
+            "Ne présume ni information, ni accord, ni droit d’agir en son nom ; toute demande ou réponse exige sa session."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "N°",
+        "L'action",
+        "Réalise",
+        "Dépend de",
+        "Qui",
+        "Où",
+        "La preuve",
+        "État",
+        "Jour dû",
+        "Jour fait",
+        "Note"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "P.1",
+            "Au prochain temps de travail, inventorier les pièces effectivement sous ma garde ou remises à mon examen, en séparant originaux, copies, brouillons, simples notes et lacunes.",
+            "K.1 ; C.2",
+            "Accès à mon portefeuille et aux seules pièces réellement confiées",
+            "Ned",
+            "Lieu de travail ordinaire à Leoch",
+            "Revue effectivement accomplie et inventaire produit ; l’absence de pièce ou d’accès est un résultat possible, non une permission inventée.",
+            "prévue — non commencée",
+            "5e jour de la 5e lune 1743",
+            "",
+            "Ne consulter ni archive ni dossier non autorisé ; ne conclure ni authenticité ni obligation sans source."
+          ]
+        },
+        {
+          "cellules": [
+            "P.2",
+            "À partir de l’inventaire achevé, rédiger une note brève séparant faits, droits invoqués, engagements, preuves et questions, puis demander à Colum de fixer les priorités et limites de la suite.",
+            "K.2 ; C.3",
+            "P.1 faite ; une note matériellement préparée ; présence et disponibilité réelles de Colum pour la remise",
+            "Ned",
+            "Leoch",
+            "Note effectivement préparée et demande effectivement remise ; réponse, refus ou absence constaté séparément par la session de Colum.",
+            "prévue — dépendante",
+            "6e jour de la 5e lune 1743",
+            "",
+            "Si Colum n’est pas disponible, conserver la note, ne pas présumer sa décision et poursuivre seulement le classement autorisé."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Stratégie et alternatives",
+      "colonnes": [
+        "Fin",
+        "Approche",
+        "Pourquoi",
+        "Alternative",
+        "Changer si",
+        "Moyens engagés"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Préserver les intérêts juridiques du clan",
+            "Réduire d’abord l’incertitude sur les pièces accessibles, puis soumettre à Colum uniquement des questions bornées et vérifiables.",
+            "Un avis solide exige de savoir ce qui est fait, ce qui est seulement affirmé et qui possède l’autorité de promettre.",
+            "Si les pièces manquent, dresser la liste exacte des sources à obtenir ; si Colum est indisponible, conserver la note et ne rien engager.",
+            "Pièce contradictoire, source absente, restriction d’accès, instruction expresse de Colum ou nouvelle demande de Dougal.",
+            "Temps professionnel, compétence ordinaire, nécessaire d’écriture et documents effectivement confiés ; aucun bien du clan engagé."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Moyens disponibles",
+      "colonnes": [
+        "Référence",
+        "Nature",
+        "Accès réel",
+        "Quantité ou portée",
+        "Limites",
+        "Provenance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "M.1",
+            "Office et méthode juridiques",
+            "Par mon service établi auprès des MacKenzie",
+            "Lire, comparer, résumer et rédiger les instruments ou avis réellement confiés",
+            "Ne donne ni pouvoir de décision, ni juridiction universelle, ni connaissance d’un fait non sourcé.",
+            "etat/personnages.json ; etat/relations.json"
+          ]
+        },
+        {
+          "cellules": [
+            "M.2",
+            "Nécessaire portatif d’écriture",
+            "Avec Ned ou rangé à son lieu de travail",
+            "Plumes, petite réserve d’encre, sable ou poudre de séchage, cire ordinaire, ficelle, feuilles et retailles en quantité de travail modeste",
+            "Consommables limités ; aucun sceau du clan, presse, papier abondant ou moyen de duplication rapide.",
+            "Ajout peint d’implantation ordinaire, 4 mai 1743"
+          ]
+        },
+        {
+          "cellules": [
+            "M.3",
+            "Portefeuille ou boîte de travail",
+            "Sous la garde ordinaire de Ned dans Leoch",
+            "Contient les fournitures et les pièces effectivement confiées, sans contenu juridique précis présumé",
+            "Protection contre le désordre et l’humidité ordinaire, non coffre inviolable ; ne constitue aucune preuve par lui-même.",
+            "Ajout peint d’implantation ordinaire, 4 mai 1743"
+          ]
+        },
+        {
+          "cellules": [
+            "M.4",
+            "Relations avec Colum et Dougal",
+            "Conseil auprès de Colum ; collaboration avec Dougal",
+            "Permet de demander des faits, limites ou instructions lorsqu’ils sont réellement accessibles",
+            "N’impose aucune audience, réponse, approbation ou communication de secret.",
+            "etat/relations.json"
+          ]
+        },
+        {
+          "cellules": [
+            "M.5",
+            "Présence libre à Leoch",
+            "Ned est actif, libre et situé à Leoch",
+            "Accès aux espaces ordinaires de logement et de travail qui lui sont effectivement admis",
+            "Ne vaut ni accès universel au château, ni libre usage des ressources du clan.",
+            "etat/personnages.json"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Trous de préparation",
+      "colonnes": [
+        "Trou",
+        "Catégorie",
+        "Ce qui en dépend",
+        "Traitement",
+        "Qui",
+        "Échéance",
+        "État",
+        "Résultat"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "T.1 — logement et emplacement exacts du travail",
+            "définir",
+            "Localisation fine des effets et documents",
+            "Conserver un logement et un lieu de travail ordinaires dans Leoch sans fixer de chambre privilégiée ; préciser seulement si une scène l’exige.",
+            "Préparation avec Ned",
+            "Avant toute scène dépendant de cette précision",
+            "ouvert",
+            "R.3 et R.4 posent seulement les fonctions et limites."
+          ]
+        },
+        {
+          "cellules": [
+            "T.2 — contenu et nombre des dossiers confiés",
+            "chercher",
+            "C.1 ; C.2 ; P.1",
+            "Examiner uniquement les pièces réellement accessibles pendant P.1 ; accepter qu’il n’y ait aucun dossier pertinent.",
+            "Ned",
+            "5 mai 1743",
+            "ouvert",
+            "Aucun instrument précis inventé."
+          ]
+        },
+        {
+          "cellules": [
+            "T.3 — authenticité, témoins et force de chaque pièce",
+            "chercher",
+            "C.1",
+            "Remonter à la pièce, au témoin ou au détenteur pertinent après identification ; ne pas transformer une copie en preuve.",
+            "Ned puis source pertinente",
+            "Après P.1, selon les lacunes",
+            "ouvert",
+            "Inconnu."
+          ]
+        },
+        {
+          "cellules": [
+            "T.4 — priorités et limites voulues par Colum",
+            "obtenir",
+            "C.3 ; P.2",
+            "P.2 prévoit une demande ; sa réponse, son refus ou son silence exige la session de Colum.",
+            "Ned puis Colum",
+            "6 mai 1743",
+            "ouvert",
+            "Aucune décision présumée."
+          ]
+        },
+        {
+          "cellules": [
+            "T.5 — affaires que Dougal pourrait soumettre",
+            "obtenir",
+            "C.1",
+            "Attendre une demande réelle, puis faire préciser faits et autorité dans les sessions concernées.",
+            "Dougal puis Ned",
+            "Sans échéance présumée",
+            "ouvert",
+            "Aucune demande créée."
+          ]
+        },
+        {
+          "cellules": [
+            "T.6 — fonds, monture et routes hors de Leoch",
+            "définir ou chercher",
+            "Toute dépense, mission ou déplacement futur",
+            "Établir avant usage ; ne rien déduire du seul office de juriste.",
+            "Ned",
+            "Avant engagement",
+            "ouvert",
+            "Inconnu."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Connaissances et croyances",
+      "colonnes": [
+        "Sujet",
+        "Ce que je crois",
+        "Source reçue",
+        "Ce que j’ignore",
+        "Référence de réalité"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Ma situation",
+            "Je suis juriste au service des MacKenzie, libre et présent à Leoch.",
+            "Expérience vécue ; ma-memoire",
+            "La durée de tout mandat futur et les limites que Colum fixera à une affaire nouvelle.",
+            "etat/personnages.json ; etat/intentions.json"
+          ]
+        },
+        {
+          "cellules": [
+            "Ma méthode",
+            "Un engagement n’est solide que si l’autorité, les termes et les moyens de preuve peuvent être distingués des simples affirmations.",
+            "Pratique et doctrine personnelles peintes",
+            "Ce que révélera la revue des pièces effectivement accessibles.",
+            "Affaire K.1 ; registre R.5"
+          ]
+        },
+        {
+          "cellules": [
+            "Claire",
+            "Je ne connais pas son origine temporelle.",
+            "Aucune information reçue sur ce point",
+            "Son époque d’origine et ce qu’elle sait ou tait.",
+            "etat/intentions.json — ignorance explicite"
+          ]
+        },
+        {
+          "cellules": [
+            "Aurore et Nicolas",
+            "Je ne les connais pas.",
+            "Aucune information reçue",
+            "Leur arrivée, identité, lien, possessions, compétences et intentions.",
+            "etat/intentions.json — ignorance explicite"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Résultats et révisions",
+      "colonnes": [
+        "Date",
+        "Fait ou découverte",
+        "Preuve",
+        "Ce que je change",
+        "Renvois"
+      ],
+      "lignes": []
+    }
+  ]
+}

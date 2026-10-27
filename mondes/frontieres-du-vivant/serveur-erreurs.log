@@ -1,0 +1,26 @@
+Le monde 3D de Peyredragon est PÉRIMÉ : 4 sources plus récentes que monde/peyredragon.maillage.json (scripts/materialisation/exporter.py, scripts/materialisation/vues.py, scripts/materialisation/programme.py, scripts/materialisation/peyredragon.py) — relancez : python scripts/monde/peyredragon.py
+Traceback (most recent call last):
+  File "C:\Users\reyno\le-conseil2\scripts\presence.py", line 39, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\reyno\le-conseil2\scripts\temps\presence_quartier.py", line 224, in main
+    chateau = Chateau(chemins)
+  File "C:\Users\reyno\le-conseil2\scripts\temps\presence.py", line 114, in __init__
+    self.alias = chemins.get("alias") or {}
+                 ^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+GET /books — bibliothèque indisponible : ENOENT: no such file or directory, open 'C:\Users\reyno\le-conseil2\mondes\frontieres-du-vivant\etat\books.json'
+Traceback (most recent call last):
+  File "C:\Users\reyno\le-conseil2\scripts\presence.py", line 39, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\reyno\le-conseil2\scripts\temps\presence_quartier.py", line 224, in main
+    chateau = Chateau(chemins)
+  File "C:\Users\reyno\le-conseil2\scripts\temps\presence.py", line 114, in __init__
+    self.alias = chemins.get("alias") or {}
+                 ^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+GET /books — bibliothèque indisponible : ENOENT: no such file or directory, open 'C:\Users\reyno\le-conseil2\mondes\frontieres-du-vivant\etat\books.json'
+GET /books — bibliothèque indisponible : ENOENT: no such file or directory, open 'C:\Users\reyno\le-conseil2\mondes\frontieres-du-vivant\etat\books.json'
+GET /books — bibliothèque indisponible : ENOENT: no such file or directory, open 'C:\Users\reyno\le-conseil2\mondes\frontieres-du-vivant\etat\books.json'
+GET /books — bibliothèque indisponible : ENOENT: no such file or directory, open 'C:\Users\reyno\le-conseil2\mondes\frontieres-du-vivant\etat\books.json'

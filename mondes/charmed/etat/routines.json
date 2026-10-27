@@ -1,0 +1,640 @@
+{
+ "_": "Les journées des habitants. Une bande = {de, a, salle, lieu} en minutes 0-1439. Fichier technique, hors docs/schema.md. Les salles hors du plan (p3, services-sociaux…) sont au loin jusqu'au lot 4.",
+ "peremption_minutes": 240,
+ "modeles": {
+  "piper": {
+   "nom": "Le jour de Piper",
+   "dortoir": {
+    "salle": "chambre-piper",
+    "lieu": "La chambre de Piper et Leo, Prescott Street"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 480,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 480,
+     "a": 600,
+     "salle": "cuisine",
+     "lieu": "La cuisine, Prescott Street"
+    },
+    {
+     "de": 600,
+     "a": 1080,
+     "salle": "salon",
+     "lieu": "Le Manoir, Prescott Street"
+    },
+    {
+     "de": 1080,
+     "a": 1440,
+     "salle": "p3",
+     "lieu": "Le P3"
+    }
+   ]
+  },
+  "paige": {
+   "nom": "Le jour de Paige",
+   "dortoir": {
+    "salle": "appartement-paige",
+    "lieu": "Son appartement"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 480,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 510,
+     "a": 1050,
+     "salle": "services-sociaux",
+     "lieu": "South Bay Social Services",
+     "ferme": true,
+     "pourquoi": "son travail chez M. Cowan"
+    },
+    {
+     "de": 1050,
+     "a": 1260,
+     "salle": "salon",
+     "lieu": "Le Manoir, Prescott Street"
+    },
+    {
+     "de": 1260,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  },
+  "leo": {
+   "nom": "Le jour de Leo",
+   "dortoir": {
+    "salle": "chambre-piper",
+    "lieu": "La chambre de Piper et Leo, Prescott Street"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 420,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 420,
+     "a": 720,
+     "salle": "cuisine",
+     "lieu": "La cuisine, Prescott Street"
+    },
+    {
+     "de": 720,
+     "a": 900,
+     "salle": "le-haut",
+     "lieu": "Là-haut",
+     "pourquoi": "les Fondateurs et ses autres protégés"
+    },
+    {
+     "de": 900,
+     "a": 1320,
+     "salle": "grenier",
+     "lieu": "Le grenier, Prescott Street"
+    },
+    {
+     "de": 1320,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  },
+  "cole": {
+   "nom": "Le jour de Cole",
+   "dortoir": {
+    "salle": "chambre-phoebe",
+    "lieu": "La chambre de Phoebe, Prescott Street"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 450,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 450,
+     "a": 1380,
+     "salle": "salon",
+     "lieu": "Le salon, Prescott Street",
+     "pourquoi": "il reprend des forces"
+    },
+    {
+     "de": 1380,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  },
+  "oracle": {
+   "nom": "La nuit de l'Oracle",
+   "dortoir": {
+    "salle": "antre-de-l-oracle",
+    "lieu": "L'antre de l'Oracle, les Enfers"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 360,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 360,
+     "a": 1440,
+     "salle": "antre-de-l-oracle",
+     "lieu": "L'antre de l'Oracle, au bassin"
+    }
+   ]
+  },
+  "darryl": {
+   "nom": "Le jour de Darryl",
+   "dortoir": {
+    "salle": "maison-darryl",
+    "lieu": "Chez lui"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 450,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 480,
+     "a": 1140,
+     "salle": "commissariat",
+     "lieu": "Le commissariat central",
+     "ferme": true,
+     "pourquoi": "le service"
+    },
+    {
+     "de": 1140,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  },
+  "patty": {
+   "nom": "L'ailleurs de Patty",
+   "dortoir": {
+    "salle": "l-au-dela",
+    "lieu": "L'au-delà"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ],
+   "_": "Esprit : elle ne vient que si on l'appelle. Sa présence au grenier le 9.10 au soir vaut jusqu'à péremption, puis elle retourne ici."
+  },
+  "meute": {
+   "nom": "La garde de la meute",
+   "dortoir": {
+    "salle": "les-galeries",
+    "lieu": "Les galeries, les Enfers"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 360,
+     "salle": "toits-pacific-heights",
+     "lieu": "Les toits de Pacific Heights, face au Manoir",
+     "ferme": true,
+     "pourquoi": "le guet de nuit"
+    },
+    {
+     "de": 360,
+     "a": 480,
+     "salle": "les-galeries",
+     "lieu": "Les galeries, les Enfers",
+     "pourquoi": "rendre compte et dormir"
+    },
+    {
+     "de": 480,
+     "a": 600,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 600,
+     "a": 1440,
+     "salle": "toits-pacific-heights",
+     "lieu": "Les toits de Pacific Heights, face au Manoir",
+     "ferme": true,
+     "pourquoi": "le guet"
+    }
+   ]
+  },
+  "vesk": {
+   "nom": "La ronde de Vesk",
+   "dortoir": {
+    "salle": "les-galeries",
+    "lieu": "Les galeries, les Enfers"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 480,
+     "salle": "appartement-cole",
+     "lieu": "Devant l'appartement de Cole",
+     "ferme": true,
+     "pourquoi": "le guet"
+    },
+    {
+     "de": 480,
+     "a": 840,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 840,
+     "a": 1440,
+     "salle": "appartement-cole",
+     "lieu": "Devant l'appartement de Cole",
+     "ferme": true,
+     "pourquoi": "le guet"
+    }
+   ]
+  },
+  "varek": {
+   "nom": "Le service de Varek",
+   "dortoir": {
+    "salle": "les-galeries",
+    "lieu": "Les galeries, les Enfers"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 300,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 300,
+     "a": 480,
+     "salle": "les-galeries",
+     "lieu": "Les galeries, les Enfers",
+     "pourquoi": "recueillir ce qui remonte"
+    },
+    {
+     "de": 480,
+     "a": 720,
+     "salle": "salle-de-la-source",
+     "lieu": "La salle de la Source",
+     "ferme": true,
+     "pourquoi": "le rapport du matin, puis les ordres"
+    },
+    {
+     "de": 720,
+     "a": 1080,
+     "salle": "les-galeries",
+     "lieu": "Les galeries, les Enfers",
+     "pourquoi": "porter les ordres"
+    },
+    {
+     "de": 1080,
+     "a": 1440,
+     "salle": "salle-de-la-source",
+     "lieu": "La salle de la Source",
+     "pourquoi": "à portée de voix"
+    }
+   ]
+  },
+  "kazhar": {
+   "nom": "Les nuits de Kazhar",
+   "dortoir": {
+    "salle": "les-galeries",
+    "lieu": "Ses galeries, les Enfers"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 600,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 600,
+     "a": 1200,
+     "salle": "les-galeries",
+     "lieu": "Ses galeries, les Enfers",
+     "pourquoi": "son clan"
+    },
+    {
+     "de": 1200,
+     "a": 1440,
+     "salle": "les-galeries",
+     "lieu": "Ses galeries, les Enfers",
+     "ferme": true,
+     "pourquoi": "les visites"
+    }
+   ]
+  },
+  "glaneuse": {
+   "nom": "La journée de la Glaneuse",
+   "dortoir": {
+    "salle": "salon-de-la-glaneuse",
+    "lieu": "Le salon de médium, Russian Hill"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 480,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 600,
+     "a": 1020,
+     "salle": "salon-de-la-glaneuse",
+     "lieu": "Le salon de médium, Russian Hill",
+     "ferme": true,
+     "pourquoi": "les consultations"
+    },
+    {
+     "de": 1200,
+     "a": 1440,
+     "salle": "cimetiere",
+     "lieu": "Le cimetière",
+     "pourquoi": "les tombes fraîches"
+    }
+   ]
+  },
+  "ezra": {
+   "nom": "La journée d'Ezra Vane",
+   "dortoir": {
+    "salle": "planque-ezra",
+    "lieu": "Son appartement de Noe Valley"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 420,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 540,
+     "a": 1020,
+     "salle": "services-sociaux",
+     "lieu": "South Bay Social Services",
+     "pourquoi": "bénévole — une fois accepté"
+    },
+    {
+     "de": 1020,
+     "a": 1260,
+     "salle": "planque-ezra",
+     "lieu": "Son appartement, devant le cristal",
+     "pourquoi": "scruter"
+    },
+    {
+     "de": 1260,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  },
+  "cowan": {
+   "nom": "Le jour de M. Cowan",
+   "dortoir": {
+    "salle": "domicile-cowan",
+    "lieu": "Chez lui"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 420,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 480,
+     "a": 1140,
+     "salle": "services-sociaux",
+     "lieu": "South Bay Social Services",
+     "ferme": true,
+     "pourquoi": "le service"
+    },
+    {
+     "de": 1140,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  },
+  "gil": {
+   "nom": "Les nuits de Gil",
+   "dortoir": {
+    "salle": "domicile-gil",
+    "lieu": "Chez lui"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 120,
+     "salle": "p3",
+     "lieu": "Le P3",
+     "ferme": true,
+     "pourquoi": "la fermeture"
+    },
+    {
+     "de": 150,
+     "a": 720,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 1020,
+     "a": 1440,
+     "salle": "p3",
+     "lieu": "Le P3",
+     "ferme": true,
+     "pourquoi": "le club"
+    }
+   ]
+  },
+  "fondateur": {
+   "nom": "Là-haut",
+   "dortoir": {
+    "salle": "le-haut",
+    "lieu": "Là-haut"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 1440,
+     "salle": "le-haut",
+     "lieu": "Là-haut"
+    }
+   ]
+  },
+  "morne": {
+   "nom": "Les nuits de Morne",
+   "dortoir": {
+    "salle": "cimetiere",
+    "lieu": "Sous le cimetière, dans les caveaux"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 300,
+     "salle": "cimetiere",
+     "lieu": "Sous le cimetière, dans les caveaux",
+     "pourquoi": "rôder sous les maisons"
+    },
+    {
+     "de": 300,
+     "a": 1200,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 1200,
+     "a": 1440,
+     "salle": "cimetiere",
+     "lieu": "Sous le cimetière, dans les caveaux",
+     "pourquoi": "rôder"
+    }
+   ]
+  },
+  "greffier": {
+   "nom": "Le jour du Greffier",
+   "dortoir": {
+    "salle": "les-cavernes",
+    "lieu": "Le greffe, dans les cavernes des Enfers"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 360,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 480,
+     "a": 1020,
+     "salle": "les-cavernes",
+     "lieu": "Le greffe, dans les cavernes des Enfers",
+     "ferme": true,
+     "pourquoi": "les registres"
+    },
+    {
+     "de": 1020,
+     "a": 1440,
+     "salle": "les-cavernes",
+     "lieu": "Le greffe, dans les cavernes des Enfers"
+    }
+   ]
+  },
+  "liseur": {
+   "nom": "Les veilles du Liseur",
+   "dortoir": {
+    "salle": "les-cavernes",
+    "lieu": "La salle aux miroirs, dans les cavernes des Enfers"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 600,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 600,
+     "a": 1440,
+     "salle": "les-cavernes",
+     "lieu": "La salle aux miroirs, dans les cavernes des Enfers",
+     "pourquoi": "lire"
+    }
+   ]
+  },
+  "courtier": {
+   "nom": "Le comptoir du Courtier",
+   "dortoir": {
+    "salle": "les-cavernes",
+    "lieu": "Le comptoir d'ambre, dans les cavernes des Enfers"
+   },
+   "bandes": [
+    {
+     "de": 0,
+     "a": 420,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 540,
+     "a": 1080,
+     "salle": "les-cavernes",
+     "lieu": "Le comptoir d'ambre, dans les cavernes des Enfers",
+     "ferme": true,
+     "pourquoi": "les dépôts"
+    },
+    {
+     "de": 1080,
+     "a": 1440,
+     "salle": "les-cavernes",
+     "lieu": "Le comptoir d'ambre, dans les cavernes des Enfers"
+    }
+   ]
+  }
+ },
+ "gens": {
+  "piper-halliwell": {
+   "modele": "piper"
+  },
+  "paige-matthews": {
+   "modele": "paige"
+  },
+  "leo-wyatt": {
+   "modele": "leo"
+  },
+  "cole-turner": {
+   "modele": "cole"
+  },
+  "l-oracle": {
+   "modele": "oracle"
+  },
+  "darryl-morris": {
+   "modele": "darryl"
+  },
+  "patty-halliwell": {
+   "modele": "patty"
+  },
+  "malek-le-veneur": {
+   "modele": "meute"
+  },
+  "tarn": {
+   "modele": "meute"
+  },
+  "vesk": {
+   "modele": "vesk"
+  },
+  "varek": {
+   "modele": "varek"
+  },
+  "kazhar": {
+   "modele": "kazhar"
+  },
+  "la-glaneuse": {
+   "modele": "glaneuse"
+  },
+  "ezra-vane": {
+   "modele": "ezra"
+  },
+  "m-cowan": {
+   "modele": "cowan"
+  },
+  "gil-navarro": {
+   "modele": "gil"
+  },
+  "fondateur-porte-parole": {
+   "modele": "fondateur"
+  },
+  "morne-le-charognard": {
+   "modele": "morne"
+  },
+  "le-greffier": {
+   "modele": "greffier"
+  },
+  "le-liseur": {
+   "modele": "liseur"
+  },
+  "le-courtier": {
+   "modele": "courtier"
+  }
+ }
+}

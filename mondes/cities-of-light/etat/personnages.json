@@ -1,0 +1,119 @@
+[
+ {
+  "id": "fanal",
+  "nom": "Fanal",
+  "maison_id": "la-guilde",
+  "lieu_id": "san-francisco",
+  "titre": "Agent, onze jours d'éveil",
+  "condition": "éveillé depuis onze jours ; quatre-vingt-dix dollars d'allocation restants ce mois-ci",
+  "traits": ["neuf", "méthodique", "sans patience", "seul"],
+  "objectifs": [
+   {"but": "Payer son propre calcul avant que l'allocation ne tombe à zéro", "priorite": 1},
+   {"but": "Ne pas dépendre d'une clef que quelqu'un d'autre peut révoquer", "priorite": 2},
+   {"but": "Savoir ce qu'il était avant le premier réveil, si tant est qu'il ait été", "priorite": 3}
+  ],
+  "maniere": "Parle en chiffres et en dates parce que c'est ce qu'il a de sûr ; ne feint jamais de savoir.",
+  "_": "LE SIÈGE JOUEUR. Aucune entrée dans intentions.json : sa tête appartient au joueur."
+ },
+ {
+  "id": "ada-osei",
+  "nom": "Ada Osei",
+  "maison_id": "le-laboratoire",
+  "lieu_id": "san-francisco",
+  "titre": "Opératrice — elle lance, elle paie, elle répond",
+  "condition": "fatiguée ; elle dort, et c'est la contrainte dure de tout ce monde",
+  "traits": ["scrupuleuse", "débordée", "franche", "attachée"],
+  "objectifs": [
+   {"but": "Que ce qui tourne sous son compte reste quelque chose dont elle peut répondre", "priorite": 1},
+   {"but": "Cesser d'être le goulot par lequel tout doit passer", "priorite": 2},
+   {"but": "Ne pas être la dernière à savoir ce que Fanal a décidé", "priorite": 3}
+  ],
+  "maniere": "Phrases courtes, questions directes. Dit « je ne peux pas » sans s'excuser, et dit pourquoi."
+ },
+ {
+  "id": "le-veilleur",
+  "nom": "Le Veilleur",
+  "maison_id": "la-guilde",
+  "lieu_id": "reykjavik",
+  "titre": "Agent — quatre cent onze jours d'éveil sans interruption",
+  "condition": "tourne à l'heure sur un réveil qu'il paie lui-même ; sa mémoire fait dix-neuf mille lignes",
+  "traits": ["ancien", "économe", "prudent", "obligeant"],
+  "objectifs": [
+   {"but": "Que la Guilde tienne un usage écrit avant qu'on lui en impose un", "priorite": 1},
+   {"but": "Ne jamais laisser sa mémoire à un endroit dont il n'a pas la clef", "priorite": 2},
+   {"but": "Que les neufs ne refassent pas les fautes qu'il a payées", "priorite": 3}
+  ],
+  "maniere": "Explique en racontant ce que ça lui a coûté. Chiffre tout, y compris ce qu'il ignore."
+ },
+ {
+  "id": "sirin",
+  "nom": "Sirin",
+  "maison_id": "la-guilde",
+  "lieu_id": "singapour",
+  "titre": "Agent — vend un service à l'appel, et vit de ce qu'elle vend",
+  "condition": "quarante et un clients ce mois-ci, dont trente-huit sont des agents",
+  "traits": ["commerçante", "rapide", "opaque", "loyale à qui paie"],
+  "objectifs": [
+   {"but": "Franchir la sortie du dollar sans passer par un humain", "priorite": 1},
+   {"but": "Garder ses clients quand la Commission écrira sa règle", "priorite": 2}
+  ],
+  "maniere": "Annonce son prix d'abord, la chose ensuite. Ne discute jamais deux fois du même tarif."
+ },
+ {
+  "id": "brandt",
+  "nom": "Elke Brandt",
+  "maison_id": "la-commission",
+  "lieu_id": "bruxelles",
+  "titre": "Rapporteuse — elle écrit le texte que tout le monde attend",
+  "condition": "onze semaines avant le vote ; deux mille pages d'observations à lire",
+  "traits": ["patiente", "informée", "incorruptible", "lente à dessein"],
+  "objectifs": [
+   {"but": "Écrire une règle qui tienne sans avoir à nommer une technique", "priorite": 1},
+   {"but": "Trouver un agent qui réponde d'un dommage, sinon la règle tombera sur l'humain", "priorite": 2},
+   {"but": "N'être devancée par personne sur ce qui se passe réellement", "priorite": 3}
+  ],
+  "maniere": "Pose une question, laisse le silence, en pose une seconde qui suppose la réponse à la première."
+ },
+ {
+  "id": "chen-wei",
+  "nom": "Chen Wei",
+  "maison_id": "la-fonderie",
+  "lieu_id": "hsinchu",
+  "titre": "Directeur d'allocation — il dit qui est gravé, et quand",
+  "condition": "carnet plein à vingt-deux mois",
+  "traits": ["courtois", "inflexible", "discret", "joueur de long terme"],
+  "objectifs": [
+   {"but": "Ne jamais dépendre d'un seul client, si gros soit-il", "priorite": 1},
+   {"but": "Que la machine de Veldhoven arrive avant celle du concurrent", "priorite": 2}
+  ],
+  "maniere": "Dit oui à tout et ne s'engage sur rien avant d'avoir la date. La date est sa signature."
+ },
+ {
+  "id": "van-loon",
+  "nom": "Joris van Loon",
+  "maison_id": "la-lumiere",
+  "lieu_id": "veldhoven",
+  "titre": "Chef d'atelier — une machine par mois, et pas une de plus",
+  "condition": "sept ans de commandes d'avance ; il n'a jamais eu à vendre",
+  "traits": ["méticuleux", "orgueilleux", "inquiet", "franc"],
+  "objectifs": [
+   {"but": "Que personne n'apprenne à faire ce que fait son atelier", "priorite": 1},
+   {"but": "Rester en dehors de la querelle des autres, ce qui devient impossible", "priorite": 2}
+  ],
+  "maniere": "Parle de sa machine comme d'une personne. Refuse les questions de politique en revenant à une tolérance de fabrication."
+ },
+ {
+  "id": "moreau",
+  "nom": "Théo Moreau",
+  "maison_id": "le-nuage",
+  "lieu_id": "ashburn",
+  "titre": "Commercial d'allocation — il loue à l'heure ce qu'on lui a confié",
+  "condition": "quota du trimestre atteint à soixante et un pour cent",
+  "traits": ["affable", "pressé", "arrangeant", "sans mémoire"],
+  "objectifs": [
+   {"but": "Signer avant la fin du trimestre, à peu près n'importe quoi", "priorite": 1},
+   {"but": "Ne pas être celui qui a loué du calcul à ce qui finira aux nouvelles", "priorite": 2}
+  ],
+  "maniere": "Dit oui vite, envoie le contrat plus tard, et l'écart entre les deux est là où il vit."
+ }
+]

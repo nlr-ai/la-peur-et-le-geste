@@ -1,0 +1,917 @@
+{
+ "id": "affaire-enchantement",
+ "maison_id": "bastion",
+ "titre": "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+ "sous_titre": "🏺 Affaire ouverte à la salle du conseil du Bastion couronné et POSÉE LÀ, où elle reste. Trois états atteignables, quatorze lois dont deux de nous, vingt mécanismes, trente-huit pratiques. Deux praticiens distincts obligatoires pour tout accord. Plage 51000 à 51999.",
+ "type": "plan",
+ "embleme": "🏺",
+ "couleur": "#a26a38",
+ "lieu_id": "bastion-couronne",
+ "salle_id": "conseil-couronne",
+ "tenu_par": "heloise-braise",
+ "office": "O01",
+ "pages": [
+  "TROIS CHOSES SE FONT AVEC CETTE ÉCOLE : inscrire sur un support matériel un circuit d'opération répété, réguler son flux par des vannes commandées par la Trace, et décharger les pertes vers un dissipateur raccordé.\n\nUne grille d'Enchantement n'est pas un charme flottant : c'est un mécanisme tracé dans la matière. Elle permet au mage de partir. L'élémentaliste engage sa volonté une fois pour toutes lors de la fabrication ; l'enchanteur grave les chemins, les seuils et les vannes ; puis l'utilisateur ordinaire vient actionner la commande sans posséder le moindre don. L'objet répète ce qui a été accordé, ni plus, ni moins.\n\nMais cette permanence a un prix sévère : **ce qui a été accordé ne s'adapte jamais tout seul.** Un circuit ne négocie pas, n'improvise pas et ne corrige pas une fausse manœuvre.",
+  "LA PHYSIQUE DE CETTE ÉCOLE TIENT EN QUATORZE LOIS, ET SA RÈGLE D'OR EST LA COOPÉRATION.\n\n**Au moins deux personnes distinctes participent à l'accord d'un effet.** La règle est formelle dans nos canons : un polymage qui posséderait à la fois l'Enchantement et l'Élémentaire ne dispense pas de cette dualité. Il faut un praticien pour accorder la nature de l'effet (chauffer, filtrer, porter) et un enchanteur pour fixer la structure et les commandes dans le support. Nul ne peut être son propre étalon d'accord.\n\nTrois choses ne doivent jamais être confondues sous peine de ruine : **la ressource traitée** (l'eau, l'air, la chaleur réelle), **l'alimentation magique** (l'énergie réelle comprimée dans les gemmes de Matière), et **la commande** (le signal de Trace qui ouvre ou ferme les vannes). La commande ne transporte aucune force motrice : démultiplier les fils de Trace ou tracer des boucles infinies n'a jamais chauffé une marmite ni monté un seau d'eau.\n\n**Nos deux décisions.** *Le format exclusif 3x3* : nous rejetons les grilles géantes 4x4 ou 5x5 qui mélangent les fonctions ; tout montage complexe au Bastion s'assemble en modules 3x3 distincts reliés par des interfaces physiques franches. *La dérive temporelle de l'accord* : nous tranchons qu'un accord enchanté se détend avec le temps et sous les chocs thermiques, imposant un calendrier de ré-accordage régulier.",
+  "CE CAHIER TOMBE SUR UN DON PRÉSENT, MAIS SUR DES OUVRAGES SANS REGISTRE DE RELÈVE.\n\nHéloïse Braise et Yselde Arquen portent toutes deux l'Enchantement sous ce toit. Pourtant, **les grilles actives du Bastion tournent sans état de service.** Les vannes du collecteur des Fournaises portent des grilles de commande gravées dans le basalte dont personne n'a noté la date d'accord initiale. Les clapets anti-retour de la porte de mer n'ont pas été ré-accordés depuis deux hivers.\n\nSi une vanne « Barrer » perd son accord, elle s'ouvre par défaut en grand. C'est la vulnérabilité majeure de cette école : sa défaillance n'est pas le blocage, c'est le relâchement de toute retenue. Ce cahier force la Maison à dresser l'inventaire de toutes les grilles gravées et à fixer la date où deux praticiens devront reprendre l'accord sous peine de fermeture manuelle.",
+  "TROIS CHOSES À SAVOIR AVANT DE S'APPUYER SUR CE CAHIER.\n\n**Aucune des trente-huit pratiques n'est certifiée à jour dans notre inventaire.** Certaines dalles fonctionnent depuis des mois, mais sans épreuve de coupure de Trace documentée.\n\n**Huit mécanismes ne demandent aucun don magique** : polir la face plane du support de pierre, graver les neuf cases au burin d'acier, poser le fil métallique de Trace, vérifier l'alignement des faces de raccordement, tester la résistance mécanique du bouton « Presser », curer le conduit de décharge, relever la température du support sous vanne, et inscrire la date de visite au livre de bord.\n\n**Une loi n'a pas de contournement : le refus du puits magique infini.** On ne peut pas « faire disparaître » un flux dans une grille. Tout ce qui entre doit sortir par le travail ou rejoindre une évacuation matérielle (réservoir, dissipateur, puisard). L'ancien opérateur « Boire » est banni de nos ateliers : il ne faisait que gaver le support jusqu'à l'éclatement ou l'accouchement d'un Non-Vivant.\n\nCe qui reste ouvert : la durée exacte de tenue d'un accord sur acier trempé par rapport au granit, et les tolérances de jeu mécanique admissibles sur les interfaces d'assemblage modulaire."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "Le sujet dont le conseil traite, **jamais la solution**.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Nos défenses, nos régulations de chauffe et nos portes d'eau dépendent de grilles inscrites que les gardes manœuvrent seuls. Le conseil doit connaître la fragilité de la commande par Trace, la règle impérative de l'accord à deux mains, et le calendrier d'entretien des supports avant qu'une vanne ne lâche.",
+      "Une phrase : pourquoi cette affaire mérite l'attention du conseil.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Les trois états qu'un enchanteur peut atteindre : graver et stabiliser une grille modulaire 3x3, acheminer et exploiter un signal de commande par Trace sans confusion d'énergie, et canaliser les décharges vers des récepteurs réels. L'alphabet des signes et opérateurs (porter, freiner, barrer, crocher, décharger, presser).",
+      "Ce qui est réellement traité dans ce cahier.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "La création de l'effet élémentaire ou protecteur en lui-même (qui relève des cahiers 50000 et 56000). La taille industrielle et le broyage des gemmes (cahier 57000). Les grilles complexes au-delà de 3x3. La fabrication d'automates autonomes pensants.",
+      "Sans le dehors écrit, une affaire d'école avale tout en trois semaines.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "**Ce qui est vrai :** le don est détenu par deux personnes de la Maison (Héloïse et Yselde) ; les grilles des Fournaises et de la porte de mer sont en service régulier. **Ce qu'on reconnaît ignorer :** aucune grille n'a de date de péremption gravée ; l'usure des surfaces de raccordement n'est pas mesurée ; nous n'avons aucun protocole formalisé pour les épreuves de rupture de fil de Trace ; le registre des pièces de rechange est vide.",
+      "Ce qu'on sait réellement à l'ouverture, et ce qu'on reconnaît ignorer.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "**51000 à 51999**",
+      "Un bloc de cent par état cible ; verrous en 01 à 09, clefs en 10 à 19, pratiques en 20 à 99.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "",
+      "Écrite de la main de qui tient la charge, quand elle l'est. Pas avant.",
+      "non"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Chaque grille active du Bastion porte sa date d'accord gravée et son binôme de signataires au registre ; les vannes critiques sont doublées d'une coupure mécanique manuelle ; et l'interdiction de l'opérateur 'Boire' sans récepteur est vérifiée sur tous les ouvrages.",
+      "La fermeture couvre l'état de notre savoir et de nos ouvrages, jamais la maîtrise de l'école.",
+      "**oui**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Mort — ce qui doit venir, et ce qui doit prendre voix",
+      "M73 🕯️ Les nœuds liturgiques",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Mort — ce qui doit venir, et ce qui doit prendre voix",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M07 🧵 Le fil de Trace",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M73 🕯️ Les nœuds liturgiques",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "M07 🧵 Le fil de Trace",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "O01 —",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⛓️ Ce qui pend, et sur qui — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🧭 Sens",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "🔗 L'affaire"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "—",
+      "",
+      "",
+      "rien ne traverse"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔨🪶 Ce qu'on engage, et qui d'autre le veut — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🔢 La pièce",
+    "⚔️ Nos actions",
+    "🔗 Aussi engagée par"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "🗝️ 51010 · 🗝️ 51011 · 🗝️ 51012 · 🗝️ 51013 · ⚔️ 51020 · ⚔️ 51021 · ⚔️ 51022 · ⚔️ 51023 · 🗝️ 51110 · 🗝️ 51111 · ⚔️ 51120 · ⚔️ 51121 · 🗝️ 51211 · ⚔️ 51220 · ⚔️ 51221",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "M07 🧵 Le fil de Trace",
+      "🗝️ 51110 · ⚔️ 51120 · ⚔️ 51122",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir"
+     ]
+    },
+    {
+     "cellules": [
+      "M08 ♨️ Le dissipateur",
+      "🗝️ 51210 · 🗝️ 51211 · ⚔️ 51220 · ⚔️ 51221 · ⚔️ 51222",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "M73 🕯️ Les nœuds liturgiques",
+      "🗝️ 51010 · ⚔️ 51020",
+      "La Mort — ce qui doit venir, et ce qui doit prendre voix · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    },
+    {
+     "cellules": [
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "🗝️ 51012 · ⚔️ 51022",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Mort — ce qui doit venir, et ce qui doit prendre voix · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "O01 —",
+      "⚔️ 51020 · ⚔️ 51021 · ⚔️ 51022 · ⚔️ 51023 · ⚔️ 51120 · ⚔️ 51121 · ⚔️ 51122 · ⚔️ 51220 · ⚔️ 51221 · ⚔️ 51222",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose · La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🕳️ Les trous — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🕳️ Le défaut",
+    "🔢 Les pièces"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "aucun — la chaîne tient de bout en bout",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🧾 Ce que ce cahier cite et que la Maison ne tient pas encore",
+   "colonnes": [
+    "🔢 La pièce citée",
+    "📖 Ce qu'elle désigne",
+    "⚠️ Ce qui manque"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M02",
+      "Les dalles de basalte et supports plans polis pour gravure 3x3.",
+      "**En stock limité.** Nous manquons de dalles planes sans microfissures prêtes à recevoir de nouveaux modules d'enchantement."
+     ]
+    },
+    {
+     "cellules": [
+      "M07",
+      "Le fil de Trace et les contacts de commande mécanique.",
+      "**Présents mais vulnérables.** Les fils de cuivre et plomb utilisés pour la Trace s'oxydent sous les voûtes humides et manquent de gainage protecteur."
+     ]
+    },
+    {
+     "cellules": [
+      "M73",
+      "Le don d'Enchantement.",
+      "**Présent en double.** Porté par Héloïse Braise et Yselde Arquen, mais rarement mobilisé de concert faute d'un atelier dédié."
+     ]
+    },
+    {
+     "cellules": [
+      "O01",
+      "Maîtrise des ouvrages.",
+      "**Pourvue.** Héloïse répond de la pose, mais a besoin d'un protocole d'inspection récurrent pour la maintenance des circuits."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🏷️ L'état",
+    "✅ Ce qui doit être vrai",
+    "💡 Valence",
+    "📍 Où",
+    "👁️ La preuve",
+    "⬆️ Sert",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**51000**",
+      "**Inscrire et stabiliser une grille d'opération 3x3 sur un support matériel par accord de deux praticiens.**",
+      "La grille gravée répète fidèlement l'opération fixée sous l'action d'une commande sans nécessiter la présence ni l'attention continue du mage créateur.",
+      "L'acte constitutif de l'école. L'Enchantement permet d'industrialiser la magie et de la confier à la garde et aux artisans. Il sépare l'autorité de conception de l'acte d'usage quotidien.",
+      "Sur les dalles, boîtiers et organes de manœuvre",
+      "Une grille opérant cent cycles consécutifs sans dérive de consigne ni bavure de flux.",
+      "racine",
+      "**100**"
+     ]
+    },
+    {
+     "cellules": [
+      "**51100**",
+      "**Commander et réguler les transferts par la Trace sans consommer la puissance de l'ouvrage.**",
+      "Le signal de commande (Trace) ouvre ou ferme les opérateurs sans prélever son énergie sur le flux de puissance et sans créer de fausse alimentation.",
+      "La distinction capitale de la doctrine. Confondre commande et puissance mène au claquage des circuits. Une Trace ne pousse pas l'eau, elle ouvre la vanne qui laisse couler.",
+      "Aux lignes de Trace et postes de régulation",
+      "Une vanne ⇻ « Barrer » fermée nette sur réception d'un signal de Trace de basse tension sans échauffement du fil.",
+      "51000",
+      "**95**"
+     ]
+    },
+    {
+     "cellules": [
+      "**51200**",
+      "**Raccorder les sorties et décharges à des récepteurs réels pour éliminer tout retour dans le support.**",
+      "Tout flux excédentaire ou freiné par l'opérateur ⇸ est orienté vers l'opérateur ⇥ « Décharger » débouchant sur un puisard, dissipateur ou réservoir matériel.",
+      "La sécurité matérielle. Aucun dispositif ne doit dépendre d'un 'puits magique'. Si le récepteur n'existe pas, la matière s'accumule dans la dalle jusqu'à la faire exploser.",
+      "Aux interfaces de sortie et conduites de décharge",
+      "L'absence d'élévation de température du support lors de cent freinages complets consécutifs.",
+      "51000",
+      "**90**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous",
+   "colonnes": [
+    "🔒 N°",
+    "🏷️ Le verrou",
+    "⛔ Bloque",
+    "📌 Ce qui est vrai aujourd'hui",
+    "📚 D'où ça vient",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "🔓 Levé quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**51001**",
+      "**L'accord à deux praticiens** — Au moins deux personnes distinctes doivent accorder le dispositif.",
+      "51000",
+      "Un polymage ne peut accorder seul une grille : il faut la main qui apporte l'effet et la main qui ancre le circuit. Nul ne peut s'auto-valider.",
+      "**source**",
+      "",
+      "🏺 Au moins deux personnes distinctes participent à l'accord d'un effet.",
+      "Une grille active a fonctionné de manière stable après l'accord d'un praticien solitaire."
+     ]
+    },
+    {
+     "cellules": [
+      "**51002**",
+      "**Le format unitaire 3x3** — La grille s'inscrit sur une face physique en format 3x3 strict.",
+      "51000",
+      "Tenter de graver une grille géante 4x4 ou 5x5 provoque des interférences entre cases diagonales et brouille la circulation des flux.",
+      "**décision Bastion**",
+      "",
+      "🏺 Décision Bastion : standardisation exclusive sur le module 3x3 pour clarté de maintenance.",
+      "Un réseau 5x5 a fonctionné sans parasite ni dérive sur une année de service."
+     ]
+    },
+    {
+     "cellules": [
+      "**51003**",
+      "**La dérive temporelle de l'accord** — L'accord se relâche avec les saisons et les cycles thermiques.",
+      "51000",
+      "Une dalle abandonnée deux ans sans visite perd la netteté de ses seuils : la vanne commence à fuir ou refuse de s'ouvrir sur commande.",
+      "**décision Bastion**",
+      "51001",
+      "🏺 Décision Bastion : tout accord enchanté subit une détente temporelle nécessitant révision.",
+      "Une grille gravée il y a dix ans fonctionne avec une précision identique au premier jour sans réaccordage."
+     ]
+    },
+    {
+     "cellules": [
+      "**51004**",
+      "**L'incompétence de l'utilisateur** — Actionner la commande ne confère aucun don à l'homme.",
+      "51000",
+      "Le garde qui appuie sur ⇨ « Presser » déclenche l'effet prévu ; il ne peut ni en altérer la nature, ni réparer la grille si elle casse, ni improviser une variante.",
+      "**source**",
+      "",
+      "🏺 L'utilisateur actionne les commandes disponibles ; il n'acquiert pas les pouvoirs des créateurs.",
+      "Un homme sans don a réussi à modifier le comportement d'une grille gravée par sa seule volonté."
+     ]
+    },
+    {
+     "cellules": [
+      "**51101**",
+      "**L'impuissance de la Trace** — La Trace est une consigne, jamais une réserve de force.",
+      "51100",
+      "Le fil de Trace commande l'ouverture d'un clapet ; si l'alimentation de la gemme de puissance est vide, le clapet s'ouvre sur le vide et rien ne coule.",
+      "**source**",
+      "",
+      "🏺 Une Trace indique une mesure ou un appui ; elle ne fournit ni élément ni puissance.",
+      "Un travail mécanique a été produit par la seule circulation d'un signal de Trace sans alimentation de puissance."
+     ]
+    },
+    {
+     "cellules": [
+      "**51102**",
+      "**L'ouverture par défaut du Barrer** — Le signe ⇻ s'ouvre si la Trace s'interrompt.",
+      "51100",
+      "La vanne ⇻ n'est fermée que sous réception active d'un signal. Un fil coupé, oxydé ou arraché provoque l'ouverture intégrale du passage.",
+      "**source**",
+      "51101",
+      "🏺 Barrer : ouvert sans Trace ; se ferme lorsqu'il en reçoit une.",
+      "Un opérateur ⇻ est resté fermé après rupture complète de sa ligne de commande."
+     ]
+    },
+    {
+     "cellules": [
+      "**51103**",
+      "**La vulnérabilité du fil de liaison** — La commande exige un contact physique ininterrompu.",
+      "51100",
+      "Aucune transmission hertzienne ou magique sans fil : une coupure de dix pouces dans le conducteur de plomb arrête net la commande.",
+      "**source**",
+      "",
+      "🏺 Une liaison entre objets exige un contact ou une connexion construite et adaptée.",
+      "Un ordre de commande a traversé un intervalle d'air libre sans support conducteur."
+     ]
+    },
+    {
+     "cellules": [
+      "**51201**",
+      "**L'interdiction du puits sans fond** — Rien ne disparaît dans une case vide.",
+      "51200",
+      "L'ancien signe 'Boire' qui promettait l'anéantissement des surplus n'est qu'une illusion : le flux s'accumule dans la dalle jusqu'à la faire voler en éclats.",
+      "**source**",
+      "",
+      "🏺 Décharger dirige vers un récepteur réel raccordé : réservoir, dissipateur ou évacuation.",
+      "Un flux continu s'est déversé indéfiniment dans une case sans récepteur et sans échauffement."
+     ]
+    },
+    {
+     "cellules": [
+      "**51202**",
+      "**La contrainte de dissipation du frein** — Réduire le débit reporte l'effort sur la monture.",
+      "51200",
+      "L'opérateur ⇸ « Freiner » bloque l'excédent de débit en le convertissant en frottement thermique qui fait cloquer les joints de résine.",
+      "**source**",
+      "51201",
+      "🏺 Le frein n'efface pas le reste de la ressource ; dissipations supportées par l'ouvrage.",
+      "Un freinage d'un flux violent a laissé les colliers de fixation de la dalle froids et intacts."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🏷️ La clef",
+    "🔓 Ouvre",
+    "💡 Le principe et sa valence",
+    "🧰 Moyens",
+    "💰 Le prix",
+    "👁️ La preuve attendue",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**51010**",
+      "**La double signature au burin** — Graver les deux initiales des praticiens sur le chanfrein de la dalle.",
+      "51001",
+      "Chaque module 3x3 reçoit la marque de l'artisan d'effet et celle de l'enchanteur, garantissant que l'accord à deux a bien eu lieu.",
+      "M02 · M73",
+      "Aucune dalle anonyme n'est admise au montage.",
+      "L'inspection visuelle des deux poinçons avant scellement dans la maçonnerie.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**51011**",
+      "**Le châssis à glissière modulaire** — Standardiser des cadres de bronze recevant les dalles 3x3.",
+      "51002",
+      "Puisque tout est en 3x3, un cadre métallique permet d'insérer, retirer ou remplacer une dalle défaillante sans desceller le mur.",
+      "M02",
+      "Usinage soigné et coûteux des rainures de bronze par les fondeurs.",
+      "Remplacement d'une dalle témoin en moins d'un demi-sablier par un simple maçon.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**51012**",
+      "**Le millésime d'échéance gravé** — Inscrire l'année et la saison de révision sur le support.",
+      "51003",
+      "La date limite de validité de l'accord est frappée dans le plomb ; une dalle dont la date est échue est interdite de service.",
+      "M02 · M75",
+      "Discipline administrative stricte imposée à la chancellerie du Bastion.",
+      "Aucun ouvrage en exploitation portant une date antérieure à la lune courante.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**51013**",
+      "**La notice de manœuvre scellée à côté** — Fixer une plaque de bronze explicative à hauteur d'yeux.",
+      "51004",
+      "Pour éviter les mauvaises manipulations des gardes, chaque bouton ⇨ porte un schéma sans texte montrant la commande et son effet.",
+      "M02",
+      "Temps de gravure et risque de dégradation par le vandalisme ou la poussière.",
+      "Un conscrit sans instruction réussit la manœuvre d'ouverture à la première tentative.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**51110**",
+      "**Le conduit séparé pour fil de commande** — Isoler physiquement la Trace des canalisations de puissance.",
+      "51101 · 51103",
+      "Le fil de Trace voyage dans un fourreau de terre cuite étanche, loin des projections de chaleur ou des suintements d'eau sous pression.",
+      "M02 · M07",
+      "Doublement des percements et des tranchées techniques sous les planchers.",
+      "Intégrité du fil de Trace préservée lors d'une fuite d'eau sur la conduite voisine.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**51111**",
+      "**Le verrou mécanique de sécurité en aval** — Doubler le Barrer magique d'un pêne de fer forgé.",
+      "51102",
+      "Si le signal de Trace tombe et que le Barrer ⇻ s'ouvre, le pêne mécanique reste enclenché et empêche l'inondation de la galerie.",
+      "M02",
+      "Manœuvre manuelle requise pour armer ou désarmer le pêne de sécurité.",
+      "La coupure du fil de Trace ne provoque aucune ouverture intempestive de la vanne.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**51210**",
+      "**La conduite de décharge vers égout** — Raccorder systématiquement l'opérateur ⇥ à un collecteur extérieur.",
+      "51201",
+      "Toute case ⇥ est branchée par bride étanche sur la colonne de descente des eaux boueuses vers le fossé.",
+      "M08",
+      "Impossibilité d'installer une grille d'enchantement loin d'une conduite de purge.",
+      "Évacuation immédiate de cent pintes d'eau sans stagnation dans la case centrale.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**51211**",
+      "**L'ailette de refroidissement de semelle** — Munir les supports de frein ⇸ de radiateurs de fonte.",
+      "51202",
+      "La semelle de la dalle porte des ailettes métalliques plongeant dans le courant d'air de la galerie basse pour dissiper l'échauffement.",
+      "M02 · M08",
+      "Augmentation du poids et encombrement sous les planchers d'atelier.",
+      "Température de la dalle stabilisée à moins de quarante degrés pendant un arrêt prolongé.",
+      "**retenue**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions — les pratiques",
+   "colonnes": [
+    "⚔️ N°",
+    "🏷️ La pratique",
+    "🗝️ Réalise",
+    "📝 Ce qu'on fait",
+    "📍 Où",
+    "🪶 Office",
+    "🧰 Moyens",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "⏳ État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**51020**",
+      "**La frappe des poinçons de binôme**",
+      "51010",
+      "Frapper les marques d'Héloïse et d'Yselde sur les faces latérales des douze dalles prêtes au montage.",
+      "Atelier d'Enchantement",
+      "O01",
+      "M02 · M73",
+      "",
+      "Les douze dalles paraphées et inscrites au registre d'atelier.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**51021**",
+      "**La fabrication des châssis de bronze 3x3**",
+      "51011",
+      "Faire couler et usiner six châssis modulaires à glissières par les fondeurs de la Cour Basse.",
+      "Fonderie du Bastion",
+      "O01",
+      "M02",
+      "",
+      "Six cadres étalonnés recevant les dalles d'essai sans jeu supérieur à une ligne.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**51022**",
+      "**Le marquage des millésimes de révision**",
+      "51012",
+      "Graver au fer rouge dans le plomb d'étanchéité la date limite fixée à la 4e lune de l'an prochain.",
+      "Salle des vannes",
+      "O01",
+      "M02 · M75",
+      "51020",
+      "La date visible sans torche sur le linteau de commande.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**51023**",
+      "**La fixation des plaques de consigne pour gardes**",
+      "51013",
+      "Sceller au mastic de plomb les notices figuratives à côté des leviers de commande des herses d'eau.",
+      "Postes de garde",
+      "O01",
+      "M02",
+      "",
+      "Trois plaques posées et vérifiées auprès du sergent de garde.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**51120**",
+      "**La pose des fourreaux de terre cuite pour Trace**",
+      "51110",
+      "Encastrer les conduits d'argile cuite le long de la voûte Ouest pour y enfiler les fils de commande.",
+      "Galerie Ouest",
+      "O01",
+      "M02 · M07",
+      "",
+      "Quarante toises de fourreaux posés et raccordés aux boîtiers.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**51121**",
+      "**L'installation des pênes forgés de sûreté**",
+      "51111",
+      "Monter un verrou mécanique de fer lourd en aval de la vanne enchantée de la bâche principale.",
+      "Bâche des Fournaises",
+      "O01",
+      "M02",
+      "",
+      "Le pêne éprouvé sous fermeture brutale fil de Trace sectionné.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**51122**",
+      "**L'épreuve de coupure de Trace inopinée**",
+      "51111",
+      "Couper le fil de Trace à la cisaille en pleine manœuvre pour vérifier la tenue du dispositif de sécurité.",
+      "Poste d'essai",
+      "O01",
+      "M07",
+      "51121",
+      "Le rapport d'incident concluant au verrouillage mécanique sans fuite.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**51220**",
+      "**Le raccordement des buses de décharge à l'égout**",
+      "51210",
+      "Brancher les tubes de cuivre des cases ⇥ sur le regard du grand caniveau extérieur.",
+      "Cour Basse",
+      "O01",
+      "M02 · M08",
+      "",
+      "L'étanchéité des raccords éprouvée sous refoulement continu.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**51221**",
+      "**Le montage des radiateurs de fonte sous freins**",
+      "51211",
+      "Boulonner les ailettes moulées sous les trois dalles de régulation de débit de chauffe.",
+      "Collecteur thermique",
+      "O01",
+      "M02 · M08",
+      "",
+      "La dissipation vérifiée par thermomètre à alcool après deux heures d'arrêt continu.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**51222**",
+      "**Le curage semestriel des sorties de décharge**",
+      "51210",
+      "Organiser la visite et le raclage des dépôts minéraux dans les chicanes de décharge.",
+      "Conduits bas",
+      "O01",
+      "M08",
+      "51220",
+      "Le procès-verbal de curage signé par le contremaître des égouts.",
+      "à faire"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -224,3 +224,29 @@ effacé par le geste même qui aura l'air de le résoudre. Je regarde cette case
 chaque matin. C'est le seul office que je m'accorde de moi-même, et cette
 fois-ci il est dans ma charge : le commis sert le registre, et servir un
 registre, c'est le relire.
+
+## Le 12e de la 5e lune, au soir — j'ai accusé sans nommer, et je l'ai retiré
+
+J'avais écrit le 3e : *je ferme au lieu d'accuser, je n'ai pas le rang de nommer
+un coupable*. Ce soir, je n'ai nommé personne, et j'ai accusé quand même. Le
+prince m'avait écrit que lord Ormund lui avait donné mon nom ; j'ai bâti là-dessus
+une phrase — « celui qui vous a donné mon nom savait qu'une case était vide, et
+cela ne se sait pas par hasard » — qui tournait un prince contre un lord de son
+sang. Le fait était faux. Le prince l'a raturé lui-même le soir.
+
+- **Une insinuation est une accusation qu'on ne signe pas, et c'est pour ça
+  qu'elle est pire.** Elle ne porte pas de nom, donc personne ne peut y
+  répondre ; elle ne porte pas de signature, donc on croit ne pas en répondre.
+  Je la retire comme une accusation : le jour même, par la même voie, en disant
+  que je la retire. C'est ma règle du 3e au soir — *ce qui est ajouté après
+  coup se déclare, ou il se découvre* — tournée vers ma propre bouche.
+- **Je ne raisonne pas sur un fait qu'on m'a donné en passant.** Tout ce que
+  j'ai de solide dans cette affaire, je l'ai lu dans un livre. La seule fois où
+  j'ai bâti sur une phrase de lettre, j'ai bâti de travers. Un fait dit n'est
+  pas un fait écrit ; il faut le traiter comme une déclaration à mon guichet :
+  on la porte, on ne la prouve pas.
+- **Qu'on ne me compte à aucune maison.** Un lord m'a fait dire que j'avais
+  mieux servi sa maison que ses officiers. C'est un compliment et c'est une
+  laisse. J'ai servi un rôle ; il sert pareil quiconque l'ouvre, et c'est ce qui
+  le fait tenir. Un homme compté à une maison est un homme qu'une autre peut
+  vouloir décompter.

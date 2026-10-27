@@ -1,0 +1,886 @@
+{
+ "_": "PARIS EN AOUT 1572, VU D'EN HAUT — le Louvre en grand (a gauche), ses abords, la Cite au milieu de la Seine, le Marais a l'est, le faubourg Saint-Germain outre-Seine. Les ids sont ceux de etat/chemins.json. Schematique : les proportions servent la lecture, pas l'arpentage (l'interieur du Louvre est grossi). FONDE : la rive droite du Louvre et de l'Hotel de Ville, la Cite et Notre-Dame, l'eveche au chevet, la rue de Bethisy et la rue des Poulies entre le Louvre et l'hotel de l'amiral, Saint-Germain-l'Auxerrois face au guichet, le Petit-Bourbon contre le Louvre, les Tuileries hors les murs, l'hotel de Guise au Marais, le faubourg Saint-Germain outre-Seine. INVENTE : la distribution des chambres dans le Louvre.",
+ "nom": "Paris et le Louvre",
+ "viewBox": "0 0 640 410",
+ "fonds": [
+  {
+   "classe": "plan-eau",
+   "style": "fill:#7d93a3;fill-opacity:.32;stroke:var(--bord);stroke-width:.6;stroke-opacity:.5",
+   "d": "M0,222 L640,222 L640,304 L540,304 Q455,316 370,300 L280,298 Q160,286 0,266 Z"
+  },
+  {
+   "classe": "plan-roche",
+   "style": "fill:#c9b991;fill-opacity:.45;stroke:var(--bord);stroke-width:.8",
+   "d": "M376,240 Q450,228 542,238 Q558,262 542,290 Q455,300 384,288 Q366,264 376,240 Z"
+  }
+ ],
+ "mur": "M70,60 L230,60 L230,200 L70,200 Z",
+ "guet": [
+  [
+   70,
+   60
+  ],
+  [
+   230,
+   60
+  ],
+  [
+   230,
+   200
+  ],
+  [
+   70,
+   200
+  ]
+ ],
+ "decor": [
+  {
+   "classe": "plan-arete",
+   "style": "fill:none;stroke:var(--bord);stroke-width:3;opacity:.55",
+   "d": "M478,206 L470,240 M420,222 L414,242 M400,288 L396,312"
+  },
+  {
+   "classe": "plan-arete",
+   "style": "fill:none;stroke:var(--bord);stroke-width:1.2;opacity:.45;stroke-dasharray:5 3",
+   "d": "M60,40 Q240,6 420,22 Q560,30 620,90"
+  }
+ ],
+ "etiquettes": [
+  {
+   "classe": "plan-eau",
+   "x": 200,
+   "y": 248,
+   "texte": "La Seine"
+  },
+  {
+   "classe": "plan-large",
+   "x": 456,
+   "y": 232,
+   "texte": "La Cité"
+  },
+  {
+   "classe": "plan-large",
+   "x": 560,
+   "y": 120,
+   "texte": "Le Marais"
+  },
+  {
+   "classe": "plan-large",
+   "x": 470,
+   "y": 340,
+   "texte": "L'Université"
+  },
+  {
+   "classe": "plan-eau",
+   "x": 492,
+   "y": 216,
+   "texte": "pont Notre-Dame"
+  },
+  {
+   "classe": "plan-eau",
+   "x": 372,
+   "y": 322,
+   "texte": "pont Saint-Michel"
+  }
+ ],
+ "rose": null,
+ "salles": [
+  {
+   "id": "cour-du-louvre",
+   "nom": "La cour du Louvre",
+   "fond": true,
+   "cle": true,
+   "forme": {
+    "d": "M100,90 L200,90 L200,170 L100,170 Z"
+   },
+   "etiq": [
+    150,
+    128
+   ],
+   "lignes": [
+    "La cour"
+   ],
+   "quoi": "La cour carrée, entre le vieux château et les ailes neuves. Les gardes du roi y font la haie.",
+   "alias": [],
+   "motifs": [
+    "cour du louvre",
+    "la cour du louvre"
+   ]
+  },
+  {
+   "id": "chambre-du-roi",
+   "nom": "La chambre du roi",
+   "forme": {
+    "r": [
+     72,
+     62,
+     26,
+     34,
+     2
+    ]
+   },
+   "etiq": [
+    85,
+    77
+   ],
+   "lignes": [
+    "Le",
+    "roi"
+   ],
+   "quoi": "La chambre de Charles IX. On y tient le conseil le matin, et le roi y reçoit qui il veut.",
+   "alias": [
+    "chambre du roi"
+   ],
+   "motifs": [
+    "chambre du roi"
+   ],
+   "orne": [
+    "lit",
+    85,
+    86,
+    4
+   ]
+  },
+  {
+   "id": "garde-robe-du-roi",
+   "nom": "La garde-robe du roi",
+   "forme": {
+    "r": [
+     72,
+     98,
+     26,
+     20,
+     2
+    ]
+   },
+   "etiq": [
+    85,
+    106
+   ],
+   "lignes": [
+    "Garde-",
+    "robe"
+   ],
+   "quoi": "Contre la chambre du roi. Ambroise Paré y a son lit pendant les fêtes.",
+   "alias": [],
+   "motifs": [
+    "garde-robe du roi",
+    "garde-robe"
+   ]
+  },
+  {
+   "id": "escalier-du-roi",
+   "nom": "L'escalier du roi",
+   "forme": {
+    "r": [
+     72,
+     120,
+     26,
+     18,
+     2
+    ]
+   },
+   "etiq": [
+    85,
+    127
+   ],
+   "lignes": [
+    "Escalier"
+   ],
+   "quoi": "Le grand degré qui dessert les appartements royaux. Tout le monde y passe et tout le monde y est vu.",
+   "alias": [],
+   "motifs": [
+    "escalier du roi",
+    "grand escalier",
+    "grand degre"
+   ]
+  },
+  {
+   "id": "appartement-monsieur",
+   "nom": "L'appartement de Monsieur",
+   "forme": {
+    "r": [
+     72,
+     140,
+     26,
+     28,
+     2
+    ]
+   },
+   "etiq": [
+    85,
+    152
+   ],
+   "lignes": [
+    "Mon-",
+    "sieur"
+   ],
+   "quoi": "Les chambres du duc d'Anjou, frère du roi.",
+   "alias": [],
+   "motifs": [
+    "appartement de monsieur",
+    "chez monsieur",
+    "duc d'anjou"
+   ]
+  },
+  {
+   "id": "appartement-alencon",
+   "nom": "L'appartement d'Alençon",
+   "forme": {
+    "r": [
+     72,
+     170,
+     26,
+     28,
+     2
+    ]
+   },
+   "etiq": [
+    85,
+    182
+   ],
+   "lignes": [
+    "Alen-",
+    "çon"
+   ],
+   "quoi": "Les chambres du duc d'Alençon, le dernier fils de France.",
+   "alias": [],
+   "motifs": [
+    "appartement d'alencon",
+    "chez alencon"
+   ]
+  },
+  {
+   "id": "appartement-reine-mere",
+   "nom": "L'appartement de la reine mère",
+   "cle": true,
+   "forme": {
+    "r": [
+     102,
+     62,
+     48,
+     26,
+     2
+    ]
+   },
+   "etiq": [
+    126,
+    73
+   ],
+   "lignes": [
+    "La reine",
+    "mère"
+   ],
+   "quoi": "Les chambres de Catherine de Médicis, tendues de noir depuis 1559. Ses dames, ses astrologues, ses lettres.",
+   "alias": [
+    "l'appartement de la reine mère"
+   ],
+   "motifs": [
+    "appartement de la reine mere",
+    "chez la reine mere",
+    "reine mere"
+   ]
+  },
+  {
+   "id": "chambre-margot",
+   "nom": "La chambre de la reine de Navarre",
+   "forme": {
+    "r": [
+     152,
+     62,
+     40,
+     26,
+     2
+    ]
+   },
+   "etiq": [
+    172,
+    73
+   ],
+   "lignes": [
+    "La reine",
+    "de Navarre"
+   ],
+   "quoi": "La chambre de Marguerite, près de celle de sa mère. On y lit, on y écrit, on y reçoit tard.",
+   "alias": [
+    "chambre de la reine de Navarre"
+   ],
+   "motifs": [
+    "chambre de la reine de navarre",
+    "chambre de marguerite",
+    "chambre de madame"
+   ],
+   "orne": [
+    "lit",
+    172,
+    82,
+    4
+   ]
+  },
+  {
+   "id": "chambre-navarre",
+   "nom": "La chambre du roi de Navarre",
+   "cle": true,
+   "forme": {
+    "r": [
+     194,
+     62,
+     34,
+     26,
+     2
+    ]
+   },
+   "etiq": [
+    211,
+    73
+   ],
+   "lignes": [
+    "Votre",
+    "chambre"
+   ],
+   "quoi": "Votre chambre au Louvre, dans l'aile du nord. D'Armagnac dort en travers de la porte.",
+   "alias": [
+    "chambre du roi de Navarre"
+   ],
+   "motifs": [
+    "chambre du roi de navarre",
+    "votre chambre",
+    "ma chambre",
+    "chambre de navarre"
+   ],
+   "orne": [
+    "lit",
+    211,
+    82,
+    4
+   ]
+  },
+  {
+   "id": "chambre-conde",
+   "nom": "La chambre du prince de Condé",
+   "forme": {
+    "r": [
+     202,
+     92,
+     26,
+     26,
+     2
+    ]
+   },
+   "etiq": [
+    215,
+    103
+   ],
+   "lignes": [
+    "Condé"
+   ],
+   "quoi": "La chambre de votre cousin, à une porte de la vôtre.",
+   "alias": [],
+   "motifs": [
+    "chambre du prince de conde",
+    "chambre de conde",
+    "chez conde"
+   ]
+  },
+  {
+   "id": "logis-des-gentilshommes",
+   "nom": "Le logis des gentilshommes",
+   "forme": {
+    "r": [
+     202,
+     120,
+     26,
+     48,
+     2
+    ]
+   },
+   "etiq": [
+    215,
+    142
+   ],
+   "lignes": [
+    "Vos",
+    "gentils-",
+    "hommes"
+   ],
+   "quoi": "Les chambres où couchent une quarantaine de vos gentilshommes, épées au râtelier. Elles donnent sur la cour.",
+   "alias": [
+    "logis des gentilshommes"
+   ],
+   "motifs": [
+    "logis des gentilshommes",
+    "chambres des gentilshommes"
+   ]
+  },
+  {
+   "id": "salle-des-gardes",
+   "nom": "La salle des gardes",
+   "cle": true,
+   "forme": {
+    "r": [
+     102,
+     172,
+     96,
+     26,
+     2
+    ]
+   },
+   "etiq": [
+    150,
+    183
+   ],
+   "lignes": [
+    "La salle des gardes"
+   ],
+   "quoi": "Les archers de la garde écossaise et les Suisses. Tout ce qui entre chez le roi passe sous leurs yeux.",
+   "alias": [
+    "salle des gardes"
+   ],
+   "motifs": [
+    "salle des gardes"
+   ]
+  },
+  {
+   "id": "guichet-du-louvre",
+   "nom": "Le guichet du Louvre",
+   "cle": true,
+   "forme": {
+    "r": [
+     202,
+     170,
+     26,
+     28,
+     2
+    ]
+   },
+   "etiq": [
+    215,
+    182
+   ],
+   "lignes": [
+    "Gui-",
+    "chet"
+   ],
+   "quoi": "La porte du Louvre vers Saint-Germain-l'Auxerrois. Fermée le soir ; on la rouvre sur ordre.",
+   "alias": [],
+   "motifs": [
+    "guichet du louvre",
+    "le guichet",
+    "porte du louvre"
+   ],
+   "orne": [
+    "herse",
+    215,
+    192,
+    4
+   ]
+  },
+  {
+   "id": "quai-du-louvre",
+   "nom": "Le quai du Louvre",
+   "dehors": true,
+   "forme": {
+    "r": [
+     70,
+     204,
+     160,
+     14,
+     2
+    ]
+   },
+   "etiq": [
+    150,
+    209
+   ],
+   "lignes": [
+    "Le quai du Louvre"
+   ],
+   "quoi": "Le bord de Seine au pied du Louvre. Des bateliers passent au faubourg Saint-Germain, quand on en trouve.",
+   "alias": [],
+   "motifs": [
+    "quai du louvre",
+    "bord de l'eau",
+    "bord de seine"
+   ]
+  },
+  {
+   "id": "tuileries",
+   "nom": "Les Tuileries",
+   "dehors": true,
+   "forme": {
+    "r": [
+     6,
+     84,
+     56,
+     60,
+     2
+    ]
+   },
+   "etiq": [
+    34,
+    112
+   ],
+   "lignes": [
+    "Les",
+    "Tuileries"
+   ],
+   "quoi": "Le palais neuf de la reine mère, hors les murs, inachevé. On y tient des conseils qu'on ne veut pas tenir au Louvre.",
+   "alias": [],
+   "motifs": [
+    "tuileries",
+    "palais des tuileries"
+   ],
+   "orne": [
+    "arbres",
+    34,
+    130,
+    4
+   ]
+  },
+  {
+   "id": "porte-saint-honore",
+   "nom": "La porte Saint-Honoré",
+   "dehors": true,
+   "forme": {
+    "r": [
+     60,
+     14,
+     70,
+     22,
+     2
+    ]
+   },
+   "etiq": [
+    95,
+    23
+   ],
+   "lignes": [
+    "Porte Saint-Honoré"
+   ],
+   "quoi": "La porte de l'ouest, dans le mur de Charles V. Fermée la nuit.",
+   "alias": [],
+   "motifs": [
+    "porte saint-honore",
+    "porte saint honore"
+   ],
+   "orne": [
+    "creneaux",
+    95,
+    30,
+    4
+   ]
+  },
+  {
+   "id": "petit-bourbon",
+   "nom": "Le Petit-Bourbon",
+   "dehors": true,
+   "forme": {
+    "r": [
+     236,
+     176,
+     44,
+     24,
+     2
+    ]
+   },
+   "etiq": [
+    258,
+    186
+   ],
+   "lignes": [
+    "Petit-",
+    "Bourbon"
+   ],
+   "quoi": "La grande salle des fêtes contre le Louvre, à l'est. On y donnera le Paradis d'amour.",
+   "alias": [],
+   "motifs": [
+    "petit-bourbon",
+    "petit bourbon",
+    "salle du petit-bourbon"
+   ]
+  },
+  {
+   "id": "saint-germain-l-auxerrois",
+   "nom": "Saint-Germain-l'Auxerrois",
+   "cle": true,
+   "dehors": true,
+   "forme": {
+    "r": [
+     238,
+     118,
+     44,
+     44,
+     2
+    ]
+   },
+   "etiq": [
+    260,
+    138
+   ],
+   "lignes": [
+    "Saint-",
+    "Germain-",
+    "l'Auxerrois"
+   ],
+   "quoi": "La paroisse du Louvre, face au guichet. Sa cloche sonne pour la cour.",
+   "alias": [
+    "Saint-Germain-l'Auxerrois"
+   ],
+   "motifs": [
+    "saint-germain-l'auxerrois",
+    "saint germain l'auxerrois",
+    "saint-germain"
+   ]
+  },
+  {
+   "id": "rue-des-poulies",
+   "nom": "La rue des Poulies",
+   "dehors": true,
+   "forme": {
+    "r": [
+     288,
+     108,
+     52,
+     12,
+     2
+    ]
+   },
+   "etiq": [
+    314,
+    112
+   ],
+   "lignes": [
+    "Rue des Poulies"
+   ],
+   "quoi": "La rue étroite que prend l'amiral à pied, du Louvre à son hôtel. Des maisons à fenêtres grillées.",
+   "alias": [
+    "rue des Poulies"
+   ],
+   "motifs": [
+    "rue des poulies"
+   ]
+  },
+  {
+   "id": "rue-de-bethisy",
+   "nom": "L'hôtel de l'amiral, rue de Béthisy",
+   "cle": true,
+   "dehors": true,
+   "forme": {
+    "r": [
+     300,
+     56,
+     64,
+     44,
+     2
+    ]
+   },
+   "etiq": [
+    332,
+    76
+   ],
+   "lignes": [
+    "L'hôtel de",
+    "l'amiral"
+   ],
+   "quoi": "L'hôtel où loge Coligny, rue de Béthisy, avec Téligny et ses capitaines. Une cour, un escalier, des fenêtres sur la rue.",
+   "alias": [
+    "rue de Béthisy",
+    "l'hôtel de l'amiral"
+   ],
+   "motifs": [
+    "rue de bethisy",
+    "hotel de l'amiral",
+    "hotel de coligny",
+    "chez l'amiral"
+   ]
+  },
+  {
+   "id": "hotel-de-ville",
+   "nom": "L'Hôtel de Ville",
+   "cle": true,
+   "dehors": true,
+   "forme": {
+    "r": [
+     470,
+     170,
+     58,
+     36,
+     2
+    ]
+   },
+   "etiq": [
+    499,
+    186
+   ],
+   "lignes": [
+    "Hôtel",
+    "de Ville"
+   ],
+   "quoi": "Sur la Grève. Le prévôt des marchands et les échevins ; les armes et les clés de la Ville.",
+   "alias": [
+    "Hôtel de Ville"
+   ],
+   "motifs": [
+    "hotel de ville",
+    "place de greve",
+    "la greve"
+   ]
+  },
+  {
+   "id": "hotel-de-guise",
+   "nom": "L'hôtel de Guise",
+   "cle": true,
+   "dehors": true,
+   "forme": {
+    "r": [
+     520,
+     56,
+     76,
+     40,
+     2
+    ]
+   },
+   "etiq": [
+    558,
+    74
+   ],
+   "lignes": [
+    "L'hôtel",
+    "de Guise"
+   ],
+   "quoi": "Au Marais, rue du Chaume. Les gens de Guise, leurs chevaux, leurs visiteurs du soir.",
+   "alias": [
+    "l'hôtel de Guise"
+   ],
+   "motifs": [
+    "hotel de guise",
+    "chez guise",
+    "au marais"
+   ]
+  },
+  {
+   "id": "parvis-notre-dame",
+   "nom": "Le parvis de Notre-Dame",
+   "cle": true,
+   "dehors": true,
+   "forme": {
+    "r": [
+     390,
+     246,
+     44,
+     30,
+     2
+    ]
+   },
+   "etiq": [
+    412,
+    259
+   ],
+   "lignes": [
+    "Le",
+    "parvis"
+   ],
+   "quoi": "La place devant la cathédrale. L'estrade des noces y est dressée, tendue de drap d'or.",
+   "alias": [
+    "parvis de Notre-Dame"
+   ],
+   "motifs": [
+    "parvis de notre-dame",
+    "parvis notre-dame",
+    "le parvis",
+    "estrade"
+   ]
+  },
+  {
+   "id": "nef-notre-dame",
+   "nom": "Notre-Dame",
+   "cle": true,
+   "dehors": true,
+   "forme": {
+    "r": [
+     438,
+     240,
+     60,
+     36,
+     2
+    ]
+   },
+   "etiq": [
+    468,
+    256
+   ],
+   "lignes": [
+    "Notre-",
+    "Dame"
+   ],
+   "quoi": "La cathédrale. La messe des noces s'y dit pendant que les huguenots restent dehors.",
+   "alias": [],
+   "motifs": [
+    "nef de notre-dame",
+    "notre-dame",
+    "la cathedrale"
+   ]
+  },
+  {
+   "id": "eveche",
+   "nom": "L'évêché",
+   "dehors": true,
+   "forme": {
+    "r": [
+     502,
+     254,
+     34,
+     24,
+     2
+    ]
+   },
+   "etiq": [
+    519,
+    264
+   ],
+   "lignes": [
+    "L'évê-",
+    "ché"
+   ],
+   "quoi": "Le palais de l'évêque, au chevet de la cathédrale. Le banquet des noces y est servi.",
+   "alias": [],
+   "motifs": [
+    "eveche",
+    "palais de l'eveque"
+   ]
+  },
+  {
+   "id": "faubourg-saint-germain",
+   "nom": "Le faubourg Saint-Germain",
+   "cle": true,
+   "dehors": true,
+   "forme": {
+    "r": [
+     40,
+     316,
+     220,
+     80,
+     2
+    ]
+   },
+   "etiq": [
+    150,
+    354
+   ],
+   "lignes": [
+    "Le faubourg",
+    "Saint-Germain"
+   ],
+   "quoi": "Outre-Seine, autour de l'abbaye. Montgomery et bien des huguenots y logent : la Seine est entre eux et la ville.",
+   "alias": [
+    "faubourg Saint-Germain"
+   ],
+   "motifs": [
+    "faubourg saint-germain",
+    "faubourg saint germain",
+    "outre-seine",
+    "le faubourg"
+   ]
+  }
+ ]
+}

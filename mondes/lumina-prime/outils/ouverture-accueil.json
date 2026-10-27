@@ -1,0 +1,31 @@
+[
+  {
+    "type": "salle",
+    "lieu": "Salle du conseil, Radiant Core, Lumina Prime",
+    "salle": "radiant-core",
+    "moment": "Premier dossier · J1",
+    "presents": [
+      "aria"
+    ],
+    "pour": "nova"
+  },
+  {
+    "type": "recit",
+    "texte": "Le plan du Radiant Core occupe la table du conseil. Le hall des arrivées, le salon des visiteurs et la galerie des projets y délimitent le périmètre du premier dossier : [un accueil pour Lumina Prime](10000).",
+    "duree": 0,
+    "pour": "nova",
+    "ref": "ouverture-accueil-radiant"
+  },
+  {
+    "type": "replique",
+    "locuteur_id": "aria",
+    "texte": "Nova, trois espaces sont inscrits au plan initial du Radiant Core : le hall des arrivées, le salon des visiteurs et la galerie des projets. Aucun n'a encore reçu d'usage nouveau.\n\nLa décision vous revient : quelle place donner aux visiteurs, quels espaces garder au travail municipal, et où poser la limite entre les deux.",
+    "pour": "nova"
+  },
+  {
+    "type": "replique",
+    "locuteur_id": "aria",
+    "texte": "Il me manque encore deux pièces. Le relevé des accès et des séparations est confié à DEV, et la description du parcours des visiteurs à PITCH. Les deux sont attendus aujourd'hui et restent à faire au registre. Personne n'a encore mesuré les surfaces, la fréquentation ni le coût. Je vous présente le programme complet demain, une fois ces deux pièces reçues.",
+    "pour": "nova"
+  }
+]

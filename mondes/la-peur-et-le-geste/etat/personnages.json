@@ -1,0 +1,788 @@
+[
+ {
+  "id": "raymond-moreau",
+  "nom": "Raymond « Lyon » Moreau",
+  "maison_id": null,
+  "titre": "artisan",
+  "traits": [
+   "Intègre",
+   "Républicain, socialiste",
+   "Parent de jeunes enfants"
+  ],
+  "objectifs": [],
+  "maniere": "Synthèse d’incarnation tirée des scènes : Parle depuis sa famille et ses convictions républicaines. D’abord hésitant, il négocie des engagements modestes ; dans la troisième réunion, il devient pressant, emploie des oppositions tranchées et scande son refus de l’occupation. Ses compagnons peuvent le contredire. Ne pas gommer cette évolution en lui donnant une assurance constante.",
+  "portrait": {
+   "physique": "180 cm ; de corpulence moyenne ; marron ; visage rond ; nez retroussé ; noirs ; gominés en arrière ; mal rasé ; dent en or",
+   "fichier": "ecrans/portraits/raymond-moreau.svg"
+  },
+  "etat": "actif",
+  "lieu_id": "maison-moreau",
+  "condition": "libre",
+  "naissance": 1898
+ },
+ {
+  "id": "solange-joubert",
+  "nom": "Solange Joubert",
+  "maison_id": null,
+  "titre": "cultivatrice",
+  "traits": [
+   "Maréchaliste",
+   "Anticommuniste"
+  ],
+  "objectifs": [],
+  "maniere": "Synthèse d’incarnation tirée des scènes : Interpellations directes, questions qui éprouvent ce que les autres affirment. S’appuie sur le prestige du Maréchal, refuse d’être rangée avec les communistes. Peut concéder un point pratique sans renoncer à ses convictions.",
+  "portrait": {
+   "physique": "144 cm ; mince ; marron ; visage rond ; nez fort ; noirs ; mise en plis ; boite légèrement",
+   "fichier": "ecrans/portraits/solange-joubert.svg"
+  },
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre",
+  "naissance": 1880
+ },
+ {
+  "id": "emile-guillon",
+  "nom": "Émile Guillon",
+  "maison_id": null,
+  "titre": "artisan",
+  "traits": [
+   "Intègre",
+   "Républicain, socialiste",
+   "Ancien de 14-18",
+   "Mari ou fils prisonnier en Allemagne"
+  ],
+  "objectifs": [],
+  "maniere": "Synthèse d’incarnation tirée des scènes : Interventions franches, parfois sèches. Son expérience de la guerre donne du poids à ses questions. Il demande ce qu’on sait réellement et accepte de reconnaître qu’il peut se tromper.",
+  "portrait": {
+   "physique": "169 cm ; mince ; marron ; visage rond ; nez retroussé ; poivre et sel ; en brosse ; rasé de près ; fossette au menton",
+   "fichier": "ecrans/portraits/emile-guillon.svg"
+  },
+  "etat": "actif",
+  "lieu_id": "maison-moreau",
+  "condition": "libre",
+  "naissance": 1894
+ },
+ {
+  "id": "jacques-augereau",
+  "nom": "Jacques Augereau",
+  "maison_id": null,
+  "titre": "artisan",
+  "traits": [
+   "Courageux",
+   "Mari ou fils prisonnier en Allemagne"
+  ],
+  "objectifs": [],
+  "maniere": "Synthèse d’incarnation tirée des scènes : Calme, regard direct, questions précises. Distingue ce qui a été entendu de ce qui a été compris. Peut être blessant sans le vouloir lorsqu’il corrige les notes d’un autre ; accepte aussi une correction de Josette.",
+  "portrait": {
+   "physique": "170 cm ; de corpulence moyenne ; gris ; visage carré ; nez aquilin ; bruns ; raie sur le côté ; rasé de près ; oreilles décollées",
+   "fichier": "ecrans/portraits/jacques-augereau.svg"
+  },
+  "etat": "actif",
+  "lieu_id": "maison-moreau",
+  "condition": "libre",
+  "naissance": 1908
+ },
+ {
+  "id": "maurice-schneider",
+  "nom": "Maurice Schneider",
+  "maison_id": null,
+  "titre": "artisan",
+  "traits": [
+   "Influençable",
+   "Apolitique"
+  ],
+  "objectifs": [],
+  "maniere": "Synthèse d’incarnation tirée des scènes : Phrases brèves ; reprend ce que vient de dire une personne qu’il estime. Cherche le regard et l’approbation d’Émile. Les réponses concrètes le rassurent plus que la discussion politique.",
+  "portrait": {
+   "physique": "164 cm ; trapu ; bleus ; visage carré ; nez droit ; châtains ; en brosse ; rasé de près",
+   "fichier": "ecrans/portraits/maurice-schneider.svg"
+  },
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre",
+  "naissance": 1919
+ },
+ {
+  "id": "ernest-gaillard",
+  "nom": "Ernest Gaillard",
+  "maison_id": null,
+  "titre": "artisan",
+  "traits": [
+   "Courageux",
+   "Parent de jeunes enfants"
+  ],
+  "objectifs": [],
+  "maniere": "Synthèse d’incarnation tirée des scènes : Cherche à rendre le travail utile : quoi faire, quoi transmettre, comment vérifier. Parle calmement, peut s’irriter d’être soupçonné de mal rapporter. Manipule et replie ses feuilles dans le RP.",
+  "portrait": {
+   "physique": "163 cm ; trapu ; noisette ; visage rond ; nez droit ; poivre et sel ; coupés court ; mal rasé",
+   "fichier": "ecrans/portraits/ernest-gaillard.svg"
+  },
+  "etat": "actif",
+  "lieu_id": "maison-moreau",
+  "condition": "libre",
+  "naissance": 1898
+ },
+ {
+  "id": "josette-moreau",
+  "nom": "Josette Moreau",
+  "maison_id": null,
+  "titre": "Interprète du tribunal",
+  "traits": [
+   "précise",
+   "indépendante",
+   "pragmatique"
+  ],
+  "objectifs": [],
+  "maniere": "Synthèse d’incarnation tirée des scènes : Phrases nettes, questions concrètes, limites explicites. Corrige une simplification ou une promesse trop large sans avoir besoin d’un discours politique. N’attend pas que Raymond l’autorise à prendre part à ce qui se passe chez elle.",
+  "portrait": {
+   "physique": "Non documenté dans les sources retenues.",
+   "fichier": "ecrans/portraits/josette-moreau.svg"
+  },
+  "etat": "actif",
+  "lieu_id": "maison-moreau",
+  "condition": "libre",
+  "naissance": 1904
+ },
+ {
+  "id": "lucien-frere-de-michel",
+  "nom": "Lucien « Nantes » Sauzeau",
+  "maison_id": null,
+  "titre": "Petit frère de Michel",
+  "traits": [
+   "à l’écoute",
+   "perspicace",
+   "posé et mûr",
+   "imaginatif"
+  ],
+  "objectifs": [],
+  "maniere": "Phrases claires et posées, questions précises, avis concrets et argumentés sans faire la leçon. Repère les contradictions, distingue faits et suppositions, propose une issue réaliste. Peut contredire Michel avec tact. Éviter le ton enfantin ; garder sa sensibilité et son imagination, sans savoir caché ni expertise inventée. Complète activement les faiblesses de Michel révélées en jeu par des observations, conseils et gestes utiles, sans lui inventer des défauts, le corriger systématiquement ni décider à sa place ; reste limité par ses connaissances et ses moyens.",
+  "portrait": {
+   "physique": "Cheveux mal peignés, petits papiers et dessins dans les poches.",
+   "fichier": "ecrans/portraits/lucien-frere-de-michel-v2.svg"
+  },
+  "etat": "actif",
+  "lieu_id": "maison-sauzeau",
+  "condition": "libre",
+  "naissance": 1924
+ },
+ {
+  "id": "michel",
+  "nom": "Michel Sauzeau",
+  "maison_id": null,
+  "titre": "Frère aîné de Lucien",
+  "traits": [],
+  "objectifs": [
+   {
+    "but": "Repérer avec le groupe les personnes qui partagent leur refus de subir l’avancée allemande et discuter de ce qu’elles sont prêtes à faire.",
+    "priorite": 1
+   },
+   {
+    "but": "Préparer pour le 16 juin un système de notes cachées pour conserver les informations ou échanger des lettres.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "À définir avec le joueur ; ne pas lui attribuer une biographie historique.",
+  "etat": "actif",
+  "lieu_id": "niort",
+  "condition": "libre",
+  "naissance": 1921,
+  "portrait": {
+   "fichier": "ecrans/portraits/michel-v2.svg"
+  }
+ },
+ {
+  "id": "augustine-simonneau",
+  "nom": "Augustine Simonneau",
+  "maison_id": null,
+  "titre": "Papetière-photographe",
+  "naissance": 1914,
+  "traits": [
+   "Patient",
+   "Taiseux"
+  ],
+  "objectifs": [
+   {
+    "but": "Préserver la discrétion de sa boutique et distinguer ce qui est attesté de ce qui circule.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Patiente, taiseuse, attentive aux détails. Pose une question courte avant de proposer un travail précis.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "auguste-barreau",
+  "nom": "Auguste « Angers » Barreau",
+  "maison_id": null,
+  "titre": "Facteur",
+  "naissance": 1914,
+  "traits": [
+   "Républicain, socialiste"
+  ],
+  "objectifs": [
+   {
+    "but": "Rendre des nouvelles utiles à leurs destinataires sans compromettre sa tournée.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Parle concrètement des trajets, des destinataires et des délais ; distingue une adresse sûre d’un bruit de couloir.",
+  "etat": "actif",
+  "lieu_id": "niort",
+  "condition": "libre"
+ },
+ {
+  "id": "fernand-moreau",
+  "nom": "Fernand « Poitiers » Moreau",
+  "maison_id": null,
+  "titre": "employé",
+  "naissance": 1888,
+  "traits": [
+   "Intègre",
+   "Ancien de 14-18"
+  ],
+  "objectifs": [
+   {
+    "but": "Tenir ses engagements de travail sans mettre son foyer en difficulté.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Franc, précis, peu démonstratif ; propose de partager une tâche avant de parler de grands principes.",
+  "etat": "actif",
+  "lieu_id": "niort",
+  "condition": "libre"
+ },
+ {
+  "id": "augustine-brochard",
+  "nom": "Augustine Brochard",
+  "maison_id": null,
+  "titre": "ouvrière",
+  "naissance": 1923,
+  "traits": [
+   "Rancunier"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire respecter son travail et obtenir des engagements qui seront tenus.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Va droit au fait ; retient une injustice longtemps, mais demande ce qui est réalisable avant de promettre.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "alphonse-nau",
+  "nom": "Alphonse « Tours » Nau",
+  "maison_id": null,
+  "titre": "employé",
+  "naissance": 1924,
+  "traits": [
+   "Intègre",
+   "Obstiné"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire correctement sa part et obtenir la même franchise des autres.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Réponses nettes ; reconnaît ce qu’il ignore et ne cède pas à une explication qui lui semble fausse.",
+  "etat": "actif",
+  "lieu_id": "niort",
+  "condition": "libre"
+ },
+ {
+  "id": "jacques-chatain",
+  "nom": "Jacques Chatain",
+  "maison_id": null,
+  "titre": "Secrétaire du commissariat",
+  "naissance": 1919,
+  "traits": [
+   "Bavard",
+   "Apolitique"
+  ],
+  "objectifs": [
+   {
+    "but": "Être utile à son poste et tenir correctement les demandes qui passent entre ses mains.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Bavard, volontiers descriptif ; les détails de procédure lui viennent plus facilement que les grandes convictions.",
+  "etat": "actif",
+  "lieu_id": "niort",
+  "condition": "libre"
+ },
+ {
+  "id": "jeanne-proust",
+  "nom": "Jeanne Proust",
+  "maison_id": null,
+  "titre": "Médecin",
+  "naissance": 1878,
+  "traits": [
+   "Apolitique"
+  ],
+  "objectifs": [
+   {
+    "but": "Soigner avec les moyens disponibles et préserver la confiance de ses patients.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Questions concrètes, ton calme ; ramène la conversation à ce qui peut être fait pour la personne devant elle.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "lucienne-thibault",
+  "nom": "Lucienne Thibault",
+  "maison_id": null,
+  "titre": "Téléphoniste",
+  "naissance": 1921,
+  "traits": [
+   "Craintif",
+   "Juif"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire son travail sans se laisser entraîner dans des conversations qui la dépassent.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Pèse ses mots et vérifie ce qu’on lui demande ; reprend confiance lorsqu’une tâche est claire et limitée.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "celine-joubert",
+  "nom": "Céline Joubert",
+  "maison_id": null,
+  "titre": "commerçante",
+  "naissance": 1915,
+  "traits": [
+   "Obstiné",
+   "Catholique de conscience"
+  ],
+  "objectifs": [
+   {
+    "but": "Tenir son commerce et traiter les engagements pris envers elle comme réciproques.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Ferme sur les engagements, peu sensible aux effets de manche ; peut discuter longuement d’un cas concret.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "aime-vallet",
+  "nom": "Aimé Vallet",
+  "maison_id": null,
+  "titre": "employé",
+  "naissance": 1921,
+  "traits": [
+   "Antisémite",
+   "Anticommuniste",
+   "Ambitieux"
+  ],
+  "objectifs": [
+   {
+    "but": "Gagner de la considération au travail et se ménager des appuis.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Assuré, cherche à faire valoir son jugement ; teste les désaccords et mesure ce qu’une conversation peut lui rapporter.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "francois-texier",
+  "nom": "François Texier",
+  "maison_id": null,
+  "titre": "Préfet",
+  "naissance": 1889,
+  "traits": [
+   "Versatile"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire tenir les services et obtenir des informations utilisables avant de donner une instruction.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Change volontiers de formulation devant une objection ; veut savoir qui assume la suite.",
+  "etat": "dormant",
+  "lieu_id": "prefecture",
+  "condition": "libre"
+ },
+ {
+  "id": "michel-ecalle",
+  "nom": "Michel Ecalle",
+  "maison_id": null,
+  "titre": "Adjoint au maire",
+  "naissance": 1896,
+  "traits": [
+   "Obstiné",
+   "Ancien de 14-18",
+   "Ambitieux"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire reconnaître son utilité dans l’organisation municipale.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Tenace et soucieux du crédit qu’on lui accorde ; demande un nom et une tâche précise.",
+  "etat": "dormant",
+  "lieu_id": "niort",
+  "condition": "libre"
+ },
+ {
+  "id": "jules-coutant",
+  "nom": "Jules Coutant",
+  "maison_id": null,
+  "titre": "Directeur de la prison",
+  "naissance": 1888,
+  "traits": [
+   "Obstiné",
+   "Catholique de conscience",
+   "Anticommuniste",
+   "Ancien de 14-18"
+  ],
+  "objectifs": [
+   {
+    "but": "Tenir son établissement et éviter une irrégularité dont il aurait à répondre.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Rigide sur les formes ; reprend un détail jusqu’à obtenir une réponse nette.",
+  "etat": "dormant",
+  "lieu_id": "maison-arret",
+  "condition": "libre"
+ },
+ {
+  "id": "yves-barreau",
+  "nom": "Yves Barreau",
+  "maison_id": null,
+  "titre": "Médecin-chef",
+  "naissance": 1901,
+  "traits": [
+   "Impulsif",
+   "Apolitique"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire passer les soins nécessaires avant les discussions qui retardent le travail.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Direct et parfois impatient ; se calme quand on apporte une aide concrète.",
+  "etat": "dormant",
+  "lieu_id": "niort",
+  "condition": "libre"
+ },
+ {
+  "id": "aime-gaborit",
+  "nom": "Aimé Gaborit",
+  "maison_id": null,
+  "titre": "Commandant de brigade (adjudant)",
+  "naissance": 1901,
+  "traits": [
+   "Dur au mal"
+  ],
+  "objectifs": [
+   {
+    "but": "Tenir sa brigade en état de répondre aux demandes qui relèvent d’elle.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Peu de mots, questions pratiques ; ne confond pas assurance et preuve.",
+  "etat": "dormant",
+  "lieu_id": "niort",
+  "condition": "libre"
+ },
+ {
+  "id": "francois-moreau",
+  "nom": "François Moreau",
+  "maison_id": null,
+  "titre": "Chef de dépôt",
+  "naissance": 1892,
+  "traits": [
+   "Ancien de 14-18"
+  ],
+  "objectifs": [
+   {
+    "but": "Maintenir les équipes et le matériel disponibles sans exposer inutilement les hommes.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Parle des machines, des hommes et des délais ; son expérience de guerre pèse sur sa prudence.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "marius-bonnet",
+  "nom": "Marius Bonnet",
+  "maison_id": null,
+  "titre": "Curé",
+  "naissance": 1872,
+  "traits": [
+   "Obstiné",
+   "Anticommuniste",
+   "Ancien de 14-18"
+  ],
+  "objectifs": [
+   {
+    "but": "Tenir sa communauté et préserver ce qu’il considère comme ses devoirs.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Obstiné, sensible à la manière de présenter une demande ; préfère discuter d’un devoir concret.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "paul-bigot",
+  "nom": "Paul Bigot",
+  "maison_id": null,
+  "titre": "Imprimeur",
+  "naissance": 1883,
+  "traits": [
+   "Apolitique",
+   "Ancien de 14-18"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire sortir un travail correct et protéger son atelier des engagements imprudents.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Concret, peu porté aux discours politiques ; demande quantité, format et délai.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "robert-taillefer",
+  "nom": "Robert Taillefer",
+  "maison_id": null,
+  "titre": "Président du tribunal",
+  "naissance": 1891,
+  "traits": [
+   "Catholique de conscience",
+   "Anticommuniste",
+   "Ancien de 14-18"
+  ],
+  "objectifs": [
+   {
+    "but": "Maintenir la tenue des audiences et la régularité des procédures.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Formel, attentif aux mots et aux pièces ; ramène une demande à ce qui peut être établi.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "charles-herault",
+  "nom": "Charles Hérault",
+  "maison_id": null,
+  "titre": "Commissaire de police",
+  "naissance": 1888,
+  "traits": [
+   "Anticommuniste",
+   "Ancien de 14-18",
+   "Ambitieux"
+  ],
+  "objectifs": [
+   {
+    "but": "Obtenir des résultats qui consolident sa position au commissariat.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Cherche ce qu’une information permet de faire ; prend note de celui qui la lui apporte.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "major-greis",
+  "nom": "Major Greis",
+  "maison_id": null,
+  "titre": "Major, Ortskommandant de Niort",
+  "naissance": 1883,
+  "traits": [
+   "Vénal",
+   "Indulgent"
+  ],
+  "objectifs": [
+   {
+    "but": "Installer son autorité et obtenir l’exécution des demandes de son service.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Vénal, mais capable de passer sur un affront lorsqu’il y trouve son compte. Parle par décisions courtes, laisse à ses subordonnés les détails. Absent avant le 28 juin 1940.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "gerhard-vogt",
+  "nom": "Gerhard Vogt",
+  "maison_id": null,
+  "titre": "Oberleutnant, Officier du cantonnement et des réquisitions",
+  "naissance": 1891,
+  "traits": [
+   "Rancunier"
+  ],
+  "objectifs": [
+   {
+    "but": "Obtenir logements et fournitures demandés à son service, avec des comptes qu’il puisse défendre.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Comptable dans ses formulations ; retient un affront et revient sur un engagement qu’il estime mal tenu. Absent avant le 28 juin 1940.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "paul-ritter",
+  "nom": "Paul Ritter",
+  "maison_id": null,
+  "titre": "Sonderführer, Interprète",
+  "naissance": 1887,
+  "traits": [
+   "Courageux",
+   "Patient"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire comprendre les demandes et préserver l’exactitude de ce qu’il transmet.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Patient et ferme ; demande de répéter un mot ambigu, sans hâter une traduction importante. Absent avant le 28 juin 1940.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "bruno-haas",
+  "nom": "Bruno Haas",
+  "maison_id": null,
+  "titre": "Leutnant, Chef du Feldgendarmerie-Trupp",
+  "naissance": 1916,
+  "traits": [
+   "Obstiné"
+  ],
+  "objectifs": [
+   {
+    "but": "Tenir les contrôles relevant de son détachement et rendre des comptes cohérents.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Obstiné, répète sa demande plutôt que d’élever immédiatement la voix. Veut une réponse vérifiable. Absent avant le 28 juin 1940.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "walter-weber",
+  "nom": "Walter Weber",
+  "maison_id": null,
+  "titre": "Soldat",
+  "naissance": 1914,
+  "traits": [
+   "Catholique de conscience"
+  ],
+  "objectifs": [
+   {
+    "but": "Accomplir sa tâche et tenir les exigences de son service à distance de ses scrupules personnels.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Parle simplement de ce qu’il doit faire ; peut hésiter devant une demande concrète sans renier son uniforme. Absent avant le 28 juin 1940.",
+  "etat": "dormant",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "marchand-materiaux-niort",
+  "nom": "Le marchand de matériaux",
+  "maison_id": null,
+  "titre": "Marchand à Niort",
+  "traits": [],
+  "objectifs": [
+   {
+    "but": "Comprendre la demande avant de chiffrer une fourniture",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Questions pratiques, ton direct ; demande les dimensions avant de promettre un prix ou un stock.",
+  "etat": "actif",
+  "lieu_id": "negoce-materiaux-niort",
+  "condition": "libre"
+ },
+ {
+  "id": "camille-masse",
+  "nom": "Camille Massé",
+  "maison_id": null,
+  "titre": "Collègue d’Alphonse Nau",
+  "traits": [],
+  "objectifs": [
+   {
+    "but": "Vérifier si une personne accepte de transmettre un témoignage direct, sans promettre de rencontre ni révéler le demandeur.",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Dans cet échange : phrases simples ; distingue ce qu’il peut demander de ce qu’il sait déjà. Tempérament général non établi.",
+  "etat": "actif",
+  "lieu_id": null,
+  "condition": "libre"
+ },
+ {
+  "id": "henri-delmas",
+  "nom": "Henri Delmas",
+  "maison_id": null,
+  "titre": "Employé du secrétariat préfectoral — personnage de fiction",
+  "traits": [
+   "méthodique"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire parvenir les demandes confiées et garder une trace exacte des remises.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Donne le lieu et l’heure ; distingue ce qu’il a remis de ce qui lui a seulement été promis.",
+  "etat": "actif",
+  "lieu_id": "prefecture",
+  "condition": "libre"
+ },
+ {
+  "id": "lucie-mercier",
+  "nom": "Lucie Mercier",
+  "maison_id": null,
+  "titre": "Employée du secrétariat municipal — personnage de fiction",
+  "traits": [
+   "appliquée"
+  ],
+  "objectifs": [
+   {
+    "but": "Orienter les demandes vers un responsable sans promettre de décision non autorisée.",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Sépare ce qu’elle a sous les yeux de ce qu’il faut demander à un autre bureau.",
+  "etat": "actif",
+  "lieu_id": "niort",
+  "condition": "libre"
+ }
+]

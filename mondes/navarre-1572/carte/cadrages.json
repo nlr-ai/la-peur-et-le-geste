@@ -1,0 +1,26 @@
+{
+ "_": "LA TABLE DE NAVARRE 1572 — le royaume de France, ses cotes, ses fleuves et ses frontieres de 1572. La geometrie vit dans geo.js (engendre par dessiner_geo.py, servi a la place de Westeros par serveur/routes/geo.js). `tout` montre le royaume entier ; `repos` serre sur l'Ile-de-France : Paris, Meaux, Senlis, Chatillon-sur-Loing, Orleans.",
+ "cadrages": {
+  "tout": "royaume",
+  "repos": "ile-de-france"
+ },
+ "mers": [
+  [120, 85, "La Manche"],
+  [60, 279, "L'Océan"],
+  [377, 463, "La mer du Levant"]
+ ],
+ "etiquettes": {
+  "paris": [4, -2, "d"],
+  "meaux": [4, 1, "d"],
+  "senlis": [4, -2, "d"],
+  "chatillon-sur-loing": [4, 1, "d"],
+  "orleans": [-4, 1, "g"],
+  "la-rochelle": [4, 1, "d"],
+  "pau": [4, 1, "d"],
+  "nerac": [4, 1, "d"]
+ },
+ "regions": {
+  "etranger": null
+ },
+ "_regions": "Trois regions : `etranger` (le fond, sans etiquette), `royaume` (le royaume de France en 1572) et `bearn` (le Bearn et la Basse-Navarre, souverains). L'habillage les teint par .region-terre[data-region=...]."
+}

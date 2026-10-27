@@ -10,7 +10,7 @@
     const p = window.Gens ? Gens.qui(it.locuteur_id)
       : (window.Presents || {})[it.locuteur_id] || { nom: it.locuteur_id };
     const entree = Bus.chronique("chr-replique", p.nom, it.texte,
-      { avatar: p.portrait_svg, role: it.role || p.titre });
+      { avatar: p.portrait_svg, role: it.role || p.titre, locuteur_id: it.locuteur_id });
     if (window.Gens) Gens.marquer(entree, it.locuteur_id);
     // s'il montre en même temps qu'il parle, sa main pose sur la table peinte
     if (window.Illustration) Illustration.poser(entree, it);

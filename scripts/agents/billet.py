@@ -204,11 +204,22 @@ def _reveiller(qui, modele=None, minutes=MINUTES, contexte_id=None,
     if contexte_id is not None:
         from agents.depeche.contexte_affaire import focaliser
         contexte = focaliser(contexte, contexte_id)
-    manuel = manuel_de(qui, mode="journee", contexte=contexte)
-    texte = mission(qui, brief, u"", contexte=contexte,
-                    contexte_id=contexte_id, ref=ref, billet_de=de)
+    manuel = manuel_de(qui, mode="discussion", contexte=contexte)
+    consigne = (
+        "Traite uniquement le billet reçu. Ne recommence pas une journée ni "
+        "une tournée de tes affaires. Si ce billet demande une réponse, "
+        "vérifie les faits utiles puis envoie une seule fois ta propre réponse "
+        "par python scripts/parloir.py --dire --de %s --a %s. "
+        "Conserve le contexte et la ref de cet appel dans cet envoi. "
+        "Un retour qui clôt la question ne demande ni merci, ni accusé, ni "
+        "reformulation, ni nouvelle recherche de la même information. "
+        "Si rien de nouveau ne change ta décision, garde le silence et termine."
+        % (qui, de))
+    texte = mission(qui, brief, consigne, contexte=contexte,
+                    contexte_id=contexte_id, ref=ref, billet_de=de,
+                    mode="discussion")
     rep = appeler(qui, manuel, texte, sid, modele, minutes, attendre=False,
-                  contexte_id=contexte_id, ref=ref)
+                  contexte_id=contexte_id, ref=ref, mode="discussion")
     # Le depart a pris : ce reveil a vu le canal qui l'a provoque. Un reveil
     # focalise ne consomme plus en silence les billets de tous les autres.
     chambre.marquer_lu(qui, de) if de else chambre.marquer_lus(qui)

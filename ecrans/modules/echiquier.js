@@ -1337,6 +1337,7 @@ window.Echiquier = (() => {
     ouvrir.addEventListener("click", (ev) => { ev.stopPropagation(); ouvrirLivre(); });
     pied.appendChild(ouvrir);
     f.appendChild(pied);
+    if (p.commentaire && a) f.appendChild(formulaireCommentaire(p, a));
 
     // CE QUI CASSE ET CE QUI EST MAL TENU NE SE DISENT PAS DE LA MÊME ENCRE.
     // La rupture est rouge — la remontée s'arrête là. Le reste est une note :
@@ -1346,6 +1347,80 @@ window.Echiquier = (() => {
       f.appendChild(ligne(rompt(p) ? "ech-e-mal" : "ech-e-note", x));
     });
     return f;
+  }
+
+  const commentaires = new Map();
+  function formulaireCommentaire(p, a) {
+    const cle = a.id + "/" + p.cle;
+    if (!commentaires.has(cle)) commentaires.set(cle, { texte: "", ouvert: false });
+    const brouillon = commentaires.get(cle);
+    const bloc = document.createElement("section");
+    bloc.className = "ech-commentaire";
+    const ouvrir = document.createElement("button");
+    ouvrir.type = "button";
+    ouvrir.className = "ech-e-ouvrir";
+    ouvrir.textContent = "Commenter · " + p.commentaire.nom;
+    const form = document.createElement("form");
+    form.hidden = !brouillon.ouvert;
+    const label = document.createElement("label");
+    label.textContent = "À " + p.commentaire.nom + " · n° " + p.numero;
+    const champ = document.createElement("textarea");
+    champ.rows = 3;
+    champ.maxLength = 12000;
+    champ.placeholder = "Votre commentaire sur ce nœud…";
+    champ.value = brouillon.texte;
+    champ.required = true;
+    label.appendChild(champ);
+    const envoi = document.createElement("button");
+    envoi.type = "submit";
+    envoi.className = "ech-e-ouvrir";
+    envoi.textContent = "Envoyer à " + p.commentaire.nom;
+    envoi.disabled = !!brouillon.envoi;
+    const statut = document.createElement("p");
+    statut.setAttribute("role", "status");
+    statut.textContent = brouillon.statut || "La ligne du cahier et ses dépendances seront jointes.";
+    champ.addEventListener("input", () => { brouillon.texte = champ.value; });
+    bloc.addEventListener("click", ev => ev.stopPropagation());
+    bloc.addEventListener("keydown", ev => ev.stopPropagation());
+    ouvrir.addEventListener("click", () => {
+      brouillon.ouvert = !brouillon.ouvert;
+      form.hidden = !brouillon.ouvert;
+      ouvrir.setAttribute("aria-expanded", String(brouillon.ouvert));
+      boite().classList.toggle("ech-commenter", brouillon.ouvert);
+      if (derniere) poser(derniere.cible);
+      if (brouillon.ouvert) {
+        champ.focus();
+        form.scrollIntoView({ block: "nearest" });
+      }
+    });
+    ouvrir.setAttribute("aria-expanded", String(brouillon.ouvert));
+    form.addEventListener("submit", async ev => {
+      ev.preventDefault();
+      if (brouillon.envoi || !champ.value.trim()) return;
+      brouillon.envoi = true;
+      envoi.disabled = champ.disabled = true;
+      statut.textContent = "Enregistrement…";
+      try {
+        const r = await fetch("/action", { method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ type: "commentaire", mode: "commenter",
+            affaire_id: a.id, node_id: p.cle, texte: champ.value }) });
+        const retour = await r.json();
+        if (!r.ok || !retour.ok) throw new Error(retour.erreur || "Envoi refusé.");
+        brouillon.texte = champ.value = "";
+        brouillon.statut = "Commentaire enregistré pour " + p.commentaire.nom +
+          " · n° " + retour.contexte_id + ".";
+      } catch (e) {
+        brouillon.statut = "Envoi non confirmé : " + e.message;
+      } finally {
+        brouillon.envoi = false;
+        envoi.disabled = champ.disabled = false;
+        statut.textContent = brouillon.statut;
+      }
+    });
+    form.append(label, envoi, statut);
+    bloc.append(ouvrir, form);
+    return bloc;
   }
 
   function corpsTexte(titre, dit, mal) {
@@ -1456,6 +1531,7 @@ window.Echiquier = (() => {
       e.style.setProperty("--ech-lignes", essais[i].serre || "");
       e.appendChild(p.genre ? (complet ? corpsPiece(p) : corpsCourt(p))
         : corpsTexte(p.titre, p.dit, p.mal));
+      if (e.querySelector(".ech-commentaire form:not([hidden])")) e.classList.add("ech-commenter");
       e.hidden = false;
       if (window.Entites) Entites.traiter(e);
       poser(cible);

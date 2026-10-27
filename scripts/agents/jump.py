@@ -12,9 +12,10 @@ import os
 import re
 
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.abspath(__file__))))
-ETAT = os.path.join(RACINE, "etat")
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 MAX_HOMMES = 3
 MIN_ECART_JUMP_HEURES = 24
 MINUTES_PAR_JOUR = 24 * 60
@@ -131,4 +132,22 @@ def preparer(consigne="", evenements=None, monde=None, tissu=None,
             "arbitrage_mj": True,
             "sortie": "jouer immédiatement une scène puis rendre la main",
         },
+    }
+
+
+def preparer_scene(consigne="", joueurs=None):
+    """Prépare une ellipse narrative, même sans événement programmé."""
+    monde = _lire_json(os.path.join(ETAT, "monde.json"), {})
+    evenements = _lire_json(os.path.join(ETAT, "evenements.json"), [])
+    if isinstance(evenements, dict):
+        evenements = evenements.get("evenements", [])
+    return {
+        "version": "passer/1",
+        "depart": monde.get("date", {}),
+        "consigne": consigne,
+        "joueurs": joueurs or [],
+        "evenements": [e for e in evenements if isinstance(e, dict)
+                       and e.get("statut") in ("a-venir", "programme")],
+        "contrat": {"decision_joueur": False, "depeches_attendues": False,
+                    "sortie": "ouvrir la prochaine scène d'intérêt puis rendre la main"},
     }

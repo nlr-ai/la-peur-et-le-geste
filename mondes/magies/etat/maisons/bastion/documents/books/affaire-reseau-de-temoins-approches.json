@@ -1,0 +1,477 @@
+{
+ "id": "affaire-reseau-de-temoins-approches",
+ "maison_id": "bastion",
+ "titre": "La guette sans yeux — lier les pierres d'approche aux cloches d'alerte",
+ "sous_titre": "🔍 Proposition de plan magique de Divination par ILYAN SERE, devin retourné. Système d'alarme précoce par affinité de témoins matériels, sans voyance active ni risque de Retour de regard.",
+ "type": "plan",
+ "embleme": "🔍",
+ "couleur": "#3a5a40",
+ "lieu_id": "bastion-couronne",
+ "salle_id": "conseil-couronne",
+ "tenu_par": "ilyan-sere",
+ "office": "O03",
+ "pages": [
+  "LA DIVINATION NE LIT PAS L'AVENIR : ELLE LIT LE CONTACT. Un devin ne voit que ce qui touche un témoin qu'il tient déjà en main. Si vous n'avez pas un morceau de la chose, vous ne voyez rien du tout. Et pire : quand un devin projette son regard au loin, le vide lui renvoie son reflet sous forme d'un Retour de regard qui lui brûle la cornée et lui mange la mémoire. Ce plan bannit la voyance active.",
+  "CE QUE PROPOSE L'ATELIER POUR L'APPROCHE DU BASTION. Au lieu d'asseoir un guetteur dans le froid du clocher ou de forcer un devin à scruter la nuit jusqu'à la cécité, nous semons sur les sentiers d'approche des galets de basalte prélevés dans la même fente de lave que ceux que nous gardons au poste. Quand un corps pesant foule le galet du dehors, le galet du poste frémit par simple sympathie de masse.",
+  "QUATRE ÉLÉMENTS CLAIREMENT IDENTIFIÉS. Les galets et les clochettes de plomb que nous demandons (la ressource), l'abandon de la transe mentale au profit du tintement purement matériel (le mécanisme), le coffret amortisseur à lit de sable pour étouffer le vent (l'ajout), et l'autorisation de poser des pièges passifs en zone franche extérieure (la validation)."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "La guette sans yeux — lier les pierres d'approche aux cloches d'alerte.",
+      "Nom de l'affaire.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Démontrer que la Divination par témoins matériels jumeaux peut avertir de l'approche d'hommes en armes à 300 pas des remparts, de nuit et sans guetteur exposé ni fatigue de praticien.",
+      "But d'épreuve.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Le sentier des Muletiers, le talus des Roches-Noires, 30 galets de basalte jumelés, le poste de guet de la barbacane, 6 clochettes en plomb fondu.",
+      "Ce qui entre.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "L'identification nominale des intrus, la prédiction d'intention, et les approches par voie de mer.",
+      "Ce qui sort.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "Deux sentinelles en permanence sur la barbacane extérieure, gelées en hiver, souvent surprises par les brumes de mer.",
+      "Constat.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "",
+      "À poser lors du test nocturne grandeur réelle.",
+      "non"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Une patrouille de cinq cavaliers simulés aura déclenché la sonnerie du poste trois minutes avant d'atteindre la portée d'arc, sans qu'aucun guetteur n'ait regardé dehors.",
+      "Condition de succès.",
+      "**oui**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⛓️ Ce qui pend, et sur qui — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🧭 Sens",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "🔗 L'affaire"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "—",
+      "",
+      "",
+      "rien ne traverse"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔨🪶 Ce qu'on engage, et qui d'autre le veut — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🔢 La pièce",
+    "⚔️ Nos actions",
+    "🔗 Aussi engagée par"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "—",
+      "",
+      "aucun moyen, aucun office"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🕳️ Les trous — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🕳️ Le défaut",
+    "🔢 Les pièces"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "aucun — la chaîne tient de bout en bout",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "N°",
+    "L'état visé",
+    "Pourquoi c'est l'état visé",
+    "Ce que ça coûte",
+    "La preuve",
+    "Poids"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "C.1",
+      "Faire retentir l'alarme avant que l'ennemi ne voie la courtine",
+      "Donne le temps de lever la herse et d'allumer les feux de barrage.",
+      "La pose méticuleuse des pierres jumelles.",
+      "Clochette sonnée alors que la troupe est encore invisible derrière le repli de terrain.",
+      "**100%**"
+     ]
+    },
+    {
+     "cellules": [
+      "C.2",
+      "Éliminer à 100% le danger de Retour de regard sur le devin",
+      "Préserve l'intégrité mentale des spécialistes du Bastion.",
+      "Le refus strict de toute projection visuelle psychique.",
+      "Ilyan Sere ne regarde aucun bassin d'eau et n'a aucune migraine après l'alerte.",
+      "**95%**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous",
+   "colonnes": [
+    "N°",
+    "Le verrou",
+    "Ce qu'il bloque",
+    "Pourquoi il tient"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "V.1",
+      "Le parasitage par le piétinement de bêtes sauvages",
+      "C.1",
+      "Un renard ou un lièvre marchant sur la pierre fait tinter la cloche et déclenche une fausse alerte générale."
+     ]
+    },
+    {
+     "cellules": [
+      "V.2",
+      "La désynchronisation par éloignement temporel",
+      "C.2",
+      "Deux pierres jumelles coupées depuis plus d'une lune perdent leur résonance si elles ne sont pas remises en présence."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "N°",
+    "La clef",
+    "Ouvre",
+    "Principe de levée"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "K.1",
+      "Le seuil de masse par ressort de plomb",
+      "V.1",
+      "La clochette n'est libérée que si la force exercée au sol dépasse le poids de 40 livres (seuil d'un homme armé)."
+     ]
+    },
+    {
+     "cellules": [
+      "K.2",
+      "Le bain mensuel dans l'huile de suif tiède",
+      "V.2",
+      "Plonger ensemble les pierres témoins dans un même corps gras une fois par mois pour rafraîchir leur identité de source."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions — les pratiques",
+   "colonnes": [
+    "N°",
+    "🏷️ Typologie",
+    "L'action",
+    "Ce qu'on fait",
+    "Où",
+    "Titulaire",
+    "Dépend",
+    "La preuve",
+    "État",
+    "📅 Échéance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "P.1",
+      "📦 Ressource demandée",
+      "Prélèvement et jumelage des 30 galets",
+      "Fendre 15 nodules de basalte homogène en deux moitiés polies numérotées et fondre 6 clochettes en plomb doux.",
+      "Atelier d'Ilyan",
+      "ilyan-sere",
+      "",
+      "15 paires étiquetées et vérifiées sur la balance",
+      "à faire",
+      "J.1"
+     ]
+    },
+    {
+     "cellules": [
+      "P.2",
+      "⚙️ Changement de mécanisme",
+      "Remplacement de la transe par couplage mécanique",
+      "Fixer la moitié intérieure au battant de la clochette ; l'énergie du choc extérieur actionne directement le métal.",
+      "Poste de la barbacane",
+      "ilyan-sere",
+      "P.1",
+      "Tintement produit au poste en frappant la pierre jumelle du dehors",
+      "à faire",
+      "J.2"
+     ]
+    },
+    {
+     "cellules": [
+      "P.3",
+      "🧩 Ajout",
+      "Coffret de sable amortisseur de vibration",
+      "Enchâsser les cloches réceptrices dans un coffre garni de sable fin pour supprimer les échos du vent.",
+      "Poste de la barbacane",
+      "ilyan-sere",
+      "P.2",
+      "Silence absolu par vent de force 6",
+      "à faire",
+      "J.3"
+     ]
+    },
+    {
+     "cellules": [
+      "P.4",
+      "⚖️ Demande de validation",
+      "Autorisation de pose en dehors des remparts",
+      "Faire signer par le capitaine du guet le plan de dissémination des galets le long du sentier des Muletiers.",
+      "Chancellerie militaire",
+      "ilyan-sere",
+      "",
+      "Billet de mission pour la patrouille de pose",
+      "à faire",
+      "J.2"
+     ]
+    },
+    {
+     "cellules": [
+      "P.5",
+      "⚔️ Pratique d'épreuve",
+      "Simulacre d'approche par les éclaireurs",
+      "Faire monter six hommes en armure de nuit sans torche et vérifier l'heure exacte de la sonnerie au poste.",
+      "Sentier des Muletiers",
+      "ilyan-sere",
+      "P.3, P.4",
+      "Tintement enregistré 4 minutes avant l'arrivée au pont-levis",
+      "à faire",
+      "J.4"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "📦 Ressources demandées",
+   "colonnes": [
+    "N°",
+    "Ressource",
+    "Quantité / Spécification",
+    "Affectée par / Sur",
+    "Justification",
+    "⏳ État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "R.1",
+      "Nodules de basalte compact de coulée",
+      "15 blocs de la taille du poing, fente nette",
+      "Carrière des Orgues",
+      "Minéral à haute mémoire d'impact sans défaut interne",
+      "demandée"
+     ]
+    },
+    {
+     "cellules": [
+      "R.2",
+      "Clochettes de plomb fondu",
+      "6 pièces coulées avec battant suspendu",
+      "Fonderie des Fournaises (O01)",
+      "Métal sourd ne sonnant que sous une impulsion ciblée",
+      "demandée"
+     ]
+    },
+    {
+     "cellules": [
+      "R.3",
+      "Sable de quartz tamisé fin",
+      "2 sacs de toile étanche",
+      "Dépôt des maçons",
+      "Lit d'amortissement contre les trépidations du vent",
+      "demandée"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚙️ Changements de mécanisme",
+   "colonnes": [
+    "N°",
+    "Mécanisme modifié",
+    "Fonctionnement antérieur",
+    "Nouveau comportement",
+    "Contrainte physique / Risque",
+    "⏳ État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M.1",
+      "Canal de captation divinatoire",
+      "Transe oculaire du devin fixant un miroir de suie ou un bassin",
+      "Transmission directe du choc cinétique d'une pierre à sa jumelle",
+      "Ne donne aucune indication sur la forme ou l'armement de l'intrus : signale seulement une masse en marche",
+      "proposé"
+     ]
+    },
+    {
+     "cellules": [
+      "M.2",
+      "Entretien de la liaison de contact",
+      "Invocation rituelle hebdomadaire",
+      "Bain physique dans un même récipient de suif tiède chaque nouvelle lune",
+      "Si une pierre est déplacée ou volée, le jumelage devient muet sans alerte",
+      "proposé"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🧩 Ajouts",
+   "colonnes": [
+    "N°",
+    "Élément ajouté",
+    "Fonction magique",
+    "Mode d'intégration",
+    "⏳ État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "A.1",
+      "Coffret de veille à lit de sable",
+      "Isole les témoins des trépidations des pas des sentinelles du poste",
+      "Posé sur console de chêne fixée au mur porteur",
+      "proposé"
+     ]
+    },
+    {
+     "cellules": [
+      "A.2",
+      "Ressort de retenue en fil de cuivre",
+      "Filtre mécanique évitant le déclenchement par les rongeurs ou oiseaux",
+      "Monté sur la tête du battant de plomb",
+      "proposé"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚖️ Demandes de validation",
+   "colonnes": [
+    "N°",
+    "Objet de la décision",
+    "Autorité requise",
+    "Conséquence si refus",
+    "⏳ État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "D.1",
+      "Pose de témoins matériels en zone franche non gardée",
+      "Capitaine de la garnison et Héloïse Braise",
+      "Les pierres ne pourront être posées que dans les fossés, réduisant le préavis à trente pas",
+      "en attente"
+     ]
+    },
+    {
+     "cellules": [
+      "D.2",
+      "Intégration du tintement au code officiel d'alarme",
+      "Yselde Arquen et doyen des veilleurs",
+      "Le tintement sera considéré comme un simple avertissement d'atelier sans mise aux armes",
+      "en attente"
+     ]
+    }
+   ]
+  }
+ ]
+}

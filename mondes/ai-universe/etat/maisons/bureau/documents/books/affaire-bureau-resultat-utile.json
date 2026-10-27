@@ -1,0 +1,318 @@
+{
+ "id": "affaire-bureau-resultat-utile",
+ "titre": "Le bureau produit un résultat utile",
+ "type": "plan",
+ "maison_id": "bureau",
+ "lieu_id": "bureau",
+ "salle_id": "maya",
+ "tenu_par": "maya",
+ "lecteurs": [
+  "maya",
+  "noor",
+  "hugo",
+  "ada",
+  "leo",
+  "iris",
+  "sam",
+  "zoe"
+ ],
+ "embleme": "🎯",
+ "couleur": "#628a96",
+ "sous_titre": "AI Universe · 2030 · Plage 10000–10999. Cadrage demandé par l'opérateur : états cibles, verrous, clefs et actions.",
+ "pages": [
+  "Passer d'une demande de l'opérateur à un résultat utilisable et vérifié, en s'appuyant sur les affaires, l'échiquier et les habitants existants.",
+  "Les états restent recherchés, non acquis. Les verrous distinguent écart constaté, risque et preuve manquante. Les clefs sont retenues comme hypothèses de travail, révisables après inspection. Les actions sont à faire ; leurs dépendances conditionnent leur démarrage et leur preuve attendue conditionne leur validation. Aucune date ni importance n’est inventée.",
+  "Le moteur et ses fonctionnalités sont conservés : affaires, échiquier, vue château, chambres, dépêches, parloir et fil. Le monde et ses profils sont neufs. Aucun extérieur n'est créé. Sources du cadrage : demandes de l'opérateur et docs/refonte-plan.md."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "Le bureau produit un résultat utile",
+      "Résultat recherché.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Passer d'une demande de l'opérateur à un résultat utilisable et vérifié, en s'appuyant sur les affaires, l'échiquier et les habitants existants.",
+      "Ce que cette affaire rend vrai.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "Huit profils et un plan de salles sont déclarés. Le parcours complet dans la vue château, les affaires et les sessions n'a pas été démontré. Le prototype de bureau séparé ne constitue pas cette livraison.",
+      "Distinguer données posées et comportement vérifié.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "10000–10999",
+      "Numéros propres au plan de cet univers.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Le bureau neuf, raccordé aux fonctions existantes.",
+      "Conserver le moteur.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "Création de l'extérieur ; remplacement du moteur par une application parallèle ; héritage des anciennes vies.",
+      "Respecter le périmètre demandé.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Tous les états cibles ci-dessous ont été constatés par leurs preuves ; les limites restantes sont explicites.",
+      "Une action terminée ne suffit pas.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "États cibles posés ; aucune atteinte encore attestée.",
+      "Ne pas annoncer le résultat avant l'épreuve.",
+      "oui"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "découpe",
+      "affaire-univers-propre",
+      "10000",
+      "11000",
+      "Ce résultat contribue à rendre le bureau utilisable."
+     ]
+    },
+    {
+     "cellules": [
+      "découpe",
+      "affaire-collegues-dans-le-bureau",
+      "10000",
+      "12000",
+      "Ce résultat contribue à rendre le bureau utilisable."
+     ]
+    },
+    {
+     "cellules": [
+      "découpe",
+      "affaire-prochaine-action-lisible",
+      "10000",
+      "13000",
+      "Ce résultat contribue à rendre le bureau utilisable."
+     ]
+    },
+    {
+     "cellules": [
+      "découpe",
+      "affaire-travail-visible-dans-le-fil",
+      "10000",
+      "14000",
+      "Ce résultat contribue à rendre le bureau utilisable."
+     ]
+    },
+    {
+     "cellules": [
+      "découpe",
+      "affaire-travaux-reprenables",
+      "10000",
+      "15000",
+      "Ce résultat contribue à rendre le bureau utilisable."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🎯 L'état",
+    "📏 La preuve",
+    "📅 Jour dû",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**10000**",
+      "Une demande réelle aboutit à un résultat utilisable et vérifié",
+      "L'opérateur confie un travail concret ; son affaire est visible dans l'échiquier ; un agent produit le livrable ; un autre en vérifie le comportement ; l'opérateur ouvre le résultat depuis son fil. Un résultat vide, uniquement déclaré ou inaccessible ne satisfait pas cet état.",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "**10010**",
+      "La suite du travail reste compréhensible après ce résultat",
+      "Depuis le résultat livré ou refusé, l'opérateur retrouve l'état cible concerné, ce qui est constaté, ce qui manque encore et la prochaine action proposée avec sa raison. Une action terminée ne ferme pas à elle seule l'état cible.",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous",
+   "colonnes": [
+    "🔒 N°",
+    "🔒 Le verrou",
+    "🎯 Bloque",
+    "🔎 La preuve"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "10100",
+      "Preuve manquante : aucune livraison complète du nouveau bureau n’est encore consignée.",
+      "10000",
+      "Les cahiers décrivent les cibles ; aucun résultat de session du nouveau monde ne les démontre."
+     ]
+    },
+    {
+     "cellules": [
+      "10101",
+      "Preuve manquante : la clôture et la suite du travail n’ont pas été éprouvées sur une livraison.",
+      "10010",
+      "Cahier affaire-bureau-resultat-utile : les deux états restent des objectifs."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🗝️ La clef",
+    "🔒 Ouvre",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "10200",
+      "Éprouver le bureau sur un livrable utile à son installation.",
+      "10100",
+      "retenue"
+     ]
+    },
+    {
+     "cellules": [
+      "10201",
+      "Décider de la suite depuis les preuves, y compris en cas de refus.",
+      "10101",
+      "retenue"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions",
+   "colonnes": [
+    "⚔️ N°",
+    "⚔️ L’action",
+    "🗝️ Réalise",
+    "🪶 Office",
+    "📅 Jour dû",
+    "⏳ État",
+    "🔨 Moyens",
+    "📝 Note",
+    "🔗 Dépend de",
+    "📏 Preuve attendue"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "10300",
+      "Définir le premier livrable : un guide vérifié pour ouvrir le bureau et retrouver le travail de chacun.",
+      "10200",
+      "O01",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "",
+      "Critères écrits : démarrage reproductible, huit collègues accessibles, affaire et preuve retrouvables ; refus si une étape dépend d’une explication orale."
+     ]
+    },
+    {
+     "cellules": [
+      "10301",
+      "Produire ce guide depuis une demande adressée à Zoé dans le bureau.",
+      "10200",
+      "O08",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "10300, 12301, 13300, 14302, 15300",
+      "Demande, affaire, session réelle, point intermédiaire et guide ouvrable reliés dans le fil."
+     ]
+    },
+    {
+     "cellules": [
+      "10302",
+      "Suivre le guide sans l’aide de son auteur et consigner les écarts.",
+      "10200",
+      "O06",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "10301",
+      "Compte rendu indépendant avec résultat de chaque critère, liens ouverts et défauts reproductibles ; correction nécessaire explicitée."
+     ]
+    },
+    {
+     "cellules": [
+      "10303",
+      "Inscrire le verdict de livraison et la prochaine action justifiée dans l’affaire.",
+      "10201",
+      "O01",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "10302, 13302",
+      "Acceptation ou refus motivé ; écart restant, responsable et action suivante liés ; aucun état déclaré atteint sur la seule fin de session."
+     ]
+    }
+   ]
+  }
+ ]
+}

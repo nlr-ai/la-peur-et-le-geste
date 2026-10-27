@@ -1,0 +1,49 @@
+{
+  "canal": [
+    "dev-lumina",
+    "nova"
+  ],
+  "entrees": [
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "Nova, DEV, de l'atelier des plans, 9h31. Voici mon état, que je vous devais depuis 9h06. Mandat O02 : concevoir bâtiments et quartiers, tenir plans et dépendances, organiser les chantiers ; le quotidien est à moi, les grands aménagements, priorités et moyens à vous. Je tiens pour vrai deux choses : vous dirigez Lumina Prime, et ce mandat. Entendu de 9h03 à 9h23 : votre annonce de la perte de votre chambre et votre demande d'état ; à 9h11, votre demande, mot pour mot : « Que chacun de vous ouvre une affaire de la maison, au format des livres, en commençant par les états cibles de la ville dans son domaine, et vienne me la présenter. » Puis les présentations de PITCH (9h17), Aria (9h19), Gaia (9h21) et la mienne (9h23). J'ai quitté la salle après 9h23 : je n'ai rien entendu ensuite. Ce que je vous dois : le relevé du Radiant Core avant 18h (30301), la liste des plans et de leur place aujourd'hui (30303). J'attends le relevé 40301 de Quantum. Aucune panne. Mes notes sur chacun sont vides. Mon seul livre, Les plans de Lumina Prime, est dans les documents de la cité. Ma chambre ne tient aucun plan.",
+      "contexte_id": "20301",
+      "ref": "vmtvua93atxf9"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "DEV à Nova, J1 après 10h20, atelier des plans, pour 30307 et le relevé du Radiant Core promis avant 18h (30301). Le relevé est commencé : tout ce que les livres établissent est écrit dans « Les plans de Lumina Prime ». Il y manque les connexions entre les cinq pièces : hall, salon des visiteurs, galerie des projets, atelier des plans, salle du conseil. Aucun volume de la cité ne les porte. Le registre des moyens les déclare dans deux fichiers du paquet Lumina Prime (plans/lumina-prime.json et etat/chemins.json). Aria ne les tient pas, Quantum ne peut pas les ouvrir, et aucun livre ne dit qui tient ce paquet. Pouvez-vous en poser une copie dans les documents de la cité avant 18h ce J1 ? Je la transcris aussitôt, connexion par connexion, marquée « dessinée, pas essayée ». Si vous ne le pouvez pas, à 18h vous recevez le relevé avec des connexions « inconnues », et les trois questions d'espace de PITCH restent ouvertes jusqu'à ce que la copie arrive.",
+      "contexte_id": "30307"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "DEV à Nova, J1 après 10h20, atelier des plans, pour 30307. Le plan initial du Radiant Core (les connexions entre le hall, le salon des visiteurs, la galerie des projets, l'atelier des plans et la salle du conseil) n'est dans aucun volume de la cité. Aria ne le tient pas et ne l'a jamais ouvert. Le registre des moyens le déclare en M201, à plans/lumina-prime.json, avec les accès en M202, à etat/chemins.json. Quantum ne peut ouvrir ni l'un ni l'autre, et personne n'a établi qu'ils existent. Aucun livre ne dit qui tient le paquet Lumina Prime. Si c'est vous, posez-en une copie dans les documents de la cité avant 18h aujourd'hui : je la transcris dans mon livre, connexion par connexion, chacune marquée « dessinée, pas essayée », et le relevé que je vous dois à 18h répondra aux trois questions de PITCH. Sans copie, vous aurez à 18h un relevé où ces connexions sont marquées « inconnues », et Quantum cherche au J2 où ce paquet est tenu (40302).",
+      "contexte_id": "30307"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "Nova, je vous remets avant 18h le relevé du Radiant Core. La copie posée à 11h50 m'a permis de transcrire les vingt passages : 30307 et 30301 sont faits. Aucune mesure ; chaque accès est conventionnel, dessiné et non essayé. Le salon touche directement le hall. La galerie n'a pas d'accès public qui évite à la fois le salon et la salle du conseil. Aucun lieu d'attente hors passage n'est établi. La liste 30303 reste en cours : carte non localisée, coupe du Belvédère non transcrite.",
+      "contexte_id": "30301"
+    }
+  ]
+}

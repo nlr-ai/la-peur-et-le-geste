@@ -182,6 +182,15 @@ def choisir_tache(acteur, noeuds, aretes, adj, energies, etat=None,
             # poursuit une etape de son intention.
             directes.append((0 if affectation_directe else 1, autre,
                               affectation_directe))
+    if amorcage_lieu:
+        # Les affectations par office ont déjà été résolues ci-dessus.
+        # Elles donnent la même prise qu'une affectation personnelle.
+        connus = {item[1] for item in directes}
+        for nid, personnes in titulaires.items():
+            if (acteur in personnes and nid not in connus
+                    and unite_executable(nid)
+                    and tache_disponible(etat, nid, noeuds, present)):
+                directes.append((0, nid, True))
     if directes:
         directes.sort(key=lambda x: (x[0], -float(energies.get(x[1], 0.0)), x[1]))
         _priorite_affectation, nid, affectation_directe = directes[0]
@@ -281,7 +290,8 @@ def mettre_a_jour_energie_graphe(etat, horloge, scores, noeuds, adj,
     else:
         graphe = graphe_racine
     reserves = graphe.setdefault("noeuds", {})
-    present = float(horloge["present_secondes"])
+    # L'énergie peut évoluer pendant l'attente sans déplacer la fiction.
+    present = float(horloge.get("energie_mur_s", horloge["present_secondes"]))
     precedent = graphe.get("mis_a_jour_a")
     dt_s = max(0.0, present - float(precedent)) if precedent is not None else 0.0
     alpha = 1.0 - math.exp(-math.log(2.0) * dt_s / DEMI_VIE_ENERGIE)
@@ -326,7 +336,7 @@ def mettre_a_jour_energie_graphe(etat, horloge, scores, noeuds, adj,
 
 
 def amorcer_sources_energie(etat, energies_graphe, source_ids, front,
-                            present):
+                            present, minimum=ENERGIE_MIN):
     """Donne une seule impulsion à chaque nouvelle source d'un front.
 
     Le registre persistant empêche une boucle répétée de recréer de l'énergie.
@@ -347,7 +357,7 @@ def amorcer_sources_energie(etat, energies_graphe, source_ids, front,
         if pid in registre:
             continue
         nid = "pers:" + pid
-        valeur = max(float(energies_graphe.get(nid, 0.0)), ENERGIE_MIN)
+        valeur = max(float(energies_graphe.get(nid, 0.0)), minimum)
         reserves[nid] = valeur
         energies_graphe[nid] = valeur
         registre[pid] = {"amorce_a": round(float(present), 3)}

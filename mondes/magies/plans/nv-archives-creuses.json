@@ -1,0 +1,62 @@
+{
+  "nom": "Archives creuses",
+  "viewBox": "0 0 540 320",
+  "fonds": [],
+  "decor": [],
+  "mur": "M20 20H520V300H20Z",
+  "guet": [],
+  "rose": null,
+  "etiquettes": [],
+  "salles": [
+    {
+      "id": "nv-archives-creuses-entree",
+      "nom": "Entrée",
+      "forme": {
+        "r": [
+          45,
+          105,
+          130,
+          100,
+          8
+        ]
+      },
+      "etiq": [
+        110,
+        140
+      ],
+      "lignes": [
+        "Entrée"
+      ],
+      "quoi": "Accès local.",
+      "motifs": [],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "nv-archives-creuses-atelier",
+      "nom": "Atelier",
+      "forme": {
+        "r": [
+          235,
+          70,
+          235,
+          170,
+          8
+        ]
+      },
+      "etiq": [
+        350,
+        110
+      ],
+      "lignes": [
+        "Atelier"
+      ],
+      "quoi": "Son atelier se trouve aux Archives creuses. Il conserve seulement les moyens initiaux de sa fiche, dont son Retour de regard ; la présence de l’Assemblée ne lui donne ni Mort, ni Esprit, ni maîtrise des autres créatures.",
+      "motifs": [],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    }
+  ]
+}

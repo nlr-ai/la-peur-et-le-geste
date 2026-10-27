@@ -497,7 +497,7 @@ window.Calendrier = (() => {
     if (window.Plan && Plan.echelle) {
       Plan.echelle({
         id: "calendrier", nom: "Les jours", hote: "calendrier", ordre: 5.5,
-        dispo: () => true,
+        dispo: () => false,
         reparu: () => { charger(); },
       });
     }

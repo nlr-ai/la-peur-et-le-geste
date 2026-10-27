@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime_worker.py", line 69, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime_worker.py", line 30, in main
+    rep = runtime.appeler(**charge["appel"])
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 792, in appeler
+    resultat = _appel_codex(
+        manuel, message, session_id, modele, effort, timeout, cwd,
+        add_dirs, reprendre, environnement, on_event, on_stderr,
+        heartbeat, on_heartbeat, service_tier=service_tier)
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 654, in _appel_codex
+    code, _lignes, erreurs, evenements, duree = _executer_flux(
+                                                ~~~~~~~~~~~~~~^
+        commande, message, cwd, env, timeout, on_event, on_stderr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        heartbeat, on_heartbeat, transcript)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 517, in _executer_flux
+    raise file_mj.Interrompu(evenements)
+agents.file_mj.Interrompu: MJ interrompu par un nouveau message

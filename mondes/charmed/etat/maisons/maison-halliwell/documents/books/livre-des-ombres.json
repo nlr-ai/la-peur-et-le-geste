@@ -1,0 +1,718 @@
+{
+  "id": "livre-des-ombres",
+  "maison_id": "maison-halliwell",
+  "titre": "Le Livre des Ombres",
+  "sous_titre": "📖 Le gros volume vert au triple nœud, sur son lutrin au grenier du Manoir. Commencé par Melinda Warren, tenu par chaque génération ; depuis 1998, de la main des sœurs — pages anciennes au début, les leurs à la suite, et l'encre la plus fraîche date de cette semaine. Il ne se laisse pas toucher par le mal.",
+  "type": "registre",
+  "embleme": "📖",
+  "couleur": "#3f5a3a",
+  "tenu_par": "phoebe-halliwell",
+  "office": "La lignée Warren — ce qu'une génération doit à la suivante (hors registre)",
+  "lieu_id": "san-francisco",
+  "salle_id": "grenier",
+  "lecteurs": [
+    "phoebe-halliwell",
+    "piper-halliwell",
+    "paige-matthews",
+    "leo-wyatt"
+  ],
+  "date_maj": {
+    "annee": 2001,
+    "lune": 10,
+    "jour": 9
+  },
+  "tables": [
+    {
+      "titre": "🕯 Les pages anciennes — Melinda, Grams et les mains d'avant",
+      "colonnes": [
+        "✍️ De quelle main",
+        "📜 La page",
+        "📝 Ce qui y est écrit"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**Melinda Warren**",
+            "La prophétie",
+            "Chaque génération de sorcières Warren sera plus forte que la précédente, jusqu'à trois sœurs, les plus puissantes que le monde ait connues. Les Trois."
+          ],
+          "note": "Phoebe, en 98, au crayon : « C'est nous. Personne ne nous a demandé notre avis. »"
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "L'invocation — la première page qu'on lit",
+            "« Hear now the words of the witches, / the secrets we hid in the night… / In this night and in this hour, / I call upon the ancient power. » (Écoutez les mots des sorcières… en cette nuit, à cette heure, j'en appelle au pouvoir ancien.) Elle a rendu leurs pouvoirs aux trois sœurs, à minuit, une nuit de pleine lune, dans cette maison."
+          ],
+          "note": "C'est Phoebe qui l'a lue, seule, la première nuit, après que la planche à esprits a épelé « grenier ». Les trois essentiels de la magie, dit la page : le moment, le sentiment, la lune. Sur la même feuille : « Fais ce que tu veux, pourvu que tu ne nuises à personne. »"
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Le triple nœud",
+            "Le signe sur le plat du Livre : trois arcs liés en un. Le pouvoir des Trois, et ce qui le tient : qu'elles soient trois, et sœurs."
+          ],
+          "note": "Le signe s'est séparé en trois quand les sœurs se sont brouillées, et refermé quand elles se sont réconciliées."
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "La sauvegarde de la maison",
+            "« When in the circle that is home, / safety's gone and evils roam, / rid all beings from these walls, / save sisters three, now heed our call. » (Quand dans le cercle du foyer la sûreté s'en va et que le mal rôde : chassez de ces murs tout être, hors les trois sœurs.) Contre ceux qui prennent un visage aimé pour entrer."
+          ],
+          "note": "Il chasse TOUT ce qui n'est pas les trois sœurs. Papa n'est resté que grâce à sa bague de chrysolithe. Le Livre s'était ouvert seul à cette page."
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Le sort de vérité",
+            "« For those who want the truth revealed, / opened hearts and secrets unsealed, / from now until it's now again, / after which the memory ends. » (Pour qui veut la vérité : cœurs ouverts, secrets descellés, d'ici à ce que maintenant revienne ; après, l'oubli.) Tous ceux qui sont dans la maison disent vrai, et entendent vrai."
+          ],
+          "note": "Suite de la page : ceux qui sont dans la maison entendront la vérité de la bouche des autres. Vingt-quatre heures ; on ne le défait pas ; les autres oublient après, pas nous. Prue l'a lancé pour elle-même. C'est ainsi qu'Andy a su."
+        },
+        {
+          "cellules": [
+            "**Melinda Warren**",
+            "Matthew Tate",
+            "Un warlock qui copie tout pouvoir qu'il approche. Melinda l'a aimé ; il l'a livrée. Elle l'a enfermé, par malédiction, dans un médaillon. Ne jamais l'ouvrir."
+          ],
+          "note": "Il copie le pouvoir de qui l'emploie contre lui, et ce pouvoir ne le touche plus. Rouvert en 98 par deux warlocks. Melinda l'a renfermé par sa malédiction : « Outside of time, outside of gain, / know only sorrow, know only pain » (hors du temps, hors du gain : ne connais que chagrin et peine) — herbes, et une plume de chouette tachetée."
+        },
+        {
+          "cellules": [
+            "**nous trois**",
+            "Appeler Melinda",
+            "« Melinda Warren, blood of our blood… we summon thee. » (Melinda Warren, sang de notre sang, nous t'appelons.) Pour la renvoyer : « …we release you. » Il faut les trois, et les bougies."
+          ],
+          "note": "Le sang appelle le sang. Elle est venue en chair, avec ses pouvoirs, et nous a appelées « mes filles ». Elle a dit : « Le Livre grandit à mesure que vous grandissez. Parfois on y ajoute, parfois il vous apprend. » Sa fille s'appelait Prudence."
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Rendre ses pouvoirs",
+            "La page n'est plus là : un talon de papier déchiré, entre deux pages cousues."
+          ],
+          "note": "Nous l'avons ôtée nous-mêmes, à l'unanimité, en 98, après que deux warlocks, Rex et Hannah, nous ont fait renoncer et enfermer nos pouvoirs dans une lanterne. La page ne disait pas comment revenir en arrière."
+        },
+        {
+          "cellules": [
+            "**Phoebe**, de la bouche de Grams",
+            "Le Woogyman",
+            "L'ombre de la cave. Il vit sous la maison, là où le mal tenait la place avant elle, et il prend celle qui a peur de lui. « I am light, / I am one too strong to fight. / Return to dark where shadows dwell, / you cannot have this Halliwell. » (Je suis lumière… retourne au noir où vivent les ombres ; tu n'auras pas cette Halliwell.)"
+          ],
+          "note": "La maison est au cœur d'un pentacle, sur un nœud où le bien et le mal se battent ; la famille a bâti là pour reprendre la place. Phoebe, seule née dans la maison, y est plus exposée. Ce n'était pas dans le Livre : une histoire du soir de Grams. C'est la première page que nous ayons écrite — « chaque sorcière avant nous a ajouté au Livre ; c'est notre tour »."
+        },
+        {
+          "cellules": [
+            "**Maman**",
+            "Le démon de la Peur",
+            "Il paraît tous les mille trois cents ans, un vendredi 13, et se nourrit de la peur des sorcières : s'il tue assez de sorcières non mariées avant minuit, il est libre des Enfers. Devant la plus grande peur, les pouvoirs se paralysent. Une ligne apparue dans la nuit, de la même main, avec une odeur de santal : « Pour lâcher ta peur, fie-toi au plus grand de tous les pouvoirs. »"
+          ],
+          "note": "La première page où nous avons reconnu l'écriture de Maman. Prue a cru se noyer ; Maman l'a sortie de l'eau. Son nom, Barbas, nous l'avons appris en 2000, quand il est revenu."
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "La bête des bois du Nord — le wendigo",
+            "Homme le jour, bête trois nuits autour de la pleine lune ; elle mange les cœurs. Le premier était un homme trahi, dont le cœur a gelé. Sa griffure fait de la victime une autre bête. Elle craint le feu ; pour sauver la griffée, fondre le cœur de glace de celle qui a griffé."
+          ],
+          "note": "Piper a été griffée en 98. Rien dans le Livre pour défaire la griffure : c'est la fusée de détresse qui a tout réglé."
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Les Grimlocks",
+            "Démons souterrains qui craignent la lumière. Ils volent la vue des enfants pour voir l'aura des bons, et les étranglent avec. La vue volée tient vingt-quatre heures, à condition que les enfants vivent. Pour en détruire un : l'aveugler d'une potion de racine de schisandra."
+          ],
+          "note": "Ils vivent dans les égouts. Revenus à Halloween : il y en a d'autres."
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Javna",
+            "Une semaine par an, il boit la force vitale des jeunes, par le mauvais œil, pour rester jeune ; ses victimes vieillissent. La Main de Fatima, que le Prophète invoqua pour le bannir. Les mots : « Evil eyes look unto thee, / may they soon extinguished be, / bend thy will to the power of three, / eye of earth, evil and accursed. » (Yeux mauvais, regardez-vous ; qu'ils s'éteignent ; plie-toi au pouvoir des Trois.)"
+          ],
+          "note": "Il faut un miroir : lui renvoyer son propre regard. Prue le tenait."
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Les Seigneurs de la Guerre",
+            "Un clan de guerriers qui se réincarnent et ont lancé la plupart des guerres. L'épée de cristal est leur signe : tant qu'il l'a, aucune arme d'homme ne touche un Seigneur. Une aïeule, Brianna, a pris celle de Gabriel pendant la guerre de Crimée et l'a envoyée à des centaines de lieues. Il faut la force des Trois. Son épée lui prend l'âme."
+          ],
+          "note": "À côté, pour multiplier sa force : « Take my powers, blessed be, / multiply their strength by three » (prenez mes pouvoirs… multipliez leur force par trois). Prue s'est trouvée trois ; les doubles s'effacent quand le besoin cesse."
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Le démon du Temps",
+            "Tempus, le sorcier du diable : il plie le temps comme il veut et refait une même journée. « Le sortir du temps où il se tient. » Rien sur les boucles. À côté, pour pousser le temps : « Winds of time, gather round, / give me wings to speed my way, / rush me on my journey forward, / let tomorrow be today. » (Vents du temps… que demain soit aujourd'hui.)"
+          ],
+          "note": "Le jour qu'il refaisait, c'est le jour où Andy est mort. Leo dit qu'il a été battu, pas détruit : la Source s'en est resservi en mai."
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Abraxas",
+            "Démon du plan astral, qui détruit les sorcières en retournant leurs pouvoirs. Il lit le Livre à rebours : chaque sort lu à l'envers se défait, et ce qu'il avait vaincu revient. S'il atteint la première page, l'éveil est défait. On le bat à trois : le triple nœud tracé dans un cercle, une fenêtre sur le plan astral, et l'invocation de la première page, dite ensemble."
+          ],
+          "note": "Le Livre nous a été volé en 99. Jeremy est revenu, puis le Woogyman. C'est Grams qui tournait les pages pour nous montrer le chemin."
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Tuatha",
+            "Une bonne sorcière passée au mal il y a deux cents ans, murée dans une grotte. Elle tue les bonnes sorcières et ôte leurs pouvoirs. Aucune sorcière ne peut la vaincre. Le Livre n'avait pas de sort contre elle."
+          ],
+          "note": "Prue, ajouté après : seul l'élu pouvait — Kyle, septième fils d'un septième fils, avec la baguette de Tuatha. La baguette s'est brisée. Le Livre ne dit pas tout ce qui est possible."
+        }
+      ]
+    },
+    {
+      "titre": "👹 Démons, warlocks et créatures — ce que nous avons écrit depuis 1998",
+      "colonnes": [
+        "✍️ De quelle main",
+        "📜 La page",
+        "📝 Ce qui y est écrit"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**Prue**",
+            "Les warlocks",
+            "Des sorciers qui tuent des sorcières à l'athamé pour prendre leurs pouvoirs, et qui ont l'air de n'importe qui. Le premier, Jeremy, a tué des sorcières en ville avant de venir pour Piper. Il a dit : « Je suis un parmi des millions. » Le sort des neuf bougies et de la poupée n'a rien fait."
+          ],
+          "note": "Ce qui l'a eu : « The power of three will set us free », gravé par Maman au dos de la planche à esprits, dit en boucle à trois. Un warlock ne saigne pas comme nous."
+        },
+        {
+          "cellules": [
+            "**Prue**",
+            "Rex Buckland et Hannah Webster",
+            "Deux warlocks de la maison de ventes où travaillait Prue. Lui commande les esprits et se projette hors de son corps ; elle se change en panthère. Ils ont libéré Matthew Tate et voulaient nos pouvoirs par le renoncement, pour leur maître."
+          ],
+          "note": "Leur maître les a tués lui-même. Nous n'avons jamais su son nom."
+        },
+        {
+          "cellules": [
+            "**Piper**",
+            "Hécate",
+            "Reine des Enfers. Tous les deux cents ans, elle ensorcelle un innocent et l'épouse en mariage consacré, pour porter un enfant qui a l'air humain et qui est démon. Son charme se rompt par une déclaration d'amour scellée d'un baiser."
+          ],
+          "note": "Un ordre secret de prêtres jure de l'arrêter ; le père Trask en est mort."
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "Le sorcier des rêves",
+            "Il entre dans le sommeil des femmes et les tue là ; on meurt vraiment. Il n'était pas dans le Livre — peut-être un mortel. Il faut le combattre dans le rêve, de son propre pouvoir."
+          ],
+          "note": "Même semaine, page du Livre : « Pour attirer un amant » — poivre de Cayenne, pas noir. « I conjure thee, I conjure thee, / I'm the queen, you're the bee, / as I desire, so shall it be. » Il dépasse ce qu'on veut ; il se défait quand on veut."
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "Anton",
+            "Un warlock immortel qui prend l'apparence qu'il veut. En 1924, il a perdu une sorcière de la maison — une vie d'avant de Phoebe — qui a tué pour voler des pouvoirs ; ses cousines l'ont maudite. Une amulette qui protège de la sorcellerie, une potion qui triple les pouvoirs."
+          ],
+          "note": "Avertissement écrit par Phoebe : il n'est peut-être pas vaincu."
+        },
+        {
+          "cellules": [
+            "**Prue**",
+            "Kryto, démon de la vanité",
+            "Il échange la jeunesse contre des âmes. Il en faut trois pour l'appeler, trois pour le renvoyer. « What witch has done / and then undone, / return this spirit back within / and separate him from his skin. » (Ce qu'une sorcière a fait puis défait… sépare-le de sa peau.)"
+          ],
+          "note": "Tante Gail, du coven de Grams, l'a appelé pour rester jeune. Elle se rappelait la page : Grams la lui avait montrée."
+        },
+        {
+          "cellules": [
+            "**Piper**",
+            "Les Collecteurs",
+            "Une race de warlocks qui aspirent le savoir d'un cerveau par un dard au doigt. Leur faim de savoir est notre alliée. Dix-neuf sorts de mort propres aux warlocks dans le Livre, et pas un test pour les reconnaître."
+          ],
+          "note": "Phoebe : un warlock ne saigne pas. Piquer."
+        },
+        {
+          "cellules": [
+            "**Prue**",
+            "Les esprits mauvais",
+            "Un esprit mauvais ne se détruit que sur le plan astral : il faut y aller soi-même. La potion qui arrête le cœur (laurier-rose, stramoine, sanguinaire…) ; un massage du cœur dans les quatre minutes. Pour l'attirer : mercure et acide à parts égales, le sang d'une de ses victimes, versés sur sa tombe. « Ashes to ashes, spirit to spirit, / take his soul, banish this evil. »"
+          ],
+          "note": "Jackson Ward, le fantôme d'Alcatraz. Prue est morte quatre minutes."
+        },
+        {
+          "cellules": [
+            "**Prue**",
+            "Les Gardiens",
+            "Une rune — un triangle renversé gravé au front de la victime — par où des démons, les Gardiens, volent une âme innocente pour la donner aux tueurs qu'ils protègent."
+          ],
+          "note": "La page dit « avec un pieu, comme un vampire ». Prue l'a mal lue : c'est la rune qu'on vise."
+        },
+        {
+          "cellules": [
+            "**Piper**",
+            "Le marchand de glaces",
+            "Une page entière : il est mortel. Il joue l'accord du diable, qui attire les enfants-démons comme des papillons. Dans son camion, le Néant, la seule chose qui les détruise — et qui ne fait pas la différence entre le bien et le mal."
+          ],
+          "note": "Papa a sauvé Prue de ce camion quand elle avait six ans."
+        },
+        {
+          "cellules": [
+            "**Prue**",
+            "Eames",
+            "Un warlock qui tue des sorcières pour leurs pouvoirs : le dédoublement (Glasgow), la métamorphose (Kenya, 1989), la déviation. Il voulait les orbes, et monter là-haut tuer les êtres de lumière. Trouvé en croisant « dédoublement » et « warlock »."
+          ],
+          "note": "Le sort contre lui, nous l'avons écrit à trois, un vers chacune."
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "Shadow",
+            "Le familier d'une sorcière — un chat — qui l'a trahie : voilà ce qu'il devient. Neuf vies à perdre avant la nouvelle lune pour être immortel. « Nine times this evil's cheated death… / let him feel what he has missed. » (Neuf fois ce mal a trompé la mort… qu'il sente ce qui lui a manqué.) Avec une potion, au moment de sa neuvième mort."
+          ],
+          "note": "La séance de la page d'avant : six bougies blanches et violettes, cannelle, encens, santal, une nappe blanche. C'est elle qui nous l'a montré."
+        },
+        {
+          "cellules": [
+            "**Prue**",
+            "Les chercheurs",
+            "Démons flottants, aux dents de vampire, qui tirent leurs renseignements du cerveau de leurs victimes. Des détecteurs de mensonge. Leur sort exige le Pouvoir des Trois."
+          ]
+        },
+        {
+          "cellules": [
+            "**Piper**",
+            "La boîte des sept péchés",
+            "« Mise en bouteille à la Source, par la Source. » Sept boules de péché pour corrompre les meilleurs ; chacune grossit mille fois un penchant qu'on a déjà. On n'ôte pas un péché par magie. Détruire celui qui les porte, Lukas, et les péchés perdent leur force."
+          ],
+          "note": "Piper : « L'orgueil est le seul qu'on ne bat pas. »"
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "L'académie des démons",
+            "Un dressage brutal qui détruit l'humanité et rend démon. Six chevrons au bras, et un innocent tué, pour que ce soit fini. Le recruteur paie les dettes d'un homme et prend son âme."
+          ]
+        },
+        {
+          "cellules": [
+            "**Prue**",
+            "Les miroirs",
+            "Le b.a.-ba : les miroirs sont des portes par où le mal entre. Kali, sorcière maudite dans sa propre dimension, passe par les reflets ; on la bat en brisant son reflet."
+          ]
+        },
+        {
+          "cellules": [
+            "**Prue**",
+            "Les êtres de lumière (Leo)",
+            "Les anges gardiens des bonnes sorcières. Ils guident et protègent, soignent ce qui vit (pas les morts), voyagent en orbes, obéissent aux Fondateurs. Une sorcière et son être de lumière ne doivent pas s'aimer. Leo était infirmier pendant la Seconde Guerre mondiale."
+          ],
+          "note": "Piper, dans la marge : « Il ne peut pas soigner ce qui est mort. On le sait. » (encre récente)"
+        },
+        {
+          "cellules": [
+            "**Piper**",
+            "Les darklighters",
+            "Ils chassent les êtres de lumière, et poussent au désespoir ceux qui doivent en devenir. Leur toucher tue ; une arbalète, une flèche dont le poison ne se défait pas. Pour échanger les pouvoirs : « What's mine is yours, / what's yours is mine, / let our powers cross the line… » (Ce qui est à moi est à toi… que nos pouvoirs passent la ligne.)"
+          ],
+          "note": "Toute une section, sans ordre. Piper : « Quelqu'un devrait vraiment faire un index. » Prue a tué Alec avec son propre pouvoir, qui marche à la haine."
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "Le démon de l'eau",
+            "Il vit dans l'eau d'un lac et en prend la forme ; il ne tue que dans l'eau, et le gel ne le prend pas. Il a tué Maman en 1978, au lac. Ce qui sépare l'eau : le courant électrique. C'était le plan de Maman ; nous l'avons fini en 2000. Le Livre n'avait rien sur lui : cette page est de nous."
+          ],
+          "note": "Phoebe a fait un carnet des lettres de Maman à Sam Wilder, son être de lumière. Il est dans la boîte à souvenirs, pas dans le Livre."
+        },
+        {
+          "cellules": [
+            "**Piper**",
+            "Masselin",
+            "Il se nourrit des âmes de jeunes gens à travers la musique, dans un club. Une potion le fait crever comme une bulle de gaz, et ses victimes reviennent."
+          ],
+          "note": "C'était au P3. Personne ne l'a su dehors."
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "La succube",
+            "Une sorcière qui a renoncé à toute émotion humaine et pactisé avec les ténèbres pour ne plus souffrir d'amour. Elle séduit des hommes et les tue. Le sort : « By the forces of heaven and hell, / draw to us this woman fell… / that she may perish as a moth to fire. » (Par les forces du ciel et de l'enfer, attirez-nous cette femme funeste… qu'elle périsse comme le papillon au feu.)"
+          ],
+          "note": "La page ne dit rien d'un retour en arrière si le sort tombe sur la mauvaise personne. Prue en sait quelque chose."
+        },
+        {
+          "cellules": [
+            "**Piper**",
+            "Drazi",
+            "Le démon de la haine. Il avait volé l'anneau de Cupidon, qui glisse entre deux battements de cœur, et changeait l'amour en haine jusqu'au meurtre. Une potion ; l'anneau l'a sauvé une fois."
+          ]
+        },
+        {
+          "cellules": [
+            "**Prue**",
+            "Le démon de l'illusion",
+            "Il vit dans les films et en fait sortir les personnages. Il feint sa propre mort. Dans le film, la pellicule brûle sous la lumière. « Evil that has travelled near, / I call on you to disappear… » (Mal venu jusqu'ici, je t'ordonne de disparaître.)"
+          ],
+          "note": "Phoebe a fondu deux sorts en un : celui du bunyip et celui du démon à la corne. Deux potions : une pour entrer dans le film, une pour en sortir. Goût d'asphalte."
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "Le démon de l'Anarchie",
+            "« Sower of discord, / your works now must cease, / I vanquish thee now / with these words of peace. » (Semeur de discorde, ton œuvre cesse ; je te bannis par ces mots de paix.) Une potion très simple, sans bain-marie."
+          ],
+          "note": "Le soir où nous l'avons dit, c'était un Cavalier de l'Apocalypse qui était là, pas lui. Les Cavaliers ne sont pas dans le Livre : seule la Source peut les tuer."
+        },
+        {
+          "cellules": [
+            "**Prue**",
+            "Le génie",
+            "Trois vœux, puis il est libre ; il les exauce de travers. Pour défaire les vœux, le remettre dans sa bouteille."
+          ],
+          "note": "Il n'avait pas de page à lui. Cette nuit-là il y avait aussi un warlock-dragon, le plus redouté des tueurs de sorcières : « The power of three will set us free » l'a eu."
+        },
+        {
+          "cellules": [
+            "**Piper**",
+            "Vinceres",
+            "Assassin démoniaque, hors du temps, que la magie des sorcières ne touche pas. Un prêtre empathe lui avait passé son don pour qu'il sente la douleur qu'il faisait. Les démons ne supportent pas l'émotion humaine."
+          ],
+          "note": "Prue a pris le don d'empathie ; elle l'a battu en entrant en lui, chargée de toute l'émotion de la ville."
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "Andras",
+            "Esprit de la rage. Il se sert de la colère comme d'une porte et pousse ses victimes jusqu'à l'acte violent ; il grossit la colère, il ne la crée pas. Il peut aussi posséder. Le remède est entre nous, pas dans une potion."
+          ],
+          "note": "Le triple nœud s'est défait en trois ce jour-là."
+        },
+        {
+          "cellules": [
+            "**nous trois**",
+            "Belthazor",
+            "Démon de haut rang, rouge et noir, soldat de fortune, envoyé par la Triade pour tuer les Trois ; à moitié humain, c'est pourquoi il a pu s'approcher. Sa forme humaine : un substitut du procureur. Potion de destruction : coques, pied de cochon, mandragore (pas trop : la potion graisse), et un morceau de sa chair — avec « Spirits of air, forest and sea, / set us of this demon free… » (Esprits de l'air, de la forêt et de la mer, délivrez-nous de ce démon.) Ses frères de sang tombent sous la même potion. Pour l'appeler : « Magic forces, black and white, / reaching out through space and light, / be he far or be he near, / bring us the demon Belthazor here. » (Forces de magie, noires et blanches… qu'il soit loin ou près, amenez-nous ici le démon Belthazor.)"
+          ],
+          "note": "Rayé à l'encre : « VAINCU. » Récrit dessous, de la main de Phoebe : « Non. Il vit. » Plus loin, en 2001 : « Cole aime marcher au parc, le jazz et le bon vin » — on écrit les démons pour les sorcières d'après. Un alchimiste a changé son sang : la potion ne marche plus sur lui. La formule d'appel, tirée de celle de Melinda, sert pour tout démon dont on met le nom."
+        },
+        {
+          "cellules": [
+            "**Prue**",
+            "La Triade",
+            "Trois démons au sommet des Enfers, qui envoyaient Belthazor — et Troxa, l'invisible, que le froid rend en partie visible. Ils voulaient renverser la Source et prendre sa place."
+          ],
+          "note": "Morts — de la main de Belthazor. Nous ne les avons jamais vus."
+        },
+        {
+          "cellules": [
+            "**Piper**",
+            "Zile",
+            "Un warlock qui change de visage, au service de la Source. Il a endormi Prue d'une potion et l'a épousée devant une prêtresse noire, pour la tourner au mal — et nous avec, et le Livre avec : des sorts de mort y sont apparus. Zile tué, le lien s'est rompu et tout le mal fait s'est défait."
+          ],
+          "note": "Leo : « Le Livre change à cause de vous. Il est une part de vous. »"
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "L'Ange de la Mort",
+            "Il vient prendre ceux dont c'est l'heure. On ne le tue pas. Pour l'appeler : « Spirits of air, sand and sea, / converge to set the angel free… » (Esprits de l'air, du sable et de la mer, rassemblez-vous pour délivrer l'ange.)"
+          ],
+          "note": "Il n'est ni bon ni mauvais : il est inévitable. Seuls ceux qui sont sur sa liste le voient."
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "La Confrérie de l'Épine",
+            "Une confrérie d'élite qui répond directement à la Source ; il en choisit lui-même les membres, liés par un serment de sang à vie. Raynor la menait. Ils tuent les prophètes des rues."
+          ],
+          "note": "Cole en a été. Il a tué Raynor. Le reste, il le dit quand il veut."
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "La voyante",
+            "Celle qui voit l'avenir pour la Source — « l'Oracle », a-t-on entendu. Ce qu'elle voit est inexact dès que la magie s'en mêle."
+          ],
+          "note": "Peu de chose. Il faudra y revenir."
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "La banshee",
+            "Elle se nourrit des âmes qui souffrent ; son appel est trop aigu pour l'oreille, son cri tue. Les banshees sont d'anciennes sorcières : son cri change une sorcière en banshee, pour toujours si elle tue. La page n'a pas de sort pour la détruire, seulement un sort pour la suivre."
+          ],
+          "note": "Phoebe en a été une, une nuit. Elle est revenue."
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "La Glaneuse",
+            "Démone du deuil. Point faible / Condition : l'endeuillée dit adieu à voix haute : la Glaneuse perd la voix"
+          ]
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Ezra Vane",
+            "Warlock à l'athamé. Point faible / Condition : Paige appelle l'athamé par son nom"
+          ]
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Morne, le charognard du Manoir",
+            "Démon charognard (chef de meute). Point faible / Condition : potion générique ou combustion"
+          ]
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Le Liseur",
+            "Démon devin. Point faible / Condition : briser l'objet par lequel il regarde, pendant qu'il écrit"
+          ]
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Le Courtier d'ambre",
+            "Démon courtier de pouvoirs. Point faible / Condition : retirer les pouvoirs logés un par un (potion de scission adaptée, ou sort d'appel du pouvoir)"
+          ]
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Ferran, le Verrouilleur",
+            "Démon des seuils — prépare des lieux de captivité. Point faible / Condition : Un sceau est visible et matériel : sa rupture ouvre le seuil correspondant ; détruire le dernier rompt le piège."
+          ]
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Néris, le Sonneur",
+            "Démon des appels de détresse — attire les secours dans un lieu choisi. Point faible / Condition : Le même souffle et le même bruit de fond reviennent à chaque répétition ; une question imprévue reste sans réponse."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "✨ Sorts et formules de la maison",
+      "colonnes": [
+        "✍️ De quelle main",
+        "📜 La page",
+        "📝 Ce qui y est écrit"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**Maman**",
+            "Le temps à sa place",
+            "« A time for everything / and to everything its place, / return what has been moved / through time and space. » (Un temps pour chaque chose et chaque chose à sa place : rendez ce qui a été déplacé dans le temps et l'espace.) Pour revenir d'une époque où l'on a été jeté."
+          ],
+          "note": "Écrit par Maman, en 1975, quand nous l'avons vue enceinte de Phoebe ; dit avec elle et Prue et Piper petites. Elle avait fait un pacte avec un warlock, Nicholas. Au retour, une page de Grams était apparue : « Que Nicholas meure », avec son sachet — lavande, mimosa, chardon béni."
+        },
+        {
+          "cellules": [
+            "**nous trois**",
+            "Aller vers le futur",
+            "« Hear these words, hear the rhyme, / we send to you this burning sign… » (Écoutez ces mots, cette rime…) À dire avec nos sœurs futures, chacune de son côté du temps."
+          ],
+          "note": "Le sort s'efface du Livre après usage. Phoebe a vu son propre bûcher, en 2009. Ce futur-là ne se fera pas — croyons-le."
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "Échanger les pouvoirs",
+            "Le pouvoir de chacune passe à une autre. Chacune doit trouver l'émotion qui fait marcher le sien. Voir la page des darklighters."
+          ]
+        },
+        {
+          "cellules": [
+            "**Prue**",
+            "Se dédoubler",
+            "Des doubles qui ont la mémoire et les pouvoirs ; ils s'effacent quand le besoin cesse. Voir les Seigneurs de la Guerre."
+          ]
+        },
+        {
+          "cellules": [
+            "**nous trois**",
+            "Le Pouvoir des Trois",
+            "« The power of three will set us free. » (Le pouvoir des Trois nous délivrera.) La plus simple, à dire ensemble, en boucle. À deux, elle ne détruit pas : elle blesse, et elle fait gagner du temps."
+          ]
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "Écrire un sort",
+            "Ce que nous avons appris à nos dépens : dire d'abord ce qui manque, puis ce qu'il faut. Rimer aide. Un sort trop large ramène plus qu'on ne voulait. Un sort jeté pour son propre intérêt se retourne contre soi. Les grands sorts demandent les trois. Le Livre a été écrit par des sorcières moins fortes que nous : elles avaient besoin des sorts."
+          ],
+          "note": "Piper : « Et toujours relire avant de lire à voix haute. »"
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Chercher par le pendule",
+            "La carte de la ville, le cristal au bout du fil, et quelque chose de celle ou celui qu'on cherche. Le cristal tombe où elle est."
+          ],
+          "note": "On ne trouve pas un warlock au pendule. Le cristal de Maman n'a pas trouvé Prue ; Paige l'a cassé le 9 octobre, sans le faire exprès."
+        }
+      ]
+    },
+    {
+      "titre": "⚗️ Potions",
+      "colonnes": [
+        "✍️ De quelle main",
+        "📜 La page",
+        "📝 Ce qui y est écrit"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**Piper**",
+            "Ce qu'on garde au grenier",
+            "Une potion de destruction n'est jamais la même deux fois : elle porte toujours quelque chose du démon (sa chair, sa peau, ce qu'il a touché). Ce qui revient : sel, sauge, racine de mandragore, sang de dragon (la résine), herbes de l'herboriste de Chinatown."
+          ],
+          "note": "Piper tient les fioles. Elle sait l'ordre ; le Livre ne le dit pas toujours."
+        },
+        {
+          "cellules": [
+            "**Piper**",
+            "Racine de schisandra",
+            "Contre les Grimlocks : la potion qui les aveugle. Du thym la seconde fois."
+          ]
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "Ôter ses pouvoirs à un démon",
+            "La potion qu'on a commencée pour Cole : rendre humain un démon en lui ôtant ses pouvoirs. Elle doit refroidir et virer rouge sang. Il manquait la racine de billings. Nous ne l'avons pas finie."
+          ],
+          "note": "Inachevée. Phoebe a gardé la liste à part, au dos d'une enveloppe."
+        }
+      ]
+    },
+    {
+      "titre": "🍂 L'automne 2001 — les dernières pages",
+      "colonnes": [
+        "✍️ De quelle main",
+        "📜 La page",
+        "📝 Ce qui y est écrit"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Shax",
+            "L'assassin de la Source. Il vient comme un vent ; il ne se montre qu'à la fin. Le sort de la page : « Evil wind that blows, / that which forms below, / no longer may you dwell, / death takes you with this spell. » (Vent mauvais qui souffle, ce qui prend forme en bas : tu ne demeureras plus ; la mort te prend par ce sort.) Il faut les Trois."
+          ],
+          "note": "Dit à deux, il l'a seulement blessé. Il a tué Prue, et le docteur Griffiths, dans le hall de la maison. Dit à trois le 9 octobre 2001, avec Paige, il l'a détruit. Pas d'autre note. Personne n'a eu le cœur d'écrire le reste."
+        },
+        {
+          "cellules": [
+            "**Piper**",
+            "Ramener une sœur",
+            "« In this night and in this hour, / I call upon the ancient power, / bring back my sister, / bring back the power of three. » (En cette nuit, à cette heure… ramenez ma sœur, ramenez le pouvoir des Trois.) Écrit d'une main qui tremble, avec du sang sur la page."
+          ],
+          "note": "Rien n'est revenu. Piper a voulu le récrire dix fois. La page est restée ; personne ne l'arrache."
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Appeler une sorcière perdue",
+            "« Power of the witches, rise, / course unseen across the skies, / come to us who call you near, / come to us and settle here. / Blood to blood, I summon thee, / blood to blood, return to me. » (Pouvoir des sorcières, lève-toi… Sang à sang, je t'appelle ; sang à sang, reviens-moi.)"
+          ],
+          "note": "Ce sont les mots qui rendent des pouvoirs volés (la page de Kryto). Dits pour Prue, avec du sang. C'est une autre qui les a entendus : Paige, venue à l'enterrement sans savoir pourquoi."
+        },
+        {
+          "cellules": [
+            "**une main ancienne**",
+            "Appeler un esprit",
+            "« Hear these words, hear my cry, / spirit from the other side, / come to me, I summon thee, / cross now the great divide. » (Entends ces mots, entends mon cri, esprit de l'autre côté ; viens à moi, je t'appelle ; franchis le grand partage.) Au grenier, les bougies en cercle."
+          ],
+          "note": "Grams vient. Maman est venue le 9 octobre. Prue ne vient pas. Grams dit qu'elle ne peut pas — ou qu'elle ne doit pas."
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "La Source",
+            "Il n'y a pas de page. Ce que nous savons vient de Cole et de ce que nous avons vu : il règne sur les Enfers, il a envoyé Shax, il a mis la tête de Cole à prix, la Triade lui en voulait. Il prend le visage d'un proche de celle qu'il veut. Il y a quarante-huit heures où une sorcière nouvelle peut encore choisir son camp, de son plein gré, jamais forcée : il a voulu prendre Paige ainsi. Il a dit qu'il avait déjà brisé le cercle des Trois et qu'il le referait."
+          ],
+          "note": "Lunettes enchantées : « Magic forces, far and wide, / enchant these so those can't hide… » (Forces de magie… qu'ils ne puissent plus se cacher) — elles ont montré une aura noire. Nous ne savons toujours pas où le trouver. À compléter."
+        },
+        {
+          "cellules": [
+            "**Phoebe**",
+            "Paige",
+            "Paige Matthews, née en 1977. Fille de Maman et de Sam, son être de lumière — donc à moitié de lumière : elle se déplace en orbes, et les objets viennent quand elle les appelle. Confiée bébé à sœur Agnès, dans une église, pour la cacher aux Fondateurs ; Maman n'a demandé qu'une chose, que son prénom commence par un P. Elle a reformé les Trois."
+          ],
+          "note": "Écrit le soir même, au crayon, en attendant que Piper redescende. « On l'a trouvée parce qu'elle nous a trouvées. »"
+        }
+      ]
+    },
+    {
+      "titre": "🌳 La lignée — les noms au début du Livre",
+      "colonnes": [
+        "Qui",
+        "Ce qu'on en sait"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**Melinda Warren**",
+            "L'ancêtre, née en Virginie en 1670 — Piper l'a mise au monde, ce Halloween où nous sommes tombées dans le passé. Livrée par Matthew Tate, brûlée ; elle s'est laissé brûler pour sauver sa fille Prudence. Elle a fait la prophétie. Ses pouvoirs : bouger les choses, voir l'avenir, figer — les trois que nous avons eus."
+          ]
+        },
+        {
+          "cellules": [
+            "**Penelope Halliwell — Grams**",
+            "Notre grand-mère. Elle nous a élevées et a lié nos pouvoirs après la naissance de Phoebe. Ses « clubs de bridge » étaient son coven. Morte en 1998, dans l'escalier du grenier ; nos pouvoirs se sont déliés à sa mort. Elle vient quand on l'appelle."
+          ]
+        },
+        {
+          "cellules": [
+            "**Patricia Halliwell — Maman**",
+            "Elle figeait, comme Piper ; enceinte de Phoebe, elle voyait. Morte en 1978 au lac, par le démon de l'eau. Après Papa, elle a aimé Sam, son être de lumière, et de là est née Paige — on l'a appris le 9 octobre 2001. Elle est revenue en chair un seul jour, pour le mariage de Piper."
+          ]
+        },
+        {
+          "cellules": [
+            "**Victor Bennett — Papa**",
+            "Il n'est pas sorcier. Parti quand nous étions petites : Grams voulait que nous ayons nos pouvoirs, et lui ne pouvait pas nous protéger sans en avoir."
+          ],
+          "note": "Le Livre ne dit pas un mot de lui. Cette ligne est de Phoebe."
+        },
+        {
+          "cellules": [
+            "**Prudence Halliwell — Prue**",
+            "L'aînée. Bouger les choses par l'esprit ; se projeter hors de son corps. Tuée par Shax en mai 2001."
+          ]
+        },
+        {
+          "cellules": [
+            "**Piper Halliwell**",
+            "Figer ; et depuis peu, faire éclater les choses."
+          ]
+        },
+        {
+          "cellules": [
+            "**Phoebe Halliwell**",
+            "Voir — le passé, l'avenir, par le contact. Léviter."
+          ]
+        },
+        {
+          "cellules": [
+            "**Paige Matthews**",
+            "Les orbes ; appeler un objet par son nom."
+          ],
+          "note": "Le nom n'est pas encore écrit de la même encre que les autres."
+        }
+      ]
+    }
+  ],
+  "pages": [
+    "Ce que le Livre n'a pas : la page qui ramène une sœur morte. Nous avons cherché. Elle n'existe pas, ou il nous la cache.",
+    "Le Livre se défend : il a foudroyé Cole quand il l'a touché, et Cole s'en tient loin. Il s'ouvre parfois seul à la page qu'il faut. Une fois, il s'est tourné au mal en même temps que nous.",
+    "Ce que nous avons cherché sans le trouver : les trolls (le Livre a été écrit par des adultes), les enfants-démons, comment cacher un mariage aux Fondateurs, les Cavaliers, le génie, l'exorcisme qu'il aurait fallu pour Paige.",
+    "Sur la garde, de la main de Melinda, et répété par Grams : chaque génération ajoute au Livre. « Parfois on y ajoute, parfois il vous apprend. »"
+  ]
+}

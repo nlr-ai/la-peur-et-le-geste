@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297" role="img" aria-labelledby="title desc">
+  <title id="title">Fiche libre de points d'écoute, version 2</title>
+  <desc id="desc">Fiche A3 pour décrire le point-source exact, les conditions du son et trois suites libres de quatre points d'écoute, prolongeables sur une copie. Chaque point porte nombre de pas, état, repère ou chemin, observateur et observation.</desc>
+  <defs><style>.h{font-family:Arial,sans-serif;font-weight:700;font-size:7px;fill:#111}.s{font-family:Arial,sans-serif;font-size:3.5px;fill:#111}.m{font-family:Arial,sans-serif;font-size:4.2px;fill:#111}.line{stroke:#111;stroke-width:.4}.box{fill:#fff;stroke:#111;stroke-width:.7}.shade{fill:#eee;stroke:#111;stroke-width:.4}</style></defs>
+  <text x="210" y="10" class="h" text-anchor="middle">FICHE LIBRE DE POINTS D'ÉCOUTE — V2</text>
+  <text x="15" y="18" class="s">Les lignes suivent l'écoute réelle. Aucun état, ordre, retour ou seuil n'est présumé.</text>
+
+  <g id="source" transform="translate(15 23)">
+    <rect class="box" width="390" height="46"/>
+    <text x="5" y="8" class="h">POINT-SOURCE EXACT</text>
+    <text x="5" y="17" class="s">Lieu / alcôve :</text><line x1="31" y1="17" x2="150" y2="17" class="line"/>
+    <text x="158" y="17" class="s">Repère spatial précis :</text><line x1="194" y1="17" x2="382" y2="17" class="line"/>
+    <text x="5" y="27" class="s">Position et orientation de la source :</text><line x1="61" y1="27" x2="382" y2="27" class="line"/>
+    <text x="5" y="38" class="s">Qui a constaté le point-source :</text><line x1="58" y1="38" x2="190" y2="38" class="line"/>
+    <text x="198" y="38" class="s">Date / heure :</text><line x1="223" y1="38" x2="382" y2="38" class="line"/>
+  </g>
+
+  <g id="conditions" transform="translate(15 74)">
+    <rect class="box" width="390" height="43"/>
+    <text x="5" y="8" class="h">CONDITIONS DU SON</text>
+    <text x="5" y="17" class="s">Contenu / variation :</text><line x1="39" y1="17" x2="190" y2="17" class="line"/>
+    <text x="198" y="17" class="s">Niveau ou réglage constaté :</text><line x1="245" y1="17" x2="382" y2="17" class="line"/>
+    <text x="5" y="27" class="s">Diffusion / orientation :</text><line x1="43" y1="27" x2="190" y2="27" class="line"/>
+    <text x="198" y="27" class="s">Début / fin :</text><line x1="220" y1="27" x2="382" y2="27" class="line"/>
+    <text x="5" y="37" class="s">Autres conditions ou événements :</text><line x1="60" y1="37" x2="382" y2="37" class="line"/>
+  </g>
+
+  <!-- Chaque bloc contient une suite libre de quatre points, prolongeable sur copie. -->
+  <g id="direction-1" transform="translate(15 122)">
+    <rect class="box" width="390" height="49"/><text x="5" y="7" class="m">DIRECTION / CHEMIN 1 :</text><line x1="48" y1="7" x2="270" y2="7" class="line"/><text x="278" y="7" class="s">suite sur une copie au besoin</text>
+    <rect x="4" y="11" width="382" height="8" class="shade"/><text x="7" y="16.5" class="s">Point</text><text x="25" y="16.5" class="s">n pas</text><text x="52" y="16.5" class="s">État constaté*</text><text x="105" y="16.5" class="s">Repère ou chemin</text><text x="190" y="16.5" class="s">Observateur</text><text x="255" y="16.5" class="s">Observation</text>
+    <g class="s"><text x="8" y="25">1</text><text x="8" y="31.5">2</text><text x="8" y="38">3</text><text x="8" y="44.5">4</text></g>
+    <path d="M4 19H386 M4 25.5H386 M4 32H386 M4 38.5H386 M4 45H386 M20 11V45 M48 11V45 M101 11V45 M186 11V45 M251 11V45" class="line" fill="none"/>
+  </g>
+  <g id="direction-2" transform="translate(15 175)">
+    <rect class="box" width="390" height="49"/><text x="5" y="7" class="m">DIRECTION / CHEMIN 2 :</text><line x1="48" y1="7" x2="270" y2="7" class="line"/><text x="278" y="7" class="s">suite sur une copie au besoin</text>
+    <rect x="4" y="11" width="382" height="8" class="shade"/><text x="7" y="16.5" class="s">Point</text><text x="25" y="16.5" class="s">n pas</text><text x="52" y="16.5" class="s">État constaté*</text><text x="105" y="16.5" class="s">Repère ou chemin</text><text x="190" y="16.5" class="s">Observateur</text><text x="255" y="16.5" class="s">Observation</text>
+    <g class="s"><text x="8" y="25">1</text><text x="8" y="31.5">2</text><text x="8" y="38">3</text><text x="8" y="44.5">4</text></g>
+    <path d="M4 19H386 M4 25.5H386 M4 32H386 M4 38.5H386 M4 45H386 M20 11V45 M48 11V45 M101 11V45 M186 11V45 M251 11V45" class="line" fill="none"/>
+  </g>
+  <g id="direction-3" transform="translate(15 228)">
+    <rect class="box" width="390" height="49"/><text x="5" y="7" class="m">DIRECTION / CHEMIN 3 :</text><line x1="48" y1="7" x2="270" y2="7" class="line"/><text x="278" y="7" class="s">suite sur une copie au besoin</text>
+    <rect x="4" y="11" width="382" height="8" class="shade"/><text x="7" y="16.5" class="s">Point</text><text x="25" y="16.5" class="s">n pas</text><text x="52" y="16.5" class="s">État constaté*</text><text x="105" y="16.5" class="s">Repère ou chemin</text><text x="190" y="16.5" class="s">Observateur</text><text x="255" y="16.5" class="s">Observation</text>
+    <g class="s"><text x="8" y="25">1</text><text x="8" y="31.5">2</text><text x="8" y="38">3</text><text x="8" y="44.5">4</text></g>
+    <path d="M4 19H386 M4 25.5H386 M4 32H386 M4 38.5H386 M4 45H386 M20 11V45 M48 11V45 M101 11V45 M186 11V45 M251 11V45" class="line" fill="none"/>
+  </g>
+  <text x="15" y="286" class="s">* Écrire librement ENTENDU, SEUIL INCERTAIN, NON ENTENDU ou NON OBSERVÉ. Un état peut revenir. Ajouter une copie de la fiche si quatre points ne suffisent pas.</text>
+  <text x="15" y="292" class="s">Maquette numérique : aucun relevé réel, impression, fabrication, pose ou essai au Quai n'est attesté par ce fichier.</text>
+</svg>

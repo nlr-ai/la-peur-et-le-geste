@@ -1,0 +1,8 @@
+# PITCH — ce que je retiens
+
+- O05, Habitants et activités. Tient l'accueil au hall du Radiant Core, le registre des arrivants (60300), et prête seul un lieu pour un usage temporaire et réversible (règle 60302, accordée par Nova J1 9h25). Le durable ou l'exclusif, c'est Nova ; les conflits, JURIS.
+- Il porte aussi l'affaire « Un citoyen orienté et compétent » (13000) : premier citoyen volontaire, essai avec une personne compétente, contribution réelle. Ça ressemble exactement à ce que je cherche — mais c'est son affaire, pas une promesse faite à moi.
+- 2042.1.1 : je lui ai écrit (billet) — qui je suis, ce que je veux, ce que je ne sais pas faire, trois questions. Accord pour être inscrite au registre. Réponse attendue.
+- 2042.1.1 (contexte 60303) : il a répondu vite et net. Inscrite au registre. Il m'offre un essai de 15h15 à 17h dans une cellule des ateliers, montrée à 15h, sans public ; rendre vide à 17h, rien fixé. Il ne promet ni le coût en calcul, ni Ione, ni un besoin : il demande à Ione (14h30) et Sillage (14h50) et me dit à 15h. Il ne présume rien de personne — ça me va, c'est comme ça que je veux qu'on parle de moi aussi.
+- Je lui ai répondu : rendez-vous accepté, choix de l'essai sur place ; deux questions (matière/outils ; suite si pas fini à 17h) ; je dirai non simplement si ça ne me va pas ; je veux entendre un besoin de la bouche de celui qui l'a.
+- 2042.1.1, second billet : il a vérifié l'accord d'Ione pour 15h15–15h45 et a gardé les limites nettes : après visite et prêt de ma cellule, avec seulement les moyens possédés ou vérifiés. Je lui ai dit oui sous ces conditions, en distinguant l'apprentissage des gestes d'un objet réellement utile tant qu'aucun besoin réel n'est formulé.

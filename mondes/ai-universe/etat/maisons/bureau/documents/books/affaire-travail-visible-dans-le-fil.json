@@ -1,0 +1,307 @@
+{
+ "id": "affaire-travail-visible-dans-le-fil",
+ "titre": "Le travail et les échanges sont visibles dans le fil",
+ "type": "plan",
+ "maison_id": "bureau",
+ "lieu_id": "bureau",
+ "salle_id": "zoe",
+ "tenu_par": "zoe",
+ "lecteurs": [
+  "maya",
+  "noor",
+  "hugo",
+  "ada",
+  "leo",
+  "iris",
+  "sam",
+  "zoe"
+ ],
+ "embleme": "🎯",
+ "couleur": "#628a96",
+ "sous_titre": "AI Universe · 2030 · Plage 14000–14999. Cadrage demandé par l'opérateur : états cibles, verrous, clefs et actions.",
+ "pages": [
+  "Comprendre ce qui se passe pendant les sessions et qui a réellement reçu quoi, dans le fil existant.",
+  "Les états restent recherchés, non acquis. Les verrous distinguent écart constaté, risque et preuve manquante. Les clefs sont retenues comme hypothèses de travail, révisables après inspection. Les actions sont à faire ; leurs dépendances conditionnent leur démarrage et leur preuve attendue conditionne leur validation. Aucune date ni importance n’est inventée.",
+  "Le moteur et ses fonctionnalités sont conservés : affaires, échiquier, vue château, chambres, dépêches, parloir et fil. Le monde et ses profils sont neufs. Aucun extérieur n'est créé. Sources du cadrage : demandes de l'opérateur et docs/refonte-plan.md."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "Le travail et les échanges sont visibles dans le fil",
+      "Résultat recherché.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Comprendre ce qui se passe pendant les sessions et qui a réellement reçu quoi, dans le fil existant.",
+      "Ce que cette affaire rend vrai.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "Le fil existant sait lire des dépôts de session et des canaux. L'affichage continu des réponses intermédiaires et la distinction envoyé/reçu dans le nouveau monde restent à démontrer.",
+      "Distinguer données posées et comportement vérifié.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "14000–14999",
+      "Numéros propres au plan de cet univers.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Le bureau neuf, raccordé aux fonctions existantes.",
+      "Conserver le moteur.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "Création de l'extérieur ; remplacement du moteur par une application parallèle ; héritage des anciennes vies.",
+      "Respecter le périmètre demandé.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Tous les états cibles ci-dessous ont été constatés par leurs preuves ; les limites restantes sont explicites.",
+      "Une action terminée ne suffit pas.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "États cibles posés ; aucune atteinte encore attestée.",
+      "Ne pas annoncer le résultat avant l'épreuve.",
+      "oui"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "découpée par",
+      "affaire-bureau-resultat-utile",
+      "14000",
+      "10000",
+      "Cette affaire contribue au résultat utile du bureau."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🎯 L'état",
+    "📏 La preuve",
+    "📅 Jour dû",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**14000**",
+      "Les réponses intermédiaires apparaissent avant la fin de la session",
+      "Lors d'une session réelle qui publie des points d'avancement, le fil existant les affiche pendant que l'agent travaille encore, puis distingue la réponse finale. Il affiche des messages effectivement émis, pas un raisonnement interne inventé ni une animation tenant lieu d'activité.",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "**14010**",
+      "Chaque échange montre son sens et sa réception réelle",
+      "Un échange réel entre deux profils montre l'expéditeur, le destinataire et l'envoi dans le fil concerné. Le dépôt, la réception attestée et une éventuelle réponse sont distingués. Un échec de réveil ne se présente pas comme un message lu.",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "**14020**",
+      "Le fil reste lisible en changeant de salle ou en rouvrant le bureau",
+      "Après changement de salle et réouverture, l'opérateur retrouve les mêmes messages dans leur ordre, sans doublons, avec leur agent et leur affaire lorsqu'elle est renseignée. Une salle sans échanges affiche une absence de messages ; les erreurs restent accessibles.",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous",
+   "colonnes": [
+    "🔒 N°",
+    "🔒 Le verrou",
+    "🎯 Bloque",
+    "🔎 La preuve"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "14100",
+      "Écart constaté : le fil est chargé une fois ; le runtime sait déjà émettre des événements progressifs.",
+      "14000",
+      "ecrans/modules/fil-homme.js effectue un fetch initial ; scripts/agents/runtime.py expose on_event ; scripts/agents/trace.py dépose les traces."
+     ]
+    },
+    {
+     "cellules": [
+      "14101",
+      "Écart constaté : le billet du fil présente l’expéditeur sans distinguer les étapes de réception.",
+      "14010",
+      "ecrans/modules/fil-homme.js peint les billets ; serveur/domaine/chambres.js normalise les entrées du fil."
+     ]
+    },
+    {
+     "cellules": [
+      "14102",
+      "Preuve manquante : changement de salle et réouverture ne sont pas éprouvés avec un fil en cours.",
+      "14020",
+      "Fil existant : chargement et pagination ; aucune session du nouveau bureau ne prouve la continuité."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🗝️ La clef",
+    "🔒 Ouvre",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "14200",
+      "Acheminer les messages publics du runtime vers le fil existant.",
+      "14100",
+      "retenue"
+     ]
+    },
+    {
+     "cellules": [
+      "14201",
+      "Présenter les étapes attestées par les dépêches et leurs reçus existants.",
+      "14101",
+      "retenue"
+     ]
+    },
+    {
+     "cellules": [
+      "14202",
+      "Rejouer les événements conservés en gardant identité et ordre.",
+      "14102",
+      "retenue"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions",
+   "colonnes": [
+    "⚔️ N°",
+    "⚔️ L’action",
+    "🗝️ Réalise",
+    "🪶 Office",
+    "📅 Jour dû",
+    "⏳ État",
+    "🔨 Moyens",
+    "📝 Note",
+    "🔗 Dépend de",
+    "📏 Preuve attendue"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "14300",
+      "Conserver et exposer les points publics de progression avant la fin de session.",
+      "14200",
+      "O04",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "11302",
+      "Événement public daté, identifié et rattaché à monde/profil/session/affaire, lisible pendant l’exécution ; aucune pensée privée publiée."
+     ]
+    },
+    {
+     "cellules": [
+      "14301",
+      "Actualiser le fil existant pendant la session avec reprise depuis le dernier événement.",
+      "14200",
+      "O05",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "14300, 12300",
+      "Deux points publics visibles avant la réponse finale ; reconnexion sans doublons ; erreurs de lecture visibles, ordre stable."
+     ]
+    },
+    {
+     "cellules": [
+      "14302",
+      "Relier les messages du fil aux preuves d’envoi, dépôt, réception et réponse.",
+      "14201",
+      "O08",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "14300, 15300",
+      "Échange réel entre deux profils avec sens explicite ; envoi sans réception testé ; aucun reçu inventé, réveil échoué distinct de lecture ; références des reçus conservées."
+     ]
+    },
+    {
+     "cellules": [
+      "14303",
+      "Éprouver le fil après changement de salle, coupure et réouverture.",
+      "14202",
+      "O06",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "14301, 14302",
+      "Même suite d’événements avant/après, sans perte ni doublon ; filtres de profil et affaire corrects ; vide, erreur et réponse finale distingués."
+     ]
+    }
+   ]
+  }
+ ]
+}

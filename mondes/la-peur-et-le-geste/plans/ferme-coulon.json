@@ -1,0 +1,204 @@
+{
+  "nom": "Ferme de Coulon",
+  "viewBox": "0 0 1000 480",
+  "fonds": [],
+  "mur": "",
+  "guet": [],
+  "decor": [
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L490.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L780.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L210.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M780.0,152.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,312.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,312.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    }
+  ],
+  "etiquettes": [],
+  "salles": [
+    {
+      "id": "ferme-coulon",
+      "nom": "Cour de ferme",
+      "forme": {
+        "r": [
+          80,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        148.5
+      ],
+      "lignes": [
+        "Cour de ferme"
+      ],
+      "cle": true,
+      "quoi": "Cour de ferme — Ferme de Coulon.",
+      "motifs": [
+        "Cour de ferme, Ferme de Coulon"
+      ],
+      "alias": []
+    },
+    {
+      "id": "ferme-coulon-piece-2",
+      "nom": "Cuisine du logis",
+      "forme": {
+        "r": [
+          360,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        148.5
+      ],
+      "lignes": [
+        "Cuisine du logis"
+      ],
+      "cle": true,
+      "quoi": "Cuisine du logis — Ferme de Coulon.",
+      "motifs": [
+        "Cuisine du logis, Ferme de Coulon"
+      ],
+      "alias": []
+    },
+    {
+      "id": "ferme-coulon-piece-3",
+      "nom": "Chambre",
+      "forme": {
+        "r": [
+          640,
+          90,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        148.5
+      ],
+      "lignes": [
+        "Chambre"
+      ],
+      "cle": true,
+      "quoi": "Chambre — Ferme de Coulon.",
+      "motifs": [
+        "Chambre, Ferme de Coulon"
+      ],
+      "alias": []
+    },
+    {
+      "id": "ferme-coulon-piece-4",
+      "nom": "Grange",
+      "forme": {
+        "r": [
+          80,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        308.5
+      ],
+      "lignes": [
+        "Grange"
+      ],
+      "cle": true,
+      "quoi": "Grange — Ferme de Coulon.",
+      "motifs": [
+        "Grange, Ferme de Coulon"
+      ],
+      "alias": []
+    },
+    {
+      "id": "ferme-coulon-piece-5",
+      "nom": "Étable",
+      "forme": {
+        "r": [
+          360,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        308.5
+      ],
+      "lignes": [
+        "Étable"
+      ],
+      "cle": true,
+      "quoi": "Étable — Ferme de Coulon.",
+      "motifs": [
+        "Étable, Ferme de Coulon"
+      ],
+      "alias": []
+    },
+    {
+      "id": "ferme-coulon-piece-6",
+      "nom": "Remise",
+      "forme": {
+        "r": [
+          640,
+          250,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        308.5
+      ],
+      "lignes": [
+        "Remise"
+      ],
+      "cle": true,
+      "quoi": "Remise — Ferme de Coulon.",
+      "motifs": [
+        "Remise, Ferme de Coulon"
+      ],
+      "alias": []
+    }
+  ],
+  "_": "Plan de fiction canonique. Disposition schématique ; aucun relevé historique revendiqué."
+}

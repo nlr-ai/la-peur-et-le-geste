@@ -1,0 +1,11 @@
+{
+  "id": "source-magies-geographie-monde-001-readme",
+  "maison_id": "_sans-maison",
+  "titre": "🌍 Monde 001 — proposition WorldEngine",
+  "sous_titre": "Dossier de conception importé — geographie/monde-001/README.md — statuts retenu/proposé/ouvert conservés dans le texte",
+  "type": "dossier",
+  "pages": [
+    "# 🌍 Monde 001 — proposition WorldEngine\n\nPremière base géographique générée à la demande de l’utilisateur. **Proposition, pas géographie canonique.** Aucune organisation, ville ou liaison magique n’est encore placée.\n\n[Ouvrir l’atlas](index.html)\n\n## Provenance\n\n- Générateur : [WorldEngine](https://github.com/Mindwerks/worldengine), version 0.20.0.\n- Révision installée : `b2adbb674afb381232097f126e548a8c133e4633`.\n- Graine : `1609`.\n- Dimensions : `1024 × 512` pixels ; aucune échelle en kilomètres imposée.\n- Plaques initiales : `12`.\n- Génération complète ; autres paramètres par défaut.\n- Environnement isolé : `C:/Users/reyno/.codex/tools/worldengine-venv`.\n\n## Reproduire depuis la racine du dépôt\n\n```powershell\nC:/Users/reyno/.codex/tools/worldengine-venv/Scripts/worldengine.exe world -s 1609 -n monde-001 -x 1024 -y 512 -q 12 --rivers --gs --sat --ice -v -o geographie/monde-001\nC:/Users/reyno/.codex/tools/worldengine-venv/Scripts/worldengine.exe ancient_map -w geographie/monde-001/monde-001.world -g geographie/monde-001/monde-001_ancient.png -f 2 --sea_color blue\n```\n\n## Fichiers\n\n- `monde-001.world` : données natives, conservées pour les rendus et analyses ultérieurs.\n- PNG : vue satellite, relief, biomes, précipitations, températures, océans, rivières, glaces, hauteur en gris et carte ancienne.\n- `generation.log` : journal du calcul.\n\nWorldEngine emploie des modèles procéduraux de tectonique, érosion et climat. Leurs résultats offrent une base cohérente à examiner, pas une reconstitution scientifique complète. Les contrastes et couleurs des images ne constituent pas une échelle physique documentée ici.\n"
+  ],
+  "boite": "boite-canon-geographie"
+}

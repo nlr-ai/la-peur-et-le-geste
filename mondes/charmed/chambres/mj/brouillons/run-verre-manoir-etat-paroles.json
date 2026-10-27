@@ -1,0 +1,32 @@
+[
+  {
+    "id": "parole-source-demande-devis-verre-manoir-2001-10-09-2258",
+    "date": "09.10.2001, 22 h 58",
+    "locuteur_id": "la-source",
+    "type": "ordre",
+    "destinataire_id": "varek",
+    "temoins": ["varek"],
+    "contenu": "Varek, faites chiffrer par le Liseur un verre dormant pour l'intérieur du Manoir : image et son si possible, aucune attaque, aucune présence continue, et destruction s'il est découvert. Je veux le délai, le prix, la trace qu'il émet et le moyen de le poser avant de promettre quoi que ce soit. Sa veille sur Kazhar ne doit pas être rompue.",
+    "poids": 2
+  },
+  {
+    "id": "parole-source-accepte-marche-verre-manoir-2001-10-09-2300",
+    "date": "09.10.2001, 23 h 00",
+    "locuteur_id": "la-source",
+    "type": "ordre",
+    "destinataire_id": "varek",
+    "temoins": ["varek"],
+    "contenu": "Marché accepté aux conditions dites : vingt-sept minutes, dues seulement après vingt-quatre heures d'image vérifiée. Le Liseur achève d'abord le compte de Kazhar, puis fabrique le verre. Varek, trouvez pendant ce délai un porteur réellement admis au Manoir. Aucun dépôt avant que vous m'ayez donné son nom et sa voie d'entrée.",
+    "poids": 3
+  },
+  {
+    "id": "parole-varek-confirme-marche-verre-manoir-2001-10-09-2301",
+    "date": "09.10.2001, 23 h 01",
+    "locuteur_id": "varek",
+    "type": "rapport",
+    "destinataire_id": "la-source",
+    "temoins": ["la-source"],
+    "contenu": "Le Liseur a reçu l'acceptation mot pour mot. Le compte de Kazhar reste premier ; les six heures de fabrication ne commenceront qu'après son terme. La Glaneuse et le Courtier cherchent séparément un porteur réellement admis, avec son nom et sa voie d'entrée. Aucun dépôt, aucune remise et aucune mission déplacée ; aucun porteur n'est encore établi.",
+    "poids": 2
+  }
+]

@@ -1,0 +1,41 @@
+/* Le plan et la carte ont leur propre matière : verre, eau et lumière. */
+:root[data-habillage="lumina-prime"] {
+  --ink:#183c48; --muted:#577e85; --accent:#107d8d; --braise:#198da1;
+  --bord:#9dbfc4; --paper:#e7f1f1; --book-plan:#167f8d;
+  --btn:#dfeeed; --btn-hover:#c7e3e3; --fond-lateral:#ecf5f3;
+}
+[data-habillage="lumina-prime"] #decor {background:#edf5f2;}
+[data-habillage="lumina-prime"] .plan {background:#edf5f2;}
+.lp-lagune {fill:#dceeed;stroke:none;}
+.lp-socle {fill:#f8fcf8;stroke:#abcacb;stroke-width:2;}
+.lp-liaisons {fill:none;stroke:#97c9cc;stroke-width:14;stroke-linejoin:round;}
+.lp-anneau {fill:none;stroke:#3aa4b0;stroke-width:1.5;stroke-dasharray:4 5;}
+[data-habillage="lumina-prime"] .plan-salle > rect,
+[data-habillage="lumina-prime"] .plan-salle > circle,
+[data-habillage="lumina-prime"] .plan-salle > path {fill:#f8fcfa;stroke:#519eaa;stroke-width:1.5;}
+[data-habillage="lumina-prime"] .plan-salle.ici > circle {fill:#c4e7e6;stroke:#147c8c;stroke-width:3;}
+[data-habillage="lumina-prime"] .plan-salle.dehors > rect {fill:#e0efdf;stroke:#719b85;}
+[data-habillage="lumina-prime"] .plan-salle[data-id="jardin-interieur"] > rect {fill:#d6e9d5;stroke:#83aa86;}
+[data-habillage="lumina-prime"] .plan text {fill:#234e59;}
+[data-habillage="lumina-prime"] .plan .plan-large {text-anchor:middle;letter-spacing:2px;font-size:12px;}
+[data-habillage="lumina-prime"] .mer {fill:#e2efef;}
+[data-habillage="lumina-prime"] .terre {fill:#f6faf3;}
+[data-habillage="lumina-prime"] .hautfond {stroke:#b9d9d8;fill:none;}
+[data-habillage="lumina-prime"] .cote {stroke:#57949d;fill:none;}
+[data-habillage="lumina-prime"] .region-terre {fill:#e9f4eb;stroke:#a1c7c0;}
+[data-habillage="lumina-prime"] .region-terre[data-region="etheria"] {fill:#ece9f5;}
+[data-habillage="lumina-prime"] .region-terre[data-region="atlantis"] {fill:#d4eaf0;}
+[data-habillage="lumina-prime"] .region-terre[data-region="chronopolis"] {fill:#f3eedb;}
+[data-habillage="lumina-prime"] .route {stroke:#80b5b9;stroke-dasharray:4 3;}
+[data-habillage="lumina-prime"] .mer-nom {fill:#557f87;letter-spacing:2px;}
+[data-habillage="lumina-prime"] .lieu-carte .nom {font-size:2.6em;fill:#214b56;paint-order:stroke;stroke:#f3faf7;stroke-width:2px;}
+[data-habillage="lumina-prime"] .mer-nom {font-size:1.6em;}
+[data-habillage="lumina-prime"] [data-filtre="militaire"],
+[data-habillage="lumina-prime"] [data-filtre="dragons"] {display:none;}
+[data-habillage="lumina-prime"] #carte-filtres {position:static;display:flex;flex-wrap:wrap;justify-content:center;padding:8px;gap:5px;}
+[data-habillage="lumina-prime"] #plan-cadre,
+[data-habillage="lumina-prime"] #table-cadre {background:#edf5f2;color:#183c48;}
+[data-habillage="lumina-prime"] .leg-etage {display:none;}
+@media(prefers-color-scheme:dark) {
+ :root[data-habillage="lumina-prime"] {--ink:#d8e9e9;--muted:#9dbbbf;--accent:#78c8d1;--bord:#3d686e;--paper:#172c32;--btn:#233b42;--btn-hover:#31535b;--fond-lateral:#14282e;}
+}

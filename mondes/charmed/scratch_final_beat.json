@@ -1,0 +1,19 @@
+[
+  {
+    "type": "reparation",
+    "texte": "Intervention accomplie : le Courtier d'ambre est revenu des galeries devant la Source et Varek avec l'adresse vérifiée du dispensaire fermé (412 Howard Street). Le premier verrou (1701) de l'affaire est levé dans les registres ; Ferran et Néris peuvent entamer la préparation de leurs seuils et de l'appel.",
+    "qui": "Le MJ",
+    "touche": [
+      "lieux.json : ajout de l'ancien dispensaire de Howard Street",
+      "actes.json : retour du Courtier acté devant la Source et Varek",
+      "paroles.json : rapport formel du Courtier consigné",
+      "affaire-le-dispensaire-ferme.json : verrou 1701 levé, clef 1710 faite, action 1721 faite, actions 1722 et 1723 en cours"
+    ]
+  },
+  {
+    "type": "replique",
+    "locuteur_id": "varek",
+    "texte": "Maître... le Courtier a rendu l'adresse exacte : le bâtiment municipal du 412 Howard Street, portes closes et accès arrière discret sans témoins. Le premier verrou est levé au registre. J'ordonne à Ferran d'arrêter son tracé de seuils et à Néris de caler son appel sur ce site.",
+    "duree": 1
+  }
+]

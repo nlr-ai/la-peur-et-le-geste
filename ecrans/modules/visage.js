@@ -77,6 +77,12 @@ window.Visage = (() => {
     return "";
   }
 
+  function prefixe(titre) {
+    if (document.documentElement.dataset.habillage !== "lumina-prime") return "";
+    const signe = embleme(titre);
+    return signe && signe !== "•" ? signe + " " : "";
+  }
+
   // ---- le visage ----------------------------------------------------------
   // `p` : {id, nom, titre, portrait_svg}. `opts.classe` ajoute la classe que
   // l'appelant utilise déjà pour sa mise en place (`med-rond`, `chr-icone`…) :
@@ -88,6 +94,50 @@ window.Visage = (() => {
   // caractère se retrouvait dans une boîte à `line-height:0`, donc écrasé. On
   // regarde ce qu'on a reçu plutôt que de croire le nom du champ.
   const EST_SVG = /^\s*<svg\b/i;
+
+  function pastilleOpinion(p) {
+    const f = window.Gens && Gens.qui ? Gens.qui(p.id) : {};
+    if (!p.id || p.joueur || f.joueur) return "";
+    const n = f.opinion !== undefined ? f.opinion : p.opinion;
+    const connu = typeof n === "number" && Number.isFinite(n);
+    const texte = connu ? (n > 0 ? "+" : "") + n : "?";
+    const niveau = n < -50 ? 0 : n <= 0 ? 1 : n < 50 ? 2 : 3;
+    const libelles = ["Méfiance", "Réserve", "Confiance", "Confiance forte"];
+    const titre = connu ? libelles[niveau] + " envers vous — score : " + texte : "Confiance envers vous inconnue";
+    const forme = "M12 2L21 6V12C21 17 17 21 12 23C7 21 3 17 3 12V6Z";
+    const remplissage = [100, 65, 30, 0][niveau];
+    const icone = connu ? '<svg class="opinion-bouclier" viewBox="0 0 24 26" aria-hidden="true">' +
+      (niveau > 0 ? '<path class="bouclier-plein" d="' + forme + '" style="clip-path:inset(' + remplissage + '% 0 0 0)"/>' : '') +
+      '<path d="' + forme + '"/></svg>' : '?';
+    const style = connu ? ' style="background:' + ["#14462b", "#555958", "#94702e", "#c85b12"][niveau] + '"' : "";
+    return '<span class="visage-opinion ' + (connu ? n > 0 ? "positive" : n < 0 ? "negative" : "neutre" : "inconnue") +
+      '"' + style + ' tabindex="0" data-opinion-details="' + esc([titre].concat(f.opinion_details || p.opinion_details || (connu ? [] : ["Aucune opinion connue pour cette relation."])).join("\n")) + '" aria-label="' + esc(titre) + '">' + icone + '</span>';
+  }
+
+  function flammeFerveur(p) {
+    if (!p.id) return "";
+    const f = window.Gens && Gens.qui ? Gens.qui(p.id) : {};
+    const n = f.ferveur !== undefined ? f.ferveur : p.ferveur;
+    const connue = typeof n === "number" && Number.isFinite(n) && n >= 0 && n <= 100;
+    const niveau = connue ? n < 25 ? 0 : n < 50 ? 1 : n < 75 ? 2 : 3 : -1;
+    const couleur = ["vert", "gris", "jaune", "orange"][niveau] || "inconnue";
+    const date = f.ferveur_date || p.ferveur_date;
+    let titre = connue ? "Ferveur : " + n + "/100 — niveau " + (niveau + 1) + "/4" +
+      (date ? " (" + ((f.ferveur_nature || p.ferveur_nature) === "simulation" ? "simulation, dernier état : " : "source : ") + String(date).replace("T", " ") + ")" : "") : "Ferveur inconnue";
+    if ((f.ferveur_nature || p.ferveur_nature) === "choix_joueur") titre += "\nDéterminée par vos choix\n" + (f.ferveur_details || p.ferveur_details || []).join("\n");
+    return '<span class="visage-ferveur ' + couleur + '" title="' + esc(titre) + '" aria-label="' + esc(titre) +
+      '"><svg class="flamme" viewBox="0 0 24 28" aria-hidden="true"><path d="M13 2C15 9 21 10 21 17a9 9 0 0 1-18 0c0-4 2-7 5-10 0 4 1 5 2 6 3-3 4-7 3-11Z"/></svg></span>';
+  }
+
+  function actualiserOpinions() {
+    document.querySelectorAll(".visage[data-id]:not(.visage-nu)").forEach((el) => {
+      const ancien = el.querySelector(".visage-opinion");
+      if (ancien) ancien.remove();
+      const flamme = el.querySelector(".visage-ferveur");
+      if (flamme) flamme.remove();
+      el.insertAdjacentHTML("beforeend", pastilleOpinion({id: el.dataset.id}) + flammeFerveur({id: el.dataset.id}));
+    });
+  }
 
   function html(p, opts) {
     const o = opts || {};
@@ -103,7 +153,7 @@ window.Visage = (() => {
       ' data-nom="' + esc(a.nom || "") + '"' +
       (a.titre ? ' data-titre="' + esc(a.titre) + '"' : "") +
       (a.id ? ' data-id="' + esc(a.id) + '"' : "") + ">" +
-      portrait +
+      portrait + (!nu ? pastilleOpinion(a) + flammeFerveur(a) : "") +
       (e ? '<i class="emb-coin" aria-hidden="true">' + e + "</i>" : "") +
       "</span>";
   }
@@ -184,6 +234,7 @@ window.Visage = (() => {
       boite.className = "visage-fiche";
       document.body.appendChild(boite);
     }
+    boite.classList.remove("opinion-fiche");
     boite.innerHTML =
       '<span class="visage visage-grand" style="' +
       (f.role ? "--role:" + esc(f.role) + ";" : "") +
@@ -210,8 +261,27 @@ window.Visage = (() => {
   // champ. Tous passent par `taches.js`, donc un seul sélecteur les couvre.
   const SOURCES = ".visage,.tache-gens[data-id]";
 
+  function ouvrirOpinion(src) {
+    fermer();
+    if (!boite) {
+      boite = document.createElement("div");
+      boite.className = "visage-fiche";
+      document.body.appendChild(boite);
+    }
+    boite.id = "opinion-infobulle";
+    boite.setAttribute("role", "tooltip");
+    src.setAttribute("aria-describedby", boite.id);
+    boite.classList.add("opinion-fiche", "ouverte");
+    boite.textContent = src.dataset.opinionDetails;
+    const r = src.getBoundingClientRect(), b = boite.getBoundingClientRect();
+    boite.style.left = Math.max(12, Math.min(r.right + 12, innerWidth - b.width - 12)) + "px";
+    boite.style.top = Math.max(12, Math.min(r.top, innerHeight - b.height - 12)) + "px";
+  }
+
   document.addEventListener("mouseover", (ev) => {
     if (!ev.target.closest) return;
+    const opinion = ev.target.closest(".visage-opinion");
+    if (opinion) { ouvrirOpinion(opinion); return; }
     const src = ev.target.closest(SOURCES);
     if (src && !src.classList.contains("visage-nu") && !ev.target.closest(".visage-fiche")) {
       ouvrir(src);
@@ -219,11 +289,18 @@ window.Visage = (() => {
       fermer();
     }
   });
+  document.addEventListener("focusin", (ev) => {
+    if (ev.target.matches(".visage-opinion")) ouvrirOpinion(ev.target);
+  });
+  document.addEventListener("focusout", (ev) => {
+    if (ev.target.matches(".visage-opinion")) fermer();
+  });
+  document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") fermer(); });
   // Le survol ne suffit pas : on quitte un visage en défilant, en cliquant, en
   // faisant glisser la carte ou en changeant d'onglet — et la fiche resterait
   // pendue à l'écran.
   ["scroll", "mousedown", "blur", "wheel"].forEach((t) =>
     window.addEventListener(t, fermer, true));
 
-  return { html, cadrer, teinte, embleme, fermer };
+  return { html, actualiserOpinions, cadrer, teinte, embleme, prefixe, fermer };
 })();

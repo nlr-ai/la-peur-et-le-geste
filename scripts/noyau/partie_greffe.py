@@ -17,7 +17,9 @@ import partie_ecriture  # le verrou, la relecture du disque, l'append (A6/A10/A1
 import partie_tour      # ce qui tombe au passage du tour (annonce et application)
 import partie_validite  # la recevabilité d'un coup, séparée pour rester lisible
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import racines
+
+RACINE = racines.racine()
 DOSSIER = os.path.join(RACINE, "etat", "parties")
 JOURS_PAR_TOUR = 2  # un tour = deux jours du monde (mj-partie.md §4)  # regle: tour-deux-jours
 DECK_MAX = 10

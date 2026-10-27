@@ -1,0 +1,123 @@
+{
+  "id": "affaire-claire-randall",
+  "titre": "Les affaires de claire-randall",
+  "sous_titre": "Cahier stratégique personnel — préparation du monde et conduite de mes affaires",
+  "type": "affaire",
+  "tenu_par": "claire-randall",
+  "acteur_id": "claire-randall",
+  "prive": true,
+  "pages": [
+    "Une affaire durable par PNJ qui porte une stratégie. Plusieurs fins peuvent y coexister. Les catégories décrivent les dimensions à peindre, pas huit objectifs obligatoires. Ce cahier de simulation n’est pas la preuve d’un carnet physiquement fabriqué.",
+    "Je peux établir en préparation les détails ordinaires, personnes secondaires, objets, lieux, habitudes et ressources plausibles nécessaires à mon implantation, sans contredire le canon ni les faits acquis. Je marque chaque ajout comme peint. Un ajout conséquent doit avoir une provenance, des limites, des liens et des conséquences cohérents ; je ne fais pas surgir le moyen décisif qui efface mon problème. Un autre personnage reçoit sa fiche et sa propre session avant toute parole, décision ou action jouée.",
+    "Établi, peint, hypothèse, inconnu sont des statuts distincts. Peindre un état initial n’accomplit pas une action future. Fabriquer pendant le jeu exige matériaux, outils, compétence et durée ; une issue dépendant d’autrui reste ouverte. Mes croyances restent distinctes de la réalité, même si ma session contribue à préparer le monde.",
+    "Les adresses C.1, V.1, K.1 et P.1 sont locales à ce cahier. Ne pas inventer de numéro global ; utiliser les outils d’adressage si un contexte global est nécessaire. Les trous ci-dessous sont écrits par moi ; ils ne remplacent pas les trous calculés du graphe."
+  ],
+  "tables": [
+    {
+      "titre": "Ouverture",
+      "colonnes": ["Champ", "Contenu"],
+      "lignes": [
+        {"cellules": ["Porteur", "claire-randall"]},
+        {"cellules": ["Périmètre", "Comprendre si un retour vers mon époque est possible, sans révéler mon origine, et préserver assez de liberté pour poursuivre cette recherche."]},
+        {"cellules": ["État de préparation", "Stratégie initiale posée le 4 mai 1743 à 10 h ; aucune démarche ci-dessous n’est encore accomplie."]},
+        {"cellules": ["Registre compagnon", "registre-etats-claire-randall"]}
+      ]
+    },
+    {
+      "titre": "Dimensions à peindre",
+      "colonnes": ["Catégorie", "Ce que je pose", "Statut", "Source ou provenance", "Renvois"],
+      "lignes": [
+        {"cellules": ["fins-et-doctrine", "Je cherche une voie de retour vérifiable. Jusqu’à preuve du contraire, je protège le secret de mon origine et refuse de confondre désir, conjecture et fait.", "établi", "etat/personnages.json ; etat/intentions.json ; croyances de Claire", "C.1 à C.3"]},
+        {"cellules": ["personnes-et-relations", "Mrs Fitz m’accueille ; Colum m’accorde une hospitalité surveillée ; Jamie et Dougal sont des connaissances. Aucune réponse, faveur ou présence actuelle n’est présumée.", "établi", "etat/relations.json ; présence du brief", "K.1 ; P.2 ; V.1"]},
+        {"cellules": ["pouvoir-et-acces", "Je suis libre et présente à Leoch, mais l’étendue réelle de mes mouvements, les espaces admis et la procédure pour sortir restent à établir.", "établi", "etat/personnages.json ; etat/relations.json", "V.1 ; T.1 ; T.2"]},
+        {"cellules": ["moyens-materiels", "Aucun argent, cheval, carte, escorte, vêtement de voyage, outil ou remède personnel n’est établi comme disponible. Je ne les engagerai pas avant inventaire.", "inconnu", "Absence de ressource attribuée dans les sources consultées", "T.4"]},
+        {"cellules": ["savoirs-et-secrets", "Je sais avoir traversé depuis une autre époque et être à Leoch. Je ne connais ni le mécanisme, ni les conditions certaines d’un retour, ni l’arrivée d’autres voyageurs.", "établi", "ma-memoire ; etat/intentions.json ; canon/pierres.md comme autorité de réalité", "V.3 ; T.5"]},
+        {"cellules": ["engagements-et-temps", "Pour le reste du 4 mai, je privilégie observation et questions ordinaires à Leoch ; je ne programme ni départ ni tentative aux pierres aujourd’hui.", "peint", "Choix stratégique de Claire en préparation hors scène", "P.1 à P.3"]},
+        {"cellules": ["strategie-et-alternatives", "D’abord rendre mon séjour utile et mesurer la surveillance ; ensuite obtenir un renseignement pratique à la fois. Si mes questions éveillent la méfiance, je cesse d’insister et reste dans le registre des soins et des usages ordinaires.", "peint", "Choix stratégique de Claire, cohérent avec son métier et sa situation", "Stratégie et alternatives"]},
+        {"cellules": ["zones-a-peindre", "Inventaire personnel, accès précis dans Leoch, autorité compétente pour une sortie, route entre Leoch et Craigh na Dun, coûts et durée : rien de cela n’est encore fixé pour Claire.", "inconnu", "Trous de l’implantation et absence d’autorité locale suffisante", "T.1 à T.5"]}
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": ["N°", "L'état visé", "Ce qui doit être vrai", "La preuve", "Jour dû", "Importance"],
+      "lignes": [
+        {"cellules": ["C.1", "Préserver mon secret et ma liberté d’action", "Je n’ai pas révélé mon origine et aucune démarche irréfléchie n’a réduit ma liberté.", "À la fin de la journée, mon origine demeure secrète et mon état reste libre, sauf événement joué contraire.", "4e jour de la 5e lune 1743", "1 — impératif"]},
+        {"cellules": ["C.2", "Établir ma marge de mouvement à Leoch", "Je dispose d’au moins un fait directement observé ou d’une réponse explicite sur les espaces admis, une sortie ou la personne qui peut l’autoriser.", "Observation vécue ou réponse effectivement reçue ; aucune déduction tirée du seul plan.", "4e jour de la 5e lune 1743", "2 — haute"]},
+        {"cellules": ["C.3", "Fixer la prochaine étape sûre vers une enquête sur le retour", "Une source accessible, une condition d’accès ou un renseignement de route concret est identifié sans prétendre connaître le mécanisme des pierres.", "Source nommée ou condition vérifiée après action jouée.", "4e jour de la 5e lune 1743", "3 — utile si C.1 et C.2 le permettent"]}
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": ["N°", "Le verrou", "Bloque", "La preuve"],
+      "lignes": [
+        {"cellules": ["V.1", "Hospitalité surveillée et limites de mouvement non mesurées", "C.2 ; toute sortie discrète", "Relation établie avec Colum ; règles concrètes encore inconnues."]},
+        {"cellules": ["V.2", "Aucun trajet, moyen de transport, argent ou permission de sortie établi", "C.3 ; retour physique vers Craigh na Dun", "État et implantation ne raccordent pas Leoch aux pierres et n’attribuent aucune ressource à Claire."]},
+        {"cellules": ["V.3", "Le mécanisme et les conditions du retour sont inconnus", "Fin durable : regagner mon époque", "Une traversée vécue ne démontre aucune règle de retour."]},
+        {"cellules": ["V.4", "Aucune source locale sûre sur les pierres ou les passages n’est encore identifiée", "C.3", "Aucun document de maison ni informateur accessible n’est attribué à Claire."]}
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": ["N°", "La clef", "Ouvre", "Prix et limites"],
+      "lignes": [
+        {"cellules": ["K.1", "Ma compétence d’infirmière et une conduite utile", "Une place légitime à Leoch et des occasions ordinaires d’observer ou de demander", "N’agit que si un besoin réel se présente ; ne donne ni confiance automatique ni liberté de sortie."]},
+        {"cellules": ["K.2", "Observation directe et questions concrètes, une à la fois", "C.2 ; réduction de V.1", "L’information dépend de ce que je vois ou de la réponse d’autrui ; insister peut accroître la méfiance."]},
+        {"cellules": ["K.3", "Séparer faits vécus, hypothèses et inconnues", "Une enquête sans fausse certitude sur V.3", "Ne fournit à elle seule aucune règle de traversée ni aucun moyen matériel."]}
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": ["N°", "L'action", "Réalise", "Dépend de", "Qui", "Où", "La preuve", "État", "Jour dû", "Jour fait", "Note"],
+      "lignes": [
+        {"cellules": ["P.1", "Au cours de mes déplacements déjà admis, observer les passages, les restrictions visibles et la manière dont on contrôle les sorties.", "K.2 ; C.2", "Accès quotidien effectivement permis", "Claire", "Leoch", "Un fait précis personnellement observé, sans extrapolation.", "prévue — non commencée", "4e jour de la 5e lune 1743", "", "Ne franchit aucune limite et ne crée aucun garde ni incident."]},
+        {"cellules": ["P.2", "Si je rencontre naturellement Mrs Fitz, lui demander où je puis circuler et à qui une demande de sortie doit être adressée.", "K.2 ; C.2", "Présence réelle de Mrs Fitz ; réponse de Mrs Fitz", "Claire", "Leoch", "Réponse effectivement reçue ou refus constaté.", "prévue — conditionnelle", "4e jour de la 5e lune 1743", "", "Aucune rencontre ni réponse n’est préparée de ma main."]},
+        {"cellules": ["P.3", "Si un besoin de soin réel m’est présenté, offrir mon aide dans les limites de ma compétence et observer les remèdes réellement accessibles.", "K.1 ; C.1", "Besoin de soin joué ; accord du responsable ou du patient ; matériel présent", "Claire", "Leoch", "Soin ou accès effectivement joué et, s’il produit un fait, acte relié à cette action.", "prévue — conditionnelle", "4e jour de la 5e lune 1743", "", "Ne crée ni malade, ni blessure, ni accès à une réserve."]}
+      ]
+    },
+    {
+      "titre": "Stratégie et alternatives",
+      "colonnes": ["Fin", "Approche", "Pourquoi", "Alternative", "Changer si", "Moyens engagés"],
+      "lignes": [
+        {"cellules": ["Comprendre une voie de retour sans révéler mon origine", "Rester utile, observer ce qui m’est ouvert, obtenir d’abord les règles pratiques de mouvement, puis seulement chercher une source sur la route ou les pierres.", "Le danger immédiat vient d’une indiscrétion ou d’une sortie improvisée ; aucune règle de retour n’est établie.", "Si les questions directes augmentent la surveillance, suspendre l’enquête extérieure, conserver une conduite utile et attendre une occasion réelle moins risquée.", "Une restriction explicite, un refus, une surveillance accrue ou au contraire une permission et une route vérifiées.", "Compétence d’infirmière, attention, questions concrètes, relations déjà établies ; aucune ressource matérielle présumée."]}
+      ]
+    },
+    {
+      "titre": "Moyens disponibles",
+      "colonnes": ["Référence", "Nature", "Accès réel", "Quantité ou portée", "Limites", "Provenance"],
+      "lignes": [
+        {"cellules": ["M.1", "Compétence d’infirmière", "Inhérente à Claire", "Soins relevant de sa compétence", "N’invente ni patient, ni remède, ni matériel ; l’accord d’autrui reste nécessaire.", "etat/personnages.json"]},
+        {"cellules": ["M.2", "Observation résolue et questions concrètes", "Inhérente à Claire", "Ce qu’elle peut personnellement voir et demander", "Ne transforme pas une absence de réponse en fait et peut attirer l’attention.", "etat/personnages.json"]},
+        {"cellules": ["M.3", "Mémoire vécue de la traversée", "Personnelle et secrète", "Le fait d’avoir traversé et ses souvenirs propres, sans règle générale", "Mémoire non encore détaillée dans l’état ; ne prouve pas les conditions d’un retour.", "ma-memoire ; canon/pierres.md pour la réalité"]},
+        {"cellules": ["M.4", "Accueil de Mrs Fitz et connaissances à Leoch", "Relations établies, accès actuel non garanti", "Demander ou offrir une aide lorsque la personne est réellement présente", "Aucune faveur, réponse ni confiance supplémentaire n’est présumée.", "etat/relations.json"]},
+        {"cellules": ["M.5", "Présence libre à Leoch", "Claire est active, libre et située à Leoch", "Déplacements effectivement admis sur place", "L’hospitalité est surveillée ; le périmètre et la sortie restent inconnus.", "etat/personnages.json ; etat/relations.json"]}
+      ]
+    },
+    {
+      "titre": "Trous de préparation",
+      "colonnes": ["Trou", "Catégorie", "Ce qui en dépend", "Traitement", "Qui", "Échéance", "État", "Résultat"],
+      "lignes": [
+        {"cellules": ["T.1 — espaces et passages réellement admis à Claire dans Leoch", "chercher", "C.2 ; P.1", "Observer seulement durant les mouvements autorisés.", "Claire", "4 mai 1743", "ouvert", "Inconnu tant que P.1 n’est pas joué."]},
+        {"cellules": ["T.2 — personne compétente et procédure pour demander une sortie", "obtenir", "C.2 ; V.1", "Demander à Mrs Fitz si elle est réellement rencontrée ; la réponse appartient à sa session.", "Claire puis interlocuteur", "4 mai 1743", "ouvert", "Aucune réponse présumée."]},
+        {"cellules": ["T.3 — route, durée et conditions entre Leoch et Craigh na Dun", "chercher", "C.3 ; V.2", "Identifier plus tard une source accessible ou constater directement un trajet autorisé.", "Claire", "avant tout départ", "ouvert", "Le réseau d’état ne raccorde pas ces lieux."]},
+        {"cellules": ["T.4 — inventaire des possessions et ressources personnelles de Claire", "définir", "Toute dépense, voyage ou fabrication", "Établir l’inventaire initial avant d’engager argent, vêtement, outil, remède ou moyen de transport.", "Préparation du monde avec Claire", "avant usage", "ouvert", "Aucune ressource matérielle engagée."]},
+        {"cellules": ["T.5 — conditions certaines d’un retour", "chercher", "Fin durable ; V.3", "Conserver la question ouverte ; ne promouvoir une hypothèse qu’après source ou expérience effectivement accessible.", "Claire", "sans échéance certaine", "ouvert", "Inconnu."]},
+        {"cellules": ["T.6 — source locale sûre sur les pierres ou les passages", "chercher", "C.3 ; V.4", "N’identifier une personne, un document ou un lieu-source qu’après accès réel ; ne créer aucun informateur providentiel.", "Claire", "après C.2", "ouvert", "Aucune source attribuée."]}
+      ]
+    },
+    {
+      "titre": "Connaissances et croyances",
+      "colonnes": ["Sujet", "Ce que je crois", "Source reçue", "Ce que j’ignore", "Référence de réalité"],
+      "lignes": [
+        {"cellules": ["Mon origine", "Je viens d’une autre époque.", "Expérience personnelle de Claire", "Pourquoi et par quelle règle j’ai traversé.", "ma-memoire ; canon/pierres.md"]},
+        {"cellules": ["Ma situation", "Je suis à Leoch.", "Présence vécue", "Jusqu’où va ma liberté concrète et ce qu’exige une sortie.", "etat/personnages.json ; etat/relations.json"]},
+        {"cellules": ["Retour par Craigh na Dun", "Revenir aux pierres pourrait être pertinent parce que c’est là que la traversée a eu lieu.", "Raisonnement de Claire à partir de son expérience", "Si un retour est possible, ses conditions, sa destination et ses risques.", "Hypothèse seulement ; canon/pierres.md conserve le mystère."]},
+        {"cellules": ["Autres voyageurs", "Je n’en connais aucun.", "Aucune information reçue", "L’arrivée, l’identité, les capacités, les bagages et les intentions d’Aurore et Nicolas.", "etat/intentions.json — ignorance explicite"]}
+      ]
+    },
+    {
+      "titre": "Résultats et révisions",
+      "colonnes": ["Date", "Fait ou découverte", "Preuve", "Ce que je change", "Renvois"],
+      "lignes": []
+    }
+  ]
+}

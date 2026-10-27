@@ -1,0 +1,58 @@
+{
+  "canal": [
+    "mj",
+    "nicolas"
+  ],
+  "entrees": [
+    {
+      "de": "nicolas",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4
+      },
+      "texte": "[REGIE — MESSAGE HUMAIN HORS FICTION] Nicolas : c'est rapide à faire normalement. Finalise directement le passage de relais et la prise en charge des deux PJ, sans relancer une journée ni refaire le travail déjà fait.",
+      "ref": "coordination-rapidite-nicolas"
+    },
+    {
+      "de": "nicolas",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4
+      },
+      "texte": "[REGIE — INSTRUCTION HUMAINE HORS FICTION] Le joueur exige que le MJ duo envoie aux DEUX joueurs les explications hors narration, les corrections chronologiques, les confirmations de régie et autres informations communes. Ne les adresse pas seulement à celui qui a demandé. La team se suit par défaut à chaque déplacement ; aucun nouveau relais pour changer de lieu. Préserve uniquement les véritables pensées et secrets personnels. Relis le registre : n'exécute pas un ancien relais devenu inutile.",
+      "ref": "duo-regie-deux-joueurs"
+    },
+    {
+      "de": "nicolas",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4
+      },
+      "texte": "[REGIE — MODIFICATION AUTORISEE PAR LE JOUEUR] Les PNJ ont maintenant le droit de consulter le MJ sur un fait manquant qu'ils ne peuvent définir eux-mêmes : python scripts/parloir.py --question-monde --de <pnj> --a mj \"question précise\". Exception factuelle à l'ancien interdit PNJ→MJ, sans permission d'agir ni décision à leur place. Canal activé dans Outlander et vérifié avec Isobel ; réponse technique sans scène ni avancée de temps. Voir docs/questions-monde.md et le prompt PNJ local.",
+      "ref": "autorisation-questions-factuelles-pnj"
+    },
+    {
+      "de": "nicolas",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4
+      },
+      "texte": "[REGIE — INSTRUCTION HUMAINE HORS FICTION] Le MJ doit suivre les volontés des PJ et agir si cela coince trop longtemps. Le suivi durable est maintenant injecté dans chaque réveil du MJ : docs/volontes-pj.md, scripts/volontes_pj.py. Après deux tours sans progrès, diagnostiquer et traiter la cause ; réparer immédiatement un trou technique déjà connu. Le but explicitement déclaré d'Aurore de rejoindre Inverness est enregistré avec sa vraie ref. Ne laisse pas le groupe tourner en rond faute de géographie ou de réponse ; établis le fait du monde nécessaire, consulte ou réveille les bonnes personnes, livre l'information utilisable. Conserve les vrais choix et obstacles, aucune décision à la place des PJ. Explications communes aux deux joueurs.",
+      "ref": "suivi-volontes-et-stagnation-pj"
+    },
+    {
+      "de": "nicolas",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4
+      },
+      "texte": "[REGIE — EVOLUTION DU PROTOCOLE] La séparation d'un duo a désormais une vraie passation. Voir docs/scenes-partagees.md. Le MJ duo annonce la séparation aux deux PJ puis scripts/scenes.py separer --id <scene> --raison <choix explicite> prépare les deux dossiers canoniques ; --dossier ajoute tes bilans distincts par PJ. Les MJ privés sont réveillés automatiquement, chacun lit seulement son dossier passations_privees et accuse réception par scripts/scenes.py recevoir --de <pj> --id <passation> --pret --message <constat>. La plume interdit sa reprise narrative avant cet accusé. Un dossier incomplet peut faire l'objet d'une demande de complément, transmise automatiquement au MJ émetteur. Ne rejoue pas les sources déjà affichées. Cette notification ajoute le protocole ; elle ne demande aucune séparation du duo actuel.",
+      "ref": "passation-separation-implementee"
+    }
+  ]
+}

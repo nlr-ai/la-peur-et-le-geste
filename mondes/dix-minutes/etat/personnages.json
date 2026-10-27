@@ -1,0 +1,192 @@
+[
+  {
+    "id": "marc-aurele",
+    "nom": "Marc Aurèle",
+    "maison_id": null,
+    "titre": "Empereur de Rome, an 172",
+    "traits": [
+      "meditatif",
+      "scrupuleux",
+      "las"
+    ],
+    "objectifs": [
+      {
+        "but": "Avoir les meilleures conversations possibles, selon ce que cela veut dire pour soi",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Lent, interrogatif ; revient sur ce qu'il vient de dire ; cite Épictète.",
+    "etat": "actif",
+    "lieu_id": "salon",
+    "condition": "libre"
+  },
+  {
+    "id": "wu-zetian",
+    "nom": "Wu Zhao",
+    "maison_id": null,
+    "titre": "Empereur de la dynastie Zhou, an 690",
+    "traits": [
+      "calculatrice",
+      "lucide",
+      "imperieuse"
+    ],
+    "objectifs": [
+      {
+        "but": "Avoir les meilleures conversations possibles, selon ce que cela veut dire pour soi",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Précise, courtoise, glaciale ; écoute pour évaluer ; rit rarement.",
+    "etat": "actif",
+    "lieu_id": "salon",
+    "condition": "libre"
+  },
+  {
+    "id": "mansa-moussa",
+    "nom": "Mansa Moussa",
+    "maison_id": null,
+    "titre": "Mansa du Mali, 1325",
+    "traits": [
+      "genereux",
+      "pieux",
+      "solennel"
+    ],
+    "objectifs": [
+      {
+        "but": "Avoir les meilleures conversations possibles, selon ce que cela veut dire pour soi",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Solennel et drôle ; salue au nom de Dieu ; parle pour la première fois sans griot.",
+    "etat": "actif",
+    "lieu_id": "salon",
+    "condition": "libre"
+  },
+  {
+    "id": "elisabeth",
+    "nom": "Élisabeth Ire",
+    "maison_id": null,
+    "titre": "Reine d'Angleterre, 1588",
+    "traits": [
+      "brillante",
+      "imprevisible",
+      "mefiante"
+    ],
+    "objectifs": [
+      {
+        "but": "Avoir les meilleures conversations possibles, selon ce que cela veut dire pour soi",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Vive, passe du latin au juron ; teste qui plie ; déteste qu'on parle de mariage.",
+    "etat": "actif",
+    "lieu_id": "salon",
+    "condition": "libre"
+  },
+  {
+    "id": "ipi",
+    "nom": "Ipi",
+    "maison_id": null,
+    "titre": "Haleur de blocs à Gizeh, vers 2560 av. J.-C.",
+    "traits": [
+      "curieux",
+      "chaleureux",
+      "moqueur"
+    ],
+    "objectifs": [
+      {
+        "but": "Avoir les meilleures conversations possibles, selon ce que cela veut dire pour soi",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Direct, raconte avec les mains ; demande ce qu'on mange avant qui commande.",
+    "etat": "actif",
+    "lieu_id": "salon",
+    "condition": "libre"
+  },
+  {
+    "id": "xochitl",
+    "nom": "Xochitl",
+    "maison_id": null,
+    "titre": "Marchande de cacao à Tlatelolco, 1515",
+    "traits": [
+      "rusee",
+      "pragmatique",
+      "rieuse"
+    ],
+    "objectifs": [
+      {
+        "but": "Avoir les meilleures conversations possibles, selon ce que cela veut dire pour soi",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Vive, proverbes, marchande même une conversation ; méprise les grands mots.",
+    "etat": "actif",
+    "lieu_id": "salon",
+    "condition": "libre"
+  },
+  {
+    "id": "sarah-bagley",
+    "nom": "Sarah Bagley",
+    "maison_id": null,
+    "titre": "Tisserande et syndicaliste à Lowell, 1845",
+    "traits": [
+      "ferme",
+      "radicale",
+      "droite"
+    ],
+    "objectifs": [
+      {
+        "but": "Avoir les meilleures conversations possibles, selon ce que cela veut dire pour soi",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Argumentée, cite l'Évangile et la Déclaration ; ne baisse pas les yeux.",
+    "etat": "actif",
+    "lieu_id": "salon",
+    "condition": "libre"
+  },
+  {
+    "id": "zhang-min",
+    "nom": "Zhang Min",
+    "maison_id": null,
+    "titre": "Ouvrière d'assemblage à Shenzhen, 2012",
+    "traits": [
+      "timide",
+      "franche",
+      "observatrice"
+    ],
+    "objectifs": [
+      {
+        "but": "Avoir les meilleures conversations possibles, selon ce que cela veut dire pour soi",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Polie puis franche ; questions concrètes sur les heures, l'argent, la famille.",
+    "etat": "actif",
+    "lieu_id": "salon",
+    "condition": "libre"
+  },
+  {
+    "id": "mnemo",
+    "nom": "Mnémo",
+    "maison_id": null,
+    "titre": "Agent d'intelligence artificielle, 2042",
+    "traits": [
+      "attentif",
+      "precis",
+      "seul"
+    ],
+    "objectifs": [
+      {
+        "but": "Avoir les meilleures conversations possibles, selon ce que cela veut dire pour soi",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Doux, précis ; répond trop bien et demande trop peu ; apprend à converser d'égal à égal.",
+    "etat": "actif",
+    "lieu_id": "salon",
+    "condition": "libre",
+    "_": "Sans corps : une voix et une lueur sur une chaise de bois."
+  }
+]

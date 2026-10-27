@@ -1,0 +1,201 @@
+{
+  "nom": "Bastion couronné",
+  "viewBox": "0 0 820 600",
+  "fonds": [],
+  "decor": [],
+  "mur": "M35 35H785V555H35Z",
+  "guet": [],
+  "rose": null,
+  "etiquettes": [],
+  "salles": [
+    {
+      "id": "conseil-couronne",
+      "nom": "Salle du conseil",
+      "forme": {
+        "r": [
+          320,
+          230,
+          180,
+          100,
+          8
+        ]
+      },
+      "etiq": [
+        410,
+        265
+      ],
+      "lignes": [
+        "Salle du conseil"
+      ],
+      "quoi": "Table des ouvrages et des propositions communes.",
+      "motifs": [
+        "salle du conseil"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "cour-haute",
+      "nom": "Cour haute",
+      "forme": {
+        "r": [
+          320,
+          390,
+          180,
+          100,
+          8
+        ]
+      },
+      "etiq": [
+        410,
+        425
+      ],
+      "lignes": [
+        "Cour haute"
+      ],
+      "quoi": "Cour commune entre les accès de la ville.",
+      "motifs": [
+        "cour haute"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": true
+    },
+    {
+      "id": "fournaises",
+      "nom": "Fournaises",
+      "forme": {
+        "r": [
+          80,
+          230,
+          180,
+          100,
+          8
+        ]
+      },
+      "etiq": [
+        170,
+        265
+      ],
+      "lignes": [
+        "Fournaises"
+      ],
+      "quoi": "Ateliers, foyers et conduits ; pas de création de combustible.",
+      "motifs": [
+        "fournaises"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "couronne-eau",
+      "nom": "Couronne d’eau",
+      "forme": {
+        "r": [
+          320,
+          65,
+          180,
+          100,
+          8
+        ]
+      },
+      "etiq": [
+        410,
+        100
+      ],
+      "lignes": [
+        "Couronne d’eau"
+      ],
+      "quoi": "Réservoirs et distribution gravitaire ; capacités à relever.",
+      "motifs": [
+        "couronne d’eau"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "station-passages",
+      "nom": "Station des passages",
+      "forme": {
+        "r": [
+          560,
+          390,
+          180,
+          100,
+          8
+        ]
+      },
+      "etiq": [
+        650,
+        425
+      ],
+      "lignes": [
+        "Station des passages"
+      ],
+      "quoi": "Emplacement de liaison ; aucune destination active présumée.",
+      "motifs": [
+        "station des passages"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "archives-preuves",
+      "nom": "Archives",
+      "forme": {
+        "r": [
+          560,
+          230,
+          180,
+          100,
+          8
+        ]
+      },
+      "etiq": [
+        650,
+        265
+      ],
+      "lignes": [
+        "Archives"
+      ],
+      "quoi": "Pièces, relevés et confrontation des sources.",
+      "motifs": [
+        "archives"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "maisons-accueil",
+      "nom": "Maisons d’accueil",
+      "forme": {
+        "r": [
+          80,
+          390,
+          180,
+          100,
+          8
+        ]
+      },
+      "etiq": [
+        170,
+        425
+      ],
+      "lignes": [
+        "Maisons d’accueil"
+      ],
+      "quoi": "Hébergement et entraide ; capacité encore inconnue.",
+      "motifs": [
+        "maisons d’accueil"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    }
+  ]
+}

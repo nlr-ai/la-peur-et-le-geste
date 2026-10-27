@@ -1,0 +1,202 @@
+{
+  "id": "registre-etats-dougal-mackenzie",
+  "titre": "Les choses suivies par dougal-mackenzie",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée au porteur",
+  "type": "registre",
+  "tenu_par": "dougal-mackenzie",
+  "acteur_id": "dougal-mackenzie",
+  "prive": true,
+  "pages": [
+    "Catégories : lieux-et-passages, objets-et-documents, ressources-et-populations, organisations-et-dispositifs, usages-et-institutions, situations-et-processus. Une ligne par chose ou situation. L’identité est une référence stable ; plusieurs PNJ citent la même chose au lieu de la recréer. Quand une table canonique du moteur porte déjà le fait, elle garde autorité : la ligne renvoie à cette adresse. Les évolutions arithmétiques vont dans les mains de leur maison. Les lignes purement descriptives sont leur propre autorité jusqu’à matérialisation. Accès au cahier technique n’est pas connaissance du personnage : Qui sait quoi doit être respecté."
+  ],
+  "colonnes": [
+    "Référence",
+    "Catégorie",
+    "Identité et fonction",
+    "Où",
+    "Détenteur ou responsable",
+    "État présent",
+    "Quantité ou propriétés",
+    "Usages et limites",
+    "Liens",
+    "Évolution et échéances",
+    "Statut",
+    "Source ou provenance",
+    "Qui sait quoi",
+    "Date de mise à jour",
+    "Autorité existante"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "R.1",
+        "lieux-et-passages",
+        "Chambre ordinaire attribuée à Dougal : repos, habillement et rangement personnel",
+        "Dans Château Leoch ; emplacement interne non cartographié",
+        "Dougal pour l’usage ; autorité générale de Leoch aux MacKenzie",
+        "Disponible comme implantation, sans scène jouée",
+        "Couchage, coffre ou rangement simple non détaillé",
+        "Pas d’archive sûre, passage secret, atelier ni accès exclusif ajouté",
+        "R.3, R.4, R.5, R.7",
+        "Aucune",
+        "peint",
+        "Implantation plausible de rang ; canon fixe seulement Leoch",
+        "Dougal connaît son usage ; les PJ n’en savent rien",
+        "1743.5.4 10h00",
+        "etat/lieux.json pour Leoch"
+      ]
+    },
+    {
+      "cellules": [
+        "R.2",
+        "lieux-et-passages",
+        "Espaces communs familiers liés aux responsabilités de Dougal : hall, cour et abords des écuries",
+        "Château Leoch ; aucune topologie ou durée interne fixée",
+        "Autorités et responsables de Leoch selon leur charge",
+        "Familiers à Dougal, sans occupation présente présumée",
+        "Espaces ordinaires non chiffrés",
+        "La familiarité ne donne ni accès à toute pièce privée, ni contrôle des stocks, ni route extérieure",
+        "M.2, R.8",
+        "À préciser seulement si une scène ou un trajet interne l’exige",
+        "peint",
+        "Milieu canonique de Leoch et implantation ordinaire",
+        "Dougal les connaît ; aucun savoir accordé aux PJ",
+        "1743.5.4 10h00",
+        "canon/lieux.md ; etat/lieux.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.3",
+        "objets-et-documents",
+        "Tenue personnelle de rang et de voyage",
+        "Sur Dougal ou dans R.1 selon l’usage",
+        "Dougal",
+        "Entretenue et utilisable au départ",
+        "Plaid et vêtements usuels, manteau, bottes et ceinturon ; quantités fines non suivies",
+        "Ni déguisement, ni uniforme britannique, ni protection exceptionnelle",
+        "R.1, R.5",
+        "Usure et remplacement seulement s’ils sont joués",
+        "peint",
+        "Ajout ordinaire cohérent avec rang, époque et activité",
+        "Dougal connaît ses effets ; apparence seulement si perçue en scène",
+        "1743.5.4 10h00",
+        "Cette ligne descriptive"
+      ]
+    },
+    {
+      "cellules": [
+        "R.4",
+        "objets-et-documents",
+        "Armes personnelles ordinaires",
+        "Portées par Dougal ou rangées dans R.1",
+        "Dougal",
+        "Une épée et un dirk personnels en état de service initial",
+        "Défense personnelle et voyage armé",
+        "Aucune arme à feu, munition, armure, réserve ou cache ; ne constitue pas un armement du clan",
+        "R.1, M.1",
+        "État matériel à réviser après usage réellement joué",
+        "peint",
+        "Ajout plausible pour un homme de rang actif ; aucun avantage décisif gratuit",
+        "Dougal les connaît ; les PJ seulement après perception",
+        "1743.5.4 10h00",
+        "Cette ligne descriptive"
+      ]
+    },
+    {
+      "cellules": [
+        "R.5",
+        "objets-et-documents",
+        "Petit nécessaire personnel de déplacement",
+        "Sur Dougal ou dans R.1",
+        "Dougal",
+        "Petite sacoche, nécessaire de toilette simple et menus liens d’attache",
+        "Préparer une courte sortie après ordre et ravitaillement réel",
+        "Aucune nourriture durable, monnaie chiffrée, carte, lettre, sceau, remède ou outil spécialisé ajouté",
+        "R.1, R.3, M.1",
+        "Toute provision doit être obtenue et tout contenu conséquent établi",
+        "peint",
+        "Implantation ordinaire limitée",
+        "Dougal connaît le contenu limité ; aucun savoir pour les PJ",
+        "1743.5.4 10h00",
+        "Cette ligne descriptive"
+      ]
+    },
+    {
+      "cellules": [
+        "R.6",
+        "organisations-et-dispositifs",
+        "Chaîne de responsabilité personnelle de Dougal",
+        "Leoch et affaires autorisées du clan",
+        "Colum commande le clan ; Dougal agit dans le mandat reçu",
+        "Lien établi, mandat particulier encore inconnu",
+        "Peut solliciter Colum et coordonner les personnes effectivement confiées",
+        "Ne permet ni levée générale, ni dépense, ni promesse jacobite autonome",
+        "V.1, K.1, M.3, M.4",
+        "Réviser après décision réelle de Colum",
+        "peint",
+        "Relations établies ; limite stratégique peinte",
+        "Dougal connaît sa subordination ; détails non publics aux PJ",
+        "1743.5.4 10h00",
+        "etat/relations.json et etat/personnages.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.7",
+        "situations-et-processus",
+        "Journée ordinaire de responsabilités à Leoch",
+        "Château Leoch",
+        "Dougal",
+        "Implantée ; à 10h00 la bande de travail ordinaire est fermée",
+        "Travail 6h00-12h00 et 13h00-18h00 ; fenêtres 12h00-13h00 et 18h00-21h00 ; repos 21h00-6h00",
+        "Une scène, mission ou déplacement réel peut la remplacer ; la rédaction ne fait passer aucune minute",
+        "P.1, P.2",
+        "Révisable si une charge réelle l’exige",
+        "peint",
+        "Habitude initiale créée pour rendre la tête exécutable",
+        "Dougal connaît son propre rythme ; aucune connaissance PJ",
+        "1743.5.4 10h00",
+        "etat/routines.json modèle responsabilites-dougal-leoch"
+      ]
+    },
+    {
+      "cellules": [
+        "R.8",
+        "ressources-et-populations",
+        "Accès aux services ordinaires des écuries de Leoch",
+        "Abords des écuries à Leoch",
+        "Alec pour les chevaux ; autorité générale du clan à Colum",
+        "Canal de demande établi, attribution absente",
+        "Aucun cheval, selle ou palefrenier réservé à Dougal dans cet ajout",
+        "Toute monture, durée, état, destination et droit d’usage exigent attribution réelle ; Alec ne répond pas de ma main",
+        "M.5, V.2, K.2",
+        "Réviser après réponse de l’autorité compétente",
+        "peint",
+        "Fonction d’Alec canonique ; non-disponibilité par défaut choisie contre le moyen gratuit",
+        "Dougal connaît l’usage de demander ; les disponibilités lui restent inconnues",
+        "1743.5.4 10h00",
+        "canon/clans.md ; etat/relations.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.9",
+        "situations-et-processus",
+        "Préparation jacobite personnelle de Dougal",
+        "Sans lieu opérationnel établi",
+        "Dougal pour sa conviction ; Colum pour tout engagement du clan",
+        "Objectif retenu, aucun réseau ni moyen opérationnel établi",
+        "Aucune caisse, liste, correspondance, cache ou force préparée",
+        "Toute démarche dépend de C.1, C.2 et d’une source vérifiable ; les vrais secrets demeurent inconnus",
+        "C.3, V.3, K.3, P.3",
+        "Révision après état des moyens",
+        "établi",
+        "Objectif de fiche pour la conviction ; limites issues de la préparation",
+        "Dougal connaît sa conviction et son absence actuelle de base vérifiée ; rien n’est révélé aux PJ",
+        "1743.5.4 10h00",
+        "etat/personnages.json et affaire-dougal-mackenzie"
+      ]
+    }
+  ]
+}

@@ -10,8 +10,35 @@ const fs = require("fs");
 const path = require("path");
 const childProcess = require("child_process");
 
-const RACINE = process.env.CONSEIL_RACINE
-  ? path.resolve(process.env.CONSEIL_RACINE) : path.join(__dirname, "..");
+const racines = require("./racines");
+
+// DEUX RACINES, ET IL FAUT LES DISTINGUER (9.9).
+//
+// `RACINE` designait tout : `etat/` et `chambres/` (le MONDE), mais aussi
+// `scripts/*.py`, `ecrans/` et `monde/` (le DEPOT). Tant qu'il n'y avait qu'un
+// monde a la racine du depot, les deux etaient le meme dossier et la confusion
+// ne coutait rien. Elle coute des le premier `CONSEIL_MONDE` : servir `jeu.html`
+// depuis `mondes/venise/ecrans/` ne trouve rien.
+//
+// La confusion est d'ailleurs DEJA payee, en silence, par les tests : ils
+// pointent `CONSEIL_RACINE` sur un dossier temporaire qui ne contient que
+// `etat/` et `chambres/`, et le serveur y cherche pourtant `scripts/presence.py`
+// et `ecrans/`. Ces chemins-la sont faux depuis toujours ; ils ne se voient pas
+// parce que les epreuves n'empruntent pas ces branches.
+//
+//   DEPOT    — le code, les ecrans, les scripts, les artefacts 3D. Immuable.
+//   RACINE   — le monde courant : le dossier qui CONTIENT `etat/`.
+//   ETAT, CHAMBRES — les deux dossiers du monde, nommes pour qu'on cesse de les
+//                    recomposer a la main a vingt endroits.
+//
+// `RACINE` garde son nom et son sens de monde : c'est ce que les vingt et une
+// routes en attendent aujourd'hui. Ce qui reste a faire est nomme et compte —
+// migrer vers `DEPOT` les usages qui visent le code (voir `--racines` de
+// `scripts/verifier.mjs`) ; ce compte ne doit que descendre.
+const DEPOT = racines.DEPOT;
+const RACINE = racines.racine();
+const ETAT = racines.etat();
+const CHAMBRES = racines.chambres();
 
 // 3129 est le port du jeu. Un atelier (vérification d'écran pendant qu'une
 // partie tourne) passe un port en argument ou par PORT, pour ne pas se
@@ -46,10 +73,10 @@ const MAX_FIL = 80;
 // celles d'autrui, et une table vide est la seule réponse honnête.
 function cheminEtat(nom, siege) {
   if (siege) {
-    const p = path.join(RACINE, "etat", "joueurs", siege.personnage_id, nom);
+    const p = path.join(ETAT, "joueurs", siege.personnage_id, nom);
     if (fs.existsSync(p)) return p;
   }
-  const racineNom = path.join(RACINE, "etat", nom);
+  const racineNom = path.join(ETAT, nom);
   return fs.existsSync(racineNom) ? racineNom : null;
 }
 
@@ -61,8 +88,8 @@ function cheminEtat(nom, siege) {
 // fichier DEVRA s'écrire, même s'il n'existe pas encore.
 function cheminNotes(siege) {
   return siege
-    ? path.join(RACINE, "etat", "joueurs", siege.personnage_id, "notes.txt")
-    : path.join(RACINE, "etat", "notes.txt");
+    ? path.join(ETAT, "joueurs", siege.personnage_id, "notes.txt")
+    : path.join(ETAT, "notes.txt");
 }
 
 // Les croyances du demandeur, ou le défaut fourni quand il n'en a pas.
@@ -77,14 +104,14 @@ function lireCroyance(nom, siege, defaut) {
 function lireMainsMaisons() {
   let maisons = [];
   try {
-    const brut = JSON.parse(fs.readFileSync(path.join(RACINE, "etat", "maisons.json"), "utf-8"));
+    const brut = JSON.parse(fs.readFileSync(path.join(ETAT, "maisons.json"), "utf-8"));
     maisons = (Array.isArray(brut) ? brut : (brut.maisons || []))
       .map((m) => m && m.id).filter(Boolean);
   } catch (e) {}
   maisons.push("_sans-maison");
   const resultat = [], vus = new Set();
   maisons.forEach((maison) => {
-    const fichier = path.join(RACINE, "etat", "maisons", maison,
+    const fichier = path.join(ETAT, "maisons", maison,
       "documents", "mains.json");
     if (!fs.existsSync(fichier)) return;
     const brut = JSON.parse(fs.readFileSync(fichier, "utf-8"));
@@ -106,10 +133,10 @@ function lireMainsMaisons() {
 // au navigateur ferait vieillir la carte d'un joueur au rythme du plus lent.
 function dateDe(siege) {
   let monde = null;
-  try { monde = JSON.parse(fs.readFileSync(path.join(RACINE, "etat", "monde.json"), "utf-8")).date || null; } catch (e) {}
+  try { monde = JSON.parse(fs.readFileSync(path.join(ETAT, "monde.json"), "utf-8")).date || null; } catch (e) {}
   if (!siege) return monde;
   try {
-    const h = JSON.parse(fs.readFileSync(path.join(RACINE, "etat", "horloges.json"), "utf-8"));
+    const h = JSON.parse(fs.readFileSync(path.join(ETAT, "horloges.json"), "utf-8"));
     if (h && h[siege.personnage_id]) return h[siege.personnage_id];
   } catch (e) {}
   return monde;
@@ -126,15 +153,15 @@ function resoudrePresence(date) {
   if (!date) return null;
   let cle = [date.annee, date.lune, date.jour, date.minute].join(".");
   for (const f of ["presence.json", "routines.json", "chemins.json"]) {
-    try { const s = fs.statSync(path.join(RACINE, "etat", f)); cle += "|" + s.mtimeMs; }
+    try { const s = fs.statSync(path.join(ETAT, f)); cle += "|" + s.mtimeMs; }
     catch (e) { cle += "|?"; }
   }
   if (cachePresence && cachePresence.cle === cle) return cachePresence.gens;
   let gens = null;
   try {
     gens = JSON.parse(childProcess.execFileSync("python",
-      [path.join(RACINE, "scripts", "presence.py"), "--json", "--quand", cle.split("|")[0]],
-      { cwd: RACINE, encoding: "utf-8", timeout: 20000,
+      [path.join(DEPOT, "scripts", "presence.py"), "--json", "--quand", cle.split("|")[0]],
+      { cwd: DEPOT, encoding: "utf-8", timeout: 20000,
         windowsHide: true, maxBuffer: 8 * 1024 * 1024,
         env: Object.assign({}, process.env, { PYTHONIOENCODING: "utf-8" }) })).gens || null;
   } catch (e) { gens = null; }
@@ -142,5 +169,6 @@ function resoudrePresence(date) {
   return gens;
 }
 
-module.exports = { RACINE, PORT, MAX_FIL, cheminEtat, cheminNotes,
+module.exports = { RACINE, DEPOT, ETAT, CHAMBRES, PORT, MAX_FIL,
+  cheminEtat, cheminNotes,
   lireCroyance, lireMainsMaisons, dateDe, resoudrePresence };

@@ -1,0 +1,23 @@
+{
+  "ref": "vmvjiiq68nr0d",
+  "depart": {
+    "annee": 1940,
+    "lune": 6,
+    "jour": 15,
+    "minute": 754
+  },
+  "cible": {
+    "annee": 1940,
+    "lune": 6,
+    "jour": 15,
+    "minute": 1215
+  },
+  "regle": "passer/1",
+  "arbitrages": [
+    "Invitations déjà décidées exécutées pendant l’ellipse. Fernand et Alphonse acceptent une discussion, sur la base de leur relation professionnelle et de leurs intentions.",
+    "Auguste accepte de discuter après invitation de Lucien ; aucun engagement de service ni opinion politique révélée automatiquement.",
+    "Augustine reste absente : identité non tranchée, aucun refus ou invitation présumé."
+  ],
+  "calcul": "tick.py tenté après réconciliation ; impossible sans tissu. tisser.py échoue faute de chambres/mj/books/_plages.json. Audit direct : evenements vide, tous plans vides, aucun franchissement de jour ni échéance intermédiaire à appliquer.",
+  "horloge_reparee": "Voir reparation-horloge-20261022.json ; front de Raymond préservé."
+}

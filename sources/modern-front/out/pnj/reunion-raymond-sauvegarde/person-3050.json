@@ -1,0 +1,7385 @@
+{
+  "meta": {
+    "scenario": "arrival",
+    "seed": 1,
+    "personId": 3050,
+    "shownAt": "1940-06-17T00:00:00",
+    "simulationAt": "1940-06-17T03:00:00",
+    "sections": [
+      "identity",
+      "location",
+      "personality",
+      "household",
+      "resources",
+      "relations",
+      "knowledge",
+      "secrets",
+      "meetings",
+      "history"
+    ],
+    "coordinates": "map units; X/Y, not latitude/longitude",
+    "perspective": "Omniscient dossier. Only knowledge describes information actually known by this character. Other people\u0027s trust, secret holders and hidden traits are not automatically known to him.",
+    "limits": "No invented biography, dialogue, money balance or inventory. Household/site goods are recorded possessions, not proof of personal access. History covers today through shownAt; no future events are exported. Telephone service is at simulationAt."
+  },
+  "identity": {
+    "row": {
+      "id": 3050,
+      "first": "Raymond",
+      "last": "Moreau",
+      "sex": "m",
+      "age": 42,
+      "nationality": "fr",
+      "allegiance": "civil",
+      "household": 782,
+      "relation": "spouse",
+      "status": "work",
+      "post": null,
+      "building": null,
+      "job": "artisan",
+      "cover": null,
+      "from": null,
+      "war": null
+    },
+    "greatWar": null,
+    "groups": [],
+    "appearance": {
+      "id": 3050,
+      "class": {
+        "key": "worker",
+        "name": "Ouvrier",
+        "weights": {
+          "stubble": 2
+        },
+        "gates": {
+          "glasses": 0.6
+        },
+        "outfit": {
+          "m": [
+            {
+              "slot": "head",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "cap",
+                  "name": "casquette",
+                  "feminine": true,
+                  "shape": "cap",
+                  "colors": [
+                    "grey",
+                    "charcoal",
+                    "navy",
+                    "brown"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "beret",
+                  "name": "b\u00E9ret",
+                  "feminine": false,
+                  "shape": "beret",
+                  "colors": [
+                    "black",
+                    "navy"
+                  ],
+                  "weight": 25,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "bare",
+                  "name": "t\u00EAte nue",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [],
+                  "weight": 15,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "top",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "work_jacket",
+                  "name": "veste de travail",
+                  "feminine": true,
+                  "shape": "jacket",
+                  "colors": [
+                    "work_blue",
+                    "faded_blue"
+                  ],
+                  "weight": 55,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "worn_jacket",
+                  "name": "veston us\u00E9",
+                  "feminine": false,
+                  "shape": "jacket",
+                  "colors": [
+                    "grey",
+                    "brown",
+                    "charcoal"
+                  ],
+                  "weight": 30,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "rolled_shirt",
+                  "name": "chemise aux manches retrouss\u00E9es",
+                  "feminine": true,
+                  "shape": "shirt",
+                  "colors": [
+                    "ecru",
+                    "light_grey",
+                    "faded_blue"
+                  ],
+                  "weight": 15,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "bottom",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "work_trousers",
+                  "name": "pantalon de travail",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "work_blue",
+                    "faded_blue",
+                    "grey",
+                    "brown"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "feet",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "boots",
+                  "name": "brodequins",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "black",
+                    "brown"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "galoshes",
+                  "name": "galoches",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "black"
+                  ],
+                  "weight": 40,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            }
+          ],
+          "f": [
+            {
+              "slot": "head",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "headscarf",
+                  "name": "fichu nou\u00E9",
+                  "feminine": false,
+                  "shape": "headscarf",
+                  "colors": [
+                    "burgundy",
+                    "faded_blue",
+                    "mustard",
+                    "grey"
+                  ],
+                  "weight": 35,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "turban",
+                  "name": "turban",
+                  "feminine": false,
+                  "shape": "turban",
+                  "colors": [
+                    "burgundy",
+                    "bottle_green",
+                    "mustard",
+                    "navy"
+                  ],
+                  "weight": 15,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "bare",
+                  "name": "t\u00EAte nue",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [],
+                  "weight": 50,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "top",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "work_smock",
+                  "name": "blouse de travail",
+                  "feminine": true,
+                  "shape": "smock",
+                  "colors": [
+                    "grey",
+                    "faded_blue",
+                    "beige"
+                  ],
+                  "weight": 55,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "dress",
+                  "name": "robe",
+                  "feminine": true,
+                  "shape": "dress",
+                  "colors": [
+                    "chestnut_brown",
+                    "burgundy",
+                    "grey",
+                    "bottle_green",
+                    "plum"
+                  ],
+                  "weight": 45,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "bottom",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "skirt",
+                  "name": "jupe",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [
+                    "grey",
+                    "black",
+                    "chestnut_brown",
+                    "navy"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "feet",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "wooden_soles",
+                  "name": "chaussures \u00E0 semelles de bois",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [
+                    "black",
+                    "brown"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "galoshes",
+                  "name": "galoches",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "black"
+                  ],
+                  "weight": 40,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "heightCm": 180,
+      "build": {
+        "key": "medium",
+        "name": "de corpulence moyenne",
+        "nameF": null,
+        "color": null,
+        "weight": 45,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "skin": {
+        "key": "olive",
+        "name": "oliv\u00E2tre",
+        "nameF": null,
+        "color": "bf9a74",
+        "weight": 10,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "eyes": {
+        "key": "eyes_brown",
+        "name": "marron",
+        "nameF": null,
+        "color": "5b3b22",
+        "weight": 32,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "brows": {
+        "key": "thick",
+        "name": "sourcils \u00E9pais",
+        "nameF": null,
+        "color": null,
+        "weight": 28,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1.5
+      },
+      "face": {
+        "key": "round",
+        "name": "visage rond",
+        "nameF": null,
+        "color": null,
+        "weight": 22,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1.1
+      },
+      "nose": {
+        "key": "snub",
+        "name": "nez retrouss\u00E9",
+        "nameF": null,
+        "color": null,
+        "weight": 16,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 0.75
+      },
+      "hairColor": {
+        "key": "black_hair",
+        "name": "noirs",
+        "nameF": null,
+        "color": "1f1a17",
+        "weight": 14,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "hairStyle": {
+        "key": "slick",
+        "name": "gomin\u00E9s en arri\u00E8re",
+        "nameF": null,
+        "color": null,
+        "weight": 18,
+        "minAge": 16,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "slick",
+        "size": 1
+      },
+      "facialHair": {
+        "key": "stubble",
+        "name": "mal ras\u00E9",
+        "nameF": null,
+        "color": null,
+        "weight": 5,
+        "minAge": 18,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "stubble",
+        "size": 1
+      },
+      "glasses": null,
+      "mark": {
+        "key": "gold_tooth",
+        "name": "dent en or",
+        "nameF": null,
+        "color": null,
+        "weight": 8,
+        "minAge": 30,
+        "maxAge": 200,
+        "sex": null,
+        "gate": "mark",
+        "shape": null,
+        "size": 1
+      },
+      "outfit": [
+        {
+          "slot": "head",
+          "key": "cap",
+          "text": "casquette brune",
+          "shape": "cap",
+          "color": "5a3d2b",
+          "from": null
+        },
+        {
+          "slot": "top",
+          "key": "work_jacket",
+          "text": "veste de travail bleu d\u00E9lav\u00E9",
+          "shape": "jacket",
+          "color": "6d87a8",
+          "from": null
+        },
+        {
+          "slot": "bottom",
+          "key": "work_trousers",
+          "text": "pantalon de travail gris",
+          "shape": null,
+          "color": "6b6e70",
+          "from": null
+        },
+        {
+          "slot": "feet",
+          "key": "boots",
+          "text": "brodequins brun",
+          "shape": null,
+          "color": "5a3d2b",
+          "from": null
+        }
+      ]
+    },
+    "worn": [
+      {
+        "slot": "head",
+        "key": "cap",
+        "text": "casquette brune",
+        "shape": "cap",
+        "color": "5a3d2b",
+        "from": null
+      },
+      {
+        "slot": "top",
+        "key": "work_jacket",
+        "text": "veste de travail bleu d\u00E9lav\u00E9",
+        "shape": "jacket",
+        "color": "6d87a8",
+        "from": null
+      },
+      {
+        "slot": "bottom",
+        "key": "work_trousers",
+        "text": "pantalon de travail gris",
+        "shape": null,
+        "color": "6b6e70",
+        "from": null
+      },
+      {
+        "slot": "feet",
+        "key": "boots",
+        "text": "brodequins brun",
+        "shape": null,
+        "color": "5a3d2b",
+        "from": null
+      }
+    ]
+  },
+  "location": {
+    "now": {
+      "time": "1940-06-17T00:00:00",
+      "position": {
+        "x": 919.7,
+        "y": 275.9
+      },
+      "what": {
+        "activity": "meeting",
+        "venue": "meeting",
+        "moving": false,
+        "public": false,
+        "curfewBreach": false
+      },
+      "activity": "En r\u00E9union : que faire ?",
+      "walking": false,
+      "resting": false,
+      "talkingWith": null,
+      "mealHost": null
+    },
+    "home": {
+      "x": 919.7,
+      "y": 275.9
+    },
+    "work": {
+      "x": 974.3,
+      "y": 262.7
+    },
+    "settlement": {
+      "name": "Niort",
+      "kind": "city",
+      "pos": {
+        "x": 874400,
+        "y": 265900,
+        "cellX": 874,
+        "cellY": 265
+      },
+      "population": 33000
+    },
+    "workplace": null,
+    "life": {
+      "id": 3050,
+      "rhythm": "shop",
+      "sex": "m",
+      "age": 42,
+      "traits": [
+        "honest",
+        "republican",
+        "young_children"
+      ],
+      "commune": "Niort",
+      "commuteHours": 0
+    }
+  },
+  "personality": {
+    "drawn": {
+      "id": 2588,
+      "profile": "sympathiser",
+      "shownProfile": "sympathiser",
+      "traits": [
+        "honest",
+        "republican",
+        "young_children"
+      ],
+      "axes": {
+        "fervour": 46,
+        "risk": 15,
+        "nerve": 40,
+        "loyalty": 50,
+        "discretion": 40,
+        "greed": 0
+      },
+      "fervour": 46
+    },
+    "currentFervour": 51,
+    "traits": [
+      {
+        "key": "honest",
+        "name": "Int\u00E8gre",
+        "category": "personality",
+        "group": "greed",
+        "hidden": false,
+        "axes": {
+          "greed": -20
+        },
+        "opinion": {
+          "greedy": -15,
+          "honest": 5
+        }
+      },
+      {
+        "key": "republican",
+        "name": "R\u00E9publicain, socialiste",
+        "category": "conviction",
+        "group": "politics",
+        "hidden": false,
+        "axes": {
+          "fervour": 10
+        },
+        "opinion": {
+          "petainist": -10,
+          "collaborationist": -30,
+          "republican": 10,
+          "communist": 5,
+          "spanish_republican": 5
+        }
+      },
+      {
+        "key": "young_children",
+        "name": "Parent de jeunes enfants",
+        "category": "situation",
+        "group": null,
+        "hidden": false,
+        "axes": {
+          "risk": -15
+        },
+        "opinion": {
+          "young_children": 5
+        }
+      }
+    ],
+    "axes": [
+      {
+        "key": "fervour",
+        "name": "Ferveur",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "risk",
+        "name": "Prise de risque",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "nerve",
+        "name": "Tenue",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "loyalty",
+        "name": "Fid\u00E9lit\u00E9",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "discretion",
+        "name": "Discr\u00E9tion",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "greed",
+        "name": "V\u00E9nalit\u00E9",
+        "min": 0,
+        "max": 100
+      }
+    ],
+    "voiceAmbiance": "Raymond prend la parole.",
+    "voiceWords": [
+      "\u00AB La R\u00E9publique ne meurt pas parce qu\u0027un gouvernement s\u0027enfuit. \u00BB",
+      "Il parle de ses petits ; on sent qu\u0027il a peur pour eux."
+    ]
+  },
+  "household": {
+    "id": 782,
+    "household": {
+      "house": 227,
+      "site": null,
+      "settlement": 0,
+      "origin": null
+    },
+    "members": [
+      {
+        "id": 790,
+        "first": "Josette",
+        "last": "Moreau",
+        "sex": "f",
+        "age": 36,
+        "nationality": "fr",
+        "allegiance": "vichy",
+        "household": 782,
+        "relation": "head",
+        "status": "post",
+        "post": "court_interpreter",
+        "building": 64,
+        "job": "Interpr\u00E8te du tribunal",
+        "cover": null,
+        "from": null,
+        "war": null
+      },
+      {
+        "id": 3050,
+        "first": "Raymond",
+        "last": "Moreau",
+        "sex": "m",
+        "age": 42,
+        "nationality": "fr",
+        "allegiance": "civil",
+        "household": 782,
+        "relation": "spouse",
+        "status": "work",
+        "post": null,
+        "building": null,
+        "job": "artisan",
+        "cover": null,
+        "from": null,
+        "war": null
+      }
+    ]
+  },
+  "resources": {
+    "householdGoods": [
+      {
+        "good": {
+          "item": "jewellery",
+          "kind": "bracelet",
+          "count": 1,
+          "owner": 790
+        },
+        "personalOwner": false,
+        "hidden": null
+      }
+    ],
+    "workplaceGoods": null,
+    "radio": {
+      "kind": "mains_shortwave",
+      "declared": true
+    },
+    "phone": null,
+    "phoneService": "None",
+    "bicycles": [],
+    "motors": [],
+    "smoker": {
+      "id": 3050,
+      "kind": "gris",
+      "perDay": 13,
+      "packets": 2,
+      "cycle": 3,
+      "phase": 2
+    },
+    "tobaccoStock": {
+      "onHim": 5,
+      "atHome": 20
+    },
+    "errand": null
+  },
+  "relations": {
+    "kinship": [
+      {
+        "relative": {
+          "id": 3431,
+          "name": "Solange Joubert"
+        },
+        "relation": "sibling",
+        "name": "Fr\u00E8re ou s\u0153ur"
+      },
+      {
+        "relative": {
+          "id": 1025,
+          "name": "Guy Joubert"
+        },
+        "relation": "sibling_in_law",
+        "name": "Beau-fr\u00E8re ou belle-s\u0153ur"
+      },
+      {
+        "relative": {
+          "id": 6422,
+          "name": "Roland Gilbert"
+        },
+        "relation": "sibling_in_law",
+        "name": "Beau-fr\u00E8re ou belle-s\u0153ur"
+      },
+      {
+        "relative": {
+          "id": 6965,
+          "name": "Cl\u00E9ment Gilbert"
+        },
+        "relation": "sibling_in_law",
+        "name": "Beau-fr\u00E8re ou belle-s\u0153ur"
+      },
+      {
+        "relative": {
+          "id": 7246,
+          "name": "Lucien Gilbert"
+        },
+        "relation": "sibling_in_law",
+        "name": "Beau-fr\u00E8re ou belle-s\u0153ur"
+      },
+      {
+        "relative": {
+          "id": 7332,
+          "name": "Marius Gilbert"
+        },
+        "relation": "sibling_in_law",
+        "name": "Beau-fr\u00E8re ou belle-s\u0153ur"
+      },
+      {
+        "relative": {
+          "id": 7378,
+          "name": "Th\u00E9r\u00E8se Brunet"
+        },
+        "relation": "sibling_in_law",
+        "name": "Beau-fr\u00E8re ou belle-s\u0153ur"
+      }
+    ],
+    "contacts": [
+      {
+        "person": {
+          "id": 1,
+          "name": "Aim\u00E9 Lambert"
+        },
+        "kinds": "Regular",
+        "outgoing": 8,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 2,
+          "name": "Robert M\u00E9nard"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 3,
+          "name": "Aim\u00E9 Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 41,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 4,
+          "name": "Marcel Chauvin"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 5,
+          "name": "\u00C9mile Daniau"
+        },
+        "kinds": "Regular",
+        "outgoing": 12,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 24,
+          "name": "Paul Martin"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 25,
+          "name": "Cl\u00E9mence Simonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 26,
+          "name": "Colette Reveau"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 61
+      },
+      {
+        "person": {
+          "id": 47,
+          "name": "Denise Gu\u00E9rin"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 48,
+          "name": "Ginette Gilbert"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 49,
+          "name": "Blanche Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 13,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 64,
+          "name": "Armand Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 75
+      },
+      {
+        "person": {
+          "id": 65,
+          "name": "Fernand Gaillard"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 66,
+          "name": "Marguerite Taillefer"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 90,
+          "name": "Roland Nau"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 31
+      },
+      {
+        "person": {
+          "id": 91,
+          "name": "Michel Ecalle"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 33
+      },
+      {
+        "person": {
+          "id": 92,
+          "name": "Octave Picard"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 93,
+          "name": "Guy Bonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 42,
+        "incoming": 31
+      },
+      {
+        "person": {
+          "id": 94,
+          "name": "Louise Vallet"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 105,
+          "name": "Gabriel Bodin"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 106,
+          "name": "Eug\u00E8ne Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 107,
+          "name": "Ernest Picard"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 33
+      },
+      {
+        "person": {
+          "id": 120,
+          "name": "\u00C9douard Chauvin"
+        },
+        "kinds": "Regular",
+        "outgoing": 38,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 121,
+          "name": "Ernest Clerc"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 69
+      },
+      {
+        "person": {
+          "id": 122,
+          "name": "Ginette Pacaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 123,
+          "name": "Roger Renaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 124,
+          "name": "Gilbert Bonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 38,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 149,
+          "name": "Yves Barreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 150,
+          "name": "Bernard Guillot"
+        },
+        "kinds": "Regular",
+        "outgoing": 45,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 151,
+          "name": "Paul Tessier"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 152,
+          "name": "Alphonse Texier"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 60
+      },
+      {
+        "person": {
+          "id": 153,
+          "name": "Henri Bonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 44,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 154,
+          "name": "C\u00E9line Bernard"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 164,
+          "name": "Blanche Bernard"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 165,
+          "name": "Juliette Bodin"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 166,
+          "name": "Odette H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 176,
+          "name": "Firmin Boutin"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 177,
+          "name": "Roland Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 178,
+          "name": "Maurice Gaillard"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 182,
+          "name": "Octave Fouch\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 44,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 183,
+          "name": "Guy Raffin"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 184,
+          "name": "Cl\u00E9ment Bouju"
+        },
+        "kinds": "Regular",
+        "outgoing": 38,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 197,
+          "name": "Colette Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 38,
+        "incoming": 34
+      },
+      {
+        "person": {
+          "id": 198,
+          "name": "Th\u00E9r\u00E8se Papin"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 199,
+          "name": "Raymonde Bigot"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 64
+      },
+      {
+        "person": {
+          "id": 236,
+          "name": "Firmin Raffin"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 237,
+          "name": "Octave Bastard"
+        },
+        "kinds": "Regular",
+        "outgoing": 41,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 238,
+          "name": "Claude Mass\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 252,
+          "name": "Eug\u00E8ne Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 15,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 253,
+          "name": "Daniel Taillefer"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 254,
+          "name": "Jean Joubert"
+        },
+        "kinds": "Regular",
+        "outgoing": 12,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 298,
+          "name": "\u00C9mile Guillot"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 299,
+          "name": "Augustine Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 300,
+          "name": "Denise H\u00E9rault"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 325,
+          "name": "Paulette Naudin"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 62,
+        "incoming": 61
+      },
+      {
+        "person": {
+          "id": 334,
+          "name": "Marius Proust"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 335,
+          "name": "Jules Largeaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 50,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 336,
+          "name": "Mathilde Picard"
+        },
+        "kinds": "Regular",
+        "outgoing": 42,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 337,
+          "name": "Pierre Vallet"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 338,
+          "name": "\u00C9mile Joubert"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 339,
+          "name": "Gilbert Ouvrard"
+        },
+        "kinds": "Regular",
+        "outgoing": 39,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 340,
+          "name": "Roland Baudouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 341,
+          "name": "Andr\u00E9e Bernard"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 342,
+          "name": "\u00C9douard Wolff"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 343,
+          "name": "Fran\u00E7ois Gautier"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 34
+      },
+      {
+        "person": {
+          "id": 344,
+          "name": "Augustine Guillot"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 347,
+          "name": "Alice Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 348,
+          "name": "Mathilde Clerc"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 349,
+          "name": "Marie Clerc"
+        },
+        "kinds": "Regular",
+        "outgoing": 15,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 351,
+          "name": "Ernest Marchand"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 352,
+          "name": "Maurice H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 353,
+          "name": "Lucie Martin"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 354,
+          "name": "Henriette Poupin"
+        },
+        "kinds": "Regular",
+        "outgoing": 58,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 355,
+          "name": "Colette Guillot"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 357,
+          "name": "Marcel Pacaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 358,
+          "name": "Aim\u00E9 Fillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 42,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 359,
+          "name": "Raoul Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 61
+      },
+      {
+        "person": {
+          "id": 366,
+          "name": "Auguste Barreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 45,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 367,
+          "name": "Josette Pacaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 368,
+          "name": "Marcelle Klein"
+        },
+        "kinds": "Regular",
+        "outgoing": 17,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 379,
+          "name": "Cl\u00E9ment H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 39,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 380,
+          "name": "Ren\u00E9 Bastard"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 381,
+          "name": "Michel Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 385,
+          "name": "Cl\u00E9ment Naudin"
+        },
+        "kinds": "Regular",
+        "outgoing": 47,
+        "incoming": 63
+      },
+      {
+        "person": {
+          "id": 386,
+          "name": "Marcel Papin"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 387,
+          "name": "Henri Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 388,
+          "name": "Henri Thibault"
+        },
+        "kinds": "Regular",
+        "outgoing": 48,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 389,
+          "name": "Madeleine Martin"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 60
+      },
+      {
+        "person": {
+          "id": 390,
+          "name": "Suzanne Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 401,
+          "name": "Albert Bouju"
+        },
+        "kinds": "Regular",
+        "outgoing": 11,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 402,
+          "name": "Yves M\u00E9nard"
+        },
+        "kinds": "Regular",
+        "outgoing": 45,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 403,
+          "name": "Th\u00E9r\u00E8se H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 407,
+          "name": "Ernest Ecalle"
+        },
+        "kinds": "Regular",
+        "outgoing": 44,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 408,
+          "name": "Andr\u00E9 Thibault"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 409,
+          "name": "Alice Renaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 422,
+          "name": "Marius Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 44,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 423,
+          "name": "Marcel Reveau"
+        },
+        "kinds": "Regular",
+        "outgoing": 58,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 424,
+          "name": "Ren\u00E9 Brunet"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 63
+      },
+      {
+        "person": {
+          "id": 425,
+          "name": "Andr\u00E9 Brossard"
+        },
+        "kinds": "Regular",
+        "outgoing": 39,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 426,
+          "name": "Th\u00E9r\u00E8se Daniau"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 427,
+          "name": "Juliette Fillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 41,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 428,
+          "name": "Raoul H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 52,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 444,
+          "name": "Georges Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 9,
+        "incoming": 66
+      },
+      {
+        "person": {
+          "id": 445,
+          "name": "Daniel Vallet"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 446,
+          "name": "\u00C9douard Ouvrard"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 474,
+          "name": "\u00C9mile Largeaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 38,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 475,
+          "name": "Cl\u00E9ment Jarry"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 476,
+          "name": "Eug\u00E8ne Brunet"
+        },
+        "kinds": "Regular",
+        "outgoing": 38,
+        "incoming": 36
+      },
+      {
+        "person": {
+          "id": 480,
+          "name": "Michel Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 481,
+          "name": "Cl\u00E9ment Chatain"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 482,
+          "name": "Fernand Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 483,
+          "name": "Ernest Taillefer"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 65
+      },
+      {
+        "person": {
+          "id": 484,
+          "name": "Jean Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 485,
+          "name": "L\u00E9on Main"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 60
+      },
+      {
+        "person": {
+          "id": 489,
+          "name": "L\u00E9ontine Proust"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 66
+      },
+      {
+        "person": {
+          "id": 490,
+          "name": "Andr\u00E9e Morin"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 64
+      },
+      {
+        "person": {
+          "id": 491,
+          "name": "Mathilde Picard"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 511,
+          "name": "L\u00E9on Vallet"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 36
+      },
+      {
+        "person": {
+          "id": 512,
+          "name": "L\u00E9on Frouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 513,
+          "name": "Claude Gautier"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 520,
+          "name": "Camille Brossard"
+        },
+        "kinds": "Regular",
+        "outgoing": 15,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 521,
+          "name": "Louise Rivi\u00E8re"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 522,
+          "name": "Jean Simonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 41,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 529,
+          "name": "Yves Billaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 13,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 530,
+          "name": "Octave Meyer"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 531,
+          "name": "Fernande Chatain"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 535,
+          "name": "Paul Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 536,
+          "name": "Odette Billaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 8,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 537,
+          "name": "L\u00E9on Largeaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 560,
+          "name": "Maurice Main"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 561,
+          "name": "Fernand Boutin"
+        },
+        "kinds": "Regular",
+        "outgoing": 42,
+        "incoming": 66
+      },
+      {
+        "person": {
+          "id": 562,
+          "name": "Firmin Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 593,
+          "name": "Louis Chevalier"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 594,
+          "name": "Firmin Thibault"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 595,
+          "name": "Georges Sauzeau"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 602,
+          "name": "Georgette Daniau"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 603,
+          "name": "Marie Vallet"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 611,
+          "name": "Fran\u00E7ois Giraud"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 617,
+          "name": "Fernand Bouchet"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 36
+      },
+      {
+        "person": {
+          "id": 618,
+          "name": "L\u00E9on Pineau"
+        },
+        "kinds": "Regular",
+        "outgoing": 42,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 619,
+          "name": "Claude Pineau"
+        },
+        "kinds": "Regular",
+        "outgoing": 45,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 627,
+          "name": "Michel Girard"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 628,
+          "name": "Gaston Bouju"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 629,
+          "name": "\u00C9mile Jarry"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 630,
+          "name": "Yvonne Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 632,
+          "name": "\u00C9mile Chevalier"
+        },
+        "kinds": "Regular",
+        "outgoing": 52,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 633,
+          "name": "Guy Thibault"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 634,
+          "name": "Ernest Guillot"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 642,
+          "name": "L\u00E9on Daniau"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 643,
+          "name": "Daniel Daniau"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 644,
+          "name": "Paul Dupuis"
+        },
+        "kinds": "Regular",
+        "outgoing": 41,
+        "incoming": 62
+      },
+      {
+        "person": {
+          "id": 647,
+          "name": "Cl\u00E9ment Fillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 51,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 648,
+          "name": "Jacques Bouchet"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 649,
+          "name": "Octave Mainard"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 652,
+          "name": "Marius Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 653,
+          "name": "Firmin Texier"
+        },
+        "kinds": "Regular",
+        "outgoing": 53,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 654,
+          "name": "Albert Pacaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 657,
+          "name": "Eug\u00E8ne Arnaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 658,
+          "name": "Georges Gaborit"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 659,
+          "name": "Gabriel Gu\u00E9rin"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 61
+      },
+      {
+        "person": {
+          "id": 668,
+          "name": "Firmin Reveau"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 669,
+          "name": "Roland Chauvin"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 670,
+          "name": "Denise Reveau"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 712,
+          "name": "Roland Grollier"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 33
+      },
+      {
+        "person": {
+          "id": 713,
+          "name": "Blanche Proust"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 714,
+          "name": "Denise Main"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 716,
+          "name": "\u00C9mile Papin"
+        },
+        "kinds": "Regular",
+        "outgoing": 45,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 717,
+          "name": "Yvonne Papin"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 718,
+          "name": "Gabrielle Barreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 749,
+          "name": "Jules Bonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 12,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 750,
+          "name": "Charles Largeaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 751,
+          "name": "Lucien Raffin"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 757,
+          "name": "Lucien P\u00E9ronnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 51,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 758,
+          "name": "Alice P\u00E9ronnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 44,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 759,
+          "name": "Simone Poupin"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 764,
+          "name": "Charles Papin"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 21,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 775,
+          "name": "\u00C9mile H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 26
+      },
+      {
+        "person": {
+          "id": 776,
+          "name": "Lucien Bouhier"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 777,
+          "name": "Georges Nau"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 62
+      },
+      {
+        "person": {
+          "id": 781,
+          "name": "Firmin Gu\u00E9rin"
+        },
+        "kinds": "Neighbour",
+        "outgoing": 42,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 782,
+          "name": "Raoul Girard"
+        },
+        "kinds": "Neighbour",
+        "outgoing": 47,
+        "incoming": 67
+      },
+      {
+        "person": {
+          "id": 783,
+          "name": "Alphonse Brochard"
+        },
+        "kinds": "Neighbour",
+        "outgoing": 51,
+        "incoming": 72
+      },
+      {
+        "person": {
+          "id": 787,
+          "name": "Simone H\u00E9rault"
+        },
+        "kinds": "Neighbour",
+        "outgoing": 37,
+        "incoming": 68
+      },
+      {
+        "person": {
+          "id": 790,
+          "name": "Josette Moreau"
+        },
+        "kinds": "Family",
+        "outgoing": 67,
+        "incoming": 82
+      },
+      {
+        "person": {
+          "id": 793,
+          "name": "Odette Gilbert"
+        },
+        "kinds": "Neighbour",
+        "outgoing": 36,
+        "incoming": 60
+      },
+      {
+        "person": {
+          "id": 795,
+          "name": "Erich Zimmermann"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 23
+      },
+      {
+        "person": {
+          "id": 1025,
+          "name": "Guy Joubert"
+        },
+        "kinds": "Kin",
+        "outgoing": 48,
+        "incoming": 67
+      },
+      {
+        "person": {
+          "id": 1985,
+          "name": "Cl\u00E9mence Lambert"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 1987,
+          "name": "Yvonne Lambert"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 1988,
+          "name": "Denise M\u00E9nard"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 2014,
+          "name": "Andr\u00E9e Martin"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 62
+      },
+      {
+        "person": {
+          "id": 2015,
+          "name": "Gaston Martin"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 2017,
+          "name": "Ernest Simonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 2018,
+          "name": "Odile Simonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 33
+      },
+      {
+        "person": {
+          "id": 2019,
+          "name": "Marie Simonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 2021,
+          "name": "Raymond Reveau"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 2055,
+          "name": "Augustine Raffin"
+        },
+        "kinds": "Regular",
+        "outgoing": 44,
+        "incoming": 33
+      },
+      {
+        "person": {
+          "id": 2056,
+          "name": "Pierre Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 66
+      },
+      {
+        "person": {
+          "id": 2060,
+          "name": "Pierre Lambert"
+        },
+        "kinds": "Colleague",
+        "outgoing": 32,
+        "incoming": 65
+      },
+      {
+        "person": {
+          "id": 2078,
+          "name": "Yvonne Brochard"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 2085,
+          "name": "Th\u00E9r\u00E8se Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 2086,
+          "name": "Henri Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 45,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 2087,
+          "name": "Cl\u00E9mence Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 2088,
+          "name": "Raymonde Gaillard"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 2092,
+          "name": "Yves Taillefer"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 62
+      },
+      {
+        "person": {
+          "id": 2155,
+          "name": "Suzanne Bodin"
+        },
+        "kinds": "Regular",
+        "outgoing": 1,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 2156,
+          "name": "Suzanne Bodin"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 30
+      },
+      {
+        "person": {
+          "id": 2158,
+          "name": "Yvonne Lang"
+        },
+        "kinds": "Regular",
+        "outgoing": 41,
+        "incoming": 28
+      },
+      {
+        "person": {
+          "id": 2181,
+          "name": "Jacques Augereau"
+        },
+        "kinds": "Colleague, Regular",
+        "outgoing": 71,
+        "incoming": 64
+      },
+      {
+        "person": {
+          "id": 2204,
+          "name": "Augustine Barreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 11,
+        "incoming": 60
+      },
+      {
+        "person": {
+          "id": 2207,
+          "name": "Marguerite Guillot"
+        },
+        "kinds": "Regular",
+        "outgoing": 8,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 2208,
+          "name": "Huguette Tessier"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 62
+      },
+      {
+        "person": {
+          "id": 2224,
+          "name": "Aim\u00E9 Bodin"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 2227,
+          "name": "Robert H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 2237,
+          "name": "Odile Boutin"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 2238,
+          "name": "Louis Boutin"
+        },
+        "kinds": "Regular",
+        "outgoing": 41,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 2239,
+          "name": "Juliette Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 2241,
+          "name": "Suzanne Gaillard"
+        },
+        "kinds": "Regular",
+        "outgoing": 14,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 2246,
+          "name": "Yvonne Fouch\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 3,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 2247,
+          "name": "Augustine Raffin"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 2249,
+          "name": "Odette Bouju"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 2257,
+          "name": "\u00C9douard Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 2262,
+          "name": "Georges Bigot"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 2287,
+          "name": "Paul Gaborit"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 2321,
+          "name": "Berthe Bastard"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 2322,
+          "name": "Lucienne Mass\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 13,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 2323,
+          "name": "Guy Mass\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 2339,
+          "name": "Henriette Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 2340,
+          "name": "Suzanne Taillefer"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 2341,
+          "name": "Yvonne Joubert"
+        },
+        "kinds": "Regular",
+        "outgoing": 45,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 2378,
+          "name": "Joseph Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 48,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 2380,
+          "name": "Georges Girard"
+        },
+        "kinds": "Regular",
+        "outgoing": 57,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 2408,
+          "name": "Charles Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 60
+      },
+      {
+        "person": {
+          "id": 2414,
+          "name": "L\u00E9ontine Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 2478,
+          "name": "Roland Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 2480,
+          "name": "\u00C9douard Clerc"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 2481,
+          "name": "Raymonde Clerc"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 2482,
+          "name": "Raymond Clerc"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 67
+      },
+      {
+        "person": {
+          "id": 2495,
+          "name": "Blanche Pacaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 61
+      },
+      {
+        "person": {
+          "id": 2496,
+          "name": "Th\u00E9r\u00E8se Fillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 17,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 2497,
+          "name": "Berthe Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 2511,
+          "name": "Juliette Robin"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 2512,
+          "name": "Ren\u00E9e Barreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 2516,
+          "name": "Paul Pacaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 2517,
+          "name": "Daniel Klein"
+        },
+        "kinds": "Regular",
+        "outgoing": 7,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 2538,
+          "name": "Augustine H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 2541,
+          "name": "Suzanne Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 17,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 2542,
+          "name": "Denise Bastard"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 2547,
+          "name": "Alice Naudin"
+        },
+        "kinds": "Regular",
+        "outgoing": 47,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 2548,
+          "name": "Lucie Fradin"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 2549,
+          "name": "Jeanne Papin"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 2550,
+          "name": "Madeleine Papin"
+        },
+        "kinds": "Regular",
+        "outgoing": 47,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 2551,
+          "name": "Georgette Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 2552,
+          "name": "L\u00E9ontine Thibault"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 2554,
+          "name": "Claude Martin"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 36
+      },
+      {
+        "person": {
+          "id": 2555,
+          "name": "L\u00E9on Martin"
+        },
+        "kinds": "Regular",
+        "outgoing": 15,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 2556,
+          "name": "Pierre Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 2573,
+          "name": "Ernest Proust"
+        },
+        "kinds": "Regular",
+        "outgoing": 42,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 2574,
+          "name": "Suzanne M\u00E9nard"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 2576,
+          "name": "Henri H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 2579,
+          "name": "Simone Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 2584,
+          "name": "H\u00E9l\u00E8ne Ecalle"
+        },
+        "kinds": "Regular",
+        "outgoing": 39,
+        "incoming": 61
+      },
+      {
+        "person": {
+          "id": 2585,
+          "name": "Ernest Ecalle"
+        },
+        "kinds": "Regular",
+        "outgoing": 47,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 2586,
+          "name": "Juliette Thibault"
+        },
+        "kinds": "Regular",
+        "outgoing": 42,
+        "incoming": 64
+      },
+      {
+        "person": {
+          "id": 2587,
+          "name": "Mathilde Thibault"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 2588,
+          "name": "Michel Thibault"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 2589,
+          "name": "Roland Renaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 46,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 2620,
+          "name": "Raoul Pacaud"
+        },
+        "kinds": "Colleague",
+        "outgoing": 56,
+        "incoming": 63
+      },
+      {
+        "person": {
+          "id": 2629,
+          "name": "Ir\u00E8ne Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 62
+      },
+      {
+        "person": {
+          "id": 2632,
+          "name": "Lucienne Vallet"
+        },
+        "kinds": "Regular",
+        "outgoing": 15,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 2633,
+          "name": "Ernest Vallet"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 2634,
+          "name": "Jeanne Ouvrard"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 2675,
+          "name": "Ginette Largeaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 2677,
+          "name": "Yvonne Largeaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 2678,
+          "name": "Yvonne Jarry"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 2688,
+          "name": "Blanche Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 2689,
+          "name": "\u00C9mile Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 2690,
+          "name": "H\u00E9l\u00E8ne Clerc"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 2691,
+          "name": "Huguette Main"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 34
+      },
+      {
+        "person": {
+          "id": 2698,
+          "name": "Ernest Proust"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 2699,
+          "name": "Auguste Morin"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 2738,
+          "name": "Th\u00E9r\u00E8se Vallet"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 2740,
+          "name": "Yvonne Frouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 61
+      },
+      {
+        "person": {
+          "id": 2741,
+          "name": "Ren\u00E9e Frouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 2743,
+          "name": "Eug\u00E8ne Frouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 2744,
+          "name": "Simone Gautier"
+        },
+        "kinds": "Regular",
+        "outgoing": 39,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 2761,
+          "name": "Eug\u00E9nie Brossard"
+        },
+        "kinds": "Regular",
+        "outgoing": 53,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 2763,
+          "name": "Marius Rivi\u00E8re"
+        },
+        "kinds": "Regular",
+        "outgoing": 50,
+        "incoming": 63
+      },
+      {
+        "person": {
+          "id": 2764,
+          "name": "Ginette Simonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 17,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 2779,
+          "name": "H\u00E9l\u00E8ne Billaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 13,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 2783,
+          "name": "Abel Renaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 33
+      },
+      {
+        "person": {
+          "id": 2786,
+          "name": "Solange Largeaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 2820,
+          "name": "Alice Main"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 2821,
+          "name": "Jacqueline Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 2827,
+          "name": "Firmin Thibault"
+        },
+        "kinds": "Regular",
+        "outgoing": 45,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 2858,
+          "name": "Rose Chevalier"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 2860,
+          "name": "C\u00E9line Thibault"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 65
+      },
+      {
+        "person": {
+          "id": 2862,
+          "name": "Odile Sauzeau"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 2870,
+          "name": "Jean Vallet"
+        },
+        "kinds": "Regular",
+        "outgoing": 12,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 2874,
+          "name": "Albert Giraud"
+        },
+        "kinds": "Regular",
+        "outgoing": 38,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 2881,
+          "name": "Paul Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 2888,
+          "name": "Madeleine Clerc"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 2903,
+          "name": "Robert Reveau"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 2904,
+          "name": "Gabriel Reveau"
+        },
+        "kinds": "Regular",
+        "outgoing": 12,
+        "incoming": 69
+      },
+      {
+        "person": {
+          "id": 2959,
+          "name": "Yvonne Grollier"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 2961,
+          "name": "Henriette Largeaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 2962,
+          "name": "Henri Proust"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 2963,
+          "name": "Michel Main"
+        },
+        "kinds": "Regular",
+        "outgoing": 12,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 2965,
+          "name": "Yvette Brossard"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 2971,
+          "name": "Louis Barreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 3000,
+          "name": "Marie Raffin"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 3004,
+          "name": "Michel Bernard"
+        },
+        "kinds": "Regular",
+        "outgoing": 41,
+        "incoming": 76
+      },
+      {
+        "person": {
+          "id": 3024,
+          "name": "Odile H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 3026,
+          "name": "Rose Bouhier"
+        },
+        "kinds": "Regular",
+        "outgoing": 3,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 3029,
+          "name": "Simone Nau"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 36
+      },
+      {
+        "person": {
+          "id": 3030,
+          "name": "Paulette Nau"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 3047,
+          "name": "Guy H\u00E9rault"
+        },
+        "kinds": "Neighbour",
+        "outgoing": 29,
+        "incoming": 68
+      },
+      {
+        "person": {
+          "id": 3048,
+          "name": "Denise H\u00E9rault"
+        },
+        "kinds": "Neighbour",
+        "outgoing": 38,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 3049,
+          "name": "Louise H\u00E9rault"
+        },
+        "kinds": "Neighbour",
+        "outgoing": 42,
+        "incoming": 64
+      },
+      {
+        "person": {
+          "id": 3431,
+          "name": "Solange Joubert"
+        },
+        "kinds": "Kin",
+        "outgoing": 81,
+        "incoming": 80
+      },
+      {
+        "person": {
+          "id": 4828,
+          "name": "Georges Bastard"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 4839,
+          "name": "Georges Rabault"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 4852,
+          "name": "Cl\u00E9mence Girard"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 35,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 4856,
+          "name": "Josette Klein"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 4858,
+          "name": "Fran\u00E7ois Gilbert"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 4859,
+          "name": "Cl\u00E9mence Gilbert"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 4868,
+          "name": "Michel Raffin"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 4876,
+          "name": "Andr\u00E9 Martin"
+        },
+        "kinds": "Regular",
+        "outgoing": 11,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 4880,
+          "name": "Gilbert Brunet"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 49,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 4882,
+          "name": "Gaston Thibault"
+        },
+        "kinds": "Regular",
+        "outgoing": 6,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 4894,
+          "name": "L\u00E9on Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 4895,
+          "name": "Odile Largeaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 4897,
+          "name": "Georges Daniau"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 4903,
+          "name": "Armand Sabourin"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 4906,
+          "name": "Lucien Chevalier"
+        },
+        "kinds": "Regular",
+        "outgoing": 47,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 4932,
+          "name": "Roger Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 69
+      },
+      {
+        "person": {
+          "id": 4945,
+          "name": "Solange Chatain"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 4962,
+          "name": "Cl\u00E9ment Rousseau"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 4987,
+          "name": "Jacques Nau"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 4990,
+          "name": "\u00C9mile Guillot"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 5012,
+          "name": "Raoul Gaillard"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 5013,
+          "name": "Michel Gaillard"
+        },
+        "kinds": "Regular",
+        "outgoing": 42,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 5015,
+          "name": "Yvonne Frouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 5016,
+          "name": "Pierre Rambaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 5019,
+          "name": "Robert Dietrich"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 68
+      },
+      {
+        "person": {
+          "id": 5038,
+          "name": "Juliette P\u00E9ronnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 5078,
+          "name": "Raoul Renaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 5080,
+          "name": "Simone Bouchet"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 5087,
+          "name": "Rose H\u00E9raud"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 41,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 5107,
+          "name": "Maurice Ouvrard"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 51,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 5114,
+          "name": "Alphonse Barreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 5130,
+          "name": "Marcel Grollier"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 5131,
+          "name": "Marguerite Courtin"
+        },
+        "kinds": "Regular",
+        "outgoing": 10,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 5139,
+          "name": "Camille Papin"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 5145,
+          "name": "Lucie Arnaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 9,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 5146,
+          "name": "Firmin Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 68
+      },
+      {
+        "person": {
+          "id": 5183,
+          "name": "Denise Bernard"
+        },
+        "kinds": "Regular",
+        "outgoing": 41,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 5187,
+          "name": "Octave Texier"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 5188,
+          "name": "C\u00E9line Texier"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 34
+      },
+      {
+        "person": {
+          "id": 5206,
+          "name": "Armand Pacaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 5209,
+          "name": "Eug\u00E9nie Arnaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 3,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 5210,
+          "name": "Gilbert Arnaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 5212,
+          "name": "Andr\u00E9e Arnaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 5214,
+          "name": "Paul Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 5215,
+          "name": "Berthe Kremer"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 5216,
+          "name": "Maurice Kremer"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 5217,
+          "name": "Bernard Pacaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 5219,
+          "name": "Auguste Pacaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 66
+      },
+      {
+        "person": {
+          "id": 5221,
+          "name": "Henri Frouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 41,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 5229,
+          "name": "Firmin Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 5230,
+          "name": "Ren\u00E9 Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 49,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 5233,
+          "name": "Joseph Charrier"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 5243,
+          "name": "Fran\u00E7ois Arnaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 5246,
+          "name": "\u00C9mile Chauvin"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 5247,
+          "name": "Roland Chauvin"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 5252,
+          "name": "Cl\u00E9mence Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 8,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 5256,
+          "name": "Camille Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 69
+      },
+      {
+        "person": {
+          "id": 5257,
+          "name": "Daniel Ouvrard"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 5258,
+          "name": "Eug\u00E9nie Ouvrard"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 5271,
+          "name": "Paulette Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 5272,
+          "name": "Simone Frouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 5273,
+          "name": "Bernard Frouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 9,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 5275,
+          "name": "Fran\u00E7ois Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 47,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 5315,
+          "name": "Albert Simonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 5319,
+          "name": "Fernande Main"
+        },
+        "kinds": "Regular",
+        "outgoing": 7,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 5321,
+          "name": "Rose Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 5322,
+          "name": "Madeleine Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 5338,
+          "name": "Denise Michaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 38,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 5342,
+          "name": "Ir\u00E8ne Mainard"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 5349,
+          "name": "Claude Rousseau"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 5350,
+          "name": "Huguette Rousseau"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 5351,
+          "name": "Fernand Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 45,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 5353,
+          "name": "Paul Mass\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 5364,
+          "name": "Claude Barreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 5365,
+          "name": "Paul Sabourin"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 5367,
+          "name": "Pierre Barreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 13,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 5388,
+          "name": "Th\u00E9r\u00E8se Arnaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 41,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 5389,
+          "name": "Marius Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 67
+      },
+      {
+        "person": {
+          "id": 5416,
+          "name": "Auguste Giraud"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 30
+      },
+      {
+        "person": {
+          "id": 5418,
+          "name": "Suzanne Clerc"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 64
+      },
+      {
+        "person": {
+          "id": 5421,
+          "name": "Simone Arnaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 5423,
+          "name": "Gilbert Main"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 62
+      },
+      {
+        "person": {
+          "id": 5424,
+          "name": "Joseph Gilbert"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 5426,
+          "name": "Jules Bouju"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 5427,
+          "name": "Blanche Rabault"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 32
+      },
+      {
+        "person": {
+          "id": 5433,
+          "name": "Joseph Rabault"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 5443,
+          "name": "Louise Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 5484,
+          "name": "Fernande Bouju"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 5504,
+          "name": "Germaine Mainard"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 33
+      },
+      {
+        "person": {
+          "id": 5506,
+          "name": "Eug\u00E9nie Billaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 5510,
+          "name": "Ir\u00E8ne Largeaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 17,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 5513,
+          "name": "Firmin Poupin"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 5527,
+          "name": "Maurice Pacaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 38,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 5549,
+          "name": "Jacques H\u00E9rault"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 5568,
+          "name": "Bernard Gaillard"
+        },
+        "kinds": "Regular",
+        "outgoing": 38,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 5593,
+          "name": "Daniel Nau"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 5595,
+          "name": "Alphonse Nau"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 5600,
+          "name": "Jean Gaillard"
+        },
+        "kinds": "Regular",
+        "outgoing": 42,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 5613,
+          "name": "Roland Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 5644,
+          "name": "Gilbert Mainard"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 5667,
+          "name": "Michel Gu\u00E9rin"
+        },
+        "kinds": "Regular",
+        "outgoing": 46,
+        "incoming": 34
+      },
+      {
+        "person": {
+          "id": 5679,
+          "name": "Alphonse Martin"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 5682,
+          "name": "Lucien Bonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 5684,
+          "name": "Odile Brochard"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 26
+      },
+      {
+        "person": {
+          "id": 5685,
+          "name": "Marie Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 33
+      },
+      {
+        "person": {
+          "id": 5686,
+          "name": "Charles Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 5687,
+          "name": "Louis Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 12,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 5696,
+          "name": "Aim\u00E9 Raffin"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 5710,
+          "name": "Lucienne Ecalle"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 5711,
+          "name": "Ir\u00E8ne Billaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 5712,
+          "name": "Roger Billaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 49,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 5730,
+          "name": "Armand Lambert"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 5731,
+          "name": "Germaine Lambert"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 64
+      },
+      {
+        "person": {
+          "id": 5742,
+          "name": "Yvette Taillefer"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 5776,
+          "name": "Alphonse Rabault"
+        },
+        "kinds": "Regular",
+        "outgoing": 46,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 5804,
+          "name": "Armand Thibault"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 61
+      },
+      {
+        "person": {
+          "id": 5831,
+          "name": "Andr\u00E9 Chevalier"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 5834,
+          "name": "Jules Chauvin"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 67
+      },
+      {
+        "person": {
+          "id": 5855,
+          "name": "Firmin Bernard"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 5856,
+          "name": "Madeleine Bernard"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 5858,
+          "name": "Suzanne Robin"
+        },
+        "kinds": "Regular",
+        "outgoing": 39,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 5864,
+          "name": "Juliette Nau"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 64
+      },
+      {
+        "person": {
+          "id": 5865,
+          "name": "Henriette Charrier"
+        },
+        "kinds": "Regular",
+        "outgoing": 17,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 5874,
+          "name": "Pierre Simonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 5884,
+          "name": "Joseph Bastard"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 65
+      },
+      {
+        "person": {
+          "id": 5897,
+          "name": "Jeanne Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 5898,
+          "name": "Lucien Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 39,
+        "incoming": 66
+      },
+      {
+        "person": {
+          "id": 5899,
+          "name": "Firmin Pineau"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 5924,
+          "name": "Bernard Mainard"
+        },
+        "kinds": "Regular",
+        "outgoing": 50,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 5931,
+          "name": "Odile Pineau"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 67
+      },
+      {
+        "person": {
+          "id": 5932,
+          "name": "Lucien Papin"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 63
+      },
+      {
+        "person": {
+          "id": 5933,
+          "name": "Joseph Taillefer"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 5934,
+          "name": "Ginette Taillefer"
+        },
+        "kinds": "Regular",
+        "outgoing": 14,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 5936,
+          "name": "Simone Courtin"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 5937,
+          "name": "Simone Courtin"
+        },
+        "kinds": "Regular",
+        "outgoing": 14,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 5938,
+          "name": "Raoul Giraud"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 64
+      },
+      {
+        "person": {
+          "id": 5940,
+          "name": "Marie Michaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 44,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 5972,
+          "name": "Georgette Guillot"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 34
+      },
+      {
+        "person": {
+          "id": 5997,
+          "name": "Suzanne Bastard"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 5998,
+          "name": "Th\u00E9r\u00E8se Nau"
+        },
+        "kinds": "Regular",
+        "outgoing": 9,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 5999,
+          "name": "Octave Dupuis"
+        },
+        "kinds": "Regular",
+        "outgoing": 14,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 6025,
+          "name": "Odette Fouch\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 11,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 6031,
+          "name": "Augustine Baudouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 6034,
+          "name": "Andr\u00E9e Lambert"
+        },
+        "kinds": "Regular",
+        "outgoing": 12,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 6045,
+          "name": "Odette Mass\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 6065,
+          "name": "Paulette Fradin"
+        },
+        "kinds": "Regular",
+        "outgoing": 45,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 6066,
+          "name": "Henri Fradin"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 6067,
+          "name": "Aim\u00E9 Gaborit"
+        },
+        "kinds": "Regular",
+        "outgoing": 5,
+        "incoming": 36
+      },
+      {
+        "person": {
+          "id": 6071,
+          "name": "Raymonde Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 6073,
+          "name": "Daniel Gautier"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 6112,
+          "name": "Yvette Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 6114,
+          "name": "Jules Taillefer"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 64
+      },
+      {
+        "person": {
+          "id": 6139,
+          "name": "Georges Taillefer"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 6155,
+          "name": "Daniel Lang"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 6180,
+          "name": "Solange Frouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 33
+      },
+      {
+        "person": {
+          "id": 6181,
+          "name": "L\u00E9on Frouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 48,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 6182,
+          "name": "Yves Robin"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 6183,
+          "name": "Eug\u00E9nie Sauzeau"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 6198,
+          "name": "Ginette Courtin"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 6209,
+          "name": "L\u00E9on Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 50,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 6221,
+          "name": "Ginette P\u00E9ronnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 67
+      },
+      {
+        "person": {
+          "id": 6249,
+          "name": "Abel Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 6250,
+          "name": "Augustine M\u00E9nard"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 6260,
+          "name": "Claude Bonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 6264,
+          "name": "Gabrielle Bigot"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 6268,
+          "name": "Marie Bigot"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 6270,
+          "name": "Odile Papin"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 6272,
+          "name": "Michel Ouvrard"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 6273,
+          "name": "Eug\u00E8ne Bonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 6274,
+          "name": "Camille Bonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 13,
+        "incoming": 60
+      },
+      {
+        "person": {
+          "id": 6275,
+          "name": "Yvonne Bonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 6282,
+          "name": "Juliette Barreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 5,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 6283,
+          "name": "Marcelle Reveau"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 6293,
+          "name": "Robert M\u00E9nard"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 6295,
+          "name": "Charles Gaborit"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 6300,
+          "name": "Raymond Morin"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 6318,
+          "name": "Juliette Taillefer"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 6335,
+          "name": "Henri Gaborit"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 6340,
+          "name": "Gabrielle Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 6341,
+          "name": "Ren\u00E9 Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 6342,
+          "name": "Marcelle Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 6344,
+          "name": "Simone Bouhier"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 6345,
+          "name": "Joseph Bouhier"
+        },
+        "kinds": "Regular",
+        "outgoing": 14,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 6352,
+          "name": "Marie Jarry"
+        },
+        "kinds": "Regular",
+        "outgoing": 6,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 6355,
+          "name": "Pierre Chauvin"
+        },
+        "kinds": "Regular",
+        "outgoing": 41,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 6356,
+          "name": "Abel Chauvin"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 6366,
+          "name": "Louise Papin"
+        },
+        "kinds": "Regular",
+        "outgoing": 17,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 6394,
+          "name": "Aim\u00E9 H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 39,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 6413,
+          "name": "Colette Gautier"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 6415,
+          "name": "Marcel Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 6420,
+          "name": "Joseph Daniau"
+        },
+        "kinds": "Regular",
+        "outgoing": 12,
+        "incoming": 60
+      },
+      {
+        "person": {
+          "id": 6422,
+          "name": "Roland Gilbert"
+        },
+        "kinds": "Kin",
+        "outgoing": 58,
+        "incoming": 72
+      },
+      {
+        "person": {
+          "id": 6436,
+          "name": "Colette Nau"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 6437,
+          "name": "Gilbert Nau"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 6443,
+          "name": "Cl\u00E9ment Proust"
+        },
+        "kinds": "Regular",
+        "outgoing": 44,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 6452,
+          "name": "Louise Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 6453,
+          "name": "Roger Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 39,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 6454,
+          "name": "Paul Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 6455,
+          "name": "Octave Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 6469,
+          "name": "Marguerite Clerc"
+        },
+        "kinds": "Regular",
+        "outgoing": 17,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 6483,
+          "name": "Josette Mass\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 6484,
+          "name": "Yvonne Mass\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 6485,
+          "name": "Henri Bigot"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 6509,
+          "name": "Blanche Chatain"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 6511,
+          "name": "Michel Chatain"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 6516,
+          "name": "Raymonde Sauzeau"
+        },
+        "kinds": "Regular",
+        "outgoing": 6,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 6517,
+          "name": "Odile H\u00E9rault"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 6537,
+          "name": "Yvonne Simonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 6549,
+          "name": "\u00C9mile Rivi\u00E8re"
+        },
+        "kinds": "Regular",
+        "outgoing": 12,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 6550,
+          "name": "Auguste Joubert"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 6565,
+          "name": "Andr\u00E9 Jarry"
+        },
+        "kinds": "Regular",
+        "outgoing": 42,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 6567,
+          "name": "Huguette Charrier"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 6574,
+          "name": "Josette Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 6591,
+          "name": "Germaine Naudin"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 6593,
+          "name": "L\u00E9ontine Sauzeau"
+        },
+        "kinds": "Regular",
+        "outgoing": 7,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 6606,
+          "name": "Gilbert Jarry"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 6612,
+          "name": "Marius Baudouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 6613,
+          "name": "Louis Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 6615,
+          "name": "Henri Raffin"
+        },
+        "kinds": "Regular",
+        "outgoing": 15,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 6627,
+          "name": "Augustine Raffin"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 6639,
+          "name": "Gabrielle Nau"
+        },
+        "kinds": "Regular",
+        "outgoing": 39,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 6647,
+          "name": "Georgette H\u00E9rault"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 6657,
+          "name": "Alphonse Mass\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 6661,
+          "name": "L\u00E9on Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 6663,
+          "name": "Louise Bernard"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 33
+      },
+      {
+        "person": {
+          "id": 6672,
+          "name": "Bernard Bigot"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 6673,
+          "name": "Ren\u00E9 Pacaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 1,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 6679,
+          "name": "Denise Coutant"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 62
+      },
+      {
+        "person": {
+          "id": 6682,
+          "name": "Pierre Coutant"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 68
+      },
+      {
+        "person": {
+          "id": 6685,
+          "name": "Ren\u00E9 Rousseau"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 6686,
+          "name": "Berthe Rousseau"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 6687,
+          "name": "Marcelle Rousseau"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 6694,
+          "name": "Albert H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 38,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 6716,
+          "name": "Fran\u00E7ois Ecalle"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 6717,
+          "name": "Berthe Ecalle"
+        },
+        "kinds": "Regular",
+        "outgoing": 14,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 6725,
+          "name": "Roland Giraud"
+        },
+        "kinds": "Regular",
+        "outgoing": 59,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 6726,
+          "name": "Eug\u00E9nie Giraud"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 6727,
+          "name": "Paul Giraud"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 6728,
+          "name": "Firmin Bernard"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 6730,
+          "name": "Berthe Rivi\u00E8re"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 6757,
+          "name": "Yvette Girard"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 61
+      },
+      {
+        "person": {
+          "id": 6768,
+          "name": "Marius Boutin"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 6804,
+          "name": "Raymond Pineau"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 6805,
+          "name": "Albert Renaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 6824,
+          "name": "Jules Boutin"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 36
+      },
+      {
+        "person": {
+          "id": 6826,
+          "name": "Marcel Morin"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 6829,
+          "name": "Bernard Raffin"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 6834,
+          "name": "Jean Thibault"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 6838,
+          "name": "Ginette Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 15,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 6840,
+          "name": "Firmin Jarry"
+        },
+        "kinds": "Regular",
+        "outgoing": 47,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 6848,
+          "name": "Armand Taillefer"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 6865,
+          "name": "Ren\u00E9e Pacaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 6884,
+          "name": "Denise Lambert"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 31
+      },
+      {
+        "person": {
+          "id": 6886,
+          "name": "Aim\u00E9 Texier"
+        },
+        "kinds": "Regular",
+        "outgoing": 13,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 6887,
+          "name": "Mathilde Arnaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 34
+      },
+      {
+        "person": {
+          "id": 6890,
+          "name": "Solange Brochard"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 36
+      },
+      {
+        "person": {
+          "id": 6891,
+          "name": "Bernard Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 6892,
+          "name": "Odile Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 6900,
+          "name": "Raoul Coutant"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 6902,
+          "name": "Roger Coutant"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 6909,
+          "name": "Bernard Reveau"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 6949,
+          "name": "Solange Ecalle"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 6952,
+          "name": "Gilbert Vallet"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 6965,
+          "name": "Cl\u00E9ment Gilbert"
+        },
+        "kinds": "Kin",
+        "outgoing": 65,
+        "incoming": 76
+      },
+      {
+        "person": {
+          "id": 6968,
+          "name": "Eug\u00E8ne Daniau"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 6971,
+          "name": "Simone Martin"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 6985,
+          "name": "Daniel Brochard"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 6986,
+          "name": "Rose Mercier"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 7014,
+          "name": "Marcel Sabourin"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 7027,
+          "name": "Roland Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 7031,
+          "name": "Louis Baudouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 61
+      },
+      {
+        "person": {
+          "id": 7036,
+          "name": "Madeleine Fouch\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 10,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 7037,
+          "name": "Raoul Fouch\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 7038,
+          "name": "Gaston Largeaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 7053,
+          "name": "C\u00E9line Sabourin"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 7057,
+          "name": "Camille Joubert"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 7063,
+          "name": "Roger Marchand"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 7071,
+          "name": "H\u00E9l\u00E8ne Brunet"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 7076,
+          "name": "Solange Giraud"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 7078,
+          "name": "Louis Giraud"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 7085,
+          "name": "Paulette Baudouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 31
+      },
+      {
+        "person": {
+          "id": 7089,
+          "name": "Madeleine Bodin"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 7100,
+          "name": "Lucienne Taillefer"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 7104,
+          "name": "Marius Renaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 44,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 7105,
+          "name": "Abel Mercier"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 7119,
+          "name": "Andr\u00E9e Coutant"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 7120,
+          "name": "Suzanne Fouch\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 7131,
+          "name": "Daniel Rivi\u00E8re"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 63
+      },
+      {
+        "person": {
+          "id": 7137,
+          "name": "Jeanne Bouchet"
+        },
+        "kinds": "Regular",
+        "outgoing": 41,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 7161,
+          "name": "Georgette H\u00E9rault"
+        },
+        "kinds": "Regular",
+        "outgoing": 44,
+        "incoming": 30
+      },
+      {
+        "person": {
+          "id": 7171,
+          "name": "Huguette Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 67
+      },
+      {
+        "person": {
+          "id": 7184,
+          "name": "Henri Vallet"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 67
+      },
+      {
+        "person": {
+          "id": 7189,
+          "name": "Jeanne Chauvin"
+        },
+        "kinds": "Regular",
+        "outgoing": 12,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 7205,
+          "name": "Lucie Robin"
+        },
+        "kinds": "Regular",
+        "outgoing": 17,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 7209,
+          "name": "Ginette H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 34
+      },
+      {
+        "person": {
+          "id": 7211,
+          "name": "Auguste Bodin"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 63
+      },
+      {
+        "person": {
+          "id": 7213,
+          "name": "Augustine Pineau"
+        },
+        "kinds": "Regular",
+        "outgoing": 17,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 7217,
+          "name": "Albert Thibault"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 7220,
+          "name": "Auguste Guillot"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 7221,
+          "name": "Andr\u00E9 Guillot"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 7246,
+          "name": "Lucien Gilbert"
+        },
+        "kinds": "Kin",
+        "outgoing": 46,
+        "incoming": 67
+      },
+      {
+        "person": {
+          "id": 7248,
+          "name": "Ren\u00E9e Texier"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 36
+      },
+      {
+        "person": {
+          "id": 7266,
+          "name": "Armand Jarry"
+        },
+        "kinds": "Regular",
+        "outgoing": 8,
+        "incoming": 67
+      },
+      {
+        "person": {
+          "id": 7272,
+          "name": "Fernand Jarry"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 7282,
+          "name": "L\u00E9ontine Fillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 7284,
+          "name": "Lucie Papin"
+        },
+        "kinds": "Regular",
+        "outgoing": 11,
+        "incoming": 34
+      },
+      {
+        "person": {
+          "id": 7309,
+          "name": "Eug\u00E9nie Gautier"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 7310,
+          "name": "Aim\u00E9 Gautier"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 7311,
+          "name": "Marcelle Gautier"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 7312,
+          "name": "Louis Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 7313,
+          "name": "Henri Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 7315,
+          "name": "Marius Martin"
+        },
+        "kinds": "Regular",
+        "outgoing": 55,
+        "incoming": 36
+      },
+      {
+        "person": {
+          "id": 7332,
+          "name": "Marius Gilbert"
+        },
+        "kinds": "Regular, Kin",
+        "outgoing": 47,
+        "incoming": 58
+      },
+      {
+        "person": {
+          "id": 7334,
+          "name": "Jeanne Joubert"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 7337,
+          "name": "Gabrielle Mainard"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 7374,
+          "name": "Gaston Mass\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 60
+      },
+      {
+        "person": {
+          "id": 7375,
+          "name": "Jeanne Mass\u00E9"
+        },
+        "kinds": "Regular",
+        "outgoing": 7,
+        "incoming": 50
+      },
+      {
+        "person": {
+          "id": 7376,
+          "name": "Raoul Brunet"
+        },
+        "kinds": "Regular",
+        "outgoing": 44,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 7378,
+          "name": "Th\u00E9r\u00E8se Brunet"
+        },
+        "kinds": "Regular, Kin",
+        "outgoing": 64,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 7400,
+          "name": "Roland Vallet"
+        },
+        "kinds": "Colleague",
+        "outgoing": 53,
+        "incoming": 62
+      },
+      {
+        "person": {
+          "id": 7407,
+          "name": "Odile Mercier"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 7412,
+          "name": "Th\u00E9r\u00E8se Pineau"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 37
+      },
+      {
+        "person": {
+          "id": 7460,
+          "name": "Josette Joubert"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 7461,
+          "name": "Rose Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 7462,
+          "name": "Cl\u00E9mence Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 7468,
+          "name": "Louis Frouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 7472,
+          "name": "\u00C9mile Guillon"
+        },
+        "kinds": "Colleague, Regular",
+        "outgoing": 80,
+        "incoming": 77
+      },
+      {
+        "person": {
+          "id": 7477,
+          "name": "Henriette Schneider"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 7479,
+          "name": "Maurice Schneider"
+        },
+        "kinds": "Colleague, Regular",
+        "outgoing": 71,
+        "incoming": 84
+      },
+      {
+        "person": {
+          "id": 7485,
+          "name": "Raymonde Texier"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 7486,
+          "name": "Cl\u00E9ment Brunet"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 7492,
+          "name": "Blanche Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 7514,
+          "name": "Joseph Mainard"
+        },
+        "kinds": "Colleague",
+        "outgoing": 56,
+        "incoming": 67
+      },
+      {
+        "person": {
+          "id": 7525,
+          "name": "Gaston Raffin"
+        },
+        "kinds": "Colleague, Regular",
+        "outgoing": 55,
+        "incoming": 66
+      },
+      {
+        "person": {
+          "id": 7526,
+          "name": "Claude Raffin"
+        },
+        "kinds": "Colleague, Regular",
+        "outgoing": 66,
+        "incoming": 74
+      },
+      {
+        "person": {
+          "id": 7534,
+          "name": "Armand Charrier"
+        },
+        "kinds": "Colleague",
+        "outgoing": 22,
+        "incoming": 69
+      },
+      {
+        "person": {
+          "id": 7552,
+          "name": "Maurice Mathis"
+        },
+        "kinds": "Regular",
+        "outgoing": 46,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 7566,
+          "name": "Claude Reveau"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 61
+      },
+      {
+        "person": {
+          "id": 7570,
+          "name": "Alphonse Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 7580,
+          "name": "Gabriel Nau"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 7581,
+          "name": "Ernest Gaillard"
+        },
+        "kinds": "Colleague, Regular",
+        "outgoing": 69,
+        "incoming": 75
+      },
+      {
+        "person": {
+          "id": 7583,
+          "name": "Madeleine Augereau"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 7584,
+          "name": "Th\u00E9r\u00E8se Augereau"
+        },
+        "kinds": "Regular",
+        "outgoing": 8,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 7592,
+          "name": "\u00C9mile Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 9,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 7593,
+          "name": "Rose Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 7594,
+          "name": "Jules Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 3,
+        "incoming": 66
+      },
+      {
+        "person": {
+          "id": 7595,
+          "name": "Odile Augereau"
+        },
+        "kinds": "Regular",
+        "outgoing": 47,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 7596,
+          "name": "Ernest Augereau"
+        },
+        "kinds": "Regular",
+        "outgoing": 24,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 7597,
+          "name": "Firmin Augereau"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 7601,
+          "name": "Augustine Chevalier"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 43
+      },
+      {
+        "person": {
+          "id": 7608,
+          "name": "Georges Frouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 44,
+        "incoming": 62
+      },
+      {
+        "person": {
+          "id": 7644,
+          "name": "Mathilde Billaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 33
+      },
+      {
+        "person": {
+          "id": 7659,
+          "name": "Lucienne Bernard"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 7660,
+          "name": "Albert Bernard"
+        },
+        "kinds": "Regular",
+        "outgoing": 38,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 7661,
+          "name": "Marguerite Billaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 29,
+        "incoming": 32
+      },
+      {
+        "person": {
+          "id": 7668,
+          "name": "Andr\u00E9e Pacaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 61
+      },
+      {
+        "person": {
+          "id": 7683,
+          "name": "Gilbert Thibault"
+        },
+        "kinds": "Colleague",
+        "outgoing": 62,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 7688,
+          "name": "Eug\u00E8ne Brochard"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 62
+      },
+      {
+        "person": {
+          "id": 7690,
+          "name": "Yvette Taillefer"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 66
+      },
+      {
+        "person": {
+          "id": 7692,
+          "name": "Marius M\u00E9nard"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 48
+      },
+      {
+        "person": {
+          "id": 7714,
+          "name": "Ernest Poupin"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 64
+      },
+      {
+        "person": {
+          "id": 7737,
+          "name": "Yvette Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 9,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 7747,
+          "name": "Raymond Texier"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 7778,
+          "name": "Ren\u00E9e H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 36
+      },
+      {
+        "person": {
+          "id": 7780,
+          "name": "Marius Bouchet"
+        },
+        "kinds": "Regular",
+        "outgoing": 39,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 7783,
+          "name": "Georges Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 7794,
+          "name": "Jacqueline Boinot"
+        },
+        "kinds": "Regular",
+        "outgoing": 17,
+        "incoming": 52
+      }
+    ]
+  },
+  "knowledge": {
+    "secrets": [
+      {
+        "secret": {
+          "kind": "hidden_valuables",
+          "subject": {
+            "id": 3039,
+            "name": "Josette Brochard"
+          },
+          "text": "Josette Brochard a cach\u00E9 ses objets de valeur chez elle"
+        },
+        "learnt": {
+          "since": "1940-06-15T13:00:00",
+          "from": null
+        }
+      },
+      {
+        "secret": {
+          "kind": "hidden_valuables",
+          "subject": {
+            "id": 781,
+            "name": "Firmin Gu\u00E9rin"
+          },
+          "text": "Firmin Gu\u00E9rin a cach\u00E9 ses objets de valeur chez lui"
+        },
+        "learnt": {
+          "since": "1940-06-15T19:30:00",
+          "from": null
+        }
+      },
+      {
+        "secret": {
+          "kind": "hidden_valuables",
+          "subject": {
+            "id": 6882,
+            "name": "Gilbert Reveau"
+          },
+          "text": "Gilbert Reveau a cach\u00E9 ses objets de valeur chez lui"
+        },
+        "learnt": {
+          "since": "1940-06-16T07:00:00",
+          "from": null
+        }
+      },
+      {
+        "secret": {
+          "kind": "hidden_valuables",
+          "subject": {
+            "id": 6636,
+            "name": "Fernand Rabault"
+          },
+          "text": "Fernand Rabault a cach\u00E9 ses objets de valeur chez lui"
+        },
+        "learnt": {
+          "since": "1940-06-16T12:15:00",
+          "from": null
+        }
+      },
+      {
+        "secret": {
+          "kind": "hidden_valuables",
+          "subject": {
+            "id": 5573,
+            "name": "Fran\u00E7ois Poupin"
+          },
+          "text": "Fran\u00E7ois Poupin a cach\u00E9 ses objets de valeur chez lui"
+        },
+        "learnt": {
+          "since": "1940-06-16T13:00:00",
+          "from": null
+        }
+      }
+    ],
+    "news": [
+      {
+        "key": "paris_taken",
+        "text": "Les Allemands sont entr\u00E9s dans Paris",
+        "learnt": {
+          "at": "1940-06-15T12:30:00",
+          "how": "Radio",
+          "from": null
+        },
+        "reaction": {
+          "option": {
+            "key": "gather",
+            "name": "Se r\u00E9unir pour d\u00E9cider quoi faire",
+            "base": 0,
+            "axes": {
+              "fervour": 0.5,
+              "loyalty": 0.3,
+              "risk": 0.2,
+              "discretion": -0.3
+            },
+            "traits": {
+              "talkative": 1,
+              "communist": 1,
+              "gaullist": 1,
+              "union_railwayman": 1,
+              "republican": 0.5,
+              "veteran_1418": 0.5,
+              "secretive": -0.5,
+              "petainist": -0.5
+            },
+            "profiles": {
+              "early_resistant": 1,
+              "patriot_notable": 0.5
+            },
+            "goods": {},
+            "errand": null
+          },
+          "at": "1940-06-15T12:30:00",
+          "scores": [
+            {
+              "item1": {
+                "key": "hide_valuables",
+                "name": "Cacher ses objets de valeur dans la maison",
+                "base": 0,
+                "axes": {
+                  "greed": 0.4,
+                  "discretion": 0.2,
+                  "risk": -0.2
+                },
+                "traits": {
+                  "greedy": 1,
+                  "black_marketeer": 1,
+                  "craven": 0.5,
+                  "in_debt": -0.5,
+                  "jewish": 0.5
+                },
+                "profiles": {
+                  "opportunist": 1
+                },
+                "goods": {
+                  "cash": {
+                    "per": 1000,
+                    "weight": 0.5,
+                    "max": 3
+                  },
+                  "jewellery": {
+                    "per": 1,
+                    "weight": 0.25,
+                    "max": 6
+                  },
+                  "gold": {
+                    "per": 2,
+                    "weight": 0.3,
+                    "max": 5
+                  }
+                },
+                "errand": {
+                  "activity": "hide_valuables",
+                  "hours": 1,
+                  "place": "home",
+                  "goods": [
+                    "cash",
+                    "jewellery",
+                    "gold"
+                  ]
+                }
+              },
+              "item2": 0.3908811528856495
+            },
+            {
+              "item1": {
+                "key": "bury_valuables",
+                "name": "Enterrer ses objets de valeur dans un lopin",
+                "base": -2,
+                "axes": {
+                  "fervour": 0.8,
+                  "risk": 0.4,
+                  "discretion": 0.3
+                },
+                "traits": {
+                  "jewish": 2.5,
+                  "escaped_pow": 2,
+                  "spanish_republican": 2,
+                  "alsatian_refugee": 1,
+                  "communist": 1,
+                  "sto_refractory": 1,
+                  "homosexual": 0.5,
+                  "craven": -1
+                },
+                "profiles": {
+                  "early_resistant": 1,
+                  "ftp_communist": 1
+                },
+                "goods": {},
+                "errand": {
+                  "activity": "bury_valuables",
+                  "hours": 2,
+                  "place": "plot",
+                  "goods": [
+                    "cash",
+                    "jewellery",
+                    "gold"
+                  ]
+                }
+              },
+              "item2": -0.325259230977079
+            },
+            {
+              "item1": {
+                "key": "gather",
+                "name": "Se r\u00E9unir pour d\u00E9cider quoi faire",
+                "base": 0,
+                "axes": {
+                  "fervour": 0.5,
+                  "loyalty": 0.3,
+                  "risk": 0.2,
+                  "discretion": -0.3
+                },
+                "traits": {
+                  "talkative": 1,
+                  "communist": 1,
+                  "gaullist": 1,
+                  "union_railwayman": 1,
+                  "republican": 0.5,
+                  "veteran_1418": 0.5,
+                  "secretive": -0.5,
+                  "petainist": -0.5
+                },
+                "profiles": {
+                  "early_resistant": 1,
+                  "patriot_notable": 0.5
+                },
+                "goods": {},
+                "errand": null
+              },
+              "item2": 1.5603919813035154
+            },
+            {
+              "item1": {
+                "key": "nothing",
+                "name": "Ne rien faire",
+                "base": 1.5,
+                "axes": {
+                  "fervour": -0.4,
+                  "risk": -0.2
+                },
+                "traits": {
+                  "apolitical": 1,
+                  "petainist": 1,
+                  "collaborationist": 2,
+                  "pacifist": 0.5,
+                  "fragile": 0.3,
+                  "stubborn": 0.3
+                },
+                "profiles": {
+                  "sincere_petainist": 1,
+                  "collaborationist": 1.5,
+                  "milicien": 1
+                },
+                "goods": {},
+                "errand": null
+              },
+              "item2": 0.5872873873787952
+            }
+          ]
+        }
+      }
+    ],
+    "heardPlan": null
+  },
+  "secrets": [],
+  "meetings": [
+    {
+      "leader": {
+        "id": 3050,
+        "name": "Raymond Moreau"
+      },
+      "start": "1940-06-17T00:00:00",
+      "end": "1940-06-17T02:30:00",
+      "ownOpinion": {
+        "key": "wait",
+        "name": "Attendre et voir venir, ne rien risquer",
+        "polarity": -1,
+        "base": 1,
+        "axes": {
+          "fervour": -0.3,
+          "risk": -0.4
+        },
+        "traits": {
+          "craven": 1,
+          "young_children": 0.7,
+          "pow_relative": 0.5,
+          "patient": 0.3
+        },
+        "profiles": {},
+        "posts": {},
+        "radio": 0
+      },
+      "speeches": [
+        {
+          "at": "1940-06-17T00:00:00",
+          "person": 3050,
+          "stance": {
+            "key": "wait",
+            "name": "Attendre et voir venir, ne rien risquer",
+            "polarity": -1,
+            "base": 1,
+            "axes": {
+              "fervour": -0.3,
+              "risk": -0.4
+            },
+            "traits": {
+              "craven": 1,
+              "young_children": 0.7,
+              "pow_relative": 0.5,
+              "patient": 0.3
+            },
+            "profiles": {},
+            "posts": {},
+            "radio": 0
+          },
+          "proposes": true,
+          "overexposed": true
+        }
+      ],
+      "quarrels": [],
+      "reveals": [],
+      "clans": null,
+      "adopted": null,
+      "word": null
+    }
+  ],
+  "history": {
+    "hourlySamples": [
+      {
+        "time": "1940-06-17T00:00:00",
+        "position": {
+          "x": 919.7,
+          "y": 275.9
+        },
+        "what": {
+          "activity": "meeting",
+          "venue": "meeting",
+          "moving": false,
+          "public": false,
+          "curfewBreach": false
+        },
+        "activity": "En r\u00E9union : que faire ?",
+        "walking": false,
+        "resting": false,
+        "talkingWith": null,
+        "mealHost": null
+      }
+    ],
+    "chats": [],
+    "visits": []
+  }
+}

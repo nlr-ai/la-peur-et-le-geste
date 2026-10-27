@@ -7,7 +7,7 @@ RUNTIME = RACINE / ".agents-runtime" / "atelier"
 EQUIPE = {
     "sarn-vieux-sang": ("Sarn — Historien", "Retrouver les decisions et les essais precedents."),
     "bren-racine-grise": ("Bren — Analyste du code", "Identifier les causes et les vrais points d'appel."),
-    "ygga-main-de-pierre": ("Ygga — Developpeuse", "Produire une modification et un essai reproductible."),
+    "ygga-main-de-pierre": ("Ygga — Développeuse", "Produire une modification et un essai reproductible."),
     "toll-oeil-noir": ("Toll — Testeur", "Verifier les resultats bruts et contredire les conclusions fragiles."),
     "wenna-la-nommeuse": ("Wenna — Documentaliste", "Rendre le resultat et sa prochaine etape comprehensibles."),
     "nicolas-lester-reynolds": ("Nicolas — Responsable du projet", "Choisir le resultat utile et les criteres de livraison."),
@@ -50,19 +50,25 @@ def dossier(numero="90312"):
     }
 
 
-def dernier():
+def historique():
     base = RUNTIME / "90312"
     fichiers = sorted(base.glob("*/demande.json"), key=lambda p: p.stat().st_mtime, reverse=True)
-    if not fichiers:
-        return None
-    chemin = fichiers[0].parent
-    resultat = chemin / "resultat.json"
-    if resultat.exists():
-        retour = lire_json(resultat)
-    else:
-        retour = {"statut": "sans_resultat_final", "demande": lire_json(fichiers[0]),
-                  "conclusion": "Essai en cours ou interrompu ; aucune mesure validee."}
-    return {**retour, "dossier_essai": str(chemin)}
+    retours = []
+    for fichier in fichiers[:20]:
+        chemin = fichier.parent
+        resultat = chemin / "resultat.json"
+        if resultat.exists():
+            retour = lire_json(resultat)
+        else:
+            retour = {"statut": "sans_resultat_final", "demande": lire_json(fichier),
+                      "conclusion": "Essai en cours ou interrompu ; aucune mesure validee."}
+        retours.append({**retour, "dossier_essai": str(chemin)})
+    return retours
+
+
+def dernier():
+    essais = historique()
+    return essais[0] if essais else None
 
 
 def consignes(qui, contexte_id=None):
@@ -84,4 +90,3 @@ def consignes(qui, contexte_id=None):
         lignes.append("Dernier essai : " + resultat["statut"] + "; " + resultat["dossier_essai"])
         lignes.append("Conclusion technique : " + resultat["conclusion"])
     return "\n".join(lignes)
-

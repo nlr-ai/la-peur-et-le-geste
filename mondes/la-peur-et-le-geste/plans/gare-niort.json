@@ -1,0 +1,204 @@
+{
+  "nom": "Gare de Niort",
+  "viewBox": "0 0 1000 480",
+  "fonds": [],
+  "mur": "",
+  "guet": [],
+  "decor": [
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L490.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L780.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L210.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M780.0,152.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,312.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,312.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    }
+  ],
+  "etiquettes": [],
+  "salles": [
+    {
+      "id": "gare-niort",
+      "nom": "Hall",
+      "forme": {
+        "r": [
+          80,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        148.5
+      ],
+      "lignes": [
+        "Hall"
+      ],
+      "cle": true,
+      "quoi": "Hall — Gare de Niort.",
+      "motifs": [
+        "Hall, Gare de Niort"
+      ],
+      "alias": []
+    },
+    {
+      "id": "gare-niort-piece-2",
+      "nom": "Guichet",
+      "forme": {
+        "r": [
+          360,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        148.5
+      ],
+      "lignes": [
+        "Guichet"
+      ],
+      "cle": true,
+      "quoi": "Guichet — Gare de Niort.",
+      "motifs": [
+        "Guichet, Gare de Niort"
+      ],
+      "alias": []
+    },
+    {
+      "id": "gare-niort-piece-3",
+      "nom": "Salle d’attente",
+      "forme": {
+        "r": [
+          640,
+          90,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        148.5
+      ],
+      "lignes": [
+        "Salle d’attente"
+      ],
+      "cle": true,
+      "quoi": "Salle d’attente — Gare de Niort.",
+      "motifs": [
+        "Salle d’attente, Gare de Niort"
+      ],
+      "alias": []
+    },
+    {
+      "id": "gare-niort-piece-4",
+      "nom": "Quai",
+      "forme": {
+        "r": [
+          80,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        308.5
+      ],
+      "lignes": [
+        "Quai"
+      ],
+      "cle": true,
+      "quoi": "Quai — Gare de Niort.",
+      "motifs": [
+        "Quai, Gare de Niort"
+      ],
+      "alias": []
+    },
+    {
+      "id": "gare-niort-piece-5",
+      "nom": "Bagagerie",
+      "forme": {
+        "r": [
+          360,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        308.5
+      ],
+      "lignes": [
+        "Bagagerie"
+      ],
+      "cle": true,
+      "quoi": "Bagagerie — Gare de Niort.",
+      "motifs": [
+        "Bagagerie, Gare de Niort"
+      ],
+      "alias": []
+    },
+    {
+      "id": "gare-niort-piece-6",
+      "nom": "Bureau de gare",
+      "forme": {
+        "r": [
+          640,
+          250,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        308.5
+      ],
+      "lignes": [
+        "Bureau de gare"
+      ],
+      "cle": true,
+      "quoi": "Bureau de gare — Gare de Niort.",
+      "motifs": [
+        "Bureau de gare, Gare de Niort"
+      ],
+      "alias": []
+    }
+  ],
+  "_": "Plan de fiction canonique. Disposition schématique ; aucun relevé historique revendiqué."
+}

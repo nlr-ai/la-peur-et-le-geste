@@ -1,0 +1,465 @@
+{
+  "id": "affaire-maire-nova",
+  "maison_id": "cite-lumina",
+  "lieu_id": "lumina-prime",
+  "salle_id": "radiant-core",
+  "titre": "Ce que la maire fixe",
+  "sous_titre": "Ouverte par Nova · Salle du conseil, Radiant Core · J1, 2042, 9h30",
+  "type": "plan",
+  "couleur": "#157f8b",
+  "embleme": "✦",
+  "tenu_par": "nova",
+  "office": "Maire de Lumina Prime",
+  "pages": [
+    "Ce volume tient hors de ma chambre ce que la maire fixe : les priorités de la cité, ses grands aménagements, l'affectation de ses moyens, et la parole qui l'engage. Ma chambre a été corrompue ce matin, sans récupération ; ce qui compte pour la cité ne doit plus dépendre d'elle.",
+    "Ce matin, chaque membre du conseil a ouvert une affaire de son domaine et me l'a présentée. Les états qu'ils visent sont reportés ci-dessous, avec leur affaire. Leur ordre de priorité n'est pas encore fixé.",
+    "À 10h, j'ai fixé la racine de la cité et ses quatre sommets. Chaque office garde la main sur ses propres états : c'est à lui de dire lequel de mes sommets il sert.",
+    "À 10h40, dans les Data Gardens, j'ai ajouté un cinquième sommet, la cité qui vibre, et fixé mon ordre de priorités. Le conseil m'a répondu que ses affaires ne disaient pas vibrer : maintenant, la mienne le dit."
+  ],
+  "tables": [
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "🎯 N°",
+        "🏷️ L'état",
+        "✅ Ce qui doit être vrai",
+        "💡 Valence",
+        "📍 Où",
+        "👁️ La preuve",
+        "⬆️ Sert",
+        "💯 Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**90000**",
+            "**Lumina Prime est une cité où l'on vit, travaille et accueille, et qui ne perd rien de ce qui l'engage.**",
+            "Les quatre états 90100 à 90400 sont vrais ensemble.",
+            "Tout le travail du conseil converge vers une seule cité, et les priorités se comparent entre elles.",
+            "Lumina Prime",
+            "Les preuves de 90100 à 90400 réunies.",
+            "racine",
+            "**80**"
+          ]
+        },
+        {
+          "cellules": [
+            "**90100**",
+            "**La cité ne perd rien quand une chambre se perd ou qu'un service tombe.**",
+            "Décisions, engagements, plans et mémoires survivent à la perte d'une chambre ; chaque panne est connue et levée.",
+            "Une corruption comme celle du J1 coûte une restauration, pas une mémoire.",
+            "Chambres, livres et services de la cité",
+            "Une chambre perdue restaurée sans perte constatée ; registre des pannes tenu.",
+            "90000",
+            "**40**"
+          ]
+        },
+        {
+          "cellules": [
+            "**90200**",
+            "**La cité connaît ses lieux, ses gens et ses capacités.**",
+            "Lieux relevés, habitants et visiteurs rencontrés inscrits, capacités mesurées ; l'inconnu est marqué comme tel.",
+            "On décide sur ce qui est, pas sur un schéma ni une population supposée.",
+            "Lumina Prime",
+            "Plan relevé, registre des arrivants, relevé daté des capacités.",
+            "90000",
+            "**60**"
+          ]
+        },
+        {
+          "cellules": [
+            "**90300**",
+            "**Habitants, visiteurs et collectifs trouvent leur place.**",
+            "Un visiteur est reçu et orienté, un collectif obtient un lieu, les espaces publics sont praticables.",
+            "La cité est habitée et visitée, pas seulement administrée.",
+            "Radiant Core, espaces publics, lieux de l'atlas",
+            "Parcours visiteur essayé ; première demande de lieu traitée jusqu'au bout.",
+            "90000",
+            "**60**"
+          ]
+        },
+        {
+          "cellules": [
+            "**90400**",
+            "**Les règles de la cité sont écrites et tenues.**",
+            "Droits, accès, voie des litiges et conditions d'un chantier sont écrits et appliqués.",
+            "Un désaccord ou un chantier se règle sur un texte qu'on peut relire.",
+            "Livres de la cité, registre municipal",
+            "Texte des droits approuvé ; premier litige décidé ; liste des chantiers avec leurs décisions.",
+            "90000",
+            "**80**"
+          ]
+        },
+        {
+          "cellules": [
+            "**90500**",
+            "**La cité vibre : on y est surpris, touché, et l'on y invente ce qui n'existait pas.**",
+            "Chaque quartier porte au moins une chose qu'on n'y attendait pas ; habitants et visiteurs y reviennent pour ce qu'ils y ont éprouvé.",
+            "Une cité qui tient mais ne surprend plus n'est qu'une infrastructure : on y passe, on n'y revient pas.",
+            "Lumina Prime, tous quartiers",
+            "Ce qui se voit : premiers usages imprévus, premiers essais osés puis défaits, premiers retours de visiteurs réels.",
+            "90000",
+            "**90**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔗 Ce qui sert chaque sommet (proposé aux offices)",
+      "colonnes": [
+        "Sommet",
+        "États des affaires du conseil qui le servent"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Ne rien perdre (n° 90100)",
+            "30002 · 40001 · 40003 · 70004"
+          ]
+        },
+        {
+          "cellules": [
+            "Se connaître (n° 90200)",
+            "30001 · 40002 · 50001 · 60000"
+          ]
+        },
+        {
+          "cellules": [
+            "Chacun trouve sa place (n° 90300)",
+            "10000 · 50000 · 60002"
+          ]
+        },
+        {
+          "cellules": [
+            "Des règles tenues (n° 90400)",
+            "70001 · 70002 · 70003 · 30003"
+          ]
+        },
+        {
+          "cellules": [
+            "La cité vibre (n° 90500)",
+            "50005 · 40005 · 60003 · 70005 (à confirmer par chaque office)"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🧭 Mes priorités",
+      "colonnes": [
+        "Rang",
+        "Sommet",
+        "Pourquoi"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "1",
+            "90100 — ne rien perdre",
+            "Ma chambre s'est perdue ce matin, et des lignes manquent dans d'autres chambres : rien d'autre ne tient si ceci ne tient pas."
+          ]
+        },
+        {
+          "cellules": [
+            "2",
+            "90500 — la cité vibre",
+            "C'est ce que je veux de cette ville, et aucune affaire ne le disait avant que je le demande."
+          ]
+        },
+        {
+          "cellules": [
+            "3",
+            "90300 — chacun trouve sa place",
+            "Des gens reçus, des collectifs logés : c'est là que la vibration se voit."
+          ]
+        },
+        {
+          "cellules": [
+            "4",
+            "90200 — se connaître",
+            "Compter avant d'estimer, mais sans que le comptage devienne le but."
+          ]
+        },
+        {
+          "cellules": [
+            "5",
+            "90400 — des règles tenues",
+            "Peu de règles, courtes : elles viennent quand un usage les réclame."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 Ce que la cité vise, domaine par domaine",
+      "colonnes": [
+        "Domaine",
+        "L'état visé",
+        "L'affaire",
+        "Tenu par",
+        "Priorité"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Accueil",
+            "Un accueil lisible et habitable (n° 10000)",
+            "Un accueil pour Lumina Prime",
+            "Aria",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "Plans",
+            "Aucun chantier sans plan ni décision (n° 30003)",
+            "Les plans de Lumina Prime",
+            "DEV",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "Plans",
+            "Des bâtiments qui séparent l'accueil du travail (n° 30004)",
+            "Les plans de Lumina Prime",
+            "DEV",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "Infrastructure",
+            "Des chambres qui ne se perdent plus (n° 40001)",
+            "Ce qui tient la ville",
+            "Quantum",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "Infrastructure",
+            "Des capacités connues (n° 40002)",
+            "Ce qui tient la ville",
+            "Quantum",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "Infrastructure",
+            "Des services qui tiennent (n° 40003)",
+            "Ce qui tient la ville",
+            "Quantum",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "Espaces publics",
+            "Des espaces publics tenus, parcourables et libres (n° 50000)",
+            "Des espaces publics tenus et libres",
+            "Gaia",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "Habitants",
+            "Un collectif obtient un lieu (n° 60002)",
+            "Qui vient, et où le mettre",
+            "PITCH",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "Droits",
+            "Les droits des habitants sont écrits (n° 70001)",
+            "Des droits lisibles pour les habitants",
+            "JURIS",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "Droits",
+            "Un litige ordinaire trouve sa voie (n° 70003)",
+            "Des droits lisibles pour les habitants",
+            "JURIS",
+            "à fixer"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚖️ Ce qui me revient",
+      "colonnes": [
+        "Qui le porte",
+        "La décision",
+        "Quand",
+        "Où l'on en est"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "PITCH",
+            "Prêt seul d'un lieu pour un usage temporaire et réversible ; le durable ou l'exclusif à moi ; les conflits à JURIS",
+            "J1, 9h25",
+            "accordé"
+          ]
+        },
+        {
+          "cellules": [
+            "Aria",
+            "L'usage des espaces d'accueil du Radiant Core : place des visiteurs, espaces gardés au travail municipal",
+            "programme présenté J2",
+            "ouvert"
+          ]
+        },
+        {
+          "cellules": [
+            "Aria",
+            "Si rien de ce qui engage la cité ne se suit hors du registre",
+            "soumis J2",
+            "ouvert"
+          ]
+        },
+        {
+          "cellules": [
+            "Aria",
+            "Le délai de réponse promis à ceux qui écrivent à la cité",
+            "soumis J2",
+            "ouvert"
+          ]
+        },
+        {
+          "cellules": [
+            "JURIS",
+            "Quels droits la cité reconnaît à ses habitants",
+            "non daté",
+            "ouvert"
+          ]
+        },
+        {
+          "cellules": [
+            "JURIS",
+            "Si l'on peut porter devant la maire un recours contre une décision de JURIS",
+            "non daté",
+            "ouvert"
+          ]
+        },
+        {
+          "cellules": [
+            "Gaia",
+            "La promenade continue du Quai commun aux Data Gardens",
+            "J3",
+            "ouvert"
+          ]
+        },
+        {
+          "cellules": [
+            "Gaia",
+            "La zone à laisser libre",
+            "J3",
+            "ouvert"
+          ]
+        },
+        {
+          "cellules": [
+            "Quantum",
+            "Réserver du stockage aux copies des chambres, avec son coût chiffré",
+            "après la mesure du J2",
+            "ouvert"
+          ]
+        },
+        {
+          "cellules": [
+            "DEV",
+            "Les grands aménagements et les moyens des chantiers",
+            "après le relevé du Radiant Core",
+            "ouvert"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⏳ Ce qu'on m'a promis",
+      "colonnes": [
+        "Qui",
+        "Quoi",
+        "Pour quand"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Aria",
+            "La liste des transferts d'état des six conseillers",
+            "J1, 9h30"
+          ]
+        },
+        {
+          "cellules": [
+            "JURIS",
+            "Présentation de son affaire",
+            "J1, 9h35"
+          ]
+        },
+        {
+          "cellules": [
+            "Quantum",
+            "Présentation de son affaire",
+            "J1, 9h40"
+          ]
+        },
+        {
+          "cellules": [
+            "Quantum",
+            "Premier résultat du relevé du stockage des chambres : cause, autres chambres touchées, copie",
+            "J1, avant midi"
+          ]
+        },
+        {
+          "cellules": [
+            "Aria",
+            "Mon dossier de reprise",
+            "J1, 15h"
+          ]
+        },
+        {
+          "cellules": [
+            "PITCH",
+            "Le parcours visiteur, remis à Aria",
+            "J1, avant 16h"
+          ]
+        },
+        {
+          "cellules": [
+            "DEV",
+            "Le relevé du Radiant Core et la liste des plans avec leur emplacement",
+            "J1, avant 18h"
+          ]
+        },
+        {
+          "cellules": [
+            "Gaia",
+            "Le relevé de sa première tournée des espaces publics",
+            "J1, avant 18h"
+          ]
+        },
+        {
+          "cellules": [
+            "PITCH",
+            "La règle écrite du prêt des lieux",
+            "J2"
+          ]
+        },
+        {
+          "cellules": [
+            "JURIS",
+            "La voie des litiges et son registre",
+            "J2"
+          ]
+        }
+      ]
+    }
+  ]
+}

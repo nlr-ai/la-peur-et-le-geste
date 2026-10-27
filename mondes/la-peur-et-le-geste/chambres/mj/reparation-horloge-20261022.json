@@ -1,0 +1,45 @@
+{
+  "avant": {
+    "annee": 1940,
+    "lune": 6,
+    "jour": 18,
+    "minute": 1260
+  },
+  "fronts_avant": {
+    "raymond-moreau": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 18,
+      "minute": 1260
+    },
+    "michel": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 18,
+      "minute": 1260
+    }
+  },
+  "source_flux": {
+    "type": "replique",
+    "locuteur_id": "lucien-frere-de-michel",
+    "texte": "**Je prends Auguste.** Je lui dirai de venir chez nous après le repas, pour discuter de ce qu’on peut faire ensemble. Je te laisse Fernand et Alphonse, puisque tu travailles avec eux, et Augustine : autant que l’invitation vienne de toi, sans faire semblant que vous vous entendez. S’il hésite, je lui demanderai ce qui le retient ; je ne te rapporterai pas un oui à moitié. On se retrouve à la maison avant le repas pour voir qui vient.",
+    "date": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 15,
+      "minute": 753
+    },
+    "duree": 1,
+    "ref": "vmvjifyp7tnw8",
+    "pour": "michel",
+    "delai_s": 18,
+    "heure": "12h33"
+  },
+  "correction": {
+    "annee": 1940,
+    "lune": 6,
+    "jour": 15,
+    "minute": 754
+  },
+  "motif": "Réconciliation demandée par passer/1 : le curseur commun importait à tort la date de Raymond dans le front de Michel. Aucun fait rejoué."
+}

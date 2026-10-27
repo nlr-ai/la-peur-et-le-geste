@@ -1,0 +1,33 @@
+{
+  "id": "ai-universe",
+  "nom": "AI Universe",
+  "annee": 2030,
+  "interface": "bureau",
+  "description": "Un bureau virtuel de huit agents. L'extérieur n'est pas encore créé.",
+  "outside": {
+    "cree": false
+  },
+  "calendrier": {
+    "type": "gregorien",
+    "affichage": "2030"
+  },
+  "depart": {
+    "lieu": "bureau",
+    "siege": "operateur"
+  },
+  "runtime": {
+    "fournisseur": "codex",
+    "concurrence": 2,
+    "timeout_s": 180
+  },
+  "monnaie": null,
+  "titres": [],
+  "unites": {},
+  "canaux": {
+    "messagerie": {
+      "interne": true
+    }
+  },
+  "offices": {},
+  "signes": {}
+}

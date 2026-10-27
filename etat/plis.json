@@ -1369,8 +1369,8 @@
         "lune": 4,
         "jour": 5
       },
-      "etat": "en-route",
-      "main": null
+      "etat": "remis",
+      "main": "otto"
     },
     {
       "id": "pli-releve-villevieille-129-4-4",
@@ -1504,6 +1504,29 @@
       "etat": "en-route",
       "main": null,
       "porte": "A lord Borros Baratheon, sire d'Accalmie.\n\nJe vous ai ecrit une fois, le trentieme jour de la troisieme lune. Rien ne m'est revenu. Je ne vous en fais pas grief : je crois savoir pourquoi.\n\nVous n'avez chez vous aucun de mes oiseaux. On ne repond pas sans monture. Le porteur de cette lettre vous en remet deux, en panier, nes a Peyredragon. Ils sont a vous. Ce que vous en ferez ne me regarde pas ; s'il vous plait un jour de me repondre, vous n'aurez plus a chercher comment.\n\nMa question n'a pas change, et je n'en pose pas d'autre : que vous offre ser Otto Hightower, et qu'aurais-je a offrir de plus ?\n\nJe ne vous promets rien dans cette lettre et je n'y nomme aucun mariage.\n\nRhaenyra"
+    },
+    {
+      "id": "pli-jacaerys-office-129-5-12",
+      "canal": "corbeau",
+      "scelle": true,
+      "porte": "À Jacaerys Targaryen, aux Eyrié. Toute remise promise jusqu’à cinq mille dragons exige le compte exact de la dette et ne prend effet qu’après contresceau de Peyredragon. Qu’il garantisse, qu’il entende et qu’il pardonne selon son texte ; qu’il ne vide pas la cassette de la reine d’un mot. Le porteur de la réponse devra rapporter reçu à Peyredragon.",
+      "de": "rhaenyra",
+      "pour": "jacaerys",
+      "vers": "les-eyrie",
+      "depuis": "peyredragon",
+      "parti_le": {
+        "annee": 129,
+        "lune": 5,
+        "jour": 12,
+        "minute": 723
+      },
+      "attendu_le": {
+        "annee": 129,
+        "lune": 5,
+        "jour": 18
+      },
+      "etat": "en-route",
+      "main": null
     }
   ]
 }

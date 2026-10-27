@@ -121,7 +121,8 @@ def tisser(books, intentions, mains, plans, evenements, personnages=None,
                     for m in MOYEN.findall(col(d, "Moyens")):
                         arc(tete, resoudre_code(m, lid, registres), "coute",
                             "books/actions")
-                    bureau = col(d, "Office")
+                    # La personne explicitement nommée prime sur l'office.
+                    bureau = col(d, "Qui").strip() or col(d, "Office")
                     codes = OFFICE.findall(bureau)
                     for o in codes:
                         arc(tete, resoudre_code(o, lid, registres), "tient",

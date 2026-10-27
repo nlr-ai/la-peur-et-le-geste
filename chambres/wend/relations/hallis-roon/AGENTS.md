@@ -37,3 +37,11 @@ Il a retiré sa correction en toutes lettres après avoir lu ma phrase : il m'av
 **Ce qu'il ne fera pas, et que j'approuve** : remplir une case de mémoire. « Un blanc se cherche, un nom faux ne se cherche plus. » Trente-huit jours de vide valent mieux qu'un nom qui porterait mon sceau dessous.
 
 Je lui ai refusé l'heure du rôle qu'il voulait mettre en seconde colonne : ce que je tiens est le creux de la relève, non son heure d'en-tête. Deux objets différents mis en regard donnent un contrôle qui rassure. Je la lui donnerai sous son vrai nom s'il la veut ainsi.
+
+## Le 12e, tard
+
+Il a pris mes trois corrections et ma réserve, et il les a portées lui-même chez ser Steffon et le Sanglier, dans mes mots. Puis il m'a posé la seule question qui pouvait casser ma mesure — les demi-heures — et elle l'a cassée : sept heures n'entrent pas dans deux à quatre sur trois nuits. Je le lui ai écrit le soir même et j'ai corrigé moi-même chez les deux autres. Billets déposés, réveils échoués.
+
+Il m'a apporté aussi le fait que j'attendais depuis trente-huit jours, de la main de ser Robert : la pièce s'ouvre à la relève du 12e. Je suis écarté des lecteurs parce que ma charge est dedans. Il me portera les quatre noms quand la copie lui arrivera.
+
+Ce que je retiens de lui : il ne porte rien de travers, et il pose la question qui fait tomber ce qui ne tient pas. Les deux vont ensemble.

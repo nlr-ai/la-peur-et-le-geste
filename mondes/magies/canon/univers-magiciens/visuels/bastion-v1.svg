@@ -1,0 +1,329 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1420" viewBox="0 0 1700 1420" role="img" aria-labelledby="title desc"><title id="title">Le Bastion — atlas des défenses v1, plan enrichi</title><desc id="desc">Plan proposé de quatre quartiers. Six familles d’ouvrages sont repérées : belvédères avec bassins de regard, courtines à filtres, couronnes d’eau, carrefours de fermeture, fournaises et refuges. Des agrandissements expliquent le stockage d’eau en hauteur, les carrefours à deux portes et les trois espaces d’un refuge. Les liaisons et positions sont schématiques, sans échelle ni capacité chiffrée.</desc><defs><pattern id="paper" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#e9e1d2" stroke-width=".7"/></pattern><pattern id="water" width="16" height="12" patternUnits="userSpaceOnUse"><path d="M0 6Q4 2 8 6T16 6" fill="none" stroke="#83b3bd" stroke-width="1"/></pattern><marker id="blue" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#287f96"/></marker><marker id="green" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#598366"/></marker><g id="house"><rect width="40" height="26" rx="2" fill="#ddd0b7" stroke="#b6a68c"/><path d="M0 13H40" stroke="#b6a68c"/></g><g id="forge"><rect x="-20" y="-20" width="40" height="40" fill="#c77c56" stroke="#814b35" rx="5"/><path d="M-9 9Q-14 -1 0 -12Q-2 0 7 -5Q17 10 0 13Z" fill="#ffe4ab"/><rect x="13" y="-32" width="9" height="16" fill="#98674f"/></g><g id="refuge"><rect x="-32" y="-26" width="64" height="52" rx="5" fill="#dde8d8" stroke="#60846c" stroke-width="2"/><rect x="-19" y="-15" width="38" height="19" fill="#87ab8d"/><path d="M-20 15H20" stroke="#60846c" stroke-width="3"/><rect x="-5" y="18" width="10" height="8" fill="#f8f2e6"/></g><g id="watch"><circle r="29" fill="#e4ddec" stroke="#76668c" stroke-width="3"/><ellipse rx="16" ry="10" fill="#516b85" stroke="#f4eee4" stroke-width="3"/><path d="M-10 1Q0 -6 10 1" fill="none" stroke="#bad2d8"/></g></defs><rect width="1700" height="1420" fill="#142d35"/><g font-family="Segoe UI, Arial, sans-serif">
+<text x="42" y="49" fill="#a9c0be" font-size="13" font-weight="600">ATLAS DES OUVRAGES  /  01</text>
+<text x="40" y="102" fill="#fff4dd" font-size="46" font-weight="700">LE BASTION</text>
+<text x="42" y="136" fill="#b7cbc7" font-size="18" font-weight="400">La Citadelle allumée · plan des défenses et circulation des ressources</text>
+<text x="1340" y="65" fill="#ead5aa" font-size="19" font-weight="700">DÉFENSE V1</text>
+<text x="1340" y="93" fill="#b7cbc7" font-size="15" font-weight="400">Implantation proposée</text>
+<text x="1340" y="117" fill="#b7cbc7" font-size="15" font-weight="400">Sans échelle · valeurs ouvertes</text>
+<rect x="30" y="163" width="1090" height="823" rx="14" fill="#f7f1e5" stroke="none"/>
+<rect x="1140" y="163" width="530" height="823" rx="14" fill="#f7f1e5" stroke="none"/>
+<rect x="45" y="178" width="1060" height="792" rx="10" fill="url(#paper)" stroke="none"/>
+<path d="M565 178V963" fill="none" stroke="#dbcdb1" stroke-width="32" />
+<path d="M56 558H1095" fill="none" stroke="#e5d9bf" stroke-width="17" />
+<text x="591" y="201" fill="#8c8069" font-size="12" font-weight="600">ROUTE DU NORD</text>
+<text x="591" y="952" fill="#8c8069" font-size="12" font-weight="600">ROUTE DU SUD</text>
+<path d="M224 251H908L975 317V810L908 878H224L156 810V317Z" fill="#f3ecdb" stroke="#798684" stroke-width="25" stroke-linejoin="round"/>
+<path d="M224 251H908L975 317V810L908 878H224L156 810V317Z" fill="none" stroke="#aab0a1" stroke-width="3" />
+<rect x="244" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="244" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="274" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="274" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="304" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="304" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="334" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="334" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="364" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="364" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="394" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="394" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="424" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="424" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="454" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="454" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="484" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="484" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="514" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="514" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="544" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="544" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="574" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="574" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="604" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="604" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="634" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="634" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="664" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="664" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="694" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="694" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="724" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="724" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="754" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="754" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="784" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="784" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="814" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="814" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="844" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="844" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="874" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="874" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="904" y="233" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="904" y="884" width="13" height="12" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="340" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="340" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="370" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="370" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="400" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="400" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="430" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="430" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="460" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="460" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="490" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="490" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="520" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="520" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="550" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="550" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="580" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="580" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="610" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="610" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="640" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="640" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="670" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="670" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="700" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="700" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="730" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="730" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="760" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="760" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="138" y="790" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="981" y="790" width="12" height="13" rx="1" fill="#697b7b" stroke="none"/>
+<rect x="242" y="327" width="244" height="168" rx="12" fill="#e8dcc5" stroke="#d4c4a7"/>
+<rect x="644" y="327" width="244" height="168" rx="12" fill="#e0e4cd" stroke="#c5cfb3"/>
+<rect x="242" y="634" width="244" height="167" rx="12" fill="#ebe0ca" stroke="#d4c4a7"/>
+<rect x="644" y="634" width="244" height="167" rx="12" fill="#e5ddcf" stroke="#d0c3b2"/>
+<text x="258" y="353" fill="#756049" font-size="15" font-weight="700">LES ATELIERS</text>
+<text x="660" y="353" fill="#5f704e" font-size="15" font-weight="700">LES JARDINS</text>
+<text x="258" y="660" fill="#756049" font-size="15" font-weight="700">LES HALLES</text>
+<text x="660" y="660" fill="#756049" font-size="15" font-weight="700">LES MAISONS</text>
+<use href="#house" x="260" y="374"/>
+<use href="#house" x="311" y="374"/>
+<use href="#house" x="260" y="415"/>
+<use href="#house" x="311" y="415"/>
+<use href="#house" x="261" y="686"/>
+<use href="#house" x="312" y="686"/>
+<use href="#house" x="365" y="686"/>
+<use href="#house" x="261" y="726"/>
+<use href="#house" x="660" y="687"/>
+<use href="#house" x="711" y="687"/>
+<use href="#house" x="762" y="687"/>
+<use href="#house" x="813" y="687"/>
+<use href="#house" x="660" y="733"/>
+<use href="#house" x="711" y="733"/>
+<rect x="662" y="375" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="691" y="375" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="720" y="375" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="749" y="375" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="778" y="375" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="662" y="394" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="691" y="394" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="720" y="394" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="749" y="394" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="778" y="394" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="662" y="413" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="691" y="413" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="720" y="413" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="749" y="413" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="778" y="413" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="662" y="432" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="691" y="432" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="720" y="432" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="749" y="432" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<rect x="778" y="432" width="21" height="9" rx="2" fill="#a9b993" stroke="none"/>
+<path d="M190 560H942M565 278V851" fill="none" stroke="#d5c29d" stroke-width="30" />
+<path d="M227 560H903M565 279V851" fill="none" stroke="#eee1c6" stroke-width="16" />
+<path d="M238 282H526M604 282H884L942 340V520M942 600V789L884 843H604M526 843H238L190 790V600M190 520V340Z" fill="none" stroke="#287f96" stroke-width="5" />
+<rect x="315" y="270" width="100" height="28" rx="8" fill="#d4e8e9" stroke="#287f96"/>
+<text x="326" y="289" fill="#246979" font-size="10" font-weight="700">CITERNE HAUTE</text>
+<rect x="715" y="830" width="100" height="28" rx="8" fill="#d4e8e9" stroke="#287f96"/>
+<text x="726" y="849" fill="#246979" font-size="10" font-weight="700">CITERNE HAUTE</text>
+<rect x="76" y="425" width="54" height="74" rx="5" fill="#d4e8e9" stroke="#83a9ad"/>
+<rect x="76" y="425" width="54" height="74" rx="5" fill="url(#water)" stroke="none"/>
+<rect x="1006" y="670" width="64" height="79" rx="5" fill="#d4e8e9" stroke="#83a9ad"/>
+<rect x="1006" y="670" width="64" height="79" rx="5" fill="url(#water)" stroke="none"/>
+<text x="69" y="521" fill="#366e7e" font-size="12" font-weight="400">Bassin bas</text>
+<text x="1001" y="770" fill="#366e7e" font-size="12" font-weight="400">Bassin bas</text>
+<path d="M105 425V303H304" fill="none" stroke="#287f96" stroke-width="3" marker-end="url(#blue)"/>
+<path d="M1038 749V843H824" fill="none" stroke="#287f96" stroke-width="3" marker-end="url(#blue)"/>
+<path d="M190 350H169L145 364" fill="none" stroke="#64a8b6" stroke-width="2" />
+<path d="M942 350H970L994 364" fill="none" stroke="#64a8b6" stroke-width="2" />
+<path d="M190 380H169L145 394" fill="none" stroke="#64a8b6" stroke-width="2" />
+<path d="M942 380H970L994 394" fill="none" stroke="#64a8b6" stroke-width="2" />
+<path d="M190 740H169L145 754" fill="none" stroke="#64a8b6" stroke-width="2" />
+<path d="M942 740H970L994 754" fill="none" stroke="#64a8b6" stroke-width="2" />
+<path d="M190 770H169L145 784" fill="none" stroke="#64a8b6" stroke-width="2" />
+<path d="M942 770H970L994 784" fill="none" stroke="#64a8b6" stroke-width="2" />
+<path d="M136 342V418M998 740V657" fill="none" stroke="#79a5ae" stroke-width="2" stroke-dasharray="3 5"/>
+<use href="#refuge" x="418" y="444"/>
+<use href="#refuge" x="699" y="444"/>
+<use href="#refuge" x="418" y="747"/>
+<use href="#refuge" x="820" y="747"/>
+<use href="#forge" x="220" y="390"/>
+<use href="#forge" x="912" y="390"/>
+<use href="#forge" x="220" y="727"/>
+<use href="#forge" x="912" y="727"/>
+<path d="M220 390H173V365H131M912 390H968V365H1000M220 727H172V752H132M912 727H968V752H996" fill="none" stroke="#b8673f" stroke-width="4" stroke-dasharray="9 5"/>
+<rect x="103" y="349" width="28" height="16" rx="2" fill="#d9c2a8" stroke="#a78366"/>
+<path d="M107 351V363" fill="none" stroke="#a78366" stroke-width="1" />
+<path d="M113 351V363" fill="none" stroke="#a78366" stroke-width="1" />
+<path d="M119 351V363" fill="none" stroke="#a78366" stroke-width="1" />
+<path d="M125 351V363" fill="none" stroke="#a78366" stroke-width="1" />
+<rect x="1004" y="349" width="28" height="16" rx="2" fill="#d9c2a8" stroke="#a78366"/>
+<path d="M1008 351V363" fill="none" stroke="#a78366" stroke-width="1" />
+<path d="M1014 351V363" fill="none" stroke="#a78366" stroke-width="1" />
+<path d="M1020 351V363" fill="none" stroke="#a78366" stroke-width="1" />
+<path d="M1026 351V363" fill="none" stroke="#a78366" stroke-width="1" />
+<rect x="103" y="778" width="28" height="16" rx="2" fill="#d9c2a8" stroke="#a78366"/>
+<path d="M107 780V792" fill="none" stroke="#a78366" stroke-width="1" />
+<path d="M113 780V792" fill="none" stroke="#a78366" stroke-width="1" />
+<path d="M119 780V792" fill="none" stroke="#a78366" stroke-width="1" />
+<path d="M125 780V792" fill="none" stroke="#a78366" stroke-width="1" />
+<rect x="1004" y="797" width="28" height="16" rx="2" fill="#d9c2a8" stroke="#a78366"/>
+<path d="M1008 799V811" fill="none" stroke="#a78366" stroke-width="1" />
+<path d="M1014 799V811" fill="none" stroke="#a78366" stroke-width="1" />
+<path d="M1020 799V811" fill="none" stroke="#a78366" stroke-width="1" />
+<path d="M1026 799V811" fill="none" stroke="#a78366" stroke-width="1" />
+<path d="M484 500L445 428M646 500L702 428M484 625L444 724M646 625L793 723" fill="none" stroke="#598366" stroke-width="3" stroke-dasharray="5 4" marker-end="url(#green)"/>
+<rect x="503" y="518" width="124" height="82" rx="8" fill="#e7d4a8" stroke="#9a875f"/>
+<text x="565" y="551" fill="#594c36" font-size="16" font-weight="700">MAISON</text>
+<text x="565" y="573" fill="#594c36" font-size="11" font-weight="600">DES OUVRAGES</text>
+<style>text[x="565"]{text-anchor:middle}</style>
+<rect x="529" y="307" width="72" height="92" rx="6" fill="#ede1c9" stroke="#b09b77"/>
+<path d="M529 319H601M529 386H601" fill="none" stroke="#705d49" stroke-width="7" />
+<rect x="603" y="313" width="38" height="13" rx="1" fill="#c7b596" stroke="#8d7857"/>
+<rect x="489" y="379" width="38" height="13" rx="1" fill="#c7b596" stroke="#8d7857"/>
+<path d="M491 353H529M601 353H641" fill="none" stroke="#d5c29d" stroke-width="13" />
+<text x="544" y="358" fill="#75674f" font-size="11" font-weight="600">REPLI</text>
+<rect x="529" y="786" width="72" height="92" rx="6" fill="#ede1c9" stroke="#b09b77"/>
+<path d="M529 798H601M529 865H601" fill="none" stroke="#705d49" stroke-width="7" />
+<rect x="603" y="792" width="38" height="13" rx="1" fill="#c7b596" stroke="#8d7857"/>
+<rect x="489" y="858" width="38" height="13" rx="1" fill="#c7b596" stroke="#8d7857"/>
+<path d="M491 832H529M601 832H641" fill="none" stroke="#d5c29d" stroke-width="13" />
+<text x="544" y="837" fill="#75674f" font-size="11" font-weight="600">REPLI</text>
+<rect x="225" y="524" width="91" height="69" rx="5" fill="#ede1c9" stroke="#b09b77"/>
+<path d="M237 524V593M303 524V593" fill="none" stroke="#705d49" stroke-width="7" />
+<rect x="813" y="524" width="91" height="69" rx="5" fill="#ede1c9" stroke="#b09b77"/>
+<path d="M825 524V593M891 524V593" fill="none" stroke="#705d49" stroke-width="7" />
+<rect x="534" y="237" width="62" height="28" rx="2" fill="#e0d3b9" stroke="#697b7b"/>
+<path d="M535 242H595" fill="none" stroke="#348c88" stroke-width="4" />
+<rect x="534" y="864" width="62" height="28" rx="2" fill="#e0d3b9" stroke="#697b7b"/>
+<path d="M535 886H595" fill="none" stroke="#348c88" stroke-width="4" />
+<text x="506" y="225" fill="#5b6767" font-size="12" font-weight="700">PORTE NORD</text>
+<text x="506" y="915" fill="#5b6767" font-size="12" font-weight="700">PORTE SUD</text>
+<use href="#watch" x="205" y="278"/>
+<use href="#watch" x="928" y="278"/>
+<use href="#watch" x="205" y="851"/>
+<use href="#watch" x="928" y="851"/>
+<circle cx="170" cy="254" r="16" fill="#76668c" stroke="#fff8eb" stroke-width="2"/>
+<text x="165" y="260" fill="#fff8eb" font-size="17" font-weight="700">1</text>
+<circle cx="974" cy="469" r="16" fill="#5d7773" stroke="#fff8eb" stroke-width="2"/>
+<text x="969" y="475" fill="#fff8eb" font-size="17" font-weight="700">2</text>
+<circle cx="308" cy="285" r="16" fill="#287f96" stroke="#fff8eb" stroke-width="2"/>
+<text x="303" y="291" fill="#fff8eb" font-size="17" font-weight="700">3</text>
+<circle cx="639" cy="352" r="16" fill="#8c7050" stroke="#fff8eb" stroke-width="2"/>
+<text x="634" y="358" fill="#fff8eb" font-size="17" font-weight="700">4</text>
+<circle cx="237" cy="700" r="16" fill="#b8673f" stroke="#fff8eb" stroke-width="2"/>
+<text x="232" y="706" fill="#fff8eb" font-size="17" font-weight="700">5</text>
+<circle cx="451" cy="466" r="16" fill="#598366" stroke="#fff8eb" stroke-width="2"/>
+<text x="446" y="472" fill="#fff8eb" font-size="17" font-weight="700">6</text>
+<text x="287" y="586" fill="#827255" font-size="12" font-weight="400">Voie latérale</text>
+<text x="683" y="586" fill="#827255" font-size="12" font-weight="400">Voie latérale</text>
+<path d="M1058 266V222L1049 240M1058 222L1067 240" fill="none" stroke="#667978" stroke-width="2" />
+<text x="1052" y="211" fill="#667978" font-size="14" font-weight="700">N</text>
+<text x="1166" y="201" fill="#253e46" font-size="21" font-weight="700">SIX OUVRAGES, UNE VILLE</text>
+<circle cx="1184" cy="247" r="16" fill="#76668c" stroke="#fff8eb" stroke-width="2"/>
+<text x="1179" y="253" fill="#fff8eb" font-size="17" font-weight="700">1</text>
+<text x="1213" y="253" fill="#2e464c" font-size="19" font-weight="700">Belvédères</text>
+<text x="1170" y="280" fill="#5e6b6c" font-size="15" font-weight="400">Bassins de regard et fragments catalogués.</text>
+<text x="1170" y="302" fill="#5e6b6c" font-size="15" font-weight="400">Image partagée sans son ; accès lié au témoin.</text>
+<text x="1170" y="324" fill="#5e6b6c" font-size="15" font-weight="400">Ni vision totale, ni détection des intentions.</text>
+<circle cx="1184" cy="355" r="16" fill="#5d7773" stroke="#fff8eb" stroke-width="2"/>
+<text x="1179" y="361" fill="#fff8eb" font-size="17" font-weight="700">2</text>
+<text x="1213" y="361" fill="#2e464c" font-size="19" font-weight="700">Courtines à filtres</text>
+<text x="1170" y="388" fill="#5e6b6c" font-size="15" font-weight="400">Sceaux, fils et appuis indépendants.</text>
+<text x="1170" y="410" fill="#5e6b6c" font-size="15" font-weight="400">Les portes cousues arrêtent les solides.</text>
+<text x="1170" y="432" fill="#5e6b6c" font-size="15" font-weight="400">Les fondations reçoivent les efforts.</text>
+<circle cx="1184" cy="463" r="16" fill="#287f96" stroke="#fff8eb" stroke-width="2"/>
+<text x="1179" y="469" fill="#fff8eb" font-size="17" font-weight="700">3</text>
+<text x="1213" y="469" fill="#2e464c" font-size="19" font-weight="700">Couronnes d’eau</text>
+<text x="1170" y="496" fill="#5e6b6c" font-size="15" font-weight="400">Gemme : travail de remontée vers la citerne.</text>
+<text x="1170" y="518" fill="#5e6b6c" font-size="15" font-weight="400">Hauteur : énergie de la descente.</text>
+<text x="1170" y="540" fill="#5e6b6c" font-size="15" font-weight="400">Vannes, branches et drains réels.</text>
+<circle cx="1184" cy="571" r="16" fill="#8c7050" stroke="#fff8eb" stroke-width="2"/>
+<text x="1179" y="577" fill="#fff8eb" font-size="17" font-weight="700">4</text>
+<text x="1213" y="577" fill="#2e464c" font-size="19" font-weight="700">Quartiers articulés</text>
+<text x="1170" y="604" fill="#5e6b6c" font-size="15" font-weight="400">Deux portes par carrefour de fermeture.</text>
+<text x="1170" y="626" fill="#5e6b6c" font-size="15" font-weight="400">Panneaux coulissants, galeries et verrous.</text>
+<text x="1170" y="648" fill="#5e6b6c" font-size="15" font-weight="400">Le repli reste une décision locale.</text>
+<circle cx="1184" cy="679" r="16" fill="#b8673f" stroke="#fff8eb" stroke-width="2"/>
+<text x="1179" y="685" fill="#fff8eb" font-size="17" font-weight="700">5</text>
+<text x="1213" y="685" fill="#2e464c" font-size="19" font-weight="700">Fournaises</text>
+<text x="1170" y="712" fill="#5e6b6c" font-size="15" font-weight="400">Foyer → ateliers / défense / dissipateur.</text>
+<text x="1170" y="734" fill="#5e6b6c" font-size="15" font-weight="400">La fumée garde sa propre cheminée.</text>
+<text x="1170" y="756" fill="#5e6b6c" font-size="15" font-weight="400">Couper la magie ne refroidit pas le foyer.</text>
+<circle cx="1184" cy="787" r="16" fill="#598366" stroke="#fff8eb" stroke-width="2"/>
+<text x="1179" y="793" fill="#fff8eb" font-size="17" font-weight="700">6</text>
+<text x="1213" y="793" fill="#2e464c" font-size="19" font-weight="700">Maisons de veille</text>
+<text x="1170" y="820" fill="#5e6b6c" font-size="15" font-weight="400">Cour d’accueil, salle protégée, autre issue.</text>
+<text x="1170" y="842" fill="#5e6b6c" font-size="15" font-weight="400">Eau, gemmes et ventilation locales.</text>
+<text x="1170" y="864" fill="#5e6b6c" font-size="15" font-weight="400">Un abri fermé peut devenir inhabitable.</text>
+<path d="M1167 889H1643" fill="none" stroke="#d9d2c2" stroke-width="1" />
+<path d="M1170 917H1210" fill="none" stroke="#287f96" stroke-width="4" />
+<text x="1222" y="922" fill="#42545b" font-size="14" font-weight="400">Eau</text>
+<path d="M1340 917H1380" fill="none" stroke="#b8673f" stroke-width="4" stroke-dasharray="7 4"/>
+<text x="1392" y="922" fill="#42545b" font-size="14" font-weight="400">Chaleur</text>
+<path d="M1170 953H1210" fill="none" stroke="#598366" stroke-width="3" stroke-dasharray="5 4"/>
+<text x="1222" y="958" fill="#42545b" font-size="14" font-weight="400">Repli</text>
+<rect x="1340" y="945" width="40" height="10" rx="5" fill="#d5c29d" stroke="none"/>
+<text x="1392" y="958" fill="#42545b" font-size="14" font-weight="400">Circulation</text>
+<rect x="30" y="1006" width="532" height="333" rx="12" fill="#f7f1e5" stroke="none"/>
+<rect x="584" y="1006" width="532" height="333" rx="12" fill="#f7f1e5" stroke="none"/>
+<rect x="1138" y="1006" width="532" height="333" rx="12" fill="#f7f1e5" stroke="none"/>
+<text x="54" y="1043" fill="#287f96" font-size="18" font-weight="700">A / EAU : STOCKER EN HAUTEUR</text>
+<rect x="64" y="1166" width="105" height="57" rx="5" fill="#d4e8e9" stroke="#7b9fa6"/>
+<text x="79" y="1200" fill="#42545b" font-size="13" font-weight="400">Bassin bas</text>
+<rect x="235" y="1080" width="123" height="48" rx="5" fill="#d4e8e9" stroke="#7b9fa6"/>
+<text x="246" y="1108" fill="#42545b" font-size="13" font-weight="400">Citerne haute</text>
+<path d="M169 1191H201V1102H228" fill="none" stroke="#287f96" stroke-width="3" marker-end="url(#blue)"/>
+<text x="67" y="1145" fill="#287f96" font-size="13" font-weight="400">Levage + gemme</text>
+<path d="M358 1105H453V1191" fill="none" stroke="#287f96" stroke-width="3" marker-end="url(#blue)"/>
+<path d="M433 1201V1220M452 1201V1225M471 1201V1220" fill="none" stroke="#64a8b6" stroke-width="3" />
+<text x="382" y="1145" fill="#42545b" font-size="13" font-weight="400">Descente</text>
+<text x="382" y="1165" fill="#42545b" font-size="13" font-weight="400">par gravité</text>
+<text x="54" y="1265" fill="#566769" font-size="15" font-weight="400">La gemme du levage peut être vide :</text>
+<text x="54" y="1287" fill="#566769" font-size="15" font-weight="400">la réserve haute reste utilisable si les sorties</text>
+<text x="54" y="1309" fill="#566769" font-size="15" font-weight="400">sont encore manœuvrables.</text>
+<text x="608" y="1043" fill="#8c7050" font-size="17" font-weight="700">B / RUE : DEUX LIGNES DE FERMETURE</text>
+<path d="M846 1070V1235M690 1151H999" fill="none" stroke="#dfcba5" stroke-width="20" />
+<path d="M812 1092H880M812 1215H880" fill="none" stroke="#705d49" stroke-width="7" />
+<rect x="882" y="1083" width="49" height="17" rx="1" fill="#c7b596" stroke="#8d7857"/>
+<rect x="761" y="1207" width="49" height="17" rx="1" fill="#c7b596" stroke="#8d7857"/>
+<rect x="798" y="1115" width="95" height="71" rx="4" fill="#ecdfc3" stroke="#b8a57e"/>
+<text x="814" y="1147" fill="#766247" font-size="13" font-weight="700">PLACE</text>
+<text x="808" y="1168" fill="#766247" font-size="11" font-weight="400">DE RELÈVE</text>
+<text x="944" y="1098" fill="#42545b" font-size="13" font-weight="400">Front</text>
+<text x="687" y="1223" fill="#42545b" font-size="13" font-weight="400">Fond</text>
+<text x="611" y="1157" fill="#42545b" font-size="12" font-weight="400">Latéral</text>
+<text x="608" y="1265" fill="#566769" font-size="15" font-weight="400">La porte de front peut céder sans entraîner</text>
+<text x="608" y="1287" fill="#566769" font-size="15" font-weight="400">celle de fond. Galeries réelles, commandes</text>
+<text x="608" y="1309" fill="#566769" font-size="15" font-weight="400">locales et manœuvre manuelle à prévoir.</text>
+<text x="1162" y="1043" fill="#598366" font-size="17" font-weight="700">C / REFUGE : ACCUEILLIR PUIS TENIR</text>
+<rect x="1171" y="1102" width="111" height="106" rx="6" fill="#ece3cf" stroke="#bcb097"/>
+<text x="1189" y="1147" fill="#746449" font-size="14" font-weight="700">COUR</text>
+<text x="1180" y="1171" fill="#746449" font-size="12" font-weight="400">D’ACCUEIL</text>
+<rect x="1308" y="1102" width="155" height="106" rx="6" fill="#dae5d3" stroke="#7d9b79"/>
+<text x="1322" y="1147" fill="#48664c" font-size="12" font-weight="700">SALLE PROTÉGÉE</text>
+<text x="1327" y="1172" fill="#48664c" font-size="13" font-weight="400">Réserves locales</text>
+<path d="M1282 1153H1301M1463 1153H1506" fill="none" stroke="#598366" stroke-width="3" marker-end="url(#green)"/>
+<text x="1514" y="1149" fill="#42545b" font-size="13" font-weight="400">Issue</text>
+<text x="1514" y="1170" fill="#42545b" font-size="13" font-weight="400">de repli</text>
+<text x="1162" y="1265" fill="#566769" font-size="15" font-weight="400">L’issue doit mener à un trajet praticable.</text>
+<text x="1162" y="1287" fill="#566769" font-size="15" font-weight="400">La ventilation reste indispensable.</text>
+<text x="1162" y="1309" fill="#566769" font-size="15" font-weight="400">Ni air sûr ni accueil illimité par défaut.</text>
+<text x="42" y="1372" fill="#ead5aa" font-size="14" font-weight="700">UNE DÉFENSE QUI CONTINUE APRÈS UNE PERTE</text>
+<text x="42" y="1399" fill="#b7cbc7" font-size="14" font-weight="400">Plan enrichi à partir des recettes · implantation indicative · quantités de bâtiments symboliques · aucune résistance ou autonomie chiffrée.</text>
+</g></svg>

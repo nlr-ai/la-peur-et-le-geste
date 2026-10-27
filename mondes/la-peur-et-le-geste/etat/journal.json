@@ -1,0 +1,338 @@
+{
+  "maison_joueur_id": null,
+  "personnage_joueur_id": "raymond-moreau",
+  "scenes": [
+    {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 17
+      },
+      "lieu_id": "maison-moreau",
+      "participants": [
+        "raymond-moreau",
+        "solange-joubert",
+        "emile-guillon",
+        "jacques-augereau",
+        "maurice-schneider",
+        "ernest-gaillard"
+      ],
+      "resume": "Écouter à plusieurs, comparer les sources et transmettre en précisant la station et l’heure.",
+      "choix_fait": "Écouter à plusieurs, comparer les sources et transmettre en précisant la station et l’heure."
+    },
+    {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 17
+      },
+      "lieu_id": "maison-moreau",
+      "participants": [
+        "raymond-moreau",
+        "jacques-augereau",
+        "ernest-gaillard",
+        "josette-moreau"
+      ],
+      "resume": "Distinguer citations et commentaires, conserver les feuilles sans les prêter ; Josette accepte de chercher une voie de renseignement sur les prisonniers.",
+      "choix_fait": "Distinguer citations et commentaires, conserver les feuilles sans les prêter ; Josette accepte de chercher une voie de renseignement sur les prisonniers."
+    },
+    {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 15,
+        "minute": 751
+      },
+      "lieu_id": "hotel-voyageurs",
+      "participants": [
+        "michel",
+        "lucien-frere-de-michel"
+      ],
+      "resume": "Michel répond aux cinq questions de Lucien. Recherche de personnes fiables pour agir ; Lucien propose de commencer au comptoir du café. Aucun interlocuteur encore abordé.",
+      "choix_fait": "Rencontrer à Niort des personnes sur qui compter et chercher avec elles un premier moyen concret de ne pas subir l’avancée allemande ; commencer par une prise de contact au café des Voyageurs."
+    },
+    {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 15,
+        "minute": 1215
+      },
+      "lieu_id": "maison-sauzeau",
+      "participants": [
+        "michel",
+        "lucien-frere-de-michel",
+        "fernand-moreau",
+        "alphonse-nau",
+        "auguste-barreau"
+      ],
+      "resume": "Réunion après le repas. Fernand, Alphonse et Auguste ont accepté de discuter. Augustine absente, identité encore non précisée. Michel peut exposer ce qu’il veut faire ; aucune décision collective prise.",
+      "choix_fait": "Invitations exécutées selon la décision du joueur ; discussion à ouvrir."
+    },
+    {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 16,
+        "minute": 480
+      },
+      "joueur_id": "michel",
+      "lieu_id": "maison-sauzeau",
+      "salle_id": "maison-sauzeau",
+      "participants": [
+        "michel",
+        "lucien-frere-de-michel"
+      ],
+      "resume": "16 juin, 8 heures, au Bosquet. Lucien remet un billet sans information sensible pour commencer le système promis. Michel choisit où le conserver. Aucune cache ni transmission réalisée. Les recherches des quatre PNJ sont dues aujourd’hui ; Fernand donnera sa réponse avant le repas du soir.",
+      "choix_fait": "Ellipse demandée vers demain ; aucune décision nouvelle de Michel."
+    },
+    {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 16,
+        "minute": 540
+      },
+      "joueur_id": "michel",
+      "lieu_id": "negoce-materiaux-niort",
+      "salle_id": "negoce-materiaux-niort",
+      "participants": [
+        "michel",
+        "lucien-frere-de-michel",
+        "marchand-materiaux-niort"
+      ],
+      "resume": "Au comptoir à 9 heures, le marchand demande usage, dimensions et toiture pour chiffrer. Michel conserve ce choix ; aucun achat ou stock garanti. Lucien apporte le croquis. Autres recherches du jour non résolues, aucune échéance horaire franchie.",
+      "choix_fait": "Passer : trajet déjà décidé ; arrêt avant le choix des dimensions et toute dépense."
+    },
+    {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 16,
+        "minute": 571
+      },
+      "joueur_id": "michel",
+      "lieu_id": "maison-sauzeau",
+      "salle_id": "maison-sauzeau",
+      "participants": [
+        "michel",
+        "lucien-frere-de-michel"
+      ],
+      "resume": "Retour au jardin du Bosquet avec un premier lot acheté : quatre planches de récupération d’un mètre, six petits moellons, cinq kilos de ciment en sac et un paquet de 250 grammes de pointes. Pièce fermée de trois mètres sur trois, hauteur intérieure de 2,20 m, toit à une pente, construction par étapes. Lot payé 36 francs sur les 684 francs du foyer ; solde narratif 648 francs. Matériaux rapportés sur les deux bicyclettes poussées à pied, puis déposés au jardin ; ciment gardé au sec dans la maison. Ni livraison promise, ni bâtiment achevé, ni outillage acquis.",
+      "choix_fait": "Pièce fermée par étapes ; dimensions et premier achat fixés sur intervention du joueur.",
+      "correction_ref": "vmvjmj0dy6zkj"
+    },
+    {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 16,
+        "minute": 1216
+      },
+      "joueur_id": "michel",
+      "lieu_id": "maison-sauzeau",
+      "salle_id": "maison-sauzeau",
+      "participants": [
+        "michel",
+        "fernand-moreau",
+        "alphonse-nau",
+        "auguste-barreau"
+      ],
+      "resume": "Réunion du 16 juin à 20h15 au Bosquet. Michel a trois copies intégrales de son carnet, encore en sa possession. Fernand a rendu sa réponse avant le repas : aucun autre lieu confirmé ce soir. Auguste apporte un billet neutre pour l’essai promis et demande comment Michel souhaite procéder. Rapports des recherches postales et de contact restent à jouer ; aucun témoignage ou bulletin transféré par anticipation. Lucien suit sa scène aux Voyageurs ; aucun retour présumé.",
+      "choix_fait": "Trois copies et passage à la réunion demandés par Michel ; aucune distribution ni utilisation décidée à sa place."
+    }
+  ],
+  "scene_courante": {
+    "date": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1236
+    },
+    "joueur_id": "michel",
+    "lieu_id": "maison-sauzeau",
+    "salle_id": "maison-sauzeau",
+    "participants": [
+      "michel",
+      "fernand-moreau",
+      "auguste-barreau"
+    ],
+    "resume": "Au Bosquet, Michel explique oralement les grandes lignes du carnet avec traduction : entreprise/organisation, équipes/groupes, chantiers/affaires, enseigne/entreprise de couverture, clous/argent, cotes/renseignements, remise/planque, comptoir/boîte aux lettres, outils/armes, pointes/munitions. Le chantier réel du jardin sert de motif aux réunions. Première lecture expliquée, sans maîtrise complète ni connaissance automatique de tout le répertoire. Fernand propose de tenir les comptes ; Alphonse distingue les renseignements entendus des faits constatés. Les copies restent à Michel. Le billet neutre est toujours sur la table ; aucun essai de transmission exécuté. Michel propose le recrutement sous couvert de construction et annonce sonder la mairie demain. Fernand distingue travail et engagement ; Auguste demande quel interlocuteur Michel envisage. Démarche encore à venir. Michel annonce vouloir demander une recommandation au secrétaire du commissariat, puis demande accès à argent, armes et munitions dans le vocabulaire du carnet. Fernand propose de réserver 20 F, Auguste d’apporter 10 F. Aucun argent remis ; pas d’armes ni de munitions proposées, aucun fournisseur confirmé. Auguste demande à quel usage Michel destine cet armement. Alphonse est déjà parti.",
+    "choix_fait": "Trois copies et passage à la réunion demandés par Michel ; aucune distribution ni utilisation décidée à sa place."
+  },
+  "scenes_par_joueur": {
+    "raymond-moreau": {
+      "lieu_id": "maison-moreau",
+      "salle_id": "maison-moreau",
+      "participants": [
+        "raymond-moreau",
+        "josette-moreau",
+        "jacques-augereau",
+        "emile-guillon",
+        "ernest-gaillard"
+      ],
+      "resume": "Fin de la troisième réunion. La radio vient d’être allumée ; aucune émission identifiée. La posture est reportée au lendemain, le revolver non acquis et la copie demandée à Ernest différée."
+    },
+    "michel": {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 16,
+        "minute": 1236
+      },
+      "joueur_id": "michel",
+      "lieu_id": "maison-sauzeau",
+      "salle_id": "maison-sauzeau",
+      "participants": [
+        "michel",
+        "fernand-moreau",
+        "auguste-barreau"
+      ],
+      "resume": "Au Bosquet, Michel explique oralement les grandes lignes du carnet avec traduction : entreprise/organisation, équipes/groupes, chantiers/affaires, enseigne/entreprise de couverture, clous/argent, cotes/renseignements, remise/planque, comptoir/boîte aux lettres, outils/armes, pointes/munitions. Le chantier réel du jardin sert de motif aux réunions. Première lecture expliquée, sans maîtrise complète ni connaissance automatique de tout le répertoire. Fernand propose de tenir les comptes ; Alphonse distingue les renseignements entendus des faits constatés. Les copies restent à Michel. Le billet neutre est toujours sur la table ; aucun essai de transmission exécuté. Alphonse annonce son retour chez lui, sans prochain rendez-vous convenu ; départ consigné sous vmvjn9ho3lrqs. Michel propose le recrutement sous couvert de construction et annonce sonder la mairie demain. Fernand distingue travail et engagement ; Auguste demande quel interlocuteur Michel envisage. Démarche encore à venir. Michel annonce vouloir demander une recommandation au secrétaire du commissariat, puis demande accès à argent, armes et munitions dans le vocabulaire du carnet. Fernand propose de réserver 20 F, Auguste d’apporter 10 F. Aucun argent remis ; pas d’armes ni de munitions proposées, aucun fournisseur confirmé. Auguste demande à quel usage Michel destine cet armement. Alphonse est déjà parti.",
+      "choix_fait": "Trois copies et passage à la réunion demandés par Michel ; aucune distribution ni utilisation décidée à sa place."
+    },
+    "lucien-frere-de-michel": {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 16,
+        "minute": 775
+      },
+      "joueur_id": "lucien-frere-de-michel",
+      "lieu_id": "maison-sauzeau",
+      "salle_id": "maison-sauzeau",
+      "participants": [
+        "lucien-frere-de-michel",
+        "michel"
+      ],
+      "resume": "Notes du bulletin de 12 h 30 remises à Michel occupé à copier son carnet. Source et limites indiquées ; aide proposée pour les planches. Aucune réponse du PJ ni matériau consommé. Comparaison avec Auguste non réalisée."
+    },
+    "auguste-barreau": {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 16,
+        "minute": 1217
+      },
+      "joueur_id": "auguste-barreau",
+      "lieu_id": "maison-sauzeau",
+      "salle_id": "maison-sauzeau",
+      "participants": [
+        "auguste-barreau",
+        "michel",
+        "fernand-moreau",
+        "alphonse-nau"
+      ],
+      "resume": "Compte rendu déjà rendu, recherches non rejouées. Cache et procédure demandées à Michel, prochain rendez-vous à préciser. Billet laissé sur la table ; aucun essai, départ ou rendez-vous acquis. Attente de la réponse du siège humain."
+    },
+    "fernand-moreau": {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 16,
+        "minute": 1223
+      },
+      "joueur_id": "fernand-moreau",
+      "lieu_id": "maison-sauzeau",
+      "salle_id": "maison-sauzeau",
+      "participants": [
+        "fernand-moreau",
+        "michel",
+        "auguste-barreau",
+        "alphonse-nau"
+      ],
+      "resume": "Fernand propose de servir de destinataire. Auguste expose les limites du billet neutre : aucun nom, mais dépôt observable. Cache, procédure et prochain rendez-vous non convenus ; essai non exécuté, départ non joué."
+    },
+    "alphonse-nau": {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 16,
+        "minute": 1234
+      },
+      "joueur_id": "alphonse-nau",
+      "lieu_id": "niort",
+      "salle_id": "niort",
+      "participants": [
+        "alphonse-nau"
+      ],
+      "resume": "Alphonse a quitté le Bosquet à pied pour rentrer après les nouvelles déjà établies. Prochain rendez-vous non fixé, aucun carnet emporté. Retour au domicile non encore résolu ; aucun témoin ni résultat nouveau de Camille."
+    },
+    "francois-texier": {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 16,
+        "minute": 1140
+      },
+      "joueur_id": "francois-texier",
+      "lieu_id": "prefecture",
+      "salle_id": "prefecture",
+      "participants": [
+        "francois-texier",
+        "henri-delmas"
+      ],
+      "resume": "Delmas assure le suivi. Tournée à pied rapportée : demande municipale non remise, dépôts au commissariat et à la brigade sans récépissé signé ni lecture des responsables confirmée. Aucun retour de fond à 19 heures ; voie urgente par porteur au bureau du préfet."
+    },
+    "michel-ecalle": {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 16,
+        "minute": 1110
+      },
+      "joueur_id": "michel-ecalle",
+      "lieu_id": "niort",
+      "salle_id": "niort",
+      "participants": [
+        "michel-ecalle"
+      ],
+      "resume": "Mode de retour précisé avant départ : réponse conservée à son nom par Lucie Mercier au secrétariat, remise lors d’un prochain passage sans rendez-vous fixé ni porteur promis. Aucun retour reçu avant le repas ; note seule déposée, aucune décision municipale nouvelle."
+    },
+    "jules-coutant": {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 16,
+        "minute": 1200
+      },
+      "joueur_id": "jules-coutant",
+      "lieu_id": "maison-arret",
+      "salle_id": "maison-arret",
+      "participants": [
+        "jules-coutant"
+      ],
+      "resume": "Consigne d’enregistrement et de signalement transmise au personnel. Service ordinaire poursuivi jusqu’à 20 heures ; aucune nouvelle demande ni incident signalé à Coutant dans cette période, aucune démarche extérieure. Nuit non résolue."
+    },
+    "yves-barreau": {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 16,
+        "minute": 1200
+      },
+      "joueur_id": "yves-barreau",
+      "lieu_id": "niort",
+      "salle_id": "niort",
+      "participants": [
+        "yves-barreau"
+      ],
+      "resume": "Vérification complémentaire limitée : aucune place supplémentaire prête confirmée, inspection étendue différée pour maintenir les soins. Consigne de signalement transmise. Jusqu’à 20 heures, aucune nouvelle admission ni difficulté imposant une réorganisation signalée ; aucun renfort sollicité."
+    },
+    "aime-gaborit": {
+      "date": {
+        "annee": 1940,
+        "lune": 6,
+        "jour": 16,
+        "minute": 1140
+      },
+      "joueur_id": "aime-gaborit",
+      "lieu_id": "niort",
+      "salle_id": "niort",
+      "participants": [
+        "aime-gaborit"
+      ],
+      "resume": "Réponse préfectorale prête : aucune demande en attente recensée dans les éléments accessibles repris, constat limité. Dates de dépôt/remise/fin de lecture précisées. Envoi non réalisé : aucun porteur compatible avec le service ou autre voie confirmée. Papier conservé à la brigade."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "revision": 1,
+  "nodes": [
+    {
+      "id": "5699405b-f430-4025-a4b2-4a351362b851",
+      "icon": "action-watch_trains",
+      "x": 96,
+      "y": 72,
+      "label": "",
+      "typedExpanded": true
+    },
+    {
+      "id": "8e9b24a4-081d-4e5d-92a7-e8d99947b361",
+      "icon": "action-induct",
+      "x": 96,
+      "y": 264,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "prerequis",
+      "typedExpanded": true
+    },
+    {
+      "id": "d750354f-f55a-4aa2-81a8-6516760becac",
+      "icon": "metier-informant",
+      "x": 96,
+      "y": 456,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "83b605b6-7ebf-46a3-aa73-1b1941303159",
+      "icon": "ressource-intel",
+      "x": 96,
+      "y": 648,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "produit",
+      "typedExpanded": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "02c7e89e-2445-4595-90dd-eb1a8a82e42a",
+      "from": "8e9b24a4-081d-4e5d-92a7-e8d99947b361",
+      "to": "5699405b-f430-4025-a4b2-4a351362b851"
+    },
+    {
+      "id": "2db10a57-21ed-4156-953a-ff13fc3b604f",
+      "from": "d750354f-f55a-4aa2-81a8-6516760becac",
+      "to": "5699405b-f430-4025-a4b2-4a351362b851"
+    },
+    {
+      "id": "17a2408f-5449-4762-bb46-4cb03efa09e0",
+      "from": "5699405b-f430-4025-a4b2-4a351362b851",
+      "to": "83b605b6-7ebf-46a3-aa73-1b1941303159"
+    }
+  ]
+}

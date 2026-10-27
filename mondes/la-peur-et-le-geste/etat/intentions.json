@@ -1,0 +1,992 @@
+[
+  {
+    "personnage_id": "emile-guillon",
+    "croyances": [],
+    "ignore": [],
+    "intention": "Faire circuler des nouvelles vérifiées ; rester disponible pour Raymond et le contredire si un geste armé menace les proches. Préserver le travail et la possibilité de dire non.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Voir la fiche personnelle ; aucun accord ou savoir supplémentaire supposé.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 18,
+      "minute": 1260
+    }
+  },
+  {
+    "personnage_id": "jacques-augereau",
+    "croyances": [],
+    "ignore": [],
+    "intention": "Écouter et distinguer annonces et interprétations ; trouver un interlocuteur fiable pour les prisonniers avant de transmettre un nom. Protéger les personnes sans engagement armé présumé.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Voir la fiche personnelle ; aucun accord ou savoir supplémentaire supposé.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 18,
+      "minute": 1260
+    }
+  },
+  {
+    "personnage_id": "ernest-gaillard",
+    "croyances": [],
+    "ignore": [],
+    "intention": "Vérifier les notes avant toute copie, séparer annonces et commentaires et trouver une tâche utile sans engager à la légère ses proches, son camion ou son essence.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Voir la fiche personnelle ; aucun accord ou savoir supplémentaire supposé.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 18,
+      "minute": 1260
+    }
+  },
+  {
+    "personnage_id": "josette-moreau",
+    "croyances": [],
+    "ignore": [],
+    "intention": "Chercher par quelle voie renseigner Jacques sur les prisonniers ; préserver la maison comme lieu où chacun choisit qui entre et peut parler. Participer aux décisions qui exposent le foyer.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Voir la fiche personnelle ; aucun accord ou savoir supplémentaire supposé.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 18,
+      "minute": 1260
+    }
+  },
+  {
+    "personnage_id": "lucien-frere-de-michel",
+    "croyances": [
+      "Michel veut trouver des personnes sur qui compter pour agir, accepte le risque et demande à être contredit si nécessaire.",
+      "Le bulletin entendu annonce Paris occupée, Bordeaux siège du gouvernement et le repli des armées ; la situation locale reste à découvrir.",
+      "Michel propose de réunir Augustine, Auguste, Fernand, Alphonse et Lucien ; Michel dit qu’Augustine ne l’aime pas. Aucun accord des absents connu.",
+      "Michel a fixé la réunion chez eux ce soir. Lucien prend l’invitation d’Auguste et propose que Michel se charge des trois autres.",
+      "Auguste a accepté l’invitation orale transmise cet après-midi ; Michel en a été informé avant le repas. Fernand, Alphonse et Auguste sont présents le soir.",
+      "Michel propose de repérer qui partage leur refus de subir ; il prévoit un contrôle allemand dans huit jours. Délai et écoute radio commune sont ses affirmations, non des faits vérifiés. Auguste accepte une recherche limitée et promet de rendre son résultat demain soir.",
+      "Michel cherche des nouvelles directes des territoires occupés et propose des noms de villes ou de vignobles. Alphonse choisit Tours pour lui-même. Auguste promet de vérifier les destinations postales desservies ; aucune liaison confirmée ce soir.",
+      "Noms d’emprunt choisis oralement à la réunion : Michel = Lyon ; Alphonse = Tours ; Fernand = Poitiers ; Auguste = Angers ; Lucien = Nantes. Connus des cinq présents seulement ; aucun document ni transmission extérieure.",
+      "Répartition proposée pour le 16 juin : Fernand vérifie son foyer comme prochain lieu et donnera réponse à Michel avant le repas ; Alphonse cherche Camille Massé pour une piste de témoignage direct ; Lucien prend une nouvelle écoute radio aux Voyageurs. Auguste conserve sa vérification postale et sa recherche de contact. La tâche de Michel reste à son choix ; aucun lieu de réunion confirmé.",
+      "Michel prend pour demain la préparation d’un système de notes cachées pour conserver les informations ou échanger des lettres. Auguste propose un essai avec un billet sans importance au prochain retour du soir. Aucun dispositif, cache, billet ou trajet établi ; essai non réalisé.",
+      "Michel nomme le lieu de la réunion, chez les Sauzeau, « le Bosquet ». Auguste reprend ce nom. Les cinq présents connaissent la désignation ; aucune transmission aux absents.",
+      "Le 16 juin à 8 heures, a remis à Michel un papier portant « essai du 16 juin » pour son système de notes. Michel n’a pas encore choisi la cache ; écoute au café toujours à faire.",
+      "Michel commence à lui lire la sixième leçon du Carnet du nouvel ouvrier : clous et pointes distincts, outillage de coupe sous-ensemble des outils. Aucun sens codé en clair transmis à ce stade.",
+      "À la demande de Michel, Lucien propose une lecture hypothétique : clous = argent ; outils = armes ; outillage de coupe = armes blanches ; pointes = munitions. Il attend confirmation ou correction. Aucun sens canonique fixé, aucun ordre de recherche ni possession déduit.",
+      "Michel confirme le principe du déchiffrage et enseigne à Lucien les équivalences courantes du carnet depuis docs/traductions-hors-jeu.json. La précision de la source corrige la conjecture précédente : outillage de coupe = arme de chasse ou de défense, pas seulement arme blanche. Apprentissage commencé, non maîtrise complète ; aucune acquisition ni mission armée décidée. Équivalences reçues oralement : {\"Clous\": \"Argent\", \"Outils\": \"Armes\", \"Pointes\": \"Munitions\", \"Outillage de coupe\": \"Arme de chasse ou de défense\", \"Clous en réserve\": \"Argent liquide\", \"Sable\": \"Vivres\", \"Huile de chantier\": \"Essence\", \"Cotes\": \"Renseignements\", \"Porter un bon\": \"Porter un message\", \"Ouvrir un comptoir\": \"Ouvrir une boîte aux lettres\", \"Louer une remise\": \"Ouvrir une planque\", \"Diable d’atelier\": \"Bicyclette\", \"Chariot à bois\": \"Camion ou camionnette\", \"Tube porte-voix\": \"Téléphone\"}",
+      "Michel propose un petit chantier dans le jardin comme alibi. Lucien propose un abri pour les vélos et prépare un croquis ; dimensions et achats restent à fixer. Aucun matériau acquis ni argent engagé.",
+      "A accompagné Michel au négoce avec le croquis sans dimensions ; aucun achat ni prix arrêté.",
+      "Au négoce, projet fixé : pièce fermée de 3 m sur 3 m, hauteur intérieure 2,20 m, toit à une pente, réalisée par étapes. Premier lot vendu et payé 36 francs : quatre planches de récupération d’un mètre, six petits moellons, cinq kilos de ciment en sac et un paquet de 250 grammes de pointes.",
+      "Lot rapporté au Bosquet avec Michel sur les bicyclettes poussées ; solde du foyer après achat : 648 francs.",
+      "Michel lui a demandé son avis sur le carnet ; a expliqué son intérêt pédagogique et sa confusion sur outillage de coupe, sans prétendre maîtriser tout le livre.",
+      "Le 16 juin à 12 h 30, a entendu aux Voyageurs le journal national annonçant l’avance au sud de la Seine, Verdun tombée la veille et le conseil des ministres réuni à Bordeaux. Notes sans confirmation indépendante ; revenu au Bosquet à 12 h 52, transmission à Michel encore à effectuer à sa prochaine rencontre.",
+      "Le 16 juin à 12 h 52, notes du journal national remises à Michel pendant sa copie, avec source et limites dites oralement. Aide proposée pour les planches ; aucune réponse de Michel ni comparaison avec Auguste établie."
+    ],
+    "ignore": [
+      "Qui pourrait être un contact fiable à Niort.",
+      "Les réunions de Raymond."
+    ],
+    "intention": "Rester disponible pour préciser avec Michel l’emploi des planches avant de les travailler ; comparer les notes du bulletin avec Auguste seulement lors de sa venue et à partir de ses résultats effectifs.",
+    "plan": [
+      {
+        "id": "vmvjjlu6ufhnr-lucien-frere-de-michel",
+        "quoi": "Écoute et remise des notes à Michel effectuées le 16 juin ; comparaison avec les nouvelles d’Auguste encore conditionnelle à sa venue et à ses résultats.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de recherche et de déplacement à résoudre selon les obligations."
+        ],
+        "si_bloque": "Accès au café, poste allumé et émission effectivement reçue à vérifier ; pas d’annonce connue d’avance. Rapporter le résultat négatif au lieu de présumer une réussite."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Soutient son envie d’agir ; accepte de lui donner un avis franc.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 775
+    }
+  },
+  {
+    "personnage_id": "auguste-barreau",
+    "croyances": [
+      "Invitation à discuter chez les Sauzeau le 15 juin après le repas, reçue oralement de Michel (Fernand et Alphonse) ou Lucien (Auguste). Réunion ouverte à 20h15 ; aucun engagement collectif pris.",
+      "Michel propose de repérer qui partage leur refus de subir ; il prévoit un contrôle allemand dans huit jours. Délai et écoute radio commune sont ses affirmations, non des faits vérifiés. Auguste accepte une recherche limitée et promet de rendre son résultat demain soir.",
+      "Michel cherche des nouvelles directes des territoires occupés et propose des noms de villes ou de vignobles. Alphonse choisit Tours pour lui-même. Auguste promet de vérifier les destinations postales desservies ; aucune liaison confirmée ce soir.",
+      "Noms d’emprunt choisis oralement à la réunion : Michel = Lyon ; Alphonse = Tours ; Fernand = Poitiers ; Auguste = Angers ; Lucien = Nantes. Connus des cinq présents seulement ; aucun document ni transmission extérieure.",
+      "Répartition proposée pour le 16 juin : Fernand vérifie son foyer comme prochain lieu et donnera réponse à Michel avant le repas ; Alphonse cherche Camille Massé pour une piste de témoignage direct ; Lucien prend une nouvelle écoute radio aux Voyageurs. Auguste conserve sa vérification postale et sa recherche de contact. La tâche de Michel reste à son choix ; aucun lieu de réunion confirmé.",
+      "Michel prend pour demain la préparation d’un système de notes cachées pour conserver les informations ou échanger des lettres. Auguste propose un essai avec un billet sans importance au prochain retour du soir. Aucun dispositif, cache, billet ou trajet établi ; essai non réalisé.",
+      "Michel nomme le lieu de la réunion, chez les Sauzeau, « le Bosquet ». Auguste reprend ce nom. Les cinq présents connaissent la désignation ; aucune transmission aux absents.",
+      "Apporte à la réunion du 16 juin un billet d’essai sans enjeu ; voit trois copies du carnet auprès de Michel, sans en connaître la clé. Attend la manière dont Michel veut organiser l’essai.",
+      "Le 16 juin : recherche postale sans consigne datée obtenue ; Lucienne distingue téléphonie et courrier. Jeanne rencontrée à 16 heures ne fournit aucun témoignage direct daté. Résultats négatifs rapportés au Bosquet le soir à Michel devant Fernand et Alphonse. Billet d’essai présent, mais aucun essai réalisé.",
+      "A précisé que sa recherche négative ne prouve pas l’arrêt du courrier ; a demandé cache, dépôt/reprise et prochain rendez-vous à Michel, devant Fernand et Alphonse. Aucune réponse nouvelle établie ; billet toujours sur la table, essai suspendu.",
+      "Fernand s’est proposé comme destinataire pour l’essai neutre. Auguste a rappelé que le billet ne nomme personne mais que le dépôt peut être observé ; aucune cache ni procédure convenue. Prochain rendez-vous demandé, non fixé ; Fernand souhaite rentrer chez lui ce soir.",
+      "Alphonse rapporte avoir rencontré Camille, qui accepte de chercher sans révéler les noms. Aucun témoin identifié ni témoignage recueilli au retour du 16 juin.",
+      "Au Bosquet, Michel explique oralement les grandes lignes du carnet avec traduction : entreprise/organisation, équipes/groupes, chantiers/affaires, enseigne/entreprise de couverture, clous/argent, cotes/renseignements, remise/planque, comptoir/boîte aux lettres, outils/armes, pointes/munitions. Le chantier réel du jardin sert de motif aux réunions. Première lecture expliquée, sans maîtrise complète ni connaissance automatique de tout le répertoire. Fernand propose de tenir les comptes ; Alphonse distingue les renseignements entendus des faits constatés.",
+      "Michel propose d’utiliser Sauzeau & Sauzeau pour examiner des candidatures sous couvert de construction ; il annonce une démarche à la mairie demain. Aucun interlocuteur nommé, aucune visite accomplie. Fernand distingue consentement au chantier et engagement dans le groupe ; Auguste demande à qui Michel compte parler et comment répondre à de vrais clients.",
+      "Michel annonce vouloir demander une recommandation au secrétaire du commissariat, puis demande accès à argent, armes et munitions dans le vocabulaire du carnet. Fernand propose de réserver 20 F, Auguste d’apporter 10 F. Aucun argent remis ; pas d’armes ni de munitions proposées, aucun fournisseur confirmé. Auguste demande à quel usage Michel destine cet armement. Alphonse est déjà parti."
+    ],
+    "ignore": [],
+    "intention": "Essai suspendu jusqu’aux indications de Michel sur la cache et le dépôt/retrait ; connaître le lieu et l’heure du prochain rendez-vous avant de partir. Ne pas répéter les demandes déjà posées.",
+    "plan": [
+      {
+        "id": "auguste-premier-contact-nouvelles-16juin",
+        "quoi": "Démarches postales et échange avec Jeanne effectués le 16 juin ; compte rendu négatif rendu le soir. Aucun acheminement ni témoignage direct daté confirmé.",
+        "etat": "fait",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps disponible hors obligations professionnelles ; interlocuteur à identifier."
+        ],
+        "si_bloque": "Rapporter à Michel qu’aucun interlocuteur n’a été trouvé ; ne pas inventer une adhésion."
+      },
+      {
+        "id": "vmvjjtwmm4n40-essai",
+        "quoi": "Au retour du 16 juin au soir, proposer à Michel un essai avec billet sans importance si son système est prêt.",
+        "etat": "bloque",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps d’essai ; système à préparer par Michel."
+        ],
+        "si_bloque": "Billet apporté et proposition déjà faite ; attendre la méthode et la cache choisies par Michel, sans répéter la demande ni exécuter à sa place."
+      },
+      {
+        "id": "vmvjnkp1hwzyi-auguste-barreau",
+        "quoi": "Contribution proposée de 10 francs au groupe ; à apporter lors d’une prochaine occasion, non remise ce soir.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Contribution personnelle, aucun prélèvement déjà effectué."
+        ],
+        "si_bloque": "Informer Michel si la somme ne peut être dégagée."
+      },
+      {
+        "id": "auguste-ecoute-tournee",
+        "quoi": "Pendant la tournée du 17 juin, écouter aux portes sans rien demander ; rapporter le soir à Michel et Fernand au plus trois noms avec leurs paroles exactes.",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": []
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Voir les liens exportés ; aucun accord avec les frères présumé.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1236
+    }
+  },
+  {
+    "personnage_id": "fernand-moreau",
+    "croyances": [
+      "Invitation à discuter chez les Sauzeau le 15 juin après le repas, reçue oralement de Michel (Fernand et Alphonse) ou Lucien (Auguste). Réunion ouverte à 20h15 ; aucun engagement collectif pris.",
+      "Michel propose de repérer qui partage leur refus de subir ; il prévoit un contrôle allemand dans huit jours. Délai et écoute radio commune sont ses affirmations, non des faits vérifiés. Auguste accepte une recherche limitée et promet de rendre son résultat demain soir.",
+      "Michel cherche des nouvelles directes des territoires occupés et propose des noms de villes ou de vignobles. Alphonse choisit Tours pour lui-même. Auguste promet de vérifier les destinations postales desservies ; aucune liaison confirmée ce soir.",
+      "Noms d’emprunt choisis oralement à la réunion : Michel = Lyon ; Alphonse = Tours ; Fernand = Poitiers ; Auguste = Angers ; Lucien = Nantes. Connus des cinq présents seulement ; aucun document ni transmission extérieure.",
+      "Répartition proposée pour le 16 juin : Fernand vérifie son foyer comme prochain lieu et donnera réponse à Michel avant le repas ; Alphonse cherche Camille Massé pour une piste de témoignage direct ; Lucien prend une nouvelle écoute radio aux Voyageurs. Auguste conserve sa vérification postale et sa recherche de contact. La tâche de Michel reste à son choix ; aucun lieu de réunion confirmé.",
+      "Michel prend pour demain la préparation d’un système de notes cachées pour conserver les informations ou échanger des lettres. Auguste propose un essai avec un billet sans importance au prochain retour du soir. Aucun dispositif, cache, billet ou trajet établi ; essai non réalisé.",
+      "Michel nomme le lieu de la réunion, chez les Sauzeau, « le Bosquet ». Auguste reprend ce nom. Les cinq présents connaissent la désignation ; aucune transmission aux absents.",
+      "A informé Michel avant le repas que son foyer ne peut pas encore être confirmé ; revient au Bosquet ce soir.",
+      "Au Bosquet le soir du 16 juin, Auguste rapporte n’avoir obtenu ni indication postale datée garantissant un acheminement, ni témoignage direct daté de Jeanne. Ce sont les limites de ses démarches, pas la preuve que tout courrier est interrompu.",
+      "Fernand s’est proposé comme destinataire pour l’essai neutre. Auguste a rappelé que le billet ne nomme personne mais que le dépôt peut être observé ; aucune cache ni procédure convenue. Prochain rendez-vous demandé, non fixé ; Fernand souhaite rentrer chez lui ce soir.",
+      "Alphonse rapporte avoir rencontré Camille, qui accepte de chercher sans révéler les noms. Aucun témoin identifié ni témoignage recueilli au retour du 16 juin.",
+      "Au Bosquet, Michel explique oralement les grandes lignes du carnet avec traduction : entreprise/organisation, équipes/groupes, chantiers/affaires, enseigne/entreprise de couverture, clous/argent, cotes/renseignements, remise/planque, comptoir/boîte aux lettres, outils/armes, pointes/munitions. Le chantier réel du jardin sert de motif aux réunions. Première lecture expliquée, sans maîtrise complète ni connaissance automatique de tout le répertoire. Fernand propose de tenir les comptes ; Alphonse distingue les renseignements entendus des faits constatés.",
+      "Michel propose d’utiliser Sauzeau & Sauzeau pour examiner des candidatures sous couvert de construction ; il annonce une démarche à la mairie demain. Aucun interlocuteur nommé, aucune visite accomplie. Fernand distingue consentement au chantier et engagement dans le groupe ; Auguste demande à qui Michel compte parler et comment répondre à de vrais clients.",
+      "Michel annonce vouloir demander une recommandation au secrétaire du commissariat, puis demande accès à argent, armes et munitions dans le vocabulaire du carnet. Fernand propose de réserver 20 F, Auguste d’apporter 10 F. Aucun argent remis ; pas d’armes ni de munitions proposées, aucun fournisseur confirmé. Auguste demande à quel usage Michel destine cet armement. Alphonse est déjà parti."
+    ],
+    "ignore": [],
+    "intention": "Disponible pour servir de destinataire si Michel précise un essai neutre ; ne pas improviser cache ou trajet. Garder le temps de rentrer ce soir et ne pas engager son foyer.",
+    "plan": [
+      {
+        "id": "vmvjjlu6ufhnr-fernand-moreau",
+        "quoi": "Démarche du 16 juin close sur une absence de confirmation pour ce soir, déjà annoncée à Michel à 18 heures. Aucun accueil ultérieur ni refus définitif convenu.",
+        "etat": "fait",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de recherche et de déplacement à résoudre selon les obligations."
+        ],
+        "si_bloque": "Disponibilité du foyer et accord des personnes concernées ; aucun accueil acquis. Rapporter le résultat négatif au lieu de présumer une réussite.",
+        "resultat": "Réponse négative pour une confirmation ce soir, transmise à Michel à 18h00 ; aucun autre lieu acquis."
+      },
+      {
+        "id": "vmvjnkp1hwzyi-fernand-moreau",
+        "quoi": "Contribution proposée de 20 francs au groupe ; à apporter lors d’une prochaine occasion, non remise ce soir.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Contribution personnelle, aucun prélèvement déjà effectué."
+        ],
+        "si_bloque": "Informer Michel si la somme ne peut être dégagée."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Voir les liens exportés ; aucun accord avec les frères présumé.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1236
+    }
+  },
+  {
+    "personnage_id": "augustine-brochard",
+    "croyances": [],
+    "ignore": [],
+    "intention": "Faire respecter son travail et obtenir des engagements qui seront tenus.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-augustine-brochard",
+        "quoi": "Objectif de simulation créé pour ce passage, non accompli : Chercher à parler à Léontine Barreau, sa collègue, de leurs obligations de travail et d’une éventuelle entraide pratique ; préciser ce que chacune accepterait sans supposer une injustice ni un accord. Échéance : au cours de la journée, avant le soir du 16 juin 1940.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Voir les liens exportés ; aucun accord avec les frères présumé.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 571
+    }
+  },
+  {
+    "personnage_id": "alphonse-nau",
+    "croyances": [
+      "Invitation à discuter chez les Sauzeau le 15 juin après le repas, reçue oralement de Michel (Fernand et Alphonse) ou Lucien (Auguste). Réunion ouverte à 20h15 ; aucun engagement collectif pris.",
+      "Michel propose de repérer qui partage leur refus de subir ; il prévoit un contrôle allemand dans huit jours. Délai et écoute radio commune sont ses affirmations, non des faits vérifiés. Auguste accepte une recherche limitée et promet de rendre son résultat demain soir.",
+      "Michel cherche des nouvelles directes des territoires occupés et propose des noms de villes ou de vignobles. Alphonse choisit Tours pour lui-même. Auguste promet de vérifier les destinations postales desservies ; aucune liaison confirmée ce soir.",
+      "Noms d’emprunt choisis oralement à la réunion : Michel = Lyon ; Alphonse = Tours ; Fernand = Poitiers ; Auguste = Angers ; Lucien = Nantes. Connus des cinq présents seulement ; aucun document ni transmission extérieure.",
+      "Répartition proposée pour le 16 juin : Fernand vérifie son foyer comme prochain lieu et donnera réponse à Michel avant le repas ; Alphonse cherche Camille Massé pour une piste de témoignage direct ; Lucien prend une nouvelle écoute radio aux Voyageurs. Auguste conserve sa vérification postale et sa recherche de contact. La tâche de Michel reste à son choix ; aucun lieu de réunion confirmé.",
+      "Michel prend pour demain la préparation d’un système de notes cachées pour conserver les informations ou échanger des lettres. Auguste propose un essai avec un billet sans importance au prochain retour du soir. Aucun dispositif, cache, billet ou trajet établi ; essai non réalisé.",
+      "Michel nomme le lieu de la réunion, chez les Sauzeau, « le Bosquet ». Auguste reprend ce nom. Les cinq présents connaissent la désignation ; aucune transmission aux absents.",
+      "Au Bosquet le soir du 16 juin, Auguste rapporte n’avoir obtenu ni indication postale datée garantissant un acheminement, ni témoignage direct daté de Jeanne. Ce sont les limites de ses démarches, pas la preuve que tout courrier est interrompu.",
+      "Fernand s’est proposé comme destinataire pour l’essai neutre. Auguste a rappelé que le billet ne nomme personne mais que le dépôt peut être observé ; aucune cache ni procédure convenue. Prochain rendez-vous demandé, non fixé ; Fernand souhaite rentrer chez lui ce soir.",
+      "Camille rencontré le 16 juin à 17 heures : aucun témoin disponible à présenter ; accepte de poser la question et de demander le consentement avant contact. Réponse rapportée ce soir à Michel. Aucune piste nominative ni récit direct obtenu.",
+      "Au Bosquet, Michel explique oralement les grandes lignes du carnet avec traduction : entreprise/organisation, équipes/groupes, chantiers/affaires, enseigne/entreprise de couverture, clous/argent, cotes/renseignements, remise/planque, comptoir/boîte aux lettres, outils/armes, pointes/munitions. Le chantier réel du jardin sert de motif aux réunions. Première lecture expliquée, sans maîtrise complète ni connaissance automatique de tout le répertoire. Fernand propose de tenir les comptes ; Alphonse distingue les renseignements entendus des faits constatés.",
+      "A entendu les explications de Michel sur le carnet et la proposition de comptes de Fernand, ainsi que le compte rendu négatif d’Auguste avec ses sources. Au départ du Bosquet, aucun prochain lieu ni horaire convenu. A laissé les carnets sur place ; aucun résultat nouveau de Camille."
+    ],
+    "ignore": [],
+    "intention": "Rentrer chez lui ; laisser à Camille le temps de poser sa question et transmettre seulement un résultat effectivement reçu. Prochain rendez-vous collectif non fixé.",
+    "plan": [
+      {
+        "id": "vmvjjlu6ufhnr-alphonse-nau",
+        "quoi": "Camille rencontré et réponse rapportée le 16 juin : recherche acceptée, sans témoin ni témoignage obtenu.",
+        "etat": "fait",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de recherche et de déplacement à résoudre selon les obligations."
+        ],
+        "si_bloque": "Disponibilité de Camille et existence d’un témoin à arbitrer ; ne pas inventer un témoin ni une adhésion. Rapporter le résultat négatif au lieu de présumer une réussite."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Voir les liens exportés ; aucun accord avec les frères présumé.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1234
+    }
+  },
+  {
+    "personnage_id": "jacques-chatain",
+    "croyances": [],
+    "ignore": [],
+    "intention": "Être utile à son poste et tenir correctement les demandes qui passent entre ses mains.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-jacques-chatain",
+        "quoi": "Objectif de simulation créé pour ce passage, non accompli : Vérifier les demandes présentes au secrétariat du commissariat et leur destinataire compétent ; relever celles dont une pièce manque, sans divulguer les dossiers. Échéance : avant la fin de l’après-midi du 16 juin 1940.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Voir les liens exportés ; aucun accord avec les frères présumé.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 571
+    }
+  },
+  {
+    "personnage_id": "jeanne-proust",
+    "croyances": [
+      "Auguste a demandé aujourd’hui des nouvelles directes datées ; ne lui a transmis aucun témoignage ni nom de patient."
+    ],
+    "ignore": [],
+    "intention": "Soigner avec les moyens disponibles et préserver la confiance de ses patients.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-jeanne-proust",
+        "quoi": "Objectif de simulation créé pour ce passage, non accompli : Vérifier les demandes de soins réellement adressées à son activité et les moyens accessibles pour y répondre ; organiser une orientation si nécessaire sans présumer de patient ou de pénurie. Échéance : avant le soir du 16 juin 1940.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Voir les liens exportés ; aucun accord avec les frères présumé.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 571
+    }
+  },
+  {
+    "personnage_id": "lucienne-thibault",
+    "croyances": [
+      "Auguste a demandé aujourd’hui des indications postales datées ; lui a précisé ne pas pouvoir confirmer les acheminements depuis son service téléphonique."
+    ],
+    "ignore": [],
+    "intention": "Faire son travail sans se laisser entraîner dans des conversations qui la dépassent.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-lucienne-thibault",
+        "quoi": "Objectif de simulation créé pour ce passage, non accompli : Vérifier auprès de son service les consignes et possibilités de liaison applicables aujourd’hui ; repérer les demandes professionnelles en attente sans écouter ou divulguer le contenu des appels. Échéance : avant la fin de son service du jour, ou faire constater son absence de service du 16 juin 1940.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Voir les liens exportés ; aucun accord avec les frères présumé.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 571
+    }
+  },
+  {
+    "personnage_id": "celine-joubert",
+    "croyances": [],
+    "ignore": [],
+    "intention": "Tenir son commerce et traiter les engagements pris envers elle comme réciproques.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-celine-joubert",
+        "quoi": "Objectif de simulation créé pour ce passage, non accompli : Vérifier les fournitures accessibles et les engagements réellement pris dans son commerce ; préparer les demandes de réapprovisionnement justifiées sans présumer de manque. Échéance : avant le soir du 16 juin 1940.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Voir les liens exportés ; aucun accord avec les frères présumé.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 571
+    }
+  },
+  {
+    "personnage_id": "aime-vallet",
+    "croyances": [],
+    "ignore": [],
+    "intention": "Gagner de la considération au travail et se ménager des appuis.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-aime-vallet",
+        "quoi": "Objectif de simulation créé pour ce passage, non accompli : Chercher à échanger avec son collègue Camille Massé sur une tâche de travail à laquelle il pourrait contribuer pour faire reconnaître son utilité ; ne promettre que ce qu’il peut tenir. Échéance : avant le soir du 16 juin 1940.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Voir les liens exportés ; aucun accord avec les frères présumé.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 571
+    }
+  },
+  {
+    "personnage_id": "francois-texier",
+    "croyances": [
+      "Au 16 juin à 17 heures, collecte engagée au secrétariat et demandes préparées ; aucune remise extérieure ni réponse établie. Aucun cas urgent documenté dans le lot examiné, ce qui ne signifie pas que la ville soit sans besoins.",
+      "16 juin, 19 heures : Delmas rapporte deux dépôts aux services du commissariat et de la brigade sans récépissé signé ; la demande municipale est revenue faute de réceptionnaire trouvé. Aucun retour de fond reçu. Delmas assure le suivi et la transmission physique au bureau du préfet. Lecture des chefs non confirmée."
+    ],
+    "ignore": [],
+    "intention": "Attendre les retours portés par Delmas, faire préciser les urgences et vérifier les attributions avant décision ; suivre la reprise de la remise municipale.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-francois-texier",
+        "quoi": "Collecte et tournée effectuées ; suivre les retours et la remise municipale encore à reprendre, puis examiner les pièces et compétences.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Demander à Delmas la trace des tentatives et distinguer dépôt, lecture et réponse ; ne pas présumer un refus du service."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Aucune relation personnelle ni faveur envers les frères présumée.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1140
+    }
+  },
+  {
+    "personnage_id": "michel-ecalle",
+    "croyances": [
+      "16 juin : Lucie Mercier rencontrée au secrétariat municipal. Aucune pièce présentée ne confirme de délégation particulière pour logement ou secours. Aucun cas individuel exploitable communiqué dans les éléments consultés ; aucune absence générale de besoin démontrée. Note remise à Mercier à 16 h 50 pour présentation au maire ; lecture du maire et référent spécialisé non établis.",
+      "Mercier conservera la réponse à mon nom au secrétariat pour un prochain passage ; aucun envoi ce soir promis. Aucune réponse reçue avant le repas du 16 juin."
+    ],
+    "ignore": [],
+    "intention": "Obtenir par Lucie Mercier la réponse du maire sur une liaison limitée et les pièces de délégation ; ne pas engager de logement ou de secours en attendant.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-michel-ecalle",
+        "quoi": "Consultation municipale et second contact effectués le 16 juin ; résultat limité consigné et proposition remise à Lucie Mercier avant le repas. Pas de mandat particulier établi ni de cas individuel à orienter.",
+        "etat": "fait",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      },
+      {
+        "id": "ecalle-suite-note-municipale",
+        "quoi": "Reprendre contact avec Lucie Mercier pour la réponse du maire, le référent spécialisé et les délégations ; aucune attribution de logement ou de secours sans mandat.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [
+          "autonomie-1940-06-16-michel-ecalle"
+        ],
+        "cout": [
+          "Réponse et pièces municipales"
+        ],
+        "si_bloque": "Garder les questions en suspens ; ne pas transformer une note remise au secrétariat en accord du maire."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Aucune relation personnelle ni faveur envers les frères présumée.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1110
+    }
+  },
+  {
+    "personnage_id": "jules-coutant",
+    "croyances": [
+      "16 juin, contrôle achevé à 17 heures : aucune lacune de service signalée sur les postes et la relève examinés. Aucune demande en attente retrouvée dans les pièces consultées ni démarche non consignée signalée par la réception. Cela ne constitue pas un inventaire des détenus ou des besoins extérieurs.",
+      "Consigne de réception transmise après le contrôle de 17 heures. Aucun nouveau cas ni incident signalé à moi jusqu’à 20 heures le 16 juin ; service ordinaire poursuivi sans démarche extérieure."
+    ],
+    "ignore": [],
+    "intention": "Poursuivre le service ordinaire ; faire consigner les nouvelles demandes et examiner toute difficulté d’identification ou d’autorisation signalée.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-jules-coutant",
+        "quoi": "Service intérieur, relève et demandes de visite ou nouvelles vérifiés le 16 juin, avec reprise à 17 heures. Aucun défaut de service ni demande individuelle signalé dans le périmètre contrôlé ; aucune saisine nécessaire identifiée.",
+        "etat": "fait",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande de visite ou de nouvelles lui est effectivement présentée",
+        "alors": "Faire vérifier identités, pièces et autorité compétente avant toute réponse ; identifier précisément ce qui manque et la voie de vérification disponible.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Aucune relation personnelle ni faveur envers les frères présumée.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1200
+    }
+  },
+  {
+    "personnage_id": "yves-barreau",
+    "croyances": [
+      "16 juin, contrôle de mon service et reprise à 16 heures : aucun manque bloquant les soins examinés ni besoin de relève extérieure constaté. Travail réparti avec le personnel présent. Réserves non inspectées, capacité pour nouvelles admissions et disponibilité de Bouju ou Largeaud non établies.",
+      "16 juin : vérification complémentaire limitée à 16 h 20, aucune place supplémentaire prête confirmée. Inspection étendue différée pour ne pas détourner les agents des soins ; capacité supplémentaire inconnue, pas nécessairement nulle. Aucune nouvelle admission ni difficulté nécessitant une réorganisation signalée jusqu’à 20 heures."
+    ],
+    "ignore": [],
+    "intention": "Poursuivre les soins avec la répartition établie ; apprécier chaque nouvelle urgence et vérifier les moyens requis avant toute modification. Reprendre la vérification de capacité lorsque cela ne gênera pas les soins.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-yves-barreau",
+        "quoi": "Point sur les soins du jour, personnel et moyens utilisables effectué, organisation médicale ajustée et reprise faite à 16 heures. Aucun manque bloquant identifié dans ce périmètre ; aucun renfort sollicité.",
+        "etat": "fait",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      },
+      {
+        "id": "barreau-capacite-complementaire",
+        "quoi": "Compléter l’examen des réserves et des espaces avant de confirmer une capacité supplémentaire d’accueil, lorsque du personnel peut se dégager sans interrompre les soins.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Disponibilité compatible avec les soins en cours"
+        ],
+        "si_bloque": "Garder la capacité pour inconnue ; évaluer chaque admission réelle sans compter sur des ressources non vérifiées."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Un manque ou une fatigue menace effectivement les soins du service",
+        "alors": "Qualifier le besoin et son urgence ; solliciter l’interlocuteur compétent ou la relève de Bouju ou Largeaud si les effectifs sont en cause, sans compter une aide avant réponse.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Aucune relation personnelle ni faveur envers les frères présumée.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1200
+    }
+  },
+  {
+    "personnage_id": "aime-gaborit",
+    "croyances": [
+      "16 juin : contrôle et reprise du service sans signalement en attente justifiant une sortie dans les pièces examinées. Service ordinaire maintenu ; aucun moyen de déplacement lointain confirmé.",
+      "À 18 h 15, lecture de la demande préfectorale déposée à 18 h 05 : état des demandes en attente, ancienneté, urgence, obstacle, service compétent et vérifications. Retour au secrétariat préfectoral ; échéance de 13 h 30 déjà passée à réception. Aucun retour envoyé à 18 h 20.",
+      "À 19 heures le 16 juin : réponse préfectorale prête, aucune demande restant à traiter recensée dans les éléments accessibles repris. Aucun porteur dégagé sans compromettre le service, aucun acheminement existant identifié ni autre liaison confirmée. Réponse conservée, non expédiée."
+    ],
+    "ignore": [],
+    "intention": "Conserver la réponse prête et la transmettre lorsque sera établie une voie compatible avec les obligations de la brigade ; continuer le service ordinaire.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-aime-gaborit",
+        "quoi": "Consignes, disponibilité et signalements examinés le 16 juin ; reprise avant le repas sans motif de sortie identifié. Demande préfectorale reçue ensuite à 18 h 15.",
+        "etat": "fait",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      },
+      {
+        "id": "gaborit-releve-prefectoral",
+        "quoi": "Réponse rédigée le 16 juin à 18 h 40 ; envoi en attente faute de porteur compatible avec le service ou de liaison confirmée. Vérifier la prochaine possibilité réelle de remise au secrétariat préfectoral.",
+        "etat": "bloque",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Temps de rédaction ; porteur ou autre liaison disponible à vérifier"
+        ],
+        "si_bloque": "Conserver la réponse et la trace des tentatives ; aucun retour réputé reçu avant remise effective."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Aucune relation personnelle ni faveur envers les frères présumée.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1140
+    }
+  },
+  {
+    "personnage_id": "francois-moreau",
+    "croyances": [],
+    "ignore": [],
+    "intention": "Maintenir les équipes et le matériel disponibles sans exposer inutilement les hommes.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-francois-moreau",
+        "quoi": "Objectif de simulation créé pour ce passage, non accompli : Vérifier au dépôt la disponibilité des équipes et l’état du matériel utile au service du jour, puis relever les empêchements éventuels sans décider des circulations de trains. Échéance : dans l’après-midi du 16 juin 1940.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Aucune relation personnelle ni faveur envers les frères présumée.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 571
+    }
+  },
+  {
+    "personnage_id": "marius-bonnet",
+    "croyances": [],
+    "ignore": [],
+    "intention": "Tenir sa communauté et préserver ce qu’il considère comme ses devoirs.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-marius-bonnet",
+        "quoi": "Objectif de simulation créé pour ce passage, non accompli : Prendre contact avec une personne de sa communauté qu’il connaît pour rechercher un besoin concret d’aide et voir si une aide volontaire est possible, sans promettre de ressource. Échéance : avant le soir du 16 juin 1940.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Aucune relation personnelle ni faveur envers les frères présumée.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 571
+    }
+  },
+  {
+    "personnage_id": "paul-bigot",
+    "croyances": [],
+    "ignore": [],
+    "intention": "Faire sortir un travail correct et protéger son atelier des engagements imprudents.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-paul-bigot",
+        "quoi": "Objectif de simulation créé pour ce passage, non accompli : Vérifier le travail réellement en attente et les moyens d’impression accessibles à l’atelier ; établir ce qui pourrait être exécuté sans promettre papier, quantité ou délai avant vérification. Échéance : avant le soir du 16 juin 1940.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Aucune relation personnelle ni faveur envers les frères présumée.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 571
+    }
+  },
+  {
+    "personnage_id": "robert-taillefer",
+    "croyances": [],
+    "ignore": [],
+    "intention": "Maintenir la tenue des audiences et la régularité des procédures.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-robert-taillefer",
+        "quoi": "Objectif de simulation créé pour ce passage, non accompli : Faire le point par le greffe sur le calendrier effectif des audiences et les pièces nécessaires à celles dont il a la charge ; repérer les éventuels empêchements sans créer une affaire. Échéance : avant la fin de l’après-midi du 16 juin 1940.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Aucune relation personnelle ni faveur envers les frères présumée.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 571
+    }
+  },
+  {
+    "personnage_id": "charles-herault",
+    "croyances": [],
+    "ignore": [],
+    "intention": "Obtenir des résultats qui consolident sa position au commissariat.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-charles-herault",
+        "quoi": "Objectif de simulation créé pour ce passage, non accompli : Vérifier auprès de son service les signalements effectivement reçus et les moyens disponibles pour les traiter ; établir les priorités relevant du commissariat, même si rien ne nécessite de suite. Échéance : avant la fin de l’après-midi du 16 juin 1940.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      }
+    ],
+    "declencheurs": [],
+    "attitude_joueur": "Aucune relation personnelle ni faveur envers les frères présumée.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 571
+    }
+  },
+  {
+    "personnage_id": "major-greis",
+    "croyances": [],
+    "ignore": [],
+    "intention": "À son arrivée, prévue dans la source le 28 juin 1940 : Installer son autorité et obtenir l’exécution des demandes de son service.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Aucune connaissance des frères établie.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 15,
+      "minute": 750
+    }
+  },
+  {
+    "personnage_id": "gerhard-vogt",
+    "croyances": [],
+    "ignore": [],
+    "intention": "À son arrivée, prévue dans la source le 28 juin 1940 : Obtenir logements et fournitures demandés à son service, avec des comptes qu’il puisse défendre.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Aucune connaissance des frères établie.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 15,
+      "minute": 750
+    }
+  },
+  {
+    "personnage_id": "paul-ritter",
+    "croyances": [],
+    "ignore": [],
+    "intention": "À son arrivée, prévue dans la source le 28 juin 1940 : Faire comprendre les demandes et préserver l’exactitude de ce qu’il transmet.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Aucune connaissance des frères établie.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 15,
+      "minute": 750
+    }
+  },
+  {
+    "personnage_id": "bruno-haas",
+    "croyances": [],
+    "ignore": [],
+    "intention": "À son arrivée, prévue dans la source le 28 juin 1940 : Tenir les contrôles relevant de son détachement et rendre des comptes cohérents.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Aucune connaissance des frères établie.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 15,
+      "minute": 750
+    }
+  },
+  {
+    "personnage_id": "walter-weber",
+    "croyances": [],
+    "ignore": [],
+    "intention": "À son arrivée, prévue dans la source le 28 juin 1940 : Accomplir sa tâche et tenir les exigences de son service à distance de ses scrupules personnels.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Aucune connaissance des frères établie.",
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 15,
+      "minute": 750
+    }
+  },
+  {
+    "personnage_id": "marchand-materiaux-niort",
+    "croyances": [
+      "Deux visiteurs se présentent avec un croquis de petite construction sans dimensions.",
+      "Au négoce, projet fixé : pièce fermée de 3 m sur 3 m, hauteur intérieure 2,20 m, toit à une pente, réalisée par étapes. Premier lot vendu et payé 36 francs : quatre planches de récupération d’un mètre, six petits moellons, cinq kilos de ciment en sac et un paquet de 250 grammes de pointes."
+    ],
+    "ignore": [
+      "Le projet d’alibi et le code des frères."
+    ],
+    "intention": "Servir les prochains clients ; aucune autre commande ni livraison promise aux Sauzeau.",
+    "plan": [
+      {
+        "id": "autonomie-1940-06-16-marchand-materiaux-niort",
+        "quoi": "Objectif de simulation créé pour ce passage, non accompli : après la vente déjà effectuée du premier lot, vérifier les fournitures et conditions de vente ou livraison possibles pour la suite de la pièce fermée de 3 m sur 3. Aucune commande supplémentaire présumée. Échéance : le 16 juin avant tout nouveau devis.",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+        ],
+        "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+      }
+    ],
+    "declencheurs": [],
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 571
+    }
+  },
+  {
+    "personnage_id": "camille-masse",
+    "croyances": [
+      "Alphonse recherche quelqu’un venant d’un endroit occupé, disposé à raconter ses observations directes. Aucun témoin à lui présenter à cet instant."
+    ],
+    "ignore": [
+      "Les réunions, pseudonymes et projets du groupe d’Alphonse."
+    ],
+    "intention": "Poser la question à une connaissance effectivement rencontrée, sans révéler Alphonse, et obtenir un consentement avant de proposer un contact.",
+    "plan": [
+      {
+        "id": "vmvjn5yo58bvo-recherche-camille",
+        "quoi": "Lors de la prochaine occasion compatible avec le travail, rechercher une personne pouvant consentir à un témoignage direct. Projet créé par la conversation, aucun témoin existant supposé.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Disponibilité d’un interlocuteur réellement rencontré et accord de la personne concernée."
+        ],
+        "si_bloque": "Ne promettre aucun rendez-vous ; rendre l’absence de résultat lors du prochain échange avec Alphonse."
+      }
+    ],
+    "declencheurs": [],
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1030
+    }
+  },
+  {
+    "personnage_id": "henri-delmas",
+    "croyances": [
+      "Texier demande une collecte factuelle et un suivi des remises, sans décision de fond sans pièces.",
+      "Tournée achevée : demande municipale conservée ; dépôts oraux au commissariat et à la brigade, sans signature. Rapport rendu à Texier ; aucun retour de fond reçu à 19 heures."
+    ],
+    "ignore": [
+      "Disponibilité personnelle des trois responsables.",
+      "Besoins non encore signalés par leurs services."
+    ],
+    "intention": "Assurer personnellement le suivi des demandes et porter les retours au bureau du préfet ; reprendre la tentative municipale au prochain accès au service.",
+    "plan": [
+      {
+        "id": "delmas-suivi-collecte",
+        "quoi": "Tenir le relevé, vérifier la lecture par les responsables, reprendre la remise municipale à la prochaine ouverture et porter les retours au préfet.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Présence au secrétariat et déplacements à pied"
+        ],
+        "si_bloque": "Consigner une remise impossible sans la qualifier de refus ; ne pas remplacer un retour absent par un dossier supposé."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une pièce signale une urgence",
+        "alors": "Porter la pièce au préfet dans son bureau, en signalant les éléments non vérifiés ; si celui-ci est absent, vérifier où le joindre avant de promettre une transmission.",
+        "une_fois": false
+      }
+    ],
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1140
+    }
+  },
+  {
+    "personnage_id": "lucie-mercier",
+    "croyances": [
+      "Michel Ecalle demande de vérifier ses délégations et propose une liaison municipale limitée.",
+      "Ecalle reste disposé à une tâche précise confiée par un responsable nommé. Le retour sera conservé à son nom au secrétariat, sans acheminement à domicile promis."
+    ],
+    "ignore": [
+      "Délégation particulière autorisant Ecalle à engager un logement ou un secours.",
+      "Demandes qui ne sont pas encore parvenues au secrétariat."
+    ],
+    "intention": "Conserver la note d’Ecalle et la présenter au maire à la prochaine occasion effective ; rechercher le référent logement et entraide ainsi que les pièces de délégation.",
+    "plan": [
+      {
+        "id": "mercier-note-ecalle",
+        "quoi": "Présenter la note du 16 juin au maire et demander les délégations ainsi que le nom du référent compétent ; remise non encore réalisée.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Accès effectif au maire et aux pièces municipales"
+        ],
+        "si_bloque": "Conserver la note et préciser à Ecalle ce qui reste sans réponse, sans garantir rendez-vous ni accord."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une réponse à la note d’Ecalle arrive",
+        "alors": "La conserver à son nom pour remise en personne à son prochain passage ; relever source et heure si réponse orale, sans transformer une ambiguïté en mandat.",
+        "une_fois": false
+      }
+    ],
+    "date_maj": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1018
+    }
+  }
+]

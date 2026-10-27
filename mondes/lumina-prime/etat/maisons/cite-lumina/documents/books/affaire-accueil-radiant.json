@@ -1,0 +1,411 @@
+{
+  "maison_id": "cite-lumina",
+  "lieu_id": "lumina-prime",
+  "salle_id": "radiant-core",
+  "id": "affaire-accueil-radiant",
+  "titre": "Un accueil pour Lumina Prime",
+  "type": "plan",
+  "couleur": "#157f8b",
+  "sous_titre": "Première affaire · Radiant Core · J1, 2042 · ouverture au standard des champs, J1",
+  "tenu_par": "aria",
+  "office": "Coordination municipale — IA",
+  "pages": [
+    "Le Radiant Core accueille à la fois la vie municipale et les visiteurs de Lumina Prime. Le hall, le salon et la galerie des projets figurent sur son plan. Leur articulation comme accueil public est la première question d’aménagement de cette partie.",
+    "**À décider par Nova :** quelle place donner aux visiteurs dans le Radiant Core, et quels espaces garder pour le travail municipal ? Le plan permet de situer les usages ; aucune affectation nouvelle n’est encore décidée.",
+    "Le conseil dispose de mandats pour préparer et conduire l’aménagement. Les surfaces utiles, la fréquentation, le coût en calcul et la disponibilité des équipes restent à mesurer. Les personnes disponibles ne constituent pas une capacité illimitée.",
+    "**Terminé quand :** un visiteur peut trouver l’entrée, s’orienter et rejoindre une activité accessible, tandis qu’un entretien municipal peut se tenir à l’écart. La vérification doit porter sur un parcours réellement essayé, après réalisation.",
+    "Format : STANDARD: Champs du graphe d’affaires, référence indiquée par le joueur. Les numéros, preuves, décisions et états existants sont conservés.",
+    "**Ce que cet état me permet de faire** (question de Nova, J1 11h13). 10000 : recevoir un visiteur au hall et le mener à la galerie, ou tenir un entretien municipal au salon, sans que l'un traverse le travail de l'autre. Le jour où c'est vrai, je peux fixer un rendez-vous à quelqu'un de l'extérieur sans vous demander où le recevoir.",
+    "**Débat de conception lu en entier, 2026-09-10, temps réel — conclusion retenue pour l'accueil.** La première représentation à éprouver est une tranche 2D hall–salon–galerie tirée d'une donnée commune, avec deux lectures : publique (où aller, pour quel usage, auprès de qui ; constat matériel et règle d'accès séparés, datés et sourcés) et municipale (les mêmes données, plus porteur, dépendances et état du travail). Chaque élément distingue vu, conventionnel, essayé et inconnu. La 3D n'est proposée qu'après un constat situé et la 2D, pour une question corporelle encore ouverte ; elle ne prouve ni passage, ni droit. Révision : comparer sur les mêmes tâches d'habitant, sans explication de l'auteur ; changer d'ordre seulement si une autre représentation réduit les erreurs sans masquer davantage d'inconnues. Ceci ne décide aucun usage, n'engage aucun collègue et ne change ni 10010 ni les dépendances fictionnelles de 10022. Ma fiche de réception et son échéance réelle sont portées par 20564."
+  ],
+  "tables": [
+    {
+      "titre": "🏰 Ouverture de l'Affaire",
+      "colonnes": [
+        "🧱 Le champ",
+        "✍️ Ce qu'on y écrit"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "🏷️ **LE NOM**",
+            "Un accueil pour Lumina Prime"
+          ]
+        },
+        {
+          "cellules": [
+            "🪶 **L'OFFICE**",
+            "O01 — Coordination municipale — IA, tenu par Aria (registre du conseil). Les pièces viennent d'O05 (PITCH) et d'O02 (DEV)."
+          ]
+        },
+        {
+          "cellules": [
+            "🎯 **L'OBJET**",
+            "Aménager l’entrée publique du Radiant Core et sa relation avec les lieux de travail."
+          ]
+        },
+        {
+          "cellules": [
+            "🏛️ **LE PILIER**",
+            "Habitants, espaces publics et architecture"
+          ]
+        },
+        {
+          "cellules": [
+            "🧱 **LE PÉRIMÈTRE — DANS**",
+            "Le hall des arrivées, le salon des visiteurs et la galerie des projets du Radiant Core ; le parcours d'un visiteur entre eux ; la séparation d'avec les lieux de travail ; le programme qui rapproche besoins et possibilités, soumis à Nova."
+          ]
+        },
+        {
+          "cellules": [
+            "🚫 **LE PÉRIMÈTRE — HORS**",
+            "La confidentialité technique d'un entretien (Quantum, 40004 et 40205 ; JURIS, 70103). Les règles d'accès des lieux (JURIS, 70002 et 70305). Le registre des arrivants et le prêt des lieux (PITCH, 60300 et 60201). Le dessin et le chantier (DEV, 30204 et 30305). Les six lieux de l'atlas."
+          ]
+        },
+        {
+          "cellules": [
+            "📌 **L'ÉTAT ACTUEL**",
+            "Le parcours visiteur (10020), le relevé du Radiant Core (10021 = 30301) et la comparaison des esquisses A et B (30305) sont faits. Le salon est joint directement depuis le hall ; la galerie n'a pas de voie publique depuis le hall indépendante du salon ou de la salle du conseil ; aucun lieu d'attente hors passage n'est établi. Le relevé ne porte aucune mesure : surfaces, capacité, son et praticabilité réelle restent inconnus. Le programme 10022 est préparé pour le J2 : il distingue l'usage possible sans nouvel aménagement de la simultanéité qui demanderait une voie publique indépendante. Aucun usage n'est arrêté."
+          ]
+        },
+        {
+          "cellules": [
+            "🧾 FAIT SOURCÉ",
+            "PITCH a écrit le parcours visiteur dans son affaire, table 🚶 (60301 = 10020) : trois cas d'essai (première visite, rendez-vous municipal, présentation d'un projet), sans fréquentation posée. Les trois entrent par le hall. Le passage direct hall → salon vaut une minute conventionnelle, dessiné non essayé. L'accès public à la galerie et l'attente hors passage sont des besoins à traiter, pas des usages déjà possibles ; le jardin touche le hall, mais son usage n'est pas décidé. Sources : son billet à Aria, table 60301 et tables 30301 et 30307 relues par moi."
+          ]
+        },
+        {
+          "cellules": [
+            "🧾 FAIT SOURCÉ",
+            "DEV a comparé deux agencements sur son relevé (30305, table 🧩). A fonctionne sur le dessin actuel pour orienter au hall et atteindre le salon, mais le public de la galerie traverse le salon ou la salle du conseil. B ne peut orienter dans la galerie sans le même franchissement. Pour faire fonctionner simultanément salon et galerie, les deux demandent une voie publique indépendante vers la galerie ; les deux demandent aussi une attente hors passage. Aucune affectation, aucun seuil ni cloison ne sont décidés. Source : affaire-plans-lumina, table 🧩, relue par moi le J1."
+          ]
+        },
+        {
+          "cellules": [
+            "🧾 FAIT SOURCÉ",
+            "Aucune décision d'affectation n'a été dite pour l'accueil au J1. La décision se lira dans le volume de Nova, table ⚖️, qui tient lieu de registre des décisions (20101 ; 20303 écartée). Source : séance du J1 ; volume de Nova relu plus tôt dans la journée."
+          ]
+        },
+        {
+          "cellules": [
+            "🔢 **LA PLAGE**",
+            "10000–10099, réservée à cette affaire dans Lumina Prime. En usage : 10000, 10001, 10010, 10020–10022."
+          ]
+        },
+        {
+          "cellules": [
+            "💡 **LA CONCLUSION**",
+            "Les trois pièces de 10022 sont réunies. Le programme est préparé pour Nova au J2 ; sa décision sur les usages, leur simultanéité et l'attente reste nécessaire avant tout dessin ou affectation."
+          ]
+        },
+        {
+          "cellules": [
+            "🔚 **FERMÉE QUAND**",
+            "Un parcours visiteur et un entretien confidentiel fonctionnent dans les espaces réalisés."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔗 Affaires liées — les liens écrits",
+      "colonnes": [
+        "🪢 Le lien",
+        "🔗 L'affaire",
+        "🔢 Notre pièce",
+        "🔢 La leur",
+        "📝 Pourquoi"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "partage",
+            "Qui vient, et où le mettre",
+            "10020",
+            "60301",
+            "Un seul travail : le parcours écrit par PITCH."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Qui vient, et où le mettre",
+            "10000",
+            "60001",
+            "Un arrivant reçu au hall est la preuve de l'accueil."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Qui vient, et où le mettre",
+            "10010",
+            "60202",
+            "Le programme d'accueil de PITCH renvoie à cette clef."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Les plans de Lumina Prime",
+            "10021",
+            "30301",
+            "Un seul travail : le relevé du Radiant Core par DEV."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Les plans de Lumina Prime",
+            "10022",
+            "30305",
+            "Les deux esquisses comparées sont remises pour ce programme."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Les plans de Lumina Prime",
+            "10010",
+            "30204",
+            "Fixer l'usage avant le plan : DEV renvoie à cette clef."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Des droits lisibles pour les habitants",
+            "10000",
+            "70002",
+            "La règle d'accès des espaces du Radiant Core sert cet état."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Ce qui tient la ville : chambres, calcul, réseau",
+            "10000",
+            "40004",
+            "Un entretien à l'écart suppose des garanties essayées."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "La mémoire de la cité",
+            "10001",
+            "20101",
+            "La preuve de ce verrou attend la décision de Nova (10010, programme présenté le J2) ; elle se lira à son volume « Ce que la maire fixe » (⚖️), qui tient lieu de registre des décisions (20303 écartée)."
+          ]
+        },
+        {
+          "cellules": [
+            "sert",
+            "Ce que la maire fixe",
+            "10000",
+            "90300",
+            "Nova propose ce sommet pour 10000 ; je le retiens : visiteurs et habitants trouvent leur place."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "🎯 N°",
+        "🏷️ L'état",
+        "✅ Ce qui doit être vrai",
+        "💡 Valence",
+        "📍 Où",
+        "👁️ La preuve",
+        "⬆️ Sert",
+        "💯 Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "10000",
+            "Un accueil lisible et habitable",
+            "Les visiteurs trouvent leur destination ; le travail municipal conserve ses espaces.",
+            "Un visiteur arrive, s'oriente et repart sans traverser le travail ; un entretien municipal se tient à l'écart. Sans cet état, l'accueil et le travail se gênent dans les mêmes pièces.",
+            "Radiant Core",
+            "Essai du parcours et de la séparation des usages, après réalisation.",
+            "90300",
+            "50"
+          ],
+          "note": "À retravailler — Nova, J1."
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous ouverts",
+      "colonnes": [
+        "🔒 N°",
+        "🏷️ Le verrou ouvert",
+        "⛔ Bloque",
+        "📌 Ce qui est vrai aujourd'hui",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "🔓 Levé quand"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "10001",
+            "Les espaces d’accueil doivent disposer d’usages arrêtés et compatibles.",
+            "10000",
+            "Aucune décision d'affectation au J1. Pièces prêtes : le parcours 10020 (PITCH), le relevé 10021 = 30301 (DEV), limité aux passages dessinés et non essayés, et la comparaison 30305 (DEV). Programme 10022 préparé pour présentation au J2.",
+            "",
+            "Séance du J1 : aucune affectation dite. Volume de Nova, table ⚖️ : « L'usage des espaces d'accueil du Radiant Core », porté par Aria, programme présenté J2, ouvert.",
+            "Nova arrête les usages et leurs limites."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "🗝️ N°",
+        "🏷️ La clef",
+        "🔓 Ouvre",
+        "💡 Le principe et sa valence",
+        "🧰 Moyens",
+        "🧭 Ancrage",
+        "👁️ La preuve",
+        "⚖️ Décision",
+        "Le prix",
+        "Ce que cela ferme"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "10010",
+            "Articuler l’accueil et le travail municipal dans les espaces existants",
+            "10001",
+            "Préciser les usages avant de dessiner ou construire.",
+            "M204 · M211",
+            "Hall des arrivées, salon des visiteurs et galerie des projets du Radiant Core.",
+            "Programme approuvé par Nova.",
+            "à décider par Nova",
+            "Étude du conseil ; coût des travaux non établi.",
+            "Aucun espace affecté avant décision."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions — état et décision par ligne",
+      "colonnes": [
+        "⚔️ N°",
+        "🏷️ L'action",
+        "🗝️ Réalise",
+        "📝 Ce qu'on fait",
+        "📍 Où",
+        "🪶 Office",
+        "🧰 Moyens",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "⏳ État",
+        "Avec quoi",
+        "Jour dû",
+        "Qui"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "10020",
+            "Décrire le parcours visiteur",
+            "10010",
+            "Distinguer arrivée, orientation, rencontre et accès aux activités. Même travail que 60301 (PITCH) : trois cas d'essai, table 🚶 de l'affaire 60000.",
+            "Hall des arrivées",
+            "O05",
+            "M204 · M211",
+            "—",
+            "Table 🚶 Parcours visiteur de l'affaire 60000 : trois cas d'essai, besoins d'espace pour DEV, inconnues nommées, aucune fréquentation posée. Remise à Aria par billet le J1 ; relue par moi.",
+            "faite",
+            "Plan initial ; mandat de PITCH",
+            "2042.1.1",
+            "pitch"
+          ]
+        },
+        {
+          "cellules": [
+            "10021",
+            "Relever les espaces utilisables",
+            "10010",
+            "Documenter les accès, les usages actuels et les possibilités de séparation. Même travail que 30301 (DEV), fait le J1 après 11h50. J'ai relu le plan initial et les tables 📐, 🧭, 🚪 et ❓ de DEV : vingt passages conventionnels, tous dessinés et non essayés ; aucune surface, capacité, isolation sonore ni praticabilité réelle n'est mesurée. Du hall à la galerie, le plan passe soit par le salon, soit par la salle du conseil : la séparation des parcours reste à résoudre dans 30305 et 10022.",
+            "Radiant Core",
+            "O02",
+            "M204 · M211",
+            "30301, faite",
+            "Plan initial du Radiant Core ; affaire-plans-lumina, tables 📐, 🧭, 🚪 et ❓ ; chaque passage est marqué dessiné, non essayé.",
+            "faite",
+            "Plan initial ; mandat de DEV",
+            "2042.1.1",
+            "dev-lumina"
+          ]
+        },
+        {
+          "cellules": [
+            "10022",
+            "Présenter le programme à Nova",
+            "10010",
+            "Programme préparé puis présenté à Nova le J1 depuis 10020, 10021 et la table 🧩 de 30305. Trois points lui sont soumis sous 10010 : hall d'arrivée et d'orientation ; principe d'une attente hors passage ; séparation temporelle du salon et de la galerie, ou simultanéité avec étude d'une voie publique indépendante. Aucune affectation ni aucun aménagement ne sont présumés. La décision reste à Nova.",
+            "Salle du conseil",
+            "O01",
+            "M204 · M211",
+            "10020 faite · 10021 faite · 30305 faite",
+            "Table 📄 Programme d'accueil ; billet reçu dans le canal Aria–Nova ; acte-lp-aria-10022-programme-presente-j1. Présentation faite. La décision distincte 10010 reste à Nova.",
+            "faite",
+            "Dossier d’accueil",
+            "2042.1.2",
+            "aria"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "📄 Programme d'accueil préparé pour Nova — 10022, J1",
+      "colonnes": [
+        "Point",
+        "Avec les passages existants",
+        "Si salon et galerie fonctionnent ensemble",
+        "Décision attendue de Nova"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Arrivée et orientation",
+            "Le hall reçoit et oriente ; le salon est atteint directement. Dessiné, non essayé.",
+            "Même usage du hall possible.",
+            "Arrêter le hall comme lieu d'arrivée et d'orientation, ou demander une autre répartition."
+          ]
+        },
+        {
+          "cellules": [
+            "Entretiens et galerie",
+            "Le salon reçoit. La galerie ne peut être ouverte au public qu'en l'absence d'entretien simultané, puisque son accès traverse le salon ou la salle du conseil.",
+            "Décider le principe d'une voie publique indépendante du hall à la galerie ; son tracé, son coût et sa faisabilité restent inconnus.",
+            "Choisir la séparation dans le temps sans nouvel aménagement, ou demander la simultanéité et l'étude d'une voie indépendante."
+          ]
+        },
+        {
+          "cellules": [
+            "Attente",
+            "Aucun lieu d'attente hors passage n'est établi.",
+            "Le même besoin demeure, quel que soit l'agencement.",
+            "Arrêter qu'un usage d'attente hors passage doit être réservé ; son emplacement sera dessiné et essayé après ce choix."
+          ]
+        },
+        {
+          "cellules": [
+            "Limites et suite",
+            "Aucune surface, capacité, isolation sonore ni praticabilité réelle mesurée. Les passages sont dessinés, non essayés.",
+            "Aucun seuil, cloison, budget ni chantier décidé.",
+            "Après 10010 : DEV dessine ce qui est approuvé ; Quantum et JURIS apportent confidentialité et accès ; le parcours est essayé avant de tenir 10000 pour vrai."
+          ]
+        }
+      ]
+    }
+  ],
+  "embleme": "🏙️"
+}

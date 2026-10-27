@@ -21,12 +21,10 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "noyau"))
 from etat.expose import tables  # noqa: E402
 import bibliotheque  # noqa: E402
+import racines  # noqa: E402
 
-RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) \
-    if os.path.basename(os.path.dirname(os.path.abspath(__file__))) == "scripts" \
-    else os.path.dirname(os.path.abspath(__file__))
-RACINE = os.path.dirname(os.path.abspath(__file__)).rsplit(os.sep + "scripts", 1)[0]
-ETAT = os.path.join(RACINE, "etat")
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 
 DEJA = re.compile(r"^\s*(?:\*\*)?\s*(\d{4,6})\b")
 

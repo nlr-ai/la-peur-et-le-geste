@@ -1,0 +1,85 @@
+{
+ "quoi": "Ce que j'attends de quelqu'un, et ce que quelqu'un attend de moi. Le plan compte des PAS ; ceci compte des GENS qui n'ont pas répondu, et depuis quand. Ce n'est pas la même chose et cela ne se calcule pas.",
+ "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme.",
+ "j_attends": [
+  {
+   "de": "le-courtier",
+   "depuis": "2001-10-10",
+   "quoi": "Pour l'action 1721 : trois dispensaires ou bâtiments de soins fermés à San Francisco, avec adresse, accès discret, voisinage, huisseries, gardien et preuve de fermeture ; désigner celui vérifiable aujourd'hui.",
+   "ref": "vmusnijy1t1oa",
+   "du": "2001-10-10 au soir"
+  },
+  {
+   "de": "la-source",
+   "depuis": "2001-10-10, 7 h 09",
+   "quoi": "Décision sur le prix du Liseur : neuf minutes d'audience devant la Source, dues seulement si son relevé des trois nuits est exact.",
+   "ref": "contexte 1220",
+   "du": "2001-10-10 avant la nuit"
+  },
+  {
+   "de": "le-courtier",
+   "depuis": "2001-10-10, 7 h 09",
+   "quoi": "Confirmation de l'heure et de l'angle d'ouverture du poste de Morne le Charognard, indépendant du Liseur, avant la nuit ; retrait immédiat si Kazhar le remarque.",
+   "ref": "contexte 1220",
+   "du": "2001-10-10 avant la nuit"
+  },
+  {
+   "de": "malek-le-veneur",
+   "depuis": "2001-10-10, 18 h 40",
+   "quoi": "Nom, disponibilité et prix vérifiés d'un guetteur de galerie indépendant pour seconder le Liseur cette nuit, sans déplacer Tarn du toit ni Vesk de l'appartement ; répondre aucun s'il n'en a pas.",
+   "ref": "contexte 1220",
+   "du": "2001-10-10 avant la nuit"
+  },
+  {
+   "de": "le-courtier",
+   "depuis": "2001-10-10",
+   "quoi": "Deux démons capables de surveiller urgences et commissariats sans tuer de mortel, avec capacités vérifiées et prix exact.",
+   "ref": "vmuslum71iu1a",
+   "du": "2001-10-11 au soir"
+  },
+  {
+   "de": "le-liseur",
+   "depuis": "2001-10-09, 23 h 00",
+   "quoi": "Confirmation de la fin du compte de Kazhar puis des six heures de fabrication du verre ; aucun dépôt ni remise avant nouvel ordre.",
+   "ref": "marché du verre dormant, 2001-10-09 23 h 00",
+   "du": "avant fabrication"
+  },
+  {
+   "de": "la-glaneuse",
+   "depuis": "2001-10-09, 23 h 00",
+   "quoi": "Nom vérifiable d'un porteur réellement admis au Manoir et voie exacte d'entrée, sans interrompre sa chasse ni contacter les sœurs.",
+   "ref": "marché du verre dormant, 2001-10-09 23 h 00",
+   "du": "avant tout dépôt"
+  },
+  {
+   "de": "le-courtier",
+   "depuis": "2001-10-09, 23 h 00",
+   "quoi": "Nom, ouvrant, motif, fenêtre vérifiée et prix d'un porteur réellement admis au Manoir, sans déplacer aucune mission.",
+   "ref": "marché du verre dormant, 2001-10-09 23 h 00",
+   "du": "avant tout dépôt"
+  }
+ ],
+ "on_attend_de_moi": [
+  {
+   "pour": "la-source",
+   "depuis": "2001-10-10, 7 h 09",
+   "quoi": "Trois listes nocturnes croisées des visiteurs de Kazhar ; aucune nuit n'est encore validée et les deux espions doivent encore être nommés.",
+   "ref": "contexte 1220",
+   "du": "2001-10-13 au matin"
+  },
+  {
+   "pour": "la-source",
+   "depuis": "2001-10-10",
+   "quoi": "Porter deux noms et leur prix pour surveiller urgences et commissariats sans tuer de mortel : Tarn et Vesk sont vérifiés, mais tous deux actuellement indisponibles ; l'ancien poste de Tarn est désormais compromis et sa veille continue à distance ; attendre le Courtier pour une option libre.",
+   "ref": "vmuslum71iu1a",
+   "du": "2001-10-11 au soir"
+  },
+  {
+   "pour": "la-source",
+   "depuis": "2001-10-09, 23 h 00",
+   "quoi": "Donner le nom d'un porteur réellement admis au Manoir et sa voie d'entrée avant tout dépôt du verre dormant.",
+   "ref": "marché du verre dormant, 2001-10-09 23 h 00",
+   "du": "avant tout dépôt"
+  }
+ ]
+}

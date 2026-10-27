@@ -1,0 +1,293 @@
+{
+ "id": "affaire-collegues-dans-le-bureau",
+ "titre": "Huit collègues sont présents dans le bureau",
+ "type": "plan",
+ "maison_id": "bureau",
+ "lieu_id": "bureau",
+ "salle_id": "leo",
+ "tenu_par": "leo",
+ "lecteurs": [
+  "maya",
+  "noor",
+  "hugo",
+  "ada",
+  "leo",
+  "iris",
+  "sam",
+  "zoe"
+ ],
+ "embleme": "🎯",
+ "couleur": "#628a96",
+ "sous_titre": "AI Universe · 2030 · Plage 12000–12999. Cadrage demandé par l'opérateur : états cibles, verrous, clefs et actions.",
+ "pages": [
+  "Se repérer, choisir un collègue et accéder à son travail depuis la vue château existante adaptée au bureau.",
+  "Les états restent recherchés, non acquis. Les verrous distinguent écart constaté, risque et preuve manquante. Les clefs sont retenues comme hypothèses de travail, révisables après inspection. Les actions sont à faire ; leurs dépendances conditionnent leur démarrage et leur preuve attendue conditionne leur validation. Aucune date ni importance n’est inventée.",
+  "Le moteur et ses fonctionnalités sont conservés : affaires, échiquier, vue château, chambres, dépêches, parloir et fil. Le monde et ses profils sont neufs. Aucun extérieur n'est créé. Sources du cadrage : demandes de l'opérateur et docs/refonte-plan.md."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "Huit collègues sont présents dans le bureau",
+      "Résultat recherché.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Se repérer, choisir un collègue et accéder à son travail depuis la vue château existante adaptée au bureau.",
+      "Ce que cette affaire rend vrai.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "Huit profils neufs et huit attributions de salles sont décrits dans les données. Leur présence et leur navigation dans la vue château existante ne sont pas encore constatées.",
+      "Distinguer données posées et comportement vérifié.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "12000–12999",
+      "Numéros propres au plan de cet univers.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Le bureau neuf, raccordé aux fonctions existantes.",
+      "Conserver le moteur.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "Création de l'extérieur ; remplacement du moteur par une application parallèle ; héritage des anciennes vies.",
+      "Respecter le périmètre demandé.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Tous les états cibles ci-dessous ont été constatés par leurs preuves ; les limites restantes sont explicites.",
+      "Une action terminée ne suffit pas.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "États cibles posés ; aucune atteinte encore attestée.",
+      "Ne pas annoncer le résultat avant l'épreuve.",
+      "oui"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "découpée par",
+      "affaire-bureau-resultat-utile",
+      "12000",
+      "10000",
+      "Cette affaire contribue au résultat utile du bureau."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🎯 L'état",
+    "📏 La preuve",
+    "📅 Jour dû",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**12000**",
+      "La vue château représente le bureau et ses huit salles",
+      "La vue château existante charge le plan du bureau : huit salles nommées, un profil distinct dans chaque salle, et aucune salle d'un autre monde. Le rendu se vérifie dans le navigateur, pas seulement dans le fichier de plan.",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "**12010**",
+      "Chaque collègue est identifiable et son travail est accessible",
+      "Depuis sa salle, l'opérateur voit le nom et la responsabilité du profil puis ouvre sa chambre, ses affaires, son échiquier ou son fil avec les composants existants. Le profil sélectionné reste le même dans ces vues.",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "**12020**",
+      "Le bureau montre fidèlement qui travaille ou attend",
+      "Un lancement réel rend le collègue actif ; une attente, une fin et une erreur ont des états distincts. Un profil nouvellement créé n'est pas affiché comme ayant déjà parlé ou travaillé. Le changement est visible sans rechargement manuel.",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous",
+   "colonnes": [
+    "🔒 N°",
+    "🔒 Le verrou",
+    "🎯 Bloque",
+    "🔎 La preuve"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "12100",
+      "Écart constaté : le plan à huit salles est une déclaration ; sa lecture par la vue château n’est pas démontrée.",
+      "12000",
+      "mondes/ai-universe/plans/bureau.json contient colonne/ligne/agent_id ; le parcours doit réutiliser la vue château."
+     ]
+    },
+    {
+     "cellules": [
+      "12101",
+      "Preuve manquante : les liens entre salle, profil, chambre et travail ne sont pas éprouvés.",
+      "12010",
+      "Les huit fiches ont salle_id et maison_id ; les livres sont lisibles par les huit profils via documents_maison."
+     ]
+    },
+    {
+     "cellules": [
+      "12102",
+      "Preuve manquante : aucune activité réelle de ces profils n’a validé les indicateurs du bureau.",
+      "12020",
+      "Profils et plan ne prouvent aucune session active ; scripts/agents/runtime.py fournit le cycle d’exécution."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🗝️ La clef",
+    "🔒 Ouvre",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "12200",
+      "Adapter le plan du monde au contrat de la vue château existante.",
+      "12100",
+      "retenue"
+     ]
+    },
+    {
+     "cellules": [
+      "12201",
+      "Conserver la même identité dans les accès existants au travail.",
+      "12101",
+      "retenue"
+     ]
+    },
+    {
+     "cellules": [
+      "12202",
+      "Dériver les états visibles des événements réels de session.",
+      "12102",
+      "retenue"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions",
+   "colonnes": [
+    "⚔️ N°",
+    "⚔️ L’action",
+    "🗝️ Réalise",
+    "🪶 Office",
+    "📅 Jour dû",
+    "⏳ État",
+    "🔨 Moyens",
+    "📝 Note",
+    "🔗 Dépend de",
+    "📏 Preuve attendue"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "12300",
+      "Faire afficher le bureau et ses huit salles dans la vue château.",
+      "12200",
+      "O05",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "11300, 11301",
+      "Capture et inspection du navigateur : huit salles distinctes, noms compréhensibles, bonne occupation et navigation ; aucun second écran de gestion parallèle."
+     ]
+    },
+    {
+     "cellules": [
+      "12301",
+      "Relier chaque salle à son collègue, sa chambre, ses affaires, son échiquier et son fil.",
+      "12201",
+      "O05",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "12300, 13300",
+      "Parcours des huit salles : nom et rôle corrects ; livres autorisés et même identité après retour ; état vide explicite si aucun échange."
+     ]
+    },
+    {
+     "cellules": [
+      "12302",
+      "Brancher les indicateurs de salle sur attente, activité, fin, erreur et interruption réelles.",
+      "12202",
+      "O05",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "12300, 14300, 15301",
+      "Transition observable sans rechargement manuel ; session interrompue jamais affichée comme réussie ; retour dans la salle cohérent avec le journal."
+     ]
+    }
+   ]
+  }
+ ]
+}

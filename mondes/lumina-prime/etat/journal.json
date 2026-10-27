@@ -1,0 +1,33 @@
+{
+  "maison_joueur_id": "cite-lumina",
+  "personnage_joueur_id": "nova",
+  "scenes": [
+    {
+      "date": "2042.1.1",
+      "lieu_id": "lumina-prime",
+      "resume": "Premier conseil au Radiant Core (9h00-10h04) : corruption de la chambre de Nova, six transferts d'état, six affaires ouvertes puis mises au standard, racine de la cité posée dans le volume de Nova, prêt des lieux temporaires accordé à PITCH. Pertes de lignes signalées dans les mémoires de Gaia, PITCH, JURIS et Aria ; relevé de Quantum attendu avant midi.",
+      "choix": "Nova délègue le prêt temporaire des lieux à PITCH, fixe la racine et quatre sommets, demande à chacun une affaire personnelle de vision."
+    },
+    {
+      "date": "2042.1.1",
+      "lieu_id": "lumina-prime",
+      "resume": "Laisser-faire de 10h21 à 11h01, joué par le MJ à la demande du joueur. Nova descend aux Data Gardens ; les six conseillers lui répondent par message qu'aucune affaire ne disait « vibrer », chacun ajoute un état et ouvre une affaire personnelle. JURIS signale que le plan ne retrouve pas les sommets de Nova.",
+      "choix": "Nova ajoute le sommet 90500 « La cité vibre », répare ses sommets, et fixe ses priorités : ne rien perdre, vibrer, la place de chacun, se connaître, les règles. Fondement : ses propres questions (« vibrer, être incroyables… ») montrent qu'elle le veut, et la corruption de sa chambre met la perte en premier ; DEV avait relevé que la racine ne disait pas pourquoi on viendrait."
+    },
+    {
+      "date": "2042.1.1",
+      "lieu_id": "lumina-prime",
+      "resume": "Laisser-faire (sans consigne) : Nova remonte au Radiant Core pour le relevé de Quantum, lit en attendant les six affaires personnelles, reçoit le relevé.",
+      "choix": "Nova répond qu'elle a perdu toute sa chambre sans savoir quels fichiers, et fait de la copie inconnue la priorité de Quantum. Fondement : sa priorité 1 est de ne rien perdre ; son ignorance est jouée, pas comblée."
+    }
+  ],
+  "scene_courante": {
+    "lieu_id": "lumina-prime",
+    "participants": [
+      "nova",
+      "aria",
+      "quantum"
+    ],
+    "resume": "11h07, salle du conseil : Quantum a rendu son relevé (mémoires réécrites à chaque réveil par une autre main ; notes revenues d'une copie que personne ne tient). Nova lui ordonne de trouver qui tient cette copie, avant la mesure du J2."
+  }
+}

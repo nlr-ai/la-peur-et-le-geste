@@ -31,8 +31,11 @@ import json
 import os
 import sys
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-FLUX = os.path.join(RACINE, "etat", "flux.jsonl")
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+FLUX = os.path.join(ETAT, "flux.jsonl")
 
 
 def lire_flux():

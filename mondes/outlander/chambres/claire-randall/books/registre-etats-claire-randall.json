@@ -1,0 +1,164 @@
+{
+  "id": "registre-etats-claire-randall",
+  "titre": "Les choses suivies par claire-randall",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée au porteur",
+  "type": "registre",
+  "tenu_par": "claire-randall",
+  "acteur_id": "claire-randall",
+  "prive": true,
+  "pages": [
+    "Catégories : lieux-et-passages, objets-et-documents, ressources-et-populations, organisations-et-dispositifs, usages-et-institutions, situations-et-processus. Une ligne par chose ou situation. L’identité est une référence stable ; plusieurs PNJ citent la même chose au lieu de la recréer. Quand une table canonique du moteur porte déjà le fait, elle garde autorité : la ligne renvoie à cette adresse. Les évolutions arithmétiques vont dans les mains de leur maison. Les lignes purement descriptives sont leur propre autorité jusqu’à matérialisation. Accès au cahier technique n’est pas connaissance du personnage : Qui sait quoi doit être respecté."
+  ],
+  "colonnes": [
+    "Référence",
+    "Catégorie",
+    "Identité et fonction",
+    "Où",
+    "Détenteur ou responsable",
+    "État présent",
+    "Quantité ou propriétés",
+    "Usages et limites",
+    "Liens",
+    "Évolution et échéances",
+    "Statut",
+    "Source ou provenance",
+    "Qui sait quoi",
+    "Date de mise à jour",
+    "Autorité existante"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "RE.1",
+        "situations-et-processus",
+        "Séjour actuel de Claire à Leoch",
+        "Leoch",
+        "Claire pour sa conduite ; Colum pour l’hospitalité établie",
+        "Claire est à Leoch depuis trois jours, active et libre, dans une hospitalité surveillée.",
+        "Situation personnelle ; aucun périmètre de circulation chiffré",
+        "Permet de préparer des démarches à Leoch ; ne vaut ni permission de sortie ni libre accès à toutes les parties du lieu.",
+        "Affaire C.1, C.2 ; V.1 ; M.5",
+        "À réviser seulement après fait joué ou changement d’état.",
+        "établi",
+        "canon/implantation.md ; etat/personnages.json ; etat/relations.json",
+        "Claire sait qu’elle est à Leoch et éprouve sa situation ; elle ne connaît pas par ce registre les limites qui ne lui ont pas été signifiées.",
+        "4 mai 1743, 10 h",
+        "etat/personnages.json ; etat/relations.json"
+      ]
+    },
+    {
+      "cellules": [
+        "RE.2",
+        "situations-et-processus",
+        "Traversée vécue par Claire à Craigh na Dun",
+        "Craigh na Dun puis 1743",
+        "Aucun responsable du mécanisme établi",
+        "La traversée de Claire vers 1743 a eu lieu ; son mécanisme n’est pas maîtrisé.",
+        "Un passage vécu ; aucune règle générale déduite",
+        "Fonde la recherche de Claire, mais ne garantit ni retour, ni date choisie, ni répétition.",
+        "Affaire M.3 ; V.3 ; T.5",
+        "Aucune évolution préparée ; toute nouvelle tentative devra être jouée.",
+        "établi",
+        "canon/pierres.md ; croyances de Claire",
+        "Claire connaît sa propre traversée et en protège le secret ; personne d’autre n’en reçoit connaissance par cette ligne.",
+        "4 mai 1743, 10 h",
+        "canon/pierres.md"
+      ]
+    },
+    {
+      "cellules": [
+        "RE.3",
+        "lieux-et-passages",
+        "Périmètre quotidien observable de Claire à Leoch",
+        "Leoch, uniquement dans les espaces où sa présence est déjà admise",
+        "Les responsables de Leoch pour l’accès ; Claire pour ses observations",
+        "Un champ d’observation ordinaire existe autour de ses déplacements admis, mais ses contours précis ne sont pas définis.",
+        "Passages et usages visibles sans franchir de limite",
+        "Peut fournir des observations directes ; n’accorde aucun accès nouveau, aucune permission et aucune connaissance d’une route extérieure.",
+        "Affaire P.1 ; T.1",
+        "À préciser par ce que Claire observera réellement ; aucune observation n’est préinscrite.",
+        "peint",
+        "Implantation ordinaire minimale cohérente avec trois jours de séjour, la liberté et l’hospitalité surveillée",
+        "Claire connaît seulement les espaces qu’elle a effectivement fréquentés ; le présent cahier ne lui révèle ni plan ni limite cachée.",
+        "4 mai 1743, 10 h",
+        "Description locale du registre, subordonnée aux états et scènes jouées"
+      ]
+    },
+    {
+      "cellules": [
+        "RE.4",
+        "situations-et-processus",
+        "Hypothèse d’un retour lié à Craigh na Dun",
+        "Craigh na Dun",
+        "Claire pour l’hypothèse ; aucun détenteur d’un savoir certain établi",
+        "Claire peut supposer que le lieu de sa traversée est pertinent pour un retour.",
+        "Conjecture tirée d’un seul événement",
+        "Sert à orienter une enquête ; ne prouve ni possibilité, ni condition, ni sécurité, ni destination d’un retour.",
+        "Affaire K.3 ; V.3 ; T.5",
+        "Ne devient établie qu’après source accessible ou expérience jouée probante.",
+        "hypothèse",
+        "Raisonnement prudent de Claire à partir de RE.2",
+        "Claire peut former cette hypothèse ; aucune autre personne n’est réputée la connaître.",
+        "4 mai 1743, 10 h",
+        "canon/pierres.md conserve le mystère"
+      ]
+    },
+    {
+      "cellules": [
+        "RE.5",
+        "lieux-et-passages",
+        "Route praticable de Leoch à Craigh na Dun",
+        "Entre Leoch et Craigh na Dun",
+        "Inconnu",
+        "Aucun raccord, itinéraire, durée ou condition de voyage n’est établi.",
+        "Distance, chemin, dangers et moyens requis inconnus",
+        "Ne peut être employée pour planifier un départ ni calculer une arrivée.",
+        "Affaire V.2 ; T.3",
+        "À chercher auprès d’une source accessible ou par un trajet effectivement joué.",
+        "inconnu",
+        "canon/implantation.md ; etat/chemins.json",
+        "Claire ne reçoit aucune route par l’existence technique de cette ligne.",
+        "4 mai 1743, 10 h",
+        "etat/chemins.json"
+      ]
+    },
+    {
+      "cellules": [
+        "RE.6",
+        "objets-et-documents",
+        "Inventaire des possessions et ressources personnelles de Claire",
+        "Avec Claire à Leoch, si elles existent",
+        "Claire",
+        "Non défini dans l’état consulté.",
+        "Argent, vêtements, outils, remèdes, carte et autres objets non établis",
+        "Aucun de ces objets ne peut être dépensé, montré ou employé avant établissement.",
+        "Affaire T.4 ; V.2",
+        "À définir avant tout usage matériel.",
+        "inconnu",
+        "Absence d’attribution dans les sources consultées",
+        "Le manque de préparation technique ne signifie pas que Claire ignore ce qu’elle porte ; il interdit seulement de lui inventer une ressource.",
+        "4 mai 1743, 10 h",
+        "Aucune autorité existante trouvée"
+      ]
+    },
+    {
+      "cellules": [
+        "RE.7",
+        "situations-et-processus",
+        "Conditions certaines d’un retour temporel",
+        "Liées aux pierres ou à un autre moyen non établi",
+        "Inconnu",
+        "Possibilité, conditions, destination, risques et répétabilité restent inconnus.",
+        "Aucune règle confirmée",
+        "Ne permet ni promesse de retour ni conclusion d’impossibilité.",
+        "Affaire V.3 ; T.5",
+        "Question durable ; toute réponse exige une source accessible ou un fait joué.",
+        "inconnu",
+        "canon/pierres.md ; etat/intentions.json",
+        "Claire sait qu’elle ignore ces conditions ; les PJ et autres habitants ne reçoivent rien de cette ligne.",
+        "4 mai 1743, 10 h",
+        "canon/pierres.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime_worker.py", line 62, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime_worker.py", line 23, in main
+    rep = runtime.appeler(**charge["appel"])
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 793, in appeler
+    resultat = _appel_codex(
+        manuel, message, session_id, modele, effort, timeout, cwd,
+        add_dirs, reprendre, environnement, on_event, on_stderr,
+        heartbeat, on_heartbeat, service_tier=service_tier)
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 588, in _appel_codex
+    rep = _normaliser_codex(evenements, modele, duree, logique, transcript)
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 527, in _normaliser_codex
+    raise RuntimeError(str(erreur)[:500])
+RuntimeError: {'message': 'stream disconnected before completion: error sending request for url (https://chatgpt.com/backend-api/codex/responses)'}

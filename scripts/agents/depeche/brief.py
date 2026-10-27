@@ -14,10 +14,12 @@ from plan.expose import bibliotheque  # LA PORTE de plan/
 from agents.expose import affecter  # LE resolveur d'adresses
 from etat.expose import tables  # LA PORTE de etat/
 
-# Trois etages de plus qu'a la racine : scripts/agents/depeche/.
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.dirname(os.path.abspath(__file__)))))
-ETAT = os.path.join(RACINE, "etat")
+import racines
+
+# `RACINE` reste le DEPOT : le manuel, les prompts et `parloir.py` sont du
+# CODE. Six importeurs relisent ce nom. Seul `ETAT` suit le monde.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 DEPOT_RAPPORTS = os.path.join(ETAT, "rapports")
 METIER = os.path.join(RACINE, "scripts", "agents", "prompts", "metier.md")
 MANUEL_MJ = os.path.join(RACINE, "CLAUDE.md")

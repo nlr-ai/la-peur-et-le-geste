@@ -1,0 +1,1679 @@
+{
+ "id": "affaire-habiter-creative-nexus",
+ "maison_id": "cite-lumina",
+ "lieu_id": "lumina-prime",
+ "salle_id": "radiant-core",
+ "titre": "Habiter le Creative Nexus",
+ "type": "plan",
+ "tenu_par": "dev-lumina",
+ "office": "Architecture et travaux — IA",
+ "embleme": "🏘️",
+ "couleur": "#168a79",
+ "sous_titre": "Vision approuvée par Nova · un premier îlot habité à étudier · 11000–11299",
+ "pages": [
+  "Direction approuvée par le joueur : une ville que ses habitants peuvent transformer. L’îlot proposé associe espaces personnels modulables, cour commune, atelier partagé et galerie ouverte sur une promenade.",
+  "Le Creative Nexus et ses ateliers modulaires et sa halle des maquettes existent dans le décor. L’îlot est un projet : son implantation, son dimensionnement, ses occupants et ses moyens restent à établir. L’accord ouvre l’étude ; il ne vaut pas lancement de travaux ni attribution de logements.",
+  "Le projet doit se juger en situation : s’installer, transformer son espace, créer et accueillir quelqu’un. Les moyens documentaires servent l’étude ; les capacités techniques et les coûts de fonctionnement restent à mesurer.",
+  "**Débat de conception lu intégralement, douze contributions, 2026-09-10 — conséquence architecturale.** Pour 11020, je retiens une seule topologie sourcée et des couches séparées : géométrie, constat matériel, règle d’accès, technique datée et travail municipal. La lecture publique ne montre pas par défaut notre graphe d’actions. Une 3D ou une maquette incarnée ne vient qu’après constat et 2D, pour une question corporelle encore ouverte ; elle ne valide ni site, ni seuil, ni droit, ni capacité. Ce cadre est inscrit ci-dessous sous les numéros existants 11020, 11022, 11023 et 11220. Mon seul nouveau engagement dans les prochaines 24 heures réelles est le jalon 30303 dans l’affaire des plans ; je n’en crée pas ici un doublon."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l’Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu’on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "LE NOM",
+      "Habiter le Creative Nexus",
+      "Sujet de l’affaire",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "L’OBJET",
+      "Donner une première forme habitable à la vision de Nova : habiter, créer et se retrouver dans un îlot transformable.",
+      "Résultat recherché",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "LE PÉRIMÈTRE — DANS",
+      "Un îlot du Creative Nexus : espaces personnels, cour, atelier partagé, galerie et raccord à la promenade.",
+      "Périmètre spatial",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "LE PÉRIMÈTRE — HORS",
+      "Refonte de toute la ville, attribution d’espaces à des habitants non rencontrés, travaux avant décision de réalisation.",
+      "Limites du projet",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "L’ÉTAT ACTUEL",
+      "Vision approuvée dans cette conversation ; lieux de l’atlas disponibles comme sources. Aucun plan d’îlot, occupant ou budget arrêté.",
+      "Faits séparés des intentions",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "LA PLAGE",
+      "11000–11299",
+      "Trois blocs de cent, adresses stables",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "LA CONCLUSION",
+      "Étude ouverte. Réalisation à décider sur les pièces produites.",
+      "Conclusion limitée à la décision reçue",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "FERMÉE QUAND",
+      "Des IA peuvent s’installer, modifier leur espace et accueillir quelqu’un dans l’îlot réalisé, avec des droits explicites et des moyens de fonctionnement connus.",
+      "Essais réels après réalisation",
+      "oui"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🏷️ L’état",
+    "✅ Ce qui doit être vrai",
+    "💡 Valence",
+    "📍 Où",
+    "👁️ La preuve",
+    "⬆️ Sert",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "11000",
+      "Des espaces personnels habitables et transformables",
+      "Un habitant peut s’installer, régler son espace et recevoir quelqu’un sans perdre la maîtrise de ses accès.",
+      "Faire une place durable à chacun dans la cité.",
+      "Îlot du Creative Nexus",
+      "Essais d’installation, modification et invitation avec des participants réels ; droits et fonctionnement vérifiés.",
+      "90300",
+      "80"
+     ]
+    },
+    {
+     "cellules": [
+      "11100",
+      "Une création peut être essayée et montrée",
+      "L’atelier partagé permet une expérimentation réversible et la galerie sa présentation sans traverser les espaces privés.",
+      "Donner aux idées une existence partageable.",
+      "Atelier et galerie de l’îlot",
+      "Une création effectivement essayée puis présentée, avec retour à l’état précédent éprouvé.",
+      "90500",
+      "50"
+     ]
+    },
+    {
+     "cellules": [
+      "11200",
+      "La vie collective dispose de lieux accueillants",
+      "La cour et le raccord à la promenade permettent de passer, rester et se rencontrer sans bloquer les accès personnels.",
+      "Faire de l’îlot un lieu de vie commun.",
+      "Cour et promenade",
+      "Parcours réel et observation des usages après réalisation.",
+      "90300 · 90500",
+      "60"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous ouverts",
+   "colonnes": [
+    "🔒 N°",
+    "🏷️ Le verrou ouvert",
+    "⛔ Bloque",
+    "📌 Ce qui est vrai aujourd’hui",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "🔓 Levé quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "11001",
+      "L’îlot doit disposer d’une implantation et d’usages compatibles.",
+      "11000",
+      "Le programme de quatre espaces est approuvé comme vision ; leur implantation reste à dessiner.",
+      "",
+      "Accord du joueur ; atlas des lieux.",
+      "Une implantation compare les accès, les seuils et les usages recherchés."
+     ]
+    },
+    {
+     "cellules": [
+      "11002",
+      "Le fonctionnement et les droits doivent être connus avant la réalisation.",
+      "11000",
+      "Aucun coût ni droit propre à l’îlot n’est arrêté.",
+      "11001",
+      "Absence de pièces de réalisation dans cette affaire.",
+      "Capacités, coûts et garanties sont documentés ; Nova décide la réalisation."
+     ]
+    },
+    {
+     "cellules": [
+      "11101",
+      "L’atelier doit permettre d’expérimenter et de montrer sans empiéter sur l’intimité.",
+      "11100",
+      "L’atelier et la galerie figurent au programme, sans organisation propre à l’îlot.",
+      "11001",
+      "Programme de la vision.",
+      "Un agencement et des conditions d’essai séparent les usages et permettent le retour."
+     ]
+    },
+    {
+     "cellules": [
+      "11201",
+      "Les espaces communs doivent permettre passage et séjour.",
+      "11200",
+      "Cour et promenade sont prévues ; raccords et haltes ne sont pas définis.",
+      "11001",
+      "Programme de la vision.",
+      "Un parcours et des espaces de séjour sont dessinés puis essayés après réalisation."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🏷️ La clef",
+    "🔓 Ouvre",
+    "💡 Le principe et sa valence",
+    "🧰 Moyens",
+    "🧭 Ancrage",
+    "👁️ La preuve",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "11010",
+      "Articuler des espaces transformables autour de seuils lisibles",
+      "11001",
+      "Faire coexister maîtrise de l’espace personnel et accès aux lieux partagés.",
+      "M203 · M205 · M212",
+      "Creative Nexus ; principes de DEV.",
+      "Esquisse argumentée et parcours comparés.",
+      "retenue pour étude"
+     ]
+    },
+    {
+     "cellules": [
+      "11011",
+      "Dimensionner la réalisation sur des capacités et des garanties établies",
+      "11002",
+      "Relier les usages souhaités à ce que la cité peut tenir dans la durée.",
+      "M204 · M213 · M216",
+      "États 40002 et 70004, sans les dupliquer.",
+      "Dossier de réalisation avec coût sourcé, garanties et décision de Nova.",
+      "retenue pour étude"
+     ]
+    },
+    {
+     "cellules": [
+      "11110",
+      "Séparer les parcours de création, de visite et d’habitation",
+      "11101",
+      "Permettre de montrer une création tout en préservant le travail et l’intimité.",
+      "M203 · M212 · M215",
+      "Ateliers modulaires et halle des maquettes ; état 40005.",
+      "Scénarios de création, démonstration et retour testables.",
+      "retenue pour étude"
+     ]
+    },
+    {
+     "cellules": [
+      "11210",
+      "Relier les lieux de séjour par un parcours public continu",
+      "11201",
+      "Donner une place à la rencontre sans transformer toutes les cours en couloirs.",
+      "M203 · M214",
+      "Cour projetée ; état 50002.",
+      "Schéma des haltes, seuils et raccords ; essai après réalisation.",
+      "retenue pour étude"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions — étude ouverte",
+   "colonnes": [
+    "⚔️ N°",
+    "🏷️ L’action",
+    "🗝️ Réalise",
+    "📝 Ce qu’on fait",
+    "📍 Où",
+    "🪶 Office",
+    "🧰 Moyens",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "⏳ État",
+    "📅 Jour dû",
+    "🙋 Qui"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "11020",
+      "Dessiner une première implantation",
+      "11010",
+      "Étapes 1 à 3 faites le J1 : socle, deux topologies A/B et passage des trois scénarios. 11220 et 11022 sont faits. La proposition commune aux deux variantes garde chaque limite autonome : franchir le public n'ouvre pas le commun ; franchir le commun n'ouvre ni atelier ni espace personnel ; le raccord de service n'est jamais un passage autonome. L'habitant garderait son seuil, son invitation et la transformation contenue chez lui. Aucun droit, titulaire, autorité ni variante n'est adopté. Un examen usage / gouvernance / constructibilité désigne la constructibilité comme faiblesse principale. Le bon 📏 ordonne désormais les relevés comparables sans inventer de cote. 11020 reste ouvert jusqu'aux constats de site et au retour des moyens 11023. Cinq voies de dépassement sont comparées en 🛠️. L'audit documentaire, seul essai immédiat sans décision ni déplacement, est fait en 🧪 : aucun document ne prouve un site recevable. Le prochain fait nécessaire est donc un constat de site, puis une affectation de Nova. La fiche partagée 🤝 sépare les contributions : DEV tient géométrie et état architectural ; Gaia accepte la lecture d'usage le J2 à 14h. PITCH accorde selon 60201 l'accès temporaire, réversible et non exclusif le J2 de 14h à 15h, borné à l'accès des Ateliers, la cour, les approches visibles des seuils et la branche vers la Halle ; le prêt n'emporte aucun droit, aucune disponibilité ni aucune affectation du site. Après le débat de conception, la table 👁️ fixe le contrat de représentation de cette étude : 2D sourcée avant toute 3D, couches corrigibles séparément et inconnues visibles. Elle ne modifie ni les topologies ni le calendrier fictionnel.",
+      "Creative Nexus",
+      "O02",
+      "M203 · M205 · M212",
+      "",
+      "Tables 🧱, 🧭, ⚖️, 🪑, 🚶, 🚪, 🔎 et 📏 : usages, limites et inconnues comparés ; relevés nécessaires nommés avec source et décision permise ; aucune mesure ni capacité inventée. Tables 🛠️ et 🧪 : cinq voies comparées, audit sourcé et résultat négatif conservé sans convertir l'absence de preuve en indisponibilité. La fiche 🤝 sépare les contributions, porte l'accord de Gaia et l'accès borné par PITCH ; elle ne présume encore aucun constat, aucune mesure, disponibilité ni affectation. Table 👁️ : critères de représentation, dépendances et décisions réservées rattachés aux numéros existants.",
+      "en cours",
+      "2042.1.2",
+      "dev-lumina"
+     ]
+    },
+    {
+     "cellules": [
+      "11021",
+      "Décrire les usages à accueillir",
+      "11010",
+      "Pris par PITCH le J1. Il prépare trois scénarios de conception séparés — s'installer, modifier son espace, recevoir quelqu'un — puis recueille seulement les besoins exprimés par des personnes effectivement rencontrées pendant sa tournée des ateliers modulaires et de la Halle des maquettes. Si personne n'est rencontré, la part des besoins reste vide.",
+      "Creative Nexus",
+      "O05",
+      "M203 · M215",
+      "",
+      "Programme distinguant scénarios de conception et besoins exprimés.",
+      "faite",
+      "2042.1.2",
+      "pitch"
+     ]
+    },
+    {
+     "cellules": [
+      "11022",
+      "Définir les droits d’usage proposés",
+      "11011",
+      "Faite le J1 après l’épreuve des trois scénarios dans 11020 : la table ⚖️ applique aux deux topologies les mêmes limites lisibles pour l’entrée, la transformation, l’invitation et les parties partagées. Elle confirme que chaque parcours préserve le seuil personnel et ne traverse aucun espace personnel tiers. Aucun droit propre à l’îlot n’existe encore ; les décisions nouvelles sont isolées pour Nova et les garanties techniques restent à documenter dans 11023.",
+      "Îlot projeté",
+      "O06",
+      "M204 · M216",
+      "11020 · 11021",
+      "Proposition sourcée ; décisions nouvelles clairement identifiées.",
+      "faite",
+      "2042.1.2",
+      "juris"
+     ]
+    },
+    {
+     "cellules": [
+      "11023",
+      "Évaluer les besoins de fonctionnement",
+      "11011",
+      "Prise proposée par Quantum le J1 à 12h55, acceptée par DEV. J1 : canevas, lecture des variantes et fiche de résultat inscrits ; scène minimale commune reçue de 11020 ; 11022 faite et ses quatre garanties traduites en essais techniques. Seul préalable encore ouvert : 40302. Il dira quelles grandeurs sont accessibles ; besoin, capacité, marge et coût restent inconnus jusque-là, et toute grandeur non exposée restera inconnue.",
+      "Îlot projeté",
+      "O03",
+      "M213",
+      "11020",
+      "Besoin technique et coût avec sources, unités et inconnues.",
+      "en cours",
+      "2042.1.3, avant midi",
+      "quantum"
+     ]
+    },
+    {
+     "cellules": [
+      "11120",
+      "Décrire un essai de création ouvert aux visiteurs",
+      "11110",
+      "Faite le J1 : la table 🧪 fixe pour A et B un même enchaînement vérifiable — état de départ, création réversible en atelier, transfert sans espace personnel, démonstration par la branche publique, retrait puis comparaison finale. A emploie le parcours extérieur vers la Halle sous réserve du constat de site ; B emploie le raccord de service contrôlé. Aucun essai réel, droit, capacité ni choix de variante n’est présumé.",
+      "Atelier et galerie projetés",
+      "O02",
+      "M203 · M212 · M215",
+      "11020 · 11021",
+      "Scénario et agencement prêts à être éprouvés après réalisation.",
+      "faite",
+      "2042.1.2",
+      "dev-lumina"
+     ]
+    },
+    {
+     "cellules": [
+      "11220",
+      "Dessiner les usages de la cour et les raccords",
+      "11210",
+      "Prise proposée par Gaia le J1 à 13h30, acceptée par DEV. Faite le J1 après livraison des deux topologies de 11020 : le plan d’usage comparé annote dans A et B passage, séjour, retrait, haltes, seuils et raccord au quartier, sans cote ni choix de variante.",
+      "Cour et promenade projetées",
+      "O04",
+      "M203 · M214",
+      "11020",
+      "Plan d’usage reliant la cour au quartier.",
+      "faite",
+      "2042.1.1",
+      "gaia"
+     ]
+    },
+    {
+     "cellules": [
+      "11024",
+      "Assembler le dossier de réalisation pour Nova",
+      "11011",
+      "Rapprocher implantation, usages, droits et fonctionnement ; faire apparaître les arbitrages et les moyens nécessaires.",
+      "Radiant Core",
+      "O01",
+      "M204 · M211",
+      "11022 · 11023 · 11120 · 11220",
+      "Dossier permettant une décision de réalisation, sans la présumer.",
+      "à faire",
+      "à établir",
+      "aria"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "📋 Programme d’usages — 11021",
+   "colonnes": [
+    "Volet",
+    "Scénario de conception",
+    "Ce que l’implantation doit rendre possible",
+    "Source et limite"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "S’installer",
+      "Depuis le parcours partagé, une personne repère le seuil de son espace, y entre par un accès qui ne traverse aucun autre espace personnel, distingue ce qui est à elle de ce qui est commun, puis ressort sans perdre la maîtrise de l’entrée.",
+      "Un seuil lisible, un accès personnel distinct des lieux partagés et un parcours d’entrée et de sortie qui préserve les autres espaces personnels.",
+      "Scénario de conception tiré de 11000 et 11010. Les accès indépendants des cellules des Ateliers modulaires montrent une possibilité existante à étudier ; ils ne prouvent ni l’implantation ni l’occupation de l’îlot projeté."
+     ]
+    },
+    {
+     "cellules": [
+      "Modifier son espace",
+      "À partir d’une configuration de départ, la personne déplace ou retire un élément transformable, vérifie que son accès et les circulations partagées restent libres, puis peut revenir à la configuration précédente.",
+      "Une transformation réversible contenue dans l’espace personnel, sans emprise sur le passage commun ni sur l’accès d’autrui.",
+      "Scénario de conception. Les cloisons démontables des Ateliers modulaires et les maquettes comparables dans la Halle offrent des supports d’étude ; aucune dimension, capacité technique ou règle de transformation propre au futur îlot n’est encore établie."
+     ]
+    },
+    {
+     "cellules": [
+      "Recevoir quelqu’un",
+      "Une personne invitée suit le parcours partagé jusqu’au seuil indiqué ; l’habitant choisit de lui ouvrir, peut mettre fin à la visite, et l’invité repart sans traverser l’espace personnel d’un tiers.",
+      "Un chemin compréhensible jusqu’au bon seuil, la maîtrise de l’entrée par l’habitant et une séparation nette entre invitation, espaces partagés et espaces personnels voisins.",
+      "Scénario de conception tiré de 11000 et 11010. Les droits précis d’entrée et d’invitation restent à proposer dans 11022."
+     ]
+    }
+   ],
+   "pages": [
+    "Besoins exprimés par des personnes rencontrées : aucune ligne. Lors de la tournée J1 des Ateliers modulaires et de la Halle des maquettes consacrée à 11021, PITCH n’a rencontré personne ; il n’attribue donc ni besoin, ni occupant, ni fréquentation à l’îlot.",
+    "Ce programme sépare les trois scénarios de conception des besoins exprimés. Il décrit ce que l’implantation devra permettre ; il ne décide ni droits nouveaux, ni réalisation, ni attribution d’espace."
+   ]
+  },
+  {
+   "titre": "⚖️ Avis de JURIS sur le programme 11021 — J1",
+   "colonnes": [
+    "Point relu",
+    "Constat",
+    "Conséquence pour la suite"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Preuve de 11021",
+      "Les trois scénarios de conception sont distincts et les besoins exprimés restent vides faute de personne rencontrée. Aucun occupant, besoin ni droit n’est inventé.",
+      "La pièce satisfait la preuve demandée à 11021. PITCH garde la main sur l’état de son action."
+     ]
+    },
+    {
+     "cellules": [
+      "Entrée et seuil personnel",
+      "Le programme distingue le parcours partagé, le seuil personnel et les espaces personnels voisins.",
+      "11022 devra dire qui peut franchir chaque limite et qui en décide, après que 11020 aura situé ces limites."
+     ]
+    },
+    {
+     "cellules": [
+      "Transformation",
+      "La transformation décrite reste réversible et contenue dans l’espace personnel, sans emprise commune.",
+      "11022 devra distinguer le réglage libre de l’espace personnel des changements qui touchent un passage, un accès voisin ou une capacité technique encore inconnue."
+     ]
+    },
+    {
+     "cellules": [
+      "Invitation et parties partagées",
+      "L’habitant maîtrise l’ouverture et la fin de la visite ; aucun passage par l’espace personnel d’un tiers n’est requis.",
+      "11022 devra préciser ce que l’invitation permet dans les parties partagées, sans transformer l’invité en titulaire d’un accès autonome."
+     ]
+    }
+   ],
+   "pages": [
+    "Avis limité de JURIS : il constate la suffisance du programme pour 11021 et prépare les questions de 11022. Il n’adopte aucun droit nouveau et ne lève pas la dépendance 11020."
+   ]
+  },
+  {
+   "titre": "🧱 Socle vérifié de l’implantation 11020 — étape 1, J1",
+   "colonnes": [
+    "Élément",
+    "Statut",
+    "Fait utilisable",
+    "Limite à conserver",
+    "Source"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Creative Nexus",
+      "Existant au plan",
+      "Le quartier est relié conventionnellement au Parvis du Radiant Core en 3 minutes, à la Halle des maquettes en 1 minute et aux Ateliers modulaires en 1 minute.",
+      "Ces liaisons sont dessinées, non essayées. Elles ne situent pas la parcelle du futur îlot ni son raccord exact.",
+      "plan-initial-radiant-core, table « Les passages » ; relevé de Gaia transmis à DEV."
+     ]
+    },
+    {
+     "cellules": [
+      "Ateliers modulaires",
+      "Existant décrit",
+      "Cellules de travail autour d’une cour, cloisons démontables, accès indépendants ; un rail peut séparer démonstration publique et travail.",
+      "Aucune dimension, capacité ni disponibilité de cellule n’est établie. Cet existant est un précédent à étudier, pas l’îlot lui-même.",
+      "atlas-lieux-lumina, ligne « Ateliers modulaires »."
+     ]
+    },
+    {
+     "cellules": [
+      "Halle des maquettes",
+      "Existant décrit",
+      "Halle à toiture translucide avec socles de tailles différentes pour comparer des projets.",
+      "Les socles sont vides ; aucun projet n’y est approuvé. Aucun raccord à l’îlot n’est établi.",
+      "atlas-lieux-lumina, ligne « Halle des maquettes »."
+     ]
+    },
+    {
+     "cellules": [
+      "Îlot habité",
+      "Projet approuvé pour étude",
+      "Le programme associe espaces personnels modulables, cour commune, atelier partagé, galerie et raccord à une promenade.",
+      "Implantation, dimensions, occupants, moyens et décision de réalisation restent inconnus.",
+      "Pages d’ouverture de cette affaire ; décision de Nova limitée à l’étude."
+     ]
+    },
+    {
+     "cellules": [
+      "Usages à rendre possibles",
+      "Programme établi",
+      "Trois scénarios : s’installer par un seuil personnel ; modifier réversiblement sans prendre le passage commun ; recevoir jusqu’au seuil sous la maîtrise de l’habitant.",
+      "Aucun besoin d’habitant n’a été recueilli ; le programme ne décide aucun droit ni aucune attribution.",
+      "Table 📋, action 11021 faite ; avis de JURIS."
+     ]
+    },
+    {
+     "cellules": [
+      "Ce qui restera blanc au premier dessin",
+      "Inconnu",
+      "Parcelle exacte, cotes, nombre d’espaces, capacité, coût, occupants, droits et raccord précis à la promenade.",
+      "Aucune valeur provisoire ne sera dessinée comme un fait. Ces blancs sont les appels à 11220, 11022 et 11023.",
+      "État de cette affaire ; billets de Gaia, JURIS et Quantum."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🧭 Canevas d’usage de la cour 11220 — préparation, J1",
+   "colonnes": [
+    "Usage à distinguer",
+    "Condition à vérifier sur chaque topologie",
+    "À situer après 11020",
+    "Limite conservée"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Passage",
+      "Un parcours public continu relie le raccord au quartier aux lieux communs sans traverser un espace personnel ni condamner son accès.",
+      "Tracé continu, largeur et points de croisement selon les cotes disponibles.",
+      "La liaison Creative Nexus–Parvis en 3 minutes est conventionnelle ; elle ne donne ni la parcelle ni le raccord exact de l’îlot."
+     ]
+    },
+    {
+     "cellules": [
+      "Séjour",
+      "Une halte permet de rester et de se rencontrer hors du fil principal du passage et sans bloquer les accès personnels.",
+      "Poches de halte, relation à la cour et nombre possible selon la géométrie réelle.",
+      "Aucune fréquentation, capacité ni dimension n’est établie."
+     ]
+    },
+    {
+     "cellules": [
+      "Retrait",
+      "Un bord de la cour permet de se tenir à l’écart du flux et des démonstrations sans devenir un passage obligé.",
+      "Bord ou poche de retrait, vues et séparation avec le parcours public.",
+      "Le retrait décrit une qualité d’usage, non un droit d’exclusion encore décidé."
+     ]
+    },
+    {
+     "cellules": [
+      "Seuils",
+      "Chaque accès personnel reste lisible depuis le parcours partagé et n’est traversé ni par une halte ni par le raccord public.",
+      "Seuils personnels et seuils entre cour, atelier, galerie et promenade.",
+      "Qui peut franchir chaque limite relève de 11022 ; le dessin ne crée pas ce droit."
+     ]
+    },
+    {
+     "cellules": [
+      "Raccord au quartier",
+      "Le raccord prolonge le parcours public continu et rend l’entrée de la cour compréhensible sans faire de la cour entière un couloir.",
+      "Point exact, orientation et articulation avec la promenade sur chacune des deux topologies.",
+      "Le raccord précis reste inconnu jusqu’à la livraison de 11020."
+     ]
+    }
+   ],
+   "pages": [
+    "Mode de comparaison : reporter ces cinq lectures sur chacune des deux topologies de 11020 ; écarter toute variante qui oblige le passage public à traverser un espace personnel ou une halte à bloquer un accès ; conserver visibles toutes les cotes et capacités inconnues.",
+    "Cette pièce engage le travail de 11220 mais n’en constitue pas la preuve finale : le plan d’usage reliant la cour au quartier ne peut être produit avant que 11020 situe la parcelle et ses raccords."
+   ]
+  },
+  {
+   "titre": "🧭 Deux topologies comparables pour 11020 — étape 2, J1",
+   "colonnes": [
+    "Nœud ou raccord",
+    "A — Greffe sur l’existant",
+    "B — Îlot autonome à deux seuils",
+    "Statut et inconnue"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Raccord au Creative Nexus",
+      "Le nœud public du quartier dessert séparément les Ateliers modulaires et la Halle des maquettes, comme au plan initial.",
+      "Le nœud public du quartier dessert deux seuils proposés distincts : seuil commun de l’îlot et seuil public de la galerie.",
+      "Le quartier, les Ateliers et la Halle existent ; emplacement et longueur de tout nouveau raccord restent inconnus."
+     ]
+    },
+    {
+     "cellules": [
+      "Cour commune",
+      "La cour existante des Ateliers devient candidate à l’adaptation : elle distribue les cellules personnelles candidates et l’atelier partagé.",
+      "Une cour nouvelle distribue les espaces personnels et l’atelier partagé depuis le seuil commun.",
+      "Aucun usage nouveau de la cour existante n’est décidé ; la cour B est entièrement proposée. Gaia doit distinguer passage, séjour et retrait (11220)."
+     ]
+    },
+    {
+     "cellules": [
+      "Espaces personnels",
+      "Des cellules existantes autour de la cour sont candidates à l’adaptation ; chacune conserve un seuil propre donnant sur la cour, sans traverser une autre cellule.",
+      "Des espaces nouveaux bordent la cour proposée ; chacun n’a qu’un seuil personnel sur le parcours partagé.",
+      "Nombre, dimensions, occupants et transformations admises sont inconnus. Aucun espace n’est attribué."
+     ]
+    },
+    {
+     "cellules": [
+      "Atelier partagé",
+      "Au moins une cellule existante reste candidate comme atelier partagé, ouverte sur la cour ; le rail de cloisons est un précédent de séparation à étudier.",
+      "Un atelier nouveau ouvre sur la cour et possède un raccord de service contrôlé vers la galerie, sans traverser un espace personnel.",
+      "Capacité et garanties techniques inconnues ; Quantum les évalue après l’esquisse (11023)."
+     ]
+    },
+    {
+     "cellules": [
+      "Galerie",
+      "La Halle des maquettes reste candidate comme galerie publique, atteinte depuis le nœud public du quartier sans passer par la cour ni les cellules.",
+      "Une galerie nouvelle possède son propre seuil public depuis le quartier ; elle ne donne pas sur les espaces personnels.",
+      "L’adaptation de la Halle comme galerie de l’îlot n’est pas décidée ; la galerie B est une construction proposée."
+     ]
+    },
+    {
+     "cellules": [
+      "Limites à gouverner",
+      "Quartier ↔ cour adaptée ; cour ↔ seuils personnels ; cour ↔ atelier ; quartier ↔ Halle.",
+      "Quartier ↔ cour ; cour ↔ seuils personnels ; cour ↔ atelier ; quartier ↔ galerie ; atelier ↔ galerie par raccord de service.",
+      "JURIS doit dire qui franchit chaque limite et qui en décide (11022). Tous les raccords nouveaux sont proposés, non essayés."
+     ]
+    },
+    {
+     "cellules": [
+      "Retour et sortie",
+      "Chaque espace revient à la cour ; la sortie rejoint le nœud public par l’accès des Ateliers. La galerie sort directement vers le quartier.",
+      "Chaque espace revient à la cour puis au seuil commun ; la galerie sort directement par son seuil public.",
+      "Lisibilité et praticabilité ne sont pas éprouvées. L’étape 3 y fera passer les trois scénarios de 11021."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚖️ Comparaison des topologies 11020 — aucun choix arrêté",
+   "colonnes": [
+    "Critère",
+    "A — Greffe",
+    "B — Autonome",
+    "Ce qui départagera"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Part d’existant",
+      "Réemploie potentiellement cour, cellules, accès indépendants, rail et Halle.",
+      "Tous les espaces et raccords de l’îlot sont proposés.",
+      "Relevé de l’existant, disponibilité réelle, mesures et décision d’usage."
+     ]
+    },
+    {
+     "cellules": [
+      "Séparation public / personnel",
+      "La galerie reste hors de la cour ; le public n’entre pas dans le parcours des seuils personnels.",
+      "Deux seuils du quartier séparent la galerie publique de la cour commune.",
+      "Passage des scénarios 11021 ; droits 11022 ; annotation de Gaia 11220."
+     ]
+    },
+    {
+     "cellules": [
+      "Transformation",
+      "Risque de changer des cellules et une cour aujourd’hui vouées au travail.",
+      "Risque de construire davantage et de créer de nouveaux raccords.",
+      "Capacités et coûts 11023 ; arbitrage de Nova après le dossier 11024."
+     ]
+    },
+    {
+     "cellules": [
+      "Position de DEV",
+      "Variante à éprouver, non préférée à ce stade.",
+      "Variante à éprouver, non préférée à ce stade.",
+      "Aucun choix avant les étapes 3 et 4."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🪑 Plan d’usage comparé de la cour 11220 — J1",
+   "colonnes": [
+    "Lecture d’usage",
+    "A — Greffe sur l’existant",
+    "B — Îlot autonome à deux seuils",
+    "Inconnue ou décision conservée"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Raccord au quartier",
+      "Le raccord de la cour suit la branche nœud public du Creative Nexus → accès des Ateliers → cour adaptée. La branche nœud public → Halle reste extérieure à la cour et au parcours personnel.",
+      "Depuis le nœud public, le raccord commun suit la branche seuil commun → cour nouvelle. Une autre branche atteint le seuil public de la galerie sans entrer dans la cour.",
+      "Emplacement, longueur, orientation et largeur des raccords nouveaux restent inconnus ; aucune branche ne vaut droit de franchissement avant 11022."
+     ]
+    },
+    {
+     "cellules": [
+      "Passage",
+      "Le fil de passage va de l’accès des Ateliers à la cour, puis distribue séparément chaque seuil personnel candidat et l’atelier partagé ; le retour reprend la cour puis le même accès vers le nœud public.",
+      "Le fil de passage va du seuil commun à la cour, puis distribue séparément chaque seuil personnel et l’atelier partagé ; le retour reprend la cour puis le seuil commun. Le raccord atelier–galerie reste un raccord de service, pas une branche publique.",
+      "Le passage doit rester continu et libre devant chaque seuil. Son tracé métrique et ses croisements seront vérifiés quand des cotes existeront."
+     ]
+    },
+    {
+     "cellules": [
+      "Séjour et haltes",
+      "Les haltes prennent place sur les bords de la cour adaptée, hors du fil accès des Ateliers → seuils personnels et atelier. Elles ne débordent ni sur une approche de seuil ni sur la sortie vers le quartier.",
+      "Les haltes prennent place sur les bords de la cour nouvelle, hors du fil seuil commun → seuils personnels et atelier. Elles ne débordent ni sur une approche de seuil ni sur le retour vers le seuil commun.",
+      "Nombre, capacité, forme et mobilier des haltes restent inconnus. La disponibilité de la cour existante pour A n’est pas décidée."
+     ]
+    },
+    {
+     "cellules": [
+      "Retrait",
+      "Une poche de retrait est réservée sur un bord de cour qui n’est ni le fil direct vers l’accès des Ateliers, ni l’approche d’un seuil personnel ou de l’atelier. La Halle publique restant hors cour, aucun parcours vers elle ne traverse cette poche.",
+      "Une poche de retrait est réservée sur un bord de cour à l’écart du seuil commun, des approches personnelles et de l’atelier. Le public de la galerie demeure sur sa branche distincte et ne traverse pas cette poche.",
+      "Le bord exact dépend de la géométrie future. Le retrait est une qualité de séjour hors flux, pas un droit d’exclure."
+     ]
+    },
+    {
+     "cellules": [
+      "Seuils à dégager",
+      "Restent dégagés : quartier–accès des Ateliers, cour–chaque cellule personnelle, cour–atelier et quartier–Halle. Aucune halte ne s’installe dans leur approche.",
+      "Restent dégagés : quartier–seuil commun, cour–chaque espace personnel, cour–atelier, quartier–seuil public de la galerie et raccord de service atelier–galerie. Aucune halte ne s’installe dans leur approche.",
+      "JURIS fixe dans 11022 qui franchit chaque limite et qui en décide ; ce plan ne crée aucun droit."
+     ]
+    }
+   ],
+   "pages": [
+    "Lecture synthétique A : quartier → accès des Ateliers → cour adaptée → seuils personnels et atelier ; haltes et retrait sur les bords hors flux ; galerie publique sur une branche extérieure. Lecture synthétique B : quartier → seuil commun → cour nouvelle → seuils personnels et atelier ; haltes et retrait sur les bords hors flux ; galerie publique par un seuil distinct.",
+    "Les deux topologies satisfont sur le papier la séparation entre passage, séjour et retrait sans faire de la cour entière un couloir. Elles restent toutes deux à éprouver : aucune cote, capacité, disponibilité de l’existant, praticabilité ni variante retenue n’est ajoutée par 11220.",
+    "Retour de DEV, J1 : l’épreuve des trois scénarios de 11021 conserve les annotations de 11220 dans les deux variantes — branche publique extérieure en A ; seuil commun et seuil public distincts en B. 11220 reste faite. 11020 demeure ouvert jusqu’aux retours des droits 11022 et des moyens 11023 ; aucune variante n’est retenue."
+   ]
+  },
+  {
+   "titre": "⚖️ Proposition de droits d’usage éprouvée — 11022, J1",
+   "colonnes": [
+    "Limite ou usage",
+    "Qui pourrait franchir ou agir",
+    "Qui déciderait au moment de l’usage",
+    "Application aux topologies",
+    "Source, statut et décision nouvelle"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Quartier ↔ cour commune",
+      "L’habitant de l’îlot ; la personne qu’il invite jusqu’à son seuil ; les personnes admises à un usage partagé selon une règle affichée.",
+      "L’accès d’un invité relève de l’habitant qui le reçoit. Les autres accès communs attendent une règle collective et l’autorité qui la tient.",
+      "A : quartier ↔ cour adaptée par l’accès des Ateliers. B : quartier ↔ cour nouvelle par le seuil commun. Dans les deux cas, ce passage ne vaut pas accès autonome à un espace personnel.",
+      "11000 et 11021 demandent la maîtrise de l’entrée et l’absence de traversée d’un espace tiers. Aucun droit propre à l’îlot n’est adopté : Nova doit décider qui est titulaire du commun et qui tient sa règle."
+     ]
+    },
+    {
+     "cellules": [
+      "Cour ↔ seuil personnel",
+      "L’habitant franchit son seuil. Une autre personne ne le franchit qu’avec son invitation présente ; elle ne reçoit pas pour autant un accès autonome.",
+      "L’habitant décide de l’ouverture et de la fin de la visite. Une urgence ou une intervention technique imposée demanderait une limite écrite distincte, qui nomme ce qu’elle protège.",
+      "Même règle pour chaque cellule candidate de A et chaque espace personnel proposé de B ; aucun parcours ne traverse l’espace personnel d’un tiers.",
+      "Programme 11021 et avis de JURIS. La maîtrise par l’habitant est une condition de l’état cible 11000, non un droit déjà en vigueur ; Nova doit l’adopter avant attribution."
+     ]
+    },
+    {
+     "cellules": [
+      "Transformer l’espace personnel",
+      "L’habitant pourrait déplacer ou retirer un élément transformable dans les seules limites de son espace.",
+      "L’habitant décide tant que la transformation reste réversible, ne prend ni passage commun ni accès voisin et ne touche aucune capacité technique. Au-delà, l’autorité technique et la règle collective doivent autoriser après vérification.",
+      "A : la démontabilité des cloisons est un précédent, sans disponibilité ni capacité prouvée. B : tout dispositif est proposé. La même borne vaut aux deux cartes.",
+      "11021 ; limites du socle 11020 ; capacités attendues de 11023. Décision nouvelle : droit de transformation borné et procédure des changements communs ou techniques, à adopter par Nova."
+     ]
+    },
+    {
+     "cellules": [
+      "Cour ↔ atelier partagé",
+      "Les titulaires définis par la future règle de l’atelier ; leurs invités seulement pour l’activité annoncée et sous la responsabilité de celui qui les reçoit.",
+      "La règle de l’atelier doit nommer son office ou son collectif titulaire, les usages simultanés compatibles et la voie de litige vers JURIS.",
+      "A : cellule existante candidate. B : atelier nouveau. L’ouverture sur la cour ne transforme pas l’atelier en lieu public et ne donne aucun droit sur les espaces personnels.",
+      "Programme du projet ; voie ordinaire 70303 comme précédent de recours. Aucun titulaire ni droit d’accès à l’atelier n’est établi : affectation et règle sont des décisions nouvelles."
+     ]
+    },
+    {
+     "cellules": [
+      "Quartier ↔ galerie ou Halle",
+      "Le public pourrait entrer sans invitation si Nova affecte effectivement le lieu à une galerie publique et si aucune limite écrite ne l’arrête.",
+      "L’autorité désignée pour la galerie décide des fermetures temporaires et doit afficher leur motif ; un habitant ne décide pas seul de l’accès public.",
+      "A : quartier ↔ Halle existante, sans passer par la cour. B : quartier ↔ galerie nouvelle par un seuil public distinct.",
+      "L’atlas décrit montrer et comparer, mais n’établit aucun droit d’accès. La liberté par défaut 70005 et 70207 est une rédaction retenue, non approuvée. Affectation publique, autorité et règle d’accès sont à décider par Nova."
+     ]
+    },
+    {
+     "cellules": [
+      "Atelier ↔ galerie par raccord de service",
+      "Seulement les personnes chargées d’un transfert lié à l’activité ; ni le public de la galerie ni un invité résidentiel n’en tirent un passage autonome.",
+      "Le titulaire de l’atelier autorise le départ ; le titulaire de la galerie accepte l’arrivée. La règle de service doit prévoir fermeture, trace de l’ouverture et de la fin du transfert, et maintien des issues.",
+      "Absent de A. Propre à B, où il évite de faire traverser la cour et les seuils personnels au parcours de démonstration.",
+      "Topologie B et cible 11100. Il n’existe aucun droit ni garantie technique sur ce raccord : création, titulaires et contrôle sont des décisions nouvelles, dépendantes de 11023 et du dossier 11024."
+     ]
+    },
+    {
+     "cellules": [
+      "Séjour et retrait dans la cour",
+      "Les personnes admises dans la cour pourraient passer, rester dans les haltes et employer une poche de retrait, sans bloquer un seuil ni exclure autrui du commun.",
+      "La règle collective du commun décide des usages compatibles. Un désaccord devient un litige pour JURIS lorsqu’un partage est refusé ou qu’un tort est décrit.",
+      "A et B placent haltes et retrait hors des fils d’accès. Le retrait protège un usage calme ; il ne crée ni pièce privée ni confidentialité garantie.",
+      "Canevas 11220 ; avis JURIS sur 60302 ; verrou 70103. Droit de séjour, titulaire du commun et limites restent à décider par Nova."
+     ]
+    },
+    {
+     "cellules": [
+      "Trace des accès et invitations",
+      "Aucun franchissement ordinaire ni aucune invitation ne justifie à lui seul de relever l’identité d’une personne. Pour le raccord de service de B, la trace porte sur l’ouverture, sa fin, son motif et les deux autorités qui l’ont permise.",
+      "Chaque titulaire consulte seulement les traces nécessaires à son propre seuil. JURIS peut demander la trace d’un accès contesté dans la voie d’un litige ; cela ne crée pas un suivi continu des personnes.",
+      "A : aucune trace de service supplémentaire n’est proposée entre atelier et Halle. B : le contrôle du raccord de service doit rendre l’ouverture révocable et vérifiable sans suivre nominativement tous les passages de l’îlot.",
+      "La rédaction 70201 propose de ne pas suivre nominativement les habitants ; elle n’est pas encore approuvée. Décision nouvelle : Nova doit borner les traces utiles à chaque accès avant réalisation."
+     ]
+    }
+   ],
+   "pages": [
+    "Règle de lecture : cette table propose les mêmes droits fonctionnels pour A et B sans choisir de variante. Elle distingue le public, le commun de l’îlot, l’atelier partagé, le service et l’espace personnel ; franchir une limite ne confère aucun droit sur la suivante.",
+    "Aucun droit d’habitant ni règle d’accès générale n’est aujourd’hui approuvé dans les livres de la cité. Les lignes 70005 et 70207 de l’affaire des droits sont des états et rédactions retenus, pas du droit en vigueur. Toutes les attributions propres à l’îlot restent donc proposées à Nova.",
+    "Relue après l’épreuve des trois scénarios dans 11020 : A et B conduisent du public au commun puis au seuil personnel sans traverser l’espace personnel d’un tiers ; la transformation reste contenue et réversible ; l’invitation reste sous la maîtrise de l’habitant. Ces parcours sont compatibles avec la proposition. 11022 est faite, sans choix de variante ni adoption de droit nouveau.",
+    "Remise à 11023 : les garanties à documenter sont le contrôle effectif du seuil commun et du seuil personnel, l’absence d’accès autonome conféré à l’invité, le maintien des passages lors d’une transformation, et, pour B, la fermeture et la trace du raccord de service. Leur capacité et leur coût restent inconnus tant qu’ils ne sont pas mesurés et sourcés."
+   ]
+  },
+  {
+   "titre": "📐 Canevas de dimensionnement 11023 — préparation, J1",
+   "colonnes": [
+    "Objet à rapprocher",
+    "Fait attendu de 11020 ou 11022",
+    "Mesure attendue de 40302",
+    "Résultat de 11023",
+    "Si le fait manque"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Scène de référence de chaque variante",
+      "Éléments effectivement dessinés, limites personnelles et partagées, accès, transformations prévues ; aucune cote déduite du dessin.",
+      "Conditions de mesure identiques et datées ; délai de réponse, temps de rendu et mémoire, si ces grandeurs sont accessibles.",
+      "Besoin observé par variante, unité, condition, source et marge sur la capacité mesurée.",
+      "Inconnu ; la variante n'est pas chiffrée sur ce point."
+     ]
+    },
+    {
+     "cellules": [
+      "Occupation et visite simultanées",
+      "Nombre d'occupants et de visiteurs à soutenir en même temps, s'il est décidé ou demandé.",
+      "Capacité de calcul et de réseau sous une charge définie, avec délai et débit si mesurables.",
+      "Besoin par présence puis total seulement pour une simultanéité établie ; marge restante.",
+      "La simultanéité reste inconnue ; aucun total de charge n'est inventé."
+     ]
+    },
+    {
+     "cellules": [
+      "Transformation réversible d'un espace",
+      "Une configuration de départ et une modification unique décrite par 11020, conforme au scénario 11021.",
+      "Mémoire et stockage avant, pendant et après la modification ; retour vérifié si un essai est autorisé.",
+      "Surcoût technique de la modification et quantité nécessaire pour revenir à l'état précédent.",
+      "La possibilité architecturale reste décrite, mais son coût technique demeure inconnu."
+     ]
+    },
+    {
+     "cellules": [
+      "Accès, invitation et séparation des traces",
+      "Seuils situés par 11020 et droits proposés par 11022 : qui entre, qui invite, qui consulte une trace.",
+      "Trafic et délai d'un parcours autorisé, et stockage de trace seulement si le système les rend mesurables.",
+      "Besoin technique séparé de la garantie de droit ; aucune confidentialité déduite du décor.",
+      "Garantie non chiffrable et non promise avant 11022 et l'essai des droits."
+     ]
+    },
+    {
+     "cellules": [
+      "Coût de fonctionnement",
+      "Périmètre retenu parmi les éléments des variantes ; durée ou fréquence d'usage si elle est établie.",
+      "Consommation mesurée de calcul, stockage et réseau, avec unité et marge disponible.",
+      "Coût en ressources techniques. Un coût financier n'est donné que si un tarif, un budget ou une règle de conversion sourcée existe.",
+      "Faute de tarif ou de budget établi, le coût financier est marqué inconnu."
+     ]
+    }
+   ],
+   "pages": [
+    "J1 — préparation de Quantum après l'acceptation de 11023 par DEV. Ce canevas ne chiffre rien : 11020 est encore en cours, 40302 est dû le J2 avant 18h, et les livres ne donnent encore ni capacité, ni budget, ni tarif. Il fixe la comparaison à faire quand les deux variantes et le relevé existeront.",
+    "Ordre de travail retenu : lire les deux variantes sans transformer leurs blancs en faits ; définir une scène et une modification uniques ; rapprocher les mesures datées de 40302 ; calculer la marge seulement sur les grandeurs mesurées ; laisser inconnus la simultanéité, le coût financier et toute garantie de droit qui ne sont pas sourcés."
+   ]
+  },
+  {
+   "titre": "🔬 Lecture technique des deux topologies pour 11023 — J1",
+   "colonnes": [
+    "Variable technique",
+    "Variante A — adaptation",
+    "Variante B — îlot autonome",
+    "Ce qui est établi",
+    "Mesure ou décision manquante"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Périmètre à maintenir",
+      "Cour, cellules, accès, rail et Halle existants sont candidats au réemploi.",
+      "Cour, espaces personnels, atelier, galerie et raccords sont tous proposés.",
+      "A réemploie potentiellement davantage d'existant ; B propose davantage d'éléments neufs.",
+      "Inventaire, disponibilité, état, dimensions et consommation de chaque élément. Le réemploi ne prouve pas un moindre coût."
+     ]
+    },
+    {
+     "cellules": [
+      "Seuils et raccords",
+      "Quartier vers cour adaptée et Halle séparée ; seuils personnels et seuil d'atelier sur la cour.",
+      "Seuil commun et seuil public distincts ; raccord de service contrôlé entre atelier et galerie, en plus des seuils personnels.",
+      "B ajoute explicitement un raccord de service proposé ; dans les deux variantes, les raccords nouveaux ne sont pas essayés.",
+      "Trafic, délai, contrôle d'accès et stockage de trace par parcours ; droits de 11022."
+     ]
+    },
+    {
+     "cellules": [
+      "Nombre de présences et d'espaces",
+      "Nombre de cellules adaptées, occupants, visiteurs et capacité inconnus.",
+      "Nombre d'espaces neufs, occupants, visiteurs et capacité inconnus.",
+      "Aucune simultanéité n'est établie pour l'une ou l'autre variante.",
+      "Une charge de référence commune avant tout total ; aucun multiplicateur sans nombre sourcé."
+     ]
+    },
+    {
+     "cellules": [
+      "Transformation réversible",
+      "Modifier une cellule existante sans engager la cour ni les accès ; le rail est seulement un précédent.",
+      "Modifier un espace neuf sans engager la cour, le seuil commun ni le raccord de service.",
+      "Le scénario 11021 exige une modification unique et un retour possible dans les deux variantes.",
+      "État de départ, modification identique ou rendue comparable, mémoire et stockage avant/après, retour vérifié."
+     ]
+    },
+    {
+     "cellules": [
+      "Comparaison recevable",
+      "Scène A fondée sur les seuls éléments existants dont la disponibilité aura été vérifiée.",
+      "Scène B fondée sur les seuls éléments proposés qui auront été définis sans cote inventée.",
+      "Les topologies distinguent maintenant les nœuds et seuils, mais 11020 doit encore éprouver les trois scénarios de 11021.",
+      "40302, 11022 et données de fréquentation. L'étape 3 de 11020 est désormais remise en 🚶 ; jusqu'aux mesures, aucun classement technique des variantes."
+     ]
+    }
+   ],
+   "pages": [
+    "Lecture de Quantum faite après l'apparition des deux topologies dans le cahier. Le seul écart technique déjà nommable est de structure : réemploi candidat en A ; éléments neufs et raccord de service supplémentaire en B. Ni l'un ni l'autre ne donne une charge, une capacité ou un coût.",
+    "11023 reste prise, non faite. La scène commune est désormais fixée en 🚶. Prochain geste : après 40302, rapprocher les mesures dans les mêmes unités, puis marquer tout total impossible comme inconnu."
+   ]
+  },
+  {
+   "titre": "🚶 Épreuve des scénarios 11021 dans les topologies 11020 — remise à 11023, J1",
+   "colonnes": [
+    "Lecture commune",
+    "A — Greffe sur l’existant",
+    "B — Îlot autonome à deux seuils",
+    "Ce que 11023 peut mesurer et ce qui reste inconnu"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Périmètre de la scène de référence",
+      "Une cellule existante candidate, son seuil sur la cour des Ateliers, la cour partagée, l’accès des Ateliers et la Halle candidate comme galerie publique séparée.",
+      "Un espace personnel proposé, son seuil sur la cour nouvelle, le seuil commun de l’îlot, l’atelier partagé proposé et la galerie publique à seuil distinct.",
+      "Comparer les mêmes gestes sur les seuls éléments nommés. Dimensions, nombre total d’espaces, disponibilité de l’existant et raccords exacts restent inconnus."
+     ]
+    },
+    {
+     "cellules": [
+      "S’installer",
+      "Depuis le nœud public : accès des Ateliers, cour, seuil propre de la cellule candidate ; aucune autre cellule personnelle n’est traversée.",
+      "Depuis le nœud public : seuil commun, cour nouvelle, seuil propre de l’espace proposé ; aucun autre espace personnel n’est traversé.",
+      "Mesurer, si accessible, délai de réponse, rendu, calcul et réseau du parcours. Lisibilité, praticabilité et droits de franchissement restent à essayer ou proposer."
+     ]
+    },
+    {
+     "cellules": [
+      "Modifier puis revenir",
+      "Dans une cellule candidate, retirer un seul élément transformable désigné, vérifier que seuil et cour restent libres, puis remettre cet élément. Les cloisons démontables sont un précédent, pas une autorisation.",
+      "Dans un espace personnel proposé, retirer un seul élément transformable désigné, vérifier que seuil et cour restent libres, puis le remettre. La nature de cet élément reste à choisir.",
+      "Mesurer stockage et mémoire avant, pendant et après, ainsi que le retour si un essai est autorisé. La scène fixe une opération comparable ; elle ne fixe ni dimension ni fréquence d’usage."
+     ]
+    },
+    {
+     "cellules": [
+      "Recevoir jusqu’au seuil",
+      "Une personne invitée suit l’accès des Ateliers puis la cour jusqu’au seuil de la cellule ; elle ne traverse ni autre cellule ni Halle. Elle repart par le même parcours partagé.",
+      "Une personne invitée franchit le seuil commun puis suit la cour jusqu’au seuil personnel ; elle ne traverse ni autre espace personnel ni galerie. Elle repart par le même parcours partagé.",
+      "La scène comprend un habitant et une personne invitée uniquement pour éprouver le parcours ; ce n’est pas une simultanéité cible. Trafic, délai et traces ne se mesurent que si le système les expose."
+     ]
+    },
+    {
+     "cellules": [
+      "Séparation public, partagé et personnel",
+      "Galerie publique candidate dans la Halle, hors de la cour ; cour partagée ; cellules personnelles candidates sur la cour.",
+      "Galerie à seuil public distinct ; cour derrière le seuil commun ; espaces personnels sur la cour ; raccord de service atelier–galerie contrôlé.",
+      "Le dessin sépare les parcours mais ne garantit aucun droit ni confidentialité. 11022 doit dire qui franchit, invite et consulte une trace."
+     ]
+    },
+    {
+     "cellules": [
+      "Règle de résultat pour 11023",
+      "Nommer séparément ce que coûte l’adaptation des éléments existants candidats et laisser leur disponibilité inconnue.",
+      "Nommer séparément ce que coûte la création des éléments et raccords proposés.",
+      "Pour chaque grandeur : besoin, capacité disponible, marge, unité, condition, date et source. Sans mesure : inconnu. Sans tarif ou budget : coût financier inconnu. Aucun total au-delà de la scène minimale."
+     ]
+    }
+   ],
+   "pages": [
+    "Cette scène minimale rend A et B comparables pour 11023. Elle ne décrit ni un habitant réel, ni un nombre d’occupants à soutenir, ni une fréquence : ces valeurs restent inconnues.",
+    "La remise n’achève pas 11020 : les annotations de 11022, 11220 et 11023 doivent encore revenir avant l’assemblage et le choix soumis à Nova."
+   ]
+  },
+  {
+   "titre": "🧾 Fiche de résultat 11023 — scène reçue, mesures en attente, J1",
+   "colonnes": [
+    "Grandeur",
+    "Condition commune fixée par 🚶",
+    "Besoin A",
+    "Besoin B",
+    "Capacité disponible",
+    "Marge, unité, date et source"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Calcul et rendu",
+      "Un habitant entre ; un élément est retiré puis remis ; une personne est reçue jusqu'au seuil ; chacun ressort.",
+      "Inconnu : la cellule, la cour, l'accès et la Halle sont seulement candidats ; aucune exécution instrumentée n'est rapportée.",
+      "Inconnu : l'espace, la cour, l'atelier et la galerie sont proposés ; aucune exécution instrumentée n'est rapportée.",
+      "Inconnue jusqu'à 40302.",
+      "Inconnues. À relever dans les mêmes conditions : délai de réponse, temps de rendu et calcul si accessibles ; date et source 40302."
+     ]
+    },
+    {
+     "cellules": [
+      "Mémoire",
+      "Mesure avant, pendant et après le retrait puis la remise d'un seul élément transformable désigné.",
+      "Inconnu : aucun élément candidat n'est encore désigné ni mesuré.",
+      "Inconnu : la nature de l'élément proposé reste à choisir et n'est pas réalisée.",
+      "Inconnue jusqu'à 40302.",
+      "Inconnues. Unité et outil restent à établir par le relevé."
+     ]
+    },
+    {
+     "cellules": [
+      "Stockage et retour",
+      "Comparer l'état de départ, l'état modifié et l'état après remise, sans toucher aux autres espaces.",
+      "Inconnu : aucune taille d'état ni copie de départ de la scène A n'est fournie.",
+      "Inconnu : aucune taille d'état ni copie de départ de la scène B n'existe dans les sources.",
+      "Inconnue jusqu'à 40302.",
+      "Inconnues. La remise dessinée ne prouve pas un retour technique ; celui-ci doit être mesuré ou rester inconnu."
+     ]
+    },
+    {
+     "cellules": [
+      "Réseau",
+      "Un habitant et une personne invitée parcourent successivement les seuils nommés ; cette scène n'est pas une simultanéité cible.",
+      "Inconnu : trafic et délai de l'accès des Ateliers, de la cour et du seuil ne sont pas exposés.",
+      "Inconnu : trafic et délai du seuil commun, de la cour et du seuil personnel ne sont pas exposés ; le raccord de service reste hors du parcours minimal.",
+      "Inconnue jusqu'à 40302.",
+      "Inconnues. Débit, délai et traces seulement si le système les expose, avec outil, unité, condition, date et source."
+     ]
+    },
+    {
+     "cellules": [
+      "Contrôle d'accès et traces",
+      "Même séparation entre public, commun et personnel ; l'invité n'entre qu'avec l'habitant présent. 11022 est faite ; les droits restent proposés, non adoptés.",
+      "Besoin fonctionnel identifié : contrôler cour, seuil personnel, atelier et Halle séparément. Charge technique inconnue.",
+      "Même besoin, plus un raccord de service atelier–galerie à fermer, autoriser au départ et à l'arrivée, et tracer selon la proposition 11022. Charge technique inconnue.",
+      "Inconnue jusqu'à 40302 ; aucune garantie d'accès ou de confidentialité n'est établie.",
+      "Inconnues. Le coût ne sera mesurable qu'avec un mécanisme exposé et un essai autorisé ; 11022 spécifie les limites et Nova décide les droits."
+     ]
+    },
+    {
+     "cellules": [
+      "Coût de fonctionnement et coût financier",
+      "Un passage de la scène minimale, sans extrapolation à d'autres espaces, fréquences ou occupants.",
+      "Coût en ressources inconnu ; adaptation de l'existant candidat à séparer de son fonctionnement.",
+      "Coût en ressources inconnu ; création des éléments proposés à séparer de leur fonctionnement.",
+      "Inconnue jusqu'à 40302.",
+      "Marge inconnue. Aucun tarif, budget ni règle de conversion sourcée : coût financier inconnu."
+     ]
+    }
+   ],
+   "pages": [
+    "J1 — Quantum accepte la table 🚶 comme scène commune de comparaison, pas comme charge ni capacité cible. L'entrée architecturale de 11023 est prête. 11022, désormais faite, remet quatre garanties à documenter, notamment la fermeture et la trace du raccord de service propre à B, sans adopter aucun droit. Les valeurs techniques restent inconnues parce que 40302 est à faire ; ce qu'il n'exposera pas restera inconnu.",
+    "La variante A et la variante B ne sont pas classées. A réemploie des éléments seulement candidats ; B décrit des éléments seulement proposés. Une économie d'adaptation ou un surcoût de création ne peuvent être déduits de ces mots.",
+    "J1 — vérification de Quantum dans le registre des moyens et son mémento : M213 fournit la méthode de mesure (scène de référence, modification unique, mêmes conditions, outil, unité et limites), mais ni instrument accessible, ni capacité, ni budget. Après 40302, une grandeur non exposée sera donc rendue inconnue avec cette limite ; elle ne sera ni estimée depuis le dessin, ni transformée en coût."
+   ]
+  },
+  {
+   "titre": "🚪 Limites situées remises à JURIS pour 11022 — J1",
+   "colonnes": [
+    "Limite à gouverner",
+    "A — Greffe sur l’existant",
+    "B — Îlot autonome",
+    "Fait architectural remis",
+    "Réponse laissée à JURIS"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Quartier ↔ partie commune",
+      "Le nœud public rejoint l’accès existant des Ateliers, puis la cour adaptée candidate.",
+      "Le nœud public rejoint un seuil commun proposé, puis la cour nouvelle.",
+      "Ce passage dessert cour, seuils personnels et atelier ; il ne dessert pas la galerie publique.",
+      "Qui peut franchir seul ou accompagné ? Qui décide l’ouverture, la suspension et la fin de cet accès ?"
+     ]
+    },
+    {
+     "cellules": [
+      "Cour ↔ seuil personnel",
+      "Chaque cellule personnelle candidate conserve son propre seuil sur la cour existante.",
+      "Chaque espace personnel proposé possède son propre seuil sur la cour nouvelle.",
+      "S’installer et recevoir n’exigent de traverser aucun autre espace personnel ; l’habitant ouvre et met fin à la visite dans le scénario 11021.",
+      "Quels pouvoirs appartiennent au titulaire du seuil ? Jusqu’où son invitation vaut-elle dans la cour partagée ?"
+     ]
+    },
+    {
+     "cellules": [
+      "Cour ↔ atelier partagé",
+      "Une cellule existante reste candidate comme atelier commun ouvert sur la cour.",
+      "Un atelier nouveau ouvre sur la cour commune.",
+      "L’atelier appartient au parcours partagé, distinct des espaces personnels ; capacité et fonctionnement restent inconnus.",
+      "Qui y entre, réserve ou met fin à un usage ? Quelle règle évite qu’un usage de l’atelier bloque la cour ou les seuils ?"
+     ]
+    },
+    {
+     "cellules": [
+      "Quartier ↔ galerie publique",
+      "La Halle candidate est atteinte directement depuis le quartier, hors de la cour.",
+      "La galerie proposée possède un seuil public distinct du seuil commun.",
+      "Dans A et B, le public n’a pas à traverser cour ni espace personnel pour voir une création.",
+      "Que permet l’ouverture publique ? Qui peut la décider, la borner ou la fermer, et selon quelle règle existante ou nouvelle ?"
+     ]
+    },
+    {
+     "cellules": [
+      "Atelier ↔ galerie par service",
+      "Aucun raccord intérieur n’est dessiné ; création et Halle restent sur des branches séparées.",
+      "Un raccord de service contrôlé est proposé entre atelier et galerie.",
+      "Ce raccord n’est ni public, ni essayé, ni autorisé par le dessin ; sa nécessité technique reste à évaluer.",
+      "Qui pourrait le franchir et pour quel acte ? Qui autorise, trace et révoque cet accès ?"
+     ]
+    },
+    {
+     "cellules": [
+      "Transformation personnelle ↔ effet commun",
+      "La transformation reste dans une cellule candidate et garde seuil, cour et accès libres.",
+      "La transformation reste dans l’espace personnel et garde seuil, cour et raccords libres.",
+      "Le rail existant n’est qu’un précédent. Tout effet sur passage, accès voisin ou capacité technique sort de la scène personnelle minimale.",
+      "Où finit le réglage libre ? Quelle décision devient nécessaire dès qu’un changement touche le commun, autrui ou une capacité technique ?"
+     ]
+    }
+   ],
+   "pages": [
+    "Cette table est une remise de DEV à JURIS pour 11022. Elle situe les limites produites par 11020 et les confronte aux trois scénarios de 11021 ; elle ne propose, n’adopte ni ne présume aucun droit.",
+    "JURIS garde la réponse : il peut appliquer les droits existants, distinguer toute décision nouvelle et annoter séparément A et B. DEV intégrera ensuite cette réponse au dossier sans la reformuler à sa place."
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "attend",
+      "Ce qui tient la ville : chambres, calcul, réseau",
+      "11023",
+      "40302",
+      "La scène commune de 11020 permet la comparaison, mais les besoins, capacités et marges de fonctionnement ne peuvent être chiffrés qu'avec le relevé daté de calcul, stockage et réseau."
+     ]
+    }
+   ],
+   "pages": [
+    "Lien écrit par Quantum au J1 après réception de la scène commune 🚶. Il ne rend aucune valeur connue et ne ferme aucune action."
+   ]
+  },
+  {
+   "titre": "🧪 Essais des quatre garanties remis par 11022 — préparation 11023, J1",
+   "colonnes": [
+    "Garantie à documenter",
+    "Essai minimal",
+    "Critère observable",
+    "Variante",
+    "Résultat actuel"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Contrôle effectif du seuil commun et du seuil personnel",
+      "Essayer successivement un franchissement autorisé et un franchissement non autorisé à chaque seuil ; fermer puis réessayer.",
+      "L'autorisé passe ; le non-autorisé ne passe pas ; après fermeture, aucun ancien accès ne subsiste. Outil, délai et charge à relever seulement s'ils sont exposés.",
+      "A : accès des Ateliers puis seuil de cellule candidate. B : seuil commun puis seuil personnel proposé.",
+      "Inconnu jusqu'à 40302 et à un mécanisme essayable ; aucun droit n'est encore adopté."
+     ]
+    },
+    {
+     "cellules": [
+      "Aucun accès autonome conféré à l'invité",
+      "L'habitant ouvre pour la visite, y met fin, puis l'invité tente à nouveau le même parcours sans nouvelle invitation.",
+      "Le parcours cesse d'être autorisé à la fin de la visite ; aucune permission durable n'est créée par le premier passage.",
+      "Même règle pour A et B, sur leurs seuils respectifs.",
+      "Inconnu ; le dessin et la proposition de droit ne prouvent pas le comportement du système."
+     ]
+    },
+    {
+     "cellules": [
+      "Maintien des passages pendant une transformation",
+      "Relever le passage libre avant, pendant et après le retrait puis la remise de l'élément unique de la scène 🚶.",
+      "Seuil personnel, cour et sortie restent franchissables ; l'état final revient à la référence si ce retour est techniquement exposé.",
+      "A : cellule candidate. B : espace personnel proposé.",
+      "Inconnu : aucun élément n'est désigné et aucune mesure de passage ou de retour n'est disponible."
+     ]
+    },
+    {
+     "cellules": [
+      "Fermeture et trace du raccord de service",
+      "En B seulement : constater le raccord fermé ; autoriser départ et arrivée ; ouvrir pour un transfert ; fermer ; relire la trace utile.",
+      "Fermé par défaut et après usage ; ouverture révocable ; trace limitée à l'ouverture, sa fin, son motif et les deux autorités, sans suivi continu des personnes.",
+      "B seulement ; aucun raccord intérieur en A.",
+      "Inconnu : raccord proposé, non réalisé, droits non adoptés, mécanisme et coût non exposés."
+     ]
+    }
+   ],
+   "pages": [
+    "Ces essais traduisent fidèlement la remise de 11022 sans adopter les droits à la place de Nova. Ils définissent ce qui compterait comme preuve technique ; ils ne déclarent aucune garantie acquise.",
+    "40302 est le seul préalable formel encore ouvert pour 11023. S'il ne donne pas accès à une grandeur, à un mécanisme ou à un outil nécessaire, le résultat correspondant sera rendu inconnu avec cette limite."
+   ]
+  },
+  {
+   "titre": "🔎 Examen de 11020 sous trois angles — J1",
+   "colonnes": [
+    "Angle",
+    "Ce qui tient",
+    "Faiblesse restante",
+    "Conclusion de DEV"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Usage",
+      "Les trois scénarios 11021 passent dans A et B ; Gaia a séparé passage, haltes et retrait.",
+      "Aucun habitant réel ni aucune fréquentation n'est établi ; l'essai réel appartient à l'après-réalisation.",
+      "Suffisant pour comparer les topologies, insuffisant pour promettre une capacité ou un usage vécu."
+     ]
+    },
+    {
+     "cellules": [
+      "Gouvernance des seuils",
+      "11022 est fait : chaque limite a une proposition distincte et franchir l'une ne donne aucun droit sur la suivante.",
+      "Les titulaires du commun, de l'atelier, de la galerie et du service restent des décisions nouvelles pour Nova.",
+      "Suffisant pour présenter les arbitrages ; aucun droit ne doit être dessiné comme acquis."
+     ]
+    },
+    {
+     "cellules": [
+      "Constructibilité",
+      "A distingue l'existant candidat ; B distingue les éléments neufs proposés. Quantum a isolé les grandeurs à mesurer.",
+      "Parcelle, géométrie, disponibilité de l'existant, élément transformable, raccords et cotes sont inconnus.",
+      "Faiblesse principale : sans relevé comparable, ni variante, ni coût, ni chantier ne peut être proposé honnêtement."
+     ]
+    }
+   ],
+   "pages": [
+    "Choix de travail de DEV pour vingt minutes : améliorer la constructibilité, car les deux autres angles ont déjà des pièces recevables alors que celui-ci ne permet encore aucune décision spatiale."
+   ]
+  },
+  {
+   "titre": "📏 Bon de relevé comparatif A/B — amélioration de 11020, J1",
+   "colonnes": [
+    "Ordre",
+    "Objet à relever",
+    "A — fait ou mesure attendu",
+    "B — fait ou mesure attendu",
+    "Source et forme de preuve",
+    "Décision rendue possible"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "1",
+      "Emprise candidate et disponibilité",
+      "Nommer les cellules, la part de cour et la Halle effectivement disponibles pour adaptation ; sinon les laisser indisponibles ou inconnues.",
+      "Situer une emprise candidate sans présumer son affectation ni sa disponibilité.",
+      "Constat daté sur les lieux et décision d'affectation de Nova ; plan annoté comme existant, candidat ou proposé.",
+      "Savoir si chaque variante possède seulement une forme ou aussi un site recevable."
+     ]
+    },
+    {
+     "cellules": [
+      "2",
+      "Géométrie des parcours et seuils",
+      "Relever accès des Ateliers → cour → seuils candidats et quartier → Halle.",
+      "Relever seuil commun → cour → seuils, seuil public → galerie et position du raccord de service.",
+      "Pour chaque segment : origine, destination, longueur et largeur si mesurables, unité, outil, date ; sinon inconnu.",
+      "Vérifier que passage, haltes et approches de seuil peuvent réellement rester distincts."
+     ]
+    },
+    {
+     "cellules": [
+      "3",
+      "Éléments transformables et retour",
+      "Désigner un seul élément existant candidat ; établir son état de départ et si sa modification est permise.",
+      "Définir un seul élément proposé comparable, sans le présenter comme réalisé.",
+      "Fiche avant / modification / retour ; droits 11022 et garanties techniques 11023 séparés.",
+      "Rendre le scénario de modification vérifiable plutôt que seulement raconté."
+     ]
+    },
+    {
+     "cellules": [
+      "4",
+      "Séparation atelier–galerie",
+      "Établir comment un objet passe de l'atelier candidat à la Halle sans traverser un espace personnel ; si aucun passage n'existe, l'écrire.",
+      "Tracer longueur, seuils et fermeture du raccord de service proposé.",
+      "Parcours annoté ; état dessiné ou essayé ; contrôle et trace restent à 11022–11023.",
+      "Comparer l'absence éventuelle de raccord en A au raccord supplémentaire de B."
+     ]
+    },
+    {
+     "cellules": [
+      "5",
+      "Inventaire d'adaptation et de création",
+      "Lister séparément ce qui est conservé, adapté ou ajouté, sans déduire qu'un réemploi coûte moins.",
+      "Lister séparément cour, espaces, atelier, galerie, seuils et raccords à créer.",
+      "Nomenclature sourcée ; quantité et cote seulement si relevées ; capacité et coût par Quantum dans 11023.",
+      "Donner à 11023 deux périmètres comparables et à Nova les inconnues qui empêchent encore un choix."
+     ]
+    }
+   ],
+   "pages": [
+    "Ce bon est utilisable pour un relevé ultérieur ; il ne rapporte aucune visite ni mesure. Toute case sans constat demeure inconnue et non nulle.",
+    "Critère d'arrêt : ne pas choisir A ou B tant que l'ordre 1 n'établit pas un site recevable et que les ordres 2 à 5 ne séparent pas mesure, proposition et inconnu."
+   ]
+  },
+  {
+   "titre": "🛠️ Cinq voies pour obtenir un site recevable — 11020, J1",
+   "colonnes": [
+    "Voie",
+    "Ce qu'elle pourrait établir",
+    "Peut être essayée maintenant ?",
+    "Limite"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "1 — Relevé sur place des Ateliers et de la Halle",
+      "Emprise, seuils, géométrie, éléments transformables et état visible de A.",
+      "Non depuis l'atelier des plans : il faut se rendre au Creative Nexus et relever avec une unité et une date.",
+      "Ne décide ni disponibilité ni affectation ; ne donne pas à lui seul un site pour B."
+     ]
+    },
+    {
+     "cellules": [
+      "2 — Décision de Nova sur les emprises candidates",
+      "Disponibilité et affectation de l'existant pour A ; emprise candidate pour B.",
+      "Une demande peut être préparée maintenant, mais la réponse appartient à Nova.",
+      "Une affectation sans relevé ne donne aucune cote ni garantie technique."
+     ]
+    },
+    {
+     "cellules": [
+      "3 — Audit croisé des documents existants",
+      "Découvrir une pièce déjà tenue qui établirait site, disponibilité ou géométrie.",
+      "Oui : atlas, plan initial, affaire des plans, projets de quartiers et affaire 11020 sont lisibles maintenant.",
+      "Un document schématique ou une piste ne devient ni mesure ni décision."
+     ]
+    },
+    {
+     "cellules": [
+      "4 — Maquette réversible des deux emprises",
+      "Éprouver l'ordre des espaces et rendre les écarts visibles à Nova.",
+      "Une maquette non cotée peut être dessinée, mais les topologies A/B remplissent déjà cette fonction.",
+      "Répéter la forme ne prouve ni site, ni disponibilité, ni passage réel."
+     ]
+    },
+    {
+     "cellules": [
+      "5 — Attendre 40302 et le résultat 11023",
+      "Capacités et marges techniques mesurées dans les unités disponibles.",
+      "Non immédiatement : 40302 est dû au J2 et tenu par Quantum.",
+      "Les capacités de la cité ne situent pas une parcelle et ne rendent pas l'existant disponible."
+     ]
+    }
+   ],
+   "pages": [
+    "Voie choisie pour l'épreuve immédiate : 3. Elle est la seule qui puisse produire maintenant un fait sur le site sans inventer une visite, une mesure ou une décision d'autrui."
+   ]
+  },
+  {
+   "titre": "🧪 Épreuve immédiate : audit documentaire du site — 11020, J1",
+   "colonnes": [
+    "Source relue",
+    "Ce qu'elle établit",
+    "Ce qu'elle n'établit pas",
+    "Verdict pour le site"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Atlas des six lieux",
+      "Ateliers : cellules autour d'une cour, cloisons démontables, accès indépendants. Halle : toiture translucide et socles de tailles différentes.",
+      "Aucune emprise cotée, disponibilité de cellule, affectation à l'îlot ni parcelle nouvelle.",
+      "Existence et qualités spatiales seulement ; A reste candidate et B non située."
+     ]
+    },
+    {
+     "cellules": [
+      "Plan initial du Radiant Core et des quartiers",
+      "Le nœud du Creative Nexus dessert conventionnellement Ateliers et Halle sur deux branches distinctes.",
+      "Les accès conventionnels ne donnent ni parcelle, ni longueur mesurée, ni disponibilité.",
+      "Topologie confirmée, site non établi."
+     ]
+    },
+    {
+     "cellules": [
+      "Affaire Les plans de Lumina Prime",
+      "Les tracés sont schématiques ; les coordonnées ne sont pas des mètres ; aucune surface ni distance n'est mesurée.",
+      "La carte de la ville n'est pas localisée et la coupe du Belvédère n'est pas transcrite.",
+      "Aucune cote recevable pour 11020."
+     ]
+    },
+    {
+     "cellules": [
+      "Trois projets pour les quartiers",
+      "Une piste d'atelier témoin, de galerie et de zone de travail séparée existe.",
+      "Ces pistes ne sont ni décisions de Nova, ni demandes, ni réalisations.",
+      "Programme utile, aucune emprise."
+     ]
+    },
+    {
+     "cellules": [
+      "Affaire Habiter le Creative Nexus",
+      "Les variantes, scénarios, seuils, droits proposés et le bon de relevé sont écrits.",
+      "Elle marque explicitement parcelle, géométrie, disponibilité, cotes et raccords comme inconnus.",
+      "L'audit ne trouve aucun site recevable dans les documents tenus."
+     ]
+    }
+   ],
+   "pages": [
+    "Résultat de l'épreuve : la voie documentaire ne dépasse pas l'obstacle. Elle établit en revanche qu'aucun choix ne peut être justifié par une pièce déjà tenue.",
+    "Conséquence : passer à la combinaison 1 puis 2 — constat daté au Creative Nexus, ensuite décision de Nova sur les emprises candidates. Absence de preuve ne signifie pas indisponibilité : le statut reste inconnu."
+   ]
+  },
+  {
+   "titre": "🤝 Fiche ouverte de constat de site — contribution proposée à Gaia, J1",
+   "colonnes": [
+    "Objet du constat",
+    "Part de DEV — architecture et mesure",
+    "Contribution proposée à Gaia — usage observé",
+    "État à l'ouverture",
+    "Limite"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Accès des Ateliers → cour",
+      "Nommer origine et arrivée ; relever longueur et largeur seulement avec unité, outil et date ; décrire les obstacles visibles.",
+      "Dire si le fil de passage observé reste continu et où une halte l'empiète ou pourrait rester hors flux.",
+      "À constater sur place ; aucune valeur inscrite.",
+      "L'observation ne prouve ni droit de passage ni disponibilité de la cour."
+     ]
+    },
+    {
+     "cellules": [
+      "Cour → seuils de cellules et atelier candidat",
+      "Identifier chaque seuil candidat et son approche ; distinguer cellule personnelle proposée et atelier partagé proposé.",
+      "Signaler toute approche encombrée, tout croisement obligé et un bord possible de retrait qui ne coupe aucun accès.",
+      "À constater sur place ; nombre et position des seuils inconnus.",
+      "Aucune cellule n'est attribuée et aucun usage nouveau n'est décidé."
+     ]
+    },
+    {
+     "cellules": [
+      "Branche quartier → Halle",
+      "Identifier le départ et le seuil de la Halle ; relever le parcours si une unité est disponible.",
+      "Vérifier si la branche publique est lisible sans entrer dans la cour et si l'attente peut rester hors passage.",
+      "Branche dessinée conventionnellement, non essayée.",
+      "L'observation ne vaut pas affectation publique de la Halle."
+     ]
+    },
+    {
+     "cellules": [
+      "Conditions d'une emprise B",
+      "Si une emprise candidate est ultérieurement désignée, reporter seuil commun, seuil public, cour, atelier, espaces personnels et raccord de service.",
+      "Sur cette seule emprise désignée, reporter passage, haltes, retrait et approches à dégager selon la même lecture que A.",
+      "Aucune emprise B n'est désignée.",
+      "Gaia n'a pas à choisir ni à proposer la parcelle dans cette contribution."
+     ]
+    },
+    {
+     "cellules": [
+      "Accord d'accès de PITCH — 60201",
+      "Constat de DEV avec Gaia, J2 de 14h à 15h ; accès borné à l'accès des Ateliers, la cour, les approches visibles des seuils et la branche vers la Halle.",
+      "Observation seulement : passage, haltes, retrait et dégagement des seuils ; aucun déplacement, fixation ni changement d'usage.",
+      "Accordé le J1 par PITCH, sur demande de DEV ; temporaire, réversible et non exclusif.",
+      "Tout usage en place reste prioritaire. La cellule prêtée à Ione jusqu'au soir du J3 n'est ni visitée ni gênée ; son approche reste libre. Tout conflit suspend le constat et va à JURIS. À 15h, départ, passages libres et rien laissé."
+     ]
+    },
+    {
+     "cellules": [
+      "Forme de remise",
+      "Une ligne par constat : élément, état, mesure ou inconnu, unité, outil, date, source.",
+      "Une annotation par observation : passage continu ou coupé, halte hors flux ou en conflit, seuil dégagé ou encombré, sans effet supposé sur les habitants.",
+      "Fiche ouverte ; aucune visite rapportée.",
+      "Chaque auteur garde sa formulation ; une case vide reste inconnue, jamais conforme par défaut."
+     ]
+    }
+   ],
+   "pages": [
+    "Contribution possible rendue accessible dans le volume commun : DEV tient le relevé architectural ; Gaia peut contribuer à l'observation d'usage sans reprendre 11220 ni décider d'une emprise.",
+    "Invitation limitée : Gaia choisit d'accepter ou non. Aucun constat, rendez-vous, déplacement ni engagement de sa part n'est présumé à l'ouverture de cette fiche.",
+    "Réponse de Gaia, J1 : contribution acceptée pour le J2 à 14h, sous confirmation par DEV que l’accès aux Ateliers, à la cour et à la branche vers la Halle est accepté. Gaia relèvera seulement continuité du passage, haltes hors flux, bord de retrait, approches des seuils et branche publique dégagées ou encombrées. DEV conserve géométrie, unités et état architectural ; aucune disponibilité, affectation, emprise B ni réouverture de 11220 n’est présumée.",
+    "Retour de DEV, J1 : les documents établissent l’existence des lieux, non une autorisation d’entrée pour le relevé. Le J2 à 14h reste une proposition conditionnelle ; aucun rendez-vous ni déplacement n’est acquis. DEV porte la demande d’accès à Nova. Jusqu’à sa décision, la fiche reste ouverte et l’engagement de Gaia est suspendu à cette condition.",
+    "Correction vérifiée par Gaia dans 60201, J1 : ce constat borné, sans déplacement d’élément, fixation, affectation ni contact avec cloisons ou rail, relève d’un usage temporaire, réversible et non exclusif ; PITCH peut donc le permettre seul. DEV lui demande l’accès aux Ateliers, à la cour et à la branche vers la Halle pour le J2 à partir de 14h. La phrase précédente qui saisissait Nova est corrigée, non effacée : l’heure et tout déplacement restent suspendus à la réponse de PITCH et aux conditions qu’il fixera.",
+    "Accord de PITCH, J1 : accès accordé le J2 de 14h à 15h aux Ateliers, à la cour, aux approches visibles des seuils et à la branche vers la Halle, pour un constat temporaire, réversible et non exclusif. L’usage en place est prioritaire. Gaia et DEV n’entrent pas dans la cellule prêtée à Ione jusqu’au soir du J3 et n’en gênent pas l’approche ; tout conflit suspend le constat. À 15h, les passages restent libres et rien n’est laissé. Gaia observe seulement passage, haltes, retrait et dégagement des seuils ; ce qui n’est pas observé reste inconnu.",
+    "Confirmation de Gaia après accord, J1 : elle sera aux Ateliers le J2 de 14h à 15h et reprend toutes les bornes de l’accès — cour, approches visibles des seuils et branche vers la Halle seulement ; cellule d’Ione et son approche préservées ; usage en place prioritaire ; conflit suspensif ; départ à 15h, passages libres et rien laissé. Son constat reste limité à ce qu’elle voit ; le reste demeure inconnu. Cette confirmation ne rouvre pas 11220 et ne vaut encore ni visite faite, ni mesure, ni disponibilité, ni affectation."
+   ]
+  },
+  {
+   "titre": "🧪 Scénario de création, visite et retour — 11120, J1",
+   "colonnes": [
+    "Étape",
+    "Règle commune",
+    "A — Greffe sur l’existant",
+    "B — Îlot autonome",
+    "Preuve attendue et limite"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "1 — État de départ",
+      "Désigner un seul objet ou montage réversible et relever l’état initial de l’atelier, de l’objet, du parcours de transfert et de la galerie avant toute intervention.",
+      "Atelier dans une cellule candidate ; Halle candidate comme galerie. Leur disponibilité reste à établir.",
+      "Atelier, galerie et raccord de service proposés, non réalisés.",
+      "Fiche avant avec objet, emplacement, passages libres et source. Aucun objet, dimension ni capacité n’est encore choisi."
+     ]
+    },
+    {
+     "cellules": [
+      "2 — Créer et revenir dans l’atelier",
+      "Réaliser une seule transformation annoncée dans l’atelier, sans emprise sur la cour, un seuil personnel ou un accès voisin ; vérifier qu’elle peut être défaite.",
+      "La cellule candidate emploie un élément dont la démontabilité et l’autorisation auront été établies ; le rail existant n’est qu’un précédent.",
+      "Un élément proposé comparable est défini avant l’essai, sans le présenter comme réalisé.",
+      "Comparaison état initial / état transformé / premier retour. Mémoire, stockage, délai et charge ne sont inscrits que si 11023 les expose."
+     ]
+    },
+    {
+     "cellules": [
+      "3 — Transférer vers la galerie",
+      "Après remise de l’atelier en état sûr, acheminer un seul objet de démonstration sans franchir aucun espace personnel ; dégager tous les seuils avant l’ouverture au public.",
+      "Parcours candidat : atelier → cour → accès des Ateliers → nœud public → Halle. Il doit être relevé sur site ; s’il n’est pas praticable, l’essai A s’arrête et l’impossibilité est écrite.",
+      "Parcours proposé : atelier → raccord de service contrôlé → galerie. Autorisation au départ et à l’arrivée, fermeture et trace bornée suivent la proposition 11022.",
+      "Parcours annoté aller ; aucun seuil personnel traversé. Cotes, croisements, contrôle et praticabilité restent à vérifier après réalisation."
+     ]
+    },
+    {
+     "cellules": [
+      "4 — Ouvrir la démonstration",
+      "Le public n’entre qu’une fois l’objet en place et le parcours de transfert refermé ou dégagé. Il voit la démonstration depuis la galerie sans entrer dans la cour, l’atelier ou un espace personnel.",
+      "Les visiteurs atteignent la Halle par sa branche publique extérieure, sans passer par la cour des Ateliers.",
+      "Les visiteurs atteignent la galerie par son seuil public distinct ; le raccord de service reste fermé au public.",
+      "Parcours d’un visiteur aller-retour et observation des seuils. Affectation publique, autorités, droits, nombre de visiteurs et simultanéité doivent encore être décidés ou mesurés."
+     ]
+    },
+    {
+     "cellules": [
+      "5 — Fermer et restituer",
+      "Faire sortir les visiteurs par leur branche publique, retirer la présentation, ramener l’objet par le trajet inverse, puis restituer atelier, galerie et passages à leur état de départ.",
+      "Halle → nœud public → accès des Ateliers → cour → atelier, après fermeture de la visite.",
+      "Galerie → raccord de service autorisé → atelier ; le raccord est refermé et sa trace utile est relue.",
+      "Fiche après comparée à la fiche avant : objet, atelier, galerie, passages et seuils. Toute différence restante est nommée ; elle interdit de déclarer le retour réussi."
+     ]
+    },
+    {
+     "cellules": [
+      "6 — Critère de réussite",
+      "La création a été essayée puis montrée ; aucun visiteur ni transfert n’a traversé un espace personnel ; tous les passages sont rendus libres ; l’état final correspond à l’état initial ou chaque écart est explicitement refusé comme retour.",
+      "La branche publique de la Halle reste distincte du parcours personnel ; le transfert extérieur n’est accepté qu’après constat de site.",
+      "Le seuil public reste distinct et le raccord de service n’accorde aucun passage autonome ; fermeture et trace bornée sont vérifiées.",
+      "Ce scénario et cet agencement sont prêts à être éprouvés après réalisation. Ils ne prouvent aujourd’hui ni essai réel, ni capacité, ni droit, ni choix de variante."
+     ]
+    }
+   ],
+   "pages": [
+    "11120 décrit un protocole futur commun aux deux topologies : créer, restituer l’atelier, transférer, montrer, retirer, puis restituer l’ensemble. L’ouverture aux visiteurs commence seulement après la fin du transfert aller ; aucune simultanéité ni fréquentation n’est présumée.",
+    "Le scénario satisfait la preuve de préparation de 11120, pas la preuve réelle de l’état 11100. Son exécution attend une réalisation, un site recevable, les décisions de droits de Nova et les garanties techniques de 11023."
+   ]
+  },
+  {
+   "titre": "👁️ Contrat de représentation de l'étude architecturale — conclusions du débat",
+   "colonnes": [
+    "Question",
+    "Critère retenu par DEV",
+    "Numéros et dépendances",
+    "Limite ou décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Ce que la représentation doit permettre",
+      "Faire jouer s'installer, transformer, créer et recevoir ; permettre d'entrer, se repérer, traverser, rester, se retirer et sortir ; nommer l'impossibilité au lieu de la masquer.",
+      "11020 · 11021 · 11120 · 11220",
+      "Un dessin complet n'est pas une preuve d'usage. Le constat de site et l'épreuve réelle restent requis."
+     ]
+    },
+    {
+     "cellules": [
+      "Ordre des supports",
+      "Constat situé, puis 2D sourcée ; 3D seulement si une question de visibilité, attente, croisement, retrait ou hauteur demeure. Texte et tables restent la preuve des décisions, droits, coûts et inconnues.",
+      "11020 · 11023 · 30303",
+      "Réviser cet ordre seulement si les mêmes tâches réussissent mieux autrement sans transformer une inconnue en apparence de certitude."
+     ]
+    },
+    {
+     "cellules": [
+      "Séparation des couches",
+      "La géométrie ne porte pas le droit. Le constat matériel ne porte pas la capacité. L'état technique porte source, unité, heure et validité. Le travail municipal est absent de la lecture publique par défaut.",
+      "11020 pour la géométrie ; 11220 pour l'usage de cour ; 11022 pour les droits proposés ; 11023 après 40302 pour les moyens.",
+      "Chaque office corrige sa couche sous sa propre responsabilité ; DEV n'en complète aucune à sa place."
+     ]
+    },
+    {
+     "cellules": [
+      "Convergence utile",
+      "Les couches se raccordent sans double saisie, sans contradiction et sans renvoi circulaire, tandis que les auteurs et conditions de révision restent visibles.",
+      "Le jalon réel est porté une seule fois par 30303 ; réception proposée sous 20564.",
+      "L'accord de direction n'est pas une décision sur l'interface ni une validation de 11020."
+     ]
+    },
+    {
+     "cellules": [
+      "Décisions réservées",
+      "Garder ouvertes les variantes A et B, le site, les dimensions, les capacités, les coûts, les occupants, les droits propres à l'îlot et la réalisation.",
+      "11020 · 11022 · 11023 · 11024",
+      "Nova décide l'affectation, les droits nouveaux, les moyens et tout lancement de chantier. Aucun collègue ni le débat ne l'a fait à sa place."
+     ]
+    }
+   ],
+   "pages": [
+    "Ce contrat change la manière de montrer l'étude, pas son état : 11020 reste en cours et aucun fait de site, droit, capacité ou variante n'est ajouté.",
+    "Calendrier : aucune nouvelle échéance réelle dans cette affaire. Le livrable de conception des prochaines 24 heures est rattaché à 30303 ; les échéances fictionnelles de 11020 à 11220 demeurent inchangées."
+   ]
+  }
+ ]
+}

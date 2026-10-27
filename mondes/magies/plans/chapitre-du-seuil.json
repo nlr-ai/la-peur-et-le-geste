@@ -1,0 +1,234 @@
+{
+ "nom": "Chapitre du Seuil",
+ "viewBox": "0 0 820 600",
+ "fonds": [],
+ "decor": [],
+ "mur": "M35 35H785V555H35Z",
+ "guet": [],
+ "rose": null,
+ "etiquettes": [],
+ "salles": [
+  {
+   "id": "chapitre-du-seuil-entree",
+   "nom": "Entrée",
+   "forme": {
+    "r": [
+     70,
+     410,
+     190,
+     115,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    444
+   ],
+   "lignes": [
+    "Entrée"
+   ],
+   "quoi": "Accès local au siège.",
+   "motifs": [
+    "entrée"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "chapitre-du-seuil-salle-commune",
+   "nom": "Le chapitre",
+   "forme": {
+    "r": [
+     300,
+     240,
+     220,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    410,
+    274
+   ],
+   "lignes": [
+    "Le chapitre"
+   ],
+   "quoi": "La règle commune s'y lit : motifs d'intervention, limites, et comptes à rendre.",
+   "motifs": [
+    "le chapitre",
+    "salle commune"
+   ],
+   "alias": [
+    "salle commune"
+   ],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "chapitre-du-seuil-garde",
+   "nom": "Salle de garde",
+   "forme": {
+    "r": [
+     70,
+     70,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    104
+   ],
+   "lignes": [
+    "Salle de garde"
+   ],
+   "quoi": "L'équipe d'intervention y attend, prête à partir.",
+   "motifs": [
+    "salle de garde"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "chapitre-du-seuil-fonds",
+   "nom": "Le fonds",
+   "forme": {
+    "r": [
+     300,
+     70,
+     220,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    410,
+    104
+   ],
+   "lignes": [
+    "Le fonds"
+   ],
+   "quoi": "Ce qu'on sait des autres écoles. Un mécanisme inconnu reste un obstacle tant qu'il n'est pas étudié.",
+   "motifs": [
+    "le fonds"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "chapitre-du-seuil-etude",
+   "nom": "Chambre d'étude",
+   "forme": {
+    "r": [
+     560,
+     70,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    104
+   ],
+   "lignes": [
+    "Chambre d'étude"
+   ],
+   "quoi": "🕳️ On y comprend un effet avant de l'interrompre. Ses conséquences déjà produites, elles, resteront.",
+   "motifs": [
+    "chambre d'étude"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "chapitre-du-seuil-composants",
+   "nom": "Réserve des composants",
+   "forme": {
+    "r": [
+     70,
+     240,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    274
+   ],
+   "lignes": [
+    "Réserve des",
+    "composants"
+   ],
+   "quoi": "🛡️ Protection : ce qui limite les interactions dangereuses.",
+   "motifs": [
+    "réserve des composants"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "chapitre-du-seuil-consolidation",
+   "nom": "Atelier de consolidation",
+   "forme": {
+    "r": [
+     560,
+     240,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    274
+   ],
+   "lignes": [
+    "Atelier de",
+    "consolidation"
+   ],
+   "quoi": "⚒️ Matière : on y répare les ouvrages qu'un incident a laissés debout de travers.",
+   "motifs": [
+    "atelier de consolidation"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "chapitre-du-seuil-greffe",
+   "nom": "Greffe des comptes rendus",
+   "forme": {
+    "r": [
+     560,
+     410,
+     190,
+     115,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    444
+   ],
+   "lignes": [
+    "Greffe des",
+    "comptes rendus"
+   ],
+   "quoi": "Hors accord signé, intervenir est un acte politique contestable. Cela s'écrit ici.",
+   "motifs": [
+    "greffe des comptes rendus"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  }
+ ]
+}

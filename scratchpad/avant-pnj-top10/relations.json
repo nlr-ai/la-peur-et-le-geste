@@ -1,0 +1,56 @@
+[
+  {
+    "source_id": "raymond-moreau",
+    "cible_id": "josette-moreau",
+    "opinion": 0,
+    "liens": [
+      "époux"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "josette-moreau",
+    "cible_id": "raymond-moreau",
+    "opinion": 0,
+    "liens": [
+      "époux"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "raymond-moreau",
+    "cible_id": "solange-joubert",
+    "opinion": 0,
+    "liens": [
+      "frère et sœur"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "solange-joubert",
+    "cible_id": "raymond-moreau",
+    "opinion": 0,
+    "liens": [
+      "frère et sœur"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "michel",
+    "cible_id": "lucien-frere-de-michel",
+    "opinion": 0,
+    "liens": [
+      "frères"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "lucien-frere-de-michel",
+    "cible_id": "michel",
+    "opinion": 0,
+    "liens": [
+      "frères"
+    ],
+    "connue_du_joueur": false
+  }
+]

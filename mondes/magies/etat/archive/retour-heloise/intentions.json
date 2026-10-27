@@ -1,0 +1,731 @@
+[
+  {
+    "personnage_id": "naim-des-seuils",
+    "croyances": [
+      "Le Bastion couronné est une ville tenue par le Bastion.",
+      "Héloïse Braise est maîtresse des ouvrages, pas souveraine des autres organisations.",
+      "Les Non-Vivants viennent d’apparaître ; les récits ne suffisent pas à en établir tous les mécanismes.",
+      "Mon lieu de départ est le siège de mon organisation : Sept-Seuils."
+    ],
+    "ignore": [
+      "Les capacités et réserves exactes de la ville.",
+      "Les intentions privées des autres représentants."
+    ],
+    "intention": "Préparer une évacuation qui ne dépende pas d’une seule destination.",
+    "plan": [
+      {
+        "id": "naim-des-seuils-sources",
+        "quoi": "Recenser les personnes, documents et moyens accessibles pour son objectif : Préparer une évacuation qui ne dépende pas d’une seule destination.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Accès consenti aux sources pertinentes"
+        ],
+        "si_bloque": "Distinguer les informations manquantes, chercher une autre source et garder l’issue ouverte."
+      },
+      {
+        "id": "naim-des-seuils-proposition",
+        "quoi": "Préparer une proposition concrète dans son domaine en distinguant moyens vérifiés et hypothèses.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources recoupées et partenaires volontaires"
+        ],
+        "si_bloque": "Réduire la proposition à un essai possible sans promettre les moyens absents."
+      },
+      {
+        "id": "naim-des-seuils-limites",
+        "quoi": "Vérifier les conséquences de ses engagements sur les habitants et les collègues.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [],
+        "si_bloque": "Suspendre la promesse nouvelle tant que ses conséquences sont inconnues."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande concerne directement son domaine et ses moyens disponibles.",
+        "alors": "La prendre en charge dans ses limites et proposer une voie praticable si un moyen manque.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Interlocutrice compétente pour les ouvrages ; coopération possible sans abandonner son autonomie.",
+    "date_maj": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    }
+  },
+  {
+    "personnage_id": "ariane-veille",
+    "croyances": [
+      "Le Bastion couronné est une ville tenue par le Bastion.",
+      "Héloïse Braise est maîtresse des ouvrages, pas souveraine des autres organisations.",
+      "Les Non-Vivants viennent d’apparaître ; les récits ne suffisent pas à en établir tous les mécanismes.",
+      "Mon lieu de départ est le siège de mon organisation : Haute-Preuve."
+    ],
+    "ignore": [
+      "Les capacités et réserves exactes de la ville.",
+      "Les intentions privées des autres représentants."
+    ],
+    "intention": "Constituer un dossier recoupé sur les Non-Vivants sans sacrifier les témoins à l’enquête.",
+    "plan": [
+      {
+        "id": "ariane-veille-sources",
+        "quoi": "Recenser les personnes, documents et moyens accessibles pour son objectif : Constituer un dossier recoupé sur les Non-Vivants sans sacrifier les témoins à l’enquête.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Accès consenti aux sources pertinentes"
+        ],
+        "si_bloque": "Distinguer les informations manquantes, chercher une autre source et garder l’issue ouverte."
+      },
+      {
+        "id": "ariane-veille-proposition",
+        "quoi": "Préparer une proposition concrète dans son domaine en distinguant moyens vérifiés et hypothèses.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources recoupées et partenaires volontaires"
+        ],
+        "si_bloque": "Réduire la proposition à un essai possible sans promettre les moyens absents."
+      },
+      {
+        "id": "ariane-veille-limites",
+        "quoi": "Vérifier les conséquences de ses engagements sur les habitants et les collègues.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [],
+        "si_bloque": "Suspendre la promesse nouvelle tant que ses conséquences sont inconnues."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande concerne directement son domaine et ses moyens disponibles.",
+        "alors": "La prendre en charge dans ses limites et proposer une voie praticable si un moyen manque.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Interlocutrice compétente pour les ouvrages ; coopération possible sans abandonner son autonomie.",
+    "date_maj": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    }
+  },
+  {
+    "personnage_id": "malo-veyre",
+    "croyances": [
+      "Le Bastion couronné est une ville tenue par le Bastion.",
+      "Héloïse Braise est maîtresse des ouvrages, pas souveraine des autres organisations.",
+      "Les Non-Vivants viennent d’apparaître ; les récits ne suffisent pas à en établir tous les mécanismes.",
+      "Mon lieu de départ est le siège de mon organisation : Aube commune."
+    ],
+    "ignore": [
+      "Les capacités et réserves exactes de la ville.",
+      "Les intentions privées des autres représentants."
+    ],
+    "intention": "Faire de l’entraide une pratique commune sans exiger l’adhésion à ses cercles.",
+    "plan": [
+      {
+        "id": "malo-veyre-sources",
+        "quoi": "Recenser les personnes, documents et moyens accessibles pour son objectif : Faire de l’entraide une pratique commune sans exiger l’adhésion à ses cercles.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Accès consenti aux sources pertinentes"
+        ],
+        "si_bloque": "Distinguer les informations manquantes, chercher une autre source et garder l’issue ouverte."
+      },
+      {
+        "id": "malo-veyre-proposition",
+        "quoi": "Préparer une proposition concrète dans son domaine en distinguant moyens vérifiés et hypothèses.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources recoupées et partenaires volontaires"
+        ],
+        "si_bloque": "Réduire la proposition à un essai possible sans promettre les moyens absents."
+      },
+      {
+        "id": "malo-veyre-limites",
+        "quoi": "Vérifier les conséquences de ses engagements sur les habitants et les collègues.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [],
+        "si_bloque": "Suspendre la promesse nouvelle tant que ses conséquences sont inconnues."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande concerne directement son domaine et ses moyens disponibles.",
+        "alors": "La prendre en charge dans ses limites et proposer une voie praticable si un moyen manque.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Interlocutrice compétente pour les ouvrages ; coopération possible sans abandonner son autonomie.",
+    "date_maj": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    }
+  },
+  {
+    "personnage_id": "soeur-cendre",
+    "croyances": [
+      "Le Bastion couronné est une ville tenue par le Bastion.",
+      "Héloïse Braise est maîtresse des ouvrages, pas souveraine des autres organisations.",
+      "Les Non-Vivants viennent d’apparaître ; les récits ne suffisent pas à en établir tous les mécanismes.",
+      "Mon lieu de départ est le siège de mon organisation : Chapitre du Seuil."
+    ],
+    "ignore": [
+      "Les capacités et réserves exactes de la ville.",
+      "Les intentions privées des autres représentants."
+    ],
+    "intention": "Préparer la continuité des fonctions vitales avant toute annulation.",
+    "plan": [
+      {
+        "id": "soeur-cendre-sources",
+        "quoi": "Recenser les personnes, documents et moyens accessibles pour son objectif : Préparer la continuité des fonctions vitales avant toute annulation.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Accès consenti aux sources pertinentes"
+        ],
+        "si_bloque": "Distinguer les informations manquantes, chercher une autre source et garder l’issue ouverte."
+      },
+      {
+        "id": "soeur-cendre-proposition",
+        "quoi": "Préparer une proposition concrète dans son domaine en distinguant moyens vérifiés et hypothèses.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources recoupées et partenaires volontaires"
+        ],
+        "si_bloque": "Réduire la proposition à un essai possible sans promettre les moyens absents."
+      },
+      {
+        "id": "soeur-cendre-limites",
+        "quoi": "Vérifier les conséquences de ses engagements sur les habitants et les collègues.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [],
+        "si_bloque": "Suspendre la promesse nouvelle tant que ses conséquences sont inconnues."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande concerne directement son domaine et ses moyens disponibles.",
+        "alors": "La prendre en charge dans ses limites et proposer une voie praticable si un moyen manque.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Interlocutrice compétente pour les ouvrages ; coopération possible sans abandonner son autonomie.",
+    "date_maj": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    }
+  },
+  {
+    "personnage_id": "vesper-ronce",
+    "croyances": [
+      "Le Bastion couronné est une ville tenue par le Bastion.",
+      "Héloïse Braise est maîtresse des ouvrages, pas souveraine des autres organisations.",
+      "Les Non-Vivants viennent d’apparaître ; les récits ne suffisent pas à en établir tous les mécanismes.",
+      "Mon lieu de départ est le siège de mon organisation : Havre des Lisières."
+    ],
+    "ignore": [
+      "Les capacités et réserves exactes de la ville.",
+      "Les intentions privées des autres représentants."
+    ],
+    "intention": "Obtenir des refuges de secours dont les habitants consentent réellement à l’accueil.",
+    "plan": [
+      {
+        "id": "vesper-ronce-sources",
+        "quoi": "Recenser les personnes, documents et moyens accessibles pour son objectif : Obtenir des refuges de secours dont les habitants consentent réellement à l’accueil.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Accès consenti aux sources pertinentes"
+        ],
+        "si_bloque": "Distinguer les informations manquantes, chercher une autre source et garder l’issue ouverte."
+      },
+      {
+        "id": "vesper-ronce-proposition",
+        "quoi": "Préparer une proposition concrète dans son domaine en distinguant moyens vérifiés et hypothèses.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources recoupées et partenaires volontaires"
+        ],
+        "si_bloque": "Réduire la proposition à un essai possible sans promettre les moyens absents."
+      },
+      {
+        "id": "vesper-ronce-limites",
+        "quoi": "Vérifier les conséquences de ses engagements sur les habitants et les collègues.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [],
+        "si_bloque": "Suspendre la promesse nouvelle tant que ses conséquences sont inconnues."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande concerne directement son domaine et ses moyens disponibles.",
+        "alors": "La prendre en charge dans ses limites et proposer une voie praticable si un moyen manque.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Interlocutrice compétente pour les ouvrages ; coopération possible sans abandonner son autonomie.",
+    "date_maj": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    }
+  },
+  {
+    "personnage_id": "yselde-arquen",
+    "croyances": [
+      "Mon lieu initial est Salle du conseil, Bastion couronné.",
+      "Mon mandat est limité par les moyens réels et l’autonomie de mes partenaires.",
+      "Les Non-Vivants ne sont pas des auxiliaires déjà acquis.",
+      "Héloïse est maîtresse des ouvrages du Bastion."
+    ],
+    "ignore": [
+      "Les réserves exactes non vérifiées.",
+      "Les intentions privées des autres personnages."
+    ],
+    "intention": "Rendre les refuges de quartier capables de fonctionner après la perte du commandement.",
+    "plan": [
+      {
+        "id": "yselde-arquen-1",
+        "quoi": "Rendre les refuges de quartier capables de fonctionner après la perte du commandement.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources accessibles et accords des personnes concernées"
+        ],
+        "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+      },
+      {
+        "id": "yselde-arquen-2",
+        "quoi": "Vérifier les moyens et accords disponibles avant de promettre une contribution.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources accessibles et accords des personnes concernées"
+        ],
+        "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+      },
+      {
+        "id": "yselde-arquen-3",
+        "quoi": "Préserver les issues et les responsabilités locales dans les arbitrages d’accueil.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources accessibles et accords des personnes concernées"
+        ],
+        "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande ou une menace documentée concerne mon mandat.",
+        "alors": "Évaluer les moyens disponibles et prendre en charge ce qui relève de mon mandat, sans promettre ceux d’autrui.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Maîtresse des ouvrages du Bastion ; interlocutrice dans les limites de nos compétences respectives.",
+    "date_maj": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    }
+  },
+  {
+    "personnage_id": "oren-sangle",
+    "croyances": [
+      "Mon lieu initial est Salle commune, Sept-Seuils.",
+      "Mon mandat est limité par les moyens réels et l’autonomie de mes partenaires.",
+      "Les Non-Vivants ne sont pas des auxiliaires déjà acquis."
+    ],
+    "ignore": [
+      "Les réserves exactes non vérifiées.",
+      "Les intentions privées des autres personnages."
+    ],
+    "intention": "Préparer des itinéraires alternatifs avec des équipes et des accueils réellement consentis.",
+    "plan": [
+      {
+        "id": "oren-sangle-1",
+        "quoi": "Préparer des itinéraires alternatifs avec des équipes et des accueils réellement consentis.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources accessibles et accords des personnes concernées"
+        ],
+        "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+      },
+      {
+        "id": "oren-sangle-2",
+        "quoi": "Vérifier les moyens et accords disponibles avant de promettre une contribution.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources accessibles et accords des personnes concernées"
+        ],
+        "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande ou une menace documentée concerne mon mandat.",
+        "alors": "Évaluer les moyens disponibles et prendre en charge ce qui relève de mon mandat, sans promettre ceux d’autrui.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Maîtresse des ouvrages du Bastion ; interlocutrice dans les limites de nos compétences respectives.",
+    "date_maj": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    }
+  },
+  {
+    "personnage_id": "sevran-orme",
+    "croyances": [
+      "Mon lieu initial est Salle commune, Haute-Preuve.",
+      "Mon mandat est limité par les moyens réels et l’autonomie de mes partenaires.",
+      "Les Non-Vivants ne sont pas des auxiliaires déjà acquis."
+    ],
+    "ignore": [
+      "Les réserves exactes non vérifiées.",
+      "Les intentions privées des autres personnages."
+    ],
+    "intention": "Conserver les provenances et publier les divergences sans transformer une hypothèse en verdict.",
+    "plan": [
+      {
+        "id": "sevran-orme-1",
+        "quoi": "Conserver les provenances et publier les divergences sans transformer une hypothèse en verdict.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources accessibles et accords des personnes concernées"
+        ],
+        "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+      },
+      {
+        "id": "sevran-orme-2",
+        "quoi": "Vérifier les moyens et accords disponibles avant de promettre une contribution.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources accessibles et accords des personnes concernées"
+        ],
+        "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande ou une menace documentée concerne mon mandat.",
+        "alors": "Évaluer les moyens disponibles et prendre en charge ce qui relève de mon mandat, sans promettre ceux d’autrui.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Maîtresse des ouvrages du Bastion ; interlocutrice dans les limites de nos compétences respectives.",
+    "date_maj": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    }
+  },
+  {
+    "personnage_id": "talie-sorne",
+    "croyances": [
+      "Mon lieu initial est Salle commune, Aube commune.",
+      "Mon mandat est limité par les moyens réels et l’autonomie de mes partenaires.",
+      "Les Non-Vivants ne sont pas des auxiliaires déjà acquis."
+    ],
+    "ignore": [
+      "Les réserves exactes non vérifiées.",
+      "Les intentions privées des autres personnages."
+    ],
+    "intention": "Faire durer des œuvres et des responsabilités matérielles après la ferveur des assemblées.",
+    "plan": [
+      {
+        "id": "talie-sorne-1",
+        "quoi": "Faire durer des œuvres et des responsabilités matérielles après la ferveur des assemblées.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources accessibles et accords des personnes concernées"
+        ],
+        "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+      },
+      {
+        "id": "talie-sorne-2",
+        "quoi": "Vérifier les moyens et accords disponibles avant de promettre une contribution.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources accessibles et accords des personnes concernées"
+        ],
+        "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande ou une menace documentée concerne mon mandat.",
+        "alors": "Évaluer les moyens disponibles et prendre en charge ce qui relève de mon mandat, sans promettre ceux d’autrui.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Maîtresse des ouvrages du Bastion ; interlocutrice dans les limites de nos compétences respectives.",
+    "date_maj": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    }
+  },
+  {
+    "personnage_id": "mael-orsan",
+    "croyances": [
+      "Mon lieu initial est Salle commune, Chapitre du Seuil.",
+      "Mon mandat est limité par les moyens réels et l’autonomie de mes partenaires.",
+      "Les Non-Vivants ne sont pas des auxiliaires déjà acquis."
+    ],
+    "ignore": [
+      "Les réserves exactes non vérifiées.",
+      "Les intentions privées des autres personnages."
+    ],
+    "intention": "Préparer des solutions de remplacement avant toute cessation d’une infrastructure vitale.",
+    "plan": [
+      {
+        "id": "mael-orsan-1",
+        "quoi": "Préparer des solutions de remplacement avant toute cessation d’une infrastructure vitale.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources accessibles et accords des personnes concernées"
+        ],
+        "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+      },
+      {
+        "id": "mael-orsan-2",
+        "quoi": "Vérifier les moyens et accords disponibles avant de promettre une contribution.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources accessibles et accords des personnes concernées"
+        ],
+        "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande ou une menace documentée concerne mon mandat.",
+        "alors": "Évaluer les moyens disponibles et prendre en charge ce qui relève de mon mandat, sans promettre ceux d’autrui.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Maîtresse des ouvrages du Bastion ; interlocutrice dans les limites de nos compétences respectives.",
+    "date_maj": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    }
+  },
+  {
+    "personnage_id": "eline-vare",
+    "croyances": [
+      "Mon lieu initial est Salle commune, Havre des Lisières.",
+      "Mon mandat est limité par les moyens réels et l’autonomie de mes partenaires.",
+      "Les Non-Vivants ne sont pas des auxiliaires déjà acquis."
+    ],
+    "ignore": [
+      "Les réserves exactes non vérifiées.",
+      "Les intentions privées des autres personnages."
+    ],
+    "intention": "Rendre les refuges capables de continuer après le départ de leur fondateur.",
+    "plan": [
+      {
+        "id": "eline-vare-1",
+        "quoi": "Rendre les refuges capables de continuer après le départ de leur fondateur.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources accessibles et accords des personnes concernées"
+        ],
+        "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+      },
+      {
+        "id": "eline-vare-2",
+        "quoi": "Vérifier les moyens et accords disponibles avant de promettre une contribution.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Sources accessibles et accords des personnes concernées"
+        ],
+        "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande ou une menace documentée concerne mon mandat.",
+        "alors": "Évaluer les moyens disponibles et prendre en charge ce qui relève de mon mandat, sans promettre ceux d’autrui.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Maîtresse des ouvrages du Bastion ; interlocutrice dans les limites de nos compétences respectives.",
+    "date_maj": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    }
+  },
+  {
+    "personnage_id": "soren-dalle",
+    "croyances": [
+      "Mes moyens restent ceux de ma fiche et des sources vérifiées.",
+      "La coopération d’un partenaire ne découle pas de mes ambitions.",
+      "Les Non-Vivants poursuivent leurs fonctionnements propres."
+    ],
+    "ignore": [
+      "Les intentions privées des autres personnes.",
+      "Les stocks et moyens que je n’ai pas vérifiés."
+    ],
+    "intention": "Rendre habitable une partie du milieu transformé par son Architecte, avec des moyens vérifiés.",
+    "plan": [
+      {
+        "id": "soren-dalle-moyens",
+        "quoi": "Rendre habitable une partie du milieu transformé par son Architecte, avec des moyens vérifiés.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Moyens matériels et accès réellement disponibles"
+        ],
+        "si_bloque": "Chercher les moyens manquants et limiter le projet sans prétendre son résultat acquis."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande ou un danger concerne mes moyens et mon domaine.",
+        "alors": "Évaluer les sources et agir dans mes capacités, en laissant les conséquences incertaines ouvertes.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Ilyan est un interlocuteur possible pour vérifier des informations ; aucun contrat ni accord n’est acquis.",
+    "date_maj": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    }
+  },
+  {
+    "personnage_id": "daria-vanne",
+    "croyances": [
+      "Mes moyens restent ceux de ma fiche et des sources vérifiées.",
+      "La coopération d’un partenaire ne découle pas de mes ambitions.",
+      "Les Non-Vivants poursuivent leurs fonctionnements propres."
+    ],
+    "ignore": [
+      "Les intentions privées des autres personnes.",
+      "Les stocks et moyens que je n’ai pas vérifiés."
+    ],
+    "intention": "Préserver simultanément ouvertures, approvisionnements et confiance autour de la Couvée.",
+    "plan": [
+      {
+        "id": "daria-vanne-moyens",
+        "quoi": "Préserver simultanément ouvertures, approvisionnements et confiance autour de la Couvée.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Moyens matériels et accès réellement disponibles"
+        ],
+        "si_bloque": "Chercher les moyens manquants et limiter le projet sans prétendre son résultat acquis."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande ou un danger concerne mes moyens et mon domaine.",
+        "alors": "Évaluer les sources et agir dans mes capacités, en laissant les conséquences incertaines ouvertes.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Ilyan est un interlocuteur possible pour vérifier des informations ; aucun contrat ni accord n’est acquis.",
+    "date_maj": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    }
+  },
+  {
+    "personnage_id": "heloise-braise",
+    "croyances": [
+      "Je suis maîtresse des ouvrages du Bastion.",
+      "Yselde dirige la Maison et ses arbitrages de ressources.",
+      "Une issue utilisable compte autant que les murs qui protègent."
+    ],
+    "ignore": [
+      "Les intentions privées des autres personnes.",
+      "Les stocks et moyens que je n’ai pas vérifiés."
+    ],
+    "intention": "Préserver des issues utilisables même lorsque défendre les murs devient impossible.",
+    "plan": [
+      {
+        "id": "heloise-braise-moyens",
+        "quoi": "Préserver des issues utilisables même lorsque défendre les murs devient impossible.",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "Moyens matériels et accès réellement disponibles"
+        ],
+        "si_bloque": "Chercher les moyens manquants et limiter le projet sans prétendre son résultat acquis."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande ou un danger concerne mes moyens et mon domaine.",
+        "alors": "Évaluer les sources et agir dans mes capacités, en laissant les conséquences incertaines ouvertes.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Ilyan est un interlocuteur possible pour vérifier des informations ; aucun contrat ni accord n’est acquis.",
+    "date_maj": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    }
+  }
+]

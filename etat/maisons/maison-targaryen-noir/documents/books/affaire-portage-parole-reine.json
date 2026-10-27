@@ -120,24 +120,6 @@
     {
      "cellules": [
       "partage",
-      "Le rôle des bouches",
-      "M15 🏘️ Le bourg",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Prise de Port-Réal",
-      "M15 🏘️ Le bourg",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
       "Proclamation de la reine au royaume",
       "O04 🏃 Coureurs de la reine",
       "",
@@ -230,14 +212,14 @@
     {
      "cellules": [
       "M15 🏘️ Le bourg",
-      "⚔️ 9023 · ⚔️ 9026",
-      "Blessés, morts et prisonniers · Le rôle des bouches · Prise de Port-Réal · Ravitaillement et ordre public de la ville coupée"
+      "⚔️ 9023",
+      "Blessés, morts et prisonniers · Ravitaillement et ordre public de la ville coupée"
      ]
     },
     {
      "cellules": [
       "O04 🏃 Coureurs de la reine",
-      "⚔️ 9020 · ⚔️ 9021 · ⚔️ 9022 · ⚔️ 9023 · ⚔️ 9024 · ⚔️ 9025 · ⚔️ 9026",
+      "⚔️ 9021 · ⚔️ 9022 · ⚔️ 9023",
       "L'homme de l'intérieur · Proclamation de la reine au royaume"
      ]
     }
@@ -252,6 +234,12 @@
    "lignes": [
     {
      "cellules": [
+      "⚔️ action que personne ne peut porter — aucun office, aucun nom",
+      "⚔️ 9020 · ⚔️ 9024 · ⚔️ 9025 · ⚔️ 9026"
+     ]
+    },
+    {
+     "cellules": [
       "🔒 verrou qu'aucune clef n'ouvre — il est mal nommé",
       "🔒 9006"
      ]
@@ -259,13 +247,19 @@
     {
      "cellules": [
       "🗝️ clef retenue qu'aucune action ne réalise — une décision sans geste",
-      "🗝️ 9013"
+      "🗝️ 9013 · 🗝️ 9110 · 🗝️ 9111"
      ]
     },
     {
      "cellules": [
-      "↗️ raccourci — le renvoi saute un rang de la chaîne du guide",
-      "⚔️ 9026"
+      "⚔️ action dont la chaîne ne remonte à aucun état cible",
+      "⚔️ 9020 · ⚔️ 9024 · ⚔️ 9025 · ⚔️ 9026"
+     ]
+    },
+    {
+     "cellules": [
+      "⚔️ action orpheline — elle ne désigne aucune clef, elle n'a jamais rien remonté",
+      "⚔️ 9020 · ⚔️ 9024 · ⚔️ 9025 · ⚔️ 9026"
      ]
     }
    ]

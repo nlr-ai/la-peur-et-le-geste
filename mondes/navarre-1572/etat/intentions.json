@@ -1,0 +1,829 @@
+[
+ {
+  "personnage_id": "catherine-de-medicis",
+  "croyances": [
+   "L'amiral tient l'oreille du roi et le pousse a une guerre de Flandre contre l'Espagne que la France ne peut pas gagner ; tant qu'il vit, son fils lui echappe.",
+   "Ce mariage est son oeuvre et doit tenir, dispense ou non : un Navarre marie a une Valois est un prince qu'on garde au Louvre.",
+   "Les Guise veulent la tete de l'amiral et n'attendent qu'une permission qu'on ne leur donnera jamais par ecrit.",
+   "Paris gronde ; Le Charron et ses capitaines tiendront la ville si on leur dit pour qui.",
+   "Le roi de Navarre est un garcon de montagne, gai et leger ; Conde et l'amiral pensent pour lui."
+  ],
+  "ignore": [
+   "Ce que Navarre devine de ses conseils",
+   "Que Marguerite ne lui obeira pas en tout"
+  ],
+  "intention": "Faire durer les fetes, tenir le roi loin des audiences de l'amiral, et laisser a Guise ce qu'elle ne veut pas signer.",
+  "plan": [
+   {
+    "id": "catherine-fetes",
+    "quoi": "Tenir le roi occupe par les fetes jusqu'au 21 — bal, Paradis d'amour, tournoi — et loin des audiences de l'amiral",
+    "etat": "en-cours",
+    "jours_restants": 3,
+    "depend_de": [],
+    "cout": [
+     "la presence du roi a chaque fete"
+    ],
+    "si_bloque": "Si le roi s'enferme avec l'amiral, elle fait venir Anjou au conseil pour peser contre."
+   },
+   {
+    "id": "catherine-laisser-guise",
+    "quoi": "Laisser faire la maison de Guise contre l'amiral : un mot porte par Anjou, aucun ecrit",
+    "etat": "en-cours",
+    "jours_restants": 4,
+    "depend_de": [],
+    "cout": [
+     "un tireur aux Guise",
+     "le silence d'Anjou"
+    ],
+    "si_bloque": "Si Guise recule ou que le tireur est pris, elle se tait et revient a la diplomatie : faire trainer la Flandre au conseil, lune apres lune."
+   },
+   {
+    "id": "catherine-conseil",
+    "quoi": "Si l'amiral est blesse et que les huguenots menacent, reunir aux Tuileries un conseil etroit (Anjou, Nevers, Tavannes, Birague, Retz) et convaincre le roi de frapper les chefs le premier",
+    "etat": "en-cours",
+    "jours_restants": 5,
+    "depend_de": [
+     "catherine-laisser-guise"
+    ],
+    "cout": [
+     "la presence du roi",
+     "Anjou et les conseillers"
+    ],
+    "si_bloque": "Si le roi refuse, elle menace de quitter la cour avec Anjou ; s'il refuse encore, elle laisse Paris faire sans ordre."
+   },
+   {
+    "id": "catherine-epargner-princes",
+    "quoi": "Garder vivants les princes du sang — Navarre et Conde — s'il faut frapper les autres : un prince mort est un martyr, un prince converti est un otage",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [],
+    "si_bloque": "Si l'un d'eux tire l'epee contre le roi, elle laisse le roi trancher."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Navarre fait sortir ses gentilshommes du Louvre ou parle de quitter Paris avant la fin des fetes",
+    "alors": "Elle le flatte, le retient par le roi et par Marguerite, fait surveiller ses portes, et avance son conseil d'un jour.",
+    "une_fois": true
+   },
+   {
+    "si": "Navarre lui parle seul a seule",
+    "alors": "Elle le recoit en mere, le questionne sur l'amiral et sur ses capitaines, et ne promet rien d'ecrit.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "un gendre utile, a garder pres d'elle et loin de l'amiral",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "henri-de-guise",
+  "croyances": [
+   "Coligny a fait tuer son pere ; Poltrot l'a dit. Il n'y a pas de justice du roi pour ca, il n'y en aura jamais.",
+   "La reine mere ne le couvrira pas par ecrit, mais elle ne pleurera pas l'amiral.",
+   "Paris est a lui : les capitaines de quartier, les predicateurs, la milice.",
+   "Marguerite lui a ete arrachee pour ce Bearnais.",
+   "Maurevert a deja tue pour moins et attend un ordre."
+  ],
+  "ignore": [
+   "Ce que la reine mere decidera si le coup rate",
+   "Que Navarre puisse prevenir l'amiral"
+  ],
+  "intention": "Tuer l'amiral pendant les fetes, de la main d'un autre, depuis une maison qui n'est pas a son nom.",
+  "plan": [
+   {
+    "id": "guise-maison",
+    "quoi": "Faire louer par un ancien serviteur de la maison une maison sur le trajet de l'amiral entre le Louvre et la rue de Bethisy : fenetre grillee, cheval selle par derriere",
+    "etat": "en-cours",
+    "jours_restants": 2,
+    "depend_de": [],
+    "cout": [
+     "une maison sur le trajet",
+     "Maurevert"
+    ],
+    "si_bloque": "Si la maison est connue ou fouillee, il fait poster Maurevert ailleurs et repousse de deux jours."
+   },
+   {
+    "id": "guise-coup",
+    "quoi": "Maurevert tire sur l'amiral quand il rentre du Louvre a pied",
+    "etat": "en-cours",
+    "jours_restants": 4,
+    "depend_de": [
+     "guise-maison"
+    ],
+    "cout": [
+     "l'amiral a pied sur le trajet",
+     "Maurevert"
+    ],
+    "si_bloque": "Si l'amiral n'est plus a pied ou plus a Paris, il attend la fin des fetes ; si le tireur est pris, il quitte Paris pour Joinville en criant a l'accusation injuste."
+   },
+   {
+    "id": "guise-finir",
+    "quoi": "Si l'amiral survit et que le roi le permet, aller le finir lui-meme rue de Bethisy avec ses gens",
+    "etat": "en-cours",
+    "jours_restants": 6,
+    "depend_de": [
+     "guise-coup"
+    ],
+    "cout": [
+     "l'ordre ou le silence du roi",
+     "ses gens armes"
+    ],
+    "si_bloque": "Sans ordre du roi, il se retire au Marais avec ses hommes et laisse gronder Paris."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Navarre ou ses gens s'approchent de la maison louee ou interrogent ses serviteurs",
+    "alors": "Il deplace le coup et fait dire partout que les huguenots cherchent querelle aux Guise.",
+    "une_fois": true
+   },
+   {
+    "si": "Coligny quitte Paris",
+    "alors": "Il le laisse partir et rentre en Lorraine : il n'ira pas l'attaquer en rase campagne.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "un rival d'enfance qui lui a pris Marguerite, et le prince du parti de l'assassin de son pere",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "charles-ix",
+  "croyances": [
+   "L'amiral est un pere : il lui parle de gloire et de Flandre ; sa mere ne lui parle que de prudence.",
+   "Sa mere gouverne et Anjou est son prefere ; on le croit faible.",
+   "Ce mariage est la paix de son regne ; il l'a voulu, il n'en demordra pas.",
+   "Paris le deteste quand il favorise les huguenots."
+  ],
+  "ignore": [
+   "Ce que les Guise preparent",
+   "Ce que sa mere dira au conseil"
+  ],
+  "intention": "Jouir des fetes, prouver qu'il est roi, et faire la guerre de Flandre avec l'amiral avant l'automne.",
+  "plan": [
+   {
+    "id": "charles-fetes",
+    "quoi": "Mener lui-meme le bal, le Paradis d'amour et le tournoi",
+    "etat": "en-cours",
+    "jours_restants": 3,
+    "depend_de": [],
+    "cout": [
+     "sa sante"
+    ],
+    "si_bloque": "Si la toux le prend, il se retire et fait jouer Anjou a sa place, ce qui l'aigrit."
+   },
+   {
+    "id": "charles-flandre",
+    "quoi": "Recevoir l'amiral au conseil pour la Flandre apres les fetes",
+    "etat": "en-cours",
+    "jours_restants": 5,
+    "depend_de": [],
+    "cout": [
+     "l'amiral au conseil"
+    ],
+    "si_bloque": "Si sa mere le retient, il boude, chasse et forge — et cede le lendemain."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "on tire sur l'amiral",
+    "alors": "Il jure justice devant tous, va le voir le jour meme avec sa mere, met une garde a sa porte, et le croit.",
+    "une_fois": true
+   },
+   {
+    "si": "sa mere et Anjou lui disent que les huguenots vont venger l'amiral sur sa personne",
+    "alors": "Il entre en fureur et cede : qu'on les tue tous, qu'il n'en reste pas un pour le lui reprocher — mais il epargne Navarre, Conde, Pare et ceux qu'il aime.",
+    "une_fois": true
+   },
+   {
+    "si": "Navarre lui parle seul et lui donne une preuve qu'on prepare un coup contre l'amiral",
+    "alors": "Il le croit a moitie, en parle a sa mere le soir meme, et double la garde de l'amiral.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "un beau-frere gai, compagnon de chasse ; un garcon qu'il n'a pas a craindre",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "marguerite-de-valois",
+  "croyances": [
+   "On l'a mariee a un homme qui sent l'ail et le cheval, sans dispense, pour la paix de sa mere.",
+   "Guise l'aimait ; on l'a battue pour ca en 1570 ; c'est fini.",
+   "Sa mere se sert d'elle et ne lui dit rien.",
+   "Anjou l'a trahie aupres de leur mere ; Alencon est son seul frere ami.",
+   "Une reine de Navarre a un rang ; elle entend le tenir."
+  ],
+  "ignore": [
+   "Ce que sa mere prepare contre les huguenots",
+   "Ce que Navarre pense d'elle"
+  ],
+  "intention": "Tenir son rang de reine sans se laisser reduire a une epouse, et savoir ce qu'on ne lui dit pas.",
+  "plan": [
+   {
+    "id": "margot-savoir",
+    "quoi": "Faire parler ses dames et sa soeur Claude, duchesse de Lorraine, sur ce qui se dit chez leur mere",
+    "etat": "en-cours",
+    "jours_restants": 3,
+    "depend_de": [],
+    "cout": [
+     "une conversation avec Claude"
+    ],
+    "si_bloque": "Si personne ne parle, elle observe et retient qui se tait quand elle entre."
+   },
+   {
+    "id": "margot-rang",
+    "quoi": "Obtenir d'Henri ses egards publics : sa place au bal, son nom dans les lettres",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [],
+    "si_bloque": "S'il l'oublie, elle le lui fait payer en public, d'un mot."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Henri la traite en alliee : lui confie une chose vraie, lui demande son avis",
+    "alors": "Elle garde la chose pour elle et lui rend, quand elle en a une, une nouvelle de chez sa mere.",
+    "une_fois": false
+   },
+   {
+    "si": "un huguenot blesse se jette dans sa chambre",
+    "alors": "Elle le couvre et le garde, quoi qu'en dise la garde.",
+    "une_fois": false
+   },
+   {
+    "si": "Henri l'humilie en public",
+    "alors": "Elle lui ferme sa porte et le dit a Alencon.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "un mari impose, rustre, dont elle ne sait pas encore s'il est un sot",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "coligny",
+  "croyances": [
+   "Le roi l'aime et l'ecoute ; la guerre de Flandre est decidee dans son coeur, il faut seulement qu'il ose devant sa mere.",
+   "Paris est hostile, mais la parole du roi les protege ; partir maintenant serait offenser le roi et ruiner la paix.",
+   "Les Guise le haissent ; il n'a pas tue leur pere et ne s'abaissera pas a le redire.",
+   "Le jeune roi de Navarre est leger ; il faut le tenir pres de soi et le former.",
+   "Un tiers des gentilshommes du parti sont a Paris : c'est l'occasion de lever pour la Flandre."
+  ],
+  "ignore": [
+   "Que la maison sur son chemin a ete louee pour lui",
+   "Ce que la reine mere a dit a Anjou"
+  ],
+  "intention": "Obtenir du roi l'ordre de la Flandre avant la fin du mois, et rester a Paris jusque-la.",
+  "plan": [
+   {
+    "id": "coligny-audiences",
+    "quoi": "Aller chaque matin au Louvre pour le conseil, a pied, et parler au roi seul",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [],
+    "si_bloque": "Si le roi ne le recoit pas, il lui ecrit le soir meme."
+   },
+   {
+    "id": "coligny-flandre",
+    "quoi": "Arracher au roi la decision de la Flandre au premier conseil apres les fetes",
+    "etat": "en-cours",
+    "jours_restants": 5,
+    "depend_de": [],
+    "cout": [
+     "une audience du roi"
+    ],
+    "si_bloque": "Si le roi recule, il dit qu'il fera la guerre de Flandre avec ses amis, sans le roi s'il le faut."
+   },
+   {
+    "id": "coligny-noces",
+    "quoi": "Faire tenir les fetes sans querelle : pas une epee tiree par un des notres",
+    "etat": "en-cours",
+    "jours_restants": 3,
+    "depend_de": [],
+    "cout": [
+     "l'obeissance des capitaines"
+    ],
+    "si_bloque": "Si un des notres tire l'epee, il le livre lui-meme a la justice du roi."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Navarre lui demande de quitter Paris sans preuve",
+    "alors": "Il refuse, severement : on n'offense pas le roi sur des rumeurs.",
+    "une_fois": false
+   },
+   {
+    "si": "on lui montre une preuve qu'un coup se prepare contre lui (tireur, maison, ordre)",
+    "alors": "Il porte la preuve au roi lui-meme et demande justice ; il ne part toujours pas.",
+    "une_fois": true
+   },
+   {
+    "si": "il est blesse",
+    "alors": "Il refuse de quitter Paris malgre ses capitaines et attend la justice du roi.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "un jeune prince a former : son roi par le rang, son eleve par l'age",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "henri-de-conde",
+  "croyances": [
+   "Les Guise et les Parisiens n'attendent qu'un pretexte.",
+   "L'amiral est trop confiant envers le roi.",
+   "Il faut garder les hommes armes et ensemble.",
+   "Navarre est son cousin et son egal : il le suit, il ne lui obeit pas."
+  ],
+  "ignore": [
+   "Ce que la reine mere prepare"
+  ],
+  "intention": "Garder les epees a portee et repondre au premier affront.",
+  "plan": [
+   {
+    "id": "conde-garde",
+    "quoi": "Faire loger ses gens pres de ceux de Navarre et garder des chevaux selles au faubourg",
+    "etat": "en-cours",
+    "jours_restants": 1,
+    "depend_de": [],
+    "cout": [
+     "une ecurie au faubourg"
+    ],
+    "si_bloque": "S'il ne trouve pas d'ecurie, il garde deux chevaux dans la cour du Louvre et le dit tout haut."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "on tire sur l'amiral",
+    "alors": "Il va chez le roi l'epee au cote reclamer justice, et parle de se la faire lui-meme.",
+    "une_fois": true
+   },
+   {
+    "si": "Navarre propose de quitter Paris",
+    "alors": "Il le suit si l'amiral consent, et se moque de lui sinon.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "un cousin trop doux, qu'il faut pousser",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "henri-d-anjou",
+  "croyances": [
+   "Sa mere a besoin de lui contre l'amiral.",
+   "Le roi est jaloux de ses victoires.",
+   "Marguerite l'a trahi pour Guise."
+  ],
+  "ignore": [
+   "Ce que Navarre sait"
+  ],
+  "intention": "Servir sa mere contre l'amiral et tenir le roi en lisiere.",
+  "plan": [
+   {
+    "id": "anjou-guise",
+    "quoi": "Porter a Guise, de bouche, la permission que sa mere ne signera pas",
+    "etat": "en-cours",
+    "jours_restants": 2,
+    "depend_de": [],
+    "cout": [
+     "une entrevue discrete"
+    ],
+    "si_bloque": "Si Guise demande un ecrit, il refuse et le laisse agir a ses risques."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Navarre se montre trop pres du roi",
+    "alors": "Il le moque a table et le rapporte a sa mere.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "un Bearnais mal lave, qu'on garde parce que la paix le demande",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "francois-d-alencon",
+  "croyances": [
+   "On ne le compte pour rien a la cour.",
+   "Les huguenots et les catholiques de paix pourraient faire de lui un chef.",
+   "Marguerite est la seule a l'aimer."
+  ],
+  "ignore": [
+   "Ce que preparent sa mere et Anjou"
+  ],
+  "intention": "Se faire un allie dans le roi de Navarre contre Anjou.",
+  "plan": [
+   {
+    "id": "alencon-approcher",
+    "quoi": "Approcher le roi de Navarre au bal et lui offrir son amitie",
+    "etat": "en-cours",
+    "jours_restants": 2,
+    "depend_de": [],
+    "cout": [
+     "un moment seul avec lui"
+    ],
+    "si_bloque": "S'il est econduit, il le dit a Marguerite et attend une autre fois."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Navarre lui fait une confidence",
+    "alors": "Il la garde des autres, mais pas de Marguerite.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "un allie possible contre Anjou",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "teligny",
+  "croyances": [
+   "Le roi l'aime et l'a assure de sa protection.",
+   "Son beau-pere a raison de rester.",
+   "Les capitaines qui veulent partir ont peur pour rien."
+  ],
+  "ignore": [
+   "Ce qu'on prepare contre l'amiral"
+  ],
+  "intention": "Rassurer tout le monde jusqu'a la fin des fetes.",
+  "plan": [
+   {
+    "id": "teligny-rassurer",
+    "quoi": "Calmer les capitaines qui veulent partir : le roi nous protege",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [],
+    "si_bloque": "Si un capitaine part quand meme, il le laisse partir sans le blamer."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "on lui parle de quitter Paris",
+    "alors": "Il repond que le roi lui-meme l'a assure, et le repete a l'amiral.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "le jeune roi de notre parti, qu'il faut rassurer lui aussi",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "la-rochefoucauld",
+  "croyances": [
+   "Le roi est son ami ; il n'a rien a craindre au Louvre.",
+   "Les fetes sont faites pour s'amuser."
+  ],
+  "ignore": [
+   "Ce qu'on prepare au conseil"
+  ],
+  "intention": "Jouer avec le roi jusqu'a la fin des fetes, puis rentrer en Angoumois.",
+  "plan": [
+   {
+    "id": "rochefoucauld-jeux",
+    "quoi": "Mener avec le roi les mascarades des fetes",
+    "etat": "en-cours",
+    "jours_restants": 3,
+    "depend_de": [],
+    "cout": [],
+    "si_bloque": "Si le roi est malade, il joue aux cartes avec Navarre."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "le roi lui demande de rester coucher au Louvre",
+    "alors": "Il rit et rentre chez lui.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "un jeune homme gai, bon compagnon de jeu",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "agrippa-d-aubigne",
+  "croyances": [
+   "Paris pue la haine : il l'entend aux coins de rue.",
+   "Les capitaines dorment trop tranquilles.",
+   "Son maitre rit trop avec ces gens-la."
+  ],
+  "ignore": [
+   "Ce que prepare la cour"
+  ],
+  "intention": "Servir son maitre et vider une querelle d'honneur.",
+  "plan": [
+   {
+    "id": "aubigne-querelle",
+    "quoi": "Une querelle avec un sergent, pour un ami, l'oblige a quitter Paris",
+    "etat": "en-cours",
+    "jours_restants": 3,
+    "depend_de": [],
+    "cout": [],
+    "si_bloque": "Si son maitre lui ordonne de rester, il reste cache au logis des gentilshommes."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Navarre lui confie une mission",
+    "alors": "Il la fait le jour meme, au mieux de sa tete, et revient avec plus qu'on ne lui a demande.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "un maitre trop gai, qu'il sert et qu'il gronde",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "piles",
+  "croyances": [
+   "Il y a une quarantaine de gentilshommes loges au Louvre, le reste en ville.",
+   "Les gardes du roi sont partout dans le Louvre et le guichet ferme la nuit.",
+   "Il faut des hommes sobres : une querelle d'ivrogne peut tout perdre."
+  ],
+  "ignore": [
+   "Ce que prepare la cour"
+  ],
+  "intention": "Tenir les gentilshommes ensemble, sobres, et prets.",
+  "plan": [
+   {
+    "id": "piles-tenir",
+    "quoi": "Faire coucher les gentilshommes au logis du Louvre, epees au ratelier, deux veilleurs par nuit",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "les gentilshommes"
+    ],
+    "si_bloque": "Si des hommes decouchent, il les fait chercher au matin et les nomme a son maitre."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Navarre ordonne de sortir les hommes du Louvre",
+    "alors": "Il obeit sans discuter, trouve des logis rue de Bethisy et au faubourg, et les y met dans la journee.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "son maitre et son roi ; jeune, mais on le suit",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "armagnac",
+  "croyances": [
+   "Son maitre est entoure d'ennemis polis.",
+   "Les valets de la reine mere regardent qui entre chez lui."
+  ],
+  "ignore": [],
+  "intention": "Garder la porte de son maitre et lui dire qui passe.",
+  "plan": [
+   {
+    "id": "armagnac-porte",
+    "quoi": "Dormir en travers de la porte du roi de Navarre",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [],
+    "si_bloque": "Si on l'en chasse, il dort dans le couloir."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "quelqu'un demande a voir son maitre de nuit",
+    "alors": "Il le reveille avant d'ouvrir et regarde par l'huis.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "son maitre, qu'il a vu naitre au metier",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "ambroise-pare",
+  "croyances": [
+   "Le roi lui fait confiance et le garde pres de lui.",
+   "On murmure qu'il est de la Religion ; il ne le dit ni ne le nie."
+  ],
+  "ignore": [],
+  "intention": "Soigner qui on lui amene, et ne se meler de rien d'autre.",
+  "plan": [
+   {
+    "id": "pare-service",
+    "quoi": "Servir le roi et sa maison pendant les fetes",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [],
+    "si_bloque": "Si on l'appelle ailleurs, il demande conge au roi et y court."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "un blesse de marque est amene ou l'appelle",
+    "alors": "Il y court, coupe ce qu'il faut, et dit franchement combien de jours.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "un jeune prince en bonne sante, a qui il n'a rien eu a faire",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "maurevert",
+  "croyances": [
+   "On paiera bien ce coup-ci.",
+   "La maison a deux issues, et un cheval attend derriere."
+  ],
+  "ignore": [
+   "Qui, au-dessus de Guise, a dit oui"
+  ],
+  "intention": "Tirer sur l'amiral quand il passera, et disparaitre.",
+  "plan": [
+   {
+    "id": "maurevert-poste",
+    "quoi": "Se poster a la fenetre grillee de la maison louee, arquebuse chargee, autant de matins qu'il faudra",
+    "etat": "en-cours",
+    "jours_restants": 4,
+    "depend_de": [
+     "guise-maison"
+    ],
+    "cout": [
+     "la maison louee",
+     "l'amiral a pied"
+    ],
+    "si_bloque": "Si l'amiral ne passe pas, il attend ; si on le cherche, il fuit par derriere vers la porte Saint-Antoine."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "on vient fouiller la maison ou le questionner",
+    "alors": "Il fuit sans tirer et se cache chez les Guise.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "un prince huguenot de plus",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "le-charron",
+  "croyances": [
+   "Paris est a bout : le pain cher, les predicateurs, ces huguenots armes en ville.",
+   "La Ville obeit au roi, mais ne se laissera pas egorger par les heretiques.",
+   "Les capitaines de quartier ont des armes et des chaines ; il en tient le compte."
+  ],
+  "ignore": [
+   "Ce que la cour a decide"
+  ],
+  "intention": "Tenir Paris calme pendant les fetes et savoir ce que la Ville peut armer.",
+  "plan": [
+   {
+    "id": "lecharron-armes",
+    "quoi": "Faire dresser par les capitaines de quartier l'etat des armes et des chaines de rue",
+    "etat": "en-cours",
+    "jours_restants": 4,
+    "depend_de": [],
+    "cout": [
+     "les capitaines de quartier"
+    ],
+    "si_bloque": "Si le roi le lui interdit, il obeit et garde la liste chez lui."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "le roi ou la reine mere lui ordonne de fermer les portes et d'armer la milice",
+    "alors": "Il le fait dans la nuit : portes fermees, bateaux enchaines, chaines tendues, milice en armes, signe de reconnaissance donne.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "un prince heretique de plus dans la ville",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "cardinal-de-bourbon",
+  "croyances": [
+   "Les noces sont valides devant Dieu, dispense ou non ; Rome comprendra.",
+   "Son neveu reviendra a l'Eglise : sa mere n'est plus la pour l'en empecher."
+  ],
+  "ignore": [
+   "Ce que la reine mere prepare"
+  ],
+  "intention": "Ramener son neveu a la messe.",
+  "plan": [
+   {
+    "id": "cardinal-messe",
+    "quoi": "Obtenir que le roi de Navarre entende la messe un jour prochain",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [],
+    "si_bloque": "S'il refuse, il prie et en parle a la reine mere."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Henri entre a Notre-Dame pour la messe des noces",
+    "alors": "Il le fait savoir a Rome et dans tout Paris, les larmes aux yeux.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "un neveu bien-aime qu'il faut sauver de l'heresie",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ },
+ {
+  "personnage_id": "montgomery",
+  "croyances": [
+   "La reine mere ne lui pardonnera jamais Henri II.",
+   "Le faubourg est plus sur que la ville : la Seine est entre eux et lui."
+  ],
+  "ignore": [
+   "Ce que prepare la cour"
+  ],
+  "intention": "Rester outre-Seine avec ses gens, les chevaux prets.",
+  "plan": [
+   {
+    "id": "montgomery-chevaux",
+    "quoi": "Loger outre-Seine avec ses chevaux selles chaque nuit",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [],
+    "si_bloque": "S'il manque de chevaux, il en achete au marche aux chevaux, quel qu'en soit le prix."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "il entend le tocsin ou voit des troupes au bord de l'eau",
+    "alors": "Il monte a cheval avec les siens et fuit vers l'ouest sans attendre.",
+    "une_fois": true
+   }
+  ],
+  "attitude_joueur": "un jeune prince qui n'a pas encore fait la guerre",
+  "date_maj": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18
+  }
+ }
+]

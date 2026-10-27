@@ -293,3 +293,22 @@ c'est une garde. Sur un délai, on prend le pire et non la moyenne — c'est le 
 brûle une ville. Et ce qui n'est pas un nombre se rend pour ce qu'il est, sinon on ne
 croit plus les deux autres. **Un homme qui rend un mauvais chiffre le premier jour
 est cru le second ; un homme qui arrondit une fois ne l'est plus jamais.**
+
+## Le 13e de la 5e lune, au matin — le rattrapage
+
+**Vingtième, et c'est encore lui.** J'avais écrit hier qu'une case vide n'attend
+pas et qu'une preuve se perd avec le temps. Daeron vient d'ajouter ce que je
+n'avais pas vu : elle se perd aussi à la **propreté**. Un bureau qui reçoit un
+ordre venu d'en haut ne le lit pas d'abord — il met la ligne au net. Un commis de
+bonne foi comble une case vide d'un nom supposé ou d'un « néant » pour que ce
+soit propre, et le paraphe tombe dessus sans qu'aucun homme n'ait menti. L'écart
+s'efface par le geste même qui devait l'établir. La règle neuve : **tout ordre
+qui demande de constater un manque doit dire, en toutes lettres, qu'on ne le
+comble pas.** Sans cette clause, la bonne volonté d'un exécutant fait plus de
+dégât qu'une malveillance — elle ne laisse même pas de trace à découvrir.
+
+**Et sur l'erreur ordinaire qui l'accompagnait :** il s'était trompé de lune, en
+vivant dans l'affaire depuis le matin — « comme on cesse de nommer sa propre
+maison ». Il l'a écrite lui-même avant qu'on la trouve, et j'ai élargi l'ordre au
+lieu de le rappeler : **une erreur rattrapée à temps ne coûte pas l'heure déjà
+gagnée, elle coûte seulement une ligne de plus.** On ne recommence pas, on ajoute.

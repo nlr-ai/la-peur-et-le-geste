@@ -1,0 +1,109 @@
+{
+ "maison_id": "groupe-des-pentes",
+ "_": "CE QUE LE GROUPE DES PENTES A SOUS LA MAIN. Chiffres de jeu, INVENTION DÉCLARÉE. Rien de ceci n'est écrit nulle part dans la fiction : c'est ce que Merle et Claire ont en tête. Le chiffre atteint Marcel par leur bouche, et seulement quand il est du groupe.",
+ "mains": [
+  {
+   "id": "cave-de-merle",
+   "quoi": "Le papier, les stencils et l'encre de la cave",
+   "porteur": {
+    "type": "personnage",
+    "id": "auguste-merle"
+   },
+   "lieu_id": "lyon",
+   "mandat": null,
+   "mesure": [
+    {
+     "id": "rames",
+     "quoi": "rames de papier journal en réserve",
+     "unite": "rames",
+     "valeur": 2,
+     "rythme": {
+      "par": -1,
+      "jours": 7
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": 20,
+     "depend_de": [],
+     "_": "Un numéro tiré à trois mille exemplaires mange deux rames ; un numéro tous les quinze jours, plus les tracts. Remonte seulement quand quelqu'un en vole ou en achète au marché noir."
+    },
+    {
+     "id": "stencils",
+     "quoi": "stencils vierges pour la ronéo",
+     "unite": "stencils",
+     "valeur": 4,
+     "rythme": {
+      "par": -2,
+      "jours": 7
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": 100,
+     "depend_de": [],
+     "_": "Pour les tracts et les petits tirages ; la presse à bras sert au journal."
+    }
+   ],
+   "seuils": [
+    {
+     "id": "plus-de-papier",
+     "mesure_id": "rames",
+     "quand": "sous",
+     "valeur": 2,
+     "promeut": "scene",
+     "affaire": "Merle n'a plus de quoi tirer le prochain numéro : il faut trouver du papier avant la quinzaine.",
+     "franchi_le": null
+    }
+   ],
+   "dernier_rapport": null,
+   "date_maj": {
+    "annee": 1943,
+    "lune": 3,
+    "jour": 5
+   }
+  },
+  {
+   "id": "caisse-du-groupe",
+   "quoi": "L'argent venu de Londres par le mouvement",
+   "porteur": {
+    "type": "personnage",
+    "id": "simone-dutreuil"
+   },
+   "lieu_id": "lyon",
+   "mandat": null,
+   "mesure": [
+    {
+     "id": "caisse",
+     "quoi": "francs dans la caisse du groupe",
+     "unite": "francs",
+     "valeur": 40000,
+     "rythme": {
+      "par": -700,
+      "jours": 1
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": 200000,
+     "depend_de": [],
+     "_": "Paie les loyers des planques, les faux papiers (de l'ordre de mille francs le jeu), l'aide aux familles des réfractaires et des arrêtés. Remonte par une remise du mouvement, environ une fois par mois, si la liaison tient."
+    }
+   ],
+   "seuils": [
+    {
+     "id": "caisse-a-sec",
+     "mesure_id": "caisse",
+     "quand": "sous",
+     "valeur": 10000,
+     "promeut": "scene",
+     "affaire": "Claire n'a plus de quoi payer les planques au-delà de deux semaines : il faut une remise du mouvement, ou des gens qu'on cesse d'aider.",
+     "franchi_le": null
+    }
+   ],
+   "dernier_rapport": null,
+   "date_maj": {
+    "annee": 1943,
+    "lune": 3,
+    "jour": 5
+   }
+  }
+ ]
+}

@@ -40,8 +40,12 @@ import datetime
 import os
 import sys
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ETAT = os.path.join(RACINE, "etat")
+import racines
+
+# `RACINE` reste le DEPOT : elle ne sert plus qu'a `os.path.relpath`, pour
+# AFFICHER le chemin d'une tete archivee.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 
 
 from temps.expose import occupation  # QUI EST ASSIS — la mesure, pas le drapeau

@@ -1,0 +1,204 @@
+{
+  "nom": "Imprimerie du Progrès",
+  "viewBox": "0 0 1000 480",
+  "fonds": [],
+  "mur": "",
+  "guet": [],
+  "decor": [
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L490.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L780.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L210.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M780.0,152.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,312.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,312.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    }
+  ],
+  "etiquettes": [],
+  "salles": [
+    {
+      "id": "imprimerie-progres",
+      "nom": "Accueil",
+      "forme": {
+        "r": [
+          80,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        148.5
+      ],
+      "lignes": [
+        "Accueil"
+      ],
+      "cle": true,
+      "quoi": "Accueil — Imprimerie du Progrès.",
+      "motifs": [
+        "Accueil, Imprimerie du Progrès"
+      ],
+      "alias": []
+    },
+    {
+      "id": "imprimerie-progres-piece-2",
+      "nom": "Composition",
+      "forme": {
+        "r": [
+          360,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        148.5
+      ],
+      "lignes": [
+        "Composition"
+      ],
+      "cle": true,
+      "quoi": "Composition — Imprimerie du Progrès.",
+      "motifs": [
+        "Composition, Imprimerie du Progrès"
+      ],
+      "alias": []
+    },
+    {
+      "id": "imprimerie-progres-piece-3",
+      "nom": "Salle des presses",
+      "forme": {
+        "r": [
+          640,
+          90,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        148.5
+      ],
+      "lignes": [
+        "Salle des presses"
+      ],
+      "cle": true,
+      "quoi": "Salle des presses — Imprimerie du Progrès.",
+      "motifs": [
+        "Salle des presses, Imprimerie du Progrès"
+      ],
+      "alias": []
+    },
+    {
+      "id": "imprimerie-progres-piece-4",
+      "nom": "Réserve de papier",
+      "forme": {
+        "r": [
+          80,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        308.5
+      ],
+      "lignes": [
+        "Réserve de papier"
+      ],
+      "cle": true,
+      "quoi": "Réserve de papier — Imprimerie du Progrès.",
+      "motifs": [
+        "Réserve de papier, Imprimerie du Progrès"
+      ],
+      "alias": []
+    },
+    {
+      "id": "imprimerie-progres-piece-5",
+      "nom": "Bureau",
+      "forme": {
+        "r": [
+          360,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        308.5
+      ],
+      "lignes": [
+        "Bureau"
+      ],
+      "cle": true,
+      "quoi": "Bureau — Imprimerie du Progrès.",
+      "motifs": [
+        "Bureau, Imprimerie du Progrès"
+      ],
+      "alias": []
+    },
+    {
+      "id": "imprimerie-progres-piece-6",
+      "nom": "Cour de livraison",
+      "forme": {
+        "r": [
+          640,
+          250,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        308.5
+      ],
+      "lignes": [
+        "Cour de livraison"
+      ],
+      "cle": true,
+      "quoi": "Cour de livraison — Imprimerie du Progrès.",
+      "motifs": [
+        "Cour de livraison, Imprimerie du Progrès"
+      ],
+      "alias": []
+    }
+  ],
+  "_": "Plan de fiction canonique. Disposition schématique ; aucun relevé historique revendiqué."
+}

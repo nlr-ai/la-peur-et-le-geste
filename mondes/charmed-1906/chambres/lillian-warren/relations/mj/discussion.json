@@ -1,0 +1,80 @@
+{
+  "canal": [
+    "lillian-warren",
+    "mj"
+  ],
+  "entrees": [
+    {
+      "de": "lillian-warren",
+      "date": {
+        "annee": 1906,
+        "lune": 4,
+        "jour": 18
+      },
+      "texte": "ff"
+    },
+    {
+      "de": "lillian-warren",
+      "date": {
+        "annee": 1906,
+        "lune": 4,
+        "jour": 18
+      },
+      "texte": "ss"
+    },
+    {
+      "de": "lillian-warren",
+      "date": {
+        "annee": 1906,
+        "lune": 4,
+        "jour": 18
+      },
+      "texte": "[DEMANDER] ??"
+    },
+    {
+      "de": "lillian-warren",
+      "date": {
+        "annee": 1906,
+        "lune": 4,
+        "jour": 18
+      },
+      "texte": "[DEMANDER] kkkk"
+    },
+    {
+      "de": "lillian-warren",
+      "date": {
+        "annee": 1906,
+        "lune": 4,
+        "jour": 18
+      },
+      "texte": "[DEMANDER] Est-ce que tu m'entends ?"
+    },
+    {
+      "de": "lillian-warren",
+      "date": {
+        "annee": 1906,
+        "lune": 4,
+        "jour": 18
+      },
+      "texte": "[DEMANDER] Est-ce que tu m'entends ?"
+    },
+    {
+      "de": "lillian-warren",
+      "date": {
+        "annee": 1906,
+        "lune": 4,
+        "jour": 18
+      },
+      "texte": "[DEMANDER] ping"
+    },
+    {
+      "de": "mj",
+      "date": {
+        "annee": 1906,
+        "lune": 4,
+        "jour": 18
+      },
+      "texte": "Rien à faire sur ce réveil : je n'ai envoyé aucun billet et je n'ai rien écrit.\n\n- **« ping » de lillian-warren** : c'est un personnage non joueur (dans `mondes/charmed-1906/etat/joueurs.json`, elle est rattachée au siège de Prudence). Un personnage non joueur ne demande rien au MJ, et « ping » n'apporte ni fait, ni décision, ni question qui me ferait agir. Je me tais, comme le veut la règle.\n- **La partie `la-poterne-noir` jointe au message n'est pas dans ce monde.** Ce réveil tourne avec `CONSEIL_MONDE=charmed-1906`. `partie.py --etat` va donc chercher la partie dans `mondes/charmed-1906/etat/parties/`, où elle n'existe pas. D'où l'affichage vide (« Trait à 🔵 », rien sur la table). La vraie partie est dans `etat/parties/`, le monde de Westeros. Là-bas, rien n'attend l'arbitre : le dernier coup (n°45) est une question du camp noir sur le serment de Wat. C'est au camp vert d'y répondre, et au camp noir de jouer ensuite son coup du tour. Je n'y ai pas touché, puisqu'écrire depuis ce monde-ci serait écrire au mauvais endroit.\n\n⚠️ **Le tour précédent de Rhaenyra est resté inachevé** (action `vmthg04kg2gih`, « Vous laisser panser en attendant »). Le pansement et la matinée sont au fil, jusqu'à 10h37. Mais le rapport de Gerardys à onze heures n'est jamais revenu : la session s'est fermée pendant qu'il était en route. Il manque aussi la dernière réponse qui rend la main à la joueuse, donc son écran s'arrête sur « la matinée passe ».\n\nAu prochain réveil de Rhaenyra, il faudra relancer Gerardys. Il ne peut plus partir par la commande habituelle, sa journée étant pleine. J'ai dû passer par `/tmp/dep_g2.py`, qui appelle directement `agents.depeche.mission.depecher(..., forcer_creux=True)`. C'est un détour : l'option n'existe pas dans la commande `depecher.py`. Il vaudrait mieux l'y ajouter pour que ça devienne le chemin normal."
+    }
+  ]
+}

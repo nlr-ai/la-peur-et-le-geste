@@ -1,0 +1,47 @@
+{
+  "pilot_id": "refus-fictif-001",
+  "status": "scenario_fictif",
+  "operator_id": null,
+  "holder_request": {
+    "submitted": true,
+    "holder_id": "titulaire-fictif",
+    "requested_at": "2026-09-10T23:00:00+02:00",
+    "purpose": "éprouver le refus avant accès",
+    "may_abandon_without_effect": true
+  },
+  "consent": {
+    "granted": false,
+    "confirmed_by_holder": false,
+    "revocable": true,
+    "revoked": false,
+    "granted_at": null,
+    "expires_at": null,
+    "allowed_operations": [],
+    "authorized_readers": [],
+    "source": {
+      "chamber_root": null,
+      "included_file_relative": null,
+      "excluded": ["tout fichier réel"]
+    },
+    "withdrawal_route": null
+  },
+  "guardian_mandate": {
+    "granted": false,
+    "guardian_id": null,
+    "accepted_at": null,
+    "storage_root": null,
+    "allowed_actions": [],
+    "retention_until": null,
+    "copy_withdrawal_route": null
+  },
+  "restore_request": {
+    "submitted": false,
+    "confirmed_by_holder": false,
+    "requested_at": null,
+    "reason": null
+  },
+  "journal": {
+    "relative_name": "journal-acces.jsonl",
+    "fields": ["date", "actor", "operation", "object", "decision", "result", "sha256_before", "sha256_after"]
+  }
+}

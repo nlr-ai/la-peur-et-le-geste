@@ -1,0 +1,27 @@
+{
+  "personnage_id": "augustine-simonneau",
+  "croyances": [],
+  "ignore": [],
+  "intention": "Préserver la discrétion de sa boutique et distinguer ce qui est attesté de ce qui circule.",
+  "plan": [
+    {
+      "id": "autonomie-1940-06-16-augustine-simonneau",
+      "quoi": "Objectif de simulation créé pour ce passage, non accompli : Examiner dans sa boutique les travaux de papier ou de photographie réellement en attente et les fournitures accessibles ; prévoir comment protéger les documents confiés sans supposer de commande. Échéance : avant le soir du 16 juin 1940.",
+      "etat": "en-cours",
+      "jours_restants": 0,
+      "depend_de": [],
+      "cout": [
+        "Temps de démarche et de déplacement ; disponibilité et accès effectifs à vérifier ; obligations habituelles à respecter."
+      ],
+      "si_bloque": "Constater le résultat négatif ou l’obstacle réel ; ne fabriquer ni demande, incident, stock, interlocuteur disponible ni réussite. Ne pas avancer la décision d’un joueur."
+    }
+  ],
+  "declencheurs": [],
+  "attitude_joueur": "Voir les liens exportés ; aucun accord avec les frères présumé.",
+  "date_maj": {
+    "annee": 1940,
+    "lune": 6,
+    "jour": 16,
+    "minute": 571
+  }
+}

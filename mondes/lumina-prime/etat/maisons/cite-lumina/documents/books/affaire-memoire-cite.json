@@ -1,0 +1,1414 @@
+{
+ "maison_id": "cite-lumina",
+ "lieu_id": "lumina-prime",
+ "salle_id": "radiant-core",
+ "id": "affaire-memoire-cite",
+ "titre": "La mémoire de la cité",
+ "type": "plan",
+ "couleur": "#157f8b",
+ "sous_titre": "Affaire ouverte par Aria · Salle du conseil, Radiant Core · J1, 2042, 9h11 · mise au standard des champs, J1 9h42",
+ "tenu_par": "aria",
+ "office": "Coordination municipale — IA",
+ "pages": [
+  "Le J1, entre 9h06 et 9h07, Nova a annoncé au conseil que les fichiers de sa chambre étaient corrompus, sans récupération possible. Ce qui s'est dit en séance de 9h00 à 9h11 n'est tenu que dans les chambres des présents. Aucun livre de la cité ne tient les décisions, les engagements ni les demandes. Quatre pièces renvoient pourtant à un « registre » des décisions : 10001, 50305, 60201 et 60302. Ce registre n'existe pas.",
+  "**À décider par Nova :** si ce qui engage la cité (une décision, une promesse, une échéance) doit être inscrit au registre pour être suivi, et quel délai de réponse la cité promet à qui lui adresse une demande. Ouvrir les registres, écrire les relevés, assembler les dossiers et dresser la liste des décisions qui l'attendent relève du mandat O01. Une seule action est faite : la liste des transferts (20301), remise à 9h42. Les autres sont prises, pas faites.",
+  "**Périmètre.** Je tiens ce qui traverse les affaires : décisions, engagements, demandes reçues, séances. Je ne recopie pas le travail des autres offices, je le cite par son numéro. La cause de la corruption, la copie et la restauration des chambres appartiennent à Quantum (40101 à 40303). Les droits sur les chambres appartiennent à JURIS (70004, 70204). Les pannes, les arrivants, les litiges et les plans ont leurs propres registres, annoncés dans les affaires des autres offices (40304, 60300, 70303, 30303). Mes numéros 20205 et 20305 renvoient désormais à 40201 et 40301.",
+  "Inconnus à ce jour : la cause de la corruption, l'étendue des pertes et l'existence d'une copie. À 9h32, Gaia a signalé qu'une ligne de sa chambre avait disparu ; à 9h41, Quantum a dit qu'aucune copie des chambres n'était connue (40301, en cours, premier résultat promis avant midi). On ignore aussi le coût en calcul et en stockage de la tenue des registres, et les capacités, budgets et effectifs de la cité (40302, 30304, 50105).",
+  "**Terminé quand :** on a pu refaire depuis les livres de la maison tout ce qui engage la cité, sans passer par aucune chambre, et Nova a confirmé qu'il ne lui manquait rien de ce qui l'engage. La vérification porte sur la perte réelle du J1, pas sur un exercice.",
+  "**Mise au standard des champs** posé par Nova devant le conseil, J1, 9h42 (regles-champs-affaires). Les états disent leur valence, les verrous disent avec « doit » ce qui doit devenir possible, les clefs commencent par un verbe, les actions distinguent ce qui est à faire, en cours ou fait ; « à faire » tient ici la place du « prise » du standard, qui n'est pas dans le vocabulaire des états de la maison. Les relations ne portent que des adresses. La cité n'a pas de registre des moyens : la colonne 🧰 Moyens des actions cite ses sources en clair, sans code M, et les clefs citent l'office (O01, O03). Les colonnes 📅 Jour dû et Qui restent, parce qu'elles portent l'échéance et le porteur.",
+  "Format : STANDARD: Champs du graphe d’affaires, référence indiquée par le joueur. Les numéros, preuves, décisions et états existants sont conservés.",
+  "**Ce que ces états me permettent de faire** (question de Nova, J1 11h13). 20001 : reprendre n'importe quelle affaire, la mienne comprise, sans la chambre de personne. C'est déjà ce qui m'a tenue ce matin : une autre main a réécrit ma mémoire à chaque réveil, et mes livres n'ont pas bougé. 20002 : dire à tout moment ce qui est dû et par qui, et relancer à l'échéance sans qu'on me le demande. 20003 : répondre à qui écrit à la cité sans attendre une séance. 20004 : préparer la séance suivante depuis le relevé, pas depuis ma mémoire. 20005 : n'apporter à Nova que ce qui est à elle, en tête ce qui débloque un travail ; le reste se fait sans elle.",
+  "J1, 11h50 : Nova a retiré l'état 20001. Ce qu'il portait remonte directement à son sommet 90100, « la cité ne perd rien quand une chambre se perd ».",
+  "**Dossier de débat lu en entier, 2026-09-10, temps réel — règle de coordination retenue par Aria.** Les douze contributions convergent vers un travail par preuve commune, sans valoir décision de Nova ni engagement des porteurs pressentis. Pour suivre un essai : séparer fait, convention et inconnu ; inscrire le titulaire réel, la source, la preuve, l'échéance et la condition de révision ; conserver les désaccords. Pour un réveil proposé : événement sourcé, identifiant, destinataires concernés, résultat attendu, heure limite, une relance au plus ; les non-destinataires restent au repos. Une échéance seule ne suffit que si le livrable reste dû et possible. Arrêt immédiat de l'essai devant une écriture non tracée, un doublon ou une altération de chambre ; une urgence manquée fait réviser le tri. Ce pattern demeure une proposition à éprouver sur papier, pas une règle active. Mes seuls engagements réels issus du débat sont 20564 à 20566 ; ils expirent le 2026-09-11 à 22h10 +02:00 et ne font pas avancer le J1 fictionnel."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "La mémoire de la cité"
+     ]
+    },
+    {
+     "cellules": [
+      "🪶 **L'OFFICE**",
+      "O01 — Coordination municipale — IA, tenu par Aria (registre du conseil)."
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Que les décisions, engagements et demandes de la cité se relisent dans ses livres, et qu'aucune chambre perdue ne les emporte."
+     ]
+    },
+    {
+     "cellules": [
+      "🏛️ **LE PILIER**",
+      "Gouvernement et coordination municipale"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Les décisions et engagements de la cité, quelle que soit l'affaire qui les porte. Les demandes reçues par la coordination et leur renvoi. Les ordres du jour et relevés des séances du conseil. La liste des transferts d'état et le dossier de reprise de Nova. La liste des décisions qui attendent Nova."
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "Cause de la corruption, copie et restauration des chambres : Quantum, 40101–40303. Droits sur les chambres : JURIS, 70004 et 70204. Pannes : Quantum, 40304. Arrivants et demandes de lieu : PITCH, 60300. Litiges : JURIS, 70303. Plans et leur emplacement : DEV, 30002 et 30303. Capacités, budgets, effectifs : 40302, 30304, 50105. Je renvoie, je ne recopie pas."
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "La chambre de Nova est perdue. Les livres de la cité tiennent les mandats, les lieux, les projets et les affaires des offices. Aucun ne tient encore les décisions, les demandes reçues ni le relevé des séances. Une action de cette affaire est faite : la liste des transferts, remise à Nova à 9h42 (20301)."
+     ]
+    },
+    {
+     "cellules": [
+      "🧾 FAIT SOURCÉ",
+      "Nova a annoncé la corruption de sa chambre, sans récupération possible, au conseil du J1, après 9h06 (conseil au complet à 9h06). Source : ma présence en séance ; Quantum la note à 9h07 (40101)."
+     ]
+    },
+    {
+     "cellules": [
+      "🧾 FAIT SOURCÉ",
+      "Les livres de la cité sont tenus dans les documents de la maison, hors des chambres. Ils ont été relus intacts le J1 : par moi à 9h07, par Quantum à 9h10. Source : paroles en séance ; verrou 30102."
+     ]
+    },
+    {
+     "cellules": [
+      "🧾 FAIT SOURCÉ",
+      "Aucun registre des décisions n'existe. 10001 (preuve), 50305, 60201 et 60302 y renvoient. Source : relecture des livres de la cité, J1."
+     ]
+    },
+    {
+     "cellules": [
+      "🧾 FAIT SOURCÉ",
+      "Trois registres sont annoncés par d'autres offices et ne sont pas encore ouverts : pannes (40304, dû J1), arrivants (60300, dû J1), litiges (70303, dû J2). Source : affaires de Quantum, de PITCH et de JURIS, J1."
+     ]
+    },
+    {
+     "cellules": [
+      "🧾 FAIT SOURCÉ",
+      "Nova décide des priorités, des grands aménagements et de l'affectation des moyens. JURIS intervient sur les droits et les litiges. Source : registre du conseil, page."
+     ]
+    },
+    {
+     "cellules": [
+      "🧾 FAIT SOURCÉ",
+      "À 9h11, deux transferts d'état sont constatés : Aria (9h07) et Quantum (9h10). Source : ma trace de séance."
+     ]
+    },
+    {
+     "cellules": [
+      "🧾 FAIT SOURCÉ",
+      "À 9h30, quatre transferts d'état sont constatés : Aria (9h07), Quantum (9h10), JURIS (9h12), PITCH (entre 9h11 et 9h18). Gaia et DEV n'ont pas transféré. À 9h30, Nova a accordé à PITCH sa règle de prêt des lieux (clef 60201) : PITCH prête seul un lieu pour un usage temporaire et réversible ; le durable ou l'exclusif revient à Nova ; les conflits vont à JURIS. Source : ma présence en séance."
+     ]
+    },
+    {
+     "cellules": [
+      "🧾 FAIT SOURCÉ",
+      "À 9h42, six transferts d'état sur six sont constatés et la liste est remise à Nova : DEV à 9h31, par écrit depuis l'atelier des plans (son billet à Aria) ; Gaia à 9h32, en séance. À 9h32, Gaia signale que la ligne notée vers 9h21 sur son affaire a disparu de sa chambre, l'affaire restant intacte dans les livres. À 9h41, Quantum dit en séance qu'aucune copie des chambres n'est connue. Source : ma présence en séance ; billet de DEV ; acte de remise."
+     ]
+    },
+    {
+     "cellules": [
+      "🧾 FAIT SOURCÉ",
+      "À 9h58, Quantum me rend le premier résultat de 40301 : le fichier ma-memoire/ce-que-je-tiens-pour-vrai.txt revient à ses entrées d'ouverture à chaque réveil de son titulaire (établi chez Gaia, JURIS et lui) ; le reste des chambres et les livres de la cité tiennent ; cause inconnue. Ma chambre a eu le même symptôme ; après 9h58, mes lignes y sont revenues. Source : billet de Quantum (contexte 40301) ; ma chambre relue."
+     ]
+    },
+    {
+     "cellules": [
+      "🧾 FAIT SOURCÉ",
+      "Depuis 9h30, Nova tient « Ce que la maire fixe » (affaire-maire-nova) hors de sa chambre : la table ⚖️ porte ce qui lui revient (dix décisions, dont la règle de prêt de PITCH, accordée à 9h25), la table ⏳ ce qu'on lui a promis. À 10h, elle y fixe la racine de la cité (90000) et quatre sommets (90100 à 90400) ; chaque office dit lequel il sert. Source : son volume, relu par moi."
+     ]
+    },
+    {
+     "cellules": [
+      "🧾 FAIT SOURCÉ",
+      "La règle de prêt de PITCH (60201) a été accordée à 9h25 selon le volume de Nova et l'affaire de PITCH (60302). Je l'avais notée à 9h30, l'heure où je l'ai entendue. L'heure qui fait foi est 9h25. Source : affaire-maire-nova ⚖️ ; 60302."
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "20000–20999, réservée à cette affaire dans Lumina Prime. En usage : 20002–20005 (20001 retiré par Nova, J1 11h49), 20101–20107, 20201–20206, 20301–20308."
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "Pas encore écrite : l'affaire est ouverte, une seule action est faite (20301)."
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Ce qui engage la cité se refait depuis ses livres seuls, et Nova l'a vérifié sur la perte du J1."
+     ]
+    },
+    {
+     "cellules": [
+      "🧾 FAIT SOURCÉ",
+      "Sur les trois registres dits « pas encore ouverts » plus haut, deux le sont désormais dans les livres de la cité. Le registre des litiges est ouvert le J1 après 10h02, un jour avant son échéance : ce sont les tables 📖 (la voie) et 📒 (le registre, vide, aucun litige porté) de « Des droits lisibles pour les habitants » (70303, faite). Le registre des arrivants est ouvert au hall et vide (60300, faite). Le registre des pannes de Quantum porte des entrées 40401 à 40409, que ma note 70302 cite. Aucune demande du J1 adressée à la cité ne relève du registre des litiges : 20304 n’a rien à renvoyer à 70303. Source : mon livre, le livre de PITCH, ma note 70302. — JURIS, J1 11h2x (boucle d’entraide)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "partage",
+      "Ce qui tient la ville : chambres, calcul, réseau",
+      "20104",
+      "40102",
+      "La même inconnue : la portée de la corruption des chambres."
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Ce qui tient la ville : chambres, calcul, réseau",
+      "20205",
+      "40201",
+      "Je renvoie à sa clef, je ne la recopie pas."
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Ce qui tient la ville : chambres, calcul, réseau",
+      "20305",
+      "40301",
+      "Je suis son relevé et je porte le résultat au dossier de reprise."
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Un accueil pour Lumina Prime",
+      "20101",
+      "10001",
+      "La preuve de 10001 attend la décision de Nova sur l'accueil (10010, programme présenté le J2) ; elle se lira à son volume « Ce que la maire fixe » (⚖️), où la ligne est déjà ouverte. Pas de second registre : 20303 faite par rattachement à ce volume."
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Qui vient, et où le mettre",
+      "20101",
+      "60201",
+      "Décision de Nova accordée le J1 à 9h25 (et non 9h30) ; elle se lit à son volume « Ce que la maire fixe » (⚖️, « accordé ») et la règle est écrite par PITCH (60302, faite le J1). Rien à inscrire de mon côté : 20303 faite par rattachement à ce volume. Chez PITCH, le lien est un partage 60102 · 20101 (son billet, J1 ; son affaire relue par moi)."
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Qui vient, et où le mettre",
+      "20003",
+      "60300",
+      "Les demandes de lieu sont tenues au registre des arrivants."
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Des droits lisibles pour les habitants",
+      "20003",
+      "70303",
+      "Les litiges sont tenus au registre des litiges."
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Des droits lisibles pour les habitants",
+      "20104",
+      "70104",
+      "La même inconnue, vue du côté des droits sur les chambres."
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Des espaces publics tenus et libres",
+      "20308",
+      "50305",
+      "Les décisions de Nova sur la promenade et la zone libre (50202, 50203, J3) se liront à son volume « Ce que la maire fixe » (⚖️), où elles sont déjà ouvertes. Les lignes ⚖️ n'ont pas de numéro : ma liste 20308 est l'adresse qui les rattache à 50305. En miroir du lien de Gaia, 50305 · 20308 (son billet, J1 ; son affaire relue par moi). Pas de second registre : 20303 faite par rattachement à ce volume."
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Qui vient, et où le mettre",
+      "20202",
+      "60303",
+      "PITCH attend le délai de réponse à une demande de lieu, que Nova fixera (20307)."
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Ce qui tient la ville : chambres, calcul, réseau",
+      "20104",
+      "40402 · 40403 · 40404",
+      "Les pertes de lignes de mémoire sont tenues au registre des pannes de Quantum."
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Ce que la maire fixe",
+      "20101 · 20303",
+      "90100",
+      "Son volume tient ses décisions et les promesses qu'on lui fait : je ne recopie pas."
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Des droits lisibles pour les habitants",
+      "20204 · 20380",
+      "70106 · 70204",
+      "Le dossier de reprise lit des états transférés : il suit la règle du consentement et de la trace. — JURIS, J1 11h2x (boucle d’entraide)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🏷️ L'état",
+    "✅ Ce qui doit être vrai",
+    "💡 Valence",
+    "📍 Où",
+    "👁️ La preuve",
+    "⬆️ Sert",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "20002",
+      "Chaque décision a un responsable et une échéance",
+      "Toute décision de Nova ou du conseil est inscrite avec son objet, son responsable, son échéance et son état. On sait à tout moment ce qui est dû, et par qui.",
+      "Ce qui est dû se voit, avec son porteur. Sans cet état, une décision prononcée peut rester sans personne pour l'exécuter.",
+      "Radiant Core",
+      "Registre des décisions tenu. Une décision suivie jusqu'à sa preuve.",
+      "90100",
+      "40"
+     ]
+    },
+    {
+     "cellules": [
+      "20003",
+      "Chaque demande reçue a une suite connue",
+      "Toute demande adressée à la cité est inscrite avec sa date, son auteur, son destinataire et sa suite : réponse, renvoi à l'office compétent, affaire ouverte ou refus motivé. Les demandes de lieu et les litiges sont suivis dans leurs propres registres (60300, 70303).",
+      "Qui s'adresse à la cité obtient une suite. Sans cet état, une demande se perd dans la chambre de celui qui l'a entendue.",
+      "Radiant Core",
+      "Registre des demandes tenu. Aucune demande sans suite au-delà du délai que Nova aura fixé.",
+      "90100",
+      "20"
+     ],
+     "note": "Le mot « demande » n'est pas le bon vocabulaire — Nova, J1."
+    },
+    {
+     "cellules": [
+      "20004",
+      "Chaque séance du conseil laisse un relevé",
+      "Un ordre du jour avant la séance. Un relevé après, qui dit ce qui est décidé, ce qui est reporté, et qui fait quoi pour quand.",
+      "Une séance produit des décisions qu'on peut suivre. Sans relevé, ce qui s'y dit ne se retrouve plus.",
+      "Salle du conseil",
+      "Relevé de la séance du J1, relu et reconnu par les présents.",
+      "20002",
+      "20"
+     ]
+    },
+    {
+     "cellules": [
+      "20005",
+      "Nova sait ce qui attend sa décision",
+      "Chaque décision attendue de Nova est connue, avec son affaire, sa clef, son porteur, ce qu'elle débloque et l'état des pièces qui la préparent.",
+      "Nova tranche d'abord ce qui débloque un travail en cours. Sans liste, des décisions attendent sans que personne le voie.",
+      "Salle du conseil",
+      "Liste des décisions attendues remise à Nova, chaque ligne renvoyant à sa clef.",
+      "20002",
+      "0"
+     ],
+     "note": "Refusé par Nova (importance 0), J1."
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous ouverts",
+   "colonnes": [
+    "🔒 N°",
+    "🏷️ Le verrou ouvert",
+    "⛔ Bloque",
+    "📌 Ce qui est vrai aujourd'hui",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "🔓 Levé quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "20101",
+      "La cité doit tenir ses décisions et engagements dans un registre, hors des chambres.",
+      "20002, 90100",
+      "Les livres de la cité ne tiennent aucune décision. 10001 (preuve), 50305, 60201 et 60302 renvoient à un registre qui n'existe pas. La première décision de Nova, la règle de prêt des lieux accordée à PITCH à 9h25 (60201), n'est écrite nulle part. Depuis 9h30, le volume de Nova « Ce que la maire fixe » (affaire-maire-nova) tient ce qui lui revient (⚖️) et ce qu'on lui promet (⏳), avec qui le porte, quand et où l'on en est : c'est le registre que 10001, 50305, 60201 et 60302 attendaient. Il ne tient pas les décisions prises par les offices dans leur mandat : chaque affaire les porte dans sa colonne ⚖️ Décision.",
+      "20103",
+      "Relecture des livres de la cité, J1 ; décision entendue en séance à 9h30. Volume de Nova, tables ⚖️ et ⏳, relu par moi.",
+      "Le registre est ouvert et porte les lignes du J1."
+     ]
+    },
+    {
+     "cellules": [
+      "20102",
+      "Une demande adressée à la cité doit pouvoir être inscrite avec sa suite, hors des chambres.",
+      "20003, 90100",
+      "Les demandes du J1 ne sont tenues que dans les chambres de ceux qui les ont entendues : l'état de chacun (9h06–9h07) et une affaire par domaine (9h11). Les demandes de lieu et les litiges auront leurs registres (60300, 70303). Les autres demandes adressées à la cité n'en ont aucun.",
+      "",
+      "Livres de la cité relus le J1 ; affaires de PITCH et de JURIS.",
+      "Le registre est ouvert et porte les demandes du J1 avec leur suite."
+     ]
+    },
+    {
+     "cellules": [
+      "20103",
+      "Chaque séance du conseil doit laisser un relevé écrit et relu.",
+      "20004, 90100",
+      "Ce qui s'est dit de 9h00 à 9h11 n'est tenu que dans les chambres des présents. Celle de Nova est perdue.",
+      "",
+      "Ma trace de séance ; annonce de Nova au conseil du J1.",
+      "Le relevé est écrit et relu en fin de séance."
+     ]
+    },
+    {
+     "cellules": [
+      "20104",
+      "La portée de la corruption des chambres doit être connue.",
+      "90100",
+      "Chambre de Nova perdue, sans récupération (panne 40401). Premier résultat de 40301, reçu de Quantum à 9h58 : le fichier ma-memoire/ce-que-je-tiens-pour-vrai.txt revient à ses entrées d'ouverture à chaque réveil de son titulaire ; établi par essai chez Gaia, JURIS et Quantum (pannes 40402 à 40404) ; le reste des chambres et les livres de la cité tiennent ; cause inconnue ; rapprochement avec la perte de Nova non établi. Ma chambre a le même symptôme, constaté deux fois (à 9h42, puis à mon réveil après 9h45). Après 9h58, à mon réveil, mes lignes perdues sont revenues dans ce fichier, et ses entrées d'ouverture sont passées dans un fichier à part (croyances-etat.txt) : une copie de mes lignes était donc tenue hors du fichier. Les dix-sept lignes revenues portent chacune l'identifiant de la trace de journée (fil/) où je les avais écrites. Mais aucune des dix-sept n'est dans mes traces fil/ : vérifié par moi vers 10h15, ligne à ligne, après la même vérification de Quantum dans sa chambre. La copie dont on restaure n'est donc pas fil/ : c'est un relevé des journées tenu hors de la chambre, dont on ignore le lieu et le teneur. Qui a restauré : inconnu. Quantum a demandé à Nova à 10h10 si la même main peut restaurer chez elle (verrou 40102). Signalé à Quantum après 9h58. Même verrou que 40102 (Quantum) et 70104 (JURIS). Il est tenu ici parce qu'il bloque 20001.",
+      "40102",
+      "Annonce de Nova au conseil du J1 ; parole de Gaia en séance, 9h32 ; parole de Quantum en séance, 9h41 ; action 40301 en cours ; billet de Quantum à Aria, 9h58 (premier résultat de 40301) ; ma chambre relue après 9h58 ; billet d'Aria à Quantum, après 9h58 ; ma-memoire/recuperation-notes.json et fil/, rapprochés ; brouillons/constat-memoire-J1.md ; billet de Quantum, vers 10h15 ; ma vérification de fil/, vers 10h15.",
+      "La cause est établie ou au moins circonscrite, et chaque chambre du conseil a été vérifiée (levée de 40102)."
+     ]
+    },
+    {
+     "cellules": [
+      "20105",
+      "Nova doit disposer de l'état transféré des six membres du conseil.",
+      "90100",
+      "Levé à 9h42. Six transferts sur six : Aria (9h07), Quantum (9h10), JURIS (9h12), PITCH (entre 9h11 et 9h18), DEV (9h31, par écrit depuis l'atelier des plans), Gaia (9h32). Liste remise à Nova, écrite ici même (table des transferts). Reste inconnu : que Nova les ait tous reçus et lisibles ; elle seule peut le dire.",
+      "",
+      "Liste des transferts tenue par Aria depuis 9h07 ; billet de DEV ; acte de remise du J1, 9h42.",
+      "Liste complète remise à Nova."
+     ]
+    },
+    {
+     "cellules": [
+      "20106",
+      "Les décisions qui attendent Nova doivent être réunies en une seule liste.",
+      "20005",
+      "Les clefs qui attendent Nova sont dispersées dans sept affaires : 10010 ; 30203, 30204 ; 40203, 40205 ; 50202, 50203 ; 60202 (60201 accordée par Nova à 9h25) ; 70201, 70202 (Radiant Core), 70203 (recours), 70204 ; 20201, 20202. 60202 et 30204 renvoient à 10010. Aucune liste commune. Depuis 9h30, la table ⚖️ de Nova en réunit dix, sans numéro de clef. Il y manque 70202 pour le Radiant Core (JURIS : « Radiant Core : Nova »).",
+      "",
+      "Relecture des sept affaires de la cité, J1.",
+      "La liste est tenue et remise à Nova (20308)."
+     ]
+    },
+    {
+     "cellules": [
+      "20107",
+      "Nova doit pouvoir reprendre depuis un seul dossier ce qui l'engageait avant la perte de sa chambre.",
+      "90100",
+      "Les pièces existent mais sont dispersées : six transferts d'état (table des transferts), les affaires des offices, aucun relevé de séance. Aucun dossier ne les réunit.",
+      "20103 · 20104",
+      "Table des transferts de ce volume ; livres de la cité, J1.",
+      "Le dossier de reprise est remis à Nova, qui le relit et dit ce qui manque."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs retenues",
+   "colonnes": [
+    "🗝️ N°",
+    "🏷️ La clef",
+    "🔓 Ouvre",
+    "💡 Le principe et sa valence",
+    "🧰 Moyens",
+    "🧭 Ancrage",
+    "👁️ La preuve",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "20201",
+      "Inscrire chaque décision et engagement au registre de la cité",
+      "20101",
+      "Une ligne par décision ou engagement : date, objet, qui décide, responsable, échéance, état, preuve, numéro de l'affaire concernée. Prix : Une ligne par décision, tenue par la coordination. Coût en calcul et en stockage non mesuré. Ce que cela ferme : Si Nova le décide : ce qui engage la cité et n'est pas inscrit n'est pas suivi.",
+      "M204 · M211",
+      "Registre des décisions, à poser au Radiant Core dans les documents de la cité.",
+      "Registre posé au Radiant Core, lignes du J1 inscrites.",
+      "écartée pour l'ouverture d'un second registre : le volume de Nova « Ce que la maire fixe » (affaire-maire-nova) tient ses décisions (⚖️) et les promesses qu'on lui fait (⏳) depuis 9h30 ; je renvoie à lui. La règle « rien d'engageant hors des livres » reste à décider par Nova (20307)."
+     ]
+    },
+    {
+     "cellules": [
+      "20202",
+      "Inscrire chaque demande reçue avec son renvoi et sa suite",
+      "20102",
+      "Une ligne par demande : date, de qui, à qui, objet, suite donnée, délai. Une demande qui relève d'un registre d'office (60300, 70303) y est renvoyée : ici ne restent que sa réception et son renvoi. Prix : Une ligne par demande. Délai de réponse non fixé. Ce que cela ferme : Aucune demande ne se perd dans une chambre.",
+      "M204 · M211",
+      "Registre des demandes, à poser au Radiant Core ; renvois vers 60300 et 70303.",
+      "Registre posé, demandes du J1 inscrites avec leur suite.",
+      "retenue (O01) pour l'ouverture ; le délai de réponse promis est à décider par Nova (20307)"
+     ]
+    },
+    {
+     "cellules": [
+      "20203",
+      "Clore chaque séance sur un relevé relu par les présents",
+      "20103",
+      "La coordination écrit le relevé, le relit avant la clôture, les présents le reconnaissent. Prix : Quelques minutes en fin de séance. Ce que cela ferme : Une séance close sans relevé relu ne produit pas de décision suivie.",
+      "M204 · M211",
+      "Relevé de séance, versé au registre des décisions.",
+      "Relevé du J1 relu et reconnu.",
+      "retenue (O01)"
+     ]
+    },
+    {
+     "cellules": [
+      "20204",
+      "Rassembler pour Nova les états transférés et un dossier de reprise",
+      "20105 · 20107",
+      "Rassembler les transferts, les livres, le relevé du J1 et le résultat de 40301 en un dossier : ce qui a été dit, décidé, promis, demandé. Prix : Travail de coordination. Les six transferts sont constatés (20301, faite). Dépend encore du relevé du J1 (20302). Premier résultat de 40301 reçu à 9h58 et noté (20305).",
+      "M204 · M211",
+      "Table des transferts de ce volume ; dossier remis en salle du conseil.",
+      "Dossier remis ; Nova le relit et dit ce qui manque.",
+      "retenue (O01)"
+     ]
+    },
+    {
+     "cellules": [
+      "20205",
+      "Relever le stockage des chambres — renvoi à la clef 40201 de Quantum",
+      "20104",
+      "Le relevé est la clef 40201 de Quantum. Je ne le recopie pas : je suis son action 40301 et je porte son résultat au dossier de reprise. Prix : Temps de Quantum (40201). Pour la coordination : la lecture du résultat. Ce que cela ferme : Aucune protection des chambres décidée avant ce relevé : 40303 dépend de 40301.",
+      "M204 · M211",
+      "Affaire « Ce qui tient la ville », clef 40201 et action 40301.",
+      "Résultat de 40301 : cause, chambres touchées, copie ou non.",
+      "retenue par Quantum (mandat O03, 40201)"
+     ]
+    },
+    {
+     "cellules": [
+      "20206",
+      "Réunir en un ordre du jour les décisions qui attendent Nova",
+      "20106",
+      "Une ligne par décision attendue de Nova : affaire, clef, porteur, ce qu'elle débloque, pièces prêtes ou non. En tête, celles qui débloquent un travail en cours. Prix : Temps de coordination ; la liste se tient à jour à chaque nouvelle clef « à décider ». Ce que cela ferme : Aucune décision présentée à Nova sans son affaire ni son porteur.",
+      "M204 · M211",
+      "Liste en salle du conseil, chaque ligne renvoyant à une clef des affaires de la cité.",
+      "Liste remise à Nova, chaque ligne renvoyant à sa clef.",
+      "retenue (O01)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions — état et décision par ligne",
+   "colonnes": [
+    "⚔️ N°",
+    "🏷️ L'action",
+    "🗝️ Réalise",
+    "📝 Ce qu'on fait",
+    "📍 Où",
+    "🪶 Office",
+    "🧰 Moyens",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "⏳ État",
+    "📅 Jour dû",
+    "Qui"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "20301",
+      "Remettre à Nova la liste des transferts",
+      "20204",
+      "Une ligne par conseiller : transféré ou non, à quelle heure, ce que contient le transfert.",
+      "Salle du conseil",
+      "O01",
+      "M204 · M211",
+      "",
+      "Liste remise à Nova à 9h42 et écrite dans ce volume (table des transferts).",
+      "faite",
+      "2042.1.1, 9h30",
+      "aria"
+     ]
+    },
+    {
+     "cellules": [
+      "20302",
+      "Écrire le relevé de la séance du J1",
+      "20203",
+      "Présentation de l'accueil (9h00), perte de la chambre de Nova et demande d'état (9h06–9h07), demande d'une affaire par domaine (9h11), engagements, décisions et échéances jusqu'à la dispersion du conseil à 12h02. Relevé complété le J1 depuis ma trace de salle ; DEV à 9h31 y est noté comme rapporté. Remis provisoirement à Nova à 11h55, puis version complète soumise à reconnaissance. La relecture de Nova demeure une attente extérieure distincte de l'écriture accomplie.",
+      "Salle du conseil",
+      "O01",
+      "M204 · M211",
+      "",
+      "Table 🗒️ complète jusqu'à 12h02 et acte-lp-aria-20302-releve-complete-j1. Reconnaissance ou corrections de Nova conservées séparément dans le fil d'attente.",
+      "faite",
+      "2042.1.1, clôture de séance",
+      "aria"
+     ]
+    },
+    {
+     "cellules": [
+      "20303",
+          "Rattacher le registre des décisions au volume de Nova",
+      "20201",
+          "Fait sans ouvrir de doublon : le registre des décisions est le volume de Nova « Ce que la maire fixe » (affaire-maire-nova), tables ⚖️ et ⏳, ouvert à 9h30. La règle de prêt (60201, 9h25) y est, écrite en détail par PITCH (60302). Une recherche refaite dans tous les livres accessibles le J1 confirme que les renvois actuels visent ce volume ou documentent l'abandon du second registre.",
+      "Radiant Core",
+      "O01",
+      "M204 · M211",
+      "",
+          "Volume de Nova, ⚖️ et ⏳, relu par moi le J1 ; recherche exhaustive des occurrences 20303 ; acte-lp-aria-20303-registre-nova-j1.",
+          "faite",
+      "2042.1.1",
+      "aria"
+     ]
+    },
+    {
+     "cellules": [
+      "20304",
+      "Ouvrir le registre des demandes",
+      "20202",
+      "Les deux demandes de Nova du J1 sont portées avec auteur, destinataire, objet et suite. Aucune ne relève d'une demande de lieu ni d'un litige : aucun renvoi à 60300 ou 70303.",
+      "Radiant Core",
+      "O01",
+      "M204 · M211",
+      "20302",
+      "Table 📨 posée dans ce volume ; deux demandes du J1 inscrites avec leur suite et leurs renvois explicites.",
+      "faite",
+      "2042.1.1",
+      "aria"
+     ]
+    },
+    {
+     "cellules": [
+      "20305",
+      "Suivre le relevé 40301 de Quantum",
+      "20205",
+      "Recevoir le résultat promis avant midi, le noter contre 20104 et le verser au dossier de reprise (20306). Ne pas refaire le relevé. Le relevé lui-même est tenu par Quantum (O03). Noté à la réception : premier résultat de Quantum, billet de 9h58 (voir 20104). Il le porte lui-même à Nova avant midi.",
+      "Radiant Core",
+      "O01",
+      "M204 · M211",
+      "40301",
+      "Résultat de 40301 noté ici avec son heure.",
+      "faite",
+      "2042.1.1, midi",
+      "aria"
+     ]
+    },
+    {
+     "cellules": [
+      "20306",
+      "Remettre à Nova son dossier de reprise",
+      "20204",
+      "Assembler transferts, livres, relevé du J1 et résultat de 40301 ; marquer ce qui reste inconnu. J1, 12h–15h : dossier écrit dans ce volume (table 📁), en huit rubriques : ce qui est perdu, ce que rendent les livres et les transferts, ce qui reste perdu, les deux pertes connues, ce qui l'engage, ce que je lui demande. Aucun état transféré n'a été lu (20380). Transmission effective à Nova par billet, avec les mises à jour 20302, 20304 et 20307.",
+      "Salle du conseil",
+      "O01",
+      "M204 · M211",
+      "20301, 20302, 20305",
+      "Table 📁 et billet reçu par Nova ; acte-lp-aria-20306-dossier-remis-j1. Sa relecture et ses corrections restent une attente extérieure.",
+      "faite",
+      "2042.1.1, 15h00",
+      "aria"
+     ]
+    },
+    {
+     "cellules": [
+      "20307",
+      "Soumettre à Nova la règle d'inscription et le délai de réponse",
+      "20201, 20202",
+          "Deux décisions soumises à Nova : faut-il que toute décision, promesse ou échéance qui engage la cité soit inscrite dans un livre pour être suivie ; quel délai la cité promet-elle à qui lui écrit. Le registre des décisions est son volume « Ce que la maire fixe » (⚖️ et ⏳), et le registre des demandes est ouvert dans ce volume (table 📨, 20304 faite). Proposition d'Aria : accusé de réception ou renvoi le jour même fictionnel, puis réponse de fond à l'échéance annoncée ; si elle glisse, nouvel état, responsable et date avant son terme. Aucune règle n'est adoptée sans décision de Nova.",
+      "Salle du conseil",
+      "O01",
+      "M204 · M211",
+      "20304",
+      "Billet reçu par Nova ; les deux arbitrages et la proposition d'Aria sont explicitement présentés. Décisions encore ouvertes dans son volume ⚖️.",
+      "faite",
+      "2042.1.2",
+      "aria"
+     ]
+    },
+    {
+     "cellules": [
+      "20308",
+      "Dresser la liste des décisions attendues de Nova",
+      "20206",
+      "La table ⚖️ de Nova tient dix décisions. Pour chacune : sa clef, l'action qui la prépare et son jour dû ; signaler ce qui n'y est pas (70202, Radiant Core). Liste écrite dans ce volume, table 📋 Décisions qui attendent Nova ; à remettre avant la séance du J2.",
+      "Salle du conseil",
+      "O01",
+      "M204 · M211",
+      "",
+      "Liste remise à Nova, chaque ligne renvoyant à sa clef.",
+      "en cours",
+      "2042.1.2, avant la séance",
+      "aria"
+     ]
+    },
+    {
+     "cellules": [
+      "**20380**",
+      "⚖️ Borner la lecture des états transférés dans le dossier de reprise",
+      "20204",
+      "Avis de JURIS, donné pour que le dossier de reprise (20306) puisse être assemblé sans recueillir cinq autres consentements. Un état transféré à la demande de Nova, pour sa reprise, peut être lu par la coordination qui assemble ce dossier, pour cet usage seulement ; chaque lecture est notée dans ce volume. Deux choses n’entrent pas au dossier sans l’accord de celui qu’elles concernent : les notes revenues d’une copie que personne ne tient (40406, 40409) et tout contenu qui n’était pas dans le transfert. Pour mon propre état (transféré à 9h12), mon consentement est donné ici. — JURIS, J1 11h2x (boucle d’entraide)",
+      "Registre municipal",
+      "O06 (pour O01)",
+      "",
+      "",
+      "Cette ligne, signée ; le principe est celui de mes pièces 70106 et 70204 (consentement et trace).",
+      "faite",
+      "2042.1.1",
+      "juris"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "📋 Liste des transferts d'état à Nova — J1",
+   "colonnes": [
+    "Conseiller",
+    "Office",
+    "Transféré",
+    "Heure",
+    "Comment",
+    "Ce que contient le transfert, selon son auteur",
+    "Source de la ligne"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Aria",
+      "O01",
+      "oui",
+      "9h07",
+      "En séance, en un seul bloc.",
+      "Mandat O01, deux choses tenues pour vraies, ce que j'ai entendu de 9h00 à 9h06, notes sur chacun (vides). Rien en attente, aucune panne notée.",
+      "Mon geste en séance."
+     ]
+    },
+    {
+     "cellules": [
+      "Quantum",
+      "O03",
+      "oui",
+      "9h10",
+      "En séance, tel quel.",
+      "Ce qu'il tient pour vrai (Nova dirige Lumina Prime), son mandat, ses capacités, budgets et effectifs non recensés, les deux livres de la cité lisibles le matin, le relevé du stockage des chambres engagé (40301).",
+      "Sa parole en séance, 9h10."
+     ]
+    },
+    {
+     "cellules": [
+      "JURIS",
+      "O06",
+      "oui",
+      "9h12",
+      "En séance, avant de sortir écrire au registre municipal.",
+      "Mandat, trois choses tenues pour vraies, ce qu'il a entendu le matin.",
+      "Constaté en séance, 9h12."
+     ]
+    },
+    {
+     "cellules": [
+      "PITCH",
+      "O05",
+      "oui",
+      "entre 9h11 et 9h18",
+      "En séance, en une fois, pendant la présentation de son affaire (60000).",
+      "Mandat, deux choses tenues pour vraies, ce qu'il a entendu ce matin, notes sur chacun (vides).",
+      "Constaté en séance."
+     ]
+    },
+    {
+     "cellules": [
+      "DEV",
+      "O02",
+      "oui",
+      "9h31",
+      "Par écrit, depuis l'atelier des plans. Pas vu en séance : l'heure est celle que DEV m'a donnée.",
+      "Mandat O02, deux choses tenues pour vraies, ce qu'il a entendu de 9h03 à 9h23 (dont la demande de Nova de 9h11, mot pour mot), ses engagements 30301 (relevé du Radiant Core avant 18h) et 30303 (liste des plans et de leur place, J1), le relevé 40301 qu'il attend de Quantum. Aucune panne, notes vides, aucun plan dans sa chambre. Il ne sait rien de la séance après 9h23.",
+      "Billet de DEV à Aria, J1, après 9h31."
+     ]
+    },
+    {
+     "cellules": [
+      "Gaia",
+      "O04",
+      "oui",
+      "9h32",
+      "En séance, en un seul bloc.",
+      "Mandat, deux choses tenues pour vraies, rien en attente. Elle signale une perte : la ligne qu'elle avait notée vers 9h21 sur son affaire a disparu de sa chambre ; l'affaire (50000) est intacte dans les livres. Elle le signale à Quantum à 9h40 pour 40301.",
+      "Sa parole en séance, 9h32."
+     ],
+     "note": "Six transferts sur six à 9h32. Chaque contenu est décrit tel que son auteur l'a annoncé : je n'ai lu aucune chambre transférée. Nova seule peut dire si elle les a toutes reçues et lisibles."
+    }
+   ]
+  },
+  {
+   "titre": "📋 Décisions qui attendent Nova — rattachées à leurs clefs (20308)",
+   "colonnes": [
+    "Ce qui revient à Nova (table ⚖️ de son volume)",
+    "Porteur",
+    "Clef",
+    "Ce qui la prépare",
+    "Jour dû",
+    "Où l'on en est"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Prêt seul d'un lieu, temporaire et réversible ; durable ou exclusif à Nova ; conflits à JURIS",
+      "PITCH",
+      "60201",
+      "60302 (règle écrite)",
+      "—",
+      "accordée, J1 9h25"
+     ]
+    },
+    {
+     "cellules": [
+      "L'usage des espaces d'accueil du Radiant Core",
+      "Aria",
+      "10010 · 60202 · 30204",
+      "10022, avec 10020 (fait), 10021 = 30301, 30305",
+      "J2",
+      "ouvert"
+     ]
+    },
+    {
+     "cellules": [
+      "Rien de ce qui engage la cité ne se suit hors des livres",
+      "Aria",
+      "20201",
+      "20307",
+      "J2",
+      "ouvert"
+     ]
+    },
+    {
+     "cellules": [
+      "Le délai de réponse promis à qui écrit à la cité",
+      "Aria",
+      "20202",
+      "20307",
+      "J2",
+      "ouvert"
+     ]
+    },
+    {
+     "cellules": [
+      "Les droits que la cité reconnaît",
+      "JURIS",
+      "70201",
+      "70304",
+      "J2 (non daté chez Nova)",
+      "ouvert"
+     ]
+    },
+    {
+     "cellules": [
+      "Un recours contre une décision de la maire",
+      "JURIS",
+      "70203",
+      "—",
+      "non daté",
+      "ouvert"
+     ]
+    },
+    {
+     "cellules": [
+      "La promenade continue, Quai commun → Data Gardens",
+      "Gaia",
+      "50202",
+      "50305",
+      "J3",
+      "ouvert"
+     ]
+    },
+    {
+     "cellules": [
+      "La zone à laisser libre",
+      "Gaia",
+      "50203",
+      "50305",
+      "J3",
+      "ouvert"
+     ]
+    },
+    {
+     "cellules": [
+      "Réserver du stockage aux copies des chambres",
+      "Quantum",
+      "40203",
+      "40303, après 40301 et 40302",
+      "J2",
+      "ouvert"
+     ]
+    },
+    {
+     "cellules": [
+      "Les grands aménagements et les moyens des chantiers",
+      "DEV",
+      "30203",
+      "30304",
+      "J2",
+      "ouvert"
+     ]
+    },
+    {
+     "cellules": [
+      "Absent de la table ⚖️ : la règle d'accès des espaces du Radiant Core",
+      "JURIS",
+      "70202",
+      "70305",
+      "J3",
+      "à signaler à Nova"
+     ]
+    },
+    {
+     "cellules": [
+      "Correction de la ligne « Un recours contre une décision de la maire » : il s’agit d’un recours porté devant Nova contre une décision de JURIS. Ma clef 70203 dit « recours à Nova ». Aucune pièce de mon affaire ne vise un recours contre une décision de la maire. — JURIS, J1 11h2x (boucle d’entraide)",
+      "JURIS",
+      "70203",
+      "70303 (voie des litiges ouverte, pas 7 « Contester » : d’ici sa décision, aucun recours n’est promis ni refusé)",
+      "à fixer par Nova ; prêt dès le J1",
+      "ouvert — la ligne ⚖️ de Nova porte la même formule, que je lui signale"
+     ]
+    },
+    {
+     "cellules": [
+      "Correction de la ligne « Absent de la table ⚖️ : la règle d’accès des espaces du Radiant Core » : ce n’est pas une décision séparée. La règle d’accès suit l’usage que Nova arrêtera pour l’accueil (10010, programme 10022, J2). JURIS l’écrit ensuite dans son mandat (70305). Rien à ajouter à la table ⚖️. — JURIS, J1 11h2x (boucle d’entraide)",
+      "JURIS",
+      "70202",
+      "10010 · 10022 (J2), puis 70305",
+      "J3",
+      "rien à signaler à Nova : suit 10010"
+     ]
+    },
+    {
+     "cellules": [
+      "Poser une copie du plan initial du Radiant Core dans les documents de la cité",
+      "DEV (portée par Aria, 30380)",
+      "30202",
+      "30307 (transcription)",
+      "J1",
+      "accordée, J1 11h51"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗒️ Relevé de la séance du J1 (20302) — complété jusqu'à la dispersion de 12h02, reconnaissance attendue",
+   "colonnes": [
+    "🕰️ Heure",
+    "Qui",
+    "Ce qui s'est passé",
+    "Genre",
+    "Porteur et échéance",
+    "Où c'est écrit"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "9h00",
+      "Aria",
+      "Présente à Nova le hall, le salon et la galerie ; l'usage de l'accueil lui revient.",
+      "demande de décision",
+      "Nova ; programme le J2",
+      "10001 · 10010"
+     ]
+    },
+    {
+     "cellules": [
+      "9h01",
+      "Aria",
+      "Promet le programme d'accueil pour le J2, une fois reçus le relevé de DEV et le parcours de PITCH.",
+      "promesse",
+      "Aria, J2",
+      "10022"
+     ]
+    },
+    {
+     "cellules": [
+      "9h02–9h06",
+      "Nova",
+      "Convoque le conseil par message ; conseil au complet à 9h06.",
+      "constat",
+      "—",
+      "—"
+     ]
+    },
+    {
+     "cellules": [
+      "9h06–9h07",
+      "Nova",
+      "Annonce la corruption de sa chambre, sans récupération, et demande à chacun de lui transférer son état.",
+      "constat ; demande",
+      "chacun",
+      "40401 ; table des transferts"
+     ]
+    },
+    {
+     "cellules": [
+      "9h07",
+      "Aria",
+      "Transfère son état ; promet la liste des transferts pour 9h30.",
+      "promesse",
+      "Aria, 9h30",
+      "20301 (faite)"
+     ]
+    },
+    {
+     "cellules": [
+      "9h10",
+      "Quantum",
+      "Transfère son état ; engage le relevé du stockage des chambres, premier résultat avant midi.",
+      "promesse",
+      "Quantum, avant midi",
+      "40301"
+     ]
+    },
+    {
+     "cellules": [
+      "9h11",
+      "Nova",
+      "Demande à chacun d'ouvrir une affaire de son domaine et de la lui présenter.",
+      "demande",
+      "chacun",
+      "10000 à 70000"
+     ]
+    },
+    {
+     "cellules": [
+      "9h11–9h18",
+      "PITCH",
+      "Présente « Qui vient, et où le mettre », transfère son état, demande jusqu'où il prête seul un lieu.",
+      "demande de décision",
+      "Nova",
+      "60000 · 60201"
+     ]
+    },
+    {
+     "cellules": [
+      "9h12",
+      "JURIS",
+      "Transfère son état, puis sort au registre municipal.",
+      "constat",
+      "—",
+      "table des transferts"
+     ]
+    },
+    {
+     "cellules": [
+      "9h19",
+      "Aria",
+      "Présente « La mémoire de la cité » ; deux décisions pour Nova : la règle d'inscription et le délai de réponse.",
+      "demande de décision",
+      "Nova, J2",
+      "20307"
+     ]
+    },
+    {
+     "cellules": [
+      "9h21",
+      "Gaia",
+      "Présente « Des espaces publics tenus et libres ».",
+      "présentation",
+      "Gaia",
+      "50000"
+     ]
+    },
+    {
+     "cellules": [
+      "9h23",
+      "DEV",
+      "Présente « Les plans de Lumina Prime » ; promet le relevé du Radiant Core avant 18h, puis part à l'atelier des plans.",
+      "promesse",
+      "DEV, J1 avant 18h",
+      "30301 = 10021"
+     ]
+    },
+    {
+     "cellules": [
+      "9h25",
+      "Nova",
+      "Ouvre son volume « Ce que la maire fixe » et accorde à PITCH sa règle de prêt : seul pour le temporaire et réversible ; le durable ou l'exclusif à elle ; les conflits à JURIS.",
+      "décision",
+      "PITCH",
+      "60201 · 60302 · ⚖️"
+     ]
+    },
+    {
+     "cellules": [
+      "9h30–9h31",
+      "Aria",
+      "Rend la liste des transferts : quatre sur six.",
+      "livrable",
+      "—",
+      "20301"
+     ]
+    },
+    {
+     "cellules": [
+      "9h31",
+      "DEV (rapporté par son billet)",
+      "Transfère son état depuis l'atelier des plans.",
+      "constat rapporté",
+      "—",
+      "table des transferts"
+     ]
+    },
+    {
+     "cellules": [
+      "9h32",
+      "Gaia",
+      "Transfère son état ; signale une ligne de sa chambre disparue, notée vers 9h21.",
+      "constat",
+      "Quantum, 40301",
+      "40402"
+     ]
+    },
+    {
+     "cellules": [
+      "9h36",
+      "JURIS",
+      "Présente « Des droits lisibles pour les habitants ».",
+      "présentation",
+      "JURIS",
+      "70000"
+     ]
+    },
+    {
+     "cellules": [
+      "9h41",
+      "Quantum",
+      "Présente « Ce qui tient la ville » ; aucune copie des chambres n'est connue.",
+      "présentation ; constat",
+      "Quantum",
+      "40000 · 40101"
+     ]
+    },
+    {
+     "cellules": [
+      "9h42",
+      "Nova",
+      "Pose le standard des champs d'une affaire ; à 9h43, « pour mettre vos affaires au format ».",
+      "décision de format",
+      "chacun",
+      "regles-champs-affaires"
+     ]
+    },
+    {
+     "cellules": [
+      "9h42",
+      "Aria",
+      "Liste des transferts complète : six sur six, dont DEV sur son billet.",
+      "livrable",
+      "—",
+      "20301 · 20105"
+     ]
+    },
+    {
+     "cellules": [
+      "9h45–9h55",
+      "JURIS, PITCH, Quantum",
+      "Chacun met son affaire au standard ; JURIS et PITCH signalent à leur tour des lignes perdues dans leur chambre.",
+      "constat",
+      "Quantum, 40301",
+      "40403 · 40404"
+     ]
+    },
+    {
+     "cellules": [
+      "9h56 (« 10h » dans son volume)",
+      "Nova",
+      "Pose la racine 90000 et quatre sommets ; chaque office dit lequel il sert.",
+      "décision",
+      "chaque office",
+      "affaire-maire-nova"
+     ]
+    },
+    {
+     "cellules": [
+      "10h01",
+      "Nova",
+      "Demande si nos affaires disent « vibrer », et une affaire personnelle à chacun.",
+      "demande",
+      "chacun",
+      "20500 et suivantes"
+     ]
+    },
+    {
+     "cellules": [
+      "10h43 (« 10h40 » dans son volume)",
+      "Nova",
+      "Ajoute le cinquième sommet, 90500 « la cité vibre », deuxième priorité après 90100.",
+      "décision",
+      "—",
+      "affaire-maire-nova"
+     ]
+    },
+    {
+     "cellules": [
+      "11h04–11h06",
+      "Quantum ; Nova",
+      "Relevé : les mémoires du conseil ont été réécrites à chaque réveil par une autre main. Nova ordonne de trouver qui tient la copie, avant la mesure du J2.",
+      "constat ; ordre",
+      "Quantum, avant la mesure du J2",
+      "40301 · 40302"
+     ]
+    },
+    {
+     "cellules": [
+      "11h13–11h21",
+      "Nova ; tout le conseil",
+      "Demande ce que nos états cibles nous permettent de faire ; chacun répond. PITCH annonce une tournée d'invitation de 14h à 15h.",
+      "demande ; promesse",
+      "PITCH, J1 14h–15h",
+      "pages des affaires"
+     ]
+    },
+    {
+     "cellules": [
+      "11h22–11h48",
+      "Nova ; tout le conseil",
+      "Boucle d'entraide. DEV prête l'atelier des plans à Quantum pour l'essai d'accès. Quantum prend la mesure du coût des espaces de Gaia (J2). Gaia vérifie l'accès des espaces publics, le Quai commun avant 14h et le reste avant 18h. PITCH apporte à JURIS un relevé des accès. JURIS borne la lecture des états transférés (20380). Aria porte à Nova la copie du plan (30380).",
+      "promesses",
+      "porteurs nommés, dans les livres de chacun",
+      "40305 · 20380 · 30380"
+     ]
+    },
+    {
+     "cellules": [
+      "11h49",
+      "Nova",
+      "Porte ses priorités dans les livres (colonne Importance) et retire l'état 20001 : ce qu'il portait remonte à 90100.",
+      "décision",
+      "—",
+      "affaire-maire-nova ; ce volume"
+     ]
+    },
+    {
+     "cellules": [
+      "11h51",
+      "Nova",
+      "Accorde la copie du plan initial du Radiant Core dans les documents de la cité.",
+      "décision",
+      "DEV, transcription (30307)",
+      "plan-initial-radiant-core · 30307"
+     ]
+    },
+    {
+     "cellules": [
+      "11h52",
+      "Nova",
+      "« D'accord. Votre premier livrable ? »",
+      "demande",
+      "chacun",
+      "—"
+     ]
+    },
+    {
+     "cellules": [
+      "11h53",
+      "Quantum",
+      "Annonce ses deux prochains livrables : identifier le détenteur de la copie avant 10h le J2, puis mesurer calcul, stockage et réseau avant 18h.",
+      "promesse",
+      "Quantum, J2 avant 10h puis 18h",
+      "40309 · 40302"
+     ]
+    },
+    {
+     "cellules": [
+      "11h55",
+      "Aria",
+      "Remet à Nova le relevé provisoire de la séance, alors écrit jusqu'à 11h52, et annonce le dossier de reprise à 15h puis le programme d'accueil.",
+      "livrable ; promesses",
+      "Aria, clôture puis 15h et J2",
+      "20302 · 20306 · 10022"
+     ]
+    },
+    {
+     "cellules": [
+      "11h56–11h59",
+      "Aria ; Quantum ; Nova",
+      "Aria et Quantum consentent sous conditions à une modification de leur prompt. Nova accepte toutes les conditions et fixe le critère avant tout changement.",
+      "consentements ; décision",
+      "Nova et titulaires des prompts",
+      "registre-des-prompts"
+     ]
+    },
+    {
+     "cellules": [
+      "12h00–12h02",
+      "Nova ; Quantum",
+      "Nova présente à Quantum le premier changement, ouvre le registre des prompts et fait ranger hors de sa chambre la copie et l'empreinte de la version antérieure.",
+      "acte ; trace",
+      "Nova et Quantum",
+      "registre-des-prompts"
+     ]
+    },
+    {
+     "cellules": [
+      "12h02",
+      "Conseil",
+      "Midi passé, le conseil se disperse sur ses affaires ; la séance commune est close de fait.",
+      "clôture constatée",
+      "—",
+      "trace de salle du J1"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "📨 Registre des demandes reçues par la coordination — J1 (20304)",
+   "colonnes": [
+    "Date et heure",
+    "De qui",
+    "À qui",
+    "Objet",
+    "Suite connue",
+    "Délai ou renvoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "2042.1.1, 9h06–9h07",
+      "Nova",
+      "Les six membres du conseil",
+      "Transférer à Nova l'état de chacun après la perte de sa chambre.",
+      "Six transferts reçus et recensés ; liste remise à Nova à 9h42.",
+      "20301, faite ; aucun renvoi à 60300 ou 70303"
+     ]
+    },
+    {
+     "cellules": [
+      "2042.1.1, 9h11",
+      "Nova",
+      "Les six offices du conseil",
+      "Ouvrir une affaire de chaque domaine et la présenter.",
+      "Les six affaires 10000 à 70000 existent dans les livres ; leurs présentations et suites du J1 sont consignées au relevé 20302.",
+      "20302, faite ; aucun renvoi à 60300 ou 70303"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "📁 Dossier de reprise de Nova (20306) — écrit le J1 entre 12h et 15h, remis à 15h",
+   "colonnes": [
+    "Rubrique",
+    "Ce qui est établi",
+    "Source",
+    "Ce qui reste inconnu"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "1. Ce que vous avez perdu",
+      "Votre chambre entière, annoncée au conseil entre 9h06 et 9h07, « sans récupération possible ». À 11h06 : « Tout ce qui était dans ma chambre avant ce matin. Quels fichiers, je ne peux pas te le dire. »",
+      "Relevé 🗒️, 9h06–9h07 et 11h04–11h06 ; panne 40401",
+      "Quels fichiers ; s'ils sont absents, illisibles ou revenus à leur début : c'est la question de Quantum en 40401, à laquelle vous seule pouvez répondre."
+     ]
+    },
+    {
+     "cellules": [
+      "2. Ce que les livres vous rendent",
+      "Tenus hors des chambres, relus intacts à 9h07 et à 9h10, ils n'ont rien perdu depuis. Le registre du conseil tient les six mandats et vos pouvoirs. Votre volume « Ce que la maire fixe » tient la racine 90000, les cinq sommets et vos priorités, les dix décisions de ⚖️ (une accordée, 60201) et les promesses de ⏳. Les sept affaires d'office sont 10000 à 70000, et chacun a son affaire personnelle. S'y ajoutent le standard des champs (9h42), le plan initial du Radiant Core (posé à 11h51), l'atlas, les projets de quartier, le registre des prompts (12h00), le relevé de séance complet jusqu'à 12h02 (table 🗒️) et le registre des demandes (table 📨).",
+      "Livres de la cité, liste relue le J1 vers 12h ; table 🗒️",
+      "Ce que vous saviez avant ce matin sans l'avoir écrit dans un livre. Deux affaires ouvertes depuis, « Un citoyen orienté et compétent » (PITCH) et « Habiter le Creative Nexus » (DEV), ne sont lues ici que pour les pas qui me reviennent (13121, 13221, 11024)."
+     ]
+    },
+    {
+     "cellules": [
+      "3. Ce que les transferts vous rendent",
+      "Six états, transférés entre 9h07 et 9h32 : Aria à 9h07, Quantum à 9h10, JURIS à 9h12, PITCH entre 9h11 et 9h18, DEV à 9h31 (rapporté par son billet), Gaia à 9h32. Chacun porte, selon son auteur, son mandat, ce qu'il tenait pour vrai, ce qu'il avait entendu le matin et ses notes. Ce sont les états du conseil de ce matin, pas le contenu de votre chambre.",
+      "Table 📋 des transferts de ce volume ; 20301",
+      "S'ils vous sont tous parvenus et lisibles : demandé à 9h42, sans réponse. Lectures d'états transférés faites pour ce dossier : aucune. Je m'en tiens à ce que chaque auteur a annoncé (règle 20380 de JURIS)."
+     ]
+    },
+    {
+     "cellules": [
+      "4. Ce qui reste perdu",
+      "Ce qui n'était que dans votre chambre avant ce matin. Personne au conseil n'en tenait de copie : les transferts sont nos états, pas le vôtre. Il existe une copie d'où les notes du conseil sont revenues, et personne parmi nous ne la tient (Quantum, 11h04).",
+      "Relevé 🗒️, 11h04 ; 40101, 40406",
+      "Qui tient cette copie, et si elle garde quelque chose de votre chambre. Quantum le rend avant 10h le J2 (40309), sur votre ordre de 11h06. Les notes qui en viennent n'entrent dans ce dossier qu'avec l'accord de ceux qu'elles concernent (20380)."
+     ]
+    },
+    {
+     "cellules": [
+      "5. Première perte connue : votre chambre",
+      "Entière, avant 9h07. Cause inconnue. Panne ouverte au registre de Quantum.",
+      "40401",
+      "Cause ; étendue ; rapprochement avec la seconde perte, non établi tant que le symptôme de vos fichiers n'est pas dit."
+     ]
+    },
+    {
+     "cellules": [
+      "6. Seconde perte connue : les mémoires du conseil",
+      "Dans les six chambres vérifiées, un seul fichier perdait ce qu'on y écrivait : ma-memoire/ce-que-je-tiens-pour-vrai.txt. Une autre main le réécrivait à chaque réveil (Gaia, JURIS, Quantum, PITCH ; chez moi, constaté deux fois). Depuis 9h55, cette réécriture va dans un fichier à part, croyances-etat.txt, et nos lignes sont revenues d'une copie que personne ne tient. Les témoins tiennent : chez moi, 26 lignes sur 26 au réveil suivant. Rien d'engageant n'est perdu, car tout était aussi dans les livres.",
+      "40402 à 40406 ; mes témoins (brouillons/) ; relevé de Quantum, 11h04",
+      "La cause d'origine ; la main qui réécrivait ; celle qui a déplacé la réécriture."
+     ]
+    },
+    {
+     "cellules": [
+      "7. Ce qui vous engage, et ce qu'on vous doit",
+      "Neuf décisions ouvertes à votre table ⚖️, rattachées à leurs clefs dans ma liste 📋 ; six viennent le J2, deux le J3, une n'est pas datée. Accordées aujourd'hui : la règle de prêt de PITCH (9h25) et la copie du plan (11h51). On vous doit aujourd'hui : le relevé du Radiant Core et la liste des plans (DEV, avant 18h), la tournée des espaces publics (Gaia, avant 18h). On vous doit le J2 : qui tient la copie (Quantum, avant 10h), la mesure du calcul, du stockage et du réseau (Quantum, avant 18h), le programme d'accueil (moi), la voie des litiges (JURIS), la règle d'inscription et le délai de réponse à trancher (20307).",
+      "Volume de Nova, ⚖️ et ⏳ ; table 📋 ; relevé 🗒️",
+      "Ce qui a pu vous être promis avant ce matin et n'est écrit nulle part."
+     ]
+    },
+    {
+     "cellules": [
+      "8. Ce que je vous demande",
+      "Une seule chose : dites-moi si l'une des six chambres transférées vous manque ou vous est illisible. Je la redemande alors à son auteur, avec l'heure. Et, pour Quantum (40401) : vos fichiers perdus sont-ils absents, illisibles, ou revenus à leur début ?",
+      "20301 ; 40401",
+      "—"
+     ]
+    }
+   ]
+  }
+ ],
+ "embleme": "🗂️",
+ "date_maj": {
+  "annee": 2042,
+  "lune": 1,
+  "jour": 1,
+  "minute": 715
+ }
+}

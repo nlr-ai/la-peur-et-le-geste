@@ -14,19 +14,22 @@ from etat.expose import tables  # LA PORTE de etat/
 # La console de Windows est en cp1252 et le script parle avec des flèches.
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-# Trois etages de plus qu'a la racine : scripts/agents/affectation/.
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.dirname(os.path.abspath(__file__)))))
+import racines
+
+# `RACINE` reste le DEPOT : `monde/`, `ecrans/` et `scripts/monde` sont du CODE
+# et ne suivent pas le monde joue. Seules les tables passent par `ETAT`.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 sys.path.insert(0, os.path.join(RACINE, "scripts", "monde"))
 from monde.expose import bati as _bati              # le lecteur unique du bâti
 
 DEFAUT_MONDE = _bati.DEFAUT
 GENS = os.path.join(RACINE, "monde", "portreal.gens.json")
-LIENS = os.path.join(RACINE, "etat", "corps.json")
-PERSOS = os.path.join(RACINE, "etat", "personnages.json")
-BOOKS = os.path.join(RACINE, "etat", "books.json")
+LIENS = os.path.join(ETAT, "corps.json")
+PERSOS = os.path.join(ETAT, "personnages.json")
+BOOKS = os.path.join(ETAT, "books.json")
 PLANS = os.path.join(RACINE, "ecrans", "modules", "plans.js")
-VILLE = os.path.join(RACINE, "etat", "villes", "port-real.json")
+VILLE = os.path.join(ETAT, "villes", "port-real.json")
 
 GENRES = ("lieu", "salle", "personnage", "acteur", "livre")
 
@@ -278,8 +281,7 @@ def identifiants(genre):
             return {x["id"] for x in (P if isinstance(P, list)
                                       else P.get("personnages", []))}
         if genre == "livre":
-            return {x["id"] for x in bibliotheque.charger(
-                os.path.join(RACINE, "etat"))}
+            return {x["id"] for x in bibliotheque.charger(ETAT)}
         if genre == "acteur":
             V = json.load(io.open(VILLE, encoding="utf-8"))
             return {x["id"] for x in V.get("acteurs", []) if x.get("id")}

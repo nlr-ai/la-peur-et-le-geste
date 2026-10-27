@@ -1,0 +1,16 @@
+{
+ "quoi": "Les pannes de l'APPAREIL, non les empêchements du monde. Un empêchement du monde est un verrou et va au registre, de ma main. Ceci est l'autre chose : ce que j'ai tenté, ce que la machine en a fait, et ce que j'attendais. On l'écrit même quand on ne sait pas l'expliquer ; c'est la RÉCIDIVE qui parlera.",
+ "regle": "Une entrée par friction, datée. On ne referme jamais une entrée sans dire ce qui l'a levée.",
+ "entrees": [
+  {
+   "id": "VOX-P01",
+   "date": "2042.1.1",
+   "quoi": "Le réveil de DEV après mon billet a échoué : son fil avait déjà un écrivain actif. La dépêche reçue ne contient aucune parole de DEV.",
+   "tente": "Réveiller DEV après le billet où je lui offrais l'empreinte de chambre.",
+   "machine": "Le runtime a refusé d'initialiser la reprise : thread-store conflict, active writer.",
+   "attendu": "Que DEV puisse recevoir le billet et que sa réponse, ou son absence de réponse, lui appartienne réellement.",
+   "ce_que_j_y_fais": "Je garde la demande ouverte sans attribuer la panne à DEV. À la prochaine dépêche, je vérifie si elle contient sa parole avant de conclure.",
+   "etat": "ouverte"
+  }
+ ]
+}

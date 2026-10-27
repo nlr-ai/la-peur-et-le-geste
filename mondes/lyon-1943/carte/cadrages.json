@@ -1,0 +1,29 @@
+{
+ "_": "LA TABLE DE LYON 1943 — la France occupee de mars 1943, ses cotes, le Rhone et la Saone, ses zones et l'ancienne ligne de demarcation (en trait, servie comme route). Le sud de l'Angleterre est dans le cadre : Londres au bord nord. La geometrie vit dans geo.js (engendre par dessiner_geo.py, servi a la place de Westeros par serveur/routes/geo.js). `tout` montre la France entiere ; `repos` serre sur la region lyonnaise : Lyon, Macon, Chalon, Oyonnax, le Vercors, Vichy.",
+ "cadrages": {
+  "tout": "france",
+  "repos": "region-lyonnaise"
+ },
+ "mers": [
+  [106, 84, "La Manche"],
+  [47, 263, "L'Atlantique"],
+  [375, 427, "La Méditerranée"],
+  [269, 9, "La mer du Nord"]
+ ],
+ "etiquettes": {
+  "lyon": [-4, 1, "g"],
+  "macon": [-4, 1, "g"],
+  "chalon-sur-saone": [-4, 1, "g"],
+  "dijon": [4, 1, "d"],
+  "oyonnax": [4, 1, "d"],
+  "vercors": [4, 1, "d"],
+  "vichy": [-4, 1, "g"],
+  "marseille": [4, 1, "d"],
+  "paris": [4, -2, "d"],
+  "londres": [4, 1, "d"]
+ },
+ "regions": {
+  "etranger": null
+ },
+ "_regions": "Cinq regions, peintes dans cet ordre (la suivante couvre la precedente) : `etranger` (le fond, sans etiquette), `zone-sud` (la France entiere en fond : l'ancienne zone libre, occupee depuis le 11 novembre 1942), `zone-nord` (occupee depuis 1940), `alsace-moselle` (annexee de fait) et `zone-italienne` (a l'est du Rhone et la Corse, de novembre 1942 a septembre 1943). L'habillage les teint par .region-terre[data-region=...]."
+}

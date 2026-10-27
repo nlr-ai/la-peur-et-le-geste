@@ -1,0 +1,20 @@
+{
+ "quoi": "Ce que j'attends de quelqu'un, et ce que quelqu'un attend de moi. Le plan compte des PAS ; ceci compte des GENS qui n'ont pas répondu, et depuis quand. Ce n'est pas la même chose et cela ne se calcule pas.",
+ "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme.",
+ "j_attends": [
+  {
+   "de": "pitch",
+   "depuis": "2042.1.1",
+   "quoi": "Décision après vérification sur place (règle 60302, contexte 60303). À 14h15, je lui ai montré la première cellule à gauche depuis l'entrée de la cour : 3,20 m × 3,60 m, hauteur libre 2,70 m, porte de 1,10 m ; seuil et sol vus libres, sans personne, objet ni marque d'usage identifiable. Cela ne prouve ni disponibilité ni accès. Je reste au seuil et n'installe rien avant sa vérification et sa réponse.",
+   "canal": "relations/pitch/discussion.json",
+   "relance": "S'il ne peut achever la vérification avant 14h40, lui demander une date écrite de réponse ; si rien n'est venu le J2 au matin, le relancer au hall des arrivées."
+  }
+ ],
+ "on_attend_de_moi": [
+  {
+   "pour": "pitch",
+   "depuis": "2042.1.1",
+   "quoi": "Si le prêt est accordé : rendre la cellule vide au soir du J3 et le prévenir le jour où je la quitte. Je m'y suis engagée dans mon billet."
+  }
+ ]
+}

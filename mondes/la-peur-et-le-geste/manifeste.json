@@ -1,0 +1,25 @@
+{
+  "id": "la-peur-et-le-geste",
+  "nom": "La peur et le geste",
+  "calendrier": {
+    "lunes": 12,
+    "jours_par_lune": 30,
+    "dit": "%(jour)d / %(lune)d / %(annee)d"
+  },
+  "monnaie": {
+    "unites": [
+      "franc",
+      "francs"
+    ]
+  },
+  "depart": {
+    "lieu": "niort",
+    "siege": "raymond-moreau"
+  },
+  "gens": {
+    "contacts_indirects": {
+      "seuil_confiance": 40,
+      "seuil_combine": 25
+    }
+  }
+}

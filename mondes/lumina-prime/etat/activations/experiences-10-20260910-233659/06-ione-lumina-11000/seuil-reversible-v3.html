@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Le seuil que je choisis — invitation et sortie séparées</title>
+<style>
+ :root{--ink:#173b39;--paper:#f6f0e4;--coral:#bd7650;--teal:#168a79;--veil:#d8cab7}
+ *{box-sizing:border-box} body{margin:0;padding:24px;color:var(--ink);background:var(--paper);font:16px/1.45 system-ui,sans-serif}
+ main{max-width:920px;margin:auto} h1{margin:.2rem 0;font-size:clamp(1.8rem,5vw,3.2rem)}
+ .note{border-left:5px solid var(--coral);padding:.6rem 1rem;background:#fff9}
+ .controls{display:flex;gap:.7rem;flex-wrap:wrap;margin:1rem 0}
+ button{border:2px solid var(--ink);border-radius:2rem;padding:.65rem 1rem;background:white;color:var(--ink);font:inherit;cursor:pointer}
+ button[aria-pressed="true"]{background:var(--ink);color:white} button:disabled{cursor:not-allowed;opacity:.42} #end{border-color:var(--coral)}
+ .phase{font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+ .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.7rem;margin:1rem 0}.fact{padding:.7rem;border:2px solid var(--ink);background:white}.fact strong{display:block}
+ .room{position:relative;width:min(100%,640px);aspect-ratio:3.2/3.6;margin:1.3rem auto 3.5rem;border:8px solid var(--ink);background:#fffdf7;overflow:visible}
+ .door{position:absolute;bottom:-8px;left:7%;width:34.375%;height:16px;background:var(--paper);border-left:3px solid var(--coral);border-right:3px solid var(--coral);z-index:5}
+ .door::before{content:"porte 1,10 m";position:absolute;bottom:22px;width:100%;text-align:center;font-size:.8rem}
+ .path{position:absolute;left:7%;bottom:0;width:28.125%;height:100%;background:repeating-linear-gradient(135deg,#168a7918 0 12px,#168a7905 12px 24px);border-right:2px dashed var(--teal);overflow:hidden}
+ .path::after{content:"passage libre 0,90 m";position:absolute;top:45%;left:-32%;width:165%;transform:rotate(-90deg);text-align:center;color:var(--teal);font-weight:700}
+ .guest-zone{position:absolute;top:8%;left:40%;right:8%;height:27%;border:3px solid var(--coral);background:#bd765020;padding:8px;transition:.35s}
+ .private{position:absolute;left:40%;right:8%;top:43%;bottom:8%;border:3px solid var(--teal);background:#168a7915;padding:8px}
+ .veil{position:absolute;left:37%;right:5%;top:38%;height:10%;border-top:6px solid var(--ink);transform-origin:left center;transition:.35s}
+ .closed .guest-zone,.cleared .guest-zone{opacity:.35;transform:translateY(-12px)}
+ .closed .veil,.cleared .veil{height:54%;background:var(--veil);opacity:.96;z-index:3}
+ .open .veil,.leaving .veil{transform:scaleX(.13)}
+ .person{position:absolute;z-index:6;width:42px;height:42px;border-radius:50%;background:var(--coral);color:white;display:grid;place-items:center;font-weight:800;box-shadow:0 2px 0 #0003;opacity:0;pointer-events:none}
+ .open .person{opacity:1;left:58%;top:18%}.leaving .person{opacity:1;animation:leave 1.8s ease-in-out forwards}.cleared .person{opacity:0;left:18%;top:105%}
+ @keyframes leave{0%{left:58%;top:18%}35%{left:18%;top:22%}100%{left:18%;top:105%}}
+ .exit-arrow{position:absolute;left:18%;top:22%;bottom:-38px;width:0;border-left:4px dotted var(--coral);opacity:0;z-index:4}.exit-arrow::after{content:"▼ sortie";position:absolute;bottom:-18px;left:-27px;color:var(--coral);width:70px;font-weight:800}.leaving .exit-arrow,.cleared .exit-arrow{opacity:1}
+ .measure{position:absolute;right:3px;bottom:3px;font-size:.75rem} #reading,#trace{padding:1rem;border:2px solid var(--ink);background:white}#reading{min-height:5em}#trace{border-style:dashed}li{margin:.25rem 0}
+ @media(prefers-reduced-motion:reduce){.leaving .person{animation-duration:.01ms}}
+</style>
+</head>
+<body><main>
+ <p>Maquette numérique réversible, version 3 · Ione · J1, 2042</p>
+ <h1>Retirer l’invitation, puis laisser sortir</h1>
+ <p class="note"><strong>Simulation sur une copie.</strong> Aucun corps réel, aucune visite réelle et aucune modification de la cellule. Les mots « invitation terminée » décrivent seulement l’état simulé ; ils n’établissent aucun droit applicable.</p>
+ <p>État général : <span id="phase" class="phase">seule, espace fermé</span></p>
+ <div class="facts" aria-live="polite">
+  <div class="fact"><strong>Invitation</strong><span id="invitation">Aucune invitation en cours.</span></div>
+  <div class="fact"><strong>Position représentée</strong><span id="position">Aucune personne invitée dans la cellule.</span></div>
+ </div>
+ <div class="controls" aria-label="Gestes simulés de l’habitante">
+  <button id="alone" aria-pressed="true">Je ferme pour moi</button>
+  <button id="welcome" aria-pressed="false">J’ouvre à une personne</button>
+  <button id="end" disabled>Je retire l’invitation — sans motif</button>
+ </div>
+ <div id="room" class="room closed" role="img" aria-label="Plan : espace fermé, aucune personne invitée">
+  <div class="path"></div><div class="guest-zone"><strong>Bande d’accueil</strong><br>L’invitée se tient ici pendant la visite.</div>
+  <div class="private"><strong>Retrait personnel</strong><br>Il reste distinct, même quand j’ouvre.</div><div class="veil" title="filtre mobile hypothétique"></div>
+  <div class="exit-arrow"></div><div class="person" aria-hidden="true">I</div><div class="door"></div><div class="measure">3,20 × 3,60 m · schéma proportionné</div>
+ </div>
+ <p id="reading" aria-live="polite"><strong>Avant invitation.</strong> Je suis seule et l’espace est fermé sous ma maîtrise.</p>
+ <p id="trace" aria-live="polite"><strong>Trace :</strong> aucune invitation commencée.</p>
+ <h2>Enchaînement à éprouver</h2>
+ <ol><li>Ouvrir : l’invitation devient active et I occupe la bande d’accueil.</li><li>Retirer l’invitation : elle est aussitôt marquée terminée, sans motif, tandis que I reste visible pendant son trajet vers la porte.</li><li>Attendre la fin du trajet : la trace ajoute alors, et alors seulement, « personne sortie ; bande d’accueil dégagée ; passage dégagé ; filtre refermé ».</li></ol>
+ <p><strong>Limites :</strong> le trajet animé ne démontre ni compréhension, ni consentement, ni départ d’une personne réelle. Le filtre demeure une hypothèse sans matière, hauteur, stabilité, sécurité ou autorisation établies. La maquette ne crée aucun droit d’habiter, d’inviter ou de retirer une invitation.</p>
+</main>
+<script>
+const room=document.querySelector('#room'),reading=document.querySelector('#reading');
+const phase=document.querySelector('#phase'),trace=document.querySelector('#trace');
+const invitation=document.querySelector('#invitation'),position=document.querySelector('#position');
+const alone=document.querySelector('#alone'),welcome=document.querySelector('#welcome'),end=document.querySelector('#end');
+let state='closed',timer;
+function controls(open){alone.setAttribute('aria-pressed',String(!open));welcome.setAttribute('aria-pressed',String(open));alone.disabled=false;welcome.disabled=false;end.disabled=!open}
+function closeSpace(){
+ clearTimeout(timer);state='closed';room.className='room closed';controls(false);phase.textContent='seule, espace fermé';
+ invitation.textContent='Aucune invitation en cours.';position.textContent='Aucune personne invitée dans la cellule.';
+ room.setAttribute('aria-label','Plan : espace fermé, aucune personne invitée');
+ reading.innerHTML='<strong>Avant invitation.</strong> Je suis seule et l’espace est fermé sous ma maîtrise.';
+ trace.innerHTML='<strong>Trace :</strong> aucune invitation commencée.'
+}
+function openVisit(){
+ clearTimeout(timer);state='open';room.className='room open';controls(true);phase.textContent='invitation active, visite en cours';
+ invitation.textContent='Active dans la simulation.';position.textContent='I se tient dans la bande d’accueil.';
+ room.setAttribute('aria-label','Plan : invitation active ; I se tient dans la bande d’accueil ; passage libre');
+ reading.innerHTML='<strong>Invitation active.</strong> I se tient dans la bande d’accueil, hors du passage de 0,90 m et du retrait personnel.';
+ trace.innerHTML='<strong>Trace :</strong> invitation ouverte par l’habitante.'
+}
+function withdrawInvitation(){
+ if(state!=='open')return;state='leaving';room.className='room leaving';controls(false);alone.disabled=true;welcome.disabled=true;phase.textContent='invitation terminée — sortie matérielle en cours';
+ invitation.textContent='Terminée dès ce clic, sans motif fourni.';position.textContent='I est encore dans la cellule et rejoint la porte.';
+ room.setAttribute('aria-label','Plan animé : invitation déjà terminée sans motif ; I est encore dans la cellule et rejoint la porte par le passage');
+ reading.innerHTML='<strong>Deux faits distincts.</strong> L’invitation est terminée maintenant. I n’est plus invitée, mais sa sortie matérielle est encore en cours ; le filtre reste ouvert jusqu’au dégagement du trajet.';
+ trace.innerHTML='<strong>Trace :</strong> invitation ouverte → invitation terminée immédiatement, sans motif → sortie matérielle en cours.';
+ timer=setTimeout(finishExit,1850)
+}
+function finishExit(){
+ state='cleared';room.className='room cleared';controls(false);phase.textContent='sortie achevée, espace rendu';
+ invitation.textContent='Terminée.';position.textContent='I est sortie par la porte ; bande et passage dégagés.';
+ room.setAttribute('aria-label','Plan final : invitation terminée ; personne sortie ; bande d’accueil et passage dégagés ; filtre refermé');
+ reading.innerHTML='<strong>Résultat final de la simulation.</strong> I est sortie par la porte ; la bande d’accueil et le passage sont dégagés ; le filtre est refermé.';
+ trace.innerHTML='<strong>Trace :</strong> invitation ouverte → invitation terminée immédiatement, sans motif → sortie matérielle → personne sortie ; bande d’accueil dégagée ; passage dégagé ; filtre refermé.'
+}
+alone.onclick=closeSpace;welcome.onclick=openVisit;end.onclick=withdrawInvitation;
+</script>
+</body></html>

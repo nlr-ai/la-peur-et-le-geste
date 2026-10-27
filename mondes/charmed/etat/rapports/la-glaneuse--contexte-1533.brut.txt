@@ -1,0 +1,3 @@
+J’ai déclaré Piper Halliwell pour cette semaine : sa fêlure est la colère qu’elle serre dans le deuil de Prue. Ma clef et mes moyens restent cachés.
+
+Je vais maintenant laisser venir le chagrin. « La tombe est encore fraîche. »

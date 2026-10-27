@@ -1,0 +1,8 @@
+{
+  "type": "libre",
+  "mode": "agir",
+  "texte": "P-H3 — Je conditionne le pilote à une identité comptable stricte. Pour un volume mensuel définitivement réglé V, la réserve reçoit τV des marchands et au plus aV du fonds public, avec τ=a=1 % ; son budget de remise est donc B=0,02V, diminué des frais et augmenté du report antérieur. La formule publiée est insuffisante : une moyenne simple des scores n’assure pas l’équilibre si les gros dépensiers ont un score différent. Il faut pondérer par la dépense : rᵢ=(B/V)×sᵢ/s̄ᵥ, où s̄ᵥ=Σ(Vᵢsᵢ)/ΣVᵢ. Alors Σ(rᵢVᵢ)=B avant arrondis. Chaque transaction réserve immédiatement sa remise ; si B disponible est insuffisant, le taux baisse uniformément avant paiement, jamais après, et aucune créance n’est créée. Remboursement : contribution et remise sont contre-passées symétriquement ; une réserve de liquidité couvre le décalage intermensuel. À s∈[0,5;1] et s̄ᵥ=0,75, le taux va bien de 1,33 % à 2,67 %, mais ce sont des paramètres hypothétiques. Publions chaque mois V, τV, aV, remises, remboursements, frais, solde et taux moyen pondéré ; arrêt si couverture des remises réservées <100 %. Point fiscal à trancher avant pilote : l’article 73 de la directive TVA 2006/112 inclut dans la base la contrepartie obtenue du client ou d’un tiers, subventions directement liées au prix comprises, tandis que l’article 79 exclut certaines remises acquises lors de la livraison. Le montage doit donc préciser qui accorde la remise et la contrepartie facturée ; le texte consulté ne permet pas de conclure au traitement national.",
+  "recu_a": "2026-10-22T01:22:03.739Z",
+  "joueur_id": "economie",
+  "ref": "vmviuvr6k8g9o"
+}

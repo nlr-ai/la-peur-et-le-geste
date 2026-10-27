@@ -1,0 +1,23 @@
+{
+  "_": "LYON 1943 — Lyon, mars 1943, quatre mois apres l'entree des Allemands en zone sud. On y joue Marcel Rivoire, typographe de vingt et un ans a la Croix-Rousse, de la classe appelee par la loi du 16 fevrier sur le Service du travail obligatoire. Monde HISTORIQUE : les faits et les dates sont l'histoire (sources dans docs/recherche-lyon-1943/) ; les inventions sont declarees dans manuel.md. Pitch : docs/pitch-lyon-1943.md.",
+
+  "id": "lyon-1943",
+  "nom": "Lyon 1943",
+
+  "calendrier": {
+    "lunes": 12,
+    "jours_par_lune": 30,
+    "dit": "%(jour)d / %(lune)d / %(annee)d",
+    "_": "Le moteur compte 12 mois de 30 jours ; le calendrier gregorien de 1943 non. L'ecart est assume comme dans navarre-1572 : une date historique tombant un 31 se pose au 30. Les jours de la semaine se lisent sur le vrai calendrier de 1943 (le 7 mars 1943 est un dimanche), jamais sur le compte du moteur."
+  },
+
+  "monnaie": {
+    "unites": ["franc", "francs"],
+    "_": "On compte en francs de 1943. Un ouvrier qualifie gagne de l'ordre de 2 000 a 2 500 francs par mois ; le marche noir multiplie les prix officiels par trois a dix. Ordres de grandeur seulement, a recouper."
+  },
+
+  "depart": {
+    "lieu": "lyon",
+    "siege": "marcel-rivoire"
+  }
+}

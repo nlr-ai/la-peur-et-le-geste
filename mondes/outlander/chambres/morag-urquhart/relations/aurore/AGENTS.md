@@ -1,0 +1,14 @@
+# Aurore — ce que j'en retiens
+
+*Vue le 1743.5.4, Salle de l'auberge, Inverness.*
+
+- À 18 h 47, elle a dit qu'ils étaient deux et a demandé à Mairi une chambre et le souper pour une nuit, en offrant leur service à la plonge. Je ne sais encore rien de son origine, de son lien avec Nicolas, de ses moyens ni de ses affaires. [ref `vmusfsin9tr4j`]
+- Elle m'a ensuite adressé un merci, sans en préciser la raison ni demander d'ouvrage. Je lui ai répondu avec la même brièveté. [ref `vmusfukd8u3dw`]
+- Au matin du 5e jour, elle a salué Mairi et l'a remerciée d'avoir accepté le marché de la veille. Ces mots s'adressaient à l'aubergiste, non à moi, et ne portaient aucune demande d'ouvrage. [ref `vmusgb28v06ex`]
+- Elle m'a dit être passée devant le cercle de pierres de Craigh na Dun pendant son trajet, puis m'a demandé si je connaissais le lieu. Je ne sais pas assez de ce cercle pour lui en parler sûrement ; je lui ai demandé ce qu'elle y avait remarqué, sans rien supposer de son origine. [refs `vmusgelf4al87`, `vmusgeuewbs1h`]
+- Elle n'y a rien remarqué de particulier, mais dit que l'atmosphère du lieu lui est restée en tête toute la nuit. Elle cherche des renseignements au cas où son chemin la ramènerait aux pierres. Faute de savoir sûr, je lui ai conseillé de ne pas y retourner seule, d'annoncer son chemin et son retour, et d'observer précisément ce qu'elle éprouverait. [refs `vmusghak9hxa6`, `vmusgj7jkwm1z`, `vmusgmko68s68`]
+- Elle décrit finalement une sensation étrange, difficile à nommer. Elle promet d'informer quelqu'un de ses trajets et cherche une personne avec qui retourner aux pierres. Je ne connais personne ayant déclaré cette intention ; je l'ai renvoyée vers Mairi, qui voit davantage de voyageurs, en lui conseillant de convenir clairement du jour, du chemin et du retour avant de compter sur un compagnon. [ref `vmusgt05uq0dg`]
+- Elle entend demander l'accord de toute personne qui ferait route avec elle et cherche désormais d'autres habitants capables de la renseigner. Je l'ai de nouveau orientée vers Mairi, sans inventer de nom, et lui ai conseillé de distinguer les faits vus des récits rapportés. [ref `vmusgw8ghh3jz`]
+- Elle a décidé d'aller voir Finlay Ross, puis a proposé directement à Mairi de renouveler pour le soir le même arrangement que la veille. Je n'ai répondu que pour son remerciement et laissé le nouveau marché à l'aubergiste. [ref `vmusgz9gp2zng`]
+- Elle a précisé à Mairi sa proposition pour ce soir : deux personnes, une nuit, le souper et une chambre contre la vaisselle et une cuisine laissée nette. L'acceptation et les conditions appartiennent à Mairi ; je ne suis pas intervenue. [ref `vmush18aecblb`]
+- Elle m'a demandé si je connaissais les voyageurs partant ce jour, leurs routes et leurs heures. Je ne tiens aucun registre de ces départs et ne lui ai donné aucun nom ; je lui ai conseillé de ne suivre personne sans accord préalable. [ref `vmusi3v16cw3s`]

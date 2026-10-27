@@ -10,13 +10,19 @@ fragile au fil de la partie (scripts/tests/CLAUDE.md interdit de lire `etat/`,
 pas le code).
 """
 import io
+import json
 import os
 import re
 import unittest
 
 RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 GEN = os.path.join(RACINE, "scripts", "peinture", "gen_salles.py")
-PLANS = os.path.join(RACINE, "ecrans", "modules", "plans.js")
+# LES PLANS ONT DEMENAGE (9.9, lot 3 de docs/refonte-plan.md). Ils vivaient
+# dans `ecrans/modules/plans.js`, ou ce test les cherchait a l'expression
+# reguliere ; ce sont des donnees de monde et elles sont descendues dans le
+# paquet, un fichier par plan. Le module d'ecran n'est plus qu'une porte, et le
+# grep n'y trouvait plus AUCUN id — les deux invariants tombaient en silence.
+PLANS = os.path.join(RACINE, "plans")
 SORTIE = os.path.join(RACINE, "ecrans", "salles")
 VUE = os.path.join(RACINE, "ecrans", "modules", "vue-salle.js")
 
@@ -31,7 +37,19 @@ def cles_salles():
 
 
 def ids_du_plan():
-    return set(re.findall(r'\bid:\s*"([a-z0-9\-]+)"', lire(PLANS)))
+    """Tous les ids de salle du paquet, plan par plan. On LIT le JSON au lieu de
+    le gratter : c'est desormais un format, plus du code a l'expression."""
+    ids = set()
+    if not os.path.isdir(PLANS):
+        return ids
+    for nom in sorted(os.listdir(PLANS)):
+        if not nom.endswith(".json"):
+            continue
+        plan = json.loads(lire(os.path.join(PLANS, nom)))
+        for salle in plan.get("salles") or []:
+            if salle.get("id"):
+                ids.add(salle["id"])
+    return ids
 
 
 def variantes():

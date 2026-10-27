@@ -17,11 +17,30 @@
 
 const fs = require("fs");
 const path = require("path");
-const { RACINE } = require("./http");
+const { RACINE, DEPOT, ETAT } = require("./http");
+// TROIS RACINES ICI, ET ELLES NE VISENT PAS LA MEME CHOSE (9.9). `DEPOT` : les
+// artefacts 3D de `monde/` et les sources `.py` qui les engendrent — du code,
+// jamais des donnees de partie. `ETAT` : `corps.json`, qui est bien du monde.
+// `RACINE` : garde pour `d.carte`, dont le chemin porte deja `etat/` en tete.
 const { envoyer } = require("./http");
 const { qui } = require("./http");
 
-const LIEUX3D = {
+// LE REGISTRE DES LIEUX EN 3D — declare par le MONDE, plus par ce fichier (9.9).
+//
+// Il etait ecrit ici, donc il partait avec N'IMPORTE quel monde : `cities-of-light`,
+// qui n'a ni Peyredragon ni Port-Real, annoncait au demarrage que « le monde 3D de
+// Peyredragon est PERIME » — un message vrai sur un monde, absurde sur l'autre, et
+// le genre de fuite qu'on ne voit que le jour ou un second monde existe.
+//
+// La table ci-dessous reste le DEFAUT, mot pour mot : sans declaration du monde,
+// le comportement est identique a l'octet pres. Un monde qui declare `lieux3d`
+// (dans son `manifeste.json`, ou dans un `lieux3d.json` a sa racine) REMPLACE la
+// table — on ne fusionne pas ici, parce qu'un registre a moitie remplace ferait
+// chercher les artefacts d'un monde sous les prefixes d'un autre.
+//
+// Un monde sans 3D declare un objet vide, et c'est une reponse : pas de bouton
+// pour cette echelle, pas d'annonce de peremption, rien qui mente.
+const _DEFAUT_LIEUX3D = {
   "port-real": {
     nom: "Port-Réal", sous: "les trois collines, les sept portes et la Néra",
     prefixe: "portreal", carte: path.join("etat", "villes", "port-real.json"),
@@ -119,7 +138,31 @@ const LIEUX3D = {
     vous: [4644, 2082, 60],
   },
 };
-const LIEU3D_DEFAUT = "port-real";
+
+// Ce que le monde declare, s'il declare quelque chose. Deux endroits acceptes :
+// la clef `lieux3d` de son manifeste, ou un `lieux3d.json` a sa racine — le
+// second parce qu'un registre de treize entrees a cadrages n'a pas sa place au
+// milieu d'un manifeste qu'on lit a l'oeil.
+const LIEUX3D = (() => {
+  const racines = require("./racines");
+  const duManifeste = (racines.manifeste() || {}).lieux3d;
+  if (duManifeste && typeof duManifeste === "object") return duManifeste;
+  try {
+    const p = require("path").join(racines.racine(), "lieux3d.json");
+    const d = JSON.parse(require("fs").readFileSync(p, "utf-8"));
+    // La clef `_` est de la prose : elle n'est pas un lieu.
+    Object.keys(d).forEach((k) => { if (k.startsWith("_")) delete d[k]; });
+    return d;
+  } catch (e) { /* absent : le defaut */ }
+  return _DEFAUT_LIEUX3D;
+})();
+
+// Le lieu servi quand rien n'est demande. Il ne peut pas etre ecrit en dur : un
+// monde qui n'a pas Port-Real servirait une cle absente, et `serviceMonde`
+// rendrait 404 sur toutes ses sorties sans dire pourquoi. On prend donc le
+// premier declare, et le defaut historique quand il est la.
+const LIEU3D_DEFAUT = Object.prototype.hasOwnProperty.call(LIEUX3D, "port-real")
+  ? "port-real" : (Object.keys(LIEUX3D)[0] || null);
 
 // ===========================================================================
 // MARCHER DANS LA VILLE — le graphe piéton, le bâti d'à côté, et la montre
@@ -175,7 +218,7 @@ const SESSION_SERVEUR = Date.now();
 
 function graphePieton(lieu) {
   const d = LIEUX3D[lieu] || LIEUX3D[LIEU3D_DEFAUT];
-  const f = path.join(RACINE, "monde", d.prefixe + ".rues.json");
+  const f = path.join(DEPOT, "monde", d.prefixe + ".rues.json");
   const cle = d.prefixe + ":" + String(fs.statSync(f).mtimeMs);
   if (_rues.cle === cle) return _rues.g;
   const src = JSON.parse(fs.readFileSync(f, "utf-8"));
@@ -299,7 +342,7 @@ const _bati = { cle: null, i: null };
 
 function batiIndex(lieu) {
   const d = LIEUX3D[lieu] || LIEUX3D[LIEU3D_DEFAUT];
-  const f = path.join(RACINE, "monde", d.prefixe + ".bati.json");
+  const f = path.join(DEPOT, "monde", d.prefixe + ".bati.json");
   const cle = d.prefixe + ":" + String(fs.statSync(f).mtimeMs);
   if (_bati.cle === cle) return _bati.i;
   const src = JSON.parse(fs.readFileSync(f, "utf-8"));
@@ -644,7 +687,7 @@ function repereProche(lieu, x, y) {
 const _monde = { cle: null, couches: null, lieu: null };
 function grapheTaille(lieu) {
   const d = LIEUX3D[lieu] || LIEUX3D[LIEU3D_DEFAUT];
-  const f = path.join(RACINE, "monde", d.prefixe + ".graph.json");
+  const f = path.join(DEPOT, "monde", d.prefixe + ".graph.json");
   const cle = d.prefixe + ":" + String(fs.statSync(f).mtimeMs);
   if (_monde.cle === cle) return _monde.couches;
   const g = JSON.parse(fs.readFileSync(f, "utf-8"));
@@ -692,7 +735,7 @@ function reperesAffectes(lieu, siege) {
   if (lieu !== LIEU3D_DEFAUT) return [];
   let A;
   try {
-    A = JSON.parse(fs.readFileSync(path.join(RACINE, "etat", "corps.json"),
+    A = JSON.parse(fs.readFileSync(path.join(ETAT, "corps.json"),
                                    "utf8")).affectations || {};
   } catch (e) { return []; }
   const out = [];
@@ -723,7 +766,7 @@ const _peremption = { quand: 0, par: {} };
 // ne descend pas dans les sous-dossiers : `__pycache__` n'est pas une source,
 // et il rebouge à chaque import.
 function sourcesPy(relatif) {
-  const abs = path.join(RACINE, relatif);
+  const abs = path.join(DEPOT, relatif);
   try {
     if (!fs.statSync(abs).isDirectory()) return [abs];
     return fs.readdirSync(abs).filter((n) => n.endsWith(".py"))
@@ -744,7 +787,7 @@ function peremption(lieu) {
   try {
     // Témoin absent = jamais engendré : périmé, et c'est le cas le plus franc.
     let engendre = 0;
-    try { engendre = fs.statSync(path.join(RACINE, d.temoin)).mtimeMs; } catch (e) { engendre = 0; }
+    try { engendre = fs.statSync(path.join(DEPOT, d.temoin)).mtimeMs; } catch (e) { engendre = 0; }
     const recentes = [];
     for (const s of d.sources) {
       for (const f of sourcesPy(s)) {
@@ -752,7 +795,7 @@ function peremption(lieu) {
         try { m = fs.statSync(f).mtimeMs; } catch (e) { continue; }
         if (m > engendre)
           recentes.push({
-            fichier: path.relative(RACINE, f).split(path.sep).join("/"),
+            fichier: path.relative(DEPOT, f).split(path.sep).join("/"),
             modifie: Math.round(m),
           });
       }
@@ -821,7 +864,7 @@ function serviceMonde(req, res, chemin) {
             carte: !!LIEUX3D[id].carte, maillage: !!LIEUX3D[id].maillage,
             // Les intérieurs : un lieu en a parce que le FICHIER est là, pas
             // parce qu'il s'appelle Peyredragon — même règle que pour les corps.
-            interieurs: fs.existsSync(path.join(RACINE, "monde",
+            interieurs: fs.existsSync(path.join(DEPOT, "monde",
               LIEUX3D[id].prefixe + ".interieurs.json")),
             vue: LIEUX3D[id].vue, vues: LIEUX3D[id].vues || null,
             contient: LIEUX3D[id].contient || null,
@@ -832,9 +875,9 @@ function serviceMonde(req, res, chemin) {
         }),
       }));
     if (quoi === "terrain")
-      return rendre(fs.readFileSync(path.join(RACINE, "monde", d.prefixe + ".terrain.json")));
+      return rendre(fs.readFileSync(path.join(DEPOT, "monde", d.prefixe + ".terrain.json")));
     if (quoi === "terrain-region") {
-      const f = path.join(RACINE, "monde", d.prefixe + ".region-terrain.json");
+      const f = path.join(DEPOT, "monde", d.prefixe + ".region-terrain.json");
       if (!fs.existsSync(f))
         return envoyer(res, 404, JSON.stringify({ erreur:"lieu sans relief régional", lieu }));
       return rendre(fs.readFileSync(f));
@@ -843,7 +886,7 @@ function serviceMonde(req, res, chemin) {
     // relief, mais dessinée. Un lieu en a un parce que le FICHIER est là —
     // même règle que les corps et les intérieurs, et rien à déclarer ici.
     if (quoi === "plan2d") {
-      const f = path.join(RACINE, "monde", d.prefixe + ".plan2d.json");
+      const f = path.join(DEPOT, "monde", d.prefixe + ".plan2d.json");
       if (!fs.existsSync(f))
         return envoyer(res, 404, JSON.stringify({ erreur: "lieu sans plan 2D", lieu }));
       return rendre(fs.readFileSync(f));
@@ -853,7 +896,7 @@ function serviceMonde(req, res, chemin) {
     // jamais dans un mur. Servi en binaire brut, sans mise en forme : c'est un
     // tableau de bits, pas un document.
     if (quoi === "masque") {
-      const f = path.join(RACINE, "monde", d.prefixe + ".masque.bin");
+      const f = path.join(DEPOT, "monde", d.prefixe + ".masque.bin");
       if (!fs.existsSync(f))
         return envoyer(res, 404, JSON.stringify({ erreur: "lieu sans masque", lieu }));
       const buf = fs.readFileSync(f);
@@ -865,7 +908,7 @@ function serviceMonde(req, res, chemin) {
     // près. Un lieu qui n'en a pas rend `null` — le client ne pose rien.
     if (quoi === "maillage") {
       if (!d.maillage) return rendre(JSON.stringify(null));
-      return rendre(fs.readFileSync(path.join(RACINE, "monde", d.prefixe + ".maillage.json")));
+      return rendre(fs.readFileSync(path.join(DEPOT, "monde", d.prefixe + ".maillage.json")));
     }
     // Les intérieurs : une pièce creuse par salle, murs épais et portes percées
     // (scripts/monde/peyredragon_interieurs.py). Même format que le maillage,
@@ -873,13 +916,13 @@ function serviceMonde(req, res, chemin) {
     // est pourvu parce que le fichier existe — pas parce qu'on l'a nommé ici :
     // c'est la règle posée pour les corps, et elle vaut ici aussi.
     if (quoi === "interieurs") {
-      const f = path.join(RACINE, "monde", d.prefixe + ".interieurs.json");
+      const f = path.join(DEPOT, "monde", d.prefixe + ".interieurs.json");
       if (!fs.existsSync(f))
         return envoyer(res, 404, JSON.stringify({ erreur: "lieu sans intérieurs", lieu }));
       return rendre(fs.readFileSync(f));
     }
     if (quoi === "bati")
-      return rendre(fs.readFileSync(path.join(RACINE, "monde", d.prefixe + ".bati.json")));
+      return rendre(fs.readFileSync(path.join(DEPOT, "monde", d.prefixe + ".bati.json")));
     if (quoi === "carte") {
       // Un lieu sans carte 2D à la bonne échelle rend une carte VIDE plutôt
       // qu'une erreur : `enceinte.js` la parcourt et n'y trouve rien à bâtir,
@@ -907,7 +950,7 @@ function serviceMonde(req, res, chemin) {
       // Ce n'est plus le nom du lieu qui décide s'il est peuplé, c'est
       // l'existence de son manifeste : `peupler.py <lieu>` en écrit un, et le
       // lieu devient peuplé le jour où le fichier apparaît.
-      const mf = path.join(RACINE, "monde", d.prefixe + ".gens.json");
+      const mf = path.join(DEPOT, "monde", d.prefixe + ".gens.json");
       if (!fs.existsSync(mf))
         return envoyer(res, 404, JSON.stringify({ erreur: "lieu sans corps", lieu }));
       return rendre(fs.readFileSync(mf));
@@ -929,7 +972,7 @@ function serviceMonde(req, res, chemin) {
     // et c'est la page qui écarte ce qui n'est pas de son monde.
     if (quoi === "corps") {
       try {
-        return rendre(fs.readFileSync(path.join(RACINE, "etat", "corps.json")));
+        return rendre(fs.readFileSync(path.join(ETAT, "corps.json")));
       } catch (e) {
         return rendre(JSON.stringify({ liens: {}, corps: [] }));
       }
@@ -938,7 +981,7 @@ function serviceMonde(req, res, chemin) {
       // Comme pour les corps : c'est l'existence du fichier qui dit si un lieu
       // sait faire marcher son monde, pas son nom. `besoins.py <lieu>` en écrit
       // un, et la foule s'y met en mouvement le jour où il paraît.
-      const bf = path.join(RACINE, "monde", d.prefixe + ".besoins.json");
+      const bf = path.join(DEPOT, "monde", d.prefixe + ".besoins.json");
       if (!fs.existsSync(bf))
         return envoyer(res, 404, JSON.stringify({ erreur: "lieu sans besoins", lieu }));
       return rendre(fs.readFileSync(bf));
@@ -957,8 +1000,8 @@ function serviceMonde(req, res, chemin) {
       // `/monde/<autre>/gens/...` rendrait les corps de Port-Réal sous le nom
       // d'un autre lieu.
       const f = d.prefixe === "portreal"
-        ? path.join(RACINE, "monde", "gens", clef + ".bin")
-        : path.join(RACINE, "monde", "gens", d.prefixe, clef + ".bin");
+        ? path.join(DEPOT, "monde", "gens", clef + ".bin")
+        : path.join(DEPOT, "monde", "gens", d.prefixe, clef + ".bin");
       if (!fs.existsSync(f))
         return envoyer(res, 404, JSON.stringify({ erreur: "cellule absente", clef }));
       return envoyer(res, 200, fs.readFileSync(f), "application/octet-stream");

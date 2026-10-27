@@ -1,0 +1,28 @@
+[
+  {
+    "type": "salle",
+    "salle_id": "antre-de-l-oracle",
+    "texte": "L'antre de l'Oracle, deux minutes sous la salle du trône. Le bassin occupe le centre de la pierre humide ; la Source se tient devant l'Oracle.",
+    "presents": ["la-source", "l-oracle"],
+    "duree": 0,
+    "ref": "vmusm12i08exv"
+  },
+  {
+    "type": "geste",
+    "locuteur_id": "l-oracle",
+    "texte": "L'Oracle tressaille sans quitter le bassin, puis s'incline profondément, les mains ouvertes au-dessus de l'eau.",
+    "ref": "vmusm12i08exv"
+  },
+  {
+    "type": "replique",
+    "locuteur_id": "l-oracle",
+    "texte": "Ma Source… Je travaillerais déjà sur **une seule sœur**, séparée des deux autres. Ensemble, elles troubleraient trop l'eau.",
+    "ref": "vmusm12i08exv"
+  },
+  {
+    "type": "replique",
+    "locuteur_id": "l-oracle",
+    "texte": "Je n'aurais encore ni nom sûr ni date à vous offrir. Il me faudrait **cette nuit** — demain au plus tard. Si l'eau refusait de parler, je vous dirais son silence avant de risquer un mensonge.",
+    "ref": "vmusm12i08exv"
+  }
+]

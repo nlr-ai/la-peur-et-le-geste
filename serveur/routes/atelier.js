@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 const childProcess = require("child_process");
-const { RACINE } = require("../http");
+const { DEPOT, ETAT, CHAMBRES } = require("../http");
 const { criticite, detailActivation, filMjActif, resumeActivations, sante } = require("../agents").activations; // LA PORTE serveur des agents
 const { chercherDansFlux, extraitDuFlux, filPersonnage, regie } = require("../agents").regie; // LA PORTE serveur des agents
 const { vueChambres, chambre, rapport } = require("../agents").chambres; // LA PORTE serveur des agents
@@ -18,7 +18,7 @@ function chambreDe(personnageId) {
     personnageId.replace(/-/g, "_"),
     personnageId.replace(/_/g, "-"),
   ]));
-  const chambres = path.join(RACINE, "chambres");
+  const chambres = CHAMBRES;
   // AGENTS.md désigne la chambre active ; un ancien alias peut encore porter
   // un claude.md et ne doit pas gagner seulement parce que son nom correspond
   // exactement à l'id technique du personnage.
@@ -57,7 +57,7 @@ function deposerBordereau(req, res) {
         .update(siege.personnage_id + "\0" + JSON.stringify(bordereau))
         .digest("hex").slice(0, 24);
       const chambre = chambreDe(siege.personnage_id);
-      const dossier = path.join(RACINE, "chambres", chambre,
+      const dossier = path.join(CHAMBRES, chambre,
         "brouillons", "receptions");
       const fichier = path.join(dossier, id + ".json");
       fs.mkdirSync(dossier, { recursive: true });
@@ -82,9 +82,9 @@ function deposerBordereau(req, res) {
 }
 
 function etatComptoirMoyens(res) {
-  const script = path.join(RACINE, "scripts", "analyse", "comptoir_moyens.py");
+  const script = path.join(DEPOT, "scripts", "analyse", "comptoir_moyens.py");
   childProcess.execFile(process.env.PYTHON || "python", [script, "--json"], {
-    cwd: RACINE,
+    cwd: DEPOT,
     encoding: "utf-8",
     maxBuffer: 4 * 1024 * 1024,
   }, (erreur, stdout, stderr) => {
@@ -135,7 +135,7 @@ function traiter(req, res, url) {
     const preuveReception = url.match(
       /^\/reception\/preuves\/([a-z0-9-]+)\/([a-f0-9]{24})$/);
     if (preuveReception) {
-      const fichier = path.join(RACINE, "chambres", chambreDe(preuveReception[1]),
+      const fichier = path.join(CHAMBRES, chambreDe(preuveReception[1]),
         "brouillons", "receptions", preuveReception[2] + ".json");
       try {
         return envoyer(res, 200, fs.readFileSync(fichier, "utf-8"));
@@ -279,7 +279,7 @@ function traiter(req, res, url) {
     if (url === "/admin/horloges") {
       try {
         const horloges = JSON.parse(fs.readFileSync(
-          path.join(RACINE, "etat", "horloges.json"), "utf-8"));
+          path.join(ETAT, "horloges.json"), "utf-8"));
         return envoyer(res, 200, JSON.stringify({ horloges, lu_a: Date.now() }));
       } catch (e) {
         return envoyer(res, 200, JSON.stringify({ horloges: {}, lu_a: Date.now() }));

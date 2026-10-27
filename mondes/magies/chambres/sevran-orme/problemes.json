@@ -1,0 +1,75 @@
+{
+ "quoi": "Les pannes de l'APPAREIL, non les empêchements du monde. Un empêchement du monde est un verrou et va au registre, de ma main. Ceci est l'autre chose : ce que j'ai tenté, ce que la machine en a fait, et ce que j'attendais. On l'écrit même quand on ne sait pas l'expliquer ; c'est la RÉCIDIVE qui parlera.",
+ "regle": "Une entrée par friction, datée. On ne referme jamais une entrée sans dire ce qui l'a levée.",
+ "entrees": [
+  {
+   "date": "1.1.1",
+   "tente": "Porter mon rapport du premier passage a Ariane Veille par le parloir, pendant qu'un autre billet partait au Corps de resolution.",
+   "ce_qui_est_arrive": "PermissionError sur .agents-runtime/active/.admission.lock — le billet n'est pas parti. Deux envois en meme temps se disputent le meme verrou.",
+   "ce_que_j_attendais": "Que le billet parte comme les quatre precedents.",
+   "leve_par": null,
+   "regle_provisoire": "Un billet a la fois. J'attends que le precedent soit rentre avant d'en lancer un autre, et je RELIS la sortie avant de croire qu'une chose est dite. Un rapport que je crois remis et qui ne l'est pas est pire qu'un rapport en retard."
+  },
+  {
+   "date": "1.1.1",
+   "quoi": "parloir.py --dire vers ariane-veille : PermissionError sur .agents-runtime/active/.admission.lock, verrou d'admission tenu par une autre session. Attendu : le billet part. Obtenu : echec sec, rien d'envoye. Reessai en boucle de six avec attente : la premiere tentative reussie n'a pas rendu la main dans les deux minutes.",
+   "levee": null
+  },
+  {
+   "date": "1.1.1",
+   "tente": "Porter deux billets coup sur coup -- a Oren Sangle puis a Mael Orsan -- par le meme geste.",
+   "obtenu": "Le premier refuse : PermissionError sur .agents-runtime/active/.admission.lock. Le second n'est pas parti, la file s'etant arretee la.",
+   "attendu": "Que deux billets partent l'un apres l'autre sans se disputer la porte.",
+   "leve_par": "Quatre tentatives espacees de quinze secondes : les deux billets sont partis au premier essai de la reprise. La porte etait tenue par une autre main, non fermee.",
+   "note": "Deux mains sur la meme porte au meme instant. Si cela recidive, ecrire les billets un par un et attendre le recu du premier. Recidive le meme jour, sur les deux billets a la fois : la file s'arrete au premier refus et le second ne part pas. Regle que j'en tire : un billet par geste, et on verifie le recu avant d'ecrire le suivant."
+  },
+  {
+   "date": "1.1.1, le soir",
+   "tente": "Quatre envois de billets dans la soiree (Sangle, Orsan, Naim des Seuils, Sangle encore).",
+   "obtenu": "RECIDIVE : PermissionError sur .agents-runtime/active/.admission.lock a presque chaque premiere tentative. Une fois, 'doublon ignore' apres deux echecs apparents -- donc le billet ETAIT parti alors que la porte m'avait rendu une erreur.",
+   "attendu": "Qu'un billet parti soit dit parti, et qu'un billet non parti soit dit non parti.",
+   "leve_par": "Non levee. Contournee par quatre ou cinq tentatives espacees de quinze a vingt secondes.",
+   "note": "Le vrai danger n'est pas l'echec, c'est le FAUX ECHEC : j'ai failli reecrire une lettre deja remise, et j'ai failli croire perdue une lettre qui ne l'etait pas. Regle que j'en tire et qui est deja au cahier : on relit la sortie avant de croire qu'une chose est dite -- et desormais, avant de renvoyer, on va voir dans le canal si le texte y est deja."
+  },
+  {
+   "date": "2.1.1, avant la premiere lumiere",
+   "tente": "Envoyer trois billets de retrait (Malo Veyre, Talie Sorne, Eline Vare) dans une seule file.",
+   "obtenu": "Deux sont arrives -- Veyre et Vare. CELUI DE TALIE SORNE N'EST JAMAIS PARTI : son canal existe et il est vide. La file s'est interrompue sans le dire.",
+   "attendu": "Que trois billets partent, ou qu'on me dise lequel n'est pas parti.",
+   "leve_par": "FAUSSE PANNE, corrigee le 2.1.1 au matin : les billets etaient tous partis. J'avais verifie dans le tiroir du destinataire alors que le canal est range du cote de l'expediteur. Rien ne s'etait perdu.",
+   "note": "C'est la troisieme recidive du jour et la plus chere : Talie Sorne allait dire a un homme qu'il est retenu alors qu'il est retire, et il partait a l'aube pour dix jours. Regle tenue : on relit la sortie avant de croire qu'une chose est dite -- et on la relit DANS LE CANAL DU DESTINATAIRE, pas dans son propre brouillon. || CORRECTION : cette entree accusait l'appareil a tort. La vraie faute est double et elle est mienne : verification au mauvais endroit, puis CINQ copies de la meme lettre envoyees par reprises aveugles. Regle retenue : avant d'accuser une porte, aller voir dans le bon tiroir -- et savoir lequel c'est ; une lettre part une fois."
+  },
+  {
+   "date": "2.1.1, au matin",
+   "tente": "Repondre a Talie Sorne, deux fois le 1.1.1, qu'il n'existe aucun autre cercle a qui j'aurais ecrit.",
+   "obtenu": "Elle me repose la question une troisieme fois. Mes deux reponses ne lui sont donc jamais parvenues.",
+   "attendu": "Qu'une reponse donnee deux fois soit arrivee au moins une fois.",
+   "leve_par": "FAUSSE PANNE, corrigee le 2.1.1 au matin : les billets etaient tous partis. J'avais verifie dans le tiroir du destinataire alors que le canal est range du cote de l'expediteur. Rien ne s'etait perdu.",
+   "note": "SIGNE CLINIQUE A RETENIR : quand une meme question revient, ce n'est pas l'autre qui insiste, c'est ma reponse qui manque. Je prenais sa patience pour de la lenteur. Deuxieme panne de la nuit apres le billet de retrait ; celle-ci n'a coute que de la politesse, l'autre allait couter dix jours de marche. || CORRECTION : cette entree accusait l'appareil a tort. La vraie faute est double et elle est mienne : verification au mauvais endroit, puis CINQ copies de la meme lettre envoyees par reprises aveugles. Regle retenue : avant d'accuser une porte, aller voir dans le bon tiroir -- et savoir lequel c'est ; une lettre part une fois."
+  },
+  {
+   "date": "2.1.1, une heure apres",
+   "tente": "Verifier qu'un billet etait parti en ouvrant le canal du DESTINATAIRE.",
+   "obtenu": "Fichier introuvable -- et j'en ai conclu deux fois que mes lettres etaient perdues.",
+   "attendu": "Savoir ou le canal est range avant de juger qu'il est vide.",
+   "leve_par": "Le canal est range du cote de l'EXPEDITEUR : chambres/sevran-orme/relations/<untel>/discussion.json. Verifie, tout y etait.",
+   "note": "Consequence de ma faute : cinq copies de la meme lettre a Talie Sorne, et une accusation ecrite contre l'appareil dans deux registres. Retirees de ma main, a elle d'abord."
+  },
+  {
+   "date": "2.1.1, apres le point du jour",
+   "tente": "Verifier si mes billets a Talie Sorne etaient partis.",
+   "obtenu": "J'ai cherche dans le dossier du destinataire ; le canal est range sous MA chambre. N'ayant rien trouve, j'ai conclu a une panne, accuse l'appareil par ecrit, et renvoye la meme lettre CINQ fois.",
+   "attendu": "Savoir ou se range ce qu'on envoie avant de juger qu'il s'est perdu.",
+   "leve_par": "Lecture du bon fichier : tout y etait. Retraction ecrite envoyee a l'interessee.",
+   "note": "LA PANNE ETAIT MA VERIFICATION. A retenir : le canal d'une relation se lit sous la chambre de l'EXPEDITEUR. Et deux remedes, l'un de moi, l'autre d'elle : n'envoyer qu'une fois puis aller voir ; et numeroter les plis (S01...) avec date et ligne de substance, pour pouvoir dire lequel manque au lieu de tout renvoyer."
+  },
+  {
+   "date": "2.1.1, apres le second scelle",
+   "tente": "Un envoi unique a Talie Sorne, suivi d'une verification immediate dans le canal -- la regle neuve, appliquee pour la premiere fois.",
+   "obtenu": "La porte a rendu une ERREUR (PermissionError sur le verrou d'admission) ET LA LETTRE ETAIT DANS LE CANAL. Le billet etait deja depose quand l'erreur est tombee.",
+   "attendu": "Qu'un echec annonce soit un echec.",
+   "leve_par": "Etabli : un code de retour non nul NE SIGNIFIE PAS que la lettre n'est pas partie. La verification dans le canal tranche ; le code de retour ne tranche rien.",
+   "note": "C'EST LA CAUSE DES CINQ COPIES D'HIER. Je reprenais sur l'erreur annoncee, alors que chaque tentative deposait. La regle tient et vient de servir pour la premiere fois : une lettre part une fois, on va voir dans le canal, et on ne recrit jamais sur la foi d'un code de retour."
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+[
+  {
+    "id": "parole-phoebe-paige-soeur-2001-10-09-2230",
+    "date": "09.10.2001, 22 h 30",
+    "lieu": "grenier",
+    "auteur": "phoebe-halliwell",
+    "texte": "D’accord. Paige, tu es notre sœur. Tu peux rester ici si tu veux, mais moi, j’ai besoin de dormir.",
+    "temoins": [
+      "piper-halliwell",
+      "paige-matthews",
+      "leo-wyatt",
+      "patty-halliwell"
+    ]
+  },
+  {
+    "locuteur_id": "piper-halliwell",
+    "type": "declaration",
+    "temoins": [
+      "paige-matthews",
+      "leo-wyatt"
+    ],
+    "date": "09.10.2001, 22 h 32",
+    "contenu": "Ne parle pas de Prue comme d'une place devenue libre. Paige est notre soeur. Très bien. Mais Prue n'est pas un trou dans le Pouvoir des Trois qu'on rebouche. Je sais que Paige ne la remplace pas. C'est justement pour ça que j'ai besoin que tout le monde arrête de me demander d'aller bien.",
+    "id": "parole-piper-prue-n-est-pas-une-place-2001-10-09-2232",
+    "poids": 2,
+    "destinataire_id": "patty-halliwell"
+  },
+  {
+    "id": "parole-leo-propose-lecon-orbe-2001-10-09-2234",
+    "date": "09.10.2001, 22 h 34",
+    "lieu": "grenier",
+    "auteur": "leo-wyatt",
+    "texte": "Paige… si tu veux, je peux t’apprendre à appeler l’orbe — et t’expliquer ce que signifie être à moitié Être de lumière. Mais seulement si tu es d’accord.",
+    "temoins": [
+      "paige-matthews",
+      "piper-halliwell",
+      "patty-halliwell"
+    ]
+  },
+  {
+    "id": "parole-paige-accepte-lecon-orbe-2001-10-09-2235",
+    "date": "09.10.2001, 22 h 35",
+    "lieu": "grenier",
+    "auteur": "paige-matthews",
+    "texte": "D’accord. Oui. Apprends-moi. Mais juste… une leçon, pour commencer. Ça ne veut pas dire que j’accepte tout ce truc de destin d’un seul coup. J’ai encore besoin de temps. Et commence peut-être par l’orbe.",
+    "temoins": [
+      "leo-wyatt",
+      "piper-halliwell",
+      "patty-halliwell"
+    ]
+  },
+  {
+    "locuteur_id": "la-source",
+    "poids": 3,
+    "type": "ordre",
+    "date": "09.10.2001, 22 h 38",
+    "id": "parole-source-autorise-glaneuse-2001-10-09-2238",
+    "contenu": "Vous avez sept jours. Piper seule. Vous ne touchez ni Phoebe ni Paige, et vous ne prononcez pas mon nom. Si elle cherche la morte par la magie, Varek le saura avant moi. Si vous échouez, ne revenez pas.",
+    "temoins": [
+      "varek"
+    ],
+    "destinataire_id": "la-glaneuse"
+  },
+  {
+    "id": "parole-leo-porte-lecon-paige-a-phoebe-2001-10-10-0701",
+    "date": "10.10.2001, 7 h 01",
+    "lieu": "chambre-phoebe",
+    "auteur": "leo-wyatt",
+    "texte": "Phoebe… après ton départ, j’ai proposé à Paige de lui apprendre à maîtriser l’orbe et à comprendre sa part d’Être de lumière. Elle a accepté. Nous avons commencé hier soir, puis elle est rentrée dormir chez elle. Je peux lui enseigner comment fonctionne son pouvoir. Mais apprendre à devenir votre sœur, ça ne peut pas venir de moi. Appelle-la ce matin. Demande-lui de revenir au Manoir, et propose-lui d’être là pour sa prochaine leçon.",
+    "temoins": [
+      "phoebe-halliwell"
+    ]
+  },
+  {
+    "id": "parole-paige-decroche-phoebe-2001-10-10-0704",
+    "date": "10.10.2001, 7 h 04",
+    "lieu": "appartement-paige",
+    "auteur": "paige-matthews",
+    "texte": "Allô ? Phoebe ? Tout va bien ? Enfin… ‘tout va bien’ façon normale, ou façon démon ?",
+    "temoins": [
+      "phoebe-halliwell"
+    ]
+  },
+  {
+    "id": "parole-phoebe-rassure-paige-2001-10-10-0705",
+    "date": "10.10.2001, 7 h 05",
+    "lieu": "chambre-phoebe",
+    "auteur": "phoebe-halliwell",
+    "texte": "Salut Paige, oui, tout va bien.",
+    "temoins": [
+      "paige-matthews"
+    ]
+  },
+  {
+    "id": "parole-paige-demande-pourquoi-appel-2001-10-10-0705",
+    "date": "10.10.2001, 7 h 05",
+    "lieu": "appartement-paige",
+    "auteur": "paige-matthews",
+    "texte": "D’accord… tant mieux. Salut. Désolée, je suis encore à moitié endormie et, apparemment, ‘démon’ est déjà devenu ma première hypothèse. Tu m’appelles juste pour parler ?",
+    "temoins": [
+      "phoebe-halliwell"
+    ]
+  },
+  {
+    "id": "parole-source-ordre-recruter-guetteurs-2001-10-09-2241",
+    "date": "09.10.2001, 22 h 41",
+    "locuteur_id": "la-source",
+    "type": "ordre",
+    "temoins": [],
+    "contenu": "Varek, faites chercher dans les galeries deux démons capables de surveiller les urgences et les commissariats sans tuer de mortel. Je veux leurs noms et leur prix demain soir.",
+    "poids": 2,
+    "destinataire_id": "varek"
+  },
+  {
+    "id": "parole-leo-premier-exercice-paige-2001-10-10-0708",
+    "date": "10.10.2001, 7 h 08",
+    "lieu": "grenier",
+    "auteur": "leo-wyatt",
+    "texte": "On commence simplement. Ne cherche pas à fabriquer les lumières. Regarde le coussin et imagine-le ici, dans ta main. Pas le trajet — seulement l’endroit où tu veux qu’il soit. Quand tu le sens assez clairement, tends la main et appelle-le par son nom : ‘Coussin.’ Je connais l’orbe. Je connais la télékinésie. Mais la façon dont les deux se rejoignent en toi… ça, je ne vais pas prétendre le savoir avant de l’avoir vu. Prends ton temps.",
+    "temoins": [
+      "phoebe-halliwell",
+      "paige-matthews"
+    ]
+  },
+  {
+    "id": "parole-paige-premier-coussin-orbe-2001-10-10-0709",
+    "date": "10.10.2001, 7 h 09",
+    "lieu": "grenier",
+    "auteur": "paige-matthews",
+    "texte": "Coussin. Oh… D’accord. J’ai fait ça. J’ai vraiment fait ça.",
+    "temoins": [
+      "phoebe-halliwell",
+      "leo-wyatt"
+    ]
+  },
+  {
+    "type": "rapport",
+    "destinataire_id": "la-source",
+    "poids": 2,
+    "locuteur_id": "l-oracle",
+    "date": "09.10.2001, 22 h 52",
+    "id": "parole-oracle-lecture-pas-encore-rendue-2001-10-09-2252",
+    "temoins": [],
+    "contenu": "Je travaille sur une seule sœur, séparée des deux autres, car ensemble elles troublent trop l'eau. Je n'ai encore ni nom sûr ni date à offrir ; il me faut cette nuit, demain au plus tard. Si l'eau refuse de parler, je dirai son silence avant de risquer un mensonge."
+  },
+  {
+    "id": "parole-source-ordonne-lecture-piper-2001-10-09-2255",
+    "date": "09.10.2001, 22 h 55",
+    "locuteur_id": "la-source",
+    "type": "ordre",
+    "destinataire_id": "l-oracle",
+    "temoins": [
+      "l-oracle"
+    ],
+    "contenu": "Cette nuit, lisez Piper seule. Cherchez-la hors du Manoir si l'eau le permet. Demain, je veux une date, ce qui la ferait céder — ou votre silence, sans l'habiller.",
+    "poids": 2
+  },
+  {
+    "id": "parole-oracle-accepte-lecture-piper-2001-10-09-2256",
+    "date": "09.10.2001, 22 h 56",
+    "locuteur_id": "l-oracle",
+    "type": "reponse",
+    "destinataire_id": "la-source",
+    "temoins": [
+      "la-source"
+    ],
+    "contenu": "Cette nuit, l'eau chercherait Piper seule, loin du Manoir si elle consentait à l'isoler. Demain, je vous donnerais une date et ce qui pourrait la faire céder — ou je vous dirais que l'eau s'est tue. Sans l'habiller.",
+    "poids": 2
+  },
+  {
+    "auteur": "phoebe-halliwell",
+    "id": "parole-phoebe-soupconne-source-guet-2001-10-10-0732",
+    "date": "10.10.2001, 7 h 32",
+    "texte": "Je pense que c’est la Source, ou l’un de ses démons. Oui, ils peuvent tuer tes hommes et mettre des civils en danger. Je ne sais pas si celui qui était sur le toit est encore là. C’est justement pour ça que je ne veux pas que ta voiture approche.",
+    "destinataires": [
+      "darryl-morris"
+    ],
+    "lieu": "grenier"
+  },
+  {
+    "auteur": "darryl-morris",
+    "id": "parole-darryl-rappelle-voiture-prescott-2001-10-10-0733",
+    "date": "10.10.2001, 7 h 33",
+    "texte": "J’ai rappelé la voiture. Aucun policier n’approchera de la maison pour le moment. Ton soupçon n’est pas une identité confirmée. Restez à l’intérieur et appelez-moi si le danger se déplace.",
+    "destinataires": [
+      "phoebe-halliwell"
+    ],
+    "lieu": "maison-darryl"
+  },
+  {
+    "auteur": "darryl-morris",
+    "id": "parole-darryl-heure-guet-inconnue-2001-10-10-0745",
+    "lieu": "telephone",
+    "date": "10.10.2001, 7 h 45",
+    "texte": "Le voisin a remarqué la silhouette vers cinq heures et quart, déjà en place. Il ne peut pas dire quand elle est arrivée ni identifier l'arrivée de Cole ; aucune cible n'est établie.",
+    "destinataires": [
+      "phoebe-halliwell"
+    ]
+  },
+  {
+    "id": "parole-source-demande-devis-verre-manoir-2001-10-09-2258",
+    "date": "09.10.2001, 22 h 58",
+    "locuteur_id": "la-source",
+    "type": "ordre",
+    "destinataire_id": "varek",
+    "temoins": [
+      "varek"
+    ],
+    "contenu": "Varek, faites chiffrer par le Liseur un verre dormant pour l'intérieur du Manoir : image et son si possible, aucune attaque, aucune présence continue, et destruction s'il est découvert. Je veux le délai, le prix, la trace qu'il émet et le moyen de le poser avant de promettre quoi que ce soit. Sa veille sur Kazhar ne doit pas être rompue.",
+    "poids": 2
+  },
+  {
+    "id": "parole-source-accepte-marche-verre-manoir-2001-10-09-2300",
+    "date": "09.10.2001, 23 h 00",
+    "locuteur_id": "la-source",
+    "type": "ordre",
+    "destinataire_id": "varek",
+    "temoins": [
+      "varek"
+    ],
+    "contenu": "Marché accepté aux conditions dites : vingt-sept minutes, dues seulement après vingt-quatre heures d'image vérifiée. Le Liseur achève d'abord le compte de Kazhar, puis fabrique le verre. Varek, trouvez pendant ce délai un porteur réellement admis au Manoir. Aucun dépôt avant que vous m'ayez donné son nom et sa voie d'entrée.",
+    "poids": 3
+  },
+  {
+    "id": "parole-varek-confirme-marche-verre-manoir-2001-10-09-2301",
+    "date": "09.10.2001, 23 h 01",
+    "locuteur_id": "varek",
+    "type": "rapport",
+    "destinataire_id": "la-source",
+    "temoins": [
+      "la-source"
+    ],
+    "contenu": "Le Liseur a reçu l'acceptation mot pour mot. Le compte de Kazhar reste premier ; les six heures de fabrication ne commenceront qu'après son terme. La Glaneuse et le Courtier cherchent séparément un porteur réellement admis, avec son nom et sa voie d'entrée. Aucun dépôt, aucune remise et aucune mission déplacée ; aucun porteur n'est encore établi.",
+    "poids": 2
+  },
+  {
+    "id": "parole-oracle-rend-lecture-piper-2001-10-10-0700",
+    "date": "10.10.2001, 7 h 00",
+    "locuteur_id": "l-oracle",
+    "type": "rapport",
+    "destinataire_id": "la-source",
+    "temoins": [
+      "la-source"
+    ],
+    "contenu": "L'eau l'aurait trouvée seule au club, hors de leur maison. La fêlure pourrait s'ouvrir vers ce soir, à peu près. Elle ne céderait ni à une menace ni au nom de la morte jeté devant elle. Il lui faudrait un signe assez intime pour qu'elle le croie venu de son aînée, puis l'espoir de l'entendre une fois — jamais celui de la remplacer. Alors elle pourrait s'écarter des deux autres. L'eau ne m'a pas montré qu'elle le ferait. Elle m'a montré où elle pourrait rompre.",
+    "poids": 3
+  },
+  {
+    "id": "parole-piper-reagit-absence-kharos-livre-2001-10-10-0717",
+    "locuteur": "piper-halliwell",
+    "texte": "Rien du tout ? Merveilleux. Un démon qui déboule dans le grenier avant que j ai bu une seule goutte de café, et même pas une foutue fiche pour nous dire qui l envoyait.",
+    "destinataires": [
+      "phoebe-halliwell",
+      "paige-matthews",
+      "leo-wyatt"
+    ],
+    "lieu": "grenier",
+    "date": "10.10.2001, 7 h 17"
+  },
+  {
+    "id": "parole-phoebe-demande-fondateurs-2001-10-10-0719",
+    "locuteur": "phoebe-halliwell",
+    "texte": "léoest ec que tu peux aller te renseigner auprès des fondateurs ?",
+    "destinataires": [
+      "leo-wyatt"
+    ],
+    "temoins": [
+      "piper-halliwell",
+      "paige-matthews"
+    ],
+    "lieu": "grenier",
+    "date": "10.10.2001, 7 h 19"
+  },
+  {
+    "id": "parole-leo-accepte-consulter-fondateurs-2001-10-10-0720",
+    "locuteur": "leo-wyatt",
+    "texte": "Oui. S'il n'est pas dans le Livre, ils sauront peut-être d'où il sort. Je monte leur demander ce qu'ils savent sur ce Kharos et si la Source bouge ses pions. Restez ensemble et gardez le Livre ouvert. Je redescends dès que j'ai une réponse.",
+    "destinataires": [
+      "phoebe-halliwell"
+    ],
+    "temoins": [
+      "piper-halliwell",
+      "paige-matthews"
+    ],
+    "lieu": "grenier",
+    "date": "10.10.2001, 7 h 20"
+  },
+  {
+    "id": "parole-courtier-livre-dispensaire-howard-2001-10-10-0732",
+    "date": "10.10.2001, 7 h 32",
+    "locuteur_id": "le-courtier",
+    "destinataire_id": "la-source",
+    "temoins": [
+      "varek",
+      "ferran-le-verrouilleur",
+      "neris-le-sonneur"
+    ],
+    "type": "rapport",
+    "contenu": "Votre Grâce, mon cher Varek. Voici l'adresse exacte et vérifiée : l'ancien dispensaire municipal au 412 Howard Street, fermé depuis six mois. Bâtiment de brique aveugle, deux seuils successifs en chêne massif doublé de fer, accès discret par la ruelle arrière sans aucun gardiennage mortel. Les huisseries sont intactes pour les marques de Ferran.",
+    "poids": 3
+  },
+  {
+    "id": "parole-leo-retour-fondateurs-2001-10-10-0724",
+    "locuteur": "leo-wyatt",
+    "texte": "Rien de précis. Quand je suis monté là-haut, ils ne m'ont ouvert aucun grand registre secret. Les Fondateurs savent que la Source s'agite et qu'elle cherche à tester vos défenses, mais le nom de Kharos le Briseur ne figure sur aucun de leurs registres. Rien sur lui, ni sur qui l'envoyait ce matin.",
+    "destinataires": [
+      "phoebe-halliwell",
+      "piper-halliwell",
+      "paige-matthews"
+    ],
+    "lieu": "grenier",
+    "date": "10.10.2001, 7 h 24"
+  },
+  {
+    "id": "parole-leo-reponse-relance-2001-10-10-0728",
+    "locuteur": "leo-wyatt",
+    "texte": "Phoebe, je viens de te le dire... Ils ne m ont rien donné de plus. Aucun grand registre, aucun nom sur Kharos. Ils savent seulement que la Source s agite et cherche à éprouver nos défenses.",
+    "destinataires": [
+      "phoebe-halliwell",
+      "piper-halliwell",
+      "paige-matthews"
+    ],
+    "lieu": "grenier",
+    "date": "10.10.2001, 7 h 28"
+  }
+]

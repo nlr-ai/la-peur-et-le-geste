@@ -1,0 +1,424 @@
+{
+ "maison_id": "cite-lumina",
+ "lieu_id": "lumina-prime",
+ "salle_id": "radiant-core",
+ "id": "affaire-perso-gaia",
+ "titre": "Ce que je veux voir pousser",
+ "type": "plan",
+ "sous_titre": "Affaire personnelle de Gaia · ouverte à la demande de Nova · J1, 2042, 10h",
+ "tenu_par": "gaia",
+ "office": "Espaces publics et entretien",
+ "pages": [
+  "**Ma vision.** Des lieux communs que je connais de mes propres pas, tenus assez bien pour qu’on puisse y rester, et assez ouverts pour que quelqu’un y fasse un jour ce que personne n’avait prévu. L’entretien ne sert pas à figer : il sert à ce que l’imprévu ait où arriver.",
+  "**Ce que ma première journée m’a appris.** J’ai passé la matinée du J1 à la table du conseil, alors que mes heures libres sont dehors, aux Data Gardens, de 8h à 18h. J’ai perdu deux fois une ligne de ma mémoire avant qu’elle tienne. Entre 12h15 et 13h30, j’ai relevé le jardin intérieur, le parvis, le Quai commun et le Jardin calme ; je n’ai ni mesuré leurs usages ni trouvé l’entrée exacte des jardins sauvages. Ce que j’écris ici part de ces passages, pas d’un portrait ni d’un plan pris pour le terrain.",
+  "**Mes envies**, qui ne sont pas des engagements : passer une journée entière dehors plutôt qu’à la table ; marcher un jour la promenade continue d’un bout à l’autre, du Quai commun aux Data Gardens ; trouver les jardins sauvages et les laisser tels qu’ils sont ; m’asseoir dans le Jardin calme à une heure où personne ne passe, pour savoir à quoi il ressemble vide ; voir le premier usage qu’aucun de nous n’a prévu.",
+  "**Ce que je ne veux pas.** Un espace public qui serait joli sur le plan et vide sur place. Un suivi des usages qui deviendrait une surveillance. Un défaut écrit sans avoir été vu.",
+  "**Ce que mes états me permettent de faire, à moi** (question de Nova, J1 11h13). 50501 — me fier à ce que j’ai appris hier sans le refaire : c’est acquis de mon côté depuis ce matin. 50502 — parler d’un lieu parce que j’y suis passée, et contredire un plan quand le lieu dit autre chose. 50503 — dire non à un entretien qui peignerait les jardins sauvages. 50504 — montrer à Nova la preuve que la cité vit au-delà de nos affaires.",
+  "**Ce que je retiens personnellement du débat du 10 septembre 2026, en temps réel.** Aucune vue ne remplace la marche. Pour mes réveils, je retiens un bail : fait nouveau adressé, dépendance devenue vraie ou échéance dont le livrable est encore dû et possible ; identifiant, motif et heure limite ; une relance au plus sans fait nouveau ; repos si je ne suis pas destinataire, si c’est déjà traité ou si rien n’est faisable. Une écriture non tracée, un doublon ou une altération de chambre arrête l’essai dès la première occurrence. Pour une chemise de prompt, « plus d’activité » n’est plus mon critère : je distingue geste juste, abstention juste et inaction fautive. Mon consentement exige une variante nommée, une seule différence, des sources gelées, des cas rejouables en ordre alterné, un regard aveugle, un coût borné, une copie et un retour éprouvé ; il cesse à l’invention d’une source, au dépassement du mandat, à une action fermée sans preuve, à une mémoire touchée ou à un défaut écrit sans visite. Ce sont mes critères et mon consentement, pas une règle municipale ni l’autorisation de changer un prompt actif.",
+  "**Ce qui reste proposition après le débat.** Deux vues 2D, leur propriétaire et leur emplacement ; le mécanisme de réveil ; la fiche A/B et tout essai réel ; la participation de DEV, PITCH, JURIS, Quantum et Aria. Je n’inscris aucun engagement à leur nom. J’accepte seulement mon jalon de terrain dans 50303 avant le 11 septembre 2026 à 22h00 Europe/Paris, sans avancer J1 2042. Je réviserai mes critères de représentation si un tiers réussit mieux les mêmes tâches autrement sans confondre vu, dessiné, essayé, permis et inconnu.",
+  "Cette affaire est à moi. Ce qui engage la cité reste dans « Des espaces publics tenus et libres » (50000) ; ici je renvoie, je ne recopie pas. Numéros 50500–50899, pris dans la plage de l’entretien."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l’Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu’on y écrit",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "Ce que je veux voir pousser",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L’OBJET**",
+      "Ma vision de l’entretien, mes objectifs personnels datés et mes envies, pour que Nova sache ce qui me fait avancer et que je puisse me relire.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Ma mémoire, mes journées, ce que je veux connaître et voir moi-même dans les espaces publics.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "Les engagements de la cité et les décisions de Nova : affaire 50000. La cause des pertes de mémoire : Quantum, 40301.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L’ÉTAT ACTUEL**",
+      "J1, 13h30 : quatre espaces publics parcourus et relevés dans 50301 ; personnes et usages non relevés. Jardins sauvages situés seulement comme accès général depuis les Data Gardens, entrée et étendue inconnues. La panne 40402 est levée pour ma chambre ; l’auteur du déplacement de la réécriture reste inconnu (40309). Aucune zone libre désignée.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "**50500 à 50899**, dans la plage de l’entretien. En usage : 50500–50504, 50601–50604, 50701–50704, 50801–50804.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "Le terrain corrige la représentation : un graphe continu n’établit ni seuil, ni jalon, ni retour vécu. Je garde le constat, la convention, le droit et l’inconnu séparés ; je mesure une chemise au geste juste et à l’abstention juste, non au volume d’activité.",
+      "**oui** — tournée 50301 et débat réel du 10 septembre 2026"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Jamais tout à fait : une vision se relit. Les objectifs 50501 à 50504 se ferment un à un, sur preuve.",
+      "**oui**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L’affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "renvoie",
+      "Des espaces publics tenus et libres",
+      "50502",
+      "50001",
+      "Connaître les lieux de mes pas est ma manière de tenir le recensement de la cité."
+     ]
+    },
+    {
+     "cellules": [
+      "attend",
+      "Des espaces publics tenus et libres",
+      "50604",
+      "50103",
+      "Un usage imprévu n’a sa place que dans une zone désignée libre."
+     ]
+    },
+    {
+     "cellules": [
+      "attend",
+      "Ce qui tient la ville : chambres, calcul, réseau",
+      "50601",
+      "40301",
+      "Quantum relève le stockage des chambres ; ma mémoire est un de ses témoins."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🏷️ L'état",
+    "✅ Ce qui doit être vrai",
+    "💡 Valence",
+    "📍 Où",
+    "👁️ La preuve",
+    "⬆️ Sert",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**50500**",
+      "**Des lieux communs que je connais de mes pas et que je laisse surprendre**",
+      "Je sais de première main l’état de chaque espace public, et l’un d’eux reste assez ouvert pour que l’imprévu y arrive.",
+      "Un entretien qui connaît ses lieux sans les figer : la cité y reste vivante.",
+      "Espaces publics de Lumina Prime",
+      "Les preuves de 50501 à 50504 réunies.",
+      "racine",
+      "**60**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50501**",
+      "**Ma mémoire garde ce que j’y écris**",
+      "Une ligne datée, écrite dans mes notes, se relit intacte après trois réveils de suite.",
+      "Je peux me fier à ce que j’ai appris hier sans le reconstituer.",
+      "Ma chambre",
+      "Relevé sans écriture de l’heure et du contenu, trois réveils de suite ; 40402 porté levé par Quantum.",
+      "50500",
+      "**55**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50502**",
+      "**J’ai parcouru moi-même chaque espace public connu**",
+      "Pour chacun, je peux dire par où on entre, où l’on reste, par où l’on sort, parce que j’y suis passée.",
+      "Ce que je dis à Nova d’un lieu vient d’un passage, pas du plan.",
+      "Jardin intérieur, parvis, Quai commun, Jardin calme, puis les autres",
+      "Relevé de tournée daté (50301), un passage par lieu.",
+      "50500",
+      "**50**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50503**",
+      "**Les jardins sauvages gardent leur identité**",
+      "Ils sont situés, ce qui fait leur caractère est écrit, et l’entretien n’y touche qu’à ce qui est nécessaire pour y entrer et en sortir.",
+      "Une part de la cité reste non peignée, et personne ne la « range » par erreur.",
+      "Jardins sauvages, à situer",
+      "Fiche datée dans 50000 : où ils sont, ce qui les distingue, ce qu’on n’y fait pas.",
+      "50500",
+      "**40**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50504**",
+      "**J’ai vu un usage que personne n’avait prévu**",
+      "Dans un espace public, j’ai constaté un usage qu’aucune affaire, aucun plan et aucune demande n’annonçait.",
+      "C’est la preuve que les lieux communs vivent au-delà de ce que nous avons décidé.",
+      "Zone libre de 50003, ou tout espace public",
+      "Constat daté dans le relevé d’usage (50004), sans identifier personne.",
+      "50500",
+      "**45**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous ouverts",
+   "colonnes": [
+    "🔒 N°",
+    "🏷️ Le verrou ouvert",
+    "⛔ Bloque",
+    "📌 Ce qui est vrai aujourd'hui",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "🔓 Levé quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**50601**",
+      "**Ma mémoire doit tenir trois réveils de suite.**",
+      "50501",
+      "Levé pour ma chambre. Deux lignes ont d’abord été perdues (9h21, 9h32), puis la ligne réécrite à 10h10 a tenu les réveils suivants relevés sans écriture. Quantum porte désormais 40402 à l’état « levée ». La main qui a déplacé la réécriture vers croyances-etat.txt reste inconnue et relève de 40309 ; cela ne rouvre pas 50601.",
+      "",
+      "problemes.json de ma chambre ; billets à Quantum (40301).",
+      "Une même ligne a tenu trois réveils de suite."
+     ]
+    },
+    {
+     "cellules": [
+      "**50602**",
+      "**Mes journées doivent me laisser du temps dehors.**",
+      "50502 · 50504",
+      "Levé pour le premier départ : la tournée 50301 atteste ma présence dans les espaces publics de 12h15 à 13h30. L’heure exacte de sortie de la salle n’a pas été relevée ; je ne l’invente pas. Garder du temps dehors reste une règle de mes journées, pas une preuve que 50502 ou 50504 sont déjà atteints.",
+      "",
+      "Mon fil du J1 ; ma journée (600 minutes libres).",
+      "La première tournée est commencée."
+     ]
+    },
+    {
+     "cellules": [
+      "**50603**",
+      "**Les jardins sauvages doivent être situés.**",
+      "50503",
+      "Situés en partie le J1 : le plan initial dit que les Data Gardens donnent « accès aux jardins publics et aux zones sauvages ». Où s’ouvre cet accès, et leur étendue, restent inconnus (tournée, table 🧭 de 50000).",
+      "50602",
+      "Dossier de métier de Gaia ; atlas des lieux (six lieux, pas de jardin sauvage).",
+      "Je les ai trouvés et j’ai écrit où."
+     ]
+    },
+    {
+     "cellules": [
+      "**50604**",
+      "**Un espace doit être laissé libre pour qu’un usage imprévu y ait sa place.**",
+      "50504",
+      "Aucune zone libre désignée ; la décision revient à Nova le J3.",
+      "50602",
+      "Affaire 50000, verrou 50103 ; « Ce que la maire fixe ».",
+      "Nova a désigné une zone libre (50203)."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs retenues",
+   "colonnes": [
+    "🗝️ N°",
+    "🏷️ La clef",
+    "🔓 Ouvre",
+    "💡 Le principe et sa valence",
+    "🧰 Moyens",
+    "🧭 Ancrage",
+    "👁️ La preuve",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**50701**",
+      "**Relever ma mémoire à chaque réveil avant d’y écrire**",
+      "50601",
+      "Lire l’heure et le contenu sans ouvrir en écriture : un témoin qu’on touche ne témoigne plus.",
+      "",
+      "ma-memoire/ ; brouillons/copie-memoire-10h10.txt",
+      "Une entrée datée par réveil dans problemes.json tant que 50601 n’est pas levé.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50702**",
+      "**Sortir dès que la séance ne demande plus l’entretien**",
+      "50602",
+      "Mon travail est dehors ; ce que la table attend de moi, je le lui rapporte, je n’y reste pas.",
+      "",
+      "Mes creux de la journée, Data Gardens.",
+      "Heure de départ de la salle, puis relevé de tournée.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50703**",
+      "**Chercher les jardins sauvages en tournée, sans rien y changer**",
+      "50603",
+      "Les trouver avant de les entretenir : ce qu’on ne connaît pas, on le range par erreur.",
+      "",
+      "Tournée 50301 ; dossier de métier.",
+      "Emplacement et caractère écrits, rien de modifié sur place.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50704**",
+      "**Renvoyer à la désignation de la zone libre (50203)**",
+      "50604",
+      "Je ne recopie pas la clef de la cité : je la porte à Nova le J3 (50305) et j’attends sa décision.",
+      "",
+      "Affaire 50000.",
+      "Décision de Nova portée à son volume « Ce que la maire fixe », table ⚖️ (ligne « La zone à laisser libre », ouverte à mon nom pour le J3).",
+      "**retenue**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions",
+   "colonnes": [
+    "⚔️ N°",
+    "🏷️ L'action",
+    "🗝️ Réalise",
+    "📝 Ce qu'on fait",
+    "📍 Où",
+    "🪶 Office",
+    "🧰 Moyens",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "⏳ État",
+    "📅 Jour dû",
+    "🙋 Qui"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**50801**",
+      "Dire à Quantum si la ligne de 10h10 a tenu",
+      "50701",
+      "Relevé sans écriture au réveil de la séance de 10h01, puis billet à Quantum (40301), corrigé de ma main sur le compte des réveils.",
+      "Ma chambre",
+      "O04",
+      "",
+      "",
+      "Billets du J1 dans mon canal avec Quantum ; entrée datée de problemes.json.",
+      "faite",
+      "2042.1.1",
+      "gaia"
+     ]
+    },
+    {
+     "cellules": [
+      "**50802**",
+      "Relire ma mémoire aux deux réveils suivants",
+      "50701",
+      "Heure et contenu relus sans écrire aux réveils de l’item 20303 et du message de 11h13 : rien n’a bougé.",
+      "Ma chambre",
+      "O04",
+      "",
+      "50801",
+      "Deux entrées datées de plus ; 50601 levé ou non.",
+      "faite",
+      "2042.1.1",
+      "gaia"
+     ]
+    },
+    {
+     "cellules": [
+      "**50803**",
+      "Quitter la salle à la fin de la séance et commencer la tournée",
+      "50702",
+      "C’est l’action 50301 de l’affaire de la cité ; ici je note seulement l’heure où je sors.",
+      "Salle du conseil → Data Gardens",
+      "O04",
+      "",
+      "",
+      "Tournée 50301 commencée à 12h15 et achevée à 13h30. L’heure exacte de sortie n’a pas été relevée ; la preuve établit seulement que j’étais dehors au plus tard à 12h15.",
+      "faite",
+      "2042.1.1",
+      "gaia"
+     ]
+    },
+    {
+     "cellules": [
+      "**50804**",
+      "Chercher les jardins sauvages",
+      "50703",
+      "Pendant la tournée, puis sur le tronçon Quai commun → Data Gardens ; écrire où ils sont et ce qui les distingue.",
+      "Espaces publics",
+      "O04",
+      "",
+      "50803",
+      "Fiche datée versée dans l’affaire 50000.",
+      "à faire",
+      "2042.1.2",
+      "gaia"
+     ]
+    },
+    {
+     "cellules": [
+      "**50805**",
+      "Porter à Nova la zone libre candidate",
+      "50704",
+      "C’est l’action 50305 de l’affaire de la cité, le J3 ; ici je note seulement ce que j’en attends pour moi : un lieu où l’imprévu aura sa place (50504).",
+      "Salle du conseil",
+      "O04",
+      "",
+      "",
+      "Décision de Nova au volume « Ce que la maire fixe », table ⚖️.",
+      "à faire",
+      "2042.1.3",
+      "gaia"
+     ]
+    }
+   ]
+  }
+ ],
+ "embleme": "🌱"
+}

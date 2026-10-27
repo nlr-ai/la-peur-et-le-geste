@@ -543,15 +543,13 @@ window.Plan = (() => {
       ' class="plan ' + (grand ? "plan-grand" : "plan-petit") + '"' +
       ' style="font-size:' + v.police.toFixed(2) + 'px">';
 
-    (plan.fonds || []).forEach((f) => {
-      s += '<path class="' + f.classe + '" d="' + f.d + '"/>';
-    });
+    // `style` : la teinte propre d'un monde (bardeaux, brique), sans toucher jeu.css
+    const trace = (f) => '<path class="' + f.classe + '"' + (f.style ? ' style="' + esc(f.style) + '"' : "") + ' d="' + f.d + '"/>';
+    (plan.fonds || []).forEach((f) => { s += trace(f); });
     // Le relief du dehors : les crêtes de la montagne, la houle de la baie.
     // Non cliquable, sous tout le reste — c'est ce qui empêche le plan de
     // flotter dans le vide et dit d'un coup d'œil où est la roche et où est l'eau.
-    (plan.decor || []).forEach((f) => {
-      s += '<path class="' + f.classe + '" d="' + f.d + '"/>';
-    });
+    (plan.decor || []).forEach((f) => { s += trace(f); });
 
     const salle = (sa) => '<g class="plan-salle' + (sa.etage ? " etage" : "") +
       (sa.dehors ? " dehors" : "") + (sa.fond ? " fond" : "") +
@@ -659,7 +657,8 @@ window.Plan = (() => {
   // le champ libre, en mode Agir — le serveur l'inscrit au flux, le MJ la joue.
   function aller(nom) {
     if (!window.Bus || !Bus.poster) return;
-    Bus.poster({ type: "libre", mode: "agir", texte: "Se rendre à " + nom + "." });
+    Bus.poster({ type: "libre", mode: "agir", texte:
+      (window.MONDE?.manifeste?.id === "outlander" ? "Je vais à " : "Se rendre à ") + nom + "." });
     setTimeout(() => Bus.sonderMaintenant && Bus.sonderMaintenant(), 120);
   }
 
@@ -684,6 +683,11 @@ window.Plan = (() => {
         e.stopPropagation();
         if (geste(e)) return;
         const id = g.dataset.id, nom = g.dataset.nom;
+        if (window.MONDE?.manifeste?.id === "outlander") {
+          aller(nom);
+          if (apres) apres();
+          return;
+        }
         if (!apres) { ouvrir(); return; }
         // là où l'on est déjà, il n'y a rien à traverser : on y songe.
         if (id === salleId) {
@@ -747,6 +751,19 @@ window.Plan = (() => {
   function dessiner(leger) {
     const hote = document.getElementById("plan");
     if (!hote) return;
+    // Dans Niort, cette vue est le répertoire des dix intérieurs préparés.
+    // Garder le même cadre lors des mises à jour du flux préserve la visite.
+    if (window.MONDE?.manifeste?.id === "la-peur-et-le-geste") {
+      if (!hote.querySelector("iframe[data-lieux]")) {
+        const cadre = document.createElement("iframe");
+        cadre.dataset.lieux = "true";
+        cadre.title = "Les dix salles — La peur et le geste";
+        cadre.src = "/plans/lieux.html?integre=1";
+        cadre.style.cssText = "width:100%;height:100%;border:0;display:block;flex:1;min-height:0";
+        hote.replaceChildren(cadre);
+      }
+      return;
+    }
     if (!plan) { hote.innerHTML = ""; boiteRendue = [0, 0]; return; }
     poser(hote, false, null, leger);
     const svg = hote.querySelector("svg");
@@ -822,10 +839,11 @@ window.Plan = (() => {
   // d'en haut, mais pas les salles.
   const ECHELLES = [
     // ordre 0.5 et non 0 : le tri lit `ordre || 9`, un zéro se retrouverait en queue.
-    { id: "chateau", nom: "Le château", hote: "plan", ordre: 0.5,
-      dispo: () => !!plan, reparu: () => dessiner() },
-    { id: "royaume", nom: "Le royaume", hote: "carte", ordre: 1, dispo: () => true },
+    { id: "chateau", nom: window.MONDE?.manifeste?.id === "la-peur-et-le-geste" ? "Les dix salles" : window.MONDE?.manifeste?.id === "outlander" ? "Plan de la ville" : "Le château", hote: "plan", ordre: window.MONDE?.manifeste?.id === "outlander" ? 1.5 : 0.5,
+      dispo: () => window.MONDE?.manifeste?.id === "la-peur-et-le-geste" || !!plan, reparu: () => dessiner() },
+    { id: "royaume", nom: (window.MONDE?.carte?.nom || "Le royaume"), hote: "carte", ordre: 1, dispo: () => true },
   ];
+  ECHELLES.sort((a, b) => (a.ordre || 9) - (b.ordre || 9));
   function echelle(def) {
     if (ECHELLES.some((e) => e.id === def.id)) return;
     ECHELLES.push(def);
@@ -885,7 +903,8 @@ window.Plan = (() => {
   function bascule() { rebattre(); }
   function rebattre() {
     let barre = document.getElementById("vue-bascule");
-    const dispo = offertes();
+    const replies = window.MONDE?.carte?.onglets_replies || [];
+    const dispo = offertes().map((e) => replies.includes(e.id) ? { ...e, repli: true } : e);
     if (dispo.length < 2) { if (barre) barre.remove(); return; }
     if (!barre) {
       barre = document.createElement("div");
@@ -1001,8 +1020,16 @@ window.Plan = (() => {
       // centre, ni la même échelle, ni les mêmes lieux — et aucun des deux ne
       // ment. `<lieu>@<personnage>` d'abord, `<lieu>` ensuite : strictement
       // additif, un siège sans plan propre garde exactement celui d'avant.
-      const p = P[d.joueur_lieu_id + "@" + d.joueur_id] || P[d.joueur_lieu_id];
-      lieuId = d.joueur_lieu_id || null;
+      // Outlander présente le bourg comme carte consultable, même depuis les
+      // pierres. La position réelle reste celle du siège ; aucun marqueur
+      // n'est posé dans la ville tant que sa salle n'appartient pas au plan.
+      // sinon : le plan qui porte la salle de présence — et alors le château
+      // est la clé de CE plan, pas la salle (les livres posés s'y comparent).
+      const porteur = Object.keys(P).find((k) => (P[k].salles || []).some((s) => s.id === d.joueur_lieu_id));
+      const p = (window.MONDE?.manifeste?.id === "outlander" && P.inverness)
+        || P[d.joueur_lieu_id + "@" + d.joueur_id] || P[d.joueur_lieu_id]
+        || (porteur && P[porteur]);
+      lieuId = (!P[d.joueur_lieu_id] && porteur) || d.joueur_lieu_id || null;
       if (p === plan) return;
       plan = p || null;
       // un autre château : le cadrage d'un plan ne veut rien dire sur un autre

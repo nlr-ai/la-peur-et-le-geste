@@ -435,9 +435,10 @@ def depecher(qui, consigne, modele, minutes, sec, attendre=True,
                 and (j.get("personnage_id") or j.get("id")) == qui:
             empeche = u"son siege est occupe — un joueur l'incarne"
             break
+    # Les creux bornent une journee, pas une replique : reponse/discussion passent (7.10).
     if not brief:
         empeche = u"aucun dossier"
-    elif u"AUCUN CREUX" in brief and not forcer_creux:
+    elif u"AUCUN CREUX" in brief and not forcer_creux and mode not in ("reponse", "discussion"):
         empeche = u"aucun creux aujourd'hui — il travaille, il ne pense pas"
     if empeche:
         print(u"  %-18s ne part pas — %s" % (qui, empeche))

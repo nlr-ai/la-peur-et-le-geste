@@ -97,7 +97,7 @@ sa matière vit dans `plan/affaires.py`, la façade `scripts/fils.py` reste au
 chemin gelé. `ecrans/modules/fils.js` = *le fil du récit* (scène) garde son
 nom pour l'instant (docs/organisation.md §8 ⑧).
 
-**La Règle Zéro** — `depecher.py` (envoyer un homme vivre sa journée),
+**La délégation facultative** — `depecher.py` (envoyer un homme vivre sa journée),
 `parloir.py` (lui écrire : verbes en call, billet-réveil — le hook-oreille
 est mort le 31.8), `presence.py` (qui est à portée, et ses creux).
 `depecher.py --contexte <N°>` (par exemple `23030`, `#23030` ou `n° 23030`)
@@ -132,5 +132,13 @@ défaut ; `--vraiment` valide les JSON/JSONL modifiés, refuse un index déjà
 préparé, vérifie que `etat/` et `chambres/` n'ont pas bougé pendant la capture,
 commit uniquement ces deux racines puis pousse la branche courante. Les verrous,
 temporaires, caches d'empreintes et `.agents-runtime/` ne partent jamais.
+
+**Interrompre qui joue** — `interrompre.py --qui <id> "<message>"` : un mot
+hors fiction à un PJ, un PNJ ou un PNJ-PJ, canal déduit de qui tient le
+personnage. Joueur PNJ vivant (`joueur_pnj.py`, verrou sous
+`.agents-runtime/joueur-pnj/`) → sa boîte, il coupe son attente et joue
+aussitôt en en tenant compte ; siège humain → item `reponse` dans son fil ;
+sinon → `parloir.py --dire --de mj`. `--comme` force le canal, `--monde` vise
+un monde de `mondes/`.
 
 **Le reste** — `composer.py`.

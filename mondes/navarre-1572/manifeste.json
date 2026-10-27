@@ -1,0 +1,23 @@
+{
+  "_": "NAVARRE 1572 — Paris, le 18 aout 1572, jour des noces. On y joue Henri de Bourbon, roi de Navarre, dix-huit ans, qui epouse Marguerite de Valois sur le parvis de Notre-Dame six jours avant la Saint-Barthelemy. Monde HISTORIQUE : les faits et les dates sont l'histoire ; les inventions sont declarees dans manuel.md. Pitch : docs/pitch-navarre-1572.md.",
+
+  "id": "navarre-1572",
+  "nom": "Navarre 1572",
+
+  "calendrier": {
+    "lunes": 12,
+    "jours_par_lune": 30,
+    "dit": "%(jour)d / %(lune)d / %(annee)d",
+    "_": "Le moteur compte 12 mois de 30 jours ; le calendrier julien de 1572 non (aout a 31 jours). L'ecart est assume comme dans charmed-1906 : le 18, le 22 et le 24 aout existent, c'est ce qui compte. Une date historique tombant un 31 se pose au 30."
+  },
+
+  "monnaie": {
+    "unites": ["livre", "livres", "ecu", "ecus", "sol", "sols"],
+    "_": "On compte en livres tournois ; l'ecu d'or vaut un peu moins de trois livres. Ordres de grandeur seulement."
+  },
+
+  "depart": {
+    "lieu": "paris",
+    "siege": "henri-de-navarre"
+  }
+}

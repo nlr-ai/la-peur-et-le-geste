@@ -1,0 +1,233 @@
+{
+ "nom": "Haute-Preuve",
+ "viewBox": "0 0 820 600",
+ "fonds": [],
+ "decor": [],
+ "mur": "M35 35H785V555H35Z",
+ "guet": [],
+ "rose": null,
+ "etiquettes": [],
+ "salles": [
+  {
+   "id": "haute-preuve-entree",
+   "nom": "Entrée",
+   "forme": {
+    "r": [
+     70,
+     410,
+     190,
+     115,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    444
+   ],
+   "lignes": [
+    "Entrée"
+   ],
+   "quoi": "Accès local au siège.",
+   "motifs": [
+    "entrée"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "haute-preuve-salle-commune",
+   "nom": "Salle des pairs",
+   "forme": {
+    "r": [
+     300,
+     240,
+     220,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    410,
+    274
+   ],
+   "lignes": [
+    "Salle des pairs"
+   ],
+   "quoi": "Une conclusion y passe devant d'autres pairs, qui peuvent demander une reprise ou publier un désaccord.",
+   "motifs": [
+    "salle des pairs",
+    "salle commune"
+   ],
+   "alias": [
+    "salle commune"
+   ],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "haute-preuve-cabinets",
+   "nom": "Cabinets d'enquête",
+   "forme": {
+    "r": [
+     70,
+     70,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    104
+   ],
+   "lignes": [
+    "Cabinets d'enquête"
+   ],
+   "quoi": "Les équipes y croisent leurs méthodes : une trace, un souvenir et une scène observée ne se valent pas.",
+   "motifs": [
+    "cabinets d'enquête"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "haute-preuve-traces",
+   "nom": "Chambre des traces",
+   "forme": {
+    "r": [
+     300,
+     70,
+     220,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    410,
+    104
+   ],
+   "lignes": [
+    "Chambre des traces"
+   ],
+   "quoi": "💀 Mort : on y interroge les traces des défunts, sans garantie que la personne soit là.",
+   "motifs": [
+    "chambre des traces"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "haute-preuve-regard",
+   "nom": "Cabinet du regard",
+   "forme": {
+    "r": [
+     560,
+     70,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    104
+   ],
+   "lignes": [
+    "Cabinet du regard"
+   ],
+   "quoi": "⏳ Temps : observation des scènes passées, selon des modalités encore à préciser.",
+   "motifs": [
+    "cabinet du regard"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "haute-preuve-archives",
+   "nom": "Archives",
+   "forme": {
+    "r": [
+     70,
+     240,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    274
+   ],
+   "lignes": [
+    "Archives"
+   ],
+   "quoi": "Les pièces conservées et les rapports des enquêtes closes.",
+   "motifs": [
+    "archives"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "haute-preuve-instruments",
+   "nom": "Réserve des instruments",
+   "forme": {
+    "r": [
+     560,
+     240,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    274
+   ],
+   "lignes": [
+    "Réserve des",
+    "instruments"
+   ],
+   "quoi": "Les instruments chargés, sous protection. Une réserve vide arrête une enquête.",
+   "motifs": [
+    "réserve des instruments"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "haute-preuve-greffe",
+   "nom": "Greffe des expertises",
+   "forme": {
+    "r": [
+     560,
+     410,
+     190,
+     115,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    444
+   ],
+   "lignes": [
+    "Greffe des",
+    "expertises"
+   ],
+   "quoi": "Ce qu'on a facturé, à qui, et ce qu'un commanditaire prétend pouvoir taire.",
+   "motifs": [
+    "greffe des expertises"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  }
+ ]
+}

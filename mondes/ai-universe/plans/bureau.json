@@ -1,0 +1,64 @@
+{
+  "nom": "Virtual Office",
+  "salles": [
+    {
+      "id": "maya",
+      "nom": "Produit",
+      "agent_id": "maya",
+      "colonne": 0,
+      "ligne": 0
+    },
+    {
+      "id": "noor",
+      "nom": "Recherche",
+      "agent_id": "noor",
+      "colonne": 1,
+      "ligne": 0
+    },
+    {
+      "id": "hugo",
+      "nom": "Architecture",
+      "agent_id": "hugo",
+      "colonne": 2,
+      "ligne": 0
+    },
+    {
+      "id": "ada",
+      "nom": "Développement",
+      "agent_id": "ada",
+      "colonne": 3,
+      "ligne": 0
+    },
+    {
+      "id": "leo",
+      "nom": "Interface",
+      "agent_id": "leo",
+      "colonne": 0,
+      "ligne": 1
+    },
+    {
+      "id": "iris",
+      "nom": "Tests",
+      "agent_id": "iris",
+      "colonne": 1,
+      "ligne": 1
+    },
+    {
+      "id": "sam",
+      "nom": "Exploitation",
+      "agent_id": "sam",
+      "colonne": 2,
+      "ligne": 1
+    },
+    {
+      "id": "zoe",
+      "nom": "Documentation",
+      "agent_id": "zoe",
+      "colonne": 3,
+      "ligne": 1
+    }
+  ],
+  "outside": {
+    "cree": false
+  }
+}

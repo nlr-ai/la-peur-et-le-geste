@@ -18,6 +18,7 @@ import os
 import sys
 
 import chainage_actions
+import racines
 from temps.bouche import croyances_de, se_recoupent
 
 
@@ -50,10 +51,10 @@ TYPES_BOOK = {"registre", "carnet", "plan", "memento", "dossier", "regle",
 
 def verifier_chainage_actions(e, r):
     """Les liens action-acte présents doivent pointer vers leur vraie affaire."""
-    racine = os.path.dirname(os.path.dirname(os.path.dirname(
-        os.path.dirname(os.path.abspath(__file__)))))
-    etat = os.path.join(racine, "etat")
-    for erreur in chainage_actions.auditer(etat):
+    # La racine du MONDE se declare, elle ne se deduit pas de `__file__` :
+    # calculee ici, elle designait toujours le depot et faisait auditer
+    # l'etat de Westeros meme quand on verifiait un autre monde.
+    for erreur in chainage_actions.auditer(racines.etat()):
         r.dire("grave", "chainage actions-actes", erreur)
 
 

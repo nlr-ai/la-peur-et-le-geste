@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "scenario": "arrival",
+    "seed": 1,
+    "personId": 22,
+    "shownAt": "1940-06-15T08:00:00",
+    "simulationAt": "1940-06-15T08:00:00",
+    "sections": [
+      "identity",
+      "personality",
+      "relations"
+    ],
+    "coordinates": "location positions use map units; nested native MapPoint X/Y values use 1000 subdivisions per unit. Not latitude/longitude.",
+    "perspective": "Omniscient dossier. Only knowledge describes information actually known by this character. Other people\u0027s trust, secret holders and hidden traits are not automatically known to him.",
+    "limits": "No invented biography, dialogue, money balance or inventory. Household/site goods are recorded possessions, not proof of personal access. History covers today through shownAt; no future events are exported. Telephone service is at simulationAt."
+  },
+  "identity": {
+    "row": {
+      "id": 22,
+      "first": "Aim\u00E9",
+      "last": "Gaborit",
+      "sex": "m",
+      "age": 42,
+      "nationality": "fr",
+      "allegiance": "civil",
+      "household": 239,
+      "relation": "head",
+      "status": "post",
+      "post": "brigade_commander",
+      "building": 9,
+      "job": "Commandant de brigade (adjudant)",
+      "cover": "gendarme",
+      "from": null,
+      "war": null
+    },
+    "greatWar": null,
+    "groups": [],
+    "appearance": {
+      "id": 22,
+      "class": {
+        "key": "wehrmacht_officer",
+        "name": "Officier allemand",
+        "weights": {
+          "shaven": 8,
+          "slick": 3,
+          "side_part": 2,
+          "stubble": 0,
+          "fair_hair": 1.4
+        },
+        "gates": {
+          "glasses": 1.2
+        },
+        "outfit": {
+          "m": [
+            {
+              "slot": "head",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "visor_cap",
+                  "name": "casquette \u00E0 visi\u00E8re",
+                  "feminine": true,
+                  "shape": "visor_cap",
+                  "colors": [
+                    "feldgrau"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "top",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "officer_tunic",
+                  "name": "vareuse d\u0027officier",
+                  "feminine": true,
+                  "shape": "uniform",
+                  "colors": [
+                    "feldgrau"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "bottom",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "riding_breeches",
+                  "name": "culotte de cheval",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [
+                    "stone_grey",
+                    "feldgrau"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "feet",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "riding_boots",
+                  "name": "bottes cavali\u00E8res",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [
+                    "black"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "heightCm": 173,
+      "build": {
+        "key": "stocky",
+        "name": "trapu",
+        "nameF": "trapue",
+        "color": null,
+        "weight": 20,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1.12
+      },
+      "skin": {
+        "key": "tanned",
+        "name": "h\u00E2l\u00E9",
+        "nameF": null,
+        "color": "c9946c",
+        "weight": 15,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "eyes": {
+        "key": "eyes_brown",
+        "name": "marron",
+        "nameF": null,
+        "color": "5b3b22",
+        "weight": 32,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "brows": {
+        "key": "thin",
+        "name": "sourcils fins",
+        "nameF": null,
+        "color": null,
+        "weight": 25,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 0.7
+      },
+      "face": {
+        "key": "square",
+        "name": "visage carr\u00E9",
+        "nameF": null,
+        "color": null,
+        "weight": 20,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "square",
+        "size": 1.04
+      },
+      "nose": {
+        "key": "straight_nose",
+        "name": "nez droit",
+        "nameF": null,
+        "color": null,
+        "weight": 34,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "hairColor": {
+        "key": "fair_hair",
+        "name": "blonds",
+        "nameF": null,
+        "color": "b8975e",
+        "weight": 16,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "hairStyle": {
+        "key": "receding",
+        "name": "front d\u00E9garni",
+        "nameF": null,
+        "color": null,
+        "weight": 60,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": "balding",
+        "shape": "receding",
+        "size": 1
+      },
+      "facialHair": {
+        "key": "shaven",
+        "name": "ras\u00E9 de pr\u00E8s",
+        "nameF": null,
+        "color": null,
+        "weight": 50,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "none",
+        "size": 1
+      },
+      "glasses": null,
+      "mark": null,
+      "outfit": [
+        {
+          "slot": "head",
+          "key": "visor_cap",
+          "text": "casquette \u00E0 visi\u00E8re feldgrau",
+          "shape": "visor_cap",
+          "color": "5d6550",
+          "from": null
+        },
+        {
+          "slot": "top",
+          "key": "officer_tunic",
+          "text": "vareuse d\u0027officier feldgrau",
+          "shape": "uniform",
+          "color": "5d6550",
+          "from": null
+        },
+        {
+          "slot": "bottom",
+          "key": "riding_breeches",
+          "text": "culotte de cheval feldgrau",
+          "shape": null,
+          "color": "5d6550",
+          "from": null
+        },
+        {
+          "slot": "feet",
+          "key": "riding_boots",
+          "text": "bottes cavali\u00E8res noire",
+          "shape": null,
+          "color": "1c1c1e",
+          "from": null
+        }
+      ]
+    },
+    "worn": [
+      {
+        "slot": "head",
+        "key": "visor_cap",
+        "text": "casquette \u00E0 visi\u00E8re feldgrau",
+        "shape": "visor_cap",
+        "color": "5d6550",
+        "from": null
+      },
+      {
+        "slot": "top",
+        "key": "officer_tunic",
+        "text": "vareuse d\u0027officier feldgrau",
+        "shape": "uniform",
+        "color": "5d6550",
+        "from": null
+      },
+      {
+        "slot": "bottom",
+        "key": "riding_breeches",
+        "text": "culotte de cheval feldgrau",
+        "shape": null,
+        "color": "5d6550",
+        "from": null
+      },
+      {
+        "slot": "feet",
+        "key": "riding_boots",
+        "text": "bottes cavali\u00E8res noire",
+        "shape": null,
+        "color": "1c1c1e",
+        "from": null
+      }
+    ]
+  },
+  "personality": {
+    "drawn": {
+      "id": 21,
+      "profile": "fence_sitter",
+      "shownProfile": "fence_sitter",
+      "traits": [
+        "young_children",
+        "tough"
+      ],
+      "axes": {
+        "fervour": 13,
+        "risk": 15,
+        "nerve": 60,
+        "loyalty": 50,
+        "discretion": 40,
+        "greed": 20
+      },
+      "fervour": 13
+    },
+    "currentFervour": 13,
+    "traits": [
+      {
+        "key": "tough",
+        "name": "Dur au mal",
+        "category": "personality",
+        "group": "pain",
+        "hidden": false,
+        "axes": {
+          "nerve": 20
+        },
+        "opinion": {
+          "fragile": -5,
+          "tough": 5
+        },
+        "reactions": {
+          "ambushed": 2,
+          "comrade_killed": 1
+        },
+        "drift": 1,
+        "occupierFervour": 0
+      },
+      {
+        "key": "young_children",
+        "name": "Parent de jeunes enfants",
+        "category": "situation",
+        "group": null,
+        "hidden": false,
+        "axes": {
+          "risk": -15
+        },
+        "opinion": {
+          "young_children": 5
+        },
+        "reactions": {
+          "home_bombed": -3,
+          "east_transfer": -3
+        },
+        "drift": 1,
+        "occupierFervour": -5
+      }
+    ],
+    "axes": [
+      {
+        "key": "fervour",
+        "name": "Ferveur",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "risk",
+        "name": "Prise de risque",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "nerve",
+        "name": "Tenue",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "loyalty",
+        "name": "Fid\u00E9lit\u00E9",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "discretion",
+        "name": "Discr\u00E9tion",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "greed",
+        "name": "V\u00E9nalit\u00E9",
+        "min": 0,
+        "max": 100
+      }
+    ],
+    "voiceAmbiance": "Aim\u00E9 prend la parole.",
+    "voiceWords": [
+      "Il parle de ses petits ; on sent qu\u0027il a peur pour eux."
+    ]
+  },
+  "relations": {
+    "kinship": [],
+    "contacts": [
+      {
+        "person": {
+          "id": 68,
+          "name": "Solange Picard"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 22,
+        "incoming": 34
+      },
+      {
+        "person": {
+          "id": 72,
+          "name": "Odile Guillon"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 40,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 150,
+          "name": "Odile Bouchet"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 44,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 155,
+          "name": "Michel Bastard"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 47,
+        "incoming": 49
+      },
+      {
+        "person": {
+          "id": 199,
+          "name": "\u00C9mile Guillot"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 17
+      },
+      {
+        "person": {
+          "id": 208,
+          "name": "Yvette Girard"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 39,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 212,
+          "name": "Andr\u00E9 Chevalier"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 28
+      },
+      {
+        "person": {
+          "id": 217,
+          "name": "Gabrielle Chaigneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 12,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 223,
+          "name": "Marcel Jarry"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 49,
+        "incoming": 61
+      }
+    ]
+  }
+}

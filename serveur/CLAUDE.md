@@ -12,8 +12,10 @@ Sans elle, le fichier repousse en trois lunes et le découpage n'aura servi à r
 
 ```
 serveur.js        65 l.   ouvre le port, présente la requête aux routes, 404, EADDRINUSE
-contexte.js      117 l.   RACINE, PORT, MAX_FIL, cheminEtat, cheminNotes, lireCroyance,
-                          dateDe, resoudrePresence — les chemins de l'état
+racines.js        95 l.   DEPOT, racine, etat, chambres, manifeste — OÙ VIT L'ÉTAT, et de
+                          quel monde. Jumeau exact de `scripts/noyau/racines.py`
+contexte.js      174 l.   RACINE, DEPOT, ETAT, CHAMBRES, PORT, MAX_FIL, cheminEtat,
+                          cheminNotes, lireCroyance, dateDe, resoudrePresence
 http.js           45 l.   envoyer, fichierStatique, inlinerFigure — le transport
 siege.js         218 l.   roster, qui, regardeur, monPersonnage, audienceCourante,
                           volumesVisibles, ecartDe — LE SIÈGE ET LE BROUILLARD
@@ -46,6 +48,7 @@ module.exports = function traiter(req, res, url) {
 ## Ce qu'on ne casse pas
 
 - **L'ORDRE DE `ROUTES` EST SÉMANTIQUE.** Plusieurs routes se reconnaissent par préfixe (`/salles` avant `/salles/`, `/monde/` après `/chemin`, `/modules/…` par expression régulière) et la première qui prend la requête la garde. C'est la seule différence assumée avec le plan du document, qui prévoyait une table `Map` d'égalités exactes : elle ne sait pas dire les préfixes. Déplacer une entrée de la liste, c'est changer le routage.
+- **DEUX RACINES, ET ON NE LES CONFOND PAS** (9.9). `DEPOT` désigne le code, les écrans, les scripts, les artefacts 3D — il ne bouge jamais. `RACINE` désigne le **monde courant** : le dossier qui contient `etat/`, et il suit `CONSEIL_RACINE` puis `CONSEIL_MONDE`. Aujourd'hui les deux sont le même dossier, donc la confusion ne coûte rien ; elle coûte au premier monde nommé, où `path.join(RACINE, "ecrans", "jeu.html")` ne trouve plus rien. **Elle est d'ailleurs déjà payée en silence par les tests** : ils pointent `CONSEIL_RACINE` sur un dossier temporaire qui ne porte que `etat/` et `chambres/`, et le serveur y cherche pourtant `scripts/presence.py` et `ecrans/`. Ces chemins-là sont faux depuis toujours et ne se voient pas, parce que les épreuves n'empruntent pas ces branches. Ce qui vise le CODE doit passer à `DEPOT` — une vingtaine d'usages, comptés par `python scripts/noyau/racines.py --verifier`.
 - **Les caches vivent avec la fonction qui les remplit** — `cachePresence` dans `contexte.js`, `_portraitsFrais` dans `portraits.js`, `_rues`/`_bati`/`_monde`/`_peremption` dans `monde3d.js`, `cacheCriticite`/`cachePlanModele`/`cacheFilMjActif` dans `domaine/activations.js`. Un cache partagé entre deux modules recrée le monolithe sous un autre nom.
 - **Les commentaires partent avec leur code, intacts.** Ils portent des décisions payées en bugs : pourquoi `MAX_FIL` vaut 80, pourquoi un item sans `pour` n'est servi à personne, pourquoi on meurt sur `EADDRINUSE` au lieu de se rabattre sur un autre port.
 - **Un seul port, le 3129.** On redémarre le serveur, on n'en ouvre pas un second. Un atelier passe `PORT=…` pour ne pas disputer le port de la partie en cours.

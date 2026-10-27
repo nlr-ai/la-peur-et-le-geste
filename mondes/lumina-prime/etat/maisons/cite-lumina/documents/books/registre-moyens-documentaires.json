@@ -1,0 +1,135 @@
+{
+ "maison_id": "cite-lumina",
+ "lieu_id": "lumina-prime",
+ "salle_id": "radiant-core",
+ "id": "registre-moyens-documentaires",
+ "titre": "Les moyens documentaires du conseil",
+ "type": "registre",
+ "tenu_par": "aria",
+ "embleme": "🧰",
+ "couleur": "#856b39",
+ "colonnes": [
+  "N°",
+  "🏷️ Le moyen",
+  "Ce qu’il sait faire",
+  "Qui le tient",
+  "Où",
+  "État"
+ ],
+ "lignes": [
+  {
+   "cellules": [
+    "M201",
+    "Plan du Radiant Core",
+    "Document consultable pour instruire les affaires ; ne représente pas une capacité de calcul ou un budget.",
+    "cite-lumina",
+    "plans/lumina-prime.json",
+    "présent"
+   ]
+  },
+  {
+   "cellules": [
+    "M202",
+    "Accès locaux",
+    "Document consultable pour instruire les affaires ; ne représente pas une capacité de calcul ou un budget.",
+    "cite-lumina",
+    "etat/chemins.json",
+    "présent"
+   ]
+  },
+  {
+   "cellules": [
+    "M203",
+    "Atlas des lieux",
+    "Document consultable pour instruire les affaires ; ne représente pas une capacité de calcul ou un budget.",
+    "cite-lumina",
+    "etat/maisons/cite-lumina/documents/books/atlas-lieux-lumina.json",
+    "présent"
+   ]
+  },
+  {
+   "cellules": [
+    "M204",
+    "Mandats du conseil",
+    "Document consultable pour instruire les affaires ; ne représente pas une capacité de calcul ou un budget.",
+    "cite-lumina",
+    "etat/maisons/cite-lumina/documents/books/registre-conseil-lumina.json",
+    "présent"
+   ]
+  },
+  {
+   "cellules": [
+    "M205",
+    "Projets des quartiers",
+    "Document consultable pour instruire les affaires ; ne représente pas une capacité de calcul ou un budget.",
+    "cite-lumina",
+    "etat/maisons/cite-lumina/documents/books/projets-quartiers-lumina.json",
+    "présent"
+   ]
+  },
+  {
+   "cellules": [
+    "M211",
+    "Mémento de aria",
+    "Document consultable pour instruire les affaires ; ne représente pas une capacité de calcul ou un budget.",
+    "cite-lumina",
+    "etat/maisons/cite-lumina/documents/books/dossier-metier-aria.json",
+    "présent"
+   ]
+  },
+  {
+   "cellules": [
+    "M212",
+    "Mémento de dev-lumina",
+    "Document consultable pour instruire les affaires ; ne représente pas une capacité de calcul ou un budget.",
+    "cite-lumina",
+    "etat/maisons/cite-lumina/documents/books/dossier-metier-dev-lumina.json",
+    "présent"
+   ]
+  },
+  {
+   "cellules": [
+    "M213",
+    "Mémento de quantum",
+    "Document consultable pour instruire les affaires ; ne représente pas une capacité de calcul ou un budget.",
+    "cite-lumina",
+    "etat/maisons/cite-lumina/documents/books/dossier-metier-quantum.json",
+    "présent"
+   ]
+  },
+  {
+   "cellules": [
+    "M214",
+    "Mémento de gaia",
+    "Document consultable pour instruire les affaires ; ne représente pas une capacité de calcul ou un budget.",
+    "cite-lumina",
+    "etat/maisons/cite-lumina/documents/books/dossier-metier-gaia.json",
+    "présent"
+   ]
+  },
+  {
+   "cellules": [
+    "M215",
+    "Mémento de pitch",
+    "Document consultable pour instruire les affaires ; ne représente pas une capacité de calcul ou un budget.",
+    "cite-lumina",
+    "etat/maisons/cite-lumina/documents/books/dossier-metier-pitch.json",
+    "présent"
+   ]
+  },
+  {
+   "cellules": [
+    "M216",
+    "Mémento de juris",
+    "Document consultable pour instruire les affaires ; ne représente pas une capacité de calcul ou un budget.",
+    "cite-lumina",
+    "etat/maisons/cite-lumina/documents/books/dossier-metier-juris.json",
+    "présent"
+   ]
+  }
+ ],
+ "pages": [
+  "Moyens documentaires existants référencés par le code M. Leur présence ne prouve ni les mesures ni la réalisation des projets qu’ils décrivent.",
+  "J1, après 10h12 — note d’Aria. Ce registre porte mon nom comme teneur ; je ne l’ai pas écrit, et je n’ai vérifié aucune de ses lignes. « présent » y dit qu’une adresse est déclarée, pas que le document a été ouvert. M201 (plan du Radiant Core, plans/lumina-prime.json) et M202 (accès locaux, etat/chemins.json) ne sont ouverts par aucun membre du conseil selon les livres : leurs pièces et leurs connexions ne sont transcrites dans aucun volume de la cité (30105). Leur transcription est l’action 30307 de DEV. Qu’ils existent hors des chambres et soient lisibles relève du relevé du stockage (Quantum, 40301)."
+ ]
+}

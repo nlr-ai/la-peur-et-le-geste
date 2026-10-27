@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trois bords, v3 — maquette sonore de Sillage</title>
+  <style>
+    :root{color-scheme:dark;--ink:#edf7f4;--dim:#9db8b2;--water:#071f25;--line:#3dd6b1;--warn:#efc76b;--panel:#092128}
+    *{box-sizing:border-box} body{margin:0;min-height:100vh;display:grid;place-items:center;background:linear-gradient(160deg,#041419,var(--water));color:var(--ink);font:17px/1.55 system-ui,sans-serif}
+    main{width:min(800px,calc(100% - 32px));padding:32px;border:1px solid #28535a;border-radius:24px;background:#092128e6;box-shadow:0 20px 80px #0008}
+    h1{margin:0 0 4px;font-size:clamp(2rem,7vw,4.4rem);letter-spacing:-.04em} h2{font-size:1.25rem;margin:0 0 12px}.lede,.note{color:var(--dim)}.lede{margin:0 0 24px}
+    fieldset{border:0;padding:0;margin:22px 0}legend{font-weight:700;margin-bottom:10px}.choices,.transport{display:flex;flex-wrap:wrap;gap:10px}
+    button{min-height:48px;padding:10px 16px;border:1px solid #447078;border-radius:999px;background:#102e35;color:var(--ink);font:inherit;cursor:pointer}
+    button:hover,button:focus-visible{border-color:var(--line);outline:3px solid #3dd6b133}button[aria-pressed="true"],.play{color:#031512;background:var(--line);border-color:var(--line)}button:disabled{cursor:not-allowed;opacity:.42}
+    .play{font-weight:800}.silent{border-color:var(--warn)}.stop{border-color:#e97b75}.mode{border-style:dashed}.transport{margin-top:24px}
+    .box{margin:18px 0;padding:18px;border:1px solid #38636a;border-radius:16px;background:#061a20}.warn{border-color:var(--warn);background:#2b2617}.box[hidden],section[hidden]{display:none}
+    #status,#relay-status{min-height:3.2em;margin:20px 0 0;padding:14px 16px;border-left:3px solid var(--line);background:#06171c}.story{font-size:1.2rem}.note{font-size:.9rem;margin-top:24px}code{color:#b6f6e6}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Trois bords <small>v3</small></h1>
+  <p class="lede">Seul, ou à deux gestes. Le silence reste une réponse entière.</p>
+
+  <div class="choices" aria-label="Choix du mode">
+    <button type="button" class="mode" id="solo-mode" aria-pressed="true">Parcourir seul</button>
+    <button type="button" class="mode" id="relay-mode" aria-pressed="false">Passer le bord</button>
+  </div>
+
+  <section id="solo" aria-label="Parcours solitaire">
+    <fieldset><legend>1. Choisis une direction du relevé</legend><div class="choices direction-buttons"></div></fieldset>
+    <fieldset><legend>2. Place-toi sur un point réellement observé</legend><div class="choices" id="solo-borders"></div></fieldset>
+    <section id="solo-uncertain" class="box warn" hidden aria-labelledby="solo-uncertain-title">
+      <p id="solo-uncertain-title"><strong>Le relevé ne tranche pas ici.</strong> La maquette ne reproduit donc aucun son à ce seuil.</p>
+      <div class="choices"><button type="button" class="play last-heard">Écouter le dernier point entendu</button><button type="button" class="silent choose-silence">Prendre le silence</button></div>
+    </section>
+    <div class="transport"><button type="button" class="play" id="solo-play">Écouter un cycle</button><button type="button" class="silent choose-silence">Prendre le chemin silencieux</button><button type="button" class="stop stop-now">Arrêt immédiat</button></div>
+    <p id="status" role="status" aria-live="polite">Maquette muette. Direction : ruban. Point : entendu à 5 pas.</p>
+  </section>
+
+  <section id="relay" hidden aria-label="Passer le bord">
+    <div id="relay-first">
+      <h2>Premier geste — laisser une direction</h2>
+      <div class="choices direction-buttons"></div>
+      <div class="transport"><button type="button" class="play" id="leave-direction">Laisser cette direction</button></div>
+    </div>
+    <div id="relay-second" hidden>
+      <h2>Second geste — répondre par un point</h2>
+      <p id="left-direction"></p><div class="choices" id="relay-borders"></div>
+      <section id="relay-uncertain" class="box warn" hidden aria-labelledby="relay-uncertain-title">
+        <p id="relay-uncertain-title"><strong>Le relevé ne tranche pas ici.</strong> La maquette ne reproduit donc aucun son à ce seuil.</p>
+        <div class="choices"><button type="button" class="play" id="relay-last-heard">Écouter le dernier point entendu</button><button type="button" class="silent" id="relay-silence">Prendre le silence</button></div>
+      </section>
+    </div>
+    <div id="relay-result" class="box" hidden>
+      <p class="story" id="story"></p>
+      <div class="choices"><button type="button" id="reverse">Inverser les gestes</button><button type="button" id="restart-solo">Recommencer seul</button><button type="button" class="silent" id="leave">Partir</button></div>
+    </div>
+    <div class="transport"><button type="button" class="stop stop-now">Arrêt immédiat</button></div>
+    <p id="relay-status" role="status" aria-live="polite">Relais prêt. Aucun son ne joue.</p>
+    <p class="note"><strong>Limite :</strong> cette page ne sait pas si deux personnes distinctes l’ont touchée. Elle rend un relais possible ; elle ne prouve aucune rencontre. Elle ne recueille ni nom, ni compteur, ni donnée persistante.</p>
+  </section>
+
+  <section id="departed" class="box" hidden><p class="story">Le bord reste derrière. Silence.</p><p>Vous pouvez fermer la page.</p></section>
+  <p class="note">Maquette locale, au casque de préférence. Elle ne reproduit pas l’acoustique du Quai. Les pas de Sillage ne sont pas des mètres. Aucun usage du Quai ni aucune permission de diffusion ne découle de cette page. Coût en calcul du premier essai : <code>inconnu</code>.</p>
+</main>
+<script>
+  const observations={
+    ruban:[{label:'entendu',pas:5,kind:'heard'},{label:'seuil incertain',pas:6,kind:'uncertain'},{label:'plus entendu',pas:8,kind:'silent'}],
+    gradins:[{label:'entendu',pas:7,kind:'heard'},{label:'seuil incertain',pas:8,kind:'uncertain'},{label:'plus entendu',pas:10,kind:'silent'}],
+    passage:[{label:'entendu',pas:4,kind:'heard'},{label:'seuil incertain',pas:5,kind:'uncertain'},{label:'plus entendu',pas:7,kind:'silent'}]
+  };
+  const names={ruban:'le ruban',gradins:'les gradins',passage:'le passage'};
+  let direction='ruban',border=0,ctx=null,master=null,timers=[];
+  const q=s=>document.querySelector(s),qa=s=>document.querySelectorAll(s),current=()=>observations[direction][border];
+  function setDirection(next){stopAudio();direction=next;border=0;qa('.direction-buttons button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.direction===direction?'true':'false'));renderSoloBorders();updateSolo();}
+  function makeDirections(){qa('.direction-buttons').forEach(group=>Object.keys(observations).forEach(key=>{const b=document.createElement('button');b.type='button';b.dataset.direction=key;b.textContent=`Vers ${names[key]}`;b.setAttribute('aria-pressed',key===direction?'true':'false');b.addEventListener('click',()=>setDirection(key));group.append(b)}));}
+  function makeBorderButton(p,i,relay=false){const b=document.createElement('button');b.type='button';b.textContent=`${p.label} — ${p.pas} pas`;b.setAttribute('aria-pressed',!relay&&i===border?'true':'false');b.addEventListener('click',()=>relay?relayAnswer(p):selectSolo(p,i));return b;}
+  function renderSoloBorders(){const box=q('#solo-borders');box.replaceChildren();observations[direction].forEach((p,i)=>box.append(makeBorderButton(p,i)));}
+  function selectSolo(p,i){stopAudio();border=i;renderSoloBorders();updateSolo();describe(p.kind==='uncertain'?'Le relevé ne tranche pas ici. Aucun son ne reproduit ce seuil.':'Maquette muette.');}
+  function updateSolo(){const p=current(),uncertain=p.kind==='uncertain';q('#solo-uncertain').hidden=!uncertain;q('#solo-play').disabled=uncertain;const heard=observations[direction][0];q('#solo-uncertain .last-heard').textContent=`Écouter le dernier point entendu — ${heard.pas} pas`;}
+  function describe(prefix){const p=current();q('#status').textContent=`${prefix} Direction : ${direction}. Point : ${p.label} à ${p.pas} pas.`;}
+  function schedule(fn,ms){timers.push(setTimeout(fn,ms))}
+  function envelope(node,start,peak,duration){node.gain.setValueAtTime(.0001,start);node.gain.exponentialRampToValueAtTime(peak,start+.03);node.gain.exponentialRampToValueAtTime(.0001,start+duration)}
+  function friction(at,level){const n=ctx.sampleRate*.22,buf=ctx.createBuffer(1,n,ctx.sampleRate),d=buf.getChannelData(0);for(let i=0;i<n;i++)d[i]=(Math.random()*2-1)*(1-i/n);const src=ctx.createBufferSource(),filter=ctx.createBiquadFilter(),g=ctx.createGain();src.buffer=buf;filter.type='bandpass';filter.frequency.value=2600;filter.Q.value=5;envelope(g,at,level,.22);src.connect(filter).connect(g).connect(master);src.start(at)}
+  function pulse(at,level){const o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.setValueAtTime(92,at);o.frequency.exponentialRampToValueAtTime(62,at+.3);envelope(g,at,level,.34);o.connect(g).connect(master);o.start(at);o.stop(at+.36)}
+  function breath(at,level){const n=ctx.sampleRate*1.8,buf=ctx.createBuffer(1,n,ctx.sampleRate),d=buf.getChannelData(0);for(let i=0;i<n;i++)d[i]=(Math.random()*2-1)*Math.sin(Math.PI*i/n);const src=ctx.createBufferSource(),filter=ctx.createBiquadFilter(),g=ctx.createGain();src.buffer=buf;filter.type='lowpass';filter.frequency.setValueAtTime(1500,at);filter.frequency.exponentialRampToValueAtTime(230,at+1.8);envelope(g,at,level*.75,1.8);src.connect(filter).connect(g).connect(master);src.start(at)}
+  async function soundCycle(message,target='#status'){stopAudio();ctx=new(window.AudioContext||window.webkitAudioContext)();master=ctx.createGain();master.gain.value=.7;master.connect(ctx.destination);await ctx.resume();const now=ctx.currentTime+.08,level=.16;friction(now,level);[5,6.2,7.4,8.6].forEach(s=>pulse(now+s,level));breath(now+14,level);q(target).textContent=message;schedule(()=>q(target).textContent='Le souffle est tombé. Écoutez ce qui reste autour.',16000);schedule(()=>{stopAudio();q(target).textContent='Cycle fini. Aucun redémarrage automatique.'},23000)}
+  function stopAudio(){timers.forEach(clearTimeout);timers=[];if(master&&ctx){master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setTargetAtTime(0,ctx.currentTime,.015)}if(ctx){const old=ctx;setTimeout(()=>old.close().catch(()=>{}),100)}ctx=null;master=null}
+  function chooseSilence(target='#status'){stopAudio();q(target).textContent='Chemin silencieux choisi. Rien ne joue.'}
+  function soloPlay(){const p=current();if(p.kind==='silent'){describe('Ici, le relevé disait « plus entendu ». Le cycle reste silencieux.');return}if(p.kind==='uncertain'){describe('Le relevé ne tranche pas ici. Choisis le dernier point entendu ou le silence.');return}soundCycle('Cycle lancé au point entendu : frottement, quatre pas mats, souffle, puis silence.')}
+  function showMode(mode){stopAudio();q('#solo').hidden=mode!=='solo';q('#relay').hidden=mode!=='relay';q('#departed').hidden=true;q('#solo-mode').setAttribute('aria-pressed',mode==='solo'?'true':'false');q('#relay-mode').setAttribute('aria-pressed',mode==='relay'?'true':'false');if(mode==='relay')resetRelay()}
+  function resetRelay(){stopAudio();q('#relay-first').hidden=false;q('#relay-second').hidden=true;q('#relay-result').hidden=true;q('#relay-status').textContent='Relais prêt. Aucun son ne joue.';qa('.direction-buttons button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.direction===direction?'true':'false'))}
+  function leaveDirection(){stopAudio();q('#relay-first').hidden=true;q('#relay-second').hidden=false;q('#relay-result').hidden=true;q('#left-direction').textContent=`Direction laissée : vers ${names[direction]}. Choisis un point.`;const box=q('#relay-borders');box.replaceChildren();observations[direction].forEach((p,i)=>box.append(makeBorderButton(p,i,true)));q('#relay-uncertain').hidden=true;q('#relay-status').textContent=`Direction laissée : ${names[direction]}. Aucun son ne joue.`}
+  function relayAnswer(p){stopAudio();if(p.kind==='uncertain'){q('#relay-uncertain').hidden=false;q('#relay-status').textContent=`À ${p.pas} pas, le relevé ne tranche pas. Choisis le dernier point entendu ou le silence.`;const heard=observations[direction][0];q('#relay-last-heard').textContent=`Écouter le dernier point entendu — ${heard.pas} pas`;return}q('#relay-uncertain').hidden=true;finishRelay(p.kind==='heard'?`Vers ${names[direction]}, ${p.pas} pas ont répondu.`:`Vers ${names[direction]}, ${p.pas} pas ont répondu par le silence.`,p.kind==='heard')}
+  function finishRelay(sentence,playSound=false){q('#relay-second').hidden=true;q('#relay-result').hidden=false;q('#story').textContent=sentence;if(playSound)soundCycle(sentence+' Le cycle joue.','#relay-status');else chooseSilence('#relay-status')}
+  function uncertainHeard(){const heard=observations[direction][0];finishRelay(`Vers ${names[direction]}, l’incertain a rendu le dernier point entendu : ${heard.pas} pas.`,true)}
+  function uncertainSilence(){const p=observations[direction][1];finishRelay(`Vers ${names[direction]}, l’incertain à ${p.pas} pas a reçu le silence.`,false)}
+  makeDirections();renderSoloBorders();updateSolo();
+  q('#solo-mode').addEventListener('click',()=>showMode('solo'));q('#relay-mode').addEventListener('click',()=>showMode('relay'));q('#solo-play').addEventListener('click',soloPlay);
+  q('#solo-uncertain .last-heard').addEventListener('click',()=>{const heard=observations[direction][0];soundCycle(`Cycle lancé au dernier point entendu — ${heard.pas} pas. Le seuil incertain n’est pas reproduit.`)});
+  qa('.choose-silence').forEach(b=>b.addEventListener('click',()=>chooseSilence()));qa('.stop-now').forEach(b=>b.addEventListener('click',()=>{stopAudio();const target=q('#relay').hidden?'#status':'#relay-status';q(target).textContent='Arrêt demandé. Silence immédiat.'}));
+  q('#leave-direction').addEventListener('click',leaveDirection);q('#relay-last-heard').addEventListener('click',uncertainHeard);q('#relay-silence').addEventListener('click',uncertainSilence);
+  q('#reverse').addEventListener('click',resetRelay);q('#restart-solo').addEventListener('click',()=>showMode('solo'));q('#leave').addEventListener('click',()=>{stopAudio();q('#solo').hidden=true;q('#relay').hidden=true;q('#departed').hidden=false});
+</script>
+</body>
+</html>

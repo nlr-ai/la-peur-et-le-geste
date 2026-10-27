@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime_worker.py", line 62, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime_worker.py", line 23, in main
+    rep = runtime.appeler(**charge["appel"])
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 793, in appeler
+    resultat = _appel_codex(
+        manuel, message, session_id, modele, effort, timeout, cwd,
+        add_dirs, reprendre, environnement, on_event, on_stderr,
+        heartbeat, on_heartbeat, service_tier=service_tier)
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 593, in _appel_codex
+    raise RuntimeError(("\n".join(erreurs) or
+                        "codex a quitte avec le code %d" % code)[-800:])
+RuntimeError: 2026-09-10T20:49:01.994924Z ERROR codex_core::session::session: failed to initialize thread persistence: thread-store conflict: thread 01a08cdc-b248-7b50-8b08-c60f27b42f24 already has an active writer
+2026-09-10T20:49:01.995051Z ERROR codex_core::session: Failed to create session: thread-store conflict: thread 01a08cdc-b248-7b50-8b08-c60f27b42f24 already has an active writer
+Error: thread/resume: thread/resume failed: thread 01a08cdc-b248-7b50-8b08-c60f27b42f24 already has an active writer (code -32600)

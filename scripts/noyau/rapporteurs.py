@@ -37,7 +37,9 @@ import time
 
 from etat.expose import tables  # LA PORTE de etat/ : une lecture, une ecriture, une semantique d'erreur
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import racines
+
+RACINE = racines.racine()
 FICHIER = os.path.join(RACINE, "etat", "rapporteurs.json")
 
 # Ce qu'on attend, et à quelle cadence EN JOURS RÉELS — pas en jours de jeu.

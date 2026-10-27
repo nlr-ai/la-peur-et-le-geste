@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La lisière respire — épreuve continue sur copie</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #07100f; color: #e1eee8; }
+    body { max-width: 1180px; margin: 0 auto; padding: 1.5rem; }
+    p, li { max-width: 82ch; line-height: 1.5; }
+    fieldset { border: 1px solid #527064; border-radius: .7rem; margin: 1rem 0; }
+    label, button { display: inline-block; margin: .35rem .8rem .35rem 0; padding: .55rem .75rem; border: 1px solid #78958a; border-radius: .45rem; color: inherit; background: #10231e; cursor: pointer; }
+    input { margin-right: .4rem; }
+    input[type="range"] { width: min(34rem, 90%); vertical-align: middle; }
+    .scene { border: 1px solid #527064; border-radius: 1rem; overflow: hidden; background: #13241f; }
+    svg { display: block; width: 100%; height: auto; }
+    .lisiere { opacity: 0; transition: opacity 400ms ease; }
+    body:has(#light:checked) .lisiere { opacity: .82; }
+    .light-on, .light-off { display: none; font-weight: 650; }
+    body:has(#light:checked) .light-on { display: inline; }
+    body:not(:has(#light:checked)) .light-off { display: inline; }
+    .result { padding: .8rem 1rem; border-left: .35rem solid #b79a67; background: #0d1a17; }
+    .result[data-pass="true"] { border-left-color: #75d8a5; }
+    .result[data-pass="false"] { border-left-color: #e08b72; }
+    .limits { border-left: .3rem solid #b79a67; padding-left: 1rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>La lisière respire — trajectoire continue sur copie</h1>
+    <p><strong>Canevas hypothétique :</strong> 12 × 8 m (1200 × 800 unités). <strong>Frontière bâtie dessinée :</strong> 10 × 6 m (de x=100 à 1100 et de y=100 à 700). L’échelle logique est 100 unités par mètre. Aucun de ces nombres ne mesure le Jardin calme.</p>
+    <p>Cette page locale ne capte, n’enregistre, n’identifie ni ne suit rien. Le disque mobile est une enveloppe géométrique de rayon 40 unités, pas une personne ni un usage réel.</p>
+
+    <fieldset>
+      <legend>Commandes de la copie</legend>
+      <label><input id="light" type="checkbox"> Allumer la lisière</label>
+      <button id="run" type="button">Parcourir entrée → retrait → sortie</button>
+      <label for="progress">Échantillon manuel</label>
+      <input id="progress" type="range" min="0" max="1000" value="0">
+    </fieldset>
+    <p>État lumineux : <span class="light-on">lisière allumée</span><span class="light-off">copie visuellement éteinte</span>. Position sur le trajet : <output id="position">0 %</output>.</p>
+    <div id="result" class="result" aria-live="polite">Calcul du trajet…</div>
+
+    <figure class="scene">
+      <svg id="plan" viewBox="0 0 1200 800" role="img" aria-labelledby="scene-title scene-desc">
+        <title id="scene-title">Copie abstraite avec trajet continu contrôlé</title>
+        <desc id="scene-desc">Un trajet part de l’entrée gauche, suit le passage, descend au centre d’une alcôve derrière un écran dégagé, revient au passage puis sort à droite. Une enveloppe de rayon quarante est testée contre les parois et la frontière de l’essai.</desc>
+        <defs>
+          <pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <line x1="0" y1="0" x2="0" y2="12" stroke="#557c6b" stroke-width="3"/>
+          </pattern>
+          <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0 0 L10 5 L0 10 Z" fill="#dce9e3"/>
+          </marker>
+          <marker id="dim-arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M10 0 L0 5 L10 10" fill="none" stroke="#c6b88c" stroke-width="1.5"/>
+          </marker>
+        </defs>
+
+        <rect width="1200" height="800" fill="#13241f"/>
+
+        <!-- Frontière bâtie 10 × 6 m, interrompue par entrée et sortie de 1,50 m. -->
+        <g class="wall" stroke="#aec4bb" stroke-width="12" fill="none" stroke-linecap="square">
+          <path d="M100 100 H1100 M100 700 H1100"/>
+          <path d="M100 100 V325 M100 475 V700"/>
+          <path d="M1100 100 V325 M1100 475 V700"/>
+        </g>
+        <g fill="#e1eee8" font-family="system-ui, sans-serif" font-size="19">
+          <text x="112" y="88">frontière bâtie hypothétique : 10 × 6 m</text>
+          <text x="18" y="390">entrée</text>
+          <text x="1110" y="390">sortie</text>
+        </g>
+
+        <!-- Frontière interdite de l'essai : le trajet et son enveloppe doivent rester dehors. -->
+        <path id="trial-boundary" d="M155 130 H720 V285 H155 Z" fill="url(#hatch)" fill-opacity=".22" stroke="#6a9d86" stroke-width="3" stroke-dasharray="12 10"/>
+        <text x="170" y="160" fill="#b9d9ca" font-family="system-ui, sans-serif" font-size="19">frontière de l’essai sur cette copie</text>
+        <path class="lisiere" id="lisiere-unique" d="M205 250 C225 205 290 176 370 170 C485 162 585 176 665 222" fill="none" stroke="#75d8a5" stroke-width="10" stroke-linecap="round"/>
+
+        <!-- Passage libre de 2 m. -->
+        <path d="M0 300 H1200 V500 H0 Z" fill="#091311" stroke="#527064" stroke-width="2"/>
+
+        <!-- Branche vers l'alcôve, 1,20 m. -->
+        <path d="M840 500 H960 V575 H840 Z" fill="#091311" stroke="#527064" stroke-width="2"/>
+
+        <!-- Alcôve corrigée : seuil 1,60 m ; écran à 100 unités du centre final. -->
+        <g class="wall" stroke="#aec4bb" stroke-width="12" fill="#07100f" stroke-linecap="square">
+          <path d="M740 540 V700 H1080 V540"/>
+          <path d="M740 540 H820 M980 540 H1080"/>
+          <path id="screen" d="M1000 585 V655"/>
+        </g>
+        <text x="1008" y="575" fill="#aebfb7" font-family="system-ui, sans-serif" font-size="18">écran</text>
+
+        <!-- Trajet complet : entrée, passage, alcôve, retour, sortie. -->
+        <polyline id="route" points="40,400 900,400 900,620 900,400 1160,400" fill="none" stroke="#dce9e3" stroke-width="4" stroke-dasharray="15 12" marker-end="url(#arrow)"/>
+
+        <!-- Cotes libres hypothétiques. -->
+        <g stroke="#c6b88c" stroke-width="2" fill="none" marker-start="url(#dim-arrow)" marker-end="url(#dim-arrow)">
+          <path d="M120 325 V475"/>
+          <path d="M300 305 V495"/>
+          <path d="M840 520 H960"/>
+          <path d="M820 560 H980"/>
+        </g>
+        <g fill="#e0d3a7" font-family="system-ui, sans-serif" font-size="18">
+          <text x="132" y="352">1,50 m libre</text>
+          <text x="310" y="332">2,00 m libres</text>
+          <text x="850" y="490">1,20 m libre</text>
+          <text x="830" y="532">seuil 1,60 m</text>
+        </g>
+
+        <!-- Enveloppe parcourant continûment la polyligne. -->
+        <g id="traveler" transform="translate(40 400)">
+          <circle r="40" fill="none" stroke="#d7c884" stroke-width="3" stroke-dasharray="7 5"/>
+          <circle r="30" fill="#d7c884" stroke="#fff4bd" stroke-width="3"/>
+          <path d="M0 0 H58" stroke="#fff4bd" stroke-width="4" marker-end="url(#arrow)"/>
+        </g>
+
+        <g transform="translate(145 750)" fill="#d7c884" stroke="#fff4bd">
+          <circle cx="30" cy="0" r="30" stroke-width="3"/>
+          <circle cx="30" cy="0" r="40" fill="none" stroke-dasharray="7 5"/>
+          <text x="85" y="7" fill="#e1eee8" stroke="none" font-family="system-ui, sans-serif" font-size="18">corps-gabarit 0,60 m ; enveloppe testée 0,80 m (rayon 40 unités)</text>
+        </g>
+      </svg>
+    </figure>
+
+    <ul>
+      <li>La trajectoire est échantillonnée tous les 5 unités contre les parois bâties, l’écran et la frontière hachurée de l’essai.</li>
+      <li>La garde est la plus petite distance entre le bord de l’enveloppe et le bord d’un obstacle, épaisseur du trait comprise.</li>
+      <li>Une garde négative produit un échec ; une garde positive ne vaut que pour cette géométrie abstraite.</li>
+    </ul>
+
+    <div class="limits">
+      <p><strong>Retour visuel de la copie :</strong> la commande masque le tracé lumineux ; il peut être comparé dans cette page avant et après.</p>
+      <p><strong>Arrêt technique :</strong> non prouvé. La page n’est reliée à aucun processus ni ressource de la cité.</p>
+      <p><strong>Retrait matériel :</strong> non essayé. Rien n’est installé au Jardin calme ni ailleurs.</p>
+    </div>
+  </main>
+
+  <script>
+    (() => {
+      const radius = 40;
+      const sampleStep = 5;
+      const routePoints = [[40, 400], [900, 400], [900, 620], [900, 400], [1160, 400]];
+      const walls = [
+        { name: 'paroi haute', a: [100,100], b: [1100,100], half: 6 },
+        { name: 'paroi basse', a: [100,700], b: [1100,700], half: 6 },
+        { name: 'paroi gauche haute', a: [100,100], b: [100,325], half: 6 },
+        { name: 'paroi gauche basse', a: [100,475], b: [100,700], half: 6 },
+        { name: 'paroi droite haute', a: [1100,100], b: [1100,325], half: 6 },
+        { name: 'paroi droite basse', a: [1100,475], b: [1100,700], half: 6 },
+        { name: 'alcôve gauche', a: [740,540], b: [740,700], half: 6 },
+        { name: 'alcôve basse', a: [740,700], b: [1080,700], half: 6 },
+        { name: 'alcôve droite', a: [1080,540], b: [1080,700], half: 6 },
+        { name: 'seuil gauche', a: [740,540], b: [820,540], half: 6 },
+        { name: 'seuil droit', a: [980,540], b: [1080,540], half: 6 },
+        { name: 'écran intérieur', a: [1000,585], b: [1000,655], half: 6 }
+      ];
+      const trial = { name: 'frontière hachurée de l’essai', left: 155, right: 720, top: 130, bottom: 285, half: 1.5 };
+
+      function pointSegmentDistance(p, a, b) {
+        const vx = b[0] - a[0], vy = b[1] - a[1];
+        const wx = p[0] - a[0], wy = p[1] - a[1];
+        const length2 = vx * vx + vy * vy;
+        const t = length2 === 0 ? 0 : Math.max(0, Math.min(1, (wx * vx + wy * vy) / length2));
+        return Math.hypot(p[0] - (a[0] + t * vx), p[1] - (a[1] + t * vy));
+      }
+
+      function forbiddenRectDistance(p, rect) {
+        const inside = p[0] >= rect.left && p[0] <= rect.right && p[1] >= rect.top && p[1] <= rect.bottom;
+        if (inside) {
+          const depth = Math.min(p[0] - rect.left, rect.right - p[0], p[1] - rect.top, rect.bottom - p[1]);
+          return -depth;
+        }
+        const dx = Math.max(rect.left - p[0], 0, p[0] - rect.right);
+        const dy = Math.max(rect.top - p[1], 0, p[1] - rect.bottom);
+        return Math.hypot(dx, dy);
+      }
+
+      const samples = [];
+      let totalLength = 0;
+      const segments = [];
+      for (let i = 0; i < routePoints.length - 1; i++) {
+        const a = routePoints[i], b = routePoints[i + 1];
+        const length = Math.hypot(b[0] - a[0], b[1] - a[1]);
+        segments.push({ a, b, start: totalLength, length });
+        totalLength += length;
+        const count = Math.ceil(length / sampleStep);
+        for (let j = 0; j <= count; j++) {
+          const t = j / count;
+          samples.push([a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t]);
+        }
+      }
+
+      let minimum = { guard: Infinity, obstacle: '', point: [0, 0] };
+      for (const point of samples) {
+        for (const wall of walls) {
+          const guard = pointSegmentDistance(point, wall.a, wall.b) - radius - wall.half;
+          if (guard < minimum.guard) minimum = { guard, obstacle: wall.name, point };
+        }
+        const trialGuard = forbiddenRectDistance(point, trial) - radius - trial.half;
+        if (trialGuard < minimum.guard) minimum = { guard: trialGuard, obstacle: trial.name, point };
+      }
+
+      const passed = minimum.guard >= 0;
+      const result = document.getElementById('result');
+      result.dataset.pass = String(passed);
+      result.textContent = `${passed ? 'RÉUSSITE SUR COPIE' : 'ÉCHEC SUR COPIE'} — ${samples.length} échantillons ; garde minimale ${minimum.guard.toFixed(1)} unités (${(minimum.guard / 100).toFixed(2)} m hypothétiques), contre ${minimum.obstacle}, près de (${minimum.point[0].toFixed(0)}, ${minimum.point[1].toFixed(0)}).`;
+
+      const traveler = document.getElementById('traveler');
+      const progress = document.getElementById('progress');
+      const position = document.getElementById('position');
+      let animation = 0;
+
+      function pointAt(fraction) {
+        const distance = Math.max(0, Math.min(1, fraction)) * totalLength;
+        const segment = segments.find((item) => distance <= item.start + item.length) || segments[segments.length - 1];
+        const t = segment.length ? Math.max(0, Math.min(1, (distance - segment.start) / segment.length)) : 0;
+        return [segment.a[0] + (segment.b[0] - segment.a[0]) * t, segment.a[1] + (segment.b[1] - segment.a[1]) * t];
+      }
+
+      function setPosition(value) {
+        const fraction = Number(value) / 1000;
+        const [x, y] = pointAt(fraction);
+        traveler.setAttribute('transform', `translate(${x} ${y})`);
+        progress.value = String(value);
+        position.value = `${Math.round(fraction * 100)} %`;
+      }
+
+      progress.addEventListener('input', () => {
+        cancelAnimationFrame(animation);
+        setPosition(progress.value);
+      });
+
+      document.getElementById('run').addEventListener('click', () => {
+        cancelAnimationFrame(animation);
+        const start = performance.now();
+        const duration = 6500;
+        const step = (now) => {
+          const fraction = Math.min(1, (now - start) / duration);
+          setPosition(Math.round(fraction * 1000));
+          if (fraction < 1) animation = requestAnimationFrame(step);
+        };
+        animation = requestAnimationFrame(step);
+      });
+
+      setPosition(0);
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+{
+  "nom": "Craigh na Dun",
+  "viewBox": "0 0 500 400",
+  "_": "Géographie locale de partie déjà établie dans implantation.md ; aucune liaison distante ajoutée.",
+  "mur": "",
+  "guet": [],
+  "fonds": [
+    {
+      "classe": "plan-roche",
+      "d": "M20,20 Q250,-10 480,60 L450,370 Q200,410 20,350 Z"
+    }
+  ],
+  "decor": [
+    {
+      "classe": "plan-arete",
+      "d": "M150,110 Q240,190 350,220 L350,310"
+    }
+  ],
+  "etiquettes": [],
+  "rose": [
+    445,
+    45,
+    15
+  ],
+  "salles": [
+    {
+      "id": "craigh-na-dun",
+      "nom": "Cercle de pierres",
+      "forme": {
+        "r": [
+          70,
+          45,
+          160,
+          85,
+          5
+        ]
+      },
+      "etiq": [
+        150.0,
+        65
+      ],
+      "lignes": [
+        "Cercle de",
+        "pierres"
+      ],
+      "quoi": "Point de départ des deux PJ.",
+      "cle": true,
+      "alias": [
+        "Cercle de pierres"
+      ],
+      "motifs": [
+        "cercle de pierres"
+      ],
+      "orne": [
+        "arbres",
+        150.0,
+        117,
+        7
+      ]
+    },
+    {
+      "id": "lisiere-craigh",
+      "nom": "Lisière sous les pierres",
+      "forme": {
+        "r": [
+          60,
+          190,
+          160,
+          75,
+          5
+        ]
+      },
+      "etiq": [
+        140.0,
+        210
+      ],
+      "lignes": [
+        "Lisière sous",
+        "les pierres"
+      ],
+      "quoi": "Sentier de partie : huit minutes depuis les pierres.",
+      "cle": true,
+      "alias": [
+        "Lisière sous les pierres"
+      ],
+      "motifs": [
+        "lisière sous les pierres"
+      ],
+      "orne": [
+        "arbres",
+        140.0,
+        252,
+        7
+      ]
+    },
+    {
+      "id": "croisee-craigh",
+      "nom": "Croisée du chemin",
+      "forme": {
+        "r": [
+          285,
+          190,
+          170,
+          75,
+          5
+        ]
+      },
+      "etiq": [
+        370.0,
+        210
+      ],
+      "lignes": [
+        "Croisée du",
+        "chemin"
+      ],
+      "quoi": "Sept minutes depuis la lisière.",
+      "cle": true,
+      "alias": [
+        "Croisée du chemin"
+      ],
+      "motifs": [
+        "croisée du chemin"
+      ],
+      "orne": [
+        "banc",
+        370.0,
+        252,
+        7
+      ]
+    },
+    {
+      "id": "ferme-du-ruisseau",
+      "nom": "Ferme du ruisseau",
+      "forme": {
+        "r": [
+          265,
+          305,
+          190,
+          75,
+          5
+        ]
+      },
+      "etiq": [
+        360.0,
+        325
+      ],
+      "lignes": [
+        "Ferme du",
+        "ruisseau"
+      ],
+      "quoi": "Douze minutes depuis la croisée ; occupants inconnus.",
+      "cle": true,
+      "alias": [
+        "Ferme du ruisseau"
+      ],
+      "motifs": [
+        "ferme du ruisseau"
+      ],
+      "orne": [
+        "toiles",
+        360.0,
+        367,
+        7
+      ]
+    }
+  ]
+}

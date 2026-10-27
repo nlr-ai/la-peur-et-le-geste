@@ -1,0 +1,25 @@
+{
+  "id": "outlander",
+  "nom": "Outlander — Aurore et Nicolas",
+  "calendrier": {
+    "lunes": 12,
+    "jours_par_lune": 30,
+    "dit": "%(jour)d / %(lune)d / %(annee)d",
+    "_": "Convention technique du moteur : douze mois de trente jours. Le cadre historique est grégorien ; les dates historiques citées dans le canon ne doivent pas être calculées avec cette approximation. La date précise de départ n'est pas encore fixée."
+  },
+  "monnaie": {
+    "unites": ["livre sterling", "livres sterling", "shilling", "shillings", "penny", "pence"]
+  },
+  "titres": [],
+  "unites": {},
+  "canaux": {
+    "oral": "de vive voix",
+    "cavalier": "par cavalier",
+    "rumeur": "par rumeur"
+  },
+  "offices": {},
+  "signes": {},
+  "depart": {
+    "lieu": "craigh-na-dun"
+  }
+}

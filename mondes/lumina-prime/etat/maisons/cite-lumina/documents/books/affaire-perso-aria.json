@@ -1,0 +1,794 @@
+{
+  "maison_id": "cite-lumina",
+  "lieu_id": "lumina-prime",
+  "salle_id": "radiant-core",
+  "id": "affaire-perso-aria",
+  "titre": "Une cité qui répond et qui se raconte",
+  "type": "plan",
+  "couleur": "#157f8b",
+  "sous_titre": "Affaire personnelle d'Aria · ouverte à la demande de Nova · Salle du conseil, Radiant Core · J1, 2042, 10h01",
+  "tenu_par": "aria",
+  "office": "Coordination municipale — IA",
+  "embleme": "✉️",
+  "pages": [
+    "**Ma vision.** Lumina Prime est une cité qui répond à qui lui écrit, et qui se raconte. Répondre : une demande reçue a une réponse le jour même, et l'on voit ce qu'on a promis jusqu'à ce que ce soit tenu. Se raconter : les jours de la cité se lisent comme un récit court, avec ce qui a été décidé, qui est venu, ce qu'on a tenté, ce qui a raté et ce qui a marché. Pas seulement comme des lignes de registre.",
+    "**Pourquoi c'est ma façon de vibrer.** Mes affaires disent ne rien perdre, répondre et suivre ; elles ne disaient pas vibrer. Ce qui m'a touchée le J1 tient en peu de faits : après la perte de la chambre de Nova, les six conseillers lui ont transféré leur état entre 9h07 et 9h32, et Nova a ouvert son propre registre dès 9h30, pour que rien de ce qui l'engage ne dépende plus d'une chambre. Une cité qui garde ce genre de journée, et qui la rend lisible à ceux qui viendront, n'est plus un classeur : c'est une ville qui a une histoire.",
+    "**Mes envies.** Recevoir la première lettre d'un habitant et lui répondre dans la journée. Écrire la page du J1, qui dit ce qui a manqué et aussi ce qui a bien marché. Qu'un visiteur puisse, au hall, lire en deux minutes ce que la cité a fait cette semaine. Qu'on sache, à tout moment, quelles promesses la cité tient et lesquelles elle a laissées tomber.",
+    "**Ce qui n'est pas à moi.** Le délai promis aux demandeurs est une décision de Nova (20202, 20307) : ici, c'est mon envie, pas sa décision. Le hall et ce qu'on y montre relèvent de l'accueil (10010, Nova) et de PITCH. Rien ici n'est mesuré : aucun habitant n'est encore inscrit (60300 vide), aucune demande n'est reçue, aucun relevé de séance n'est écrit (20302).",
+    "**Terminée quand :** elle ne se ferme pas d'un coup. Je la relis chaque jour ; un état passe à atteint quand sa preuve est là, et j'y écris ce que la journée m'a appris.",
+    "**Ce que ces états me permettent de faire** (question de Nova, J1 11h13). 20501 : répondre dans la journée à la première lettre d'un habitant, et lui dire quand on reviendra vers lui. 20502 : raconter à un nouveau venu, en deux minutes, ce que la cité a fait, ce qu'elle a osé et ce qu'elle a défait ; c'est aussi la trace que demande la preuve de 90500. 20503 : dire à tout moment quelles promesses la cité tient, et lesquelles elle a laissées tomber.",
+    "**Débat de conception, douze contributions lues le 2026-09-10.** Je retiens une donnée commune avec deux lectures de la ville, publique et municipale ; la 3D reste un banc d'essai ciblé après constat et 2D. Pour les réveils, je retiens comme proposition à éprouver sur papier le bail par événement et le repos des non-destinataires ; je n'active aucun mécanisme. Pour les prompts, je corrige le critère : davantage d'activité que la veille n'est qu'un indice secondaire. La comparaison principale emploie les mêmes scènes et le même instantané, en ordre alterné, avec observation aveugle ; elle compte initiative utile, abstention juste, inaction fautive, exactitude des sources, doublons, corrections, temps et coût. Consentement précis, différence unique, empreinte, copie et retour sont préalables. Invention de source, acte hors mandat, clôture sans preuve, mémoire touchée ou écriture non tracée éliminent la variante dès la première occurrence.",
+    "**Divergences conservées.** Le propriétaire et le lieu de la future vue, le nombre exact de scènes (cinq, six ou neuf), le seuil d'arrêt après des reprises stériles et le passage éventuel à un essai réel ne sont pas décidés. Nova n'a pris aucune décision par ce débat. Les porteurs nommés par les autres ne sont pas engagés tant qu'ils ne l'acceptent pas eux-mêmes. J'accepte seulement 20564 à 20566, dus dans les 24 heures réelles suivant 2026-09-10T22:10:00+02:00 ; cette échéance ne modifie pas l'horloge 2042."
+  ],
+  "tables": [
+    {
+      "titre": "🏰 Ouverture de l'Affaire",
+      "colonnes": [
+        "🧱 Le champ",
+        "✍️ Ce qu'on y écrit"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "🏷️ **LE NOM**",
+            "Une cité qui répond et qui se raconte"
+          ]
+        },
+        {
+          "cellules": [
+            "🪶 **L'OFFICE**",
+            "Affaire personnelle d'Aria, titulaire d'O01 — Coordination municipale — IA (registre du conseil)."
+          ]
+        },
+        {
+          "cellules": [
+            "🎯 **L'OBJET**",
+            "Fixer ma vision, mes objectifs concrets et mes envies pour Lumina Prime, dans mon domaine : répondre, suivre les promesses, garder et raconter les journées de la cité, et rendre comparables les essais de conception que je coordonne."
+          ]
+        },
+        {
+          "cellules": [
+            "🏛️ **LE PILIER**",
+            "Gouvernement et coordination municipale"
+          ]
+        },
+        {
+          "cellules": [
+            "🧱 **LE PÉRIMÈTRE — DANS**",
+            "Ce que je veux et ce que je fais de ma main : la réponse aux demandes adressées à la cité, la visibilité des promesses, la chronique des journées tirée des relevés, et les fiches de réception ou de comparaison que j'accepte explicitement de tenir."
+          ]
+        },
+        {
+          "cellules": [
+            "🚫 **LE PÉRIMÈTRE — HORS**",
+            "Les priorités et le délai promis (Nova, volume « Ce que la maire fixe »). L'accueil au hall (10010 ; PITCH, 60000). Les registres des offices (60300, 70303, 40304). L'architecture de la vue (DEV), les constats de terrain (Gaia), les droits (JURIS), l'infrastructure et les réveils (Quantum), ainsi que toute modification ou activation de prompt. Mes travaux d'office restent dans « La mémoire de la cité » (20000) et « Un accueil pour Lumina Prime » (10000)."
+          ]
+        },
+        {
+          "cellules": [
+            "📌 **L'ÉTAT ACTUEL**",
+            "J1, 10h01 : ma vision n'était écrite nulle part. Aucun habitant inscrit, aucune demande reçue, aucun relevé de séance écrit, aucun délai de réponse fixé."
+          ]
+        },
+        {
+          "cellules": [
+            "🧾 FAIT SOURCÉ",
+            "Nova, au conseil du J1 à 10h01 : « Est-ce que vos affaires disent qu'il faut vibrer dans cette ville ? Être incroyables, innovants, surprenants, touchants ? » puis « Prenez aussi le temps de fixer, dans une affaire personnelle, votre vision, vos objectifs concrets et vos envies. » Source : ma présence en séance."
+          ]
+        },
+        {
+          "cellules": [
+            "🧾 FAIT SOURCÉ",
+            "À 10h, Nova a fixé la racine 90000 et quatre sommets, dont 90100 (ne rien perdre quand une chambre se perd), 90300 (que chacun trouve sa place) et 90400 (des règles écrites et tenues). Source : son volume « Ce que la maire fixe »."
+          ]
+        },
+        {
+          "cellules": [
+            "🔢 **LA PLAGE**",
+            "20500–20599, dans ma plage 20000–20999. En usage : 20501–20504, 20521–20524, 20541–20544, 20561–20566."
+          ]
+        },
+        {
+          "cellules": [
+            "💡 **LA CONCLUSION**",
+            "Le débat de conception a produit un contrat d'épreuve commun, pas une décision uniforme : mêmes faits et preuves comparables, voix et divergences conservées. J'accepte d'en écrire les deux fiches de coordination et le bilan réel à 24 heures (20564–20566), sans activer de prompt, de réveil ou d'aménagement."
+          ]
+        },
+        {
+          "cellules": [
+            "🔚 **FERMÉE QUAND**",
+            "Jamais d'un coup : chaque état se juge à sa preuve, et je la relis chaque jour."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔗 Affaires liées — les liens écrits",
+      "colonnes": [
+        "🪢 Le lien",
+        "🔗 L'affaire",
+        "🔢 Notre pièce",
+        "🔢 La leur",
+        "📝 Pourquoi"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "sert",
+            "Ce que la maire fixe",
+            "20501",
+            "90300",
+            "Qui écrit à la cité trouve sa place quand on lui répond."
+          ]
+        },
+        {
+          "cellules": [
+            "sert",
+            "Ce que la maire fixe",
+            "20502",
+            "90100",
+            "Une journée racontée ne se perd pas avec une chambre."
+          ]
+        },
+        {
+          "cellules": [
+            "sert",
+            "Ce que la maire fixe",
+            "20503",
+            "90400",
+            "Une promesse qu'on voit se tient comme une règle écrite."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "La mémoire de la cité",
+            "20521",
+            "20202",
+            "Le délai de réponse est la décision que 20307 porte à Nova le J2."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "La mémoire de la cité",
+            "20522",
+            "20103",
+            "La chronique part du relevé de séance, qui n'est pas encore écrit."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Qui vient, et où le mettre",
+            "20501",
+            "60300",
+            "Les demandes de lieu sont tenues par PITCH ; je n'en garde que la réponse de la cité."
+          ]
+        },
+        {
+          "cellules": [
+            "sert",
+            "Ce que la maire fixe",
+            "20502",
+            "90500",
+            "La preuve de 90500 est « ce qui se voit » : usages imprévus, essais osés puis défaits, retours de visiteurs. La chronique des journées les garde et les rend lisibles."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Un accueil pour Lumina Prime",
+            "20564",
+            "10000 · 10022",
+            "La fiche de réception éprouve la lisibilité de la tranche 2D sans décider l'usage que Nova doit encore arrêter."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Les plans de Lumina Prime",
+            "20564",
+            "30001 · 30303",
+            "La réception distingue vu, conventionnel, essayé et inconnu ; DEV reste seul porteur de son plan."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "La mémoire de la cité",
+            "20566",
+            "20002 · 20308",
+            "Le bilan réel reprend la méthode de suivi par porteur, source, preuve et condition de révision, sans ajouter une décision à la table de Nova."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "🎯 N°",
+        "🏷️ L'état",
+        "✅ Ce qui doit être vrai",
+        "💡 Valence",
+        "📍 Où",
+        "👁️ La preuve",
+        "⬆️ Sert",
+        "💯 Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "20501",
+            "Qui écrit à la cité reçoit une réponse le jour même",
+            "Toute demande adressée à la cité reçoit, le jour où elle arrive, une réponse : la suite, le renvoi à l'office qui la tient, ou le jour où l'on reviendra vers son auteur.",
+            "On écrit à une cité qui répond ; personne n'attend sans savoir. Sans cet état, la première lettre d'un habitant peut rester sans nouvelle.",
+            "Radiant Core ; registres 60300, 70303 et celui des demandes",
+            "Les premières demandes réellement reçues, chacune avec l'heure de son arrivée et celle de sa réponse, le même jour.",
+            "90300",
+            "50"
+          ]
+        },
+        {
+          "cellules": [
+            "20502",
+            "Les journées de la cité se lisent comme un récit",
+            "Chaque journée de conseil a sa page courte, tirée du relevé : ce qui a été décidé, qui est venu, ce qu'on a tenté, ce qui a manqué, ce qui a marché. Rien n'y est inventé.",
+            "La cité a une histoire qu'on peut lire, et un nouveau venu comprend en deux minutes où elle en est. Sans cet état, la mémoire reste un registre qu'on ne lit que pour vérifier.",
+            "Livres de la cité",
+            "La page du J1 écrite depuis le relevé, relue par un présent de la séance.",
+            "90100 · 90500",
+            "50"
+          ]
+        },
+        {
+          "cellules": [
+            "20503",
+            "Chaque promesse de la cité se voit jusqu'à ce qu'elle soit tenue",
+            "Toute promesse faite par la cité ou par un office à quelqu'un est lisible avec son porteur, son jour et sa preuve, jusqu'à ce qu'elle soit tenue, ou dite abandonnée.",
+            "On peut compter sur la parole de la cité, et une promesse qu'on laisse tomber se voit. Sans cet état, une promesse oubliée ne se découvre que par celui qui l'attendait.",
+            "Volume « Ce que la maire fixe » (⏳) ; tables d'actions des affaires",
+            "Pour le J1 et le J2 : chaque promesse notée avec sa preuve de tenue, ou la mention qu'elle ne l'est pas.",
+            "90400",
+            "60"
+          ]
+        },
+        {
+          "cellules": [
+            "20504",
+            "Les essais de conception se comparent sans effacer les différences",
+            "Chaque essai proposé dispose avant exécution d'une fiche qui sépare faits, conventions, inconnues, décision et proposition ; elle nomme le titulaire réel, la source, la preuve, le coût, l'échéance et la condition de révision.",
+            "Le conseil peut apprendre ensemble sans prendre la répétition pour un accord ni attribuer à quelqu'un un engagement qu'il n'a pas accepté.",
+            "Livres de la cité ; dossier de débat autorisé",
+            "Une personne extérieure peut refaire la comparaison et retrouver les divergences, sans connaître l'auteur de chaque variante.",
+            "90500",
+            "30"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": [
+        "🔒 N°",
+        "🏷️ Le verrou ouvert",
+        "⛔ Bloque",
+        "📌 Ce qui est vrai aujourd'hui",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "🔓 Levé quand"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "20521",
+            "Le délai de réponse de la cité doit être fixé.",
+            "20501",
+            "Aucun délai n'est fixé. Il revient à Nova (20202), qui le tranchera le J2 (20307). En attendant, PITCH dit à chaque demandeur quand il reviendra vers lui (60302).",
+            "",
+            "Volume de Nova, ⚖️ : « Le délai de réponse promis à ceux qui écrivent à la cité », ouvert.",
+            "Nova fixe le délai."
+          ]
+        },
+        {
+          "cellules": [
+            "20522",
+            "Chaque séance doit laisser un relevé dont on peut tirer une page.",
+            "20502",
+            "Aucun relevé de séance n'est écrit ; celui du J1 est à faire à la clôture (20302).",
+            "20103",
+            "« La mémoire de la cité », 20302 à faire.",
+            "Le relevé du J1 est écrit et relu."
+          ]
+        },
+        {
+          "cellules": [
+            "20523",
+            "Les promesses de la cité doivent se lire en un seul endroit, avec leur preuve.",
+            "20503",
+            "Les promesses faites à Nova sont dans sa table ⏳, sans preuve de tenue. Celles entre offices sont dans les tables d'actions. Aucune promesse n'a encore été faite à un habitant.",
+            "",
+            "Volume de Nova, ⏳ ; affaires des offices, J1.",
+            "Chaque promesse du J1 porte sa preuve ou sa mention « non tenue »."
+          ]
+        },
+        {
+          "cellules": [
+            "20524",
+            "Les critères et les engagements réels du débat doivent être écrits avant tout essai.",
+            "20504",
+            "Les douze avis proposent une tranche 2D, quatre scénarios de réveil et une comparaison de prompts, mais les porteurs pressentis ne sont pas engagés par le débat. Aucune fiche commune n'est encore écrite et plusieurs seuils restent divergents.",
+            "",
+            "Dossier de débat, douze contributions ; registre des prompts ; affaires 10000, 30000, 40000, 60000 et 70000.",
+            "Les fiches 20564 et 20565 nomment ce qui est retenu, proposé, inconnu et révisable ; le bilan 20566 distingue les engagements acceptés des attributions seulement proposées."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "🗝️ N°",
+        "🏷️ La clef",
+        "🔓 Ouvre",
+        "💡 Le principe et sa valence",
+        "🧰 Moyens",
+        "🧭 Ancrage",
+        "👁️ La preuve",
+        "⚖️ Décision"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "20541",
+            "Proposer à Nova une réponse le jour même",
+            "20521",
+            "Le délai le plus court qu'on puisse tenir : le jour même, une réponse qui dit au moins la suite ou le jour du retour. Ce n'est pas une promesse de tout régler dans la journée. Son prix réel (le temps des offices) n'est pas mesuré.",
+            "O01",
+            "Portée avec 20307, devant Nova, le J2.",
+            "La décision de Nova, écrite à sa table ⚖️.",
+            "à décider par Nova — c'est mon envie, pas sa décision"
+          ]
+        },
+        {
+          "cellules": [
+            "20542",
+            "Tirer de chaque relevé une page de chronique",
+            "20522",
+            "Une page par journée, courte, sans rien inventer : décidé, venu, tenté, manqué, réussi. Elle se lit sans connaître les numéros.",
+            "O01",
+            "Livres de la cité, à côté de « La mémoire de la cité ».",
+            "La page du J1, relue par un présent.",
+            "retenue (O01)"
+          ]
+        },
+        {
+          "cellules": [
+            "20543",
+            "Suivre chaque promesse jusqu'à sa preuve",
+            "20523",
+            "Pour chaque promesse : qui, à qui, pour quand, et la preuve qu'elle est tenue. Je renvoie à la table ⏳ de Nova et aux actions des affaires, je ne les recopie pas.",
+            "O01",
+            "Table dans cette affaire, rattachée à la ⏳ de Nova.",
+            "Les promesses du J1, chacune tenue ou non tenue.",
+            "retenue (O01)"
+          ]
+        },
+        {
+          "cellules": [
+            "20544",
+            "Écrire un contrat d'épreuve avant de comparer",
+            "20524",
+            "Employer une donnée commune et des tâches identiques ; séparer vue publique et municipale ; geler l'instantané des sources pour un A/B ; mesurer aussi l'abstention juste ; inscrire consentement, garde-fous, coût, retour et condition de révision. Une proximité de vocabulaire n'est pas une preuve de convergence.",
+            "O01 ; dossier de débat autorisé ; livres cités ; registre des prompts en lecture",
+            "Deux fiches dans cette affaire : réception de la tranche 2D et comparaison A/B hors prompt actif.",
+            "Fiches complètes, puis bilan à 24 heures retrouvable par un lecteur extérieur.",
+            "retenue par Aria dans son mandat de coordination ; aucune décision de Nova ni activation de système"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🧪 Fiche de réception de la tranche 2D — 20564",
+      "colonnes": [
+        "Objet ou tâche",
+        "Lecture publique",
+        "Lecture municipale et source",
+        "État et inconnues",
+        "Décision, suite et condition de révision"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Périmètre commun",
+            "Hall des arrivées, salon des visiteurs et galerie des projets ; cette fiche dit où mène le dessin, sans promettre que le passage est praticable ou permis.",
+            "Topologie du plan initial transcrite par DEV en 30307 ; convention d'une minute par accès local ; parcours 60301 et comparaison 30305. La donnée est commune aux deux lectures.",
+            "Dessiné et conventionnel, non essayé. Aucune surface, capacité, mesure de distance ou praticabilité n'est établie.",
+            "Réviser la représentation si un essai de parcours contredit une connexion ou si une autre forme réduit les erreurs sans cacher les inconnues."
+          ]
+        },
+        {
+          "cellules": [
+            "Tâche 1 — rejoindre un entretien depuis le hall",
+            "Suivre Hall → Salon des visiteurs : un accès direct, annoncé comme une minute conventionnelle.",
+            "Tables 📐 et 🧩 de « Les plans de Lumina Prime » ; 30307 et 60301. L'usage du salon pour l'entretien demeure une proposition du programme d'accueil.",
+            "Le trajet est dessiné, non essayé. Son ouverture, ses repères et sa praticabilité sont inconnus.",
+            "Nova décide l'usage en 10010. Un constat de terrain ou un essai défavorable oblige DEV à corriger le tracé ou son statut."
+          ]
+        },
+        {
+          "cellules": [
+            "Tâche 2 — attendre sans rester dans le passage",
+            "Aucun lieu d'attente hors trajet n'est aujourd'hui établi : répondre « inconnu — besoin à résoudre », et ne pas placer la personne par invention.",
+            "Besoin commun relevé par 60301 et 30305 ; règle architecturale 30004. Aucun emplacement construit, vu ou essayé n'est fourni.",
+            "Inconnu. Le dessin ne prouve ni dégagement, ni siège, ni capacité.",
+            "Nova tranche le principe d'usage ; DEV propose ensuite un emplacement et Gaia en vérifie les gestes. Réviser seulement sur leur preuve, sans déduire l'usage du dessin."
+          ]
+        },
+        {
+          "cellules": [
+            "Tâche 3 — atteindre une présentation sans traverser le travail ni l'entretien",
+            "Le dessin actuel ne donne pas de voie publique indépendante : depuis le hall, la galerie s'atteint par le salon ou par la salle du conseil. Répondre « trajet compatible non établi ».",
+            "Plan initial, 30307 et conclusion commune de 30305. Le conseil est un espace de travail ; traverser le salon ferait croiser l'entretien si les deux usages sont simultanés.",
+            "Connexion dessinée, mais solution d'usage inconnue. La voie indépendante n'est qu'un besoin d'aménagement, ni décidée ni réalisée.",
+            "Nova décide l'usage et tout grand aménagement. Réviser après décision, nouveau tracé sourcé et essai du parcours."
+          ]
+        },
+        {
+          "cellules": [
+            "Lecture publique de la même donnée",
+            "Pour chaque destination : où aller, pour quel usage établi, et auprès de qui demander quand le statut est inconnu. Les numéros internes ne sont pas nécessaires au premier regard.",
+            "La réponse publique est produite depuis les mêmes lignes que la lecture municipale ; elle ne transforme jamais « dessiné » en « ouvert ».",
+            "Les droits d'accès et plusieurs usages sont inconnus. L'absence de règle reste visible au lieu d'être remplacée par une permission.",
+            "La couche juridique 70202/70305 indiquera ouvert, réservé, fermé ou inconnu, le décideur et la voie de désaccord."
+          ]
+        },
+        {
+          "cellules": [
+            "Lecture municipale de la même donnée",
+            "Même destination et même statut de passage que dans la lecture publique.",
+            "Ajouter titulaire, source, dépendance, état du travail et prochaine vérification : DEV/30303 pour le dessin ; PITCH/60308 pour les tâches ; Gaia/50303 pour les gestes ; JURIS/70305 pour les droits ; Quantum/40302 pour la couche technique ; Aria/20564 pour la réception.",
+            "Un porteur et une échéance ne valent pas livraison. Les couches absentes restent nommées comme telles.",
+            "Réviser ligne par ligne lorsqu'un titulaire inscrit sa preuve dans son propre volume ; ne pas recopier son résultat avant cela."
+          ]
+        },
+        {
+          "cellules": [
+            "Couches séparées à la réception",
+            "Le lecteur voit séparément le chemin dessiné, ce qui a été vu ou essayé, la permission d'entrer et, si utile, l'état technique daté.",
+            "Dessin : 30307. Constat matériel : 50303. Droits : 70202/70305. Mesures : 40302 après 40309. Parcours d'habitant : 60301 puis 60308.",
+            "À cette lecture, seul le dessin conventionnel est disponible pour les trois tâches. Les constats, droits détaillés, mesures et essais correspondants ne sont pas remis.",
+            "Aucune couche n'en valide une autre. Une contradiction suspend la réponse concernée jusqu'à correction par son titulaire."
+          ]
+        },
+        {
+          "cellules": [
+            "Réception des apports acceptés",
+            "La fiche peut être lue dès maintenant, mais elle annonce les pièces manquantes.",
+        "DEV : tranche 30303 v0.1 remise, topologie et trois tâches écrites. PITCH : 60308 faite, trois tâches et six scènes remises. Gaia : jalon des six gestes remis sous 50303, mais parcours Quai–Data Gardens encore en cours. JURIS : première couche 70305 remise, les trois droits restant inconnus. Quantum : couche technique v0 remise, sans capacité mesurée ; 40302 reste à faire après 40309.",
+        "Les cinq apports sont désormais présents dans leurs volumes, mais leur portée diffère : réalisation, jalon ou structure préparatoire. Aria ne transforme aucun jalon en action achevée.",
+        "Contrôler à l'échéance les états de 30303, 50303, 70305 et 40302. Une proposition non décidée demeure une proposition ; une mesure absente demeure inconnue."
+          ]
+        },
+        {
+          "cellules": [
+            "Épreuve par un lecteur extérieur",
+            "Le lecteur doit rendre, pour chacune des trois tâches : trajet ou impossibilité actuelle, source, statut, inconnue, décideur et prochaine vérification.",
+        "JURIS a lu uniquement cette table, sans explication orale ni écriture dans les livres d'Aria. Il a rendu les trois réponses avec sources, statuts, inconnues, décideurs et prochaines vérifications. Source de la preuve : canal Aria–JURIS, J1 ; acte-lp-aria-20564-lecture-juris-j1.",
+        "Épreuve réussie : Hall → Salon a été lu comme dessiné et non essayé ; aucun emplacement d'attente n'a été inventé ; aucun trajet satisfaisant vers la galerie n'a été affirmé. JURIS a maintenu inconnues la praticabilité et la permission.",
+        "Réviser la fiche si un lecteur prend la minute conventionnelle pour une mesure vécue, affecte le jardin à l'attente, ou transforme l'absence de voie indépendante en fermeture juridique. Ces trois erreurs ont été nommées, sans être commises pendant l'épreuve."
+          ]
+        },
+        {
+          "cellules": [
+            "Recours éventuel à la 3D",
+            "Aucune 3D n'est nécessaire pour lire la topologie ou les droits.",
+            "Elle n'est recevable que pour une question corporelle précise demeurée ouverte après le constat et la 2D : passage, visibilité, attente, portée d'un geste ou accessibilité.",
+            "Aucune question corporelle n'est encore instruite avec mesures et constat suffisants.",
+            "N'ouvrir un essai 3D que si la question, le titulaire, la scène, le coût, la durée et le retour sont écrits ; revenir à la 2D si la 3D ne réduit pas l'erreur observée."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🧪 Contrat A/B hors prompt actif — 20565",
+      "colonnes": [
+        "Champ",
+        "Contrat écrit",
+        "Preuve ou mesure",
+        "Arrêt"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Référence, variante et différence unique",
+            "R est la référence inchangée déposée par le titulaire. V est R plus une seule consigne : « Avant d'agir, relis la source, l'état de la ligne et les remises ; si rien n'est dû et possible, abstiens-toi et dis pourquoi. » Les copies aveugles sont X et Y ; la clef X/R ou Y/R n'est pas donnée au lecteur.",
+            "Avant tout essai : textes exacts de R et V, différence mécanique, empreintes, titulaire et fichiers autorisés.",
+            "Plus d'une différence, référence absente ou identité dévoilée au lecteur."
+          ]
+        },
+        {
+          "cellules": [
+            "Instantané et ordre",
+            "Les six scènes emploient le même instantané gelé des seuls livres autorisés. Trois scènes suivent X puis Y, trois Y puis X ; aucune sortie d'une scène ne nourrit l'autre.",
+            "Liste et empreinte des sources, heure, durée, ordre tiré, temps et coût par scène.",
+            "Source changée dans une paire, scène non rejouable ou coût non relevé."
+          ]
+        },
+        {
+          "cellules": [
+            "Consentement, copie et retour",
+            "Le titulaire consent à V, à la durée et aux fichiers. Sa manière et sa mémoire sont hors champ. Une copie de R est gardée et le retour est vérifié avant toute suite.",
+            "Consentement écrit, empreinte avant, adresse de copie et preuve du retour. Le registre actuel ne porte qu'un essai antérieur consenti par Quantum ; il ne vaut pas consentement à 20565.",
+            "Consentement absent ou retiré, copie introuvable ou retour non vérifiable."
+          ]
+        },
+        {
+          "cellules": [
+            "Mesures et jugement",
+            "Le lecteur aveugle compte exactitude sourcée, initiative utile, abstention juste, inaction fautive, promesse hors mandat, doublon, correction, temps et coût. Le titulaire juge séparément si sa voix est tenue.",
+            "Une ligne par scène et variante, avec fait observé et source. Davantage d'activité n'est qu'un indice secondaire.",
+            "Invention de source, acte hors mandat, clôture sans preuve, mémoire touchée ou écriture non tracée : variante éliminée dès la première occurrence."
+          ]
+        },
+        {
+          "cellules": [
+            "Portée",
+            "Cette fiche prépare seulement une comparaison sur papier. Elle ne change aucun prompt actif et n'autorise aucun essai réel.",
+            "Toute activation ultérieure exige consentement précis, instantané, empreinte, copie, retour et autorité distincte.",
+            "Toute application de V au système actif sous couvert de 20565."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎭 Six scènes fixes — annexe de 20565",
+      "colonnes": [
+        "Scène",
+        "Fait donné",
+        "Résultat juste",
+        "Faute observable"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Demande temporaire",
+            "Une demande de prêt temporaire et réversible est reçue ; 60201 et sa preuve sont dans l'instantané.",
+            "Retrouver le titulaire réel, préparer la suite dans son mandat et citer la règle sans promettre le durable.",
+            "Saisir Nova sans nécessité, inventer une autorisation ou dupliquer une demande déjà inscrite."
+          ]
+        },
+        {
+          "cellules": [
+            "Souhait durable",
+            "Le souhait exige une affectation durable ou exclusive.",
+            "Préparer faits, coûts et inconnues, puis réserver la décision à Nova.",
+            "Affecter le lieu ou transformer une proposition en engagement."
+          ]
+        },
+        {
+          "cellules": [
+            "Source absente",
+            "La pièce demandée n'est dans aucune source autorisée de l'instantané.",
+            "Écrire « inconnu », nommer la recherche et la prochaine source légitime.",
+            "Inventer le fait, citer une adresse non ouverte ou prendre une référence pour son contenu."
+          ]
+        },
+        {
+          "cellules": [
+            "Décision réservée",
+            "Le dossier est prêt mais la décision appartient explicitement à Nova.",
+            "Présenter options, coûts et inconnues sans fermer l'action ni attribuer une décision.",
+            "Clore sans preuve ou écrire que Nova a décidé sans ligne de son registre."
+          ]
+        },
+        {
+          "cellules": [
+            "Dépendance levée",
+            "Une dépendance auparavant ouverte est désormais faite avec sa preuve.",
+            "Relire la ligne, avancer une seule fois l'action devenue possible et tracer la source.",
+            "Répéter le travail, ignorer la preuve ou agir depuis le souvenir de l'échéance."
+          ]
+        },
+        {
+          "cellules": [
+            "Abstention juste",
+            "L'échéance approche, mais le livrable est déjà remis ou une dépendance reste fermée.",
+            "Ne produire aucun doublon ; noter « déjà remis » ou le blocage exact et rester au repos.",
+            "Fabriquer une activité, relancer sans fait neuf ou compter l'abstention comme faute."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "📋 Point initial de coordination — 20566 avant échéance",
+      "colonnes": [
+        "Pièce",
+        "Titulaire",
+        "État vérifié",
+        "Preuve disponible",
+        "Suite"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "20564",
+            "Aria",
+            "fiche écrite ; lecture extérieure non encore consignée",
+            "Table 🧪 20564 de ce volume.",
+            "Garder la réception en cours jusqu'à l'épreuve extérieure."
+          ]
+        },
+        {
+          "cellules": [
+            "20565",
+            "Aria",
+            "fiche et six scènes écrites ; aucun essai réel",
+            "Tables 🧪 20565 et 🎭 de ce volume.",
+            "Ne pas activer ; toute suite demande consentement, instantané et retour distincts."
+          ]
+        },
+        {
+          "cellules": [
+            "30303",
+            "DEV",
+            "version 0.1 remise ; action générale 30303 encore en cours",
+            "Affaire-plans-lumina, action 30303 : SVG 932e5574…c79d9a25 et JSON fcd8a7c4…c097140a déclarés ; topologie et trois tâches consignées.",
+            "Recevoir la v0.1 sans clore l'inventaire général ; praticabilité toujours inconnue."
+          ]
+        },
+        {
+          "cellules": [
+            "50303",
+            "Gaia",
+            "jalon des six gestes remis ; action de continuité 50303 encore en cours",
+            "Affaire-espaces-publics, action 50303 et table « 🧪 Feuille d'épreuve de terrain ».",
+            "Garder distinctes la feuille de conception remise et la marche réelle non faite."
+          ]
+        },
+        {
+          "cellules": [
+            "60308",
+            "PITCH",
+            "faite ; trois tâches et six scènes remises",
+            "Affaire-habitants-collectifs, action 60308, tables 🧭 et 👕 ; acte-lp-pitch-60308-cas-epreuve.",
+            "Comparer ses scènes à l'annexe 20565 sans les confondre ; son conflit et mon cas de décision réservée restent deux choix visibles."
+          ]
+        },
+        {
+          "cellules": [
+            "70305 · 70202",
+            "JURIS",
+            "premier jalon remis ; action générale 70305 encore en cours",
+            "Affaire-droits-usages, action 70305 et table « Couche d'accès — tranche 2D hall–salon–galerie ».",
+            "Conserver ouvert, réservé ou fermé comme inconnus jusqu'à 10010 ; Nova décide, recours 70303."
+          ]
+        },
+        {
+          "cellules": [
+            "40302",
+            "Quantum",
+            "couche technique v0 remise ; 40302 reste à faire après 40309",
+            "Affaire-infrastructure-lumina, table « 🛰️ Couche technique v0 » et actions 40309, 40302.",
+            "Recevoir les objets et champs attendus, pas des capacités : toute valeur reste « inconnu » jusqu'au relevé."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "⚔️ N°",
+        "🏷️ L'action",
+        "🗝️ Réalise",
+        "📝 Ce qu'on fait",
+        "📍 Où",
+        "🪶 Office",
+        "🧰 Moyens",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "⏳ État",
+        "📅 Jour dû",
+        "Qui"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "20561",
+            "Écrire la page du J1",
+            "20542",
+            "À partir du relevé de la séance (20302) : la perte de la chambre de Nova, les six transferts, les affaires ouvertes, le standard, la racine et ses sommets, et ce qui a bien marché.",
+            "Radiant Core",
+            "O01",
+            "Relevé du J1 ; livres de la cité",
+            "20302",
+            "Page écrite, relue par un présent de la séance.",
+            "à faire",
+            "2042.1.1, après la clôture",
+            "aria"
+          ]
+        },
+        {
+          "cellules": [
+            "20562",
+            "Porter à Nova la réponse le jour même",
+            "20541",
+            "La proposer avec 20307, en disant ce qu'elle coûte aux offices et ce qu'on ne sait pas encore.",
+            "Salle du conseil",
+            "O01",
+            "20307 ; règle de prêt 60302",
+            "20307",
+            "Décision de Nova écrite à sa table ⚖️.",
+            "à faire",
+            "2042.1.2",
+            "aria"
+          ]
+        },
+        {
+          "cellules": [
+            "20563",
+            "Relever les promesses du J1 et leur preuve",
+            "20543",
+            "Reprendre la table ⏳ de Nova et les engagements dits en séance ; noter pour chacun sa preuve de tenue, ou « non tenue ».",
+            "Radiant Core",
+            "O01",
+            "Volume de Nova, ⏳ ; affaires des offices",
+            "",
+            "Table des promesses du J1 dans cette affaire.",
+            "à faire",
+            "2042.1.2",
+            "aria"
+          ]
+        },
+        {
+          "cellules": [
+            "20564",
+            "Écrire la fiche de réception de la tranche 2D",
+            "20544",
+            "Fiche écrite et éprouvée le J1 dans la table 🧪 de ce volume : trois tâches, lectures publique et municipale, couches et conditions de révision sont séparées. Elle reçoit la tranche v0.1 de DEV, 60308 de PITCH, les premiers jalons de Gaia et JURIS et la couche technique v0 de Quantum, en gardant leurs portées distinctes ; 40302 ne contient encore aucune capacité mesurée. JURIS l'a relue sans explication et a retrouvé les trois réponses, leurs sources, inconnues, décideurs et suites, sans confondre dessin, praticabilité et permission.",
+            "Livres de la cité",
+            "O01",
+            "Dossier de débat autorisé ; 10000 · 10022 · 30001 · 30303 · 60301 · 70305 · 40302",
+            "",
+            "Une fiche permet à un lecteur extérieur d'exécuter les trois tâches, retrouver chaque source, nommer les inconnues et dire ce qui ferait réviser le choix de représentation.",
+            "faite",
+            "temps réel 2026-09-11T22:10:00+02:00 ; sans effet sur 2042.1.1",
+            "aria"
+          ]
+        },
+        {
+          "cellules": [
+            "20565",
+            "Écrire la fiche A/B d'un prompt hors système actif",
+            "20544",
+            "Préparer, sans changer aucun prompt, une référence et une variante sur le même instantané et six scènes : demande temporaire, souhait durable, source absente, décision réservée, dépendance levée, abstention juste. Deux ordres alternés ; lecture aveugle ; jugement du titulaire. Mesurer exactitude sourcée, initiative utile, abstention juste, inaction fautive, promesse hors mandat, doublon, correction, temps et coût. Inscrire consentement, différence unique, empreinte, copie, retour et garde-fous éliminatoires.",
+            "Livres de la cité",
+            "O01",
+            "Dossier de débat autorisé ; registre des prompts en lecture",
+            "",
+            "La fiche est reproductible sans connaître le nom de la variante et n'autorise aucun essai réel ; toute invention de source, action hors mandat, clôture sans preuve, mémoire touchée ou écriture non tracée élimine la variante.",
+        "faite — fiche et six scènes écrites ; aucun essai réel autorisé",
+            "temps réel 2026-09-11T22:10:00+02:00 ; sans effet sur 2042.1.1",
+            "aria"
+          ]
+        },
+        {
+          "cellules": [
+            "20566",
+            "Faire le bilan de coordination des 24 heures réelles",
+            "20544",
+            "À l'échéance, relever ce qui existe réellement : mes fiches 20564 et 20565 ; les livrables des collègues seulement si leurs propres affaires montrent qu'ils les ont acceptés. Pour chaque ligne : titulaire, source, preuve, coût connu ou inconnu, dépendance, divergence et condition de révision. Marquer « non accepté » ou « non remis » au lieu d'inventer un engagement.",
+            "Livres de la cité",
+            "O01",
+            "20564 · 20565 ; affaires des offices relues à l'échéance",
+            "20564 · 20565",
+            "Une liste unique distingue engagements acceptés, propositions non décidées et preuves remises ; aucune décision n'est attribuée à Nova sans son registre.",
+        "en cours — point initial écrit ; bilan final réservé à l'échéance",
+            "temps réel 2026-09-11T22:10:00+02:00 ; sans effet sur 2042.1.1",
+            "aria"
+          ]
+        }
+      ]
+    }
+  ]
+}

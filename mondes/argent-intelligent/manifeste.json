@@ -1,0 +1,23 @@
+{
+  "id": "argent-intelligent",
+  "nom": "Argent intelligent",
+  "calendrier": {
+    "lunes": 12,
+    "jours_par_lune": 30,
+    "dit": "Atelier %(annee)d · cycle %(lune)d · tour %(jour)d"
+  },
+  "monnaie": {
+    "unites": []
+  },
+  "titres": [],
+  "unites": {},
+  "canaux": {
+    "oral": "atelier de conception"
+  },
+  "offices": {},
+  "signes": {},
+  "depart": {
+    "lieu": "atelier-monetaire",
+    "siege": "usages"
+  }
+}

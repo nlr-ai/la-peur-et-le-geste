@@ -1,0 +1,204 @@
+{
+  "nom": "Préfecture — secrétariat général",
+  "viewBox": "0 0 1000 480",
+  "fonds": [],
+  "mur": "",
+  "guet": [],
+  "decor": [
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L490.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L780.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L210.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M780.0,152.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,312.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,312.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    }
+  ],
+  "etiquettes": [],
+  "salles": [
+    {
+      "id": "prefecture",
+      "nom": "Vestibule",
+      "forme": {
+        "r": [
+          80,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        148.5
+      ],
+      "lignes": [
+        "Vestibule"
+      ],
+      "cle": true,
+      "quoi": "Vestibule — Préfecture — secrétariat général.",
+      "motifs": [
+        "Vestibule, Préfecture — secrétariat général"
+      ],
+      "alias": []
+    },
+    {
+      "id": "prefecture-piece-2",
+      "nom": "Accueil du public",
+      "forme": {
+        "r": [
+          360,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        148.5
+      ],
+      "lignes": [
+        "Accueil du public"
+      ],
+      "cle": true,
+      "quoi": "Accueil du public — Préfecture — secrétariat général.",
+      "motifs": [
+        "Accueil du public, Préfecture — secrétariat général"
+      ],
+      "alias": []
+    },
+    {
+      "id": "prefecture-piece-3",
+      "nom": "Salle d’attente",
+      "forme": {
+        "r": [
+          640,
+          90,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        148.5
+      ],
+      "lignes": [
+        "Salle d’attente"
+      ],
+      "cle": true,
+      "quoi": "Salle d’attente — Préfecture — secrétariat général.",
+      "motifs": [
+        "Salle d’attente, Préfecture — secrétariat général"
+      ],
+      "alias": []
+    },
+    {
+      "id": "prefecture-piece-4",
+      "nom": "Secrétariat",
+      "forme": {
+        "r": [
+          80,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        308.5
+      ],
+      "lignes": [
+        "Secrétariat"
+      ],
+      "cle": true,
+      "quoi": "Secrétariat — Préfecture — secrétariat général.",
+      "motifs": [
+        "Secrétariat, Préfecture — secrétariat général"
+      ],
+      "alias": []
+    },
+    {
+      "id": "prefecture-piece-5",
+      "nom": "Bureau",
+      "forme": {
+        "r": [
+          360,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        308.5
+      ],
+      "lignes": [
+        "Bureau"
+      ],
+      "cle": true,
+      "quoi": "Bureau — Préfecture — secrétariat général.",
+      "motifs": [
+        "Bureau, Préfecture — secrétariat général"
+      ],
+      "alias": []
+    },
+    {
+      "id": "prefecture-piece-6",
+      "nom": "Archives",
+      "forme": {
+        "r": [
+          640,
+          250,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        308.5
+      ],
+      "lignes": [
+        "Archives"
+      ],
+      "cle": true,
+      "quoi": "Archives — Préfecture — secrétariat général.",
+      "motifs": [
+        "Archives, Préfecture — secrétariat général"
+      ],
+      "alias": []
+    }
+  ],
+  "_": "Plan de fiction canonique. Disposition schématique ; aucun relevé historique revendiqué."
+}

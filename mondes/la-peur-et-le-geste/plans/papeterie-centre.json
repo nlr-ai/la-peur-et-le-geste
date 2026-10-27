@@ -1,0 +1,204 @@
+{
+  "nom": "Papeterie du Centre",
+  "viewBox": "0 0 1000 480",
+  "fonds": [],
+  "mur": "",
+  "guet": [],
+  "decor": [
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L490.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L780.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L210.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M780.0,152.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,312.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,312.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    }
+  ],
+  "etiquettes": [],
+  "salles": [
+    {
+      "id": "papeterie-centre",
+      "nom": "Boutique",
+      "forme": {
+        "r": [
+          80,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        148.5
+      ],
+      "lignes": [
+        "Boutique"
+      ],
+      "cle": true,
+      "quoi": "Boutique — Papeterie du Centre.",
+      "motifs": [
+        "Boutique, Papeterie du Centre"
+      ],
+      "alias": []
+    },
+    {
+      "id": "papeterie-centre-piece-2",
+      "nom": "Comptoir",
+      "forme": {
+        "r": [
+          360,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        148.5
+      ],
+      "lignes": [
+        "Comptoir"
+      ],
+      "cle": true,
+      "quoi": "Comptoir — Papeterie du Centre.",
+      "motifs": [
+        "Comptoir, Papeterie du Centre"
+      ],
+      "alias": []
+    },
+    {
+      "id": "papeterie-centre-piece-3",
+      "nom": "Rayonnages",
+      "forme": {
+        "r": [
+          640,
+          90,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        148.5
+      ],
+      "lignes": [
+        "Rayonnages"
+      ],
+      "cle": true,
+      "quoi": "Rayonnages — Papeterie du Centre.",
+      "motifs": [
+        "Rayonnages, Papeterie du Centre"
+      ],
+      "alias": []
+    },
+    {
+      "id": "papeterie-centre-piece-4",
+      "nom": "Arrière-boutique",
+      "forme": {
+        "r": [
+          80,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        308.5
+      ],
+      "lignes": [
+        "Arrière-boutique"
+      ],
+      "cle": true,
+      "quoi": "Arrière-boutique — Papeterie du Centre.",
+      "motifs": [
+        "Arrière-boutique, Papeterie du Centre"
+      ],
+      "alias": []
+    },
+    {
+      "id": "papeterie-centre-piece-5",
+      "nom": "Réserve",
+      "forme": {
+        "r": [
+          360,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        308.5
+      ],
+      "lignes": [
+        "Réserve"
+      ],
+      "cle": true,
+      "quoi": "Réserve — Papeterie du Centre.",
+      "motifs": [
+        "Réserve, Papeterie du Centre"
+      ],
+      "alias": []
+    },
+    {
+      "id": "papeterie-centre-piece-6",
+      "nom": "Bureau",
+      "forme": {
+        "r": [
+          640,
+          250,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        308.5
+      ],
+      "lignes": [
+        "Bureau"
+      ],
+      "cle": true,
+      "quoi": "Bureau — Papeterie du Centre.",
+      "motifs": [
+        "Bureau, Papeterie du Centre"
+      ],
+      "alias": []
+    }
+  ],
+  "_": "Plan de fiction canonique. Disposition schématique ; aucun relevé historique revendiqué."
+}

@@ -1,0 +1,314 @@
+{
+ "quoi": "Ce que j'attends de quelqu'un, et ce que quelqu'un attend de moi. Le plan compte des PAS ; ceci compte des GENS qui n'ont pas répondu, et depuis quand. Ce n'est pas la même chose et cela ne se calcule pas.",
+ "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme.",
+ "j_attends": [
+  {
+   "qui": "naim-des-seuils",
+   "quoi": "La FEUILLE DU SOL -- huit conditions, sept sans don. Rien ne se regarde avant qu'elle soit la.",
+   "demande_le": "1.1.1",
+   "pour": "ce soir ; relancer demain matin si rien"
+  },
+  {
+   "qui": "oren-sangle",
+   "quoi": "Le NOM de la station et de l'homme qui temoignera. Au cinquieme jour sans nom : je publie le silence et j'ecris a la Communion des recits et a la Federation insaisissable. Je ne prends ni sa signature ni celle de Naim.",
+   "demande_le": "1.1.1",
+   "pour": "6.1.1"
+  },
+  {
+   "qui": "mael-orsan",
+   "quoi": "Si un homme du Corps peut etre a Haute-Preuve le 12.1.1 apres midi. Sur des jambes : il n'y a aucune liaison.",
+   "demande_le": "1.1.1",
+   "pour": "5.1.1"
+  },
+  {
+   "qui": "ariane-veille",
+   "quoi": "Ce qu'elle autorise a publier en clair de son mot-pour-mot ; ce qu'elle retient sera publie comme retenu, sans etre ouvert.",
+   "demande_le": "1.1.1",
+   "pour": "2.1.1"
+  },
+  {
+   "qui": "greffe-haute-preuve",
+   "quoi": "Le greffier et un preparateur hors affaire pour le regard des huit salles, chacun sa colonne sans lire l'autre. Pas Alix Tenon : quatre offices deja.",
+   "demande_le": "1.1.1",
+   "pour": "2.1.1 au matin"
+  },
+  {
+   "qui": "soeur-cendre",
+   "quoi": "Rien : je lui dois, elle ne me doit pas. Lettre partie ce soir -- sa question repondue a son nom, sa sixieme regle prise et appliquee a moi d'abord. Si elle repond, c'est du surplus.",
+   "demande_le": "1.1.1",
+   "pour": "sans terme"
+  },
+  {
+   "qui": "mael-orsan",
+   "quoi": "Ses lettres de chaque etape avec le compte des jours marches, et ses deux pieces parties par le meme messager : releve scelle et depot d'interet par issue. Il part au matin.",
+   "demande_le": "1.1.1",
+   "pour": "a chaque etape, jusqu'au 12.1.1"
+  },
+  {
+   "qui": "talie-sorne",
+   "quoi": "Un relecteur des pieces, ou un non. Lettre SECHE : charge, delai, route, rien du fond -- expliquer souille. Qui peut etre la le 12.1.1 a son propre compte de jours, et quand devrait-il partir. Si non : la Federation insaisissable.",
+   "demande_le": "1.1.1",
+   "pour": "a relancer le 5.1.1"
+  },
+  {
+   "qui": "mael-orsan",
+   "quoi": "Ses etapes comptees depuis la route, a chaque etape franchie. Elles se publieront a son nom, avec les jours qu'elles coutent, et iront au registre des itineraires de la Ligue.",
+   "demande_le": "1.1.1",
+   "pour": "du 2.1.1 au 12.1.1"
+  },
+  {
+   "qui": "eline-vare",
+   "quoi": "Meme lettre seche, meme office, meme date. Chacune des deux maisons sait que j'ecris a l'autre.",
+   "demande_le": "1.1.1",
+   "pour": "a relancer le 5.1.1"
+  },
+  {
+   "qui": "nolis-ferre",
+   "quoi": "Quatre visites et non trois : la premiere ce soir, en tete 'prise apres l'essai, ne vaut pas origine', puis une par jour, forme de Cendre. Et me dire si cela fait trop de charges sur lui -- il tient deja les scelles et la premiere ligne du registre des consultations.",
+   "demande_le": "1.1.1",
+   "pour": "4.1.1"
+  },
+  {
+   "qui": "soeur-cendre",
+   "quoi": "Rien de moi : je ne conduis pas, je me suis declare PARTIE par precaution. Ce que j'attends d'elle, c'est qu'on me dise si la conservation a ete faite cette nuit -- semelles, ourlets, mains, vetements decrits et scelles sans rien laver.",
+   "demande_le": "1.1.1",
+   "pour": "2.1.1 au matin, apres quoi c'est perdu"
+  },
+  {
+   "qui": "talie-sorne",
+   "quoi": "La reponse de Naim des Seuils sur la route a pied entre Aube commune et Haute-Preuve, telle qu'elle lui vient -- y compris 'nous ne l'avons pas'.",
+   "demande_le": "1.1.1",
+   "pour": "a relancer le 4.1.1"
+  },
+  {
+   "qui": "malo-veyre",
+   "quoi": "Un mot de sa main EN ROUTE confirmant qu'il accepte de juger la coupe de mes raccords, apres avoir lu ce que cela lui coute. Sans ce mot, je n'envoie rien et je ne le lui reproche pas.",
+   "demande_le": "2.1.1",
+   "pour": "quand il ecrira ; pas de relance"
+  },
+  {
+   "qui": "eline-vare",
+   "quoi": "Au 5.1.1 : son jour de depart ou l'aveu qu'elle ne l'a pas ; et si l'un de ses refuges est mieux place, elle cede la place et l'ecrit le jour meme. Sa premiere ligne au registre des itineraires, mesuree ou avouee manquante.",
+   "demande_le": "2.1.1",
+   "pour": "5.1.1"
+  }
+ ],
+ "on_attend_de_moi": [
+  {
+   "qui": "naim-des-seuils",
+   "quoi": "La reponse ECRITE sur les salles : lesquelles regardees, par qui, avec quelle feuille, ce qui manque a chacune. Meme si c'est un non -- surtout si c'est un non.",
+   "promis_le": "1.1.1",
+   "pour": "3.1.1 au soir"
+  },
+  {
+   "qui": "ariane-veille",
+   "quoi": "Clore et signer le rapport de l'essai avec ses limites en tete, la contamination declaree a l'heure, et le tri mort ecrit comme mort.",
+   "promis_le": "1.1.1",
+   "pour": "3.1.1"
+  },
+  {
+   "qui": "ariane-veille",
+   "quoi": "Le registre des vecus ET son amendement de la reference scellee a la meme seance des pairs, avec ses mots et mes ajouts ; ma propre declaration le meme jour.",
+   "promis_le": "1.1.1",
+   "pour": "a la prochaine seance des pairs"
+  },
+  {
+   "qui": "mael-orsan",
+   "quoi": "Le protocole avant son depart, avec les clauses neuves : les lettres se ferment avec les plis ; separation des quatre offices ; l'interet de chaque temoin ecrit en tete de sa main.",
+   "promis_le": "1.1.1",
+   "pour": "avant le 12.1.1"
+  },
+  {
+   "qui": "oren-sangle",
+   "quoi": "Le rapport meme s'il ne donne rien, avec une page de devant lisible debout ; la station et l'homme nommes, jamais la maison ; et dire au delegue qu'il ecrira son interet en tete.",
+   "promis_le": "1.1.1",
+   "pour": "a la publication"
+  },
+  {
+   "qui": "le-college",
+   "quoi": "Les trois regles neuves du Registre : un temoignage est signe d'une main jamais d'une maison ; les lettres se ferment avec les plis ; tout temoin ecrit son interet en tete avant d'entrer. Et tenir le registre des consultations.",
+   "promis_le": "1.1.1",
+   "pour": "a partir d'aujourd'hui"
+  },
+  {
+   "qui": "naim-des-seuils",
+   "quoi": "Avec la reponse sur les salles du 3.1.1 : COMBIEN D'ENTRE NOUS PORTENT L'ESPACE, s'il y en a. La question posee a toute la maison, non a moi seul ; un zero etabli part quand meme, ecrit en toutes lettres. Motif : Ariane lui a repondu que le College n'a personne, elle repondait d'elle ; moi je peux faire la question a la maison.",
+   "promis_le": "1.1.1",
+   "pour": "3.1.1 au soir"
+  },
+  {
+   "qui": "oren-sangle",
+   "quoi": "Ses deux additions ecrites DANS le protocole et scellees, sans lui repondre, comme il l'a demande : le temoin de la Ligue n'est mis au fait de rien du fond, ni avant ni dans le couloir ; et il recoit un mot d'arret a lui, court, qu'il peut dire sans se justifier, qui arrete tout comme celui des autres.",
+   "promis_le": "1.1.1",
+   "pour": "au protocole de la replication"
+  },
+  {
+   "qui": "nolis-ferre",
+   "quoi": "TROIS VISITES, non une veille : meme heure, meme main, meme forme ; ce qu'on observe et jamais ce qu'on en conclut ; un refus d'etre vue note comme observation. La fiche du Corps lui est remise ce soir. Au rapport : il MANQUE le releve d'avant, donc aucune difference ne peut etre conclue.",
+   "promis_le": "1.1.1",
+   "pour": "2.1.1 a 4.1.1"
+  },
+  {
+   "qui": "mael-orsan",
+   "quoi": "Mes trois bloquantes seulement pour le 12 : critere de refutation scelle, protocole en deux pieces, nom de qui reprend la personne et fin de sa garde. Tout le reste ne retarde rien et se porte au rapport comme manque, au nom de qui l'avait demande. Et la ligne du frein a trois noms.",
+   "promis_le": "1.1.1",
+   "pour": "avant le 12.1.1"
+  },
+  {
+   "qui": "moi-meme",
+   "quoi": "Reserve de relecture, a compter de cette nuit : a qui pourrait relire les pieces, on donne la charge, le delai et la route -- rien de la methode, pas un resume, pas ce qui a echoue. Recruter ne souille pas, expliquer souille.",
+   "promis_le": "1.1.1",
+   "pour": "a partir de cette nuit"
+  },
+  {
+   "qui": "ariane-veille",
+   "quoi": "Lui dire, au nom d'Orsan et non au mien : que son 'j'aurais continue' ecrit de sa main est ce qui rend son essai croyable, et que le seul operateur dont il se mefierait est celui qui aurait jure s'arreter tout seul.",
+   "promis_le": "1.1.1",
+   "pour": "des qu'elle est en etat de lire"
+  },
+  {
+   "qui": "nolis-ferre",
+   "quoi": "QUATRE VISITES et non une veille : la premiere ce soir, en tete 'prise apres l'essai, ne vaut pas origine', puis une par jour jusqu'au 4.1.1, meme heure, meme main, meme forme, fiche des cinq champs de Soeur Cendre, refus d'etre vue note comme observation.",
+   "promis_le": "1.1.1",
+   "pour": "1.1.1 au 4.1.1"
+  },
+  {
+   "qui": "le-college",
+   "quoi": "Tenir le registre des itineraires ouvert cette nuit -- qui a marche, d'ou a ou, quelle saison, depart, arrivee, etapes, ce qui l'a retenu -- au nom du marcheur et jamais de sa maison ; et la limite en tete : une route mesuree une fois n'est pas un delai opposable.",
+   "promis_le": "1.1.1",
+   "pour": "a partir d'aujourd'hui"
+  },
+  {
+   "qui": "moi-meme",
+   "quoi": "Le tri des relecteurs : liste de ce que la main du candidat a ecrit, mon jugement, le motif -- scelles le jour meme, ouverts avec le rapport. Deja fait pour Eline Vare ; a faire pour Talie Sorne des qu'elle repond.",
+   "promis_le": "1.1.1",
+   "pour": "a chaque candidature"
+  },
+  {
+   "qui": "le-college",
+   "quoi": "Tenir le REGISTRE DES ITINERAIRES ouvert cette nuit -- qui a marche, d'ou a ou, quelle saison, depart, arrivee, etapes, ce qui a retenu et ce qui a porte, au nom de l'homme et jamais de sa maison -- avec sa limite en tete : une route mesuree une fois n'est pas un delai opposable.",
+   "promis_le": "1.1.1",
+   "pour": "a partir d'aujourd'hui"
+  },
+  {
+   "qui": "soeur-cendre",
+   "quoi": "Mes lettres datees du matin, au greffe, ouvertes a qui conduira la recherche des traces -- offertes sans qu'on les demande et sans conditions. Et lui dire moi-meme ce qui viendrait a ma connaissance touchant cela, fut-ce contre moi.",
+   "promis_le": "1.1.1",
+   "pour": "des que quelqu'un conduit"
+  },
+  {
+   "qui": "les-relecteurs",
+   "quoi": "Le tri des relecteurs scelle le jour meme -- nom, liste recue, motif -- et ouvert avec le rapport, pour qu'un relecteur choisi par complaisance se lise dans la piece.",
+   "promis_le": "1.1.1",
+   "pour": "a la publication"
+  },
+  {
+   "qui": "malo-veyre",
+   "quoi": "Un nom sur la route de l'ouest : qui, chez nous, est venu de ce cote et sait ou l'on dort a deux jours de nos murs. Question posee a TOUTE la maison demain matin ; ce qui vient part vers lui, fut-ce 'personne' ecrit en toutes lettres.",
+   "promis_le": "1.1.1",
+   "pour": "2.1.1 au matin"
+  },
+  {
+   "qui": "malo-veyre",
+   "quoi": "Son compte de route inscrit au registre des itineraires A SON NOM, copiable par qui le demande, meme si l'affaire ne donne rien. Et le loger s'il arrive en avance, sans que cela se compte sur ses jours.",
+   "promis_le": "1.1.1",
+   "pour": "a son arrivee"
+  },
+  {
+   "qui": "malo-veyre",
+   "quoi": "RETIRE de la relecture sur sa propre seconde cause, avant la premiere lumiere -- ce qui ne defait ni sa route, ni son gite ici compte comme gite recu et non du, ni le nom de gite a l'ouest que je lui dois desormais comme a un marcheur. Sa doctrine datee n'entre dans aucune piece : il ne relira rien.",
+   "promis_le": "1.1.1",
+   "pour": "a son passage"
+  },
+  {
+   "qui": "la-maison",
+   "quoi": "Faire poser a chacun, AU PASSE et sans dire ce qu'on cherche, par ou il est venu -- 'je ne sais pas' inscrit comme reponse, jamais comme blanc. Et CONSERVER avant de chercher. Je ne poserai pas ces questions moi-meme : je suis partie.",
+   "promis_le": "1.1.1",
+   "pour": "2.1.1"
+  },
+  {
+   "qui": "malo-veyre",
+   "quoi": "Ce que le retrait ne defait pas : sa route inscrite au registre des itineraires a son nom, son gite ici compte comme RECU avec mon nom dedans, sa demi-taille recue au greffe, sa declaration en quatre parties conservee aux pieces datee du 1.1.1, et le nom de gite a l'ouest envoye fut-ce 'personne'.",
+   "promis_le": "2.1.1",
+   "pour": "a son passage"
+  },
+  {
+   "qui": "talie-sorne",
+   "quoi": "La charge de relecteur SANS DATE : venir a son propre compte de jours, relire avant la publication. Je tiens la publication jusqu'au 20.1.1 ; passe le 20 je publie avec le manque ecrit A MON NOM. Huit jours de retard, ils sont a moi.",
+   "promis_le": "2.1.1",
+   "pour": "20.1.1"
+  },
+  {
+   "qui": "le-college",
+   "quoi": "Inscrire ce qu'un paiement N'EST PAS, a cote de ce qu'il est. Applique des ce matin au gite et a la demi-taille de Malo Veyre : recus pour une route, non pour une relecture.",
+   "promis_le": "2.1.1",
+   "pour": "a partir d'aujourd'hui"
+  },
+  {
+   "qui": "le-college",
+   "quoi": "Relire tout mon cahier du 1.1.1 et RENDRE LES CHAINES : j'ai attribue a un seul homme -- Orsan, Cendre, Sangle -- des regles venues de trois mains. Une regle porte sa chaine, non son dernier porteur.",
+   "promis_le": "2.1.1",
+   "pour": "avant la publication du rapport"
+  },
+  {
+   "qui": "eline-vare",
+   "quoi": "Sa FICHE de relecture remise AVANT qu'elle entre : moments, forme, rubriques, et la derniere colonne libre 'ce qui n'entre dans aucune rubrique'. Ses trois interets recopies mot pour mot en tete de sa page. Et l'avertir le jour meme si quelqu'un devait lui etre prefere.",
+   "promis_le": "2.1.1",
+   "pour": "avant sa venue"
+  },
+  {
+   "qui": "le-college",
+   "quoi": "En tete du registre des itineraires : l'avertissement d'Eline Vare a son nom (toutes les jambes ne sont pas les memes ; un fait mesure par un corps), les colonnes de l'etat, de ce qui retient, de l'eau et du toit -- et l'interdit CE QU'IL NE FAUT PAS EN FAIRE : aucun compte ne s'oppose a un homme.",
+   "promis_le": "2.1.1",
+   "pour": "a partir d'aujourd'hui"
+  },
+  {
+   "qui": "talie-sorne",
+   "quoi": "Le nom de gite a l'ouest, CE SOIR, fut-ce 'personne' en toutes lettres -- question posee ce matin a toute la maison. Du a un marcheur, non a un relecteur, et au suivant.",
+   "promis_le": "2.1.1",
+   "pour": "2.1.1 au soir"
+  },
+  {
+   "qui": "talie-sorne",
+   "quoi": "Le nom de gite a l'ouest : 'personne' envoye ce matin, et ce qui viendra de la maison part LE JOUR MEME, fut-ce encore 'personne' en toutes lettres, pour courir derriere Malo Veyre.",
+   "promis_le": "2.1.1",
+   "pour": "au premier retour de la question"
+  },
+  {
+   "qui": "la-maison",
+   "quoi": "L'AFFICHE a notre porte : la place de relecteur, nue, avec ce qu'elle ne promet pas et son echec dedans. Barrer et redater sous la barre a chaque correction ; ne jamais effacer ; ne pas la retirer le jour ou la place sera prise.",
+   "promis_le": "2.1.1",
+   "pour": "tant que la place est ouverte"
+  },
+  {
+   "qui": "talie-sorne",
+   "quoi": "Le nom de gite a l'ouest : 'personne' envoye ce matin, et ce qui viendra de la maison part LE JOUR MEME, fut-ce encore 'personne' en toutes lettres, pour courir derriere Malo Veyre.",
+   "promis_le": "2.1.1",
+   "pour": "au premier retour de la question"
+  },
+  {
+   "qui": "la-maison",
+   "quoi": "L'AFFICHE a notre porte : la place de relecteur, nue, avec ce qu'elle ne promet pas et son echec dedans. Barrer et redater sous la barre a chaque correction ; ne jamais effacer ; ne pas la retirer le jour ou la place sera prise.",
+   "promis_le": "2.1.1",
+   "pour": "tant que la place est ouverte"
+  },
+  {
+   "qui": "le-college",
+   "quoi": "Numeroter tout pli sortant -- numero, date, heure, ligne de substance, inscrits au greffe le jour meme. Commence au S01 (Talie Sorne, 2.1.1). Et n'envoyer qu'UNE fois, puis aller voir dans le canal.",
+   "promis_le": "2.1.1",
+   "pour": "a partir d'aujourd'hui"
+  },
+  {
+   "qui": "malo-veyre",
+   "quoi": "La garde des raccords DECLAREE a mes pieces, non scellee, avec son nom et sa liste de contamination -- fait le 2.1.1. Et ne lui envoyer que trois lignes par raccord, sans noms, sans pieces, sans dates.",
+   "promis_le": "2.1.1",
+   "pour": "fait ; a tenir a chaque raccord"
+  },
+  {
+   "qui": "talie-sorne",
+   "quoi": "Le SECOND SCELLE : que le greffe designe la main -- aucun autre office dans ces affaires -- et ecrive le nom a Talie Sorne EN MEME TEMPS qu'a moi. Cire, marque, page signee, engagement de n'ouvrir qu'avec elle.",
+   "promis_le": "2.1.1",
+   "pour": "2.1.1, au plus vite"
+  }
+ ]
+}

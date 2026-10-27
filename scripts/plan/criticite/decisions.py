@@ -10,6 +10,8 @@ from plan.criticite.graphe import (CONJONCTIF, DISJONCTIF, amonts,
                                    atteignables)
 from plan.criticite.hommes import GLOSE
 
+import racines  # ce que le MONDE declare : ici, le nom de son or
+
 #
 # CE QU'ON CHERCHE ICI, ET POURQUOI CE N'EST PAS LA CRITICITE. Dans un plan
 # conjonctif entierement connexe, 95 % des pas portent la meme perte — et c'est
@@ -57,7 +59,26 @@ from plan.criticite.hommes import GLOSE
 #   au prix                12 bj contre 12   (elles coûtent exactement la même chose)
 # Un conseil qui choisit sur le compte des lignes choisit à l'envers.
 BRAS = re.compile(u"(\\d+(?:[.,]\\d+)?)\\s*(?:bras[-\\s]jours?|journ[ée]es?\\s+d.homme|j-h\\b)", re.I)
-DRAGONS = re.compile(u"(\\d+(?:[.,]\\d+)?)\\s*dragons?\\b", re.I)
+# L'OR DU MONDE (lot 4). « dragons » n'etait pas une unite de compte, c'etait
+# le nom d'une piece de Westeros grave dans le lecteur de prix ET dans la phrase
+# qui le rend. Le manifeste donne les deux formes, singulier d'abord — defaut :
+# ce qui etait ecrit ici hier, donc « 8 dragons » reste « 8 dragons ».
+#
+# SEULES LES DEUX PREMIERES UNITES COMPTENT, et c'est une decision : `monnaie`
+# est une ECHELLE (dragon, cerf, sol — 240 sols font un dragon), et un prix de
+# plan se lit dans la piece HAUTE. Sommer des cerfs avec des dragons rendrait un
+# total faux qui aurait l'air d'un compte, la faute que l'en-tete interdit.
+_MONNAIE = racines.dit("monnaie", {"unites": [u"dragon", u"dragons"]})
+_OR = list((_MONNAIE.get("unites") if isinstance(_MONNAIE, dict) else _MONNAIE)
+           or [u"dragon"])[:2] or [u"dragon"]
+# Le PLURIEL est ce qu'on ECRIT : un prix se compte, il ne se dit pas au
+# singulier. Un monde qui ne declare qu'une forme la sert dans les deux.
+PLURIEL_OR = _OR[-1]
+# Le plus long d'abord : « dragons » avant « dragon », sinon `\b` coupe au
+# singulier et le « s » reste dehors.
+DRAGONS = re.compile(u"(\\d+(?:[.,]\\d+)?)\\s*(?:%s)\\b"
+                     % u"|".join(re.escape(u) for u in sorted(_OR, key=len, reverse=True)),
+                     re.I)
 ENGAGE = re.compile(u"engag[ée]e?\\s*([JD][−\\-]\\s*\\d+)", re.I)
 
 
@@ -107,7 +128,7 @@ def dire_cout(c, n):
     if c["bj"]:
         bouts.append(u"%g bras-jours" % c["bj"])
     if c["or"]:
-        bouts.append(u"%g dragons" % c["or"])
+        bouts.append(u"%g %s" % (c["or"], PLURIEL_OR))
     if c["quand"]:
         bouts.append(u"dû %s" % c["quand"])
     if c["flou"]:

@@ -1,0 +1,631 @@
+{
+  "revision": 30,
+  "nodes": [
+    {
+      "id": "4830cab9-f220-459a-86ba-88b09935ee78",
+      "icon": "action-set_cover_business",
+      "x": 360,
+      "y": 72,
+      "label": "Ouvrir une enseigne",
+      "typedExpanded": true
+    },
+    {
+      "id": "9df91022-6241-4f57-b735-72e0ef2fc7bd",
+      "icon": "action-steal_stamps",
+      "x": 96,
+      "y": 96,
+      "label": "Récupérer des gabarits",
+      "typedExpanded": true
+    },
+    {
+      "id": "77f8c847-f64c-4af1-b85d-6fdff673bf07",
+      "icon": "action-get_stamps_inside",
+      "x": 528,
+      "y": 360,
+      "label": "Obtenir les gabarits du magasin",
+      "typedExpanded": true
+    },
+    {
+      "id": "f350e44e-6420-4fb3-ba24-89c225396c47",
+      "icon": "action-win_notable",
+      "x": 360,
+      "y": 264,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "prerequis",
+      "typedExpanded": true
+    },
+    {
+      "id": "99f04ace-ec53-429c-8e9a-274dd59c545b",
+      "icon": "action-forge_papers",
+      "x": 360,
+      "y": 456,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "prerequis",
+      "typedExpanded": true
+    },
+    {
+      "id": "5e1972ad-448c-4c3a-a7d0-bde4d1b9a04f",
+      "icon": "metier-leader",
+      "x": 360,
+      "y": 648,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "525347ae-0101-46e8-b264-9d78da7ea141",
+      "icon": "ressource-money",
+      "x": 360,
+      "y": 840,
+      "label": "",
+      "done": false,
+      "quantity": 20000,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "cc352f2b-7648-4f39-828d-be27645892ca",
+      "icon": "ressource-false_papers",
+      "x": 360,
+      "y": 1032,
+      "label": "",
+      "done": false,
+      "quantity": 5,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "143a9461-697a-4b7a-9a12-dd3a6b797c57",
+      "icon": "action-form_cell",
+      "x": 96,
+      "y": 672,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "prerequis",
+      "typedExpanded": true
+    },
+    {
+      "id": "a048c2f2-7ba4-4857-983a-318d595b8a5c",
+      "icon": "metier-fighter",
+      "x": 96,
+      "y": 864,
+      "label": "",
+      "done": false,
+      "quantity": 2,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "ada4e611-5379-44a3-a735-4a28f33c860b",
+      "icon": "ressource-stamps",
+      "x": 96,
+      "y": 1056,
+      "label": "",
+      "done": false,
+      "quantity": 3,
+      "relation": "produit",
+      "typedExpanded": true
+    },
+    {
+      "id": "898bec55-d513-40c4-b316-b57c1016c6b0",
+      "icon": "ressource-ration_cards",
+      "x": 96,
+      "y": 1248,
+      "label": "",
+      "done": false,
+      "quantity": 20,
+      "relation": "produit",
+      "typedExpanded": true
+    },
+    {
+      "id": "3b175e3e-cbb7-42bf-8306-bae0fc1e238f",
+      "icon": "action-win_notable",
+      "x": 720,
+      "y": 24,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "prerequis",
+      "typedExpanded": true
+    },
+    {
+      "id": "845342a5-c270-4c28-9fb6-c1c638a9f924",
+      "icon": "metier-informant",
+      "x": 720,
+      "y": 216,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "5aac89c8-117e-4e29-a531-e4f6516456ac",
+      "icon": "ressource-stamps",
+      "x": 720,
+      "y": 408,
+      "label": "",
+      "done": false,
+      "quantity": 2,
+      "relation": "produit",
+      "typedExpanded": true
+    },
+    {
+      "id": "9a418c12-5297-4847-9d6f-d78347b75797",
+      "icon": "ressource-ration_cards",
+      "x": 720,
+      "y": 600,
+      "label": "",
+      "done": false,
+      "quantity": 10,
+      "relation": "produit",
+      "typedExpanded": true
+    },
+    {
+      "id": "6a8a6f57-bac9-429c-aa97-714fa95bc236",
+      "icon": "action-liberate_town",
+      "x": 96,
+      "y": 312,
+      "label": "",
+      "typedExpanded": true
+    },
+    {
+      "id": "3e1dd8c3-b6fc-4053-b4d7-ff350eb893d3",
+      "icon": "action-ambush",
+      "x": 744,
+      "y": 792,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "prerequis",
+      "typedExpanded": true
+    },
+    {
+      "id": "c158f8f8-db61-46b9-a6ad-36eebaa4f1b8",
+      "icon": "action-win_notable",
+      "x": 744,
+      "y": 984,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "prerequis",
+      "typedExpanded": true
+    },
+    {
+      "id": "3e892250-458d-4798-93d6-629e7c3ecd6a",
+      "icon": "metier-leader",
+      "x": 744,
+      "y": 1176,
+      "label": "",
+      "done": false,
+      "quantity": 2,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "e2692755-110f-4c98-ab48-77841c4c9b36",
+      "icon": "metier-fighter",
+      "x": 960,
+      "y": 24,
+      "label": "",
+      "done": false,
+      "quantity": 60,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "9cf330a7-f504-4a2f-96ec-6753205e2194",
+      "icon": "munition",
+      "x": 960,
+      "y": 216,
+      "label": "",
+      "done": false,
+      "quantity": 20,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "10e4dda4-2770-4631-b5a9-6dbc224d387c",
+      "icon": "ressource-food",
+      "x": 960,
+      "y": 408,
+      "label": "",
+      "done": false,
+      "quantity": 500,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "0cea812d-746e-4fbe-b397-6aebe89c0093",
+      "icon": "action-ambush",
+      "x": 1080,
+      "y": 576,
+      "label": "",
+      "typedExpanded": true
+    },
+    {
+      "id": "832984a8-c5b7-4c1e-86f2-2016eb43c1a1",
+      "icon": "action-train_maquis",
+      "x": 1080,
+      "y": 768,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "prerequis",
+      "typedExpanded": true
+    },
+    {
+      "id": "c709dcb3-cc6e-46ff-9933-42ba7e142f88",
+      "icon": "metier-leader",
+      "x": 1080,
+      "y": 960,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "97535cb1-8a4b-40d3-a6bd-cfe39e3fd1c6",
+      "icon": "metier-fighter",
+      "x": 1080,
+      "y": 1152,
+      "label": "",
+      "done": false,
+      "quantity": 15,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "c4d3cf7b-1509-45e9-b1ae-f9e4782b7753",
+      "icon": "munition",
+      "x": 1296,
+      "y": 24,
+      "label": "",
+      "done": false,
+      "quantity": 4,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "2112ac1b-8bf8-4aa2-b10b-f8ee36a3e52c",
+      "icon": "ressource-explosives",
+      "x": 1296,
+      "y": 216,
+      "label": "",
+      "done": false,
+      "quantity": 5,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "90aea642-e425-4f96-ab2f-c2e15eb1fdb3",
+      "icon": "action-train_maquis",
+      "x": 1248,
+      "y": 768,
+      "label": "",
+      "typedExpanded": true
+    },
+    {
+      "id": "3afd9e7f-d39b-49d1-917f-63080e820692",
+      "icon": "action-found_maquis",
+      "x": 1464,
+      "y": 408,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "prerequis",
+      "typedExpanded": true
+    },
+    {
+      "id": "2305eb48-eeef-4c8d-b146-b43fdb48333f",
+      "icon": "action-receive_drop",
+      "x": 1464,
+      "y": 600,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "prerequis",
+      "typedExpanded": true
+    },
+    {
+      "id": "ff614bff-6b36-4a19-a665-5978ccdb713e",
+      "icon": "metier-leader",
+      "x": 1464,
+      "y": 792,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "7f2496e4-25e0-430c-a5ff-b3087f101a40",
+      "icon": "munition",
+      "x": 1464,
+      "y": 984,
+      "label": "",
+      "done": false,
+      "quantity": 2,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "7462a54a-b231-4e0e-8505-114f2dcc1bd5",
+      "icon": "ressource-food",
+      "x": 1464,
+      "y": 1176,
+      "label": "",
+      "done": false,
+      "quantity": 200,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "58f73935-5137-4070-b648-ba832b540939",
+      "icon": "action-plan_green",
+      "x": 1320,
+      "y": 1224,
+      "label": "",
+      "typedExpanded": true
+    },
+    {
+      "id": "86766710-20c6-42b5-a742-af642a1d8bf8",
+      "icon": "action-blow_rail",
+      "x": 1536,
+      "y": 24,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "prerequis",
+      "typedExpanded": true
+    },
+    {
+      "id": "dd94b920-9a4f-4f96-8181-741642e714f1",
+      "icon": "action-transmit",
+      "x": 1536,
+      "y": 216,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "prerequis",
+      "typedExpanded": true
+    },
+    {
+      "id": "930b0f11-c9c0-4820-8331-7f0851822978",
+      "icon": "metier-saboteur",
+      "x": 1752,
+      "y": 24,
+      "label": "",
+      "done": false,
+      "quantity": 6,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "efd67687-a82a-4351-aaac-b5fe65e0eac9",
+      "icon": "ressource-explosives",
+      "x": 1752,
+      "y": 216,
+      "label": "",
+      "done": false,
+      "quantity": 20,
+      "relation": "besoin",
+      "typedExpanded": true
+    },
+    {
+      "id": "1c1d4fe4-f97b-4352-83dd-2f89460ea75f",
+      "icon": "action-open_mailbox",
+      "x": 240,
+      "y": 144,
+      "label": "",
+      "typedExpanded": true
+    },
+    {
+      "id": "f821766c-c507-4374-a7fb-7a3836b7539b",
+      "icon": "action-induct",
+      "x": 1752,
+      "y": 408,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "prerequis",
+      "typedExpanded": true
+    },
+    {
+      "id": "3f6944d2-fc57-4ed3-9f5c-e8a8cb50569e",
+      "icon": "metier-host",
+      "x": 1752,
+      "y": 600,
+      "label": "",
+      "done": false,
+      "quantity": 1,
+      "relation": "besoin",
+      "typedExpanded": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "c3a085bb-717b-4d32-ae82-9efddc186e75",
+      "from": "f350e44e-6420-4fb3-ba24-89c225396c47",
+      "to": "4830cab9-f220-459a-86ba-88b09935ee78"
+    },
+    {
+      "id": "e3326ad1-6173-478a-94de-3cc0a214f70c",
+      "from": "99f04ace-ec53-429c-8e9a-274dd59c545b",
+      "to": "4830cab9-f220-459a-86ba-88b09935ee78"
+    },
+    {
+      "id": "a8371da3-a5fa-4250-8ee0-725d7c6d10ec",
+      "from": "5e1972ad-448c-4c3a-a7d0-bde4d1b9a04f",
+      "to": "4830cab9-f220-459a-86ba-88b09935ee78"
+    },
+    {
+      "id": "a44ad682-ffd1-4f55-be37-7e162432d7da",
+      "from": "525347ae-0101-46e8-b264-9d78da7ea141",
+      "to": "4830cab9-f220-459a-86ba-88b09935ee78"
+    },
+    {
+      "id": "061617f1-b0e2-495a-ac8f-7d667f7ccf64",
+      "from": "cc352f2b-7648-4f39-828d-be27645892ca",
+      "to": "4830cab9-f220-459a-86ba-88b09935ee78"
+    },
+    {
+      "id": "f76e8ad9-9c43-4e65-9946-9d67fb294061",
+      "from": "143a9461-697a-4b7a-9a12-dd3a6b797c57",
+      "to": "9df91022-6241-4f57-b735-72e0ef2fc7bd"
+    },
+    {
+      "id": "02c8fe2a-307d-4af2-82f7-116ae5a6c61c",
+      "from": "a048c2f2-7ba4-4857-983a-318d595b8a5c",
+      "to": "9df91022-6241-4f57-b735-72e0ef2fc7bd"
+    },
+    {
+      "id": "3faa518c-ff12-4b4c-bc94-a5116d0d59a7",
+      "from": "9df91022-6241-4f57-b735-72e0ef2fc7bd",
+      "to": "ada4e611-5379-44a3-a735-4a28f33c860b"
+    },
+    {
+      "id": "9f4c219b-d345-4fd6-b83a-0bc559c54304",
+      "from": "9df91022-6241-4f57-b735-72e0ef2fc7bd",
+      "to": "898bec55-d513-40c4-b316-b57c1016c6b0"
+    },
+    {
+      "id": "3bfe693b-8244-466c-a9e5-479a0d7d82de",
+      "from": "3b175e3e-cbb7-42bf-8306-bae0fc1e238f",
+      "to": "77f8c847-f64c-4af1-b85d-6fdff673bf07"
+    },
+    {
+      "id": "7404f894-07dc-4f5d-8ef8-45bfda8a4f3e",
+      "from": "845342a5-c270-4c28-9fb6-c1c638a9f924",
+      "to": "77f8c847-f64c-4af1-b85d-6fdff673bf07"
+    },
+    {
+      "id": "8b158aa1-8b52-4775-88ca-19419a04fb31",
+      "from": "77f8c847-f64c-4af1-b85d-6fdff673bf07",
+      "to": "5aac89c8-117e-4e29-a531-e4f6516456ac"
+    },
+    {
+      "id": "e54e7b74-783d-46f9-bedc-80069d7f0301",
+      "from": "77f8c847-f64c-4af1-b85d-6fdff673bf07",
+      "to": "9a418c12-5297-4847-9d6f-d78347b75797"
+    },
+    {
+      "id": "8ecc4753-03c3-4863-95a4-e0a839dc85ef",
+      "from": "3e1dd8c3-b6fc-4053-b4d7-ff350eb893d3",
+      "to": "6a8a6f57-bac9-429c-aa97-714fa95bc236"
+    },
+    {
+      "id": "b8a5f4ba-0ed6-42b8-9b92-89e326497eb0",
+      "from": "c158f8f8-db61-46b9-a6ad-36eebaa4f1b8",
+      "to": "6a8a6f57-bac9-429c-aa97-714fa95bc236"
+    },
+    {
+      "id": "563d0718-7aac-4518-9354-fce22b29b9e2",
+      "from": "3e892250-458d-4798-93d6-629e7c3ecd6a",
+      "to": "6a8a6f57-bac9-429c-aa97-714fa95bc236"
+    },
+    {
+      "id": "7b2744c2-ebb3-4e02-99b3-e6c6b50c8164",
+      "from": "e2692755-110f-4c98-ab48-77841c4c9b36",
+      "to": "6a8a6f57-bac9-429c-aa97-714fa95bc236"
+    },
+    {
+      "id": "5a55baac-f3be-48cc-887c-f5afeb4d513b",
+      "from": "9cf330a7-f504-4a2f-96ec-6753205e2194",
+      "to": "6a8a6f57-bac9-429c-aa97-714fa95bc236"
+    },
+    {
+      "id": "d9b2bf3c-f2a1-424a-ba27-05568f71f253",
+      "from": "10e4dda4-2770-4631-b5a9-6dbc224d387c",
+      "to": "6a8a6f57-bac9-429c-aa97-714fa95bc236"
+    },
+    {
+      "id": "e572068f-1e90-41ac-af2f-a68de9b2e9a2",
+      "from": "832984a8-c5b7-4c1e-86f2-2016eb43c1a1",
+      "to": "0cea812d-746e-4fbe-b397-6aebe89c0093"
+    },
+    {
+      "id": "950757cb-ff35-48c8-8df8-c157972d56d5",
+      "from": "c709dcb3-cc6e-46ff-9933-42ba7e142f88",
+      "to": "0cea812d-746e-4fbe-b397-6aebe89c0093"
+    },
+    {
+      "id": "e60779eb-29d3-414c-91a8-53304cd800c3",
+      "from": "97535cb1-8a4b-40d3-a6bd-cfe39e3fd1c6",
+      "to": "0cea812d-746e-4fbe-b397-6aebe89c0093"
+    },
+    {
+      "id": "b5fc25d3-680f-441f-b75f-18a90c5f9cad",
+      "from": "c4d3cf7b-1509-45e9-b1ae-f9e4782b7753",
+      "to": "0cea812d-746e-4fbe-b397-6aebe89c0093"
+    },
+    {
+      "id": "60e86f3e-99a7-40bf-a4a0-cfc01b8dcbc4",
+      "from": "2112ac1b-8bf8-4aa2-b10b-f8ee36a3e52c",
+      "to": "0cea812d-746e-4fbe-b397-6aebe89c0093"
+    },
+    {
+      "id": "9184fe7d-1d73-4653-a6f8-ddb8ea56226b",
+      "from": "3afd9e7f-d39b-49d1-917f-63080e820692",
+      "to": "90aea642-e425-4f96-ab2f-c2e15eb1fdb3"
+    },
+    {
+      "id": "8e130aa3-e4b0-4cb3-a89e-dbd2f5a0a9cf",
+      "from": "2305eb48-eeef-4c8d-b146-b43fdb48333f",
+      "to": "90aea642-e425-4f96-ab2f-c2e15eb1fdb3"
+    },
+    {
+      "id": "42c08d93-7f60-438f-b229-5386bc901e83",
+      "from": "ff614bff-6b36-4a19-a665-5978ccdb713e",
+      "to": "90aea642-e425-4f96-ab2f-c2e15eb1fdb3"
+    },
+    {
+      "id": "c778beb4-c2e8-4722-ad44-20532381cfc6",
+      "from": "7f2496e4-25e0-430c-a5ff-b3087f101a40",
+      "to": "90aea642-e425-4f96-ab2f-c2e15eb1fdb3"
+    },
+    {
+      "id": "2736ee67-6455-479b-a272-3b60f0cba339",
+      "from": "7462a54a-b231-4e0e-8505-114f2dcc1bd5",
+      "to": "90aea642-e425-4f96-ab2f-c2e15eb1fdb3"
+    },
+    {
+      "id": "d29fe251-ec21-4a51-a4de-cf7c0def8711",
+      "from": "86766710-20c6-42b5-a742-af642a1d8bf8",
+      "to": "58f73935-5137-4070-b648-ba832b540939"
+    },
+    {
+      "id": "845fc9c1-9775-4afc-87e0-38ce5d759ceb",
+      "from": "dd94b920-9a4f-4f96-8181-741642e714f1",
+      "to": "58f73935-5137-4070-b648-ba832b540939"
+    },
+    {
+      "id": "ff0dc16f-71f2-4857-80ec-64f56c7e2400",
+      "from": "930b0f11-c9c0-4820-8331-7f0851822978",
+      "to": "58f73935-5137-4070-b648-ba832b540939"
+    },
+    {
+      "id": "1d6e9d2d-7194-4aa6-9717-ad342c07d103",
+      "from": "efd67687-a82a-4351-aaac-b5fe65e0eac9",
+      "to": "58f73935-5137-4070-b648-ba832b540939"
+    },
+    {
+      "id": "62e77a35-e203-4426-857b-7bfdb92270b3",
+      "from": "f821766c-c507-4374-a7fb-7a3836b7539b",
+      "to": "1c1d4fe4-f97b-4352-83dd-2f89460ea75f"
+    },
+    {
+      "id": "ca7fe6eb-7a4c-44f1-a41f-21a08367f204",
+      "from": "3f6944d2-fc57-4ed3-9f5c-e8a8cb50569e",
+      "to": "1c1d4fe4-f97b-4352-83dd-2f89460ea75f"
+    }
+  ]
+}

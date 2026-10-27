@@ -1,7 +1,7 @@
 # La partie — le conseil de guerre joué contre quelqu'un
 
 Manuel du MJ. Ce document dit ce qu'est une partie, comment elle s'écrit, et
-comment elle s'applique au monde. Il ne remplace ni la Règle Zéro, ni le
+comment elle s'applique au monde. Il ne remplace ni l’incarnation directe des PNJ par le MJ, ni le
 brouillard, ni la discipline d'écriture d'état : il leur donne un amont. En cas
 de conflit avec `docs/schema.md`, le schéma a raison.
 

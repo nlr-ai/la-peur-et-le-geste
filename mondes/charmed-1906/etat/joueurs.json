@@ -26,5 +26,18 @@
   "lieu": "san-francisco",
   "depuis": 0,
   "note": "L'Être de lumière. Il tient les étages du bien — la maison, la ville, l'entre-deux, le Haut — et n'en commande aucun : il confie des mandats et vit avec ce qu'on en fait. Siège non alterné : Prudence reste un siège à part entière."
+ },
+ {
+  "personnage_id": "josiah-crewe",
+  "nom": "Crewe",
+  "jeton": "crewe-16072dfc",
+  "role": "second",
+  "pnj": [
+   "gideon-marsh"
+  ],
+  "occupe": true,
+  "lieu": "nob-hill",
+  "depuis": 0,
+  "note": "Le lieutenant de la Source pour la côte du Pacifique. Il tient le camp du mal et ne se bat pas lui-même : il envoie, il compte, il punit. Siège non alterné, comme celui de Thomas. `depuis` à 0 : un seuil plus haut rendrait publique la ligne 5 du flux, une réplique de Prudence sans audience."
  }
 ]

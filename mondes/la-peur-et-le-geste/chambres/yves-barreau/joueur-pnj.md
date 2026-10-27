@@ -1,0 +1,17 @@
+
+# Partie du joueur PNJ — 2026-10-22 16:56 — 2 tours, moteur
+
+
+## Tour 1
+
+- **agir** : Je commence par vérifier dans mon service les soins qui ne peuvent attendre et les personnes effectivement présentes pour les assurer, sans interrompre une intervention en cours. Je demande au personnel disponible de faire avec moi un point sur les places utilisables, le matériel et les fournitures nécessaires aux soins prévus aujourd’hui ; ce qui n’a pas été vérifié reste incertain. À partir de ce constat, je fixe les priorités médicales et cherche à répartir le travail selon les compétences et la fatigue constatées. Si un manque menace les soins, je demande une aide précise à l’interlocuteur compétent de l’établissement, en distinguant l’urgence immédiate du besoin pour l’après-midi. Si les effectifs paraissent insuffisants pour tenir la journée, je tente de joindre mes collègues Lucien Bouju ou Daniel Largeaud pour connaître leurs possibilités de relève, sans compter sur eux avant leur réponse. Je prévois de refaire le point dans l’après-midi ; si aucune aide n’est obtenue, j’adapte l’organisation médicale aux moyens confirmés et ne diffère que les soins dont le report me paraît médicalement acceptable.
+- *pourquoi* : Vérifier les capacités réelles du service et les besoins de relève pour assurer les soins du jour, sans retarder les urgences ni dépasser les prérogatives du médecin-chef.
+- ref `vmvjnz8lvxelq` · codex/gpt-6-astra
+
+## Tour 2
+
+- **agir** : Je maintiens pour le reste de la journée la répartition établie, puisqu’aucun soin examiné n’est signalé bloqué. Sans détourner le personnel des soins, je cherche à préciser avec un agent disponible ce que nous pourrions effectivement mobiliser si un nouveau malade arrivait ; si cette vérification gêne le travail, je la laisse en attente et tiens cette capacité pour inconnue. Je demande que toute nouvelle urgence ou difficulté matérielle me soit signalée afin que j’en apprécie les conséquences médicales. Si une admission se présente, j’évalue sa priorité et les moyens nécessaires avant de modifier l’organisation ; si un manque concret apparaît, je sollicite alors une aide précise auprès de l’interlocuteur compétent. Je ne sollicite pas de relève extérieure sans besoin constaté et poursuis les soins avec les moyens confirmés.
+- *pourquoi* : Le contrôle de 16 heures permet de poursuivre les soins prévus sans renfort. La suite doit préserver cette organisation et préciser, sans présumer des réserves, les possibilités médicales d’accueil imprévu.
+- ref `vmvjo230w87th` · codex/gpt-6-astra
+
+**Fin des 2 tours.**

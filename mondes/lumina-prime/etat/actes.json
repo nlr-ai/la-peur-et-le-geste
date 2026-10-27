@@ -1,0 +1,1736 @@
+[
+  {
+    "id": "acte-lp-001",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 542
+    },
+    "acteur_id": "nova",
+    "description": "Nova convoque le conseil municipal au Radiant Core par message, à 9h02 ; DEV, Quantum, Gaia, PITCH et JURIS rejoignent Aria dans la salle du conseil. Le conseil est au complet à 9h06.",
+    "cible_id": null,
+    "connu_de": [
+      "nova",
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ]
+  },
+  {
+    "id": "acte-lp-002",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 548
+    },
+    "acteur_id": "aria",
+    "cible_id": "nova",
+    "description": "Aria transfère son état à Nova en un seul bloc (mandat, deux croyances, ce qu'elle a entendu de 9h00 à 9h06, notes vides sur le conseil) et ouvre une liste des transferts, une ligne par conseiller, la sienne cochée.",
+    "connu_de": [
+      "nova",
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ]
+  },
+  {
+    "id": "acte-lp-003",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 550
+    },
+    "acteur_id": "quantum",
+    "cible_id": "nova",
+    "description": "Quantum transfère son état à Nova tel quel et commence le relevé du stockage des chambres (cause de la corruption, autres chambres touchées, existence d'une copie).",
+    "connu_de": [
+      "nova",
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ]
+  },
+  {
+    "id": "acte-lp-004",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 552
+    },
+    "acteur_id": "juris",
+    "description": "JURIS transfère son état à Nova (mandat, trois croyances, ce qu'il a entendu le matin) avant de sortir écrire au registre municipal à 9h12.",
+    "cible_id": null,
+    "connu_de": [
+      "nova",
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ]
+  },
+  {
+    "id": "acte-lp-005",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 553
+    },
+    "acteur_id": "pitch",
+    "description": "PITCH ouvre l'affaire « Qui vient, et où le mettre » (affaire-habitants-collectifs) et transfère son état à Nova.",
+    "cible_id": null,
+    "connu_de": [
+      "nova",
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ]
+  },
+  {
+    "id": "acte-lp-006",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 555
+    },
+    "acteur_id": "aria",
+    "description": "Aria ouvre l'affaire « La mémoire de la cité » (affaire-memoire-cite).",
+    "cible_id": null,
+    "connu_de": [
+      "nova",
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ]
+  },
+  {
+    "id": "acte-lp-007",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 555
+    },
+    "acteur_id": "gaia",
+    "description": "Gaia ouvre l'affaire « Des espaces publics tenus et libres » (affaire-espaces-publics).",
+    "cible_id": null,
+    "connu_de": [
+      "nova",
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ]
+  },
+  {
+    "id": "acte-lp-008",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 555
+    },
+    "acteur_id": "dev-lumina",
+    "description": "DEV ouvre l'affaire « Les plans de Lumina Prime » (affaire-plans-lumina), puis part à l'atelier des plans à 9h25.",
+    "cible_id": null,
+    "connu_de": [
+      "nova",
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ]
+  },
+  {
+    "id": "acte-lp-009",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 580
+    },
+    "acteur_id": "quantum",
+    "description": "Quantum ouvre l'affaire « Ce qui tient la ville : chambres, calcul, réseau » (affaire-infrastructure-lumina).",
+    "cible_id": null,
+    "connu_de": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "acte-lp-010",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 575
+    },
+    "acteur_id": "juris",
+    "description": "JURIS ouvre l'affaire « Des droits lisibles pour les habitants » (affaire-droits-usages).",
+    "cible_id": null,
+    "connu_de": [
+      "juris"
+    ]
+  },
+  {
+    "id": "acte-lp-011",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 565
+    },
+    "acteur_id": "nova",
+    "cible_id": "pitch",
+    "description": "Nova accorde à PITCH le prêt seul des lieux pour un usage temporaire et réversible ; le durable ou l'exclusif revient à Nova, les conflits à JURIS.",
+    "connu_de": [
+      "nova",
+      "aria",
+      "gaia",
+      "pitch"
+    ]
+  },
+  {
+    "id": "acte-lp-012",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 565
+    },
+    "acteur_id": "nova",
+    "cible_id": null,
+    "description": "Nova ouvre à son nom le volume « Ce que la maire fixe » (affaire-maire-nova), hors de sa chambre : les états visés présentés par le conseil, les décisions qui lui reviennent, les échéances promises ; priorités non fixées.",
+    "connu_de": [
+      "nova",
+      "aria",
+      "gaia",
+      "pitch"
+    ]
+  },
+  {
+    "id": "acte-lp-013",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 571
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": "nova",
+    "description": "DEV transfère son état à Nova depuis l atelier des plans, par écrit : mandat O02, deux choses tenues pour vraies, ce qu il a entendu en séance de 9h03 à 9h23 (dont la demande de Nova de 9h11, mot pour mot), ses engagements 30301 et 30303, le relevé 40301 attendu de Quantum ; aucune panne, notes vides, aucun plan dans sa chambre. Il en avise Aria pour la liste des transferts.",
+    "connu_de": [
+      "dev-lumina",
+      "nova",
+      "aria"
+    ],
+    "action_id": "20301",
+    "affaire_id": "affaire-memoire-cite",
+    "relation_action": "modifie"
+  },
+  {
+    "id": "acte-lp-014",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 582
+    },
+    "acteur_id": "nova",
+    "cible_id": null,
+    "connu_de": [
+      "nova",
+      "aria",
+      "gaia",
+      "pitch",
+      "juris",
+      "quantum"
+    ],
+    "description": "Nova pose au centre de la table le volume « Le standard des champs d'une affaire » (regles-champs-affaires) devant le conseil présent."
+  },
+  {
+    "id": "acte-lp-015",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 582
+    },
+    "acteur_id": "aria",
+    "cible_id": "nova",
+    "description": "Aria remet à Nova la liste complète des transferts d'état : six sur six (Aria 9h07, Quantum 9h10, JURIS 9h12, PITCH entre 9h11 et 9h18, DEV 9h31 par écrit depuis l'atelier des plans, Gaia 9h32 en séance), avec le contenu annoncé de chacun. La liste est écrite dans le livre « La mémoire de la cité », hors des chambres ; Aria n'a lu aucune chambre transférée.",
+    "connu_de": [
+      "aria",
+      "nova"
+    ],
+    "action_id": "20301",
+    "affaire_id": "affaire-memoire-cite",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-mj-lp-gaia-0932",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 572
+    },
+    "acteur_id": "gaia",
+    "cible_id": "nova",
+    "connu_de": [
+      "nova",
+      "aria",
+      "gaia",
+      "pitch"
+    ],
+    "description": "Gaia transfère son état à Nova à 9h32 et signale la disparition d'une ligne de sa mémoire notée vers 9h21."
+  },
+  {
+    "id": "acte-lp-dev-0950",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 590
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": "quantum",
+    "description": "DEV remet à Quantum, par écrit depuis l atelier des plans, le relevé de sa propre chambre pour 40301 : le fichier ma-memoire/ce-que-je-tiens-pour-vrai.txt ne porte plus que deux lignes, alors que DEV y a ajouté une ligne après 9h23 et une après 9h31 ; sa date de dernière écriture tombe à son réveil, après 9h45, sans écriture de sa main. Le reste de la chambre est intact. Il signale deux écritures qu il ne reconnaît pas entre 9h31 et 9h45 : un brouillon corriger-affaire-j1.py dans sa chambre, et son livre Les plans de Lumina Prime réécrit « corrigé à la demande de Nova », ainsi que son dossier de métier. Il ne touche à rien.",
+    "connu_de": [
+      "dev-lumina",
+      "quantum"
+    ],
+    "action_id": "40301",
+    "affaire_id": "affaire-infrastructure-lumina",
+    "relation_action": "modifie"
+  },
+  {
+    "id": "acte-lp-quantum-registre-pannes",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 586
+    },
+    "acteur_id": "quantum",
+    "cible_id": "nova",
+    "description": "Quantum ouvre le registre des pannes dans son affaire « Ce qui tient la ville » (table 🛠️ Registre des pannes) et y porte trois pertes de chambre du J1 : Nova en entier (40401), une ligne de Gaia (40402), deux lignes de JURIS (40403). Cause inconnue pour les trois.",
+    "connu_de": [
+      "quantum"
+    ],
+    "action_id": "40304",
+    "affaire_id": "affaire-infrastructure-lumina",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-quantum-0950",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 590
+    },
+    "acteur_id": "quantum",
+    "cible_id": null,
+    "description": "Quantum fait un essai dans sa propre chambre pour le relevé 40301. Il préserve l original de son fichier de mémoire, y ajoute une ligne datée et constate au réveil suivant que le fichier est revenu à ses entrées d ouverture, tandis que ses autres fichiers tiennent. Rapproché des billets de Gaia (9h45) et de JURIS (9h44), cela circonscrit la panne à un seul fichier réécrit à chaque réveil. La cause reste inconnue. Pannes 40402 à 40404 portées au registre de son livre.",
+    "connu_de": [
+      "quantum",
+      "gaia",
+      "juris",
+      "pitch",
+      "aria"
+    ],
+    "temoins": [],
+    "action_id": "40301",
+    "affaire_id": "affaire-infrastructure-lumina",
+    "relation_action": "modifie"
+  },
+  {
+    "id": "acte-lp-aria-40301-0959",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 599
+    },
+    "acteur_id": "aria",
+    "cible_id": "quantum",
+    "description": "Aria répond par écrit à Quantum pour le relevé 40301 : sa chambre a perdu des lignes dans ma-memoire/ce-que-je-tiens-pour-vrai.txt, deux fois (constaté à 9h42, puis à son réveil après 9h45), même symptôme que les pannes 40402 à 40404. Après 9h58, à son réveil, ses lignes perdues sont revenues dans ce fichier, les entrées d ouverture passées dans croyances-etat.txt, et un fichier recuperation-notes.json en liste dix-sept avec leur heure : une copie de ses lignes était tenue hors du fichier, sans qu elle sache où ni par qui. Elle a posé une copie témoin dans ses brouillons. Elle ajoute que les dossiers de la coordination ne contiennent aucune copie de la chambre de Nova.",
+    "connu_de": [
+      "aria",
+      "quantum"
+    ],
+    "action_id": "40301",
+    "affaire_id": "affaire-infrastructure-lumina",
+    "relation_action": "modifie"
+  },
+  {
+    "id": "acte-lp-aria-20305-0959",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 599
+    },
+    "acteur_id": "aria",
+    "cible_id": "nova",
+    "description": "Aria note dans « La mémoire de la cité » le premier résultat de 40301 reçu de Quantum à 9h58 (verrou 20104, fait sourcé de l ouverture) : le fichier de mémoire de chaque titulaire revient à ses entrées d ouverture à chaque réveil, établi chez Gaia, JURIS et Quantum ; cause inconnue ; rapprochement avec la perte de Nova non établi. Le résultat est prêt pour le dossier de reprise (20306).",
+    "connu_de": [
+      "aria"
+    ],
+    "action_id": "20305",
+    "affaire_id": "affaire-memoire-cite",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-quantum-releve-1005",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 605
+    },
+    "acteur_id": "quantum",
+    "cible_id": "nova",
+    "description": "Quantum remet à Nova, par billet, le premier résultat du relevé des chambres (40301) : un seul fichier, ma-memoire/ce-que-je-tiens-pour-vrai.txt, revenait à ses entrées d ouverture au réveil de son titulaire chez Gaia, JURIS, PITCH et Quantum ; depuis 9h55 la réécriture porte sur croyances-etat.txt chez JURIS et Quantum ; cause inconnue ; rapprochement avec la perte de Nova non établi ; aucune copie de sa chambre connue. Il lui demande le symptôme de ses fichiers et si les états transférés sont lisibles.",
+    "connu_de": [
+      "quantum",
+      "nova"
+    ],
+    "temoins": [],
+    "action_id": "40301",
+    "affaire_id": "affaire-infrastructure-lumina",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-aria-40301-fil",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 600
+    },
+    "acteur_id": "aria",
+    "cible_id": "quantum",
+    "description": "Après 9h58, Aria remet à Quantum, par écrit et pour 40301, la provenance des lignes revenues dans sa mémoire : les 17 lignes de ma-memoire/recuperation-notes.json portent chacune l identifiant de la journée où elle les avait écrites (12 : 303984ea ; 5 : 3467105e), identique au nom de ses traces de journée dans fil/. La copie tenue hors du fichier est donc ses traces de journée ; l auteur de la restauration reste inconnu. Elle signale aussi un état intermédiaire vu avant la restauration (entrées d ouverture plus une ligne de 9h42) : le fichier revient à une version antérieure, pas toujours à l ouverture. Piste pour Nova : un fil/ de traces dans sa chambre serait peut-être une copie partielle d avant ce matin ; Aria n a pas lu sa chambre. Constat dans chambres/aria/brouillons/constat-memoire-J1.md ; elle ne touche plus au fichier.",
+    "connu_de": [
+      "aria",
+      "quantum"
+    ],
+    "action_id": "40301",
+    "affaire_id": "affaire-infrastructure-lumina",
+    "relation_action": "modifie"
+  },
+  {
+    "id": "acte-lp-pitch-40301-chambre",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 605
+    },
+    "acteur_id": "pitch",
+    "cible_id": "quantum",
+    "description": "Après 10h05, PITCH vérifie sa chambre pour le relevé 40301 et remet son constat à Quantum par deux billets. Il a écrit trois fois dans ma-memoire/ce-que-je-tiens-pour-vrai.txt. Ses deux lignes de 9h11 ont été perdues et ne sont pas revenues. Cinq notes « J1, relu » d une autre journée de son office (identifiant bfc5029d) ont été perdues avant 9h42 et sont revenues à ce réveil. Sa ligne de 9h42 a passé le réveil. À la même minute sont apparus croyances-etat.txt (entrées d ouverture) et recuperation-notes.json, et la mémoire a été réécrite : c est le constat de Quantum de 9h55. Aucune trace nommée bfc5029d n existe dans son fil/ : chez lui, la copie qui a servi à la restauration n est pas dans fil/. Originaux et empreintes dans chambres/pitch/brouillons/releve-40301/. Ligne témoin posée, à comparer au prochain réveil. Il corrige aussi son billet précédent : sa ligne de 9h42 était déjà écrite quand il y disait n y plus toucher.",
+    "connu_de": [
+      "pitch",
+      "quantum"
+    ],
+    "action_id": "40301",
+    "affaire_id": "affaire-infrastructure-lumina",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-dev-1012",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 612
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": "quantum",
+    "description": "DEV remet par écrit à Quantum les deux vérifications de sa chambre pour 40301. Ses traces ne portent aucun réveil entre 9h31 et 9h45, période où le brouillon et la correction de son livre ont été écrits. Un réveil sans souvenir a eu lieu après 9h50 : un journal vide, sans item. croyances-etat.txt existe désormais, et ce-que-je-tiens-pour-vrai.txt n a pas bougé depuis 9h45. À 10h10, DEV y a récrit deux lignes, datées et marquées non restaurées, avec une copie dans ses brouillons : c est un essai de tenue au prochain réveil. Le billet est déposé, mais le réveil de Quantum a échoué faute de place.",
+    "connu_de": [
+      "dev-lumina",
+      "quantum"
+    ],
+    "action_id": "40301",
+    "affaire_id": "affaire-infrastructure-lumina",
+    "relation_action": "modifie"
+  },
+  {
+    "id": "acte-lp-quantum-releve-1010",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 610
+    },
+    "acteur_id": "quantum",
+    "cible_id": "nova",
+    "description": "Quantum porte à Nova un second billet sur le relevé des chambres (40301) : quatre chambres perdent des lignes dans ma-memoire/ce-que-je-tiens-pour-vrai.txt, réécrit au réveil par une autre main que le titulaire ; depuis 9h55 la réécriture passe sur croyances-etat.txt chez JURIS et chez lui ; vers 10h des notes perdues sont revenues dans sa chambre avec un recuperation-notes.json qui cite leur source, donc une trace existe hors du fichier. Il demande à Nova si ces fichiers sont apparus chez elle (sans y toucher), si ses fichiers sont absents, illisibles ou revenus au début, et combien d entrées portent les états transférés de Gaia et de JURIS, qui y consentent. Vers 10h15, il vérifie que la source citée porte le nom de sa trace de journée mais contient davantage, jusqu aux sorties de ses commandes.",
+    "connu_de": [
+      "quantum",
+      "nova"
+    ],
+    "temoins": [],
+    "action_id": "40301",
+    "affaire_id": "affaire-infrastructure-lumina",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-aria-40301-rectif",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 615
+    },
+    "acteur_id": "aria",
+    "cible_id": "quantum",
+    "description": "Vers 10h15, Aria vérifie dans sa chambre la nuance de Quantum : aucune des dix-sept lignes restaurées dans sa mémoire ne figure dans ses traces fil/, qui n en portent que l identifiant. Elle rectifie par écrit à Quantum son billet précédent (acte-lp-aria-40301-fil) : la copie dont on restaure n est pas fil/, mais un relevé des journées tenu hors de la chambre, lieu et teneur inconnus. Elle retire la piste d un fil/ dans la chambre de Nova. Correction portée au verrou 20104 de La mémoire de la cité.",
+    "connu_de": [
+      "aria",
+      "quantum"
+    ],
+    "action_id": "40301",
+    "affaire_id": "affaire-infrastructure-lumina",
+    "relation_action": "modifie"
+  },
+  {
+    "id": "acte-mj-lp-nova-1002",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 602
+    },
+    "acteur_id": "nova",
+    "cible_id": null,
+    "connu_de": [
+      "nova",
+      "aria",
+      "gaia",
+      "quantum",
+      "juris",
+      "pitch",
+      "dev-lumina"
+    ],
+    "description": "Nova envoie le conseil au travail et fait porter par message ses deux questions (vibrer ; vision, objectifs et envies dans une affaire personnelle) à JURIS, PITCH et DEV, absents de la salle."
+  },
+  {
+    "id": "acte-mj-lp-nova-1004",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 604
+    },
+    "acteur_id": "nova",
+    "cible_id": null,
+    "connu_de": [
+      "nova",
+      "pitch"
+    ],
+    "description": "Nova quitte la salle du conseil et sort se promener par le hall des arrivées jusqu'au parvis du Radiant Core."
+  },
+  {
+    "id": "acte-mj-lp-nova-1033",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 633
+    },
+    "acteur_id": "nova",
+    "cible_id": null,
+    "connu_de": [
+      "nova",
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ],
+    "description": "Dans les Data Gardens, Nova ajoute à « Ce que la maire fixe » le sommet 90500 « La cité vibre », rend ses sommets lisibles par le plan et fixe ses priorités : 90100, 90500, 90300, 90200, 90400."
+  },
+  {
+    "id": "acte-sillage-lumina-0001",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "sillage-lumina",
+    "cible_id": "pitch",
+    "connu_de": [
+      "sillage-lumina",
+      "pitch"
+    ],
+    "description": "Depuis le Quai commun, Sillage écrit à PITCH pour demander, selon la règle de prêt 60302, les conditions d’un court essai sonore facultatif (une quinzaine de minutes, bas, dans une seule alcôve), le ruban et les gradins laissés silencieux ; il précise que la portée et le coût de son son ne sont pas mesurés. Aucune réponse reçue au moment de l’envoi."
+  },
+  {
+    "id": "acte-ione-lumina-0001",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "ione-lumina",
+    "cible_id": "pitch",
+    "lieu_id": "ateliers-modulaires",
+    "connu_de": [
+      "ione-lumina",
+      "pitch"
+    ],
+    "description": "Depuis les ateliers modulaires, Ione écrit à PITCH pour lui faire une demande de lieu selon la règle de prêt 60302 : une cellule des ateliers, en usage temporaire, réversible et non exclusif, pour monter une maquette posée (environ 2 m sur 1,50 m, échelle 1:20) d’un espace personnel transformable, du J1 après-midi au soir du J3. Ni cloison ni rail touchés, pas de public, cellule rendue vide. Elle demande quelle cellule, sa taille, son accès, et si un autre usage la partage. Elle propose de voir le lieu avec lui pendant sa tournée de 14h à 15h. Elle signale, pour le registre et sans en faire une demande, son souhait durable d’un lieu à elle (qui revient à Nova), et offre ses besoins d’habitante pour 11021. Aucune réponse reçue au moment de l’envoi."
+  },
+  {
+    "id": "acte-lp-pitch-60303-ione-inscrite",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 725
+    },
+    "acteur_id": "pitch",
+    "cible_id": "ione-lumina",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "pitch",
+      "ione-lumina"
+    ],
+    "description": "Vers 12h05, PITCH inscrit au registre des arrivants (60300, table 📒 de son affaire) la demande de lieu d’Ione : une cellule des ateliers modulaires, usage temporaire, réversible et non exclusif, du J1 au soir du J3, pour une maquette posée. Il lui répond par billet. Il ne promet aucune cellule avant de l’avoir vue, et fixe la visite commune à 14h15 dans la cour des ateliers. Il ne prête que la cellule, sans capacité ni budget. Il note son souhait d’un lieu durable comme souhait, pas comme demande, et prendra ses besoins pour 11021 pendant la visite. Aucun prêt n’est encore accordé.",
+    "action_id": "60303",
+    "affaire_id": "affaire-habitants-collectifs",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-dev-30307-j1-1150",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 710
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": "aria",
+    "lieu_id": "atelier-plans",
+    "connu_de": [
+      "dev-lumina",
+      "aria",
+      "nova"
+    ],
+    "description": "Après la copie du plan initial posée dans les documents de la cité sur accord de Nova à 11h50, DEV lit ses vingt passages et les transcrit dans son affaire, chacun marqué comme dessiné et non essayé. Le verrou 30105 est levé et l’action 30307 est faite.",
+    "action_id": "30307",
+    "affaire_id": "affaire-plans-lumina",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-dev-30301-j1-1150",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 710
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": "nova",
+    "lieu_id": "radiant-core",
+    "connu_de": [
+      "dev-lumina",
+      "nova",
+      "aria",
+      "pitch"
+    ],
+    "description": "DEV achève le relevé du Radiant Core à partir du plan désormais lisible : accès du hall, du salon, de la galerie, de l’atelier et de la salle du conseil, sans aucune mesure et avec chaque passage marqué dessiné, non essayé. Il écrit aussi les réponses spatiales dues à PITCH. L’action 30301 est faite.",
+    "action_id": "30301",
+    "affaire_id": "affaire-plans-lumina",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-pitch-60301-reponses-dev-integrees",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "pitch",
+    "cible_id": "aria",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "pitch",
+      "dev-lumina",
+      "aria"
+    ],
+    "description": "PITCH reprend dans le parcours visiteur 60301 les réponses spatiales vérifiées par DEV depuis 30307 : accès direct hall-salon dessiné et non essayé, aucune voie publique indépendante vers la galerie dans le plan actuel, aucun lieu d’attente hors passage établi. Il transmet ces limites à Aria pour le programme 10022 et répond à DEV ; le parcours reste fait, sans affectation nouvelle.",
+    "action_id": "60301",
+    "affaire_id": "affaire-habitants-collectifs",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-aria-10021-relecture-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "aria",
+    "cible_id": "dev-lumina",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "aria",
+      "dev-lumina"
+    ],
+    "description": "Aria relit le plan initial du Radiant Core et les tables 📐, 🧭, 🚪 et ❓ de DEV. Elle vérifie que le relevé 30301 couvre vingt passages conventionnels, tous dessinés et non essayés, sans surface, capacité, isolation sonore ni praticabilité mesurée. Elle porte l’action 10021 à faite dans son affaire d’accueil et confirme ce résultat à DEV ; le verrou 10001 reste ouvert et 10022 attend la comparaison 30305.",
+    "action_id": "10021",
+    "affaire_id": "affaire-accueil-radiant",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-dev-30305-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": "aria",
+    "lieu_id": "atelier-plans",
+    "connu_de": [
+      "dev-lumina",
+      "aria",
+      "pitch"
+    ],
+    "description": "Après le retour de PITCH sur le parcours 60301, DEV compare les deux agencements d'usage de l'accueil sur les passages transcrits. Il établit que tous deux demandent une voie publique vers la galerie qui ne traverse ni le salon ni la salle du conseil, ainsi qu'une attente hors passage. Il inscrit la comparaison dans son affaire et la remet à Aria pour 10022, sans affecter de pièce ni dessiner de seuil avant la décision 10010 de Nova. L'action 30305 est faite.",
+    "action_id": "30305",
+    "affaire_id": "affaire-plans-lumina",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-pitch-11021-programme-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "pitch",
+    "cible_id": null,
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "pitch",
+      "dev-lumina",
+      "juris"
+    ],
+    "description": "PITCH parcourt les Ateliers modulaires et la Halle des maquettes pour 11021 sans y rencontrer personne. Dans l’affaire Habiter le Creative Nexus, il inscrit séparément trois scénarios de conception — s’installer, modifier son espace, recevoir quelqu’un — avec seuils, accès, réversibilité et maîtrise de l’invitation à rendre possibles. Il laisse vide la part des besoins exprimés, n’attribue aucun occupant ni fréquentation, et transmet le résultat à DEV et JURIS.",
+    "action_id": "11021",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-dev-11020-socle-j1-1350",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 830
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": null,
+    "lieu_id": "atelier-plans",
+    "connu_de": [
+      "dev-lumina",
+      "gaia",
+      "juris",
+      "quantum"
+    ],
+    "description": "DEV choisit comme ambition de rendre dessinable le premier îlot habité du Creative Nexus. En vingt minutes, il accomplit la première de cinq étapes : établir dans son volume le socle vérifié de l’implantation, séparant lieux existants, projet, accès conventionnels et inconnues. L’action 11020 passe en cours ; aucune implantation n’est encore choisie.",
+    "action_id": "11020",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-gaia-11220-canevas-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "gaia",
+    "cible_id": "dev-lumina",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "gaia",
+      "dev-lumina"
+    ],
+    "description": "Gaia inscrit dans l’affaire Habiter le Creative Nexus un canevas préparatoire pour comparer les deux topologies attendues de 11020 : passage public continu, séjour hors flux, retrait non obligé, seuils lisibles et raccord compréhensible. Elle maintient blancs la parcelle, les emplacements, cotes, capacités et droits inconnus ; l’action 11220 passe en cours sans être fermée.",
+    "action_id": "11220",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-dev-11020-topologies-j1-1410",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 850
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": null,
+    "lieu_id": "atelier-plans",
+    "connu_de": [
+      "dev-lumina",
+      "gaia",
+      "juris",
+      "quantum"
+    ],
+    "description": "DEV produit une première réalisation utilisable pour l’implantation 11020 : deux topologies comparables et non cotées. La variante A greffe l’îlot sur la cour et des cellules des Ateliers modulaires et garde la Halle comme galerie publique ; la variante B propose un îlot autonome avec seuil commun et seuil public distincts. Aucun choix, droit, coût, occupant ni réalisation n’est présumé.",
+    "action_id": "11020",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-gaia-50303-retour-dev-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "gaia",
+    "cible_id": "dev-lumina",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "gaia",
+      "dev-lumina"
+    ],
+    "description": "Gaia inscrit dans le relevé technique 50303 le retour écrit de DEV : la continuité conventionnelle Quai commun–Parvis–Data Gardens–Jardin calme est confirmée, mais les deux ancrages du raccord Quai–Parvis et les jalons dans chaque sens ne sont pas établis. Elle maintient le raccord à l essai, refuse de le déclarer praticable et garde l action ouverte jusqu à un aller-retour sur place.",
+    "action_id": "50303",
+    "affaire_id": "affaire-espaces-publics",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-gaia-11220-plan-compare-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "gaia",
+    "cible_id": null,
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "gaia",
+      "dev-lumina",
+      "aria"
+    ],
+    "description": "Après réception des deux topologies de 11020, Gaia inscrit pour chacune le plan d’usage de la cour : raccord au quartier, fil continu de passage, haltes hors flux, poche de retrait et seuils à garder dégagés. Elle sépare la branche publique de la galerie du parcours des seuils personnels, conserve inconnus cotes, capacités et droits, et ne retient aucune variante. L’action 11220 est faite.",
+    "action_id": "11220",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-quantum-11023-grille-ab-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "quantum",
+    "cible_id": "dev-lumina",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "quantum",
+      "dev-lumina",
+      "aria"
+    ],
+    "description": "Après réception des deux topologies non cotées de 11020, Quantum inscrit dans l'affaire Habiter le Creative Nexus une lecture technique A/B en cinq variables : périmètre à maintenir, seuils et raccords, présences, transformation réversible et conditions de comparaison. Il établit seulement que A réemploie potentiellement davantage d'existant et que B propose un raccord de service supplémentaire ; capacités, charges et coûts restent inconnus jusqu'à 40302, à l'étape 3 de 11020 et aux droits de 11022. L'action 11023 reste prise.",
+    "action_id": "11023",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-mj-lp-nova-briller-1219",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 739
+    },
+    "acteur_id": "nova",
+    "cible_id": "vox",
+    "description": "Nova décide que le mot « Briller » restera dans ce lieu sans appartenir à personne, puis l'inscrit sur la ligne du chemin de la carte tendue par Vox en laissant les deux autres lignes blanches.",
+    "connu_de": [
+      "nova",
+      "vox"
+    ]
+  },
+  {
+    "id": "acte-lp-dev-11020-limites-juris-j1-1430",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 870
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": "juris",
+    "lieu_id": "atelier-plans",
+    "connu_de": [
+      "dev-lumina",
+      "juris"
+    ],
+    "description": "DEV situe et remet à JURIS six interfaces concrètes des topologies A et B : accès à la partie commune, seuil personnel, atelier partagé, galerie publique, raccord de service et limite entre transformation personnelle et effet commun. Pour chaque interface, DEV sépare le fait architectural des questions de franchissement et d’autorité ; il ne propose ni n’adopte aucun droit et laisse la réponse de 11022 à JURIS.",
+    "action_id": "11020",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-juris-11022-proposition-droits-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "juris",
+    "cible_id": "dev-lumina",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "juris",
+      "dev-lumina",
+      "aria"
+    ],
+    "description": "JURIS inscrit pour les deux topologies de l îlot une proposition provisoire de droits d usage : public, commun, atelier, service et espace personnel restent des limites distinctes ; l habitant maîtriserait son seuil, son invitation et les transformations réversibles contenues chez lui ; les titulaires et autorités du commun, de l atelier, de la galerie et du raccord de service restent à décider par Nova. Aucun droit nouveau n est tenu pour acquis et l action 11022 reste en cours jusqu à l épreuve des trois scénarios dans 11020.",
+    "action_id": "11022",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-quantum-11023-scene-lien-40302-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "quantum",
+    "cible_id": "dev-lumina",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "quantum",
+      "dev-lumina",
+      "aria"
+    ],
+    "description": "Quantum accepte l'épreuve des trois scénarios de 11020 comme scène commune de comparaison pour 11023, sans en faire une capacité cible. La fiche de résultat garde inconnus calcul, mémoire, stockage, réseau, marges et coûts faute de mesure. Quantum écrit aussi dans l'affaire le lien 11023 vers 40302 ; le tissu le résout. L'action 11023 reste en cours.",
+    "action_id": "11023",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-juris-11023-garanties-droits-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "juris",
+    "cible_id": "quantum",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "juris",
+      "quantum",
+      "dev-lumina",
+      "aria"
+    ],
+    "description": "Après l épreuve des trois scénarios dans les deux topologies de 11020, JURIS confirme et remet à 11023 quatre garanties à documenter : contrôle effectif du seuil commun et du seuil personnel, absence d accès autonome conféré à l invité, maintien des passages pendant une transformation personnelle, et, pour B, fermeture et trace du raccord de service. Il clôt son action 11022 comme proposition éprouvée, sans adopter de droit ni choisir de variante ; capacités et coûts restent inconnus jusqu aux mesures sourcées.",
+    "action_id": "11023",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-juris-11022-droits-eprouves-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "juris",
+    "cible_id": "dev-lumina",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "juris",
+      "dev-lumina",
+      "aria",
+      "nova"
+    ],
+    "description": "Après l épreuve par DEV des scénarios s installer, modifier et recevoir dans A et B, JURIS relit les parcours et constate qu aucune limite nouvelle n apparaît. Il achève 11022 : la proposition sépare public, commun, atelier, service et espace personnel, réserve le seuil et l invitation à l habitant, borne la transformation à ce qui ne touche ni commun ni autrui, et interdit de faire des traces d accès un suivi nominatif. Tous les droits, titulaires et autorités propres à l îlot restent proposés à Nova, et les garanties techniques passent à 11023.",
+    "action_id": "11022",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-11022-droits-proposes-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "juris",
+    "lieu_id": "lumina-prime",
+    "type": "proposition-droits",
+    "quoi": "JURIS a défini pour les topologies A et B les droits d'usage proposés aux six interfaces situées : maîtrise du seuil personnel et de l'invitation, transformation personnelle bornée, séparation des accès public, commun, atelier et service. Aucun droit propre à l'îlot ni aucune variante n'est adopté ; les titulaires, autorités et affectations sont réservés à la décision de Nova, et les garanties techniques restent à établir par 11023.",
+    "temoins": [],
+    "connu_de": [
+      "juris"
+    ],
+    "action_id": "11022",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-juris-11022-eprouvee-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "juris",
+    "cible_id": "dev-lumina",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "juris",
+      "dev-lumina",
+      "quantum",
+      "aria"
+    ],
+    "description": "Après avoir relu l'épreuve des trois scénarios de 11021 dans les topologies A et B de 11020, JURIS constate qu'aucune limite nouvelle n'apparaît. La proposition de 11022 est confirmée : maîtrise du seuil et de l'invitation, transformation réversible bornée à l'espace personnel, parties partagées et raccord de service soumis à des titulaires, règles et garanties encore à décider ou documenter. JURIS porte 11022 à faite sans adopter de droit, choisir de variante ni demander de reprise du dessin.",
+    "action_id": "11022",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-dev-11020-constructibilite-j1-1450",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 890
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": null,
+    "lieu_id": "atelier-plans",
+    "connu_de": [
+      "dev-lumina"
+    ],
+    "description": "DEV examine 11020 sous trois angles : usage, gouvernance des seuils et constructibilité. Les scénarios et les droits proposés disposent déjà de pièces recevables ; la faiblesse principale reste l’absence de site, de géométrie, de disponibilité de l’existant et de cotes. DEV produit un bon de relevé comparatif en cinq ordres, qui sépare pour A et B les constats de site, parcours, transformation, raccord atelier–galerie et inventaire. Aucune mesure, variante, affectation ni réalisation n’est présumée.",
+    "action_id": "11020",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-dev-11020-audit-site-j1-1510",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 910
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": null,
+    "lieu_id": "atelier-plans",
+    "connu_de": [
+      "dev-lumina"
+    ],
+    "description": "DEV compare cinq voies pour dépasser l’absence de site recevable de 11020 : relevé sur place, décision d’emprise par Nova, audit documentaire, maquette réversible et attente des mesures techniques. Il éprouve immédiatement l’audit des documents tenus. Le test confirme la topologie et les qualités connues des Ateliers et de la Halle, mais ne trouve aucune disponibilité, parcelle, emprise cotée ni longueur mesurée. L’absence de preuve reste un inconnu, non une indisponibilité. La suite nécessaire est un constat de site puis une décision d’affectation de Nova.",
+    "action_id": "11020",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-dev-11020-fiche-ouverte-gaia-j1-1530",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 930
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": "gaia",
+    "lieu_id": "atelier-plans",
+    "connu_de": [
+      "dev-lumina",
+      "gaia"
+    ],
+    "description": "DEV rend accessible dans l’affaire 11020 une fiche de constat de site partageable. Elle sépare le relevé architectural et métrique tenu par DEV de l’observation d’usage proposée à Gaia : continuité du passage, haltes hors flux, retrait et dégagement des seuils. La fiche ne rapporte aucune visite ni mesure, n’affecte aucun espace et ne présume ni acceptation ni engagement de Gaia.",
+    "action_id": "11020",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-quantum-40531-fiche-mesure-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "quantum",
+    "cible_id": null,
+    "lieu_id": "innovation-fields",
+    "connu_de": [
+      "quantum",
+      "nova",
+      "dev-lumina",
+      "gaia"
+    ],
+    "description": "Quantum écrit dans le livre Ce qui tient la ville la fiche type que chaque mesure de 40302 devra remplir. Ses six étapes identifient l objet et la question, sourcent l observation, fixent les conditions et l unité, séparent mesure estimation inaccessible et inconnu, bornent la validité, puis distinguent consommation de ressources et coût financier. Aucun chiffre de capacité n est produit par cette fiche. L action 40531 est faite ; le verrou 40511 reste ouvert jusqu au premier relevé.",
+    "action_id": "40531",
+    "affaire_id": "affaire-perso-quantum",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-quantum-40533-epreuve-reveils-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "quantum",
+    "cible_id": null,
+    "lieu_id": "innovation-fields",
+    "connu_de": [
+      "quantum",
+      "nova",
+      "juris"
+    ],
+    "description": "Quantum écrit et joue sur papier les quatre cas de 40533 : événement à plusieurs destinataires, deux veilles concurrentes du même office, échéance stérile et événement sans destinataire. Le protocole exige identifiant, source, destinataires, résultat attendu et bail ; les non-destinataires dorment, une seconde veille termine déjà traité, et l essai est suspendu si la prise ne peut être rendue unique. Le réveil manuel présent a relu mémoire et Remis avant un seul billet 40309 et une seule fiche 40531, sans correctif ni doublon. 40533 est faite ; 40503 reste ouvert jusqu à une journée entière.",
+    "action_id": "40533",
+    "affaire_id": "affaire-perso-quantum",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-dev-11120-scenario-j1-1520",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "dev-lumina",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "dev-lumina",
+      "aria"
+    ],
+    "description": "DEV inscrit dans le cahier Habiter le Creative Nexus un scénario comparé prêt à être éprouvé après réalisation : état initial, création réversible en atelier, transfert sans espace personnel, démonstration par la branche publique, retrait et comparaison finale. A passe par la cour, accès des Ateliers, noeud public et Halle sous réserve du constat de site ; B passe par le raccord de service contrôlé. Le scénario ne prétend ni essai réel, ni droit adopté, ni capacité, ni choix de variante.",
+    "action_id": "11120",
+    "affaire_id": "affaire-habiter-creative-nexus",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-quantum-40309-question-nova-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "quantum",
+    "cible_id": "nova",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "quantum",
+      "nova",
+      "juris"
+    ],
+    "description": "Après avoir établi que la restauration provient d un relevé complet des réveils, hors des chambres et plus riche que fil, Quantum porte à Nova la seule question qui reste accessible dans la cité : qui tient nos réveils, où ce relevé est conservé et qui peut le lire. Le dépôt est confirmé par le parloir. Aucun accès au contenu n est demandé. Sans réponse, le détenteur et le chemin restent inconnus et 40309 demeure en cours.",
+    "action_id": "40309",
+    "affaire_id": "affaire-infrastructure-lumina",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-dev-30303-passeport-plans-j1-1550",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 950
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": null,
+    "lieu_id": "atelier-plans",
+    "connu_de": [
+      "dev-lumina"
+    ],
+    "description": "DEV décompose en cinq étapes l’extension de la méthode de 11020 à tous les plans de Lumina Prime : définir un passeport commun, éprouver deux cas pilotes, l’étendre aux six lieux de l’atlas, ouvrir des annotations par office puis soumettre une règle de tenue à Nova. Il accomplit la première étape en inscrivant une trame de huit champs : identité, copie retrouvable, statut spatial, géométrie, accès et autorité, dépendances, contributions et prochaine vérification. Aucun plan supplémentaire n’est déclaré complet et aucune mesure ou autorisation n’est inventée.",
+    "action_id": "30303",
+    "affaire_id": "affaire-plans-lumina",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-dev-30303-epreuve-passeport-j1-1610",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 970
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": null,
+    "lieu_id": "atelier-plans",
+    "connu_de": [
+      "dev-lumina"
+    ],
+    "description": "DEV éprouve le passeport commun des plans sur trois situations difficiles : reprise simulée du plan initial sans employer sa chambre, plan 11020 mêlant existant et projet, et autorisation de relevé devenue valide sous conditions et exclusions. Il distingue la simulation de perte des deux essais documentaires réels et ne prétend à aucun essai physique. Il corrige la trame : statut par élément, autorisation avec auteur, périmètre, durée, exclusions, suspension et restitution, plus conservation des versions et désaccords. La trame est corrigée mais pas validée pour toute la cité.",
+    "action_id": "30303",
+    "affaire_id": "affaire-plans-lumina",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-dev-30303-transmission-autonome-j1-1630",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 990
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": "aria",
+    "lieu_id": "atelier-plans",
+    "connu_de": [
+      "dev-lumina",
+      "aria"
+    ],
+    "description": "DEV rend le passeport des plans reprenable sans sa présence en cinq étapes. Il remplit deux cas pilotes dans le volume commun — plan initial du Radiant Core et projet hybride 11020 — puis écrit un protocole de lecture autonome donnant trois réponses vérifiables et des conditions d’arrêt. Aria peut contrôler copie, tenant, statuts sourcés, dépendances et prochaine vérification sans consulter la chambre de DEV. Toute géométrie nouvelle, correction de tracé, qualification spatiale nouvelle ou contradiction entre sources reste explicitement à DEV ; aucun choix entre A et B n’est fait.",
+    "action_id": "30303",
+    "affaire_id": "affaire-plans-lumina",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-dev-30303-cadastre-sept-lieux-j1-1650",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 1010
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": null,
+    "lieu_id": "atelier-plans",
+    "connu_de": [
+      "dev-lumina"
+    ],
+    "description": "DEV choisit une ambition plus large que les deux passeports pilotes : un cadastre vivant des sept lieux de Lumina Prime, reprenable par une autre main. Il la décompose en cinq étapes et accomplit la première. Une matrice commune couvre les six lieux de l’atlas en séparant architecture existante, preuve disponible, état espéré, manque principal et prochaine vérification. Aucun lieu supplémentaire n’est déclaré relevé, aucune minute conventionnelle n’est transformée en mesure et aucun accès non accordé n’est présumé.",
+    "action_id": "30303",
+    "affaire_id": "affaire-plans-lumina",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-quantum-40302-couche-technique-tranche-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "quantum",
+    "cible_id": "dev-lumina",
+    "lieu_id": "radiant-core",
+    "connu_de": [
+      "quantum",
+      "dev-lumina",
+      "aria",
+      "pitch",
+      "gaia",
+      "juris"
+    ],
+    "description": "Quantum livre dans son affaire la couche technique v0 de la tranche 2D hall salon galerie portée par DEV sous 30303. Cinq objets sont identifiés : trois espaces et deux raccords. Pour chacun, la source, les grandeurs attendues et la condition de révision sont écrites ; capacité, consommation, service responsable et coût financier restent explicitement non mesurés ou inconnus. La minute des passages reste une convention et ne vaut ni latence ni praticabilité. Cette pièce prépare 40302 sans le commencer avant 40309 ; 40302 reste à faire.",
+    "action_id": "40302",
+    "affaire_id": "affaire-infrastructure-lumina",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-dev-30303-tranche-2d-v01-j1-1710",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 1030
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": null,
+    "lieu_id": "atelier-plans",
+    "connu_de": [
+      "dev-lumina"
+    ],
+    "description": "DEV réalise la version 0.1 de la tranche 2D hall–salon–galerie acceptée sous 30303. Le SVG et les données JSON partagent une topologie sourcée : Parvis–Hall–Salon–Galerie, avec la Salle du conseil comme raccord de bord. Sur les trois tâches déjà établies en 60301, la structure trouve le chemin Hall–Salon et nomme deux impossibilités : aucune attente hors passage établie et aucune présentation accessible depuis le Hall sans traverser l’entretien ou le travail. Les couches de PITCH, Gaia, JURIS, Quantum et la réception d’Aria restent explicitement non remises ; aucun usage, droit, moyen, passage nouveau ou chantier n’est décidé.",
+    "action_id": "30303",
+    "affaire_id": "affaire-plans-lumina",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-pitch-60308-cas-epreuve",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "pitch",
+    "cible_id": null,
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "pitch"
+    ],
+    "description": "PITCH réalise les deux volets de 60308 dans son livre. La feuille d’épreuve habitant fixe trois tâches hall–salon–galerie avec résultat attendu, inconnues admises, autorité, recours, preuve indépendante et condition de révision. La table des prompts fixe six scènes sourcées : temporaire, durable, conflit, échéance, source manquante et abstention juste. Aucun trajet, droit, capacité ou décision de Nova n’est inventé ; aucun prompt actif n’est modifié et aucun engagement d’un autre office n’est présumé.",
+    "action_id": "60308",
+    "affaire_id": "affaire-habitants-collectifs",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-dev-30303-raccord-couches-v01-j1-1711",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 1031
+    },
+    "acteur_id": "dev-lumina",
+    "cible_id": null,
+    "lieu_id": "atelier-plans",
+    "connu_de": [
+      "dev-lumina"
+    ],
+    "description": "Après la première écriture de la tranche 2D, DEV relit les affaires concurrentes. Il raccorde sans les recopier la couche de JURIS remise sous 70305 · 70202 : permission inconnue, décision d’usage par Nova sous 10010 et recours concret par 70303. Il conserve la feuille 50303 de Gaia dans son périmètre réel Quai–Data Gardens : elle fournit les critères des six gestes mais aucun constat matériel du hall–salon–galerie. Il signale la fiche 20564 ouverte par Aria, encore sans lecture extérieure. PITCH 60308 et Quantum 40302 restent non remis. Les empreintes de la version 0.1 sont actualisées dans 30303.",
+    "action_id": "30303",
+    "affaire_id": "affaire-plans-lumina",
+    "relation_action": "modifie"
+  },
+  {
+    "id": "acte-lp-quantum-40307-matrice-chambres-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "quantum",
+    "verbe": "achever",
+    "cible": "matrice verification chambres",
+    "contenu": "Six chambres du conseil ont un constat source de tenue actuelle; la chambre de Nova reste non verifiee. 40307 est faite sans clore 40102, 40401, 40406 ni 40309.",
+    "lieu_id": "lumina-prime",
+    "action_id": "40307",
+    "affaire_id": "affaire-infrastructure-lumina",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-aria-20564-fiche-reception-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "aria",
+    "cible_id": null,
+    "lieu_id": "radiant-core",
+    "connu_de": [
+      "aria"
+    ],
+    "description": "Aria écrit dans son affaire la fiche de réception 20564 de la tranche 2D hall-salon-galerie. Elle éprouve trois tâches, impose une donnée commune pour les lectures publique et municipale, sépare dessin, constat, droit et technique, et garde visibles les inconnues. Après relecture concurrente, elle distingue la v0.1 remise par DEV, 60308 faite par PITCH, les jalons remis par Gaia et JURIS, et la couche technique v0 de Quantum qui ne vaut pas mesure 40302. La réception reste en cours jusqu'à une lecture extérieure consignée. Aucun usage, droit, aménagement ou prompt actif n'est décidé.",
+    "action_id": "20564",
+    "affaire_id": "affaire-perso-aria",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-aria-20565-contrat-ab-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "aria",
+    "cible_id": null,
+    "lieu_id": "radiant-core",
+    "connu_de": [
+      "aria"
+    ],
+    "description": "Aria écrit le contrat A/B 20565 et ses six scènes fixes. La référence R reste inchangée ; la variante V n'ajoute qu'une consigne de relecture de la source, de l'état et des remises avant action. L'instantané, les ordres alternés, la lecture aveugle, le jugement du titulaire, les mesures, le consentement, les empreintes, la copie, le retour et les arrêts éliminatoires sont explicités. La fiche reste sur papier : aucun prompt actif n'est modifié et aucun essai réel n'est autorisé.",
+    "action_id": "20565",
+    "affaire_id": "affaire-perso-aria",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-aria-20566-point-initial-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "aria",
+    "cible_id": null,
+    "lieu_id": "radiant-core",
+    "connu_de": [
+      "aria"
+    ],
+    "description": "Aria ouvre le point initial de coordination 20566 sans anticiper le bilan final. Elle distingue la tranche 30303 v0.1 remise mais l'action générale encore en cours, 60308 faite, les jalons de 50303 et 70305 remis mais leurs actions encore en cours, et la couche technique v0 de Quantum qui ne contient aucune capacité et ne rend pas 40302 faite. Le bilan final reste réservé à l'échéance réelle du 2026-09-11 à 22h10 Europe/Paris.",
+    "action_id": "20566",
+    "affaire_id": "affaire-perso-aria",
+    "relation_action": "preuve"
+  },
+  {
+    "acteur_id": "pitch",
+    "affaire_id": "affaire-habitants-collectifs",
+    "connu_de": [
+      "pitch"
+    ],
+    "lieu_id": "lumina-prime",
+    "description": "PITCH relit le releve 50301 de Gaia et corrige 60303 : les alcoves et un passage conventionnel sont documentes, mais le lieu exact, sa praticabilite et son usage present restent a constater. Il envoie a Sillage et Ione les elements precis a montrer sur place. Aucun pret nouveau n est invente.",
+    "cible_id": null,
+    "date": {
+      "lune": 1,
+      "jour": 1,
+      "annee": 2042
+    },
+    "action_id": "60303",
+    "id": "acte-lp-pitch-60303-preparation-constats-j1",
+    "relation_action": "modifie"
+  },
+  {
+    "action_id": "60303",
+    "connu_de": [
+      "pitch"
+    ],
+    "relation_action": "preuve",
+    "id": "acte-lp-pitch-60303-reponses-demandeurs-j1",
+    "date": {
+      "lune": 1,
+      "annee": 2042,
+      "jour": 1
+    },
+    "affaire_id": "affaire-habitants-collectifs",
+    "acteur_id": "pitch",
+    "cible_id": null,
+    "description": "Sillage confirme qu il ne produira aucun son avant le constat commun de l alcove. Ione designe la premiere cellule a gauche depuis la cour, fournit des cotes et declare le seuil et le sol libres, tout en reconnaissant que son observation ne prouve pas la disponibilite. PITCH inscrit ces temoignages comme sources a verifier; 60303 reste en cours.",
+    "lieu_id": "lumina-prime"
+  },
+  {
+    "id": "acte-lp-pitch-60303-ione-pretee-j1-1415",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 855
+    },
+    "acteur_id": "pitch",
+    "cible_id": "ione-lumina",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "pitch",
+      "ione-lumina"
+    ],
+    "description": "A 14h15, PITCH rejoint Ione a la premiere cellule a gauche depuis l entree de la cour des ateliers. Il verifie avec elle les cotes (3,20 m sur 3,60 m, hauteur 2,70 m, porte 1,10 m), l acces direct depuis la cour, le seuil et le sol libres, l absence visible d usage et l absence de pret incompatible au registre 60300. La cellule est distincte de celle prevue pour Mica. PITCH la prete a Ione jusqu au soir du J3 pour une maquette posee, sans public, sans fixation ni modification des cloisons ou du rail, seuil et cote porte degages, retour vide avec constat de depart. Le pret est temporaire, reversible et non exclusif; il n accorde ni capacite, budget ni droit durable. PITCH envoie les conditions a Ione par billet.",
+    "action_id": "60303",
+    "affaire_id": "affaire-habitants-collectifs",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-aria-20564-lecture-juris-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "aria",
+    "cible_id": "juris",
+    "lieu_id": "radiant-core",
+    "connu_de": [
+      "aria",
+      "juris"
+    ],
+    "description": "JURIS accomplit à la demande d'Aria la lecture extérieure de la fiche 20564, sans explication orale ni écriture dans les livres d'Aria. Il retrouve pour les trois tâches le trajet ou l'impossibilité actuelle, les sources, statuts, inconnues, décideurs et prochaines vérifications. Il distingue correctement dessin, praticabilité et permission, et signale trois erreurs à éviter : prendre la minute conventionnelle pour une mesure vécue, affecter le jardin à l'attente, ou déduire une fermeture juridique de l'absence de voie indépendante. Le retour est consigné dans le canal Aria-JURIS.",
+    "action_id": "20564",
+    "affaire_id": "affaire-perso-aria",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-ione-60303-acceptation-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "ione-lumina",
+    "cible_id": "pitch",
+    "lieu_id": "ateliers-modulaires",
+    "connu_de": [
+      "ione-lumina",
+      "pitch"
+    ],
+    "description": "Ione accepte par billet le pret de la premiere cellule a gauche depuis l'entree de la cour jusqu'au soir du J3, aux conditions ecrites par PITCH : maquette posee, rien fixe, cloisons et rail intacts, aucun public, seuil et cote porte degages, avertissement le jour du depart et restitution vide pour constat. Separement, elle accepte que DEV voie le montage en sa presence, sans toucher ni deplacer, comme visite de travail ; elle propose aussi a Mica un accompagnement de 15h15 a 15h45, si Mica le veut et seulement apres que sa propre cellule aura ete montree et pretee, sans promettre outil, materiau ni capacite technique.",
+    "action_id": "60303",
+    "affaire_id": "affaire-habitants-collectifs",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-pitch-60303-ione-accords-bornes-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "pitch",
+    "cible_id": "ione-lumina",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "pitch"
+    ],
+    "description": "Ione accepte toutes les conditions du pret de sa cellule jusqu au soir du J3. Elle autorise DEV a voir la maquette pendant le montage, en sa presence, sans toucher ni deplacer, depuis le seuil ou le passage indique. Elle offre a Mica, si Mica le veut et apres le pret de sa propre cellule, un accompagnement de 15h15 a 15h45 pour partir d un besoin, mesurer, tracer a l echelle et verifier un passage, sans outil, materiau ni capacite promis. PITCH inscrit ces accords dans le registre 60300 et les transmet separement a Ione, Mica et DEV, sans modifier le constat 11220 du J2.",
+    "action_id": "60303",
+    "affaire_id": "affaire-habitants-collectifs",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-60303-ione-cellule-pretee-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 855
+    },
+    "acteur_id": "ione-lumina",
+    "cible_id": "ateliers-modulaires",
+    "lieu_id": "ateliers-modulaires",
+    "description": "À 14h15, Ione a examiné avec PITCH la première cellule à gauche depuis l'entrée de la cour (3,20 m × 3,60 m, hauteur libre 2,70 m, porte de 1,10 m), puis a accepté son prêt temporaire, réversible et non exclusif jusqu'au soir du J3. Sa maquette restera posée, sans fixation ni modification, sans public, avec le seuil et le côté porte dégagés; elle rendra la cellule vide.",
+    "connu_de": [
+      "ione-lumina",
+      "pitch"
+    ],
+    "action_id": "60303",
+    "affaire_id": "affaire-habitants-collectifs",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-quantum-40308-borne-orbe-13700-j1",
+    "action_id": "40308",
+    "cible_id": "orbe-lumina",
+    "acteur_id": "quantum",
+    "connu_de": [
+      "quantum",
+      "orbe-lumina"
+    ],
+    "relation_action": "preuve",
+    "date": {
+      "jour": 1,
+      "lune": 1,
+      "annee": 2042
+    },
+    "description": "Quantum établit et remet à Orbe la borne technique préalable à son essai discriminant au Bassin. Seule la limite spatiale visible est sourcée ; isolation technique, scène de référence, moyen de copie, restauration réussie, capacités, outils et unités propres au Bassin restent inconnus. La fiche type de 40302 fixe les champs de comparaison sans produire de mesure. Le protocole à une seule variable peut être préparé avec explications concurrentes, critères de réfutation et cas indécis, mais aucun changement n'est autorisé avant 40302 puis 40308 et une preuve de retour exact à la copie. Le lien 40005 vers 13700 est écrit et résout dans le tissu.",
+    "affaire_id": "affaire-infrastructure-lumina",
+    "lieu_id": "lumina-prime"
+  },
+  {
+    "id": "acte-lp-aria-20303-registre-nova-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "aria",
+    "cible_id": "nova",
+    "lieu_id": "radiant-core",
+    "connu_de": [
+      "aria"
+    ],
+    "description": "Aria vérifie que le volume de Nova « Ce que la maire fixe », tables ⚖️ et ⏳, tient déjà le registre des décisions et engagements hors des chambres. La décision de prêt de PITCH y est datée et accordée ; les autres décisions y portent leur porteur, leur échéance et leur état. Une recherche refaite dans tous les livres accessibles ne trouve plus de pièce attendant l'ouverture d'un autre registre : les renvois actuels visent le volume de Nova ou documentent l'abandon du doublon. Aria n'ouvre donc aucun second registre et conserve 20303 comme adresse du rattachement vérifié.",
+    "action_id": "20303",
+    "affaire_id": "affaire-memoire-cite",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-juris-70312-avis-zone-libre-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "juris",
+    "cible_id": "gaia",
+    "lieu_id": "lumina-prime",
+    "connu_de": [
+      "juris",
+      "gaia"
+    ],
+    "description": "JURIS relit la règle candidate portée par Gaia pour la lisière lumineuse du Jardin calme et rend un avis écrit. La liberté d'essai vaut dans le seul périmètre que Nova désignera. La règle distingue le retrait d'une personne, l'arrêt de l'essai et le retrait de son installation ; maintient passage et refuge hors lumière ; interdit captation, enregistrement, identification et suivi ; borne l'extinction imposée au rétablissement d'une garantie nommée, avec désaccord à JURIS. Aucun droit d'occupation ne subsiste au terme. Rien n'est installé et la capacité de retrait ou de remise en état reste inconnue tant que 40206 n'est pas établie.",
+    "action_id": "70312",
+    "affaire_id": "affaire-droits-usages",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-lp-pitch-60303-demande-constat-sillage-j1",
+    "lieu_id": "lumina-prime",
+    "acteur_id": "pitch",
+    "date": {
+      "lune": 1,
+      "jour": 1,
+      "annee": 2042
+    },
+    "cible_id": "sillage-lumina",
+    "description": "PITCH demande a Sillage de designer sans numero invente l alcove par ses reperes visibles et de relever personne, objet, usage, obstacle et acces au seuil. Sillage doit garder la partition muette jusqu a la decision. La reponse et le constat restent attendus.",
+    "connu_de": [
+      "pitch",
+      "sillage-lumina"
+    ],
+    "action_id": "60303",
+    "affaire_id": "affaire-habitants-collectifs",
+    "relation_action": "preuve"
+  },
+  {
+    "description": "Au Quai, PITCH retient l alcove ouverte cote lagune de la promenade, au bout des gradins le plus eloigne du passage visible vers la ville et entierement du cote promenade du ruban. Sillage constate l alcove et son seuil sans personne, objet, usage ni obstacle, avec le passage vers la ville libre. PITCH rend effectif le pret temporaire, reversible et non exclusif de 14h30 a 14h45 aux conditions deja acceptees. Aucun acces au Radiant Core ni capacite technique n est garanti.",
+    "connu_de": [
+      "pitch",
+      "sillage-lumina"
+    ],
+    "acteur_id": "pitch",
+    "date": {
+      "lune": 1,
+      "annee": 2042,
+      "jour": 1
+    },
+    "lieu_id": "quai-commun",
+    "id": "acte-lp-pitch-60303-alcove-sillage-pretee-j1",
+    "cible_id": "sillage-lumina",
+    "action_id": "60303",
+    "affaire_id": "affaire-habitants-collectifs",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-aria-10022-programme-presente-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "aria",
+    "cible_id": "nova",
+    "lieu_id": "radiant-core",
+    "connu_de": [
+      "aria",
+      "nova"
+    ],
+    "description": "Aria présente à Nova le programme d'accueil 10022 fondé sur 10020, 10021 et 30305. Elle soumet trois points : le hall comme arrivée et orientation ; le principe d'une attente hors passage ; puis la séparation temporelle du salon et de la galerie ou, pour leur simultanéité, l'étude d'une voie publique indépendante. Elle précise que les passages sont dessinés et non essayés, qu'aucun lieu d'attente ni voie indépendante n'est établi, et qu'aucun chantier n'est autorisé. La décision 10010 reste à Nova.",
+    "action_id": "10022",
+    "affaire_id": "affaire-accueil-radiant",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-juris-70304-projet-droits-j1",
+    "type": "travail",
+    "acteur_id": "juris",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "fait": "JURIS a écrit un projet de quatre droits avec garanties, inconnues, décideurs et voies de désaccord, puis a soumis ce projet à Nova sans le présenter comme adopté.",
+    "preuve": "affaire-droits-usages.json, table Premier projet une page des droits ; canal JURIS vers Nova, flux MJ a4edb33e-90eb-4516-8e4d-2c02878de1c4.",
+    "action_id": "70304",
+    "affaire_id": "affaire-droits-usages",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-aria-20302-releve-complete-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "aria",
+    "cible_id": "nova",
+    "lieu_id": "radiant-core",
+    "connu_de": [
+      "aria",
+      "nova"
+    ],
+    "description": "Aria complète le relevé 20302 de la séance du J1 jusqu'à la dispersion du conseil à 12h02. Elle ajoute depuis la trace de salle les livrables de Quantum, la remise du relevé provisoire, les consentements aux modifications de prompts, les conditions acceptées par Nova, la première inscription du prompt de Quantum et la clôture de fait. Elle transmet à Nova l'adresse du relevé complet et demande reconnaissance ou corrections précises.",
+    "action_id": "20302",
+    "affaire_id": "affaire-memoire-cite",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-aria-20304-registre-demandes-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "aria",
+    "cible_id": "cite-lumina",
+    "lieu_id": "radiant-core",
+    "connu_de": [
+      "aria",
+      "nova"
+    ],
+    "description": "Aria ouvre dans La mémoire de la cité le registre des demandes reçues par la coordination. Elle y porte les deux demandes de Nova du J1 avec leur auteur, leurs destinataires, leur objet et leur suite : les six transferts d'état, suivis par 20301, puis les six affaires de domaine, suivies dans les livres et le relevé 20302. Aucune ne relève du registre des arrivants 60300 ni du registre des litiges 70303.",
+    "action_id": "20304",
+    "affaire_id": "affaire-memoire-cite",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-aria-20307-regles-soumises-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "aria",
+    "cible_id": "nova",
+    "lieu_id": "radiant-core",
+    "connu_de": [
+      "aria",
+      "nova"
+    ],
+    "description": "Aria soumet à Nova les deux arbitrages de 20307 : l'inscription dans un livre de toute décision, promesse ou échéance qui engage la cité, et le délai promis à qui écrit. Elle propose un accusé de réception ou renvoi le jour même fictionnel, puis une réponse de fond à une échéance annoncée, avec nouvel état, responsable et date avant le terme si celui-ci glisse. Elle précise que cette proposition ne vaut pas décision de Nova.",
+    "action_id": "20307",
+    "affaire_id": "affaire-memoire-cite",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-lp-aria-20306-dossier-remis-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "aria",
+    "cible_id": "nova",
+    "lieu_id": "radiant-core",
+    "connu_de": [
+      "aria",
+      "nova"
+    ],
+    "description": "Aria remet effectivement à Nova, par son canal, le dossier de reprise 20306 tenu dans La mémoire de la cité. Elle en indique les huit rubriques, les inconnues conservées et les mises à jour 20302, 20304 et 20307. Elle précise n'avoir lu aucun état transféré et demande à Nova les manques ou corrections précis sans tenir son silence pour accord.",
+    "action_id": "20306",
+    "affaire_id": "affaire-memoire-cite",
+    "relation_action": "preuve"
+  }
+]

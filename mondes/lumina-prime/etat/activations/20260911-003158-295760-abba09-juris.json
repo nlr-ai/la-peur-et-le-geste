@@ -1,0 +1,33 @@
+{
+  "version": "activation-graphe/2",
+  "qui": "juris",
+  "tache": {
+    "id": "70304",
+    "quoi": "✍️ Proposer un premier texte des droits"
+  },
+  "activation": {
+    "issue": "traitee-par-depeche",
+    "energie_depensee": 16.0,
+    "activites": [
+      {
+        "action": {
+          "verbe": "poursuivre",
+          "quoi": "BOUCLE D'ACTIVATION — le graphe t'a élu pour poursuivre cette tâche maintenant.\nTÂCHE : `70304`\nOBJET : ✍️ Proposer un premier texte des droits\nBUDGET DE TRAVAIL : 16 unités.\n\nAgis depuis ta tête, tes documents de maison et l'état réel du dépôt. Tu as accès au dépôt : écris directement, par les portes canoniques, les changements d'état, d'action, d'étape, d'acte ou de mesure que ton travail produit. Ne demande rien au MJ. Si une issue dépend d'un autre ou d'un fait absent, écris ton geste et laisse seulement cette issue en attente."
+        },
+        "temps": {
+          "duree_s": 480
+        },
+        "resultats_produits": [],
+        "cout_energie": 16.0
+      }
+    ]
+  },
+  "_activation": {
+    "cree_le": "2026-09-11T00:31:58.295199+02:00",
+    "front": "nova",
+    "present_secondes": 17010.0,
+    "budget": 16,
+    "duree_api_ms": 6503,
+    "mode": "depeche-directe-repo"
+  }
+}

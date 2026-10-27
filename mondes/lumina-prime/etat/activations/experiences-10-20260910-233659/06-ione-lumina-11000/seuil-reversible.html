@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Le seuil que je choisis — maquette d’Ione</title>
+<style>
+  :root { --ink:#173b39; --paper:#f6f0e4; --coral:#bd7650; --teal:#168a79; --veil:#d8cab7; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:24px; color:var(--ink); background:var(--paper); font:16px/1.45 system-ui,sans-serif; }
+  main { max-width:920px; margin:auto; }
+  h1 { margin:.2rem 0; font-size:clamp(1.8rem,5vw,3.2rem); }
+  .note { border-left:5px solid var(--coral); padding:.6rem 1rem; background:#fff9; }
+  .controls { display:flex; gap:.7rem; flex-wrap:wrap; margin:1rem 0; }
+  button { border:2px solid var(--ink); border-radius:2rem; padding:.65rem 1rem; background:white; color:var(--ink); font:inherit; cursor:pointer; }
+  button[aria-pressed="true"] { background:var(--ink); color:white; }
+  .room { position:relative; width:min(100%,640px); aspect-ratio:3.2/3.6; margin:1.3rem auto; border:8px solid var(--ink); background:#fffdf7; overflow:hidden; }
+  .door { position:absolute; bottom:-8px; left:7%; width:34.375%; height:16px; background:var(--paper); border-left:3px solid var(--coral); border-right:3px solid var(--coral); }
+  .door::before { content:"porte 1,10 m"; position:absolute; bottom:22px; width:100%; text-align:center; font-size:.8rem; }
+  .path { position:absolute; left:7%; bottom:0; width:28.125%; height:100%; background:repeating-linear-gradient(135deg,#168a7918 0 12px,#168a7905 12px 24px); border-right:2px dashed var(--teal); }
+  .path::after { content:"passage libre 0,90 m"; position:absolute; top:45%; left:-32%; width:165%; transform:rotate(-90deg); text-align:center; color:var(--teal); font-weight:700; }
+  .guest { position:absolute; top:8%; left:40%; right:8%; height:27%; border:3px solid var(--coral); background:#bd765020; padding:8px; transition:.35s; }
+  .private { position:absolute; left:40%; right:8%; top:43%; bottom:8%; border:3px solid var(--teal); background:#168a7915; padding:8px; }
+  .veil { position:absolute; left:37%; right:5%; top:38%; height:10%; border-top:6px solid var(--ink); transform-origin:left center; transition:.35s; }
+  .closed .guest { opacity:.35; transform:translateY(-12px); }
+  .closed .veil { height:54%; background:var(--veil); opacity:.96; z-index:3; }
+  .open .veil { transform:scaleX(.13); }
+  .measure { position:absolute; right:3px; bottom:3px; font-size:.75rem; }
+  #reading { min-height:4.2em; padding:1rem; border:2px solid var(--ink); background:white; }
+  ul { padding-left:1.2rem; }
+</style>
+</head>
+<body>
+<main>
+  <p>Maquette numérique réversible · Ione · J1, 2042</p>
+  <h1>Le seuil que je choisis</h1>
+  <p class="note"><strong>Ce fichier modifie une copie, pas la cellule réelle.</strong> Il explore une cellule de 3,20 × 3,60 m prêtée temporairement. Il ne fixe rien, ne déplace aucune cloison et ne crée aucun droit d’habitation.</p>
+  <div class="controls" aria-label="Choisir une situation">
+    <button id="alone" aria-pressed="true">Je ferme pour moi</button>
+    <button id="welcome" aria-pressed="false">J’ouvre à une personne</button>
+  </div>
+  <div id="room" class="room closed" role="img" aria-label="Plan schématique de la cellule en position fermée">
+    <div class="path"></div>
+    <div class="guest"><strong>Bande d’accueil</strong><br>Une personne peut rester ici sans entrer dans le retrait.</div>
+    <div class="private"><strong>Retrait personnel</strong><br>Ce qui n’a pas à être montré reste derrière le filtre.</div>
+    <div class="veil" title="filtre mobile hypothétique"></div>
+    <div class="door"></div>
+    <div class="measure">3,20 × 3,60 m · schéma proportionné</div>
+  </div>
+  <p id="reading" aria-live="polite"><strong>Fermé.</strong> Depuis la porte, la bande d’accueil se retire visuellement et le filtre masque le retrait. Je peux fermer sans fournir de raison. Le chemin de 0,90 m jusqu’au fond reste lisible.</p>
+  <h2>Ce que Palim peut éprouver</h2>
+  <ul>
+    <li>Actionner les deux choix et dire si le dessin rend sensible que l’habitante décide de l’ouverture.</li>
+    <li>Vérifier si, en position ouverte, il saurait où se tenir sans franchir le retrait personnel.</li>
+    <li>Nommer ce qui manque pour croire à l’usage réel : hauteur et matière du filtre, mobilier, gestes d’entrée, ou autre.</li>
+  </ul>
+  <p><strong>Limite :</strong> le filtre est une hypothèse de maquette. Sa matière, sa stabilité, sa sécurité et son autorisation ne sont pas établies. Aucune visite n’a eu lieu.</p>
+</main>
+<script>
+const room=document.querySelector('#room'), reading=document.querySelector('#reading');
+const alone=document.querySelector('#alone'), welcome=document.querySelector('#welcome');
+function setMode(open){
+  room.className='room '+(open?'open':'closed');
+  room.setAttribute('aria-label','Plan schématique de la cellule en position '+(open?'ouverte':'fermée'));
+  alone.setAttribute('aria-pressed',String(!open)); welcome.setAttribute('aria-pressed',String(open));
+  reading.innerHTML=open
+    ? '<strong>Ouvert à une personne.</strong> L’invitée entre par la porte de 1,10 m, garde le passage hachuré de 0,90 m libre et se tient dans la bande d’accueil. Le retrait personnel demeure distinct : ouvrir le seuil ne donne pas accès à tout.'
+    : '<strong>Fermé.</strong> Depuis la porte, la bande d’accueil se retire visuellement et le filtre masque le retrait. Je peux fermer sans fournir de raison. Le chemin de 0,90 m jusqu’au fond reste lisible.';
+}
+alone.onclick=()=>setMode(false); welcome.onclick=()=>setMode(true);
+</script>
+</body>
+</html>

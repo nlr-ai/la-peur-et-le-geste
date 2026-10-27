@@ -94,3 +94,9 @@ from agents.reconcilier import main as reconcilier_main  # noqa: E402,F401 — l
 # sans jamais ecraser ce qui est occupe.
 from agents import rendre_cellules  # noqa: E402,F401
 from agents.rendre_cellules import main as rendre_cellules_main  # noqa: E402,F401
+
+from agents.atelier import main as atelier_main  # noqa: E402,F401
+from agents import questions_monde  # noqa: E402,F401
+from agents import volontes_pj  # noqa: E402,F401
+
+from agents.passage_journee import main as passage_journee_main

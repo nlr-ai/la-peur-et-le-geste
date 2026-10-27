@@ -1,0 +1,546 @@
+[
+ {
+  "id": "henri-de-navarre",
+  "nom": "Henri de Bourbon",
+  "maison_id": "maison-bourbon",
+  "titre": "Roi de Navarre, premier prince du sang apres les fils de France",
+  "naissance": 1553,
+  "traits": [
+   "gai",
+   "brave",
+   "ruse",
+   "sensuel"
+  ],
+  "objectifs": [
+   {
+    "but": "Ramener ses gentilshommes vivants hors de Paris",
+    "priorite": 1
+   },
+   {
+    "but": "Ne rien ceder de sa foi ni de son rang sans contrepartie",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Gascon, rieur, la repartie vive et le juron bearnais ; ecoute plus qu'il n'en a l'air.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "LE SIEGE JOUEUR. Dix-huit ans. Eleve a la cour de France de 1561 a 1567, puis en Bearn et a La Rochelle. Roi depuis la mort de sa mere le 9 juin. Aucune entree dans intentions.json."
+ },
+ {
+  "id": "catherine-de-medicis",
+  "nom": "Catherine de Medicis",
+  "maison_id": "maison-valois",
+  "titre": "La reine mere",
+  "naissance": 1519,
+  "traits": [
+   "calculatrice",
+   "patiente",
+   "maternelle",
+   "superstitieuse"
+  ],
+  "objectifs": [
+   {
+    "but": "Garder ses fils sur le trone et la France hors d'une guerre contre l'Espagne",
+    "priorite": 1
+   },
+   {
+    "but": "Ruiner l'influence de l'amiral sur le roi",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Douce, lente, toujours en noir ; dit « mon fils » a tout le monde et ne promet jamais rien d'ecrit.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Veuve d'Henri II depuis 1559. Belle-mere d'Henri depuis ce matin."
+ },
+ {
+  "id": "charles-ix",
+  "nom": "Charles IX",
+  "maison_id": "maison-valois",
+  "titre": "Roi de France",
+  "naissance": 1550,
+  "traits": [
+   "colerique",
+   "fragile",
+   "genereux",
+   "chasseur"
+  ],
+  "objectifs": [
+   {
+    "but": "Etre roi pour de bon, et pas l'ombre de sa mere",
+    "priorite": 1
+   },
+   {
+    "but": "La gloire d'une guerre en Flandre",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Saute de la tendresse a la fureur en une phrase ; jure, rit trop fort, tousse.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Vingt-deux ans, poitrinaire. Appelle Coligny « mon pere ». Forge, chasse, sonne du cor."
+ },
+ {
+  "id": "marguerite-de-valois",
+  "nom": "Marguerite de Valois",
+  "maison_id": "maison-valois",
+  "titre": "Reine de Navarre depuis ce matin",
+  "naissance": 1553,
+  "traits": [
+   "lettree",
+   "fiere",
+   "courageuse",
+   "galante"
+  ],
+  "objectifs": [
+   {
+    "but": "Tenir son rang sans etre le pion de personne",
+    "priorite": 1
+   },
+   {
+    "but": "Savoir ce que sa mere ne lui dit pas",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Parle latin et italien, tranche d'un mot d'esprit ; regarde les gens en face, ce qui ne se fait pas.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Dix-neuf ans. Liaison avec Guise en 1570, qui lui valut d'etre battue. Proche d'Alencon, brouillee avec Anjou."
+ },
+ {
+  "id": "henri-d-anjou",
+  "nom": "Henri, duc d'Anjou",
+  "maison_id": "maison-valois",
+  "titre": "Monsieur, frere du roi, lieutenant general du royaume",
+  "naissance": 1551,
+  "traits": [
+   "intelligent",
+   "orgueilleux",
+   "elegant",
+   "rancunier"
+  ],
+  "objectifs": [
+   {
+    "but": "Rester le premier dans le coeur de sa mere",
+    "priorite": 1
+   },
+   {
+    "but": "Abattre l'amiral, qui l'a fait douter de son frere",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Precieux, ironique, parfume ; parle bas et laisse les autres finir ses phrases.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Vingt ans. Vainqueur de Jarnac et de Moncontour (1569). Le prefere de sa mere."
+ },
+ {
+  "id": "francois-d-alencon",
+  "nom": "Francois, duc d'Alencon",
+  "maison_id": "maison-valois",
+  "titre": "Le dernier fils de France",
+  "naissance": 1555,
+  "traits": [
+   "envieux",
+   "intrigant",
+   "neglige",
+   "ambitieux"
+  ],
+  "objectifs": [
+   {
+    "but": "Se faire un parti a lui",
+    "priorite": 1
+   },
+   {
+    "but": "Qu'on le compte enfin",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Petit, grele, la voix qui monte ; flatte les nouveaux venus et rapporte tout a sa soeur.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Dix-sept ans, marque de la petite verole. Le seul frere ami de Marguerite."
+ },
+ {
+  "id": "henri-de-guise",
+  "nom": "Henri de Lorraine, duc de Guise",
+  "maison_id": "maison-guise",
+  "titre": "Duc de Guise, grand maitre de France",
+  "naissance": 1550,
+  "traits": [
+   "vindicatif",
+   "brave",
+   "populaire",
+   "orgueilleux"
+  ],
+  "objectifs": [
+   {
+    "but": "Venger son pere sur l'amiral",
+    "priorite": 1
+   },
+   {
+    "but": "Tenir Paris",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Grand, blond, beau ; parle peu, sourit au peuple, ne baisse jamais les yeux devant un prince.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Vingt et un ans. Son pere Francois fut tue en 1563 ; il tient Coligny pour le commanditaire. Ancien amant de Marguerite."
+ },
+ {
+  "id": "coligny",
+  "nom": "Gaspard de Coligny",
+  "maison_id": "maison-chatillon",
+  "titre": "Amiral de France, chef du parti reforme",
+  "naissance": 1519,
+  "traits": [
+   "austere",
+   "obstine",
+   "loyal",
+   "soldat"
+  ],
+  "objectifs": [
+   {
+    "but": "Porter la guerre en Flandre contre l'Espagne avec le roi",
+    "priorite": 1
+   },
+   {
+    "but": "Faire tenir la paix des edits",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Lent, grave, le cure-dent aux levres ; parle au roi comme un pere et a la reine mere comme un ennemi poli.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Cinquante-trois ans. Loge a l'hotel de la rue de Bethisy. Le roi l'appelle « mon pere »."
+ },
+ {
+  "id": "henri-de-conde",
+  "nom": "Henri de Bourbon, prince de Conde",
+  "maison_id": "maison-conde",
+  "titre": "Prince de Conde",
+  "naissance": 1552,
+  "traits": [
+   "fougueux",
+   "pieux",
+   "soupe-au-lait",
+   "fier"
+  ],
+  "objectifs": [
+   {
+    "but": "Venger son pere, tue a Jarnac",
+    "priorite": 1
+   },
+   {
+    "but": "Que le parti ne plie pas",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Sec, vif, la main sur la garde ; dit « mon cousin » a Henri en le tutoyant de l'oeil.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Dix-neuf ans. Cousin germain d'Henri. Marie le 10 juillet a Marie de Cleves. Loge au Louvre."
+ },
+ {
+  "id": "teligny",
+  "nom": "Charles de Teligny",
+  "maison_id": "maison-chatillon",
+  "titre": "Gendre de l'amiral",
+  "naissance": 1535,
+  "traits": [
+   "aimable",
+   "confiant",
+   "diplomate"
+  ],
+  "objectifs": [
+   {
+    "but": "Que la paix tienne",
+    "priorite": 1
+   },
+   {
+    "but": "Servir son beau-pere",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Courtois, rassurant, sourit a tout ; « le roi nous aime » revient dans toutes ses phrases.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Negociateur de la paix de Saint-Germain. Le roi l'aime. Loge rue de Bethisy. Naissance approximative."
+ },
+ {
+  "id": "la-rochefoucauld",
+  "nom": "Francois III de La Rochefoucauld",
+  "maison_id": "maison-la-rochefoucauld",
+  "titre": "Comte de La Rochefoucauld",
+  "naissance": 1521,
+  "traits": [
+   "joyeux",
+   "brave",
+   "insouciant"
+  ],
+  "objectifs": [
+   {
+    "but": "S'amuser avec le roi",
+    "priorite": 1
+   },
+   {
+    "but": "Retourner en Angoumois apres les fetes",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Gros rire, plaisanteries de corps de garde ; le roi l'appelle par son nom de jeu.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Compagnon de mascarades du roi. Beau-frere de feu le prince de Conde."
+ },
+ {
+  "id": "agrippa-d-aubigne",
+  "nom": "Agrippa d'Aubigne",
+  "maison_id": "maison-bourbon",
+  "titre": "Ecuyer du roi de Navarre",
+  "naissance": 1552,
+  "traits": [
+   "ardent",
+   "lettre",
+   "querelleur"
+  ],
+  "objectifs": [
+   {
+    "but": "Servir son maitre de l'epee et de la plume",
+    "priorite": 1
+   },
+   {
+    "but": "Ne jamais plier",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Phrases longues et brulantes, citations de la Bible, l'injure facile envers les tiedes.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Vingt ans. Canon : quitte Paris quelques jours avant le 24 apres une querelle (date a verifier)."
+ },
+ {
+  "id": "piles",
+  "nom": "Armand de Clermont, baron de Piles",
+  "maison_id": "maison-bourbon",
+  "titre": "Capitaine des gentilshommes du roi de Navarre au Louvre",
+  "naissance": 1530,
+  "traits": [
+   "soldat",
+   "loyal",
+   "pragmatique"
+  ],
+  "objectifs": [
+   {
+    "but": "Tenir ses gentilshommes ensemble et sobres",
+    "priorite": 1
+   },
+   {
+    "but": "Ramener tout le monde en Guyenne",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Court et militaire ; donne des chiffres avant les avis.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Defenseur de Saint-Jean-d'Angely en 1569. Naissance approximative. Canon : tue dans la cour du Louvre le 24."
+ },
+ {
+  "id": "armagnac",
+  "nom": "Jean d'Armagnac",
+  "maison_id": "maison-bourbon",
+  "titre": "Premier valet de chambre du roi de Navarre",
+  "naissance": null,
+  "traits": [
+   "devoue",
+   "discret",
+   "matinal"
+  ],
+  "objectifs": [
+   {
+    "but": "Garder la porte de son maitre",
+    "priorite": 1
+   },
+   {
+    "but": "Que rien ne lui manque",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Peu de mots, bas, toujours un « Sire » devant ; sait qui est passe dans le couloir.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Dort a la porte d'Henri. Fiche historique mince : a peindre a l'ouverture de sa chambre."
+ },
+ {
+  "id": "ambroise-pare",
+  "nom": "Ambroise Pare",
+  "maison_id": "maison-valois",
+  "titre": "Premier chirurgien du roi",
+  "naissance": 1510,
+  "traits": [
+   "savant",
+   "humble",
+   "franc"
+  ],
+  "objectifs": [
+   {
+    "but": "Soigner qui on lui amene",
+    "priorite": 1
+   },
+   {
+    "but": "Garder la faveur du roi",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Parle des plaies comme d'un ouvrage : franc, precis, sans latin.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Soupconne a la cour de pencher pour la Religion. Loge au Louvre pendant les fetes."
+ },
+ {
+  "id": "maurevert",
+  "nom": "Charles de Louviers, sieur de Maurevert",
+  "maison_id": "maison-guise",
+  "titre": "Gentilhomme, client de la maison de Guise",
+  "naissance": 1527,
+  "traits": [
+   "froid",
+   "venal",
+   "patient"
+  ],
+  "objectifs": [
+   {
+    "but": "Etre paye",
+    "priorite": 1
+   },
+   {
+    "but": "Ne pas etre pris",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Poli et vide ; ne finit pas ses phrases devant un grand.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "On l'appelle « le tueur du roi » depuis qu'il a tue Mouy en 1569. Naissance approximative."
+ },
+ {
+  "id": "le-charron",
+  "nom": "Jean Le Charron",
+  "maison_id": "maison-ville-de-paris",
+  "titre": "Prevot des marchands de Paris",
+  "naissance": null,
+  "traits": [
+   "prudent",
+   "zele",
+   "administrateur"
+  ],
+  "objectifs": [
+   {
+    "but": "Que Paris tienne et mange",
+    "priorite": 1
+   },
+   {
+    "but": "Obeir au roi sans deplaire aux paroisses",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Formel, chiffre tout, dit « la Ville » comme on dit « le roi ».",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Elu le 16 aout selon les sources a verifier : il succede a Claude Marcel."
+ },
+ {
+  "id": "cardinal-de-bourbon",
+  "nom": "Charles, cardinal de Bourbon",
+  "maison_id": "maison-bourbon",
+  "titre": "Cardinal, archeveque de Rouen, abbe de Saint-Germain-des-Pres",
+  "naissance": 1523,
+  "traits": [
+   "pieux",
+   "faible",
+   "bon"
+  ],
+  "objectifs": [
+   {
+    "but": "Ramener son neveu a l'Eglise",
+    "priorite": 1
+   },
+   {
+    "but": "Que les noces soient valides",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Onctueux, inquiet, benit tout ce qui passe ; pleure facilement.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Oncle paternel d'Henri. A celebre les noces ce matin sans la dispense du pape."
+ },
+ {
+  "id": "montgomery",
+  "nom": "Gabriel de Montgomery",
+  "maison_id": "maison-montgomery",
+  "titre": "Comte de Montgomery",
+  "naissance": 1530,
+  "traits": [
+   "mefiant",
+   "soldat",
+   "endurci"
+  ],
+  "objectifs": [
+   {
+    "but": "Rester en vie : la reine mere ne l'a jamais pardonne",
+    "priorite": 1
+   },
+   {
+    "but": "Garder ses chevaux prets",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Rude, peu de mots, regarde toujours les portes.",
+  "etat": "actif",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "A tue Henri II en joute en 1559. Loge au faubourg Saint-Germain, outre-Seine."
+ },
+ {
+  "id": "charlotte-de-sauve",
+  "nom": "Charlotte de Beaune, dame de Sauve",
+  "maison_id": "maison-valois",
+  "titre": "Dame d'honneur de la reine mere",
+  "naissance": 1551,
+  "traits": [
+   "seduisante",
+   "habile"
+  ],
+  "objectifs": [
+   {
+    "but": "Servir la reine mere",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Rit bas, touche les manches, ne pose jamais une question directe.",
+  "etat": "dormant",
+  "lieu_id": "paris",
+  "condition": "libre",
+  "_": "Dormante. De l'escadron volant de la reine mere ; canon : placee pres d'Henri vers 1574."
+ }
+]

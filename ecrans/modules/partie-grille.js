@@ -369,10 +369,12 @@ window.PartieGrille = (function () {
     // dans la bande du haut, le volet se decale a cote d'elle plutot que
     // dessus, pour qu'on voie encore ce qu'on lit.
     let left = r.left;
-    if (r.top < 6 + h + 4) left = (r.left - w - 8 >= 6) ? r.left - w - 8 : r.right + 8;
+    const barre = document.getElementById("vue-bascule"); // sous les onglets du decor, qui le couvraient (10.9)
+    const haut = Math.max(6, barre ? Math.round(barre.getBoundingClientRect().bottom) + 6 : 6);
+    if (r.top < haut + h + 4) left = (r.left - w - 8 >= 6) ? r.left - w - 8 : r.right + 8;
     t.style.left = Math.max(6, Math.min(left, W - w - 6)) + "px";
-    t.style.top = "6px";
-    t.style.maxHeight = (H - 12) + "px";
+    t.style.top = haut + "px";
+    t.style.maxHeight = (H - haut - 6) + "px";
   }
 
   // ---- le geste : on prend une carte, on la pose sur une autre -------------
@@ -1027,46 +1029,11 @@ window.PartieGrille = (function () {
     return l;
   }
 
-  // ---- le journal dans le fil, non persisté --------------------------------
-  // Chaque ligne nouvelle du greffe est DITE dans le fil, en item hors fiction,
-  // joué sur place par `Bus.rendre(…, true)` : rien n'entre dans flux.jsonl,
-  // rien ne survit au rechargement. Le fil raconte, le jsonl fait foi.
-  let logVu = null;
-  const NOMS = { viser: "vise", bloquer: "pose un verrou sur", lever: "pose une clef pour", rearmer: "renforce",
-                 justifier: "questionne", agir: "répond sur", demander: "demande", detruire: "frappe",
-                 retourner: "achète", retirer: "reprend", passer: "passe", constater: "constate",
-                 arbitrer: "arbitre", tour: "passe le jour", consigne: "consigne", sortir: "sort" };
-  function loguer(vue) {
-    const j = (vue && vue.journal) || [];
-    if (!window.Bus || !Bus.rendre) return;
-    // PREMIER REGARD : ce qui s'est joué depuis notre dernier coup va DANS LE
-    // FIL, pas au-dessus du plateau. Le bloc « Ce qui s'est joué depuis votre
-    // coup » y tenait une place fixe et répétait ce que le fil dit déjà de
-    // chaque ligne neuve. La relecture (le greffe, ids rhabillés) est dite ici
-    // une fois, en items hors fiction, sans rien écrire ; ensuite chaque ligne
-    // nouvelle arrive par le même chemin, au fur et à mesure.
-    if (logVu === null) {
-      logVu = vue.dernier || 0;
-      ((vue && vue.relecture) || []).forEach((e) => {
-        try { Bus.rendre({ type: "coulisses", qui: "le greffe · tour " + e.tour,
-                           texte: rond(e.camp) + " " + (e.camp || "") + " " + (e.dit || "") }, true); }
-        catch (x) { /* le fil n'est pas là : le jsonl a tout */ }
-      });
-      return;
-    }
-    j.filter((l) => l.n > logVu).forEach((l) => {
-      const qui = rond(l.camp) + " " + (l.camp || "");
-      const quoi = (NOMS[l.coup] || l.coup) + (l.sujet ? " « " + l.sujet + " »" : "")
-                 + (l.verdict ? " — " + l.verdict : "")
-                 + (l.engage && l.engage.length ? " · avec " + l.engage.join(", ") : "")
-                 + (l.gratuit ? " (gratuit)" : "");
-      const texte = l.texte && l.texte !== l.sujet ? " — " + l.texte : "";
-      try { Bus.rendre({ type: "coulisses", qui: "le greffe · tour " + l.tour,
-                         texte: l.emoji + " " + qui + " " + quoi + texte }, true); }
-      catch (e) { /* le fil n'est pas là : on ne perd rien, le jsonl a tout */ }
-    });
-    logVu = Math.max(logVu, vue.dernier || 0);
-  }
+  // ---- le journal de la partie N'EST PLUS DIT DANS LE FIL (7.10) ----------
+  // Les lignes « le greffe · tour N » tombaient dans le fil du siège : la reine
+  // y lisait les coups d'une autre partie du conseil. Le journal reste dans
+  // son jsonl et sur le plateau.
+  function loguer() {}
 
   return {
     armer: (o) => { outil = o; },

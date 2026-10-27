@@ -2,7 +2,7 @@
 // siège les croit : jetons, traits, bannières, et le vieillissement des certitudes.
 const fs = require("fs");
 const path = require("path");
-const { RACINE, dateDe, lireCroyance } = require("../http");
+const { ETAT, dateDe, lireCroyance } = require("../http");
 const { AGE_DIT, jourAbsolu, vieillir } = require("../http");
 const { envoyer } = require("../http");
 const { qui, regardeur } = require("../http");
@@ -14,11 +14,11 @@ function traiter(req, res, url) {
         const siege = qui(req, url);
         // Le monde commun se lit à la racine ; ce que le demandeur CROIT se
         // lit dans son dossier quand il en a un.
-        const lire = (f) => JSON.parse(fs.readFileSync(path.join(RACINE, "etat", f), "utf-8"));
+        const lire = (f) => JSON.parse(fs.readFileSync(path.join(ETAT, f), "utf-8"));
         const lireSien = (f, defaut) => lireCroyance(f, siege, defaut);
         const maisons = {};
         lire("maisons.json").forEach((m) => (maisons[m.id] = m));
-        const lieux = lire("lieux.json").map((l) => ({
+        let lieux = lire("lieux.json").map((l) => ({
           // `alias` part avec le reste : la couche carte a ses propres ids, et
           // sans le pont le registre affiche « repaire-aux-corneilles » là où
           // il faut lire « Repos-des-Freux ».
@@ -26,6 +26,33 @@ function traiter(req, res, url) {
           controle_id: l.controle_id,
           allegeance: (maisons[l.controle_id] || {}).allegeance_affichee || "neutre",
         }));
+        // Certains mondes se cartographient au pas : un lieu n'entre sur la
+        // table d'un siège qu'après un item de flux qui l'y a réellement
+        // placé. Le drapeau vit avec la carte du monde pour ne rien changer
+        // aux anciennes parties, dont la géographie publique est connue dès
+        // le départ.
+        try {
+          const cfgPath = path.join(path.dirname(ETAT), "carte", "cadrages.json");
+          const cfg = JSON.parse(fs.readFileSync(cfgPath, "utf-8"));
+          if (cfg.lieux_visites_seulement && siege) {
+            const siegeId = siege.personnage_id;
+            const connus = new Set();
+            const fluxPath = path.join(ETAT, "flux.jsonl");
+            const visible = (item) => {
+              if (item.pour == null) return true;
+              return Array.isArray(item.pour)
+                ? item.pour.includes(siegeId) : item.pour === siegeId;
+            };
+            fs.readFileSync(fluxPath, "utf-8").split(/\r?\n/).forEach((ligne) => {
+              if (!ligne.trim()) return;
+              try {
+                const item = JSON.parse(ligne);
+                if (item.salle && visible(item)) connus.add(item.salle);
+              } catch (e) {}
+            });
+            lieux = lieux.filter((l) => connus.has(l.id));
+          }
+        } catch (e) {}
         let joueur_lieu_id = null, date = null, joueur_id_carte = null;
         try {
           // Sur QUI la carte se centre, et quelle tête elle tait. À deux, ce
@@ -35,7 +62,11 @@ function traiter(req, res, url) {
           const journal = lire("journal.json");
           const moi = regardeur(siege, journal);
           const pj = lire("personnages.json").find((p) => p.id === moi);
-          if (pj) { joueur_lieu_id = pj.lieu_id || null; joueur_id_carte = pj.id; }
+          if (pj) {
+            const presence = (lire("presence.json").presence || {})[moi];
+            joueur_lieu_id = (presence && presence.salle) || pj.lieu_id || null;
+            joueur_id_carte = pj.id;
+          }
         } catch (e) {}
         date = dateDe(siege);
         // Ce que la table PORTE : osts, flottes, marches, sièges, serments.
@@ -182,11 +213,14 @@ function traiter(req, res, url) {
         let ou = null;
         try {
           const siege = qui(req, url);
-          const lire = (f) => JSON.parse(fs.readFileSync(path.join(RACINE, "etat", f), "utf-8"));
+          const lire = (f) => JSON.parse(fs.readFileSync(path.join(ETAT, f), "utf-8"));
           const journal = lire("journal.json");
           const moi = regardeur(siege, journal);
           const pj = lire("personnages.json").find((p) => p.id === moi);
-          if (pj) ou = pj.lieu_id || null;
+          if (pj) {
+            const presence = (lire("presence.json").presence || {})[moi];
+            ou = (presence && presence.salle) || pj.lieu_id || null;
+          }
         } catch (e) {}
         // UN JOUEUR DONT ON IGNORE LA POSITION N'HÉRITE D'AUCUNE CARTE.
         // Le repli sur `etat/ville.json` ne valait que pour une partie seule,
@@ -200,9 +234,9 @@ function traiter(req, res, url) {
         // un id de lieu est du kebab-case ; on refuse tout le reste, sinon
         // `..` dans un lieu_id ouvrirait le disque entier.
         if (/^[a-z0-9-]+$/.test(ou)) {
-          fichiers.push(path.join(RACINE, "etat", "villes", ou + ".json"));
+          fichiers.push(path.join(ETAT, "villes", ou + ".json"));
         }
-        fichiers.push(path.join(RACINE, "etat", "ville.json"));
+        fichiers.push(path.join(ETAT, "ville.json"));
         for (const f of fichiers) {
           if (!fs.existsSync(f)) continue;
           const champ = JSON.parse(fs.readFileSync(f, "utf-8"));

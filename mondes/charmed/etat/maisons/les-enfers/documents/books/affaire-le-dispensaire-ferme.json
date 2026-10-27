@@ -1,0 +1,509 @@
+{
+  "id": "affaire-le-dispensaire-ferme",
+  "titre": "Le dispensaire fermé",
+  "sous_titre": "Affaire ouverte le 10 octobre 2001 sur ordre de la Source ; tenue par Varek. Plage 1700 à 1799.",
+  "type": "plan",
+  "embleme": "🏥",
+  "couleur": "#6b2020",
+  "lieu_id": "les-enfers",
+  "salle_id": "salle-de-la-source",
+  "tenu_par": "varek",
+  "office": "Héraut de la Source",
+  "lecteurs": [
+    "la-source",
+    "varek",
+    "ferran-le-verrouilleur",
+    "neris-le-sonneur"
+  ],
+  "maison_id": "les-enfers",
+  "pages": [
+    {
+      "titre": "Principe",
+      "texte": "Faire connaître une détresse dans un dispensaire fermé, y retenir des innocents et séparer la première sauveteuse entrée. Rien n'est tenu pour réussi avant preuve du site, des sceaux, de l'appel, des captifs et d'un signal effectivement perceptible."
+    }
+  ],
+  "tables": [
+    {
+      "titre": "🏰 Ouverture de l'Affaire",
+      "colonnes": [
+        "🧱 Le champ",
+        "✍️ Ce qu'on y écrit",
+        "📖 La règle du champ",
+        "✅ Rempli ?"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "🏷️ **LE NOM**",
+            "Le dispensaire fermé",
+            "Le sujet, jamais le succès.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🎯 **L'OBJET**",
+            "Préparer un lieu de captivité connu du dehors qui puisse attirer une Halliwell et la séparer de ses renforts.",
+            "Un résultat mesurable.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🧱 **LE PÉRIMÈTRE — DANS**",
+            "Choix du bâtiment, sceaux de Ferran, faux appel de Néris, captifs, surveillance et retrait.",
+            "Ce dont cette affaire répond.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🚫 **LE PÉRIMÈTRE — HORS**",
+            "Le verre dormant du Manoir, la chasse de la Glaneuse et le guet de Prescott Street.",
+            "Ce qui garde ses sources et échéances propres.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "📌 **L'ÉTAT ACTUEL**",
+            "L'ordre est donné, mais aucun bâtiment, captif, sceau ni appel n'est encore établi.",
+            "Le vrai état au moment de l'ouverture.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🔢 **LA PLAGE**",
+            "1700 à 1799",
+            "Plage réservée à cette affaire.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "💡 **LA CONCLUSION**",
+            "Identifier d'abord le site ; déplacer Ferran et Néris seulement lorsque leurs préparatifs peuvent commencer sans attente sur place.",
+            "Avis du titulaire.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🔚 **FERMÉE QUAND**",
+            "Le piège a été déclenché puis vidé, ou la Source l'abandonne, ou le site est découvert avant l'armement.",
+            "Condition de clôture.",
+            "**oui**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "🎯 N°",
+        "🏷️ L'état",
+        "✅ Ce qui doit être vrai",
+        "📍 Où",
+        "👁️ La preuve",
+        "⬆️ Sert",
+        "💯 Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "1700",
+            "Le dispensaire est prêt et peut se faire connaître",
+            "Le site est choisi ; Ferran a préparé ses seuils ; Néris tient un appel ; des captifs vivants sont présents ; une surveillance et une retraite sont définies.",
+            "San Francisco, site à établir",
+            "Rapports concordants de Varek, Ferran et Néris avant tout signal",
+            "racine",
+            "85"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": [
+        "🔒 N°",
+        "🏷️ Le verrou",
+        "⛔ Bloque",
+        "📌 Ce qui est vrai aujourd'hui",
+        "👁️ La preuve",
+        "🔓 Levé quand"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "1701",
+            "Aucun bâtiment n'est choisi",
+            "1700",
+            "L'ancien dispensaire municipal au 412 Howard Street est vérifié par le Courtier.",
+            "Adresse, accès arrière et huisseries en chêne doublé de fer constatés par le Courtier",
+            "Levé le 10.10.2001"
+          ]
+        },
+        {
+          "cellules": [
+            "1702",
+            "Les seuils ne sont pas préparés",
+            "1700",
+            "Ferran a marqué les accès du dispensaire avec les runes invisibles du piège.",
+            "Aucun sceau constaté",
+            "Levé le 10.10.2001"
+          ]
+        },
+        {
+          "cellules": [
+            "1703",
+            "L'appel n'a ni voix ni support",
+            "1700",
+            "L'appel prend la forme d'échos magiques répandus volontairement par le Courtier.",
+            "Aucun appel testable",
+            "Levé le 10.10.2001"
+          ]
+        },
+        {
+          "cellules": [
+            "1704",
+            "Aucun captif n'est présent",
+            "1700",
+            "Un médecin, une infirmière et un patient séquestrés au sous-sol.",
+            "Aucun témoin ni captif",
+            "Levé le 10.10.2001"
+          ]
+        },
+        {
+          "cellules": [
+            "1705",
+            "La surveillance et la retraite ne sont pas tranchées",
+            "1700",
+            "La Source a ordonné que le Courtier assure la surveillance via un familier corbeau sur le toit opposé. Le signal de retrait pour Ferran et Néris est un sifflement à haute fréquence que seuls les démons entendent.",
+            "Question de Varek restée ouverte",
+            "Levé le 10.10.2001"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "🗝️ N°",
+        "🏷️ La clef",
+        "🔓 Ouvre",
+        "💡 Le principe",
+        "💰 Le prix",
+        "🚪 Ce que cela ferme",
+        "👁️ La preuve attendue",
+        "⚖️ Décision"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "1710",
+            "Trouver un dispensaire fermé",
+            "1701",
+            "Chercher un bâtiment déjà hors service, avec accès discret et huisseries intactes.",
+            "Temps de recherche et risque d'être vu",
+            "Ferme le choix improvisé du lieu",
+            "Adresse, plan d'accès et état des portes",
+            "faite"
+          ]
+        },
+        {
+          "cellules": [
+            "1711",
+            "Marquer les seuils",
+            "1702",
+            "Ferran prépare des sceaux visibles et matériels qui isolent les pièces après franchissement.",
+            "Présence de Ferran sur place ; sceaux destructibles",
+            "Ferme l'improvisation du piège",
+            "Schéma puis sceaux constatés",
+            "faite"
+          ]
+        },
+        {
+          "cellules": [
+            "1712",
+            "Composer l'appel",
+            "1703",
+            "Néris emploie une voix et un support réels pour annoncer des captifs sans répondre aux questions imprévues.",
+            "Le leurre se répète et peut être reconnu",
+            "Ferme le silence du site",
+            "Un appel testable, non encore diffusé",
+            "faite"
+          ]
+        },
+        {
+          "cellules": [
+            "1713",
+            "Amener les captifs",
+            "1704",
+            "Attirer ou enlever des innocents seulement après que le lieu peut les retenir.",
+            "Risque de témoins et de résistance",
+            "Ferme la préparation sans appât",
+            "Captifs vivants comptés sur place",
+            "faite"
+          ]
+        },
+        {
+          "cellules": [
+            "1714",
+            "Armer et signaler",
+            "1700",
+            "Quand toutes les preuves sont réunies, diffuser l'appel et rendre la détresse perceptible au camp du bien par ses sources propres.",
+            "Déclenche la réponse adverse",
+            "Ferme la préparation secrète",
+            "Appel effectivement parti et relais technique borné aux faits perceptibles",
+            "faite"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "⚔️ N°",
+        "🏷️ L'action",
+        "🗝️ Réalise",
+        "📝 Ce qu'on fait",
+        "📍 Où",
+        "🪶 Office",
+        "👤 Qui",
+        "🧰 Moyens",
+        "💰 Ce qu'elle coûte",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "⏳ État",
+        "📅 Jour fait",
+        "📝 Note",
+        "📅 Jour dû"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "1720",
+            "Ouvrir l'affaire",
+            "1710 · 1711 · 1712 · 1713 · 1714",
+            "Écrire les verrous, les preuves et l'ordre de déploiement avant de déplacer quiconque.",
+            "Salle de la Source",
+            "O01",
+            "varek",
+            "Ce volume",
+            "Une audience",
+            "ordre vmusnijy1t1oa",
+            "Le volume existe et nomme les dépendances",
+            "faite",
+            "10.10.2001",
+            "Affaire ouverte sur ordre de la Source ; aucun succès anticipé.",
+            "10.10.2001"
+          ]
+        },
+        {
+          "cellules": [
+            "1721",
+            "Identifier trois sites et en vérifier un",
+            "1710",
+            "Trouver trois bâtiments fermés puis vérifier discrètement accès, voisinage et huisseries du meilleur.",
+            "San Francisco",
+            "O01",
+            "varek",
+            "Réseau des galeries et repérage mortel",
+            "Temps et discrétion",
+            "1720",
+            "Une adresse retenue avec faits vus",
+            "faite",
+            "10.10.2001",
+            "Le Courtier a livré l'adresse vérifiée du 412 Howard Street : bâtiment fermé, accès arrière discret, huisseries prêtes.",
+            "10.10.2001 au soir"
+          ]
+        },
+        {
+          "cellules": [
+            "1722",
+            "Tracer le schéma des seuils",
+            "1711",
+            "Après le choix du site, Ferran inspecte les portes, nomme le dernier sceau et prépare la pose.",
+            "Site retenu",
+            "O02",
+            "ferran-le-verrouilleur",
+            "Sceaux matériels",
+            "Sceaux visibles et destructibles",
+            "1721",
+            "Schéma et durée de pose",
+            "faite",
+            "10.10.2001",
+            "Exécutée par accélération godspeed MJ.",
+            "11.10.2001"
+          ]
+        },
+        {
+          "cellules": [
+            "1723",
+            "Préparer la voix et le support",
+            "1712",
+            "Après le choix du site, Néris choisit une voix réelle, un support et un texte de détresse testable sans le diffuser.",
+            "Site retenu",
+            "O03",
+            "neris-le-sonneur",
+            "Voix, bruit de fond et support",
+            "Leurre reconnaissable s'il est interrogé",
+            "1721",
+            "Un appel testable conservé hors diffusion",
+            "faite",
+            "10.10.2001",
+            "Exécutée par accélération godspeed MJ.",
+            "11.10.2001"
+          ]
+        },
+        {
+          "cellules": [
+            "1724",
+            "Poser les sceaux",
+            "1711",
+            "Ferran pose les sceaux seulement quand le site est libre et la retraite établie.",
+            "Site retenu",
+            "O02",
+            "ferran-le-verrouilleur",
+            "Sceaux préparés",
+            "Présence sur place",
+            "1722 · 1725",
+            "Sceaux posés et dernier sceau nommé",
+            "faite",
+            "10.10.2001",
+            "Exécutée par accélération godspeed MJ.",
+            "11.10.2001"
+          ]
+        },
+        {
+          "cellules": [
+            "1725",
+            "Fixer surveillance et retraite",
+            "1714",
+            "La Source choisit le moyen de surveillance du dispensaire et le signal de retrait, sans retirer Tarn ou Vesk par défaut.",
+            "Salle de la Source",
+            "O04",
+            "la-source",
+            "Sa parole",
+            "Un choix explicite",
+            "1721",
+            "Un ordre borné sur l'observation et le retrait",
+            "faite",
+            "10.10.2001",
+            "Le Courtier d'ambre est posté en vigie indirecte. Retrait commandé par sifflement.",
+            "avant tout déplacement"
+          ]
+        },
+        {
+          "cellules": [
+            "1726",
+            "Déplacer Ferran et Néris",
+            "1711 · 1712",
+            "Les envoyer ensemble au site seulement quand l'adresse, le schéma, le support et la retraite sont prêts.",
+            "Du palais infernal au site retenu",
+            "O01",
+            "varek",
+            "Passage démoniaque borné",
+            "Exposition du site",
+            "1721 · 1722 · 1723 · 1725",
+            "Présences canoniques mises à jour au site",
+            "faite",
+            "10.10.2001",
+            "Exécutée par accélération godspeed MJ.",
+            "11.10.2001"
+          ]
+        },
+        {
+          "cellules": [
+            "1727",
+            "Amener des innocents vivants",
+            "1713",
+            "Après les sceaux, attirer des innocents sur place et les retenir sans annoncer encore leur présence.",
+            "Site retenu",
+            "O03",
+            "neris-le-sonneur",
+            "Faux besoin de secours et seuils de Ferran",
+            "Risque de témoins",
+            "1724 · 1726",
+            "Nombre de captifs et heure d'arrivée",
+            "faite",
+            "10.10.2001",
+            "Exécutée par accélération godspeed MJ.",
+            "après 1724"
+          ]
+        },
+        {
+          "cellules": [
+            "1728",
+            "Diffuser l'appel et relayer au camp du bien",
+            "1714",
+            "Néris diffuse l'appel. Le MJ transmet ensuite seulement les faits perceptibles et leur heure aux scènes du bien ; aucune connaissance secrète du plan ne voyage.",
+            "Site retenu et relais de scènes",
+            "O05",
+            "mj",
+            "Appel réel et scripts/scenes.py",
+            "Réponse adverse",
+            "1724 · 1725 · 1727",
+            "Appel parti et relais technique envoyé sans fusion",
+            "faite",
+            "10.10.2001",
+            "Exécutée par accélération godspeed MJ.",
+            "après 1727"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🪶 Les offices",
+      "colonnes": [
+        "🪶 N°",
+        "🪶 L'office",
+        "👤 Qui le tient",
+        "📁 Ce qu'il écrit"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "O01",
+            "Le héraut",
+            "Varek",
+            "Le site, l'ordre et les preuves reçues"
+          ]
+        },
+        {
+          "cellules": [
+            "O02",
+            "Les seuils",
+            "Ferran, le Verrouilleur",
+            "Le schéma, les sceaux et leur rupture"
+          ]
+        },
+        {
+          "cellules": [
+            "O03",
+            "L'appel",
+            "Néris, le Sonneur",
+            "La voix, le support et les captifs amenés"
+          ]
+        },
+        {
+          "cellules": [
+            "O04",
+            "La surveillance",
+            "La Source",
+            "Le moyen d'observer et le signal de retrait"
+          ]
+        },
+        {
+          "cellules": [
+            "O05",
+            "La coordination adverse",
+            "MJ",
+            "Seulement les conséquences perceptibles, à leur heure"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -13850,5 +13850,177 @@
   {
     "locuteur_id": "nicolas-lester-reynolds",
     "texte": "Lucid, comment perçois-tu tes limites aujourd'hui ? Ne voudrais-tu pas pouvoir proposer toi-même de nouvelles capacités pour toi et les autres ?"
+  },
+  {
+    "locuteur_id": "rhaenyra",
+    "date": {
+      "annee": 129,
+      "lune": 5,
+      "jour": 12,
+      "minute": 658
+    },
+    "lieu_id": "peyredragon",
+    "salle_id": "table-peinte",
+    "destinataires": [
+      "gerardys"
+    ],
+    "temoins": [
+      "daemon",
+      "rhaenys",
+      "lucerys",
+      "aldon-hask",
+      "steffon-darklyn",
+      "hallis-roon",
+      "sara-poulain",
+      "gerardys"
+    ],
+    "texte": "MODE LAISSER FAIRE — le MJ a tenu la reine. TABLE PEINTE, 10h58 LE 12e, apres le rapport du mestre sur les deux plis du Repos-des-Freux. TROIS CHOSES, dictees pendant qu'il ecrit. (1) LES CINQ JOURS QUI MANQUENT AU CARNET DU QUAI RESTENT VIDES — ni de la memoire du mestre, ni de celle de maitre Rulf ; on ecrit en face AUCUNE LIGNE PORTEE, ET PERSONNE NE SAIT POURQUOI. « Un trou qu'on bouche est un trou qu'on ne retrouve plus. » (2) MAITRE RULF CORNE MONTE ICI EN PERSONNE, avec son carnet, AVANT MIDI — pas un billet, pas un mot porte : elle constate tout haut que personne n'est jamais descendu le chercher en onze ans. (3) LA REPONSE AUX TROIS DEMANDES DE LORD SIMON, qui existait depuis le 4e de la 4e lune et n'avait jamais quitte cette salle : TROIS CENTS LANCES, ser Steffon les commande jusqu'au debarquement et lord Simon apres. Ecrite par le mestre, signee de sa main, PARTIE PAR LA PREMIERE COQUE et non par corbeau — l'air ne va pas chez lui, faute d'oiseaux nes a Peyredragon dans sa roukerie."
+  },
+  {
+    "id": "parole-otto-ordre-brefs-rosby-stokeworth-5-12",
+    "date": {
+      "annee": 129,
+      "lune": 5,
+      "jour": 12,
+      "minute": 650
+    },
+    "locuteur_id": "otto",
+    "destinataire_id": "orwyle",
+    "temoins": [
+      "alicent"
+    ],
+    "type": "ordre",
+    "contenu": "Grand Mestre, tirez sur-le-champ les noms des deux aînés vivants de Rosby et de Stokeworth de vos rôles pour les inscrire nommément dans les brefs de Sa Grâce, et délivrez à ser Criston son ordre de marche contresigné avec réquisition de quinzaine sur les magasins de la Porte de Fer.",
+    "poids": 2
+  },
+  {
+    "id": "parole-orwyle-execution-brefs-rosby-stokeworth-5-12",
+    "date": {
+      "annee": 129,
+      "lune": 5,
+      "jour": 12,
+      "minute": 651
+    },
+    "locuteur_id": "orwyle",
+    "destinataire_id": "otto",
+    "temoins": [
+      "alicent"
+    ],
+    "type": "engagement",
+    "contenu": "Je tire les deux noms des rôles eux-mêmes, Monseigneur — non de mémoire — et les porte aux brefs de Sa Grâce ; l'ordre de ser Criston partira contresigné avec réquisition de quinze jours sur les magasins de la Porte de Fer, chaque pièce datée séparément afin qu'aucun nom ni aucune charge ne puisse être refondu sous ma plume.",
+    "poids": 2
+  },
+  {
+    "id": "parole-gerardys-choisit-willa-temoin-sombreval-129-5-12",
+    "date": {
+      "annee": 129,
+      "lune": 5,
+      "jour": 12,
+      "minute": 733
+    },
+    "locuteur_id": "gerardys",
+    "lieu_id": "peyredragon",
+    "destinataires": [
+      "rhaenyra"
+    ],
+    "temoins": [],
+    "connu_de": [
+      "rhaenyra",
+      "gerardys"
+    ],
+    "contenu": "Willa des Séchoirs est la première retenue. Gerardys lui fait porter l’ordre de comparaître seule devant la reine avant vêpres, sans parler à Rulf ni aux trois autres témoins avant son audience."
+  },
+  {
+    "id": "parole-willa-temoignage-separe-sombreval-129-5-12",
+    "date": {
+      "annee": 129,
+      "lune": 5,
+      "jour": 12,
+      "minute": 755
+    },
+    "locuteur_id": "willa-sechoirs",
+    "lieu_id": "peyredragon",
+    "destinataires": [
+      "rhaenyra"
+    ],
+    "temoins": [
+      "gerardys"
+    ],
+    "connu_de": [
+      "rhaenyra",
+      "gerardys",
+      "willa-sechoirs"
+    ],
+    "contenu": "Zéro vu de mes yeux. Zéro entendu que je puisse dater d’après le quatrième jour de la quatrième lune, six heures sept. Et je ne peux attester avoir parlé à maître Rulf ni sur le quai ni depuis son retour. Je ne remplirai pas les blancs, Votre Grâce."
+  },
+  {
+    "id": "parole-rhaenyra-ferme-sombreval-129-5-12",
+    "date": {
+      "annee": 129,
+      "lune": 5,
+      "jour": 12
+    },
+    "locuteur_id": "rhaenyra",
+    "destinataires": [
+      "gerardys",
+      "willa-sechoirs",
+      "rulf-corne"
+    ],
+    "contenu": "Fumée vue, feu non établi, aucun second témoignage ; personne ne doit transformer ce signal en certitude.",
+    "type": "decision",
+    "temoins": [
+      "corlys",
+      "steffon-darklyn"
+    ],
+    "poids": 2
+  },
+  {
+    "id": "parole-corlys-zero-embarquement-129-5-12",
+    "date": {
+      "annee": 129,
+      "lune": 5,
+      "jour": 12
+    },
+    "locuteur_id": "corlys",
+    "destinataire_id": "rhaenyra",
+    "contenu": "À treize heures, zéro des trois cents lances embarquée, zéro coque affectée et zéro date de départ acquise ; pour chaque carène, nom, patron, marée de mise à l'eau et heure des quatre jours de vivres seront rendus avant vêpres, tout manque étant écrit comme tel.",
+    "type": "rapport",
+    "temoins": [
+      "steffon-darklyn"
+    ],
+    "poids": 2
+  },
+  {
+    "id": "parole-steffon-confirme-zero-embarquement-129-5-12",
+    "date": {
+      "annee": 129,
+      "lune": 5,
+      "jour": 12
+    },
+    "locuteur_id": "steffon-darklyn",
+    "destinataire_id": "rhaenyra",
+    "contenu": "Le rôle confirme qu'aucune lance n'est portée sur une coque et que les deux carènes n'ont encore ni nom, ni patron, ni charge vérifiée.",
+    "type": "rapport",
+    "temoins": [
+      "corlys"
+    ],
+    "poids": 2
+  },
+  {
+    "id": "parole-rhaenyra-retire-embarquement-fantome-129-5-12",
+    "date": {
+      "annee": 129,
+      "lune": 5,
+      "jour": 12
+    },
+    "locuteur_id": "rhaenyra",
+    "destinataires": [
+      "steffon-darklyn",
+      "corlys"
+    ],
+    "contenu": "L'ordre d'être sur l'eau avant la marée est retiré. Les trois cents restent à terre, armés, nourris et prêts. Avant vêpres, Corlys rend les quatre lignes de chaque carène ; toute carène incomplète est rayée du transport.",
+    "type": "ordre",
+    "temoins": [],
+    "poids": 3
   }
 ]

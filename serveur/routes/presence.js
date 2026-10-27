@@ -1,7 +1,7 @@
 // GET /presence — qui est où, à cette minute, pour CE siège.
 const fs = require("fs");
 const path = require("path");
-const { RACINE, dateDe, resoudrePresence } = require("../http");
+const { ETAT, dateDe, resoudrePresence } = require("../http");
 const { envoyer } = require("../http");
 const { qui, roster } = require("../http");
 
@@ -10,7 +10,7 @@ function traiter(req, res, url) {
     if (url === "/presence") {
       try {
         const siege = qui(req, url);
-        const lire = (f) => JSON.parse(fs.readFileSync(path.join(RACINE, "etat", f), "utf-8"));
+        const lire = (f) => JSON.parse(fs.readFileSync(path.join(ETAT, f), "utf-8"));
         let moi = siege && siege.personnage_id;
         // LA RÉGIE N'EST NULLE PART, donc elle se tient où se tient le siège
         // principal — sinon son plan resterait vide et il n'y aurait aucun

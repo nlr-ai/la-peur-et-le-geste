@@ -1,19 +1,25 @@
 // GET /fils, /depeches, /objectifs et POST /fils — les fils du joueur et ses desseins.
 const fs = require("fs");
 const path = require("path");
-const { RACINE, cheminEtat, dateDe, lireCroyance } = require("../http");
+const { RACINE, ETAT, cheminEtat, dateDe, lireCroyance } = require("../http");
 const { envoyer } = require("../http");
 const { qui } = require("../http");
 
 function traiter(req, res, url) {
   if (req.method === "GET") {
+    if (url === "/activite-mj") {
+      require("../domaine/activite-mj").activiteMj(qui(req, url))
+        .then(d => envoyer(res, 200, JSON.stringify(d)))
+        .catch(() => envoyer(res, 503, JSON.stringify({ erreur: "activite indisponible" })));
+      return;
+    }
     if (url === "/fils") {
       try {
         const siege = qui(req, url);
         const aujourdhui = dateDe(siege);
         const noms = {};
         try {
-          JSON.parse(fs.readFileSync(path.join(RACINE, "etat", "personnages.json"), "utf-8"))
+          JSON.parse(fs.readFileSync(path.join(ETAT, "personnages.json"), "utf-8"))
             .forEach((p) => { noms[p.id] = p.nom.split(",")[0].trim(); });
         } catch (e) {}
         const brut = lireCroyance("fils.json", siege, null);
@@ -63,7 +69,7 @@ function traiter(req, res, url) {
     if (url === "/objectifs") {
       try {
         const siege = qui(req, url);
-        const lire = (f) => JSON.parse(fs.readFileSync(path.join(RACINE, "etat", f), "utf-8"));
+        const lire = (f) => JSON.parse(fs.readFileSync(path.join(ETAT, f), "utf-8"));
         const aujourdhui = dateDe(siege);
         const noms = {};
         try {
@@ -119,8 +125,8 @@ function traiter(req, res, url) {
         f.mode = mode;
         fs.writeFileSync(p, JSON.stringify(doc, null, 1), "utf-8");
         const dossier = siege
-          ? path.join(RACINE, "etat", "inbox", siege.personnage_id)
-          : path.join(RACINE, "etat", "inbox");
+          ? path.join(ETAT, "inbox", siege.personnage_id)
+          : path.join(ETAT, "inbox");
         fs.mkdirSync(dossier, { recursive: true });
         fs.writeFileSync(path.join(dossier, "action-" + Date.now() + ".json"),
           JSON.stringify({

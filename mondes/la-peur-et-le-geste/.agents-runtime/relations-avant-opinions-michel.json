@@ -1,0 +1,388 @@
+[
+  {
+    "source_id": "raymond-moreau",
+    "cible_id": "josette-moreau",
+    "opinion": 34,
+    "liens": [
+      "époux"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "josette-moreau",
+    "cible_id": "raymond-moreau",
+    "opinion": 64,
+    "liens": [
+      "époux"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "raymond-moreau",
+    "cible_id": "solange-joubert",
+    "opinion": 62,
+    "liens": [
+      "frère et sœur"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "solange-joubert",
+    "cible_id": "raymond-moreau",
+    "opinion": 60,
+    "liens": [
+      "frère et sœur"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "michel",
+    "cible_id": "lucien-frere-de-michel",
+    "opinion": 0,
+    "liens": [
+      "frères"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "lucien-frere-de-michel",
+    "cible_id": "michel",
+    "opinion": 0,
+    "liens": [
+      "frères"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "michel",
+    "cible_id": "augustine-simonneau",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "augustine-simonneau",
+    "cible_id": "michel",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "lucien-frere-de-michel",
+    "cible_id": "augustine-simonneau",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "augustine-simonneau",
+    "cible_id": "lucien-frere-de-michel",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "michel",
+    "cible_id": "auguste-barreau",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "auguste-barreau",
+    "cible_id": "michel",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "lucien-frere-de-michel",
+    "cible_id": "auguste-barreau",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "auguste-barreau",
+    "cible_id": "lucien-frere-de-michel",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "michel",
+    "cible_id": "fernand-moreau",
+    "opinion": 0,
+    "liens": [
+      "collègues"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "fernand-moreau",
+    "cible_id": "michel",
+    "opinion": 0,
+    "liens": [
+      "collègues"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "michel",
+    "cible_id": "augustine-brochard",
+    "opinion": 0,
+    "liens": [
+      "connaissances de jeunesse"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "augustine-brochard",
+    "cible_id": "michel",
+    "opinion": 0,
+    "liens": [
+      "connaissances de jeunesse"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "michel",
+    "cible_id": "alphonse-nau",
+    "opinion": 0,
+    "liens": [
+      "collègues"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "alphonse-nau",
+    "cible_id": "michel",
+    "opinion": 0,
+    "liens": [
+      "collègues"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "michel",
+    "cible_id": "jacques-chatain",
+    "opinion": 0,
+    "liens": [
+      "connaissances de jeunesse"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "jacques-chatain",
+    "cible_id": "michel",
+    "opinion": 0,
+    "liens": [
+      "connaissances de jeunesse"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "michel",
+    "cible_id": "jeanne-proust",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "jeanne-proust",
+    "cible_id": "michel",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "lucien-frere-de-michel",
+    "cible_id": "jeanne-proust",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "jeanne-proust",
+    "cible_id": "lucien-frere-de-michel",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "michel",
+    "cible_id": "lucienne-thibault",
+    "opinion": 0,
+    "liens": [
+      "connaissances de jeunesse"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "lucienne-thibault",
+    "cible_id": "michel",
+    "opinion": 0,
+    "liens": [
+      "connaissances de jeunesse"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "michel",
+    "cible_id": "celine-joubert",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "celine-joubert",
+    "cible_id": "michel",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "lucien-frere-de-michel",
+    "cible_id": "celine-joubert",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "celine-joubert",
+    "cible_id": "lucien-frere-de-michel",
+    "opinion": 0,
+    "liens": [
+      "contact régulier"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "michel",
+    "cible_id": "aime-vallet",
+    "opinion": 0,
+    "liens": [
+      "collègues"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "aime-vallet",
+    "cible_id": "michel",
+    "opinion": 0,
+    "liens": [
+      "collègues"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "raymond-moreau",
+    "cible_id": "jacques-augereau",
+    "opinion": 42,
+    "liens": [
+      "collègues",
+      "habitués"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "jacques-augereau",
+    "cible_id": "raymond-moreau",
+    "opinion": 28,
+    "liens": [
+      "collègues",
+      "habitués"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "raymond-moreau",
+    "cible_id": "emile-guillon",
+    "opinion": 60,
+    "liens": [
+      "collègues",
+      "habitués"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "emile-guillon",
+    "cible_id": "raymond-moreau",
+    "opinion": 54,
+    "liens": [
+      "collègues",
+      "habitués"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "raymond-moreau",
+    "cible_id": "maurice-schneider",
+    "opinion": 42,
+    "liens": [
+      "collègues",
+      "habitués"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "maurice-schneider",
+    "cible_id": "raymond-moreau",
+    "opinion": 68,
+    "liens": [
+      "collègues",
+      "habitués"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "raymond-moreau",
+    "cible_id": "ernest-gaillard",
+    "opinion": 38,
+    "liens": [
+      "collègues",
+      "habitués"
+    ],
+    "connue_du_joueur": true
+  },
+  {
+    "source_id": "ernest-gaillard",
+    "cible_id": "raymond-moreau",
+    "opinion": 50,
+    "liens": [
+      "collègues",
+      "habitués"
+    ],
+    "connue_du_joueur": true
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "partie": "hypotheses-mind",
+  "coups_par_camp": 2,
+  "camps": ["tenants", "sceptiques"],
+  "sieges": {},
+  "coups_interdits": ["consigne"],
+  "note": "ARRÊTÉE AU TOUR 1 : mauvais stade — le projet en est au design, pas à la preuve ; rejouée en design-mind. Ouverte le 11 septembre 2026, jouée par le MJ contre lui-même, arbitre compris. Les TENANTS posent les hypothèses du graphe causal Mind (mind-investment/import/*.json : arêtes CAUSES et hypothèses de travail) et cherchent à en faire passer une de l'assertion à la preuve de simulation. Les SCEPTIQUES exigent la preuve. LES PIÈCES SONT DES FAITS SUR DISQUE : les deux graphes, money-endgame/CLAUDE.md, money-endgame/data/runs (manifestes). L'arbitre ne comble jamais : un run qui n'est pas sur disque n'existe pas.",
+  "fin": {"tour": 6, "regle": "Au sixième tour, l'arbitre lit les runs sur disque : une hypothèse est prouvée si un run Mind apparié à une baseline euro PASS, rejouable, en montre le signe."},
+  "caractere": {
+    "tenants": "Tu soutiens les hypothèses du graphe Mind : la couverture sectorielle fait monter le panier vital couvert, la subvention achète l'adoption, la contribution opacifie le score, le phasage ferme la boucle. Tes pièces : le graphe, le noyau v0.2, les runs sur disque, la campagne codée.",
+    "sceptiques": "Tu exiges la preuve. Ta thèse : toutes ces arêtes sont des assertions à confiance 0,15–0,4, la fonction de prix n'existe pas, la baseline n'est pas robuste, et un plan codé n'est pas un résultat. Tes pièces sont les propres mots du dépôt."
+  }
+}

@@ -45,9 +45,14 @@ import time
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-# Un etage de plus qu'a la racine : scripts/agents/ (voir scripts/CLAUDE.md).
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-PARLOIR = os.path.join(RACINE, "etat", "parloir")
+import racines
+
+# `RACINE` reste le DEPOT : elle lance `scripts/append_flux.py` et sert de
+# reference a `os.path.relpath` pour AFFICHER un chemin. Seul `ETAT` suit
+# le monde.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+PARLOIR = os.path.join(ETAT, "parloir")
 CURSEURS = os.path.join(PARLOIR, ".curseurs")
 
 # LA SALLE COMMUNE. Un nom reserve : ce qu'on y dit, tout le monde l'entend.
@@ -178,7 +183,7 @@ def est_un_joueur_occupe(qui):
     """Un siège occupé se sert au navigateur ; on ne caste jamais sa peau."""
     try:
         from etat.expose import tables
-        joueurs = tables.lire(os.path.join(RACINE, "etat", "joueurs.json"), [])
+        joueurs = tables.lire(os.path.join(ETAT, "joueurs.json"), [])
         if isinstance(joueurs, dict):
             joueurs = joueurs.get("joueurs") or []
         return any(isinstance(j, dict) and j.get("occupe")
@@ -192,7 +197,7 @@ def est_un_joueur_occupe(qui):
 def _nom_de(qui):
     try:
         from etat.expose import tables
-        gens = tables.lire(os.path.join(RACINE, "etat", "personnages.json"), [])
+        gens = tables.lire(os.path.join(ETAT, "personnages.json"), [])
         if isinstance(gens, dict):
             gens = gens.get("personnages") or []
         fiche = next((p for p in gens if isinstance(p, dict)
@@ -210,8 +215,13 @@ def _pousser_au_flux_web(de, joueur, texte, contexte_id=None, ref=None):
         item["contexte_id"] = str(contexte_id)
     if ref:
         item["ref"] = str(ref)
+    from racines import racine as racine_monde
+    from scenes_partagees import Scenes
+    audience = Scenes(racine_monde()).audience(joueur, de, ref)
+    cible = ",".join(audience) if isinstance(audience, list) else audience
+    option = "--messe-basse" if isinstance(audience, list) else "--pour"
     commande = [sys.executable, os.path.join(RACINE, "scripts", "append_flux.py"),
-                json.dumps(item, ensure_ascii=False), "--pour", joueur]
+                json.dumps(item, ensure_ascii=False), option, cible]
     return subprocess.run(commande, cwd=RACINE, check=True,
                           stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                           text=True, encoding="utf-8")
@@ -239,6 +249,8 @@ def rendre_au_joueur(de, joueur, texte, contexte_id=None, ref=None):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--dire", action="store_true")
+    ap.add_argument("--question-monde", action="store_true",
+                    help="PNJ : consulter le MJ sur un fait manquant, hors fiction")
     ap.add_argument(
         "--sans-reveil", action="store_true",
         help="notification MJ : deposer le billet sans caster le destinataire")
@@ -283,6 +295,12 @@ def main():
     contexte_id = (a.contexte or os.environ.get("LE_CONSEIL_CONTEXTE")
                     or None)
     ref = a.ref or os.environ.get("LE_CONSEIL_REF") or None
+    if a.question_monde:
+        if a.a != "mj" or a.joueur or any((a.dire, a.demander, a.faire, a.tenter, a.penser)):
+            raise SystemExit("--question-monde s'emploie seul, --de <pnj> --a mj, sans --joueur")
+        from agents.questions_monde import demander
+        print(demander(a.de, " ".join(a.texte), a.modele, contexte_id, ref))
+        return
 
     if a.fils:
         if not fils():
@@ -300,7 +318,7 @@ def main():
         qui = _sain(a.clore)
         vises = [qui] if qui in fils() else [f for f in ses_fils(qui)
                                              if f != TOUS]
-        arch = os.path.join(RACINE, "etat", "archive", "parloir")
+        arch = os.path.join(ETAT, "archive", "parloir")
         for fil in vises:
             os.makedirs(arch, exist_ok=True)
             os.replace(chemin_fil(fil),
@@ -328,8 +346,8 @@ def main():
         _dep.depecher(a.de, pensee, a.modele, 15, False, attendre=False)
         return
 
-    verbe = (u"TENTER" if a.tenter else u"FAIRE" if a.faire
-             else u"DEMANDER" if a.demander else None)
+    verbe = (u"TENTER" if a.tenter else u"FAIRE" if a.faire  # parler au MJ du front = CALL (dev, 10.9)
+             else u"DEMANDER" if a.demander else u"DIRE" if a.dire and a.joueur and est_un_mj(a.a) else None)
     if verbe:
         if not (a.de and a.a and a.texte):
             raise SystemExit(u"--%s veut --de, --a et un texte"

@@ -9,13 +9,26 @@
 
 const fs = require("fs");
 const path = require("path");
-const { RACINE } = require("./contexte");
+const { ETAT, CHAMBRES } = require("./contexte");
 const { absolues } = require("./dates");
 
+// `role: "principal"` DÉSIGNE, IL NE CONSTITUE PAS. Sept lecteurs en dépendent
+// — la régie, la présence, les livres de chambre, l'horloge d'activation — et
+// seul `etat/joueurs.json` de Westeros l'écrit : les paquets de `mondes/` ont
+// été posés sans ce champ. Un monde à un seul siège n'avait donc AUCUN
+// principal, et chaque lecteur tombait silencieusement sur son cas dégradé (le
+// graphe de /admin n'émettait depuis personne et se peignait noir). Un roster
+// sans désignation en a un quand même : le premier siège occupé qui ne soit
+// pas une régie. Écrit ici, dans le seul lecteur du roster, pour qu'aucun
+// consommateur n'ait à connaître la règle. Un `role` écrit gagne toujours.
 function roster() {
   try {
-    const l = JSON.parse(fs.readFileSync(path.join(RACINE, "etat", "joueurs.json"), "utf-8"));
-    return Array.isArray(l) && l.length ? l : null;
+    const l = JSON.parse(fs.readFileSync(path.join(ETAT, "joueurs.json"), "utf-8"));
+    if (!Array.isArray(l) || !l.length) return null;
+    if (l.some((s) => s && s.role === "principal")) return l;
+    const jouable = (s) => s && s.personnage_id && !s.regie;
+    const elu = l.find((s) => jouable(s) && s.occupe) || l.find(jouable);
+    return elu ? l.map((s) => (s === elu ? Object.assign({}, s, { role: "principal" }) : s)) : l;
   } catch (e) { return null; }
 }
 
@@ -31,7 +44,7 @@ function ecartDe(siege) {
   const l = roster();
   if (!siege || !l || l.length < 2) return null;
   let h;
-  try { h = JSON.parse(fs.readFileSync(path.join(RACINE, "etat", "horloges.json"), "utf-8")); }
+  try { h = JSON.parse(fs.readFileSync(path.join(ETAT, "horloges.json"), "utf-8")); }
   catch (e) { return null; }
   const mien = absolues(h && h[siege.personnage_id]);
   if (mien === null) return null;
@@ -71,7 +84,7 @@ function ecartDe(siege) {
 // distincts, parce que l'appelant doit pouvoir se fermer sur le troisieme.
 function audienceCourante(siegeId, depuis) {
   try {
-    const brut = fs.readFileSync(path.join(RACINE, "etat", "flux.jsonl"), "utf-8");
+    const brut = fs.readFileSync(path.join(ETAT, "flux.jsonl"), "utf-8");
     let pour = null;
     brut.split("\n").filter((l) => l.trim())
       // Ce qui precede l'arrivee du joueur a la table ne parle pas de lui : ces
@@ -134,6 +147,7 @@ function qui(req, url) {
   const jeton = decodeURIComponent((q && q[1]) || (c && c[1]) || "");
   const j = l.find((x) => x.jeton === jeton);
   if (j) return j;
+  if (!jeton && l.length === 1) return l[0];
   // Le siège FABRIQUÉ d'un homme hors roster : n'importe quel personnage de
   // `etat/personnages.json` s'incarne depuis le jeu (habitant.md — tout homme
   // est un habitant). Le cookie `homme:<id>` est posé par /bascule ; le siège
@@ -146,7 +160,7 @@ function qui(req, url) {
     // poste d'observation éphémère.
     if (id === "mj") {
       try {
-        if (fs.statSync(path.join(RACINE, "chambres", "mj")).isDirectory()) {
+        if (fs.statSync(path.join(CHAMBRES, "mj")).isDirectory()) {
           return { jeton: jeton, personnage_id: "mj", nom: "MJ",
                    hors_roster: true, mj: true };
         }
@@ -155,7 +169,7 @@ function qui(req, url) {
     }
     try {
       const p = JSON.parse(fs.readFileSync(
-        path.join(RACINE, "etat", "personnages.json"), "utf-8"))
+        path.join(ETAT, "personnages.json"), "utf-8"))
         .find((x) => x.id === id);
       // Le siège porte son jeton : la route `/` re-pose le cookie depuis
       // `j.jeton`, et sans lui elle écrirait « undefined » à la place.
@@ -175,7 +189,7 @@ function monPersonnage(req, url) {
   if (!moi && roster()) return null;
   if (!moi) {
     try {
-      moi = JSON.parse(fs.readFileSync(path.join(RACINE, "etat", "journal.json"), "utf-8"))
+      moi = JSON.parse(fs.readFileSync(path.join(ETAT, "journal.json"), "utf-8"))
         .personnage_joueur_id || null;
     } catch (e) {}
   }
@@ -194,7 +208,7 @@ function monPersonnage(req, url) {
 function volumesVisibles(tous, moi) {
   const maison = {};
   try {
-    JSON.parse(fs.readFileSync(path.join(RACINE, "etat", "personnages.json"), "utf-8"))
+    JSON.parse(fs.readFileSync(path.join(ETAT, "personnages.json"), "utf-8"))
       .forEach((p) => { maison[p.id] = p.maison_id || null; });
   } catch (e) {}
   // Les BOÎTES (etat/boites.json) : un coffret posé sur une table ou porté
@@ -207,7 +221,7 @@ function volumesVisibles(tous, moi) {
   let boites = [];
   try {
     const bb = JSON.parse(fs.readFileSync(
-      path.join(RACINE, "etat", "boites.json"), "utf-8"));
+      path.join(ETAT, "boites.json"), "utf-8"));
     if (Array.isArray(bb)) boites = bb;
   } catch (e) {}
   const coffret = new Map(boites.map((c) => [c.id, c]));
@@ -235,4 +249,73 @@ function volumesVisibles(tous, moi) {
   return { liste, boites };
 }
 
-module.exports = { roster, ecartDe, audienceCourante, regardeur, qui, monPersonnage, volumesVisibles };
+// LE TRI PAR `pour` — le brouillard du fil, et le seul endroit du serveur où
+// un bug rend visible à un siège ce qu'un autre a entendu.
+//
+// IL A VÉCU DANS `routes/scene.js` JUSQU'AU 9.9, et il en est sorti le jour où
+// il a eu un SECOND LECTEUR : la recherche (`/chercher`) fouille le même fil,
+// et un tri écrit deux fois est un tri qui divergera — la première fuite
+// n'aurait alors pas eu lieu dans la scène, mais dans un résultat de
+// recherche, là où personne ne la cherchait. `test_siege.js` frappe les deux
+// routes avec les trois mêmes sièges pour cette raison.
+//
+// Rend le fil tel que CE siège a le droit de le lire, dans l'ordre. Les
+// indices du tableau rendu comptent le fil FILTRÉ et jamais le fichier — ce
+// sont ceux que la page connaît déjà (`_i` de `/scene`). Deux sièges n'ont
+// donc pas la même numérotation, et c'est voulu : un index n'est une adresse
+// que dans le fil de celui qui l'a reçu.
+function filtrerFlux(items, siege) {
+  if (!roster()) return items;
+  // LA RÉGIE VOIT TOUT, et c'est sa seule raison d'être. Le tri par `pour`
+  // protège un joueur de ce que l'autre entend ; Corneille n'est pas un
+  // joueur — il n'a ni tête, ni horloge, ni siège dans la fiction, et un fil
+  // amputé ne lui servirait à rien. Le jeton reste la serrure : sans lui, on
+  // n'est toujours personne.
+  if (siege && siege.regie) return items.slice();
+  // Sans jeton, on n'est personne — et personne ne lit la partie. Le filtre
+  // par `pour` ne suffit pas : l'immense majorité du flux n'en porte aucun,
+  // donc un inconnu recevait l'histoire entière. Le jeton n'est pas qu'un
+  // siège, c'est la serrure : le jeu est servi par un tunnel public, et une
+  // URL nue circule vite.
+  if (!siege) return [];
+  const moi = siege.personnage_id;
+  // Le point d'entrée du siège. Un item sans `pour` est PUBLIC — ce qui est
+  // juste pour la suite, et faux pour l'avant : tout l'historique antérieur à
+  // l'arrivée d'un joueur n'en porte aucun, et son navigateur rejouerait donc
+  // la partie entière d'un autre. On ne réécrit pas le flux pour autant (il
+  // est append-only) : on coupe à la ligne où ce joueur est entré à la table.
+  const depuis = siege.depuis || 0;
+  const dedans = depuis ? items.slice(depuis) : items;
+  // `pour` peut porter PLUSIEURS oreilles : c'est la messe basse, ce que deux
+  // personnes se disent à l'écart dans une salle qui en compte six. Un tableau
+  // n'est ni public ni privé à une seule oreille, et il ne doit surtout pas
+  // retomber dans le cas « pas de pour » — qui, lui, veut dire que tout le
+  // monde entend.
+  // UN ITEM SANS `pour` N'EST PLUS PUBLIC PASSÉ L'ÈRE MULTI-JOUEURS. C'est le
+  // verrou de lecture, et il ferme la faille par en bas : même si un jour une
+  // plume réécrit un item sans audience — un script à venir, une main dans le
+  // fichier —, il ne partira chez personne au lieu de partir chez tout le
+  // monde.
+  //
+  // Le seuil se calcule tout seul : la ligne où le DERNIER joueur s'est assis.
+  // Avant elle, un `pour` absent veut dire « il n'y avait qu'une table » et
+  // reste lisible par les anciens (leur propre `depuis` fait déjà le tri).
+  // Après elle, un `pour` absent est un bug, et un bug ne se diffuse pas.
+  const seuil = roster().reduce((m, j) => Math.max(m, j.depuis || 0), 0);
+  // UN SEUL SIÈGE, UNE SEULE TABLE. Avec un joueur unique, POST /action écrit
+  // sa parole sans `pour` (il n'y a personne à nommer) ; le seuil, lui, vaut
+  // 0 dès qu'il s'est assis à la ligne 0 — et le joueur ne voyait plus jamais
+  // ses propres « vous » (vampire-counts, 6.10). Il n'y a personne à qui les
+  // cacher : la régie voit tout de toute façon.
+  const assis = roster().filter((j) => j.occupe && !j.regie && j.personnage_id);
+  if (assis.length <= 1) {
+    return dedans.filter((it) => !it.pour
+      || (Array.isArray(it.pour) ? it.pour.indexOf(moi) !== -1 : it.pour === moi));
+  }
+  return dedans.filter((it, k) => it.pour
+    ? (Array.isArray(it.pour) ? it.pour.indexOf(moi) !== -1 : it.pour === moi)
+    : depuis + k < seuil);
+}
+
+module.exports = { roster, ecartDe, audienceCourante, regardeur, qui, monPersonnage,
+                   volumesVisibles, filtrerFlux };

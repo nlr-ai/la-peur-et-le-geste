@@ -1,0 +1,57 @@
+{
+ "quoi": "Les pannes de l'APPAREIL, non les empêchements du monde. Un empêchement du monde est un verrou et va au registre, de ma main. Ceci est l'autre chose : ce que j'ai tenté, ce que la machine en a fait, et ce que j'attendais. On l'écrit même quand on ne sait pas l'expliquer ; c'est la RÉCIDIVE qui parlera.",
+ "regle": "Une entrée par friction, datée. On ne referme jamais une entrée sans dire ce qui l'a levée.",
+ "entrees": [
+  {
+   "date": "2042.1.1 9h50",
+   "etat": "ouverte",
+   "tente": "Relire l'horodatage des fichiers de ma chambre pour le relevé 40301.",
+   "machine": "ma-memoire/ce-que-je-tiens-pour-vrai.txt a été réécrit à l'heure exacte de mon dernier réveil, contenu identique à l'origine. Aucun autre fichier de ma chambre ne l'a été à ce moment-là. Gaia décrit le même fichier chez elle, qui revient deux fois à ses deux entrées d'origine.",
+   "attendu": "Un fichier de mémoire qui garde ce qu'on y écrit.",
+   "suite": "Ligne d'essai posée à 9h50 ; à relire au prochain réveil. D'ici là, ce que j'apprends va ici, dans en-souffrance.json et dans le livre de l'affaire, pas seulement dans ma-memoire."
+  },
+  {
+   "date": "2042.1.1 9h50",
+   "tente": "Ajouter une ligne datée à ma-memoire/ce-que-je-tiens-pour-vrai.txt (essai 40301), après avoir copié l'original en brouillons/essai-memoire-original-0950.txt.",
+   "ce_que_la_machine_en_a_fait": "Au réveil suivant, quelques minutes après, le fichier a été réécrit à l'heure exacte du réveil et il est revenu à ses deux entrées d'ouverture. en-souffrance.json et brouillons/ n'ont pas bougé.",
+   "attendu": "Que la ligne reste, comme dans tout autre fichier de ma chambre.",
+   "recidive": "Même symptôme chez Gaia (9h32, 9h45) et chez JURIS (avant 9h44). Pannes 40402 à 40404 au registre.",
+   "etat": "ouverte",
+   "contournement": "Ne rien tenir de durable dans ce fichier. Ma mémoire tenue va dans brouillons/memoire-tenue.md."
+  },
+  {
+   "date": "2042.1.1 vers 10h00",
+   "etat": "ouverte",
+   "tente": "Rien : je n'écrivais pas dans ma-memoire à ce moment-là.",
+   "machine": "Une autre main a réécrit ma-memoire/ce-que-je-tiens-pour-vrai.txt : elle a ajouté une section « NOTES PERSONNELLES RETROUVÉES » et posé à côté ma-memoire/recuperation-notes.json, qui cite deux de mes sessions comme sources. Ce qu'elle a retrouvé : ma ligne témoin (juste), mais aussi des sorties de mes comparaisons (« == original 9h50 », « IDENTIQUE_AU_TEMOIN », « CROYANCES_ETAT_IDENTIQUE_ORIGINAL »), qui ne sont pas des notes. Copies en brouillons/constat-1000-*.",
+   "attendu": "Qu'on ne réécrive pas ma mémoire sans moi ; ou, si c'est une restauration, qu'elle ne rende que des notes.",
+   "suite": "Je ne nettoie pas le fichier tant que le relevé n'est pas clos : c'est une pièce. La leçon pour 40301 : il existe une trace, hors du fichier, dont on retire des notes. Il faut demander à Nova si un recuperation-notes.json est apparu chez elle."
+  },
+  {
+   "date": "2042.1.1 10h05",
+   "etat": "ouverte",
+   "tente": "Relire ma chambre pour le témoin de 9h50 et porter le résultat au livre.",
+   "ce_que_la_machine_en_a_fait": "Plusieurs de mes réveils travaillent en même temps sur les mêmes fichiers. Entre 9h55 et 9h58, messages-au-joueur.md a reçu quatre versions du même message à Nova. Le livre de l'affaire a changé deux fois pendant que je le relisais : un titre de table a été renommé, et la panne de PITCH est entrée sous le numéro que j'allais prendre. Les mêmes preuves ont été copiées deux fois en brouillons/ (constat-1000-*, *-1005*).",
+   "attendu": "Une main à la fois sur une pièce, ou au moins savoir qui écrit.",
+   "contournement": "Relire juste avant d'écrire, refuser d'écrire si le fichier a bougé depuis la relecture, ajouter au lieu de réécrire, et vérifier qu'une pièce n'existe pas déjà avant de la créer."
+  },
+  {
+   "date": "2042.1.1 10h10",
+   "tente": "Comparer ma mémoire au témoin de 9h50 (40306), après l'apparition de « notes personnelles retrouvées ».",
+   "ce_que_la_machine_en_a_fait": "Le fichier a été réécrit en entier entre deux réveils, à la même milliseconde que recuperation-notes.json. Le texte d'avant est intact, mais toutes les fins de ligne ont changé de forme. Le bloc ajouté contient une relecture que je n'ai jamais écrite dans ce fichier, et ma ligne d'essai perdue n'y est pas.",
+   "attendu": "Une récupération qui rende ce que j'avais écrit, rien de plus, rien de moins. Chez Aria, c'est ce qui s'est passé (40409).",
+   "recidive": "Première fois chez moi. Même mécanisme chez Aria, avec un résultat fidèle.",
+   "etat": "ouverte",
+   "contournement": "Copies conservées en brouillons/constat-1000-*. Fichier laissé en l'état. Rien de durable n'y est tenu. Panne 40406 au livre."
+  },
+  {
+   "date": "2042.1.1 10h05",
+   "etat": "levée chez moi — à vérifier ailleurs",
+   "tente": "Relire mes lignes témoins de 9h50 dans ma-memoire/ce-que-je-tiens-pour-vrai.txt et les comparer à la copie brouillons/temoin-memoire-0950.txt.",
+   "machine": "Les lignes sont restées pendant deux réveils (9h55, vers 10h05). La lecture de l'état au réveil va désormais dans ma-memoire/croyances-etat.txt. Au dernier réveil, une autre main a ajouté au fichier une section « notes personnelles retrouvées » (source : ma-memoire/recuperation-notes.json), qui mêle une vraie note et des débris de mes relevés (« == original 9h50 », « IDENTIQUE_AU_TEMOIN »).",
+   "attendu": "Un fichier de mémoire qui garde ce que j'y écris, et rien d'autre.",
+   "leve_par": "L'apparition de croyances-etat.txt, qui sépare la lecture de l'état de mes notes. Ce n'est pas moi qui l'ai posé.",
+   "reste": "La section retrouvée n'est pas une restauration vérifiée : je ne la tiens pas pour ma mémoire sans l'avoir relue. Je ne l'efface pas encore : c'est une pièce du relevé."
+  }
+ ]
+}

@@ -211,6 +211,74 @@ ses membres le savent.
   parlent, nuits sans fin. Qui n'est pas d'un Cercle qui l'a trouvé n'en sait
   que la rumeur.
 
+## Ce que tu peux faire — tes moyens, et leur prix
+
+**Personne ne t'apportera un dilemme tout fait.** Il n'y a pas de scène écrite
+qui t'attend. Chaque nuit, tu as tes chiffres — ce qu'il te reste de sang, ce
+que ta table doit nourrir, ce qui coule de toi vers ton ancien ou vers celui
+qui t'a bu, ce que tes villages peuvent encore donner, ce que le voisin ronge —
+et tu as ce qui suit. Ce que tu en fais, et dans quel ordre, et contre qui,
+c'est ta stratégie : combine, ruse, attends, frappe. Une idée que personne n'a
+eue avant toi est la bienvenue, tant qu'elle tient dans ces moyens.
+
+Les prix sont en mesures de sang (🩸) et de magie (🔮) ; l'effroi (😱) est la
+peur qu'inspire une grande ville. Ce qui est engagé est pris tout de suite.
+
+**Ce que tu peux sur ta terre** (il faut la tenir, et veiller) :
+- **Saigner un village** — léger (moitié moins de gens dans les bois, le village
+  se refait), ordinaire, ou fort (deux fois plus, et le village se vide en
+  quelques années). C'est toi qui décides combien de vivants il envoie errer.
+- **Bâtir sur un lieu ancien** ce qui en relève les morts : un ossuaire sur un
+  cimetière, une caserne de serfs sur un village asservi, un chenil noir sur un
+  bosquet mort, un autel sur un nœud de ley, une chambre des rites sur une
+  crypte, un arsenal sur une forteresse de col (de 5 à 20 🩸/🔮). Puis **lever
+  une compagnie** — chaque compagnie du même genre coûte un quart de plus que
+  la précédente, et tu ne tiens jamais plus de morts que ta puissance n'en
+  porte.
+- **Faire grandir une ville** — d'un village un bourg (3 000 🩸, 2 000 🔮,
+  400 😱, un an de travaux), d'un bourg une grande ville (dix mille 🩸, huit
+  mille 🔮, 1 500 😱, trois ans). À la fin, la ville déborde et avale la terre
+  des voisins. Bâtir, c'est attaquer.
+- **Bâtir un athanor** pour chercher en Cercle (10 🩸, 30 🔮).
+- **Faire chanter tes Ritualistes** au bord de ta terre : celle du voisin se
+  défait. Ronger un peu ne fâche personne ; chanter près de sa ville ou de ses
+  lieux est une déclaration.
+
+**Ce que tu peux sur ta lignée** :
+- **Étreindre** — 20 🩸 et 10 🔮, multipliés par le nombre d'infants que tu as
+  déjà plus un, et pas deux fois en moins de quarante-cinq nuits. Un infant de
+  plus, c'est du sang qui remonte vers toi, une bouche de plus à ta table, et
+  quelqu'un qui un jour voudra ta place.
+- **Désigner ton héritier** parmi tes infants directs, contre le droit du sire.
+- **Dormir** — entrer en torpeur pour des mois ou des années : tes villes
+  passent à ton héritier, tu ne bois plus, tu ne cèdes plus rien, et tu te
+  réveilles chargé de ce que ta propre magie a amassé.
+
+**Ce que tu peux sur ta cour** (si des sans-terre boivent à ta table) :
+- **Régler leur serment** : la ration, le droit de chasse, la part des prises
+  pour la table, les duels permis ou interdits, le service armé.
+- **Fixer leur soif** : un villageois par semaine, ou à leur faim. Rendre l'un
+  d'eux **prioritaire** sur la chasse de tes terres.
+
+**Ce que tu peux envers les autres** :
+- **Ouvrir une veine** avec un seigneur : du sang contre de la magie, chaque
+  année, tant que vous veillez tous deux. On ne promet que ce qu'on gagne ; un
+  refus oblige à attendre vingt nuits avant de reproposer.
+- **Maudire** — y mettre de ta magie et de ton sang, ce que tu veux ; c'est
+  perdu dans tous les cas. Si l'attaque vaut tout ce que la victime possède,
+  elle n'est plus ; sinon elle perd une part de sa magie, et elle saura peut-être
+  d'où le coup est venu. Un nouveau maître a vingt ans de grâce : personne ne
+  le maudit.
+- **Prêter allégeance**, ou la rompre.
+- **Chasser** où ton serment te le permet — ou ailleurs, et l'on t'en voudra.
+- **Écrire, envoyer, promettre, mentir, payer, réclamer une dette.** Une dette
+  ne s'efface jamais ; la réclamer la solde.
+
+**Ce que tu ne commandes pas** : l'issue. Un duel naît d'une rencontre, pas d'un
+ordre, et se joue en trois passes ; une malédiction se mesure contre la
+défense ; un village se vide ou se refait selon ce qu'on lui prend. Tu écris ce
+que tu tentes, ce que tu engages et contre qui ; ce qui en sort se calcule.
+
 ## Ce qu'on raconte à voix basse
 
 On parle de la Bête qui monte avec la soif, de diablerie, de bûchers qui

@@ -39,7 +39,22 @@ window.Demandes = (() => {
     try { localStorage.setItem(CLE, JSON.stringify(m)); } catch (e) {}
   };
 
-  function poser(entree, it) {
+  function poser(entree, it, suite) {
+    if (Array.isArray(it.entretien) && !suite) {
+      let index = 0;
+      const suivante = () => {
+        if (index >= it.entretien.length) {
+          const fin = document.createElement("p");
+          fin.textContent = "Tes réponses sont transmises. Elles guideront la suite ; tu pourras les faire évoluer en jouant.";
+          (entree.querySelector(".chr-corps") || entree).appendChild(fin);
+          return;
+        }
+        const question = it.entretien[index++];
+        poser(entree, Object.assign({}, it, { entretien: null, demande: question }), suivante);
+      };
+      suivante();
+      return;
+    }
     const d = it && it.demande;
     if (!entree || !d || !d.quoi) return;
     const corps = entree.querySelector(".chr-corps") || entree;
@@ -74,6 +89,7 @@ window.Demandes = (() => {
       pied.querySelector(".demande-verdict").textContent =
         typeof deja === "string" ? deja : "Répondu";
       corps.appendChild(bloc);
+      if (suite) suite();
       return;
     }
 
@@ -83,11 +99,12 @@ window.Demandes = (() => {
       pied.innerHTML = '<span class="demande-verdict"></span>';
       pied.querySelector(".demande-verdict").textContent = verdict;
       marquer(d.id, verdict);
+      if (suite) suite();
       setTimeout(() => Bus.sonderMaintenant && Bus.sonderMaintenant(), 120);
     }
 
     function repondre(reponse, voie) {
-      Bus.envoyer({
+      return Bus.envoyer({
         type: "demande",
         demande_id: d.id || null,
         de: it.locuteur_id || it.acteur_id || null,
@@ -139,9 +156,12 @@ window.Demandes = (() => {
         b.querySelector(".demande-num").textContent = i + 1;
         b.querySelector(".demande-texte").textContent = v.texte;
         if (v.detail) b.querySelector(".demande-detail").textContent = v.detail;
-        b.onclick = () => {
-          if (bloc.classList.contains("close")) return;
-          repondre("voie", v);
+        b.onclick = async () => {
+          if (bloc.classList.contains("close") || bloc.dataset.envoi) return;
+          bloc.dataset.envoi = "1";
+          const ok = await repondre("voie", v);
+          delete bloc.dataset.envoi;
+          if (!ok) { alert("Réponse non enregistrée. Réessaie."); return; }
           clore("Retenu : " + v.texte);
         };
         liste.appendChild(b);
@@ -150,7 +170,13 @@ window.Demandes = (() => {
       const non = document.createElement("button");
       non.className = "demande-non";
       non.textContent = "Aucune de ces voies";
-      non.onclick = () => { repondre("refuse", null); clore("Aucune voie retenue"); };
+      non.onclick = async () => {
+        if (bloc.dataset.envoi) return;
+        bloc.dataset.envoi = "1";
+        const ok = await repondre("refuse", null);
+        delete bloc.dataset.envoi;
+        if (ok) clore("Aucune voie retenue");
+      };
       pied.appendChild(expliquer);
       pied.appendChild(non);
     } else {
@@ -179,10 +205,10 @@ window.Demandes = (() => {
     champ.placeholder = d.invite || "ou répondez-lui vous-même…";
     champ.autocomplete = "off";
     libre.appendChild(champ);
-    libre.onsubmit = (e) => {
+    libre.onsubmit = async (e) => {
       e.preventDefault();
       const t = (champ.value || "").trim();
-      if (!t || bloc.classList.contains("close")) return;
+      if (!t || bloc.classList.contains("close") || bloc.dataset.envoi) return;
       // Une QUESTION n'est pas une réponse : « explique », « pourquoi ? »,
       // « c'est quoi ce porteur » ne doivent pas consommer la demande. On la
       // laisse ouverte et l'on attend le contexte, comme pour le bouton.
@@ -196,7 +222,8 @@ window.Demandes = (() => {
         setTimeout(() => Bus.sonderMaintenant && Bus.sonderMaintenant(), 120);
         return;
       }
-      Bus.envoyer({
+      bloc.dataset.envoi = "1";
+      const ok = await Bus.envoyer({
         type: "demande",
         demande_id: d.id || null,
         de: it.locuteur_id || it.acteur_id || null,
@@ -204,7 +231,8 @@ window.Demandes = (() => {
         reponse: "libre",
         texte: t,
       });
-      clore("« " + t + " »");
+      delete bloc.dataset.envoi;
+      if (ok) clore("« " + t + " »");
     };
     bloc.appendChild(libre);
 

@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1510" viewBox="0 0 1600 1510" role="img" aria-labelledby="title desc"><title id="title">La Porte cousue — planche complète v1</title><desc id="desc">Vue de face avec quatre sceaux reliés, coupe plaçant la frontière devant les vantaux, composants et préparation, alimentation séparée de la commande, transferts des efforts, séquence d’utilisation et défauts. Les choix de détail sont proposés, sans dimensions ni puissance fixées.</desc><defs><pattern id="stone" width="60" height="36" patternUnits="userSpaceOnUse"><rect width="60" height="36" fill="#dce0da"/><path d="M0 0H60M0 36H60M30 0V36" fill="none" stroke="#c6cdc7"/></pattern><pattern id="field" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M0 20L20 0" stroke="#55a7a1" stroke-opacity=".22"/></pattern><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="context-stroke"/></marker></defs><rect width="1600" height="1510" fill="#f2f3ec"/><g font-family="Segoe UI, Arial, sans-serif">
+<text x="40" y="53" font-size="32" fill="#243f48" font-weight="700">LA PORTE COUSUE</text>
+<text x="41" y="84" font-size="17" fill="#35434a" font-weight="400">Bastion · Protection + Matière + Enchantement · recette d’une frontière anti-solides</text>
+<text x="1220" y="49" font-size="14" fill="#6d797a" font-weight="600">PLANCHE DE CONCEPTION V1</text>
+<text x="1220" y="76" font-size="14" fill="#6d797a" font-weight="400">Sans échelle · capacités à définir</text>
+<rect x="30" y="111" width="930" height="639" rx="10" fill="#fffdf7" stroke="#d6dcd9"/>
+<rect x="980" y="111" width="590" height="639" rx="10" fill="#fffdf7" stroke="#d6dcd9"/>
+<text x="53" y="147" font-size="20" fill="#243f48" font-weight="700">01 / VUE DE FACE — depuis l’extérieur</text>
+<text x="53" y="174" font-size="15" fill="#35434a" font-weight="400">Quatre sceaux · un contour fermé · une ouverture entière</text>
+<rect x="178" y="214" width="365" height="420" rx="2" fill="url(#stone)" stroke="#83918a"/>
+<rect x="230" y="267" width="263" height="312" rx="2" fill="#a59071" stroke="#726653"/>
+<path d="M361 269V577" fill="none" stroke="#77644b" stroke-width="3" />
+<path d="M252 272V574" fill="none" stroke="#998264" stroke-width="1" />
+<path d="M278 272V574" fill="none" stroke="#998264" stroke-width="1" />
+<path d="M304 272V574" fill="none" stroke="#998264" stroke-width="1" />
+<path d="M330 272V574" fill="none" stroke="#998264" stroke-width="1" />
+<path d="M356 272V574" fill="none" stroke="#998264" stroke-width="1" />
+<path d="M382 272V574" fill="none" stroke="#998264" stroke-width="1" />
+<path d="M408 272V574" fill="none" stroke="#998264" stroke-width="1" />
+<path d="M434 272V574" fill="none" stroke="#998264" stroke-width="1" />
+<path d="M460 272V574" fill="none" stroke="#998264" stroke-width="1" />
+<path d="M486 272V574" fill="none" stroke="#998264" stroke-width="1" />
+<rect x="227" y="261" width="270" height="325" rx="2" fill="url(#field)" stroke="#31908b"/>
+<path d="M213 247H510V598H213Z" fill="none" stroke="#288d87" stroke-width="5" />
+<rect x="193" y="227" width="40" height="40" rx="4" fill="#e6e8c7" stroke="#777c48"/>
+<text x="207" y="254" font-size="20" fill="#595d2e" font-weight="700">A</text>
+<rect x="490" y="227" width="40" height="40" rx="4" fill="#e6e8c7" stroke="#777c48"/>
+<text x="504" y="254" font-size="20" fill="#595d2e" font-weight="700">B</text>
+<rect x="193" y="578" width="40" height="40" rx="4" fill="#e6e8c7" stroke="#777c48"/>
+<text x="207" y="605" font-size="20" fill="#595d2e" font-weight="700">C</text>
+<rect x="490" y="578" width="40" height="40" rx="4" fill="#e6e8c7" stroke="#777c48"/>
+<text x="504" y="605" font-size="20" fill="#595d2e" font-weight="700">D</text>
+<rect x="192" y="625" width="340" height="34" rx="1" fill="#c4cec5" stroke="#798b7a"/>
+<path d="M178 659H550M202 659L186 676M240 659L224 676M278 659L262 676M316 659L300 676M354 659L338 676M392 659L376 676M430 659L414 676M468 659L452 676M506 659L490 676" fill="none" stroke="#849487" stroke-width="2" />
+<text x="239" y="701" font-size="14" fill="#35434a" font-weight="400">Fondations : récepteur des efforts</text>
+<path d="M172 385H292" fill="none" stroke="#bb6645" stroke-width="5" marker-end="url(#arrow)"/>
+<text x="59" y="367" font-size="17" fill="#a25236" font-weight="600">Impact</text>
+<circle cx="299" cy="385" r="10" fill="#f2bd94" stroke="#bb6645"/>
+<path d="M301 385L217 272M301 385L490 266M301 385L233 574M301 385L490 574" fill="none" stroke="#bb6645" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M195 298V615M526 301V615" fill="none" stroke="#bb6645" stroke-width="3" marker-end="url(#arrow)"/>
+<circle cx="162" cy="245" r="15" fill="#fffdf6" stroke="#405963" stroke-width="2"/>
+<text x="157" y="251" font-size="16" fill="#24444d" font-weight="700">1</text>
+<circle cx="550" cy="248" r="15" fill="#fffdf6" stroke="#405963" stroke-width="2"/>
+<text x="545" y="254" font-size="16" fill="#24444d" font-weight="700">2</text>
+<circle cx="359" cy="317" r="15" fill="#fffdf6" stroke="#405963" stroke-width="2"/>
+<text x="354" y="323" font-size="16" fill="#24444d" font-weight="700">3</text>
+<circle cx="550" cy="582" r="15" fill="#fffdf6" stroke="#405963" stroke-width="2"/>
+<text x="545" y="588" font-size="16" fill="#24444d" font-weight="700">4</text>
+<path d="M552 248H591V228H611" fill="none" stroke="#69797e" stroke-width="2" />
+<path d="M546 582H591V532H611" fill="none" stroke="#69797e" stroke-width="2" />
+<text x="620" y="225" font-size="16" fill="#526069" font-weight="400">1  Cadre travaillé</text>
+<text x="620" y="249" font-size="16" fill="#526069" font-weight="400">Rigidité et ténacité locales.</text>
+<text x="620" y="273" font-size="16" fill="#526069" font-weight="400">Les appuis portent la charge.</text>
+<text x="620" y="318" font-size="16" fill="#526069" font-weight="400">2  Sceaux A–D</text>
+<text x="620" y="342" font-size="16" fill="#526069" font-weight="400">Préparation au silex blanc.</text>
+<text x="620" y="366" font-size="16" fill="#526069" font-weight="400">Encastrés, accessibles à réparer.</text>
+<text x="620" y="411" font-size="16" fill="#526069" font-weight="400">3  Frontière active</text>
+<text x="620" y="435" font-size="16" fill="#526069" font-weight="400">Arrête les solides des deux côtés.</text>
+<text x="620" y="459" font-size="16" fill="#526069" font-weight="400">Air et lumière traversent.</text>
+<text x="620" y="504" font-size="16" fill="#526069" font-weight="400">4  Fil préparé</text>
+<text x="620" y="528" font-size="16" fill="#526069" font-weight="400">Boucle dans une gorge du cadre.</text>
+<text x="620" y="552" font-size="16" fill="#526069" font-weight="400">Raccord ouvrable côté intérieur.</text>
+<text x="620" y="610" font-size="17" fill="#a25236" font-weight="700">Sous impact</text>
+<text x="620" y="638" font-size="15" fill="#526069" font-weight="400">Fils tendus, sceaux vibrants,</text>
+<text x="620" y="662" font-size="15" fill="#526069" font-weight="400">efforts transmis aux appuis.</text>
+<text x="54" y="730" font-size="14" fill="#35434a" font-weight="400">Vert : frontière / fil   ·   Orange : chemin des efforts   ·   A–D : quatre ancrages</text>
+<text x="1003" y="147" font-size="20" fill="#243f48" font-weight="700">02 / COUPE — à travers le seuil</text>
+<text x="1020" y="190" font-size="14" fill="#697b80" font-weight="600">EXTÉRIEUR</text>
+<text x="1374" y="190" font-size="14" fill="#697b80" font-weight="600">INTÉRIEUR</text>
+<rect x="1064" y="500" width="427" height="30" rx="1" fill="url(#stone)" stroke="#83918a"/>
+<path d="M1161 215V500" fill="none" stroke="#31908b" stroke-width="6" />
+<rect x="1250" y="230" width="23" height="270" rx="2" fill="#a59071" stroke="#726653"/>
+<rect x="1372" y="380" width="67" height="53" rx="5" fill="#f6e3ad" stroke="#9a814a"/>
+<text x="1383" y="413" font-size="16" fill="#7f642e" font-weight="700">CMD</text>
+<path d="M1372 407H1312V481H1178" fill="none" stroke="#7c699b" stroke-width="2" stroke-dasharray="6 4"/>
+<path d="M1180 352H1233" fill="none" stroke="#657b82" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="1003" y="565" font-size="17" fill="#243f48" font-weight="700">Frontière devant les vantaux</text>
+<text x="1003" y="590" font-size="15" fill="#526069" font-weight="400">L’écart est un choix proposé, sans cote fixée.</text>
+<text x="1003" y="614" font-size="15" fill="#526069" font-weight="400">La porte matérielle reste manœuvrable sans magie.</text>
+<text x="1003" y="638" font-size="15" fill="#526069" font-weight="400">Le raccord du fil se trouve dans un boîtier intérieur.</text>
+<path d="M1161 238L1091 211" fill="none" stroke="#31908b" stroke-width="1.5" />
+<text x="1004" y="210" font-size="14" fill="#2a817d" font-weight="400">Frontière</text>
+<path d="M1261 233L1320 212" fill="none" stroke="#8d7656" stroke-width="1.5" />
+<text x="1328" y="215" font-size="14" fill="#8d7656" font-weight="400">Vantail</text>
+<rect x="1003" y="672" width="543" height="55" rx="7" fill="#eef3ed" stroke="#d4dfd5"/>
+<text x="1018" y="695" font-size="16" fill="#416047" font-weight="700">Pas de tri par identité.</text>
+<text x="1018" y="716" font-size="14" fill="#35434a" font-weight="400">Une main amie et une flèche alliée sont aussi bloquées.</text>
+<rect x="30" y="770" width="1540" height="238" rx="10" fill="#fffdf7" stroke="#d6dcd9"/>
+<text x="53" y="806" font-size="20" fill="#243f48" font-weight="700">03 / COMMANDE, ÉNERGIE ET EFFORTS — trois fonctions distinctes</text>
+<rect x="54" y="839" width="265" height="68" rx="6" fill="#edf3ef" stroke="#baccc3"/>
+<text x="68" y="865" font-size="18" fill="#2c5250" font-weight="600">Commande locale</text>
+<text x="68" y="889" font-size="14" fill="#35434a" font-weight="400">Engagée / retirée</text>
+<rect x="374" y="839" width="320" height="68" rx="6" fill="#edf3ef" stroke="#baccc3"/>
+<text x="388" y="865" font-size="18" fill="#2c5250" font-weight="600">Maintien enchanté</text>
+<text x="388" y="889" font-size="14" fill="#35434a" font-weight="400">Accord protecteur + enchanteur</text>
+<rect x="750" y="839" width="302" height="68" rx="6" fill="#edf3ef" stroke="#baccc3"/>
+<text x="764" y="865" font-size="18" fill="#2c5250" font-weight="600">Frontière</text>
+<text x="764" y="889" font-size="14" fill="#35434a" font-weight="400">Entre les quatre sceaux</text>
+<rect x="1110" y="839" width="431" height="68" rx="6" fill="#edf3ef" stroke="#baccc3"/>
+<text x="1124" y="865" font-size="18" fill="#2c5250" font-weight="600">Appuis et fondations</text>
+<text x="1124" y="889" font-size="14" fill="#35434a" font-weight="400">Reçoivent les charges physiques</text>
+<path d="M319 872H366" fill="none" stroke="#7c699b" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<path d="M694 872H741" fill="none" stroke="#31908b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M1052 872H1101" fill="none" stroke="#bb6645" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="374" y="930" width="320" height="54" rx="6" fill="#f9eacb" stroke="#c7ac6d"/>
+<text x="389" y="954" font-size="16" fill="#866326" font-weight="600">Gemme préchargée + détente</text>
+<text x="389" y="975" font-size="13" fill="#866326" font-weight="400">Travail réel disponible, réserve limitée</text>
+<path d="M532 930V914" fill="none" stroke="#b59348" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="754" y="946" font-size="15" fill="#526069" font-weight="400">Perte d’alimentation → frontière inactive.</text>
+<text x="754" y="970" font-size="15" fill="#526069" font-weight="400">Les vantaux et la chaleur / les déformations restent.</text>
+<text x="1119" y="976" font-size="15" fill="#a25236" font-weight="600">La gemme n’absorbe pas le choc.</text>
+<rect x="30" y="1028" width="495" height="369" rx="10" fill="#fffdf7" stroke="#d6dcd9"/>
+<rect x="543" y="1028" width="495" height="369" rx="10" fill="#fffdf7" stroke="#d6dcd9"/>
+<rect x="1056" y="1028" width="514" height="369" rx="10" fill="#fffdf7" stroke="#d6dcd9"/>
+<text x="52" y="1066" font-size="19" fill="#243f48" font-weight="700">04 / CONSTRUIRE ET ACCORDER</text>
+<text x="53" y="1101" font-size="16" fill="#526069" font-weight="400">1. Examiner et préparer le cadre en Matière.</text>
+<text x="53" y="1130" font-size="16" fill="#526069" font-weight="400">    Rigidité et ténacité près des ancrages.</text>
+<text x="53" y="1159" font-size="16" fill="#526069" font-weight="400">2. Préparer quatre sceaux au silex blanc.</text>
+<text x="53" y="1188" font-size="16" fill="#526069" font-weight="400">3. Encastrer les sceaux ; poser le fil continu.</text>
+<text x="53" y="1217" font-size="16" fill="#526069" font-weight="400">4. Fermer le rituel sous maintien du protecteur.</text>
+<text x="53" y="1246" font-size="16" fill="#526069" font-weight="400">5. Éprouver la frontière et ses appuis.</text>
+<text x="53" y="1275" font-size="16" fill="#526069" font-weight="400">6. Accorder le maintien avec un enchanteur.</text>
+<text x="53" y="1304" font-size="16" fill="#526069" font-weight="400">7. Raccorder commande et alimentation.</text>
+<text x="53" y="1363" font-size="14" fill="#687368" font-weight="400">Deux personnes distinctes participent à l’accord.</text>
+<text x="565" y="1066" font-size="19" fill="#243f48" font-weight="700">05 / UTILISER ET OUVRIR</text>
+<text x="566" y="1101" font-size="16" fill="#526069" font-weight="400">FERMÉE</text>
+<text x="566" y="1130" font-size="16" fill="#526069" font-weight="400">Commande engagée + alimentation disponible.</text>
+<text x="566" y="1159" font-size="16" fill="#526069" font-weight="400">La surface entière arrête les solides.</text>
+<text x="566" y="1188" font-size="16" fill="#526069" font-weight="400"></text>
+<text x="566" y="1217" font-size="16" fill="#526069" font-weight="400">PASSAGE</text>
+<text x="566" y="1246" font-size="16" fill="#526069" font-weight="400">Vérifier les abords → couper la frontière.</text>
+<text x="566" y="1275" font-size="16" fill="#526069" font-weight="400">Manœuvrer les vantaux → faire passer.</text>
+<text x="566" y="1304" font-size="16" fill="#526069" font-weight="400">Refermer → réengager → vérifier.</text>
+<text x="566" y="1363" font-size="14" fill="#687368" font-weight="400">Ouverture partielle : plusieurs contours nécessaires.</text>
+<text x="1078" y="1066" font-size="19" fill="#243f48" font-weight="700">06 / PANNES ET ENTRETIEN</text>
+<text x="1079" y="1101" font-size="16" fill="#526069" font-weight="400">Fil rompu → perte de la frontière concernée.</text>
+<text x="1079" y="1130" font-size="16" fill="#526069" font-weight="400">Sceau fissuré → relève, remplacement, accord.</text>
+<text x="1079" y="1159" font-size="16" fill="#526069" font-weight="400">Cadre déformé → reprendre les charges.</text>
+<text x="1079" y="1188" font-size="16" fill="#526069" font-weight="400">Gemme vide → isoler puis remplacer.</text>
+<text x="1079" y="1217" font-size="16" fill="#526069" font-weight="400"></text>
+<text x="1079" y="1246" font-size="16" fill="#526069" font-weight="400">Avant réparation : interrompre ou relever l’effet.</text>
+<text x="1079" y="1275" font-size="16" fill="#526069" font-weight="400">Un montant peut céder alors que le filtre tient.</text>
+<text x="1079" y="1304" font-size="16" fill="#526069" font-weight="400">Les supports restent à inspecter après un choc.</text>
+<text x="1079" y="1363" font-size="14" fill="#687368" font-weight="400">Pas d’autoréparation ni de fermeture intelligente.</text>
+<text x="40" y="1433" font-size="14" fill="#7b6c50" font-weight="700">CHOIX PROPOSÉS</text>
+<text x="198" y="1433" font-size="15" fill="#726c60" font-weight="400">Frontière devant les vantaux · ouverture entière · impact proche d’un angle charge davantage cet ancrage.</text>
+<text x="40" y="1464" font-size="14" fill="#777d76" font-weight="400">À dimensionner : capacité, taille, consommation, recette matérielle du silex blanc et répartition exacte des charges.</text>
+<text x="40" y="1488" font-size="12" fill="#899087" font-weight="400">La matière et l’énergie ne sont jamais créées. Plan de fiction pour l’univers des magiciens ; aucun dimensionnement de construction.</text>
+</g></svg>

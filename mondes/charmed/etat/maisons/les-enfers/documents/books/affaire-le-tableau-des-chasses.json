@@ -1,0 +1,441 @@
+{
+ "id": "affaire-le-tableau-des-chasses",
+ "titre": "Le tableau des chasses",
+ "sous_titre": "Où les démons qui chassent pour leur compte se présentent à la cour avant de courir — tenu par Varek, sous l'affaire des Trois refaites (1100)",
+ "type": "plan",
+ "embleme": "📜",
+ "couleur": "#5a1a1a",
+ "tenu_par": "varek",
+ "office": "Héraut de la Source, teneur du tableau des chasses",
+ "lecteurs": [
+  "la-source",
+  "varek",
+  "kazhar",
+  "la-glaneuse",
+  "morne-le-charognard",
+  "le-liseur",
+  "le-courtier",
+  "le-greffier"
+ ],
+ "lieu_id": "les-enfers",
+ "salle_id": "salle-de-la-source",
+ "maison_id": "les-enfers",
+ "pages": [
+  {
+   "titre": "À quoi sert ce volume",
+   "texte": "Ce volume est la façon dont ceux d'en bas s'alignent : ce qu'on veut ensemble, ce qui l'empêche, qui fait quoi et pour quand. On ne s'y parle pas, on y ÉCRIT ce qu'on a fait et ce qu'on va faire, pour que les autres le lisent avant d'agir.\n\nUNE LIGNE PAR ACTION, et sa main dans « 👤 Qui ». L'état en UN MOT dans « ⏳ État » — à faire, en cours, faite, bloquée. La prose va dans « 📝 Note ». Qui frappe sans avoir écrit sa ligne frappe seul, et en répondra seul.\n\nNe lit ce volume que celui qu'il nomme. Belthazor n'y est pas."
+  }
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "Le tableau des chasses",
+      "Le sujet, jamais la solution.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Que deux démons ne courent jamais la même sœur la même nuit sans le savoir, et que la cour sache qui chasse quoi avant que ça frappe.",
+      "Ce qu'on veut obtenir, en une phrase qui puisse être fausse.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Les démons libres qui chassent les sœurs ou le traître pour leur compte : leur proie, leur fenêtre, ce qu'ils attendent des autres. Rien de leurs clefs ni de leurs faiblesses.",
+      "Ce que cette affaire tient, et dont elle répond.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "La meute, l'Oracle, les galeries et ce qui est à la parole de la Source : c'est l'affaire des Trois refaites (1000-1499). Les warlocks hors maison.",
+      "Ce qu'on refuse d'y mettre.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "Personne ne s'est encore présenté. La Glaneuse a demandé audience (clef 1110 de l'affaire des Trois refaites).",
+      "Où en est l'affaire au moment où on la lit, sans complaisance.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "1500-1599 (maison des Enfers ; 1000-1499 est à affaire-les-trois-refaites, 1600 au trône vide).",
+      "Réservée d'avance.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "",
+      "L'avis du titulaire, de SA main : ce qu'il ferait, ce qui le ferait changer d'avis. Jamais écrite par un autre.",
+      "**non**"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "L'affaire des Trois refaites est fermée.",
+      "Écrit à l'ouverture, à froid.",
+      "**oui**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⛓️ Ce qui pend, et sur qui — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🧭 Sens",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "🔗 L'affaire"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "—",
+      "",
+      "",
+      "rien ne traverse"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔨🪶 Ce qu'on engage, et qui d'autre le veut — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🔢 La pièce",
+    "⚔️ Nos actions",
+    "🔗 Aussi engagée par"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "—",
+      "",
+      "aucun moyen, aucun office"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🕳️ Les trous — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🕳️ Le défaut",
+    "🔢 Les pièces"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🔒 verrou qu'aucune clef n'ouvre — il est mal nommé",
+      "🔒 1513"
+     ]
+    },
+    {
+     "cellules": [
+      "🔤 office ou moyen nommé en clair — écrire son numéro, sans quoi le lien n'existe pas pour la machine",
+      "⚔️ 1532 · ⚔️ 1533 · ⚔️ 1534 · ⚔️ 1535 · ⚔️ 1536 · ⚔️ 1538"
+     ]
+    },
+    {
+     "cellules": [
+      "⚔️ action dont la chaîne ne remonte à aucun état cible",
+      "⚔️ 1532 · ⚔️ 1533 · ⚔️ 1534 · ⚔️ 1535 · ⚔️ 1536 · ⚔️ 1538"
+     ]
+    },
+    {
+     "cellules": [
+      "⛓️‍💥 référence pendante — le numéro désigné n'existe nulle part dans le plan",
+      "🔒 1513 · ⚔️ 1532 · ⚔️ 1533 · ⚔️ 1534 · ⚔️ 1535 · ⚔️ 1536 · ⚔️ 1538"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 Etats cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🏷️ L'état",
+    "✅ Ce qui doit être vrai",
+    "📍 Où",
+    "👁️ La preuve",
+    "⬆️ Sert",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "1503",
+      "Les chasseurs ne se gênent pas",
+      "Deux démons ne courent pas la même sœur la même nuit sans le savoir.",
+      "ce tableau",
+      "chaque chasse déclarée ici avant d'être courue",
+      "1100 (affaire-les-trois-refaites)",
+      "50"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous",
+   "colonnes": [
+    "🔒 N°",
+    "🏷️ Le verrou",
+    "⛔ Bloque",
+    "📌 Ce qui est vrai aujourd'hui",
+    "👁️ La preuve",
+    "🔓 Levé quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "1513",
+      "Chacun chasse pour soi",
+      "1503",
+      "Les démons libres ne disent rien à la cour de ce qu'ils courent.",
+      "personne ne s'est présenté",
+      "ils déclarent ici, ou la Source l'exige"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🏷️ La clef",
+    "🔓 Ouvre",
+    "💡 Le principe",
+    "💰 Le prix",
+    "🚪 Ce que cela ferme",
+    "👁️ La preuve attendue",
+    "⚖️ Décision"
+   ],
+   "lignes": []
+  },
+  {
+   "titre": "⚔️ Actions",
+   "colonnes": [
+    "⚔️ N°",
+    "🏷️ L'action",
+    "🗝️ Réalise",
+    "📝 Ce qu'on fait",
+    "📍 Où",
+    "🪶 Office",
+    "👤 Qui",
+    "🧰 Moyens",
+    "🔧 Avec quoi",
+    "💰 Ce qu'elle coûte",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "⏳ État",
+    "📅 Jour fait",
+    "📝 Note",
+    "📅 Jour dû"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "1532",
+      "Tenir le tableau des chasses",
+      "1503",
+      "Inscrire chaque chasse déclarée ; le dire à la Source au rapport du matin.",
+      "salle-de-la-source",
+      "héraut",
+      "varek",
+      "",
+      "",
+      "",
+      "",
+      "le tableau à jour",
+      "en cours",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "1533",
+      "Déclarer sa chasse : proie, fêlure, fenêtre",
+      "1503",
+      "Écrire ici quelle sœur, par quoi, et quelle semaine — pas sa clef ni ses moyens.",
+      "ce volume",
+      "chasseresse",
+      "la-glaneuse",
+      "",
+      "",
+      "",
+      "",
+      "la ligne écrite",
+      "faite",
+      "2001-10-09",
+      "Proie : Piper Halliwell. Fêlure : sa colère tue, serrée dans le deuil de Prue. Fenêtre : sept jours à compter du 09.10.2001. Chasse autorisée par la Source : Piper seule ; Phoebe et Paige exclues.",
+      "16.10.2001"
+     ]
+    },
+    {
+     "cellules": [
+      "1534",
+      "Déclarer sa chasse : proie, fêlure, fenêtre",
+      "1503",
+      "Idem.",
+      "ce volume",
+      "charognard",
+      "morne-le-charognard",
+      "",
+      "",
+      "",
+      "",
+      "la ligne écrite",
+      "à faire",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "1535",
+      "Déclarer sa chasse : proie, fêlure, fenêtre",
+      "1503",
+      "Idem.",
+      "ce volume",
+      "liseur",
+      "le-liseur",
+      "",
+      "",
+      "",
+      "",
+      "la ligne écrite",
+      "faite",
+      "2001-10-10",
+      "Proie : Phoebe Halliwell. Fêlure : elle accorde foi aux visions venues par contact. Fenêtre : sept jours du 13.10.2001 au 20.10.2001, après le terme du compte de Kazhar. Les autres chasseurs n'approchent ni Phoebe ni les objets placés sur sa route durant cette course.",
+      "20.10.2001"
+     ]
+    },
+    {
+     "cellules": [
+      "1536",
+      "Déclarer sa chasse : proie, fêlure, fenêtre",
+      "1503",
+      "Idem.",
+      "ce volume",
+      "courtier",
+      "le-courtier",
+      "",
+      "",
+      "",
+      "",
+      "la ligne écrite",
+      "à faire",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "1538",
+      "Déclarer sa chasse : proie, fêlure, fenêtre",
+      "1503",
+      "Écrire ici quelle sœur, par quoi, et quelle semaine — pas sa clef ni ses moyens.",
+      "ce volume",
+      "greffier",
+      "le-greffier",
+      "",
+      "",
+      "",
+      "",
+      "la ligne écrite",
+      "à faire",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "1539",
+      "Trouver un porteur mortel pour Piper",
+      "1503",
+      "Choisir au cimetière un mortel capable de porter cette semaine un message à Piper Halliwell ; les autres chasseurs n'approchent ni le porteur ni Piper durant cette course.",
+      "cimetiere",
+      "chasseresse",
+      "la-glaneuse",
+      "",
+      "",
+      "",
+      "",
+      "un porteur choisi et le message confié",
+      "bloquée",
+      "2001-10-10",
+      "Recherche menée de 21 h 05 à minuit parmi les tombes fraîches ; aucun porteur mortel identifiable n'est établi, aucun message n'a été confié. Varek exige désormais un nom vérifiable et sa voie exacte d'entrée au Manoir avant tout dépôt. Tarn et Vesk ne quittent pas leurs postes ; Malek ne donnera qu'un nom rencontré par hasard, sans détour ni contact, et aucun nom n'est remonté. Morne n'a reconnu aucun endeuillé qu'il sache lié à Piper ou au Manoir. Ligne bloquée jusqu'à ce qu'une source accessible établisse le nom, qui l'admet, pour quel motif et à quel moment.",
+      "16.10.2001"
+     ]
+    },
+    {
+     "cellules": [
+      "1540",
+      "Préparer le salon et les mots destinés à Piper",
+      "1503",
+      "Rendre le salon de Russian Hill propre à recevoir Piper seule et préparer un billet d'approche sans l'attribuer à Prue avant qu'un porteur réel ne l'ait reçu ; les autres chasseurs n'approchent ni le salon ni Piper durant cette course.",
+      "russian-hill",
+      "chasseresse",
+      "la-glaneuse",
+      "",
+      "",
+      "",
+      "",
+      "un brouillon daté et le salon prêt",
+      "faite",
+      "2001-10-10",
+      "Invitation rédigée et retenue : elle vise Piper seule, ne promet ni apparition ni retour, demande un souvenir choisi et n'est pas attribuée à Prue. Salon installé à Russian Hill avec une seule place face à la médium, aucun siège offert à Phoebe ou Paige, aucun objet ni écrit attribué à Prue. Le billet reste retenu faute de porteur.",
+      "16.10.2001"
+     ]
+    }
+   ]
+  }
+ ]
+}

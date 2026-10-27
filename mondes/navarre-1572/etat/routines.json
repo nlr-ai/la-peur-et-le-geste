@@ -1,0 +1,325 @@
+{
+ "_": "Les journees de Paris en aout 1572. Une bande = {de, a, salle, lieu} en minutes 0-1439. Le jour se leve vers 300 (5 h) et tombe vers 1200 (20 h). Fichier technique, hors docs/schema.md. Les fetes des noces (18-21) se jouent par la presence posee a la main, pas par ces bandes.",
+ "peremption_minutes": 240,
+ "modeles": {
+  "cour": {
+   "nom": "La journee d'un grand a la cour",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 420,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 420,
+     "a": 1380,
+     "salle": "@poste"
+    },
+    {
+     "de": 1380,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  },
+  "roi": {
+   "nom": "La journee du roi",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 420,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 420,
+     "a": 540,
+     "salle": "@poste",
+     "pourquoi": "le lever, la messe"
+    },
+    {
+     "de": 540,
+     "a": 660,
+     "salle": "chambre-du-roi",
+     "lieu": "La chambre du roi, au Louvre",
+     "ferme": true,
+     "pourquoi": "le conseil"
+    },
+    {
+     "de": 660,
+     "a": 1380,
+     "salle": "@poste"
+    },
+    {
+     "de": 1380,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  },
+  "amiral": {
+   "nom": "La journee de l'amiral",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 360,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 360,
+     "a": 540,
+     "salle": "@dortoir",
+     "pourquoi": "le preche, les lettres, les capitaines"
+    },
+    {
+     "de": 540,
+     "a": 660,
+     "salle": "chambre-du-roi",
+     "lieu": "La chambre du roi, au Louvre",
+     "ferme": true,
+     "pourquoi": "le conseil du roi"
+    },
+    {
+     "de": 660,
+     "a": 1440,
+     "salle": "@poste"
+    }
+   ]
+  },
+  "valet": {
+   "nom": "Le valet qui suit son maitre",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 1440,
+     "salle": "@suit",
+     "pourquoi": "a la porte ou sur les talons du roi de Navarre"
+    }
+   ]
+  },
+  "ville": {
+   "nom": "La journee d'un homme de la ville",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 360,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 360,
+     "a": 1260,
+     "salle": "@poste"
+    },
+    {
+     "de": 1260,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  }
+ },
+ "gens": {
+  "catherine-de-medicis": {
+   "modele": "cour",
+   "dortoir": {
+    "salle": "appartement-reine-mere",
+    "lieu": "L'appartement de la reine mere, au Louvre"
+   },
+   "poste": {
+    "salle": "appartement-reine-mere",
+    "lieu": "L'appartement de la reine mere, au Louvre"
+   }
+  },
+  "charles-ix": {
+   "modele": "roi",
+   "dortoir": {
+    "salle": "chambre-du-roi",
+    "lieu": "La chambre du roi, au Louvre"
+   },
+   "poste": {
+    "salle": "chambre-du-roi",
+    "lieu": "La chambre du roi, au Louvre"
+   }
+  },
+  "marguerite-de-valois": {
+   "modele": "cour",
+   "dortoir": {
+    "salle": "chambre-margot",
+    "lieu": "La chambre de la reine de Navarre, au Louvre"
+   },
+   "poste": {
+    "salle": "chambre-margot",
+    "lieu": "La chambre de la reine de Navarre, au Louvre"
+   }
+  },
+  "henri-d-anjou": {
+   "modele": "cour",
+   "dortoir": {
+    "salle": "appartement-monsieur",
+    "lieu": "L'appartement de Monsieur, au Louvre"
+   },
+   "poste": {
+    "salle": "appartement-monsieur",
+    "lieu": "L'appartement de Monsieur, au Louvre"
+   }
+  },
+  "francois-d-alencon": {
+   "modele": "cour",
+   "dortoir": {
+    "salle": "appartement-alencon",
+    "lieu": "L'appartement du duc d'Alencon, au Louvre"
+   },
+   "poste": {
+    "salle": "appartement-alencon",
+    "lieu": "L'appartement du duc d'Alencon, au Louvre"
+   }
+  },
+  "henri-de-guise": {
+   "modele": "cour",
+   "dortoir": {
+    "salle": "hotel-de-guise",
+    "lieu": "L'hotel de Guise, au Marais"
+   },
+   "poste": {
+    "salle": "cour-du-louvre",
+    "lieu": "La cour du Louvre"
+   }
+  },
+  "coligny": {
+   "modele": "amiral",
+   "dortoir": {
+    "salle": "rue-de-bethisy",
+    "lieu": "L'hotel de l'amiral, rue de Bethisy"
+   },
+   "poste": {
+    "salle": "rue-de-bethisy",
+    "lieu": "L'hotel de l'amiral, rue de Bethisy"
+   }
+  },
+  "teligny": {
+   "modele": "cour",
+   "dortoir": {
+    "salle": "rue-de-bethisy",
+    "lieu": "L'hotel de l'amiral, rue de Bethisy"
+   },
+   "poste": {
+    "salle": "rue-de-bethisy",
+    "lieu": "L'hotel de l'amiral, rue de Bethisy"
+   }
+  },
+  "henri-de-conde": {
+   "modele": "cour",
+   "dortoir": {
+    "salle": "chambre-conde",
+    "lieu": "La chambre du prince de Conde, au Louvre"
+   },
+   "poste": {
+    "salle": "cour-du-louvre",
+    "lieu": "La cour du Louvre"
+   }
+  },
+  "la-rochefoucauld": {
+   "modele": "cour",
+   "dortoir": {
+    "salle": "rue-de-bethisy",
+    "lieu": "L'hotel de l'amiral, rue de Bethisy"
+   },
+   "poste": {
+    "salle": "chambre-du-roi",
+    "lieu": "La chambre du roi, au Louvre"
+   }
+  },
+  "agrippa-d-aubigne": {
+   "modele": "cour",
+   "dortoir": {
+    "salle": "logis-des-gentilshommes",
+    "lieu": "Le logis des gentilshommes de Navarre, au Louvre"
+   },
+   "poste": {
+    "salle": "logis-des-gentilshommes",
+    "lieu": "Le logis des gentilshommes de Navarre, au Louvre"
+   }
+  },
+  "piles": {
+   "modele": "cour",
+   "dortoir": {
+    "salle": "logis-des-gentilshommes",
+    "lieu": "Le logis des gentilshommes de Navarre, au Louvre"
+   },
+   "poste": {
+    "salle": "logis-des-gentilshommes",
+    "lieu": "Le logis des gentilshommes de Navarre, au Louvre"
+   }
+  },
+  "armagnac": {
+   "modele": "valet",
+   "dortoir": {
+    "salle": "chambre-navarre",
+    "lieu": "La chambre du roi de Navarre, au Louvre"
+   },
+   "poste": {
+    "salle": "chambre-navarre",
+    "lieu": "La chambre du roi de Navarre, au Louvre"
+   },
+   "suit": "henri-de-navarre"
+  },
+  "ambroise-pare": {
+   "modele": "cour",
+   "dortoir": {
+    "salle": "garde-robe-du-roi",
+    "lieu": "La garde-robe du roi, au Louvre"
+   },
+   "poste": {
+    "salle": "garde-robe-du-roi",
+    "lieu": "La garde-robe du roi, au Louvre"
+   }
+  },
+  "maurevert": {
+   "modele": "ville",
+   "dortoir": {
+    "salle": "hotel-de-guise",
+    "lieu": "L'hotel de Guise, au Marais"
+   },
+   "poste": {
+    "salle": "hotel-de-guise",
+    "lieu": "L'hotel de Guise, au Marais"
+   }
+  },
+  "le-charron": {
+   "modele": "ville",
+   "dortoir": {
+    "salle": "hotel-de-ville",
+    "lieu": "L'Hotel de Ville, place de Greve"
+   },
+   "poste": {
+    "salle": "hotel-de-ville",
+    "lieu": "L'Hotel de Ville, place de Greve"
+   }
+  },
+  "cardinal-de-bourbon": {
+   "modele": "cour",
+   "dortoir": {
+    "salle": "faubourg-saint-germain",
+    "lieu": "Le faubourg Saint-Germain, outre-Seine"
+   },
+   "poste": {
+    "salle": "cour-du-louvre",
+    "lieu": "La cour du Louvre"
+   }
+  },
+  "montgomery": {
+   "modele": "ville",
+   "dortoir": {
+    "salle": "faubourg-saint-germain",
+    "lieu": "Le faubourg Saint-Germain, outre-Seine"
+   },
+   "poste": {
+    "salle": "faubourg-saint-germain",
+    "lieu": "Le faubourg Saint-Germain, outre-Seine"
+   }
+  }
+ }
+}

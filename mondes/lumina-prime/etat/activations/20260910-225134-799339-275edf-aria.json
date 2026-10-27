@@ -1,0 +1,33 @@
+{
+  "version": "activation-graphe/2",
+  "qui": "aria",
+  "tache": {
+    "id": "20564",
+    "quoi": "Écrire la fiche de réception de la tranche 2D"
+  },
+  "activation": {
+    "issue": "traitee-par-depeche",
+    "energie_depensee": 25.0,
+    "activites": [
+      {
+        "action": {
+          "verbe": "poursuivre",
+          "quoi": "BOUCLE D'ACTIVATION — le graphe t'a élu pour poursuivre cette tâche maintenant.\nTÂCHE : `20564`\nOBJET : Écrire la fiche de réception de la tranche 2D\nBUDGET DE TRAVAIL : 25 unités.\n\nAgis depuis ta tête, tes documents de maison et l'état réel du dépôt. Tu as accès au dépôt : écris directement, par les portes canoniques, les changements d'état, d'action, d'étape, d'acte ou de mesure que ton travail produit. Ne demande rien au MJ. Si une issue dépend d'un autre ou d'un fait absent, écris ton geste et laisse seulement cette issue en attente."
+        },
+        "temps": {
+          "duree_s": 750
+        },
+        "resultats_produits": [],
+        "cout_energie": 25.0
+      }
+    ]
+  },
+  "_activation": {
+    "cree_le": "2026-09-10T22:51:34.799105+02:00",
+    "front": "nova",
+    "present_secondes": 3630.0,
+    "budget": 25,
+    "duree_api_ms": 293975,
+    "mode": "depeche-directe-repo"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "personnage_id": "infection",
+    "nom": "Auto-immunité / maladie",
+    "jeton": "recherche-infection",
+    "role": "principal",
+    "pnj": [],
+    "occupe": true,
+    "lieu": "table-des-preuves",
+    "depuis": 0
+  },
+  {
+    "personnage_id": "immunite",
+    "nom": "Régulation immunitaire",
+    "jeton": "recherche-immunite",
+    "role": "secondaire",
+    "pnj": [],
+    "occupe": true,
+    "lieu": "table-des-preuves",
+    "depuis": 0
+  }
+]

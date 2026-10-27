@@ -1,0 +1,252 @@
+[
+ {
+  "id": "banquet-et-bal-des-noces",
+  "date_prevue": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 18,
+   "minute": 1080
+  },
+  "type": "canon",
+  "importance": 30,
+  "description": "Banquet des noces a l'eveche, puis bal au Louvre. Le roi de Navarre y ouvre la danse avec la reine de Navarre.",
+  "lieu_id": "paris",
+  "acteurs": [
+   "charles-ix",
+   "catherine-de-medicis",
+   "marguerite-de-valois",
+   "henri-de-navarre"
+  ],
+  "conditions": [],
+  "statut": "a-venir",
+  "effets": [
+   "la cour dort au Louvre ; les fetes durent jusqu'au 21"
+  ],
+  "diffusion": [],
+  "_": "Histoire. Heures : invention declaree."
+ },
+ {
+  "id": "paradis-d-amour",
+  "date_prevue": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 20,
+   "minute": 1200
+  },
+  "type": "canon",
+  "importance": 40,
+  "description": "Divertissement du Paradis d'amour au Petit-Bourbon : le roi et ses freres defendent le Paradis ; le roi de Navarre et les gentilshommes huguenots l'assaillent et sont rejetes aux Enfers, d'ou des nymphes les delivrent.",
+  "lieu_id": "paris",
+  "acteurs": [
+   "charles-ix",
+   "henri-d-anjou",
+   "francois-d-alencon",
+   "henri-de-navarre"
+  ],
+  "conditions": [
+   "si le roi de Navarre refuse de jouer son role, la fete se fait sans lui et la cour le remarque"
+  ],
+  "statut": "a-venir",
+  "effets": [
+   "Paris en fait des plaisanteries : les heretiques en enfer"
+  ],
+  "diffusion": [],
+  "_": "Histoire."
+ },
+ {
+  "id": "tournoi-du-21",
+  "date_prevue": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 21,
+   "minute": 900
+  },
+  "type": "canon",
+  "importance": 25,
+  "description": "Course de bague et tournoi dans la cour du Louvre ; les princes en costumes d'Amazones et de Turcs.",
+  "lieu_id": "paris",
+  "acteurs": [
+   "charles-ix",
+   "henri-d-anjou",
+   "henri-de-guise",
+   "henri-de-navarre"
+  ],
+  "conditions": [],
+  "statut": "a-venir",
+  "effets": [],
+  "diffusion": [],
+  "_": "Histoire. Heure : invention."
+ },
+ {
+  "id": "arquebusade-de-l-amiral",
+  "date_prevue": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 22,
+   "minute": 660
+  },
+  "type": "canon",
+  "importance": 90,
+  "description": "Rentrant du Louvre a pied par la rue des Poulies, l'amiral est atteint d'un coup d'arquebuse tire d'une fenetre grillee : l'index de la main droite arrache, le bras gauche traverse. Le tireur, Maurevert, s'enfuit a cheval par l'arriere de la maison.",
+  "lieu_id": "paris",
+  "acteurs": [
+   "maurevert",
+   "coligny",
+   "henri-de-guise"
+  ],
+  "conditions": [
+   "si l'amiral a quitte Paris ou ne rentre plus a pied, le coup n'a pas lieu ce jour-la (voir la tete de Guise)",
+   "si la maison louee a ete decouverte et fouillee avant le 22, Maurevert fuit et le coup est perdu",
+   "si l'amiral se penche au moment du tir (canon : il refaisait sa chaussure), il vit : c'est le canon"
+  ],
+  "statut": "a-venir",
+  "effets": [
+   "l'amiral blesse, alite rue de Bethisy ; Pare le soigne",
+   "les huguenots exigent justice ; la tension monte de 20"
+  ],
+  "diffusion": [],
+  "_": "Histoire. La maison appartenait a un ancien precepteur des Guise ; elle est sur le trajet Louvre - rue de Bethisy."
+ },
+ {
+  "id": "visite-du-roi-a-l-amiral",
+  "date_prevue": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 22,
+   "minute": 900
+  },
+  "type": "canon",
+  "importance": 50,
+  "description": "Le roi, la reine mere et Anjou vont au chevet de l'amiral. Le roi jure justice. Il met une garde a sa porte, sous le commandement de Cosseins.",
+  "lieu_id": "paris",
+  "acteurs": [
+   "charles-ix",
+   "catherine-de-medicis",
+   "henri-d-anjou",
+   "coligny"
+  ],
+  "conditions": [
+   "si l'arquebusade n'a pas eu lieu, cette visite n'a pas lieu"
+  ],
+  "statut": "a-venir",
+  "effets": [
+   "une garde royale a la porte de l'amiral"
+  ],
+  "diffusion": [],
+  "_": "Histoire."
+ },
+ {
+  "id": "conseil-du-23",
+  "date_prevue": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 23,
+   "minute": 1260
+  },
+  "type": "canon",
+  "importance": 85,
+  "description": "Conseil etroit chez la reine mere aux Tuileries (Anjou, Nevers, Tavannes, Birague, Retz). On persuade le roi que les huguenots vont venger l'amiral sur sa personne. Le roi cede : qu'on tue les chefs.",
+  "lieu_id": "paris",
+  "acteurs": [
+   "catherine-de-medicis",
+   "henri-d-anjou",
+   "charles-ix"
+  ],
+  "conditions": [
+   "si l'amiral n'a pas ete blesse, ce conseil ne se tient pas en ces termes",
+   "si le roi a ete gagne avant (preuve du coup en main, Navarre ou l'amiral pres de lui ce soir-la), il peut refuser — voir sa tete",
+   "si les chefs huguenots ont quitte Paris, l'ordre vise ce qui reste"
+  ],
+  "statut": "a-venir",
+  "effets": [
+   "ordre au prevot de fermer les portes, d'enchainer les bateaux et d'armer la milice",
+   "Guise charge de l'amiral"
+  ],
+  "diffusion": [],
+  "_": "Histoire."
+ },
+ {
+  "id": "nuit-du-24",
+  "date_prevue": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 24,
+   "minute": 210
+  },
+  "type": "canon",
+  "importance": 100,
+  "description": "Le tocsin sonne avant l'aube. Les gens de Guise tuent l'amiral dans sa chambre et le jettent par la fenetre. Au Louvre, les gentilshommes du roi de Navarre sont tires de leurs chambres et tues dans la cour. Paris s'arme et tue.",
+  "lieu_id": "paris",
+  "acteurs": [
+   "henri-de-guise",
+   "charles-ix",
+   "le-charron",
+   "coligny",
+   "piles"
+  ],
+  "conditions": [
+   "si le conseil du 23 ne s'est pas tenu ou si le roi a refuse, la nuit n'a pas lieu",
+   "si les gentilshommes de Navarre ne logent plus au Louvre, ils ne sont pas tues dans la cour",
+   "si l'amiral a quitte Paris, Guise ne le trouve pas"
+  ],
+  "statut": "a-venir",
+  "effets": [
+   "morts : l'amiral, Teligny, La Rochefoucauld, Piles et les gentilshommes du Louvre (canon)",
+   "Montgomery et ceux du faubourg Saint-Germain s'echappent",
+   "la tension monte a 95, la phase passe a « la-nuit »"
+  ],
+  "diffusion": [],
+  "_": "Histoire."
+ },
+ {
+  "id": "messe-mort-ou-bastille",
+  "date_prevue": {
+   "annee": 1572,
+   "lune": 8,
+   "jour": 24,
+   "minute": 600
+  },
+  "type": "canon",
+  "importance": 95,
+  "description": "Navarre et Conde sont amenes devant le roi, qui leur ordonne de quitter leur religion.",
+  "lieu_id": "paris",
+  "acteurs": [
+   "charles-ix",
+   "henri-de-navarre",
+   "henri-de-conde"
+  ],
+  "conditions": [
+   "si Navarre n'est plus au Louvre, la scene n'a pas lieu"
+  ],
+  "statut": "a-venir",
+  "effets": [
+   "ce qu'Henri repond est a lui : c'est une scene, pas un effet"
+  ],
+  "diffusion": [],
+  "_": "Histoire ; le mot du roi est de tradition."
+ },
+ {
+  "id": "mort-de-charles-ix",
+  "date_prevue": {
+   "annee": 1574,
+   "lune": 5,
+   "jour": 30,
+   "minute": 900
+  },
+  "type": "canon",
+  "importance": 95,
+  "description": "Mort du roi Charles IX a Vincennes ; Anjou, roi de Pologne, devient Henri III.",
+  "lieu_id": "paris",
+  "acteurs": [
+   "charles-ix",
+   "henri-d-anjou"
+  ],
+  "conditions": [],
+  "statut": "a-venir",
+  "effets": [
+   "la reine mere regente en attendant le retour d'Anjou"
+  ],
+  "diffusion": [],
+  "_": "Histoire. Lointain."
+ }
+]

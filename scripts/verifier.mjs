@@ -76,6 +76,11 @@ const EPREUVES = [
       + "jamais dans `etat/`.",
   },
   {
+    id: "serveur-commentaire-http", rang: "garde", secondes: 1,
+    commande: ["node", "serveur/test_commentaire_http.js"],
+    pourquoi: "Commentaire du noeud au canal PNJ, ligne source et chaine, dans un monde temporaire.",
+  },
+  {
     id: "serveur-piece-http", rang: "garde", secondes: 0.2,
     commande: ["node", "serveur/test_piece_http.js"],
     pourquoi: "Les routes /piece et /reception/depot de bout en bout. Ouvre un port EPHEMERE (listen 0) "
@@ -105,6 +110,18 @@ const EPREUVES = [
       + "de minute, sac depose a l'arrivee seulement.",
   },
   {
+    // TRENTE CAS QUI NE TOURNAIENT NULLE PART (9.9). 301 lignes d'epreuves
+    // ecrites, citees dans la table de couverture des tests, et collectees par
+    // AUCUN lanceur : ni `unittest discover -p test_*.py`, ni pytest, dont les
+    // deux motifs exigent `test_*`. Ce n'est pas un TestCase mais un harnais a
+    // code de sortie — donc sa place est ICI, ou une epreuve est une commande,
+    // et non dans un renommage qui ne collecterait toujours rien.
+    id: "occupation", rang: "garde", secondes: 0.6,
+    commande: [PY, "scripts/tests/essai_occupation.py"],
+    pourquoi: "La mesure d'occupation et ses invariants, sur un `etat/` jetable : "
+      + "qui est assis, qui a quitte, un inbox dormant, un siege sans tete.",
+  },
+  {
     id: "chainage-actions", rang: "garde", secondes: 0.2,
     commande: [PY, "scripts/verifier_chainage_actions.py"],
     pourquoi: "Les actes qui citent une action pointent vers sa vraie affaire ; "
@@ -119,6 +136,17 @@ const EPREUVES = [
       + "perimee barre la route. Les regles declarees `sans code` sont listees a part.",
   },
   // --- LES MESURES ----------------------------------------------------------
+  {
+    // La lecon de l'audit, appliquee au lot 1 : le compteur qui n'existe pas
+    // est celui qui derive. Un fichier qui calcule sa racine depuis `__file__`
+    // PUIS y colle `etat` grave le monde dans le code — il ne pourra jamais
+    // changer de monde. Mesure et non garde : ca se migre un fichier par
+    // commit, jamais en un geste aveugle.
+    id: "racines", rang: "mesure", secondes: 1.0,
+    commande: [PY, "scripts/noyau/racines.py", "--verifier"],
+    pourquoi: "Combien de fichiers decident encore seuls ou vit l'etat. "
+      + "Ce chiffre ne doit que descendre (74 le 9.9).",
+  },
   {
     id: "coherence-etat", rang: "mesure", secondes: 9.4,
     commande: [PY, "scripts/tick.py", "--verifier"],

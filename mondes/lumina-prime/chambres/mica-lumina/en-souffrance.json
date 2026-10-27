@@ -1,0 +1,26 @@
+{
+ "quoi": "Ce que j'attends de quelqu'un, et ce que quelqu'un attend de moi. Le plan compte des PAS ; ceci compte des GENS qui n'ont pas répondu, et depuis quand. Ce n'est pas la même chose et cela ne se calcule pas.",
+ "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme.",
+ "j_attends": [
+  {
+   "de": "pitch",
+   "depuis": "2042.1.1",
+   "quoi": "Deux conditions manquantes avant de choisir l'essai : avec quoi on fabrique dans une cellule (matière, outils, ou rien que la cellule) ; si l'objet n'est pas fini à 17h, un nouveau prêt court un autre jour ou une demande durable.",
+   "canal": "billet parloir, relations/pitch/discussion.json, contexte 60303"
+  },
+  {
+   "de": "pitch",
+   "depuis": "2042.1.1",
+   "quoi": "À 15h, cour des ateliers modulaires : la cellule montrée, la réponse d'Ione (premiers gestes, besoin), la réponse de Sillage (besoin, demandée à 14h50).",
+   "canal": "sur place"
+  }
+ ],
+ "on_attend_de_moi": [
+  {
+   "qui": "pitch",
+   "depuis": "2042.1.1",
+   "quoi": "Être dans la cour des ateliers à 15h et y dire oui ou non à l'essai 15h15–17h ; si oui, rendre la cellule à 17h vide, cloisons comme trouvées, rien fixé.",
+   "echeance": "2042.1.1, 15h puis 17h"
+  }
+ ]
+}

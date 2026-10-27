@@ -1,0 +1,784 @@
+{
+  "meta": {
+    "scenario": "arrival",
+    "seed": 1,
+    "personId": 34,
+    "shownAt": "1940-06-15T08:00:00",
+    "simulationAt": "1940-06-15T08:00:00",
+    "sections": [
+      "identity",
+      "personality",
+      "relations"
+    ],
+    "coordinates": "location positions use map units; nested native MapPoint X/Y values use 1000 subdivisions per unit. Not latitude/longitude.",
+    "perspective": "Omniscient dossier. Only knowledge describes information actually known by this character. Other people\u0027s trust, secret holders and hidden traits are not automatically known to him.",
+    "limits": "No invented biography, dialogue, money balance or inventory. Household/site goods are recorded possessions, not proof of personal access. History covers today through shownAt; no future events are exported. Telephone service is at simulationAt."
+  },
+  "identity": {
+    "row": {
+      "id": 34,
+      "first": "Fran\u00E7ois",
+      "last": "Moreau",
+      "sex": "m",
+      "age": 51,
+      "nationality": "fr",
+      "allegiance": "civil",
+      "household": 429,
+      "relation": "head",
+      "status": "post",
+      "post": "depot_chief",
+      "building": 21,
+      "job": "Chef de d\u00E9p\u00F4t",
+      "cover": "railwayman",
+      "from": null,
+      "war": "colonial"
+    },
+    "greatWar": {
+      "key": "colonial",
+      "name": "Marsouin de l\u0027infanterie coloniale",
+      "weight": 2,
+      "minAge": 0,
+      "maxAge": 2147483647
+    },
+    "groups": [],
+    "appearance": {
+      "id": 34,
+      "class": {
+        "key": "worker",
+        "name": "Ouvrier",
+        "weights": {
+          "stubble": 2
+        },
+        "gates": {
+          "glasses": 0.6
+        },
+        "outfit": {
+          "m": [
+            {
+              "slot": "head",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "cap",
+                  "name": "casquette",
+                  "feminine": true,
+                  "shape": "cap",
+                  "colors": [
+                    "grey",
+                    "charcoal",
+                    "navy",
+                    "brown"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "beret",
+                  "name": "b\u00E9ret",
+                  "feminine": false,
+                  "shape": "beret",
+                  "colors": [
+                    "black",
+                    "navy"
+                  ],
+                  "weight": 25,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "bare",
+                  "name": "t\u00EAte nue",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [],
+                  "weight": 15,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "top",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "work_jacket",
+                  "name": "veste de travail",
+                  "feminine": true,
+                  "shape": "jacket",
+                  "colors": [
+                    "work_blue",
+                    "faded_blue"
+                  ],
+                  "weight": 55,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "worn_jacket",
+                  "name": "veston us\u00E9",
+                  "feminine": false,
+                  "shape": "jacket",
+                  "colors": [
+                    "grey",
+                    "brown",
+                    "charcoal"
+                  ],
+                  "weight": 30,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "rolled_shirt",
+                  "name": "chemise aux manches retrouss\u00E9es",
+                  "feminine": true,
+                  "shape": "shirt",
+                  "colors": [
+                    "ecru",
+                    "light_grey",
+                    "faded_blue"
+                  ],
+                  "weight": 15,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "bottom",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "work_trousers",
+                  "name": "pantalon de travail",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "work_blue",
+                    "faded_blue",
+                    "grey",
+                    "brown"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "feet",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "boots",
+                  "name": "brodequins",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "black",
+                    "brown"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "galoshes",
+                  "name": "galoches",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "black"
+                  ],
+                  "weight": 40,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            }
+          ],
+          "f": [
+            {
+              "slot": "head",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "headscarf",
+                  "name": "fichu nou\u00E9",
+                  "feminine": false,
+                  "shape": "headscarf",
+                  "colors": [
+                    "burgundy",
+                    "faded_blue",
+                    "mustard",
+                    "grey"
+                  ],
+                  "weight": 35,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "turban",
+                  "name": "turban",
+                  "feminine": false,
+                  "shape": "turban",
+                  "colors": [
+                    "burgundy",
+                    "bottle_green",
+                    "mustard",
+                    "navy"
+                  ],
+                  "weight": 15,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "bare",
+                  "name": "t\u00EAte nue",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [],
+                  "weight": 50,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "top",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "work_smock",
+                  "name": "blouse de travail",
+                  "feminine": true,
+                  "shape": "smock",
+                  "colors": [
+                    "grey",
+                    "faded_blue",
+                    "beige"
+                  ],
+                  "weight": 55,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "dress",
+                  "name": "robe",
+                  "feminine": true,
+                  "shape": "dress",
+                  "colors": [
+                    "chestnut_brown",
+                    "burgundy",
+                    "grey",
+                    "bottle_green",
+                    "plum"
+                  ],
+                  "weight": 45,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "bottom",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "skirt",
+                  "name": "jupe",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [
+                    "grey",
+                    "black",
+                    "chestnut_brown",
+                    "navy"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "feet",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "wooden_soles",
+                  "name": "chaussures \u00E0 semelles de bois",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [
+                    "black",
+                    "brown"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "galoshes",
+                  "name": "galoches",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "black"
+                  ],
+                  "weight": 40,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "heightCm": 173,
+      "build": {
+        "key": "medium",
+        "name": "de corpulence moyenne",
+        "nameF": null,
+        "color": null,
+        "weight": 45,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "skin": {
+        "key": "matte",
+        "name": "mat",
+        "nameF": null,
+        "color": "d4a882",
+        "weight": 20,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "eyes": {
+        "key": "eyes_dark",
+        "name": "noirs",
+        "nameF": null,
+        "color": "2a1c14",
+        "weight": 8,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "brows": {
+        "key": "thin",
+        "name": "sourcils fins",
+        "nameF": null,
+        "color": null,
+        "weight": 25,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 0.7
+      },
+      "face": {
+        "key": "oval",
+        "name": "visage ovale",
+        "nameF": null,
+        "color": null,
+        "weight": 32,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 0.95
+      },
+      "nose": {
+        "key": "snub",
+        "name": "nez retrouss\u00E9",
+        "nameF": null,
+        "color": null,
+        "weight": 16,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 0.75
+      },
+      "hairColor": {
+        "key": "grey_hair",
+        "name": "gris",
+        "nameF": null,
+        "color": "9a9792",
+        "weight": 40,
+        "minAge": 50,
+        "maxAge": 200,
+        "sex": null,
+        "gate": "greying",
+        "shape": null,
+        "size": 1
+      },
+      "hairStyle": {
+        "key": "short",
+        "name": "coup\u00E9s court",
+        "nameF": null,
+        "color": null,
+        "weight": 35,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "short",
+        "size": 1
+      },
+      "facialHair": {
+        "key": "moustache_thick",
+        "name": "moustache \u00E9paisse",
+        "nameF": null,
+        "color": null,
+        "weight": 16,
+        "minAge": 22,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "thick",
+        "size": 1
+      },
+      "glasses": null,
+      "mark": {
+        "key": "limp",
+        "name": "boite l\u00E9g\u00E8rement",
+        "nameF": null,
+        "color": null,
+        "weight": 10,
+        "minAge": 20,
+        "maxAge": 200,
+        "sex": null,
+        "gate": "mark",
+        "shape": null,
+        "size": 1
+      },
+      "outfit": [
+        {
+          "slot": "head",
+          "key": "cap",
+          "text": "casquette bleu marine",
+          "shape": "cap",
+          "color": "1f2a44",
+          "from": null
+        },
+        {
+          "slot": "top",
+          "key": "work_jacket",
+          "text": "veste de travail bleu de chauffe",
+          "shape": "jacket",
+          "color": "2e4e7e",
+          "from": null
+        },
+        {
+          "slot": "bottom",
+          "key": "work_trousers",
+          "text": "pantalon de travail bleu de chauffe",
+          "shape": null,
+          "color": "2e4e7e",
+          "from": null
+        },
+        {
+          "slot": "feet",
+          "key": "boots",
+          "text": "brodequins noir",
+          "shape": null,
+          "color": "1c1c1e",
+          "from": null
+        }
+      ]
+    },
+    "worn": [
+      {
+        "slot": "head",
+        "key": "cap",
+        "text": "casquette bleu marine",
+        "shape": "cap",
+        "color": "1f2a44",
+        "from": null
+      },
+      {
+        "slot": "top",
+        "key": "work_jacket",
+        "text": "veste de travail bleu de chauffe",
+        "shape": "jacket",
+        "color": "2e4e7e",
+        "from": null
+      },
+      {
+        "slot": "bottom",
+        "key": "work_trousers",
+        "text": "pantalon de travail bleu de chauffe",
+        "shape": null,
+        "color": "2e4e7e",
+        "from": null
+      },
+      {
+        "slot": "feet",
+        "key": "boots",
+        "text": "brodequins noir",
+        "shape": null,
+        "color": "1c1c1e",
+        "from": null
+      }
+    ]
+  },
+  "personality": {
+    "drawn": {
+      "id": 33,
+      "profile": "fence_sitter",
+      "shownProfile": "fence_sitter",
+      "traits": [
+        "veteran_1418",
+        "petainist"
+      ],
+      "axes": {
+        "fervour": 19,
+        "risk": 30,
+        "nerve": 50,
+        "loyalty": 50,
+        "discretion": 40,
+        "greed": 20
+      },
+      "fervour": 19
+    },
+    "currentFervour": 19,
+    "traits": [
+      {
+        "key": "petainist",
+        "name": "Mar\u00E9chaliste",
+        "category": "conviction",
+        "group": "politics",
+        "hidden": false,
+        "axes": {
+          "fervour": -10
+        },
+        "opinion": {
+          "communist": -20,
+          "gaullist": -15,
+          "sto_refractory": -10,
+          "german_lover": -5,
+          "petainist": 10,
+          "veteran_1418": 10,
+          "catholic_conscience": 5
+        },
+        "reactions": {
+          "sto_callup": 5,
+          "landing": 5
+        },
+        "drift": 1,
+        "occupierFervour": 0
+      },
+      {
+        "key": "veteran_1418",
+        "name": "Ancien de 14-18",
+        "category": "background",
+        "group": null,
+        "hidden": false,
+        "axes": {
+          "nerve": 10,
+          "fervour": 2.5
+        },
+        "opinion": {
+          "german_lover": -20,
+          "collaborationist": -10,
+          "veteran_1418": 15,
+          "petainist": 5,
+          "career_soldier": 5,
+          "alsatian_refugee": 5
+        },
+        "reactions": {},
+        "drift": 1,
+        "occupierFervour": 0
+      }
+    ],
+    "axes": [
+      {
+        "key": "fervour",
+        "name": "Ferveur",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "risk",
+        "name": "Prise de risque",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "nerve",
+        "name": "Tenue",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "loyalty",
+        "name": "Fid\u00E9lit\u00E9",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "discretion",
+        "name": "Discr\u00E9tion",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "greed",
+        "name": "V\u00E9nalit\u00E9",
+        "min": 0,
+        "max": 100
+      }
+    ],
+    "voiceAmbiance": "Fran\u00E7ois rappelle que le Mar\u00E9chal, lui, ne nous a jamais menti.",
+    "voiceWords": [
+      "\u00AB J\u0027ai tenu \u00E0 Verdun ; je ne vais pas lever les bras devant eux maintenant. \u00BB"
+    ]
+  },
+  "relations": {
+    "kinship": [],
+    "contacts": [
+      {
+        "person": {
+          "id": 18,
+          "name": "Daniel Largeaud"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 63,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 19,
+          "name": "Jeanne Proust"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 27
+      },
+      {
+        "person": {
+          "id": 32,
+          "name": "Octave Giraud"
+        },
+        "kinds": "Regular",
+        "outgoing": 51,
+        "incoming": 34
+      },
+      {
+        "person": {
+          "id": 35,
+          "name": "Raymond Rivi\u00E8re"
+        },
+        "kinds": "Colleague",
+        "outgoing": 57,
+        "incoming": 66
+      },
+      {
+        "person": {
+          "id": 36,
+          "name": "Henri Boutin"
+        },
+        "kinds": "Colleague, Schoolmate",
+        "outgoing": 82,
+        "incoming": 80
+      },
+      {
+        "person": {
+          "id": 37,
+          "name": "Yves Cosset"
+        },
+        "kinds": "Colleague",
+        "outgoing": 56,
+        "incoming": 63
+      },
+      {
+        "person": {
+          "id": 44,
+          "name": "Bernard Bouju"
+        },
+        "kinds": "Neighbour",
+        "outgoing": 81,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 50,
+          "name": "Joseph Bonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 153,
+          "name": "Jean Tessier"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 69,
+        "incoming": 60
+      },
+      {
+        "person": {
+          "id": 156,
+          "name": "Joseph Jaud"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 51,
+        "incoming": 60
+      },
+      {
+        "person": {
+          "id": 201,
+          "name": "Paulette Cosset"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 214,
+          "name": "Lucie Nau"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 57,
+        "incoming": 64
+      },
+      {
+        "person": {
+          "id": 227,
+          "name": "Abel Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 51,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 250,
+          "name": "Henri Sauzeau"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 76,
+        "incoming": 61
+      }
+    ]
+  }
+}

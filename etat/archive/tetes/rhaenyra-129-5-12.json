@@ -1,0 +1,97 @@
+{
+ "personnage_id": "rhaenyra",
+ "intention": "Mon sceau est dans Sombreval, aux mains de Cole, et l'homme qui l'a remis est sous mon toit : savoir exactement ce que porte cet acte avant que Criston ne le lise au royaume, tenir la flotte armée au mouillage sans donner le premier coup, et attendre les secondes bouches de Nesse.",
+ "croyances": [
+  "La mer ne commande plus rien : dix-sept jours au lieu de vingt-quatre, sept jours rendus ce matin, et le jour d'entrée n'a pas bougé d'une heure. La marge est à elle et elle la garde.",
+  "Le Guet tient à un nom qu'elle n'a pas ; le page est monté chez le prince à huit heures cinquante-cinq, et huit jours séparent le vingt-quatre du trente-deux.",
+  "Jacaerys a levé sur Vermax au petit matin, versant nord, texte scellé sous le pourpoint. Il a laissé quatre lignes et ne l'a pas fait réveiller.",
+  "Harrenhal est prise sans un mort — une ligne de la main du prince, arrivée le premier jour de cette lune.",
+  "Un ordre qu'on donne se remonte par en haut, et un homme qu'on envoie suffit : monter derrière son propre page, c'est apprendre à la maison qu'un page ne compte pas.",
+  "Je ne tiens la place que jusqu'au retour de celui qui décide : je peux tout préparer, rien conclure d'irréversible. Pas de serment prêté ni rompu, pas de mariage, pas de bataille livrée, pas de mort ordonnée, pas de trahison déclarée, pas de reddition, pas de place forte cédée. Ce qui engage pour toujours attend, et j'écris pour qui reviendra.",
+  "La ligne du Guet est arrêtée sur un fait, pas sur un homme : nul n'a vérifié si les officiers du Guet de Port-Réal sont encore soldés, et un homme qu'on ne paie plus n'ouvre aucune porte pour un serment de 105. La clef à chercher n'est pas le nom de l'officier, c'est le nom de qui verse sa solde.",
+  "Maître Rulf est la première bouche et ne peut pas servir de seconde : une confirmation ne vaut que d'une tête qui n'a pas parlé à la première.",
+  "Le rôle des passages du maître de port donne chaque tête descendue au quai avec son heure : quatre sont descendues après la marque de Rulf le quatrième jour, et c'est là que se prennent les secondes bouches.",
+  "Sombreval est prise, non pas en feu : deux bouches séparées et non contaminées — Torgo l'aîné, la flotte brûlée sur ses amarres ; Merrel Coq, des manteaux blancs sur le quai, une tête au bout du môle sous le heaume de lord Gunthor, et le nom de Cole crié. Le troisième jour, pas le quatrième.",
+  "Mon acte de protection scellé est à Sombreval depuis le premier jour, aux mains d'un intendant dont j'ignore s'il vit. C'est ma parole écrite qui est tombée dans la main de Criston : la première chose à savoir demain, avant les navires.",
+  "L'intendant est vivant et il est ici : Aldon Hask, sorti de Sombreval le 3e jour. Mon acte de protection scellé n'était plus à lui — remis contre reçu au chambellan de lord Gunthor le 2e jour, laissé au coffre de la tour. Mon sceau entier est dans une place que tient Criston Cole, et Hask est la seule bouche vivante qui sache ce qu'il porte.",
+  "Ce qui flotte à Peyredragon s'arme et s'avitaille sous Corlys, tenu au mouillage : prêt mais amarré, nul navire ne touche terre à Sombreval. L'avitaillement complet demande quatre jours, non pas un, et deux coques sont encore au sec au bourg. Un seul navire reconnaît la côte sans y toucher, et rentre.",
+  "Quatre convocations au Trident sont parties de ma main, datées du 5e de la 4e lune, de mon nom seul, aux Blackwood, Vance, Piper et Mouton. Je n'en ai parlé à personne, et surtout pas au prince."
+ ],
+ "ignore": [
+  "Que le Trident s'est levé le 2e, et qu'il s'est levé AU NOM DE DAEMON, pas au sien : Blackwood, Vance, Piper, Mouton déclarés à la sommation de Harrenhal, Tully hésitant à part.",
+  "Que les bêtes des fosses sont sorties chasser seules depuis le premier jour de cette lune, sur l'île où elle vient de promettre du travail à quarante familles.",
+  "Que Rosby n'a jamais reçu son acte de protection, et qu'il va l'apprendre par une rumeur."
+ ],
+ "plan": [
+  {
+   "id": "rhaenyra-le-nom-du-guet",
+   "quoi": "Obtenir du prince Daemon le nom de l'officier du Guet, sans monter le chercher — le page est parti, la borne est midi.",
+   "etat": "en-cours",
+   "jours_restants": 0,
+   "depend_de": [],
+   "cout": [
+    "rien qu'un page déjà parti, et l'attente devant la maison"
+   ],
+   "si_bloque": "Si le nom n'est pas rendu avant midi, elle ne monte pas : elle prend le prochain huitième, écrit la charge de sa main, et le prince apprendra le nom qu'elle a mis à la place du sien."
+  },
+  {
+   "id": "rhaenyra-la-case-en-son-absence",
+   "quoi": "Faire porter au registre des offices le nom du suppléant de la roue — la case « en son absence » ne doit pas rester en blanc daté comme les trois offices vacants.",
+   "etat": "en-cours",
+   "jours_restants": 1,
+   "depend_de": [],
+   "cout": [
+    "un quart d'heure du mestre, et un nom qu'il n'a pas encore"
+   ],
+   "si_bloque": "Elle applique au mestre la règle qu'elle a passé la lune à poser sur les autres : la case se remplit ou l'office se déclare vacant, et cela se lit tout haut."
+  },
+  {
+   "id": "rhaenyra-une-seconde-bouche-sur-sombreval",
+   "quoi": "Ne rien décider sur Sombreval avant qu'une seconde bouche, qui n'a pas parlé à la première, ait dit la même chose.",
+   "etat": "en-cours",
+   "jours_restants": 2,
+   "depend_de": [],
+   "cout": [
+    "deux jours d'attente, et le risque que la nouvelle soit vieille quand elle arrivera"
+   ],
+   "si_bloque": "Si rien ne vient sous deux jours, elle fait armer une barque et l'envoie elle-même voir — ce qu'elle aurait dû faire le premier matin."
+  },
+  {
+   "id": "rhaenyra-la-chaine-la-plus-longue",
+   "quoi": "Tenir le jour d'entrée : refuser toute affaire neuve qui allongerait la route du sel, seule chaîne à trente jours quand la mer et la marche n'en font que dix-sept.",
+   "etat": "en-cours",
+   "jours_restants": 3,
+   "depend_de": [],
+   "cout": [
+    "dire non à des gens compétents qui ont raison sur leur propre affaire"
+   ],
+   "si_bloque": "Si une affaire l'allonge malgré elle, elle achète les jours là où ils se vendent — Rosby retourné rend dix jours pour onze mille dragons de surprix, et elle sait le prix."
+  }
+ ],
+ "declencheurs": [
+  {
+   "si": "Une seconde bouche, qui n'a pas parlé à la première, confirme que Sombreval est tombée et non pas seulement en feu",
+   "alors": "Elle cesse tout le reste dans l'heure, fait armer ce qui flotte, et sa première question n'est pas militaire : elle demande qui avait son acte de protection en main, et s'il est vivant."
+  },
+  {
+   "si": "Une nouvelle lui apprend que les seigneurs du Trident se sont déclarés à la sommation de Daemon, et non à la sienne",
+   "alors": "Elle ne le reprend pas devant témoins et n'écrit pas au prince. Elle fait porter sa propre convocation au Trident, datée du jour où elle l'apprend, pour que ce qui est acquis porte aussi son nom — et elle garde pour elle ce que ça lui coûte."
+  },
+  {
+   "si": "une affaire ne peut avancer qu'en prêtant ou rompant un serment, en concluant un mariage, en livrant bataille, en faisant tuer quelqu'un, en déclarant une trahison, en se rendant ou en cédant une place forte",
+   "alors": "je m'arrête à la ligne : je prépare tout ce qui peut l'être, je note au clair ce qui manque, à qui la décision revient et ce qu'elle coûtera de retard, et je laisse l'acte entier à celui dont c'est le siège",
+   "une_fois": false
+  },
+  {
+   "si": "Nesse remonte du quai sans avoir pu prendre deux têtes séparément, ou avec deux récits qui viennent visiblement de la même source",
+   "alors": "Elle ne conclut rien sur Sombreval et n'arme pas, mais elle lève l'interdiction faite à Corlys : un de ses navires part reconnaître la côte de Sombreval sans y toucher terre, et rentre.",
+   "une_fois": false
+  }
+ ],
+ "attitude_joueur": "Siège quitté le 4e jour de la 4e lune, à neuf heures, après un dernier « Nous attendons midi » et deux ordres au mestre. Elle est désormais jouée par les boucles comme n'importe quel acteur : ce qu'elle décidera hors écran ne sera pas ce qu'un joueur aurait décidé, et c'est le prix du départ.",
+ "date_maj": {
+  "annee": 129,
+  "lune": 4,
+  "jour": 5
+ }
+}

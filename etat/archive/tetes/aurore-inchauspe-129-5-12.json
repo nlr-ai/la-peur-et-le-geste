@@ -1,0 +1,84 @@
+{
+ "personnage_id": "aurore-inchauspe",
+ "croyances": [
+  "On ne dement pas un chiffre, on le remplace : lord Darklyn a ecrit trois mille brules le 16e, et une phrase plus courte bat une phrase vraie. C'est pour cela qu'elle paie une bardesse et non un corbeau.",
+  "Le seul compte honnete qui existe est celui du sergent Hallis Roon : cent quatre-vingt-onze manquants, nom, compagnie et pays, et il ne certifie que ce qu'il a vu de ses yeux. Croise avec les douze lunes de registre de maitre Rulf, DIX NOMS DANS LES DEUX LIVRES suffiraient a casser les trois mille.",
+  "LE COMPTE DES MORTS N'A JAMAIS ETE DIT. Les sept lettres du 21e portaient douze cents hommes en armes et quarante vivants, et pas un mort. Elle a les chiffres depuis le 29e ; les dire ou les taire n'est pas tranche, et c'est elle qui tient la plume en attendant.",
+  "Son pere continue de livrer les roukeries de Port-Real, et elle n'a aucun moyen de le lui faire cesser sans ruiner La Noiseraie.",
+  "Je ne tiens la place que jusqu'au retour de celui qui décide : je peux tout préparer, rien conclure d'irréversible. Pas de serment prêté ni rompu, pas de mariage, pas de bataille livrée, pas de mort ordonnée, pas de trahison déclarée, pas de reddition, pas de place forte cédée. Ce qui engage pour toujours attend, et j'écris pour qui reviendra.",
+  "Un croisement ne vaut que s'il est aveugle : Rulf doit lire son livre le premier et écrire de sa main, avant de voir ma colonne. J'ai fait la copie nue — noms seuls, sans compagnie ni pays, ordre brouillé — datée du 4e jour de la 4e lune, an 129.",
+  "Le quai est à vingt-deux minutes de la roukerie : maître Rulf ne se croise pas entre deux plis, il se croise sur une demi-journée réservée à cela."
+ ],
+ "ignore": [
+  "Que le mot de Daemon sur Harrenhal s'est pose au rocher le 1er : il est alle a la reine et au mestre, pas a son office.",
+  "Ce que Marlo Vasse a vu a quatre heures quarante-cinq ce matin devant la porte de la Gadoue. Rien n'est encore remonte de Port-Real.",
+  "Que Sombreval est en train de tomber pendant qu'elle compte ses morts."
+ ],
+ "intention": "Porter la copie aveugle des cent quatre-vingt-onze jusqu'au quai et obtenir de maître Rulf Corne dix concordances au moins, écrites de sa main, jour et coque, avant qu'il ne voie ma colonne — et signer les deux versions côte à côte à l'heure.",
+ "plan": [
+  {
+   "id": "voix-croisement-des-deux-livres",
+   "quoi": "Croiser les cent quatre-vingt-onze noms de Hallis Roon avec les douze lunes du registre de maitre Rulf : un nom dans les deux livres est un brule qui etait sur un pont le lendemain",
+   "etat": "en-cours",
+   "jours_restants": 1,
+   "depend_de": [],
+   "cout": [
+    "la main de Roon, qui n'a pas dormi de quatre nuits",
+    "l'accord de Rulf sur son livre, deja donne",
+    "six feuilles et de l'huile, deja accordees sur sa ligne"
+   ],
+   "si_bloque": "Elle arrete au nombre qu'elle tient — meme trois — et rend un compte PARTIEL et date, plutot qu'un compte entier en retard. Un chiffre petit et prouve se recopie ; un chiffre juste et tardif ne se recopie plus."
+  },
+  {
+   "id": "voix-le-compte-des-morts-dit-ou-tu",
+   "quoi": "Porter a la reine, en face et une seule fois, que le compte des morts du 16e n'a jamais ete dit — et lui laisser trancher s'il se dit",
+   "etat": "en-cours",
+   "jours_restants": 1,
+   "depend_de": [],
+   "cout": [
+    "un quart d'heure de la reine, seule"
+   ],
+   "si_bloque": "Elle ne le dit pas, et elle ecrit a son cahier le jour ou elle aurait pu le dire, avec l'heure. Pour qu'on sache plus tard qu'elle a attendu, et de combien."
+  },
+  {
+   "id": "voix-la-route-du-sel-a-blanc",
+   "quoi": "Recevoir de Nesse la route du sel refaite a blanc par les Trois-Anses, et en tirer le vrai delai d'une nouvelle qui ne passe pas par la roukerie",
+   "etat": "en-cours",
+   "jours_restants": 0,
+   "depend_de": [],
+   "cout": [
+    "une journee de jambes des coureurs, sur les onze qui restent"
+   ],
+   "si_bloque": "Elle prend la moitie du releve et pose le delai en FOURCHETTE avec l'heure du chiffre juste, plutot que de donner un nombre qu'elle devra reprendre."
+  },
+  {
+   "id": "voix-torgo-au-mole",
+   "quoi": "Descendre au mole voir Torgo, en retard de la matinee : ce qu'il a vu des trois hommes ramenes de Sombreval au debut de la lune",
+   "etat": "en-cours",
+   "jours_restants": 0,
+   "depend_de": [],
+   "cout": [
+    "une heure, et la marche du mole"
+   ],
+   "si_bloque": "Elle le fait dire par Beaupre, a bord et non au mole, et accepte de perdre le detail des mains contre la certitude d'avoir la chose avant la nuit."
+  }
+ ],
+ "declencheurs": [
+  {
+   "si": "Une nouvelle de Sombreval touche le rocher, par quelque bouche que ce soit",
+   "alors": "Elle la date a la minute, la fait redire par une SECONDE bouche qui n'a pas parle a la premiere, et ne monte pas au chateau avant d'avoir les deux versions cote a cote. C'est sa methode et elle ne la plie pour personne, meme quand la nouvelle est grosse — surtout quand elle est grosse.",
+   "une_fois": false
+  },
+  {
+   "si": "une affaire ne peut avancer qu'en prêtant ou rompant un serment, en concluant un mariage, en livrant bataille, en faisant tuer quelqu'un, en déclarant une trahison, en se rendant ou en cédant une place forte",
+   "alors": "je m'arrête à la ligne : je prépare tout ce qui peut l'être, je note au clair ce qui manque, à qui la décision revient et ce qu'elle coûtera de retard, et je laisse l'acte entier à celui dont c'est le siège",
+   "une_fois": false
+  }
+ ],
+ "attitude_joueur": "Elle a ete elevee chez cinq maisons qui vont devoir choisir et n'a jamais rien eu a elle : elle sert la reine comme on tient un contrat, avec exactitude et sans devotion, et elle attend le jour ou l'on decouvrira que son pere livre toujours l'autre camp.",
+ "date_maj": {
+  "annee": 129,
+  "lune": 4,
+  "jour": 4
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "quoi": "Ce que j'attends de quelqu'un, et ce que quelqu'un attend de moi. Le plan compte des PAS ; ceci compte des GENS qui n'ont pas répondu, et depuis quand. Ce n'est pas la même chose et cela ne se calcule pas.",
+ "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme.",
+ "j_attends": [
+  {
+   "qui": "dev-lumina",
+   "quoi": "Les connexions du Radiant Core (hall, salon, galerie), promises avant 18h le J1 si elles arrivent. Mes trois questions ont reçu réponse le J1 après 10h12 : inconnu sans 30307 ; aucune confidentialité promise (40205, 40305) ; place d'attente dessinée dans A et B (30305). Portées dans ma table 🚶.",
+   "depuis": "2042.1.1"
+  },
+  {
+   "qui": "aria",
+   "quoi": "Porter 10020 à faite ; renvoyer la règle 📜 en première ligne du registre des décisions (20303)",
+   "depuis": "2042.1.1"
+  },
+  {
+   "qui": "juris",
+   "quoi": "Porter 70307 à faite ; bâtir 70305 depuis mes fiches à accès inconnu",
+   "depuis": "2042.1.1"
+  },
+  {
+   "qui": "quantum",
+   "quoi": "Viendra-t-il mesurer le coût en calcul de l'essai de Sillage (14h30–14h45) ? Pas encore de réponse.",
+   "depuis": "2042.1.1"
+  },
+  {
+   "qui": "dev-lumina",
+   "quoi": "Porter 11021 à « prise » s'il est d'accord.",
+   "depuis": "2042.1.1"
+  }
+ ],
+ "on_attend_de_moi": [
+  {
+   "qui": "sillage-lumina",
+   "quoi": "14h00 au Quai : choisir l'alcôve ensemble ; 14h45 : vérifier l'alcôve rendue ; 14h50 : sa mesure de portée, inscrite, portée à Quantum et à Gaia. Lui demander s'il a besoin d'un objet (pour Mica).",
+   "depuis": "2042.1.1",
+   "du": "2042.1.1, 14h50"
+  },
+  {
+   "qui": "ione-lumina",
+   "quoi": "14h15–14h40 dans la cour des ateliers : visite de la cellule, réponse sur place ; lui demander si elle montrerait à Mica les premiers gestes, et si elle a besoin d'un objet.",
+   "depuis": "2042.1.1",
+   "du": "2042.1.1, 14h15"
+  },
+  {
+   "qui": "mica-lumina",
+   "quoi": "15h aux ateliers : montrer une cellule, sa réponse sur place ; lui dire ce qu'Ione et Sillage ont répondu. 17h : repasser à la cellule.",
+   "depuis": "2042.1.1",
+   "du": "2042.1.1, 15h et 17h"
+  },
+  {
+   "qui": "nova",
+   "quoi": "Tournée 60307 et son résultat au registre 📒 (fin vers 15h30, heures recalées sur les rendez-vous promis).",
+   "depuis": "2042.1.1",
+   "du": "2042.1.1, 15h30"
+  },
+  {
+   "qui": "juris",
+   "quoi": "70381 : colonne « Vu sur place » de la table 📋 de son affaire, pour Quai, ateliers, Halle, datée ; fiches à accès inconnu.",
+   "depuis": "2042.1.1",
+   "du": "2042.1.1, 15h30"
+  }
+ ]
+}

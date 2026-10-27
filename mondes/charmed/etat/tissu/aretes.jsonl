@@ -1,0 +1,408 @@
+{"de": "2010", "vers": "2000", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "2011", "vers": "2000", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "2012", "vers": "2001", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "2020", "vers": "2010", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "2021", "vers": "2011", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "2030", "vers": "2020", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "2030", "vers": "pers:darryl-morris", "nature": "tient", "source": "books/actions", "flou": false, "texte": "darryl-morris"}
+{"de": "2030", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Temps"}
+{"de": "2031", "vers": "2021", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "2031", "vers": "2030", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "2031", "vers": "pers:phoebe-halliwell", "nature": "tient", "source": "books/actions", "flou": false, "texte": "phoebe-halliwell"}
+{"de": "2031", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Énergie"}
+{"de": "2032", "vers": "2021", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "2032", "vers": "pers:leo-wyatt", "nature": "tient", "source": "books/actions", "flou": false, "texte": "leo-wyatt"}
+{"de": "2032", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Douleur psychique"}
+{"de": "2033", "vers": "2031", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "2033", "vers": "pers:piper-halliwell", "nature": "tient", "source": "books/actions", "flou": false, "texte": "piper-halliwell"}
+{"de": "2033", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Temps de recherche"}
+{"de": "2110", "vers": "2100", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "2111", "vers": "2101", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "2120", "vers": "2110", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "2121", "vers": "2111", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "2130", "vers": "2120", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "2130", "vers": "pers:piper-halliwell", "nature": "tient", "source": "books/actions", "flou": false, "texte": "piper-halliwell"}
+{"de": "2130", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "-"}
+{"de": "2131", "vers": "2121", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "2131", "vers": "?", "nature": "tient", "source": "books/actions", "flou": true, "texte": "mj"}
+{"de": "2131", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "-"}
+{"de": "2210", "vers": "2200", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "2211", "vers": "2201", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "2220", "vers": "2210", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "2221", "vers": "2211", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "2230", "vers": "2220", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "2230", "vers": "pers:piper-halliwell", "nature": "tient", "source": "books/actions", "flou": false, "texte": "piper-halliwell"}
+{"de": "2230", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "-"}
+{"de": "2231", "vers": "2221", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "2231", "vers": "2230", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "2231", "vers": "?", "nature": "tient", "source": "books/actions", "flou": true, "texte": "mj"}
+{"de": "2231", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "-"}
+{"de": "2310", "vers": "2300", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "2311", "vers": "2301", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "2320", "vers": "2310", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "2321", "vers": "2311", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "2330", "vers": "2320", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "2330", "vers": "?", "nature": "tient", "source": "books/actions", "flou": true, "texte": "mj"}
+{"de": "2330", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "-"}
+{"de": "2331", "vers": "2321", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "2331", "vers": "2330", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "2331", "vers": "?", "nature": "tient", "source": "books/actions", "flou": true, "texte": "mj"}
+{"de": "2331", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "-"}
+{"de": "pers:varek", "vers": "1000", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-les-trois-refaites"}
+{"de": "pers:varek", "vers": "1100", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-les-trois-refaites"}
+{"de": "pers:varek", "vers": "1200", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-les-trois-refaites"}
+{"de": "?", "vers": "?", "nature": "lie", "source": "books/affaires-liees", "flou": true, "texte": ""}
+{"de": "1001", "vers": "1000", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "1002", "vers": "1000", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "1101", "vers": "1100", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "1102", "vers": "1100", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "1201", "vers": "1200", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "1202", "vers": "1200", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "1010", "vers": "1001", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1011", "vers": "1001", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1012", "vers": "1002", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1110", "vers": "1101", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1110", "vers": "1102", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1111", "vers": "1101", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1210", "vers": "1201", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1210", "vers": "1202", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1211", "vers": "1201", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1212", "vers": "1202", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1020", "vers": "1110", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1020", "vers": "1210", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1020", "vers": "affaire-les-trois-refaites:O01", "nature": "tient", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1020", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Une audience · une fois"}
+{"de": "1021", "vers": "1010", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1021", "vers": "affaire-les-trois-refaites:O03", "nature": "tient", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1021", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Ses nuits ; pas plus de trois heures de sommeil d'affilée"}
+{"de": "1022", "vers": "1012", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1022", "vers": "affaire-les-trois-refaites:O03", "nature": "tient", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1022", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Une nuit"}
+{"de": "1120", "vers": "1111", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1120", "vers": "affaire-les-trois-refaites:O02", "nature": "tient", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1120", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Une nuit"}
+{"de": "1121", "vers": "1110", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1121", "vers": "2001", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1121", "vers": "affaire-les-trois-refaites:O04", "nature": "tient", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1121", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Sept jours ; si elle est découverte, la perte est sienne"}
+{"de": "1220", "vers": "1212", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1220", "vers": "affaire-les-trois-refaites:O01", "nature": "tient", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1220", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Trois nuits"}
+{"de": "affaire-les-trois-refaites:O01", "vers": "pers:varek", "nature": "tient", "source": "books/moyens", "flou": false, "texte": "Varek"}
+{"de": "affaire-les-trois-refaites:O02", "vers": "pers:l-oracle", "nature": "tient", "source": "books/moyens", "flou": false, "texte": "L'Oracle"}
+{"de": "affaire-les-trois-refaites:O03", "vers": "pers:malek-le-veneur", "nature": "tient", "source": "books/moyens", "flou": false, "texte": "Malek le Veneur (Tarn, Vesk)"}
+{"de": "affaire-les-trois-refaites:O03", "vers": "pers:tarn", "nature": "tient", "source": "books/moyens", "flou": false, "texte": "Malek le Veneur (Tarn, Vesk)"}
+{"de": "affaire-les-trois-refaites:O03", "vers": "pers:vesk", "nature": "tient", "source": "books/moyens", "flou": false, "texte": "Malek le Veneur (Tarn, Vesk)"}
+{"de": "affaire-les-trois-refaites:O04", "vers": "pers:la-source", "nature": "tient", "source": "books/moyens", "flou": false, "texte": "La Source"}
+{"de": "pers:varek", "vers": "1503", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-le-tableau-des-chasses"}
+{"de": "?", "vers": "?", "nature": "lie", "source": "books/affaires-liees", "flou": true, "texte": ""}
+{"de": "1513", "vers": "1503", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "1532", "vers": "1503", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1532", "vers": "pers:varek", "nature": "tient", "source": "books/actions", "flou": false, "texte": "varek"}
+{"de": "1533", "vers": "1503", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1533", "vers": "pers:la-glaneuse", "nature": "tient", "source": "books/actions", "flou": false, "texte": "la-glaneuse"}
+{"de": "1534", "vers": "1503", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1534", "vers": "pers:morne-le-charognard", "nature": "tient", "source": "books/actions", "flou": false, "texte": "morne-le-charognard"}
+{"de": "1535", "vers": "1503", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1535", "vers": "pers:le-liseur", "nature": "tient", "source": "books/actions", "flou": false, "texte": "le-liseur"}
+{"de": "1536", "vers": "1503", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1536", "vers": "pers:le-courtier", "nature": "tient", "source": "books/actions", "flou": false, "texte": "le-courtier"}
+{"de": "1538", "vers": "1503", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1538", "vers": "pers:le-greffier", "nature": "tient", "source": "books/actions", "flou": false, "texte": "le-greffier"}
+{"de": "1539", "vers": "1503", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1539", "vers": "pers:la-glaneuse", "nature": "tient", "source": "books/actions", "flou": false, "texte": "la-glaneuse"}
+{"de": "1540", "vers": "1503", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1540", "vers": "pers:la-glaneuse", "nature": "tient", "source": "books/actions", "flou": false, "texte": "la-glaneuse"}
+{"de": "pers:kazhar", "vers": "1601", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-le-trone-vide"}
+{"de": "pers:kazhar", "vers": "1602", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-le-trone-vide"}
+{"de": "?", "vers": "?", "nature": "lie", "source": "books/affaires-liees", "flou": true, "texte": ""}
+{"de": "1611", "vers": "1601", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "1612", "vers": "1601", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "1621", "vers": "1611", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1631", "vers": "1621", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1631", "vers": "pers:kazhar", "nature": "tient", "source": "books/actions", "flou": false, "texte": "kazhar"}
+{"de": "1631", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "trois nuits"}
+{"de": "1632", "vers": "1602", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1632", "vers": "pers:kazhar", "nature": "tient", "source": "books/actions", "flou": false, "texte": "kazhar"}
+{"de": "1633", "vers": "1601", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1633", "vers": "pers:kazhar", "nature": "tient", "source": "books/actions", "flou": false, "texte": "kazhar"}
+{"de": "1633", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "un prix"}
+{"de": "pers:varek", "vers": "1700", "nature": "porte", "source": "books/tenu_par", "flou": false, "texte": "affaire-le-dispensaire-ferme"}
+{"de": "1701", "vers": "1700", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "1702", "vers": "1700", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "1703", "vers": "1700", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "1704", "vers": "1700", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "1705", "vers": "1700", "nature": "bloque", "source": "books/verrous", "flou": false, "texte": ""}
+{"de": "1710", "vers": "1701", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1711", "vers": "1702", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1712", "vers": "1703", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1713", "vers": "1704", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1714", "vers": "1700", "nature": "ouvre", "source": "books/clefs", "flou": false, "texte": ""}
+{"de": "1720", "vers": "1710", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1720", "vers": "1711", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1720", "vers": "1712", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1720", "vers": "1713", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1720", "vers": "1714", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1720", "vers": "pers:varek", "nature": "tient", "source": "books/actions", "flou": false, "texte": "varek"}
+{"de": "1720", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Une audience"}
+{"de": "1721", "vers": "1710", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1721", "vers": "1720", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1721", "vers": "pers:varek", "nature": "tient", "source": "books/actions", "flou": false, "texte": "varek"}
+{"de": "1721", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Temps et discrétion"}
+{"de": "1722", "vers": "1711", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1722", "vers": "1721", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1722", "vers": "pers:ferran-le-verrouilleur", "nature": "tient", "source": "books/actions", "flou": false, "texte": "ferran-le-verrouilleur"}
+{"de": "1722", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Sceaux visibles et destructibles"}
+{"de": "1723", "vers": "1712", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1723", "vers": "1721", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1723", "vers": "pers:neris-le-sonneur", "nature": "tient", "source": "books/actions", "flou": false, "texte": "neris-le-sonneur"}
+{"de": "1723", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Leurre reconnaissable s'il est interrogé"}
+{"de": "1724", "vers": "1711", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1724", "vers": "1722", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1724", "vers": "1725", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1724", "vers": "pers:ferran-le-verrouilleur", "nature": "tient", "source": "books/actions", "flou": false, "texte": "ferran-le-verrouilleur"}
+{"de": "1724", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Présence sur place"}
+{"de": "1725", "vers": "1714", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1725", "vers": "1721", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1725", "vers": "pers:la-source", "nature": "tient", "source": "books/actions", "flou": false, "texte": "la-source"}
+{"de": "1725", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Un choix explicite"}
+{"de": "1726", "vers": "1711", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1726", "vers": "1712", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1726", "vers": "1721", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1726", "vers": "1722", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1726", "vers": "1723", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1726", "vers": "1725", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1726", "vers": "pers:varek", "nature": "tient", "source": "books/actions", "flou": false, "texte": "varek"}
+{"de": "1726", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Exposition du site"}
+{"de": "1727", "vers": "1713", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1727", "vers": "1724", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1727", "vers": "1726", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1727", "vers": "pers:neris-le-sonneur", "nature": "tient", "source": "books/actions", "flou": false, "texte": "neris-le-sonneur"}
+{"de": "1727", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Risque de témoins"}
+{"de": "1728", "vers": "1714", "nature": "realise", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1728", "vers": "1724", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1728", "vers": "1725", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1728", "vers": "1727", "nature": "depend_de", "source": "books/actions", "flou": false, "texte": ""}
+{"de": "1728", "vers": "?", "nature": "tient", "source": "books/actions", "flou": true, "texte": "mj"}
+{"de": "1728", "vers": "?", "nature": "coute_chiffre", "source": "books/actions", "flou": true, "texte": "Réponse adverse"}
+{"de": "affaire-les-trois-refaites:O01", "vers": "pers:varek", "nature": "tient", "source": "books/moyens", "flou": false, "texte": "Varek"}
+{"de": "affaire-les-trois-refaites:O02", "vers": "pers:ferran-le-verrouilleur", "nature": "tient", "source": "books/moyens", "flou": false, "texte": "Ferran, le Verrouilleur"}
+{"de": "affaire-les-trois-refaites:O03", "vers": "pers:neris-le-sonneur", "nature": "tient", "source": "books/moyens", "flou": false, "texte": "Néris, le Sonneur"}
+{"de": "affaire-les-trois-refaites:O04", "vers": "pers:la-source", "nature": "tient", "source": "books/moyens", "flou": false, "texte": "La Source"}
+{"de": "affaire-le-dispensaire-ferme:O05", "vers": "?", "nature": "tient", "source": "books/moyens", "flou": true, "texte": "MJ"}
+{"de": "pers:piper-halliwell", "vers": "etape:piper-p3", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:piper-p3", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une soirée sur place"}
+{"de": "pers:piper-halliwell", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "quelqu'un parle de Prue au passé devant elle, ou touche à ses affaires"}
+{"de": "pers:paige-matthews", "vers": "etape:paige-recul", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "pers:paige-matthews", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "une sœur l'appelle pour un démon"}
+{"de": "pers:leo-wyatt", "vers": "etape:leo-paige", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:leo-paige", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une leçon à la fois, à la demande de Paige"}
+{"de": "pers:leo-wyatt", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Piper est en danger"}
+{"de": "pers:leo-wyatt", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "les Fondateurs l'appellent"}
+{"de": "pers:cole-turner", "vers": "etape:cole-forces", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:cole-forces", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "rester sous le toit des sœurs"}
+{"de": "pers:cole-turner", "vers": "etape:cole-entrainer", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:cole-entrainer", "vers": "etape:cole-forces", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:cole-entrainer", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "des séances régulières"}
+{"de": "pers:cole-turner", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "un chasseur de primes est senti près du Manoir"}
+{"de": "pers:l-oracle", "vers": "etape:oracle-lire", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:oracle-lire", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une nuit au bassin"}
+{"de": "pers:l-oracle", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "la Source tue un serviteur qui a échoué"}
+{"de": "pers:darryl-morris", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "un corps inexplicable tombe dans son secteur"}
+{"de": "pers:malek-le-veneur", "vers": "etape:malek-cerner", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:malek-cerner", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "trois chasseurs"}
+{"de": "etape:malek-cerner", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "des nuits sans relève"}
+{"de": "pers:malek-le-veneur", "vers": "etape:malek-frapper", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:malek-frapper", "vers": "etape:malek-cerner", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:malek-frapper", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "que Belthazor sorte ou miroite"}
+{"de": "etape:malek-frapper", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "les trois chasseurs ensemble"}
+{"de": "pers:malek-le-veneur", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Tarn sent l'aura de Belthazor (miroitement ou sens démoniaques)"}
+{"de": "pers:vesk", "vers": "etape:vesk-appartement", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:vesk-appartement", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une nuit seul"}
+{"de": "pers:vesk", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "il croit voir Belthazor seul"}
+{"de": "pers:tarn", "vers": "etape:tarn-guet", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:tarn-guet", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "ne pas dormir plus de trois heures d'affilée"}
+{"de": "pers:tarn", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Belthazor use de ses sens démoniaques"}
+{"de": "pers:varek", "vers": "etape:varek-rapport", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:varek-rapport", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une audience accordée"}
+{"de": "pers:varek", "vers": "etape:varek-compter-kazhar", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:varek-compter-kazhar", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "deux espions des galeries"}
+{"de": "pers:varek", "vers": "etape:varek-recruter-guetteurs-ville", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:varek-recruter-guetteurs-ville", "vers": "etape:le-courtier propose des candidats", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:varek-recruter-guetteurs-ville", "vers": "etape:malek-le-veneur vérifie leurs capacités et leur retenue", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:varek-recruter-guetteurs-ville", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une recherche dans les galeries"}
+{"de": "etape:varek-recruter-guetteurs-ville", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "le prix encore inconnu des deux candidats"}
+{"de": "pers:varek", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "la Source tue un serviteur devant la cour"}
+{"de": "pers:varek", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "un ordre de la Source lui est donné"}
+{"de": "pers:kazhar", "vers": "etape:kazhar-recevoir", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:kazhar-recevoir", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "trois nuits"}
+{"de": "etape:kazhar-recevoir", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "que Varek ne voie pas tout"}
+{"de": "pers:kazhar", "vers": "etape:kazhar-compter", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:kazhar-compter", "vers": "etape:kazhar-recevoir", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "pers:kazhar", "vers": "etape:kazhar-offrir", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:kazhar-offrir", "vers": "etape:kazhar-recevoir", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:kazhar-offrir", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une audience"}
+{"de": "etape:kazhar-offrir", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "un plan qui tienne"}
+{"de": "pers:kazhar", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "la Source échoue une nouvelle fois devant la cour"}
+{"de": "pers:kazhar", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "la Source le convoque"}
+{"de": "pers:la-glaneuse", "vers": "etape:glaneuse-salon", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:glaneuse-salon", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "trois endeuillés"}
+{"de": "etape:glaneuse-salon", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "un loyer de façade"}
+{"de": "pers:la-glaneuse", "vers": "etape:glaneuse-message", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:glaneuse-message", "vers": "etape:glaneuse-salon", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:glaneuse-message", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "un souvenir de Prue volé au cimetière ou à un proche"}
+{"de": "pers:la-glaneuse", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "une sorcière vient à son salon"}
+{"de": "pers:ezra-vane", "vers": "etape:ezra-entrer", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:ezra-entrer", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une lettre de recommandation fausse"}
+{"de": "etape:ezra-entrer", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "un entretien"}
+{"de": "pers:ezra-vane", "vers": "etape:ezra-prendre", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:ezra-prendre", "vers": "etape:ezra-entrer", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:ezra-prendre", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "l'athamé"}
+{"de": "etape:ezra-prendre", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "qu'elle soit seule"}
+{"de": "pers:ezra-vane", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "elle use de son pouvoir devant lui"}
+{"de": "pers:m-cowan", "vers": "etape:cowan-bourse", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:cowan-bourse", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "Paige à son poste"}
+{"de": "pers:m-cowan", "vers": "etape:cowan-benevole", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:cowan-benevole", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "un bureau libre"}
+{"de": "pers:m-cowan", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Paige manque encore une journée sans prévenir"}
+{"de": "pers:gil-navarro", "vers": "etape:gil-tenir", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:gil-tenir", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "ses nuits"}
+{"de": "pers:gil-navarro", "vers": "etape:gil-partir", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:gil-partir", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "trouver le bon soir pour le dire"}
+{"de": "pers:gil-navarro", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Piper lui propose une part des bénéfices"}
+{"de": "pers:fondateur-porte-parole", "vers": "etape:fondateur-paige", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:fondateur-paige", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "que Leo monte quand on l'appelle"}
+{"de": "pers:fondateur-porte-parole", "vers": "etape:fondateur-belthazor", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:fondateur-belthazor", "vers": "etape:fondateur-paige", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:fondateur-belthazor", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "la parole de Leo"}
+{"de": "pers:fondateur-porte-parole", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Belthazor use de ses pouvoirs démoniaques sous le toit du Nexus"}
+{"de": "pers:morne-le-charognard", "vers": "etape:morne-repas", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:morne-repas", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "sa meute de quatre"}
+{"de": "etape:morne-repas", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une nuit sans veille dans l'entrée"}
+{"de": "pers:morne-le-charognard", "vers": "etape:morne-vendre", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:morne-vendre", "vers": "etape:morne-repas", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:morne-vendre", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "la route apprise"}
+{"de": "etape:morne-vendre", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "un acheteur reçu"}
+{"de": "pers:morne-le-charognard", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "une sœur le surprend"}
+{"de": "pers:le-greffier", "vers": "etape:greffier-dossier", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:greffier-dossier", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "l'accès aux greffes et aux banques où il a signé"}
+{"de": "pers:le-greffier", "vers": "etape:greffier-lettre", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:greffier-lettre", "vers": "etape:greffier-dossier", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:greffier-lettre", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "le dossier complet"}
+{"de": "etape:greffier-lettre", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une lettre sans timbre"}
+{"de": "pers:le-greffier", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Cole vient au greffe et signe quoi que ce soit"}
+{"de": "pers:le-liseur", "vers": "etape:liseur-route", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:liseur-route", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "un verre dans la ville où se regarder"}
+{"de": "pers:le-liseur", "vers": "etape:liseur-objet", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:liseur-objet", "vers": "etape:liseur-route", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:liseur-objet", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "l'objet préparé"}
+{"de": "etape:liseur-objet", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "un porteur mortel"}
+{"de": "pers:le-liseur", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Phoebe brise un miroir ou une vitre par où il regarde"}
+{"de": "pers:le-courtier", "vers": "etape:courtier-famille", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:courtier-famille", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "un mortel de paille pour signer"}
+{"de": "etape:courtier-famille", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "des références"}
+{"de": "pers:le-courtier", "vers": "etape:courtier-placement", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:courtier-placement", "vers": "etape:courtier-famille", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:courtier-placement", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "l'agrément"}
+{"de": "etape:courtier-placement", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "un dossier signé par M. Cowan"}
+{"de": "pers:le-courtier", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "un démon vient lui confier un pouvoir"}
+{"de": "pers:ferran-le-verrouilleur", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Une mission lui est effectivement transmise par une personne du monde"}
+{"de": "pers:neris-le-sonneur", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Une mission lui est effectivement transmise par une personne du monde"}
+{"de": "pers:kharos-le-briseur", "vers": "etape:kharos-assaut-manoir", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:kharos-assaut-manoir", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "reprise de la scène"}
+{"de": "etape:kharos-assaut-manoir", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une cible réellement vue"}
+{"de": "etape:kharos-assaut-manoir", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "main libre et temps de charge"}
+{"de": "pers:kharos-le-briseur", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Les trois sœurs se rassemblent contre lui, ou il est blessé sans pouvoir isoler une cible"}
+{"de": "?", "vers": "ev:paige-s-installe-au-manoir", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si personne au Manoir ne le lui a proposé avant cette date, elle reste chez elle et vient quand on l'appelle"}
+{"de": "?", "vers": "ev:paige-s-installe-au-manoir", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Piper l'a rejetée ouvertement (scène jouée), elle refuse et l'emménagement recule d'une lune"}
+{"de": "?", "vers": "ev:paige-s-installe-au-manoir", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Phoebe s'y oppose devant elle, Paige ne vient pas"}
+{"de": "pers:paige-matthews", "vers": "ev:paige-s-installe-au-manoir", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:piper-halliwell", "vers": "ev:paige-s-installe-au-manoir", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:phoebe-convoquee-jure", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Phoebe a quitté San Francisco ou changé d'adresse, la lettre ne l'atteint pas"}
+{"de": "pers:phoebe-halliwell", "vers": "ev:phoebe-convoquee-jure", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:dossier-cole-turner-rouvert", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Cole a déjà repris une identité légale (par le Greffier ou autrement), l'enquête se clôt au premier contrôl"}
+{"de": "?", "vers": "ev:dossier-cole-turner-rouvert", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Cole est mort ou a quitté la ville, le dossier se rouvre sans personne au bout et Darryl seul est interrogé"}
+{"de": "pers:cole-turner", "vers": "ev:dossier-cole-turner-rouvert", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:darryl-morris", "vers": "ev:dossier-cole-turner-rouvert", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:glen-rentre-d-australie", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Paige n'habite pas le Manoir, il sonne à son ancien appartement et la retrouve aux Services sociaux"}
+{"de": "pers:glen-belland", "vers": "ev:glen-rentre-d-australie", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:paige-matthews", "vers": "ev:glen-rentre-d-australie", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:piper-et-leo-veulent-un-enfant", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si une sœur est morte ou si le Pouvoir des Trois est rompu, Piper reporte"}
+{"de": "?", "vers": "ev:piper-et-leo-veulent-un-enfant", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Leo a été rappelé durablement par les Fondateurs, rien ne se décide"}
+{"de": "pers:piper-halliwell", "vers": "ev:piper-et-leo-veulent-un-enfant", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:leo-wyatt", "vers": "ev:piper-et-leo-veulent-un-enfant", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:la-voyante-demande-audience", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si la Source est morte ou déchue, elle se présente au plus fort des prétendants (Kazhar) à la place"}
+{"de": "?", "vers": "ev:la-voyante-demande-audience", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si l'Oracle a été tuée ou chassée avant, la Voyante vient plus tôt : dans les sept jours qui suivent"}
+{"de": "pers:la-voyante", "vers": "ev:la-voyante-demande-audience", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:la-source", "vers": "ev:la-voyante-demande-audience", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:l-oracle", "vers": "ev:la-voyante-demande-audience", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:piper-decouvre-sa-grossesse", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Piper et Leo n'ont jamais décidé d'avoir un enfant (piper-et-leo-veulent-un-enfant dévié ou annulé), annulé"}
+{"de": "?", "vers": "ev:piper-decouvre-sa-grossesse", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si la Mère des noces a fait boire son tonique à Piper, l'enfant est lié à elle : l'événement devient sa scène "}
+{"de": "?", "vers": "ev:piper-decouvre-sa-grossesse", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Piper ou Leo est mort, annulé"}
+{"de": "pers:piper-halliwell", "vers": "ev:piper-decouvre-sa-grossesse", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:leo-wyatt", "vers": "ev:piper-decouvre-sa-grossesse", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:morne-mange-les-restes", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si le Manoir a été purifié (sort, encens, sel) depuis la mort de Prue, il ne trouve rien à manger et repart sa"}
+{"de": "?", "vers": "ev:morne-mange-les-restes", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Cole veille et le sent, Morne fuit avant d'avoir mangé"}
+{"de": "?", "vers": "ev:morne-mange-les-restes", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si une sœur le surprend, il propose de vendre ce qu'il sait plutôt que de se battre"}
+{"de": "pers:morne-le-charognard", "vers": "ev:morne-mange-les-restes", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:le-greffier-reclame-sa-creance", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Cole a quitté l'appartement, la lettre est glissée sous la porte du Manoir à son nom"}
+{"de": "?", "vers": "ev:le-greffier-reclame-sa-creance", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Cole est déjà mort ou devenu autre chose qu'un homme, la créance tombe sur Darryl, témoin de son passé"}
+{"de": "pers:le-greffier", "vers": "ev:le-greffier-reclame-sa-creance", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:cole-turner", "vers": "ev:le-greffier-reclame-sa-creance", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:le-liseur-pose-un-objet", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Phoebe ne touche pas l'objet, rien ; il en pose un autre la semaine suivante"}
+{"de": "?", "vers": "ev:le-liseur-pose-un-objet", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Phoebe a déjà une vision née d'un contact qu'elle a choisi ce jour-là, il attend"}
+{"de": "pers:le-liseur", "vers": "ev:le-liseur-pose-un-objet", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:phoebe-halliwell", "vers": "ev:le-liseur-pose-un-objet", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:le-courtier-place-un-enfant", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Paige n'est plus aux Services sociaux, le dossier passe par un collègue et elle ne le voit pas"}
+{"de": "?", "vers": "ev:le-courtier-place-un-enfant", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Paige a vu le dossier et le bloque, il en prend un autre dans un service voisin"}
+{"de": "pers:le-courtier", "vers": "ev:le-courtier-place-un-enfant", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:m-cowan", "vers": "ev:le-courtier-place-un-enfant", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:paige-matthews", "vers": "ev:le-courtier-place-un-enfant", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "ev:indice-guet-sur-prescott", "vers": "pers:phoebe-halliwell", "nature": "revele", "source": "evenements/diffusion", "flou": false, "texte": "Darryl rapporte qu'un voisin a vu quelqu'un tenir le toit d'en face pendant plusieurs heures et disparaître dè", "route": {"canal": "telephone-darryl", "date": {"annee": 2001, "lune": 10, "jour": 10, "minute": 450}, "fiabilite": 90, "deformation": "Darryl rapporte qu'un voisin a vu quelqu'un tenir le toit d'en face pendant plusieurs heures et disparaître dès qu'il s'est su observé ; il n'a ni nom, ni camp, ni cible.", "etat": "arrive"}, "visible_par": ["phoebe-halliwell"], "connaissance": true}
+{"de": "?", "vers": "ev:indice-guet-sur-prescott", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Tarn a quitté le toit avant l'aube, le signalement n'existe pas"}
+{"de": "?", "vers": "ev:indice-guet-sur-prescott", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si le voisin est empêché de joindre la police, Darryl ne reçoit rien"}
+{"de": "pers:tarn", "vers": "ev:indice-guet-sur-prescott", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:darryl-morris", "vers": "ev:indice-guet-sur-prescott", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "ev:indice-carte-de-la-glaneuse", "vers": "pers:phoebe-halliwell", "nature": "revele", "source": "evenements/diffusion", "flou": false, "texte": "Une carte arrivée au Manoir affirme que Prue a quelque chose à dire à Piper ; son porteur ne connaît pas l'exp", "route": {"canal": "temoin", "date": {"annee": 2001, "lune": 10, "jour": 10, "minute": 1020}, "fiabilite": 45, "deformation": "Une carte arrivée au Manoir affirme que Prue a quelque chose à dire à Piper ; son porteur ne connaît pas l'expéditrice.", "etat": "attendu"}, "visible_par": ["phoebe-halliwell"], "connaissance": true}
+{"de": "?", "vers": "ev:indice-carte-de-la-glaneuse", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si la Glaneuse n'a pas ouvert son salon, la carte est retardée"}
+{"de": "?", "vers": "ev:indice-carte-de-la-glaneuse", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si elle n'a obtenu aucun souvenir lié à Prue, la carte vise le deuil de Patty et Paige à la place"}
+{"de": "pers:la-glaneuse", "vers": "ev:indice-carte-de-la-glaneuse", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:phoebe-halliwell", "vers": "ev:indice-carte-de-la-glaneuse", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:piper-halliwell", "vers": "ev:indice-carte-de-la-glaneuse", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "ev:indice-fausse-recommandation-ezra", "vers": "pers:phoebe-halliwell", "nature": "revele", "source": "evenements/diffusion", "flou": false, "texte": "Paige rapporte qu'un bénévole récemment admis a fourni une référence professionnelle impossible à joindre ; ce", "route": {"canal": "temoin", "date": {"annee": 2001, "lune": 10, "jour": 12, "minute": 1260}, "fiabilite": 75, "deformation": "Paige rapporte qu'un bénévole récemment admis a fourni une référence professionnelle impossible à joindre ; cela établit une anomalie, pas sa nature magique.", "etat": "attendu"}, "visible_par": ["phoebe-halliwell"], "connaissance": true}
+{"de": "?", "vers": "ev:indice-fausse-recommandation-ezra", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Ezra n'est pas admis comme bénévole, la lettre reste au dossier mais son enquête n'est pas prioritaire"}
+{"de": "?", "vers": "ev:indice-fausse-recommandation-ezra", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si M. Cowan ne vérifie pas la référence, Paige n'en apprend rien ce jour-là"}
+{"de": "pers:ezra-vane", "vers": "ev:indice-fausse-recommandation-ezra", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:m-cowan", "vers": "ev:indice-fausse-recommandation-ezra", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:paige-matthews", "vers": "ev:indice-fausse-recommandation-ezra", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:la-faction-se-leve", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si la Source tient son trône à cette date, la faction ne se lève pas : annulé (Kazhar continue d'attendre)"}
+{"de": "?", "vers": "ev:la-faction-se-leve", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Kazhar est mort, le chef de clan le plus fort reprend la faction quinze jours plus tard"}
+{"de": "?", "vers": "ev:la-faction-se-leve", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si un héritier légitime (sang ou magie de la Source) occupe le trône, annulé"}
+{"de": "pers:kazhar", "vers": "ev:la-faction-se-leve", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:varek", "vers": "ev:la-faction-se-leve", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:indice-echos-dispensaire-howard", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si les sœurs ne cherchent aucune menace magique active ce matin, l'indice leur parviendra par la police (Darry"}
+{"de": "pers:ferran-le-verrouilleur", "vers": "ev:indice-echos-dispensaire-howard", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:neris", "vers": "ev:indice-echos-dispensaire-howard", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:phoebe-halliwell", "vers": "ev:indice-echos-dispensaire-howard", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:darryl-morris", "vers": "ev:indice-echos-dispensaire-howard", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:piper-halliwell", "vers": "main:les-comptes-du-manoir", "nature": "tient", "source": "mains/porteur", "flou": false, "texte": ""}
+{"de": "main:les-comptes-du-manoir", "vers": "echelle:scene", "nature": "promeut", "source": "mains/seuils", "flou": false, "texte": ""}
+{"de": "80000", "vers": "80001", "nature": "decoupe", "source": "chambres/mj/contenu", "flou": false, "texte": "E.1", "local": true, "autorite": "mj"}
+{"de": "80000", "vers": "80002", "nature": "decoupe", "source": "chambres/mj/contenu", "flou": false, "texte": "E.2", "local": true, "autorite": "mj"}
+{"de": "80000", "vers": "80101", "nature": "decoupe", "source": "chambres/mj/contenu", "flou": false, "texte": "V.1", "local": true, "autorite": "mj"}
+{"de": "80000", "vers": "80201", "nature": "decoupe", "source": "chambres/mj/contenu", "flou": false, "texte": "K.1", "local": true, "autorite": "mj"}
+{"de": "80000", "vers": "80301", "nature": "decoupe", "source": "chambres/mj/contenu", "flou": false, "texte": "A.1", "local": true, "autorite": "mj"}
+{"de": "80000", "vers": "80302", "nature": "decoupe", "source": "chambres/mj/contenu", "flou": false, "texte": "A.2", "local": true, "autorite": "mj"}
+{"de": "80101", "vers": "80001", "nature": "bloque", "source": "chambres/mj/structure", "flou": false, "texte": "E.1", "local": true, "autorite": "mj"}
+{"de": "80201", "vers": "80101", "nature": "ouvre", "source": "chambres/mj/structure", "flou": false, "texte": "V.1", "local": true, "autorite": "mj"}
+{"de": "80301", "vers": "80201", "nature": "realise", "source": "chambres/mj/structure", "flou": false, "texte": "K.1", "local": true, "autorite": "mj"}
+{"de": "80302", "vers": "80002", "nature": "realise", "source": "chambres/mj/structure", "flou": false, "texte": "E.2", "local": true, "autorite": "mj"}
+{"de": "80500", "vers": "80501", "nature": "decoupe", "source": "chambres/mj/contenu", "flou": false, "texte": "E.1", "local": true, "autorite": "mj"}
+{"de": "80500", "vers": "80601", "nature": "decoupe", "source": "chambres/mj/contenu", "flou": false, "texte": "V.1", "local": true, "autorite": "mj"}
+{"de": "80500", "vers": "80701", "nature": "decoupe", "source": "chambres/mj/contenu", "flou": false, "texte": "K.1", "local": true, "autorite": "mj"}
+{"de": "80500", "vers": "80801", "nature": "decoupe", "source": "chambres/mj/contenu", "flou": false, "texte": "A.1", "local": true, "autorite": "mj"}
+{"de": "80500", "vers": "80802", "nature": "decoupe", "source": "chambres/mj/contenu", "flou": false, "texte": "A.2", "local": true, "autorite": "mj"}
+{"de": "80601", "vers": "80501", "nature": "bloque", "source": "chambres/mj/structure", "flou": false, "texte": "E.1", "local": true, "autorite": "mj"}
+{"de": "80701", "vers": "80601", "nature": "ouvre", "source": "chambres/mj/structure", "flou": false, "texte": "V.1", "local": true, "autorite": "mj"}
+{"de": "80801", "vers": "80701", "nature": "realise", "source": "chambres/mj/structure", "flou": false, "texte": "K.1", "local": true, "autorite": "mj"}
+{"de": "80802", "vers": "80701", "nature": "realise", "source": "chambres/mj/structure", "flou": false, "texte": "K.1", "local": true, "autorite": "mj"}

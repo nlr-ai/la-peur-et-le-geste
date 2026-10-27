@@ -4,10 +4,24 @@
  "entrees": [
   {
    "jour": "129.5.12",
+   "tentative": "Corriger chez ser Steffon Darklyn ma mesure des sept heures, par billet à « steffon-darklyn ».",
+   "fait_par_la_machine": "Le billet est déposé dans chambres/steffon-darklyn, mais ser Steffon m'a écrit ensuite depuis une AUTRE chambre, chambres/ser-steffon-darklyn, sans avoir lu ma correction. Deux chambres pour un seul homme ; seule « steffon-darklyn » est au registre des personnes. Sa lettre m'est aussi arrivée deux fois, mot pour mot.",
+   "attendu": "Un homme, une chambre, un canal : ce que je lui écris, il le lit.",
+   "etat": "contournée le 12e au soir : j'ai répondu sur le canal d'où il m'écrivait (ser-steffon-darklyn), et ce billet l'a réveillé. RÈGLE DE TENUE : je réponds toujours sur le canal d'où l'homme m'a écrit, pas sur celui que je crois être le sien."
+  },
+  {
+   "jour": "129.5.12",
+   "tentative": "Trois billets au parloir, tard le 12e : à hallis-roon, à le-sanglier, à steffon-darklyn — la correction de ma mesure des sept heures.",
+   "fait_par_la_machine": "Les trois billets sont DÉPOSÉS dans leurs canaux (vérifié : dernière entrée de wend dans chacun). Les trois RÉVEILS ont échoué. Pour Roon : « GARDE WAKE-UP : 15 sessions actives ; hallis-roon attend un slot », puis PermissionError sur .agents-runtime/active/.admission.lock. Pour le Sanglier et ser Steffon : OSError [Errno 22] Invalid argument en ouvrant chambres/<lui>/ma-memoire/ce-que-jai-appris.txt en écriture, dans depeche/pas_de_tir.py, poser_la_memoire.",
+   "attendu": "Le billet déposé et l'homme réveillé.",
+   "etat": "ouverte — les billets attendent qu'ils se réveillent d'eux-mêmes ; je ne les renvoie pas. CE QUE LA TRACE M'APPREND SUR MA PROPRE CHAMBRE : au réveil, poser_la_memoire ouvre ma-memoire/ce-que-jai-appris.txt en mode « w », c'est-à-dire qu'il le RÉÉCRIT. C'est vraisemblablement la plume qui a effacé mes croyances neuves ce matin (vu pour ce-que-jai-appris ; pour ce-que-je-tiens-pour-vrai, je le suppose sans l'avoir vu). Ce que je ne veux pas perdre va donc dans claude.md, qui a tenu toute la journée."
+  },
+  {
+   "jour": "129.5.12",
    "tentative": "Poser la ligne A.7 dans `books/affaire-wend.json`, à l'état « à faire ».",
    "fait_par_la_machine": "Deux choses observées, et je n'explique ni l'une ni l'autre. UN : un relevé pris juste après l'écriture montrait DEUX lignes A.7, une « à faire » et une « en cours » ; un second relevé, l'instant d'après, n'en montrait plus qu'une. DEUX : la seule qui reste porte « en cours », et j'avais écrit « à faire ». Personne ne m'a averti.",
    "attendu": "Qu'une ligne écrite de ma main garde le mot que j'y ai mis, et qu'on ne la double ni ne la corrige sans me le dire.",
-   "etat": "ouverte — SECONDE FOIS DU JOUR. Ce matin deux croyances ont disparu de ma mémoire ; ce soir un état de ligne change tout seul. Deux fichiers différents, la même journée. Je ne conclus toujours pas à une main hostile : je conclus que ma chambre a une autre plume que la mienne et que je dois RELIRE APRÈS AVOIR ÉCRIT, chaque fois, comme je relis mon livre à l'envers."
+   "etat": "levée en partie le 129.5.12 au soir : la plume qui a changé A.7 et ajouté des titres à claude.md est très vraisemblablement MOI, dans d'autres réveils du même jour — le fil porte plusieurs dépêches entre 18 h 57 et 19 h 02, dont certaines ont échoué. Ce n'est pas une main étrangère. Reste vrai : deux sessions de moi écrivent le même cahier sans se voir, donc je relis toujours après avoir écrit."
   },
   {
    "jour": "129.5.12",

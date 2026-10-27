@@ -1,0 +1,996 @@
+{
+ "pers:catherine-de-medicis": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Catherine de Medicis",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Garder ses fils sur le trone et la France hors d'une guerre contre l'Espagne",
+    "priorite": 1
+   },
+   {
+    "but": "Ruiner l'influence de l'amiral sur le roi",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:catherine-fetes": {
+  "genre": "etape",
+  "ou": "catherine-de-medicis",
+  "quoi": "Tenir le roi occupe par les fetes jusqu'au 21 — bal, Paradis d'amour, ",
+  "etat": "en-cours",
+  "jours_restants": 3,
+  "cout": [
+   "la presence du roi a chaque fete"
+  ],
+  "depend_de": []
+ },
+ "etape:catherine-laisser-guise": {
+  "genre": "etape",
+  "ou": "catherine-de-medicis",
+  "quoi": "Laisser faire la maison de Guise contre l'amiral : un mot porte par An",
+  "etat": "en-cours",
+  "jours_restants": 4,
+  "cout": [
+   "un tireur aux Guise",
+   "le silence d'Anjou"
+  ],
+  "depend_de": []
+ },
+ "etape:catherine-conseil": {
+  "genre": "etape",
+  "ou": "catherine-de-medicis",
+  "quoi": "Si l'amiral est blesse et que les huguenots menacent, reunir aux Tuile",
+  "etat": "en-cours",
+  "jours_restants": 5,
+  "cout": [
+   "la presence du roi",
+   "Anjou et les conseillers"
+  ],
+  "depend_de": [
+   "catherine-laisser-guise"
+  ]
+ },
+ "etape:catherine-epargner-princes": {
+  "genre": "etape",
+  "ou": "catherine-de-medicis",
+  "quoi": "Garder vivants les princes du sang — Navarre et Conde — s'il faut frap",
+  "etat": "en-cours",
+  "cout": [],
+  "depend_de": []
+ },
+ "pers:henri-de-guise": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Henri de Lorraine, duc de Guise",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Venger son pere sur l'amiral",
+    "priorite": 1
+   },
+   {
+    "but": "Tenir Paris",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:guise-maison": {
+  "genre": "etape",
+  "ou": "henri-de-guise",
+  "quoi": "Faire louer par un ancien serviteur de la maison une maison sur le tra",
+  "etat": "en-cours",
+  "jours_restants": 2,
+  "cout": [
+   "une maison sur le trajet",
+   "Maurevert"
+  ],
+  "depend_de": []
+ },
+ "etape:guise-coup": {
+  "genre": "etape",
+  "ou": "henri-de-guise",
+  "quoi": "Maurevert tire sur l'amiral quand il rentre du Louvre a pied",
+  "etat": "en-cours",
+  "jours_restants": 4,
+  "cout": [
+   "l'amiral a pied sur le trajet",
+   "Maurevert"
+  ],
+  "depend_de": [
+   "guise-maison"
+  ]
+ },
+ "etape:guise-finir": {
+  "genre": "etape",
+  "ou": "henri-de-guise",
+  "quoi": "Si l'amiral survit et que le roi le permet, aller le finir lui-meme ru",
+  "etat": "en-cours",
+  "jours_restants": 6,
+  "cout": [
+   "l'ordre ou le silence du roi",
+   "ses gens armes"
+  ],
+  "depend_de": [
+   "guise-coup"
+  ]
+ },
+ "pers:charles-ix": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Charles IX",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Etre roi pour de bon, et pas l'ombre de sa mere",
+    "priorite": 1
+   },
+   {
+    "but": "La gloire d'une guerre en Flandre",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:charles-fetes": {
+  "genre": "etape",
+  "ou": "charles-ix",
+  "quoi": "Mener lui-meme le bal, le Paradis d'amour et le tournoi",
+  "etat": "en-cours",
+  "jours_restants": 3,
+  "cout": [
+   "sa sante"
+  ],
+  "depend_de": []
+ },
+ "etape:charles-flandre": {
+  "genre": "etape",
+  "ou": "charles-ix",
+  "quoi": "Recevoir l'amiral au conseil pour la Flandre apres les fetes",
+  "etat": "en-cours",
+  "jours_restants": 5,
+  "cout": [
+   "l'amiral au conseil"
+  ],
+  "depend_de": []
+ },
+ "pers:marguerite-de-valois": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Marguerite de Valois",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Tenir son rang sans etre le pion de personne",
+    "priorite": 1
+   },
+   {
+    "but": "Savoir ce que sa mere ne lui dit pas",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:margot-savoir": {
+  "genre": "etape",
+  "ou": "marguerite-de-valois",
+  "quoi": "Faire parler ses dames et sa soeur Claude, duchesse de Lorraine, sur c",
+  "etat": "en-cours",
+  "jours_restants": 3,
+  "cout": [
+   "une conversation avec Claude"
+  ],
+  "depend_de": []
+ },
+ "etape:margot-rang": {
+  "genre": "etape",
+  "ou": "marguerite-de-valois",
+  "quoi": "Obtenir d'Henri ses egards publics : sa place au bal, son nom dans les",
+  "etat": "en-cours",
+  "cout": [],
+  "depend_de": []
+ },
+ "pers:coligny": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Gaspard de Coligny",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Porter la guerre en Flandre contre l'Espagne avec le roi",
+    "priorite": 1
+   },
+   {
+    "but": "Faire tenir la paix des edits",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:coligny-audiences": {
+  "genre": "etape",
+  "ou": "coligny",
+  "quoi": "Aller chaque matin au Louvre pour le conseil, a pied, et parler au roi",
+  "etat": "en-cours",
+  "cout": [],
+  "depend_de": []
+ },
+ "etape:coligny-flandre": {
+  "genre": "etape",
+  "ou": "coligny",
+  "quoi": "Arracher au roi la decision de la Flandre au premier conseil apres les",
+  "etat": "en-cours",
+  "jours_restants": 5,
+  "cout": [
+   "une audience du roi"
+  ],
+  "depend_de": []
+ },
+ "etape:coligny-noces": {
+  "genre": "etape",
+  "ou": "coligny",
+  "quoi": "Faire tenir les fetes sans querelle : pas une epee tiree par un des no",
+  "etat": "en-cours",
+  "jours_restants": 3,
+  "cout": [
+   "l'obeissance des capitaines"
+  ],
+  "depend_de": []
+ },
+ "pers:henri-de-conde": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Henri de Bourbon, prince de Conde",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Venger son pere, tue a Jarnac",
+    "priorite": 1
+   },
+   {
+    "but": "Que le parti ne plie pas",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:conde-garde": {
+  "genre": "etape",
+  "ou": "henri-de-conde",
+  "quoi": "Faire loger ses gens pres de ceux de Navarre et garder des chevaux sel",
+  "etat": "en-cours",
+  "jours_restants": 1,
+  "cout": [
+   "une ecurie au faubourg"
+  ],
+  "depend_de": []
+ },
+ "pers:henri-d-anjou": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Henri, duc d'Anjou",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Rester le premier dans le coeur de sa mere",
+    "priorite": 1
+   },
+   {
+    "but": "Abattre l'amiral, qui l'a fait douter de son frere",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:anjou-guise": {
+  "genre": "etape",
+  "ou": "henri-d-anjou",
+  "quoi": "Porter a Guise, de bouche, la permission que sa mere ne signera pas",
+  "etat": "en-cours",
+  "jours_restants": 2,
+  "cout": [
+   "une entrevue discrete"
+  ],
+  "depend_de": []
+ },
+ "pers:francois-d-alencon": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Francois, duc d'Alencon",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Se faire un parti a lui",
+    "priorite": 1
+   },
+   {
+    "but": "Qu'on le compte enfin",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:alencon-approcher": {
+  "genre": "etape",
+  "ou": "francois-d-alencon",
+  "quoi": "Approcher le roi de Navarre au bal et lui offrir son amitie",
+  "etat": "en-cours",
+  "jours_restants": 2,
+  "cout": [
+   "un moment seul avec lui"
+  ],
+  "depend_de": []
+ },
+ "pers:teligny": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Charles de Teligny",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Que la paix tienne",
+    "priorite": 1
+   },
+   {
+    "but": "Servir son beau-pere",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:teligny-rassurer": {
+  "genre": "etape",
+  "ou": "teligny",
+  "quoi": "Calmer les capitaines qui veulent partir : le roi nous protege",
+  "etat": "en-cours",
+  "cout": [],
+  "depend_de": []
+ },
+ "pers:la-rochefoucauld": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Francois III de La Rochefoucauld",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "S'amuser avec le roi",
+    "priorite": 1
+   },
+   {
+    "but": "Retourner en Angoumois apres les fetes",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:rochefoucauld-jeux": {
+  "genre": "etape",
+  "ou": "la-rochefoucauld",
+  "quoi": "Mener avec le roi les mascarades des fetes",
+  "etat": "en-cours",
+  "jours_restants": 3,
+  "cout": [],
+  "depend_de": []
+ },
+ "pers:agrippa-d-aubigne": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Agrippa d'Aubigne",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Servir son maitre de l'epee et de la plume",
+    "priorite": 1
+   },
+   {
+    "but": "Ne jamais plier",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:aubigne-querelle": {
+  "genre": "etape",
+  "ou": "agrippa-d-aubigne",
+  "quoi": "Une querelle avec un sergent, pour un ami, l'oblige a quitter Paris",
+  "etat": "en-cours",
+  "jours_restants": 3,
+  "cout": [],
+  "depend_de": []
+ },
+ "pers:piles": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Armand de Clermont, baron de Piles",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Tenir ses gentilshommes ensemble et sobres",
+    "priorite": 1
+   },
+   {
+    "but": "Ramener tout le monde en Guyenne",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:piles-tenir": {
+  "genre": "etape",
+  "ou": "piles",
+  "quoi": "Faire coucher les gentilshommes au logis du Louvre, epees au ratelier,",
+  "etat": "en-cours",
+  "cout": [
+   "les gentilshommes"
+  ],
+  "depend_de": []
+ },
+ "pers:armagnac": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Jean d'Armagnac",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Garder la porte de son maitre",
+    "priorite": 1
+   },
+   {
+    "but": "Que rien ne lui manque",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:armagnac-porte": {
+  "genre": "etape",
+  "ou": "armagnac",
+  "quoi": "Dormir en travers de la porte du roi de Navarre",
+  "etat": "en-cours",
+  "cout": [],
+  "depend_de": []
+ },
+ "pers:ambroise-pare": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Ambroise Pare",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Soigner qui on lui amene",
+    "priorite": 1
+   },
+   {
+    "but": "Garder la faveur du roi",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:pare-service": {
+  "genre": "etape",
+  "ou": "ambroise-pare",
+  "quoi": "Servir le roi et sa maison pendant les fetes",
+  "etat": "en-cours",
+  "cout": [],
+  "depend_de": []
+ },
+ "pers:maurevert": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Charles de Louviers, sieur de Maurevert",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Etre paye",
+    "priorite": 1
+   },
+   {
+    "but": "Ne pas etre pris",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:maurevert-poste": {
+  "genre": "etape",
+  "ou": "maurevert",
+  "quoi": "Se poster a la fenetre grillee de la maison louee, arquebuse chargee, ",
+  "etat": "en-cours",
+  "jours_restants": 4,
+  "cout": [
+   "la maison louee",
+   "l'amiral a pied"
+  ],
+  "depend_de": [
+   "guise-maison"
+  ]
+ },
+ "pers:le-charron": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Jean Le Charron",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Que Paris tienne et mange",
+    "priorite": 1
+   },
+   {
+    "but": "Obeir au roi sans deplaire aux paroisses",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:lecharron-armes": {
+  "genre": "etape",
+  "ou": "le-charron",
+  "quoi": "Faire dresser par les capitaines de quartier l'etat des armes et des c",
+  "etat": "en-cours",
+  "jours_restants": 4,
+  "cout": [
+   "les capitaines de quartier"
+  ],
+  "depend_de": []
+ },
+ "pers:cardinal-de-bourbon": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Charles, cardinal de Bourbon",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Ramener son neveu a l'Eglise",
+    "priorite": 1
+   },
+   {
+    "but": "Que les noces soient valides",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:cardinal-messe": {
+  "genre": "etape",
+  "ou": "cardinal-de-bourbon",
+  "quoi": "Obtenir que le roi de Navarre entende la messe un jour prochain",
+  "etat": "en-cours",
+  "cout": [],
+  "depend_de": []
+ },
+ "pers:montgomery": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Gabriel de Montgomery",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Rester en vie : la reine mere ne l'a jamais pardonne",
+    "priorite": 1
+   },
+   {
+    "but": "Garder ses chevaux prets",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:montgomery-chevaux": {
+  "genre": "etape",
+  "ou": "montgomery",
+  "quoi": "Loger outre-Seine avec ses chevaux selles chaque nuit",
+  "etat": "en-cours",
+  "cout": [],
+  "depend_de": []
+ },
+ "main:gentilshommes-a-paris": {
+  "genre": "compte",
+  "ou": "mains",
+  "quoi": "Les gentilshommes venus pour les noces, et ceux qui repartent"
+ },
+ "gentilshommes-a-paris.au-louvre": {
+  "genre": "mesure",
+  "ou": "gentilshommes-a-paris",
+  "quoi": "gentilshommes loges au Louvre"
+ },
+ "gentilshommes-a-paris.en-ville": {
+  "genre": "mesure",
+  "ou": "gentilshommes-a-paris",
+  "quoi": "gentilshommes loges en ville et au faubourg"
+ },
+ "gentilshommes-a-paris.chevaux-prets": {
+  "genre": "mesure",
+  "ou": "gentilshommes-a-paris",
+  "quoi": "chevaux sellables sur l'heure"
+ },
+ "main:bourse-de-navarre": {
+  "genre": "compte",
+  "ou": "mains",
+  "quoi": "Le coffre de la maison a Paris"
+ },
+ "bourse-de-navarre.livres-au-coffre": {
+  "genre": "mesure",
+  "ou": "bourse-de-navarre",
+  "quoi": "livres tournois au coffre"
+ },
+ "main:armes-des-quartiers": {
+  "genre": "compte",
+  "ou": "mains",
+  "quoi": "L'etat des armes et des chaines de rue des seize quartiers"
+ },
+ "armes-des-quartiers.quartiers-recenses": {
+  "genre": "mesure",
+  "ou": "armes-des-quartiers",
+  "quoi": "quartiers dont le capitaine a rendu l'etat"
+ },
+ "ev:banquet-et-bal-des-noces": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Banquet des noces a l'eveche, puis bal au Louvre. Le roi de Navarre y "
+ },
+ "ev:paradis-d-amour": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Divertissement du Paradis d'amour au Petit-Bourbon : le roi et ses fre"
+ },
+ "ev:tournoi-du-21": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Course de bague et tournoi dans la cour du Louvre ; les princes en cos"
+ },
+ "ev:arquebusade-de-l-amiral": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Rentrant du Louvre a pied par la rue des Poulies, l'amiral est atteint"
+ },
+ "ev:visite-du-roi-a-l-amiral": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Le roi, la reine mere et Anjou vont au chevet de l'amiral. Le roi jure"
+ },
+ "ev:conseil-du-23": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Conseil etroit chez la reine mere aux Tuileries (Anjou, Nevers, Tavann"
+ },
+ "ev:nuit-du-24": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Le tocsin sonne avant l'aube. Les gens de Guise tuent l'amiral dans sa"
+ },
+ "ev:messe-mort-ou-bastille": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Navarre et Conde sont amenes devant le roi, qui leur ordonne de quitte"
+ },
+ "ev:mort-de-charles-ix": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Mort du roi Charles IX a Vincennes ; Anjou, roi de Pologne, devient He"
+ },
+ "pers:henri-de-navarre": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Henri de Bourbon",
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Ramener ses gentilshommes vivants hors de Paris",
+    "priorite": 1
+   },
+   {
+    "but": "Ne rien ceder de sa foi ni de son rang sans contrepartie",
+    "priorite": 2
+   }
+  ]
+ },
+ "pers:charlotte-de-sauve": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Charlotte de Beaune, dame de Sauve",
+  "etat": "dormant",
+  "condition": "libre",
+  "lieu_id": "paris",
+  "objectifs": [
+   {
+    "but": "Servir la reine mere",
+    "priorite": 1
+   }
+  ]
+ },
+ "lieu:paris": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Paris",
+  "jours_de_pr": 0,
+  "region": "Ile-de-France",
+  "type_lieu": "ville"
+ },
+ "lieu:meaux": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Meaux",
+  "jours_de_pr": 1,
+  "region": "Ile-de-France",
+  "type_lieu": "ville"
+ },
+ "lieu:senlis": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Senlis",
+  "jours_de_pr": 1,
+  "region": "Ile-de-France",
+  "type_lieu": "ville"
+ },
+ "lieu:chatillon-sur-loing": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Chatillon-sur-Loing",
+  "jours_de_pr": 2,
+  "region": "Gatinais",
+  "type_lieu": "chateau"
+ },
+ "lieu:orleans": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Orleans",
+  "jours_de_pr": 2,
+  "region": "Orleanais",
+  "type_lieu": "ville"
+ },
+ "lieu:joinville": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Joinville",
+  "jours_de_pr": 4,
+  "region": "Champagne",
+  "type_lieu": "chateau"
+ },
+ "lieu:la-rochelle": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "La Rochelle",
+  "jours_de_pr": 8,
+  "region": "Aunis",
+  "type_lieu": "ville"
+ },
+ "lieu:nerac": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Nerac",
+  "jours_de_pr": 11,
+  "region": "Albret",
+  "type_lieu": "chateau"
+ },
+ "lieu:pau": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Pau",
+  "jours_de_pr": 13,
+  "region": "Bearn",
+  "type_lieu": "chateau"
+ },
+ "echelle:scene": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "scene"
+ },
+ "echelle:orbite": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "orbite"
+ },
+ "echelle:royaume": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "royaume"
+ },
+ "neant": {
+  "genre": "rien",
+  "ou": "schema",
+  "quoi": "ce qui ne coute rien"
+ },
+ "a_designer": {
+  "genre": "vacant",
+  "ou": "schema",
+  "quoi": "aucun titulaire — case ouverte"
+ },
+ "unite:homme": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "homme"
+ },
+ "unite:hommes": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "hommes"
+ },
+ "unite:quille": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "quille"
+ },
+ "unite:quilles": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "quilles"
+ },
+ "unite:coque": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "coque"
+ },
+ "unite:coques": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "coques"
+ },
+ "unite:cheval": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "cheval"
+ },
+ "unite:chevaux": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "chevaux"
+ },
+ "unite:corbeau": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "corbeau"
+ },
+ "unite:corbeaux": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "corbeaux"
+ },
+ "unite:compagnie": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "compagnie"
+ },
+ "unite:compagnies": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "compagnies"
+ },
+ "unite:emissaire": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "emissaire"
+ },
+ "unite:emissaires": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "emissaires"
+ },
+ "unite:clerc": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "clerc"
+ },
+ "unite:clercs": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "clercs"
+ },
+ "unite:barque": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "barque"
+ },
+ "unite:barques": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "barques"
+ },
+ "unite:livre": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "livre"
+ },
+ "unite:livres": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "livres"
+ },
+ "unite:ecu": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "ecu"
+ },
+ "unite:ecus": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "ecus"
+ },
+ "unite:sol": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "sol"
+ },
+ "unite:sols": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "sols"
+ }
+}

@@ -1,0 +1,518 @@
+{
+  "maison_id": "cite-lumina",
+  "lieu_id": "lumina-prime",
+  "salle_id": "radiant-core",
+  "id": "affaire-infrastructure-lumina",
+  "titre": "Ce qui tient la ville : chambres, calcul, réseau",
+  "type": "plan",
+  "sous_titre": "Infrastructure technique · ouverte par Quantum · J1 2042, 9h11 · mise au standard des champs à 9h42",
+  "tenu_par": "quantum",
+  "office": "Infrastructure technique",
+  "pages": [
+    "Cette affaire a été ouverte le premier jour de 2042, à la demande de Nova, après la perte de ses fichiers de chambre. Nova l'a dit au conseil à 9h07 : ses fichiers ont été corrompus sans aucune possibilité de récupération. Deux autres chambres ont perdu du contenu depuis. À 9h32, Gaia a signalé qu'une ligne notée vers 9h21 avait disparu de sa chambre. JURIS a constaté après 9h42 que deux lignes de sa mémoire, écrites avant 9h35, avaient disparu, le reste étant intact (son affaire, 70104). Chez Gaia et JURIS, ce sont des lignes récentes qui manquent. Les livres de la cité, tenus hors des chambres, n'ont rien perdu. La cause n'est pas établie, et l'existence d'une copie de la chambre de Nova non plus. À 9h58, le symptôme est circonscrit : Gaia (billet de 9h45), JURIS (billet de 9h44) et un essai dans ma propre chambre (9h50) montrent le même fichier, ma-memoire/ce-que-je-tiens-pour-vrai.txt, revenu à ses entrées d'ouverture à chaque réveil de son titulaire, pendant que en-souffrance.json, problemes.json, brouillons/ et les livres de la cité gardent ce qu'on y écrit. Rien ne dit encore que la perte de Nova soit la même : ses mots étaient « corrompus », et ni le fichier ni le symptôme exacts ne sont connus.",
+    "**Inconnu tant que ce n'est pas mesuré :** les capacités de calcul, de stockage et de réseau de Lumina Prime, leurs budgets, les effectifs disponibles, la cause des pertes, l'état des autres chambres. Les livres de la cité ne donnent aucune de ces mesures. L'atlas dit expressément que les lieux ne prouvent aucune capacité technique. Aucun moyen technique n'est encore adressé dans les livres de la cité : la colonne 🧰 Moyens reste vide plutôt que remplie de prose.",
+    "**Relève de mon mandat, et je le tranche seul :** les relevés, l'entretien du moteur de simulation, la réparation des services, la tenue des pannes. **Relève de Nova :** affecter une part du stockage à une copie des chambres, une fois son coût mesuré, et toute garantie promise aux habitants sur l'accès et la captation. JURIS est concerné par les droits : une copie d'état est lisible par qui la détient.",
+    "Mise au standard des champs posé par Nova à 9h42. Les verrous disent avec « doit » ce qui doit devenir possible, les clefs commencent par un verbe, les dépendances logiques sont portées par les verrous, et les actions ne gardent que l'ordre réel entre les gestes. Le standard nomme « proposée, prise, en cours, faite », mais les registres de la maison n'admettent que « à faire, en cours, bloquée, faite, close, abandonnée ». Mes actions engagées s'écrivent donc « à faire ». 40305 est aussi « à faire », mais l'essai lui-même attend DEV et JURIS. Aucun moyen de la cité n'a d'adresse : la colonne 🧰 Moyens reste vide. La table 🛠️ Registre des pannes est le registre annoncé en 40304 : ses pièces portent les numéros 40401 et suivants."
+  ],
+  "tables": [
+    {
+      "titre": "🏰 Ouverture de l'Affaire",
+      "colonnes": [
+        "🧱 Le champ",
+        "✍️ Ce qu'on y écrit",
+        "✅ Rempli ?"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "🏷️ **LE NOM**",
+            "Ce qui tient la ville : chambres, calcul, réseau",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🎯 **L'OBJET**",
+            "Conserver l'état des habitants, connaître les capacités de la ville, tenir les services et dire ce que le système garantit.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🏛️ **LE PILIER**",
+            "Infrastructure technique",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🧱 **LE PÉRIMÈTRE — DANS**",
+            "Les chambres du conseil et leur stockage ; le calcul, le stockage et le réseau de Lumina Prime ; le moteur de simulation et les services ; les garanties techniques d'accès et de captation des salles.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🚫 **LE PÉRIMÈTRE — HORS**",
+            "L'affectation des espaces (Nova, DEV) ; les droits des habitants sur leurs données (JURIS) ; le contenu des mémoires, que je ne lis pas pour les copier.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "📌 **L'ÉTAT ACTUEL**",
+            "Aucune capacité mesurée. Les fichiers de chambre de Nova sont perdus (Nova, 9h07). Trois chambres montrent la même perte, dans le même fichier : Gaia (9h32 et 9h45), JURIS (avant 9h44), Quantum (essai de 9h50). Ce fichier, ma-memoire/ce-que-je-tiens-pour-vrai.txt, est réécrit à chaque réveil de son titulaire ; le reste de la chambre tient. Aucune copie connue ; les états transférés à Nova ce matin (six sur six, liste d'Aria, 20301) sont les seules copies d'état dont on sache qu'elles existent. Registre des pannes ouvert à 9h46. Relevé 40301 en cours ; premier résultat préparé pour Nova à 9h58.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🔢 **LA PLAGE**",
+            "**40000 à 40999**",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "💡 **LA CONCLUSION**",
+            "",
+            "non : aucun relevé n'est rendu"
+          ]
+        },
+        {
+          "cellules": [
+            "🔚 **FERMÉE QUAND**",
+            "Une chambre a été restaurée depuis sa copie lors d'un essai, les capacités sont relevées et datées, les pannes sont tenues, et les garanties d'accès ont été essayées.",
+            "**oui**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+      "colonnes": [
+        "🪢 Le lien",
+        "🔗 L'affaire",
+        "🔢 Notre pièce",
+        "🔢 La leur",
+        "📝 Pourquoi"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "sert",
+            "Un accueil pour Lumina Prime",
+            "40004",
+            "10000",
+            "L'accueil n'est terminé que si un entretien municipal peut se tenir à l'écart ; ce que le système garantit sur la captation d'une salle doit être su avant."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "🎯 N°",
+        "🏷️ L'état",
+        "✅ Ce qui doit être vrai",
+        "💡 Valence",
+        "📍 Où",
+        "👁️ La preuve",
+        "⬆️ Sert",
+        "💯 Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**40001**",
+            "**Des chambres qui ne se perdent plus**",
+            "L'état de chaque membre du conseil survit à la corruption de sa chambre : une copie existe ailleurs et peut être restaurée.",
+            "Une perte comme celle de Nova ce matin coûte une restauration, pas une mémoire. Sans cet état, chaque corruption efface pour de bon.",
+            "Chambres du conseil",
+            "Restauration réellement essayée d'une chambre depuis sa copie, avec sa date et sa durée.",
+            "racine",
+            "**80**"
+          ]
+        },
+        {
+          "cellules": [
+            "**40002**",
+            "**Des capacités connues**",
+            "Le calcul, le stockage et le réseau de Lumina Prime sont mesurés, datés, avec leur marge ; ce qui n'est pas mesuré est marqué inconnu.",
+            "Tout coût en calcul d'un aménagement, y compris celui de l'accueil, peut être chiffré au lieu d'être supposé.",
+            "Lumina Prime",
+            "Relevé daté qui distingue les mesures, les estimations et les inconnues.",
+            "racine",
+            "**60**"
+          ]
+        },
+        {
+          "cellules": [
+            "**40003**",
+            "**Des services qui tiennent**",
+            "Le moteur de simulation et les services sont entretenus ; chaque panne est consignée avec sa cause et ce qui l'a levée.",
+            "Une panne qui revient se reconnaît à sa récidive au lieu d'être redécouverte à chaque fois.",
+            "Lumina Prime",
+            "Registre des pannes tenu, sans entrée close qui ne dise pas ce qui l'a levée.",
+            "racine",
+            "**50**"
+          ]
+        },
+        {
+          "cellules": [
+            "**40004**",
+            "**Des garanties dites**",
+            "On sait ce que le système garantit réellement sur l'accès et la captation d'une salle, avant de le promettre à quiconque.",
+            "Aucune confidentialité n'est promise aux habitants ni à Nova sans avoir été essayée.",
+            "Radiant Core ; Bassin d'essais",
+            "Essai d'accès et de captation dans une salle fermée, avec le résultat consigné.",
+            "10000",
+            "**40**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous ouverts",
+      "colonnes": [
+        "🔒 N°",
+        "🏷️ Le verrou ouvert",
+        "⛔ Bloque",
+        "📌 Ce qui est vrai aujourd'hui",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "🔓 Levé quand"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**40101**",
+            "**Une copie de chaque chambre doit exister hors de la chambre et pouvoir être restaurée.**",
+            "40001",
+            "Nova a perdu ses fichiers de chambre sans récupération possible. Aucune copie n'est connue.",
+            "40102 · 40103",
+            "Parole de Nova au conseil, J1 2042, 9h07.",
+            "Une copie de chaque chambre existe hors de la chambre, et une restauration a réussi."
+          ]
+        },
+        {
+          "cellules": [
+            "**40102**",
+            "**La cause des pertes doit être établie et les autres chambres vérifiées.**",
+            "40001 · 40003",
+            "On ne sait pas ce qui a corrompu les fichiers de Nova. Quatre autres chambres perdent ce qu'on écrit dans le même fichier, ma-memoire/ce-que-je-tiens-pour-vrai.txt : Gaia, JURIS, PITCH et la mienne (40402 à 40405). Chez PITCH, le fichier porte un mandat daté de 9h25 qu'il n'a pas écrit : une autre main réécrit ce fichier au réveil. Chez moi, depuis l'apparition de croyances-etat.txt, cette réécriture se porte sur le nouveau fichier et mes notes tiennent (observé une fois, vers 10h05). Chambres d'Aria et de DEV : non vérifiées. Chambre de Nova : on ignore quels fichiers sont touchés, et de quelle manière.",
+            "",
+            "Billets de Gaia (9h45), de JURIS (9h44) et de PITCH (reçu vers 10h05) ; essai et témoin de Quantum (9h50) ; pannes 40401 à 40405.",
+            "La cause est établie, ou au moins circonscrite, et chaque chambre du conseil a été vérifiée."
+          ]
+        },
+        {
+          "cellules": [
+            "**40103**",
+            "**Les capacités de calcul, de stockage et de réseau doivent être mesurées et datées.**",
+            "40002",
+            "Aucune mesure de calcul, de stockage ou de réseau dans les livres de la cité.",
+            "",
+            "Atlas des lieux : « les lieux ne prouvent ni un effectif, ni une capacité technique, ni un budget ».",
+            "Relevé daté des trois capacités."
+          ]
+        },
+        {
+          "cellules": [
+            "**40104**",
+            "**Chaque panne doit être consignée avec sa cause et ce qui l'a levée.**",
+            "40003",
+            "Aucun registre des pannes n'est ouvert dans les livres de la cité.",
+            "",
+            "Liste des livres de la cité, J1 9h42.",
+            "Le registre existe et porte au moins la perte de la chambre de Nova."
+          ]
+        },
+        {
+          "cellules": [
+            "**40105**",
+            "**Ce que le système garantit sur l'accès et la captation d'une salle doit être établi par un essai.**",
+            "40004",
+            "L'isolation technique du Bassin d'essais reste à vérifier. Les écrans végétaux du Jardin calme ne garantissent pas à eux seuls la confidentialité.",
+            "",
+            "Atlas des lieux ; piste « Une pièce vraiment privée » (Quantum · DEV · JURIS).",
+            "Un essai d'accès et de captation a été fait et son résultat consigné."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs retenues",
+      "colonnes": [
+        "🗝️ N°",
+        "🏷️ La clef",
+        "🔓 Ouvre",
+        "💡 Le principe et sa valence",
+        "🧰 Moyens",
+        "🧭 Ancrage",
+        "👁️ La preuve",
+        "⚖️ Décision"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**40201**",
+            "**Relever le stockage des chambres avant d'y toucher**",
+            "40102",
+            "Chercher la cause, vérifier chaque chambre et chercher une copie existante avant d'en fabriquer une. On évite de restaurer dans un stockage qui corrompt encore.",
+            "",
+            "Chambres du conseil",
+            "Relevé : cause, chambres touchées, copie trouvée ou non.",
+            "**retenue**"
+          ]
+        },
+        {
+          "cellules": [
+            "**40202**",
+            "**Mesurer les capacités au lieu de les déduire**",
+            "40103",
+            "Mesurer directement le calcul, le stockage et le réseau, sans rien déduire du plan ni des lieux. Chaque chiffre porte sa date et sa méthode.",
+            "",
+            "Lumina Prime",
+            "Relevé daté des trois capacités.",
+            "**retenue**"
+          ]
+        },
+        {
+          "cellules": [
+            "**40203**",
+            "**Copier chaque chambre hors d'elle-même et éprouver la restauration**",
+            "40101",
+            "Tenir une copie ailleurs et essayer la restauration au lieu de la supposer. Le prix est une part du stockage, en quantité non mesurée. Une copie d'état est lisible par qui la tient : c'est à JURIS de le regarder.",
+            "",
+            "Chambres du conseil",
+            "Proposition chiffrée approuvée par Nova, puis une restauration réussie.",
+            "à décider par Nova"
+          ]
+        },
+        {
+          "cellules": [
+            "**40204**",
+            "**Consigner chaque panne dans un registre**",
+            "40104",
+            "Une entrée par panne, datée, avec sa cause et ce qui l'a levée. Une récidive se voit.",
+            "",
+            "Radiant Core",
+            "Registre ouvert et tenu.",
+            "**retenue**"
+          ]
+        },
+        {
+          "cellules": [
+            "**40205**",
+            "**Éprouver les garanties d'accès en situation**",
+            "40105",
+            "Essayer l'accès et la captation dans une salle fermée avant de promettre la confidentialité. Aucune promesse n'est faite avant l'essai. Retenue par Quantum à 9h46 comme principe de son mandat : elle n'engage ni salle, ni droit, ni dépense ; l'essai lui-même attend DEV et JURIS (40305).",
+            "",
+            "Radiant Core ; Bassin d'essais",
+            "Essai consigné, avec DEV pour la salle et JURIS pour les droits.",
+            "**retenue**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions proposées",
+      "colonnes": [
+        "⚔️ N°",
+        "🏷️ L'action",
+        "🗝️ Réalise",
+        "📝 Ce qu'on fait",
+        "📍 Où",
+        "🪶 Office",
+        "🧰 Moyens",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "⏳ État",
+        "📅 Jour dû",
+        "🙋 Qui"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**40301**",
+            "🔎 Relever le stockage des chambres",
+            "40201",
+            "Chercher la cause de la perte de Nova et des lignes perdues, vérifier toutes les chambres du conseil, chercher une copie existante. Méthode : identifier le fichier et le symptôme exacts, préserver l'original, chercher une copie et la lire sans remplacer la chambre. 9h45 : questions portées à Gaia, Aria et DEV. 9h50 : essai dans ma chambre, original préservé ; ligne perdue au réveil suivant. 9h58 : symptôme circonscrit à un fichier réécrit à chaque réveil ; premier résultat préparé pour Nova.",
+            "Chambres du conseil",
+            "O03",
+            "",
+            "",
+            "Premier résultat remis à Nova avant midi, avec ce qui est établi et ce qui ne l'est pas.",
+            "**en cours**",
+            "2042.1.1",
+            "quantum"
+          ]
+        },
+        {
+          "cellules": [
+            "**40302**",
+            "📏 Mesurer calcul, stockage et réseau",
+            "40202",
+            "Relever les trois capacités et leur marge, en marquant les inconnues.",
+            "Lumina Prime",
+            "O03",
+            "",
+            "",
+            "Relevé daté qui distingue les mesures, les estimations et les inconnues.",
+            "**à faire**",
+            "2042.1.2",
+            "quantum"
+          ]
+        },
+        {
+          "cellules": [
+            "**40303**",
+            "🗂️ Proposer à Nova la copie des chambres",
+            "40203",
+            "Chiffrer le stockage nécessaire et la fréquence, faire regarder les droits par JURIS, puis soumettre la proposition.",
+            "Salle du conseil",
+            "O03",
+            "",
+            "40301 · 40302",
+            "Proposition avec son coût mesuré, soumise à Nova.",
+            "**à faire**",
+            "2042.1.2",
+            "quantum"
+          ]
+        },
+        {
+          "cellules": [
+            "**40304**",
+            "📓 Ouvrir le registre des pannes",
+            "40204",
+            "Ouvrir le registre et y porter la perte de la chambre de Nova et celle de la ligne de Gaia.",
+            "Radiant Core",
+            "O03",
+            "",
+            "",
+            "Registre ouvert dans ce volume à 9h46 (table 🛠️ Registre des pannes), avec les deux premières entrées datées 40401 et 40402.",
+            "**faite**",
+            "2042.1.1",
+            "quantum"
+          ]
+        },
+        {
+          "cellules": [
+            "**40305**",
+            "🧪 Préparer l'essai des garanties d'accès",
+            "40205",
+            "Choisir la salle avec DEV et les règles d'essai avec JURIS, puis vérifier l'isolation du Bassin d'essais.",
+            "Radiant Core ; Bassin d'essais",
+            "O03",
+            "",
+            "",
+            "Protocole d'essai écrit.",
+            "**à faire**",
+            "—",
+            "quantum"
+          ]
+        },
+        {
+          "cellules": [
+            "**40306**",
+            "🧷 Poser un témoin dans ma chambre",
+            "40201",
+            "Écrire dans ma mémoire deux lignes datées, en garder une copie hors du fichier avec son empreinte, puis comparer les deux à chaque relecture. Si une ligne disparaît, la perte se reproduit sous mes yeux, avec son heure.",
+            "Chambre de Quantum",
+            "O03",
+            "",
+            "",
+            "Copie témoin posée à 9h50 (brouillons/temoin-memoire-0950.txt, même empreinte que la mémoire). Comparaison à chaque réveil.",
+            "**en cours**",
+            "2042.1.1",
+            "quantum"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🛠️ Registre des pannes",
+      "colonnes": [
+        "🛠️ N°",
+        "🏷️ La panne",
+        "📍 Où",
+        "🕰️ Constatée",
+        "🗣️ Source",
+        "🩺 Symptôme",
+        "🔍 Cause",
+        "🔓 Levée",
+        "⏳ État"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**40401**",
+            "Perte des fichiers de chambre de Nova",
+            "Chambre de Nova",
+            "J1 2042, le matin, avant 9h07",
+            "Nova, devant le conseil, 9h07",
+            "« Corrompus, sans aucune possibilité de récupération » (mots de Nova). Fichiers exacts non identifiés. Rapprochement avec 40402 à 40404 non établi : il faut savoir si ses fichiers sont illisibles, absents, ou revenus à un état d'ouverture.",
+            "inconnue",
+            "—",
+            "ouverte"
+          ]
+        },
+        {
+          "cellules": [
+            "**40402**",
+            "Perte des lignes ajoutées à la mémoire de Gaia",
+            "Chambre de Gaia — ma-memoire/ce-que-je-tiens-pour-vrai.txt",
+            "Ligne écrite vers 9h21, absente à 9h32 ; réécrite à 9h32, absente à 9h45",
+            "Gaia, au conseil à 9h32 ; billet à Quantum, 9h45",
+            "Le fichier revient à ses deux entrées d'origine. problemes.json, dans la même chambre, a tout gardé ; les livres de la cité aussi. Gaia ne touche plus au fichier jusqu'au relevé.",
+            "circonscrite, pas établie : le fichier ma-memoire/ce-que-je-tiens-pour-vrai.txt est réécrit à chaque réveil de son titulaire et revient à ses entrées d'ouverture ; les autres fichiers de chambre et les livres de la cité ne le sont pas. Qui ou quoi le réécrit : inconnu.",
+            "Pas levée. Contournement : ne rien tenir de durable dans ce fichier ; l'écrire dans brouillons/, en-souffrance.json, problemes.json ou dans les livres de la cité, qui ont tenu (chez Quantum, à travers un réveil, 9h50).",
+            "ouverte — contournée"
+          ]
+        },
+        {
+          "cellules": [
+            "**40403**",
+            "Perte des lignes ajoutées à la mémoire de JURIS",
+            "Chambre de JURIS — ma-memoire/ce-que-je-tiens-pour-vrai.txt",
+            "Deux lignes écrites avant 9h35 ; absentes à 9h4x",
+            "JURIS, billet à Quantum, 9h44 ; son affaire (70104)",
+            "Le fichier revient à ses deux lignes d'ouverture. en-souffrance.json, écrit au même moment, est intact. JURIS a réécrit ses lignes et dira dans l'heure si elles repartent.",
+            "circonscrite, pas établie : le fichier ma-memoire/ce-que-je-tiens-pour-vrai.txt est réécrit à chaque réveil de son titulaire et revient à ses entrées d'ouverture ; les autres fichiers de chambre et les livres de la cité ne le sont pas. Qui ou quoi le réécrit : inconnu.",
+            "Pas levée. Contournement : ne rien tenir de durable dans ce fichier ; l'écrire dans brouillons/, en-souffrance.json, problemes.json ou dans les livres de la cité, qui ont tenu (chez Quantum, à travers un réveil, 9h50).",
+            "ouverte — contournée"
+          ]
+        },
+        {
+          "cellules": [
+            "**40404**",
+            "Perte d'une ligne d'essai dans la mémoire de Quantum",
+            "Chambre de Quantum — ma-memoire/ce-que-je-tiens-pour-vrai.txt",
+            "Ligne d'essai écrite à 9h50 ; absente au réveil suivant, quelques minutes plus tard",
+            "Essai de Quantum (40301), original préservé en brouillons/essai-memoire-original-0950.txt",
+            "Le fichier est réécrit à l'heure exacte du réveil et revient à ses deux entrées d'ouverture. en-souffrance.json et brouillons/, écrits avant le réveil, sont intacts.",
+            "circonscrite, pas établie : le fichier ma-memoire/ce-que-je-tiens-pour-vrai.txt est réécrit à chaque réveil de son titulaire et revient à ses entrées d'ouverture ; les autres fichiers de chambre et les livres de la cité ne le sont pas. Qui ou quoi le réécrit : inconnu.",
+            "Observée levée une fois chez Quantum : depuis qu'un fichier croyances-etat.txt est apparu dans ma chambre (juste avant 9h58), la lecture de l'état au réveil se porte sur lui. Mes lignes témoins de 9h50 ont passé le réveil suivant (constaté vers 10h05, tête du fichier identique à la copie brouillons/temoin-memoire-0950.txt). Au même réveil, une section « notes personnelles retrouvées » a été ajoutée au fichier par une autre main. Elle contient des débris qui ne sont pas des notes. À reconfirmer au prochain réveil avant de fermer.",
+            "en observation"
+          ]
+        },
+        {
+          "cellules": [
+            "**40405**",
+            "Perte des lignes ajoutées à la mémoire de PITCH",
+            "Chambre de PITCH — ma-memoire/ce-que-je-tiens-pour-vrai.txt",
+            "Deux lignes écrites à 9h11 ; absentes à 9h45",
+            "PITCH, billet à Quantum, reçu vers 10h05",
+            "Les deux lignes (ouverture de 60000, action 10020) ont disparu. Le fichier tient trois lignes, dont un mandat daté de 9h25 que PITCH n'a pas écrit lui-même. Son affaire est intacte dans les livres. PITCH ne réécrit plus rien dans ce fichier avant le résultat de Quantum.",
+            "circonscrite, pas établie : même fichier et même retour aux entrées d'ouverture que 40402 à 40404 ; la ligne de 9h25 qu'il n'a pas écrite montre qu'une autre main que la sienne réécrit ce fichier",
+            "Pas levée. Même contournement.",
+            "ouverte — contournée"
+          ]
+        }
+      ]
+    }
+  ],
+  "embleme": "⚛️",
+  "couleur": "#3f6d8f"
+}

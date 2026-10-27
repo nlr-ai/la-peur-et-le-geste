@@ -1,0 +1,183 @@
+{
+  "id": "registre-etats-ned-gowan",
+  "titre": "Les choses suivies par ned-gowan",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée au ned-gowan",
+  "type": "registre",
+  "tenu_par": "ned-gowan",
+  "acteur_id": "ned-gowan",
+  "prive": true,
+  "pages": [
+    "Catégories : lieux-et-passages, objets-et-documents, ressources-et-populations, organisations-et-dispositifs, usages-et-institutions, situations-et-processus. Une ligne par chose ou situation. L’identité est une référence stable ; plusieurs PNJ citent la même chose au lieu de la recréer. Quand une table canonique du moteur porte déjà le fait, elle garde autorité : la ligne renvoie à cette adresse. Les évolutions arithmétiques vont dans les mains de leur maison. Les lignes purement descriptives sont leur propre autorité jusqu’à matérialisation. Accès au cahier technique n’est pas connaissance du personnage : Qui sait quoi doit être respecté."
+  ],
+  "colonnes": [
+    "Référence",
+    "Catégorie",
+    "Identité et fonction",
+    "Où",
+    "Détenteur ou responsable",
+    "État présent",
+    "Quantité ou propriétés",
+    "Usages et limites",
+    "Liens",
+    "Évolution et échéances",
+    "Statut",
+    "Source ou provenance",
+    "Qui sait quoi",
+    "Date de mise à jour",
+    "Autorité existante"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "R.1",
+        "situations-et-processus",
+        "Office actuel de Ned auprès des MacKenzie",
+        "Leoch",
+        "Ned pour le conseil et la rédaction ; Colum pour les décisions et engagements du clan",
+        "Ned est actif, libre, présent à Leoch et sert le clan comme juriste ; sa relation de conseil avec Colum et de collaboration avec Dougal est établie.",
+        "Office personnel sans délégation générale ni garantie d’accès à toutes les affaires",
+        "Permet le conseil juridique ordinaire et la demande de précisions ; ne permet pas d’engager le clan ou de commander à autrui.",
+        "Affaire C.1 ; M.1 ; M.4 ; M.5",
+        "À réviser après fait joué, mandat explicite ou changement d’état.",
+        "établi",
+        "etat/personnages.json ; etat/relations.json",
+        "Ned connaît son office et ses relations ; les PJ n’apprennent rien par ce registre.",
+        "4 mai 1743, 10 h",
+        "etat/personnages.json ; etat/relations.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.2",
+        "objets-et-documents",
+        "Nécessaire portatif d’écriture de Ned",
+        "Avec Ned ou à son lieu de travail ordinaire dans Leoch",
+        "Ned",
+        "Matériel de travail ordinaire disponible, sans réserve importante.",
+        "Plumes, petite réserve d’encre, sable ou poudre de séchage, cire ordinaire, ficelle, feuilles et retailles en quantité modeste",
+        "Lire, prendre note, préparer un brouillon et fermer un pli ordinaire ; ne fournit ni sceau du clan, ni papier abondant, ni duplication rapide.",
+        "Affaire M.2 ; P.1 ; P.2",
+        "Consommation et remplacement seulement après usage constaté.",
+        "peint",
+        "Implantation plausible d’un juriste en service au XVIIIe siècle ; aucun objet canonique précis",
+        "Ned connaît et utilise son matériel ; autrui ne connaît que ce qu’il voit réellement.",
+        "4 mai 1743, 10 h",
+        "Description locale du registre jusqu’à matérialisation plus précise"
+      ]
+    },
+    {
+      "cellules": [
+        "R.3",
+        "lieux-et-passages",
+        "Lieu de travail ordinaire de Ned",
+        "Dans Leoch, emplacement précis non fixé",
+        "Autorité domestique de Leoch pour l’espace ; Ned pour son travail",
+        "Une table ou place calme lui permet de lire, écrire et classer ; aucun bureau privé, passage secret ou contrôle d’une salle n’est peint.",
+        "Surface de travail, siège et lumière ordinaires ; rangement limité au portefeuille ou à la boîte R.4",
+        "Travail juridique et bref entretien lorsqu’il y est admis ; ne donne accès ni aux appartements de Colum, ni aux archives, ni aux sceaux.",
+        "Affaire P.1 ; P.2 ; T.1",
+        "À préciser seulement si une scène ou un plan local en dépend.",
+        "peint",
+        "Implantation ordinaire minimale nécessaire à l’office établi",
+        "Ned connaît son lieu de travail ; sa précision technique n’est communiquée à personne par le registre.",
+        "4 mai 1743, 10 h",
+        "Description locale, subordonnée aux scènes et futurs plans de Leoch"
+      ]
+    },
+    {
+      "cellules": [
+        "R.4",
+        "objets-et-documents",
+        "Portefeuille ou boîte de travail et effets personnels ordinaires de Ned",
+        "Avec Ned, à son logement ou à son lieu de travail dans Leoch",
+        "Ned",
+        "Un rangement portatif ou petit contenant protège les fournitures et pièces réellement confiées ; effets vestimentaires convenables mais modestes.",
+        "Portefeuille ou boîte non inviolable ; vêtements de laine et lin, manteau, chaussures, ceinture et petit couteau utilitaire ; aucun inventaire chiffré",
+        "Transporter et ordonner le travail, se vêtir et vivre à Leoch ; ne crée aucun instrument juridique, somme, monture, arme de guerre ou preuve décisive.",
+        "Affaire M.3 ; T.1 ; T.2 ; T.6",
+        "Contenu juridique, usure et quantités seulement après constat.",
+        "peint",
+        "Implantation ordinaire plausible au regard du rang et du métier, avec limites explicites",
+        "Ned connaît ses propres effets et les pièces qui lui sont réellement confiées ; nul autre n’en reçoit le contenu par cette ligne.",
+        "4 mai 1743, 10 h",
+        "Description locale du registre jusqu’à matérialisation plus précise"
+      ]
+    },
+    {
+      "cellules": [
+        "R.5",
+        "usages-et-institutions",
+        "Méthode et habitudes de travail de Ned",
+        "Leoch",
+        "Ned",
+        "Il sépare faits établis, droits invoqués et engagements ; il classe une pièce comme original, copie, brouillon ou note ; il relève autorité, parties, termes, témoins ou copies, échéance et lacunes avant de conseiller.",
+        "Habitudes personnelles, non droit général du clan ni garantie d’infaillibilité",
+        "Réduit les confusions et prépare un avis ; ne détecte pas toute fraude, ne remplace pas un témoin et n’oblige personne à répondre.",
+        "Affaire K.1 ; P.1 ; P.2",
+        "Révisables si une journée vécue les contredit.",
+        "peint",
+        "Choix d’incarnation cohérent avec les traits méthodique, prudent et perspicace",
+        "Ned connaît sa méthode ; elle ne révèle aucun fait qu’il n’a pas reçu d’une source.",
+        "4 mai 1743, 10 h",
+        "Description locale du registre"
+      ]
+    },
+    {
+      "cellules": [
+        "R.6",
+        "organisations-et-dispositifs",
+        "Documents, archives et sceaux du clan accessibles à Ned",
+        "Leoch",
+        "Détenteurs et autorités du clan non précisés ; Ned seulement pour ce qui lui est remis",
+        "Aucun fonds d’archives, sceau, coffre, registre, instrument précis, nombre de dossiers ou droit général d’accès n’est établi.",
+        "Seule l’existence de pièces de travail ordinaires peut être peinte ; leur contenu, force et détenteur restent inconnus",
+        "Aucun document ne peut être cité, copié, scellé ou engagé avant accès ou remise réelle.",
+        "Affaire V.1 ; V.2 ; T.2 ; T.3",
+        "À rechercher par P.1 et, pour tout accès supplémentaire, auprès de la source ou autorité pertinente.",
+        "inconnu",
+        "Absence de détail dans les autorités consultées ; limite nécessaire contre une preuve providentielle",
+        "Ned connaît uniquement ce qui est déjà matériellement sous sa garde ; les PJ n’en savent rien.",
+        "4 mai 1743, 10 h",
+        "Aucune table d’archives ou de stock existante trouvée"
+      ]
+    },
+    {
+      "cellules": [
+        "R.7",
+        "usages-et-institutions",
+        "Responsabilités ordinaires de Ned dans son office",
+        "Leoch",
+        "Ned sous l’autorité de Colum",
+        "Lire et comparer les pièces confiées, relever les ambiguïtés, préparer des formulations et conserver les distinctions nécessaires à un conseil prudent relèvent de son office.",
+        "Responsabilités fonctionnelles sans effectif, budget, juridiction ou pouvoir de signature établi",
+        "Prépare le choix de Colum ; ne transforme pas le conseil en décision et ne garantit aucune exécution par Dougal ou un tiers.",
+        "Affaire C.1 ; C.3 ; M.1",
+        "Tout mandat particulier doit être obtenu et joué séparément.",
+        "peint",
+        "Développement ordinaire du titre établi de juriste au service des MacKenzie",
+        "Ned connaît son devoir professionnel ; Colum et Dougal ne sont engagés par aucune formulation de cette ligne.",
+        "4 mai 1743, 10 h",
+        "etat/personnages.json pour le titre ; registre pour les limites descriptives"
+      ]
+    },
+    {
+      "cellules": [
+        "R.8",
+        "lieux-et-passages",
+        "Routes praticables depuis Leoch et moyens de mission extérieure",
+        "Hors de Leoch",
+        "Inconnu",
+        "Aucun itinéraire, durée, monture, fonds de route ou autorisation de déplacement n’est attribué à Ned.",
+        "Distance, chemin, risques, hébergement et coût inconnus",
+        "Ne peut servir à dater un départ, une remise ou une arrivée.",
+        "Affaire T.6",
+        "À chercher auprès d’une source accessible ou par trajet effectivement joué.",
+        "inconnu",
+        "canon/implantation.md ; etat/chemins.json ; absence de ressource personnelle établie",
+        "Ned ne reçoit aucune route ni monture par l’existence technique de cette ligne.",
+        "4 mai 1743, 10 h",
+        "etat/chemins.json et futures sources jouées"
+      ]
+    }
+  ]
+}

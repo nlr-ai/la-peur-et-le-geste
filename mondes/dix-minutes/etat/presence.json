@@ -1,0 +1,158 @@
+{
+  "presence": {
+    "marc-aurele": {
+      "salle": "table-1",
+      "lieu": "La table du tilleul, Le salon",
+      "date": {
+        "annee": 1,
+        "lune": 1,
+        "jour": 1,
+        "minute": 1240
+      }
+    },
+    "wu-zetian": {
+      "salle": "table-1",
+      "lieu": "La table du tilleul, Le salon",
+      "date": {
+        "annee": 1,
+        "lune": 1,
+        "jour": 1,
+        "minute": 1260
+      }
+    },
+    "mansa-moussa": {
+      "salle": "table-4",
+      "lieu": "La table du jardin d'hiver, Le salon",
+      "date": {
+        "annee": 1,
+        "lune": 1,
+        "jour": 1,
+        "minute": 1260
+      }
+    },
+    "elisabeth": {
+      "salle": "table-3",
+      "lieu": "La table des cartes, Le salon",
+      "date": {
+        "annee": 1,
+        "lune": 1,
+        "jour": 1,
+        "minute": 1255
+      }
+    },
+    "ipi": {
+      "salle": "vestibule",
+      "lieu": "Le vestibule, Le salon",
+      "date": {
+        "annee": 1,
+        "lune": 1,
+        "jour": 1,
+        "minute": 1250
+      }
+    },
+    "xochitl": {
+      "salle": "table-3",
+      "lieu": "La table des cartes, Le salon",
+      "date": {
+        "annee": 1,
+        "lune": 1,
+        "jour": 1,
+        "minute": 1255
+      }
+    },
+    "sarah-bagley": {
+      "salle": "table-4",
+      "lieu": "La table du jardin d'hiver, Le salon",
+      "date": {
+        "annee": 1,
+        "lune": 1,
+        "jour": 1,
+        "minute": 1255
+      }
+    },
+    "zhang-min": {
+      "salle": "table-2",
+      "lieu": "La table de la cheminée, Le salon",
+      "date": {
+        "annee": 1,
+        "lune": 1,
+        "jour": 1,
+        "minute": 1255
+      }
+    },
+    "mnemo": {
+      "salle": "table-2",
+      "lieu": "La table de la cheminée, Le salon",
+      "date": {
+        "annee": 1,
+        "lune": 1,
+        "jour": 1,
+        "minute": 1240
+      }
+    }
+  },
+  "resolu": {
+    "date": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1,
+      "minute": 1265
+    },
+    "gens": {
+      "elisabeth": {
+        "salle": "table-3",
+        "lieu": "La table des cartes, Le salon",
+        "etat": "arrete",
+        "source": "scene"
+      },
+      "ipi": {
+        "salle": "vestibule",
+        "lieu": "Le vestibule, Le salon",
+        "etat": "arrete",
+        "source": "scene"
+      },
+      "mansa-moussa": {
+        "salle": "table-4",
+        "lieu": "La table du jardin d'hiver, Le salon",
+        "etat": "arrete",
+        "source": "scene"
+      },
+      "marc-aurele": {
+        "salle": "table-1",
+        "lieu": "La table du tilleul, Le salon",
+        "etat": "arrete",
+        "source": "scene"
+      },
+      "mnemo": {
+        "salle": "table-2",
+        "lieu": "La table de la cheminée, Le salon",
+        "etat": "arrete",
+        "source": "scene"
+      },
+      "sarah-bagley": {
+        "salle": "table-4",
+        "lieu": "La table du jardin d'hiver, Le salon",
+        "etat": "arrete",
+        "source": "scene"
+      },
+      "wu-zetian": {
+        "salle": "table-1",
+        "lieu": "La table du tilleul, Le salon",
+        "etat": "arrete",
+        "source": "scene"
+      },
+      "xochitl": {
+        "salle": "table-3",
+        "lieu": "La table des cartes, Le salon",
+        "etat": "arrete",
+        "source": "scene"
+      },
+      "zhang-min": {
+        "salle": "table-2",
+        "lieu": "La table de la cheminée, Le salon",
+        "etat": "arrete",
+        "source": "scene"
+      }
+    }
+  }
+}

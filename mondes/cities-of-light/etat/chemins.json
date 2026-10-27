@@ -1,0 +1,57 @@
+{
+ "_": "LA TOPOLOGIE — en minutes de marche, et rien d'autre. Deux salles que nulle arete ne relie sont dans deux composantes, et le quartier ne les melange jamais : c'est la regle « composante D'ABORD, duree ensuite », qui a coute un bug une fois (trente-cinq personnes « a zero minute » d'une salle qu'elles ne pouvaient pas atteindre).\nLA CHAINE N'A AUCUNE ARETE, ET C'EST VOULU. On y ecrit d'un bout du monde a l'autre en une seconde, mais on n'y VA pas a pied. La relier a cout nul mettrait le monde entier a zero minute de tout le monde — la meme faute, en pire. Elle est sa propre composante, et l'on y accede par un canal, jamais par un couloir.",
+ "alias": {
+  "labo": "plateau-labo",
+  "machines": "salle-machines-sf",
+  "rue": "rue-folsom",
+  "cafe": "cafe-du-coin",
+  "chaine": "registre"
+ },
+ "aretes": [
+  [
+   "plateau-labo",
+   "couloir-nord",
+   1
+  ],
+  [
+   "couloir-nord",
+   "salle-machines-sf",
+   2
+  ],
+  [
+   "couloir-nord",
+   "salle-reunion",
+   1
+  ],
+  [
+   "plateau-labo",
+   "escalier",
+   1
+  ],
+  [
+   "escalier",
+   "hall",
+   2
+  ],
+  [
+   "hall",
+   "rue-folsom",
+   1
+  ],
+  [
+   "rue-folsom",
+   "cafe-du-coin",
+   4
+  ],
+  [
+   "rue-folsom",
+   "quai-embarcadero",
+   14
+  ],
+  [
+   "salle-machines-sf",
+   "local-onduleurs",
+   2
+  ]
+ ]
+}

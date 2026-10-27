@@ -1,0 +1,1 @@
+10.10.2001. Projet de créance Turner dressé et retenu au greffe. Deux blancs interdisent sa délivrance : solde exact et jour exact d'échéance. « Fin de la onzième lune » reste une croyance, non une date d'acte. Aucun porteur attesté, aucune remise, aucune signature. Prochaine action bornée : retrouver la pièce du prix ; à défaut, ne rien porter.

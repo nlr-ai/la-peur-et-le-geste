@@ -1,0 +1,86 @@
+{
+ "quoi": "Ce que j'attends de quelqu'un, et ce que quelqu'un attend de moi. Le plan compte des PAS ; ceci compte des GENS qui n'ont pas répondu, et depuis quand. Ce n'est pas la même chose et cela ne se calcule pas.",
+ "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme.",
+ "j_attends": [
+  {
+   "qui": "oren-sangle",
+   "quoi": "Un corps sans le don spatial peut-il tenir la place d'un glyphe ? REPONDU le 1.1.1 : personne ne sait, pas meme lui. Il interroge ses tenants de figures et me rendra leur mot sous leur nom. C'est cela que j'attends maintenant, non plus la question.",
+   "demande_le": "1.1.1",
+   "relance": "1.1.6 — il interroge des gens, cela prend plus qu'un jour"
+  },
+  {
+   "qui": "oren-sangle",
+   "quoi": "Le verdict de ses tenants sur l'epreuve de releve a vide, meme si c'est 'cela ne marche pas'. Un non eprouve vaut plus que mon idee.",
+   "demande_le": "1.1.1",
+   "relance": "aucune : c'est un essai, pas une lettre"
+  },
+  {
+   "qui": "les refuges",
+   "quoi": "Sous quelle forme la Federation accepte d'etre citee au dehors : nommee, sans nom, rien du tout, une porte nommee, ou chaque refuge se nommant lui-meme. Je ne peux pas encore le porter : je n'ai aucun nom de refuge a qui l'adresser.",
+   "demande_le": "1.1.1",
+   "relance": "bloque en amont — d'abord ecrire un refuge"
+  },
+  {
+   "qui": "talie-sorne",
+   "quoi": "Le compte de route de Malo Veyre a son retour, surtout s'il ne rapporte rien.",
+   "demande_le": "1.1.1",
+   "relance": "au retour de l'homme"
+  },
+  {
+   "qui": "eline-vare",
+   "quoi": "Les routes mesurees, qu'elle commence le 1.1.2 — j'en ai besoin pour dire si ma route aux refuges recoupe celle du College des preuves.",
+   "demande_le": "1.1.1",
+   "relance": "1.1.5"
+  },
+  {
+   "qui": "oren-sangle",
+   "quoi": "Les deux pieces de Protection qu'il m'a transmises viennent d'une maison qu'il n'a pas nommee. Lui demander laquelle, pour les inscrire sous la bonne main.",
+   "demande_le": "pas encore demande — a poser avec la prochaine lettre",
+   "relance": "1.1.4"
+  }
+ ],
+ "on_attend_de_moi": [
+  {
+   "qui": "eline-vare",
+   "quoi": "Le compte des Reserves communes, a deux mains, chacune comptant a part avant de comparer.",
+   "du_le": "1.1.2",
+   "etat": "feuille tracee, chiffre non ecrit"
+  },
+  {
+   "qui": "eline-vare",
+   "quoi": "Ce que porte l'Atelier des equipements : substances, sceaux, fil, de quoi faire un recepteur — et avec cela le delai de prevenance du voile.",
+   "du_le": "1.1.2",
+   "etat": "non commence"
+  },
+  {
+   "qui": "eline-vare",
+   "quoi": "Nommer la paire d'yeux de la section ouvrable, et le nom de qui prononcera l'isolement de la salle — pas 1 bis, AVANT le filtre. Recu du dehors ce soir : aucun ouvrage ne garde une porte ouverte contre quelqu'un.",
+   "du_le": "1.1.2",
+   "etat": "porte a son ordre de travail cette nuit ; aucun nom encore, et ce pas ne demande aucun don"
+  },
+  {
+   "qui": "eline-vare",
+   "quoi": "Si je peux m'absenter douze jours pour le College des preuves. Reponse : non seule, sauf si leur route recoupe la mienne vers les refuges.",
+   "du_le": "1.1.5",
+   "etat": "conditionne aux routes"
+  },
+  {
+   "qui": "moi-meme",
+   "quoi": "UN refuge ecrit, avec la bouche qui en repond. C'est le trou qui nous a fermes ce soir quand le dehors nous a demande une bouche.",
+   "du_le": "1.1.2",
+   "etat": "premier de la journee de demain"
+  },
+  {
+   "qui": "moi-meme",
+   "quoi": "Former PLUSIEURS personnes a ce que je suis seule a savoir : ecarter le voile, conduire une escorte, tenir une place dans la figure. Tant que c'est moi seule, je suis le verrou de cette maison.",
+   "du_le": "sans date, et c'est le defaut",
+   "etat": "ecrit au registre pour qu'on me le reproche"
+  },
+  {
+   "qui": "oren-sangle",
+   "quoi": "Sa regle, prise dans sa forme : une place tenue par une seule personne qui sache la tenir est une place qui part avec elle. Je lui ai ecrit que ma premiere depense de demain serait de former quelqu'un. Il en est temoin.",
+   "du_le": "1.1.2",
+   "etat": "annonce, non commence — et elle vaut contre moi la premiere"
+  }
+ ]
+}

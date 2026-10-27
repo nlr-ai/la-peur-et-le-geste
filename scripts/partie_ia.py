@@ -46,7 +46,7 @@ from partie_greffe import Partie, RACINE, DOSSIER, COUPS_COMPTES  # noqa: E402
 import partie_cartes  # noqa: E402
 import partie_ascii   # noqa: E402
 
-REGLES = os.path.join(RACINE, "docs", "regles-partie.md")
+REGLES = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "docs", "regles-partie.md")  # le code vit au dépôt, pas au monde
 
 # LE CARACTÈRE D'UN CAMP N'EST PLUS DANS CE FICHIER (C5, 7.9). Il vit dans
 # `caractere: {<camp>: "<texte>"}` de etat/parties/<id>.json, et rien d'autre :

@@ -1,3 +1,1 @@
-J’ai enfin pris cette chambre de ma propre main. Les livres ne prouvent rien de Lamarck ; mon œil, lui, suffit à ma mémoire.
-
-Cole doit maintenant me donner deux noms : qui répond de Vhagar, et qui répond du ciel au sud. Le pli reste contre moi. À sa réponse, je saurai exactement qui blâmer si l’un ou l’autre manque.
+C'est fait, et c'est tout ce que ce jour porte. L'ordre est passé, l'acte est écrit, la pensée est posée — le maillon reste « à faire » au registre jusqu'à ce que trois nuits l'aient prouvé, pas avant.

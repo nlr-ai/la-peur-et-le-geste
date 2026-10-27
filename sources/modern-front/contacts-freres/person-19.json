@@ -1,0 +1,882 @@
+{
+  "meta": {
+    "scenario": "arrival",
+    "seed": 1,
+    "personId": 19,
+    "shownAt": "1940-06-15T08:00:00",
+    "simulationAt": "1940-06-15T08:00:00",
+    "sections": [
+      "identity",
+      "personality",
+      "relations"
+    ],
+    "coordinates": "location positions use map units; nested native MapPoint X/Y values use 1000 subdivisions per unit. Not latitude/longitude.",
+    "perspective": "Omniscient dossier. Only knowledge describes information actually known by this character. Other people\u0027s trust, secret holders and hidden traits are not automatically known to him.",
+    "limits": "No invented biography, dialogue, money balance or inventory. Household/site goods are recorded possessions, not proof of personal access. History covers today through shownAt; no future events are exported. Telephone service is at simulationAt."
+  },
+  "identity": {
+    "row": {
+      "id": 19,
+      "first": "Jeanne",
+      "last": "Proust",
+      "sex": "f",
+      "age": 65,
+      "nationality": "fr",
+      "allegiance": "civil",
+      "household": 180,
+      "relation": "head",
+      "status": "post",
+      "post": "doctor",
+      "building": 7,
+      "job": "M\u00E9decin",
+      "cover": "doctor",
+      "from": null,
+      "war": null
+    },
+    "greatWar": null,
+    "groups": [],
+    "appearance": {
+      "id": 19,
+      "class": {
+        "key": "notable",
+        "name": "Notable",
+        "weights": {
+          "stout": 3,
+          "slick": 2,
+          "tanned": 0.2,
+          "moustache_thin": 1.8,
+          "stubble": 0
+        },
+        "gates": {
+          "glasses": 1.8
+        },
+        "outfit": {
+          "m": [
+            {
+              "slot": "head",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "fedora",
+                  "name": "chapeau mou",
+                  "feminine": false,
+                  "shape": "fedora",
+                  "colors": [
+                    "charcoal",
+                    "black",
+                    "grey"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "bowler",
+                  "name": "chapeau melon",
+                  "feminine": false,
+                  "shape": "bowler",
+                  "colors": [
+                    "black"
+                  ],
+                  "weight": 15,
+                  "minAge": 45,
+                  "maxAge": 200
+                },
+                {
+                  "key": "bare",
+                  "name": "t\u00EAte nue",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [],
+                  "weight": 25,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "top",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "three_piece",
+                  "name": "costume trois pi\u00E8ces",
+                  "feminine": false,
+                  "shape": "suit",
+                  "colors": [
+                    "charcoal",
+                    "black",
+                    "navy",
+                    "grey"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "bottom",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "suit_trousers",
+                  "name": "pantalon de costume",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "charcoal",
+                    "grey",
+                    "black"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "feet",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "polished_shoes",
+                  "name": "chaussures cir\u00E9es",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [
+                    "black",
+                    "brown"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            }
+          ],
+          "f": [
+            {
+              "slot": "head",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "cloche",
+                  "name": "chapeau",
+                  "feminine": false,
+                  "shape": "cloche",
+                  "colors": [
+                    "black",
+                    "navy",
+                    "burgundy"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "bare",
+                  "name": "t\u00EAte nue",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [],
+                  "weight": 40,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "top",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "suit_f",
+                  "name": "tailleur",
+                  "feminine": false,
+                  "shape": "jacket",
+                  "colors": [
+                    "black",
+                    "navy",
+                    "grey",
+                    "plum"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "dress",
+                  "name": "robe",
+                  "feminine": true,
+                  "shape": "dress",
+                  "colors": [
+                    "navy",
+                    "burgundy",
+                    "plum",
+                    "black"
+                  ],
+                  "weight": 40,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "bottom",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "straight_skirt",
+                  "name": "jupe droite",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [
+                    "black",
+                    "navy",
+                    "grey"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "feet",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "court_shoes",
+                  "name": "escarpins",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "black",
+                    "brown"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "heightCm": 160,
+      "build": {
+        "key": "stout",
+        "name": "corpulent",
+        "nameF": "forte",
+        "color": null,
+        "weight": 10,
+        "minAge": 25,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1.24
+      },
+      "skin": {
+        "key": "fair",
+        "name": "clair",
+        "nameF": null,
+        "color": "efd2bd",
+        "weight": 30,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "eyes": {
+        "key": "eyes_blue",
+        "name": "bleus",
+        "nameF": null,
+        "color": "5d82a8",
+        "weight": 22,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "brows": {
+        "key": "thick",
+        "name": "sourcils \u00E9pais",
+        "nameF": null,
+        "color": null,
+        "weight": 28,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1.5
+      },
+      "face": {
+        "key": "angular",
+        "name": "visage anguleux",
+        "nameF": null,
+        "color": null,
+        "weight": 12,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "pointed",
+        "size": 0.92
+      },
+      "nose": {
+        "key": "snub",
+        "name": "nez retrouss\u00E9",
+        "nameF": null,
+        "color": null,
+        "weight": 16,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 0.75
+      },
+      "hairColor": {
+        "key": "white_hair",
+        "name": "blancs",
+        "nameF": null,
+        "color": "dedbd4",
+        "weight": 40,
+        "minAge": 65,
+        "maxAge": 200,
+        "sex": null,
+        "gate": "greying",
+        "shape": null,
+        "size": 1
+      },
+      "hairStyle": {
+        "key": "bun",
+        "name": "en chignon",
+        "nameF": null,
+        "color": null,
+        "weight": 30,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "bun",
+        "size": 1
+      },
+      "facialHair": null,
+      "glasses": {
+        "key": "steel_glasses",
+        "name": "lunettes cercl\u00E9es d\u0027acier",
+        "nameF": null,
+        "color": null,
+        "weight": 35,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": "glasses",
+        "shape": "steel",
+        "size": 1
+      },
+      "mark": null,
+      "outfit": [
+        {
+          "slot": "head",
+          "key": "cloche",
+          "text": "chapeau noir",
+          "shape": "cloche",
+          "color": "1c1c1e",
+          "from": null
+        },
+        {
+          "slot": "top",
+          "key": "suit_f",
+          "text": "tailleur prune",
+          "shape": "jacket",
+          "color": "4b2f45",
+          "from": null
+        },
+        {
+          "slot": "bottom",
+          "key": "straight_skirt",
+          "text": "jupe droite bleu marine",
+          "shape": null,
+          "color": "1f2a44",
+          "from": null
+        },
+        {
+          "slot": "feet",
+          "key": "court_shoes",
+          "text": "escarpins brun",
+          "shape": null,
+          "color": "5a3d2b",
+          "from": null
+        }
+      ]
+    },
+    "worn": [
+      {
+        "slot": "head",
+        "key": "cloche",
+        "text": "chapeau noir",
+        "shape": "cloche",
+        "color": "1c1c1e",
+        "from": null
+      },
+      {
+        "slot": "top",
+        "key": "suit_f",
+        "text": "tailleur prune",
+        "shape": "jacket",
+        "color": "4b2f45",
+        "from": null
+      },
+      {
+        "slot": "bottom",
+        "key": "straight_skirt",
+        "text": "jupe droite bleu marine",
+        "shape": null,
+        "color": "1f2a44",
+        "from": null
+      },
+      {
+        "slot": "feet",
+        "key": "court_shoes",
+        "text": "escarpins brun",
+        "shape": null,
+        "color": "5a3d2b",
+        "from": null
+      }
+    ]
+  },
+  "personality": {
+    "drawn": {
+      "id": 18,
+      "profile": "fence_sitter",
+      "shownProfile": "fence_sitter",
+      "traits": [
+        "apolitical",
+        "young_children"
+      ],
+      "axes": {
+        "fervour": 26,
+        "risk": 15,
+        "nerve": 40,
+        "loyalty": 50,
+        "discretion": 40,
+        "greed": 20
+      },
+      "fervour": 26
+    },
+    "currentFervour": 26,
+    "traits": [
+      {
+        "key": "apolitical",
+        "name": "Apolitique",
+        "category": "conviction",
+        "group": "politics",
+        "hidden": false,
+        "axes": {},
+        "opinion": {},
+        "reactions": {},
+        "drift": 1,
+        "occupierFervour": 0
+      },
+      {
+        "key": "young_children",
+        "name": "Parent de jeunes enfants",
+        "category": "situation",
+        "group": null,
+        "hidden": false,
+        "axes": {
+          "risk": -15
+        },
+        "opinion": {
+          "young_children": 5
+        },
+        "reactions": {
+          "home_bombed": -3,
+          "east_transfer": -3
+        },
+        "drift": 1,
+        "occupierFervour": -5
+      }
+    ],
+    "axes": [
+      {
+        "key": "fervour",
+        "name": "Ferveur",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "risk",
+        "name": "Prise de risque",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "nerve",
+        "name": "Tenue",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "loyalty",
+        "name": "Fid\u00E9lit\u00E9",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "discretion",
+        "name": "Discr\u00E9tion",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "greed",
+        "name": "V\u00E9nalit\u00E9",
+        "min": 0,
+        "max": 100
+      }
+    ],
+    "voiceAmbiance": "Jeanne prend la parole.",
+    "voiceWords": [
+      "Elle parle de ses petits ; on sent qu\u0027elle a peur pour eux."
+    ]
+  },
+  "relations": {
+    "kinship": [],
+    "contacts": [
+      {
+        "person": {
+          "id": 0,
+          "name": "Fran\u00E7ois Texier"
+        },
+        "kinds": "Regular",
+        "outgoing": 8,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 5,
+          "name": "Abel H\u00E9rault"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 32
+      },
+      {
+        "person": {
+          "id": 6,
+          "name": "\u00C9douard Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 8,
+        "incoming": 26
+      },
+      {
+        "person": {
+          "id": 8,
+          "name": "Michel Ecalle"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 18
+      },
+      {
+        "person": {
+          "id": 17,
+          "name": "Lucien Bouju"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 27,
+          "name": "Gilbert Ouvrard"
+        },
+        "kinds": "Regular",
+        "outgoing": 35,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 28,
+          "name": "Marcel Robin"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 29,
+          "name": "Auguste Barreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 27
+      },
+      {
+        "person": {
+          "id": 33,
+          "name": "Raoul H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 47,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 34,
+          "name": "Fran\u00E7ois Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 44,
+          "name": "Bernard Bouju"
+        },
+        "kinds": "Regular",
+        "outgoing": 44,
+        "incoming": 26
+      },
+      {
+        "person": {
+          "id": 46,
+          "name": "Octave Mainard"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 29
+      },
+      {
+        "person": {
+          "id": 47,
+          "name": "Marius Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 38,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 66,
+          "name": "Charles Largeaud"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 54,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 67,
+          "name": "Maurice Bodin"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 43,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 70,
+          "name": "Claude Rousseau"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 55,
+        "incoming": 32
+      },
+      {
+        "person": {
+          "id": 80,
+          "name": "Hans M\u00FCller"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 13
+      },
+      {
+        "person": {
+          "id": 84,
+          "name": "Augustine Simonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 25
+      },
+      {
+        "person": {
+          "id": 151,
+          "name": "Pierre Lambert"
+        },
+        "kinds": "Regular",
+        "outgoing": 48,
+        "incoming": 22
+      },
+      {
+        "person": {
+          "id": 156,
+          "name": "Joseph Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 42,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 160,
+          "name": "C\u00E9line Joubert"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 28
+      },
+      {
+        "person": {
+          "id": 200,
+          "name": "Marcelle Boinot"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 211,
+          "name": "Roger Bouchet"
+        },
+        "kinds": "Regular",
+        "outgoing": 11,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 218,
+          "name": "Daniel Guillon"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 220,
+          "name": "Gaston Tessier"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 34
+      },
+      {
+        "person": {
+          "id": 224,
+          "name": "Roger Gu\u00E9rin"
+        },
+        "kinds": "Regular",
+        "outgoing": 13,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 231,
+          "name": "Raymond Pineau"
+        },
+        "kinds": "Regular",
+        "outgoing": 37,
+        "incoming": 19
+      },
+      {
+        "person": {
+          "id": 234,
+          "name": "Marcel Sabourin"
+        },
+        "kinds": "Regular",
+        "outgoing": 16,
+        "incoming": 36
+      },
+      {
+        "person": {
+          "id": 239,
+          "name": "Lucienne Frouin"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 244,
+          "name": "Odile Renaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 28
+      },
+      {
+        "person": {
+          "id": 245,
+          "name": "L\u00E9ontine Bernard"
+        },
+        "kinds": "Regular",
+        "outgoing": 20,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 247,
+          "name": "Claude Raffin"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 27
+      },
+      {
+        "person": {
+          "id": 249,
+          "name": "Jeanne Daniau"
+        },
+        "kinds": "Regular",
+        "outgoing": 26,
+        "incoming": 31
+      },
+      {
+        "person": {
+          "id": 252,
+          "name": "Roger Thibault"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 37,
+        "incoming": 34
+      },
+      {
+        "person": {
+          "id": 406,
+          "name": "Michel Sauzeau"
+        },
+        "kinds": "Regular",
+        "outgoing": 28,
+        "incoming": 34
+      },
+      {
+        "person": {
+          "id": 407,
+          "name": "Lucien Sauzeau"
+        },
+        "kinds": "Regular",
+        "outgoing": 15,
+        "incoming": 38
+      }
+    ]
+  }
+}

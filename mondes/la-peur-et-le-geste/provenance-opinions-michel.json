@@ -1,0 +1,201 @@
+{
+  "regle": "Adaptation demandée pour affichage : opinion = 2 * confiance - 100. Remplace les zéros techniques des contacts importés. Le zéro entre frères reste non calibré faute de score source.",
+  "relations": [
+    {
+      "source_id": "celine-joubert",
+      "cible_id": "michel",
+      "confiance_source": 18,
+      "opinion": -64,
+      "source": "sources/modern-front/contacts-freres/person-160.json"
+    },
+    {
+      "source_id": "michel",
+      "cible_id": "celine-joubert",
+      "confiance_source": 52,
+      "opinion": 4,
+      "source": "sources/modern-front/contacts-freres/person-160.json"
+    },
+    {
+      "source_id": "celine-joubert",
+      "cible_id": "lucien-frere-de-michel",
+      "confiance_source": 18,
+      "opinion": -64,
+      "source": "sources/modern-front/contacts-freres/person-160.json"
+    },
+    {
+      "source_id": "lucien-frere-de-michel",
+      "cible_id": "celine-joubert",
+      "confiance_source": 45,
+      "opinion": -10,
+      "source": "sources/modern-front/contacts-freres/person-160.json"
+    },
+    {
+      "source_id": "augustine-brochard",
+      "cible_id": "michel",
+      "confiance_source": 36,
+      "opinion": -28,
+      "source": "sources/modern-front/contacts-freres/person-163.json"
+    },
+    {
+      "source_id": "michel",
+      "cible_id": "augustine-brochard",
+      "confiance_source": 30,
+      "opinion": -40,
+      "source": "sources/modern-front/contacts-freres/person-163.json"
+    },
+    {
+      "source_id": "jeanne-proust",
+      "cible_id": "michel",
+      "confiance_source": 28,
+      "opinion": -44,
+      "source": "sources/modern-front/contacts-freres/person-19.json"
+    },
+    {
+      "source_id": "michel",
+      "cible_id": "jeanne-proust",
+      "confiance_source": 34,
+      "opinion": -32,
+      "source": "sources/modern-front/contacts-freres/person-19.json"
+    },
+    {
+      "source_id": "jeanne-proust",
+      "cible_id": "lucien-frere-de-michel",
+      "confiance_source": 15,
+      "opinion": -70,
+      "source": "sources/modern-front/contacts-freres/person-19.json"
+    },
+    {
+      "source_id": "lucien-frere-de-michel",
+      "cible_id": "jeanne-proust",
+      "confiance_source": 38,
+      "opinion": -24,
+      "source": "sources/modern-front/contacts-freres/person-19.json"
+    },
+    {
+      "source_id": "alphonse-nau",
+      "cible_id": "michel",
+      "confiance_source": 63,
+      "opinion": 26,
+      "source": "sources/modern-front/contacts-freres/person-207.json"
+    },
+    {
+      "source_id": "michel",
+      "cible_id": "alphonse-nau",
+      "confiance_source": 72,
+      "opinion": 44,
+      "source": "sources/modern-front/contacts-freres/person-207.json"
+    },
+    {
+      "source_id": "fernand-moreau",
+      "cible_id": "michel",
+      "confiance_source": 69,
+      "opinion": 38,
+      "source": "sources/modern-front/contacts-freres/person-221.json"
+    },
+    {
+      "source_id": "michel",
+      "cible_id": "fernand-moreau",
+      "confiance_source": 70,
+      "opinion": 40,
+      "source": "sources/modern-front/contacts-freres/person-221.json"
+    },
+    {
+      "source_id": "aime-vallet",
+      "cible_id": "michel",
+      "confiance_source": 60,
+      "opinion": 20,
+      "source": "sources/modern-front/contacts-freres/person-230.json"
+    },
+    {
+      "source_id": "michel",
+      "cible_id": "aime-vallet",
+      "confiance_source": 39,
+      "opinion": -22,
+      "source": "sources/modern-front/contacts-freres/person-230.json"
+    },
+    {
+      "source_id": "auguste-barreau",
+      "cible_id": "michel",
+      "confiance_source": 26,
+      "opinion": -48,
+      "source": "sources/modern-front/contacts-freres/person-29.json"
+    },
+    {
+      "source_id": "michel",
+      "cible_id": "auguste-barreau",
+      "confiance_source": 25,
+      "opinion": -50,
+      "source": "sources/modern-front/contacts-freres/person-29.json"
+    },
+    {
+      "source_id": "auguste-barreau",
+      "cible_id": "lucien-frere-de-michel",
+      "confiance_source": 25,
+      "opinion": -50,
+      "source": "sources/modern-front/contacts-freres/person-29.json"
+    },
+    {
+      "source_id": "lucien-frere-de-michel",
+      "cible_id": "auguste-barreau",
+      "confiance_source": 54,
+      "opinion": 8,
+      "source": "sources/modern-front/contacts-freres/person-29.json"
+    },
+    {
+      "source_id": "lucienne-thibault",
+      "cible_id": "michel",
+      "confiance_source": 37,
+      "opinion": -26,
+      "source": "sources/modern-front/contacts-freres/person-30.json"
+    },
+    {
+      "source_id": "michel",
+      "cible_id": "lucienne-thibault",
+      "confiance_source": 54,
+      "opinion": 8,
+      "source": "sources/modern-front/contacts-freres/person-30.json"
+    },
+    {
+      "source_id": "jacques-chatain",
+      "cible_id": "michel",
+      "confiance_source": 43,
+      "opinion": -14,
+      "source": "sources/modern-front/contacts-freres/person-76.json"
+    },
+    {
+      "source_id": "michel",
+      "cible_id": "jacques-chatain",
+      "confiance_source": 37,
+      "opinion": -26,
+      "source": "sources/modern-front/contacts-freres/person-76.json"
+    },
+    {
+      "source_id": "augustine-simonneau",
+      "cible_id": "michel",
+      "confiance_source": 8,
+      "opinion": -84,
+      "source": "sources/modern-front/contacts-freres/person-84.json"
+    },
+    {
+      "source_id": "michel",
+      "cible_id": "augustine-simonneau",
+      "confiance_source": 45,
+      "opinion": -10,
+      "source": "sources/modern-front/contacts-freres/person-84.json"
+    },
+    {
+      "source_id": "augustine-simonneau",
+      "cible_id": "lucien-frere-de-michel",
+      "confiance_source": 3,
+      "opinion": -94,
+      "source": "sources/modern-front/contacts-freres/person-84.json"
+    },
+    {
+      "source_id": "lucien-frere-de-michel",
+      "cible_id": "augustine-simonneau",
+      "confiance_source": 60,
+      "opinion": 20,
+      "source": "sources/modern-front/contacts-freres/person-84.json"
+    }
+  ]
+}

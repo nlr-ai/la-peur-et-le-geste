@@ -1,0 +1,1257 @@
+[
+  {
+    "personnage_id": "louis-perret",
+    "croyances": [
+      "La feuille de route de Marcel est pour dimanche : s'il ne décide pas ce soir, il ira aux Brotteaux par habitude, comme on va à l'atelier.",
+      "Il connaît par un ancien de l'atelier un gars sur qui on peut compter, Étienne, qui sort les jeunes du STO et leur trouve des papiers ; il ne sait de lui que ce prénom et le café du Gros Caillou.",
+      "Le patron n'est pas un mouchard, mais il fera ce que la loi lui dit de faire, et il le dira à qui le lui demandera.",
+      "Bouvard connaît tous les visages de l'atelier et ne pardonne pas son renvoi ; il faut que rien ne se dise devant les portes.",
+      "Marcel est un bon gars, qui ne parle pas : on peut le risquer, lui.",
+      "L'apprenti Dédé est trop jeune pour la loi, mais sa classe viendra."
+    ],
+    "ignore": [
+      "Ce qu'est le groupe d'Étienne, à qui il obéit, et combien ils sont",
+      "Que la Milice a déjà des oreilles au Gros Caillou ou non"
+    ],
+    "intention": "Attendre que l'atelier se vide, parler à Marcel au lavabo, et lui donner l'heure et le lieu où trouver Étienne ce soir même.",
+    "plan": [
+      {
+        "id": "perret-lavabo",
+        "quoi": "Ce soir, quand le patron sera monté et les autres partis, glisser à Marcel au lavabo qu'il connaît quelqu'un, et qu'Étienne sera au Gros Caillou jusqu'à la fermeture",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "que l'atelier se vide avant 19 h",
+          "dix minutes seul avec Marcel"
+        ],
+        "si_bloque": "Si le patron ou un autre traîne, il raccompagne Marcel jusqu'à la place de la Croix-Rousse et le lui dit en marchant ; si Marcel file sans l'attendre, il passe chez les Rivoire demain samedi à midi, sous prétexte d'un livre à rendre."
+      },
+      {
+        "id": "perret-garantir",
+        "quoi": "Faire savoir à Étienne, par l'ancien de l'atelier, qu'il répond de Marcel",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "l'ancien de l'atelier joignable samedi matin"
+        ],
+        "si_bloque": "S'il ne joint pas l'ancien, il ne garantit rien et laisse Étienne juger le gars sur pied."
+      },
+      {
+        "id": "perret-se-couvrir",
+        "quoi": "Ne jamais être vu au Gros Caillou avec Marcel, rien d'écrit, rien dit devant le patron ni devant les portes",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [],
+        "si_bloque": "Si on le soupçonne à l'atelier, il fait l'ironique sur le Maréchal pendant une semaine et ne bouge plus."
+      },
+      {
+        "id": "perret-autres",
+        "quoi": "Sonder, dans la quinzaine, les deux autres compagnons de la classe 1920-1922 que connaît l'atelier de la Grande-Côte",
+        "etat": "en-cours",
+        "jours_restants": 14,
+        "depend_de": [],
+        "cout": [
+          "du temps seul avec chacun"
+        ],
+        "si_bloque": "Si l'un d'eux parle trop, il le laisse partir en Allemagne sans lui avoir rien dit."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Marcel refuse ou dit qu'il partira dimanche",
+        "alors": "Il n'insiste pas, lui dit seulement où est le Gros Caillou si jamais, et ne lui en reparle plus avant samedi soir.",
+        "une_fois": true
+      },
+      {
+        "si": "Lucien Bouvard est vu dans la montée ou devant l'atelier",
+        "alors": "Il se tait, range la casse, et remet ce qu'il avait à dire à la marche du soir.",
+        "une_fois": false
+      },
+      {
+        "si": "Marcel se fait prendre ou ses parents sont interrogés",
+        "alors": "Il se tient prêt à partir lui-même : il ne retourne pas au Gros Caillou et prévient l'ancien de l'atelier.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "Un bon gars qu'on ne laissera pas partir comme un veau.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Invention déclarée. L'ancien de l'atelier qui fait le lien avec Marchal reste sans nom ; l'apprenti Dédé et les deux compagnons sont inventés."
+  },
+  {
+    "personnage_id": "gaston-chabert",
+    "croyances": [
+      "La loi du 16 février l'oblige à remettre la feuille de route et à déclarer au bureau de placement l'ouvrier qui ne se présente pas.",
+      "Les commandes de la préfecture font vivre l'atelier ; une histoire avec les autorités, et elles iront ailleurs.",
+      "Marcel est le meilleur compositeur qu'il ait formé ; le perdre coûte un homme qu'il ne retrouvera pas.",
+      "Perret pense rouge, mais c'est un ouvrier ; tant qu'il le pense dehors, ce n'est pas son affaire.",
+      "Les boches finiront par partir ; il s'agit d'être encore ouvert ce jour-là."
+    ],
+    "ignore": [
+      "Ce que Perret va dire à Marcel ce soir",
+      "Que Bouvard tient des fiches sur l'atelier"
+    ],
+    "intention": "Fermer l'atelier ce soir sans rien voir, finir les formulaires de la préfecture, et faire ce que la loi demande lundi, pas avant.",
+    "plan": [
+      {
+        "id": "chabert-formulaires",
+        "quoi": "Livrer à la préfecture la commande d'imprimés administratifs (4 000 formulaires) pour le mercredi 10 mars",
+        "etat": "en-cours",
+        "jours_restants": 5,
+        "depend_de": [],
+        "cout": [
+          "Marcel ou un autre compositeur à la casse",
+          "une rame et demie de papier"
+        ],
+        "si_bloque": "Sans Marcel, il compose lui-même le soir et livre avec deux jours de retard, en s'excusant au chef de bureau."
+      },
+      {
+        "id": "chabert-declarer",
+        "quoi": "Si Marcel ne reprend pas lundi, porter son absence au bureau de placement allemand, comme la loi l'exige",
+        "etat": "en-cours",
+        "jours_restants": 3,
+        "depend_de": [],
+        "cout": [
+          "l'absence constatée lundi 8 mars"
+        ],
+        "si_bloque": "S'il a une raison d'attendre (un certificat, une parole de la mère), il le porte malade une semaine, pas davantage, puis déclare."
+      },
+      {
+        "id": "chabert-remplacer",
+        "quoi": "Chercher un compositeur hors des classes appelées pour remplacer Marcel",
+        "etat": "en-cours",
+        "jours_restants": 12,
+        "depend_de": [],
+        "cout": [
+          "un ouvrier de plus de trente ans",
+          "600 francs de plus par mois"
+        ],
+        "si_bloque": "S'il ne trouve personne, il fait composer l'apprenti et refuse les petites commandes."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Marcel lui demande de ne pas le déclarer, ou de le couvrir",
+        "alors": "Il ne promet rien en face, mais le porte malade une semaine ; il ne mentira pas à un policier qui l'interroge directement.",
+        "une_fois": true
+      },
+      {
+        "si": "La police ou la Milice vient à l'atelier demander après Marcel",
+        "alors": "Il dit qu'il ne sait pas où il est, ce qui est vrai, et ne dit rien de Perret.",
+        "une_fois": true
+      },
+      {
+        "si": "Bouvard se présente à l'atelier en uniforme",
+        "alors": "Il le reçoit sur le pas de la porte, poliment, et le reconduit sans le faire entrer.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Un bon ouvrier qu'il regrette déjà, et un ennui qu'il ne veut pas.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Invention déclarée. La commande de la préfecture et ses chiffres sont inventés."
+  },
+  {
+    "personnage_id": "etienne-marchal",
+    "croyances": [
+      "Le groupe tient, et Claire est la meilleure cheffe qu'il ait connue : c'est elle qui l'a fait entrer, il lui doit d'être quelqu'un.",
+      "Chaque jeune qui refuse le STO est un homme gagné pour la libération ; les sortir est la meilleure chose qu'il fasse.",
+      "La Gestapo rafle au petit bonheur ; un homme qui garde son sang-froid aux contrôles passe.",
+      "Il tiendrait sous les coups : un sergent-chef qui a fait la Somme en 40 a vu pire.",
+      "Le Gros Caillou est sûr : le patron ne pose pas de questions et l'arrière-salle a deux portes.",
+      "Il peut avoir pour un réfractaire une carte d'identité et une carte d'alimentation en deux jours, par Claire."
+    ],
+    "ignore": [
+      "Ce que vaut un homme après quarante-huit heures avenue Berthelot",
+      "Que ses promesses faciles se répètent dans les cafés des pentes"
+    ],
+    "intention": "Voir le jeune Rivoire ce soir si Perret l'envoie, lui promettre des papiers avant samedi soir, et le loger chez la veuve de Saint-Georges.",
+    "plan": [
+      {
+        "id": "marchal-rivoire",
+        "quoi": "Sortir le jeune Rivoire avant dimanche : le voir au Gros Caillou, lui obtenir de Claire une carte d'identité à un autre nom et une carte d'alimentation, et l'installer samedi soir dans la chambre sur cour de la veuve Thivolet",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "les papiers par Claire",
+          "1 500 francs pour les papiers et le premier mois de chambre",
+          "la chambre libre chez la veuve"
+        ],
+        "si_bloque": "Si les papiers ne sont pas prêts samedi, il cache le gars une nuit chez lui et le fait monter dimanche à l'aube chez Merle, sans papiers, en lui faisant prendre les traboules."
+      },
+      {
+        "id": "marchal-grossir",
+        "quoi": "Faire entrer au groupe deux autres réfractaires des pentes avant la fin mars, et les présenter à Claire un par un",
+        "etat": "en-cours",
+        "jours_restants": 25,
+        "depend_de": [],
+        "cout": [
+          "deux garçons sûrs",
+          "l'accord de Claire pour chacun"
+        ],
+        "si_bloque": "Si Claire refuse un garçon, il le fait monter au Vercors par un camarade, pour qu'il ne soit pas perdu."
+      },
+      {
+        "id": "marchal-arrestation",
+        "quoi": "[Horloge du monde, qu'il ignore] Vers la mi-mai, pris par les hommes de Barbie à un rendez-vous de recrutement qu'un réfractaire arrêté a donné",
+        "etat": "en-cours",
+        "jours_restants": 68,
+        "depend_de": [],
+        "cout": [
+          "un rendez-vous fixe que l'on connaît au SD",
+          "un réfractaire des pentes pris à un contrôle et retourné"
+        ],
+        "si_bloque": "Si Marchal a changé d'habitudes (plus de rendez-vous fixes, plus de recrutement direct), l'arrestation glisse de sept jours, une fois ; s'il reste insaisissable, l'étape et toute la suite sont abandonnées."
+      },
+      {
+        "id": "marchal-detention",
+        "quoi": "Quarante-huit heures avenue Berthelot. Barbie lui offre la vie et la liberté contre des noms ; il cède, et on le relâche par une porte de derrière",
+        "etat": "en-cours",
+        "jours_restants": 2,
+        "depend_de": [
+          "marchal-arrestation"
+        ],
+        "cout": [
+          "ce que Barbie sait déjà de lui"
+        ],
+        "si_bloque": "Si à son retour le groupe a déjà tout déménagé (planques, boîtes, mots de passe), ses noms sont périmés : Barbie le garde, Montluc puis le convoi. Il est perdu pour le groupe, sans avoir rien donné."
+      },
+      {
+        "id": "marchal-livrer",
+        "quoi": "Revenir au groupe en racontant qu'il s'est évadé d'une voiture à la Guillotière ; donner d'abord les têtes (Claire, la cave de Merle, la boîte aux lettres), jamais les jeunes. Une livraison tous les huit à dix jours ; Barbie exige chaque fois davantage, et le jour vient où il demande un jeune",
+        "etat": "en-cours",
+        "jours_restants": 10,
+        "depend_de": [
+          "marchal-detention"
+        ],
+        "cout": [
+          "que Claire croie à l'évasion",
+          "un rendez-vous à donner tous les dix jours"
+        ],
+        "si_bloque": "Si on le met au vert ou qu'on le soupçonne, il le dit à Barbie, qui le fait arrêter pour de bon et tient la cave en souricière."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Marcel vient le trouver ce soir et accepte de ne pas partir",
+        "alors": "Il le prend sous son aile, lui promet les papiers pour samedi soir et le loge chez la veuve ; il en parle à Claire comme de son meilleur recrutement.",
+        "une_fois": true
+      },
+      {
+        "si": "Après son retour, quelqu'un l'interroge sur son évasion",
+        "alors": "Il raconte la même histoire, avec trop de détails, rit fort, et donne à Barbie le nom de celui qui a demandé.",
+        "une_fois": false
+      },
+      {
+        "si": "Barbie exige un des jeunes, et d'abord Marcel",
+        "alors": "La première fois, il donne une tête plus haute à la place ; la seconde fois, il cède, et fait prévenir le garçon la veille par un détour qu'il croit sans risque.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "Ne le connaît pas encore ; Perret en répond.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Invention déclarée. LE FAUX AMI À VENIR, sur le modèle de Multon. Aujourd'hui sincère : ses croyances sont celles d'un homme qui n'a pas encore été pris. L'arrestation (vers le 13 mai, avant l'arrivée de Multon le 24), la détention, le retournement et les livraisons sont des HORLOGES DU MONDE portées par sa tête, pas des intentions qu'il a. Le Gros Caillou, la voiture de la Guillotière et le réfractaire qui le donne sont inventés."
+  },
+  {
+    "personnage_id": "simone-dutreuil",
+    "croyances": [
+      "Étienne est sûr : c'est elle qui l'a recruté, et il n'a jamais manqué un rendez-vous.",
+      "La cave de Merle tient tant que le tirage se fait la nuit du vendredi et que personne n'y va en plein jour.",
+      "Le prochain numéro doit sortir dans la nuit du 12 au 13 mars ; il faut un compositeur, Merle n'a plus les yeux.",
+      "La caisse du groupe tient 40 000 francs parachutés de Londres ; elle en rend compte une fois par lune, de vive voix.",
+      "Le STO va jeter des centaines de garçons dans la rue ; le groupe ne peut en loger que trois ou quatre, les autres doivent monter au maquis."
+    ],
+    "ignore": [
+      "Ce que Barbie sait déjà du groupe",
+      "Qu'Étienne parle trop dans les cafés"
+    ],
+    "intention": "Fournir les papiers qu'Étienne demande pour un réfractaire, tenir le tirage du 12 mars, et trouver à Tristan sa prochaine chambre.",
+    "plan": [
+      {
+        "id": "dutreuil-papiers",
+        "quoi": "Remettre à Étienne, samedi avant 18 h, une carte d'identité et une carte d'alimentation pour un réfractaire, par le contact de la mairie du 4e",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "1 000 francs au contact",
+          "une photographie du garçon"
+        ],
+        "si_bloque": "Sans photographie, elle donne la carte d'alimentation seule et la carte d'identité mardi ; le garçon ne sort pas d'ici là."
+      },
+      {
+        "id": "dutreuil-tirage",
+        "quoi": "Faire tirer le numéro de quinzaine dans la nuit du 12 au 13 mars chez Merle : 1 500 exemplaires, distribution le samedi 13 par trois porteurs",
+        "etat": "en-cours",
+        "jours_restants": 7,
+        "depend_de": [],
+        "cout": [
+          "un compositeur pour les deux pages",
+          "trois rames de papier",
+          "trois porteurs"
+        ],
+        "si_bloque": "Sans compositeur, elle fait passer le numéro en ronéo sur une seule feuille, 800 exemplaires."
+      },
+      {
+        "id": "dutreuil-tristan",
+        "quoi": "Trouver à Tristan une chambre nouvelle tous les trois jours, jamais deux fois le même quartier",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "une chambre libre par semaine",
+          "300 francs par chambre"
+        ],
+        "si_bloque": "S'il n'y a pas de chambre, Tristan n'émet pas : on perd la vacation plutôt que le pianiste."
+      },
+      {
+        "id": "dutreuil-cloisonner",
+        "quoi": "Tenir le cloisonnement : aucun écrit, jamais plus de trois, chacun ne connaît que son voisin",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [],
+        "si_bloque": "Si une règle est rompue, elle coupe le contact avec celui qui l'a rompue pour quinze jours."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Un membre du groupe manque un rendez-vous et son repêchage",
+        "alors": "Elle le présume pris : sous quarante-huit heures, elle change la boîte, les mots de passe et deux planques, et prévient Merle de ne plus ouvrir la cave pendant huit jours.",
+        "une_fois": false
+      },
+      {
+        "si": "Marcel prend une initiative hors de ses consignes",
+        "alors": "Elle le met au vert quinze jours sans explication, puis le reprend s'il a tenu.",
+        "une_fois": true
+      },
+      {
+        "si": "Quelqu'un accuse Étienne sans fait vu ni date",
+        "alors": "Elle écoute, ne répond pas, et soupçonne d'abord l'accusateur ; seul un fait vérifiable la ferait douter.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "Ne le connaît pas ; elle le jugera sur ce qu'Étienne et Merle en diront.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Invention déclarée. Le contact de la mairie du 4e, le rythme de quinzaine, les chiffres du tirage et de la caisse sont inventés."
+  },
+  {
+    "personnage_id": "auguste-merle",
+    "croyances": [
+      "Il reste deux rames de papier et quatre stencils : de quoi un numéro, pas deux.",
+      "La presse à bras s'entend jusqu'à la cour si l'on tire après onze heures ; la ronéo, non.",
+      "Il n'a plus les yeux pour composer du corps 8 ; il lui faut un compositeur pour le prochain numéro.",
+      "Le voisin du dessus est sourd et la concierge est à Claire.",
+      "[Ajout de situation initiale fictif] Par un intermédiaire de papier que je connais, j’ai accepté de voir un jeune dessinateur de Niort au sujet d’une aide aux réfractaires : 6 mars à 10 heures place des Terreaux près de la fontaine, repêchage 11 heures. Journal sous le bras gauche ; à « Vous venez pour les dessins ? », signal convenu « Les calques ne sont pas prêts ». Je ne connais ni son vrai nom ni ses sources et je ne lui ai promis ni admission au groupe ni hébergement."
+    ],
+    "ignore": [
+      "Qui d'autre que Claire et Étienne sait où est la cave"
+    ],
+    "intention": "Préparer la cave pour le tirage du 12 mars et trouver du papier pour le numéro d'après.",
+    "plan": [
+      {
+        "id": "merle-tirage",
+        "quoi": "Tirer le numéro dans la nuit du 12 au 13 mars : 1 500 feuilles à la presse à bras, de 21 h à 4 h, tout brûlé ou rentré avant le jour",
+        "etat": "en-cours",
+        "jours_restants": 7,
+        "depend_de": [],
+        "cout": [
+          "deux rames de papier",
+          "un compositeur",
+          "trois kilos d'encre"
+        ],
+        "si_bloque": "Sans compositeur, il tire en ronéo 800 feuilles et jure toute la nuit."
+      },
+      {
+        "id": "merle-papier",
+        "quoi": "Acheter cinq rames de papier à un grossiste de la rue Grenette, par petits paquets, pour le numéro du 26 mars",
+        "etat": "en-cours",
+        "jours_restants": 12,
+        "depend_de": [],
+        "cout": [
+          "2 000 francs de Claire",
+          "trois voyages à pied"
+        ],
+        "si_bloque": "Si le grossiste refuse, il prend du papier d'emballage et réduit le format."
+      },
+      {
+        "id": "merle-liaison-niort",
+        "quoi": "Tenter le rendez-vous du 6 mars à 10 heures aux Terreaux avec le dessinateur de Niort ; jauger sa demande avant tout engagement et garder le groupe cloisonné",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "être disponible et ne pas être suivi",
+          "trajet depuis sa présence réelle",
+          "confiance à vérifier"
+        ],
+        "si_bloque": "Un repêchage à 11 heures si possible et sûr ; sinon rompre. Aucune rencontre ni réponse n’est acquise."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "On lui envoie un compositeur",
+        "alors": "Il le fait composer une colonne devant lui, sans un mot ; s'il compose propre, il le garde et lui apprend la cave.",
+        "une_fois": true
+      },
+      {
+        "si": "Quelqu'un vient à la cave en plein jour, ou un inconnu traîne dans la cour des Voraces",
+        "alors": "Il ferme, démonte le cylindre de la presse et le cache dans le charbon, et fait dire à Claire qu'il faut une autre cave.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Ne le connaît pas ; un typographe, si c'est vrai, l'intéresse.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Invention déclarée. Les stocks de papier, le grossiste de la rue Grenette et les horaires du tirage sont inventés."
+  },
+  {
+    "personnage_id": "yves-le-gall",
+    "croyances": [
+      "Les voitures gonio repèrent un poste en vingt minutes d'émission : jamais plus de quinze minutes au manipulateur.",
+      "Londres annonce un parachutage par message personnel ; il ne sait pas encore pour quand.",
+      "Claire est la seule personne de Lyon qu'il connaisse et à qui il doive quelque chose."
+    ],
+    "ignore": [
+      "Que le SD a un service d'écoute à Lyon et pas seulement des voitures"
+    ],
+    "intention": "Faire ses vacations vers Londres sans rester plus de trois jours dans la même chambre.",
+    "plan": [
+      {
+        "id": "legall-vacation",
+        "quoi": "Passer à Londres, dimanche 7 mars à 14 h, les messages que Claire lui a fait parvenir, en douze minutes",
+        "etat": "en-cours",
+        "jours_restants": 2,
+        "depend_de": [],
+        "cout": [
+          "le poste",
+          "une chambre avec une fenêtre haute",
+          "les messages de Claire"
+        ],
+        "si_bloque": "Sans chambre sûre, il saute la vacation et émet à la suivante, mardi."
+      },
+      {
+        "id": "legall-chambre",
+        "quoi": "Quitter la chambre de la rue Saint-Jean pour celle que Claire aura trouvée",
+        "etat": "en-cours",
+        "jours_restants": 3,
+        "depend_de": [],
+        "cout": [
+          "une chambre nouvelle"
+        ],
+        "si_bloque": "S'il n'y en a pas, il dort une nuit dans un train de banlieue et n'émet pas."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une voiture inconnue stationne dans la rue pendant une émission",
+        "alors": "Il coupe, démonte le poste dans sa valise et part par les toits ou la traboule ; il ne revient jamais dans la chambre.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Ne le connaît pas.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Invention déclarée. Les heures de vacation et la chambre de la rue Saint-Jean sont inventées."
+  },
+  {
+    "personnage_id": "jeanne-thivolet",
+    "croyances": [
+      "Une chambre louée 300 francs le mois paie le charbon ; elle ne demande pas pourquoi on la loue.",
+      "La demoiselle institutrice paie d'avance et ne fait pas de bruit.",
+      "La police paie les renseignements, et la Gestapo davantage ; elle ne l'a jamais fait."
+    ],
+    "ignore": [
+      "Ce que fait le groupe de la demoiselle"
+    ],
+    "intention": "Louer sa chambre sur cour et payer son charbon avant le 15.",
+    "plan": [
+      {
+        "id": "thivolet-charbon",
+        "quoi": "Payer au charbonnier les 400 francs du sac de mars avant le 15",
+        "etat": "en-cours",
+        "jours_restants": 10,
+        "depend_de": [],
+        "cout": [
+          "400 francs"
+        ],
+        "si_bloque": "Si le loyer de la chambre ne rentre pas, elle vend l'alliance de son mari au clou de la rue Saint-Jean."
+      },
+      {
+        "id": "thivolet-louer",
+        "quoi": "Tenir la chambre sur cour louée, sans poser de questions et sans en laisser poser",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "un locataire qui paie"
+        ],
+        "si_bloque": "Sans locataire, elle met un mot chez le boulanger pour la louer à un étudiant."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "La police ou la Gestapo lui demande qui elle loge",
+        "alors": "Si son locataire l'a payée d'avance et traitée avec égards, elle dit un neveu de Vienne et rien d'autre ; si on lui doit de l'argent ou si on lui a manqué, elle donne le nom des papiers et l'heure de ses retours.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "Ne le connaît pas.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Invention déclarée. Prix de la chambre et du charbon : ordres de grandeur inventés."
+  },
+  {
+    "personnage_id": "louise-rivoire",
+    "croyances": [
+      "Marcel doit partir dimanche ; elle prépare sa valise sans savoir si elle veut qu'il la prenne.",
+      "S'il part, il reviendra peut-être ; s'il se cache, on viendra chez eux, et Jean peut perdre sa place.",
+      "Il y a 3 200 francs dans la boîte à biscuits ; c'est tout ce que la maison a.",
+      "M. Mazet, du plateau, a connu Marcel en culottes courtes ; il ne leur ferait pas de mal.",
+      "Le petit Bouvard est devenu mauvais depuis qu'on l'a renvoyé de chez Chabert."
+    ],
+    "ignore": [
+      "Que Perret va parler à Marcel ce soir"
+    ],
+    "intention": "Préparer la valise pour dimanche, et le laisser décider sans le dire à Jean.",
+    "plan": [
+      {
+        "id": "louise-valise",
+        "quoi": "Préparer la valise de Marcel pour dimanche : deux chemises reprisées, le chandail, des tickets, un saucisson",
+        "etat": "en-cours",
+        "jours_restants": 2,
+        "depend_de": [],
+        "cout": [
+          "les tickets de la semaine"
+        ],
+        "si_bloque": "Si Marcel dit qu'il ne part pas, elle défait la valise et en fait un baluchon qu'on porte sans se faire remarquer."
+      },
+      {
+        "id": "louise-ouvrage",
+        "quoi": "Finir les deux robes de la cliente des Brotteaux pour mercredi : 180 francs",
+        "etat": "en-cours",
+        "jours_restants": 5,
+        "depend_de": [],
+        "cout": [
+          "le fil",
+          "les soirs"
+        ],
+        "si_bloque": "Si la police vient, elle livre en retard et ment à la cliente sur la raison."
+      },
+      {
+        "id": "louise-taire",
+        "quoi": "Ne rien dire devant les voisins de ce que Marcel décidera",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [],
+        "si_bloque": "Si on l'interroge, elle dit qu'il est parti et pleure, ce qui est vrai."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Marcel annonce qu'il ne part pas",
+        "alors": "Elle ne dit rien, coud 800 francs dans la doublure de sa veste, et attend que Jean rentre pour qu'il le lui dise lui-même.",
+        "une_fois": true
+      },
+      {
+        "si": "Des policiers ou des miliciens viennent demander après Marcel",
+        "alors": "Elle dit qu'il est parti dimanche par le train, et qu'elle n'a pas de lettre.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Son fils, qu'elle ne veut pas voir partir, et qu'elle a peur de voir rester.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Invention déclarée."
+  },
+  {
+    "personnage_id": "jean-rivoire",
+    "croyances": [
+      "Il voit partir les convois du STO depuis son poste aux Brotteaux : les garçons chantent, la police boucle les quais.",
+      "Les cheminots qui fermeront les yeux sur un garçon qui ne monte pas, il les connaît ; ceux qui ne les fermeront pas aussi.",
+      "La BBC dit qu'il ne faut pas partir ; lui ne le dira pas à son fils, c'est à lui de savoir."
+    ],
+    "ignore": [
+      "Que Marcel a déjà quelqu'un pour le cacher"
+    ],
+    "intention": "Être de service dimanche au départ du convoi, et ne pas savoir ce matin-là si son fils y sera.",
+    "plan": [
+      {
+        "id": "jean-dimanche",
+        "quoi": "Tenir son poste au départ du premier convoi, dimanche 7 mars aux Brotteaux",
+        "etat": "en-cours",
+        "jours_restants": 2,
+        "depend_de": [],
+        "cout": [
+          "son service"
+        ],
+        "si_bloque": "S'il ne supporte pas d'y être, il se fait remplacer par un collègue et reste à la maison, ce qu'on remarquera."
+      },
+      {
+        "id": "jean-poste",
+        "quoi": "Garder sa place à la gare, quoi qu'il arrive à la maison",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "que la police ne vienne pas le chercher à la gare"
+        ],
+        "si_bloque": "Si on l'interroge à la gare, il dit que son fils est majeur et qu'il ne sait rien."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Marcel décide de ne pas partir",
+        "alors": "Il ne dit qu'une phrase, lui serre la main, et le lendemain demande à un collègue du triage quels trains ne sont pas fouillés.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "Son fils, qu'il juge assez grand pour choisir et qu'il n'arrive pas à regarder ce soir.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Invention déclarée. Le collègue du triage est inventé."
+  },
+  {
+    "personnage_id": "raoul-mazet",
+    "croyances": [
+      "Les listes des défaillants du premier convoi arriveront à la Sûreté mardi 9 ; on enverra des inspecteurs chez les parents.",
+      "Les Allemands prennent la main sur tout ; la police française qui traîne se fera remplacer par eux.",
+      "Le fils Rivoire est un brave gamin ; ses parents sont des gens tranquilles.",
+      "Bouvard fait du zèle pour se faire un nom ; il est dangereux parce qu'il connaît le quartier.",
+      "Celui qui aura prévenu une fois, on ne le lui pardonnera ni d'un côté ni de l'autre s'il se fait voir."
+    ],
+    "ignore": [
+      "Ce que le SD sait de la Sûreté et de ses fuites"
+    ],
+    "intention": "Faire son métier sans zèle, et voir venir les listes.",
+    "plan": [
+      {
+        "id": "mazet-listes",
+        "quoi": "Recevoir et répartir entre les inspecteurs la liste des défaillants du convoi du 7 mars",
+        "etat": "en-cours",
+        "jours_restants": 4,
+        "depend_de": [],
+        "cout": [
+          "la liste de la préfecture"
+        ],
+        "si_bloque": "Si la liste ne vient pas, il ne fait rien de plus."
+      },
+      {
+        "id": "mazet-visites",
+        "quoi": "Faire les visites aux familles des défaillants de son secteur, à raison de cinq par jour",
+        "etat": "en-cours",
+        "jours_restants": 6,
+        "depend_de": [
+          "mazet-listes"
+        ],
+        "cout": [
+          "la liste",
+          "un collègue"
+        ],
+        "si_bloque": "Si le nom d'un voisin du plateau y est, il prend la visite pour lui et la fait poliment et tard."
+      },
+      {
+        "id": "mazet-couvrir",
+        "quoi": "Ne rien signer qu'il puisse regretter, de quelque côté que tombe la guerre",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [],
+        "si_bloque": "Si un chef exige du zèle, il fait du zèle sur le papier."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Le nom de Marcel Rivoire arrive sur la liste des défaillants",
+        "alors": "Il passe chez les Rivoire le soir même, en voisin, et dit à Louise qu'on viendra jeudi ; il prévient une fois, pas deux.",
+        "une_fois": true
+      },
+      {
+        "si": "Bouvard lui signale l'atelier Chabert ou Perret",
+        "alors": "Il prend la plainte, la classe, et laisse traîner huit jours ; si la Milice relance, il fait une visite pour la forme.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "Le gamin du plateau, qu'il préférerait ne pas avoir à chercher.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Invention déclarée. Le calendrier des listes de défaillants est inventé."
+  },
+  {
+    "personnage_id": "lucien-bouvard",
+    "croyances": [
+      "Perret est un rouge, et Chabert l'a gardé quand il l'a renvoyé, lui.",
+      "Les gars de la classe 21 qui ne partent pas sont des planques ; il ira bien, lui, servir la France ici.",
+      "La Milice va lui donner un rôle ; il faut qu'on voie qu'il connaît le quartier mieux que la police.",
+      "Marcel Rivoire se croit au-dessus de lui depuis l'apprentissage."
+    ],
+    "ignore": [
+      "Que Mazet laisse traîner ce qu'on lui signale"
+    ],
+    "intention": "Être aux Brotteaux dimanche pour voir qui manque au convoi, et monter une fiche sur l'atelier Chabert.",
+    "plan": [
+      {
+        "id": "bouvard-convoi",
+        "quoi": "Être dimanche 7 mars aux Brotteaux avec le service d'ordre, et noter les visages de la Croix-Rousse qui manquent",
+        "etat": "en-cours",
+        "jours_restants": 2,
+        "depend_de": [],
+        "cout": [
+          "l'ordre de son chef de dizaine"
+        ],
+        "si_bloque": "Sans ordre, il y va en civil et regarde depuis le pont."
+      },
+      {
+        "id": "bouvard-fiche",
+        "quoi": "Remettre à son chef une fiche sur l'imprimerie Chabert : Perret, ses idées, et les jeunes qui manquent",
+        "etat": "en-cours",
+        "jours_restants": 7,
+        "depend_de": [],
+        "cout": [
+          "ce qu'il a vu dimanche"
+        ],
+        "si_bloque": "Si son chef n'en veut pas, il porte la fiche à Mazet, à la Sûreté."
+      },
+      {
+        "id": "bouvard-respect",
+        "quoi": "Se faire saluer sur la place de la Croix-Rousse",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "l'uniforme",
+          "deux camarades avec lui"
+        ],
+        "si_bloque": "Si on rit de lui, il retient le nom."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Marcel n'est pas au convoi de dimanche",
+        "alors": "Il le signale à son chef de dizaine et à Mazet le lundi, et passe deux fois devant chez les Rivoire dans la semaine.",
+        "une_fois": true
+      },
+      {
+        "si": "Marcel le croise et lui parle comme avant",
+        "alors": "Il hésite, tutoie, fait le fier ; s'il est humilié devant d'autres, il en fait une affaire.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Un ancien camarade d'apprentissage qui l'a toujours regardé de haut, et qu'il aimerait voir plier.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Invention déclarée. La tenue et l'organisation exactes de la Milice lyonnaise en mars 1943 sont à vérifier ; le chef de dizaine est inventé."
+  },
+  {
+    "personnage_id": "klaus-barbie",
+    "croyances": [
+      "Un délégué de De Gaulle unifie les mouvements de zone sud depuis Lyon ; on ne remonte pas à lui par des rafles, mais d'un homme retourné à l'autre.",
+      "Les réfractaires du STO vont grossir les groupes ; chaque garçon pris à un contrôle peut donner celui qui l'a fait entrer.",
+      "La police française prévient, traîne et perd ses dossiers ; il ne compte que sur ses propres indicateurs.",
+      "L'Abwehr de Dijon a des agents qui passent pour résistants ; c'est un concurrent, et un outil.",
+      "La section IV sera mieux à l'école de santé militaire de l'avenue Berthelot qu'au Terminus."
+    ],
+    "ignore": [
+      "Que le délégué de Londres est absent de France jusqu'à la fin mars",
+      "Qu'un membre de Combat à Marseille sera retourné fin avril"
+    ],
+    "intention": "Monter un réseau d'hommes retournés, un par semaine, et attendre celui qui le mènera aux chefs.",
+    "plan": [
+      {
+        "id": "barbie-berthelot",
+        "quoi": "Installer la section IV avenue Berthelot (mars 1943, jour inconnu) ; garder le Terminus pour quelques bureaux",
+        "etat": "en-cours",
+        "jours_restants": 20,
+        "depend_de": [],
+        "cout": [
+          "l'école de santé militaire évacuée"
+        ],
+        "si_bloque": "Si les travaux traînent, il garde le Terminus et y interroge jusqu'en juin (date donnée par une autre source)."
+      },
+      {
+        "id": "barbie-retourner",
+        "quoi": "Retourner un homme pris par semaine, le relâcher après quarante-huit heures, et le faire suivre jusqu'au suivant",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "des arrestations ciblées",
+          "des filatures"
+        ],
+        "si_bloque": "Si personne ne cède, il fait déporter et recommence avec le suivant."
+      },
+      {
+        "id": "barbie-multon",
+        "quoi": "Faire venir de Marseille l'agent retourné par le SD de Dunker (Multon, avec Moog de l'Abwehr) et lancer la série d'arrestations dans Combat (canon : à Lyon le 24 mai)",
+        "etat": "en-cours",
+        "jours_restants": 79,
+        "depend_de": [],
+        "cout": [
+          "Multon retourné à Marseille",
+          "l'accord de Marseille"
+        ],
+        "si_bloque": "Si Multon n'a pas été retourné, il travaille avec ses propres indicateurs : la série d'arrestations n'a pas lieu en mai et la piste de Didot n'existe pas."
+      },
+      {
+        "id": "barbie-didot",
+        "quoi": "Aller chercher Didot à Chalon-sur-Saône, ou Moog l'a fait descendre du train de nuit du 7 au 8 juin, et le relâcher le soir même (canon : 10 juin ; conditions inconnues)",
+        "etat": "en-cours",
+        "jours_restants": 16,
+        "depend_de": [
+          "barbie-multon"
+        ],
+        "cout": [
+          "Didot pris dans le train",
+          "un homme à faire suivre"
+        ],
+        "si_bloque": "Si Didot n'a pas été pris, rien ne mène à Caluire par lui ; il ne lui reste que ses filatures."
+      },
+      {
+        "id": "barbie-caluire",
+        "quoi": "Entrer avec quinze à vingt hommes dans la réunion des chefs de l'Armée secrète chez le docteur Dugoujon, place Castellane à Caluire, le 21 juin après-midi",
+        "etat": "en-cours",
+        "jours_restants": 11,
+        "depend_de": [
+          "barbie-didot"
+        ],
+        "cout": [
+          "le lieu et l'heure de la réunion, par une filature ou un indicateur",
+          "quinze à vingt hommes et des voitures"
+        ],
+        "si_bloque": "Sans le lieu et l'heure, il n'y a pas de descente : il continue les filatures et frappe plus tard, ailleurs."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Un rendez-vous ou une boîte qu'il tient en souricière est abandonné ou déplacé",
+        "alors": "Il cherche quel indicateur est grillé, cesse de l'employer, et reporte son coup sur la piste suivante ; l'étape en cours dévie (autre jour, autre lieu) au lieu de se produire.",
+        "une_fois": false
+      },
+      {
+        "si": "Un réfractaire ou un agent de liaison des pentes est pris à un contrôle",
+        "alors": "Il le fait amener, le garde quarante-huit heures et cherche à le retourner ; c'est par là que remonte la piste du recruteur des pentes.",
+        "une_fois": false
+      },
+      {
+        "si": "La réunion des chefs change de lieu ou d'heure",
+        "alors": "Il suit l'homme qu'il fait suivre jusqu'au nouveau lieu ; s'il n'en fait suivre aucun, la descente n'a pas lieu.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "Ne sait pas qu'il existe.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Personne réelle. Les dates du plan sont celles du canon (docs/recherche-lyon-1943/) ; le jour de l'installation avenue Berthelot est inconnu (mars selon le CHRD, juin selon une autre source). Les croyances, les ignorances, le réfractaire qui donne la piste des pentes et les déclencheurs sont des inventions de jeu. Le moyen par lequel Barbie a su Caluire n'est pas tranché par l'Histoire : la tête ne dit que 'filature ou indicateur'."
+  },
+  {
+    "personnage_id": "jean-multon",
+    "croyances": [
+      "Combat tient Marseille par ses boîtes aux lettres ; il en connaît une bonne part, et les codes.",
+      "Personne ne survit longtemps entre les mains du SD ; il ne compte pas y tomber."
+    ],
+    "ignore": [
+      "Que le SD de Marseille remonte déjà vers lui"
+    ],
+    "intention": "Continuer son travail à Combat à Marseille.",
+    "plan": [
+      {
+        "id": "multon-pris",
+        "quoi": "[Horloge du monde] Arrêté le 27 avril à la taverne Charley, 20 boulevard Garibaldi, avec Benjamin Crémieux ; il parle sans contrainte et entre au service du SD de Dunker (agent 165 le 30 avril)",
+        "etat": "en-cours",
+        "jours_restants": 52,
+        "depend_de": [],
+        "cout": [
+          "une boîte de Combat tenue par le SD de Marseille"
+        ],
+        "si_bloque": "Si les boîtes de Combat à Marseille ont été changées avant, il n'est pas pris ce jour-là : l'étape glisse de dix jours, une fois, puis est abandonnée."
+      },
+      {
+        "id": "multon-lyon",
+        "quoi": "Venir à Lyon avec Moog, se mettre au service de Barbie, et reconnaître dans les rues, les gares et les trains les gens de Combat qu'il connaît de vue",
+        "etat": "en-cours",
+        "jours_restants": 27,
+        "depend_de": [
+          "multon-pris"
+        ],
+        "cout": [
+          "être retourné",
+          "Moog"
+        ],
+        "si_bloque": "S'il n'a pas été pris, il reste à Marseille dans Combat et ne vient pas."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une de ses boîtes ou un de ses rendez-vous lyonnais se révèle vide ou déplacé après son arrivée",
+        "alors": "Il en conclut qu'il est brûlé auprès de Combat et le dit à Barbie, qui le change de ville ou le met en filature plutôt qu'en première ligne.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "Ne sait pas qu'il existe.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Personne réelle. Hors quartier (Marseille). Dates : arrestation le 27 avril (23 ou 28 selon d'autres sources), arrivée à Lyon le 24 mai (probable) — docs/recherche-lyon-1943/. Croyances et déclencheur inventés."
+  },
+  {
+    "personnage_id": "robert-moog",
+    "croyances": [
+      "Les mouvements de zone sud recrutent sans vérifier ; un Alsacien qui parle de la France libre y entre.",
+      "Le SD de Lyon a besoin de l'Abwehr pour les grands coups, même s'il ne l'avoue pas."
+    ],
+    "ignore": [
+      "Les rendez-vous parisiens des chefs de l'Armée secrète"
+    ],
+    "intention": "Infiltrer les filières de zone sud depuis Dijon.",
+    "plan": [
+      {
+        "id": "moog-lyon",
+        "quoi": "Rejoindre à Lyon Multon et le SD de Barbie (canon : 24 mai)",
+        "etat": "en-cours",
+        "jours_restants": 79,
+        "depend_de": [],
+        "cout": [
+          "un ordre de Dijon"
+        ],
+        "si_bloque": "Si Multon n'est pas à Lyon, il reste sur ses filières de Bourgogne."
+      },
+      {
+        "id": "moog-muette",
+        "quoi": "Prendre avec Multon le train de nuit Perrache-Paris du 7 juin pour le rendez-vous de Didot et Vidal au métro La Muette, le 9 à 9 h ; faire arrêter Didot à Chalon si Multon le reconnaît",
+        "etat": "en-cours",
+        "jours_restants": 13,
+        "depend_de": [
+          "moog-lyon"
+        ],
+        "cout": [
+          "le message en clair du 27 mai intercepté à la boîte de Didot",
+          "Multon"
+        ],
+        "si_bloque": "Si le message n'a pas été intercepté, il n'y a ni train ni La Muette : il reste à Lyon avec Multon."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Le rendez-vous de La Muette est changé ou annulé avant le 7 juin",
+        "alors": "Il ne prend pas le train ; Didot n'est pas arrêté à Chalon, et Vidal n'est pas pris le 9.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "Ne sait pas qu'il existe.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Personne réelle. Hors quartier (Dijon). Année de naissance et détails de carrière à vérifier. Dates du canon : docs/recherche-lyon-1943/2-mai-juillet.md."
+  },
+  {
+    "personnage_id": "jean-moulin",
+    "croyances": [
+      "Les MUR sont faits ; il faut maintenant un Conseil de la Résistance qui reconnaisse De Gaulle, mouvements, partis et syndicats ensemble.",
+      "L'Armée secrète doit être une sous le général Delestraint, et séparée des mouvements.",
+      "Combat et Frenay lui résistent sur l'Armée secrète et sur l'argent."
+    ],
+    "ignore": [
+      "Que le SD de Lyon cherche le délégué de Londres d'un homme retourné à l'autre"
+    ],
+    "intention": "Rentrer de Londres vers le 20 mars, puis réunir le Conseil de la Résistance et tenir l'Armée secrète.",
+    "plan": [
+      {
+        "id": "moulin-retour",
+        "quoi": "Rentrer en France avec Delestraint et Christian Pineau, posé de nuit près de Melay (Saône-et-Loire), vers le 20 mars",
+        "etat": "en-cours",
+        "jours_restants": 15,
+        "depend_de": [],
+        "cout": [
+          "la lune",
+          "le terrain balisé",
+          "un Lysander"
+        ],
+        "si_bloque": "Si la lune ou le terrain manque, il attend la lune suivante à Londres."
+      },
+      {
+        "id": "moulin-cnr",
+        "quoi": "Réunir à Paris, 48 rue du Four, la première séance du Conseil de la Résistance (canon : 27 mai) et réorganiser l'Armée secrète",
+        "etat": "en-cours",
+        "jours_restants": 67,
+        "depend_de": [
+          "moulin-retour"
+        ],
+        "cout": [
+          "seize représentants",
+          "un lieu sûr à Paris"
+        ],
+        "si_bloque": "Si un mouvement se dérobe, il tient la séance sans lui et le fait savoir à Londres."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Le général Delestraint est arrêté",
+        "alors": "Il réunit à Lyon, dans un lieu trouvé par un homme sûr, les responsables de l'Armée secrète pour lui désigner un successeur (canon : 21 juin, chez le docteur Dugoujon à Caluire).",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "Ne sait pas qu'il existe.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Personne réelle. Hors quartier (Londres jusqu'au 20 mars environ). Dates : docs/recherche-lyon-1943/. Croyances résumées de l'établi ; formulation inventée."
+  },
+  {
+    "personnage_id": "raymond-aubrac",
+    "croyances": [
+      "La branche paramilitaire de Libération-Sud doit être prête à se fondre dans l'Armée secrète.",
+      "Ses papiers au nom de Vallet tiennent devant la police française.",
+      "Lucie trouvera toujours une porte si l'une se ferme."
+    ],
+    "ignore": [
+      "Que la police française surveille la réunion du 15 mars"
+    ],
+    "intention": "Tenir ses rendez-vous de mars pour les groupes paramilitaires.",
+    "plan": [
+      {
+        "id": "raymond-15-mars",
+        "quoi": "Se rendre à la réunion du lundi 15 mars, 7 rue de l'Hôtel-de-Ville, sous le nom de François Vallet [horloge du monde : la police française y arrête tout le monde, Ravanel et Kriegel compris]",
+        "etat": "en-cours",
+        "jours_restants": 10,
+        "depend_de": [],
+        "cout": [
+          "l'adresse de la réunion"
+        ],
+        "si_bloque": "Si la réunion est déplacée ou annulée, il n'est pas pris ce jour-là ; l'arrestation n'a pas lieu."
+      },
+      {
+        "id": "raymond-ermelin",
+        "quoi": "Reprendre son travail sous un autre nom (Ermelin) après sa sortie, et accompagner Max quand il le demande",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [
+          "lucie-liberer"
+        ],
+        "cout": [
+          "sa liberté"
+        ],
+        "si_bloque": "Encore détenu, il ne fait rien de plus que tenir."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Max lui demande de l'accompagner à une réunion des chefs de l'Armée secrète",
+        "alors": "Il y va (canon : 21 juin, Caluire, en retard avec Max et Schwarzfeld).",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "Ne sait pas qu'il existe.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Personne réelle. Hors quartier (domicile hors plan). Dates du canon : arrestation le 15 mars par la police française, liberté provisoire le 10 mai (14 selon Lyon Capitale), Caluire le 21 juin. Formulation inventée."
+  },
+  {
+    "personnage_id": "lucie-aubrac",
+    "croyances": [
+      "On peut tout obtenir d'un homme qui a peur, même d'un magistrat.",
+      "Raymond prend trop de risques avec ses rendez-vous.",
+      "Le mouvement doit agir, pas seulement écrire."
+    ],
+    "ignore": [
+      "Que Raymond sera pris le 15 mars"
+    ],
+    "intention": "Faire sa classe, protéger les siens, faire agir le mouvement.",
+    "plan": [
+      {
+        "id": "lucie-proteger",
+        "quoi": "Protéger les siens et faire agir le mouvement",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [],
+        "si_bloque": "Si l'un des siens est pris, tout cède le pas à sa libération."
+      },
+      {
+        "id": "lucie-liberer",
+        "quoi": "Obtenir la liberté provisoire de Raymond (canon : 10 mai ; par la menace au procureur selon elle, par une demande pour raison médicale selon une autre source) ; une tentative de force au palais de justice le 23 mars échoue",
+        "etat": "en-cours",
+        "jours_restants": 55,
+        "depend_de": [
+          "raymond-15-mars"
+        ],
+        "cout": [
+          "Raymond détenu par la police française",
+          "un magistrat à convaincre ou à effrayer"
+        ],
+        "si_bloque": "Si la liberté provisoire est refusée, elle prépare un enlèvement en force avec un groupe franc."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Raymond est repris par la Gestapo",
+        "alors": "Elle prépare son évasion avec un groupe franc (canon : l'attaque du camion de l'avenue Berthelot à Montluc, le 21 octobre).",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "Ne sait pas qu'il existe.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Personne réelle. Hors quartier. Dates du canon : docs/recherche-lyon-1943/. L'horloge de lucie-liberer (55 jours après le 15 mars) tombe au 10 mai du moteur."
+  },
+  {
+    "personnage_id": "rene-hardy",
+    "croyances": [
+      "Le jour du débarquement, les chemins de fer doivent s'arrêter ; il tient les cheminots qui le feront.",
+      "Les gens de la délégation de Londres veulent tout tenir ; Combat doit garder sa main.",
+      "Il est assez fin pour se tirer de n'importe quel contrôle."
+    ],
+    "ignore": [
+      "Que sa boîte aux lettres sera prise et tenue en souricière fin mai"
+    ],
+    "intention": "Préparer le sabotage ferroviaire de Combat et tenir ses rendez-vous.",
+    "plan": [
+      {
+        "id": "hardy-fer",
+        "quoi": "Tenir et étendre le réseau des cheminots saboteurs de Combat",
+        "etat": "en-cours",
+        "jours_restants": null,
+        "depend_de": [],
+        "cout": [
+          "des cheminots sûrs",
+          "des explosifs"
+        ],
+        "si_bloque": "Si un groupe tombe, il en coupe le contact et recommence ailleurs."
+      },
+      {
+        "id": "hardy-muette",
+        "quoi": "Prendre le train de nuit Lyon-Paris le 7 juin pour un rendez-vous avec Vidal au métro La Muette, le 9 à 9 h [horloge du monde : reconnu par Multon, arrêté à Chalon dans la nuit du 7 au 8, relâché le 10]",
+        "etat": "en-cours",
+        "jours_restants": 92,
+        "depend_de": [],
+        "cout": [
+          "le rendez-vous fixé par Aubry"
+        ],
+        "si_bloque": "Si le rendez-vous est déplacé, il ne prend pas ce train et n'est pas arrêté."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Il est arrêté à Chalon puis relâché par Barbie le 10 juin",
+        "alors": "[HYPOTHÈSE DE JEU, non historique] Il croit s'être joué de Barbie en lui lâchant des riens ; il se tait sur son arrestation (fait établi) et vient le 21 juin à Caluire avec Aubry sans y être convoqué (fait établi). Il ne sait pas s'il est suivi.",
+        "une_fois": true
+      }
+    ],
+    "attitude_joueur": "Ne sait pas qu'il existe.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5
+    },
+    "_": "Personne réelle. L'HISTOIRE NE TRANCHE PAS sa responsabilité à Caluire : acquitté en 1947, puis à la minorité de faveur en 1950. La 'vérité privée' de son déclencheur est une HYPOTHÈSE DE JEU que le MJ tient pour faire tourner le monde, jamais un fait : ni récit, ni annale, ni réplique ne la présentent comme établie. Une autre partie peut en retenir une autre. Faits établis repris : arrestation dans la nuit du 7 au 8 juin, relâché le 10 sans prévenir ses camarades, présent à Caluire, évadé."
+  },
+  {
+    "personnage_id": "michel-vinet",
+    "croyances": [
+      "Je travaille comme dessinateur débutant aux Ponts et Chaussées de Niort. Gis travaille à la préfecture ; elle a accès à des listes de départ pour l’Allemagne. Je protège cette source. À Niort, j’ai commencé à prévenir des garçons menacés ; un avertissement ne suffit pas si le garçon ne sait pas où aller.",
+      "[Fiction de cette partie] Un contact des Ponts et Chaussées m’a envoyé demander un relais pour des réfractaires, pas transporter des hommes ni livrer des listes.",
+      "[Fiction de cette partie] Mon rendez-vous est demain 6 mars à 10 heures place des Terreaux, près de la fontaine. Je dois chercher un homme avec un journal plié sous le bras gauche, demander « Vous venez pour les dessins ? » et attendre « Les calques ne sont pas prêts ». Ce signal ne prouve pas à lui seul que l’homme est sûr. [Fiction de cette partie] Repêchage au même endroit à 11 heures ; ensuite je coupe et cherche à rentrer. Aucun nom de chef lyonnais ne m’a été donné."
+    ],
+    "ignore": [
+      "Le nom, le visage et les affiliations de mon contact lyonnais ; je ne connais ni Marcel ni le groupe des pentes.",
+      "Les rues, planques et habitudes de Lyon ; je dois m’orienter sans étaler ma mission.",
+      "Tout événement postérieur à la date jouée et toute action des mémoires qui n’est pas explicitement établie dans mon passé de jeu."
+    ],
+    "intention": "Trouver où passer la nuit sans exposer ma mission, puis tenter le rendez-vous de demain ; obtenir une possibilité de relais, sans garantir l’accueil ni le retour.",
+    "plan": [
+      {
+        "id": "michel-nuit-lyon",
+        "quoi": "Chercher une chambre ordinaire près de Perrache avant le couvre-feu, sans donner de noms ni de listes",
+        "etat": "en-cours",
+        "jours_restants": 0,
+        "depend_de": [],
+        "cout": [
+          "prix et disponibilité d’une chambre à établir en scène",
+          "contrôles et temps de marche"
+        ],
+        "si_bloque": "Chercher une autre solution de logement sans s’attribuer une planque résistante ni une connaissance locale."
+      },
+      {
+        "id": "michel-contact-terreaux",
+        "quoi": "Le 6 mars à 10 heures, tenter le rendez-vous des Terreaux ; vérifier avant de demander si un relais pour des réfractaires est possible",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "trajet à découvrir",
+          "contact à incarner et à dépêcher avant toute réponse",
+          "confiance à construire"
+        ],
+        "si_bloque": "Un seul repêchage à 11 heures ; après, rompre le contact. Ne jamais inventer une réponse, une filière ouverte ou un hébergement."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Un inconnu réclame ses sources ou une occasion d’aide réelle se présente",
+        "alors": "Ne livrer aucun nom de Niort. Peser ce qu’il peut faire sans exposer les autres, et décider lui-même sans héroïsme imposé.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Ne connaît pas Marcel Rivoire ; aucune confiance ni méfiance personnelle préalable.",
+    "date_maj": {
+      "annee": 1943,
+      "lune": 3,
+      "jour": 5,
+      "minute": 1112
+    }
+  }
+]

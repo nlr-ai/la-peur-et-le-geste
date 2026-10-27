@@ -50,8 +50,11 @@ for _p in (_d, os.path.join(_d, "noyau")):
     if _p not in sys.path:
         sys.path.insert(0, _p)
 
-RACINE = os.path.dirname(_d)
-ETAT = os.path.join(RACINE, "etat")
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+CHAMBRES = racines.chambres()
 EMPREINTES = os.path.join(ETAT, "histoire", "empreintes.json")
 SECOURS = os.path.join(ETAT, "histoire", "empreintes-sans-perte.json")
 
@@ -150,7 +153,7 @@ def maison_sur_disque(maison):
     if maison == "etat":
         return os.path.join(ETAT, "books")
     if maison.startswith("chambre:"):
-        return os.path.join(RACINE, "chambres", maison.split(":", 1)[1],
+        return os.path.join(CHAMBRES, maison.split(":", 1)[1],
                             "books")
     return None
 

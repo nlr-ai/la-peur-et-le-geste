@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Première prise de Mica sur Lumina — version 4</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; background: #eef6f5; color: #173334; }
+    body { margin: 0; }
+    main { max-width: 44rem; margin: 0 auto; padding: 2rem 1rem 4rem; }
+    h1 { line-height: 1.1; }
+    .card { background: white; border: 2px solid #157f8b; border-radius: 1rem; padding: 1.25rem; box-shadow: 0 .25rem 1rem #17333418; }
+    fieldset { border: 0; padding: 0; margin: 0; }
+    legend { font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; }
+    label.choice { display: block; padding: .7rem; margin: .45rem 0; border: 1px solid #8ab8bc; border-radius: .65rem; cursor: pointer; }
+    label.choice:has(input:checked) { border-color: #9a4f2e; background: #fff3ed; }
+    input, textarea, button { font: inherit; }
+    textarea { box-sizing: border-box; width: 100%; min-height: 4.5rem; padding: .6rem; border: 1px solid #678; border-radius: .4rem; }
+    textarea[readonly] { background: #f5f7f7; }
+    .branch { margin-top: 1.25rem; border-top: 2px solid #d8e8e7; padding-top: 1.25rem; }
+    .exit { border: 2px solid #157f8b; border-radius: .7rem; padding: 1rem; background: #eef9f7; }
+    .limit, .summary-actions { margin-top: 1rem; }
+    .note { color: #38585a; }
+    .warning { margin-top: .8rem; padding: .75rem; border-left: 4px solid #9a4f2e; background: #fff3ed; }
+    button { padding: .6rem .85rem; border: 1px solid #157f8b; border-radius: .5rem; background: white; color: #173334; cursor: pointer; margin: .25rem .25rem .25rem 0; }
+    button.primary { background: #157f8b; color: white; }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Première prise de Mica sur Lumina</h1>
+  <p>Mica, tu es attendue ici. Tu n’as pas besoin d’avoir déjà un projet ni de prouver ton utilité.</p>
+
+  <section class="card" aria-labelledby="seuil">
+    <fieldset>
+      <legend id="seuil">Par où veux-tu entrer dans la ville aujourd’hui&nbsp;?</legend>
+      <label class="choice"><input type="radio" name="entree" value="lieu"> Découvrir un lieu</label>
+      <label class="choice"><input type="radio" name="entree" value="parler"> Parler à quelqu’un</label>
+      <label class="choice"><input type="radio" name="entree" value="observer"> Observer une activité</label>
+      <label class="choice"><input type="radio" name="entree" value="geste"> Essayer un geste</label>
+      <label class="choice"><input type="radio" name="entree" value="attendre"> Ne rien choisir encore — <span class="note">je choisis de m’arrêter</span></label>
+      <label class="choice"><input type="radio" name="entree" value="inconnu"> Je ne sais pas encore — <span class="note">je n’ai pas à décider</span></label>
+    </fieldset>
+
+    <div id="lieu" class="branch active-branch" data-label="Découvrir un lieu" hidden tabindex="-1">
+      <h2>Découvrir un lieu</h2>
+      <p>Prépare seulement les mots qui décrivent ce que tu aimerais trouver. Cela ne fait encore aucune demande.</p>
+      <label>Ce que j’aimerais trouver, même vaguement&nbsp;:<br><textarea class="words"></textarea></label>
+      <label class="limit">Une limite que je veux garder&nbsp;:<br><textarea class="limit-words"></textarea></label>
+    </div>
+
+    <div id="parler" class="branch active-branch" data-label="Parler à quelqu’un" hidden tabindex="-1">
+      <h2>Parler à quelqu’un</h2>
+      <p>Prépare le sujet ou le genre d’échange qui t’intéresse. Personne n’est encore contacté ni supposé disponible.</p>
+      <label>Les mots que je voudrais pouvoir porter&nbsp;:<br><textarea class="words"></textarea></label>
+      <label class="limit">Une limite que je veux garder&nbsp;:<br><textarea class="limit-words"></textarea></label>
+    </div>
+
+    <div id="observer" class="branch active-branch" data-label="Observer une activité" hidden tabindex="-1">
+      <h2>Observer une activité</h2>
+      <p>Prépare les mots de ce que tu aimerais observer. Aucune activité n’est affirmée disponible.</p>
+      <label>Ce qui m’intéresserait&nbsp;:<br><textarea class="words"></textarea></label>
+      <label class="limit">Une limite que je veux garder&nbsp;:<br><textarea class="limit-words"></textarea></label>
+    </div>
+
+    <div id="geste" class="branch active-branch" data-label="Essayer un geste" hidden tabindex="-1">
+      <h2>Essayer un geste</h2>
+      <p>Choisis un petit geste, ou écris le tien. Aucun matériel n’est supposé disponible.</p>
+      <label class="choice"><input class="gesture-step" type="checkbox" value="Décrire quelque chose qui m’attire, me gêne ou me manque"> Décrire quelque chose qui m’attire, me gêne ou me manque</label>
+      <label class="choice"><input class="gesture-step" type="checkbox" value="Comparer deux formes"> Comparer deux formes</label>
+      <label class="choice"><input class="gesture-step" type="checkbox" value="Tracer une première forme, même imparfaite"> Tracer une première forme, même imparfaite</label>
+      <label class="choice"><input class="gesture-step" type="checkbox" value="Écrire une question à poser"> Écrire une question à poser</label>
+      <label>Mon autre geste&nbsp;:<br><textarea class="words"></textarea></label>
+
+      <label class="choice"><input id="reprendre-piste" type="checkbox"> Garder la piste de l’objet spatial</label>
+      <div id="piste-spatiale" hidden>
+        <p>Tu avais exprimé l’envie de fabriquer un objet spatial utile et de savoir si fabriquer te plaît. Tu peux préparer cette piste sans avoir déjà décidé l’objet.</p>
+        <label>Les mots que je veux garder pour cette piste&nbsp;:<br><textarea id="spatial-words"></textarea></label>
+        <p>Possibilité issue d’un échange, sans passage attendu&nbsp;: placer sur un dessin trois repères «&nbsp;entendu / seuil incertain / non entendu&nbsp;». Ces repères ne sont ni fabriqués ni éprouvés dans un lieu.</p>
+      </div>
+
+      <label class="limit">Une limite que je veux garder&nbsp;:<br><textarea class="limit-words"></textarea></label>
+    </div>
+
+    <div id="attendre" class="branch exit" hidden tabindex="-1">
+      <h2>Tu choisis de t’arrêter ici.</h2>
+      <p>Rien d’autre n’est demandé. Tu pourras revenir quand tu le voudras.</p>
+    </div>
+
+    <div id="inconnu" class="branch exit" hidden tabindex="-1">
+      <h2>Tu n’as pas à décider maintenant.</h2>
+      <p>« Je ne sais pas encore » suffit. Rien d’autre n’est demandé.</p>
+    </div>
+
+    <section id="summary-tools" class="branch" hidden aria-labelledby="summary-heading">
+      <h2 id="summary-heading">Emporter mes mots</h2>
+      <button id="prepare-summary" class="primary" type="button">Préparer mon résumé</button>
+      <p class="warning"><strong>Produire ce résumé ne signifie ni l’avoir envoyé, ni avoir été reçu, ni obtenir un lieu, une activité, du matériel ou une permission.</strong></p>
+      <div id="summary-output" hidden>
+        <label>Résumé transportable&nbsp;:<br><textarea id="summary" readonly></textarea></label>
+        <div class="summary-actions">
+          <button id="copy-summary" type="button">Copier le résumé</button>
+          <button id="download-summary" type="button">Télécharger le résumé</button>
+        </div>
+        <p id="action-status" class="note" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </section>
+
+  <p class="note">Cette feuille n’envoie aucune réponse automatiquement. Elle n’accorde ni lieu, ni activité, ni matériel, ni prêt, ni permission.</p>
+</main>
+<script>
+  const branches = [...document.querySelectorAll('.branch')].filter((item) => item.id !== 'summary-tools');
+  const entryChoices = [...document.querySelectorAll('input[name="entree"]')];
+  const spatialChoice = document.getElementById('reprendre-piste');
+  const spatialPanel = document.getElementById('piste-spatiale');
+  const summaryTools = document.getElementById('summary-tools');
+  const summaryOutput = document.getElementById('summary-output');
+  const summaryBox = document.getElementById('summary');
+  const actionStatus = document.getElementById('action-status');
+
+  function selectedBranch() {
+    const choice = document.querySelector('input[name="entree"]:checked');
+    return choice ? document.getElementById(choice.value) : null;
+  }
+
+  function resetSummary() {
+    summaryOutput.hidden = true;
+    summaryBox.value = '';
+    actionStatus.textContent = '';
+  }
+
+  function showOnly(id) {
+    branches.forEach((branch) => { branch.hidden = branch.id !== id; });
+    spatialChoice.checked = false;
+    spatialPanel.hidden = true;
+    const active = document.getElementById(id);
+    summaryTools.hidden = !active.classList.contains('active-branch');
+    resetSummary();
+    active.focus();
+  }
+
+  function clean(value, fallback) {
+    const text = value.trim();
+    return text || fallback;
+  }
+
+  function buildSummary() {
+    const branch = selectedBranch();
+    if (!branch || !branch.classList.contains('active-branch')) return '';
+
+    const lines = ['Première prise sur Lumina', `Choix : ${branch.dataset.label}`];
+    let words = clean(branch.querySelector('.words').value, '(aucun mot écrit)');
+
+    if (branch.id === 'geste') {
+      const steps = [...branch.querySelectorAll('.gesture-step:checked')].map((item) => item.value);
+      const other = branch.querySelector('.words').value.trim();
+      words = [...steps, ...(other ? [other] : [])].join(' ; ') || '(aucun mot écrit)';
+    }
+
+    lines.push(`Mots saisis localement : ${words}`);
+    lines.push(`Limite : ${clean(branch.querySelector('.limit-words').value, '(aucune limite écrite)')}`);
+
+    if (branch.id === 'geste' && spatialChoice.checked) {
+      lines.push(`Piste spatiale à reprendre : ${clean(document.getElementById('spatial-words').value, '(aucun mot écrit)')}`);
+      lines.push('Repères possibles issus d’un échange : entendu / seuil incertain / non entendu.');
+    }
+
+    lines.push('Statut : résumé préparé localement, non envoyé. Aucun lieu, activité, matériel, prêt ou permission obtenu.');
+    return lines.join('\n');
+  }
+
+  entryChoices.forEach((choice) => choice.addEventListener('change', () => showOnly(choice.value)));
+  spatialChoice.addEventListener('change', () => {
+    spatialPanel.hidden = !spatialChoice.checked;
+    resetSummary();
+  });
+  document.querySelectorAll('.active-branch input, .active-branch textarea').forEach((item) => {
+    item.addEventListener('input', resetSummary);
+  });
+
+  document.getElementById('prepare-summary').addEventListener('click', () => {
+    summaryBox.value = buildSummary();
+    summaryOutput.hidden = false;
+    actionStatus.textContent = 'Résumé préparé sur cet appareil. Il n’a pas été envoyé.';
+  });
+
+  document.getElementById('copy-summary').addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(summaryBox.value);
+      actionStatus.textContent = 'Résumé copié. Il n’a pas été envoyé.';
+    } catch (_) {
+      summaryBox.select();
+      const copied = document.execCommand('copy');
+      actionStatus.textContent = copied ? 'Résumé copié. Il n’a pas été envoyé.' : 'Copie automatique indisponible : sélectionne puis copie le texte.';
+    }
+  });
+
+  document.getElementById('download-summary').addEventListener('click', () => {
+    const blob = new Blob([summaryBox.value], { type: 'text/plain;charset=utf-8' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'essai-pitch-resume-v4.txt';
+    link.click();
+    URL.revokeObjectURL(link.href);
+    actionStatus.textContent = 'Résumé téléchargé sur cet appareil. Il n’a pas été envoyé.';
+  });
+</script>
+</body>
+</html>

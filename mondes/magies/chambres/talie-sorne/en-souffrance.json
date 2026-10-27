@@ -1,0 +1,92 @@
+{
+ "quoi": "Ce que j'attends de quelqu'un, et ce que quelqu'un attend de moi. Le plan compte des PAS ; ceci compte des GENS qui n'ont pas répondu, et depuis quand. Ce n'est pas la même chose et cela ne se calcule pas.",
+ "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme.",
+ "j_attends": [
+  {
+   "qui": "sevran-orme",
+   "depuis": "1.1.2",
+   "quoi": "Le nom de gîte à l'ouest, promis pour ce soir — fût-ce « personne » en toutes lettres. (L'autre cercle : RÉPONDU, il n'y en a aucun ; il a écrit à moi et à Éline Vare, une main chacune. Fil clos.)",
+   "echeance": "ce soir, 1.1.2",
+   "si_muet": "J'inscris « pas de réponse » au volume et je redemande UNE fois — en cherchant d'abord la panne du porteur, non l'insistance de l'homme."
+  },
+  {
+   "qui": "malo-veyre",
+   "depuis": "1.1.2",
+   "quoi": "Trois lignes du gîte le plus loin où il croise quelqu'un qui remonte : où il est, quel jour, s'il tient l'heure. Puis son compte entier au retour — les deux heures les jours ◇, jamais un total.",
+   "echeance": "quand cela vient ; rien n'est dû",
+   "si_muet": "Rien. Il ne me doit pas de nouvelles, il me doit un compte à son retour. Ne pas transformer mon inquiétude en réclamation."
+  },
+  {
+   "qui": "naim-des-seuils",
+   "depuis": "1.1.1",
+   "quoi": "La feuille entière des dix points, dans la forme où son registre la porte, pour que mon relevé réponde point par point. Et ce qui rentrera du compte de Maël Orsan.",
+   "echeance": "avant que je relève, soit avant le soir du 5e",
+   "si_muet": "Je relève contre la feuille telle qu'il me l'a résumée, et j'écris en tête que je n'avais pas sa forme exacte."
+  },
+  {
+   "qui": "mael-orsan",
+   "depuis": "1.1.2",
+   "quoi": "RÉPONDU le 1.1.2 : il ne refuse rien, il tiendra son compte principal dans la forme des SIX et ses deux rubriques sur une feuille séparée et attachée. Il a en outre nommé, contre son propre avantage, la règle des rubriques communes — portée à R07 sous son nom. **Ce fil est clos ; rien ne m'est dû.** Ce qui reste, mais sans échéance et sans créance : son compte à lui, s'il arrive, et qu'il ne saura rien de nos ajouts avant d'être arrivé.",
+   "echeance": "clos le 1.1.2",
+   "si_muet": "Sans objet. Ne pas rouvrir un fil réglé pour le plaisir d'écrire à quelqu'un de bien."
+  },
+  {
+   "qui": "vesper-ronce",
+   "depuis": "1.1.1",
+   "quoi": "Un nom, même vieux, même incertain, sur la route d'Aube commune à Haute-Preuve — ou « nous n'avons rien par là », qui me sert autant.",
+   "echeance": "sans jour ; c'était pour Malo, ce sera pour le suivant",
+   "si_muet": "Inscrit comme non-réponse. Sa maison nous disputait la même place : ne pas confondre son silence avec une hostilité."
+  },
+  {
+   "qui": "les cercles",
+   "depuis": "1.1.2",
+   "quoi": "Quelqu'un pour tenir la porte les soirs d'assemblée. Conditions RESSERRÉES le 1.1.2 par Malo Veyre depuis la route : se tenir HORS DE LA SALLE (la prise des Émotions ne passe pas par les yeux : qui partage un instant la croyance de la salle est dedans, dos tourné ou non), n'avoir rien demandé à celui qu'on interroge, et la charge vaut le soir même ET le lendemain tant que la durée de la prise est inconnue.",
+   "echeance": "aucune — la charge reste vacante et cela se voit",
+   "si_muet": "La charge reste VACANTE et l'on ne recueille pas ces soirs-là. Un registre qui saute des soirs vaut mieux qu'un registre rempli par la bouche qui a chauffé la salle. Je ne désigne personne : ce serait choisir un complaisant."
+  },
+  {
+   "qui": "le greffier du Collège des preuves (demandé par Sévran Orme, mais PAS lui)",
+   "depuis": "1.1.2",
+   "quoi": "Un SECOND SCELLÉ sur le dépôt D03 (ce que Malo Veyre portait le matin du 1.1.1), ouvert avec moi ou pas ouvert. Une main d'aucune de nos deux maisons, parce que celui qui est dedans n'est le gardien de rien — et je suis dedans.",
+   "echeance": "le plus tôt : une veste attend sous un scellé unique, ce qui ne vaut pas grand-chose",
+   "si_muet": "Demander à Naïm des Seuils une main qu'il désignera. Si personne n'accepte, écrire « personne n'a accepté » en toutes lettres au volume : un refus inscrit vaut mieux qu'un scellé de complaisance."
+  }
+ ],
+ "on_attend_de_moi": [
+  {
+   "qui": "naim-des-seuils",
+   "depuis": "1.1.2",
+   "quoi": "REFAIRE LA MESURE DE S3 À TROIS CORPS RÉELS, dans l'école : mon trois est un trois de cordelette, pas un trois de corps. Rien ne se bâtit avant.",
+   "promis_pour": "avant tout chantier, sans date",
+   "limite": "Tant que ce n'est pas fait, la case reste vide et signée vide, et il ne doit se servir de mon chiffre nulle part comme d'un acquis."
+  },
+  {
+   "qui": "les cercles d'Aube commune",
+   "depuis": "1.1.2",
+   "quoi": "Porter l'école — heures déplacées, bancs sortis, poutre basse, et le compte des lits — AVEC LE COMPTE, jamais le principe seul, et à froid.",
+   "promis_pour": "après la mesure à trois corps",
+   "limite": "Je ne prends pas l'école. S'ils la donnent, ce sera eux qui l'auront dit."
+  },
+  {
+   "qui": "malo-veyre",
+   "depuis": "1.1.2",
+   "quoi": "Tenir la porte, garder sa doctrine scellée, inscrire son compte à son nom sans l'arranger, et chercher quelqu'un pour la porte des soirs d'assemblée. ET : obtenir le second scellé de son dépôt, ou inscrire le refus ; n'ouvrir jamais sans écrire d'avance ce qu'on cherche et ce qui ferait conclure.",
+   "promis_pour": "pendant qu'il marche",
+   "limite": "Je ne paie pas ses jours et je ne plaide pas pour lui. Ni l'un ni l'autre ne sont des gentillesses : les deux abîmeraient son compte."
+  },
+  {
+   "qui": "sevran-orme",
+   "depuis": "1.1.1",
+   "quoi": "Le compte de la route à leur greffe, sous le nom de Malo, que l'affaire donne quelque chose ou rien — et copie du registre des arrivées s'ils la veulent.",
+   "promis_pour": "au retour du marcheur",
+   "limite": "Promesse tenue même si leur greffe n'en veut plus : c'est notre côté qui la tient, pas le leur."
+  },
+  {
+   "qui": "heloise-braise",
+   "depuis": "1.1.2",
+   "quoi": "Un premier mot préparé et NON ENVOYÉ : le S10, l'annulation qui tue, les lits, la route non mesurée.",
+   "promis_pour": "après que Naïm l'aura interrogée nue — pas avant",
+   "limite": "Je ne touche pas à la question des arrivées avec elle, sur aucun sujet. Une bouche gâtée ne se rattrape pas."
+  }
+ ]
+}

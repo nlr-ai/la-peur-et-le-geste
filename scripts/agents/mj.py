@@ -24,7 +24,7 @@ import tempfile
 import uuid
 
 from agents import chambre
-from agents.depeche.brief import RACINE, OUTILS, lire, date_du_monde
+from agents.depeche.brief import RACINE, ETAT, OUTILS, lire, date_du_monde
 
 # Le sel de l'espace de noms des sessions de zone. Le changer rend tous les
 # MJ amnesiques d'un coup : c'est le seul geste qui reparte de zero.
@@ -48,11 +48,11 @@ REGLES_PARTIE_MD = os.path.join(RACINE, "docs", "regles-partie.md")
 SKILL_JUMP_MD = os.path.join(RACINE, "scripts", "agents", "skills",
                              "jump", "SKILL.md")
 MANUEL_MJ_RACINE = os.path.join(RACINE, "CLAUDE.md")
-FLUX = os.path.join(RACINE, "etat", "flux.jsonl")
+FLUX = os.path.join(ETAT, "flux.jsonl")
 FLUX_RETOURS_PARLOIR = os.path.join(
-    RACINE, ".agents-runtime", "mj", "retours-parloir.jsonl")
+    os.path.dirname(ETAT), ".agents-runtime", "mj", "retours-parloir.jsonl")
 CURSEUR_RETOURS_PARLOIR = os.path.join(
-    RACINE, ".agents-runtime", "mj", "retours-parloir.lu")
+    os.path.dirname(ETAT), ".agents-runtime", "mj", "retours-parloir.lu")
 
 # PLUS DE PLAFOND SUR UNE SESSION (31.8). « Trois minutes est un verdict, pas
 # une journee » supposait qu'un arbitre repond vite ; la mesure dit autre
@@ -69,9 +69,21 @@ MINUTES = None
 ETABLI_MINUTES = None
 
 
-def identifiant_de_session():
-    """Stable pour l'unique MJ, sans date : sa session est sa memoire."""
-    return str(uuid.uuid5(SEL, "mj"))
+def _base_de_session(scene=None):
+    return (os.path.normcase(os.path.dirname(ETAT)) + "/" + scene) if scene else "mj"
+
+
+def cle_session_routage(responsable, routage=None):
+    """Même session par monde pour les journées, audience toujours par scène."""
+    return "pnjpj-journee-commun" if (routage or {}).get("mj_commun_journee") else responsable
+
+
+def identifiant_de_session(scene=None):
+    """Stable pour l'unique MJ, sans date, jusqu'a sa rotation
+    (mj_generation) : la generation 0 garde l'identifiant historique."""
+    from agents import mj_generation
+    base = _base_de_session(scene)
+    return str(uuid.uuid5(SEL, base + mj_generation.suffixe(ETAT, base)))
 
 
 def deposer_retour_parloir(de, joueur, texte, contexte_id=None, ref=None):
@@ -87,16 +99,17 @@ def deposer_retour_parloir(de, joueur, texte, contexte_id=None, ref=None):
     return entree
 
 
-def _position_retours_parloir():
+def _position_retours_parloir(scene=None):
+    curseur = CURSEUR_RETOURS_PARLOIR + ("." + scene if scene else "")
     try:
-        with io.open(CURSEUR_RETOURS_PARLOIR, encoding="utf-8") as f:
+        with io.open(curseur, encoding="utf-8") as f:
             return int(f.read().strip() or 0)
     except (OSError, ValueError):
         return 0
 
 
-def _retours_parloir_non_lus():
-    debut = _position_retours_parloir()
+def _retours_parloir_non_lus(scene=None):
+    debut = _position_retours_parloir(scene)
     try:
         fin = os.path.getsize(FLUX_RETOURS_PARLOIR)
         with open(FLUX_RETOURS_PARLOIR, "rb") as f:
@@ -115,12 +128,13 @@ def _retours_parloir_non_lus():
     return entrees, fin
 
 
-def _marquer_retours_parloir_lus(position):
+def _marquer_retours_parloir_lus(position, scene=None):
+    curseur = CURSEUR_RETOURS_PARLOIR + ("." + scene if scene else "")
     os.makedirs(os.path.dirname(CURSEUR_RETOURS_PARLOIR), exist_ok=True)
-    temporaire = CURSEUR_RETOURS_PARLOIR + ".%s.tmp" % uuid.uuid4().hex
+    temporaire = curseur + ".%s.tmp" % uuid.uuid4().hex
     with io.open(temporaire, "w", encoding="utf-8", newline="\n") as f:
         f.write(str(int(position)))
-    os.replace(temporaire, CURSEUR_RETOURS_PARLOIR)
+    os.replace(temporaire, curseur)
 
 
 def _sain(nom):
@@ -164,13 +178,19 @@ def _bloc_partie():
 def _manuel(modes=None):
     """Constitution, spectacle, skills du mode et cahier du MJ — et, quand
     une partie est active, le manuel de l'arbitre et le livre de regles."""
-    constitution = lire(MANUEL_MJ_RACINE)
+    monde = os.path.dirname(ETAT)
+    from instructions_monde import constitution_mj, blocs_locaux
+    constitution = constitution_mj(monde, RACINE, lire)
     if constitution is None:
         raise SystemExit("CLAUDE.md manque au MJ principal.")
-    spectacle = lire(MJ_SPECTACLE_MD)
+    spectacle = lire(os.path.join(monde, "prompts", "mj-spectacle.md"))
+    if spectacle is None:
+        spectacle = lire(MJ_SPECTACLE_MD)
     if spectacle is None:
         raise SystemExit("scripts/agents/prompts/mj-spectacle.md manque au MJ.")
-    blocs = [constitution, spectacle]
+    from agents.sections_mode import filtrer
+    blocs = [constitution, filtrer(spectacle, modes)]
+    blocs.extend(blocs_locaux(monde, "mj"))
     if _partie_active():
         partie = lire(MJ_PARTIE_MD)
         if partie is None:
@@ -223,76 +243,72 @@ def reveiller_en_cast(de, mot, contexte_id=None, ref=None):
 
 
 def _message(de, mot, verbe, modes=None):
-    """Le reveil ne porte que deux choses : qui te reveille, et voici son
-    mot — plus l'etiquette du moment (habitant.md §4 : la date est une
-    etiquette, jamais un verrou)."""
+    """Le reveil ne porte que des DONNEES : qui te reveille, quand, son mot,
+    les modes du tour. La procedure vit une fois dans le systeme
+    (mj-spectacle.md, « Le reveil ») — recopiee ici, elle se payait a chaque
+    tour et divergeait du manuel."""
     if verbe == u"JOUEUR":
         message = (u"[JOUEUR] %s vient de parler ou d'agir — an %d, %de "
                    u"lune, %de jour.\n%s\n"
-                   u"Ce reveil est une adresse de travail, pas une voix "
-                   u"d'habitant a arbitrer. Traite toutes les ACTIONS du brief "
-                   u"dans l'ordre et reponds au joueur dans son flux — jamais "
-                   u"par billet ou parloir.\n"
-                   u"CADRE DU TOUR PJ — ta PREMIERE action est toujours de "
-                   u"pousser dans le flux un item visible adresse a %s : "
-                   u"une ouverture courte, vraie dans le mode courant, sans "
-                   u"parole de PNJ inventee. Puis tu accomplis le travail. "
-                   u"Ta DERNIERE action avant de rendre la main est toujours "
-                   u"un SECOND item visible adresse au meme PJ : il porte le "
-                   u"resultat effectivement atteint ou le battement qui lui "
-                   u"rend la prise. Aucun appel d'outil, ecriture d'etat ou "
-                   u"message technique ne vient apres cet item final. Ces "
-                   u"deux items sont distincts ; une seule poussee ne compte "
-                   u"pas a la fois comme debut et comme fin.\n"
-                   u"SORTIE : `python scripts/append_flux.py '<json item>' "
-                   u"--pour %s`, des qu'une tranche est prete, puis de nouveau "
-                   u"plus tard dans le meme tour. Un refus se corrige avant "
-                   u"l'appel suivant. `suites` reste facultatif.\n"
-                   % ((de,) + date_du_monde() + (mot.strip(), de, de)))
-        if u"run" in (modes or []):
-            message += (
-                u"RUN ACTIF — GARDE DE SORTIE : tu tiens le personnage a sa "
-                u"place. Une transition, une porte qui s'ouvre, un rapport "
-                u"annonce ou un homme qui attend ne sont PAS une reponse. "
-                u"Continue jusqu'au contenu substantiel et a ses consequences. "
-                u"Si un PNJ doit parler, depeche-le ou interroge sa session : "
-                u"n'invente pas sa parole et n'arrete pas le run en attendant. "
-                u"Rends la bride quand le battement substantiel est accompli ; "
-                u"un item `suites` peut l'expliciter, mais n'est jamais requis.\n")
-        if u"jump" in (modes or []):
-            message += (
-                u"JUMP 1 ACTIF — le bloc ROUTAGE contient l'unique événement "
-                u"cible, son sous-graphe et son contexte MJ numérique. Le "
-                u"skill système `jump-scene` est actif pour ce seul réveil : "
-                u"exécute-le en entier, de la complétion du graphe jusqu'aux "
-                u"mises à jour des PNJ et à la scène visible. Meuble le flux "
-                u"au fur et à mesure sans inventer de PNJ, avance réellement "
-                u"la clock, et ne rends pas la main au milieu du Jump.\n")
+                   % ((de,) + date_du_monde() + (mot.strip(),)))
+        message += u"TES POUSSEES : --pour %s\n" % de
+        if modes:
+            message += u"MODES DU TOUR : %s\n" % u", ".join(modes)
         return message + _bloc_partie()
     return (u"[%s] %s te reveille — an %d, %de lune, %de jour.\n"
             u"Son mot : « %s »\n"
-            u"Tu es l'arbitre : ce mot est la voix d'un autre — reponds en "
-            u"arbitre, jamais dans sa pensee.\n"
-            u"SI son mot appelle une reponse, elle ne lui parvient que par "
-            u"billet (python scripts/parloir.py --dire --de <toi> --a %s "
-            u"\"...\") — ce que tu ecris ici sans billet reste dans ton "
-            u"registre. MAIS UN BILLET PAIE SON PEAGE : il porte un fait "
-            u"nouveau, une decision, ou une question dont tu attends la "
-            u"reponse pour agir — sinon TU TE TAIS. Jamais d'accuse, de "
-            u"merci, de complement qui redit, de reformulation de ce que "
-            u"l'autre sait : une correspondance qui n'a plus rien a "
-            u"s'apprendre EST FINIE, et le silence est sa fin normale "
-            u"(mesure du 31.8 : deux correspondants polis se sont reveilles "
-            u"l'un l'autre seize fois en six minutes).\n"
-            % ((verbe, de) + date_du_monde() + (mot.strip(), de))
+            % ((verbe, de) + date_du_monde() + (mot.strip(),))
             + _bloc_partie())
 
 
 def appeler_mj(de, mot, verbe, modele=None, minutes=MINUTES, refs=None,
                routage=None):
+    # Les scènes distinctes restent parallèles ; un même thread a un seul écrivain.
+    from agents import file_mj
+    from scenes_partagees import Scenes
+    while True:
+        scenes = Scenes(os.path.dirname(ETAT))
+        responsable = scenes.responsable(de) if scenes.active else None
+        session = identifiant_de_session(cle_session_routage(responsable, routage))
+        with file_mj.attendre(session) as ticket:
+            scenes = Scenes(os.path.dirname(ETAT))
+            actuel = scenes.responsable(de) if scenes.active else None
+            if identifiant_de_session(cle_session_routage(actuel, routage)) != session:
+                continue  # la scène a changé pendant l'attente
+            if refs is not None and verbe == "JOUEUR":
+                if not _filtrer_actions_refs(_actions_en_attente(de), refs):
+                    return ""  # la ref a déjà été traitée, ne rejoue pas le message
+            if refs is not None and verbe == "JOUEUR":
+                # Une reprise regroupe les messages toujours en attente de ce siège.
+                actions = [_lire_json(p, {}) for p in _actions_en_attente(de)]
+                journee = bool((routage or {}).get("mj_commun_journee"))
+                actions = [a for a in actions if
+                           (a.get("pilote_mode") == "pnjpj-journee") == journee]
+                if (routage or {}).get("decision") != "jump":
+                    actions = [a for a in actions if a.get("mode") != "jump"]
+                refs = [a["ref"] for a in actions if a.get("ref")]
+                routage = dict(routage or {})
+                routage.pop("transmission_pnj", None)
+                routage.pop("destinataire_id", None)
+                routage["messages_joueur"] = [{k: a.get(k) for k in
+                    ("ref", "mode", "texte", "destinataire_id", "contexte_id",
+                     "contexte_noeud")} for a in actions]
+            try:
+                return _appeler_mj(de, mot, verbe, modele, minutes, refs, routage,
+                                   ticket=ticket)
+            except file_mj.Interrompu:
+                # L'inbox et le flux sont conservés ; le ticket suivant reprend.
+                return "Calcul remplacé par les nouveaux messages ; reprise en attente."
+
+
+def _appeler_mj(de, mot, verbe, modele=None, minutes=MINUTES, refs=None,
+                routage=None, ticket=None):
     """Traite un appel du front joueur et rend son verdict sur stdout."""
     mj = "mj"
-    sid = identifiant_de_session()
+    from scenes_partagees import Scenes
+    scenes = Scenes(os.path.dirname(ETAT))
+    responsable = scenes.responsable(de) if scenes.active else None
+    sid = identifiant_de_session(cle_session_routage(responsable, routage))
     sa_chambre = chambre.ouvrir(mj)
     actions_joueur = (_actions_en_attente(de)
                       if verbe == u"JOUEUR" else [])
@@ -304,18 +320,33 @@ def appeler_mj(de, mot, verbe, modele=None, minutes=MINUTES, refs=None,
         from agents import portage
         mot = portage.brief_message_joueur(de, refs=refs)
     texte = _message(de, mot, verbe, modes=modes_joueur)
-    retours_parloir, position_retours = _retours_parloir_non_lus()
+    if scenes.active:
+        from agents.volontes_pj import Volontes
+        suivi_volontes = Volontes(os.path.dirname(ETAT))
+        audience_volontes = scenes.audience(de)
+        joueurs_volontes = audience_volontes if isinstance(audience_volontes, list) else [de]
+        volontes = (suivi_volontes.brief(joueurs_volontes)
+                    if verbe != "JOUEUR" and scenes.passations_non_recues(de)
+                    else suivi_volontes.debut_tour(joueurs_volontes))
+        texte += ("\n\nVOLONTES DECLAREES DES PJ — SUIVI DU MJ :\n"
+                  + json.dumps(volontes, ensure_ascii=False, indent=2)
+                  + "\n")
+        texte += ("\n\nCOORDINATION TECHNIQUE DES SCENES (hors fiction) :\n"
+                  + json.dumps(scenes.brief(de), ensure_ascii=False, indent=2)
+                  + "\n")
+    retours_parloir, position_retours = _retours_parloir_non_lus(responsable)
+    if scenes.active:
+        audience = scenes.audience(de)
+        membres = audience if isinstance(audience, list) else [de]
+        retours_parloir = [r for r in retours_parloir if r.get("joueur") in membres]
     if retours_parloir:
         texte += (u"\n\nRETOURS DU PARLOIR DEJA AFFICHES AUX JOUEURS :\n"
                   + json.dumps(retours_parloir, ensure_ascii=False, indent=2)
-                  + u"\nIls sont deja dans le flux web : ne les repousse pas. "
-                    u"Mets seulement leurs consequences en scene.\n")
+                  + u"\n")
     if routage:
         texte += (u"\n\nROUTAGE DE CONTEXTE DEJA EXECUTE POUR CETTE ACTION :\n"
                   + json.dumps(routage, ensure_ascii=False, indent=2)
-                  + u"\nCe bloc est une adresse de travail hors fiction. "
-                    u"Respecte notamment l'interdit de doubler une route "
-                    u"d'homme deja servie.\n")
+                  + u"\n")
 
     # LE PAS-DE-TIR EST STABLE, ET C'EST UNE CONDITION DE LA MEMOIRE (mesure
     # du 30.8, reveils-jouets du pas 4) : un --session-id n'est unique que
@@ -326,18 +357,53 @@ def appeler_mj(de, mot, verbe, modele=None, minutes=MINUTES, refs=None,
     neutre = os.path.join(tempfile.gettempdir(), "le-conseil-mj")
     os.makedirs(neutre, exist_ok=True)
     from agents.expose import runtime as agent_runtime
+    precedente = agent_runtime._entree_session(sid)
+    if precedente.get("interrompu") and precedente.get("dernier_transcript"):
+        texte += ("\nCALCUL PRECEDENT INTERROMPU : %s\n"
+                  % precedente["dernier_transcript"])
+    from agents import mj_generation
+    base = _base_de_session(cle_session_routage(responsable, routage))
+    if mj_generation.neuve(ETAT, base):
+        texte += "\nSESSION NEUVE\n"
+    from agents import mj_point
+    point_du = verbe == u"JOUEUR" and mj_point.du(ETAT, de)
+    if point_du:
+        texte += "\nPOINT D'ETAPE\n"
     debut_flux = _position_flux()
     appels = []
 
+    from agents import guichet_mj, battement_mj
+
     def appeler_le_mj(message):
         refs_env = [str(r) for r in (refs or []) if r]
-        rep = agent_runtime.appeler(
-            role=mj, manuel=manuel, message=message, session_id=sid,
-            modele=modele,
-            timeout=(minutes * 60) if minutes else None, cwd=neutre,
-            add_dirs=[RACINE, sa_chambre], tools=OUTILS, reprendre=None,
-            env={"LE_CONSEIL_QUI": str(mj), "LE_CONSEIL_MJ": str(mj),
-                 "LE_CONSEIL_REF": u",".join(refs_env)})
+        env = {"LE_CONSEIL_QUI": str(mj), "LE_CONSEIL_MJ": str(mj),
+               "LE_CONSEIL_REF": u",".join(refs_env),
+               "LE_CONSEIL_MJ_TICKET": "" if (routage or {}).get("mj_commun_journee") else (ticket or ""),
+               "LE_CONSEIL_SCENE": responsable or "",
+               "LE_CONSEIL_AUDIENCE": ",".join(
+                   (scenes.audience(de) if isinstance(scenes.audience(de), list)
+                    else [de]) if scenes.active else [de]),
+               "CONSEIL_RACINE": os.path.dirname(ETAT)}
+        # Une ligne au fil par minute de silence (battement_mj) : le joueur
+        # voit que le monde travaille, sans qu'aucun PNJ parle.
+        with battement_mj.Battement(de, FLUX, ETAT, os.path.dirname(ETAT)):
+            return _appel_brut(message, env)
+
+    def _appel_brut(message, env):
+        if guichet_mj.mode_mj() == guichet_mj.MODE:
+            # Une session vivante tient le MJ : on lui passe le billet au
+            # guichet au lieu de lancer un `claude -p` / `codex exec`.
+            rep = guichet_mj.appeler(
+                manuel, message, sid, env, FLUX,
+                timeout=(minutes * 60) if minutes else None,
+                monde=os.path.dirname(ETAT))
+        else:
+            rep = agent_runtime.appeler(
+                role=mj, manuel=manuel, message=message, session_id=sid,
+                modele=modele,
+                timeout=(minutes * 60) if minutes else None, cwd=neutre,
+                add_dirs=[RACINE, sa_chambre], tools=OUTILS, reprendre=None,
+                env=env)
         appels.append(rep)
         return rep
 
@@ -370,8 +436,8 @@ def appeler_mj(de, mot, verbe, modele=None, minutes=MINUTES, refs=None,
                 u"[CONTINUER JUMP — SORTIE INTERMEDIAIRE REFUSEE] Tu es "
                 u"encore au milieu du Jump : %s. Une tranche de décor meuble "
                 u"l'attente mais ne clôt rien. Reprends maintenant, avance "
-                u"réellement la clock, applique l'unique événement cible et "
-                u"joue sa scène substantielle. Ne rends pas la main et ne "
+                u"réellement la clock et respecte le contrat du brief : "
+                u"ouvre la scène substantielle avant de rendre la main ; ne "
                 u"passe pas à l'événement suivant."
                 % u" ; ".join(manques))
             types_tour = _types_flux_depuis(debut_flux)
@@ -381,7 +447,12 @@ def appeler_mj(de, mot, verbe, modele=None, minutes=MINUTES, refs=None,
     if rapport_attendu and u"replique" not in types_tour:
         raise RuntimeError(
             "rapport invisible : aucune replique de PNJ n'a ete poussee")
-    _marquer_retours_parloir_lus(position_retours)
+    _marquer_retours_parloir_lus(position_retours, responsable)
+    mj_generation.compter_tour(ETAT, base)
+    if verbe == u"JOUEUR":
+        mj_point.compter_tour(
+            ETAT, de,
+            point_du and mj_point.point_pousse(_items_flux_depuis(debut_flux)))
     sys.stderr.write(u"(mj : %s, session %s)\n" % (
         rep.get("provider") or "agent", sid[:8]))
     # L'inbox est une file, pas une memoire. Le modele ne porte plus la
@@ -435,6 +506,35 @@ def _date_tuple(date):
 def _manques_jump(routage, position_flux):
     """Preuves observables qu'un Jump n'est plus une préparation en cours."""
     preparation = ((routage or {}).get("jump") or {})
+    if preparation.get("version") == "passer/1":
+        depart = _date_tuple(preparation.get("depart"))
+        # Une scène privée peut précéder le curseur global. Pour les briefs
+        # déjà en vol, retrouver le départ dans l'action canonique, jamais
+        # dans l'horloge courante (qui a avancé pendant le Jump).
+        ref = (routage or {}).get("ref")
+        if ref:
+            for joueur in preparation.get("joueurs", []):
+                for chemin in _actions_en_attente(joueur):
+                    action = _lire_json(chemin, {})
+                    date_action = action.get("date_atteinte")
+                    if (action.get("ref") == ref
+                            and action.get("mode") == "jump"
+                            and action.get("joueur_id") == joueur
+                            and isinstance(date_action, dict)
+                            and all(k in date_action for k in
+                                    ("annee", "lune", "jour", "minute"))):
+                        depart = _date_tuple(date_action)
+        items = _items_flux_depuis(position_flux)
+        scenes = [item for item in items
+                  if item.get("type") in ("recit", "replique", "geste", "evenement")
+                  and _date_tuple(item.get("date")) > depart]
+        monde = _lire_json(os.path.join(ETAT, "monde.json"), {})
+        manques = []
+        if not scenes:
+            manques.append(u"prochaine scène absente du flux ou date non avancée")
+        if _date_tuple(monde.get("date")) <= depart:
+            manques.append(u"date du monde non avancée")
+        return manques
     evenement = preparation.get("event") or {}
     event_id = str(evenement.get("id") or "")
     cible = _date_tuple(evenement.get("date_prevue"))
@@ -451,7 +551,7 @@ def _manques_jump(routage, position_flux):
         manques.append(u"graphe causal invérifiable (%s)" % exc)
 
     programmes = _lire_json(
-        os.path.join(RACINE, "etat", "evenements.json"), [])
+        os.path.join(ETAT, "evenements.json"), [])
     if isinstance(programmes, dict):
         programmes = programmes.get("evenements") or []
     courant = next((e for e in programmes if isinstance(e, dict)
@@ -474,7 +574,7 @@ def _manques_jump(routage, position_flux):
 
     dates_flux = [_date_tuple(item.get("date")) for item in items
                   if item.get("date")]
-    monde = _lire_json(os.path.join(RACINE, "etat", "monde.json"), {})
+    monde = _lire_json(os.path.join(ETAT, "monde.json"), {})
     clock = max([_date_tuple(monde.get("date"))] + dates_flux)
     if clock < cible:
         manques.append(u"clock encore antérieure à la cible")
@@ -495,7 +595,7 @@ def _a_pousse_flux(rep):
 
 
 def _actions_en_attente(personnage):
-    dossier = os.path.join(RACINE, "etat", "inbox", _sain(personnage))
+    dossier = os.path.join(ETAT, "inbox", _sain(personnage))
     if not os.path.isdir(dossier):
         return []
     return [os.path.join(dossier, nom) for nom in sorted(os.listdir(dossier))

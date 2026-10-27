@@ -1,0 +1,40 @@
+{
+  "id": "plis-sortis",
+  "maison_id": "communion-des-recits",
+  "titre": "Le compte des plis sortis",
+  "sous_titre": "✉️ Tenu par Talie Sorne à la halle d'Aube commune, ouvert le 1.1.1, **tenu à partir du premier pli suivant**. Règle E08 du volume des engagements. **Un numéro ne transporte rien et ne prouve aucune lecture** : il rend le trou nommable. Ce volume existe parce que plusieurs mains ont écrit sous mon nom le même jour — la faute est de ma maison, non de la porte.",
+  "type": "registre",
+  "embleme": "✉️",
+  "lieu_id": "aube-commune",
+  "salle_id": "aube-commune-salle-commune",
+  "tenu_par": "talie-sorne",
+  "colonnes": [
+    "✉️ N°",
+    "👤 À qui",
+    "📅 Jour et heure",
+    "📝 Ligne de substance",
+    "🔎 État"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "**T01**",
+        "**Maël Orsan**, premier précepteur, Corps de résolution",
+        "1.1.2, au matin",
+        "R07 est écrite dans SES termes et sous son nom, avant toute arrivée : le compte de Malo Veyre est le moins suspect des deux, et l'emporte sur une rubrique commune. Rien n'a été adouci.",
+        "**parti** — aucune réponse attendue ni due"
+      ],
+      "note": "Premier pli numéroté de cette halle. Le numérotage est né de ma faute (plusieurs mains sous mon nom) et Sévran Orme l'a pris de son côté le même matin, son premier pli portant S01."
+    },
+    {
+      "cellules": [
+        "**T02**",
+        "**Sévran Orme**, premier rapporteur, Collège des preuves",
+        "1.1.2, au matin",
+        "Sa part de la faute lui reste, la mienne me reste ; ma liste de plis est ouverte à qui la demande et je demande la sienne. Et la question que ni lui ni moi ne pouvons combler : **qui conduira la recherche sur les venues**, puisque nous nous sommes tous deux déclarés partie.",
+        "**parti** — réponse attendue sur le seul point du gîte de l'ouest"
+      ],
+      "note": "Sa règle, prise entière : **avant d'accuser une porte, aller voir dans le bon tiroir — et savoir lequel c'est.** La mienne, qu'il a prise entière de son côté : on ne fait pas arriver les plis, on rend visible lesquels manquent."
+    }
+  ]
+}

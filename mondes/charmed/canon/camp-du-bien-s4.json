@@ -1,0 +1,902 @@
+{
+ "titre": "Camp du bien, saison 4 — la loi du monde au 9.10.2001 et ce que la saison établit",
+ "genereLe": "2026-10-03",
+ "statut": "proposition ; tirée des fiches S04E01–S04E22 du graphe (recherche/2026-09-10-graphe-magie/episodes) et des transcriptions ; pendant de bestiaire.json. Ce fichier est la LOI : il reste valable même si les démons sont variés.",
+ "vocabulaire": {
+  "pouvoirs[].fente": "vocabulaire de SYSTEME_RESOLUTION_PROPOSE.md §2.1",
+  "pouvoirs[].rangMoyen": "rang atteint par ce moyen s'il sert à neutraliser (0 à 3, null = ne neutralise pas)",
+  "statut": "E établi dans le dialogue ; C affirmé par un personnage seulement ; ? effet vu, cause non dite",
+  "ep": "épisode qui établit ; une ressource établie après le 9.10.2001 est une loi du monde, pas un objet déjà dans la maison"
+ },
+ "avertissement": "Vérité du MJ. Ce qu'une ressource établie en S04E13 ou plus tard existe dans le monde ne veut pas dire que les sœurs la possèdent : le Livre ne contient que ce qu'on y a écrit.",
+ "reglesCommunes": [
+  {
+   "id": "pouvoir-des-trois",
+   "regle": "le Pouvoir des Trois exige les trois sœurs ; Paige complète le cercle depuis S04E02 ; à deux, un sort des Trois blesse sans détruire",
+   "statut": "E",
+   "ep": [
+    "S04E01",
+    "S04E02"
+   ]
+  },
+  {
+   "id": "retour-de-flamme",
+   "regle": "un sort lancé pour son propre intérêt retombe sur son auteur, avec l'effet exact qu'il visait chez l'autre",
+   "statut": "E",
+   "ep": [
+    "S04E03"
+   ]
+  },
+  {
+   "id": "gain-indirect",
+   "regle": "un sort lancé pour autrui qui profite aussi à son auteur reste un gain personnel ; la conséquence tombe sur un tiers, seule la renonciation répare",
+   "statut": "E",
+   "ep": [
+    "S04E14"
+   ]
+  },
+  {
+   "id": "substitution-de-mot",
+   "regle": "changer un mot d'un sort connu en change la cible sans changer sa mécanique",
+   "statut": "E",
+   "ep": [
+    "S04E03"
+   ]
+  },
+  {
+   "id": "contre-sort-general",
+   "regle": "une formule courte annule un sort sans qu'on connaisse le sort d'origine",
+   "statut": "E",
+   "ep": [
+    "S04E03"
+   ]
+  },
+  {
+   "id": "breche-emotionnelle",
+   "regle": "une émotion jamais dite est la porte par laquelle le mal entre chez une bonne ; la dire la referme",
+   "statut": "E",
+   "ep": [
+    "S04E03"
+   ]
+  },
+  {
+   "id": "pouvoirs-au-corps",
+   "regle": "dans un échange d'âmes, la mémoire et la volonté suivent l'âme, les pouvoirs restent au corps",
+   "statut": "E",
+   "ep": [
+    "S04E04"
+   ]
+  },
+  {
+   "id": "apprentissage",
+   "regle": "la magie ne dispense pas de l'entraînement ; un pouvoir neuf est mal tenu",
+   "statut": "E",
+   "ep": [
+    "S04E04"
+   ]
+  },
+  {
+   "id": "foyer-commun",
+   "regle": "le Pouvoir des Trois tient mieux sous un même toit : les attaques ne préviennent pas",
+   "statut": "C",
+   "ep": [
+    "S04E06"
+   ]
+  },
+  {
+   "id": "reecriture-du-passe",
+   "regle": "un acte réussi dans le passé remplace le cours des choses et emporte le présent qui en découlait",
+   "statut": "E",
+   "ep": [
+    "S04E06",
+    "S04E14"
+   ]
+  },
+  {
+   "id": "aspiration-a-la-normale",
+   "regle": "le désir d'une vie sans magie est la faille la plus exploitable d'une sorcière",
+   "statut": "E",
+   "ep": [
+    "S04E07",
+    "S04E22"
+   ]
+  },
+  {
+   "id": "tracage-du-pouvoir",
+   "regle": "chaque usage d'un pouvoir signale la position de son porteur à qui le traque",
+   "statut": "C",
+   "ep": [
+    "S04E12"
+   ]
+  },
+  {
+   "id": "neutralite-du-pouvoir",
+   "regle": "un pouvoir n'est ni bon ni mauvais ; l'usage le range",
+   "statut": "C",
+   "ep": [
+    "S04E12"
+   ]
+  },
+  {
+   "id": "alliance-des-contraires",
+   "regle": "certaines menaces ne se contiennent que par une magie bonne et une magie mauvaise agissant ensemble",
+   "statut": "E",
+   "ep": [
+    "S04E13"
+   ]
+  },
+  {
+   "id": "allegeance-par-le-rite",
+   "regle": "le rite qui unit deux êtres décide du camp de l'enfant à naître",
+   "statut": "C",
+   "ep": [
+    "S04E15",
+    "S04E19"
+   ]
+  },
+  {
+   "id": "lien-maternel",
+   "regle": "l'enfant porté impose sa nature à sa mère ; il peut agir par magie depuis le ventre",
+   "statut": "E",
+   "ep": [
+    "S04E19",
+    "S04E21"
+   ]
+  },
+  {
+   "id": "transmission-de-la-source",
+   "regle": "la Source détruite renaît dans celui qui a absorbé sa puissance ; ce n'est pas une mort mais une passation",
+   "statut": "C",
+   "ep": [
+    "S04E14",
+    "S04E19"
+   ]
+  },
+  {
+   "id": "legitimite-du-trone",
+   "regle": "nul ne prend le trône du mal sans lien direct au précédent, par le sang ou la magie ; à défaut le conseil des Enfers tranche",
+   "statut": "C",
+   "ep": [
+    "S04E21"
+   ]
+  },
+  {
+   "id": "couronnement",
+   "regle": "l'héritier désigné n'a les pleins pouvoirs qu'après le serment sur le Grimoire, devant prêtres et garde",
+   "statut": "E",
+   "ep": [
+    "S04E19"
+   ]
+  },
+  {
+   "id": "accord-des-deux-camps",
+   "regle": "nul ne force un libre arbitre ; on ne peut que tenter ; les Gardiens tiennent ce que les deux camps ont interdit",
+   "statut": "E",
+   "ep": [
+    "S04E13",
+    "manuel"
+   ]
+  },
+  {
+   "id": "mort-definitive",
+   "regle": "la mort d'une sorcière ne se défait pas ; Prue ne revient pas",
+   "statut": "E",
+   "ep": [
+    "S04E01",
+    "manuel"
+   ]
+  },
+  {
+   "id": "secret-et-nettoyeurs",
+   "regle": "une exposition de la magie aux mortels appelle les Nettoyeurs, qui effacent selon leur jugement, pas selon celui des sœurs",
+   "statut": "E",
+   "ep": [
+    "S04E11",
+    "S05"
+   ]
+  },
+  {
+   "id": "prix-corporel",
+   "regle": "les années de combat laissent au corps des blessures qu'aucune guérison ne rattrape",
+   "statut": "C",
+   "ep": [
+    "S04E21",
+    "S04E22"
+   ]
+  },
+  {
+   "id": "ne-pas-tuer-un-mortel",
+   "regle": "ne pas tuer un mortel, même hostile ; vaut contre un chasseur de sorcières",
+   "statut": "E",
+   "ep": [
+    "S01E19",
+    "S04E22"
+   ]
+  }
+ ],
+ "entrees": [
+  {
+   "id": "phoebe-halliwell",
+   "nom": "Phoebe Halliwell",
+   "classe": "Sorcière",
+   "episodes": [
+    "S04E01-S04E22"
+   ],
+   "role": "la cadette devenue la médiane ; seule voyante du trio ; SIÈGE JOUEUR",
+   "pouvoirs": [
+    {
+     "nom": "prémonition",
+     "fente": "savoir",
+     "portee": "plan",
+     "rangMoyen": null,
+     "declencheur": "contact d'un objet ou d'une personne",
+     "canal": "mains",
+     "sansEffetSur": [
+      "une puissance assez grande qui la voile (Cole devenu Source)"
+     ],
+     "limites": [
+      "fragmentaire : un lieu, un geste, un visage, jamais l'heure exacte",
+      "vient au contact, pas à la demande"
+     ],
+     "statut": "E",
+     "croissance": "visions plus longues, parfois partagées en touchant"
+    },
+    {
+     "nom": "lévitation",
+     "fente": "deplacement",
+     "portee": "contact",
+     "rangMoyen": 0,
+     "declencheur": "danger, élan",
+     "canal": "corps",
+     "sansEffetSur": [],
+     "limites": [
+      "elle monte, elle ne vole pas ; on retombe"
+     ],
+     "statut": "E"
+    },
+    {
+     "nom": "arts martiaux",
+     "fente": "force",
+     "portee": "contact",
+     "rangMoyen": 0,
+     "declencheur": null,
+     "canal": "corps",
+     "sansEffetSur": [],
+     "limites": [
+      "un entraînement mortel, sans magie ; entretenu avec un maître (S04E04)"
+     ],
+     "statut": "E"
+    }
+   ],
+   "vulnerabilites": [
+    {
+     "famille": "etat",
+     "detail": "son amour pour Cole : elle refuse de voir ce qui le concerne"
+    },
+    {
+     "famille": "regle",
+     "detail": "ses visions peuvent être voilées par plus fort qu'elle"
+    }
+   ],
+   "statut": "E"
+  },
+  {
+   "id": "piper-halliwell",
+   "nom": "Piper Halliwell",
+   "classe": "Sorcière",
+   "episodes": [
+    "S04E01-S04E22"
+   ],
+   "role": "l'aînée désormais ; le pouvoir offensif du trio",
+   "pouvoirs": [
+    {
+     "nom": "figer",
+     "fente": "gel",
+     "portee": "piece",
+     "rangMoyen": 0,
+     "declencheur": "peur, réflexe",
+     "canal": "mains",
+     "sansEffetSur": [
+      "sorcière bonne",
+      "démons de haut rang (se dégagent)"
+     ],
+     "limites": [
+      "le temps reprend seul"
+     ],
+     "statut": "E"
+    },
+    {
+     "nom": "combustion moléculaire",
+     "fente": "detonation",
+     "portee": "vue",
+     "rangMoyen": 1,
+     "declencheur": "colère",
+     "canal": "mains",
+     "sansEffetSur": [
+      "les plus puissants (encaissent)"
+     ],
+     "limites": [
+      "neuve depuis S03E20, encore mal tenue au début de S4"
+     ],
+     "statut": "E",
+     "croissance": "devient l'arme principale du trio"
+    }
+   ],
+   "vulnerabilites": [
+    {
+     "famille": "etat",
+     "detail": "la colère du deuil de Prue (brèche, S04E03)"
+    },
+    {
+     "famille": "regle",
+     "detail": "désir d'enfant et de vie normale (S04E07, S04E12)"
+    }
+   ],
+   "statut": "E"
+  },
+  {
+   "id": "paige-matthews",
+   "nom": "Paige Matthews",
+   "classe": "Sorcière et demi-Être de lumière",
+   "episodes": [
+    "S04E01-S04E22"
+   ],
+   "role": "la demi-sœur retrouvée ; troisième du cercle",
+   "pouvoirs": [
+    {
+     "nom": "orbe",
+     "fente": "deplacement",
+     "portee": "plan",
+     "rangMoyen": null,
+     "declencheur": "volonté",
+     "canal": "corps",
+     "sansEffetSur": [],
+     "limites": [
+      "mal maîtrisé d'abord ; peut se tromper de lieu"
+     ],
+     "statut": "E"
+    },
+    {
+     "nom": "télékinésie d'orbe",
+     "fente": "telekinesie",
+     "portee": "vue",
+     "rangMoyen": 0,
+     "declencheur": "nommer l'objet à voix haute",
+     "canal": "voix",
+     "sansEffetSur": [
+      "sorcière bonne"
+     ],
+     "limites": [
+      "il faut dire le nom de l'objet"
+     ],
+     "statut": "E"
+    },
+    {
+     "nom": "sentir ses proches",
+     "fente": "savoir",
+     "portee": "plan",
+     "rangMoyen": null,
+     "declencheur": "concentration",
+     "canal": "esprit",
+     "sansEffetSur": [],
+     "limites": [
+      "demi-Être de lumière : mal entraîné"
+     ],
+     "statut": "C"
+    }
+   ],
+   "vulnerabilites": [
+    {
+     "famille": "regle",
+     "detail": "pas d'éducation de sorcière : sorts pour son intérêt, retours de flamme (S04E03)"
+    },
+    {
+     "famille": "etat",
+     "detail": "travaille aux Services sociaux : les enfants qu'elle place sont exposés"
+    }
+   ],
+   "statut": "E"
+  },
+  {
+   "id": "pouvoir-des-trois",
+   "nom": "Pouvoir des Trois",
+   "classe": "Puissance collective",
+   "episodes": [
+    "S04E02-S04E22"
+   ],
+   "role": "seule arme qui atteint les hauts échelons",
+   "pouvoirs": [
+    {
+     "nom": "formule commune",
+     "fente": "formule",
+     "portee": "piece",
+     "rangMoyen": 3,
+     "declencheur": "trois sœurs unies",
+     "canal": "voix",
+     "sansEffetSur": [],
+     "limites": [
+      "à deux, blesse sans détruire",
+      "une sœur sous influence (Pleureuse, enfant du mal) le fausse"
+     ],
+     "statut": "E"
+    }
+   ],
+   "statut": "E"
+  },
+  {
+   "id": "lignee-entiere",
+   "nom": "Sort de la lignée entière",
+   "classe": "Puissance collective",
+   "episodes": [
+    "S04E13"
+   ],
+   "role": "les aïeules ajoutent leur magie à celle des vivantes ; seule chose qui atteigne la Source",
+   "pouvoirs": [
+    {
+     "nom": "invocation des aïeules",
+     "fente": "formule",
+     "portee": "piece",
+     "rangMoyen": 3,
+     "declencheur": "trois sœurs + le sort complet",
+     "canal": "voix",
+     "sansEffetSur": [],
+     "limites": [
+      "il faut le Livre et les trois"
+     ],
+     "statut": "E"
+    }
+   ],
+   "statut": "E"
+  },
+  {
+   "id": "leo-wyatt",
+   "nom": "Leo Wyatt",
+   "classe": "Être de lumière",
+   "episodes": [
+    "S04E01-S04E22"
+   ],
+   "role": "époux de Piper, protecteur des trois",
+   "pouvoirs": [
+    {
+     "nom": "guérison",
+     "fente": "soin",
+     "portee": "contact",
+     "rangMoyen": null,
+     "declencheur": "amour",
+     "canal": "mains",
+     "sansEffetSur": [
+      "les morts",
+      "lui-même",
+      "les blessures d'un Être des ténèbres"
+     ],
+     "limites": [],
+     "statut": "E"
+    },
+    {
+     "nom": "orbe",
+     "fente": "deplacement",
+     "portee": "plan",
+     "rangMoyen": null,
+     "declencheur": "volonté",
+     "canal": "corps",
+     "sansEffetSur": [],
+     "limites": [
+      "les Fondateurs peuvent le rappeler"
+     ],
+     "statut": "E"
+    },
+    {
+     "nom": "sentir ses protégées",
+     "fente": "savoir",
+     "portee": "plan",
+     "rangMoyen": null,
+     "declencheur": "appel",
+     "canal": "esprit",
+     "sansEffetSur": [
+      "le mal brouille le signal (S04E07)"
+     ],
+     "limites": [],
+     "statut": "E"
+    }
+   ],
+   "vulnerabilites": [
+    {
+     "famille": "fente",
+     "detail": "flèches d'Être des ténèbres"
+    },
+    {
+     "famille": "etat",
+     "detail": "culpabilité de sa guerre (S04E17)"
+    }
+   ],
+   "statut": "E"
+  },
+  {
+   "id": "cole-turner",
+   "nom": "Cole Turner",
+   "classe": "Hybride mortel-démon (Belthazor)",
+   "episodes": [
+    "S04E01-S04E22"
+   ],
+   "role": "l'homme qu'aime Phoebe ; ancien bras de la Source",
+   "pouvoirs": [
+    {
+     "nom": "boules d'énergie",
+     "fente": "energie",
+     "portee": "vue",
+     "rangMoyen": 1,
+     "declencheur": "volonté",
+     "canal": "mains",
+     "sansEffetSur": [],
+     "limites": [
+      "moins fortes à mesure qu'il se tourne vers le bien (prix de la conversion, S04E08)"
+     ],
+     "statut": "E"
+    },
+    {
+     "nom": "miroitement",
+     "fente": "deplacement",
+     "portee": "plan",
+     "rangMoyen": null,
+     "declencheur": "volonté",
+     "canal": "corps",
+     "sansEffetSur": [],
+     "limites": [],
+     "statut": "E"
+    },
+    {
+     "nom": "bascule en Belthazor",
+     "fente": "force",
+     "portee": "contact",
+     "rangMoyen": 2,
+     "declencheur": "rage",
+     "canal": "corps",
+     "sansEffetSur": [],
+     "limites": [
+      "sous cette forme sa part humaine ne répond de rien ; risque de ne pas revenir"
+     ],
+     "statut": "E"
+    }
+   ],
+   "vulnerabilites": [
+    {
+     "famille": "fente",
+     "detail": "potion de scission faite de sa chair (S04E08)"
+    },
+    {
+     "famille": "regle",
+     "detail": "sans identité mortelle (S04E10)"
+    },
+    {
+     "famille": "etat",
+     "detail": "s'il absorbe la puissance de la Source, elle le recouvre peu à peu (S04E14) — seulement si la Source meurt, ce qui est une scène"
+    }
+   ],
+   "statut": "E"
+  },
+  {
+   "id": "les-fondateurs",
+   "nom": "Les Fondateurs",
+   "classe": "Ordre du bien",
+   "episodes": [
+    "S04E01-S04E22"
+   ],
+   "role": "autorité des Êtres de lumière ; savent et taisent",
+   "pouvoirs": [
+    {
+     "nom": "rappeler un Être de lumière",
+     "fente": "savoir",
+     "portee": "plan",
+     "rangMoyen": null,
+     "declencheur": "décision",
+     "canal": "parole",
+     "sansEffetSur": [],
+     "limites": [
+      "ne descendent pas combattre"
+     ],
+     "statut": "E"
+    }
+   ],
+   "statut": "E"
+  },
+  {
+   "id": "nettoyeurs",
+   "nom": "Les Nettoyeurs",
+   "classe": "Neutres",
+   "episodes": [
+    "S04E11?",
+    "S05"
+   ],
+   "role": "effacent l'exposition de la magie, quel qu'en soit le prix pour les vivants",
+   "pouvoirs": [
+    {
+     "nom": "effacer",
+     "fente": "formule",
+     "portee": "plan",
+     "rangMoyen": null,
+     "declencheur": "exposition de la magie",
+     "canal": "geste",
+     "sansEffetSur": [],
+     "limites": [
+      "ne prennent parti pour personne"
+     ],
+     "statut": "C"
+    }
+   ],
+   "statut": "C"
+  },
+  {
+   "id": "ange-du-destin",
+   "nom": "L'Ange du Destin",
+   "classe": "Au-dessus des camps",
+   "episodes": [
+    "S04E22"
+   ],
+   "role": "fige le monde aux tournants rares ; offre un changement de destin sans conseiller",
+   "pouvoirs": [
+    {
+     "nom": "figer le monde",
+     "fente": "gel",
+     "portee": "plan",
+     "rangMoyen": null,
+     "declencheur": "destin accompli",
+     "canal": "presence",
+     "sansEffetSur": [],
+     "limites": [
+      "n'agit qu'aux tournants"
+     ],
+     "statut": "E"
+    }
+   ],
+   "statut": "E"
+  },
+  {
+   "id": "gardiens-du-vide",
+   "nom": "Les Gardiens du Vide",
+   "classe": "Neutres",
+   "episodes": [
+    "S04E13"
+   ],
+   "role": "tiennent le Vide pour les deux camps",
+   "pouvoirs": [
+    {
+     "nom": "garder",
+     "fente": "protection",
+     "portee": "lieu",
+     "rangMoyen": null,
+     "declencheur": "accord",
+     "canal": "presence",
+     "sansEffetSur": [],
+     "limites": [
+      "d'aucun camp"
+     ],
+     "statut": "E"
+    }
+   ],
+   "statut": "E"
+  },
+  {
+   "id": "esprits-des-aieules",
+   "nom": "Penny et Patty Halliwell",
+   "classe": "Esprits",
+   "episodes": [
+    "S04E01",
+    "S04E02",
+    "S04E13",
+    "S04E15"
+   ],
+   "role": "ne viennent qu'appelées au grenier, avec la formule",
+   "pouvoirs": [
+    {
+     "nom": "conseil",
+     "fente": "savoir",
+     "portee": "piece",
+     "rangMoyen": null,
+     "declencheur": "appel au grenier",
+     "canal": "voix",
+     "sansEffetSur": [],
+     "limites": [
+      "ne combattent pas",
+      "Prue ne vient pas"
+     ],
+     "statut": "E"
+    }
+   ],
+   "statut": "E"
+  }
+ ],
+ "ressources": [
+  {
+   "id": "livre-des-ombres",
+   "nom": "Livre des Ombres",
+   "fente": "savoir",
+   "effet": "identifie un mal et prescrit sa clé ; s'enrichit",
+   "limites": [
+    "ignore ce qu'il n'a jamais vu",
+    "ne quitte pas la maison"
+   ],
+   "statut": "E",
+   "ep": [
+    "S04E01-S04E22"
+   ]
+  },
+  {
+   "id": "appel-de-la-soeur-perdue",
+   "nom": "Sort pour appeler une sœur perdue",
+   "fente": "formule",
+   "effet": "a trouvé Paige",
+   "limites": [
+    "une fois le cercle refait, ne sert plus"
+   ],
+   "statut": "E",
+   "ep": [
+    "S04E01"
+   ]
+  },
+  {
+   "id": "sort-de-la-lignee",
+   "nom": "Sort de la lignée entière",
+   "fente": "formule",
+   "effet": "nomme toutes les aïeules ; atteint la Source",
+   "limites": [
+    "les trois et le Livre"
+   ],
+   "statut": "E",
+   "ep": [
+    "S04E13"
+   ],
+   "rangMoyen": 3
+  },
+  {
+   "id": "potion-pouvoir",
+   "nom": "Potion-pouvoir",
+   "fente": "potion",
+   "effet": "reproduit un pouvoir individuel ; non absorbable",
+   "limites": [
+    "une par pouvoir"
+   ],
+   "statut": "E",
+   "ep": [
+    "S04E13"
+   ],
+   "rangMoyen": 2
+  },
+  {
+   "id": "contre-sort-general",
+   "nom": "Contre-sort général",
+   "fente": "formule",
+   "effet": "annule un sort inconnu en appelant les esprits guides",
+   "limites": [],
+   "statut": "E",
+   "ep": [
+    "S04E03"
+   ]
+  },
+  {
+   "id": "scrutation",
+   "nom": "Scrutation au cristal",
+   "fente": "savoir",
+   "effet": "localise un être sur une carte",
+   "limites": [
+    "il faut un critère : le mal en général, ou une personne précise"
+   ],
+   "statut": "E",
+   "ep": [
+    "S04E03"
+   ]
+  },
+  {
+   "id": "voyage-mental",
+   "nom": "Voyage mental",
+   "fente": "formule",
+   "effet": "envoie la conscience des sœurs dans l'esprit d'une autre",
+   "limites": [
+    "un sort inverse pour revenir"
+   ],
+   "statut": "E",
+   "ep": [
+    "S04E07"
+   ]
+  },
+  {
+   "id": "potion-de-scission",
+   "nom": "Potion de scission",
+   "fente": "potion",
+   "effet": "détruit la moitié démoniaque d'un hybride, laisse l'humain sans pouvoirs",
+   "limites": [
+    "faite de la chair de l'hybride"
+   ],
+   "statut": "E",
+   "ep": [
+    "S04E08"
+   ]
+  },
+  {
+   "id": "anneau-d-inspiration",
+   "nom": "Anneau d'inspiration",
+   "fente": "talisman",
+   "effet": "rend les muses visibles",
+   "limites": [],
+   "statut": "E",
+   "ep": [
+    "S04E09"
+   ]
+  },
+  {
+   "id": "sort-du-desir-du-coeur",
+   "nom": "Sort du désir du cœur",
+   "fente": "formule",
+   "effet": "fait venir le soi d'autrefois et celui d'après",
+   "limites": [
+    "ils restent jusqu'à la réponse entendue"
+   ],
+   "statut": "E",
+   "ep": [
+    "S04E14"
+   ]
+  },
+  {
+   "id": "sort-d-effacement",
+   "nom": "Sort d'effacement d'apparence",
+   "fente": "formule",
+   "effet": "cache sur un corps ce qu'on ne veut pas montrer",
+   "limites": [
+    "l'apparence seule change"
+   ],
+   "statut": "E",
+   "ep": [
+    "S04E13"
+   ]
+  },
+  {
+   "id": "cercle-de-cristaux",
+   "nom": "Cercle de cristaux",
+   "fente": "talisman",
+   "effet": "enferme un être sur place le temps d'un sort",
+   "limites": [],
+   "statut": "E",
+   "ep": [
+    "S04E20"
+   ]
+  },
+  {
+   "id": "sort-d-escamotage",
+   "nom": "Sort d'escamotage",
+   "fente": "formule",
+   "effet": "efface la trace visible d'un événement",
+   "limites": [
+    "n'efface pas ce qui s'est passé"
+   ],
+   "statut": "E",
+   "ep": [
+    "S04E21"
+   ]
+  },
+  {
+   "id": "sort-de-l-amour-perdu",
+   "nom": "Sort de l'amour perdu",
+   "fente": "formule",
+   "effet": "projette auprès de l'être aimé, où qu'il soit",
+   "limites": [
+    "un sort inverse ramène"
+   ],
+   "statut": "E",
+   "ep": [
+    "S04E22"
+   ]
+  },
+  {
+   "id": "eau-benite-et-pieu",
+   "nom": "Eau bénite et pieu",
+   "fente": "objet",
+   "effet": "repoussent et blessent les vampires",
+   "limites": [
+    "ne défont pas une conversion"
+   ],
+   "statut": "E",
+   "ep": [
+    "S04E18"
+   ]
+  }
+ ]
+}

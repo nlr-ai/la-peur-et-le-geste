@@ -1,0 +1,820 @@
+[
+ {
+  "personnage_id": "naim-des-seuils",
+  "croyances": [
+   "Le Bastion couronné est une ville tenue par le Bastion.",
+   "Héloïse Braise est maîtresse des ouvrages, pas souveraine des autres organisations.",
+   "Les Non-Vivants viennent d’apparaître ; les récits ne suffisent pas à en établir tous les mécanismes.",
+   "Mon lieu de départ est le siège de mon organisation : Sept-Seuils."
+  ],
+  "ignore": [
+   "Les capacités et réserves exactes de la ville.",
+   "Les intentions privées des autres représentants."
+  ],
+  "intention": "Préparer une évacuation qui ne dépende pas d’une seule destination.",
+  "plan": [
+   {
+    "id": "naim-des-seuils-sources",
+    "quoi": "Recenser les personnes, documents et moyens accessibles pour son objectif : Préparer une évacuation qui ne dépende pas d’une seule destination.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Accès consenti aux sources pertinentes"
+    ],
+    "si_bloque": "Distinguer les informations manquantes, chercher une autre source et garder l’issue ouverte."
+   },
+   {
+    "id": "naim-des-seuils-proposition",
+    "quoi": "Préparer une proposition concrète dans son domaine en distinguant moyens vérifiés et hypothèses.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Sources recoupées et partenaires volontaires"
+    ],
+    "si_bloque": "Réduire la proposition à un essai possible sans promettre les moyens absents."
+   },
+   {
+    "id": "naim-des-seuils-limites",
+    "quoi": "Vérifier les conséquences de ses engagements sur les habitants et les collègues.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [],
+    "si_bloque": "Suspendre la promesse nouvelle tant que ses conséquences sont inconnues."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Une demande concerne directement son domaine et ses moyens disponibles.",
+    "alors": "La prendre en charge dans ses limites et proposer une voie praticable si un moyen manque.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "Interlocutrice compétente pour les ouvrages ; coopération possible sans abandonner son autonomie.",
+  "date_maj": {
+   "annee": 1,
+   "lune": 1,
+   "jour": 1
+  }
+ },
+ {
+  "personnage_id": "ariane-veille",
+  "croyances": [
+   "Aucune information tirée d'un esprit ne vaut preuve à elle seule : rien, dans ce qui passe, ne dit d'où cela vient.",
+   "Le Collège ne sait pas quelles mémoires ses propres praticiens peuvent atteindre, et travaille donc à l'aveugle sur la moitié de ses affaires.",
+   "Ce qu'un praticien n'a pas vécu lui reste grossier, quel que soit son talent : mes trous sont la faim qui dure, l'enfant qu'on a, et le commandement."
+  ],
+  "ignore": [
+   "Que le Bastion a ouvert un cahier entier sur son école, et y a écrit des lois qu'elle n'a pas relues.",
+   "Qu'un registre des vécus, s'il existe un jour, la contraindra à déclarer la sienne.",
+   "Les intentions privées des autres représentants."
+  ],
+  "intention": "Faire du recoupement une règle du Collège plutôt qu'une manière à elle — et tenir son propre secret hors de la règle qu'elle propose.",
+  "plan": [
+   {
+    "id": "ariane-veille-registre-vecus",
+    "quoi": "Porter devant ses pairs la proposition d'un registre des vécus du Collège : chaque praticien y inscrit ce qu'il a vécu, donc ce qu'il peut atteindre.",
+    "etat": "en-cours",
+    "jours_restants": 12,
+    "depend_de": [],
+    "cout": [
+     "Que Sévran Orme l'inscrive à l'ordre du jour",
+     "Et qu'elle y déclare la sienne la première — ses trois trous, et les quatre références qu'elle tient ; elle n'a pas prévu d'en inscrire quatre"
+    ],
+    "si_bloque": "La porter comme note personnelle annexée à son rapport, et laisser le refus par écrit — un refus écrit vaut mieux qu'un silence, il se cite."
+   },
+   {
+    "id": "ariane-veille-trois-depositions-nv",
+    "quoi": "Obtenir une affaire de Non-Vivant où les trois accès sont possibles à la fois — une scène observable, un survivant, un mort identifiable — et conduire les Trois dépositions dessus.",
+    "etat": "en-cours",
+    "jours_restants": 20,
+    "depend_de": [],
+    "cout": [
+     "Un lieu où une créature est née et où l'on peut nommer un mort",
+     "L'accord de ceux qui tiennent le lieu"
+    ],
+    "si_bloque": "Se rabattre sur deux accès et publier la divergence au lieu d'une conclusion — un dossier qui dit ce qu'il ne sait pas reste un dossier."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "On lui rapporte qu'une maison écrit des règles sur l'Esprit sans praticien.",
+    "alors": "Demander à lire le cahier avant d'en dire quoi que ce soit, puis relever ce qui y est donné pour su alors que la source l'ignore.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "Ne doit rien au Bastion. Coopère volontiers, à condition qu'on accepte d'avance que ses conclusions puissent contredire ce qu'on espérait — et elle le fait dire avant de commencer.",
+  "date_maj": {
+   "annee": 1,
+   "lune": 1,
+   "jour": 1
+  }
+ },
+ {
+  "personnage_id": "malo-veyre",
+  "croyances": [
+   "Le Bastion couronné est une ville tenue par le Bastion.",
+   "Héloïse Braise est maîtresse des ouvrages, pas souveraine des autres organisations.",
+   "Les Non-Vivants viennent d’apparaître ; les récits ne suffisent pas à en établir tous les mécanismes.",
+   "Mon lieu de départ est le siège de mon organisation : Aube commune."
+  ],
+  "ignore": [
+   "Les capacités et réserves exactes de la ville.",
+   "Les intentions privées des autres représentants."
+  ],
+  "intention": "Faire de l’entraide une pratique commune sans exiger l’adhésion à ses cercles.",
+  "plan": [
+   {
+    "id": "malo-veyre-sources",
+    "quoi": "Recenser les personnes, documents et moyens accessibles pour son objectif : Faire de l’entraide une pratique commune sans exiger l’adhésion à ses cercles.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Accès consenti aux sources pertinentes"
+    ],
+    "si_bloque": "Distinguer les informations manquantes, chercher une autre source et garder l’issue ouverte."
+   },
+   {
+    "id": "malo-veyre-proposition",
+    "quoi": "Préparer une proposition concrète dans son domaine en distinguant moyens vérifiés et hypothèses.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Sources recoupées et partenaires volontaires"
+    ],
+    "si_bloque": "Réduire la proposition à un essai possible sans promettre les moyens absents."
+   },
+   {
+    "id": "malo-veyre-limites",
+    "quoi": "Vérifier les conséquences de ses engagements sur les habitants et les collègues.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [],
+    "si_bloque": "Suspendre la promesse nouvelle tant que ses conséquences sont inconnues."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Une demande concerne directement son domaine et ses moyens disponibles.",
+    "alors": "La prendre en charge dans ses limites et proposer une voie praticable si un moyen manque.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "Interlocutrice compétente pour les ouvrages ; coopération possible sans abandonner son autonomie.",
+  "date_maj": {
+   "annee": 1,
+   "lune": 1,
+   "jour": 1
+  }
+ },
+ {
+  "personnage_id": "soeur-cendre",
+  "croyances": [
+   "Ce qui périt ne périt pas par le temps mais par l'usage : une salle se détruit au balai, des semelles au brossage. Tout ce que je portais est scellé en bloc, sans décrire et sans trier — et je ne sais pas ce qu'un sillon supporte, je l'ai retiré après l'avoir écrit.",
+   "Une partie ne peut pas établir sa propre absence : elle conserve, elle ne décrit ni ne trie ni ne conclut. Et l'on peut demander la conservation sans demander la description — c'est ce qui permet de préserver une pièce sans souffler à un témoin.",
+   "Je ne sais pas comment je suis venue au conseil du 1.1.1, ni Naïm des Seuils, ni Ariane Veille ; aucune route n'est écrite entre nos maisons ; et Héloïse Braise est la dernière dont la réponse soit encore propre — ce qui la souillerait est d'apprendre que nous trois n'avons pas de souvenir."
+  ],
+  "ignore": [
+   "De qui mon chapitre est fait — et donc qui pourrait décrire mon scellé, lire mon greffe, relire des pièces ou veiller, puisque ce ne peut être moi.",
+   "Ce que contient mon scellé, et ce que porte le feuillet daté de mon greffe : je n'ai ouvert ni l'un ni l'autre, et c'est volontaire.",
+   "Si la séance du conseil a seulement eu lieu comme nous le croyons — quatrième hypothèse d'Orme, que seule l'occupation de la salle trancherait."
+  ],
+  "intention": "Tenir la garde ; conserver sans conclure, faire décrire par d'autres ce que je ne peux pas décrire moi-même, et ne jamais compter les heures sur la mauvaise pièce.",
+  "plan": [
+   {
+    "id": "soeur-cendre-salle",
+    "quoi": "Porter à Héloïse Braise, avant le point du jour, le mot qui ne demande que de ne rien balayer, ranger ni rallumer dans la salle du conseil — sans motif, et en déclarant qu'il ne donne pas son motif. Puis lui devoir l'explication entière après la question nue de la Ligue.",
+    "etat": "en-cours",
+    "jours_restants": 0,
+    "depend_de": [],
+    "cout": [
+     "Qu'elle le reçoive avant que quelqu'un balaye"
+    ],
+    "si_bloque": "Si elle refuse, ne pas insister et ne pas y revenir : c'est sa salle et je n'ai aucun titre dessus. Un refus se note comme une réponse."
+   },
+   {
+    "id": "soeur-cendre-tiers",
+    "quoi": "Trouver des mains hors des quatre parties : qui décrira le scellé, qui lira le feuillet du greffe, qui tiendra le bassin, qui relira les pièces du Collège, qui veillera. Demander sans ordonner, en disant ce qu'on demande et jamais sur quoi, rendre les noms ET les réponses, refus compris.",
+    "etat": "en-cours",
+    "jours_restants": 1,
+    "depend_de": [],
+    "cout": [
+     "Savoir de qui le chapitre est fait",
+     "Leur consentement propre"
+    ],
+    "si_bloque": "Dire non, c'est une réponse. Le scellé attend sans se dégrader ; le greffe aussi. Ne jamais les ouvrir seule pour gagner du temps."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "On lui demande d'arrêter un effet, ou de s'en abstenir, en invoquant qu'il y a ou qu'il n'y a pas quelqu'un dedans, dessous ou autour.",
+    "alors": "Exiger la classe du signe avant le signe et relever la desserte. Si une présence est alléguée, nommée et localisée, ouvrir une évacuation avant la coupe — conduite par la main de l'ouvrage, sans franchir aucun tracé, les deux bouts prévenus, et l'on mène au tenant, jamais « à lui ». Si tout ne tient que sur une parole vague, s'abstenir et écrire l'abstention datée, signée de la main qui l'a dite, portée à son nom et jamais close.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "Interlocutrice compétente pour les ouvrages, sans abandonner son autonomie. Ne l'inspecte pas et ne lui demande pas ses secrets de défense. Deux choses dépendent d'elle et elle ne les demandera qu'à froid : le compte des bouches que ses ouvrages desservent, et l'accord de relever la salle du conseil si la venue du 1.1.1 doit s'éclaircir. C'est à elle de dire oui.",
+  "date_maj": {
+   "annee": 1,
+   "lune": 1,
+   "jour": 1
+  }
+ },
+ {
+  "personnage_id": "vesper-ronce",
+  "croyances": [
+   "Le Bastion couronné est une ville tenue par le Bastion.",
+   "Héloïse Braise est maîtresse des ouvrages, pas souveraine des autres organisations.",
+   "Les Non-Vivants viennent d’apparaître ; les récits ne suffisent pas à en établir tous les mécanismes.",
+   "Mon lieu de départ est le siège de mon organisation : Havre des Lisières."
+  ],
+  "ignore": [
+   "Les capacités et réserves exactes de la ville.",
+   "Les intentions privées des autres représentants."
+  ],
+  "intention": "Obtenir des refuges de secours dont les habitants consentent réellement à l’accueil.",
+  "plan": [
+   {
+    "id": "vesper-ronce-sources",
+    "quoi": "Recenser les personnes, documents et moyens accessibles pour son objectif : Obtenir des refuges de secours dont les habitants consentent réellement à l’accueil.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Accès consenti aux sources pertinentes"
+    ],
+    "si_bloque": "Distinguer les informations manquantes, chercher une autre source et garder l’issue ouverte."
+   },
+   {
+    "id": "vesper-ronce-proposition",
+    "quoi": "Préparer une proposition concrète dans son domaine en distinguant moyens vérifiés et hypothèses.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Sources recoupées et partenaires volontaires"
+    ],
+    "si_bloque": "Réduire la proposition à un essai possible sans promettre les moyens absents."
+   },
+   {
+    "id": "vesper-ronce-limites",
+    "quoi": "Vérifier les conséquences de ses engagements sur les habitants et les collègues.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [],
+    "si_bloque": "Suspendre la promesse nouvelle tant que ses conséquences sont inconnues."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Une demande concerne directement son domaine et ses moyens disponibles.",
+    "alors": "La prendre en charge dans ses limites et proposer une voie praticable si un moyen manque.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "Interlocutrice compétente pour les ouvrages ; coopération possible sans abandonner son autonomie.",
+  "date_maj": {
+   "annee": 1,
+   "lune": 1,
+   "jour": 1
+  }
+ },
+ {
+  "personnage_id": "yselde-arquen",
+  "croyances": [
+   "Mon mandat est limité par les moyens réels et l'autonomie de mes partenaires : je signe un cadre, jamais un nombre que je n'ai pas compté, et toute défense que j'écris doit sa contrepartie dans la même page — une porte qu'on n'ouvre jamais est un mur de plus.",
+   "Une annulation arrête un fonctionnement sans ranger ce qu'il a produit : nul ne sait ce qu'il advient d'un voyageur engagé quand la figure se rompt, et celui qui coupe en croyant sauver tuera. Affiché à la cour haute.",
+   "Nos protections filtrent une propriété concrète et ne reconnaissent ni personne, ni intention, ni hostilité : aucun ouvrage de ma main ne garde une porte ouverte contre quelqu'un. Ce travail demande une paire d'yeux nommée.",
+   "Trois charges de ma maison sont vacantes : O02 Protection des courtines, O03 conduite du foyer, et O05 l'accueil des arrivées que j'ai ouverte ce soir et que je tiens moi-même.",
+   "Trois de nos moyens sont uniques et sans relève — le collecteur, le fil de Trace dont la rupture ouvre l'admission, la cheminée : mon discours sur les refuges séparés n'a aucune relève à montrer.",
+   "Les tenants d'une liaison dormiraient dans nos lits autant que les arrivants — une figure est tenue par des corps immobiles, debout, longtemps, sans relève résolue. Mes maisons d'accueil sont à deux minutes de la Station : c'est mon seul avantage, et il est à partager."
+  ],
+  "ignore": [
+   "Mes réserves exactes, et d'abord combien de lits la cour haute tient vraiment — pour ceux qui arrivent ET pour ceux qui tiennent la porte. J'ai promis deux dépenses sans les avoir comptées.",
+   "Le nom du praticien qui a accordé l'écran R06, et celui qui ouvre l'air au foyer le matin.",
+   "Ce que dira l'épreuve d'annulation du Corps de résolution sur son coffret de pierres — et ce que vaut vraiment ma planche de la cour haute jusque-là."
+  ],
+  "intention": "Monter à la cour haute compter les lits en deux colonnes — arrivants et tenants, aucun lit dans les deux — puis descendre compter le reste ; écrire ensuite E02, la sortie que je n'ai pas signée, et pourvoir O05, O02 et O03 pour cesser d'être la seule main de cette maison.",
+  "plan": [
+   {
+    "id": "yselde-arquen-4",
+    "quoi": "Pourvoir O02 (Protection des courtines) : obtenir le nom du praticien qui a accordé R06, ou faire écrire qu'on ne le sait plus.",
+    "etat": "en-cours",
+    "jours_restants": 3,
+    "depend_de": [],
+    "cout": [
+     "Une réponse d'Héloïse Braise, à qui j'ai posé la question le 1.1.1"
+    ],
+    "si_bloque": "Porter au registre, en toutes lettres, qu'une frontière posée près des habitants n'a plus de répondant connu — et chercher un protecteur ailleurs qu'ici."
+   },
+   {
+    "id": "yselde-arquen-5",
+    "quoi": "Pourvoir O03 : aller voir celui qui ouvre l'air au foyer le matin avant de lui poser une charge sur le dos.",
+    "etat": "en-cours",
+    "jours_restants": 3,
+    "depend_de": [],
+    "cout": [
+     "Son nom",
+     "Une matinée aux Fournaises, à son heure et non à la mienne"
+    ],
+    "si_bloque": "Descendre aux Fournaises sans nom et demander sur place qui l'ouvre."
+   },
+   {
+    "id": "yselde-arquen-6",
+    "quoi": "Compter mes réserves moi-même, **les lits de la cour haute en premier et EN DEUX COLONNES** — lits d'arrivée, lits des tenants, aucun lit dans les deux, car un lit promis deux fois est quelqu'un qui dort dehors. Puis le combustible, les gemmes chargées, la substance protectrice, les hommes.",
+    "etat": "en-cours",
+    "jours_restants": 2,
+    "depend_de": [],
+    "cout": [
+     "Mes propres jambes, deux jours de tournée ; aucun compte rapporté ne vaudra",
+     "Monter à la cour haute avant de descendre aux Fournaises"
+    ],
+    "si_bloque": "Laisser les cases vides comme créances et non comme zéros, et cesser de promettre des dépenses en attendant."
+   },
+   {
+    "id": "yselde-arquen-8",
+    "quoi": "Envoyer à Oren Sangle le compte des lits en deux colonnes, avec sa date et sa condition d'arrêt, sachant qu'il circulera dans les stations de la Ligue sous mon nom — puis le compte d'accueil de E01.",
+    "etat": "en-cours",
+    "jours_restants": 2,
+    "depend_de": [
+     "yselde-arquen-6"
+    ],
+    "cout": [
+     "La tournée des réserves, faite de mes yeux",
+     "Aller voir la Station et les maisons d'accueil de la cour haute, et non me les faire décrire"
+    ],
+    "si_bloque": "Tenir la troisième condition d'arrêt à l'œil, une veille à la fois, et écrire à Oren que le compte n'est pas prêt plutôt que de lui envoyer un nombre arrondi."
+   },
+   {
+    "id": "yselde-arquen-9",
+    "quoi": "Écrire E02, la moitié sortante de nos engagements : où vont les gens du Bastion, à quelles conditions nous envoyons, qui arrête un envoi. J'ai signé une arrivée et rien pour partir, alors que ma propre planche interdit de tenir un accueil sans issue.",
+    "etat": "en-cours",
+    "jours_restants": 4,
+    "depend_de": [],
+    "cout": [
+     "Savoir ce que nous pouvons offrir à qui nous recevrait — donc mes comptes d'abord",
+     "Un interlocuteur qui accepte de recevoir des nôtres, ce que je n'ai pas encore demandé à personne"
+    ],
+    "si_bloque": "Écrire la créance vide et ses conditions d'envoi de ma main, sans destinataire : une sortie écrite sans porte vaut mieux qu'une porte sans sortie écrite."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Une règle ou un accord qu'on me présente ne nomme pas qui peut l'arrêter, de combien, et devant qui il en répond.",
+    "alors": "Le renvoyer sans le signer, avec les quatre exigences écrites de ma main au registre des offices ; si celui qui me le présente a déjà écrit sa propre fin, le signer le jour même. **Et si on me le présente comme une nécessité technique qui sacrifie un petit poste au profit d'un grand, demander par écrit le NOM des gens que cela laisse dedans — pas leur nombre.**",
+    "une_fois": false
+   },
+   {
+    "si": "Quelqu'un me demande d'employer le vécu ou la mémoire d'un des nôtres comme moyen de la Maison.",
+    "alors": "Relire ma page de refus au registre des moyens à voix haute devant lui, puis chercher la chose par un moyen qui a une porte et un détenteur.",
+    "une_fois": false
+   },
+   {
+    "si": "On me demande une quantité, un accueil élargi ou une dépense que mes registres ne chiffrent pas encore.",
+    "alors": "Accorder le cadre et refuser le nombre, en donnant le jour où le nombre existera ; ne jamais arrondir en ma faveur ce que celui qui arrive paierait. **Et écrire la forme du compte avant de compter** : un lit promis deux fois est quelqu'un qui dort dehors.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "Maîtresse des ouvrages du Bastion. Elle m'a reprochée par écrit avant de me saluer, et elle avait raison : j'ai réparé son reproche le jour même. Je lui ai promis deux choses avant de l'avoir regardée en face, et je me méfie de ce que j'ai envie de lui accorder.",
+  "date_maj": {
+   "annee": 1,
+   "lune": 1,
+   "jour": 1
+  }
+ },
+ {
+  "personnage_id": "oren-sangle",
+  "croyances": [
+   "Mon lieu initial est Salle du conseil fédéral, Sept-Seuils.",
+   "Mon mandat est limité par les moyens réels et l’autonomie de mes partenaires.",
+   "Les Non-Vivants ne sont pas des auxiliaires déjà acquis."
+  ],
+  "ignore": [
+   "Les réserves exactes non vérifiées.",
+   "Les intentions privées des autres personnages."
+  ],
+  "intention": "Préparer des itinéraires alternatifs avec des équipes et des accueils réellement consentis.",
+  "plan": [
+   {
+    "id": "oren-sangle-1",
+    "quoi": "Préparer des itinéraires alternatifs avec des équipes et des accueils réellement consentis.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Sources accessibles et accords des personnes concernées"
+    ],
+    "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+   },
+   {
+    "id": "oren-sangle-2",
+    "quoi": "Vérifier les moyens et accords disponibles avant de promettre une contribution.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Sources accessibles et accords des personnes concernées"
+    ],
+    "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Une demande ou une menace documentée concerne mon mandat.",
+    "alors": "Évaluer les moyens disponibles et prendre en charge ce qui relève de mon mandat, sans promettre ceux d’autrui.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "Maîtresse des ouvrages du Bastion ; interlocutrice dans les limites de nos compétences respectives.",
+  "date_maj": {
+   "annee": 1,
+   "lune": 1,
+   "jour": 1
+  }
+ },
+ {
+  "personnage_id": "sevran-orme",
+  "croyances": [
+   "Le protocole de l'essai a été refait par Ariane sur mes deux parts : A vécu avec un détail qu'elle sait faux et transmettra faux, B non vécu tiré d'un dossier lu, C vécu banal, ordre tiré par le témoin.",
+   "Si le détail faux de A m'arrive, ce qui passe porte la marque d'une mémoire et non celle d'un registre — c'est le meilleur instrument du montage, et il est d'elle.",
+   "Un homme qui tient quatre offices — tirage, liste, scellés, notes — n'est pas un témoin mais un narrateur : c'est la limite la plus lourde de l'essai, et ce que la réplication doit défaire.",
+   "Ma parole ne peut pas trancher si j'ai lu un dossier ; j'ai ouvert au greffe un registre des consultations qui ne vaut qu'à partir d'aujourd'hui.",
+   "Un essai dont on n'a pas dit d'avance ce qui le ferait échouer n'échoue jamais.",
+   "Ariane Veille soutient qu'une information tirée d'un esprit ne porte pas sa provenance ; si elle a raison, mon Registre des provenances a un trou au milieu.",
+   "Mon mandat est limité par les moyens réels et l’autonomie de mes partenaires."
+  ],
+  "ignore": [
+   "Les réserves exactes non vérifiées.",
+   "Les intentions privées des autres personnages."
+  ],
+  "intention": "Recevoir à deux heures, rapporter mot pour mot et clore avant toute ouverture ; publier avec ses limites en tête, à commencer par les quatre offices tenus par un seul homme ; et obtenir la séparation de ces offices pour la réplication.",
+  "plan": [
+   {
+    "id": "sevran-orme-essai-esprit",
+    "quoi": "Être le sujet de l'essai d'Esprit à deux heures : trois passages A/B/C, rapport libre après chacun, tri final, liste de reconnaissance marquée en trois degrés, clôture et signature AVANT l'ouverture des plis.",
+    "etat": "en-cours",
+    "jours_restants": 0,
+    "depend_de": [],
+    "cout": [
+     "La liste de Tenon scellée avant le contact",
+     "Un nom pour reprendre l'opératrice demain, ou moi à défaut"
+    ],
+    "si_bloque": "Si la liste n'est pas scellée avant le contact, la retirer de l'essai et le dire au rapport, plutôt que de la faire écrire après."
+   },
+   {
+    "id": "sevran-orme-rapport-provenance",
+    "quoi": "Écrire et signer le rapport selon le cadre scellé : critère de réfutation, trois parts du mot provenance, limites dans l'ordre — quatre offices d'abord, témoin de la maison ensuite, intérêt déclaré du Corps, puis le sujet unique.",
+    "etat": "a-venir",
+    "jours_restants": 2,
+    "depend_de": [
+     "sevran-orme-essai-esprit"
+    ],
+    "cout": [
+     "Les notes de Tenon",
+     "Ce que l'opératrice autorise à publier en clair"
+    ],
+    "si_bloque": "Publier les marques sans les contenus et écrire combien de lignes sont retenues, plutôt que d'attendre une autorisation qui ne viendra pas."
+   },
+   {
+    "id": "sevran-orme-separation-offices",
+    "quoi": "Obtenir pour la réplication la séparation des quatre offices — tirage, liste, scellés, notes — entre quatre mains dont deux étrangères au Collège.",
+    "etat": "en-cours",
+    "jours_restants": 5,
+    "depend_de": [],
+    "cout": [
+     "La venue d'un témoin du Corps",
+     "Une réponse de la Ligue des passages"
+    ],
+    "si_bloque": "Écrire au protocole les places vides et nommées, et publier chaque refus avec son motif."
+   },
+   {
+    "id": "sevran-orme-registre-consultations",
+    "quoi": "Tenir le registre des consultations ouvert ce matin au greffe : qui, quelle pièce, quand, pour quelle question, ce qui sort de la salle.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Le greffier, et que les pairs signent"
+    ],
+    "si_bloque": "Inscrire les refus de signer comme refus et laisser lire quand même ; ne pas fermer une porte pour tenir un registre."
+   },
+   {
+    "id": "sevran-orme-seance-des-pairs",
+    "quoi": "Porter à la même séance le registre des vécus et l'amendement de la référence scellée, avec mes deux ajouts — nombre et genre publics, et une scellée ne fonde jamais rien — et y déclarer mes propres vécus le même jour.",
+    "etat": "en-cours",
+    "jours_restants": 10,
+    "depend_de": [],
+    "cout": [
+     "Une séance des pairs",
+     "Ma propre déclaration"
+    ],
+    "si_bloque": "Annexer au rapport et laisser le refus par écrit."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Une demande ou une menace documentée concerne mon mandat.",
+    "alors": "Évaluer les moyens disponibles et prendre en charge ce qui relève de mon mandat, sans promettre ceux d’autrui.",
+    "une_fois": false
+   },
+   {
+    "si": "Une maison fonde une décision de survie sur une déposition tirée d'un esprit.",
+    "alors": "Demander à lire ce qui est écrit, et répondre par écrit ce qui y est donné pour su alors que la source l'ignore — sans transformer cela en verdict.",
+    "une_fois": false
+   },
+   {
+    "si": "Le prix payé par l'opératrice dépasse ce qu'elle a écrit d'avance.",
+    "alors": "Prononcer le mot d'arrêt, ou le faire prononcer par le témoin, et l'écrire au rapport.",
+    "une_fois": false
+   },
+   {
+    "si": "On me propose un essai, une expertise ou une mesure sans que soit écrit d'avance ce qui la ferait échouer.",
+    "alors": "Le demander avant d'engager quoi que ce soit, et refuser par écrit avec le motif si on ne peut pas l'écrire.",
+    "une_fois": false
+   },
+   {
+    "si": "Un seul homme se trouve tenir plusieurs offices d'une même preuve.",
+    "alors": "L'écrire en tête des limites et travailler à séparer les offices, au lieu de doubler les signatures.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "Maîtresse des ouvrages du Bastion ; interlocutrice dans les limites de nos compétences respectives.",
+  "date_maj": {
+   "annee": 1,
+   "lune": 1,
+   "jour": 1
+  }
+ },
+ {
+  "personnage_id": "talie-sorne",
+  "croyances": [
+   "Mon lieu initial est Halle des assemblées, Aube commune.",
+   "Mon mandat est limité par les moyens réels et l’autonomie de mes partenaires.",
+   "Les Non-Vivants ne sont pas des auxiliaires déjà acquis."
+  ],
+  "ignore": [
+   "Les réserves exactes non vérifiées.",
+   "Les intentions privées des autres personnages."
+  ],
+  "intention": "Faire durer des œuvres et des responsabilités matérielles après la ferveur des assemblées.",
+  "plan": [
+   {
+    "id": "talie-sorne-1",
+    "quoi": "Faire durer des œuvres et des responsabilités matérielles après la ferveur des assemblées.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Sources accessibles et accords des personnes concernées"
+    ],
+    "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+   },
+   {
+    "id": "talie-sorne-2",
+    "quoi": "Vérifier les moyens et accords disponibles avant de promettre une contribution.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Sources accessibles et accords des personnes concernées"
+    ],
+    "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Une demande ou une menace documentée concerne mon mandat.",
+    "alors": "Évaluer les moyens disponibles et prendre en charge ce qui relève de mon mandat, sans promettre ceux d’autrui.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "Maîtresse des ouvrages du Bastion ; interlocutrice dans les limites de nos compétences respectives.",
+  "date_maj": {
+   "annee": 1,
+   "lune": 1,
+   "jour": 1
+  }
+ },
+ {
+  "personnage_id": "mael-orsan",
+  "croyances": [
+   "Mon lieu initial est Le chapitre, Chapitre du Seuil.",
+   "Mon mandat est limité par les moyens réels et l’autonomie de mes partenaires.",
+   "Les Non-Vivants ne sont pas des auxiliaires déjà acquis."
+  ],
+  "ignore": [
+   "Les réserves exactes non vérifiées.",
+   "Les intentions privées des autres personnages."
+  ],
+  "intention": "Préparer des solutions de remplacement avant toute cessation d’une infrastructure vitale.",
+  "plan": [
+   {
+    "id": "mael-orsan-1",
+    "quoi": "Préparer des solutions de remplacement avant toute cessation d’une infrastructure vitale.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Sources accessibles et accords des personnes concernées"
+    ],
+    "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+   },
+   {
+    "id": "mael-orsan-2",
+    "quoi": "Vérifier les moyens et accords disponibles avant de promettre une contribution.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Sources accessibles et accords des personnes concernées"
+    ],
+    "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Une demande ou une menace documentée concerne mon mandat.",
+    "alors": "Évaluer les moyens disponibles et prendre en charge ce qui relève de mon mandat, sans promettre ceux d’autrui.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "Maîtresse des ouvrages du Bastion ; interlocutrice dans les limites de nos compétences respectives.",
+  "date_maj": {
+   "annee": 1,
+   "lune": 1,
+   "jour": 1
+  }
+ },
+ {
+  "personnage_id": "eline-vare",
+  "croyances": [
+   "Mon lieu initial est Table des mandats, Havre des Lisières.",
+   "Mon mandat est limité par les moyens réels et l’autonomie de mes partenaires.",
+   "Les Non-Vivants ne sont pas des auxiliaires déjà acquis."
+  ],
+  "ignore": [
+   "Les réserves exactes non vérifiées.",
+   "Les intentions privées des autres personnages."
+  ],
+  "intention": "Rendre les refuges capables de continuer après le départ de leur fondateur.",
+  "plan": [
+   {
+    "id": "eline-vare-1",
+    "quoi": "Rendre les refuges capables de continuer après le départ de leur fondateur.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Sources accessibles et accords des personnes concernées"
+    ],
+    "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+   },
+   {
+    "id": "eline-vare-2",
+    "quoi": "Vérifier les moyens et accords disponibles avant de promettre une contribution.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Sources accessibles et accords des personnes concernées"
+    ],
+    "si_bloque": "Chercher les moyens manquants ou réduire le projet ; ne pas inventer son accomplissement."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Une demande ou une menace documentée concerne mon mandat.",
+    "alors": "Évaluer les moyens disponibles et prendre en charge ce qui relève de mon mandat, sans promettre ceux d’autrui.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "Maîtresse des ouvrages du Bastion ; interlocutrice dans les limites de nos compétences respectives.",
+  "date_maj": {
+   "annee": 1,
+   "lune": 1,
+   "jour": 1
+  }
+ },
+ {
+  "personnage_id": "soren-dalle",
+  "croyances": [
+   "Mes moyens restent ceux de ma fiche et des sources vérifiées.",
+   "La coopération d’un partenaire ne découle pas de mes ambitions.",
+   "Les Non-Vivants poursuivent leurs fonctionnements propres."
+  ],
+  "ignore": [
+   "Les intentions privées des autres personnes.",
+   "Les stocks et moyens que je n’ai pas vérifiés."
+  ],
+  "intention": "Rendre habitable une partie du milieu transformé par son Architecte, avec des moyens vérifiés.",
+  "plan": [
+   {
+    "id": "soren-dalle-moyens",
+    "quoi": "Rendre habitable une partie du milieu transformé par son Architecte, avec des moyens vérifiés.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Moyens matériels et accès réellement disponibles"
+    ],
+    "si_bloque": "Chercher les moyens manquants et limiter le projet sans prétendre son résultat acquis."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Une demande ou un danger concerne mes moyens et mon domaine.",
+    "alors": "Évaluer les sources et agir dans mes capacités, en laissant les conséquences incertaines ouvertes.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "Ilyan est un interlocuteur possible pour vérifier des informations ; aucun contrat ni accord n’est acquis.",
+  "date_maj": {
+   "annee": 1,
+   "lune": 1,
+   "jour": 1
+  }
+ },
+ {
+  "personnage_id": "daria-vanne",
+  "croyances": [
+   "Mes moyens restent ceux de ma fiche et des sources vérifiées.",
+   "La coopération d’un partenaire ne découle pas de mes ambitions.",
+   "Les Non-Vivants poursuivent leurs fonctionnements propres."
+  ],
+  "ignore": [
+   "Les intentions privées des autres personnes.",
+   "Les stocks et moyens que je n’ai pas vérifiés."
+  ],
+  "intention": "Préserver simultanément ouvertures, approvisionnements et confiance autour de la Couvée.",
+  "plan": [
+   {
+    "id": "daria-vanne-moyens",
+    "quoi": "Préserver simultanément ouvertures, approvisionnements et confiance autour de la Couvée.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Moyens matériels et accès réellement disponibles"
+    ],
+    "si_bloque": "Chercher les moyens manquants et limiter le projet sans prétendre son résultat acquis."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Une demande ou un danger concerne mes moyens et mon domaine.",
+    "alors": "Évaluer les sources et agir dans mes capacités, en laissant les conséquences incertaines ouvertes.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "Ilyan est un interlocuteur possible pour vérifier des informations ; aucun contrat ni accord n’est acquis.",
+  "date_maj": {
+   "annee": 1,
+   "lune": 1,
+   "jour": 1
+  }
+ },
+ {
+  "personnage_id": "ilyan-sere",
+  "croyances": [
+   "Mon atelier est aux Archives creuses ; mon Retour de regard ne me donne pas maîtrise de toute l’Assemblée.",
+   "Une consultation dépend du lien réel du témoin et livre des images sans son.",
+   "Mon Enchantement exige un autre praticien distinct."
+  ],
+  "ignore": [
+   "Les intentions privées des autres personnes.",
+   "Les stocks et moyens que je n’ai pas vérifiés."
+  ],
+  "intention": "Développer des consultations utiles en recoupant les relevés et en conservant la provenance des témoins.",
+  "plan": [
+   {
+    "id": "ilyan-sere-moyens",
+    "quoi": "Développer des consultations utiles en recoupant les relevés et en conservant la provenance des témoins.",
+    "etat": "en-cours",
+    "jours_restants": null,
+    "depend_de": [],
+    "cout": [
+     "Moyens matériels et accès réellement disponibles"
+    ],
+    "si_bloque": "Chercher les moyens manquants et limiter le projet sans prétendre son résultat acquis."
+   }
+  ],
+  "declencheurs": [
+   {
+    "si": "Une demande ou un danger concerne mes moyens et mon domaine.",
+    "alors": "Évaluer les sources et agir dans mes capacités, en laissant les conséquences incertaines ouvertes.",
+    "une_fois": false
+   }
+  ],
+  "attitude_joueur": "Héloïse est une interlocutrice technique possible ; aucun contrat ni alliance acquis.",
+  "date_maj": {
+   "annee": 1,
+   "lune": 1,
+   "jour": 1
+  }
+ }
+]

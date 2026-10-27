@@ -1,0 +1,61 @@
+# Naïm des Seuils
+
+## 🚪 Le Maître des arrivées
+
+> « Ne me promettez pas une destination. Donnez-moi une équipe de l’autre côté. »
+
+**Organisation :** [La Ligue des passages](../organisations/02-ligue-des-passages.md)  
+**Fonction :** Coordinateur des liaisons d’urgence, sans autorité automatique sur les stations qui les tiennent.  
+**Nature :** humaine ou humain ; polymage entraîné.
+
+## 📌 Statut
+
+Personnage créé pour le nouvel univers humain. Son histoire, ses techniques et ses liens sont des propositions de fiction. Les techniques illustrent les [règles des magies](../MAGIES_ET_RELATIONS.md) sans fixer leurs chiffres de portée, coût ou durée. Les Non-Vivants sont désormais définis comme instinctifs et moralement neutres, supervisés par des mages retournés ambitieux ; voir [MONDE.md](../MONDE.md). Le mécanisme précis de la menace de fin du monde reste à concevoir.
+
+## 🎨 Présence
+
+Long manteau bleu dont la doublure porte les plans des stations ; gants brodés de figures géométriques. Il garde une clef ordinaire de chaque chambre où quelqu’un l’a hébergé.
+
+## 🧙 Magies et parcours
+
+| Magie | Accès | Maîtrise et usage |
+|---|---|---|
+| 🚪 Espace | Don inné, puis tutelle | Maîtrise majeure : géométrie et coordination des passages. |
+| ⚒️ Matière | Formation dans une école publique | Façonner les supports et remettre en état les installations physiques. |
+| 🏺 Enchantement | Apprentissage auprès des ateliers de stations | Préparer avec des partenaires les instruments nécessaires aux opérations. |
+
+Les compétences ne garantissent pas des pratiques simultanées. Aucun don inné supplémentaire n’est implicite.
+
+## ✨ Technique signature
+
+**La Place aux sept portes.** Plusieurs équipes ouvrent, selon un plan répété à l’avance, des liaisons vers des stations distinctes. Naïm dirige la succession des ouvertures et la distribution des voyageurs. En quelques opérations coordonnées, une place devient un carrefour d’évacuation. Sept est la configuration de son installation favorite, pas une limite universelle du système.
+
+### Seul
+
+Il peut diagnostiquer la géométrie d’une installation et travailler ses supports. Sans partenaires aux extrémités, son don ne lui permet pas une fuite improvisée.
+
+### Avec son organisation
+
+Il transforme des équipes autonomes en réseau opérationnel. Chaque destination peut refuser ou devenir indisponible : son talent inclut la négociation et les exercices communs.
+
+## 🔥 Désir et contradiction
+
+**Ce que ce personnage veut :** Faire reconnaître un droit de passage d’urgence indépendant de la richesse et de l’origine des voyageurs.
+
+**Ce qui peut le mettre en faute :** Il voit toujours une dernière personne à faire passer. Il retarde parfois une fermeture au risque de compromettre la suite des opérations.
+
+## ⚖️ Limites concrètes
+
+Aucune porte vers une destination sans équipe. Les matériaux, la capacité d’accueil et la relève des praticiens comptent autant que la géométrie. Les débits ne sont pas encore chiffrés.
+
+## 🤝 Liens personnels
+
+**Direction de l’organisation : [Oren Sangle](12-oren-sangle.md) — président du conseil fédéral.** Cette relation de direction est proposée ; elle conserve la fonction de terrain décrite dans la présente fiche. Voir sa fiche pour leur coopération et leurs tensions.
+
+Il travaille avec Vesper Ronce sur des destinations de secours et affronte régulièrement les demandes de fermeture de Sœur Cendre.
+
+Les autres personnages sont accessibles depuis l’[index](README.md). Ces liens sont proposés ; ils ne constituent pas une chronologie d’événements déjà joués.
+
+## 🎬 Scène d’introduction
+
+Une station annonce qu’elle ne recevra plus personne. Naïm quitte sa position de coordinateur, traverse avec les premiers réfugiés et vient demander l’accueil en personne.

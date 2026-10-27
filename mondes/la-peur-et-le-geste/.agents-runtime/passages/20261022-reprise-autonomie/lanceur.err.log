@@ -1,0 +1,32 @@
+(mj : codex, session 3b54cb19)
+Traceback (most recent call last):
+  File "C:\Users\reyno\la-peur-et-le-geste\scripts\passage_journee.py", line 4, in <module>
+    sys.exit(passage_journee_main())
+             ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\reyno\la-peur-et-le-geste\scripts\agents\passage_journee.py", line 63, in main
+    mj.appeler_mj(a.joueur, message, "POST")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\reyno\la-peur-et-le-geste\scripts\agents\mj.py", line 297, in appeler_mj
+    return _appeler_mj(de, mot, verbe, modele, minutes, refs, routage,
+                       ticket=ticket)
+  File "C:\Users\reyno\la-peur-et-le-geste\scripts\agents\mj.py", line 410, in _appeler_mj
+    rep = appeler_le_mj(texte)
+  File "C:\Users\reyno\la-peur-et-le-geste\scripts\agents\mj.py", line 390, in appeler_le_mj
+    return _appel_brut(message, env)
+  File "C:\Users\reyno\la-peur-et-le-geste\scripts\agents\mj.py", line 401, in _appel_brut
+    rep = agent_runtime.appeler(
+        role=mj, manuel=manuel, message=message, session_id=sid,
+    ...<2 lines>...
+        add_dirs=[RACINE, sa_chambre], tools=OUTILS, reprendre=None,
+        env=env)
+  File "C:\Users\reyno\la-peur-et-le-geste\scripts\agents\runtime.py", line 813, in appeler
+    resultat = _appel_claude(
+        manuel, message, session_id, modele, effort, timeout, cwd,
+        add_dirs, tools, settings, reprendre, environnement,
+        on_event, on_stderr, heartbeat, on_heartbeat)
+  File "C:\Users\reyno\la-peur-et-le-geste\scripts\agents\runtime.py", line 761, in _appel_claude
+    raise RuntimeError(("\n".join(erreurs) or
+                        sortie or
+                        "claude a quitte avec le code %d" % code)[-800:])
+RuntimeError: ce_geo":"","iterations":[],"speed":"standard","fallback_credit":null},"modelUsage":{},"permission_denials":[],"terminal_reason":"api_error","fast_mode_state":"off","fast_mode_disabled_reason":"sdk_opt_in_required","subagent_stats":{"spawned":0,"requested":{"background":0,"foreground":0,"unset":0},"started_in_background":0,"max_depth":0,"spawned_by_subagents":0,"completed":0,"failed":0,"killed":{"parent":0,"user":0,"system":0},"refused":{"depth_limit":0,"concurrency_limit":0,"budget":0},"by_type":{}},"safety_stops":0,"is_error":true,"num_turns":1,"subtype":"success","api_error_status":null,"result":"Failed to authenticate: OAuth session expired and could not be refreshed","type":"result","duration_ms":450,"uuid":"32fe94ea-7983-483a-8700-6b3d3d070469","queued_turn_count":0,"result_index":0}
+

@@ -1,0 +1,98 @@
+{
+ "id": "plan-offices",
+ "titre": "Responsables du bureau",
+ "type": "plan",
+ "maison_id": "bureau",
+ "lieu_id": "bureau",
+ "tenu_par": "maya",
+ "lecteurs": [
+  "maya",
+  "noor",
+  "hugo",
+  "ada",
+  "leo",
+  "iris",
+  "sam",
+  "zoe"
+ ],
+ "pages": [
+  "Affectations proposées pour ce chantier. Une responsabilité n’atteste ni réveil ni travail accompli."
+ ],
+ "tables": [
+  {
+   "titre": "🪶 Offices",
+   "colonnes": [
+    "🪶 N°",
+    "🪶 Office",
+    "👤 Le titulaire",
+    "Identifiant du profil"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "O01",
+      "Responsable produit",
+      "Maya",
+      "maya"
+     ]
+    },
+    {
+     "cellules": [
+      "O02",
+      "Chercheuse",
+      "Noor",
+      "noor"
+     ]
+    },
+    {
+     "cellules": [
+      "O03",
+      "Architecte logiciel",
+      "Hugo",
+      "hugo"
+     ]
+    },
+    {
+     "cellules": [
+      "O04",
+      "Développeuse",
+      "Ada",
+      "ada"
+     ]
+    },
+    {
+     "cellules": [
+      "O05",
+      "Designer et développeur d'interface",
+      "Léo",
+      "leo"
+     ]
+    },
+    {
+     "cellules": [
+      "O06",
+      "Ingénieure qualité",
+      "Iris",
+      "iris"
+     ]
+    },
+    {
+     "cellules": [
+      "O07",
+      "Ingénieur d'exploitation",
+      "Sam",
+      "sam"
+     ]
+    },
+    {
+     "cellules": [
+      "O08",
+      "Documentaliste",
+      "Zoé",
+      "zoe"
+     ]
+    }
+   ]
+  }
+ ]
+}

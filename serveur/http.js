@@ -3,7 +3,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const { RACINE } = require("./contexte");
+const { DEPOT } = require("./contexte");
 
 function envoyer(res, code, corps, type, entetes) {
   res.writeHead(code, Object.assign({
@@ -15,7 +15,7 @@ function envoyer(res, code, corps, type, entetes) {
 
 function fichierStatique(res, relatif, type) {
   try {
-    const corps = fs.readFileSync(path.join(RACINE, "ecrans", relatif));
+    const corps = fs.readFileSync(path.join(DEPOT, "ecrans", relatif));
     return envoyer(res, 200, corps, type);
   } catch (e) {
     return envoyer(res, 404, JSON.stringify({ erreur: relatif }));
@@ -37,7 +37,7 @@ function inlinerFigure(page) {
   const nom = String(page.figure);
   if (!/^[\w.-]+\.svg$/.test(nom) || nom.includes("..")) return;
   try {
-    const p = path.join(RACINE, "ecrans", "dessins", nom);
+    const p = path.join(DEPOT, "ecrans", "dessins", nom);
     if (fs.existsSync(p)) page.figure_svg = fs.readFileSync(p, "utf-8");
   } catch (e) {}
 }

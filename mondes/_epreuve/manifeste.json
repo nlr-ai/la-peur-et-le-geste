@@ -1,0 +1,13 @@
+{
+  "_": "LE MONDE D'EPREUVE. Il n'a ni histoire ni habitants : il existe pour que le moteur ait un monde a exercer qui ne soit NI Westeros NI Venise. Un test qui lit le monde reel est un test qui tombera le jour ou la partie avance, et qui un jour ecrira dedans.",
+  "id": "_epreuve",
+  "nom": "Le monde d'epreuve",
+  "calendrier": {"lunes": 12, "jours_par_lune": 30, "an_zero": 0, "dit": "an %(annee)d, %(lune)de lune, %(jour)de jour"},
+  "monnaie": {"unites": ["piece", "pieces"], "signe": "\u00a4"},
+  "titres": ["sieur", "dame"],
+  "unites": {},
+  "canaux": {"messager": {"vitesse": 1.0, "fiabilite": "sure"}},
+  "offices": {},
+  "signes": {},
+  "depart": {"lieu": "la-salle", "siege": "temoin"}
+}

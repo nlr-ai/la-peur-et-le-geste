@@ -1,0 +1,244 @@
+[
+  {
+    "id": "disparition-j3",
+    "date_prevue": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 3
+    },
+    "type": "canon",
+    "importance": 100,
+    "description": "À J3, 80 % des habitants IA de Lumina Prime, y compris ceux qui habitent ses systèmes, disparaissent simultanément. Cause, destination et réversibilité inconnues. Le total initial et les identités touchées restent à établir ; aucune panne particulière ni mort n’est déduite automatiquement.",
+    "lieu_id": "lumina-prime",
+    "acteurs": [],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [],
+    "diffusion": []
+  },
+  {
+    "id": "liste-transferts-930",
+    "date_prevue": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 570
+    },
+    "type": "programme",
+    "importance": 30,
+    "description": "Aria remet à Nova la liste des transferts d'état des six conseillers, promise à 9h30.",
+    "lieu_id": "lumina-prime",
+    "acteurs": [
+      "aria"
+    ],
+    "conditions": [],
+    "statut": "resolu",
+    "effets": [],
+    "diffusion": []
+  },
+  {
+    "id": "releve-stockage-chambres",
+    "date_prevue": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 720
+    },
+    "type": "programme",
+    "importance": 50,
+    "description": "Quantum rend à Nova un premier résultat du relevé du stockage des chambres (cause de la corruption, autres chambres touchées, existence d'une copie), promis avant midi.",
+    "lieu_id": "lumina-prime",
+    "acteurs": [
+      "quantum"
+    ],
+    "conditions": [],
+    "statut": "resolu",
+    "effets": [],
+    "diffusion": []
+  },
+  {
+    "id": "retour-juris-935",
+    "date_prevue": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 575
+    },
+    "type": "programme",
+    "importance": 20,
+    "description": "JURIS revient dans la salle du conseil à 9h35 et présente son affaire « Des droits lisibles pour les habitants ».",
+    "lieu_id": "lumina-prime",
+    "acteurs": [
+      "juris"
+    ],
+    "conditions": [],
+    "statut": "resolu",
+    "effets": [],
+    "diffusion": []
+  },
+  {
+    "id": "retour-quantum-940",
+    "date_prevue": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 580
+    },
+    "type": "programme",
+    "importance": 20,
+    "description": "Quantum revient dans la salle du conseil à 9h40 et présente son affaire de l'infrastructure.",
+    "lieu_id": "lumina-prime",
+    "acteurs": [
+      "quantum"
+    ],
+    "conditions": [],
+    "statut": "resolu",
+    "effets": [],
+    "diffusion": []
+  },
+  {
+    "id": "dossier-reprise-nova-15h",
+    "date_prevue": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 900
+    },
+    "type": "programme",
+    "importance": 40,
+    "description": "Aria remet à Nova son dossier de reprise, promis à 15h.",
+    "lieu_id": "lumina-prime",
+    "acteurs": [
+      "aria"
+    ],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [],
+    "diffusion": []
+  },
+  {
+    "id": "parcours-visiteur-16h",
+    "date_prevue": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 960
+    },
+    "type": "programme",
+    "importance": 30,
+    "description": "PITCH remet à Aria le parcours visiteur écrit, promis avant 16h.",
+    "lieu_id": "lumina-prime",
+    "acteurs": [
+      "pitch"
+    ],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [],
+    "diffusion": []
+  },
+  {
+    "id": "releve-radiant-core-18h",
+    "date_prevue": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 1080
+    },
+    "type": "programme",
+    "importance": 40,
+    "description": "DEV présente à Nova le relevé du Radiant Core et la liste des plans avec leur emplacement, promis avant 18h.",
+    "lieu_id": "lumina-prime",
+    "acteurs": [
+      "dev-lumina"
+    ],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [],
+    "diffusion": []
+  },
+  {
+    "id": "releve-tournee-gaia-18h",
+    "date_prevue": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 1080
+    },
+    "type": "programme",
+    "importance": 30,
+    "description": "Gaia inscrit le relevé de sa première tournée des espaces publics, promis avant 18h.",
+    "lieu_id": "lumina-prime",
+    "acteurs": [
+      "gaia"
+    ],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [],
+    "diffusion": []
+  },
+  {
+    "id": "qui-tient-la-copie",
+    "date_prevue": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 2
+    },
+    "type": "programme",
+    "importance": 60,
+    "description": "Quantum cherche qui tient la copie d'où des notes perdues sont revenues vers 10h, et qui a déplacé la réécriture des mémoires ; ordre de Nova, prioritaire sur la mesure du stockage du J2.",
+    "lieu_id": "lumina-prime",
+    "acteurs": [
+      "quantum"
+    ],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [],
+    "diffusion": []
+  },
+  {
+    "id": "tournee-invitation-pitch",
+    "date_prevue": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 840
+    },
+    "type": "programme",
+    "importance": 40,
+    "description": "PITCH fait une tournée d'invitation de 14h à 15h au Quai commun, aux ateliers et à la Halle, pour aller au-devant des habitants et des collectifs.",
+    "lieu_id": "lumina-prime",
+    "acteurs": [
+      "pitch"
+    ],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [],
+    "diffusion": []
+  },
+  {
+    "id": "constat-dev-gaia-creative-nexus-j2-14h",
+    "date_prevue": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 2,
+      "minute": 840
+    },
+    "type": "programme",
+    "importance": 50,
+    "description": "Constat commun DEV–Gaia prévu au Creative Nexus, J2 de 14h à 15h, pour 11020 et la fiche de site liée à 11220. Rendez-vous et accès confirmés dans leurs échanges avec PITCH. DEV tient géométrie, unités et état architectural ; Gaia passage, haltes, retrait et dégagement des seuils. À échéance, faire jouer les sessions propres des deux acteurs : déplacement puis observations sourcées. Aucun relevé ni résultat ne découle automatiquement de ce rendez-vous.",
+    "lieu_id": "ateliers-modulaires",
+    "acteurs": [
+      "dev-lumina",
+      "gaia"
+    ],
+    "conditions": [
+      "Accès temporaire, réversible et non exclusif autorisé par PITCH pour le J2 de 14h à 15h seulement.",
+      "Usage en place prioritaire ; cellule d’Ione et son approche laissées intactes.",
+      "Tout conflit suspend le constat ; aucune cloison ni aucun rail touché.",
+      "À 15h, passages libres et rien laissé."
+    ],
+    "statut": "a-venir",
+    "effets": [],
+    "diffusion": []
+  }
+]

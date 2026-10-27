@@ -1,0 +1,156 @@
+[
+  {
+    "id": "vmvjngd7bdm4v-mairie",
+    "date_prevue": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1045
+    },
+    "type": "programme",
+    "importance": 10,
+    "description": "Tentative sans remise ; demande municipale conservée par Delmas.",
+    "lieu_id": "niort",
+    "acteurs": [
+      "henri-delmas"
+    ],
+    "conditions": [
+      "Accès local et présence d’un réceptionnaire, résolus lors de la tournée."
+    ],
+    "statut": "resolu",
+    "effets": [],
+    "diffusion": [
+      {
+        "ou": "prefecture",
+        "qui": [
+          "francois-texier"
+        ],
+        "date": {
+          "annee": 1940,
+          "lune": 6,
+          "jour": 16,
+          "minute": 1100
+        },
+        "canal": "temoin",
+        "fiabilite": 90,
+        "version": "Tentative sans remise ; demande municipale conservée par Delmas. Rapport oral du porteur, sans récépissé signé.",
+        "livree": true
+      }
+    ]
+  },
+  {
+    "id": "vmvjngd7bdm4v-commissariat",
+    "date_prevue": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1065
+    },
+    "type": "programme",
+    "importance": 10,
+    "description": "Dépôt au service du commissariat pour Hérault ; lecture par le responsable non établie.",
+    "lieu_id": "niort",
+    "acteurs": [
+      "henri-delmas"
+    ],
+    "conditions": [
+      "Accès local et présence d’un réceptionnaire, résolus lors de la tournée."
+    ],
+    "statut": "resolu",
+    "effets": [],
+    "diffusion": [
+      {
+        "ou": "prefecture",
+        "qui": [
+          "francois-texier"
+        ],
+        "date": {
+          "annee": 1940,
+          "lune": 6,
+          "jour": 16,
+          "minute": 1100
+        },
+        "canal": "temoin",
+        "fiabilite": 90,
+        "version": "Dépôt au service du commissariat pour Hérault ; lecture par le responsable non établie. Rapport oral du porteur, sans récépissé signé.",
+        "livree": true
+      }
+    ]
+  },
+  {
+    "id": "vmvjngd7bdm4v-brigade",
+    "date_prevue": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1085
+    },
+    "type": "programme",
+    "importance": 10,
+    "description": "Dépôt au service de la brigade pour Gaborit ; lecture par le responsable non établie.",
+    "lieu_id": "niort",
+    "acteurs": [
+      "henri-delmas"
+    ],
+    "conditions": [
+      "Accès local et présence d’un réceptionnaire, résolus lors de la tournée."
+    ],
+    "statut": "resolu",
+    "effets": [],
+    "diffusion": [
+      {
+        "ou": "prefecture",
+        "qui": [
+          "francois-texier"
+        ],
+        "date": {
+          "annee": 1940,
+          "lune": 6,
+          "jour": 16,
+          "minute": 1100
+        },
+        "canal": "temoin",
+        "fiabilite": 90,
+        "version": "Dépôt au service de la brigade pour Gaborit ; lecture par le responsable non établie. Rapport oral du porteur, sans récépissé signé.",
+        "livree": true
+      }
+    ]
+  },
+  {
+    "id": "vmvjo4j7325tj-remise-interne",
+    "date_prevue": {
+      "annee": 1940,
+      "lune": 6,
+      "jour": 16,
+      "minute": 1095
+    },
+    "type": "programme",
+    "importance": 15,
+    "description": "La demande préfectorale déposée à la brigade à 18 h 05 est remise à Gaborit et lue par lui à 18 h 15.",
+    "lieu_id": "niort",
+    "acteurs": [
+      "aime-gaborit"
+    ],
+    "conditions": [],
+    "statut": "resolu",
+    "effets": [],
+    "diffusion": [
+      {
+        "ou": "niort",
+        "qui": [
+          "aime-gaborit"
+        ],
+        "date": {
+          "annee": 1940,
+          "lune": 6,
+          "jour": 16,
+          "minute": 1095
+        },
+        "canal": "temoin",
+        "fiabilite": 100,
+        "version": "Demande préfectorale reçue : établir un relevé des demandes en attente, distinguer faits vérifiés et points incertains ; retour au secrétariat préfectoral. L’heure de 13 h 30 figurant sur la demande est déjà passée lors de la remise.",
+        "livree": true
+      }
+    ]
+  }
+]

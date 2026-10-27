@@ -4794,13 +4794,53 @@
     "importance": 46,
     "description": "Avant le coucher du soleil, Corlys et Steffon rendent le compte réel de la réserve destinée à Repos-des-Freux : hommes présents, chevaux, eau, vivres, point de débarquement, noms des coques, de leurs patrons et charge de chacune. Les coques restent affectées sans appareiller jusqu'à une alarme reconnaissable de lord Staunton.",
     "lieu_id": "peyredragon",
-    "acteurs": ["corlys", "steffon-darklyn", "gerardys"],
+    "acteurs": [
+      "corlys",
+      "steffon-darklyn",
+      "gerardys"
+    ],
     "conditions": [
       "si le compte ne permet pas de charger trois cents hommes, rendre le chiffre tenable et ce qui manque avant le coucher du soleil",
       "si une coque doit être retirée au blocus du Gosier, nommer laquelle et ce que son retrait ouvre"
     ],
     "statut": "resolu",
     "effets": "A dix-neuf heures, le compte n'établit aucune coque mobilisable ni aucun effectif transportable : les trois cents sont retirés du disponible, aucune nef n'est prise au croissant du Gosier et aucun départ n'est autorisé. Gerardys fixe au 6e jour à midi le rendu d'une date de travail fondée sur des lignes complètes.",
+    "diffusion": []
+  },
+  {
+    "id": "prog-otto-consignation-roukerie-5e-12",
+    "date_prevue": {
+      "annee": 129,
+      "lune": 5,
+      "jour": 12,
+      "minute": 1080
+    },
+    "type": "programme",
+    "importance": 30,
+    "description": "Au crépuscule, convocation formelle du conseil restreint devant le roi Aegon II, la reine douairière Alicent, ser Criston Cole, lord Larys et la Main. Ordre au prévôt de produire sous escorte le clerc de none du 25e et les journaux saisis de la roukerie dès l ouverture de la séance.",
+    "lieu_id": "port-real",
+    "acteurs": [
+      "otto",
+      "aegon-ii",
+      "alicent",
+      "criston-cole",
+      "larys",
+      "orwyle"
+    ],
+    "statut": "resolu",
+    "effets": "Le conseil au crépuscule a été tenu : lord Larys a produit le pli de Sombreval sans se démonter ; le roi Aegon II a imposé son autorité en ordonnant à ser Criston Cole de marcher sur Rosby et Stokeworth sous le grand sceau royal pour réquisitionner les aînés sans piller les domaines."
+  },
+  {
+    "id": "prog-corlys-deux-carenes-5e-12-vepres",
+    "date_prevue": {"annee": 129, "lune": 5, "jour": 12, "minute": 1020},
+    "type": "programme",
+    "importance": 42,
+    "description": "Avant vêpres, Corlys et Steffon rendent pour chacune des deux carènes son nom, son patron, sa marée de mise à l'eau et l'heure où quatre jours de vivres sont réellement en cale. Les trois cents lances restent à terre, armées, nourries et prêtes jusque-là.",
+    "lieu_id": "peyredragon",
+    "acteurs": ["corlys", "steffon-darklyn"],
+    "conditions": ["toute carène à laquelle manque une des quatre mentions est rayée du transport", "aucune lance n'est embarquée avant que la coque soit nommée et vérifiée"],
+    "statut": "a-venir",
+    "effets": "Rendre à Rhaenyra deux états complets ou retrancher du transport toute carène incomplète.",
     "diffusion": []
   }
 ]

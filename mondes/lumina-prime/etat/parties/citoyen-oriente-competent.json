@@ -1,0 +1,16 @@
+{
+  "partie": "citoyen-oriente-competent",
+  "camps": [
+    "defense",
+    "attaque"
+  ],
+  "coups_par_camp": 1,
+  "note": "Nova attaque ; assistant défend. Épreuve contradictoire du dossier figé dans sources/citoyen-oriente-competent.json. Aucun coup ne vaut exécution dans la ville. Un tour ne fait pas avancer la date du monde. Les hypothèses restent des hypothèses.",
+  "portee": {
+    "attaque": "Montrer un contre-exemple compatible avec le dossier, une contradiction ou une condition indispensable sans solution. Aucune attaque tactique ne sera inventée à la place de Nova.",
+    "defense": "Défendre le parcours proposé avec ses sources et critères. Ni disponibilité inventée, ni réussite présumée. Une modification est une concession explicite, jamais une réécriture du dossier initial."
+  },
+  "fin": {
+    "regle": "Attaque : faille décisive reconnue qui empêche un des trois résultats. Défense : réponse vérifiable à chaque attaque effectivement posée. Le silence ne prouve rien et tenir le débat ne prouve pas la réussite réelle du parcours. Tout désaccord sur un constat reste ouvert."
+  }
+}

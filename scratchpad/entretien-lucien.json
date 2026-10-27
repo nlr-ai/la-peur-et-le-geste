@@ -1,0 +1,132 @@
+[
+  {
+    "id": "michel-lucien-gouts-v1-1",
+    "quoi": "Lucien — Qu’est-ce qui te préoccupe le plus, là, maintenant ?",
+    "invite": "Ou réponds à Lucien avec tes propres mots…",
+    "voies": [
+      {
+        "id": "proches",
+        "texte": "Que les nôtres soient en sécurité.",
+        "detail": "Proches, entraide et protection."
+      },
+      {
+        "id": "aider",
+        "texte": "Tous ceux qui se retrouvent seuls sur les routes.",
+        "detail": "Rencontres et aide concrète."
+      },
+      {
+        "id": "comprendre",
+        "texte": "Qu’on ne sache plus ce qu’on peut croire.",
+        "detail": "Enquête, nouvelles et secrets."
+      },
+      {
+        "id": "agir",
+        "texte": "Qu’on finisse par tout accepter sans rien faire.",
+        "detail": "Initiative et opposition à construire."
+      }
+    ]
+  },
+  {
+    "id": "michel-lucien-gouts-v1-2",
+    "quoi": "Lucien — Et si on faisait quelque chose aujourd’hui, tu te verrais commencer comment ?",
+    "invite": "Ou réponds à Lucien avec tes propres mots…",
+    "voies": [
+      {
+        "id": "relations",
+        "texte": "Aller parler aux gens. Trouver ceux sur qui compter.",
+        "detail": "Relations, conversations et alliances."
+      },
+      {
+        "id": "enquete",
+        "texte": "Suivre une piste et vérifier par nous-mêmes.",
+        "detail": "Observation, exploration et enquête."
+      },
+      {
+        "id": "pratique",
+        "texte": "Rendre un service précis. Porter, réparer, organiser.",
+        "detail": "Actions concrètes et débrouille."
+      },
+      {
+        "id": "audace",
+        "texte": "Tenter quelque chose qui change vraiment la donne.",
+        "detail": "Initiative, tension et action."
+      }
+    ]
+  },
+  {
+    "id": "michel-lucien-gouts-v1-3",
+    "quoi": "Lucien — Si ça devient dangereux, jusqu’où tu voudrais qu’on aille ?",
+    "invite": "Ou réponds à Lucien avec tes propres mots…",
+    "voies": [
+      {
+        "id": "prudent",
+        "texte": "On cherche une autre voie avant de se mettre en danger.",
+        "detail": "Danger progressif ; place à la préparation."
+      },
+      {
+        "id": "mesure",
+        "texte": "Un risque, oui, si on sait pourquoi on le prend.",
+        "detail": "Tension et conséquences proportionnées."
+      },
+      {
+        "id": "fort",
+        "texte": "Je veux qu’on ose, même si on peut y laisser quelque chose.",
+        "detail": "Enjeux durs et possibilité d’échec."
+      },
+      {
+        "id": "variable",
+        "texte": "Ça dépendra de qui a besoin de nous.",
+        "detail": "Risque à décider selon les situations."
+      }
+    ]
+  },
+  {
+    "id": "michel-lucien-gouts-v1-4",
+    "quoi": "Lucien — Tu préfères qu’on prenne le temps de parler de tout ça, ou qu’on se mette en route ?",
+    "invite": "Ou réponds à Lucien avec tes propres mots…",
+    "voies": [
+      {
+        "id": "detail",
+        "texte": "Prenons le temps. J’ai envie de comprendre les gens.",
+        "detail": "Scènes développées, échanges et détails du quotidien."
+      },
+      {
+        "id": "equilibre",
+        "texte": "Parlons quand ça compte, avançons entre les deux.",
+        "detail": "Équilibre entre relations et événements."
+      },
+      {
+        "id": "rapide",
+        "texte": "Mettons-nous en route. On parlera en faisant.",
+        "detail": "Scènes resserrées ; transitions sur le routinier uniquement."
+      }
+    ]
+  },
+  {
+    "id": "michel-lucien-gouts-v1-5",
+    "quoi": "Lucien — Et moi, tu veux que je t’aide comment ? Je peux faire ma part.",
+    "invite": "Ou réponds à Lucien avec tes propres mots…",
+    "voies": [
+      {
+        "id": "conseil",
+        "texte": "Aide-moi à voir ce que je rate. Et contredis-moi s’il le faut.",
+        "detail": "Lucien conseille et apporte du recul."
+      },
+      {
+        "id": "initiative",
+        "texte": "Prends des initiatives. On sera plus utiles à deux.",
+        "detail": "Lucien agit dans ses moyens et rend compte."
+      },
+      {
+        "id": "presence",
+        "texte": "Reste près de moi. On réfléchira ensemble.",
+        "detail": "Complicité et soutien, décisions partagées."
+      },
+      {
+        "id": "souple",
+        "texte": "Dis-moi ce que tu penses, puis laisse-moi essayer.",
+        "detail": "Conseils brefs ; beaucoup d’espace pour Michel."
+      }
+    ]
+  }
+]

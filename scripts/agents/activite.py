@@ -43,9 +43,11 @@ for _p in (_d, os.path.join(_d, "noyau")):
     if _p not in sys.path:
         sys.path.insert(0, _p)
 
-RACINE = os.path.dirname(_d)      # `_d` est deja <depot>/scripts : UN dirname
-ETAT = os.path.join(RACINE, "etat")
-CHAMBRES = os.path.join(RACINE, "chambres")
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+CHAMBRES = racines.chambres()
 
 
 def _lire(chemin, defaut):

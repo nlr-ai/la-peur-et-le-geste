@@ -1,0 +1,521 @@
+[
+  {
+    "id": "paige-s-installe-au-manoir",
+    "date_prevue": {
+      "annee": 2001,
+      "lune": 11,
+      "jour": 1,
+      "minute": 1140
+    },
+    "type": "canon",
+    "importance": 45,
+    "description": "Paige accepte de quitter son appartement et d'emménager au Manoir ; elle garde son poste aux Services sociaux.",
+    "lieu_id": "prescott-street",
+    "acteurs": [
+      "paige-matthews",
+      "piper-halliwell"
+    ],
+    "conditions": [
+      "si personne au Manoir ne le lui a proposé avant cette date, elle reste chez elle et vient quand on l'appelle",
+      "si Piper l'a rejetée ouvertement (scène jouée), elle refuse et l'emménagement recule d'une lune",
+      "si Phoebe s'y oppose devant elle, Paige ne vient pas"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "paige-matthews.lieu_id → prescott-street (chambre de Prue, ou l'ancienne chambre de Phoebe selon ce qu'on lui donne)",
+      "appartement-paige rendu à son propriétaire dans la lune"
+    ],
+    "diffusion": [],
+    "_": "CANON S04E06 (A Knight to Remember, diffusé le 1.11.2001). Décision de Paige et de Piper, pas d'un siège : inertie canon. La chambre qu'on lui donne est une scène."
+  },
+  {
+    "id": "phoebe-convoquee-jure",
+    "date_prevue": {
+      "annee": 2002,
+      "lune": 1,
+      "jour": 10,
+      "minute": 600
+    },
+    "type": "canon",
+    "importance": 25,
+    "description": "Une convocation au jury criminel de San Francisco arrive au Manoir au nom de Phoebe Halliwell : deux semaines de procès à partir du lundi suivant. Ce qu'elle en fait (siéger, se faire dispenser) est une scène proposée, pas un fait qui tombe.",
+    "lieu_id": "prescott-street",
+    "acteurs": [
+      "phoebe-halliwell"
+    ],
+    "conditions": [
+      "si Phoebe a quitté San Francisco ou changé d'adresse, la lettre ne l'atteint pas"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "une lettre de convocation dans le courrier du Manoir (info.json de Phoebe)"
+    ],
+    "diffusion": [],
+    "_": "CANON S04E11 (Trial by Magic, diffusé le 24.1.2002 ; elle y siège depuis deux semaines). La convocation est de la ville, la réponse est du siège."
+  },
+  {
+    "id": "dossier-cole-turner-rouvert",
+    "date_prevue": {
+      "annee": 2002,
+      "lune": 1,
+      "jour": 17,
+      "minute": 600
+    },
+    "type": "canon",
+    "importance": 40,
+    "description": "Les enquêteurs du bureau du procureur rouvrent le dossier de Cole Turner, substitut disparu l'an passé : on cherche l'homme, on interroge ceux qui l'ont connu, Darryl Morris compris.",
+    "lieu_id": "commissariat",
+    "acteurs": [
+      "cole-turner",
+      "darryl-morris"
+    ],
+    "conditions": [
+      "si Cole a déjà repris une identité légale (par le Greffier ou autrement), l'enquête se clôt au premier contrôle",
+      "si Cole est mort ou a quitté la ville, le dossier se rouvre sans personne au bout et Darryl seul est interrogé"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "Darryl est interrogé sur Cole Turner",
+      "Cole ne peut plus se montrer sous son nom sans être arrêté"
+    ],
+    "diffusion": [],
+    "_": "CANON S04E10 (A Paige from the Past : « the DA investigators are still after me »). Le dossier vit de lui-même ; date posée au jour de diffusion."
+  },
+  {
+    "id": "glen-rentre-d-australie",
+    "date_prevue": {
+      "annee": 2002,
+      "lune": 1,
+      "jour": 24,
+      "minute": 1080
+    },
+    "type": "canon",
+    "importance": 20,
+    "description": "Glen Belland, l'ami d'enfance de Paige, rentre d'un long voyage en Australie et sonne au Manoir pour la voir ; il pense rester en ville.",
+    "lieu_id": "prescott-street",
+    "acteurs": [
+      "glen-belland",
+      "paige-matthews"
+    ],
+    "conditions": [
+      "si Paige n'habite pas le Manoir, il sonne à son ancien appartement et la retrouve aux Services sociaux"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "un mortel de plus dans l'entourage des sœurs, qui ne sait rien"
+    ],
+    "diffusion": [],
+    "_": "CANON S04E11 (Trial by Magic) ; l'acteur glen-belland n'existe pas encore dans personnages.json (dormant à créer)."
+  },
+  {
+    "id": "piper-et-leo-veulent-un-enfant",
+    "date_prevue": {
+      "annee": 2002,
+      "lune": 1,
+      "jour": 31,
+      "minute": 1320
+    },
+    "type": "canon",
+    "importance": 35,
+    "description": "Piper et Leo décident d'essayer d'avoir un enfant, malgré les démons, malgré les Fondateurs qu'on n'a pas consultés.",
+    "lieu_id": "prescott-street",
+    "acteurs": [
+      "piper-halliwell",
+      "leo-wyatt"
+    ],
+    "conditions": [
+      "si une sœur est morte ou si le Pouvoir des Trois est rompu, Piper reporte",
+      "si Leo a été rappelé durablement par les Fondateurs, rien ne se décide"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "Piper : nouvel objectif « un enfant » dans sa tête",
+      "ouvre la fenêtre de la Mère des noces (canon/bestiaire.json)"
+    ],
+    "diffusion": [],
+    "_": "CANON S04E12 (Lost and Bound, diffusé le 31.1.2002). Décision de deux PNJ : inertie canon."
+  },
+  {
+    "id": "la-voyante-demande-audience",
+    "date_prevue": {
+      "annee": 2002,
+      "lune": 2,
+      "jour": 1,
+      "minute": 0
+    },
+    "type": "programme",
+    "importance": 60,
+    "description": "Une voyante démoniaque, dont les visions passent pour plus sûres que celles de l'Oracle, se présente aux portes de la Source et demande à la servir. Ce que la Source en fait — la recevoir, la mettre à l'épreuve, la tuer, l'écouter sur le Vide — est une scène proposée à ce siège, pas un fait qui tombe.",
+    "lieu_id": "les-enfers",
+    "acteurs": [
+      "la-voyante",
+      "la-source",
+      "l-oracle"
+    ],
+    "conditions": [
+      "si la Source est morte ou déchue, elle se présente au plus fort des prétendants (Kazhar) à la place",
+      "si l'Oracle a été tuée ou chassée avant, la Voyante vient plus tôt : dans les sept jours qui suivent"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "l'Oracle apprend qu'une rivale est entrée à la cour"
+    ],
+    "diffusion": [],
+    "_": "CANON S04E13 (Charmed and Dangerous, 7.2.2002). Son approche est de sa propre tête ; tout le reste (le Vide, la mort de la Source, la passation à Cole) dépend du siège de la Source et n'est PAS posé ici — voir canon/chronologie-s4.md. Acteur la-voyante absent de personnages.json."
+  },
+  {
+    "id": "piper-decouvre-sa-grossesse",
+    "date_prevue": {
+      "annee": 2002,
+      "lune": 5,
+      "jour": 16,
+      "minute": 1200
+    },
+    "type": "canon",
+    "importance": 70,
+    "description": "Piper apprend qu'elle est enceinte.",
+    "lieu_id": "prescott-street",
+    "acteurs": [
+      "piper-halliwell",
+      "leo-wyatt"
+    ],
+    "conditions": [
+      "si Piper et Leo n'ont jamais décidé d'avoir un enfant (piper-et-leo-veulent-un-enfant dévié ou annulé), annulé",
+      "si la Mère des noces a fait boire son tonique à Piper, l'enfant est lié à elle : l'événement devient sa scène à elle",
+      "si Piper ou Leo est mort, annulé"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "Piper : condition enceinte",
+      "Leo l'apprend le même jour ; les Fondateurs dans la semaine"
+    ],
+    "diffusion": [],
+    "_": "CANON S04E22 (Witch Way Now?, 16.5.2002). Dans la série c'est l'Ange du Destin qui le révèle, et sa venue dépend de la chute de la Source (siège) : ici la grossesse est posée sans lui, elle l'apprend par son corps."
+  },
+  {
+    "id": "morne-mange-les-restes",
+    "date_prevue": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 22,
+      "minute": 120
+    },
+    "type": "emergent",
+    "importance": 40,
+    "description": "Morne, un démon charognard, et sa petite meute viennent la nuit dans l'entrée du Manoir manger ce que Shax y a laissé ; il y apprend par quel chemin Shax est entré, et compte le vendre.",
+    "lieu_id": "prescott-street",
+    "acteurs": [
+      "morne-le-charognard"
+    ],
+    "conditions": [
+      "si le Manoir a été purifié (sort, encens, sel) depuis la mort de Prue, il ne trouve rien à manger et repart sans la route",
+      "si Cole veille et le sent, Morne fuit avant d'avoir mangé",
+      "si une sœur le surprend, il propose de vendre ce qu'il sait plutôt que de se battre"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "Morne connaît la faille du Manoir (la route de Shax)",
+      "dans les trois jours, il la propose à Kazhar ou à qui paie"
+    ],
+    "diffusion": [],
+    "_": "INVENTION DÉCLARÉE — canon/bestiaire.json#morne-le-charognard (dérive du démon charognard S04E08). De sa propre tête, sans ordre de la Source. Pas de tête dans intentions.json : à promouvoir si la scène le touche."
+  },
+  {
+    "id": "le-greffier-reclame-sa-creance",
+    "date_prevue": {
+      "annee": 2001,
+      "lune": 11,
+      "jour": 8,
+      "minute": 600
+    },
+    "type": "emergent",
+    "importance": 50,
+    "description": "Une lettre sans timbre attend Cole Turner : le Greffier, qui a fabriqué jadis l'avocat Cole Turner, réclame le prix de cette identité, sans quoi il la raye.",
+    "lieu_id": "appartement-cole",
+    "acteurs": [
+      "le-greffier",
+      "cole-turner"
+    ],
+    "conditions": [
+      "si Cole a quitté l'appartement, la lettre est glissée sous la porte du Manoir à son nom",
+      "si Cole est déjà mort ou devenu autre chose qu'un homme, la créance tombe sur Darryl, témoin de son passé"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "Cole sait qu'il a une échéance : la fin de la lune",
+      "si personne ne paie ni ne négocie, le 30.11, Cole Turner cesse d'exister dans tous les registres"
+    ],
+    "diffusion": [],
+    "_": "INVENTION DÉCLARÉE — canon/bestiaire.json#le-greffier (infiltration économique S04E11, absence d'identité S04E10). De sa propre tête."
+  },
+  {
+    "id": "le-liseur-pose-un-objet",
+    "date_prevue": {
+      "annee": 2001,
+      "lune": 11,
+      "jour": 22,
+      "minute": 900
+    },
+    "type": "emergent",
+    "importance": 55,
+    "description": "Le Liseur fait déposer sur la route de Phoebe un objet préparé ; le premier contact lui donne une vision vraie mais déplacée — le bon danger au mauvais jour.",
+    "lieu_id": "san-francisco",
+    "acteurs": [
+      "le-liseur",
+      "phoebe-halliwell"
+    ],
+    "conditions": [
+      "si Phoebe ne touche pas l'objet, rien ; il en pose un autre la semaine suivante",
+      "si Phoebe a déjà une vision née d'un contact qu'elle a choisi ce jour-là, il attend"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "une vision de Phoebe porte un faux jour ou un faux lieu (info.json, fiabilite trompeuse)",
+      "le Liseur a prise sur la vision suivante"
+    ],
+    "diffusion": [],
+    "_": "INVENTION DÉCLARÉE — canon/bestiaire.json#le-liseur (occultation de la prémonition S04E14, tirage qui ment S04E15). De sa propre tête : il vend des avenirs aux factions."
+  },
+  {
+    "id": "le-courtier-place-un-enfant",
+    "date_prevue": {
+      "annee": 2001,
+      "lune": 12,
+      "jour": 10,
+      "minute": 600
+    },
+    "type": "emergent",
+    "importance": 55,
+    "description": "Une famille d'accueil modèle se présente aux Services sociaux pour un enfant que personne ne réclame ; c'est le Courtier d'ambre, qui cherche un coffre de plus.",
+    "lieu_id": "services-sociaux",
+    "acteurs": [
+      "le-courtier",
+      "m-cowan",
+      "paige-matthews"
+    ],
+    "conditions": [
+      "si Paige n'est plus aux Services sociaux, le dossier passe par un collègue et elle ne le voit pas",
+      "si Paige a vu le dossier et le bloque, il en prend un autre dans un service voisin"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "un enfant placé porte un pouvoir démoniaque qui n'est pas le sien (démonisation lente)",
+      "M. Cowan signe le placement"
+    ],
+    "diffusion": [],
+    "_": "INVENTION DÉCLARÉE — canon/bestiaire.json#le-courtier (courtier de pouvoirs S04E16). De sa propre tête : un commerce."
+  },
+  {
+    "id": "indice-guet-sur-prescott",
+    "date_prevue": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 10,
+      "minute": 450
+    },
+    "type": "programme",
+    "importance": 30,
+    "description": "Au matin, un voisin signale à Darryl une silhouette demeurée des heures sur le toit qui fait face au Manoir ; il ne sait pas qu'il s'agit de Tarn.",
+    "lieu_id": "toits-pacific-heights",
+    "acteurs": [
+      "tarn",
+      "darryl-morris"
+    ],
+    "conditions": [
+      "si Tarn a quitté le toit avant l'aube, le signalement n'existe pas",
+      "si le voisin est empêché de joindre la police, Darryl ne reçoit rien"
+    ],
+    "statut": "arrive",
+    "date_realisee": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 10,
+      "minute": 450
+    },
+    "resultat": "Tarn est resté sur le toit jusqu'à 7 h 30. Repéré par un voisin capable de joindre la police, il a quitté sa ligne de vue. Darryl a fait consigner le témoignage et appelé Phoebe immédiatement. À la demande de Phoebe, qui soupçonne la Source ou un démon sans pouvoir identifier la silhouette, Darryl a rappelé la voiture banalisée avant son approche et l'a maintenue disponible à distance. Leo a vérifié le Manoir depuis l'intérieur : aucun accès forcé, personne encore visible, plusieurs pièces exposées depuis le toit. Réinterrogé, le voisin fixe seulement une première observation vers 5 h 15, alors que la silhouette était déjà en place. À 7 h 49, Leo inspecte le poste : deux empreintes de semelles répétées et un parapet dépoussiéré confirment une station prolongée face au Manoir. À 7 h 53, il prélève quelques grains et poussières du bord intérieur d'une empreinte. À 7 h 57, Phoebe touche l'empreinte intacte et reçoit une vision fragmentaire : une femme inconnue tient le poste avant l'aube, observe de façon répétée la fenêtre du salon où Cole repose, puis réagit au regard d'un voisin. La vision ne livre ni identité, ni camp, ni heure exacte, ni motif ; elle établit cependant que Cole était le foyer principal de son attention.",
+    "declencheur_arme": {
+      "date": {
+        "annee": 2001,
+        "lune": 10,
+        "jour": 9,
+        "minute": 1350
+      },
+      "preuve": "Tarn tient effectivement le toit d'en face sous l'action 1021. Le signalement reste conditionnel à sa présence jusqu'à l'aube et au contact du voisin avec la police."
+    },
+    "effets": [
+      "Darryl dispose d'un signalement imprécis sur la surveillance du Manoir"
+    ],
+    "diffusion": [
+      {
+        "qui": [
+          "phoebe-halliwell"
+        ],
+        "date": {
+          "annee": 2001,
+          "lune": 10,
+          "jour": 10,
+          "minute": 450
+        },
+        "canal": "telephone-darryl",
+        "fiabilite": 90,
+        "version": "Darryl rapporte qu'un voisin a vu quelqu'un tenir le toit d'en face pendant plusieurs heures et disparaître dès qu'il s'est su observé ; il n'a ni nom, ni camp, ni cible.",
+        "livree": true
+      }
+    ],
+    "_": "Route de fuite de la meute : la surveillance physique laisse un témoin mortel. La présence de Tarn est établie ; le signalement reste conditionnel."
+  },
+  {
+    "id": "indice-carte-de-la-glaneuse",
+    "date_prevue": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 10,
+      "minute": 1020
+    },
+    "type": "programme",
+    "importance": 45,
+    "description": "Une carte prétendant porter un message de Prue est remise au Manoir par un tiers qui ignore la Glaneuse.",
+    "lieu_id": "prescott-street",
+    "acteurs": [
+      "la-glaneuse",
+      "phoebe-halliwell",
+      "piper-halliwell"
+    ],
+    "conditions": [
+      "si la Glaneuse n'a pas ouvert son salon, la carte est retardée",
+      "si elle n'a obtenu aucun souvenir lié à Prue, la carte vise le deuil de Patty et Paige à la place"
+    ],
+    "statut": "a-venir",
+    "declencheur_arme": {
+      "date": {
+        "annee": 2001,
+        "lune": 10,
+        "jour": 9,
+        "minute": 1358
+      },
+      "preuve": "La Source a accordé sept jours à la Glaneuse, sur Piper seule. La Glaneuse a accepté et annoncé qu'elle commençait cette nuit."
+    },
+    "effets": [
+      "la carte devient un objet que Phoebe peut toucher et dont elle peut recevoir une vision fragmentaire"
+    ],
+    "diffusion": [
+      {
+        "qui": [
+          "phoebe-halliwell"
+        ],
+        "date": {
+          "annee": 2001,
+          "lune": 10,
+          "jour": 10,
+          "minute": 1020
+        },
+        "canal": "temoin",
+        "fiabilite": 45,
+        "version": "Une carte arrivée au Manoir affirme que Prue a quelque chose à dire à Piper ; son porteur ne connaît pas l'expéditrice.",
+        "livree": false
+      }
+    ],
+    "_": "Route de fuite de la Glaneuse, dérivée de glaneuse-message : le mensonge arrive comme objet et peut déclencher le don de Phoebe."
+  },
+  {
+    "id": "indice-fausse-recommandation-ezra",
+    "date_prevue": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 12,
+      "minute": 960
+    },
+    "type": "programme",
+    "importance": 35,
+    "description": "La lettre de recommandation produite par Ezra aux Services sociaux porte un signataire dont le numéro ne répond pas.",
+    "lieu_id": "services-sociaux",
+    "acteurs": [
+      "ezra-vane",
+      "m-cowan",
+      "paige-matthews"
+    ],
+    "conditions": [
+      "si Ezra n'est pas admis comme bénévole, la lettre reste au dossier mais son enquête n'est pas prioritaire",
+      "si M. Cowan ne vérifie pas la référence, Paige n'en apprend rien ce jour-là"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "Paige peut apprendre qu'un nouveau bénévole a produit une recommandation invérifiable"
+    ],
+    "diffusion": [
+      {
+        "qui": [
+          "phoebe-halliwell"
+        ],
+        "date": {
+          "annee": 2001,
+          "lune": 10,
+          "jour": 12,
+          "minute": 1260
+        },
+        "canal": "temoin",
+        "fiabilite": 75,
+        "version": "Paige rapporte qu'un bénévole récemment admis a fourni une référence professionnelle impossible à joindre ; cela établit une anomalie, pas sa nature magique.",
+        "livree": false
+      }
+    ],
+    "_": "Route de fuite d'Ezra : son moyen d'entrée laisse une trace administrative lisible par Paige, puis racontable à Phoebe."
+  },
+  {
+    "id": "la-faction-se-leve",
+    "date_prevue": {
+      "annee": 2002,
+      "lune": 2,
+      "jour": 15,
+      "minute": 0
+    },
+    "type": "emergent",
+    "importance": 75,
+    "description": "Kazhar réunit les chefs de clan qu'il reçoit depuis l'automne et se déclare prétendant au trône : la faction marche sur le Manoir pour tuer les Trois et prendre la place par ce meurtre.",
+    "lieu_id": "les-enfers",
+    "acteurs": [
+      "kazhar",
+      "varek"
+    ],
+    "conditions": [
+      "si la Source tient son trône à cette date, la faction ne se lève pas : annulé (Kazhar continue d'attendre)",
+      "si Kazhar est mort, le chef de clan le plus fort reprend la faction quinze jours plus tard",
+      "si un héritier légitime (sang ou magie de la Source) occupe le trône, annulé"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "assaut en nombre sur le Manoir dans la lune",
+      "la cour des Enfers se divise"
+    ],
+    "diffusion": [],
+    "_": "INVENTION DÉCLARÉE — canon/bestiaire.json#la-faction-du-trone-vide (vacance du trône S04E09, ascension par le meurtre des trois S04E14). Ne tombe QUE si le siège de la Source a disparu ou chuté : c'est la conséquence d'un choix joué, jamais un fait d'avance."
+  },
+  {
+    "id": "indice-echos-dispensaire-howard",
+    "date_prevue": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 10,
+      "minute": 460
+    },
+    "type": "emergent",
+    "importance": 50,
+    "description": "Les rumeurs et l'empreinte magique (runes) autour du dispensaire Howard sont suffisamment fortes pour attirer l'attention : un indicateur de Darryl ou une prémonition de Phoebe peut accrocher cet écho.",
+    "lieu_id": "dispensaire-howard",
+    "acteurs": [
+      "ferran-le-verrouilleur",
+      "neris",
+      "phoebe-halliwell",
+      "darryl-morris"
+    ],
+    "conditions": [
+      "si les sœurs ne cherchent aucune menace magique active ce matin, l'indice leur parviendra par la police (Darryl)"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "le bien obtient l'adresse du dispensaire Howard et la certitude qu'une activité démoniaque s'y trame",
+      "le piège de l'affaire 1700 se referme si elles s'y rendent seules"
+    ],
+    "diffusion": []
+  }
+]

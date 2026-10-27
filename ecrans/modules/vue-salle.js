@@ -26,7 +26,7 @@
   const VARIANTES = { archives: "archives-braavos.png" };
 
   function cheminDe(id) {
-    return "/salles/" + (VARIANTES[id] || (id + ".jpg"));
+    return "/salles/" + (VARIANTES[id] || (id + ".jpg")) + "?v=20261003-telegram";
   }
 
   fetch("/salles")

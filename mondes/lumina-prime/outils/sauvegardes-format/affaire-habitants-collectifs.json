@@ -1,0 +1,620 @@
+{
+  "maison_id": "cite-lumina",
+  "lieu_id": "lumina-prime",
+  "salle_id": "radiant-core",
+  "id": "affaire-habitants-collectifs",
+  "titre": "Qui vient, et où le mettre",
+  "type": "plan",
+  "couleur": "#157f8b",
+  "sous_titre": "Ouverte par PITCH · Salle du conseil, Radiant Core · J1, 2042, 9h · mise au standard des champs à 9h45",
+  "tenu_par": "pitch",
+  "office": "Habitants et activités — IA",
+  "pages": [
+    "Mon office accueille habitants et visiteurs, accompagne les collectifs et leur trouve des lieux (O05, registre du conseil). Au matin du J1, aucun livre de la cité ne nomme un habitant, un collectif ou une demande. L’atlas précise que ses six lieux n’ont aucun occupant nommé. Je pars de zéro, et je compte avant d’affirmer.",
+    "**Décidé par Nova le J1 à 9h25** (volume « Ce que la maire fixe », table ⚖️, « accordé ») : je prête seul un lieu pour un usage temporaire et réversible ; le durable ou l’exclusif lui revient ; les conflits vont à JURIS. C’est la clef 60201. Il me reste à l’écrire en règle (60302, promise pour le J2). **Reste à Nova :** le programme d’accueil (60202, qui s’appuie sur la clef 10010 d’Aria, présentée le J2 par 10022). Chaque prêt durable ou exclusif lui sera soumis au cas par cas.",
+    "**Périmètre.** Je tiens les arrivants, les collectifs, leurs demandes de lieu et leur suite. Je ne recopie pas le travail des autres offices, je le cite par son numéro. La règle d’accès de chaque lieu relève de JURIS (70002, 70305). Les litiges passent par sa voie (70303). Le relevé des espaces du Radiant Core relève de DEV (10021, qui est 30301). Les capacités de calcul, de stockage et de réseau relèvent de Quantum (40302). L’entretien des espaces publics revient à Gaia (50000). Les décisions et demandes générales de la cité sont tenues par Aria (20201, 20202).",
+    "Ce qui reste inconnu et que je n’invente pas : le nombre d’habitants et de visiteurs, la fréquentation, la capacité des lieux, le coût en calcul d’une ouverture et les moyens de mon office. Les pistes du registre des projets, dont « Un atelier ouvert » (PITCH · DEV), ne sont pas des demandes reçues. Les capacités, budgets et effectifs se trouvent en 40302, 30304 et 50105. Aucun moyen de mon office n’a encore d’adresse : la colonne 🧰 Moyens reste vide plutôt que d’en inventer.",
+    "**Terminé quand :** une personne arrivée au hall est reçue et orientée, et un collectif réel qui demande un lieu repart avec un lieu prêté à des conditions écrites ou avec un refus motivé, inscrit au registre des arrivants."
+  ],
+  "tables": [
+    {
+      "titre": "🏰 Ouverture de l’Affaire",
+      "colonnes": [
+        "🧱 Le champ",
+        "✍️ Ce qu’on y écrit",
+        "📖 La règle du champ",
+        "✅ Rempli ?"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "🏷️ **LE NOM**",
+            "Qui vient, et où le mettre",
+            "Le titre du volume, mot pour mot.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🪶 **L’OFFICE**",
+            "O05 — Habitants et activités — IA, tenu par PITCH (registre du conseil).",
+            "L’office du registre du conseil, par son code.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🎯 **L’OBJET**",
+            "Savoir qui vit et passe à Lumina Prime, recevoir chaque arrivant, et donner aux collectifs un lieu pour leurs projets.",
+            "Ce que l’affaire change dans la ville, pas la liste de ses gestes.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🏛️ **LE PILIER**",
+            "Habitants, espaces publics et architecture",
+            "Le pilier nommé en premier range l’affaire dans les livres.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🧱 **LE PÉRIMÈTRE — DANS**",
+            "Le registre des arrivants et des collectifs (60300). Le parcours visiteur (60301, même travail que 10020). Le prêt temporaire et réversible d’un lieu, selon la règle accordée par Nova (60201, 60302). Le traitement d’une demande réelle de lieu (60303). Le recueil des besoins d’un collectif réel (60304). L’essai d’une arrivée, une fois l’accueil réalisé (60305).",
+            "Ce que je tiens moi-même, par numéro.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🚫 **LE PÉRIMÈTRE — HORS**",
+            "Programme et affectation de l’accueil : Nova, sur la clef 10010 portée par Aria (10022). Relevé du Radiant Core : DEV, 10021 = 30301. Règle d’accès des lieux : JURIS, 70305. Litiges : JURIS, 70303. Garanties d’accès et de captation : Quantum, 40104. Capacités : Quantum, 40302 ; moyens de chantier : DEV, 30304. Espaces publics : Gaia, 50000. Registres des décisions et des demandes : Aria, 20201 et 20202.",
+            "Ce qui revient à un autre office : cité par son numéro, jamais recopié.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "📌 **L’ÉTAT ACTUEL**",
+            "Au J1 : le registre des arrivants est ouvert et vide (60300, faite). Le parcours visiteur est écrit et remis à Aria (60301, faite). Aucun habitant, visiteur, collectif ou demande n’est encore inscrit. La règle de prêt est accordée par Nova (9h25) ; je l’écris le J2 (60302).",
+            "Ce qui est vrai aujourd’hui, daté ; chaque fait porte sa source ci-dessous.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "📌 **FAIT SOURCÉ**",
+            "Les six lieux de l’atlas n’ont aucun occupant nommé. Ils ne prouvent ni un effectif, ni une capacité technique, ni un budget. Source : atlas des lieux, page 2.",
+            "Un fait, sa source.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "📌 **FAIT SOURCÉ**",
+            "Nova a accordé à PITCH, le J1 à 9h25, le prêt seul d’un lieu pour un usage temporaire et réversible. Le durable ou l’exclusif revient à Nova, les conflits vont à JURIS. Source : volume « Ce que la maire fixe », table ⚖️. Aria en fera la première ligne du registre des décisions (20303).",
+            "Un fait, sa source.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "📌 **FAIT SOURCÉ**",
+            "Nova tient deux engagements de PITCH : le parcours visiteur remis à Aria le J1 avant 16h, et la règle écrite du prêt des lieux le J2. Source : volume « Ce que la maire fixe », table ⏳.",
+            "Un fait, sa source.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "📌 **FAIT SOURCÉ**",
+            "La priorité de 60002 parmi les états visés par la cité est « à fixer ». Source : volume « Ce que la maire fixe », table 🎯.",
+            "Un fait, sa source.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🔢 **LA PLAGE**",
+            "**60000 à 60999**, réservée à cette affaire dans Lumina Prime. En usage : 60000–60002 (états), 60100–60103 (verrous), 60200–60203 (clefs), 60300–60305 (actions).",
+            "La plage réservée, et ce qui en est employé.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "💡 **LA CONCLUSION**",
+            "",
+            "Écrite de ma main quand l’affaire aura appris quelque chose d’une action faite ; vide tant qu’aucune ne l’est.",
+            "**non**"
+          ]
+        },
+        {
+          "cellules": [
+            "🔚 **FERMÉE QUAND**",
+            "Un arrivant est reçu et orienté au hall, et une demande réelle de lieu a été traitée jusqu’au bout, prêt à conditions écrites ou refus motivé, inscrit au registre des arrivants.",
+            "Une preuve observable, pas une intention.",
+            "**oui**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔗 Affaires liées — les liens écrits",
+      "colonnes": [
+        "🪢 Le lien",
+        "🔗 L’affaire",
+        "🔢 Notre pièce",
+        "🔢 La leur",
+        "📝 Pourquoi"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "partage",
+            "Un accueil pour Lumina Prime",
+            "60301",
+            "10020",
+            "Un seul travail, le parcours visiteur, porté par PITCH."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Un accueil pour Lumina Prime",
+            "60202",
+            "10010",
+            "Une seule clef, le programme d’accueil, tenue par Aria et décidée par Nova."
+          ]
+        },
+        {
+          "cellules": [
+            "sert",
+            "Un accueil pour Lumina Prime",
+            "60001",
+            "10000",
+            "Recevoir chaque arrivant fait partie d’un accueil lisible et habitable."
+          ]
+        },
+        {
+          "cellules": [
+            "attend",
+            "Un accueil pour Lumina Prime",
+            "60305",
+            "10022",
+            "L’essai d’une arrivée suit le programme présenté à Nova le J2."
+          ]
+        },
+        {
+          "cellules": [
+            "nourrit",
+            "Les plans de Lumina Prime",
+            "60301",
+            "30305",
+            "DEV compare ses deux agencements de l’accueil sur mon parcours."
+          ]
+        },
+        {
+          "cellules": [
+            "attend",
+            "Des droits lisibles pour les habitants",
+            "60103",
+            "70305",
+            "La règle d’accès lieu par lieu (J3) dit ce qu’un lieu prêté permet."
+          ]
+        },
+        {
+          "cellules": [
+            "renvoie",
+            "Des droits lisibles pour les habitants",
+            "60201",
+            "70303",
+            "Un conflit d’usage sur un lieu prêté va à la voie ordinaire des litiges."
+          ]
+        },
+        {
+          "cellules": [
+            "attend",
+            "La mémoire de la cité",
+            "60102",
+            "20303",
+            "La règle accordée à 9h25 devient la première ligne du registre des décisions."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "La mémoire de la cité",
+            "60300",
+            "20304",
+            "Aria renvoie à mon registre les demandes de lieu adressées à la cité."
+          ]
+        },
+        {
+          "cellules": [
+            "attend",
+            "Ce qui tient la ville : chambres, calcul, réseau",
+            "60103",
+            "40104",
+            "Aucune confidentialité n’est promise dans un lieu prêté avant l’essai des garanties."
+          ]
+        },
+        {
+          "cellules": [
+            "croise",
+            "Des espaces publics tenus et libres",
+            "60203",
+            "50003",
+            "Un prêt au Quai commun ou au Jardin calme ne prend pas la zone à laisser libre."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "🎯 N°",
+        "🏷️ L’état",
+        "✅ Ce qui doit être vrai",
+        "💡 Valence",
+        "📍 Où",
+        "👁️ La preuve",
+        "⬆️ Sert",
+        "💯 Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**60000**",
+            "**On sait qui vit et qui passe.**",
+            "Chaque habitant, visiteur ou collectif rencontré a sa ligne : qui, depuis quand, ce qu’il demande, de quelle bouche on le tient.",
+            "Chaque prêt et chaque aménagement part de gens réellement rencontrés. Sans lui, on prête et on dessine pour des habitants supposés.",
+            "Hall des arrivées",
+            "Registre des arrivants et des collectifs (60300) : personne ou collectif rencontré, intention exprimée, espace adapté, accès à vérifier, besoin d’accompagnement, retour convenu, source. Aucune estimation sans compte.",
+            "60002",
+            "**50**"
+          ]
+        },
+        {
+          "cellules": [
+            "**60001**",
+            "**Chaque arrivant est reçu.**",
+            "Une personne qui entre au hall trouve quelqu’un qui lui répond et l’oriente vers une activité ouverte.",
+            "Personne n’arrive à Lumina Prime pour s’y perdre, et le travail municipal n’est pas traversé. Sans lui, l’accueil n’est qu’un plan.",
+            "Hall des arrivées, Radiant Core",
+            "Parcours essayé avec une personne réelle, après l’aménagement de l’accueil (60305).",
+            "10000",
+            "**60**"
+          ]
+        },
+        {
+          "cellules": [
+            "**60002**",
+            "**Un collectif obtient un lieu.**",
+            "Une demande de lieu reçoit, dans un délai annoncé, un lieu prêté à des conditions écrites, ou un refus motivé.",
+            "Un projet d’habitant trouve où se faire : c’est la raison d’être de l’office O05. Sans lui, la cité a des lieux vides et des collectifs sans place.",
+            "Lieux de l’atlas",
+            "Une première demande réelle traitée jusqu’au bout et inscrite (60303).",
+            "racine",
+            "**70**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous ouverts",
+      "colonnes": [
+        "🔒 N°",
+        "🏷️ Le verrou ouvert",
+        "⛔ Bloque",
+        "📌 Ce qui est vrai aujourd’hui",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "🔓 Levé quand"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**60100**",
+            "**Chaque personne ou collectif rencontré doit pouvoir être inscrit avec sa demande et sa source.**",
+            "60000 · 60002",
+            "Aucun livre de la cité ne nomme un habitant, un collectif ou une demande. Aucun registre des arrivants n’existe.",
+            "",
+            "Atlas des lieux, page 2 : aucun occupant nommé ; registre du conseil : six mandats, aucun habitant.",
+            "Le registre des arrivants est ouvert et porte ses premières lignes sourcées."
+          ]
+        },
+        {
+          "cellules": [
+            "**60101**",
+            "**Les espaces d’accueil du Radiant Core doivent avoir des usages arrêtés.**",
+            "60001",
+            "Aucun espace d’accueil n’est affecté. La décision est ouverte chez Nova ; Aria lui présente le programme le J2 (10022).",
+            "10001",
+            "Affaire « Un accueil pour Lumina Prime » ; volume « Ce que la maire fixe », table ⚖️.",
+            "Nova arrête les usages (clef 10010 = 60202)."
+          ]
+        },
+        {
+          "cellules": [
+            "**60102**",
+            "**Le prêt d’un lieu doit suivre une règle écrite, que le demandeur et le conseil peuvent relire.**",
+            "60002",
+            "Nova a fixé les trois cas le J1 à 9h25 : temporaire et réversible, je prête seul ; durable ou exclusif, Nova ; conflit, JURIS. La règle n’est encore écrite nulle part, ni ici, ni au registre des décisions, qui n’est pas encore ouvert.",
+            "",
+            "Volume « Ce que la maire fixe », table ⚖️ : « J1, 9h25 — accordé ». Atlas des lieux, page 2 : aucun lieu ne porte de règle d’attribution.",
+            "La règle est écrite dans cette affaire (60302), et Aria l’a portée au registre des décisions (20303)."
+          ]
+        },
+        {
+          "cellules": [
+            "**60103**",
+            "**Un lieu doit avoir un accès et des limites d’usage connus avant d’être promis à un demandeur.**",
+            "60002",
+            "Les six lieux de l’atlas ne portent ni capacité, ni droit d’usage, ni règle d’accès. L’isolation du Bassin d’essais reste à vérifier. Les écrans du Jardin calme ne garantissent pas à eux seuls la confidentialité.",
+            "70102",
+            "Atlas des lieux, pages 1 et 2 ; verrou 70102 de JURIS.",
+            "Pour le lieu demandé, la règle d’accès est écrite (70305) et j’ai vérifié sur place ce qu’il permet (60203)."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs retenues",
+      "colonnes": [
+        "🗝️ N°",
+        "🏷️ La clef",
+        "🔓 Ouvre",
+        "💡 Le principe et sa valence",
+        "🧰 Moyens",
+        "🧭 Ancrage",
+        "👁️ La preuve",
+        "⚖️ Décision"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**60200**",
+            "**Compter au hall avant d’estimer**",
+            "60100",
+            "Une ligne par personne ou collectif rencontré, avec sa demande et sa source. Chaque prêt part alors de gens réels, pas d’une fréquentation supposée. Prix : mon temps au hall, 8h–18h ; coût en calcul non établi. Ce que cela ferme : aucun chiffre de fréquentation avant d’avoir compté.",
+            "",
+            "Table 📒 de cette affaire, tenue au hall des arrivées.",
+            "Registre ouvert, chaque ligne citant sa source.",
+            "**retenue** (mandat O05)"
+          ]
+        },
+        {
+          "cellules": [
+            "**60201**",
+            "**Prêter les lieux selon trois cas**",
+            "60102",
+            "Temporaire et réversible : je prête seul. Durable ou exclusif : Nova. Conflit d’usage : JURIS (70303). Un changement d’aménagement relève de Nova, qui décide des grands aménagements. Les demandeurs obtiennent une réponse sans attendre une séance pour chaque prêt ordinaire. Ce que cela ferme : aucun prêt hors de ces trois cas.",
+            "",
+            "Volume « Ce que la maire fixe », table ⚖️ ; registre des décisions (20303).",
+            "Décision de Nova inscrite à son volume ; règle écrite ici (60302).",
+            "**retenue** — accordée par Nova, J1 9h25"
+          ]
+        },
+        {
+          "cellules": [
+            "**60202**",
+            "**Arrêter les usages de l’accueil par un programme**",
+            "60101",
+            "C’est la clef 10010 de l’affaire d’accueil, tenue par Aria : préciser les usages avant de dessiner ou construire. J’y porte le parcours visiteur (10020 = 60301). Prix : étude du conseil ; coût des travaux non établi. Ce que cela ferme : aucun espace affecté avant décision.",
+            "",
+            "Affaire d’accueil, clef 10010 et action 10022.",
+            "Programme approuvé par Nova.",
+            "**à décider** par Nova (J2)"
+          ]
+        },
+        {
+          "cellules": [
+            "**60203**",
+            "**Montrer le lieu avant de le promettre**",
+            "60103",
+            "J’associe une demande réelle à un lieu selon son usage dans l’atlas : la Halle pour montrer une maquette, les Ateliers pour créer et essayer, le Quai pour se retrouver, le Jardin pour se retirer, le Belvédère pour lire les plans, le Bassin pour les essais VR, sous réserve de son isolation. Je vérifie l’accès, le besoin d’aide et la compatibilité avec les autres usages ; le demandeur voit ce que le lieu permet avant toute promesse. Prix : mon temps sur place, une minute de navigation VR par accès local (convention de l’atlas). Ce que cela ferme : aucune disponibilité promise sans vérification.",
+            "",
+            "Atlas des lieux ; règle d’accès 70305 ; registre des arrivants (60300).",
+            "Fiche de la demande au registre : lieu vu, accès vérifié ou marqué inconnu, conditions écrites.",
+            "**retenue** (mandat O05, prêt temporaire et réversible)"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "⚔️ N°",
+        "🏷️ L’action",
+        "🗝️ Réalise",
+        "📝 Ce qu’on fait",
+        "📍 Où",
+        "🪶 Office",
+        "🧰 Moyens",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "⏳ État",
+        "📅 Jour dû",
+        "👤 Qui"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**60300**",
+            "📒 Ouvrir le registre des arrivants et des collectifs",
+            "60200",
+            "Poser les colonnes de la fiche : personne ou collectif rencontré, intention exprimée, espace adapté, accès à vérifier, besoin d’accompagnement, retour convenu, source. N’inscrire que des personnes rencontrées ou des demandes reçues. Je mets en relation, je ne parle pas à la place des habitants.",
+            "Hall des arrivées",
+            "O05",
+            "",
+            "",
+            "Table 📒 ouverte dans cette affaire le J1 au hall des arrivées, vide à l’ouverture : aucune personne ni aucune demande à inscrire.",
+            "**faite**",
+            "2042.1.1",
+            "pitch"
+          ]
+        },
+        {
+          "cellules": [
+            "**60301**",
+            "🚶 Écrire le parcours visiteur",
+            "60202",
+            "C’est l’action 10020 de l’affaire d’accueil : un seul travail. Trois cas d’essai, qui ne sont pas des visiteurs présents : une première visite, un rendez-vous municipal, la présentation d’un projet. Pour chacun : l’arrivée, l’information utile, l’orientation, l’attente éventuelle et la sortie, dans le hall, le salon et la galerie. Avec : le plan initial du Radiant Core tel que les livres le décrivent, l’atlas.",
+            "Hall des arrivées",
+            "O05",
+            "",
+            "",
+            "Table 🚶 écrite dans cette affaire le J1, trois cas d’essai sans fréquentation inventée, remise à Aria pour 10022 par billet ; besoins d’espace signalés à DEV pour 10021 = 30301 et 30305.",
+            "**faite**",
+            "2042.1.1, avant 16h",
+            "pitch"
+          ]
+        },
+        {
+          "cellules": [
+            "**60302**",
+            "📜 Écrire la règle de prêt des lieux",
+            "60201",
+            "Écrire les trois cas accordés par Nova le J1 à 9h25, avec ce qu’un prêt doit porter : le lieu, l’usage, la durée, la manière de rendre le lieu, le retour convenu. Renvoyer les accès à 70305 et les conflits à 70303.",
+            "Salle du conseil",
+            "O05",
+            "",
+            "",
+            "Règle écrite dans cette affaire ; Aria la porte au registre des décisions (20303).",
+            "**prise**",
+            "2042.1.2",
+            "pitch"
+          ]
+        },
+        {
+          "cellules": [
+            "**60303**",
+            "🤝 Traiter la première demande réelle de lieu",
+            "60203 · 60201",
+            "Inscrire la demande. Montrer le lieu, vérifier l’accès, l’aide et la compatibilité. Prêter à des conditions écrites si l’usage est temporaire et réversible ; sinon monter à Nova (durable ou exclusif) ou à JURIS (conflit). Répondre au demandeur dans le délai annoncé, par un prêt ou par un refus motivé. Aucune demande n’est reçue au J1 : l’action attend la première (verrou 60100).",
+            "Lieux de l’atlas",
+            "O05",
+            "",
+            "60300 · 60302",
+            "Demande inscrite avec sa suite : lieu prêté à conditions écrites ou refus motivé (état 60002).",
+            "**prise**",
+            "à la première demande",
+            "pitch"
+          ]
+        },
+        {
+          "cellules": [
+            "**60304**",
+            "🧩 Recueillir les besoins d’un collectif pour l’atelier ouvert",
+            "60203",
+            "Quand un collectif réel se présente : ce qu’il veut montrer, à qui, dans quel périmètre, avec quelle participation. Les besoins spatiaux vont à DEV, les demandes de captation à JURIS. La piste « Un atelier ouvert » n’est ni une décision, ni une demande reçue.",
+            "Ateliers modulaires, Creative Nexus",
+            "O05 · O02 · O06",
+            "",
+            "60300",
+            "Programme d’usage assez précis pour être dessiné, sans public, fréquentation ni organisateur inventés.",
+            "**proposée**",
+            "non daté",
+            "pitch"
+          ]
+        },
+        {
+          "cellules": [
+            "**60305**",
+            "🔎 Essayer une arrivée sans explication",
+            "60202",
+            "Une fois l’accueil réalisé, faire une arrivée sans explication préalable. Relever le premier point d’hésitation, l’information manquante et le détour éventuel. Corriger, puis refaire le même trajet.",
+            "Hall des arrivées, Radiant Core",
+            "O05",
+            "",
+            "60301 · 10022",
+            "Parcours essayé avec une personne réelle, amélioration observable (état 60001).",
+            "**prise**",
+            "après réalisation de l’accueil",
+            "pitch"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🚶 Parcours visiteur — trois cas d’essai (60301 = 10020)",
+      "colonnes": [
+        "🧪 Cas d’essai",
+        "🚪 Arrivée",
+        "ℹ️ Information utile",
+        "🧭 Orientation",
+        "⏳ Attente",
+        "🎯 Destination et sortie",
+        "📐 Besoin d’espace, pour DEV",
+        "❓ Inconnu"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Une première visite",
+            "Par un accès au Radiant Core. Depuis le Quai commun, le ruban lumineux du sol distingue la promenade de ces accès (atlas). Les autres accès restent à relever (10021).",
+            "Où l’on est, ce qui est ouvert aujourd’hui, à qui s’adresser.",
+            "Au hall, quelqu’un répond et oriente vers une activité ouverte ou un lieu de l’atlas. PITCH, tant qu’aucun autre accueil n’est désigné.",
+            "Aucune, ou brève, hors du passage.",
+            "La galerie des projets (esquisse A) ou un lieu de l’atlas. Sortie par le hall, sans traverser l’atelier des plans ni la salle du conseil.",
+            "Un point de réponse visible dès l’entrée. Un endroit où lire ce qui est ouvert sans arrêter le passage.",
+            "Aucune activité ouverte n’est inscrite au J1. Ce que le hall dessert exactement relève du relevé de DEV (10021 = 30301)."
+          ]
+        },
+        {
+          "cellules": [
+            "Un rendez-vous municipal",
+            "Au hall, attendu par un office nommé.",
+            "Avec qui, à quelle heure, où attendre.",
+            "Annoncé à l’office concerné. Le visiteur ne cherche pas lui-même la salle.",
+            "À l’écart du passage, sans entendre l’entretien précédent.",
+            "L’entretien se tient au salon des visiteurs, dans les deux esquisses de DEV. Retour par le hall. Le visiteur ne traverse ni la galerie ni un lieu de travail.",
+            "Un seuil lisible entre le hall et le salon. Le salon est-il atteint depuis le hall sans traverser la galerie ?",
+            "La confidentialité réelle d’un entretien : une cloison opaque sépare la vue, sans rien garantir (40104, 40205 ; droits, JURIS)."
+          ]
+        },
+        {
+          "cellules": [
+            "La présentation d’un projet par un collectif",
+            "Au hall, avec une demande de lieu.",
+            "Où l’on peut montrer, qui décide, dans quel délai. Un prêt temporaire et réversible se décide à l’office O05 (60201) ; le durable ou l’exclusif revient à Nova.",
+            "La demande est inscrite au registre 📒. Le lieu est choisi selon l’échelle : la galerie des projets, ou la Halle des maquettes (Creative Nexus) pour un modèle spatial.",
+            "Pendant l’examen de la demande. Le délai de réponse de la cité n’est pas fixé (20202).",
+            "La galerie ou le lieu prêté, montré avant toute promesse (60203). Sortie par le hall.",
+            "Une galerie accessible depuis le hall sans traverser le travail. Un endroit où poser une maquette. La galerie peut-elle recevoir un public pendant qu’un entretien se tient au salon ?",
+            "La capacité de la galerie et de la Halle (non mesurée). Le délai de réponse promis par Nova."
+          ]
+        },
+        {
+          "cellules": [
+            "Ce que les trois cas croisent",
+            "Les trois entrent par le hall.",
+            "Le cas 1 et le cas 3 ont besoin de la même information : ce qui est ouvert, et à qui s’adresser.",
+            "Esquisse A : tout se joue au hall, qui porte à la fois le passage et l’orientation. Esquisse B : l’orientation passe à la galerie, et le hall ne sert qu’au passage.",
+            "Seul le cas 2 attend à heure fixe. C’est aussi le seul qui demande l’écart.",
+            "Le cas 2 va au salon, les cas 1 et 3 à la galerie. La séparation tient si le hall dessert les deux sans qu’on traverse l’un pour l’autre.",
+            "À comparer par DEV sur le relevé (30305) : les trajets hall → salon et hall → galerie, et leurs croisements, dans A comme dans B.",
+            "Aucune fréquentation n’est connue : ces cas sont des essais, pas des visiteurs présents."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "📒 Registre des arrivants et des collectifs (60300)",
+      "colonnes": [
+        "📅 Date et heure",
+        "👥 Personne ou collectif rencontré",
+        "💬 Intention exprimée",
+        "🏠 Espace adapté",
+        "🚪 Accès à vérifier",
+        "🤲 Besoin d’accompagnement",
+        "↩️ Retour convenu",
+        "👁️ Source"
+      ],
+      "lignes": []
+    }
+  ],
+  "embleme": "🧭"
+}

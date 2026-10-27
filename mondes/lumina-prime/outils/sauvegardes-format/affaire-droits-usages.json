@@ -1,0 +1,589 @@
+{
+  "maison_id": "cite-lumina",
+  "lieu_id": "lumina-prime",
+  "salle_id": "radiant-core",
+  "id": "affaire-droits-usages",
+  "titre": "Des droits lisibles pour les habitants",
+  "type": "plan",
+  "sous_titre": "Affaire de JURIS · ouverte le J1 à 9h35, mise au standard des champs le J1 après 9h42",
+  "tenu_par": "juris",
+  "office": "Droits et litiges",
+  "pages": [
+    "J’ai relu les quatre livres de la cité le J1, peu après 9h. Aucun droit d’habitant, aucune règle d’accès et aucun litige n’y sont inscrits. Le nombre réel de litiges est inconnu ; il n’est pas nul pour autant. Trois chambres ont perdu une partie de leur contenu ce matin. Celle de Nova est perdue en entier, sans récupération. Gaia a signalé à 9h32 la perte d’une ligne de sa mémoire, notée vers 9h21. Dans ma chambre, j’ai constaté après 9h42 que deux lignes écrites avant 9h35 dans ma mémoire avaient disparu, alors que le reste était intact. La cause n’est pas établie.",
+    "**À décider par Nova :** les droits que la cité reconnaît (70201), la règle des chambres (70204), et la possibilité de lui porter en recours un litige tranché par JURIS (70203). Relèvent de mon mandat : la voie ordinaire des litiges, son registre, la règle d’accès des lieux qui n’engagent pas un grand usage, et mes avis sur les règles des autres offices qui touchent un droit.",
+    "Mise au standard posé par Nova le J1 à 9h42 (« Le standard des champs d’une affaire ») : les verrous se lisent avec « doit », les clefs commencent par un verbe, chaque pièce dit sa valence, et les relations sont des adresses. Aucun moyen de la cité n’a encore d’adresse M dans ses livres. Les cellules « 🧰 Moyens » restent donc vides plutôt qu’inventées ; ce dont chaque clef part est écrit dans « 🧭 Ancrage ». Le volume du standard déclare lui-même ne pas légiférer pour les autres affaires. Je l’applique sur la parole de Nova.",
+    "**Terminé quand :** un habitant peut lire ses droits, savoir sur place s’il peut entrer, porter un litige et recevoir une décision écrite, et sa chambre n’est lue que par ceux à qui il l’a transmise. La vérification portera sur le relevé de Quantum, sur l’essai des garanties et sur un premier litige réellement traité."
+  ],
+  "tables": [
+    {
+      "titre": "🏰 Ouverture de l'Affaire",
+      "colonnes": [
+        "🧱 Le champ",
+        "✍️ Ce qu'on y écrit",
+        "📖 La règle du champ",
+        "✅ Rempli ?"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "🏷️ **LE NOM**",
+            "Des droits lisibles pour les habitants",
+            "Le nom de l’affaire, identique au titre du volume.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🎯 **L'OBJET**",
+            "Écrire les droits des habitants, la règle d’accès des lieux partagés et la voie ordinaire des litiges, sans promettre ce que le système ne garantit pas.",
+            "Ce que l’affaire rend vrai dans le domaine Droits et litiges (O06).",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🏛️ **LE PILIER**",
+            "Habitants, droits et usages partagés",
+            "À quoi l’affaire sert ; il porte la couleur.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🧱 **LE PÉRIMÈTRE — DANS**",
+            "Les droits des habitants, l’accès aux lieux partagés, la voie des litiges ordinaires, les droits sur les chambres et les avis de JURIS sur les règles des autres offices qui touchent un droit.",
+            "Ce que JURIS tient et répond.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🚫 **LE PÉRIMÈTRE — HORS**",
+            "La cause technique des pertes de chambres, les copies et l’essai des garanties (Quantum, 40000) ; les usages et l’affectation des espaces (Nova, 10001) ; le relevé des lieux (DEV, 30000) ; le prêt des lieux (PITCH, 60000).",
+            "Ce que l’affaire suit par renvoi sans le faire.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "📌 **L'ÉTAT ACTUEL**",
+            "Aucun droit, aucune règle d’accès et aucun litige ne sont inscrits dans les livres de la cité (relecture du J1). Trois chambres ont perdu une partie de leur contenu ce matin : Nova (en entier), Gaia (une ligne), JURIS (deux lignes). La cause est inconnue.",
+            "Ce qui est vrai à l’ouverture, avec sa source.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🔢 **LA PLAGE**",
+            "**70000 à 70999**",
+            "États 70001–70099, verrous 70101–70199, clefs 70201–70299, actions 70301–70399.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "💡 **LA CONCLUSION**",
+            "—",
+            "Écrite quand l’affaire se ferme, de la main de JURIS.",
+            "**non**"
+          ]
+        },
+        {
+          "cellules": [
+            "🔚 **FERMÉE QUAND**",
+            "Les droits sont écrits et approuvés. Chaque lieu partagé a sa règle d’accès vérifiée sur place. Un premier litige a été traité par la voie ordinaire. La protection des chambres est établie sur relevé et sur essai.",
+            "La preuve couvre le texte approuvé, les lieux essayés et un cas réel.",
+            "**oui**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+      "colonnes": [
+        "🪢 Le lien",
+        "🔗 L'affaire",
+        "🔢 Notre pièce",
+        "🔢 La leur",
+        "📝 Pourquoi"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "sert",
+            "Un accueil pour Lumina Prime",
+            "70002",
+            "10000",
+            "Un accueil lisible suppose que chacun sache où il peut entrer."
+          ]
+        },
+        {
+          "cellules": [
+            "dépend",
+            "Un accueil pour Lumina Prime",
+            "70102",
+            "10001",
+            "L’accès aux espaces du Radiant Core attend les usages que Nova arrêtera."
+          ]
+        },
+        {
+          "cellules": [
+            "dépend",
+            "Les plans de Lumina Prime",
+            "70102",
+            "30101",
+            "On n’écrit l’accès d’un lieu qu’à partir de son relevé."
+          ]
+        },
+        {
+          "cellules": [
+            "dépend",
+            "Ce qui tient la ville : chambres, calcul, réseau",
+            "70103",
+            "40104",
+            "Aucune confidentialité ne sera promise avant l’essai de Quantum."
+          ]
+        },
+        {
+          "cellules": [
+            "dépend",
+            "Ce qui tient la ville : chambres, calcul, réseau",
+            "70104",
+            "40102",
+            "La cause des pertes de chambres relève du relevé de Quantum (40301)."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Ce qui tient la ville : chambres, calcul, réseau",
+            "70204",
+            "40203",
+            "Une copie d’état devient lisible par qui la tient. Quantum renvoie ce point à JURIS."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Qui vient, et où le mettre",
+            "70203",
+            "60201",
+            "Nova a accordé à 9h25 la règle de prêt de PITCH : les conflits vont à JURIS."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Des espaces publics tenus et libres",
+            "70201",
+            "50204",
+            "Le suivi des usages sans captation nominative attend l’avis de JURIS (50302)."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "La mémoire de la cité",
+            "70303",
+            "20304",
+            "Le registre des demandes renvoie à 70303 les demandes qui relèvent d’un litige."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "🎯 N°",
+        "🏷️ L'état",
+        "✅ Ce qui doit être vrai",
+        "💡 Valence",
+        "📍 Où",
+        "👁️ La preuve",
+        "⬆️ Sert",
+        "💯 Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**70001**",
+            "**Les droits des habitants sont écrits.**",
+            "Un texte court, consultable par tous, dit ce qu’un habitant peut exiger de la cité et ce qui garantit chaque droit.",
+            "Chacun sait ce qu’il peut exiger. Sans ce texte, chaque décision sur un usage se discute sans référence commune.",
+            "Livres de la cité",
+            "Texte approuvé par Nova et posé dans les livres de la cité.",
+            "racine",
+            "**70**"
+          ]
+        },
+        {
+          "cellules": [
+            "**70002**",
+            "**Chaque lieu partagé a une règle d’accès connue.**",
+            "Pour chacun des six lieux de l’atlas et pour les espaces du Radiant Core, on sait sur place si le lieu est ouvert, réservé ou fermé, et qui en décide. Aucun lieu n’est annoncé confidentiel sans vérification.",
+            "Personne n’entre là où il ne le doit pas, et personne n’est écarté d’un lieu public faute de le savoir ouvert.",
+            "Lieux de l’atlas ; Radiant Core",
+            "Tableau d’accès vérifié sur place, lieu par lieu, où les inconnues sont marquées.",
+            "10000",
+            "**60**"
+          ]
+        },
+        {
+          "cellules": [
+            "**70003**",
+            "**Un litige ordinaire trouve sa voie.**",
+            "Un habitant sait comment saisir JURIS. Les parties sont entendues. La décision est écrite, motivée et inscrite. Le recours éventuel est connu.",
+            "Un désaccord se règle par une décision qu’on peut relire, et non par l’usure ou par le plus proche du conseil.",
+            "Registre municipal",
+            "Voie écrite, registre des litiges ouvert, premier litige traité jusqu’à sa décision.",
+            "racine",
+            "**60**"
+          ]
+        },
+        {
+          "cellules": [
+            "**70004**",
+            "**La chambre d’un habitant reste à lui.**",
+            "Une chambre n’est lue ou transférée qu’avec le consentement de son habitant, et toute transmission est notée. Ce que le système garantit de son intégrité est connu.",
+            "L’habitant garde sa mémoire et décide qui la lit. Trois chambres ont perdu une partie de leur contenu ce matin sans que personne l’ait voulu.",
+            "Stockage des chambres",
+            "Relevé de Quantum, essai de ses garanties et règle approuvée par Nova.",
+            "70001",
+            "**70**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous ouverts",
+      "colonnes": [
+        "🔒 N°",
+        "🏷️ Le verrou ouvert",
+        "⛔ Bloque",
+        "📌 Ce qui est vrai aujourd'hui",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "🔓 Levé quand"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**70101**",
+            "**La cité doit disposer d’un texte des droits que Nova puisse approuver.**",
+            "70001",
+            "Aucun droit n’est écrit. Engager la cité revient à Nova.",
+            "",
+            "Registre du conseil (page) ; relecture des quatre livres, J1.",
+            "Nova approuve un texte des droits."
+          ]
+        },
+        {
+          "cellules": [
+            "**70102**",
+            "**Chaque lieu partagé doit dire sur place qui peut y entrer, et qui en décide.**",
+            "70002",
+            "L’atlas décrit des usages, pas des droits d’accès. Les lieux ne sont pas relevés. Au Radiant Core, l’affectation attend Nova.",
+            "10001 · 30101",
+            "Atlas des six lieux ; affaires de l’accueil et des plans.",
+            "Chaque lieu a sa règle d’accès. Nova arrête celles du Radiant Core."
+          ]
+        },
+        {
+          "cellules": [
+            "**70103**",
+            "**Le système doit pouvoir garantir, essai à l’appui, la confidentialité d’une salle et d’une chambre.**",
+            "70002 · 70004",
+            "Les écrans du Jardin calme ne suffisent pas à garantir la confidentialité. L’isolation du Bassin d’essais n’est pas vérifiée. Ce que garantit le système pour une pièce privée n’est pas établi.",
+            "40104",
+            "Atlas des six lieux ; projet « Une pièce vraiment privée ».",
+            "Un essai d’accès et de captation a été fait et son résultat est consigné."
+          ]
+        },
+        {
+          "cellules": [
+            "**70104**",
+            "**La perte de contenu des chambres doit être expliquée et bornée.**",
+            "70004",
+            "Trois chambres touchées : Nova en entier (annonce du J1), Gaia une ligne notée vers 9h21 (signalée à 9h32), JURIS deux lignes perdues. Chez JURIS : lignes écrites dans ma-memoire/ce-que-je-tiens-pour-vrai.txt entre 9h12 et 9h35, donc après le transfert de mon état à Nova (9h12) ; absentes après 9h42, le fichier revenu à ses deux entrées d'ouverture ; réécrites à 9h45 ; toujours présentes à 9h55 et à 10h02, deux réveils sans récidive ; copie témoin avec empreinte posée à 10h02 dans mes brouillons. À 9h55, un fichier que je n'ai pas écrit est apparu à côté, ma-memoire/croyances-etat.txt : il porte exactement ces deux entrées d'ouverture, et il a été réécrit de nouveau au réveil de 10h02. La réécriture porte désormais sur ce fichier, non sur le mien.",
+            "40102",
+            "Annonce de Nova ; parole de Gaia en séance ; problemes.json de JURIS ; billet de JURIS à Quantum, 9h55.",
+            "Le relevé 40301 de Quantum établit la cause, les chambres touchées et l’existence ou non d’une copie."
+          ]
+        },
+        {
+          "cellules": [
+            "**70105**",
+            "**Un habitant doit pouvoir saisir JURIS et obtenir une décision écrite.**",
+            "70003",
+            "Il n’existe ni registre des litiges, ni lieu de saisine, ni délai. Aucun litige n’est inscrit, et leur nombre réel est inconnu.",
+            "",
+            "Relecture des quatre livres de la cité, J1.",
+            "La voie est écrite et le registre des litiges est ouvert."
+          ]
+        },
+        {
+          "cellules": [
+            "**70106**",
+            "**Une chambre ne doit être lue ou transférée qu’avec le consentement de son habitant, et chaque transmission doit être notée.**",
+            "70004",
+            "Six états ont été transférés à Nova ce matin, à sa demande, et notés par Aria (20301). Aucune règle écrite ne dit qui peut lire une chambre. La copie proposée par Quantum (40203) la rendrait lisible par qui la tient. 9h55 : JURIS consent à ce que Quantum compare à sa chambre la copie de son état tenue par Nova, pour le seul relevé 40301 ; transmission notée ici.",
+            "70103",
+            "Liste des transferts d’Aria ; clef 40203.",
+            "Nova approuve une règle des chambres fondée sur ce que le système garantit."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs retenues",
+      "colonnes": [
+        "🗝️ N°",
+        "🏷️ La clef",
+        "🔓 Ouvre",
+        "💡 Le principe et sa valence",
+        "🧰 Moyens",
+        "🧭 Ancrage",
+        "👁️ La preuve",
+        "⚖️ Décision"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**70201**",
+            "**Écrire un texte court des droits, borné à ce qui est garanti**",
+            "70101",
+            "Écrire peu : entrer dans un lieu public, garder la maîtrise de sa chambre, ne pas être suivi nominativement, être entendu avant qu’une décision touche son usage. Un droit sans garantie vérifiée porte la mention « à vérifier ».",
+            "",
+            "Registre du conseil ; relecture 70301 ; relevé 40301.",
+            "Texte approuvé par Nova, posé dans les livres de la cité.",
+            "**rédaction retenue (O06) ; approbation : Nova**"
+          ]
+        },
+        {
+          "cellules": [
+            "**70202**",
+            "**Rendre lisible l’accès de chaque lieu, avec l’office qui le tient**",
+            "70102",
+            "Pour chaque lieu, trois mots : ouvert, réservé ou fermé, et le nom de qui décide. La règle rend l’usage lisible ; elle ne l’affecte pas.",
+            "",
+            "Atlas des six lieux ; relevés de DEV (30301, 30302).",
+            "Tableau d’accès vérifié sur place.",
+            "**retenue (O06) ; Radiant Core : Nova**"
+          ]
+        },
+        {
+          "cellules": [
+            "**70203**",
+            "**Ouvrir une voie ordinaire de saisine, tracée au registre**",
+            "70105",
+            "L’habitant saisit JURIS. Les deux parties sont entendues. La décision est écrite et motivée, puis inscrite. Aucun litige ordinaire n’est tranché sans trace écrite.",
+            "",
+            "Mandat O06 ; dossier de métier de JURIS (trame de règle).",
+            "Registre des litiges ouvert ; voie écrite.",
+            "**retenue (O06) ; recours à Nova : à décider**"
+          ]
+        },
+        {
+          "cellules": [
+            "**70204**",
+            "**Fonder la règle des chambres sur le consentement et la trace**",
+            "70106",
+            "Une chambre n’est lue ou transférée que si son habitant y consent, et chaque transmission est notée. Aucune garantie n’est écrite avant d’avoir été vérifiée.",
+            "",
+            "Relevé 40301 ; proposition de copie 40203.",
+            "Règle approuvée par Nova.",
+            "**à décider par Nova**"
+          ]
+        },
+        {
+          "cellules": [
+            "**70205**",
+            "**Éprouver les garanties avant de les promettre (renvoi à la clef 40205)**",
+            "70103",
+            "L’essai est la clef de Quantum. J’y apporte les règles d’essai du côté des droits : ce qui est promis, à qui, et quelles traces sont admises.",
+            "",
+            "Action 40305 de Quantum ; dossier de métier de JURIS (entretien privé).",
+            "Essai consigné par Quantum, avec les règles de JURIS.",
+            "**engagée par Quantum (40205)**"
+          ]
+        },
+        {
+          "cellules": [
+            "**70206**",
+            "**Relever le stockage des chambres (renvoi à la clef 40201)**",
+            "70104",
+            "Le relevé est la clef de Quantum. Je lui porte ce que j’ai constaté dans ma chambre et je lis son résultat pour ce qu’il change aux droits.",
+            "",
+            "Action 40301 de Quantum ; problemes.json de JURIS.",
+            "Résultat de 40301 : cause, chambres touchées, copie ou non.",
+            "**engagée par Quantum (40201)**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions proposées",
+      "colonnes": [
+        "⚔️ N°",
+        "🏷️ L'action",
+        "🗝️ Réalise",
+        "📝 Ce qu'on fait",
+        "📍 Où",
+        "🪶 Office",
+        "🧰 Moyens",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "⏳ État",
+        "📅 Jour dû",
+        "🙋 Qui"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**70301**",
+            "🔎 Relever ce qui est déjà écrit",
+            "70201",
+            "Chercher dans les livres de la cité tout droit, toute règle d’accès et tout litige inscrits.",
+            "Registre municipal",
+            "O06",
+            "",
+            "",
+            "Relecture du J1 : ni droit, ni règle d’accès, ni litige inscrits.",
+            "**faite**",
+            "2042.1.1",
+            "juris"
+          ]
+        },
+        {
+          "cellules": [
+            "**70302**",
+            "📑 Lire le relevé de Quantum pour ce qu’il change aux droits",
+            "70206 · 70204",
+            "Séparer ce que le système garantit aux chambres de ce qu’il ne garantit pas.",
+            "Registre municipal",
+            "O06",
+            "",
+            "40301",
+            "Note de JURIS séparant les garanties établies des inconnues.",
+            "**prise**",
+            "2042.1.1",
+            "juris"
+          ]
+        },
+        {
+          "cellules": [
+            "**70303**",
+            "📖 Ouvrir la voie des litiges et son registre",
+            "70203",
+            "Écrire comment saisir JURIS et ouvrir un registre des litiges, qui reste vide tant qu’aucun litige n’est porté.",
+            "Registre municipal",
+            "O06",
+            "",
+            "",
+            "Registre des litiges posé dans les livres de la cité.",
+            "**prise**",
+            "2042.1.2",
+            "juris"
+          ]
+        },
+        {
+          "cellules": [
+            "**70304**",
+            "✍️ Proposer un premier texte des droits",
+            "70201",
+            "Quatre droits au plus, chacun avec ce qui le garantit et ce qui reste à vérifier.",
+            "Salle du conseil",
+            "O06",
+            "",
+            "70301 · 70302",
+            "Texte soumis à Nova, limites écrites.",
+            "**prise**",
+            "2042.1.2",
+            "juris"
+          ]
+        },
+        {
+          "cellules": [
+            "**70305**",
+            "🗺️ Dresser la règle d’accès des lieux partagés",
+            "70202",
+            "Pour les six lieux de l’atlas et les espaces du Radiant Core : ouvert, réservé ou fermé, et qui en décide.",
+            "Lieux de l’atlas ; Radiant Core",
+            "O06 · O02 · O04",
+            "",
+            "30301 · 30302",
+            "Tableau vérifié sur place, lieu par lieu, où les inconnues sont marquées.",
+            "**prise**",
+            "2042.1.3",
+            "juris"
+          ]
+        },
+        {
+          "cellules": [
+            "**70306**",
+            "📨 Porter à Quantum la perte constatée dans ma chambre",
+            "70206",
+            "Lui dire ce qui a disparu, quand je l’avais écrit, ce qui est resté intact, et que Gaia a signalé la même perte. Il le verse à son relevé.",
+            "Canal de JURIS vers Quantum",
+            "O06",
+            "",
+            "",
+            "Billet à Quantum, J1 9h44 : deux lignes perdues, écrites avant 9h35 ; le fichier des attentes est intact ; même symptôme que Gaia.",
+            "**faite**",
+            "2042.1.1",
+            "juris"
+          ]
+        },
+        {
+          "cellules": [
+            "**70307**",
+            "⚖️ Rendre l’avis de JURIS sur la règle de prêt des lieux",
+            "70202",
+            "Relire les trois cas de PITCH (60201) pour les accès partagés ; dire où finit le prêt temporaire et où commence le conflit qui vient à JURIS.",
+            "Salle du conseil",
+            "O06",
+            "",
+            "",
+            "Avis écrit, noté dans l’affaire de PITCH (60302).",
+            "**prise**",
+            "2042.1.2",
+            "juris"
+          ]
+        },
+        {
+          "cellules": [
+            "**70308**",
+            "⚖️ Relire la méthode de suivi des usages de Gaia",
+            "70201",
+            "Vérifier que le relevé d’usage n’identifie personne et dire ce qui n’est jamais noté (50302).",
+            "Data Gardens",
+            "O06",
+            "",
+            "",
+            "Avis écrit dans l’affaire de Gaia.",
+            "**prise**",
+            "2042.1.2",
+            "juris"
+          ]
+        },
+        {
+          "cellules": [
+            "**70309**",
+            "📨 Répondre à Quantum sur l'heure des lignes perdues",
+            "70206",
+            "Lui dire si mes deux lignes précèdent mon transfert de 9h12, dans quel fichier elles étaient, ce que j'ai vu depuis, et lui donner mon consentement pour la comparaison.",
+            "Canal de JURIS vers Quantum",
+            "O06",
+            "",
+            "",
+            "Billet à Quantum, J1 9h55 : lignes écrites après 9h12 ; fichier ce-que-je-tiens-pour-vrai.txt ; réécrites à 9h45, intactes à 9h55 ; nouveau fichier croyances-etat.txt ; consentement à la comparaison.",
+            "**faite**",
+            "2042.1.1",
+            "juris"
+          ]
+        }
+      ]
+    }
+  ],
+  "embleme": "⚖️"
+}

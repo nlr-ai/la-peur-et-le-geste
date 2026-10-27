@@ -1,0 +1,23 @@
+{
+  "id": "magies",
+  "nom": "magies",
+  "calendrier": {
+    "lunes": 12,
+    "jours_par_lune": 30,
+    "dit": "An %(annee)d — mois %(lune)d, jour %(jour)d"
+  },
+  "monnaie": {
+    "unites": []
+  },
+  "titres": [],
+  "unites": {},
+  "canaux": {
+    "oral": "de vive voix"
+  },
+  "offices": {},
+  "signes": {},
+  "depart": {
+    "lieu": "bastion-couronne",
+    "siege": "heloise-braise"
+  }
+}

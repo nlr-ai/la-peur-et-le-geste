@@ -1,0 +1,62 @@
+[
+  {
+    "id": "acte-cadrage-001",
+    "date": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "infection",
+    "cible_id": "immunite",
+    "description": "Cadrage conjoint de la manche 001 sur la provocation humaine H1N1 A/Texas/36/91 chez 19 adultes sains (S-001, Hayden et al. 1998).",
+    "connu_de": [
+      "infection",
+      "immunite"
+    ]
+  },
+  {
+    "id": "acte-t001-infection",
+    "date": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "infection",
+    "cible_id": "immunite",
+    "description": "Coup T-001 arbitré : association temporelle et quantitative à J2 étayée dans S-001 (Tableau I), causalité exclusive non démontrée (+1 point de connaissance à Infection).",
+    "connu_de": [
+      "infection",
+      "immunite"
+    ]
+  },
+  {
+    "id": "acte-t002-immunite",
+    "date": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "immunite",
+    "cible_id": "infection",
+    "description": "Coup T-002 arbitré : hypothèse du contrôle antiviral par IFN-α à J2–J3 retenue comme hypothétique face à la déplétion de cellules cibles ; ouverture des branches B-1 et B-2 (+1 point de connaissance à Immunité).",
+    "connu_de": [
+      "infection",
+      "immunite"
+    ]
+  },
+  {
+    "id": "acte-lup-t001-t002",
+    "date": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    },
+    "acteur_id": "immunite",
+    "cible_id": "infection",
+    "description": "Arbitrage conjoint de LUP-T001 et LUP-T002 : contrôle indépendant de LUP-001 à LUP-005 (XML intégral débloqué pour PMC13004673 et PMC11815715), réduction de portée de LUP-001/LUP-003, validation de la contre-preuve issue de LUP-002 et attribution de +1 crédit commun (Total : 1).",
+    "connu_de": [
+      "immunite",
+      "infection"
+    ]
+  }
+]

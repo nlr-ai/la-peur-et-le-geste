@@ -10,8 +10,10 @@ l'être, il descend ici, et c'est la règle qui garde le classement honnête.
 
 | Module | Ce qu'il tient | Importé par |
 |---|---|---|
+| `racines.py` | **où vit l'état, et de quel monde il est** : `DEPOT` (le code, immuable), `racine()`/`etat()`/`chambres()` (le monde courant), `manifeste()`/`dit()` (ce que le monde déclare de lui-même). Trois sources dans cet ordre — `CONSEIL_RACINE`, `CONSEIL_MONDE`, puis la disposition héritée, qui reste le défaut à l'octet près. Un monde nommé qui n'existe pas plante, il ne sert jamais celui d'à côté. Jumeau exact en Node : `serveur/racines.js`, mêmes variables, mêmes défauts. `--verifier` compte les fichiers qui décident encore seuls où vit l'état (74 le 9.9) ; ce chiffre ne doit que descendre | `tables.py`, et tout ce qui doit changer de monde |
 | `bibliotheque.py` | l'agrégat des livres possédés par les maisons, avec écriture optimiste par volume | 24 scripts |
 | `plan_modele.py` | le plan visible d'un siège, normalisé avant toute mesure | `criticite`, `etat_du_plan`, `depecher` |
+| `affaires_chambres.py` | ce qu'un siège `voit_affaires` (joueurs.json) ajoute à son damier : les cahiers de plan de toutes les chambres (sauf `mj`), ids `chambre-<h>-<id>` comme les coffrets des livres, numéros locaux C/V/K/P renumérotés à la lecture en blocs de mille au-dessus de 100000 — rien ne s'écrit | `plan_modele` |
 | `rapporteurs.py` | le registre des battements dérivés : qui doit tourner, quand | `tick`, `couverture`, `criticite` |
 | `livre.py` | ouvrir UN volume pour quelqu'un de nommé (`books.json` fait 2 Mo) | `depecher`, `plan_modele` |
 | `jours_relatifs.py` | l'échelle J−N du plan, lue par une seule main | `dater_plan`, `etat_du_plan` |
@@ -24,6 +26,11 @@ l'être, il descend ici, et c'est la règle qui garde le classement honnête.
 | `regles_partie.py` | le livre de règles (`docs/regles-partie.md`, un slug par règle) et le code qui les applique (`# regle: <slug>` en commentaire), tenus ensemble : `--verifier` signale une règle sans marqueur, un marqueur sans règle, une ligne « où » périmée ; `--ecrire` regénère ces lignes sous chaque règle. Les règles `sans code` sont listées à part — façade `scripts/regles.py`, garde de `verifier.mjs` | `regles.py` |
 | `partie_lecture.py` | ce qui se lit d'une partie : chaîne, pièce, grand livre, état, relecture — séparé du greffe parce que rien ici ne change la position | `partie.py` |
 | `partie_cartes.py` | la vue JOUEUR d'une partie, en cartes (fronts, piles, deck, desseins) : le brouillard appliqué, l'apparence de chaque carte, aucun id nu — `partie.py --cartes`, servi par `/partie` | `partie.py` |
+| `partie_ascii.py` | la MÊME vue que `partie_cartes`, dessinée au terminal : un seul arbre du trône aux pièces, les statuts signés, les décomptes — `partie.py --plateau [--entier]` | `partie.py` |
+| `partie_grille.py` | la même vue en GRILLE : une colonne par point de contact, ce qui prévaut devant, le contrecarré derrière, et les CREUX que l'arbre ne montre pas — `partie.py --grille` | `partie.py` |
+| `partie_signes.py` | les emojis d'une carte : `genre_piece` (ce qu'une pièce EST — nef, document, labo, homme) et `signe_de` (ce dont une carte PARLE). Sorti de `partie_cartes` le 5.9 : c'est la seule table du moteur qui doive GROSSIR, chaque partie neuve apportant son monde — un monde sans mots ici retombe tout entier dans 📦 | `partie_cartes` |
+| `partie_marques.py` | ce que l'écran a le droit d'OFFRIR sur une carte : `questionnable` (exiger la chaîne) et `suspendue` (écrire le maillon), posés sur la vue déjà bâtie — sortis de `partie_cartes` au cliquet des 500 lignes | `partie.py` |
+| `partie_journal.py` | ce qui vient d'être joué, dit en clair pour l'écran : les lignes du livre après le marque-page du siège, ids rhabillés de leurs titres — servi dans `vue.relecture` par `partie.py --cartes` | `partie.py` |
 | `partie_gestes.py` | ce que le joueur FAIT à l'écran traduit en coup : une carte posée sur une carte, et c'est la CIBLE qui dit lequel — refus rhabillés de leurs titres, `partie.py --geste`, servi par `POST /partie/geste` | `partie.py`, `partie_cartes`, `partie_greffe` |
 
 **`bibliotheque.py` est stricte sur chaque manifeste de maison** : volume absent,

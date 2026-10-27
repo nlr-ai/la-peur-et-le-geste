@@ -313,6 +313,63 @@ export function demarrer(racine, scenario, scenarios, ressources = {}, { habilla
     return id;
   };
 
+  // ── L'INCARNATION : un homme de notre livrée, épée et bouclier, que le
+  // joueur mène au clavier (🖥️ interactions/incarnation). Il naît grégaire
+  // et le redevient quand on le lâche : la tête est la sienne du début à la
+  // fin, on ne lui prend que ses jambes et son bras. Son cap reste à 🧠.
+  const notreLivree = scenario.unites[0]?.livree ?? 'bleu';
+  const incarnation = {
+    apparaitre(pos) {
+      // la place peut être prise : on cherche autour, en spirale courte
+      for (let k = 0; k < 12; k++) {
+        const a = (k * Math.PI * 2) / 6;
+        const r = k === 0 ? 0 : k < 6 ? 1.2 : 2.4;
+        const id = monde.spawn({ pos: { x: pos.x + Math.cos(a) * r, y: pos.y + Math.sin(a) * r }, rayon: PARAMS.rayonHomme, masse: tirerMasse(), livree: notreLivree, nom: 'le vôtre' });
+        if (id === null) continue;
+        corpsContainer.enregistrer(id, { arme: 'epee', bouclier: true });
+        cognition.attacher(id, {
+          connaissance: { maLivree: notreLivree },
+          fabriqueBrain: ({ representation, dire }) =>
+            creerGregaire({ rng, representation, zone: scenario.zone, params: PARAMS, dire }),
+        });
+        presentation.dire(id, 'À moi !');
+        return id;
+      }
+      return null;
+    },
+    // les chefs vivants de notre livrée : ceux qu'on peut prendre en main
+    commandants: () =>
+      unites
+        .map((u) => monde.corpsParId(u.idChef))
+        .filter((c) => c && c.livree === notreLivree && corpsContainer.estVivant(c.id))
+        .map((c) => ({ id: c.id, pos: { x: c.pos.x, y: c.pos.y } })),
+    relacher: (id) => cognition.piloter(id, null),
+    piloter: (id, intention) => cognition.piloter(id, intention),
+    estVivant: (id) => corpsContainer.estVivant(id),
+    estEnnemi(id, autre) {
+      const a = monde.corpsParId(autre);
+      const moi = monde.corpsParId(id);
+      return !!a && !!moi && a.livree !== moi.livree && (a.gabarit ?? 'homme') === 'homme' && a.posture !== 'gisant';
+    },
+    porteeDe: (id) => corpsContainer.armeDe(id).allonge,
+    periodeCoupMs: (id) => corpsContainer.armeDe(id).periodeCoupS * 1000,
+    ennemiLePlusProche(id, porteeM) {
+      const moi = monde.corpsParId(id);
+      if (!moi) return null;
+      let meilleur = null;
+      let dMin = porteeM;
+      for (const c of monde.corps()) {
+        if (!incarnation.estEnnemi(id, c.id) || !corpsContainer.estVivant(c.id)) continue;
+        const d = Math.hypot(c.pos.x - moi.pos.x, c.pos.y - moi.pos.y) - c.rayon;
+        if (d < dMin) {
+          dMin = d;
+          meilleur = c.id;
+        }
+      }
+      return meilleur;
+    },
+  };
+
   // 🖥️ ← vues de tous, commandes explicites
   const presentation = creerPresentation({
     vuesMonde: {
@@ -347,6 +404,7 @@ export function demarrer(racine, scenario, scenarios, ressources = {}, { habilla
         presentation.dire(notreUnite.idChef, 'Par ici !');
       },
     },
+    incarnation,
     scenarios,
     spawn: spawnHomme,
     plan: ressources.plan ?? null, // le plan cuit (viz du calque terrain)

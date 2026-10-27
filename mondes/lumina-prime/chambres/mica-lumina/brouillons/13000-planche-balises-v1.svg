@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297" role="img" aria-labelledby="title desc">
+  <title id="title">Planche à taille réelle de trois balises de portée sonore</title>
+  <desc id="desc">Trois carrés de douze centimètres : entendu, seuil incertain et non entendu. Chaque carré porte des champs pour direction, nombre de pas, observateur et observation.</desc>
+  <defs>
+    <pattern id="dots" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.8" fill="#222"/>
+    </pattern>
+    <style>
+      .cut { fill: #fff; stroke: #111; stroke-width: 0.8; stroke-dasharray: 3 2; }
+      .title { font-family: Arial, sans-serif; font-weight: 700; font-size: 9px; text-anchor: middle; fill: #111; }
+      .small { font-family: Arial, sans-serif; font-size: 4px; fill: #111; }
+      .field { stroke: #111; stroke-width: 0.45; }
+      .heavy { fill: none; stroke: #111; stroke-width: 3; stroke-linecap: round; }
+      .medium { fill: none; stroke: #111; stroke-width: 1.4; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <text x="210" y="9" class="small" text-anchor="middle">MAQUETTE V1 — impression A3 paysage à 100 % : chaque carré mesure 12 × 12 cm</text>
+
+  <!-- ENTENDU -->
+  <g transform="translate(15 15)">
+    <rect class="cut" width="120" height="120"/>
+    <text x="60" y="15" class="title">ENTENDU</text>
+    <circle cx="60" cy="46" r="5" fill="#111"/>
+    <path d="M48 36 Q36 46 48 56 M72 36 Q84 46 72 56" class="heavy"/>
+    <path d="M40 29 Q20 46 40 63 M80 29 Q100 46 80 63" class="medium"/>
+    <text x="8" y="78" class="small">Direction :</text><line x1="30" y1="78" x2="112" y2="78" class="field"/>
+    <text x="8" y="88" class="small">Pas :</text><line x1="18" y1="88" x2="45" y2="88" class="field"/>
+    <text x="50" y="88" class="small">Observateur :</text><line x1="76" y1="88" x2="112" y2="88" class="field"/>
+    <text x="8" y="99" class="small">Observation :</text><line x1="32" y1="99" x2="112" y2="99" class="field"/>
+    <line x1="8" y1="107" x2="112" y2="107" class="field"/>
+    <text x="60" y="116" class="small" text-anchor="middle">Écrire « non observé » plutôt que compléter</text>
+  </g>
+
+  <!-- SEUIL INCERTAIN -->
+  <g transform="translate(150 15)">
+    <rect class="cut" width="120" height="120"/>
+    <rect x="1" y="1" width="118" height="68" fill="url(#dots)" opacity="0.22"/>
+    <text x="60" y="15" class="title">SEUIL INCERTAIN</text>
+    <text x="60" y="59" font-family="Arial, sans-serif" font-size="44" font-weight="700" text-anchor="middle" fill="#111">?</text>
+    <text x="8" y="78" class="small">Direction :</text><line x1="30" y1="78" x2="112" y2="78" class="field"/>
+    <text x="8" y="88" class="small">Pas :</text><line x1="18" y1="88" x2="45" y2="88" class="field"/>
+    <text x="50" y="88" class="small">Observateur :</text><line x1="76" y1="88" x2="112" y2="88" class="field"/>
+    <text x="8" y="99" class="small">Observation :</text><line x1="32" y1="99" x2="112" y2="99" class="field"/>
+    <line x1="8" y1="107" x2="112" y2="107" class="field"/>
+    <text x="60" y="116" class="small" text-anchor="middle">Écrire « non observé » plutôt que compléter</text>
+  </g>
+
+  <!-- NON ENTENDU -->
+  <g transform="translate(285 15)">
+    <rect class="cut" width="120" height="120"/>
+    <text x="60" y="15" class="title">NON ENTENDU</text>
+    <path d="M40 28 L80 64 M80 28 L40 64" class="heavy"/>
+    <circle cx="60" cy="46" r="5" fill="#111"/>
+    <text x="8" y="78" class="small">Direction :</text><line x1="30" y1="78" x2="112" y2="78" class="field"/>
+    <text x="8" y="88" class="small">Pas :</text><line x1="18" y1="88" x2="45" y2="88" class="field"/>
+    <text x="50" y="88" class="small">Observateur :</text><line x1="76" y1="88" x2="112" y2="88" class="field"/>
+    <text x="8" y="99" class="small">Observation :</text><line x1="32" y1="99" x2="112" y2="99" class="field"/>
+    <line x1="8" y1="107" x2="112" y2="107" class="field"/>
+    <text x="60" y="116" class="small" text-anchor="middle">Écrire « non observé » plutôt que compléter</text>
+  </g>
+
+  <!-- Fiche de copie, positions volontairement non cotées -->
+  <g transform="translate(15 151)">
+    <rect x="0" y="0" width="390" height="131" fill="#fff" stroke="#111" stroke-width="0.8"/>
+    <text x="195" y="12" class="title">FICHE D'ESSAI SUR COPIE — POSITIONS NON COTÉES</text>
+    <text x="8" y="22" class="small">Source / essai :</text><line x1="38" y1="22" x2="382" y2="22" class="field"/>
+    <text x="8" y="31" class="small">Date / heure :</text><line x1="34" y1="31" x2="382" y2="31" class="field"/>
+
+    <text x="8" y="44" class="small">Direction</text>
+    <text x="82" y="44" class="small">ENTENDU — n pas</text>
+    <text x="174" y="44" class="small">SEUIL INCERTAIN — n pas</text>
+    <text x="292" y="44" class="small">NON ENTENDU — n pas</text>
+    <line x1="6" y1="48" x2="384" y2="48" class="field"/>
+    <text x="8" y="60" class="small">Ruban</text><line x1="50" y1="60" x2="378" y2="60" class="field"/>
+    <text x="8" y="74" class="small">Gradins</text><line x1="50" y1="74" x2="378" y2="74" class="field"/>
+    <text x="8" y="88" class="small">Accès</text><line x1="50" y1="88" x2="378" y2="88" class="field"/>
+    <text x="8" y="102" class="small">Observateur(s) :</text><line x1="39" y1="102" x2="382" y2="102" class="field"/>
+    <text x="8" y="113" class="small">Ce qui manque / « non observé » :</text><line x1="70" y1="113" x2="382" y2="113" class="field"/>
+    <text x="8" y="125" class="small">Cette fiche conserve des nombres de pas ; elle ne les convertit pas en mètres et ne prétend pas placer les balises au Quai.</text>
+  </g>
+</svg>

@@ -31,7 +31,19 @@ serait un panneau d'interface déguisé en parchemin.
 import io, json, math, os, re, sys
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
+_d = _os.path.dirname(_os.path.abspath(__file__))
+while _os.path.basename(_d) != "scripts" and _os.path.dirname(_d) != _d:
+    _d = _os.path.dirname(_d)
+for _p in (_d, _os.path.join(_d, "noyau")):
+    if _p not in _sys.path:
+        _sys.path.insert(0, _p)
+
+import racines
+
+# `RACINE` reste le DEPOT : `ecrans/modules/geo.js` est du CODE.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 
 # L'encre et le papier de plan_leves.py : les feuilles d'une même maison doivent
 # se ressembler, sans quoi la table a l'air d'un classeur.
@@ -49,7 +61,7 @@ COULEUR_PARTI = {"noir": ENCRE, "vert": VERT, "neutre": PALE}
 
 
 def charger(nom):
-    with io.open(os.path.join(RACINE, "etat", nom), encoding="utf-8") as f:
+    with io.open(os.path.join(ETAT, nom), encoding="utf-8") as f:
         return json.load(f)
 
 

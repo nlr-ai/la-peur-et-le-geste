@@ -33,8 +33,10 @@ import os
 from agents import chambre
 from etat.expose import tables  # LA PORTE de etat/ — meme pour une lecture
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.abspath(__file__))))
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 
 # Ce qui se PERCOIT dans une piece. Le hors-fiction n'y est pas : une question
 # du joueur, une reponse du MJ, une pensee, les coulisses ne sont entendues de
@@ -55,7 +57,7 @@ def _nom(pid):
     """Le nom d'affichage, ou l'id. Lu une fois par processus."""
     global _noms
     if _noms is None:
-        gens = tables.lire(os.path.join(RACINE, "etat", "personnages.json"), [])
+        gens = tables.lire(os.path.join(ETAT, "personnages.json"), [])
         if isinstance(gens, dict):
             gens = gens.get("personnages") or []
         _noms = {p.get("id"): p.get("nom") for p in gens

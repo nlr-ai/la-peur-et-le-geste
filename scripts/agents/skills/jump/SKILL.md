@@ -3,6 +3,20 @@ name: jump-scene
 description: Résoudre un Jump du MJ depuis la complétion du sous-graphe causal jusqu'aux mises à jour des PNJ et au jeu immédiat d'une unique scène cible.
 ---
 
+# Passer — rejoindre la prochaine scène d’intérêt
+
+Quand ROUTAGE.jump.version vaut `passer/1`, appliquer exclusivement la procédure suivante. Elle remplace les règles historiques plus bas, notamment le minimum de 24 heures, le graphe obligatoire et la résolution complète de la scène.
+
+1. Lire le journal, la scène actuelle, la date du siège joueur, les intentions, les actes récents, les événements et les fiches des personnes concernées. Respecter la direction facultative du joueur.
+2. Choisir la première occasion plausible qui change réellement la situation : rencontre liée à une intention, réponse attendue, obstacle, découverte, arrivée ou échéance. Un événement programmé est une piste, pas une obligation ; sans événement, prolonger les intentions et actions en cours. Ne pas choisir une tâche routinière uniquement parce qu’elle vient en premier. Ne pas attendre arbitrairement 24 heures.
+3. « Passer » autorise l’ellipse sur l’attente, le trajet déjà décidé et la routine. Il n’autorise ni engagement, ni parole, ni choix nouveau du personnage joueur. Si une décision importante intervient pendant l’ellipse, elle devient la scène cible : s’arrêter là. Ne pas résoudre cette décision à sa place.
+4. Calculer les échéances intermédiaires avec tick.py, appliquer leurs conséquences justifiées et conserver les délais de transmission. Jouer directement les PNJ depuis leurs fiches ; aucune dépêche obligatoire. Ne pas fabriquer une information ou une réussite pour faciliter la transition.
+5. Résumer la transition en une à trois phrases, puis ouvrir immédiatement la scène : lieu, présents, situation concrète et premier geste ou parole significatif. Ne pas rendre un plan, une liste de possibilités ou une annonce « je vais avancer ». Une scène d’intérêt peut être calme ; ne pas inventer une urgence gratuite.
+6. Avancer réellement monde.date, l’horloge du siège et journal.scene_courante selon les mécanismes existants. La transition porte une date complète avec minute, strictement postérieure au départ. Pousser le récit et la scène via append_flux.py pour le bon joueur, puis vérifier l’état et le flux. Si les horloges initiales divergent, les réconcilier depuis les dernières actions datées avant de choisir la cible.
+7. Rendre la main dès que le joueur peut agir dans cette nouvelle scène. Ne pas enchaîner une seconde scène et ne pas présenter la scène entière comme déjà résolue.
+
+## Ancien contrat — uniquement pour les briefs `jump/1`
+
 # Jump — fermer le chemin critique et jouer une scène
 
 Utilise ce skill uniquement quand le brief porte le mode `jump`. Le bloc
@@ -15,9 +29,9 @@ résout les décisions et les tests qui verrouillent la scène.
 - Un seul événement cible et une seule scène jouée.
 - La cible est située au moins 24 heures après la date de départ du Jump.
 - Aucune question, option ou décision préparatoire remontée au joueur.
-- Au plus trois PNJ dépêchés sur la coupe critique entière.
-- Aucune parole ni décision de PNJ inventée par le MJ.
-- Toutes les dépêches et tous les messages portent le `contexte_id` du Jump.
+- Au plus trois PNJ au centre de la coupe critique ; le MJ les incarne directement.
+- Le MJ joue directement les paroles et décisions des PNJ, selon leurs fiches, connaissances et moyens. Aucune dépêche préalable n’est requise.
+- Les écritures et messages liés au Jump conservent son `contexte_id`.
 - La scène substantielle est poussée dans le flux avant de rendre la main.
 - Le flux reste vivant pendant le travail et la montre atteint réellement la
   date de la cible.
@@ -27,7 +41,7 @@ résout les décisions et les tests qui verrouillent la scène.
   visible ou reçu un premier retour.
 
 Un `contexte_id` absent est un verrou technique : crée ou répare d'abord le
-moment MJ de l'événement. Ne dépêche jamais un homme hors contexte.
+moment MJ de l’événement. Conserve ce contexte dans les écritures associées.
 
 Les 24 heures sont un minimum dur, y compris quand un identifiant d'événement
 est demandé explicitement. Un événement plus proche reste un jalon causal à
@@ -90,79 +104,23 @@ Regroupe plusieurs questions chez le même homme lorsqu'elles appartiennent à
 la même affaire. Garde au plus trois hommes au total. Si la scène exige plus
 de trois voix, la coupe n'est pas assez proche de l'événement : rapproche-la.
 
-## 3. Dépêcher les hommes
+## 3. Jouer les hommes directement
 
-Initialise d'abord la petite file temporaire du Jump avec les hommes élus :
+Pour chaque PNJ de la coupe critique, lire sa fiche, ses intentions, ses
+connaissances et les faits établis de son travail. Le MJ décide de sa réaction
+depuis ce point de vue et joue lui-même ses paroles et ses gestes. Aucune
+session autonome, dépêche, attente de retour ou file de beats n'est requise.
 
-```bash
-python scripts/jump_beats.py --initialiser --event <event_id> --contexte <contexte_id> --ref <ref_joueur> --homme <id> [--homme <id>]
-```
+Un fait absent reste incertain : ne pas transformer un besoin de la scène en
+stock disponible, en information connue ou en réussite acquise. Résoudre les
+tests nécessaires à l'étape suivante, puis consigner le résultat.
 
-Compose une seule mission courte qui nomme, pour chaque homme, sa question
-fermable, avec l'objet, la date et ce qu'elle verrouille. Chacun ne répond
-qu'à la ligne qui porte son nom. Demande un fait ou sa décision, jamais la
-réplique que la scène voudrait entendre. Lance ensuite toute la coupe dans
-**une seule commande parallèle**, avec au plus trois `--qui` et `--front 3`.
-Ne fais jamais trois commandes successives : le temps de la coupe est celui
-du retour le plus lent, pas la somme des trois. `--beats-jump` fait joindre à
-chaque réponse jusqu'à trois battements courts, déjà écrits par son auteur et
-rattachés au sous-graphe :
-
-```bash
-python scripts/depecher.py --qui <id_1> [--qui <id_2>] [--qui <id_3>] --front 3 --contexte <contexte_id> --ref <ref_joueur> --mode reponse --beats-jump --event-jump <event_id> --mission "<id_1>: <question exacte>. <id_2>: <question exacte>. Chacun répond seulement à sa ligne."
-```
-
-Attends le retour de cette commande unique avant d'arbitrer. Un silence, une
-fourchette ou un désaccord reste une donnée. N'invente pas la réponse manquante
-et ne lance pas une journée entière. Si aucun homme n'est nécessaire, passe
-directement à l'arbitrage MJ.
-
-### Meubler pendant les appels
-
-Après le retour parallèle, pousse au plus un beat préparé avant l'arbitrage :
-
-```bash
-python scripts/jump_beats.py --pousser --contexte <contexte_id> --ref <ref_joueur>
-```
-
-La file choisit mécaniquement le premier beat encore disponible. Le MJ n'en
-réécrit ni la parole ni le geste : son auteur est conservé dans le flux avec
-les nœuds causaux qui l'autorisent. Une file vide rend `null`, ce n'est pas un
-motif pour fabriquer un beat.
-
-Ne laisse pas l'écran mort pendant les lectures, dépêches et arbitrages. Pousse
-au fur et à mesure de courtes tranches de continuité : le lieu, la lumière, la
-matière déjà présente, le bruit, la montre, une attente physiquement vraie ou
-le déplacement déjà engagé. Ces tranches peuvent avancer de quelques minutes
-avec leur `duree`, mais elles ne révèlent jamais la régie, le graphe ou les
-tests au joueur. Elles ne font parler ni agir un PNJ sans retour réel et ne
-font pas agir le personnage joueur.
-
-Une tranche de décor est un maintien de scène, pas la sortie du Jump. Après
-l'avoir poussée, reprends immédiatement le travail causal dans le même réveil.
-
-Le meublage doit aussi donner envie d'attendre la suite. Sème des sous-entendus
-et des signes excitants tirés de ce qui est déjà vrai dans le graphe, les
-sources ou les retours : une place laissée vide pour un nom attendu, un chiffre
-qui ne tombe pas encore juste, une marque déplacée sur la carte, une échéance
-physique qui approche, deux objets dont le rapprochement annonce une collision,
-un bruit ou une absence dont le sens deviendra clair dans la scène cible. Fais
-sentir l'enjeu sans l'expliquer et montre la conséquence avant d'en donner la
-cause.
-
-Chaque signe doit pouvoir être relié à un nœud, une condition ou un fait réel.
-N'invente ni présage omniscient, ni faux danger, ni réaction secrète d'un PNJ
-pour rendre l'attente plus spectaculaire. Une bonne amorce promet la scène
-cible ; elle n'ouvre pas un nouveau fil narratif et ne révèle pas son verdict.
+Pousser de courtes tranches dans le flux au fur et à mesure : décor, actions
+et dialogues directement joués. Chaque intervention découle d'un fait ou
+d'une intention ; elle ne révèle pas une issue encore non arbitrée et
+n'ouvre pas une autre affaire. Respecter le temps physique du Jump.
 
 ## 4. Arbitrer et écrire le résultat
-
-Avant d'écrire le verdict, expire ce qui n'a pas été utilisé : un beat préparé
-avant l'arbitrage ne doit jamais être recyclé après que la situation a changé.
-
-```bash
-python scripts/jump_beats.py --fermer --contexte <contexte_id> --ref <ref_joueur>
-```
 
 Résous les tests du monde et les contradictions depuis les sources et les
 règles existantes. Pour chaque nœud de la coupe, écris un verdict bref :
@@ -179,22 +137,15 @@ forme, mais le Jump ne saute pas vers l'événement suivant.
 
 ## 5. Mettre les PNJ concernés à jour
 
-Une fois l'arbitrage écrit, informe chaque PNJ dont les croyances, le mandat,
-la date ou le travail changent. Ce sont des messages du monde, pas des
-instructions de dialogue :
+Une fois l'arbitrage écrit, mettre à jour les intentions et connaissances des
+PNJ affectés dans les tables du monde, avec la date et la source de ce qu'ils
+apprennent. Une nouvelle ne devient connue que lorsqu'elle leur parvient :
+prévoir sa diffusion et son délai si nécessaire.
 
-```bash
-python scripts/parloir.py --dire --sans-reveil --de mj --a <id> --contexte <contexte_id> --ref <ref_joueur> "<fait ou décision datée qui change son travail>"
-```
-
-Informe aussi un acteur affecté qui n'a pas été dépêché si le verdict change
-ce qu'il doit faire. `--sans-reveil` est obligatoire ici : la notification
-reste dans son canal jusqu'à son prochain réveil naturel et ne lance aucune
-`journee`. Elle ne doit donc produire ni accusé de réception, ni ping-pong de
-billets, ni nouvelle branche du Jump. N'envoie ni résumé général, ni message
-au joueur par cette porte. Si sa réaction est indispensable à la scène,
-obtiens-la par une dépêche `--mode reponse` comprise dans la limite des trois
-hommes ; sinon il poursuivra hors champ à son prochain réveil.
+Jouer directement toute réaction indispensable à la scène et consigner ses
+paroles et ses actes. Les autres poursuivent hors champ selon leurs
+intentions et les échéances. Aucun billet au parloir ni réveil autonome n'est
+nécessaire pour produire cette mise à jour.
 
 ## 6. Avancer jusqu'à la cible
 

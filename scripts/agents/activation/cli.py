@@ -49,6 +49,12 @@ def main():
     ap.add_argument("--sec", action="store_true",
                     help="selection et mission seulement, aucun appel ni ecriture")
     ap.add_argument("--acteur", help="borner la selection a cet acteur")
+    ap.add_argument("--desirs", action="store_true", help="lot de réveils depuis la méta-affaire canonique")
+    ap.add_argument("--aller-retours", action="store_true", help="quatre échanges avec reviewers tournants")
+    ap.add_argument("--experiences", help="manifeste d'un lot autonome d'aller-retours")
+    ap.add_argument("--dossier-reprise", help="reprendre un protocole aller-retour interrompu")
+    ap.add_argument("--reveil", action="append", default=[], metavar="CITOYEN:ETAT",
+                    help="citoyen et état cible du désir, répétable")
     ap.add_argument("--braavos", action="store_true",
                     help="borner la sélection aux acteurs situés à Braavos")
     ap.add_argument("--intervalle", type=float, default=5.0,
@@ -73,6 +79,15 @@ def main():
     ap.add_argument("--prevoir", type=int, default=0, metavar="N",
                     help="rendre les N prochains candidats en JSON, sans ecriture")
     args = ap.parse_args()
+    if args.experiences:
+        from agents.activation.experiences import lancer
+        return lancer(args.experiences, args.sec, args.parallele)
+    if args.aller_retours:
+        from agents.activation.aller_retours import lancer
+        return lancer(args.dossier_reprise)
+    if args.desirs:
+        from agents.activation.desirs import lancer
+        return lancer(args)
     if (args.intervalle <= 0 or args.minutes_appel < 0 or
             args.heartbeat <= 0 or args.parallele <= 0):
         ap.error("intervalle, heartbeat et parallele doivent etre positifs ; "

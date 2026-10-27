@@ -1,0 +1,22 @@
+
+# Partie du joueur PNJ — 2026-10-22 17:04 — 2 tours, moteur
+
+
+**Tour 1 : échec du modèle — ce_geo":"","iterations":[],"speed":"standard","fallback_credit":null},"modelUsage":{},"permission_denials":[],"terminal_reason":"api_error","fast_mode_state":"off","fast_mode_disabled_reason":"sdk_opt_in_required","subagent_stats":{"spawned":0,"requested":{"background":0,"foreground":0,"unset":0},"started_in_background":0,"max_depth":0,"spawned_by_subagents":0,"completed":0,"failed":0,"killed":{"parent":0,"user":0,"system":0},"refused":{"depth_limit":0,"concurrency_limit":0,"budget":0},"by_type". Arrêt.**
+
+# Partie du joueur PNJ — 2026-10-22 18:15 — 2 tours, moteur
+
+
+## Tour 1
+
+- **agir** : Ce matin, je commence par dépouiller le registre d'arrivée et les corbeilles du secrétariat. Je trie les demandes pendantes par nature : laissez-passer, déclarations de perte, plaintes, réquisitions, demandes de réfugiés. Pour chacune, je note sur une feuille de travail le service qui doit la traiter et la pièce qui manque, avec seulement le numéro d'enregistrement, sans nom ni motif. Vers onze heures, je soumets les cas douteux à Charles Hérault et à Gilbert Chauvin. Je veux savoir lesquels relèvent du commissaire, lesquels de la mairie ou de la préfecture, et lesquels de l'autorité militaire. Je ne transmets rien moi-même sans un visa. Si mes collègues sont pris ailleurs, je classe ces dossiers dans une chemise « compétence à confirmer » et je les reprends en début d'après-midi. L'après-midi, quand l'affluence au guichet le permet, j'indique aux demandeurs qui se présentent la pièce exacte qui leur manque, sans rien leur dire du fond de leur affaire. Je ne fais jamais de promesse sur la suite. Si le guichet est débordé, je me contente de compléter ma liste et de la remettre au commissaire, ou à défaut à son adjoint, avant la fin de l'après-midi. Si personne n'est là pour la recevoir, je la range sous clé au secrétariat.
+- *pourquoi* : Objectif autonome : faire l'inventaire des demandes en souffrance au secrétariat avant la fin de l'après-midi, vérifier à qui chacune revient et relever celles auxquelles il manque une pièce. Je reste dans mon rôle de secrétaire, sans rien divulguer, et je prévois des replis au cas où les collègues seraient absents ou si la confusion du moment désorganise le service.
+- ref `vmvjqsy34p03d` · claude/defaut
+
+## Tour 2
+
+- **agir** : En début d'après-midi, je prépare un bordereau d'envoi pour chaque destinataire, avec seulement les numéros d'enregistrement. Les deux réquisitions vont à l'autorité militaire de la place, les trois demandes de réfugiés au centre d'accueil de la mairie et les six laissez-passer visés à la préfecture. Je les confie au planton ou au courrier habituel, si on m'en donne un. Sinon, je les garde prêts sous clé jusqu'au prochain départ. Pour la chemise « compétence à confirmer », je cherche dans les circulaires reçues au secrétariat celle qui règle les déplacements des étrangers réfugiés, Belges et Luxembourgeois. Si je la trouve, je la joins aux trois dossiers avec une note brève, et je la soumets au commissaire en présence de l'inspecteur Chauvin pour qu'ils tranchent. S'ils ne tranchent toujours pas, je propose de téléphoner au bureau des étrangers de la préfecture pour poser la question de principe, sans citer les noms, et seulement avec l'accord du commissaire. Au guichet, quand l'affluence le permet, je donne aux demandeurs des neuf dossiers incomplets qui se présentent la pièce exacte qui leur manque : photographie, certificat de domicile ou signature du logeur. Je ne promets rien. Je note sur ma feuille chaque pièce reçue et je marque le dossier comme complet. Avant la fin de l'après-midi, je remets ma liste à jour au commissaire, ou à défaut à M. Hérault : dossiers envoyés, dossiers encore incomplets, et décision obtenue ou non sur les trois étrangers. Si personne n'est là pour la recevoir, je la range sous clé au secrétariat avec la chemise en suspens.
+- *pourquoi* : Le tri est fait et le commissaire a visé la plupart des dossiers. Il me reste trois choses avant la fin de l'après-midi : faire partir les dossiers visés vers le bon service, faire trancher les trois laissez-passer d'étrangers restés en suspens, et indiquer aux demandeurs les pièces qui manquent. Je ne transmets rien sans visa et je ne divulgue rien du fond des dossiers.
+- ref `vmvjquslocnqt` · claude/defaut
+
+**Fin des 2 tours.**

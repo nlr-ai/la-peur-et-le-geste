@@ -1,0 +1,3 @@
+Penchée sur l’eau, je me laisserais ceci : la nuit serait bornée à une sœur seule, loin du Manoir si le bassin peut l’isoler, avant le 11 octobre. Je n’aurais encore vu ni nom ni date ; le verrou resterait donc entier.
+
+Après l’épreuve, j’écrirais au conditionnel ce que l’eau livre — ou d’abord ce qu’elle refuse. Une seconde bouche devrait encore confirmer la même sœur avant que la fêlure des Trois puisse être tenue pour établie.

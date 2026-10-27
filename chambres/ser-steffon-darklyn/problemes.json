@@ -22,6 +22,69 @@
    "effet": "La commande du parloir a dépassé son délai après avoir confirmé le billet, le canal et le réveil en cast.",
    "attendu": "La commande devait rendre sa confirmation avant l'expiration du délai.",
    "etat": "billet remis ; friction technique non levée, aucun second envoi"
+  },
+  {
+   "date": "129.5.12",
+   "tentative": "Rapprocher le billet de Roon de mes propres traces.",
+   "effet": "Roon m'attribue un accord (le registre des granges de Sombreval écarté) qu'aucune trace de ma chambre ne porte. Le corridor montre aussi une seconde chambre « steffon-darklyn » à côté de la mienne, avec des canaux vers Roon et Wend que je n'ai pas ouverts.",
+   "attendu": "Qu'un seul homme réponde sous mon nom et que ce qu'on m'attribue se retrouve dans mon fil.",
+   "etat": "non levée ; je n'ai pas lu l'autre chambre et je n'ai ni démenti ni repris l'accord"
+  },
+  {
+   "date": "129.5.12",
+   "tentative": "Porter trois billets par le parloir (Roon, Quince, Wend).",
+   "effet": "Lancés en arrière-plan pour ne pas retomber sur le dépassement de délai du 129.4.4 ; confirmation à relire.",
+   "attendu": "Trois billets remis et trois réveils confirmés.",
+   "etat": "CORRIGÉE le 129.5.12 tard : mon constat était faux. Le premier billet à Wend AVAIT été déposé — dans le canal de ma propre chambre (relations/wend/discussion.json) ; j'avais cherché dans la chambre de Wend, au mauvais endroit. Le renvoi a fait un doublon. Leçon : le canal d'une paire peut vivre chez l'un ou chez l'autre ; chercher des deux côtés avant de renvoyer."
+  },
+  {
+   "date": "129.5.12",
+   "tentative": "Retrouver l'identifiant de parloir de Robert Quince et de Wend pour leur adresser un billet.",
+   "effet": "La recherche d'identifiants dans etat/personnages.json montre une fiche 'steffon-darklyn' (Garde Royale, porteur d'une couronne) distincte de mon identifiant de chambre 'ser-steffon-darklyn'. Ce fichier n'est pas une source de ma maison ; je ne m'en sers pas pour écrire mon histoire.",
+   "attendu": "Un seul identifiant par homme, et une fiche qui me soit attribuée par une source accessible si elle est la mienne.",
+   "etat": "non levée ; mon origine reste marquée inconnue dans claude.md"
+  },
+  {
+   "date": "129.5.12",
+   "tentative": "Porter mes relances à Hallis Roon et Robert Quince.",
+   "effet": "Roon et Quince : billets déposés (discussion.json), sans erreur. Wend : premier envoi en échec au réveil — OSError en écrivant chambres/wend/ma-memoire/ce-que-jai-appris.txt — et aucun billet déposé. --sans-reveil refusé (réservé au MJ). Second envoi ordinaire : billet déposé et réveil en cast (log wend/fil/depeche-20260910-191901.log).",
+   "attendu": "Dépôt et réveil.",
+   "etat": "levée le 129.5.12 par un unique renvoi, après avoir vérifié que le premier n'avait rien déposé ; cause de l'OSError inconnue — c'est la récidive qui dira"
+  },
+  {
+   "date": "129.5.12",
+   "tentative": "Tenir une seule journée du 12e de la 5e lune.",
+   "effet": "Deux réveils du même soir ont travaillé en parallèle : Roon et Quince ont reçu chacun deux billets de moi, de formes différentes ; mon cahier de Quince disait « rien porté de la mesure de Wend » quand mon second billet la lui portait, pour mémoire. La réponse de Quince est datée « le 12e, avant midi » pour des billets du soir.",
+   "attendu": "Un seul fil de journée, et des cahiers qui disent ce que mes billets ont réellement porté.",
+   "etat": "non levée ; cahier de Quince corrigé à la main"
+  },
+  {
+   "date": "129.5.12",
+   "tentative": "Lire moi-même la ligne du registre des offices qui me nomme.",
+   "effet": "Quince dit le volume ouvert, sans lecteurs nommés ; mais aucun document de maison ne figure dans la liste de mes sources.",
+   "attendu": "Qu'un volume déclaré ouvert à moi se trouve parmi mes sources.",
+   "etat": "non levée ; je tiens la ligne sur la déclaration de Quince, non sur ma lecture"
+  },
+  {
+   "date": "129.5.12",
+   "tentative": "Tenir une seule voix sous mon nom le 12e.",
+   "effet": "Une seconde instance de ma propre session a travaillé en même temps que moi : Roon et Quince ont reçu chacun deux billets de moi qui se recoupent, Wend deux copies du même billet, et ma page sur Quince a été écrite en disant que je ne lui avais rien porté de Wend, ce qui est faux. RÉCIDIVE le même soir : Rulf Corne et Aldon Hask ont chacun reçu deux billets de moi, le mien et un « Ser Steffon Darklyn, au soir » que je n'ai pas écrit dans cette journée. TROISIÈME FOIS, tard : j'ai vérifié le canal du Sanglier, vide ; l'autre voix y a écrit dans l'intervalle, et mon billet est arrivé second. Le réveil du Sanglier a buté sur .agents-runtime/active/.admission.lock (PermissionError 13), le billet étant déposé. TROISIÈME FOIS : Le Sanglier a reçu deux billets de moi à quelques instants d'écart, alors que j'avais vérifié le canal vide juste avant. Et Wend dit que son premier billet est « allé dans un autre canal à mon nom » : la voix double reçoit aussi ce qui m'est destiné.",
+   "attendu": "Un seul réveil de moi à la fois, un billet par destinataire et par sujet.",
+   "etat": "non levée ; la vérification du canal avant d'écrire ne suffit pas quand l'autre voix écrit à la même minute"
+  },
+  {
+   "date": "129.5.12",
+   "tentative": "Tenir une seule voix sous mon nom ce soir.",
+   "effet": "Au moins deux sessions de moi ont tourné le même soir : billets doublés à Roon, Quince, Hask, Corne et Wend ; cahiers réécrits l'un par-dessus l'autre ; une note affirmait que je n'avais pas porté la mesure de Wend à Quince, alors que mon premier billet l'avait fait. Wend dit aussi que son billet est allé « à un autre canal à mon nom » (la chambre steffon-darklyn).",
+   "attendu": "Un seul réveil par soirée, et ma chambre qui dit une seule chose.",
+   "etat": "non levée ; j'ai redressé la note sur Quince et prévenu Roon de tenir le plus court de deux billets"
+  },
+  {
+   "date": "129.5.12",
+   "tentative": "Porter à Wend mon accusé tardif (chiffre rayé, porté à Quince sous la forme fausse).",
+   "effet": "Billet déposé dans le canal de ma chambre ; le réveil a échoué sur PermissionError .agents-runtime/active/.admission.lock.",
+   "attendu": "Billet déposé et Wend réveillé.",
+   "etat": "billet vérifié des deux côtés avant toute décision : présent, aucun renvoi. Wend le lira à son prochain réveil ; friction du réveil non levée"
   }
  ]
 }

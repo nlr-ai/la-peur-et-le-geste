@@ -12215,64 +12215,32 @@
   "jour_du": ""
  },
  "321": {
-  "genre": "action",
-  "ou": "affaire-prise-de-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👥 Vingt qui rentrent chez eux, trouvés par le maître des rôles",
-  "lieu": "Peyredragon puis Port-Réal",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "327"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "322": {
-  "genre": "action",
-  "ou": "affaire-prise-de-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤫 Le secret appliqué à ces vingt-là",
-  "lieu": "Peyredragon",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "321"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "323": {
-  "genre": "action",
-  "ou": "affaire-prise-de-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "💰 Nous payons, et nous en portons la trace",
-  "lieu": "Port-Réal",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "321"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "324": {
-  "genre": "action",
-  "ou": "affaire-prise-de-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗺️ Dresser le compte des hommes, porte par porte",
-  "lieu": "Port-Réal",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "321"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "325": {
   "genre": "action",
@@ -12290,33 +12258,18 @@
   "jour_du": ""
  },
  "326": {
-  "genre": "action",
-  "ou": "affaire-prise-de-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👁️ L'œil sur les cachots",
-  "lieu": "Port-Réal",
-  "etat": "bloquée",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "321",
-   "324"
-  ],
-  "jour_du": "le 9e jour de la 4e lune"
+  "lieu": "",
+  "etat": ""
  },
  "327": {
-  "genre": "action",
-  "ou": "affaire-prise-de-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪶 Se donner un exécutant, et sa mesure",
-  "lieu": "Table Peinte",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "820": {
   "genre": "action",
@@ -12332,17 +12285,11 @@
   "jour_du": ""
  },
  "920": {
-  "genre": "action",
-  "ou": "affaire-prise-de-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🎶 Faire chanter ce qui s'est passé au siège",
-  "lieu": "—",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "1020": {
   "genre": "action",
@@ -12371,17 +12318,11 @@
   "jour_du": ""
  },
  "1220": {
-  "genre": "action",
-  "ou": "affaire-prise-de-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Choisir la maison qu'on éprouve la première",
-  "lieu": "—",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "4020": {
   "genre": "piece",
@@ -12464,158 +12405,81 @@
   ]
  },
  "5020": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔢 Écrire les cinq lignes, trous compris",
-  "lieu": "La Table Peinte",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5021": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✂️ Donner le CHIFFRE des forces de terre au maître des rôles",
-  "lieu": "La Table Peinte, puis la voûte de la porte du Dragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5022": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👥 Établir le compte des DISPONIBLES",
-  "lieu": "Le corps de garde de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5023": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Écrire ce qui retranche un homme du compte",
-  "lieu": "Registre des offices, ligne des murailles",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5022"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5024": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚓ Tenir quatre livres de coques au lieu d'un tas",
-  "lieu": "Le bureau du maître de port",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5025": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🌊 Écrire le compte en quilles ENGAGÉES",
-  "lieu": "Le bureau du maître de port",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5024"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5026": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🍞 Verser les trois livres de vivres au mien",
-  "lieu": "Les celliers, le bourg, les séchoirs",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5027": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🩸 Arrêter la caisse au chiffre du jour",
-  "lieu": "La cassette de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5028": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📉 Convertir la caisse en jours de campagne",
-  "lieu": "La Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5027",
-   "28027"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5029": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👁️ Faire chiffrer les yeux en jours de route couverts",
-  "lieu": "Le cabinet de la maîtresse des nouvelles",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5030": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧾 Poser aux quatre maisons la MÊME question en trois lignes",
-  "lieu": "La roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5031": {
   "genre": "action",
@@ -12633,93 +12497,49 @@
   "jour_du": ""
  },
  "5032": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📢 Lire les cinq lignes tout haut au deuxième temps",
-  "lieu": "La Table Peinte, deuxième temps",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5020",
-   "5120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5120": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⏳ Écrire la péremption de chaque ligne",
-  "lieu": "La Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5121": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔔 Faire monter chaque porteur de lui-même à son terme",
-  "lieu": "Les murs, le quai, les celliers, le cabinet des nouvelles",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5122": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪶 Borner l'office du compte des débarquements",
-  "lieu": "Registre des offices",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "5123": {
-  "genre": "action",
-  "ou": "affaire-compte-mobilisable",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🩸 Écrire ce qu'on fait d'un écart",
-  "lieu": "Registre des offices",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5122"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "6020": {
-  "genre": "action",
-  "ou": "affaire-opinion-populaire-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🖋️ Écrire la chanson du compte — « Mille deux cent quarante »",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "6220"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "6021": {
   "genre": "action",
@@ -12737,17 +12557,14 @@
   "jour_du": ""
  },
  "6022": {
-  "genre": "action",
-  "ou": "affaire-opinion-populaire-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📏 Écrire le seuil du doute, à froid, avant d'avoir envie de le trouver",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "6023": {
   "genre": "action",
@@ -12806,17 +12623,14 @@
   "jour_du": ""
  },
  "6120": {
-  "genre": "action",
-  "ou": "affaire-opinion-populaire-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📍 Nommer les trois lieux, et pas quatre",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "6121": {
   "genre": "action",
@@ -12849,19 +12663,14 @@
   "jour_du": ""
  },
  "6123": {
-  "genre": "action",
-  "ou": "affaire-opinion-populaire-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚫 Ne pas acheter Hobb Sole — et l'écrire",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "6120"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "6124": {
   "genre": "action",
@@ -12879,17 +12688,14 @@
   "jour_du": ""
  },
  "6125": {
-  "genre": "action",
-  "ou": "affaire-opinion-populaire-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📖 Écrire la règle des bouches",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "6126": {
   "genre": "action",
@@ -12907,19 +12713,14 @@
   "jour_du": ""
  },
  "6127": {
-  "genre": "action",
-  "ou": "affaire-opinion-populaire-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚪 Écrire les canaux de secours avant d'avoir besoin du premier",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "6121"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "6128": {
   "genre": "action",
@@ -12938,90 +12739,64 @@
   "jour_du": ""
  },
  "6129": {
-  "genre": "action",
-  "ou": "affaire-opinion-populaire-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪶 Faire écrire au registre qui a le droit de couper",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "6130": {
-  "genre": "action",
-  "ou": "affaire-opinion-populaire-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🌊 Tenir le livret du mot, et le brûler au dernier passage",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "6120"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "6131": {
-  "genre": "action",
-  "ou": "affaire-opinion-populaire-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚫 Ne jamais approcher Hobb Sole d'une main qui sait",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "6123"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "6220": {
-  "genre": "action",
-  "ou": "affaire-opinion-populaire-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✒️ Clore le croisement des 191",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "6221": {
-  "genre": "action",
-  "ou": "affaire-opinion-populaire-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📄 Faire la copie propre, villages compris",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "6220"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "6222": {
-  "genre": "action",
-  "ou": "affaire-opinion-populaire-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🎼 Le couplet de la rature",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "6221"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "6223": {
   "genre": "action",
@@ -13037,32 +12812,24 @@
   "jour_du": ""
  },
  "6320": {
-  "genre": "action",
-  "ou": "affaire-opinion-populaire-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🐉 Faire sceller la règle des trois cercles",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "avant le 4e de la 4e lune"
+   "piece"
+  ]
  },
  "6321": {
-  "genre": "action",
-  "ou": "affaire-opinion-populaire-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔒 Écrire le chant du jour d'entrée, et le garder fermé",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "6020"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "6322": {
   "genre": "action",
@@ -13106,19 +12873,11 @@
   "jour_du": ""
  },
  "8021": {
-  "genre": "action",
-  "ou": "affaire-homme-de-linterieur",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✉️ Faire écrire la première lettre, moi assis",
-  "lieu": "Chambre de Marna",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "8020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "8022": {
   "genre": "action",
@@ -13164,50 +12923,25 @@
   "jour_du": ""
  },
  "8026": {
-  "genre": "action",
-  "ou": "affaire-homme-de-linterieur",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "💰 Chiffrer ce qu'on offre, pour quatre têtes",
-  "lieu": "Livre des deniers",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28000"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "8027": {
-  "genre": "action",
-  "ou": "affaire-homme-de-linterieur",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚖️ Faire trancher ce qui est promis",
-  "lieu": "Table Peinte",
-  "etat": "bloquée",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24000"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "8028": {
-  "genre": "action",
-  "ou": "affaire-homme-de-linterieur",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✂️ Écarter Bec-de-Fer si les deux oreilles ne concordent pas",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "8024",
-   "8025"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "8029": {
   "genre": "action",
@@ -13280,17 +13014,11 @@
   "jour_du": ""
  },
  "8124": {
-  "genre": "action",
-  "ou": "affaire-homme-de-linterieur",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📏 Compter les passages, ne pas les estimer",
-  "lieu": "Sous la voûte, au rôle",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "8125": {
   "genre": "action",
@@ -13308,32 +13036,18 @@
   "jour_du": ""
  },
  "8126": {
-  "genre": "action",
-  "ou": "affaire-homme-de-linterieur",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤐 Convenir avec Nesse de ce qu'elle dit si on la fouille",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "8120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "8220": {
-  "genre": "action",
-  "ou": "affaire-homme-de-linterieur",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔔 Convenir du signal",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "8221": {
   "genre": "action",
@@ -13351,60 +13065,32 @@
   "jour_du": ""
  },
  "8320": {
-  "genre": "action",
-  "ou": "affaire-homme-de-linterieur",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Faire sceller l'offre chez le mestre",
-  "lieu": "Roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "8027"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "8321": {
-  "genre": "action",
-  "ou": "affaire-homme-de-linterieur",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔥 Écrire ce qu'on fait s'il est pris",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "8320"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "8322": {
-  "genre": "action",
-  "ou": "affaire-homme-de-linterieur",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚠️ Dire à Marna ce qu'elle risque, avant tout le reste",
-  "lieu": "Petite salle du levant",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "9020": {
-  "genre": "action",
-  "ou": "affaire-portage-parole-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📋 Ouvrir le rôle des jambes pour la lune qui vient",
-  "lieu": "La voûte du rôle, Peyredragon",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "4e de la 4e lune"
+  "lieu": "",
+  "etat": ""
  },
  "9021": {
   "genre": "action",
@@ -13450,58 +13136,32 @@
   "jour_du": "6e de la 4e lune"
  },
  "9024": {
-  "genre": "action",
-  "ou": "affaire-portage-parole-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "➕ Tenir le compte des retours à partir d'aujourd'hui",
-  "lieu": "La voûte du rôle, Peyredragon",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "9020"
-  ],
-  "jour_du": "chaque jour"
+  "lieu": "",
+  "etat": ""
  },
  "9025": {
-  "genre": "action",
-  "ou": "affaire-portage-parole-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📣 Dire que la route du castellan a été éprouvée sans qu'il le sache",
-  "lieu": "La voûte du rôle, Peyredragon",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "2e de la 4e lune"
+  "lieu": "",
+  "etat": ""
  },
  "9026": {
-  "genre": "action",
-  "ou": "affaire-portage-parole-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤫 Croiser un nom au rôle des gorges, de bouche à oreille",
-  "lieu": "Le bourg sous les murs, là où elle est",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "5e de la 4e lune"
+  "lieu": "",
+  "etat": ""
  },
  "10020": {
-  "genre": "action",
-  "ou": "affaire-fermeture-route-nord",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪶 Faire écrire au registre le nom de celui qui porte la route",
-  "lieu": "Registre des offices",
-  "etat": "**bloquée**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "10021": {
   "genre": "action",
@@ -13517,19 +13177,11 @@
   "jour_du": ""
  },
  "10022": {
-  "genre": "action",
-  "ou": "affaire-fermeture-route-nord",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧱 Écrire ce que tient le poste du nœud",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "10021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "10023": {
   "genre": "action",
@@ -13545,20 +13197,11 @@
   "jour_du": ""
  },
  "10024": {
-  "genre": "action",
-  "ou": "affaire-fermeture-route-nord",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚖️ Trancher devant la reine : les lances de Sombreval tiennent la rout",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "10023",
-   "20120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "10025": {
   "genre": "action",
@@ -13576,19 +13219,11 @@
   "jour_du": ""
  },
  "10026": {
-  "genre": "action",
-  "ou": "affaire-fermeture-route-nord",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Écrire la règle du passage",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "10022"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "10027": {
   "genre": "action",
@@ -13604,17 +13239,11 @@
   "jour_du": ""
  },
  "10028": {
-  "genre": "action",
-  "ou": "affaire-fermeture-route-nord",
-  "quoi": "📋 Refaire la liste de Rosby par colonnes, puis la porter à Alarra en m",
-  "lieu": "Rosby",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "genre": "piece",
+  "ou": "plan-actions",
+  "quoi": "📋 Porter à Alarra Rosby la liste des quarante et un de Rosby, en main ",
+  "lieu": "",
+  "etat": ""
  },
  "10029": {
   "genre": "action",
@@ -13650,19 +13279,11 @@
   "jour_du": ""
  },
  "10031": {
-  "genre": "action",
-  "ou": "affaire-fermeture-route-nord",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📣 Faire dire dans les villages, avant de fermer, pourquoi on ferme et ",
-  "lieu": "Les trois villages, et les marchés du nœud",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "10026"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "10032": {
   "genre": "action",
@@ -13693,63 +13314,32 @@
   "jour_du": "À la levée de l'arrêt de la reine"
  },
  "10034": {
-  "genre": "action",
-  "ou": "affaire-fermeture-route-nord",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤝 Rendre à ces quarante ce qu'on leur prend",
-  "lieu": "Les caves basses",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "10033"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "10120": {
-  "genre": "action",
-  "ou": "affaire-fermeture-route-nord",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🕯️ Refaire la feuille de Rosby depuis les deux colonnes vivantes",
-  "lieu": "Le registre de la colonne, puis un feuillet fermé pour Rosby",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "Matin de la remise à Alarra Rosby, avant 10028"
+  "lieu": "",
+  "etat": ""
  },
  "10220": {
-  "genre": "action",
-  "ou": "affaire-fermeture-route-nord",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👁️ Tenir le compte des passages avant et après, sur le même carnet",
-  "lieu": "Le nœud, et l'entrée des deux bras",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "10029",
-   "10030"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "10221": {
-  "genre": "action",
-  "ou": "affaire-fermeture-route-nord",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚔️ Tirer des quarante la mesure de la colonne de ser Criston",
-  "lieu": "Les caves basses",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "10033"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11020": {
   "genre": "action",
@@ -13791,19 +13381,11 @@
   "jour_du": ""
  },
  "11023": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "💰 Faire trancher l'affrètement de coques supplémentaires",
-  "lieu": "Table Peinte",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11024": {
   "genre": "action",
@@ -13819,125 +13401,60 @@
   "jour_du": ""
  },
  "11025": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🎡 Dresser la roue des jours dûs",
-  "lieu": "Roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11024"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11026": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📅 Poser la DATE DE TRAVAIL",
-  "lieu": "Roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11025"
-  ],
-  "jour_du": "6e de la 4e lune, à midi — les nuits du 4e et du 5e prises pour dresser la roue (11025), deux au lieu d'une, trois chaînes y montant en calculé et un chiffre calculé se relisant deux fois."
+  "lieu": "",
+  "etat": ""
  },
  "11027": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👑 Porter la date de travail à la reine, seul",
-  "lieu": "Chambre de la reine",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11026"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11028": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✉️ Écrire et porter les trente-deux extraits",
-  "lieu": "Roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11026"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11029": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🖋️ Recueillir l'accusé daté de chaque titulaire",
-  "lieu": "Porte de mer et roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11028"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11030": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🌫️ Choisir le point de débarquement pour son INVISIBILITÉ",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11031": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔒 Figer la date de travail en DATE ARRÊTÉE",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11026",
-   "11030"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11032": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔤 Distribuer les trois mots de report",
-  "lieu": "Peyredragon et par porteur",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11031"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11033": {
   "genre": "action",
@@ -13955,62 +13472,32 @@
   "jour_du": ""
  },
  "11034": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪟 Tenir la première fenêtre",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11031"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11035": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪟 Tenir la deuxième fenêtre",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11034"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11036": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪟 Tenir la troisième et dernière fenêtre",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11035"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11037": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤫 Le silence de la veille",
-  "lieu": "Roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11038": {
   "genre": "action",
@@ -14028,106 +13515,53 @@
   "jour_du": ""
  },
  "11039": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧂 Poser a la reine l'ordre du prochain passage",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "41022"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11120": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚓ Convertir les ancres en J−n",
-  "lieu": "Roukerie",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11025"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11220": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🕳️ Écrire la règle du défaut",
-  "lieu": "Roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "11221": {
-  "genre": "action",
-  "ou": "affaire-jour-dentree",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Écrire le rôle des passages de la route du sel",
-  "lieu": "Roukerie",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "12020": {
-  "genre": "action",
-  "ou": "affaire-isolement-du-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "💧 Fixer la ligne d'eau avec le maître des grèves",
-  "lieu": "À la Table Peinte",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "22000"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "12021": {
-  "genre": "action",
-  "ou": "affaire-isolement-du-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚪 Écrire la frontière avec le cahier de la poterne",
-  "lieu": "À la Table Peinte",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "23000"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "12022": {
-  "genre": "action",
-  "ou": "affaire-isolement-du-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔢 Dresser l'ordre de bataille de la poche",
-  "lieu": "À la Table Peinte",
-  "etat": "bloquée",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "12120",
-   "25000"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "12023": {
   "genre": "action",
@@ -14146,19 +13580,11 @@
   "jour_du": ""
  },
  "12024": {
-  "genre": "action",
-  "ou": "affaire-isolement-du-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📖 Tenir le registre des passages, vides compris",
-  "lieu": "Au pied du rocher",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "12023"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "12025": {
   "genre": "action",
@@ -14177,34 +13603,18 @@
   "jour_du": ""
  },
  "12120": {
-  "genre": "action",
-  "ou": "affaire-isolement-du-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📐 Obtenir le relevé des issues et le tour du rocher",
-  "lieu": "À la Table Peinte",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "30000"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "12121": {
-  "genre": "action",
-  "ou": "affaire-isolement-du-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧺 Lister les gens qui sortent du Donjon chaque semaine",
-  "lieu": "Dans Port-Réal, aux abords du rocher",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "12120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "12122": {
   "genre": "action",
@@ -14223,37 +13633,18 @@
   "jour_du": ""
  },
  "12123": {
-  "genre": "action",
-  "ou": "affaire-isolement-du-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✍️ Clore la liste des issues et la signer",
-  "lieu": "À la Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "12120",
-   "12121",
-   "12122"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "12124": {
-  "genre": "action",
-  "ou": "affaire-isolement-du-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧱 Attribuer chaque issue : murer, ennoyer, garder",
-  "lieu": "À la Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "12123",
-   "12022"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "12125": {
   "genre": "action",
@@ -14288,20 +13679,11 @@
   "jour_du": "à la première basse mer de vive-eau tombant au point du jour — et l'heure est à demander à maître Rulf avant le 8e de la 4e lune, faute de quoi la date n'existe pas"
  },
  "12127": {
-  "genre": "action",
-  "ou": "affaire-isolement-du-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔢 Chiffrer les sorties qu'on ignore par l'écart des deux bouches",
-  "lieu": "À la Table Peinte, sur la liste des issues",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "12122",
-   "12123"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "12220": {
   "genre": "action",
@@ -14335,51 +13717,25 @@
   "jour_du": ""
  },
  "12222": {
-  "genre": "action",
-  "ou": "affaire-isolement-du-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🍞 Poser le compte des bouches et le convertir en jours",
-  "lieu": "À la Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "12220",
-   "12221"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "12223": {
-  "genre": "action",
-  "ou": "affaire-isolement-du-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔁 Refaire le chiffre tous les huit jours et le dire tout haut",
-  "lieu": "À la Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "12222"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "12224": {
-  "genre": "action",
-  "ou": "affaire-isolement-du-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🕯️ Faire entrer dans les murs où est réellement lord Ormund",
-  "lieu": "Aux abords du rocher, et dans la ville",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "31000",
-   "6000"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "13020": {
   "genre": "action",
@@ -14421,20 +13777,11 @@
   "jour_du": ""
  },
  "13023": {
-  "genre": "action",
-  "ou": "affaire-ravitaillement-ville-coupee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📖 Écrire la table de lecture à quatre cases",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "13021",
-   "13022"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "13024": {
   "genre": "action",
@@ -14493,20 +13840,11 @@
   "jour_du": ""
  },
  "13028": {
-  "genre": "action",
-  "ou": "affaire-ravitaillement-ville-coupee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "💰 Fixer par écrit le prix de vente du convoi",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "13021",
-   "13025"
-  ],
-  "jour_du": "J−18 — un jour AVANT l'engagement de l'achat, et non sept jours après lui"
+  "lieu": "",
+  "etat": ""
  },
  "13029": {
   "genre": "action",
@@ -14522,17 +13860,11 @@
   "jour_du": ""
  },
  "13030": {
-  "genre": "action",
-  "ou": "affaire-ravitaillement-ville-coupee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🥖 Détacher l'achat du compte — engager le froment sur le plus grand de",
-  "lieu": "Peyredragon, chambre de la Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "Le 4e j. de la 4e lune, avant midi — au-delà, chaque jour perdu se reprend sur les dix-sept de 13025"
+  "lieu": "",
+  "etat": ""
  },
  "13031": {
   "genre": "action",
@@ -14563,43 +13895,25 @@
   "jour_du": "Le 4e j. de la 4e lune, avant la nuit — cette question ne coûte rien et se pose donc le jour où elle se lève"
  },
  "13033": {
-  "genre": "action",
-  "ou": "affaire-ravitaillement-ville-coupee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔗 Écrire toute ligne d'office de ce cahier en trois morceaux — qui pre",
-  "lieu": "Peyredragon — le registre des offices",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "Dû J−15 — avant l'achat du froment, parce qu'un convoi qui arrive sans exécutant nommé est un convoi qu'on décharge sur un quai"
+  "lieu": "",
+  "etat": ""
  },
  "13034": {
-  "genre": "action",
-  "ou": "affaire-ravitaillement-ville-coupee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔢 Faire dire tout compte de vivres en deux morceaux au relevé de sept ",
-  "lieu": "Peyredragon — le relevé de sept heures, puis les cahiers 5006 et 29202",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "Dû à l'ouverture — une règle qui ne coûte rien ne se met pas en file"
+  "lieu": "",
+  "etat": ""
  },
  "13035": {
-  "genre": "action",
-  "ou": "affaire-ravitaillement-ville-coupee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Aller chercher le prix d'avant dans un écrit, non dans une bouche",
-  "lieu": "Le bureau des rôles, au port de Port-Réal",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "J−22 — quatre jours de battement avant 13028"
+  "lieu": "",
+  "etat": ""
  },
  "13120": {
   "genre": "action",
@@ -14615,63 +13929,32 @@
   "jour_du": ""
  },
  "13121": {
-  "genre": "action",
-  "ou": "affaire-ravitaillement-ville-coupee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✂️ Choisir le point du verrou en connaissance des moulins",
-  "lieu": "Le commandement naval",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "13120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "13220": {
-  "genre": "action",
-  "ou": "affaire-ravitaillement-ville-coupee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📋 Écrire la liste des exemptions",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "13221": {
-  "genre": "action",
-  "ou": "affaire-ravitaillement-ville-coupee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤝 Faire entrer la liste dans le protocole 22030",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "13220"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "13222": {
-  "genre": "action",
-  "ou": "affaire-ravitaillement-ville-coupee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚓ Établir le poste unique et son registre",
-  "lieu": "Le point resserré du fleuve",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "13121",
-   "13221"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "13223": {
   "genre": "action",
@@ -14689,34 +13972,18 @@
   "jour_du": ""
  },
  "13224": {
-  "genre": "action",
-  "ou": "affaire-ravitaillement-ville-coupee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📏 Dimensionner le poste pour trois fois l'ordinaire",
-  "lieu": "Le point resserré du fleuve",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "13222"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "13225": {
-  "genre": "action",
-  "ou": "affaire-ravitaillement-ville-coupee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧭 Retenir six pilotes de la Néra",
-  "lieu": "Le quai de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "13120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "13320": {
   "genre": "action",
@@ -14780,17 +14047,11 @@
   "jour_du": ""
  },
  "13324": {
-  "genre": "action",
-  "ou": "affaire-ravitaillement-ville-coupee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🕳️ Nommer l'exécutant de ce cahier",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "19020": {
   "genre": "action",
@@ -14806,32 +14067,18 @@
   "jour_du": ""
  },
  "20070": {
-  "genre": "action",
-  "ou": "affaire-deplacement-armee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗺️ Tracer l'itinéraire des trois colonnes",
-  "lieu": "De Peyredragon aux abords de Port-Réal",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "20071": {
-  "genre": "action",
-  "ou": "affaire-deplacement-armee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📣 Rédiger et diffuser la parole d'accompagnement",
-  "lieu": "Le long du trajet, et vers les maisons neutres",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "20070"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "20073": {
   "genre": "action",
@@ -14851,17 +14098,11 @@
   "jour_du": ""
  },
  "20074": {
-  "genre": "action",
-  "ou": "affaire-deplacement-armee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⏱️ Rendre la durée de marche au mestre",
-  "lieu": "Table Peinte",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "20075": {
   "genre": "action",
@@ -14877,36 +14118,18 @@
   "jour_du": ""
  },
  "20076": {
-  "genre": "action",
-  "ou": "affaire-deplacement-armee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚩 Fixer l'ordre de départ des trois colonnes",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "20070",
-   "20120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "20077": {
-  "genre": "action",
-  "ou": "affaire-deplacement-armee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Un feuillet de marche par capitaine, lu et répété",
-  "lieu": "Peyredragon et Lamarck",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "20070",
-   "20320"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "20120": {
   "genre": "action",
@@ -14963,62 +14186,32 @@
   "jour_du": ""
  },
  "20220": {
-  "genre": "action",
-  "ou": "affaire-deplacement-armee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🍞 Écrire ce que l'ost mange par jour, en muids",
-  "lieu": "Les caves de Peyredragon",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "20221": {
-  "genre": "action",
-  "ou": "affaire-deplacement-armee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⛵ Porter à Lamarck l'ordre de rassemblement et de chargement",
-  "lieu": "Lamarck",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "20220"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "20222": {
-  "genre": "action",
-  "ou": "affaire-deplacement-armee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚫 Écrire la règle du rocher : nul de l'ost n'y couche",
-  "lieu": "Peyredragon, porte de mer",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "29001"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "20223": {
-  "genre": "action",
-  "ou": "affaire-deplacement-armee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⏱️ Chiffrer ce qu'un chargement coûte en garde de quai",
-  "lieu": "Les mouillages de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "26033"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "20320": {
   "genre": "action",
@@ -15051,60 +14244,32 @@
   "jour_du": ""
  },
  "20322": {
-  "genre": "action",
-  "ou": "affaire-deplacement-armee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🌾 S'accorder d'avance sur ce qu'on prend aux villages, et ce qu'on pai",
-  "lieu": "Table Peinte, puis la route",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "20220"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "20323": {
-  "genre": "action",
-  "ou": "affaire-deplacement-armee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🛑 Écrire ce qu'on fait si Rosby ou Stokeworth ferme sa porte à la colo",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "10027"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "20324": {
-  "genre": "action",
-  "ou": "affaire-deplacement-armee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪶 Nommer l'officier de marche et l'écrire au registre",
-  "lieu": "Registre des offices",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "20325": {
-  "genre": "action",
-  "ou": "affaire-deplacement-armee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🌾 Recompter le grenier de Sombreval tel qu'il est",
-  "lieu": "Sombreval, le grenier de la porte de terre",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "20326": {
   "genre": "action",
@@ -15122,20 +14287,11 @@
   "jour_du": ""
  },
  "20327": {
-  "genre": "action",
-  "ou": "affaire-deplacement-armee",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📦 Poser les deux dépôts sur la route",
-  "lieu": "La route de Sombreval à Port-Réal, deuxième et quatrième étapes",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "20320",
-   "26046"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "20328": {
   "genre": "action",
@@ -15200,17 +14356,11 @@
   "jour_du": ""
  },
  "21032": {
-  "genre": "action",
-  "ou": "affaire-ralliement-population",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👂 Suivi qualitatif du ton des rues",
-  "lieu": "Toute la ville",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "21033": {
   "genre": "action",
@@ -15245,17 +14395,11 @@
   "jour_du": ""
  },
  "21120": {
-  "genre": "action",
-  "ou": "affaire-ralliement-population",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📖 Tirer du tome des seigneurs une colonne de PRIX",
-  "lieu": "Table Peinte",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "21121": {
   "genre": "action",
@@ -15271,32 +14415,18 @@
   "jour_du": ""
  },
  "21122": {
-  "genre": "action",
-  "ou": "affaire-ralliement-population",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✍️ Écrire les bornes de ce qu'on peut promettre",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "21120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "21123": {
-  "genre": "action",
-  "ou": "affaire-ralliement-population",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📒 Faire dire ce qui a déjà été promis depuis le 15e",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "21220": {
   "genre": "action",
@@ -15346,20 +14476,11 @@
   "jour_du": ""
  },
  "21223": {
-  "genre": "action",
-  "ou": "affaire-ralliement-population",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🛡️ Écrire à Staunton la garantie chiffrée qu'il demande",
-  "lieu": "Table Peinte, puis Repos-des-Freux",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "21122",
-   "21033"
-  ],
-  "jour_du": "du le 27e"
+  "lieu": "",
+  "etat": ""
  },
  "21320": {
   "genre": "action",
@@ -15419,50 +14540,25 @@
   "jour_du": ""
  },
  "21324": {
-  "genre": "action",
-  "ou": "affaire-ralliement-population",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📊 Compter, tous les trois jours, qui a répondu et qui s'est tu",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "21120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "21325": {
-  "genre": "action",
-  "ou": "affaire-ralliement-population",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔀 Passer le cahier à son titulaire suivant",
-  "lieu": "Table Peinte",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "21120",
-   "21121"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "22030": {
-  "genre": "action",
-  "ou": "affaire-controle-naval",
-  "quoi": "📋 Écrire le protocole d'arraisonnement",
-  "lieu": "La barre — jamais le quai de la ville",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "22047"
-  ],
-  "jour_du": ""
+  "genre": "piece",
+  "ou": "plan-actions",
+  "quoi": "📋 Protocole d'arraisonnement",
+  "lieu": "",
+  "etat": ""
  },
  "22031": {
   "genre": "action",
@@ -15480,20 +14576,11 @@
   "jour_du": ""
  },
  "22032": {
-  "genre": "action",
-  "ou": "affaire-controle-naval",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚖️ Recoupement des rapports sur le Gosier",
-  "lieu": "Conseil de la reine",
-  "etat": "**bloquée**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "22041",
-   "22042"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "22033": {
   "genre": "action",
@@ -15524,32 +14611,18 @@
   "jour_du": "du le 4e"
  },
  "22035": {
-  "genre": "action",
-  "ou": "affaire-controle-naval",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗺️ Choisir le point resserré et le nommer",
-  "lieu": "Le fleuve, au-dessus de la barre",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "22034"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "22036": {
-  "genre": "action",
-  "ou": "affaire-controle-naval",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧑‍✈️ Faire le rôle des dix-neuf pilotes de la Néra",
-  "lieu": "Le quai de Peyredragon, mon livre ouvert et non prêté",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "22037": {
   "genre": "action",
@@ -15598,17 +14671,11 @@
   "jour_du": ""
  },
  "22040": {
-  "genre": "action",
-  "ou": "affaire-controle-naval",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚪 Nommer l'homme des deux rives",
-  "lieu": "Le conseil, puis le fleuve",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "22041": {
   "genre": "action",
@@ -15637,21 +14704,11 @@
   "jour_du": ""
  },
  "22043": {
-  "genre": "action",
-  "ou": "affaire-controle-naval",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📣 Écrire la proclamation en fait daté",
-  "lieu": "La roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "22032",
-   "22041",
-   "22042"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "22044": {
   "genre": "action",
@@ -15671,77 +14728,39 @@
   "jour_du": ""
  },
  "22045": {
-  "genre": "action",
-  "ou": "affaire-controle-naval",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Écrire et afficher le congé de rivière",
-  "lieu": "Les deux rives, et le mouillage extérieur",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "22030"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "22046": {
-  "genre": "action",
-  "ou": "affaire-controle-naval",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚓ Nommer le mouillage de refoulement et l'armer",
-  "lieu": "En aval de la barre",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "22040"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "22047": {
-  "genre": "action",
-  "ou": "affaire-controle-naval",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✂️ Arrêter la répartition des quilles, blocus contre transport",
-  "lieu": "La Table Peinte",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5000"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "22048": {
-  "genre": "action",
-  "ou": "affaire-controle-naval",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧾 Remettre à maître Hask le compte coque par coque",
-  "lieu": "La Table Peinte",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "22049": {
-  "genre": "action",
-  "ou": "affaire-controle-naval",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🕰️ Écrire la table des heures tenues",
-  "lieu": "Le quai de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "22034"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "23030": {
   "genre": "action",
@@ -15775,34 +14794,18 @@
   "jour_du": ""
  },
  "23032": {
-  "genre": "action",
-  "ou": "affaire-entree-au-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔔 Définition du signal",
-  "lieu": "Entre l'allié et l'équipe d'extraction",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "23031"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "23033": {
-  "genre": "action",
-  "ou": "affaire-entree-au-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🛡️ Constitution de l'équipe d'extraction",
-  "lieu": "Hors les murs",
-  "etat": "à faire — dépend du rapprochement nominatif en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "23031"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "23034": {
   "genre": "piece",
@@ -15848,34 +14851,18 @@
   "jour_du": ""
  },
  "23039": {
-  "genre": "action",
-  "ou": "affaire-entree-au-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔕 Écrire le geste qui dit nous ne venons pas",
-  "lieu": "Table Peinte, puis la hune de la porte de mer",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "23032"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "23120": {
-  "genre": "action",
-  "ou": "affaire-entree-au-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Réclamer le relevé des poternes, avec la mention maçonnée",
-  "lieu": "Table Peinte",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "820"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "23121": {
   "genre": "action",
@@ -15908,35 +14895,18 @@
   "jour_du": ""
  },
  "23123": {
-  "genre": "action",
-  "ou": "affaire-entree-au-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✂️ Écarter la porte si elle est maçonnée",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "23120",
-   "23121"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "23124": {
-  "genre": "action",
-  "ou": "affaire-entree-au-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚪 Décrire un chemin jusqu'à une porte du Donjon",
-  "lieu": "Donjon Rouge",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "324"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "23220": {
   "genre": "action",
@@ -15952,34 +14922,18 @@
   "jour_du": ""
  },
  "23221": {
-  "genre": "action",
-  "ou": "affaire-entree-au-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤐 Dire à chacun ce qu'il ne doit PAS faire",
-  "lieu": "Sous la voûte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "23220"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "23222": {
-  "genre": "action",
-  "ou": "affaire-entree-au-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "➖ Retrancher les douze du plancher des cent vingt",
-  "lieu": "Livre de la garnison",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "23220"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "23223": {
   "genre": "action",
@@ -15997,161 +14951,81 @@
   "jour_du": ""
  },
  "23320": {
-  "genre": "action",
-  "ou": "affaire-entree-au-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "↩️ Écrire le seuil de repli",
-  "lieu": "Table Peinte, puis roukerie",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "23223"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "23321": {
-  "genre": "action",
-  "ou": "affaire-entree-au-donjon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗣️ Nommer l'homme qui dit on s'en va",
-  "lieu": "Devant les douze",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "23320"
-  ],
-  "jour_du": "le 27e de la 3e lune"
+  "lieu": "",
+  "etat": ""
  },
  "24030": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚖️ Évaluer les options",
-  "lieu": "Conseil de la reine",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24031": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👑 Trancher en Conseil",
-  "lieu": "Conseil de la reine",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24030",
-   "24035",
-   "24036"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24032": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🖋️ Sceller et diffuser la décision",
-  "lieu": "Conseil de la reine",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24031"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24033": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Compter la troisième colonne du rouleau de 105",
-  "lieu": "Archive de Peyredragon",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24034": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✂️ Tirer copie nominative des dix-neuf lignes",
-  "lieu": "Archive",
-  "etat": "bloquée",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24033"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24035": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗂️ Dresser les trois tas",
-  "lieu": "Archive",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24034"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24036": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📚 Écrire les quatre précédents, une page chacun",
-  "lieu": "Roukerie",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24037": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🖤 Chiffrer le portage d'un roi au Mur",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24038": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🍞 Chiffrer la garde de trente prisonniers de rang",
-  "lieu": "Livre du maître des deniers",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24039": {
   "genre": "action",
@@ -16167,244 +15041,116 @@
   "jour_du": ""
  },
  "24040": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📆 Écrire la formule de l'amnistie datée",
-  "lieu": "Roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24035"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24041": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👑 Trancher les trois têtes nommées",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24035",
-   "24036",
-   "24040"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24042": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🖨️ Sceller en trois exemplaires identiques",
-  "lieu": "Roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24041"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24043": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✍️ Nommer l'exécutant et son remplaçant DANS la décision",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24041"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24044": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔒 Écrire la clause de dédit",
-  "lieu": "Roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24041"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24045": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📢 Lire la décision tout haut au conseil, une fois",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24042"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24046": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗣️ Rendre au Sanglier la phrase qu'un homme du Donjon peut se voir pro",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24040",
-   "24041"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24047": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📦 Porter la copie scellée à ser Steffon, non ouvrable avant J",
-  "lieu": "Quai",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24042"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24048": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📖 Lire la décision devant les vaincus avant qu'on ait touché à quiconq",
-  "lieu": "Donjon Rouge",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24047"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24049": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👁️ Faire apprendre la phrase de reconnaissance, trois hommes par vague",
-  "lieu": "Quai d'embarquement",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24035"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24050": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🩹 Rendre à dame Sara sa matinée sur les trois gestes",
-  "lieu": "Peyredragon, bourg",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24080": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🏛️ Dresser la liste des offices du Donjon et de qui les tient",
-  "lieu": "Archive et relevés de Port-Réal",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24081": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📋 Écrire les trois premiers ordres ordinaires du règne",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24080"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "24180": {
-  "genre": "action",
-  "ou": "affaire-siege-sur-le-trone",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔁 Relire la décision au conseil du premier jour de chaque lune",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24044"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "25030": {
-  "genre": "action",
-  "ou": "affaire-entree-armee-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📄 Rédiger l'ordre d'entrée en trois vagues",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "26034"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "25031": {
-  "genre": "action",
-  "ou": "affaire-entree-armee-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚧 Fixer le délai et le seuil de repli",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "36020",
-   "25120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "25032": {
   "genre": "action",
@@ -16455,35 +15201,18 @@
   "jour_du": ""
  },
  "25035": {
-  "genre": "action",
-  "ou": "affaire-entree-armee-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚪 Nommer la porte d'entrée et la porte de secours",
-  "lieu": "Table Peinte, sur le relèvé de maître Vasse",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "25124"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "25036": {
-  "genre": "action",
-  "ou": "affaire-entree-armee-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗺️ Écrire la liste ordonnée des douze points",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "25124",
-   "25035"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "25037": {
   "genre": "action",
@@ -16527,35 +15256,18 @@
   "jour_du": ""
  },
  "25122": {
-  "genre": "action",
-  "ou": "affaire-entree-armee-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧮 Calculer le temps de passage de chaque vague",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "25120",
-   "25121"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "25123": {
-  "genre": "action",
-  "ou": "affaire-entree-armee-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧾 Désigner et instruire les deux compteurs de porte",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "25035"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "25124": {
   "genre": "action",
@@ -16571,62 +15283,32 @@
   "jour_du": ""
  },
  "25220": {
-  "genre": "action",
-  "ou": "affaire-entree-armee-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Écrire la doctrine des trois degrés",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "25221": {
-  "genre": "action",
-  "ou": "affaire-entree-armee-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗣️ Faire lire la doctrine à chaque compagnie, deux fois",
-  "lieu": "Aux cantonnements, puis au camp",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "25220"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "25222": {
-  "genre": "action",
-  "ou": "affaire-entree-armee-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚖️ Faire écrire la peine par la reine, et la joindre",
-  "lieu": "Auprès de la reine",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "25220"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "25223": {
-  "genre": "action",
-  "ou": "affaire-entree-armee-port-real",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🩹 Désigner par compagnie l'homme qui ramasse",
-  "lieu": "Aux cantonnements",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "25220"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "25224": {
   "genre": "action",
@@ -16658,36 +15340,18 @@
   "jour_du": ""
  },
  "26031": {
-  "genre": "action",
-  "ou": "affaire-logistique-transport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✂️ Fixer la répartition blocus / transport",
-  "lieu": "Le commandement naval",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "26030"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "26032": {
-  "genre": "action",
-  "ou": "affaire-logistique-transport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧮 Calculer la composition de chaque vague",
-  "lieu": "Le commandement de l'armée",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "26030",
-   "26031",
-   "26035"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "26033": {
   "genre": "action",
@@ -16708,34 +15372,21 @@
   "genre": "action",
   "ou": "affaire-logistique-transport",
   "quoi": "📦 Rédiger le plan de charge",
-  "lieu": "Le commandement naval et terrestre",
-  "etat": "à faire",
+  "lieu": "",
+  "etat": "à moitié faite — colonne écrite, nombre demandé",
   "genres": [
    "piece",
    "action"
   ],
-  "depend_de": [
-   "26031",
-   "26032",
-   "26033",
-   "26041"
-  ],
+  "depend_de": [],
   "jour_du": ""
  },
  "26035": {
-  "genre": "action",
-  "ou": "affaire-logistique-transport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧮 Poser le nombre d'hommes à porter",
-  "lieu": "La Table Peinte",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "26036": {
   "genre": "action",
@@ -16797,97 +15448,46 @@
   "jour_du": ""
  },
  "26040": {
-  "genre": "action",
-  "ou": "affaire-logistique-transport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📦 Réserver une coque entière à l'intendance par vague",
-  "lieu": "Le quai de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "26030",
-   "26039"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "26041": {
-  "genre": "action",
-  "ou": "affaire-logistique-transport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🌊 Écrire la règle de marée du chargement",
-  "lieu": "Le bureau du maître de port",
-  "etat": "**ecrite, non portee**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "26042": {
-  "genre": "action",
-  "ou": "affaire-logistique-transport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧾 Corriger la rotation sur le temps mesuré",
-  "lieu": "La Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "26033",
-   "26041"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "26043": {
-  "genre": "action",
-  "ou": "affaire-logistique-transport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗓️ Poser les trois vagues et la règle de marée sur le calendrier du 11",
-  "lieu": "La roukerie et la Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "26042",
-   "26036",
-   "26041"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "26044": {
-  "genre": "action",
-  "ou": "affaire-logistique-transport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🛡️ Vérifier avec ser Robert qu'aucun jour de chargement ne passe sous ",
-  "lieu": "Le corps de garde et la Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5022",
-   "26043"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "26045": {
-  "genre": "action",
-  "ou": "affaire-logistique-transport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📋 Faire la liste nominative de la première vague",
-  "lieu": "La voûte de la porte du Dragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "26032"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "26046": {
   "genre": "action",
@@ -16922,19 +15522,11 @@
   "jour_du": ""
  },
  "26048": {
-  "genre": "action",
-  "ou": "affaire-logistique-transport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔁 Refaire le plan de charge en un soir si une coque manque",
-  "lieu": "La Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "26034"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "26049": {
   "genre": "action",
@@ -16993,8 +15585,8 @@
  "26053": {
   "genre": "action",
   "ou": "affaire-logistique-transport",
-  "quoi": "🌒 Porter la colonne FENÊTRE au plan de charge, et monter à la reine le",
-  "lieu": "La Table Peinte, et le plan de charge",
+  "quoi": "🌒 Porter le nombre de la première fenêtre à la reine",
+  "lieu": "",
   "etat": "à moitié faite — colonne écrite, nombre demandé à la reine",
   "genres": [
    "piece",
@@ -17004,43 +15596,25 @@
   "jour_du": ""
  },
  "26054": {
-  "genre": "action",
-  "ou": "affaire-logistique-transport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧮 Faire signer un PLAFOND d'hommes, à défaut d'un compte",
-  "lieu": "La Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "26055": {
-  "genre": "action",
-  "ou": "affaire-logistique-transport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🐎 Régler le rôle des bêtes à deux lignes datées, et jamais un total au",
-  "lieu": "Le coffre du maître des rôles",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "26056": {
-  "genre": "action",
-  "ou": "affaire-logistique-transport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🍞 Nommer le lieu, le prix et les DEUX dates du froment de la marche",
-  "lieu": "Le feuillet des vivres, et le marché du bourg ou de Lamarck",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "26057": {
   "genre": "action",
@@ -17058,32 +15632,18 @@
   "jour_du": ""
  },
  "27020": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Écrire la règle des trois cercles",
-  "lieu": "Table Peinte",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "27021": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🕯️ La faire lire tout haut et sceller",
-  "lieu": "Table Peinte",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "27020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "27022": {
   "genre": "action",
@@ -17116,101 +15676,53 @@
   "jour_du": ""
  },
  "27024": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪶 Porter la règle au registre des offices",
-  "lieu": "Registre des offices",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "27021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "27120": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🐑 Compter les bêtes avec le maître des fosses",
-  "lieu": "Fosses de Peyredragon",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "27121": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🩸 Écrire ce qu'une bête blessée peut faire",
-  "lieu": "Fosses de Peyredragon",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "27120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "27122": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📣 Dire le compte tout haut, tous les trois jours",
-  "lieu": "Table Peinte",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "27120"
-  ],
-  "jour_du": "le 30e de la 3e lune"
+  "lieu": "",
+  "etat": ""
  },
  "27123": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👁️ Un seul devant la bête, personne qui regarde",
-  "lieu": "Fosses de Peyredragon",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "27124": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚖️ Faire écrire la ligne de qui laisse un homme et non une veuve",
-  "lieu": "Table Peinte",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "27125": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Écrire l'ordre permanent de descente avant de monter",
-  "lieu": "Fosses de Peyredragon",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "27220": {
   "genre": "action",
@@ -17226,19 +15738,11 @@
   "jour_du": ""
  },
  "27221": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚫 Écrire les trois interdits et la conduite sous scorpion",
-  "lieu": "Table Peinte",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "27020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "27222": {
   "genre": "action",
@@ -17256,329 +15760,158 @@
   "jour_du": ""
  },
  "27223": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📣 Écrire et éprouver le mot de rappel",
-  "lieu": "Fosses et barbacane",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "27120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "27320": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✍️ Poser l'ordre de vol à deux mains",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "27021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "27321": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👁️ Nommer un guetteur des fosses",
-  "lieu": "Fosses de Peyredragon",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "27322": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚠️ Écrire ce qui se passe si une bête part sans ordre",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "27320"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "27323": {
-  "genre": "action",
-  "ou": "affaire-emploi-des-dragons",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🐲 Écrire ce qu'on fait si Vhagar brûle la première",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "27021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28020": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧾 Écrire les six postes et leur chiffre par lune",
-  "lieu": "La Table Peinte",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28021": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪶 Prendre le sous-clerc parmi les quarante affranchis",
-  "lieu": "Les geôles de Peyredragon, puis la Table Peinte",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28022": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚔️ Chiffrer la solde au tarif déjà payé",
-  "lieu": "La Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5021",
-   "5031"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28023": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🍞 Chiffrer les vivres de campagne au prix de la guerre",
-  "lieu": "Les celliers et le marché du bourg",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5026"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28024": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🐎 Chiffrer chevaux, avoine et ferrure",
-  "lieu": "Les écuries et le quai",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5031"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28025": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⛵ Chiffrer l'affrètement et la caution des patrons",
-  "lieu": "Le quai de Peyredragon et les courtiers de Lamarck",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28026": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤝 Recueillir le prix déclaré par chaque mission, et n'en fixer aucun",
-  "lieu": "La Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28027": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📉 Convertir le tout en jours de campagne en caisse",
-  "lieu": "La Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28020",
-   "5027"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28028": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🏦 Aller voir lord Celtigar avant d'avoir besoin de lui",
-  "lieu": "Griffonpierre",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28027"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28029": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚖️ Écrire le gage : ce qu'on met en face",
-  "lieu": "La Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28028"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28030": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "💳 Faire sceller une LIGNE DE CRÉDIT, non un emprunt",
-  "lieu": "Griffonpierre, puis la roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28029"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28031": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗝️ Rendre le premier état de la cassette",
-  "lieu": "La Table Peinte",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5027"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28032": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔍 Rapprocher le compte des débarquements du livre des deniers",
-  "lieu": "Le quai et la cassette",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "5122"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28033": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗣️ Dire tout haut le nombre de jours en caisse",
-  "lieu": "La Table Peinte, deuxième temps",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28027"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28034": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚨 Au seuil de trente jours, tirer sans repasser par le conseil",
-  "lieu": "La cassette, puis la Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28030",
-   "28033"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28035": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✂️ Poser la règle des déplacements de ligne",
-  "lieu": "Registre des offices",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28036": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗝️ Écrire le prix d'un sergent de porte, et surtout sa FORME",
-  "lieu": "La Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28026"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28037": {
   "genre": "action",
@@ -17594,30 +15927,18 @@
   "jour_du": ""
  },
  "28038": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚖️ Chiffrer les prisonniers de rang pour le verdict",
-  "lieu": "Les caves de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28039": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🍞 Ouvrir les trois lignes de dame Sara sans qu'elle ait à redemander",
-  "lieu": "La cassette de Peyredragon",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28040": {
   "genre": "action",
@@ -17636,286 +15957,144 @@
   "jour_du": ""
  },
  "28041": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔒 Le livre des bourses de Port-Réal, tenu à part",
-  "lieu": "Sur moi, et nulle part ailleurs",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28042": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚓ La nuit des fonds : la seconde traversée",
-  "lieu": "Le quai de Peyredragon, puis Sombreval",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28040"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28043": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🛶 La voie basse, si Sombreval n'a pas ses bêtes",
-  "lieu": "Le bourg et le quai de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28040"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28044": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧾 Régler le livre de caisse à deux colonnes et prendre la quittance à ",
-  "lieu": "La Table Peinte, et le coffre de la maison",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28019"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28045": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚖️ Dire H5 en journées chaque matin, avec la ligne qui explique toute ",
-  "lieu": "La Table Peinte, à sept heures, dans les cinq lignes du compte et à aucun autre moment",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28019"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28046": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪶 Afficher le périmètre du sous-clerc au coffre, et le porter au regis",
-  "lieu": "Le coffre de la maison, et le registre des offices",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28047": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪙 Faire la première ronde des offices et porter les sept pièces au feu",
-  "lieu": "La Table Peinte, feuillet du maître des deniers",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28048": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪙 Écrire le taux en tête, recalculer les six postes dessous, et rendre",
-  "lieu": "Le feuillet des six postes, et la Table Peinte",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28049": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪶 Porter les 857 au feuillet sous PORTÉ AILLEURS, avec le nom qui manq",
-  "lieu": "Le feuillet des six postes",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "28048"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "28050": {
-  "genre": "action",
-  "ou": "affaire-financement-campagne",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤲 Ouvrir la colonne d'état au livre de la cassette, et y ranger les tr",
-  "lieu": "Le livre de la cassette, et la Table Peinte au matin",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29020": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔢 Refaire le rôle en postes et non en noms",
-  "lieu": "Peyredragon, porte du Dragon",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29021": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📉 Dire à sept heures le nombre des DISPONIBLES, et celui de ceux qui c",
-  "lieu": "Table Peinte, à sept heures",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29022": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⛓️ Redémander les cinquante de la chaîne de sable chaud",
-  "lieu": "Sous la Montagne",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "29020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29023": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🐉 Obtenir par écrit quel dragon reste à Peyredragon",
-  "lieu": "Table Peinte",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "27000"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29024": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧾 Chiffrer ce qu'un embarquement coûte en garde de quai",
-  "lieu": "Les quais de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29025": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👥 Faire entrer au rôle tout ce qui vit sur ce rocher",
-  "lieu": "Peyredragon et le sentier des tailleurs",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "29020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29026": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🍞 Chiffrer le grain à trois effectifs",
-  "lieu": "Les caves",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "29025"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29027": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📋 Sortir Hallis Roon des caves et le mettre au rôle",
-  "lieu": "Les caves basses, puis la porte du Dragon",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29028": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📚 Poser côte à côte le livre des entrées de la porte de mer et le cahi",
-  "lieu": "Le quai, après l'étale",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29029": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Écrire la liste des postes critiques en relisant le registre de gard",
-  "lieu": "Porte du Dragon",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29030": {
   "genre": "action",
@@ -17946,73 +16125,39 @@
   "jour_du": ""
  },
  "29032": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🐑 Dire le mouton en JOURS à sept heures, refait tous les trois jours",
-  "lieu": "Table Peinte, à sept heures",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29033": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧮 Écrire la définition de « disponible » en tête du registre des charg",
-  "lieu": "Le registre des charges, puis la Table Peinte à sept heures",
-  "etat": "**en cours** — ouverte le 5e j., 4e lune, an 129",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "29021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29034": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "➖ Rayer les cinquante du rôle de Peyredragon et les faire écrire au rô",
-  "lieu": "Peyredragon — salle du rôle, puis Table Peinte à sept heures",
-  "etat": "abandonnée",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "29022"
-  ],
-  "jour_du": "5e j., 4e lune, an 129"
+  "lieu": "",
+  "etat": ""
  },
  "29035": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪶 Enregistrer le double signé de la charge du poste du nœud, puis la r",
-  "lieu": "Registre des charges, puis les trois postes avant la relève du soir",
-  "etat": "en cours — le feuillet signé est encore dans la main du Sanglier ; rappel écrit porté le 4e avant la relève. Réponse reçue : Marna vient avec papier et encre ; Tomm Vairon relit original et double mot pour mot ; après concordance, le double demeure sous la marque du Sanglier et Marna porte l'original signé au registre. La lecture aux trois chefs reste à tenir.",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "4e j., 4e lune, an 129, avant la relève du soir"
+  "lieu": "",
+  "etat": ""
  },
  "29120": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🕳️ Achever le relevé des sept galeries à la craie",
-  "lieu": "Sous le rocher",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29121": {
   "genre": "action",
@@ -18085,45 +16230,25 @@
   "jour_du": ""
  },
  "29220": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔔 Convenir du signal et l'écrire",
-  "lieu": "Porte de mer et sommet",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29221": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✍️ Écrire qui commande après moi, et après lui",
-  "lieu": "Registre des offices",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29222": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⬆️ Écrire qui monte au rocher et qui reste au bourg",
-  "lieu": "Le bourg et la barbacane",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "29026"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "29223": {
   "genre": "action",
@@ -18142,20 +16267,11 @@
   "jour_du": ""
  },
  "29224": {
-  "genre": "action",
-  "ou": "affaire-defense-peyredragon",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚫 Faire signer avant le départ la règle de la dernière vague",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "29021",
-   "29024"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "31020": {
   "genre": "action",
@@ -18171,19 +16287,11 @@
   "jour_du": ""
  },
  "31021": {
-  "genre": "action",
-  "ou": "affaire-guet-des-osts-verts",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧭 Convertir le seuil en trois noms de places",
-  "lieu": "À la Table Peinte, avec le mestre",
-  "etat": "close",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "31020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "31022": {
   "genre": "action",
@@ -18232,39 +16340,18 @@
   "jour_du": "dû le 2e jour de la 4e lune"
  },
  "31025": {
-  "genre": "action",
-  "ou": "affaire-guet-des-osts-verts",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⏰ Fixer la cadence, et faire du silence une alarme",
-  "lieu": "Toutes les lignes",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "31022",
-   "31023",
-   "31024"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "31026": {
-  "genre": "action",
-  "ou": "affaire-guet-des-osts-verts",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📮 Nommer le relais de chaque ligne",
-  "lieu": "De chaque ligne à la Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "31022",
-   "31023",
-   "31024",
-   "41000"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "31027": {
   "genre": "action",
@@ -18340,32 +16427,18 @@
   "jour_du": ""
  },
  "31120": {
-  "genre": "action",
-  "ou": "affaire-guet-des-osts-verts",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⛵ Donner un compte à tenir aux neuf coques de Pointe-Aiguë",
-  "lieu": "Pointe-Aiguë, la bouche de la baie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "le 5e de la 4e lune"
+  "lieu": "",
+  "etat": ""
  },
  "31121": {
-  "genre": "action",
-  "ou": "affaire-guet-des-osts-verts",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧿 Écrire les six repères d'une coque de guerre",
-  "lieu": "À Pointe-Aiguë",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "31120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "31122": {
   "genre": "action",
@@ -18414,81 +16487,39 @@
   "jour_du": ""
  },
  "31220": {
-  "genre": "action",
-  "ou": "affaire-guet-des-osts-verts",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✍️ Écrire le seuil en toutes lettres et le faire relire",
-  "lieu": "À la Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "31021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "31221": {
-  "genre": "action",
-  "ou": "affaire-guet-des-osts-verts",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔔 Nommer l'homme qui a le droit de réveiller la reine",
-  "lieu": "À la Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "31220"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "31222": {
-  "genre": "action",
-  "ou": "affaire-guet-des-osts-verts",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Écrire d'avance les deux décisions du seuil",
-  "lieu": "À la Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "31220",
-   "11000",
-   "36000"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "32020": {
-  "genre": "action",
-  "ou": "affaire-protection-du-secret",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📋 Ouvrir le rôle des sachants",
-  "lieu": "Table Peinte",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "32023"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "32021": {
-  "genre": "action",
-  "ou": "affaire-protection-du-secret",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗣️ Le relire tout haut à sept heures",
-  "lieu": "Sous la voûte, puis à la Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "32020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "32022": {
   "genre": "action",
@@ -18506,32 +16537,18 @@
   "jour_du": ""
  },
  "32023": {
-  "genre": "action",
-  "ou": "affaire-protection-du-secret",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✍️ Faire nommer et assermenter la plume qui écrit sous ma dictée",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "32024": {
-  "genre": "action",
-  "ou": "affaire-protection-du-secret",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👁️ Faire relire chaque soir ce qui a été écrit en mon nom",
-  "lieu": "Sous la voûte",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "32023"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "32025": {
   "genre": "action",
@@ -18547,20 +16564,11 @@
   "jour_du": ""
  },
  "32026": {
-  "genre": "action",
-  "ou": "affaire-protection-du-secret",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✂️ Retirer du rôle des sachants qui n'a pas besoin d'y être",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "32020",
-   "32022"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "32027": {
   "genre": "action",
@@ -18578,17 +16586,11 @@
   "jour_du": ""
  },
  "32028": {
-  "genre": "action",
-  "ou": "affaire-protection-du-secret",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📋 Laisser chaque soir sous la voûte la copie du jour du cahier de jour",
-  "lieu": "Le quai, puis sous la voûte",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "32029": {
   "genre": "action",
@@ -18617,30 +16619,18 @@
   "jour_du": ""
  },
  "32121": {
-  "genre": "action",
-  "ou": "affaire-protection-du-secret",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧵 Faire une chose qui ferme pour le grand livre",
-  "lieu": "Ateliers de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "32122": {
-  "genre": "action",
-  "ou": "affaire-protection-du-secret",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Écrire que le livre ne descend pas de la Table Peinte",
-  "lieu": "Registre des règles",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "32123": {
   "genre": "action",
@@ -18669,45 +16659,25 @@
   "jour_du": ""
  },
  "32221": {
-  "genre": "action",
-  "ou": "affaire-protection-du-secret",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🎵 Convenir d'une phrase qui dit on a pris quelqu'un",
-  "lieu": "Peyredragon, puis les tavernes",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "32220"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "32222": {
-  "genre": "action",
-  "ou": "affaire-protection-du-secret",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📏 Compter les passages muets de tous les canaux",
-  "lieu": "Sous la voûte, au rôle",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "32320": {
-  "genre": "action",
-  "ou": "affaire-protection-du-secret",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔥 Faire écrire et sceller qui peut brûler un canal sans la reine",
-  "lieu": "Roukerie, sous scellé",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "32321": {
   "genre": "action",
@@ -18725,60 +16695,32 @@
   "jour_du": ""
  },
  "32322": {
-  "genre": "action",
-  "ou": "affaire-protection-du-secret",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧾 Tenir le rôle des porteurs à part de celui des chanteurs",
-  "lieu": "Sous la voûte, au rôle",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "32020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33020": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Faire dicter et sceller le texte de l'ambassade",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33021": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⏳ Écrire ce qui se passe si la réponse de quinze jours ne part pas",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "33020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33022": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✋ Faire écrire les bornes de ma parole propre",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33023": {
   "genre": "action",
@@ -18796,19 +16738,11 @@
   "jour_du": ""
  },
  "33024": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗺️ Écrire la route, son ordre et son compte de jours",
-  "lieu": "Table Peinte",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "33023"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33026": {
   "genre": "action",
@@ -18826,43 +16760,25 @@
   "jour_du": ""
  },
  "33033": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗣️ Dire au prince qu il engage plein, devant temoins",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33034": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📝 Dresser la page des mots rapportes",
-  "lieu": "Table Peinte puis la route",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33035": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚖️ Ecrire la limite et la sceller a une pliure",
-  "lieu": "Table Peinte",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33120": {
   "genre": "action",
@@ -18906,19 +16822,11 @@
   "jour_du": ""
  },
  "33220": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✒️ Faire écrire par la reine, de sa main, la phrase sur le serment",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "33020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33221": {
   "genre": "action",
@@ -18934,19 +16842,11 @@
   "jour_du": ""
  },
  "33222": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "💍 Faire écrire la réponse au mariage",
-  "lieu": "Table Peinte",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "33022"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33320": {
   "genre": "action",
@@ -18962,250 +16862,123 @@
   "jour_du": ""
  },
  "33321": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚓ Écrire ce qu'on demande aux Manderly",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "33320"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33420": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪑 Faire nommer par écrit qui reprend le 21000",
-  "lieu": "Registre des offices",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "21121"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33421": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🐉 Faire nommer par écrit qui reprend le 27000 et la charge de dragonni",
-  "lieu": "Registre des offices",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "27021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33422": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📖 Relire les deux cahiers tout haut avec ceux qui les reprennent",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "33420",
-   "33421"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33423": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📊 Écrire ce que mon absence coûte, chiffré",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "33024"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33424": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🐲 Régler la contradiction du onzième jour",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "33425": {
-  "genre": "action",
-  "ou": "affaire-ambassade-nord-val-blancport",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📦 Prendre les deux paquets de dame Alys Grive",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "33020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34020": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🖋️ Écrire le texte court, à trois mains",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34021": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🍲 L'essayer devant quelqu'un qui ne sait pas lire",
-  "lieu": "Cuisines de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "34020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34022": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✂️ Couper ce qui n'a pas été retenu",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "34021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34023": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤐 Écrire les cinq lignes de ce qu'on ne dit pas",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34024": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪶 Faire borner la charge du mestre avant qu'il scelle ceci",
-  "lieu": "Table Peinte",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34025": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚔️ Poser le serment de garnison en première ligne",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "34020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34026": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤝 Écrire les termes de la cinquième promesse",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "34020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34120": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧭 Dresser la table des routes et des jours, maison par maison",
-  "lieu": "Table Peinte, sur la roue des journées",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34121": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗣️ Fixer le mot convenu, et ne l'écrire nulle part",
-  "lieu": "Table Peinte, puis chaque dépôt",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "34024"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34122": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👤 Nommer un porteur par paquet, et un seul",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "34120"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34123": {
   "genre": "action",
@@ -19223,19 +16996,11 @@
   "jour_du": ""
  },
  "34124": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📅 Écrire la date de péremption sur chaque paquet",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "34123"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34125": {
   "genre": "action",
@@ -19268,77 +17033,39 @@
   "jour_du": ""
  },
  "34127": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✍️ Commencer à copier huit jours avant le premier départ",
-  "lieu": "La roukerie de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "34022"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34128": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⛵ Le Nord et le Val ne se font pas à l'oiseau",
-  "lieu": "Table Peinte, puis le quai",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "34120"
-  ],
-  "jour_du": "avant le 4e jour de la 4e lune"
+  "lieu": "",
+  "etat": ""
  },
  "34129": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪶 Poser les deux cires à la ligne « La roukerie » et écrire ce que le ",
-  "lieu": "Grande salle, puis Table Peinte — registre des offices",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34220": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📣 Trois lectures d'essai au bourg, et compter les écarts",
-  "lieu": "Le bourg de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "34022"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "34221": {
-  "genre": "action",
-  "ou": "affaire-proclamation-au-royaume",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🏛️ La lecture du jour même, aux trois marchés de Port-Réal",
-  "lieu": "Port-Réal — le Crochet, la Gadoue, le Culpucier",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "34220"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "35020": {
   "genre": "action",
@@ -19354,19 +17081,11 @@
   "jour_du": ""
  },
  "35021": {
-  "genre": "action",
-  "ou": "affaire-fenetre-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📄 Écrire la fenêtre de la lune",
-  "lieu": "Le quai de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "35020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "35022": {
   "genre": "action",
@@ -19398,78 +17117,39 @@
   "jour_du": ""
  },
  "35024": {
-  "genre": "action",
-  "ou": "affaire-fenetre-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📏 Remettre à mestre Gerardys la durée par sorte de coque",
-  "lieu": "La roukerie",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "35023"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "35025": {
-  "genre": "action",
-  "ou": "affaire-fenetre-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🕰️ Poser les deux heures d'appareillage de chaque vague",
-  "lieu": "La Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "35024",
-   "26031"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "35026": {
-  "genre": "action",
-  "ou": "affaire-fenetre-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🌒 Écrire les trois signes",
-  "lieu": "Le quai de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "35027": {
-  "genre": "action",
-  "ou": "affaire-fenetre-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧪 Quatre rapports d'essai, scellés d'avance",
-  "lieu": "Le quai, puis la roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "35026"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "35028": {
-  "genre": "action",
-  "ou": "affaire-fenetre-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔁 Écrire la règle de décalage avec mestre Gerardys",
-  "lieu": "La roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "35024"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "35029": {
   "genre": "action",
@@ -19487,78 +17167,39 @@
   "jour_du": ""
  },
  "35030": {
-  "genre": "action",
-  "ou": "affaire-fenetre-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚫 Écrire l'interdit de chargement anticipé au plan de charge",
-  "lieu": "La Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "35023"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "35031": {
-  "genre": "action",
-  "ou": "affaire-fenetre-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📓 Le rapport de fenêtre à J−3",
-  "lieu": "Le quai, puis la roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "35026",
-   "35027"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "35032": {
-  "genre": "action",
-  "ou": "affaire-fenetre-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚓ Tenir le quai libre les trois jours de la fenêtre",
-  "lieu": "Le quai et les mouillages de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "35031"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "35033": {
-  "genre": "action",
-  "ou": "affaire-fenetre-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🥖 Chiffrer ce que coûte un jour d'attente à quai",
-  "lieu": "Le quai de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "35034": {
-  "genre": "action",
-  "ou": "affaire-fenetre-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🌑 Faire trancher la nuit à la mer",
-  "lieu": "La Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "35025"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "35035": {
   "genre": "action",
@@ -19574,32 +17215,18 @@
   "jour_du": ""
  },
  "36020": {
-  "genre": "action",
-  "ou": "affaire-repli-si-entree-echoue",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⏳ Écrire le seuil en trois chiffres et le faire sceller",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "36026"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "36021": {
-  "genre": "action",
-  "ou": "affaire-repli-si-entree-echoue",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗝️ Convenir du mot de repli et du signal de lanterne",
-  "lieu": "Peyredragon",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "36022": {
   "genre": "action",
@@ -19617,19 +17244,11 @@
   "jour_du": ""
  },
  "36023": {
-  "genre": "action",
-  "ou": "affaire-repli-si-entree-echoue",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⛔ Faire signer l'interdit de secours aux trois commandants",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "25030"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "36024": {
   "genre": "action",
@@ -19649,90 +17268,46 @@
   "jour_du": ""
  },
  "36025": {
-  "genre": "action",
-  "ou": "affaire-repli-si-entree-echoue",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧭 Fixer les deux points de ralliement et les faire relever",
-  "lieu": "Port-Réal et ses abords",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "25124"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "36026": {
-  "genre": "action",
-  "ou": "affaire-repli-si-entree-echoue",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⛵ Convenir du temps d'attente des coques et du rappel",
-  "lieu": "Le port de Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "36027": {
-  "genre": "action",
-  "ou": "affaire-repli-si-entree-echoue",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🩸 Écrire ce qu'on fait des blessés qu'on ne peut pas emporter",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "36028": {
-  "genre": "action",
-  "ou": "affaire-repli-si-entree-echoue",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤐 Écrire l'heure fausse de sortie et la raison publique",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "36020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "36029": {
-  "genre": "action",
-  "ou": "affaire-repli-si-entree-echoue",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📅 Fixer d'avance la date de la seconde tentative",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "36020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "36030": {
-  "genre": "action",
-  "ou": "affaire-repli-si-entree-echoue",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗣️ Instruire chaque commandant du seuil, un par un",
-  "lieu": "Aux cantonnements",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "36020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "37020": {
   "genre": "action",
@@ -19761,26 +17336,18 @@
   "jour_du": ""
  },
  "37022": {
-  "genre": "action",
-  "ou": "affaire-blesses-morts-prisonniers",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⛴️ Faire inscrire la trousse au plan de charge",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "37021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "37023": {
   "genre": "action",
   "ou": "affaire-blesses-morts-prisonniers",
   "quoi": "👐 Désigner et payer douze femmes du bourg",
   "lieu": "Le bourg de Peyredragon",
-  "etat": "à faire",
+  "etat": "en cours",
   "genres": [
    "piece",
    "action"
@@ -19789,34 +17356,18 @@
   "jour_du": ""
  },
  "37024": {
-  "genre": "action",
-  "ou": "affaire-blesses-morts-prisonniers",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🩹 Faire montrer les trois gestes par le mestre",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "37023"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "37025": {
-  "genre": "action",
-  "ou": "affaire-blesses-morts-prisonniers",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📋 Ouvrir la liste des paillasses",
-  "lieu": "Les deux maisons de Port-Réal",
-  "etat": "bloquée",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "37320"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "37120": {
   "genre": "action",
@@ -19845,75 +17396,39 @@
   "jour_du": ""
  },
  "37122": {
-  "genre": "action",
-  "ou": "affaire-blesses-morts-prisonniers",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✍️ Tenir chaque soir deux comptes qui doivent tomber juste",
-  "lieu": "Port-Réal",
-  "etat": "bloquée",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "37320"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "37123": {
-  "genre": "action",
-  "ou": "affaire-blesses-morts-prisonniers",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⛪ Préparer la charge de porte, et les six lignes de celle qui se prése",
-  "lieu": "Peyredragon pour la charge de porte, puis les septuaires de quartier de Port-Réal",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "37120"
-  ],
-  "jour_du": "Dû J−5, avec la trousse — rien de ceci ne se transporte deux fois"
+  "lieu": "",
+  "etat": ""
  },
  "37124": {
-  "genre": "action",
-  "ou": "affaire-blesses-morts-prisonniers",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚪 Faire entrer les porteurs de morts de la ville dans la liste des exe",
-  "lieu": "Peyredragon, puis le protocole des portes",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "13220"
-  ],
-  "jour_du": "J−21 — un jour avant que 13220 se ferme"
+  "lieu": "",
+  "etat": ""
  },
  "37125": {
-  "genre": "action",
-  "ou": "affaire-blesses-morts-prisonniers",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚖️ Porter à maître Hask la liste de tout mon fret et faire peser ce qu",
-  "lieu": "Peyredragon — en main propre, et non par un tiers",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "Le 4e j. de la 4e lune"
+  "lieu": "",
+  "etat": ""
  },
  "37220": {
-  "genre": "action",
-  "ou": "affaire-blesses-morts-prisonniers",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🖼️ Écrire la phrase de reconnaissance",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "37221": {
   "genre": "action",
@@ -19931,17 +17446,11 @@
   "jour_du": ""
  },
  "37222": {
-  "genre": "action",
-  "ou": "affaire-blesses-morts-prisonniers",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔐 Écrire la règle de garde",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "37223": {
   "genre": "action",
@@ -19959,91 +17468,46 @@
   "jour_du": ""
  },
  "37224": {
-  "genre": "action",
-  "ou": "affaire-blesses-morts-prisonniers",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Remettre à 24000 la liste des vivants tenus",
-  "lieu": "Port-Réal, puis à la reine",
-  "etat": "bloquée",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "37222",
-   "37320"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "37320": {
-  "genre": "action",
-  "ou": "affaire-blesses-morts-prisonniers",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✍️ Nommer deux plumes pour ce cahier",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "bloquée",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "38020": {
-  "genre": "action",
-  "ou": "affaire-surete-personne-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔢 Porter à la reine le compte de sept, et demander six noms",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "abandonnée",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "38021": {
-  "genre": "action",
-  "ou": "affaire-surete-personne-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Écrire le tour de garde de sa porte",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "38020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "38022": {
-  "genre": "action",
-  "ou": "affaire-surete-personne-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪶 Faire ouvrir la ligne Garde de la personne de la reine",
-  "lieu": "Peyredragon, auprès du Sanglier",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "38020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "38023": {
-  "genre": "action",
-  "ou": "affaire-surete-personne-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🕵️ Ouvrir la liste de ceux qui entrent chez elle",
-  "lieu": "Peyredragon, ses appartements",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "38021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "38024": {
   "genre": "action",
@@ -20059,19 +17523,11 @@
   "jour_du": ""
  },
  "38025": {
-  "genre": "action",
-  "ou": "affaire-surete-personne-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧭 Fixer le point de repli et le mot, et ne les dire qu'à trois",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "38020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "38026": {
   "genre": "action",
@@ -20090,318 +17546,158 @@
   "jour_du": ""
  },
  "38030": {
-  "genre": "action",
-  "ou": "affaire-surete-personne-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🐉 Porter à 27000 la question de la bête dans la ville",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "38031": {
-  "genre": "action",
-  "ou": "affaire-surete-personne-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗝️ Écrire ce qu'on ne lui dit pas devant témoins, et par quelle bouche",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "38032": {
-  "genre": "action",
-  "ou": "affaire-surete-personne-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧍 Nommer le capitaine de sa garde — sans quoi ce cahier sera mal fait",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "38020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "38033": {
-  "genre": "action",
-  "ou": "affaire-surete-personne-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✂️ Faire rayer du rôle d'embarquement les noms portés aux tours de gar",
-  "lieu": "Peyredragon, auprès du Sanglier, au registre des offices",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "38034": {
-  "genre": "action",
-  "ou": "affaire-surete-personne-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📅 Lui demander son jour tout haut, une fois, devant témoin",
-  "lieu": "Peyredragon, Table Peinte, en séance, devant témoin",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "38035": {
-  "genre": "action",
-  "ou": "affaire-surete-personne-reine",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✍️ Ouvrir la troisième écriture au registre des entrées, et la relire ",
-  "lieu": "Peyredragon, porte de la reine",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "38023"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39020": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📝 Écrire les seize au net, quadruplet complet",
-  "lieu": "Roukerie",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39021": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👤 Faire nommer un homme pour les six hypothèses sans observateur",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "39020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39022": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📐 H1 : porter le seuil à dix-huit jours",
-  "lieu": "Table Peinte",
-  "etat": "**en cours**",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "39021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39023": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👁️ H2 : ajouter l'indicateur avancé du guet doublé",
-  "lieu": "Port-Réal",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "39021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39024": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🌾 H3 : remplacer le pain par l'orge, et nommer trois yeux",
-  "lieu": "Marchés de Port-Réal",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "39021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39025": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "💰 H5 : fixer le jour de lecture et porter le seuil à soixante jours",
-  "lieu": "Livre du maître des deniers",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "39021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39026": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧂 H8 : porter le seuil de seize à vingt-huit jours",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "39021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39027": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👑 H9 : faire écrire à la reine son propre seuil",
-  "lieu": "Chambre de la reine",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "39021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39028": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🛡️ H10 : arracher un seuil de repli chiffré",
-  "lieu": "Table Peinte",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "39021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39029": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔥 H11 : écrire ce que « une maison brûlée » veut dire",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "39021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39030": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🕊️ H12 : compter les cages par destination",
-  "lieu": "Roukerie",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39031": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚪 H13 : compter les entrants inconnus de la porte de mer",
-  "lieu": "Porte de mer",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39032": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔒 H14 : écrire la clause de dédit et la relire chaque lune",
-  "lieu": "Roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "24044"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39033": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧱 H15 : dater le dernier levé de murs",
-  "lieu": "Archive",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39034": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🕳️ H16 : compter les affaires sans exécutant",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11031"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39035": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤐 Écrire la règle du silence",
-  "lieu": "Roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "39021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39120": {
   "genre": "action",
@@ -20419,149 +17715,74 @@
   "jour_du": ""
  },
  "39220": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📢 Lire les seize tout haut au conseil du premier de la lune",
-  "lieu": "Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "39020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "39221": {
-  "genre": "action",
-  "ou": "affaire-veille-des-hypotheses",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📕 Tenir le registre des franchissements",
-  "lieu": "Roukerie",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "40020": {
-  "genre": "action",
-  "ou": "affaire-commandement-chaine-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪶 Demander l'ouverture de quatre lignes au registre des offices",
-  "lieu": "Peyredragon, auprès du Sanglier et de la reine",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "40021": {
-  "genre": "action",
-  "ou": "affaire-commandement-chaine-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🪖 Faire nommer le commandant de l'ost et lui faire dicter ses limites",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "40020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "40022": {
-  "genre": "action",
-  "ou": "affaire-commandement-chaine-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⛵ Faire trancher ce qui se commande en mer et ce qui se commande au qu",
-  "lieu": "Auprès de lord Corlys et de maître Rulf Corne",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "40020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "40023": {
-  "genre": "action",
-  "ou": "affaire-commandement-chaine-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Faire signer l'engagement des dragons, au sol",
-  "lieu": "Auprès du prince Jacaerys (→ 27000)",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "40024": {
-  "genre": "action",
-  "ou": "affaire-commandement-chaine-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗺️ Écrire la règle du pied en une phrase",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "40021",
-   "40022"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "40025": {
-  "genre": "action",
-  "ou": "affaire-commandement-chaine-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤝 Écrire la table des rencontres",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "close",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "40024"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "40026": {
-  "genre": "action",
-  "ou": "affaire-commandement-chaine-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚪 Trancher la préséance à la porte, et l'écrire aux deux endroits",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "40025"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "40027": {
-  "genre": "action",
-  "ou": "affaire-commandement-chaine-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔐 Rédiger le mot scellé et le faire sceller par la reine",
-  "lieu": "Peyredragon, avec mestre Gerardys",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "40021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "40028": {
   "genre": "action",
@@ -20577,21 +17798,11 @@
   "jour_du": ""
  },
  "40029": {
-  "genre": "action",
-  "ou": "affaire-commandement-chaine-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔗 Écrire la chaîne complète sur un seul feuillet",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "40021",
-   "40022",
-   "40025"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "40030": {
   "genre": "action",
@@ -20625,47 +17836,25 @@
   "jour_du": ""
  },
  "40032": {
-  "genre": "action",
-  "ou": "affaire-commandement-chaine-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✉️ Convenir des trois signaux qui ne passent jamais par écrit",
-  "lieu": "Peyredragon, avec le mestre et la porte de mer",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "40027"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "40033": {
-  "genre": "action",
-  "ou": "affaire-commandement-chaine-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✍️ Faire signer la couture des deux mains, sur un seul feuillet, dans ",
-  "lieu": "Peyredragon, Table Peinte, puis le registre des offices",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "J−8"
+  "lieu": "",
+  "etat": ""
  },
  "40034": {
-  "genre": "action",
-  "ou": "affaire-commandement-chaine-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🌊 Faire voyager celui qui est sur l'eau tranche dans les seize copies ",
-  "lieu": "Peyredragon, chancellerie et registre des offices ; puis les seize coffres, aux stations du Gosier et à Lamarck",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "22070"
-  ],
-  "jour_du": "J−8"
+  "lieu": "",
+  "etat": ""
  },
  "41020": {
   "genre": "action",
@@ -20696,19 +17885,14 @@
   "jour_du": "**5e de la 4e lune**"
  },
  "41022": {
-  "genre": "action",
-  "ou": "affaire-transmission-des-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Écrire le rôle des passages",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "41020"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "41023": {
   "genre": "action",
@@ -20726,32 +17910,24 @@
   "jour_du": ""
  },
  "41024": {
-  "genre": "action",
-  "ou": "affaire-transmission-des-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔏 Convenir du contre-signal, et l'éprouver une fois",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "41022"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "41025": {
-  "genre": "action",
-  "ou": "affaire-transmission-des-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📊 Dresser la table des délais",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "**4e de la 4e lune**"
+   "piece"
+  ]
  },
  "41026": {
   "genre": "action",
@@ -20784,19 +17960,14 @@
   "jour_du": "**4e de la 4e lune**"
  },
  "41028": {
-  "genre": "action",
-  "ou": "affaire-transmission-des-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚶 Écrire la règle du porteur perdu",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "41024"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "41029": {
   "genre": "action",
@@ -20825,34 +17996,24 @@
   "jour_du": "**7e de la 4e lune**"
  },
  "41031": {
-  "genre": "action",
-  "ou": "affaire-transmission-des-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔥 Convenir des trois feux et les faire répéter",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "41030"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "41032": {
-  "genre": "action",
-  "ou": "affaire-transmission-des-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔀 Porter le mot de report par deux canaux à chaque fenêtre",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "41022"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "41033": {
   "genre": "action",
@@ -20868,32 +18029,24 @@
   "jour_du": ""
  },
  "41034": {
-  "genre": "action",
-  "ou": "affaire-transmission-des-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✒️ Rendre le débit de la roukerie en copies propres",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "41035": {
-  "genre": "action",
-  "ou": "affaire-transmission-des-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Donner le rôle des passages à Wend",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "41022"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "41036": {
   "genre": "action",
@@ -20924,17 +18077,14 @@
   "jour_du": ""
  },
  "41121": {
-  "genre": "action",
-  "ou": "affaire-transmission-des-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📅 Dater toute nouvelle du jour où elle a été VUE",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "41122": {
   "genre": "action",
@@ -20952,19 +18102,14 @@
   "jour_du": ""
  },
  "41220": {
-  "genre": "action",
-  "ou": "affaire-transmission-des-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🕳️ Écrire ce qui se passe si rien ne passe le jour J",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "41024"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "41221": {
   "genre": "action",
@@ -20999,19 +18144,14 @@
   "jour_du": ""
  },
  "41223": {
-  "genre": "action",
-  "ou": "affaire-transmission-des-ordres",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔤 Coudre les quatre mots de report sur un vers qui se chante déjà",
   "lieu": "",
   "etat": "",
   "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "11031"
-  ],
-  "jour_du": ""
+   "piece"
+  ]
  },
  "41224": {
   "genre": "action",
@@ -21053,19 +18193,11 @@
   "jour_du": ""
  },
  "42022": {
-  "genre": "action",
-  "ou": "affaire-tenue-de-la-capitale",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Écrire l'ordre d'ouverture des marchés de J+1",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "42020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "42023": {
   "genre": "action",
@@ -21085,17 +18217,11 @@
   "jour_du": ""
  },
  "42120": {
-  "genre": "action",
-  "ou": "affaire-tenue-de-la-capitale",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🍖 Faire ajouter trois jours de pain par millier au plan de charge",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "42121": {
   "genre": "action",
@@ -21113,106 +18239,53 @@
   "jour_du": ""
  },
  "42122": {
-  "genre": "action",
-  "ou": "affaire-tenue-de-la-capitale",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📖 Ouvrir trois registres de plaintes aux trois portes",
-  "lieu": "Trois portes de Port-Réal",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "42123": {
-  "genre": "action",
-  "ou": "affaire-tenue-de-la-capitale",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👁️ Relire les trois registres au troisième soir",
-  "lieu": "Port-Réal",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "42122"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "42220": {
-  "genre": "action",
-  "ou": "affaire-tenue-de-la-capitale",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚖️ Écrire le tarif — six lignes",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "42221": {
-  "genre": "action",
-  "ou": "affaire-tenue-de-la-capitale",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📣 Lire le tarif tout haut aux trois vagues",
-  "lieu": "Le quai de Peyredragon, puis les portes de Port-Réal",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "42220"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "42222": {
-  "genre": "action",
-  "ou": "affaire-tenue-de-la-capitale",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧑‍⚖️ Nommer quatre juges de quartier",
-  "lieu": "Port-Réal",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "42020"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "42223": {
-  "genre": "action",
-  "ou": "affaire-tenue-de-la-capitale",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚖️ Rendre le premier jugement dans les deux jours",
-  "lieu": "Port-Réal",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "42221",
-   "42222"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "42320": {
-  "genre": "action",
-  "ou": "affaire-tenue-de-la-capitale",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🤝 Écrire l'offre aux gens d'Otto des greniers",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "42021"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "42321": {
   "genre": "action",
@@ -21230,32 +18303,18 @@
   "jour_du": ""
  },
  "42322": {
-  "genre": "action",
-  "ou": "affaire-tenue-de-la-capitale",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📊 Compter les muids des greniers au 1er et au 31e",
-  "lieu": "Les greniers de Port-Réal",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "42321"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "42420": {
-  "genre": "action",
-  "ou": "affaire-tenue-de-la-capitale",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📋 Fixer et écrire le tarif de la journée d'un manteau d'or",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "42421": {
   "genre": "action",
@@ -21273,32 +18332,18 @@
   "jour_du": ""
  },
  "42422": {
-  "genre": "action",
-  "ou": "affaire-tenue-de-la-capitale",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Faire le rôle du Guet par postes et par heures",
-  "lieu": "Port-Réal",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "42421"
-  ],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "42423": {
-  "genre": "action",
-  "ou": "affaire-tenue-de-la-capitale",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🕳️ Nommer l'exécutant de ce cahier",
-  "lieu": "Peyredragon, Table Peinte",
-  "etat": "bloquée",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "42424": {
   "genre": "action",
@@ -21316,17 +18361,11 @@
   "jour_du": ""
  },
  "43030": {
-  "genre": "action",
-  "ou": "affaire-voir-venir",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📖 Ouvrir ce volume et lui donner sa mesure",
   "lieu": "",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "etat": ""
  },
  "43031": {
   "genre": "action",
@@ -21355,82 +18394,46 @@
   "jour_du": ""
  },
  "43033": {
-  "genre": "action",
-  "ou": "affaire-voir-venir",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⏱️ Écrire la clause du quart d'heure",
   "lieu": "",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "etat": ""
  },
  "43034": {
-  "genre": "action",
-  "ou": "affaire-voir-venir",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🔔 L'essai à blanc, sans prévenir le rocher",
   "lieu": "",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "etat": ""
  },
  "43035": {
-  "genre": "action",
-  "ou": "affaire-voir-venir",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⛓️ Écrire la chaîne, maillon par maillon, avec les remplaçants",
   "lieu": "",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "etat": ""
  },
  "43036": {
-  "genre": "action",
-  "ou": "affaire-voir-venir",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📦 Donner un seuil et une horloge aux quatre remontées du port",
   "lieu": "",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "etat": ""
  },
  "43037": {
-  "genre": "action",
-  "ou": "affaire-voir-venir",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📐 Faire dire les milles par heure de vol",
   "lieu": "",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "etat": ""
  },
  "43038": {
-  "genre": "action",
-  "ou": "affaire-voir-venir",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🐉 Porter les gabarits et les règles de vol au 27000",
   "lieu": "",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "avant le 4e de la 4e lune"
+  "etat": ""
  },
  "43039": {
   "genre": "action",
@@ -21446,30 +18449,18 @@
   "jour_du": "avant le 4e de la 4e lune"
  },
  "43040": {
-  "genre": "action",
-  "ou": "affaire-voir-venir",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👑 Écrire le seuil de vol de la reine",
   "lieu": "",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "etat": ""
  },
  "43041": {
-  "genre": "action",
-  "ou": "affaire-voir-venir",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗺️ Mettre la table à l'heure, et l'y tenir",
   "lieu": "",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "etat": ""
  },
  "44020": {
   "genre": "piece",
@@ -21541,138 +18532,74 @@
   "jour_du": "3e jour de la 4e lune"
  },
  "46021": {
-  "genre": "action",
-  "ou": "affaire-porte-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗣️ Faire nommer l'homme du seuil pour l'heure du compte, et son rempla",
-  "lieu": "Poste de la porte de mer, puis la muraille",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "46020"
-  ],
-  "jour_du": "5e jour de la 4e lune"
+  "lieu": "",
+  "etat": ""
  },
  "46022": {
-  "genre": "action",
-  "ou": "affaire-porte-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧾 Trancher le compte des non-armés : une seconde main, ou le nombre sa",
-  "lieu": "Sous la voûte, et à mon seuil",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "6e jour de la 4e lune"
+  "lieu": "",
+  "etat": ""
  },
  "46120": {
-  "genre": "action",
-  "ou": "affaire-porte-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🖋️ Écrire la borne de la porte de mer en une page, de ma main",
-  "lieu": "Le poste de la porte de mer, puis la muraille",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "4e jour de la 4e lune"
+  "lieu": "",
+  "etat": ""
  },
  "46121": {
-  "genre": "action",
-  "ou": "affaire-porte-de-mer",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 Tirer de mes propres refus la liste courte de ce qui fait refuser",
-  "lieu": "Le poste de la porte de mer",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "46120"
-  ],
-  "jour_du": "5e jour de la 4e lune"
+  "lieu": "",
+  "etat": ""
  },
  "47020": {
-  "genre": "action",
-  "ou": "affaire-ce-qui-tient-un-homme-dici",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "👂 Poser les trois questions à la relève",
-  "lieu": "Porte du Dragon, sous la voûte",
-  "etat": "en cours",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "le 5e"
+  "lieu": "",
+  "etat": ""
  },
  "47021": {
-  "genre": "action",
-  "ou": "affaire-ce-qui-tient-un-homme-dici",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📋 Ouvrir le rôle de ce que chacun tient",
-  "lieu": "Porte du Dragon, sous la voûte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "le 4e à sept heures"
+  "lieu": "",
+  "etat": ""
  },
  "47120": {
-  "genre": "action",
-  "ou": "affaire-ce-qui-tient-un-homme-dici",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🧮 Dire l'écart de la paie tout haut",
-  "lieu": "Porte du Dragon, sous la voûte",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "le 4e"
+  "lieu": "",
+  "etat": ""
  },
  "47220": {
-  "genre": "action",
-  "ou": "affaire-ce-qui-tient-un-homme-dici",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "✋ Écrire les deux premières demandes à leur date d'origine",
-  "lieu": "Au registre des demandes",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "le 3e"
+  "lieu": "",
+  "etat": ""
  },
  "48020": {
-  "genre": "action",
-  "ou": "affaire-police-des-mers",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🕯️ Faire sceller les seize copies de la commission, et les porter par ",
-  "lieu": "Le môle de Peyredragon pour la cire et la remise en main ; les seize stations du croissant du Gosier pour les talons. **Corrigé le 3e de la 4e lune au soir : cette case portait une DATE — « 4e jour de la 4e lune » — et non un lieu. Faute de ma main, trouvée en relisant mes propres colonnes, qu'aucun compte n'aurait signalée puisque la case était pleine.**",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "48021": {
-  "genre": "action",
-  "ou": "affaire-police-des-mers",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📜 La seconde feuille — porter d'un seul passage le tarif tranché, les ",
-  "lieu": "Le môle de Peyredragon pour la remise en main, puis les seize stations du croissant du Gosier",
-  "etat": "bloquée",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": ""
+  "lieu": "",
+  "etat": ""
  },
  "52310": {
   "genre": "piece",
@@ -21997,61 +18924,32 @@
   "etat": ""
  },
  "66020": {
-  "genre": "action",
-  "ou": "affaire-role-des-bouches",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "📖 Ouvrir le rôle des bouches — à numéros, sans un seul nom",
-  "lieu": "Le bourg sous les murs, puis la petite salle du levant",
-  "etat": "faite",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "2e de la 4e lune"
+  "lieu": "",
+  "etat": ""
  },
  "66021": {
-  "genre": "action",
-  "ou": "affaire-role-des-bouches",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "⚠️ Dire de vive voix au maître des rôles que brûler les trois lieux ét",
-  "lieu": "Peyredragon — partout où je le trouverai avant le conseil du soir",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "66020"
-  ],
-  "jour_du": "2e de la 4e lune, au soir"
+  "lieu": "",
+  "etat": ""
  },
  "66022": {
-  "genre": "action",
-  "ou": "affaire-role-des-bouches",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🗜️ Rendre à ⚡ 41222 ses propres bouches, et cesser de lui prêter les m",
-  "lieu": "Le bourg, puis Sombreval par la seconde main quand elle existera",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "66020",
-   "66101"
-  ],
-  "jour_du": "avant J−26"
+  "lieu": "",
+  "etat": ""
  },
  "66023": {
-  "genre": "action",
-  "ou": "affaire-role-des-bouches",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🌊 Fixer le vers ordinaire de La marée avant de la donner aux cuisines",
-  "lieu": "Peyredragon — le bourg, puis les cuisines",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [],
-  "jour_du": "**ce soir, avant les cuisines** — 2e de la 4e lune"
+  "lieu": "",
+  "etat": ""
  },
  "66120": {
   "genre": "action",
@@ -22069,19 +18967,11 @@
   "jour_du": "avant la fin de la 4e lune"
  },
  "66121": {
-  "genre": "action",
-  "ou": "affaire-role-des-bouches",
+  "genre": "piece",
+  "ou": "plan-actions",
   "quoi": "🚪 Poser les sept lignes de la Table Peinte — ou bien j'y entre, ou bie",
-  "lieu": "Peyredragon",
-  "etat": "à faire",
-  "genres": [
-   "piece",
-   "action"
-  ],
-  "depend_de": [
-   "66020"
-  ],
-  "jour_du": "avant J−25"
+  "lieu": "",
+  "etat": ""
  },
  "67020": {
   "genre": "action",
@@ -22729,6 +19619,154 @@
   "genres": [
    "moyen"
   ]
+ },
+ "49000": {
+  "genre": "etat_cible",
+  "ou": "affaire-la-reine-sur-le-trone",
+  "quoi": "👑 La reine est assise sur le Trône de Fer",
+  "lieu": "La salle du trône, Donjon Rouge",
+  "importance": 100,
+  "etat": ""
+ },
+ "49001": {
+  "genre": "verrou",
+  "ou": "affaire-la-reine-sur-le-trone",
+  "quoi": "🏰 Le Donjon Rouge est aux Verts — posé par eux, c'est leur état 70000",
+  "lieu": "",
+  "etat": ""
+ },
+ "49011": {
+  "genre": "verrou",
+  "ou": "affaire-la-reine-sur-le-trone",
+  "quoi": "Vhagar attend Syrax au-dessus de la rade - pose par eux, c'est leur cl",
+  "lieu": "",
+  "etat": "",
+  "genres": [
+   "verrou",
+   "clef"
+  ]
+ },
+ "49010": {
+  "genre": "clef",
+  "ou": "affaire-la-reine-sur-le-trone",
+  "quoi": "🛬 Entrer par le ciel, seule",
+  "lieu": "",
+  "etat": ""
+ },
+ "49020": {
+  "genre": "action",
+  "ou": "affaire-la-reine-sur-le-trone",
+  "quoi": "🐉 Maillon 1 — Rhaenyra monte Syrax",
+  "lieu": "Fosses de Peyredragon",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "—"
+ },
+ "49021": {
+  "genre": "action",
+  "ou": "affaire-la-reine-sur-le-trone",
+  "quoi": "🌊 Maillon 2 — Rhaenyra vole jusqu'à Port-Réal",
+  "lieu": "De Peyredragon au ciel de Port-Réal",
+  "etat": "à faire",
+  "depend_de": [
+   "49020"
+  ],
+  "jour_du": "—"
+ },
+ "49022": {
+  "genre": "action",
+  "ou": "affaire-la-reine-sur-le-trone",
+  "quoi": "🏰 Maillon 3 — Rhaenyra se pose",
+  "lieu": "Cour extérieure, Donjon Rouge",
+  "etat": "à faire",
+  "depend_de": [
+   "49021"
+  ],
+  "jour_du": "—"
+ },
+ "49023": {
+  "genre": "action",
+  "ou": "affaire-la-reine-sur-le-trone",
+  "quoi": "🚶 Maillon 4 — Rhaenyra traverse",
+  "lieu": "De la cour à la salle du trône",
+  "etat": "à faire",
+  "depend_de": [
+   "49022"
+  ],
+  "jour_du": "—"
+ },
+ "49024": {
+  "genre": "action",
+  "ou": "affaire-la-reine-sur-le-trone",
+  "quoi": "👑 Maillon 5 — Rhaenyra s'assied",
+  "lieu": "La salle du trône",
+  "etat": "à faire",
+  "depend_de": [
+   "49023"
+  ],
+  "jour_du": "—"
+ },
+ "70000": {
+  "genre": "etat_cible",
+  "ou": "affaire-tenir-le-trone",
+  "quoi": "🛡️ Le Trône de Fer est contrôlé par nous",
+  "lieu": "La salle du trône, Donjon Rouge",
+  "importance": 100,
+  "etat": ""
+ },
+ "70001": {
+  "genre": "verrou",
+  "ou": "affaire-tenir-le-trone",
+  "quoi": "🐉 La reine peut venir par le ciel et s'asseoir — posé par les Noirs, c",
+  "lieu": "",
+  "etat": ""
+ },
+ "70010": {
+  "genre": "clef",
+  "ou": "affaire-tenir-le-trone",
+  "quoi": "🐲 Syrax ne passe pas — Vhagar l'attend au-dessus de la rade",
+  "lieu": "",
+  "etat": ""
+ },
+ "70020": {
+  "genre": "action",
+  "ou": "affaire-tenir-le-trone",
+  "quoi": "👁️ Maillon 1 — le guet des toits voit une bête venir de la mer",
+  "lieu": "Toits et tours du Donjon Rouge",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "—"
+ },
+ "70021": {
+  "genre": "action",
+  "ou": "affaire-tenir-le-trone",
+  "quoi": "🐲 Maillon 2 — Aemond monte Vhagar",
+  "lieu": "Le Fossedragon — *à mesurer : où couche Vhagar*",
+  "etat": "à faire",
+  "depend_de": [
+   "70020"
+  ],
+  "jour_du": "—"
+ },
+ "70022": {
+  "genre": "action",
+  "ou": "affaire-tenir-le-trone",
+  "quoi": "🔥 Maillon 3 — Vhagar attend Syrax au-dessus de la rade",
+  "lieu": "Le ciel de la rade",
+  "etat": "à faire",
+  "depend_de": [
+   "70021"
+  ],
+  "jour_du": "—"
+ },
+ "70023": {
+  "genre": "action",
+  "ou": "affaire-tenir-le-trone",
+  "quoi": "🌙 Maillon 0 — faire coucher Vhagar au Fossedragon chaque nuit",
+  "lieu": "Le Fossedragon",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "—"
  },
  "plan-moyens-serenissima:M101": {
   "genre": "moyen",
@@ -28565,64 +25603,6 @@
   ],
   "depend_de": []
  },
- "pers:aurore-inchauspe": {
-  "genre": "personne",
-  "ou": "personnages",
-  "quoi": "Aurore Inchauspé",
-  "genres": [
-   "personne"
-  ],
-  "etat": "actif",
-  "condition": "libre",
-  "lieu_id": "peyredragon",
-  "objectifs": []
- },
- "etape:voix-croisement-des-deux-livres": {
-  "genre": "etape",
-  "ou": "aurore-inchauspe",
-  "quoi": "Croiser les cent quatre-vingt-onze noms de Hallis Roon avec les douze ",
-  "etat": "en-cours",
-  "jours_restants": 1,
-  "cout": [
-   "la main de Roon, qui n'a pas dormi de quatre nuits",
-   "l'accord de Rulf sur son livre, deja donne",
-   "six feuilles et de l'huile, deja accordees sur sa ligne"
-  ],
-  "depend_de": []
- },
- "etape:voix-le-compte-des-morts-dit-ou-tu": {
-  "genre": "etape",
-  "ou": "aurore-inchauspe",
-  "quoi": "Porter a la reine, en face et une seule fois, que le compte des morts ",
-  "etat": "en-cours",
-  "jours_restants": 1,
-  "cout": [
-   "un quart d'heure de la reine, seule"
-  ],
-  "depend_de": []
- },
- "etape:voix-la-route-du-sel-a-blanc": {
-  "genre": "etape",
-  "ou": "aurore-inchauspe",
-  "quoi": "Recevoir de Nesse la route du sel refaite a blanc par les Trois-Anses,",
-  "etat": "en-cours",
-  "jours_restants": 0,
-  "cout": [
-   "une journee de jambes des coureurs, sur les onze qui restent"
-  ],
-  "depend_de": []
- },
- "etape:voix-torgo-au-mole": {
-  "genre": "etape",
-  "ou": "aurore-inchauspe",
-  "quoi": "Descendre au mole voir Torgo, en retard de la matinee : ce qu'il a vu ",
-  "etat": "en-cours",
-  "jours_restants": 0,
-  "cout": [
-   "une heure, et la marche du mole"
-  ],
-  "depend_de": []
- },
  "pers:marlo-vasse": {
   "genre": "personne",
   "ou": "personnages",
@@ -28656,75 +25636,6 @@
   "cout": [
    "deux journees",
    "de l'or entier qu'il faut pouvoir suivre"
-  ],
-  "depend_de": []
- },
- "pers:rhaenyra": {
-  "genre": "personne",
-  "ou": "personnages",
-  "quoi": "Rhaenyra Targaryen",
-  "genres": [
-   "personne"
-  ],
-  "etat": "actif",
-  "condition": "blesse",
-  "lieu_id": "peyredragon",
-  "objectifs": [
-   {
-    "but": "Prendre le trône que son père lui a juré devant tout le royaume",
-    "priorite": 1
-   },
-   {
-    "but": "Protéger ses fils — surtout des langues qui les disent bâtards",
-    "priorite": 2
-   },
-   {
-    "but": "Faire payer Otto, Alicent et tous les parjures du conseil vert",
-    "priorite": 3
-   }
-  ]
- },
- "etape:rhaenyra-le-nom-du-guet": {
-  "genre": "etape",
-  "ou": "rhaenyra",
-  "quoi": "Obtenir du prince Daemon le nom de l'officier du Guet, sans monter le ",
-  "etat": "en-cours",
-  "jours_restants": 0,
-  "cout": [
-   "rien qu'un page déjà parti, et l'attente devant la maison"
-  ],
-  "depend_de": []
- },
- "etape:rhaenyra-la-case-en-son-absence": {
-  "genre": "etape",
-  "ou": "rhaenyra",
-  "quoi": "Faire porter au registre des offices le nom du suppléant de la roue — ",
-  "etat": "en-cours",
-  "jours_restants": 1,
-  "cout": [
-   "un quart d'heure du mestre, et un nom qu'il n'a pas encore"
-  ],
-  "depend_de": []
- },
- "etape:rhaenyra-une-seconde-bouche-sur-sombreval": {
-  "genre": "etape",
-  "ou": "rhaenyra",
-  "quoi": "Ne rien décider sur Sombreval avant qu'une seconde bouche, qui n'a pas",
-  "etat": "en-cours",
-  "jours_restants": 2,
-  "cout": [
-   "deux jours d'attente, et le risque que la nouvelle soit vieille quand elle arrivera"
-  ],
-  "depend_de": []
- },
- "etape:rhaenyra-la-chaine-la-plus-longue": {
-  "genre": "etape",
-  "ou": "rhaenyra",
-  "quoi": "Tenir le jour d'entrée : refuser toute affaire neuve qui allongerait l",
-  "etat": "en-cours",
-  "jours_restants": 3,
-  "cout": [
-   "dire non à des gens compétents qui ont raison sur leur propre affaire"
   ],
   "depend_de": []
  },
@@ -28907,6 +25818,11 @@
   "genre": "mesure",
   "ou": "vivres-de-lost-de-villevieille",
   "quoi": "Ce que l'ost rassemble a MANGE sous les murs sans marcher, depuis le p"
+ },
+ "vivres-de-lost-de-villevieille.bannerets-jures": {
+  "genre": "mesure",
+  "ou": "vivres-de-lost-de-villevieille",
+  "quoi": "Bannerets du Bief ayant jure devant temoin, hors de moi-meme"
  },
  "main:ce-que-villevieille-oppose-au-feu": {
   "genre": "compte",
@@ -30126,6 +27042,28 @@
   "ou": "plis",
   "quoi": "A lord Borros Baratheon, sire d'Accalmie.\n\nJe vous ai ecrit une fois, "
  },
+ "pers:rhaenyra": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Rhaenyra Targaryen",
+  "etat": "actif",
+  "condition": "blesse",
+  "lieu_id": "peyredragon",
+  "objectifs": [
+   {
+    "but": "Prendre le trône que son père lui a juré devant tout le royaume",
+    "priorite": 1
+   },
+   {
+    "but": "Protéger ses fils — surtout des langues qui les disent bâtards",
+    "priorite": 2
+   },
+   {
+    "but": "Faire payer Otto, Alicent et tous les parjures du conseil vert",
+    "priorite": 3
+   }
+  ]
+ },
  "pers:gunthor-darklyn": {
   "genre": "personne",
   "ou": "personnages",
@@ -30319,6 +27257,15 @@
     "priorite": 2
    }
   ]
+ },
+ "pers:aurore-inchauspe": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Aurore Inchauspé",
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "peyredragon",
+  "objectifs": []
  },
  "pers:nesse": {
   "genre": "personne",
@@ -32630,7 +29577,7 @@
   "genre": "action",
   "ou": "plan:hightower",
   "quoi": "Faire écrire par Orwyle le récit officiel du massacre de la route roya",
-  "etat": "bloquée",
+  "etat": "faite",
   "depend_de": [],
   "jour_du": {
    "annee": 129,
@@ -40200,7 +37147,7 @@
   "personnage_id": "corlys",
   "livre_id": "affaire-corlys",
   "code_local": "P.1",
-  "etat": "à faire",
+  "etat": "faite",
   "jour_du": "",
   "depend_de": []
  },
@@ -41520,6 +38467,34 @@
   "personnage_id": "daeron",
   "livre_id": "affaire-daeron",
   "code_local": "D.16",
+  "etat": "faite",
+  "jour_du": "",
+  "depend_de": []
+ },
+ "perso:daeron:affaire-daeron:action:D.17": {
+  "genre": "action_personnelle",
+  "ou": "chambre:daeron:affaire-daeron",
+  "quoi": "Corriger la lune que j'ai faussee a la Main du Roi",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "daeron",
+  "livre_id": "affaire-daeron",
+  "code_local": "D.17",
+  "etat": "faite",
+  "jour_du": "avant la course du heraut, le 13e au matin",
+  "depend_de": []
+ },
+ "perso:daeron:affaire-daeron:action:D.18": {
+  "genre": "action_personnelle",
+  "ou": "chambre:daeron:affaire-daeron",
+  "quoi": "Retirer a Ollo Marran une porte que je lui avais montree a tort",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "daeron",
+  "livre_id": "affaire-daeron",
+  "code_local": "D.18",
   "etat": "faite",
   "jour_du": "",
   "depend_de": []
@@ -53842,7 +50817,7 @@
   "personnage_id": "ollo-marran",
   "livre_id": "affaire-ollo-marran",
   "code_local": "A.2",
-  "etat": "à faire",
+  "etat": "en cours",
   "jour_du": "avant la prochaine cloture hebdomadaire",
   "depend_de": []
  },
@@ -54470,6 +51445,20 @@
   "livre_id": "affaire-ormund-hightower",
   "code_local": "A.13",
   "etat": "à faire",
+  "jour_du": "129.5.19",
+  "depend_de": []
+ },
+ "perso:ormund-hightower:affaire-ormund-hightower:action:A.14": {
+  "genre": "action_personnelle",
+  "ou": "chambre:ormund-hightower:affaire-ormund-hightower",
+  "quoi": "Convoquer les quatre bannerets des relais, et compter les serments et ",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "ormund-hightower",
+  "livre_id": "affaire-ormund-hightower",
+  "code_local": "A.14",
+  "etat": "en cours",
   "jour_du": "129.5.19",
   "depend_de": []
  },
@@ -55634,7 +52623,7 @@
   "personnage_id": "otto",
   "livre_id": "affaire-otto",
   "code_local": "O.13",
-  "etat": "à faire",
+  "etat": "faite",
   "jour_du": "129.5.13",
   "depend_de": []
  },
@@ -55662,7 +52651,7 @@
   "personnage_id": "otto",
   "livre_id": "affaire-otto",
   "code_local": "O.15",
-  "etat": "à faire",
+  "etat": "faite",
   "jour_du": "129.5.13",
   "depend_de": []
  },
@@ -55704,7 +52693,7 @@
   "personnage_id": "otto",
   "livre_id": "affaire-otto",
   "code_local": "O.18",
-  "etat": "à faire",
+  "etat": "en cours",
   "jour_du": "129.5.13",
   "depend_de": []
  },
@@ -61276,7 +58265,7 @@
   "personnage_id": "steffon-darklyn",
   "livre_id": "affaire-steffon-darklyn",
   "code_local": "P.1",
-  "etat": "à faire",
+  "etat": "faite",
   "jour_du": "",
   "depend_de": []
  },
@@ -62618,7 +59607,7 @@
   "personnage_id": "wend",
   "livre_id": "affaire-wend",
   "code_local": "A.1",
-  "etat": "bloquée",
+  "etat": "en cours",
   "jour_du": "129.4.4 avant la relève du soir",
   "depend_de": []
  },

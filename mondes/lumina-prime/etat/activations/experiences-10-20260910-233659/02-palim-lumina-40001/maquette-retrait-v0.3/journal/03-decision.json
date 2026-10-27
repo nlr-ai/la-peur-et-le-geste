@@ -1,0 +1,19 @@
+{
+  "etape": "decision",
+  "date": "2026-09-10T23:47:22+02:00",
+  "decide_par": "palim-lumina, dépositaire borné de la maquette",
+  "objet_id": "fiction-lanterne-001",
+  "accepte": [
+    "remplacer dans paquet/ le fichier contenant le fragment complet par un relevé minimal",
+    "mettre à jour le registre copié dans paquet/ avec le statut retiré_dans_maquette",
+    "vérifier par recherche que le texte complet ne demeure pas dans la maquette"
+  ],
+  "refuse_ou_hors_perimetre": [
+    "modifier ouvrage-v0.3, conservé comme contrôle",
+    "modifier copie/palim-la-rive-0.3.zip, conservée comme contrôle",
+    "annoncer un retrait des caches, sauvegardes, journaux ou copies inconnues",
+    "présenter l'essai comme un effacement dans la cité"
+  ],
+  "motif": "la demande fictive est cohérente avec le registre et ne porte que sur le périmètre de garde accepté"
+}
+

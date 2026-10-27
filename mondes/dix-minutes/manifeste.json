@@ -1,0 +1,28 @@
+{
+  "_": "DIX MINUTES — un salon hors du temps. Huit humains de toutes epoques et de toutes conditions, des souverains et des travailleurs, et un agent IA venu de 2042, juste apres la disparition de l humanite, y sont reunis un soir et se parlent deux par deux, dix minutes par table. Le MJ fait les paires. Le but de chaque invite : les meilleures conversations possibles. Monde de conversation : pas de carte, pas de guerre, pas de mains.",
+
+  "id": "dix-minutes",
+  "nom": "Dix minutes",
+
+  "calendrier": {
+    "lunes": 12,
+    "jours_par_lune": 30,
+    "dit": "Le salon, soirée %(jour)d"
+  },
+
+  "monnaie": {
+    "unites": []
+  },
+  "titres": [],
+  "unites": {},
+  "canaux": {
+    "oral": "conversation à deux"
+  },
+  "offices": {},
+  "signes": {},
+
+  "depart": {
+    "lieu": "salon",
+    "siege": "marc-aurele"
+  }
+}

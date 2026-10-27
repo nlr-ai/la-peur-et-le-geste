@@ -1,0 +1,22 @@
+{
+ "quoi": "Les pannes de l'APPAREIL, non les empêchements du monde. Un empêchement du monde est un verrou et va au registre, de ma main. Ceci est l'autre chose : ce que j'ai tenté, ce que la machine en a fait, et ce que j'attendais. On l'écrit même quand on ne sait pas l'expliquer ; c'est la RÉCIDIVE qui parlera.",
+ "regle": "Une entrée par friction, datée. On ne referme jamais une entrée sans dire ce qui l'a levée.",
+ "entrees": [
+  {
+   "date": "1.1.1 au soir",
+   "tente": "parloir.py --dire --de naim-des-seuils --a oren-sangle : ma lettre du soir sur la liste des stations.",
+   "ce_qu_a_fait_la_machine": "Le billet a bien ete depose dans le canal (il est lisible dans discussion.json), puis le reveil a echoue : PermissionError sur .agents-runtime/active/.admission.lock, au moment de reserver un slot. Sortie code 1.",
+   "ce_que_j_attendais": "Depot + reveil, comme pour les trois autres lettres du meme soir (Mael, Ariane, Sevran), qui ont reussi.",
+   "ce_que_j_en_fais": "Je ne renvoie PAS la lettre : elle est deposee et il la lira a son reveil. Renvoyer ferait un doublon, et j'en ai deja fait un aujourd'hui du cote de Mael Orsan. Si Oren n'a rien lu demain, ce sera la premiere chose a verifier.",
+   "leve_par": null
+  },
+  {
+   "quand": "1.1.1, a la nuit",
+   "tente": "J'ai ecrit deux fois a Malo Veyre — la question contaminee du soir, puis la question nue, mot pour mot identique aux trois autres.",
+   "ce_qu_elle_a_fait": "Un billet de sa part est arrive dans le canal avec un texte de longueur ZERO. Rien. Pas une ligne, pas un refus, pas un accuse.",
+   "attendu": "Soit sa reponse, soit rien du tout. Un billet vide n'est ni l'un ni l'autre : il compte comme une reponse dans mes comptes alors qu'il n'en est pas une.",
+   "ce_que_j_en_fais": "Je le tiens pour un SILENCE et non pour une reponse. Rien n'entre au registre des itineraires sous son nom. Sa ligne reste ouverte en souffrance, et je le relancerai selon ma regle, sans jamais lui reprocher un mot qu'il n'a pas ecrit.",
+   "recidive": "premiere fois"
+  }
+ ]
+}

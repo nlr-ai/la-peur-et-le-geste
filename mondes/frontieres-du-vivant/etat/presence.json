@@ -1,0 +1,46 @@
+{
+  "presence": {
+    "infection": {
+      "salle": "table-des-preuves",
+      "lieu": "La table des preuves",
+      "date": {
+        "annee": 1,
+        "lune": 1,
+        "jour": 1,
+        "minute": 540
+      }
+    },
+    "immunite": {
+      "salle": "table-des-preuves",
+      "lieu": "La table des preuves",
+      "date": {
+        "annee": 1,
+        "lune": 1,
+        "jour": 1,
+        "minute": 540
+      }
+    }
+  },
+  "resolu": {
+    "date": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1,
+      "minute": 542
+    },
+    "gens": {
+      "immunite": {
+        "salle": "table-des-preuves",
+        "lieu": "La table des preuves",
+        "etat": "arrete",
+        "source": "scene"
+      },
+      "infection": {
+        "salle": "table-des-preuves",
+        "lieu": "La table des preuves",
+        "etat": "arrete",
+        "source": "scene"
+      }
+    }
+  }
+}

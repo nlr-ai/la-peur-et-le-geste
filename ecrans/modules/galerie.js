@@ -123,13 +123,18 @@
       '<div class="medaillon" id="med-' + p.id + '" title="Parler à ' + esc(p.nom) +
       (p.titre ? " — " + esc(p.titre) : "") + '">' +
       Visage.html(p, { classe: "med-rond" }) +
-      '<span class="qui">' + esc(p.nom) + "</span></div>";
+      '<span class="qui">' + Visage.prefixe(p.titre) + esc(p.nom) + "</span></div>";
     // Un visage est une adresse : cliquer dessus ouvre la parole vers lui —
     // le mode passe à Parler, la case s'amorce de son nom, et le joueur écrit
     // la suite. Rien ne part de ce clic seul.
     slot.classList.add("adressable");
     slot.title = "Parler à " + (p.nom || p.id);
+    // Son propre visage, lui, ouvre sa fiche : on ne se parle pas à soi-même.
+    // (`Moi` arrive après les premiers visages : on tranche au clic.)
+    const soi = () => window.Fiche && Fiche.estMoi(p.id);
+    if (soi()) slot.title = "Votre fiche — ce que vous avez sous la main, et qui vous connaissez";
     slot.addEventListener("click", () => {
+      if (soi()) return Fiche.ouvrir(() => Barre && Barre.adresser && Barre.adresser(p.nom || p.id));
       if (window.Barre && Barre.adresser) Barre.adresser(p.nom || p.id);
     });
     return slot;

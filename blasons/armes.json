@@ -1,0 +1,61 @@
+{
+  "_": "LES ARMES DU MONDE — qui porte quoi, et de quelles teintures.\n\nSur la table peinte, une bannière fait douze pixels de haut : un lion rampant y serait une tache. On ne garde donc que ce qu'une bannière dit vraiment à cette distance — ses ÉMAUX et sa partition —, la charge étant ramenée à deux ou trois traits dans `charges.json`.\n\nLa source de fiction est `blason` dans etat/maisons.json, une description héraldique en toutes lettres. Ce fichier-ci est ce qu'il faut pour la DESSINER. Les quatre grandes maisons sans entrée dans l'état (Tully, Arryn, Lannister, Stark) y figurent quand même : leurs sièges sont sur la carte.",
+  "__": "Sorti de ecrans/modules/blasons.js le 9.9 (lot 3). Le module n'en garde que le dessin — la toile, les partitions, la hampe.",
+  "_emaux": "Les émaux, tenus bas en saturation : ce sont des teintures sur toile, pas des écrans. Ils doivent tenir sur le parchemin sans le trouer.",
+  "emaux": {
+    "gueules": "#a3392f",
+    "sable": "#241d18",
+    "or": "#c9a227",
+    "argent": "#e9e3d5",
+    "azur": "#3c6187",
+    "sinople": "#4a7346",
+    "pourpre": "#6b4a72",
+    "eau": "#8fb3a8",
+    "fumee": "#9c9a92",
+    "hermine": "#efe9dc",
+    "delave": "#7f9db5",
+    "sang": "#7d2622",
+    "nuit": "#1b1613",
+    "neige": "#c9d2d6",
+    "cendre": "#6f6a63"
+  },
+  "_armes": "champ : une ou plusieurs teintures (par leur nom d'émail) selon la partition. partition : \"plain\" | \"pal2\" | \"pal3\" | \"ecartele\" | \"fusele\" | \"seme\" | \"hermine\". charge : le nom d'un tracé de charges.json ; email : sa teinture. note : la description héraldique qu'on montre au joueur.",
+  "armes": {
+    "maison-targaryen-noir": {
+      "champ": ["nuit"],
+      "charge": "dragon",
+      "email": "gueules",
+      "note": "Dragon tricéphale de gueules sur champ de sable"
+    },
+    "maison-targaryen-vert": {"champ":["nuit"],"charge":"dragon","email":"gueules"},
+    "maison-hightower": {"champ":["fumee"],"charge":"tour","email":"argent"},
+    "maison-velaryon": {"champ":["eau"],"charge":"hippocampe","email":"argent"},
+    "maison-rosby": {"champ":["hermine"],"partition":"hermine","charge":"chevrons","email":"gueules"},
+    "maison-stokeworth": {"champ":["sinople"],"charge":"agneau","email":"argent"},
+    "maison-darklyn": {"champ":["or","sable"],"partition":"fusele"},
+    "maison-staunton": {"champ":["argent"],"charge":"corneilles","email":"sable","bordure":"gueules"},
+    "maison-celtigar": {"champ":["argent"],"partition":"seme","charge":"crabe","email":"gueules"},
+    "maison-bar-emmon": {"champ":["delave"],"charge":"espadon","email":"argent"},
+    "maison-massey": {"champ":["argent"],"charge":"spirales","email":"gueules"},
+    "maison-strong": {"champ":["azur","gueules","sinople"],"partition":"pal3"},
+    "maison-baratheon": {"champ":["or"],"charge":"cerf","email":"sable"},
+    "maison-inchauspe": {
+      "_": "Créée en jeu : la maison d'Aurore, anoblie tard, riche d'encre et non d'épée. Trois noix posées deux et une — la charge la plus modeste de la baie, et c'est le propos.",
+      "champ": ["or"],
+      "charge": "noix",
+      "email": "sable",
+      "note": "Trois noix de sable posées deux et une, sur champ d'or"
+    },
+    "maison-reynolds": {
+      "_": "Créée en jeu : la maison de Nicolas Reynolds, petits seigneurs de Pierrefitte. Une équerre et son fil à plomb — les deux outils qui disent si une chose est droite, et rien qui tranche.",
+      "champ": ["sinople"],
+      "charge": "equerre",
+      "email": "or",
+      "note": "De sinople à l'équerre d'or, un fil à plomb pendu de son angle"
+    },
+    "maison-tully": {"champ":["gueules","azur"],"partition":"pal2","charge":"truite","email":"argent"},
+    "maison-arryn": {"champ":["delave"],"charge":"faucon","email":"argent"},
+    "maison-lannister": {"champ":["sang"],"charge":"lion","email":"or"},
+    "maison-stark": {"champ":["neige"],"charge":"loup","email":"cendre"}
+  }
+}

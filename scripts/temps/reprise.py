@@ -23,11 +23,12 @@
 # ne se rassoit pas. Pour creuser un nom qui en sort, c'est dossier.py qui prend
 # le relais. Ce script ne lit que l'etat ; il n'ecrit nulle part.
 import io, json, os, re, sys
+import racines
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-racine = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-etat = os.path.join(racine, "etat")
+racine = racines.DEPOT
+etat = racines.etat()
 
 MOIS = {1: "1re", 2: "2e", 3: "3e", 4: "4e", 5: "5e", 6: "6e",
         7: "7e", 8: "8e", 9: "9e", 10: "10e", 11: "11e", 12: "12e"}

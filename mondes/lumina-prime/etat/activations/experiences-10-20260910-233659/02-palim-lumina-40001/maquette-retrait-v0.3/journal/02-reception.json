@@ -1,0 +1,14 @@
+{
+  "etape": "reception_accusee",
+  "date": "2026-09-10T23:47:21+02:00",
+  "recu_par": "palim-lumina",
+  "objet_id": "fiction-lanterne-001",
+  "statut": "recu_pour_decision",
+  "verification": {
+    "resultat": "le jeton correspond au registre source de l'exemple fictif",
+    "methode": "comparaison textuelle avec ESSAI-ASTER-001",
+    "limite": "ce jeton de maquette ne prouve l'identité d'aucune personne réelle"
+  },
+  "perimetre_du_depositaire": "maquette-retrait-v0.3/paquet/ seulement"
+}
+

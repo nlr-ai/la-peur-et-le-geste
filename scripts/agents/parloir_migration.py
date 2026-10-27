@@ -27,9 +27,11 @@ import re
 
 from agents import chambre
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.abspath(__file__))))
-PARLOIR = os.path.join(RACINE, "etat", "parloir")
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+PARLOIR = os.path.join(ETAT, "parloir")
 CURSEURS = os.path.join(PARLOIR, ".curseurs")
 
 INSTANCE = re.compile(r"\.[0-9a-f]{8}$")

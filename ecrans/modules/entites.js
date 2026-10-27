@@ -133,6 +133,13 @@ window.Entites = (() => {
   // `question` (privée, zéro minute) et le MJ répond par un `reponse`. La scène
   // en cours ne bouge pas d'un souffle.
   function demander(id, type, nom) {
+    // Son propre nom ouvre sa fiche ; sans fiche écrite, la question part.
+    if (type === "personnage" && window.Fiche && Fiche.estMoi(id)) {
+      return Fiche.ouvrir(() => poser(id, type, nom));
+    }
+    poser(id, type, nom);
+  }
+  function poser(id, type, nom) {
     const texte = (DEMANDES[type] || DEFAUT).replace(/\{n\}/g, nom);
     Bus.poster({ type: "libre", mode: "question", cible: id, cible_type: type, texte });
     setTimeout(() => Bus.sonderMaintenant && Bus.sonderMaintenant(), 120);

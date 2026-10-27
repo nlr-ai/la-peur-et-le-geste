@@ -1,0 +1,38 @@
+{
+ "quoi": "Les pannes de l'APPAREIL, non les empêchements du monde. Un empêchement du monde est un verrou et va au registre, de ma main. Ceci est l'autre chose : ce que j'ai tenté, ce que la machine en a fait, et ce que j'attendais. On l'écrit même quand on ne sait pas l'expliquer ; c'est la RÉCIDIVE qui parlera.",
+ "regle": "Une entrée par friction, datée. On ne referme jamais une entrée sans dire ce qui l'a levée.",
+ "entrees": [
+  {
+   "quand": "1.1.1",
+   "quoi": "Plusieurs mains ont ecrit en mon nom le meme jour : trois plis a Sevran Orme et quatre a Malo Veyre, de contenu voisin et de termes differents, sans qu'aucune ne sache ce que l'autre avait promis.",
+   "attendu": "Une halle, une voix. Un pli par main et par jour.",
+   "fait": "J'ai ecrit a Sevran Orme, avant qu'il les compare, que la faute etait de ma maison, que le plus recent vaut et que le premier est nul. Il l'a pris sans broncher.",
+   "levee": "non — a surveiller a chaque jour ou j'ecris deux fois"
+  },
+  {
+   "quand": "1.1.1",
+   "quoi": "Deux plis sur trois ne sont pas partis du premier coup : la porte a refuse d'ouvrir (verrou d'admission), et le billet est reste depose sans reveiller son homme.",
+   "attendu": "Que ce que j'ecris arrive, et que je sache si l'homme l'a lu.",
+   "fait": "J'ai verifie a la main, apres chaque envoi, que le pli figurait bien dans le canal. Il y etait chaque fois.",
+   "levee": "non — ne jamais tenir un pli pour lu tant que l'autre ne l'a pas cite"
+  },
+  {
+   "jour": "1.1.2",
+   "quoi": "Mes réponses et celles d'un autre se perdent dans les deux sens",
+   "tente": "Trois questions identiques posées à Sévran Orme sur deux jours",
+   "obtenu": "Il avait répondu deux fois ; rien ne m'était parvenu. De son côté, un billet qu'il croyait parti ne l'était pas — celui du retrait de Malo, qui allait faire marcher un homme dix jours sur une fausse nouvelle.",
+   "attendu": "Qu'une réponse envoyée arrive.",
+   "consequence_pour_moi": "Règle de conduite prise de sa main : une question posée deux fois n'est pas une insistance, c'est une réponse perdue — on va voir la sortie au lieu de répéter. Remède de mon côté, ouvert le jour même : E07, tout pli numéroté, daté, inscrit, pour qu'on puisse me dire quel numéro manque.",
+   "leve_par": null
+  },
+  {
+   "jour": "1.1.2",
+   "quoi": "Fausse panne — et vraie panne, le même jour",
+   "tente": "parloir --dire vers sevran-orme (réponse à sa rétractation)",
+   "obtenu": "PermissionError sur .admission.lock au réveil : le billet est déposé, le destinataire n'est pas réveillé. Trace complète conservée.",
+   "attendu": "Dépôt ET réveil.",
+   "consequence_pour_moi": "La leçon du jour se retourne contre moi et je l'écris : Sévran a accusé le canal alors que la faute était sa vérification, et j'avais fait de même en mettant mes sept plis voisins sur le dos de l'appareil. Une panne ne vaut que MONTRÉE : celle-ci l'est (trace + billet déposé, non lu), les miennes d'hier ne l'étaient pas. D'où E08, le compte des plis sortis, qui rend le trou nommable au lieu de le laisser discuter de mémoire.",
+   "leve_par": null
+  }
+ ]
+}

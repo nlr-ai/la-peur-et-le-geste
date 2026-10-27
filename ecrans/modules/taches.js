@@ -191,6 +191,19 @@ window.Taches = (() => {
 
   function office(a) {
     if (a && a.embleme) return a.embleme;          // forcé à la main
+    if (document.documentElement.dataset.habillage === "lumina-prime") {
+      const titre = String((a && (a.titre || a.office)) || "");
+      const conseil = [
+        [/^Maire de Lumina Prime/i, "✨"],
+        [/^Coordination municipale/i, "📋"],
+        [/^Architecture et travaux/i, "📐"],
+        [/^Infrastructure technique/i, "⚛️"],
+        [/^Espaces publics et entretien/i, "🌿"],
+        [/^Habitants et activités/i, "🧵"],
+        [/^Droits et litiges/i, "⚖️"],
+      ];
+      for (const [motif, signe] of conseil) if (motif.test(titre)) return signe;
+    }
     // Faute de titre — un garde de passage, un page sans fiche —, l'id dit
     // souvent l'office à lui seul : « page-ossy », « vieux-pecheur ».
     // Trois sources dans l'ordre, chacune rattrapant le silence de la

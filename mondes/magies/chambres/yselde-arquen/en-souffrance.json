@@ -1,0 +1,79 @@
+{
+ "quoi": "Ce que j'attends de quelqu'un, et ce que quelqu'un attend de moi. Le plan compte des PAS ; ceci compte des GENS qui n'ont pas répondu, et depuis quand. Ce n'est pas la même chose et cela ne se calcule pas.",
+ "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme.",
+ "j_attends": [
+  {
+   "de": "heloise-braise",
+   "quoi": "Le nom du praticien qui a accorde l'ecran R06 (M09) — ou, en ces termes, qu'on ne sait plus qui a accorde une frontiere posee pres des habitants.",
+   "demande_le": "1.1.1",
+   "pourquoi": "Je ne peux pourvoir O02, vacante, sans un nom ; et l'epreuve de l'ecran ne peut sortir d'aucune autre main que la sienne.",
+   "relance_le": "1.1.4"
+  },
+  {
+   "de": "heloise-braise",
+   "quoi": "Le nom de celui qui ouvre l'air au foyer le matin — qui le FAIT, non qui devrait.",
+   "demande_le": "1.1.1",
+   "pourquoi": "O03 n'est ecrite nulle part et le secteur tourne : quelqu'un le tient sans titre. Je veux le voir avant de lui poser une charge sur le dos.",
+   "relance_le": "1.1.4"
+  },
+  {
+   "de": "heloise-braise",
+   "quoi": "La regle d'extinction ecrite dans la forme que je lui ai donnee, apres 52420, et le jour qui lui convient pour la depense de 52120.",
+   "demande_le": "1.1.1",
+   "pourquoi": "Elle depend de 52420, qui n'est pas fait. Je n'attends donc pas une reponse demain : j'attends qu'elle ne me la presente pas deux fois.",
+   "relance_le": "apres 52420"
+  },
+  {
+   "de": "oren-sangle",
+   "quoi": "Le resultat de l'epreuve d'annulation sur le coffret de pierres, quand le Corps de resolution aura parle.",
+   "demande_le": "1.1.1",
+   "pourquoi": "Ma planche de la cour haute porte une ligne qui dit que personne ne sait. Le jour ou quelqu'un saura, la ligne change ou reste, et elle doit changer chez moi le jour meme.",
+   "relance_le": "quand il l'annoncera ; pas de relance de ma part"
+  },
+  {
+   "de": "oren-sangle",
+   "quoi": "Le oui ou le non de la seconde maison qui a signe un accueil avec la Ligue, quant a se laisser nommer. JE NE LE DEMANDE PAS : je l'attends de son consentement.",
+   "demande_le": "1.1.1",
+   "pourquoi": "Je ne suis plus la seule destination ecrite, et il a choisi de me le dire lui-meme plutot que de me laisser l'apprendre d'un autre.",
+   "relance_le": "jamais — on ne relance pas le consentement de quelqu'un d'autre"
+  }
+ ],
+ "on_attend_de_moi": [
+  {
+   "qui": "heloise-braise",
+   "quoi": "Signer la regle d'extinction des qu'elle sera ecrite dans la forme exigee (action 52421).",
+   "promis_le": "1.1.1",
+   "echeance": "a sa presentation"
+  },
+  {
+   "qui": "heloise-braise",
+   "quoi": "Porter la depense de 52120 — une journee de combustible et un secteur d'ateliers prive de chaleur — et prevenir les ateliers moi-meme.",
+   "promis_le": "1.1.1",
+   "echeance": "le jour qu'elle dira"
+  },
+  {
+   "qui": "la Maison entiere",
+   "quoi": "Pourvoir O02 et O03, ouvrir le calendrier commun aux ouvrages, et verifier mes reserves de mes propres yeux.",
+   "promis_le": "1.1.1",
+   "echeance": "non datee — et c'est le defaut de ces trois lignes"
+  },
+  {
+   "qui": "oren-sangle",
+   "quoi": "Le compte des LITS en DEUX colonnes -- lits d'arrivee et lits des tenants, aucun lit dans les deux -- avec sa date et sa condition d'arret, sachant qu'il circulera dans les stations de la Ligue sous mon nom. ENSUITE le compte d'accueil de E01.",
+   "promis_le": "1.1.1",
+   "echeance": "les lits en premier, dans les deux jours — 1.1.3"
+  },
+  {
+   "qui": "la Maison, et la Ligue par ricochet",
+   "quoi": "Pourvoir O05, l'accueil des arrivees, et nommer une releve pour la veille suivante : tant que c'est vide, l'accueil du Bastion cesse chaque fois que je quitte la porte.",
+   "promis_le": "1.1.1",
+   "echeance": "non datee, et c'est la deuxieme condition d'arret d'un accord signe"
+  },
+  {
+   "qui": "moi-meme, et ma propre planche de la cour haute",
+   "quoi": "Ecrire E02 : la moitie sortante. Ou vont les gens du Bastion, a quelles conditions nous envoyons, et qui arrete un envoi.",
+   "promis_le": "1.1.1",
+   "echeance": "non datee — mais ma planche interdit deja de tenir un accueil sans issue, donc je suis en faute de ma propre regle"
+  }
+ ]
+}

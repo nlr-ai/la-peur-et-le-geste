@@ -1,0 +1,25 @@
+[
+  {
+    "type":"replique",
+    "locuteur_id":"corlys",
+    "qui":"Lord Corlys Velaryon",
+    "texte":"Avant vêpres aujourd’hui, vous aurez deux dates de ma main, coque par coque. Le cahier compte quatre-vingt-neuf nefs au croissant, mais il est daté du vingt-huitième jour de la troisième lune et ne dit rien de l’état présent des deux carènes ni des vivres à charger. Je descends au quai avec ser Steffon. Pour chacune des deux coques, la ligne rendue portera son nom, son patron, sa marée de mise à l’eau et l’heure où ses quatre jours seront en cale. Jusque-là, aucun jour deviné ne sera porté au registre.",
+    "lieu":"Quai de Peyredragon",
+    "salle":"quai",
+    "moment":"midi",
+    "duree":1,
+    "pour":"rhaenyra",
+    "ref":"vmuyobardmyf0"
+  },
+  {
+    "type":"geste",
+    "acteur_id":"corlys",
+    "texte":"Corlys ferme le vieux cahier sans y prendre une date. Avec ser Steffon, il gagne les deux carènes pour relever sur place la coque, le patron, la marée et l’embarquement des vivres. Le prochain écrit attendu n’est plus une estimation : c’est leur état vérifié, dû avant vêpres.",
+    "lieu":"Quai de Peyredragon",
+    "salle":"quai",
+    "moment":"midi",
+    "duree":2,
+    "pour":"rhaenyra",
+    "ref":"vmuyobardmyf0"
+  }
+]

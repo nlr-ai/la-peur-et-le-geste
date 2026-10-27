@@ -1,0 +1,426 @@
+[
+  {
+    "id": "acte-outlander-nicolas-croisee-1743-5-4-1012",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 612
+    },
+    "acteur_id": "nicolas",
+    "cible_id": null,
+    "description": "Nicolas descend depuis la lisière en suivant le bruit de l'eau et atteint la croisée du chemin de la colline.",
+    "connu_de": [
+      "nicolas"
+    ]
+  },
+  {
+    "id": "acte-outlander-nicolas-ferme-1743-5-4-1024",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 624
+    },
+    "acteur_id": "nicolas",
+    "cible_id": null,
+    "description": "Nicolas suit depuis la croisée la branche la plus battue, le long du ruisseau, et atteint la ferme du ruisseau.",
+    "connu_de": [
+      "nicolas"
+    ]
+  },
+  {
+    "id": "acte-outlander-nicolas-seuil-ferme-1743-5-4-1027",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 627
+    },
+    "acteur_id": "nicolas",
+    "cible_id": "ferme-du-ruisseau",
+    "description": "Nicolas franchit calmement le ruisseau et s'approche jusqu'à quelques pas de la porte de l'habitation.",
+    "connu_de": [
+      "nicolas"
+    ]
+  },
+  {
+    "id": "acte-outlander-nicolas-toque-ferme-1743-5-4-1028",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 628
+    },
+    "acteur_id": "nicolas",
+    "cible_id": "ferme-du-ruisseau",
+    "description": "Nicolas frappe trois coups à la porte de la ferme et appelle « Hoy ».",
+    "connu_de": [
+      "nicolas",
+      "isobel-grant"
+    ]
+  },
+  {
+    "id": "acte-outlander-nicolas-chemin-aval-1743-5-4-1040",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 640
+    },
+    "acteur_id": "nicolas",
+    "cible_id": null,
+    "description": "Nicolas quitte la ferme du ruisseau et poursuit le chemin vers l'aval pendant dix minutes.",
+    "connu_de": [
+      "nicolas",
+      "isobel-grant"
+    ]
+  },
+  {
+    "id": "acte-outlander-nicolas-route-basse-1743-5-4-1100",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 660
+    },
+    "acteur_id": "nicolas",
+    "cible_id": null,
+    "description": "Nicolas suit pendant vingt minutes les ornières du chemin en aval et atteint une route transversale plus large sous Craigh na Dun.",
+    "connu_de": [
+      "nicolas"
+    ]
+  },
+  {
+    "id": "acte-outlander-nicolas-gue-route-basse-1743-5-4-1120",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 680
+    },
+    "acteur_id": "nicolas",
+    "cible_id": null,
+    "description": "Nicolas prend la branche gauche de la route basse et marche vingt minutes jusqu'à un gué où les traces de charrette traversent l'eau.",
+    "connu_de": [
+      "nicolas"
+    ]
+  },
+  {
+    "id": "acte-outlander-nicolas-hameau-1743-5-4-1145",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 705
+    },
+    "acteur_id": "nicolas",
+    "cible_id": null,
+    "description": "Nicolas traverse le gué et suit pendant vingt-cinq minutes la fumée jusqu'à un petit hameau derrière la crête.",
+    "connu_de": [
+      "nicolas"
+    ]
+  },
+  {
+    "id": "acte-outlander-rencontre-morag-nicolas-1743-5-4-1148",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 708
+    },
+    "acteur_id": "morag-macrae",
+    "cible_id": "nicolas",
+    "description": "Après le salut de Nicolas, Morag Macrae se montre derrière le muret, garde ses distances et lui demande son identité.",
+    "connu_de": [
+      "morag-macrae",
+      "nicolas"
+    ]
+  },
+  {
+    "id": "acte-outlander-nicolas-decrit-chemin-morag-1743-5-4-1151",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 711
+    },
+    "acteur_id": "nicolas",
+    "cible_id": "morag-macrae",
+    "description": "Nicolas décrit à Morag son trajet depuis le gué par les ornières, la route en pente et la crête, puis son approche du hameau sans franchir le muret. Morag juge enfin la réponse nette et reconnaît le respect de la route et de sa limite.",
+    "connu_de": [
+      "nicolas",
+      "morag-macrae"
+    ]
+  },
+  {
+    "id": "acte-outlander-nicolas-declare-cranesmuir-morag-1743-5-4-1152",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 712
+    },
+    "acteur_id": "nicolas",
+    "cible_id": "morag-macrae",
+    "description": "Nicolas déclare venir de Cranesmuir et affirme ne rien en avoir rapporté. Morag distingue cette origine déclarée de ce qui se présente devant son foyer et renouvelle sa question sur ce qu'il porte.",
+    "connu_de": [
+      "nicolas",
+      "morag-macrae"
+    ]
+  },
+  {
+    "id": "acte-outlander-morag-refuse-coucher-nicolas-1743-5-4-1153",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 713
+    },
+    "acteur_id": "morag-macrae",
+    "cible_id": "nicolas",
+    "description": "Morag reconnaît que Nicolas a respecté son muret, met fin à ses questions, refuse de le loger et lui dit de chercher ailleurs son coucher.",
+    "connu_de": [
+      "morag-macrae",
+      "nicolas"
+    ]
+  },
+  {
+    "id": "acte-outlander-morag-indique-ferme-nicolas-1743-5-4-1155",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 715
+    },
+    "acteur_id": "morag-macrae",
+    "cible_id": "nicolas",
+    "description": "Après que Nicolas reconnaît être perdu, Morag lui indique le trajet local garanti vers le gué, la route transversale et la ferme du ruisseau, sans promettre de coucher ni de direction distante.",
+    "connu_de": [
+      "morag-macrae",
+      "nicolas"
+    ]
+  },
+  {
+    "id": "acte-outlander-nicolas-retour-ferme-1743-5-4-1310",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 790
+    },
+    "acteur_id": "nicolas",
+    "cible_id": "ferme-du-ruisseau",
+    "description": "Nicolas suit intégralement les indications locales de Morag, repasse par le gué et la route transversale, puis revient à la ferme du ruisseau où il avait déjà rencontré Isobel Grant.",
+    "connu_de": [
+      "nicolas"
+    ]
+  },
+  {
+    "id": "acte-outlander-nicolas-revient-seuil-isobel-1743-5-4-1313",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 793
+    },
+    "acteur_id": "nicolas",
+    "cible_id": "isobel-grant",
+    "description": "Nicolas revient devant la ferme et annonce son retour. Isobel reste à l'intérieur, lui demande de ne pas avancer et veut savoir pourquoi il revient et où il est allé.",
+    "connu_de": [
+      "nicolas",
+      "isobel-grant"
+    ]
+  },
+  {
+    "id": "acte-outlander-aurore-retrouve-nicolas-1743-5-4-1029",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 629
+    },
+    "acteur_id": "aurore",
+    "cible_id": "nicolas",
+    "description": "Aurore descend de Craigh na Dun par le chemin praticable et aperçoit Nicolas devant la ferme du ruisseau, douze minutes après la croisée.",
+    "connu_de": [
+      "aurore"
+    ]
+  },
+  {
+    "id": "acte-outlander-aurore-attend-fin-echange-nicolas-1743-5-4-1031",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 631
+    },
+    "acteur_id": "aurore",
+    "cible_id": "nicolas",
+    "description": "Aurore attend à la lisière sans interrompre. Elle voit Nicolas achever son échange devant la porte fermée, saluer puis quitter le seuil par le chemin au-delà de la ferme.",
+    "connu_de": [
+      "aurore"
+    ]
+  },
+  {
+    "id": "acte-outlander-aurore-se-place-pour-parler-nicolas-1743-5-4-1032",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 632
+    },
+    "acteur_id": "aurore",
+    "cible_id": "nicolas",
+    "description": "Aurore quitte la lisière et rejoint Nicolas à portée de voix devant le chemin de la ferme, sans avoir encore prononcé ses premiers mots.",
+    "connu_de": [
+      "aurore"
+    ]
+  },
+  {
+    "id": "acte-outlander-aurore-appelle-nicolas-ferme-1743-5-4",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 793
+    },
+    "acteur_id": "aurore",
+    "cible_id": "nicolas",
+    "description": "Aurore rejoint Nicolas à portée de voix près de la ferme du ruisseau et l'appelle par son prénom. Nicolas entend et reconnaît sa voix.",
+    "connu_de": [
+      "aurore",
+      "nicolas"
+    ]
+  },
+  {
+    "id": "acte-outlander-nicolas-bondit-vers-aurore-1743-5-4",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 793
+    },
+    "acteur_id": "nicolas",
+    "cible_id": "aurore",
+    "description": "Après avoir reconnu Aurore, Nicolas bondit vers elle et franchit les derniers pas jusqu'à portée de bras. La réaction et tout contact accepté par Aurore restent à elle.",
+    "connu_de": [
+      "nicolas",
+      "aurore"
+    ]
+  },
+  {
+    "id": "acte-outlander-aurore-rejoint-croisee-1743-5-4-1044",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 644
+    },
+    "acteur_id": "aurore",
+    "cible_id": "croisee-craigh",
+    "description": "Aurore quitte la ferme et rejoint seule la croisée du chemin de la colline. Aucun panneau ni raccord établi vers Inverness ne s'y trouve.",
+    "connu_de": [
+      "aurore"
+    ]
+  },
+  {
+    "id": "acte-outlander-nicolas-suit-aurore-croisee-1743-5-4-1325",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 805
+    },
+    "acteur_id": "nicolas",
+    "cible_id": "aurore",
+    "description": "Nicolas quitte la ferme, suit le même chemin qu'Aurore pendant environ un quart d'heure et la rejoint à la croisée du chemin de la colline.",
+    "connu_de": [
+      "nicolas",
+      "aurore"
+    ]
+  },
+  {
+    "id": "acte-outlander-aurore-constate-pierre-bague-disparue-1743-5-4-1044",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 644
+    },
+    "acteur_id": "aurore",
+    "cible_id": null,
+    "description": "À la croisée du chemin de la colline, Aurore constate qu’elle porte une bague de fiançailles dont le sertissage est désormais vide : la pierre précieuse a disparu. Le moment, le lieu et la cause de cette disparition restent inconnus.",
+    "connu_de": [
+      "aurore"
+    ]
+  },
+  {
+    "id": "acte-outlander-aurore-route-basse-1743-5-4-1408",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 848
+    },
+    "acteur_id": "aurore",
+    "cible_id": "route-basse-craigh",
+    "description": "Depuis le chemin en aval du ruisseau, Aurore descend seule pendant vingt minutes et atteint la route basse sous Craigh na Dun.",
+    "connu_de": [
+      "aurore"
+    ]
+  },
+  {
+    "id": "acte-outlander-aurore-gue-route-basse-1743-5-4-1430",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 870
+    },
+    "acteur_id": "aurore",
+    "cible_id": "gue-route-basse",
+    "description": "Aurore prend vers le sud sur la route basse ; Nicolas demeure avec elle et le groupe marche vingt-deux minutes jusqu’au gué où la route traverse l’eau.",
+    "connu_de": [
+      "aurore",
+      "nicolas"
+    ]
+  },
+  {
+    "id": "acte-outlander-morag-verifie-trousse-1743-5-4-1847",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 1127
+    },
+    "acteur_id": "morag-urquhart",
+    "cible_id": null,
+    "description": "Dans la salle commune, pendant que Mairi examine la proposition d'Aurore, Morag pose devant elle sa trousse de couture portative et vérifie méthodiquement ses aiguilles, son fil et ses petits ciseaux. Elle ne prend aucune commande et ne promet aucun ouvrage.",
+    "connu_de": [
+      "morag-urquhart",
+      "aurore",
+      "nicolas",
+      "mairi-macleod",
+      "ruairidh-maclean"
+    ]
+  },
+  {
+    "id": "acte-outlander-morag-trie-trousse-1743-5-5-0601",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 5,
+      "minute": 361
+    },
+    "acteur_id": "morag-urquhart",
+    "cible_id": null,
+    "description": "Aurore adresse ses remerciements à Mairi pour le marché de la veille. Morag ne répond pas à la place de l'aubergiste : assise dans la salle commune, elle ouvre sa trousse et trie ses fils et ses petites chutes selon la solidité et le grain, afin de savoir d'un regard ce qu'elle pourra employer à une reprise menue. Elle ne prend aucune commande.",
+    "connu_de": [
+      "morag-urquhart",
+      "aurore",
+      "mairi-macleod",
+      "ruairidh-maclean"
+    ]
+  }
+]

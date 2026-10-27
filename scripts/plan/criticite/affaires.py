@@ -12,9 +12,10 @@ from plan.expose import nu, sans_emoji
 from plan.criticite.page import faite
 from plan.criticite.graphe import POIDS
 
-# Trois etages de plus qu'a la racine : scripts/plan/criticite/.
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.dirname(os.path.abspath(__file__)))))
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 #
 # LA SEULE CHOSE QUE CE DISPOSITIF AIT LE DROIT D'ECRIRE. Tout le reste se
 # recalcule : c'est meme sa regle, et c'est pour ca qu'aucun score ne vit dans
@@ -47,7 +48,7 @@ RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
 #
 # APPEND-ONLY, UNE LIGNE PAR JOUR, JAMAIS DE RELECTURE COMPLETE. C'est un
 # `.jsonl` comme le flux : on ajoute a la fin, et l'on ne lit que la queue.
-HISTOIRE = os.path.join(RACINE, "etat", "criticite-histoire.jsonl")
+HISTOIRE = os.path.join(ETAT, "criticite-histoire.jsonl")
 HEURES = 20 * 3600
 
 

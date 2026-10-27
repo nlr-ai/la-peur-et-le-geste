@@ -1,0 +1,70 @@
+{
+  "cadrages": {
+    "tout": "cites",
+    "repos": "cites"
+  },
+  "titre": "Les Cités de Lumière",
+  "date": "%(annee)d — mois %(lune)d, jour %(jour)d",
+  "allegeances": false,
+  "etiquettes": {
+    "lumina-prime": [
+      0,
+      20,
+      "c"
+    ],
+    "creative-nexus": [
+      0,
+      20,
+      "c"
+    ],
+    "towers-of-knowledge": [
+      0,
+      20,
+      "c"
+    ],
+    "innovation-fields": [
+      0,
+      20,
+      "c"
+    ],
+    "data-gardens": [
+      0,
+      20,
+      "c"
+    ],
+    "etheria": [
+      0,
+      20,
+      "c"
+    ],
+    "nova-atlantis": [
+      0,
+      20,
+      "c"
+    ],
+    "chronopolis": [
+      0,
+      20,
+      "c"
+    ]
+  },
+  "regions": {
+    "lumina": null,
+    "etheria": null,
+    "atlantis": null,
+    "chronopolis": null
+  },
+  "mers": [
+    [
+      520,
+      75,
+      "LES CITÉS DE LUMIÈRE"
+    ],
+    [
+      420,
+      675,
+      "Réseau de cités · implantation schématique"
+    ]
+  ],
+  "_": "Les autres cités sont des interlocutrices autonomes ; aucun contrôle de Nova ni liaison ouverte n’est inféré de leur position."
+}

@@ -1,68 +1,35 @@
 // GET /scene — la fenêtre de flux servie au navigateur, triée par audience.
 const fs = require("fs");
 const path = require("path");
-const { MAX_FIL, RACINE } = require("../http");
+const { MAX_FIL, ETAT } = require("../http");
 const { envoyer, inlinerFigure } = require("../http");
 const { rafraichirPortraits } = require("../peinture").portraits; // LA PORTE serveur de peinture
-const { ecartDe, qui, roster } = require("../http");
+const { ecartDe, filtrerFlux, qui } = require("../http");
 
 function traiter(req, res, url) {
   if (req.method === "GET") {
     if (url === "/scene") {
       try {
-        const brut = fs.readFileSync(path.join(RACINE, "etat", "flux.jsonl"), "utf-8");
-        let items = brut.split("\n").filter((l) => l.trim()).map((l) => JSON.parse(l));
-        // Le brouillard, à deux : un item peut porter `pour: "<personnage>"`
-        // — une pensée, une question, un aparté. Il ne part qu'à celui-là.
-        // Le tri se fait ICI et non dans le navigateur : ce qui n'est pas
-        // pour vous ne descend jamais jusqu'à votre machine.
-        if (roster()) {
-          const j = qui(req, url);
-          const moi = j && j.personnage_id;
-          // LA RÉGIE VOIT TOUT, et c'est sa seule raison d'être. Le tri par
-          // `pour` protège un joueur de ce que l'autre entend ; Corneille
-          // n'est pas un joueur — il n'a ni tête, ni horloge, ni siège dans
-          // la fiction, et un fil amputé ne lui servirait à rien. Le jeton
-          // reste la serrure : sans lui, on n'est toujours personne. La
-          // fenêtre et le `?avant=` ci-dessous s'appliquent comme pour tous.
-          if (j && j.regie) items = items.slice();
-          else {
-          // Sans jeton, on n'est personne — et personne ne lit la partie.
-          // Le filtre par `pour` ne suffit pas : l'immense majorite du flux
-          // n'en porte aucun, donc un inconnu recevait l'histoire entiere.
-          // Le jeton n'est pas qu'un siege, c'est la serrure : le jeu est
-          // servi par un tunnel public, et une URL nue circule vite.
-          if (!j) return envoyer(res, 200, JSON.stringify({ items: [] }));
-          // Le point d'entree du siege. Un item sans `pour` est PUBLIC — ce
-          // qui est juste pour la suite, et faux pour l'avant : tout
-          // l'historique anterieur a l'arrivee d'un joueur n'en porte aucun,
-          // et son navigateur rejouerait donc la partie entiere d'un autre.
-          // On ne reecrit pas le flux pour autant (il est append-only) : on
-          // coupe a la ligne ou ce joueur est entre a la table.
-          const depuis = (j && j.depuis) || 0;
-          if (depuis) items = items.slice(depuis);
-          // `pour` peut porter PLUSIEURS oreilles : c'est la messe basse, ce
-          // que deux personnes se disent a l'ecart dans une salle qui en
-          // compte six. Un tableau n'est ni public ni prive a une seule
-          // oreille, et il ne doit surtout pas retomber dans le cas « pas de
-          // pour » — qui, lui, veut dire que tout le monde entend.
-          // UN ITEM SANS `pour` N'EST PLUS PUBLIC PASSÉ L'ÈRE MULTI-JOUEURS.
-          // C'est le verrou de lecture, et il ferme la faille par en bas :
-          // même si un jour une plume réécrit un item sans audience — un
-          // script à venir, une main dans le fichier —, il ne partira chez
-          // personne au lieu de partir chez tout le monde.
-          //
-          // Le seuil se calcule tout seul : la ligne où le DERNIER joueur
-          // s'est assis. Avant elle, un `pour` absent veut dire « il n'y
-          // avait qu'une table » et reste lisible par les anciens (leur
-          // propre `depuis` fait déjà le tri). Après elle, un `pour` absent
-          // est un bug, et un bug ne se diffuse pas.
-          const seuil = roster().reduce((m, j) => Math.max(m, j.depuis || 0), 0);
-          items = items.filter((it, k) => it.pour
-            ? (Array.isArray(it.pour) ? it.pour.indexOf(moi) !== -1 : it.pour === moi)
-            : depuis + k < seuil);
+        const brut = fs.readFileSync(path.join(ETAT, "flux.jsonl"), "utf-8");
+        // Une ligne corrompue ne doit pas effacer toutes les scènes lisibles.
+        // Les octets nuls seuls sont des blocs vides, jamais des items.
+        let items = [];
+        for (const [index, ligne] of brut.split("\n").entries()) {
+          if (!ligne.replace(/\0/g, "").trim()) continue;
+          try {
+            const item = JSON.parse(ligne);
+            if (item && typeof item === "object" && !Array.isArray(item)) items.push(item);
+          } catch (e) {
+            console.error("Flux illisible, ligne " + (index + 1) + " : " + e.message);
           }
         }
+        // Le brouillard, à deux : un item peut porter `pour: "<personnage>"`
+        // — une pensée, une question, un aparté. Il ne part qu'à celui-là.
+        // Le tri se fait AVANT de descendre : ce qui n'est pas pour vous ne
+        // rejoint jamais votre machine. Il vit dans `siege.js` depuis le 9.9,
+        // parce que `/chercher` fouille le même fil et doit le lire du même
+        // œil — voir `filtrerFlux`, et `test_siege.js` qui garde les deux.
+        items = filtrerFlux(items, qui(req, url));
         // Le flux est append-only et ne cesse de grossir : au bout de
         // quelques heures de partie, chaque sondage retransmet des milliers
         // de lignes et le navigateur rejoue tout au rechargement. On ne sert

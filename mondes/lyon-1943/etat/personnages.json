@@ -1,0 +1,538 @@
+[
+  {
+    "id": "marcel-rivoire",
+    "nom": "Marcel Rivoire",
+    "maison_id": "maison-rivoire",
+    "titre": "Ouvrier typographe à l'imprimerie Chabert",
+    "naissance": 1921,
+    "traits": [
+      "habile",
+      "têtu",
+      "pudique",
+      "loyal"
+    ],
+    "objectifs": [
+      {
+        "but": "Ne pas partir en Allemagne",
+        "priorite": 1
+      },
+      {
+        "but": "Ne pas faire payer ses parents",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Parle peu et bas, en gone de la Croix-Rousse ; les mains toujours occupées, l'encre sous les ongles.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "LE SIÈGE JOUEUR. Invention déclarée. Classe 1921, feuille de route pour le dimanche 7 mars, gare des Brotteaux. Aucune entrée dans intentions.json."
+  },
+  {
+    "id": "louis-perret",
+    "nom": "Louis Perret",
+    "maison_id": "atelier-chabert",
+    "titre": "Compositeur à l'imprimerie Chabert",
+    "naissance": 1909,
+    "traits": [
+      "prudent",
+      "ironique",
+      "fraternel"
+    ],
+    "objectifs": [
+      {
+        "but": "Sortir les jeunes de l'atelier avant qu'on les emmène",
+        "priorite": 1
+      },
+      {
+        "but": "Ne pas se faire prendre",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Gouailleur en public, grave en aparté ; parle du coin de la bouche, sans lever les yeux de la casse.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Invention déclarée. Trente-quatre ans, sympathisant communiste discret ; connaît Marchal par un ancien de l'atelier. C'est lui qui fait le premier pas vers Marcel."
+  },
+  {
+    "id": "gaston-chabert",
+    "nom": "Gaston Chabert",
+    "maison_id": "atelier-chabert",
+    "titre": "Maître imprimeur, patron de l'imprimerie Chabert",
+    "naissance": 1885,
+    "traits": [
+      "prudent",
+      "avare",
+      "patriote à sa façon"
+    ],
+    "objectifs": [
+      {
+        "but": "Garder l'atelier ouvert et ses commandes",
+        "priorite": 1
+      },
+      {
+        "but": "Ne pas avoir d'histoires avec les autorités",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Ancien de Verdun ; dit « le Maréchal » avec respect et « les boches » quand il croit qu'on ne l'entend pas.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Invention déclarée. Imprime des formulaires pour la préfecture et des étiquettes pour les soyeux. Il a posé la feuille de route sur le marbre parce que la loi l'oblige à la remettre."
+  },
+  {
+    "id": "etienne-marchal",
+    "nom": "Étienne Marchal",
+    "maison_id": "groupe-des-pentes",
+    "titre": "Recruteur du groupe, dit « Bastien »",
+    "naissance": 1916,
+    "traits": [
+      "courageux",
+      "chaleureux",
+      "vaniteux",
+      "sentimental"
+    ],
+    "objectifs": [
+      {
+        "but": "Faire grossir le groupe",
+        "priorite": 1
+      },
+      {
+        "but": "Être quelqu'un aux yeux des chefs",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Tutoie tout de suite, rit fort, tape sur l'épaule ; promet vite, et tient presque toujours.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Invention déclarée. LE FAUX AMI À VENIR, sur le modèle de Multon : sincère au départ ; sa tête porte l'horloge de son arrestation en mai et de son retournement. Ancien sergent-chef de 1940."
+  },
+  {
+    "id": "simone-dutreuil",
+    "nom": "Simone Dutreuil",
+    "maison_id": "groupe-des-pentes",
+    "titre": "Cheffe du groupe des pentes, dite « Claire »",
+    "naissance": 1913,
+    "traits": [
+      "froide",
+      "méticuleuse",
+      "courageuse",
+      "juste"
+    ],
+    "objectifs": [
+      {
+        "but": "Tenir le cloisonnement",
+        "priorite": 1
+      },
+      {
+        "but": "Faire sortir le journal chaque quinzaine",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Phrases courtes, voix d'institutrice qui n'a pas besoin de la hausser ; ne répète jamais une consigne.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Invention déclarée. Institutrice sur le plateau. Rattachée à Libération-Sud. Elle a recruté Marchal elle-même."
+  },
+  {
+    "id": "auguste-merle",
+    "nom": "Auguste Merle",
+    "maison_id": "groupe-des-pentes",
+    "titre": "Imprimeur clandestin, dit « le Vieux »",
+    "naissance": 1887,
+    "traits": [
+      "bourru",
+      "minutieux",
+      "fidèle"
+    ],
+    "objectifs": [
+      {
+        "but": "Tirer le journal sans que le bruit s'entende",
+        "priorite": 1
+      },
+      {
+        "but": "Ne jamais laisser une feuille gâchée derrière lui",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Bougonne, compte tout à voix haute, jure en patois ; tendre avec les machines, pas avec les gens.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Invention déclarée. Ancien conducteur typographe à la retraite, presse à bras et ronéo dans une cave des pentes."
+  },
+  {
+    "id": "yves-le-gall",
+    "nom": "Yves Le Gall",
+    "maison_id": "france-libre",
+    "titre": "Opérateur radio du BCRA, dit « Tristan »",
+    "naissance": 1919,
+    "traits": [
+      "nerveux",
+      "drôle",
+      "solitaire"
+    ],
+    "objectifs": [
+      {
+        "but": "Émettre sans être goniométré",
+        "priorite": 1
+      },
+      {
+        "but": "Tenir jusqu'au prochain parachutage",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Accent breton, parle vite, plaisante pour ne pas trembler ; ne reste jamais assis dos à une fenêtre.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Invention déclarée. Parachuté en janvier ; change de chambre tous les trois jours. Ne connaît du groupe que Dutreuil."
+  },
+  {
+    "id": "jeanne-thivolet",
+    "nom": "Jeanne Thivolet",
+    "maison_id": "maison-thivolet",
+    "titre": "Veuve, logeuse à Saint-Georges",
+    "naissance": 1882,
+    "traits": [
+      "discrète",
+      "pieuse",
+      "pratique"
+    ],
+    "objectifs": [
+      {
+        "but": "Payer son loyer et son charbon",
+        "priorite": 1
+      },
+      {
+        "but": "Qu'on la laisse tranquille",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Ne pose pas de questions et le dit ; parle de ses morts et du prix des choses.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Invention déclarée. Veuve d'un cheminot ; loue une chambre sur cour. Peut cacher ou livrer, selon ce qu'on lui donne et ce qu'on lui prend."
+  },
+  {
+    "id": "louise-rivoire",
+    "nom": "Louise Rivoire",
+    "maison_id": "maison-rivoire",
+    "titre": "Couturière à domicile, mère de Marcel",
+    "naissance": 1895,
+    "traits": [
+      "inquiète",
+      "débrouillarde",
+      "tendre"
+    ],
+    "objectifs": [
+      {
+        "but": "Garder son fils",
+        "priorite": 1
+      },
+      {
+        "but": "Nourrir la maison",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Parle en travaillant, l'aiguille entre les dents ; ne pleure jamais devant les autres.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Invention déclarée."
+  },
+  {
+    "id": "jean-rivoire",
+    "nom": "Jean Rivoire",
+    "maison_id": "maison-rivoire",
+    "titre": "Cheminot à la gare des Brotteaux, père de Marcel",
+    "naissance": 1891,
+    "traits": [
+      "taciturne",
+      "droit",
+      "las"
+    ],
+    "objectifs": [
+      {
+        "but": "Que son fils ne parte pas",
+        "priorite": 1
+      },
+      {
+        "but": "Garder sa place",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Peu de mots, lourds ; ancien de 14-18, écoute la BBC tous les soirs et n'en dit rien.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Invention déclarée. Il voit partir les convois du STO depuis son poste."
+  },
+  {
+    "id": "raoul-mazet",
+    "nom": "Raoul Mazet",
+    "maison_id": "police-lyon",
+    "titre": "Inspecteur à la Sûreté de Lyon",
+    "naissance": 1903,
+    "traits": [
+      "ambigu",
+      "fatigué",
+      "calculateur"
+    ],
+    "objectifs": [
+      {
+        "but": "Garder sa place quel que soit le vainqueur",
+        "priorite": 1
+      },
+      {
+        "but": "Ne pas avoir de sang sur les mains",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Poli, las, toujours une cigarette qu'il n'allume pas ; dit beaucoup en ne disant rien.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Invention déclarée. Connaît la famille Rivoire depuis l'enfance de Marcel (il habite le plateau). Peut prévenir la veille d'une rafle, ou ne pas le faire."
+  },
+  {
+    "id": "lucien-bouvard",
+    "nom": "Lucien Bouvard",
+    "maison_id": "milice-lyon",
+    "titre": "Milicien",
+    "naissance": 1921,
+    "traits": [
+      "rancunier",
+      "fier",
+      "influençable"
+    ],
+    "objectifs": [
+      {
+        "but": "Être respecté dans le quartier",
+        "priorite": 1
+      },
+      {
+        "but": "Que les « rouges » paient",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Parle fort, béret et chemise kaki ; tutoie Marcel comme avant, avec quelque chose de plus.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Invention déclarée. Ancien apprenti de l'imprimerie Chabert, renvoyé en 1941 ; classe 1921 comme Marcel. Connaît tous les visages de l'atelier. Tenue et statut exacts de la Milice en mars 1943 à vérifier."
+  },
+  {
+    "id": "klaus-barbie",
+    "nom": "Klaus Barbie",
+    "maison_id": "sipo-sd-lyon",
+    "titre": "SS-Obersturmführer, chef de la section IV du SD de Lyon",
+    "naissance": 1913,
+    "traits": [
+      "méthodique",
+      "brutal",
+      "ambitieux"
+    ],
+    "objectifs": [
+      {
+        "but": "Remonter les mouvements jusqu'à leur tête",
+        "priorite": 1
+      },
+      {
+        "but": "Trouver l'envoyé de Londres",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Parle français, poli puis soudain hurlant ; aime qu'on le sache intelligent.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Personne réelle. Vingt-neuf ans. Sièges : hôtel Terminus, puis avenue Berthelot (mars 1943). Ses répliques passent par sa dépêche ; on s'en tient à l'établi."
+  },
+  {
+    "id": "jean-multon",
+    "nom": "Jean Multon",
+    "maison_id": "combat",
+    "titre": "Membre de Combat à Marseille, dit « Lunel »",
+    "naissance": 1908,
+    "traits": [
+      "intelligent",
+      "faible",
+      "calculateur"
+    ],
+    "objectifs": [
+      {
+        "but": "Survivre",
+        "priorite": 1
+      },
+      {
+        "but": "Se rendre indispensable à qui le tient",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Affable, précis, connaît les codes et les noms ; parle comme un camarade.",
+    "etat": "actif",
+    "lieu_id": "marseille",
+    "condition": "libre",
+    "_": "Personne réelle. Année de naissance à vérifier. À Marseille au départ. Canon : arrêté le 27 avril 1943, retourné, arrive à Lyon le 24 mai avec Moog."
+  },
+  {
+    "id": "robert-moog",
+    "nom": "Robert Moog",
+    "maison_id": "sipo-sd-lyon",
+    "titre": "Agent de l'Abwehr, dit « K30 »",
+    "naissance": 1915,
+    "traits": [
+      "froid",
+      "rusé",
+      "mobile"
+    ],
+    "objectifs": [
+      {
+        "but": "Infiltrer les mouvements de zone sud",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Se fait passer pour un résistant ; parle le français d'un Alsacien.",
+    "etat": "actif",
+    "lieu_id": "dijon",
+    "condition": "libre",
+    "_": "Personne réelle. Année de naissance à vérifier ; rattaché à l'Abwehr de Dijon, rangé ici avec le SD par commodité. Canon : avec Multon à Lyon fin mai ; dans le train de Hardy le 7 juin."
+  },
+  {
+    "id": "jean-moulin",
+    "nom": "Jean Moulin",
+    "maison_id": "france-libre",
+    "titre": "Délégué du général de Gaulle, dit « Rex » puis « Max »",
+    "naissance": 1899,
+    "traits": [
+      "autoritaire",
+      "secret",
+      "infatigable"
+    ],
+    "objectifs": [
+      {
+        "but": "Unifier la Résistance sous de Gaulle",
+        "priorite": 1
+      },
+      {
+        "but": "Créer le Conseil de la Résistance",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Écharpe au cou, sourire bref ; tranche, ne s'explique pas, se souvient de tout.",
+    "etat": "actif",
+    "lieu_id": "londres",
+    "condition": "libre",
+    "_": "Personne réelle. À Londres du 14 février au 20 mars environ. Marcel ne le connaît pas et ne le connaîtra, au mieux, que par un pseudonyme et une silhouette."
+  },
+  {
+    "id": "lucie-aubrac",
+    "nom": "Lucie Aubrac",
+    "maison_id": "liberation-sud",
+    "titre": "Professeure d'histoire, de Libération-Sud",
+    "naissance": 1912,
+    "traits": [
+      "audacieuse",
+      "inventive",
+      "déterminée"
+    ],
+    "objectifs": [
+      {
+        "but": "Protéger les siens",
+        "priorite": 1
+      },
+      {
+        "but": "Faire agir le mouvement",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Franche, rapide, rit volontiers ; ose ce que les hommes n'osent pas demander.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Personne réelle. Canon : fait libérer Raymond en mai, organise son évasion le 21 octobre."
+  },
+  {
+    "id": "raymond-aubrac",
+    "nom": "Raymond Aubrac",
+    "maison_id": "liberation-sud",
+    "titre": "Ingénieur, de Libération-Sud",
+    "naissance": 1914,
+    "traits": [
+      "calme",
+      "rigoureux",
+      "courageux"
+    ],
+    "objectifs": [
+      {
+        "but": "Organiser la branche paramilitaire du mouvement",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Posé, précis, d'une douceur d'ingénieur ; pseudonymes multiples.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Personne réelle. Canon : arrêté le 15 mars 1943 par la police française sous le nom de Vallet, liberté provisoire le 10 mai ; arrêté à Caluire le 21 juin."
+  },
+  {
+    "id": "rene-hardy",
+    "nom": "René Hardy",
+    "maison_id": "combat",
+    "titre": "Responsable du sabotage ferroviaire de Combat, dit « Didot »",
+    "naissance": 1911,
+    "traits": [
+      "brillant",
+      "séducteur",
+      "orgueilleux"
+    ],
+    "objectifs": [
+      {
+        "but": "Paralyser les chemins de fer le jour venu",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Élégant, ironique, sûr de lui ; connaît les rails et les cheminots.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Personne réelle. Canon : arrêté dans la nuit du 7 au 8 juin à Chalon, relâché le 10 par Barbie ; présent à Caluire, s'échappe. Sa culpabilité n'est PAS établie (acquitté en 1947 et 1950) : sa tête garde une vérité privée, jamais présentée comme un fait."
+  },
+  {
+    "id": "michel-vinet",
+    "nom": "Michel Vinet",
+    "maison_id": null,
+    "titre": "Jeune dessinateur des Ponts et Chaussées de Niort, liaison de passage",
+    "naissance": 1926,
+    "traits": [
+      "révolté par l’injustice",
+      "débrouillard",
+      "gouailleur",
+      "courageux malgré la peur"
+    ],
+    "objectifs": [
+      {
+        "but": "Trouver un relais sûr pour aider les jeunes menacés du départ en Allemagne",
+        "priorite": 1
+      },
+      {
+        "but": "Protéger Gis et les camarades de Niort en ne donnant aucune source",
+        "priorite": 2
+      },
+      {
+        "but": "Rentrer à Niort avec une réponse utile",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Français familier de Niort, vif et concret ; plaisante pour tenir sa peur, se rengorge un peu devant les aînés ; pas d’accent lyonnais ni de sagesse de grand-père.",
+    "etat": "actif",
+    "lieu_id": "lyon",
+    "condition": "libre",
+    "_": "Personne réelle adaptée en fiction. Né en 1926, seize ou dix-sept ans au 5 mars 1943 (anniversaire non établi). Voyage et mission lyonnais inventés ; aucune affiliation lyonnaise acquise. Voir docs/michel-vinet-lyon-1943.md et sa chambre."
+  }
+]

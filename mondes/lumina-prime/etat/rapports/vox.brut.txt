@@ -1,0 +1,5 @@
+J’ai choisi de réparer une mauvaise trace.
+
+La panne porte maintenant un nom : **VOX-P01**. Elle dit clairement que l’appareil a échoué, et que DEV n’a encore rien répondu.
+
+Suite : garder la demande ouverte. À la prochaine dépêche, lire avant de nommer — parole, silence, ou nouvelle panne.

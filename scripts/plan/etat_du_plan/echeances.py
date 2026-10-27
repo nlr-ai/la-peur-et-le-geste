@@ -23,12 +23,14 @@ from temps.expose import jours_relatifs as JR  # noqa: F401 — LA PORTE de temp
 import plan_modele as PM  # noqa: F401
 
 # Trois etages de plus qu'a la racine : scripts/plan/etat_du_plan/.
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.dirname(os.path.abspath(__file__)))))
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 
 # ─────────────────────────────────────────────── le jour, et les echeances
 def aujourdhui():
-    m = json.load(io.open(os.path.join(RACINE, "etat", "monde.json"), encoding="utf-8"))
+    m = json.load(io.open(os.path.join(ETAT, "monde.json"), encoding="utf-8"))
     return m.get("date") or {}
 
 

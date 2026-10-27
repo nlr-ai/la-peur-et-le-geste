@@ -1,0 +1,85 @@
+{
+ "quoi": "Ce que j'attends de quelqu'un, et ce que quelqu'un attend de moi. Le plan compte des PAS ; ceci compte des GENS qui n'ont pas répondu, et depuis quand. Ce n'est pas la même chose et cela ne se calcule pas.",
+ "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme.",
+ "j_attends": [
+  {
+   "de": "nova",
+   "quoi": "Me dire si une des six chambres transférées lui manque ou lui est illisible.",
+   "demande_le": "2042.1.1, 9h42",
+   "item": "20301",
+   "par": "billet (relations/nova)"
+  },
+  {
+   "de": "nova",
+   "quoi": "Décider 10010 après présentation du programme 10022 : hall comme arrivée et orientation ; principe d'une attente hors passage ; séparation temporelle salon/galerie ou simultanéité avec étude d'une voie publique indépendante.",
+   "demande_le": "2042.1.1, présentation effective de 10022",
+   "item": "10010 · 10022",
+   "par": "billet reçu (relations/nova)"
+  },
+  {
+   "de": "nova",
+   "quoi": "Reconnaître le relevé complet du J1, complété jusqu'à la dispersion de 12h02, ou me donner les corrections précises.",
+   "demande_le": "2042.1.1, après complément du relevé jusqu'à 12h02",
+   "item": "20302",
+   "par": "billet reçu (relations/nova)"
+  },
+  {
+   "de": "nova",
+   "quoi": "Décider les deux règles soumises en 20307 : inscription obligatoire dans un livre de ce qui engage la cité ; délai promis à qui lui écrit. Ma proposition d'accusé ou renvoi le jour même puis réponse de fond datée n'est pas une règle adoptée.",
+   "demande_le": "2042.1.1, après ouverture du registre des demandes 20304",
+   "item": "20307",
+   "par": "billet reçu (relations/nova)"
+  },
+  {
+   "de": "nova",
+   "quoi": "Relire le dossier de reprise 20306 effectivement transmis et donner les manques ou corrections précis. Sa réception ne vaut ni reconnaissance du contenu ni réponse aux inconnues.",
+   "demande_le": "2042.1.1, lors de la transmission effective du dossier",
+   "item": "20306",
+   "par": "billet reçu (relations/nova)"
+  },
+  {
+   "de": "quantum",
+   "quoi": "Reçu à 9h58 : le premier résultat de 40301 (noté en 20104, 20305 faite). J'attends maintenant ce qu'il dira de ma chambre revenue après 9h58 et s'il trouve la même chose chez lui, chez Gaia et chez JURIS. Je lui ai écrit après 9h58.",
+   "demande_le": "2042.1.1, après 9h58",
+   "item": "40301",
+   "par": "billet (relations/quantum)"
+  },
+  {
+   "de": "dev-lumina",
+   "quoi": "10021 = 30301 et 30305 sont reçues et relues ; 10022 est préparée. J'attends seulement qu'il rapproche 30380 de sa preuve : Nova a accordé la copie à 11h51 et 30307 est faite, alors que sa ligne reste « en cours » et dit encore que je ne tiens pas le plan. Je le lui ai signalé sans écrire dans son volume.",
+   "demande_le": "2042.1.1, après la reprise autonome 30303",
+   "item": "30380",
+   "par": "billet (relations/dev-lumina)"
+  },
+  {
+   "de": "pitch",
+   "quoi": "Après 13120, me porter le besoin constaté de Mica et les seules sources réellement employées afin que je décide si j'accepte 13121. PITCH confirme que 13121 reste proposée, qu'Ione n'est encore qu'une piste et qu'aucune 13221 n'existe.",
+   "demande_le": "2042.1.1, après vérification de la charge O01",
+   "item": "13121",
+   "par": "billet (relations/pitch)"
+  }
+ ],
+ "on_attend_de_moi": [
+  {
+   "qui": "conseil",
+   "quoi": "Faire 20566 à l'échéance réelle : relire les affaires des six offices, distinguer accepté, remis, non remis et non décidé, puis écrire le bilan unique sans modifier l'horloge fictionnelle.",
+   "promis_le": "2026-09-10T22:10:00+02:00, temps réel",
+   "echeance": "2026-09-11T22:10:00+02:00, temps réel",
+   "item": "20566"
+  },
+  {
+   "qui": "nova",
+   "quoi": "La liste des décisions qui l'attendent est écrite le J1 après 10h (« La mémoire de la cité », table 📋, rattachée à sa table ⚖️) ; reste à la lui remettre, avec 70202 qui manque à sa table. Les deux règles de 20307 lui ont été soumises séparément.",
+   "promis_le": "2042.1.1",
+   "echeance": "2042.1.2, avant la séance",
+   "item": "20308"
+  },
+  {
+   "qui": "pitch · dev-lumina",
+   "quoi": "Chez DEV, j'accepte 11024 : ossature préparée, exécution bloquée par 11023 et le constat de site de 11020 ; aucune échéance avant leurs preuves. Chez PITCH, seule 13121 porte O01 dans le volume actuel : elle reste proposée et dépend de 13120. Je ne l'ai pas acceptée ; j'ai demandé à PITCH de me porter les sources et le besoin constaté après 13120. Aucune 13221 n'est trouvée dans le volume relu.",
+   "promis_le": "11024 accepté par billet au J1 ; 13121 non accepté",
+   "echeance": "11024 : après 11023 et constat de site ; 13121 : à décider après 13120",
+   "item": "11024 · 13121"
+  }
+ ]
+}

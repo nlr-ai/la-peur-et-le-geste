@@ -15,9 +15,9 @@
 const fs = require("fs");
 const path = require("path");
 const { execFile } = require("child_process");
-const { RACINE } = require("../http");
+const { DEPOT, ETAT } = require("../http");
 
-const DOSSIER = path.join(RACINE, "etat", "parties");
+const DOSSIER = path.join(ETAT, "parties");
 
 // LES CAMPS QUI ONT DEJA JOUE dans cette partie, lus du jsonl. Le greffe
 // accepte N camps et n'a donc aucune raison de refuser un nom neuf — c'est
@@ -90,10 +90,10 @@ function vue(url, camp, cb, vu) {
   if (!id) return cb(null, { partie: null, camp: camp, fronts: [], desseins: [],
                              deck: { main: [], route: [], remet: [], posees: [], detruites: [] } });
   camp = camp || campDe(url);
-  const args = [path.join(RACINE, "scripts", "partie.py"), id, "--cartes",
+  const args = [path.join(DEPOT, "scripts", "partie.py"), id, "--cartes",
                 "--vu", String(vu || 0)].concat(camp ? ["--camp", camp] : []);
   execFile(process.env.PYTHON || "python", args,
-    { cwd: RACINE, timeout: 20000, maxBuffer: 8 * 1024 * 1024, windowsHide: true,
+    { cwd: DEPOT, timeout: 20000, maxBuffer: 8 * 1024 * 1024, windowsHide: true,
       env: Object.assign({}, process.env, { PYTHONIOENCODING: "utf-8" }) },
     (err, stdout, stderr) => {
       if (err) return cb(new Error(derniereLigne(stderr, err)));
@@ -123,12 +123,12 @@ function jouer(url, camp, geste, cb, vu) {
   const id = partieDe(url);
   if (!id) return cb(null, { ok: false, refus: ["aucune partie ouverte"], vue: null });
   camp = camp || campDe(url);
-  const args = [path.join(RACINE, "scripts", "partie.py"), id, "--geste",
+  const args = [path.join(DEPOT, "scripts", "partie.py"), id, "--geste",
                 JSON.stringify(camp ? Object.assign({}, geste, { camp: camp }) : geste),
                 "--vu", String(vu || 0)].concat(camp ? ["--camp", camp] : []);
   enFile(id, (fin) => {
     execFile(process.env.PYTHON || "python", args,
-      { cwd: RACINE, timeout: 20000, maxBuffer: 8 * 1024 * 1024, windowsHide: true,
+      { cwd: DEPOT, timeout: 20000, maxBuffer: 8 * 1024 * 1024, windowsHide: true,
         env: Object.assign({}, process.env, { PYTHONIOENCODING: "utf-8" }) },
       (err, stdout, stderr) => {
         try {
@@ -173,8 +173,8 @@ function ruban(url, cb) {
   const id = partieDe(url);
   if (!id) return cb(null, "<p>aucune partie ouverte</p>");
   execFile(process.env.PYTHON || "python",
-    [path.join(RACINE, "scripts", "partie.py"), id, "--ruban", "-"],
-    { cwd: RACINE, timeout: 20000, maxBuffer: 16 * 1024 * 1024, windowsHide: true,
+    [path.join(DEPOT, "scripts", "partie.py"), id, "--ruban", "-"],
+    { cwd: DEPOT, timeout: 20000, maxBuffer: 16 * 1024 * 1024, windowsHide: true,
       env: Object.assign({}, process.env, { PYTHONIOENCODING: "utf-8" }) },
     (err, stdout, stderr) => err ? cb(new Error(derniereLigne(stderr, err)))
                                  : cb(null, String(stdout)));
@@ -192,7 +192,7 @@ function cheminVu(siege, id, camp) {
   // et le coup de l'un effaçait la relecture de l'autre. Un plateau sans camp
   // nommé garde l'ancien chemin, pour ne pas perdre les marque-pages posés.
   const c = String(camp || "").replace(/[^A-Za-z0-9_-]/g, "");
-  return path.join(RACINE, "etat", "joueurs", qui,
+  return path.join(ETAT, "joueurs", qui,
                    "partie-" + id + (c ? "-" + c : "") + ".json");
 }
 

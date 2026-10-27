@@ -1,0 +1,177 @@
+/* NAVARRE 1572 — l'habillage de la partie.
+   Paris, août 1572. Le cadre est un velours d'azur semé de lys d'or : la cour
+   des Valois, où le roi de Navarre est un invité. Chaque colonne est une page
+   de papier vergé à l'encre de noix ; ce qui engage est en noir — le deuil
+   des gentilshommes de Navarre — sous filet d'or ; le rouge de Navarre ne
+   marque que le sang.
+
+   DEUX LUMIÈRES. En clair : le papier à la lumière d'une fenêtre du Louvre.
+   En sombre : la même page à la chandelle, papier bruni, encre pâle. Le cadre
+   d'azur ne change pas.
+
+   Aucune image tirée d'ailleurs : le semé de lys et le vergé du papier sont
+   des dégradés CSS ; logo.svg est dessiné à la main.
+
+   Chargée en DERNIER (voir serveur/routes/habillage.js) : elle surcharge
+   jeu.css et ne retire rien. Elle ne connaît que des sélecteurs de jeu.css. */
+
+:root{
+  --hb-haut:64px;
+  --hb-bas:14px;
+  --hb-cote:18px;
+  --hb-azur:#17224a;
+  --hb-or:#cfae62;
+  --hb-or-vif:#f0d996;
+  --hb-filet:#b8954a;
+  --hb-noir:linear-gradient(#2a2724,#0f0e0d);
+  --hb-noir-survol:linear-gradient(#3b2a22,#1a110d);
+  --hb-lettres:'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif;
+  /* le papier vergé : des lignes de chaînette très légères sur un ivoire chaud */
+  --hb-page:#ece0c4 repeating-linear-gradient(90deg,rgba(120,90,40,.035) 0 1px,transparent 1px 26px);
+  --hb-page-ombre:inset 0 0 60px rgba(90,64,30,.22), inset 0 0 6px rgba(90,64,30,.3);
+  --hb-case:#f5ecd8;
+
+  --ink:#2a1d12; --muted:#56442f; --paper:rgba(90,60,30,.07);
+  --bord:rgba(96,74,44,.4); --accent:#1f3170; --braise:#8c1c1c;
+  --btn:rgba(60,45,30,.07); --btn-hover:rgba(31,49,112,.12);
+  --fond:#ece0c4 !important; --jour-lueur:transparent !important;
+  --fond-lateral:transparent;
+  --pensee:#4a3f63; --monde:#46554c; --sang:#8c1c1c; --vert:#3d5a3e;
+  --loge:#32596a; --or-joueur:#9a7a1c;
+  --book-registre:#5a3d1c; --book-carnet:#4a3f63; --book-plan:#1f3170;
+  --book-memento:#46554c; --book-dossier:#32596a; --book-regle:#8c1c1c;
+  --book-oeuvre:#7a5e1a;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --hb-page:#211c16 repeating-linear-gradient(90deg,rgba(230,210,170,.025) 0 1px,transparent 1px 26px);
+    --hb-page-ombre:inset 0 0 70px rgba(0,0,0,.5), inset 0 0 4px rgba(0,0,0,.6);
+    --hb-case:#17130f;
+    --ink:#e8dcc4; --muted:#b9a88a; --paper:rgba(230,215,190,.05);
+    --bord:rgba(207,174,98,.28); --accent:#9fb2ea; --braise:#d0655c;
+    --btn:rgba(230,215,190,.06); --btn-hover:rgba(159,178,234,.14);
+    --fond:#211c16 !important;
+    --pensee:#ab9fc6; --monde:#97a69c; --sang:#d0655c; --vert:#7da37e;
+    --loge:#7db3c4; --or-joueur:#e2c35a;
+    --book-registre:#c6a274; --book-carnet:#ab9fc6; --book-plan:#9fb2ea;
+    --book-memento:#97a69c; --book-dossier:#7db3c4; --book-regle:#d0655c;
+    --book-oeuvre:#cfb062;
+  }
+}
+
+/* ------- le cadre : velours d'azur semé de lys (des losanges d'or) ------- */
+html{background:var(--hb-azur);}
+body{box-sizing:border-box;padding:var(--hb-haut) var(--hb-cote) var(--hb-bas);
+  column-gap:10px;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(207,174,98,.18) 0 2px, transparent 2.5px) 0 0/34px 34px,
+    radial-gradient(circle at 50% 50%, rgba(207,174,98,.10) 0 1.5px, transparent 2px) 17px 17px/34px 34px,
+    linear-gradient(#1c2a5a,#121a38) fixed;}
+::selection{background:#1f317033;}
+*{scrollbar-color:#b8954a transparent;}
+
+/* ------- le bandeau ------- */
+#habillage-bandeau{position:fixed;top:0;left:0;right:0;height:var(--hb-haut);
+  z-index:4;pointer-events:none;
+  background:linear-gradient(to bottom,rgba(0,0,0,.35),transparent);}
+#habillage-bandeau::after{content:"";position:absolute;left:var(--hb-cote);right:var(--hb-cote);
+  bottom:6px;height:1px;
+  background:linear-gradient(to right,transparent,#cfae6299 12%,#cfae6299 88%,transparent);}
+#habillage-bandeau .hb-titre{position:absolute;left:calc(var(--hb-cote) + 66px);
+  top:calc(var(--hb-haut) / 2 - 15px);
+  font:400 17px/1.4 var(--hb-lettres);letter-spacing:.2em;text-transform:uppercase;
+  color:var(--hb-or);white-space:nowrap;text-shadow:0 1px 0 #000;}
+#habillage-bandeau .hb-logo{position:absolute;right:calc(var(--hb-cote) + 4px);top:6px;
+  height:calc(var(--hb-haut) - 16px);width:auto;opacity:.95;}
+
+/* ------- les pages ------- */
+#fil, #scene, #lateral:not(.ferme){
+  height:calc(100vh - var(--hb-haut) - var(--hb-bas));
+  background:var(--hb-page);
+  border:0;border-radius:2px;
+  box-shadow:var(--hb-page-ombre),
+    0 0 0 1px #b8954aaa, 0 0 0 4px #121a38, 0 0 0 5px #b8954a66,
+    0 6px 18px rgba(0,0,0,.55);}
+#fil{padding:22px 26px 16px;}
+#scene{padding:18px 18px 14px;}
+#fil-corps .chr{font-size:.84em;line-height:1.66;}
+#fil-corps .chr-breve{font-size:.78em;}
+.chr-qui{font-family:var(--hb-lettres);letter-spacing:.08em;}
+
+/* les présents, sur le velours : leurs noms en or */
+#acteurs{height:calc(100vh - var(--hb-haut) - var(--hb-bas));background:none;
+  border-right:0;padding:6px 4px;}
+#acteurs .acteur .qui{color:var(--hb-or);text-shadow:0 1px 2px #000;}
+#acteurs .acteur.parle .qui{color:var(--hb-or-vif);}
+#acteurs .acteur .medaillon svg{filter:drop-shadow(0 2px 3px #000a);}
+.acteurs-tri{background:var(--hb-noir);color:var(--hb-or);border-color:var(--hb-filet);}
+.acteurs-tri:hover{background:var(--hb-noir-survol);color:var(--hb-or-vif);}
+.acteurs-bas{color:var(--hb-or);background:linear-gradient(to bottom,transparent,#121a38 72%);}
+
+#vue-bascule{max-width:calc(100% - 96px);margin:0 auto 3px 0;flex-wrap:wrap;row-gap:2px;}
+#vue-bascule button{padding:3px 7px;white-space:nowrap;}
+#vue-bascule button.actif{background:var(--btn-hover);border-color:var(--accent);color:var(--ink);}
+
+#lateral{height:calc(100vh - var(--hb-haut) - var(--hb-bas));border-right:0;background:none;}
+#lateral.ferme{padding:4px 6px;}
+#lateral.ferme #lateral-bascule{color:var(--hb-or);background:var(--hb-noir);
+  border:1px solid var(--hb-filet);box-shadow:0 2px 4px #0008;}
+#lateral.ferme #lateral-bascule:hover{color:var(--hb-or-vif);background:var(--hb-noir-survol);}
+#lateral:not(.ferme){padding:22px 22px 20px;}
+#lateral:not(.ferme) #lateral-bascule{background:none;border-color:transparent;color:var(--muted);}
+#lateral:not(.ferme) #lateral-bascule:hover{color:var(--accent);border-color:var(--bord);}
+
+/* ------- l'encre ------- */
+.zone-titre{font-family:var(--hb-lettres);font-variant:normal;text-transform:uppercase;
+  font-size:.68em;letter-spacing:.18em;color:var(--muted);border-bottom:1px solid var(--bord);}
+a{color:var(--accent);}
+
+/* ------- ce qui engage : le noir du deuil, filet d'or ------- */
+#btn-libre, #mode-input button.actif{background:var(--hb-noir);color:#efe6d2;
+  border:1px solid var(--hb-filet);box-shadow:0 2px 4px #0006;}
+#btn-libre:hover, #mode-input button.actif:hover{background:var(--hb-noir-survol);
+  color:#fff6e2;border-color:var(--hb-or-vif);}
+#mode-input #mode-dire.actif, #mode-input #mode-agir.actif{color:#efe6d2;
+  border-color:var(--hb-filet);background:var(--hb-noir);}
+#mode-input button:not(.actif){background:var(--btn);border-color:var(--bord);color:var(--muted);}
+#fil #mode-input{flex-wrap:wrap;gap:4px;}
+#fil #mode-input button{white-space:nowrap;font-size:.68em;padding:3px 10px;}
+
+#fil .libre textarea, #champ-libre{box-sizing:border-box;background:var(--hb-case);color:var(--ink);
+  border:1px solid var(--bord);border-radius:2px;box-shadow:inset 0 1px 3px #00000022;}
+#fil .libre textarea:focus, #champ-libre:focus{outline:none;border-color:var(--accent);
+  box-shadow:inset 0 1px 3px #00000022,0 0 0 2px #1f317026;}
+#fil .libre textarea::placeholder, #champ-libre::placeholder{color:var(--muted);opacity:.8;}
+
+#bandeau{color:var(--muted);font-family:var(--hb-lettres);font-style:italic;}
+#fil #fil-actions{border-top-color:var(--bord);}
+
+@media (prefers-color-scheme: dark){
+  #acteurs .acteur .qui{color:var(--hb-or);}
+}
+
+/* ------- la table peinte : le royaume, le Béarn, l'étranger -------
+   Le royaume d'un lavis de blé, le Béarn d'un rouge de Navarre très passé,
+   l'étranger laissé au papier. La mer et les fleuves en ardoise : la Seine
+   décide de qui peut fuir. */
+:root{
+  --mer:#93a6b2; --hautfond:#71858f;
+  --hb-t-royaume:rgba(196,160,84,.20); --hb-t-bearn:rgba(140,28,28,.18);
+  --hb-t-etranger:rgba(120,110,95,.08);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --mer:#2c4352; --hautfond:#476070;
+    --hb-t-royaume:rgba(196,160,84,.14); --hb-t-bearn:rgba(208,101,92,.16);
+    --hb-t-etranger:rgba(200,190,170,.04);
+  }
+}
+.region-terre[data-region="royaume"]{fill:var(--hb-t-royaume);}
+.region-terre[data-region="bearn"]{fill:var(--hb-t-bearn);}
+.region-terre[data-region="etranger"]{fill:var(--hb-t-etranger);}
+.eaux{fill:var(--mer);stroke:var(--hautfond);}
+.rivieres{fill:var(--mer);stroke:var(--hautfond);opacity:.9;}
+
+@media (max-width:900px){
+  #habillage-bandeau .hb-titre{display:none;}
+}

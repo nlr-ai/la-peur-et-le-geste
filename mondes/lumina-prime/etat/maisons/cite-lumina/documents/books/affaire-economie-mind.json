@@ -1,0 +1,685 @@
+{
+  "id": "affaire-economie-mind",
+  "maison_id": "cite-lumina",
+  "lieu_id": "lumina-prime",
+  "salle_id": "radiant-core",
+  "titre": "L'économie Mind",
+  "type": "plan",
+  "couleur": "#157f8b",
+  "embleme": "◉",
+  "sous_titre": "Le vrai design, tiré des graphes causaux du projet Mind · plage 92000 à 92999",
+  "tenu_par": "nova",
+  "office": "Maire de Lumina Prime",
+  "pages": [
+    "Cette affaire porte l'économie Mind telle que la décrivent les graphes du projet (mind-investment/import : mind-economic-causality.json, economy-price-formation.json) : un domaine vital en Mind, séparé de l'argent du luxe ; une monnaie qui circule et ne s'accumule pas ; un crédit quotidien universel financé par un prélèvement continu sur les wallets ; un prix contextuel qui apparaît à la rencontre, borné, explicable, contestable, calculé localement. Elle est la voisine de « Concevoir $MIND », qui en essaie une version chez les agents de Lumina.",
+    "**Ce qui est vrai aujourd'hui :** la fonction de prix n'existe pas, et elle bloque presque tout. Toutes les arêtes causales du graphe sont des assertions, à confiance 0,15 à 0,4 ; aucune n'est mesurée. L'instrument qui peut les confirmer ou les casser est la simulation money-endgame (une ville de 100 000 habitants, avec et sans Mind) : sa baseline euro passe 2 seeds sur 4, donc tout run Mind reste NON_DÉCISIONNEL.",
+    "**Terminé quand :** une campagne appariée Mind / euro, sur baseline robuste, a mesuré la couverture du panier vital, les jours de rupture, la couverture des charges producteur et la rétention après subvention, et les décisions ouvertes du 30 septembre 2026 sont tranchées avec leurs preuves."
+  ],
+  "tables": [
+    {
+      "titre": "🏰 Ouverture de l'Affaire",
+      "colonnes": [
+        "🧱 Le champ",
+        "✍️ Ce qu'on y écrit"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**🏷️ LE NOM**",
+            "L'économie Mind"
+          ]
+        },
+        {
+          "cellules": [
+            "**🎯 L'OBJET**",
+            "Rendre les biens de vie accessibles chaque jour, indépendamment du salaire, par une monnaie qui circule sans s'accumuler, et prouver en simulation que cela tient."
+          ]
+        },
+        {
+          "cellules": [
+            "**🧱 LE PÉRIMÈTRE — DANS**",
+            "Le domaine Mind et sa frontière, le crédit quotidien, le prélèvement, la formation du prix, l'adoption marchande, la nature de Mind au paiement, le capteur de valeur, l'attestation, le soin invisible, l'entrée des euros, et leur test dans money-endgame."
+          ]
+        },
+        {
+          "cellules": [
+            "**🚫 LE PÉRIMÈTRE — HORS**",
+            "Le luxe, les actifs rares et spéculatifs (restent en argent), la gouvernance démocratique elle-même, le déploiement réel."
+          ]
+        },
+        {
+          "cellules": [
+            "**📌 L'ÉTAT ACTUEL**",
+            "Fonction de prix non spécifiée ; neuf décisions proposées, dues au 30.9.2026, aucune tranchée ; arêtes causales à confiance 0,15–0,4 ; baseline euro PASS sur 2 seeds sur 4 (survie-firmes à 0,750 et 0,795 pour une borne à 0,800)."
+          ]
+        },
+        {
+          "cellules": [
+            "**🔢 LA PLAGE**",
+            "92000 à 92999"
+          ]
+        },
+        {
+          "cellules": [
+            "**💡 LA CONCLUSION**",
+            ""
+          ]
+        },
+        {
+          "cellules": [
+            "**🔚 FERMÉE QUAND**",
+            "Campagne appariée sur baseline robuste ; métriques du graphe mesurées ; décisions du 30.9 tranchées avec leurs preuves."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔗 Affaires liées — les liens écrits",
+      "colonnes": [
+        "🪢 Le lien",
+        "🔗 L'affaire",
+        "🔢 Notre pièce",
+        "🔢 La leur",
+        "📝 Pourquoi"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "partage",
+            "affaire-conception-mind",
+            "92100",
+            "91100",
+            "Le même verrou de voûte, des deux côtés : sans fonction de prix ni mesure, rien ne se paie."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "🎯 N°",
+        "🏷️ L'état",
+        "✅ Ce qui doit être vrai",
+        "💡 Valence",
+        "📍 Où",
+        "👁️ La preuve",
+        "⬆️ Sert",
+        "💯 Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**92000**",
+            "**Dans une ville pilote, ce qu'il faut pour vivre s'achète en Mind, chaque jour, avec ou sans emploi.**",
+            "Nourriture, logement, énergie, soin, mobilité et les autres biens définis collectivement restent accessibles quand le revenu disparaît.",
+            "L'automatisation et la précarité ne coupent plus l'accès à la vie.",
+            "Territoire pilote ; ville simulée de 100 000",
+            "Couverture du panier vital et jours de rupture, mesurés contre la baseline euro.",
+            "racine",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "**92001**",
+            "**Le panier vital est réellement payable en Mind sur le territoire.**",
+            "La part en valeur du panier vital payable auprès de fournisseurs disponibles atteint le seuil ; l'éligibilité théorique ne compte pas.",
+            "Un droit monétaire sans biens disponibles resterait nominal.",
+            "Territoire pilote",
+            "Couverture du panier vital en Mind, mensuelle ; jours de rupture.",
+            "92000",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "**92002**",
+            "**Mind circule et ne s'accumule pas.**",
+            "Le protocole rend la thésaurisation impossible (expiration, plafond dynamique ou redistribution) et le prélèvement continu alimente le crédit quotidien universel.",
+            "Le besoin ne redevient pas pouvoir : la puissance vient de l'accès au flux, pas de la taille du coffre.",
+            "Registre Mind",
+            "Part du flux sortant vers l'euro ; concentration des soldes.",
+            "92000",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "**92003**",
+            "**Un besoin vital avéré fait tendre le prix vers zéro.**",
+            "Au moment du besoin réel, le prix chute ; il n'y a pas d'épargne à constituer pour l'avenir.",
+            "C'est ce qui rend la non-accumulation soutenable : personne n'est sans recours au moment où il en a besoin.",
+            "Prix contextuel local",
+            "Scénarios d'urgence rejoués en simulation.",
+            "92000",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "**92004**",
+            "**Contribuer baisse son propre coût de la vie.**",
+            "La contribution récente d'un producteur abaisse ses propres prix ; Mind rémunère par le coût de la vie, pas par un solde convertible.",
+            "Le producteur n'a plus besoin de sortir vers l'euro.",
+            "Prix contextuel local",
+            "Couverture des charges d'un producteur type ; reconstituabilité du score de contribution.",
+            "92006",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "**92005**",
+            "**Tout prix est borné, explicable et contestable.**",
+            "Chaque écart de prix est attribuable à un critère nommé publiquement, reste dans des bornes par catégorie, et peut être contesté avec une voie de recours effective.",
+            "La différenciation est assumée sans devenir une autorité sans recours.",
+            "Prix contextuel local",
+            "Issue des contestations : part expliquée recevable, part révisée, comptées séparément.",
+            "92000",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "**92006**",
+            "**Les producteurs couvrent leurs charges sans subvention.**",
+            "Un producteur type couvre intrants, travail et maintenance, et reste actif six mois après la fin de la subvention.",
+            "L'adoption tient au modèle, pas à l'argent versé.",
+            "Territoire pilote",
+            "Couverture des charges producteur ; rétention marchande après subvention.",
+            "92001",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "**92007**",
+            "**Le soin lourd est reconnu même quand le bénéficiaire ne peut pas attester.**",
+            "Enfant, démence, détresse ou isolement n'empêchent pas la reconnaissance d'une contribution de soin.",
+            "Non observé ne veut jamais dire sans valeur.",
+            "Voies d'attestation",
+            "Taux de contributions de soin vérifiées sans attestation directe du bénéficiaire.",
+            "92004",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "**92008**",
+            "**Aucune donnée intime ne quitte l'appareil.**",
+            "Le calcul du prix et de la valeur vécue reste local ; seule une conclusion minimale, signée par la personne, peut circuler.",
+            "Un prix personnalisé ne se paie pas en surveillance.",
+            "Appareil de la personne",
+            "Audit de flux de données ; test d'opt-out.",
+            "92005",
+            "à fixer"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous ouverts",
+      "colonnes": [
+        "🔒 N°",
+        "🏷️ Le verrou ouvert",
+        "⛔ Bloque",
+        "📌 Ce qui est vrai aujourd'hui",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "🔓 Levé quand"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**92100**",
+            "**La fonction de prix contextuel doit être spécifiée.**",
+            "92003, 92004, 92005",
+            "Ses entrées, leur pondération, ses bornes, son lieu de calcul et sa procédure de contestation ne sont pas définis : le mécanisme ne peut être ni implémenté ni testé.",
+            "",
+            "question-price-function-unspecified (BLOCKS).",
+            "Fonction spécifiée, bornée, exécutable localement et rejouable sur les scénarios P0."
+          ]
+        },
+        {
+          "cellules": [
+            "**92101**",
+            "**L'acceptation de Mind par un producteur doit devenir rationnelle.**",
+            "92006, 92001",
+            "Quatre options d'adoption, plus le marché libre, sont proposées ; aucune n'est choisie, et toutes dépendent du prix.",
+            "92100, 92108",
+            "decision-merchant-adoption, due au 30.9.2026.",
+            "Doctrine de régime permanent arbitrée, démarrage daté, soupape bornée ou écartée."
+          ]
+        },
+        {
+          "cellules": [
+            "**92102**",
+            "**La nature de Mind au paiement doit être choisie.**",
+            "92002",
+            "Monnaie récursive, droit de tirage détruit au paiement, ou coexistence : non tranché.",
+            "",
+            "decision-mind-settlement-nature.",
+            "Nature transitoire et nature cible nommées, règle de passage publiée, test comptable exécuté."
+          ]
+        },
+        {
+          "cellules": [
+            "**92103**",
+            "**La frontière du domaine Mind doit classer les biens à usage mixte.**",
+            "92001",
+            "Limiter Mind aux achats finaux laisse les intrants en euros ; une liste statique classe mal le four, le camion, la chambre froide.",
+            "",
+            "decision-mind-domain-boundary.",
+            "Règle d'éligibilité publiée et appliquée sans contradiction aux cas limites."
+          ]
+        },
+        {
+          "cellules": [
+            "**92104**",
+            "**Le capteur de valeur doit rester local et sans pouvoir sur le socle vital.**",
+            "92008, 92004",
+            "Conversations, biométrie et usages renseignent la valeur vécue ; les exporter crée surveillance et décisions incontestables.",
+            "",
+            "decision-value-sensor-boundary.",
+            "Flux de données et pouvoir décisionnel documentés, testés, contestables."
+          ]
+        },
+        {
+          "cellules": [
+            "**92105**",
+            "**Le budget d'attestation doit venir d'une source qui ne concentre pas le jugement.**",
+            "92004",
+            "Budget acheté, gagné ou égal : non tranché. Sans lui, le coût de l'award est fictif ou devient une ploutocratie du jugement.",
+            "",
+            "question-attestation-budget (BLOCKS) ; decision-attestation-budget.",
+            "Règle de dotation publiée, concentration mesurée sur plusieurs cycles."
+          ]
+        },
+        {
+          "cellules": [
+            "**92106**",
+            "**Le soin sans bénéficiaire attestant doit avoir une voie de reconnaissance.**",
+            "92007",
+            "Le bénéficiaire seul exclut le soin lourd ; les tiers seuls ouvrent les cartels locaux.",
+            "92105",
+            "decision-invisible-care-attestation.",
+            "Voies et recours validés sur des cas de bénéficiaires incapables d'attester."
+          ]
+        },
+        {
+          "cellules": [
+            "**92107**",
+            "**L'entrée des euros doit se faire sans vendre de priorité vitale.**",
+            "92000",
+            "Financer le capital, abonder le commun ou acheter Mind : trois actes différents, non tranchés ; l'achat général contredirait « l'accès vital ne dépend pas du revenu ».",
+            "",
+            "decision-euro-entry-into-mind.",
+            "Option choisie, articulée avec la séparation des domaines, avis juridique qualifié référencé."
+          ]
+        },
+        {
+          "cellules": [
+            "**92108**",
+            "**La baseline euro de la simulation doit être robuste.**",
+            "92001, 92006",
+            "PASS sur 2 seeds sur 4 (42 et 101) ; 7 et 2024 échouent sur survie-firmes. Tout run Mind reste NON_DÉCISIONNEL.",
+            "",
+            "money-endgame/CLAUDE.md, état du dépôt.",
+            "Baseline PASS sur la campagne appariée, sans réglage seed par seed ni borne touchée."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs retenues",
+      "colonnes": [
+        "🗝️ N°",
+        "🏷️ La clef",
+        "🔓 Ouvre",
+        "💡 Le principe et sa valence",
+        "🧰 Moyens",
+        "👁️ La preuve",
+        "⚖️ Décision"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**92200**",
+            "**Tester des fonctions de prix candidates en simulation, une par run.**",
+            "92100",
+            "La fonction de prix devient une variable expérimentale, pas un prérequis : on compare des runs qui déclarent chacun la leur.",
+            "",
+            "Runs comparés, rejouables.",
+            "à décider"
+          ]
+        },
+        {
+          "cellules": [
+            "**92201**",
+            "**Classer les biens par usage productif (F3).**",
+            "92103",
+            "Le four entre dans Mind pour la part vérifiable de son usage consacrée au vital admissible ; les actifs positionnels restent dehors.",
+            "",
+            "Cas limites classés par une règle reproductible.",
+            "recommandée, non approuvée"
+          ]
+        },
+        {
+          "cellules": [
+            "**92202**",
+            "**Commencer en coupon, viser la monnaie récursive (N3).**",
+            "92102",
+            "La part réglée en euros décroît avec la couverture productive mesurée.",
+            "",
+            "Comptabilité de cycle complet.",
+            "recommandée, non approuvée"
+          ]
+        },
+        {
+          "cellules": [
+            "**92203**",
+            "**Régler les producteurs de façon centrale, plafonnée et décroissante.**",
+            "92101",
+            "Subvention datée pour l'amorçage, pont réservé aux producteurs pour la transition, seuil de couverture comme déclencheur ; ni conversion particulière ni marché libre.",
+            "",
+            "Économie unitaire d'un producteur sur trois scénarios.",
+            "recommandée, non approuvée"
+          ]
+        },
+        {
+          "cellules": [
+            "**92204**",
+            "**Garder le capteur local, volontaire et sans pouvoir sur le socle (C3).**",
+            "92104",
+            "L'IA locale suggère, la personne confirme ; le signal ne module que le surplus, jamais l'accès vital.",
+            "",
+            "Audit de flux ; opt-out testé.",
+            "recommandée, non approuvée"
+          ]
+        },
+        {
+          "cellules": [
+            "**92205**",
+            "**Doter chacun d'un budget d'attestation égal, périodique, non cumulable (B3).**",
+            "92105",
+            "L'award coûte une part d'un budget civique identique, pas une part de la richesse.",
+            "",
+            "Simulation Sybil et concentration.",
+            "recommandée, non approuvée"
+          ]
+        },
+        {
+          "cellules": [
+            "**92206**",
+            "**Reconnaître le soin par plusieurs voies (S3).**",
+            "92106",
+            "Bénéficiaire, représentant, pair, professionnel ou preuve minimale ; poids bornés ; le nombre de témoins ne multiplie rien.",
+            "",
+            "Cas de vulnérabilité testés.",
+            "recommandée, non approuvée"
+          ]
+        },
+        {
+          "cellules": [
+            "**92207**",
+            "**Séparer le capital et abonder un pool commun (E1 + E2).**",
+            "92107",
+            "L'investisseur finance le système sans acheter sa propre priorité d'usage.",
+            "",
+            "Avis juridique ; scénario de pénurie.",
+            "recommandée, non approuvée"
+          ]
+        },
+        {
+          "cellules": [
+            "**92208**",
+            "**Lancer la campagne multi-seeds appariée, sans régler seed par seed.**",
+            "92108",
+            "Trente paires, bootstrap apparié : surajuster au tirage viderait la porte préenregistrée de son sens.",
+            "",
+            "Porte baseline PASS sur la campagne.",
+            "dans le mandat du dépôt money-endgame"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions proposées",
+      "colonnes": [
+        "⚔️ N°",
+        "🏷️ L'action",
+        "🗝️ Réalise",
+        "📝 Ce qu'on fait",
+        "📍 Où",
+        "🪶 Office",
+        "🧰 Moyens",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "⏳ État",
+        "Jour dû",
+        "Qui"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**92300**",
+            "Lancer la campagne appariée",
+            "92208",
+            "Trente paires Mind / euro, bootstrap apparié, bornes inchangées.",
+            "money-endgame",
+            "simulation",
+            "",
+            "",
+            "Rapport de campagne, porte tristate.",
+            "à faire",
+            "2026-09-30",
+            "simulation"
+          ]
+        },
+        {
+          "cellules": [
+            "**92301**",
+            "Rejouer des fonctions de prix candidates sur les scénarios P0",
+            "92200",
+            "Une fonction déclarée par run ; urgence, bornes, contestation mesurées.",
+            "money-endgame",
+            "architecture économique",
+            "",
+            "92300",
+            "Runs identifiés comparés.",
+            "à faire",
+            "2026-09-30",
+            "architecture économique"
+          ]
+        },
+        {
+          "cellules": [
+            "**92302**",
+            "Simuler l'économie unitaire d'un producteur type",
+            "92203",
+            "Trois scénarios, dont un sans subvention.",
+            "money-endgame",
+            "économie marchande",
+            "",
+            "92300",
+            "Couverture des charges et rétention après subvention.",
+            "à faire",
+            "2026-09-30",
+            "économie marchande"
+          ]
+        },
+        {
+          "cellules": [
+            "**92303**",
+            "Estimer le seuil de couverture du panier vital",
+            "92203",
+            "Le seuil au-delà duquel accepter Mind devient rationnel pour un producteur.",
+            "money-endgame",
+            "économie marchande",
+            "",
+            "92300",
+            "Seuil chiffré, avec son intervalle.",
+            "à faire",
+            "2026-09-30",
+            "économie marchande"
+          ]
+        },
+        {
+          "cellules": [
+            "**92304**",
+            "Classer les cas limites avec la règle F3",
+            "92201",
+            "Four, camion, chambre froide, logiciel, actif mixte.",
+            "money-endgame",
+            "gouvernance économique",
+            "",
+            "",
+            "Tableau des cas, sans contradiction.",
+            "à faire",
+            "2026-09-30",
+            "gouvernance économique"
+          ]
+        },
+        {
+          "cellules": [
+            "**92305**",
+            "Tenir la comptabilité de cycle complet d'un producteur",
+            "92202",
+            "Mesurer la part encore réglée en euros à chaque phase.",
+            "money-endgame",
+            "architecture économique",
+            "",
+            "92300",
+            "Part euro par phase.",
+            "à faire",
+            "2026-09-30",
+            "architecture économique"
+          ]
+        },
+        {
+          "cellules": [
+            "**92306**",
+            "Simuler Sybil et concentration du budget d'attestation",
+            "92205",
+            "Plusieurs cycles, avec les non-utilisateurs et les bénéficiaires incapables d'attester.",
+            "money-endgame",
+            "gouvernance économique",
+            "",
+            "92300",
+            "Concentration mesurée.",
+            "à faire",
+            "2026-09-30",
+            "gouvernance économique"
+          ]
+        },
+        {
+          "cellules": [
+            "**92307**",
+            "Tester le soin invisible avec patients et aidants",
+            "92206",
+            "Vulnérabilité, coercition, collusion, recours.",
+            "money-endgame",
+            "gouvernance du soin",
+            "",
+            "",
+            "Voies validées sur cas réels.",
+            "à faire",
+            "2026-09-30",
+            "gouvernance du soin"
+          ]
+        },
+        {
+          "cellules": [
+            "**92308**",
+            "Auditer les flux du capteur et tester l'opt-out",
+            "92204",
+            "Démontrer qu'aucune donnée brute ne quitte l'appareil.",
+            "money-endgame",
+            "privacy",
+            "",
+            "",
+            "Audit publié.",
+            "à faire",
+            "2026-09-30",
+            "privacy"
+          ]
+        },
+        {
+          "cellules": [
+            "**92309**",
+            "Obtenir un avis juridique et simuler une pénurie pour l'entrée des euros",
+            "92207",
+            "Comparer E1, E2 et E3 en situation de pénurie.",
+            "money-endgame",
+            "conseil juridique",
+            "",
+            "92300",
+            "Avis référencé ; scénario rejoué.",
+            "à faire",
+            "2026-09-30",
+            "conseil juridique"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "📏 Mesures",
+      "colonnes": [
+        "Mesure",
+        "Ce qu'elle compte",
+        "Ce qu'elle prouve"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Couverture du panier vital en Mind",
+            "Part en valeur du panier vital payable auprès de fournisseurs disponibles, mensuelle.",
+            "92001"
+          ]
+        },
+        {
+          "cellules": [
+            "Jours de rupture",
+            "Jours-produits où un bien vital est payable mais indisponible.",
+            "92001, 92000"
+          ]
+        },
+        {
+          "cellules": [
+            "Couverture des charges producteur",
+            "Charges couvertes par l'activité en Mind, part euro distinguée.",
+            "92006, 92004"
+          ]
+        },
+        {
+          "cellules": [
+            "Rétention marchande après subvention",
+            "Marchands encore actifs six mois après la fin du financement.",
+            "92006"
+          ]
+        },
+        {
+          "cellules": [
+            "Issue des contestations de prix",
+            "Part expliquée recevable ; part révisée ; comptées séparément.",
+            "92005"
+          ]
+        },
+        {
+          "cellules": [
+            "Reconstituabilité du score de contribution",
+            "Part des variations qu'une personne peut refaire elle-même.",
+            "92004"
+          ]
+        },
+        {
+          "cellules": [
+            "Parts de flux vers l'euro",
+            "Producteurs et particuliers, suivis séparément.",
+            "92002"
+          ]
+        }
+      ]
+    }
+  ]
+}

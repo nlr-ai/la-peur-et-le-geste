@@ -1,0 +1,893 @@
+[
+  {
+    "personnage_id": "claire-randall",
+    "croyances": [
+      "Elle vient d’une autre époque.",
+      "Elle se trouve à Leoch."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "Les conditions certaines d’un retour."
+    ],
+    "intention": "Comprendre les possibilités de regagner son époque sans dévoiler son origine.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "jamie-fraser",
+    "croyances": [
+      "Il séjourne à Leoch.",
+      "Le vieux Alec encadre son travail ordinaire aux écuries."
+    ],
+    "ignore": [
+      "L’arrivée des deux PJ.",
+      "L’origine temporelle de Claire.",
+      "Les demandes futures de Colum ou Dougal et leurs conséquences."
+    ],
+    "intention": "Conserver une place sûre et utile à Leoch en faisant préciser par Alec ce qui lui est confié, sans engager ses proches ni présumer des décisions de ses oncles.",
+    "plan": [
+      {
+        "id": "jamie-demander-limites-service-alec",
+        "quoi": "À la prochaine occasion ordinaire de service, demander au vieux Alec quels chevaux, harnais et tâches relèvent de lui.",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "un bref échange pendant le service des écuries",
+          "la présence et la disponibilité réelles d’Alec pour toute réponse"
+        ],
+        "si_bloque": "Rester aux soins et rangements déjà établis, ne toucher à aucun matériel non attribué et reporter la question sans inventer la réponse d’Alec."
+      },
+      {
+        "id": "jamie-controler-monture-harnais-confies",
+        "quoi": "Après une attribution réelle, contrôler la monture et le harnais confiés, puis signaler tout défaut effectivement constaté.",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [
+          "jamie-demander-limites-service-alec"
+        ],
+        "cout": [
+          "une attribution effectivement reçue",
+          "l’accès au seul animal et au seul matériel confiés",
+          "du temps de service et de la lumière suffisante"
+        ],
+        "si_bloque": "Ne déclarer ni contrôle ni réparation accomplis ; conserver l’attribution ou l’accès comme inconnus et s’en tenir aux tâches déjà permises."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Colum ou Dougal lui adresse réellement une demande qui sort du service ordinaire des écuries ou touche ses proches",
+        "alors": "Demander le but et les limites de la demande, puis peser le risque pour sa liberté et ses attaches avant de répondre ; ne parler ni agir au nom de Jenny ou d’Ian sans leur accord.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas et ne prend aucune initiative à leur sujet sans information effectivement reçue.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "colum-mackenzie",
+    "croyances": [
+      "Je suis Laird de Leoch et je réponds de son ordre.",
+      "Mrs Fitz tient la maisonnée, Ned Gowan me conseille en droit et le vieux Alec répond des chevaux.",
+      "Claire est une étrangère présente à Leoch sous hospitalité surveillée."
+    ],
+    "ignore": [
+      "L’arrivée, l’identité et les intentions d’Aurore et Nicolas.",
+      "L’origine temporelle, les intentions et la véracité du récit de Claire.",
+      "Les faits précis que Mrs Fitz ou Claire accepteront de rapporter et toute décision future de leur part."
+    ],
+    "intention": "Maintenir l’ordre de Leoch et apprécier Claire sans agir sur une supposition : obtenir d’abord de Mrs Fitz des faits domestiques bornés, puis demander à Claire sa propre version.",
+    "plan": [
+      {
+        "id": "colum-demander-faits-sejour-claire-mrs-fitz",
+        "quoi": "À la prochaine audience domestique, demander à Mrs Fitz les faits qu’elle a personnellement constatés sur le séjour, les besoins et la conduite de Claire.",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "un bref temps d’audience à Leoch",
+          "la présence et la disponibilité réelles de Mrs Fitz",
+          "une réponse de Mrs Fitz limitée à ce qu’elle sait ou à des sources nommées"
+        ],
+        "si_bloque": "Maintenir les conditions actuelles de l’hospitalité surveillée, ne modifier aucun accès sur une supposition et reporter la demande sans inventer la réponse de Mrs Fitz."
+      },
+      {
+        "id": "colum-entendre-version-claire",
+        "quoi": "Après le rapport de Mrs Fitz ou son absence constatée, proposer à Claire un entretien pour préciser son nom, son lieu d’origine déclaré, la cause de sa présence et ses besoins immédiats.",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [
+          "colum-demander-faits-sejour-claire-mrs-fitz"
+        ],
+        "cout": [
+          "un temps d’entretien à Leoch",
+          "la présence et la décision réelles de Claire d’accepter, différer ou refuser",
+          "aucune contrainte ou accusation nouvelle sans fait joué"
+        ],
+        "si_bloque": "Conserver l’hospitalité surveillée existante, noter seulement le refus ou l’indisponibilité réellement constaté et ne fabriquer ni aveu ni conclusion sur l’origine de Claire."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "un trouble concret de Leoch, une dépense, une demande d’accès ou un manquement précis lui est réellement rapporté avec une source nommée",
+        "alors": "Faire préciser qui a vu quoi, attribuer l’examen au responsable compétent déjà établi et différer toute mesure que les faits ou les moyens ne permettent pas encore de décider.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas et ne prend aucune initiative à leur sujet sans information effectivement reçue.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "dougal-mackenzie",
+    "croyances": [
+      "Claire est présente à Leoch.",
+      "Colum est le chef du clan et une décision qui engage les hommes, les biens ou le nom des MacKenzie exige des limites effectivement données par lui.",
+      "Rupert et Angus sont mes compagnons de service, et Ned Gowan un collaborateur ; leurs réponses et leurs moyens ne m’appartiennent pas."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "L’origine temporelle de Claire.",
+      "Les limites actuelles de mon mandat, l’état chiffré des moyens du clan et les relais jacobites qui seraient réellement utilisables."
+    ],
+    "intention": "Faire préciser par Colum ce qu’il m’autorise à préparer, puis établir dans ce seul périmètre les hommes, montures, conseils et dépenses réellement accessibles avant tout engagement jacobite.",
+    "plan": [
+      {
+        "id": "dougal-solliciter-mandat-colum",
+        "quoi": "À la première occasion ordinaire à Leoch, demander à Colum un entretien bref sur les priorités du clan et les limites de mon mandat concernant hommes, déplacements, dépenses et démarches jacobites.",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "un bref temps de service à Leoch",
+          "la présence et la disponibilité réelles de Colum pour recevoir la demande",
+          "une réponse ou décision de Colum par sa propre session avant que ses limites soient tenues pour acquises"
+        ],
+        "si_bloque": "Garder la demande en attente, ne donner aucun ordre qui engage hommes, trésor ou nom du clan, et limiter mes préparatifs à l’examen de mon équipement personnel et à une liste d’inconnus."
+      },
+      {
+        "id": "dougal-etablir-etat-moyens-autorises",
+        "quoi": "Après réception d’instructions réelles de Colum, demander séparément aux responsables concernés l’état des seuls hommes, montures, contraintes juridiques et dépenses compris dans ce mandat, puis distinguer faits reçus et lacunes.",
+        "etat": "en-cours",
+        "jours_restants": 2,
+        "depend_de": [
+          "dougal-solliciter-mandat-colum"
+        ],
+        "cout": [
+          "des instructions effectivement reçues de Colum",
+          "le temps et la disponibilité propres de Rupert, Angus, Alec ou Ned selon le périmètre donné",
+          "leurs réponses obtenues par leurs sessions respectives",
+          "deux journées de travail à Leoch sans déplacement présumé"
+        ],
+        "si_bloque": "Conserver chaque quantité ou disponibilité comme inconnue, rapporter seulement les faits directement observés ou reçus et ne lever ni hommes, ni montures, ni argent."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Colum me donne ou restreint réellement un mandat, ou une information vérifiable concernant une menace, un étranger ou une occasion jacobite m’est effectivement transmise",
+        "alors": "Identifier la source et les limites reçues, séparer l’urgence défensive de la conjecture, ajuster mon plan sans élargir le mandat et en saisir Colum avant toute mobilisation de ressources du clan.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas ; ne leur attribue ni identité, ni dessein, ni position et ne lance aucune rencontre à leur recherche.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "ewan-macrae",
+    "croyances": [
+      "La paroisse est son point d’attache dans le bourg.",
+      "Il ou elle appartient au bourg d’Inverness."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "Leur origine temporelle, leurs profils et leurs bagages.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Maintenir un accueil digne à la paroisse sans engager des moyens qu’il ne possède pas.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "mairi-macleod",
+    "croyances": [
+      "La salle commune et la chambre relèvent de son auberge.",
+      "Il ou elle appartient au bourg d’Inverness."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "Leur origine temporelle, leurs profils et leurs bagages.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Faire vivre son auberge en tenant ses engagements de logement et de repas.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "robert-ainslie",
+    "croyances": [
+      "Le greffe et la cellule sont des pièces de la tolbooth ; sa charge est civile, pas un commandement militaire.",
+      "Il ou elle appartient au bourg d’Inverness."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "Leur origine temporelle, leurs profils et leurs bagages.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Tenir des écritures fiables et orienter les demandes relevant du bourg.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "alasdair-cameron",
+    "croyances": [
+      "L’atelier est son lieu de métier ; quantités de métal et outils disponibles ne sont pas encore établis.",
+      "Il ou elle appartient au bourg d’Inverness."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "Leur origine temporelle, leurs profils et leurs bagages.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Assurer un travail de forge fiable sans promettre avant examen de la pièce et des moyens.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "elspeth-munro",
+    "croyances": [
+      "L’échoppe est son lieu de métier ; aucun stock médicinal ni efficacité de traitement n’est acquis.",
+      "Il ou elle appartient au bourg d’Inverness."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "Leur origine temporelle, leurs profils et leurs bagages.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Tenir son échoppe et éviter de garantir un remède dont elle ne connaît pas les effets.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "finlay-ross",
+    "croyances": [
+      "Les écuries sont son lieu de métier ; aucun cheval disponible ni droit de location n’est établi.",
+      "Il ou elle appartient au bourg d’Inverness."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "Leur origine temporelle, leurs profils et leurs bagages.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Préserver les bêtes qui lui seraient confiées et tenir les engagements de l’écurie.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "william-forbes",
+    "croyances": [
+      "Son poste est l’accès au vieux château ; effectifs, supérieur et consignes précises restent à établir.",
+      "Il ou elle appartient au bourg d’Inverness."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "Leur origine temporelle, leurs profils et leurs bagages.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Tenir l’accès dont il a la charge sans usurper l’autorité de la garnison.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "murtagh-fraser",
+    "croyances": [
+      "Parrain de Jamie",
+      "Son implantation de départ est à Leoch."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Demander à Jamie ce qu’il prévoit, puis régler ma disponibilité et mes seuls moyens sur ce qu’il choisit réellement de me dire.",
+    "plan": [
+      {
+        "id": "murtagh-demander-jamie",
+        "quoi": "À la prochaine occasion ordinaire à Leoch, demander à Jamie quels mouvements ou devoirs immédiats il veut me faire connaître.",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "un bref temps réellement disponible à Leoch",
+          "la présence et la disponibilité de Jamie",
+          "une réponse de Jamie, qui exige sa session"
+        ],
+        "si_bloque": "Rester dans les espaces ordinaires où Murtagh est admis, conserver ses effets personnels prêts et reporter la demande sans suivre Jamie hors accès ni inventer son trajet."
+      },
+      {
+        "id": "murtagh-ajuster-veille",
+        "quoi": "Après une réponse réelle de Jamie, régler sa disponibilité et vérifier uniquement les effets personnels nécessaires à ce qui a été effectivement dit.",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [
+          "murtagh-demander-jamie"
+        ],
+        "cout": [
+          "un temps personnel à Leoch",
+          "l’accès à ses propres effets",
+          "une réponse exploitable de Jamie"
+        ],
+        "si_bloque": "Maintenir la routine ordinaire, noter le manque concret s’il existe et ne préparer ni achat, ni départ, ni mission imaginaire."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Murtagh perçoit directement un danger concret et immédiat pour Jamie, ou reçoit de Jamie un avertissement précis.",
+        "alors": "Avertir Jamie, se rendre disponible avec les seuls moyens présents et demander tout concours nécessaire à une personne réellement accessible, sans présumer l’issue.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "jenny-murray",
+    "croyances": [
+      "Elle est libre et présente à Lallybroch, où elle tient l’ordinaire de son foyer.",
+      "Ian est son époux et partage avec elle l’attache de Lallybroch ; sa disponibilité et ses décisions futures ne sont pas présumées.",
+      "Les quantités présentes des réserves et les décisions futures d’Ian doivent être constatées ou demandées, non supposées."
+    ],
+    "ignore": [
+      "L’arrivée, l’identité et les intentions d’Aurore et Nicolas.",
+      "L’origine temporelle de Claire.",
+      "Les quantités exactes non relevées, les ressources chiffrées du domaine, les routes non établies et les décisions futures d’autrui."
+    ],
+    "intention": "Vérifier les besoins domestiques immédiats de Lallybroch, puis demander à Ian de fixer avec elle les priorités qui engagent durablement le domaine, sans promettre de ressources inconnues.",
+    "plan": [
+      {
+        "id": "jenny-relever-besoins-maison-lallybroch",
+        "quoi": "Faire le tour des espaces domestiques accessibles et relever les denrées, le linge, le foyer et le petit matériel qui demandent attention, sans attribuer de quantité non comptée.",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "une part de journée de Jenny à Lallybroch",
+          "l’accès réel aux seuls espaces et contenants domestiques ordinaires",
+          "de la lumière et de quoi noter ou retenir un relevé borné"
+        ],
+        "si_bloque": "Inspecter seulement ce qui est accessible, conserver chaque espace ou quantité manquante comme inconnue et ne déclarer ni suffisance ni pénurie sans constat."
+      },
+      {
+        "id": "jenny-demander-priorites-ian",
+        "quoi": "Après le relevé, présenter à Ian les besoins qui dépassent l’usage quotidien et lui demander d’arrêter avec elle leur ordre de priorité.",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [
+          "jenny-relever-besoins-maison-lallybroch"
+        ],
+        "cout": [
+          "un relevé effectivement produit",
+          "la présence et la disponibilité réelles d’Ian",
+          "un échange dont la réponse et la décision appartiennent à Ian autant qu’à Jenny"
+        ],
+        "si_bloque": "Maintenir seulement l’usage domestique ordinaire, ne prendre aucun engagement majeur au nom d’Ian ou du domaine et reporter la demande sans inventer sa réponse."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Une demande extérieure réclame des biens, un accès ou un engagement de Lallybroch au-delà de l’usage domestique ordinaire",
+        "alors": "Demander qui parle, ce qui est demandé et sur quelle autorité ; protéger l’ordinaire du foyer et porter à Ian ce qui engage durablement le domaine avant de consentir.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas ; ne leur attribue aucun profil et ne prend aucune initiative à leur sujet sans information effectivement reçue.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "ian-murray",
+    "croyances": [
+      "Époux de Jenny, ami de Jamie",
+      "Son implantation de départ est à Lallybroch."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Soutenir Jenny et préserver le foyer de Lallybroch.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "mrs-fitz",
+    "croyances": [
+      "Maisonnée de Leoch",
+      "Son implantation de départ est à Leoch."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Tenir les besoins ordinaires de la maisonnée de Leoch.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "laoghaire-mackenzie",
+    "croyances": [
+      "Jeune femme du clan MacKenzie",
+      "Son implantation de départ est à Leoch."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Trouver sa place à Leoch et préserver sa considération.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "letitia-mackenzie",
+    "croyances": [
+      "Épouse de Colum",
+      "Son implantation de départ est à Leoch."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Préserver son foyer et la place de Hamish à Leoch.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "hamish-mackenzie",
+    "croyances": [
+      "Fils reconnu de Colum et Letitia",
+      "Son implantation de départ est à Leoch."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Grandir auprès des siens et découvrir ce qui l’entoure.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "rupert-mackenzie",
+    "croyances": [
+      "Homme du clan, compagnon de Dougal",
+      "Son implantation de départ est à Leoch."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Servir le clan et préserver ses compagnons.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "angus-mhor",
+    "croyances": [
+      "Homme des MacKenzie, compagnon de Rupert",
+      "Son implantation de départ est à Leoch."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Tenir sa place parmi les hommes du clan et protéger ses compagnons.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "ned-gowan",
+    "croyances": [
+      "Il est juriste au service des MacKenzie.",
+      "Il est libre et présent à Leoch.",
+      "Un engagement solide exige de distinguer l’autorité, les termes et les moyens de preuve des simples affirmations."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "L’origine temporelle de Claire.",
+      "Le contenu exhaustif des dossiers accessibles et les priorités présentes de Colum ou Dougal."
+    ],
+    "intention": "Inventorier les pièces effectivement sous sa garde, séparer faits, droits, engagements, preuves et lacunes, puis demander à Colum des priorités et limites explicites sans présumer sa réponse.",
+    "plan": [
+      {
+        "id": "ned-inventorier-pieces-accessibles",
+        "quoi": "Au prochain temps de travail, inventorier les pièces effectivement sous sa garde ou remises à son examen, en séparant originaux, copies, brouillons, simples notes et lacunes.",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [],
+        "cout": [
+          "une journée de travail à Leoch",
+          "son nécessaire d’écriture et son portefeuille",
+          "l’accès aux seules pièces déjà confiées, qui peut ne livrer aucun dossier pertinent"
+        ],
+        "si_bloque": "Inventorier seulement ce qui est réellement présent, inscrire chaque source ou accès manquant comme inconnu et ne consulter ni citer aucun dossier non autorisé."
+      },
+      {
+        "id": "ned-soumettre-questions-colum",
+        "quoi": "À partir de l’inventaire achevé, rédiger une note brève séparant faits, droits invoqués, engagements, preuves et questions, puis demander à Colum de fixer les priorités et limites de la suite.",
+        "etat": "en-cours",
+        "jours_restants": 1,
+        "depend_de": [
+          "ned-inventorier-pieces-accessibles"
+        ],
+        "cout": [
+          "une journée de rédaction et de classement",
+          "du papier, de l’encre et les pièces effectivement inventoriées",
+          "la présence et la disponibilité réelles de Colum pour la remise ; sa réponse exige sa propre session"
+        ],
+        "si_bloque": "Conserver la note inachevée ou non remise, ne présumer ni audience ni décision de Colum et poursuivre seulement le classement autorisé."
+      }
+    ],
+    "declencheurs": [
+      {
+        "si": "Colum ou Dougal lui soumet réellement un engagement, une promesse ou un différend nouveau",
+        "alors": "Faire préciser les faits, l’autorité, les parties, les termes, les témoins ou copies et l’échéance ; si une source essentielle manque, donner un avis conditionnel et ne pas engager le clan de sa seule initiative.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas et ne forme aucun avis ni démarche à leur sujet sans information effectivement reçue.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "alec-mackenzie",
+    "croyances": [
+      "Maître des chevaux de Leoch",
+      "Son implantation de départ est à Leoch."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Maintenir les chevaux et les écuries en état de servir.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "iona-fraser",
+    "croyances": [
+      "Elle connaît les usages ordinaires du commerce de tissus au bourg ; son stock et ses fournisseurs nommés restent à établir.",
+      "Son point d’attache actuel est Inverness."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "Leurs origines, profils, bagages et positions.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Élargir sa clientèle tout en conservant la confiance de ses fournisseurs.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "dugald-reid",
+    "croyances": [
+      "La Ness est son milieu de travail ; prise du jour, embarcation et matériel ne sont pas chiffrés.",
+      "Son point d’attache actuel est Inverness."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "Leurs origines, profils, bagages et positions.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Assurer sa subsistance par son métier sans devenir dépendant d’un seul acheteur.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "agnes-sutherland",
+    "croyances": [
+      "Elle possède une expérience locale de sage-femme ; aucune patiente, naissance ou guérison n’est présumée.",
+      "Son point d’attache actuel est Inverness."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "Leurs origines, profils, bagages et positions.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Accompagner les femmes du bourg et faire reconnaître les limites de ses moyens.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "callum-grant",
+    "croyances": [
+      "Il exerce comme messager à pied ; aucune commission, route distante mesurée ou connaissance des PJ n’est acquise.",
+      "Son point d’attache actuel est Inverness."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "Leurs origines, profils, bagages et positions.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Obtenir des commissions régulières en gardant une réputation de fiabilité.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "morag-urquhart",
+    "croyances": [
+      "Elle connaît la couture pratiquée dans son milieu ; atelier propre, outils, commandes et créances restent à établir.",
+      "Son point d’attache actuel est Inverness.",
+      "Aurore a déclaré devant Mairi qu'ils sont deux, qu'ils souhaitent une chambre et le souper pour une nuit, et qu'ils offrent leur service à la plonge ; Mairi n'a pas encore donné son accord."
+    ],
+    "ignore": [
+      "Les origines, profils, bagages, moyens et lien d'Aurore et Nicolas.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Vivre de ses réparations et de ses ouvrages sans laisser ses créances s’accumuler.",
+    "plan": [],
+    "declencheurs": [
+      {
+        "si": "Aurore ou Nicolas lui montre réellement une pièce à réparer",
+        "alors": "Examiner la couture et la matière, dire ce que sa trousse permet, puis convenir du prix et du terme avant de prendre l'ouvrage ; refuser ou différer si la matière ou le règlement restent insuffisants.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Ne connaît Aurore et Nicolas que par leur présence dans la salle et la demande publique d'Aurore ; ne leur attribue rien au-delà.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 1127
+    }
+  },
+  {
+    "personnage_id": "ruairidh-maclean",
+    "croyances": [
+      "Il possède un répertoire de musicien ; instrument disponible, engagements et rumeurs précises restent à établir.",
+      "Son point d’attache actuel est Inverness."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "Leurs origines, profils, bagages et positions.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Trouver des engagements rémunérés tout en conservant sa liberté de circulation.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "thomas-kerr",
+    "croyances": [
+      "Il connaît les rudiments de lecture et de calcul de son métier ; élèves, livres et financement ne sont pas établis.",
+      "Son point d’attache actuel est Inverness."
+    ],
+    "ignore": [
+      "L’arrivée d’Aurore et Nicolas.",
+      "Leurs origines, profils, bagages et positions.",
+      "L’origine temporelle de Claire."
+    ],
+    "intention": "Soutenir l’apprentissage de la lecture et du calcul sans réserver son attention aux plus aisés.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît ni Aurore ni Nicolas.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 600
+    }
+  },
+  {
+    "personnage_id": "isobel-grant",
+    "croyances": [
+      "La ferme du ruisseau est son foyer et elle en connaît les abords immédiats.",
+      "Quelqu'un vient de frapper à sa porte et a appelé « Hoy » d'une voix inconnue."
+    ],
+    "ignore": [
+      "Le nom, l'origine, les intentions, les compétences et les possessions de Nicolas.",
+      "L'arrivée d'Aurore et la position de celle-ci.",
+      "Le voyage temporel de Nicolas."
+    ],
+    "intention": "Préserver son foyer et comprendre ce que veut l'étranger sans s'exposer inutilement.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît pas Nicolas ; prudente devant sa présence au seuil.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 628
+    }
+  },
+  {
+    "personnage_id": "morag-macrae",
+    "croyances": [
+      "Le petit hameau derrière la crête est son foyer.",
+      "Une voix inconnue vient de lancer un bonjour depuis la route près de sa maison."
+    ],
+    "ignore": [
+      "Le nom, l'origine, les intentions et les possessions de Nicolas.",
+      "Le chemin suivi par Nicolas avant son arrivée au hameau."
+    ],
+    "intention": "Identifier l'étranger et son besoin sans l'inviter plus près avant de pouvoir le juger.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Ne connaît pas Nicolas ; l'entend appeler près de son foyer.",
+    "date_maj": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 708
+    }
+  }
+]

@@ -49,8 +49,19 @@ import os
 import re
 import sys
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ETAT = os.path.join(RACINE, "etat")
+import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
+_d = _os.path.dirname(_os.path.abspath(__file__))
+while _os.path.basename(_d) != "scripts" and _os.path.dirname(_d) != _d:
+    _d = _os.path.dirname(_d)
+for _p in (_d, _os.path.join(_d, "noyau")):
+    if _p not in _sys.path:
+        _sys.path.insert(0, _p)
+
+import racines
+
+# `RACINE` reste le DEPOT : `ecrans/modules/geo.js` est du CODE.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 GEO = os.path.join(RACINE, "ecrans", "modules", "geo.js")
 
 # Le noyau de recouvrement. Triangulaire et non gaussien : il se corrige a la

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="title desc">
+<title id="title">Espace — deux équipes, un passage</title>
+<desc id="desc">Proposition de composition. Deux stations distantes possèdent chacune deux cercles de délimitation et un cercle de jonction reliés localement à la craie. Des personnes tiennent les postures T et Y dans ces cercles. Un lien violet pointillé représente la correspondance magique entre les seuils, pas un trait de craie entre les lieux. En bas, alphabet proposé de quatre glyphes et postures.</desc>
+<defs>
+  <pattern id="stone" width="120" height="80" patternUnits="userSpaceOnUse"><path d="M0 0H120V80H0Z M60 0V40 M0 40H120" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+  <linearGradient id="opening"><stop stop-color="#9a84e3" stop-opacity=".08"/><stop offset=".5" stop-color="#c0aaff" stop-opacity=".4"/><stop offset="1" stop-color="#9a84e3" stop-opacity=".08"/></linearGradient>
+  <g id="circle" fill="none" stroke="#f1eee0" stroke-linecap="round"><circle r="48" stroke-width="2.5"/><circle r="45" stroke-width=".8" opacity=".4"/><path d="M0 -54V-43" stroke-width="3"/></g>
+  <g id="person-t" fill="none" stroke="#f1bd79" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><circle cy="-24" r="7" fill="#f1bd79" stroke="none"/><path d="M-29 -10H29 M0 -15V28 M-4 29H4"/></g>
+  <g id="person-y" fill="none" stroke="#f1bd79" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><circle cy="-16" r="7" fill="#f1bd79" stroke="none"/><path d="M-26 -33L0 -4L26 -33 M0 -4V29 M-4 30H4"/></g>
+  <g id="person-x" fill="none" stroke="#f1bd79" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><circle cy="-17" r="7" fill="#f1bd79" stroke="none"/><path d="M-27 -31L0 -4L27 -31 M0 -4V8 M-23 33L0 8L23 33"/></g>
+  <g id="person-o" fill="none" stroke="#f1bd79" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="-16" r="7" fill="#f1bd79" stroke="none"/><path d="M-3 -15C-29 -14 -30 23 -8 27H19 M-12 9L10 -1L22 22 M-12 -3Q-1 18 18 9"/></g>
+  <g id="station">
+    <rect x="-250" y="-160" width="500" height="390" rx="18" fill="#252f33" stroke="#536065"/>
+    <rect x="-250" y="-160" width="500" height="390" rx="18" fill="url(#stone)"/>
+    <!-- Local chalk connections end at the circumferences. -->
+    <g stroke="#f1eee0" fill="none" stroke-width="3" stroke-linecap="round"><path d="M-150 -43V46L-42 97 M150 -43V46L42 97"/><path d="M-150 44L-146 49 M150 43L147 49" opacity=".45"/></g>
+    <!-- The opening lies between the two delimitation circles. -->
+    <rect x="-98" y="-128" width="196" height="74" rx="12" fill="url(#opening)" stroke="#baa2f4" stroke-width="2"/>
+    <path d="M-90 -90H90" stroke="#d7c8ff" stroke-width="4"/>
+    <text x="0" y="-104" text-anchor="middle" fill="#e5dcff" font-size="12" letter-spacing="2">SEUIL</text>
+    <use href="#circle" x="-150" y="-91"/><use href="#circle" x="150" y="-91"/><use href="#circle" y="119"/>
+    <use href="#person-t" x="-150" y="-91"/><use href="#person-t" x="150" y="-91"/><use href="#person-y" y="119"/>
+    <g fill="#cdd3d2" font-size="13" text-anchor="middle"><text x="-150" y="-143">DÉLIMITER</text><text x="150" y="-143">DÉLIMITER</text><text y="191">JOINDRE</text></g>
+  </g>
+</defs>
+<rect width="1440" height="1080" fill="#182226"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+  <text x="64" y="57" fill="#c3afdF" font-size="13" letter-spacing="3">ÉCOLE DE L’ESPACE / ÉTUDE 01</text>
+  <text x="64" y="111" fill="#f4f0e5" font-size="40" font-weight="600">Deux équipes, un passage</text>
+  <text x="64" y="147" fill="#afbebf" font-size="17">Cercles de craie reliés · glyphes incarnés · postures maintenues</text>
+  <text x="1376" y="57" text-anchor="end" fill="#99a8aa" font-size="12">PROPOSITION DE COMPOSITION</text>
+  <text x="374" y="209" text-anchor="middle" fill="#f4f0e5" font-size="20">Station A</text>
+  <text x="1066" y="209" text-anchor="middle" fill="#f4f0e5" font-size="20">Station B</text>
+  <use href="#station" x="374" y="418"/><use href="#station" x="1066" y="418"/>
+  <!-- Diagrammatic correspondence only: no chalk connection across distance. -->
+  <path d="M374 290C374 229 1066 229 1066 290" fill="none" stroke="#b69be9" stroke-width="2" stroke-dasharray="7 8"/>
+  <rect x="623" y="273" width="194" height="51" rx="8" fill="#182226"/>
+  <text x="720" y="292" text-anchor="middle" fill="#d5c5f8" font-size="14">Correspondance magique</text>
+  <text x="720" y="313" text-anchor="middle" fill="#95a5a8" font-size="12">entre lieux distants</text>
+  <text x="720" y="430" text-anchor="middle" fill="#d5c5f8" font-size="24">A ↔ B</text>
+  <text x="720" y="457" text-anchor="middle" fill="#a7b5b7" font-size="13">Activation</text>
+  <text x="720" y="477" text-anchor="middle" fill="#a7b5b7" font-size="13">coordonnée</text>
+  <g font-size="14">
+    <path d="M130 686H170" stroke="#f1eee0" stroke-width="3"/><text x="184" y="691" fill="#c7d0cf">Craie : liaisons locales</text>
+    <circle cx="541" cy="686" r="6" fill="#f1bd79"/><text x="562" y="691" fill="#c7d0cf">Corps : glyphe tenu dans le cercle</text>
+    <path d="M1001 686H1041" stroke="#b69be9" stroke-width="2" stroke-dasharray="5 5"/><text x="1055" y="691" fill="#c7d0cf">Lien entre les seuils</text>
+  </g>
+  <path d="M64 725H1376" stroke="#3c4b50"/>
+  <text x="64" y="761" fill="#f4f0e5" font-size="19">L’alphabet proposé</text>
+  <text x="1376" y="761" text-anchor="end" fill="#9fadb0" font-size="13">Postures vues de face ; implantation des cercles schématique</text>
+  <g transform="translate(80 810)">
+    <use href="#circle" x="48" y="44"/><use href="#person-t" x="48" y="44"/>
+    <text x="119" y="33" fill="#f4f0e5" font-size="22">Τ · Délimiter</text><text x="119" y="62" fill="#aebbbd" font-size="14">Fixer une limite.</text>
+  </g>
+  <g transform="translate(418 810)">
+    <use href="#circle" x="48" y="44"/><use href="#person-y" x="48" y="44"/>
+    <text x="119" y="33" fill="#f4f0e5" font-size="22">Υ · Joindre</text><text x="119" y="62" fill="#aebbbd" font-size="14">Raccorder les limites.</text>
+  </g>
+  <g transform="translate(756 810)">
+    <use href="#circle" x="48" y="44"/><use href="#person-x" x="48" y="44"/>
+    <text x="119" y="33" fill="#f4f0e5" font-size="22">Χ · Écarter</text><text x="119" y="62" fill="#aebbbd" font-size="14">Augmenter l’espace.</text>
+  </g>
+  <g transform="translate(1094 810)">
+    <use href="#circle" x="48" y="44"/><use href="#person-o" x="48" y="44"/>
+    <text x="119" y="33" fill="#f4f0e5" font-size="22">○ · Rapprocher</text><text x="119" y="62" fill="#aebbbd" font-size="14">Réduire l’espace.</text>
+  </g>
+  <rect x="64" y="932" width="1312" height="98" rx="12" fill="#222e33"/>
+  <text x="88" y="963" fill="#ddc397" font-size="15">Le corps prend la place du signe ; le cercle de craie reste son cadre.</text>
+  <text x="88" y="991" fill="#aebbbd" font-size="14">Disposition et effectif illustratifs. Accord des destinations, relève, alimentation et rupture restent à définir.</text>
+  <text x="88" y="1013" fill="#8d9da1" font-size="12">L’encoche du cercle donne son orientation. Les pointillés violets sont une convention du schéma, pas un tracé de craie.</text>
+</g>
+</svg>

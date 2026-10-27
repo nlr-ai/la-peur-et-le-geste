@@ -1,0 +1,165 @@
+{
+ "_": "CE QUE LES PINCEAUX DE CE MONDE PEIGNENT — lu par scripts/peinture/gen_portraits.py et gen_salles.py avec --monde charmed. San Francisco, automne 2001 : la maison victorienne des Halliwell, bois sombre, vitraux, lampes Tiffany ; la ville du début des années 2000. Les salles sont VIDES. Les Enfers sont des cavernes de roche noire éclairées de torches, sans décor de fantaisie ; Là-haut et l'au-delà sont de la lumière et de la brume, sans architecture. La cave ne montre rien du Nexus.",
+ "portraits": {
+  "style": "Painted character portrait in oils, San Francisco autumn 2001, contemporary clothing of the early 2000s, bust framing showing head and shoulders, three-quarter view, warm lamplight from one side, soft chiaroscuro, muted palette, dark neutral background, no text, no frame"
+ },
+ "salles": {
+  "blocs": {
+   "dedans": "Highly detailed photorealistic interior of a Victorian house in San Francisco in 2001, dark carved wood, stained glass, Tiffany lamps and electric light, worn oriental rugs, evening light, muted palette, fine material detail, empty room with no people. ",
+   "sous": "Highly detailed photorealistic basement of an old Victorian house in 2001, old stone foundations, heavy timber joists, a boiler and cardboard boxes, no windows and no daylight whatsoever, lit by a single bare bulb, darkness swallowing the far end, muted palette, empty with no people. ",
+   "dehors": "Highly detailed photorealistic view of San Francisco in autumn 2001, Victorian row houses with bay windows, steep streets, evening fog rolling in from the bay, parked cars of the late 1990s, street lamps, muted palette, fine material detail, no people. ",
+   "ville": "Highly detailed photorealistic interior in San Francisco in 2001, early 2000s furniture and tungsten or fluorescent light, CRT monitors and beige computers where there are desks, muted palette, fine material detail, empty room with no people. ",
+   "enfers": "Highly detailed photorealistic underground cavern of raw black rock, natural caves with no masonry, no windows and no daylight, lit only by torches in iron brackets, deep shadow, smoke, muted palette, empty with no people, no fantasy ornament. ",
+   "ailleurs": "Highly detailed ethereal space with no architecture, soft diffuse white and pale blue light, drifting luminous mist, no horizon, calm and vast, muted palette, empty with no people. ",
+   "fin": ", wide establishing view, full bleed, edge to edge, no canvas border, no picture frame, no text, no watermark, no figures, no people"
+  },
+  "sans_jour": "window, windows, daylight, sky, sunlight, sun, outdoors",
+  "moderne": "medieval castle, stone castle, smartphone, flat screen television, LED lighting, 1906 costume",
+  "vues": {
+   "grenier": [
+    "dedans",
+    "a large Victorian attic under a steep gabled roof, a heavy old book open on a carved wooden lectern, an old sofa, trunks and a dressmaker form under the eaves, a tall standing mirror, candles and potion bottles on a table, a stained glass window"
+   ],
+   "chambre-phoebe": [
+    "dedans",
+    "a young woman bedroom, an unmade bed, moving boxes never unpacked against the wall, a man suit jacket over a chair, a bay window with a window seat"
+   ],
+   "chambre-prue": [
+    "dedans",
+    "a closed bedroom left untouched, a neatly made bed, a shelf of old film cameras and framed black and white photographs, dust in the lamplight"
+   ],
+   "chambre-piper": [
+    "dedans",
+    "the master bedroom of a Victorian house, a large wooden bed with a quilt, a round turret alcove with arched windows, a dresser with framed wedding photographs"
+   ],
+   "palier": [
+    "dedans",
+    "the upstairs landing of a large Victorian house, a carved wooden banister, a narrow staircase rising to the attic, several closed panelled doors, a runner rug"
+   ],
+   "salon": [
+    "dedans",
+    "a Victorian living room, a large sofa and armchairs, a carved fireplace, a tall grandfather clock, stained glass panels in the front door seen through an archway"
+   ],
+   "escalier": [
+    "dedans",
+    "the front hall of a Victorian house, a grand wooden staircase, a front door with stained glass panels, a small door under the stairs to the basement"
+   ],
+   "salle-a-manger": [
+    "dedans",
+    "a Victorian dining room, a long wooden family table with chairs, a sideboard, a stained glass lamp hanging above the table, mail and newspapers on one end"
+   ],
+   "cuisine": [
+    "dedans",
+    "a lived-in family kitchen in a Victorian house, copper pots hanging, a central island, a big stove, a door with glass panes to a sunroom"
+   ],
+   "veranda": [
+    "dedans",
+    "a glass-walled conservatory at the back of a Victorian house, potted plants and ferns, a wicker armchair, morning light through many small panes"
+   ],
+   "cave": [
+    "sous",
+    "a cluttered basement, an old boiler, boxes, shelves of preserves, a floor of old flagstones"
+   ],
+   "perron": [
+    "dehors",
+    "the front steps and porch of a red and green Victorian house, stained glass in the front door, a morning newspaper on the steps"
+   ],
+   "prescott-street": [
+    "dehors",
+    "a steep residential street in Pacific Heights lined with Victorian houses, a jeep parked at the curb, fog over the rooftops"
+   ],
+   "toits-pacific-heights": [
+    "dehors",
+    "the flat rooftops of Victorian houses at night, chimneys and antennas, looking across the street at a red Victorian house with lit windows"
+   ],
+   "p3": [
+    "ville",
+    "an empty nightclub in a converted South of Market warehouse before opening, a long bar with stools, a small stage with a drum kit, brick walls, coloured spotlights off, chairs upturned on tables"
+   ],
+   "services-sociaux": [
+    "ville",
+    "a social services office, rows of cluttered desks with case files, beige computers, filing cabinets, a water cooler, blinds on the windows, fluorescent light"
+   ],
+   "commissariat": [
+    "ville",
+    "a police detectives squad room in an old government building, cluttered desks with case files and phones, a coffee machine, a corkboard of photos, fluorescent light"
+   ],
+   "bay-mirror": [
+    "ville",
+    "a newspaper newsroom, open-plan desks with CRT monitors and stacks of newspapers, a glass-walled editor office, morning light through tall windows"
+   ],
+   "appartement-paige": [
+    "ville",
+    "a small young woman apartment in the Mission district, bright colourful throws, a futon, bookshelves, a little kitchen corner, warm lamp light"
+   ],
+   "appartement-cole": [
+    "ville",
+    "a sleek empty high-rise apartment of a lawyer, dark leather furniture, a glass coffee table, floor to ceiling windows on the city lights at night"
+   ],
+   "maison-darryl": [
+    "ville",
+    "a family living room in a Sunset district house, a sofa, a television set, toys in a basket, family photos on the wall"
+   ],
+   "hopital": [
+    "ville",
+    "a hospital corridor at night, linoleum floor, gurneys against the wall, a nurses station, fluorescent light"
+   ],
+   "cimetiere": [
+    "dehors",
+    "a cemetery on a grey day, rows of headstones on green lawns, cypress trees, a freshly filled grave covered with flowers, fog"
+   ],
+   "salon-de-la-glaneuse": [
+    "ville",
+    "an elegant old-fashioned parlour on Russian Hill, antique furniture, glass cabinets of curiosities, heavy curtains, a view of the bay"
+   ],
+   "planque-ezra": [
+    "ville",
+    "a cramped Noe Valley apartment, curtains drawn, books and papers piled everywhere, a crystal on a cloth on the table, a single lamp"
+   ],
+   "domicile-cowan": [
+    "ville",
+    "a tidy middle-aged man living room in a Bernal Heights house, a reading chair, shelves of files and books, a modest television"
+   ],
+   "domicile-gil": [
+    "ville",
+    "a small Lower Haight apartment of a bartender, records and a turntable, a bicycle against the wall, band posters"
+   ],
+   "salle-de-la-source": [
+    "enfers",
+    "a great cavern of black rock, a dark stone seat at the far end beneath a natural arch, torches on the walls, a wide empty floor"
+   ],
+   "antre-de-l-oracle": [
+    "enfers",
+    "a low cave with a still dark pool of water in the middle, hanging veils of dark cloth, candles around the pool"
+   ],
+   "les-galeries": [
+    "enfers",
+    "narrow winding tunnels in black rock, side alcoves and niches, torches far apart"
+   ],
+   "les-cavernes": [
+    "enfers",
+    "a maze of caverns of black rock, collapsed boulders, dark passages leading off in every direction"
+   ],
+   "le-haut": [
+    "ailleurs",
+    "an endless field of soft white light and drifting mist"
+   ],
+   "le-conseil-des-fondateurs": [
+    "ailleurs",
+    "a circle of pale light in endless white mist, as if a council met there"
+   ],
+   "l-au-dela": [
+    "ailleurs",
+    "a gentle swirling of soft white lights in endless mist"
+   ],
+   "les-limbes": [
+    "ailleurs",
+    "a grey misty void with a dark swirling vortex in the distance above the surface of still water"
+   ],
+   "golden-gate": [
+    "dehors",
+    "the top of a red suspension bridge tower high above the bay at dusk, the city and fog below, cables sweeping down"
+   ]
+  }
+ }
+}

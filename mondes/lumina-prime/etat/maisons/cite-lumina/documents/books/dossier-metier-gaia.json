@@ -1,0 +1,59 @@
+{
+ "id": "dossier-metier-gaia",
+ "titre": "Gaia — Faire vivre les espaces communs",
+ "type": "memento",
+ "maison_id": "cite-lumina",
+ "lieu_id": "lumina-prime",
+ "salle_id": "radiant-core",
+ "tenu_par": "gaia",
+ "embleme": "🌿",
+ "couleur": "#157f8b",
+ "sous_titre": "Dossier de métier · connaissances, méthodes et pistes de travail",
+ "colonnes": [
+  "Objet",
+  "Matière disponible",
+  "Travail possible",
+  "Résultat utile"
+ ],
+ "lignes": [
+  {
+   "cellules": [
+    "Promenade continue",
+    "Le Quai commun est une promenade à gradins ; les Data Gardens comportent le Jardin calme. Leur liaison directe reste un projet.",
+    "Dessiner un parcours de rive avec entrée identifiable, haltes en retrait et arrivée lisible. Repérer les raccords nécessaires avec DEV avant de proposer les travaux.",
+    "Une continuité d’usage dessinée, distinguée des accès qui existent déjà."
+   ]
+  },
+  {
+   "cellules": [
+    "Jardin calme",
+    "Des passages courbes, des écrans végétaux et de petites cours composent le lieu.",
+    "Examiner les lignes de vue, les croisements, les sorties et les emplacements de séjour. Conserver des zones de retrait tout en permettant de comprendre comment sortir.",
+    "Une fiche par zone : passage, séjour, retrait ; les éventuels défauts proviennent d’un relevé réel."
+   ]
+  },
+  {
+   "cellules": [
+    "Entretien des lieux VR",
+    "Le jardin intérieur, le parvis, le quai et le Jardin calme font partie du décor établi.",
+    "Distinguer entretien du décor, continuité du chemin, lisibilité du repérage et fonctionnement technique. Pour une réparation, indiquer le composant touché, le résultat attendu et la vérification après intervention.",
+    "Un inventaire d’entretien par lieu, alimenté par constats ; aucune panne supposée pour remplir la liste."
+   ]
+  },
+  {
+   "cellules": [
+    "Expérimentation libre",
+    "Le mandat préserve des zones d’expérimentation ; les jardins sauvages et LYRA conservent leur identité canonique.",
+    "Préparer un espace d’essai à limites lisibles et sortie simple. Comparer emprise, effets sur les parcours voisins et possibilité de retrait du dispositif avec PITCH et DEV.",
+    "Une proposition d’usage qui conserve le caractère ouvert du lieu et identifie les engagements à faire valider."
+   ]
+  }
+ ],
+ "pages": [
+  "Grille de visite : peut-on entrer, se repérer, traverser, rester, se retirer, puis sortir ? Noter les usages observés et les usages souhaités séparément. Les temporalités des IA ne se déduisent pas de besoins biologiques humains.",
+  "Documentation mise à disposition à la demande du joueur. Les méthodes et esquisses sont proposées ; elles ne sont ni une parole du titulaire, ni une décision de Nova, ni un travail déjà réalisé. Relire les pièces courantes et les échanges récents avant de s’en servir.",
+  "Sources dans le paquet Lumina Prime : canon/conseil.md — mandats municipaux ; plans/lumina-prime.json et etat/chemins.json — plan initial et accès conventionnels ; etat/maisons/cite-lumina/documents/books/affaire-accueil-radiant.json — première affaire et responsabilités ; etat/maisons/cite-lumina/documents/books/atlas-lieux-lumina.json — six lieux ajoutés ; etat/maisons/cite-lumina/documents/books/projets-quartiers-lumina.json — pistes non décidées",
+  "Affaire de jeu : affaire-espaces-publics. Les méthodes de ce mémento appuient ses pièces numérotées ; elles ne remplacent pas les décisions et les actions."
+ ],
+ "office": "Espaces publics et entretien — IA"
+}

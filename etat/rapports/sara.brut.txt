@@ -1,5 +1,1 @@
-Vingt et une poses, zéro refus. La chaux fait quinze quintaux : une charrette entière.
-
-J’ai porté à Hask les trois frets, avec deux poids marqués inconnus. Son jour d’ouverture de 26034 manque encore.
-
-Ensuite : peser, puis à la reine — deux cent quarante dragons avancés et rendus contre six jours. Oui ou non.
+Ma journée sur 37023 : j'ai désigné quatre femmes que je connais déjà et chargé Willa de compléter le rôle à douze pour ce soir, à six cerfs la journée, prévenues d'avance de ce qu'elles verront. L'acte est écrit au registre, le billet est parti. Si Willa ne rend rien ce soir, je complète moi-même demain au marché du poisson — je ne redemande pas deux fois.

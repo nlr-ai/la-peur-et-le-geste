@@ -45,9 +45,11 @@ for _p in (_d, os.path.join(_d, "noyau")):
 import histoire  # noqa: E402 — noyau : le seul frere importable
 import documents_maison  # noqa: E402 — les bibliotheques possedees
 
-RACINE = os.path.dirname(_d)
-ETAT = os.path.join(RACINE, "etat")
-CHAMBRES = os.path.join(RACINE, "chambres")
+import racines  # noqa: E402
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+CHAMBRES = racines.chambres()
 EMPREINTES = histoire.EMPREINTES
 # LE DERNIER ETAT CONNU SANS PERTE. Voir `poser()` : c'est la seule source de
 # `rendre_cellules.py`, et elle ne se laisse remplacer que par une passe qui

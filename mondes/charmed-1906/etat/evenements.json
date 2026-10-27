@@ -1,70 +1,613 @@
 [
- {
-  "id": "seisme-1906",
-  "date_prevue": {"annee": 1906, "lune": 4, "jour": 18, "minute": 312},
-  "type": "canon",
-  "importance": 100,
-  "description": "Le grand séisme de San Francisco : une minute environ de secousses. La maison tient debout mais se tord ; la pierre qui scelle la cave se fend.",
-  "lieu_id": "san-francisco",
-  "acteurs": [],
-  "conditions": [],
-  "statut": "a-venir",
-  "effets": [
-   "la pierre de la cave se fend : le déclencheur de l'Ombre tombe",
-   "le fourneau de la cuisine se renverse si Bridget l'a allumé : feu dans la cuisine",
-   "la lampe de la chambre de Prudence tombe",
-   "le télégraphe et les conduites de gaz de la ville se rompent"
-  ],
-  "diffusion": [],
-  "_": "HISTOIRE. L'heure est celle de l'histoire (5 h 12). Les effets sur la maison sont inventés."
- },
- {
-  "id": "le-livre-brule",
-  "date_prevue": {"annee": 1906, "lune": 4, "jour": 18, "minute": 330},
-  "type": "programme",
-  "importance": 90,
-  "description": "Le feu de la cuisine gagne l'escalier puis le palier ; la fumée et les flammes montent au grenier où dort le Livre des Ombres.",
-  "lieu_id": "san-francisco",
-  "acteurs": ["prudence-warren"],
-  "conditions": [
-   "si le feu de la cuisine est éteint avant 5 h 20, le Livre ne brûle pas — mais la cave reste ouverte",
-   "si Prudence monte au grenier avant 5 h 30, elle sauve ce que ses bras et sa colère emportent : le reste brûle",
-   "si Prudence choisit sa fille d'abord, le Livre brûle entier sauf ce que le feu épargne au hasard"
-  ],
-  "statut": "a-venir",
-  "effets": [
-   "le Livre des Ombres perd la plupart de ses pages ; le MJ tranche lesquelles d'après ce qu'elle a fait",
-   "la cuisine et l'escalier brûlent ; la maison n'est plus habitable"
-  ],
-  "diffusion": [],
-  "_": "INVENTION DÉCLARÉE (option 3 du 10.9). Ce qui est sauvé se décide en jeu, jamais d'avance."
- },
- {
-  "id": "proclamation-du-maire",
-  "date_prevue": {"annee": 1906, "lune": 4, "jour": 18, "minute": 720},
-  "type": "canon",
-  "importance": 40,
-  "description": "Le maire fait placarder l'ordre de tirer sur les pillards ; l'armée patrouille.",
-  "lieu_id": "san-francisco",
-  "acteurs": [],
-  "conditions": [],
-  "statut": "a-venir",
-  "effets": ["les soldats tiennent les rues ; un homme qui porte des biens dans les ruines peut être abattu"],
-  "diffusion": [],
-  "_": "HISTOIRE. L'heure exacte de la proclamation est à vérifier ; le jour est le 18."
- },
- {
-  "id": "le-grand-incendie",
-  "date_prevue": {"annee": 1906, "lune": 4, "jour": 18, "minute": 400},
-  "type": "canon",
-  "importance": 80,
-  "description": "Les feux nés du séisme se rejoignent et brûlent la ville trois jours ; l'armée dynamite des maisons pour faire des coupe-feux.",
-  "lieu_id": "san-francisco",
-  "acteurs": [],
-  "conditions": [],
-  "statut": "a-venir",
-  "effets": ["trois jours de feu, jusqu'au 21", "les réfugiés gagnent les parcs et le Presidio"],
-  "diffusion": [],
-  "_": "HISTOIRE. Si le feu atteint Prescott Street est une question à trancher sur la carte le moment venu."
- }
+  {
+    "id": "seisme-1906",
+    "date_prevue": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 18,
+      "minute": 312
+    },
+    "type": "canon",
+    "importance": 100,
+    "description": "Le grand séisme de San Francisco : une minute environ de secousses. La maison tient debout mais se tord ; la pierre qui scelle la cave se fend.",
+    "lieu_id": "san-francisco",
+    "acteurs": [],
+    "conditions": [],
+    "statut": "resolu",
+    "effets": [
+      "la pierre de la cave se fend : le déclencheur de l'Ombre tombe",
+      "le fourneau de la cuisine se renverse si Bridget l'a allumé : feu dans la cuisine",
+      "la lampe de la chambre de Prudence tombe",
+      "le télégraphe et les conduites de gaz de la ville se rompent"
+    ],
+    "diffusion": [],
+    "_": "HISTOIRE. L'heure est celle de l'histoire (5 h 12). Les effets sur la maison sont inventés. RESOLU LE 18, 5H12 : Arbitre au tour de prudence-warren, 5h12 : vecu dans la cave, lampe tenue. Effet 'lampe de la chambre tombe' sans objet : la lampe n'y etait plus, Prudence l'avait descendue (son choix). Thomas l'avait vecu a Dupont Street sur sa propre horloge, sans resolution."
+  },
+  {
+    "id": "le-livre-brule",
+    "date_prevue": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 18,
+      "minute": 330
+    },
+    "type": "programme",
+    "importance": 90,
+    "description": "Le feu de la cuisine gagne l'escalier puis le palier ; la fumée et les flammes montent au grenier où dort le Livre des Ombres.",
+    "lieu_id": "san-francisco",
+    "acteurs": [
+      "prudence-warren"
+    ],
+    "conditions": [
+      "si le feu de la cuisine est éteint avant 5 h 20, le Livre ne brûle pas — mais la cave reste ouverte",
+      "si Prudence monte au grenier avant 5 h 30, elle sauve ce que ses bras et sa colère emportent : le reste brûle",
+      "si Prudence choisit sa fille d'abord, le Livre brûle entier sauf ce que le feu épargne au hasard"
+    ],
+    "statut": "a-venir",
+    "effets": [
+      "le Livre des Ombres perd la plupart de ses pages ; le MJ tranche lesquelles d'après ce qu'elle a fait",
+      "la cuisine et l'escalier brûlent ; la maison n'est plus habitable"
+    ],
+    "diffusion": [],
+    "_": "INVENTION DÉCLARÉE (option 3 du 10.9). Ce qui est sauvé se décide en jeu, jamais d'avance."
+  },
+  {
+    "id": "proclamation-du-maire",
+    "date_prevue": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 18,
+      "minute": 720
+    },
+    "type": "canon",
+    "importance": 40,
+    "description": "Le maire fait placarder l'ordre de tirer sur les pillards ; l'armée patrouille.",
+    "lieu_id": "san-francisco",
+    "acteurs": [],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [
+      "les soldats tiennent les rues ; un homme qui porte des biens dans les ruines peut être abattu",
+      "la Compagnie du gaz et de l'électricité a ordre de ne rien rallumer : la ville reste dans le noir pour un temps indéfini",
+      "le maire prie chacun de rester chez soi de la nuit tombée au jour, chaque nuit, jusqu'au retour de l'ordre",
+      "avertissement public contre les cheminées fendues et les conduites de gaz"
+    ],
+    "diffusion": [],
+    "_": "HISTOIRE. L'heure exacte de la proclamation est à vérifier ; le jour est le 18. Termes de la proclamation (le noir, le couvre-feu, les cheminées) : relevés de mémoire, à vérifier sur le texte placardé."
+  },
+  {
+    "id": "le-grand-incendie",
+    "date_prevue": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 18,
+      "minute": 400
+    },
+    "type": "canon",
+    "importance": 80,
+    "description": "Les feux nés du séisme se rejoignent et brûlent la ville trois jours ; l'armée dynamite des maisons pour faire des coupe-feux.",
+    "lieu_id": "san-francisco",
+    "acteurs": [],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [
+      "trois jours de feu, jusqu'au 21",
+      "les réfugiés gagnent les parcs et le Presidio"
+    ],
+    "diffusion": [],
+    "_": "HISTOIRE. Si le feu atteint Prescott Street est une question à trancher sur la carte le moment venu."
+  },
+  {
+    "id": "troupes-dans-les-rues",
+    "date_prevue": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 18,
+      "minute": 420
+    },
+    "type": "canon",
+    "importance": 35,
+    "description": "Le général Funston fait descendre de sa propre autorité les troupes du Presidio et de Fort Mason ; vers sept ou huit heures, les soldats tiennent le centre, baïonnette au canon.",
+    "lieu_id": "presidio",
+    "acteurs": [],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [
+      "des soldats dans les rues du centre et sur Van Ness ; ils écartent les curieux des ruines et des feux"
+    ],
+    "diffusion": [
+      {
+        "ou": "prescott-street",
+        "qui": [
+          "bridget-oconnell",
+          "lillian-warren"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 18,
+          "minute": 450
+        },
+        "canal": "temoin",
+        "fiabilite": 90,
+        "version": "Une compagnie de soldats passe au pas de course dans Fillmore, vers l'est, sans un mot pour personne.",
+        "livree": false
+      },
+      {
+        "ou": "mission-dolores",
+        "qui": [
+          "pere-callahan"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 18,
+          "minute": 540
+        },
+        "canal": "rumeur",
+        "fiabilite": 60,
+        "version": "L'armée a pris la ville. On dit que c'est Funston, et qu'il n'a demandé la permission à personne.",
+        "livree": false
+      }
+    ],
+    "_": "HISTOIRE — voir canon/histoire-1906.md. L'heure exacte de l'arrivée des troupes est à vérifier."
+  },
+  {
+    "id": "replique-8h14",
+    "date_prevue": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 18,
+      "minute": 494
+    },
+    "type": "canon",
+    "importance": 45,
+    "description": "Une forte réplique. Ce qui était fendu tombe : des cheminées, des façades, des murs de brique déjà ouverts. Ceux qui étaient rentrés chercher leurs affaires ressortent pour de bon.",
+    "lieu_id": "san-francisco",
+    "acteurs": [],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [
+      "ce qui a été fendu à 5 h 12 et n'a pas été étayé tombe — dans la maison des Warren comme ailleurs",
+      "si la pierre de la cave n'a pas été reprise, elle s'ouvre davantage"
+    ],
+    "diffusion": [
+      {
+        "ou": "san-francisco",
+        "qui": null,
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 18,
+          "minute": 494
+        },
+        "canal": "temoin",
+        "fiabilite": 100,
+        "version": "La terre recommence. Moins longtemps, mais tout le monde a cru que c'était la fin.",
+        "livree": false
+      }
+    ],
+    "_": "HISTOIRE — voir canon/histoire-1906.md. 8 h 14 : heure sûre."
+  },
+  {
+    "id": "feu-de-hayes-street",
+    "date_prevue": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 18,
+      "minute": 630
+    },
+    "type": "canon",
+    "importance": 50,
+    "description": "Le « feu du jambon et des œufs » : une femme de Hayes Street allume son fourneau sur une cheminée fendue. Le feu part vers l'est et le sud, prend l'hôtel de ville ruiné et le Mechanics' Pavilion, d'où l'on évacue les blessés du matin vers le parc et le Presidio.",
+    "lieu_id": "city-hall",
+    "acteurs": [],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [
+      "le Civic Center brûle ; le feu descend ensuite vers la Mission",
+      "les blessés de la ville refluent vers le parc du Golden Gate et le Presidio"
+    ],
+    "diffusion": [
+      {
+        "ou": "prescott-street",
+        "qui": [
+          "bridget-oconnell"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 18,
+          "minute": 780
+        },
+        "canal": "rumeur",
+        "fiabilite": 45,
+        "version": "Une femme a mis le feu à la ville en faisant cuire ses œufs — c'est ce que crie un homme dans la rue, et il dit qu'on l'a pendue, ce qui est faux.",
+        "livree": false
+      },
+      {
+        "ou": "mission-dolores",
+        "qui": [
+          "pere-callahan"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 18,
+          "minute": 840
+        },
+        "canal": "temoin",
+        "fiabilite": 80,
+        "version": "Une fumée noire monte de Hayes Valley et descend vers la Mission ; les premiers qui fuient disent que l'hôtel de ville brûle et que les blessés du Pavilion sont sortis sur des portes.",
+        "livree": false
+      }
+    ],
+    "_": "HISTOIRE — voir canon/histoire-1906.md. Vers 10 h 30 : heure à vérifier."
+  },
+  {
+    "id": "le-call-brule",
+    "date_prevue": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 18,
+      "minute": 780
+    },
+    "type": "canon",
+    "importance": 55,
+    "description": "Le Call Building, angle Market et 3e rue, la plus haute tour de la ville, brûle de l'intérieur ; la carcasse d'acier reste debout. Les ateliers, les casses, les formes de l'édition du matin : tout y passe.",
+    "lieu_id": "call-building",
+    "acteurs": [],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [
+      "Silas Byrne n'a plus d'atelier ni de paie",
+      "le Palace Hotel brûle le même après-midi"
+    ],
+    "diffusion": [
+      {
+        "ou": "call-building",
+        "qui": [
+          "silas-byrne"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 18,
+          "minute": 780
+        },
+        "canal": "temoin",
+        "fiabilite": 100,
+        "version": "Les fenêtres du Call éclatent d'un étage à l'autre ; le feu est dedans, et l'atelier avec.",
+        "livree": false
+      },
+      {
+        "ou": "prescott-street",
+        "qui": [
+          "bridget-oconnell"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 18,
+          "minute": 1020
+        },
+        "canal": "rumeur",
+        "fiabilite": 55,
+        "version": "Tout Market Street est en feu, le Call, le Palace, les banques — et on dit que la tour du Call est tombée, ce qui n'est pas vrai.",
+        "livree": false
+      }
+    ],
+    "_": "HISTOIRE — voir canon/histoire-1906.md. Heure à vérifier (fin de matinée ou après-midi du 18). La diffusion vers Silas suppose qu'il est encore là : s'il est parti, elle passe en rumeur à l'endroit où il se trouve."
+  },
+  {
+    "id": "howard-street-brule",
+    "date_prevue": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 18,
+      "minute": 420
+    },
+    "type": "canon",
+    "importance": 45,
+    "description": "Au sud de Market, sur le remblai, les garnis de bois se sont affaissés au choc ; les feux nés dans la première heure les prennent l'un après l'autre. Vers sept heures, Howard Street brûle.",
+    "lieu_id": "howard-street",
+    "acteurs": [],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [
+      "la pension Doyle et ce que Patience y a laissé brûlent si elle n'en a rien sorti",
+      "les rues au sud de Market sont fermées par le feu : de là, on ne rejoint Prescott Street qu'en remontant vers l'ouest avant de couper au nord"
+    ],
+    "diffusion": [
+      {
+        "ou": "howard-street",
+        "qui": [
+          "patience-warren"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 18,
+          "minute": 330
+        },
+        "canal": "temoin",
+        "fiabilite": 100,
+        "version": "Des fumées déjà, à deux ou trois rues ; la pension penche, et personne ne sait où est la logeuse.",
+        "livree": false
+      },
+      {
+        "ou": "prescott-street",
+        "qui": [
+          "bridget-oconnell"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 18,
+          "minute": 720
+        },
+        "canal": "rumeur",
+        "fiabilite": 50,
+        "version": "Tout le sud de Market est en feu depuis le matin, les pensions sont tombées sur leurs gens — personne ne sait combien.",
+        "livree": false
+      }
+    ],
+    "_": "HISTOIRE — voir canon/histoire-1906.md. Les garnis effondrés et les feux de SoMa dans la première heure sont sûrs ; l'heure où Howard Street même brûle est à vérifier. La pension Doyle est une invention (Patience)."
+  },
+  {
+    "id": "chinatown-brule",
+    "date_prevue": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 18,
+      "minute": 1200
+    },
+    "type": "canon",
+    "importance": 60,
+    "description": "Chinatown brûle en entier, Dupont Street, les herboristeries, les temples, pendant la soirée du 18 et la nuit du 19. Ses gens sont repoussés vers le nord et parqués à part.",
+    "lieu_id": "chinatown",
+    "acteurs": [],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [
+      "l'herboristerie Chow brûle, avec ses réserves — dont la racine de schisandra, la seule qu'on trouve en ville",
+      "les Chinois réfugiés sont séparés des autres dans les camps"
+    ],
+    "diffusion": [
+      {
+        "ou": "chinatown",
+        "qui": [
+          "mei-chow"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 18,
+          "minute": 1200
+        },
+        "canal": "temoin",
+        "fiabilite": 100,
+        "version": "Le feu entre dans Dupont Street par le haut, comme dans le rêve, dans le même ordre.",
+        "livree": false
+      },
+      {
+        "ou": "prescott-street",
+        "qui": [
+          "bridget-oconnell"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 19,
+          "minute": 480
+        },
+        "canal": "rumeur",
+        "fiabilite": 40,
+        "version": "Chinatown a brûlé toute la nuit ; on dit que ce sont les Chinois qui y ont mis le feu pour piller, et que la peste va sortir des caves.",
+        "livree": false
+      }
+    ],
+    "_": "HISTOIRE — voir canon/histoire-1906.md. Le soir du 18 : l'heure du premier feu dans Dupont Street est à vérifier."
+  },
+  {
+    "id": "edition-commune",
+    "date_prevue": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 19,
+      "minute": 420
+    },
+    "type": "canon",
+    "importance": 30,
+    "description": "Paraît à Oakland, sur les presses du Tribune, l'édition commune du Call, du Chronicle et de l'Examiner : une seule feuille pour les trois journaux ennemis.",
+    "lieu_id": "oakland",
+    "acteurs": [],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [
+      "le Call cherche des typographes à Oakland : Silas Byrne peut y retrouver du travail"
+    ],
+    "diffusion": [
+      {
+        "ou": "presidio",
+        "qui": null,
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 19,
+          "minute": 720
+        },
+        "canal": "temoin",
+        "fiabilite": 85,
+        "version": "Une feuille du journal passe de main en main : la ville est détruite, le feu continue, les morts se comptent par centaines — un chiffre bien trop bas.",
+        "livree": false
+      },
+      {
+        "ou": "prescott-street",
+        "qui": [
+          "bridget-oconnell"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 19,
+          "minute": 960
+        },
+        "canal": "temoin",
+        "fiabilite": 80,
+        "version": "Un voisin a une feuille du journal venue d'Oakland ; on la lit à haute voix dans la rue, autour des fourneaux.",
+        "livree": false
+      }
+    ],
+    "_": "HISTOIRE — voir canon/histoire-1906.md. Le 19 : jour sûr."
+  },
+  {
+    "id": "defense-de-feu-dans-les-maisons",
+    "date_prevue": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 19,
+      "minute": 480
+    },
+    "type": "canon",
+    "importance": 45,
+    "description": "Défense de faire du feu dans les maisons tant que les cheminées n'ont pas été inspectées : on cuisine dans la rue, sur des fourneaux sortis sur le trottoir.",
+    "lieu_id": "san-francisco",
+    "acteurs": [],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [
+      "des cuisines de rue dans Prescott Street ; la vie de la maison sort sur le trottoir",
+      "une maison qui garde une lampe allumée la nuit se fait remarquer des patrouilles"
+    ],
+    "diffusion": [
+      {
+        "ou": "prescott-street",
+        "qui": [
+          "bridget-oconnell"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 19,
+          "minute": 540
+        },
+        "canal": "temoin",
+        "fiabilite": 90,
+        "version": "Un soldat et un homme du comité passent de porte en porte : plus de feu dedans, on cuit dehors, et pas de lumière aux fenêtres à la nuit.",
+        "livree": false
+      }
+    ],
+    "_": "HISTOIRE — voir canon/histoire-1906.md. L'ordre existe ; son jour exact et ses termes sont à vérifier."
+  },
+  {
+    "id": "ligne-de-van-ness",
+    "date_prevue": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 20,
+      "minute": 540
+    },
+    "type": "canon",
+    "importance": 65,
+    "description": "On fait sauter à la dynamite et on canonne une rangée de maisons le long de Van Ness Avenue pour arrêter le feu. Il passe par endroits jusqu'à Franklin Street, et s'y arrête. Tout le jour, à six pâtés de Prescott Street, ça tonne.",
+    "lieu_id": "van-ness",
+    "acteurs": [],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [
+      "le feu ne passe pas à l'ouest de Van Ness : Prescott Street est sauvée du grand incendie",
+      "les soldats font évacuer les rues voisines de Van Ness pendant les tirs",
+      "les vitres qui restaient dans le quartier tombent"
+    ],
+    "diffusion": [
+      {
+        "ou": "prescott-street",
+        "qui": [
+          "bridget-oconnell",
+          "lillian-warren"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 20,
+          "minute": 540
+        },
+        "canal": "temoin",
+        "fiabilite": 100,
+        "version": "Des explosions, l'une après l'autre, du côté de Van Ness ; les vitres tremblent, et un soldat crie de rester loin des fenêtres.",
+        "livree": false
+      },
+      {
+        "ou": "golden-gate-park",
+        "qui": null,
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 20,
+          "minute": 900
+        },
+        "canal": "rumeur",
+        "fiabilite": 35,
+        "version": "Ils font sauter tout Pacific Heights pour arrêter le feu, maison par maison, avec les gens dedans.",
+        "livree": false
+      }
+    ],
+    "_": "HISTOIRE — voir canon/histoire-1906.md. Le 20 : jour sûr ; l'étendue exacte des évacuations est à vérifier."
+  },
+  {
+    "id": "le-feu-tenu",
+    "date_prevue": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 21,
+      "minute": 420
+    },
+    "type": "canon",
+    "importance": 50,
+    "description": "Le feu est tenu. Dans la Mission, il s'est arrêté à la 20e rue grâce à une bouche d'incendie qui marchait encore et à des centaines de volontaires ; Mission Dolores est sauvée. Le front de mer a été défendu à l'eau de la baie.",
+    "lieu_id": "mission-dolores",
+    "acteurs": [],
+    "conditions": [],
+    "statut": "a-venir",
+    "effets": [
+      "la ville compte ses ruines : environ 28 000 bâtiments, plus de la moitié des habitants sans toit",
+      "Mission Dolores tient ; l'église de brique voisine est abîmée ; le quartier est un camp"
+    ],
+    "diffusion": [
+      {
+        "ou": "mission-dolores",
+        "qui": [
+          "pere-callahan"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 21,
+          "minute": 420
+        },
+        "canal": "temoin",
+        "fiabilite": 100,
+        "version": "Le feu est mort à quatre pâtés de la Mission. Elle reste debout, avec des milliers de gens dans ses rues.",
+        "livree": false
+      },
+      {
+        "ou": "prescott-street",
+        "qui": [
+          "bridget-oconnell"
+        ],
+        "date": {
+          "annee": 1906,
+          "lune": 4,
+          "jour": 21,
+          "minute": 600
+        },
+        "canal": "rumeur",
+        "fiabilite": 70,
+        "version": "C'est fini, le feu est éteint ; Mission Dolores a tenu — la Sainte Vierge, dit-on, et une bouche d'eau.",
+        "livree": false
+      }
+    ],
+    "_": "HISTOIRE — voir canon/histoire-1906.md. Le 21 au matin : jour sûr."
+  }
 ]

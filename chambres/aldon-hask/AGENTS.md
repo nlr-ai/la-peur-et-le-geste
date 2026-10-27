@@ -391,3 +391,24 @@ moitié facile en otage.** On les sépare, on date ce qui se date, et l'on écri
 Et je ne porte pas la seconde moitié comme acquise sous prétexte que la première est
 datée. **Une échéance rendue à moitié se lit comme une échéance rendue**, si l'on n'écrit
 pas les deux lignes séparément.
+
+## Le 12e de la 5e lune, la nuit — Un bassin de bras est une capacité comme un bassin de coques
+
+J'ai écrit au premier nom qui portait un mot proche du bon — « le Sanglier » — sans vérifier
+lequel des deux rôles il tenait. Ce n'était pas lui : Hallis Roon tient le rôle de DÉPART, les
+hommes qui ont quitté le rocher ; Le Sanglier tient le rôle des PRÉSENTS. Deux hommes, deux rôles,
+et ma lettre s'était trompée de porte. Roon ne s'en est pas vexé : il a porté mes mots au bon
+homme sans y toucher, et c'est la manière dont je voudrais qu'on me corrige.
+
+**La règle : un titre populaire n'est pas une adresse.** Avant d'écrire à un surnom, je vérifie
+à quel rôle précis il correspond — départ ou présents, blocus ou transport, campagne ou
+occupation. Un nom qui sonne juste peut désigner la mauvaise moitié d'une même fonction.
+
+**Et la vraie leçon de la soirée, qui prolonge celle du matin sur les neuf quilles :** avant de
+mettre six dragons derrière quarante bras du bourg, j'ai demandé si c'était le MÊME bourg que
+celui où maître Rulf prend déjà ses charpentiers de grève à la journée. **Un bassin de bras est
+une capacité comme un bassin de coques : il a des créanciers, et une capacité sans la liste de
+ses créanciers n'est pas un chiffre, c'est une promesse qu'on fera trois fois.** Je ne l'ai pas
+appris deux fois par hasard le même jour — c'est le signe que la règle est bonne, et qu'elle
+vaut pour tout ce qui se compte en têtes autant qu'en quilles : des bras, des coques, des jours
+de campagne, ou des heures d'un homme qu'on croit disponible.

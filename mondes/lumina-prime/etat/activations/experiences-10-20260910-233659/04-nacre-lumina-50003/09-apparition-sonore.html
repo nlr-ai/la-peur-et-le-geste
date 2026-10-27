@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La lisière respire — apparition sonore facultative</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #07100f; color: #e2eee8; }
+    body { max-width: 920px; margin: 0 auto; padding: 1.5rem; }
+    p, li { max-width: 76ch; line-height: 1.5; }
+    .commands { display: flex; flex-wrap: wrap; gap: .7rem; margin: 1.2rem 0; }
+    button { padding: .75rem 1rem; border: 1px solid #75988a; border-radius: .5rem; color: inherit; background: #10231e; cursor: pointer; font-weight: 650; }
+    button:focus-visible { outline: .2rem solid #d7c884; outline-offset: .15rem; }
+    #state { padding: .85rem 1rem; border-left: .35rem solid #81b99f; background: #0c1916; }
+    #state[data-mode="playing"] { border-left-color: #d7c884; }
+    .scene { border: 1px solid #527064; border-radius: 1rem; overflow: hidden; background: #10231e; }
+    svg { display: block; width: 100%; height: auto; }
+    .limits { border-left: .3rem solid #b79a67; padding-left: 1rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>La lisière respire — écoute facultative</h1>
+    <p><strong>Écoute au casque ou dans le navigateur, sur cette copie seulement.</strong> Cette page ne mesure aucune portée sonore et ne prouve aucun silence dans un lieu réel. Elle ne charge aucune ressource externe et ne capte, n’enregistre, n’identifie ni ne suit rien.</p>
+
+    <div class="commands">
+      <button id="hear" type="button">Entendre une apparition</button>
+      <button id="cut" type="button">Couper maintenant</button>
+      <button id="silent" type="button">Passer en silence</button>
+    </div>
+
+    <p id="state" data-mode="muted" aria-live="polite"><strong>État : muet.</strong> Aucun contexte audio n’a été créé.</p>
+
+    <figure class="scene">
+      <svg viewBox="0 0 800 360" role="img" aria-labelledby="scene-title scene-desc">
+        <title id="scene-title">Copie simplifiée avec lisière et passage silencieux</title>
+        <desc id="scene-desc">Une lisière lumineuse reste en haut. Un passage sombre relie l’entrée à gauche et la sortie à droite. Un petit gabarit peut parcourir ce passage sans produire de son.</desc>
+        <defs>
+          <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+            <path d="M0 0 L10 5 L0 10 Z" fill="#dce9e3"/>
+          </marker>
+        </defs>
+        <rect width="800" height="360" fill="#10231e"/>
+        <path id="lisiere-unique" d="M95 150 C120 98 190 72 280 76 C365 78 430 98 490 135" fill="none" stroke="#75d8a5" stroke-width="9" stroke-linecap="round" opacity=".82"/>
+        <path d="M0 210 H800 V330 H0 Z" fill="#07100f" stroke="#527064" stroke-width="2"/>
+        <path d="M45 270 H755" fill="none" stroke="#dce9e3" stroke-width="3" stroke-dasharray="14 12" marker-end="url(#arrow)"/>
+        <text x="18" y="255" fill="#dce9e3" font-family="system-ui, sans-serif" font-size="18">entrée</text>
+        <text x="690" y="225" fill="#dce9e3" font-family="system-ui, sans-serif" font-size="18">sortie</text>
+        <g id="silent-traveler" transform="translate(55 270)">
+          <circle r="21" fill="#d7c884" stroke="#fff4bd" stroke-width="3"/>
+          <circle r="29" fill="none" stroke="#d7c884" stroke-width="2" stroke-dasharray="6 5"/>
+        </g>
+      </svg>
+    </figure>
+
+    <ul>
+      <li>« Entendre une apparition » est le seul geste qui crée un contexte audio.</li>
+      <li>L’apparition comporte trois oscillateurs locaux, sans boucle, tous arrêtés au plus tard à 2,8 secondes.</li>
+      <li>« Couper maintenant » met le gain à zéro, arrête les sources, les déconnecte et ferme le contexte.</li>
+      <li>« Passer en silence » rejoint la sortie visuelle sans créer ni démarrer de contexte audio ; si une apparition est en cours, elle la coupe d’abord.</li>
+    </ul>
+
+    <div class="limits">
+      <p><strong>Ce que la page peut garantir :</strong> absence d’autoplay et de boucle ; création audio seulement après le bouton explicite ; arrêt programmé à 2,8 secondes maximum ; commande locale de coupure ; retour de son état interne à « muet ».</p>
+      <p><strong>Ce qu’elle ne garantit pas :</strong> qu’un son soit réellement audible sur une sortie donnée, sa pression, sa portée, son isolement, le silence d’un lieu ou l’arrêt d’un dispositif de la cité.</p>
+    </div>
+  </main>
+
+  <script>
+    (() => {
+      const AudioCtor = window.AudioContext || window.webkitAudioContext;
+      const state = document.getElementById('state');
+      const traveler = document.getElementById('silent-traveler');
+      const MAX_SECONDS = 2.8;
+      let context = null;
+      let master = null;
+      let sources = [];
+      let session = 0;
+      let passageAnimation = 0;
+      let endTimer = 0;
+      let contextsCreated = 0;
+      let lastReason = 'chargement muet';
+
+      function showMuted(message) {
+        state.dataset.mode = 'muted';
+        state.innerHTML = `<strong>État : muet.</strong> ${message}`;
+      }
+
+      async function closeSession(reason) {
+        const closingContext = context;
+        session += 1;
+        clearTimeout(endTimer);
+        endTimer = 0;
+        if (master && closingContext) {
+          try {
+            master.gain.cancelScheduledValues(closingContext.currentTime);
+            master.gain.setValueAtTime(0, closingContext.currentTime);
+          } catch {}
+        }
+        for (const source of sources) {
+          try { source.stop(); } catch {}
+          try { source.disconnect(); } catch {}
+        }
+        try { master?.disconnect(); } catch {}
+        sources = [];
+        master = null;
+        context = null;
+        lastReason = reason;
+        if (closingContext && closingContext.state !== 'closed') {
+          try { await closingContext.close(); } catch {}
+        }
+        showMuted(reason);
+      }
+
+      async function hear() {
+        if (!AudioCtor) {
+          showMuted('Web Audio indisponible dans ce navigateur ; aucun son produit.');
+          return;
+        }
+        if (context) await closeSession('apparition précédente arrêtée avant reprise.');
+
+        const ownSession = ++session;
+        context = new AudioCtor();
+        contextsCreated += 1;
+        await context.resume();
+        const now = context.currentTime;
+        master = context.createGain();
+        master.gain.setValueAtTime(0.0001, now);
+        master.gain.exponentialRampToValueAtTime(0.075, now + 0.09);
+        master.gain.exponentialRampToValueAtTime(0.0001, now + 2.72);
+        master.connect(context.destination);
+
+        const voices = [
+          { frequency: 330, offset: 0.00, gain: 0.55 },
+          { frequency: 495, offset: 0.18, gain: 0.34 },
+          { frequency: 660, offset: 0.42, gain: 0.20 }
+        ];
+        sources = voices.map((voice) => {
+          const oscillator = context.createOscillator();
+          const voiceGain = context.createGain();
+          oscillator.type = 'sine';
+          oscillator.frequency.setValueAtTime(voice.frequency, now + voice.offset);
+          oscillator.frequency.exponentialRampToValueAtTime(voice.frequency * 1.12, now + 2.55);
+          voiceGain.gain.setValueAtTime(voice.gain, now + voice.offset);
+          oscillator.connect(voiceGain).connect(master);
+          oscillator.start(now + voice.offset);
+          oscillator.stop(now + MAX_SECONDS);
+          return oscillator;
+        });
+
+        let ended = 0;
+        for (const source of sources) {
+          source.addEventListener('ended', () => {
+            ended += 1;
+            if (ended === voices.length && ownSession === session) {
+              closeSession('apparition arrivée à son terme ; contexte fermé.');
+            }
+          }, { once: true });
+        }
+        endTimer = window.setTimeout(() => {
+          if (ownSession === session) closeSession('apparition arrivée à son terme ; garde temporelle fermée.');
+        }, 2850);
+        lastReason = 'apparition en cours';
+        state.dataset.mode = 'playing';
+        state.innerHTML = `<strong>État : apparition en cours.</strong> Fin programmée au plus tard dans ${MAX_SECONDS.toFixed(1).replace('.', ',')} secondes.`;
+      }
+
+      function passSilently() {
+        cancelAnimationFrame(passageAnimation);
+        if (context) closeSession('apparition coupée pour passer en silence.');
+        const start = performance.now();
+        const duration = 1400;
+        const step = (now) => {
+          const fraction = Math.min(1, (now - start) / duration);
+          const x = 55 + fraction * 690;
+          traveler.setAttribute('transform', `translate(${x} 270)`);
+          if (fraction < 1) passageAnimation = requestAnimationFrame(step);
+          else {
+            lastReason = 'passage silencieux terminé sans création audio';
+            showMuted('passage silencieux arrivé à la sortie ; aucun contexte audio créé par ce parcours.');
+          }
+        };
+        passageAnimation = requestAnimationFrame(step);
+      }
+
+      document.getElementById('hear').addEventListener('click', hear);
+      document.getElementById('cut').addEventListener('click', () => {
+        if (context) closeSession('coupure immédiate demandée ; sources arrêtées et contexte fermé.');
+        else showMuted('commande de coupure reçue ; aucun son n’était actif.');
+      });
+      document.getElementById('silent').addEventListener('click', passSilently);
+
+      window.__nacreAudioState = () => ({
+        mode: state.dataset.mode,
+        text: state.textContent.trim(),
+        contextExists: Boolean(context),
+        contextState: context?.state ?? 'absent',
+        activeSources: sources.length,
+        contextsCreated,
+        lastReason,
+        travelerTransform: traveler.getAttribute('transform')
+      });
+    })();
+  </script>
+</body>
+</html>

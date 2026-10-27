@@ -4,16 +4,57 @@
  "j_attends": [
   {
    "depuis": "129.4.4",
-   "de": "Hallis Roon, après relevé de Sara Poulain et rôle de Robert Quince",
-   "quoi": "Les chiffres et pièces pour hommes présents, chevaux embarquables, eau et vivres ; les détenteurs et pièces pour coques et charges admises ; le point de débarquement demeure un ordre distinct à arrêter.",
-   "etat": "feuille fixée ; en attente des heures du regard de Sara et de la relecture de Quince, puis du relevé"
+   "de": "Hallis Roon",
+   "quoi": "Le 14e au soir : les heures du regard de Sara et de la relecture de Quince (84502), ou « pas encore » avec ce qui l'arrête ; si l'appel de la réserve a pu être tenu ; la phrase exacte de Quince sur qui tient le rôle nominatif. Depuis le 129.5.12 au soir : les chevaux, pièce 26039 que Le Sanglier met à son nom — charge désignée, pièce remplie ou non, et ce qu'il faut pour l'ouvrir.",
+   "etat": "le 14e au soir : si l'appel a pu être tenu sur la copie arrivée aux caves le 12e, sinon ce qui l'arrête ; et la phrase exacte de Quince sur qui tient le rôle",
+   "relance": "129.5.12"
   },
+  {
+   "depuis": "129.5.12",
+   "de": "Wend, sergent de la porte de mer",
+   "quoi": "Sa page relue : comment son livre écrit l'heure ; les cinq dernières nuits datées avec heures à un seul homme, zéro écrit ; les cinq nuits du 2e de la 4e lune. Le chiffre de sept heures est rayé par lui.",
+   "etat": "promise après relecture ; il la porte aussi à ser Robert. Hors de mon office : je la reçois."
+  },
+  {
+   "depuis": "129.5.12",
+   "de": "Aldon Hask, commandement du quai",
+   "quoi": "État de l'ordre d'embarquement ; copie datée ou ce qui l'arrête ; rapport à la pièce 26034.",
+   "etat": "deux billets de moi le 12e (deux voix) ; réponse demandée pour le 129.5.15 à midi",
+   "relance": "129.5.12"
+  },
+  {
+   "depuis": "129.5.12",
+   "de": "Rulf Corne, maître de port",
+   "quoi": "Chaque coque en rade : nom, patron, charge admise hommes et chevaux, date de ligne ; ce qui manque à 26030.",
+   "etat": "deux billets de moi le 12e (deux voix) ; réponse demandée pour le 129.5.15 à midi",
+   "relance": "129.5.12"
+  },
+  {
+   "depuis": "129.5.12",
+   "de": "Robert Quince, par Roon",
+   "quoi": "84502 : jour et heure du regard de la réserve coque par coque avec Sara, ou « pas encore ».",
+   "etat": "avant le 129.5.14 à midi"
+  },
+  {
+   "depuis": "129.5.12",
+   "de": "Robert Quince, avec Le Sanglier",
+   "quoi": "Le rôle vivant daté de la garnison, relu sur le rôle nominatif de 211 lignes clos le 22e, avec sa date et son heure.",
+   "etat": "promis dès la relecture du 12e au soir ; si rien le 13e au soir, je relance le 14e"
+  }
+ ],
+ "on_attend_de_moi": [],
+ "clos": [
   {
    "depuis": "129.4.4",
    "de": "Robert Quince",
-   "quoi": "Le rôle vivant daté des hommes présents et chevaux réellement embarquables, plus la liste des coques ou le nom précis de son détenteur.",
-   "etat": "en attente ; billet remis et réveil confirmé"
+   "clos_le": "129.5.12",
+   "comment": "Il a répondu : mon office existe au registre des offices ; rôle chez Roon, coques chez Hask et Rulf Corne. Trancher un chiffre si l'un d'eux me renvoie à lui : ce jour-là, pas avant."
+  },
+  {
+   "depuis": "129.5.12",
+   "de": "Le Sanglier",
+   "clos_le": "129.5.12",
+   "comment": "A répondu le soir même : 211 inscrits au 22e de la 3e lune, de sa main ; disponibles chez Quince ; chevaux pas de sa main, renvoyés à Roon (26039)."
   }
- ],
- "on_attend_de_moi": []
+ ]
 }

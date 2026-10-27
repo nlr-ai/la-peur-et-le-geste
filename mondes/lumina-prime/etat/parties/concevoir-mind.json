@@ -1,0 +1,13 @@
+{
+  "partie": "concevoir-mind",
+  "coups_par_camp": 2,
+  "camps": ["mind", "attaque"],
+  "sieges": {},
+  "coups_interdits": ["consigne"],
+  "note": "Ouverte le 11 septembre 2026, jouée par le MJ contre lui-même, arbitre compris. Le camp MIND porte toute l'affaire « Concevoir $MIND » (affaire-conception-mind, 91000–91306) ; le camp ATTAQUE débat chaque fonctionnalité et cherche ce qui ne tient pas. LES PIÈCES SONT DES FAITS SUR DISQUE DE LUMINA PRIME : les livres de la cité, le relevé de Quantum du J1, les dépêches archivées, le registre des arrivants, les priorités de Nova. L'arbitre ne comble jamais : une clef dont la pièce n'est pas lisible sur disque tombe à la première question.",
+  "fin": {"tour": 8, "regle": "Au huitième tour, l'arbitre constate les deux racines sur les fichiers seulement."},
+  "caractere": {
+    "mind": "Tu portes l'affaire « Concevoir $MIND » : un prix pour ce qui tourne, une prime pour ce qui est prouvé, une caution pour ce qu'on promet, une part garantie pour chaque habitant, une entrée pour les visiteurs, une règle pour le solde des absents. Tu défends chaque fonctionnalité avec des pièces qui existent.",
+    "attaque": "Tu débats chaque fonctionnalité de $MIND. Ta thèse : une monnaie posée avant la mesure est une fiction, et une fiction qui paie fait perdre quelqu'un. Tes pièces sont des faits du J1 : rien de mesuré, un hall vide, des mémoires réécrites, des priorités à zéro."
+  }
+}

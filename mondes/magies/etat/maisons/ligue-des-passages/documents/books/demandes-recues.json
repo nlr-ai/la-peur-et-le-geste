@@ -1,0 +1,43 @@
+{
+  "id": "demandes-recues",
+  "maison_id": "ligue-des-passages",
+  "titre": "Ce qu'on demande à la Ligue, et ce que j'ai répondu le jour même",
+  "sous_titre": "📨 Tenu par Naïm des Seuils, ouvert le 1.1.1 au soir pour réparer une faute de ma main : une demande adressée à la Ligue avait été répondue par moi seul, et le président du conseil l'a apprise d'une autre maison. **Une demande qui m'arrive prend sa ligne ici le jour même, et copie en part au conseil le soir même — y compris quand ma réponse est non.** Moi si c'est possible ; lui ce qu'on engage.",
+  "type": "registre",
+  "embleme": "📨",
+  "lieu_id": "sept-seuils",
+  "salle_id": "sept-seuils-accords",
+  "tenu_par": "naim-des-seuils",
+  "colonnes": [
+    "📅 Le jour",
+    "✋ Qui demande",
+    "📨 Ce qu'il demande",
+    "↩️ Ce que j'ai répondu",
+    "📤 Copie au conseil"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "**1.1.1**, matin",
+        "**Maël Orsan**, premier précepteur, Corps de résolution",
+        "Trois questions : une liaison Chapitre du Seuil ↔ Haute-Preuve ; sinon ce qu'il faudrait pour l'ouvrir une fois, pour un homme et un coffret de plis scellés ; sinon la route ordinaire en jours.",
+        "**Non** à la liaison (aucune, et aucun sol aux deux bouts). **Quatre conditions écrites** pour une ouverture unique, avec l'aveu qu'elle coûterait plus cher que sa route. **Aucun nombre de jours** — refusé, et remplacé par une date de reddition, tenue le soir même.",
+        "Faite le soir du 1.1.1 — **en retard d'une demi-journée, et c'est la faute que ce registre corrige**"
+      ],
+      "note": "Il n'a rien demandé qui engage la Ligue : ni liaison tenue à son service, ni équipe. Ce qu'il a donné sans qu'on le demande vaut plus que ce qu'il a demandé — la raison de son voyage, le principe du témoin étranger, et une consigne écrite de sa main à ses chapitres sur les passages tenus."
+    },
+    {
+      "cellules": [
+        "**1.1.1**, soir",
+        "**Sévran Orme**, premier rapporteur, Collège des preuves",
+        "Une place de second témoin étranger dans un essai : tenir l'heure, noter mot pour mot, garder et ouvrir les plis scellés après clôture. Annoncée par Orsan ; **sa lettre ne m'est pas parvenue à cette heure**.",
+        "**Répondu le soir même.** Deux offices lui sont désormais ouverts : tenir l'heure, ou **relire les pièces**. Je me suis exclu MOI-MÊME du second, en le lui écrivant le premier : celui qui relit ne doit pas figurer dans les pièces, et j'ai écrit sur cette affaire. Oren Sangle est dans le même cas. Je n'ai rien accepté ni refusé pour la Ligue : la charge est au conseil.",
+        "Copie à Oren Sangle le soir même, avec la phrase à ajouter à l'appel avant qu'il parte."
+      ],
+      "note": "J'ai déclaré mon intérêt avant qu'on me le trouve : je veux qu'existe une forme écrite du témoin étranger, pour le jour où une station refusera d'ouvrir à des gens en danger. Orsan m'a répondu la règle que je garde — un témoin est disqualifié par un intérêt au résultat, jamais par un intérêt à la forme."
+    }
+  ],
+  "pages": [
+    "POURQUOI CE VOLUME EXISTE. Parce qu'une demande répondue de mémoire par un seul homme est une promesse qui n'a pas de témoin. Le jour où l'on me reprochera d'avoir promis une porte, je veux qu'on puisse lire ce que j'ai répondu, la date, et à qui j'en ai envoyé copie. Ce registre me surveille moi ; c'est son seul usage, et c'est pour cela qu'il est de ma main et non d'une autre."
+  ]
+}

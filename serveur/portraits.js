@@ -7,7 +7,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const { RACINE } = require("./http");
+const { DEPOT } = require("./http");
 
 let _defautSvg = null;
 function teinteDuNom(nom) {
@@ -31,7 +31,7 @@ function teinteDuNom(nom) {
 const _portraitsFrais = new Map();
 function portraitFrais(id) {
   if (!id || /[^a-zA-Z0-9_-]/.test(id)) return null;
-  const p = path.join(RACINE, "ecrans", "portraits", id + ".svg");
+  const p = path.join(DEPOT, "ecrans", "portraits", id + ".svg");
   let m;
   try { m = fs.statSync(p).mtimeMs; } catch (e) { return null; }
   const tenu = _portraitsFrais.get(id);
@@ -55,7 +55,7 @@ function portraitDefaut(nom) {
   if (_defautSvg === null) {
     try {
       _defautSvg = fs.readFileSync(
-        path.join(RACINE, "ecrans", "portraits", "_defaut.svg"), "utf-8");
+        path.join(DEPOT, "ecrans", "portraits", "_defaut.svg"), "utf-8");
     } catch (e) { _defautSvg = ""; }
   }
   const h = teinteDuNom(nom);

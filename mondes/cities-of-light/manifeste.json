@@ -1,0 +1,122 @@
+{
+  "_": "CITIES OF LIGHT — notre epoque, peuplee d'agents. La lumiere du nom est double, et les deux sont vraies : c'est celle de l'EUV, qui grave le silicium a Veldhoven, et celle de la fibre, par ou tout le reste passe. Une ville de lumiere est un endroit ou l'une des deux touche terre.",
+  "__": "CE MONDE A ETE AJOUTE SANS TOUCHER UNE LIGNE DE MOTEUR. C'est l'epreuve E12 de docs/refonte-plan.md, et la seule qui prouve qu'on a bati une mecanique plutot que range un placard : les onze autres s'obtiennent en deplacant des fichiers. Il tient dans ce dossier, et le moteur ne le connait pas.",
+
+  "id": "cities-of-light",
+  "nom": "Cities of Light",
+
+  "calendrier": {
+    "lunes": 12,
+    "jours_par_lune": 30,
+    "dit": "%(jour)d du mois %(lune)d, %(annee)d",
+    "_": "NOTRE EPOQUE, ET UNE APPROXIMATION QU'IL FAUT DIRE. Le moteur compte 12 lunes de 30 jours (docs/schema.md) ; le calendrier gregorien n'en fait rien de tel. On garde donc 12x30 et l'on assume l'ecart : aucune date de ce monde ne doit servir a un calcul qui sortirait du monde. Le jour ou une partie aura besoin de fevrier, c'est le moteur qui devra apprendre les mois inegaux, pas ce fichier qui devra mentir."
+  },
+
+  "monnaie": {
+    "_": "UNE ECHELLE, LA PIECE HAUTE EN TETE, singulier puis pluriel — meme forme qu'ailleurs. Le calcul, lui, ne se compte pas ici : il a son propre genre d'unite, parce qu'un GPU-heure ne s'additionne pas a un dollar sans mentir.",
+    "unites": ["dollar", "dollars", "cent", "cents"]
+  },
+
+  "titres": ["agent", "dr", "pr", "me", "l'agent", "la societe", "le fondeur",
+             "la commission", "l'operateur"],
+
+  "unites": {
+    "_": "CE QUI SE POSE SUR LA TABLE, ET CE QUE CHAQUE PIECE PERMET. Le parallele avec l'autre monde est exact et il vaut d'etre dit : la-bas le dragon a sa propre famille de filtre parce que c'est la seule piece qui decide seule d'une journee. ICI, C'EST L'AGENT. Tout le reste — le calcul, le silicium, les usagers, le capital — est ce qu'on lui donne ou ce qu'on lui retire.",
+
+    "agent": {
+      "nom": "Agent",
+      "famille": "agents",
+      "glyphe": "<path d=\"M-3.4-2.6H3.4V2.2H-3.4Z\"/><path d=\"M-1.4-0.6V0.4\"/><path d=\"M1.4-0.6V0.4\"/><path d=\"M0-2.6V-4.2\"/>",
+      "canal": "porté par un agent",
+      "trait": "deploiement",
+      "trait_nom": "Déploiement",
+      "gestes": { "frapper": "Lancer l'agent", "bruler": "Couper l'agent" }
+    },
+
+    "calcul": {
+      "nom": "Calcul",
+      "famille": "calcul",
+      "glyphe": "<path d=\"M-4 2.4V-2.4H4V2.4Z\"/><path d=\"M-2 2.4V-2.4\"/><path d=\"M0 2.4V-2.4\"/><path d=\"M2 2.4V-2.4\"/>",
+      "canal": "loué à l'heure",
+      "trait": "allocation",
+      "trait_nom": "Allocation",
+      "gestes": { "bloquer": "Couper le calcul" }
+    },
+
+    "silicium": {
+      "nom": "Silicium",
+      "famille": "calcul",
+      "glyphe": "<path d=\"M-2.6-2.6H2.6V2.6H-2.6Z\"/><path d=\"M-2.6-1H-4.2\"/><path d=\"M-2.6 1H-4.2\"/><path d=\"M2.6-1H4.2\"/><path d=\"M2.6 1H4.2\"/>",
+      "canal": "gravé puis expédié",
+      "trait": "livraison",
+      "trait_nom": "Livraison"
+    },
+
+    "usagers": {
+      "nom": "Usagers",
+      "famille": "gens",
+      "glyphe": "<path d=\"M-3 3.2Q-3 0.4-1.4 0.4-1.4-2.4 0-2.4 1.4-2.4 1.4 0.4 3 0.4 3 3.2Z\"/>",
+      "canal": "de bouche à oreille",
+      "trait": "adoption",
+      "trait_nom": "Adoption"
+    },
+
+    "capital": {
+      "nom": "Capital",
+      "famille": "capital",
+      "glyphe": "<path d=\"M0-3.6V3.6\"/><path d=\"M2-2.4Q0-3.6-2-2.4-2-0.8 0-0.4 2 0 2 1.6 0 2.8-2 1.6\"/>",
+      "canal": "viré sur la chaîne",
+      "trait": "engagement",
+      "trait_nom": "Engagement"
+    },
+
+    "regulateur": {
+      "nom": "Régulateur",
+      "famille": "regle",
+      "glyphe": "<path d=\"M0-3.4V2.8\"/><path d=\"M-3.4-2.2H3.4\"/><path d=\"M-3.4-2.2L-2-0.2H-4.8Z\"/><path d=\"M3.4-2.2L4.8-0.2H2Z\"/>",
+      "canal": "notifié par courrier officiel",
+      "trait": "injonction",
+      "trait_nom": "Injonction",
+      "gestes": { "bloquer": "Interdire" }
+    }
+  },
+
+  "canaux": {
+    "_": "PAR OU UNE NOUVELLE PASSE, ET CE QUE CA LUI COUTE. Le brouillard de ce monde n'est pas fait de distance : tout arrive en une seconde. Il est fait de PORTEE — ce qui est sur la chaine est public et definitif, ce qui est dans un depot prive ne sort pas, et ce qui est dit de vive voix n'a pas eu lieu.",
+    "api": "par appel d'API",
+    "depot": "poussé au dépôt",
+    "chaine": "inscrit sur la chaîne",
+    "presse": "sorti dans la presse",
+    "fuite": "fuité",
+    "oral": "de vive voix"
+  },
+
+  "offices": {
+    "_": "Les charges de ce monde. Ce ne sont pas des titres de naissance : ce sont des clefs que quelqu'un tient, et qu'on peut lui retirer.",
+    "signature": ["clé", "signeur", "wallet", "safe", "secp256k1"],
+    "memoire": ["dépôt", "repo", "git", "mémoire", "index"],
+    "reveil": ["cron", "réveil", "actions", "planificateur"],
+    "bourse": ["allocation", "plafond", "usdc", "dépense"],
+    "recours": ["délai", "annulation", "revert", "zodiac"]
+  },
+
+  "signes": {
+    "_": "Les emojis d'une carte de partie. Le moteur porte deja le monde des machines depuis le commit `signes : le monde des machines` — calcul, silicium, usagers, capital, regulateurs. On n'ajoute donc ici que ce que ce monde-ci apporte en propre, et la fusion de partie_signes.py met ces mots-la EN TETE : les siens gagnent sur ceux de la table de base.",
+    "genres": {
+      "agent": "🤖",
+      "cle": "🔑",
+      "depot": "📦",
+      "chaine": "⛓"
+    },
+    "pieces": [
+      ["🤖", ["agent", "instance", "session", "harnais"]],
+      ["🔑", ["clé", "cle", "signeur", "safe", "wallet"]],
+      ["⛓", ["chaîne", "chaine", "on-chain", "usdc", "base"]]
+    ]
+  },
+
+  "depart": {
+    "lieu": "san-francisco",
+    "siege": "fanal"
+  }
+}

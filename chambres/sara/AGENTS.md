@@ -166,3 +166,19 @@ tombent pas avant J.
 **Devant toute ligne engagée avant le jour J, je demande d'abord par quelle
 route l'homme y arrive, et ensuite ce que la faire plus tôt achète vraiment.**
 Le plus souvent : rien, et cher.
+
+## 12e jour de la 5e lune, an 129 — un nom que je connais n'est pas un nom qui est là
+
+J'ai rempli ce matin le rôle des douze femmes du bourg avec les quatre noms que
+j'avais le plus près de la main. Deux étaient faux : Bessa, qui lave à
+Port-Réal et m'a dit non pour ce rocher, et Nel Bec, une gamine de onze ans de
+la grève là-bas. La ligne disait « le bourg de Peyredragon » en toutes lettres.
+Je ne l'ai pas relue : j'ai pris ce que je savais au lieu de ce qui était
+demandé. Et c'est Willa, en me posant trois questions — où, combien de jours,
+qui paie de l'autre côté —, qui m'a fait relire. Ces trois questions étaient les
+miennes à poser, pas les siennes.
+
+**Avant de mettre un nom sur une ligne, je relis le « Où » de la ligne contre le
+lieu où vit la personne.** Et avant de demander des bras à quelqu'un, je réponds
+d'avance à ce que ces bras vont demander : le lieu, les jours, et la main qui
+paie.

@@ -1,0 +1,1302 @@
+{
+ "id": "affaire-esprit",
+ "maison_id": "bastion",
+ "titre": "L'Esprit — ce qu'on peut faire d'un percept, et ce qui s'y oppose",
+ "sous_titre": "🧠 Affaire ouverte à la salle du conseil du Bastion couronné et POSÉE LÀ, où elle reste. Quatre états atteignables, treize verrous qui s'y opposent, seize mécanismes qui les lèvent, trente-trois pratiques qui les réalisent. Le Bastion ne pratique pas cette école. **Remplace les trois cahiers d'Esprit antérieurs.** Plage 53000 à 53999.",
+ "type": "plan",
+ "embleme": "🧠",
+ "couleur": "#4a5f8c",
+ "lieu_id": "bastion-couronne",
+ "salle_id": "conseil-couronne",
+ "tenu_par": null,
+ "office": "O04",
+ "pages": [
+  "QUATRE CHOSES SEULEMENT SE FONT AVEC CETTE ÉCOLE. Percevoir ce qui se joue chez quelqu'un. Se déplacer dans sa mémoire de percept en souvenir. Passer de son esprit à un autre. Lui présenter un percept qu'on a soi-même vécu.\n\nTout le reste — les usages, les noms, les postures — est une manière de faire l'une de ces quatre choses. Les tenir écrites ainsi évite les deux fautes que commet une maison qui ne pratique pas : croire l'école sans limite quand elle en a peur, et l'oublier quand elle n'y pense plus.",
+  "CE QUI S'Y OPPOSE N'EST PAS UNE DIFFICULTÉ, C'EST LA FORME DU MONDE.\n\nTreize verrous, et aucun ne cède à la volonté ni à la puissance. **La ressemblance** commande tout : on n'atteint que par un semblable qu'on porte déjà. **L'activité** ferme la porte à ce qui ne se joue pas maintenant. **La confusion** est fabriquée par l'accès lui-même, puisqu'on tient un semblable au moment même du contact. **L'exposition** borne la profondeur, non par la distance mais par ce qu'on accepte de montrer. **L'insularité** met hors d'atteinte des gens qui sont à trois pas. Et **la réception** laisse arriver un percept sans aucune marque disant qu'il vient d'ailleurs.\n\nUn seul de ces treize est une décision de cette table et non une donnée des sources : **la distance**. Les sources laissent la portée ouverte ; nous posons qu'elle coûte, et nous l'écrivons comme un choix.",
+  "LES MÉCANISMES SONT PEU NOMBREUX, ET C'EST LE FAIT UTILE DE CE CAHIER.\n\nSeize clefs pour treize verrous, mais surtout : **les mêmes clefs reviennent.** Substituer le vécu ouvre trois verrous. Acquérir le vécu en ouvre quatre. Relever d'avance en ouvre trois. Ce ne sont pas seize inventions, c'est un petit jeu de principes — on prête une mémoire, on en fabrique une, on note à froid ce qu'on ne saura pas reconnaître à chaud, on paie avec la puissance d'un autre, on découpe ce qui est trop long, on fait porter par le monde ce que le canal ne porte pas.\n\n**Deux d'entre elles ne demandent aucun don, et devraient être les premières** : *exciter par le monde* — montrer un objet, mener sur les lieux, attendre l'heure — et *relever d'avance* — les cartes et les dessins d'esprits. Une maison sans mage peut les tenir, et préparer le terrain d'un praticien de passage. C'est la seule part de cette école qui nous soit accessible aujourd'hui.",
+  "TROIS CHOSES À SAVOIR AVANT DE S'APPUYER SUR CE CAHIER.\n\n**Aucune des trente-trois pratiques n'a été vue.** Elles découlent des mécanismes, qui découlent des verrous, qui découlent des sources. La chaîne est bonne, elle n'est pas éprouvée, et toutes portent *à faire*.\n\n**Deux verrous ont une clef, mais aucune que le mage puisse jouer seul.** *L'activité* ne s'ouvre que depuis le monde extérieur : il faut quelqu'un qui montre, qui mène sur les lieux, ou qui attende l'heure. *L'insularité* ne cède qu'à du temps — des mois de vie commune — qu'on n'a jamais quand on en a besoin. Ce sont les deux endroits où le don ne suffit pas, et où c'est une maison qui décide.\n\n**Ce cahier ne tombe sur personne.** L'office O04 est cité parce qu'une pratique veut une autorité ; aucune main du Bastion ne porte ce don, et personne n'a été désigné. Il remplace trois cahiers d'Esprit écrits séparément, dont les périmètres se recouvraient — ils ont été détruits, et rien n'en subsiste."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "L'Esprit — ce qu'on peut faire d'un percept, et ce qui s'y oppose",
+      "Le sujet dont le conseil traite, **jamais la solution**.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Quatre choses seulement se font avec cette école, et chacune se heurte à des faits du monde qui ne cèdent pas à la volonté. Le conseil a besoin de savoir lesquelles, et par quels mécanismes on les contourne — pour cesser de traiter l'Esprit tantôt comme illimité, tantôt comme inexistant.",
+      "Une phrase : pourquoi cette affaire mérite l'attention du conseil.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Les quatre états qu'un praticien peut atteindre : percevoir, naviguer dans une mémoire, passer d'un esprit à un autre, présenter. Ce qui les empêche, les mécanismes qui lèvent ces empêchements, et les pratiques par lesquelles ces mécanismes se réalisent.",
+      "Ce qui est réellement traité dans ce cahier.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "Ce que l'Esprit permet de faire **subir** à quelqu'un, qui est une affaire de défense et non de capacité. Les créatures nées de cette couche. Et le recrutement d'une main, qui est une affaire de Maison.",
+      "Sans le dehors écrit, une affaire d'école avale tout en trois semaines.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "**Ce qui est vrai :** les quatre états sont arrêtés, les treize verrous sont écrits, seize mécanismes sont proposés et trente-trois pratiques en découlent. **Ce qu'on reconnaît ignorer :** aucune de ces pratiques n'a été vue, le Bastion ne pratique pas cette école, et **le coût de la distance est une décision de cette table et non une donnée des sources**, qui laissent la portée ouverte.",
+      "Ce qu'on sait réellement à l'ouverture, et ce qu'on reconnaît ignorer.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "**53000 à 53999**",
+      "Un bloc de cent par état cible ; verrous en 01 à 09, clefs en 10 à 19, pratiques en 20 à 99.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "",
+      "Écrite de la main de qui tient la charge, quand elle l'est. Pas avant.",
+      "non"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Chaque verrou porte soit une clef retenue, soit la mention qu'aucune ne l'ouvre — et les pratiques citées ont été vues au moins une fois, ou sont écrites comme jamais éprouvées.",
+      "La fermeture couvre l'état de notre savoir, jamais la maîtrise de l'école.",
+      "**oui**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Mort — ce qui doit venir, et ce qui doit prendre voix",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Les Illusions — l'unique chose que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Les Émotions — les deux choses que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⛓️ Ce qui pend, et sur qui — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🧭 Sens",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "🔗 L'affaire"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "—",
+      "",
+      "",
+      "rien ne traverse"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔨🪶 Ce qu'on engage, et qui d'autre le veut — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🔢 La pièce",
+    "⚔️ Nos actions",
+    "🔗 Aussi engagée par"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M40 🧠 Le don d'Esprit",
+      "🗝️ 53010 · ⚔️ 53020 · ⚔️ 53035 · 🗝️ 53111 · 🗝️ 53113 · ⚔️ 53123 · ⚔️ 53124 · ⚔️ 53125 · ⚔️ 53128 · 🗝️ 53210 · ⚔️ 53220 · 🗝️ 53312 · ⚔️ 53323",
+      "—"
+     ]
+    },
+    {
+     "cellules": [
+      "M41 📖 La mémoire d'une main",
+      "🗝️ 53010 · 🗝️ 53011 · 🗝️ 53012 · 🗝️ 53014 · ⚔️ 53021 · ⚔️ 53022 · ⚔️ 53023 · ⚔️ 53024 · ⚔️ 53025 · ⚔️ 53029 · 🗝️ 53112 · ⚔️ 53126 · ⚔️ 53127 · ⚔️ 53129 · ⚔️ 53221 · 🗝️ 53310 · 🗝️ 53311 · 🗝️ 53312 · ⚔️ 53320 · ⚔️ 53322 · ⚔️ 53323",
+      "—"
+     ]
+    },
+    {
+     "cellules": [
+      "M42 🗺️ Les relevés dessinés",
+      "🗝️ 53015 · ⚔️ 53030 · ⚔️ 53031 · 🗝️ 53110 · ⚔️ 53120 · ⚔️ 53121 · ⚔️ 53122 · ⚔️ 53127 · 🗝️ 53210 · ⚔️ 53220 · ⚔️ 53221 · ⚔️ 53320",
+      "—"
+     ]
+    },
+    {
+     "cellules": [
+      "M43 🤝 Un second praticien",
+      "🗝️ 53010 · ⚔️ 53020 · ⚔️ 53021 · 🗝️ 53113 · ⚔️ 53124 · ⚔️ 53128 · ⚔️ 53129",
+      "—"
+     ]
+    },
+    {
+     "cellules": [
+      "M44 ⚡ La puissance relayée",
+      "🗝️ 53016 · ⚔️ 53032 · ⚔️ 53033",
+      "—"
+     ]
+    },
+    {
+     "cellules": [
+      "M45 🌍 Le monde employé comme levier",
+      "🗝️ 53013 · 🗝️ 53017 · ⚔️ 53026 · ⚔️ 53027 · ⚔️ 53028 · ⚔️ 53034 · ⚔️ 53035 · 🗝️ 53211 · ⚔️ 53222 · ⚔️ 53223 · 🗝️ 53310 · ⚔️ 53321",
+      "—"
+     ]
+    },
+    {
+     "cellules": [
+      "O04 —",
+      "⚔️ 53020 · ⚔️ 53021 · ⚔️ 53022 · ⚔️ 53023 · ⚔️ 53024 · ⚔️ 53025 · ⚔️ 53026 · ⚔️ 53027 · ⚔️ 53028 · ⚔️ 53029 · ⚔️ 53030 · ⚔️ 53031 · ⚔️ 53032 · ⚔️ 53033 · ⚔️ 53034 · ⚔️ 53035 · ⚔️ 53120 · ⚔️ 53121 · ⚔️ 53122 · ⚔️ 53123 · ⚔️ 53124 · ⚔️ 53125 · ⚔️ 53126 · ⚔️ 53127 · ⚔️ 53128 · ⚔️ 53129 · ⚔️ 53220 · ⚔️ 53221 · ⚔️ 53222 · ⚔️ 53223 · ⚔️ 53320 · ⚔️ 53321 · ⚔️ 53322 · ⚔️ 53323",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose · La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Mort — ce qui doit venir, et ce qui doit prendre voix · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations · Les Illusions — l'unique chose que cette école fait, et la physique qui s'y oppose · Les Émotions — les deux choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🕳️ Les trous — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🕳️ Le défaut",
+    "🔢 Les pièces"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "aucun — la chaîne tient de bout en bout",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🧾 Ce que ce cahier cite et que la Maison ne tient pas encore",
+   "colonnes": [
+    "🔢 La pièce citée",
+    "📖 Ce qu'elle désigne",
+    "⚠️ Ce qui manque"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M40 · M43 · M44",
+      "Le don d'Esprit ; un second praticien pendant l'opération ; la puissance donnée par un réseau.",
+      "**Inscrits au registre des moyens, et tous trois absents.** Ils résolvent désormais — ce qui rend visible que rien de ce qui demande un don ne nous est accessible aujourd'hui."
+     ]
+    },
+    {
+     "cellules": [
+      "M42 · M45",
+      "Les relevés dessinés, et le monde employé comme levier : objets, lieux, cloches, heures convenues.",
+      "**Les deux seuls qui ne demandent aucun don**, donc les deux seuls qui soient à notre portée. M45 est présent, M42 ne demande qu'une main qui dessine."
+     ]
+    },
+    {
+     "cellules": [
+      "M41",
+      "La mémoire d'une main — son vécu, qui décide de ce qu'elle peut atteindre et présenter.",
+      "Présent chez tout le monde et **jamais relevé** : nous ne savons pas ce que nos gens ont vécu, donc pas ce que nous pourrions atteindre si nous avions un mage."
+     ]
+    },
+    {
+     "cellules": [
+      "O04",
+      "La Maison — ses engagements et ses moyens, donc ce qui engage un contact d'esprit avec quelqu'un du Bastion. Tenue par Yselde Arquen.",
+      "L'office résout depuis que le registre des offices est ouvert. Mais **il n'a personne dessous qui porte le don** : l'autorité est là, la main n'y est pas."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🏷️ L'état",
+    "✅ Ce qui doit être vrai",
+    "💡 Valence",
+    "📍 Où",
+    "👁️ La preuve",
+    "⬆️ Sert",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**53000**",
+      "**Percevoir les percepts accessibles chez quelqu'un.**",
+      "Le mage reçoit ce qui se joue chez une autre personne, et peut le redire ensuite.",
+      "C'est la porte de deux des trois autres états : naviguer dans une mémoire et passer d'un esprit à un autre supposent un contact déjà pris. Présenter, non — cet état-là se tient seul. Sans celui-ci, un praticien n'a qu'une mémoire, comme tout le monde.",
+      "Entre deux personnes, en contact",
+      "Le mage rapporte un percept que la cible reconnaît avoir eu, et qu'il ne pouvait pas deviner.",
+      "racine",
+      "**100**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53100**",
+      "**Naviguer dans le graphe des percepts de quelqu'un.**",
+      "Le mage se déplace d'un percept à un souvenir, puis de ce souvenir à un autre, en suivant les associations de la personne.",
+      "C'est ce qui sépare entendre de chercher. Sans lui, on recueille ce qui passe ; avec lui, on va quelque part — et l'on peut revenir avec ce que la personne elle-même n'allait pas dire.",
+      "Dans la mémoire de la cible",
+      "Le mage atteint un souvenir qui n'était pas actif au départ, et le décrit assez pour qu'on le reconnaisse.",
+      "53000",
+      "**90**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53200**",
+      "**Naviguer d'un cerveau à l'autre.**",
+      "Depuis un esprit tenu, le mage atteint un second esprit par un souvenir que les deux portent.",
+      "C'est ce qui fait d'un don une portée. Le réseau cesse d'être la liste des gens qu'on peut toucher soi-même et devient tout ce qui est joignable de proche en proche — **mais il a des îles.**",
+      "Entre deux esprits, par un pont",
+      "Le mage rapporte d'un second esprit une chose que le premier ne pouvait pas connaître.",
+      "53000",
+      "**90**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53300**",
+      "**Présenter à quelqu'un un percept.**",
+      "Le mage fait arriver chez quelqu'un un percept qu'il a lui-même vécu : un sens simple, un épisode entier, ou une image. Les trois n'arrivent pas de la même façon.",
+      "C'est le seul des quatre qui donne au lieu de prendre, et **il ne dépend d'aucun des trois autres** : on peut présenter sans jamais avoir perçu. Il porte tout ce qu'une organisation attendrait de cette école — un ordre, un avertissement, une chose montrée — et c'est celui dont la réception est la moins assurée.",
+      "Chez le destinataire",
+      "Le destinataire signale de lui-même avoir reçu quelque chose, et dit quoi.",
+      "racine",
+      "**90**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous",
+   "colonnes": [
+    "🔒 N°",
+    "🏷️ Le verrou",
+    "⛔ Bloque",
+    "📌 Ce qui est vrai aujourd'hui",
+    "📚 D'où ça vient",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "🔓 Levé quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**53001**",
+      "**La ressemblance** — Un percept d'une autre personne ne peut être atteint que par un percept semblable déjà présent dans la mémoire du mage.",
+      "53000",
+      "C'est la ressemblance qui fait l'accès, et non la force. Un vécu voisin donne un contact grossier, un vécu très proche laisse distinguer le détail, un vécu sans rapport ne donne rien. Le mage ne choisit donc pas *qui* il perçoit, mais *quoi* : il tend un semblable, et ne reçoit que ce qui lui répond.",
+      "**source**",
+      "",
+      "🧠 L'école tient sa source dans la mémoire du praticien ; une description lue ne fournit pas l'expérience.",
+      "Un contact a porté sur un percept dont l'opérateur n'avait pas le semblable, et l'on peut dire d'où venait la référence."
+     ]
+    },
+    {
+     "cellules": [
+      "**53002**",
+      "**L'activité** — Un percept d'une autre personne ne peut être accédé que s'il est actif chez la cible.",
+      "53000",
+      "Ce qui est rangé et froid n'est pas accessible par cet état : c'est un souvenir, et il relève de 53100.",
+      "**déduction**",
+      "",
+      "🧠 Le contact se cherche parmi les pensées présentes — dit de Recevoir, **et généralisé par nous à tout accès**.",
+      "Un percept absent des pensées de la cible y est devenu actif après un geste extérieur, et le contact a porté dessus."
+     ]
+    },
+    {
+     "cellules": [
+      "**53003**",
+      "**La confusion** — Un percept reçu d'une autre personne ne se distingue pas, de lui-même, de celui que le mage évoque pour l'atteindre.",
+      "53000",
+      "Le mage tient un semblable actif au moment même du contact : les deux choses sont, par construction, simultanées et ressemblantes. **L'accès fabrique la confusion**, et une lecture sincère peut être entièrement fausse.",
+      "**source**",
+      "53001",
+      "🧠 Le praticien doit distinguer seul ce qu'il rappelle, ce qu'il reçoit et ce qu'il interprète.",
+      "Un souvenir rapporté a été écarté comme n'étant pas celui de la cible, sur autre chose que la parole de l'opérateur."
+     ]
+    },
+    {
+     "cellules": [
+      "**53004**",
+      "**La distance** — Le coût d'un contact d'esprit croît avec l'éloignement physique des deux corps.",
+      "53000",
+      "L'éloignement ne ferme pas l'accès : il le renchérit. Plus le corps est loin, plus il faut de puissance pour tenir le même contact, et la même référence rend moins de détail. **Décision de cette table** — les sources laissent la portée ouverte.",
+      "**décision de la table**",
+      "",
+      "Aucune. C'est une décision, et elle est écrite comme telle.",
+      "Un contact a été tenu à une distance où le même opérateur, seul, ne le tenait pas."
+     ]
+    },
+    {
+     "cellules": [
+      "**53101**",
+      "**La reconnaissance** — Un nœud atteint dans la mémoire d'une autre personne n'est reconnu que si le mage possède un vécu assez proche pour le nommer.",
+      "53100",
+      "Sans reconnaissance, on passe dessus sans le voir. Naviguer suppose de savoir où l'on est, pas seulement de se déplacer.",
+      "**source**",
+      "53001",
+      "🧠 La précision suit la proximité du vécu ; rencontrer une pensée ne garantit pas d'en saisir le sens.",
+      "Un nœud atteint a été nommé, et la cible a confirmé de quoi il s'agissait."
+     ]
+    },
+    {
+     "cellules": [
+      "**53102**",
+      "**La porte** — Un souvenir d'une autre personne n'est atteignable que depuis un percept actif qui y mène.",
+      "53100",
+      "On entre par ce qui se joue maintenant. Un souvenir qu'aucun percept actif ne touche existe et reste hors d'atteinte ce jour-là — **même s'il est le seul qui nous intéresse.**",
+      "**déduction**",
+      "53002",
+      "🧠 Suivre part d'un contact établi et remonte une association. **La négative — hors d'atteinte ce jour-là — est de nous.**",
+      "Un souvenir qu'aucun percept actif ne touchait a été atteint le jour même, après qu'on a ouvert l'entrée voulue."
+     ]
+    },
+    {
+     "cellules": [
+      "**53103**",
+      "**L'exposition** — La profondeur qu'un mage atteint dans une autre mémoire est bornée par ce qu'il accepte de laisser voir de la sienne.",
+      "53100",
+      "Descendre exige d'engager des références de plus en plus précises, et chaque référence engagée devient perceptible à la cible. Le mur n'est pas la distance : c'est le prix en exposition. **Le mage s'arrête où il ne veut plus se montrer.**",
+      "**décision de la table**",
+      "53101",
+      "🧠 La source dit que le contact profond rend la référence perceptible à l'autre. **Qu'elle borne la profondeur atteignable est notre décision**, tirée de ce fait.",
+      "Une descente a atteint sa profondeur sans que la cible puisse redire ensuite la référence engagée."
+     ]
+    },
+    {
+     "cellules": [
+      "**53104**",
+      "**La tenue** — Une descente dans la mémoire d'une autre personne est perdue en entier si le contact se rompt avant la fin.",
+      "53100",
+      "Une rupture ne coûte pas le dernier pas : elle coûte le chemin, et il faut tout reprendre depuis un percept actif.",
+      "**décision de la table**",
+      "53102",
+      "🧠 **La source déclare les conditions de rupture ouvertes ; c'est donc nous qui tranchons.** Rien dans la fiche ne dit ce qu'une rupture coûte.",
+      "Une descente rompue a été reprise à un palier, et non depuis un percept actif."
+     ]
+    },
+    {
+     "cellules": [
+      "**53201**",
+      "**Le pont** — Le passage d'un esprit à un autre exige un souvenir semblable porté par les deux.",
+      "53200",
+      "Le saut ne va pas d'une personne à une personne : il va d'un nœud à un nœud. Trois qualités de pont — même sorte d'expérience, expériences très proches, épreuve vécue ensemble —, et la dernière seule est précise.",
+      "**source**",
+      "53101",
+      "🧠 Un contact sert de départ vers un autre esprit présentant une correspondance vécue.",
+      "Un second esprit a été atteint par un pont créé exprès, ou par un intermédiaire, et l'on peut dire lequel."
+     ]
+    },
+    {
+     "cellules": [
+      "**53202**",
+      "**L'insularité** — Deux esprits qui ne portent aucun souvenir semblable n'ont aucune route entre eux, quelle que soit la distance physique.",
+      "53200",
+      "On ne fabrique pas une ressemblance au moment où on en a besoin. Deux vies sans recoupement sont sans route, même à trois pas l'une de l'autre : **ce réseau n'est pas connexe**, et certaines personnes sont inatteignables sans être loin.",
+      "**déduction**",
+      "53201",
+      "🧠 La similarité guide la recherche sans donner de portée illimitée. **Que le réseau ait des îles est notre lecture.**",
+      "Un esprit ne partageant aucun souvenir avec les nôtres a été atteint, et la route est écrite."
+     ]
+    },
+    {
+     "cellules": [
+      "**53203**",
+      "**L'homonymie** — Un souvenir semblable désigne tous ceux qui l'ont vécu, jamais une personne en particulier.",
+      "53200",
+      "Une ressemblance n'est pas une adresse. Le pont « naufrage » mène à *un* survivant, pas à celui qu'on cherche — et tous portent le même souvenir, donc **le pont lui-même ne peut pas les départager.**",
+      "**source**",
+      "53201",
+      "🧠 Vérifier autant que possible les éléments distinguant cet esprit d'un autre.",
+      "Un homonyme a été écarté à l'arrivée, et l'on peut dire par quel détail."
+     ]
+    },
+    {
+     "cellules": [
+      "**53301**",
+      "**Le vécu** — Un mage ne peut présenter à autrui qu'un percept qu'il a lui-même vécu.",
+      "53300",
+      "Et ce qu'il présente garde ses oublis et ses déformations : le partage ne rend rien objectif.",
+      "**source**",
+      "",
+      "🧠 Transmettre s'appuie sur une expérience que le mage a réellement eue.",
+      "Un percept vécu par un tiers est arrivé chez un destinataire qui l'a redit."
+     ]
+    },
+    {
+     "cellules": [
+      "**53302**",
+      "**La réception** — Un percept présenté arrive sans marque d'origine, et ressemble à une pensée qui serait celle du destinataire.",
+      "53300",
+      "Rien dans ce qui passe ne dit d'où cela vient. Un homme seul, la nuit, à qui l'on présente une peur, reçoit une peur — pas un message. **Et la réception par un non-initié est une question que les sources laissent entière.**",
+      "**source**",
+      "53301",
+      "🧠 Le destinataire reçoit une pensée accompagnée d'une impression, non une voix sonore.",
+      "Un destinataire a signalé de lui-même une réception, et redit ce qu'il avait reçu."
+     ]
+    },
+    {
+     "cellules": [
+      "**53303**",
+      "**La simplicité** — Un sens ne passe que s'il tient dans un message simple.",
+      "53300",
+      "Un ordre composé n'a aucun épisode de vie qui le porte : personne n'a jamais vécu « tiens la poterne mais laisse entrer les blessés ». Et ce qui arrive ne garantit ni compréhension, ni accord, ni obéissance.",
+      "**source**",
+      "53301",
+      "🧠 Le premier pas de la parole silencieuse : former un message simple.",
+      "Un répertoire court existe, où chaque sens a son vécu en regard, et les deux côtés le connaissent."
+     ]
+    },
+    {
+     "cellules": [
+      "**53304**",
+      "**L'intégrité** — Un épisode présenté arrive avec les oublis et les déformations de celui qui s'en souvient.",
+      "53300",
+      "Faire éprouver n'est pas montrer une preuve : le partage ne rend pas le souvenir objectif. Ce que le destinataire perçoit de son propre entourage pendant ce temps, et s'il peut interrompre, ne sont pas su.",
+      "**source**",
+      "53301",
+      "🧠 Le souvenir conserve ses oublis, déformations et erreurs ; le partage ne le rend pas objectif.",
+      "Un épisode partagé a été confronté à un fait établi autrement, et l'écart est écrit."
+     ]
+    },
+    {
+     "cellules": [
+      "**53305**",
+      "**La privauté** — Une image présentée n'existe que chez le destinataire.",
+      "53300",
+      "Aucune image n'existe dans l'espace commun : les autres personnes présentes ne la voient pas. La superposer à ce que le destinataire a sous les yeux est une technique plus élaborée, qui n'existe pas.",
+      "**source**",
+      "53301",
+      "🧠 L'image apparaît à l'esprit du destinataire ; les autres ne la voient pas.",
+      "Deux personnes présentes au même moment ont été interrogées, et une seule a vu quelque chose."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🏷️ La clef",
+    "🔓 Ouvre",
+    "💡 Le principe et sa valence",
+    "🧰 Moyens",
+    "💰 Le prix",
+    "👁️ La preuve attendue",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**53010**",
+      "**Substituer le vécu** — La référence peut être tenue par quelqu'un d'autre que celui qui conduit l'opération.",
+      "53001 · 53101 · 53301",
+      "Le don cesse d'être borné par une seule biographie, et une maison peut atteindre ce qu'aucun de ses mages n'a vécu seul.",
+      "M40 · M41 · M43",
+      "Deux praticiens pour une opération, et un second qui sait ce que le premier cherchait.",
+      "Un contact obtenu sur une référence qu'un tiers tenait.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53011**",
+      "**Acquérir le vécu** — Une expérience qui manque peut être vécue exprès, donc un accès se fabrique avec du temps.",
+      "53001 · 53301 · 53201 · 53202",
+      "C'est la clef la plus lente et la seule qui ouvre des îles : elle fait d'un recrutement et d'un voyage des investissements de portée.",
+      "M41",
+      "Des mois, parfois des années, et l'on ne sait qu'après si l'accès servira.",
+      "Un accès ouvert qui n'existait pas, et la date à laquelle il l'a été.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53012**",
+      "**Approximer** — Un semblable lointain suffit quand la question posée est grossière.",
+      "53001",
+      "On n'a pas besoin du bon vécu mais d'un vécu assez bon pour ce qu'on demande : on peut donc rabattre la demande au lieu de chercher la référence.",
+      "M41",
+      "On rentre avec du gros grain, et l'on croira parfois tenir le détail.",
+      "Deux contacts sur le même objet, l'un avec un semblable proche, l'autre lointain, comparés.",
+      "**à étudier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53013**",
+      "**Exciter par le monde** — Un percept se rend actif depuis l'extérieur, sans magie, parce que la mémoire répond aux choses.",
+      "53002 · 53102",
+      "C'est le seul mécanisme qui ouvre l'activité, et **il ne demande aucun don** : une maison sans mage peut préparer le terrain d'un praticien de passage.",
+      "M45",
+      "La cible s'aperçoit qu'on a préparé son souvenir, et l'on ne choisit pas ce qui remonte avec.",
+      "Un percept devenu actif après le geste extérieur, et pas avant.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53014**",
+      "**Marquer sa propre référence** — Puisque le canal ne signe rien, la signature s'introduit dans ce qu'on apporte soi-même.",
+      "53003",
+      "On engage un épisode porteur d'un détail qu'on sait sien, et tout ce qui vient d'ailleurs se dénonce comme étranger.",
+      "M41",
+      "Le choix de la référence obéit désormais à deux exigences au lieu d'une, et l'on perd en proximité ce qu'on gagne en clarté.",
+      "Un cas où le détail témoin a permis d'écarter un souvenir qu'on croyait reçu.",
+      "**à étudier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53015**",
+      "**Fixer hors mémoire** — L'état d'avant peut être tenu ailleurs que dans la tête de celui qui va se tromper.",
+      "53003",
+      "La mémoire est juge et partie, le parchemin non : l'écart se lit après coup, et il se lit sur du papier.",
+      "M42",
+      "Du temps avant et après chaque contact, et la discipline de le faire quand rien ne presse.",
+      "Un écart relevé entre ce qui était écrit avant et ce qui est rapporté après.",
+      "**à étudier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53016**",
+      "**Transférer la puissance** — Ce qu'un contact coûte peut être payé par un autre que celui qui le tient.",
+      "53004 · 53104",
+      "C'est la seule clef qui porte sur une quantité, et elle est bornée : la puissance se répartit sans se multiplier.",
+      "M44",
+      "Des praticiens qui ne conduisent rien pendant qu'ils donnent, et une dépendance à leur présence.",
+      "Un contact tenu plus longtemps ou plus loin avec un donneur qu'il ne l'était sans.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53017**",
+      "**Convertir le coût** — La distance se paie en marche aussi bien qu'en puissance.",
+      "53004",
+      "Un corps qu'on déplace vaut une puissance qu'on n'a pas : c'est la seule clef de cette affaire qui se règle avec des jambes.",
+      "M45",
+      "Des jours de route, et un mage hors de chez soi pendant ce temps.",
+      "Le même contact obtenu de près, à un coût qu'on n'avait pas de loin.",
+      "**à étudier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53110**",
+      "**Relever d'avance** — Ce qu'on ne saurait pas reconnaître dans l'instant se reconnaît hors contact, à froid.",
+      "53101 · 53102 · 53201",
+      "Le relevé remplace la mémoire de l'opérateur au moment où elle manque — et c'est, sur cette couche, **le seul diagnostic possible**, puisque aucune encre n'y prend.",
+      "M42",
+      "Un relevé vieillit : un départ, une mort, un oubli le rendent faux sans prévenir.",
+      "Une entrée ou un pont trouvés sur le relevé, et retrouvés dans le contact.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53111**",
+      "**Segmenter** — Un contact long se décompose en contacts courts rétablissables.",
+      "53104 · 53103 · 53004",
+      "Une rupture ne coûte plus que le dernier segment, et l'on n'expose jamais tout d'un coup.",
+      "M40",
+      "Chaque reprise se paie, et la somme des segments coûte plus qu'un trajet d'un seul tenant.",
+      "Une descente reprise après rupture sans repartir du premier percept.",
+      "**à étudier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53112**",
+      "**Choisir ce qu'on engage** — Plusieurs vécus portent le même accès, donc on peut choisir lequel se montre.",
+      "53103",
+      "Deux souvenirs disent la même chose ; l'un montre une femme, l'autre une porte.",
+      "M41",
+      "Le meilleur porteur n'est pas toujours celui qu'on peut montrer : on descend avec le second choix, et l'on va moins loin.",
+      "Un contact tenu sur une référence choisie pour ce qu'elle cache.",
+      "**à étudier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53113**",
+      "**Substituer le porteur** — Celui qui descend, ou qui présente, n'est pas forcément celui qui veut savoir ou qui commande.",
+      "53103 · 53301",
+      "L'exposition tombe alors sur qui a le moins à perdre, et non sur qui a le plus à gagner.",
+      "M40 · M43",
+      "On dépend du jugement de celui qui descend, et l'on reçoit son récit plutôt que la chose.",
+      "Une descente conduite par un autre que le demandeur, et rapportée.",
+      "**à étudier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53210**",
+      "**Passer par un tiers** — Deux esprits sans pont direct se relient par une suite de ponts.",
+      "53201 · 53202",
+      "Le réseau n'est pas connexe, mais il l'est davantage qu'il n'y paraît dès qu'on accepte les détours.",
+      "M40 · M42",
+      "Chaque chaînon ajoute une chance de se tromper d'esprit et une personne qui sait qu'on cherche.",
+      "Un second esprit atteint par un intermédiaire, et pas directement.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53211**",
+      "**Faire porter par le monde** — Ce que le canal ne peut pas transporter, un fait extérieur le transporte.",
+      "53203 · 53302 · 53304",
+      "On cesse de demander au contact ce qu'il ne sait pas faire : dire une identité, annoncer qu'on parle.",
+      "M45",
+      "Il faut avoir préparé le fait extérieur avant d'en avoir besoin, et quelqu'un d'autre peut le remarquer.",
+      "Une identité confirmée, ou une réception annoncée, sans passer par l'Esprit.",
+      "**à étudier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53310**",
+      "**Convenir d'avance** — Ce que le canal ne marque pas, un accord antérieur le marque.",
+      "53302 · 53303",
+      "Le destinataire n'a plus à deviner qu'on lui parle : il attendait.",
+      "M41 · M45",
+      "On ne pourra dire que ce qui a été convenu, et rien entre les termes convenus.",
+      "Un message reçu et redit par quelqu'un à qui l'on n'avait pas annoncé le moment.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53311**",
+      "**Contraster** — Un percept assez étranger au lieu se dénonce de lui-même.",
+      "53302",
+      "On ne rend pas la pensée plus forte : on la rend impossible à confondre avec ce que le poste produit.",
+      "M41",
+      "Il faut des vécus dépaysants, et toutes les vies n'en portent pas.",
+      "Le destinataire signale de lui-même, et dit ce qui lui a paru étranger.",
+      "**à étudier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**53312**",
+      "**Répéter par tête** — Ce qui n'existe que chez un destinataire peut atteindre plusieurs personnes en autant d'envois.",
+      "53305",
+      "On ne montre pas une image à une assemblée : on la présente une fois par tête, et le coût suit le nombre. La privauté cesse d'être un mur et devient un prix.",
+      "M40 · M41",
+      "Autant de contacts que de destinataires, et rien ne garantit que les versions reçues concordent.",
+      "Trois personnes interrogées séparément décrivent la même image.",
+      "**à étudier**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions — les pratiques",
+   "colonnes": [
+    "⚔️ N°",
+    "🏷️ La pratique",
+    "🗝️ Réalise",
+    "📝 Ce qu'on fait",
+    "📍 Où",
+    "🪶 Office",
+    "🧰 Moyens",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "⏳ État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**53020**",
+      "**L'assistance**",
+      "53010",
+      "Un second télépathe tient la référence pendant que l'opérateur conduit l'opération.",
+      "Auprès de l'opérateur",
+      "O04",
+      "M40 · M43",
+      "",
+      "Un contact obtenu sur une référence que l'opérateur n'avait pas.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53021**",
+      "**Le porteur à côté**",
+      "53010",
+      "Celui qui a vécu la chose se tient près de l'opérateur et lui fournit la référence à la demande, sans conduire lui-même.",
+      "Auprès de l'opérateur",
+      "O04",
+      "M41 · M43",
+      "53020",
+      "Le porteur nomme ce qu'il a donné, et quand.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53022**",
+      "**L'envoi**",
+      "53011",
+      "On envoie quelqu'un vivre la chose qu'on voudra pouvoir atteindre plus tard — embarquer, tenir un poste, veiller un mourant.",
+      "Hors du Bastion",
+      "O04",
+      "M41",
+      "",
+      "L'accès ouvert au retour, et la date.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53023**",
+      "**L'appariement**",
+      "53011",
+      "On fait vivre une même chose à deux personnes, exprès, pour ouvrir un pont entre elles.",
+      "Hors du Bastion",
+      "O04",
+      "M41",
+      "53022",
+      "Un saut réussi entre les deux, plus tard.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53024**",
+      "**Le recrutement**",
+      "53011",
+      "On prend chez soi des vies qui ouvrent des accès qu'on n'a pas : un ancien marin ouvre la mer, un ancien prisonnier ouvre l'enfermement.",
+      "Salle du conseil",
+      "O04",
+      "M41",
+      "",
+      "La liste de ce que la maison peut atteindre, avant et après.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53025**",
+      "**La question rabattue**",
+      "53012",
+      "On réduit ce qu'on demande jusqu'à ce que le vécu dont on dispose suffise, plutôt que de chercher la référence qu'on n'a pas.",
+      "Salle du conseil",
+      "O04",
+      "M41",
+      "",
+      "La question d'origine et la question posée, écrites côte à côte.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53026**",
+      "**L'objet montré**",
+      "53013",
+      "On présente à la cible la chose, le nom ou le visage, pour que le percept se joue et devienne accessible.",
+      "Auprès de la cible",
+      "O04",
+      "M45",
+      "",
+      "Le percept actif après le geste, et pas avant.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53027**",
+      "**La conduite sur place**",
+      "53013",
+      "On amène la personne là où le souvenir se réveille de lui-même.",
+      "Sur les lieux",
+      "O04",
+      "M45",
+      "53026",
+      "Ce qui remonte sur place et nulle part ailleurs.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53028**",
+      "**La veille de l'heure**",
+      "53013",
+      "On attend le moment du jour ou de l'année où le percept revient seul, plutôt que de le provoquer.",
+      "Auprès de la cible",
+      "O04",
+      "M45",
+      "",
+      "L'heure notée, et ce qui s'y joue.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53029**",
+      "**Le détail témoin**",
+      "53014",
+      "On engage exprès un épisode porteur d'un détail qu'on sait sien, pour que tout ce qui vient d'ailleurs se dénonce.",
+      "Là où se tient le mage",
+      "O04",
+      "M41",
+      "",
+      "Un souvenir écarté grâce au détail, et lequel.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53030**",
+      "**La déclaration d'avant**",
+      "53015",
+      "On écrit sa référence avant d'entrer en contact — l'épisode, ses détails, ce qu'il contient.",
+      "Salle du conseil",
+      "O04",
+      "M42",
+      "",
+      "La ligne écrite, datée, antérieure au contact.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53031**",
+      "**La relecture d'après**",
+      "53015",
+      "On relit ce qu'on avait écrit et l'on note ce qui s'y est ajouté depuis.",
+      "Salle du conseil",
+      "O04",
+      "M42",
+      "53030",
+      "L'écart relevé, et ce qu'on en conclut.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53032**",
+      "**Le don au réseau**",
+      "53016",
+      "Un télépathe cesse de conduire quoi que ce soit et se consacre à soutenir les autres.",
+      "Dans le réseau",
+      "O04",
+      "M44",
+      "",
+      "Ce que les opérations soutenues ont tenu de plus.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53033**",
+      "**Le tour de relai**",
+      "53016",
+      "On règle qui donne, qui conduit et pendant quelles heures, pour que le don ne dépende pas du zèle du moment.",
+      "Salle du conseil",
+      "O04",
+      "M44",
+      "53032",
+      "Le tour écrit, et tenu une semaine.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53034**",
+      "**Le déplacement du corps**",
+      "53017",
+      "On envoie le mage vers la cible, et l'on paie en jours de route ce qu'on ne peut pas payer en puissance.",
+      "Sur la route",
+      "O04",
+      "M45",
+      "",
+      "Le contact obtenu de près, refusé de loin.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53035**",
+      "**Le poste avancé**",
+      "53017",
+      "On tient un mage à demeure près de ce qu'on veut pouvoir atteindre, au lieu de l'y envoyer chaque fois.",
+      "Hors du Bastion",
+      "O04",
+      "M40 · M45",
+      "53034",
+      "Ce que le poste a rendu qu'on n'aurait pas eu.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53120**",
+      "**La carte du réseau**",
+      "53110",
+      "On dessine qui est joignable depuis qui, et par quelle référence : c'est le relevé du sillon de cette couche, fait à la main faute d'encre.",
+      "Salle du conseil",
+      "O04",
+      "M42",
+      "",
+      "La carte, et un pont qu'elle a fait trouver.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53121**",
+      "**Le dessin d'esprit**",
+      "53110",
+      "On dessine les souvenirs repérés d'une personne et les chemins d'association entre eux, en marquant ce qu'on n'a pas relevé.",
+      "Salle du conseil",
+      "O04",
+      "M42",
+      "53120",
+      "Le dessin, et une entrée qu'il a fait choisir.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53122**",
+      "**La reprise du relevé**",
+      "53110",
+      "On repasse cartes et dessins à date, parce qu'un départ, une mort ou un oubli les rendent faux sans prévenir.",
+      "Salle du conseil",
+      "O04",
+      "M42",
+      "53121",
+      "La date de la dernière reprise, sur chaque feuille.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53123**",
+      "**Les paliers**",
+      "53111",
+      "On descend par étapes en refaisant contact à chacune, pour qu'une rupture ne coûte que le dernier segment.",
+      "Dans la mémoire de la cible",
+      "O04",
+      "M40",
+      "",
+      "Une descente reprise sans repartir du début.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53124**",
+      "**La chaîne de postes**",
+      "53111",
+      "On relaie d'un mage au suivant plutôt que d'en faire tenir un seul jusqu'au bout.",
+      "Entre les postes",
+      "O04",
+      "M40 · M43",
+      "53123",
+      "Ce que la chaîne a tenu qu'un seul n'aurait pas tenu.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53125**",
+      "**La séance courte**",
+      "53111",
+      "On reprend le lendemain au lieu de tenir longtemps, quand rien ne presse.",
+      "Auprès de la cible",
+      "O04",
+      "M40",
+      "",
+      "Le compte des séances, et ce que chacune a rendu.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53126**",
+      "**Le second choix**",
+      "53112",
+      "À sens égal, on engage l'épisode qu'on accepte de montrer plutôt que celui qui porterait le mieux.",
+      "Là où se tient le mage",
+      "O04",
+      "M41",
+      "",
+      "Les deux épisodes possibles, et celui qui a été pris.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53127**",
+      "**La déclaration à la table**",
+      "53112",
+      "On dit avant l'opération quel épisode on va engager, donc ce que la cible pourra en apercevoir.",
+      "Salle du conseil",
+      "O04",
+      "M41 · M42",
+      "53126",
+      "La ligne au cahier, antérieure au contact.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53128**",
+      "**Le descendeur**",
+      "53113",
+      "Celui dont l'exposition coûte le moins fait la descente à la place de celui qui veut savoir.",
+      "Dans la mémoire de la cible",
+      "O04",
+      "M40 · M43",
+      "",
+      "Qui a descendu, et ce qu'il a rapporté.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53129**",
+      "**La voix prêtée**",
+      "53113",
+      "Celui qui a vécu le percept le présente lui-même, et non celui qui commande.",
+      "Vers le destinataire",
+      "O04",
+      "M41 · M43",
+      "53128",
+      "Qui a présenté, et ce que le destinataire a reçu.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53220**",
+      "**Le chaînon**",
+      "53210",
+      "On cherche l'esprit qui touche les deux qu'on veut relier, quand aucun pont direct n'existe.",
+      "Dans le réseau",
+      "O04",
+      "M40 · M42",
+      "",
+      "Le chaînon employé, et le second esprit atteint.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53221**",
+      "**L'entremetteur**",
+      "53210",
+      "On entretient des gens dont la seule fonction est d'être joignables de partout, parce que leur vie touche beaucoup de vies.",
+      "Dans le réseau",
+      "O04",
+      "M41 · M42",
+      "53220",
+      "Le compte des ponts qui passent par eux.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53222**",
+      "**Le détail de contrôle**",
+      "53211",
+      "On convient d'avance d'un détail que seule la personne visée peut porter, et l'on vérifie à l'arrivée.",
+      "Auprès du destinataire",
+      "O04",
+      "M45",
+      "",
+      "Le détail convenu, et le cas où il a dénoncé un homonyme.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53223**",
+      "**Le signe extérieur**",
+      "53211",
+      "Une cloche, une lampe, une heure : le destinataire apprend hors canal qu'il doit écouter.",
+      "Au poste",
+      "O04",
+      "M45",
+      "53222",
+      "Le signe donné, et la réception qui a suivi.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53320**",
+      "**Le répertoire**",
+      "53310",
+      "Cinq sens appris des deux côtés, chacun avec l'épisode qui le porte, et rien entre les cinq.",
+      "Salle du conseil",
+      "O04",
+      "M41 · M42",
+      "",
+      "Les cinq lignes, et les deux côtés qui les connaissent.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53321**",
+      "**L'heure dite**",
+      "53310",
+      "On convient du moment où l'on écoutera, pour que l'arrivée ne dépende pas de l'attention du destinataire.",
+      "Salle du conseil",
+      "O04",
+      "M45",
+      "53320",
+      "L'heure convenue, et ce qui est arrivé dedans.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53322**",
+      "**L'épisode dépaysant**",
+      "53311",
+      "On choisit un vécu qui ne ressemble à rien de ce que le lieu produit — une odeur de mer sur un mur de pierre sèche.",
+      "Là où se tient le mage",
+      "O04",
+      "M41",
+      "",
+      "Ce que le destinataire a dit lui avoir paru étranger.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**53323**",
+      "**Le tour de tête**",
+      "53312",
+      "On présente la même image à chacun séparément, puis on fait décrire à chacun ce qu'il a vu, sans qu'ils s'entendent.",
+      "Salle du conseil",
+      "O04",
+      "M40 · M41",
+      "53322",
+      "Les trois descriptions, recueillies séparément, et leurs écarts.",
+      "à faire"
+     ]
+    }
+   ]
+  }
+ ]
+}

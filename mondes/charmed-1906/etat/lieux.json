@@ -18,6 +18,248 @@
   "_": "Le séjour des Fondateurs. On n'y va pas : on y est appelé. La forme est une INVENTION DÉCLARÉE ; les Fondateurs sont canon (S01E14)."
  },
  {
+  "id": "prescott-street",
+  "nom": "Prescott Street",
+  "region": "Pacific Heights",
+  "type": "rue",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "alias": [
+   "prescott"
+  ],
+  "_": "La rue des Warren, vers Steiner et Clay (carte/dessiner_geo.py). Maisons de bois à pignons, gens aisés sans être riches, le tramway de Fillmore à deux rues. À l'ouest de Van Ness : le grand incendie ne l'atteint pas (canon/histoire-1906.md §3). Le seul feu qui la menace est celui de la cuisine des Warren."
+ },
+ {
+  "id": "van-ness",
+  "nom": "Van Ness Avenue",
+  "region": "Pacific Heights",
+  "type": "avenue",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "La plus large rue de la ville, à dix minutes à pied de Prescott Street. Le 20, on y fait sauter et on y canonne une rangée de maisons pour arrêter le feu : ça tonne toute la journée."
+ },
+ {
+  "id": "chinatown",
+  "nom": "Chinatown, Dupont Street",
+  "region": "North Beach et Chinatown",
+  "type": "quartier",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "alias": [
+   "dupont-street"
+  ],
+  "_": "L'herboristerie Chow. Quarante minutes à pied de Prescott Street, en descendant. Brûle en entier le soir du 18 et la nuit du 19 ; ses gens sont ensuite parqués à part. Tenu par : chow-wen."
+ },
+ {
+  "id": "barbary-coast",
+  "nom": "La Barbary Coast",
+  "region": "North Beach et Chinatown",
+  "type": "quartier",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "Les bouges, les marins, les enlèvements pour les navires. Brûle le 18-19. Là où une rumeur de pillage naît toute seule."
+ },
+ {
+  "id": "call-building",
+  "nom": "Le Call Building",
+  "region": "Market Street",
+  "type": "immeuble",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "alias": [
+   "market-street"
+  ],
+  "_": "Angle Market et 3e rue : la plus haute tour de la ville, le journal de Silas Byrne. Cinquante minutes à pied de Prescott Street. Brûle de l'intérieur le 18 ; la carcasse d'acier reste debout."
+ },
+ {
+  "id": "ferry-building",
+  "nom": "Le Ferry Building",
+  "region": "Le front de mer",
+  "type": "quai",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "Au bout de Market Street. Une heure à pied de Prescott Street, puis vingt-cinq minutes de ferry pour Oakland. Tient pendant tout le feu ; c'est par là que la ville s'enfuit."
+ },
+ {
+  "id": "city-hall",
+  "nom": "L'hôtel de ville",
+  "region": "Le centre",
+  "type": "ruine",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "Ruiné par le choc de 5 h 12 (le dôme reste sur sa carcasse), brûlé par le feu de Hayes Street le 18 à midi. Trente minutes à pied de Prescott Street. Le Mechanics' Pavilion voisin sert d'hôpital le matin, puis brûle."
+ },
+ {
+  "id": "nob-hill",
+  "nom": "Nob Hill",
+  "region": "Le centre et Nob Hill",
+  "type": "colline",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "Les palais des magnats du rail. Trente-cinq minutes à pied, en montant. Brûle le 19."
+ },
+ {
+  "id": "mission-dolores",
+  "nom": "Mission Dolores",
+  "region": "La Mission",
+  "type": "eglise",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "alias": [
+   "mission"
+  ],
+  "_": "La vieille mission espagnole d'adobe (1791), 16e rue et Dolores, et l'église de brique voisine. Le père Callahan. Une heure à pied de Prescott Street. Le feu s'arrête à quelques pâtés, le 20-21 : la vieille mission tient, l'église de brique est abîmée, le quartier devient un camp. Lieu consacré : les êtres mauvais n'y entreraient pas (basebuilding-s1, C — jamais confirmé)."
+ },
+ {
+  "id": "presidio",
+  "nom": "Le Presidio",
+  "region": "Le Presidio",
+  "type": "garnison",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "Le poste de l'armée, trente-cinq minutes à pied au nord-ouest. Les troupes en descendent vers 6 h 30 le 18 ; on y ouvre un camp, un hôpital, les listes de disparus."
+ },
+ {
+  "id": "golden-gate-park",
+  "nom": "Le parc du Golden Gate",
+  "region": "Le parc du Golden Gate",
+  "type": "parc",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "alias": [
+   "parc",
+   "panhandle"
+  ],
+  "_": "Trente minutes à pied jusqu'au Panhandle. Le plus grand camp de réfugiés : tentes de l'armée, soupes, files d'eau, enfants perdus par centaines."
+ },
+ {
+  "id": "oakland",
+  "nom": "Oakland",
+  "region": "L'East Bay",
+  "type": "ville",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "De l'autre côté de la baie, vingt-cinq minutes de ferry. On y voit la ville brûler ; c'est là, sur les presses du Tribune, que paraît le 19 l'édition commune du Call, du Chronicle et de l'Examiner. Là où vont les réfugiés qui ont de quoi partir."
+ },
+ {
+  "id": "howard-street",
+  "nom": "Howard Street",
+  "region": "South of Market",
+  "type": "rue",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "La pension Doyle, où loge Patience. Sur le remblai gagné sur la vasière : les garnis de bois s'y affaissent au choc de 5 h 12 et les premiers feux y naissent dans l'heure. Une heure et quart à pied de Prescott Street, en traversant Market et en remontant par Van Ness — tant que le feu laisse passer."
+ },
+ {
+  "id": "pharmacie-keane",
+  "nom": "La pharmacie Keane, Fillmore Street",
+  "region": "Pacific Heights",
+  "type": "boutique",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "alias": [
+   "keane",
+   "fillmore"
+  ],
+  "_": "INVENTION DÉCLARÉE (l'enseigne). Six minutes à pied, au coin de Fillmore et de Sacramento : la pharmacie du quartier. Camphre, laudanum, sel ammoniac, soufre, alun, huiles essentielles, et les simples ordinaires au poids dans des bocaux étiquetés en latin — sauge, armoise, verveine, millepertuis, valériane. Mr Keane ne pose pas de questions tant qu'on paie comptant. À l'ouest de Van Ness : ne brûle pas, et Fillmore devient après le feu la grande rue marchande de la ville. Tenu par : fergus-keane."
+ },
+ {
+  "id": "laurel-hill",
+  "nom": "Le cimetière de Laurel Hill",
+  "region": "Lone Mountain",
+  "type": "cimetiere",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "alias": [
+   "lone-mountain"
+  ],
+  "_": "Vingt-cinq minutes à pied vers l'ouest, au pied de Lone Mountain : le grand cimetière des pionniers, déjà à l'abandon, les tombes des sénateurs sous les cyprès. Terre de tombe, if, la paix des morts — et les morts eux-mêmes. Hors du feu. Réel (fermé aux inhumations depuis 1901, vidé dans les années 1940). Tenu par : amos-tully."
+ },
+ {
+  "id": "serre-golden-gate",
+  "nom": "La serre du parc du Golden Gate",
+  "region": "Le parc du Golden Gate",
+  "type": "serre",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "alias": [
+   "conservatory"
+  ],
+  "_": "Le Conservatory of Flowers (1879), réel : une cathédrale de verre blanc à l'entrée du parc, cinquante minutes à pied. Plantes des tropiques et d'Orient qu'on ne trouve nulle part ailleurs en ville ; un jardinier écossais qui échange des boutures contre une bonne conversation. Hors du feu — mais le parc devient le 18 le plus grand camp de réfugiés. Tenu par : angus-mclaren."
+ },
+ {
+  "id": "california-market",
+  "nom": "Le California Market",
+  "region": "Le centre et Nob Hill",
+  "type": "marche",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "alias": [
+   "le-marche"
+  ],
+  "_": "Réel : la halle couverte entre California et Pine, de Kearny à Montgomery, cinquante minutes à pied en descendant. Primeurs, volailles, poissons, et au fond les étals des herbes fraîches — thym, romarin, laurier, ail, rue. On y va à l'aube. Brûle le 18. Tenu par : hanna-vogel."
+ },
+ {
+  "id": "old-st-mary",
+  "nom": "Old St. Mary's",
+  "region": "North Beach et Chinatown",
+  "type": "eglise",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "alias": [
+   "st-mary"
+  ],
+  "_": "Réelle : la vieille cathédrale de brique à l'angle de California et de Dupont, en bordure de Chinatown, quarante-cinq minutes à pied. Cierges bénits, eau bénite, chapelets au comptoir de la sacristie. Sa tour porte : « Fils, garde le temps et fuis le mal ». Brûle le 18 ; les murs tiennent. Tenu par : timothy-rourke."
+ },
+ {
+  "id": "st-patrick",
+  "nom": "L'église Saint-Patrick, Mission Street",
+  "region": "South of Market",
+  "type": "eglise",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "alias": [
+   "saint-patrick"
+  ],
+  "_": "Réelle : la paroisse des Irlandais, sur Mission Street entre la 3e et la 4e, cinquante minutes à pied. Le père Healy (pere-healy) y tonne contre les saloons de Howard Street — la paroisse de Patience, qui n'y va pas. Brûle le 18 ; les murs tiennent."
+ },
+ {
+  "id": "librairie-pell",
+  "nom": "La librairie Pell, Kearny Street",
+  "region": "Le centre et Nob Hill",
+  "type": "boutique",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "alias": [
+   "pell"
+  ],
+  "_": "INVENTION DÉCLARÉE. Cinquante minutes à pied : un libraire d'occasion qui achète les bibliothèques des morts au poids. Au fond, sur l'étagère du haut, ce qu'il appelle « la curiosité » — almanachs, herbiers, un Albert le Grand relié en veau, des manuscrits de famille qu'il n'a pas lus. Brûle le 18, avec tout son stock. Tenu par : ezra-pell."
+ },
+ {
+  "id": "epicerie-lucchesi",
+  "nom": "L'épicerie Lucchesi, Columbus Avenue",
+  "region": "North Beach et Chinatown",
+  "type": "boutique",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "alias": [
+   "lucchesi"
+  ],
+  "_": "INVENTION DÉCLARÉE. Quarante-cinq minutes à pied : l'épicerie génoise de North Beach. Ail en tresses, sel gris, huile d'olive, basilic en pot, fenouil sauvage cueilli sur Telegraph Hill, et la vieille mère Lucchesi qui connaît le mauvais œil et sa conjuration. Brûle le 19-20 avec North Beach. Tenu par : assunta-lucchesi."
+ },
+ {
+  "id": "chandlerie-olsen",
+  "nom": "La chandlerie de marine Olsen, East Street",
+  "region": "Le front de mer",
+  "type": "boutique",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "alias": [
+   "olsen"
+  ],
+  "_": "INVENTION DÉCLARÉE. Une heure à pied, sur le front de mer, face aux quais : tout ce qu'il faut à un navire. Suif, cire d'abeille en pains, mèche de coton, goudron, chanvre, sel en sac, lanternes, et les curiosités que les marins laissent contre une dette — ambre de la Baltique, corail, un miroir noir de Chine. On y fait ses bougies soi-même. Le front de mer tient pendant le feu. Tenu par : nils-olsen."
+ },
+ {
   "id": "les-enfers",
   "nom": "En bas",
   "region": "Ailleurs",

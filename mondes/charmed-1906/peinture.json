@@ -1,0 +1,80 @@
+{
+ "_": "CE QUE LES PINCEAUX DE CE MONDE PEIGNENT — lu par scripts/peinture/gen_portraits.py et gen_salles.py avec --monde charmed-1906. San Francisco, avril 1906, AVANT le séisme : bois peint, gaz et pétrole, brouillard de baie. Rien de médiéval. Les salles sont VIDES (même règle que Peyredragon) et la cave ne montre rien du Nexus : Prudence n'en sait rien.",
+ "portraits": {
+  "style": "Painted character portrait in oils, San Francisco 1906, Edwardian era, bust framing showing head and shoulders, three-quarter view, lit by warm oil-lamp light from one side, soft chiaroscuro, muted sepia and deep green palette, visible fine brushwork, quiet and grave mood. ",
+  "suffixe": ", head and shoulders medallion portrait, centered composition, dark background, face true to the stated age, period-accurate 1906 clothing and hair, full bleed, subject fills the frame edge to edge, no canvas border, no picture frame, no text, no watermark, square format",
+  "gens": {
+   "prudence-warren": "a widow of thirty-five, dark hair pinned up severely, straight-backed, intense dark eyes with a temper held in check, black high-collared mourning blouse with a small cameo brooch, a secretive set to the mouth",
+   "lillian-warren": "a girl of seven, loose dark curls with a ribbon, bright curious fearless eyes, dreamy half-smile, white pinafore over a dark wool dress",
+   "bridget-oconnell": "an Irish housekeeper of forty-eight from Cork, ruddy freckled cheeks, greying red hair under a white cap, a small crucifix on a cord, warm talkative face, sleeves rolled, dark work dress and apron",
+   "l-ombre": "a being made of living darkness, a feminine silhouette of smoke and shadow with only the faint gleam of eyes and the curve of a soft smile, tendrils of black fading into black, patient and hungry, no clear features, supernatural, ominous",
+   "thomas-ashby": "a gentle man who looks about sixty-eight, kind tired eyes, neat white beard, old-fashioned dark frock coat of the 1860s, a faint pale glow of light around his head and shoulders, tender and secretive expression",
+   "l-ancien-oren": "an ageless elder of cold authority, long white hair, pale serene face with distant grey eyes, simple white robe, bathed in a cool diffuse white light, remote and just, faintly otherworldly",
+   "mei-chow": "a Chinese American young woman of seventeen from Chinatown San Francisco 1906, long black braid, attentive frightened eyes, plain dark cotton tunic with frog buttons, the scent of an herbalist shop implied by dried herbs in soft focus behind",
+   "silas-byrne": "a young Irish American typesetter of twenty-two, lean face, ink-stained fingers visible at the collar, stiff formal politeness, cropped hair, shirt sleeves with armbands and a waistcoat, jaw set with contained anger",
+   "pere-callahan": "a Catholic priest of fifty-five, broad practical workman's face, grey stubble, black cassock with roman collar, sleeves of a builder, curious shrewd eyes, the adobe walls of Mission Dolores faint behind",
+   "chow-wen": "a Chinese herbalist of sixty in San Francisco Chinatown 1906, long grey queue braid, thin grey moustache, round spectacles, dark silk skullcap, black padded jacket, shrewd weighing eyes, drawers of dried herbs soft behind",
+   "fergus-keane": "an Irish American pharmacist of fifty, balding with ginger side whiskers, pince-nez, white apothecary coat over a waistcoat and watch chain, discreet calculating expression, glass jars with latin labels soft behind",
+   "amos-tully": "a cemetery keeper of sixty-eight, weathered drinker's face, white stubble, battered felt hat, old army greatcoat, gentle sad eyes, cypress trees and tombstones in fog soft behind",
+   "angus-mclaren": "a Scottish head gardener of forty-four, sandy beard, ruddy cheerful face, tweed waistcoat with rolled shirtsleeves and soil on the hands, a green glasshouse with tropical leaves soft behind",
+   "hanna-vogel": "a German market woman of fifty-six, broad strong face, grey hair under a dark kerchief, shawl and apron, bundles of fresh herbs at her shoulder, stern honest eyes",
+   "timothy-rourke": "an Irish sacristan of fifty-seven, thin pale anxious face, thinning hair combed flat, black suit worn shiny, rosary in hand, candlelit brick church interior soft behind",
+   "pere-healy": "an Irish Catholic priest of fifty-nine, heavy jowled energetic face, fierce blue eyes, grey hair, black cassock and roman collar, a fighter's shoulders",
+   "ezra-pell": "an old bookseller of sixty-five, thick spectacles, wispy white hair, sharp nose, dusty black frock coat, skeptical greedy smile, stacks of leather books soft behind",
+   "assunta-lucchesi": "a Genoese Italian grandmother of seventy-two, deeply lined face, black widow's dress and shawl, gold earrings, braids of garlic hanging behind, fierce protective eyes",
+   "nils-olsen": "a Norwegian ship chandler of fifty-four, former sailor, weathered face, short white beard without moustache, knitted fisherman's sweater, pipe, coils of rope and lanterns soft behind"
+  }
+ },
+ "salles": {
+  "blocs": {
+   "dedans": "Highly detailed photorealistic interior of a wooden Victorian house in San Francisco in 1906, painted redwood panelling, oil lamps and a gas bracket, soft grey fog light through lace curtains, muted palette, fine material detail in wood, wallpaper and worn rugs, empty room with no people. ",
+   "sous": "Highly detailed photorealistic basement of an old Victorian house, packed earth floor and old rubble stone foundations, heavy timber joists overhead, no windows and no daylight whatsoever, lit only by a single candle, darkness swallowing the far end, damp, muted palette, empty with no people. ",
+   "dehors": "Highly detailed photorealistic view, San Francisco street in 1906 before the earthquake, wooden Victorian row houses with bay windows, early morning sea fog, cobbles and wooden sidewalks, telegraph poles and wires, muted palette, fine material detail, no people. ",
+   "fin": ", wide establishing view, full bleed, edge to edge, no canvas border, no picture frame, no text, no watermark, no figures, no people"
+  },
+  "sans_jour": "window, windows, daylight, sky, sunlight, sun, outdoors",
+  "moderne": "electric light bulb, modern furniture, car, plastic, medieval castle, stone castle",
+  "vues": {
+   "grenier": [
+    "dedans",
+    "an attic under a steep gabled roof, bare rafters and a single small dormer window, dust in the light, an old iron-banded wooden chest standing alone in the middle of the floorboards, a ladder hatch in the floor, trunks and a dressmaker's form pushed under the eaves"
+   ],
+   "chambre-prudence": [
+    "dedans",
+    "a widow's bedroom, a dark walnut bed with a white coverlet, a marble-topped commode, an oil lamp on the night table, a black dress laid over a chair, heavy curtains half drawn on fog"
+   ],
+   "palier": [
+    "dedans",
+    "the upstairs landing of a narrow Victorian house, the top of a turned-baluster staircase, a wall-mounted wooden ladder rising to a closed attic hatch in the ceiling, a small runner rug, two closed panelled doors"
+   ],
+   "chambre-lillian": [
+    "dedans",
+    "a small girl's bedroom, a narrow iron bed with a patchwork quilt, a porcelain doll sitting on the pillow, a child's chair, a window looking onto the street and fog"
+   ],
+   "salon": [
+    "dedans",
+    "a Victorian parlour with the curtains drawn, a cold cast-iron stove, a worn leather armchair that belonged to a dead husband, an upright piano under a shawl, framed photographs, a bay window with lace"
+   ],
+   "escalier": [
+    "dedans",
+    "a narrow wooden staircase in a Victorian house seen from the ground floor hall, creaking treads and a turned banister, and under the stairs a low closed plank door leading down to the cellar"
+   ],
+   "cuisine": [
+    "dedans",
+    "a Victorian kitchen, a black coal range, open shelves crowded with jars of dried herbs and bundles hanging from the beams, a box of tallow candles, a scrubbed pine table, a copper kettle"
+   ],
+   "cave": [
+    "sous",
+    "a low cellar under the house, packed earth floor, very old stones in the foundation wall that look older than the house, a few barrels and broken crates, a candle stub on a step"
+   ],
+   "perron": [
+    "dehors",
+    "the front stoop of a painted wooden Victorian house, three worn wooden steps up to a front door with a stained-glass transom, a cast-iron boot scraper, fog on the street beyond"
+   ],
+   "prescott-street": [
+    "dehors",
+    "a quiet residential street of wooden Victorian houses at dawn, gas street lamps still lit, a milk cart parked at the curb, telegraph poles and wires disappearing into fog"
+   ]
+  }
+ }
+}

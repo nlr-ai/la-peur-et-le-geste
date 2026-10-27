@@ -1,0 +1,33 @@
+{
+  "version": "activation-graphe/2",
+  "qui": "robert-quince",
+  "tache": {
+    "id": "10033",
+    "quoi": "🗺️ Faire dire aux quarante des geôles ce qu'ils savent de leur propre "
+  },
+  "activation": {
+    "issue": "traitee-par-depeche",
+    "energie_depensee": 33.0,
+    "activites": [
+      {
+        "action": {
+          "verbe": "poursuivre",
+          "quoi": "BOUCLE D'ACTIVATION — le graphe t'a élu pour poursuivre cette tâche maintenant.\nTÂCHE : `10033`\nOBJET : 🗺️ Faire dire aux quarante des geôles ce qu'ils savent de leur propre \nBUDGET DE TRAVAIL : 33 unités.\n\nAgis depuis ta tête, tes documents de maison et l'état réel du dépôt. Tu as accès au dépôt : écris directement, par les portes canoniques, les changements d'état, d'action, d'étape, d'acte ou de mesure que ton travail produit. Ne demande rien au MJ. Si une issue dépend d'un autre ou d'un fait absent, écris ton geste et laisse seulement cette issue en attente."
+        },
+        "temps": {
+          "duree_s": 990
+        },
+        "resultats_produits": [],
+        "cout_energie": 33.0
+      }
+    ]
+  },
+  "_activation": {
+    "cree_le": "2026-09-10T19:02:10.460631+02:00",
+    "front": "nicolas-lester-reynolds",
+    "present_secondes": 31440.0,
+    "budget": 33,
+    "duree_api_ms": 124331,
+    "mode": "depeche-directe-repo"
+  }
+}

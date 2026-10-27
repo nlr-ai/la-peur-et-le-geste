@@ -1,7 +1,7 @@
 // GET /terrain — le champ, quand il y en a un.
 const fs = require("fs");
 const path = require("path");
-const { RACINE } = require("../http");
+const { ETAT } = require("../http");
 const { envoyer } = require("../http");
 const { qui, regardeur } = require("../http");
 
@@ -20,7 +20,7 @@ function traiter(req, res, url) {
         let ou = null;
         try {
           const siege = qui(req, url);
-          const lire = (f) => JSON.parse(fs.readFileSync(path.join(RACINE, "etat", f), "utf-8"));
+          const lire = (f) => JSON.parse(fs.readFileSync(path.join(ETAT, f), "utf-8"));
           const journal = lire("journal.json");
           const moi = regardeur(siege, journal);
           const pj = lire("personnages.json").find((p) => p.id === moi);
@@ -30,9 +30,9 @@ function traiter(req, res, url) {
         // un id de lieu est du kebab-case ; on refuse tout le reste, sinon
         // `..` dans un lieu_id ouvrirait le disque entier.
         if (ou && /^[a-z0-9-]+$/.test(ou)) {
-          fichiers.push(path.join(RACINE, "etat", "terrains", ou + ".json"));
+          fichiers.push(path.join(ETAT, "terrains", ou + ".json"));
         }
-        fichiers.push(path.join(RACINE, "etat", "terrain.json"));
+        fichiers.push(path.join(ETAT, "terrain.json"));
         for (const f of fichiers) {
           if (!fs.existsSync(f)) continue;
           const champ = JSON.parse(fs.readFileSync(f, "utf-8"));

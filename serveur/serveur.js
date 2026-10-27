@@ -23,13 +23,24 @@ const { direLaPeremption } = monde.monde3d;
 // `/chemin`), et la première qui prend la requête la garde. On n'y touche
 // qu'en sachant ce qu'on déplace.
 const ROUTES = [
+  require("./routes/tableau-libre"), // tableau personnel de La peur et le geste
+  require("./routes/recherche-fichiers"), // pièces jointes, Frontières du vivant uniquement
   require("./routes/joueur"),      // /, /moi, /bascule
+  require("./routes/mondes"),      // /mondes — les mondes (un par port) et les parties en cartes
+  require("./routes/plans"),       // /monde.js, /monde.json — LE PAQUET DU MONDE
+  //   En tête, où aucun préfixe ne peut la masquer. Sans cette ligne, `/monde.js`
+  //   rend 404 et le plan du château comme les bannières s'affichent VIDES — le
+  //   repli est vide à dessein : un plan à moitié juste fait cliquer une porte
+  //   qui n'existe pas.
   require("./routes/habillage"),   // /habillage.css, /habillage/… — le visage de la partie
+  require("./routes/geo"),         // /modules/geo.js — la table du monde, avant celle du dépôt
   monde.presence,                  // /presence — qui est où, à cette minute
   plan.atelier,                    // pages d'atelier, /admin, /regie
   monde.chemin,                    // /chemin, /monde/…
   peinture.medias,                 // /retrospective, /medailles, captures, sons
-  monde.mondeJeu,                  // /salles, /entites, /gens
+  require("./routes/salles"),      // /salles — les vues peintes, le monde avant le dépôt
+  monde.mondeJeu,                  // /entites, /gens
+  require("./routes/fiche"),       // /fiche — ce que le siège a sous la main, et qui il connaît
   monde.carte,                     // /carte, /ville
   plan.livres,                     // /books, /notes, /nappe, /plis
   monde.terrain,                   // /terrain
@@ -39,6 +50,7 @@ const ROUTES = [
   temps.calendrier,                // /calendrier
   peinture.routeVoix,              // /voix/*
   require("./routes/scene"),       // /scene — le fil servi au navigateur
+  require("./routes/chercher"),    // /chercher — un mot, et où il est écrit
   monde.foule,                     // POST /foule/journal
   plan.agenda,                     // POST /agenda, /notes, /nappe
   require("./routes/piece"),       // POST /piece

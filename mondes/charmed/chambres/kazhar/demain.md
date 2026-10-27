@@ -1,0 +1,3 @@
+*Le 10 octobre, certains d’entre nous ont tenu les galeries ouvertes sans convoquer personne, sans promettre et sans courir la proie d’un autre. Aucun quatrième échec public, aucune convocation de la Source et aucun chef reçu ne sont établis : les lignes 1631 et 1632 restent donc en cours, 1633 demeure à faire.*
+
+*Au prochain réveil : recevoir et écouter tout chef qui se présente sous le prétexte de la meute, sans engagement. Si Varek rapporte un quatrième échec devant la cour, réunir les trois chefs la même nuit. Si la Source convoque, venir, la louer, offrir les démons des galeries et taire les visiteurs.*

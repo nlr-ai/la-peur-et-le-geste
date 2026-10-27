@@ -23,10 +23,10 @@ const childProcess = require("child_process");
 // et seulement dans deux fonctions : la differer coupe le cycle sans sortir de
 // la porte. (`require` est mis en cache — le report ne coute rien.)
 const plan = () => require("../plan").bibliotheque;
-const { RACINE } = require("../http");
+const { RACINE, DEPOT, ETAT } = require("../http");
 const { qui } = require("../http");
 
-const DEPOT_ACTIVATIONS = path.join(RACINE, "etat", "activations");
+const DEPOT_ACTIVATIONS = path.join(ETAT, "activations");
 
 // ---- LE PLAN ET LES TÊTES : est-ce que l'homme le porte VRAIMENT ? ----------
 //
@@ -58,7 +58,7 @@ const _tetes = { cle: null, par: null, etapes: 0 };
 // appelée à chaque bascule de plateau.
 function numerosDesTetes() {
   if (!LIRE_LES_TETES) return { par: {}, etapes: 0 };
-  const f = path.join(RACINE, "etat", "intentions.json");
+  const f = path.join(ETAT, "intentions.json");
   let cle;
   try { cle = String(fs.statSync(f).mtimeMs); } catch (e) { return { par: {}, etapes: 0 }; }
   if (_tetes.cle === cle) return { par: _tetes.par, etapes: _tetes.etapes };
@@ -97,7 +97,7 @@ function numerosDesTetes() {
 // que faire croire que personne n'est là.
 function ouQuartier(id) {
   try {
-    const pt = path.join(RACINE, "etat", "tissu", "evaluation.json");
+    const pt = path.join(ETAT, "tissu", "evaluation.json");
     const ev = JSON.parse(fs.readFileSync(pt, "utf-8"));
     const gens = ((ev || {}).quartier || {}).gens;
     if (!Array.isArray(gens) || !gens.length) return "quartier";
@@ -205,7 +205,7 @@ function lignesFinFichier(fichier, maximumOctets) {
 }
 
 function filMjActif() {
-  const codeProjet = path.resolve(RACINE).replace(/[:\\/]/g, "-");
+  const codeProjet = path.resolve(DEPOT).replace(/[:\\/]/g, "-");
   const dossier = path.join(os.homedir(), ".claude", "projects", codeProjet);
   if (!fs.existsSync(dossier)) return { session: null, titre: null, items: [] };
   const candidats = fs.readdirSync(dossier, { withFileTypes: true })
@@ -293,7 +293,7 @@ function filMjActif() {
 const cacheCriticite = new Map();
 const cachePlanModele = new Map();
 const SCRIPT_PLAN_MODELE = path.join(
-  RACINE, "scripts", "noyau", "plan_modele.py");
+  DEPOT, "scripts", "noyau", "plan_modele.py");
 
 // LE PÉRIMÈTRE DU PLAN VIENT DE PYTHON. L'échiquier garde son rendu détaillé
 // en JavaScript, mais il ne redéfinit plus ce qu'est une affaire ni ce que ce
@@ -302,15 +302,15 @@ const SCRIPT_PLAN_MODELE = path.join(
 function planModele(vueDe) {
   const siege = vueDe || "__defaut__";
   const entrees = plan().cheminsSource(RACINE).concat([
-                   path.join(RACINE, "etat", "boites.json"),
-                   path.join(RACINE, "etat", "personnages.json"),
-                   path.join(RACINE, "etat", "journal.json"),
-                   path.join(RACINE, "etat", "actes.json"),
-                   path.join(RACINE, "etat", "evenements.json"),
-                   path.join(RACINE, "scripts", "bibliotheque.py"),
+                   path.join(ETAT, "boites.json"),
+                   path.join(ETAT, "personnages.json"),
+                   path.join(ETAT, "journal.json"),
+                   path.join(ETAT, "actes.json"),
+                   path.join(ETAT, "evenements.json"),
+                   path.join(DEPOT, "scripts", "bibliotheque.py"),
                    SCRIPT_PLAN_MODELE,
-                   path.join(RACINE, "scripts", "livre.py"),
-                   path.join(RACINE, "scripts", "couverture.py")]);
+                   path.join(DEPOT, "scripts", "livre.py"),
+                   path.join(DEPOT, "scripts", "couverture.py")]);
   let cle = "";
   entrees.forEach((f) => {
     try { const s = fs.statSync(f); cle += s.size + ":" + s.mtimeMs + "|"; }
@@ -321,7 +321,7 @@ function planModele(vueDe) {
   const valeur = JSON.parse(childProcess.execFileSync("python",
     [SCRIPT_PLAN_MODELE, "--json"].concat(
       vueDe ? ["--vue-de", vueDe] : []),
-    { cwd: RACINE, encoding: "utf-8", timeout: 30000,
+    { cwd: DEPOT, encoding: "utf-8", timeout: 30000,
       windowsHide: true, maxBuffer: 8 * 1024 * 1024,
       env: Object.assign({}, process.env, { PYTHONIOENCODING: "utf-8" }) }));
   cachePlanModele.set(siege, { cle, valeur });
@@ -339,14 +339,14 @@ function criticite(vueDe) {
   // donnait un ecran qui ne bougeait pas d'un dixieme apres une renotation, et
   // rien pour le dire — le meme piege que le script oublie, une porte plus loin.
   const cles = plan().cheminsSource(RACINE).concat([
-                path.join(RACINE, "etat", "poids-etats.json"),
-                path.join(RACINE, "scripts", "criticite.py"),
-                path.join(RACINE, "scripts", "bibliotheque.py"),
-                path.join(RACINE, "scripts", "couverture.py"),
-                path.join(RACINE, "scripts", "etat_du_plan.py"),
+                path.join(ETAT, "poids-etats.json"),
+                path.join(DEPOT, "scripts", "criticite.py"),
+                path.join(DEPOT, "scripts", "bibliotheque.py"),
+                path.join(DEPOT, "scripts", "couverture.py"),
+                path.join(DEPOT, "scripts", "etat_du_plan.py"),
                 SCRIPT_PLAN_MODELE,
-                path.join(RACINE, "etat", "boites.json"),
-                path.join(RACINE, "etat", "personnages.json")]);
+                path.join(ETAT, "boites.json"),
+                path.join(ETAT, "personnages.json")]);
   let cle = "";
   for (const f of cles) {
     try { const s = fs.statSync(f); cle += s.size + ":" + s.mtimeMs + "|"; }
@@ -358,9 +358,9 @@ function criticite(vueDe) {
   let valeur;
   try {
     valeur = JSON.parse(childProcess.execFileSync("python",
-      [path.join(RACINE, "scripts", "criticite.py"), "--json"].concat(
+      [path.join(DEPOT, "scripts", "criticite.py"), "--json"].concat(
         vueDe ? ["--vue-de", vueDe] : []),
-      { cwd: RACINE, encoding: "utf-8", timeout: 30000,
+      { cwd: DEPOT, encoding: "utf-8", timeout: 30000,
         windowsHide: true, maxBuffer: 8 * 1024 * 1024,
         env: Object.assign({}, process.env, { PYTHONIOENCODING: "utf-8" }) }));
   } catch (e) {
@@ -375,8 +375,8 @@ function criticite(vueDe) {
 function sante() {
   try {
     const brut = childProcess.execFileSync("python",
-      [path.join(RACINE, "scripts", "tick.py"), "--verifier", "--json"],
-      { cwd: RACINE, encoding: "utf-8", timeout: 30000,
+      [path.join(DEPOT, "scripts", "tick.py"), "--verifier", "--json"],
+      { cwd: DEPOT, encoding: "utf-8", timeout: 30000,
         windowsHide: true, maxBuffer: 8 * 1024 * 1024,
         env: Object.assign({}, process.env, { PYTHONIOENCODING: "utf-8" }) });
     return Object.assign(JSON.parse(brut), { lu_a: Date.now() });
@@ -395,7 +395,7 @@ function sante() {
 
 function resumeActivations() {
   const { etat, parSession } = rapportsEtJournalActivations();
-  const personnages = lireJsonSansFaillir(path.join(RACINE, "etat", "personnages.json"), []);
+  const personnages = lireJsonSansFaillir(path.join(ETAT, "personnages.json"), []);
   const liste = Array.isArray(personnages) ? personnages : (personnages.personnages || []);
   const noms = new Map(liste.map((p) => [p.id, p.nom || p.id]));
   const activations = (etat.historique || []).slice().reverse().map((entree) => {

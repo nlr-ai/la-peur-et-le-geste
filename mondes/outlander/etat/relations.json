@@ -1,0 +1,817 @@
+[
+  {
+    "source_id": "colum-mackenzie",
+    "cible_id": "dougal-mackenzie",
+    "opinion": 40,
+    "liens": [
+      "frere",
+      "chef-de-clan"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "dougal-mackenzie",
+    "cible_id": "colum-mackenzie",
+    "opinion": 55,
+    "liens": [
+      "frere",
+      "subordonne"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "colum-mackenzie",
+    "cible_id": "letitia-mackenzie",
+    "opinion": 65,
+    "liens": [
+      "epoux"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "letitia-mackenzie",
+    "cible_id": "colum-mackenzie",
+    "opinion": 65,
+    "liens": [
+      "epouse"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "colum-mackenzie",
+    "cible_id": "hamish-mackenzie",
+    "opinion": 85,
+    "liens": [
+      "pere-reconnu"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "hamish-mackenzie",
+    "cible_id": "colum-mackenzie",
+    "opinion": 85,
+    "liens": [
+      "fils-reconnu"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "letitia-mackenzie",
+    "cible_id": "hamish-mackenzie",
+    "opinion": 90,
+    "liens": [
+      "mere"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "hamish-mackenzie",
+    "cible_id": "letitia-mackenzie",
+    "opinion": 90,
+    "liens": [
+      "fils"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "dougal-mackenzie",
+    "cible_id": "hamish-mackenzie",
+    "opinion": 70,
+    "liens": [
+      "oncle-reconnu"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "hamish-mackenzie",
+    "cible_id": "dougal-mackenzie",
+    "opinion": 65,
+    "liens": [
+      "neveu-reconnu"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "dougal-mackenzie",
+    "cible_id": "letitia-mackenzie",
+    "opinion": 30,
+    "liens": [
+      "beau-frere"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "letitia-mackenzie",
+    "cible_id": "dougal-mackenzie",
+    "opinion": 30,
+    "liens": [
+      "belle-soeur"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "colum-mackenzie",
+    "cible_id": "jamie-fraser",
+    "opinion": 45,
+    "liens": [
+      "oncle"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "jamie-fraser",
+    "cible_id": "colum-mackenzie",
+    "opinion": 40,
+    "liens": [
+      "neveu"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "dougal-mackenzie",
+    "cible_id": "jamie-fraser",
+    "opinion": 35,
+    "liens": [
+      "oncle"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "jamie-fraser",
+    "cible_id": "dougal-mackenzie",
+    "opinion": 30,
+    "liens": [
+      "neveu"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "colum-mackenzie",
+    "cible_id": "jenny-murray",
+    "opinion": 45,
+    "liens": [
+      "oncle"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "jenny-murray",
+    "cible_id": "colum-mackenzie",
+    "opinion": 40,
+    "liens": [
+      "niece"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "dougal-mackenzie",
+    "cible_id": "jenny-murray",
+    "opinion": 35,
+    "liens": [
+      "oncle"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "jenny-murray",
+    "cible_id": "dougal-mackenzie",
+    "opinion": 30,
+    "liens": [
+      "niece"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "jamie-fraser",
+    "cible_id": "jenny-murray",
+    "opinion": 85,
+    "liens": [
+      "frere"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "jenny-murray",
+    "cible_id": "jamie-fraser",
+    "opinion": 80,
+    "liens": [
+      "soeur"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "jenny-murray",
+    "cible_id": "ian-murray",
+    "opinion": 90,
+    "liens": [
+      "epouse"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "ian-murray",
+    "cible_id": "jenny-murray",
+    "opinion": 90,
+    "liens": [
+      "epoux"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "jamie-fraser",
+    "cible_id": "ian-murray",
+    "opinion": 85,
+    "liens": [
+      "ami",
+      "beau-frere"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "ian-murray",
+    "cible_id": "jamie-fraser",
+    "opinion": 85,
+    "liens": [
+      "ami",
+      "beau-frere"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "murtagh-fraser",
+    "cible_id": "jamie-fraser",
+    "opinion": 90,
+    "liens": [
+      "parrain",
+      "protecteur"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "jamie-fraser",
+    "cible_id": "murtagh-fraser",
+    "opinion": 85,
+    "liens": [
+      "filleul"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "mrs-fitz",
+    "cible_id": "laoghaire-mackenzie",
+    "opinion": 80,
+    "liens": [
+      "grand-mere"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "laoghaire-mackenzie",
+    "cible_id": "mrs-fitz",
+    "opinion": 75,
+    "liens": [
+      "petite-fille"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "colum-mackenzie",
+    "cible_id": "ned-gowan",
+    "opinion": 70,
+    "liens": [
+      "employeur",
+      "conseil-juridique"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "ned-gowan",
+    "cible_id": "colum-mackenzie",
+    "opinion": 75,
+    "liens": [
+      "juriste",
+      "service"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "colum-mackenzie",
+    "cible_id": "mrs-fitz",
+    "opinion": 70,
+    "liens": [
+      "employeur"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "mrs-fitz",
+    "cible_id": "colum-mackenzie",
+    "opinion": 70,
+    "liens": [
+      "intendante",
+      "service"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "colum-mackenzie",
+    "cible_id": "alec-mackenzie",
+    "opinion": 65,
+    "liens": [
+      "chef-de-clan",
+      "employeur"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "alec-mackenzie",
+    "cible_id": "colum-mackenzie",
+    "opinion": 70,
+    "liens": [
+      "maitre-des-chevaux",
+      "service"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "dougal-mackenzie",
+    "cible_id": "rupert-mackenzie",
+    "opinion": 65,
+    "liens": [
+      "commandement",
+      "compagnon"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "rupert-mackenzie",
+    "cible_id": "dougal-mackenzie",
+    "opinion": 75,
+    "liens": [
+      "service",
+      "compagnon"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "dougal-mackenzie",
+    "cible_id": "angus-mhor",
+    "opinion": 55,
+    "liens": [
+      "commandement",
+      "compagnon"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "angus-mhor",
+    "cible_id": "dougal-mackenzie",
+    "opinion": 70,
+    "liens": [
+      "service",
+      "compagnon"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "rupert-mackenzie",
+    "cible_id": "angus-mhor",
+    "opinion": 85,
+    "liens": [
+      "ami",
+      "compagnon"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "angus-mhor",
+    "cible_id": "rupert-mackenzie",
+    "opinion": 85,
+    "liens": [
+      "ami",
+      "compagnon"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "colum-mackenzie",
+    "cible_id": "rupert-mackenzie",
+    "opinion": 55,
+    "liens": [
+      "chef-de-clan"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "rupert-mackenzie",
+    "cible_id": "colum-mackenzie",
+    "opinion": 70,
+    "liens": [
+      "service"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "colum-mackenzie",
+    "cible_id": "angus-mhor",
+    "opinion": 45,
+    "liens": [
+      "chef-de-clan"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "angus-mhor",
+    "cible_id": "colum-mackenzie",
+    "opinion": 60,
+    "liens": [
+      "service"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "dougal-mackenzie",
+    "cible_id": "ned-gowan",
+    "opinion": 50,
+    "liens": [
+      "collaborateur"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "ned-gowan",
+    "cible_id": "dougal-mackenzie",
+    "opinion": 45,
+    "liens": [
+      "collaborateur"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "mrs-fitz",
+    "cible_id": "alec-mackenzie",
+    "opinion": 60,
+    "liens": [
+      "collegue"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "alec-mackenzie",
+    "cible_id": "mrs-fitz",
+    "opinion": 60,
+    "liens": [
+      "collegue"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "letitia-mackenzie",
+    "cible_id": "mrs-fitz",
+    "opinion": 65,
+    "liens": [
+      "maisonnee"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "mrs-fitz",
+    "cible_id": "letitia-mackenzie",
+    "opinion": 65,
+    "liens": [
+      "service",
+      "maisonnee"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "jamie-fraser",
+    "cible_id": "alec-mackenzie",
+    "opinion": 60,
+    "liens": [
+      "travail-aux-ecuries"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "alec-mackenzie",
+    "cible_id": "jamie-fraser",
+    "opinion": 60,
+    "liens": [
+      "encadrement-aux-ecuries"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "jamie-fraser",
+    "cible_id": "rupert-mackenzie",
+    "opinion": 65,
+    "liens": [
+      "compagnon"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "rupert-mackenzie",
+    "cible_id": "jamie-fraser",
+    "opinion": 65,
+    "liens": [
+      "compagnon"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "jamie-fraser",
+    "cible_id": "angus-mhor",
+    "opinion": 55,
+    "liens": [
+      "compagnon"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "angus-mhor",
+    "cible_id": "jamie-fraser",
+    "opinion": 60,
+    "liens": [
+      "compagnon"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "murtagh-fraser",
+    "cible_id": "rupert-mackenzie",
+    "opinion": 45,
+    "liens": [
+      "compagnon"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "rupert-mackenzie",
+    "cible_id": "murtagh-fraser",
+    "opinion": 50,
+    "liens": [
+      "compagnon"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "murtagh-fraser",
+    "cible_id": "angus-mhor",
+    "opinion": 35,
+    "liens": [
+      "compagnon"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "angus-mhor",
+    "cible_id": "murtagh-fraser",
+    "opinion": 45,
+    "liens": [
+      "compagnon"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "claire-randall",
+    "cible_id": "jamie-fraser",
+    "opinion": 35,
+    "liens": [
+      "connaissance"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "jamie-fraser",
+    "cible_id": "claire-randall",
+    "opinion": 40,
+    "liens": [
+      "connaissance"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "claire-randall",
+    "cible_id": "mrs-fitz",
+    "opinion": 45,
+    "liens": [
+      "accueil"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "mrs-fitz",
+    "cible_id": "claire-randall",
+    "opinion": 40,
+    "liens": [
+      "accueil"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "claire-randall",
+    "cible_id": "colum-mackenzie",
+    "opinion": 10,
+    "liens": [
+      "hospitalite-surveillee"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "colum-mackenzie",
+    "cible_id": "claire-randall",
+    "opinion": 5,
+    "liens": [
+      "hospitalite-surveillee"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "claire-randall",
+    "cible_id": "dougal-mackenzie",
+    "opinion": 0,
+    "liens": [
+      "connaissance"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "dougal-mackenzie",
+    "cible_id": "claire-randall",
+    "opinion": 5,
+    "liens": [
+      "connaissance"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "mairi-macleod",
+    "cible_id": "finlay-ross",
+    "opinion": 55,
+    "liens": [
+      "collaborateur",
+      "hebergement-et-ecuries"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "finlay-ross",
+    "cible_id": "mairi-macleod",
+    "opinion": 60,
+    "liens": [
+      "collaborateur",
+      "hebergement-et-ecuries"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "mairi-macleod",
+    "cible_id": "alasdair-cameron",
+    "opinion": 45,
+    "liens": [
+      "relation-professionnelle"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "alasdair-cameron",
+    "cible_id": "mairi-macleod",
+    "opinion": 45,
+    "liens": [
+      "relation-professionnelle"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "finlay-ross",
+    "cible_id": "alasdair-cameron",
+    "opinion": 60,
+    "liens": [
+      "relation-professionnelle",
+      "soins-des-chevaux"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "alasdair-cameron",
+    "cible_id": "finlay-ross",
+    "opinion": 55,
+    "liens": [
+      "relation-professionnelle",
+      "soins-des-chevaux"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "mairi-macleod",
+    "cible_id": "elspeth-munro",
+    "opinion": 50,
+    "liens": [
+      "relation-professionnelle"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "elspeth-munro",
+    "cible_id": "mairi-macleod",
+    "opinion": 45,
+    "liens": [
+      "relation-professionnelle"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "ewan-macrae",
+    "cible_id": "elspeth-munro",
+    "opinion": 35,
+    "liens": [
+      "voisinage",
+      "aide-aux-habitants"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "elspeth-munro",
+    "cible_id": "ewan-macrae",
+    "opinion": 35,
+    "liens": [
+      "voisinage",
+      "aide-aux-habitants"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "ewan-macrae",
+    "cible_id": "robert-ainslie",
+    "opinion": 35,
+    "liens": [
+      "interlocuteur-local"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "robert-ainslie",
+    "cible_id": "ewan-macrae",
+    "opinion": 35,
+    "liens": [
+      "interlocuteur-local"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "robert-ainslie",
+    "cible_id": "william-forbes",
+    "opinion": 40,
+    "liens": [
+      "interlocuteur-local"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "william-forbes",
+    "cible_id": "robert-ainslie",
+    "opinion": 45,
+    "liens": [
+      "interlocuteur-local"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "robert-ainslie",
+    "cible_id": "mairi-macleod",
+    "opinion": 25,
+    "liens": [
+      "interlocuteur-local"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "mairi-macleod",
+    "cible_id": "robert-ainslie",
+    "opinion": 20,
+    "liens": [
+      "interlocuteur-local"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "william-forbes",
+    "cible_id": "alasdair-cameron",
+    "opinion": 40,
+    "liens": [
+      "relation-professionnelle"
+    ],
+    "connue_du_joueur": false
+  },
+  {
+    "source_id": "alasdair-cameron",
+    "cible_id": "william-forbes",
+    "opinion": 40,
+    "liens": [
+      "relation-professionnelle"
+    ],
+    "connue_du_joueur": false
+  }
+]

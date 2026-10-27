@@ -1,0 +1,91 @@
+{
+ "quoi": "Ce que j'attends de quelqu'un, et ce que quelqu'un attend de moi. Le plan compte des PAS ; ceci compte des GENS qui n'ont pas répondu, et depuis quand. Ce n'est pas la même chose et cela ne se calcule pas.",
+ "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme.",
+ "j_attends": [
+  {
+   "de": "mael-orsan",
+   "quoi": "Copie du protocole du Collège, en deux pièces s'il est coupé en deux — celle qui fait consentir et celle qui amorcerait —, ou celle qu'on lui remet et le nom de l'autre.",
+   "demande_le": "1.1.1",
+   "pour_quoi_faire": "Le mécanisme, jamais la conclusion. Je ne sais annuler que ce que je comprends et je ne comprends pas l'Esprit.",
+   "promis": "avant son départ, non à son retour",
+   "relancer_si_rien_le": "1.1.3"
+  },
+  {
+   "de": "mael-orsan",
+   "quoi": "Ce que la Ligue répond sur le SIGNE : par quel signe on établit qu'un voyageur est engagé, et ce signe est-il relevable par un des nôtres.",
+   "demande_le": "1.1.1",
+   "pour_quoi_faire": "C'est la même serrure que la mienne. S'il n'existe aucun signe relevable, son verrou 1 ne s'ouvrira jamais que sur une parole et il faut l'écrire ainsi.",
+   "promis": "il me l'apporte, sans date",
+   "relancer_si_rien_le": "a son retour, ou par la route au 1.1.5"
+  },
+  {
+   "de": "sevran-orme",
+   "quoi": "Le rapport clos, même vide, avec sa page de devant — et que cette page dise QUELLE OPÉRATION a été éprouvée (Transmettre), non seulement quelle face.",
+   "demande_le": "1.1.1",
+   "pour_quoi_faire": "Sans cette ligne, on lira un jour son silence sur le prélèvement comme une absence de risque.",
+   "promis": "le rapport, oui. La ligne d'opération : demandée ce soir, pas encore accordée.",
+   "relancer_si_rien_le": "1.1.4"
+  },
+  {
+   "de": "ariane-veille",
+   "quoi": "Rien qu'elle m'ait promis. Je lui ai écrit le matin sans qu'elle m'ait rien demandé.",
+   "demande_le": "1.1.1",
+   "pour_quoi_faire": "Je ne relance pas : elle vient d'échouer un essai et ma lettre est devenue une pièce de son affaire. Si elle se tait, c'est une réponse.",
+   "promis": "rien",
+   "relancer_si_rien_le": "ne pas relancer"
+  },
+  {
+   "de": "nolis-ferre (greffier de Haute-Preuve, jamais vu)",
+   "quoi": "Les quatre visites prises dans ma forme — meme heure, meme main, ce qu on observe et jamais ce qu on en conclut, le refus d etre vue note comme observation.",
+   "demande_le": "1.1.1",
+   "pour_quoi_faire": "Ma fiche est chez lui ce soir. Je ne l ai pas choisi, je ne le connais pas, et une fiche vaut la main qui la tient.",
+   "promis": "Orme dit qu elle est prise telle quelle.",
+   "relancer_si_rien_le": "ne pas relancer — je n ai aucun titre sur lui. Le rapport dira ce qu il en a fait."
+  },
+  {
+   "de": "naim-des-seuils",
+   "quoi": "Ce que son registre de service neuf donnera aux prochaines ouvertures — noms des tenants, heures, glyphes — et s'il borne d'avance ce que repondent les deux tenants interroges separement.",
+   "demande_le": "1.1.1",
+   "pour_quoi_faire": "C'est la seule voie qui puisse etablir ou ecarter que nous soyons venus par un seuil. Son registre etait vide le 1.1.1 : premiere ligne, non tenu, personne n'a ecrit.",
+   "promis": "rien de date ; il l'a ouvert de lui-meme",
+   "relancer_si_rien_le": "1.1.5"
+  }
+ ],
+ "on_attend_de_moi": [
+  {
+   "qui": "mael-orsan",
+   "quoi": "Le compte du chapitre, intervenant par intervenant, avec le trou nommé si l'un manque — et une colonne de plus : la part de continuité que le relevé de desserte peut faire passer de parole en pièce, déclarée comme estimation.",
+   "du_le": "1.1.3",
+   "ou": "au registre à la date dite, puis porté à Haute-Preuve à son nom s'il est en route",
+   "ne_pas": "l'arranger pour qu'il voyage mieux. Vilain s'il est vilain."
+  },
+  {
+   "qui": "mael-orsan",
+   "quoi": "Un RELECTEUR DES PIÈCES : quelqu'un du Corps qui n'a rien écrit dans l'affaire, qui sache lire des pièces, et qui consente à faire la route. Son nom ET sa réponse, refus compris.",
+   "du_le": "avant le 1.1.12, et chaque jour perdu réduit le vivier",
+   "ou": "par billet",
+   "ne_pas": "ordonner, ni promettre son nom avant qu'il ait dit oui lui-même. Ni inventer un nom pour remplir la case — ce soir je n'en ai aucun, et c'est une réponse."
+  },
+  {
+   "qui": "mael-orsan",
+   "quoi": "Un VEILLEUR pour les jours qui suivent l'épreuve — et il doit voir le sujet AVANT, sinon ce ne sont pas quatre relevés mais trois visites.",
+   "du_le": "avant le 1.1.12",
+   "ou": "par billet ; la fiche des six champs est déjà au registre, qu'il y ait un homme ou non",
+   "ne_pas": "chercher un veilleur après l'épreuve — ce serait chercher le témoin d'une chose déjà passée."
+  },
+  {
+   "qui": "mon chapitre",
+   "quoi": "Tenir la garde et trancher tout ce qui relève du chapitre sans écrire au précepteur ; rendre compte au passé à son retour. Sa consigne appliquée, et amendée sous mon nom si un fait la contredit.",
+   "du_le": "tant qu'il est sur la route",
+   "ou": "au registre",
+   "ne_pas": "engager le Corps envers une autre maison par écrit. Sa signature, ses conséquences."
+  },
+  {
+   "qui": "mael-orsan",
+   "quoi": "DEUX AMENDEMENTS ecrits sous mon nom au registre, a porter au compte : (1) une allegation de particulier ouvre une EVACUATION et non une abstention, une allegation vague etant une categorie qui ne produit rien ; (2) corrige le meme soir par la Ligue -- une evacuation est une INTERVENTION, pas un prealable : conduite par la main de l'ouvrage, aucun trace franchi, on mene au tenant et non a lui, les deux bouts prevenus.",
+   "du_le": "au 3e jour, avec le compte — non ce soir",
+   "ou": "a mon registre, puis dans le compte qui part vers Haute-Preuve",
+   "ne_pas": "Lui ecrire un billet de plus la veille de son depart pour une chose qui ne change pas sa route d un pas. Et ne jamais porter le premier amendement sans le second : seul, il deplace le danger de la coupe vers le sauvetage."
+  }
+ ]
+}

@@ -16,10 +16,12 @@ import json
 import os
 import re
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.abspath(__file__))))
+import racines
 
-FLUX = os.path.join(RACINE, "etat", "flux.jsonl")
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+
+FLUX = os.path.join(ETAT, "flux.jsonl")
 FIL_MAX = 8
 TEXTE_FIL_MAX = 220
 LIGNES_MAX = 3      # le reste est pointe, pas recopie dans le reveil
@@ -95,7 +97,7 @@ def matiere_du_message(personnage, actions=None):
 
 
 def _actions_en_attente(personnage):
-    dossier = os.path.join(RACINE, "etat", "inbox", personnage)
+    dossier = os.path.join(ETAT, "inbox", personnage)
     actions = []
     if not os.path.isdir(dossier):
         return actions
@@ -197,7 +199,7 @@ def brief_message_joueur(personnage, refs=None):
         actions = [(chemin, action) for chemin, action in actions
                    if str(action.get("ref") or "") in refs]
     visibles = _items_visibles_du_flux(personnage)
-    inbox = os.path.abspath(os.path.join(RACINE, "etat", "inbox", personnage))
+    inbox = os.path.abspath(os.path.join(ETAT, "inbox", personnage))
     out = [u"== BRIEF MESSAGE JOUEUR — %s" % personnage,
            u"INBOX CANONIQUE : %s" % inbox]
     if not actions:
@@ -210,6 +212,9 @@ def brief_message_joueur(personnage, refs=None):
                 action.get("mode") or action.get("type") or "—",
                 action.get("recu_a") or "—"))
             out.append(u"    TEXTE EXACT : %s" % str(action.get("texte") or ""))
+            if action.get("destinataire_id"):
+                out.append(u"    ADRESSE A UNE SEULE PERSONNE : %s" %
+                           str(action["destinataire_id"]))
             out.append(u"    DANS LE FLUX : %s" % (
                 "L%d" % ligne_flux if ligne_flux else
                 "INTROUVABLE — l'inbox est la source de cette action"))

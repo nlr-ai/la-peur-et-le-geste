@@ -1,0 +1,50 @@
+[
+  {
+    "id": "infection",
+    "nom": "Auto-immunité / maladie",
+    "maison_id": null,
+    "titre": "Rôle scientifique joueur",
+    "traits": [
+      "rigoureux",
+      "critique"
+    ],
+    "objectifs": [
+      {
+        "but": "Examiner les explications documentées de persistance ou de reprise de l’activité auto-immune et les observations qui permettraient de les contredire.",
+        "priorite": 1
+      },
+      {
+        "but": "Réviser son modèle selon les preuves et expliciter les inconnues.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Formule une proposition précise, ses sources et ses limites.",
+    "etat": "actif",
+    "lieu_id": "table-des-preuves",
+    "condition": "libre"
+  },
+  {
+    "id": "immunite",
+    "nom": "Régulation immunitaire",
+    "maison_id": null,
+    "titre": "Rôle scientifique joueur",
+    "traits": [
+      "rigoureux",
+      "critique"
+    ],
+    "objectifs": [
+      {
+        "but": "Examiner les explications documentées de rémission durable et les limites des arguments reliant reconstitution immunitaire et rechute.",
+        "priorite": 1
+      },
+      {
+        "but": "Réviser son modèle selon les preuves et expliciter les inconnues.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Formule une proposition précise, ses sources et ses limites.",
+    "etat": "actif",
+    "lieu_id": "table-des-preuves",
+    "condition": "libre"
+  }
+]

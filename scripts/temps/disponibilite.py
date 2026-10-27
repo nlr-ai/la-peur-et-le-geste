@@ -37,8 +37,21 @@ import sys
 import collections
 import unicodedata
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ETAT = os.path.join(RACINE, "etat")
+import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
+_d = _os.path.dirname(_os.path.abspath(__file__))
+while _os.path.basename(_d) != "scripts" and _os.path.dirname(_d) != _d:
+    _d = _os.path.dirname(_d)
+for _p in (_d, _os.path.join(_d, "noyau")):
+    if _p not in _sys.path:
+        _sys.path.insert(0, _p)
+
+import racines
+
+# `RACINE` reste exposee pour `disponibilite_regie`, qui s'en sert a rendre un
+# chemin LISIBLE (`os.path.relpath`) : c'est le DEPOT qu'il lui faut. Seul
+# `ETAT` suit le monde.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 TISSU = os.path.join(ETAT, "tissu")
 
 from etat.expose import tables  # noqa: E402 — LA PORTE de etat/
@@ -354,9 +367,6 @@ def portees(dire):
             dire("    [{:<10}] {}".format(x["type"][:10], x["sujet"][:62]))
             dire("       {}".format(x["pourquoi"][:70]))
     return plans
-
-
-
 
 
 # La force narrative, la feuille de la regie et le main vivent dans

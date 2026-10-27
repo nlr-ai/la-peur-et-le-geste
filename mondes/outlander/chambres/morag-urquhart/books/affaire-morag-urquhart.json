@@ -1,0 +1,98 @@
+{
+  "id": "affaire-morag-urquhart",
+  "titre": "Les affaires de Morag Urquhart",
+  "sous_titre": "Cahier stratégique personnel — ouvrage, paiement et créances",
+  "type": "affaire",
+  "tenu_par": "morag-urquhart",
+  "acteur_id": "morag-urquhart",
+  "prive": true,
+  "pages": [
+    "Cahier technique de simulation : il ne prouve pas l'existence d'un carnet matériel. Les ajouts peints fixent seulement mon implantation initiale ; ils ne valent ni commande reçue ni travail accompli. Les références C.1, V.1, K.1 et P.1 sont locales."
+  ],
+  "tables": [
+    {
+      "titre": "Ouverture",
+      "colonnes": ["Champ", "Contenu"],
+      "lignes": [
+        {"cellules": ["Porteur", "morag-urquhart"]},
+        {"cellules": ["Périmètre", "Mes réparations, mes ouvrages, leur règlement et les créances qui pourraient en naître."]},
+        {"cellules": ["État de préparation", "Implantation minimale peinte le 1743.5.4 ; clientèle, atelier, commandes et créances restent inconnus."]},
+        {"cellules": ["Registre compagnon", "registre-etats-morag-urquhart"]}
+      ]
+    },
+    {
+      "titre": "Dimensions à peindre",
+      "colonnes": ["Catégorie", "Ce que je pose", "Statut", "Source ou provenance", "Renvois"],
+      "lignes": [
+        {"cellules": ["fins-et-doctrine", "Vivre des réparations et ouvrages ; annoncer le prix après examen et éviter les créances sans terme.", "établi", "personnages.json et intentions.json", "C.1"]},
+        {"cellules": ["personnes-et-relations", "Aucune clientèle, dette ni relation de métier n'est encore établie.", "inconnu", "état initial", "V.1"]},
+        {"cellules": ["pouvoir-et-acces", "Je ne dispose d'aucun droit sur l'auberge ni sur les marchés conclus par Mairi.", "établi", "canon/habitants-inverness.md et scène à 18h47", ""]},
+        {"cellules": ["moyens-materiels", "Une trousse de travail portative pour réparations menues ; pas d'étoffe suffisante pour tailler un vêtement.", "peint", "implantation ordinaire d'une couturière itinérant dans le bourg", "outil-morag-trousse-portative"]},
+        {"cellules": ["savoirs-et-secrets", "Je connais la couture pratiquée dans mon milieu ; les profils et possessions d'Aurore et Nicolas me sont inconnus.", "établi", "intentions.json", ""]},
+        {"cellules": ["engagements-et-temps", "Aucune commande ni échéance n'est établie.", "inconnu", "état initial", "V.1"]},
+        {"cellules": ["strategie-et-alternatives", "Examiner avant de promettre ; demander paiement à remise, ou fixer explicitement objet, somme et terme si un crédit est nécessaire.", "peint", "objectif et traits de Morag", "K.1"]},
+        {"cellules": ["zones-a-peindre", "Lieu de travail propre, clientèle, prix usuels, stocks et créances antérieures.", "inconnu", "trous de préparation", ""]}
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": ["N°", "L'état visé", "Ce qui doit être vrai", "La preuve", "Jour dû", "Importance"],
+      "lignes": [
+        {"cellules": ["C.1", "Un ouvrage payé sans dette flottante", "Une réparation réellement demandée est examinée, chiffrée, exécutée et réglée selon l'accord.", "Commande, travail et règlement effectivement joués.", "", "haute"]}
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": ["N°", "Le verrou", "Bloque", "La preuve"],
+      "lignes": [
+        {"cellules": ["V.1", "Aucune commande ni cliente n'est actuellement établie.", "C.1", "Une demande réelle portant sur une pièce accessible."]}
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": ["N°", "La clef", "Ouvre", "Prix et limites"],
+      "lignes": [
+        {"cellules": ["K.1", "Proposer des réparations seulement après examen de la pièce et convenir du règlement avant l'ouvrage.", "V.1", "Dépend d'une demande d'autrui ; la trousse ne suffit qu'aux réparations menues."]}
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": ["N°", "L'action", "Réalise", "Dépend de", "Qui", "Où", "La preuve", "État", "Jour dû", "Jour fait", "Note"],
+      "lignes": []
+    },
+    {
+      "titre": "Stratégie et alternatives",
+      "colonnes": ["Fin", "Approche", "Pourquoi", "Alternative", "Changer si", "Moyens engagés"],
+      "lignes": [
+        {"cellules": ["C.1", "Offrir examen et prix borné avant chaque réparation.", "Le défaut se voit avant que matière, temps et paiement ne soient promis.", "Refuser ou différer si la pièce, la matière ou le terme manque.", "La réparation dépasse la trousse ou le règlement reste vague.", "Compétence propre et trousse portative seulement."]}
+      ]
+    },
+    {
+      "titre": "Moyens disponibles",
+      "colonnes": ["Référence", "Nature", "Accès réel", "Quantité ou portée", "Limites", "Provenance"],
+      "lignes": [
+        {"cellules": ["outil-morag-trousse-portative", "Outils de couture portatifs", "Portés par Morag", "Réparations menues seulement", "Aucun métrage d'étoffe ni fourniture pour un vêtement complet", "Peint le 1743.5.4 ; voir registre compagnon"]}
+      ]
+    },
+    {
+      "titre": "Trous de préparation",
+      "colonnes": ["Trou", "Catégorie", "Ce qui en dépend", "Traitement", "Qui", "Échéance", "État", "Résultat"],
+      "lignes": [
+        {"cellules": ["Atelier ou lieu de travail propre", "pouvoir-et-acces", "Capacité d'accepter un ouvrage long", "Définir sans présumer d'un bail ni d'un droit chez autrui", "morag-urquhart", "", "ouvert", ""]},
+        {"cellules": ["Commandes et créances antérieures", "engagements-et-temps", "Charge réelle et revenus attendus", "Chercher dans une source ou établir l'absence ; ne pas inventer de débiteur", "morag-urquhart", "", "ouvert", ""]}
+      ]
+    },
+    {
+      "titre": "Connaissances et croyances",
+      "colonnes": ["Sujet", "Ce que je crois", "Source reçue", "Ce que j'ignore", "Référence de réalité"],
+      "lignes": [
+        {"cellules": ["Aurore et Nicolas", "Aurore vient de déclarer qu'ils sont deux et demande une chambre et le souper pour une nuit contre leur service à la plonge.", "Parole directe d'Aurore, ref vmusfsin9tr4j", "Origines, lien, bagages, moyens et décision de Mairi", "fil/1743.5.4-salle.md"]}
+      ]
+    },
+    {
+      "titre": "Résultats et révisions",
+      "colonnes": ["Date", "Fait ou découverte", "Preuve", "Ce que je change", "Renvois"],
+      "lignes": []
+    }
+  ]
+}

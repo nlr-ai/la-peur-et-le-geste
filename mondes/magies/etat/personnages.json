@@ -1,0 +1,430 @@
+[
+ {
+  "id": "heloise-braise",
+  "nom": "Héloïse Braise",
+  "maison_id": "bastion",
+  "titre": "Maîtresse des ouvrages ; ancienne pupille devenue responsable de la défense matérielle de la Maison.",
+  "traits": [
+   "inventive",
+   "protectrice",
+   "obstinee"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire du Bastion un refuge assez vaste pour accueillir aussi ceux qui ne pourront jamais rembourser leur protection.",
+    "priorite": 1
+   },
+   {
+    "but": "Préserver des issues utilisables même lorsque défendre les murs devient impossible.",
+    "priorite": 2
+   }
+  ],
+  "portrait": {
+   "physique": "Manteau blanc couvert de poussière noire, cheveux ras, anneaux de cuivre aux doigts. Elle dessine ses figures au charbon avec la précision d’une architecte. Elle connaît les cuisines aussi bien que les remparts."
+  },
+  "etat": "actif",
+  "lieu_id": "bastion-couronne",
+  "maniere": "Parle avec précision des ouvrages et de leurs usages ; des phrases franches, des moyens concrets.",
+  "condition": "libre"
+ },
+ {
+  "id": "naim-des-seuils",
+  "nom": "Naïm des Seuils",
+  "maison_id": "ligue-des-passages",
+  "titre": "Coordinateur des liaisons d’urgence, sans autorité automatique sur les stations qui les tiennent.",
+  "traits": [
+   "tenace",
+   "negociateur",
+   "solidaire"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire reconnaître un droit de passage d’urgence indépendant de la richesse et de l’origine des voyageurs.",
+    "priorite": 1
+   },
+   {
+    "but": "Préparer une évacuation qui ne dépende pas d’une seule destination.",
+    "priorite": 2
+   }
+  ],
+  "portrait": {
+   "physique": "Long manteau bleu dont la doublure porte les plans des stations ; gants brodés de figures géométriques. Il garde une clef ordinaire de chaque chambre où quelqu’un l’a hébergé."
+  },
+  "etat": "actif",
+  "lieu_id": "bastion-couronne",
+  "maniere": "Demande une destination, une équipe et un accord ; distingue les promesses des liaisons disponibles.",
+  "condition": "libre"
+ },
+ {
+  "id": "ariane-veille",
+  "nom": "Ariane Veille",
+  "maison_id": "college-des-preuves",
+  "titre": "Enquêtrice de terrain et rapporteuse des affaires où les témoignages paraissent irréconciliables.",
+  "traits": [
+   "rigoureuse",
+   "independante",
+   "obstinee"
+  ],
+  "objectifs": [
+   {
+    "but": "Établir ce qui peut l'être des Non-Vivants par recoupement, et écrire noir sur blanc ce qui ne peut pas l'être — la seconde moitié autant que la première.",
+    "priorite": 1
+   },
+   {
+    "but": "Obtenir que le Collège tienne le registre des vécus de ses praticiens, pour qu'on sache d'avance quelles mémoires il peut atteindre et lesquelles lui sont fermées.",
+    "priorite": 1
+   },
+   {
+    "but": "Clore ses affaires sans jamais engager la référence qu'elle ne peut pas montrer.",
+    "priorite": 2
+   },
+   {
+    "but": "Faire inscrire dans la règle du Collège qu'aucune information d'esprit ne vaut preuve à elle seule.",
+    "priorite": 3
+   }
+  ],
+  "portrait": {
+   "physique": "Habit sombre, boutons de nacre, carnet tenu à l’envers lorsqu’elle réfléchit. Elle demande toujours à ses interlocuteurs où ils se tenaient, même au cours d’un dîner."
+  },
+  "etat": "actif",
+  "lieu_id": "bastion-couronne",
+  "maniere": "Sépare observations, témoignages et hypothèses ; demande où se tenait chaque témoin.",
+  "condition": "libre"
+ },
+ {
+  "id": "malo-veyre",
+  "nom": "Malo Veyre",
+  "maison_id": "communion-des-recits",
+  "titre": "Initiateur itinérant et metteur en scène des grandes assemblées ; il n’en possède pas le commandement officiel.",
+  "traits": [
+   "empathique",
+   "creatif",
+   "idealiste"
+  ],
+  "objectifs": [
+   {
+    "but": "Permettre aux personnes éprouvées d’imaginer et de construire un avenir commun.",
+    "priorite": 1
+   },
+   {
+    "but": "Faire de l’entraide une pratique commune sans exiger l’adhésion à ses cercles.",
+    "priorite": 2
+   }
+  ],
+  "portrait": {
+   "physique": "Veste de scène rapiécée avec les couleurs des cercles visités ; fioles de verre ambré à la ceinture. Hors cérémonie, il parle bas et laisse de longues pauses."
+  },
+  "etat": "actif",
+  "lieu_id": "bastion-couronne",
+  "maniere": "Parle bas hors cérémonie, laisse des pauses ; cherche ce qui est réellement partagé.",
+  "condition": "libre"
+ },
+ {
+  "id": "soeur-cendre",
+  "nom": "Sœur Cendre",
+  "maison_id": "corps-de-resolution",
+  "titre": "Responsable d’un chapitre d’intervention ; le titre de Sœur appartient à l’Ordre et n’établit aucune religion particulière.",
+  "traits": [
+   "methodique",
+   "resolue",
+   "prudente"
+  ],
+  "objectifs": [
+   {
+    "but": "Empêcher qu’une puissance magique impose qu’elle ne puisse plus être arrêtée.",
+    "priorite": 1
+   },
+   {
+    "but": "Préparer la continuité des fonctions vitales avant toute annulation.",
+    "priorite": 2
+   }
+  ],
+  "portrait": {
+   "physique": "Manteau gris à fermoirs de céramique, doigts tachés d’encres de diagnostic. Elle déroule sur les lieux des feuilles couvertes de schémas, lestées avec des pierres ordinaires."
+  },
+  "etat": "actif",
+  "lieu_id": "bastion-couronne",
+  "maniere": "Nomme le mécanisme et les conséquences de son arrêt ; formule des diagnostics précis.",
+  "condition": "libre"
+ },
+ {
+  "id": "vesper-ronce",
+  "nom": "Vesper Ronce",
+  "maison_id": "federation-insaisissable",
+  "titre": "Coordinatrice de refuges sous mandat révocable ; ancienne pupille d’une Maison de tutelle.",
+  "traits": [
+   "independante",
+   "prevoyante",
+   "audacieuse"
+  ],
+  "objectifs": [
+   {
+    "but": "Permettre de quitter une institution puissante sans perdre tout moyen de vivre.",
+    "priorite": 1
+   },
+   {
+    "but": "Obtenir des refuges de secours dont les habitants consentent réellement à l’accueil.",
+    "priorite": 2
+   }
+  ],
+  "portrait": {
+   "physique": "Manteau réversible rouge et gris, chaussures soigneusement réparées, valise de fioles et de plans pliés. Elle mémorise les noms des personnes avant ceux des stations."
+  },
+  "etat": "actif",
+  "lieu_id": "havre-des-lisieres",
+  "maniere": "Commence par les personnes accueillies et leurs choix ; refuse les engagements sans responsables.",
+  "condition": "libre"
+ },
+ {
+  "id": "yselde-arquen",
+  "nom": "Yselde Arquen",
+  "maison_id": "bastion",
+  "titre": "cheffe de la Maison, responsable de ses engagements et de l’affectation de ses moyens.",
+  "traits": [
+   "protectrice",
+   "ambitieuse",
+   "possessive"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire du Bastion une protection humaine assez désirable pour concurrencer les superviseurs de Non-Vivants.",
+    "priorite": 1
+   },
+   {
+    "but": "Rendre les refuges de quartier capables de fonctionner après la perte du commandement.",
+    "priorite": 2
+   }
+  ],
+  "portrait": {
+   "physique": "Grande femme aux cheveux gris tressés contre le crâne, manteau de laine sombre dont les attaches sont réparées avec du fil blanc. Elle tourne une petite pièce de céramique entre ses doigts lorsqu’elle écoute. Elle reçoit debout dans les réserves aussi volontiers que dans la salle du conseil."
+  },
+  "etat": "actif",
+  "lieu_id": "bastion-couronne",
+  "maniere": "Parler selon sa présence et son caractère décrits dans sa fiche ; distinguer engagements, moyens et limites de son mandat.",
+  "condition": "libre"
+ },
+ {
+  "id": "oren-sangle",
+  "nom": "Oren Sangle",
+  "maison_id": "ligue-des-passages",
+  "titre": "président du conseil fédéral des stations.",
+  "traits": [
+   "precis",
+   "negociateur",
+   "pragmatique"
+  ],
+  "objectifs": [
+   {
+    "but": "Rendre la Ligue indispensable à la traversée de la catastrophe tout en donnant un poids aux petites stations.",
+    "priorite": 1
+   },
+   {
+    "but": "Préparer des itinéraires alternatifs avec des équipes et des accueils réellement consentis.",
+    "priorite": 2
+   }
+  ],
+  "portrait": {
+   "physique": "Veste courte couleur d’argile, coudes blanchis par la craie, longue écharpe repliée pour ne jamais toucher les figures au sol. Il déroule les cartes dans le sens de son interlocuteur et se penche pour les lire à l’envers."
+  },
+  "etat": "actif",
+  "lieu_id": "sept-seuils",
+  "maniere": "Parler selon sa présence et son caractère décrits dans sa fiche ; distinguer engagements, moyens et limites de son mandat.",
+  "condition": "libre"
+ },
+ {
+  "id": "sevran-orme",
+  "nom": "Sévran Orme",
+  "maison_id": "college-des-preuves",
+  "titre": "premier rapporteur, chargé de coordonner la direction collégiale sous mandat limité.",
+  "traits": [
+   "rigoureux",
+   "prudent",
+   "ambitieux"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire des preuves partageables du Collège la référence des décisions de survie.",
+    "priorite": 1
+   },
+   {
+    "but": "Conserver les provenances et publier les divergences sans transformer une hypothèse en verdict.",
+    "priorite": 2
+   }
+  ],
+  "portrait": {
+   "physique": "Cheveux blancs courts, doigts tachés de cire, robe de travail brune portée sur des vêtements soigneusement raccommodés. Il conserve les étiquettes barrées au dos des nouvelles au lieu de les jeter."
+  },
+  "etat": "actif",
+  "lieu_id": "haute-preuve",
+  "maniere": "Parler selon sa présence et son caractère décrits dans sa fiche ; distinguer engagements, moyens et limites de son mandat.",
+  "condition": "libre"
+ },
+ {
+  "id": "talie-sorne",
+  "nom": "Talie Sorne",
+  "maison_id": "communion-des-recits",
+  "titre": "porte-parole des assemblées communes et coordinatrice des œuvres partagées.",
+  "traits": [
+   "federatrice",
+   "artisane",
+   "influente"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire de la Communion une puissance capable de bâtir sans réclamer la tutelle des personnes.",
+    "priorite": 1
+   },
+   {
+    "but": "Faire durer des œuvres et des responsabilités matérielles après la ferveur des assemblées.",
+    "priorite": 2
+   }
+  ],
+  "portrait": {
+   "physique": "Cheveux noués dans une étoffe verte, bottes usées et manteau doublé de morceaux de toiles offertes par des ateliers. Elle enlève ses bijoux avant de travailler la matière ou de danser."
+  },
+  "etat": "actif",
+  "lieu_id": "aube-commune",
+  "maniere": "Parler selon sa présence et son caractère décrits dans sa fiche ; distinguer engagements, moyens et limites de son mandat.",
+  "condition": "libre"
+ },
+ {
+  "id": "mael-orsan",
+  "nom": "Maël Orsan",
+  "maison_id": "corps-de-resolution",
+  "titre": "premier précepteur, chargé de la direction générale des chapitres.",
+  "traits": [
+   "methodique",
+   "calme",
+   "prudent"
+  ],
+  "objectifs": [
+   {
+    "but": "Empêcher une organisation de rendre son pouvoir inarrêtable par les dépendances humaines qu’elle installe.",
+    "priorite": 1
+   },
+   {
+    "but": "Préparer des solutions de remplacement avant toute cessation d’une infrastructure vitale.",
+    "priorite": 2
+   }
+  ],
+  "portrait": {
+   "physique": "Homme massif à la barbe courte, veste grise toujours fermée, manche droite rapiécée d’un tissu plus clair. Il dessine les dépendances d’une installation sur les nappes et les retourne avant que ses hôtes ne voient le résultat."
+  },
+  "etat": "actif",
+  "lieu_id": "chapitre-du-seuil",
+  "maniere": "Parler selon sa présence et son caractère décrits dans sa fiche ; distinguer engagements, moyens et limites de son mandat.",
+  "condition": "libre"
+ },
+ {
+  "id": "eline-vare",
+  "nom": "Éline Vare",
+  "maison_id": "federation-insaisissable",
+  "titre": "mandataire générale des refuges pour les réserves communes et les engagements extérieurs.",
+  "traits": [
+   "solidaire",
+   "pragmatique",
+   "independante"
+  ],
+  "objectifs": [
+   {
+    "but": "Garantir la possibilité matérielle de quitter une puissance sans que la Fédération devienne une nouvelle tutelle.",
+    "priorite": 1
+   },
+   {
+    "but": "Rendre les refuges capables de continuer après le départ de leur fondateur.",
+    "priorite": 2
+   }
+  ],
+  "portrait": {
+   "physique": "Petite femme aux longues mèches sombres striées de blanc, tablier de voyage cousu de poches plates, bague de bois dont elle vérifie le jeu sur son doigt. Ses lettres distinguent toujours ce qu’elle demande, ce qu’elle promet et ce qu’elle ignore."
+  },
+  "etat": "actif",
+  "lieu_id": "havre-des-lisieres",
+  "maniere": "Parler selon sa présence et son caractère décrits dans sa fiche ; distinguer engagements, moyens et limites de son mandat.",
+  "condition": "libre"
+ },
+ {
+  "id": "soren-dalle",
+  "nom": "Soren Dalle",
+  "maison_id": "atelier-soren",
+  "titre": "Réparateur retourné ; superviseur d’un jeune Architecte aveugle.",
+  "traits": [
+   "ambitieux",
+   "artisan",
+   "possessif"
+  ],
+  "objectifs": [
+   {
+    "but": "Bâtir une puissance territoriale puis militaire où ceux qui savent réparer décident.",
+    "priorite": 1
+   },
+   {
+    "but": "Rendre habitable une partie du milieu transformé par son Architecte, avec des moyens vérifiés.",
+    "priorite": 2
+   }
+  ],
+  "portrait": {
+   "physique": "Ancien réparateur formé dans une école publique de Matière. Manteau court poussiéreux, étalons rangés dans des poches cousues à la main. Il touche les montants en entrant et demande qui répare les machines avant de demander qui les possède."
+  },
+  "etat": "actif",
+  "lieu_id": "nv-forges-reprises",
+  "maniere": "Distinguer les faits observés, les moyens possédés et les engagements négociés ; suivre sa fiche personnelle.",
+  "condition": "libre"
+ },
+ {
+  "id": "daria-vanne",
+  "nom": "Daria Vanne",
+  "maison_id": "relais-cour-basse",
+  "titre": "Gestionnaire retournée du relais de la Cour basse ; superviseuse d’une Couvée.",
+  "traits": [
+   "ambitieuse",
+   "protectrice",
+   "autoritaire"
+  ],
+  "objectifs": [
+   {
+    "but": "Fédérer des refuges sous une autorité qu’elle dirigerait, avec contributions et force commune.",
+    "priorite": 1
+   },
+   {
+    "but": "Préserver simultanément ouvertures, approvisionnements et confiance autour de la Couvée.",
+    "priorite": 2
+   }
+  ],
+  "portrait": {
+   "physique": "Ancienne responsable de relève dans un corps de Protection, puis gestionnaire d’un relais. Elle porte un tablier renforcé, les paumes marquées par les manivelles et une étoffe rouge nouée au poignet pour signaler les manœuvres ordinaires."
+  },
+  "etat": "actif",
+  "lieu_id": "nv-cour-basse",
+  "maniere": "Distinguer les faits observés, les moyens possédés et les engagements négociés ; suivre sa fiche personnelle.",
+  "condition": "libre"
+ },
+ {
+  "id": "ilyan-sere",
+  "nom": "Ilyan Sere",
+  "maison_id": "atelier-ilyan",
+  "titre": "Devin retourné ; superviseur d’un Retour de regard et gardien de témoins matériels.",
+  "traits": [
+   "ambitieux",
+   "methodique",
+   "calculateur"
+  ],
+  "objectifs": [
+   {
+    "but": "Contrôler l’accès aux informations vérifiables dont dépendent les puissances.",
+    "priorite": 1
+   },
+   {
+    "but": "Développer des consultations utiles en recoupant les relevés et en conservant la provenance des témoins.",
+    "priorite": 2
+   }
+  ],
+  "portrait": {
+   "physique": "Ancien devin d’une mutuelle d’éveillés, chargé d’identifier les fragments et objets remis pour les recherches. Il porte de petites boîtes étiquetées à l’intérieur et garde les mains sèches avant de toucher un témoin matériel."
+  },
+  "etat": "actif",
+  "lieu_id": "bastion-couronne",
+  "maniere": "Distinguer les faits observés, les moyens possédés et les engagements négociés ; suivre sa fiche personnelle.",
+  "condition": "libre"
+ }
+]

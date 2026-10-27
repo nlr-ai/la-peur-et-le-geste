@@ -1,0 +1,66 @@
+Traceback (most recent call last):
+  File "C:\Users\reyno\le-conseil2\mondes\argent-intelligent\outils\sport_critic.py", line 143, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\reyno\le-conseil2\mondes\argent-intelligent\outils\sport_critic.py", line 126, in main
+    done = cycle()
+  File "C:\Users\reyno\le-conseil2\mondes\argent-intelligent\outils\sport_critic.py", line 84, in cycle
+    result = runtime.appeler('sport-critic', (WORLD / 'prompts/sport-critic.md').read_text(encoding='utf-8'),
+                             'Règles de la partie :\n' + manual + '\n\nHuit messages à analyser :\n' + brief,
+                             str(uuid.uuid4()), cwd=tempfile.mkdtemp(prefix='sport-critic-'),
+                             timeout=600, reprendre=False)
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 799, in appeler
+    resultat = _appel_codex(
+        manuel, message, session_id, modele, effort, timeout, cwd,
+        add_dirs, reprendre, environnement, on_event, on_stderr,
+        heartbeat, on_heartbeat, service_tier=service_tier,
+        recherche_web=bool(tools and "WebSearch" in tools))
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 671, in _appel_codex
+    rep = _normaliser_codex(evenements, modele, duree, logique, transcript)
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 594, in _normaliser_codex
+    raise RuntimeError(str(erreur)[:500])
+RuntimeError: {'message': 'exceeded retry limit, last status: 429 Too Many Requests'}
+Traceback (most recent call last):
+  File "C:\Users\reyno\le-conseil2\mondes\argent-intelligent\outils\sport_critic.py", line 143, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\reyno\le-conseil2\mondes\argent-intelligent\outils\sport_critic.py", line 126, in main
+    done = cycle()
+  File "C:\Users\reyno\le-conseil2\mondes\argent-intelligent\outils\sport_critic.py", line 84, in cycle
+    result = runtime.appeler('sport-critic', (WORLD / 'prompts/sport-critic.md').read_text(encoding='utf-8'),
+                             'Règles de la partie :\n' + manual + '\n\nHuit messages à analyser :\n' + brief,
+                             str(uuid.uuid4()), cwd=tempfile.mkdtemp(prefix='sport-critic-'),
+                             timeout=600, reprendre=False)
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 799, in appeler
+    resultat = _appel_codex(
+        manuel, message, session_id, modele, effort, timeout, cwd,
+        add_dirs, reprendre, environnement, on_event, on_stderr,
+        heartbeat, on_heartbeat, service_tier=service_tier,
+        recherche_web=bool(tools and "WebSearch" in tools))
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 671, in _appel_codex
+    rep = _normaliser_codex(evenements, modele, duree, logique, transcript)
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 594, in _normaliser_codex
+    raise RuntimeError(str(erreur)[:500])
+RuntimeError: {'message': 'exceeded retry limit, last status: 429 Too Many Requests'}
+Traceback (most recent call last):
+  File "C:\Users\reyno\le-conseil2\mondes\argent-intelligent\outils\sport_critic.py", line 143, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\reyno\le-conseil2\mondes\argent-intelligent\outils\sport_critic.py", line 126, in main
+    done = cycle()
+  File "C:\Users\reyno\le-conseil2\mondes\argent-intelligent\outils\sport_critic.py", line 84, in cycle
+    result = runtime.appeler('sport-critic', (WORLD / 'prompts/sport-critic.md').read_text(encoding='utf-8'),
+                             'Règles de la partie :\n' + manual + '\n\nHuit messages à analyser :\n' + brief,
+                             str(uuid.uuid4()), cwd=tempfile.mkdtemp(prefix='sport-critic-'),
+                             timeout=600, reprendre=False)
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 799, in appeler
+    resultat = _appel_codex(
+        manuel, message, session_id, modele, effort, timeout, cwd,
+        add_dirs, reprendre, environnement, on_event, on_stderr,
+        heartbeat, on_heartbeat, service_tier=service_tier,
+        recherche_web=bool(tools and "WebSearch" in tools))
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 671, in _appel_codex
+    rep = _normaliser_codex(evenements, modele, duree, logique, transcript)
+  File "C:\Users\reyno\le-conseil2\scripts\agents\runtime.py", line 594, in _normaliser_codex
+    raise RuntimeError(str(erreur)[:500])
+RuntimeError: {'message': 'exceeded retry limit, last status: 429 Too Many Requests'}

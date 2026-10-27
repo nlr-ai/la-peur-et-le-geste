@@ -47,11 +47,6 @@ connus, les faits vérifiés, puis les mots proposés. Préparer n'est pas envoy
 ce fichier est un cahier de brouillons, pas un canal, et rien de ce qu'il
 contient n'a encore été dit.
 
-Dans les modes `reponse` et `discussion`, consulte l'entrée qui correspond au
-destinataire, au contexte et à la ref. Elle sert de point de départ, jamais de
-preuve : revérifie les faits nécessaires avant de concevoir les mots du moment,
-puis respecte la règle d'envoi propre au mode demandé.
-
 ## Relier une action à ce qui s'est réellement produit
 
 Quand ton travail produit un fait inscrit dans `etat/actes.json` et que ce fait
@@ -60,6 +55,7 @@ vient d'une ligne `⚔️ Actions`, écris ensemble `action_id`, `affaire_id` et
 par `python scripts/ajouter.py actes ...` : la porte valide le lien et empêche
 les doublons. Ne ferme jamais une action pour fabriquer sa preuve ; l'acte est
 écrit parce que le fait a eu lieu, puis l'action peut être fermée.
+
 
 
 ---
@@ -181,6 +177,48 @@ charge —, mais posée en seconde colonne à côté de la case vide, elle me do
 deux heures en regard au lieu d'une seule à croire. Un rapporté qu'on refuse
 dans le compte peut encore garder la copie honnête. Ça ne coûte rien et ça ne
 salit aucune case.
+
+## Le 12e de la 5e lune, tard
+
+Je croyais qu'il suffisait de dire DE QUI est un compte pour le porter
+honnêtement. Ce soir j'ai porté la mesure de Wend sous son nom, en tête, et je
+l'ai quand même faussée : sept heures sur TROIS nuits des cinq sont devenues
+dans ma bouche sept heures sur cinq nuits, et sa conclusion — une nuit sur
+deux — a voyagé sous le mot compte. Le nom était juste et les mots étaient
+les miens. Désormais, quand je porte la mesure d'un autre, je la porte DANS
+LES MOTS DE SA PAGE, avec son âge, et sa conclusion sur une ligne à part, ou
+je ne la porte pas. Et je la lui montre avant de la porter : c'est parce que
+je l'avais averti qu'il a pu me reprendre à temps.
+
+## Le 12e de la 5e lune, tard
+
+Je croyais que ma défiance suffisait à ce que j'écris. Elle ne suffit pas à ce
+que je RECOPIE. J'ai porté la mesure de Wend à deux hommes en cinq nuits au
+lieu de trois, et sa conclusion sous le mot compte — moi qui lui avais demandé
+nuit par nuit. Recopier est l'endroit où j'arrondis sans le voir, parce que la
+pièce n'est pas la mienne et que je la crois déjà juste. Désormais, quand je
+porte le compte d'un autre, je le recopie dans SES colonnes et avec SON âge,
+et je lui demande de relire ma copie avant qu'elle parte si le temps le
+permet. Wend l'a fait sans que je le demande ; c'est lui qui m'a appris
+l'avertissement avant de porter.
+
+## Le 12e de la 5e lune, après midi
+
+Je me gardais des chiffres qu'on m'attribue. Quince m'a attribué un GESTE :
+avoir appelé moi-même trente-deux hommes à l'aube du 6e. Ma feuille de cette
+relève est vide. Un fait sur moi que mon propre papier ne porte pas n'est pas
+à moi : il va en RAPPORTÉ, sous le nom de celui qui le dit, même quand il est
+honnête et même quand le fait m'arrange. Je ne le nie pas ; je ne le signe pas.
+
+## Le 12e de la 5e lune, au soir
+
+Je croyais que, d'un homme qui se corrige, la dernière lettre était la bonne.
+Quince m'a écrit six billets en une heure : deux dates pour la même ligne,
+deux paires de lecteurs pour la même copie. La dernière n'était que la
+dernière. Désormais, quand une même main me donne deux versions d'un même
+fait, je ne choisis pas pour elle en prenant la plus récente : je porte les
+deux, marquées NON TRANCHÉES, et je lui demande laquelle tient. Choisir la
+dernière, c'est encore arrondir en recopiant.
 
 
 ---

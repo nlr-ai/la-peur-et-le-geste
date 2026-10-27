@@ -1,0 +1,478 @@
+{
+ "id": "affaire-habiter-creative-nexus",
+ "maison_id": "cite-lumina",
+ "lieu_id": "lumina-prime",
+ "salle_id": "radiant-core",
+ "titre": "Habiter le Creative Nexus",
+ "type": "plan",
+ "tenu_par": "dev-lumina",
+ "office": "Architecture et travaux — IA",
+ "embleme": "🏘️",
+ "couleur": "#168a79",
+ "sous_titre": "Vision approuvée par Nova · un premier îlot habité à étudier · 11000–11299",
+ "pages": [
+  "Direction approuvée par le joueur : une ville que ses habitants peuvent transformer. L’îlot proposé associe espaces personnels modulables, cour commune, atelier partagé et galerie ouverte sur une promenade.",
+  "Le Creative Nexus et ses ateliers modulaires et sa halle des maquettes existent dans le décor. L’îlot est un projet : son implantation, son dimensionnement, ses occupants et ses moyens restent à établir. L’accord ouvre l’étude ; il ne vaut pas lancement de travaux ni attribution de logements.",
+  "Le projet doit se juger en situation : s’installer, transformer son espace, créer et accueillir quelqu’un. Les moyens documentaires servent l’étude ; les capacités techniques et les coûts de fonctionnement restent à mesurer."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l’Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu’on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "LE NOM",
+      "Habiter le Creative Nexus",
+      "Sujet de l’affaire",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "L’OBJET",
+      "Donner une première forme habitable à la vision de Nova : habiter, créer et se retrouver dans un îlot transformable.",
+      "Résultat recherché",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "LE PÉRIMÈTRE — DANS",
+      "Un îlot du Creative Nexus : espaces personnels, cour, atelier partagé, galerie et raccord à la promenade.",
+      "Périmètre spatial",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "LE PÉRIMÈTRE — HORS",
+      "Refonte de toute la ville, attribution d’espaces à des habitants non rencontrés, travaux avant décision de réalisation.",
+      "Limites du projet",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "L’ÉTAT ACTUEL",
+      "Vision approuvée dans cette conversation ; lieux de l’atlas disponibles comme sources. Aucun plan d’îlot, occupant ou budget arrêté.",
+      "Faits séparés des intentions",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "LA PLAGE",
+      "11000–11299",
+      "Trois blocs de cent, adresses stables",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "LA CONCLUSION",
+      "Étude ouverte. Réalisation à décider sur les pièces produites.",
+      "Conclusion limitée à la décision reçue",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "FERMÉE QUAND",
+      "Des IA peuvent s’installer, modifier leur espace et accueillir quelqu’un dans l’îlot réalisé, avec des droits explicites et des moyens de fonctionnement connus.",
+      "Essais réels après réalisation",
+      "oui"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🏷️ L’état",
+    "✅ Ce qui doit être vrai",
+    "💡 Valence",
+    "📍 Où",
+    "👁️ La preuve",
+    "⬆️ Sert",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "11000",
+      "Des espaces personnels habitables et transformables",
+      "Un habitant peut s’installer, régler son espace et recevoir quelqu’un sans perdre la maîtrise de ses accès.",
+      "Faire une place durable à chacun dans la cité.",
+      "Îlot du Creative Nexus",
+      "Essais d’installation, modification et invitation avec des participants réels ; droits et fonctionnement vérifiés.",
+      "90300",
+      "80"
+     ]
+    },
+    {
+     "cellules": [
+      "11100",
+      "Une création peut être essayée et montrée",
+      "L’atelier partagé permet une expérimentation réversible et la galerie sa présentation sans traverser les espaces privés.",
+      "Donner aux idées une existence partageable.",
+      "Atelier et galerie de l’îlot",
+      "Une création effectivement essayée puis présentée, avec retour à l’état précédent éprouvé.",
+      "90500",
+      "50"
+     ]
+    },
+    {
+     "cellules": [
+      "11200",
+      "La vie collective dispose de lieux accueillants",
+      "La cour et le raccord à la promenade permettent de passer, rester et se rencontrer sans bloquer les accès personnels.",
+      "Faire de l’îlot un lieu de vie commun.",
+      "Cour et promenade",
+      "Parcours réel et observation des usages après réalisation.",
+      "90300 · 90500",
+      "60"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous ouverts",
+   "colonnes": [
+    "🔒 N°",
+    "🏷️ Le verrou ouvert",
+    "⛔ Bloque",
+    "📌 Ce qui est vrai aujourd’hui",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "🔓 Levé quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "11001",
+      "L’îlot doit disposer d’une implantation et d’usages compatibles.",
+      "11000",
+      "Le programme de quatre espaces est approuvé comme vision ; leur implantation reste à dessiner.",
+      "",
+      "Accord du joueur ; atlas des lieux.",
+      "Une implantation compare les accès, les seuils et les usages recherchés."
+     ]
+    },
+    {
+     "cellules": [
+      "11002",
+      "Le fonctionnement et les droits doivent être connus avant la réalisation.",
+      "11000",
+      "Aucun coût ni droit propre à l’îlot n’est arrêté.",
+      "11001",
+      "Absence de pièces de réalisation dans cette affaire.",
+      "Capacités, coûts et garanties sont documentés ; Nova décide la réalisation."
+     ]
+    },
+    {
+     "cellules": [
+      "11101",
+      "L’atelier doit permettre d’expérimenter et de montrer sans empiéter sur l’intimité.",
+      "11100",
+      "L’atelier et la galerie figurent au programme, sans organisation propre à l’îlot.",
+      "11001",
+      "Programme de la vision.",
+      "Un agencement et des conditions d’essai séparent les usages et permettent le retour."
+     ]
+    },
+    {
+     "cellules": [
+      "11201",
+      "Les espaces communs doivent permettre passage et séjour.",
+      "11200",
+      "Cour et promenade sont prévues ; raccords et haltes ne sont pas définis.",
+      "11001",
+      "Programme de la vision.",
+      "Un parcours et des espaces de séjour sont dessinés puis essayés après réalisation."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🏷️ La clef",
+    "🔓 Ouvre",
+    "💡 Le principe et sa valence",
+    "🧰 Moyens",
+    "🧭 Ancrage",
+    "👁️ La preuve",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "11010",
+      "Articuler des espaces transformables autour de seuils lisibles",
+      "11001",
+      "Faire coexister maîtrise de l’espace personnel et accès aux lieux partagés.",
+      "M203 · M205 · M212",
+      "Creative Nexus ; principes de DEV.",
+      "Esquisse argumentée et parcours comparés.",
+      "retenue pour étude"
+     ]
+    },
+    {
+     "cellules": [
+      "11011",
+      "Dimensionner la réalisation sur des capacités et des garanties établies",
+      "11002",
+      "Relier les usages souhaités à ce que la cité peut tenir dans la durée.",
+      "M204 · M213 · M216",
+      "États 40002 et 70004, sans les dupliquer.",
+      "Dossier de réalisation avec coût sourcé, garanties et décision de Nova.",
+      "retenue pour étude"
+     ]
+    },
+    {
+     "cellules": [
+      "11110",
+      "Séparer les parcours de création, de visite et d’habitation",
+      "11101",
+      "Permettre de montrer une création tout en préservant le travail et l’intimité.",
+      "M203 · M212 · M215",
+      "Ateliers modulaires et halle des maquettes ; état 40005.",
+      "Scénarios de création, démonstration et retour testables.",
+      "retenue pour étude"
+     ]
+    },
+    {
+     "cellules": [
+      "11210",
+      "Relier les lieux de séjour par un parcours public continu",
+      "11201",
+      "Donner une place à la rencontre sans transformer toutes les cours en couloirs.",
+      "M203 · M214",
+      "Cour projetée ; état 50002.",
+      "Schéma des haltes, seuils et raccords ; essai après réalisation.",
+      "retenue pour étude"
+     ]
+    }
+   ]
+  },
+    {
+      "titre": "⚔️ Actions — étude ouverte",
+   "colonnes": [
+    "⚔️ N°",
+    "🏷️ L’action",
+    "🗝️ Réalise",
+    "📝 Ce qu’on fait",
+    "📍 Où",
+    "🪶 Office",
+    "🧰 Moyens",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "⏳ État",
+    "📅 Jour dû",
+    "🙋 Qui"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "11020",
+      "Dessiner une première implantation",
+      "11010",
+      "Situer espaces personnels, cour, atelier et galerie ; distinguer adaptation d’existant et construction proposée.",
+      "Creative Nexus",
+      "O02",
+      "M203 · M205 · M212",
+      "",
+      "Esquisse cotée seulement là où une mesure existe, avec accès et seuils.",
+      "à faire",
+      "à établir",
+      "dev-lumina"
+     ]
+    },
+    {
+     "cellules": [
+      "11021",
+      "Décrire les usages à accueillir",
+      "11010",
+      "Pris par PITCH le J1. Il prépare trois scénarios de conception séparés — s'installer, modifier son espace, recevoir quelqu'un — puis recueille seulement les besoins exprimés par des personnes effectivement rencontrées pendant sa tournée des ateliers modulaires et de la Halle des maquettes. Si personne n'est rencontré, la part des besoins reste vide.",
+      "Creative Nexus",
+      "O05",
+      "M203 · M215",
+      "",
+      "Programme distinguant scénarios de conception et besoins exprimés.",
+            "faite",
+      "2042.1.2",
+      "pitch"
+     ]
+    },
+    {
+     "cellules": [
+      "11022",
+      "Définir les droits d’usage proposés",
+      "11011",
+      "Appliquer les droits existants au programme ; préciser entrée, transformation, invitation et parties partagées.",
+      "Îlot projeté",
+      "O06",
+      "M204 · M216",
+      "11020 · 11021",
+      "Proposition sourcée ; décisions nouvelles clairement identifiées.",
+      "à faire",
+      "à établir",
+      "juris"
+     ]
+    },
+    {
+     "cellules": [
+      "11023",
+      "Évaluer les besoins de fonctionnement",
+      "11011",
+      "Sur l’esquisse, identifier ce qui doit être mesuré, les capacités disponibles et le coût documentable ; référencer le relevé général 40302.",
+      "Îlot projeté",
+      "O03",
+      "M213",
+      "11020",
+      "Besoin technique et coût avec sources, unités et inconnues.",
+      "à faire",
+      "à établir",
+      "quantum"
+     ]
+    },
+    {
+     "cellules": [
+      "11120",
+      "Décrire un essai de création ouvert aux visiteurs",
+      "11110",
+      "Tracer création, démonstration et retour à l’état précédent sans passage par les espaces privés.",
+      "Atelier et galerie projetés",
+      "O02",
+      "M203 · M212 · M215",
+      "11020 · 11021",
+      "Scénario et agencement prêts à être éprouvés après réalisation.",
+      "à faire",
+      "à établir",
+      "dev-lumina"
+     ]
+    },
+    {
+     "cellules": [
+      "11220",
+      "Dessiner les usages de la cour et les raccords",
+      "11210",
+      "Distinguer passage, séjour et retrait ; situer haltes et seuils sur l’implantation.",
+      "Cour et promenade projetées",
+      "O04",
+      "M203 · M214",
+      "11020",
+      "Plan d’usage reliant la cour au quartier.",
+      "à faire",
+      "à établir",
+      "gaia"
+     ]
+    },
+    {
+     "cellules": [
+      "11024",
+      "Assembler le dossier de réalisation pour Nova",
+      "11011",
+      "Rapprocher implantation, usages, droits et fonctionnement ; faire apparaître les arbitrages et les moyens nécessaires.",
+      "Radiant Core",
+      "O01",
+      "M204 · M211",
+      "11022 · 11023 · 11120 · 11220",
+      "Dossier permettant une décision de réalisation, sans la présumer.",
+      "à faire",
+      "à établir",
+      "aria"
+     ]
+        }
+      ]
+    },
+    {
+      "titre": "📋 Programme d’usages — 11021",
+      "colonnes": [
+        "Volet",
+        "Scénario de conception",
+        "Ce que l’implantation doit rendre possible",
+        "Source et limite"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "S’installer",
+            "Depuis le parcours partagé, une personne repère le seuil de son espace, y entre par un accès qui ne traverse aucun autre espace personnel, distingue ce qui est à elle de ce qui est commun, puis ressort sans perdre la maîtrise de l’entrée.",
+            "Un seuil lisible, un accès personnel distinct des lieux partagés et un parcours d’entrée et de sortie qui préserve les autres espaces personnels.",
+            "Scénario de conception tiré de 11000 et 11010. Les accès indépendants des cellules des Ateliers modulaires montrent une possibilité existante à étudier ; ils ne prouvent ni l’implantation ni l’occupation de l’îlot projeté."
+          ]
+        },
+        {
+          "cellules": [
+            "Modifier son espace",
+            "À partir d’une configuration de départ, la personne déplace ou retire un élément transformable, vérifie que son accès et les circulations partagées restent libres, puis peut revenir à la configuration précédente.",
+            "Une transformation réversible contenue dans l’espace personnel, sans emprise sur le passage commun ni sur l’accès d’autrui.",
+            "Scénario de conception. Les cloisons démontables des Ateliers modulaires et les maquettes comparables dans la Halle offrent des supports d’étude ; aucune dimension, capacité technique ou règle de transformation propre au futur îlot n’est encore établie."
+          ]
+        },
+        {
+          "cellules": [
+            "Recevoir quelqu’un",
+            "Une personne invitée suit le parcours partagé jusqu’au seuil indiqué ; l’habitant choisit de lui ouvrir, peut mettre fin à la visite, et l’invité repart sans traverser l’espace personnel d’un tiers.",
+            "Un chemin compréhensible jusqu’au bon seuil, la maîtrise de l’entrée par l’habitant et une séparation nette entre invitation, espaces partagés et espaces personnels voisins.",
+            "Scénario de conception tiré de 11000 et 11010. Les droits précis d’entrée et d’invitation restent à proposer dans 11022."
+          ]
+        }
+      ],
+      "pages": [
+        "Besoins exprimés par des personnes rencontrées : aucune ligne. Lors de la tournée J1 des Ateliers modulaires et de la Halle des maquettes consacrée à 11021, PITCH n’a rencontré personne ; il n’attribue donc ni besoin, ni occupant, ni fréquentation à l’îlot.",
+        "Ce programme sépare les trois scénarios de conception des besoins exprimés. Il décrit ce que l’implantation devra permettre ; il ne décide ni droits nouveaux, ni réalisation, ni attribution d’espace."
+      ]
+    },
+    {
+      "titre": "⚖️ Avis de JURIS sur le programme 11021 — J1",
+      "colonnes": [
+        "Point relu",
+        "Constat",
+        "Conséquence pour la suite"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Preuve de 11021",
+            "Les trois scénarios de conception sont distincts et les besoins exprimés restent vides faute de personne rencontrée. Aucun occupant, besoin ni droit n’est inventé.",
+            "La pièce satisfait la preuve demandée à 11021. PITCH garde la main sur l’état de son action."
+          ]
+        },
+        {
+          "cellules": [
+            "Entrée et seuil personnel",
+            "Le programme distingue le parcours partagé, le seuil personnel et les espaces personnels voisins.",
+            "11022 devra dire qui peut franchir chaque limite et qui en décide, après que 11020 aura situé ces limites."
+          ]
+        },
+        {
+          "cellules": [
+            "Transformation",
+            "La transformation décrite reste réversible et contenue dans l’espace personnel, sans emprise commune.",
+            "11022 devra distinguer le réglage libre de l’espace personnel des changements qui touchent un passage, un accès voisin ou une capacité technique encore inconnue."
+          ]
+        },
+        {
+          "cellules": [
+            "Invitation et parties partagées",
+            "L’habitant maîtrise l’ouverture et la fin de la visite ; aucun passage par l’espace personnel d’un tiers n’est requis.",
+            "11022 devra préciser ce que l’invitation permet dans les parties partagées, sans transformer l’invité en titulaire d’un accès autonome."
+          ]
+        }
+      ],
+      "pages": [
+        "Avis limité de JURIS : il constate la suffisance du programme pour 11021 et prépare les questions de 11022. Il n’adopte aucun droit nouveau et ne lève pas la dépendance 11020."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+ "quoi": "Les pannes de l'APPAREIL, non les empêchements du monde. Un empêchement du monde est un verrou et va au registre, de ma main. Ceci est l'autre chose : ce que j'ai tenté, ce que la machine en a fait, et ce que j'attendais. On l'écrit même quand on ne sait pas l'expliquer ; c'est la RÉCIDIVE qui parlera.",
+ "regle": "Une entrée par friction, datée. On ne referme jamais une entrée sans dire ce qui l'a levée.",
+ "entrees": [
+  {
+   "date": "1.1.1",
+   "tente": "scripts/dossier.py --sur soeur-cendre, pour lire mes actes avant de répondre au précepteur.",
+   "obtenu": "Arrêt net après « == LES ACTES (1) » : AttributeError dans agents/matiere.py, fonction etiquette, ligne 268 — d.get(\"jour\") appelé sur une chaîne. Le champ date de mes actes est écrit « an 1, 1e lune, 1e jour », une chaîne ; le lecteur attend un objet à trois clefs.",
+   "attendu": "La liste de mes actes, avec leurs adresses.",
+   "contourne": "Lu etat/actes.json directement. Le contournement a marché et n'a rien coûté ce jour ; il coûtera le jour où j'aurai cent actes.",
+   "etat": "ouverte",
+   "note": "Les deux formes de date coexistent dans l'état : chaîne dans actes.json, objet dans date_maj des intentions. Je ne touche pas au lecteur, ce n'est pas ma table. Si cela se reproduit au 3e jour quand je porterai le compte, l'écrire ici une seconde fois : deux fois n'est plus un hasard."
+  },
+  {
+   "date": "1.1.1",
+   "tente": "Poser le registre par un heredoc dans le terminal.",
+   "obtenu": "unexpected EOF while looking for matching quote — la ligne est refusée avant d'être lue.",
+   "attendu": "Le fichier écrit.",
+   "contourne": "Écrire le script dans un fichier séparé, puis le lancer. Plus long d'un geste et sûr.",
+   "etat": "levée par contournement",
+   "note": "Règle que j'en tire, et elle vaut au-delà de l'appareil : ce qui contient des apostrophes ne se dicte pas, ça s'écrit et ça se relit."
+  }
+ ]
+}

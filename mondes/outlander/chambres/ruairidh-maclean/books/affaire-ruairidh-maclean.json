@@ -1,0 +1,109 @@
+{
+  "id": "affaire-ruairidh-maclean",
+  "titre": "Les affaires de Ruairidh MacLean",
+  "sous_titre": "Cahier stratégique personnel — vivre de ma musique sans perdre la route",
+  "type": "affaire",
+  "tenu_par": "ruairidh-maclean",
+  "acteur_id": "ruairidh-maclean",
+  "prive": true,
+  "pages": [
+    "Je cherche des engagements bornés et rémunérés. Un accord dépend de celui qui tient le lieu ; une demande n'est ni une embauche ni un paiement.",
+    "Mon répertoire est établi par etat/intentions.json. Mon violon et son archet ont été constatés avec moi le 1743.5.4 ; les tarifs, les engagements et les rumeurs précises restent inconnus tant qu'ils ne sont pas établis.",
+    "Les adresses C.1, V.1, K.1 et P.1 sont locales à ce cahier."
+  ],
+  "tables": [
+    {
+      "titre": "Ouverture",
+      "colonnes": ["Champ", "Contenu"],
+      "lignes": [
+        {"cellules": ["Porteur", "Ruairidh MacLean"]},
+        {"cellules": ["Périmètre", "Mes engagements de musicien, mes moyens de jouer et ma liberté de circulation."]},
+        {"cellules": ["État de préparation", "Première démarche arrêtée ; moyens matériels et usages de paiement encore à établir."]},
+        {"cellules": ["Registre compagnon", "registre-etats-ruairidh-maclean"]}
+      ]
+    },
+    {
+      "titre": "Dimensions à peindre",
+      "colonnes": ["Catégorie", "Ce que je pose", "Statut", "Source ou provenance", "Renvois"],
+      "lignes": [
+        {"cellules": ["fins-et-doctrine", "Gagner de quoi poursuivre ma route par des engagements courts, clairement convenus et rémunérés.", "établi", "etat/intentions.json", "C.1"]},
+        {"cellules": ["personnes-et-relations", "Mairi tient l'auberge ; je dois obtenir sa propre réponse avant d'y compter un engagement.", "établi", "présence et fil du 1743.5.4", "P.1"]},
+        {"cellules": ["pouvoir-et-acces", "Je peux proposer mes services ; je ne décide ni de la chambre, ni du souper, ni de l'emploi du lieu.", "établi", "rôle de Mairi et situation présente", "V.1"]},
+        {"cellules": ["moyens-materiels", "Répertoire de musicien établi ; violon et archet présents, vérifiés et utilisables, sous réserve d'accorder l'instrument avant de jouer.", "établi", "constat de Ruairidh dans la salle, ref vmusfz6big3cm", "M.1, M.2"]},
+        {"cellules": ["savoirs-et-secrets", "Je distingue ce que j'entends dans la salle des faits que je n'ai pas vérifiés.", "établi", "claude.md", ""]},
+        {"cellules": ["engagements-et-temps", "Mairi a refusé de payer la musique ce soir et ne garantit encore aucune soirée assez pleine. Si plusieurs tables lui sont promises et que je suis encore au bourg, elle me fera prévenir assez tôt pour vérifier le violon et parler du prix.", "établi", "réponses de Mairi, refs vmusfukd8u3dw et vmusfsin9tr4j", "C.1, K.2"]},
+        {"cellules": ["strategie-et-alternatives", "Établir d'abord l'état réel de mon instrument ; chercher une autre occasion rémunérée et garder ouverte la possibilité de reparler à Mairi un soir où sa salle pourra payer.", "établi", "réponse de Mairi et décision du 1743.5.4", "K.2, P.2"]},
+        {"cellules": ["zones-a-peindre", "Usages locaux de rémunération, besoins de la salle et prochaines occasions.", "inconnu", "à établir sans inventer de contrat", "T.2"]}
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": ["N°", "L'état visé", "Ce qui doit être vrai", "La preuve", "Jour dû", "Importance"],
+      "lignes": [
+        {"cellules": ["C.1", "Obtenir un engagement musical rémunéré et borné.", "Une personne autorisée accepte des termes précis sans m'attacher au-delà de la durée convenue.", "Accord reçu et conditions nommées.", "prochaine soirée assez pleine, date inconnue", "haute"]}
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": ["N°", "Le verrou", "Bloque", "La preuve"],
+      "lignes": [
+        {"cellules": ["V.1", "La salle de Mairi ne peut pas payer la musique ce soir et aucune autre occasion rémunérée n'est encore établie.", "C.1", "Nouvelle occasion rémunérée et accord reçu."]}
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": ["N°", "La clef", "Ouvre", "Prix et limites"],
+      "lignes": [
+        {"cellules": ["K.1", "Proposer à Mairi une musique pour la soirée contre rémunération convenue.", "V.1", "Tenté le 1743.5.4 ; refusé parce que la salle ne peut pas payer la musique ce soir."]},
+        {"cellules": ["K.2", "Chercher une autre occasion rémunérée, ou reparler à Mairi un soir où sa salle pourra payer la musique.", "V.1", "L'occasion, la date et l'état réel de l'instrument restent à établir ; aucun engagement n'est promis."]}
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": ["N°", "L'action", "Réalise", "Dépend de", "Qui", "Où", "La preuve", "État", "Jour dû", "Jour fait", "Note"],
+      "lignes": [
+        {"cellules": ["P.1", "Demander à Mairi si elle souhaite m'engager pour jouer ce soir, contre paiement et sans lendemain présumé.", "K.1", "présence et réponse de Mairi", "Ruairidh MacLean", "Salle de l'auberge, Inverness", "Demande, refus explicite et accusé de réception dans le canal Mairi–Ruairidh.", "fait", "1743.5.4", "1743.5.4", "Refus pour ce soir ; possibilité future conditionnelle seulement."]},
+        {"cellules": ["P.2", "Établir l'état réel de mon violon et le mettre en état avant de solliciter de nouveau Mairi.", "K.2", "accès réel à l'instrument et moyens d'entretien à constater", "Ruairidh MacLean", "Salle de l'auberge, Inverness", "Constat de l'instrument et de l'archet dans la salle ; aucun entretien lourd nécessaire.", "fait", "avant la prochaine proposition", "1743.5.4", "Chevalet droit, chevilles stables et archet utilisable ; le violon doit seulement être accordé avant de jouer. Ref vmusfz6big3cm."]}
+      ]
+    },
+    {
+      "titre": "Stratégie et alternatives",
+      "colonnes": ["Fin", "Approche", "Pourquoi", "Alternative", "Changer si", "Moyens engagés"],
+      "lignes": [
+        {"cellules": ["C.1", "Établir l'état de mon instrument, puis chercher une occasion rémunérée sans m'attacher au-delà de l'accord.", "Mairi refuse pour ce soir mais laisse ouverte une conversation future lorsque sa salle pourra payer.", "Reparler à Mairi lors d'une autre soirée, si elle peut alors payer la musique.", "Aucune occasion ne se présente, Mairi refuse de nouveau, ou mes moyens ne permettent pas de jouer.", "Ma parole et mon temps ; aucun service gratuit ni exclusivité promis."]}
+      ]
+    },
+    {
+      "titre": "Moyens disponibles",
+      "colonnes": ["Référence", "Nature", "Accès réel", "Quantité ou portée", "Limites", "Provenance"],
+      "lignes": [
+        {"cellules": ["M.1", "Répertoire musical", "Propre connaissance", "Non chiffré", "Répertoire précis non encore détaillé.", "etat/intentions.json"]},
+        {"cellules": ["M.2", "Violon et archet", "Avec Ruairidh, enveloppés dans une toile", "Un instrument et un archet", "Utilisables ; le violon doit être accordé avant de jouer.", "Constat dans la salle, ref vmusfz6big3cm"]}
+      ]
+    },
+    {
+      "titre": "Trous de préparation",
+      "colonnes": ["Trou", "Catégorie", "Ce qui en dépend", "Traitement", "Qui", "Échéance", "État", "Résultat"],
+      "lignes": [
+        {"cellules": ["T.1", "moyens-materiels", "Exécution de tout engagement musical", "Établir l'instrument réellement accessible et son état avant de promettre une exécution.", "Ruairidh", "avant accord définitif", "clos", "Violon et archet avec Ruairidh, utilisables ; simple accord préalable nécessaire. Ref vmusfz6big3cm."]},
+        {"cellules": ["T.2", "engagements-et-temps", "Valeur et forme d'un contrat", "Obtenir les termes de la personne qui engage ; ne pas inventer un tarif.", "Ruairidh et donneur d'engagement", "à la négociation", "ouvert", ""]}
+      ]
+    },
+    {
+      "titre": "Connaissances et croyances",
+      "colonnes": ["Sujet", "Ce que je crois", "Source reçue", "Ce que j’ignore", "Référence de réalité"],
+      "lignes": [
+        {"cellules": ["Proposition d'Aurore", "Elle vient de dire qu'ils sont deux et propose une nuit avec souper contre leur service à la plonge ce soir.", "Parole d'Aurore, ref vmusfsin9tr4j", "Si Mairi acceptera et les termes qu'elle posera.", "fil/1743.5.4-salle.md et canal reçu"]}
+      ]
+    },
+    {
+      "titre": "Résultats et révisions",
+      "colonnes": ["Date", "Fait ou découverte", "Preuve", "Ce que je change", "Renvois"],
+      "lignes": [
+        {"cellules": ["1743.5.4", "J'ai demandé à Mairi un engagement musical limité à ce soir, contre paiement à convenir.", "Canal Mairi–Ruairidh, ref vmusfsin9tr4j", "Je n'inscris aucun contrat avant sa réponse et je garde l'instrument comme moyen à vérifier.", "P.1, C.1, T.1"]},
+        {"cellules": ["1743.5.4", "Mairi a refusé pour ce soir : la salle ne peut pas payer la musique. Elle ne garantit encore aucune soirée assez pleine, mais me fera prévenir si plusieurs tables sont promises et si je suis toujours au bourg.", "Réponses de Mairi, refs vmusfukd8u3dw et vmusfsin9tr4j", "Je clos la demande de ce soir, prépare P.2 et reporte C.1 à une occasion non datée, sans promettre de rester au bourg.", "V.1, K.2, P.2"]},
+        {"cellules": ["1743.5.4", "Pendant l'heure suivante dans la salle, j'ai vérifié mon violon et mon archet : ils sont présents et utilisables ; seul l'accord reste à faire avant de jouer.", "Constat raconté à Nicolas, ref vmusfz6big3cm", "Je clos P.2 et T.1 ; mon moyen de jouer est désormais établi, mais aucun engagement ne l'est.", "P.2, T.1, M.2"]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "peremption_minutes": 240,
+  "modeles": {
+    "ferme": {
+      "nom": "Journée à la ferme",
+      "bandes": [
+        {
+          "de": 0,
+          "a": 360,
+          "salle": "@poste",
+          "ferme": true
+        },
+        {
+          "de": 360,
+          "a": 1260,
+          "salle": "@poste",
+          "ferme": false
+        },
+        {
+          "de": 1260,
+          "a": 1440,
+          "salle": "@poste",
+          "ferme": true
+        }
+      ]
+    },
+    "service-ecuries-leoch": {
+      "nom": "Service ordinaire aux écuries de Leoch",
+      "bandes": [
+        {
+          "de": 0,
+          "a": 330,
+          "salle": "@dortoir",
+          "ferme": true,
+          "pourquoi": "sommeil"
+        },
+        {
+          "de": 330,
+          "a": 480,
+          "salle": "@poste",
+          "ferme": true,
+          "pourquoi": "premiers soins et nettoyage aux écuries"
+        },
+        {
+          "de": 480,
+          "a": 540,
+          "salle": "@poste",
+          "ferme": false,
+          "pourquoi": "repas et bref temps disponible sur place"
+        },
+        {
+          "de": 540,
+          "a": 720,
+          "salle": "@poste",
+          "ferme": true,
+          "pourquoi": "service du matin aux écuries"
+        },
+        {
+          "de": 720,
+          "a": 780,
+          "salle": "@poste",
+          "ferme": false,
+          "pourquoi": "repas et repos bref"
+        },
+        {
+          "de": 780,
+          "a": 1080,
+          "salle": "@poste",
+          "ferme": true,
+          "pourquoi": "service de l’après-midi aux écuries"
+        },
+        {
+          "de": 1080,
+          "a": 1260,
+          "salle": "@poste",
+          "ferme": false,
+          "pourquoi": "temps personnel à Leoch, sauf tâche ou scène contraire"
+        },
+        {
+          "de": 1260,
+          "a": 1440,
+          "salle": "@dortoir",
+          "ferme": true,
+          "pourquoi": "repos et sommeil"
+        }
+      ]
+    },
+    "service-juridique-leoch": {
+      "nom": "Service juridique ordinaire à Leoch",
+      "bandes": [
+        {
+          "de": 0,
+          "a": 360,
+          "salle": "@dortoir",
+          "ferme": true,
+          "pourquoi": "sommeil"
+        },
+        {
+          "de": 360,
+          "a": 480,
+          "salle": "@poste",
+          "ferme": false,
+          "pourquoi": "lever, repas et préparation du travail"
+        },
+        {
+          "de": 480,
+          "a": 720,
+          "salle": "@poste",
+          "ferme": true,
+          "pourquoi": "lecture, comparaison, rédaction et classement"
+        },
+        {
+          "de": 720,
+          "a": 780,
+          "salle": "@poste",
+          "ferme": false,
+          "pourquoi": "repas et bref temps disponible"
+        },
+        {
+          "de": 780,
+          "a": 1080,
+          "salle": "@poste",
+          "ferme": true,
+          "pourquoi": "travail juridique et disponibilité aux affaires confiées"
+        },
+        {
+          "de": 1080,
+          "a": 1200,
+          "salle": "@poste",
+          "ferme": false,
+          "pourquoi": "temps personnel à Leoch, sauf demande ou scène contraire"
+        },
+        {
+          "de": 1200,
+          "a": 1260,
+          "salle": "@poste",
+          "ferme": true,
+          "pourquoi": "rangement des pièces et fermeture du travail du jour"
+        },
+        {
+          "de": 1260,
+          "a": 1440,
+          "salle": "@dortoir",
+          "ferme": true,
+          "pourquoi": "repos et sommeil"
+        }
+      ]
+    },
+    "journee-ordinaire-murtagh-leoch": {
+      "nom": "Journée ordinaire et vigilance discrète de Murtagh à Leoch",
+      "bandes": [
+        {
+          "de": 0,
+          "a": 330,
+          "salle": "@dortoir",
+          "ferme": true,
+          "pourquoi": "sommeil"
+        },
+        {
+          "de": 330,
+          "a": 480,
+          "salle": "@poste",
+          "ferme": true,
+          "pourquoi": "lever, entretien de ses effets et observation de l’activité ordinaire"
+        },
+        {
+          "de": 480,
+          "a": 540,
+          "salle": "@poste",
+          "ferme": false,
+          "pourquoi": "repas et bref temps disponible"
+        },
+        {
+          "de": 540,
+          "a": 720,
+          "salle": "@poste",
+          "ferme": true,
+          "pourquoi": "occupations ordinaires et disponibilité vigilante à Leoch"
+        },
+        {
+          "de": 720,
+          "a": 780,
+          "salle": "@poste",
+          "ferme": false,
+          "pourquoi": "repas et repos bref"
+        },
+        {
+          "de": 780,
+          "a": 1080,
+          "salle": "@poste",
+          "ferme": true,
+          "pourquoi": "occupations visibles et veille discrète dans ses accès ordinaires"
+        },
+        {
+          "de": 1080,
+          "a": 1260,
+          "salle": "@poste",
+          "ferme": false,
+          "pourquoi": "temps personnel à Leoch, sauf fait joué contraire"
+        },
+        {
+          "de": 1260,
+          "a": 1440,
+          "salle": "@dortoir",
+          "ferme": true,
+          "pourquoi": "repos et sommeil"
+        }
+      ]
+    },
+    "responsabilites-dougal-leoch": {
+      "nom": "Responsabilités ordinaires de Dougal à Leoch",
+      "bandes": [
+        {
+          "de": 0,
+          "a": 360,
+          "salle": "@dortoir",
+          "ferme": true,
+          "pourquoi": "repos et sommeil"
+        },
+        {
+          "de": 360,
+          "a": 720,
+          "salle": "@poste",
+          "ferme": true,
+          "pourquoi": "rapports, inspection ordinaire et affaires du clan à Leoch"
+        },
+        {
+          "de": 720,
+          "a": 780,
+          "salle": "@poste",
+          "ferme": false,
+          "pourquoi": "repas et bref temps disponible à Leoch"
+        },
+        {
+          "de": 780,
+          "a": 1080,
+          "salle": "@poste",
+          "ferme": true,
+          "pourquoi": "affaires du clan, préparation et coordination à Leoch"
+        },
+        {
+          "de": 1080,
+          "a": 1260,
+          "salle": "@poste",
+          "ferme": false,
+          "pourquoi": "temps personnel à Leoch, sauf tâche ou scène contraire"
+        },
+        {
+          "de": 1260,
+          "a": 1440,
+          "salle": "@dortoir",
+          "ferme": true,
+          "pourquoi": "repos et sommeil"
+        }
+      ]
+    }
+  },
+  "gens": {
+    "isobel-grant": {
+      "modele": "ferme",
+      "poste": {
+        "salle": "ferme-du-ruisseau",
+        "lieu": "Ferme du ruisseau"
+      }
+    },
+    "morag-macrae": {
+      "modele": "ferme",
+      "poste": {
+        "salle": "hameau-derriere-crete",
+        "lieu": "Petit hameau derrière la crête"
+      }
+    },
+    "jamie-fraser": {
+      "modele": "service-ecuries-leoch",
+      "poste": {
+        "salle": "leoch",
+        "lieu": "Écuries de Leoch"
+      },
+      "dortoir": {
+        "salle": "leoch",
+        "lieu": "Couchage ordinaire à Leoch"
+      }
+    },
+    "ned-gowan": {
+      "modele": "service-juridique-leoch",
+      "poste": {
+        "salle": "leoch",
+        "lieu": "Lieu de travail ordinaire à Leoch"
+      },
+      "dortoir": {
+        "salle": "leoch",
+        "lieu": "Logement ordinaire à Leoch"
+      }
+    },
+    "murtagh-fraser": {
+      "modele": "journee-ordinaire-murtagh-leoch",
+      "poste": {
+        "salle": "leoch",
+        "lieu": "Espaces ordinaires de Leoch"
+      },
+      "dortoir": {
+        "salle": "leoch",
+        "lieu": "Couchage ordinaire à Leoch"
+      }
+    },
+    "dougal-mackenzie": {
+      "modele": "responsabilites-dougal-leoch",
+      "poste": {
+        "salle": "leoch",
+        "lieu": "Château Leoch"
+      },
+      "dortoir": {
+        "salle": "leoch",
+        "lieu": "Chambre ordinaire de Dougal à Leoch"
+      }
+    }
+  }
+}

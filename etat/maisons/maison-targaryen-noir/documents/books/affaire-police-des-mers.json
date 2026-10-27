@@ -94,141 +94,6 @@
    "lignes": [
     {
      "cellules": [
-      "partage",
-      "Commandement et chaîne d'ordres pendant l'opération",
-      "M01 ⛵ Les voiles du Gosier",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Commandement et chaîne d'ordres pendant l'opération",
-      "O13 ⛵ Commandement de la mer",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Conduite du repli si l'entrée échoue",
-      "M01 ⛵ Les voiles du Gosier",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Contrôle naval",
-      "M01 ⛵ Les voiles du Gosier",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Contrôle naval",
-      "O13 ⛵ Commandement de la mer",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Déplacement de l'armée",
-      "M01 ⛵ Les voiles du Gosier",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Entrée et déploiement de l'ost dans les rues",
-      "M01 ⛵ Les voiles du Gosier",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Fenêtre de mer et de saison",
-      "M01 ⛵ Les voiles du Gosier",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Financement de la campagne",
-      "M01 ⛵ Les voiles du Gosier",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Logistique de transport de l'armée",
-      "M01 ⛵ Les voiles du Gosier",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Prise de Port-Réal",
-      "M01 ⛵ Les voiles du Gosier",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Prise de Port-Réal",
-      "O13 ⛵ Commandement de la mer",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Ravitaillement et ordre public de la ville coupée",
-      "M01 ⛵ Les voiles du Gosier",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Sûreté de la personne de la reine",
-      "M01 ⛵ Les voiles du Gosier",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "État chiffré de ce qui est mobilisable",
-      "M01 ⛵ Les voiles du Gosier",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
       "sert",
       "Contrôle naval",
       "🎯 48000",
@@ -285,16 +150,9 @@
    "lignes": [
     {
      "cellules": [
-      "M01 ⛵ Les voiles du Gosier",
-      "⚔️ 48021",
-      "Commandement et chaîne d'ordres pendant l'opération · Conduite du repli si l'entrée échoue · Contrôle naval · Déplacement de l'armée · Entrée et déploiement de l'ost dans les rues · Fenêtre de mer et de saison · Financement de la campagne · Logistique de transport de l'armée · Prise de Port-Réal · Ravitaillement et ordre public de la ville coupée · Sûreté de la personne de la reine · État chiffré de ce qui est mobilisable"
-     ]
-    },
-    {
-     "cellules": [
-      "O13 ⛵ Commandement de la mer",
-      "⚔️ 48020 · ⚔️ 48021",
-      "Commandement et chaîne d'ordres pendant l'opération · Contrôle naval · Prise de Port-Réal"
+      "—",
+      "",
+      "aucun moyen, aucun office"
      ]
     }
    ]
@@ -308,6 +166,12 @@
    "lignes": [
     {
      "cellules": [
+      "⚔️ action que personne ne peut porter — aucun office, aucun nom",
+      "⚔️ 48020 · ⚔️ 48021"
+     ]
+    },
+    {
+     "cellules": [
       "🔒 verrou qu'aucune clef n'ouvre — il est mal nommé",
       "🔒 48004"
      ]
@@ -315,7 +179,19 @@
     {
      "cellules": [
       "🗝️ clef retenue qu'aucune action ne réalise — une décision sans geste",
-      "🗝️ 48011"
+      "🗝️ 48010 · 🗝️ 48011 · 🗝️ 48012"
+     ]
+    },
+    {
+     "cellules": [
+      "⚔️ action dont la chaîne ne remonte à aucun état cible",
+      "⚔️ 48020 · ⚔️ 48021"
+     ]
+    },
+    {
+     "cellules": [
+      "⚔️ action orpheline — elle ne désigne aucune clef, elle n'a jamais rien remonté",
+      "⚔️ 48020 · ⚔️ 48021"
      ]
     }
    ]

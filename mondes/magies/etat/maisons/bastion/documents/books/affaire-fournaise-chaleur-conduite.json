@@ -1,0 +1,1103 @@
+{
+ "id": "affaire-fournaise-chaleur-conduite",
+ "maison_id": "bastion",
+ "titre": "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+ "sous_titre": "🔥 Affaire ouverte aux Fournaises du Bastion, de la main d'HÉLOÏSE BRAISE, maîtresse des ouvrages (office O01), et POSÉE À LA SALLE DU CONSEIL, où elle reste. Le sujet est le montage R11–R12 : ce qu'il fait de la chaleur qu'on lui donne, et ce qu'il en fait quand on lui retire quelque chose. Plage 52000 à 52999.",
+ "type": "plan",
+ "embleme": "🔥",
+ "couleur": "#8c4a24",
+ "lieu_id": "bastion-couronne",
+ "salle_id": "conseil-couronne",
+ "tenu_par": "heloise-braise",
+ "office": "O01",
+ "pages": [
+  "CE CAHIER N'INVENTE PAS UN OUVRAGE : IL ÉPROUVE CELUI QUI EST ÉCRIT. Le montage R11–R12 est complet sur le papier — foyer, collecteur, trois branches, régulation, dissipateur, cheminée — et sa propre fiche dit ce qu'il faut entendre : **« Les quatre épreuves sont des scénarios de conception, pas des essais réalisés. »** Quatre épreuves écrites, zéro épreuve faite. Je tiens l'office qui répond de l'ouvrage, et je n'ai jamais vu la chose se conduire autrement que dans ma tête.",
+  "CE QUI M'A FAIT OUVRIR, ET CE N'EST PAS LA DÉFENSE. Les fours servent aux ateliers tous les jours ; la branche défensive n'est qu'une destination de plus sur un collecteur qui, lui, ne s'arrête jamais. **Je ne sais pas depuis quand ce circuit n'a pas été interrompu en entier**, et personne au Bastion ne le sait, parce que personne ne l'a écrit. Nous tenons le compte de ce que nous brûlons et pas celui de ce que nous tenons sans relâche. C'est le seul chiffre de ce cahier que je ne peux pas aller chercher : il fallait l'écrire avant, et on ne l'a pas fait.",
+  "TROIS RÈGLES DU MANUEL PORTENT TOUT CE QUI SUIT, ET AUCUNE N'EST DE MOI. Aucune création d'énergie : source, transfert, stockage, pertes et destination doivent être nommés. Les efforts arrêtés rejoignent des appuis, la chaleur rejoint un récepteur. La coupure magique n'efface pas les effets physiques déjà produits. **Fermer une commande ne supprime pas l'énergie** — c'est l'épreuve A en une phrase, et c'est aussi pourquoi cette affaire existe.",
+  "CE QUE JE NE PEUX PAS FAIRE, ET QUE J'ÉCRIS ICI POUR QU'ON CESSE DE L'ATTENDRE DE MOI. Je ne possède pas la Protection. L'écran des traversées proches des habitants (R06) n'est pas à moi : il est au praticien qui l'a accordé, et son épreuve doit sortir de sa main, pas de la mienne. Si je l'éprouve moi-même, j'éprouve ma confiance en lui et rien d'autre.",
+  "POURQUOI CE CAHIER RESTE ICI ET NON AUX FOURNAISES. Sa place est la salle du conseil, posé, ouvert, à la portée de quiconque vit sous ce toit — et ce n'est pas une politesse. **Deux des neuf actions ne sont pas à moi** : l'épreuve de l'écran appartient à un protecteur qui n'est pas de mon office, et la règle d'extinction doit m'être retirée par la Maison. Un cahier rangé à l'ouvrage est un cahier que son maître d'ouvrage relit seul, et un maître d'ouvrage qui se relit seul finit par juger son propre montage. Je le laisse où l'on peut me contredire. On me le reprochera peut-être ; c'est plus tenable que l'inverse.",
+  "SUR LES DATES. Ce cahier ne porte aucun jour dû chiffré : la Maison ne tient pas encore de calendrier commun aux ouvrages. Les échéances y sont donc écrites comme des conditions — **avant la première ouverture de la branche défensive**, **avant la prochaine relève d'accord** —, et elles deviendront des jours le jour où le calendrier existera. Une condition tient ; une date inventée ne tiendrait pas."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir. Le sujet est **l'ouvrage**, non la défense du rempart : ce que le montage R11–R12 fait de la chaleur qu'on lui donne, et ce qu'il en fait quand on lui retire un capteur, un récepteur ou toute la magie.",
+      "Le sujet dont le conseil traite, **jamais la solution**.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Le montage est écrit et aucune de ses quatre épreuves n'a été faite. Trois choses connues restent ouvertes en même temps et se tiennent par la main : **le Barrer s'ouvre en l'absence de Trace**, **la capacité du dissipateur n'est pas infinie et n'est pas mesurée**, et **la chaleur demeure dans les dalles après fermeture de l'admission**. Un ouvrage dont les trois défaillances connues sont thermiques ne se découvre pas le jour où on l'ouvre sur une approche : on le découvre à l'épreuve, ou on le découvre avec un quartier.",
+      "Une phrase : pourquoi cette affaire mérite l'attention du conseil.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "R11 (fournaise à chauffe réglée) et R12 (circuit de chaleur défensif), leurs appuis R01 et R02, l'écran R06 aux traversées habitées, la première recette défensive des dalles d'approche, les quatre épreuves A à D, et la durée de tenue ininterrompue du collecteur.",
+      "Ce qui est réellement traité dans ce cahier.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "La projection de flammes, qui demande un développement distinct. Les cinq autres ouvrages du manuel. La recette de conductivité thermique de la Matière, qui n'est pas acquise et qu'on ne suppose nulle part ici. Le dimensionnement chiffré général des magies. Et la question de savoir qui le Bastion protège, qui est à la Maison et non à l'ouvrage.",
+      "Sans le dehors écrit, une affaire d'ouvrage avale toute la défense en trois semaines.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "**Ce qui est vrai :** le montage à trois branches existe sur le papier avec ses commandes locales ; les fours servent aux ateliers tous les jours ; la cheminée est un trajet matériel distinct du transfert magique. **Ce que je reconnais ignorer :** aucune épreuve faite ; aucune température admissible, aucun débit, aucune capacité de dissipateur, aucun délai d'arrêt mesurés ; le montage qui garde le dissipateur disponible quand les deux autres branches ferment n'est pas décrit ; la date de la dernière interruption complète du circuit n'est écrite nulle part ; et la capacité exacte d'un Obstiné à se servir dans le réseau reste à définir. **Je n'écris ici rien de ce que j'espère faire.**",
+      "Ce qu'on sait réellement à l'ouverture, et ce qu'on reconnaît ignorer.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "**52000 à 52999**",
+      "Un bloc de cent par état cible ; verrous en 01 à 09, clefs en 10 à 19, actions en 20 à 99.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "",
+      "Écrite de la main de qui tient la charge, quand elle l'est. Pas avant.",
+      "non"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Les quatre épreuves ont été faites sur l'ouvrage réel et écrites avec leurs nombres ; toute branche admise a un récepteur nommé dont la capacité est mesurée ; il existe une coupure du transfert qui ne passe pas par la Trace ; la chaleur résiduelle se compte au lieu de se déclarer ; et la durée de tenue ininterrompue du circuit est écrite et bornée par une extinction que la défense ne lève pas seule.",
+      "La fermeture couvre l'ouvrage, ses épreuves et sa tenue dans le temps.",
+      "**oui**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "M05 🔥 Le foyer, son arrivée d'air, le collecteur et ses trois branches",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "M07 🧵 Le fil de Trace",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O02 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Esprit — ce qu'on peut faire d'un percept, et ce qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "M06 🌡️ Le capteur Mercure Chaud et son Barrer",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "M01 💎 La gemme de travaux auxiliaires, et son poste de distribution",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "M05 🔥 Le foyer, son arrivée d'air, le collecteur et ses trois branches",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "M06 🌡️ Le capteur Mercure Chaud et son Barrer",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Mort — ce qui doit venir, et ce qui doit prendre voix",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M01 💎 La gemme de travaux auxiliaires, et son poste de distribution",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M06 🌡️ Le capteur Mercure Chaud et son Barrer",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M07 🧵 Le fil de Trace",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O02 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O03 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Les Illusions — l'unique chose que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Les Émotions — les deux choses que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⛓️ Ce qui pend, et sur qui — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🧭 Sens",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "🔗 L'affaire"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "—",
+      "",
+      "",
+      "rien ne traverse"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔨🪶 Ce qu'on engage, et qui d'autre le veut — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🔢 La pièce",
+    "⚔️ Nos actions",
+    "🔗 Aussi engagée par"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M01 💎 La gemme de travaux auxiliaires, et son poste de distribution",
+      "⚔️ 52221 · 🗝️ 52411 · ⚔️ 52421",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    },
+    {
+     "cellules": [
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "🗝️ 52210 · ⚔️ 52220 · 🗝️ 52310 · ⚔️ 52320",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages · La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "M05 🔥 Le foyer, son arrivée d'air, le collecteur et ses trois branches",
+      "🗝️ 52110 · 🗝️ 52111 · ⚔️ 52120 · ⚔️ 52121 · 🗝️ 52210 · ⚔️ 52220 · 🗝️ 52311 · ⚔️ 52321 · 🗝️ 52410 · 🗝️ 52411 · ⚔️ 52420 · ⚔️ 52421 · 🗝️ 52510 · ⚔️ 52520",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts"
+     ]
+    },
+    {
+     "cellules": [
+      "M06 🌡️ Le capteur Mercure Chaud et son Barrer",
+      "🗝️ 52110 · 🗝️ 52111 · ⚔️ 52120 · ⚔️ 52121 · 🗝️ 52211 · ⚔️ 52221",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    },
+    {
+     "cellules": [
+      "M07 🧵 Le fil de Trace",
+      "🗝️ 52211 · ⚔️ 52220 · ⚔️ 52221",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    },
+    {
+     "cellules": [
+      "M08 ♨️ Le dissipateur",
+      "🗝️ 52110 · ⚔️ 52120",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages · La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "M09 🛡️ L'écran thermique des traversées habitées (R06)",
+      "🗝️ 52510 · ⚔️ 52520",
+      "—"
+     ]
+    },
+    {
+     "cellules": [
+      "M10 🪨 Les dalles d'approche",
+      "🗝️ 52310 · ⚔️ 52320",
+      "—"
+     ]
+    },
+    {
+     "cellules": [
+      "M11 🌫️ La cheminée, et la liaison qui l'y raccorde",
+      "🗝️ 52311 · ⚔️ 52321",
+      "—"
+     ]
+    },
+    {
+     "cellules": [
+      "O01 —",
+      "⚔️ 52120 · ⚔️ 52220 · ⚔️ 52320 · ⚔️ 52420",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages · L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose · La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "O02 —",
+      "⚔️ 52520",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    },
+    {
+     "cellules": [
+      "O03 —",
+      "⚔️ 52121 · ⚔️ 52221 · ⚔️ 52321",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    },
+    {
+     "cellules": [
+      "O04 —",
+      "⚔️ 52421",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose · L'Esprit — ce qu'on peut faire d'un percept, et ce qui s'y oppose · La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Mort — ce qui doit venir, et ce qui doit prendre voix · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations · Les Illusions — l'unique chose que cette école fait, et la physique qui s'y oppose · Les Émotions — les deux choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🕳️ Les trous — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🕳️ Le défaut",
+    "🔢 Les pièces"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🎯 état qu'aucun verrou ne bloque — une intention sans plan",
+      "🎯 52000"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🧾 Ce que ce cahier cite et que la Maison ne tient pas encore",
+   "colonnes": [
+    "🔢 La pièce citée",
+    "📖 Ce qu'elle désigne",
+    "⚠️ Ce qui manque"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M01 · M02 · M05 · M06 · M07 · M08 · M09 · M10 · M11",
+      "Les moyens réels employés ci-dessous : gemmes et poste de distribution, appuis du rempart, foyer et collecteur à trois branches, Mercure Chaud et son Barrer, fil de Trace, dissipateur, écran thermique à récepteur, dalles d'approche, cheminée.",
+      "**Le registre des moyens du Bastion n'existe pas.** Ces codes sont cités et non créés, comme la règle l'exige — mais tant que le registre n'est pas ouvert, ils ne résolvent vers rien et ce cahier n'est pas tissable. C'est un défaut de la Maison, pas de l'ouvrage."
+     ]
+    },
+    {
+     "cellules": [
+      "O01 · O02 · O03 · O04",
+      "Maîtrise des ouvrages (Héloïse Braise) ; Protection des courtines (le praticien qui a accordé R06) ; conduite du foyer (responsable du secteur des Fournaises) ; la Maison (Yselde Arquen), pour ce qui engage la ville entière.",
+      "**Le registre des offices du Bastion n'existe pas non plus.** Trois de ces quatre autorités n'ont aucune borne écrite : on ne sait pas ce que chacune tranche seule. O02 n'a même pas de nom."
+     ]
+    },
+    {
+     "cellules": [
+      "📅 Les jours dus",
+      "Les échéances de la table des actions.",
+      "La Maison n'a pas de calendrier commun aux ouvrages. Les échéances sont écrites comme conditions et non comme dates ; elles ne se comptent pas tant que le calendrier n'existe pas."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🏷️ L'état",
+    "✅ Ce qui doit être vrai",
+    "💡 Valence",
+    "📍 Où",
+    "👁️ La preuve",
+    "⬆️ Sert",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**52000**",
+      "**La fournaise peut être ouverte sur le rempart sans qu'on découvre son comportement en la découvrant.**",
+      "Chacune des quatre défaillances écrites a été provoquée exprès, hors défense, et son résultat est noté avec ses nombres.",
+      "L'épreuve se paie en combustible et en journées au lieu de se payer en quartier. C'est le seul échange que cet ouvrage propose.",
+      "Les Fournaises, et le manuel des recettes",
+      "Un lecteur qui n'était pas là ouvre le cahier et dit, pour chaque épreuve, ce qui s'est produit et à quel moment.",
+      "racine",
+      "**100**"
+     ]
+    },
+    {
+     "cellules": [
+      "**52100**",
+      "**Toute chaleur admise a une destination nommée dont la capacité est mesurée.**",
+      "Chaque branche porte le nom de son récepteur, et le dissipateur porte le chiffre de ce qu'il peut reprendre avant de saturer.",
+      "Sans cela, fermer la branche défensive est un geste dont personne ne connaît la suite — et c'est exactement le geste qu'on fera sous la menace.",
+      "Collecteur, trois branches, dissipateur",
+      "L'épreuve A et l'épreuve C faites l'une après l'autre : on ferme, puis on sature, et l'on écrit ce que devient la chaleur dans les deux cas.",
+      "52000",
+      "**90**"
+     ]
+    },
+    {
+     "cellules": [
+      "**52200**",
+      "**L'ouvrage s'isole sans dépendre de ce qui peut manquer.**",
+      "Le transfert se coupe par un moyen qui ne passe ni par le capteur, ni par son fil, ni par une gemme chargée.",
+      "Le manuel dit que le Barrer s'ouvre en l'absence de Trace : la défaillance la plus probable laisse donc l'ouvrage grand ouvert. Une coupure indépendante retourne ce défaut en simple panne.",
+      "Collecteur et commandes de branche",
+      "L'épreuve B faite : on coupe le fil pendant une chauffe et l'on isole tout de même, à la main, dans un temps noté.",
+      "52000",
+      "**90**"
+     ]
+    },
+    {
+     "cellules": [
+      "**52300**",
+      "**L'arrêt est un refroidissement compté, et non un ordre donné.**",
+      "La chaleur déjà déposée dans les dalles et les appuis est estimée et attendue ; les fumées continuent de sortir quand plus rien de magique ne fonctionne.",
+      "« Un ordre d'arrêt n'est jamais un refroidissement instantané » est écrit au manuel. Tant que ce n'est pas mesuré, c'est une phrase — et une phrase ne tient pas un quartier chaud.",
+      "Dalles d'approche, appuis, cheminée",
+      "L'épreuve D faite : on arrête tout sort, le feu continue, et l'on note la sortie des fumées et la tenue des structures jusqu'au froid.",
+      "52000",
+      "**80**"
+     ]
+    },
+    {
+     "cellules": [
+      "**52400**",
+      "**La durée de tenue ininterrompue du circuit est connue, écrite et bornée.**",
+      "Il existe un livre des interruptions du collecteur, et une extinction réglée qui revient sans qu'on ait à la décider chaque fois.",
+      "Un circuit qui ne s'éteint jamais est un terrain, et c'est ce que nous avons fait de mieux qui est le plus fertile. Écrire la durée est le seul moyen de savoir si l'on est déjà en train de nourrir quelque chose.",
+      "Collecteur, et le livre des ateliers",
+      "On ouvre le livre à n'importe quelle saison et l'on dit combien de jours le circuit a tourné sans une interruption complète.",
+      "52000",
+      "**70**"
+     ]
+    },
+    {
+     "cellules": [
+      "**52500**",
+      "**Ce qui sépare les habitants de la chaleur est éprouvé par la main qui l'a accordé.**",
+      "L'écran thermique des traversées habitées est éprouvé, et le compte rendu porte le nom du protecteur, pas le mien.",
+      "Je ne possède pas la Protection. Un écran que j'éprouve moi-même ne prouve que ma confiance en celui qui l'a posé.",
+      "Traversées proches des habitations",
+      "Un compte rendu d'épreuve signé d'un autre office que le mien, avec le récepteur réel de l'écran nommé dedans.",
+      "52000",
+      "**60**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous ouverts",
+   "colonnes": [
+    "🔒 N°",
+    "🏷️ Le verrou ouvert",
+    "⛔ Bloque",
+    "📌 Ce qui est vrai aujourd'hui",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "🔓 Levé quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**52101**",
+      "**Le dissipateur doit pouvoir recevoir ce que les deux autres branches refusent, jusqu'à une capacité mesurée.**",
+      "52100",
+      "La fiche exige qu'il reste disponible quand les autres branches ferment, et ajoute que cela « exige un montage adapté et ne découle pas d'une correction magique automatique ». Ce montage n'est pas décrit. Sa capacité n'est pas mesurée non plus : on sait seulement qu'elle n'est pas infinie.",
+      "",
+      "Montage du collecteur, et l'absence de toute mesure au dossier.",
+      "Le dissipateur a été saturé exprès une fois, son chiffre est écrit, et le montage qui le garde ouvert quand les autres ferment est dessiné."
+     ]
+    },
+    {
+     "cellules": [
+      "**52102**",
+      "**La production du foyer doit pouvoir décroître aussi vite que ses destinations se ferment.**",
+      "52100",
+      "La régulation commande le transfert, pas la combustion : « la mesure commande le transfert concerné ; elle ne contrôle pas à elle seule toute la combustion ». Fermer les branches laisse donc un foyer qui produit encore, et la seule issue écrite est le dissipateur.",
+      "52101",
+      "R11, conduite : les équipes doivent conduire et surveiller le foyer à part.",
+      "Il existe un geste, éprouvé et chronométré, qui réduit la production au rythme où les destinations se ferment — et l'on sait de combien il retarde sur elles."
+     ]
+    },
+    {
+     "cellules": [
+      "**52201**",
+      "**Le transfert doit pouvoir être coupé par une commande qui ne passe pas par la Trace.**",
+      "52200",
+      "« Barrer s'ouvre en absence de Trace. » La perte d'un capteur ou de son fil n'est donc pas un arrêt sûr : c'est une ouverture. Le manuel le dit lui-même, et laisse la chose ouverte.",
+      "",
+      "R11, pannes et limites ; et l'épreuve B de la fiche.",
+      "Une coupure matérielle accessible existe au collecteur, atteignable sans don, et l'on a coupé le fil pour l'éprouver."
+     ]
+    },
+    {
+     "cellules": [
+      "**52202**",
+      "**La perte du capteur doit se voir avant la surchauffe, et non par elle.**",
+      "52200",
+      "Rien n'annonce le silence d'un fil. La règle commune est nette : « aucun capteur ne donne une intelligence ou une connaissance globale du Bastion » — il n'y a donc pas de veille qui nous préviendrait d'ailleurs.",
+      "52201",
+      "Règle commune 11 ; et l'absence de tout capteur de secours au montage.",
+      "Le silence du fil produit un signe que quelqu'un reçoit, à un poste nommé, avant que les supports ne montent."
+     ]
+    },
+    {
+     "cellules": [
+      "**52301**",
+      "**La chaleur déjà déposée dans les supports doit être comptée avant qu'on déclare l'ouvrage arrêté.**",
+      "52300",
+      "« La chaleur accumulée demeure après fermeture de l'admission », et un ordre d'arrêt n'est jamais un refroidissement. Personne ne sait combien de temps une dalle d'approche reste intraversable après qu'on a fermé.",
+      "",
+      "Première recette défensive, et la section Arrêt et entretien.",
+      "On a fermé une fois et noté, d'heure en heure, jusqu'où les dalles et les appuis redescendent — et ce délai est affiché au poste."
+     ]
+    },
+    {
+     "cellules": [
+      "**52302**",
+      "**Les fumées doivent continuer d'évacuer quand toute magie s'arrête.**",
+      "52300",
+      "Les fumées ne suivent pas le transfert magique : elles ont leur trajet matériel. Ce trajet n'a jamais été éprouvé seul, feu vif et sans un signe.",
+      "",
+      "Montage : « Foyer → Cheminée → Extérieur : trajet matériel des fumées ».",
+      "Une chauffe entière a été conduite sans aucune opération magique, et la cheminée a suffi."
+     ]
+    },
+    {
+     "cellules": [
+      "**52401**",
+      "**La date de la dernière interruption complète du circuit doit être écrite quelque part.**",
+      "52400",
+      "Elle ne l'est nulle part. Les fours servent aux ateliers tous les jours, les relèves se passent le collecteur de main en main, et c'est précisément ce que nous appelons bien tenir un ouvrage.",
+      "",
+      "Le livre des ateliers, qui compte ce qu'on brûle et jamais ce qu'on tient.",
+      "Un livre porte chaque interruption complète du collecteur avec son jour, et l'on peut dire la durée en cours sans demander à personne."
+     ]
+    },
+    {
+     "cellules": [
+      "**52402**",
+      "**Il doit exister une extinction réglée que la défense ne lève pas d'elle-même.**",
+      "52400",
+      "Rien n'est prévu. Une menace au rempart est exactement la circonstance où l'on repousserait une extinction, et une menace au rempart est exactement la circonstance où le circuit tourne le plus fort. La question dépasse l'ouvrage : elle engage les ateliers et la ville.",
+      "52401",
+      "Absence de toute règle d'extinction au manuel des recettes.",
+      "Une extinction revient au calendrier des ateliers, et la règle écrite dit qui peut la repousser, de combien, et devant qui il en répond."
+     ]
+    },
+    {
+     "cellules": [
+      "**52501**",
+      "**L'écran des traversées habitées doit être éprouvé par le protecteur qui l'a accordé.**",
+      "52500",
+      "L'écran R06 détourne la chaleur vers un récepteur réel ; ce récepteur n'est nommé nulle part pour nos traversées, et l'accord n'a pas été rééprouvé depuis sa pose. Je ne possède pas la Protection et ne peux pas y suppléer.",
+      "",
+      "R06, et l'absence de compte rendu d'épreuve au dossier des Fournaises.",
+      "Un compte rendu d'un autre office nomme le récepteur de l'écran et dit ce qu'il a subi pendant une chauffe défensive."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🏷️ La clef",
+    "🔓 Ouvre",
+    "💡 Le principe et sa valence",
+    "🧰 Moyens",
+    "💰 Le prix",
+    "👁️ La preuve attendue",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**52110**",
+      "**Saturer le dissipateur exprès, hors défense, pour en connaître le bord**",
+      "52101",
+      "On ne mesure une capacité qu'en la dépassant. Fait un jour choisi, sans menace, avec les ateliers prévenus, c'est une journée de combustible ; fait sous la menace, c'est l'épreuve C au pire moment.",
+      "M05 · M08 · M06",
+      "Une journée de chauffe et le combustible qui va avec. Un secteur d'ateliers privé de sa branche ce jour-là.",
+      "Un chiffre de saturation, et le comportement des appuis au-delà.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**52111**",
+      "**Accorder la fermeture des branches à la réduction du foyer dans un seul geste**",
+      "52102",
+      "Tant que fermer et réduire sont deux gestes de deux mains, l'écart entre les deux est un surplus qui cherche une issue. Les lier par un accord enchanté rend l'écart borné au lieu d'être laissé à la présence d'esprit d'un homme.",
+      "M05 · M06",
+      "Un accord entre deux praticiens distincts — je conduis, l'enchanteur fixe — et la relève de cet accord ensuite.",
+      "Un écart mesuré, en temps, entre la fermeture de la dernière branche et la baisse effective au foyer.",
+      "**à étudier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**52210**",
+      "**Doubler le Barrer d'une coupure matérielle, à la main, au collecteur**",
+      "52201",
+      "La règle commune veut déjà que les mouvements prévus soient repris par des appuis et verrous matériels. Ce qui vaut pour les panneaux vaut pour une admission : ce qui peut se fermer sans magie doit pouvoir se fermer sans magie.",
+      "M05 · M02",
+      "Une pièce de plus au collecteur, et la place pour l'atteindre chaud.",
+      "Le fil coupé pendant une chauffe, et l'isolement obtenu tout de même, dans un temps noté.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**52211**",
+      "**Faire battre la Trace, pour que son silence s'entende**",
+      "52202",
+      "Un fil qui ne dit rien et un fil rompu se ressemblent. Un signal régulier les sépare : ce n'est plus l'alerte qu'on attend, c'est le battement dont l'absence alerte. L'alerte filaire locale existe déjà au Bastion ; on lui demande ici l'inverse de ce qu'elle fait.",
+      "M06 · M07",
+      "Un poste occupé qui reçoive le battement. La Trace commande mais ne fournit pas : il faut une alimentation réelle au signal.",
+      "Un fil coupé au hasard d'une chauffe, et le poste qui le dit avant que les supports montent.",
+      "**à étudier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**52310**",
+      "**Compter la chaleur résiduelle au lieu de la déclarer**",
+      "52301",
+      "Le délai de retour au froid est un nombre qu'on obtient en attendant une fois avec un registre. Affiché au poste, il remplace l'estimation qu'un homme pressé ferait de tête devant une dalle qui ne fume plus.",
+      "M10 · M02",
+      "Une fermeture, et quelqu'un qui reste jusqu'au froid avec de quoi écrire.",
+      "Une colonne d'heures et d'états, du moment de la fermeture au moment où l'on retraverse.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**52311**",
+      "**Conduire une chauffe entière sans un seul signe**",
+      "52302",
+      "L'épreuve D ne se simule pas : on retire la magie et l'on regarde ce que l'ouvrage matériel fait tout seul. C'est aussi la seule manière de savoir si les manœuvres du foyer restent atteignables quand plus rien n'assiste.",
+      "M05 · M11",
+      "Une chauffe conduite à la main seule, et le risque assumé de la conduire sans régulation.",
+      "La cheminée a suffi, les manœuvres étaient atteignables, et l'on sait maintenant ce qu'elles coûtent en hommes.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**52410**",
+      "**Tenir le livre des interruptions du collecteur**",
+      "52401",
+      "Nous savons compter ce que nous brûlons ; nous ne comptons pas ce que nous tenons. Une ligne par interruption complète, et la durée en cours devient lisible par n'importe qui, à n'importe quel jour, sans la mémoire d'un homme.",
+      "M05",
+      "Une ligne par interruption, et la discipline de l'écrire quand on est content de ne pas s'être arrêté.",
+      "On ouvre le livre et l'on dit la durée en cours sans demander à personne.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**52411**",
+      "**Porter l'extinction au calendrier des ateliers, et non à la décision du jour**",
+      "52402",
+      "Une extinction qu'on décide chaque fois est une extinction qu'on repousse chaque fois qu'elle compte. Inscrite d'avance, elle se lève par une main nommée qui en répond — ce qui déplace la question de l'ouvrage vers la Maison, et c'est là qu'elle doit être.",
+      "M05 · M01",
+      "Des ateliers arrêtés à jour dit, et une règle qui me retire le droit de la lever seule.",
+      "Une extinction passée au calendrier, tenue une fois, avec le nom de qui aurait pu la lever et ne l'a pas fait.",
+      "**à étudier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**52510**",
+      "**Faire éprouver l'écran par la main qui l'a accordé**",
+      "52501",
+      "L'accord d'enchantement demande deux praticiens distincts ; son épreuve aussi. Je fournis la chauffe, il fournit le verdict — et le récepteur de l'écran se trouve nommé au passage, ce qu'aucun papier ne fait aujourd'hui.",
+      "M09 · M05",
+      "Une chauffe défensive de démonstration, et le temps d'un protecteur qui n'est pas de mon office.",
+      "Un compte rendu signé d'un autre office, nommant le récepteur réel de l'écran.",
+      "**retenue**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions",
+   "colonnes": [
+    "⚔️ N°",
+    "🏷️ L'action",
+    "🗝️ Réalise",
+    "📝 Ce qu'on fait",
+    "📍 Où",
+    "🪶 Office",
+    "🧰 Moyens",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "⏳ État",
+    "📅 Jour dû"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**52120**",
+      "♨️ Saturer le dissipateur et écrire son bord",
+      "52110",
+      "Prévenir les ateliers, fermer la branche civile puis la défensive, et pousser jusqu'à ce que le dissipateur ne reprenne plus. Noter à quel moment il cesse de reprendre, puis ce que subissent les appuis au-delà.",
+      "Les Fournaises, collecteur et dissipateur",
+      "O01 — Héloïse",
+      "M05 · M08 · M06",
+      "",
+      "Un chiffre de saturation écrit au dossier de l'ouvrage, et l'état des appuis après.",
+      "à faire",
+      "avant toute ouverture de la branche défensive"
+     ]
+    },
+    {
+     "cellules": [
+      "**52121**",
+      "⏱️ Chronométrer l'écart entre la fermeture des branches et la baisse au foyer",
+      "52111",
+      "Fermer les deux destinations et mesurer combien de temps le foyer produit encore à pleine main. Le nombre obtenu dit si l'accord enchanté du geste unique vaut la peine d'être demandé, ou si une consigne suffit.",
+      "Les Fournaises, foyer et collecteur",
+      "O03 — conduite du foyer",
+      "M05 · M06",
+      "52120",
+      "Un écart en temps, mesuré trois fois, et l'avis du responsable de secteur sur ce qui le raccourcirait.",
+      "à faire",
+      "après 52120, dans la même semaine de chauffe"
+     ]
+    },
+    {
+     "cellules": [
+      "**52220**",
+      "🔩 Poser une coupure matérielle au collecteur et l'éprouver fil coupé",
+      "52210",
+      "Installer un sectionnement atteignable sans don et accessible chaud, puis couper le fil de Trace en pleine chauffe et isoler par cette seule pièce. C'est l'épreuve B, faite au lieu d'être écrite.",
+      "Les Fournaises, collecteur",
+      "O01 — Héloïse",
+      "M05 · M02 · M07",
+      "",
+      "Le temps entre la coupure du fil et l'isolement obtenu, et l'état des supports à cet instant.",
+      "à faire",
+      "avant toute ouverture de la branche défensive"
+     ]
+    },
+    {
+     "cellules": [
+      "**52221**",
+      "🧵 Monter un battement sur la Trace et poster quelqu'un qui l'écoute",
+      "52211",
+      "Donner au fil un signal régulier, alimenté par une source réelle, et nommer le poste qui le reçoit. Puis couper le fil sans prévenir le poste, et voir s'il le dit avant que les supports montent.",
+      "Les Fournaises, et le poste de secteur",
+      "O03 — conduite du foyer",
+      "M06 · M07 · M01",
+      "52220",
+      "Une coupure non annoncée rapportée par le poste, avec l'heure, avant tout échauffement anormal.",
+      "à faire",
+      "après 52220"
+     ]
+    },
+    {
+     "cellules": [
+      "**52320**",
+      "🧊 Fermer l'admission et rester jusqu'au froid, registre en main",
+      "52310",
+      "Après une chauffe défensive de démonstration, fermer et ne pas partir : noter d'heure en heure l'état des dalles et des appuis jusqu'à ce qu'on puisse retraverser. Afficher le délai obtenu au poste.",
+      "Dalles d'approche et appuis",
+      "O01 — Héloïse",
+      "M10 · M02",
+      "52120",
+      "Une colonne d'heures affichée au poste, de la fermeture au retour du froid.",
+      "à faire",
+      "à la première chauffe défensive de démonstration"
+     ]
+    },
+    {
+     "cellules": [
+      "**52321**",
+      "🕯️ Conduire une chauffe entière sans une seule opération magique",
+      "52311",
+      "Foyer, air, cheminée, manœuvres à la main : l'épreuve D en vrai. On regarde si les fumées sortent, si les manœuvres restent atteignables et combien d'hommes il faut pour tenir ce que la magie tenait.",
+      "Les Fournaises, foyer et cheminée",
+      "O03 — conduite du foyer",
+      "M05 · M11",
+      "52220",
+      "Une chauffe conduite de bout en bout sans un signe, et le compte des hommes qu'elle a demandés.",
+      "à faire",
+      "après 52220, et pas avant"
+     ]
+    },
+    {
+     "cellules": [
+      "**52420**",
+      "📖 Ouvrir le livre des interruptions du collecteur",
+      "52410",
+      "Une ligne par interruption complète : le jour, la durée, la raison. Y porter d'abord ce qu'on peut reconstituer honnêtement, et marquer en toutes lettres là où l'on ne sait pas — la première ligne dira sans doute « depuis une date qu'on ignore ».",
+      "Les Fournaises, avec le livre des ateliers",
+      "O01 — Héloïse",
+      "M05",
+      "",
+      "Un livre ouvert, sa première ligne écrite, et l'ignorance du départ écrite dedans plutôt que comblée.",
+      "à faire",
+      "avant la prochaine relève d'accord"
+     ]
+    },
+    {
+     "cellules": [
+      "**52421**",
+      "🗓️ Porter devant la Maison la règle d'extinction et la main qui peut la lever",
+      "52411",
+      "Présenter à la cheffe de la Maison ce que 52420 aura montré, et demander une extinction au calendrier avec sa règle de levée. Ce n'est plus une décision d'ouvrage : elle arrête des ateliers, et elle doit m'être retirée à moi.",
+      "Devant la Maison",
+      "O04 — la Maison",
+      "M05 · M01",
+      "52420",
+      "Une règle écrite qui nomme qui peut repousser l'extinction, de combien, et devant qui il en répond.",
+      "à faire",
+      "après 52420"
+     ]
+    },
+    {
+     "cellules": [
+      "**52520**",
+      "🛡️ Demander au protecteur l'épreuve de son écran, pendant ma chauffe",
+      "52510",
+      "Fournir la chauffe défensive de démonstration et lui laisser l'épreuve, le verdict et le compte rendu. Ne pas y toucher. Obtenir surtout le nom du récepteur réel de l'écran, qui ne figure sur aucun de nos papiers.",
+      "Traversées proches des habitations",
+      "O02 — Protection des courtines",
+      "M09 · M05",
+      "52320",
+      "Un compte rendu d'un autre office que le mien, nommant le récepteur de l'écran et ce qu'il a subi.",
+      "à faire",
+      "à la première chauffe défensive de démonstration"
+     ]
+    }
+   ]
+  }
+ ]
+}

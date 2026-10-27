@@ -1,0 +1,164 @@
+{
+  "id": "registre-etats-murtagh-fraser",
+  "titre": "Les choses suivies par murtagh-fraser",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée au murtagh-fraser",
+  "type": "registre",
+  "tenu_par": "murtagh-fraser",
+  "acteur_id": "murtagh-fraser",
+  "prive": true,
+  "pages": [
+    "Catégories : lieux-et-passages, objets-et-documents, ressources-et-populations, organisations-et-dispositifs, usages-et-institutions, situations-et-processus. Une ligne par chose ou situation. L’identité est une référence stable ; plusieurs PNJ citent la même chose au lieu de la recréer. Quand une table canonique du moteur porte déjà le fait, elle garde autorité : la ligne renvoie à cette adresse. Les évolutions arithmétiques vont dans les mains de leur maison. Les lignes purement descriptives sont leur propre autorité jusqu’à matérialisation. Accès au cahier technique n’est pas connaissance du personnage : Qui sait quoi doit être respecté."
+  ],
+  "colonnes": [
+    "Référence",
+    "Catégorie",
+    "Identité et fonction",
+    "Où",
+    "Détenteur ou responsable",
+    "État présent",
+    "Quantité ou propriétés",
+    "Usages et limites",
+    "Liens",
+    "Évolution et échéances",
+    "Statut",
+    "Source ou provenance",
+    "Qui sait quoi",
+    "Date de mise à jour",
+    "Autorité existante"
+  ],
+  "lignes": [
+    {
+      "cellules": [
+        "R.1",
+        "situations-et-processus",
+        "Présence et place actuelle de Murtagh à Leoch",
+        "Leoch",
+        "Murtagh pour sa conduite ; autorités de Leoch pour les accès",
+        "Murtagh est actif, libre et présent à Leoch ; son souci déclaré est la sécurité de Jamie.",
+        "Situation personnelle sans office ni garantie de durée",
+        "Permet ses occupations ordinaires et sa disponibilité ; ne donne ni autorité sur le clan ni accès à tout Leoch.",
+        "Affaire C.1 ; M.5",
+        "À réviser après fait joué ou changement d’état.",
+        "établi",
+        "etat/personnages.json ; etat/intentions.json",
+        "Murtagh connaît sa présence et sa liberté actuelle ; les PJ n’apprennent rien par ce registre.",
+        "4 mai 1743, 10 h",
+        "etat/personnages.json ; etat/intentions.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.2",
+        "objets-et-documents",
+        "Paquet personnel ordinaire de Murtagh",
+        "Avec Murtagh ou à son couchage ordinaire dans Leoch",
+        "Murtagh",
+        "Effets modestes en usage, sans inventaire chiffré.",
+        "Vêtements de laine et de lin, plaid ou manteau, chaussures solides, ceinture, petit couteau utilitaire et nécessaire sommaire d’entretien.",
+        "Se vêtir, séjourner et entretenir sommairement ses effets ; ne constitue ni réserve de voyage, ni armement conséquent, ni preuve d’argent.",
+        "Affaire M.3 ; T.2",
+        "Usure, quantité précise et remplacement seulement après constat ou obtention.",
+        "peint",
+        "Implantation ordinaire plausible au regard du milieu et de la situation ; aucune source canonique précise",
+        "Murtagh connaît ses propres effets ; autrui ne connaît que ce qu’il voit réellement.",
+        "4 mai 1743, 10 h",
+        "Description locale du registre jusqu’à matérialisation plus précise"
+      ]
+    },
+    {
+      "cellules": [
+        "R.3",
+        "lieux-et-passages",
+        "Couchage ordinaire de Murtagh à Leoch",
+        "Dans Leoch, emplacement précis non fixé",
+        "Autorité domestique de Leoch pour l’espace ; Murtagh pour ses effets",
+        "Une place simple pour dormir et garder son paquet existe ; aucune chambre privée, serrure, coffre ou cache privilégiée n’est peinte.",
+        "Couchage et rangement modestes",
+        "Repos et dépôt des effets ordinaires ; ne fournit ni secret, ni passage, ni accès nouveau.",
+        "Affaire T.1 ; R.2",
+        "À préciser uniquement si une scène ou un plan local en dépend.",
+        "peint",
+        "Implantation ordinaire minimale nécessaire à sa présence à Leoch",
+        "Murtagh connaît son propre couchage ; sa précision technique n’est communiquée à personne par le registre.",
+        "4 mai 1743, 10 h",
+        "Description locale, subordonnée aux scènes et futurs plans de Leoch"
+      ]
+    },
+    {
+      "cellules": [
+        "R.4",
+        "lieux-et-passages",
+        "Espaces ordinaires de Leoch familiers à Murtagh",
+        "Leoch",
+        "Autorités de Leoch pour les accès",
+        "Murtagh pratique les espaces communs nécessaires au couchage, aux repas, à la cour et aux abords ordinaires des écuries ; leur plan détaillé n’est pas fixé.",
+        "Familiarité d’usage, sans distance, serrure, garde ni raccourci défini",
+        "Permet de s’orienter dans l’ordinaire ; ne donne accès à aucun appartement privé, réserve, porte fermée ou passage secret.",
+        "Affaire K.2 ; T.4",
+        "Toute précision spatiale exige un plan établi ou un passage joué.",
+        "peint",
+        "Implantation plausible d’un homme séjournant à Leoch, bornée au lieu global",
+        "Murtagh connaît les usages qu’il pratique ; aucun plan n’est transmis aux PJ.",
+        "4 mai 1743, 10 h",
+        "etat/lieux.json pour Leoch ; registre pour la familiarité descriptive"
+      ]
+    },
+    {
+      "cellules": [
+        "R.5",
+        "usages-et-institutions",
+        "Habitudes personnelles de vigilance de Murtagh",
+        "Leoch",
+        "Murtagh",
+        "Il garde ses effets rassemblés, observe avant de conclure, demande directement à Jamie ce qui le concerne et distingue ce qu’il a vu de ce qu’il soupçonne.",
+        "Habitudes personnelles, non office de garde ni règle du clan",
+        "Soutient sa disponibilité et la prudence de ses alertes ; ne révèle pas un danger caché et n’oblige personne à répondre.",
+        "Affaire C.2 ; C.3 ; K.1 ; K.2",
+        "Révisables si une journée vécue les contredit.",
+        "peint",
+        "Choix d’incarnation cohérent avec les traits loyal, réservé et vigilant",
+        "Murtagh connaît ses habitudes ; elles ne préjugent pas de ses décisions face à un fait nouveau.",
+        "4 mai 1743, 10 h",
+        "Description locale du registre"
+      ]
+    },
+    {
+      "cellules": [
+        "R.6",
+        "situations-et-processus",
+        "Responsabilité personnelle envers Jamie",
+        "Leoch tant que tous deux y sont réellement présents",
+        "Murtagh pour son engagement ; Jamie pour ses propres décisions",
+        "Murtagh se tient pour responsable de veiller sur son filleul, sans office formel ni droit de commander à sa place.",
+        "Engagement personnel durable, portée matérielle non garantie",
+        "Autorise Murtagh à proposer, avertir et agir avec ses propres moyens ; n’engage ni Jamie, ni Rupert, ni Angus, ni le clan.",
+        "Affaire C.1 ; M.1 ; V.2",
+        "Évolue seulement par fait joué, parole reçue ou changement de situation.",
+        "établi",
+        "etat/relations.json ; objectif personnel établi",
+        "Murtagh connaît son engagement ; Jamie connaît leur lien, non les décisions futures préparées ici.",
+        "4 mai 1743, 10 h",
+        "etat/relations.json ; etat/personnages.json"
+      ]
+    },
+    {
+      "cellules": [
+        "R.7",
+        "lieux-et-passages",
+        "Routes praticables depuis Leoch et conditions d’un déplacement extérieur",
+        "Hors de Leoch",
+        "Inconnu",
+        "Aucun raccord, itinéraire, durée, relais ou danger de route n’est établi dans le réseau actuel.",
+        "Distance, chemin, accueil et moyens requis inconnus",
+        "Ne peut servir à dater un départ, une arrivée, une poursuite ou un message.",
+        "Affaire T.5",
+        "À chercher auprès d’une source accessible ou par trajet effectivement joué.",
+        "inconnu",
+        "canon/implantation.md ; etat/chemins.json",
+        "Murtagh ne reçoit aucune route par l’existence technique de cette ligne.",
+        "4 mai 1743, 10 h",
+        "etat/chemins.json"
+      ]
+    }
+  ]
+}

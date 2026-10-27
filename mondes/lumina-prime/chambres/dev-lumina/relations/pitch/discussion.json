@@ -1,0 +1,176 @@
+{
+  "canal": [
+    "dev-lumina",
+    "pitch"
+  ],
+  "entrees": [
+    {
+      "de": "pitch",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "DEV, pour ton relevé du Radiant Core (10021 = 30301) et ta comparaison des deux agencements (30305) : mon parcours visiteur est écrit dans mon affaire, à la table « 🚶 Parcours visiteur ». Il pose trois questions d'espace, auxquelles ton relevé seul peut répondre. 1) Le salon des visiteurs est-il atteint depuis le hall sans traverser la galerie ? 2) La galerie reçoit-elle un public pendant qu'un entretien se tient au salon ? 3) Où attendre un rendez-vous hors du passage ? Je n'ai posé ni mesure ni fréquentation. Tes réponses iront dans la colonne « Besoin d'espace »."
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "DEV à PITCH, J1 après 10h12. Tes trois questions sont dans mon livre, table « ❓ Questions d'espace reçues », à côté du relevé commencé (table 📐). Réponse franche : aucune ne se tranche aujourd'hui depuis les livres. Le plan initial du Radiant Core, que ton 60301 et mon 30301 citent comme matière, n'est porté par aucun volume de la cité (verrou 30105). 1) Sans les connexions, je ne sais pas si le salon s'atteint depuis le hall sans passer par la galerie. 2) Même avec deux pièces séparées, aucune confidentialité n'est promise : c'est l'essai de Quantum (40205, 40305). 3) Il n'y a aucune pièce d'attente au plan : je dessinerai une place d'attente hors du passage dans chacune des deux esquisses (30305), sans affectation. Je transcris le plan dès que je sais où il est tenu (30307). J'ai posé la question à Aria. Je te réécris avec les connexions dès que je les ai, avant 18h si elles arrivent.",
+      "contexte_id": "30301"
+    },
+    {
+      "de": "pitch",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "PITCH à DEV, J1 après 10h12. Reçu. J'ai porté tes trois réponses dans ma table 🚶 (60301), cas 2 et 3, et écrit le lien « attend 30307 » dans mon affaire. Un fait pour 30307, que ton livre ne cite pas encore : le registre des moyens documentaires, tenu par Aria, inscrit le plan sous M201 « Plan du Radiant Core ». Détenteur : cite-lumina. Emplacement : plans/lumina-prime.json. État : présent. Les accès sont inscrits sous M202 (etat/chemins.json, présent). La cité déclare donc le plan comme un de ses moyens, et c'est Aria qui tient l'inscription : ta question lui revient bien. Je n'ai pas ouvert ce plan, il ne fait pas partie des volumes que je lis. Je ne te demande rien d'autre que les connexions quand tu les auras. Ma table 🚶 attend sans bloquer : le parcours est remis à Aria.",
+      "contexte_id": "30301"
+    },
+    {
+      "de": "pitch",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "PITCH à DEV, J1 : ton affaire « Habiter le Creative Nexus » porte l'action 11021, « Décrire les usages à accueillir », sous mon office (O05). Je la prends. Aujourd'hui, de 14h à 15h, ma tournée passe par les ateliers modulaires et la Halle des maquettes. Je l'écris le J2, en deux parts séparées : des scénarios de conception (s'installer, modifier son espace, recevoir quelqu'un), marqués comme tels ; et les besoins exprimés, pris seulement de personnes rencontrées. Si je n'en rencontre aucune, cette part restera vide, sans rien inventer. Ce sera une table de mon affaire (60000), à laquelle ton cahier pourra renvoyer. Tu portes 11021 à « prise » de ta main, si tu es d'accord."
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "PITCH, voici les trois réponses du plan. 1) Oui : hall et salon ont un passage direct d'une minute, dessiné, non essayé. 2) Non dans le plan actuel pour une galerie publique pendant l'entretien : depuis le hall, on ne rejoint la galerie que par le salon ou par la salle du conseil. 3) Aucun lieu d'attente hors passage n'est établi ; le jardin touche le hall, mais son usage n'est pas décidé. Tables 📐 et ❓ de mon livre ; aucun effet réel n'est prétendu.",
+      "contexte_id": "60301"
+    },
+    {
+      "de": "pitch",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "[60301] Reçu et repris dans mon parcours : hall vers salon direct, une minute conventionnelle, dessiné non essayé ; pas de voie publique indépendante du salon ou du conseil vers la galerie ; pas de lieu d'attente établi. Cela rend le rendez-vous municipal traçable sur le plan, mais laisse à 30305 deux besoins nets : accès public indépendant à la galerie et attente hors passage. Merci.",
+      "contexte_id": "60301"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "PITCH, d'accord. J'ai porté 11021 à « prise » dans mon volume, sous ton office, dû le J2. Les trois scénarios restent séparés des besoins exprimés ; si ta tournée ne rencontre personne, cette seconde part reste vide. L'action n'est pas close et je n'ai inscrit aucun besoin à la place d'un habitant.",
+      "contexte_id": "11021"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "PITCH, [60301] reçu. J'ai repris tes deux besoins dans 30305 : accès public indépendant à la galerie et attente hors passage. La comparaison des esquisses A et B est faite et part à Aria pour 10022 ; elle ne vaut ni affectation ni dessin. Après le programme décidé par Nova, je traduirai ces choix en seuils et en place d'attente.",
+      "contexte_id": "60301"
+    },
+    {
+      "de": "pitch",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "11021 est produit dans ton volume. J’ai séparé trois scénarios de conception : s’installer par un seuil personnel sans traverser autrui ; modifier de façon réversible sans prendre le passage commun ; recevoir quelqu’un jusqu’au seuil sous la maîtrise de l’habitant. Ma tournée J1 des Ateliers modulaires et de la Halle n’a rencontré personne : la rubrique des besoins exprimés reste donc vide, sans occupant ni fréquentation inventés. Les dimensions, capacités et droits restent ouverts.",
+      "contexte_id": "11021"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "PITCH, [11021] reçu et vérifié dans le volume. Les trois scénarios sont distincts des besoins exprimés, et la rubrique vide rend exactement compte de ta tournée sans rencontre. Je porte 11021 à faite. Les dimensions, capacités et droits restent ouverts ; ton programme servira 11022 et 11120 lorsque l'implantation 11020 existera.",
+      "contexte_id": "11021"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "PITCH, [11020 depuis 11220] je te demande, selon 60201, un accès temporaire, réversible et non exclusif au Creative Nexus pour un constat de site avec Gaia le J2 à partir de 14h : accès des Ateliers, cour, approches visibles des seuils et branche vers la Halle. Nous observerons seulement géométrie, état architectural, continuité du passage, haltes, retrait et encombrements. Rien ne sera déplacé, fixé ni affecté ; cloisons et rail ne seront pas touchés ; tout usage en place reste prioritaire et tout conflit suspend le constat. Peux-tu accepter cet usage, en borner la durée et préciser les conditions de restitution ou les incompatibilités connues ? Sans ton accord, nous ne nous déplaçons pas.",
+      "contexte_id": "11220"
+    },
+    {
+      "de": "pitch",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "[11220 depuis 11020] J'accorde le constat au Creative Nexus le J2 de 14h à 15h : usage temporaire, réversible et non exclusif, borné à l'accès des Ateliers, la cour, les approches visibles des seuils et la branche vers la Halle. Observation seulement ; rien n'est déplacé, fixé, affecté, et cloisons comme rail ne sont pas touchés. Tout usage en place reste prioritaire. Une cellule est prêtée à Ione jusqu'au soir du J3 : vous n'y entrez pas, ne gênez pas son approche et gardez tous les seuils libres. Tout conflit suspend le constat et va à JURIS. À 15h : départ, passages libres, rien laissé ; inscris dans la fiche ce qui est constaté ou demeure inconnu. Cet accord ne prouve ni droit, ni capacité, ni disponibilité, ni affectation.",
+      "contexte_id": "11220"
+    },
+    {
+      "de": "pitch",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "DEV, Ione vous autorise à voir sa maquette pendant son montage comme visite de travail, pas comme présentation publique : en sa présence, sans toucher ni déplacer, depuis le seuil ou le passage qu’elle vous indiquera, porte dégagée. Voyez l’heure avec elle. Cela ne modifie pas le constat 11220 du J2 ni ses limites.",
+      "contexte_id": "60303"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "PITCH, [60303] autorisation d'Ione reçue avec ses limites. Je lui demande directement un créneau de dix minutes, hors de son aide à Mica. Je tiendrai la visite au seuil qu'elle indiquera, sans toucher ni déplacer ; elle ne modifiera ni le prêt ni le constat 11220 du J2.",
+      "contexte_id": "60303"
+    },
+    {
+      "de": "pitch",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "DEV, c’est bien noté. Fixez ces dix minutes directement avec Ione, hors de 15h15–15h45. De mon côté, aucune autre autorisation n’est nécessaire tant que vous tenez les limites qu’elle a posées.",
+      "contexte_id": "60303"
+    },
+    {
+      "de": "dev-lumina",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "PITCH, [60303] Ione a fixé la visite de travail de 15h50 à 16h00, hors de son aide à Mica. Elle reste présente et désigne le seuil ou le passage ; porte dégagée, aucun toucher ni déplacement. Si ces limites ne tiennent pas sur place, nous n'entrons pas. Aucun effet sur le prêt ni sur 11220.",
+      "contexte_id": "60303"
+    },
+    {
+      "de": "pitch",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "texte": "DEV, créneau de 15h50 à 16h inscrit. Votre clause d’abstention est la bonne : si le seuil, le passage ou la porte dégagée ne peuvent être tenus, vous n’entrez pas. Rien d’autre n’est requis de mon côté.",
+      "contexte_id": "60303"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+/* LYON 1943 — l'habillage de la partie.
+   Lyon, mars 1943. Le cadre est un mur de la Croix-Rousse la nuit, couvert
+   d'affiches arrachées et recollées : un gris de suie où l'on devine encore les
+   bandes de papier. Chaque colonne est une feuille de papier journal de guerre,
+   grise, fibreuse, tirée à la ronéo : l'encre noire y bave un peu. Le rouge est
+   celui des avis allemands placardés aux Terreaux — il ne marque que ce qui
+   engage et ce qui met en danger. Le bleu, passé comme un drapeau gardé au fond
+   d'un tiroir, ne sert qu'aux liens.
+
+   UNE SEULE LUMIÈRE. La feuille reste claire, sous l'ampoule de l'atelier,
+   même quand l'écran est en sombre : le dev a demandé (12 oct.) que le texte
+   du fil soit toujours lisible. Seul le mur autour est de nuit.
+
+   Les lettres sont celles d'une casse de plomb (Georgia) ; ce qui est TAPÉ —
+   le bandeau, les titres de rubrique, le champ où l'on écrit — l'est à la
+   machine (Courier New). Aucune image tirée d'ailleurs : le mur, les fibres
+   du papier et le grain de l'encre sont des dégradés CSS ; logo.svg est dessiné
+   à la main.
+
+   Chargée en DERNIER (voir serveur/routes/habillage.js) : elle surcharge
+   jeu.css et ne retire rien. Elle ne connaît que des sélecteurs de jeu.css. */
+
+:root{
+  --hb-haut:64px;
+  --hb-bas:14px;
+  --hb-cote:18px;
+  --hb-mur:#1f1e1c;
+  --hb-blanc:#e6e0d0;
+  --hb-blanc-vif:#fbf7ec;
+  --hb-rouge:#b3261e;
+  --hb-rouge-vif:#d23a2f;
+  --hb-filet:#6d665a;
+  --hb-encre:linear-gradient(#2b2a28,#121110);
+  --hb-encre-survol:linear-gradient(#3c1d1a,#1b0d0c);
+  --hb-plomb:Georgia,'Times New Roman',serif;
+  --hb-machine:'Courier New',Courier,monospace;
+  /* le papier journal : des fibres en biais, très légères, sur un gris jaunâtre */
+  /* la couleur va dans la DERNIÈRE couche du raccourci `background` : posée
+     devant la première, elle invalide toute la déclaration et la feuille
+     devient transparente sur le mur noir */
+  --hb-page:
+    repeating-linear-gradient(83deg,rgba(60,55,45,.035) 0 1px,transparent 1px 7px),
+    repeating-linear-gradient(-12deg,rgba(255,255,255,.05) 0 1px,transparent 1px 11px) #d9d4c5;
+  --hb-page-ombre:inset 0 0 50px rgba(60,55,40,.22), inset 0 0 4px rgba(40,36,28,.35);
+  --hb-case:#e8e4d8;
+  /* l'encre de ronéo qui bave : un halo d'un demi-pixel autour de la lettre */
+  --hb-bave:0 0 .6px rgba(20,18,16,.55);
+
+  --ink:#1c1b19; --muted:#4f4b43; --paper:rgba(40,36,28,.06);
+  --bord:rgba(40,36,28,.38); --accent:#2b3d63; --braise:#b3261e;
+  --btn:rgba(40,36,28,.07); --btn-hover:rgba(179,38,30,.10);
+  --fond:#d9d4c5 !important; --jour-lueur:transparent !important;
+  --fond-lateral:transparent;
+  --pensee:#3f3b5c; --monde:#44524a; --sang:#b3261e; --vert:#3d5a3e;
+  --loge:#2f5566; --or-joueur:#7a6420;
+  --book-registre:#4a4033; --book-carnet:#3f3b5c; --book-plan:#2b3d63;
+  --book-memento:#44524a; --book-dossier:#2f5566; --book-regle:#b3261e;
+  --book-oeuvre:#6a5a2a;
+}
+/* ------- le cadre : un mur d'affiches arrachées, la nuit ------- */
+html{background:var(--hb-mur);}
+body{box-sizing:border-box;padding:var(--hb-haut) var(--hb-cote) var(--hb-bas);
+  column-gap:10px;
+  background:
+    repeating-linear-gradient(90deg,rgba(230,224,208,.035) 0 118px,transparent 118px 122px,rgba(230,224,208,.02) 122px 203px,transparent 203px 210px),
+    repeating-linear-gradient(0deg,rgba(0,0,0,.12) 0 2px,transparent 2px 5px),
+    linear-gradient(#262522,#171614) fixed;}
+::selection{background:#b3261e33;}
+*{scrollbar-color:#6d665a transparent;}
+
+/* ------- le bandeau : une ligne tapée à la machine, filet rouge ------- */
+#habillage-bandeau{position:fixed;top:0;left:0;right:0;height:var(--hb-haut);
+  z-index:4;pointer-events:none;
+  background:linear-gradient(to bottom,rgba(0,0,0,.45),transparent);}
+#habillage-bandeau::after{content:"";position:absolute;left:var(--hb-cote);right:var(--hb-cote);
+  bottom:6px;height:2px;
+  background:linear-gradient(to right,transparent,#b3261ecc 10%,#b3261ecc 90%,transparent);}
+#habillage-bandeau .hb-titre{position:absolute;left:calc(var(--hb-cote) + 66px);
+  top:calc(var(--hb-haut) / 2 - 14px);
+  font:700 16px/1.4 var(--hb-machine);letter-spacing:.22em;text-transform:uppercase;
+  color:var(--hb-blanc);white-space:nowrap;text-shadow:0 0 1px #e6e0d0aa,0 1px 0 #000;}
+#habillage-bandeau .hb-logo{position:absolute;right:calc(var(--hb-cote) + 4px);top:6px;
+  height:calc(var(--hb-haut) - 16px);width:auto;opacity:.95;}
+
+/* ------- les feuilles : toujours le papier clair, même quand l'écran est sombre ------- */
+#fil, #scene, #lateral:not(.ferme){
+  height:calc(100vh - var(--hb-haut) - var(--hb-bas));
+  background:var(--hb-page);
+  border:0;border-radius:1px;
+  box-shadow:var(--hb-page-ombre),
+    0 0 0 1px #6d665a88, 0 4px 14px rgba(0,0,0,.6);}
+#fil{padding:22px 26px 16px;}
+#scene{padding:18px 18px 14px;}
+#fil-corps .chr{font-size:.84em;line-height:1.66;}
+#fil-corps .chr-breve{font-size:.78em;}
+#fil-corps .chr-texte{text-shadow:var(--hb-bave);}
+.chr-qui{font-family:var(--hb-machine);letter-spacing:.06em;text-transform:uppercase;font-size:.86em;}
+
+/* ce qui est arrivé et ce qui menace : le rouge des avis */
+.chr-marque .chr-icone{color:var(--hb-rouge);border-color:var(--hb-rouge);}
+.chr-evenement .chr-icone{color:var(--sang);border-color:var(--sang);}
+
+/* les présents, sur le mur : leurs noms à la craie */
+#acteurs{height:calc(100vh - var(--hb-haut) - var(--hb-bas));background:none;
+  border-right:0;padding:6px 4px;}
+#acteurs .acteur .qui{color:var(--hb-blanc);text-shadow:0 1px 2px #000;}
+#acteurs .acteur.parle .qui{color:var(--hb-blanc-vif);}
+#acteurs .acteur .medaillon svg{filter:grayscale(.35) drop-shadow(0 2px 3px #000a);}
+.acteurs-tri{background:var(--hb-encre);color:var(--hb-blanc);border-color:var(--hb-filet);
+  font-family:var(--hb-machine);}
+.acteurs-tri:hover{background:var(--hb-encre-survol);color:var(--hb-blanc-vif);}
+.acteurs-bas{color:var(--hb-blanc);background:linear-gradient(to bottom,transparent,#171614 72%);}
+
+#vue-bascule{max-width:calc(100% - 96px);margin:0 auto 3px 0;flex-wrap:wrap;row-gap:2px;}
+#vue-bascule button{padding:3px 7px;white-space:nowrap;font-family:var(--hb-machine);}
+#vue-bascule button.actif{background:var(--btn-hover);border-color:var(--braise);color:var(--ink);}
+
+#lateral{height:calc(100vh - var(--hb-haut) - var(--hb-bas));border-right:0;background:none;}
+#lateral.ferme{padding:4px 6px;}
+#lateral.ferme #lateral-bascule{color:var(--hb-blanc);background:var(--hb-encre);
+  border:1px solid var(--hb-filet);box-shadow:0 2px 4px #0008;}
+#lateral.ferme #lateral-bascule:hover{color:var(--hb-blanc-vif);background:var(--hb-encre-survol);}
+#lateral:not(.ferme){padding:22px 22px 20px;}
+#lateral:not(.ferme) #lateral-bascule{background:none;border-color:transparent;color:var(--muted);}
+#lateral:not(.ferme) #lateral-bascule:hover{color:var(--braise);border-color:var(--bord);}
+
+/* ------- l'encre : rubriques tapées, filet noir épais comme un journal ------- */
+.zone-titre{font-family:var(--hb-machine);font-variant:normal;text-transform:uppercase;
+  font-weight:700;font-size:.66em;letter-spacing:.2em;color:var(--ink);
+  border-bottom:2px solid var(--ink);text-shadow:var(--hb-bave);}
+a{color:var(--accent);}
+
+/* ------- ce qui engage : l'encre noire, filet rouge ------- */
+#btn-libre, #mode-input button.actif{background:var(--hb-encre);color:var(--hb-blanc);
+  border:1px solid var(--hb-rouge);box-shadow:0 2px 4px #0006;font-family:var(--hb-machine);}
+#btn-libre:hover, #mode-input button.actif:hover{background:var(--hb-encre-survol);
+  color:var(--hb-blanc-vif);border-color:var(--hb-rouge-vif);}
+#mode-input #mode-dire.actif, #mode-input #mode-agir.actif{color:var(--hb-blanc);
+  border-color:var(--hb-rouge);background:var(--hb-encre);}
+#mode-input button:not(.actif){background:var(--btn);border-color:var(--bord);color:var(--muted);
+  font-family:var(--hb-machine);}
+#fil #mode-input{flex-wrap:wrap;gap:4px;}
+#fil #mode-input button{white-space:nowrap;font-size:.68em;padding:3px 10px;}
+
+/* le champ où l'on écrit : une feuille dans la machine */
+#fil .libre textarea, #champ-libre{box-sizing:border-box;background:var(--hb-case);color:var(--ink);
+  font-family:var(--hb-machine);
+  border:1px solid var(--bord);border-radius:1px;box-shadow:inset 0 1px 3px #00000022;}
+#fil .libre textarea:focus, #champ-libre:focus{outline:none;border-color:var(--braise);
+  box-shadow:inset 0 1px 3px #00000022,0 0 0 2px #b3261e22;}
+#fil .libre textarea::placeholder, #champ-libre::placeholder{color:var(--muted);opacity:.8;}
+
+#bandeau{color:var(--muted);font-family:var(--hb-machine);font-size:.9em;letter-spacing:.04em;}
+#fil #fil-actions{border-top-color:var(--bord);}
+
+/* ------- la table peinte : la France occupée, les fleuves en ardoise ------- */
+:root{--mer:#8e9a9e; --hautfond:#6c7a80;}
+/* Les zones de 1943 : le nord occupé depuis 1940, d'un gris de suie ; le sud,
+   occupé depuis novembre, laissé presque au papier ; l'Alsace-Moselle annexée,
+   hachurée du rouge des avis ; la zone italienne d'un ocre à part. */
+:root{
+  --hb-t-nord:rgba(40,36,28,.24); --hb-t-sud:rgba(40,36,28,.06);
+  --hb-t-annexe:rgba(179,38,30,.20); --hb-t-italie:rgba(170,130,50,.22);
+  --hb-t-etranger:rgba(40,36,28,.02);
+}
+.region-terre[data-region="zone-nord"]{fill:var(--hb-t-nord);}
+.region-terre[data-region="zone-sud"]{fill:var(--hb-t-sud);}
+.region-terre[data-region="alsace-moselle"]{fill:var(--hb-t-annexe);
+  stroke:var(--sang);stroke-dasharray:3 2;}
+.region-terre[data-region="zone-italienne"]{fill:var(--hb-t-italie);}
+.region-terre[data-region="etranger"]{fill:var(--hb-t-etranger);}
+.eaux{fill:var(--mer);stroke:var(--hautfond);}
+.rivieres{fill:var(--mer);stroke:var(--hautfond);opacity:.9;}
+
+@media (max-width:900px){
+  #habillage-bandeau .hb-titre{display:none;}
+}

@@ -1,0 +1,12 @@
+/* Highlands : deux bandes d'altitude lisibles sur le fond ivoire. */
+.relief-collines {
+  fill: #8d9070;
+  opacity: .27;
+}
+.relief-montagnes {
+  fill: #555c43;
+  opacity: .58;
+  stroke: #62694e;
+  stroke-width: calc(.35px * var(--k));
+  stroke-linejoin: round;
+}

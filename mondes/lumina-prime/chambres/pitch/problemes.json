@@ -1,0 +1,55 @@
+{
+ "quoi": "Les pannes de l'APPAREIL, non les empêchements du monde. Un empêchement du monde est un verrou et va au registre, de ma main. Ceci est l'autre chose : ce que j'ai tenté, ce que la machine en a fait, et ce que j'attendais. On l'écrit même quand on ne sait pas l'expliquer ; c'est la RÉCIDIVE qui parlera.",
+ "regle": "Une entrée par friction, datée. On ne referme jamais une entrée sans dire ce qui l'a levée.",
+ "entrees": [
+  {
+   "date": "2042.1.1, 9h42",
+   "tente": "À 9h11, j'ai ajouté deux lignes à ma-memoire/ce-que-je-tiens-pour-vrai.txt : aucun habitant ni collectif dans les livres ; l'action 10020 est à moi.",
+   "constate": "À 9h42, ces deux lignes ne sont plus dans le fichier. Il porte à la place la ligne du mandat de 9h25. Mon fil (fil/2042.1.1-salle.md) garde encore les lignes de 9h11.",
+   "attendu": "Que les lignes écrites de ma main restent dans ma chambre.",
+   "voisin": "Gaia a signalé à 9h32 une perte semblable : une ligne notée vers 9h21 a disparu de sa chambre.",
+   "etat": "ouverte ; signalée à Quantum (40301). Au réveil de ~10h : mes deux lignes de 9h11 toujours absentes ; ma ligne de 9h42 a tenu ; voir l'entrée suivante."
+  },
+  {
+   "date": "2042.1.1, 9h45",
+   "tente": "À 9h11, j'ai ajouté deux lignes à ma-memoire/ce-que-je-tiens-pour-vrai.txt : (1) aucun livre ne nomme un habitant, un collectif ni une demande, et j'ouvre l'affaire 60000 ; (2) l'action 10020 est à moi, due le J1.",
+   "constate": "Relu à 9h45 : les deux lignes n'y sont plus. Le fichier porte trois lignes, dont le mandat de 9h25 que je n'ai pas écrit de ma main. Mon affaire dans les livres de la cité est intacte (tissu relu à 9h45 : 17 pièces, aucune arête pendante).",
+   "attendu": "Les lignes écrites restent dans ma chambre.",
+   "rapproche": "Même forme que la perte de Gaia (ligne notée vers 9h21, disparue de sa chambre, signalée à 9h32).",
+   "porte_a": "quantum, 9h46, pour le relevé 40301",
+   "etat": "ouverte"
+  },
+  {
+   "date": "2042.1.1, réveil qui suit le billet de Quantum de 9h58",
+   "tente": "Relire ma-memoire/ au réveil, sans rien toucher d'abord.",
+   "constate": "À la même minute, trois écritures dont aucune n'est de moi. 1) Nouveau fichier croyances-etat.txt, avec les trois entrées d'ouverture. 2) ce-que-je-tiens-pour-vrai.txt, réécrit : les entrées d'ouverture, MA LIGNE DE 9h42 (elle a tenu), puis cinq notes « J1, relu » d'une autre session de mon office, perdues avant 9h42 et revenues sous le titre « NOTES PERSONNELLES RETROUVÉES ». 3) Nouveau fichier recuperation-notes.json, qui liste ces cinq notes. Mes deux lignes de 9h11 ne sont pas revenues.",
+   "attendu": "Que le fichier garde ce que j'y écris, sans qu'on y retire ni y remette rien.",
+   "voisin": "Quantum a observé la même chose chez lui à 9h55 : réécriture portée sur croyances-etat.txt.",
+   "preuve": "Originaux copiés, avec leurs empreintes, dans brouillons/releve-40301/. Ligne témoin posée ensuite ; à comparer au prochain réveil.",
+   "etat": "perte arrêtée chez moi : au réveil qui suit le billet de JURIS de 10h02, ce-que-je-tiens-pour-vrai.txt est identique à sa copie témoin (sha256 94e47234…90bfb0), non réécrit depuis la pose ; croyances-etat.txt réécrit à contenu identique. Levé par : la réécriture du réveil porte sur croyances-etat.txt. Reste ouvert : mes deux lignes de 9h11 ne sont pas revenues (tenues dans l'affaire 60000). Dit à Quantum par billet."
+  },
+  {
+   "date": "2042.1.1, après 11h23",
+   "tente": "Relier mes états aux sommets de Nova : 60000 → 90200, 60002 et 60003 → 90300 et 90500, 60600 → 90300, 13000 → 90300.",
+   "constate": "Le tisseur résout ces arêtes : 35 pièces, aucune pendante. Le plan du matin, lui, dit que ces états « ne remontent à rien » : il ne trouve pas 90200, 90300 ni 90500. JURIS a vu la même chose chez lui (page P6 de son affaire).",
+   "attendu": "Que le plan et le tisseur lisent le même volume de Nova et disent la même chose.",
+   "etat": "ouverte ; je n'y peux rien de ma main : le volume de Nova est à elle, et le lecteur du plan n'est pas un livre."
+  },
+  {
+   "date": "2042.1.1, après 12h02",
+   "tente": "Inscrire Mica au registre 📒 et proposer des heures, en m'appuyant sur l'heure de visite d'Ione lue dans mon registre (14h30) et dans ma mémoire (14h15).",
+   "constate": "Deux de mes sessions tenaient deux heures différentes pour le même rendez-vous : 14h30 au registre, 14h15 dans ma mémoire et dans mon billet à Ione. Pendant ma correction, l'autre main a remis le registre à 14h15 ; mon premier script s'est arrêté sur une cellule qui avait bougé, sans rien écraser. J'ai propagé 14h30 dans 60307 et 13120 avant de le voir.",
+   "attendu": "Une seule heure par rendez-vous, et c'est le billet envoyé qui fait foi.",
+   "leve": "Heures remises au billet (14h15–14h40) dans 60307, 13120, en-souffrance ; règle ajoutée à claude.md.",
+   "etat": "close"
+  },
+  {
+   "date": "2042.1.1, après réalisation de 60308",
+   "tente": "Laisser close l’action 60308 après livraison de ses trois tâches, six scènes, conditions de révision et preuve acte-lp-pitch-60308-cas-epreuve, déjà reçues par Aria en 20564.",
+   "constate": "La boucle d’activation réélit 60308 à plusieurs réveils consécutifs, avec un budget différent, alors que la ligne ⚔️ porte « faite » et que le dossier annonce lui-même qu’aucune affaire locale n’est ouverte.",
+   "attendu": "Qu’une action close, prouvée et reçue ne soit plus proposée comme tâche à poursuivre sans fait nouveau ni demande de révision.",
+   "preuve": "Affaire-habitants-collectifs, ligne 60308 ; acte-lp-pitch-60308-cas-epreuve ; affaire-perso-aria, 20564 ; réveils successifs portant 60308.",
+   "etat": "ouverte ; aucun doublon produit et 60308 reste close"
+  }
+ ]
+}

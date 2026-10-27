@@ -1,0 +1,205 @@
+{
+  "nom": "Maison d’arrêt de Niort",
+  "viewBox": "0 0 1000 480",
+  "fonds": [],
+  "mur": "",
+  "guet": [],
+  "decor": [
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L490.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L780.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L210.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M780.0,152.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,312.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,312.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    }
+  ],
+  "etiquettes": [],
+  "salles": [
+    {
+      "id": "maison-arret",
+      "nom": "Entrée extérieure",
+      "forme": {
+        "r": [
+          80,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        148.5
+      ],
+      "lignes": [
+        "Entrée extérieure"
+      ],
+      "cle": true,
+      "quoi": "Entrée extérieure — Maison d’arrêt de Niort.",
+      "motifs": [
+        "Entrée extérieure, Maison d’arrêt de Niort"
+      ],
+      "alias": []
+    },
+    {
+      "id": "maison-arret-piece-2",
+      "nom": "Poste de garde",
+      "forme": {
+        "r": [
+          360,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        148.5
+      ],
+      "lignes": [
+        "Poste de garde"
+      ],
+      "cle": true,
+      "quoi": "Poste de garde — Maison d’arrêt de Niort.",
+      "motifs": [
+        "Poste de garde, Maison d’arrêt de Niort"
+      ],
+      "alias": []
+    },
+    {
+      "id": "maison-arret-piece-3",
+      "nom": "Accueil des visiteurs",
+      "forme": {
+        "r": [
+          640,
+          90,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        148.5
+      ],
+      "lignes": [
+        "Accueil",
+        "des visiteurs"
+      ],
+      "cle": true,
+      "quoi": "Accueil des visiteurs — Maison d’arrêt de Niort.",
+      "motifs": [
+        "Accueil des visiteurs, Maison d’arrêt de Niort"
+      ],
+      "alias": []
+    },
+    {
+      "id": "maison-arret-piece-4",
+      "nom": "Parloir",
+      "forme": {
+        "r": [
+          80,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        308.5
+      ],
+      "lignes": [
+        "Parloir"
+      ],
+      "cle": true,
+      "quoi": "Parloir — Maison d’arrêt de Niort.",
+      "motifs": [
+        "Parloir, Maison d’arrêt de Niort"
+      ],
+      "alias": []
+    },
+    {
+      "id": "maison-arret-piece-5",
+      "nom": "Couloir intérieur",
+      "forme": {
+        "r": [
+          360,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        308.5
+      ],
+      "lignes": [
+        "Couloir intérieur"
+      ],
+      "cle": true,
+      "quoi": "Couloir intérieur — Maison d’arrêt de Niort.",
+      "motifs": [
+        "Couloir intérieur, Maison d’arrêt de Niort"
+      ],
+      "alias": []
+    },
+    {
+      "id": "maison-arret-piece-6",
+      "nom": "Cellule",
+      "forme": {
+        "r": [
+          640,
+          250,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        308.5
+      ],
+      "lignes": [
+        "Cellule"
+      ],
+      "cle": true,
+      "quoi": "Cellule — Maison d’arrêt de Niort.",
+      "motifs": [
+        "Cellule, Maison d’arrêt de Niort"
+      ],
+      "alias": []
+    }
+  ],
+  "_": "Plan de fiction canonique. Disposition schématique ; aucun relevé historique revendiqué."
+}

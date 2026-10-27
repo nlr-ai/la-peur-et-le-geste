@@ -1,0 +1,80 @@
+{
+  "source": "sources/modern-front/out/pnj/reunion-raymond-sauvegarde/person-3050.json",
+  "date_source": "1940-06-17T00:00:00",
+  "regle": "Adaptation de confiance 0..100 en opinion -100..100 : 2 * confiance - 100. Ne constitue pas une mesure native d opinion Modern Front.",
+  "identification": "Identifiants exacts de la réunion et du foyer, sans rapprochement par homonymes.",
+  "relations": [
+    {
+      "source_id": "raymond-moreau",
+      "cible_id": "josette-moreau",
+      "confiance_source": 67,
+      "opinion_importee": 34
+    },
+    {
+      "source_id": "josette-moreau",
+      "cible_id": "raymond-moreau",
+      "confiance_source": 82,
+      "opinion_importee": 64
+    },
+    {
+      "source_id": "raymond-moreau",
+      "cible_id": "jacques-augereau",
+      "confiance_source": 71,
+      "opinion_importee": 42
+    },
+    {
+      "source_id": "jacques-augereau",
+      "cible_id": "raymond-moreau",
+      "confiance_source": 64,
+      "opinion_importee": 28
+    },
+    {
+      "source_id": "raymond-moreau",
+      "cible_id": "solange-joubert",
+      "confiance_source": 81,
+      "opinion_importee": 62
+    },
+    {
+      "source_id": "solange-joubert",
+      "cible_id": "raymond-moreau",
+      "confiance_source": 80,
+      "opinion_importee": 60
+    },
+    {
+      "source_id": "raymond-moreau",
+      "cible_id": "emile-guillon",
+      "confiance_source": 80,
+      "opinion_importee": 60
+    },
+    {
+      "source_id": "emile-guillon",
+      "cible_id": "raymond-moreau",
+      "confiance_source": 77,
+      "opinion_importee": 54
+    },
+    {
+      "source_id": "raymond-moreau",
+      "cible_id": "maurice-schneider",
+      "confiance_source": 71,
+      "opinion_importee": 42
+    },
+    {
+      "source_id": "maurice-schneider",
+      "cible_id": "raymond-moreau",
+      "confiance_source": 84,
+      "opinion_importee": 68
+    },
+    {
+      "source_id": "raymond-moreau",
+      "cible_id": "ernest-gaillard",
+      "confiance_source": 69,
+      "opinion_importee": 38
+    },
+    {
+      "source_id": "ernest-gaillard",
+      "cible_id": "raymond-moreau",
+      "confiance_source": 75,
+      "opinion_importee": 50
+    }
+  ]
+}

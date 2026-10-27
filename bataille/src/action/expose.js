@@ -279,6 +279,17 @@ export function creerAction({ navgrid, corpsParId, signalerEchec, coutEffort, su
           continue;
         }
 
+        // ── MARCHER : le manche — une direction tenue, pas de chemin. Les
+        // murs sont affaire de ⚙️ (collisions), comme pour n'importe qui.
+        if (tache.intention.type === 'marcher') {
+          const { direction, allure = 1 } = tache.intention;
+          const n = Math.hypot(direction.x, direction.y);
+          if (n < 1e-6) continue;
+          const v = (vitesseMaxDe?.(id) ?? params.vitesseMax) * allure * (facteurVitesseDe?.(id) ?? 1);
+          velDesirees.set(id, { x: (direction.x / n) * v, y: (direction.y / n) * v });
+          continue;
+        }
+
         if (tache.intention.type !== 'allerA' || tache.arrive) continue;
 
         if (!tache.chemin) {

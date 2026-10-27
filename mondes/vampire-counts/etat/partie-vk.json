@@ -1,0 +1,2916 @@
+{
+  "_": "Etat de la partie Vampire Kings, exporte par tools/VampireKings.Play (ordre « exporter »). Regenere a chaque export : ne pas editer, les ajustements se font dans la partie. Les personnages du canon ont une « cle » (lore/characters.json) et leur registre.",
+  "partie": "spread_tmp",
+  "scenario": "canon",
+  "exporte_le": "2026-10-20 17:26",
+  "date": {
+    "texte": "An 0, mois 1, nuit 1",
+    "an": 0,
+    "mois": 1,
+    "nuit": 1,
+    "heure": 0
+  },
+  "ere": "Ère des Seigneurs",
+  "joueur": "Malachie#0",
+  "personnages": [
+    {
+      "ref": "Malachie#0",
+      "nom": "Malachie",
+      "cle": "malachie",
+      "lignee": "Stryge",
+      "statut": "actif",
+      "age_jours": 13000,
+      "palier": "Mathusalem",
+      "generation": 0,
+      "nature": "Survivant",
+      "masque": "Érudit",
+      "figure": "Le Dormeur",
+      "infants": [
+        "Ursule#1",
+        "Nosferan#132"
+      ],
+      "vassaux": [
+        "Ossiane#3",
+        "Anselm#5"
+      ],
+      "ville_principale": "Sighișoara",
+      "villes": [
+        "Sighișoara",
+        "Ungheni",
+        "Agrișteu",
+        "Pipea",
+        "Sânmărghita",
+        "Vălureni"
+      ],
+      "heritier": "Ursule#1",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Ursule#1",
+      "nom": "Ursule",
+      "cle": "stryge_ancien",
+      "lignee": "Stryge",
+      "statut": "actif",
+      "age_jours": 5200,
+      "palier": "Mathusalem",
+      "generation": 1,
+      "nature": "Puriste",
+      "masque": "Ascète",
+      "figure": "Le Pur",
+      "sire": "Malachie#0",
+      "infants": [
+        "Hedwig#2"
+      ],
+      "heritier": "Malachie#0",
+      "puissance": 11,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Hedwig#2",
+      "nom": "Hedwig",
+      "cle": "hedwig",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 4000,
+      "palier": "Mathusalem",
+      "generation": 2,
+      "nature": "Paranoïaque",
+      "masque": "Paranoïaque",
+      "figure": "Le Reclus",
+      "sire": "Ursule#1",
+      "infants": [
+        "Ossiane#3",
+        "Vautrin#4",
+        "Anselm#5"
+      ]
+    },
+    {
+      "ref": "Ossiane#3",
+      "nom": "Ossiane",
+      "cle": "ossiane",
+      "lignee": "Stryge",
+      "statut": "actif",
+      "age_jours": 2300,
+      "palier": "Mathusalem",
+      "generation": 3,
+      "nature": "Collectionneur",
+      "masque": "Ascète",
+      "figure": "Le Jeûneur",
+      "sire": "Hedwig#2",
+      "chef": "Malachie#0",
+      "ville_principale": "Cristuru Secuiesc",
+      "villes": [
+        "Cristuru Secuiesc"
+      ],
+      "heritier": "Ursule#1",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Vautrin#4",
+      "nom": "Vautrin",
+      "cle": "vautrin",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 2250,
+      "palier": "Mathusalem",
+      "generation": 3,
+      "nature": "Patriarche",
+      "masque": "Autocrate",
+      "figure": "Le Père sévère",
+      "sire": "Hedwig#2"
+    },
+    {
+      "ref": "Anselm#5",
+      "nom": "Anselm",
+      "cle": "anselm",
+      "lignee": "Stryge",
+      "statut": "actif",
+      "age_jours": 1900,
+      "palier": "Ancien",
+      "generation": 3,
+      "nature": "Patriarche",
+      "masque": "Paranoïaque",
+      "figure": "Le Père méfiant",
+      "sire": "Hedwig#2",
+      "infants": [
+        "Margit#6",
+        "Konstantin#7",
+        "Teodor#8",
+        "Ilka#9"
+      ],
+      "chef": "Malachie#0",
+      "ville_principale": "Rupea",
+      "villes": [
+        "Rupea"
+      ],
+      "heritier": "Konstantin#7",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0,
+      "bu_par": [
+        "Radomir#26"
+      ]
+    },
+    {
+      "ref": "Margit#6",
+      "nom": "Margit",
+      "cle": "margit",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 1100,
+      "palier": "Ancien",
+      "generation": 4,
+      "nature": "Érudit",
+      "masque": "Conquérant",
+      "figure": "Le Conquérant des nœuds",
+      "sire": "Anselm#5"
+    },
+    {
+      "ref": "Konstantin#7",
+      "nom": "Konstantin",
+      "cle": "konstantin",
+      "lignee": "Stryge",
+      "statut": "actif",
+      "age_jours": 800,
+      "palier": "Ancien",
+      "generation": 4,
+      "nature": "Fidèle",
+      "masque": "Conquérant",
+      "figure": "Le Champion",
+      "sire": "Anselm#5",
+      "chef": "Gontran#15",
+      "ville_principale": "Dealu Frumos",
+      "villes": [
+        "Dealu Frumos"
+      ],
+      "heritier": "Anselm#5",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Teodor#8",
+      "nom": "Teodor",
+      "cle": "teodor",
+      "lignee": "Stryge",
+      "statut": "actif",
+      "age_jours": 480,
+      "palier": "Adulte",
+      "generation": 4,
+      "nature": "Paranoïaque",
+      "masque": "Fidèle",
+      "figure": "Le Vassal à l'affût",
+      "sire": "Anselm#5",
+      "heritier": "Anselm#5",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Ilka#9",
+      "nom": "Ilka",
+      "cle": "ilka",
+      "lignee": "Stryge",
+      "statut": "actif",
+      "age_jours": 400,
+      "palier": "Adulte",
+      "generation": 4,
+      "nature": "Puriste",
+      "masque": "Survivant",
+      "figure": "Le Dernier de sa race",
+      "sire": "Anselm#5",
+      "chef": "Vlaicu#25",
+      "ville_principale": "Șapartoc",
+      "villes": [
+        "Șapartoc"
+      ],
+      "heritier": "Anselm#5",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Ysolde#10",
+      "nom": "Ysolde",
+      "cle": "ysolde",
+      "lignee": "Sépulcrale",
+      "statut": "actif",
+      "age_jours": 12400,
+      "palier": "Mathusalem",
+      "generation": 0,
+      "nature": "Patriarche",
+      "masque": "Autocrate",
+      "figure": "Le Père sévère",
+      "infants": [
+        "Morvaine#11",
+        "Lothaire#29"
+      ],
+      "vassaux": [
+        "Sulpice#12",
+        "Cendrik#13"
+      ],
+      "ville_principale": "Dumbrăveni",
+      "villes": [
+        "Dumbrăveni",
+        "Gogan",
+        "Roandola"
+      ],
+      "heritier": "Morvaine#11",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Morvaine#11",
+      "nom": "Morvaine",
+      "cle": "sepulcral_ancien",
+      "lignee": "Sépulcrale",
+      "statut": "actif",
+      "age_jours": 4800,
+      "palier": "Mathusalem",
+      "generation": 1,
+      "nature": "Ascète",
+      "masque": "Puriste",
+      "figure": "Le Pur de cœur",
+      "sire": "Ysolde#10",
+      "infants": [
+        "Sulpice#12"
+      ],
+      "heritier": "Sulpice#12",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Sulpice#12",
+      "nom": "Sulpice",
+      "cle": "sulpice",
+      "lignee": "Sépulcrale",
+      "statut": "actif",
+      "age_jours": 3200,
+      "palier": "Mathusalem",
+      "generation": 2,
+      "nature": "Érudit",
+      "masque": "Prédateur",
+      "figure": "Le Monstre des légendes",
+      "sire": "Morvaine#11",
+      "infants": [
+        "Cendrik#13"
+      ],
+      "chef": "Ysolde#10",
+      "ville_principale": "Mediaș",
+      "villes": [
+        "Mediaș",
+        "Târnăveni",
+        "Cucerdea",
+        "Deaj"
+      ],
+      "heritier": "Cendrik#13",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Cendrik#13",
+      "nom": "Cendrik",
+      "cle": "cendrik",
+      "lignee": "Sépulcrale",
+      "statut": "actif",
+      "age_jours": 1600,
+      "palier": "Ancien",
+      "generation": 3,
+      "nature": "Conquérant",
+      "masque": "Érudit",
+      "figure": "Le Stratège de cabinet",
+      "sire": "Sulpice#12",
+      "chef": "Ysolde#10",
+      "ville_principale": "Mălâncrav",
+      "villes": [
+        "Mălâncrav"
+      ],
+      "heritier": "Sulpice#12",
+      "puissance": 11,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0,
+      "a_bu": [
+        "Gontran#15"
+      ]
+    },
+    {
+      "ref": "Aldebrand#14",
+      "nom": "Aldebrand",
+      "cle": "aldebrand",
+      "lignee": "Écarlate",
+      "statut": "actif",
+      "age_jours": 11600,
+      "palier": "Mathusalem",
+      "generation": 0,
+      "nature": "Autocrate",
+      "masque": "Conquérant",
+      "figure": "Le Roi en armure",
+      "infants": [
+        "Gontran#15",
+        "Guenièvre#38",
+        "Enguerrand#39"
+      ],
+      "vassaux": [
+        "Gontran#15"
+      ],
+      "ville_principale": "Vecerd",
+      "villes": [
+        "Vecerd"
+      ],
+      "heritier": "Gontran#15",
+      "puissance": 11,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Gontran#15",
+      "nom": "Gontran",
+      "cle": "gontran",
+      "lignee": "Écarlate",
+      "statut": "actif",
+      "age_jours": 1600,
+      "palier": "Ancien",
+      "generation": 1,
+      "nature": "Paranoïaque",
+      "masque": "Patriarche",
+      "figure": "Le Faux père",
+      "sire": "Aldebrand#14",
+      "infants": [
+        "Thibaut#16"
+      ],
+      "chef": "Aldebrand#14",
+      "vassaux": [
+        "Konstantin#7",
+        "Cassien#22",
+        "Ronce#28"
+      ],
+      "ville_principale": "Agnita",
+      "villes": [
+        "Agnita",
+        "Ighișu Nou",
+        "Nemșa"
+      ],
+      "heritier": "Thibaut#16",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0,
+      "bu_par": [
+        "Cendrik#13"
+      ]
+    },
+    {
+      "ref": "Thibaut#16",
+      "nom": "Thibaut",
+      "cle": "thibaut",
+      "lignee": "Écarlate",
+      "statut": "actif",
+      "age_jours": 900,
+      "palier": "Ancien",
+      "generation": 2,
+      "nature": "Autocrate",
+      "masque": "Intrigant",
+      "figure": "Le Faux marionnettiste",
+      "sire": "Gontran#15",
+      "heritier": "Gontran#15",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Mélusine#17",
+      "nom": "Mélusine",
+      "cle": "melusine",
+      "lignee": "Voilée",
+      "statut": "actif",
+      "age_jours": 11200,
+      "palier": "Mathusalem",
+      "generation": 0,
+      "nature": "Survivant",
+      "masque": "Intrigant",
+      "figure": "L'Utile à tous",
+      "infants": [
+        "Ottilia#18",
+        "Perrine#21",
+        "Octave#110"
+      ],
+      "vassaux": [
+        "Nicodim#19"
+      ],
+      "ville_principale": "Dealu",
+      "villes": [
+        "Dealu",
+        "Mihăileni",
+        "Nicolești",
+        "Sâncel"
+      ],
+      "heritier": "Perrine#21",
+      "puissance": 11,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Ottilia#18",
+      "nom": "Ottilia",
+      "cle": "ottilia",
+      "lignee": "Voilée",
+      "statut": "torpeur",
+      "age_jours": 3600,
+      "palier": "Mathusalem",
+      "generation": 1,
+      "nature": "Prédateur",
+      "masque": "Ascète",
+      "figure": "Le Loup en bure",
+      "sire": "Mélusine#17",
+      "infants": [
+        "Nicodim#19"
+      ],
+      "torpeur_jusqu_a": {
+        "texte": "An 20, mois 1, nuit 1",
+        "an": 20,
+        "mois": 1,
+        "nuit": 1,
+        "heure": 0
+      },
+      "heritier": "Nicodim#19",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Nicodim#19",
+      "nom": "Nicodim",
+      "cle": "nicodim",
+      "lignee": "Voilée",
+      "statut": "actif",
+      "age_jours": 2400,
+      "palier": "Mathusalem",
+      "generation": 2,
+      "nature": "Autocrate",
+      "masque": "Ascète",
+      "figure": "L'Abbé",
+      "sire": "Ottilia#18",
+      "infants": [
+        "Sever#20"
+      ],
+      "chef": "Mélusine#17",
+      "ville_principale": "Odorheiu Secuiesc",
+      "villes": [
+        "Odorheiu Secuiesc",
+        "Daia"
+      ],
+      "heritier": "Sever#20",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Sever#20",
+      "nom": "Sever",
+      "cle": "sever",
+      "lignee": "Voilée",
+      "statut": "actif",
+      "age_jours": 640,
+      "palier": "Ancien",
+      "generation": 3,
+      "nature": "Intrigant",
+      "masque": "Fidèle",
+      "figure": "Le Confident",
+      "sire": "Nicodim#19",
+      "heritier": "Nicodim#19",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Perrine#21",
+      "nom": "Perrine",
+      "cle": "voile_errant",
+      "lignee": "Voilée",
+      "statut": "actif",
+      "age_jours": 2800,
+      "palier": "Mathusalem",
+      "generation": 1,
+      "nature": "Érudit",
+      "masque": "Érudit",
+      "figure": "Le Mage",
+      "sire": "Mélusine#17",
+      "infants": [
+        "Cassien#22"
+      ],
+      "heritier": "Cassien#22",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Cassien#22",
+      "nom": "Cassien",
+      "cle": "cassien",
+      "lignee": "Voilée",
+      "statut": "actif",
+      "age_jours": 700,
+      "palier": "Ancien",
+      "generation": 2,
+      "nature": "Fidèle",
+      "masque": "Fidèle",
+      "figure": "L'Homme de parole",
+      "sire": "Perrine#21",
+      "chef": "Gontran#15",
+      "ville_principale": "Stejărișu",
+      "villes": [
+        "Stejărișu"
+      ],
+      "heritier": "Perrine#21",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Hilde#23",
+      "nom": "Hilde",
+      "cle": "hilde",
+      "lignee": "Vorace",
+      "statut": "actif",
+      "age_jours": 12000,
+      "palier": "Mathusalem",
+      "generation": 0,
+      "nature": "Paranoïaque",
+      "masque": "Prédateur",
+      "figure": "La Bête aux aguets",
+      "infants": [
+        "Aigline#24",
+        "Ulrike#27",
+        "Loup#120"
+      ],
+      "vassaux": [
+        "Vlaicu#25",
+        "Aigline II#121"
+      ],
+      "ville_principale": "Avrămești",
+      "villes": [
+        "Avrămești",
+        "Bezid",
+        "Uilac"
+      ],
+      "heritier": "Aigline#24",
+      "puissance": 11,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Aigline#24",
+      "nom": "Aigline",
+      "cle": "vorace_ancien",
+      "lignee": "Vorace",
+      "statut": "actif",
+      "age_jours": 4200,
+      "palier": "Mathusalem",
+      "generation": 1,
+      "nature": "Intrigant",
+      "masque": "Conquérant",
+      "figure": "Le Lion de paille",
+      "sire": "Hilde#23",
+      "infants": [
+        "Vlaicu#25"
+      ],
+      "heritier": "Vlaicu#25",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Vlaicu#25",
+      "nom": "Vlaicu",
+      "cle": "vlaicu",
+      "lignee": "Vorace",
+      "statut": "actif",
+      "age_jours": 2400,
+      "palier": "Mathusalem",
+      "generation": 2,
+      "nature": "Prédateur",
+      "masque": "Patriarche",
+      "figure": "Le Père dévorant",
+      "sire": "Aigline#24",
+      "infants": [
+        "Radomir#26"
+      ],
+      "chef": "Hilde#23",
+      "vassaux": [
+        "Ilka#9",
+        "Radomir#26"
+      ],
+      "ville_principale": "Hoghiz",
+      "villes": [
+        "Hoghiz"
+      ],
+      "heritier": "Radomir#26",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Radomir#26",
+      "nom": "Radomir",
+      "cle": "radomir",
+      "lignee": "Vorace",
+      "statut": "actif",
+      "age_jours": 1440,
+      "palier": "Ancien",
+      "generation": 3,
+      "nature": "Ascète",
+      "masque": "Prédateur",
+      "figure": "Le Loup apprivoisé",
+      "sire": "Vlaicu#25",
+      "chef": "Vlaicu#25",
+      "ville_principale": "Șaeș",
+      "villes": [
+        "Șaeș"
+      ],
+      "heritier": "Vlaicu#25",
+      "puissance": 11,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0,
+      "a_bu": [
+        "Anselm#5"
+      ]
+    },
+    {
+      "ref": "Ulrike#27",
+      "nom": "Ulrike",
+      "cle": "vorace_meute",
+      "lignee": "Vorace",
+      "statut": "actif",
+      "age_jours": 3000,
+      "palier": "Mathusalem",
+      "generation": 1,
+      "nature": "Intrigant",
+      "masque": "Fidèle",
+      "figure": "Le Confident",
+      "sire": "Hilde#23",
+      "infants": [
+        "Ronce#28"
+      ],
+      "heritier": "Ronce#28",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Ronce#28",
+      "nom": "Ronce",
+      "cle": "ronce",
+      "lignee": "Vorace",
+      "statut": "actif",
+      "age_jours": 600,
+      "palier": "Ancien",
+      "generation": 2,
+      "nature": "Fidèle",
+      "masque": "Paranoïaque",
+      "figure": "Le Garde du corps",
+      "sire": "Ulrike#27",
+      "chef": "Gontran#15",
+      "heritier": "Ulrike#27",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Lothaire#29",
+      "nom": "Lothaire",
+      "lignee": "Sépulcrale",
+      "statut": "detruit",
+      "age_jours": 9944,
+      "palier": "Mathusalem",
+      "generation": 1,
+      "nature": "Autocrate",
+      "masque": "Patriarche",
+      "figure": "Le Père de la nation",
+      "sire": "Ysolde#10",
+      "infants": [
+        "Ardric#30",
+        "Nécrane#31"
+      ]
+    },
+    {
+      "ref": "Ardric#30",
+      "nom": "Ardric",
+      "lignee": "Sépulcrale",
+      "statut": "detruit",
+      "age_jours": 7280,
+      "palier": "Mathusalem",
+      "generation": 2,
+      "nature": "Autocrate",
+      "masque": "Patriarche",
+      "figure": "Le Père de la nation",
+      "sire": "Lothaire#29"
+    },
+    {
+      "ref": "Nécrane#31",
+      "nom": "Nécrane",
+      "lignee": "Sépulcrale",
+      "statut": "detruit",
+      "age_jours": 8878,
+      "palier": "Mathusalem",
+      "generation": 2,
+      "nature": "Patriarche",
+      "masque": "Collectionneur",
+      "figure": "La Dot",
+      "sire": "Lothaire#29",
+      "infants": [
+        "Veyl#32"
+      ]
+    },
+    {
+      "ref": "Veyl#32",
+      "nom": "Veyl",
+      "lignee": "Sépulcrale",
+      "statut": "detruit",
+      "age_jours": 7666,
+      "palier": "Mathusalem",
+      "generation": 3,
+      "nature": "Puriste",
+      "masque": "Intrigant",
+      "figure": "Le Fanatique discret",
+      "sire": "Nécrane#31",
+      "infants": [
+        "Gauvert#33"
+      ]
+    },
+    {
+      "ref": "Gauvert#33",
+      "nom": "Gauvert",
+      "lignee": "Sépulcrale",
+      "statut": "detruit",
+      "age_jours": 6611,
+      "palier": "Mathusalem",
+      "generation": 4,
+      "nature": "Collectionneur",
+      "masque": "Patriarche",
+      "figure": "L'Éleveur",
+      "sire": "Veyl#32",
+      "infants": [
+        "Lothaire II#34"
+      ]
+    },
+    {
+      "ref": "Lothaire II#34",
+      "nom": "Lothaire II",
+      "lignee": "Sépulcrale",
+      "statut": "detruit",
+      "age_jours": 5757,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Autocrate",
+      "masque": "Fidèle",
+      "figure": "Le Grand vassal",
+      "sire": "Gauvert#33",
+      "infants": [
+        "Maudine#35"
+      ]
+    },
+    {
+      "ref": "Maudine#35",
+      "nom": "Maudine",
+      "lignee": "Sépulcrale",
+      "statut": "detruit",
+      "age_jours": 4090,
+      "palier": "Mathusalem",
+      "generation": 6,
+      "nature": "Prédateur",
+      "masque": "Patriarche",
+      "figure": "Le Père dévorant",
+      "sire": "Lothaire II#34",
+      "infants": [
+        "Morvaine II#36",
+        "Osric#37"
+      ]
+    },
+    {
+      "ref": "Morvaine II#36",
+      "nom": "Morvaine II",
+      "lignee": "Sépulcrale",
+      "statut": "detruit",
+      "age_jours": 3778,
+      "palier": "Mathusalem",
+      "generation": 7,
+      "nature": "Fidèle",
+      "masque": "Conquérant",
+      "figure": "Le Champion",
+      "sire": "Maudine#35"
+    },
+    {
+      "ref": "Osric#37",
+      "nom": "Osric",
+      "lignee": "Sépulcrale",
+      "statut": "detruit",
+      "age_jours": 3767,
+      "palier": "Mathusalem",
+      "generation": 7,
+      "nature": "Paranoïaque",
+      "masque": "Survivant",
+      "figure": "Le Terré",
+      "sire": "Maudine#35"
+    },
+    {
+      "ref": "Guenièvre#38",
+      "nom": "Guenièvre",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 8245,
+      "palier": "Mathusalem",
+      "generation": 1,
+      "nature": "Patriarche",
+      "masque": "Survivant",
+      "figure": "Le Vieux qui tient",
+      "sire": "Aldebrand#14",
+      "infants": [
+        "Hugues#40"
+      ]
+    },
+    {
+      "ref": "Enguerrand#39",
+      "nom": "Enguerrand",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 8545,
+      "palier": "Mathusalem",
+      "generation": 1,
+      "nature": "Collectionneur",
+      "masque": "Conquérant",
+      "figure": "Le Pilleur",
+      "sire": "Aldebrand#14",
+      "infants": [
+        "Arnaut#41",
+        "Clothilde#42"
+      ]
+    },
+    {
+      "ref": "Hugues#40",
+      "nom": "Hugues",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 6467,
+      "palier": "Mathusalem",
+      "generation": 2,
+      "nature": "Fidèle",
+      "masque": "Ascète",
+      "figure": "Le Vœu",
+      "sire": "Guenièvre#38",
+      "infants": [
+        "Hugues II#43",
+        "Béatrix#44"
+      ]
+    },
+    {
+      "ref": "Arnaut#41",
+      "nom": "Arnaut",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 6280,
+      "palier": "Mathusalem",
+      "generation": 2,
+      "nature": "Puriste",
+      "masque": "Puriste",
+      "figure": "Le Gardien du sang",
+      "sire": "Enguerrand#39",
+      "infants": [
+        "Brunehaut#45"
+      ]
+    },
+    {
+      "ref": "Clothilde#42",
+      "nom": "Clothilde",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 7432,
+      "palier": "Mathusalem",
+      "generation": 2,
+      "nature": "Érudit",
+      "masque": "Prédateur",
+      "figure": "Le Monstre des légendes",
+      "sire": "Enguerrand#39",
+      "infants": [
+        "Clothilde II#46"
+      ]
+    },
+    {
+      "ref": "Hugues II#43",
+      "nom": "Hugues II",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 4067,
+      "palier": "Mathusalem",
+      "generation": 3,
+      "nature": "Autocrate",
+      "masque": "Paranoïaque",
+      "figure": "L'Ombre inquiète",
+      "sire": "Hugues#40",
+      "infants": [
+        "Clothilde III#47"
+      ]
+    },
+    {
+      "ref": "Béatrix#44",
+      "nom": "Béatrix",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 4089,
+      "palier": "Mathusalem",
+      "generation": 3,
+      "nature": "Fidèle",
+      "masque": "Fidèle",
+      "figure": "L'Homme de parole",
+      "sire": "Hugues#40",
+      "infants": [
+        "Hugues III#48",
+        "Isaure#49"
+      ]
+    },
+    {
+      "ref": "Brunehaut#45",
+      "nom": "Brunehaut",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 4582,
+      "palier": "Mathusalem",
+      "generation": 3,
+      "nature": "Prédateur",
+      "masque": "Intrigant",
+      "figure": "Le Comploteur affamé",
+      "sire": "Arnaut#41",
+      "infants": [
+        "Roxane#50",
+        "Béatrix II#51"
+      ]
+    },
+    {
+      "ref": "Clothilde II#46",
+      "nom": "Clothilde II",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 5546,
+      "palier": "Mathusalem",
+      "generation": 3,
+      "nature": "Conquérant",
+      "masque": "Prédateur",
+      "figure": "Le Loup de bataille",
+      "sire": "Clothilde#42",
+      "infants": [
+        "Sanguine#52",
+        "Isaure II#53"
+      ]
+    },
+    {
+      "ref": "Clothilde III#47",
+      "nom": "Clothilde III",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 3396,
+      "palier": "Mathusalem",
+      "generation": 4,
+      "nature": "Survivant",
+      "masque": "Prédateur",
+      "figure": "Le Hérisson",
+      "sire": "Hugues II#43",
+      "infants": [
+        "Arnaut II#54"
+      ]
+    },
+    {
+      "ref": "Hugues III#48",
+      "nom": "Hugues III",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 3374,
+      "palier": "Mathusalem",
+      "generation": 4,
+      "nature": "Conquérant",
+      "masque": "Autocrate",
+      "figure": "Le Régent impatient",
+      "sire": "Béatrix#44",
+      "infants": [
+        "Sanguine II#55",
+        "Enguerrand II#56"
+      ]
+    },
+    {
+      "ref": "Isaure#49",
+      "nom": "Isaure",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2697,
+      "palier": "Mathusalem",
+      "generation": 4,
+      "nature": "Fidèle",
+      "masque": "Conquérant",
+      "figure": "Le Champion",
+      "sire": "Béatrix#44",
+      "infants": [
+        "Guenièvre II#57",
+        "Brunehaut II#58"
+      ]
+    },
+    {
+      "ref": "Roxane#50",
+      "nom": "Roxane",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 3211,
+      "palier": "Mathusalem",
+      "generation": 4,
+      "nature": "Puriste",
+      "masque": "Survivant",
+      "figure": "Le Dernier de sa race",
+      "sire": "Brunehaut#45",
+      "infants": [
+        "Roxane II#59",
+        "Roxane III#60"
+      ]
+    },
+    {
+      "ref": "Béatrix II#51",
+      "nom": "Béatrix II",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2852,
+      "palier": "Mathusalem",
+      "generation": 4,
+      "nature": "Prédateur",
+      "masque": "Prédateur",
+      "figure": "La Bête",
+      "sire": "Brunehaut#45",
+      "infants": [
+        "Isaure III#61"
+      ]
+    },
+    {
+      "ref": "Sanguine#52",
+      "nom": "Sanguine",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 4588,
+      "palier": "Mathusalem",
+      "generation": 4,
+      "nature": "Survivant",
+      "masque": "Fidèle",
+      "figure": "Le Courtisan",
+      "sire": "Clothilde II#46",
+      "infants": [
+        "Sanguine III#62"
+      ]
+    },
+    {
+      "ref": "Isaure II#53",
+      "nom": "Isaure II",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 4352,
+      "palier": "Mathusalem",
+      "generation": 4,
+      "nature": "Ascète",
+      "masque": "Paranoïaque",
+      "figure": "L'Ermite en garde",
+      "sire": "Clothilde II#46",
+      "infants": [
+        "Clothilde IV#63"
+      ]
+    },
+    {
+      "ref": "Arnaut II#54",
+      "nom": "Arnaut II",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2467,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Ascète",
+      "masque": "Fidèle",
+      "figure": "Le Serment vivant",
+      "sire": "Clothilde III#47",
+      "infants": [
+        "Béatrix III#64"
+      ]
+    },
+    {
+      "ref": "Sanguine II#55",
+      "nom": "Sanguine II",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 3098,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Patriarche",
+      "masque": "Autocrate",
+      "figure": "Le Père sévère",
+      "sire": "Hugues III#48",
+      "infants": [
+        "Clothilde V#65"
+      ]
+    },
+    {
+      "ref": "Enguerrand II#56",
+      "nom": "Enguerrand II",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2967,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Puriste",
+      "masque": "Survivant",
+      "figure": "Le Dernier de sa race",
+      "sire": "Hugues III#48",
+      "infants": [
+        "Béatrix IV#66",
+        "Guenièvre III#67"
+      ]
+    },
+    {
+      "ref": "Guenièvre II#57",
+      "nom": "Guenièvre II",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1828,
+      "palier": "Ancien",
+      "generation": 5,
+      "nature": "Ascète",
+      "masque": "Patriarche",
+      "figure": "Le Moine-père",
+      "sire": "Isaure#49",
+      "infants": [
+        "Béatrix V#68",
+        "Sanguine IV#69"
+      ]
+    },
+    {
+      "ref": "Brunehaut II#58",
+      "nom": "Brunehaut II",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2324,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Ascète",
+      "masque": "Conquérant",
+      "figure": "Le Chevalier",
+      "sire": "Isaure#49",
+      "infants": [
+        "Roxane IV#70",
+        "Sanguine V#71"
+      ]
+    },
+    {
+      "ref": "Roxane II#59",
+      "nom": "Roxane II",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2722,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Prédateur",
+      "masque": "Collectionneur",
+      "figure": "Le Faux gourmet",
+      "sire": "Roxane#50",
+      "infants": [
+        "Clothilde VI#72",
+        "Sanguine VI#73"
+      ]
+    },
+    {
+      "ref": "Roxane III#60",
+      "nom": "Roxane III",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2522,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Ascète",
+      "masque": "Intrigant",
+      "figure": "Le Faux serpent",
+      "sire": "Roxane#50",
+      "infants": [
+        "Clothilde VII#74"
+      ]
+    },
+    {
+      "ref": "Isaure III#61",
+      "nom": "Isaure III",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1880,
+      "palier": "Ancien",
+      "generation": 5,
+      "nature": "Collectionneur",
+      "masque": "Collectionneur",
+      "figure": "Le Gourmet",
+      "sire": "Béatrix II#51",
+      "infants": [
+        "Sanguine VII#75"
+      ]
+    },
+    {
+      "ref": "Sanguine III#62",
+      "nom": "Sanguine III",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 3386,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Collectionneur",
+      "masque": "Fidèle",
+      "figure": "Le Partenaire",
+      "sire": "Sanguine#52",
+      "infants": [
+        "Guenièvre IV#76",
+        "Sanguine VIII#77"
+      ]
+    },
+    {
+      "ref": "Clothilde IV#63",
+      "nom": "Clothilde IV",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 3217,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Ascète",
+      "masque": "Paranoïaque",
+      "figure": "L'Ermite en garde",
+      "sire": "Isaure II#53"
+    },
+    {
+      "ref": "Béatrix III#64",
+      "nom": "Béatrix III",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2217,
+      "palier": "Mathusalem",
+      "generation": 6,
+      "nature": "Érudit",
+      "masque": "Intrigant",
+      "figure": "Le Faux conspirateur",
+      "sire": "Arnaut II#54",
+      "infants": [
+        "Hugues IV#78",
+        "Isaure IV#79"
+      ]
+    },
+    {
+      "ref": "Clothilde V#65",
+      "nom": "Clothilde V",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2281,
+      "palier": "Mathusalem",
+      "generation": 6,
+      "nature": "Collectionneur",
+      "masque": "Autocrate",
+      "figure": "Le Seigneur avide",
+      "sire": "Sanguine II#55",
+      "infants": [
+        "Brunehaut III#80",
+        "Isaure V#81"
+      ]
+    },
+    {
+      "ref": "Béatrix IV#66",
+      "nom": "Béatrix IV",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1933,
+      "palier": "Ancien",
+      "generation": 6,
+      "nature": "Conquérant",
+      "masque": "Puriste",
+      "figure": "Le Croisé du sang",
+      "sire": "Enguerrand II#56",
+      "infants": [
+        "Sanguine IX#82",
+        "Sanguine X#83"
+      ]
+    },
+    {
+      "ref": "Guenièvre III#67",
+      "nom": "Guenièvre III",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1928,
+      "palier": "Ancien",
+      "generation": 6,
+      "nature": "Collectionneur",
+      "masque": "Érudit",
+      "figure": "Le Naturaliste",
+      "sire": "Enguerrand II#56"
+    },
+    {
+      "ref": "Béatrix V#68",
+      "nom": "Béatrix V",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1380,
+      "palier": "Ancien",
+      "generation": 6,
+      "nature": "Fidèle",
+      "masque": "Collectionneur",
+      "figure": "Le Dépositaire",
+      "sire": "Guenièvre II#57"
+    },
+    {
+      "ref": "Sanguine IV#69",
+      "nom": "Sanguine IV",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1432,
+      "palier": "Ancien",
+      "generation": 6,
+      "nature": "Fidèle",
+      "masque": "Érudit",
+      "figure": "Le Gardien des tombeaux",
+      "sire": "Guenièvre II#57"
+    },
+    {
+      "ref": "Roxane IV#70",
+      "nom": "Roxane IV",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2034,
+      "palier": "Mathusalem",
+      "generation": 6,
+      "nature": "Fidèle",
+      "masque": "Puriste",
+      "figure": "Le Gardien de la tradition",
+      "sire": "Brunehaut II#58",
+      "infants": [
+        "Arnaut III#84"
+      ]
+    },
+    {
+      "ref": "Sanguine V#71",
+      "nom": "Sanguine V",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1766,
+      "palier": "Ancien",
+      "generation": 6,
+      "nature": "Puriste",
+      "masque": "Fidèle",
+      "figure": "Le Loyal au sang",
+      "sire": "Brunehaut II#58",
+      "infants": [
+        "Hugues V#85",
+        "Guenièvre V#86"
+      ]
+    },
+    {
+      "ref": "Clothilde VI#72",
+      "nom": "Clothilde VI",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2280,
+      "palier": "Mathusalem",
+      "generation": 6,
+      "nature": "Intrigant",
+      "masque": "Collectionneur",
+      "figure": "L'Amateur",
+      "sire": "Roxane II#59",
+      "infants": [
+        "Clothilde VIII#87",
+        "Brunehaut IV#88"
+      ]
+    },
+    {
+      "ref": "Sanguine VI#73",
+      "nom": "Sanguine VI",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1789,
+      "palier": "Ancien",
+      "generation": 6,
+      "nature": "Patriarche",
+      "masque": "Intrigant",
+      "figure": "Le Parrain",
+      "sire": "Roxane II#59",
+      "infants": [
+        "Hugues VI#89"
+      ]
+    },
+    {
+      "ref": "Clothilde VII#74",
+      "nom": "Clothilde VII",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2192,
+      "palier": "Mathusalem",
+      "generation": 6,
+      "nature": "Collectionneur",
+      "masque": "Ascète",
+      "figure": "Le Jeûneur",
+      "sire": "Roxane III#60",
+      "infants": [
+        "Enguerrand III#90",
+        "Sanguine XI#91"
+      ]
+    },
+    {
+      "ref": "Sanguine VII#75",
+      "nom": "Sanguine VII",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1705,
+      "palier": "Ancien",
+      "generation": 6,
+      "nature": "Ascète",
+      "masque": "Puriste",
+      "figure": "Le Pur de cœur",
+      "sire": "Isaure III#61",
+      "infants": [
+        "Arnaut IV#92",
+        "Enguerrand IV#93"
+      ]
+    },
+    {
+      "ref": "Guenièvre IV#76",
+      "nom": "Guenièvre IV",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2630,
+      "palier": "Mathusalem",
+      "generation": 6,
+      "nature": "Intrigant",
+      "masque": "Intrigant",
+      "figure": "Le Serpent",
+      "sire": "Sanguine III#62"
+    },
+    {
+      "ref": "Sanguine VIII#77",
+      "nom": "Sanguine VIII",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 3171,
+      "palier": "Mathusalem",
+      "generation": 6,
+      "nature": "Paranoïaque",
+      "masque": "Érudit",
+      "figure": "Le Devin anxieux",
+      "sire": "Sanguine III#62",
+      "infants": [
+        "Arnaut V#94"
+      ]
+    },
+    {
+      "ref": "Hugues IV#78",
+      "nom": "Hugues IV",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2028,
+      "palier": "Mathusalem",
+      "generation": 7,
+      "nature": "Puriste",
+      "masque": "Paranoïaque",
+      "figure": "Le Méfiant de l'étranger",
+      "sire": "Béatrix III#64",
+      "infants": [
+        "Brunehaut V#95"
+      ]
+    },
+    {
+      "ref": "Isaure IV#79",
+      "nom": "Isaure IV",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1965,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Conquérant",
+      "masque": "Intrigant",
+      "figure": "Le Renard botté",
+      "sire": "Béatrix III#64",
+      "infants": [
+        "Tancrède#96"
+      ]
+    },
+    {
+      "ref": "Brunehaut III#80",
+      "nom": "Brunehaut III",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2048,
+      "palier": "Mathusalem",
+      "generation": 7,
+      "nature": "Conquérant",
+      "masque": "Patriarche",
+      "figure": "Le Père aux fils-soldats",
+      "sire": "Clothilde V#65",
+      "infants": [
+        "Tancrède II#97",
+        "Roxane V#98"
+      ]
+    },
+    {
+      "ref": "Isaure V#81",
+      "nom": "Isaure V",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2038,
+      "palier": "Mathusalem",
+      "generation": 7,
+      "nature": "Patriarche",
+      "masque": "Conquérant",
+      "figure": "Le Bâtisseur d'empire",
+      "sire": "Clothilde V#65"
+    },
+    {
+      "ref": "Sanguine IX#82",
+      "nom": "Sanguine IX",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1604,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Ascète",
+      "masque": "Patriarche",
+      "figure": "Le Moine-père",
+      "sire": "Béatrix IV#66",
+      "infants": [
+        "Isaure VI#99"
+      ]
+    },
+    {
+      "ref": "Sanguine X#83",
+      "nom": "Sanguine X",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1737,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Intrigant",
+      "masque": "Ascète",
+      "figure": "Le Saint homme",
+      "sire": "Béatrix IV#66",
+      "infants": [
+        "Rainier#100"
+      ]
+    },
+    {
+      "ref": "Arnaut III#84",
+      "nom": "Arnaut III",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1358,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Autocrate",
+      "masque": "Fidèle",
+      "figure": "Le Grand vassal",
+      "sire": "Roxane IV#70",
+      "infants": [
+        "Tancrède III#101"
+      ]
+    },
+    {
+      "ref": "Hugues V#85",
+      "nom": "Hugues V",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1421,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Fidèle",
+      "masque": "Survivant",
+      "figure": "Le Dernier fidèle",
+      "sire": "Sanguine V#71",
+      "infants": [
+        "Isaure VII#102"
+      ]
+    },
+    {
+      "ref": "Guenièvre V#86",
+      "nom": "Guenièvre V",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1364,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Autocrate",
+      "masque": "Patriarche",
+      "figure": "Le Père de la nation",
+      "sire": "Sanguine V#71"
+    },
+    {
+      "ref": "Clothilde VIII#87",
+      "nom": "Clothilde VIII",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1799,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Paranoïaque",
+      "masque": "Prédateur",
+      "figure": "La Bête aux aguets",
+      "sire": "Clothilde VI#72"
+    },
+    {
+      "ref": "Brunehaut IV#88",
+      "nom": "Brunehaut IV",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1739,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Ascète",
+      "masque": "Collectionneur",
+      "figure": "Le Repenti",
+      "sire": "Clothilde VI#72",
+      "infants": [
+        "Arnaut VI#103",
+        "Guenièvre VI#104"
+      ]
+    },
+    {
+      "ref": "Hugues VI#89",
+      "nom": "Hugues VI",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1486,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Puriste",
+      "masque": "Érudit",
+      "figure": "L'Archiviste",
+      "sire": "Sanguine VI#73"
+    },
+    {
+      "ref": "Enguerrand III#90",
+      "nom": "Enguerrand III",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1563,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Puriste",
+      "masque": "Paranoïaque",
+      "figure": "Le Méfiant de l'étranger",
+      "sire": "Clothilde VII#74",
+      "infants": [
+        "Brunehaut VI#105"
+      ]
+    },
+    {
+      "ref": "Sanguine XI#91",
+      "nom": "Sanguine XI",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1736,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Ascète",
+      "masque": "Érudit",
+      "figure": "Le Sage",
+      "sire": "Clothilde VII#74",
+      "infants": [
+        "Guenièvre VII#106"
+      ]
+    },
+    {
+      "ref": "Arnaut IV#92",
+      "nom": "Arnaut IV",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1238,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Érudit",
+      "masque": "Intrigant",
+      "figure": "Le Faux conspirateur",
+      "sire": "Sanguine VII#75",
+      "infants": [
+        "Guenièvre VIII#107",
+        "Sanguine XII#108"
+      ]
+    },
+    {
+      "ref": "Enguerrand IV#93",
+      "nom": "Enguerrand IV",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1522,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Érudit",
+      "masque": "Paranoïaque",
+      "figure": "Le Gardien du secret",
+      "sire": "Sanguine VII#75",
+      "infants": [
+        "Arnaut VII#109"
+      ]
+    },
+    {
+      "ref": "Arnaut V#94",
+      "nom": "Arnaut V",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 2650,
+      "palier": "Mathusalem",
+      "generation": 7,
+      "nature": "Paranoïaque",
+      "masque": "Paranoïaque",
+      "figure": "Le Reclus",
+      "sire": "Sanguine VIII#77"
+    },
+    {
+      "ref": "Brunehaut V#95",
+      "nom": "Brunehaut V",
+      "lignee": "Écarlate",
+      "statut": "actif",
+      "age_jours": 1750,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Intrigant",
+      "masque": "Fidèle",
+      "figure": "Le Confident",
+      "sire": "Hugues IV#78",
+      "ville_principale": "Copșa Mică",
+      "villes": [
+        "Copșa Mică",
+        "Petiș"
+      ],
+      "heritier": "Aldebrand#14",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Tancrède#96",
+      "nom": "Tancrède",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1587,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Survivant",
+      "masque": "Paranoïaque",
+      "figure": "Le Prudent",
+      "sire": "Isaure IV#79"
+    },
+    {
+      "ref": "Tancrède II#97",
+      "nom": "Tancrède II",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1548,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Survivant",
+      "masque": "Puriste",
+      "figure": "Le Discret de lignée",
+      "sire": "Brunehaut III#80"
+    },
+    {
+      "ref": "Roxane V#98",
+      "nom": "Roxane V",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1611,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Patriarche",
+      "masque": "Prédateur",
+      "figure": "Le Loup père",
+      "sire": "Brunehaut III#80"
+    },
+    {
+      "ref": "Isaure VI#99",
+      "nom": "Isaure VI",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1375,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Ascète",
+      "masque": "Intrigant",
+      "figure": "Le Faux serpent",
+      "sire": "Sanguine IX#82"
+    },
+    {
+      "ref": "Rainier#100",
+      "nom": "Rainier",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1568,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Fidèle",
+      "masque": "Ascète",
+      "figure": "Le Vœu",
+      "sire": "Sanguine X#83"
+    },
+    {
+      "ref": "Tancrède III#101",
+      "nom": "Tancrède III",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1250,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Fidèle",
+      "masque": "Paranoïaque",
+      "figure": "Le Garde du corps",
+      "sire": "Arnaut III#84"
+    },
+    {
+      "ref": "Isaure VII#102",
+      "nom": "Isaure VII",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1104,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Intrigant",
+      "masque": "Collectionneur",
+      "figure": "L'Amateur",
+      "sire": "Hugues V#85"
+    },
+    {
+      "ref": "Arnaut VI#103",
+      "nom": "Arnaut VI",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1417,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Survivant",
+      "masque": "Puriste",
+      "figure": "Le Discret de lignée",
+      "sire": "Brunehaut IV#88"
+    },
+    {
+      "ref": "Guenièvre VI#104",
+      "nom": "Guenièvre VI",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1374,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Fidèle",
+      "masque": "Ascète",
+      "figure": "Le Vœu",
+      "sire": "Brunehaut IV#88"
+    },
+    {
+      "ref": "Brunehaut VI#105",
+      "nom": "Brunehaut VI",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1452,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Fidèle",
+      "masque": "Collectionneur",
+      "figure": "Le Dépositaire",
+      "sire": "Enguerrand III#90"
+    },
+    {
+      "ref": "Guenièvre VII#106",
+      "nom": "Guenièvre VII",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 1173,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Autocrate",
+      "masque": "Intrigant",
+      "figure": "Le Faux marionnettiste",
+      "sire": "Sanguine XI#91"
+    },
+    {
+      "ref": "Guenièvre VIII#107",
+      "nom": "Guenièvre VIII",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 837,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Collectionneur",
+      "masque": "Fidèle",
+      "figure": "Le Partenaire",
+      "sire": "Arnaut IV#92"
+    },
+    {
+      "ref": "Sanguine XII#108",
+      "nom": "Sanguine XII",
+      "lignee": "Écarlate",
+      "statut": "detruit",
+      "age_jours": 965,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Conquérant",
+      "masque": "Collectionneur",
+      "figure": "Le Chasseur de trophées",
+      "sire": "Arnaut IV#92"
+    },
+    {
+      "ref": "Arnaut VII#109",
+      "nom": "Arnaut VII",
+      "lignee": "Écarlate",
+      "statut": "actif",
+      "age_jours": 1155,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Paranoïaque",
+      "masque": "Érudit",
+      "figure": "Le Devin anxieux",
+      "sire": "Enguerrand IV#93",
+      "ville_principale": "Iernut",
+      "villes": [
+        "Iernut"
+      ],
+      "heritier": "Aldebrand#14",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Octave#110",
+      "nom": "Octave",
+      "lignee": "Voilée",
+      "statut": "detruit",
+      "age_jours": 10556,
+      "palier": "Mathusalem",
+      "generation": 1,
+      "nature": "Ascète",
+      "masque": "Puriste",
+      "figure": "Le Pur de cœur",
+      "sire": "Mélusine#17",
+      "infants": [
+        "Ophélie#111"
+      ]
+    },
+    {
+      "ref": "Ophélie#111",
+      "nom": "Ophélie",
+      "lignee": "Voilée",
+      "statut": "detruit",
+      "age_jours": 6442,
+      "palier": "Mathusalem",
+      "generation": 2,
+      "nature": "Paranoïaque",
+      "masque": "Conquérant",
+      "figure": "La Guerre préventive",
+      "sire": "Octave#110",
+      "infants": [
+        "Perrine II#112"
+      ]
+    },
+    {
+      "ref": "Perrine II#112",
+      "nom": "Perrine II",
+      "lignee": "Voilée",
+      "statut": "detruit",
+      "age_jours": 4951,
+      "palier": "Mathusalem",
+      "generation": 3,
+      "nature": "Conquérant",
+      "masque": "Patriarche",
+      "figure": "Le Père aux fils-soldats",
+      "sire": "Ophélie#111",
+      "infants": [
+        "Estelle#113"
+      ]
+    },
+    {
+      "ref": "Estelle#113",
+      "nom": "Estelle",
+      "lignee": "Voilée",
+      "statut": "detruit",
+      "age_jours": 3528,
+      "palier": "Mathusalem",
+      "generation": 4,
+      "nature": "Conquérant",
+      "masque": "Intrigant",
+      "figure": "Le Renard botté",
+      "sire": "Perrine II#112",
+      "infants": [
+        "Ophélie II#114",
+        "Perrine III#115"
+      ]
+    },
+    {
+      "ref": "Ophélie II#114",
+      "nom": "Ophélie II",
+      "lignee": "Voilée",
+      "statut": "detruit",
+      "age_jours": 2908,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Érudit",
+      "masque": "Fidèle",
+      "figure": "Le Conseiller de cour",
+      "sire": "Estelle#113",
+      "infants": [
+        "Nyx#116"
+      ]
+    },
+    {
+      "ref": "Perrine III#115",
+      "nom": "Perrine III",
+      "lignee": "Voilée",
+      "statut": "detruit",
+      "age_jours": 3056,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Prédateur",
+      "masque": "Patriarche",
+      "figure": "Le Père dévorant",
+      "sire": "Estelle#113"
+    },
+    {
+      "ref": "Nyx#116",
+      "nom": "Nyx",
+      "lignee": "Voilée",
+      "statut": "detruit",
+      "age_jours": 1871,
+      "palier": "Ancien",
+      "generation": 6,
+      "nature": "Prédateur",
+      "masque": "Ascète",
+      "figure": "Le Loup en bure",
+      "sire": "Ophélie II#114",
+      "infants": [
+        "Ophélie III#117",
+        "Octave II#118"
+      ]
+    },
+    {
+      "ref": "Ophélie III#117",
+      "nom": "Ophélie III",
+      "lignee": "Voilée",
+      "statut": "detruit",
+      "age_jours": 1681,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Érudit",
+      "masque": "Survivant",
+      "figure": "Le Long patient",
+      "sire": "Nyx#116"
+    },
+    {
+      "ref": "Octave II#118",
+      "nom": "Octave II",
+      "lignee": "Voilée",
+      "statut": "detruit",
+      "age_jours": 1225,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Survivant",
+      "masque": "Conquérant",
+      "figure": "Le Faux belliqueux",
+      "sire": "Nyx#116",
+      "infants": [
+        "Ysaline#119"
+      ]
+    },
+    {
+      "ref": "Ysaline#119",
+      "nom": "Ysaline",
+      "lignee": "Voilée",
+      "statut": "detruit",
+      "age_jours": 908,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Patriarche",
+      "masque": "Conquérant",
+      "figure": "Le Bâtisseur d'empire",
+      "sire": "Octave II#118"
+    },
+    {
+      "ref": "Loup#120",
+      "nom": "Loup",
+      "lignee": "Vorace",
+      "statut": "detruit",
+      "age_jours": 7509,
+      "palier": "Mathusalem",
+      "generation": 1,
+      "nature": "Érudit",
+      "masque": "Puriste",
+      "figure": "Le Chercheur interdit",
+      "sire": "Hilde#23",
+      "infants": [
+        "Aigline II#121"
+      ]
+    },
+    {
+      "ref": "Aigline II#121",
+      "nom": "Aigline II",
+      "lignee": "Vorace",
+      "statut": "actif",
+      "age_jours": 5524,
+      "palier": "Mathusalem",
+      "generation": 2,
+      "nature": "Collectionneur",
+      "masque": "Survivant",
+      "figure": "Le Charognard",
+      "sire": "Loup#120",
+      "infants": [
+        "Griselde#122"
+      ],
+      "chef": "Hilde#23",
+      "ville_principale": "Sângeorgiu de Pădure",
+      "villes": [
+        "Sângeorgiu de Pădure",
+        "Roteni",
+        "Sânvăsii"
+      ],
+      "heritier": "Hilde#23",
+      "puissance": 10,
+      "sang": 2.0,
+      "magie": 10.0,
+      "effroi": 10.0
+    },
+    {
+      "ref": "Griselde#122",
+      "nom": "Griselde",
+      "lignee": "Vorace",
+      "statut": "detruit",
+      "age_jours": 3623,
+      "palier": "Mathusalem",
+      "generation": 3,
+      "nature": "Collectionneur",
+      "masque": "Intrigant",
+      "figure": "L'Araignée",
+      "sire": "Aigline II#121",
+      "infants": [
+        "Sauvine#123",
+        "Corbin#124"
+      ]
+    },
+    {
+      "ref": "Sauvine#123",
+      "nom": "Sauvine",
+      "lignee": "Vorace",
+      "statut": "detruit",
+      "age_jours": 3166,
+      "palier": "Mathusalem",
+      "generation": 4,
+      "nature": "Survivant",
+      "masque": "Survivant",
+      "figure": "Le Vieux",
+      "sire": "Griselde#122",
+      "infants": [
+        "Sauvine II#125"
+      ]
+    },
+    {
+      "ref": "Corbin#124",
+      "nom": "Corbin",
+      "lignee": "Vorace",
+      "statut": "detruit",
+      "age_jours": 3250,
+      "palier": "Mathusalem",
+      "generation": 4,
+      "nature": "Survivant",
+      "masque": "Patriarche",
+      "figure": "Le Père d'héritiers",
+      "sire": "Griselde#122"
+    },
+    {
+      "ref": "Sauvine II#125",
+      "nom": "Sauvine II",
+      "lignee": "Vorace",
+      "statut": "detruit",
+      "age_jours": 2207,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Fidèle",
+      "masque": "Puriste",
+      "figure": "Le Gardien de la tradition",
+      "sire": "Sauvine#123",
+      "infants": [
+        "Ragnard#126"
+      ]
+    },
+    {
+      "ref": "Ragnard#126",
+      "nom": "Ragnard",
+      "lignee": "Vorace",
+      "statut": "detruit",
+      "age_jours": 1660,
+      "palier": "Ancien",
+      "generation": 6,
+      "nature": "Collectionneur",
+      "masque": "Intrigant",
+      "figure": "L'Araignée",
+      "sire": "Sauvine II#125",
+      "infants": [
+        "Brune#127",
+        "Varg#128"
+      ]
+    },
+    {
+      "ref": "Brune#127",
+      "nom": "Brune",
+      "lignee": "Vorace",
+      "statut": "detruit",
+      "age_jours": 1237,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Survivant",
+      "masque": "Ascète",
+      "figure": "L'Invisible",
+      "sire": "Ragnard#126",
+      "infants": [
+        "Ulrike II#129"
+      ]
+    },
+    {
+      "ref": "Varg#128",
+      "nom": "Varg",
+      "lignee": "Vorace",
+      "statut": "detruit",
+      "age_jours": 1547,
+      "palier": "Ancien",
+      "generation": 7,
+      "nature": "Survivant",
+      "masque": "Collectionneur",
+      "figure": "Le Blindé",
+      "sire": "Ragnard#126"
+    },
+    {
+      "ref": "Ulrike II#129",
+      "nom": "Ulrike II",
+      "lignee": "Vorace",
+      "statut": "detruit",
+      "age_jours": 989,
+      "palier": "Ancien",
+      "generation": 8,
+      "nature": "Survivant",
+      "masque": "Collectionneur",
+      "figure": "Le Blindé",
+      "sire": "Brune#127",
+      "infants": [
+        "Sauvine III#130",
+        "Brune II#131"
+      ]
+    },
+    {
+      "ref": "Sauvine III#130",
+      "nom": "Sauvine III",
+      "lignee": "Vorace",
+      "statut": "detruit",
+      "age_jours": 763,
+      "palier": "Ancien",
+      "generation": 9,
+      "nature": "Érudit",
+      "masque": "Prédateur",
+      "figure": "Le Monstre des légendes",
+      "sire": "Ulrike II#129"
+    },
+    {
+      "ref": "Brune II#131",
+      "nom": "Brune II",
+      "lignee": "Vorace",
+      "statut": "detruit",
+      "age_jours": 768,
+      "palier": "Ancien",
+      "generation": 9,
+      "nature": "Collectionneur",
+      "masque": "Puriste",
+      "figure": "L'Hypocrite",
+      "sire": "Ulrike II#129"
+    },
+    {
+      "ref": "Nosferan#132",
+      "nom": "Nosferan",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 11444,
+      "palier": "Mathusalem",
+      "generation": 1,
+      "nature": "Autocrate",
+      "masque": "Paranoïaque",
+      "figure": "L'Ombre inquiète",
+      "sire": "Malachie#0",
+      "infants": [
+        "Vermine#133"
+      ]
+    },
+    {
+      "ref": "Vermine#133",
+      "nom": "Vermine",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 10156,
+      "palier": "Mathusalem",
+      "generation": 2,
+      "nature": "Ascète",
+      "masque": "Ascète",
+      "figure": "Le Saint",
+      "sire": "Nosferan#132",
+      "infants": [
+        "Crâneval#134",
+        "Pestilia#135"
+      ]
+    },
+    {
+      "ref": "Crâneval#134",
+      "nom": "Crâneval",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 8507,
+      "palier": "Mathusalem",
+      "generation": 3,
+      "nature": "Ascète",
+      "masque": "Paranoïaque",
+      "figure": "L'Ermite en garde",
+      "sire": "Vermine#133",
+      "infants": [
+        "Sabrenne#136"
+      ]
+    },
+    {
+      "ref": "Pestilia#135",
+      "nom": "Pestilia",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 8969,
+      "palier": "Mathusalem",
+      "generation": 3,
+      "nature": "Collectionneur",
+      "masque": "Fidèle",
+      "figure": "Le Partenaire",
+      "sire": "Vermine#133",
+      "infants": [
+        "Ténèbre#137"
+      ]
+    },
+    {
+      "ref": "Sabrenne#136",
+      "nom": "Sabrenne",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 5492,
+      "palier": "Mathusalem",
+      "generation": 4,
+      "nature": "Survivant",
+      "masque": "Puriste",
+      "figure": "Le Discret de lignée",
+      "sire": "Crâneval#134",
+      "infants": [
+        "Vermine II#138",
+        "Grimaude#139"
+      ]
+    },
+    {
+      "ref": "Ténèbre#137",
+      "nom": "Ténèbre",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 6899,
+      "palier": "Mathusalem",
+      "generation": 4,
+      "nature": "Autocrate",
+      "masque": "Prédateur",
+      "figure": "Le Seigneur-fauve",
+      "sire": "Pestilia#135",
+      "infants": [
+        "Orlok#140"
+      ]
+    },
+    {
+      "ref": "Vermine II#138",
+      "nom": "Vermine II",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 4094,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Prédateur",
+      "masque": "Survivant",
+      "figure": "Le Fauve blessé",
+      "sire": "Sabrenne#136",
+      "infants": [
+        "Grimaude II#141"
+      ]
+    },
+    {
+      "ref": "Grimaude#139",
+      "nom": "Grimaude",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 4921,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Collectionneur",
+      "masque": "Érudit",
+      "figure": "Le Naturaliste",
+      "sire": "Sabrenne#136",
+      "infants": [
+        "Mordrac#142"
+      ]
+    },
+    {
+      "ref": "Orlok#140",
+      "nom": "Orlok",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 5395,
+      "palier": "Mathusalem",
+      "generation": 5,
+      "nature": "Survivant",
+      "masque": "Érudit",
+      "figure": "Le Dormeur",
+      "sire": "Ténèbre#137",
+      "infants": [
+        "Orlok II#143"
+      ]
+    },
+    {
+      "ref": "Grimaude II#141",
+      "nom": "Grimaude II",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 3261,
+      "palier": "Mathusalem",
+      "generation": 6,
+      "nature": "Érudit",
+      "masque": "Paranoïaque",
+      "figure": "Le Gardien du secret",
+      "sire": "Vermine II#138"
+    },
+    {
+      "ref": "Mordrac#142",
+      "nom": "Mordrac",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 4378,
+      "palier": "Mathusalem",
+      "generation": 6,
+      "nature": "Prédateur",
+      "masque": "Conquérant",
+      "figure": "Le Ravageur",
+      "sire": "Grimaude#139",
+      "infants": [
+        "Ténèbre II#144"
+      ]
+    },
+    {
+      "ref": "Orlok II#143",
+      "nom": "Orlok II",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 3734,
+      "palier": "Mathusalem",
+      "generation": 6,
+      "nature": "Survivant",
+      "masque": "Collectionneur",
+      "figure": "Le Blindé",
+      "sire": "Orlok#140"
+    },
+    {
+      "ref": "Ténèbre II#144",
+      "nom": "Ténèbre II",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 2965,
+      "palier": "Mathusalem",
+      "generation": 7,
+      "nature": "Puriste",
+      "masque": "Prédateur",
+      "figure": "Le Chien de frontière",
+      "sire": "Mordrac#142",
+      "infants": [
+        "Orlok III#145",
+        "Grimaude III#146"
+      ]
+    },
+    {
+      "ref": "Orlok III#145",
+      "nom": "Orlok III",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 2223,
+      "palier": "Mathusalem",
+      "generation": 8,
+      "nature": "Survivant",
+      "masque": "Survivant",
+      "figure": "Le Vieux",
+      "sire": "Ténèbre II#144"
+    },
+    {
+      "ref": "Grimaude III#146",
+      "nom": "Grimaude III",
+      "lignee": "Stryge",
+      "statut": "detruit",
+      "age_jours": 2076,
+      "palier": "Mathusalem",
+      "generation": 8,
+      "nature": "Paranoïaque",
+      "masque": "Collectionneur",
+      "figure": "L'Armure de traits",
+      "sire": "Ténèbre II#144"
+    }
+  ],
+  "villes": [
+    {
+      "id": 0,
+      "nom": "Mediaș",
+      "niveau": 1,
+      "seigneur": "Sulpice#12"
+    },
+    {
+      "id": 1,
+      "nom": "Odorheiu Secuiesc",
+      "niveau": 1,
+      "seigneur": "Nicodim#19"
+    },
+    {
+      "id": 2,
+      "nom": "Sighișoara",
+      "niveau": 1,
+      "seigneur": "Malachie#0"
+    },
+    {
+      "id": 3,
+      "nom": "Târnăveni",
+      "niveau": 1,
+      "seigneur": "Sulpice#12"
+    },
+    {
+      "id": 4,
+      "nom": "Agnita",
+      "niveau": 2,
+      "seigneur": "Gontran#15"
+    },
+    {
+      "id": 5,
+      "nom": "Copșa Mică",
+      "niveau": 2,
+      "seigneur": "Brunehaut V#95"
+    },
+    {
+      "id": 6,
+      "nom": "Cristuru Secuiesc",
+      "niveau": 2,
+      "seigneur": "Ossiane#3"
+    },
+    {
+      "id": 7,
+      "nom": "Dumbrăveni",
+      "niveau": 2,
+      "seigneur": "Ysolde#10"
+    },
+    {
+      "id": 8,
+      "nom": "Iernut",
+      "niveau": 2,
+      "seigneur": "Arnaut VII#109"
+    },
+    {
+      "id": 9,
+      "nom": "Rupea",
+      "niveau": 2,
+      "seigneur": "Anselm#5"
+    },
+    {
+      "id": 10,
+      "nom": "Sângeorgiu de Pădure",
+      "niveau": 2,
+      "seigneur": "Aigline II#121"
+    },
+    {
+      "id": 11,
+      "nom": "Ungheni",
+      "niveau": 2,
+      "seigneur": "Malachie#0"
+    },
+    {
+      "id": 12,
+      "nom": "Agrișteu",
+      "niveau": 3,
+      "seigneur": "Malachie#0"
+    },
+    {
+      "id": 13,
+      "nom": "Avrămești",
+      "niveau": 3,
+      "seigneur": "Hilde#23"
+    },
+    {
+      "id": 14,
+      "nom": "Bezid",
+      "niveau": 3,
+      "seigneur": "Hilde#23"
+    },
+    {
+      "id": 15,
+      "nom": "Cucerdea",
+      "niveau": 3,
+      "seigneur": "Sulpice#12"
+    },
+    {
+      "id": 16,
+      "nom": "Daia",
+      "niveau": 3,
+      "seigneur": "Nicodim#19"
+    },
+    {
+      "id": 17,
+      "nom": "Deaj",
+      "niveau": 3,
+      "seigneur": "Sulpice#12"
+    },
+    {
+      "id": 18,
+      "nom": "Dealu",
+      "niveau": 3,
+      "seigneur": "Mélusine#17"
+    },
+    {
+      "id": 19,
+      "nom": "Dealu Frumos",
+      "niveau": 3,
+      "seigneur": "Konstantin#7"
+    },
+    {
+      "id": 20,
+      "nom": "Gogan",
+      "niveau": 3,
+      "seigneur": "Ysolde#10"
+    },
+    {
+      "id": 21,
+      "nom": "Hoghiz",
+      "niveau": 3,
+      "seigneur": "Vlaicu#25"
+    },
+    {
+      "id": 22,
+      "nom": "Ighișu Nou",
+      "niveau": 3,
+      "seigneur": "Gontran#15"
+    },
+    {
+      "id": 23,
+      "nom": "Mihăileni",
+      "niveau": 3,
+      "seigneur": "Mélusine#17"
+    },
+    {
+      "id": 24,
+      "nom": "Mălâncrav",
+      "niveau": 3,
+      "seigneur": "Cendrik#13"
+    },
+    {
+      "id": 25,
+      "nom": "Nemșa",
+      "niveau": 3,
+      "seigneur": "Gontran#15"
+    },
+    {
+      "id": 26,
+      "nom": "Nicolești",
+      "niveau": 3,
+      "seigneur": "Mélusine#17"
+    },
+    {
+      "id": 27,
+      "nom": "Petiș",
+      "niveau": 3,
+      "seigneur": "Brunehaut V#95"
+    },
+    {
+      "id": 28,
+      "nom": "Pipea",
+      "niveau": 3,
+      "seigneur": "Malachie#0"
+    },
+    {
+      "id": 29,
+      "nom": "Roandola",
+      "niveau": 3,
+      "seigneur": "Ysolde#10"
+    },
+    {
+      "id": 30,
+      "nom": "Roteni",
+      "niveau": 3,
+      "seigneur": "Aigline II#121"
+    },
+    {
+      "id": 31,
+      "nom": "Stejărișu",
+      "niveau": 3,
+      "seigneur": "Cassien#22"
+    },
+    {
+      "id": 32,
+      "nom": "Sâncel",
+      "niveau": 3,
+      "seigneur": "Mélusine#17"
+    },
+    {
+      "id": 33,
+      "nom": "Sânmărghita",
+      "niveau": 3,
+      "seigneur": "Malachie#0"
+    },
+    {
+      "id": 34,
+      "nom": "Sânvăsii",
+      "niveau": 3,
+      "seigneur": "Aigline II#121"
+    },
+    {
+      "id": 35,
+      "nom": "Uilac",
+      "niveau": 3,
+      "seigneur": "Hilde#23"
+    },
+    {
+      "id": 36,
+      "nom": "Vecerd",
+      "niveau": 3,
+      "seigneur": "Aldebrand#14"
+    },
+    {
+      "id": 37,
+      "nom": "Vălureni",
+      "niveau": 3,
+      "seigneur": "Malachie#0"
+    },
+    {
+      "id": 38,
+      "nom": "Șaeș",
+      "niveau": 3,
+      "seigneur": "Radomir#26"
+    },
+    {
+      "id": 39,
+      "nom": "Șapartoc",
+      "niveau": 3,
+      "seigneur": "Ilka#9"
+    }
+  ],
+  "cercles": [
+    {
+      "id": 0,
+      "anneau": [
+        "Malachie#0",
+        "Sulpice#12",
+        "Radomir#26",
+        "Gontran#15",
+        "Nicodim#19",
+        "Ossiane#3"
+      ],
+      "ferme": true,
+      "priorite": "augury",
+      "athanors": 4,
+      "points_par_an": 80.0,
+      "ecoles": {
+        "augury": {
+          "points": 2600.0,
+          "rang": 3
+        },
+        "blight": {
+          "points": 900.0,
+          "rang": 2
+        },
+        "hemomancy": {
+          "points": 60.0,
+          "rang": 1
+        },
+        "necromancy": {
+          "points": 460.0,
+          "rang": 1
+        },
+        "shadow": {
+          "points": 250.0,
+          "rang": 1
+        }
+      }
+    },
+    {
+      "id": 1,
+      "anneau": [
+        "Vlaicu#25",
+        "Ilka#9",
+        "Cendrik#13"
+      ],
+      "ferme": true,
+      "priorite": "beast",
+      "athanors": 2,
+      "points_par_an": 28.0,
+      "ecoles": {
+        "beast": {
+          "points": 470.0,
+          "rang": 1
+        },
+        "blight": {
+          "points": 200.0,
+          "rang": 1
+        }
+      }
+    },
+    {
+      "id": 2,
+      "anneau": [
+        "Konstantin#7",
+        "Ronce#28",
+        "Cassien#22"
+      ],
+      "ferme": true,
+      "priorite": "tempest",
+      "athanors": 2,
+      "points_par_an": 28.0,
+      "ecoles": {
+        "augury": {
+          "points": 300.0,
+          "rang": 1
+        },
+        "hemomancy": {
+          "points": 820.0,
+          "rang": 2
+        },
+        "tempest": {
+          "points": 120.0,
+          "rang": 1
+        }
+      }
+    }
+  ]
+}

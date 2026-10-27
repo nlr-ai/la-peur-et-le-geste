@@ -17,7 +17,46 @@ from agents.expose import reveiller_main  # noqa: F401
 from agents import mj, portage
 
 
+def _spectacle():
+    with open(mj.MJ_SPECTACLE_MD, encoding="utf-8") as f:
+        return f.read()
+
+
 class MessageJoueurTests(unittest.TestCase):
+    def test_premiere_tranche_demandee_avant_les_appels_pnj(self):
+        from agents.expose import runtime
+        from scenes_partagees import Scenes
+        with mock.patch.object(Scenes, "__init__", return_value=None), \
+                mock.patch.object(Scenes, "active", new_callable=mock.PropertyMock, return_value=False), \
+                mock.patch.object(mj.chambre, "ouvrir", return_value="chambre-test"), \
+                mock.patch.object(mj, "_manuel", return_value="manuel"), \
+                mock.patch.object(mj, "_message", return_value="message joueur"), \
+                mock.patch.object(mj, "_retours_parloir_non_lus", return_value=([], 0)), \
+                mock.patch.object(mj, "_marquer_retours_parloir_lus"), \
+                mock.patch("agents.mj_generation.compter_tour"), \
+                mock.patch.object(mj, "_types_flux_depuis", return_value=["recit"]), \
+                mock.patch.object(runtime, "appeler", return_value={"result": "fait"}) as appel:
+            mj._appeler_mj("rhaenyra", "Bonjour", "POST")
+        message = appel.call_args.kwargs["message"]
+        self.assertNotIn("PREMIERE REPONSE", message)
+        self.assertNotIn("GARDE CONTRE LES BOUCLES", message)
+        reveil = _spectacle()
+        self.assertIn("Ouvre le tour par un premier item visible", reveil)
+        self.assertIn("Cette tranche ne termine pas le tour", reveil)
+        self.assertIn("Garde contre les boucles", reveil)
+
+    def test_le_monde_peut_remplacer_constitution_et_spectacle(self):
+        monde = os.path.dirname(mj.ETAT)
+        manuel = self._manuel_avec({
+            os.path.join(monde, "prompts", "mj.md"): "CONSTITUTION LOCALE",
+            os.path.join(monde, "prompts", "mj-spectacle.md"): "SCENE LOCALE",
+            mj.MANUEL_MJ_RACINE: "CONSTITUTION VOISINE",
+            mj.MJ_SPECTACLE_MD: "SCENE VOISINE",
+        }, partie=None)
+        self.assertIn("CONSTITUTION LOCALE", manuel)
+        self.assertIn("SCENE LOCALE", manuel)
+        self.assertNotIn("VOISINE", manuel)
+
     def test_message_joueur_n_est_pas_un_arbitrage(self):
         brief = ("== BRIEF MESSAGE JOUEUR — rhaenyra\n"
                  "ACTION C:\\inbox\\action-1.json · ref abc\n"
@@ -31,43 +70,14 @@ class MessageJoueurTests(unittest.TestCase):
         self.assertIn("[JOUEUR]", message)
         self.assertIn("FIL CANONIQUE DU PJ", message)
         self.assertIn("L42", message)
-        self.assertIn("Traite toutes les ACTIONS", message)
-        self.assertIn("jamais par billet ou parloir", message)
-        self.assertIn("scripts/append_flux.py", message)
-        self.assertIn("CADRE DU TOUR PJ", message)
-        self.assertIn("PREMIERE action", message)
-        self.assertIn("DERNIERE action", message)
-        self.assertIn("deux items sont distincts", message)
-        self.assertIn("visible adresse a rhaenyra", message)
         self.assertIn("--pour rhaenyra", message)
-        self.assertNotIn("spool", message)
+        self.assertNotIn("CADRE DU TOUR PJ", message)
         self.assertNotIn("Tu es l'arbitre", message)
-
-    def test_message_run_demande_du_substantiel_sans_imposer_suites(self):
-        with mock.patch.object(mj, "date_du_monde",
-                               return_value=(129, 4, 4)):
-            message = mj._message(
-                "rhaenyra", "je viens d'agir", "JOUEUR", modes=["run"])
-        self.assertIn("RUN ACTIF", message)
-        self.assertIn("ne sont PAS une reponse", message)
-        self.assertIn("n'est jamais requis", message)
-        self.assertNotIn("DERNIER item", message)
-
-        with open(mj.MJ_SPECTACLE_MD, encoding="utf-8") as f:
-            manuel = f.read()
-        self.assertIn("Le garde mécanique porte sur le contenu, jamais sur `suites`",
-                      manuel)
-        self.assertNotIn("Le dernier item d'un « laisser faire » est un",
-                         manuel)
-
-    def test_message_permet_plusieurs_poussees_pendant_le_tour(self):
-        with mock.patch.object(mj, "date_du_monde",
-                               return_value=(129, 4, 4)):
-            message = mj._message(
-                "rhaenyra", "je viens d'agir", "JOUEUR")
-        self.assertIn("des qu'une tranche est prete", message)
-        self.assertIn("de nouveau plus tard dans le meme tour", message)
-        self.assertIn("Un refus se corrige avant", message)
+        reveil = _spectacle()
+        self.assertIn("jamais par billet ni parloir", reveil)
+        self.assertIn("Ferme le tour par un SECOND item visible", reveil)
+        self.assertIn("plusieurs poussées par tour sont normales", reveil)
+        self.assertIn("Un item refusé se lit", reveil)
 
     def test_brief_joueur_pointe_inbox_et_lignes_du_fil(self):
         with tempfile.TemporaryDirectory() as dossier:
@@ -88,7 +98,7 @@ class MessageJoueurTests(unittest.TestCase):
                                         "ref": ("ref-42" if i == 9 else None),
                                         "texte": ("Le texte exact" if i == 9
                                                   else "item-%d" % i)}) + "\n")
-            with mock.patch.object(portage, "RACINE", dossier), \
+            with mock.patch.object(portage, "ETAT", os.path.join(dossier, "etat")), \
                     mock.patch.object(portage, "FLUX", flux), \
                     mock.patch.object(portage, "matiere_du_message",
                                       return_value="\nREGISTRE CIBLE\n"):
@@ -110,9 +120,10 @@ class MessageJoueurTests(unittest.TestCase):
                                return_value=(129, 4, 4)):
             message = mj._message("daemon", "mon rapport", "POST")
 
-        self.assertIn("Tu es l'arbitre", message)
-        self.assertIn("par billet", message)
+        self.assertIn("[POST] daemon te reveille", message)
+        self.assertIn("mon rapport", message)
         self.assertNotIn("[JOUEUR]", message)
+        self.assertIn("Un billet paie son péage", _spectacle())
 
     def test_le_lanceur_constate_les_items_pousses_directement(self):
         with tempfile.TemporaryDirectory() as dossier:

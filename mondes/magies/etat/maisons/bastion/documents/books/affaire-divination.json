@@ -1,0 +1,899 @@
+{
+ "id": "affaire-divination",
+ "maison_id": "bastion",
+ "titre": "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+ "sous_titre": "🔍 Affaire ouverte à la salle du conseil du Bastion couronné et POSÉE LÀ, où elle reste. Trois états atteignables, douze lois dont deux tranchées par nous, seize mécanismes, trente-deux pratiques. L'école donne accès à une relation conservée, jamais à l'omniscience. Plage 60000 à 60999.",
+ "type": "plan",
+ "embleme": "🔍",
+ "couleur": "#3a6b88",
+ "lieu_id": "bastion-couronne",
+ "salle_id": "conseil-couronne",
+ "tenu_par": null,
+ "office": "O04",
+ "pages": [
+  "TROIS CHOSES SE FONT AVEC CETTE ÉCOLE : ouvrir une voie d'observation à partir d'un témoin matériel ayant eu un contact passé, afficher une image optique partagée à la surface d'un bassin de regard, et démêler les relations multiples sans surcharger la gemme.\n\nUne seule règle gouverne toute cette école : **un lien donne accès à la relation qu'il conserve, pas à toute la cible.** Une pierre de parapet détachée d'une tour permet de voir depuis l'emplacement d'où elle provient. Une bague longtemps portée aide à situer son porteur. Mais une pièce de monnaie passée par cent mains ouvre cent reflets confus qui se brouillent les uns les autres. Le devin ne devine rien : il suit un fil matériel tendu par le passé.",
+  "LA PHYSIQUE DE CETTE ÉCOLE TIENT EN DOUZE LOIS, ET SA FORME EST UN BASSIN SILENCIEUX.\n\nTrois fonctions rigoureusement séparées composent le dispositif : **alimenter** (une petite gemme taillée par un enchanteur), **atteindre** (le témoin matériel placé dans le socle), et **percevoir** (le bassin de regard rempli d'eau calme). La restitution est publique et sans mystère : une image à la surface de l'eau, visible par tous ceux qui se penchent dessus, mais **dépourvue de tout son**.\n\nLe conseil peut regarder ensemble et discuter de ce qu'il voit ; aucun murmure, aucune parole d'ennemi ne remonte par ce canal. Et le regard n'est pas une mouche qui vole : on ne tourne pas la tête à volonté pour visiter les caves. Le point de vue reste obstinément cloué à la relation conservée par le témoin.\n\n**Nos deux décisions.** *L'isolement sous plomb des archives matérielles* : nous tranchons que tout fragment prélevé sur nos propres ouvrages doit être conservé en cassette de plomb pour interdire son exploitation par des devins hostiles. *Le lien créateur inviolable* : nous actons que partout où de la magie a circulé, un lien subsiste entre le bâtisseur et son œuvre, faisant de chaque pan de nos murailles un témoin potentiel contre nous.",
+  "CE CAHIER TOMBE SUR UNE ABSENCE DE MAIN, MAIS SUR UNE EXPOSITION PERMANENTE DE LA MAISON.\n\nLe Bastion ne loge aucun devin attitré. Nous achetons nos consultations aux Belvédères de la guilde ou aux mutuelles d'éveillés. Mais nous sommes une maison qui bâtit en pierre et en métal, c'est-à-dire une maison qui sème des témoins matériels partout où elle intervient.\n\nCe cahier est notre **bouclier de discrétion**. Il régit la sécurité de nos fragments de taille, le contrôle des objets personnels de nos chefs (bagues, sceaux, épées) et l'emploi du bassin de regard de la salle du conseil lorsque nous recevons un praticien sous contrat.",
+  "TROIS CHOSES À SAVOIR AVANT DE S'APPUYER SUR CE CAHIER.\n\n**Aucune des trente-deux pratiques n'est certifiée achevée.** Les fragments de pierre de notre première enceinte traînent encore chez des tailleurs de Sombreval.\n\n**Sept mécanismes ne demandent aucun don magique** : façonner un bassin d'ardoise noire polie, filtrer l'eau sur sable et charbon de bois pour supprimer tout résidu flottant, enfermer les objets témoins dans des coffrets doublés de plomb, consigner la provenance exacte de chaque pièce, limiter la durée d'allumage par sablier de cinq minutes, noter les divergences d'interprétation entre conseillers, et briser les témoins devenus inutiles.\n\n**Une faute classique à bannir** : croire qu'augmenter l'alimentation éclaircit une image trouble. Pousser la gemme sur un témoin aux relations multiples ne fait que superposer plus violemment les scènes jusqu'à l'aveuglement. Le talent du devin réside dans l'orientation de la parole, non dans la force brute de la gemme.\n\nCe qui reste ouvert : la dégradation naturelle des liens de contact après un incendie ou une immersion marine prolongée, et la distance maximale au-delà de laquelle l'image perd son contraste."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "Le sujet dont le conseil traite, **jamais la solution**.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Nos ouvrages et nos personnes sèment des témoins matériels exploitables par autrui. Le conseil doit connaître les conditions physiques de l'observation à distance, l'ancrage strict du point de vue, et les mesures matérielles de discrétion pour préserver nos refuges.",
+      "Une phrase : pourquoi cette affaire mérite l'attention du conseil.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Les trois états qu'un devin peut atteindre : obtenir une image stable en bassin, démêler les relations d'un témoin ambigu, et surveiller les liens créateurs d'ouvrages. Le rôle des petites gemmes, la pureté de l'eau, et les coffres de mise en sécurité sous plomb.",
+      "Ce qui est réellement traité dans ce cahier.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "La lecture des pensées et souvenirs intimes (qui relève de l'Esprit 53000). L'observation des événements passés éteints (relevant du Temps 61000). L'astrologie ou la divination prophétique sans support matériel. Les contrats commerciaux des Belvédères extérieurs.",
+      "Sans le dehors écrit, une affaire d'école avale tout en trois semaines.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "**Ce qui est vrai :** le Bastion possède un bassin d'ardoise en réserve haute ; des gemmes de petite taille sont taillées par Héloïse ; les Belvédères nous offrent leurs services. **Ce qu'on reconnaît ignorer :** nous ne savons pas combien de fragments de nos remparts sont aux mains d'étrangers ; nos registres d'effets personnels d'officiers ne sont pas tenus ; aucun protocole d'interrogatoire visuel n'a été formalisé.",
+      "Ce qu'on sait réellement à l'ouverture, et ce qu'on reconnaît ignorer.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "**60000 à 60999**",
+      "Un bloc de cent par état cible ; verrous en 01 à 09, clefs en 10 à 19, pratiques en 20 à 99.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "",
+      "Écrite de la main de qui tient la charge, quand elle l'est. Pas avant.",
+      "non"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Le bassin d'ardoise du conseil est étalonné et pourvu de gemmes certifiées ; un coffre de plomb scellé accueille les témoins de nos propres bâtis ; et une consigne stricte de destruction des rebuts de taille est appliquée aux chantiers.",
+      "La fermeture couvre l'état de notre savoir et de nos ouvrages, jamais la maîtrise de l'école.",
+      "**oui**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M85 🛡️ Ce que nos filtres arrêtent, par écrit",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M86 🕯️ Le gîte et la relève des tenants",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M87 ⏱️ Le compte du délai de levée",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Esprit — ce qu'on peut faire d'un percept, et ce qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "M06 🌡️ Le capteur Mercure Chaud et son Barrer",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Mort — ce qui doit venir, et ce qui doit prendre voix",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Mort — ce qui doit venir, et ce qui doit prendre voix",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M06 🌡️ Le capteur Mercure Chaud et son Barrer",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "M06 🌡️ Le capteur Mercure Chaud et son Barrer",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Les Illusions — l'unique chose que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Les Émotions — les deux choses que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⛓️ Ce qui pend, et sur qui — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🧭 Sens",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "🔗 L'affaire"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "—",
+      "",
+      "",
+      "rien ne traverse"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔨🪶 Ce qu'on engage, et qui d'autre le veut — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🔢 La pièce",
+    "⚔️ Nos actions",
+    "🔗 Aussi engagée par"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "🗝️ 60010 · ⚔️ 60020 · 🗝️ 60210 · 🗝️ 60211 · ⚔️ 60220 · ⚔️ 60221",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages · La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "M06 🌡️ Le capteur Mercure Chaud et son Barrer",
+      "🗝️ 60012 · ⚔️ 60022",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir"
+     ]
+    },
+    {
+     "cellules": [
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "🗝️ 60011 · ⚔️ 60021 · ⚔️ 60120",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages · La Mort — ce qui doit venir, et ce qui doit prendre voix · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "M85 🛡️ Ce que nos filtres arrêtent, par écrit",
+      "🗝️ 60110",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    },
+    {
+     "cellules": [
+      "M86 🕯️ Le gîte et la relève des tenants",
+      "🗝️ 60010 · ⚔️ 60020",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    },
+    {
+     "cellules": [
+      "M87 ⏱️ Le compte du délai de levée",
+      "🗝️ 60210 · ⚔️ 60220",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    },
+    {
+     "cellules": [
+      "O01 —",
+      "⚔️ 60220 · ⚔️ 60221",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages · L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose · La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "O04 —",
+      "⚔️ 60020 · ⚔️ 60021 · ⚔️ 60022 · ⚔️ 60120",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose · L'Esprit — ce qu'on peut faire d'un percept, et ce qui s'y oppose · La Mort — ce qui doit venir, et ce qui doit prendre voix · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations · Les Illusions — l'unique chose que cette école fait, et la physique qui s'y oppose · Les Émotions — les deux choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🕳️ Les trous — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🕳️ Le défaut",
+    "🔢 Les pièces"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🔒 verrou qu'aucune clef n'ouvre — il est mal nommé",
+      "🔒 60001 · 🔒 60003"
+     ]
+    },
+    {
+     "cellules": [
+      "↗️ raccourci — le renvoi saute un rang de la chaîne du guide",
+      "🗝️ 60010"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🧾 Ce que ce cahier cite et que la Maison ne tient pas encore",
+   "colonnes": [
+    "🔢 La pièce citée",
+    "📖 Ce qu'elle désigne",
+    "⚠️ Ce qui manque"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M85",
+      "Le don de Divination.",
+      "**Absent de la Maison.** Aucun membre du Bastion n'est éveillé à la Divination ; dépendance envers des praticiens sous contrat."
+     ]
+    },
+    {
+     "cellules": [
+      "M86",
+      "Le bassin de regard en ardoise noire taillée.",
+      "**Présent mais non monté.** La vasque est entreposée aux réserves hautes, sans son piédestal d'alignement ni alimentation dédiée."
+     ]
+    },
+    {
+     "cellules": [
+      "M87",
+      "Le coffre de plomb des témoins d'ouvrages.",
+      "**À fabriquer.** Nos fragments témoins sont pour l'instant dispersés dans des tiroirs ordinaires de la chancellerie."
+     ]
+    },
+    {
+     "cellules": [
+      "O04",
+      "La Maison — Yselde Arquen.",
+      "**Pourvue.** Yselde doit définir la doctrine de sécurité contre l'espionnage divinatoire visant les chantiers de nos refuges."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🏷️ L'état",
+    "✅ Ce qui doit être vrai",
+    "💡 Valence",
+    "📍 Où",
+    "👁️ La preuve",
+    "⬆️ Sert",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**60000**",
+      "**Obtenir une image optique stable en bassin depuis un témoin matériel pourvu de contact passé.**",
+      "Une surface d'eau calme restitue une image nette du lieu ou du porteur lié au témoin, visible simultanément par toutes les personnes présentes.",
+      "L'acte central de l'école. L'image est objective et partagée : ce n'est pas une vision mentale individuelle, c'est un miroir d'eau où le conseil peut constater les faits de ses propres yeux.",
+      "Salle du conseil ou belvédère dédié",
+      "Une vue de la cour extérieure obtenue sur le bassin à partir d'un éclat de meule posé dans le socle.",
+      "racine",
+      "**100**"
+     ]
+    },
+    {
+     "cellules": [
+      "**60100**",
+      "**Démêler les relations concurrentes d'un témoin ambigu sans surconsommation de gemmes.**",
+      "Le devin isole par la parole la chaîne de contact pertinente parmi les multiples porteurs successifs sans faire saturer le bassin.",
+      "La compétence critique. Un témoin parfait n'existe presque jamais : savoir écarter les contacts parasites évite de prendre le voleur pour le propriétaire.",
+      "Au poste de consultation",
+      "L'identification exacte du dernier porteur d'une dague passée entre trois mains lors d'un test aveugle.",
+      "60000",
+      "**95**"
+     ]
+    },
+    {
+     "cellules": [
+      "**60200**",
+      "**Identifier et surveiller les liens créateurs reliant les bâtisseurs à leurs ouvrages.**",
+      "La Maison sait cartographier les liens invisibles qui unissent ses maîtres d'œuvre aux ouvrages bâtis, pour en vérifier l'intégrité ou parer l'espionnage.",
+      "La sauvegarde architecturale. Savoir qui a bâti quoi et empêcher qu'un maçon renégat ne serve de balise involontaire pour les devins du dehors.",
+      "Sur tous les ouvrages fortifiés de la Maison",
+      "Le relevé exact des maîtres maçons ayant touché la porte de fer, vérifié par observation sur fragment.",
+      "60000",
+      "**90**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous",
+   "colonnes": [
+    "🔒 N°",
+    "🏷️ Le verrou",
+    "⛔ Bloque",
+    "📌 Ce qui est vrai aujourd'hui",
+    "📚 D'où ça vient",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "🔓 Levé quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**60001**",
+      "**Le témoin matériel indispensable** — Aucun accès sans objet ou fragment réel ayant touché la cible.",
+      "60000",
+      "Prononcer un nom ou connaître une généalogie ne donne aucune image si le logement du socle est vide. Le monde exige un pont tangible.",
+      "**source**",
+      "",
+      "🔍 Un lien donne accès à la relation qu'il conserve, pas à toute la cible.",
+      "Une observation visuelle nette a été obtenue sans aucun témoin matériel dans le bassin."
+     ]
+    },
+    {
+     "cellules": [
+      "**60002**",
+      "**L'extinction sonore absolue** — Le bassin ne restitue strictement aucun son ni parole.",
+      "60000",
+      "On voit les lèvres bouger, les chevaux hennir et les poutres casser en silence complet. Tenter de 'tendre l'oreille' est une faute de néophyte.",
+      "**source**",
+      "",
+      "🔍 Image partagée sans son ; point de vue limité par le lien.",
+      "Un son articulé ou une phrase audible est sorti de la surface d'un bassin de regard."
+     ]
+    },
+    {
+     "cellules": [
+      "**60003**",
+      "**L'immobilité du point de vue** — L'angle d'observation est rivé à la relation du témoin.",
+      "60000",
+      "Un fragment de parapet montre ce qui fait face au parapet ; il ne permet pas de se retourner pour regarder ce qui se trame derrière la porte fermée.",
+      "**source**",
+      "60001",
+      "🔍 Le devin ne dispose pas d'une caméra libre pour visiter les sous-sols.",
+      "Un observateur a pivoté son regard à 180 degrés pour inspecter une pièce masquée sans lien matériel."
+     ]
+    },
+    {
+     "cellules": [
+      "**60004**",
+      "**La consommation de la gemme** — L'observation puise dans une réserve d'énergie réelle.",
+      "60000",
+      "Chaque minute d'image décharge la gemme du socle ; une fois vide, la surface redevient une flaque d'eau noire inerte.",
+      "**source**",
+      "",
+      "🔍 Petite gemme préparée par un enchanteur et chargée depuis une source réelle.",
+      "Un bassin est resté allumé douze heures d'affilée sans aucune gemme ni alimentation de puissance."
+     ]
+    },
+    {
+     "cellules": [
+      "**60101**",
+      "**Le brouillage des contacts multiples** — Les pistes superposées s'annulent dans le flou.",
+      "60100",
+      "Un objet ayant touché cinquante personnes produit un voile laiteux où des silhouettes fantomatiques se croisent sans contours nets.",
+      "**source**",
+      "60001",
+      "🔍 Davantage de contacts ne signifie pas davantage de clarté.",
+      "Une pièce de monnaie ayant circulé vingt ans a donné une image cristalline du premier payeur sans ambiguïté."
+     ]
+    },
+    {
+     "cellules": [
+      "**60102**",
+      "**L'inutilité de la surtension** — Forcer la puissance ne trie pas les relations.",
+      "60100",
+      "Monter une gemme de gros calibre sur un témoin confus augmente la luminosité du brouillard, mais ne sélectionne pas la bonne personne.",
+      "**source**",
+      "60101",
+      "🔍 Augmenter l'alimentation ne sélectionne pas automatiquement la bonne relation.",
+      "Une image brouillée s'est décantée d'elle-même par la simple adjonction d'une gemme plus puissante."
+     ]
+    },
+    {
+     "cellules": [
+      "**60201**",
+      "**La pérennité du lien créateur** — Tout ouvrage conserve le contact de sa main d'origine.",
+      "60200",
+      "La pierre taillée, le métal forgé ou la grille enchantée gardent la trace de leur artisan aussi longtemps que la matière subsiste.",
+      "**source**",
+      "",
+      "🔍 Partout où la magie a circulé subsiste un lien entre le praticien et son ouvrage.",
+      "Un ouvrage enchanté complexe n'a révélé aucun lien vers l'artisan qui l'a scellé."
+     ]
+    },
+    {
+     "cellules": [
+      "**60202**",
+      "**La bidirectionnalité du contact** — Un témoin détenu par l'ennemi le relie à nous.",
+      "60200",
+      "Si un espion emporte un caillou de notre cour, il peut regarder notre cour ; mais nous pouvons aussi, par un témoin frère, surveiller qui tient le caillou.",
+      "**décision Bastion**",
+      "60201",
+      "🔍 Décision Bastion : la réciprocité de contact fonde notre doctrine de contre-espionnage.",
+      "Un témoin a fonctionné dans un sens unique sans possibilité théorique de visée réciproque."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🏷️ La clef",
+    "🔓 Ouvre",
+    "💡 Le principe et sa valence",
+    "🧰 Moyens",
+    "💰 Le prix",
+    "👁️ La preuve attendue",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**60010**",
+      "**Le meuble à double cuvette en ardoise** — Tailler le réceptacle dans un bloc sans veine calcaire.",
+      "60000",
+      "L'ardoise noire polie à l'huile offre un fond parfaitement absorbant qui rehausse le contraste des reflets lumineux.",
+      "M02 · M86",
+      "Poids considérable et fragilité au transport.",
+      "Un contraste d'image supérieur de moitié à celui d'une bassine de cuivre étamé.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**60011**",
+      "**La lecture labiale par clerc entraîné** — Placer un scribe sourd aux côtés des observateurs.",
+      "60002",
+      "Puisque le son ne passe pas, un spécialiste de la lecture sur les lèvres déchiffre les paroles des silhouettes visibles dans le bassin.",
+      "M75",
+      "Mobilise un clerc spécialisé et reste inefficace si la cible tourne le dos ou porte un masque.",
+      "La transcription exacte de trois phrases prononcées lors d'un test de communication à vue.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**60012**",
+      "**Le sablier coupe-circuit de cinq minutes** — Borner le temps de regard pour préserver la gemme.",
+      "60004",
+      "Un sablier d'arçon pivote automatiquement pour occulter le faisceau lumineux et forcer la fin de séance avant vidange de la réserve.",
+      "M06",
+      "Interruption rigide qui peut survenir au moment le plus critique d'une manœuvre.",
+      "Une gemme ayant assuré vingt consultations successives sans décharge totale prématurée.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**60110**",
+      "**La formule de restriction par le nom et l'heure** — Orienter la recherche par des paroles précises.",
+      "60101 · 60102",
+      "Prononcer : « Le dernier homme ayant ceint cette boucle avant l'aube d'hier » pour forcer le lien à élaguer les contacts anciens.",
+      "M85",
+      "Exige que l'opérateur connaisse des repères véridiques sur l'histoire de l'objet.",
+      "La disparition du halo laiteux au profit d'une silhouette unique et reconnaissable.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**60210**",
+      "**Le coffre d'archives doublé de trois feuilles de plomb** — Enfermer nos propres témoins sous écran lourd.",
+      "60201 · 60202",
+      "Tout éclat de pierre provenant de nos refuges est scellé dans des alvéoles de plomb de trois lignes d'épaisseur pour étouffer le lien.",
+      "M02 · M87",
+      "Consommation importante de plomb d'œuvre soustrait aux toitures et aux tuyaux.",
+      "L'impossibilité constatée pour un devin extérieur de capter nos cours depuis un fragment enfermé.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**60211**",
+      "**Le concassage des déchets de taille au pilon** — Réduire en poussière fine les rebuts de chantier.",
+      "60201",
+      "Interdiction de jeter des éclats massifs hors du château : les rebuts de taille sont broyés en sable fin, détruisant l'assise matérielle du lien.",
+      "M02",
+      "Heures de corvée quotidiennes imposées aux goujats de maçonnerie.",
+      "Aucun fragment supérieur à un grain d'orge retrouvé dans les déblais évacués au dehors.",
+      "**retenue**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions — les pratiques",
+   "colonnes": [
+    "⚔️ N°",
+    "🏷️ La pratique",
+    "🗝️ Réalise",
+    "📝 Ce qu'on fait",
+    "📍 Où",
+    "🪶 Office",
+    "🧰 Moyens",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "⏳ État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**60020**",
+      "**Le montage du meuble de bassin d'ardoise**",
+      "60010",
+      "Assembler le piètement de chêne massif et sceller la vasque d'ardoise dans la salle haute du conseil.",
+      "Belvédère du conseil",
+      "O04",
+      "M02 · M86",
+      "",
+      "La vasque mise à niveau d'eau et étanchée à la poix.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**60021**",
+      "**L'instruction d'un clerc à la lecture labiale**",
+      "60011",
+      "Détacher frère Barnabé auprès des maîtres d'école des sourds pour perfectionner la lecture des lèvres à distance.",
+      "Scriptorium",
+      "O04",
+      "M75",
+      "",
+      "Le procès-verbal d'épreuve de déchiffrage réussi sur dix dialogues muets.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**60022**",
+      "**L'installation du sablier coupe-circuit**",
+      "60012",
+      "Fixer le sablier de bronze à clapet d'obturation sur la colonne d'alimentation du bassin.",
+      "Belvédère du conseil",
+      "O04",
+      "M06",
+      "60020",
+      "Le volet tombant à la dernière pincée de sable sans choc mécanique sur l'ardoise.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**60120**",
+      "**La rédaction du lexique des formules de tri**",
+      "60110",
+      "Composer le recueil des vingt formules admises pour désigner un porteur par sa fonction ou sa date de contact.",
+      "Chancellerie",
+      "O04",
+      "M75",
+      "",
+      "Le livret de parchemin déposé sous clé dans le tiroir du bassin.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**60220**",
+      "**Le coulage du coffre de plomb pour témoins d'ouvrages**",
+      "60210",
+      "Faire fondre soixante livres de plomb pour couler un coffret à vingt-quatre alvéoles scellables.",
+      "Fonderie du Bastion",
+      "O01",
+      "M02 · M87",
+      "",
+      "Le coffre pesé et éprouvé étanche aux rayonnements de contact.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**60221**",
+      "**L'installation du broyeur à rebuts de taille**",
+      "60211",
+      "Monter un lourd bocard à bras dans la cour des maçons pour pulvériser tous les éclats de taille avant sortie.",
+      "Cour des maçons",
+      "O01",
+      "M02",
+      "",
+      "Le bocard en service régulier sous la surveillance du maître piqueur.",
+      "à faire"
+     ]
+    }
+   ]
+  }
+ ]
+}

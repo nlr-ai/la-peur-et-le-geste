@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">La lisière respire — candidature resserrée</title>
+  <desc id="desc">Une seule lisière lumineuse borde une petite cour sans empiéter sur le passage sombre ni sur le dernier refuge.</desc>
+  <rect width="960" height="540" fill="#07100f"/>
+  <!-- Cour candidate : convention graphique seulement, sans mesure ni emplacement acquis. -->
+  <path d="M115 82 H705 Q790 82 790 170 V370 Q790 455 705 455 H115 Z" fill="#10231e" stroke="#385d50" stroke-width="2" stroke-dasharray="10 12"/>
+  <!-- Une seule lisière identifiable, sans fixation supposée aux volumes végétaux. -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M150 405 C126 330 138 244 174 172 C194 132 226 110 272 102" stroke="#75d8a5" stroke-width="9" opacity=".76"/>
+    <path d="M145 318 C198 305 225 274 238 231" stroke="#cef0b2" stroke-width="4" opacity=".68"/>
+    <path d="M166 226 C126 207 110 181 106 145" stroke="#79bea9" stroke-width="4" opacity=".57"/>
+    <circle cx="272" cy="102" r="7" fill="#d9f6b8" opacity=".78"/>
+  </g>
+  <!-- Passage continu depuis Data Gardens : entièrement hors lumière. -->
+  <path d="M350 540 C355 445 390 375 465 330 C545 282 616 254 690 185" fill="none" stroke="#030807" stroke-width="92" opacity=".92"/>
+  <!-- Dernier refuge sombre : entièrement hors lumière. -->
+  <ellipse cx="755" cy="430" rx="150" ry="92" fill="#030807"/>
+  <g fill="#a9c6b8" font-family="sans-serif" font-size="18">
+    <text x="445" y="500">passage hors lumière</text>
+    <text x="680" y="434">refuge sombre</text>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+const assert=require('node:assert/strict'),fs=require('fs'),path=require('path'),os=require('os'),http=require('http');
+const base=fs.mkdtempSync(path.join(os.tmpdir(),'tableau-test-'));
+const root=path.join(base,'la-peur-et-le-geste');fs.mkdirSync(path.join(root,'etat'),{recursive:true});
+process.env.CONSEIL_RACINE=root;
+fs.writeFileSync(path.join(root,'etat','joueurs.json'),JSON.stringify([{personnage_id:'alice',jeton:'alice-token'},{personnage_id:'bob',jeton:'bob-token'}]));
+const route=require('./routes/tableau-libre');
+const server=http.createServer((req,res)=>{if(route(req,res,req.url.split('?')[0])===false){res.writeHead(404);res.end();}});
+(async()=>{
+ await new Promise(r=>server.listen(0,'127.0.0.1',r));const url='http://127.0.0.1:'+server.address().port;
+ const request=(token,body)=>fetch(url+'/tableau-etat'+(token?'?jeton='+token:''),body?{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}:{});
+ try{
+  assert.equal((await request()).status,401);
+  let board=await (await request('alice-token')).json();assert.deepEqual(board,{revision:0,nodes:[],edges:[]});
+  board.nodes=[{id:'one',icon:'terme-patrouille',x:24,y:48,label:'Tournée'},{id:'two',icon:'terme-voie-ferree',x:240,y:48,label:'Traverses'}];board.edges=[{id:'link',from:'one',to:'two'}];
+  assert.equal((await request('alice-token',board)).status,200);
+  assert.equal((await request('alice-token',board)).status,409);
+  let saved=await (await request('alice-token')).json();assert.equal(saved.revision,1);assert.deepEqual(saved.edges,board.edges);
+  assert.equal((await (await request('bob-token')).json()).nodes.length,0);
+  assert.equal((await request('alice-token',{...saved,edges:[{id:'bad',from:'one',to:'absent'}]})).status,400);
+  assert.equal((await request('alice-token',{...saved,nodes:[{...saved.nodes[0],icon:'../../bad'}],edges:[]})).status,400);
+  assert.equal((await request('alice-token',{...saved,nodes:[{...saved.nodes[0],x:-20}],edges:[]})).status,400);
+  assert.equal((await request('alice-token',{...saved,nodes:[],edges:[]})).status,200);
+  assert.equal((await (await request('alice-token')).json()).nodes.length,0);
+  const empty=await (await request('alice-token')).json();
+  const chain={...empty,nodes:[{id:'action',icon:'action-sound_out',x:24,y:24,label:'Contact',todoExpanded:true},{id:'step',icon:'action-sound_out',x:24,y:168,label:'',stepIndex:0,done:true}],edges:[{id:'todo-link',from:'action',to:'step'}]};
+  assert.equal((await request('alice-token',chain)).status,200);
+  const persisted=await (await request('alice-token')).json();
+  assert.deepEqual(persisted.nodes,chain.nodes);assert.deepEqual(persisted.edges,chain.edges);
+  assert.equal((await request('alice-token',{...persisted,nodes:[{...persisted.nodes[1],stepIndex:-1}],edges:[]})).status,400);
+  assert.equal((await request('alice-token',{...persisted,nodes:[{...persisted.nodes[1],done:'oui'}],edges:[]})).status,400);
+  const typed={...persisted,nodes:[{id:'job',icon:'metier-leader',x:24,y:24,label:'',quantity:2,relation:'besoin',done:false,typedExpanded:true}],edges:[]};
+  assert.equal((await request('alice-token',typed)).status,200);
+  const typedSaved=await (await request('alice-token')).json();assert.deepEqual(typedSaved.nodes,typed.nodes);
+  assert.equal((await request('alice-token',{...typedSaved,nodes:[{...typedSaved.nodes[0],quantity:-1}]})).status,400);
+  assert.equal((await fetch(url+'/modules/echiquier.js')).status,200);
+  assert.equal((await fetch(url+'/tableau-svg/terme-patrouille.svg')).status,200);
+  assert.equal((await fetch(url+'/tableau-svg-clair/terme-patrouille.svg')).status,200);
+  console.log('Tableau : sauvegarde, relecture, suppression, conflit, isolation des personnages et validation OK.');
+ }finally{await new Promise(r=>server.close(r));/* Fichiers de test conservés dans le temporaire pour inspection. */}
+})().catch(e=>{console.error(e);process.exitCode=1;});

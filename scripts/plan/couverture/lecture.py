@@ -12,10 +12,11 @@ import unicodedata
 
 import bibliotheque
 
-# Deux etages de plus qu'a la racine : scripts/plan/couverture/ (voir scripts/CLAUDE.md).
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.dirname(os.path.abspath(__file__)))))
-LIVRES = os.path.join(RACINE, "etat", "books.json")
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+LIVRES = os.path.join(ETAT, "books.json")
 
 GENRES = [(u"états? cibles?", "etat"), (u"verrous?", "verrou"), (u"clefs?", "clef"),
           (u"actions?", "action"), (u"moyens?", "moyen"), (u"offices?", "office")]
@@ -149,7 +150,7 @@ def charger(livres=None):
     La liste fournie n'est jamais modifiee sur le disque.
     """
     if livres is None:
-        livres = bibliotheque.charger(os.path.join(RACINE, "etat"))
+        livres = bibliotheque.charger(ETAT)
     pieces = {}          # numero -> {genre, nom, affaire, vers[], moyens[], office, dep[], etat, ou}
     inventaire = {}      # M01 / O03 -> nom
     affaires = []        # les livres qui sont des affaires

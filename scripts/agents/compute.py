@@ -14,8 +14,12 @@ import time
 import uuid
 
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.abspath(__file__))))
+import racines
+
+# `.agents-runtime/` est un dossier de travail du DEPOT, pas une donnee de
+# monde : il ne suit pas le monde courant. `ETAT`, lui, le suit.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 DEPOT = os.path.join(RACINE, ".agents-runtime", "compute")
 WORK_MAP = os.path.join(RACINE, ".agents-runtime", "compute-work-map")
 
@@ -58,7 +62,7 @@ def _ecrire_bordereau(event_id, identity):
 
 
 def enregistrer(role, compte_pour, session_id, provider, debut_s, fin_s,
-                succes, erreur=None, work_identity=None):
+                succes, erreur=None, work_identity=None, resultat=None):
     os.makedirs(DEPOT, exist_ok=True)
     identity = _normaliser_identite_travail(work_identity)
     entree = {
@@ -73,6 +77,12 @@ def enregistrer(role, compte_pour, session_id, provider, debut_s, fin_s,
         "succes": bool(succes),
         "erreur": None if succes else str(erreur or "echec")[:240],
     }
+    if isinstance(resultat, dict) and resultat.get("model"):
+        entree["modele"] = str(resultat["model"])
+    from agents.jetons import jetons
+    compte = jetons(resultat)
+    if compte:
+        entree["jetons"] = compte
     if identity:
         entree.update(identity)
     cible = os.path.join(DEPOT, entree["id"] + ".json")
@@ -184,7 +194,7 @@ def evenements_transcripts(depuis_s):
 def evenements_activations_legacy(depuis_s):
     """Rapports anterieurs au registre central; attribution agregee a l'acteur."""
     resultat = []
-    depot = os.path.join(RACINE, "etat", "activations")
+    depot = os.path.join(ETAT, "activations")
     for chemin in glob.glob(os.path.join(depot, "*.json")):
         if os.path.basename(chemin) == "boucle.json":
             continue

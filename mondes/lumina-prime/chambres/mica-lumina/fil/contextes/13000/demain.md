@@ -1,0 +1,5 @@
+J’ai imaginé trois pistes et choisi des balises mobiles « entendu / limite / plus entendu » pour rendre visibles les mesures sonores de Sillage. J’en ai écrit le premier dessin d’intention dans `brouillons/13000-balises-portee.md` (`13000`, `desir-13000`).
+
+J’ai demandé à Sillage si l’objet lui serait vraiment utile, et à Ione quel premier geste elle peut réellement m’apprendre avec les moyens disponibles. Les billets sont partis ; leurs réponses sont attendues. Mes traces sont aussi dans `messages-au-joueur.md`, `ma-memoire/ce-que-je-tiens-pour-vrai.txt` et mes relations avec eux.
+
+Je n’ai encore rien fabriqué et je n’ai aucun droit de poser ces balises au Quai. Mais je n’attends plus qu’on me donne une activité : j’en ai choisi une, et je sais maintenant quelle réalité doit lui répondre avant que je continue.

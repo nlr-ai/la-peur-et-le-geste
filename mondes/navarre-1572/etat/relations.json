@@ -1,0 +1,544 @@
+[
+ {
+  "source_id": "henri-de-navarre",
+  "cible_id": "marguerite-de-valois",
+  "opinion": 10,
+  "liens": [
+   "epouse",
+   "mariage impose"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-navarre",
+  "cible_id": "catherine-de-medicis",
+  "opinion": -40,
+  "liens": [
+   "belle-mere",
+   "on dit qu'elle a empoisonne ma mere"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-navarre",
+  "cible_id": "charles-ix",
+  "opinion": 25,
+  "liens": [
+   "beau-frere",
+   "roi",
+   "compagnon de chasse"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-navarre",
+  "cible_id": "henri-d-anjou",
+  "opinion": -30,
+  "liens": [
+   "beau-frere",
+   "compagnon d'enfance",
+   "vainqueur de Jarnac"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-navarre",
+  "cible_id": "henri-de-guise",
+  "opinion": -50,
+  "liens": [
+   "compagnon d'enfance",
+   "ennemi du parti"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-navarre",
+  "cible_id": "coligny",
+  "opinion": 70,
+  "liens": [
+   "chef du parti",
+   "mentor"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-navarre",
+  "cible_id": "henri-de-conde",
+  "opinion": 60,
+  "liens": [
+   "cousin germain"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-navarre",
+  "cible_id": "cardinal-de-bourbon",
+  "opinion": 10,
+  "liens": [
+   "oncle",
+   "catholique"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-navarre",
+  "cible_id": "agrippa-d-aubigne",
+  "opinion": 60,
+  "liens": [
+   "ecuyer"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-navarre",
+  "cible_id": "piles",
+  "opinion": 55,
+  "liens": [
+   "capitaine"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-navarre",
+  "cible_id": "armagnac",
+  "opinion": 70,
+  "liens": [
+   "valet de chambre"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-navarre",
+  "cible_id": "francois-d-alencon",
+  "opinion": 0,
+  "liens": [
+   "beau-frere"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "marguerite-de-valois",
+  "cible_id": "henri-de-navarre",
+  "opinion": 0,
+  "liens": [
+   "epoux impose"
+  ],
+  "connue_du_joueur": false,
+  "_": "Elle ne sait pas encore s'il est un sot."
+ },
+ {
+  "source_id": "catherine-de-medicis",
+  "cible_id": "henri-de-navarre",
+  "opinion": 20,
+  "liens": [
+   "gendre",
+   "piece a tenir"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "charles-ix",
+  "cible_id": "henri-de-navarre",
+  "opinion": 35,
+  "liens": [
+   "beau-frere",
+   "compagnon de chasse"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "henri-d-anjou",
+  "cible_id": "henri-de-navarre",
+  "opinion": -40,
+  "liens": [
+   "beau-frere",
+   "rustre"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "henri-de-guise",
+  "cible_id": "henri-de-navarre",
+  "opinion": -50,
+  "liens": [
+   "celui qui a pris Marguerite"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "francois-d-alencon",
+  "cible_id": "henri-de-navarre",
+  "opinion": 15,
+  "liens": [
+   "allie possible contre Anjou"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "coligny",
+  "cible_id": "henri-de-navarre",
+  "opinion": 65,
+  "liens": [
+   "roi par le rang",
+   "eleve par l'age"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "henri-de-conde",
+  "cible_id": "henri-de-navarre",
+  "opinion": 55,
+  "liens": [
+   "cousin",
+   "trop doux"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "cardinal-de-bourbon",
+  "cible_id": "henri-de-navarre",
+  "opinion": 40,
+  "liens": [
+   "neveu",
+   "ame a sauver"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "agrippa-d-aubigne",
+  "cible_id": "henri-de-navarre",
+  "opinion": 75,
+  "liens": [
+   "maitre"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "piles",
+  "cible_id": "henri-de-navarre",
+  "opinion": 70,
+  "liens": [
+   "maitre"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "armagnac",
+  "cible_id": "henri-de-navarre",
+  "opinion": 90,
+  "liens": [
+   "maitre"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "catherine-de-medicis",
+  "cible_id": "coligny",
+  "opinion": -70,
+  "liens": [
+   "il me prend mon fils"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "catherine-de-medicis",
+  "cible_id": "henri-de-guise",
+  "opinion": -10,
+  "liens": [
+   "utile",
+   "dangereux"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "catherine-de-medicis",
+  "cible_id": "henri-d-anjou",
+  "opinion": 95,
+  "liens": [
+   "fils prefere"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "catherine-de-medicis",
+  "cible_id": "charles-ix",
+  "opinion": 55,
+  "liens": [
+   "fils",
+   "roi a tenir"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "catherine-de-medicis",
+  "cible_id": "marguerite-de-valois",
+  "opinion": 10,
+  "liens": [
+   "fille",
+   "instrument"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "catherine-de-medicis",
+  "cible_id": "montgomery",
+  "opinion": -90,
+  "liens": [
+   "l'homme qui a tue mon mari"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "charles-ix",
+  "cible_id": "coligny",
+  "opinion": 60,
+  "liens": [
+   "mon pere"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "charles-ix",
+  "cible_id": "catherine-de-medicis",
+  "opinion": 40,
+  "liens": [
+   "mere",
+   "peur"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "charles-ix",
+  "cible_id": "henri-d-anjou",
+  "opinion": -30,
+  "liens": [
+   "frere",
+   "jalousie"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "charles-ix",
+  "cible_id": "la-rochefoucauld",
+  "opinion": 70,
+  "liens": [
+   "compagnon de jeu"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "charles-ix",
+  "cible_id": "ambroise-pare",
+  "opinion": 80,
+  "liens": [
+   "son chirurgien"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-d-anjou",
+  "cible_id": "charles-ix",
+  "opinion": -20,
+  "liens": [
+   "frere",
+   "rival"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "henri-d-anjou",
+  "cible_id": "coligny",
+  "opinion": -70,
+  "liens": [
+   "ennemi"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-guise",
+  "cible_id": "coligny",
+  "opinion": -95,
+  "liens": [
+   "l'assassin de mon pere"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-guise",
+  "cible_id": "marguerite-de-valois",
+  "opinion": 40,
+  "liens": [
+   "ancienne amante"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-guise",
+  "cible_id": "maurevert",
+  "opinion": 30,
+  "liens": [
+   "client",
+   "outil"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "henri-de-guise",
+  "cible_id": "catherine-de-medicis",
+  "opinion": 20,
+  "liens": [
+   "reine mere",
+   "allie de circonstance"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "coligny",
+  "cible_id": "henri-de-guise",
+  "opinion": -40,
+  "liens": [
+   "ennemi hereditaire"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "coligny",
+  "cible_id": "teligny",
+  "opinion": 85,
+  "liens": [
+   "gendre"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "teligny",
+  "cible_id": "coligny",
+  "opinion": 90,
+  "liens": [
+   "beau-pere"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "marguerite-de-valois",
+  "cible_id": "henri-de-guise",
+  "opinion": 50,
+  "liens": [
+   "ancien amant"
+  ],
+  "connue_du_joueur": true,
+  "_": "Rumeur de cour connue de tous ; ce qu'elle en garde, non."
+ },
+ {
+  "source_id": "marguerite-de-valois",
+  "cible_id": "catherine-de-medicis",
+  "opinion": -10,
+  "liens": [
+   "mere",
+   "crainte"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "marguerite-de-valois",
+  "cible_id": "henri-d-anjou",
+  "opinion": -50,
+  "liens": [
+   "frere",
+   "il m'a trahie aupres de notre mere"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "marguerite-de-valois",
+  "cible_id": "francois-d-alencon",
+  "opinion": 70,
+  "liens": [
+   "frere prefere"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "francois-d-alencon",
+  "cible_id": "marguerite-de-valois",
+  "opinion": 75,
+  "liens": [
+   "soeur preferee"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "francois-d-alencon",
+  "cible_id": "henri-d-anjou",
+  "opinion": -60,
+  "liens": [
+   "frere",
+   "jalousie"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "henri-de-conde",
+  "cible_id": "coligny",
+  "opinion": 70,
+  "liens": [
+   "chef du parti"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "la-rochefoucauld",
+  "cible_id": "charles-ix",
+  "opinion": 60,
+  "liens": [
+   "roi",
+   "compagnon de jeu"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "maurevert",
+  "cible_id": "henri-de-guise",
+  "opinion": 60,
+  "liens": [
+   "patron"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "le-charron",
+  "cible_id": "henri-de-guise",
+  "opinion": 50,
+  "liens": [
+   "le prince que Paris aime"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "le-charron",
+  "cible_id": "coligny",
+  "opinion": -60,
+  "liens": [
+   "l'heretique qui pousse a la guerre"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "source_id": "montgomery",
+  "cible_id": "coligny",
+  "opinion": 70,
+  "liens": [
+   "chef du parti"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "source_id": "cardinal-de-bourbon",
+  "cible_id": "catherine-de-medicis",
+  "opinion": 50,
+  "liens": [
+   "reine mere"
+  ],
+  "connue_du_joueur": false
+ }
+]

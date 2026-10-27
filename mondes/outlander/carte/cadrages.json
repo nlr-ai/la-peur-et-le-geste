@@ -1,0 +1,117 @@
+{
+  "titre": "Les Highlands — repères fictifs indicatifs",
+  "nom": "Les Highlands",
+  "onglets_replies": [
+    "echiquier",
+    "ville",
+    "ville2d",
+    "conseil",
+    "calendrier"
+  ],
+  "nom_entier": "Tous les Highlands",
+  "date": "%(jour)d / %(lune)d / %(annee)d",
+  "allegeances": false,
+  "lieux_visites_seulement": true,
+  "filtres": [
+    "militaire",
+    "communication",
+    "plan",
+    "liens",
+    "gens",
+    "oreilles"
+  ],
+  "cadrages": {
+    "tout": "highlands",
+    "repos": "inverness"
+  },
+  "mers": [
+    [
+      95,
+      185,
+      "Les Hébrides"
+    ],
+    [
+      430,
+      190,
+      "Mer du Nord"
+    ],
+    [
+      430,
+      275,
+      "Moray Firth"
+    ]
+  ],
+  "regions": {},
+  "etiquettes": {
+    "inverness": [
+      7,
+      -4,
+      "d"
+    ],
+    "craigh-na-dun": [
+      -6,
+      -8,
+      "g"
+    ],
+    "lisiere-craigh": [
+      6,
+      -2,
+      "d"
+    ],
+    "croisee-craigh": [
+      6,
+      8,
+      "d"
+    ],
+    "ferme-du-ruisseau": [
+      -6,
+      14,
+      "g"
+    ],
+    "chemin-aval-ruisseau": [
+      6,
+      8,
+      "d"
+    ],
+    "route-basse-craigh": [
+      -6,
+      8,
+      "g"
+    ],
+    "gue-route-basse": [
+      6,
+      8,
+      "d"
+    ],
+    "hameau-derriere-crete": [
+      -6,
+      8,
+      "g"
+    ],
+    "leoch": [
+      -6,
+      -5,
+      "g"
+    ],
+    "cranesmuir": [
+      6,
+      13,
+      "d"
+    ],
+    "lallybroch": [
+      7,
+      10,
+      "d"
+    ],
+    "fort-william": [
+      7,
+      10,
+      "d"
+    ],
+    "fort-william-fort": [
+      -6,
+      -8,
+      "g"
+    ]
+  }
+}

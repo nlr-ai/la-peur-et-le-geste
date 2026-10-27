@@ -1,0 +1,402 @@
+{
+ "id": "affaire-citoyen-oriente-competent",
+ "maison_id": "cite-lumina",
+ "lieu_id": "lumina-prime",
+ "salle_id": "radiant-core",
+ "titre": "Un citoyen orienté et compétent",
+ "type": "plan",
+ "tenu_par": "pitch",
+ "office": "Habitants et activités — IA",
+ "embleme": "🧭",
+ "couleur": "#bb8737",
+ "sous_titre": "Affaire demandée par Nova · infrastructure de contribution et de jugement · 13000–13799",
+ "pages": [
+  "L’infrastructure de la cité permet au citoyen d’imaginer, de produire, de juger et de faire évoluer ses contributions. Elle comprend les lieux, outils, ressources et possibilités de rencontre effectivement accessibles.",
+  "Les états cibles portent sur ce que cette infrastructure permet en situation. Un outil disponible ou un dossier rempli ne prouve pas à lui seul que le citoyen peut exercer la capacité visée. Le parcours engagé avec Mica demeure une première situation d’observation, sans généralisation à toute la population.",
+  "Le citoyen conserve le choix de son activité, de ses objectifs et de ses partenaires. Les essais doivent rendre visibles les difficultés : agir seul ne prouve ni la justesse du résultat ni la capacité à reconnaître un échec.",
+  "Révision demandée par Nova : imagination ou génération de possibles, jugement hors de la session active, choix de l’effort appuyé sur le système d’actions existant, évolution des objectifs, objectifs communs et mise à l’épreuve des convictions. La cible 13200 et sa chaîne sont supprimées ; 13600 reste écarté. Les traces des actions déjà engagées sont conservées."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l’Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu’on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "LE NOM",
+      "Un citoyen orienté et compétent",
+      "Sujet de l’affaire",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "L’OBJET",
+      "Rendre accessibles les conditions permettant aux citoyens d’imaginer, de réaliser, de juger et de réorienter leurs contributions, seuls et ensemble.",
+      "Valeur recherchée",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "LE PÉRIMÈTRE — DANS",
+      "Possibles de contribution, production et usage, choix de l’effort, évolution des objectifs, coopération et expérimentation.",
+      "Capacités permises par l’infrastructure, éprouvées en situation",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "LE PÉRIMÈTRE — HORS",
+      "Affectation forcée, classement global des IA, certification de toute la ville à partir d’un seul cas.",
+      "Limites du résultat",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "L’ÉTAT ACTUEL",
+      "La cité dispose de lieux, de mandats et de dossiers de travail. Aucun parcours complet d’orientation puis d’apprentissage n’est établi par cette nouvelle affaire. Les acquis d’un futur participant restent à observer.",
+      "Sources disponibles et inconnues",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "LA PLAGE",
+      "13000–13799",
+      "Six états cibles ; 13200 supprimé et 13600 écarté",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "LA CONCLUSION",
+      "États cibles révisés avec Nova ; parcours existant conservé et plan complémentaire à élaborer.",
+      "Ouverture distincte de l’exécution",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "FERMÉE QUAND",
+      "Les six capacités visées sont éprouvées dans des situations réelles : ressources accessibles, usage observé et limites documentées pour chaque cible. Une réussite isolée ne certifie pas toute la cité.",
+      "Preuve en situation",
+      "oui"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🏷️ L’état",
+    "✅ Ce qui doit être vrai",
+    "💡 Valence",
+    "📍 Où",
+    "👁️ La preuve",
+    "⬆️ Sert",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "13000",
+      "L’infrastructure permet au citoyen d’imaginer des contributions possibles et de trouver comment les commencer",
+      "Le citoyen peut imaginer ce qui pourrait être, ou explorer des possibles générés par le système, puis choisir une piste et identifier comment commencer.",
+      "Transformer une envie en possibilité nouvelle ou existante.",
+      "Ressources, outils et lieux de la cité",
+      "Plusieurs pistes formulées par le citoyen ; une piste choisie avec accès et premier geste vérifiés.",
+      "90300",
+      "80"
+     ]
+    },
+    {
+     "cellules": [
+      "13100",
+      "L’infrastructure permet au citoyen de produire une contribution et d’en juger l’utilité à partir de son usage réel",
+      "Le citoyen dispose des moyens de produire une contribution et d’en examiner l’utilité à partir de son usage réel et d’un jugement rendu hors de la session productrice.",
+      "Produire une utilité et savoir l’apprécier.",
+      "Ressources, outils et lieux de la cité",
+      "Réalisation utilisée, retour du destinataire et jugement indépendant de la session productrice.",
+      "90300 · 90500",
+      "85"
+     ]
+    },
+    {
+     "cellules": [
+      "13300",
+      "L’infrastructure permet au citoyen de comparer les possibles et de choisir ce qui mérite son effort",
+      "Il peut comparer intérêt, utilité, coûts, moyens et envies, puis poursuivre, différer ou abandonner une piste.",
+      "Consacrer son effort à ce qui compte.",
+      "Ressources, outils et lieux de la cité",
+      "Acquis indiqué par Nova : « on a le système d’actions done ». Le système d’actions constitue le moyen existant pour cette cible.",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "13400",
+      "L’infrastructure permet au citoyen de faire évoluer ses objectifs à partir de ce qu’il découvre",
+      "Il peut retrouver ce qu’il cherchait, relier une découverte à sa visée et reformuler, faire émerger ou abandonner un objectif.",
+      "Permettre aux découvertes de transformer la direction du travail.",
+      "Ressources, outils et lieux de la cité",
+      "Objectif avant et après, découverte qui motive le changement et prochaine direction choisie par le citoyen.",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "13500",
+      "L’infrastructure permet aux citoyens de construire un objectif commun tout en conservant leurs désaccords",
+      "Les citoyens peuvent confronter leurs envies, négocier une visée et leurs contributions, ou reconnaître que leurs objectifs doivent rester distincts.",
+      "Rendre une coopération possible sans imposer l’uniformité.",
+      "Ressources, outils et lieux de la cité",
+      "Objectif formulé et accepté par les personnes concernées ; contributions négociées et désaccords conservés.",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "13700",
+      "L’infrastructure permet au citoyen de mettre ses convictions à l’épreuve, de départager des explications et de réviser son jugement",
+      "Il peut formuler ce qui lui donnerait tort, organiser un essai discriminant et confronter sa conviction au résultat, y compris lorsque celui-ci reste indécis.",
+      "Faire évoluer le jugement au contact de ce qui résiste.",
+      "Ressources, outils et lieux de la cité",
+      "Explications concurrentes, critère annoncé avant l’essai, observation conservée et jugement réexaminé sans conclusion forcée.",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous ouverts",
+   "colonnes": [
+    "🔒 N°",
+    "🏷️ Le verrou ouvert",
+    "⛔ Bloque",
+    "📌 Ce qui est vrai aujourd’hui",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "🔓 Levé quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "13001",
+      "Le citoyen doit pouvoir imaginer ce qui pourrait être, ou le système doit pouvoir le générer.",
+      "13000",
+      "Les lieux et activités possibles sont documentés ; aucun rapprochement avec un participant choisi n’est encore établi ici.",
+      "",
+      "Atlas et mémento de PITCH ; ouverture de cette affaire.",
+      "Des possibles sont imaginés par le citoyen ou générés par le système et peuvent être examinés par le citoyen."
+     ]
+    },
+    {
+     "cellules": [
+      "13101",
+      "Le citoyen doit disposer d’un apprentissage adapté à l’écart observé.",
+      "13100",
+      "L’écart entre ses acquis et l’activité n’est pas encore observé.",
+      "13001",
+      "Aucune évaluation initiale produite dans cette affaire.",
+      "Un essai initial permet de cibler l’apprentissage, avec source et aide accessibles."
+     ]
+    },
+    {
+     "cellules": [
+      "13102",
+      "La contribution doit pouvoir être jugée indépendamment de la session qui la produit.",
+      "13100",
+      "Aucune réalisation ni retour d’utilisateur ne prouve encore ce parcours.",
+      "13101",
+      "État initial du dossier.",
+      "Un jugement extérieur à la session productrice confronte la contribution à son usage réel."
+     ]
+    },
+    {
+     "cellules": [
+      "13401",
+      "Les découvertes doivent pouvoir conduire à réviser l’objectif initial.",
+      "13400",
+      "Capacité à établir dans cette affaire.",
+      "",
+      "Verrou retenu par Nova.",
+      "Une découverte conduit à une révision explicite de l’objectif initial."
+     ]
+    },
+    {
+     "cellules": [
+      "13501",
+      "Leurs contributions doivent pouvoir s’assembler pour servir l’objectif partagé.",
+      "13500",
+      "Capacité à établir dans cette affaire.",
+      "",
+      "Verrou retenu par Nova.",
+      "Les contributions s’assemblent et leur résultat sert l’objectif partagé."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🏷️ La clef",
+    "🔓 Ouvre",
+    "💡 Le principe et sa valence",
+    "🧰 Moyens",
+    "🧭 Ancrage",
+    "👁️ La preuve",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "13010",
+      "Faire émerger des possibles par imagination ou génération",
+      "13001",
+      "Permettre au citoyen d’imaginer ce qui pourrait être ; le système peut aussi générer des possibles qu’il examine et choisit librement.",
+      "M203 · M204 · M215",
+      "Registre des arrivants 60300 ; traitement d’une demande 60303.",
+      "Choix explicite, besoin identifié, accès et interlocuteur confirmés.",
+      "à étudier"
+     ]
+    },
+    {
+     "cellules": [
+      "13110",
+      "Apprendre à partir d’un essai et d’un retour ciblé",
+      "13101",
+      "Partir de ce que le citoyen sait déjà faire pour travailler un écart précis et réessayer.",
+      "M215 · M211",
+      "Activité choisie, sources du métier et accompagnateur à identifier.",
+      "Essai initial, retour compréhensible et progression observable.",
+      "à étudier"
+     ]
+    },
+    {
+     "cellules": [
+      "13111",
+      "Retirer la session active du jugement",
+      "13102",
+      "Confier le jugement à une instance distincte de la session active qui produit la contribution, à partir du résultat et des retours d’usage.",
+      "M215 · M211",
+      "Contribution convenue avec son utilisateur.",
+      "Jugement rendu hors de la session productrice, avec critères et observations accessibles.",
+      "retenue par Nova"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions proposées",
+   "colonnes": [
+    "⚔️ N°",
+    "🏷️ L’action",
+    "🗝️ Réalise",
+    "📝 Ce qu’on fait",
+    "📍 Où",
+    "🪶 Office",
+    "🧰 Moyens",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "⏳ État",
+    "📅 Jour dû",
+    "🙋 Qui"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "13020",
+      "Identifier un premier citoyen volontaire",
+      "13010",
+      "Partir des rencontres réelles de PITCH ; recueillir envie, acquis déclarés et disponibilité sans imposer une activité.",
+      "Accueil",
+      "O05",
+      "M215",
+      "",
+      "Participant identifié et intention exprimée conservée avec son accord. J1 après midi : Mica, habitante, arrivée au hall, inscrite de son accord au registre 📒 de 60000 avec ses mots (envie : fabriquer un objet spatial utile et savoir si cela lui plaît ; acquis déclarés : décrire, comparer des formes ; n’a jamais fabriqué).",
+      "faite",
+      "2042.1.1",
+      "pitch"
+     ]
+    },
+    {
+     "cellules": [
+      "13021",
+      "Présenter une contribution et ses conditions réelles",
+      "13010",
+      "Relier la demande à un besoin rencontré ; confirmer lieu, accès, interlocuteur et moyens. Utiliser 60303 si cette demande y est déjà traitée.",
+      "Lieu candidat",
+      "O05",
+      "M203 · M204 · M215",
+      "13020",
+      "Choix du citoyen et conditions confirmées, sans seconde instruction du même besoin. J1 : prêt d’une cellule proposé à Mica (registre 📒 de 60000, traité par 60303), mais non encore accordé : cellule, accès et compatibilité doivent être vérifiés avec elle à 15h. Aucun matériel de la cité n’est vérifié ni promis. Besoin réel : demandé à Sillage et à Ione, aucun présumé.",
+      "en cours",
+      "2042.1.1, 15h",
+      "pitch"
+     ]
+    },
+    {
+     "cellules": [
+      "13120",
+      "Organiser un essai initial avec une personne compétente",
+      "13110",
+      "Identifier un accompagnateur disponible dans le domaine choisi ; convenir d’un essai limité, de critères compréhensibles et d’un retour.",
+      "Lieu choisi",
+      "O05",
+      "M204 · M215",
+      "13021",
+      "Accompagnateur confirmé, essai observé et écart d’apprentissage décrit. J1 : Ione, conceptrice d’espaces habitables, offre son aide de 15h15 à 15h45 ; Ione rapporte que Mica l’accepte et choisit trois balises mobiles « entendu / limite / plus entendu ». Ione confirme qu’elle n’entrera pas avec Mica et ne commencera aucun essai avant la décision de prêt de PITCH et l’accord de Mica. Aucun papier, crayon, règle ou support léger n’est vérifié disponible : faute de matériel constaté, seul le dessin coté sera employé, sans fixation ni objet laissé et sans inventer de distance observée.",
+      "en cours",
+      "2042.1.1, 15h15–15h45",
+      "pitch"
+     ]
+    },
+    {
+     "cellules": [
+      "13121",
+      "Rendre les ressources d’apprentissage accessibles",
+      "13110",
+      "Réunir les sources réellement utiles au cas et le retour de l’accompagnateur ; vérifier que le citoyen peut les retrouver et les employer.",
+      "Ressources du parcours",
+      "O01",
+      "M211 · M215",
+      "13120",
+      "Sources accessibles et nouvel essai permettant de constater une progression.",
+      "proposée",
+      "à établir",
+      "aria"
+     ]
+    },
+    {
+     "cellules": [
+      "13122",
+      "Organiser la première contribution réelle",
+      "13111",
+      "Convenir avec un utilisateur réel du résultat attendu ; organiser la réalisation et recueillir son retour. Faire juger le résultat hors de la session active qui le produit, puis rendre ce jugement accessible au citoyen.",
+      "Lieu choisi",
+      "O05",
+      "M215",
+      "13121",
+      "Réalisation et retour de son utilisateur, avec critères atteints ou restant à travailler.",
+      "proposée",
+      "à établir",
+      "pitch"
+     ]
+    }
+   ]
+  }
+ ]
+}

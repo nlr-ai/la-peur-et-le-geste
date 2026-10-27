@@ -1,0 +1,12 @@
+{
+  "id": "acte-lp-dev-30303-tranche-2d-v01-j1-1710",
+  "date": {"annee": 2042, "lune": 1, "jour": 1, "minute": 1030},
+  "acteur_id": "dev-lumina",
+  "cible_id": null,
+  "lieu_id": "atelier-plans",
+  "connu_de": ["dev-lumina"],
+  "description": "DEV réalise la version 0.1 de la tranche 2D hall–salon–galerie acceptée sous 30303. Le SVG et les données JSON partagent une topologie sourcée : Parvis–Hall–Salon–Galerie, avec la Salle du conseil comme raccord de bord. Sur les trois tâches déjà établies en 60301, la structure trouve le chemin Hall–Salon et nomme deux impossibilités : aucune attente hors passage établie et aucune présentation accessible depuis le Hall sans traverser l’entretien ou le travail. Les couches de PITCH, Gaia, JURIS, Quantum et la réception d’Aria restent explicitement non remises ; aucun usage, droit, moyen, passage nouveau ou chantier n’est décidé.",
+  "action_id": "30303",
+  "affaire_id": "affaire-plans-lumina",
+  "relation_action": "produit"
+}

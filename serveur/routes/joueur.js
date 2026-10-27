@@ -1,7 +1,7 @@
 // GET /, /moi, /bascule — qui frappe à la porte, et à quelle table il s'assied.
 const fs = require("fs");
 const path = require("path");
-const { RACINE } = require("../http");
+const { DEPOT, ETAT, CHAMBRES } = require("../http");
 const { envoyer } = require("../http");
 const { qui, roster } = require("../http");
 
@@ -9,14 +9,14 @@ const { qui, roster } = require("../http");
 function fiches() {
   try {
     const l = JSON.parse(fs.readFileSync(
-      path.join(RACINE, "etat", "personnages.json"), "utf-8"));
+      path.join(ETAT, "personnages.json"), "utf-8"));
     return Array.isArray(l) ? l : [];
   } catch (e) { return []; }
 }
 
 function mjDisponible() {
   try {
-    return fs.statSync(path.join(RACINE, "chambres", "mj")).isDirectory();
+    return fs.statSync(path.join(CHAMBRES, "mj")).isDirectory();
   } catch (e) { return false; }
 }
 
@@ -37,7 +37,7 @@ function mjDisponible() {
 function estampiller(html) {
   return String(html).replace(/(href|src)="(\/[^"?#]+\.(?:css|js))"/g, (tout, attr, chemin) => {
     try {
-      const t = Math.floor(fs.statSync(path.join(RACINE, "ecrans", chemin.slice(1))).mtimeMs);
+      const t = Math.floor(fs.statSync(path.join(DEPOT, "ecrans", chemin.slice(1))).mtimeMs);
       return attr + '="' + chemin + "?v=" + t + '"';
     } catch (e) { return tout; }
   });
@@ -53,7 +53,10 @@ function traiter(req, res, url) {
         ? { "Set-Cookie": "jeton=" + encodeURIComponent(j.jeton) + "; Path=/; Max-Age=31536000; SameSite=Lax" }
         : null;
       try {
-        const corps = estampiller(fs.readFileSync(path.join(RACINE, "ecrans", "jeu.html"), "utf-8"));
+        let corps = estampiller(fs.readFileSync(path.join(DEPOT, "ecrans", "jeu.html"), "utf-8"));
+        if (require("../racines").courant() === "frontieres-du-vivant") {
+          corps = corps.replace("</body>", '<script src="/recherche-fichiers/ui.js" defer></script></body>');
+        }
         return envoyer(res, 200, corps, "text/html; charset=utf-8", entetes);
       } catch (e) { return envoyer(res, 404, JSON.stringify({ erreur: "jeu.html" })); }
     }

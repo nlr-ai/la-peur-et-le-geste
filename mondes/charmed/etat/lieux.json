@@ -1,0 +1,209 @@
+[
+ {
+  "id": "san-francisco",
+  "nom": "San Francisco",
+  "region": "La Baie",
+  "type": "ville",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "Le hub : les distances se comptent d'ici."
+ },
+ {
+  "id": "prescott-street",
+  "nom": "Le Manoir, 1329 Prescott Street",
+  "region": "Pacific Heights",
+  "type": "maison",
+  "controle_id": "maison-halliwell",
+  "jours_de_pr": 0,
+  "_": "CANON : l'adresse de la série, 1329 Prescott Street (rue fictive). Bâti sur le Nexus. INVENTÉ : la position exacte dans Pacific Heights."
+ },
+ {
+  "id": "p3",
+  "nom": "Le P3",
+  "region": "South of Market",
+  "type": "club",
+  "controle_id": "maison-halliwell",
+  "jours_de_pr": 0,
+  "_": "CANON : le club de Piper (S02E04), soirées et concerts. INVENTÉ : l'emplacement, South of Market."
+ },
+ {
+  "id": "appartement-cole",
+  "nom": "L'appartement de Cole",
+  "region": "Financial District",
+  "type": "maison",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "CANON : Cole a gardé un appartement en ville. INVENTÉ : l'emplacement, le quartier des affaires."
+ },
+ {
+  "id": "appartement-paige",
+  "nom": "L'appartement de Paige",
+  "region": "Mission",
+  "type": "maison",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "CANON : Paige vit seule en ville au début de la saison 4. INVENTÉ : l'emplacement, la Mission."
+ },
+ {
+  "id": "services-sociaux",
+  "nom": "South Bay Social Services",
+  "region": "South of Market",
+  "type": "bureau",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "CANON : South Bay Social Services, le travail de Paige chez M. Cowan. INVENTÉ : l'emplacement, Howard Street."
+ },
+ {
+  "id": "commissariat",
+  "nom": "Le Hall of Justice, 850 Bryant Street",
+  "region": "South of Market",
+  "type": "bureau",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "CANON : Darryl est inspecteur à la police de San Francisco. Le bâtiment est le vrai quartier général de 2001 ; que Darryl y ait son bureau est INVENTÉ."
+ },
+ {
+  "id": "golden-gate",
+  "nom": "Le sommet du Golden Gate",
+  "region": "La Porte d'Or",
+  "type": "lieu",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "CANON : là où Leo va réfléchir, au sommet d'un pilier du pont. On n'y monte pas : on y arrive en orbe. Aucune arête ne le relie à la ville."
+ },
+ {
+  "id": "les-enfers",
+  "nom": "Les Enfers",
+  "region": "Ailleurs",
+  "type": "ailleurs",
+  "controle_id": "les-enfers",
+  "jours_de_pr": 0,
+  "_": "CANON : le monde souterrain, cavernes et repaires des démons, la salle de la Source. On y descend par miroitement, jamais par une porte : aucune arête ne le relie à la ville."
+ },
+ {
+  "id": "le-haut",
+  "nom": "Là-haut",
+  "region": "Ailleurs",
+  "type": "ailleurs",
+  "controle_id": "les-fondateurs",
+  "jours_de_pr": 0,
+  "_": "CANON : les régions supérieures, le séjour des Fondateurs (S03E01). On y est appelé ; on y monte en orbe. Le temps peut y couler autrement."
+ },
+ {
+  "id": "l-au-dela",
+  "nom": "L'au-delà",
+  "region": "Ailleurs",
+  "type": "ailleurs",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "CANON : là d'où viennent les esprits qu'on appelle au grenier avec la formule (Grams, Patty)."
+ },
+ {
+  "id": "maison-darryl",
+  "nom": "La maison de Darryl et Sheila",
+  "region": "Sunset",
+  "type": "maison",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "CANON : Darryl est marié à Sheila. INVENTÉ : la maison, dans le Sunset."
+ },
+ {
+  "id": "bay-mirror",
+  "nom": "Les bureaux du Bay Mirror",
+  "region": "South of Market",
+  "type": "bureau",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "CANON : le journal de la chronique de Phoebe, chez Elise (S04E16) — en octobre 2001 Phoebe n'y travaille pas encore. INVENTÉ : l'emplacement, Mission Street."
+ },
+ {
+  "id": "hopital",
+  "nom": "L'hôpital San Francisco Memorial",
+  "region": "Potrero",
+  "type": "bureau",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "CANON : le nom de l'hôpital de la série. INVENTÉ : l'emplacement, Potrero Avenue."
+ },
+ {
+  "id": "cimetiere",
+  "nom": "Le cimetière",
+  "region": "Colma",
+  "type": "lieu",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "CANON : Prue vient d'être enterrée (S04E01). INVENTÉ : le cimetière lui-même, à Colma, où San Francisco enterre ses morts."
+ },
+ {
+  "id": "toits-pacific-heights",
+  "nom": "Les toits de Pacific Heights",
+  "region": "Pacific Heights",
+  "type": "lieu",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "INVENTÉ : les toits d'en face, d'où l'on guette le Manoir. À trois minutes de la rue."
+ },
+ {
+  "id": "salon-de-la-glaneuse",
+  "nom": "La maison de la Glaneuse",
+  "region": "Russian Hill",
+  "type": "maison",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "INVENTÉ : personnage et maison de la partie, Russian Hill."
+ },
+ {
+  "id": "planque-ezra",
+  "nom": "L'appartement d'Ezra Vane",
+  "region": "Noe Valley",
+  "type": "maison",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "INVENTÉ : personnage et appartement de la partie, Noe Valley."
+ },
+ {
+  "id": "domicile-cowan",
+  "nom": "Chez M. Cowan",
+  "region": "Bernal Heights",
+  "type": "maison",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "CANON : M. Cowan, le patron de Paige. INVENTÉ : son domicile, Bernal Heights."
+ },
+ {
+  "id": "domicile-gil",
+  "nom": "Chez Gil Navarro",
+  "region": "Lower Haight",
+  "type": "maison",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "INVENTÉ : personnage et domicile de la partie, Lower Haight."
+ },
+ {
+  "id": "les-limbes",
+  "nom": "Les limbes",
+  "region": "Ailleurs",
+  "type": "ailleurs",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "CANON (S04E04) : entre la vie et la mort, par où passent les âmes vers la renaissance ; toute nappe d'eau assez large peut y mener. Rangé avec l'au-delà dans la topologie."
+ },
+ {
+  "id": "terre-desolee",
+  "nom": "La terre désolée",
+  "region": "Ailleurs",
+  "type": "ailleurs",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "CANON (S04E22, mai 2002) : là où échouent les démons détruits, et où une bête les dévore. Pas encore dans la partie ; aucune arête."
+ },
+ {
+  "id": "dispensaire-howard",
+  "nom": "L'ancien dispensaire de Howard Street, 412 Howard Street",
+  "region": "South of Market",
+  "type": "bureau",
+  "controle_id": null,
+  "jours_de_pr": 0,
+  "_": "INVENTÉ : Ancien dispensaire municipal fermé depuis six mois, huisseries condamnées et double seuil de consultation, repéré par le Courtier pour le piège infernal."
+ }
+]

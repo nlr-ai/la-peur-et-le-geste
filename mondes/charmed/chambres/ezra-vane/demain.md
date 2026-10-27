@@ -1,0 +1,1 @@
+*Le 10 octobre, à 9 h 27, me présenter à South Bay comme bénévole. Ne tenir l'entrée pour acquise qu'après l'accord du service. Si Paige Matthews est réellement rencontrée, employer la prise de contact préparée, puis observer sans provoquer de manifestation et sans me séparer de ma lame.*

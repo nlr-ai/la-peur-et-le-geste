@@ -1,0 +1,110 @@
+[
+  {
+    "id": "parole-c001-immunite",
+    "date": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    },
+    "locuteur_id": "immunite",
+    "destinataires": [
+      "infection"
+    ],
+    "type": "proposition-cadrage",
+    "contenu": "Proposition de cadrer la manche 001 sur la grippe aiguë non compliquée chez l'adulte immunocompétent (voies respiratoires, charge virale et intensité symptomatique) sans attribution causale a priori.",
+    "temoins": [
+      "infection"
+    ],
+    "poids": 2
+  },
+  {
+    "id": "parole-c001-infection",
+    "date": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    },
+    "locuteur_id": "infection",
+    "destinataires": [
+      "immunite"
+    ],
+    "type": "proposition-cadrage",
+    "contenu": "Proposition d'inclure les marqueurs inflammatoires locaux comme troisième critère temporel distinct aux côtés de la charge virale et des symptômes.",
+    "temoins": [
+      "immunite"
+    ],
+    "poids": 2
+  },
+  {
+    "id": "parole-t001-infection",
+    "date": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    },
+    "locuteur_id": "infection",
+    "destinataires": [
+      "immunite"
+    ],
+    "type": "coup-scientifique",
+    "contenu": "T-001 (S-001, Hayden et al. 1998) : la réplication virale initiale conditionne l'amplitude et la fenêtre du pic précoce d'IFN-α, d'IL-6 et de symptômes à J2 ; prédiction d'antériorité ou synchronie stricte du titre viral sur l'élévation d'IFN-α/IL-6.",
+    "temoins": [
+      "immunite"
+    ],
+    "poids": 3
+  },
+  {
+    "id": "parole-t002-immunite",
+    "date": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    },
+    "locuteur_id": "immunite",
+    "destinataires": [
+      "infection"
+    ],
+    "type": "coup-scientifique",
+    "contenu": "T-002 (S-001, Hayden et al. 1998) : hypothèse du pic d'IFN-α/IL-6 à J2 comme déclencheur de l'inflexion virale à J3 ; prédiction sur l'effet d'un déficit en IFN de type I et réserve explicite sur l'absence d'intervention bloquante (alternative : épuisement des cellules cibles permissives).",
+    "temoins": [
+      "infection"
+    ],
+    "poids": 3
+  },
+  {
+    "id": "parole-lup-t001-immunite",
+    "date": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    },
+    "locuteur_id": "immunite",
+    "destinataires": [
+      "infection"
+    ],
+    "type": "coup-scientifique",
+    "contenu": "LUP-T001 (LUP-001 à LUP-003, LUP-005) : audit montrant l'absence de prédiction anticipée validée dans le SLE (LUP-001 rétrospectif sur n=6 SLE mêlés ; LUP-003 sans rechute par axiome de repopulation B naïve ; LUP-002 CASTLE avec retour B naïf à J86 et 0/10 rechute à 13 mois) et proposition de H1 (bascule B mémoire/plasmablastique CD27+/CD38+ couplée à C1/C2).",
+    "temoins": [
+      "infection"
+    ],
+    "poids": 3
+  },
+  {
+    "id": "parole-lup-t002-infection",
+    "date": {
+      "annee": 1,
+      "lune": 1,
+      "jour": 1
+    },
+    "locuteur_id": "infection",
+    "destinataires": [
+      "immunite"
+    ],
+    "type": "coup-scientifique",
+    "contenu": "LUP-T002 (LUP-001 à LUP-004) : audit convergent de LUP-001/002/003 et ajout de LUP-004 (Shan 2026) ; proposition de H2 (rebond conjoint C1/C2 et plasmocytes CD19-) immédiatement confrontée au contre-exemple de LUP-002 (persistance des anti-Ro52/Ro60/La CD19- sans rechute à 13 mois).",
+    "temoins": [
+      "immunite"
+    ],
+    "poids": 3
+  }
+]

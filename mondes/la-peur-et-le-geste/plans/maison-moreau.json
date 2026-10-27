@@ -1,0 +1,47 @@
+{
+  "nom": "Chez Raymond et Josette Moreau",
+  "viewBox": "0 0 640 480",
+  "fonds": [],
+  "mur": "",
+  "guet": [],
+  "decor": [],
+  "salles": [
+    {
+      "id": "maison-moreau",
+      "nom": "Chez Raymond et Josette",
+      "cle": true,
+      "forme": {
+        "r": [
+          190,
+          140,
+          260,
+          190,
+          3
+        ]
+      },
+      "etiq": [
+        320,
+        230
+      ]
+    },
+    {
+      "id": "maison-moreau-entree",
+      "nom": "Entrée",
+      "forme": {
+        "r": [
+          290,
+          340,
+          60,
+          50,
+          2
+        ]
+      },
+      "etiq": [
+        320,
+        365
+      ],
+      "cle": true,
+      "quoi": "Entrée de fiction ; passage conventionnel d’une minute vers la pièce de réunion."
+    }
+  ]
+}

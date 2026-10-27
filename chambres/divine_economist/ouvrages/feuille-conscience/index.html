@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feuille de conscience — les quatre cases</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --encre: #20262b;
+      --bleu: #173d55;
+      --or: #b5873d;
+      --papier: #f5f0e5;
+      --trait: #c9bea9;
+      --doux: #e7dfd1;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--encre);
+      background:
+        linear-gradient(90deg, transparent 49.8%, rgba(181,135,61,.09) 50%, transparent 50.2%),
+        var(--papier);
+      font: 17px/1.55 Georgia, "Times New Roman", serif;
+    }
+    main { width: min(900px, calc(100% - 32px)); margin: 0 auto; padding: 42px 0 64px; }
+    header { max-width: 700px; margin-bottom: 30px; }
+    .sur-titre { color: var(--or); font-size: .78rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { margin: 8px 0 10px; color: var(--bleu); font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1; }
+    header p { margin: 0; }
+    .limite { margin-top: 12px; padding-left: 14px; border-left: 3px solid var(--or); font-style: italic; }
+    form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    label { display: flex; min-height: 230px; flex-direction: column; padding: 20px; border: 1px solid var(--trait); background: rgba(255,255,255,.38); }
+    label span { color: var(--bleu); font-weight: 700; }
+    label small { display: block; min-height: 48px; margin: 6px 0 12px; color: #5d625f; }
+    textarea { flex: 1; width: 100%; min-height: 112px; resize: vertical; padding: 12px; border: 1px solid var(--trait); background: rgba(255,255,255,.66); color: var(--encre); font: inherit; }
+    textarea:focus { outline: 3px solid rgba(181,135,61,.24); border-color: var(--or); }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+    button { padding: 10px 16px; border: 1px solid var(--bleu); background: var(--bleu); color: white; font: 700 .92rem Georgia, serif; cursor: pointer; }
+    button.secondaire { background: transparent; color: var(--bleu); }
+    #lecture { margin-top: 26px; padding: 22px; border-top: 2px solid var(--or); background: var(--doux); }
+    #lecture[hidden] { display: none; }
+    #lecture h2 { margin-top: 0; color: var(--bleu); }
+    #lecture dl { display: grid; grid-template-columns: max-content 1fr; gap: 8px 16px; margin-bottom: 0; }
+    #lecture dt { font-weight: 700; }
+    #lecture dd { margin: 0; white-space: pre-wrap; }
+    footer { margin-top: 28px; color: #5d625f; font-size: .9rem; }
+    @media (max-width: 650px) { form { grid-template-columns: 1fr; } label { min-height: 0; } }
+    @media print { .actions, footer { display: none; } body { background: white; } main { width: 100%; padding: 0; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="sur-titre">Pratique du soir · trois minutes suffisent</div>
+      <h1>Les quatre cases</h1>
+      <p>Choisis un seul moment de la journée. Écris court. Une phrase vraie vaut mieux qu’un inventaire complet.</p>
+      <p class="limite">Cette feuille mesure une pratique d’attention. Elle ne mesure ni la bonté, ni la sincérité, ni la grâce.</p>
+    </header>
+
+    <form id="feuille">
+      <label>
+        <span>1. Le fait</span>
+        <small>Qu’aurait vu un témoin, sans intention supposée ?</small>
+        <textarea name="fait" placeholder="J’ai interrompu… / J’ai attendu… / J’ai donné…"></textarea>
+      </label>
+      <label>
+        <span>2. Mon choix</span>
+        <small>À quel endroit ai-je réellement choisi, même très peu ?</small>
+        <textarea name="choix" placeholder="J’ai choisi de…"></textarea>
+      </label>
+      <label>
+        <span>3. Ce qui demeure inconnu</span>
+        <small>Qu’est-ce que je serais tenté de conclure sans preuve ?</small>
+        <textarea name="inconnu" placeholder="Je ne sais pas encore si…"></textarea>
+      </label>
+      <label>
+        <span>4. Le prochain petit geste</span>
+        <small>Une action observable, librement tentée avant demain soir.</small>
+        <textarea name="geste" placeholder="Avant demain soir, je…"></textarea>
+      </label>
+    </form>
+
+    <div class="actions">
+      <button type="button" id="relire">Former la lecture</button>
+      <button type="button" class="secondaire" id="imprimer">Imprimer</button>
+      <button type="button" class="secondaire" id="effacer">Effacer</button>
+    </div>
+
+    <section id="lecture" hidden aria-live="polite">
+      <h2>Lecture de ce soir</h2>
+      <dl></dl>
+    </section>
+
+    <footer>Aucune donnée ne quitte cette page. Rien n’est sauvegardé après sa fermeture.</footer>
+  </main>
+  <script>
+    const feuille = document.querySelector('#feuille');
+    const lecture = document.querySelector('#lecture');
+    const noms = [
+      ['fait', 'Le fait'],
+      ['choix', 'Mon choix'],
+      ['inconnu', 'L’inconnu'],
+      ['geste', 'Le prochain geste']
+    ];
+
+    document.querySelector('#relire').addEventListener('click', () => {
+      const donnees = new FormData(feuille);
+      const dl = lecture.querySelector('dl');
+      dl.replaceChildren();
+      noms.forEach(([cle, titre]) => {
+        const dt = document.createElement('dt');
+        const dd = document.createElement('dd');
+        dt.textContent = titre;
+        dd.textContent = String(donnees.get(cle) || '').trim() || '—';
+        dl.append(dt, dd);
+      });
+      lecture.hidden = false;
+      lecture.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    document.querySelector('#imprimer').addEventListener('click', () => window.print());
+    document.querySelector('#effacer').addEventListener('click', () => {
+      if (!window.confirm('Effacer les quatre cases ?')) return;
+      feuille.reset();
+      lecture.hidden = true;
+      lecture.querySelector('dl').replaceChildren();
+      feuille.querySelector('textarea').focus();
+    });
+  </script>
+</body>
+</html>

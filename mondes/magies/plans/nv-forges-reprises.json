@@ -1,0 +1,62 @@
+{
+  "nom": "Forges reprises",
+  "viewBox": "0 0 540 320",
+  "fonds": [],
+  "decor": [],
+  "mur": "M20 20H520V300H20Z",
+  "guet": [],
+  "rose": null,
+  "etiquettes": [],
+  "salles": [
+    {
+      "id": "nv-forges-reprises-entree",
+      "nom": "Entrée",
+      "forme": {
+        "r": [
+          45,
+          105,
+          130,
+          100,
+          8
+        ]
+      },
+      "etiq": [
+        110,
+        140
+      ],
+      "lignes": [
+        "Entrée"
+      ],
+      "quoi": "Accès local.",
+      "motifs": [],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "nv-forges-reprises-atelier",
+      "nom": "Atelier",
+      "forme": {
+        "r": [
+          235,
+          70,
+          235,
+          170,
+          8
+        ]
+      },
+      "etiq": [
+        350,
+        110
+      ],
+      "lignes": [
+        "Atelier"
+      ],
+      "quoi": "Présence auprès de la Succession, sans propriété ni supervision de tous ses membres : Soren ne possède au départ que son jeune Architecte, ses outils, un abri et des matériaux de récupération.",
+      "motifs": [],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    }
+  ]
+}

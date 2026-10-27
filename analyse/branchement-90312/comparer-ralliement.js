@@ -97,7 +97,15 @@ async function main() {
   progres("installation_scenario");
   bataille.rejouer("La porte de la Gadoue", effectif);
   const initial = bataille._observerEssai();
-  const initialHash = empreinte(JSON.stringify(initial.hommes));
+  // Les soldats referencent leurs chefs, messagers et verrous : graphe cyclique.
+  const references = new Map();
+  const initialHash = empreinte(JSON.stringify(initial.hommes, (cle, valeur) => {
+    if (valeur && typeof valeur === "object") {
+      if (references.has(valeur)) return { reference: references.get(valeur) };
+      references.set(valeur, references.size);
+    }
+    return valeur;
+  }));
   const effectifObserve = initial.hommes.length;
   if (!effectifObserve) throw new Error("Scenario sans soldats.");
   progres("simulation", { secondes_simulees: 0, effectif_observe: effectifObserve });

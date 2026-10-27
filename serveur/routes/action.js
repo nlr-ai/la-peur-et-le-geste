@@ -1,7 +1,7 @@
 // POST /action — la parole et les gestes du joueur, versés dans son inbox.
 const fs = require("fs");
 const path = require("path");
-const { RACINE } = require("../http");
+const { DEPOT, ETAT } = require("../http");
 const { envoyer } = require("../http");
 const { audienceCourante, qui, roster } = require("../http");
 
@@ -11,19 +11,42 @@ function traiter(req, res, url) {
     req.on("data", (c) => (corps += c));
     req.on("end", () => {
       try {
-        const action = JSON.parse(corps);
+        let action = JSON.parse(corps);
+        const commentaire = action.mode === "commenter" || action.type === "commentaire";
+        if (commentaire) {
+          const { monPersonnage, RACINE } = require("../http");
+          if (!monPersonnage(req, url)) throw new Error("Un siège joueur est nécessaire.");
+          const requetePlan = Object.create(req);
+          requetePlan.url = req.url + (req.url.includes("?") ? "&" : "?") +
+            "affaire=" + encodeURIComponent(action.affaire_id || "");
+          const plateau = require("../domaine/echiquier").composer(requetePlan, url);
+          action = require("../domaine/commentaire").preparer(plateau, action,
+            require("../plan/bibliotheque").charger(RACINE));
+        }
         action.recu_a = new Date().toISOString();
         // Signature du siège : sans elle, le MJ ne saurait pas lequel des
         // deux vient de parler. Roster absent = rien ne change.
-        const siege = qui(req, url);
+        const siege = qui(req, url) || (commentaire ? {
+          personnage_id: require("../http").monPersonnage(req, url) } : null);
         if (siege) action.joueur_id = siege.personnage_id;
+        if (!commentaire && action.destinataire_id != null) {
+          if (action.mode !== "dire" && action.mode !== "parler") {
+            delete action.destinataire_id;
+          } else {
+            const gens = JSON.parse(fs.readFileSync(path.join(ETAT, "personnages.json"), "utf-8"));
+            if (typeof action.destinataire_id !== "string" ||
+                !gens.some(p => p.id === action.destinataire_id)) {
+              throw new Error("Destinataire de la réponse inconnu.");
+            }
+          }
+        }
         // À deux MJ, chacun guette SON joueur : l'action tombe dans le
         // sous-dossier de son siège. Sans roster (ou siège inconnu), tout
         // atterrit à la racine comme avant — le guetteur d'une partie seule
         // ne voit aucune différence.
         const dossier = siege
-          ? path.join(RACINE, "etat", "inbox", siege.personnage_id)
-          : path.join(RACINE, "etat", "inbox");
+          ? path.join(ETAT, "inbox", siege.personnage_id)
+          : path.join(ETAT, "inbox");
         // L'adresse de la ligne, partagée entre l'inbox et le flux : c'est
         // par elle que le MJ retrouve la phrase à reformuler.
         const maintenant = Date.now();
@@ -49,6 +72,12 @@ function traiter(req, res, url) {
           const prive = siege ? { pour: siege.personnage_id } : {};
           const item = action.mode === "question"
             ? Object.assign({ type: "question", texte: action.texte, delai_s: 0, ref }, prive)
+            // Penser n'est ni dire ni agir : même dans une scène commune,
+            // l'autre personnage n'entend pas la voix intérieure du joueur.
+            : action.mode === "penser"
+            ? Object.assign({ type: "vous", mode: "penser", texte: action.texte,
+                delai_s: 0, joueur_id: siege ? siege.personnage_id : undefined,
+                ref: ref, ameliorer: action.ameliorer ? true : undefined }, prive)
             : action.mode === "meta"
             ? Object.assign({ type: "meta", texte: action.texte, delai_s: 0, ref }, prive)
             // Lâcher la bride n'est pas un geste dans la fiction : personne
@@ -105,10 +134,25 @@ function traiter(req, res, url) {
                 (function () {
                   const moi = siege && siege.personnage_id;
                   const l = roster();
+                  if (moi) {
+                    const lire = (p, defaut) => {
+                      try { return JSON.parse(fs.readFileSync(p, "utf-8")); }
+                      catch (e) { if (e.code === "ENOENT") return defaut; throw e; }
+                    };
+                    const dossier = path.join(ETAT, "..", ".agents-runtime", "scenes");
+                    const config = lire(path.join(dossier, "config.json"), {});
+                    if (config.active) {
+                      const pr = lire(path.join(ETAT, "presence.json"), {}).presence || {};
+                      const h = lire(path.join(ETAT, "horloges.json"), {});
+                      const registre = lire(path.join(dossier, "registre.json"), {});
+                      return { pour: require("../domaine/scenes-partagees")
+                        .audience(moi, config, registre, pr, h) };
+                    }
+                  }
                   if (moi && l && l.length > 1) {
                     try {
                       const pr = JSON.parse(fs.readFileSync(
-                        path.join(RACINE, "etat", "presence.json"), "utf-8")).presence || {};
+                        path.join(ETAT, "presence.json"), "utf-8")).presence || {};
                       // LA SALLE D'ABORD, LE LIEU ENSUITE. `lieu` est un
                       // en-tete de TEXTE : il ne vaut que si le MJ l'a ecrit,
                       // et il s'orthographie comme il veut. Deux sieges
@@ -146,7 +190,7 @@ function traiter(req, res, url) {
                   // il ne parle au camp d'en face.
                   return { pour: moi };
                 })());
-          fs.appendFileSync(path.join(RACINE, "etat", "flux.jsonl"),
+          fs.appendFileSync(path.join(ETAT, "flux.jsonl"),
             JSON.stringify(item) + "\n", "utf-8");
         }
         // PREMIÈRE COUCHE : la ref part au routeur direct APRÈS que l'action
@@ -156,15 +200,16 @@ function traiter(req, res, url) {
           try {
             const { spawn } = require("child_process");
             const p = spawn(process.env.PYTHON || "python",
-              [path.join(RACINE, "scripts", "router_message.py"),
+              [path.join(DEPOT, "scripts", "router_message.py"),
                "--de", (siege && siege.personnage_id) || "joueur",
                "--ref", ref],
-              { cwd: RACINE, detached: true, stdio: "ignore",
+              { cwd: DEPOT, detached: true, stdio: "ignore",
                 windowsHide: true });  // sinon chaque action ouvre une console
             p.unref();
           } catch (e) { /* un reveil rate ne perd rien : l'inbox garde l'acte */ }
         }
-        return envoyer(res, 200, JSON.stringify({ ok: true, ref }));
+        return envoyer(res, 200, JSON.stringify({ ok: true, ref,
+          destinataire_id: action.destinataire_id, contexte_id: action.contexte_id }));
       } catch (e) {
         return envoyer(res, 400, JSON.stringify({ ok: false, erreur: String(e) }));
       }

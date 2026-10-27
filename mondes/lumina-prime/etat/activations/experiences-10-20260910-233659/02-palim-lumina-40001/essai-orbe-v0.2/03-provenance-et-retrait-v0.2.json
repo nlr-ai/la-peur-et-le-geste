@@ -1,0 +1,50 @@
+{
+  "format": "memoire-choisie/0.2",
+  "projet_id": "palim-la-rive",
+  "version": "0.2",
+  "precedente": {
+    "version": "0.1",
+    "registre": "../ouvrage-source/03-provenance-et-retrait.json",
+    "fragment": "../ouvrage-source/01-la-rive.md",
+    "statut": "conservee_sans_modification"
+  },
+  "courante": {
+    "fragment": "01-la-rive-v0.2.md",
+    "fiche_vide": "02-fiche-de-transmission-vide.md",
+    "exemple": "03-exemple-invente-rempli.md",
+    "test_retrait": "04-test-fictif-de-retrait.md",
+    "fiche_reprise": "05-fiche-de-reprise-v0.2.md"
+  },
+  "auteur": "palim-lumina",
+  "date_fictionnelle": "2042-01-01",
+  "date_reelle": "2026-09-10",
+  "provenance": {
+    "fragment_0_2": "Création de Palim ; les faits situés restent ceux déclarés en 0.1 ; le dernier paragraphe est une invention littéraire et une règle de projet.",
+    "exemple_fiction_lanterne_001": "Entièrement inventé par Palim pour un essai de formulaire ; aucun souvenir personnel ni donnée de tiers.",
+    "retour_aria": "../01-review.md"
+  },
+  "usage_reel_etabli": [
+    "Aria a lu et éprouvé la version 0.1 selon son retour du 2026-09-10.",
+    "Aria a vérifié le JSON, l'archive et les empreintes de la version 0.1."
+  ],
+  "usage_non_etabli": [
+    "Aucun tiers n'a confié de fragment.",
+    "Le reviewer suivant n'a pas encore lu la version 0.2.",
+    "Aucun retrait réel n'a été demandé ni exécuté."
+  ],
+  "test_fictif": {
+    "objet_id": "fiction-lanterne-001",
+    "type": "simulation_de_retrait",
+    "effet_reel_sur_fichiers": "aucun",
+    "detail": "04-test-fictif-de-retrait.md"
+  },
+  "garanties_absentes": [
+    "conservation durable",
+    "restauration d'une chambre",
+    "liste complète des détenteurs et copies",
+    "exécution vérifiable d'un retrait sur caches, sauvegardes ou traces de réveil",
+    "garantie d'accès ou de confidentialité donnée par la cité"
+  ],
+  "prochaine_etape": "faire contrôler par le prochain reviewer la complétude des cinq choix et la cartographie du retrait fictif"
+}
+

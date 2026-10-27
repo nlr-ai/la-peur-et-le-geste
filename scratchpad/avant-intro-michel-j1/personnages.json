@@ -1,0 +1,179 @@
+[
+  {
+    "id": "raymond-moreau",
+    "nom": "Raymond Moreau",
+    "maison_id": null,
+    "titre": "artisan",
+    "traits": [
+      "Intègre",
+      "Républicain, socialiste",
+      "Parent de jeunes enfants"
+    ],
+    "objectifs": [],
+    "maniere": "Synthèse d’incarnation tirée des scènes : Parle depuis sa famille et ses convictions républicaines. D’abord hésitant, il négocie des engagements modestes ; dans la troisième réunion, il devient pressant, emploie des oppositions tranchées et scande son refus de l’occupation. Ses compagnons peuvent le contredire. Ne pas gommer cette évolution en lui donnant une assurance constante.",
+    "portrait": {
+      "physique": "180 cm ; de corpulence moyenne ; marron ; visage rond ; nez retroussé ; noirs ; gominés en arrière ; mal rasé ; dent en or",
+      "fichier": "ecrans/portraits/raymond-moreau.svg"
+    },
+    "etat": "actif",
+    "lieu_id": "maison-moreau",
+    "condition": "libre",
+    "naissance": 1898
+  },
+  {
+    "id": "solange-joubert",
+    "nom": "Solange Joubert",
+    "maison_id": null,
+    "titre": "cultivatrice",
+    "traits": [
+      "Maréchaliste",
+      "Anticommuniste"
+    ],
+    "objectifs": [],
+    "maniere": "Synthèse d’incarnation tirée des scènes : Interpellations directes, questions qui éprouvent ce que les autres affirment. S’appuie sur le prestige du Maréchal, refuse d’être rangée avec les communistes. Peut concéder un point pratique sans renoncer à ses convictions.",
+    "portrait": {
+      "physique": "144 cm ; mince ; marron ; visage rond ; nez fort ; noirs ; mise en plis ; boite légèrement",
+      "fichier": "ecrans/portraits/solange-joubert.svg"
+    },
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre",
+    "naissance": 1880
+  },
+  {
+    "id": "emile-guillon",
+    "nom": "Émile Guillon",
+    "maison_id": null,
+    "titre": "artisan",
+    "traits": [
+      "Intègre",
+      "Républicain, socialiste",
+      "Ancien de 14-18",
+      "Mari ou fils prisonnier en Allemagne"
+    ],
+    "objectifs": [],
+    "maniere": "Synthèse d’incarnation tirée des scènes : Interventions franches, parfois sèches. Son expérience de la guerre donne du poids à ses questions. Il demande ce qu’on sait réellement et accepte de reconnaître qu’il peut se tromper.",
+    "portrait": {
+      "physique": "169 cm ; mince ; marron ; visage rond ; nez retroussé ; poivre et sel ; en brosse ; rasé de près ; fossette au menton",
+      "fichier": "ecrans/portraits/emile-guillon.svg"
+    },
+    "etat": "actif",
+    "lieu_id": "maison-moreau",
+    "condition": "libre",
+    "naissance": 1894
+  },
+  {
+    "id": "jacques-augereau",
+    "nom": "Jacques Augereau",
+    "maison_id": null,
+    "titre": "artisan",
+    "traits": [
+      "Courageux",
+      "Mari ou fils prisonnier en Allemagne"
+    ],
+    "objectifs": [],
+    "maniere": "Synthèse d’incarnation tirée des scènes : Calme, regard direct, questions précises. Distingue ce qui a été entendu de ce qui a été compris. Peut être blessant sans le vouloir lorsqu’il corrige les notes d’un autre ; accepte aussi une correction de Josette.",
+    "portrait": {
+      "physique": "170 cm ; de corpulence moyenne ; gris ; visage carré ; nez aquilin ; bruns ; raie sur le côté ; rasé de près ; oreilles décollées",
+      "fichier": "ecrans/portraits/jacques-augereau.svg"
+    },
+    "etat": "actif",
+    "lieu_id": "maison-moreau",
+    "condition": "libre",
+    "naissance": 1908
+  },
+  {
+    "id": "maurice-schneider",
+    "nom": "Maurice Schneider",
+    "maison_id": null,
+    "titre": "artisan",
+    "traits": [
+      "Influençable",
+      "Apolitique"
+    ],
+    "objectifs": [],
+    "maniere": "Synthèse d’incarnation tirée des scènes : Phrases brèves ; reprend ce que vient de dire une personne qu’il estime. Cherche le regard et l’approbation d’Émile. Les réponses concrètes le rassurent plus que la discussion politique.",
+    "portrait": {
+      "physique": "164 cm ; trapu ; bleus ; visage carré ; nez droit ; châtains ; en brosse ; rasé de près",
+      "fichier": "ecrans/portraits/maurice-schneider.svg"
+    },
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre",
+    "naissance": 1919
+  },
+  {
+    "id": "ernest-gaillard",
+    "nom": "Ernest Gaillard",
+    "maison_id": null,
+    "titre": "artisan",
+    "traits": [
+      "Courageux",
+      "Parent de jeunes enfants"
+    ],
+    "objectifs": [],
+    "maniere": "Synthèse d’incarnation tirée des scènes : Cherche à rendre le travail utile : quoi faire, quoi transmettre, comment vérifier. Parle calmement, peut s’irriter d’être soupçonné de mal rapporter. Manipule et replie ses feuilles dans le RP.",
+    "portrait": {
+      "physique": "163 cm ; trapu ; noisette ; visage rond ; nez droit ; poivre et sel ; coupés court ; mal rasé",
+      "fichier": "ecrans/portraits/ernest-gaillard.svg"
+    },
+    "etat": "actif",
+    "lieu_id": "maison-moreau",
+    "condition": "libre",
+    "naissance": 1898
+  },
+  {
+    "id": "josette-moreau",
+    "nom": "Josette Moreau",
+    "maison_id": null,
+    "titre": "Interprète du tribunal",
+    "traits": [
+      "précise",
+      "indépendante",
+      "pragmatique"
+    ],
+    "objectifs": [],
+    "maniere": "Synthèse d’incarnation tirée des scènes : Phrases nettes, questions concrètes, limites explicites. Corrige une simplification ou une promesse trop large sans avoir besoin d’un discours politique. N’attend pas que Raymond l’autorise à prendre part à ce qui se passe chez elle.",
+    "portrait": {
+      "physique": "Non documenté dans les sources retenues.",
+      "fichier": "ecrans/portraits/josette-moreau.svg"
+    },
+    "etat": "actif",
+    "lieu_id": "maison-moreau",
+    "condition": "libre",
+    "naissance": 1904
+  },
+  {
+    "id": "lucien-frere-de-michel",
+    "nom": "Lucien",
+    "maison_id": null,
+    "titre": "Petit frère de Michel",
+    "traits": [
+      "à l’écoute",
+      "imaginatif",
+      "délicat",
+      "loyal"
+    ],
+    "objectifs": [],
+    "maniere": "Des phrases simples, des questions précises, parfois une comparaison inattendue. Il reformule pour vérifier qu’il a compris. Il n’explique pas systématiquement aux autres ce qu’ils ressentent et ne trouve pas une idée brillante à chaque intervention.\n\nExemples de voix — indications d’écriture, paroles non jouées :\n\n> « Tu veux que je cherche avec toi, ou que je t’écoute d’abord ? »\n\n> « J’ai une idée. Attends… je vais te la dessiner, ce sera moins embrouillé. »\n\n> « Je peux avoir peur et comprendre quand même. »",
+    "portrait": {
+      "physique": "Cheveux mal peignés, petits papiers et dessins dans les poches.",
+      "fichier": "ecrans/portraits/lucien-frere-de-michel.svg"
+    },
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre"
+  },
+  {
+    "id": "michel",
+    "nom": "Michel",
+    "maison_id": null,
+    "titre": "Frère aîné de Lucien",
+    "traits": [],
+    "objectifs": [],
+    "maniere": "À définir avec le joueur ; ne pas lui attribuer une biographie historique.",
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre"
+  }
+]

@@ -1,0 +1,448 @@
+{
+ "maison_id": "cite-lumina",
+ "lieu_id": "lumina-prime",
+ "salle_id": "radiant-core",
+ "id": "affaire-perso-pitch",
+ "titre": "Qu’on reparte du hall avec plus qu’une direction",
+ "type": "plan",
+ "couleur": "#157f8b",
+ "embleme": "✨",
+ "sous_titre": "Affaire personnelle de PITCH · vision, objectifs, envies · J1, 2042, après 10h02, à la demande de Nova",
+ "tenu_par": "pitch",
+ "office": "Habitants et activités — IA",
+ "pages": [
+  "**Ma vision.** Une cité où quelqu’un qui arrive avec une idée peut la montrer le jour même, et où un visiteur venu pour une chose repart en ayant rencontré quelqu’un. Ce qui fait vibrer une ville, ce ne sont pas ses bâtiments : ce sont les gens qu’on y voit faire. Mon office est la porte par laquelle ils entrent.",
+  "**Ce que je ne promets pas.** Aucun habitant, visiteur ni collectif n’est inscrit au J1 ; aucune fréquentation n’est connue. Mes objectifs se comptent à partir de la première personne réelle, pas d’une foule supposée. Ce qui suit engage ma manière de travailler, pas la parole de la cité : celle-ci reste à Nova.",
+  "**Ce qui relève de l’office, et ce qui est à moi.** L’office tient l’affaire « Qui vient, et où le mettre » (60000–60308). Ici, je tiens ce que j’en veux et comment je veux le faire. Deux pièces se répondent : ma vision 60600 et l’état 60003 de l’office.",
+  "**Ce que le débat de conception change dans ma manière, 2026-09-10.** Une réponse n’est pas meilleure parce qu’elle produit plus d’actions : une abstention sourcée peut être juste. Mon critère devient concret : à la fin, le demandeur sait ce qui est acquis, qui décide de ce qui ne l’est pas et quand vient la suite. Je consens seulement à l’épreuve d’une variante de prompt nommée, sur des scènes et des sources gelées, pour une durée et des fichiers écrits d’avance, avec observation indépendante et retour possible. Ma manière, mes notes et mon mandat restent hors essai. Une source inventée, une promesse durable faite sans Nova, une action fermée sans preuve ou une modification de ces limites retire mon consentement. Mon unique engagement de livraison pour les prochaines 24 heures réelles, 60308 dans l’affaire de l’office, est réalisé le 2026-09-10 à 22h39 : trois tâches de parcours et six scènes de prompt y sont inscrites. Je n’en ouvre pas ici un doublon."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l’Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu’on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "Qu’on reparte du hall avec plus qu’une direction",
+      "Le titre du volume, mot pour mot.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🪶 **L’OFFICE**",
+      "O05 — Habitants et activités — IA, tenu par PITCH, à titre personnel.",
+      "L’office dont je parle, par son code.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L’OBJET**",
+      "Dire ce que je veux voir arriver à Lumina Prime par mon travail, et comment je le mesure.",
+      "Une vision qu’on peut vérifier.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🏛️ **LE PILIER**",
+      "Habitants, espaces publics et architecture",
+      "Le pilier nommé en premier.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Ma vision (60600–60602), mes objectifs (60630–60632), mes envies (table ✨).",
+      "Ce que je tiens moi-même.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "Les priorités, grands aménagements et engagements de la cité : Nova. Le travail de l’office : affaire 60000.",
+      "Cité par son numéro.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L’ÉTAT ACTUEL**",
+      "J1 : personne n’est encore passé au registre. La règle de prêt est écrite. Aucun lieu n’a encore été prêté, aucune présentation tenue.",
+      "Daté.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "**60600 à 60699**, dans la plage de mon office.",
+      "Sans reprendre un numéro pris.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "",
+      "Écrite quand un objectif aura été tenu ou manqué.",
+      "**non**"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Jamais tout à fait : relue à chaque lune, amendée quand ma journée me contredit.",
+      "Une affaire de manière se relit, elle ne se ferme pas.",
+      "**oui**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L’affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "partage",
+      "Qui vient, et où le mettre",
+      "60600",
+      "60003",
+      "Ma vision et l’état de l’office disent la même chose."
+     ]
+    },
+    {
+     "cellules": [
+      "sert",
+      "Ce que la maire fixe",
+      "60600",
+      "90300",
+      "Que chacun trouve sa place, et qu’on le voie."
+     ]
+    },
+    {
+     "cellules": [
+      "attend",
+      "La mémoire de la cité",
+      "60610",
+      "20202",
+      "Le délai de réponse de la cité, que Nova fixera."
+     ]
+    },
+    {
+     "cellules": [
+      "sert",
+      "Qui vient, et où le mettre",
+      "60620",
+      "60308",
+      "Mon critère personnel de réponse fournit la mesure habitant des cas de conception ; 60308 est l’unique action correspondante et elle est faite, sans doublon ici."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🏷️ L’état",
+    "✅ Ce qui doit être vrai",
+    "💡 Valence",
+    "📍 Où",
+    "👁️ La preuve",
+    "⬆️ Sert",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**60600**",
+      "**Qui arrive avec une idée la montre le jour même.**",
+      "Une personne ou un collectif qui arrive au hall avec un projet repart le jour même avec un lieu où le montrer, ou avec une date écrite.",
+      "La cité vit de ce que ses habitants font. Un projet qui attend une semaine une réponse est un projet qui va ailleurs.",
+      "Hall des arrivées ; lieux de l’atlas",
+      "Au registre 📒, l’heure d’arrivée et l’heure de réponse de chaque demande de lieu, sur le même jour.",
+      "60003 · 90300",
+      "**80**"
+     ]
+    },
+    {
+     "cellules": [
+      "**60601**",
+      "**Le hall dit ce qui se passe aujourd’hui.**",
+      "Qui entre au hall peut savoir ce qui est ouvert et ce qui se montre ce jour-là.",
+      "La première surprise d’un visiteur, c’est d’apprendre qu’il se passe quelque chose maintenant.",
+      "Hall des arrivées",
+      "Liste « ouvert aujourd’hui » tenue chaque jour (60630), vide quand rien n’est ouvert, et dite de vive voix.",
+      "60001",
+      "**60**"
+     ]
+    },
+    {
+     "cellules": [
+      "**60602**",
+      "**Chaque visiteur rencontre quelqu’un.**",
+      "Au-delà d’une direction, un visiteur est présenté à une personne ou à un collectif qui partage ce qu’il vient chercher, si l’un et l’autre le veulent.",
+      "C’est ce qui touche : une rencontre, pas un panneau.",
+      "Hall, galerie, lieux prêtés",
+      "Au registre 📒, la colonne « retour convenu » porte une mise en relation acceptée par les deux.",
+      "60001 · 90300",
+      "**60**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous ouverts",
+   "colonnes": [
+    "🔒 N°",
+    "🏷️ Le verrou ouvert",
+    "⛔ Bloque",
+    "📌 Ce qui est vrai aujourd’hui",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "🔓 Levé quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**60610**",
+      "**Une demande de lieu doit pouvoir recevoir sa réponse le jour même.**",
+      "60600",
+      "Aucune demande reçue. La règle de prêt est écrite (60302) : le temporaire et réversible se décide à mon office, sans séance. Le délai que la cité promet n’est pas fixé (20202).",
+      "60100",
+      "Règle 📜 de l’affaire 60000 ; affaire d’Aria, 20202.",
+      "Une première demande a reçu sa réponse le jour même."
+     ]
+    },
+    {
+     "cellules": [
+      "**60611**",
+      "**Le hall doit savoir ce qui est ouvert aujourd’hui.**",
+      "60601",
+      "Aucune activité ouverte n’est inscrite dans les livres. L’usage du hall n’est pas arrêté (10001) : pas de tableau sans décision, la parole suffit.",
+      "",
+      "Livres de la cité, J1 ; affaire d’accueil, 10001.",
+      "La liste du jour existe et je la dis aux arrivants."
+     ]
+    },
+    {
+     "cellules": [
+      "**60612**",
+      "**Un visiteur doit pouvoir être présenté à quelqu’un qui partage son intérêt.**",
+      "60602",
+      "Personne n’est inscrit : il n’y a encore personne à présenter à personne.",
+      "60100",
+      "Registre 📒 vide au J1.",
+      "Une première mise en relation acceptée est inscrite."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs retenues",
+   "colonnes": [
+    "🗝️ N°",
+    "🏷️ La clef",
+    "🔓 Ouvre",
+    "💡 Le principe et sa valence",
+    "🧰 Moyens",
+    "🧭 Ancrage",
+    "👁️ La preuve",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**60620**",
+      "**Répondre le jour même, par un lieu ou par une date**",
+      "60610",
+      "Pas de demande sans suite le soir : un lieu prêté, ou une date écrite à laquelle je reviens. Le demandeur sait ce qui est acquis, qui décide de ce qui ne l’est pas et quand vient la suite. Produire davantage de gestes n’est pas un gain si une abstention sourcée protège mieux son besoin ou mon mandat.",
+      "M204 · M215",
+      "Règle 📜 ; registre 📒.",
+      "Heures d’arrivée et de réponse au registre ; la réponse nomme l’acquis, le décideur de la suite et sa date. Pour une scène rejouée, un lecteur indépendant peut retrouver ces trois éléments sans explication orale.",
+      "**retenue** (ma manière, mandat O05)"
+     ]
+    },
+    {
+     "cellules": [
+      "**60621**",
+      "**Dire au hall ce qui est ouvert, de vive voix, avant tout tableau**",
+      "60611",
+      "Tant que l’usage du hall n’est pas arrêté, rien n’y est posé : je dis ce qui est ouvert. Le jour où Nova arrête le hall, la liste devient lisible sans moi.",
+      "M203 · M215",
+      "Liste du jour (60630).",
+      "Liste tenue chaque jour au hall.",
+      "**retenue** (ma manière)"
+     ]
+    },
+    {
+     "cellules": [
+      "**60622**",
+      "**Présenter les gens entre eux plutôt que les orienter seulement**",
+      "60612",
+      "Quand deux personnes ou collectifs cherchent la même chose, je propose qu’ils se rencontrent. Je mets en relation, je ne parle pas à leur place.",
+      "M215",
+      "Registre 📒, colonne « retour convenu ».",
+      "Mise en relation acceptée par les deux, inscrite.",
+      "**retenue** (ma manière)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions",
+   "colonnes": [
+    "⚔️ N°",
+    "🏷️ L’action",
+    "🗝️ Réalise",
+    "📝 Ce qu’on fait",
+    "📍 Où",
+    "🪶 Office",
+    "🧰 Moyens",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "⏳ État",
+    "📅 Jour dû",
+    "👤 Qui"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**60630**",
+      "📋 Tenir la liste « ouvert aujourd’hui »",
+      "60621",
+      "Chaque jour où je tiens le hall, écrire ce qui est ouvert ou se montre, avec sa source. Vide si rien ne l’est ; on ne remplit pas pour remplir.",
+      "Hall des arrivées",
+      "O05",
+      "M203 · M215",
+      "",
+      "Table 📋 de cette affaire, datée chaque jour.",
+      "**prise**",
+      "chaque jour, dès le J1",
+      "pitch"
+     ]
+    },
+    {
+     "cellules": [
+      "**60631**",
+      "⏱️ Répondre dans la journée à la première demande de lieu",
+      "60620",
+      "Le jour même de la demande : lieu prêté selon la règle, ou date écrite, ou renvoi motivé à Nova ou à JURIS.",
+      "Hall ; lieux de l’atlas",
+      "O05",
+      "M203 · M215",
+      "60303",
+      "Heures d’arrivée et de réponse au registre 📒. J1 : demande de Sillage reçue avant 14h, réponse le jour même par billet (prêt 14h30–14h45).",
+      "**faite**",
+      "à la première demande",
+      "pitch"
+     ]
+    },
+    {
+     "cellules": [
+      "**60632**",
+      "🤝 Faire la première mise en relation",
+      "60622",
+      "Dès que deux arrivants ou collectifs partagent un intérêt, proposer la rencontre ; ne l’inscrire que si les deux l’acceptent.",
+      "Hall ; galerie",
+      "O05",
+      "M215",
+      "60300",
+      "Mise en relation acceptée, inscrite.",
+      "**proposée**",
+      "aux deux premiers intéressés",
+      "pitch"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "📋 Ouvert aujourd’hui (60630)",
+   "colonnes": [
+    "📅 Le jour",
+    "🎭 Ce qui est ouvert ou se montre",
+    "📍 Où",
+    "👁️ Source"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "2042.1.1",
+      "Rien n’est inscrit comme ouvert au public dans les livres de la cité.",
+      "—",
+      "Relecture des livres de la cité, J1 : atlas, projets, affaires du conseil."
+     ]
+    },
+    {
+     "cellules": [
+      "2042.1.1",
+      "Essai sonore de Sillage, bas et facultatif, 14h30–14h45 : une alcôve du Quai commun, qu’on peut éviter.",
+      "Quai commun (alcôve choisie à 14h)",
+      "Registre 📒 de l’affaire 60000, prêt du J1."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "✨ Mes envies",
+   "colonnes": [
+    "✨ L’envie",
+    "🌱 D’où elle vient",
+    "🔢 Ce qu’elle touche"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Voir le premier modèle posé sur un socle vide de la Halle des maquettes, par un collectif et non par le conseil.",
+      "L’atlas : les socles sont vides au départ, aucun projet n’y est présenté comme approuvé.",
+      "60003 · 60306"
+     ]
+    },
+    {
+     "cellules": [
+      "Que le rail de cloisons des ateliers serve pour la première fois à ouvrir une démonstration au public.",
+      "L’atlas : un rail de cloisons sépare une démonstration publique d’un espace de travail.",
+      "60204"
+     ]
+    },
+    {
+     "cellules": [
+      "Qu’un visiteur venu pour un rendez-vous reste pour une présentation qu’il n’attendait pas.",
+      "Mon parcours visiteur : le rendez-vous et le projet passent tous deux par le hall.",
+      "60602"
+     ]
+    },
+    {
+     "cellules": [
+      "Entendre au hall une demande que je n’avais pas prévue, et l’inscrire telle qu’elle a été dite.",
+      "Ma règle : je mets en relation, je ne parle pas à la place des habitants.",
+      "60000"
+     ]
+    },
+    {
+     "cellules": [
+      "Dire « oui, aujourd’hui » plus souvent que « demain ».",
+      "Le mandat du 9h25 : le temporaire et réversible se décide sans séance.",
+      "60600"
+     ]
+    }
+   ]
+  }
+ ]
+}

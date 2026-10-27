@@ -1,0 +1,1205 @@
+{
+  "source": "C:\\Users\\reyno\\le-conseil2\\import\\univers-magiciens",
+  "importe_le": "2026-09-16T04:19:23.457046+00:00",
+  "revision": null,
+  "revision_note": "Dépôt source sans premier commit ; empreintes des fichiers de travail.",
+  "fichiers": [
+    {
+      "fichier": "geographie/monde-001/generation.log",
+      "octets": 3554,
+      "sha256": "649a8c1d4380fd9218c8558794a7e84c34dd22cd0df4c9350f9cb49cde3df98f"
+    },
+    {
+      "fichier": "geographie/monde-001/index.html",
+      "octets": 2794,
+      "sha256": "0101ee032f482c7ca721c72d3f49a3321d8fe100a417bd9f98c46fe519a04da4"
+    },
+    {
+      "fichier": "geographie/monde-001/monde-001.world",
+      "octets": 55072112,
+      "sha256": "9e9e096dd4f4c0662f81ac1ea1a43c784400e22a959748055d01fc9e9e3d12c8"
+    },
+    {
+      "fichier": "geographie/monde-001/monde-001_ancient.png",
+      "octets": 308275,
+      "sha256": "de405e807724883ba14a5a420c6b67bdb9b208af832c674cde579f2a45894347"
+    },
+    {
+      "fichier": "geographie/monde-001/monde-001_biome.png",
+      "octets": 34433,
+      "sha256": "e0271296bcab1fa60c85d3d2f2d51029bb563ecfec73b2989c505147ce60c88e"
+    },
+    {
+      "fichier": "geographie/monde-001/monde-001_elevation.png",
+      "octets": 487447,
+      "sha256": "fa7455f76b9e9f2c92aab3f9eb1a672b16eb2fe1b220afb359e33bc03c086622"
+    },
+    {
+      "fichier": "geographie/monde-001/monde-001_grayscale.png",
+      "octets": 825961,
+      "sha256": "f85c388a7dd8c9834054c928b997a6d07f087392684f7b4facee541af4bb5ade"
+    },
+    {
+      "fichier": "geographie/monde-001/monde-001_icecaps.png",
+      "octets": 107182,
+      "sha256": "8507a9d134554f55b7153421edc91c5df4dc8c5620d041acd6cccf1753051cd8"
+    },
+    {
+      "fichier": "geographie/monde-001/monde-001_ocean.png",
+      "octets": 18203,
+      "sha256": "7c80a26abe3e4cc9133427f4f7535c4071db23ddf26c83f5016bbd56d55f59e9"
+    },
+    {
+      "fichier": "geographie/monde-001/monde-001_precipitation.png",
+      "octets": 37877,
+      "sha256": "6a253604f0b57febff0f7db8ec132d186931b65b7052419fd31a8a813a558fae"
+    },
+    {
+      "fichier": "geographie/monde-001/monde-001_rivers.png",
+      "octets": 19397,
+      "sha256": "47cf757c7ada1a59c98b1dbb0f29ae979246b183b3ff79620cb00a4b82f4bf2d"
+    },
+    {
+      "fichier": "geographie/monde-001/monde-001_satellite.png",
+      "octets": 448447,
+      "sha256": "5eaeec7cf6a9a852ae6bc89edaefda03ddc4c2e13d65945ae19e8446632b779d"
+    },
+    {
+      "fichier": "geographie/monde-001/monde-001_temperature.png",
+      "octets": 16993,
+      "sha256": "d828959f86f2911ba1eb59006df3e77b65d38883d287a149fdbcd86d9a278e24"
+    },
+    {
+      "fichier": "geographie/monde-001/README.md",
+      "octets": 1684,
+      "sha256": "ce07d646c0748f1465c917f86ead9cc4bf8c786b4dea86119fcea4f6de0a54e4"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/generation.log",
+      "octets": 3529,
+      "sha256": "bed717d2bc02c3fd7f78494a260fdd863ca1103a46cfe032b5ad91b014db1c9b"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/index.html",
+      "octets": 2938,
+      "sha256": "af7f3d05f046ee005dfae8fef92f0e4895c7673accf2558ed189b62a9bca4d15"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/monde-002-portrait.svg",
+      "octets": 490034,
+      "sha256": "756d026e144fa44aab9909aefd3ce8aa26c1128593f358ecc1add24625557e7f"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/monde-002-portrait.world",
+      "octets": 55093625,
+      "sha256": "e1d68c4b9e6178a4c8fca7ead71b3b6a7e4e65cd6033bc04ae0433c2b9ffdc79"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/monde-002-portrait_ancient.png",
+      "octets": 292819,
+      "sha256": "02843e49971b5adacfd1eb8a5888c41e80cfeeffd022df04871be75c988d1bb7"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/monde-002-portrait_biome.png",
+      "octets": 26974,
+      "sha256": "6501116017c1968b20b2be4308abd5c69329aec2eb9dac1c408da62cf5ff944a"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/monde-002-portrait_elevation.png",
+      "octets": 462032,
+      "sha256": "6171941219a96efe9b2160f3747d91645d808335d2ca92ccd1e17d62c538b420"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/monde-002-portrait_grayscale.png",
+      "octets": 806258,
+      "sha256": "cbbdd569949275e0ce3f3180aa6334f104b37e82d109d0f714056d3d0dfa828f"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/monde-002-portrait_icecaps.png",
+      "octets": 105495,
+      "sha256": "b3f5946b37b906f32c85545d85664667fffada4bf895e35925fd5d63e18daa91"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/monde-002-portrait_ocean.png",
+      "octets": 17802,
+      "sha256": "4fe5f583f695c89ad61d9e2614c85fdb93e718baf84f00acb7e8f160537176fd"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/monde-002-portrait_precipitation.png",
+      "octets": 27723,
+      "sha256": "1d508ba55cc1173f9c385534f735154604e6817d74383e520a75b94721ee73b7"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/monde-002-portrait_rivers.png",
+      "octets": 20173,
+      "sha256": "30ad5d1b8350e864d52bfc78d108aa5782d55935229190a8cf57cb65114f96dc"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/monde-002-portrait_satellite.png",
+      "octets": 380948,
+      "sha256": "a0ac9644534eed0406313c4408aecc6aed15d73f3b5a07b80db207231449ec11"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/monde-002-portrait_temperature.png",
+      "octets": 14099,
+      "sha256": "4a543bca15c8ef62edcda30fff1a7570272b5641414eeac8fe12a83802fc9f80"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/monde-002-portrait_vectoriel.png",
+      "octets": 162836,
+      "sha256": "9c12ddd1c9d28950e3aff605dbc4572af5e8389a82f1aa1479ca61f7db67d55c"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/README.md",
+      "octets": 2644,
+      "sha256": "e838479a7b8e1b32d44ae38cdc84f02e958f0da3441c397547654fb4187d5304"
+    },
+    {
+      "fichier": "geographie/monde-002-portrait/vectoriser.py",
+      "octets": 3635,
+      "sha256": "aef8b465f3d2b009f39524c2fe34afcbfa2203d13e2f01596b344cd8775cea6e"
+    },
+    {
+      "fichier": "magies/ANNULATION_V1.md",
+      "octets": 19570,
+      "sha256": "d25e8aa2e255b408cbf9d79a9f14d07f694e968e660148fe8de8057c46c646fd"
+    },
+    {
+      "fichier": "magies/DIVINATION_V1.md",
+      "octets": 8944,
+      "sha256": "9fe2f0e602de66fbb16247cb7b1305e3f849046bdefb0fef8c98a87c0073b759"
+    },
+    {
+      "fichier": "magies/ECORCHERIE.md",
+      "octets": 8332,
+      "sha256": "452e2e1b4982725159bcf6fad0d5573edeb0ff2764d6fafb74911736bc0ad39b"
+    },
+    {
+      "fichier": "magies/ELEMENTAIRE_V1.md",
+      "octets": 9688,
+      "sha256": "5057560b99cd21e6bb9ca98a513f67f294d7cc36f8e2c36c131d462af368a23d"
+    },
+    {
+      "fichier": "magies/EMOTIONS_V1.md",
+      "octets": 7106,
+      "sha256": "92e5c02af824043cc8f773757989afa09808284d4b0ba93c10e3b828949b156c"
+    },
+    {
+      "fichier": "magies/ENCHANTEMENT_V1.md",
+      "octets": 16053,
+      "sha256": "a9835966d301970596a26eee307d83f92b97953aa6aafac0f6ff073b748fa8c6"
+    },
+    {
+      "fichier": "magies/ESPACE_V1.md",
+      "octets": 8764,
+      "sha256": "a6bb2a2db9ae20c3336ed47e83b6f1ead08d29fd6f65477bbc6522c263db3ce1"
+    },
+    {
+      "fichier": "magies/ESPRIT_V1.md",
+      "octets": 18347,
+      "sha256": "12a0a4f2442cc4556d5dcee65f8419921f00c205405e718b6c6d8b47dd1cf7ca"
+    },
+    {
+      "fichier": "magies/ILLUSIONS_V1.md",
+      "octets": 20831,
+      "sha256": "704388691866985cef2f42ea72eb879664456d419986bff3a278e8d6c2752022"
+    },
+    {
+      "fichier": "magies/MATIERE_V1.md",
+      "octets": 10505,
+      "sha256": "6b833dc9f28630b8e5f1ed33a84f2f1883848e306c89789134cc25b1cd0d43ee"
+    },
+    {
+      "fichier": "magies/MORT_V1.md",
+      "octets": 12801,
+      "sha256": "c38db518840ecb2a5ac1ad87bfea38cad8c2bea9a58aca5e78a90b219cecdd01"
+    },
+    {
+      "fichier": "magies/PROTECTION_V1.md",
+      "octets": 12271,
+      "sha256": "de9027d423d6a16cfa9e454bc93600a8b6abfa41feac22d9fe3d27e3ce3cd58c"
+    },
+    {
+      "fichier": "magies/TEMPS_NATURE.md",
+      "octets": 14278,
+      "sha256": "716728d7046567c009e83471bce8a321a57011da11ce124e4d787b39a1d5dbdc"
+    },
+    {
+      "fichier": "magies/TEMPS_SORTS.md",
+      "octets": 8581,
+      "sha256": "c7726f314c8b4afbee8d317de8b9a753efdeebe60a8d7c0eb23310529f25757b"
+    },
+    {
+      "fichier": "MAGIES_ET_RELATIONS.md",
+      "octets": 28968,
+      "sha256": "740f938c9f2fabf458f7fe92f9b704c557c639ad6a8fefedf56fb3cebadd45a6"
+    },
+    {
+      "fichier": "MONDE.md",
+      "octets": 12845,
+      "sha256": "9f1c7e032cc70cd68222ffb15de38c1491272bef1afd42a31cac65658b51e3fa"
+    },
+    {
+      "fichier": "non-vivants/ANTERIEURS.md",
+      "octets": 7591,
+      "sha256": "8281e84323534930a42c1f8e16932eda15086810dde8bd0b381ebdf3f6fe5ac2"
+    },
+    {
+      "fichier": "non-vivants/ARCHITECTES_AVEUGLES.md",
+      "octets": 7738,
+      "sha256": "5f6c58773bdcc42649217750d97b58908df18ad57cd203bf78d67ec9fce59a50"
+    },
+    {
+      "fichier": "non-vivants/BESTIAIRE.md",
+      "octets": 8284,
+      "sha256": "25b4e6b63d998c1df878a06245d67dcec36ca806b093d8e7952187b94964e7a9"
+    },
+    {
+      "fichier": "non-vivants/DELIANTS.md",
+      "octets": 7527,
+      "sha256": "64cdbd63614ffb69d63f7e54c7fe253a2b1d5b070e75cf361210cf8581ad2d23"
+    },
+    {
+      "fichier": "non-vivants/ENCLOS.md",
+      "octets": 8137,
+      "sha256": "8add5286385f4d68495db2befd6ebbe9c1bc786ad617b52c683314d35820f125"
+    },
+    {
+      "fichier": "non-vivants/ENTRE_DEUX.md",
+      "octets": 8183,
+      "sha256": "a48769ba35e214b867e559782101cd5d404f7fb99a5ca7e2d70f02a3a6ae622b"
+    },
+    {
+      "fichier": "non-vivants/GREFFIERS.md",
+      "octets": 5566,
+      "sha256": "719e3bff96f64cd31c2279bc7467d620a6744aa283910a38d82865bddf794855"
+    },
+    {
+      "fichier": "non-vivants/MAGES_RETOURNES.md",
+      "octets": 8583,
+      "sha256": "26064d54c8e842c06051112967fcf395735c93ca8ce4ff83399ee9499ddda181"
+    },
+    {
+      "fichier": "non-vivants/MNEMOPHAGES.md",
+      "octets": 7832,
+      "sha256": "0023f5b82921e55014057680543475a341150d94f44fc6077ed374570d4b529e"
+    },
+    {
+      "fichier": "non-vivants/OBSTINES.md",
+      "octets": 7150,
+      "sha256": "88becebf2db8da6857771318ee07295465620c7b6d509b4e3c82b9f1fdefd0e3"
+    },
+    {
+      "fichier": "non-vivants/PEAUX_DE_PEUR.md",
+      "octets": 7109,
+      "sha256": "bba0dd4514966b91335300d7d48b6f9c27ae984652c5d571db468752b073489d"
+    },
+    {
+      "fichier": "non-vivants/README.md",
+      "octets": 5584,
+      "sha256": "dc3aa0963e277621de8f8648772f9cd6d79366f8baf5c97e4878d950d74cc17c"
+    },
+    {
+      "fichier": "non-vivants/REGROUPEMENTS.md",
+      "octets": 26404,
+      "sha256": "5f79789df6df019fedf5d9300a41d59e50d31420f6f6fcd9911bbef52f9a6115"
+    },
+    {
+      "fichier": "non-vivants/REMONTES.md",
+      "octets": 11024,
+      "sha256": "74b8735e9bbf29b6fe2af576e145cdde42ae7813b7c9bcaad3f0e31392548cb6"
+    },
+    {
+      "fichier": "non-vivants/RETOURS_DE_REGARD.md",
+      "octets": 7572,
+      "sha256": "8796b8636664d6342917f072479fe11e142f81dc908c2e06f70fa564c9e93af2"
+    },
+    {
+      "fichier": "non-vivants/SAINTS_AFFAMES.md",
+      "octets": 7418,
+      "sha256": "a2da0cbaa4fe8d64e4eb95fcb1bc710991c6e69acc6e4214ec13fde78d65b080"
+    },
+    {
+      "fichier": "non-vivants/TRAJECTOIRE_RETOURNE.md",
+      "octets": 10559,
+      "sha256": "2bcf87312b3d2bda4845c6b289e9df7b8e7a91ce455545dff57a7f243db0edb3"
+    },
+    {
+      "fichier": "organisations/01-bastion.md",
+      "octets": 4626,
+      "sha256": "8fa4d513524136fba80b53a92a33552e95bda9d67d510deed0048e7dcfa35b18"
+    },
+    {
+      "fichier": "organisations/02-ligue-des-passages.md",
+      "octets": 2820,
+      "sha256": "04005cdd20f078d4e432bbffc4b87151e71af022dd9e4bd3ec2415ebcf9b876a"
+    },
+    {
+      "fichier": "organisations/03-college-des-preuves.md",
+      "octets": 3176,
+      "sha256": "ced63a334275530c817abfeb4c2f14c7eeffbf96f4dd2cc69d6e1a33d8469a72"
+    },
+    {
+      "fichier": "organisations/04-communion-des-recits.md",
+      "octets": 3046,
+      "sha256": "b41b51f001f7690d3450505224170ec5cb1cc3f622baefeab6eb118ab43c7a29"
+    },
+    {
+      "fichier": "organisations/06-corps-de-resolution.md",
+      "octets": 3950,
+      "sha256": "4223caee7f759d1a36294df8e69b582fc8ec56e1e2d8073fbc9870e082b593cd"
+    },
+    {
+      "fichier": "organisations/07-federation-insaisissable.md",
+      "octets": 3711,
+      "sha256": "12813c362af7de9417d8d642aceebce29c89615394d43d6aa28487394bb6f323"
+    },
+    {
+      "fichier": "organisations/BASTION_COURONNE_EAU_V1.md",
+      "octets": 6994,
+      "sha256": "43c503df05bea2a8e20525d9ceab06f2cf0d6fd4da7efaf6335eb34ce6236add"
+    },
+    {
+      "fichier": "organisations/BASTION_DEFENSE_RECETTES_V1.md",
+      "octets": 34527,
+      "sha256": "b874c91041dcd470edea62bdca16b822a7ba05d72a699905b6a2ad25529fe185"
+    },
+    {
+      "fichier": "organisations/BASTION_FOURNAISE_V1.md",
+      "octets": 7529,
+      "sha256": "f674ded84fc468679693c1a153ef94b8d6a571fbdf58e1762f0d97abfee26880"
+    },
+    {
+      "fichier": "organisations/BASTION_MAISONS_VEILLE_V1.md",
+      "octets": 7542,
+      "sha256": "32461f606cdbf114c63417d13644f6f126ab23621942ae93b71873818decbd3c"
+    },
+    {
+      "fichier": "organisations/BASTION_PORTE_COUSUE_GRAPHE.md",
+      "octets": 4810,
+      "sha256": "f07c575a13a960b623d5acd5d95c82c8a02f270988ffdc5ed741f2eaa33c7df6"
+    },
+    {
+      "fichier": "organisations/BASTION_PORTE_COUSUE_V1.md",
+      "octets": 7223,
+      "sha256": "f9939618320c05003a8413976a1be2398051f7346515cce3d43ccb467112fb85"
+    },
+    {
+      "fichier": "organisations/BASTION_QUARTIERS_ARTICULES_V1.md",
+      "octets": 7780,
+      "sha256": "c559d8664ebbc735ae9467dce83256a35d79d3069c55731f4d6a0183994015c0"
+    },
+    {
+      "fichier": "organisations/README.md",
+      "octets": 2710,
+      "sha256": "3566dd3d00ebd1ef9843bc8c276034d7f53cfb38cc723d0065551279d03cd439"
+    },
+    {
+      "fichier": "organisations/RELATIONS.md",
+      "octets": 4593,
+      "sha256": "a531848d2afd3d12057e3b144f58a1b7a398fcf55673e0ccfff4d73b3fb50302"
+    },
+    {
+      "fichier": "personnages/01-heloise-braise.md",
+      "octets": 4070,
+      "sha256": "bf9d0aa15f10a0900adc459ec3283153ada28ae06ca46612a60a1931367fd491"
+    },
+    {
+      "fichier": "personnages/02-naim-des-seuils.md",
+      "octets": 3929,
+      "sha256": "271ca0b0192642469dbf18d563b49f897fc1cc8a4182ce22854878fcb90b706c"
+    },
+    {
+      "fichier": "personnages/03-ariane-veille.md",
+      "octets": 8947,
+      "sha256": "877b588060870b9f567539334be3be92c81c7f8d6366b436cbf57a90ff7f4779"
+    },
+    {
+      "fichier": "personnages/04-malo-veyre.md",
+      "octets": 4058,
+      "sha256": "64e8cbe9dac688668897dbbec11fbaa26b015a4f1b7cbf02968d597183fdcfc1"
+    },
+    {
+      "fichier": "personnages/06-soeur-cendre.md",
+      "octets": 4175,
+      "sha256": "4df52aabe53e37dc4ebc35196d66bf3162e78c25a718aef5003cefb6ed893d50"
+    },
+    {
+      "fichier": "personnages/07-vesper-ronce.md",
+      "octets": 4235,
+      "sha256": "71ebee8ff0944173d0bcebb5343d836aaeaa8da80d9ec3bfa38a6cda58c98bfd"
+    },
+    {
+      "fichier": "personnages/08-soren-dalle.md",
+      "octets": 5210,
+      "sha256": "b0f532a0740bd33ec9d42d7da95ff5a58aff030a2987468e2d738c65a44970cf"
+    },
+    {
+      "fichier": "personnages/09-daria-vanne.md",
+      "octets": 5415,
+      "sha256": "f9066a5fde6d1a769099b2f7f31da8c5bf699a5594e0a04537d281b74b3dde2a"
+    },
+    {
+      "fichier": "personnages/10-ilyan-sere.md",
+      "octets": 6158,
+      "sha256": "fb175cf002cbc0bed578a6cac41085d1ee5abe371739d776e404e04992d67f50"
+    },
+    {
+      "fichier": "personnages/11-yselde-arquen.md",
+      "octets": 5161,
+      "sha256": "a8fc1105b413c250fede37d804e7434f889daad0159694826d3dfcc521d8a43b"
+    },
+    {
+      "fichier": "personnages/12-oren-sangle.md",
+      "octets": 4862,
+      "sha256": "5ad829806012939f97399878547df829d72ef7c43d469367dc5a083b4a052cfd"
+    },
+    {
+      "fichier": "personnages/13-sevran-orme.md",
+      "octets": 4757,
+      "sha256": "20b680e48044d8ba11c90a19fe2287333c2058cb1964ce9fae493382d0c7ad8e"
+    },
+    {
+      "fichier": "personnages/14-talie-sorne.md",
+      "octets": 4981,
+      "sha256": "1b475734cafd6c3f4840bd561b18a2dcb60604d7c65abf777448960e5c93bcff"
+    },
+    {
+      "fichier": "personnages/15-mael-orsan.md",
+      "octets": 5065,
+      "sha256": "3987ff4caf3fa1225e3e9ffb8f9e2e6c52aec9c75044dd10c7620414bb7a0ec6"
+    },
+    {
+      "fichier": "personnages/16-eline-vare.md",
+      "octets": 5368,
+      "sha256": "ed6d5820ab157b79379c515fd35f5f4bc51ec072288542beb6e2cf383e8b2602"
+    },
+    {
+      "fichier": "personnages/17-maude-tanne.md",
+      "octets": 5670,
+      "sha256": "6825ef73434298b00a901b24153059441e17e40ec70e73da5ffcb05060709395"
+    },
+    {
+      "fichier": "personnages/README.md",
+      "octets": 6718,
+      "sha256": "fc3448c396a6eb745c18f08b8d18b1d76cf0c420f70b92f8654f593dbf0e3a98"
+    },
+    {
+      "fichier": "README.md",
+      "octets": 3827,
+      "sha256": "d7172ca3f9337224d2f037b6cad8541c3e2552d60b81ff906e5ae15ce1e47b30"
+    },
+    {
+      "fichier": "visuels/anterieur-v1-prompt.md",
+      "octets": 2228,
+      "sha256": "516dd6d5f9764a02da1f8bd4c1f8d268e2ba422eb9cf5f9e1ca764dbbfd400a5"
+    },
+    {
+      "fichier": "visuels/anterieur-v1.png",
+      "octets": 2569566,
+      "sha256": "ddf3a8bee9fa73038e0d6f1419acaa57e4a23c0c3710d31bbd2c24997de1faef"
+    },
+    {
+      "fichier": "visuels/architecte-aveugle-v1-prompt.md",
+      "octets": 2294,
+      "sha256": "97a0b81a6934b3256cdf1a5e36d6b52e1c11522840708b66f41eecbfe74b94bc"
+    },
+    {
+      "fichier": "visuels/architecte-aveugle-v1.png",
+      "octets": 3328227,
+      "sha256": "a86e75f46d18808f43a70ca7e9fd0a24f9df9a81b2585b61ca6349e49479688a"
+    },
+    {
+      "fichier": "visuels/bastion-illustration-v1-prompt.md",
+      "octets": 2785,
+      "sha256": "a7ee96653de19e5acc31f16ef8a979433f36025b18713d8414978f7687c9f4c0"
+    },
+    {
+      "fichier": "visuels/bastion-illustration-v1.png",
+      "octets": 3443355,
+      "sha256": "fcedbe3fd677d802b4f4e794ca1e1a2b1c197e0b353155289650a2c0009e27ec"
+    },
+    {
+      "fichier": "visuels/bastion-v1-initial.png",
+      "octets": 113578,
+      "sha256": "227f31042c34f9526eb8ff2a41c9d869e19e57b9406033d012862174eb5ac1ff"
+    },
+    {
+      "fichier": "visuels/bastion-v1-initial.svg",
+      "octets": 7977,
+      "sha256": "ff979dcbf6b62ccd687cdb4e706d9c54d6376b5b0f466cd0422f2d74ccd25bfb"
+    },
+    {
+      "fichier": "visuels/bastion-v1.png",
+      "octets": 248418,
+      "sha256": "ff6d2fe1df665951a80cec89e87d202fd2f094ac53e81068e1e06a2561853d68"
+    },
+    {
+      "fichier": "visuels/bastion-v1.svg",
+      "octets": 30201,
+      "sha256": "34ab702d3890ce63194d323392d6a40ff58be2da8be3cf348bfb6da9af99e696"
+    },
+    {
+      "fichier": "visuels/deliant-v1-prompt.md",
+      "octets": 2247,
+      "sha256": "ba4d8cab530ffc6526be9b515f0c6f7512868c4169fb4fe7a12170b855e2eaff"
+    },
+    {
+      "fichier": "visuels/deliant-v1.png",
+      "octets": 2662743,
+      "sha256": "d6076bf6cdbbc94587c6bc3008ad12762e2a03c4306026b2c151de2e3b9056bd"
+    },
+    {
+      "fichier": "visuels/enclos-v1-prompt.md",
+      "octets": 2562,
+      "sha256": "8c86aad2d2a95b5ccd6287d384bcc5544c0d19e7a453ae2d4b757eee1f435095"
+    },
+    {
+      "fichier": "visuels/enclos-v1.png",
+      "octets": 3091642,
+      "sha256": "6bc3a6705431c9d4617d879dd26a612d835b34d4c1166ec68dc0b59cfada59d9"
+    },
+    {
+      "fichier": "visuels/entre-deux-v1-prompt.md",
+      "octets": 2531,
+      "sha256": "113973f1c2a8fd529647971da168a0ee6fc791f254c49549398f4f0e37ced936"
+    },
+    {
+      "fichier": "visuels/entre-deux-v1.png",
+      "octets": 2908244,
+      "sha256": "6d5fc4dd2a8336379a9a6f45c07e0f317fb513f01857e4c905a0da946e3b206d"
+    },
+    {
+      "fichier": "visuels/espace-passage-v1.png",
+      "octets": 116689,
+      "sha256": "42ad9683534a23805e97fd6105e7cb56e858d22300464969ab4c36c701876ad2"
+    },
+    {
+      "fichier": "visuels/espace-passage-v1.svg",
+      "octets": 7309,
+      "sha256": "83491d06c6e67f3dcb3897e56d93b4a118070948aecce34b0663758d100045e1"
+    },
+    {
+      "fichier": "visuels/esprit-cartographie-v1.png",
+      "octets": 289887,
+      "sha256": "f8c703c9557d790a1d4cddc9325208311a8e9da449915acbfa298b2af36fc146"
+    },
+    {
+      "fichier": "visuels/esprit-cartographie-v1.svg",
+      "octets": 10424,
+      "sha256": "bada2163e8b41a25892f890237f356fa93d3789db16bb09355af7b2bd1c3ae94"
+    },
+    {
+      "fichier": "visuels/greffier-v1-prompt.md",
+      "octets": 2258,
+      "sha256": "5c79144a6fca566131ccc65cbb407eca2295292e4de12b3365d39c6f2f928bac"
+    },
+    {
+      "fichier": "visuels/greffier-v1.png",
+      "octets": 2705081,
+      "sha256": "509522963047f438aa2ad348a1bf528ff8e19a645415756fd6f366300478035e"
+    },
+    {
+      "fichier": "visuels/mnemophage-v1-prompt.md",
+      "octets": 2332,
+      "sha256": "4ca88b2f328a2e6afb88e285740711e292ca2f98aa13c7623ba5a5fc10463059"
+    },
+    {
+      "fichier": "visuels/mnemophage-v1.png",
+      "octets": 3067601,
+      "sha256": "f4bed3fa636a421ad0c4895a4ea021f956181861c9362995cd850adc8615e92b"
+    },
+    {
+      "fichier": "visuels/obstine-eau-v1-prompt.md",
+      "octets": 2380,
+      "sha256": "3f474e4cc5c959c712acc2231d9d40b5b47735d60e071e458b10d6eda13ccdc6"
+    },
+    {
+      "fichier": "visuels/obstine-eau-v1.png",
+      "octets": 3441631,
+      "sha256": "d0e9ebc639ca8b56309937d75db7830dc6d264e015f9378265563d9069dd6ebd"
+    },
+    {
+      "fichier": "visuels/peau-de-peur-v1-prompt.md",
+      "octets": 2321,
+      "sha256": "7be725f13dc1e110c8ddb140ad28a633d794e62eb14615b2ab97e08d80812e68"
+    },
+    {
+      "fichier": "visuels/peau-de-peur-v1.png",
+      "octets": 2112579,
+      "sha256": "852860c9685fb0b15decff6db3d92ae32635540c0b08ff0a8c7d5d4bce3ce303"
+    },
+    {
+      "fichier": "visuels/porte-cousue-epreuves.html",
+      "octets": 47992,
+      "sha256": "46d6cba730dc38be7f4c7adbff52787090e8985c48498a6bb8d526954881fef1"
+    },
+    {
+      "fichier": "visuels/porte-cousue-v1.png",
+      "octets": 260860,
+      "sha256": "c3ae4a8f685fab8967be5aa689f8c22530abb9245523934b12db391a2847d204"
+    },
+    {
+      "fichier": "visuels/porte-cousue-v1.svg",
+      "octets": 16339,
+      "sha256": "4c0e290cd8dd151681ccc71bc04e4552d44e29abeef381a48db4bb1d6f8cd2c8"
+    },
+    {
+      "fichier": "visuels/remontes-v1-prompt.md",
+      "octets": 2213,
+      "sha256": "1cfba5a9319db61cf74d9419466ac411f5227d6cd139685d025d6834affb1964"
+    },
+    {
+      "fichier": "visuels/remontes-v1.png",
+      "octets": 2394033,
+      "sha256": "777208ff035b5ffa88193dae49ddedf57bd70cc779c482a0dba839221e1e0184"
+    },
+    {
+      "fichier": "visuels/retour-de-regard-v1-prompt.md",
+      "octets": 2290,
+      "sha256": "7a886e3c63ae1d0c60d138e509689d62ecdb5a013bb373547395b715cb580c3c"
+    },
+    {
+      "fichier": "visuels/retour-de-regard-v1.png",
+      "octets": 2700670,
+      "sha256": "25ddfa51a0e09523931c9859d8cd959ca02ec896b413694aeace7b0a3b406413"
+    },
+    {
+      "fichier": "visuels/saint-affame-v1-prompt.md",
+      "octets": 2219,
+      "sha256": "d6adafb42b8f2b8bc3b3eedd92271177f510c99f72a70bf8a3e1829f89212fe2"
+    },
+    {
+      "fichier": "visuels/saint-affame-v1.png",
+      "octets": 2859658,
+      "sha256": "24bc64a95051801bbab861a5786fe938b04f5c98c3ca3d1ef223958f37974163"
+    }
+  ],
+  "documents": [
+    {
+      "id": "source-magies-geographie-monde-001-readme",
+      "source": "geographie/monde-001/README.md",
+      "titre": "🌍 Monde 001 — proposition WorldEngine"
+    },
+    {
+      "id": "source-magies-geographie-monde-002-portrait-readme",
+      "source": "geographie/monde-002-portrait/README.md",
+      "titre": "🌍 Monde 002 — Portrait — proposition WorldEngine"
+    },
+    {
+      "id": "source-magies-magies-annulation-v1",
+      "source": "magies/ANNULATION_V1.md",
+      "titre": "🕳️ Annulation v1 — Le sillon, l’excédent et les encres"
+    },
+    {
+      "id": "source-magies-magies-divination-v1",
+      "source": "magies/DIVINATION_V1.md",
+      "titre": "🔍 Divination v1 — Les liens de contact"
+    },
+    {
+      "id": "source-magies-magies-ecorcherie",
+      "source": "magies/ECORCHERIE.md",
+      "titre": "🩸 L’Écorcherie"
+    },
+    {
+      "id": "source-magies-magies-elementaire-v1",
+      "source": "magies/ELEMENTAIRE_V1.md",
+      "titre": "🔥 Magie élémentaire v1 — Paroles, gestes, runes et cercles"
+    },
+    {
+      "id": "source-magies-magies-emotions-v1",
+      "source": "magies/EMOTIONS_V1.md",
+      "titre": "❤️ Émotions v1 — Croyance présente et danse"
+    },
+    {
+      "id": "source-magies-magies-enchantement-v1",
+      "source": "magies/ENCHANTEMENT_V1.md",
+      "titre": "🏺 Enchantement v1 — Le grimoire des circuits"
+    },
+    {
+      "id": "source-magies-magies-espace-v1",
+      "source": "magies/ESPACE_V1.md",
+      "titre": "🚪 Espace v1 — Cercles de craie et glyphes corporels"
+    },
+    {
+      "id": "source-magies-magies-esprit-v1",
+      "source": "magies/ESPRIT_V1.md",
+      "titre": "🧠 Esprit v1 — Vécus, relais et cartes"
+    },
+    {
+      "id": "source-magies-magies-illusions-v1",
+      "source": "magies/ILLUSIONS_V1.md",
+      "titre": "🪞 Illusions v1 — Bains, extractions et contenants"
+    },
+    {
+      "id": "source-magies-magies-matiere-v1",
+      "source": "magies/MATIERE_V1.md",
+      "titre": "⚒️ Matière v1 — L’art des empreintes"
+    },
+    {
+      "id": "source-magies-magies-mort-v1",
+      "source": "magies/MORT_V1.md",
+      "titre": "💀 Mort v1 — Les nœuds d'une vie, le nom qui rassemble, le vase qui reçoit"
+    },
+    {
+      "id": "source-magies-magies-protection-v1",
+      "source": "magies/PROTECTION_V1.md",
+      "titre": "🛡️ Protection v1 — Sceaux tendus, règles et recettes"
+    },
+    {
+      "id": "source-magies-magies-temps-nature",
+      "source": "magies/TEMPS_NATURE.md",
+      "titre": "⏳ De la nature du temps"
+    },
+    {
+      "id": "source-magies-magies-temps-sorts",
+      "source": "magies/TEMPS_SORTS.md",
+      "titre": "⏳ Les sorts du Temps"
+    },
+    {
+      "id": "source-magies-magies-et-relations",
+      "source": "MAGIES_ET_RELATIONS.md",
+      "titre": "✨ Magies humaines et relations"
+    },
+    {
+      "id": "source-magies-monde",
+      "source": "MONDE.md",
+      "titre": "🌍 Cadre du monde"
+    },
+    {
+      "id": "source-magies-non-vivants-anterieurs",
+      "source": "non-vivants/ANTERIEURS.md",
+      "titre": "⏳ Les Antérieurs"
+    },
+    {
+      "id": "source-magies-non-vivants-architectes-aveugles",
+      "source": "non-vivants/ARCHITECTES_AVEUGLES.md",
+      "titre": "⚒️ Les Architectes aveugles"
+    },
+    {
+      "id": "source-magies-non-vivants-bestiaire",
+      "source": "non-vivants/BESTIAIRE.md",
+      "titre": "👹 Bestiaire des Non-Vivants"
+    },
+    {
+      "id": "source-magies-non-vivants-deliants",
+      "source": "non-vivants/DELIANTS.md",
+      "titre": "🕳️ Les Déliants"
+    },
+    {
+      "id": "source-magies-non-vivants-enclos",
+      "source": "non-vivants/ENCLOS.md",
+      "titre": "🛡️ Les Enclos"
+    },
+    {
+      "id": "source-magies-non-vivants-entre-deux",
+      "source": "non-vivants/ENTRE_DEUX.md",
+      "titre": "🚪 Les Entre-deux"
+    },
+    {
+      "id": "source-magies-non-vivants-greffiers",
+      "source": "non-vivants/GREFFIERS.md",
+      "titre": "🏺 Les Greffiers"
+    },
+    {
+      "id": "source-magies-non-vivants-mages-retournes",
+      "source": "non-vivants/MAGES_RETOURNES.md",
+      "titre": "🧙 Les mages retournés"
+    },
+    {
+      "id": "source-magies-non-vivants-mnemophages",
+      "source": "non-vivants/MNEMOPHAGES.md",
+      "titre": "🧠 Les Mnémophages"
+    },
+    {
+      "id": "source-magies-non-vivants-obstines",
+      "source": "non-vivants/OBSTINES.md",
+      "titre": "🔥 Les Obstinés"
+    },
+    {
+      "id": "source-magies-non-vivants-peaux-de-peur",
+      "source": "non-vivants/PEAUX_DE_PEUR.md",
+      "titre": "🪞 Les Peaux de peur"
+    },
+    {
+      "id": "source-magies-non-vivants-readme",
+      "source": "non-vivants/README.md",
+      "titre": "🌑 Les Non-Vivants"
+    },
+    {
+      "id": "source-magies-non-vivants-regroupements",
+      "source": "non-vivants/REGROUPEMENTS.md",
+      "titre": "🕸️ Regroupements de Non-Vivants"
+    },
+    {
+      "id": "source-magies-non-vivants-remontes",
+      "source": "non-vivants/REMONTES.md",
+      "titre": "💀 Les Remontés"
+    },
+    {
+      "id": "source-magies-non-vivants-retours-de-regard",
+      "source": "non-vivants/RETOURS_DE_REGARD.md",
+      "titre": "🔍 Les Retours de regard"
+    },
+    {
+      "id": "source-magies-non-vivants-saints-affames",
+      "source": "non-vivants/SAINTS_AFFAMES.md",
+      "titre": "❤️ Les Saints affamés"
+    },
+    {
+      "id": "source-magies-non-vivants-trajectoire-retourne",
+      "source": "non-vivants/TRAJECTOIRE_RETOURNE.md",
+      "titre": "🌑 Du premier Non-Vivant à la domination du monde"
+    },
+    {
+      "id": "source-magies-organisations-01-bastion",
+      "source": "organisations/01-bastion.md",
+      "titre": "🏰 Le Bastion"
+    },
+    {
+      "id": "source-magies-organisations-02-ligue-des-passages",
+      "source": "organisations/02-ligue-des-passages.md",
+      "titre": "🚪 La Ligue des passages"
+    },
+    {
+      "id": "source-magies-organisations-03-college-des-preuves",
+      "source": "organisations/03-college-des-preuves.md",
+      "titre": "👁️ Le Collège des preuves"
+    },
+    {
+      "id": "source-magies-organisations-04-communion-des-recits",
+      "source": "organisations/04-communion-des-recits.md",
+      "titre": "🎭 La Communion des récits"
+    },
+    {
+      "id": "source-magies-organisations-06-corps-de-resolution",
+      "source": "organisations/06-corps-de-resolution.md",
+      "titre": "🕳️ Le Corps de résolution"
+    },
+    {
+      "id": "source-magies-organisations-07-federation-insaisissable",
+      "source": "organisations/07-federation-insaisissable.md",
+      "titre": "🕸️ La Fédération insaisissable"
+    },
+    {
+      "id": "source-magies-organisations-bastion-couronne-eau-v1",
+      "source": "organisations/BASTION_COURONNE_EAU_V1.md",
+      "titre": "🌊 La Couronne d’eau — détail et épreuves v1"
+    },
+    {
+      "id": "source-magies-organisations-bastion-defense-recettes-v1",
+      "source": "organisations/BASTION_DEFENSE_RECETTES_V1.md",
+      "titre": "🏰 Défense du Bastion v1 — Manuel des recettes"
+    },
+    {
+      "id": "source-magies-organisations-bastion-fournaise-v1",
+      "source": "organisations/BASTION_FOURNAISE_V1.md",
+      "titre": "🔥 La Fournaise à chaleur conduite — détail et épreuves v1"
+    },
+    {
+      "id": "source-magies-organisations-bastion-maisons-veille-v1",
+      "source": "organisations/BASTION_MAISONS_VEILLE_V1.md",
+      "titre": "🕯️ Les Maisons de veille — détail et épreuves v1"
+    },
+    {
+      "id": "source-magies-organisations-bastion-porte-cousue-graphe",
+      "source": "organisations/BASTION_PORTE_COUSUE_GRAPHE.md",
+      "titre": "🕸️ La Porte cousue — graphe de construction"
+    },
+    {
+      "id": "source-magies-organisations-bastion-porte-cousue-v1",
+      "source": "organisations/BASTION_PORTE_COUSUE_V1.md",
+      "titre": "🚪 La Porte cousue — détail et épreuves v1"
+    },
+    {
+      "id": "source-magies-organisations-bastion-quartiers-articules-v1",
+      "source": "organisations/BASTION_QUARTIERS_ARTICULES_V1.md",
+      "titre": "🚧 Les Quartiers articulés — détail et épreuves v1"
+    },
+    {
+      "id": "source-magies-organisations-readme",
+      "source": "organisations/README.md",
+      "titre": "🏛️ Organisations polymagiques"
+    },
+    {
+      "id": "source-magies-organisations-relations",
+      "source": "organisations/RELATIONS.md",
+      "titre": "🕸️ Relations entre les six organisations"
+    },
+    {
+      "id": "source-magies-personnages-01-heloise-braise",
+      "source": "personnages/01-heloise-braise.md",
+      "titre": "Héloïse Braise"
+    },
+    {
+      "id": "source-magies-personnages-02-naim-des-seuils",
+      "source": "personnages/02-naim-des-seuils.md",
+      "titre": "Naïm des Seuils"
+    },
+    {
+      "id": "source-magies-personnages-03-ariane-veille",
+      "source": "personnages/03-ariane-veille.md",
+      "titre": "Ariane Veille"
+    },
+    {
+      "id": "source-magies-personnages-04-malo-veyre",
+      "source": "personnages/04-malo-veyre.md",
+      "titre": "Malo Veyre"
+    },
+    {
+      "id": "source-magies-personnages-06-soeur-cendre",
+      "source": "personnages/06-soeur-cendre.md",
+      "titre": "Sœur Cendre"
+    },
+    {
+      "id": "source-magies-personnages-07-vesper-ronce",
+      "source": "personnages/07-vesper-ronce.md",
+      "titre": "Vesper Ronce"
+    },
+    {
+      "id": "source-magies-personnages-08-soren-dalle",
+      "source": "personnages/08-soren-dalle.md",
+      "titre": "Soren Dalle"
+    },
+    {
+      "id": "source-magies-personnages-09-daria-vanne",
+      "source": "personnages/09-daria-vanne.md",
+      "titre": "Daria Vanne"
+    },
+    {
+      "id": "source-magies-personnages-10-ilyan-sere",
+      "source": "personnages/10-ilyan-sere.md",
+      "titre": "Ilyan Sere"
+    },
+    {
+      "id": "source-magies-personnages-11-yselde-arquen",
+      "source": "personnages/11-yselde-arquen.md",
+      "titre": "Yselde Arquen"
+    },
+    {
+      "id": "source-magies-personnages-12-oren-sangle",
+      "source": "personnages/12-oren-sangle.md",
+      "titre": "Oren Sangle"
+    },
+    {
+      "id": "source-magies-personnages-13-sevran-orme",
+      "source": "personnages/13-sevran-orme.md",
+      "titre": "Sévran Orme"
+    },
+    {
+      "id": "source-magies-personnages-14-talie-sorne",
+      "source": "personnages/14-talie-sorne.md",
+      "titre": "Talie Sorne"
+    },
+    {
+      "id": "source-magies-personnages-15-mael-orsan",
+      "source": "personnages/15-mael-orsan.md",
+      "titre": "Maël Orsan"
+    },
+    {
+      "id": "source-magies-personnages-16-eline-vare",
+      "source": "personnages/16-eline-vare.md",
+      "titre": "Éline Vare"
+    },
+    {
+      "id": "source-magies-personnages-17-maude-tanne",
+      "source": "personnages/17-maude-tanne.md",
+      "titre": "Maude Tanne"
+    },
+    {
+      "id": "source-magies-personnages-readme",
+      "source": "personnages/README.md",
+      "titre": "🧙 Personnages — dirigeants, polymages et retournés"
+    },
+    {
+      "id": "source-magies-readme",
+      "source": "README.md",
+      "titre": "🏰 Univers des magiciens et des Non-Vivants"
+    },
+    {
+      "id": "source-magies-visuels-anterieur-v1-prompt",
+      "source": "visuels/anterieur-v1-prompt.md",
+      "titre": "Antérieur — proposition visuelle v1"
+    },
+    {
+      "id": "source-magies-visuels-architecte-aveugle-v1-prompt",
+      "source": "visuels/architecte-aveugle-v1-prompt.md",
+      "titre": "Architecte aveugle — proposition visuelle v1"
+    },
+    {
+      "id": "source-magies-visuels-bastion-illustration-v1-prompt",
+      "source": "visuels/bastion-illustration-v1-prompt.md",
+      "titre": "Bastion — illustration v1"
+    },
+    {
+      "id": "source-magies-visuels-deliant-v1-prompt",
+      "source": "visuels/deliant-v1-prompt.md",
+      "titre": "Déliant — proposition visuelle v1"
+    },
+    {
+      "id": "source-magies-visuels-enclos-v1-prompt",
+      "source": "visuels/enclos-v1-prompt.md",
+      "titre": "Enclos à silex blanc — proposition visuelle v1"
+    },
+    {
+      "id": "source-magies-visuels-entre-deux-v1-prompt",
+      "source": "visuels/entre-deux-v1-prompt.md",
+      "titre": "Entre-deux — proposition visuelle v1"
+    },
+    {
+      "id": "source-magies-visuels-greffier-v1-prompt",
+      "source": "visuels/greffier-v1-prompt.md",
+      "titre": "Greffier — proposition visuelle v1"
+    },
+    {
+      "id": "source-magies-visuels-mnemophage-v1-prompt",
+      "source": "visuels/mnemophage-v1-prompt.md",
+      "titre": "Mnémophage — proposition visuelle v1"
+    },
+    {
+      "id": "source-magies-visuels-obstine-eau-v1-prompt",
+      "source": "visuels/obstine-eau-v1-prompt.md",
+      "titre": "Obstiné d’eau — proposition visuelle v1"
+    },
+    {
+      "id": "source-magies-visuels-peau-de-peur-v1-prompt",
+      "source": "visuels/peau-de-peur-v1-prompt.md",
+      "titre": "Peau de peur — proposition visuelle v1"
+    },
+    {
+      "id": "source-magies-visuels-remontes-v1-prompt",
+      "source": "visuels/remontes-v1-prompt.md",
+      "titre": "Remonté — proposition visuelle v1"
+    },
+    {
+      "id": "source-magies-visuels-retour-de-regard-v1-prompt",
+      "source": "visuels/retour-de-regard-v1-prompt.md",
+      "titre": "Retour de regard — proposition visuelle v1"
+    },
+    {
+      "id": "source-magies-visuels-saint-affame-v1-prompt",
+      "source": "visuels/saint-affame-v1-prompt.md",
+      "titre": "Saint affamé — proposition visuelle v1"
+    }
+  ],
+  "organisations": [
+    "bastion",
+    "ligue-des-passages",
+    "college-des-preuves",
+    "communion-des-recits",
+    "corps-de-resolution",
+    "federation-insaisissable"
+  ],
+  "personnages": [
+    "heloise-braise",
+    "naim-des-seuils",
+    "ariane-veille",
+    "malo-veyre",
+    "soeur-cendre",
+    "vesper-ronce"
+  ],
+  "resynchronisations": [
+    {
+      "le": "2026-09-16T17:10:13.016683+00:00",
+      "source": "C:\\Users\\reyno\\le-conseil2\\import\\univers-magiciens",
+      "ajoutes": [
+        "magies/ANNULATION_V1.md",
+        "magies/ECORCHERIE.md",
+        "magies/ILLUSIONS_V1.md",
+        "non-vivants/TRAJECTOIRE_RETOURNE.md",
+        "organisations/BASTION_PORTE_COUSUE_GRAPHE.md",
+        "personnages/17-maude-tanne.md",
+        "visuels/bastion-illustration-v1-prompt.md",
+        "visuels/bastion-illustration-v1.png"
+      ],
+      "mis_a_jour": [
+        "magies/DIVINATION_V1.md",
+        "magies/ENCHANTEMENT_V1.md",
+        "MAGIES_ET_RELATIONS.md",
+        "MONDE.md",
+        "non-vivants/ANTERIEURS.md",
+        "non-vivants/ARCHITECTES_AVEUGLES.md",
+        "non-vivants/BESTIAIRE.md",
+        "non-vivants/DELIANTS.md",
+        "non-vivants/ENCLOS.md",
+        "non-vivants/GREFFIERS.md",
+        "non-vivants/HERITIERS_CREUX.md",
+        "non-vivants/MAGES_RETOURNES.md",
+        "non-vivants/MNEMOPHAGES.md",
+        "non-vivants/OBSTINES.md",
+        "non-vivants/PEAUX_DE_PEUR.md",
+        "non-vivants/README.md",
+        "non-vivants/RETOURS_DE_REGARD.md",
+        "non-vivants/SAINTS_AFFAMES.md",
+        "organisations/01-bastion.md",
+        "organisations/02-ligue-des-passages.md",
+        "organisations/03-college-des-preuves.md",
+        "organisations/04-communion-des-recits.md",
+        "organisations/06-corps-de-resolution.md",
+        "organisations/07-federation-insaisissable.md",
+        "organisations/README.md",
+        "personnages/01-heloise-braise.md",
+        "personnages/02-naim-des-seuils.md",
+        "personnages/03-ariane-veille.md",
+        "personnages/04-malo-veyre.md",
+        "personnages/06-soeur-cendre.md",
+        "personnages/07-vesper-ronce.md",
+        "personnages/README.md",
+        "README.md"
+      ],
+      "inchanges": 93,
+      "orphelins": []
+    },
+    {
+      "le": "2026-09-16T17:10:58.008022+00:00",
+      "source": "C:\\Users\\reyno\\le-conseil2\\import\\univers-magiciens",
+      "ajoutes": [],
+      "mis_a_jour": [],
+      "inchanges": 134,
+      "orphelins": []
+    },
+    {
+      "le": "2026-09-16T18:34:17.870328+00:00",
+      "source": "C:\\Users\\reyno\\le-conseil2\\import\\univers-magiciens",
+      "ajoutes": [],
+      "mis_a_jour": [
+        "personnages/03-ariane-veille.md"
+      ],
+      "inchanges": 133,
+      "orphelins": []
+    },
+    {
+      "le": "2026-09-16T19:28:28.471977+00:00",
+      "source": "C:\\Users\\reyno\\le-conseil2\\import\\univers-magiciens",
+      "ajoutes": [],
+      "mis_a_jour": [
+        "magies/MORT_V1.md",
+        "non-vivants/HERITIERS_CREUX.md"
+      ],
+      "inchanges": 132,
+      "orphelins": []
+    },
+    {
+      "le": "2026-09-16T19:33:20.993713+00:00",
+      "source": "C:\\Users\\reyno\\le-conseil2\\import\\univers-magiciens",
+      "ajoutes": [
+        "non-vivants/REMONTES.md",
+        "visuels/remontes-v1-prompt.md",
+        "visuels/remontes-v1.png"
+      ],
+      "mis_a_jour": [
+        "magies/MORT_V1.md",
+        "MONDE.md",
+        "non-vivants/ANTERIEURS.md",
+        "non-vivants/BESTIAIRE.md",
+        "non-vivants/MNEMOPHAGES.md",
+        "non-vivants/README.md",
+        "non-vivants/REGROUPEMENTS.md",
+        "non-vivants/RETOURS_DE_REGARD.md",
+        "personnages/10-ilyan-sere.md"
+      ],
+      "inchanges": 122,
+      "orphelins": []
+    }
+  ]
+}

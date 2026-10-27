@@ -1,0 +1,397 @@
+[
+  {
+    "id": "raymond-moreau",
+    "nom": "Raymond Moreau",
+    "maison_id": null,
+    "titre": "artisan",
+    "traits": [
+      "Intègre",
+      "Républicain, socialiste",
+      "Parent de jeunes enfants"
+    ],
+    "objectifs": [],
+    "maniere": "Synthèse d’incarnation tirée des scènes : Parle depuis sa famille et ses convictions républicaines. D’abord hésitant, il négocie des engagements modestes ; dans la troisième réunion, il devient pressant, emploie des oppositions tranchées et scande son refus de l’occupation. Ses compagnons peuvent le contredire. Ne pas gommer cette évolution en lui donnant une assurance constante.",
+    "portrait": {
+      "physique": "180 cm ; de corpulence moyenne ; marron ; visage rond ; nez retroussé ; noirs ; gominés en arrière ; mal rasé ; dent en or",
+      "fichier": "ecrans/portraits/raymond-moreau.svg"
+    },
+    "etat": "actif",
+    "lieu_id": "maison-moreau",
+    "condition": "libre",
+    "naissance": 1898
+  },
+  {
+    "id": "solange-joubert",
+    "nom": "Solange Joubert",
+    "maison_id": null,
+    "titre": "cultivatrice",
+    "traits": [
+      "Maréchaliste",
+      "Anticommuniste"
+    ],
+    "objectifs": [],
+    "maniere": "Synthèse d’incarnation tirée des scènes : Interpellations directes, questions qui éprouvent ce que les autres affirment. S’appuie sur le prestige du Maréchal, refuse d’être rangée avec les communistes. Peut concéder un point pratique sans renoncer à ses convictions.",
+    "portrait": {
+      "physique": "144 cm ; mince ; marron ; visage rond ; nez fort ; noirs ; mise en plis ; boite légèrement",
+      "fichier": "ecrans/portraits/solange-joubert.svg"
+    },
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre",
+    "naissance": 1880
+  },
+  {
+    "id": "emile-guillon",
+    "nom": "Émile Guillon",
+    "maison_id": null,
+    "titre": "artisan",
+    "traits": [
+      "Intègre",
+      "Républicain, socialiste",
+      "Ancien de 14-18",
+      "Mari ou fils prisonnier en Allemagne"
+    ],
+    "objectifs": [],
+    "maniere": "Synthèse d’incarnation tirée des scènes : Interventions franches, parfois sèches. Son expérience de la guerre donne du poids à ses questions. Il demande ce qu’on sait réellement et accepte de reconnaître qu’il peut se tromper.",
+    "portrait": {
+      "physique": "169 cm ; mince ; marron ; visage rond ; nez retroussé ; poivre et sel ; en brosse ; rasé de près ; fossette au menton",
+      "fichier": "ecrans/portraits/emile-guillon.svg"
+    },
+    "etat": "actif",
+    "lieu_id": "maison-moreau",
+    "condition": "libre",
+    "naissance": 1894
+  },
+  {
+    "id": "jacques-augereau",
+    "nom": "Jacques Augereau",
+    "maison_id": null,
+    "titre": "artisan",
+    "traits": [
+      "Courageux",
+      "Mari ou fils prisonnier en Allemagne"
+    ],
+    "objectifs": [],
+    "maniere": "Synthèse d’incarnation tirée des scènes : Calme, regard direct, questions précises. Distingue ce qui a été entendu de ce qui a été compris. Peut être blessant sans le vouloir lorsqu’il corrige les notes d’un autre ; accepte aussi une correction de Josette.",
+    "portrait": {
+      "physique": "170 cm ; de corpulence moyenne ; gris ; visage carré ; nez aquilin ; bruns ; raie sur le côté ; rasé de près ; oreilles décollées",
+      "fichier": "ecrans/portraits/jacques-augereau.svg"
+    },
+    "etat": "actif",
+    "lieu_id": "maison-moreau",
+    "condition": "libre",
+    "naissance": 1908
+  },
+  {
+    "id": "maurice-schneider",
+    "nom": "Maurice Schneider",
+    "maison_id": null,
+    "titre": "artisan",
+    "traits": [
+      "Influençable",
+      "Apolitique"
+    ],
+    "objectifs": [],
+    "maniere": "Synthèse d’incarnation tirée des scènes : Phrases brèves ; reprend ce que vient de dire une personne qu’il estime. Cherche le regard et l’approbation d’Émile. Les réponses concrètes le rassurent plus que la discussion politique.",
+    "portrait": {
+      "physique": "164 cm ; trapu ; bleus ; visage carré ; nez droit ; châtains ; en brosse ; rasé de près",
+      "fichier": "ecrans/portraits/maurice-schneider.svg"
+    },
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre",
+    "naissance": 1919
+  },
+  {
+    "id": "ernest-gaillard",
+    "nom": "Ernest Gaillard",
+    "maison_id": null,
+    "titre": "artisan",
+    "traits": [
+      "Courageux",
+      "Parent de jeunes enfants"
+    ],
+    "objectifs": [],
+    "maniere": "Synthèse d’incarnation tirée des scènes : Cherche à rendre le travail utile : quoi faire, quoi transmettre, comment vérifier. Parle calmement, peut s’irriter d’être soupçonné de mal rapporter. Manipule et replie ses feuilles dans le RP.",
+    "portrait": {
+      "physique": "163 cm ; trapu ; noisette ; visage rond ; nez droit ; poivre et sel ; coupés court ; mal rasé",
+      "fichier": "ecrans/portraits/ernest-gaillard.svg"
+    },
+    "etat": "actif",
+    "lieu_id": "maison-moreau",
+    "condition": "libre",
+    "naissance": 1898
+  },
+  {
+    "id": "josette-moreau",
+    "nom": "Josette Moreau",
+    "maison_id": null,
+    "titre": "Interprète du tribunal",
+    "traits": [
+      "précise",
+      "indépendante",
+      "pragmatique"
+    ],
+    "objectifs": [],
+    "maniere": "Synthèse d’incarnation tirée des scènes : Phrases nettes, questions concrètes, limites explicites. Corrige une simplification ou une promesse trop large sans avoir besoin d’un discours politique. N’attend pas que Raymond l’autorise à prendre part à ce qui se passe chez elle.",
+    "portrait": {
+      "physique": "Non documenté dans les sources retenues.",
+      "fichier": "ecrans/portraits/josette-moreau.svg"
+    },
+    "etat": "actif",
+    "lieu_id": "maison-moreau",
+    "condition": "libre",
+    "naissance": 1904
+  },
+  {
+    "id": "lucien-frere-de-michel",
+    "nom": "Lucien Sauzeau",
+    "maison_id": null,
+    "titre": "Petit frère de Michel",
+    "traits": [
+      "à l’écoute",
+      "perspicace",
+      "posé et mûr",
+      "imaginatif"
+    ],
+    "objectifs": [],
+    "maniere": "Phrases claires et posées, questions précises, avis concrets et argumentés sans faire la leçon. Repère les contradictions, distingue faits et suppositions, propose une issue réaliste. Peut contredire Michel avec tact. Éviter le ton enfantin ; garder sa sensibilité et son imagination, sans savoir caché ni expertise inventée. Complète activement les faiblesses de Michel révélées en jeu par des observations, conseils et gestes utiles, sans lui inventer des défauts, le corriger systématiquement ni décider à sa place ; reste limité par ses connaissances et ses moyens.",
+    "portrait": {
+      "physique": "Cheveux mal peignés, petits papiers et dessins dans les poches.",
+      "fichier": "ecrans/portraits/lucien-frere-de-michel-v2.svg"
+    },
+    "etat": "actif",
+    "lieu_id": "hotel-voyageurs",
+    "condition": "libre",
+    "naissance": 1924
+  },
+  {
+    "id": "michel",
+    "nom": "Michel Sauzeau",
+    "maison_id": null,
+    "titre": "Frère aîné de Lucien",
+    "traits": [],
+    "objectifs": [
+      {
+        "but": "Rencontrer à Niort des personnes sur qui compter et chercher avec elles un premier moyen concret de ne pas subir l’avancée allemande ; commencer par une prise de contact au café des Voyageurs.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "À définir avec le joueur ; ne pas lui attribuer une biographie historique.",
+    "etat": "actif",
+    "lieu_id": "hotel-voyageurs",
+    "condition": "libre",
+    "naissance": 1921,
+    "portrait": {
+      "fichier": "ecrans/portraits/michel-v2.svg"
+    }
+  },
+  {
+    "id": "augustine-simonneau",
+    "nom": "Augustine Simonneau",
+    "maison_id": null,
+    "titre": "Papetière-photographe",
+    "naissance": 1914,
+    "traits": [
+      "Patient",
+      "Taiseux"
+    ],
+    "objectifs": [
+      {
+        "but": "Préserver la discrétion de sa boutique et distinguer ce qui est attesté de ce qui circule.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Patiente, taiseuse, attentive aux détails. Pose une question courte avant de proposer un travail précis.",
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre"
+  },
+  {
+    "id": "auguste-barreau",
+    "nom": "Auguste Barreau",
+    "maison_id": null,
+    "titre": "Facteur",
+    "naissance": 1914,
+    "traits": [
+      "Républicain, socialiste"
+    ],
+    "objectifs": [
+      {
+        "but": "Rendre des nouvelles utiles à leurs destinataires sans compromettre sa tournée.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Parle concrètement des trajets, des destinataires et des délais ; distingue une adresse sûre d’un bruit de couloir.",
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre"
+  },
+  {
+    "id": "fernand-moreau",
+    "nom": "Fernand Moreau",
+    "maison_id": null,
+    "titre": "employé",
+    "naissance": 1888,
+    "traits": [
+      "Intègre",
+      "Ancien de 14-18"
+    ],
+    "objectifs": [
+      {
+        "but": "Tenir ses engagements de travail sans mettre son foyer en difficulté.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Franc, précis, peu démonstratif ; propose de partager une tâche avant de parler de grands principes.",
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre"
+  },
+  {
+    "id": "augustine-brochard",
+    "nom": "Augustine Brochard",
+    "maison_id": null,
+    "titre": "ouvrière",
+    "naissance": 1923,
+    "traits": [
+      "Rancunier"
+    ],
+    "objectifs": [
+      {
+        "but": "Faire respecter son travail et obtenir des engagements qui seront tenus.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Va droit au fait ; retient une injustice longtemps, mais demande ce qui est réalisable avant de promettre.",
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre"
+  },
+  {
+    "id": "alphonse-nau",
+    "nom": "Alphonse Nau",
+    "maison_id": null,
+    "titre": "employé",
+    "naissance": 1924,
+    "traits": [
+      "Intègre",
+      "Obstiné"
+    ],
+    "objectifs": [
+      {
+        "but": "Faire correctement sa part et obtenir la même franchise des autres.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Réponses nettes ; reconnaît ce qu’il ignore et ne cède pas à une explication qui lui semble fausse.",
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre"
+  },
+  {
+    "id": "jacques-chatain",
+    "nom": "Jacques Chatain",
+    "maison_id": null,
+    "titre": "Secrétaire du commissariat",
+    "naissance": 1919,
+    "traits": [
+      "Bavard",
+      "Apolitique"
+    ],
+    "objectifs": [
+      {
+        "but": "Être utile à son poste et tenir correctement les demandes qui passent entre ses mains.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Bavard, volontiers descriptif ; les détails de procédure lui viennent plus facilement que les grandes convictions.",
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre"
+  },
+  {
+    "id": "jeanne-proust",
+    "nom": "Jeanne Proust",
+    "maison_id": null,
+    "titre": "Médecin",
+    "naissance": 1878,
+    "traits": [
+      "Apolitique"
+    ],
+    "objectifs": [
+      {
+        "but": "Soigner avec les moyens disponibles et préserver la confiance de ses patients.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Questions concrètes, ton calme ; ramène la conversation à ce qui peut être fait pour la personne devant elle.",
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre"
+  },
+  {
+    "id": "lucienne-thibault",
+    "nom": "Lucienne Thibault",
+    "maison_id": null,
+    "titre": "Téléphoniste",
+    "naissance": 1921,
+    "traits": [
+      "Craintif",
+      "Juif"
+    ],
+    "objectifs": [
+      {
+        "but": "Faire son travail sans se laisser entraîner dans des conversations qui la dépassent.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Pèse ses mots et vérifie ce qu’on lui demande ; reprend confiance lorsqu’une tâche est claire et limitée.",
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre"
+  },
+  {
+    "id": "celine-joubert",
+    "nom": "Céline Joubert",
+    "maison_id": null,
+    "titre": "commerçante",
+    "naissance": 1915,
+    "traits": [
+      "Obstiné",
+      "Catholique de conscience"
+    ],
+    "objectifs": [
+      {
+        "but": "Tenir son commerce et traiter les engagements pris envers elle comme réciproques.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Ferme sur les engagements, peu sensible aux effets de manche ; peut discuter longuement d’un cas concret.",
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre"
+  },
+  {
+    "id": "aime-vallet",
+    "nom": "Aimé Vallet",
+    "maison_id": null,
+    "titre": "employé",
+    "naissance": 1921,
+    "traits": [
+      "Antisémite",
+      "Anticommuniste",
+      "Ambitieux"
+    ],
+    "objectifs": [
+      {
+        "but": "Gagner de la considération au travail et se ménager des appuis.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Assuré, cherche à faire valoir son jugement ; teste les désaccords et mesure ce qu’une conversation peut lui rapporter.",
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre"
+  }
+]

@@ -1,0 +1,3786 @@
+[
+  {
+    "id": "action-sound_out",
+    "nom": "Sonder un contact",
+    "categorie": "Actions — Recruter et organiser",
+    "fichier": "svg/action-sound_out.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "sound_out",
+    "nom_original": "Sonder un contact",
+    "nom_couvert": "Examiner une candidature",
+    "fichier_clair": "svg-clair/action-sound_out.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Réunir : 1 recruteur.",
+        "Choisir le contact à rencontrer.",
+        "Échanger sur ses préoccupations et sa disponibilité.",
+        "Noter ce qui reste à vérifier avant de poursuivre."
+      ],
+      "code": [
+        "Réunir : 1 contremaître chargé des embauches.",
+        "Choisir le candidat à rencontrer.",
+        "Échanger sur ses attentes et sa disponibilité.",
+        "Noter les points à vérifier avant l’essai."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "metier-recruiter",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-test_recruit",
+    "nom": "Mettre à l'épreuve",
+    "categorie": "Actions — Recruter et organiser",
+    "fichier": "svg/action-test_recruit.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "test_recruit",
+    "nom_original": "Mettre à l'épreuve",
+    "nom_couvert": "Faire travailler à l’essai",
+    "fichier_clair": "svg-clair/action-test_recruit.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Sonder un contact.",
+        "Réunir : 1 recruteur.",
+        "Prévoir : Tracts et journaux clandestins.",
+        "Convenir d’une première tâche limitée.",
+        "Observer comment la personne s’en acquitte.",
+        "Faire le point avant de proposer son intégration."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Examiner une candidature.",
+        "Réunir : 1 contremaître chargé des embauches.",
+        "Prévoir : Carreaux.",
+        "Convenir d’un petit travail d’essai.",
+        "Examiner le travail rendu.",
+        "Faire le point avant l’embauche."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-sound_out",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-recruiter",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-tracts",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-induct",
+    "nom": "Intégrer (donner la flamme)",
+    "categorie": "Actions — Recruter et organiser",
+    "fichier": "svg/action-induct.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "induct",
+    "nom_original": "Intégrer (donner la flamme)",
+    "nom_couvert": "Embaucher",
+    "fichier_clair": "svg-clair/action-induct.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Mettre à l'épreuve.",
+        "Réunir : 1 chef de groupe.",
+        "Clarifier l’engagement de la personne.",
+        "Définir sa place dans le groupe.",
+        "Convenir de sa première responsabilité."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Faire travailler à l’essai.",
+        "Réunir : 1 chef de chantier.",
+        "Clarifier l’engagement du nouvel ouvrier.",
+        "Définir sa place dans l’équipe.",
+        "Convenir de son premier ouvrage."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-test_recruit",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-form_cell",
+    "nom": "Former une cellule",
+    "categorie": "Actions — Recruter et organiser",
+    "fichier": "svg/action-form_cell.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "form_cell",
+    "nom_original": "Former une cellule",
+    "nom_couvert": "Constituer une équipe",
+    "fichier_clair": "svg-clair/action-form_cell.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Intégrer (donner la flamme).",
+        "Réunir : 1 chef de groupe, 1 agent de liaison.",
+        "Réunir les membres pressentis.",
+        "Répartir les responsabilités.",
+        "Convenir d’un premier objectif commun."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Embaucher.",
+        "Réunir : 1 chef de chantier, 1 commis aux livraisons.",
+        "Réunir les ouvriers pressentis.",
+        "Répartir les tâches de l’atelier.",
+        "Convenir d’un premier ouvrage commun."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-induct",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-liaison",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-win_notable",
+    "nom": "Gagner un notable",
+    "categorie": "Actions — Recruter et organiser",
+    "fichier": "svg/action-win_notable.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "win_notable",
+    "nom_original": "Gagner un notable",
+    "nom_couvert": "Gagner un maître d’ouvrage",
+    "fichier_clair": "svg-clair/action-win_notable.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Sonder un contact.",
+        "Réunir : 1 recruteur.",
+        "Prendre contact avec la personne.",
+        "Échanger sur sa disponibilité et son engagement.",
+        "Convenir de la prochaine rencontre."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Examiner une candidature.",
+        "Réunir : 1 contremaître chargé des embauches.",
+        "Rencontrer le candidat.",
+        "Échanger sur sa disponibilité pour le chantier.",
+        "Convenir du prochain passage à l’atelier."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-sound_out",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-recruiter",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-shelter_refractory",
+    "nom": "Accueillir un réfractaire au STO",
+    "categorie": "Actions — Recruter et organiser",
+    "fichier": "svg/action-shelter_refractory.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "shelter_refractory",
+    "nom_original": "Accueillir un réfractaire au STO",
+    "nom_couvert": "Loger un ouvrier de passage",
+    "fichier_clair": "svg-clair/action-shelter_refractory.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Former une cellule.",
+        "Réunir : 1 hébergeur.",
+        "Prévoir : Jeux de faux papiers, Cartes et tickets d'alimentation.",
+        "Prendre contact avec la personne.",
+        "Échanger sur sa disponibilité et son engagement.",
+        "Convenir de la prochaine rencontre."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Constituer une équipe.",
+        "Réunir : 1 logeur.",
+        "Prévoir : Huisseries, Bons de livraison.",
+        "Rencontrer le candidat.",
+        "Échanger sur sa disponibilité pour le chantier.",
+        "Convenir du prochain passage à l’atelier."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-host",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-false_papers",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-ration_cards",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-link_london",
+    "nom": "Se rattacher à Londres",
+    "categorie": "Actions — Recruter et organiser",
+    "fichier": "svg/action-link_london.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "link_london",
+    "nom_original": "Se rattacher à Londres",
+    "nom_couvert": "Se rattacher au bureau des plans",
+    "fichier_clair": "svg-clair/action-link_london.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Former une cellule, Installer un poste radio.",
+        "Réunir : 1 chef de groupe, 1 radio.",
+        "Prendre contact avec la personne.",
+        "Échanger sur sa disponibilité et son engagement.",
+        "Convenir de la prochaine rencontre."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Constituer une équipe, Installer une sonnette.",
+        "Réunir : 1 chef de chantier, 1 préposé à la sonnette.",
+        "Rencontrer le candidat.",
+        "Échanger sur sa disponibilité pour le chantier.",
+        "Convenir du prochain passage à l’atelier."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-set_radio",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-radio_operator",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-london_credit",
+        "quantity": 2,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-steal_stamps",
+    "nom": "Voler des tampons et imprimés en mairie",
+    "categorie": "Actions — Se couvrir",
+    "fichier": "svg/action-steal_stamps.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "steal_stamps",
+    "nom_original": "Voler des tampons et imprimés en mairie",
+    "nom_couvert": "Récupérer des gabarits",
+    "fichier_clair": "svg-clair/action-steal_stamps.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Former une cellule.",
+        "Réunir : 2 combattant.",
+        "Préciser le besoin de couverture.",
+        "Préparer les moyens nécessaires.",
+        "Vérifier que la couverture convient."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Constituer une équipe.",
+        "Réunir : 2 ouvrier des grands travaux.",
+        "Prendre les mesures de l’ouvrage.",
+        "Préparer les pièces nécessaires.",
+        "Vérifier l’ajustement de l’ensemble."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-stamps",
+        "quantity": 3,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-ration_cards",
+        "quantity": 20,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-get_stamps_inside",
+    "nom": "Obtenir des imprimés d'un complice",
+    "categorie": "Actions — Se couvrir",
+    "fichier": "svg/action-get_stamps_inside.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "get_stamps_inside",
+    "nom_original": "Obtenir des imprimés d'un complice",
+    "nom_couvert": "Obtenir les gabarits du magasin",
+    "fichier_clair": "svg-clair/action-get_stamps_inside.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Gagner un notable.",
+        "Réunir : 1 informateur.",
+        "Préciser le besoin de couverture.",
+        "Préparer les moyens nécessaires.",
+        "Vérifier que la couverture convient."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Gagner un maître d’ouvrage.",
+        "Réunir : 1 métreur.",
+        "Prendre les mesures de l’ouvrage.",
+        "Préparer les pièces nécessaires.",
+        "Vérifier l’ajustement de l’ensemble."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-informant",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-stamps",
+        "quantity": 2,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-ration_cards",
+        "quantity": 10,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-set_workshop",
+    "nom": "Installer un atelier de faussaire",
+    "categorie": "Actions — Se couvrir",
+    "fichier": "svg/action-set_workshop.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "set_workshop",
+    "nom_original": "Installer un atelier de faussaire",
+    "nom_couvert": "Ouvrir une menuiserie",
+    "fichier_clair": "svg-clair/action-set_workshop.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Former une cellule.",
+        "Réunir : 1 faussaire.",
+        "Prévoir : Argent, Papier, encre, stencils.",
+        "Préciser le besoin de couverture.",
+        "Préparer les moyens nécessaires.",
+        "Vérifier que la couverture convient."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Constituer une équipe.",
+        "Réunir : 1 menuisier.",
+        "Prévoir : Clous, Chaux.",
+        "Prendre les mesures de l’ouvrage.",
+        "Préparer les pièces nécessaires.",
+        "Vérifier l’ajustement de l’ensemble."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-forger",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 5000,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-paper_ink",
+        "quantity": 2,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-forge_papers",
+    "nom": "Fabriquer des faux papiers",
+    "categorie": "Actions — Se couvrir",
+    "fichier": "svg/action-forge_papers.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "forge_papers",
+    "nom_original": "Fabriquer des faux papiers",
+    "nom_couvert": "Ajuster des huisseries",
+    "fichier_clair": "svg-clair/action-forge_papers.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Installer un atelier de faussaire.",
+        "Réunir : 1 faussaire.",
+        "Prévoir : Tampons et imprimés officiels, Papier, encre, stencils.",
+        "Préciser le besoin de couverture.",
+        "Préparer les moyens nécessaires.",
+        "Vérifier que la couverture convient."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Ouvrir une menuiserie.",
+        "Réunir : 1 menuisier.",
+        "Prévoir : Gabarits, Chaux.",
+        "Prendre les mesures de l’ouvrage.",
+        "Préparer les pièces nécessaires.",
+        "Vérifier l’ajustement de l’ensemble."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-set_workshop",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-forger",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-stamps",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-paper_ink",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-false_papers",
+        "quantity": 5,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-set_safehouse",
+    "nom": "Ouvrir une planque",
+    "categorie": "Actions — Se couvrir",
+    "fichier": "svg/action-set_safehouse.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "set_safehouse",
+    "nom_original": "Ouvrir une planque",
+    "nom_couvert": "Louer une remise",
+    "fichier_clair": "svg-clair/action-set_safehouse.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Intégrer (donner la flamme).",
+        "Réunir : 1 hébergeur.",
+        "Prévoir : Argent.",
+        "Préciser le besoin de couverture.",
+        "Préparer les moyens nécessaires.",
+        "Vérifier que la couverture convient."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Embaucher.",
+        "Réunir : 1 logeur.",
+        "Prévoir : Clous.",
+        "Prendre les mesures de l’ouvrage.",
+        "Préparer les pièces nécessaires.",
+        "Vérifier l’ajustement de l’ensemble."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-induct",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-host",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 1000,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-change_identity",
+    "nom": "Changer d'identité",
+    "categorie": "Actions — Se couvrir",
+    "fichier": "svg/action-change_identity.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "change_identity",
+    "nom_original": "Changer d'identité",
+    "nom_couvert": "Changer d’huisserie",
+    "fichier_clair": "svg-clair/action-change_identity.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Fabriquer des faux papiers.",
+        "Réunir : 1 agent de liaison.",
+        "Prévoir : Jeux de faux papiers, Argent.",
+        "Préciser le besoin de couverture.",
+        "Préparer les moyens nécessaires.",
+        "Vérifier que la couverture convient."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Ajuster des huisseries.",
+        "Réunir : 1 commis aux livraisons.",
+        "Prévoir : Huisseries, Clous.",
+        "Prendre les mesures de l’ouvrage.",
+        "Préparer les pièces nécessaires.",
+        "Vérifier l’ajustement de l’ensemble."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-forge_papers",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-liaison",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-false_papers",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 2000,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-win_farm",
+    "nom": "Gagner une ferme amie",
+    "categorie": "Actions — Se couvrir",
+    "fichier": "svg/action-win_farm.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "win_farm",
+    "nom_original": "Gagner une ferme amie",
+    "nom_couvert": "Trouver une sablière",
+    "fichier_clair": "svg-clair/action-win_farm.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Sonder un contact.",
+        "Réunir : 1 recruteur.",
+        "Préciser le besoin de couverture.",
+        "Préparer les moyens nécessaires.",
+        "Vérifier que la couverture convient."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Examiner une candidature.",
+        "Réunir : 1 contremaître chargé des embauches.",
+        "Prendre les mesures de l’ouvrage.",
+        "Préparer les pièces nécessaires.",
+        "Vérifier l’ajustement de l’ensemble."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-sound_out",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-recruiter",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-set_cover_business",
+    "nom": "Monter une entreprise de couverture",
+    "categorie": "Actions — Se couvrir",
+    "fichier": "svg/action-set_cover_business.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "set_cover_business",
+    "nom_original": "Monter une entreprise de couverture",
+    "nom_couvert": "Ouvrir une enseigne",
+    "fichier_clair": "svg-clair/action-set_cover_business.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Gagner un notable, Fabriquer des faux papiers.",
+        "Réunir : 1 chef de groupe.",
+        "Prévoir : Argent, Jeux de faux papiers.",
+        "Définir l’activité réelle de l’entreprise.",
+        "Répartir les responsabilités et prévoir les dépenses.",
+        "Vérifier que l’activité peut effectivement commencer."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Gagner un maître d’ouvrage, Ajuster des huisseries.",
+        "Réunir : 1 chef de chantier.",
+        "Prévoir : Clous, Huisseries.",
+        "Définir les ouvrages proposés par l’enseigne.",
+        "Répartir les tâches et établir le devis.",
+        "Vérifier que le premier chantier peut commencer."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-forge_papers",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 20000,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-false_papers",
+        "quantity": 5,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-open_mailbox",
+    "nom": "Ouvrir une boîte aux lettres",
+    "categorie": "Actions — Communiquer",
+    "fichier": "svg/action-open_mailbox.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "open_mailbox",
+    "nom_original": "Ouvrir une boîte aux lettres",
+    "nom_couvert": "Ouvrir un comptoir",
+    "fichier_clair": "svg-clair/action-open_mailbox.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Intégrer (donner la flamme).",
+        "Réunir : 1 hébergeur.",
+        "Préciser le message et son destinataire.",
+        "Préparer le support de transmission.",
+        "Vérifier la réception du message."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Embaucher.",
+        "Réunir : 1 logeur.",
+        "Préciser la commande et son destinataire.",
+        "Préparer le bon de livraison.",
+        "Vérifier la réception du bon."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-induct",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-host",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-carry_message",
+    "nom": "Porter un message",
+    "categorie": "Actions — Communiquer",
+    "fichier": "svg/action-carry_message.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "carry_message",
+    "nom_original": "Porter un message",
+    "nom_couvert": "Porter un bon",
+    "fichier_clair": "svg-clair/action-carry_message.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Ouvrir une boîte aux lettres.",
+        "Réunir : 1 agent de liaison.",
+        "Préciser le message et son destinataire.",
+        "Préparer le support de transmission.",
+        "Vérifier la réception du message."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Ouvrir un comptoir.",
+        "Réunir : 1 commis aux livraisons.",
+        "Préciser la commande et son destinataire.",
+        "Préparer le bon de livraison.",
+        "Vérifier la réception du bon."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-open_mailbox",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-liaison",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-set_radio",
+    "nom": "Installer un poste radio",
+    "categorie": "Actions — Communiquer",
+    "fichier": "svg/action-set_radio.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "set_radio",
+    "nom_original": "Installer un poste radio",
+    "nom_couvert": "Installer une sonnette",
+    "fichier_clair": "svg-clair/action-set_radio.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Former une cellule.",
+        "Réunir : 1 radio.",
+        "Prévoir : Poste émetteur.",
+        "Préciser le message et son destinataire.",
+        "Préparer le support de transmission.",
+        "Vérifier la réception du message."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Constituer une équipe.",
+        "Réunir : 1 préposé à la sonnette.",
+        "Prévoir : Sonnette.",
+        "Préciser la commande et son destinataire.",
+        "Préparer le bon de livraison.",
+        "Vérifier la réception du bon."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-radio_operator",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-radio_set",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-transmit",
+    "nom": "Émettre vers Londres",
+    "categorie": "Actions — Communiquer",
+    "fichier": "svg/action-transmit.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "transmit",
+    "nom_original": "Émettre vers Londres",
+    "nom_couvert": "Appeler le bureau des plans",
+    "fichier_clair": "svg-clair/action-transmit.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Installer un poste radio.",
+        "Réunir : 1 radio.",
+        "Prévoir : Renseignements.",
+        "Préciser le message et son destinataire.",
+        "Préparer le support de transmission.",
+        "Vérifier la réception du message."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Installer une sonnette.",
+        "Réunir : 1 préposé à la sonnette.",
+        "Prévoir : Cotes.",
+        "Préciser la commande et son destinataire.",
+        "Préparer le bon de livraison.",
+        "Vérifier la réception du bon."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-set_radio",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-radio_operator",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-intel",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-london_credit",
+        "quantity": 1,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-set_press",
+    "nom": "Monter une imprimerie clandestine",
+    "categorie": "Actions — Communiquer",
+    "fichier": "svg/action-set_press.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "set_press",
+    "nom_original": "Monter une imprimerie clandestine",
+    "nom_couvert": "Ouvrir un atelier de peinture",
+    "fichier_clair": "svg-clair/action-set_press.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Former une cellule.",
+        "Réunir : 1 imprimeur.",
+        "Prévoir : Argent.",
+        "Préciser le message et son destinataire.",
+        "Préparer le support de transmission.",
+        "Vérifier la réception du message."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Constituer une équipe.",
+        "Réunir : 1 peintre.",
+        "Prévoir : Clous.",
+        "Préciser la commande et son destinataire.",
+        "Préparer le bon de livraison.",
+        "Vérifier la réception du bon."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-printer",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 8000,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-print_tracts",
+    "nom": "Imprimer tracts et journaux",
+    "categorie": "Actions — Communiquer",
+    "fichier": "svg/action-print_tracts.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "print_tracts",
+    "nom_original": "Imprimer tracts et journaux",
+    "nom_couvert": "Préparer les carreaux",
+    "fichier_clair": "svg-clair/action-print_tracts.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Monter une imprimerie clandestine.",
+        "Réunir : 1 imprimeur.",
+        "Prévoir : Papier, encre, stencils.",
+        "Préciser le message et son destinataire.",
+        "Préparer le support de transmission.",
+        "Vérifier la réception du message."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Ouvrir un atelier de peinture.",
+        "Réunir : 1 peintre.",
+        "Prévoir : Chaux.",
+        "Préciser la commande et son destinataire.",
+        "Préparer le bon de livraison.",
+        "Vérifier la réception du bon."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-set_press",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-printer",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-paper_ink",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-tracts",
+        "quantity": 10,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-spread_tracts",
+    "nom": "Distribuer la presse clandestine",
+    "categorie": "Actions — Communiquer",
+    "fichier": "svg/action-spread_tracts.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "spread_tracts",
+    "nom_original": "Distribuer la presse clandestine",
+    "nom_couvert": "Poser les carreaux",
+    "fichier_clair": "svg-clair/action-spread_tracts.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Imprimer tracts et journaux.",
+        "Réunir : 2 agent de liaison.",
+        "Prévoir : Tracts et journaux clandestins.",
+        "Préciser le message et son destinataire.",
+        "Préparer le support de transmission.",
+        "Vérifier la réception du message."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Préparer les carreaux.",
+        "Réunir : 2 commis aux livraisons.",
+        "Prévoir : Carreaux.",
+        "Préciser la commande et son destinataire.",
+        "Préparer le bon de livraison.",
+        "Vérifier la réception du bon."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-print_tracts",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-liaison",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-tracts",
+        "quantity": 5,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-watch_trains",
+    "nom": "Relever les trains",
+    "categorie": "Actions — Renseigner",
+    "fichier": "svg/action-watch_trains.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "watch_trains",
+    "nom_original": "Relever les trains",
+    "nom_couvert": "Mesurer les longues pièces",
+    "fichier_clair": "svg-clair/action-watch_trains.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Intégrer (donner la flamme).",
+        "Réunir : 1 informateur.",
+        "Définir la question à éclaircir.",
+        "Rassembler les observations disponibles.",
+        "Distinguer faits confirmés et incertitudes."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Embaucher.",
+        "Réunir : 1 métreur.",
+        "Définir les cotes à relever.",
+        "Rassembler les mesures disponibles.",
+        "Distinguer les mesures vérifiées des estimations."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-induct",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-informant",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-intel",
+        "quantity": 1,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-scout_garrison",
+    "nom": "Repérer une garnison ou un dépôt",
+    "categorie": "Actions — Renseigner",
+    "fichier": "svg/action-scout_garrison.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "scout_garrison",
+    "nom_original": "Repérer une garnison ou un dépôt",
+    "nom_couvert": "Relever le chantier voisin",
+    "fichier_clair": "svg-clair/action-scout_garrison.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Intégrer (donner la flamme).",
+        "Réunir : 1 informateur.",
+        "Définir la question à éclaircir.",
+        "Rassembler les observations disponibles.",
+        "Distinguer faits confirmés et incertitudes."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Embaucher.",
+        "Réunir : 1 métreur.",
+        "Définir les cotes à relever.",
+        "Rassembler les mesures disponibles.",
+        "Distinguer les mesures vérifiées des estimations."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-induct",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-informant",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-intel",
+        "quantity": 1,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-copy_files",
+    "nom": "Copier des listes officielles",
+    "categorie": "Actions — Renseigner",
+    "fichier": "svg/action-copy_files.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "copy_files",
+    "nom_original": "Copier des listes officielles",
+    "nom_couvert": "Reproduire les cotes",
+    "fichier_clair": "svg-clair/action-copy_files.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Gagner un notable.",
+        "Réunir : 1 informateur.",
+        "Définir la question à éclaircir.",
+        "Rassembler les observations disponibles.",
+        "Distinguer faits confirmés et incertitudes."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Gagner un maître d’ouvrage.",
+        "Réunir : 1 métreur.",
+        "Définir les cotes à relever.",
+        "Rassembler les mesures disponibles.",
+        "Distinguer les mesures vérifiées des estimations."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-informant",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-intel",
+        "quantity": 2,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-unmask_informer",
+    "nom": "Identifier un indicateur",
+    "categorie": "Actions — Renseigner",
+    "fichier": "svg/action-unmask_informer.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "unmask_informer",
+    "nom_original": "Identifier un indicateur",
+    "nom_couvert": "Repérer le bois véreux",
+    "fichier_clair": "svg-clair/action-unmask_informer.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Former une cellule.",
+        "Réunir : 1 informateur.",
+        "Définir la question à éclaircir.",
+        "Rassembler les observations disponibles.",
+        "Distinguer faits confirmés et incertitudes."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Constituer une équipe.",
+        "Réunir : 1 métreur.",
+        "Définir les cotes à relever.",
+        "Rassembler les mesures disponibles.",
+        "Distinguer les mesures vérifiées des estimations."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-informant",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-homologate_dz",
+    "nom": "Faire homologuer un terrain",
+    "categorie": "Actions — S'équiper",
+    "fichier": "svg/action-homologate_dz.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "homologate_dz",
+    "nom_original": "Faire homologuer un terrain",
+    "nom_couvert": "Faire agréer la cour",
+    "fichier_clair": "svg-clair/action-homologate_dz.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Se rattacher à Londres.",
+        "Réunir : 1 chef de groupe, 1 radio.",
+        "Prévoir : Crédit auprès de Londres.",
+        "Faire le point sur les besoins.",
+        "Rassembler les ressources prévues.",
+        "Vérifier ce qui a été obtenu."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Se rattacher au bureau des plans.",
+        "Réunir : 1 chef de chantier, 1 préposé à la sonnette.",
+        "Prévoir : Agrément du bureau des plans.",
+        "Faire le point sur la commande.",
+        "Rassembler les fournitures prévues.",
+        "Vérifier la livraison reçue."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-link_london",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-radio_operator",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-london_credit",
+        "quantity": 2,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-receive_drop",
+    "nom": "Réceptionner un parachutage",
+    "categorie": "Actions — S'équiper",
+    "fichier": "svg/action-receive_drop.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "receive_drop",
+    "nom_original": "Réceptionner un parachutage",
+    "nom_couvert": "Décharger les matériaux",
+    "fichier_clair": "svg-clair/action-receive_drop.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Faire homologuer un terrain.",
+        "Réunir : 1 chef de groupe, 6 combattant, 1 chauffeur.",
+        "Prévoir : Crédit auprès de Londres, Essence.",
+        "Faire le point sur les besoins.",
+        "Rassembler les ressources prévues.",
+        "Vérifier ce qui a été obtenu."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Faire agréer la cour.",
+        "Réunir : 1 chef de chantier, 6 ouvrier des grands travaux, 1 charretier.",
+        "Prévoir : Agrément du bureau des plans, Huile de chantier.",
+        "Faire le point sur la commande.",
+        "Rassembler les fournitures prévues.",
+        "Vérifier la livraison reçue."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-homologate_dz",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 6,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-driver",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-london_credit",
+        "quantity": 3,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-fuel",
+        "quantity": 20,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-weapons",
+        "quantity": 15,
+        "relation": "produit"
+      },
+      {
+        "icon": "munition",
+        "quantity": 6,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 30,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 100000,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-radio_set",
+        "quantity": 1,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-set_cache",
+    "nom": "Aménager une cache d'armes",
+    "categorie": "Actions — S'équiper",
+    "fichier": "svg/action-set_cache.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "set_cache",
+    "nom_original": "Aménager une cache d'armes",
+    "nom_couvert": "Aménager le magasin d’outillage",
+    "fichier_clair": "svg-clair/action-set_cache.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Former une cellule.",
+        "Réunir : 1 hébergeur.",
+        "Faire le point sur les besoins.",
+        "Rassembler les ressources prévues.",
+        "Vérifier ce qui a été obtenu."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Constituer une équipe.",
+        "Réunir : 1 logeur.",
+        "Faire le point sur la commande.",
+        "Rassembler les fournitures prévues.",
+        "Vérifier la livraison reçue."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-host",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-raid_supplies",
+    "nom": "Coup de main (tickets, essence, argent)",
+    "categorie": "Actions — S'équiper",
+    "fichier": "svg/action-raid_supplies.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "raid_supplies",
+    "nom_original": "Coup de main (tickets, essence, argent)",
+    "nom_couvert": "Prélever des fournitures",
+    "fichier_clair": "svg-clair/action-raid_supplies.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Former une cellule.",
+        "Réunir : 3 combattant, 1 chauffeur.",
+        "Prévoir : Armes.",
+        "Faire le point sur les besoins.",
+        "Rassembler les ressources prévues.",
+        "Vérifier ce qui a été obtenu."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Constituer une équipe.",
+        "Réunir : 3 ouvrier des grands travaux, 1 charretier.",
+        "Prévoir : Outils.",
+        "Faire le point sur la commande.",
+        "Rassembler les fournitures prévues.",
+        "Vérifier la livraison reçue."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 3,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-driver",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-weapons",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-ration_cards",
+        "quantity": 50,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-fuel",
+        "quantity": 100,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 30000,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-recover_1940_arms",
+    "nom": "Récupérer des armes de 1940",
+    "categorie": "Actions — S'équiper",
+    "fichier": "svg/action-recover_1940_arms.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "recover_1940_arms",
+    "nom_original": "Récupérer des armes de 1940",
+    "nom_couvert": "Restaurer les anciens outils",
+    "fichier_clair": "svg-clair/action-recover_1940_arms.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Gagner un notable.",
+        "Réunir : 1 chef de groupe, 1 chauffeur.",
+        "Faire le point sur les besoins.",
+        "Rassembler les ressources prévues.",
+        "Vérifier ce qui a été obtenu."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Gagner un maître d’ouvrage.",
+        "Réunir : 1 chef de chantier, 1 charretier.",
+        "Faire le point sur la commande.",
+        "Rassembler les fournitures prévues.",
+        "Vérifier la livraison reçue."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-driver",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-weapons",
+        "quantity": 10,
+        "relation": "produit"
+      },
+      {
+        "icon": "munition",
+        "quantity": 3,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-black_market",
+    "nom": "Acheter au marché noir",
+    "categorie": "Actions — S'équiper",
+    "fichier": "svg/action-black_market.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "black_market",
+    "nom_original": "Acheter au marché noir",
+    "nom_couvert": "Acheter hors catalogue",
+    "fichier_clair": "svg-clair/action-black_market.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Intégrer (donner la flamme).",
+        "Réunir : 1 agent de liaison.",
+        "Prévoir : Argent.",
+        "Faire le point sur les besoins.",
+        "Rassembler les ressources prévues.",
+        "Vérifier ce qui a été obtenu."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Embaucher.",
+        "Réunir : 1 commis aux livraisons.",
+        "Prévoir : Clous.",
+        "Faire le point sur la commande.",
+        "Rassembler les fournitures prévues.",
+        "Vérifier la livraison reçue."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-induct",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-liaison",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 5000,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-paper_ink",
+        "quantity": 3,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-food",
+        "quantity": 50,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-fuel",
+        "quantity": 20,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-meet_london_agent",
+    "nom": "Accueillir un agent de Londres",
+    "categorie": "Actions — S'équiper",
+    "fichier": "svg/action-meet_london_agent.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "meet_london_agent",
+    "nom_original": "Accueillir un agent de Londres",
+    "nom_couvert": "Recevoir le dessinateur",
+    "fichier_clair": "svg-clair/action-meet_london_agent.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Former une cellule.",
+        "Réunir : 1 chef de groupe, 1 hébergeur.",
+        "Faire le point sur les besoins.",
+        "Rassembler les ressources prévues.",
+        "Vérifier ce qui a été obtenu."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Constituer une équipe.",
+        "Réunir : 1 chef de chantier, 1 logeur.",
+        "Faire le point sur la commande.",
+        "Rassembler les fournitures prévues.",
+        "Vérifier la livraison reçue."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-host",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-radio_set",
+        "quantity": 1,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 50000,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-collect_funds",
+    "nom": "Collecter des fonds",
+    "categorie": "Actions — S'équiper",
+    "fichier": "svg/action-collect_funds.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "collect_funds",
+    "nom_original": "Collecter des fonds",
+    "nom_couvert": "Rassembler les clous",
+    "fichier_clair": "svg-clair/action-collect_funds.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Gagner un notable.",
+        "Réunir : 1 recruteur.",
+        "Faire le point sur les besoins.",
+        "Rassembler les ressources prévues.",
+        "Vérifier ce qui a été obtenu."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Gagner un maître d’ouvrage.",
+        "Réunir : 1 contremaître chargé des embauches.",
+        "Faire le point sur la commande.",
+        "Rassembler les fournitures prévues.",
+        "Vérifier la livraison reçue."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-recruiter",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 10000,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-gather_food",
+    "nom": "Ravitailler (fermes amies)",
+    "categorie": "Actions — S'équiper",
+    "fichier": "svg/action-gather_food.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "gather_food",
+    "nom_original": "Ravitailler (fermes amies)",
+    "nom_couvert": "Livrer le sable",
+    "fichier_clair": "svg-clair/action-gather_food.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Aménager une cache d'armes.",
+        "Réunir : 1 chauffeur.",
+        "Prévoir : Argent, Cartes et tickets d'alimentation.",
+        "Faire le point sur les besoins.",
+        "Rassembler les ressources prévues.",
+        "Vérifier ce qui a été obtenu."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Aménager le magasin d’outillage.",
+        "Réunir : 1 charretier.",
+        "Prévoir : Clous, Bons de livraison.",
+        "Faire le point sur la commande.",
+        "Rassembler les fournitures prévues.",
+        "Vérifier la livraison reçue."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-set_cache",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-driver",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 2000,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-ration_cards",
+        "quantity": 10,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-food",
+        "quantity": 200,
+        "relation": "produit"
+      }
+    ]
+  },
+  {
+    "id": "action-open_escape_line",
+    "nom": "Ouvrir une filière d'évasion",
+    "categorie": "Actions — Aider et soustraire",
+    "fichier": "svg/action-open_escape_line.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "open_escape_line",
+    "nom_original": "Ouvrir une filière d'évasion",
+    "nom_couvert": "Ouvrir un chemin de livraison",
+    "fichier_clair": "svg-clair/action-open_escape_line.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Fabriquer des faux papiers.",
+        "Réunir : 2 passeur, 2 hébergeur.",
+        "Prévoir : Argent.",
+        "Préciser qui doit être aidé.",
+        "Réunir les personnes et moyens disponibles.",
+        "Faire le point sur la situation après l’aide."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Ajuster des huisseries.",
+        "Réunir : 2 guide de livraison, 2 logeur.",
+        "Prévoir : Clous.",
+        "Préciser quels ouvriers accueillir.",
+        "Préparer l’équipe et les fournitures.",
+        "Vérifier les conditions d’accueil."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-forge_papers",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-smuggler",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-host",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 20000,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-exfiltrate",
+    "nom": "Faire passer en Espagne",
+    "categorie": "Actions — Aider et soustraire",
+    "fichier": "svg/action-exfiltrate.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "exfiltrate",
+    "nom_original": "Faire passer en Espagne",
+    "nom_couvert": "Acheminer un ouvrier",
+    "fichier_clair": "svg-clair/action-exfiltrate.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Fabriquer des faux papiers.",
+        "Réunir : 1 passeur.",
+        "Prévoir : Jeux de faux papiers, Argent.",
+        "Préciser qui doit être aidé.",
+        "Réunir les personnes et moyens disponibles.",
+        "Faire le point sur la situation après l’aide."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Ajuster des huisseries.",
+        "Réunir : 1 guide de livraison.",
+        "Prévoir : Huisseries, Clous.",
+        "Préciser quels ouvriers accueillir.",
+        "Préparer l’équipe et les fournitures.",
+        "Vérifier les conditions d’accueil."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-forge_papers",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-smuggler",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-false_papers",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 10000,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-hide_children",
+    "nom": "Cacher des enfants juifs",
+    "categorie": "Actions — Aider et soustraire",
+    "fichier": "svg/action-hide_children.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "hide_children",
+    "nom_original": "Cacher des enfants juifs",
+    "nom_couvert": "Abriter les apprentis",
+    "fichier_clair": "svg-clair/action-hide_children.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Gagner un notable.",
+        "Réunir : 1 hébergeur.",
+        "Prévoir : Jeux de faux papiers, Cartes et tickets d'alimentation.",
+        "Préciser qui doit être aidé.",
+        "Réunir les personnes et moyens disponibles.",
+        "Faire le point sur la situation après l’aide."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Gagner un maître d’ouvrage.",
+        "Réunir : 1 logeur.",
+        "Prévoir : Huisseries, Bons de livraison.",
+        "Préciser quels ouvriers accueillir.",
+        "Préparer l’équipe et les fournitures.",
+        "Vérifier les conditions d’accueil."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-host",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-false_papers",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-ration_cards",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-set_infirmary",
+    "nom": "Ouvrir une infirmerie clandestine",
+    "categorie": "Actions — Aider et soustraire",
+    "fichier": "svg/action-set_infirmary.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "set_infirmary",
+    "nom_original": "Ouvrir une infirmerie clandestine",
+    "nom_couvert": "Ouvrir l’atelier de réparation",
+    "fichier_clair": "svg-clair/action-set_infirmary.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Gagner un notable.",
+        "Réunir : 1 médecin ou infirmière.",
+        "Prévoir : Argent.",
+        "Préciser qui doit être aidé.",
+        "Réunir les personnes et moyens disponibles.",
+        "Faire le point sur la situation après l’aide."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Gagner un maître d’ouvrage.",
+        "Réunir : 1 réparateur.",
+        "Prévoir : Clous.",
+        "Préciser quels ouvriers accueillir.",
+        "Préparer l’équipe et les fournitures.",
+        "Vérifier les conditions d’accueil."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-medic",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 5000,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-free_prisoner",
+    "nom": "Faire évader un prisonnier",
+    "categorie": "Actions — Aider et soustraire",
+    "fichier": "svg/action-free_prisoner.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "free_prisoner",
+    "nom_original": "Faire évader un prisonnier",
+    "nom_couvert": "Desserrer l’étau",
+    "fichier_clair": "svg-clair/action-free_prisoner.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Copier des listes officielles, Coup de main (tickets, essence, argent).",
+        "Réunir : 1 chef de groupe, 4 combattant, 1 chauffeur.",
+        "Prévoir : Armes, Munitions, Jeux de faux papiers, Essence.",
+        "Préciser qui doit être aidé.",
+        "Réunir les personnes et moyens disponibles.",
+        "Faire le point sur la situation après l’aide."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Reproduire les cotes, Prélever des fournitures.",
+        "Réunir : 1 chef de chantier, 4 ouvrier des grands travaux, 1 charretier.",
+        "Prévoir : Outils, Pointes, Huisseries, Huile de chantier.",
+        "Préciser quels ouvriers accueillir.",
+        "Préparer l’équipe et les fournitures.",
+        "Vérifier les conditions d’accueil."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-copy_files",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-raid_supplies",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 4,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-driver",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-weapons",
+        "quantity": 5,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-false_papers",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-fuel",
+        "quantity": 30,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-slow_work",
+    "nom": "Sabotage au travail",
+    "categorie": "Actions — Saboter",
+    "fichier": "svg/action-slow_work.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "slow_work",
+    "nom_original": "Sabotage au travail",
+    "nom_couvert": "Ralentir le rabotage",
+    "fichier_clair": "svg-clair/action-slow_work.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Intégrer (donner la flamme).",
+        "Réunir : 1 informateur.",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les risques et les conditions d’annulation.",
+        "Faire constater le résultat par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Embaucher.",
+        "Réunir : 1 métreur.",
+        "Préciser l’ouvrage à reprendre.",
+        "Évaluer les contraintes et les motifs de report.",
+        "Faire constater l’état de l’ouvrage."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-induct",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-informant",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-sabotage_rolling_stock",
+    "nom": "Saboter les locomotives (abrasif, sable)",
+    "categorie": "Actions — Saboter",
+    "fichier": "svg/action-sabotage_rolling_stock.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "sabotage_rolling_stock",
+    "nom_original": "Saboter les locomotives (abrasif, sable)",
+    "nom_couvert": "Gripper les chariots",
+    "fichier_clair": "svg-clair/action-sabotage_rolling_stock.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Sabotage au travail.",
+        "Réunir : 1 artificier.",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les risques et les conditions d’annulation.",
+        "Faire constater le résultat par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Ralentir le rabotage.",
+        "Réunir : 1 ouvrier de carrière.",
+        "Préciser l’ouvrage à reprendre.",
+        "Évaluer les contraintes et les motifs de report.",
+        "Faire constater l’état de l’ouvrage."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-slow_work",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-cut_phone",
+    "nom": "Couper une ligne téléphonique",
+    "categorie": "Actions — Saboter",
+    "fichier": "svg/action-cut_phone.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "cut_phone",
+    "nom_original": "Couper une ligne téléphonique",
+    "nom_couvert": "Couper le cordeau",
+    "fichier_clair": "svg-clair/action-cut_phone.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Former une cellule.",
+        "Réunir : 2 artificier.",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les risques et les conditions d’annulation.",
+        "Faire constater le résultat par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Constituer une équipe.",
+        "Réunir : 2 ouvrier de carrière.",
+        "Préciser l’ouvrage à reprendre.",
+        "Évaluer les contraintes et les motifs de report.",
+        "Faire constater l’état de l’ouvrage."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 2,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-unbolt_rail",
+    "nom": "Déboulonner un rail",
+    "categorie": "Actions — Saboter",
+    "fichier": "svg/action-unbolt_rail.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "unbolt_rail",
+    "nom_original": "Déboulonner un rail",
+    "nom_couvert": "Décheviller les traverses",
+    "fichier_clair": "svg-clair/action-unbolt_rail.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Relever les trains.",
+        "Réunir : 3 artificier.",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les risques et les conditions d’annulation.",
+        "Faire constater le résultat par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Mesurer les longues pièces.",
+        "Réunir : 3 ouvrier de carrière.",
+        "Préciser l’ouvrage à reprendre.",
+        "Évaluer les contraintes et les motifs de report.",
+        "Faire constater l’état de l’ouvrage."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-watch_trains",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 3,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-blow_rail",
+    "nom": "Faire sauter une voie",
+    "categorie": "Actions — Saboter",
+    "fichier": "svg/action-blow_rail.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "blow_rail",
+    "nom_original": "Faire sauter une voie",
+    "nom_couvert": "Rompre les traverses",
+    "fichier_clair": "svg-clair/action-blow_rail.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Réceptionner un parachutage, Relever les trains.",
+        "Réunir : 2 artificier, 2 combattant.",
+        "Prévoir : Explosifs (plastic, crayons détonateurs).",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les risques et les conditions d’annulation.",
+        "Faire constater le résultat par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Décharger les matériaux, Mesurer les longues pièces.",
+        "Réunir : 2 ouvrier de carrière, 2 ouvrier des grands travaux.",
+        "Prévoir : Poudre de carrière.",
+        "Préciser l’ouvrage à reprendre.",
+        "Évaluer les contraintes et les motifs de report.",
+        "Faire constater l’état de l’ouvrage."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-receive_drop",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-watch_trains",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 2,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-blow_pylon",
+    "nom": "Abattre un pylône, un transformateur",
+    "categorie": "Actions — Saboter",
+    "fichier": "svg/action-blow_pylon.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "blow_pylon",
+    "nom_original": "Abattre un pylône, un transformateur",
+    "nom_couvert": "Abattre un montant",
+    "fichier_clair": "svg-clair/action-blow_pylon.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Réceptionner un parachutage.",
+        "Réunir : 2 artificier.",
+        "Prévoir : Explosifs (plastic, crayons détonateurs).",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les risques et les conditions d’annulation.",
+        "Faire constater le résultat par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Décharger les matériaux.",
+        "Réunir : 2 ouvrier de carrière.",
+        "Prévoir : Poudre de carrière.",
+        "Préciser l’ouvrage à reprendre.",
+        "Évaluer les contraintes et les motifs de report.",
+        "Faire constater l’état de l’ouvrage."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-receive_drop",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 4,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-blow_bridge",
+    "nom": "Faire sauter un pont",
+    "categorie": "Actions — Saboter",
+    "fichier": "svg/action-blow_bridge.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "blow_bridge",
+    "nom_original": "Faire sauter un pont",
+    "nom_couvert": "Déposer une passerelle",
+    "fichier_clair": "svg-clair/action-blow_bridge.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Faire sauter une voie.",
+        "Réunir : 2 artificier, 6 combattant.",
+        "Prévoir : Explosifs (plastic, crayons détonateurs), Munitions.",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les risques et les conditions d’annulation.",
+        "Faire constater le résultat par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Rompre les traverses.",
+        "Réunir : 2 ouvrier de carrière, 6 ouvrier des grands travaux.",
+        "Prévoir : Poudre de carrière, Pointes.",
+        "Préciser l’ouvrage à reprendre.",
+        "Évaluer les contraintes et les motifs de report.",
+        "Faire constater l’état de l’ouvrage."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-blow_rail",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 6,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 40,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-sabotage_factory",
+    "nom": "Saboter une usine",
+    "categorie": "Actions — Saboter",
+    "fichier": "svg/action-sabotage_factory.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "sabotage_factory",
+    "nom_original": "Saboter une usine",
+    "nom_couvert": "Dérégler l’établi",
+    "fichier_clair": "svg-clair/action-sabotage_factory.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Sabotage au travail, Réceptionner un parachutage.",
+        "Réunir : 2 artificier.",
+        "Prévoir : Explosifs (plastic, crayons détonateurs).",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les risques et les conditions d’annulation.",
+        "Faire constater le résultat par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Ralentir le rabotage, Décharger les matériaux.",
+        "Réunir : 2 ouvrier de carrière.",
+        "Prévoir : Poudre de carrière.",
+        "Préciser l’ouvrage à reprendre.",
+        "Évaluer les contraintes et les motifs de report.",
+        "Faire constater l’état de l’ouvrage."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-slow_work",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-receive_drop",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 8,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-burn_depot",
+    "nom": "Incendier un dépôt",
+    "categorie": "Actions — Saboter",
+    "fichier": "svg/action-burn_depot.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "burn_depot",
+    "nom_original": "Incendier un dépôt",
+    "nom_couvert": "Brûler le stock de bois",
+    "fichier_clair": "svg-clair/action-burn_depot.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Repérer une garnison ou un dépôt, Réceptionner un parachutage.",
+        "Réunir : 2 artificier, 3 combattant.",
+        "Prévoir : Explosifs (plastic, crayons détonateurs), Munitions.",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les risques et les conditions d’annulation.",
+        "Faire constater le résultat par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Relever le chantier voisin, Décharger les matériaux.",
+        "Réunir : 2 ouvrier de carrière, 3 ouvrier des grands travaux.",
+        "Prévoir : Poudre de carrière, Pointes.",
+        "Préciser l’ouvrage à reprendre.",
+        "Évaluer les contraintes et les motifs de report.",
+        "Faire constater l’état de l’ouvrage."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-scout_garrison",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-receive_drop",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 3,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 3,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-destroy_sto_files",
+    "nom": "Détruire les fichiers du STO",
+    "categorie": "Actions — Saboter",
+    "fichier": "svg/action-destroy_sto_files.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "destroy_sto_files",
+    "nom_original": "Détruire les fichiers du STO",
+    "nom_couvert": "Raboter les fiches",
+    "fichier_clair": "svg-clair/action-destroy_sto_files.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Copier des listes officielles.",
+        "Réunir : 3 combattant.",
+        "Prévoir : Armes.",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les risques et les conditions d’annulation.",
+        "Faire constater le résultat par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Reproduire les cotes.",
+        "Réunir : 3 ouvrier des grands travaux.",
+        "Prévoir : Outils.",
+        "Préciser l’ouvrage à reprendre.",
+        "Évaluer les contraintes et les motifs de report.",
+        "Faire constater l’état de l’ouvrage."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-copy_files",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 3,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-weapons",
+        "quantity": 3,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-found_maquis",
+    "nom": "Prendre un maquis",
+    "categorie": "Actions — Combattre",
+    "fichier": "svg/action-found_maquis.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "found_maquis",
+    "nom_original": "Prendre un maquis",
+    "nom_couvert": "Ouvrir un chantier forestier",
+    "fichier_clair": "svg-clair/action-found_maquis.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Accueillir un réfractaire au STO, Aménager une cache d'armes.",
+        "Réunir : 1 chef de groupe, 8 combattant.",
+        "Prévoir : Vivres, Armes.",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire résoudre l’action par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Loger un ouvrier de passage, Aménager le magasin d’outillage.",
+        "Réunir : 1 chef de chantier, 8 ouvrier des grands travaux.",
+        "Prévoir : Sable, Outils.",
+        "Préciser le résultat attendu du chantier.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire constater l’avancement du chantier."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-shelter_refractory",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-set_cache",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 8,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-food",
+        "quantity": 300,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-weapons",
+        "quantity": 5,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-train_maquis",
+    "nom": "Instruire les maquisards",
+    "categorie": "Actions — Combattre",
+    "fichier": "svg/action-train_maquis.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "train_maquis",
+    "nom_original": "Instruire les maquisards",
+    "nom_couvert": "Former les ouvriers forestiers",
+    "fichier_clair": "svg-clair/action-train_maquis.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Prendre un maquis, Réceptionner un parachutage.",
+        "Réunir : 1 chef de groupe.",
+        "Prévoir : Munitions, Vivres.",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire résoudre l’action par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Ouvrir un chantier forestier, Décharger les matériaux.",
+        "Réunir : 1 chef de chantier.",
+        "Prévoir : Pointes, Sable.",
+        "Préciser le résultat attendu du chantier.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire constater l’avancement du chantier."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-found_maquis",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-receive_drop",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-food",
+        "quantity": 200,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-execute_traitor",
+    "nom": "Exécuter un traître",
+    "categorie": "Actions — Combattre",
+    "fichier": "svg/action-execute_traitor.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "execute_traitor",
+    "nom_original": "Exécuter un traître",
+    "nom_couvert": "Éliminer la pièce véreuse",
+    "fichier_clair": "svg-clair/action-execute_traitor.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Identifier un indicateur.",
+        "Réunir : 2 combattant.",
+        "Prévoir : Armes, Munitions.",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire résoudre l’action par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Repérer le bois véreux.",
+        "Réunir : 2 ouvrier des grands travaux.",
+        "Prévoir : Outils, Pointes.",
+        "Préciser le résultat attendu du chantier.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire constater l’avancement du chantier."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-unmask_informer",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-weapons",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-ambush",
+    "nom": "Tendre une embuscade",
+    "categorie": "Actions — Combattre",
+    "fichier": "svg/action-ambush.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "ambush",
+    "nom_original": "Tendre une embuscade",
+    "nom_couvert": "Préparer un serrage",
+    "fichier_clair": "svg-clair/action-ambush.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Instruire les maquisards.",
+        "Réunir : 1 chef de groupe, 15 combattant.",
+        "Prévoir : Munitions, Explosifs (plastic, crayons détonateurs).",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire résoudre l’action par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Former les ouvriers forestiers.",
+        "Réunir : 1 chef de chantier, 15 ouvrier des grands travaux.",
+        "Prévoir : Pointes, Poudre de carrière.",
+        "Préciser le résultat attendu du chantier.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire constater l’avancement du chantier."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-train_maquis",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 15,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 4,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 5,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-break_contact",
+    "nom": "Décrocher, déplacer le maquis",
+    "categorie": "Actions — Combattre",
+    "fichier": "svg/action-break_contact.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "break_contact",
+    "nom_original": "Décrocher, déplacer le maquis",
+    "nom_couvert": "Démonter et déplacer l’atelier",
+    "fichier_clair": "svg-clair/action-break_contact.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Prendre un maquis.",
+        "Réunir : 1 chef de groupe.",
+        "Prévoir : Vivres.",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire résoudre l’action par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Ouvrir un chantier forestier.",
+        "Réunir : 1 chef de chantier.",
+        "Prévoir : Sable.",
+        "Préciser le résultat attendu du chantier.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire constater l’avancement du chantier."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-found_maquis",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-food",
+        "quantity": 100,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-plan_green",
+    "nom": "Plan Vert (voies ferrées)",
+    "categorie": "Actions — Combattre",
+    "fichier": "svg/action-plan_green.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "plan_green",
+    "nom_original": "Plan Vert (voies ferrées)",
+    "nom_couvert": "Plan des traverses",
+    "fichier_clair": "svg-clair/action-plan_green.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Faire sauter une voie, Émettre vers Londres.",
+        "Réunir : 6 artificier.",
+        "Prévoir : Explosifs (plastic, crayons détonateurs).",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire résoudre l’action par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Rompre les traverses, Appeler le bureau des plans.",
+        "Réunir : 6 ouvrier de carrière.",
+        "Prévoir : Poudre de carrière.",
+        "Préciser le résultat attendu du chantier.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire constater l’avancement du chantier."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-blow_rail",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-transmit",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 6,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 20,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-plan_violet",
+    "nom": "Plan Violet (téléphone)",
+    "categorie": "Actions — Combattre",
+    "fichier": "svg/action-plan_violet.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "plan_violet",
+    "nom_original": "Plan Violet (téléphone)",
+    "nom_couvert": "Plan des cordeaux",
+    "fichier_clair": "svg-clair/action-plan_violet.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Couper une ligne téléphonique, Émettre vers Londres.",
+        "Réunir : 4 artificier.",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire résoudre l’action par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Couper le cordeau, Appeler le bureau des plans.",
+        "Réunir : 4 ouvrier de carrière.",
+        "Préciser le résultat attendu du chantier.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire constater l’avancement du chantier."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-cut_phone",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-transmit",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 4,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-plan_turtle",
+    "nom": "Plan Tortue (routes)",
+    "categorie": "Actions — Combattre",
+    "fichier": "svg/action-plan_turtle.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "plan_turtle",
+    "nom_original": "Plan Tortue (routes)",
+    "nom_couvert": "Plan des accès",
+    "fichier_clair": "svg-clair/action-plan_turtle.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Tendre une embuscade.",
+        "Réunir : 20 combattant.",
+        "Prévoir : Explosifs (plastic, crayons détonateurs), Munitions.",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire résoudre l’action par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Préparer un serrage.",
+        "Réunir : 20 ouvrier des grands travaux.",
+        "Prévoir : Poudre de carrière, Pointes.",
+        "Préciser le résultat attendu du chantier.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire constater l’avancement du chantier."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-ambush",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 20,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 30,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 6,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-plan_blue",
+    "nom": "Plan Bleu (électricité)",
+    "categorie": "Actions — Combattre",
+    "fichier": "svg/action-plan_blue.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "plan_blue",
+    "nom_original": "Plan Bleu (électricité)",
+    "nom_couvert": "Plan des installations",
+    "fichier_clair": "svg-clair/action-plan_blue.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Abattre un pylône, un transformateur, Émettre vers Londres.",
+        "Réunir : 4 artificier.",
+        "Prévoir : Explosifs (plastic, crayons détonateurs).",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire résoudre l’action par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Abattre un montant, Appeler le bureau des plans.",
+        "Réunir : 4 ouvrier de carrière.",
+        "Prévoir : Poudre de carrière.",
+        "Préciser le résultat attendu du chantier.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire constater l’avancement du chantier."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-blow_pylon",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-transmit",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 4,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 16,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-liberate_town",
+    "nom": "Libérer une ville",
+    "categorie": "Actions — Combattre",
+    "fichier": "svg/action-liberate_town.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "liberate_town",
+    "nom_original": "Libérer une ville",
+    "nom_couvert": "Rouvrir les grandes portes",
+    "fichier_clair": "svg-clair/action-liberate_town.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Tendre une embuscade, Gagner un notable.",
+        "Réunir : 2 chef de groupe, 60 combattant.",
+        "Prévoir : Munitions, Vivres.",
+        "Préciser l’objectif dans le plan.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire résoudre l’action par le MJ."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Préparer un serrage, Gagner un maître d’ouvrage.",
+        "Réunir : 2 chef de chantier, 60 ouvrier des grands travaux.",
+        "Prévoir : Pointes, Sable.",
+        "Préciser le résultat attendu du chantier.",
+        "Évaluer les moyens et les conséquences possibles.",
+        "Faire constater l’avancement du chantier."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-ambush",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 60,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 20,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-food",
+        "quantity": 500,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "action-hold_meeting",
+    "nom": "Organiser une réunion",
+    "categorie": "Actions — Recruter et organiser",
+    "fichier": "svg/action-hold_meeting.svg",
+    "source": "actions_locales.py",
+    "cle_source": "hold_meeting",
+    "nom_original": "Organiser une réunion",
+    "nom_couvert": "Tenir une réunion de chantier",
+    "fichier_clair": "svg-clair/action-hold_meeting.svg",
+    "etapes_suggerees": {
+      "clair": [
+        "Vérifier les préalables : Former une cellule.",
+        "Réunir : 1 chef de groupe, 1 agent de liaison.",
+        "Choisir le lieu, l’heure et qui sera prévenu.",
+        "Faire passer la convocation de bouche à oreille.",
+        "Tenir la réunion et convenir de ce que chacun fera."
+      ],
+      "code": [
+        "Vérifier les travaux préalables : Constituer une équipe.",
+        "Réunir : 1 chef de chantier, 1 commis aux livraisons.",
+        "Choisir l’atelier, l’heure et les ouvriers à prévenir.",
+        "Faire passer l’heure de la réunion de chantier.",
+        "Tenir la réunion et répartir l’ouvrage de la semaine."
+      ]
+    },
+    "type_noeud": "action",
+    "noeuds_associes": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-liaison",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  },
+  {
+    "id": "ressource-money",
+    "nom": "Clous — Argent",
+    "categorie": "Chantier — ressources",
+    "fichier": "svg/ressource-money.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "money",
+    "nom_couvert": "Clous",
+    "nom_original": "Argent",
+    "unite_originale": "F",
+    "fichier_clair": "svg-clair/ressource-money.svg",
+    "type_noeud": "ressource"
+  },
+  {
+    "id": "ressource-ration_cards",
+    "nom": "Bons de livraison — Cartes et tickets d'alimentation",
+    "categorie": "Chantier — ressources",
+    "fichier": "svg/ressource-ration_cards.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "ration_cards",
+    "nom_couvert": "Bons de livraison",
+    "nom_original": "Cartes et tickets d'alimentation",
+    "unite_originale": "carte",
+    "fichier_clair": "svg-clair/ressource-ration_cards.svg",
+    "type_noeud": "ressource"
+  },
+  {
+    "id": "ressource-stamps",
+    "nom": "Gabarits — Tampons et imprimés officiels",
+    "categorie": "Chantier — ressources",
+    "fichier": "svg/ressource-stamps.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "stamps",
+    "nom_couvert": "Gabarits",
+    "nom_original": "Tampons et imprimés officiels",
+    "unite_originale": "lot",
+    "fichier_clair": "svg-clair/ressource-stamps.svg",
+    "type_noeud": "ressource"
+  },
+  {
+    "id": "ressource-paper_ink",
+    "nom": "Chaux — Papier, encre, stencils",
+    "categorie": "Chantier — ressources",
+    "fichier": "svg/ressource-paper_ink.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "paper_ink",
+    "nom_couvert": "Chaux",
+    "nom_original": "Papier, encre, stencils",
+    "unite_originale": "rame",
+    "fichier_clair": "svg-clair/ressource-paper_ink.svg",
+    "type_noeud": "ressource"
+  },
+  {
+    "id": "ressource-false_papers",
+    "nom": "Huisseries — Jeux de faux papiers",
+    "categorie": "Chantier — ressources",
+    "fichier": "svg/ressource-false_papers.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "false_papers",
+    "nom_couvert": "Huisseries",
+    "nom_original": "Jeux de faux papiers",
+    "unite_originale": "jeu",
+    "fichier_clair": "svg-clair/ressource-false_papers.svg",
+    "type_noeud": "ressource"
+  },
+  {
+    "id": "ressource-tracts",
+    "nom": "Carreaux — Tracts et journaux clandestins",
+    "categorie": "Chantier — ressources",
+    "fichier": "svg/ressource-tracts.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "tracts",
+    "nom_couvert": "Carreaux",
+    "nom_original": "Tracts et journaux clandestins",
+    "unite_originale": "centaine",
+    "fichier_clair": "svg-clair/ressource-tracts.svg",
+    "type_noeud": "ressource"
+  },
+  {
+    "id": "ressource-food",
+    "nom": "Sable — Vivres",
+    "categorie": "Chantier — ressources",
+    "fichier": "svg/ressource-food.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "food",
+    "nom_couvert": "Sable",
+    "nom_original": "Vivres",
+    "unite_originale": "ration",
+    "fichier_clair": "svg-clair/ressource-food.svg",
+    "type_noeud": "ressource"
+  },
+  {
+    "id": "ressource-fuel",
+    "nom": "Huile de chantier — Essence",
+    "categorie": "Chantier — ressources",
+    "fichier": "svg/ressource-fuel.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "fuel",
+    "nom_couvert": "Huile de chantier",
+    "nom_original": "Essence",
+    "unite_originale": "litre",
+    "fichier_clair": "svg-clair/ressource-fuel.svg",
+    "type_noeud": "ressource"
+  },
+  {
+    "id": "ressource-weapons",
+    "nom": "Outils — Armes",
+    "categorie": "Chantier — ressources",
+    "fichier": "svg/ressource-weapons.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "weapons",
+    "nom_couvert": "Outils",
+    "nom_original": "Armes",
+    "unite_originale": "arme",
+    "fichier_clair": "svg-clair/ressource-weapons.svg",
+    "type_noeud": "ressource"
+  },
+  {
+    "id": "ressource-ammo",
+    "nom": "Pointes — Munitions",
+    "categorie": "Chantier — ressources",
+    "fichier": "svg/ressource-ammo.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "ammo",
+    "nom_couvert": "Pointes",
+    "nom_original": "Munitions",
+    "unite_originale": "caisse",
+    "fichier_clair": "svg-clair/ressource-ammo.svg",
+    "type_noeud": "ressource"
+  },
+  {
+    "id": "ressource-explosives",
+    "nom": "Poudre de carrière — Explosifs (plastic, crayons détonateurs)",
+    "categorie": "Chantier — ressources",
+    "fichier": "svg/ressource-explosives.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "explosives",
+    "nom_couvert": "Poudre de carrière",
+    "nom_original": "Explosifs (plastic, crayons détonateurs)",
+    "unite_originale": "kg",
+    "fichier_clair": "svg-clair/ressource-explosives.svg",
+    "type_noeud": "ressource"
+  },
+  {
+    "id": "ressource-radio_set",
+    "nom": "Sonnette — Poste émetteur",
+    "categorie": "Chantier — ressources",
+    "fichier": "svg/ressource-radio_set.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "radio_set",
+    "nom_couvert": "Sonnette",
+    "nom_original": "Poste émetteur",
+    "unite_originale": "poste",
+    "fichier_clair": "svg-clair/ressource-radio_set.svg",
+    "type_noeud": "ressource"
+  },
+  {
+    "id": "ressource-intel",
+    "nom": "Cotes — Renseignements",
+    "categorie": "Chantier — ressources",
+    "fichier": "svg/ressource-intel.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "intel",
+    "nom_couvert": "Cotes",
+    "nom_original": "Renseignements",
+    "unite_originale": "rapport",
+    "fichier_clair": "svg-clair/ressource-intel.svg",
+    "type_noeud": "ressource"
+  },
+  {
+    "id": "ressource-london_credit",
+    "nom": "Agrément du bureau des plans — Crédit auprès de Londres",
+    "categorie": "Chantier — ressources",
+    "fichier": "svg/ressource-london_credit.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "london_credit",
+    "nom_couvert": "Agrément du bureau des plans",
+    "nom_original": "Crédit auprès de Londres",
+    "unite_originale": "point",
+    "fichier_clair": "svg-clair/ressource-london_credit.svg",
+    "type_noeud": "ressource"
+  },
+  {
+    "id": "bien-car",
+    "nom": "Voiture particulière",
+    "categorie": "Biens — transport",
+    "fichier": "svg/bien-car.svg",
+    "source": "belongings.json",
+    "cle_source": "car",
+    "nom_original": "Voiture particulière",
+    "nom_couvert": "Servante roulante",
+    "fichier_clair": "svg-clair/bien-car.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "bien-truck",
+    "nom": "Camion ou camionnette",
+    "categorie": "Biens — transport",
+    "fichier": "svg/bien-truck.svg",
+    "source": "belongings.json",
+    "cle_source": "truck",
+    "nom_original": "Camion ou camionnette",
+    "nom_couvert": "Chariot à bois",
+    "fichier_clair": "svg-clair/bien-truck.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "bien-fuel",
+    "nom": "Essence en bidons",
+    "categorie": "Biens — outillage et valeurs",
+    "fichier": "svg/bien-fuel.svg",
+    "source": "belongings.json",
+    "cle_source": "fuel",
+    "nom_original": "Essence en bidons",
+    "nom_couvert": "Réserve d’huile",
+    "fichier_clair": "svg-clair/bien-fuel.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "bien-hunting_gun",
+    "nom": "Arme de chasse ou de défense",
+    "categorie": "Biens — outillage et valeurs",
+    "fichier": "svg/bien-hunting_gun.svg",
+    "source": "belongings.json",
+    "cle_source": "hunting_gun",
+    "nom_original": "Arme de chasse ou de défense",
+    "nom_couvert": "Outillage de coupe",
+    "fichier_clair": "svg-clair/bien-hunting_gun.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "bien-cart",
+    "nom": "Charrette ou tombereau",
+    "categorie": "Biens — transport",
+    "fichier": "svg/bien-cart.svg",
+    "source": "belongings.json",
+    "cle_source": "cart",
+    "nom_original": "Charrette ou tombereau",
+    "nom_couvert": "Plateau roulant",
+    "fichier_clair": "svg-clair/bien-cart.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "bien-bicycle",
+    "nom": "Bicyclette",
+    "categorie": "Biens — transport",
+    "fichier": "svg/bien-bicycle.svg",
+    "source": "belongings.json",
+    "cle_source": "bicycle",
+    "nom_original": "Bicyclette",
+    "nom_couvert": "Diable d’atelier",
+    "fichier_clair": "svg-clair/bien-bicycle.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "bien-cash",
+    "nom": "Argent liquide",
+    "categorie": "Biens — outillage et valeurs",
+    "fichier": "svg/bien-cash.svg",
+    "source": "belongings.json",
+    "cle_source": "cash",
+    "nom_original": "Argent liquide",
+    "nom_couvert": "Clous en réserve",
+    "fichier_clair": "svg-clair/bien-cash.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "bien-jewellery",
+    "nom": "Bijoux",
+    "categorie": "Biens — outillage et valeurs",
+    "fichier": "svg/bien-jewellery.svg",
+    "source": "belongings.json",
+    "cle_source": "jewellery",
+    "nom_original": "Bijoux",
+    "nom_couvert": "Quincaillerie fine",
+    "fichier_clair": "svg-clair/bien-jewellery.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "bien-gold",
+    "nom": "Pièces d'or",
+    "categorie": "Biens — outillage et valeurs",
+    "fichier": "svg/bien-gold.svg",
+    "source": "belongings.json",
+    "cle_source": "gold",
+    "nom_original": "Pièces d'or",
+    "nom_couvert": "Rondelles de laiton",
+    "fichier_clair": "svg-clair/bien-gold.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "munition",
+    "nom": "Munitions",
+    "categorie": "Biens — fournitures et communications",
+    "fichier": "svg/munition.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "ammo",
+    "nom_original": "Munitions",
+    "nom_couvert": "Pointes",
+    "fichier_clair": "svg-clair/munition.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "radio",
+    "nom": "Radio",
+    "categorie": "Biens — fournitures et communications",
+    "fichier": "svg/radio.svg",
+    "source": "radios.json",
+    "cle_source": "radio",
+    "nom_original": "Radio",
+    "nom_couvert": "Sonnette",
+    "fichier_clair": "svg-clair/radio.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "telephone",
+    "nom": "Téléphone",
+    "categorie": "Biens — fournitures et communications",
+    "fichier": "svg/telephone.svg",
+    "source": "telephones.json",
+    "cle_source": "telephone",
+    "nom_original": "Téléphone",
+    "nom_couvert": "Tube porte-voix",
+    "fichier_clair": "svg-clair/telephone.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "tabac",
+    "nom": "Tabac",
+    "categorie": "Biens — fournitures et communications",
+    "fichier": "svg/tabac.svg",
+    "source": "tobacco.json",
+    "cle_source": "tabac",
+    "nom_original": "Tabac",
+    "nom_couvert": "Crayons d’atelier",
+    "fichier_clair": "svg-clair/tabac.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-soldat",
+    "nom": "Soldat",
+    "categorie": "Vocabulaire — Présences",
+    "fichier": "svg/terme-soldat.svg",
+    "source": "lexique.py",
+    "cle_source": "soldat",
+    "nom_original": "Soldat",
+    "nom_couvert": "Ouvrier du chantier voisin",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-soldat.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-officier",
+    "nom": "Officier",
+    "categorie": "Vocabulaire — Présences",
+    "fichier": "svg/terme-officier.svg",
+    "source": "lexique.py",
+    "cle_source": "officier",
+    "nom_original": "Officier",
+    "nom_couvert": "Contremaître du chantier voisin",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-officier.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-patrouille",
+    "nom": "Patrouille",
+    "categorie": "Vocabulaire — Présences",
+    "fichier": "svg/terme-patrouille.svg",
+    "source": "lexique.py",
+    "cle_source": "patrouille",
+    "nom_original": "Patrouille",
+    "nom_couvert": "Tournée de chantier",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-patrouille.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-sentinelle",
+    "nom": "Sentinelle",
+    "categorie": "Vocabulaire — Présences",
+    "fichier": "svg/terme-sentinelle.svg",
+    "source": "lexique.py",
+    "cle_source": "sentinelle",
+    "nom_original": "Sentinelle",
+    "nom_couvert": "Veilleur de chantier",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-sentinelle.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-garnison",
+    "nom": "Garnison",
+    "categorie": "Vocabulaire — Présences",
+    "fichier": "svg/terme-garnison.svg",
+    "source": "lexique.py",
+    "cle_source": "garnison",
+    "nom_original": "Garnison",
+    "nom_couvert": "Équipe installée au chantier voisin",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-garnison.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-gendarme",
+    "nom": "Gendarme",
+    "categorie": "Vocabulaire — Présences",
+    "fichier": "svg/terme-gendarme.svg",
+    "source": "lexique.py",
+    "cle_source": "gendarme",
+    "nom_original": "Gendarme",
+    "nom_couvert": "Gardien du dépôt",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-gendarme.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-indicateur",
+    "nom": "Indicateur",
+    "categorie": "Vocabulaire — Présences",
+    "fichier": "svg/terme-indicateur.svg",
+    "source": "lexique.py",
+    "cle_source": "indicateur",
+    "nom_original": "Indicateur",
+    "nom_couvert": "Bois véreux",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-indicateur.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-barrage",
+    "nom": "Barrage",
+    "categorie": "Vocabulaire — Contrôles et alertes",
+    "fichier": "svg/terme-barrage.svg",
+    "source": "lexique.py",
+    "cle_source": "barrage",
+    "nom_original": "Barrage",
+    "nom_couvert": "Barrière de chantier",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-barrage.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-controle",
+    "nom": "Contrôle des papiers",
+    "categorie": "Vocabulaire — Contrôles et alertes",
+    "fichier": "svg/terme-controle.svg",
+    "source": "lexique.py",
+    "cle_source": "controle",
+    "nom_original": "Contrôle des papiers",
+    "nom_couvert": "Vérification des bons",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-controle.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-fouille",
+    "nom": "Fouille",
+    "categorie": "Vocabulaire — Contrôles et alertes",
+    "fichier": "svg/terme-fouille.svg",
+    "source": "lexique.py",
+    "cle_source": "fouille",
+    "nom_original": "Fouille",
+    "nom_couvert": "Inspection de la remise",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-fouille.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-rafle",
+    "nom": "Rafle",
+    "categorie": "Vocabulaire — Contrôles et alertes",
+    "fichier": "svg/terme-rafle.svg",
+    "source": "lexique.py",
+    "cle_source": "rafle",
+    "nom_original": "Rafle",
+    "nom_couvert": "Fermeture du chantier",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-rafle.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-arrestation",
+    "nom": "Arrestation",
+    "categorie": "Vocabulaire — Contrôles et alertes",
+    "fichier": "svg/terme-arrestation.svg",
+    "source": "lexique.py",
+    "cle_source": "arrestation",
+    "nom_original": "Arrestation",
+    "nom_couvert": "Mise sous serre-joint",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-arrestation.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-couvre-feu",
+    "nom": "Couvre-feu",
+    "categorie": "Vocabulaire — Contrôles et alertes",
+    "fichier": "svg/terme-couvre-feu.svg",
+    "source": "lexique.py",
+    "cle_source": "couvre-feu",
+    "nom_original": "Couvre-feu",
+    "nom_couvert": "Fermeture des ateliers",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-couvre-feu.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-alerte",
+    "nom": "Alerte",
+    "categorie": "Vocabulaire — Contrôles et alertes",
+    "fichier": "svg/terme-alerte.svg",
+    "source": "lexique.py",
+    "cle_source": "alerte",
+    "nom_original": "Alerte",
+    "nom_couvert": "Cloche de chantier",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-alerte.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-voie-ferree",
+    "nom": "Voie ferrée",
+    "categorie": "Vocabulaire — Infrastructures",
+    "fichier": "svg/terme-voie-ferree.svg",
+    "source": "lexique.py",
+    "cle_source": "voie-ferree",
+    "nom_original": "Voie ferrée",
+    "nom_couvert": "Alignement de traverses",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-voie-ferree.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "terme-ligne-telephonique",
+    "nom": "Ligne téléphonique",
+    "categorie": "Vocabulaire — Infrastructures",
+    "fichier": "svg/terme-ligne-telephonique.svg",
+    "source": "lexique.py",
+    "cle_source": "ligne-telephonique",
+    "nom_original": "Ligne téléphonique",
+    "nom_couvert": "Cordeau tendu",
+    "statut": "proposition de vocabulaire",
+    "fichier_clair": "svg-clair/terme-ligne-telephonique.svg",
+    "type_noeud": "objet"
+  },
+  {
+    "id": "metier-leader",
+    "nom": "Chef de groupe",
+    "nom_original": "Chef de groupe",
+    "nom_couvert": "Chef de chantier",
+    "categorie": "Métiers",
+    "type_noeud": "metier",
+    "fichier": "svg/metier-leader.svg",
+    "fichier_clair": "svg-clair/metier-leader.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "leader"
+  },
+  {
+    "id": "metier-recruiter",
+    "nom": "Recruteur",
+    "nom_original": "Recruteur",
+    "nom_couvert": "Contremaître des embauches",
+    "categorie": "Métiers",
+    "type_noeud": "metier",
+    "fichier": "svg/metier-recruiter.svg",
+    "fichier_clair": "svg-clair/metier-recruiter.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "recruiter"
+  },
+  {
+    "id": "metier-liaison",
+    "nom": "Agent de liaison",
+    "nom_original": "Agent de liaison",
+    "nom_couvert": "Commis aux livraisons",
+    "categorie": "Métiers",
+    "type_noeud": "metier",
+    "fichier": "svg/metier-liaison.svg",
+    "fichier_clair": "svg-clair/metier-liaison.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "liaison"
+  },
+  {
+    "id": "metier-forger",
+    "nom": "Faussaire",
+    "nom_original": "Faussaire",
+    "nom_couvert": "Menuisier",
+    "categorie": "Métiers",
+    "type_noeud": "metier",
+    "fichier": "svg/metier-forger.svg",
+    "fichier_clair": "svg-clair/metier-forger.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "forger"
+  },
+  {
+    "id": "metier-printer",
+    "nom": "Imprimeur",
+    "nom_original": "Imprimeur",
+    "nom_couvert": "Peintre",
+    "categorie": "Métiers",
+    "type_noeud": "metier",
+    "fichier": "svg/metier-printer.svg",
+    "fichier_clair": "svg-clair/metier-printer.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "printer"
+  },
+  {
+    "id": "metier-radio_operator",
+    "nom": "Radio",
+    "nom_original": "Radio",
+    "nom_couvert": "Préposé à la sonnette",
+    "categorie": "Métiers",
+    "type_noeud": "metier",
+    "fichier": "svg/metier-radio_operator.svg",
+    "fichier_clair": "svg-clair/metier-radio_operator.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "radio_operator"
+  },
+  {
+    "id": "metier-informant",
+    "nom": "Informateur",
+    "nom_original": "Informateur",
+    "nom_couvert": "Métreur",
+    "categorie": "Métiers",
+    "type_noeud": "metier",
+    "fichier": "svg/metier-informant.svg",
+    "fichier_clair": "svg-clair/metier-informant.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "informant"
+  },
+  {
+    "id": "metier-smuggler",
+    "nom": "Passeur",
+    "nom_original": "Passeur",
+    "nom_couvert": "Guide de livraison",
+    "categorie": "Métiers",
+    "type_noeud": "metier",
+    "fichier": "svg/metier-smuggler.svg",
+    "fichier_clair": "svg-clair/metier-smuggler.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "smuggler"
+  },
+  {
+    "id": "metier-medic",
+    "nom": "Médecin ou infirmière",
+    "nom_original": "Médecin ou infirmière",
+    "nom_couvert": "Réparateur",
+    "categorie": "Métiers",
+    "type_noeud": "metier",
+    "fichier": "svg/metier-medic.svg",
+    "fichier_clair": "svg-clair/metier-medic.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "medic"
+  },
+  {
+    "id": "metier-driver",
+    "nom": "Chauffeur",
+    "nom_original": "Chauffeur",
+    "nom_couvert": "Charretier",
+    "categorie": "Métiers",
+    "type_noeud": "metier",
+    "fichier": "svg/metier-driver.svg",
+    "fichier_clair": "svg-clair/metier-driver.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "driver"
+  },
+  {
+    "id": "metier-saboteur",
+    "nom": "Artificier",
+    "nom_original": "Artificier",
+    "nom_couvert": "Ouvrier de carrière",
+    "categorie": "Métiers",
+    "type_noeud": "metier",
+    "fichier": "svg/metier-saboteur.svg",
+    "fichier_clair": "svg-clair/metier-saboteur.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "saboteur"
+  },
+  {
+    "id": "metier-fighter",
+    "nom": "Combattant",
+    "nom_original": "Combattant",
+    "nom_couvert": "Ouvrier des grands travaux",
+    "categorie": "Métiers",
+    "type_noeud": "metier",
+    "fichier": "svg/metier-fighter.svg",
+    "fichier_clair": "svg-clair/metier-fighter.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "fighter"
+  },
+  {
+    "id": "metier-host",
+    "nom": "Hébergeur",
+    "nom_original": "Hébergeur",
+    "nom_couvert": "Logeur",
+    "categorie": "Métiers",
+    "type_noeud": "metier",
+    "fichier": "svg/metier-host.svg",
+    "fichier_clair": "svg-clair/metier-host.svg",
+    "source": "resistance_actions.json",
+    "cle_source": "host"
+  }
+]

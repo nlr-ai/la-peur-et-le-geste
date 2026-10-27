@@ -1,0 +1,20 @@
+{
+  "nom": "Chez les Sauzeau — pièce commune",
+  "viewBox": "0 0 640 480",
+  "fonds": [],
+  "mur": "",
+  "guet": [],
+  "decor": [],
+  "salles": [
+    {
+      "id": "maison-sauzeau",
+      "nom": "Pièce commune",
+      "lignes": ["Chez les Sauzeau", "Pièce commune"],
+      "cle": true,
+      "forme": { "r": [130, 100, 380, 280, 3] },
+      "etiq": [320, 220],
+      "motifs": ["Chez les Sauzeau", "maison Sauzeau"],
+      "quoi": "Pièce commune où se tient la réunion. Schéma de repérage sans échelle : la disposition du reste de la maison n’est pas établie."
+    }
+  ]
+}

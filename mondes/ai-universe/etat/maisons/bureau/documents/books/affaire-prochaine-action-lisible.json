@@ -1,0 +1,293 @@
+{
+ "id": "affaire-prochaine-action-lisible",
+ "titre": "Les affaires rendent la prochaine action lisible",
+ "type": "plan",
+ "maison_id": "bureau",
+ "lieu_id": "bureau",
+ "salle_id": "hugo",
+ "tenu_par": "hugo",
+ "lecteurs": [
+  "maya",
+  "noor",
+  "hugo",
+  "ada",
+  "leo",
+  "iris",
+  "sam",
+  "zoe"
+ ],
+ "embleme": "🎯",
+ "couleur": "#628a96",
+ "sous_titre": "AI Universe · 2030 · Plage 13000–13999. Cadrage demandé par l'opérateur : états cibles, verrous, clefs et actions.",
+ "pages": [
+  "Rendre visible l'écart entre ce que l'on veut et ce qui existe, afin de choisir une action utile plutôt que d'accumuler des tâches.",
+  "Les états restent recherchés, non acquis. Les verrous distinguent écart constaté, risque et preuve manquante. Les clefs sont retenues comme hypothèses de travail, révisables après inspection. Les actions sont à faire ; leurs dépendances conditionnent leur démarrage et leur preuve attendue conditionne leur validation. Aucune date ni importance n’est inventée.",
+  "Le moteur et ses fonctionnalités sont conservés : affaires, échiquier, vue château, chambres, dépêches, parloir et fil. Le monde et ses profils sont neufs. Aucun extérieur n'est créé. Sources du cadrage : demandes de l'opérateur et docs/refonte-plan.md."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "Les affaires rendent la prochaine action lisible",
+      "Résultat recherché.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Rendre visible l'écart entre ce que l'on veut et ce qui existe, afin de choisir une action utile plutôt que d'accumuler des tâches.",
+      "Ce que cette affaire rend vrai.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "Le moteur possède déjà des affaires, des états cibles, des verrous, des clefs, des actions et un échiquier. Leur fonctionnement sur les seules données du nouveau monde reste à raccorder et à vérifier.",
+      "Distinguer données posées et comportement vérifié.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "13000–13999",
+      "Numéros propres au plan de cet univers.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Le bureau neuf, raccordé aux fonctions existantes.",
+      "Conserver le moteur.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "Création de l'extérieur ; remplacement du moteur par une application parallèle ; héritage des anciennes vies.",
+      "Respecter le périmètre demandé.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Tous les états cibles ci-dessous ont été constatés par leurs preuves ; les limites restantes sont explicites.",
+      "Une action terminée ne suffit pas.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "États cibles posés ; aucune atteinte encore attestée.",
+      "Ne pas annoncer le résultat avant l'épreuve.",
+      "oui"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "découpée par",
+      "affaire-bureau-resultat-utile",
+      "13000",
+      "10000",
+      "Cette affaire contribue au résultat utile du bureau."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🎯 L'état",
+    "📏 La preuve",
+    "📅 Jour dû",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**13000**",
+      "Le travail du bureau se lit dans les affaires et l'échiquier existants",
+      "Les affaires de ce paquet apparaissent dans la bibliothèque et l'échiquier existants, avec les mêmes numéros et les mêmes libellés. Ouvrir une pièce renvoie à sa ligne source ; aucune seconde liste de tâches concurrente ne fait autorité.",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "**13010**",
+      "Une prochaine action proposée explique quel écart elle réduit",
+      "Pour un état cible encore non constaté, l'opérateur peut retrouver les observations disponibles, le verrou établi s'il existe, la voie retenue et l'action proposée. Sa raison et ses dépendances sont visibles ; un obstacle supposé est distingué d'un obstacle observé.",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "**13020**",
+      "Une preuve nouvelle change la lecture du travail sans effacer son histoire",
+      "Une preuve de réussite, un contre-exemple ou une dépendance non tenue est rattaché à la bonne affaire. La prochaine action est réexaminée en conséquence et les modifications antérieures restent consultables. Une case cochée n'est pas utilisée comme preuve de résultat.",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous",
+   "colonnes": [
+    "🔒 N°",
+    "🔒 Le verrou",
+    "🎯 Bloque",
+    "🔎 La preuve"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "13100",
+      "Preuve manquante : la lecture des livres est vérifiée, leur restitution dans l’échiquier du bureau ne l’est pas.",
+      "13000",
+      "Six cahiers canoniques dans etat/maisons/bureau/documents/books ; couverture.charger(livres=...) les lit déjà."
+     ]
+    },
+    {
+     "cellules": [
+      "13101",
+      "Écart à éprouver : le graphe décrit les dépendances mais aucune proposition de prochain pas n’a été vérifiée dans ce monde.",
+      "13010",
+      "Tables des cahiers ; scripts/plan/couverture/lecture.py lit vers, dep, état et preuve."
+     ]
+    },
+    {
+     "cellules": [
+      "13102",
+      "Preuve manquante : le journal existe, mais la révision visible d’un prochain pas n’a pas été éprouvée.",
+      "13020",
+      "scripts/noyau/bibliotheque.py journalise les modifications ; etat/histoire/affaires.jsonl conserve les poses initiales."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🗝️ La clef",
+    "🔒 Ouvre",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "13200",
+      "Faire lire les mêmes cahiers par les vues existantes.",
+      "13100",
+      "retenue"
+     ]
+    },
+    {
+     "cellules": [
+      "13201",
+      "Justifier les actions proposées depuis leurs liens et les preuves disponibles.",
+      "13101",
+      "retenue"
+     ]
+    },
+    {
+     "cellules": [
+      "13202",
+      "Relire le plan après une preuve favorable puis une contre-preuve.",
+      "13102",
+      "retenue"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions",
+   "colonnes": [
+    "⚔️ N°",
+    "⚔️ L’action",
+    "🗝️ Réalise",
+    "🪶 Office",
+    "📅 Jour dû",
+    "⏳ État",
+    "🔨 Moyens",
+    "📝 Note",
+    "🔗 Dépend de",
+    "📏 Preuve attendue"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "13300",
+      "Afficher les six affaires et leurs pièces dans l’échiquier du bureau.",
+      "13200",
+      "O03",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "11301, 11302",
+      "Identifiants, titres et liens identiques entre bibliothèque, affaire et échiquier ; aucune autre liste faisant autorité."
+     ]
+    },
+    {
+     "cellules": [
+      "13301",
+      "Vérifier puis ajuster la lecture existante du prochain pas sur les affaires du bureau.",
+      "13201",
+      "O03",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "13300",
+      "Une action disponible et une action dépendante affichent chacune cible, verrou, clef, responsable et raison ; dépendance non satisfaite visible ; pas de clôture déduite du seul texte du livrable."
+     ]
+    },
+    {
+     "cellules": [
+      "13302",
+      "Éprouver la révision d’une affaire sans effacer son histoire.",
+      "13202",
+      "O06",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "13301",
+      "Sur une affaire témoin : preuve attachée, conclusion révisée, dépendance reconsidérée ; événements antérieurs conservés et parcours visible ; aucune cible réelle clôturée pour le test."
+     ]
+    }
+   ]
+  }
+ ]
+}

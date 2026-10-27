@@ -1,0 +1,96 @@
+{
+ "personnage_id": "augustine-simonneau",
+ "nom": "Augustine Simonneau",
+ "sous_titre": "Papetière-photographe · vingt-six ans · Niort",
+ "au": "lundi 17 juin 1940",
+ "presentation": "Tu tiens seule la papeterie-photographie Simonneau, à Niort : la vitrine et le comptoir devant, la chambre noire derrière, et ton logement sous le même toit. On te sait patiente et peu bavarde. Les gens te confient leurs portraits, leurs faire-part de deuil et leurs registres, et tu ne racontes rien. Sur ta feuille, ce que tu as vu d'un côté, ce qu'on t'a dit de l'autre : rien de vérifié n'est mélangé au reste.",
+ "ressources": [
+  {"groupe": "Les lieux", "items": [
+   {"nom": "La boutique", "detail": "Vitrine, comptoir, rames de papier et cartons. C'est aussi là que tu vis, seule."},
+   {"nom": "La chambre noire", "detail": "Dans l'arrière-boutique : les cuves, les bains, et l'étagère haute où dorment les affaires des clients, dans une boîte fermée, loin de la vitrine et du mur humide."}
+  ]},
+  {"groupe": "Le matériel", "items": [
+   {"nom": "Un appareil photographique", "detail": "Pour les portraits et la reproduction de documents."},
+   {"nom": "Une presse à composteur", "detail": "Cartes, faire-part, petits imprimés."},
+   {"nom": "De quoi relier", "detail": "La reliure du registre a été cousue et collée hier."},
+   {"nom": "Le téléphone", "detail": "Une ligne à ton nom : Niort 1741."},
+   {"nom": "Un poste de radio", "detail": "Sur secteur, avec les ondes courtes. Il n'a jamais été déclaré."},
+   {"nom": "Deux bicyclettes d'homme", "detail": "Rangées à la maison."}
+  ]},
+  {"groupe": "Les fournitures", "items": [
+   {"nom": "Révélateur", "detail": "Pour deux ou trois jours de travail."},
+   {"nom": "Fixateur", "detail": "Un fond de bidon, mis de côté pour les deux plaques. C'est le seul vrai manque."},
+   {"nom": "Papier photographique", "detail": "De quoi faire une centaine de tirages."},
+   {"nom": "Papier à lettres et enveloppes", "detail": "En quantité."},
+   {"nom": "Cartons de deuil", "detail": "Une boîte."}
+  ]},
+  {"groupe": "L'argent", "items": [
+   {"nom": "Environ 1 340 francs", "detail": "La caisse et ce que tu gardes à la maison."}
+  ]},
+  {"groupe": "Le travail en cours", "items": [
+   {"nom": "En attente de fixateur", "detail": "Quatre rouleaux de film, deux plaques, et douze tirages promis à une cliente pour mardi."},
+   {"nom": "Prêt, à remettre", "detail": "La reliure du registre et la commande de cartes de deuil, sous bande."}
+  ]},
+  {"groupe": "Les papiers et ce que tu sais faire", "items": [
+   {"nom": "Le carnet des travaux", "detail": "Pour chaque client : le nom, la date du dépôt, l'état de l'objet."},
+   {"nom": "La feuille à deux colonnes", "detail": "Vu d'un côté, entendu de l'autre, avec la source et l'heure."},
+   {"nom": "Les affaires des clients", "detail": "Négatifs, épreuves et papiers confiés, rangés par nom. Ils sont sous ta garde, ils ne sont pas à toi."},
+   {"nom": "Ton métier", "detail": "Photographier, développer, tirer ; composer et imprimer de petits imprimés ; relier."}
+  ]},
+  {"groupe": "À portée de main", "items": [
+   {"nom": "L'hyposulfite de la pharmacie de garde", "detail": "Un demi-kilo en vrac, quatre francs cinquante. Tu ne l'as pas pris."},
+   {"nom": "La droguerie du coin", "detail": "Fermée hier, dimanche ; elle devrait rouvrir ce lundi."}
+  ]}
+ ],
+ "contacts": [
+  {"cercle": "La famille", "gens": [
+   {"id": "sim-contact-198", "nom": "Simone Lambert", "metier": "Employée", "age": 18, "lien": "Ta sœur", "presentation": "Ta petite sœur, mariée. C'est la personne au monde en qui tu as le plus confiance."}
+  ]},
+  {"cercle": "Ceux sur qui tu peux compter", "gens": [
+   {"id": "sim-contact-26", "nom": "Émile Guillot", "metier": "Facteur", "age": 23, "lien": "Habitué", "presentation": "Jeune facteur qui passe à la boutique. Il connaît toutes les portes du quartier, et tu le tiens pour sûr."},
+   {"id": "sim-contact-231", "nom": "Raymond Pineau", "metier": "Artisan", "age": 28, "lien": "Habitué", "presentation": "Artisan de ta génération, un habitué. Tu lui fais confiance."},
+   {"id": "sim-contact-10", "nom": "Lucien Ecalle", "metier": "Employé de mairie", "age": 27, "lien": "Camarade d'école, habitué", "presentation": "Tu étais à l'école avec lui, et tu le vois encore souvent. Il est employé à la mairie."},
+   {"id": "sim-contact-151", "nom": "Pierre Lambert", "metier": "Artisan", "age": 33, "lien": "Habitué", "presentation": "Un artisan, un habitué de longue date, en qui tu as confiance."}
+  ]},
+  {"cercle": "Les bonnes connaissances", "gens": [
+   {"id": "sim-contact-9", "nom": "Odette Chaigneau", "metier": "Employée de mairie", "age": 25, "lien": "Camarade d'école, habituée", "presentation": "Une ancienne camarade d'école, employée à la mairie comme Lucien Ecalle. Vous vous voyez régulièrement."},
+   {"id": "sim-contact-46", "nom": "Octave Mainard", "metier": "Vicaire", "age": 32, "lien": "Habitué", "presentation": "Le jeune vicaire. Il passe pour des imprimés de paroisse et des faire-part."},
+   {"id": "sim-contact-247", "nom": "Claude Raffin", "metier": "Artisan", "age": 21, "lien": "Habitué", "presentation": "Un jeune artisan qui vit encore chez ses parents. Un habitué que tu apprécies."},
+   {"id": "sim-contact-33", "nom": "Raoul Héraud", "metier": "Instituteur", "age": 45, "lien": "Habitué", "presentation": "Instituteur, ancien caporal de la Grande Guerre. Il achète son papier chez toi."},
+   {"id": "sim-contact-20", "nom": "Lucienne Moreau", "metier": "Infirmière", "age": 26, "lien": "Camarade d'école", "presentation": "Une camarade d'école devenue infirmière."},
+   {"id": "jeanne-proust", "nom": "Jeanne Proust", "metier": "Médecin", "age": 62, "lien": "Habituée", "presentation": "La doctoresse. Tu la vois souvent ; tu as pensé à elle hier pour trouver du fixateur."},
+   {"id": "auguste-barreau", "nom": "Auguste Barreau", "metier": "Facteur", "age": 26, "lien": "Camarade d'école", "presentation": "Un camarade d'école, facteur lui aussi, comme Émile Guillot."},
+   {"id": "sim-contact-200", "nom": "Marcelle Boinot", "metier": "Commerce", "age": 16, "lien": "Habituée", "presentation": "Une jeune fille de seize ans qui aide au commerce de ses parents. Elle passe souvent."},
+   {"id": "sim-contact-54", "nom": "René Billaud", "metier": "Papetier-photographe", "age": 45, "lien": "Habitué", "presentation": "Ton confrère : il tient lui aussi une papeterie-photographie. Il a peut-être ce qui te manque, et tu as peut-être ce qui lui manque."},
+   {"id": "sim-contact-17", "nom": "Lucien Bouju", "metier": "Chirurgien", "age": 47, "lien": "Habitué", "presentation": "Chirurgien. Un client régulier, respecté en ville."},
+   {"id": "sim-contact-152", "nom": "Léontine Barreau", "metier": "", "age": 12, "lien": "Habituée", "presentation": "Une fillette de douze ans qui fait les courses de sa famille et s'arrête volontiers à la boutique."}
+  ]},
+  {"cercle": "Les connaissances", "gens": [
+   {"id": "sim-contact-39", "nom": "Mathilde Picard", "metier": "Employée au guichet de la gare", "age": 25, "lien": "Camarade d'école", "presentation": "Une camarade d'école. Au guichet de la gare, elle voit passer tous ceux qui partent et qui arrivent."},
+   {"id": "sim-contact-245", "nom": "Léontine Bernard", "metier": "Ouvrière", "age": 23, "lien": "Habituée", "presentation": "Une ouvrière de ton âge, cliente régulière."},
+   {"id": "marius-bonnet", "nom": "Marius Bonnet", "metier": "Curé", "age": 68, "lien": "Habitué", "presentation": "Le vieux curé, ancien de 14. Il commande ses cartes et ses registres chez toi."},
+   {"id": "sim-contact-36", "nom": "Henri Boutin", "metier": "Chauffeur de locomotive", "age": 47, "lien": "Habitué", "presentation": "Cheminot, chauffeur de locomotive, ancien artilleur."},
+   {"id": "sim-contact-220", "nom": "Gaston Tessier", "metier": "", "age": 14, "lien": "Habitué", "presentation": "Un garçon de quatorze ans, de famille de cheminots."},
+   {"id": "sim-contact-229", "nom": "Michel Bernard", "metier": "Commerce", "age": 17, "lien": "Habitué", "presentation": "Dix-sept ans, il aide au commerce de ses parents."},
+   {"id": "sim-contact-226", "nom": "Gaston Gaborit", "metier": "Domestique", "age": 54, "lien": "Habitué", "presentation": "Domestique dans une maison de la ville, ancien caporal. Il vient faire les commissions de ses maîtres."},
+   {"id": "sim-contact-250", "nom": "Henri Sauzeau", "metier": "Artisan", "age": 48, "lien": "Habitué", "presentation": "Un artisan, ancien soldat de 14. Un client, sans plus."}
+  ]},
+  {"cercle": "Ceux que tu connais de vue", "gens": [
+   {"id": "michel", "nom": "Michel Sauzeau", "metier": "Employé", "age": 19, "lien": "Habitué", "presentation": "L'aîné des frères Sauzeau. Il passe régulièrement à la boutique ; tu le connais de comptoir, et tu t'en méfies."},
+   {"id": "lucien-frere-de-michel", "nom": "Lucien « Nantes » Sauzeau", "metier": "", "age": 16, "lien": "Habitué", "presentation": "Le petit frère de Michel. Il vient avec lui ; tu t'en méfies encore davantage."},
+   {"id": "sim-contact-18", "nom": "Daniel Largeaud", "metier": "Brancardier", "age": 47, "lien": "Habitué", "presentation": "Brancardier à l'hôpital. Il passe, vous vous saluez."},
+   {"id": "sim-contact-201", "nom": "Paulette Cosset", "metier": "Couturière", "age": 18, "lien": "Habituée", "presentation": "Une jeune couturière qui vient parfois."},
+   {"id": "sim-contact-217", "nom": "Gabrielle Chaigneau", "metier": "Couturière", "age": 55, "lien": "Habituée", "presentation": "Couturière d'âge mûr, une cliente."},
+   {"id": "sim-contact-72", "nom": "Odile Guillon", "metier": "Dactylo", "age": 39, "lien": "Habituée", "presentation": "Dactylo ; elle achète son papier chez toi."},
+   {"id": "sim-contact-218", "nom": "Daniel Guillon", "metier": "Ouvrier", "age": 42, "lien": "Habitué", "presentation": "Ouvrier, ancien artilleur. Un client que tu connais à peine."},
+   {"id": "sim-contact-234", "nom": "Marcel Sabourin", "metier": "Commerçant", "age": 33, "lien": "Habitué", "presentation": "Un commerçant de la ville. Vous vous croisez."},
+   {"id": "michel-ecalle", "nom": "Michel Ecalle", "metier": "Adjoint au maire", "age": 44, "lien": "Habitué", "presentation": "L'adjoint au maire. Il passe à la boutique, mais tu ne lui accordes aucune confiance."},
+   {"id": "sim-contact-61", "nom": "Bernard Gaillard", "metier": "", "age": 34, "lien": "Habitué", "presentation": "Un homme de trente-quatre ans que tu croises souvent. Tu ne sais pas grand-chose de lui, et tu ne lui fais pas confiance."},
+   {"id": "sim-contact-69", "nom": "Marcel Bonnet", "metier": "Greffier", "age": 26, "lien": "Camarade d'école", "presentation": "Un camarade d'école, aujourd'hui greffier. Vous ne vous parlez plus guère."},
+   {"id": "sim-contact-239", "nom": "Lucienne Frouin", "metier": "Ouvrière", "age": 43, "lien": "Habituée", "presentation": "Une ouvrière, cliente de passage."},
+   {"id": "sim-contact-244", "nom": "Odile Renaud", "metier": "Ouvrière", "age": 34, "lien": "Habituée", "presentation": "Une ouvrière, cliente de passage."},
+   {"id": "sim-contact-252", "nom": "Roger Thibault", "metier": "Ouvrier", "age": 60, "lien": "Habitué", "presentation": "Un vieil ouvrier, ancien artilleur. Tu le connais de vue."}
+  ]}
+ ],
+ "source": "Établie le 27.10 depuis l'export Modern Front (person-84, people.json) et le fil joué les 16 et 17 juin. Âges ramenés de 1943 à 1940. Écartés : les neuf occupants allemands (Kommandantur, Sipo-SD) du carnet exporté, qui n'arrivent à Niort qu'à partir du 28 juin 1940, et les métiers postérieurs à juin 1940."
+}

@@ -8,7 +8,7 @@
 // Timeout large : la page doit attendre le verdict, c'est un CALL.
 const path = require("path");
 const { execFile } = require("child_process");
-const { RACINE } = require("../http");
+const { DEPOT } = require("../http");
 const { envoyer } = require("../http");
 
 const VERBES = { tenter: "--tenter", faire: "--faire",
@@ -31,11 +31,11 @@ function traiter(req, res, url) {
         return envoyer(res, 400, JSON.stringify(
           { ok: false, erreur: "il faut de, verbe (tenter|faire|demander|dire) et texte" }));
       }
-      const args = [path.join(RACINE, "scripts", "parloir.py"), drapeau,
+      const args = [path.join(DEPOT, "scripts", "parloir.py"), drapeau,
                     "--joueur", "--de", String(d.de), "--a", "mj",
                     String(d.texte)];
       execFile(process.env.PYTHON || "python", args,
-        { cwd: RACINE, timeout: 300000, maxBuffer: 4 * 1024 * 1024,
+        { cwd: DEPOT, timeout: 300000, maxBuffer: 4 * 1024 * 1024,
           windowsHide: true,
           env: Object.assign({}, process.env, { PYTHONIOENCODING: "utf-8" }) },
         (err, stdout, stderr) => {

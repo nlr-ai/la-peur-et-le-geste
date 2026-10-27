@@ -1,0 +1,232 @@
+{
+ "nom": "Havre des Lisières",
+ "viewBox": "0 0 820 600",
+ "fonds": [],
+ "decor": [],
+ "mur": "M35 35H785V555H35Z",
+ "guet": [],
+ "rose": null,
+ "etiquettes": [],
+ "salles": [
+  {
+   "id": "havre-des-lisieres-entree",
+   "nom": "Entrée",
+   "forme": {
+    "r": [
+     70,
+     410,
+     190,
+     115,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    444
+   ],
+   "lignes": [
+    "Entrée"
+   ],
+   "quoi": "Accès local au siège.",
+   "motifs": [
+    "entrée"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "havre-des-lisieres-salle-commune",
+   "nom": "Table des mandats",
+   "forme": {
+    "r": [
+     300,
+     240,
+     220,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    410,
+    274
+   ],
+   "lignes": [
+    "Table des mandats"
+   ],
+   "quoi": "Qui l'on accueille, pour combien de temps, et à quel risque pour les autres refuges.",
+   "motifs": [
+    "table des mandats",
+    "salle commune"
+   ],
+   "alias": [
+    "salle commune"
+   ],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "havre-des-lisieres-liens",
+   "nom": "Chambre des liens",
+   "forme": {
+    "r": [
+     70,
+     70,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    104
+   ],
+   "lignes": [
+    "Chambre des liens"
+   ],
+   "quoi": "🔍 Divination : on y cherche les menaces connues à partir des liens dont on dispose.",
+   "motifs": [
+    "chambre des liens"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "havre-des-lisieres-dortoir",
+   "nom": "Dortoir d'accueil",
+   "forme": {
+    "r": [
+     300,
+     70,
+     220,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    410,
+    104
+   ],
+   "lignes": [
+    "Dortoir d'accueil"
+   ],
+   "quoi": "Une place, des protections, des vivres : accueillir engage des ressources réelles.",
+   "motifs": [
+    "dortoir d'accueil"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "havre-des-lisieres-reserves",
+   "nom": "Réserves communes",
+   "forme": {
+    "r": [
+     560,
+     70,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    104
+   ],
+   "lignes": [
+    "Réserves communes"
+   ],
+   "quoi": "Ce que les refuges versent en commun, et ce qu'il en reste.",
+   "motifs": [
+    "réserves communes"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "havre-des-lisieres-transfert",
+   "nom": "Aire de transfert",
+   "forme": {
+    "r": [
+     70,
+     240,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    274
+   ],
+   "lignes": [
+    "Aire de transfert"
+   ],
+   "quoi": "🚪 Espace : rien ne part sans une équipe installée à l'autre bout.",
+   "motifs": [
+    "aire de transfert"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": true
+  },
+  {
+   "id": "havre-des-lisieres-atelier",
+   "nom": "Atelier des équipements",
+   "forme": {
+    "r": [
+     560,
+     240,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    274
+   ],
+   "lignes": [
+    "Atelier des",
+    "équipements"
+   ],
+   "quoi": "🏺 Enchantement : les équipements préparés, en coopération avec les écoles.",
+   "motifs": [
+    "atelier des équipements"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "havre-des-lisieres-voile",
+   "nom": "Le voile",
+   "forme": {
+    "r": [
+     560,
+     410,
+     190,
+     115,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    444
+   ],
+   "lignes": [
+    "Le voile"
+   ],
+   "quoi": "🪞 Illusions : ce qui cache le havre — y compris à ses propres membres.",
+   "motifs": [
+    "le voile"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  }
+ ]
+}

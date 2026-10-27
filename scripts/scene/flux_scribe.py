@@ -14,14 +14,31 @@ import unicodedata
 from plan.expose import bibliotheque  # LA PORTE de plan/
 from etat.expose import tables  # LA PORTE de etat/
 
-racine = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-chemin = os.path.join(racine, "etat", "flux.jsonl")
-monde_p = os.path.join(racine, "etat", "monde.json")
-joueurs_p = os.path.join(racine, "etat", "joueurs.json")
-horloges_p = os.path.join(racine, "etat", "horloges.json")
+import racines
+
+# LES DEUX RACINES, ET CE FICHIER LES A CONFONDUES AU PRIX D'UNE LIGNE DE FIL.
+#
+# Mesure du 9.9 au soir : une poussee lancee sous `CONSEIL_MONDE=cities-of-light`
+# a ecrit dans le fil de WESTEROS et l'a validee contre les horloges de Westeros
+# — le refus parlait de `rhaenyra` et de `nicolas-lester-reynolds` dans un monde
+# qui n'a ni l'un ni l'autre. Il a fallu retirer la ligne a la main.
+#
+# La cause tient au nom : cette racine s'appelait `racine`, en minuscules, et la
+# mesure de `racines.py --verifier` ne cherchait que `RACINE`. Elle annoncait
+# donc « 19 fichiers » alors que celui-ci — LA SEULE PLUME DU FLUX et le seul
+# possesseur de l'horloge — n'etait pas compte. La mesure a ete elargie le meme
+# soir : elle capture desormais le nom, quel qu'il soit.
+#
+# `racine` reste le DEPOT : deux usages plus bas visent `ecrans/portraits` et
+# `ecrans/dessins`, qui sont du code. Les cinq chemins d'etat suivent le monde.
+racine = racines.DEPOT
+chemin = os.path.join(racines.etat(), "flux.jsonl")
+monde_p = os.path.join(racines.etat(), "monde.json")
+joueurs_p = os.path.join(racines.etat(), "joueurs.json")
+horloges_p = os.path.join(racines.etat(), "horloges.json")
 # Les affectations : ou les choses de la fiction se tiennent dans le monde en
 # volume, et qui a le droit d'en voir le nom (voir scripts/affecter.py).
-corps_p = os.path.join(racine, "etat", "corps.json")
+corps_p = os.path.join(racines.etat(), "corps.json")
 
 JOURS_PAR_LUNE = 30
 LUNES_PAR_AN = 12

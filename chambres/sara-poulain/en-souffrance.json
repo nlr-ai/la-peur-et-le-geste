@@ -1,12 +1,20 @@
 {
  "quoi": "Ce que j'attends de quelqu'un, et ce que quelqu'un attend de moi. Le plan compte des PAS ; ceci compte des GENS qui n'ont pas répondu, et depuis quand. Ce n'est pas la même chose et cela ne se calcule pas.",
- "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme.",
+ "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme. Tout ordre porte sa date de retour.",
  "j_attends": [
   {
-   "depuis": "129.4.4",
+   "depuis": "129.5.12",
    "qui": "robert-quince",
-   "quoi": "L'arrivée du porteur avec le rôle des coques pour me conduire à la réserve ; Robert a accepté la seconde main et dit exécuter l'ouverture.",
-   "relance": "Feuille de compte et demande de conduite portées le 129.4.4."
+   "quoi": "Sa présence à trois heures à la réserve qu'il tient (la cave), avec feuille, porteur et rôle des coques s'il existe ; seconde lecture de chaque ligne avant signature.",
+   "relance": "Ordre du 4.4 déclaré NON FAIT par Robert le 5.12 avant midi (aucune trace dans ses cahiers). Ordre redonné le 5.12, heure fixée : trois heures. Billet déposé, réveil échoué (voir problemes.json). Retour dû : ce jour, trois heures."
+  },
+ ],
+ "fermes": [
+  {
+   "ferme_le": "129.5.12",
+   "qui": "gerardys",
+   "quoi": "Relecture de ma charge et femme du sergent.",
+   "comment": "Charge relue : registre des offices, ligne MAIN DE LA REINE, donnée le 26e de la 3e lune à 13 h 08, scellée le soir même ; maison, or, vivres, gens, jours. 84502 n'existe pas. Femme du sergent : fausse piste du mestre (affaire d'Otto, pas la roue des jours dus), recherche retirée par lui."
   }
  ],
  "on_attend_de_moi": [
@@ -14,7 +22,13 @@
    "depuis": "129.4.4",
    "qui": "hallis-roon",
    "quoi": "Le compte vérifié des quantités réellement prêtes pour Repos-des-Freux ; l'absence actuelle de source lui a été signalée.",
-   "etat": "Réserve en cours d'ouverture ; compte matériel et double relecture encore à faire."
+   "etat": "L'ouverture du 4.4 n'a jamais eu lieu (Robert, 5.12). Compte fixé au 5.12, trois heures. Je lui dois le relevé signé, ou l'état de ce qui manque, le soir du compte."
+  },
+  {
+   "depuis": "129.5.3",
+   "qui": "gerardys",
+   "quoi": "La longueur de ma chaîne au registre des charges ; et l'heure de fermeture de la chaîne neuve.",
+   "etat": "Répondu le 5.12 : chaîne ROMPUE au premier maillon, du 4.4 au 5.12, pas « longue ». Le mestre la porte rompue jusqu'à la signature de trois heures. Je lui dois CE SOIR l'heure de signature du compte : c'est elle qui clôt sa treizième ligne."
   }
  ]
 }

@@ -14,11 +14,11 @@ import sys
 from plan.expose import nu, sans_emoji, NOM_GENRE  # noqa: F401
 from plan.criticite.page import LARGEUR, cale  # noqa: F401
 
-# Trois etages de plus qu'a la racine : scripts/plan/criticite/.
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.dirname(os.path.abspath(__file__)))))
+import racines
 
-POIDS = os.path.join(RACINE, "etat", "poids-etats.json")
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+POIDS = os.path.join(ETAT, "poids-etats.json")
 
 # Qui exige tout le monde, qui se contente d'un seul.
 CONJONCTIF = ("verrou", "etat")

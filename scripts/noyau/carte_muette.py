@@ -51,7 +51,9 @@ import os
 import re
 import sys
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import racines
+
+RACINE = racines.racine()
 
 PARLANTS = ("replique", "geste")
 DECLENCHEURS = 3      # à partir de combien d'occasions muettes on le dit

@@ -1,0 +1,683 @@
+{
+ "_": "Les journées de Lyon en mars 1943. Une bande = {de, a, salle, lieu} en minutes 0-1439. Le jour se lève vers 420 (7 h, heure allemande) et tombe vers 1140 (19 h). COUVRE-FEU : minuit jusqu'au 21 mars, 21 h à partir du 22 mars (probable), 23 h 30 à partir du 15 mai, 22 h à partir du 29 mai (docs/recherche-lyon-1943/). Les bandes de la population tiennent déjà sous 21 h, sauf le recruteur : son modèle 'recruteur' se bascule à la main vers 'recruteur-21h' le 22 mars. Policiers, miliciens, cheminots et SD ont des laissez-passer. Les tirages de nuit, les rendez-vous et les détentions se posent par presence.json, pas par ces bandes. INVENTÉ ET DÉCLARÉ : tous les horaires ; les logements (Perret et Merle aux Voraces, Marchal, Dutreuil, Mazet et Bouvard sur le plateau, rapportés à la salle de plan la plus proche) ; la Sûreté et la permanence de la Milice rapportées à la place des Terreaux ; les salles hors plan (domicile-aubrac, lycee-lucie-aubrac, planque-didot, marseille, dijon, londres), qu'on ne met pas sur la carte de Marcel. Fichier technique, hors docs/schema.md.",
+ "peremption_minutes": 240,
+ "modeles": {
+  "atelier": {
+   "nom": "La journée d'un ouvrier de l'imprimerie",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 390,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 390,
+     "a": 450,
+     "salle": "@dortoir",
+     "pourquoi": "la soupe, la descente vers l'atelier"
+    },
+    {
+     "de": 450,
+     "a": 720,
+     "salle": "@poste",
+     "ferme": true,
+     "pourquoi": "la casse et la presse"
+    },
+    {
+     "de": 720,
+     "a": 810,
+     "salle": "@poste",
+     "pourquoi": "la gamelle"
+    },
+    {
+     "de": 810,
+     "a": 1110,
+     "salle": "@poste",
+     "ferme": true,
+     "pourquoi": "la casse et la presse"
+    },
+    {
+     "de": 1110,
+     "a": 1440,
+     "salle": "@dortoir",
+     "pourquoi": "la soupe, la radio, le lit avant le couvre-feu"
+    }
+   ]
+  },
+  "patron": {
+   "nom": "La journée du maître imprimeur, qui loge au-dessus de l'atelier",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 390,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 390,
+     "a": 1140,
+     "salle": "@poste",
+     "pourquoi": "l'atelier, les clients, les comptes"
+    },
+    {
+     "de": 1140,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  },
+  "a-domicile": {
+   "nom": "La journée d'une couturière à domicile",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 360,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 360,
+     "a": 540,
+     "salle": "@poste",
+     "pourquoi": "le ménage, l'ouvrage"
+    },
+    {
+     "de": 540,
+     "a": 630,
+     "salle": "place-croix-rousse",
+     "lieu": "La place de la Croix-Rousse, Lyon",
+     "pourquoi": "le marché, les queues aux tickets"
+    },
+    {
+     "de": 630,
+     "a": 1440,
+     "salle": "@poste",
+     "pourquoi": "l'ouvrage, la soupe, la radio du voisin"
+    }
+   ]
+  },
+  "cheminot": {
+   "nom": "La journée d'un cheminot aux Brotteaux",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 300,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 300,
+     "a": 360,
+     "salle": "@dortoir",
+     "pourquoi": "le café d'orge, la descente à pied"
+    },
+    {
+     "de": 360,
+     "a": 1080,
+     "salle": "@poste",
+     "pourquoi": "le service : les quais, les convois"
+    },
+    {
+     "de": 1080,
+     "a": 1440,
+     "salle": "@dortoir",
+     "pourquoi": "la soupe, la BBC du soir"
+    }
+   ]
+  },
+  "institutrice": {
+   "nom": "La journée d'une institutrice du plateau qui tient un groupe",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 420,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 420,
+     "a": 480,
+     "salle": "@dortoir",
+     "pourquoi": "les cahiers"
+    },
+    {
+     "de": 480,
+     "a": 690,
+     "salle": "@poste",
+     "ferme": true,
+     "pourquoi": "la classe"
+    },
+    {
+     "de": 690,
+     "a": 810,
+     "salle": "@poste",
+     "pourquoi": "le repas, la cour"
+    },
+    {
+     "de": 810,
+     "a": 990,
+     "salle": "@poste",
+     "ferme": true,
+     "pourquoi": "la classe"
+    },
+    {
+     "de": 990,
+     "a": 1200,
+     "salle": "place-bellecour",
+     "lieu": "La place Bellecour, Lyon",
+     "pourquoi": "les rendez-vous de la presqu'île, jamais deux fois au même endroit"
+    },
+    {
+     "de": 1200,
+     "a": 1440,
+     "salle": "@dortoir",
+     "pourquoi": "rentrée avant le couvre-feu"
+    }
+   ]
+  },
+  "recruteur": {
+   "nom": "La journée du recruteur, couvre-feu à minuit (jusqu'au 21 mars)",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 450,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 450,
+     "a": 480,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 480,
+     "a": 1020,
+     "salle": "place-des-terreaux",
+     "lieu": "Ses tournées de représentant, presqu'île, Lyon",
+     "pourquoi": "ses tournées de représentant en papeterie, en presqu'île"
+    },
+    {
+     "de": 1020,
+     "a": 1380,
+     "salle": "@poste",
+     "pourquoi": "l'arrière-salle, les jeunes qu'on lui envoie"
+    },
+    {
+     "de": 1380,
+     "a": 1440,
+     "salle": "@dortoir",
+     "pourquoi": "rentre avant minuit"
+    }
+   ]
+  },
+  "recruteur-21h": {
+   "nom": "La journée du recruteur, couvre-feu à 21 h (à partir du 22 mars)",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 450,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 450,
+     "a": 480,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 480,
+     "a": 1020,
+     "salle": "place-des-terreaux",
+     "lieu": "Ses tournées de représentant, presqu'île, Lyon",
+     "pourquoi": "ses tournées de représentant en papeterie, en presqu'île"
+    },
+    {
+     "de": 1020,
+     "a": 1230,
+     "salle": "@poste",
+     "pourquoi": "l'arrière-salle, les jeunes qu'on lui envoie"
+    },
+    {
+     "de": 1230,
+     "a": 1440,
+     "salle": "@dortoir",
+     "pourquoi": "rentre avant 21 h"
+    }
+   ]
+  },
+  "imprimeur-clandestin": {
+   "nom": "La journée du Vieux : la cave l'après-midi, le tirage certaines nuits (posés à la main)",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 480,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 480,
+     "a": 720,
+     "salle": "@dortoir",
+     "pourquoi": "la soupe, le journal autorisé lu pour savoir ce qu'il faut contredire"
+    },
+    {
+     "de": 720,
+     "a": 1080,
+     "salle": "@poste",
+     "pourquoi": "la cave : les stencils, l'encre, le papier"
+    },
+    {
+     "de": 1080,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  },
+  "pianiste": {
+   "nom": "La journée du pianiste, qui ne sort presque pas",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 480,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil, jamais dos à la fenêtre"
+    },
+    {
+     "de": 480,
+     "a": 840,
+     "salle": "@dortoir",
+     "pourquoi": "le chiffre, les messages"
+    },
+    {
+     "de": 840,
+     "a": 870,
+     "salle": "@poste",
+     "ferme": true,
+     "pourquoi": "la vacation vers Londres"
+    },
+    {
+     "de": 870,
+     "a": 1440,
+     "salle": "@dortoir",
+     "pourquoi": "une sortie à la tombée du jour, pas plus"
+    }
+   ]
+  },
+  "logeuse": {
+   "nom": "La journée d'une logeuse de Saint-Georges",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 390,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 390,
+     "a": 450,
+     "salle": "rue-saint-jean",
+     "lieu": "La rue Saint-Jean, Lyon",
+     "pourquoi": "la messe basse, les commissions"
+    },
+    {
+     "de": 450,
+     "a": 1440,
+     "salle": "@poste",
+     "pourquoi": "le ménage, le poêle, la fenêtre sur cour"
+    }
+   ]
+  },
+  "policier": {
+   "nom": "La journée d'un inspecteur de la Sûreté",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 420,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 420,
+     "a": 480,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 480,
+     "a": 1140,
+     "salle": "@poste",
+     "pourquoi": "le service, les visites, les rapports"
+    },
+    {
+     "de": 1140,
+     "a": 1440,
+     "salle": "@dortoir",
+     "pourquoi": "il a un laissez-passer, mais rentre"
+    }
+   ]
+  },
+  "milicien": {
+   "nom": "La journée d'un jeune milicien",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 450,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 450,
+     "a": 1200,
+     "salle": "@poste",
+     "pourquoi": "la permanence, les rues, se faire voir"
+    },
+    {
+     "de": 1200,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  },
+  "officier-sd": {
+   "nom": "La journée d'un officier du SD",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 420,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 420,
+     "a": 1380,
+     "salle": "@poste",
+     "pourquoi": "les interrogatoires, les rapports, les indicateurs"
+    },
+    {
+     "de": 1380,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  },
+  "clandestin": {
+   "nom": "La journée d'un chef clandestin qui change de rendez-vous chaque jour",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 420,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 420,
+     "a": 480,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 480,
+     "a": 1200,
+     "salle": "@poste",
+     "pourquoi": "les rendez-vous, les boîtes"
+    },
+    {
+     "de": 1200,
+     "a": 1440,
+     "salle": "@dortoir",
+     "pourquoi": "rentre avant le couvre-feu"
+    }
+   ]
+  },
+  "professeure": {
+   "nom": "La journée d'une professeure qui tient un mouvement",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 420,
+     "salle": "@dortoir",
+     "pourquoi": "le sommeil"
+    },
+    {
+     "de": 420,
+     "a": 480,
+     "salle": "@dortoir"
+    },
+    {
+     "de": 480,
+     "a": 720,
+     "salle": "@poste",
+     "ferme": true,
+     "pourquoi": "les cours"
+    },
+    {
+     "de": 720,
+     "a": 1200,
+     "salle": "@dortoir",
+     "pourquoi": "les copies, les rendez-vous du mouvement"
+    },
+    {
+     "de": 1200,
+     "a": 1440,
+     "salle": "@dortoir"
+    }
+   ]
+  },
+  "au-loin": {
+   "nom": "Hors de Lyon : sa journée se tient là-bas",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 1440,
+     "salle": "@poste",
+     "pourquoi": "loin de Lyon"
+    }
+   ]
+  }
+ },
+ "gens": {
+  "louis-perret": {
+   "modele": "atelier",
+   "dortoir": {
+    "salle": "cour-des-voraces",
+    "lieu": "Son logement de la cour des Voraces, sur les pentes, Lyon"
+   },
+   "poste": {
+    "salle": "imprimerie-chabert",
+    "lieu": "L'imprimerie Chabert, montée de la Grande-Côte, Lyon"
+   }
+  },
+  "gaston-chabert": {
+   "modele": "patron",
+   "dortoir": {
+    "salle": "imprimerie-chabert",
+    "lieu": "Le logement au-dessus de l'imprimerie Chabert, Lyon"
+   },
+   "poste": {
+    "salle": "imprimerie-chabert",
+    "lieu": "L'imprimerie Chabert, montée de la Grande-Côte, Lyon"
+   }
+  },
+  "etienne-marchal": {
+   "modele": "recruteur",
+   "dortoir": {
+    "salle": "place-croix-rousse",
+    "lieu": "Sa chambre sur le plateau de la Croix-Rousse, Lyon"
+   },
+   "poste": {
+    "salle": "cafe-gros-caillou",
+    "lieu": "Le café du Gros Caillou, boulevard de la Croix-Rousse, Lyon"
+   },
+   "_": "Au 22 mars (couvre-feu à 21 h), basculer modèle -> recruteur-21h."
+  },
+  "simone-dutreuil": {
+   "modele": "institutrice",
+   "dortoir": {
+    "salle": "place-croix-rousse",
+    "lieu": "Son logement de fonction, école du plateau, Lyon"
+   },
+   "poste": {
+    "salle": "place-croix-rousse",
+    "lieu": "L'école du plateau de la Croix-Rousse, Lyon"
+   }
+  },
+  "auguste-merle": {
+   "modele": "imprimeur-clandestin",
+   "dortoir": {
+    "salle": "cour-des-voraces",
+    "lieu": "Son logement au-dessus de la cour des Voraces, Lyon"
+   },
+   "poste": {
+    "salle": "cave-merle",
+    "lieu": "La cave de Merle, sur les pentes, Lyon"
+   }
+  },
+  "yves-le-gall": {
+   "modele": "pianiste",
+   "dortoir": {
+    "salle": "rue-saint-jean",
+    "lieu": "Sa chambre du moment, rue Saint-Jean, Lyon"
+   },
+   "poste": {
+    "salle": "rue-saint-jean",
+    "lieu": "Sa chambre du moment, rue Saint-Jean, Lyon"
+   },
+   "_": "Il change de chambre tous les trois jours : on déplace dortoir et poste à chaque étape legall-chambre."
+  },
+  "jeanne-thivolet": {
+   "modele": "logeuse",
+   "dortoir": {
+    "salle": "chambre-thivolet",
+    "lieu": "La chambre sur cour de la veuve Thivolet, Saint-Georges, Lyon"
+   },
+   "poste": {
+    "salle": "chambre-thivolet",
+    "lieu": "La chambre sur cour de la veuve Thivolet, Saint-Georges, Lyon"
+   }
+  },
+  "louise-rivoire": {
+   "modele": "a-domicile",
+   "dortoir": {
+    "salle": "logement-rivoire",
+    "lieu": "Le logement des Rivoire, sur le plateau, Lyon"
+   },
+   "poste": {
+    "salle": "logement-rivoire",
+    "lieu": "Le logement des Rivoire, sur le plateau, Lyon"
+   }
+  },
+  "jean-rivoire": {
+   "modele": "cheminot",
+   "dortoir": {
+    "salle": "logement-rivoire",
+    "lieu": "Le logement des Rivoire, sur le plateau, Lyon"
+   },
+   "poste": {
+    "salle": "gare-des-brotteaux",
+    "lieu": "La gare des Brotteaux, Lyon"
+   }
+  },
+  "raoul-mazet": {
+   "modele": "policier",
+   "dortoir": {
+    "salle": "place-croix-rousse",
+    "lieu": "Son appartement du plateau, Lyon"
+   },
+   "poste": {
+    "salle": "place-des-terreaux",
+    "lieu": "Le service de la Sûreté, presqu'île, Lyon"
+   }
+  },
+  "lucien-bouvard": {
+   "modele": "milicien",
+   "dortoir": {
+    "salle": "place-croix-rousse",
+    "lieu": "Chez sa mère, sur le plateau, Lyon"
+   },
+   "poste": {
+    "salle": "place-des-terreaux",
+    "lieu": "La permanence de la Milice et les rues de la presqu'île, Lyon"
+   }
+  },
+  "klaus-barbie": {
+   "modele": "officier-sd",
+   "dortoir": {
+    "salle": "hotel-terminus",
+    "lieu": "L'hôtel Terminus, à Perrache, Lyon"
+   },
+   "poste": {
+    "salle": "hotel-terminus",
+    "lieu": "L'hôtel Terminus, à Perrache, Lyon"
+   },
+   "_": "À l'étape barbie-berthelot (mars, jour inconnu), basculer poste -> avenue-berthelot."
+  },
+  "jean-multon": {
+   "modele": "au-loin",
+   "dortoir": {
+    "salle": "marseille",
+    "lieu": "Marseille"
+   },
+   "poste": {
+    "salle": "marseille",
+    "lieu": "Marseille"
+   },
+   "_": "Salle hors plan. À l'étape multon-lyon (24 mai), basculer vers le modèle clandestin, poste avenue-berthelot."
+  },
+  "robert-moog": {
+   "modele": "au-loin",
+   "dortoir": {
+    "salle": "dijon",
+    "lieu": "Dijon"
+   },
+   "poste": {
+    "salle": "dijon",
+    "lieu": "Dijon"
+   },
+   "_": "Salle hors plan. À l'étape moog-lyon (24 mai), basculer vers Lyon."
+  },
+  "jean-moulin": {
+   "modele": "au-loin",
+   "dortoir": {
+    "salle": "londres",
+    "lieu": "Londres"
+   },
+   "poste": {
+    "salle": "londres",
+    "lieu": "Londres"
+   },
+   "_": "Salle hors plan. Au retour (vers le 20 mars), basculer vers le modèle clandestin, sur des salles hors plan : ses logements lyonnais ne sont pas sur la carte de Marcel."
+  },
+  "raymond-aubrac": {
+   "modele": "clandestin",
+   "dortoir": {
+    "salle": "domicile-aubrac",
+    "lieu": "Le domicile des Aubrac, Lyon (hors plan)"
+   },
+   "poste": {
+    "salle": "place-bellecour",
+    "lieu": "Ses rendez-vous de la presqu'île, Lyon"
+   }
+  },
+  "lucie-aubrac": {
+   "modele": "professeure",
+   "dortoir": {
+    "salle": "domicile-aubrac",
+    "lieu": "Le domicile des Aubrac, Lyon (hors plan)"
+   },
+   "poste": {
+    "salle": "lycee-lucie-aubrac",
+    "lieu": "Le lycée où elle enseigne, Lyon (hors plan)"
+   }
+  },
+  "rene-hardy": {
+   "modele": "clandestin",
+   "dortoir": {
+    "salle": "planque-didot",
+    "lieu": "Une planque de Didot, Lyon (hors plan)"
+   },
+   "poste": {
+    "salle": "gare-de-perrache",
+    "lieu": "La gare de Perrache, Lyon"
+   }
+  }
+ }
+}

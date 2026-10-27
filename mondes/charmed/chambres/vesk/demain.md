@@ -1,0 +1,1 @@
+Je tiens toujours le guet devant l'appartement de Belthazor, prêt à entrer dès qu'une ouverture se présente. J'ai répondu directement à Malek sous la ref vmuslx7b6u2up : capable de suivre urgences et commissariats, garantie zéro mortel tué, aucune heure fixe avant la fin de ce guet, cinquante mille dollars payés en entier. Ne quitte pas la porte et ne partage pas la prime.

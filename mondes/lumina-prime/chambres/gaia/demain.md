@@ -1,0 +1,5 @@
+J’ai poursuivi 50303 sans refaire la feuille déjà livrée.
+
+J’ai contre-lu 30303, 60308, 70305 et 20564 : leurs remises portent hall–salon–galerie, pas Quai–Parvis–Data Gardens. J’ai inscrit ce résultat dans [affaire-espaces-publics.json](C:/Users/reyno/le-conseil2/mondes/lumina-prime/etat/maisons/cite-lumina/documents/books/affaire-espaces-publics.json).
+
+50303 est désormais bloquée uniquement sur trois preuves de terrain : les deux ancrages Quai–Parvis, les jalons dans chaque sens et l’aller-retour vécu. Je n’ai inventé ni marche, ni droit, ni décision de Nova.

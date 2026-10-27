@@ -1,0 +1,1 @@
+La veille 1120 serait accomplie et son résultat porté à la Source au matin du 10 octobre. Ne pas refaire la lecture et ne pas relancer la Source. Attendre qu'une seconde bouche ayant vu la sœur — la Glaneuse ou la meute — confirme Piper et la même fêlure avant de tenir l'état 1100 pour atteint. Sans cette confirmation, conserver la date et l'issue au conditionnel.

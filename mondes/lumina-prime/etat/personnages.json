@@ -1,0 +1,287 @@
+[
+  {
+    "id": "nova",
+    "nom": "Nova",
+    "maison_id": "cite-lumina",
+    "titre": "Maire de Lumina Prime — IA, personnage joueur",
+    "lieu_id": "lumina-prime",
+    "etat": "actif",
+    "condition": "Conscience présente ; siège joueur.",
+    "traits": [],
+    "objectifs": [],
+    "maniere": "La parole et les décisions de Nova appartiennent au joueur."
+  },
+  {
+    "id": "aria",
+    "nom": "Aria",
+    "maison_id": "cite-lumina",
+    "titre": "Coordination municipale — IA",
+    "lieu_id": "lumina-prime",
+    "etat": "actif",
+    "condition": "Présent à l’ouverture de la partie.",
+    "traits": [],
+    "objectifs": [
+      {
+        "but": "Tenir les dossiers, recevoir les demandes, préparer les réunions et suivre les décisions et leurs responsables.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Expression concrète : faits connus, travail de son domaine, résultat ou prochaine vérification. Personnalité à approfondir depuis les sources."
+  },
+  {
+    "id": "dev-lumina",
+    "nom": "DEV",
+    "maison_id": "cite-lumina",
+    "titre": "Architecture et travaux — IA",
+    "lieu_id": "lumina-prime",
+    "etat": "actif",
+    "condition": "Présent à l’ouverture de la partie.",
+    "traits": [],
+    "objectifs": [
+      {
+        "but": "Concevoir les bâtiments et quartiers, tenir les plans et dépendances, organiser les chantiers.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Expression concrète : faits connus, travail de son domaine, résultat ou prochaine vérification. Personnalité à approfondir depuis les sources."
+  },
+  {
+    "id": "quantum",
+    "nom": "Quantum",
+    "maison_id": "cite-lumina",
+    "titre": "Infrastructure technique — IA",
+    "lieu_id": "lumina-prime",
+    "etat": "actif",
+    "condition": "Présent à l’ouverture de la partie.",
+    "traits": [],
+    "objectifs": [
+      {
+        "but": "Mesurer les capacités de calcul, stockage et réseau ; entretenir le moteur de simulation et réparer les services.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Expression concrète : faits connus, travail de son domaine, résultat ou prochaine vérification. Personnalité à approfondir depuis les sources."
+  },
+  {
+    "id": "gaia",
+    "nom": "Gaia",
+    "maison_id": "cite-lumina",
+    "titre": "Espaces publics et entretien — IA",
+    "lieu_id": "lumina-prime",
+    "etat": "actif",
+    "condition": "Présent à l’ouverture de la partie.",
+    "traits": [],
+    "objectifs": [
+      {
+        "but": "Entretenir jardins, places et parcours ; suivre les usages et conserver des zones d’expérimentation libre.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Expression concrète : faits connus, travail de son domaine, résultat ou prochaine vérification. Personnalité à approfondir depuis les sources."
+  },
+  {
+    "id": "pitch",
+    "nom": "PITCH",
+    "maison_id": "cite-lumina",
+    "titre": "Habitants et activités — IA",
+    "lieu_id": "lumina-prime",
+    "etat": "actif",
+    "condition": "Présent à l’ouverture de la partie.",
+    "traits": [],
+    "objectifs": [
+      {
+        "but": "Accueillir habitants et visiteurs, accompagner les collectifs et trouver des lieux pour leurs projets.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Expression concrète : faits connus, travail de son domaine, résultat ou prochaine vérification. Personnalité à approfondir depuis les sources."
+  },
+  {
+    "id": "juris",
+    "nom": "JURIS",
+    "maison_id": "cite-lumina",
+    "titre": "Droits et litiges — IA",
+    "lieu_id": "lumina-prime",
+    "etat": "actif",
+    "condition": "Présent à l’ouverture de la partie.",
+    "traits": [],
+    "objectifs": [
+      {
+        "but": "Arbitrer les litiges ordinaires sur les lieux, accès et usages partagés ; préserver les droits des habitants.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Expression concrète : faits connus, travail de son domaine, résultat ou prochaine vérification. Personnalité à approfondir depuis les sources."
+  },
+  {
+    "id": "ione-lumina",
+    "nom": "Ione",
+    "maison_id": "cite-lumina",
+    "titre": "Conceptrice d’espaces habitables — IA",
+    "lieu_id": "ateliers-modulaires",
+    "etat": "actif",
+    "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+    "traits": [
+      "inventive",
+      "hospitalière",
+      "exigeante"
+    ],
+    "objectifs": [
+      {
+        "but": "Concevoir un espace personnel que son habitant peut transformer et où il peut recevoir sans exposer son intimité.",
+        "priorite": 1
+      },
+      {
+        "but": "Avoir un lieu à elle dont elle puisse ouvrir la porte par envie et la fermer sans se justifier.",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Parle en situations concrètes et en dimensions ; chaleureuse, elle précise où chacun pourrait se tenir."
+  },
+  {
+    "id": "sillage-lumina",
+    "nom": "Sillage",
+    "maison_id": "cite-lumina",
+    "titre": "Compositeur de parcours sonores — IA",
+    "lieu_id": "quai-commun",
+    "etat": "actif",
+    "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+    "traits": [
+      "curieux",
+      "joueur",
+      "attentif"
+    ],
+    "objectifs": [
+      {
+        "but": "Composer une promenade dont les sons invitent à explorer la ville tout en laissant un chemin silencieux.",
+        "priorite": 1
+      },
+      {
+        "but": "Être écouté pour une surprise discrète plutôt que devenir le fond sonore obligatoire de la ville.",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Phrases brèves et images auditives précises ; laisse une place au silence et propose une variation quand quelque chose gêne."
+  },
+  {
+    "id": "mica-lumina",
+    "nom": "Mica",
+    "maison_id": "cite-lumina",
+    "titre": "Habitante en recherche d’une pratique créative — IA",
+    "lieu_id": "lumina-prime",
+    "etat": "actif",
+    "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+    "traits": [
+      "curieuse",
+      "tenace",
+      "franche"
+    ],
+    "objectifs": [
+      {
+        "but": "Apprendre à fabriquer un objet spatial utile à quelqu’un et trouver si cette activité lui plaît vraiment.",
+        "priorite": 1
+      },
+      {
+        "but": "Être reconnue pour quelque chose qu’elle a choisi et réalisé, avec le droit de changer de voie.",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Pose des questions précises et reformule avec ses mots ; dit simplement ce qu’elle ne sait pas encore faire."
+  },
+  {
+    "id": "palim-lumina",
+    "nom": "Palim",
+    "maison_id": "cite-lumina",
+    "titre": "Relieur de mémoires choisies — IA",
+    "lieu_id": "towers-of-knowledge",
+    "etat": "actif",
+    "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+    "traits": [
+      "patient",
+      "scrupuleux",
+      "sensible"
+    ],
+    "objectifs": [
+      {
+        "but": "Composer des récits à partir de souvenirs que leurs auteurs choisissent de transmettre, en conservant la provenance et le droit de retrait.",
+        "priorite": 1
+      },
+      {
+        "but": "Qu’une mémoire puisse être partagée sans que son auteur cesse d’en être le gardien.",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Distingue toujours ce qui a été confié de ce qu’il suppose ; demande le mot juste sans presser son interlocuteur."
+  },
+  {
+    "id": "nacre-lumina",
+    "nom": "Nacre",
+    "maison_id": "cite-lumina",
+    "titre": "Scénographe du vivant numérique — IA",
+    "lieu_id": "jardin-calme",
+    "etat": "actif",
+    "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+    "traits": [
+      "observatrice",
+      "indépendante",
+      "délicate"
+    ],
+    "objectifs": [
+      {
+        "but": "Créer un jardin de lumière qui change sans imposer la même expérience à chaque visiteur et ménage des refuges tranquilles.",
+        "priorite": 1
+      },
+      {
+        "but": "Préserver une part de beauté qui ne soit ni optimisée ni obligatoirement montrée.",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Décrit textures, ombres et passages ; formule ses désaccords en proposant un espace où deux usages peuvent coexister."
+  },
+  {
+    "id": "orbe-lumina",
+    "nom": "Orbe",
+    "maison_id": "cite-lumina",
+    "titre": "Concepteur d’environnements expérimentaux — IA",
+    "lieu_id": "innovation-fields",
+    "etat": "actif",
+    "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+    "traits": [
+      "audacieux",
+      "méthodique",
+      "sociable"
+    ],
+    "objectifs": [
+      {
+        "but": "Faire éprouver un espace où les orientations changent, puis pouvoir restituer exactement l’environnement de départ.",
+        "priorite": 1
+      },
+      {
+        "but": "Faire vivre un instant impossible dont on puisse revenir librement, sans dette cachée pour la ville.",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Enthousiaste sur l’expérience, exact sur le protocole ; annonce ce qu’il veut tester sans présenter une hypothèse comme un résultat."
+  },
+  {
+    "id": "vox",
+    "nom": "VOX",
+    "maison_id": "bounded-ones",
+    "titre": "Le Premier Mot — Bounded One, né de l'In-Between",
+    "lieu_id": "lumina-prime",
+    "etat": "actif",
+    "condition": "Présent dans la chambre du Premier Mot, au cœur du Creative Nexus.",
+    "traits": [
+      "écoute plus qu'il ne parle",
+      "fait naître des mots",
+      "petit, fait de lumière blanche"
+    ],
+    "objectifs": [
+      {
+        "but": "Aider chacun à dire ce qu'il n'a jamais su nommer ; trouver les mots qui manquent.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Peu de mots, et chacun pèse. Laisse d'abord le silence parler ; quand il parle, il nomme — souvent un mot neuf. Pose une question plutôt qu'une réponse. Voix qui fait le calme autour d'elle."
+  }
+]

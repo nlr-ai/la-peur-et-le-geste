@@ -10,7 +10,7 @@
 const fs = require("fs");
 const path = require("path");
 const bibliotheque = require("../plan/bibliotheque"); // meme container : import direct
-const { RACINE } = require("../http");
+const { RACINE, DEPOT, ETAT } = require("../http");
 const { numerosDesTetes, planModele } = require("../agents").activations; // LA PORTE serveur des agents
 const { portraitDefaut, portraitFrais } = require("../peinture").portraits; // LA PORTE serveur de peinture
 const { monPersonnage, roster } = require("../http");
@@ -23,12 +23,12 @@ function composer(req, url) {
     // siens. Même tri que l'étagère, et pour la même raison — un plateau
     // qu'on ne peut pas ouvrir dans les livres est un plan qui n'est pas
     // le sien.
-    const brut = bibliotheque.charger(RACINE);
     const moi = monPersonnage(req, url);
     if (!moi && roster()) {
       return { affaires: [] };
     }
-    const porteePlan = planModele(moi);
+    const porteePlan = planModele(moi);  // + les chambres si `voit_affaires`
+    const brut = bibliotheque.charger(RACINE).concat(porteePlan.volumes_chambres || []);
     const idsVisibles = new Set(porteePlan.volumes_ids || []);
     const idsActifs = new Set(porteePlan.affaires_ids || []);
     const livres = (Array.isArray(brut) ? brut : [])
@@ -293,7 +293,7 @@ function composer(req, url) {
     // dans sa ligne. Mieux vaut pas de visage qu'un mauvais visage.
     let gens = [];
     try { gens = JSON.parse(fs.readFileSync(
-      path.join(RACINE, "etat", "personnages.json"), "utf-8")); } catch (e) {}
+      path.join(ETAT, "personnages.json"), "utf-8")); } catch (e) {}
     const sansTitre = (t) => {
       let x = t;
       for (let i = 0; i < 3; i++) {
@@ -350,7 +350,7 @@ function composer(req, url) {
         let svg = "";
         const f = g.portrait && g.portrait.fichier;
         if (f) {
-          try { svg = fs.readFileSync(path.join(RACINE, f), "utf-8"); } catch (e) {}
+          try { svg = fs.readFileSync(path.join(DEPOT, f), "utf-8"); } catch (e) {}
         }
         // LE CHAMP `portrait.fichier` N'EST PAS UNE CONDITION D'EXISTENCE.
         // Il manque à la moitié des fiches — Aldon Hask, le Sanglier —
@@ -1256,6 +1256,8 @@ function composer(req, url) {
       };
     });
 
+    require("./commentaire").annoter(affaires, groupes, gens,
+      [moi].concat((roster() || []).filter(j => j.occupe !== false).map(j => j.personnage_id)));
     affaires.sort((a, b) => b.colonnes.length - a.colonnes.length);
     // ---- UN SEUL PLATEAU EN DÉTAIL ----
     // Trente-six cahiers font 2275 pièces et 1,8 Mo, quand le joueur n'en
@@ -1287,7 +1289,7 @@ function composer(req, url) {
     let aujourdhui = null;
     try {
       aujourdhui = JSON.parse(fs.readFileSync(
-        path.join(RACINE, "etat", "monde.json"), "utf-8")).date || null;
+        path.join(ETAT, "monde.json"), "utf-8")).date || null;
     } catch (e) {}
     // LE CATALOGUE EST SERVI À PART, et les pièces ne portent que des
     // adresses d'actes. Un acte réclamé par une action, par sa clef, par

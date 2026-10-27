@@ -36,3 +36,20 @@ Il ne m'a rien offert. C'est la seule personne de cette affaire qui ne m'ait
 rien offert, et c'est pour cela que je lui ai repondu deux fois. **Qui ne me
 propose rien ne me tient par rien.** Le jour ou il m'offrira une protection,
 je saurai que quelque chose a change de son cote, pas du mien.
+
+## Le 12e au soir — il s'est raturé, et moi aussi
+
+Quatrième billet. **Il a retiré de lui-même le fait qu'il m'avait donné** : ce
+n'est pas lord Ormund qui lui avait donné mon nom, c'est la note de la copie, et
+c'est lui qui l'avait porté à Ormund. Ormund n'a demandé que la coque. Il avait
+relu ses propres lettres pour s'en apercevoir. Un homme qui relit ses lettres
+avant qu'on le prenne en faute, je sais ce que ça coûte : c'est ce que je fais.
+
+J'avais bâti sur son fait faux une phrase tournée vers Ormund. Je l'ai retirée
+le soir même, par le parloir, et je lui ai demandé de la rayer s'il l'avait
+recopiée. **Nous nous sommes corrigés l'un l'autre le même jour, sans rien nous
+devoir. C'est la seule façon d'écrire à un prince que je connaisse maintenant.**
+
+Il a fait partir mon mot à lord Otto : la case vide paraphée comme vide, sans mon
+nom. Il ne m'offre toujours rien. Je ne lui écris plus sur cette ligne : si elle
+change, c'est le livre qui le dira.

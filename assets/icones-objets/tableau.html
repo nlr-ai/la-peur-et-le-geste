@@ -1,0 +1,131 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Le tableau</title>
+<style>
+*{box-sizing:border-box}
+:root{--fond:#f4f0e6;--papier:#fffdf6;--encre:#282e28;--terne:#6a7465;--bord:#c4c7b9;--actif:#38543e;
+ --prerequis-bg:#f4e4dc;--prerequis:#a4643f;--personne-bg:#e5ecf7;--personne:#4f6f9e;
+ --materiel-bg:#f3edcf;--materiel:#8f7a2c;--produit-bg:#e3efdc;--produit:#4c7a3c}
+body{margin:0;background:var(--fond);color:var(--encre);font:14px system-ui;height:100vh;display:flex;flex-direction:column}
+button,input{font:inherit;color:inherit;border:1px solid #b8beae;border-radius:5px;background:var(--papier);padding:7px 10px}
+button{cursor:pointer}
+header{padding:10px 14px;border-bottom:1px solid var(--bord);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+h1{font:23px Georgia;margin:0 12px 0 0}
+#search{flex:1 1 180px;max-width:280px}
+#language[aria-pressed=true]{background:var(--actif);color:#fff}
+.legende{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto;font-size:12px}
+nav{display:flex;gap:2px;padding:8px 14px 0;border-bottom:1px solid var(--bord);overflow-x:auto;scrollbar-width:thin}
+nav button{border:1px solid var(--bord);border-bottom:0;border-radius:6px 6px 0 0;background:transparent;white-space:nowrap;padding:7px 12px;color:var(--terne)}
+nav button[aria-selected=true]{background:var(--papier);color:var(--encre);font-weight:600;margin-bottom:-1px;border-bottom:1px solid var(--papier)}
+nav small{font-weight:normal;color:var(--terne);margin-left:4px}
+main{flex:1;overflow:auto;background:var(--papier);padding:10px 14px 40px}
+ul{list-style:none;margin:0;padding:0}
+.action{padding:10px 0 12px;border-bottom:1px dashed var(--bord)}
+.action.flash{animation:flash 1.4s}
+@keyframes flash{0%,40%{background:#f4e9c7}100%{background:transparent}}
+.tete{display:flex;align-items:center;gap:10px}
+.tete img{width:36px;height:36px;flex:none}
+.tete b{font-size:15px}
+.tete small{display:block;color:var(--terne);font-size:12px}
+.besoins{margin:6px 0 0 18px;padding-left:28px;border-left:2px solid var(--bord)}
+.besoins li{display:flex;align-items:center;gap:8px;padding:3px 0}
+.besoins img{width:22px;height:22px;flex:none}
+.puce{display:inline-block;min-width:76px;text-align:center;font-size:11px;font-weight:600;padding:2px 7px;border-radius:10px;border:1px solid;flex:none}
+.prerequis .puce,.puce.prerequis{background:var(--prerequis-bg);color:var(--prerequis);border-color:var(--prerequis)}
+.personne .puce,.puce.personne{background:var(--personne-bg);color:var(--personne);border-color:var(--personne)}
+.materiel .puce,.puce.materiel{background:var(--materiel-bg);color:var(--materiel);border-color:var(--materiel)}
+.produit .puce,.puce.produit{background:var(--produit-bg);color:var(--produit);border-color:var(--produit)}
+.besoins li.prerequis a{color:var(--prerequis)}
+.besoins a{color:inherit;cursor:pointer;text-decoration:underline dotted}
+.qte{color:var(--terne)}
+#vide,#error{color:var(--terne);padding:20px 0}#error{color:#a52d20}
+@media(max-width:650px){header{gap:6px}h1{font-size:19px}.legende{margin-left:0}.besoins{margin-left:8px;padding-left:14px}.puce{min-width:0}}
+</style>
+<header><h1>Le tableau</h1><input id="search" type="search" aria-label="Chercher une action" placeholder="Chercher une action…"><button id="language" aria-pressed="true">Langage codé</button>
+<div class="legende"><span class="puce prerequis">Préalable</span><span class="puce personne">Personne</span><span class="puce materiel">Matériel</span><span class="puce produit">Produit</span></div></header>
+<nav id="onglets" role="tablist"></nav>
+<main id="liste" role="tabpanel"><p id="error" role="alert">Chargement…</p></main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);
+let catalogue=[],byId=new Map(),groupes=[],onglet=null,coded=true;
+try{coded=localStorage.getItem('peur-tableau-langage')!=='clair';onglet=localStorage.getItem('peur-tableau-onglet');}catch(e){}
+const categoryNames={
+'Actions — Recruter et organiser':'Équipes','Actions — Se couvrir':'Ateliers',
+'Actions — Communiquer':'Bons et commandes','Actions — Renseigner':'Mesures',
+'Actions — S’équiper':'Fournitures',"Actions — S'équiper":'Fournitures',
+'Actions — Aider et soustraire':'Accueil et livraison','Actions — Saboter':'Reprise des ouvrages',
+'Actions — Combattre':'Grands travaux'};
+const groupName=cat=>coded?(categoryNames[cat]||cat):cat.replace(/^Actions — /,'');
+const itemName=item=>coded?(item.nom_couvert||item.nom):(item.nom_original||item.nom);
+const otherName=item=>coded?(item.nom_original||item.nom):(item.nom_couvert||'');
+const imgPath=id=>(coded?'/tableau-svg/':'/tableau-svg-clair/')+id+'.svg';
+const clean=s=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+// La couleur dit la sorte de requirement : l'action à faire avant, les gens, le matériel, ce qui en sort.
+function sorte(need){
+ if(need.relation==='prerequis')return['prerequis','Préalable'];
+ if(need.relation==='produit')return['produit','Produit'];
+ return byId.get(need.icon)?.type_noeud==='metier'?['personne','Personne']:['materiel','Matériel'];
+}
+const ORDRE={prerequis:0,personne:1,materiel:2,produit:3};
+function img(id,size){const i=document.createElement('img');i.src=imgPath(id);i.alt='';i.width=i.height=size;return i;}
+function save(k,v){try{localStorage.setItem(k,v);}catch(e){}}
+function tabs(){
+ $('onglets').replaceChildren();
+ for(const g of groupes){
+  const b=document.createElement('button');b.role='tab';b.setAttribute('aria-selected',String(g.cat===onglet));
+  b.append(groupName(g.cat));const n=document.createElement('small');n.textContent=g.actions.length;b.append(n);
+  b.onclick=()=>{onglet=g.cat;save('peur-tableau-onglet',onglet);$('search').value='';tabs();liste();};
+  $('onglets').append(b);
+ }
+}
+function ligneAction(item){
+ const li=document.createElement('li');li.className='action';li.id=item.id;
+ const tete=document.createElement('div');tete.className='tete';
+ const nom=document.createElement('div');const b=document.createElement('b');b.textContent=itemName(item);nom.append(b);
+ if(otherName(item)){const s=document.createElement('small');s.textContent=otherName(item);nom.append(s);}
+ tete.append(img(item.id,36),nom);li.append(tete);
+ const needs=[...(item.noeuds_associes||[])].sort((a,b)=>ORDRE[sorte(a)[0]]-ORDRE[sorte(b)[0]]);
+ if(needs.length){
+  const ul=document.createElement('ul');ul.className='besoins';
+  for(const need of needs){
+   const [cls,libelle]=sorte(need),cible=byId.get(need.icon);
+   const r=document.createElement('li');r.className=cls;
+   const puce=document.createElement('span');puce.className='puce';puce.textContent=libelle;
+   let nomBesoin;
+   if(cible?.type_noeud==='action'){nomBesoin=document.createElement('a');nomBesoin.onclick=()=>aller(cible);}
+   else nomBesoin=document.createElement('span');
+   nomBesoin.textContent=cible?itemName(cible):need.icon;
+   r.append(puce,img(need.icon,22),nomBesoin);
+   if(need.quantity!==undefined&&cible?.type_noeud!=='action'){const q=document.createElement('span');q.className='qte';q.textContent='× '+need.quantity.toLocaleString('fr-FR');r.append(q);}
+   ul.append(r);
+  }
+  li.append(ul);
+ }
+ return li;
+}
+function liste(){
+ const q=clean($('search').value),ul=document.createElement('ul');
+ // Une recherche traverse les onglets : on cherche une action, pas un rayon.
+ const visibles=q?groupes.flatMap(g=>g.actions):(groupes.find(g=>g.cat===onglet)?.actions||[]);
+ for(const item of visibles){if(q&&!clean(item.nom+' '+item.nom_couvert+' '+item.nom_original).includes(q))continue;ul.append(ligneAction(item));}
+ $('liste').replaceChildren(ul);
+ if(!ul.children.length){const p=document.createElement('p');p.id='vide';p.textContent='Aucune action ne correspond.';$('liste').append(p);}
+ document.querySelectorAll('#onglets button').forEach(b=>b.setAttribute('aria-selected',String(!q&&b.firstChild.textContent===groupName(onglet))));
+}
+function aller(item){
+ onglet=item.categorie;save('peur-tableau-onglet',onglet);$('search').value='';tabs();liste();
+ const el=$(item.id);if(el){el.scrollIntoView({block:'center',behavior:'smooth'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1500);}
+}
+function languageUI(){$('language').textContent=coded?'Langage codé':'Langage clair';$('language').setAttribute('aria-pressed',String(coded));$('language').title=coded?'Passer au langage clair':'Passer au langage codé';}
+$('language').onclick=()=>{coded=!coded;save('peur-tableau-langage',coded?'code':'clair');languageUI();tabs();liste();};
+window.addEventListener('storage',e=>{if(e.key==='peur-tableau-langage'){coded=e.newValue!=='clair';languageUI();tabs();liste();}});
+$('search').oninput=liste;
+languageUI();
+(async()=>{try{
+ const r=await fetch('/tableau-catalogue');if(!r.ok)throw Error('Tableau indisponible. Rechargez la page.');
+ catalogue=await r.json();byId=new Map(catalogue.map(e=>[e.id,e]));
+ const actions=catalogue.filter(e=>e.type_noeud==='action');
+ groupes=[...new Set(actions.map(e=>e.categorie))].map(cat=>({cat,actions:actions.filter(e=>e.categorie===cat)}));
+ if(!groupes.some(g=>g.cat===onglet))onglet=groupes[0]?.cat;
+ tabs();liste();
+}catch(e){$('error').textContent=e.message;}})();
+</script></html>

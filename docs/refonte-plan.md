@@ -180,12 +180,16 @@ Le déménagement proprement dit, une fois qu'il y a où déménager.
 - Créer les deux paquets, et un troisième minuscule pour les tests.
 - Répartir les tables partagées. C'est un travail de données, pas de code :
   154 fiches, 76 chambres, 49 arêtes, une maison, 140 items de flux.
-- **Trancher le cas du siège à cheval.** Un joueur qui vit à Braavos et une
-  reine qui vit à Peyredragon ne sont pas deux sièges du même monde. Soit
-  Nicolas devient un siège de Venise et sort du roster de Westeros, soit l'on
-  écrit ce qu'est un siège qui traverse, et ce que ça veut dire pour son
-  horloge. La seconde option est un vrai sujet de jeu ; ce n'est pas le moment
-  de le traiter. **Il part à Venise.**
+- **Le siège à cheval — tranché le 9.9, et dans les deux sens.** Nicolas devient
+  un siège de Venise et sort du roster de Westeros, **et** la traversée devient
+  une chose écrite : [`traversee.md`](traversee.md). Ce n'est pas un compromis,
+  c'est l'ordre — on ne peut traverser que si l'on a un chez-soi d'où partir, et
+  un personnage sans monde natal n'est pas un voyageur mais une incohérence.
+  Ce que le lot 2 en retient tient en deux champs : `monde_natal` sur le siège,
+  et **une amarre** — une seule correspondance datée entre les deux calendriers,
+  d'où tout le reste se calcule. La visite et ses gardes viennent après.
+  La contrainte que la note impose au lot 2, et la seule : **ne pas supposer
+  qu'une fiche appartient à exactement un monde.**
 - Les horloges deviennent par monde, puis par siège dans le monde. Venise se
   donne son propre calendrier dans son manifeste, et cesse d'être en 129 AC.
 - Les importateurs de citoyens, les scripts de regroupement et de liaison
@@ -313,12 +317,19 @@ sans discussion.
 Trouvés pendant la mesure. Chacun coûterait une journée s'il était découvert
 en chemin.
 
-1. **Le siège à cheval.** Tranché au lot 2 : Nicolas part à Venise. Si l'on
-   veut un jour un personnage qui traverse, ça se conçoit exprès, et ça touche
-   l'horloge.
-2. **L'horloge est indexée par siège, pas par monde.** C'est la racine du
-   problème du temps, et elle est dans un fichier de quatre clefs. Facile à
-   changer, invisible tant qu'on ne le cherche pas.
+1. **Le siège à cheval.** Tranché le 9.9 : il part à Venise, et la traversée
+   s'écrit — [`traversee.md`](traversee.md). Le piège reste entier pour qui
+   l'ignorerait : dupliquer une chambre dans deux paquets ne fabrique pas un
+   voyageur, ça fabrique deux hommes du même nom qui divergent au premier
+   réveil.
+2. **L'horloge est indexée par siège, pas par monde — et c'est JUSTE.** C'était
+   noté ici comme la racine du problème du temps ; la note de traversée montre
+   que c'est l'inverse. Un homme vit des minutes, et il en vit autant où qu'il
+   soit : ce qui change d'un monde à l'autre n'est pas la durée, c'est le NOM
+   qu'on donne au jour. L'horloge par siège reste ; ce qui manque est l'amarre.
+   Le vrai défaut est ailleurs, et il est plus bête : les quatre sièges se
+   partagent un fichier, et Venise y est donc calée sur le calendrier des
+   Targaryen.
 3. **Les identifiants de session sont dérivés du nom et de la date.** Deux
    Marie dans deux mondes partagent une tête, en silence, sans erreur.
 4. **La topologie fait déjà la moitié du travail.** Braavos est une composante
@@ -335,7 +346,202 @@ en chemin.
 
 ---
 
-## 8. Ce que l'épreuve ne dit pas
+## 8. Où en est le chantier
+
+Journal, tenu à mesure. Une ligne n'y entre que quand elle est **vérifiée**.
+
+### 9 septembre 2026 — lot 0 fait, lot 1 posé
+
+**Lot 0.**
+
+- 101 fichiers retirés de la racine : 94 brouillons de poussée suivis par git,
+  plus `NUL`, `err.txt`, `sec.txt`, `dec.txt`, `sur.txt`, `msg.json`,
+  `prev.json` et `patch_gemini.py` (un correctif à usage unique déjà appliqué).
+  Le `.gitignore` ferme les motifs, avec le raisonnement au-dessus des lignes.
+- `metier.md` réparé : il faisait 108 lignes dont les 45 premières étaient
+  l'exact doublon des suivantes, tronqué en pleine phrase. Il en fait 58. Le
+  bloc final « Directive Évolutive / agent autotélique / tu es autorisé à
+  chercher du pouvoir sur la simulation » est retiré — il était injecté dans le
+  prompt système de **chaque** PNJ, dans un registre étranger à tout le reste
+  du manuel.
+- Le miroir des manuels est réparé. Il avait dérivé **avant** ce chantier :
+  `scripts/noyau/AGENTS.md` avait perdu les cinq modules de partie ajoutés la
+  semaine précédente, alors qu'un script et un test existent pour le tenir.
+- **La route de vérification passe de cinq gardes à huit.** Les trois ajoutées
+  existaient toutes, écrites et vertes, et ne tournaient pas :
+  `serveur/test_siege.js` (le brouillard, vérifié par mutation),
+  `serveur/test_marche.js` (les distances), et `scripts/tests/essai_occupation.py`
+  — trente cas qu'aucun lanceur ne collectait, son nom ne commençant pas par
+  `test_`.
+
+**Lot 1.**
+
+- `scripts/noyau/racines.py` et `serveur/racines.js` : deux implémentations, un
+  seul contrat. `CONSEIL_RACINE`, puis `CONSEIL_MONDE`, puis la disposition
+  héritée. Un monde nommé qui n'existe pas plante et ne sert jamais celui d'à
+  côté.
+- **La disposition héritée est le défaut, à l'octet près.** Sans variable, tout
+  rend exactement ce qui était rendu avant. Le lot est donc additif : rien ne
+  bouge tant que personne ne nomme un monde.
+- `tables.py` et `serveur/contexte.js` passent par le résolveur. Les deux
+  racines sont désormais **nommées séparément** : `DEPOT` (le code, immuable) et
+  `RACINE`/`ETAT` (le monde). Le piège a failli se refermer deux fois pendant
+  l'écriture — le `--verifier` des tables balaie les `*.py` suivis par git, et
+  le serveur sert `ecrans/jeu.html`, tous deux depuis une variable nommée
+  `RACINE` : pointer un monde y ferait chercher du code dans un dossier de
+  données.
+- `mondes/_epreuve/` existe : un monde de service, an 1, une salle, un témoin,
+  sa propre monnaie. Caché du menu du joueur, jamais de la machine.
+- `scripts/tests/test_racines.py` : dix épreuves, dont **l'accord des deux
+  langues**, comparé sur les deux SORTIES et non sur les deux textes.
+  **Vérifié par mutation** : casser le côté Node fait tomber deux épreuves avec
+  le bon message ; restaurer les fait passer.
+- Mesure neuve dans la route : **74 fichiers décident encore seuls où vit
+  l'état.** Ce chiffre ne doit que descendre, un fichier par commit.
+
+**Ce que le monde d'épreuve a trouvé le jour même.** Le serveur démarré dessus
+servait Caraxès, Vhagar, Meleys et Syrax à un monde qui n'a ni Westeros ni
+dragons : neuf entités étaient recopiées **en dur** dans une route, et
+partaient donc avec n'importe quel monde. Elles vivent maintenant dans
+`etat/dragons.json` — un fichier que `noyau/partie_cartes.py` lisait déjà, sans
+qu'il existe, si bien que la partie rendait des ids nus là où elle voulait des
+noms. Le monde d'épreuve n'a servi que ses deux entités, le monde réel ses 320.
+
+**Deux serveurs, deux mondes, côte à côte, au même instant.** C'est la bascule
+démontrée — pas encore le menu, qui est le lot 6.
+
+**Ce qui reste rouge, et ne vient pas d'ici** : `chainage-actions` signale 13
+références d'action vers des actes absents. C'était rouge avant ce chantier ;
+ce sont des données de jeu, pas du code, et rien n'y a été touché.
+
+### 9 septembre, seconde passe — la panne, et ce qu'elle a appris
+
+Cinq chantiers ont été menés en parallèle. La session s'est interrompue pendant
+qu'ils travaillaient : trois avaient posé du travail partiel, deux n'avaient
+rien posé, et **le dépôt était cassé** — deux gardes vertes passées au rouge.
+
+**La panne, parce qu'elle vaut une règle.** La migration avait remplacé
+
+```
+RACINE = os.path.dirname(...)   ;   ETAT = os.path.join(RACINE, "etat")
+```
+
+par `ETAT = racines.etat()` **seul**, en retirant `RACINE`. Quatre modules
+frères importaient ce nom, à travers un import circulaire. Le symptôme n'a pas
+été une erreur de nom à la ligne fautive, mais
+`ImportError: cannot import name 'RACINE' from partially initialized module`
+**à l'autre bout du cercle**, à trois fichiers de distance de la cause.
+
+> **On ne supprime jamais un nom qu'un module exposait.** Un fichier qui
+> définissait `RACINE` continue de la définir — `racines.DEPOT` — même quand
+> plus rien ne semble la lire. Ce qui la lit peut être de l'autre côté d'un
+> cycle, où la disparition ne se signale pas.
+
+Quatre modules réparés (`temps/regence.py`, `lecture.py`, `disponibilite.py`,
+`gardes/sieges.py`). Le dernier portait en prime un vrai défaut : il lisait le
+fil par `RACINE + "etat"`, donc **le fil du monde d'à côté** dès qu'un monde
+était nommé — et c'est la garde des audiences.
+
+**Ce qui a été fini à la main :** `serveur/monde3d.js`, qui mélangeait trois
+racines (quinze chemins vers les artefacts 3D et les sources Python, deux vers
+l'état, un déjà juste) ; et la moitié écran du lot 4, laissée déclarée mais non
+câblée — un `UNITES` lu nulle part, avec un grand commentaire décrivant un
+dispositif qui n'existait pas. Un constant mort documenté se lit comme fini.
+
+**Le manifeste du monde réel existe** (`manifeste.json`), et il est **prouvé
+inerte** : la même sonde, avec et sans lui, rend des valeurs identiques, les
+deux exécutions ayant abouti. La première tentative de preuve était fausse — les
+deux côtés plantaient sur le même import circulaire, et le `diff` vide donnait
+un vert obtenu par deux échecs identiques.
+
+**Et la preuve inverse, qui est celle qui compte** : sous `CONSEIL_MONDE=_epreuve`,
+la monnaie devient « piece », les titres deviennent « sieur, dame », et le
+compteur d'argent suit. Le moteur ne connaît plus la monnaie ; le monde la lui
+dit. Les deux sens sont gardés par `test_racines.py` (12 épreuves), dans des
+processus séparés — ces tables se calculent au chargement, les comparer dans une
+même session ne mesurerait que l'ordre des imports.
+
+### 9 septembre, troisième passe — E12 tenue, et la mesure qui mentait
+
+**Un troisième monde existe : `mondes/cities-of-light/`.** Notre époque, peuplée
+d'agents — huit habitants, huit villes, six maisons, sa monnaie en dollars, six
+genres d'unités dont **l'agent, qui est le dragon de ce monde** (la seule pièce
+qui décide seule d'une journée, d'où sa propre famille de filtre). Il a son
+manifeste, son état, ses chambres, son plan de ville, ses armes, ses cadrages,
+un volume qu'on peut ouvrir, et une scène d'ouverture jouée.
+
+**E12 est tenue, et voici la formulation honnête.** Le monde lui-même est
+**purement de la donnée** : aucune ligne de moteur n'a été écrite pour qu'il
+fonctionne. Mais l'ajouter a **révélé quatre fuites** qui ne pouvaient pas se
+voir avec un seul monde, et celles-là ont demandé du code :
+
+1. Le registre des lieux 3D annonçait « le monde 3D de Peyredragon est PÉRIMÉ »
+   au démarrage d'un monde qui n'a pas de Peyredragon.
+2. La date s'affichait « **2026 AC** » — notre époque datée depuis la conquête
+   d'Aegon. Le format vient maintenant du manifeste.
+3. Le même correctif a d'abord échoué en lisant le manifeste **au chargement**
+   du module, alors que sa balise est déclarée après : on lit à l'appel.
+4. Et la plus grave, ci-dessous.
+
+**LA MESURE MENTAIT, ET ELLE A COÛTÉ UNE LIGNE DE FIL.** Une poussée lancée
+sous `CONSEIL_MONDE=cities-of-light` a écrit dans le fil de **Westeros**, en la
+validant contre les horloges de Westeros — le refus parlait de `rhaenyra` et de
+`nicolas-lester-reynolds` dans un monde qui n'a ni l'un ni l'autre. Il a fallu
+retirer la ligne à la main.
+
+La cause tient à un nom. `scripts/scene/flux_scribe.py` — **la seule plume du
+flux et le seul possesseur de l'horloge** — nommait sa racine `racine`, en
+minuscules, et la mesure ne cherchait que `RACINE`. Elle annonçait donc « 19
+fichiers restants » alors que **trente** restaient, dont les satellites de la
+porte de l'état (`etat/entree.py`, `empreintes.py`, `purge.py`) et la feuille de
+reprise.
+
+> **Un compteur qui ne compte qu'une convention de nommage est pire qu'aucun
+> compteur : il donne l'air d'avoir fini.** La mesure capture désormais le nom,
+> quel qu'il soit, et vérifie que c'est bien lui qu'on colle à `etat`.
+
+Vrai compte après réparation de la mesure **et** de la plume : **29**.
+
+**Ce que les autres chantiers ont rendu** : les plans de château ont quitté le
+code (899 lignes → 44 ; le `replaceAll` qui fabriquait Braavos depuis Peyredragon
+a disparu), les blasons et les cadrages avec eux, et 45 fichiers Python ont
+migré. Le vocabulaire de règles vient du manifeste, prouvé dans les deux sens :
+sous le monde d'épreuve la monnaie devient « piece » et les titres « sieur,
+dame ».
+
+**Un piège de parallélisme, pour mémoire** : le chantier des plans avait retiré
+sa route de la table après vérification, en le signalant. Sans cette lecture, le
+plan du château et les bannières seraient restés **vides** — le repli est vide à
+dessein, un plan à moitié juste faisant cliquer une porte qui n'existe pas.
+
+### 10 septembre — la porte d'écriture change de monde
+
+Préalable au quatrième monde (`charmed-1906`) : **la porte de `ajouter.py`
+écrivait encore dans Westeros.** `etat/entree.py` calculait sa racine depuis
+`__file__` ; sous n'importe quel monde nommé, chaque acte, parole ou annale
+posé « une entrée à la fois » partait dans l'état de Rhaenyra. Même défaut dans
+ses deux satellites (`empreintes.py` pour `veille.py`, `purge.py` pour
+`purger.py`) et dans `agents/matiere.py`, la matière de `dossier.py` — qui
+aurait rassemblé le dossier d'un habitant dans les tables d'un autre monde.
+
+Les quatre lisent `racines.racine()`. Le nom `racine` est **gardé** et désigne
+désormais la racine du monde : `test_chainage_actions` le détourne vers un
+dossier jetable, et le retirer aurait fait écrire ce test dans le vrai `etat/`.
+Vérifié : sous `CONSEIL_MONDE=cities-of-light`, `entree.chemin("actes")`,
+`veille --voir`, `dossier --sur fanal` et `purger` (mode montrer) visent le
+paquet ; sans variable, les mêmes chemins qu'avant. Huit gardes, sept vertes,
+`chainage-actions` rouge comme avant. **Mesure : 29 → 25.**
+
+### Ce que le prochain lot prend
+
+Lot 1, la suite : les 74 fichiers, et la vingtaine d'usages du serveur qui
+visent le code depuis `RACINE` au lieu de `DEPOT`. Puis le lot 2, qui n'a plus
+d'obstacle technique — seulement un travail de données, et la décision sur le
+siège à cheval.
+
+---
+
+## 9. Ce que l'épreuve ne dit pas
 
 Elle ne dit rien de la scalabilité ni de l'accessibilité, qui sont les deux
 autres contraintes du chantier. C'est délibéré : ce sont des travaux

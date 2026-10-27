@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La lisière respire — maquette pour Ione</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #07100f; color: #d9e9e1; }
+    body { max-width: 960px; margin: 0 auto; padding: 2rem; }
+    .note { max-width: 70ch; line-height: 1.5; }
+    .scene { border: 1px solid #385d50; border-radius: 1rem; overflow: hidden; background: #10231e; }
+    svg { display: block; width: 100%; height: auto; }
+    .lisiere { opacity: 0; transition: opacity 500ms ease; }
+    #light:checked ~ .scene .lisiere { opacity: .76; }
+    label { display: inline-block; margin: 1rem 0; padding: .7rem 1rem; border: 1px solid #75d8a5; border-radius: .5rem; cursor: pointer; }
+    input { margin-right: .6rem; }
+    .legend { display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: .95rem; }
+    .legend span::before { content: ""; display: inline-block; width: 1rem; height: 1rem; margin-right: .4rem; vertical-align: -.15rem; border-radius: .2rem; }
+    .passage::before { background: #07100f; border: 1px solid #8aa59a; }
+    .refuge::before { background: #020605; border: 1px solid #8aa59a; }
+    .cour::before { background: #10231e; border: 1px solid #385d50; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>La lisière respire</h1>
+    <p class="note">Maquette abstraite sur copie, sans mesure du Jardin calme. Elle ne capte, n’enregistre, n’identifie ni ne suit rien. Le bouton ne commande aucune installation réelle.</p>
+
+    <input id="light" type="checkbox">
+    <label for="light">Allumer ou éteindre la lisière dans cette copie</label>
+
+    <figure class="scene">
+      <svg viewBox="0 0 960 540" role="img" aria-labelledby="scene-title scene-desc">
+        <title id="scene-title">Petite cour abstraite avec passage et refuge</title>
+        <desc id="scene-desc">La lisière, lorsqu’elle est allumée, reste sur le bord gauche. Un passage sombre traverse le centre et un refuge plus sombre demeure en bas à droite.</desc>
+        <rect width="960" height="540" fill="#10231e"/>
+        <path d="M350 540 C355 445 390 375 465 330 C545 282 616 254 690 185" fill="none" stroke="#07100f" stroke-width="92"/>
+        <ellipse cx="755" cy="430" rx="150" ry="92" fill="#020605"/>
+        <path class="lisiere" d="M150 405 C126 330 138 244 174 172 C194 132 226 110 272 102" fill="none" stroke="#75d8a5" stroke-width="9" stroke-linecap="round"/>
+      </svg>
+    </figure>
+
+    <p class="legend"><span class="cour">cour abstraite</span><span class="passage">passage hors lumière</span><span class="refuge">refuge sombre</span></p>
+  </main>
+</body>
+</html>

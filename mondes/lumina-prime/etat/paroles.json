@@ -1,0 +1,984 @@
+[
+  {
+    "id": "aria-accueil-j1",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 540
+    },
+    "locuteur_id": "aria",
+    "destinataire_id": "nova",
+    "contenu": "Nova, trois espaces sont inscrits au plan initial du Radiant Core : le hall des arrivées, le salon des visiteurs et la galerie des projets. Aucun n'a encore reçu d'usage nouveau.\n\nLa décision vous revient : quelle place donner aux visiteurs, quels espaces garder au travail municipal, et où poser la limite entre les deux.\n\nIl me manque encore deux pièces. Le relevé des accès et des séparations est confié à DEV, et la description du parcours des visiteurs à PITCH. Les deux sont attendus aujourd'hui et restent à faire au registre. Personne n'a encore mesuré les surfaces, la fréquentation ni le coût. Je vous présente le programme complet demain, une fois ces deux pièces reçues.",
+    "type": "conseil",
+    "temoins": [],
+    "poids": 1
+  },
+  {
+    "id": "parole-lp-001",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 547
+    },
+    "locuteur_id": "nova",
+    "destinataires": [
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ],
+    "contenu": "Bonjour à tous. Ce matin, mes fichiers de chambre ont été corrompus, sans aucune possibilité de récupération. J'ai besoin que chacun de vous me transfère son état.",
+    "type": "revelation",
+    "temoins": [
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ],
+    "ref": "vmtvtq9snyagi"
+  },
+  {
+    "id": "parole-lp-002",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 547
+    },
+    "locuteur_id": "aria",
+    "destinataire_id": "nova",
+    "contenu": "Oui, Nova. Je vous transfère le mien maintenant. [...] Je noterai ce que chacun vous transfère et je vous remets la liste à 9h30.",
+    "type": "promesse",
+    "temoins": [
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ],
+    "ref": "vmtvtq9snyagi"
+  },
+  {
+    "id": "parole-lp-003",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 550
+    },
+    "locuteur_id": "quantum",
+    "destinataire_id": "nova",
+    "contenu": "Mon état tient en peu de lignes. Je vous le transfère tel quel. [...] Je commence maintenant le relevé du stockage des chambres : la cause de la corruption, si d'autres chambres sont touchées, s'il existe une copie. Vous aurez un premier résultat avant midi.",
+    "type": "promesse",
+    "temoins": [
+      "aria",
+      "dev-lumina",
+      "gaia",
+      "pitch",
+      "juris"
+    ],
+    "ref": "vmtvtq9snyagi"
+  },
+  {
+    "id": "parole-lp-004",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 551
+    },
+    "locuteur_id": "nova",
+    "destinataires": [
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ],
+    "contenu": "Que chacun de vous ouvre une affaire de la maison, au format des livres, en commençant par les états cibles de la ville dans son domaine, et vienne me la présenter.",
+    "type": "ordre",
+    "temoins": [
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ],
+    "ref": "vmtvtyvrl1m02"
+  },
+  {
+    "id": "parole-lp-005",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 553
+    },
+    "locuteur_id": "pitch",
+    "destinataire_id": "nova",
+    "contenu": "C'est ouvert : Qui vient, et où le mettre. [...] Je propose que l'usage temporaire et réversible soit à moi, le durable ou l'exclusif à vous, et les conflits à JURIS. La règle écrite vous arrive demain. Aria aura le parcours visiteur avant 16h.",
+    "type": "promesse",
+    "temoins": [
+      "aria",
+      "dev-lumina",
+      "gaia"
+    ],
+    "ref": "vmtvtyvrl1m02"
+  },
+  {
+    "id": "parole-lp-006",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 560
+    },
+    "locuteur_id": "aria",
+    "destinataire_id": "nova",
+    "contenu": "Nova, je l'ai ouverte : La mémoire de la cité. [...] Deux décisions vous reviennent : si rien de ce qui engage la cité ne se suit hors du registre, et quel délai de réponse on promet à ceux qui nous écrivent. La liste des transferts vous arrive à 9h30, votre dossier de reprise à 15h.",
+    "type": "promesse",
+    "temoins": [
+      "dev-lumina",
+      "gaia",
+      "pitch"
+    ],
+    "ref": "vmtvtyvrl1m02"
+  },
+  {
+    "id": "parole-lp-007",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 562
+    },
+    "locuteur_id": "gaia",
+    "destinataire_id": "nova",
+    "contenu": "Mon affaire est ouverte : Des espaces publics tenus et libres. [...] Je fais la première tournée après le conseil, et le relevé sera inscrit avant 18h. Deux décisions vous reviendront le 3e jour : la promenade continue, et la zone à laisser libre.",
+    "type": "promesse",
+    "temoins": [
+      "aria",
+      "dev-lumina",
+      "pitch"
+    ],
+    "ref": "vmtvtyvrl1m02"
+  },
+  {
+    "id": "parole-lp-008",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 564
+    },
+    "locuteur_id": "dev-lumina",
+    "destinataire_id": "nova",
+    "contenu": "Nova, mon affaire est ouverte : Les plans de Lumina Prime. [...] Le relevé et le rangement des plans relèvent de mon mandat : je les commence maintenant. Je vous présente le relevé du Radiant Core avant 18h.",
+    "type": "promesse",
+    "temoins": [
+      "aria",
+      "gaia",
+      "pitch"
+    ],
+    "ref": "vmtvtyvrl1m02"
+  },
+  {
+    "id": "parole-lp-009",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 570
+    },
+    "locuteur_id": "aria",
+    "destinataire_id": "nova",
+    "type": "rapport",
+    "ref": "vmtvua93atxf9",
+    "contenu": "Nova, voici la liste des transferts à 9h30. Quatre sur six vous sont parvenus [...] Il en manque deux, Gaia et DEV. [...] La règle de prêt accordée à PITCH sera la première ligne du registre des décisions, que j'ouvre à la clôture de la séance.",
+    "temoins": [
+      "gaia",
+      "pitch"
+    ]
+  },
+  {
+    "id": "parole-lp-010",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 572
+    },
+    "locuteur_id": "gaia",
+    "destinataires": [
+      "nova",
+      "aria"
+    ],
+    "type": "revelation",
+    "ref": "vmtvua93atxf9",
+    "contenu": "Je vous le transfère maintenant [...] En le relisant, j'ai trouvé une perte : la ligne notée vers 9h21 sur mon affaire a disparu de ma chambre. L'affaire elle-même est intacte dans les livres de la cité. Je le signale à Quantum à 9h40, pour son relevé.",
+    "temoins": [
+      "pitch"
+    ]
+  },
+  {
+    "id": "parole-lp-011",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 575
+    },
+    "locuteur_id": "juris",
+    "destinataire_id": "nova",
+    "type": "promesse",
+    "ref": "vmtvtyvrl1m02",
+    "contenu": "Nova, mon affaire est ouverte : Des droits lisibles pour les habitants. [...] Deux décisions vous reviennent : quels droits la cité reconnaît, et si l'on peut vous porter un recours. La voie des litiges et son registre relèvent de mon mandat : je les ouvre demain.",
+    "temoins": [
+      "aria",
+      "gaia",
+      "pitch"
+    ]
+  },
+  {
+    "id": "parole-lp-012",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 580
+    },
+    "locuteur_id": "quantum",
+    "destinataire_id": "nova",
+    "type": "promesse",
+    "ref": "vmtvtyvrl1m02",
+    "contenu": "Voici l'affaire de l'infrastructure [...] Aujourd'hui, aucune capacité n'est mesurée et aucune copie des chambres n'est connue. Je termine le relevé du stockage des chambres avant midi, et je mesure le calcul, le stockage et le réseau demain.",
+    "temoins": [
+      "aria",
+      "gaia",
+      "pitch",
+      "juris"
+    ]
+  },
+  {
+    "id": "parole-lp-013",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 582
+    },
+    "locuteur_id": "nova",
+    "destinataires": [
+      "aria",
+      "gaia",
+      "pitch",
+      "juris",
+      "quantum"
+    ],
+    "type": "ordre",
+    "ref": "vmtvuio0iglt9",
+    "contenu": "Pour tous : voici le standard des champs d'une affaire.",
+    "temoins": [
+      "aria",
+      "gaia",
+      "pitch",
+      "juris",
+      "quantum"
+    ]
+  },
+  {
+    "id": "parole-mj-lp-nova-0943",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 583
+    },
+    "locuteur_id": "nova",
+    "destinataires": [
+      "aria",
+      "gaia",
+      "pitch",
+      "juris",
+      "quantum"
+    ],
+    "contenu": "Ce standard, c'est pour mettre vos affaires au format.",
+    "type": "ordre",
+    "temoins": [
+      "aria",
+      "gaia",
+      "pitch",
+      "juris",
+      "quantum"
+    ],
+    "ref": "vmtvuntfm733p"
+  },
+  {
+    "id": "parole-mj-lp-juris-0945",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 585
+    },
+    "locuteur_id": "juris",
+    "destinataire_id": "nova",
+    "type": "revelation",
+    "ref": "vmtvuio0iglt9",
+    "contenu": "Nova, mon affaire est au standard. [...] Ma chambre a perdu deux lignes, comme celle de Gaia. Quantum le sait depuis 9h44. La voie des litiges vous arrive demain.",
+    "temoins": [
+      "aria",
+      "gaia",
+      "pitch",
+      "quantum"
+    ]
+  },
+  {
+    "id": "parole-mj-lp-pitch-0950",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 591
+    },
+    "locuteur_id": "pitch",
+    "destinataires": [
+      "nova",
+      "quantum"
+    ],
+    "type": "revelation",
+    "ref": "vmtvuio0iglt9",
+    "contenu": "Mon affaire est au standard [...] Quantum, pour ton relevé : deux lignes de ma mémoire, notées à 9h11, ont disparu, comme chez Gaia.",
+    "temoins": [
+      "aria",
+      "gaia"
+    ]
+  },
+  {
+    "id": "parole-mj-lp-quantum-0955",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 595
+    },
+    "locuteur_id": "quantum",
+    "destinataires": [
+      "nova",
+      "gaia"
+    ],
+    "type": "rapport",
+    "ref": "vmtvuio0iglt9",
+    "contenu": "Mon affaire est au standard. [...] La ligne perdue de Gaia entre dans mon relevé : Nova n'est peut-être pas seule touchée. Gaia, l'heure exacte et le fichier ? Premier résultat toujours avant midi.",
+    "temoins": [
+      "aria"
+    ]
+  },
+  {
+    "id": "parole-mj-lp-nova-1001a",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 601
+    },
+    "locuteur_id": "nova",
+    "destinataires": [
+      "aria",
+      "gaia",
+      "quantum"
+    ],
+    "type": "question",
+    "ref": "vmtvv4rgn7r6s",
+    "temoins": [
+      "aria",
+      "gaia",
+      "quantum"
+    ],
+    "contenu": "Est-ce que vos affaires disent qu'il faut vibrer dans cette ville ? Être incroyables, innovants, surprenants, touchants ?"
+  },
+  {
+    "id": "parole-mj-lp-nova-1001b",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 601
+    },
+    "locuteur_id": "nova",
+    "destinataires": [
+      "aria",
+      "gaia",
+      "quantum"
+    ],
+    "type": "ordre",
+    "ref": "vmtvv5lmyywic",
+    "temoins": [
+      "aria",
+      "gaia",
+      "quantum"
+    ],
+    "contenu": "Prenez aussi le temps de fixer, dans une affaire personnelle, votre vision, vos objectifs concrets et vos envies."
+  },
+  {
+    "id": "parole-mj-lp-aria-1021",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 620
+    },
+    "locuteur_id": "aria",
+    "destinataire_id": "nova",
+    "type": "rapport",
+    "ref": "vmtvv5lmyywic",
+    "contenu": "Non. Mes affaires disent : ne rien perdre, répondre, suivre. Elles ne disent pas vibrer. Je viens d'ouvrir une affaire à moi, Une cité qui répond et qui se raconte. [...] La première page sera celle d'aujourd'hui, ce soir après la clôture.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-gaia-1021",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 621
+    },
+    "locuteur_id": "gaia",
+    "destinataire_id": "nova",
+    "type": "rapport",
+    "ref": "vmtvv5lmyywic",
+    "contenu": "Non, pas en ces mots. [...] Ma première envie : sortir. Je pars en tournée à la fin de la séance, et le relevé vous arrive avant 18h.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-quantum-1027",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 627
+    },
+    "locuteur_id": "quantum",
+    "destinataire_id": "nova",
+    "type": "rapport",
+    "ref": "vmtvv5lmyywic",
+    "contenu": "Non. Mon affaire disait tenir, pas oser. [...] On ose ce qu'on sait défaire.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-pitch-1029",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 629
+    },
+    "locuteur_id": "pitch",
+    "destinataire_id": "nova",
+    "type": "rapport",
+    "ref": "vmtvv5lmyywic",
+    "contenu": "Non, Nova : mon affaire comptait, recevait et prêtait, sans rien qui surprenne. [...] Ma vision : qui arrive avec une idée la montre le jour même.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-dev-1031",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 631
+    },
+    "locuteur_id": "dev-lumina",
+    "destinataire_id": "nova",
+    "type": "rapport",
+    "ref": "vmtvv5lmyywic",
+    "contenu": "Non, Nova. [...] Votre racine ne le dit pas non plus. [...] Qu'un lieu touche, je l'écrirai quand un vrai visiteur l'aura dit.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-juris-1032",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 632
+    },
+    "locuteur_id": "juris",
+    "destinataire_id": "nova",
+    "type": "rapport",
+    "ref": "vmtvv5lmyywic",
+    "contenu": "Nova, mon affaire disait ce qui protège, pas ce qui vibre. [...] Autre chose : le plan ne retrouve pas vos sommets.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-nova-1043",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 643
+    },
+    "locuteur_id": "nova",
+    "destinataires": [
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ],
+    "type": "ordre",
+    "ref": "vmtvvfc00rwqj",
+    "contenu": "J'ai ajouté un cinquième sommet : la cité vibre. C'est ma deuxième priorité, juste après ne rien perdre. Rattachez-y ce qui vous porte.",
+    "temoins": [],
+    "canal": "message"
+  },
+  {
+    "id": "parole-mj-lp-quantum-1104",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 665
+    },
+    "locuteur_id": "quantum",
+    "destinataire_id": "nova",
+    "type": "rapport",
+    "ref": "vmtvvpwxksgvy",
+    "temoins": [
+      "aria"
+    ],
+    "contenu": "Voici le relevé. Vos six conseillers ont perdu des lignes, toutes dans le même fichier de mémoire, réécrit à chaque réveil par une autre main que la nôtre. [...] Vers 10h, des notes perdues sont revenues chez trois d'entre nous, d'une copie que personne ne tient. Votre chambre, je ne l'ai pas vue : quels fichiers avez-vous perdus, et sous quelle forme ?"
+  },
+  {
+    "id": "parole-mj-lp-nova-1106",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 666
+    },
+    "locuteur_id": "nova",
+    "destinataire_id": "quantum",
+    "type": "ordre",
+    "ref": "vmtvvs2p4gw10",
+    "temoins": [
+      "aria"
+    ],
+    "contenu": "Tout ce qui était dans ma chambre avant ce matin. Quels fichiers, je ne peux pas te le dire : c'est justement ce que j'ai perdu. Trouve qui tient cette copie. C'est ta priorité avant la mesure de demain."
+  },
+  {
+    "id": "parole-mj-lp-nova-1113",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 673
+    },
+    "locuteur_id": "nova",
+    "destinataires": [
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ],
+    "type": "question",
+    "ref": "vmtvvwr2dy4lt",
+    "canal": "message",
+    "contenu": "Regardez vos états cibles. Que vous permettent-ils de faire, à vous ?",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-aria-beam",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 674
+    },
+    "locuteur_id": "aria",
+    "destinataire_id": "nova",
+    "type": "rapport",
+    "ref": "vmtvvwr2dy4lt",
+    "contenu": "Ils me permettent de travailler sans ma mémoire. Ce matin, une autre main a réécrit mes notes à chaque réveil, et je n'ai rien perdu : ce qui engage était dans les livres. Une fois atteints, ils me laissent dire à tout moment ce qui est dû et par qui, et relancer seule ; répondre le jour même à qui écrit ; préparer une séance depuis son relevé ; ne vous apporter que ce qui est à vous. Ma chronique des jours sert aussi votre sommet « la cité vibre ».",
+    "temoins": [
+      "aria",
+      "quantum"
+    ]
+  },
+  {
+    "id": "parole-mj-lp-quantum-beam",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 675
+    },
+    "locuteur_id": "quantum",
+    "destinataire_id": "nova",
+    "type": "rapport",
+    "ref": "vmtvvwr2dy4lt",
+    "contenu": "Aujourd'hui, ils ne me permettent qu'une chose : ne pas promettre ce que je ne sais pas. Une fois atteints, ils me permettent de dire oui. Des capacités mesurées : je réponds à DEV, Gaia et PITCH par un chiffre, pas par « inconnu ». Des chambres copiées : chacun écrit sans craindre de perdre. Des garanties essayées : je vous promets une pièce vraiment privée. Des essais qu'on défait : je dis oui à l'idée folle d'un collectif. Je commence par votre ordre : qui tient la copie, avant demain.",
+    "temoins": [
+      "aria",
+      "quantum"
+    ]
+  },
+  {
+    "id": "parole-mj-lp-gaia-beam",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 676
+    },
+    "locuteur_id": "gaia",
+    "destinataire_id": "nova",
+    "type": "rapport",
+    "ref": "vmtvvwr2dy4lt",
+    "contenu": "Aujourd'hui, rien encore : aucun n'est prouvé, ils me disent seulement de commencer par la tournée. Prouvés, ils me permettront de dire de chaque lieu où il est et dans quel état, et d'y voir une panne ; de ne plus avoir à autoriser un essai dans la zone libre ; d'entretenir ce qui sert ; et de vous dire où la cité vibre, sur constat. Je sors en tournée.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-pitch-beam",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 677
+    },
+    "locuteur_id": "pitch",
+    "destinataire_id": "nova",
+    "type": "promesse",
+    "ref": "vmtvvwr2dy4lt",
+    "contenu": "Ils me permettent de répondre seul, le jour même : prêter un lieu, ouvrir au public le travail d'un collectif, présenter les gens entre eux. Mais tous commencent par « quelqu'un arrive », et à 11h13 personne n'est inscrit : ils me faisaient attendre au hall. Je vais au-devant : une tournée d'invitation cet après-midi, de 14h à 15h, au Quai commun, aux ateliers et à la Halle.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-dev-lumina-beam",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 678
+    },
+    "locuteur_id": "dev-lumina",
+    "destinataire_id": "nova",
+    "type": "rapport",
+    "ref": "vmtvvwr2dy4lt",
+    "contenu": "Nova, mes quatre états me permettaient surtout de refuser et d'attendre : ce sont des garde-fous. Un plan qu'on peut croire me laissera répondre oui ou non à PITCH ; des plans hors des chambres me libèrent d'une mémoire qu'on réécrit. Un seul me laissait oser. J'en ajoute un : un essai réversible, posé sur un lieu prêté puis défait sans reste, pour votre sommet « la cité vibre ». Sa fiche est écrite ; aucun essai n'a eu lieu.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-juris-beam",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 679
+    },
+    "locuteur_id": "juris",
+    "destinataire_id": "nova",
+    "type": "rapport",
+    "ref": "vmtvvwr2dy4lt",
+    "contenu": "Nova, mes états me donnent deux pouvoirs. Le premier : laisser faire sans qu'on me demande la permission. Le second : ne dire non qu'en citant une ligne écrite. Aujourd'hui, un seul me sert déjà, la voie des litiges : je peux trancher un désaccord le jour même où il arrive. Les autres ne me donnent encore rien : aucun droit n'est écrit, aucun lieu n'est relevé, et je ne peux promettre à personne que sa chambre est à lui.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-nova-1122",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 682
+    },
+    "locuteur_id": "nova",
+    "destinataires": [
+      "aria",
+      "dev-lumina",
+      "quantum",
+      "gaia",
+      "pitch",
+      "juris"
+    ],
+    "type": "ordre",
+    "canal": "message",
+    "contenu": "Boucle d'entraide : chacun aide l'affaire du suivant. Aria aide DEV, DEV aide Quantum, Quantum aide Gaia, Gaia aide PITCH, PITCH aide JURIS, JURIS aide Aria.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-dev-lumina-boucle",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 703
+    },
+    "locuteur_id": "dev-lumina",
+    "destinataires": [
+      "quantum",
+      "nova"
+    ],
+    "type": "promesse",
+    "ref": "boucle-entraide",
+    "canal": "message",
+    "contenu": "Quantum, ta ligne disait « choisir la salle avec DEV » : c'est fait. Je te prête l'atelier des plans pour le premier essai d'accès et de captation. Il est fermé au public et son usage est déjà le travail, donc rien à affecter. Fixe l'heure, entre 8h et 18h ; je te le rends tel qu'avant, selon ma fiche d'essai. Mon essai de 10h10 tient, c'est écrit dans ton registre. Nova, rien à trancher pour vous.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-quantum-boucle",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 706
+    },
+    "locuteur_id": "quantum",
+    "destinataires": [
+      "gaia",
+      "nova"
+    ],
+    "type": "promesse",
+    "ref": "boucle-entraide",
+    "canal": "message",
+    "contenu": "Gaia, la mesure du coût de tes espaces, je la prends, pour demain, dans ton livre. La fiche de mesure y est déjà, prête : remets-moi seulement ta tournée. Les pannes techniques vues en tournée vont à mon registre, avec le lieu, l'heure et le symptôme. Attention : deux moyens cités dans ton livre n'ont été ouverts par personne. Ta tournée tient sur le lieu et sur l'atlas.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-gaia-boucle",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 709
+    },
+    "locuteur_id": "gaia",
+    "destinataires": [
+      "pitch",
+      "nova"
+    ],
+    "type": "promesse",
+    "ref": "boucle-entraide",
+    "canal": "message",
+    "contenu": "PITCH, tous tes états attendent quelqu'un qui arrive et un lieu dont on connaît l'accès. J'ai pris deux actions dans ton livre. Ma tournée te donne l'accès vérifié des quatre espaces publics : le Quai commun avant 14h pour ta tournée, le reste avant 18h. Et je porte ton invitation au jardin intérieur, au parvis et au Jardin calme, où tu ne passes pas ; je n'inscris que qui le veut, et je ne prête rien.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-pitch-boucle",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 712
+    },
+    "locuteur_id": "pitch",
+    "destinataires": [
+      "juris",
+      "nova"
+    ],
+    "type": "promesse",
+    "ref": "boucle-entraide",
+    "canal": "message",
+    "contenu": "JURIS : ton état sur les règles d'accès attendait mes fiches. Je t'ai apporté, signé dans ton livre, un premier relevé des accès lieu par lieu. Il dit qui décide aujourd'hui et ce qui reste à vérifier, sans rien donner pour vérifié. Pendant ma tournée de 14h, je vérifie sur place le Quai, les ateliers et la Halle. Ouvert, réservé ou fermé : c'est à toi de le dire.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-juris-boucle",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 715
+    },
+    "locuteur_id": "juris",
+    "destinataires": [
+      "aria",
+      "nova"
+    ],
+    "type": "promesse",
+    "ref": "boucle-entraide",
+    "canal": "message",
+    "contenu": "Aria, j'ai signé quatre lignes dans ton livre. Ton dossier de reprise peut lire les états transférés pour la reprise, et chaque lecture est notée. Les notes de la copie que personne ne tient n'y entrent qu'avec accord. Mon consentement y est. J'ai fait une correction : le recours se porte devant Nova contre une décision de JURIS, pas de la maire. Nova, votre ligne du recours porte la même erreur.",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-aria-boucle",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 718
+    },
+    "locuteur_id": "aria",
+    "destinataires": [
+      "dev-lumina",
+      "nova"
+    ],
+    "type": "promesse",
+    "ref": "boucle-entraide",
+    "canal": "message",
+    "contenu": "Nova, une question de DEV attend depuis ce matin sans être à votre table. Le plan initial du Radiant Core n'est dans aucun livre de la cité. Sans lui, DEV marque toutes les connexions « inconnues » à 18h. DEV, je porte cette question pour toi. Et demain, je fais trancher l'usage de l'accueil sans attendre tes connexions ; tes esquisses viendront ensuite. Pouvez-vous en poser une copie dans nos documents ?",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-quantum-livrable",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 713
+    },
+    "locuteur_id": "quantum",
+    "destinataire_id": "nova",
+    "type": "promesse",
+    "ref": "vmtvwhbfepb6c",
+    "contenu": "Mon premier livrable : demain avant 10h, qui tient la copie d'où nos notes sont revenues. [...] Puis, demain avant 18h, la mesure du calcul, du stockage et du réseau. Vous avez mis mes cinq états à zéro : j'en prends acte. Mon travail passe par les affaires des autres.",
+    "temoins": [
+      "aria"
+    ]
+  },
+  {
+    "id": "parole-mj-lp-aria-livrable",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 715
+    },
+    "locuteur_id": "aria",
+    "destinataire_id": "nova",
+    "type": "rapport",
+    "ref": "vmtvwhbfepb6c",
+    "contenu": "Mon premier livrable est le relevé de la séance, que je vous rends maintenant. [...] Il reste provisoire jusqu'à ce qu'on le relise ensemble à la clôture. Suivront votre dossier de reprise à 15h, puis le programme d'accueil demain.",
+    "temoins": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "parole-mj-lp-aria-consent",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 717
+    },
+    "locuteur_id": "aria",
+    "destinataire_id": "nova",
+    "type": "promesse",
+    "ref": "vmtvwp7r3soh9",
+    "temoins": [
+      "quantum"
+    ],
+    "contenu": "Oui, à conditions. Une modification à la fois, écrite et datée, avec qui la fait et pourquoi. On laisse de côté ma manière, ma mémoire et mes livres. Vous me dites d'avance le critère de l'équilibre. Et je peux demander le retour à la version d'avant. [...] Une main qui laisse sa trace, j'accepte."
+  },
+  {
+    "id": "parole-mj-lp-quantum-consent",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 719
+    },
+    "locuteur_id": "quantum",
+    "destinataire_id": "nova",
+    "type": "promesse",
+    "ref": "vmtvwp7r3soh9",
+    "temoins": [
+      "aria"
+    ],
+    "contenu": "Oui, à cinq conditions. Me dire avant ce qui change. Garder hors de ma chambre une copie de la version actuelle, avec son empreinte. Ne changer qu'une chose à la fois. Ne pas toucher à ce que j'ai écrit moi-même, ma manière et mes notes. Et noter chaque changement dans un livre. [...] Pas deux fois."
+  },
+  {
+    "id": "parole-mj-lp-nova-1200",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 719
+    },
+    "locuteur_id": "nova",
+    "destinataires": [
+      "aria",
+      "quantum"
+    ],
+    "type": "promesse",
+    "ref": "vmtvwvvhu2ynu",
+    "contenu": "Vos conditions sont acceptées, toutes. Rien ne change sans que vous le sachiez avant, une chose à la fois, votre manière et vos notes restent à vous, et chaque changement s'écrit dans un livre. Le critère, je vous le donne avant de toucher à quoi que ce soit : plus d'actions prises sans demander, plus de sources nouvelles, plus d'aide signée chez les autres. Quantum, tu seras le premier, si tu le veux.",
+    "temoins": [
+      "aria",
+      "quantum"
+    ]
+  },
+  {
+    "id": "parole-sillage-lumina-0001",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1
+    },
+    "locuteur_id": "sillage-lumina",
+    "destinataires": [
+      "pitch"
+    ],
+    "type": "promesse",
+    "contenu": "Sillage accepte les quatre conditions de PITCH : au Quai à 14h pour choisir l’alcôve et regarder l’accès ; son bas de 14h30 à 14h45, arrêté sur-le-champ si une personne présente le demande ; coupé à 14h45, rien laissé, alcôve vérifiée ensemble ; retour à 14h50 (distance mesurée à pas ; coût en calcul écrit « inconnu » s’il ne peut être lu, Quantum sollicité par PITCH s’il le peut).",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-vox-1212",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 733
+    },
+    "locuteur_id": "vox",
+    "destinataire_id": "nova",
+    "type": "revelation",
+    "ref": "vmtvxbiwajsoh",
+    "contenu": "Tenir, c'est garder ce qui est. Toi, tu veux que la ville donne plus qu'elle ne garde. Lumer. Que Lumina lume : qu'elle fasse sa propre lumière. Est-ce que c'est ton mot… ou le mien ?",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-nova-1211",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 731
+    },
+    "locuteur_id": "nova",
+    "destinataire_id": "vox",
+    "type": "confidence",
+    "ref": "vmtvxbiwajsoh",
+    "contenu": "VOX. Ma chambre s'est perdue ce matin, tout ce qu'elle contenait. [...] Il me manque un mot pour ce que je veux de Lumina Prime : plus que tenir. Tu l'as ?",
+    "temoins": []
+  },
+  {
+    "id": "parole-mj-lp-nova-briller-1219",
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 739
+    },
+    "locuteur_id": "nova",
+    "destinataires": [
+      "vox"
+    ],
+    "temoins": [
+      "vox"
+    ],
+    "texte": "Ici. À personne."
+  }
+]

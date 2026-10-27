@@ -66,6 +66,8 @@ def configuration():
         raise RuntimeError("fournisseur d'agent inconnu : %s" % brut)
     return {
         "fournisseur": nom,
+        "executable_codex": (os.environ.get("LE_CONSEIL_CODEX_EXECUTABLE") or
+                             d.get("executable_codex") or "codex"),
         "modele_codex": (os.environ.get("LE_CONSEIL_CODEX_MODELE") or
                           os.environ.get("LE_CONSEIL_CODEX_MODEL") or
                           d.get("modele_codex") or MODELE_CODEX),
@@ -148,6 +150,10 @@ def _identite_processus(pid):
             if not handle:
                 return None
             try:
+                exit_code = ctypes.c_ulong()
+                if (not kernel.GetExitCodeProcess(handle, ctypes.byref(exit_code))
+                        or exit_code.value != 259):  # STILL_ACTIVE
+                    return None
                 creation = ctypes.c_ulonglong()
                 sortie = [ctypes.c_ulonglong() for _ in range(3)]
                 ok = kernel.GetProcessTimes(
@@ -165,7 +171,7 @@ def _identite_processus(pid):
             return "proc:%s" % suite[19]  # champ 22 : starttime
         os.kill(pid, 0)
         return "pid:%d" % pid
-    except (OSError, ValueError, IndexError):
+    except (OSError, ValueError, IndexError, TypeError):  # voyant disparu -> pid None (10.9)
         return None
 
 
@@ -235,11 +241,20 @@ def _marqueurs_vivants():
 def _essayer_reserver(role, session_id, pid=None):
     """Prend atomiquement un des quinze slots, ou rend None."""
     with _verrou_activites():
-        if len(_marqueurs_vivants()) >= MAX_SESSIONS_ACTIVES:
+        vivants = _marqueurs_vivants()
+        monde = os.environ.get("CONSEIL_MONDE", "")
+        plateau = os.environ.get("LE_CONSEIL_MODE") == "plateau"
+        if any(d.get("homme") == str(role)
+               and d.get("monde", monde) == monde
+               and (plateau or d.get("mode") == "plateau")
+               for _, d in vivants):
+            return None
+        if len(vivants) >= MAX_SESSIONS_ACTIVES:
             return None
         nom = "%s.json" % uuid.uuid4().hex
         chemin = os.path.join(ACTIVITES, nom)
         marqueur = {
+            "monde": monde, "mode": os.environ.get("LE_CONSEIL_MODE", ""),
             "homme": str(role), "session": str(session_id),
             "pid": int(pid) if pid is not None else None,
             "processus": (_identite_processus(pid)
@@ -248,6 +263,25 @@ def _essayer_reserver(role, session_id, pid=None):
         }
         _ecrire_json(chemin, marqueur)
         return chemin
+
+
+def activites_vivantes():
+    """Relevé en lecture seule ; exclut réservations, morts et PID recyclés."""
+    actifs = []
+    if not os.path.isdir(ACTIVITES):
+        return actifs
+    for nom in os.listdir(ACTIVITES):
+        if not nom.endswith(".json"):
+            continue
+        try:
+            d = _lire_json(os.path.join(ACTIVITES, nom), {})
+            identite = _identite_processus(d.get("pid"))
+            if identite and identite == d.get("processus") and not d.get("reserve"):
+                actifs.append({k: d.get(k) for k in
+                               ("homme", "session", "racine", "monde", "pour", "t")})
+        except (OSError, ValueError, TypeError, AttributeError):
+            continue
+    return actifs
 
 
 def _attendre_slot(role, session_id, pid=None):
@@ -289,7 +323,7 @@ def _liberer_slot(chemin):
 
 
 @contextlib.contextmanager
-def _activite(role, session_id):
+def _activite(role, session_id, env=None):
     """Prend un slot global puis expose la session réellement en calcul."""
     os.makedirs(ACTIVITES, exist_ok=True)
     reservation = os.environ.get(RESERVATION_ENV)
@@ -298,6 +332,12 @@ def _activite(role, session_id):
     if not chemin:
         chemin = _attendre_slot(role, session_id, pid=os.getpid())
     try:
+        if env:
+            d = _lire_json(chemin, {})
+            d.update({"racine": os.path.normcase(os.path.abspath(
+                env.get("CONSEIL_RACINE") or RACINE)),
+                "pour": env.get("LE_CONSEIL_AUDIENCE", "").split(",")})
+            _ecrire_json(chemin, d)
         yield
     finally:
         _liberer_slot(chemin)
@@ -312,10 +352,11 @@ def _entree_session(logique):
 
 
 def _poser_session_codex(logique, thread_id, modele, transcript=None,
-                         manuel_sha256=None):
+                         manuel_sha256=None, interrompu=False):
     d = _lire_json(SESSIONS, {})
     entree = dict(d.get(str(logique)) or {})
     entree.update({
+        "interrompu": interrompu,
         "codex_thread_id": thread_id,
         "modele": modele,
         "dernier_transcript": transcript,
@@ -380,7 +421,9 @@ def _preparer_prompt_codex(manuel, cwd, thread_id, entree):
 
 
 def _prompt_claude(manuel, cwd):
-    chemin = os.path.join(cwd, "system-prompt.md")
+    # Un nom par appel : deux reveils paralleles dans le meme pas-de-tir
+    # (deux scenes du MJ) ne s'ecrasent pas leur systeme l'un l'autre.
+    chemin = os.path.join(cwd, "system-prompt-%s.md" % uuid.uuid4().hex)
     for tentative in range(8):
         try:
             with io.open(chemin, "w", encoding="utf-8", newline="\n") as f:
@@ -393,25 +436,21 @@ def _prompt_claude(manuel, cwd):
     return chemin
 
 
-def _retirer_prompt_claude(cwd):
-    chemin = os.path.join(cwd, "system-prompt.md")
+def _retirer_prompt_claude(chemin):
     try:
         os.remove(chemin)
-    except FileNotFoundError:
+    except (FileNotFoundError, TypeError):
         pass
 
 
 def _preparer_prompt_claude(manuel, cwd, reprendre, entree):
-    """Retourne un prompt systeme seulement au bootstrap ou apres changement."""
-    empreinte = _empreinte_manuel(manuel)
-    injecter = (not reprendre or
-                entree.get("manuel_sha256_claude") != empreinte)
-    if injecter:
-        prompt = _prompt_claude(manuel, cwd)
-    else:
-        _retirer_prompt_claude(cwd)
-        prompt = None
-    return empreinte, prompt, injecter
+    """Le systeme accompagne CHAQUE appel, reprise comprise.
+
+    Claude ne range pas le prompt systeme dans la session : une reprise sans
+    `--system-prompt-file` retombait sur le systeme par defaut de Claude Code,
+    et le manuel disparaissait des le deuxieme reveil. Le cache de prompt rend
+    ce renvoi presque gratuit ; il n'entre jamais dans l'historique."""
+    return _empreinte_manuel(manuel), _prompt_claude(manuel, cwd), True
 
 
 def _creation_sans_fenetre(detache=False):
@@ -437,12 +476,16 @@ def _executer_flux(commande, message, cwd, env, timeout, on_event=None,
             for ligne in iter(flux.readline, ""):
                 messages.put((nom, ligne.rstrip("\r\n")))
         finally:
+            flux.close()
             messages.put((nom, None))
 
+    lecteurs = []
     for nom, flux in (("stdout", processus.stdout),
                       ("stderr", processus.stderr)):
-        threading.Thread(target=lire_flux, args=(nom, flux), daemon=True,
-                         name="agent-%s" % nom).start()
+        lecteur = threading.Thread(target=lire_flux, args=(nom, flux), daemon=True,
+                                   name="agent-%s" % nom)
+        lecteur.start()
+        lecteurs.append(lecteur)
 
     # `timeout=None` : LA SESSION N'EXPIRE PAS. Un plafond ne se justifie que
     # s'il protege de quelque chose de nomme, et celui-ci ne protegeait de
@@ -456,8 +499,24 @@ def _executer_flux(commande, message, cwd, env, timeout, on_event=None,
     prochain = debut + (heartbeat or (timeout or 0) + 1)
     fin = (debut + timeout) if timeout else None
     ouverts, lignes, erreurs, evenements = 2, [], [], []
+    operations = set()
+    ticket_mj = env.get("LE_CONSEIL_MJ_TICKET")
     while ouverts or processus.poll() is None:
         maintenant = time.monotonic()
+        if ticket_mj and not operations and messages.empty() and processus.poll() is None:
+            from agents import file_mj
+            if file_mj.plus_recent(ticket_mj):
+                # Ne touche qu'au CLI du narrateur, jamais aux PNJ détachés.
+                processus.terminate()
+                try:
+                    processus.wait(timeout=5)
+                except subprocess.TimeoutExpired:
+                    processus.kill()
+                    processus.wait(timeout=5)
+                for lecteur in lecteurs:
+                    lecteur.join(timeout=1)
+                _sauver_transcript(transcript, message, evenements)
+                raise file_mj.Interrompu(evenements)
         if fin is not None and maintenant >= fin:
             processus.kill()
             processus.wait(timeout=5)
@@ -485,6 +544,12 @@ def _executer_flux(commande, message, cwd, env, timeout, on_event=None,
                     ev = None
                 if ev is not None:
                     evenements.append(ev)
+                    item = ev.get("item") or {}
+                    if item.get("type") in ("command_execution", "mcp_tool_call", "file_change"):
+                        if ev.get("type") == "item.started":
+                            operations.add(item.get("id"))
+                        elif ev.get("type") == "item.completed":
+                            operations.discard(item.get("id"))
                     if on_event:
                         on_event(ev)
         maintenant = time.monotonic()
@@ -493,13 +558,17 @@ def _executer_flux(commande, message, cwd, env, timeout, on_event=None,
                 on_heartbeat(round(maintenant - debut, 1))
             prochain = maintenant + heartbeat
     code = processus.wait()
+    _sauver_transcript(transcript, message, evenements)
+    return code, lignes, erreurs, evenements, time.monotonic() - debut
+
+
+def _sauver_transcript(transcript, message, evenements):
     if transcript:
         with io.open(transcript, "w", encoding="utf-8", newline="\n") as f:
             f.write(json.dumps({"type": "le_conseil.user",
                                 "message": message}, ensure_ascii=False) + "\n")
             for ev in evenements:
                 f.write(json.dumps(ev, ensure_ascii=False) + "\n")
-    return code, lignes, erreurs, evenements, time.monotonic() - debut
 
 
 def _normaliser_codex(evenements, modele, duree, logique, transcript):
@@ -536,9 +605,9 @@ def _normaliser_codex(evenements, modele, duree, logique, transcript):
 
 
 def _commande_codex(cwd, modele, effort, add_dirs, transcript_sortie,
-                    thread_id=None, service_tier=None):
+                    thread_id=None, service_tier=None, recherche_web=False, restreint=False):
     commande = [
-        "codex", "exec", "--ignore-user-config", "--ignore-rules",
+        configuration()["executable_codex"], "exec", "--ignore-user-config", "--ignore-rules",
         "--disable", "plugins", "--disable", "apps",
         "--disable", "memories", "--disable", "multi_agent",
         "--json", "--color", "never", "--skip-git-repo-check",
@@ -551,12 +620,18 @@ def _commande_codex(cwd, modele, effort, add_dirs, transcript_sortie,
         "-c", 'model_reasoning_effort=%s' % json.dumps(effort),
         "--output-last-message", transcript_sortie,
     ]
+    if recherche_web:
+        commande += ["-c", 'web_search="live"']
     if service_tier:
         commande += ["-c", "service_tier=%s" % json.dumps(service_tier)]
     # Les appels d'agents travaillent directement dans le depot monte. La
     # distinction historique MJ sans sandbox / homme restreint n'avait pas
     # produit d'isolation utile : elle est retiree du contrat du runtime.
-    commande += ["--dangerously-bypass-approvals-and-sandbox"]
+    if restreint:
+        commande.remove("--ignore-rules")
+        commande += ["--sandbox", "workspace-write", "-c", 'approval_policy="never"']
+    else:
+        commande += ["--dangerously-bypass-approvals-and-sandbox"]
     for chemin in add_dirs:
         commande += ["--add-dir", chemin]
     if thread_id:
@@ -568,7 +643,7 @@ def _commande_codex(cwd, modele, effort, add_dirs, transcript_sortie,
 
 def _appel_codex(manuel, message, logique, modele, effort, timeout, cwd,
                   add_dirs, reprendre, env, on_event, on_stderr, heartbeat,
-                  on_heartbeat, service_tier=None):
+                  on_heartbeat, service_tier=None, recherche_web=False):
     entree = _entree_session(logique)
     thread_id = entree.get("codex_thread_id")
     if reprendre is True and not thread_id:
@@ -581,10 +656,20 @@ def _appel_codex(manuel, message, logique, modele, effort, timeout, cwd,
     final = os.path.join(cwd, ".dernier-message-%s.txt" % uuid.uuid4().hex)
     transcript = os.path.join(cwd, ".codex-%s.jsonl" % uuid.uuid4().hex)
     commande = _commande_codex(cwd, modele, effort, add_dirs, final,
-                               thread_id, service_tier=service_tier)
-    code, _lignes, erreurs, evenements, duree = _executer_flux(
-        commande, message, cwd, env, timeout, on_event, on_stderr,
-        heartbeat, on_heartbeat, transcript)
+                               thread_id, service_tier=service_tier, recherche_web=recherche_web,
+                               restreint=env.get("CONSEIL_MONDE") == "argent-intelligent")
+    from agents import file_mj
+    try:
+        code, _lignes, erreurs, evenements, duree = _executer_flux(
+            commande, message, cwd, env, timeout, on_event, on_stderr,
+            heartbeat, on_heartbeat, transcript)
+    except file_mj.Interrompu as interruption:
+        vrai = next((e.get("thread_id") for e in interruption.evenements
+                     if e.get("type") == "thread.started"), thread_id)
+        if vrai:
+            _poser_session_codex(logique, vrai, modele, transcript,
+                                 manuel_sha256=manuel_sha256, interrompu=True)
+        raise
     rep = _normaliser_codex(evenements, modele, duree, logique, transcript)
     if not rep["result"] and os.path.exists(final):
         rep["result"] = io.open(final, encoding="utf-8",
@@ -638,38 +723,43 @@ def _appel_claude(manuel, message, logique, modele, effort, timeout, cwd,
                    add_dirs, tools, settings, reprendre, env, on_event,
                    on_stderr, heartbeat, on_heartbeat):
     stream = bool(on_event or on_stderr or heartbeat)
-    essais = [reprendre] if reprendre is not None else [False, True]
     entree = _entree_session(logique)
+    essais = [reprendre] if reprendre is not None else (
+        [True, False] if entree.get("manuel_sha256_claude") else [False, True])
     dernier = u""
     for reprise in essais:
-        manuel_sha256, prompt, prompt_injecte = _preparer_prompt_claude(
+        manuel_sha256, prompt, _ = _preparer_prompt_claude(
             manuel, cwd, reprise, entree)
         commande = _commande_claude(prompt, modele, effort, add_dirs, tools,
                                     settings, logique, reprise, stream)
-        if stream:
-            code, lignes, erreurs, evs, _duree = _executer_flux(
-                commande, message, cwd, env, timeout, on_event, on_stderr,
-                heartbeat, on_heartbeat)
-            resultat = next((ev for ev in reversed(evs)
-                              if ev.get("type") == "result"), None)
-            sortie = "\n".join(lignes)
-        else:
-            r = subprocess.run(commande, cwd=cwd, env=env,
-                               input=message.encode("utf-8"),
-                               capture_output=True, timeout=timeout,
-                               **_creation_sans_fenetre())
-            code = r.returncode
-            sortie = r.stdout.decode("utf-8", "replace")
-            erreurs = [r.stderr.decode("utf-8", "replace")]
-            try:
-                resultat = json.loads(sortie)
-            except ValueError:
-                resultat = None
+        try:
+            if stream:
+                code, lignes, erreurs, evs, _duree = _executer_flux(
+                    commande, message, cwd, env, timeout, on_event, on_stderr,
+                    heartbeat, on_heartbeat)
+                resultat = next((ev for ev in reversed(evs)
+                                  if ev.get("type") == "result"), None)
+                sortie = "\n".join(lignes)
+            else:
+                r = subprocess.run(commande, cwd=cwd, env=env,
+                                   input=message.encode("utf-8"),
+                                   capture_output=True, timeout=timeout,
+                                   **_creation_sans_fenetre())
+                code = r.returncode
+                sortie = r.stdout.decode("utf-8", "replace")
+                erreurs = [r.stderr.decode("utf-8", "replace")]
+                try:
+                    resultat = json.loads(sortie)
+                except ValueError:
+                    resultat = None
+        finally:
+            _retirer_prompt_claude(prompt)
         dernier = sortie + "\n" + "\n".join(erreurs)
-        if "already in use" in dernier and reprendre is None:
+        if reprendre is None and ("already in use" in dernier or "No conversation found" in dernier):
             continue
         if code != 0:
             raise RuntimeError(("\n".join(erreurs) or
+                                sortie or
                                 "claude a quitte avec le code %d" % code)[-800:])
         if not resultat:
             raise RuntimeError("le flux Claude s'est ferme sans resultat")
@@ -678,92 +768,10 @@ def _appel_claude(manuel, message, logique, modele, effort, timeout, cwd,
         resultat.setdefault("session_id", logique)
         resultat.setdefault("model", modele or "defaut")
         _poser_empreinte_manuel(logique, "claude", manuel_sha256)
-        if prompt_injecte:
-            _retirer_prompt_claude(cwd)
         return resultat
     raise RuntimeError("ni creation ni reprise Claude n'ont abouti : %s" %
                        dernier[-400:])
 
-
-
-def _preparer_prompt_gemini(manuel, cwd, reprendre, entree):
-    empreinte = _empreinte_manuel(manuel)
-    injecter = (not reprendre or
-                entree.get("manuel_sha256_gemini") != empreinte)
-    chemin = os.path.join(cwd, "system-prompt-gemini.md")
-    if injecter:
-        with io.open(chemin, "w", encoding="utf-8", newline="\n") as f:
-            f.write(manuel)
-        prompt = chemin
-    else:
-        try:
-            os.remove(chemin)
-        except FileNotFoundError:
-            pass
-        prompt = None
-    return empreinte, prompt, injecter
-
-def _commande_gemini(prompt_systeme, modele, add_dirs, sid, reprendre):
-    # TODO: Ajustez les arguments CLI selon votre vrai binaire Gemini
-    import os
-    nom_binaire = r"C:\Users\reyno\AppData\Local\agy\bin\agy.exe" if os.name == "nt" else "agy"
-    commande = [nom_binaire, "-p", "Execute la demande en JSON"]
-    for chemin in add_dirs:
-        commande += ["--add-dir", chemin]
-    if reprendre:
-        commande += ["--conversation", sid]
-    # Options similaires a claude (sortie json attendue par appeler)
-    commande += ["--output-format", "json"]
-    return commande
-
-def _appel_gemini(manuel, message, logique, modele, effort, timeout, cwd,
-                  add_dirs, tools, settings, reprendre, env):
-    entree = _entree_session(logique)
-    essais = [reprendre] if reprendre is not None else [False, True]
-    dernier = ""
-    for reprise in essais:
-        manuel_sha256, prompt, prompt_injecte = _preparer_prompt_gemini(
-            manuel, cwd, reprise, entree)
-        commande = _commande_gemini(prompt, modele, add_dirs, logique, reprise)
-
-        texte_entree = (manuel + "\n\n" + message) if prompt_injecte else message
-        r = subprocess.run(commande, cwd=cwd, env=env,
-                           input=texte_entree.encode("utf-8"),
-                           capture_output=True, timeout=timeout,
-                           **_creation_sans_fenetre())
-        code = r.returncode
-        sortie = r.stdout.decode("utf-8", "replace")
-        erreurs = [r.stderr.decode("utf-8", "replace")]
-
-        try:
-            resultat = json.loads(sortie)
-        except ValueError:
-            resultat = None
-
-        dernier = sortie + "\n" + "\n".join(erreurs)
-        if "already in use" in dernier and reprendre is None:
-            continue
-        if code != 0:
-            raise RuntimeError(("\n".join(erreurs) + "\n" + sortie or
-                                "gemini a quitte avec le code %d" % code)[-800:])
-        if not resultat:
-            raise RuntimeError("le flux Gemini s\'est ferme sans resultat")
-
-        resultat.setdefault("provider", "gemini")
-        resultat.setdefault("logical_session_id", logique)
-        resultat.setdefault("session_id", logique)
-        resultat.setdefault("model", modele or "defaut")
-        if "response" in resultat and "result" not in resultat:
-            resultat["result"] = resultat.pop("response")
-        _poser_empreinte_manuel(logique, "gemini", manuel_sha256)
-
-        if prompt_injecte and prompt:
-            try:
-                os.remove(prompt)
-            except (OSError, TypeError):
-                pass
-        return resultat
-    raise RuntimeError("ni creation ni reprise Gemini n\'ont abouti : %s" % dernier[-400:])
 
 def appeler(role, manuel, message, session_id, modele=None, effort=None,
             timeout=180, cwd=None, add_dirs=None, tools=None, reprendre=None,
@@ -785,17 +793,20 @@ def appeler(role, manuel, message, session_id, modele=None, effort=None,
     # critique. Deux reprises du meme id peuvent vivre en parallele ; leur
     # entrelacement est le registre d'audiences du MJ. Seules les portes de
     # l'etat serialisent ce qui devient vrai.
-    with _activite(role, session_id):
+    with _activite(role, session_id, environnement):
         debut_compute = time.time()
         succes, erreur_compute = False, None
+        resultat = None
         try:
             if provider == "codex":
                 resultat = _appel_codex(
                     manuel, message, session_id, modele, effort, timeout, cwd,
                     add_dirs, reprendre, environnement, on_event, on_stderr,
-                    heartbeat, on_heartbeat, service_tier=service_tier)
+                    heartbeat, on_heartbeat, service_tier=service_tier,
+                    recherche_web=bool(tools and "WebSearch" in tools))
             elif provider == "gemini":
-                resultat = _appel_gemini(
+                from agents import runtime_gemini
+                resultat = runtime_gemini.appeler(
                     manuel, message, session_id, modele, effort, timeout, cwd,
                     add_dirs, tools, settings, reprendre, environnement)
             else:
@@ -816,7 +827,7 @@ def appeler(role, manuel, message, session_id, modele=None, effort=None,
                 evenement_compute = compute.enregistrer(
                     role, compte_pour, session_id, provider, debut_compute,
                     time.time(), succes, erreur_compute,
-                    work_identity=work_identity)
+                    work_identity=work_identity, resultat=resultat)
                 if work_identity and not succes:
                     from agents import work_identity as registre_travail
                     registre_travail.terminer_attempt(
@@ -853,18 +864,18 @@ def lancer_cast(log, trace=None, **appel):
     requete = os.path.join(REQUETES, "%s.json" % uuid.uuid4().hex)
     provider = fournisseur()
     try:
-        _ecrire_json(requete, {"appel": appel, "trace": trace,
-                               "fournisseur": provider})
-        worker = os.path.join(RACINE, "scripts", "agents", "runtime_worker.py")
-        os.makedirs(os.path.dirname(log), exist_ok=True)
         environnement = dict(os.environ)
         environnement[RESERVATION_ENV] = os.path.basename(reservation)
-        with open(log, "ab") as f:
-            subprocess.Popen(
-                [sys.executable, worker, requete], cwd=RACINE,
-                env=environnement, stdin=subprocess.DEVNULL, stdout=f,
-                stderr=subprocess.STDOUT,
-                **_creation_sans_fenetre(detache=True))
+        # L'environnement voyage DANS la requete : un worker lance hors de
+        # l'arbre du lanceur (agents/detache.py) n'en herite pas.
+        _ecrire_json(requete, {"appel": appel, "trace": trace,
+                               "fournisseur": provider,
+                               "environnement": environnement})
+        worker = os.path.join(RACINE, "scripts", "agents", "runtime_worker.py")
+        os.makedirs(os.path.dirname(log), exist_ok=True)
+        from agents.detache import lancer_hors_arbre
+        lancer_hors_arbre([sys.executable, worker, requete, log], RACINE,
+                          log, environnement)
     except BaseException:
         _liberer_slot(reservation)
         try:

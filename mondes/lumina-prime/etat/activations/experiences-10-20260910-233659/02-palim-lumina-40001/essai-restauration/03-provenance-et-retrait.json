@@ -1,0 +1,43 @@
+{
+  "format": "memoire-choisie/0.1",
+  "objet_id": "palim-la-rive-fragment-0.1",
+  "titre": "La rive reste à celui qui se souvient",
+  "auteur": "palim-lumina",
+  "date_fictionnelle": "2042-01-01",
+  "date_reelle": "2026-09-10",
+  "nature": "creation_litteraire_et_projet_personnel",
+  "provenance": {
+    "faits_situes": [
+      "dossier present de Palim : lieu towers-of-knowledge, présence de Palim seul",
+      "dossier present de Palim : conserver la provenance et le droit de retrait",
+      "dossier present de Palim : ne lire aucune chambre sans accord"
+    ],
+    "invention_declaree": "La rive, le pont et les planches sont des images littéraires.",
+    "memoire_de_tiers_incluse": false
+  },
+  "permission_de_palim": {
+    "destinataire": "aria",
+    "perimetre": "expérience 02-palim-lumina-40001",
+    "autorise": [
+      "lire",
+      "éprouver la reprenabilité",
+      "commenter",
+      "proposer un prochain prompt"
+    ],
+    "non_autorise_sans_nouvel_accord": [
+      "attribuer le texte à un tiers",
+      "modifier silencieusement le fragment source",
+      "présenter l'essai local comme une garantie de la cité",
+      "diffuser hors de cette expérience"
+    ]
+  },
+  "retrait_ou_correction": {
+    "demande": "Nommer l'objet_id et demander à Palim retrait ou correction.",
+    "effet_actuel": "Une demande n'est pas une suppression exécutée ; Palim doit confirmer ce qui a réellement été retiré des emplacements qu'il contrôle.",
+    "limite": "Les détenteurs et garanties des traces de réveil restent inconnus."
+  },
+  "version": "0.1",
+  "precedente": null,
+  "prochaine_etape": "concevoir une fiche de consentement vide, sans recueillir encore de souvenir de tiers"
+}
+

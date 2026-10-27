@@ -9,10 +9,6 @@
       '<div id="mode-input" data-mode="dire">' +
       '<button id="mode-dire" class="actif"><i class="emb">💬</i>Parler</button>' +
       '<button id="mode-agir"><i class="emb">✋</i>Agir</button>' +
-      // Le troisième verbe de l'habitant (habitant.md §3) : FAIRE.
-      // Il n'apparaît qu'en incarnant un homme hors roster.
-      '<button id="mode-faire" hidden title="Changer le monde : déplacer, verser, remettre">' +
-      '<i class="emb">🤲</i>Faire</button>' +
       '<button id="mode-penser" title="Peser la situation : ce que vous savez, ce qui s\'offre, ce que ça coûte">' +
       '<i class="emb">💭</i>Penser</button>' +
       '<button id="mode-question" title="Hors fiction : demander une précision">' +
@@ -27,8 +23,8 @@
       '<i class="emb">🎭</i>Laisser faire</button>' +
       // Jump rejoint le prochain événement défini par le MJ. La préparation
       // reste hors de la scène ; le joueur reprend la main dans celle-ci.
-      '<button id="mode-jump" title="Préparer puis jouer le prochain événement MJ — un seul">' +
-      '<i class="emb">⏭️</i>Jump</button>' +
+      '<button id="mode-jump" title="Avancer jusqu’à la prochaine scène d’intérêt">' +
+      '<i class="emb">⏭️</i>Passer</button>' +
       // La main par-dessus le monde : on ne joue plus, on RÉPARE. Ici le MJ
       // sort de son rôle — plus de canon, plus de brouillard, plus rien
       // d'acquis : le joueur est propriétaire de sa partie et peut la changer
@@ -45,7 +41,7 @@
       // plus la scène, seul ce bouton l'arrête.
       '<button id="pause" class="pulse"><i class="emb">⏸️</i>Couper</button></div>' +
       '<div class="libre">' +
-      '<textarea id="champ-libre" class="mode-dire" placeholder="Vos prochaines paroles…"></textarea>' +
+      '<textarea id="champ-libre" class="mode-dire" placeholder="Vos prochaines paroles…" title="« search: un mot » cherche dans vos cahiers, ce qui court, le fil et les gens — sans parler et sans une minute de plus"></textarea>' +
       // Plus d'heure contre le bouton d'envoi : le bandeau est descendu JUSTE
       // SOUS cette barre, et il porte déjà la date, l'heure, l'écart de front
       // et le lieu. Deux montres à trente pixels l'une de l'autre.
@@ -78,7 +74,6 @@
     const boutons = {
       dire: document.getElementById("mode-dire"),
       agir: document.getElementById("mode-agir"),
-      faire: document.getElementById("mode-faire"),
       penser: document.getElementById("mode-penser"),
       question: document.getElementById("mode-question"),
       meta: document.getElementById("mode-meta"),
@@ -89,26 +84,30 @@
     const AMORCES = {
       dire: "Vos prochaines paroles…",
       agir: "Ce que vous faites…",
-      faire: "Ce que vous changez au monde…",
       penser: "Ce que vous pesez — ou rien, et vous pesez tout",
       question: "Ce que vous voulez éclaircir — hors de la scène…",
       meta: "Hors univers : la partie, le casting, une médaille à décerner…",
       run: "Une consigne, ou rien — et l'on vous joue comme on vous connaît…",
-      jump: "Un événement précis, ou rien pour prendre le prochain…",
+      jump: "Une direction facultative, ou rien pour rejoindre la prochaine scène intéressante…",
       intervention: "Ce qu'il faut redresser, développer, ou changer — rien n'est verrouillé…",
     };
     const ENVOIS = {
       dire: '<i class="emb">💬</i>Parler',
       agir: '<i class="emb">✋</i>Agir',
-      faire: '<i class="emb">🤲</i>Faire',
       penser: '<i class="emb">💭</i>Peser',
       question: '<i class="emb">❓</i>Demander',
       meta: '<i class="emb">🎬</i>Commenter',
       run: '<i class="emb">🎭</i>Laisser faire',
-      jump: '<i class="emb">⏭️</i>Jump',
+      jump: '<i class="emb">⏭️</i>Passer',
       intervention: '<i class="emb">✨</i>Intervenir',
     };
     let mode = "dire";
+    let destinataire = null;
+    const adresse = document.createElement("div");
+    adresse.className = "reponse-cible";
+    adresse.hidden = true;
+    zone.querySelector(".libre").before(adresse);
+    function effacerAdresse() { destinataire = null; adresse.hidden = true; }
 
     // Le drapeau survit au rechargement : celui qui écrit mal écrit mal tout
     // le temps, il ne veut pas rearmer son filtre à chaque tour.
@@ -130,6 +129,7 @@
     };
 
     function basculer(m) {
+      if(m !== "dire") effacerAdresse();
       mode = m;
       inter.dataset.mode = m;
       Object.keys(boutons).forEach((k) => boutons[k].classList.toggle("actif", k === m));
@@ -153,7 +153,7 @@
     // penser = un reveil de soi (cast) : la reponse HTTP est un accuse,
     // la pensee vit dans sa chambre — d'ou son retour dans la barre.
     const VERBES_JOUEUR_HORS_ROSTER = {
-      dire: "dire", agir: "tenter", faire: "faire",
+      dire: "dire", agir: "tenter",
       question: "demander", penser: "penser"
     };
     function envoyerVerbe(m, texte) {
@@ -183,10 +183,17 @@
 
     btn.onclick = () => {
       const v = champ.value.trim();
+      // « search: un mot » — LA RECHERCHE, avant tout le reste. Ce n'est pas un
+      // mode : rien ne part au MJ, rien n'entre dans l'état, l'horloge ne bouge
+      // pas, et personne dans la salle ne s'aperçoit qu'on a cherché. Le
+      // panneau tombe dans le fil comme une lecture, et le champ garde ce qu'on
+      // a tapé — on affine une recherche en corrigeant un mot, pas en la
+      // retapant. Voir modules/recherche.js.
+      if (window.Recherche && Recherche.depuisChamp(v)) return;
       // penser sans objet est permis : on pèse toute la situation. Laisser faire
       // sans consigne aussi : c'est même son usage le plus courant.
       if (!v && mode !== "penser" && mode !== "run" && mode !== "jump") return;
-      if (window.Moi && window.Moi.hors_roster && VERBES_HOMME[mode]) {
+      if (!destinataire && window.Moi && window.Moi.hors_roster && VERBES_JOUEUR_HORS_ROSTER[mode]) {
         envoyerVerbe(mode, v);
         champ.value = "";
         return;
@@ -194,20 +201,29 @@
       // pas d'affichage optimiste : le serveur inscrit la parole au flux, et on
       // relit aussitôt — une seule source de vérité, qui survit au rechargement.
       Bus.poster({ type: "libre", mode: mode, texte: v,
+        destinataire_id: mode === "dire" && destinataire ? destinataire.id : undefined,
         ameliorer: ameliorer && (mode === "dire" || mode === "agir") });
+      if (mode === "run") basculer("dire");
+      effacerAdresse();
       champ.value = "";
       setTimeout(() => Bus.sonderMaintenant && Bus.sonderMaintenant(), 120);
     };
     champ.onkeydown = (e) => {
-      if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); btn.click(); }
+      if (e.key === "Enter" && !e.shiftKey) {
+        e.preventDefault();
+        // Un laisser-faire vide exige le bouton : Entrée dans le champ
+        // effacé ne doit pas redonner les rênes au MJ par accident.
+        if (mode === "run" && !champ.value.trim()) return;
+        if (e.repeat) return;
+        btn.click();
+      }
     };
     basculer("dire");
 
     // La barre se taille au siège : bus.js remplit window.Moi depuis /moi (en
     // parallèle de nous) — on attend cette réponse-là plutôt que d'en refaire
-    // une. Hors roster : Faire apparaît, et les modes qui parlent au MJ du
-    // JOUEUR (penser, coulisses, laisser faire, intervention) se rangent — cet
-    // homme-là n'a que ses quatre verbes vers le MJ.
+    // une. Hors roster, les modes Coulisses, Laisser faire et Intervention
+    // se rangent. Agir reste l’unique bouton pour les actions du personnage.
     (function tailler(essais) {
       // == et non === : avant que bus.js ait pose son null initial, Moi est
       // UNDEFINED — le === laissait filer ce cas et la taille n'avait jamais
@@ -215,7 +231,6 @@
       if (window.Moi == null && essais > 0)
         return setTimeout(() => tailler(essais - 1), 300);
       if (!window.Moi || !window.Moi.hors_roster) return;
-      boutons.faire.hidden = false;
       // penser revient (31.8) : c'est un verbe d'homme desormais — un reveil
       // de soi. Seuls les modes MJ-du-joueur se rangent.
       ["meta", "run", "intervention"].forEach((k) => {
@@ -243,11 +258,23 @@
 
     window.Barre = {
       adresser(nom) {
+        effacerAdresse();
         if (!nom) return;
         prefixer(nom, ", ");
       },
-      repondre(nom) {
-        prefixer(nom, " : ");
+      repondre(nom, id) {
+        basculer("dire");
+        if(!id) { effacerAdresse(); prefixer(nom, " : "); return; }
+        destinataire = {id, nom};
+        adresse.replaceChildren(document.createTextNode("À " + nom + " "));
+        const annuler = document.createElement("button");
+        annuler.type = "button";
+        annuler.textContent = "×";
+        annuler.setAttribute("aria-label", "Annuler la réponse ciblée");
+        annuler.onclick = effacerAdresse;
+        adresse.appendChild(annuler);
+        adresse.hidden = false;
+        champ.focus();
       },
     };
   });
@@ -317,7 +344,7 @@
     const p = it.locuteur_id && window.Gens ? Gens.qui(it.locuteur_id) : null;
     const nom = it.qui || (p && p.nom) || "Le narrateur";
     const entree = Bus.chronique("chr-reponse", nom, it.texte,
-      p ? { avatar: p.portrait_svg, role: p.titre } : undefined);
+      { avatar: p && p.portrait_svg, role: p && p.titre, locuteur_id: it.locuteur_id });
     if (p && window.Gens) Gens.marquer(entree, it.locuteur_id);
   });
 
@@ -332,7 +359,7 @@
     Bus.chronique("chr-run", "Vous laissez faire",
       it.texte || "Sans consigne — on vous joue comme on vous connaît."));
   Bus.enregistrer("jump", (it) =>
-    Bus.chronique("chr-run", "Jump",
+    Bus.chronique("chr-run", "Passer",
       it.texte || "Vers le prochain événement défini par le MJ."));
   // L'atelier de chanson. La commande du joueur, puis la fiche rendue : titre,
   // ce que ça raconte, et le fichier .md qu'on vient d'ouvrir au bloc-notes.

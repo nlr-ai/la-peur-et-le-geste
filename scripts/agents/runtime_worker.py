@@ -14,8 +14,15 @@ from agents import runtime, work_identity  # noqa: E402
 
 def main():
     requete = sys.argv[1]
+    if len(sys.argv) > 2:
+        # Lance par WMI (agents/detache.py) : aucun flux herite, il ouvre son
+        # journal lui-meme.
+        journal = io.open(sys.argv[2], "a", encoding="utf-8", buffering=1)
+        sys.stdout = sys.stderr = journal
     with io.open(requete, encoding="utf-8") as f:
         charge = json.load(f)
+    # Ni l'environnement n'est herite : il voyage dans la requete.
+    os.environ.update(charge.get("environnement") or {})
     try:
         # La bascule globale peut changer apres le spawn : ce CAST garde le
         # fournisseur annonce a son depart, sans course avec l'operateur.

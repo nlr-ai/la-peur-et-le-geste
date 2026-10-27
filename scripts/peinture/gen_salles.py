@@ -4,6 +4,9 @@
     python scripts/peinture/gen_salles.py                 # toutes celles qui manquent
     python scripts/peinture/gen_salles.py roukerie bourg  # celles-la seulement
     python scripts/peinture/gen_salles.py --refaire bourg # meme si le fichier existe
+    python scripts/peinture/gen_salles.py --monde charmed-1906 grenier
+        # un monde nomme : ses vues dans `mondes/<id>/peinture.json`, ses toiles
+        # dans `mondes/<id>/salles/` (lues d'abord par le serveur, route salles.js)
 
 Sortie : `ecrans/salles/<id de la salle>.jpg`, ou l'id est celui de `plans.js`.
 Deposer le fichier SUFFIT : `vue-salle.js` le pose dans le fil au changement de
@@ -232,7 +235,7 @@ def peindre(cle, ident):
     style, sujet = fiche[0], fiche[1]
     negatif = fiche[2] if len(fiche) > 2 else None
     champs = {
-        "prompt": (None, style + sujet + FIN),
+        "prompt": (None, style + sujet + (fiche[3] if len(fiche) > 3 else FIN)),
         "aspect_ratio": (None, "16x9"),
         "rendering_speed": (None, "TURBO"),
         "style_type": (None, "REALISTIC"),
@@ -252,9 +255,27 @@ def peindre(cle, ident):
     brut.unlink()
 
 
+def monde(ident):
+    """Les vues d'un monde nomme remplacent SALLES ; ses toiles vont dans son paquet."""
+    global SORTIE
+    import json
+    d = json.loads((RACINE / "mondes" / ident / "peinture.json").read_text(encoding="utf-8"))["salles"]
+    b = d["blocs"]
+    SORTIE = RACINE / "mondes" / ident / "salles"
+    SALLES.clear()
+    for sid, (bloc, sujet) in d["vues"].items():
+        negatif = ", ".join(x for x in (d.get("sans_jour") if bloc == "sous" else "", d.get("moderne")) if x)
+        SALLES[sid] = (b[bloc], sujet, negatif or None, b.get("fin", FIN))
+
+
 def main():
-    args = [a for a in sys.argv[1:] if a != "--refaire"]
-    refaire = "--refaire" in sys.argv
+    argv = sys.argv[1:]
+    if "--monde" in argv:
+        i = argv.index("--monde")
+        monde(argv[i + 1])
+        del argv[i:i + 2]
+    args = [a for a in argv if a != "--refaire"]
+    refaire = "--refaire" in argv
     inconnus = [a for a in args if a not in SALLES]
     if inconnus:
         raise SystemExit("salle(s) inconnue(s) : " + ", ".join(inconnus))

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297" role="img" aria-labelledby="title desc">
+  <title id="title">Version 2 des trois faces de balises de portée sonore</title>
+  <desc id="desc">Trois faces carrées de douze centimètres, immédiatement distinguables : entendu, seuil incertain et non entendu. La fiche de relevé libre est dans un second fichier.</desc>
+  <defs>
+    <pattern id="dots" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="0.8" fill="#222"/></pattern>
+    <style>
+      .cut{fill:#fff;stroke:#111;stroke-width:.8;stroke-dasharray:3 2}.title{font-family:Arial,sans-serif;font-weight:700;font-size:9px;text-anchor:middle;fill:#111}.small{font-family:Arial,sans-serif;font-size:4px;fill:#111}.note{font-family:Arial,sans-serif;font-size:5px;fill:#111}.field{stroke:#111;stroke-width:.45}.heavy{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round}.medium{fill:none;stroke:#111;stroke-width:1.4;stroke-linecap:round}
+    </style>
+  </defs>
+  <text x="210" y="9" class="small" text-anchor="middle">MAQUETTE V2 — impression A3 paysage à 100 % : chaque carré mesure 12 × 12 cm</text>
+
+  <g id="face-entendu" transform="translate(15 15)">
+    <rect class="cut" width="120" height="120"/><text x="60" y="15" class="title">ENTENDU</text>
+    <circle cx="60" cy="46" r="5" fill="#111"/><path d="M48 36 Q36 46 48 56 M72 36 Q84 46 72 56" class="heavy"/><path d="M40 29 Q20 46 40 63 M80 29 Q100 46 80 63" class="medium"/>
+    <text x="8" y="78" class="small">Direction :</text><line x1="30" y1="78" x2="112" y2="78" class="field"/>
+    <text x="8" y="88" class="small">Pas :</text><line x1="18" y1="88" x2="45" y2="88" class="field"/><text x="50" y="88" class="small">Observateur :</text><line x1="76" y1="88" x2="112" y2="88" class="field"/>
+    <text x="8" y="99" class="small">Observation :</text><line x1="32" y1="99" x2="112" y2="99" class="field"/><line x1="8" y1="107" x2="112" y2="107" class="field"/>
+    <text x="60" y="116" class="small" text-anchor="middle">Écrire « non observé » plutôt que compléter</text>
+  </g>
+  <g id="face-seuil-incertain" transform="translate(150 15)">
+    <rect class="cut" width="120" height="120"/><rect x="1" y="1" width="118" height="68" fill="url(#dots)" opacity=".22"/><text x="60" y="15" class="title">SEUIL INCERTAIN</text>
+    <text x="60" y="59" font-family="Arial, sans-serif" font-size="44" font-weight="700" text-anchor="middle" fill="#111">?</text>
+    <text x="8" y="78" class="small">Direction :</text><line x1="30" y1="78" x2="112" y2="78" class="field"/>
+    <text x="8" y="88" class="small">Pas :</text><line x1="18" y1="88" x2="45" y2="88" class="field"/><text x="50" y="88" class="small">Observateur :</text><line x1="76" y1="88" x2="112" y2="88" class="field"/>
+    <text x="8" y="99" class="small">Observation :</text><line x1="32" y1="99" x2="112" y2="99" class="field"/><line x1="8" y1="107" x2="112" y2="107" class="field"/>
+    <text x="60" y="116" class="small" text-anchor="middle">Écrire « non observé » plutôt que compléter</text>
+  </g>
+  <g id="face-non-entendu" transform="translate(285 15)">
+    <rect class="cut" width="120" height="120"/><text x="60" y="15" class="title">NON ENTENDU</text>
+    <path d="M40 28 L80 64 M80 28 L40 64" class="heavy"/><circle cx="60" cy="46" r="5" fill="#111"/>
+    <text x="8" y="78" class="small">Direction :</text><line x1="30" y1="78" x2="112" y2="78" class="field"/>
+    <text x="8" y="88" class="small">Pas :</text><line x1="18" y1="88" x2="45" y2="88" class="field"/><text x="50" y="88" class="small">Observateur :</text><line x1="76" y1="88" x2="112" y2="88" class="field"/>
+    <text x="8" y="99" class="small">Observation :</text><line x1="32" y1="99" x2="112" y2="99" class="field"/><line x1="8" y1="107" x2="112" y2="107" class="field"/>
+    <text x="60" y="116" class="small" text-anchor="middle">Écrire « non observé » plutôt que compléter</text>
+  </g>
+
+  <g transform="translate(15 154)">
+    <rect width="390" height="126" fill="#fff" stroke="#111" stroke-width=".8"/>
+    <text x="195" y="16" class="title">LES FACES NOMMENT UN CONSTAT, PAS UN ORDRE</text>
+    <text x="12" y="33" class="note">• Une face peut être employée plusieurs fois dans une même direction.</text>
+    <text x="12" y="45" class="note">• Une face peut ne jamais être employée : l'état reste alors « non observé ».</text>
+    <text x="12" y="57" class="note">• Aucun alignement ni espacement n'est prescrit par cette planche.</text>
+    <text x="12" y="69" class="note">• Les pas restent des pas ; ils ne sont pas convertis en mètres.</text>
+    <text x="12" y="87" class="note">Fiche libre associée :</text>
+    <text x="12" y="98" class="small">13000-fiche-points-ecoute-v2.svg — point-source, conditions du son et suites de points par direction</text>
+    <text x="12" y="116" class="small">Maquette numérique : non imprimée, non fabriquée, non posée et non éprouvée au Quai.</text>
+  </g>
+</svg>

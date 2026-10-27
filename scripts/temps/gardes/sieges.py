@@ -218,7 +218,10 @@ def verifier_audiences(e, r):
     seuil = 0
     for j in e.sieges:
         seuil = max(seuil, j.get("depuis") or 0)
-    chemin = os.path.join(RACINE, "etat", "flux.jsonl")
+    # Le fil est une donnee du MONDE, pas du depot : il suit `ETAT`. Ecrit
+    # `RACINE + "etat"` a la main, il lisait le fil du monde d'a cote des qu'un
+    # monde etait nomme — et cette garde-ci verifie justement les audiences.
+    chemin = os.path.join(ETAT, "flux.jsonl")
     orphelins = []
     try:
         with io.open(chemin, encoding="utf-8") as f:

@@ -32,8 +32,11 @@ import sys
 import collections
 
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-TISSU = os.path.join(RACINE, "etat", "tissu", "aretes.jsonl")
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+TISSU = os.path.join(ETAT, "tissu", "aretes.jsonl")
 
 # --------------------------------------------------------- le vocabulaire
 # Seize natures, six familles. Tout le reste s'y replie ou se signale.

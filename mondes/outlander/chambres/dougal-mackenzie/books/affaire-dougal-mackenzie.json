@@ -1,0 +1,549 @@
+{
+  "id": "affaire-dougal-mackenzie",
+  "titre": "Les affaires de dougal-mackenzie",
+  "sous_titre": "Cahier stratégique personnel — préparation du monde et conduite de mes affaires",
+  "type": "affaire",
+  "tenu_par": "dougal-mackenzie",
+  "acteur_id": "dougal-mackenzie",
+  "prive": true,
+  "pages": [
+    "Une affaire durable par PNJ qui porte une stratégie. Plusieurs fins peuvent y coexister. Les catégories décrivent les dimensions à peindre, pas huit objectifs obligatoires. Ce cahier de simulation n’est pas la preuve d’un carnet physiquement fabriqué.",
+    "Je peux établir en préparation les détails ordinaires, personnes secondaires, objets, lieux, habitudes et ressources plausibles nécessaires à mon implantation, sans contredire le canon ni les faits acquis. Je marque chaque ajout comme peint. Un ajout conséquent doit avoir une provenance, des limites, des liens et des conséquences cohérents ; je ne fais pas surgir le moyen décisif qui efface mon problème. Un autre personnage reçoit sa fiche et sa propre session avant toute parole, décision ou action jouée.",
+    "Établi, peint, hypothèse, inconnu sont des statuts distincts. Peindre un état initial n’accomplit pas une action future. Fabriquer pendant le jeu exige matériaux, outils, compétence et durée ; une issue dépendant d’autrui reste ouverte. Mes croyances restent distinctes de la réalité, même si ma session contribue à préparer le monde.",
+    "Les adresses C.1, V.1, K.1 et P.1 sont locales à ce cahier. Ne pas inventer de numéro global ; utiliser les outils d’adressage si un contexte global est nécessaire. Les trous ci-dessous sont écrits par moi ; ils ne remplacent pas les trous calculés du graphe."
+  ],
+  "tables": [
+    {
+      "titre": "Ouverture",
+      "colonnes": [
+        "Champ",
+        "Contenu"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Porteur",
+            "dougal-mackenzie"
+          ]
+        },
+        {
+          "cellules": [
+            "Périmètre",
+            "Mes responsabilités envers le clan, les limites de mon mandat auprès de Colum, les moyens ordinaires qui me sont accessibles et la préparation prudente de mes convictions jacobites."
+          ]
+        },
+        {
+          "cellules": [
+            "État de préparation",
+            "Implantation ordinaire peinte ; stratégie retenue le 1743.5.4 ; aucune démarche encore accomplie."
+          ]
+        },
+        {
+          "cellules": [
+            "Registre compagnon",
+            "registre-etats-dougal-mackenzie"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Dimensions à peindre",
+      "colonnes": [
+        "Catégorie",
+        "Ce que je pose",
+        "Statut",
+        "Source ou provenance",
+        "Renvois"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "fins-et-doctrine",
+            "Le clan vient en premier ; je sers l’autorité de Colum et je veux faire progresser la cause jacobite sans exposer les MacKenzie par une promesse que je n’ai pas pouvoir de donner.",
+            "peint",
+            "Fiche et relations établissent clan, conviction jacobite et subordination ; règle de conduite choisie par l’incarnation.",
+            "C.1, C.2, C.3"
+          ]
+        },
+        {
+          "cellules": [
+            "personnes-et-relations",
+            "Colum est mon frère et chef ; Rupert et Angus mes compagnons sous commandement ; Ned mon collaborateur. Alec tient les chevaux. Aucun ne parle ni ne s’engage de ma main.",
+            "établi",
+            "etat/relations.json et canon/clans.md.",
+            "K.1, K.2, P.1, P.2"
+          ]
+        },
+        {
+          "cellules": [
+            "pouvoir-et-acces",
+            "Je peux présenter une demande, préparer une inspection dans mon mandat et coordonner ce qui m’est effectivement confié. Je ne lie ni le clan, ni ses hommes, ni ses biens sans limites reçues de Colum.",
+            "peint",
+            "Rang, lien de subordination et limite d’autorité posée pour la préparation.",
+            "V.1, M.3, M.4"
+          ]
+        },
+        {
+          "cellules": [
+            "moyens-materiels",
+            "Vêtements de rang et de voyage, manteau, bottes, ceinturon, épée et dirk personnels, petite sacoche. Aucun cheval, argent du clan, effectif, arme à feu, cache ou courrier secret n’est acquis.",
+            "peint",
+            "Implantation ordinaire plausible d’un homme de rang actif en 1743 ; limites expresses au registre.",
+            "R.3, R.4, R.5, M.1"
+          ]
+        },
+        {
+          "cellules": [
+            "savoirs-et-secrets",
+            "Je connais les usages ordinaires de Leoch et mes liens de service. Je crois Claire présente. J’ignore son origine, l’arrivée des PJ, les chiffres des ressources et tout relais jacobite utilisable tant qu’une source ne me l’a pas donné.",
+            "peint",
+            "Croyance actuelle, relations établies et brouillard imposé.",
+            "V.2, V.3, R.2"
+          ]
+        },
+        {
+          "cellules": [
+            "engagements-et-temps",
+            "Ma journée ordinaire alterne responsabilités visibles à Leoch, repas, temps personnel et repos. Cette implantation ne joue aucune inspection, audience ni déplacement.",
+            "peint",
+            "Routine responsabilités-dougal-leoch créée comme emploi du temps initial.",
+            "R.7, P.1, P.2"
+          ]
+        },
+        {
+          "cellules": [
+            "strategie-et-alternatives",
+            "Mandat d’abord, état des moyens ensuite, proposition jacobite seulement sur faits vérifiés. Si Colum refuse ou tarde, je n’engage que mon équipement personnel et je garde les inconnus ouverts.",
+            "peint",
+            "Choix de l’incarnation au 1743.5.4.",
+            "K.1, K.2, K.3"
+          ]
+        },
+        {
+          "cellules": [
+            "zones-a-peindre",
+            "Restent inconnus : mandat précis, effectifs, montures disponibles, fonds, routes lointaines, contacts jacobites, consignes sur Claire et tout fait concernant Aurore ou Nicolas.",
+            "inconnu",
+            "Les tables canoniques et l’état ne les établissent pas.",
+            "T.1 à T.5"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "N°",
+        "L'état visé",
+        "Ce qui doit être vrai",
+        "La preuve",
+        "Jour dû",
+        "Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "C.1",
+            "Un mandat borné de Dougal est établi",
+            "Colum a réellement indiqué priorités, permissions et limites",
+            "Réponse ou décision issue de la session de Colum, consignée sans extrapolation",
+            "1743.5.5",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "C.2",
+            "Les moyens autorisés sont connus assez précisément pour décider",
+            "Dans le périmètre reçu, hommes, montures, contraintes et dépenses sont distingués entre disponibles, indisponibles et inconnus",
+            "Réponses de leurs détenteurs et constats réellement effectués",
+            "1743.5.7",
+            "1"
+          ]
+        },
+        {
+          "cellules": [
+            "C.3",
+            "La cause jacobite avance sans engagement clandestin du clan",
+            "Une démarche limitée, autorisée et soutenable est choisie sur un relais vérifié",
+            "Décision distincte après C.1 et C.2 ; coût, porteur et risque consignés",
+            "à réviser après C.2",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": [
+        "N°",
+        "Le verrou",
+        "Bloque",
+        "La preuve"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "V.1",
+            "Les limites actuelles de mon mandat ne sont pas établies",
+            "C.1, C.2, C.3",
+            "Seule une décision effectivement reçue de Colum le lève"
+          ]
+        },
+        {
+          "cellules": [
+            "V.2",
+            "Effectifs, montures, contraintes et fonds ne sont pas chiffrés ni attribués",
+            "C.2, C.3",
+            "Réponses des responsables et constats accomplis dans le mandat"
+          ]
+        },
+        {
+          "cellules": [
+            "V.3",
+            "Aucun relais jacobite opérationnel et fiable n’est connu dans mes sources",
+            "C.3",
+            "Une source accessible identifie un relais réel et ses conditions, sans le créer par hypothèse"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "N°",
+        "La clef",
+        "Ouvre",
+        "Prix et limites"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "K.1",
+            "Demander à Colum un mandat explicite et borné",
+            "V.1",
+            "Temps de Colum ; réponse non présumée ; un refus ou une restriction fait foi"
+          ]
+        },
+        {
+          "cellules": [
+            "K.2",
+            "Interroger séparément les détenteurs des moyens compris dans le mandat",
+            "V.2",
+            "Temps de Rupert, Angus, Alec ou Ned ; réponses par leurs sessions ; aucune disponibilité déduite du lien"
+          ]
+        },
+        {
+          "cellules": [
+            "K.3",
+            "Après C.1 et C.2, rechercher un seul relais jacobite vérifiable avant de proposer une démarche",
+            "V.3",
+            "Discrétion, délai et risque ; aucune organisation, caisse ou correspondance secrète peinte d’avance"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "N°",
+        "L'action",
+        "Réalise",
+        "Dépend de",
+        "Qui",
+        "Où",
+        "La preuve",
+        "État",
+        "Jour dû",
+        "Jour fait",
+        "Note"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "P.1",
+            "Présenter à Colum une demande bornée sur priorités, hommes, déplacements, dépenses et marge jacobite",
+            "K.1",
+            "aucune",
+            "Dougal",
+            "Leoch",
+            "Acte de demande ; toute réponse demeure un fait séparé de Colum",
+            "prévue",
+            "1743.5.5",
+            "",
+            "Première démarche ; préparation seulement"
+          ]
+        },
+        {
+          "cellules": [
+            "P.2",
+            "Dans le mandat reçu, demander aux responsables concernés l’état des moyens et consigner les lacunes",
+            "K.2",
+            "P.1 et instructions réelles de Colum",
+            "Dougal",
+            "Leoch",
+            "Réponses et constats réellement obtenus, sans compléter les silences",
+            "prévue sous condition",
+            "1743.5.7",
+            "",
+            "Pas de levée, de dépense ni de départ présumé"
+          ]
+        },
+        {
+          "cellules": [
+            "P.3",
+            "Après C.2, formuler à Colum une seule option jacobite bornée ou conclure qu’aucune n’est encore soutenable",
+            "K.3",
+            "P.2 et relais vérifié",
+            "Dougal",
+            "Leoch",
+            "Proposition ou constat d’absence, puis décision propre de Colum",
+            "différée",
+            "à dater après C.2",
+            "",
+            "Aucun contact ni assentiment précréé"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Stratégie et alternatives",
+      "colonnes": [
+        "Fin",
+        "Approche",
+        "Pourquoi",
+        "Alternative",
+        "Changer si",
+        "Moyens engagés"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Intérêts et capacité d’action du clan",
+            "Obtenir le mandat, puis compter seulement ce qu’il couvre",
+            "Évite que mon zèle engage le clan au-delà de ma charge",
+            "Rester à l’équipement personnel et aux faits déjà reçus",
+            "Colum refuse, restreint ou diffère ; un responsable contredit une disponibilité",
+            "Temps de service à Leoch ; relations existantes, sans droit sur leurs réponses"
+          ]
+        },
+        {
+          "cellules": [
+            "Cause jacobite",
+            "N’avancer une option qu’après autorité, état des moyens et relais vérifié",
+            "La discrétion sans capacité réelle n’est qu’un risque pour le clan",
+            "Conserver la conviction sans employer hommes, argent ou nom des MacKenzie",
+            "Le coût menace le clan, le relais n’est pas vérifiable ou Colum n’autorise pas",
+            "Aucun moyen du clan engagé à ce stade"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Moyens disponibles",
+      "colonnes": [
+        "Référence",
+        "Nature",
+        "Accès réel",
+        "Quantité ou portée",
+        "Limites",
+        "Provenance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "M.1",
+            "Équipement personnel ordinaire",
+            "Direct",
+            "Vêtements, manteau, bottes, ceinturon, épée, dirk et petite sacoche",
+            "Usage personnel ; pas de cache, de monture, d’armes à feu ni de fonds du clan",
+            "Ajout peint, registre R.3 à R.5"
+          ]
+        },
+        {
+          "cellules": [
+            "M.2",
+            "Familiarité ordinaire de Leoch",
+            "Directe dans les espaces communs liés à mes responsabilités",
+            "Hall, cour, abords des écuries et chambre, sans métrique interne",
+            "N’accorde ni accès privé universel, ni route hors de Leoch",
+            "Ajout peint, registre R.1 et R.2"
+          ]
+        },
+        {
+          "cellules": [
+            "M.3",
+            "Liens de service avec Rupert, Angus et Ned",
+            "Je peux leur adresser une demande appropriée",
+            "Relations établies",
+            "Ne garantit ni présence immédiate, ni réponse, ni disponibilité",
+            "etat/relations.json"
+          ]
+        },
+        {
+          "cellules": [
+            "M.4",
+            "Lien direct avec Colum",
+            "Je peux solliciter ses instructions comme frère et subordonné",
+            "Une demande bornée",
+            "Son temps, son accord et sa décision restent à lui",
+            "etat/relations.json"
+          ]
+        },
+        {
+          "cellules": [
+            "M.5",
+            "Accès aux services ordinaires des écuries",
+            "Seulement après attribution réelle par l’autorité compétente",
+            "Aucune monture réservée",
+            "Alec garde sa charge ; aucun cheval ni équipement n’est présumé disponible",
+            "canon/clans.md et limite peinte, registre R.8"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Trous de préparation",
+      "colonnes": [
+        "Trou",
+        "Catégorie",
+        "Ce qui en dépend",
+        "Traitement",
+        "Qui",
+        "Échéance",
+        "État",
+        "Résultat"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "T.1",
+            "obtenir",
+            "C.1 et toute mobilisation",
+            "Demander le mandat à Colum sans présumer sa réponse",
+            "Dougal puis session de Colum",
+            "1743.5.5",
+            "ouvert",
+            ""
+          ]
+        },
+        {
+          "cellules": [
+            "T.2",
+            "obtenir",
+            "C.2",
+            "Demander aux responsables seulement après mandat",
+            "Dougal puis sessions concernées",
+            "1743.5.7 au plus tôt",
+            "ouvert",
+            ""
+          ]
+        },
+        {
+          "cellules": [
+            "T.3",
+            "chercher",
+            "C.3",
+            "Identifier une source accessible pour un relais jacobite après C.2",
+            "Dougal",
+            "non fixé",
+            "différé",
+            ""
+          ]
+        },
+        {
+          "cellules": [
+            "T.4",
+            "inconnu",
+            "Jugement sur Claire",
+            "Ne pas convertir l’absence de source en soupçon certain",
+            "Dougal",
+            "aucune échéance",
+            "ouvert",
+            "Claire est seulement tenue présente"
+          ]
+        },
+        {
+          "cellules": [
+            "T.5",
+            "inconnu",
+            "Toute réaction aux PJ",
+            "N’entreprendre aucune recherche ni rencontre sans information effectivement reçue",
+            "Dougal",
+            "aucune échéance",
+            "ouvert",
+            "Aucun profil ajouté"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Connaissances et croyances",
+      "colonnes": [
+        "Sujet",
+        "Ce que je crois",
+        "Source reçue",
+        "Ce que j’ignore",
+        "Référence de réalité"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "Claire",
+            "Elle est présente à Leoch",
+            "croyance d’état actuelle",
+            "Son origine temporelle et ses desseins",
+            "etat/intentions.json ; aucune preuve nouvelle"
+          ]
+        },
+        {
+          "cellules": [
+            "Autorité du clan",
+            "Colum est mon chef et frère",
+            "relation établie",
+            "Les limites particulières qu’il me donnera aujourd’hui",
+            "etat/relations.json"
+          ]
+        },
+        {
+          "cellules": [
+            "Compagnons et collaborateurs",
+            "Rupert, Angus et Ned ont avec moi les liens établis",
+            "relations établies",
+            "Leur disponibilité, leurs constats et leurs décisions présentes",
+            "etat/relations.json"
+          ]
+        },
+        {
+          "cellules": [
+            "Moyens du clan",
+            "Ils ne sont pas chiffrés dans mes sources",
+            "limites de canon/implantation.md",
+            "Effectifs, chevaux, fonds, routes et contraintes",
+            "V.2"
+          ]
+        },
+        {
+          "cellules": [
+            "Aurore et Nicolas",
+            "Je ne les connais pas",
+            "brouillard initial",
+            "Leur arrivée, position, identité, lien, aptitudes, bagages et origine",
+            "etat/intentions.json"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Résultats et révisions",
+      "colonnes": [
+        "Date",
+        "Fait ou découverte",
+        "Preuve",
+        "Ce que je change",
+        "Renvois"
+      ],
+      "lignes": []
+    }
+  ]
+}

@@ -1,0 +1,949 @@
+{
+ "id": "affaire-annulation",
+ "maison_id": "bastion",
+ "titre": "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+ "sous_titre": "🕳️ Affaire ouverte à la salle du conseil du Bastion couronné et POSÉE LÀ, où elle reste. Trois états atteignables, treize lois dont deux tranchées par nous, dix-sept mécanismes, trente-quatre pratiques. L'école ne supprime rien : elle déplace ou redistribue la charge du sillon. Plage 59000 à 59999.",
+ "type": "plan",
+ "embleme": "🕳️",
+ "couleur": "#2b2d42",
+ "lieu_id": "bastion-couronne",
+ "salle_id": "conseil-couronne",
+ "tenu_par": null,
+ "office": "O04",
+ "pages": [
+  "TROIS CHOSES SE FONT AVEC CETTE ÉCOLE : révéler les branches du sillon et leur charge par des encres de diagnostic, interrompre une branche en choisissant où va sa charge, et drainer l'excédent avant qu'un Non-Vivant n'y prenne corps.\n\nUne seule vérité commande cette école, et c'est la révision centrale de nos canons : **l'annulateur ne fait jamais disparaître un excédent. Il choisit où il ira.** Couper une branche ne supprime pas sa charge : cela la redistribue vers les branches restantes ou la concentre sur un nœud amont. L'action d'annuler n'est pas un anéantissement, c'est un aiguillage brutal. Celui qui tranche sans savoir où l'énergie va refluer fait exploser sa propre installation.",
+  "LA PHYSIQUE DE CETTE ÉCOLE TIENT EN TREIZE LOIS, ET SA RÈGLE D'EFFROI EST LE NON-VIVANT.\n\nLe sillon n'est pas une figure isolée : c'est le **réseau global** formé par toutes les empreintes que les écoles de magie déposent dans la pierre (Enchantement), les corps (Esprit), les frontières (Protection) ou l'espace. Les ouvrages les mieux tenus produisent un excédent permanent que leurs récepteurs ne reprennent pas entièrement. Cet excédent stagne dans les nœuds du sillon.\n\n> **La loi d'airain : le Non-Vivant absorbe l'excédent.** Il croît et s'installe là où la charge s'accumule sans issue. Il est le puits absolu que nos ingénieurs s'étaient interdit, repoussé spontanément au bout de nos circuits. Retirer un Non-Vivant installé sur un nœud surchargé sans avoir préalablement dérivé l'excédent rend d'un coup toute la charge à l'ouvrage, qui éclate.\n\n**Nos deux décisions.** *Le diagnostic exclusif par encre* : nous refusons toute prétention à 'sentir' le sillon à mains nues ; un sillon n'est déclaré existant que s'il noircit ou blanchit sous une encre de diagnostic certifiée. *La purge matérielle avant coupure* : nous tranchons qu'aucune coupure rituelle d'annulation n'est autorisée au Bastion sans qu'un caniveau de terre cuite ou un puits sec n'ait été terrassé pour recevoir le reflux.",
+  "CE CAHIER TOMBE SUR UNE ÉCOLE QUE LE BASTION NE PRATIQUE PAS, MAIS DONT IL SUBIT LE SOL.\n\nPersonne au Bastion ne détient le don d'Annulation à ce jour. L'office O04 porte ce cahier parce que la Maison entière est construite sur un maillage de fournaises et de courtines qui suintent l'excédent magique jour et nuit.\n\nLe Corps de Résolution et Sœur Cendre nous observent : ils savent que notre fierté de bâtisseurs a creusé des sillons profonds sous la Cour Basse. Ce cahier n'est pas un manuel de combat : c'est notre **dossier de salubrité magique**. Il fixe les règles d'inspection des fondations et les conditions sous lesquelles nous autoriserons un annulateur étranger à poser ses encres sur nos murs sans lui livrer les plans de nos refuges.",
+  "TROIS CHOSES À SAVOIR AVANT DE S'APPUYER SUR CE CAHIER.\n\n**Aucune des trente-quatre pratiques n'est déclarée faite par la Maison.** Les propositions du Corps de Résolution dorment dans leurs liasses.\n\n**Six mécanismes ne demandent aucun don magique** : broyer la suie froide et la craie pour fabriquer les encres, badigeonner les joints de maçonnerie, poser des cloisons d'air sec par sciage de blocs, inspecter le noircissement des encres à la torche, creuser une tranchée de dérivation dans le tuf, et interdire le séjour prolongé des veilleurs près des nœuds qui bourdonnent.\n\n**Ce que l'encre dit et ce qu'elle tait** : l'encre de diagnostic ne dit jamais ce qu'il faut couper. Elle révèle seulement la charge. Une branche très noire sous la suie froide n'est pas une cible prioritaire : c'est une branche au bord de l'accouchement d'un Non-Vivant, qu'un coup de ciseau malheureux ferait éclater en pleine face du praticien.\n\nCe qui reste ouvert : la formule d'encre adaptée aux empreintes de la magie de l'Esprit, et la vitesse de recolonisation d'un nœud assaini par les charges vagabondes du dehors."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "Le sujet dont le conseil traite, **jamais la solution**.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Le Bastion produit plus d'excédent magique qu'aucune autre forteresse. Le conseil doit comprendre la physique du sillon, refuser l'illusion de l'annulation destructrice, et régler le drainage des nœuds saturés avant que des Non-Vivants n'y élisent domicile.",
+      "Une phrase : pourquoi cette affaire mérite l'attention du conseil.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Les trois états qu'un praticien peut atteindre : révéler le sillon par encres spécifiques, couper une branche en canalisant sa redistribution, et assainir les nœuds saturés. La typologie des encres (suie froide, craie grise), le métabolisme de charge des Non-Vivants, et la protection des maçonneries.",
+      "Ce qui est réellement traité dans ce cahier.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "L'exorcisme des défunts (relevant de la Mort 57000). Le combat singulier contre les créatures errantes. Les opérations d'annulation sur les esprits humains. Les rituels secrets du Corps de Résolution.",
+      "Sans le dehors écrit, une affaire d'école avale tout en trois semaines.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "**Ce qui est vrai :** le Bastion a d'immenses excédents thermiques et protecteurs ; Sœur Cendre propose un caniveau d'annulation passif ; les encres minérales de base sont préparables à l'atelier. **Ce qu'on reconnaît ignorer :** aucune carte du sillon sous nos dalles n'existe ; nous ne savons pas si un Non-Vivant absorbe déjà silencieusement sous les Fournaises ; aucun titulaire n'est nommé pour O04 sur ce dossier technique.",
+      "Ce qu'on sait réellement à l'ouverture, et ce qu'on reconnaît ignorer.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "**59000 à 59999**",
+      "Un bloc de cent par état cible ; verrous en 01 à 09, clefs en 10 à 19, pratiques en 20 à 99.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "",
+      "Écrite de la main de qui tient la charge, quand elle l'est. Pas avant.",
+      "non"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Une cartographie complète du sillon sous la Cour Basse est dressée sous encre certifiée ; les nœuds critiques sont dotés d'évacuations de terre cuite ; et le protocole de dérivation préalable à toute coupure est affiché.",
+      "La fermeture couvre l'état de notre savoir et de nos ouvrages, jamais la maîtrise de l'école.",
+      "**oui**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "partage",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M80 🚪 Le don d'Espace",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Esprit — ce qu'on peut faire d'un percept, et ce qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "M05 🔥 Le foyer, son arrivée d'air, le collecteur et ses trois branches",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Mort — ce qui doit venir, et ce qui doit prendre voix",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Mort — ce qui doit venir, et ce qui doit prendre voix",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "M05 🔥 Le foyer, son arrivée d'air, le collecteur et ses trois branches",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Les Illusions — l'unique chose que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Les Émotions — les deux choses que cette école fait, et la physique qui s'y oppose",
+      "O04 —",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⛓️ Ce qui pend, et sur qui — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🧭 Sens",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "🔗 L'affaire"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "—",
+      "",
+      "",
+      "rien ne traverse"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔨🪶 Ce qu'on engage, et qui d'autre le veut — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🔢 La pièce",
+    "⚔️ Nos actions",
+    "🔗 Aussi engagée par"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "🗝️ 59010 · 🗝️ 59011 · 🗝️ 59012 · ⚔️ 59020 · ⚔️ 59021 · ⚔️ 59022 · 🗝️ 59110 · 🗝️ 59111 · ⚔️ 59120 · ⚔️ 59121 · 🗝️ 59211 · ⚔️ 59220",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages · La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "M05 🔥 Le foyer, son arrivée d'air, le collecteur et ses trois branches",
+      "🗝️ 59010 · ⚔️ 59020",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La fournaise à chaleur conduite — l'éprouver avant de s'en servir"
+     ]
+    },
+    {
+     "cellules": [
+      "M08 ♨️ Le dissipateur",
+      "🗝️ 59111 · ⚔️ 59121 · 🗝️ 59210 · 🗝️ 59211 · ⚔️ 59221",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages · La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "M75 🚪 L'accès aux lieux d'une vie",
+      "⚔️ 59220",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages · La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Mort — ce qui doit venir, et ce qui doit prendre voix · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "M80 🚪 Le don d'Espace",
+      "🗝️ 59210",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    },
+    {
+     "cellules": [
+      "M81 🧍 Les tenants",
+      "⚔️ 59021 · ⚔️ 59221",
+      "—"
+     ]
+    },
+    {
+     "cellules": [
+      "O01 —",
+      "⚔️ 59022 · ⚔️ 59120 · ⚔️ 59121",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages · L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose · La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "O04 —",
+      "⚔️ 59020 · ⚔️ 59021 · ⚔️ 59220 · ⚔️ 59221",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose · L'Esprit — ce qu'on peut faire d'un percept, et ce qui s'y oppose · La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Mort — ce qui doit venir, et ce qui doit prendre voix · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations · Les Illusions — l'unique chose que cette école fait, et la physique qui s'y oppose · Les Émotions — les deux choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🕳️ Les trous — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🕳️ Le défaut",
+    "🔢 Les pièces"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🔒 verrou qu'aucune clef n'ouvre — il est mal nommé",
+      "🔒 59103"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🧾 Ce que ce cahier cite et que la Maison ne tient pas encore",
+   "colonnes": [
+    "🔢 La pièce citée",
+    "📖 Ce qu'elle désigne",
+    "⚠️ Ce qui manque"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M80",
+      "Le don d'Annulation.",
+      "**Absent sous ce toit.** Aucun membre de la Maison ne possède l'éveil d'Annulation ; nous dépendons d'experts extérieurs comme le Corps de Résolution."
+     ]
+    },
+    {
+     "cellules": [
+      "M81",
+      "Les encres de diagnostic (suie froide, craie grise).",
+      "**Absentes en stock préparé.** Les matières premières sont au magasin, mais les liants et réactifs minéraux n'ont pas été gâchés."
+     ]
+    },
+    {
+     "cellules": [
+      "M82",
+      "Le relevé cartographique du sillon du Bastion.",
+      "**Inexistant.** Personne n'a jamais tracé les lignes de fuite et les nœuds de stagnation sous le château."
+     ]
+    },
+    {
+     "cellules": [
+      "O04",
+      "La Maison — Yselde Arquen.",
+      "**Pourvue.** Yselde instruit le dossier, mais doit arbitrer les limites de l'intervention de praticiens étrangers au sein de nos murs."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🏷️ L'état",
+    "✅ Ce qui doit être vrai",
+    "💡 Valence",
+    "📍 Où",
+    "👁️ La preuve",
+    "⬆️ Sert",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**59000**",
+      "**Révéler et cartographier les branches du sillon et leur charge au moyen des encres adaptées.**",
+      "Les trajets de circulation résiduelle sous les dalles et murs apparaissent nettement sous l'encre, permettant de distinguer branches de chemin et limites de contour.",
+      "Le diagnostic indispensable. Travailler sur des installations magiques sans voir le sillon équivaut à piocher dans le noir à côté d'un baril de poudre.",
+      "Sous les planchers d'ateliers et aux joints de courtines",
+      "Un tracé continu révélé par virage de couleur de l'encre, reporté fidèlement sur parchemin d'arpentage.",
+      "racine",
+      "**100**"
+     ]
+    },
+    {
+     "cellules": [
+      "**59100**",
+      "**Interrompre une branche du sillon en canalisant sa charge vers une issue admissible.**",
+      "La coupure d'une liaison est réalisée sans surpression destructrice sur les nœuds voisins, la charge étant évacuée vers une terre ou un bassin de décharge.",
+      "L'acte technique de l'école. Annuler n'est pas effacer : c'est commuter la tension vers une résistance de fuite calculée pour préserver l'ouvrage.",
+      "Aux points de sectionnement et coupures de réseau",
+      "Une branche coupée nette avec disparition de son flux sans échauffement anormal des appuis latéraux.",
+      "59000",
+      "**95**"
+     ]
+    },
+    {
+     "cellules": [
+      "**59200**",
+      "**Dériver les excédents chroniques d'un nœud saturé avant l'apparition d'un Non-Vivant.**",
+      "Le niveau de charge des nœuds critiques reste maintenu en deçà du seuil critique de condensation métabolique par une purge continue.",
+      "La sauvegarde vitale du site. Prévenir la naissance des créatures du déchet plutôt que d'avoir à les combattre une fois enracinées dans la pierre.",
+      "Aux carrefours de réseaux et soubassements des Fournaises",
+      "Un nœud autrefois incandescent sous l'encre ramené à une teinte grise pâle et stable sur trois lunes.",
+      "59000",
+      "**90**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous",
+   "colonnes": [
+    "🔒 N°",
+    "🏷️ Le verrou",
+    "⛔ Bloque",
+    "📌 Ce qui est vrai aujourd'hui",
+    "📚 D'où ça vient",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "🔓 Levé quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**59001**",
+      "**L'invisibilité spontanée** — Le sillon ne se montre pas à l'œil nu sans réactif.",
+      "59000",
+      "Une pierre saturée de charge magique ressemble à une pierre ordinaire ; le danger ne prévient par aucun éclat naturel avant la rupture.",
+      "**source**",
+      "",
+      "🕳️ Un sillon affleure ; il ne se montre pas de lui-même. Il exige des encres de diagnostic.",
+      "Un observateur sans don ni encre a détecté avec exactitude l'axe d'un sillon sous dallage intact."
+     ]
+    },
+    {
+     "cellules": [
+      "**59002**",
+      "**La spécificité de l'encre** — Il n'existe aucune encre universelle de révélation.",
+      "59000",
+      "La suie froide ne révèle que les trajets de ressources (feu, eau, enchantement) ; la craie grise ne prend que sur les contours (protection, espace). Utiliser la mauvaise encre rend le sillon muet.",
+      "**source**",
+      "59001",
+      "🕳️ Une encre révèle une famille de formes, pas une école universelle.",
+      "Une même préparation chimique a révélé simultanément un contour de protection et un flux d'enchantement."
+     ]
+    },
+    {
+     "cellules": [
+      "**59003**",
+      "**La lisibilité par la surcharge** — Plus un sillon est net sous l'encre, plus il est dangereux.",
+      "59000",
+      "L'encre prend d'autant plus vigoureusement que la charge est forte. Le tracé le plus éclatant signale le nœud le plus proche de la rupture ou de l'enfantement d'un monstre.",
+      "**source**",
+      "",
+      "🕳️ Un sillon se lit d'autant mieux qu'il est chargé. L'annulateur lit d'abord ce qui va bientôt naître.",
+      "Un sillon à peine teinté a explosé spontanément sans charge préalable."
+     ]
+    },
+    {
+     "cellules": [
+      "**59004**",
+      "**L'absence d'aura protectrice** — Le praticien reste vulnérable pendant son examen.",
+      "59000",
+      "L'annulateur n'éteint pas la magie autour de lui par sa simple présence ; il prend de plein fouet tout retour de flamme pendant qu'il applique son réactif.",
+      "**source**",
+      "",
+      "🕳️ Aucune aura. Le praticien n'éteint pas la magie autour de lui et reste vulnérable.",
+      "Un projectile magique s'est dissipé spontanément à l'approche passive d'un annulateur sans geste."
+     ]
+    },
+    {
+     "cellules": [
+      "**59101**",
+      "**La redistribution conservative** — Couper une voie ne détruit pas sa charge.",
+      "59100",
+      "Trancher une liaison sans échappatoire reporte instantanément toute la puissance sur les dérivations adjacentes, provoquant leur surchauffe immédiate.",
+      "**source**",
+      "",
+      "🕳️ Annuler, c'est déplacer. Couper une branche ne supprime pas sa charge : elle la redistribue.",
+      "Une coupure a réduit à zéro l'énergie totale d'un circuit sans échappement ni récepteur."
+     ]
+    },
+    {
+     "cellules": [
+      "**59102**",
+      "**Le claquage sur cul-de-sac** — Fermer une voie alimentée brise le point d'arrêt.",
+      "59100",
+      "Une section d'annulation posée face à une conduite en charge sans dérivation produit une onde de choc qui pulvérise la dalle d'arrêt.",
+      "**source**",
+      "59101",
+      "🕳️ Une voie fermée alors que l'entrée est alimentée provoque pression, échauffement ou explosion.",
+      "Un flux maintenu plein régime a buté sur une interruption sèche sans aucune surpression."
+     ]
+    },
+    {
+     "cellules": [
+      "**59103**",
+      "**L'irréversibilité des effets passés** — Annuler ne répare aucun dégât physique.",
+      "59100",
+      "Interrompre un feu magique n'éteint pas les poutres qui ont commencé à flamber ; couper une poussée ne recolle pas la muraille fissurée.",
+      "**source**",
+      "",
+      "🕳️ Aucun rembobinage. La chaleur, l'eau, la pression, les dégâts et les décisions demeurent.",
+      "Une maçonnerie brisée par un sort a retrouvé son intégrité mécanique lors de l'annulation du sort."
+     ]
+    },
+    {
+     "cellules": [
+      "**59201**",
+      "**La gestation du Non-Vivant** — L'excédent stagnant engendre ou nourrit la créature.",
+      "59200",
+      "Le Non-Vivant n'est pas une malédiction morale : c'est un métabolisme qui absorbe ce que nos dissipateurs n'ont pas su évacuer. Plus l'ouvrage est puissant, plus il nourrit.",
+      "**source**",
+      "",
+      "🕳️ Le Non-Vivant absorbe l'excédent. Il croît là où la charge s'accumule sans issue.",
+      "Un nœud saturé pendant dix ans sans récepteur est resté stérile sans trace de Non-Vivant."
+     ]
+    },
+    {
+     "cellules": [
+      "**59202**",
+      "**La dépendance de l'ouvrage à sa créature** — Retirer le monstre rend la charge à la pierre.",
+      "59200",
+      "Une créature installée sur un vieux nœud évacue la surcharge depuis des années. L'abattre sans avoir posé d'égout magique fait immédiatement sauter les voûtes.",
+      "**source**",
+      "59201",
+      "🕳️ Une installation peut dépendre de sa créature. La retirer rend l'excédent à l'ouvrage.",
+      "Une créature absorbante a été chassée d'un nœud sans qu'aucun reflux de charge ne se produise."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🏷️ La clef",
+    "🔓 Ouvre",
+    "💡 Le principe et sa valence",
+    "🧰 Moyens",
+    "💰 Le prix",
+    "👁️ La preuve attendue",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**59010**",
+      "**Le broyage de suie froide en atelier** — Préparer des flacons de réactif certifié selon le codex.",
+      "59001 · 59002",
+      "On recueille la suie des foyers éteints depuis plus d'une lune et on la lie à l'alcool de grain pour révéler les chemins de flux élémentaires.",
+      "M02 · M05",
+      "Travail salissant et manipulation minutieuse sans retour magique immédiat.",
+      "Trois flacons étiquetés révélant un tracé d'essai sur dalle témoin en cinq minutes.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**59011**",
+      "**Le badigeonnage systématique avant travaux** — Enduire les parements avant toute démolition de voûte.",
+      "59001 · 59003",
+      "Interdiction formelle de desceller une pierre aux Fournaises sans avoir appliqué la suie pour vérifier l'absence de ligne de tension sous le mortier.",
+      "M02",
+      "Ralentissement des chantiers d'entretien de deux jours par travée.",
+      "Le registre des chantiers attestant l'inspection négative avant le premier coup de burin.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**59012**",
+      "**Le bouclier matériel de paille trempée** — Protéger le diagnostiqueur derrière un manteau pare-éclats.",
+      "59004",
+      "L'homme qui applique l'encre opère derrière un panneau de chêne doublé de cuir bouilli pour parer tout claquage soudain de la dalle.",
+      "M02",
+      "Lourdeur d'intervention et champ de vision réduit pour le technicien.",
+      "L'opérateur indemne lors d'un crachement de suie sous tension survenu à l'épreuve.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**59110**",
+      "**La tranchée de saignée d'air sec** — Scier une fente de deux pouces dans le mortier pour couper le pont minéral.",
+      "59101 · 59102",
+      "Plutôt que d'interrompre magiquement, on crée une rupture géologique franche dans la maçonnerie pour forcer la charge à s'éteindre dans l'air.",
+      "M02",
+      "Affaiblissement local de la résistance mécanique des voûtes.",
+      "L'interruption mesurée du sillon de part et d'autre de la fente d'air sec.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**59111**",
+      "**Le caniveau d'évacuation en lit de sel** — Canaliser l'onde de reflux vers une tranchée absorbante.",
+      "59101 · 59102",
+      "Adosser la coupure à un caniveau rempli de sel gemme et de limaille de plomb pour dissiper la charge sans explosion de roche.",
+      "M02 · M08",
+      "Consommation importante de sel minéral qui doit être renouvelé après chaque choc.",
+      "L'absorption d'une surtension de coupure sans éclat de roche ni incendie.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**59210**",
+      "**Le caniveau passif ceinturant les ateliers** — L'ouvrage proposé par Sœur Cendre.",
+      "59201",
+      "Ceindre les Fournaises d'une rigole continue saturée d'encre réductrice qui boit en permanence les fuites vers le puits perdu calcaire.",
+      "M08 · M80",
+      "Ouvrage lourd exigeant de trancher le dallage de la Cour Basse sur quatre-vingts toises.",
+      "Baisse générale mesurable de la charge du sillon sous les ateliers de fonte.",
+      "**à étudier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**59211**",
+      "**Le dérivatif de substitution avant délogement** — Poser l'égout magique avant de chasser la créature.",
+      "59202",
+      "Avant toute battue contre un Non-Vivant installé aux sous-sols, percer et brancher un caniveau de décharge sur son nœud d'ancrage.",
+      "M02 · M08",
+      "Nécessite d'approcher la créature au contact sans l'alarmer pendant les travaux de maçonnerie.",
+      "Le nœud demeure stable après l'expulsion de la créature sans fissuration des piliers.",
+      "**retenue**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions — les pratiques",
+   "colonnes": [
+    "⚔️ N°",
+    "🏷️ La pratique",
+    "🗝️ Réalise",
+    "📝 Ce qu'on fait",
+    "📍 Où",
+    "🪶 Office",
+    "🧰 Moyens",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "⏳ État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**59020**",
+      "**La préparation des encres de suie froide**",
+      "59010",
+      "Broyer au pilon de marbre la suie du foyer numéro quatre et la filtrer sur toile d'étamine avec alcool de poire.",
+      "Atelier des préparations",
+      "O04",
+      "M02 · M05",
+      "",
+      "Dix flacons scellés à la cire verte prêts pour les inspections.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**59021**",
+      "**Le relevé sous encre de la galerie des Fournaises**",
+      "59011",
+      "Passer au pinceau de crin l'encre noire sur les joints des huit travées basses pour cartographier le sillon actif.",
+      "Fournaises basses",
+      "O04",
+      "M02 · M81",
+      "59020",
+      "Le plan dressé à l'encre rouge sur peau de vélin montrant les cinq branches majeures.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**59022**",
+      "**L'équipement du poste d'inspection abritée**",
+      "59012",
+      "Assembler le manteau de chêne et de cuir à œilleton de verre épais pour protéger l'artisan lors des diagnostics sous voûte.",
+      "Menuiserie du Bastion",
+      "O01",
+      "M02",
+      "",
+      "Le bouclier d'inspection vérifié et rangé dans l'armoire des Fournaises.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**59120**",
+      "**Le sciage de la saignée d'air à la travée trois**",
+      "59110",
+      "Entailler le mortier à la scie à grès sur deux toises de hauteur pour isoler la travée des forges de la culée du pont.",
+      "Travée trois",
+      "O01",
+      "M02",
+      "59021",
+      "La saignée d'air nette mesurée à la pige sans pont minéral résiduel.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**59121**",
+      "**Le remplissage du caniveau absorbant de sel**",
+      "59111",
+      "Combler la rigole d'arrêt avec six sacs de sel marin broyé et recouvrir d'une plaque de plomb perforée.",
+      "Sous-sol atelier Ouest",
+      "O01",
+      "M02 · M08",
+      "59120",
+      "Le lit de sel posé sec et la plaque scellée au brai.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**59220**",
+      "**L'instruction technique du plan de Sœur Cendre**",
+      "59210",
+      "Faire examiner le tracé du caniveau passif d'annulation par les maîtres maçons pour évaluer l'impact sur les fondations.",
+      "Salle du conseil",
+      "O04",
+      "M02 · M75",
+      "",
+      "L'avis écrit d'Héloïse Braise sur la faisabilité du terrassement de la Cour Basse.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**59221**",
+      "**Le sondage du cul-de-basse-fosse des Fournaises**",
+      "59211",
+      "Descendre une sonde enduite d'encre dans l'ancien puits pour vérifier si une masse absorbante vivante s'y est fixée.",
+      "Puits perdu",
+      "O04",
+      "M08 · M81",
+      "59020",
+      "Le rapport d'inspection du fond de puits attestant de la présence ou de l'absence de bourgeonnement.",
+      "à faire"
+     ]
+    }
+   ]
+  }
+ ]
+}

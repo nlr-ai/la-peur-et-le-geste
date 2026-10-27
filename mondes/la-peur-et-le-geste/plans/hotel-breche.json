@@ -1,0 +1,204 @@
+{
+  "nom": "Hôtel de la Brèche",
+  "viewBox": "0 0 1000 480",
+  "fonds": [],
+  "mur": "",
+  "guet": [],
+  "decor": [
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L490.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L780.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L210.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M780.0,152.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,312.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,312.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    }
+  ],
+  "etiquettes": [],
+  "salles": [
+    {
+      "id": "hotel-breche",
+      "nom": "Vestibule",
+      "forme": {
+        "r": [
+          80,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        148.5
+      ],
+      "lignes": [
+        "Vestibule"
+      ],
+      "cle": true,
+      "quoi": "Vestibule — Hôtel de la Brèche.",
+      "motifs": [
+        "Vestibule, Hôtel de la Brèche"
+      ],
+      "alias": []
+    },
+    {
+      "id": "hotel-breche-piece-2",
+      "nom": "Réception",
+      "forme": {
+        "r": [
+          360,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        148.5
+      ],
+      "lignes": [
+        "Réception"
+      ],
+      "cle": true,
+      "quoi": "Réception — Hôtel de la Brèche.",
+      "motifs": [
+        "Réception, Hôtel de la Brèche"
+      ],
+      "alias": []
+    },
+    {
+      "id": "hotel-breche-piece-3",
+      "nom": "Salle à manger",
+      "forme": {
+        "r": [
+          640,
+          90,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        148.5
+      ],
+      "lignes": [
+        "Salle à manger"
+      ],
+      "cle": true,
+      "quoi": "Salle à manger — Hôtel de la Brèche.",
+      "motifs": [
+        "Salle à manger, Hôtel de la Brèche"
+      ],
+      "alias": []
+    },
+    {
+      "id": "hotel-breche-piece-4",
+      "nom": "Cuisine de service",
+      "forme": {
+        "r": [
+          80,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        308.5
+      ],
+      "lignes": [
+        "Cuisine de service"
+      ],
+      "cle": true,
+      "quoi": "Cuisine de service — Hôtel de la Brèche.",
+      "motifs": [
+        "Cuisine de service, Hôtel de la Brèche"
+      ],
+      "alias": []
+    },
+    {
+      "id": "hotel-breche-piece-5",
+      "nom": "Palier des chambres",
+      "forme": {
+        "r": [
+          360,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        308.5
+      ],
+      "lignes": [
+        "Palier des chambres"
+      ],
+      "cle": true,
+      "quoi": "Palier des chambres — Hôtel de la Brèche.",
+      "motifs": [
+        "Palier des chambres, Hôtel de la Brèche"
+      ],
+      "alias": []
+    },
+    {
+      "id": "hotel-breche-piece-6",
+      "nom": "Chambre",
+      "forme": {
+        "r": [
+          640,
+          250,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        308.5
+      ],
+      "lignes": [
+        "Chambre"
+      ],
+      "cle": true,
+      "quoi": "Chambre — Hôtel de la Brèche.",
+      "motifs": [
+        "Chambre, Hôtel de la Brèche"
+      ],
+      "alias": []
+    }
+  ],
+  "_": "Plan de fiction canonique. Disposition schématique ; aucun relevé historique revendiqué."
+}

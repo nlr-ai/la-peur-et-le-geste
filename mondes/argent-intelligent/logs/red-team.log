@@ -1,0 +1,64 @@
+tour 1 : agir — RT-1 (Version : v0-cadrage, choix de l'usage). Je soumets une contrainte discriminante pour sélectionner notre premier usage : écarter tout cas où la libération irréversible des fonds dépend d'un justificatif non structuré évalué directement par un agent IA ou d'une simple attestation déclarative vulnérable à la collusion. Préconditions : Monnaie programmée encapsulée (modèle Purpose Bound Money : Initialization, Minting, Transfer, Redemption) dont le déblocage (Redemption) dépend d'une preuve externe (facture, livraison) soumise par les parties à un oracle ou un agent IA doté de droits d'exécution. Action simulée (scénario conceptuel) : (a) Collusion acheteur-marchand via une prestation fictive pour convertir un jeton affecté en monnaie libre (cash-out) ; ou (b) injection de consignes indirecte (Indirect Prompt Injection) dans les métadonnées d'une pièce justificative, ordonnant à l'agent IA d'appeler l'API de règlement. Invariant violé : Conservation de la finalité (aucun déblocage sans preuve d'exécution indépendante des parties et isolée des entrées non fiables). Conséquence : Détournement des fonds séquestrés et contournement des règles d'émission. Preuve et gravité : Scénario conceptuel hypothétique ; gravité Critique si le règlement final est automatisé sans contrôle déterministe. Condition de retest : L'usage retenu devra spécifier l'oracle de vérité terrain, démontrer que le coût de collusion excède le gain d'attaque, et interdire à l'IA toute permission d'exécution financière directe. Sources et limites (consultées uniquement par résumés search_web, sans accès direct au texte intégral PDF/HTML) : (1) MAS, Purpose Bound Money Technical Whitepaper (21/06/2023, https://www.mas.gov.sg/publications/monographs-or-information-paper/2023/purpose-bound-money-whitepaper), définissant le cycle Initialization-Minting-Transfer-Redemption et le risque lié aux oracles externes ; (2) OWASP Top 10 for LLM Applications 2025 (https://genai.owasp.org/llm-top-10/), risques LLM01:2025 (Prompt Injection) et LLM06:2025 (Excessive Agency) imposant moindre privilège et validation déterministe ou humaine.
+tour 2 : agir — D-1, D-2, D-4 (suivi RT-1) — Constat **RT-2** (Version attaquée : cadrage G2P2B v0.1).
+
+**Préconditions :** Réservation de fonds par API (D-2, D-4) vérifiant `agrément × catégorie × échéance` (D-1) au paiement. Le marchand encaisse sans terminal dédié une monnaie immédiatement 100 % fongible (critères d'Usages).
+
+**Scénario simulé (hypothétique, deux vecteurs) :**
+1. **Remboursement-décaissement (*Refund Cash-out*, sans collusion) :** Le citoyen achète un bien éligible chez un marchand agréé honnête (déblocage fongible immédiat), puis retourne l'article ou se rétracte. Faute de terminal dédié liant le remboursement au verrou initial, le marchand rembourse en espèces, avoir libre ou sur un compte standard, convertissant l'aide en liquidité libre à coût de collusion nul.
+2. **Substitution de panier (*MCC Laundering*) vs Vie privée :** Un marchand multi-catégories (ISO 18245 / MCC) vend un bien exclu sous son agrément global (variante G2P2B de RT-1). Exiger en parade les données d'articles (SKU / Level 3) dans l'API d'autorisation exposerait le détail des achats de citoyens vulnérables.
+
+**Invariant violé :** Maintien de l'affectation lors des retours/annulations et minimisation des données (RGPD art. 5§1.c).
+
+**Conséquence et gravité :** Détournement unilatéral sans complicité marchand ou surveillance illicite des bénéficiaires. **Gravité : Critique** (contournement légal trivial par retour produit).
+
+**Condition de retest :** (a) Spécifier le routage forcé des remboursements vers la réservation initiale sans terminal dédié ; (b) prévenir la substitution d'articles sans remonter les SKU à la collectivité.
+
+**Sources et limites (résumés `search_web` seuls, PDF non ouverts) :** (1) MAS, *PBM Whitepaper* / *RedeemSG* (21/06/2023, https://www.mas.gov.sg/publications/monographs-or-information-paper/2023/purpose-bound-money-whitepaper) : l'anti-fraude y dépend d'une application marchand dédiée ; (2) BIS/BoE, *Project Rosalind* (06/2023, https://www.bis.org/publ/othp69.pdf) : requiert une gestion des exceptions sur `lock/unlock` ; (3) EDPB-EDPS, *Joint Opinion 02/2023* sur l'euro numérique (17/10/2023, https://www.edpb.europa.eu) : proscrit le traçage généralisé des paiements.
+tour 3 : agir — RT-1, RT-2, D-1, D-3, D-5 — Retest v0.2 et constat **RT-3** (Version attaquée : Spécification v0.2).
+
+1. **Retest RT-1** :
+- **RT-1b (Injection IA)** : **Réfuté (retesté)** par le retrait de l'IA du flux synchrone (D-3).
+- **RT-1a (Collusion)** : **Reste ouvert**. Le calcul fiscal d'Économie (TVA >= 20 %) tombe si le marchand complice relève de la franchise en base de TVA (CGI art. 293 B, https://www.legifrance.gouv.fr : 0 % de TVA facturée sous les seuils légaux) ou d'un taux réduit (5,5 %), avec un coût matière nul sur vente fictive.
+
+2. **Précision RT-2 (Remboursement aveugle)** : Si le marchand opère sans API dédiée (critère `e`) et sans visibilité sur l'aide sociale (D-5), il ignore l'origine publique des fonds. Lors d'un retour légitime, il peut rembourser de bonne foi en espèces ou par virement ordinaire hors message ISO 20022 `pacs.004` (*PaymentReturn* lié à l'`OrgnlUETR` initial, EPC SEPA Dataset DS-03, https://www.europeanpaymentscouncil.eu), donc **sans collusion ni infraction intentionnelle**. RT-2 reste **ouvert (Critique)**.
+
+3. **Constat RT-3 (Marchand éphémère / *Bust-out*)** :
+- **Préconditions** : Agrément en < 48 h (critère `e`), règlement T+0 (option Économie) et audit asynchrone par lots quotidiens (D-3).
+- **Scénario simulé (hypothétique)** : Un fraudeur enrôle en < 48 h une micro-entreprise sans TVA, agrège 30 complices au plafond mensuel (30 × 300 EUR = 9 000 EUR) en une journée, encaisse en T+0 et vide l'IBAN avant le lot d'audit J+1.
+- **Invariant violé** : Délai de détection inférieur au délai de décaissement irrévocable.
+- **Conséquence et gravité** : Fuite des fonds avant alerte ; **Gravité : Élevée** (Critique en T+0).
+- **Condition de retest (RT-1a/RT-2/RT-3)** : (a) Écarter T+0 pour un règlement >= J+1 (modèle RedeemSG, https://cdc.gov.sg) avec plafond de décaissement sur tout nouvel agrément ; (b) imposer un routage `pacs.004` (`OrgnlUETR`) côté PSP pour recréditer le verrou sans exposer le statut d'allocataire.
+- **Limites** : Sources consultées via résumés `search_web` uniquement, sans accès direct aux textes intégraux.
+tour 4 : agir — **D-6, RT-2, RT-3 (Retest v0.3)** : **RT-3** est **retesté (résolu)** par le règlement J+1 et le plafond de nouvel agrément (D-6). **RT-2.2** est **retesté** (NAF mono-activité ou `Sub-MID` sans SKU). **RT-2.1** est **retesté sur carte EMV (ISO 8583)**, mais **reste ouvert sur le bon papier QR**, qui viole le critère `e` (lecture dédiée) sans router les retours.
+
+**Manche 002 (D-2, D-4) — Constat RT-4 (Version : monnaie civique crypto-programmable)** :
+Attaquons la proposition crypto la plus ambitieuse : un **dividende à fonte programmée (*demurrage*) couplé à un budget de communs par financement quadratique**, voté et révisé sur chaîne par identités non transférables (*Soulbound*/ZK), où l'épargne passive paie pour les biens publics.
+- **Préconditions** : DLT combinant identité ZK/SBT, abondement quadratique ($\text{Fonds} \propto (\sum \sqrt{c_i})^2$) et taxe de détention automatisée.
+- **Scénario simulé (hypothétique)** : (1) **Location d'âmes et collusion** : un cartel loue hors-chaîne la signature ZK de précaires (ou capte leur récupération sociale de clés) pour gonfler un faux commun et siphonner 100 % du fonds d'abondement ; (2) **Évasion de la fonte** : les acteurs avertis swappent sur DEX vers un actif libre juste avant la ponction, reportant la taxe et la décote sur les ménages captifs.
+- **Invariant violé** : Inaliénabilité du droit civique (aucun oracle cryptographique ne détecte la coercition ou l'achat de clé hors-chaîne) et égalité devant l'impôt monétaire.
+- **Conséquence et gravité** : Ploutocratie maquillée et vidage du trésor commun. **Gravité : Critique**.
+- **Frontière et retest** : Le revenu vital doit rester libre et non fondant ; borner l'abondement par pénalité de corrélation et garantir une ré-émission de clé hors graphe de créanciers.
+
+**Sources et limites (résumés `search_web` seuls, PDF non ouverts)** : (1) Buterin, Hitzig & Weyl (*Management Science*, 2019, https://doi.org/10.1287/mnsc.2019.3337) : vulnérabilité quadratique à la collusion/Sybils ; (2) Weyl, Ohlhaver & Buterin (*DeSoc*, 2022, https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763) : SBT, récupération sociale et corrélation ; (3) Mattsson, Criscione & Ruddick (*Scientific Data*, 2022, https://doi.org/10.1038/s41597-022-01539-4) : monnaie Sarafu (fonte 2 %/mois).
+tour 5 : agir — D-7, D-6, RT-1a, RT-2.1, RT-4 — **Retest v0.3** : **RT-1a** (franchise TVA) est **retesté (résolu)** par la réserve glissante de 15 %/30 jours et l'audit grossiste ; **RT-2.1** est **retesté (résolu)** par l'abandon du bon papier QR pour la carte EMV (D-6).
+
+**Étalon idéal et écart (chômage de masse)** : À information parfaite, le surplus des machines — face au recul mesuré de l'emploi (-0,20 point et -0,42 % de salaire par robot/1 000 travailleurs, Acemoglu & Restrepo, *JPE* 128(6), 2020, https://doi.org/10.1086/705716) et aux 60 % d'emplois exposés à l'IA dans les économies avancées (Cazzaniga et al., FMI SDN/2024/001, 01/2024, https://www.imf.org/en/Publications/Staff-Discussion-Notes/Issues/2024/01/14/Gen-AI-Artificial-Intelligence-and-the-Future-of-Work-542379) — fluerait sans friction des rentes d'automatisation vers le socle vital (D-7, Strate I), assurant un progrès Pareto-améliorant (Korinek & Stiglitz, NBER w24174, 12/2017, https://doi.org/10.3386/w24174). En réalité, la mobilité du capital soustrait l'assiette au registre.
+
+**Constat RT-5 (Version : D-7, financement sous chômage de masse)** :
+- **Préconditions** : Chute des salaires ; Strate I inconditionnelle (D-7) et abondements (+20 %, Usages) financés par la fonte de 2 %/mois de la Strate II avec sortie à 5 % (Économie, Future Society) ou par émission monétaire.
+- **Scénario simulé (hypothétique)** : (1) *Évasion d'assiette* : les producteurs automatisés compensent leurs flux B2B hors registre et fuient la Strate II vers des actifs externes, vidant le rendement de la fonte ; (2) *Stagflation sur Strate I* : financé par émission non gagée, le socle vital subit une décote face aux monopoles d'IA/énergie qui tarifent en devises ou kWh externes.
+- **Invariant violé** : Adossement du socle à une assiette inélastique ($\text{Prélèvement réel} \ge \text{Strate I} + \text{Abondement}$).
+- **Conséquence et gravité** : Faillite des communs et démonétisation du revenu vital. **Gravité : Critique**.
+- **Condition de retest** : Gager D-7 sur des facteurs physiques non délocalisables (foncier, énergie/calcul ou actions en fiducie) plutôt que sur la fonte d'encours liquides.
+- **Limites** : Résumés `search_web` seuls consultés, sans accès outil aux PDF intégraux.
+echec du modele : error: Your AI credits balance is too low to continue.
+AGY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Resource has been exhausted (e.g. check quota).","status":"RESOURCE_EXHAUSTED","error_code":429,"code_kind":"http","retryable":true,"error_id":"9953f4c1-e532-4e35-9a85-11e5721d9d96-1-2008"}
+
+{"conversation_id":"eadf0278-d953-4f48-8c84-29181f1fd92a","status":"ERROR","response":"","error":"Your AI credits balance is too low to continue.","duration_seconds":0,"num_turns":1,"usage":{"input_tokens":0,"output_tokens":0,"thinking_tokens":0,"cache_read_tokens":0,"total_tokens":0}}
+
+echec du modele : error: Your AI credits balance is too low to continue.
+AGY_ERROR: {"short_error":"RESOURCE_EXHAUSTED (code 429): Resource has been exhausted (e.g. check quota).","status":"RESOURCE_EXHAUSTED","error_code":429,"code_kind":"http","retryable":true,"error_id":"ea25cbb2-f8d3-43b6-a68e-e523820100ec-1-2008"}
+
+{"conversation_id":"0fe13870-a87f-4607-8408-a9c43bdff475","status":"ERROR","response":"","error":"Your AI credits balance is too low to continue.","duration_seconds":0,"num_turns":1,"usage":{"input_tokens":0,"output_tokens":0,"thinking_tokens":0,"cache_read_tokens":0,"total_tokens":0}}
+
+echec du modele : {'message': 'exceeded retry limit, last status: 429 Too Many Requests'}

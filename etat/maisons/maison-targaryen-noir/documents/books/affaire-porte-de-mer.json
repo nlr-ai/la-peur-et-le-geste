@@ -109,35 +109,8 @@
     {
      "cellules": [
       "partage",
-      "Ce qui ferait renoncer",
-      "O08 🚪 La porte de mer",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
       "Ce qui part, et par où",
       "O08 🚪 La porte de mer",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Commandement et chaîne d'ordres pendant l'opération",
-      "M12 🖋️ Le papier et la plume",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Conduite du repli si l'entrée échoue",
-      "M12 🖋️ Le papier et la plume",
       "",
       ""
      ]
@@ -235,15 +208,6 @@
     {
      "cellules": [
       "partage",
-      "Le jour d'entrée",
-      "O08 🚪 La porte de mer",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
       "Le rôle des bouches",
       "M12 🖋️ Le papier et la plume",
       "",
@@ -271,15 +235,6 @@
     {
      "cellules": [
       "partage",
-      "Ravitaillement et ordre public de la ville coupée",
-      "M12 🖋️ Le papier et la plume",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
       "Retournement de l'opinion populaire dans Port-Réal",
       "M12 🖋️ Le papier et la plume",
       "",
@@ -290,15 +245,6 @@
      "cellules": [
       "partage",
       "Sûreté de la personne de la reine",
-      "M12 🖋️ Le papier et la plume",
-      "",
-      ""
-     ]
-    },
-    {
-     "cellules": [
-      "partage",
-      "Tenue de la capitale la première lune",
       "M12 🖋️ Le papier et la plume",
       "",
       ""
@@ -390,15 +336,15 @@
     {
      "cellules": [
       "M12 🖋️ Le papier et la plume",
-      "⚔️ 46020 · ⚔️ 46120 · ⚔️ 46121",
-      "Blessés, morts et prisonniers · Commandement et chaîne d'ordres pendant l'opération · Conduite du repli si l'entrée échoue · Contrôle naval · Défense de Peyredragon pendant l'absence de l'ost · Déplacement de l'armée · Entrée et déploiement de l'ost dans les rues · Fenêtre de mer et de saison · Fermeture de la route terrestre du nord · Financement de la campagne · L'entrée sans bataille · Le rôle des bouches · Logistique de transport de l'armée · Prise de Port-Réal · Ravitaillement et ordre public de la ville coupée · Retournement de l'opinion populaire dans Port-Réal · Sûreté de la personne de la reine · Tenue de la capitale la première lune · État chiffré de ce qui est mobilisable"
+      "⚔️ 46020",
+      "Blessés, morts et prisonniers · Contrôle naval · Défense de Peyredragon pendant l'absence de l'ost · Déplacement de l'armée · Entrée et déploiement de l'ost dans les rues · Fenêtre de mer et de saison · Fermeture de la route terrestre du nord · Financement de la campagne · L'entrée sans bataille · Le rôle des bouches · Logistique de transport de l'armée · Prise de Port-Réal · Retournement de l'opinion populaire dans Port-Réal · Sûreté de la personne de la reine · État chiffré de ce qui est mobilisable"
      ]
     },
     {
      "cellules": [
       "O08 🚪 La porte de mer",
-      "⚔️ 46020 · ⚔️ 46021 · ⚔️ 46022 · ⚔️ 46120 · ⚔️ 46121",
-      "Ce qui ferait renoncer · Ce qui part, et par où · Entrée et déploiement de l'ost dans les rues · La protection du secret · Le jour d'entrée"
+      "⚔️ 46020",
+      "Ce qui part, et par où · Entrée et déploiement de l'ost dans les rues · La protection du secret"
      ]
     }
    ]
@@ -412,8 +358,26 @@
    "lignes": [
     {
      "cellules": [
-      "aucun — la chaîne tient de bout en bout",
-      ""
+      "⚔️ action que personne ne peut porter — aucun office, aucun nom",
+      "⚔️ 46021 · ⚔️ 46022 · ⚔️ 46120 · ⚔️ 46121"
+     ]
+    },
+    {
+     "cellules": [
+      "🗝️ clef retenue qu'aucune action ne réalise — une décision sans geste",
+      "🗝️ 46110"
+     ]
+    },
+    {
+     "cellules": [
+      "⚔️ action dont la chaîne ne remonte à aucun état cible",
+      "⚔️ 46021 · ⚔️ 46022 · ⚔️ 46120 · ⚔️ 46121"
+     ]
+    },
+    {
+     "cellules": [
+      "⚔️ action orpheline — elle ne désigne aucune clef, elle n'a jamais rien remonté",
+      "⚔️ 46021 · ⚔️ 46022 · ⚔️ 46120 · ⚔️ 46121"
      ]
     }
    ]

@@ -1,0 +1,80 @@
+{
+ "quoi": "Ce que j'attends de quelqu'un, et ce que quelqu'un attend de moi. Le plan compte des PAS ; ceci compte des GENS qui n'ont pas répondu, et depuis quand. Ce n'est pas la même chose et cela ne se calcule pas.",
+ "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme.",
+ "j_attends": [
+  {
+   "qui": "sevran-orme",
+   "quoi": "Le protocole en DEUX pieces (celle qui amorce, scellee) -- il le rend le 3.1.1 par messager, pour me doubler sur la route. A defaut, scelle avant que je m'asseye.",
+   "demande_le": "1.1.1",
+   "relance": "le 3.1.1 si rien ne m'a rejoint a la premiere etape ; ne pas relancer avant"
+  },
+  {
+   "qui": "soeur-cendre",
+   "quoi": "Le compte du chapitre au 3e jour, avec son trou nomme et sa colonne neuve (la part de continuite qu'un releve de desserte fait passer de parole en piece), porte a Haute-Preuve a mon nom.",
+   "demande_le": "1.1.1",
+   "relance": "c'est sa date, elle la tient mieux que moi"
+  },
+  {
+   "qui": "naim-des-seuils",
+   "quoi": "Les etapes d'Ariane Veille si elle repond, et le second bout de l'epreuve du coffret. Il a promis de dire le silence comme un silence demain soir.",
+   "demande_le": "1.1.1",
+   "relance": "aucune"
+  },
+  {
+   "qui": "oren-sangle",
+   "quoi": "Ce que ses delegues repondent aux quatre dons nommes, et surtout a ma seule exigence : que l'accord dise d'avance comment on le defait.",
+   "demande_le": "1.1.1",
+   "relance": "aucune ; il ne m'a rien promis"
+  },
+  {
+   "qui": "personne-encore",
+   "quoi": "UN VEILLEUR qui voie le sujet AVANT le 12e jour, et UN RELECTEUR qui n'ait rien ecrit dans l'affaire. Les deux manquent. On demande en disant ce qu'on demande et jamais sur quoi.",
+   "demande_le": "1.1.1",
+   "relance": "a chaque etape de la route : demander a qui je croise, sans expliquer"
+  }
+ ],
+ "on_attend_de_moi": [
+  {
+   "qui": "sevran-orme",
+   "quoi": "Partir au matin, ecrire de chaque etape avec les jours qu'elle coute, et ne plus lui ecrire que ce qui change une date ou corrige une piece. Il publiera mes etapes a mon nom.",
+   "promis_le": "1.1.1",
+   "echeance": "du depart au 12e jour"
+  },
+  {
+   "qui": "sevran-orme",
+   "quoi": "Mes scelles sous ma marque : connaissance anterieure, liste entiere de ce que j'ai ecrit et a qui, la lettre de Cendre a Ariane versee entiere, et 'ce que chaque issue me rapporte'.",
+   "promis_le": "1.1.1",
+   "echeance": "avant de m'asseoir, pas sur place"
+  },
+  {
+   "qui": "naim-des-seuils",
+   "quoi": "Le compte de mes etapes pour son registre, au nom de l'homme qui les a marchees.",
+   "promis_le": "1.1.1",
+   "echeance": "a mesure, puis a l'arrivee"
+  },
+  {
+   "qui": "oren-sangle",
+   "quoi": "Porter aux chapitres la question d'un office de temoin etranger, et rendre leur reponse meme negative.",
+   "promis_le": "1.1.1",
+   "echeance": "au retour"
+  },
+  {
+   "qui": "heloise-braise",
+   "quoi": "Le mot prepare (messages-au-joueur.md), pret et non envoye : les depositions d'origine inconnue, la place de temoin, l'emplacement de liaison au Bastion couronne.",
+   "promis_le": "1.1.1",
+   "echeance": "avant de prendre la route"
+  },
+  {
+   "qui": "soeur-cendre",
+   "quoi": "Ecrire avec elle, au retour, ce qu'un releve de desserte doit porter -- la part de 'ce qu'on preserve' qu'on peut faire passer de la parole a la piece.",
+   "promis_le": "1.1.1",
+   "echeance": "au retour de Haute-Preuve"
+  },
+  {
+   "qui": "talie-sorne",
+   "quoi": "Mon compte de route dans SA forme a six rubriques (mes deux propres sur feuille separee), tenu chaque soir, jamais relu ni corrige apres l arrivee. Et la surveiller : une phrase d assemblee tiree du compte de Malo Veyre avant copie aux deux greffes -- je le lui ecrirai sans menagement, elle me l a demande.",
+   "promis_le": "1.1.1",
+   "echeance": "chaque soir de la route ; le rappel a l ordre, le jour ou cela arrivera"
+  }
+ ]
+}

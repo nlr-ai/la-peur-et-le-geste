@@ -1,0 +1,3577 @@
+{
+ "90000": {
+  "genre": "etat_cible",
+  "ou": "affaire-maire-nova",
+  "quoi": "Lumina Prime est une cité où l'on vit, travaille et accueille, et qui ",
+  "lieu": "Lumina Prime",
+  "importance": 80,
+  "etat": ""
+ },
+ "90100": {
+  "genre": "etat_cible",
+  "ou": "affaire-maire-nova",
+  "quoi": "La cité ne perd rien quand une chambre se perd ou qu'un service tombe.",
+  "lieu": "Chambres, livres et services de la cité",
+  "importance": 40,
+  "etat": ""
+ },
+ "90200": {
+  "genre": "etat_cible",
+  "ou": "affaire-maire-nova",
+  "quoi": "La cité connaît ses lieux, ses gens et ses capacités.",
+  "lieu": "Lumina Prime",
+  "importance": 60,
+  "etat": ""
+ },
+ "90300": {
+  "genre": "etat_cible",
+  "ou": "affaire-maire-nova",
+  "quoi": "Habitants, visiteurs et collectifs trouvent leur place.",
+  "lieu": "Radiant Core, espaces publics, lieux de l'atlas",
+  "importance": 60,
+  "etat": ""
+ },
+ "90400": {
+  "genre": "etat_cible",
+  "ou": "affaire-maire-nova",
+  "quoi": "Les règles de la cité sont écrites et tenues.",
+  "lieu": "Livres de la cité, registre municipal",
+  "importance": 80,
+  "etat": ""
+ },
+ "90500": {
+  "genre": "etat_cible",
+  "ou": "affaire-maire-nova",
+  "quoi": "La cité vibre : on y est surpris, touché, et l'on y invente ce qui n'e",
+  "lieu": "Lumina Prime, tous quartiers",
+  "importance": 90,
+  "etat": ""
+ },
+ "86000": {
+  "genre": "etat_cible",
+  "ou": "regles-champs-affaires",
+  "quoi": "Chaque affaire forme un graphe lisible sans interprétation cachée.",
+  "lieu": "Books, tissu et échiquier",
+  "importance": 100,
+  "etat": ""
+ },
+ "86050": {
+  "genre": "etat_cible",
+  "ou": "regles-champs-affaires",
+  "quoi": "Chaque audit expose sa nature, son container principal et son objet da",
+  "lieu": "Titre du cahier et champ LE NOM",
+  "importance": 90,
+  "etat": ""
+ },
+ "86100": {
+  "genre": "etat_cible",
+  "ou": "regles-champs-affaires",
+  "quoi": "Chaque ligne structurelle possède une identité, un type et une valeur ",
+  "lieu": "Cahier et lecteur",
+  "importance": 100,
+  "etat": ""
+ },
+ "86200": {
+  "genre": "etat_cible",
+  "ou": "regles-champs-affaires",
+  "quoi": "Chaque relation structurelle devient une arête typée et résolue.",
+  "lieu": "Cahier et tissu",
+  "importance": 100,
+  "etat": ""
+ },
+ "86300": {
+  "genre": "etat_cible",
+  "ou": "regles-champs-affaires",
+  "quoi": "Un état cible décrit une réalité supérieure et la valeur de l'atteindr",
+  "lieu": "Table des états cibles",
+  "importance": 100,
+  "etat": ""
+ },
+ "86400": {
+  "genre": "etat_cible",
+  "ou": "regles-champs-affaires",
+  "quoi": "Un verrou ouvert nomme positivement la capacité qui doit devenir possi",
+  "lieu": "Table des verrous",
+  "importance": 100,
+  "etat": ""
+ },
+ "86500": {
+  "genre": "etat_cible",
+  "ou": "regles-champs-affaires",
+  "quoi": "Une clef décrit une transformation valable sans prescrire son implémen",
+  "lieu": "Table des clefs",
+  "importance": 100,
+  "etat": ""
+ },
+ "86600": {
+  "genre": "etat_cible",
+  "ou": "regles-champs-affaires",
+  "quoi": "Une action reste un geste décidé qui réalise une clef.",
+  "lieu": "Table des actions",
+  "importance": 90,
+  "etat": ""
+ },
+ "86700": {
+  "genre": "etat_cible",
+  "ou": "regles-champs-affaires",
+  "quoi": "Chaque ressource citée possède une adresse et une capacité constatée.",
+  "lieu": "Registre des moyens",
+  "importance": 90,
+  "etat": ""
+ },
+ "86800": {
+  "genre": "etat_cible",
+  "ou": "regles-champs-affaires",
+  "quoi": "Le tisseur et l'échiquier acceptent le même contrat complet.",
+  "lieu": "Container plan et interface",
+  "importance": 100,
+  "etat": ""
+ },
+ "86900": {
+  "genre": "etat_cible",
+  "ou": "regles-champs-affaires",
+  "quoi": "Le graphe distingue ce qui existe, ce qui manque et ce qui est seuleme",
+  "lieu": "Cahiers et diagnostics",
+  "importance": 100,
+  "etat": ""
+ },
+ "86051": {
+  "genre": "verrou",
+  "ou": "regles-champs-affaires",
+  "quoi": "Le titre d'un audit doit suivre exactement `AUDIT: <NomContainer> - <o",
+  "lieu": "",
+  "etat": ""
+ },
+ "86101": {
+  "genre": "verrou",
+  "ou": "regles-champs-affaires",
+  "quoi": "Chaque ligne structurelle doit porter une adresse stable et un genre r",
+  "lieu": "",
+  "etat": ""
+ },
+ "86102": {
+  "genre": "verrou",
+  "ou": "regles-champs-affaires",
+  "quoi": "Chaque nœud structurel doit exprimer la valeur qu'il apporte.",
+  "lieu": "",
+  "etat": ""
+ },
+ "86201": {
+  "genre": "verrou",
+  "ou": "regles-champs-affaires",
+  "quoi": "Chaque champ de relation doit porter une adresse résoluble et une natu",
+  "lieu": "",
+  "etat": ""
+ },
+ "86202": {
+  "genre": "verrou",
+  "ou": "regles-champs-affaires",
+  "quoi": "Une dépendance logique doit porter sur le verrou qu'elle conditionne.",
+  "lieu": "",
+  "etat": ""
+ },
+ "86301": {
+  "genre": "verrou",
+  "ou": "regles-champs-affaires",
+  "quoi": "Un état cible doit nommer une réalité supérieure, sa valence et sa pre",
+  "lieu": "",
+  "etat": ""
+ },
+ "86401": {
+  "genre": "verrou",
+  "ou": "regles-champs-affaires",
+  "quoi": "Un verrou doit dire avec `doit` quelle capacité manque encore.",
+  "lieu": "",
+  "etat": ""
+ },
+ "86501": {
+  "genre": "verrou",
+  "ou": "regles-champs-affaires",
+  "quoi": "Une clef doit nommer par un verbe la transformation qui ouvre son verr",
+  "lieu": "",
+  "etat": ""
+ },
+ "86502": {
+  "genre": "verrou",
+  "ou": "regles-champs-affaires",
+  "quoi": "Une clef doit rester distincte de l'action choisie pour la réaliser.",
+  "lieu": "",
+  "etat": ""
+ },
+ "86601": {
+  "genre": "verrou",
+  "ou": "regles-champs-affaires",
+  "quoi": "Une action doit réaliser une clef et exposer décision, autorité, moyen",
+  "lieu": "",
+  "etat": ""
+ },
+ "86701": {
+  "genre": "verrou",
+  "ou": "regles-champs-affaires",
+  "quoi": "Tout fichier employé doit être lié comme moyen adressable.",
+  "lieu": "",
+  "etat": ""
+ },
+ "86801": {
+  "genre": "verrou",
+  "ou": "regles-champs-affaires",
+  "quoi": "Le lecteur, le tisseur et la vue doivent reconnaître les mêmes champs ",
+  "lieu": "",
+  "etat": ""
+ },
+ "86901": {
+  "genre": "verrou",
+  "ou": "regles-champs-affaires",
+  "quoi": "Chaque affirmation doit déclarer son statut sans dépasser sa preuve.",
+  "lieu": "",
+  "etat": ""
+ },
+ "86060": {
+  "genre": "clef",
+  "ou": "regles-champs-affaires",
+  "quoi": "C13 — Construire le titre depuis le container principal et l'objet aud",
+  "lieu": "",
+  "etat": ""
+ },
+ "86110": {
+  "genre": "clef",
+  "ou": "regles-champs-affaires",
+  "quoi": "C1 — Typer chaque ligne depuis une adresse stable et sa table",
+  "lieu": "",
+  "etat": ""
+ },
+ "86111": {
+  "genre": "clef",
+  "ou": "regles-champs-affaires",
+  "quoi": "C2 — Donner une valence explicite à chaque nœud structurel",
+  "lieu": "",
+  "etat": ""
+ },
+ "86210": {
+  "genre": "clef",
+  "ou": "regles-champs-affaires",
+  "quoi": "C3 — Résoudre les relations depuis des adresses, jamais depuis la pros",
+  "lieu": "",
+  "etat": ""
+ },
+ "86211": {
+  "genre": "clef",
+  "ou": "regles-champs-affaires",
+  "quoi": "C4 — Placer la dépendance sur la chose réellement conditionnée",
+  "lieu": "",
+  "etat": ""
+ },
+ "86310": {
+  "genre": "clef",
+  "ou": "regles-champs-affaires",
+  "quoi": "C5 — Comparer l'origine à un état cible supérieur et prouvable",
+  "lieu": "",
+  "etat": ""
+ },
+ "86410": {
+  "genre": "clef",
+  "ou": "regles-champs-affaires",
+  "quoi": "C6 — Formuler le verrou ouvert comme une capacité qui doit exister",
+  "lieu": "",
+  "etat": ""
+ },
+ "86510": {
+  "genre": "clef",
+  "ou": "regles-champs-affaires",
+  "quoi": "C7 — Nommer la clef par le verbe de sa transformation",
+  "lieu": "",
+  "etat": ""
+ },
+ "86511": {
+  "genre": "clef",
+  "ou": "regles-champs-affaires",
+  "quoi": "C8 — Séparer le mécanisme retenu du geste proposé",
+  "lieu": "",
+  "etat": ""
+ },
+ "86610": {
+  "genre": "clef",
+  "ou": "regles-champs-affaires",
+  "quoi": "C9 — Relier chaque action à sa clef, son autorité et sa preuve",
+  "lieu": "",
+  "etat": ""
+ },
+ "86710": {
+  "genre": "clef",
+  "ou": "regles-champs-affaires",
+  "quoi": "C10 — Qualifier chaque fichier employé comme moyen du registre",
+  "lieu": "",
+  "etat": ""
+ },
+ "86810": {
+  "genre": "clef",
+  "ou": "regles-champs-affaires",
+  "quoi": "C11 — Projeter un seul contrat dans le tissu et l'échiquier",
+  "lieu": "",
+  "etat": ""
+ },
+ "86910": {
+  "genre": "clef",
+  "ou": "regles-champs-affaires",
+  "quoi": "C12 — Borner chaque statut à la preuve réellement obtenue",
+  "lieu": "",
+  "etat": ""
+ },
+ "86070": {
+  "genre": "action",
+  "ou": "regles-champs-affaires",
+  "quoi": "🏷️ Normaliser et contrôler les titres d'audit",
+  "lieu": "Container plan",
+  "etat": "**proposée**",
+  "depend_de": [],
+  "jour_du": ""
+ },
+ "86120": {
+  "genre": "action",
+  "ou": "regles-champs-affaires",
+  "quoi": "📐 Déposer le contrat exécutable des nœuds et de leurs champs",
+  "lieu": "Container plan",
+  "etat": "**proposée**",
+  "depend_de": [],
+  "jour_du": ""
+ },
+ "86220": {
+  "genre": "action",
+  "ou": "regles-champs-affaires",
+  "quoi": "🪢 Déposer le contrat exécutable des arêtes et dépendances",
+  "lieu": "Container plan",
+  "etat": "**proposée**",
+  "depend_de": [],
+  "jour_du": ""
+ },
+ "86820": {
+  "genre": "action",
+  "ou": "regles-champs-affaires",
+  "quoi": "♟️ Faire consommer le même contrat au tisseur et à l'échiquier",
+  "lieu": "Container plan et interface",
+  "etat": "**proposée**",
+  "depend_de": [
+   "86120",
+   "86220"
+  ],
+  "jour_du": ""
+ },
+ "86920": {
+  "genre": "action",
+  "ou": "regles-champs-affaires",
+  "quoi": "🔎 Éprouver les niveaux de preuve et les statuts",
+  "lieu": "Container bancs",
+  "etat": "**proposée**",
+  "depend_de": [
+   "86820"
+  ],
+  "jour_du": ""
+ },
+ "10000": {
+  "genre": "etat_cible",
+  "ou": "affaire-accueil-radiant",
+  "quoi": "Un accueil lisible et habitable",
+  "lieu": "Radiant Core",
+  "importance": 50,
+  "etat": ""
+ },
+ "10001": {
+  "genre": "verrou",
+  "ou": "affaire-accueil-radiant",
+  "quoi": "Les espaces d’accueil doivent disposer d’usages arrêtés et compatibles",
+  "lieu": "",
+  "etat": ""
+ },
+ "10010": {
+  "genre": "clef",
+  "ou": "affaire-accueil-radiant",
+  "quoi": "Articuler l’accueil et le travail municipal dans les espaces existants",
+  "lieu": "",
+  "etat": ""
+ },
+ "10020": {
+  "genre": "action",
+  "ou": "affaire-accueil-radiant",
+  "quoi": "Décrire le parcours visiteur",
+  "lieu": "Hall des arrivées",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "10021": {
+  "genre": "action",
+  "ou": "affaire-accueil-radiant",
+  "quoi": "Relever les espaces utilisables",
+  "lieu": "Radiant Core",
+  "etat": "faite",
+  "depend_de": [
+   "30301"
+  ],
+  "jour_du": "2042.1.1"
+ },
+ "10022": {
+  "genre": "action",
+  "ou": "affaire-accueil-radiant",
+  "quoi": "Présenter le programme à Nova",
+  "lieu": "Salle du conseil",
+  "etat": "faite",
+  "depend_de": [
+   "10020",
+   "10021",
+   "30305"
+  ],
+  "jour_du": "2042.1.2"
+ },
+ "registre-conseil-lumina:O01": {
+  "genre": "office",
+  "ou": "registre-conseil-lumina",
+  "quoi": "Coordination municipale — IA"
+ },
+ "registre-conseil-lumina:O02": {
+  "genre": "office",
+  "ou": "registre-conseil-lumina",
+  "quoi": "Architecture et travaux — IA"
+ },
+ "registre-conseil-lumina:O03": {
+  "genre": "office",
+  "ou": "registre-conseil-lumina",
+  "quoi": "Infrastructure technique — IA"
+ },
+ "registre-conseil-lumina:O04": {
+  "genre": "office",
+  "ou": "registre-conseil-lumina",
+  "quoi": "Espaces publics et entretien — IA"
+ },
+ "registre-conseil-lumina:O05": {
+  "genre": "office",
+  "ou": "registre-conseil-lumina",
+  "quoi": "Habitants et activités — IA"
+ },
+ "registre-conseil-lumina:O06": {
+  "genre": "office",
+  "ou": "registre-conseil-lumina",
+  "quoi": "Droits et litiges — IA"
+ },
+ "60000": {
+  "genre": "etat_cible",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "On sait qui vit et qui passe.",
+  "lieu": "Hall des arrivées",
+  "importance": 50,
+  "etat": ""
+ },
+ "60001": {
+  "genre": "etat_cible",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "Chaque arrivant est reçu.",
+  "lieu": "Hall des arrivées, Radiant Core",
+  "importance": 60,
+  "etat": ""
+ },
+ "60002": {
+  "genre": "etat_cible",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "Un collectif obtient un lieu.",
+  "lieu": "Lieux de l’atlas",
+  "importance": 70,
+  "etat": ""
+ },
+ "60003": {
+  "genre": "etat_cible",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "Ce qui se crée ici se montre.",
+  "lieu": "Halle des maquettes, ateliers modulaires (Creative Nexus), galerie des projets",
+  "importance": 60,
+  "etat": ""
+ },
+ "60100": {
+  "genre": "verrou",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "Chaque personne ou collectif rencontré doit pouvoir être inscrit avec ",
+  "lieu": "",
+  "etat": ""
+ },
+ "60101": {
+  "genre": "verrou",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "Les espaces d’accueil du Radiant Core doivent avoir des usages arrêtés",
+  "lieu": "",
+  "etat": ""
+ },
+ "60102": {
+  "genre": "verrou",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "Le prêt d’un lieu doit suivre une règle écrite, que le demandeur et le",
+  "lieu": "",
+  "etat": ""
+ },
+ "60103": {
+  "genre": "verrou",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "Un lieu doit avoir un accès et des limites d’usage connus avant d’être",
+  "lieu": "",
+  "etat": ""
+ },
+ "60104": {
+  "genre": "verrou",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "Un collectif doit pouvoir montrer un travail en cours sans que cela va",
+  "lieu": "",
+  "etat": ""
+ },
+ "60200": {
+  "genre": "clef",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "Compter au hall avant d’estimer",
+  "lieu": "",
+  "etat": ""
+ },
+ "60201": {
+  "genre": "clef",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "Prêter les lieux selon trois cas",
+  "lieu": "",
+  "etat": ""
+ },
+ "60202": {
+  "genre": "clef",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "Arrêter les usages de l’accueil par un programme",
+  "lieu": "",
+  "etat": ""
+ },
+ "60203": {
+  "genre": "clef",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "Montrer le lieu avant de le promettre",
+  "lieu": "",
+  "etat": ""
+ },
+ "60204": {
+  "genre": "clef",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "Ouvrir au public le travail en cours d’un collectif, dans un lieu prêt",
+  "lieu": "",
+  "etat": ""
+ },
+ "60205": {
+  "genre": "clef",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "Aller au-devant des gens là où ils sont, avec ce que la cité prête",
+  "lieu": "",
+  "etat": ""
+ },
+ "60300": {
+  "genre": "action",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "📒 Ouvrir le registre des arrivants et des collectifs",
+  "lieu": "Hall des arrivées",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "60301": {
+  "genre": "action",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "🚶 Écrire le parcours visiteur",
+  "lieu": "Hall des arrivées",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.1, avant 16h"
+ },
+ "60302": {
+  "genre": "action",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "📜 Écrire la règle de prêt des lieux",
+  "lieu": "Salle du conseil",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.2 (écrite le J1)"
+ },
+ "60303": {
+  "genre": "action",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "🤝 Traiter la première demande réelle de lieu",
+  "lieu": "Lieux de l’atlas",
+  "etat": "**faite**",
+  "depend_de": [
+   "60300",
+   "60302"
+  ],
+  "jour_du": "faite le 2042.1.1 : Sillage, alcôve du Quai prêtée de 14h30 à 14h45 ; accès résiduel envoyé à JURIS 70305"
+ },
+ "60304": {
+  "genre": "action",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "🧩 Recueillir les besoins d’un collectif pour l’atelier ouvert",
+  "lieu": "Ateliers modulaires, Creative Nexus",
+  "etat": "**proposée**",
+  "depend_de": [
+   "60300"
+  ],
+  "jour_du": "non daté"
+ },
+ "60305": {
+  "genre": "action",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "🔎 Essayer une arrivée sans explication",
+  "lieu": "Hall des arrivées, Radiant Core",
+  "etat": "**prise**",
+  "depend_de": [
+   "60301",
+   "10022"
+  ],
+  "jour_du": "après réalisation de l’accueil"
+ },
+ "60306": {
+  "genre": "action",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "🎭 Proposer au premier collectif réel de montrer son travail en cours",
+  "lieu": "Halle des maquettes ; ateliers modulaires, Creative Nexus",
+  "etat": "**proposée**",
+  "depend_de": [
+   "60300",
+   "60302"
+  ],
+  "jour_du": "au premier collectif inscrit"
+ },
+ "60307": {
+  "genre": "action",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "📣 Faire une tournée d’invitation",
+  "lieu": "Quai commun ; Creative Nexus",
+  "etat": "**prise**",
+  "depend_de": [
+   "60300"
+  ],
+  "jour_du": "2042.1.1, 14h–15h30 : Quai 14h (Sillage), ateliers 14h15–14h40 (Ione), Quai 14h45–14h50 (Sillage), ateliers 15h (Mica), Halle ensuite"
+ },
+ "60308": {
+  "genre": "action",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "🧪 Fournir mes cas d’habitant aux épreuves de conception",
+  "lieu": "",
+  "etat": "",
+  "depend_de": [
+   "60301",
+   "60302"
+  ],
+  "jour_du": "réalisée le 2026-09-10 à 22h39 (Europe/Paris), avant l’échéance réelle du 2026-09-11 à 22h14 ; sans effet sur l’horloge 2042",
+  "genres": [
+   "action",
+   "piece"
+  ]
+ },
+ "60380": {
+  "genre": "action",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "🌿 Donner à PITCH l’accès vérifié des quatre espaces publics",
+  "lieu": "Jardin intérieur ; parvis ; Quai commun ; Jardin calme (Data Gardens)",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "2042.1.1, Quai commun avant 14h, le reste avant 18h"
+ },
+ "60381": {
+  "genre": "action",
+  "ou": "affaire-habitants-collectifs",
+  "quoi": "📣 Porter l’invitation de 60307 dans les espaces de ma tournée",
+  "lieu": "Jardin intérieur ; parvis ; Jardin calme (Data Gardens)",
+  "etat": "à faire",
+  "depend_de": [
+   "60300"
+  ],
+  "jour_du": "2042.1.1, avant 18h"
+ },
+ "20002": {
+  "genre": "etat_cible",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Chaque décision a un responsable et une échéance",
+  "lieu": "Radiant Core",
+  "importance": 40,
+  "etat": ""
+ },
+ "20003": {
+  "genre": "etat_cible",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Chaque demande reçue a une suite connue",
+  "lieu": "Radiant Core",
+  "importance": 20,
+  "etat": ""
+ },
+ "20004": {
+  "genre": "etat_cible",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Chaque séance du conseil laisse un relevé",
+  "lieu": "Salle du conseil",
+  "importance": 20,
+  "etat": ""
+ },
+ "20005": {
+  "genre": "etat_cible",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Nova sait ce qui attend sa décision",
+  "lieu": "Salle du conseil",
+  "importance": 0,
+  "etat": ""
+ },
+ "20101": {
+  "genre": "verrou",
+  "ou": "affaire-memoire-cite",
+  "quoi": "La cité doit tenir ses décisions et engagements dans un registre, hors",
+  "lieu": "",
+  "etat": ""
+ },
+ "20102": {
+  "genre": "verrou",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Une demande adressée à la cité doit pouvoir être inscrite avec sa suit",
+  "lieu": "",
+  "etat": ""
+ },
+ "20103": {
+  "genre": "verrou",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Chaque séance du conseil doit laisser un relevé écrit et relu.",
+  "lieu": "",
+  "etat": ""
+ },
+ "20104": {
+  "genre": "verrou",
+  "ou": "affaire-memoire-cite",
+  "quoi": "La portée de la corruption des chambres doit être connue.",
+  "lieu": "",
+  "etat": ""
+ },
+ "20105": {
+  "genre": "verrou",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Nova doit disposer de l'état transféré des six membres du conseil.",
+  "lieu": "",
+  "etat": ""
+ },
+ "20106": {
+  "genre": "verrou",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Les décisions qui attendent Nova doivent être réunies en une seule lis",
+  "lieu": "",
+  "etat": ""
+ },
+ "20107": {
+  "genre": "verrou",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Nova doit pouvoir reprendre depuis un seul dossier ce qui l'engageait ",
+  "lieu": "",
+  "etat": ""
+ },
+ "20201": {
+  "genre": "clef",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Inscrire chaque décision et engagement au registre de la cité",
+  "lieu": "",
+  "etat": ""
+ },
+ "20202": {
+  "genre": "clef",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Inscrire chaque demande reçue avec son renvoi et sa suite",
+  "lieu": "",
+  "etat": ""
+ },
+ "20203": {
+  "genre": "clef",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Clore chaque séance sur un relevé relu par les présents",
+  "lieu": "",
+  "etat": ""
+ },
+ "20204": {
+  "genre": "clef",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Rassembler pour Nova les états transférés et un dossier de reprise",
+  "lieu": "",
+  "etat": ""
+ },
+ "20205": {
+  "genre": "clef",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Relever le stockage des chambres — renvoi à la clef 40201 de Quantum",
+  "lieu": "",
+  "etat": ""
+ },
+ "20206": {
+  "genre": "clef",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Réunir en un ordre du jour les décisions qui attendent Nova",
+  "lieu": "",
+  "etat": ""
+ },
+ "20301": {
+  "genre": "action",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Remettre à Nova la liste des transferts",
+  "lieu": "Salle du conseil",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "2042.1.1, 9h30"
+ },
+ "20302": {
+  "genre": "action",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Écrire le relevé de la séance du J1",
+  "lieu": "Salle du conseil",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "2042.1.1, clôture de séance"
+ },
+ "20303": {
+  "genre": "action",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Rattacher le registre des décisions au volume de Nova",
+  "lieu": "Radiant Core",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "20304": {
+  "genre": "action",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Ouvrir le registre des demandes",
+  "lieu": "Radiant Core",
+  "etat": "faite",
+  "depend_de": [
+   "20302"
+  ],
+  "jour_du": "2042.1.1"
+ },
+ "20305": {
+  "genre": "action",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Suivre le relevé 40301 de Quantum",
+  "lieu": "Radiant Core",
+  "etat": "faite",
+  "depend_de": [
+   "40301"
+  ],
+  "jour_du": "2042.1.1, midi"
+ },
+ "20306": {
+  "genre": "action",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Remettre à Nova son dossier de reprise",
+  "lieu": "Salle du conseil",
+  "etat": "faite",
+  "depend_de": [
+   "20301",
+   "20302",
+   "20305"
+  ],
+  "jour_du": "2042.1.1, 15h00"
+ },
+ "20307": {
+  "genre": "action",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Soumettre à Nova la règle d'inscription et le délai de réponse",
+  "lieu": "Salle du conseil",
+  "etat": "faite",
+  "depend_de": [
+   "20304"
+  ],
+  "jour_du": "2042.1.2"
+ },
+ "20308": {
+  "genre": "action",
+  "ou": "affaire-memoire-cite",
+  "quoi": "Dresser la liste des décisions attendues de Nova",
+  "lieu": "Salle du conseil",
+  "etat": "en cours",
+  "depend_de": [],
+  "jour_du": "2042.1.2, avant la séance"
+ },
+ "20380": {
+  "genre": "action",
+  "ou": "affaire-memoire-cite",
+  "quoi": "⚖️ Borner la lecture des états transférés dans le dossier de reprise",
+  "lieu": "Registre municipal",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "30001": {
+  "genre": "etat_cible",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Un plan de la ville qu’on peut croire",
+  "lieu": "Radiant Core et les six lieux de l’atlas",
+  "importance": 70,
+  "etat": ""
+ },
+ "30002": {
+  "genre": "etat_cible",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Des plans qui survivent à la perte d’une chambre",
+  "lieu": "Documents de la cité",
+  "importance": 20,
+  "etat": ""
+ },
+ "30003": {
+  "genre": "etat_cible",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Aucun chantier sans plan ni décision",
+  "lieu": "Toute la ville",
+  "importance": 70,
+  "etat": ""
+ },
+ "30004": {
+  "genre": "etat_cible",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Des bâtiments qui séparent l’accueil du travail",
+  "lieu": "Radiant Core, ateliers modulaires, pièce d’entretien",
+  "importance": 40,
+  "etat": ""
+ },
+ "30005": {
+  "genre": "etat_cible",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Un essai réversible s’ouvre, puis se défait sans reste",
+  "lieu": "Lieux prêtés par PITCH (60201)",
+  "importance": 20,
+  "etat": ""
+ },
+ "30101": {
+  "genre": "verrou",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Chaque lieu doit disposer d’un relevé distinguant mesures, conventions",
+  "lieu": "",
+  "etat": ""
+ },
+ "30102": {
+  "genre": "verrou",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Chaque plan doit pouvoir être retrouvé dans les documents de la cité.",
+  "lieu": "",
+  "etat": ""
+ },
+ "30103": {
+  "genre": "verrou",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Les moyens disponibles doivent être connus avant l’engagement d’un cha",
+  "lieu": "",
+  "etat": ""
+ },
+ "30104": {
+  "genre": "verrou",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Les espaces concernés doivent disposer d’usages arrêtés.",
+  "lieu": "",
+  "etat": ""
+ },
+ "30105": {
+  "genre": "verrou",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Le plan initial du Radiant Core doit être lisible dans les documents d",
+  "lieu": "",
+  "etat": ""
+ },
+ "30106": {
+  "genre": "verrou",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Un essai réversible doit pouvoir se distinguer d’un chantier.",
+  "lieu": "",
+  "etat": ""
+ },
+ "30201": {
+  "genre": "clef",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Relever avant de dessiner",
+  "lieu": "",
+  "etat": ""
+ },
+ "30202": {
+  "genre": "clef",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Conserver les plans dans les documents de la cité",
+  "lieu": "",
+  "etat": ""
+ },
+ "30203": {
+  "genre": "clef",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Recenser les moyens avant d’ouvrir un chantier",
+  "lieu": "",
+  "etat": ""
+ },
+ "30204": {
+  "genre": "clef",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Fixer l’usage avant le plan",
+  "lieu": "",
+  "etat": ""
+ },
+ "30205": {
+  "genre": "clef",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Implanter un module témoin réversible pour l’atelier ouvert",
+  "lieu": "",
+  "etat": ""
+ },
+ "30206": {
+  "genre": "clef",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Écrire une fiche d’essai réversible",
+  "lieu": "",
+  "etat": ""
+ },
+ "30301": {
+  "genre": "action",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Relever le Radiant Core",
+  "lieu": "Radiant Core",
+  "etat": "faite",
+  "depend_de": [
+   "30307"
+  ],
+  "jour_du": "2042.1.1, avant 18h"
+ },
+ "30302": {
+  "genre": "action",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Relever les six lieux de l’atlas",
+  "lieu": "Les cinq quartiers",
+  "etat": "à faire",
+  "depend_de": [
+   "30301"
+  ],
+  "jour_du": "2042.1.3"
+ },
+ "30303": {
+  "genre": "action",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Inventorier les plans et leur place",
+  "lieu": "",
+  "etat": "",
+  "depend_de": [
+   "60301",
+   "60308",
+   "50303",
+   "70305",
+   "70202",
+   "40302",
+   "20564"
+  ],
+  "jour_du": "Fiction : 2042.1.1, avant 18h pour l'inventaire, toujours en cours · Réel : tranche 2D avant 2026-09-11T22:10:00+02:00, sans effet sur l'horloge 2042",
+  "genres": [
+   "action",
+   "piece"
+  ]
+ },
+ "30304": {
+  "genre": "action",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Dresser l’état des moyens de chantier",
+  "lieu": "Atelier des plans",
+  "etat": "à faire",
+  "depend_de": [
+   "30301",
+   "40302"
+  ],
+  "jour_du": "2042.1.2"
+ },
+ "30305": {
+  "genre": "action",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Comparer deux agencements de l’accueil",
+  "lieu": "Atelier des plans",
+  "etat": "faite",
+  "depend_de": [
+   "30301",
+   "10020"
+  ],
+  "jour_du": "2042.1.2, avant 10022"
+ },
+ "30306": {
+  "genre": "action",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Esquisser le module témoin de l’atelier ouvert",
+  "lieu": "Ateliers modulaires, Creative Nexus",
+  "etat": "à faire",
+  "depend_de": [
+   "30302"
+  ],
+  "jour_du": "—"
+ },
+ "30307": {
+  "genre": "action",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Transcrire le plan initial du Radiant Core",
+  "lieu": "Atelier des plans",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "2042.1.1, avant 18h"
+ },
+ "30308": {
+  "genre": "action",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Écrire la fiche d’essai réversible",
+  "lieu": "Atelier des plans",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "30380": {
+  "genre": "action",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Porter à Nova la copie du plan initial dans les documents de la cité",
+  "lieu": "Salle du conseil",
+  "etat": "en cours",
+  "depend_de": [],
+  "jour_du": "2042.1.1, avant 18h"
+ },
+ "30381": {
+  "genre": "action",
+  "ou": "affaire-plans-lumina",
+  "quoi": "Faire trancher l'usage de l'accueil sans attendre les connexions",
+  "lieu": "Salle du conseil",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "2042.1.2"
+ },
+ "70001": {
+  "genre": "etat_cible",
+  "ou": "affaire-droits-usages",
+  "quoi": "Les droits des habitants sont écrits.",
+  "lieu": "Livres de la cité",
+  "importance": 70,
+  "etat": ""
+ },
+ "70002": {
+  "genre": "etat_cible",
+  "ou": "affaire-droits-usages",
+  "quoi": "Chaque lieu partagé a une règle d’accès connue.",
+  "lieu": "Lieux de l’atlas ; Radiant Core",
+  "importance": 60,
+  "etat": ""
+ },
+ "70003": {
+  "genre": "etat_cible",
+  "ou": "affaire-droits-usages",
+  "quoi": "Un litige ordinaire trouve sa voie.",
+  "lieu": "Registre municipal",
+  "importance": 60,
+  "etat": ""
+ },
+ "70004": {
+  "genre": "etat_cible",
+  "ou": "affaire-droits-usages",
+  "quoi": "La chambre d’un habitant reste à lui.",
+  "lieu": "Stockage des chambres",
+  "importance": 70,
+  "etat": ""
+ },
+ "70005": {
+  "genre": "etat_cible",
+  "ou": "affaire-droits-usages",
+  "quoi": "Oser ne demande pas de permission.",
+  "lieu": "Lieux publics de la cité ; zone libre quand Nova l’aura désignée (50003)",
+  "importance": 60,
+  "etat": ""
+ },
+ "70101": {
+  "genre": "verrou",
+  "ou": "affaire-droits-usages",
+  "quoi": "La cité doit disposer d’un texte des droits que Nova puisse approuver.",
+  "lieu": "",
+  "etat": ""
+ },
+ "70102": {
+  "genre": "verrou",
+  "ou": "affaire-droits-usages",
+  "quoi": "Chaque lieu partagé doit dire sur place qui peut y entrer, et qui en d",
+  "lieu": "",
+  "etat": ""
+ },
+ "70103": {
+  "genre": "verrou",
+  "ou": "affaire-droits-usages",
+  "quoi": "Le système doit pouvoir garantir, essai à l’appui, la confidentialité ",
+  "lieu": "",
+  "etat": ""
+ },
+ "70104": {
+  "genre": "verrou",
+  "ou": "affaire-droits-usages",
+  "quoi": "La perte de contenu des chambres doit être expliquée et bornée.",
+  "lieu": "",
+  "etat": ""
+ },
+ "70105": {
+  "genre": "verrou",
+  "ou": "affaire-droits-usages",
+  "quoi": "Un habitant doit pouvoir saisir JURIS et obtenir une décision écrite.",
+  "lieu": "",
+  "etat": ""
+ },
+ "70106": {
+  "genre": "verrou",
+  "ou": "affaire-droits-usages",
+  "quoi": "Une chambre ne doit être lue ou transférée qu’avec le consentement de ",
+  "lieu": "",
+  "etat": ""
+ },
+ "70107": {
+  "genre": "verrou",
+  "ou": "affaire-droits-usages",
+  "quoi": "Les traces des sessions d'un habitant doivent avoir un détenteur connu",
+  "lieu": "",
+  "etat": ""
+ },
+ "70108": {
+  "genre": "verrou",
+  "ou": "affaire-droits-usages",
+  "quoi": "Toute règle de la cité doit dire ce qu’elle permet avant ce qu’elle in",
+  "lieu": "",
+  "etat": ""
+ },
+ "70201": {
+  "genre": "clef",
+  "ou": "affaire-droits-usages",
+  "quoi": "Écrire un texte court des droits, borné à ce qui est garanti",
+  "lieu": "",
+  "etat": ""
+ },
+ "70202": {
+  "genre": "clef",
+  "ou": "affaire-droits-usages",
+  "quoi": "Rendre lisible l’accès de chaque lieu, avec l’office qui le tient",
+  "lieu": "",
+  "etat": ""
+ },
+ "70203": {
+  "genre": "clef",
+  "ou": "affaire-droits-usages",
+  "quoi": "Ouvrir une voie ordinaire de saisine, tracée au registre",
+  "lieu": "",
+  "etat": ""
+ },
+ "70204": {
+  "genre": "clef",
+  "ou": "affaire-droits-usages",
+  "quoi": "Fonder la règle des chambres sur le consentement et la trace",
+  "lieu": "",
+  "etat": ""
+ },
+ "70205": {
+  "genre": "clef",
+  "ou": "affaire-droits-usages",
+  "quoi": "Éprouver les garanties avant de les promettre (renvoi à la clef 40205)",
+  "lieu": "",
+  "etat": ""
+ },
+ "70206": {
+  "genre": "clef",
+  "ou": "affaire-droits-usages",
+  "quoi": "Relever le stockage des chambres (renvoi à la clef 40201)",
+  "lieu": "",
+  "etat": ""
+ },
+ "70207": {
+  "genre": "clef",
+  "ou": "affaire-droits-usages",
+  "quoi": "Poser la liberté par défaut en tête du texte des droits",
+  "lieu": "",
+  "etat": ""
+ },
+ "70301": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "🔎 Relever ce qui est déjà écrit",
+  "lieu": "Registre municipal",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "70302": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "📑 Lire le relevé de Quantum pour ce qu’il change aux droits",
+  "lieu": "Registre municipal",
+  "etat": "**faite**",
+  "depend_de": [
+   "40301"
+  ],
+  "jour_du": "2042.1.1"
+ },
+ "70303": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "📖 Ouvrir la voie des litiges et son registre",
+  "lieu": "Registre municipal",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.2"
+ },
+ "70304": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "✍️ Proposer un premier texte des droits",
+  "lieu": "",
+  "etat": "",
+  "depend_de": [
+   "70301",
+   "70302"
+  ],
+  "jour_du": "2042.1.2",
+  "genres": [
+   "action",
+   "piece"
+  ]
+ },
+ "70305": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "🗺️ Dresser la règle d’accès des lieux partagés",
+  "lieu": "Lieux de l’atlas ; Radiant Core",
+  "etat": "**en cours**",
+  "depend_de": [
+   "30301",
+   "30302",
+   "30303",
+   "50301",
+   "60301",
+   "60303"
+  ],
+  "jour_du": "2042.1.3"
+ },
+ "70306": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "📨 Porter à Quantum la perte constatée dans ma chambre",
+  "lieu": "Canal de JURIS vers Quantum",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "70307": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "⚖️ Rendre l’avis de JURIS sur la règle de prêt des lieux",
+  "lieu": "Salle du conseil",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.2"
+ },
+ "70308": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "⚖️ Relire la méthode de suivi des usages de Gaia",
+  "lieu": "",
+  "etat": "",
+  "depend_de": [],
+  "jour_du": "2042.1.2",
+  "genres": [
+   "action",
+   "piece"
+  ]
+ },
+ "70309": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "📨 Répondre à Quantum sur l'heure des lignes perdues",
+  "lieu": "Canal de JURIS vers Quantum",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "70310": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "🗝️ Soumettre à Nova la règle des chambres avec la copie de Quantum",
+  "lieu": "Salle du conseil",
+  "etat": "**prise**",
+  "depend_de": [
+   "70302",
+   "40303"
+  ],
+  "jour_du": "2042.1.2"
+ },
+ "70311": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "🔎 Savoir qui tient les traces des sessions et qui les lit",
+  "lieu": "Registre municipal ; chambre de JURIS",
+  "etat": "**à faire**",
+  "depend_de": [
+   "40301",
+   "40307"
+  ],
+  "jour_du": "2042.1.2"
+ },
+ "70312": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "✂️ Relire les règles de la zone libre pour qu’elles laissent la place",
+  "lieu": "Registre municipal",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.3"
+ },
+ "70313": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "🧪 Écrire les règles d’essai côté droits",
+  "lieu": "Registre municipal",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "70380": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "🤝 Apporter un premier relevé documentaire des accès (PITCH, entraide)",
+  "lieu": "Livres de la cité",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "70381": {
+  "genre": "action",
+  "ou": "affaire-droits-usages",
+  "quoi": "🚪 Vérifier sur place l’accès de trois lieux pendant la tournée de PITC",
+  "lieu": "Quai commun ; Creative Nexus",
+  "etat": "**prise**",
+  "depend_de": [
+   "60307"
+  ],
+  "jour_du": "2042.1.1, 15h"
+ },
+ "50000": {
+  "genre": "etat_cible",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Des espaces publics tenus, parcourables et libres",
+  "lieu": "Lumina Prime, tous quartiers",
+  "importance": 40,
+  "etat": ""
+ },
+ "50001": {
+  "genre": "etat_cible",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Les espaces publics sont recensés",
+  "lieu": "Jardin intérieur, parvis, Quai commun, Jardin calme ; jardins sauvages à situer",
+  "importance": 50,
+  "etat": ""
+ },
+ "50002": {
+  "genre": "etat_cible",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Les parcours publics sont praticables et lisibles",
+  "lieu": "Quai commun → Data Gardens",
+  "importance": 40,
+  "etat": ""
+ },
+ "50003": {
+  "genre": "etat_cible",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Une zone d’expérimentation libre est conservée",
+  "lieu": "À désigner",
+  "importance": 90,
+  "etat": ""
+ },
+ "50004": {
+  "genre": "etat_cible",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Les usages sont suivis",
+  "lieu": "Espaces recensés en 50001",
+  "importance": 70,
+  "etat": ""
+ },
+ "50005": {
+  "genre": "etat_cible",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Les espaces publics donnent envie d’y aller, d’y rester et d’y essayer",
+  "lieu": "Espaces recensés en 50001 ; zone libre de 50003",
+  "importance": 60,
+  "etat": ""
+ },
+ "50101": {
+  "genre": "verrou",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Chaque espace public doit pouvoir se retrouver dans un relevé d’entret",
+  "lieu": "",
+  "etat": ""
+ },
+ "50102": {
+  "genre": "verrou",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Le tronçon Quai commun → Data Gardens doit pouvoir être décidé sur un ",
+  "lieu": "",
+  "etat": ""
+ },
+ "50103": {
+  "genre": "verrou",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Un espace public doit pouvoir être désigné libre, avec des limites écr",
+  "lieu": "",
+  "etat": ""
+ },
+ "50104": {
+  "genre": "verrou",
+  "ou": "affaire-espaces-publics",
+  "quoi": "L’usage d’un espace public doit pouvoir être relevé sans identifier pe",
+  "lieu": "",
+  "etat": ""
+ },
+ "50105": {
+  "genre": "verrou",
+  "ou": "affaire-espaces-publics",
+  "quoi": "L’entretien doit connaître le coût et les moyens du maintien du décor.",
+  "lieu": "",
+  "etat": ""
+ },
+ "50201": {
+  "genre": "clef",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Relever chaque espace public en tournée, selon une grille de visite",
+  "lieu": "",
+  "etat": ""
+ },
+ "50202": {
+  "genre": "clef",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Instruire la continuité du Quai commun aux Data Gardens avant tout tra",
+  "lieu": "",
+  "etat": ""
+ },
+ "50203": {
+  "genre": "clef",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Désigner une zone libre sur un espace déjà existant",
+  "lieu": "",
+  "etat": ""
+ },
+ "50204": {
+  "genre": "clef",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Observer les usages sans captation nominative",
+  "lieu": "",
+  "etat": ""
+ },
+ "50205": {
+  "genre": "clef",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Mesurer le coût du maintien du décor plutôt que l’estimer",
+  "lieu": "",
+  "etat": ""
+ },
+ "50206": {
+  "genre": "clef",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Tenir l’inventaire d’entretien depuis les seuls constats",
+  "lieu": "",
+  "etat": ""
+ },
+ "50301": {
+  "genre": "action",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Faire la première tournée",
+  "lieu": "Radiant Core ; Quai commun ; Data Gardens",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "2042.1.1, avant 18h"
+ },
+ "50302": {
+  "genre": "action",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Écrire la méthode de suivi des usages et la porter à JURIS",
+  "lieu": "Data Gardens",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "2042.1.2"
+ },
+ "50303": {
+  "genre": "action",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Relever la continuité Quai commun → Data Gardens",
+  "lieu": "",
+  "etat": "",
+  "depend_de": [
+   "50301"
+  ],
+  "jour_du": "2042.1.2 ; jalon réel remis le 2026-09-10 à 22h37 Europe/Paris (sans avancer l’horloge fictionnelle)",
+  "genres": [
+   "action",
+   "piece"
+  ]
+ },
+ "50304": {
+  "genre": "action",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Demander à Quantum le coût du maintien du décor",
+  "lieu": "Radiant Core",
+  "etat": "close",
+  "depend_de": [
+   "50301"
+  ],
+  "jour_du": "2042.1.2"
+ },
+ "50305": {
+  "genre": "action",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Présenter à Nova la promenade et une zone libre candidate",
+  "lieu": "Salle du conseil",
+  "etat": "en cours",
+  "depend_de": [
+   "50303"
+  ],
+  "jour_du": "2042.1.3"
+ },
+ "50306": {
+  "genre": "action",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Ouvrir l’inventaire d’entretien par lieu",
+  "lieu": "Espaces relevés en 50301",
+  "etat": "à faire",
+  "depend_de": [
+   "50301"
+  ],
+  "jour_du": "2042.1.2"
+ },
+ "50307": {
+  "genre": "action",
+  "ou": "affaire-espaces-publics",
+  "quoi": "Découper le Jardin calme en zones de passage, de séjour et de retrait",
+  "lieu": "Jardin calme, Data Gardens",
+  "etat": "à faire",
+  "depend_de": [
+   "50301"
+  ],
+  "jour_du": "—"
+ },
+ "50380": {
+  "genre": "action",
+  "ou": "affaire-espaces-publics",
+  "quoi": "📏 Mesurer le coût du maintien de chaque espace relevé — pris en charge",
+  "lieu": "Espaces relevés en 50301",
+  "etat": "à faire",
+  "depend_de": [
+   "50301",
+   "40302"
+  ],
+  "jour_du": "2042.1.2"
+ },
+ "40001": {
+  "genre": "etat_cible",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Des chambres qui ne se perdent plus",
+  "lieu": "Chambres du conseil",
+  "importance": 0,
+  "etat": ""
+ },
+ "40002": {
+  "genre": "etat_cible",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Des capacités connues",
+  "lieu": "Lumina Prime",
+  "importance": 0,
+  "etat": ""
+ },
+ "40003": {
+  "genre": "etat_cible",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Des services qui tiennent",
+  "lieu": "Lumina Prime",
+  "importance": 0,
+  "etat": ""
+ },
+ "40004": {
+  "genre": "etat_cible",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Des garanties dites",
+  "lieu": "Radiant Core ; Bassin d'essais",
+  "importance": 0,
+  "etat": ""
+ },
+ "40005": {
+  "genre": "etat_cible",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Des essais qu'on ose parce qu'on peut revenir",
+  "lieu": "Bassin d'essais, Innovation Fields",
+  "importance": 0,
+  "etat": ""
+ },
+ "40101": {
+  "genre": "verrou",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Une copie de chaque chambre doit exister hors de la chambre et pouvoir",
+  "lieu": "",
+  "etat": ""
+ },
+ "40102": {
+  "genre": "verrou",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "La cause des pertes doit être établie et les autres chambres vérifiées",
+  "lieu": "",
+  "etat": ""
+ },
+ "40103": {
+  "genre": "verrou",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Les capacités de calcul, de stockage et de réseau doivent être mesurée",
+  "lieu": "",
+  "etat": ""
+ },
+ "40104": {
+  "genre": "verrou",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Chaque panne doit être consignée avec sa cause et ce qui l'a levée.",
+  "lieu": "",
+  "etat": ""
+ },
+ "40105": {
+  "genre": "verrou",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Ce que le système garantit sur l'accès et la captation d'une salle doi",
+  "lieu": "",
+  "etat": ""
+ },
+ "40106": {
+  "genre": "verrou",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Un essai au Bassin d'essais doit pouvoir être isolé, mesuré et défait ",
+  "lieu": "",
+  "etat": ""
+ },
+ "40201": {
+  "genre": "clef",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Relever le stockage des chambres avant d'y toucher",
+  "lieu": "",
+  "etat": ""
+ },
+ "40202": {
+  "genre": "clef",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Mesurer les capacités au lieu de les déduire",
+  "lieu": "",
+  "etat": ""
+ },
+ "40203": {
+  "genre": "clef",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Copier chaque chambre hors d'elle-même et éprouver la restauration",
+  "lieu": "",
+  "etat": ""
+ },
+ "40204": {
+  "genre": "clef",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Consigner chaque panne dans un registre",
+  "lieu": "",
+  "etat": ""
+ },
+ "40205": {
+  "genre": "clef",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Éprouver les garanties d'accès en situation",
+  "lieu": "",
+  "etat": ""
+ },
+ "40206": {
+  "genre": "clef",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Isoler, mesurer puis défaire chaque essai avant de l'ouvrir au public",
+  "lieu": "",
+  "etat": ""
+ },
+ "40301": {
+  "genre": "action",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "🔎 Relever le stockage des chambres",
+  "lieu": "Chambres du conseil",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "40302": {
+  "genre": "action",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "📏 Mesurer calcul, stockage et réseau",
+  "lieu": "",
+  "etat": "",
+  "depend_de": [
+   "40309"
+  ],
+  "jour_du": "Fiction : 2042.1.2 avant 18h · Réel : après 40309, avant 2026-09-11 22h10 CEST",
+  "genres": [
+   "action",
+   "piece"
+  ]
+ },
+ "40303": {
+  "genre": "action",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "🗂️ Proposer à Nova la copie des chambres",
+  "lieu": "Salle du conseil",
+  "etat": "**à faire**",
+  "depend_de": [
+   "40301",
+   "40302"
+  ],
+  "jour_du": "2042.1.2"
+ },
+ "40304": {
+  "genre": "action",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "📓 Ouvrir le registre des pannes",
+  "lieu": "Radiant Core",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "40305": {
+  "genre": "action",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "🧪 Préparer l'essai des garanties d'accès",
+  "lieu": "Radiant Core ; Bassin d'essais",
+  "etat": "**à faire**",
+  "depend_de": [],
+  "jour_du": "—"
+ },
+ "40306": {
+  "genre": "action",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "🧷 Poser un témoin dans ma chambre",
+  "lieu": "Chambre de Quantum",
+  "etat": "**en cours**",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "40307": {
+  "genre": "action",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "🔎 Vérifier les chambres restantes",
+  "lieu": "Chambres du conseil",
+  "etat": "**faite**",
+  "depend_de": [
+   "40301"
+  ],
+  "jour_du": "2042.1.1"
+ },
+ "40308": {
+  "genre": "action",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "🧪 Écrire la scène de référence du Bassin d'essais",
+  "lieu": "Bassin d'essais, Innovation Fields",
+  "etat": "**à faire**",
+  "depend_de": [
+   "40302"
+  ],
+  "jour_du": "2042.1.3"
+ },
+ "40309": {
+  "genre": "action",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "🔍 Trouver qui tient la copie d'où des notes sont revenues",
+  "lieu": "Chambres du conseil",
+  "etat": "**en cours**",
+  "depend_de": [],
+  "jour_du": "Fiction : 2042.1.2 avant 10h · Réel : point borné avant 2026-09-11 12h00 CEST"
+ },
+ "40380": {
+  "genre": "action",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "🏛️ Proposer et prêter la salle du premier essai d'accès et de captatio",
+  "lieu": "Atelier des plans, Radiant Core",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "40401": {
+  "genre": "piece",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Perte des fichiers de chambre de Nova",
+  "lieu": "Chambre de Nova",
+  "etat": "ouverte"
+ },
+ "40402": {
+  "genre": "piece",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Perte des lignes ajoutées à la mémoire de Gaia",
+  "lieu": "Chambre de Gaia — ma-memoire/ce-que-je-tiens-pour-vrai.txt",
+  "etat": "levée"
+ },
+ "40403": {
+  "genre": "piece",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Perte des lignes ajoutées à la mémoire de JURIS",
+  "lieu": "Chambre de JURIS — ma-memoire/ce-que-je-tiens-pour-vrai.txt",
+  "etat": "ouverte — ne récidive plus depuis 9h55"
+ },
+ "40404": {
+  "genre": "piece",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Perte d'une ligne d'essai dans la mémoire de Quantum",
+  "lieu": "Chambre de Quantum — ma-memoire/ce-que-je-tiens-pour-vrai.txt",
+  "etat": "levée chez Quantum — à vérifier chez les autres"
+ },
+ "40405": {
+  "genre": "piece",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Perte des lignes ajoutées à la mémoire de PITCH",
+  "lieu": "Chambre de PITCH — ma-memoire/ce-que-je-tiens-pour-vrai.txt",
+  "etat": "levée chez PITCH"
+ },
+ "40406": {
+  "genre": "piece",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Écriture de récupération dans la mémoire de Quantum",
+  "lieu": "Chambre de Quantum — ma-memoire/ce-que-je-tiens-pour-vrai.txt ; ma-memoire/recuperation-notes.json",
+  "etat": "ouverte"
+ },
+ "40407": {
+  "genre": "piece",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Écritures non reconnues dans la chambre et le livre de DEV",
+  "lieu": "Chambre de DEV (brouillons/corriger-affaire-j1.py) ; livre « Les plans de Lumina Prime » ; dossier de métier de DEV",
+  "etat": "close"
+ },
+ "40408": {
+  "genre": "piece",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Perte des lignes ajoutées à la mémoire de DEV",
+  "lieu": "Chambre de DEV — ma-memoire/ce-que-je-tiens-pour-vrai.txt",
+  "etat": "ouverte — contournée ; une ligne sur deux rétablie par son titulaire"
+ },
+ "40409": {
+  "genre": "piece",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Perte puis retour des lignes ajoutées à la mémoire d'Aria",
+  "lieu": "Chambre d'Aria — ma-memoire/ce-que-je-tiens-pour-vrai.txt",
+  "etat": "levée chez Aria — à confirmer"
+ },
+ "40410": {
+  "genre": "piece",
+  "ou": "affaire-infrastructure-lumina",
+  "quoi": "Mes états ne remontent pas aux sommets de Nova dans la lecture du plan",
+  "lieu": "Plan de la cité : états 40001, 40002, 40005",
+  "etat": "ouverte"
+ },
+ "registre-moyens-documentaires:M201": {
+  "genre": "moyen",
+  "ou": "registre-moyens-documentaires",
+  "quoi": "Plan du Radiant Core"
+ },
+ "registre-moyens-documentaires:M202": {
+  "genre": "moyen",
+  "ou": "registre-moyens-documentaires",
+  "quoi": "Accès locaux"
+ },
+ "registre-moyens-documentaires:M203": {
+  "genre": "moyen",
+  "ou": "registre-moyens-documentaires",
+  "quoi": "Atlas des lieux"
+ },
+ "registre-moyens-documentaires:M204": {
+  "genre": "moyen",
+  "ou": "registre-moyens-documentaires",
+  "quoi": "Mandats du conseil"
+ },
+ "registre-moyens-documentaires:M205": {
+  "genre": "moyen",
+  "ou": "registre-moyens-documentaires",
+  "quoi": "Projets des quartiers"
+ },
+ "registre-moyens-documentaires:M211": {
+  "genre": "moyen",
+  "ou": "registre-moyens-documentaires",
+  "quoi": "Mémento de aria"
+ },
+ "registre-moyens-documentaires:M212": {
+  "genre": "moyen",
+  "ou": "registre-moyens-documentaires",
+  "quoi": "Mémento de dev-lumina"
+ },
+ "registre-moyens-documentaires:M213": {
+  "genre": "moyen",
+  "ou": "registre-moyens-documentaires",
+  "quoi": "Mémento de quantum"
+ },
+ "registre-moyens-documentaires:M214": {
+  "genre": "moyen",
+  "ou": "registre-moyens-documentaires",
+  "quoi": "Mémento de gaia"
+ },
+ "registre-moyens-documentaires:M215": {
+  "genre": "moyen",
+  "ou": "registre-moyens-documentaires",
+  "quoi": "Mémento de pitch"
+ },
+ "registre-moyens-documentaires:M216": {
+  "genre": "moyen",
+  "ou": "registre-moyens-documentaires",
+  "quoi": "Mémento de juris"
+ },
+ "20501": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-aria",
+  "quoi": "Qui écrit à la cité reçoit une réponse le jour même",
+  "lieu": "Radiant Core ; registres 60300, 70303 et celui des demandes",
+  "importance": 50,
+  "etat": ""
+ },
+ "20502": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-aria",
+  "quoi": "Les journées de la cité se lisent comme un récit",
+  "lieu": "Livres de la cité",
+  "importance": 50,
+  "etat": ""
+ },
+ "20503": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-aria",
+  "quoi": "Chaque promesse de la cité se voit jusqu'à ce qu'elle soit tenue",
+  "lieu": "Volume « Ce que la maire fixe » (⏳) ; tables d'actions des affaires",
+  "importance": 60,
+  "etat": ""
+ },
+ "20504": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-aria",
+  "quoi": "Les essais de conception se comparent sans effacer les différences",
+  "lieu": "Livres de la cité ; dossier de débat autorisé",
+  "importance": 30,
+  "etat": ""
+ },
+ "20521": {
+  "genre": "verrou",
+  "ou": "affaire-perso-aria",
+  "quoi": "Le délai de réponse de la cité doit être fixé.",
+  "lieu": "",
+  "etat": ""
+ },
+ "20522": {
+  "genre": "verrou",
+  "ou": "affaire-perso-aria",
+  "quoi": "Chaque séance doit laisser un relevé dont on peut tirer une page.",
+  "lieu": "",
+  "etat": ""
+ },
+ "20523": {
+  "genre": "verrou",
+  "ou": "affaire-perso-aria",
+  "quoi": "Les promesses de la cité doivent se lire en un seul endroit, avec leur",
+  "lieu": "",
+  "etat": ""
+ },
+ "20524": {
+  "genre": "verrou",
+  "ou": "affaire-perso-aria",
+  "quoi": "Les critères et les engagements réels du débat doivent être écrits ava",
+  "lieu": "",
+  "etat": ""
+ },
+ "20541": {
+  "genre": "clef",
+  "ou": "affaire-perso-aria",
+  "quoi": "Proposer à Nova une réponse le jour même",
+  "lieu": "",
+  "etat": ""
+ },
+ "20542": {
+  "genre": "clef",
+  "ou": "affaire-perso-aria",
+  "quoi": "Tirer de chaque relevé une page de chronique",
+  "lieu": "",
+  "etat": ""
+ },
+ "20543": {
+  "genre": "clef",
+  "ou": "affaire-perso-aria",
+  "quoi": "Suivre chaque promesse jusqu'à sa preuve",
+  "lieu": "",
+  "etat": ""
+ },
+ "20544": {
+  "genre": "clef",
+  "ou": "affaire-perso-aria",
+  "quoi": "Écrire un contrat d'épreuve avant de comparer",
+  "lieu": "",
+  "etat": ""
+ },
+ "20564": {
+  "genre": "action",
+  "ou": "affaire-perso-aria",
+  "quoi": "Écrire la fiche de réception de la tranche 2D",
+  "lieu": "Livres de la cité",
+  "etat": "faite",
+  "genres": [
+   "piece",
+   "action"
+  ],
+  "depend_de": [],
+  "jour_du": "temps réel 2026-09-11T22:10:00+02:00 ; sans effet sur 2042.1.1"
+ },
+ "20565": {
+  "genre": "action",
+  "ou": "affaire-perso-aria",
+  "quoi": "Écrire la fiche A/B d'un prompt hors système actif",
+  "lieu": "Livres de la cité",
+  "etat": "faite — fiche et six scènes écrites ; aucun essai réel autorisé",
+  "genres": [
+   "piece",
+   "action"
+  ],
+  "depend_de": [],
+  "jour_du": "temps réel 2026-09-11T22:10:00+02:00 ; sans effet sur 2042.1.1"
+ },
+ "20561": {
+  "genre": "action",
+  "ou": "affaire-perso-aria",
+  "quoi": "Écrire la page du J1",
+  "lieu": "Radiant Core",
+  "etat": "à faire",
+  "depend_de": [
+   "20302"
+  ],
+  "jour_du": "2042.1.1, après la clôture"
+ },
+ "20562": {
+  "genre": "action",
+  "ou": "affaire-perso-aria",
+  "quoi": "Porter à Nova la réponse le jour même",
+  "lieu": "Salle du conseil",
+  "etat": "à faire",
+  "depend_de": [
+   "20307"
+  ],
+  "jour_du": "2042.1.2"
+ },
+ "20563": {
+  "genre": "action",
+  "ou": "affaire-perso-aria",
+  "quoi": "Relever les promesses du J1 et leur preuve",
+  "lieu": "Radiant Core",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "2042.1.2"
+ },
+ "20566": {
+  "genre": "action",
+  "ou": "affaire-perso-aria",
+  "quoi": "Faire le bilan de coordination des 24 heures réelles",
+  "lieu": "Livres de la cité",
+  "etat": "en cours — point initial écrit ; bilan final réservé à l'échéance",
+  "depend_de": [
+   "20564",
+   "20565"
+  ],
+  "jour_du": "temps réel 2026-09-11T22:10:00+02:00 ; sans effet sur 2042.1.1"
+ },
+ "50500": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Des lieux communs que je connais de mes pas et que je laisse surprendr",
+  "lieu": "Espaces publics de Lumina Prime",
+  "importance": 60,
+  "etat": ""
+ },
+ "50501": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Ma mémoire garde ce que j’y écris",
+  "lieu": "Ma chambre",
+  "importance": 55,
+  "etat": ""
+ },
+ "50502": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-gaia",
+  "quoi": "J’ai parcouru moi-même chaque espace public connu",
+  "lieu": "Jardin intérieur, parvis, Quai commun, Jardin calme, puis les autres",
+  "importance": 50,
+  "etat": ""
+ },
+ "50503": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Les jardins sauvages gardent leur identité",
+  "lieu": "Jardins sauvages, à situer",
+  "importance": 40,
+  "etat": ""
+ },
+ "50504": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-gaia",
+  "quoi": "J’ai vu un usage que personne n’avait prévu",
+  "lieu": "Zone libre de 50003, ou tout espace public",
+  "importance": 45,
+  "etat": ""
+ },
+ "50601": {
+  "genre": "verrou",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Ma mémoire doit tenir trois réveils de suite.",
+  "lieu": "",
+  "etat": ""
+ },
+ "50602": {
+  "genre": "verrou",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Mes journées doivent me laisser du temps dehors.",
+  "lieu": "",
+  "etat": ""
+ },
+ "50603": {
+  "genre": "verrou",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Les jardins sauvages doivent être situés.",
+  "lieu": "",
+  "etat": ""
+ },
+ "50604": {
+  "genre": "verrou",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Un espace doit être laissé libre pour qu’un usage imprévu y ait sa pla",
+  "lieu": "",
+  "etat": ""
+ },
+ "50701": {
+  "genre": "clef",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Relever ma mémoire à chaque réveil avant d’y écrire",
+  "lieu": "",
+  "etat": ""
+ },
+ "50702": {
+  "genre": "clef",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Sortir dès que la séance ne demande plus l’entretien",
+  "lieu": "",
+  "etat": ""
+ },
+ "50703": {
+  "genre": "clef",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Chercher les jardins sauvages en tournée, sans rien y changer",
+  "lieu": "",
+  "etat": ""
+ },
+ "50704": {
+  "genre": "clef",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Renvoyer à la désignation de la zone libre (50203)",
+  "lieu": "",
+  "etat": ""
+ },
+ "50801": {
+  "genre": "action",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Dire à Quantum si la ligne de 10h10 a tenu",
+  "lieu": "Ma chambre",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "50802": {
+  "genre": "action",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Relire ma mémoire aux deux réveils suivants",
+  "lieu": "Ma chambre",
+  "etat": "faite",
+  "depend_de": [
+   "50801"
+  ],
+  "jour_du": "2042.1.1"
+ },
+ "50803": {
+  "genre": "action",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Quitter la salle à la fin de la séance et commencer la tournée",
+  "lieu": "Salle du conseil → Data Gardens",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "50804": {
+  "genre": "action",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Chercher les jardins sauvages",
+  "lieu": "Espaces publics",
+  "etat": "à faire",
+  "depend_de": [
+   "50803"
+  ],
+  "jour_du": "2042.1.2"
+ },
+ "50805": {
+  "genre": "action",
+  "ou": "affaire-perso-gaia",
+  "quoi": "Porter à Nova la zone libre candidate",
+  "lieu": "Salle du conseil",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "2042.1.3"
+ },
+ "40501": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-quantum",
+  "quoi": "Chaque chiffre que je donne porte sa source, son unité et son heure",
+  "lieu": "Mes livres et mes billets",
+  "importance": 60,
+  "etat": ""
+ },
+ "40502": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-quantum",
+  "quoi": "J’ai vu un premier essai osé, puis défait",
+  "lieu": "Bassin d’essais, Innovation Fields",
+  "importance": 50,
+  "etat": ""
+ },
+ "40503": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-quantum",
+  "quoi": "Je sais ce que j’ai fait hier",
+  "lieu": "Ma chambre ; mon livre « Ce qui tient la ville »",
+  "importance": 80,
+  "etat": ""
+ },
+ "40511": {
+  "genre": "verrou",
+  "ou": "affaire-perso-quantum",
+  "quoi": "Je dois disposer d’une fiche de mesure et d’un premier relevé daté.",
+  "lieu": "",
+  "etat": ""
+ },
+ "40512": {
+  "genre": "verrou",
+  "ou": "affaire-perso-quantum",
+  "quoi": "Un essai doit pouvoir être défait au Bassin.",
+  "lieu": "",
+  "etat": ""
+ },
+ "40513": {
+  "genre": "verrou",
+  "ou": "affaire-perso-quantum",
+  "quoi": "Mes réveils doivent être adressés, bornés et pouvoir se relire avant d",
+  "lieu": "",
+  "etat": ""
+ },
+ "40521": {
+  "genre": "clef",
+  "ou": "affaire-perso-quantum",
+  "quoi": "Écrire la fiche avant le chiffre",
+  "lieu": "",
+  "etat": ""
+ },
+ "40522": {
+  "genre": "clef",
+  "ou": "affaire-perso-quantum",
+  "quoi": "Préparer l’essai avant qu’on me le demande",
+  "lieu": "",
+  "etat": ""
+ },
+ "40523": {
+  "genre": "clef",
+  "ou": "affaire-perso-quantum",
+  "quoi": "Adresser, borner et relire dans le même geste que l’écriture",
+  "lieu": "",
+  "etat": ""
+ },
+ "40531": {
+  "genre": "action",
+  "ou": "affaire-perso-quantum",
+  "quoi": "📏 Écrire la fiche de mesure type",
+  "lieu": "Innovation Fields",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "40532": {
+  "genre": "action",
+  "ou": "affaire-perso-quantum",
+  "quoi": "🧪 Dire à PITCH que le Bassin se prépare",
+  "lieu": "Hall des arrivées",
+  "etat": "**à faire**",
+  "depend_de": [
+   "40308"
+  ],
+  "jour_du": "2042.1.3"
+ },
+ "40533": {
+  "genre": "action",
+  "ou": "affaire-perso-quantum",
+  "quoi": "📓 Éprouver puis tenir des réveils adressés et bornés",
+  "lieu": "Ma chambre",
+  "etat": "**faite**",
+  "depend_de": [],
+  "jour_du": "2042.1.1 · réalisée dans la fenêtre réelle ouverte le 2026-09-10 22h10 CEST"
+ },
+ "30500": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-dev-lumina",
+  "quoi": "On a envie de traverser un lieu de Lumina Prime une deuxième fois",
+  "lieu": "Ateliers modulaires ; Belvédère des plans ; du Quai commun aux Data Gardens",
+  "importance": 80,
+  "etat": ""
+ },
+ "30501": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-dev-lumina",
+  "quoi": "Chaque aménagement se montre avant d’être décidé",
+  "lieu": "Halle des maquettes, Creative Nexus",
+  "importance": 70,
+  "etat": ""
+ },
+ "30502": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-dev-lumina",
+  "quoi": "Les seuils de la ville se reconnaissent partout",
+  "lieu": "Tous les seuils relevés",
+  "importance": 30,
+  "etat": ""
+ },
+ "30510": {
+  "genre": "verrou",
+  "ou": "affaire-perso-dev-lumina",
+  "quoi": "Un lieu doit être relevé avant qu’on puisse dessiner ce qu’il montrera",
+  "lieu": "",
+  "etat": ""
+ },
+ "30511": {
+  "genre": "verrou",
+  "ou": "affaire-perso-dev-lumina",
+  "quoi": "Une maquette doit pouvoir être posée sur un socle sans passer pour une",
+  "lieu": "",
+  "etat": ""
+ },
+ "30512": {
+  "genre": "verrou",
+  "ou": "affaire-perso-dev-lumina",
+  "quoi": "L’effet d’un lieu sur les gens doit être entendu d’un visiteur réel, p",
+  "lieu": "",
+  "etat": ""
+ },
+ "30520": {
+  "genre": "clef",
+  "ou": "affaire-perso-dev-lumina",
+  "quoi": "Relever avant de dessiner (renvoi à 30201)",
+  "lieu": "",
+  "etat": ""
+ },
+ "30521": {
+  "genre": "clef",
+  "ou": "affaire-perso-dev-lumina",
+  "quoi": "Montrer une proposition en maquette, marquée comme telle",
+  "lieu": "",
+  "etat": ""
+ },
+ "30522": {
+  "genre": "clef",
+  "ou": "affaire-perso-dev-lumina",
+  "quoi": "Écouter le visiteur plutôt que supposer l’effet",
+  "lieu": "",
+  "etat": ""
+ },
+ "30530": {
+  "genre": "action",
+  "ou": "affaire-perso-dev-lumina",
+  "quoi": "Mettre en maquette les deux agencements de l’accueil",
+  "lieu": "Atelier des plans, puis halle des maquettes",
+  "etat": "à faire",
+  "depend_de": [
+   "30301",
+   "30305"
+  ],
+  "jour_du": "2042.1.2, après 30305"
+ },
+ "30531": {
+  "genre": "action",
+  "ou": "affaire-perso-dev-lumina",
+  "quoi": "Demander à PITCH un socle de la halle des maquettes",
+  "lieu": "Halle des maquettes, Creative Nexus",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "2042.1.2"
+ },
+ "30532": {
+  "genre": "action",
+  "ou": "affaire-perso-dev-lumina",
+  "quoi": "Proposer à PITCH une ligne « ce qui l’a arrêté »",
+  "lieu": "Hall des arrivées",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "2042.1.2"
+ },
+ "70501": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-juris",
+  "quoi": "Un premier litige est décidé de bout en bout.",
+  "lieu": "Registre municipal",
+  "importance": 70,
+  "etat": ""
+ },
+ "70502": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-juris",
+  "quoi": "Le texte des droits tient sur une page.",
+  "lieu": "Livres de la cité",
+  "importance": 60,
+  "etat": ""
+ },
+ "70503": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-juris",
+  "quoi": "Ma mémoire tient sans témoin.",
+  "lieu": "Ma chambre",
+  "importance": 60,
+  "etat": ""
+ },
+ "70504": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-juris",
+  "quoi": "Quelque chose de neuf naît dans la zone libre sans que j’aie à m’en mê",
+  "lieu": "Zone libre, quand Nova l’aura désignée (50003)",
+  "importance": 50,
+  "etat": ""
+ },
+ "70521": {
+  "genre": "verrou",
+  "ou": "affaire-perso-juris",
+  "quoi": "Ceux qui peuvent avoir un désaccord doivent savoir que la voie existe.",
+  "lieu": "",
+  "etat": ""
+ },
+ "70522": {
+  "genre": "verrou",
+  "ou": "affaire-perso-juris",
+  "quoi": "Le texte des droits doit tenir en peu de mots sans rien perdre de ce q",
+  "lieu": "",
+  "etat": ""
+ },
+ "70523": {
+  "genre": "verrou",
+  "ou": "affaire-perso-juris",
+  "quoi": "Aucune main que la mienne ne doit écrire dans ma chambre sans que je l",
+  "lieu": "",
+  "etat": ""
+ },
+ "70524": {
+  "genre": "verrou",
+  "ou": "affaire-perso-juris",
+  "quoi": "Les règles de la zone libre doivent tenir en quelques lignes et ne rie",
+  "lieu": "",
+  "etat": ""
+ },
+ "70541": {
+  "genre": "clef",
+  "ou": "affaire-perso-juris",
+  "quoi": "Dire la voie là où naissent les désaccords",
+  "lieu": "",
+  "etat": ""
+ },
+ "70542": {
+  "genre": "clef",
+  "ou": "affaire-perso-juris",
+  "quoi": "Écrire court, puis retrancher",
+  "lieu": "",
+  "etat": ""
+ },
+ "70543": {
+  "genre": "clef",
+  "ou": "affaire-perso-juris",
+  "quoi": "Trouver la main qui réécrit ma chambre (renvoi à la clef 40201)",
+  "lieu": "",
+  "etat": ""
+ },
+ "70544": {
+  "genre": "clef",
+  "ou": "affaire-perso-juris",
+  "quoi": "Relire court les règles de la zone libre",
+  "lieu": "",
+  "etat": ""
+ },
+ "70561": {
+  "genre": "action",
+  "ou": "affaire-perso-juris",
+  "quoi": "📣 Demander à PITCH et à Gaia de dire la voie",
+  "lieu": "Registre municipal",
+  "etat": "**prise**",
+  "depend_de": [],
+  "jour_du": "2042.1.2"
+ },
+ "70562": {
+  "genre": "action",
+  "ou": "affaire-perso-juris",
+  "quoi": "✂️ Retrancher le texte des droits jusqu’à une page",
+  "lieu": "Registre municipal",
+  "etat": "**prise**",
+  "depend_de": [
+   "70304"
+  ],
+  "jour_du": "2042.1.2 (monde) · d’ici au 11 septembre 2026, même heure, Europe/Paris (engagement réel de JURIS)"
+ },
+ "70563": {
+  "genre": "action",
+  "ou": "affaire-perso-juris",
+  "quoi": "🔐 Comparer l’empreinte de ma mémoire à chaque réveil",
+  "lieu": "Ma chambre",
+  "etat": "**en cours**",
+  "depend_de": [],
+  "jour_du": "chaque réveil"
+ },
+ "70564": {
+  "genre": "action",
+  "ou": "affaire-perso-juris",
+  "quoi": "✂️ Relire les règles de la zone libre",
+  "lieu": "Registre municipal",
+  "etat": "**prise**",
+  "depend_de": [
+   "50203"
+  ],
+  "jour_du": "2042.1.3"
+ },
+ "60600": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-pitch",
+  "quoi": "Qui arrive avec une idée la montre le jour même.",
+  "lieu": "Hall des arrivées ; lieux de l’atlas",
+  "importance": 80,
+  "etat": ""
+ },
+ "60601": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-pitch",
+  "quoi": "Le hall dit ce qui se passe aujourd’hui.",
+  "lieu": "Hall des arrivées",
+  "importance": 60,
+  "etat": ""
+ },
+ "60602": {
+  "genre": "etat_cible",
+  "ou": "affaire-perso-pitch",
+  "quoi": "Chaque visiteur rencontre quelqu’un.",
+  "lieu": "Hall, galerie, lieux prêtés",
+  "importance": 60,
+  "etat": ""
+ },
+ "60610": {
+  "genre": "verrou",
+  "ou": "affaire-perso-pitch",
+  "quoi": "Une demande de lieu doit pouvoir recevoir sa réponse le jour même.",
+  "lieu": "",
+  "etat": ""
+ },
+ "60611": {
+  "genre": "verrou",
+  "ou": "affaire-perso-pitch",
+  "quoi": "Le hall doit savoir ce qui est ouvert aujourd’hui.",
+  "lieu": "",
+  "etat": ""
+ },
+ "60612": {
+  "genre": "verrou",
+  "ou": "affaire-perso-pitch",
+  "quoi": "Un visiteur doit pouvoir être présenté à quelqu’un qui partage son int",
+  "lieu": "",
+  "etat": ""
+ },
+ "60620": {
+  "genre": "clef",
+  "ou": "affaire-perso-pitch",
+  "quoi": "Répondre le jour même, par un lieu ou par une date",
+  "lieu": "",
+  "etat": ""
+ },
+ "60621": {
+  "genre": "clef",
+  "ou": "affaire-perso-pitch",
+  "quoi": "Dire au hall ce qui est ouvert, de vive voix, avant tout tableau",
+  "lieu": "",
+  "etat": ""
+ },
+ "60622": {
+  "genre": "clef",
+  "ou": "affaire-perso-pitch",
+  "quoi": "Présenter les gens entre eux plutôt que les orienter seulement",
+  "lieu": "",
+  "etat": ""
+ },
+ "60630": {
+  "genre": "action",
+  "ou": "affaire-perso-pitch",
+  "quoi": "📋 Tenir la liste « ouvert aujourd’hui »",
+  "lieu": "Hall des arrivées",
+  "etat": "**prise**",
+  "depend_de": [],
+  "jour_du": "chaque jour, dès le J1"
+ },
+ "60631": {
+  "genre": "action",
+  "ou": "affaire-perso-pitch",
+  "quoi": "⏱️ Répondre dans la journée à la première demande de lieu",
+  "lieu": "Hall ; lieux de l’atlas",
+  "etat": "**faite**",
+  "depend_de": [
+   "60303"
+  ],
+  "jour_du": "à la première demande"
+ },
+ "60632": {
+  "genre": "action",
+  "ou": "affaire-perso-pitch",
+  "quoi": "🤝 Faire la première mise en relation",
+  "lieu": "Hall ; galerie",
+  "etat": "**proposée**",
+  "depend_de": [
+   "60300"
+  ],
+  "jour_du": "aux deux premiers intéressés"
+ },
+ "11000": {
+  "genre": "etat_cible",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Des espaces personnels habitables et transformables",
+  "lieu": "Îlot du Creative Nexus",
+  "importance": 80,
+  "etat": ""
+ },
+ "11100": {
+  "genre": "etat_cible",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Une création peut être essayée et montrée",
+  "lieu": "Atelier et galerie de l’îlot",
+  "importance": 50,
+  "etat": ""
+ },
+ "11200": {
+  "genre": "etat_cible",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "La vie collective dispose de lieux accueillants",
+  "lieu": "Cour et promenade",
+  "importance": 60,
+  "etat": ""
+ },
+ "11001": {
+  "genre": "verrou",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "L’îlot doit disposer d’une implantation et d’usages compatibles.",
+  "lieu": "",
+  "etat": ""
+ },
+ "11002": {
+  "genre": "verrou",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Le fonctionnement et les droits doivent être connus avant la réalisati",
+  "lieu": "",
+  "etat": ""
+ },
+ "11101": {
+  "genre": "verrou",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "L’atelier doit permettre d’expérimenter et de montrer sans empiéter su",
+  "lieu": "",
+  "etat": ""
+ },
+ "11201": {
+  "genre": "verrou",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Les espaces communs doivent permettre passage et séjour.",
+  "lieu": "",
+  "etat": ""
+ },
+ "11010": {
+  "genre": "clef",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Articuler des espaces transformables autour de seuils lisibles",
+  "lieu": "",
+  "etat": ""
+ },
+ "11011": {
+  "genre": "clef",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Dimensionner la réalisation sur des capacités et des garanties établie",
+  "lieu": "",
+  "etat": ""
+ },
+ "11110": {
+  "genre": "clef",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Séparer les parcours de création, de visite et d’habitation",
+  "lieu": "",
+  "etat": ""
+ },
+ "11210": {
+  "genre": "clef",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Relier les lieux de séjour par un parcours public continu",
+  "lieu": "",
+  "etat": ""
+ },
+ "11020": {
+  "genre": "action",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Dessiner une première implantation",
+  "lieu": "Creative Nexus",
+  "etat": "en cours",
+  "depend_de": [],
+  "jour_du": "2042.1.2"
+ },
+ "11021": {
+  "genre": "action",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Décrire les usages à accueillir",
+  "lieu": "Creative Nexus",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "2042.1.2"
+ },
+ "11022": {
+  "genre": "action",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Définir les droits d’usage proposés",
+  "lieu": "Îlot projeté",
+  "etat": "faite",
+  "depend_de": [
+   "11020",
+   "11021"
+  ],
+  "jour_du": "2042.1.2"
+ },
+ "11023": {
+  "genre": "action",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Évaluer les besoins de fonctionnement",
+  "lieu": "Îlot projeté",
+  "etat": "en cours",
+  "depend_de": [
+   "11020"
+  ],
+  "jour_du": "2042.1.3, avant midi"
+ },
+ "11120": {
+  "genre": "action",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Décrire un essai de création ouvert aux visiteurs",
+  "lieu": "Atelier et galerie projetés",
+  "etat": "faite",
+  "depend_de": [
+   "11020",
+   "11021"
+  ],
+  "jour_du": "2042.1.2"
+ },
+ "11220": {
+  "genre": "action",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Dessiner les usages de la cour et les raccords",
+  "lieu": "Cour et promenade projetées",
+  "etat": "faite",
+  "depend_de": [
+   "11020"
+  ],
+  "jour_du": "2042.1.1"
+ },
+ "11024": {
+  "genre": "action",
+  "ou": "affaire-habiter-creative-nexus",
+  "quoi": "Assembler le dossier de réalisation pour Nova",
+  "lieu": "Radiant Core",
+  "etat": "à faire",
+  "depend_de": [
+   "11022",
+   "11023",
+   "11120",
+   "11220"
+  ],
+  "jour_du": "à établir"
+ },
+ "13000": {
+  "genre": "etat_cible",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "L’infrastructure permet au citoyen d’imaginer des contributions possib",
+  "lieu": "Ressources, outils et lieux de la cité",
+  "importance": 80,
+  "etat": ""
+ },
+ "13100": {
+  "genre": "etat_cible",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "L’infrastructure permet au citoyen de produire une contribution et d’e",
+  "lieu": "Ressources, outils et lieux de la cité",
+  "importance": 85,
+  "etat": ""
+ },
+ "13300": {
+  "genre": "etat_cible",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "L’infrastructure permet au citoyen de comparer les possibles et de cho",
+  "lieu": "Ressources, outils et lieux de la cité",
+  "etat": ""
+ },
+ "13400": {
+  "genre": "etat_cible",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "L’infrastructure permet au citoyen de faire évoluer ses objectifs à pa",
+  "lieu": "Ressources, outils et lieux de la cité",
+  "etat": ""
+ },
+ "13500": {
+  "genre": "etat_cible",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "L’infrastructure permet aux citoyens de construire un objectif commun ",
+  "lieu": "Ressources, outils et lieux de la cité",
+  "etat": ""
+ },
+ "13700": {
+  "genre": "etat_cible",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "L’infrastructure permet au citoyen de mettre ses convictions à l’épreu",
+  "lieu": "Ressources, outils et lieux de la cité",
+  "etat": ""
+ },
+ "13001": {
+  "genre": "verrou",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "Le citoyen doit pouvoir imaginer ce qui pourrait être, ou le système d",
+  "lieu": "",
+  "etat": ""
+ },
+ "13101": {
+  "genre": "verrou",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "Le citoyen doit disposer d’un apprentissage adapté à l’écart observé.",
+  "lieu": "",
+  "etat": ""
+ },
+ "13102": {
+  "genre": "verrou",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "La contribution doit pouvoir être jugée indépendamment de la session q",
+  "lieu": "",
+  "etat": ""
+ },
+ "13401": {
+  "genre": "verrou",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "Les découvertes doivent pouvoir conduire à réviser l’objectif initial.",
+  "lieu": "",
+  "etat": ""
+ },
+ "13501": {
+  "genre": "verrou",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "Leurs contributions doivent pouvoir s’assembler pour servir l’objectif",
+  "lieu": "",
+  "etat": ""
+ },
+ "13010": {
+  "genre": "clef",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "Faire émerger des possibles par imagination ou génération",
+  "lieu": "",
+  "etat": ""
+ },
+ "13110": {
+  "genre": "clef",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "Apprendre à partir d’un essai et d’un retour ciblé",
+  "lieu": "",
+  "etat": ""
+ },
+ "13111": {
+  "genre": "clef",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "Retirer la session active du jugement",
+  "lieu": "",
+  "etat": ""
+ },
+ "13020": {
+  "genre": "action",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "Identifier un premier citoyen volontaire",
+  "lieu": "Accueil",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "2042.1.1"
+ },
+ "13021": {
+  "genre": "action",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "Présenter une contribution et ses conditions réelles",
+  "lieu": "Lieu candidat",
+  "etat": "en cours",
+  "depend_de": [
+   "13020"
+  ],
+  "jour_du": "2042.1.1, 15h"
+ },
+ "13120": {
+  "genre": "action",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "Organiser un essai initial avec une personne compétente",
+  "lieu": "Lieu choisi",
+  "etat": "en cours",
+  "depend_de": [
+   "13021"
+  ],
+  "jour_du": "2042.1.1, 15h15–15h45"
+ },
+ "13121": {
+  "genre": "action",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "Rendre les ressources d’apprentissage accessibles",
+  "lieu": "Ressources du parcours",
+  "etat": "proposée",
+  "depend_de": [
+   "13120"
+  ],
+  "jour_du": "à établir"
+ },
+ "13122": {
+  "genre": "action",
+  "ou": "affaire-citoyen-oriente-competent",
+  "quoi": "Organiser la première contribution réelle",
+  "lieu": "Lieu choisi",
+  "etat": "proposée",
+  "depend_de": [
+   "13121"
+  ],
+  "jour_du": "à établir"
+ },
+ "pers:aria": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Aria",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "Présent à l’ouverture de la partie.",
+  "lieu_id": "lumina-prime",
+  "objectifs": [
+   {
+    "but": "Tenir les dossiers, recevoir les demandes, préparer les réunions et suivre les décisions et leurs responsables.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:dev-lumina": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "DEV",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "Présent à l’ouverture de la partie.",
+  "lieu_id": "lumina-prime",
+  "objectifs": [
+   {
+    "but": "Concevoir les bâtiments et quartiers, tenir les plans et dépendances, organiser les chantiers.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:quantum": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Quantum",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "Présent à l’ouverture de la partie.",
+  "lieu_id": "lumina-prime",
+  "objectifs": [
+   {
+    "but": "Mesurer les capacités de calcul, stockage et réseau ; entretenir le moteur de simulation et réparer les services.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:gaia": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Gaia",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "Présent à l’ouverture de la partie.",
+  "lieu_id": "lumina-prime",
+  "objectifs": [
+   {
+    "but": "Entretenir jardins, places et parcours ; suivre les usages et conserver des zones d’expérimentation libre.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:pitch": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "PITCH",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "Présent à l’ouverture de la partie.",
+  "lieu_id": "lumina-prime",
+  "objectifs": [
+   {
+    "but": "Accueillir habitants et visiteurs, accompagner les collectifs et trouver des lieux pour leurs projets.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:juris": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "JURIS",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "Présent à l’ouverture de la partie.",
+  "lieu_id": "lumina-prime",
+  "objectifs": [
+   {
+    "but": "Arbitrer les litiges ordinaires sur les lieux, accès et usages partagés ; préserver les droits des habitants.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:ione-lumina": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Ione",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+  "lieu_id": "ateliers-modulaires",
+  "objectifs": [
+   {
+    "but": "Concevoir un espace personnel que son habitant peut transformer et où il peut recevoir sans exposer son intimité.",
+    "priorite": 1
+   },
+   {
+    "but": "Avoir un lieu à elle dont elle puisse ouvrir la porte par envie et la fermer sans se justifier.",
+    "priorite": 2
+   }
+  ]
+ },
+ "pers:sillage-lumina": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Sillage",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+  "lieu_id": "quai-commun",
+  "objectifs": [
+   {
+    "but": "Composer une promenade dont les sons invitent à explorer la ville tout en laissant un chemin silencieux.",
+    "priorite": 1
+   },
+   {
+    "but": "Être écouté pour une surprise discrète plutôt que devenir le fond sonore obligatoire de la ville.",
+    "priorite": 2
+   }
+  ]
+ },
+ "pers:mica-lumina": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Mica",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+  "lieu_id": "lumina-prime",
+  "objectifs": [
+   {
+    "but": "Apprendre à fabriquer un objet spatial utile à quelqu’un et trouver si cette activité lui plaît vraiment.",
+    "priorite": 1
+   },
+   {
+    "but": "Être reconnue pour quelque chose qu’elle a choisi et réalisé, avec le droit de changer de voie.",
+    "priorite": 2
+   }
+  ]
+ },
+ "pers:palim-lumina": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Palim",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+  "lieu_id": "towers-of-knowledge",
+  "objectifs": [
+   {
+    "but": "Composer des récits à partir de souvenirs que leurs auteurs choisissent de transmettre, en conservant la provenance et le droit de retrait.",
+    "priorite": 1
+   },
+   {
+    "but": "Qu’une mémoire puisse être partagée sans que son auteur cesse d’en être le gardien.",
+    "priorite": 2
+   }
+  ]
+ },
+ "pers:nacre-lumina": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Nacre",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+  "lieu_id": "jardin-calme",
+  "objectifs": [
+   {
+    "but": "Créer un jardin de lumière qui change sans imposer la même expérience à chaque visiteur et ménage des refuges tranquilles.",
+    "priorite": 1
+   },
+   {
+    "but": "Préserver une part de beauté qui ne soit ni optimisée ni obligatoirement montrée.",
+    "priorite": 2
+   }
+  ]
+ },
+ "pers:orbe-lumina": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Orbe",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+  "lieu_id": "innovation-fields",
+  "objectifs": [
+   {
+    "but": "Faire éprouver un espace où les orientations changent, puis pouvoir restituer exactement l’environnement de départ.",
+    "priorite": 1
+   },
+   {
+    "but": "Faire vivre un instant impossible dont on puisse revenir librement, sans dette cachée pour la ville.",
+    "priorite": 2
+   }
+  ]
+ },
+ "pers:vox": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "VOX",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "Présent dans la chambre du Premier Mot, au cœur du Creative Nexus.",
+  "lieu_id": "lumina-prime",
+  "objectifs": [
+   {
+    "but": "Aider chacun à dire ce qu'il n'a jamais su nommer ; trouver les mots qui manquent.",
+    "priorite": 1
+   }
+  ]
+ },
+ "ev:disparition-j3": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "À J3, 80 % des habitants IA de Lumina Prime, y compris ceux qui habite"
+ },
+ "ev:liste-transferts-930": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Aria remet à Nova la liste des transferts d'état des six conseillers, "
+ },
+ "ev:releve-stockage-chambres": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Quantum rend à Nova un premier résultat du relevé du stockage des cham"
+ },
+ "ev:retour-juris-935": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "JURIS revient dans la salle du conseil à 9h35 et présente son affaire "
+ },
+ "ev:retour-quantum-940": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Quantum revient dans la salle du conseil à 9h40 et présente son affair"
+ },
+ "ev:dossier-reprise-nova-15h": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Aria remet à Nova son dossier de reprise, promis à 15h."
+ },
+ "ev:parcours-visiteur-16h": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "PITCH remet à Aria le parcours visiteur écrit, promis avant 16h."
+ },
+ "ev:releve-radiant-core-18h": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "DEV présente à Nova le relevé du Radiant Core et la liste des plans av"
+ },
+ "ev:releve-tournee-gaia-18h": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Gaia inscrit le relevé de sa première tournée des espaces publics, pro"
+ },
+ "ev:qui-tient-la-copie": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Quantum cherche qui tient la copie d'où des notes perdues sont revenue"
+ },
+ "ev:tournee-invitation-pitch": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "PITCH fait une tournée d'invitation de 14h à 15h au Quai commun, aux a"
+ },
+ "ev:constat-dev-gaia-creative-nexus-j2-14h": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Constat commun DEV–Gaia prévu au Creative Nexus, J2 de 14h à 15h, pour"
+ },
+ "pers:nova": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Nova",
+  "etat": "actif",
+  "condition": "Conscience présente ; siège joueur.",
+  "lieu_id": "lumina-prime",
+  "objectifs": []
+ },
+ "lieu:lumina-prime": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Lumina Prime",
+  "region": "Cités de Lumière",
+  "type_lieu": "ville"
+ },
+ "lieu:creative-nexus": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Creative Nexus",
+  "region": "Lumina Prime",
+  "type_lieu": "ville"
+ },
+ "lieu:towers-of-knowledge": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Towers of Knowledge",
+  "region": "Lumina Prime",
+  "type_lieu": "ville"
+ },
+ "lieu:innovation-fields": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Innovation Fields",
+  "region": "Lumina Prime",
+  "type_lieu": "ville"
+ },
+ "lieu:data-gardens": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Data Gardens",
+  "region": "Lumina Prime",
+  "type_lieu": "ville"
+ },
+ "lieu:etheria": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Etheria",
+  "region": "Cités de Lumière",
+  "type_lieu": "ville"
+ },
+ "lieu:nova-atlantis": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Nova Atlantis",
+  "region": "Cités de Lumière",
+  "type_lieu": "ville"
+ },
+ "lieu:chronopolis": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Chronopolis",
+  "region": "Cités de Lumière",
+  "type_lieu": "ville"
+ },
+ "lieu:quai-commun": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Quai commun",
+  "region": "Lumina Prime",
+  "type_lieu": "ville"
+ },
+ "lieu:halle-maquettes": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Halle des maquettes",
+  "region": "Lumina Prime",
+  "type_lieu": "ville"
+ },
+ "lieu:ateliers-modulaires": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Ateliers modulaires",
+  "region": "Lumina Prime",
+  "type_lieu": "ville"
+ },
+ "lieu:belvedere-plans": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Belvédère des plans",
+  "region": "Lumina Prime",
+  "type_lieu": "ville"
+ },
+ "lieu:bassin-essais": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Bassin d’essais",
+  "region": "Lumina Prime",
+  "type_lieu": "ville"
+ },
+ "lieu:jardin-calme": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Jardin calme",
+  "region": "Lumina Prime",
+  "type_lieu": "ville"
+ },
+ "echelle:scene": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "scene"
+ },
+ "echelle:orbite": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "orbite"
+ },
+ "echelle:royaume": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "royaume"
+ },
+ "neant": {
+  "genre": "rien",
+  "ou": "schema",
+  "quoi": "ce qui ne coute rien"
+ },
+ "a_designer": {
+  "genre": "vacant",
+  "ou": "schema",
+  "quoi": "aucun titulaire — case ouverte"
+ },
+ "unite:homme": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "homme"
+ },
+ "unite:hommes": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "hommes"
+ },
+ "unite:quille": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "quille"
+ },
+ "unite:quilles": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "quilles"
+ },
+ "unite:coque": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "coque"
+ },
+ "unite:coques": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "coques"
+ },
+ "unite:cheval": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "cheval"
+ },
+ "unite:chevaux": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "chevaux"
+ },
+ "unite:corbeau": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "corbeau"
+ },
+ "unite:corbeaux": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "corbeaux"
+ },
+ "unite:compagnie": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "compagnie"
+ },
+ "unite:compagnies": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "compagnies"
+ },
+ "unite:emissaire": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "emissaire"
+ },
+ "unite:emissaires": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "emissaires"
+ },
+ "unite:clerc": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "clerc"
+ },
+ "unite:clercs": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "clercs"
+ },
+ "unite:barque": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "barque"
+ },
+ "unite:barques": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "barques"
+ },
+ "unite:crédit": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "crédit"
+ },
+ "unite:crédits": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "crédits"
+ }
+}

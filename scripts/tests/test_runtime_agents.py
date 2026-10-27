@@ -195,35 +195,30 @@ class RuntimeAgentsTest(unittest.TestCase):
         for outil in ("Read", "Grep", "Glob", "Bash", "Write", "Edit"):
             self.assertIn(outil, outils)
 
-    def test_manuel_claude_n_est_injecte_qu_a_la_creation_ou_si_change(self):
+    def test_manuel_claude_accompagne_chaque_appel_meme_en_reprise(self):
+        # Claude ne garde pas le systeme dans la session : une reprise sans
+        # fichier retombait sur le systeme par defaut.
         with tempfile.TemporaryDirectory() as dossier:
-            manuel = "MANUEL V1"
             empreinte, prompt, injecte = runtime._preparer_prompt_claude(
-                manuel, dossier, False, {})
+                "MANUEL V1", dossier, True,
+                {"manuel_sha256_claude": runtime._empreinte_manuel("MANUEL V1")})
             self.assertTrue(injecte)
-            self.assertIsNotNone(prompt)
-            self.assertTrue(os.path.exists(prompt))
+            with open(prompt, encoding="utf-8") as f:
+                self.assertEqual(f.read(), "MANUEL V1")
+            _, autre, _ = runtime._preparer_prompt_claude(
+                "MANUEL V1", dossier, True, {})
+            self.assertNotEqual(prompt, autre)  # deux reveils paralleles
+            runtime._retirer_prompt_claude(prompt)
+            runtime._retirer_prompt_claude(autre)
+            self.assertEqual(os.listdir(dossier), [])
 
-            runtime._retirer_prompt_claude(dossier)
-            meme, prompt, injecte = runtime._preparer_prompt_claude(
-                manuel, dossier, True,
-                {"manuel_sha256_claude": empreinte})
-            self.assertEqual(empreinte, meme)
-            self.assertFalse(injecte)
-            self.assertIsNone(prompt)
-
-            autre, prompt, injecte = runtime._preparer_prompt_claude(
-                "MANUEL V2", dossier, True,
-                {"manuel_sha256_claude": empreinte})
-            self.assertNotEqual(empreinte, autre)
-            self.assertTrue(injecte)
-            self.assertTrue(os.path.exists(prompt))
-
-    def test_reprise_claude_sans_changement_omet_le_prompt_systeme(self):
+    def test_reprise_claude_porte_le_prompt_systeme(self):
         commande = runtime._commande_claude(
-            None, None, None, [], [], None,
+            "C:\\systeme.md", None, None, [], [], None,
             "session-homme", True, False)
-        self.assertNotIn("--system-prompt-file", commande)
+        self.assertIn("--system-prompt-file", commande)
+        self.assertIn("--resume", commande)
+
 
     def test_commande_claude_homme_n_est_pas_restreinte(self):
         commande = runtime._commande_claude(

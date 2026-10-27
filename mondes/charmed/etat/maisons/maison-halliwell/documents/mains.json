@@ -1,0 +1,50 @@
+{
+ "maison_id": "maison-halliwell",
+ "_": "CE QUE LA MAISON A SOUS LA MAIN — ce que Piper dira, un chiffre à la fois, quand on parlera d'argent. INVENTION DÉCLARÉE, chiffres de jeu.",
+ "mains": [
+  {
+   "id": "les-comptes-du-manoir",
+   "quoi": "L'argent du ménage : le compte joint, nourri par le P3",
+   "porteur": {
+    "type": "personnage",
+    "id": "piper-halliwell"
+   },
+   "lieu_id": "prescott-street",
+   "mandat": null,
+   "mesure": [
+    {
+     "id": "compte-joint",
+     "quoi": "dollars sur le compte du Manoir",
+     "unite": "dollars",
+     "valeur": 2400,
+     "rythme": {
+      "par": -15,
+      "jours": 1
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": null,
+     "depend_de": [],
+     "_": "Les charges du Manoir et de trois femmes mangent un peu plus que le P3 ne rapporte. Le club est fermé depuis la mort de Prue : la pente tient compte de ce manque."
+    }
+   ],
+   "seuils": [
+    {
+     "id": "vendre-la-maison",
+     "mesure_id": "compte-joint",
+     "quand": "sous",
+     "valeur": 800,
+     "promeut": "scene",
+     "affaire": "Moins de huit cents dollars : trouver un emploi, louer une chambre, ou parler de vendre le Manoir — ce que Grams a interdit.",
+     "franchi_le": null
+    }
+   ],
+   "dernier_rapport": null,
+   "date_maj": {
+    "annee": 2001,
+    "lune": 10,
+    "jour": 9
+   }
+  }
+ ]
+}

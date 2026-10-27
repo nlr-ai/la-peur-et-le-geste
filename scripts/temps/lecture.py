@@ -24,8 +24,22 @@ from etat.expose import tables  # LA PORTE de etat/
 import documents_maison
 import bibliotheque
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ETAT = os.path.join(RACINE, "etat")
+import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
+_d = _os.path.dirname(_os.path.abspath(__file__))
+while _os.path.basename(_d) != "scripts" and _os.path.dirname(_d) != _d:
+    _d = _os.path.dirname(_d)
+for _p in (_d, _os.path.join(_d, "noyau")):
+    if _p not in _sys.path:
+        _sys.path.insert(0, _p)
+
+import racines
+
+# `RACINE` reste expose, et c'est la racine du DEPOT — celle qu'elle a toujours
+# valu. `tick.py` la reexporte pour ses importeurs (`noqa: F401`), et la retirer
+# ne casse pas a la ligne fautive : elle casse a l'autre bout, en « partially
+# initialized module ». Seul `ETAT` suit le monde.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 
 # Les plis (docs/plis.md). Un pli est un OBJET : la rumeur et le temoin n'en
 # sont pas, et restent a evenements.diffusion.

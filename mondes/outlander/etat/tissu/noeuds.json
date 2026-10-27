@@ -1,0 +1,1235 @@
+{
+ "pers:claire-randall": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Claire Randall",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "leoch",
+  "objectifs": [
+   {
+    "but": "Comprendre les possibilités de regagner son époque sans dévoiler son origine.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:jamie-fraser": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Jamie Fraser",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "leoch",
+  "objectifs": [
+   {
+    "but": "Préserver sa sécurité et sa place à Leoch.",
+    "priorite": 1
+   },
+   {
+    "but": "Tenir utilement sa part aux écuries sans outrepasser ce qui lui est confié.",
+    "priorite": 2
+   },
+   {
+    "but": "Ne pas engager ni compromettre Jenny, Ian ou ses autres attaches sans leur accord.",
+    "priorite": 3
+   }
+  ]
+ },
+ "etape:jamie-demander-limites-service-alec": {
+  "genre": "etape",
+  "ou": "jamie-fraser",
+  "quoi": "À la prochaine occasion ordinaire de service, demander au vieux Alec q",
+  "etat": "en-cours",
+  "jours_restants": 1,
+  "cout": [
+   "un bref échange pendant le service des écuries",
+   "la présence et la disponibilité réelles d’Alec pour toute réponse"
+  ],
+  "depend_de": []
+ },
+ "etape:jamie-controler-monture-harnais-confies": {
+  "genre": "etape",
+  "ou": "jamie-fraser",
+  "quoi": "Après une attribution réelle, contrôler la monture et le harnais confi",
+  "etat": "en-cours",
+  "jours_restants": 1,
+  "cout": [
+   "une attribution effectivement reçue",
+   "l’accès au seul animal et au seul matériel confiés",
+   "du temps de service et de la lumière suffisante"
+  ],
+  "depend_de": [
+   "jamie-demander-limites-service-alec"
+  ]
+ },
+ "pers:colum-mackenzie": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Colum MacKenzie",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "leoch",
+  "objectifs": [
+   {
+    "but": "Tenir les affaires de Leoch et apprécier les étrangers qui y arrivent.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:dougal-mackenzie": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Dougal MacKenzie",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "leoch",
+  "objectifs": [
+   {
+    "but": "Servir les intérêts du clan et ses convictions jacobites.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:ewan-macrae": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Ewan MacRae",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "inverness",
+  "objectifs": [
+   {
+    "but": "Maintenir un accueil digne à la paroisse sans engager des moyens qu’il ne possède pas.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:mairi-macleod": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Mairi MacLeod",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "inverness",
+  "objectifs": [
+   {
+    "but": "Faire vivre son auberge en tenant ses engagements de logement et de repas.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:robert-ainslie": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Robert Ainslie",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "inverness",
+  "objectifs": [
+   {
+    "but": "Tenir des écritures fiables et orienter les demandes relevant du bourg.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:alasdair-cameron": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Alasdair Cameron",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "inverness",
+  "objectifs": [
+   {
+    "but": "Assurer un travail de forge fiable sans promettre avant examen de la pièce et des moyens.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:elspeth-munro": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Elspeth Munro",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "inverness",
+  "objectifs": [
+   {
+    "but": "Tenir son échoppe et éviter de garantir un remède dont elle ne connaît pas les effets.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:finlay-ross": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Finlay Ross",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "inverness",
+  "objectifs": [
+   {
+    "but": "Préserver les bêtes qui lui seraient confiées et tenir les engagements de l’écurie.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:william-forbes": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "William Forbes",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "inverness",
+  "objectifs": [
+   {
+    "but": "Tenir l’accès dont il a la charge sans usurper l’autorité de la garnison.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:murtagh-fraser": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Murtagh Fitzgibbons Fraser",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "leoch",
+  "objectifs": [
+   {
+    "but": "Veiller sur Jamie et préserver sa sécurité.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:jenny-murray": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Janet « Jenny » Fraser Murray",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "lallybroch",
+  "objectifs": [
+   {
+    "but": "Préserver son foyer et la continuité du domaine de Lallybroch.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:ian-murray": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Ian Murray",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "lallybroch",
+  "objectifs": [
+   {
+    "but": "Soutenir Jenny et préserver le foyer de Lallybroch.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:mrs-fitz": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Glenna Fitzgibbons — Mrs Fitz",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "leoch",
+  "objectifs": [
+   {
+    "but": "Tenir les besoins ordinaires de la maisonnée de Leoch.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:laoghaire-mackenzie": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Laoghaire MacKenzie",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "leoch",
+  "objectifs": [
+   {
+    "but": "Trouver sa place à Leoch et préserver sa considération.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:letitia-mackenzie": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Letitia MacKenzie",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "leoch",
+  "objectifs": [
+   {
+    "but": "Préserver son foyer et la place de Hamish à Leoch.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:hamish-mackenzie": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Hamish MacKenzie",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "leoch",
+  "objectifs": [
+   {
+    "but": "Grandir auprès des siens et découvrir ce qui l’entoure.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:rupert-mackenzie": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Rupert MacKenzie",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "leoch",
+  "objectifs": [
+   {
+    "but": "Servir le clan et préserver ses compagnons.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:angus-mhor": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Angus Mhor",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "leoch",
+  "objectifs": [
+   {
+    "but": "Tenir sa place parmi les hommes du clan et protéger ses compagnons.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:ned-gowan": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Ned Gowan",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "leoch",
+  "objectifs": [
+   {
+    "but": "Préserver les intérêts du clan par des engagements juridiquement solides.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:alec-mackenzie": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Alec MacMahon MacKenzie — le vieux Alec",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "leoch",
+  "objectifs": [
+   {
+    "but": "Maintenir les chevaux et les écuries en état de servir.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:iona-fraser": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Iona Fraser",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "inverness",
+  "objectifs": [
+   {
+    "but": "Élargir sa clientèle tout en conservant la confiance de ses fournisseurs.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:dugald-reid": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Dugald Reid",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "inverness",
+  "objectifs": [
+   {
+    "but": "Assurer sa subsistance par son métier sans devenir dépendant d’un seul acheteur.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:agnes-sutherland": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Agnes Sutherland",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "inverness",
+  "objectifs": [
+   {
+    "but": "Accompagner les femmes du bourg et faire reconnaître les limites de ses moyens.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:callum-grant": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Callum Grant",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "inverness",
+  "objectifs": [
+   {
+    "but": "Obtenir des commissions régulières en gardant une réputation de fiabilité.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:morag-urquhart": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Morag Urquhart",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "inverness",
+  "objectifs": [
+   {
+    "but": "Vivre de ses réparations et de ses ouvrages sans laisser ses créances s’accumuler.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:ruairidh-maclean": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Ruairidh MacLean",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "inverness",
+  "objectifs": [
+   {
+    "but": "Trouver des engagements rémunérés tout en conservant sa liberté de circulation.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:thomas-kerr": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Thomas Kerr",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "inverness",
+  "objectifs": [
+   {
+    "but": "Soutenir l’apprentissage de la lecture et du calcul sans réserver son attention aux plus aisés.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:isobel-grant": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Isobel Grant",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "ferme-du-ruisseau",
+  "objectifs": [
+   {
+    "but": "Préserver son foyer et juger les étrangers sur leurs gestes avant de leur accorder sa confiance.",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:aurore": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Aurore",
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "craigh-na-dun",
+  "objectifs": []
+ },
+ "pers:nicolas": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Nicolas",
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "ferme-du-ruisseau",
+  "objectifs": []
+ },
+ "lieu:craigh-na-dun": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Craigh na Dun",
+  "region": "Highlands",
+  "type_lieu": "colline"
+ },
+ "lieu:lisiere-craigh": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Lisière sous les pierres",
+  "region": "Highlands",
+  "type_lieu": "bois"
+ },
+ "lieu:croisee-craigh": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Croisée du chemin de la colline",
+  "region": "Highlands",
+  "type_lieu": "chemin"
+ },
+ "lieu:ferme-du-ruisseau": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Ferme du ruisseau",
+  "region": "Highlands",
+  "type_lieu": "ferme"
+ },
+ "lieu:inverness": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Inverness",
+  "region": "Highlands",
+  "type_lieu": "ville"
+ },
+ "lieu:leoch": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Château Leoch",
+  "region": "Highlands",
+  "type_lieu": "chateau"
+ },
+ "lieu:cranesmuir": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Cranesmuir",
+  "region": "Highlands",
+  "type_lieu": "village"
+ },
+ "lieu:lallybroch": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Lallybroch",
+  "region": "Highlands",
+  "type_lieu": "domaine"
+ },
+ "echelle:scene": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "scene"
+ },
+ "echelle:orbite": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "orbite"
+ },
+ "echelle:royaume": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "royaume"
+ },
+ "neant": {
+  "genre": "rien",
+  "ou": "schema",
+  "quoi": "ce qui ne coute rien"
+ },
+ "a_designer": {
+  "genre": "vacant",
+  "ou": "schema",
+  "quoi": "aucun titulaire — case ouverte"
+ },
+ "unite:homme": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "homme"
+ },
+ "unite:hommes": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "hommes"
+ },
+ "unite:quille": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "quille"
+ },
+ "unite:quilles": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "quilles"
+ },
+ "unite:coque": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "coque"
+ },
+ "unite:coques": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "coques"
+ },
+ "unite:cheval": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "cheval"
+ },
+ "unite:chevaux": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "chevaux"
+ },
+ "unite:corbeau": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "corbeau"
+ },
+ "unite:corbeaux": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "corbeaux"
+ },
+ "unite:compagnie": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "compagnie"
+ },
+ "unite:compagnies": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "compagnies"
+ },
+ "unite:emissaire": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "emissaire"
+ },
+ "unite:emissaires": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "emissaires"
+ },
+ "unite:clerc": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "clerc"
+ },
+ "unite:clercs": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "clercs"
+ },
+ "unite:barque": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "barque"
+ },
+ "unite:barques": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "barques"
+ },
+ "unite:livre sterling": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "livre sterling"
+ },
+ "unite:livres sterling": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "livres sterling"
+ },
+ "unite:shilling": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "shilling"
+ },
+ "unite:shillings": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "shillings"
+ },
+ "unite:penny": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "penny"
+ },
+ "unite:pence": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "pence"
+ },
+ "perso:alec-mackenzie:affaire-alec-mackenzie": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:alec-mackenzie",
+  "quoi": "Les affaires de alec-mackenzie",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "alec-mackenzie",
+  "livre_id": "affaire-alec-mackenzie",
+  "namespace": "personnel"
+ },
+ "perso:angus-mhor:affaire-angus-mhor": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:angus-mhor",
+  "quoi": "Les affaires de angus-mhor",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "angus-mhor",
+  "livre_id": "affaire-angus-mhor",
+  "namespace": "personnel"
+ },
+ "perso:claire-randall:affaire-claire-randall": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:claire-randall",
+  "quoi": "Les affaires de claire-randall",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "claire-randall",
+  "livre_id": "affaire-claire-randall",
+  "namespace": "personnel"
+ },
+ "perso:claire-randall:affaire-claire-randall:etat:C.1": {
+  "genre": "etat_cible_personnel",
+  "ou": "chambre:claire-randall:affaire-claire-randall",
+  "quoi": "Préserver mon secret et ma liberté d’action",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "claire-randall",
+  "livre_id": "affaire-claire-randall",
+  "code_local": "C.1",
+  "etat": "Préserver mon secret et ma liberté d’action",
+  "jour_du": "4e jour de la 5e lune 1743"
+ },
+ "perso:claire-randall:affaire-claire-randall:etat:C.2": {
+  "genre": "etat_cible_personnel",
+  "ou": "chambre:claire-randall:affaire-claire-randall",
+  "quoi": "Établir ma marge de mouvement à Leoch",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "claire-randall",
+  "livre_id": "affaire-claire-randall",
+  "code_local": "C.2",
+  "etat": "Établir ma marge de mouvement à Leoch",
+  "jour_du": "4e jour de la 5e lune 1743"
+ },
+ "perso:claire-randall:affaire-claire-randall:etat:C.3": {
+  "genre": "etat_cible_personnel",
+  "ou": "chambre:claire-randall:affaire-claire-randall",
+  "quoi": "Fixer la prochaine étape sûre vers une enquête sur le retour",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "claire-randall",
+  "livre_id": "affaire-claire-randall",
+  "code_local": "C.3",
+  "etat": "Fixer la prochaine étape sûre vers une enquête sur le retour",
+  "jour_du": "4e jour de la 5e lune 1743"
+ },
+ "perso:claire-randall:affaire-claire-randall:verrou:V.1": {
+  "genre": "verrou_personnel",
+  "ou": "chambre:claire-randall:affaire-claire-randall",
+  "quoi": "Hospitalité surveillée et limites de mouvement non mesurées",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "claire-randall",
+  "livre_id": "affaire-claire-randall",
+  "code_local": "V.1",
+  "etat": "",
+  "jour_du": ""
+ },
+ "perso:claire-randall:affaire-claire-randall:verrou:V.2": {
+  "genre": "verrou_personnel",
+  "ou": "chambre:claire-randall:affaire-claire-randall",
+  "quoi": "Aucun trajet, moyen de transport, argent ou permission de sortie établ",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "claire-randall",
+  "livre_id": "affaire-claire-randall",
+  "code_local": "V.2",
+  "etat": "",
+  "jour_du": ""
+ },
+ "perso:claire-randall:affaire-claire-randall:verrou:V.3": {
+  "genre": "verrou_personnel",
+  "ou": "chambre:claire-randall:affaire-claire-randall",
+  "quoi": "Le mécanisme et les conditions du retour sont inconnus",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "claire-randall",
+  "livre_id": "affaire-claire-randall",
+  "code_local": "V.3",
+  "etat": "",
+  "jour_du": ""
+ },
+ "perso:claire-randall:affaire-claire-randall:verrou:V.4": {
+  "genre": "verrou_personnel",
+  "ou": "chambre:claire-randall:affaire-claire-randall",
+  "quoi": "Aucune source locale sûre sur les pierres ou les passages n’est encore",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "claire-randall",
+  "livre_id": "affaire-claire-randall",
+  "code_local": "V.4",
+  "etat": "",
+  "jour_du": ""
+ },
+ "perso:claire-randall:affaire-claire-randall:clef:K.1": {
+  "genre": "clef_personnelle",
+  "ou": "chambre:claire-randall:affaire-claire-randall",
+  "quoi": "Ma compétence d’infirmière et une conduite utile",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "claire-randall",
+  "livre_id": "affaire-claire-randall",
+  "code_local": "K.1",
+  "etat": "",
+  "jour_du": ""
+ },
+ "perso:claire-randall:affaire-claire-randall:clef:K.2": {
+  "genre": "clef_personnelle",
+  "ou": "chambre:claire-randall:affaire-claire-randall",
+  "quoi": "Observation directe et questions concrètes, une à la fois",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "claire-randall",
+  "livre_id": "affaire-claire-randall",
+  "code_local": "K.2",
+  "etat": "",
+  "jour_du": ""
+ },
+ "perso:claire-randall:affaire-claire-randall:clef:K.3": {
+  "genre": "clef_personnelle",
+  "ou": "chambre:claire-randall:affaire-claire-randall",
+  "quoi": "Séparer faits vécus, hypothèses et inconnues",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "claire-randall",
+  "livre_id": "affaire-claire-randall",
+  "code_local": "K.3",
+  "etat": "",
+  "jour_du": ""
+ },
+ "perso:claire-randall:affaire-claire-randall:action:P.1": {
+  "genre": "action_personnelle",
+  "ou": "chambre:claire-randall:affaire-claire-randall",
+  "quoi": "Au cours de mes déplacements déjà admis, observer les passages, les re",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "claire-randall",
+  "livre_id": "affaire-claire-randall",
+  "code_local": "P.1",
+  "etat": "prévue — non commencée",
+  "jour_du": "4e jour de la 5e lune 1743",
+  "depend_de": []
+ },
+ "perso:claire-randall:affaire-claire-randall:action:P.2": {
+  "genre": "action_personnelle",
+  "ou": "chambre:claire-randall:affaire-claire-randall",
+  "quoi": "Si je rencontre naturellement Mrs Fitz, lui demander où je puis circul",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "claire-randall",
+  "livre_id": "affaire-claire-randall",
+  "code_local": "P.2",
+  "etat": "prévue — conditionnelle",
+  "jour_du": "4e jour de la 5e lune 1743",
+  "depend_de": []
+ },
+ "perso:claire-randall:affaire-claire-randall:action:P.3": {
+  "genre": "action_personnelle",
+  "ou": "chambre:claire-randall:affaire-claire-randall",
+  "quoi": "Si un besoin de soin réel m’est présenté, offrir mon aide dans les lim",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "claire-randall",
+  "livre_id": "affaire-claire-randall",
+  "code_local": "P.3",
+  "etat": "prévue — conditionnelle",
+  "jour_du": "4e jour de la 5e lune 1743",
+  "depend_de": []
+ },
+ "perso:colum-mackenzie:affaire-colum-mackenzie": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:colum-mackenzie",
+  "quoi": "Les affaires de colum-mackenzie",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "colum-mackenzie",
+  "livre_id": "affaire-colum-mackenzie",
+  "namespace": "personnel"
+ },
+ "perso:dougal-mackenzie:affaire-dougal-mackenzie": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:dougal-mackenzie",
+  "quoi": "Les affaires de dougal-mackenzie",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "dougal-mackenzie",
+  "livre_id": "affaire-dougal-mackenzie",
+  "namespace": "personnel"
+ },
+ "perso:hamish-mackenzie:affaire-hamish-mackenzie": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:hamish-mackenzie",
+  "quoi": "Les affaires de hamish-mackenzie",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "hamish-mackenzie",
+  "livre_id": "affaire-hamish-mackenzie",
+  "namespace": "personnel"
+ },
+ "perso:ian-murray:affaire-ian-murray": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:ian-murray",
+  "quoi": "Les affaires de ian-murray",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "ian-murray",
+  "livre_id": "affaire-ian-murray",
+  "namespace": "personnel"
+ },
+ "perso:jamie-fraser:affaire-jamie-fraser": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:jamie-fraser",
+  "quoi": "Les affaires de jamie-fraser",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "jamie-fraser",
+  "livre_id": "affaire-jamie-fraser",
+  "namespace": "personnel"
+ },
+ "perso:jamie-fraser:affaire-jamie-fraser:etat:C.1": {
+  "genre": "etat_cible_personnel",
+  "ou": "chambre:jamie-fraser:affaire-jamie-fraser",
+  "quoi": "Conserver une place sûre à Leoch",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "jamie-fraser",
+  "livre_id": "affaire-jamie-fraser",
+  "code_local": "C.1",
+  "etat": "Conserver une place sûre à Leoch",
+  "jour_du": "Sans terme fixe ; réévaluation quotidienne"
+ },
+ "perso:jamie-fraser:affaire-jamie-fraser:etat:C.2": {
+  "genre": "etat_cible_personnel",
+  "ou": "chambre:jamie-fraser:affaire-jamie-fraser",
+  "quoi": "Tenir utilement ma part aux écuries",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "jamie-fraser",
+  "livre_id": "affaire-jamie-fraser",
+  "code_local": "C.2",
+  "etat": "Tenir utilement ma part aux écuries",
+  "jour_du": "6e jour de la 5e lune 1743"
+ },
+ "perso:jamie-fraser:affaire-jamie-fraser:etat:C.3": {
+  "genre": "etat_cible_personnel",
+  "ou": "chambre:jamie-fraser:affaire-jamie-fraser",
+  "quoi": "Ne pas compromettre Jenny, Ian ni mes autres attaches",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "jamie-fraser",
+  "livre_id": "affaire-jamie-fraser",
+  "code_local": "C.3",
+  "etat": "Ne pas compromettre Jenny, Ian ni mes autres attaches",
+  "jour_du": "Permanent"
+ },
+ "perso:jamie-fraser:affaire-jamie-fraser:verrou:V.1": {
+  "genre": "verrou_personnel",
+  "ou": "chambre:jamie-fraser:affaire-jamie-fraser",
+  "quoi": "Ma place dépend de l’autorité de Colum, des desseins de Dougal et de l",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "jamie-fraser",
+  "livre_id": "affaire-jamie-fraser",
+  "code_local": "V.1",
+  "etat": "",
+  "jour_du": ""
+ },
+ "perso:jamie-fraser:affaire-jamie-fraser:verrou:V.2": {
+  "genre": "verrou_personnel",
+  "ou": "chambre:jamie-fraser:affaire-jamie-fraser",
+  "quoi": "Le périmètre exact de mes tâches et du matériel confié aujourd’hui n’e",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "jamie-fraser",
+  "livre_id": "affaire-jamie-fraser",
+  "code_local": "V.2",
+  "etat": "",
+  "jour_du": ""
+ },
+ "perso:jamie-fraser:affaire-jamie-fraser:verrou:V.3": {
+  "genre": "verrou_personnel",
+  "ou": "chambre:jamie-fraser:affaire-jamie-fraser",
+  "quoi": "Les demandes futures de mes oncles et leurs conséquences pour mes proc",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "jamie-fraser",
+  "livre_id": "affaire-jamie-fraser",
+  "code_local": "V.3",
+  "etat": "",
+  "jour_du": ""
+ },
+ "perso:jamie-fraser:affaire-jamie-fraser:clef:K.1": {
+  "genre": "clef_personnelle",
+  "ou": "chambre:jamie-fraser:affaire-jamie-fraser",
+  "quoi": "Mon travail ordinaire sous la conduite du vieux Alec",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "jamie-fraser",
+  "livre_id": "affaire-jamie-fraser",
+  "code_local": "K.1",
+  "etat": "",
+  "jour_du": ""
+ },
+ "perso:jamie-fraser:affaire-jamie-fraser:clef:K.2": {
+  "genre": "clef_personnelle",
+  "ou": "chambre:jamie-fraser:affaire-jamie-fraser",
+  "quoi": "Demander une consigne bornée avant d’agir",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "jamie-fraser",
+  "livre_id": "affaire-jamie-fraser",
+  "code_local": "K.2",
+  "etat": "",
+  "jour_du": ""
+ },
+ "perso:jamie-fraser:affaire-jamie-fraser:clef:K.3": {
+  "genre": "clef_personnelle",
+  "ou": "chambre:jamie-fraser:affaire-jamie-fraser",
+  "quoi": "Mes liens établis avec Murtagh, Jenny et Ian",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "jamie-fraser",
+  "livre_id": "affaire-jamie-fraser",
+  "code_local": "K.3",
+  "etat": "",
+  "jour_du": ""
+ },
+ "perso:jamie-fraser:affaire-jamie-fraser:action:P.1": {
+  "genre": "action_personnelle",
+  "ou": "chambre:jamie-fraser:affaire-jamie-fraser",
+  "quoi": "À la prochaine occasion ordinaire de service, demander à Alec quels ch",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "jamie-fraser",
+  "livre_id": "affaire-jamie-fraser",
+  "code_local": "P.1",
+  "etat": "prévue — non commencée",
+  "jour_du": "5e jour de la 5e lune 1743",
+  "depend_de": []
+ },
+ "perso:jamie-fraser:affaire-jamie-fraser:action:P.2": {
+  "genre": "action_personnelle",
+  "ou": "chambre:jamie-fraser:affaire-jamie-fraser",
+  "quoi": "Après une attribution réelle, contrôler la monture et le harnais confi",
+  "local": true,
+  "autorite": "personnelle",
+  "namespace": "personnel",
+  "personnage_id": "jamie-fraser",
+  "livre_id": "affaire-jamie-fraser",
+  "code_local": "P.2",
+  "etat": "prévue — dépendante",
+  "jour_du": "6e jour de la 5e lune 1743",
+  "depend_de": [
+   "perso:jamie-fraser:affaire-jamie-fraser:action:P.1"
+  ]
+ },
+ "perso:jenny-murray:affaire-jenny-murray": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:jenny-murray",
+  "quoi": "Les affaires de jenny-murray",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "jenny-murray",
+  "livre_id": "affaire-jenny-murray",
+  "namespace": "personnel"
+ },
+ "perso:laoghaire-mackenzie:affaire-laoghaire-mackenzie": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:laoghaire-mackenzie",
+  "quoi": "Les affaires de laoghaire-mackenzie",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "laoghaire-mackenzie",
+  "livre_id": "affaire-laoghaire-mackenzie",
+  "namespace": "personnel"
+ },
+ "perso:letitia-mackenzie:affaire-letitia-mackenzie": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:letitia-mackenzie",
+  "quoi": "Les affaires de letitia-mackenzie",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "letitia-mackenzie",
+  "livre_id": "affaire-letitia-mackenzie",
+  "namespace": "personnel"
+ },
+ "perso:mrs-fitz:affaire-mrs-fitz": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:mrs-fitz",
+  "quoi": "Les affaires de mrs-fitz",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "mrs-fitz",
+  "livre_id": "affaire-mrs-fitz",
+  "namespace": "personnel"
+ },
+ "perso:murtagh-fraser:affaire-murtagh-fraser": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:murtagh-fraser",
+  "quoi": "Les affaires de murtagh-fraser",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "murtagh-fraser",
+  "livre_id": "affaire-murtagh-fraser",
+  "namespace": "personnel"
+ },
+ "perso:ned-gowan:affaire-ned-gowan": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:ned-gowan",
+  "quoi": "Les affaires de ned-gowan",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "ned-gowan",
+  "livre_id": "affaire-ned-gowan",
+  "namespace": "personnel"
+ },
+ "perso:rupert-mackenzie:affaire-rupert-mackenzie": {
+  "genre": "affaire_personnelle",
+  "ou": "chambre:rupert-mackenzie",
+  "quoi": "Les affaires de rupert-mackenzie",
+  "local": true,
+  "autorite": "personnelle",
+  "personnage_id": "rupert-mackenzie",
+  "livre_id": "affaire-rupert-mackenzie",
+  "namespace": "personnel"
+ }
+}

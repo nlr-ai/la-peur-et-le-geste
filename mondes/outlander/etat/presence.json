@@ -1,0 +1,341 @@
+{
+  "presence": {
+    "aurore": {
+      "salle": "inverness-auberge",
+      "lieu": "Salle de l auberge, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 5,
+        "minute": 379
+      }
+    },
+    "nicolas": {
+      "salle": "inverness-tolbooth",
+      "lieu": "Tolbooth, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 5,
+        "minute": 382
+      }
+    },
+    "ewan-macrae": {
+      "salle": "inverness-eglise",
+      "lieu": "Église paroissiale, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 600
+      },
+      "perime": true
+    },
+    "mairi-macleod": {
+      "salle": "inverness-auberge",
+      "lieu": "Salle de l’auberge, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 600
+      },
+      "perime": true
+    },
+    "robert-ainslie": {
+      "salle": "inverness-tolbooth",
+      "lieu": "Tolbooth, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 600
+      },
+      "perime": true
+    },
+    "alasdair-cameron": {
+      "salle": "inverness-forge",
+      "lieu": "Atelier du forgeron, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 5,
+        "minute": 370
+      }
+    },
+    "elspeth-munro": {
+      "salle": "inverness-apothicaire",
+      "lieu": "Échoppe de l’apothicaire, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 600
+      },
+      "perime": true
+    },
+    "finlay-ross": {
+      "salle": "inverness-ecurie",
+      "lieu": "Cour des écuries, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 600
+      },
+      "perime": true
+    },
+    "william-forbes": {
+      "salle": "inverness-chateau",
+      "lieu": "Accès au vieux château, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 600
+      },
+      "perime": true
+    },
+    "iona-fraser": {
+      "salle": "inverness-marche",
+      "lieu": "Place du marché, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 600
+      },
+      "perime": true
+    },
+    "dugald-reid": {
+      "salle": "inverness-quai",
+      "lieu": "Quai de la Ness, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 600
+      },
+      "perime": true
+    },
+    "agnes-sutherland": {
+      "salle": "inverness-apothicaire",
+      "lieu": "Échoppe de l’apothicaire, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 600
+      },
+      "perime": true
+    },
+    "callum-grant": {
+      "salle": "inverness-sortie",
+      "lieu": "Chemin hors du bourg, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 600
+      },
+      "perime": true
+    },
+    "morag-urquhart": {
+      "salle": "inverness-auberge",
+      "lieu": "Salle de l’auberge, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 600
+      },
+      "perime": true
+    },
+    "ruairidh-maclean": {
+      "salle": "inverness-auberge",
+      "lieu": "Salle de l’auberge, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 600
+      },
+      "perime": true
+    },
+    "thomas-kerr": {
+      "salle": "inverness-eglise",
+      "lieu": "Église paroissiale, Inverness",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 600
+      },
+      "perime": true
+    },
+    "isobel-grant": {
+      "salle": "ferme-du-ruisseau",
+      "lieu": "Ferme du ruisseau",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 628
+      },
+      "perime": true
+    },
+    "morag-macrae": {
+      "salle": "hameau-derriere-crete",
+      "lieu": "Petit hameau derrière la crête",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4,
+        "minute": 708
+      },
+      "perime": true
+    }
+  },
+  "resolu": {
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 5,
+      "minute": 382
+    },
+    "gens": {
+      "aurore": {
+        "salle": "inverness-auberge",
+        "lieu": "Salle de l auberge, Inverness",
+        "etat": "arrete",
+        "source": "scene"
+      },
+      "nicolas": {
+        "salle": "inverness-tolbooth",
+        "lieu": "Tolbooth, Inverness",
+        "etat": "arrete",
+        "source": "scene"
+      },
+      "agnes-sutherland": {
+        "salle": "inverness-apothicaire",
+        "lieu": "Échoppe de l’apothicaire, Inverness",
+        "etat": "arrete",
+        "source": "perime"
+      },
+      "alasdair-cameron": {
+        "salle": "inverness-forge",
+        "lieu": "Atelier du forgeron, Inverness",
+        "etat": "arrete",
+        "source": "scene"
+      },
+      "callum-grant": {
+        "salle": "inverness-sortie",
+        "lieu": "Chemin hors du bourg, Inverness",
+        "etat": "arrete",
+        "source": "perime"
+      },
+      "dougal-mackenzie": {
+        "salle": "leoch",
+        "lieu": "Château Leoch",
+        "etat": "arrete",
+        "source": "routine"
+      },
+      "dugald-reid": {
+        "salle": "inverness-quai",
+        "lieu": "Quai de la Ness, Inverness",
+        "etat": "arrete",
+        "source": "perime"
+      },
+      "elspeth-munro": {
+        "salle": "inverness-apothicaire",
+        "lieu": "Échoppe de l’apothicaire, Inverness",
+        "etat": "arrete",
+        "source": "perime"
+      },
+      "ewan-macrae": {
+        "salle": "inverness-eglise",
+        "lieu": "Église paroissiale, Inverness",
+        "etat": "arrete",
+        "source": "perime"
+      },
+      "finlay-ross": {
+        "salle": "inverness-ecurie",
+        "lieu": "Cour des écuries, Inverness",
+        "etat": "arrete",
+        "source": "perime"
+      },
+      "iona-fraser": {
+        "salle": "inverness-marche",
+        "lieu": "Place du marché, Inverness",
+        "etat": "arrete",
+        "source": "perime"
+      },
+      "isobel-grant": {
+        "salle": "ferme-du-ruisseau",
+        "lieu": "Ferme du ruisseau",
+        "etat": "arrete",
+        "source": "routine"
+      },
+      "jamie-fraser": {
+        "salle": "leoch",
+        "lieu": "Écuries de Leoch",
+        "etat": "arrete",
+        "source": "routine"
+      },
+      "mairi-macleod": {
+        "salle": "inverness-auberge",
+        "lieu": "Salle de l’auberge, Inverness",
+        "etat": "arrete",
+        "source": "gelee"
+      },
+      "morag-macrae": {
+        "salle": "hameau-derriere-crete",
+        "lieu": "Petit hameau derrière la crête",
+        "etat": "arrete",
+        "source": "routine"
+      },
+      "morag-urquhart": {
+        "salle": "inverness-auberge",
+        "lieu": "Salle de l’auberge, Inverness",
+        "etat": "arrete",
+        "source": "gelee"
+      },
+      "murtagh-fraser": {
+        "salle": "leoch",
+        "lieu": "Espaces ordinaires de Leoch",
+        "etat": "arrete",
+        "source": "routine"
+      },
+      "ned-gowan": {
+        "salle": "leoch",
+        "lieu": "Lieu de travail ordinaire à Leoch",
+        "etat": "arrete",
+        "source": "routine"
+      },
+      "robert-ainslie": {
+        "salle": "inverness-tolbooth",
+        "lieu": "Tolbooth, Inverness",
+        "etat": "arrete",
+        "source": "gelee"
+      },
+      "ruairidh-maclean": {
+        "salle": "inverness-auberge",
+        "lieu": "Salle de l’auberge, Inverness",
+        "etat": "arrete",
+        "source": "gelee"
+      },
+      "thomas-kerr": {
+        "salle": "inverness-eglise",
+        "lieu": "Église paroissiale, Inverness",
+        "etat": "arrete",
+        "source": "perime"
+      },
+      "william-forbes": {
+        "salle": "inverness-chateau",
+        "lieu": "Accès au vieux château, Inverness",
+        "etat": "arrete",
+        "source": "perime"
+      }
+    }
+  }
+}

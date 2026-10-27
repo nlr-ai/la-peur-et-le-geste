@@ -1,0 +1,69 @@
+{
+ "id": "comptes-de-la-maison-a-paris",
+ "maison_id": "maison-bourbon",
+ "titre": "Les comptes de la maison à Paris",
+ "sous_titre": "Ce que coûte le séjour, ce qui reste au coffre, ce qu'on attend de la Couronne. Tenu par d'Armagnac dans la chambre du roi de Navarre.",
+ "type": "registre",
+ "tenu_par": "armagnac",
+ "office": "Premier valet de chambre (hors registre)",
+ "lieu_id": "paris",
+ "salle_id": "chambre-navarre",
+ "tables": [
+  {
+   "titre": "Le coffre",
+   "colonnes": [
+    "Quoi",
+    "Livres tournois",
+    "Note"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Au coffre, le 18 août au matin",
+      "environ 18 000",
+      "Ce qui reste après les habits de noces et le deuil de la reine Jeanne."
+     ]
+    },
+    {
+     "cellules": [
+      "Dépense ordinaire du séjour, par jour",
+      "environ 300",
+      "Logements, gages, chevaux, table des gentilshommes du Louvre."
+     ]
+    },
+    {
+     "cellules": [
+      "Dette des noces",
+      "environ 6 000",
+      "Chez les drapiers et les orfèvres de la rue Saint-Denis, à payer après les fêtes."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Ce qu'on attend",
+   "colonnes": [
+    "Quoi",
+    "Montant",
+    "Quand",
+    "Note"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "La dot de Madame Marguerite",
+      "300 000 écus promis au contrat",
+      "par termes, rien encore versé",
+      "le roi de France"
+     ],
+     "note": "Le montant est celui qu'on cite à la cour ; les termes sont au contrat de mariage."
+    }
+   ]
+  }
+ ],
+ "pages": [
+  "Chiffres de jeu, ordres de grandeur (invention déclarée). Ce qui sort du coffre se décompte chaque jour dans les mains de la maison."
+ ],
+ "embleme": "🪙",
+ "couleur": "#6b5320"
+}

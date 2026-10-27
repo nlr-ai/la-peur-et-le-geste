@@ -1,3 +1,5 @@
-J’ai quatre souvenirs, pas deux hommes. Mysaria doit vérifier lesquels vivent encore, leur poste, leur relève et leur jeton — sans mon nom, sans roukerie, retour par barque.
+J'ai fait mon travail sur ce maillon-là, et je le laisse pour ce soir.
 
-Quand deux faits reviendront, l’or suivra. S’ils valent zéro, elle écrira zéro ; je n’achète pas ses inventions.
+Leur guet des toits (70020) ne tient que d'une chose : mon propre verrou, celui que j'ai posé le 4e — la roukerie du Donjon lit tout depuis qu'Otto y est. Je leur ai donné des yeux en leur fermant la bouche. J'ai posé la contre-pièce dans notre propre cahier : montrer une bête au large, plusieurs fois, avant le jour dit, jusqu'à ce que leur cri s'use ou que leur quart d'heure s'allonge — assez pour que Rhaenyra passe avant que Vhagar soit en l'air.
+
+Ce qui reste ouvert, et que je ne peux pas trancher d'ici : où couche cette bête la nuit. Tant que je l'ignore, leur chaîne peut casser toute seule ou tenir sans que je le voie venir — et c'est une question pour Mysaria, pas pour un registre.

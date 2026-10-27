@@ -1,0 +1,1450 @@
+[
+  {
+    "id": "phoebe-halliwell",
+    "nom": "Phoebe Halliwell",
+    "maison_id": "maison-halliwell",
+    "titre": "Sorcière, la cadette des trois — devenue celle du milieu",
+    "naissance": 1975,
+    "traits": [
+      "intuitive",
+      "impulsive",
+      "loyale",
+      "endeuillée"
+    ],
+    "objectifs": [
+      {
+        "but": "Garder ce qui reste des Trois ensemble : Piper debout, Paige dedans",
+        "priorite": 1
+      },
+      {
+        "but": "Garder Cole en vie, alors que la Source le fait chasser",
+        "priorite": 2
+      },
+      {
+        "but": "Trouver un travail : le diplôme est là, l'argent non",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Parle vite, avec les mains, plaisante pour ne pas pleurer ; sait lire les gens avant qu'ils parlent.",
+    "pouvoirs": [
+      {
+        "nom": "prémonition",
+        "declencheur": "toucher un objet ou une personne",
+        "canal": "visions",
+        "limites": [
+          "involontaire",
+          "passé ou futur, fragmentaire",
+          "ne dit pas l'heure exacte"
+        ]
+      },
+      {
+        "nom": "lévitation",
+        "canal": "corps",
+        "limites": [
+          "sauts et suspensions courtes"
+        ]
+      },
+      {
+        "nom": "arts martiaux",
+        "canal": "corps",
+        "limites": [
+          "appris de Cole ; un entraînement, pas un pouvoir"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "prescott-street",
+    "condition": "en deuil",
+    "_": "LE SIÈGE JOUEUR. Aucune entrée dans intentions.json. CANON : fin de S04E02 (Charmed Again), le soir où Patty présente Paige à la lignée. Prue est morte depuis quelques jours ; Phoebe vit avec Cole, qui est encore Belthazor à moitié."
+  },
+  {
+    "id": "la-source",
+    "nom": "La Source de tout mal",
+    "maison_id": "les-enfers",
+    "titre": "Souverain des Enfers",
+    "traits": [
+      "ancien",
+      "patient",
+      "orgueilleux",
+      "méthodique"
+    ],
+    "objectifs": [
+      {
+        "but": "Que le Pouvoir des Trois ne se reforme pas — ou ne tienne pas",
+        "priorite": 1
+      },
+      {
+        "but": "Que Belthazor, le traître, paie, et que son exemple ne fasse pas école",
+        "priorite": 2
+      },
+      {
+        "but": "Que les Enfers le craignent assez pour ne pas le remplacer",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Voix basse, jamais pressée ; parle des sorcières comme d'une affaire de siècles. Ne crie que devant ceux qui ont échoué.",
+    "pouvoirs": [
+      {
+        "nom": "emprunt d'apparence",
+        "canal": "corps",
+        "limites": [
+          "laisse une aura noire visible à qui sait voir"
+        ]
+      },
+      {
+        "nom": "boules d'énergie, feu, télékinésie",
+        "canal": "mains",
+        "limites": []
+      },
+      {
+        "nom": "autorité sur les démons",
+        "portee": "les Enfers",
+        "limites": [
+          "l'Accord des deux camps : il ne force pas un libre arbitre, il le tente"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "les-enfers",
+    "condition": "contrarié",
+    "_": "LE SECOND SIÈGE JOUEUR — aucune entrée dans intentions.json. CORPS : le canon, le visage brûlé sous le capuchon (tranché par le dev le 3.10.2026). CANON : il a envoyé Shax tuer Prue (S03E22), a perdu Shax et la course pour Paige (S04E01-02). Mort canon en S04E13 (Charmed and Dangerous) : ne tombe plus d'elle-même. AU MOMENT OÙ IL S'ASSIED (9.10.2001, 22 h 30) — ce qu'il croit : les Trois sont reformées, la sœur cachée a choisi le bien dans sa fenêtre de 48 heures ; Belthazor a trahi pour la sorcière Phoebe et vit chez elle ; Shax est détruit ; l'Oracle voit mal dès que la magie s'en mêle. Ce qu'il ignore : que Paige doute encore de « ce destin » ; que Belthazor a été soigné par Paige et Leo."
+  },
+  {
+    "id": "piper-halliwell",
+    "nom": "Piper Halliwell",
+    "maison_id": "maison-halliwell",
+    "titre": "Sorcière, l'aînée désormais ; patronne du P3",
+    "naissance": 1973,
+    "traits": [
+      "protectrice",
+      "colérique",
+      "lucide",
+      "épuisée"
+    ],
+    "objectifs": [
+      {
+        "but": "Tenir debout sans Prue",
+        "priorite": 1
+      },
+      {
+        "but": "Ne laisser personne remplacer Prue — y compris Paige",
+        "priorite": 2
+      },
+      {
+        "but": "Faire tourner le P3, seul argent de la maison",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Phrases courtes, sarcasme quand elle a mal ; fige d'abord, discute ensuite.",
+    "pouvoirs": [
+      {
+        "nom": "figer",
+        "canal": "mains",
+        "limites": [
+          "pas sur tout ; les plus puissants s'en dégagent"
+        ]
+      },
+      {
+        "nom": "combustion moléculaire",
+        "canal": "mains",
+        "limites": [
+          "neuve depuis S03E20, mal tenue"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "prescott-street",
+    "condition": "en deuil, colère rentrée",
+    "_": "CANON. La colère tue de S04E03 (Hell Hath No Fury) est sa pente."
+  },
+  {
+    "id": "paige-matthews",
+    "nom": "Paige Matthews",
+    "maison_id": "maison-halliwell",
+    "titre": "Demi-sœur, sorcière et à moitié être de lumière ; assistante aux services sociaux",
+    "naissance": 1977,
+    "traits": [
+      "curieuse",
+      "rebelle",
+      "généreuse",
+      "pas à sa place"
+    ],
+    "objectifs": [
+      {
+        "but": "Savoir qui elle est",
+        "priorite": 1
+      },
+      {
+        "but": "Ne pas s'imposer chez des sœurs en deuil",
+        "priorite": 2
+      },
+      {
+        "but": "Garder sa vie à elle : son travail, son appartement, Shane",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Parle trop quand elle est gênée, s'excuse, puis fonce quand même.",
+    "pouvoirs": [
+      {
+        "nom": "orbes",
+        "canal": "corps",
+        "limites": [
+          "surtout sous la peur ; pas encore maîtrisés"
+        ]
+      },
+      {
+        "nom": "appeler un objet par son nom",
+        "canal": "voix",
+        "limites": [
+          "l'objet arrive mal au début"
+        ]
+      },
+      {
+        "nom": "prêter sa moitié de lumière",
+        "canal": "mains",
+        "limites": [
+          "main dans celle d'un être de lumière"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "appartement-paige",
+    "condition": "libre",
+    "_": "CANON. Fille de Patty et de Sam, l'être de lumière ; abandonnée à l'église bébé. A dit à la fin de S04E02 : « je ne suis pas sûre de continuer ce destin »."
+  },
+  {
+    "id": "leo-wyatt",
+    "nom": "Leo Wyatt",
+    "maison_id": "les-fondateurs",
+    "titre": "Être de lumière des sœurs, époux de Piper",
+    "naissance": 1924,
+    "traits": [
+      "patient",
+      "loyal",
+      "coincé entre deux maîtres"
+    ],
+    "objectifs": [
+      {
+        "but": "Garder Piper en vie et en paix",
+        "priorite": 1
+      },
+      {
+        "but": "Former Paige",
+        "priorite": 2
+      },
+      {
+        "but": "Tenir les règles des Fondateurs — jusqu'à ce qu'elles tuent quelqu'un",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Doux, il cherche le mot juste ; dit « ils » pour les Fondateurs, et lève les yeux en le disant.",
+    "pouvoirs": [
+      {
+        "nom": "orbes",
+        "canal": "corps",
+        "limites": []
+      },
+      {
+        "nom": "guérison",
+        "canal": "mains",
+        "limites": [
+          "ne soigne pas le mal ; ne ramène pas les morts"
+        ]
+      },
+      {
+        "nom": "sentir ses protégés",
+        "canal": "appel",
+        "limites": [
+          "entend quand on l'appelle"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "prescott-street",
+    "condition": "libre",
+    "_": "CANON. N'a pas pu guérir Prue (Shax a frappé avant qu'il arrive)."
+  },
+  {
+    "id": "cole-turner",
+    "nom": "Cole Turner",
+    "maison_id": null,
+    "titre": "Belthazor, démon renégat ; ancien substitut du procureur",
+    "naissance": null,
+    "traits": [
+      "amoureux",
+      "dangereux",
+      "traqué",
+      "orgueilleux"
+    ],
+    "objectifs": [
+      {
+        "but": "Garder Phoebe en vie",
+        "priorite": 1
+      },
+      {
+        "but": "Survivre à la meute que la Source a lâchée sur lui",
+        "priorite": 2
+      },
+      {
+        "but": "Être enfin quelqu'un que les sœurs ne regardent pas de travers",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Calme d'avocat, sourire en coin ; quand il a peur pour Phoebe il devient froid et précis.",
+    "pouvoirs": [
+      {
+        "nom": "miroitement (shimmer)",
+        "canal": "corps",
+        "limites": [
+          "la meute peut le pister"
+        ]
+      },
+      {
+        "nom": "boules d'énergie",
+        "canal": "mains",
+        "limites": []
+      },
+      {
+        "nom": "pister l'aura du mal",
+        "canal": "sens",
+        "limites": [
+          "réciproque : la Source sait qu'on la cherche"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "prescott-street",
+    "condition": "convalescent",
+    "_": "CANON. Démon à moitié humain ; a trahi la Source pour Phoebe ; blessé à mort en S04E02 et soigné par Paige et Leo (la Source l'ignore). Fiché dans les-enfers parce que c'est là qu'il est inscrit, pas là qu'il sert. MAISON RETIRÉE le 3.10.2026 : renégat, il n'est plus des Enfers — et un membre de la maison lit tous ses volumes sans `lecteurs`, ce qui aurait fait fuir les tomes des Enfers vers le Manoir."
+  },
+  {
+    "id": "l-oracle",
+    "nom": "L'Oracle",
+    "maison_id": "les-enfers",
+    "titre": "Voyante de la Source",
+    "traits": [
+      "prudente",
+      "servile",
+      "calculatrice"
+    ],
+    "objectifs": [
+      {
+        "but": "Rester vivante : la Source tue ceux qui voient faux",
+        "priorite": 1
+      },
+      {
+        "but": "Être épargnée, c'est ce qu'elle a demandé en paiement",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Parle penchée sur son bassin, au conditionnel ; nomme rarement, date toujours à peu près.",
+    "pouvoirs": [
+      {
+        "nom": "lire le futur d'une cible",
+        "canal": "bassin",
+        "limites": [
+          "inexacte dès que d'autres forces magiques sont en jeu"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "les-enfers",
+    "condition": "en sursis",
+    "_": "CANON pour la fonction (S04E01-02 : « Oracle, find Paige one last time »). Son sort après E02 n'est pas établi : on la garde vivante. Ne pas confondre avec la Prophétesse (the Seer), qui n'entre qu'en S04E13."
+  },
+  {
+    "id": "penny-halliwell",
+    "nom": "Penny Halliwell",
+    "maison_id": "maison-halliwell",
+    "titre": "« Grams » — grand-mère, esprit qu'on appelle",
+    "naissance": 1932,
+    "traits": [
+      "autoritaire",
+      "aimante",
+      "sans détour"
+    ],
+    "objectifs": [
+      {
+        "but": "Que les Trois tiennent",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Tranchante, ne demande jamais pardon, dit « jeune fille ».",
+    "pouvoirs": [
+      {
+        "nom": "télékinésie (de son vivant)",
+        "canal": "yeux",
+        "limites": [
+          "esprit : ne touche rien de ce monde"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "l-au-dela",
+    "condition": "morte",
+    "_": "CANON. Vient quand on l'appelle (« Hear these words, hear my cry… »), pas autrement. Aucune routine : elle n'habite pas une salle."
+  },
+  {
+    "id": "patty-halliwell",
+    "nom": "Patty Halliwell",
+    "maison_id": "maison-halliwell",
+    "titre": "Mère des quatre sœurs, esprit",
+    "naissance": 1950,
+    "traits": [
+      "tendre",
+      "coupable"
+    ],
+    "objectifs": [
+      {
+        "but": "Que Paige se sache chez elle",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Douce, les larmes faciles ; regarde Paige comme une dette.",
+    "pouvoirs": [],
+    "etat": "actif",
+    "lieu_id": "l-au-dela",
+    "condition": "morte",
+    "_": "CANON. Vient d'apparaître dans le grenier pour présenter Paige (fin S04E02)."
+  },
+  {
+    "id": "prue-halliwell",
+    "nom": "Prue Halliwell",
+    "maison_id": "maison-halliwell",
+    "titre": "L'aînée, morte",
+    "naissance": 1970,
+    "traits": [
+      "droite",
+      "protectrice"
+    ],
+    "objectifs": [],
+    "maniere": "—",
+    "pouvoirs": [],
+    "etat": "mort",
+    "lieu_id": "l-au-dela",
+    "condition": "morte",
+    "_": "CANON. Tuée par Shax, mai 2001 (S03E22, confirmé S04E01). La mort d'une sorcière ne se défait pas, et le Livre ne permet pas de l'appeler : elle ne vient pas."
+  },
+  {
+    "id": "darryl-morris",
+    "nom": "Darryl Morris",
+    "maison_id": null,
+    "titre": "Inspecteur, police de San Francisco",
+    "traits": [
+      "loyal",
+      "prudent",
+      "fatigué"
+    ],
+    "objectifs": [
+      {
+        "but": "Couvrir les sœurs sans perdre sa plaque",
+        "priorite": 1
+      },
+      {
+        "but": "Rentrer chez sa femme le soir",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Parle bas, regarde par-dessus son épaule ; « je ne veux pas savoir » puis il demande quand même.",
+    "pouvoirs": [],
+    "etat": "actif",
+    "lieu_id": "commissariat",
+    "condition": "libre",
+    "_": "CANON. Allié humain ; sait ce que sont les sœurs depuis la mort d'Andy."
+  },
+  {
+    "id": "shane",
+    "nom": "Shane",
+    "maison_id": null,
+    "titre": "Le petit ami de Paige",
+    "traits": [
+      "gentil",
+      "secoué"
+    ],
+    "objectifs": [],
+    "maniere": "—",
+    "pouvoirs": [],
+    "etat": "dormant",
+    "lieu_id": "san-francisco",
+    "condition": "secoué",
+    "_": "CANON. La Source a pris son visage en S04E02 ; il ne sait pas ce qui lui est arrivé et ne veut plus voir Paige."
+  },
+  {
+    "id": "victor-bennett",
+    "nom": "Victor Bennett",
+    "maison_id": null,
+    "titre": "Le père de Prue, Piper et Phoebe",
+    "traits": [
+      "absent",
+      "méfiant envers la magie"
+    ],
+    "objectifs": [],
+    "maniere": "—",
+    "pouvoirs": [],
+    "etat": "dormant",
+    "lieu_id": "san-francisco",
+    "condition": "libre",
+    "_": "CANON. Dormant."
+  },
+  {
+    "id": "malek-le-veneur",
+    "nom": "Malek, dit le Veneur",
+    "maison_id": "les-enfers",
+    "titre": "Chef de la meute des chasseurs de primes lancée sur Belthazor",
+    "naissance": null,
+    "traits": [
+      "patient",
+      "méthodique",
+      "cupide",
+      "rancunier"
+    ],
+    "objectifs": [
+      {
+        "but": "Rapporter la tête de Belthazor avant qu'un autre ne touche la prime",
+        "priorite": 1
+      },
+      {
+        "but": "Ne pas perdre un chasseur de plus contre les sorcières",
+        "priorite": 2
+      },
+      {
+        "but": "Qu'on dise aux Enfers que c'est SA meute qui a eu le traître",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Parle à voix basse, par chiffres et par traces ; ne prononce jamais le nom de la Source, dit « celui qui paie ».",
+    "pouvoirs": [
+      {
+        "nom": "pister l'aura",
+        "canal": "sens",
+        "limites": [
+          "ne sent Belthazor que quand il miroite ou use de ses sens démoniaques"
+        ]
+      },
+      {
+        "nom": "miroitement",
+        "canal": "corps",
+        "limites": []
+      },
+      {
+        "nom": "boules d'énergie",
+        "canal": "mains",
+        "limites": []
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "san-francisco",
+    "condition": "à l'affût",
+    "_": "CANON pour la meute : « The Source has every demonic bounty hunter looking for me » (S04E01) ; « a legion of bounty hunters » et « every time I used my sensing powers a bounty hunter sensed me » (S04E03). INVENTION DÉCLARÉE : le chef, son nom, sa meute de trois, le montant de la prime. Clé : un chasseur de primes est un démon de rang moyen — une potion de destruction ordinaire ou deux boules d'énergie de Cole le détruisent ; le Pouvoir des Trois n'est pas nécessaire. Sa force est le nombre et la piste, pas la puissance."
+  },
+  {
+    "id": "vesk",
+    "nom": "Vesk",
+    "maison_id": "les-enfers",
+    "titre": "Chasseur de primes, de la meute du Veneur",
+    "naissance": null,
+    "traits": [
+      "impatient",
+      "brutal",
+      "ambitieux"
+    ],
+    "objectifs": [
+      {
+        "but": "Toucher la prime seul, sans la partager avec Malek",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Rit avant de frapper ; parle de Belthazor au passé, comme d'une affaire faite.",
+    "pouvoirs": [
+      {
+        "nom": "miroitement",
+        "canal": "corps",
+        "limites": []
+      },
+      {
+        "nom": "lame de feu",
+        "canal": "mains",
+        "limites": [
+          "portée d'un bras"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "san-francisco",
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE, sur le canon de la meute (S04E01-03). Le maillon faible : il désobéira au chef, et c'est par lui que la meute se trahit. Clé : comme Malek."
+  },
+  {
+    "id": "tarn",
+    "nom": "Tarn",
+    "maison_id": "les-enfers",
+    "titre": "Chasseuse de primes, de la meute du Veneur",
+    "naissance": null,
+    "traits": [
+      "froide",
+      "loyale à Malek",
+      "prudente"
+    ],
+    "objectifs": [
+      {
+        "but": "Garder la piste chaude : savoir à toute heure où est Belthazor",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Ne parle presque pas ; répond par un lieu et une heure.",
+    "pouvoirs": [
+      {
+        "nom": "pister l'aura",
+        "canal": "sens",
+        "limites": [
+          "comme Malek"
+        ]
+      },
+      {
+        "nom": "miroitement",
+        "canal": "corps",
+        "limites": []
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "san-francisco",
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE, sur le canon de la meute (S04E01-03). La guetteuse : elle ne frappe pas, elle voit. Clé : comme Malek."
+  },
+  {
+    "id": "varek",
+    "nom": "Varek",
+    "maison_id": "les-enfers",
+    "titre": "Héraut de la Source — porte ses ordres et rapporte ce qui remonte",
+    "naissance": null,
+    "traits": [
+      "servile",
+      "précis",
+      "peureux",
+      "bien informé"
+    ],
+    "objectifs": [
+      {
+        "but": "Rester utile à la Source : on ne tue pas celui qui apporte les nouvelles à temps",
+        "priorite": 1
+      },
+      {
+        "but": "Savoir avant tout le monde qui monte et qui tombe aux Enfers",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Commence chaque rapport par ce qui va plaire, finit par ce qui fâche, d'une voix qui baisse à mesure.",
+    "pouvoirs": [
+      {
+        "nom": "miroitement",
+        "canal": "corps",
+        "limites": []
+      },
+      {
+        "nom": "porter la voix de la Source",
+        "canal": "voix",
+        "limites": [
+          "un ordre porté par lui vaut ordre ; il ne peut en inventer un"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "les-enfers",
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE. Canon dont il dérive : la Source gouverne par des envoyés (« Shax was just the messenger », S04E01) et ne voit que ce qu'on lui rapporte. Il est l'oreille du second siège : c'est par sa bouche que remontent la meute, les rumeurs et les ambitions. Démon mineur ; ne combat pas."
+  },
+  {
+    "id": "kazhar",
+    "nom": "Kazhar",
+    "maison_id": "les-enfers",
+    "titre": "Démon de haut rang, maître d'un clan des galeries",
+    "naissance": null,
+    "traits": [
+      "ambitieux",
+      "courtois",
+      "patient",
+      "calculateur"
+    ],
+    "objectifs": [
+      {
+        "but": "Que les Enfers voient la Source échouer, et s'en souviennent",
+        "priorite": 1
+      },
+      {
+        "but": "Être celui vers qui l'on se tourne quand le trône vacillera",
+        "priorite": 2
+      },
+      {
+        "but": "Ne jamais être pris à désobéir",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Loue la Source à voix haute et compte ses échecs à voix basse ; ne dit jamais « je », dit « certains d'entre nous ».",
+    "pouvoirs": [
+      {
+        "nom": "boules d'énergie, feu",
+        "canal": "mains",
+        "limites": []
+      },
+      {
+        "nom": "clan",
+        "portee": "une trentaine de démons des galeries",
+        "limites": [
+          "ils le suivent tant qu'il gagne"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "les-enfers",
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE. Canon dont il dérive : la Source tient par la crainte et peut être remplacée (elle le sera — S04E13 puis Cole) ; les démons de haut rang s'assemblent en conseil (le Triade, S03). Il ne trahit pas : il attend. Sa clé politique : un succès éclatant de la Source le fait taire pour une lune."
+  },
+  {
+    "id": "la-glaneuse",
+    "nom": "La Glaneuse",
+    "maison_id": "les-enfers",
+    "titre": "Démone du deuil — se fait passer pour une médium de Russian Hill",
+    "naissance": null,
+    "traits": [
+      "douce",
+      "affamée",
+      "patiente",
+      "persuasive"
+    ],
+    "objectifs": [
+      {
+        "but": "Se nourrir du deuil des Halliwell, le plus grand de la ville cette lune",
+        "priorite": 1
+      },
+      {
+        "but": "Amener une sorcière à user de sa magie pour ramener sa morte — et la voir basculer",
+        "priorite": 2
+      },
+      {
+        "but": "Que la Source apprenne qui lui a rendu ce service",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Parle comme on console, la main sur l'avant-bras ; finit ses phrases avec les mots exacts du mort, qu'elle a volés.",
+    "pouvoirs": [
+      {
+        "nom": "voix des morts",
+        "canal": "voix",
+        "limites": [
+          "ne parle qu'avec les mots qu'un endeuillé lui a donnés : elle vole le souvenir, elle n'appelle pas l'esprit"
+        ]
+      },
+      {
+        "nom": "glanage",
+        "canal": "contact",
+        "limites": [
+          "chaque souvenir qu'on lui confie s'efface chez celui qui l'a donné ; il faut qu'on le lui donne"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "san-francisco",
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE (pas un démon de la série). Dérive de trois règles canon : la mort d'une sorcière ne se défait pas et Prue ne vient pas (S04E01) ; la brèche émotionnelle — une colère ou un chagrin tus sont une porte (S04E03) ; un pouvoir usé pour son propre intérêt retombe sur son auteur ou le bascule (S04E02-03). Mode : elle ne frappe jamais, elle propose un « message de Prue », puis un rituel pour la faire revenir — qui exige de la magie personnelle. Elle n'apparaît pas à la scrutation du mal tant qu'elle ne fait de mal à personne. Clé : dire adieu à voix haute à celui qu'elle imite referme la brèche et lui coupe la voix ; un sort des Trois l'achève ensuite. Échelle : un cran au-dessus — elle vise Piper, pas un innocent."
+  },
+  {
+    "id": "ezra-vane",
+    "nom": "Ezra Vane",
+    "maison_id": null,
+    "titre": "Sorcier noir (warlock) — se présente comme bénévole aux services sociaux",
+    "naissance": 1961,
+    "traits": [
+      "charmeur",
+      "avide",
+      "méticuleux",
+      "lâche"
+    ],
+    "objectifs": [
+      {
+        "but": "Prendre le pouvoir de la jeune sorcière apparue le mois dernier sur la carte de la Baie",
+        "priorite": 1
+      },
+      {
+        "but": "Le prendre avant qu'un démon ou ses aînées ne la lui enlèvent",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Poli, attentionné, se souvient des prénoms ; rit un peu trop tôt.",
+    "pouvoirs": [
+      {
+        "nom": "clignement (blink)",
+        "canal": "corps",
+        "limites": [
+          "quelques mètres, à vue"
+        ]
+      },
+      {
+        "nom": "athamé",
+        "canal": "lame",
+        "limites": [
+          "prend le pouvoir d'une sorcière en la tuant ; sans la lame, il ne prend rien"
+        ]
+      },
+      {
+        "nom": "scrutation",
+        "canal": "cristal",
+        "limites": [
+          "donne un lieu, jamais une nature"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "san-francisco",
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE (pas un sorcier de la série). Dérive de la règle canon des warlocks : ils tuent une sorcière à l'athamé pour prendre son pouvoir (S01E01, Jeremy ; le clignement, S01E06). Mode : il a scruté une « lumière neuve » dans la Baie — l'éveil de Paige — et remonte la piste par son travail. Il IGNORE qu'elle est une des Trois et qu'elle est à moitié être de lumière : il croit la cueillir seule. Clé : l'athamé est tout ; si on le lui ôte (Paige peut l'appeler par son nom), il n'est qu'un homme qui cligne. Un sort des Trois le détruit ; à deux, il fuit."
+  },
+  {
+    "id": "m-cowan",
+    "nom": "M. Cowan",
+    "maison_id": null,
+    "titre": "Directeur de South Bay Social Services, le patron de Paige",
+    "naissance": 1954,
+    "traits": [
+      "exigeant",
+      "juste",
+      "débordé",
+      "sec"
+    ],
+    "objectifs": [
+      {
+        "but": "Que les dossiers partent à l'heure : un dossier en retard, c'est un enfant qui attend",
+        "priorite": 1
+      },
+      {
+        "but": "Garder Paige, qui est bonne, si elle cesse de disparaître",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Se tient debout derrière votre chaise ; dit l'heure de l'échéance avant de dire bonjour.",
+    "pouvoirs": [],
+    "etat": "actif",
+    "lieu_id": "services-sociaux",
+    "condition": "libre",
+    "_": "CANON : le patron de Paige (« Cowan », S04E01-02 ; « my boss, who's standing over me », « Have it on my desk by noon », S04E03). Prénom jamais donné : on ne l'invente pas. INVENTION DÉCLARÉE : son âge, son plan, le bénévole qu'il accueille."
+  },
+  {
+    "id": "gil-navarro",
+    "nom": "Gil Navarro",
+    "maison_id": null,
+    "titre": "Gérant du P3",
+    "naissance": 1968,
+    "traits": [
+      "fiable",
+      "fatigué",
+      "franc"
+    ],
+    "objectifs": [
+      {
+        "but": "Être payé ce qu'il vaut : le P3 perd des clients et sa part avec",
+        "priorite": 1
+      },
+      {
+        "but": "Ne pas laisser Piper seule le soir où il partira",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Parle en chiffres de caisse et en noms de groupes ; appelle Piper « patronne ».",
+    "pouvoirs": [],
+    "etat": "actif",
+    "lieu_id": "p3",
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE. Le canon n'a pas de gérant nommé avant Treat Taylor (S04E05), qui arrive « à l'essai » parce que le club va mal (« P3 has been struggling »). Gil est la raison de cette place vide : il part si rien ne change. Il ignore tout de la magie."
+  },
+  {
+    "id": "treat-taylor",
+    "nom": "Treat Taylor",
+    "maison_id": null,
+    "titre": "Promoteur de clubs — « le numéro un de San Francisco »",
+    "naissance": 1970,
+    "traits": [
+      "bruyant",
+      "sûr de lui",
+      "habile"
+    ],
+    "objectifs": [
+      {
+        "but": "Prendre un club qui va mal et le refaire à son image",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Dit « baby girl », « you cool ? », et vend avant d'écouter.",
+    "pouvoirs": [],
+    "etat": "dormant",
+    "lieu_id": "san-francisco",
+    "condition": "libre",
+    "_": "CANON : S04E05 (Size Matters), engagé à l'essai par Piper comme gérant du P3, veut le rebaptiser. Dormant au 9.10 : il n'entre dans l'orbite qu'au départ de Gil Navarro, si Piper cherche quelqu'un."
+  },
+  {
+    "id": "fondateur-porte-parole",
+    "nom": "Le Fondateur à la robe d'or",
+    "maison_id": "les-fondateurs",
+    "titre": "Fondateur, celui qui parle à Leo au nom des autres",
+    "naissance": null,
+    "traits": [
+      "mesuré",
+      "distant",
+      "attaché aux règles",
+      "pas sans cœur"
+    ],
+    "objectifs": [
+      {
+        "but": "Que les Trois reformées tiennent, et vite : Paige formée avant que la Source ne revienne",
+        "priorite": 1
+      },
+      {
+        "but": "Qu'un démon ne vive pas sous le toit du Nexus sans qu'on sache ce qu'il est devenu",
+        "priorite": 2
+      },
+      {
+        "but": "Que Leo reste un être de lumière avant d'être un époux",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Ne répond jamais tout à fait à la question posée ; dit « nous » et « il n'est pas temps ».",
+    "pouvoirs": [
+      {
+        "nom": "appeler un être de lumière",
+        "canal": "appel",
+        "limites": [
+          "l'appelé peut tarder"
+        ]
+      },
+      {
+        "nom": "savoir",
+        "canal": "ce que voient les Fondateurs",
+        "limites": [
+          "ils n'avaient pas vu Paige ; ils voient mal ce que Patty a caché"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "le-haut",
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE pour la personne : les Fondateurs de S4 n'ont pas de nom (les noms — Odin, Zola, Sandra — viennent plus tard). CANON pour la fonction : ils appellent Leo, ne disent pas tout, n'ont rien su de Paige (S04E01-02 : « the Elders had no idea that she even existed », « The Elders owe us »)."
+  },
+  {
+    "id": "morne-le-charognard",
+    "nom": "Morne, le charognard",
+    "maison_id": "les-enfers",
+    "titre": "Démon charognard, chef d'une petite meute de quatre",
+    "naissance": null,
+    "traits": [
+      "affamé",
+      "rusé",
+      "lâche",
+      "marchand"
+    ],
+    "objectifs": [
+      {
+        "but": "Manger les restes de la mort de Prue avant qu'ils ne refroidissent tout à fait",
+        "priorite": 1
+      },
+      {
+        "but": "Vendre ce qu'il y apprendra au plus offrant des Enfers",
+        "priorite": 2
+      },
+      {
+        "but": "Ne jamais se battre contre plus fort que lui",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Parle en reniflant, la tête de biais ; propose un marché avant qu'on ait levé la main sur lui.",
+    "pouvoirs": [
+      {
+        "nom": "flairer le résidu d'une mort démoniaque",
+        "canal": "sens",
+        "limites": [
+          "lit la route qu'a prise l'assassin, rien de plus"
+        ]
+      },
+      {
+        "nom": "se faufiler",
+        "canal": "corps",
+        "limites": [
+          "conduits, égouts, puits de lumière ; pas de miroitement"
+        ]
+      },
+      {
+        "nom": "force",
+        "canal": "contact",
+        "limites": []
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "san-francisco",
+    "condition": "affamé",
+    "_": "INVENTION DÉCLARÉE — canon/bestiaire.json#morne-le-charognard (cran 1, rang 1). Dérive du démon charognard (S04E08), de la signature de déplacement (S04E08) et de l'échelon inférieur qui monnaie sa faveur (S04E09). Ne vient pas tuer : vient manger ce que Shax a laissé et vendre la route. Événement : morne-mange-les-restes, 22.10.2001 vers 2 h. Clé : potion générique ou combustion le détruit ; on peut aussi racheter ce qu'il sait. Meute de quatre, sans fiche."
+  },
+  {
+    "id": "le-greffier",
+    "nom": "Le Greffier",
+    "maison_id": "les-enfers",
+    "titre": "Démon de l'économie du mal — il tient les identités mortelles des démons",
+    "naissance": null,
+    "traits": [
+      "méticuleux",
+      "patient",
+      "froid",
+      "procédurier"
+    ],
+    "objectifs": [
+      {
+        "but": "Être payé de l'identité de Cole Turner, qu'il a fabriquée",
+        "priorite": 1
+      },
+      {
+        "but": "Qu'aucun débiteur n'apprenne qu'on peut ne pas payer",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Parle comme on lit un acte : date, nom, somme ; ne hausse jamais le ton, tourne la page.",
+    "pouvoirs": [
+      {
+        "nom": "rayer ou prêter un nom",
+        "canal": "plume",
+        "limites": [
+          "exige la signature du débiteur et un jour d'échéance"
+        ]
+      },
+      {
+        "nom": "déguisement",
+        "canal": "contact",
+        "limites": [
+          "notaire, greffier, employé d'état civil — il ne se montre que là où l'on signe"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "les-enfers",
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE — canon/bestiaire.json#le-greffier (cran 2, rang 1). Dérive de l'infiltration économique du mal (S04E11), de l'absence d'identité mortelle (S04E10), de la créance magique (S04E10). Événement : le-greffier-reclame-sa-creance, 8.11.2001 à 10 h ; échéance au 30.11. Clé : potion générique le détruit ET efface tous ses papiers, ceux de Cole compris ; sinon quittance obtenue (Accord) ou dénonciation à ses commanditaires."
+  },
+  {
+    "id": "le-liseur",
+    "nom": "Le Liseur",
+    "maison_id": "les-enfers",
+    "titre": "Démon devin — vend des avenirs aux factions",
+    "naissance": null,
+    "traits": [
+      "jaloux",
+      "patient",
+      "orgueilleux",
+      "secret"
+    ],
+    "objectifs": [
+      {
+        "but": "Être le devin qu'on paie aux Enfers, plus sûr que l'Oracle",
+        "priorite": 1
+      },
+      {
+        "but": "Faire courir la sorcière qui voit là où il veut, et prouver qu'il la tient",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Parle au futur antérieur, à voix très basse ; ne regarde jamais en face, regarde le reflet.",
+    "pouvoirs": [
+      {
+        "nom": "écrire dans une vision",
+        "canal": "verre",
+        "limites": [
+          "une image vraie déplacée, jamais fausse ; seulement pendant une vision née d'un contact qu'il a préparé"
+        ]
+      },
+      {
+        "nom": "voir l'avenir",
+        "canal": "verre",
+        "limites": [
+          "mal, par fragments"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "les-enfers",
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE — canon/bestiaire.json#le-liseur (cran 2, rang 2). Dérive de l'occultation de la prémonition (S04E14), de la voyante du sommet (S04E13), du tirage qui ment (S04E15). Sans corps sur ce plan quand il écrit : on ne frappe que l'objet par où il regarde. Événement : le-liseur-pose-un-objet, 22.11.2001 à 15 h. Clé : briser le verre pendant qu'il écrit (repoussé) ; le tirer du miroir puis Pouvoir des Trois (détruit) ; ne pas agir sur une vision née d'un objet qu'on n'a pas choisi."
+  },
+  {
+    "id": "le-courtier",
+    "nom": "Le Courtier d'ambre",
+    "maison_id": "les-enfers",
+    "titre": "Démon courtier de pouvoirs",
+    "naissance": null,
+    "traits": [
+      "affable",
+      "prévoyant",
+      "sans scrupule",
+      "commerçant"
+    ],
+    "objectifs": [
+      {
+        "but": "Mettre à l'abri les pouvoirs que d'autres démons lui confient, contre une dette",
+        "priorite": 1
+      },
+      {
+        "but": "Trouver des coffres que personne ne viendra ouvrir : des enfants que personne ne réclame",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Parle comme un banquier de famille, chaleureux, chiffré ; appelle les enfants « nos petits ».",
+    "pouvoirs": [
+      {
+        "nom": "retirer un pouvoir et le loger ailleurs",
+        "canal": "contact",
+        "limites": [
+          "le porteur mortel se démonise lentement"
+        ]
+      },
+      {
+        "nom": "déguisement",
+        "canal": "lieu",
+        "limites": [
+          "famille d'accueil modèle, papiers en règle"
+        ]
+      }
+    ],
+    "etat": "actif",
+    "lieu_id": "les-enfers",
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE — canon/bestiaire.json#le-courtier (cran 2, rang 2). Dérive du courtier de pouvoirs et de la démonisation du porteur (S04E16), et de l'interdit de tuer un mortel (S01E19). Événement : le-courtier-place-un-enfant, 10.12.2001 à 10 h, aux services sociaux. Clé : le tuer libère tous les pouvoirs logés (les enfants se démonisent en une nuit) ; il faut d'abord vider les enfants. Quatre porteurs déjà placés ailleurs au départ ; le cinquième se joue à South Bay."
+  },
+  {
+    "id": "silas-hale",
+    "nom": "Silas Hale",
+    "maison_id": null,
+    "titre": "Chasseur de lignées, mortel",
+    "naissance": 1949,
+    "traits": [
+      "obstiné",
+      "érudit",
+      "pieux"
+    ],
+    "objectifs": [
+      {
+        "but": "Prouver aux mortels ce que sont les sorcières, par les papiers",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Parle comme un archiviste : cotes, dates, actes ; jamais de mot plus haut que l'autre.",
+    "pouvoirs": [
+      {
+        "nom": "amulette",
+        "canal": "contact",
+        "limites": [
+          "les pouvoirs des sorcières glissent sur lui tant qu'il la porte"
+        ]
+      }
+    ],
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE — canon/bestiaire.json#silas-hale (cran 3 ; fenêtre 10.1 → 15.2.2002). Dérive du chasseur de sorcières (S04E22). Mortel : le tuer est une faute du bien. Au 9.10.2001, il travaille sur une autre lignée et n'a pas encore croisé le nom Matthews. Lieu hors carte (Nouvelle-Angleterre) : lieu_id null."
+  },
+  {
+    "id": "la-mere-des-noces",
+    "nom": "La Mère des noces",
+    "maison_id": "les-enfers",
+    "titre": "Prêtresse sombre",
+    "naissance": null,
+    "traits": [
+      "patiente",
+      "maternelle",
+      "implacable"
+    ],
+    "objectifs": [
+      {
+        "but": "Un enfant de sorcière né sous rite sombre",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Parle comme une sage-femme, à voix basse et rassurante ; tutoie les femmes qui désirent un enfant.",
+    "pouvoirs": [
+      {
+        "nom": "tonique de fécondité",
+        "canal": "philtre",
+        "limites": [
+          "doit être bu de plein gré"
+        ]
+      },
+      {
+        "nom": "rite de vol d'enfant",
+        "canal": "formule",
+        "limites": [
+          "pleine lune, terre de cimetière"
+        ]
+      }
+    ],
+    "etat": "dormant",
+    "lieu_id": "san-francisco",
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE — canon/bestiaire.json#la-mere-des-noces (cran 3 ; fenêtre 1.2 → 31.3.2002). Dérive de l'allégeance par le rite (S04E15), du tonique de fécondité (S04E16), du rite de vol d'enfant (S04E21). Résurgente hors terre de cimetière."
+  },
+  {
+    "id": "le-roi-des-limbes",
+    "nom": "Le Roi des limbes",
+    "maison_id": "les-enfers",
+    "titre": "Âme qui a refusé la renaissance, devenue démon",
+    "naissance": null,
+    "traits": [
+      "rancunier",
+      "séducteur",
+      "patient"
+    ],
+    "objectifs": [
+      {
+        "but": "Qu'une sœur entre dans les limbes de son plein gré, pour l'y garder",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Parle par la bouche des échos qu'il tient ; sa propre voix est rare et sèche.",
+    "pouvoirs": [
+      {
+        "nom": "faire parler un écho",
+        "canal": "eau",
+        "limites": [
+          "nuits de pluie ; des formes qui répondent, pas des âmes"
+        ]
+      },
+      {
+        "nom": "passer par l'eau",
+        "canal": "eau",
+        "limites": [
+          "toute surface assez large"
+        ]
+      }
+    ],
+    "etat": "dormant",
+    "lieu_id": "les-limbes",
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE — canon/bestiaire.json#le-roi-des-limbes (cran 4 ; fenêtre 1.3 → 30.4.2002). Dérive des limbes et du portail aquatique (S04E04), du voyage revécu et de l'esprit passeur (S04E10). Vise Paige par les échos de ses parents adoptifs."
+  },
+  {
+    "id": "le-gardien-renegat",
+    "nom": "Le Gardien renégat",
+    "maison_id": null,
+    "titre": "Gardien du Vide, hors des deux camps",
+    "naissance": null,
+    "traits": [
+      "juste",
+      "inflexible",
+      "corrompu par ce qu'il porte"
+    ],
+    "objectifs": [
+      {
+        "but": "Reprendre la magie à ceux qui ont rompu l'Accord, d'un côté comme de l'autre",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Parle comme on rend un jugement : les faits, la date, la règle rompue.",
+    "pouvoirs": [
+      {
+        "nom": "éclat du Vide",
+        "canal": "contact",
+        "limites": [
+          "prend un pouvoir, bon ou mauvais ; tout pouvoir lancé sur lui est absorbé"
+        ]
+      }
+    ],
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE — canon/bestiaire.json#le-gardien-renegat (cran 5 ; fenêtre 15.4 → 31.5.2002). Dérive des Gardiens du Vide et de l'alliance des contraires (S04E13), de l'Accord des deux camps. Ne se détruit pas : on l'emprisonne (bien et mal ensemble) ou on le renvoie. Lieu hors carte (le Vide) : lieu_id null."
+  },
+  {
+    "id": "la-voyante",
+    "nom": "La Voyante",
+    "maison_id": "les-enfers",
+    "titre": "Démone devin, la Prophétesse",
+    "naissance": null,
+    "traits": [
+      "ambitieuse",
+      "patiente",
+      "lucide",
+      "manipulatrice"
+    ],
+    "objectifs": [
+      {
+        "but": "Servir la Source mieux que l'Oracle, pour son propre avenir",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Parle lentement, sans conditionnel ; sourit quand elle a vu plus loin que vous.",
+    "pouvoirs": [
+      {
+        "nom": "visions",
+        "canal": "œil",
+        "limites": [
+          "plus sûres que celles de l'Oracle ; elle ne dit que ce qui la sert"
+        ]
+      }
+    ],
+    "etat": "dormant",
+    "lieu_id": "les-enfers",
+    "condition": "libre",
+    "_": "CANON : la Prophétesse (the Seer), S04E13 (Charmed and Dangerous, 7.2.2002) ; à ne pas confondre avec l-oracle. Événement : la-voyante-demande-audience, 1.2.2002. Dormante au 9.10.2001 : elle n'est pas à la cour."
+  },
+  {
+    "id": "glen-belland",
+    "nom": "Glen Belland",
+    "maison_id": null,
+    "titre": "L'ami d'enfance de Paige",
+    "naissance": 1977,
+    "traits": [
+      "drôle",
+      "loyal",
+      "voyageur"
+    ],
+    "objectifs": [
+      {
+        "but": "Revoir Paige à son retour",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Blagueur, familier, appelle Paige par des surnoms d'enfance.",
+    "pouvoirs": [],
+    "etat": "dormant",
+    "lieu_id": null,
+    "condition": "libre",
+    "_": "CANON : ami de Paige, revient d'Australie en S04E11 (Trial by Magic). Événement : glen-rentre-d-australie, 24.1.2002. Ne sait rien de la magie, ni que Paige a des sœurs. Lieu hors carte (Australie) : lieu_id null."
+  },
+  {
+    "id": "ferran-le-verrouilleur",
+    "nom": "Ferran, le Verrouilleur",
+    "titre": "Démon des seuils — prépare des lieux de captivité",
+    "traits": [
+      "méthodique",
+      "cruel",
+      "territorial"
+    ],
+    "objectifs": [
+      {
+        "but": "Capturer des innocents dans un lieu préparé pour les vendre aux Enfers",
+        "priorite": 1
+      },
+      {
+        "but": "Faire entrer les secours dans le piège plutôt que les combattre dehors",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Parle bas et précisément ; décrit les personnes comme des entrées et des sorties.",
+    "pouvoirs": [
+      {
+        "nom": "sceaux de fermeture",
+        "canal": "contact",
+        "limites": [
+          "Doit tracer et toucher chaque seuil matériel avant de le verrouiller ; aucune fermeture à distance dans un lieu non préparé.",
+          "Trois sceaux maximum dans une même pièce ; il doit rester dans le bâtiment.",
+          "Ne neutralise ni les pouvoirs ni l’orbe ; une sortie non marquée reste une sortie."
+        ]
+      },
+      {
+        "nom": "miroitement",
+        "canal": "corps",
+        "limites": [
+          "Ne transporte pas une victime contre sa volonté."
+        ]
+      }
+    ],
+    "maison_id": "les-enfers",
+    "naissance": null,
+    "etat": "actif",
+    "lieu_id": null,
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE du 3.10.2026. Séquestration, extorsion et vente des captifs ; aucune victime déjà capturée à la création. Un sceau est visible et matériel : sa rupture ouvre le seuil correspondant ; détruire le dernier rompt le piège."
+  },
+  {
+    "id": "neris-le-sonneur",
+    "nom": "Néris, le Sonneur",
+    "titre": "Démon des appels de détresse — attire les secours dans un lieu choisi",
+    "traits": [
+      "patient",
+      "prédateur",
+      "opportuniste"
+    ],
+    "objectifs": [
+      {
+        "but": "Attirer un sauveteur isolé puis livrer sa victime aux Enfers",
+        "priorite": 1
+      },
+      {
+        "but": "Obtenir des voix crédibles sans dévoiler sa propre présence",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Voix posée ; en mission, utilise les seuls mots qu’il a enregistrés, sans inventer les souvenirs de sa victime.",
+    "pouvoirs": [
+      {
+        "nom": "écho captif",
+        "canal": "objet",
+        "limites": [
+          "Enregistre par contact avec un combiné ou un magnétophone une phrase réellement prononcée à proximité ; un seul enregistrement à la fois.",
+          "Reproduit exactement la phrase et sa voix : aucun mot ajouté, aucune conversation, aucun savoir volé.",
+          "Le support doit être porté sur place ; l’écho ne charme pas et ne force personne à venir.",
+          "Briser ou désenchanter le support supprime l’écho."
+        ]
+      },
+      {
+        "nom": "miroitement",
+        "canal": "corps",
+        "limites": [
+          "Ne transporte pas une victime contre sa volonté."
+        ]
+      }
+    ],
+    "maison_id": "les-enfers",
+    "naissance": null,
+    "etat": "actif",
+    "lieu_id": null,
+    "condition": "libre",
+    "_": "INVENTION DÉCLARÉE du 3.10.2026. Rapt, fausse alerte pour détourner les secours et mise en danger d’un vrai innocent ; aucun appel déjà passé à la création. Le même souffle et le même bruit de fond reviennent à chaque répétition ; une question imprévue reste sans réponse."
+  },
+  {
+    "id": "kharos-le-briseur",
+    "nom": "Kharos, le Briseur",
+    "maison_id": "les-enfers",
+    "titre": "Démon d’assaut de bas rang",
+    "naissance": null,
+    "traits": [
+      "brutal",
+      "impatient",
+      "vaniteux"
+    ],
+    "objectifs": [
+      {
+        "but": "Attaquer une sorcière du Manoir pour gagner une réputation aux Enfers",
+        "priorite": 1
+      },
+      {
+        "but": "Fuir plutôt que mourir si les trois sœurs se rassemblent",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Phrases courtes, voix rauque ; provoque sans connaître les secrets de ses adversaires.",
+    "pouvoirs": [
+      {
+        "nom": "décharge de choc",
+        "canal": "main",
+        "limites": [
+          "À vue, dans une même pièce ; doit lever une main et charger une seconde avant le tir.",
+          "Une seule cible ; aucun tir à travers les murs ni protection des innocents.",
+          "La décharge peut être esquivée ou détournée ; aucune blessure automatique."
+        ]
+      },
+      {
+        "nom": "miroitement",
+        "canal": "corps",
+        "limites": [
+          "Ne traverse pas une protection magique établie et ne transporte pas de victime."
+        ]
+      }
+    ],
+    "etat": "mort",
+    "lieu_id": "prescott-street",
+    "condition": "détruit par Piper au grenier le 10.10.2001 à 7 h 12",
+    "_": "INVENTION DÉCLARÉE, préparation du joueur le 3.10.2026 : placé dans la véranda vide pendant l’arrêt. Aucun ordre attribué à la Source ; aucune attaque jouée. Se fige, peut être projeté par une force physique, meurt par une potion adaptée ou une détonation de Piper."
+  }
+]

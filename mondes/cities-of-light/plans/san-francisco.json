@@ -1,0 +1,226 @@
+{
+ "_": "LE PLAN DE LA VILLE DE DEPART. Une salle n'est ici que si `chemins.json` la relie : le plan et la topologie doivent porter les MEMES ids, sinon le quartier calcule sur des salles que l'ecran ne montre pas — et l'on ne s'en apercoit qu'en voyant quelqu'un « a zero minute » d'une piece ou il ne peut pas aller.",
+ "nom": "San Francisco",
+ "viewBox": "0 0 420 340",
+ "fonds": [],
+ "mur": [],
+ "guet": [],
+ "decor": [],
+ "etiquettes": [],
+ "rose": null,
+ "salles": [
+  {
+   "id": "plateau-labo",
+   "nom": "Le plateau",
+   "cle": true,
+   "forme": {
+    "d": "M20,20 L180,20 L180,150 L20,150 Z"
+   },
+   "etiq": [
+    100,
+    85
+   ],
+   "lignes": [
+    "Le plateau"
+   ],
+   "quoi": "Trente-deux postes, quatre occupes. C'est d'ici qu'on lance ce qui tourne ailleurs.",
+   "alias": [
+    "labo"
+   ],
+   "motifs": [
+    "le plateau",
+    "le labo",
+    "le laboratoire"
+   ]
+  },
+  {
+   "id": "couloir-nord",
+   "nom": "Le couloir nord",
+   "forme": {
+    "d": "M186,20 L224,20 L224,150 L186,150 Z"
+   },
+   "etiq": [
+    205,
+    85
+   ],
+   "lignes": [
+    "Couloir"
+   ],
+   "quoi": "On y attend que la porte a badge se decide.",
+   "alias": [],
+   "motifs": [
+    "le couloir"
+   ]
+  },
+  {
+   "id": "salle-reunion",
+   "nom": "La salle de reunion",
+   "forme": {
+    "d": "M230,20 L400,20 L400,80 L230,80 Z"
+   },
+   "etiq": [
+    315,
+    50
+   ],
+   "lignes": [
+    "Reunion"
+   ],
+   "quoi": "Une table, un ecran qui ne se connecte jamais du premier coup.",
+   "alias": [],
+   "motifs": [
+    "la salle de reunion",
+    "la reunion"
+   ]
+  },
+  {
+   "id": "salle-machines-sf",
+   "nom": "La salle des machines",
+   "fond": true,
+   "forme": {
+    "d": "M230,86 L400,86 L400,140 L230,140 Z"
+   },
+   "etiq": [
+    315,
+    113
+   ],
+   "lignes": [
+    "Les machines"
+   ],
+   "quoi": "Quatorze baies, deux allumees. Le bruit couvre la voix : on y parle fort ou pas du tout.",
+   "alias": [
+    "machines"
+   ],
+   "motifs": [
+    "la salle des machines",
+    "les machines",
+    "la salle machine"
+   ]
+  },
+  {
+   "id": "local-onduleurs",
+   "nom": "Le local des onduleurs",
+   "forme": {
+    "d": "M340,146 L400,146 L400,176 L340,176 Z"
+   },
+   "etiq": [
+    370,
+    161
+   ],
+   "lignes": [
+    "Onduleurs"
+   ],
+   "quoi": "Ce qui tient trente secondes quand la ville lache. Trente secondes, c'est tout ce qu'on a.",
+   "alias": [],
+   "motifs": [
+    "les onduleurs",
+    "le local des onduleurs"
+   ]
+  },
+  {
+   "id": "escalier",
+   "nom": "L'escalier",
+   "forme": {
+    "d": "M20,156 L90,156 L90,196 L20,196 Z"
+   },
+   "etiq": [
+    55,
+    176
+   ],
+   "lignes": [
+    "Escalier"
+   ],
+   "quoi": "Deux etages. On le prend parce que l'ascenseur est plus lent.",
+   "alias": [],
+   "motifs": [
+    "l'escalier"
+   ]
+  },
+  {
+   "id": "hall",
+   "nom": "Le hall",
+   "forme": {
+    "d": "M20,202 L400,202 L400,240 L20,240 Z"
+   },
+   "etiq": [
+    210,
+    221
+   ],
+   "lignes": [
+    "Le hall"
+   ],
+   "quoi": "Un comptoir, un vigile, un registre papier que personne ne relit.",
+   "alias": [],
+   "motifs": [
+    "le hall",
+    "l'entree"
+   ]
+  },
+  {
+   "id": "rue-folsom",
+   "nom": "Folsom Street",
+   "forme": {
+    "d": "M20,250 L260,250 L260,290 L20,290 Z"
+   },
+   "etiq": [
+    140,
+    270
+   ],
+   "lignes": [
+    "Folsom"
+   ],
+   "quoi": "Trottoir large, camions de livraison, et tout le monde au telephone.",
+   "alias": [
+    "rue"
+   ],
+   "motifs": [
+    "folsom",
+    "la rue",
+    "folsom street"
+   ]
+  },
+  {
+   "id": "cafe-du-coin",
+   "nom": "Le cafe du coin",
+   "forme": {
+    "d": "M270,250 L360,250 L360,290 L270,290 Z"
+   },
+   "etiq": [
+    315,
+    270
+   ],
+   "lignes": [
+    "Le cafe"
+   ],
+   "quoi": "Quatre dollars le cafe, et le seul endroit du quartier ou l'on s'assoit sans badge.",
+   "alias": [
+    "cafe"
+   ],
+   "motifs": [
+    "le cafe",
+    "le cafe du coin"
+   ]
+  },
+  {
+   "id": "quai-embarcadero",
+   "nom": "L'Embarcadero",
+   "forme": {
+    "d": "M20,300 L400,300 L400,332 L20,332 Z"
+   },
+   "etiq": [
+    210,
+    316
+   ],
+   "lignes": [
+    "L'Embarcadero"
+   ],
+   "quoi": "Quatorze minutes a pied. On y va quand on ne veut pas etre entendu.",
+   "alias": [
+    "quai"
+   ],
+   "motifs": [
+    "l'embarcadero",
+    "le quai"
+   ]
+  }
+ ]
+}

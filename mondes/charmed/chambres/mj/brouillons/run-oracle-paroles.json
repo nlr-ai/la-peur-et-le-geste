@@ -1,0 +1,22 @@
+[
+  {
+    "id": "parole-source-ordonne-lecture-piper-2001-10-09-2255",
+    "date": "09.10.2001, 22 h 55",
+    "locuteur_id": "la-source",
+    "type": "ordre",
+    "destinataire_id": "l-oracle",
+    "temoins": ["l-oracle"],
+    "contenu": "Cette nuit, lisez Piper seule. Cherchez-la hors du Manoir si l'eau le permet. Demain, je veux une date, ce qui la ferait céder — ou votre silence, sans l'habiller.",
+    "poids": 2
+  },
+  {
+    "id": "parole-oracle-accepte-lecture-piper-2001-10-09-2256",
+    "date": "09.10.2001, 22 h 56",
+    "locuteur_id": "l-oracle",
+    "type": "reponse",
+    "destinataire_id": "la-source",
+    "temoins": ["la-source"],
+    "contenu": "Cette nuit, l'eau chercherait Piper seule, loin du Manoir si elle consentait à l'isoler. Demain, je vous donnerais une date et ce qui pourrait la faire céder — ou je vous dirais que l'eau s'est tue. Sans l'habiller.",
+    "poids": 2
+  }
+]

@@ -1,0 +1,1322 @@
+{
+  "meta": {
+    "scenario": "arrival",
+    "seed": 1,
+    "personId": 52,
+    "shownAt": "1940-06-15T08:00:00",
+    "simulationAt": "1940-06-15T08:00:00",
+    "sections": [
+      "identity",
+      "personality",
+      "relations"
+    ],
+    "coordinates": "location positions use map units; nested native MapPoint X/Y values use 1000 subdivisions per unit. Not latitude/longitude.",
+    "perspective": "Omniscient dossier. Only knowledge describes information actually known by this character. Other people\u0027s trust, secret holders and hidden traits are not automatically known to him.",
+    "limits": "No invented biography, dialogue, money balance or inventory. Household/site goods are recorded possessions, not proof of personal access. History covers today through shownAt; no future events are exported. Telephone service is at simulationAt."
+  },
+  "identity": {
+    "row": {
+      "id": 52,
+      "first": "Paul",
+      "last": "Bigot",
+      "sex": "m",
+      "age": 60,
+      "nationality": "fr",
+      "allegiance": "civil",
+      "household": 698,
+      "relation": "head",
+      "status": "post",
+      "post": "master_printer",
+      "building": 48,
+      "job": "Imprimeur",
+      "cover": null,
+      "from": null,
+      "war": "gunner"
+    },
+    "greatWar": {
+      "key": "gunner",
+      "name": "Artilleur",
+      "weight": 14,
+      "minAge": 0,
+      "maxAge": 2147483647
+    },
+    "groups": [],
+    "appearance": {
+      "id": 52,
+      "class": {
+        "key": "worker",
+        "name": "Ouvrier",
+        "weights": {
+          "stubble": 2
+        },
+        "gates": {
+          "glasses": 0.6
+        },
+        "outfit": {
+          "m": [
+            {
+              "slot": "head",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "cap",
+                  "name": "casquette",
+                  "feminine": true,
+                  "shape": "cap",
+                  "colors": [
+                    "grey",
+                    "charcoal",
+                    "navy",
+                    "brown"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "beret",
+                  "name": "b\u00E9ret",
+                  "feminine": false,
+                  "shape": "beret",
+                  "colors": [
+                    "black",
+                    "navy"
+                  ],
+                  "weight": 25,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "bare",
+                  "name": "t\u00EAte nue",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [],
+                  "weight": 15,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "top",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "work_jacket",
+                  "name": "veste de travail",
+                  "feminine": true,
+                  "shape": "jacket",
+                  "colors": [
+                    "work_blue",
+                    "faded_blue"
+                  ],
+                  "weight": 55,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "worn_jacket",
+                  "name": "veston us\u00E9",
+                  "feminine": false,
+                  "shape": "jacket",
+                  "colors": [
+                    "grey",
+                    "brown",
+                    "charcoal"
+                  ],
+                  "weight": 30,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "rolled_shirt",
+                  "name": "chemise aux manches retrouss\u00E9es",
+                  "feminine": true,
+                  "shape": "shirt",
+                  "colors": [
+                    "ecru",
+                    "light_grey",
+                    "faded_blue"
+                  ],
+                  "weight": 15,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "bottom",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "work_trousers",
+                  "name": "pantalon de travail",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "work_blue",
+                    "faded_blue",
+                    "grey",
+                    "brown"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "feet",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "boots",
+                  "name": "brodequins",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "black",
+                    "brown"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "galoshes",
+                  "name": "galoches",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "black"
+                  ],
+                  "weight": 40,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            }
+          ],
+          "f": [
+            {
+              "slot": "head",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "headscarf",
+                  "name": "fichu nou\u00E9",
+                  "feminine": false,
+                  "shape": "headscarf",
+                  "colors": [
+                    "burgundy",
+                    "faded_blue",
+                    "mustard",
+                    "grey"
+                  ],
+                  "weight": 35,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "turban",
+                  "name": "turban",
+                  "feminine": false,
+                  "shape": "turban",
+                  "colors": [
+                    "burgundy",
+                    "bottle_green",
+                    "mustard",
+                    "navy"
+                  ],
+                  "weight": 15,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "bare",
+                  "name": "t\u00EAte nue",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [],
+                  "weight": 50,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "top",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "work_smock",
+                  "name": "blouse de travail",
+                  "feminine": true,
+                  "shape": "smock",
+                  "colors": [
+                    "grey",
+                    "faded_blue",
+                    "beige"
+                  ],
+                  "weight": 55,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "dress",
+                  "name": "robe",
+                  "feminine": true,
+                  "shape": "dress",
+                  "colors": [
+                    "chestnut_brown",
+                    "burgundy",
+                    "grey",
+                    "bottle_green",
+                    "plum"
+                  ],
+                  "weight": 45,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "bottom",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "skirt",
+                  "name": "jupe",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [
+                    "grey",
+                    "black",
+                    "chestnut_brown",
+                    "navy"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "feet",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "wooden_soles",
+                  "name": "chaussures \u00E0 semelles de bois",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [
+                    "black",
+                    "brown"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "galoshes",
+                  "name": "galoches",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "black"
+                  ],
+                  "weight": 40,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "heightCm": 177,
+      "build": {
+        "key": "stocky",
+        "name": "trapu",
+        "nameF": "trapue",
+        "color": null,
+        "weight": 20,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1.12
+      },
+      "skin": {
+        "key": "fair",
+        "name": "clair",
+        "nameF": null,
+        "color": "efd2bd",
+        "weight": 30,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "eyes": {
+        "key": "eyes_blue",
+        "name": "bleus",
+        "nameF": null,
+        "color": "5d82a8",
+        "weight": 22,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "brows": {
+        "key": "straight",
+        "name": "sourcils droits",
+        "nameF": null,
+        "color": null,
+        "weight": 35,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "face": {
+        "key": "long",
+        "name": "visage long",
+        "nameF": null,
+        "color": null,
+        "weight": 14,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 0.86
+      },
+      "nose": {
+        "key": "straight_nose",
+        "name": "nez droit",
+        "nameF": null,
+        "color": null,
+        "weight": 34,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "hairColor": {
+        "key": "grey_hair",
+        "name": "gris",
+        "nameF": null,
+        "color": "9a9792",
+        "weight": 40,
+        "minAge": 50,
+        "maxAge": 200,
+        "sex": null,
+        "gate": "greying",
+        "shape": null,
+        "size": 1
+      },
+      "hairStyle": {
+        "key": "brush",
+        "name": "en brosse",
+        "nameF": null,
+        "color": null,
+        "weight": 14,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "brush",
+        "size": 1
+      },
+      "facialHair": {
+        "key": "beard_short",
+        "name": "barbe courte",
+        "nameF": null,
+        "color": null,
+        "weight": 6,
+        "minAge": 25,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "beard",
+        "size": 1
+      },
+      "glasses": null,
+      "mark": {
+        "key": "mole",
+        "name": "grain de beaut\u00E9 sur la joue",
+        "nameF": null,
+        "color": null,
+        "weight": 25,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": "mark",
+        "shape": "mole",
+        "size": 1
+      },
+      "outfit": [
+        {
+          "slot": "head",
+          "key": "beret",
+          "text": "b\u00E9ret bleu marine",
+          "shape": "beret",
+          "color": "1f2a44",
+          "from": null
+        },
+        {
+          "slot": "top",
+          "key": "work_jacket",
+          "text": "veste de travail bleu d\u00E9lav\u00E9",
+          "shape": "jacket",
+          "color": "6d87a8",
+          "from": null
+        },
+        {
+          "slot": "bottom",
+          "key": "work_trousers",
+          "text": "pantalon de travail gris",
+          "shape": null,
+          "color": "6b6e70",
+          "from": null
+        },
+        {
+          "slot": "feet",
+          "key": "boots",
+          "text": "brodequins brun",
+          "shape": null,
+          "color": "5a3d2b",
+          "from": null
+        }
+      ]
+    },
+    "worn": [
+      {
+        "slot": "head",
+        "key": "beret",
+        "text": "b\u00E9ret bleu marine",
+        "shape": "beret",
+        "color": "1f2a44",
+        "from": null
+      },
+      {
+        "slot": "top",
+        "key": "work_jacket",
+        "text": "veste de travail bleu d\u00E9lav\u00E9",
+        "shape": "jacket",
+        "color": "6d87a8",
+        "from": null
+      },
+      {
+        "slot": "bottom",
+        "key": "work_trousers",
+        "text": "pantalon de travail gris",
+        "shape": null,
+        "color": "6b6e70",
+        "from": null
+      },
+      {
+        "slot": "feet",
+        "key": "boots",
+        "text": "brodequins brun",
+        "shape": null,
+        "color": "5a3d2b",
+        "from": null
+      }
+    ]
+  },
+  "personality": {
+    "drawn": {
+      "id": 50,
+      "profile": "fence_sitter",
+      "shownProfile": "fence_sitter",
+      "traits": [
+        "veteran_1418",
+        "apolitical",
+        "young_children"
+      ],
+      "axes": {
+        "fervour": 27,
+        "risk": 15,
+        "nerve": 50,
+        "loyalty": 50,
+        "discretion": 40,
+        "greed": 20
+      },
+      "fervour": 27
+    },
+    "currentFervour": 27,
+    "traits": [
+      {
+        "key": "apolitical",
+        "name": "Apolitique",
+        "category": "conviction",
+        "group": "politics",
+        "hidden": false,
+        "axes": {},
+        "opinion": {},
+        "reactions": {},
+        "drift": 1,
+        "occupierFervour": 0
+      },
+      {
+        "key": "veteran_1418",
+        "name": "Ancien de 14-18",
+        "category": "background",
+        "group": null,
+        "hidden": false,
+        "axes": {
+          "nerve": 10,
+          "fervour": 2.5
+        },
+        "opinion": {
+          "german_lover": -20,
+          "collaborationist": -10,
+          "veteran_1418": 15,
+          "petainist": 5,
+          "career_soldier": 5,
+          "alsatian_refugee": 5
+        },
+        "reactions": {},
+        "drift": 1,
+        "occupierFervour": 0
+      },
+      {
+        "key": "young_children",
+        "name": "Parent de jeunes enfants",
+        "category": "situation",
+        "group": null,
+        "hidden": false,
+        "axes": {
+          "risk": -15
+        },
+        "opinion": {
+          "young_children": 5
+        },
+        "reactions": {
+          "home_bombed": -3,
+          "east_transfer": -3
+        },
+        "drift": 1,
+        "occupierFervour": -5
+      }
+    ],
+    "axes": [
+      {
+        "key": "fervour",
+        "name": "Ferveur",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "risk",
+        "name": "Prise de risque",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "nerve",
+        "name": "Tenue",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "loyalty",
+        "name": "Fid\u00E9lit\u00E9",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "discretion",
+        "name": "Discr\u00E9tion",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "greed",
+        "name": "V\u00E9nalit\u00E9",
+        "min": 0,
+        "max": 100
+      }
+    ],
+    "voiceAmbiance": "Paul parle de Verdun, et la pi\u00E8ce se tait.",
+    "voiceWords": [
+      "Il parle de ses petits ; on sent qu\u0027il a peur pour eux."
+    ]
+  },
+  "relations": {
+    "kinship": [],
+    "contacts": [
+      {
+        "person": {
+          "id": 7,
+          "name": "Jacqueline Taillefer"
+        },
+        "kinds": "Neighbour",
+        "outgoing": 30,
+        "incoming": 60
+      },
+      {
+        "person": {
+          "id": 24,
+          "name": "Germaine Gaborit"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 40,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 25,
+          "name": "Yvonne Lambert"
+        },
+        "kinds": "Regular",
+        "outgoing": 30,
+        "incoming": 42
+      },
+      {
+        "person": {
+          "id": 26,
+          "name": "\u00C9mile Guillot"
+        },
+        "kinds": "Regular",
+        "outgoing": 50,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 27,
+          "name": "Gilbert Ouvrard"
+        },
+        "kinds": "Regular",
+        "outgoing": 34,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 28,
+          "name": "Marcel Robin"
+        },
+        "kinds": "Regular",
+        "outgoing": 33,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 53,
+          "name": "Pierre Mainard"
+        },
+        "kinds": "Colleague",
+        "outgoing": 74,
+        "incoming": 74
+      },
+      {
+        "person": {
+          "id": 54,
+          "name": "Ren\u00E9 Billaud"
+        },
+        "kinds": "Neighbour",
+        "outgoing": 50,
+        "incoming": 60
+      },
+      {
+        "person": {
+          "id": 55,
+          "name": "C\u00E9line Vallet"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 30
+      },
+      {
+        "person": {
+          "id": 56,
+          "name": "\u00C9douard Simonneau"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 57,
+          "name": "Alice Rabault"
+        },
+        "kinds": "Regular",
+        "outgoing": 21,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 58,
+          "name": "Walter M\u00FCller"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 16
+      },
+      {
+        "person": {
+          "id": 60,
+          "name": "Henri Sauzeau"
+        },
+        "kinds": "Regular",
+        "outgoing": 31,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 73,
+          "name": "Charles H\u00E9rault"
+        },
+        "kinds": "Regular",
+        "outgoing": 18,
+        "incoming": 55
+      },
+      {
+        "person": {
+          "id": 74,
+          "name": "Gilbert Chauvin"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 40
+      },
+      {
+        "person": {
+          "id": 77,
+          "name": "Herbert Werner"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 8
+      },
+      {
+        "person": {
+          "id": 78,
+          "name": "Wilhelm Meier"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 5
+      },
+      {
+        "person": {
+          "id": 79,
+          "name": "Josette Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 9,
+        "incoming": 27
+      },
+      {
+        "person": {
+          "id": 153,
+          "name": "Jean Tessier"
+        },
+        "kinds": "Regular",
+        "outgoing": 61,
+        "incoming": 59
+      },
+      {
+        "person": {
+          "id": 156,
+          "name": "Joseph Jaud"
+        },
+        "kinds": "Regular",
+        "outgoing": 60,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 163,
+          "name": "Augustine Brochard"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 31
+      },
+      {
+        "person": {
+          "id": 164,
+          "name": "Juliette Vallet"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 43,
+        "incoming": 52
+      },
+      {
+        "person": {
+          "id": 165,
+          "name": "Jean Vallet"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 167,
+          "name": "Suzanne Tessier"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 41
+      },
+      {
+        "person": {
+          "id": 168,
+          "name": "Paulette Boinot"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 26,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 196,
+          "name": "Alice Chauvin"
+        },
+        "kinds": "Regular",
+        "outgoing": 40,
+        "incoming": 46
+      },
+      {
+        "person": {
+          "id": 203,
+          "name": "Huguette Bigot"
+        },
+        "kinds": "Regular",
+        "outgoing": 23,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 208,
+          "name": "Yvette Girard"
+        },
+        "kinds": "Regular",
+        "outgoing": 15,
+        "incoming": 38
+      },
+      {
+        "person": {
+          "id": 211,
+          "name": "Roger Bouchet"
+        },
+        "kinds": "Schoolmate, Regular",
+        "outgoing": 37,
+        "incoming": 66
+      },
+      {
+        "person": {
+          "id": 216,
+          "name": "Cl\u00E9ment Marchand"
+        },
+        "kinds": "Regular",
+        "outgoing": 36,
+        "incoming": 44
+      },
+      {
+        "person": {
+          "id": 217,
+          "name": "Gabrielle Chaigneau"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 27,
+        "incoming": 51
+      },
+      {
+        "person": {
+          "id": 219,
+          "name": "Raoul Gilbert"
+        },
+        "kinds": "Regular",
+        "outgoing": 25,
+        "incoming": 35
+      },
+      {
+        "person": {
+          "id": 230,
+          "name": "Aim\u00E9 Vallet"
+        },
+        "kinds": "Regular",
+        "outgoing": 10,
+        "incoming": 47
+      },
+      {
+        "person": {
+          "id": 231,
+          "name": "Raymond Pineau"
+        },
+        "kinds": "Regular",
+        "outgoing": 43,
+        "incoming": 33
+      },
+      {
+        "person": {
+          "id": 233,
+          "name": "Simone Bernard"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 236,
+          "name": "Colette Bouju"
+        },
+        "kinds": "Regular",
+        "outgoing": 32,
+        "incoming": 39
+      },
+      {
+        "person": {
+          "id": 238,
+          "name": "Henri Ecalle"
+        },
+        "kinds": "Regular",
+        "outgoing": 10,
+        "incoming": 53
+      },
+      {
+        "person": {
+          "id": 241,
+          "name": "Guy Brochard"
+        },
+        "kinds": "Schoolmate",
+        "outgoing": 55,
+        "incoming": 67
+      },
+      {
+        "person": {
+          "id": 246,
+          "name": "Louis Boutin"
+        },
+        "kinds": "Regular",
+        "outgoing": 54,
+        "incoming": 45
+      },
+      {
+        "person": {
+          "id": 248,
+          "name": "\u00C9mile Charrier"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 30
+      },
+      {
+        "person": {
+          "id": 250,
+          "name": "Henri Sauzeau"
+        },
+        "kinds": "Regular",
+        "outgoing": 58,
+        "incoming": 54
+      },
+      {
+        "person": {
+          "id": 362,
+          "name": "Heinz Scholz"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 12
+      },
+      {
+        "person": {
+          "id": 363,
+          "name": "Helmut Kraus"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 8
+      },
+      {
+        "person": {
+          "id": 364,
+          "name": "Werner Seidel"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 17
+      },
+      {
+        "person": {
+          "id": 365,
+          "name": "Hans Dietrich"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 13
+      },
+      {
+        "person": {
+          "id": 370,
+          "name": "Max Lehmann"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 11
+      },
+      {
+        "person": {
+          "id": 371,
+          "name": "Franz Pichler"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 6
+      },
+      {
+        "person": {
+          "id": 372,
+          "name": "Georg Berger"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 20
+      },
+      {
+        "person": {
+          "id": 373,
+          "name": "Walter Weber"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 20
+      },
+      {
+        "person": {
+          "id": 374,
+          "name": "Heinz Schr\u00F6der"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 22
+      },
+      {
+        "person": {
+          "id": 375,
+          "name": "Horst Kr\u00FCger"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 11
+      },
+      {
+        "person": {
+          "id": 376,
+          "name": "Herbert Schr\u00F6der"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 10
+      },
+      {
+        "person": {
+          "id": 377,
+          "name": "G\u00FCnther Meier"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 5
+      },
+      {
+        "person": {
+          "id": 378,
+          "name": "Alfred Fischer"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 21
+      },
+      {
+        "person": {
+          "id": 379,
+          "name": "Erich Richter"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 16
+      },
+      {
+        "person": {
+          "id": 380,
+          "name": "Gerhard Neumann"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 23
+      },
+      {
+        "person": {
+          "id": 381,
+          "name": "Ernst Werner"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 11
+      },
+      {
+        "person": {
+          "id": 382,
+          "name": "Heinz Wolf"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 23
+      },
+      {
+        "person": {
+          "id": 383,
+          "name": "Helmut Wolf"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 17
+      },
+      {
+        "person": {
+          "id": 384,
+          "name": "Ernst Schmidt"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 22
+      },
+      {
+        "person": {
+          "id": 385,
+          "name": "Paul Schulz"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 3
+      },
+      {
+        "person": {
+          "id": 386,
+          "name": "Hans Scholz"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 18
+      },
+      {
+        "person": {
+          "id": 387,
+          "name": "G\u00FCnther Schmitt"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 9
+      },
+      {
+        "person": {
+          "id": 388,
+          "name": "Rudolf Braun"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 5
+      },
+      {
+        "person": {
+          "id": 389,
+          "name": "Kurt Koch"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 10
+      },
+      {
+        "person": {
+          "id": 390,
+          "name": "Otto Fischer"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 1
+      },
+      {
+        "person": {
+          "id": 391,
+          "name": "Horst Schmitt"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 16
+      },
+      {
+        "person": {
+          "id": 392,
+          "name": "Horst Krause"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 5
+      },
+      {
+        "person": {
+          "id": 393,
+          "name": "Wilhelm Schmitt"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 14
+      },
+      {
+        "person": {
+          "id": 394,
+          "name": "Heinrich Huber"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 13
+      },
+      {
+        "person": {
+          "id": 399,
+          "name": "Bruno Haas"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 22
+      },
+      {
+        "person": {
+          "id": 400,
+          "name": "Alois Steiner"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 11
+      },
+      {
+        "person": {
+          "id": 401,
+          "name": "Horst Fuchs"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 22
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "format": "memoire-choisie/0.3",
+  "projet_id": "palim-la-rive",
+  "version": "0.3",
+  "versions_conservees": {
+    "0.1": "../ouvrage-source/",
+    "0.2": "../ouvrage-v0.2/",
+    "0.3": "./"
+  },
+  "retours_reels": {
+    "aria_sur_0.1": "../01-review.md",
+    "orbe_sur_0.2": "../02-review.md"
+  },
+  "objet_test": {
+    "objet_id": "fiction-lanterne-001",
+    "nature": "fiction technique de Palim",
+    "auteur_fictif": "Aster-de-papier",
+    "personne_reelle": false,
+    "jeton_de_simulation": "ESSAI-ASTER-001",
+    "statut_source": "conserve comme contrôle",
+    "statut_maquette_avant_test": "présent",
+    "statut_maquette_apres_test": "retire_dans_la_maquette_le_2026-09-10T23:47:23+02:00",
+    "releve_minimal": "03-exemple-fictif-v0.3.md"
+  },
+  "depot": {
+    "depositaire": "palim-lumina",
+    "perimetre": "../maquette-retrait-v0.3/paquet/ seulement",
+    "exclusions": [
+      "les sources ouvrage-v0.3",
+      "l'archive copie/palim-la-rive-0.3.zip",
+      "les versions 0.1 et 0.2",
+      "tout emplacement inconnu"
+    ],
+    "preuve_attendue": "journal daté avec demande, réception, décision, inventaires avant et après"
+  },
+  "garanties_absentes": [
+    "service de conservation indépendant",
+    "autorité ou garantie de la cité",
+    "restauration d'une chambre",
+    "inventaire ou effacement des emplacements inconnus"
+  ],
+  "execution_locale": {
+    "depositaire": "palim-lumina",
+    "effet": "fragment complet remplacé par un relevé minimal dans la maquette",
+    "date": "2026-09-10T23:47:23+02:00",
+    "preuve": "../journal/04-preuve-execution.md"
+  },
+  "prochaine_etape": "faire contrôler l'écart entre la source témoin et la maquette après retrait"
+}

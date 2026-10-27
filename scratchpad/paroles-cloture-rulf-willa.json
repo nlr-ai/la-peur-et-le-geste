@@ -1,0 +1,22 @@
+[
+  {
+    "id":"parole-gerardys-choisit-willa-temoin-sombreval-129-5-12",
+    "date":{"annee":129,"lune":5,"jour":12,"minute":733},
+    "locuteur_id":"gerardys",
+    "lieu_id":"peyredragon",
+    "destinataires":["rhaenyra"],
+    "temoins":[],
+    "connu_de":["rhaenyra","gerardys"],
+    "contenu":"Willa des Séchoirs est la première retenue. Gerardys lui fait porter l’ordre de comparaître seule devant la reine avant vêpres, sans parler à Rulf ni aux trois autres témoins avant son audience."
+  },
+  {
+    "id":"parole-willa-temoignage-separe-sombreval-129-5-12",
+    "date":{"annee":129,"lune":5,"jour":12,"minute":755},
+    "locuteur_id":"willa-sechoirs",
+    "lieu_id":"peyredragon",
+    "destinataires":["rhaenyra"],
+    "temoins":["gerardys"],
+    "connu_de":["rhaenyra","gerardys","willa-sechoirs"],
+    "contenu":"Zéro vu de mes yeux. Zéro entendu que je puisse dater d’après le quatrième jour de la quatrième lune, six heures sept. Et je ne peux attester avoir parlé à maître Rulf ni sur le quai ni depuis son retour. Je ne remplirai pas les blancs, Votre Grâce."
+  }
+]

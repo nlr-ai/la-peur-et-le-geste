@@ -1,0 +1,680 @@
+{
+  "meta": {
+    "scenario": "arrival",
+    "seed": 1,
+    "personId": 399,
+    "shownAt": "1940-06-15T08:00:00",
+    "simulationAt": "1940-06-15T08:00:00",
+    "sections": [
+      "identity",
+      "personality",
+      "relations"
+    ],
+    "coordinates": "location positions use map units; nested native MapPoint X/Y values use 1000 subdivisions per unit. Not latitude/longitude.",
+    "perspective": "Omniscient dossier. Only knowledge describes information actually known by this character. Other people\u0027s trust, secret holders and hidden traits are not automatically known to him.",
+    "limits": "No invented biography, dialogue, money balance or inventory. Household/site goods are recorded possessions, not proof of personal access. History covers today through shownAt; no future events are exported. Telephone service is at simulationAt."
+  },
+  "identity": {
+    "row": {
+      "id": 399,
+      "first": "Bruno",
+      "last": "Haas",
+      "sex": "m",
+      "age": 27,
+      "nationality": "de",
+      "allegiance": "occupant",
+      "household": 5455,
+      "relation": "head",
+      "status": "post",
+      "post": "feldgendarm",
+      "building": 62,
+      "job": "Leutnant, Chef du Feldgendarmerie-Trupp",
+      "cover": null,
+      "from": "1940-06-28T00:00:00",
+      "war": null
+    },
+    "greatWar": null,
+    "groups": [],
+    "appearance": {
+      "id": 399,
+      "class": {
+        "key": "wehrmacht",
+        "name": "Soldat allemand",
+        "weights": {
+          "shaven": 8,
+          "brush": 3,
+          "short": 2,
+          "slick": 0.3,
+          "stubble": 0.5,
+          "stout": 0.3,
+          "fair_hair": 1.6
+        },
+        "gates": {
+          "glasses": 0.5
+        },
+        "outfit": {
+          "m": [
+            {
+              "slot": "head",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "field_cap",
+                  "name": "calot",
+                  "feminine": false,
+                  "shape": "field_cap",
+                  "colors": [
+                    "feldgrau"
+                  ],
+                  "weight": 65,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "helmet",
+                  "name": "casque",
+                  "feminine": false,
+                  "shape": "helmet",
+                  "colors": [
+                    "feldgrau"
+                  ],
+                  "weight": 35,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "top",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "tunic",
+                  "name": "vareuse",
+                  "feminine": true,
+                  "shape": "uniform",
+                  "colors": [
+                    "feldgrau"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "bottom",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "trousers",
+                  "name": "pantalon",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "feldgrau",
+                    "stone_grey"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "over",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "belt",
+                  "name": "ceinturon",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "black"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "feet",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "jackboots",
+                  "name": "bottes",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [
+                    "black"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "heightCm": 171,
+      "build": {
+        "key": "medium",
+        "name": "de corpulence moyenne",
+        "nameF": null,
+        "color": null,
+        "weight": 45,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "skin": {
+        "key": "fair",
+        "name": "clair",
+        "nameF": null,
+        "color": "efd2bd",
+        "weight": 30,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "eyes": {
+        "key": "eyes_blue",
+        "name": "bleus",
+        "nameF": null,
+        "color": "5d82a8",
+        "weight": 22,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "brows": {
+        "key": "thin",
+        "name": "sourcils fins",
+        "nameF": null,
+        "color": null,
+        "weight": 25,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 0.7
+      },
+      "face": {
+        "key": "square",
+        "name": "visage carr\u00E9",
+        "nameF": null,
+        "color": null,
+        "weight": 20,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "square",
+        "size": 1.04
+      },
+      "nose": {
+        "key": "big_nose",
+        "name": "nez fort",
+        "nameF": null,
+        "color": null,
+        "weight": 18,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1.3
+      },
+      "hairColor": {
+        "key": "chestnut",
+        "name": "ch\u00E2tains",
+        "nameF": null,
+        "color": "6b4a2f",
+        "weight": 32,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "hairStyle": {
+        "key": "short",
+        "name": "coup\u00E9s court",
+        "nameF": null,
+        "color": null,
+        "weight": 35,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "short",
+        "size": 1
+      },
+      "facialHair": {
+        "key": "moustache_thick",
+        "name": "moustache \u00E9paisse",
+        "nameF": null,
+        "color": null,
+        "weight": 16,
+        "minAge": 22,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "thick",
+        "size": 1
+      },
+      "glasses": null,
+      "mark": null,
+      "outfit": [
+        {
+          "slot": "head",
+          "key": "field_cap",
+          "text": "calot feldgrau",
+          "shape": "field_cap",
+          "color": "5d6550",
+          "from": null
+        },
+        {
+          "slot": "top",
+          "key": "tunic",
+          "text": "vareuse feldgrau",
+          "shape": "uniform",
+          "color": "5d6550",
+          "from": null
+        },
+        {
+          "slot": "bottom",
+          "key": "trousers",
+          "text": "pantalon feldgrau",
+          "shape": null,
+          "color": "5d6550",
+          "from": null
+        },
+        {
+          "slot": "over",
+          "key": "belt",
+          "text": "ceinturon noir",
+          "shape": null,
+          "color": "1c1c1e",
+          "from": null
+        },
+        {
+          "slot": "feet",
+          "key": "jackboots",
+          "text": "bottes noire",
+          "shape": null,
+          "color": "1c1c1e",
+          "from": null
+        }
+      ]
+    },
+    "worn": [
+      {
+        "slot": "head",
+        "key": "field_cap",
+        "text": "calot feldgrau",
+        "shape": "field_cap",
+        "color": "5d6550",
+        "from": null
+      },
+      {
+        "slot": "top",
+        "key": "tunic",
+        "text": "vareuse feldgrau",
+        "shape": "uniform",
+        "color": "5d6550",
+        "from": null
+      },
+      {
+        "slot": "bottom",
+        "key": "trousers",
+        "text": "pantalon feldgrau",
+        "shape": null,
+        "color": "5d6550",
+        "from": null
+      },
+      {
+        "slot": "over",
+        "key": "belt",
+        "text": "ceinturon noir",
+        "shape": null,
+        "color": "1c1c1e",
+        "from": null
+      },
+      {
+        "slot": "feet",
+        "key": "jackboots",
+        "text": "bottes noire",
+        "shape": null,
+        "color": "1c1c1e",
+        "from": null
+      }
+    ]
+  },
+  "personality": {
+    "drawn": null,
+    "currentFervour": null,
+    "traits": [],
+    "axes": [
+      {
+        "key": "fervour",
+        "name": "Ferveur",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "risk",
+        "name": "Prise de risque",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "nerve",
+        "name": "Tenue",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "loyalty",
+        "name": "Fid\u00E9lit\u00E9",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "discretion",
+        "name": "Discr\u00E9tion",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "key": "greed",
+        "name": "V\u00E9nalit\u00E9",
+        "min": 0,
+        "max": 100
+      }
+    ],
+    "voiceAmbiance": "Bruno prend la parole.",
+    "voiceWords": []
+  },
+  "relations": {
+    "kinship": [],
+    "contacts": [
+      {
+        "person": {
+          "id": 8,
+          "name": "Michel Ecalle"
+        },
+        "kinds": "Regular",
+        "outgoing": 27,
+        "incoming": 6
+      },
+      {
+        "person": {
+          "id": 24,
+          "name": "Germaine Gaborit"
+        },
+        "kinds": "Regular",
+        "outgoing": 14,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 25,
+          "name": "Yvonne Lambert"
+        },
+        "kinds": "Regular",
+        "outgoing": 11,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 27,
+          "name": "Gilbert Ouvrard"
+        },
+        "kinds": "Regular",
+        "outgoing": 1,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 33,
+          "name": "Raoul H\u00E9raud"
+        },
+        "kinds": "Regular",
+        "outgoing": 5,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 46,
+          "name": "Octave Mainard"
+        },
+        "kinds": "Regular",
+        "outgoing": 9,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 47,
+          "name": "Marius Bonnet"
+        },
+        "kinds": "Regular",
+        "outgoing": 7,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 52,
+          "name": "Paul Bigot"
+        },
+        "kinds": "Regular",
+        "outgoing": 22,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 71,
+          "name": "Simone Poupin"
+        },
+        "kinds": "Regular",
+        "outgoing": 5,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 79,
+          "name": "Josette Moreau"
+        },
+        "kinds": "Neighbour",
+        "outgoing": 44,
+        "incoming": 30
+      },
+      {
+        "person": {
+          "id": 155,
+          "name": "Michel Bastard"
+        },
+        "kinds": "Regular",
+        "outgoing": 19,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 196,
+          "name": "Alice Chauvin"
+        },
+        "kinds": "Regular",
+        "outgoing": 13,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 203,
+          "name": "Huguette Bigot"
+        },
+        "kinds": "Neighbour",
+        "outgoing": 1,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 204,
+          "name": "Lucienne Gilbert"
+        },
+        "kinds": "Regular",
+        "outgoing": 13,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 228,
+          "name": "Marie Moreau"
+        },
+        "kinds": "Regular",
+        "outgoing": 11,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 231,
+          "name": "Raymond Pineau"
+        },
+        "kinds": "Neighbour, Regular",
+        "outgoing": 31,
+        "incoming": 14
+      },
+      {
+        "person": {
+          "id": 236,
+          "name": "Colette Bouju"
+        },
+        "kinds": "Regular",
+        "outgoing": 2,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 247,
+          "name": "Claude Raffin"
+        },
+        "kinds": "Regular",
+        "outgoing": 0,
+        "incoming": 0
+      },
+      {
+        "person": {
+          "id": 351,
+          "name": "Ernst Lindner"
+        },
+        "kinds": "Colleague",
+        "outgoing": 62,
+        "incoming": 57
+      },
+      {
+        "person": {
+          "id": 352,
+          "name": "Gerhard Vogt"
+        },
+        "kinds": "Colleague",
+        "outgoing": 64,
+        "incoming": 64
+      },
+      {
+        "person": {
+          "id": 353,
+          "name": "Paul Ritter"
+        },
+        "kinds": "Colleague",
+        "outgoing": 62,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 354,
+          "name": "Alfred Kessler"
+        },
+        "kinds": "Colleague",
+        "outgoing": 56,
+        "incoming": 63
+      },
+      {
+        "person": {
+          "id": 355,
+          "name": "Rudolf Baumann"
+        },
+        "kinds": "Colleague",
+        "outgoing": 67,
+        "incoming": 65
+      },
+      {
+        "person": {
+          "id": 356,
+          "name": "Willi Hoffmann"
+        },
+        "kinds": "Colleague",
+        "outgoing": 51,
+        "incoming": 66
+      },
+      {
+        "person": {
+          "id": 357,
+          "name": "Josef Huber"
+        },
+        "kinds": "Colleague",
+        "outgoing": 53,
+        "incoming": 56
+      },
+      {
+        "person": {
+          "id": 358,
+          "name": "Kurt Brandt"
+        },
+        "kinds": "Colleague",
+        "outgoing": 57,
+        "incoming": 65
+      },
+      {
+        "person": {
+          "id": 360,
+          "name": "Heinrich Peters"
+        },
+        "kinds": "Colleague",
+        "outgoing": 69,
+        "incoming": 65
+      },
+      {
+        "person": {
+          "id": 400,
+          "name": "Alois Steiner"
+        },
+        "kinds": "Family, Colleague",
+        "outgoing": 86,
+        "incoming": 86
+      },
+      {
+        "person": {
+          "id": 401,
+          "name": "Horst Fuchs"
+        },
+        "kinds": "Family, Colleague",
+        "outgoing": 93,
+        "incoming": 96
+      }
+    ]
+  }
+}

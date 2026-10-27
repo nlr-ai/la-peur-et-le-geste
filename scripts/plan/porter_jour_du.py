@@ -19,7 +19,10 @@ note, ou elles sont justes. On n'ecrase jamais un `Jour dû` deja rempli.
 """
 import io, os, re, sys
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
 _d = _os.path.dirname(_os.path.abspath(__file__))
 while _os.path.basename(_d) != "scripts" and _os.path.dirname(_d) != _d:
@@ -32,7 +35,7 @@ from plan.expose import couverture as C
 import bibliotheque
 from etat.expose import tables  # noqa: E402 — LA PORTE de etat/
 
-BOOKS = os.path.join(RACINE, "etat", "books.json")
+BOOKS = os.path.join(ETAT, "books.json")
 COL_JOUR = u"📅 Jour dû"
 
 # « avant le 4e de la 4e lune » d'abord : la forme longue prime sur la courte,

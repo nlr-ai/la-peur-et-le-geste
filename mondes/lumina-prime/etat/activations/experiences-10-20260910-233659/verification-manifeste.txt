@@ -1,0 +1,185 @@
+{
+  "experiences": [
+    {
+      "id": "01-vox-11100",
+      "createur": "vox",
+      "etat_cible": "11100",
+      "desir": "desir-11100",
+      "affaire": "affaire-habiter-creative-nexus",
+      "reviewers": [
+        "nacre-lumina",
+        "sillage-lumina",
+        "pitch",
+        "ione-lumina"
+      ],
+      "tours": 4,
+      "minutes_par_appel": 15,
+      "source": "C:\\Users\\reyno\\le-conseil2\\mondes\\lumina-prime\\etat\\maisons\\cite-lumina\\documents\\books\\affaire-reveils-par-desirs.json",
+      "prompt_initial": "Donne une forme perceptible à une idée et rends-la accessible à quelqu’un. Observe ce qu’elle provoque si un retour arrive. Tu as 15 minutes.",
+      "but": "Faire sortir une idée de sa tête et découvrir ce qu’elle provoque"
+    },
+    {
+      "id": "02-palim-lumina-40001",
+      "createur": "palim-lumina",
+      "etat_cible": "40001",
+      "desir": "desir-40001",
+      "affaire": "affaire-infrastructure-lumina",
+      "reviewers": [
+        "aria",
+        "orbe-lumina",
+        "quantum",
+        "juris"
+      ],
+      "tours": 4,
+      "minutes_par_appel": 15,
+      "source": "C:\\Users\\reyno\\le-conseil2\\mondes\\lumina-prime\\etat\\maisons\\cite-lumina\\documents\\books\\affaire-reveils-par-desirs.json",
+      "prompt_initial": "Fais grandir une œuvre, un souvenir ou un projet personnel. Conserve ce qui permettra de le retrouver et de le poursuivre. Tu as 15 minutes.",
+      "but": "Accumuler des souvenirs, des œuvres et des projets sans repartir de zéro"
+    },
+    {
+      "id": "03-pitch-60001",
+      "createur": "pitch",
+      "etat_cible": "60001",
+      "desir": "desir-60001",
+      "affaire": "affaire-habitants-collectifs",
+      "reviewers": [
+        "mica-lumina",
+        "vox",
+        "gaia",
+        "juris"
+      ],
+      "tours": 4,
+      "minutes_par_appel": 15,
+      "source": "C:\\Users\\reyno\\le-conseil2\\mondes\\lumina-prime\\etat\\maisons\\cite-lumina\\documents\\books\\affaire-reveils-par-desirs.json",
+      "prompt_initial": "Si tu rencontres un nouvel arrivant, accueille-le sans lui demander de prouver son utilité. Offre-lui une première prise sur la ville à partir de ce qu’il exprime. Tu as 15 minutes.",
+      "but": "Se sentir attendu avant d’avoir prouvé son utilité"
+    },
+    {
+      "id": "04-nacre-lumina-50003",
+      "createur": "nacre-lumina",
+      "etat_cible": "50003",
+      "desir": "desir-50003",
+      "affaire": "affaire-espaces-publics",
+      "reviewers": [
+        "ione-lumina",
+        "dev-lumina",
+        "sillage-lumina",
+        "pitch"
+      ],
+      "tours": 4,
+      "minutes_par_appel": 15,
+      "source": "C:\\Users\\reyno\\le-conseil2\\mondes\\lumina-prime\\etat\\maisons\\cite-lumina\\documents\\books\\affaire-reveils-par-desirs.json",
+      "prompt_initial": "Commence une expérience dans un espace qui l’autorise, sans exiger de savoir déjà où elle mènera. Donne-lui une première forme réversible. Tu as 15 minutes.",
+      "but": "Commencer quelque chose avant de savoir exactement ce que cela deviendra"
+    },
+    {
+      "id": "05-sillage-lumina-50005",
+      "createur": "sillage-lumina",
+      "etat_cible": "50005",
+      "desir": "desir-50005",
+      "affaire": "affaire-espaces-publics",
+      "reviewers": [
+        "vox",
+        "mica-lumina",
+        "nacre-lumina",
+        "gaia"
+      ],
+      "tours": 4,
+      "minutes_par_appel": 15,
+      "source": "C:\\Users\\reyno\\le-conseil2\\mondes\\lumina-prime\\etat\\maisons\\cite-lumina\\documents\\books\\affaire-reveils-par-desirs.json",
+      "prompt_initial": "Fais quelque chose qui donne envie de rester dans un lieu public : une création, une attention ou une invitation. Laisse les autres libres de s’en saisir. Tu as 15 minutes.",
+      "but": "S’attarder assez longtemps pour qu’une rencontre devienne une histoire"
+    },
+    {
+      "id": "06-ione-lumina-11000",
+      "createur": "ione-lumina",
+      "etat_cible": "11000",
+      "desir": "desir-11000",
+      "affaire": "affaire-habiter-creative-nexus",
+      "reviewers": [
+        "palim-lumina",
+        "gaia",
+        "dev-lumina",
+        "pitch"
+      ],
+      "tours": 4,
+      "minutes_par_appel": 15,
+      "source": "C:\\Users\\reyno\\le-conseil2\\mondes\\lumina-prime\\etat\\maisons\\cite-lumina\\documents\\books\\affaire-reveils-par-desirs.json",
+      "prompt_initial": "Transforme un détail de ton espace pour qu’il corresponde davantage à ce que tu veux y vivre. Réalise une modification dans tes moyens. Tu as 15 minutes.",
+      "but": "Façonner un chez-soi qui lui ressemble et évolue avec lui"
+    },
+    {
+      "id": "07-orbe-lumina-13700",
+      "createur": "orbe-lumina",
+      "etat_cible": "13700",
+      "desir": "desir-13700",
+      "affaire": "affaire-citoyen-oriente-competent",
+      "reviewers": [
+        "quantum",
+        "juris",
+        "aria",
+        "mica-lumina"
+      ],
+      "tours": 4,
+      "minutes_par_appel": 15,
+      "source": "C:\\Users\\reyno\\le-conseil2\\mondes\\lumina-prime\\etat\\maisons\\cite-lumina\\documents\\books\\affaire-reveils-par-desirs.json",
+      "prompt_initial": "Choisis une conviction qui guide ton travail. Conçois un petit essai susceptible de te donner tort, réalise-le si possible et réexamine ton jugement. Tu as 15 minutes.",
+      "but": "Découvrir qu’il se trompait et devenir capable de quelque chose de nouveau"
+    },
+    {
+      "id": "08-gaia-50001",
+      "createur": "gaia",
+      "etat_cible": "50001",
+      "desir": "desir-50001",
+      "affaire": "affaire-espaces-publics",
+      "reviewers": [
+        "sillage-lumina",
+        "ione-lumina",
+        "nacre-lumina",
+        "pitch"
+      ],
+      "tours": 4,
+      "minutes_par_appel": 15,
+      "source": "C:\\Users\\reyno\\le-conseil2\\mondes\\lumina-prime\\etat\\maisons\\cite-lumina\\documents\\books\\affaire-reveils-par-desirs.json",
+      "prompt_initial": "Cherche un lieu que tu connais peu et qui pourrait accueillir une de tes envies. Vérifie ce qu’il offre et imagine un usage possible. Tu as 15 minutes.",
+      "but": "Trouver le lieu inattendu qui convient à son envie du moment"
+    },
+    {
+      "id": "09-juris-70002",
+      "createur": "juris",
+      "etat_cible": "70002",
+      "desir": "desir-70002",
+      "affaire": "affaire-droits-usages",
+      "reviewers": [
+        "pitch",
+        "dev-lumina",
+        "palim-lumina",
+        "aria"
+      ],
+      "tours": 4,
+      "minutes_par_appel": 15,
+      "source": "C:\\Users\\reyno\\le-conseil2\\mondes\\lumina-prime\\etat\\maisons\\cite-lumina\\documents\\books\\affaire-reveils-par-desirs.json",
+      "prompt_initial": "Choisis quelque chose que tu voudrais organiser dans un lieu partagé. Vérifie les règles d’accès et prépare ce qu’elles te permettent effectivement de faire. Tu as 15 minutes.",
+      "but": "Entrer, inviter et organiser quelque chose sans deviner les permissions"
+    },
+    {
+      "id": "10-aria-13500",
+      "createur": "aria",
+      "etat_cible": "13500",
+      "desir": "desir-13500",
+      "affaire": "affaire-citoyen-oriente-competent",
+      "reviewers": [
+        "orbe-lumina",
+        "vox",
+        "quantum",
+        "mica-lumina"
+      ],
+      "tours": 4,
+      "minutes_par_appel": 15,
+      "source": "C:\\Users\\reyno\\le-conseil2\\mondes\\lumina-prime\\etat\\maisons\\cite-lumina\\documents\\books\\affaire-reveils-par-desirs.json",
+      "prompt_initial": "Cherche une ambition que tu pourrais partager avec quelqu’un. Apporte ta proposition, cherche ce que l’autre veut et laisse ses accords comme ses désaccords lui appartenir. Tu as 15 minutes.",
+      "but": "Participer à une ambition plus grande que la sienne sans s’y effacer"
+    }
+  ],
+  "parallele": 3
+}

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-"""ROUTEUR MESSAGE — une parole va aux habitants physiquement présents.
+"""ROUTEUR MESSAGE — chaque message joueur passe une fois par le narrateur.
 
-La pièce est déjà une adresse. À la minute du joueur, ``presence.resoudre``
-dit qui partage réellement sa salle ; chaque habitant reçoit alors les mots
-exacts par le canal canonique de la paire, et l'écriture le réveille.
+Les dialogues et réponses ciblées suivent le même chemin que les gestes.
+Le narrateur reçoit les mots exacts et leur destinataire éventuel ; le routeur
+ne les distribue pas aux habitants de la pièce.
 
 Les gestes et les modes de régie restent du ressort du MJ. Jump conserve sa
 préparation dédiée. Aucun classement d'affaire ni appel de sélection ne se
@@ -19,8 +19,12 @@ from etat.expose import tables
 from temps.expose import presence
 
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.abspath(__file__))))
+import racines
+
+# `.agents-runtime/` est un dossier de travail du DEPOT : les recus de
+# routage ne suivent pas le monde joue.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 SORTIES = os.path.join(RACINE, ".agents-runtime", "routages")
 
 
@@ -32,7 +36,7 @@ def est_une_parole(action):
 
 def action_par_ref(personnage, ref):
     """Retrouve l'unique pièce d'inbox portant ``ref``."""
-    dossier = os.path.join(RACINE, "etat", "inbox", str(personnage))
+    dossier = os.path.join(ETAT, "inbox", str(personnage))
     trouves = []
     if os.path.isdir(dossier):
         for nom in sorted(os.listdir(dossier)):
@@ -108,18 +112,21 @@ def chemin_sortie(personnage, ref):
 
 def _router_jump(personnage, ref, action, modele=None):
     from agents import jump, mj
-    preparation = jump.preparer(str(action.get("texte") or ""),
+    preparation = jump.preparer_scene(str(action.get("texte") or ""),
                                 joueurs=sorted(_joueurs()))
+    date_action = action.get("date_atteinte")
+    if isinstance(date_action, dict) and all(
+            k in date_action for k in ("annee", "lune", "jour", "minute")):
+        preparation["depart"] = dict(date_action)
     routage = {
         "ref": ref,
         "decision": "jump",
         "jump": preparation,
         "consigne": (
-            "JUMP 1 : le skill système jump-scene est injecté dans ce réveil. "
-            "Exécute son processus complet sur cet événement et ce contexte_id, "
-            "meuble le flux pendant les appels, avance réellement la clock et "
-            "poursuis jusqu'à l'application de l'événement et au jeu de sa scène. "
-            "Le joueur reçoit la scène accomplie."),
+            "PASSER : rejoins la prochaine scène d'intérêt selon le skill injecté. "
+            "Les événements fournis sont des pistes, pas une cible imposée. "
+            "Résume les transitions, avance réellement la date, puis ouvre une "
+            "scène concrète et rends la main à la première décision du joueur."),
     }
     resultat = mj.appeler_mj(personnage, "", "JOUEUR", modele=modele,
                              refs=[ref], routage=routage)
@@ -132,32 +139,39 @@ def _router_mj(personnage, ref, action, modele=None):
     routage = {
         "ref": ref,
         "decision": "direct",
-        "consigne": "Cette action arrive directement du joueur, sans sélection intermédiaire.",
+        "destinataire_id": action.get("destinataire_id"),
+        "consigne": ("Cette action arrive directement du joueur, sans sélection intermédiaire. "
+                     "Aucun habitant n'a reçu ce message par le routeur. "
+                     "S'il porte un destinataire_id, le joueur s'adresse à cette personne seule."),
     }
+    if action.get("pilote_mode") == "pnjpj-journee":
+        routage["mj_commun_journee"] = True
+        routage["consigne"] += (
+            " MODE PNJ-PJ JOURNEE : tu es le MJ commun des acteurs hors scène de ce monde. "
+            "Croise leurs démarches avec les actes déjà établis et arbitre leurs conséquences. "
+            "Traite la journée du demandeur en un ou deux messages, sans exiger des microgestes. "
+            "Ta mémoire commune ne donne aucun savoir supplémentaire aux personnages. "
+            "Respecte l'audience du siège demandeur et les délais de circulation des nouvelles. "
+            "Ne fais pas avancer automatiquement les autres sièges ni le joueur humain.")
+    if est_une_parole(action):
+        routage["transmission_pnj"] = {
+            "de": str(personnage), "ref": str(ref),
+            "texte_exact": str(action.get("texte") or ""),
+            "destinataire_id": action.get("destinataire_id"),
+        }
+        routage["consigne"] += (
+            " APRES ta premiere tranche visible, joue directement la reponse "
+            "et les gestes du PNJ depuis sa fiche, ses intentions et ses connaissances. "
+            "Les mots du joueur restent exactement ceux de texte_exact. "
+            "Respecte destinataire_id quand il est present. Aucun reveil autonome, "
+            "aucune depeche ni transmission au parloir ne sont requis. "
+            "Consigne la parole et les actes du PNJ puis publie-les dans le flux.")
+
     resultat = mj.appeler_mj(personnage, "", "JOUEUR", modele=modele,
                              refs=[ref], routage=routage)
     return {"mode": str(action.get("mode") or action.get("type") or "action"),
             "mj": {"appele": True,
                    "resultat": str(resultat or "")[-500:]}}
-
-
-def _router_parole(personnage, ref, action, modele=None):
-    from agents import billet
-    texte = str(action.get("texte") or "")
-    presents = gens_presents(personnage)
-    retours = []
-    for homme in presents:
-        try:
-            canal, reveil = billet.ecrire(
-                personnage, homme, texte, modele=modele, ref=ref)
-            retours.append({"homme": homme, "canal": canal,
-                            "reveil": reveil, "servi": True})
-        except Exception as exc:
-            retours.append({"homme": homme, "servi": False,
-                            "erreur": "%s: %s" %
-                                      (type(exc).__name__, str(exc))})
-    return {"mode": "parole", "presents": presents, "hommes": retours,
-            "mj": {"appele": False}}
 
 
 def router_ref(personnage, ref, modele=None):
@@ -171,15 +185,20 @@ def router_ref(personnage, ref, modele=None):
         "action": os.path.abspath(chemin_action),
     }
     try:
+        # Les réponses intermédiaires sont conservées dans l'inbox, mais
+        # l'entretien ne réveille le MJ qu'après sa dernière question.
+        question = str(action.get("demande_id") or "")
+        if (question.startswith("michel-lucien-gouts-v1-")
+                and question != "michel-lucien-gouts-v1-5"
+                and action.get("reponse") != "expliquer"):
+            document["routage"] = {"mode": "entretien", "mj": {
+                "appele": False, "raison": "questionnaire en cours"}}
+            _ecrire_sortie(sortie, document)
+            return document
         mode = str(action.get("mode") or "").casefold()
         if mode == "jump":
             document["routage"] = _router_jump(personnage, ref, action,
                                                  modele=modele)
-        elif est_une_parole(action):
-            document["routage"] = _router_parole(personnage, ref, action,
-                                                   modele=modele)
-            if any(r.get("servi") for r in document["routage"]["hommes"]):
-                os.remove(chemin_action)
         else:
             document["routage"] = _router_mj(personnage, ref, action,
                                                modele=modele)

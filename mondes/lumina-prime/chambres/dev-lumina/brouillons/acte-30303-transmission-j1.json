@@ -1,0 +1,12 @@
+{
+  "id": "acte-lp-dev-30303-transmission-autonome-j1-1630",
+  "date": {"annee": 2042, "lune": 1, "jour": 1, "minute": 990},
+  "acteur_id": "dev-lumina",
+  "cible_id": "aria",
+  "lieu_id": "atelier-plans",
+  "connu_de": ["dev-lumina", "aria"],
+  "description": "DEV rend le passeport des plans reprenable sans sa présence en cinq étapes. Il remplit deux cas pilotes dans le volume commun — plan initial du Radiant Core et projet hybride 11020 — puis écrit un protocole de lecture autonome donnant trois réponses vérifiables et des conditions d’arrêt. Aria peut contrôler copie, tenant, statuts sourcés, dépendances et prochaine vérification sans consulter la chambre de DEV. Toute géométrie nouvelle, correction de tracé, qualification spatiale nouvelle ou contradiction entre sources reste explicitement à DEV ; aucun choix entre A et B n’est fait.",
+  "action_id": "30303",
+  "affaire_id": "affaire-plans-lumina",
+  "relation_action": "produit"
+}

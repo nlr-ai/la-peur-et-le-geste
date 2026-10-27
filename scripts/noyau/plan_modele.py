@@ -16,8 +16,12 @@ import re
 import sys
 import unicodedata
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ETAT = os.path.join(RACINE, "etat")
+import racines
+# `RACINE` reste exposee, et c'est la racine du DEPOT : retirer un nom que
+# le module publiait casse ses importeurs a l'autre bout d'un cycle.
+# Seul `ETAT` suit le monde.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 
 import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
 _d = _os.path.dirname(_os.path.abspath(__file__))
@@ -29,6 +33,7 @@ for _p in (_d, _os.path.join(_d, "noyau")):
 
 from plan.expose import couverture as C  # noqa: E402
 import livre  # noqa: E402
+import affaires_chambres  # noqa: E402
 
 FAIT = {"fait", "faite", "faits", "faites", "clos", "close", "closes", "termine", "terminee"}
 BLOQUE = {"bloque", "bloquee", "suspendu", "suspendue", "abandonne", "abandonnee"}
@@ -237,7 +242,12 @@ def charger(vue_de=None):
     qui = vue_de or personnage_par_defaut()
     if not qui:
         raise ValueError("aucun personnage de vue; passer vue_de explicitement")
-    return construire_depuis_livres(livre.etagere(qui), qui)
+    livres = list(livre.etagere(qui))
+    chambres = (affaires_chambres.cahiers(qui, est_volume_de_plan)
+                if affaires_chambres.voit_affaires(qui) else [])
+    modele = construire_depuis_livres(livres + chambres, qui)
+    modele["volumes_chambres"] = chambres
+    return modele
 
 
 def resume(modele):
@@ -251,6 +261,7 @@ def resume(modele):
         "pieces_hors_affaire": modele.get("pieces_hors_affaire") or [],
         "collisions": modele.get("collisions") or [],
         "mesures": mesures(modele),
+        "volumes_chambres": modele.get("volumes_chambres") or [],
     }
 
 

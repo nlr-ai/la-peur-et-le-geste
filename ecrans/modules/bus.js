@@ -70,7 +70,28 @@ window.Bus = (() => {
   });
   // L'heure vient de `monde.date.minute`, tenue par scripts/append_flux.py :
   // chaque item porte l'heure a laquelle il se produit. Voir docs/schema.md.
-  const texteDate = (d) => d ? d.annee + " AC — " + d.lune + "e lune, " + d.jour + "e jour" : "—";
+  // LA DATE SE DIT COMME LE MONDE LE DIT (9.9). « AC » — After Conquest — était
+  // écrit ici, donc `cities-of-light` affichait « 2026 AC » : notre époque datée
+  // depuis la conquête d'Aegon. Le format vient du manifeste
+  // (`calendrier.dit`, en gabarit `%(annee)d / %(lune)d / %(jour)d`) ; à défaut,
+  // c'est la formule d'hier, mot pour mot.
+  // LU A L'APPEL, PAS AU CHARGEMENT — et ce n'est pas un detail de style.
+  // Premiere version : `const _CAL = window.MONDE...` en tete de module. Elle
+  // rendait « 2026 AC » quand meme, parce que `bus.js` est declare AVANT
+  // `/monde.js` dans `jeu.html` : le manifeste n'existait pas encore a
+  // l'evaluation. Un module qui lit une globale posee par un autre doit la lire
+  // quand on l'appelle, sinon il depend de l'ordre des balises — et cet ordre
+  // est deja la source la plus fragile de cette page.
+  const texteDate = (d) => {
+    if (!d) return "—";
+    const dit = (((window.MONDE || {}).manifeste || {}).calendrier || {}).dit;
+    if (dit) {
+      return String(dit)
+        .replace(/%\(annee\)d/g, d.annee).replace(/%\(lune\)d/g, d.lune)
+        .replace(/%\(jour\)d/g, d.jour);
+    }
+    return d.annee + " AC — " + d.lune + "e lune, " + d.jour + "e jour";
+  };
   // La montre : minutes depuis minuit → "6h13". C'est la seule source de vérité
   // de l'heure ; `moment` (ci-dessous) n'est plus qu'un libellé facultatif.
   const montre = (m) => Math.floor(m / 60) + "h" + String(m % 60).padStart(2, "0");
@@ -174,34 +195,51 @@ window.Bus = (() => {
   async function envoyer(action){
     action.date_atteinte = dateAtteinte;
     try{
-      await fetch("/action",{method:"POST",headers:{"Content-Type":"application/json"},
+      const resultat = await fetch("/action",{method:"POST",headers:{"Content-Type":"application/json"},
         body:JSON.stringify(action)});
-    }catch(e){ console.error(e); }
+      return resultat.ok;
+    }catch(e){ console.error(e); return false; }
   }
 
   // Parler n'interrompt plus la salle : ce qui restait à jouer continue de se
   // jouer pendant que le monde prend acte. Seul le bouton Couper arrête le flux.
   function poster(action){
     const bp3=$("pause"); if(bp3) bp3.classList.toggle("actif", file.length > 0);
+    demarrageMj = Date.now() + 10000;
     attendre(true);
     envoyer(action);
   }
 
-  // Les trois points de l'attente. Ils ne s'éteignent PAS à l'arrivée des items
-  // dans la file — ils s'éteignent quand le monde parle à l'écran. Aucun item
-  // produit par l'envoi du joueur ne compte pour une réponse : parole/action
-  // (`vous`), question, coulisses, laisser-faire, intervention ou composition.
-  // `reecrit` non plus : le MJ n'a fait que rendre la phrase du joueur, il n'a
-  // pas encore joué le monde. Oublier les modes hors `vous` éteignait les trois
-  // points dès que leur propre écho revenait du serveur, donc pendant que la
-  // session MJ travaillait encore.
+  // Allumage immédiat à l'envoi, puis activité réelle du MJ de ce siège.
+  // Une première réponse peut arriver pendant que le MJ continue son calcul.
+  // L'écho du joueur ne termine pas la courte attente de démarrage.
   function attendre(oui){
     const el = $("attente");
     if(el) el.classList.toggle("actif", !!oui);
   }
   const PAS_UNE_REPONSE = {
-    vous:1, question:1, meta:1, run:1, intervention:1, composer:1, reecrit:1
+    vous:1, question:1, meta:1, run:1, intervention:1, composer:1, reecrit:1, statut:1
   };
+  let demarrageMj = 0, calculMj = false, dernierEtatMj = 0;
+  async function sonderMj(){
+    const coupe = new AbortController();
+    const garde = setTimeout(()=>coupe.abort(), 6000);
+    const depart = Date.now();
+    try {
+      const r = await fetch("/activite-mj", {cache:"no-store", signal:coupe.signal});
+      if(!r.ok) throw new Error("activité indisponible");
+      const d = await r.json();
+      calculMj = d.actif === true;
+      dernierEtatMj = Date.now();
+      if(calculMj && depart >= demarrageMj - 10000) demarrageMj = 0;
+    } catch(e) {
+      if(Date.now() - dernierEtatMj > 15000) calculMj = false;
+    } finally {
+      clearTimeout(garde);
+      attendre(calculMj || Date.now() < demarrageMj);
+      setTimeout(sonderMj, 2000);
+    }
+  }
 
   // Le bouton Couper : on jette ce qui restait et on fait taire la voix.
   function couper(){
@@ -340,8 +378,11 @@ window.Bus = (() => {
       instantCourant = false;
       return;
     }
-    // Le monde vient de parler à l'écran : l'attente n'a plus lieu d'être.
-    if(!PAS_UNE_REPONSE[it.type]) attendre(false);
+    // La réponse termine l'attente de démarrage, pas un calcul encore actif.
+    if(!PAS_UNE_REPONSE[it.type]) {
+      demarrageMj = 0;
+      attendre(calculMj);
+    }
     // Un changement de scène vide l'écran : le repère suivant repose le décor
     // en entier plutôt que d'annoncer un écoulement depuis un fil effacé.
     if(it.type === "effacer"){ dernierRepere = ""; derniereMinute = null; dernierLieu = ""; }
@@ -566,14 +607,15 @@ window.Bus = (() => {
       '<span class="chr-icone"' + (o.role ? ' title="' + o.role + '"' : "") + ">" +
       dedans + "</span>" +
       '<div class="chr-corps">' +
-      (qui ? '<span class="chr-qui">' + qui +
+      (qui ? '<span class="chr-qui">' + (window.Visage ? Visage.prefixe(o.role) : "") + qui +
         (o.role && !o.avatar ? '<span class="chr-role"><i class="emb">' +
           embleme(o.role) + "</i>" + o.role + "</span>" : "") + "</span>" : "") +
       '<span class="chr-texte">' +
       (window.Attention ? Attention.html(texte, {}) : texte) + "</span></div>";
     // Une réplique nommée peut être adressée sans recopier son auteur. Le
-    // bouton ne joue rien : il prépare seulement `Nom : ` dans la barre.
-    if(qui && cl.indexOf("chr-replique") !== -1 && cl.indexOf("chr-vous") === -1){
+    // bouton ne joue rien : il adresse la prochaine parole au narrateur.
+    if(qui && (cl.indexOf("chr-replique") !== -1 ||
+        (cl.indexOf("chr-reponse") !== -1 && o.locuteur_id)) && cl.indexOf("chr-vous") === -1){
       const repondre = document.createElement("button");
       repondre.type = "button";
       repondre.className = "chr-repondre";
@@ -582,7 +624,7 @@ window.Bus = (() => {
       repondre.setAttribute("aria-label", "Répondre à " + qui);
       repondre.onclick = (e) => {
         e.stopPropagation();
-        if(window.Barre && Barre.repondre) Barre.repondre(qui);
+        if(window.Barre && Barre.repondre) Barre.repondre(qui, o.locuteur_id);
       };
       d.querySelector(".chr-corps").appendChild(repondre);
     }
@@ -637,7 +679,7 @@ window.Bus = (() => {
       l.classList.toggle("ferme");
       bascule.title = l.classList.contains("ferme") ? "Ouvrir le panneau" : "Replier le panneau";
     };
-    identifier().then(()=>{ chargerLu(); sonder(); });
+    identifier().then(()=>{ chargerLu(); sonder(); sonderMj(); });
   });
 
   // rendus est exposé pour prévisualiser un item sans toucher au flux :

@@ -5,6 +5,8 @@ Usage :
     python scripts/fournisseur.py
     python scripts/fournisseur.py codex --modele gpt-5.3-codex-spark --effort low --fast
     python scripts/fournisseur.py claude
+    python scripts/fournisseur.py --mj session-claude-guetteur   # MJ tenu par une session vivante
+    python scripts/fournisseur.py --mj defaut                    # MJ rendu au fournisseur global
 """
 import argparse
 import json
@@ -16,6 +18,7 @@ if SCRIPTS not in sys.path:
     sys.path.insert(0, SCRIPTS)
 
 from agents import runtime  # noqa: E402
+from agents import guichet_mj  # noqa: E402
 
 
 def main():
@@ -28,10 +31,16 @@ def main():
                          help="service tier fast pour tous les appels Codex")
     vitesse.add_argument("--standard", action="store_true",
                          help="retirer le service tier fast")
+    ap.add_argument("--mj", metavar="MODE",
+                    help="session-claude-guetteur : le MJ passe par le guichet"
+                         " d'une session vivante ; defaut : comme les autres")
     a = ap.parse_args()
+    if a.mj is not None:
+        guichet_mj.choisir_mode(a.mj)
     fast = True if a.fast else False if a.standard else None
     d = (runtime.choisir(a.fournisseur, a.modele, a.effort, fast=fast)
          if a.fournisseur else runtime.configuration())
+    d = dict(d, mode_mj=guichet_mj.mode_mj() or d["fournisseur"])
     print(json.dumps(d, ensure_ascii=False, indent=2))
 
 

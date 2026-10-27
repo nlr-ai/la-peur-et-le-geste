@@ -1,0 +1,2469 @@
+{
+ "maison:les-enfers": {
+  "affaire-les-trois-refaites": {
+   "id": "affaire-les-trois-refaites",
+   "titre": "Les Trois refaites",
+   "sous_titre": "🔥 Affaire ouverte dans la salle de la Source dans la nuit du 9e au 10e jour de la 10e lune 2001, de la main de VAREK, héraut. Le sujet est LES TROIS SORCIÈRES REFAITES, ET LE TRAÎTRE QU'ELLES GARDENT. Plage 1000 à 1499.",
+   "type": "plan",
+   "embleme": "🔥",
+   "couleur": "#7a2a1a",
+   "lieu_id": "les-enfers",
+   "salle_id": "salle-de-la-source",
+   "tenu_par": "varek",
+   "office": "Héraut de la Source",
+   "lecteurs": [
+    "la-source",
+    "varek",
+    "l-oracle",
+    "malek-le-veneur"
+   ],
+   "maison_id": "les-enfers",
+   "tables": [
+    {
+     "titre": "🏰 Ouverture de l'Affaire",
+     "colonnes": [
+      "🧱 Le champ",
+      "✍️ Ce qu'on y écrit",
+      "📖 La règle du champ",
+      "✅ Rempli ?"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "🏷️ **LE NOM**",
+        "Les Trois refaites",
+        "Le sujet dont la cour traite, **jamais la solution**.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🎯 **L'OBJET**",
+        "Que le Pouvoir des Trois ne tienne pas une lune : qu'au premier sort qui le demande, une des trois manque — absente, brouillée avec les deux autres, ou tournée — et que Belthazor soit devant la cour, mort ou enchaîné, avant la nouvelle lune.",
+        "Ce qu'on veut obtenir, en une phrase, mesurable.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🧱 **LE PÉRIMÈTRE — DANS**",
+        "La meute du Veneur et sa prime ; le bassin de l'Oracle ; ce qui se dit dans les galeries ; les démons qui demandent audience pour servir contre les sorcières (la Glaneuse).",
+        "Ce dont cette affaire répond.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🚫 **LE PÉRIMÈTRE — HORS**",
+        "Les Fondateurs et leurs êtres de lumière ; la maison elle-même et ce qui est dessous ; tout démon qui chasse pour son compte sans s'être présenté — on ne répond pas de ce qu'on ne connaît pas.",
+        "Ce dont elle ne répond pas, écrit pour qu'on n'y revienne pas.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "📌 **L'ÉTAT ACTUEL**",
+        "Trois pertes en un mois, et la cour les compte : Shax détruit, la sœur cachée passée au bien dans ses quarante-huit heures, Belthazor traître et vivant — ou mourant — chez la sorcière Phoebe. La meute cerne Prescott Street depuis trois nuits et n'a rien rapporté. Kazhar reçoit dans ses galeries.",
+        "Ce qui est vrai ce soir, sans le juger.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🔢 **LA PLAGE**",
+        "**1000 à 1499** — première plage de la cour.",
+        "Réservée d'avance.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "💡 **LA CONCLUSION**",
+        "**CE QUE JE FERAIS, ET JE LE FAIS DANS MON OFFICE.** Je porte au lever le rapport de la meute, la demande de la Glaneuse et le compte des galeries, dans cet ordre, et rien que ce que je sais. Ce que je ferais à la place de la Source, je le dis une fois et je me tais : recevoir la Glaneuse AVANT Kazhar. Une démone qui offre le deuil des sœurs ne coûte qu'une audience ; un Kazhar qui offre un plan coûte un commandement. Le reste — toucher une des Trois, punir devant la cour — n'est pas de ma main : c'est sa parole.",
+        "Ce que la main qui tient le cahier ferait, et ce qu'elle a déjà fait.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🔚 **FERMÉE QUAND**",
+        "Belthazor est devant la cour, OU une des Trois a manqué à un sort des Trois devant témoin démon, OU la nouvelle lune est passée sans l'un ni l'autre — et alors l'affaire se ferme en échec, et c'est un quatrième échec qu'on comptera dans les galeries.",
+        "Écrit à l'ouverture, à froid.",
+        "**oui**"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+     "colonnes": [
+      "🪢 Le lien",
+      "🔗 L'affaire",
+      "🔢 Notre pièce",
+      "🔢 La leur",
+      "📝 Pourquoi"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "",
+        "",
+        "",
+        "",
+        ""
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "⛓️ Ce qui pend, et sur qui — calculé, ne pas écrire à la main",
+     "colonnes": [
+      "🧭 Sens",
+      "🔢 Notre pièce",
+      "🔢 La leur",
+      "🔗 L'affaire"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "—",
+        "",
+        "",
+        "rien ne traverse"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🔨🪶 Ce qu'on engage, et qui d'autre le veut — calculé, ne pas écrire à la main",
+     "colonnes": [
+      "🔢 La pièce",
+      "⚔️ Nos actions",
+      "🔗 Aussi engagée par"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "O01 Le héraut",
+        "⚔️ 1020 · ⚔️ 1220",
+        "—"
+       ]
+      },
+      {
+       "cellules": [
+        "O02 Le bassin",
+        "⚔️ 1120",
+        "—"
+       ]
+      },
+      {
+       "cellules": [
+        "O03 La meute",
+        "⚔️ 1021 · ⚔️ 1022",
+        "—"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🕳️ Les trous — calculé, ne pas écrire à la main",
+     "colonnes": [
+      "🕳️ Le défaut",
+      "🔢 Les pièces"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "🔤 office ou moyen nommé en clair — écrire son numéro, sans quoi le lien n'existe pas pour la machine",
+        "⚔️ 1020 · ⚔️ 1021 · ⚔️ 1022 · ⚔️ 1120 · ⚔️ 1220"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🎯 États cibles — les trois, ou rien",
+     "colonnes": [
+      "🎯 N°",
+      "🏷️ L'état",
+      "✅ Ce qui doit être vrai",
+      "📍 Où",
+      "👁️ La preuve",
+      "⬆️ Sert",
+      "💯 Importance"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "**1000**",
+        "🩸 Belthazor est rendu",
+        "Le traître est devant la cour, mort ou tenu, et la prime de cent âmes de rang est payée à qui l'a rapporté",
+        "Salle de la Source",
+        "Son corps ou son essence devant la cour, et Malek payé devant témoins",
+        "1200",
+        "**80**"
+       ]
+      },
+      {
+       "cellules": [
+        "**1100**",
+        "🕳️ La fêlure des Trois est nommée et datée",
+        "On sait LAQUELLE des trois manquera, POURQUOI, et À QUELLE DATE à peu près — dit par le bassin, et confirmé par une bouche qui a vu la sœur",
+        "Le bassin de l'Oracle ; Prescott Street",
+        "Une lecture de l'Oracle écrite au conditionnel, et une seconde bouche (la meute, la Glaneuse) qui dit la même sœur",
+        "—",
+        "**85**"
+       ]
+      },
+      {
+       "cellules": [
+        "**1200**",
+        "👑 La cour ne parle plus bas",
+        "Plus personne ne monte chez Kazhar la nuit, et les galeries comptent une réussite de la Source avant de compter ses échecs",
+        "Les galeries",
+        "Trois nuits de suite sans visiteur chez Kazhar, comptées par deux espions qui ne se parlent pas",
+        "—",
+        "**70**"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🔒 Verrous",
+     "colonnes": [
+      "🔒 N°",
+      "🏷️ Le verrou",
+      "⛔ Bloque",
+      "📌 Ce qui est vrai aujourd'hui",
+      "👁️ La preuve",
+      "🔓 Levé quand"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "**1001**",
+        "🏠 On ne prend pas un démon dans la maison des Trois",
+        "1000",
+        "Belthazor ne sort plus de Prescott Street et ne miroite plus. La maison est sur le Nexus ; trois sorcières y dorment",
+        "Malek, trois nuits de guet, aucun mouvement rapporté",
+        "Il sort, ou il miroite — n'importe où"
+       ]
+      },
+      {
+       "cellules": [
+        "**1002**",
+        "❓ On ne sait pas s'il vit",
+        "1000",
+        "Blessé à mort il y a trois nuits. Rien n'est remonté depuis : ni son corps, ni son aura",
+        "Le silence de la meute, et le mien",
+        "Une bouche qui l'a vu, ou une aura que Tarn a sentie"
+       ]
+      },
+      {
+       "cellules": [
+        "**1101**",
+        "🌊 Le bassin se trouble près des sorcières",
+        "1100",
+        "Plus elles sont nombreuses, plus l'eau est trouble : l'Oracle a trouvé la sœur cachée, et s'est trompée sur le reste",
+        "Son aveu, et la perte de Shax",
+        "Une lecture d'UNE sœur seule, hors de la maison"
+       ]
+      },
+      {
+       "cellules": [
+        "**1102**",
+        "⚖️ L'Accord : on tente, on ne force pas",
+        "1100",
+        "La sœur cachée a choisi dans sa fenêtre ; on ne peut plus que la tenter. Une sœur qui se tourne doit le faire de sa main",
+        "La règle des deux camps, et ce qu'elle a coûté le mois dernier",
+        "Hors de portée — on ne le lève pas, on passe par le grief d'une sœur"
+       ]
+      },
+      {
+       "cellules": [
+        "**1201**",
+        "🗣️ Trois échecs en un mois, et la cour le sait",
+        "1200",
+        "Shax, la sœur cachée, Belthazor : on en parle bas dans toutes les galeries",
+        "Ce que j'entends au passage des couloirs",
+        "Une réussite que la cour voit — pas qu'on lui raconte"
+       ]
+      },
+      {
+       "cellules": [
+        "**1202**",
+        "👁️ Je ne vois pas tout chez Kazhar",
+        "1200",
+        "Il reçoit, un chef par nuit, sous prétexte de la meute. Je n'ai que deux espions, et il sait compter aussi",
+        "Mes deux espions, et le nombre de torches devant ses galeries",
+        "Trois nuits comptées entières"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🗝️ Clefs",
+     "colonnes": [
+      "🗝️ N°",
+      "🏷️ La clef",
+      "🔓 Ouvre",
+      "💡 Le principe",
+      "💰 Le prix",
+      "🚪 Ce que cela ferme",
+      "👁️ La preuve attendue",
+      "⚖️ Décision"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "**1010**",
+        "🐍 Attendre qu'il miroite",
+        "1001",
+        "Un démon terré finit par bouger : la faim, la peur pour elle, ou l'orgueil. Tarn sur le toit d'en face sent le premier miroitement",
+        "Des nuits sans relève ; Tarn s'épuise, et un toit vide une nuit est une nuit perdue",
+        "Ferme la hâte, et la guerre ouverte avec les Trois",
+        "Tarn rapporte un miroitement, avec l'heure",
+        "retenue"
+       ]
+      },
+      {
+       "cellules": [
+        "**1011**",
+        "🚪 Le faire sortir par elle",
+        "1001",
+        "S'il ne sort pas pour lui, il sortira pour la sorcière : suivre Phoebe seule, la prendre, et l'attendre au lieu choisi",
+        "C'est porter la main sur une des Trois avant l'heure — la guerre ouverte, et les deux autres dans la nuit",
+        "Ferme l'attente, et toute chance que les Trois ne sachent pas encore qui les chasse",
+        "Belthazor là où on l'attend",
+        "**à la parole de la Source**"
+       ]
+      },
+      {
+       "cellules": [
+        "**1012**",
+        "👁️ Un œil dans son appartement",
+        "1002",
+        "Il a gardé un appartement en ville. Un démon blessé y laisse ce qu'il a, et un démon vivant y revient",
+        "Vesk seul une nuit — et Vesk frappe sans prévenir quand il croit voir",
+        "Ferme le doute sur sa vie",
+        "Ce que Vesk a trouvé, dit mot pour mot",
+        "retenue"
+       ]
+      },
+      {
+       "cellules": [
+        "**1110**",
+        "🕯️ Le deuil comme porte",
+        "1101 · 1102",
+        "La mort de l'aînée ne se défait pas, et c'est ce qu'on leur promettra de défaire. Une sœur qui use de la magie pour ravoir une morte se tourne de sa main — l'Accord n'y peut rien",
+        "Recevoir la Glaneuse, c'est donner une place à une démone qui n'est de rien ; si elle échoue, c'est le quatrième échec, et il porte le nom de la Source",
+        "Ferme le bassin comme seule source sur les sœurs",
+        "Une sœur au salon de la Glaneuse, ou une carte de « Prue » reçue au Manoir",
+        "**engagée par la Source le 09.10.2001 à 22 h 38** — sept jours, Piper seule ; Phoebe et Paige interdites ; le nom de la Source ne doit pas être prononcé"
+       ]
+      },
+      {
+       "cellules": [
+        "**1111**",
+        "🌊 Lire une sœur à la fois",
+        "1101",
+        "L'eau se trouble à trois. Une sœur seule, loin de la maison, se lit comme une mortelle",
+        "Une nuit de l'Oracle par sœur, et une lecture au conditionnel",
+        "Ferme les lectures de la maison entière",
+        "Le nom d'une sœur et une date, écrits par l'Oracle",
+        "retenue"
+       ]
+      },
+      {
+       "cellules": [
+        "**1210**",
+        "⚔️ Donner la chasse à Kazhar",
+        "1201 · 1202",
+        "Un rival qu'on charge d'une affaire ne reçoit plus : il travaille, et son échec est le sien",
+        "Un commandement à un démon qui attend la place ; s'il réussit, c'est lui que la cour louera",
+        "Ferme ses réunions de nuit",
+        "Kazhar convoqué, et ses galeries vides trois nuits",
+        "**à la parole de la Source**"
+       ]
+      },
+      {
+       "cellules": [
+        "**1211**",
+        "🗡️ L'exemple",
+        "1201",
+        "On punit devant la cour un serviteur qui a échoué : la peur remplace le murmure",
+        "Pendant trois jours après, plus personne ne rapporte que ce qui plaît — moi compris ; et l'Oracle avance ce qu'elle n'a pas vu",
+        "Ferme le murmure, et pour trois jours la vérité",
+        "Un serviteur puni, et le silence dans les galeries",
+        "**à la parole de la Source**"
+       ]
+      },
+      {
+       "cellules": [
+        "**1212**",
+        "👂 Compter les visiteurs",
+        "1202",
+        "Celui qui reçoit la nuit se compte à ses torches. Trois nuits de suite, deux espions qui ne se parlent pas",
+        "Deux espions des galeries, et le risque que Kazhar les remarque",
+        "Ferme la rumeur : on saura les noms",
+        "Trois listes de noms, une par nuit, des deux bouches",
+        "retenue"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "⚔️ Actions",
+     "colonnes": [
+      "⚔️ N°",
+      "🏷️ L'action",
+      "🗝️ Réalise",
+      "📝 Ce qu'on fait",
+      "📍 Où",
+      "🪶 Office",
+      "🧰 Moyens",
+      "💰 Ce qu'elle coûte",
+      "⛓️ Dépend de",
+      "👁️ La preuve",
+      "⏳ État",
+      "📅 Jour dû",
+      "📅 Jour fait",
+      "📝 Note"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "**1020**",
+        "📜 Porter le rapport du matin",
+        "1110 · 1210",
+        "Au lever, devant la Source et personne d'autre : la meute (rien en trois nuits), la Glaneuse (audience demandée), les galeries (Kazhar reçoit). Ce que je sais, pas ce que je crois",
+        "Salle de la Source",
+        "O01 — **Varek**",
+        "Ma bouche",
+        "Une audience · une fois",
+        "—",
+        "Le rapport dit, et la réponse de la Source portée dans l'heure",
+        "faite",
+        "10.10.2001, au lever",
+        "09.10.2001, 22 h 30",
+        "Rapport porté à la Source : aucun retour de la meute en trois nuits ; la Glaneuse a demandé audience sans chasse déclarée ; Kazhar reçoit un chef par nuit, mais aucun nom n'est encore établi. Aucune clef soumise à la parole de la Source n'a été déclenchée."
+       ]
+      },
+      {
+       "cellules": [
+        "**1021**",
+        "🏚️ Tenir le toit d'en face",
+        "1010",
+        "Tarn sur les toits de Pacific Heights, jour et nuit, et tout mouvement à Malek avant de bouger",
+        "Toits de Pacific Heights",
+        "O03 — **Tarn**, pour Malek",
+        "Ses sens démoniaques",
+        "Ses nuits ; pas plus de trois heures de sommeil d'affilée",
+        "—",
+        "Un miroitement rapporté, avec l'heure",
+        "en cours",
+        "—",
+        "",
+        "Si elle s'épuise, elle se retire une nuit aux galeries : la maison n'est plus gardée"
+       ]
+      },
+      {
+       "cellules": [
+        "**1022**",
+        "🔎 Fouiller l'appartement de Belthazor",
+        "1012",
+        "Vesk y entre, y fouille, et y attend son retour une nuit",
+        "L'appartement de Belthazor, en ville",
+        "O03 — **Vesk**, pour Malek",
+        "Lui seul",
+        "Une nuit",
+        "—",
+        "Ce qu'il a trouvé, rapporté à Malek mot pour mot",
+        "en cours",
+        "11.10.2001",
+        "",
+        "Vesk frappe s'il croit le voir seul, sans prévenir la meute"
+       ]
+      },
+      {
+       "cellules": [
+        "**1120**",
+        "🌊 Une nuit au bassin, sur une sœur seule",
+        "1111",
+        "L'Oracle lit la prochaine fêlure des Trois — une sœur à la fois, hors de la maison si elle le peut",
+        "L'antre de l'Oracle",
+        "O02 — **l'Oracle**",
+        "Le bassin",
+        "Une nuit",
+        "—",
+        "Un nom de sœur et une date, au conditionnel",
+        "faite",
+        "11.10.2001",
+        "10.10.2001",
+        "Préparation arrêtée le 09.10.2001 : une seule sœur par lecture, saisie hors de la maison si l'eau permet de l'isoler ; une nuit entière au bassin ; aucune lecture des Trois ensemble. Le 09.10.2001 à 22 h 55, la Source ordonne de lire Piper seule cette nuit, hors du Manoir si l'eau le permet. Veille accomplie de 23 h 05 au matin : l'eau isole Piper au P3 et ne montre aucun acte accompli par elle. Elle rend une possibilité vers le soir du 10 octobre, à peu près : Piper pourrait s'écarter des deux autres devant un signe assez intime pour qu'elle l'attribue à Prue, accompagné de l'espoir de l'entendre une fois, sans prétendre remplacer la morte. Une simple mention, une promesse sans preuve ou l'idée que Paige remplace Prue la fermerait. Date et issue conditionnelles."
+       ]
+      },
+      {
+       "cellules": [
+        "**1121**",
+        "🕯️ Ouvrir le salon à Piper",
+        "1110",
+        "La Glaneuse fait porter à Piper un message qu'elle croira venu de Prue, puis lui offre l'espoir de rappeler la morte par sa propre magie",
+        "San Francisco ; son salon",
+        "O04 — **parole de la Source**, exécutée par la Glaneuse",
+        "Le salon, un intermédiaire, le deuil de Piper",
+        "Sept jours ; si elle est découverte, la perte est sienne",
+        "Ordre de la Source du 09.10.2001",
+        "Piper cherche Prue par la magie, ou la Glaneuse se retire",
+        "en cours",
+        "16.10.2001",
+        "",
+        "Piper seule. Ne toucher ni Phoebe ni Paige. Ne pas prononcer le nom de la Source. Varek doit être averti dès que Piper cherche sa sœur par la magie. 10.10.2001 : la Glaneuse rapporte que sa première recherche au cimetière n'a donné aucun porteur qu'elle puisse nommer et qu'aucun signe ne montre encore Piper cherchant Prue par la magie. Varek a demandé à Malek, sans retirer Tarn ni Vesk de leur poste, le nom seulement de tout mortel endeuillé rencontré près des urgences ou d'un commissariat ; aucun contact autorisé avec ce mortel, Piper ou ses sœurs. Malek confirme que Tarn tient le toit et Vesk l'appartement : zéro détour, zéro contact ; si le hasard place un endeuillé sous leurs yeux cette semaine, il donnera un nom seulement. Aucun nom n'est encore établi. La Glaneuse en a été avisée."
+       ]
+      },
+      {
+       "cellules": [
+        "**1220**",
+        "👂 Compter qui entre chez Kazhar",
+        "1212",
+        "Trois nuits de suite, deux espions qui ne se parlent pas ; je croise leurs listes au matin",
+        "Les galeries",
+        "O01 — **Varek**",
+        "Deux espions des galeries",
+        "Trois nuits",
+        "—",
+        "Trois listes de noms concordantes",
+        "en cours",
+        "12.10.2001",
+        "",
+        "10.10.2001 : aucune liste de la nuit passée n'est établie ; elle ne compte pas. À 18 h 40, le Liseur ouvre la première ligne sous réserves : verre posé et scellé hors des pièces de Kazhar, à gauche du seuil, axe à 35 degrés, champ sur le seuil et les arrivées des deux sens. Il doit relever noms visibles, heures et torches sans entrer ni agir, et se retirer si son regard est remarqué. Prix demandé, non promis et soumis à la Source : neuf minutes d'audience, dues seulement si les trois nuits sont exactes. Le Greffier ne compte pas. Second nom établi : Morne le Charognard, disponible du 10 au 12 pour un compte séparé, sans contact avec le Liseur, sans geste contre Kazhar, retrait et billet s'il est remarqué. Prix autorisé par Varek : trois dépouilles humaines déjà mortes depuis moins d'une nuit, une après chaque veille effectivement rendue ; interdiction de tuer, blesser ou hâter un vivant pour les fournir. Le Courtier doit ouvrir le second angle avant la nuit sans révéler le Liseur ni le verre et confirmer heure et position. La Source a reçu les deux noms et l'état. L'action reste en cours : première ligne ouverte ; second angle ordonné mais non encore confirmé ; aucune nuit validée."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🪶 Les offices — qui écrit où",
+     "colonnes": [
+      "🪶 N°",
+      "🪶 L'office",
+      "👤 Qui le tient",
+      "📁 Ce qu'il écrit"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "O01",
+        "Le héraut",
+        "Varek",
+        "Ce volume ; ce qui monte à la Source et ce qui en descend, mot pour mot"
+       ]
+      },
+      {
+       "cellules": [
+        "O02",
+        "Le bassin",
+        "L'Oracle",
+        "Ses lectures, au conditionnel, sous 1100"
+       ]
+      },
+      {
+       "cellules": [
+        "O03",
+        "La meute",
+        "Malek le Veneur (Tarn, Vesk)",
+        "Ce que la meute a vu, sous 1000 — par la bouche de Malek"
+       ]
+      },
+      {
+       "cellules": [
+        "O04",
+        "La parole",
+        "La Source",
+        "Ce qui est marqué « à la parole de la Source » — rien ne s'en fait sans elle"
+       ]
+      }
+     ]
+    }
+   ],
+   "pages": [
+    {
+     "titre": "Pourquoi cette nuit",
+     "texte": "OUVERTE CETTE NUIT ET PAS AU MATIN, parce que le matin la Source me demandera ce que je sais, et qu'un héraut qui sait des choses sans les avoir écrites les dit dans le désordre. Trois pertes en un mois : chacune s'est dite en couloir avant d'être dite en salle. Celle-ci ne le sera pas.\n\nCE QUE J'IGNORE, ET JE L'ÉCRIS POUR NE PAS LE DEVINER : si Belthazor vit. Ce que veut vraiment la Glaneuse. Qui monte chez Kazhar. Ces trois-là sont les verrous 1002, 1110 et 1202, et ce n'est pas un hasard."
+    },
+    {
+     "titre": "Ce qui n'est pas de ma main",
+     "texte": "Quatre clefs portent « à la parole de la Source » : le faire sortir par elle (1011), le deuil comme porte (1110), donner la chasse à Kazhar (1210), l'exemple (1211). Ce n'est pas de la prudence : chacune engage la Source devant la cour, et un héraut qui engage son maître est un héraut qui sera l'exemple suivant. Le reste — le toit, l'appartement, le bassin, le compte des torches — est déjà en marche, et je le rends au passé."
+    }
+   ]
+  },
+  "affaire-le-tableau-des-chasses": {
+   "id": "affaire-le-tableau-des-chasses",
+   "titre": "Le tableau des chasses",
+   "sous_titre": "Où les démons qui chassent pour leur compte se présentent à la cour avant de courir — tenu par Varek, sous l'affaire des Trois refaites (1100)",
+   "type": "plan",
+   "embleme": "📜",
+   "couleur": "#5a1a1a",
+   "tenu_par": "varek",
+   "office": "Héraut de la Source, teneur du tableau des chasses",
+   "lecteurs": [
+    "la-source",
+    "varek",
+    "kazhar",
+    "la-glaneuse",
+    "morne-le-charognard",
+    "le-liseur",
+    "le-courtier",
+    "le-greffier"
+   ],
+   "lieu_id": "les-enfers",
+   "salle_id": "salle-de-la-source",
+   "maison_id": "les-enfers",
+   "pages": [
+    {
+     "titre": "À quoi sert ce volume",
+     "texte": "Ce volume est la façon dont ceux d'en bas s'alignent : ce qu'on veut ensemble, ce qui l'empêche, qui fait quoi et pour quand. On ne s'y parle pas, on y ÉCRIT ce qu'on a fait et ce qu'on va faire, pour que les autres le lisent avant d'agir.\n\nUNE LIGNE PAR ACTION, et sa main dans « 👤 Qui ». L'état en UN MOT dans « ⏳ État » — à faire, en cours, faite, bloquée. La prose va dans « 📝 Note ». Qui frappe sans avoir écrit sa ligne frappe seul, et en répondra seul.\n\nNe lit ce volume que celui qu'il nomme. Belthazor n'y est pas."
+    }
+   ],
+   "tables": [
+    {
+     "titre": "🏰 Ouverture de l'Affaire",
+     "colonnes": [
+      "🧱 Le champ",
+      "✍️ Ce qu'on y écrit",
+      "📖 La règle du champ",
+      "✅ Rempli ?"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "🏷️ **LE NOM**",
+        "Le tableau des chasses",
+        "Le sujet, jamais la solution.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🎯 **L'OBJET**",
+        "Que deux démons ne courent jamais la même sœur la même nuit sans le savoir, et que la cour sache qui chasse quoi avant que ça frappe.",
+        "Ce qu'on veut obtenir, en une phrase qui puisse être fausse.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🧱 **LE PÉRIMÈTRE — DANS**",
+        "Les démons libres qui chassent les sœurs ou le traître pour leur compte : leur proie, leur fenêtre, ce qu'ils attendent des autres. Rien de leurs clefs ni de leurs faiblesses.",
+        "Ce que cette affaire tient, et dont elle répond.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🚫 **LE PÉRIMÈTRE — HORS**",
+        "La meute, l'Oracle, les galeries et ce qui est à la parole de la Source : c'est l'affaire des Trois refaites (1000-1499). Les warlocks hors maison.",
+        "Ce qu'on refuse d'y mettre.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "📌 **L'ÉTAT ACTUEL**",
+        "Personne ne s'est encore présenté. La Glaneuse a demandé audience (clef 1110 de l'affaire des Trois refaites).",
+        "Où en est l'affaire au moment où on la lit, sans complaisance.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🔢 **LA PLAGE**",
+        "1500-1599 (maison des Enfers ; 1000-1499 est à affaire-les-trois-refaites, 1600 au trône vide).",
+        "Réservée d'avance.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "💡 **LA CONCLUSION**",
+        "",
+        "L'avis du titulaire, de SA main : ce qu'il ferait, ce qui le ferait changer d'avis. Jamais écrite par un autre.",
+        "**non**"
+       ]
+      },
+      {
+       "cellules": [
+        "🔚 **FERMÉE QUAND**",
+        "L'affaire des Trois refaites est fermée.",
+        "Écrit à l'ouverture, à froid.",
+        "**oui**"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+     "colonnes": [
+      "🪢 Le lien",
+      "🔗 L'affaire",
+      "🔢 Notre pièce",
+      "🔢 La leur",
+      "📝 Pourquoi"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "",
+        "",
+        "",
+        "",
+        ""
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "⛓️ Ce qui pend, et sur qui — calculé, ne pas écrire à la main",
+     "colonnes": [
+      "🧭 Sens",
+      "🔢 Notre pièce",
+      "🔢 La leur",
+      "🔗 L'affaire"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "—",
+        "",
+        "",
+        "rien ne traverse"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🔨🪶 Ce qu'on engage, et qui d'autre le veut — calculé, ne pas écrire à la main",
+     "colonnes": [
+      "🔢 La pièce",
+      "⚔️ Nos actions",
+      "🔗 Aussi engagée par"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "—",
+        "",
+        "aucun moyen, aucun office"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🕳️ Les trous — calculé, ne pas écrire à la main",
+     "colonnes": [
+      "🕳️ Le défaut",
+      "🔢 Les pièces"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "🔒 verrou qu'aucune clef n'ouvre — il est mal nommé",
+        "🔒 1513"
+       ]
+      },
+      {
+       "cellules": [
+        "🔤 office ou moyen nommé en clair — écrire son numéro, sans quoi le lien n'existe pas pour la machine",
+        "⚔️ 1532 · ⚔️ 1533 · ⚔️ 1534 · ⚔️ 1535 · ⚔️ 1536 · ⚔️ 1538"
+       ]
+      },
+      {
+       "cellules": [
+        "⚔️ action dont la chaîne ne remonte à aucun état cible",
+        "⚔️ 1532 · ⚔️ 1533 · ⚔️ 1534 · ⚔️ 1535 · ⚔️ 1536 · ⚔️ 1538"
+       ]
+      },
+      {
+       "cellules": [
+        "⛓️‍💥 référence pendante — le numéro désigné n'existe nulle part dans le plan",
+        "🔒 1513 · ⚔️ 1532 · ⚔️ 1533 · ⚔️ 1534 · ⚔️ 1535 · ⚔️ 1536 · ⚔️ 1538"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🎯 Etats cibles",
+     "colonnes": [
+      "🎯 N°",
+      "🏷️ L'état",
+      "✅ Ce qui doit être vrai",
+      "📍 Où",
+      "👁️ La preuve",
+      "⬆️ Sert",
+      "💯 Importance"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "1503",
+        "Les chasseurs ne se gênent pas",
+        "Deux démons ne courent pas la même sœur la même nuit sans le savoir.",
+        "ce tableau",
+        "chaque chasse déclarée ici avant d'être courue",
+        "1100 (affaire-les-trois-refaites)",
+        "50"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🔒 Verrous",
+     "colonnes": [
+      "🔒 N°",
+      "🏷️ Le verrou",
+      "⛔ Bloque",
+      "📌 Ce qui est vrai aujourd'hui",
+      "👁️ La preuve",
+      "🔓 Levé quand"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "1513",
+        "Chacun chasse pour soi",
+        "1503",
+        "Les démons libres ne disent rien à la cour de ce qu'ils courent.",
+        "personne ne s'est présenté",
+        "ils déclarent ici, ou la Source l'exige"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🗝️ Clefs",
+     "colonnes": [
+      "🗝️ N°",
+      "🏷️ La clef",
+      "🔓 Ouvre",
+      "💡 Le principe",
+      "💰 Le prix",
+      "🚪 Ce que cela ferme",
+      "👁️ La preuve attendue",
+      "⚖️ Décision"
+     ],
+     "lignes": []
+    },
+    {
+     "titre": "⚔️ Actions",
+     "colonnes": [
+      "⚔️ N°",
+      "🏷️ L'action",
+      "🗝️ Réalise",
+      "📝 Ce qu'on fait",
+      "📍 Où",
+      "🪶 Office",
+      "👤 Qui",
+      "🧰 Moyens",
+      "🔧 Avec quoi",
+      "💰 Ce qu'elle coûte",
+      "⛓️ Dépend de",
+      "👁️ La preuve",
+      "⏳ État",
+      "📅 Jour fait",
+      "📝 Note",
+      "📅 Jour dû"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "1532",
+        "Tenir le tableau des chasses",
+        "1503",
+        "Inscrire chaque chasse déclarée ; le dire à la Source au rapport du matin.",
+        "salle-de-la-source",
+        "héraut",
+        "varek",
+        "",
+        "",
+        "",
+        "",
+        "le tableau à jour",
+        "en cours",
+        "",
+        "",
+        ""
+       ]
+      },
+      {
+       "cellules": [
+        "1533",
+        "Déclarer sa chasse : proie, fêlure, fenêtre",
+        "1503",
+        "Écrire ici quelle sœur, par quoi, et quelle semaine — pas sa clef ni ses moyens.",
+        "ce volume",
+        "chasseresse",
+        "la-glaneuse",
+        "",
+        "",
+        "",
+        "",
+        "la ligne écrite",
+        "faite",
+        "2001-10-09",
+        "Proie : Piper Halliwell. Fêlure : sa colère tue, serrée dans le deuil de Prue. Fenêtre : sept jours à compter du 09.10.2001. Chasse autorisée par la Source : Piper seule ; Phoebe et Paige exclues.",
+        "16.10.2001"
+       ]
+      },
+      {
+       "cellules": [
+        "1534",
+        "Déclarer sa chasse : proie, fêlure, fenêtre",
+        "1503",
+        "Idem.",
+        "ce volume",
+        "charognard",
+        "morne-le-charognard",
+        "",
+        "",
+        "",
+        "",
+        "la ligne écrite",
+        "à faire",
+        "",
+        "",
+        ""
+       ]
+      },
+      {
+       "cellules": [
+        "1535",
+        "Déclarer sa chasse : proie, fêlure, fenêtre",
+        "1503",
+        "Idem.",
+        "ce volume",
+        "liseur",
+        "le-liseur",
+        "",
+        "",
+        "",
+        "",
+        "la ligne écrite",
+        "faite",
+        "2001-10-10",
+        "Proie : Phoebe Halliwell. Fêlure : elle accorde foi aux visions venues par contact. Fenêtre : sept jours du 13.10.2001 au 20.10.2001, après le terme du compte de Kazhar. Les autres chasseurs n'approchent ni Phoebe ni les objets placés sur sa route durant cette course.",
+        "20.10.2001"
+       ]
+      },
+      {
+       "cellules": [
+        "1536",
+        "Déclarer sa chasse : proie, fêlure, fenêtre",
+        "1503",
+        "Idem.",
+        "ce volume",
+        "courtier",
+        "le-courtier",
+        "",
+        "",
+        "",
+        "",
+        "la ligne écrite",
+        "à faire",
+        "",
+        "",
+        ""
+       ]
+      },
+      {
+       "cellules": [
+        "1538",
+        "Déclarer sa chasse : proie, fêlure, fenêtre",
+        "1503",
+        "Écrire ici quelle sœur, par quoi, et quelle semaine — pas sa clef ni ses moyens.",
+        "ce volume",
+        "greffier",
+        "le-greffier",
+        "",
+        "",
+        "",
+        "",
+        "la ligne écrite",
+        "à faire",
+        "",
+        "",
+        ""
+       ]
+      },
+      {
+       "cellules": [
+        "1539",
+        "Trouver un porteur mortel pour Piper",
+        "1503",
+        "Choisir au cimetière un mortel capable de porter cette semaine un message à Piper Halliwell ; les autres chasseurs n'approchent ni le porteur ni Piper durant cette course.",
+        "cimetiere",
+        "chasseresse",
+        "la-glaneuse",
+        "",
+        "",
+        "",
+        "",
+        "un porteur choisi et le message confié",
+        "bloquée",
+        "2001-10-10",
+        "Recherche menée de 21 h 05 à minuit parmi les tombes fraîches ; aucun porteur mortel identifiable n'est établi, aucun message n'a été confié. Varek exige désormais un nom vérifiable et sa voie exacte d'entrée au Manoir avant tout dépôt. Tarn et Vesk ne quittent pas leurs postes ; Malek ne donnera qu'un nom rencontré par hasard, sans détour ni contact, et aucun nom n'est remonté. Morne n'a reconnu aucun endeuillé qu'il sache lié à Piper ou au Manoir. Ligne bloquée jusqu'à ce qu'une source accessible établisse le nom, qui l'admet, pour quel motif et à quel moment.",
+        "16.10.2001"
+       ]
+      },
+      {
+       "cellules": [
+        "1540",
+        "Préparer le salon et les mots destinés à Piper",
+        "1503",
+        "Rendre le salon de Russian Hill propre à recevoir Piper seule et préparer un billet d'approche sans l'attribuer à Prue avant qu'un porteur réel ne l'ait reçu ; les autres chasseurs n'approchent ni le salon ni Piper durant cette course.",
+        "russian-hill",
+        "chasseresse",
+        "la-glaneuse",
+        "",
+        "",
+        "",
+        "",
+        "un brouillon daté et le salon prêt",
+        "faite",
+        "2001-10-10",
+        "Invitation rédigée et retenue : elle vise Piper seule, ne promet ni apparition ni retour, demande un souvenir choisi et n'est pas attribuée à Prue. Salon installé à Russian Hill avec une seule place face à la médium, aucun siège offert à Phoebe ou Paige, aucun objet ni écrit attribué à Prue. Le billet reste retenu faute de porteur.",
+        "16.10.2001"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "affaire-le-trone-vide": {
+   "id": "affaire-le-trone-vide",
+   "titre": "Le trône vide",
+   "sous_titre": "Ce que Kazhar prépare pour le jour où la Source tombera — de sa main, pour lui seul",
+   "type": "plan",
+   "embleme": "👑",
+   "couleur": "#3a2a4a",
+   "tenu_par": "kazhar",
+   "office": "Seigneur des galeries",
+   "lecteurs": [
+    "kazhar"
+   ],
+   "lieu_id": "les-enfers",
+   "salle_id": "les-galeries",
+   "maison_id": "les-enfers",
+   "pages": [
+    {
+     "titre": "À quoi sert ce volume",
+     "texte": "Mon plan, pour moi seul. Rien de ce qui est ici n'est dit à la cour."
+    }
+   ],
+   "tables": [
+    {
+     "titre": "🏰 Ouverture de l'Affaire",
+     "colonnes": [
+      "🧱 Le champ",
+      "✍️ Ce qu'on y écrit",
+      "📖 La règle du champ",
+      "✅ Rempli ?"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "🏷️ **LE NOM**",
+        "Le trône vide",
+        "Le sujet, jamais la solution.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🎯 **L'OBJET**",
+        "Que le jour où la Source échoue une fois de trop, les clans des galeries se tournent vers Kazhar et non vers un autre.",
+        "Ce qu'on veut obtenir, en une phrase qui puisse être fausse.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🧱 **LE PÉRIMÈTRE — DANS**",
+        "Les trois chefs de clan reçus, les échecs de la Source comptés, ce qu'on achète en secrets (la route de Shax), l'offre faite à la Source pour être témoin de son échec.",
+        "Ce que cette affaire tient, et dont elle répond.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🚫 **LE PÉRIMÈTRE — HORS**",
+        "Tuer la Source : ce n'est pas l'affaire, et ce serait la fin de Kazhar.",
+        "Ce qu'on refuse d'y mettre.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "📌 **L'ÉTAT ACTUEL**",
+        "Trois échecs comptés (Shax, la sœur cachée, Belthazor vivant). Aucun chef encore reçu.",
+        "Où en est l'affaire au moment où on la lit, sans complaisance.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🔢 **LA PLAGE**",
+        "1600-1699 (maison des Enfers ; 1000-1499 est à affaire-les-trois-refaites) : états 1600-1609, verrous 1610-1619, clefs 1620-1629, actions 1630-1699.",
+        "Réservée d'avance.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "💡 **LA CONCLUSION**",
+        "",
+        "L'avis du titulaire, de SA main : ce qu'il ferait, ce qui le ferait changer d'avis. Jamais écrite par un autre.",
+        "**non**"
+       ]
+      },
+      {
+       "cellules": [
+        "🔚 **FERMÉE QUAND**",
+        "Kazhar est assis, ou la Source l'a démasqué.",
+        "Écrit à l'ouverture, à froid.",
+        "**oui**"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+     "colonnes": [
+      "🪢 Le lien",
+      "🔗 L'affaire",
+      "🔢 Notre pièce",
+      "🔢 La leur",
+      "📝 Pourquoi"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "",
+        "",
+        "",
+        "",
+        ""
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "⛓️ Ce qui pend, et sur qui — calculé, ne pas écrire à la main",
+     "colonnes": [
+      "🧭 Sens",
+      "🔢 Notre pièce",
+      "🔢 La leur",
+      "🔗 L'affaire"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "—",
+        "",
+        "",
+        "rien ne traverse"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🔨🪶 Ce qu'on engage, et qui d'autre le veut — calculé, ne pas écrire à la main",
+     "colonnes": [
+      "🔢 La pièce",
+      "⚔️ Nos actions",
+      "🔗 Aussi engagée par"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "—",
+        "",
+        "aucun moyen, aucun office"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🕳️ Les trous — calculé, ne pas écrire à la main",
+     "colonnes": [
+      "🕳️ Le défaut",
+      "🔢 Les pièces"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "🔒 verrou qu'aucune clef n'ouvre — il est mal nommé",
+        "🔒 1612"
+       ]
+      },
+      {
+       "cellules": [
+        "🔤 office ou moyen nommé en clair — écrire son numéro, sans quoi le lien n'existe pas pour la machine",
+        "⚔️ 1631 · ⚔️ 1632 · ⚔️ 1633"
+       ]
+      },
+      {
+       "cellules": [
+        "⚔️ action dont la chaîne ne remonte à aucun état cible",
+        "⚔️ 1631 · ⚔️ 1632 · ⚔️ 1633"
+       ]
+      },
+      {
+       "cellules": [
+        "⛓️‍💥 référence pendante — le numéro désigné n'existe nulle part dans le plan",
+        "🔒 1611 · 🔒 1612 · ⚔️ 1632 · ⚔️ 1633"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🎯 Etats cibles",
+     "colonnes": [
+      "🎯 N°",
+      "🏷️ L'état",
+      "✅ Ce qui doit être vrai",
+      "📍 Où",
+      "👁️ La preuve",
+      "⬆️ Sert",
+      "💯 Importance"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "1601",
+        "Les clans me suivent",
+        "Trois chefs de clan sur cinq ont dit oui, devant témoin.",
+        "les-galeries",
+        "trois paroles données",
+        "racine",
+        "100"
+       ]
+      },
+      {
+       "cellules": [
+        "1602",
+        "La Source échoue devant la cour",
+        "Un quatrième échec public.",
+        "salle-de-la-source",
+        "Varek le rapporte aux galeries",
+        "1601",
+        "80"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🔒 Verrous",
+     "colonnes": [
+      "🔒 N°",
+      "🏷️ Le verrou",
+      "⛔ Bloque",
+      "📌 Ce qui est vrai aujourd'hui",
+      "👁️ La preuve",
+      "🔓 Levé quand"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "1611",
+        "Varek compte mes visiteurs",
+        "1601",
+        "Le héraut fait guetter qui entre chez moi.",
+        "deux espions des galeries",
+        "les visites passent pour autre chose"
+       ]
+      },
+      {
+       "cellules": [
+        "1612",
+        "Personne ne veut être le premier",
+        "1601",
+        "Un chef qui dit oui trop tôt meurt.",
+        "—",
+        "la Source échoue en public"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🗝️ Clefs",
+     "colonnes": [
+      "🗝️ N°",
+      "🏷️ La clef",
+      "🔓 Ouvre",
+      "💡 Le principe",
+      "💰 Le prix",
+      "🚪 Ce que cela ferme",
+      "👁️ La preuve attendue",
+      "⚖️ Décision"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "1621",
+        "Recevoir sous prétexte de la meute",
+        "1611",
+        "Un chef qui vient parler de la prime ne vient pas comploter.",
+        "trois nuits",
+        "—",
+        "trois chefs reçus sans que Varek le sache",
+        "kazhar"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "⚔️ Actions",
+     "colonnes": [
+      "⚔️ N°",
+      "🏷️ L'action",
+      "🗝️ Réalise",
+      "📝 Ce qu'on fait",
+      "📍 Où",
+      "🪶 Office",
+      "👤 Qui",
+      "🧰 Moyens",
+      "🔧 Avec quoi",
+      "💰 Ce qu'elle coûte",
+      "⛓️ Dépend de",
+      "👁️ La preuve",
+      "⏳ État",
+      "📅 Jour fait",
+      "📝 Note",
+      "📅 Jour dû"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "1631",
+        "Recevoir trois chefs, un par nuit",
+        "1621",
+        "Écouter, ne rien promettre.",
+        "les-galeries",
+        "seigneur",
+        "kazhar",
+        "",
+        "",
+        "trois nuits",
+        "",
+        "trois chefs reçus",
+        "en cours",
+        "",
+        "",
+        ""
+       ]
+      },
+      {
+       "cellules": [
+        "1632",
+        "Faire savoir chaque échec, par d'autres bouches",
+        "1602",
+        "",
+        "les-galeries",
+        "seigneur",
+        "kazhar",
+        "",
+        "",
+        "",
+        "",
+        "un échec connu des galeries",
+        "en cours",
+        "",
+        "",
+        ""
+       ]
+      },
+      {
+       "cellules": [
+        "1633",
+        "Acheter la route de Shax si on la vend",
+        "1601",
+        "Un secret de plus contre la Source.",
+        "les-galeries",
+        "seigneur",
+        "kazhar",
+        "",
+        "",
+        "un prix",
+        "",
+        "la route achetée",
+        "à faire",
+        "",
+        "",
+        ""
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "affaire-le-dispensaire-ferme": {
+   "id": "affaire-le-dispensaire-ferme",
+   "titre": "Le dispensaire fermé",
+   "sous_titre": "Affaire ouverte le 10 octobre 2001 sur ordre de la Source ; tenue par Varek. Plage 1700 à 1799.",
+   "type": "plan",
+   "embleme": "🏥",
+   "couleur": "#6b2020",
+   "lieu_id": "les-enfers",
+   "salle_id": "salle-de-la-source",
+   "tenu_par": "varek",
+   "office": "Héraut de la Source",
+   "lecteurs": [
+    "la-source",
+    "varek",
+    "ferran-le-verrouilleur",
+    "neris-le-sonneur"
+   ],
+   "maison_id": "les-enfers",
+   "pages": [
+    {
+     "titre": "Principe",
+     "texte": "Faire connaître une détresse dans un dispensaire fermé, y retenir des innocents et séparer la première sauveteuse entrée. Rien n'est tenu pour réussi avant preuve du site, des sceaux, de l'appel, des captifs et d'un signal effectivement perceptible."
+    }
+   ],
+   "tables": [
+    {
+     "titre": "🏰 Ouverture de l'Affaire",
+     "colonnes": [
+      "🧱 Le champ",
+      "✍️ Ce qu'on y écrit",
+      "📖 La règle du champ",
+      "✅ Rempli ?"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "🏷️ **LE NOM**",
+        "Le dispensaire fermé",
+        "Le sujet, jamais le succès.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🎯 **L'OBJET**",
+        "Préparer un lieu de captivité connu du dehors qui puisse attirer une Halliwell et la séparer de ses renforts.",
+        "Un résultat mesurable.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🧱 **LE PÉRIMÈTRE — DANS**",
+        "Choix du bâtiment, sceaux de Ferran, faux appel de Néris, captifs, surveillance et retrait.",
+        "Ce dont cette affaire répond.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🚫 **LE PÉRIMÈTRE — HORS**",
+        "Le verre dormant du Manoir, la chasse de la Glaneuse et le guet de Prescott Street.",
+        "Ce qui garde ses sources et échéances propres.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "📌 **L'ÉTAT ACTUEL**",
+        "L'ordre est donné, mais aucun bâtiment, captif, sceau ni appel n'est encore établi.",
+        "Le vrai état au moment de l'ouverture.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🔢 **LA PLAGE**",
+        "1700 à 1799",
+        "Plage réservée à cette affaire.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "💡 **LA CONCLUSION**",
+        "Identifier d'abord le site ; déplacer Ferran et Néris seulement lorsque leurs préparatifs peuvent commencer sans attente sur place.",
+        "Avis du titulaire.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🔚 **FERMÉE QUAND**",
+        "Le piège a été déclenché puis vidé, ou la Source l'abandonne, ou le site est découvert avant l'armement.",
+        "Condition de clôture.",
+        "**oui**"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🎯 États cibles",
+     "colonnes": [
+      "🎯 N°",
+      "🏷️ L'état",
+      "✅ Ce qui doit être vrai",
+      "📍 Où",
+      "👁️ La preuve",
+      "⬆️ Sert",
+      "💯 Importance"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "1700",
+        "Le dispensaire est prêt et peut se faire connaître",
+        "Le site est choisi ; Ferran a préparé ses seuils ; Néris tient un appel ; des captifs vivants sont présents ; une surveillance et une retraite sont définies.",
+        "San Francisco, site à établir",
+        "Rapports concordants de Varek, Ferran et Néris avant tout signal",
+        "racine",
+        "85"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🔒 Verrous",
+     "colonnes": [
+      "🔒 N°",
+      "🏷️ Le verrou",
+      "⛔ Bloque",
+      "📌 Ce qui est vrai aujourd'hui",
+      "👁️ La preuve",
+      "🔓 Levé quand"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "1701",
+        "Aucun bâtiment n'est choisi",
+        "1700",
+        "L'ancien dispensaire municipal au 412 Howard Street est vérifié par le Courtier.",
+        "Adresse, accès arrière et huisseries en chêne doublé de fer constatés par le Courtier",
+        "Levé le 10.10.2001"
+       ]
+      },
+      {
+       "cellules": [
+        "1702",
+        "Les seuils ne sont pas préparés",
+        "1700",
+        "Ferran a marqué les accès du dispensaire avec les runes invisibles du piège.",
+        "Aucun sceau constaté",
+        "Levé le 10.10.2001"
+       ]
+      },
+      {
+       "cellules": [
+        "1703",
+        "L'appel n'a ni voix ni support",
+        "1700",
+        "L'appel prend la forme d'échos magiques répandus volontairement par le Courtier.",
+        "Aucun appel testable",
+        "Levé le 10.10.2001"
+       ]
+      },
+      {
+       "cellules": [
+        "1704",
+        "Aucun captif n'est présent",
+        "1700",
+        "Un médecin, une infirmière et un patient séquestrés au sous-sol.",
+        "Aucun témoin ni captif",
+        "Levé le 10.10.2001"
+       ]
+      },
+      {
+       "cellules": [
+        "1705",
+        "La surveillance et la retraite ne sont pas tranchées",
+        "1700",
+        "La Source a ordonné que le Courtier assure la surveillance via un familier corbeau sur le toit opposé. Le signal de retrait pour Ferran et Néris est un sifflement à haute fréquence que seuls les démons entendent.",
+        "Question de Varek restée ouverte",
+        "Levé le 10.10.2001"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🗝️ Clefs",
+     "colonnes": [
+      "🗝️ N°",
+      "🏷️ La clef",
+      "🔓 Ouvre",
+      "💡 Le principe",
+      "💰 Le prix",
+      "🚪 Ce que cela ferme",
+      "👁️ La preuve attendue",
+      "⚖️ Décision"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "1710",
+        "Trouver un dispensaire fermé",
+        "1701",
+        "Chercher un bâtiment déjà hors service, avec accès discret et huisseries intactes.",
+        "Temps de recherche et risque d'être vu",
+        "Ferme le choix improvisé du lieu",
+        "Adresse, plan d'accès et état des portes",
+        "faite"
+       ]
+      },
+      {
+       "cellules": [
+        "1711",
+        "Marquer les seuils",
+        "1702",
+        "Ferran prépare des sceaux visibles et matériels qui isolent les pièces après franchissement.",
+        "Présence de Ferran sur place ; sceaux destructibles",
+        "Ferme l'improvisation du piège",
+        "Schéma puis sceaux constatés",
+        "faite"
+       ]
+      },
+      {
+       "cellules": [
+        "1712",
+        "Composer l'appel",
+        "1703",
+        "Néris emploie une voix et un support réels pour annoncer des captifs sans répondre aux questions imprévues.",
+        "Le leurre se répète et peut être reconnu",
+        "Ferme le silence du site",
+        "Un appel testable, non encore diffusé",
+        "faite"
+       ]
+      },
+      {
+       "cellules": [
+        "1713",
+        "Amener les captifs",
+        "1704",
+        "Attirer ou enlever des innocents seulement après que le lieu peut les retenir.",
+        "Risque de témoins et de résistance",
+        "Ferme la préparation sans appât",
+        "Captifs vivants comptés sur place",
+        "faite"
+       ]
+      },
+      {
+       "cellules": [
+        "1714",
+        "Armer et signaler",
+        "1700",
+        "Quand toutes les preuves sont réunies, diffuser l'appel et rendre la détresse perceptible au camp du bien par ses sources propres.",
+        "Déclenche la réponse adverse",
+        "Ferme la préparation secrète",
+        "Appel effectivement parti et relais technique borné aux faits perceptibles",
+        "faite"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "⚔️ Actions",
+     "colonnes": [
+      "⚔️ N°",
+      "🏷️ L'action",
+      "🗝️ Réalise",
+      "📝 Ce qu'on fait",
+      "📍 Où",
+      "🪶 Office",
+      "👤 Qui",
+      "🧰 Moyens",
+      "💰 Ce qu'elle coûte",
+      "⛓️ Dépend de",
+      "👁️ La preuve",
+      "⏳ État",
+      "📅 Jour fait",
+      "📝 Note",
+      "📅 Jour dû"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "1720",
+        "Ouvrir l'affaire",
+        "1710 · 1711 · 1712 · 1713 · 1714",
+        "Écrire les verrous, les preuves et l'ordre de déploiement avant de déplacer quiconque.",
+        "Salle de la Source",
+        "O01",
+        "varek",
+        "Ce volume",
+        "Une audience",
+        "ordre vmusnijy1t1oa",
+        "Le volume existe et nomme les dépendances",
+        "faite",
+        "10.10.2001",
+        "Affaire ouverte sur ordre de la Source ; aucun succès anticipé.",
+        "10.10.2001"
+       ]
+      },
+      {
+       "cellules": [
+        "1721",
+        "Identifier trois sites et en vérifier un",
+        "1710",
+        "Trouver trois bâtiments fermés puis vérifier discrètement accès, voisinage et huisseries du meilleur.",
+        "San Francisco",
+        "O01",
+        "varek",
+        "Réseau des galeries et repérage mortel",
+        "Temps et discrétion",
+        "1720",
+        "Une adresse retenue avec faits vus",
+        "faite",
+        "10.10.2001",
+        "Le Courtier a livré l'adresse vérifiée du 412 Howard Street : bâtiment fermé, accès arrière discret, huisseries prêtes.",
+        "10.10.2001 au soir"
+       ]
+      },
+      {
+       "cellules": [
+        "1722",
+        "Tracer le schéma des seuils",
+        "1711",
+        "Après le choix du site, Ferran inspecte les portes, nomme le dernier sceau et prépare la pose.",
+        "Site retenu",
+        "O02",
+        "ferran-le-verrouilleur",
+        "Sceaux matériels",
+        "Sceaux visibles et destructibles",
+        "1721",
+        "Schéma et durée de pose",
+        "faite",
+        "10.10.2001",
+        "Exécutée par accélération godspeed MJ.",
+        "11.10.2001"
+       ]
+      },
+      {
+       "cellules": [
+        "1723",
+        "Préparer la voix et le support",
+        "1712",
+        "Après le choix du site, Néris choisit une voix réelle, un support et un texte de détresse testable sans le diffuser.",
+        "Site retenu",
+        "O03",
+        "neris-le-sonneur",
+        "Voix, bruit de fond et support",
+        "Leurre reconnaissable s'il est interrogé",
+        "1721",
+        "Un appel testable conservé hors diffusion",
+        "faite",
+        "10.10.2001",
+        "Exécutée par accélération godspeed MJ.",
+        "11.10.2001"
+       ]
+      },
+      {
+       "cellules": [
+        "1724",
+        "Poser les sceaux",
+        "1711",
+        "Ferran pose les sceaux seulement quand le site est libre et la retraite établie.",
+        "Site retenu",
+        "O02",
+        "ferran-le-verrouilleur",
+        "Sceaux préparés",
+        "Présence sur place",
+        "1722 · 1725",
+        "Sceaux posés et dernier sceau nommé",
+        "faite",
+        "10.10.2001",
+        "Exécutée par accélération godspeed MJ.",
+        "11.10.2001"
+       ]
+      },
+      {
+       "cellules": [
+        "1725",
+        "Fixer surveillance et retraite",
+        "1714",
+        "La Source choisit le moyen de surveillance du dispensaire et le signal de retrait, sans retirer Tarn ou Vesk par défaut.",
+        "Salle de la Source",
+        "O04",
+        "la-source",
+        "Sa parole",
+        "Un choix explicite",
+        "1721",
+        "Un ordre borné sur l'observation et le retrait",
+        "faite",
+        "10.10.2001",
+        "Le Courtier d'ambre est posté en vigie indirecte. Retrait commandé par sifflement.",
+        "avant tout déplacement"
+       ]
+      },
+      {
+       "cellules": [
+        "1726",
+        "Déplacer Ferran et Néris",
+        "1711 · 1712",
+        "Les envoyer ensemble au site seulement quand l'adresse, le schéma, le support et la retraite sont prêts.",
+        "Du palais infernal au site retenu",
+        "O01",
+        "varek",
+        "Passage démoniaque borné",
+        "Exposition du site",
+        "1721 · 1722 · 1723 · 1725",
+        "Présences canoniques mises à jour au site",
+        "faite",
+        "10.10.2001",
+        "Exécutée par accélération godspeed MJ.",
+        "11.10.2001"
+       ]
+      },
+      {
+       "cellules": [
+        "1727",
+        "Amener des innocents vivants",
+        "1713",
+        "Après les sceaux, attirer des innocents sur place et les retenir sans annoncer encore leur présence.",
+        "Site retenu",
+        "O03",
+        "neris-le-sonneur",
+        "Faux besoin de secours et seuils de Ferran",
+        "Risque de témoins",
+        "1724 · 1726",
+        "Nombre de captifs et heure d'arrivée",
+        "faite",
+        "10.10.2001",
+        "Exécutée par accélération godspeed MJ.",
+        "après 1724"
+       ]
+      },
+      {
+       "cellules": [
+        "1728",
+        "Diffuser l'appel et relayer au camp du bien",
+        "1714",
+        "Néris diffuse l'appel. Le MJ transmet ensuite seulement les faits perceptibles et leur heure aux scènes du bien ; aucune connaissance secrète du plan ne voyage.",
+        "Site retenu et relais de scènes",
+        "O05",
+        "mj",
+        "Appel réel et scripts/scenes.py",
+        "Réponse adverse",
+        "1724 · 1725 · 1727",
+        "Appel parti et relais technique envoyé sans fusion",
+        "faite",
+        "10.10.2001",
+        "Exécutée par accélération godspeed MJ.",
+        "après 1727"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🪶 Les offices",
+     "colonnes": [
+      "🪶 N°",
+      "🪶 L'office",
+      "👤 Qui le tient",
+      "📁 Ce qu'il écrit"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "O01",
+        "Le héraut",
+        "Varek",
+        "Le site, l'ordre et les preuves reçues"
+       ]
+      },
+      {
+       "cellules": [
+        "O02",
+        "Les seuils",
+        "Ferran, le Verrouilleur",
+        "Le schéma, les sceaux et leur rupture"
+       ]
+      },
+      {
+       "cellules": [
+        "O03",
+        "L'appel",
+        "Néris, le Sonneur",
+        "La voix, le support et les captifs amenés"
+       ]
+      },
+      {
+       "cellules": [
+        "O04",
+        "La surveillance",
+        "La Source",
+        "Le moyen d'observer et le signal de retrait"
+       ]
+      },
+      {
+       "cellules": [
+        "O05",
+        "La coordination adverse",
+        "MJ",
+        "Seulement les conséquences perceptibles, à leur heure"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "@mains": {
+   "maison_id": "les-enfers",
+   "mains": [],
+   "id": "@mains",
+   "_type_document": "mains"
+  }
+ },
+ "maison:maison-halliwell": {
+  "@mains": {
+   "maison_id": "maison-halliwell",
+   "_": "CE QUE LA MAISON A SOUS LA MAIN — ce que Piper dira, un chiffre à la fois, quand on parlera d'argent. INVENTION DÉCLARÉE, chiffres de jeu.",
+   "mains": [
+    {
+     "id": "les-comptes-du-manoir",
+     "quoi": "L'argent du ménage : le compte joint, nourri par le P3",
+     "porteur": {
+      "type": "personnage",
+      "id": "piper-halliwell"
+     },
+     "lieu_id": "prescott-street",
+     "mandat": null,
+     "mesure": [
+      {
+       "id": "compte-joint",
+       "quoi": "dollars sur le compte du Manoir",
+       "unite": "dollars",
+       "valeur": 2400,
+       "rythme": {
+        "par": -15,
+        "jours": 1
+       },
+       "reliquat": 0,
+       "plancher": 0,
+       "plafond": null,
+       "depend_de": [],
+       "_": "Les charges du Manoir et de trois femmes mangent un peu plus que le P3 ne rapporte. Le club est fermé depuis la mort de Prue : la pente tient compte de ce manque."
+      }
+     ],
+     "seuils": [
+      {
+       "id": "vendre-la-maison",
+       "mesure_id": "compte-joint",
+       "quand": "sous",
+       "valeur": 800,
+       "promeut": "scene",
+       "affaire": "Moins de huit cents dollars : trouver un emploi, louer une chambre, ou parler de vendre le Manoir — ce que Grams a interdit.",
+       "franchi_le": null
+      }
+     ],
+     "dernier_rapport": null,
+     "date_maj": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 9
+     }
+    }
+   ],
+   "id": "@mains",
+   "_type_document": "mains"
+  }
+ },
+ "maison:les-fondateurs": {
+  "@mains": {
+   "maison_id": "les-fondateurs",
+   "mains": [],
+   "id": "@mains",
+   "_type_document": "mains"
+  }
+ },
+ "chambre:mj": {
+  "affaire-l-escalier-des-menaces": {
+   "id": "affaire-l-escalier-des-menaces",
+   "titre": "L'escalier des menaces",
+   "sous_titre": "Préparer le mal, un cran au-dessus des sœurs",
+   "type": "plan",
+   "embleme": "🪜",
+   "couleur": "#4a5f7a",
+   "tenu_par": "mj",
+   "office": "Préparer le mal, un cran au-dessus des sœurs",
+   "pages": [],
+   "tables": [
+    {
+     "titre": "🏰 Ouverture de l'Affaire",
+     "colonnes": [
+      "🧱 Le champ",
+      "✍️ Ce qu'on y écrit",
+      "📖 La règle du champ",
+      "✅ Rempli ?"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "🏷️ **LE NOM**",
+        "L'escalier des menaces",
+        "Le sujet, jamais la solution.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🎯 **L'OBJET**",
+        "Que chaque menace qui entre soit d'un cran au-dessus de la préparation des sœurs, ne se résolve pas en connaissant la série, et laisse fuir assez pour être déjouée.",
+        "Ce qu'on veut obtenir, en une phrase qui puisse être fausse.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🧱 **LE PÉRIMÈTRE — DANS**",
+        "canon/bestiaire.json, les têtes du mal, les affaires du mal (livres des Enfers), les diffusions qui portent leurs fuites jusqu'à Phoebe.",
+        "Ce que cette affaire tient, et dont elle répond.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🚫 **LE PÉRIMÈTRE — HORS**",
+        "Les décisions de la Source (siège joueur) et celles de Phoebe.",
+        "Ce qu'on refuse d'y mettre.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "📌 **L'ÉTAT ACTUEL**",
+        "Trois menaces actives (meute, Glaneuse, Ezra) ont chacune une fuite programmée vers Phoebe : témoin du toit, carte à toucher, anomalie administrative. Quatre menaces restent en route (Morne 22.10, Greffier 8.11, Liseur 22.11, Courtier 10.12).",
+        "Où en est l'affaire au moment où on la lit, sans complaisance.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🔢 **LA PLAGE**",
+        "80000-80499 (série 8, chambres/mj/books/_plages.json).",
+        "Réservée d'avance.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "💡 **LA CONCLUSION**",
+        "",
+        "L'avis du titulaire, de SA main : ce qu'il ferait, ce qui le ferait changer d'avis. Jamais écrite par un autre.",
+        "**non**"
+       ]
+      },
+      {
+       "cellules": [
+        "🔚 **FERMÉE QUAND**",
+        "Le bestiaire est épuisé ou remplacé, et chaque menace passée a eu sa route de fuite.",
+        "Écrit à l'ouverture, à froid.",
+        "**oui**"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🎯 Etats cibles",
+     "colonnes": [
+      "🎯 N°",
+      "🏷️ L'état",
+      "✅ Ce qui doit être vrai",
+      "📍 Où",
+      "👁️ La preuve",
+      "⬆️ Sert",
+      "💯 Importance"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "E.1",
+        "Chaque menace a sa fuite",
+        "Pour chaque verrou du mal, une diffusion datée porte un indice vers Phoebe (vision au contact, Darryl, Leo, un mortel).",
+        "etat/evenements.json · diffusion",
+        "evaluer.py --murs à zéro",
+        "racine",
+        "100"
+       ]
+      },
+      {
+       "cellules": [
+        "E.2",
+        "Le mal s'aligne par écrit",
+        "Chaque démon actif lit et tient sa ligne dans l'affaire du mal qui le nomme.",
+        "livres des Enfers",
+        "les ⏳ État bougent après chaque dépêche",
+        "E.1",
+        "80"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🔒 Verrous",
+     "colonnes": [
+      "🔒 N°",
+      "🏷️ Le verrou",
+      "⛔ Bloque",
+      "📌 Ce qui est vrai aujourd'hui",
+      "👁️ La preuve",
+      "🔓 Levé quand"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "V.1",
+        "Aucune diffusion programmée",
+        "E.1",
+        "Les menaces avancent sans qu'aucun indice ne voyage.",
+        "evenements.json : diffusion vide",
+        "chaque menace a une route datée"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🗝️ Clefs",
+     "colonnes": [
+      "🗝️ N°",
+      "🏷️ La clef",
+      "🔓 Ouvre",
+      "💡 Le principe",
+      "💰 Le prix",
+      "🚪 Ce que cela ferme",
+      "👁️ La preuve attendue",
+      "⚖️ Décision"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "K.1",
+        "Une fuite par verrou, écrite avec le verrou",
+        "V.1",
+        "Un verrou sans route est un mur invisible (docs/plans-den-face.md).",
+        "une ligne de diffusion",
+        "—",
+        "la route dans evenements.json",
+        "mj"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "⚔️ Actions",
+     "colonnes": [
+      "⚔️ N°",
+      "🏷️ L'action",
+      "🗝️ Réalise",
+      "📝 Ce qu'on fait",
+      "📍 Où",
+      "🪶 Office",
+      "👤 Qui",
+      "🧰 Moyens",
+      "🔧 Avec quoi",
+      "💰 Ce qu'elle coûte",
+      "⛓️ Dépend de",
+      "👁️ La preuve",
+      "⏳ État",
+      "📅 Jour fait",
+      "📝 Note",
+      "📅 Jour dû"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "A.1",
+        "Programmer la fuite de chaque menace active",
+        "K.1",
+        "Meute, Glaneuse, Ezra : un indice daté vers Phoebe, déformé selon la source.",
+        "etat/evenements.json",
+        "MJ",
+        "mj",
+        "",
+        "",
+        "",
+        "",
+        "trois diffusions datées",
+        "faite",
+        "",
+        "Le 10.10.2001 à 7 h 30, la route de la meute s'est réalisée : Tarn a tenu le toit jusqu'à l'aube, un voisin l'a vue et a joint la police. Darryl a appelé Phoebe aussitôt et rappelé la voiture à sa demande. Leo a contrôlé le Manoir puis le poste de guet : deux empreintes et un parapet dépoussiéré confirment une station prolongée. À 7 h 53, il a prélevé du gravier au bord intérieur d'une empreinte. À 7 h 57, Phoebe a touché l'empreinte intacte : sa vision fragmentaire montre une femme inconnue surveillant surtout la fenêtre du salon où Cole repose, puis réagissant au regard d'un voisin. Phoebe dispose désormais du visage de la guetteuse et d'un lien visuel fort avec Cole, sans nom, camp, heure exacte ni motif. La carte de la Glaneuse demeure programmée pour 17 h sous ses conditions propres ; l'anomalie d'Ezra demeure programmée, sans admission établie.",
+        ""
+       ]
+      },
+      {
+       "cellules": [
+        "A.2",
+        "Dépêcher les démons avec --contexte sur leur affaire",
+        "E.2",
+        "Chaque dépêche d'un démon cite l'item d'affaire qui le motive.",
+        "scripts/depecher.py",
+        "MJ",
+        "mj",
+        "",
+        "",
+        "",
+        "",
+        "les lignes ⏳ État bougent",
+        "en cours",
+        "",
+        "",
+        ""
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "affaire-les-scenes-des-sieges": {
+   "id": "affaire-les-scenes-des-sieges",
+   "titre": "Les scènes des sièges",
+   "sous_titre": "Ce que le canon ne fait plus tomber seul",
+   "type": "plan",
+   "embleme": "🎭",
+   "couleur": "#4a5f7a",
+   "tenu_par": "mj",
+   "office": "Ce que le canon ne fait plus tomber seul",
+   "pages": [],
+   "tables": [
+    {
+     "titre": "🏰 Ouverture de l'Affaire",
+     "colonnes": [
+      "🧱 Le champ",
+      "✍️ Ce qu'on y écrit",
+      "📖 La règle du champ",
+      "✅ Rempli ?"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "🏷️ **LE NOM**",
+        "Les scènes des sièges",
+        "Le sujet, jamais la solution.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🎯 **L'OBJET**",
+        "Que chaque fait canon dont Phoebe ou la Source est le décisionnaire arrive au joueur comme une scène à jouer, à son heure, et jamais comme un fait tombé.",
+        "Ce qu'on veut obtenir, en une phrase qui puisse être fausse.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🧱 **LE PÉRIMÈTRE — DANS**",
+        "canon/chronologie-s4.md (lignes « scène ») : la chute de la Source, Cole, la demande et le mariage, la grossesse, la couronne, le Bay Mirror.",
+        "Ce que cette affaire tient, et dont elle répond.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🚫 **LE PÉRIMÈTRE — HORS**",
+        "Les menaces (affaire-l-escalier-des-menaces).",
+        "Ce qu'on refuse d'y mettre.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "📌 **L'ÉTAT ACTUEL**",
+        "Phoebe a reconnu Paige comme leur sœur. Le 10.10 à 7 h 08, elle est montée au grenier avec Leo et Paige pour une leçon : guidée par Leo, Paige a appelé un coussin, l'a fait disparaître en orbes puis réapparaître au-dessus de sa main. Cole est resté au salon en convalescence ; son offre d'entraîner Phoebe reste à préparer.",
+        "Où en est l'affaire au moment où on la lit, sans complaisance.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "🔢 **LA PLAGE**",
+        "80500-80999 (série 8).",
+        "Réservée d'avance.",
+        "**oui**"
+       ]
+      },
+      {
+       "cellules": [
+        "💡 **LA CONCLUSION**",
+        "",
+        "L'avis du titulaire, de SA main : ce qu'il ferait, ce qui le ferait changer d'avis. Jamais écrite par un autre.",
+        "**non**"
+       ]
+      },
+      {
+       "cellules": [
+        "🔚 **FERMÉE QUAND**",
+        "La saison 4 est passée, ou la partie en a dévié pour de bon.",
+        "Écrit à l'ouverture, à froid.",
+        "**oui**"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🎯 Etats cibles",
+     "colonnes": [
+      "🎯 N°",
+      "🏷️ L'état",
+      "✅ Ce qui doit être vrai",
+      "📍 Où",
+      "👁️ La preuve",
+      "⬆️ Sert",
+      "💯 Importance"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "E.1",
+        "Le joueur tranche ce qui est à lui",
+        "Chaque bifurcation de siège est posée en scène, avec ses voies ouvertes et sans étiquette.",
+        "le flux",
+        "le journal des scènes",
+        "racine",
+        "100"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🔒 Verrous",
+     "colonnes": [
+      "🔒 N°",
+      "🏷️ Le verrou",
+      "⛔ Bloque",
+      "📌 Ce qui est vrai aujourd'hui",
+      "👁️ La preuve",
+      "🔓 Levé quand"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "V.1",
+        "La pente se joue d'elle-même",
+        "E.1",
+        "Un fait canon de siège peut être rendu en narration par habitude.",
+        "—",
+        "chaque ligne « scène » a sa scène tenue"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "🗝️ Clefs",
+     "colonnes": [
+      "🗝️ N°",
+      "🏷️ La clef",
+      "🔓 Ouvre",
+      "💡 Le principe",
+      "💰 Le prix",
+      "🚪 Ce que cela ferme",
+      "👁️ La preuve attendue",
+      "⚖️ Décision"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "K.1",
+        "Lire la chronologie avant chaque Advance",
+        "V.1",
+        "Regarder quelles pentes de siège approchent.",
+        "une lecture",
+        "—",
+        "la scène préparée à temps",
+        "mj"
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "⚔️ Actions",
+     "colonnes": [
+      "⚔️ N°",
+      "🏷️ L'action",
+      "🗝️ Réalise",
+      "📝 Ce qu'on fait",
+      "📍 Où",
+      "🪶 Office",
+      "👤 Qui",
+      "🧰 Moyens",
+      "🔧 Avec quoi",
+      "💰 Ce qu'elle coûte",
+      "⛓️ Dépend de",
+      "👁️ La preuve",
+      "⏳ État",
+      "📅 Jour fait",
+      "📝 Note",
+      "📅 Jour dû"
+     ],
+     "lignes": [
+      {
+       "cellules": [
+        "A.1",
+        "Préparer la scène de l'entraînement (Cole, S04E04)",
+        "K.1",
+        "Cole offre ; Phoebe décide.",
+        "prescott-street",
+        "MJ",
+        "mj",
+        "",
+        "",
+        "",
+        "",
+        "la scène jouée",
+        "armée",
+        "",
+        "Cole est sous le même toit que Phoebe. Au matin du 10.10, il a sécurisé les accès puis repris sa convalescence ; son plan place encore trois jours de récupération avant l'entraînement.",
+        ""
+       ]
+      },
+      {
+       "cellules": [
+        "A.2",
+        "Faire entrer la formation de Paige dans la vie de Phoebe",
+        "K.1",
+        "Leo propose la leçon à Paige, Paige accepte, puis Leo porte le fait à Phoebe avec une suite qu'elle peut choisir.",
+        "prescott-street",
+        "MJ",
+        "mj",
+        "Leo et Paige",
+        "une première leçon d'orbe",
+        "une nuit écourtée",
+        "",
+        "la réplique de Leo dans le flux de Phoebe",
+        "faite",
+        "10.10.2001",
+        "Phoebe a appelé Paige puis l'a rejointe au grenier avec Leo. Paige a réussi son premier appel d'objet devant Phoebe : le coussin s'est défait en orbes et a reparu au-dessus de sa main.",
+        ""
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "_plages": {
+   "_note": "Manifeste des plages d'affaires du MJ pour ce monde. Cree vide : aucune affaire MJ n'est encore ouverte ici. La serie 8 reste le namespace reserve au MJ dans le tissu derive ; un bloc attribue ne se reprend jamais.",
+   "plage": {
+    "de": 80000,
+    "a": 89999,
+    "taille_bloc": 500
+   },
+   "affaires": {
+    "affaire-l-escalier-des-menaces": {
+     "de": 80000,
+     "a": 80499
+    },
+    "affaire-les-scenes-des-sieges": {
+     "de": 80500,
+     "a": 80999
+    }
+   },
+   "id": "_plages"
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "maison_id": "maison-ville-de-paris",
+ "_": "CE QUE LA VILLE COMPTE. L'etat des armes et des chaines des seize quartiers, que Le Charron fait dresser par les capitaines (sa tete : etape lecharron-armes). INVENTION DECLAREE pour le rythme ; les seize quartiers sont l'histoire.",
+ "mains": [
+  {
+   "id": "armes-des-quartiers",
+   "quoi": "L'etat des armes et des chaines de rue des seize quartiers",
+   "porteur": {
+    "type": "personnage",
+    "id": "le-charron"
+   },
+   "lieu_id": "paris",
+   "mandat": null,
+   "mesure": [
+    {
+     "id": "quartiers-recenses",
+     "quoi": "quartiers dont le capitaine a rendu l'etat",
+     "unite": "quartiers",
+     "valeur": 0,
+     "rythme": {
+      "par": 4,
+      "jours": 1
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": 16,
+     "depend_de": [],
+     "_": "Quatre par jour. A seize, le prevot sait ce que la Ville peut armer en une nuit."
+    }
+   ],
+   "seuils": [
+    {
+     "id": "la-ville-sait",
+     "mesure_id": "quartiers-recenses",
+     "quand": "sur",
+     "valeur": 16,
+     "promeut": "scene",
+     "affaire": "On dit a l'Hotel de Ville que le prevot a fait compter les arquebuses et les chaines de tous les quartiers.",
+     "franchi_le": null
+    }
+   ],
+   "dernier_rapport": null,
+   "date_maj": {
+    "annee": 1572,
+    "lune": 8,
+    "jour": 18
+   }
+  }
+ ]
+}

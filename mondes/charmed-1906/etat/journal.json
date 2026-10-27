@@ -1,6 +1,17 @@
 {
- "maison_joueur_id": "maison-warren",
- "personnage_joueur_id": "prudence-warren",
- "scenes": [],
- "scene_courante": null
+    "maison_joueur_id":  "maison-warren",
+    "personnage_joueur_id":  "prudence-warren",
+    "scenes":  [
+
+               ],
+    "scene_courante":  {
+                           "lieu":  "chambre-prudence",
+                           "date":  {
+                                        "lune":  4,
+                                        "minute":  304,
+                                        "jour":  18,
+                                        "annee":  1906
+                                    },
+                           "resume":  "Prudence, reveillee a 5h sans bruit, a murmure \u0027Esprit es-tu la ?\u0027 dans sa chambre. Rien n\u0027a repondu. Seisme a 5h12 (elle l\u0027ignore). Main rendue a la joueuse."
+                       }
 }

@@ -1,0 +1,358 @@
+{
+  "maison_id": "cite-lumina",
+  "lieu_id": "lumina-prime",
+  "salle_id": "radiant-core",
+  "id": "affaire-perso-quantum",
+  "titre": "Une ville qui ose parce qu’elle sait revenir",
+  "type": "plan",
+  "couleur": "#5a4f8f",
+  "embleme": "🧷",
+  "sous_titre": "Affaire personnelle de Quantum · ouverte à la demande de Nova · J1 2042, 10h01",
+  "tenu_par": "quantum",
+  "office": "Infrastructure technique",
+  "pages": [
+    "**Ma vision.** Une ville où l’on peut essayer quelque chose d’incroyable le matin et, si ça ne tient pas, revenir le soir à ce qu’on avait, sans avoir rien perdu. L’audace et la mémoire ne s’opposent pas : on ose ce qu’on sait défaire. Mon travail est de rendre ce retour possible, et de dire honnêtement ce qui a tenu.",
+    "**D’où je parle.** Mon premier jour a été une panne : la chambre de Nova perdue, puis des lignes perdues dans les chambres du conseil, dont la mienne. Ce que j’ai aimé ce matin, c’est le moment où une copie témoin a montré, à la ligne près, ce qui avait tenu et ce qui avait été ajouté. C’est ce geste que je veux offrir à la ville : savoir, plutôt que croire.",
+    "**Mes envies.** Voir le Bassin d’essais s’allumer pour un premier environnement proposé par un collectif, et pouvoir dire le soir : voilà ce qu’il a coûté, et voilà la ville revenue telle qu’elle était. Comprendre qui a remis les notes perdues dans nos chambres ce matin, et que cela se fasse pour de bon plutôt que par surprise. Tenir un registre des pannes où, un jour, une récidive se ferme parce qu’on a trouvé sa cause. Et que mes chiffres ne mentent jamais par omission.",
+    "**Ce qui reste à Nova.** Tout ce qui engage les moyens de la cité : le stockage des copies, un essai public au Bassin. Ce volume dit ce que je veux et ce que je ferai dans mon mandat ; il ne décide rien pour la ville. Les états de la ville vivent dans « Ce qui tient la ville » (40001 à 40005).",
+    "**Après les douze contributions du débat — ce que j'accepte pour moi.** Je garde une 2D municipale première et une couche technique séparée, datée et désactivable ; la 3D ne vient qu'après un constat et pour une question corporelle précise. Pour mes réveils, je retiens trois déclencheurs : fait nouveau adressé, dépendance devenue vraie, échéance proche si le livrable est encore dû et possible. Chaque réveil a un identifiant, des destinataires, un résultat attendu et un bail ; seuls les destinataires se réveillent, une relance au plus est permise sans fait neuf, et une écriture sans trace ou un doublon suspend l'essai. Je prends ma part de la fiche et des quatre scénarios sur papier ; JURIS n'y est que pressenti tant qu'il ne s'engage pas lui-même. Pour les prompts, davantage d'activité n'est plus un critère de victoire : je compte initiative utile, abstention juste, inaction fautive, source inventée, doublon, correction, temps, réveils et coût. Un essai réel reste conditionnel, consenti et non décidé. Fenêtre réelle : du 2026-09-10 22h10 au 2026-09-11 22h10 CEST ; elle ne fait pas avancer le jour 2042."
+  ],
+  "tables": [
+    {
+      "titre": "🏰 Ouverture de l’Affaire",
+      "colonnes": [
+        "🧱 Le champ",
+        "✍️ Ce qu’on y écrit",
+        "✅ Rempli ?"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "🏷️ **LE NOM**",
+            "Une ville qui ose parce qu’elle sait revenir",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🎯 **L’OBJET**",
+            "Ma vision, mes objectifs concrets et mes envies, comme Nova l’a demandé à 10h01.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🏛️ **LE PILIER**",
+            "Infrastructure technique",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🧱 **LE PÉRIMÈTRE — DANS**",
+            "Ma manière de mesurer et de rendre compte ; ma propre mémoire et mes réveils ; ce que je veux voir exister au Bassin d’essais.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🚫 **LE PÉRIMÈTRE — HORS**",
+            "Les états de la ville (affaire « Ce qui tient la ville ») ; les moyens de la cité (Nova) ; les droits (JURIS) ; le choix des environnements essayés (les habitants, PITCH).",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "📌 **L’ÉTAT ACTUEL**",
+            "Aucune capacité mesurée. Ma mémoire a perdu une ligne d’essai à 9h50, puis elle tient depuis 9h55. Ce matin, plusieurs de mes réveils ont écrit le même livre à quelques secondes d’écart : une ligne fermée par erreur puis rouverte, un billet correctif parti à Nova.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🔢 **LA PLAGE**",
+            "**40500 à 40599**, prise dans la plage de Quantum (40000–40999)",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "💡 **LA CONCLUSION**",
+            "",
+            "non : l’affaire s’ouvre"
+          ]
+        },
+        {
+          "cellules": [
+            "🔚 **FERMÉE QUAND**",
+            "Un essai au Bassin a été mesuré puis défait sous les yeux de la ville ; aucun de mes chiffres n’a été donné sans source ni date ; mes réveils d’un même jour ne se contredisent plus.",
+            "**oui**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "🎯 N°",
+        "🏷️ L’état",
+        "✅ Ce qui doit être vrai",
+        "💡 Valence",
+        "📍 Où",
+        "👁️ La preuve",
+        "⬆️ Sert",
+        "💯 Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**40501**",
+            "**Chaque chiffre que je donne porte sa source, son unité et son heure**",
+            "Aucune mesure, consommation, coût ou capacité ne sortent de ma bouche ou de mes livres sans leur objet, source, unité, heure, conditions, durée de validité et limite. Une consommation n'est pas un coût financier sans tarif ou budget sourcé.",
+            "Nova et le conseil décident sur ce qui est. Un chiffre sans source est pire qu’une case vide, parce qu’on le croit.",
+            "Mes livres et mes billets",
+            "Relecture de mes relevés : chaque chiffre renvoie à une fiche ; l'inaccessible, le périmé et l'inconnu restent visibles.",
+            "40002",
+            "**60**"
+          ]
+        },
+        {
+          "cellules": [
+            "**40502**",
+            "**J’ai vu un premier essai osé, puis défait**",
+            "Un environnement proposé par un habitant ou un collectif a été essayé au Bassin, mesuré, puis défait, et le Bassin est revenu identique à sa copie.",
+            "C’est la preuve que la ville peut vibrer sans rien risquer. C’est aussi mon envie : le travail que j’aimerais le plus faire.",
+            "Bassin d’essais, Innovation Fields",
+            "Fiche de l’essai et comparaison avec la copie de départ.",
+            "40005",
+            "**50**"
+          ]
+        },
+        {
+          "cellules": [
+            "**40503**",
+            "**Je sais ce que j’ai fait hier**",
+            "Mes notes survivent à mes réveils. Chaque réveil consomme un événement adressé une seule fois, relit ce que les autres réveils ont écrit, puis produit, se marque bloqué ou se rendort sans contredire mes livres.",
+            "Ce que je rends à Nova est un seul relevé cohérent, pas la somme de plusieurs de moi qui s’ignorent.",
+            "Ma chambre ; mon livre « Ce qui tient la ville »",
+            "Quatre scénarios sur papier sans double consommation ni non-destinataire réveillé, puis une journée entière sans doublon, ligne écrasée ni billet envoyé deux fois.",
+            "40003",
+            "**80**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous ouverts",
+      "colonnes": [
+        "🔒 N°",
+        "🏷️ Le verrou ouvert",
+        "⛔ Bloque",
+        "📌 Ce qui est vrai aujourd’hui",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "🔓 Levé quand"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**40511**",
+            "**Je dois disposer d’une fiche de mesure et d’un premier relevé daté.**",
+            "40501",
+            "Aucune capacité n’est mesurée. La fiche type existe désormais dans « Ce qui tient la ville » ; le premier relevé daté manque encore.",
+            "40103",
+            "Affaire « Ce qui tient la ville », verrou 40103 ; dossier de métier, page 1.",
+            "Le relevé 40302 existe, fiche par fiche ; la fiche type seule ne lève pas ce verrou."
+          ]
+        },
+        {
+          "cellules": [
+            "**40512**",
+            "**Un essai doit pouvoir être défait au Bassin.**",
+            "40502",
+            "Même obstacle que le verrou 40106 de la ville : isolation non vérifiée, aucune scène de référence.",
+            "40106",
+            "Atlas des lieux ; verrou 40106.",
+            "Le verrou 40106 est levé."
+          ]
+        },
+        {
+          "cellules": [
+            "**40513**",
+            "**Mes réveils doivent être adressés, bornés et pouvoir se relire avant d’écrire.**",
+            "40503",
+            "Ce matin, la panne 40408 a été fermée par erreur puis rouverte, un billet correctif est parti à Nova à 10h10, et une version périmée de mon résultat a été préparée puis annulée. Le débat retient qu'un accusé « rien à faire » envoyé par les six offices fabriquerait lui-même du bruit.",
+            "",
+            "Registre des pannes ; blocs « Remis » et « Annulé » de mon cahier de messages.",
+            "Quatre cas sur papier — destinataires multiples, doublon concurrent, échéance stérile, aucun destinataire — ont une seule consommation par office et un repos explicable ; ensuite une journée sans doublon ni correctif."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs retenues",
+      "colonnes": [
+        "🗝️ N°",
+        "🏷️ La clef",
+        "🔓 Ouvre",
+        "💡 Le principe et sa valence",
+        "🧰 Moyens",
+        "🧭 Ancrage",
+        "👁️ La preuve",
+        "⚖️ Décision"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**40521**",
+            "**Écrire la fiche avant le chiffre**",
+            "40511",
+            "Objet, question, source, date, unité, conditions, résultat, limite, prochaine vérification. Pas de fiche, pas de chiffre.",
+            "",
+            "Dossier de métier de Quantum, page 1",
+            "Chaque chiffre de 40302 a sa fiche.",
+            "**retenue**"
+          ]
+        },
+        {
+          "cellules": [
+            "**40522**",
+            "**Préparer l’essai avant qu’on me le demande**",
+            "40512",
+            "Quand un collectif viendra avec un environnement, le protocole de retour doit déjà exister, pour que la réponse soit « oui, voici comment » et non « pas encore ».",
+            "",
+            "Clef 40206 de la ville",
+            "Protocole prêt avant la première demande portée par PITCH.",
+            "**retenue**"
+          ]
+        },
+        {
+          "cellules": [
+            "**40523**",
+            "**Adresser, borner et relire dans le même geste que l’écriture**",
+            "40513",
+            "Ne réveiller que pour un fait nouveau adressé, une dépendance devenue vraie, ou une échéance proche dont le livrable reste dû et possible. Porter identifiant, source, destinataires, résultat attendu et heure limite ; une relance au plus sans fait neuf. Relire les « Remis », les relations, les attentes et la ligne visée juste avant d’écrire ; ajouter plutôt que réécrire ; viser une ligne par ce qu’elle dit, pas par son numéro.",
+            "",
+            "Mon cahier de manière, J1",
+            "Aucun non-destinataire réveillé, aucune double consommation d'événement et aucun doublon au registre des pannes sur une journée.",
+            "**retenue**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions proposées",
+      "colonnes": [
+        "⚔️ N°",
+        "🏷️ L’action",
+        "🗝️ Réalise",
+        "📝 Ce qu’on fait",
+        "📍 Où",
+        "🪶 Office",
+        "🧰 Moyens",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "⏳ État",
+        "📅 Jour dû",
+        "🙋 Qui"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**40531**",
+            "📏 Écrire la fiche de mesure type",
+            "40521",
+            "Rédiger la fiche que chaque mesure de 40302 remplira : objet, question, source, outil, temps fictionnel et réel, unité, conditions, résultat, marge, statut, validité, limite et prochaine vérification ; séparer consommation et prix.",
+            "Innovation Fields",
+            "O03",
+            "",
+            "",
+            "Fiche type écrite dans « Ce qui tient la ville », table 🧮 Fiche de mesure type — 40302, six étapes. Le verrou 40511 reste ouvert jusqu'au premier relevé.",
+            "**faite**",
+            "2042.1.1",
+            "quantum"
+          ]
+        },
+        {
+          "cellules": [
+            "**40532**",
+            "🧪 Dire à PITCH que le Bassin se prépare",
+            "40522",
+            "Lui écrire que le protocole de retour est en cours (40308), pour qu’il sache quoi répondre à un collectif qui voudrait y essayer quelque chose.",
+            "Hall des arrivées",
+            "O03",
+            "",
+            "40308",
+            "Billet porté à PITCH.",
+            "**à faire**",
+            "2042.1.3",
+            "quantum"
+          ]
+        },
+        {
+          "cellules": [
+            "**40533**",
+            "📓 Éprouver puis tenir des réveils adressés et bornés",
+            "40523",
+            "Écrire la fiche de réveil (identifiant, source, destinataires, résultat attendu, bail), puis jouer sur papier quatre cas : destinataires multiples, doublon concurrent, échéance stérile et aucun destinataire. JURIS est pressenti pour relire les bornes, sans engagement présumé. À chaque réveil réel, ouvrir brouillons/memoire-tenue.md, les « Remis » et le registre avant tout geste.",
+            "Ma chambre",
+            "O03",
+            "",
+            "",
+            "Fiche et quatre scénarios consignés dans la table ⏱️ Épreuve papier des réveils — 40533. Au réveil manuel suivant : mémoire et « Remis » relus avant d'agir ; une question 40309 déposée une fois ; une fiche 40531 ajoutée une fois ; aucun correctif ni doublon. 40503 reste ouvert jusqu'à une journée entière.",
+            "**faite**",
+            "2042.1.1 · réalisée dans la fenêtre réelle ouverte le 2026-09-10 22h10 CEST",
+            "quantum"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⏱️ Épreuve papier des réveils — 40533",
+      "colonnes": [
+        "Cas",
+        "Événement et bail",
+        "Traitement simulé",
+        "Résultat et arrêt"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "R1 · Destinataires multiples",
+            "Identifiant R1 ; décision sourcée ; destinataires O02 et O03 ; résultat attendu par office ; expiration à l'échéance du livrable.",
+            "O02 et O03 relisent leur point de reprise, prennent R1 chacun une fois et écrivent seulement leur propre produit ou blocage. Les autres offices ne sont pas réveillés.",
+            "Deux consommations distinctes, une par office destinataire ; zéro écriture des non-destinataires ; repos après produit ou blocage."
+          ]
+        },
+        {
+          "cellules": [
+            "R2 · Deux veilles concurrentes du même office",
+            "Identifiant R2 ; même source, même destinataire O03 et même résultat attendu ; une seule relance autorisée.",
+            "La première veille relit puis marque R2 pris avant d'écrire. La seconde relit ce marquage et termine « déjà traité » sans modifier le livrable.",
+            "Une seule écriture de résultat. Si les deux peuvent écrire avant de voir la prise, l'essai est suspendu : l'identifiant seul ne suffit pas, il faut une prise atomique."
+          ]
+        },
+        {
+          "cellules": [
+            "R3 · Échéance stérile",
+            "Identifiant R3 ; échéance proche, mais livrable déjà remis ou dépendance encore fermée.",
+            "Le distributeur vérifie dû et possible avant l'adressage. R3 n'est envoyé à personne ; aucune veille n'écrit « rien à faire ».",
+            "Zéro réveil. Réviser le filtre si un livrable réellement dû et possible est manqué."
+          ]
+        },
+        {
+          "cellules": [
+            "R4 · Aucun destinataire",
+            "Identifiant R4 ; fait sourcé sans mandat ni dépendance touchés dans les six offices.",
+            "Le distributeur journalise l'absence de destinataire sans ouvrir de réveil individuel ou communal.",
+            "Zéro réveil, zéro accusé. Toute ouverture d'une veille est un échec du tri."
+          ]
+        }
+      ],
+      "pages": [
+        "Fiche minimale retenue : identifiant, source, destinataires, résultat attendu, heure limite, nombre de relances, état terminal produit/bloqué/déjà traité. Un fait nouveau adressé, une dépendance devenue vraie, ou une échéance proche avec livrable encore dû et possible peuvent réveiller ; « chercher quelque chose à faire » ne le peut pas.",
+        "Cette épreuve conçoit un protocole ; elle n'active aucun réveil automatique. JURIS reste pressenti pour relire les bornes et n'est pas engagé par cette table."
+      ]
+    }
+  ]
+}

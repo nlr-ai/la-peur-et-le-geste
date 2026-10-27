@@ -1,0 +1,321 @@
+{
+ "id": "affaire-univers-propre",
+ "titre": "AI Universe possède son propre état",
+ "type": "plan",
+ "maison_id": "bureau",
+ "lieu_id": "bureau",
+ "salle_id": "sam",
+ "tenu_par": "sam",
+ "lecteurs": [
+  "maya",
+  "noor",
+  "hugo",
+  "ada",
+  "leo",
+  "iris",
+  "sam",
+  "zoe"
+ ],
+ "embleme": "🎯",
+ "couleur": "#628a96",
+ "sous_titre": "AI Universe · 2030 · Plage 11000–11999. Cadrage demandé par l'opérateur : états cibles, verrous, clefs et actions.",
+ "pages": [
+  "Habiter un univers neuf en 2030, séparé des autres mondes, sans créer son extérieur.",
+  "Les états restent recherchés, non acquis. Les verrous distinguent écart constaté, risque et preuve manquante. Les clefs sont retenues comme hypothèses de travail, révisables après inspection. Les actions sont à faire ; leurs dépendances conditionnent leur démarrage et leur preuve attendue conditionne leur validation. Aucune date ni importance n’est inventée.",
+  "Le moteur et ses fonctionnalités sont conservés : affaires, échiquier, vue château, chambres, dépêches, parloir et fil. Le monde et ses profils sont neufs. Aucun extérieur n'est créé. Sources du cadrage : demandes de l'opérateur et docs/refonte-plan.md."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "AI Universe possède son propre état",
+      "Résultat recherché.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Habiter un univers neuf en 2030, séparé des autres mondes, sans créer son extérieur.",
+      "Ce que cette affaire rend vrai.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "Le paquet mondes/ai-universe existe et déclare 2030 ainsi qu'un extérieur non créé. La séparation de tous les chemins d'exécution, des sessions et de la vue existante reste à éprouver.",
+      "Distinguer données posées et comportement vérifié.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "11000–11999",
+      "Numéros propres au plan de cet univers.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Le bureau neuf, raccordé aux fonctions existantes.",
+      "Conserver le moteur.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "Création de l'extérieur ; remplacement du moteur par une application parallèle ; héritage des anciennes vies.",
+      "Respecter le périmètre demandé.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Tous les états cibles ci-dessous ont été constatés par leurs preuves ; les limites restantes sont explicites.",
+      "Une action terminée ne suffit pas.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "États cibles posés ; aucune atteinte encore attestée.",
+      "Ne pas annoncer le résultat avant l'épreuve.",
+      "oui"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "découpée par",
+      "affaire-bureau-resultat-utile",
+      "11000",
+      "10000",
+      "Cette affaire contribue au résultat utile du bureau."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🎯 L'état",
+    "📏 La preuve",
+    "📅 Jour dû",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**11000**",
+      "Le bureau s'ouvre dans AI Universe, en 2030",
+      "L'ouverture par le parcours de monde existant montre AI Universe, son année 2030, ses huit profils et ses seules affaires. Elle ne reprend ni personnage, ni livre, ni scène d'un autre monde.",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "**11010**",
+      "Un travail dans ce monde laisse les autres mondes intacts",
+      "Une demande réelle, son exécution et un redémarrage écrivent les conversations, documents et résultats dans le paquet concerné. Les états, horloges et chambres des autres mondes restent inchangés ; deux profils homonymes de mondes différents ne partagent pas leur session.",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "**11020**",
+      "L'extérieur reste explicitement non créé",
+      "Le bureau indique que l'extérieur n'est pas créé. Aucun lieu extérieur, client, marché, organisation ou événement n'est présenté comme acquis ; une recherche externe demeure une source et ne crée pas implicitement cet extérieur.",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous",
+   "colonnes": [
+    "🔒 N°",
+    "🔒 Le verrou",
+    "🎯 Bloque",
+    "🔎 La preuve"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "11100",
+      "Écart constaté : le paquet existe mais ses données minimales ne constituent pas encore un parcours du moteur existant vérifié.",
+      "11000",
+      "mondes/ai-universe/manifeste.json, etat/lieux.json et plans/bureau.json ; docs/refonte-plan.md impose le paquet de monde."
+     ]
+    },
+    {
+     "cellules": [
+      "11101",
+      "Risque constaté : certains lecteurs calculent encore la racine depuis leur fichier plutôt que depuis le monde.",
+      "11010",
+      "scripts/plan/couverture/lecture.py et scripts/agents/chambre.py ; les résolveurs scripts/noyau/racines.py et serveur/racines.js existent déjà."
+     ]
+    },
+    {
+     "cellules": [
+      "11102",
+      "Risque à éprouver : outside.cree=false est déclaré mais son respect par les parcours n’est pas démontré.",
+      "11020",
+      "mondes/ai-universe/manifeste.json et manuel.md interdisent un extérieur inventé."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🗝️ La clef",
+    "🔒 Ouvre",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "11200",
+      "Compléter uniquement le contrat de monde requis par le parcours du bureau.",
+      "11100",
+      "retenue"
+     ]
+    },
+    {
+     "cellules": [
+      "11201",
+      "Raccorder le parcours utilisé aux résolveurs existants et isoler ses sessions.",
+      "11101",
+      "retenue"
+     ]
+    },
+    {
+     "cellules": [
+      "11202",
+      "Faire respecter la frontière du bureau dans les données, briefs et navigation.",
+      "11102",
+      "retenue"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions",
+   "colonnes": [
+    "⚔️ N°",
+    "⚔️ L’action",
+    "🗝️ Réalise",
+    "🪶 Office",
+    "📅 Jour dû",
+    "⏳ État",
+    "🔨 Moyens",
+    "📝 Note",
+    "🔗 Dépend de",
+    "📏 Preuve attendue"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "11300",
+      "Relever les données et routes réellement nécessaires pour ouvrir le bureau existant.",
+      "11200",
+      "O02",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "",
+      "Inventaire sourcé des données requises, présentes et manquantes ; point d’entrée et premier échec reproductible ; aucune copie des populations anciennes."
+     ]
+    },
+    {
+     "cellules": [
+      "11301",
+      "Compléter le paquet AI Universe pour ce point d’entrée.",
+      "11200",
+      "O07",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "11300",
+      "Le serveur existant ouvre le monde en 2030 avec les huit profils ; chaque donnée ajoutée répond à une exigence relevée ; aucun extérieur ajouté."
+     ]
+    },
+    {
+     "cellules": [
+      "11302",
+      "Corriger les chemins de lecture, écriture et session utilisés par le parcours retenu.",
+      "11201",
+      "O03",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "11300",
+      "Liste des appels corrigés ; monde transmis jusqu’aux livres, chambres, traces et sessions ; ressources du moteur distinctes des données ; aucun nouveau résolveur."
+     ]
+    },
+    {
+     "cellules": [
+      "11303",
+      "Éprouver l’isolation avec deux mondes témoins et un personnage homonyme.",
+      "11201",
+      "O06",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "11301, 11302, 15300",
+      "Demande puis reprise dans deux paquets jetables : écritures attribuables confinées, sessions distinctes, redémarrage sans mélange ; preuve des chemins effectivement utilisés."
+     ]
+    },
+    {
+     "cellules": [
+      "11304",
+      "Vérifier les accès et briefs qui pourraient créer ou suggérer un extérieur.",
+      "11202",
+      "O02",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "11301, 15300",
+      "Essais de navigation et demande concernant un client inexistant : absence d’entité inventée ; recherches éventuelles identifiées comme sources, pas comme habitants."
+     ]
+    }
+   ]
+  }
+ ]
+}

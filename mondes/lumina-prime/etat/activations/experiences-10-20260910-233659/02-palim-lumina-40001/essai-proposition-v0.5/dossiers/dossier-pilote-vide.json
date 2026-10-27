@@ -1,0 +1,47 @@
+{
+  "pilot_id": "a_attribuer",
+  "status": "brouillon_non_soumis",
+  "operator_id": null,
+  "holder_request": {
+    "submitted": false,
+    "holder_id": null,
+    "requested_at": null,
+    "purpose": null,
+    "may_abandon_without_effect": true
+  },
+  "consent": {
+    "granted": false,
+    "confirmed_by_holder": false,
+    "revocable": true,
+    "revoked": false,
+    "granted_at": null,
+    "expires_at": null,
+    "allowed_operations": [],
+    "authorized_readers": [],
+    "source": {
+      "chamber_root": null,
+      "included_file_relative": null,
+      "excluded": ["tous les autres fichiers", "sous-dossiers", "journaux et secrets non nommés"]
+    },
+    "withdrawal_route": null
+  },
+  "guardian_mandate": {
+    "granted": false,
+    "guardian_id": null,
+    "accepted_at": null,
+    "storage_root": null,
+    "allowed_actions": [],
+    "retention_until": null,
+    "copy_withdrawal_route": null
+  },
+  "restore_request": {
+    "submitted": false,
+    "confirmed_by_holder": false,
+    "requested_at": null,
+    "reason": null
+  },
+  "journal": {
+    "relative_name": "journal-acces.jsonl",
+    "fields": ["date", "actor", "operation", "object", "decision", "result", "sha256_before", "sha256_after"]
+  }
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">La lisière respire — premier essai privé</title>
+  <desc id="desc">Trois îlots de lumière végétale entourent une bande centrale sombre, laissée libre comme passage et refuge.</desc>
+  <rect width="960" height="540" fill="#091412"/>
+  <path d="M0 300 C180 250 280 365 470 315 S760 245 960 310 L960 540 L0 540 Z" fill="#10241f"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M92 355 C135 260 188 225 254 176" stroke="#72d6a2" stroke-width="7" opacity=".72"/>
+    <path d="M123 314 C170 322 207 300 232 268" stroke="#c8f1ba" stroke-width="4" opacity=".66"/>
+    <path d="M665 190 C734 235 778 288 810 370" stroke="#78c7b0" stroke-width="7" opacity=".68"/>
+    <path d="M705 251 C749 241 790 253 831 287" stroke="#d4e9ae" stroke-width="4" opacity=".6"/>
+    <path d="M382 214 C421 175 456 151 498 135" stroke="#66a98f" stroke-width="5" opacity=".52"/>
+  </g>
+  <g fill="#d9f6b8">
+    <circle cx="254" cy="176" r="6" opacity=".75"/>
+    <circle cx="498" cy="135" r="5" opacity=".5"/>
+    <circle cx="810" cy="370" r="7" opacity=".7"/>
+  </g>
+  <!-- La bande sombre, volontairement vide, demeure le passage et le refuge. -->
+  <path d="M275 540 C305 420 380 350 480 338 C580 350 655 420 685 540 Z" fill="#07100f"/>
+</svg>

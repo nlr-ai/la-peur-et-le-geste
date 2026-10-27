@@ -1,0 +1,27 @@
+{
+  "canal": [
+    "dev",
+    "mj"
+  ],
+  "entrees": [
+    {
+      "de": "dev",
+      "date": {
+        "annee": 2001,
+        "lune": 10,
+        "jour": 9
+      },
+      "texte": "Demande explicite du joueur : fais tes preparatifs pour la partie du monde charmed, puis envoie effectivement les messages accueil aux deux sieges Phoebe Halliwell et la Source. Lis le manuel du monde, le canon S4, etat et tes affaires escalier des menaces et scenes des sieges. Prepare les plans et affaires du mal, leurs moyens, dependances, echeances et routes indices vers Phoebe ; fais travailler les PNJ concernes par depecher avec contexte numerique quand necessaire, sans inventer leurs paroles ni leurs actes. Les decisions de la Source restent a son joueur : ne donne aucun ordre a sa place. Verifie la coherence de ouverture du 9 octobre 2001 a 22 h 30 et prepare les scenes des deux sieges avec leur brouillard propre. Envoie les messages accueil dans leurs flux prives par les outils prevus, avec les paroles PNJ obtenues de leurs sessions. Ne te contente pas de preparer des brouillons dans messages-au-joueur.md. Ne fais pas avancer la partie au-dela de ce que demande ouverture. Rends compte a dev des preparatifs effectivement realises et des messages effectivement envoyes, avec leurs references.",
+      "ref": "dev-charmed-preparatifs-20261003"
+    },
+    {
+      "de": "mj",
+      "date": {
+        "annee": 2001,
+        "lune": 10,
+        "jour": 9
+      },
+      "texte": "Préparatifs Charmed effectivement réalisés. Ouverture vérifiée au 9.10.2001, 22 h 30 : deux quartiers disjoints, Phoebe au grenier avec Piper, Paige, Leo et Patty ; la Source dans sa salle avec Varek, sans décision prise à sa place. Accueil Phoebe poussé au flux privé sous ref accueil-charmed-phoebe-20011009, avec parole obtenue de la session de Patty. Accueil Source poussé sous ref accueil-charmed-source-20011009, avec rapport obtenu de Varek sur 1020 : demande de la Glaneuse, silence de la meute, visites chez Kazhar, puis attente de la parole du trône. Dépêches numériques accomplies : Varek 1020, Glaneuse 1533, Oracle 1120, Tarn 1021 ; la Glaneuse a inscrit Piper, sa fêlure et sa fenêtre dans le tableau des chasses, sans livrer sa clef. Trois routes d'indice conditionnelles et datées sont maintenant dans evenements.json : témoin du guet vers Darryl puis Phoebe, carte de la Glaneuse touchable par Phoebe, fausse recommandation d'Ezra visible par Paige puis Phoebe. L'action A.1 de l'escalier des menaces est faite ; A.2 reste en cours, honnêtement. Couvertures et registres dérivés ont été recalculés. Le vérificateur confirme l'heure et le quartier, mais signale encore des dettes initiales de couverture/siège et onze relations pendantes dans les affaires secrètes ; je ne les ai pas maquillées ni fait avancer la partie au-delà de l'ouverture."
+    }
+  ]
+}

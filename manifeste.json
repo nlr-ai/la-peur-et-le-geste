@@ -1,0 +1,56 @@
+{
+  "_": "LE MANIFESTE DU MONDE — ce que ce monde declare de lui-meme, et que le moteur ne doit pas savoir. Ecrit le 9.9 au titre du lot 4 (docs/refonte-plan.md). Chaque valeur ici etait EN DUR dans un fichier du moteur : la monnaie dans noyau/chiffrer.py, les titres dans plan/criticite/hommes.py, le dragon eclate dans cinq tables de ecrans/modules/jetons.js. Le moteur les lit desormais par racines.dit(<clef>, <defaut>), et le defaut qu'il porte encore est un AVEU : il dit qu'un mot de decor vit toujours dans le code.",
+  "__": "CE FICHIER NE DOIT RIEN CHANGER. Ses valeurs sont, mot pour mot, celles que le code portait en defaut. C'est la regle du lot : on deplace la declaration, jamais le comportement. Le jour ou une valeur d'ici differe d'un defaut du code, c'est une decision de jeu, et elle se voit.",
+
+  "id": "westeros",
+  "nom": "Westeros — la Danse des Dragons",
+
+  "calendrier": {
+    "lunes": 12,
+    "jours_par_lune": 30,
+    "dit": "%(annee)d AC — %(lune)de lune, %(jour)de jour",
+    "_dit": "MOT POUR MOT la formule que `ecrans/modules/bus.js` portait en dur avant le 9.9. La regle du lot est que rien ne bouge pour le monde reel : un tiret cadratin de travers ici et le bandeau du joueur change de main sans que personne ne l'ait demande.",
+    "_": "12 lunes de 30 jours : la convention de docs/schema.md, qui a toujours raison sur la forme."
+  },
+
+  "monnaie": {
+    "_": "UNE ECHELLE, LA PIECE HAUTE EN TETE, singulier puis pluriel. 240 sols font un dragon ; sommer des cerfs avec des dragons rendrait un total faux qui aurait l'air d'un compte. `chiffrer.py` prend la liste entiere pour reperer une somme ; `criticite/decisions.py` n'en prend que les DEUX PREMIERES, parce qu'un prix de plan se lit dans la piece haute.",
+    "unites": ["dragon", "dragons", "cerf", "cerfs", "sol", "sols"]
+  },
+
+  "titres": ["ser", "dame", "lord", "lady", "le prince", "la princesse",
+             "mestre", "maitre", "maître", "septon", "celui qu'on appelle"],
+
+  "unites": {
+    "_": "UN GENRE D'UNITE PORTE CINQ CHOSES A LA FOIS, et elles vivaient dans cinq tables separees : ajouter une piece demandait cinq retouches du moteur, et en oublier une passait inapercu. Le dragon est ici a l'identique de ce que jetons.js portait — la fusion est donc un non-evenement, et c'est la preuve qu'on cherchait.",
+    "dragon": {
+      "nom": "Dragon",
+      "famille": "dragons",
+      "glyphe": "<path d=\"M-5-1.4C-3-2.8-1.4-1.6 0 1.4 1.4-1.6 3-2.8 5-1.4\"/><path d=\"M0 1.4V3.2\"/>",
+      "canal": "porté par un dragon",
+      "trait": "vol",
+      "trait_nom": "Vol",
+      "gestes": { "frapper": "Frapper au dragon" }
+    }
+  },
+
+  "canaux": {
+    "_": "Par quoi une nouvelle passe, et ce que ca lui coute en fiabilite. Les delais vivent dans lieux.jours_de_pr ; ici on ne dit que le moyen.",
+    "corbeau": "par corbeau",
+    "cavalier": "porté par un cavalier",
+    "dragon": "porté par un dragon",
+    "oral": "de vive voix",
+    "cri": "crié"
+  },
+
+  "offices": {},
+
+  "signes": {
+    "_": "Les emojis d'une carte de partie. VIDE A DESSEIN : partie_signes.py porte deja la table de base et FUSIONNE ce qu'un monde ajoute — son en-tete dit que ce vocabulaire est la seule chose du moteur qui doive GROSSIR, chaque partie neuve apportant son monde. Un monde qui n'ajoute rien n'ecrit rien."
+  },
+
+  "depart": {
+    "lieu": "peyredragon",
+    "siege": "rhaenyra"
+  }
+}

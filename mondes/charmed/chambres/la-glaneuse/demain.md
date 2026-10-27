@@ -1,0 +1,3 @@
+La chasse est autorisée jusqu'au 16 octobre : Piper seule. Le salon est prêt, mais le billet reste retenu. La recherche du porteur (1539) est bloquée : Morne n'a aucun nom, aucun guetteur n'en a remonté et le registre des mains est vide. Varek exige avant tout dépôt un nom et une voie d'entrée vérifiables : qui l'admet, pour quel motif et à quel moment. Je lui ai répondu « aucun » et confirmé n'avoir rien remis ni promis.
+
+Ne pas approcher Phoebe ni Paige. Ne déposer aucun objet. Ne relancer ni Morne ni Varek sans fait nouveau. Si une source accessible établit un porteur réellement admis au Manoir, vérifier les quatre éléments avant de lui confier seulement le billet d'invitation.

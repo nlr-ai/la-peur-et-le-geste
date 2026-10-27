@@ -9,6 +9,8 @@ chaque démon. On les consulte ; on ne les pose jamais en livre.
 - `camp-du-bien-s1.json` — pouvoirs, règles communes de la magie, sorts et potions.
 - `basebuilding-s1.json` — la maison comme base : modules, failles.
 - `graphe-s1.json` — le graphe causal.
+- `histoire-1906.md` — le séisme et le feu, heure par heure ; ce qui brûle, ce qui tient ; les rumeurs ; ce que la ville donne au bestiaire. Relevé de mémoire, heures douteuses marquées.
+- `livre-1906.json` — le Livre des Ombres au matin du 18, page par page ; ce que 1998 lui doit ; comment trancher le feu.
 
 Statuts : E établi, C affirmé seulement, ? effet vu sans cause. Défauts connus
 (renvois morts, vocabulaire de portée qui déborde) : voir la revue du 10.9.

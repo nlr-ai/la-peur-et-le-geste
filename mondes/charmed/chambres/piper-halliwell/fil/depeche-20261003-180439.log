@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File [35m"C:\Users\reyno\le-conseil2\scripts\agents\runtime_worker.py"[0m, line [35m62[0m, in [35m<module>[0m
+    raise SystemExit([31mmain[0m[1;31m()[0m)
+                     [31m~~~~[0m[1;31m^^[0m
+  File [35m"C:\Users\reyno\le-conseil2\scripts\agents\runtime_worker.py"[0m, line [35m23[0m, in [35mmain[0m
+    rep = runtime.appeler(**charge["appel"])
+  File [35m"C:\Users\reyno\le-conseil2\scripts\agents\runtime.py"[0m, line [35m806[0m, in [35mappeler[0m
+    resultat = _appel_codex(
+        manuel, message, session_id, modele, effort, timeout, cwd,
+        add_dirs, reprendre, environnement, on_event, on_stderr,
+        heartbeat, on_heartbeat, service_tier=service_tier)
+  File [35m"C:\Users\reyno\le-conseil2\scripts\agents\runtime.py"[0m, line [35m602[0m, in [35m_appel_codex[0m
+    raise RuntimeError(("\n".join(erreurs) or
+                        "codex a quitte avec le code %d" % code)[-800:])
+[1;35mRuntimeError[0m: [35m2026-10-03T16:04:40.294604Z ERROR codex_core::session::session: failed to initialize thread persistence: thread-store conflict: thread 01a10273-ff87-7630-94be-5336b0f23c1a already has an active writer
+2026-10-03T16:04:40.294690Z ERROR codex_core::session: Failed to create session: thread-store conflict: thread 01a10273-ff87-7630-94be-5336b0f23c1a already has an active writer
+Error: thread/resume: thread/resume failed: thread 01a10273-ff87-7630-94be-5336b0f23c1a already has an active writer (code -32600)[0m

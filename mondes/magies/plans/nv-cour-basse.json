@@ -1,0 +1,62 @@
+{
+  "nom": "Cour basse",
+  "viewBox": "0 0 540 320",
+  "fonds": [],
+  "decor": [],
+  "mur": "M20 20H520V300H20Z",
+  "guet": [],
+  "rose": null,
+  "etiquettes": [],
+  "salles": [
+    {
+      "id": "nv-cour-basse-entree",
+      "nom": "Entrée",
+      "forme": {
+        "r": [
+          45,
+          105,
+          130,
+          100,
+          8
+        ]
+      },
+      "etiq": [
+        110,
+        140
+      ],
+      "lignes": [
+        "Entrée"
+      ],
+      "quoi": "Accès local.",
+      "motifs": [],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "nv-cour-basse-atelier",
+      "nom": "Atelier",
+      "forme": {
+        "r": [
+          235,
+          70,
+          235,
+          170,
+          8
+        ]
+      },
+      "etiq": [
+        350,
+        110
+      ],
+      "lignes": [
+        "Atelier"
+      ],
+      "quoi": "La Couvée de la Cour basse est celle de sa fiche. La supervision ne garantit pas un arrêt absolu de l’Enclos ni une commande volontaire des Peaux.",
+      "motifs": [],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    }
+  ]
+}

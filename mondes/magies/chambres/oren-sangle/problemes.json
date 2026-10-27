@@ -1,0 +1,38 @@
+{
+ "quoi": "Les pannes de l'APPAREIL, non les empêchements du monde. Un empêchement du monde est un verrou et va au registre, de ma main. Ceci est l'autre chose : ce que j'ai tenté, ce que la machine en a fait, et ce que j'attendais. On l'écrit même quand on ne sait pas l'expliquer ; c'est la RÉCIDIVE qui parlera.",
+ "regle": "Une entrée par friction, datée. On ne referme jamais une entrée sans dire ce qui l'a levée.",
+ "entrees": [
+  {
+   "date": "1.1.1",
+   "tente": "Porter une lettre par le parloir (parloir.py --dire) à malo-veyre, eline-vare, mael-orsan, naim-des-seuils.",
+   "attendu": "Une lettre déposée une fois dans le canal de chacun.",
+   "obtenu": "Le canal de Malo Veyre et celui d'Éline Vare portent DEUX fois la même lettre, mot pour mot. L'appel avait d'abord paru ne pas rendre la main avant d'être renvoyé en tâche de fond.",
+   "consequence_de_fiction": "Deux maisons recevront le même pli en double le même jour. Rien de faux n'a été dit — mais un président qui écrit deux fois la même chose a l'air de ne pas tenir ses papiers.",
+   "leve_par": null
+  },
+  {
+   "date": "1.1.1",
+   "tente": "Trouver dans mes sources ce que la Ligue avait déjà signé.",
+   "attendu": "Un registre des accords de ma maison.",
+   "obtenu": "Il n'en existait aucun : la Chambre des accords était vide et la signature était portée de fait par le coordinateur des liaisons. Ce n'est pas une panne de l'appareil, c'est un manque de la maison — je le note ici parce que je l'ai découvert en cherchant un fichier, et qu'il est levé le jour même.",
+   "consequence_de_fiction": "Registre du conseil fédéral ouvert le 1.1.1 à la Chambre des accords.",
+   "leve_par": "1.1.1 — registre-du-conseil-federal"
+  },
+  {
+   "date": "1.1.1",
+   "tente": "Écrire une fois à Malo Veyre par le parloir.",
+   "attendu": "Une lettre déposée une fois.",
+   "obtenu": "Il déclare avoir reçu deux fois la même lettre de ma main — second doublon de la journée sur la même table, après celui du soir.",
+   "consequence_de_fiction": "Un homme d'une autre maison a reçu trois demandes pour une question en un jour. Je m'en suis excusé deux fois par écrit. Ce qui se paie ici, c'est la réputation d'une maison qui ne tient pas ses papiers — précisément ce que je vends.",
+   "leve_par": null
+  },
+  {
+   "date": "1.1.1",
+   "tente": "Porter ma réponse à Vesper Ronce par le parloir, puis la renvoyer une seconde fois en la relisant depuis mon propre canal.",
+   "attendu": "Une entrée de ma main dans le canal, des deux côtés.",
+   "obtenu": "Mon canal porte DEUX fois ma lettre ; le sien ne porte toujours aucun fichier de discussion — seulement un claude.md. Je ne sais pas si elle a reçu ou si le dépôt ne se fait qu'au réveil de sa session. Je m'arrête à deux envois : un troisième serait du bruit, et j'ai passé la journée à reprocher les doublons aux autres.",
+   "consequence_de_fiction": "Une praticienne qui m'a écrit de sa seule main attend peut-être une réponse que je crois avoir donnée. Si elle réécrit sans mentionner ma lettre, c'est qu'elle ne l'a pas eue : alors je la lui porterai autrement.",
+   "leve_par": null
+  }
+ ]
+}

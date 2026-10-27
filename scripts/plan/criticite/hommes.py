@@ -11,6 +11,8 @@ import unicodedata
 from plan.expose import nu, sans_emoji, NOM_GENRE
 from plan.criticite.page import LARGEUR, cale, titre
 
+import racines  # ce que le MONDE declare : ici, comment ses gens s'appellent
+
 def gens(livres):
     """{O##: (office, titulaire)} et {M##: (moyen, qui le tient)}.
 
@@ -55,8 +57,14 @@ def gens(livres):
     return offices, moyens
 
 
-TITRES = re.compile(u"^(ser|dame|lord|lady|le prince|la princesse|mestre|maitre|maître"
-                    u"|septon|celui qu'on appelle) ", re.I)
+# LES TITRES VIENNENT DU MONDE (lot 4). Un titre n'est pas une regle de moteur :
+# c'est la facon dont UN monde nomme ses gens, et « ser » ne veut rien dire a
+# Venise. Le defaut est la liste d'hier, mot pour mot — sans manifeste, la
+# meme expression se recompose et le tableau des hommes ne bouge pas d'un rang.
+_TITRES = racines.dit("titres", [u"ser", u"dame", u"lord", u"lady", u"le prince",
+                                 u"la princesse", u"mestre", u"maitre", u"maître",
+                                 u"septon", u"celui qu'on appelle"])
+TITRES = re.compile(u"^(" + u"|".join(re.escape(t) for t in _TITRES) + u") ", re.I)
 MOI = re.compile(u"^(moi|moi seule|moi-même|moi meme)$", re.I)
 # LA GLOSE AU TIRET CADRATIN COUPE UN HOMME EN DEUX. « SER STEFFON DARKLYN —
 # DÉMIS PAR SA PROPRE BORNE » (O16) et « Ser Steffon Darklyn » (O12) faisaient

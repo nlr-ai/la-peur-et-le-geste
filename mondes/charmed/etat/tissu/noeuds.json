@@ -1,0 +1,2546 @@
+{
+ "2000": {
+  "genre": "etat_cible",
+  "ou": "affaire-enquete-piege-howard",
+  "quoi": "",
+  "lieu": "",
+  "etat": "en cours"
+ },
+ "2001": {
+  "genre": "etat_cible",
+  "ou": "affaire-enquete-piege-howard",
+  "quoi": "",
+  "lieu": "",
+  "etat": "à faire"
+ },
+ "2002": {
+  "genre": "etat_cible",
+  "ou": "affaire-enquete-piege-howard",
+  "quoi": "",
+  "lieu": "",
+  "etat": "à faire"
+ },
+ "2010": {
+  "genre": "verrou",
+  "ou": "affaire-enquete-piege-howard",
+  "quoi": "",
+  "lieu": "",
+  "etat": ""
+ },
+ "2011": {
+  "genre": "verrou",
+  "ou": "affaire-enquete-piege-howard",
+  "quoi": "",
+  "lieu": "",
+  "etat": ""
+ },
+ "2012": {
+  "genre": "verrou",
+  "ou": "affaire-enquete-piege-howard",
+  "quoi": "",
+  "lieu": "",
+  "etat": ""
+ },
+ "2020": {
+  "genre": "clef",
+  "ou": "affaire-enquete-piege-howard",
+  "quoi": "La piste policière",
+  "lieu": "",
+  "etat": ""
+ },
+ "2021": {
+  "genre": "clef",
+  "ou": "affaire-enquete-piege-howard",
+  "quoi": "La piste magique (Prémonition / Senseur)",
+  "lieu": "",
+  "etat": ""
+ },
+ "2030": {
+  "genre": "action",
+  "ou": "affaire-enquete-piege-howard",
+  "quoi": "Darryl signale les disparitions",
+  "lieu": "Manoir",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "10.10.2001"
+ },
+ "2031": {
+  "genre": "action",
+  "ou": "affaire-enquete-piege-howard",
+  "quoi": "Vision de Phoebe",
+  "lieu": "Manoir",
+  "etat": "à faire",
+  "depend_de": [
+   "2030"
+  ],
+  "jour_du": "10.10.2001"
+ },
+ "2032": {
+  "genre": "action",
+  "ou": "affaire-enquete-piege-howard",
+  "quoi": "Leo perçoit le signal",
+  "lieu": "Manoir",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "10.10.2001"
+ },
+ "2033": {
+  "genre": "action",
+  "ou": "affaire-enquete-piege-howard",
+  "quoi": "Recherche dans le Livre des Ombres",
+  "lieu": "Grenier",
+  "etat": "à faire",
+  "depend_de": [
+   "2031"
+  ],
+  "jour_du": "10.10.2001"
+ },
+ "2100": {
+  "genre": "etat_cible",
+  "ou": "affaire-enquete-les-trois-refaites",
+  "quoi": "",
+  "lieu": "",
+  "etat": "à faire"
+ },
+ "2101": {
+  "genre": "etat_cible",
+  "ou": "affaire-enquete-les-trois-refaites",
+  "quoi": "",
+  "lieu": "",
+  "etat": "à faire"
+ },
+ "2110": {
+  "genre": "verrou",
+  "ou": "affaire-enquete-les-trois-refaites",
+  "quoi": "",
+  "lieu": "",
+  "etat": ""
+ },
+ "2111": {
+  "genre": "verrou",
+  "ou": "affaire-enquete-les-trois-refaites",
+  "quoi": "",
+  "lieu": "",
+  "etat": ""
+ },
+ "2120": {
+  "genre": "clef",
+  "ou": "affaire-enquete-les-trois-refaites",
+  "quoi": "Une erreur du guetteur",
+  "lieu": "",
+  "etat": ""
+ },
+ "2121": {
+  "genre": "clef",
+  "ou": "affaire-enquete-les-trois-refaites",
+  "quoi": "La confrontation avec Cole",
+  "lieu": "",
+  "etat": ""
+ },
+ "2130": {
+  "genre": "action",
+  "ou": "affaire-enquete-les-trois-refaites",
+  "quoi": "Piper regarde par la fenêtre",
+  "lieu": "Prescott Street",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "-"
+ },
+ "2131": {
+  "genre": "action",
+  "ou": "affaire-enquete-les-trois-refaites",
+  "quoi": "Cole attaqué en solo",
+  "lieu": "Ville",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "-"
+ },
+ "2200": {
+  "genre": "etat_cible",
+  "ou": "affaire-enquete-le-tableau-des-chasses",
+  "quoi": "",
+  "lieu": "",
+  "etat": "à faire"
+ },
+ "2201": {
+  "genre": "etat_cible",
+  "ou": "affaire-enquete-le-tableau-des-chasses",
+  "quoi": "",
+  "lieu": "",
+  "etat": "à faire"
+ },
+ "2210": {
+  "genre": "verrou",
+  "ou": "affaire-enquete-le-tableau-des-chasses",
+  "quoi": "",
+  "lieu": "",
+  "etat": ""
+ },
+ "2211": {
+  "genre": "verrou",
+  "ou": "affaire-enquete-le-tableau-des-chasses",
+  "quoi": "",
+  "lieu": "",
+  "etat": ""
+ },
+ "2220": {
+  "genre": "clef",
+  "ou": "affaire-enquete-le-tableau-des-chasses",
+  "quoi": "La fuite vers le P3",
+  "lieu": "",
+  "etat": ""
+ },
+ "2221": {
+  "genre": "clef",
+  "ou": "affaire-enquete-le-tableau-des-chasses",
+  "quoi": "L'interrogatoire",
+  "lieu": "",
+  "etat": ""
+ },
+ "2230": {
+  "genre": "action",
+  "ou": "affaire-enquete-le-tableau-des-chasses",
+  "quoi": "La victime au P3",
+  "lieu": "P3",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "-"
+ },
+ "2231": {
+  "genre": "action",
+  "ou": "affaire-enquete-le-tableau-des-chasses",
+  "quoi": "La Glaneuse lâche le morceau",
+  "lieu": "Manoir",
+  "etat": "à faire",
+  "depend_de": [
+   "2230"
+  ],
+  "jour_du": "-"
+ },
+ "2300": {
+  "genre": "etat_cible",
+  "ou": "affaire-enquete-le-trone-vide",
+  "quoi": "",
+  "lieu": "",
+  "etat": "à faire"
+ },
+ "2301": {
+  "genre": "etat_cible",
+  "ou": "affaire-enquete-le-trone-vide",
+  "quoi": "",
+  "lieu": "",
+  "etat": "à faire"
+ },
+ "2310": {
+  "genre": "verrou",
+  "ou": "affaire-enquete-le-trone-vide",
+  "quoi": "",
+  "lieu": "",
+  "etat": ""
+ },
+ "2311": {
+  "genre": "verrou",
+  "ou": "affaire-enquete-le-trone-vide",
+  "quoi": "",
+  "lieu": "",
+  "etat": ""
+ },
+ "2320": {
+  "genre": "clef",
+  "ou": "affaire-enquete-le-trone-vide",
+  "quoi": "Un messager bavard",
+  "lieu": "",
+  "etat": ""
+ },
+ "2321": {
+  "genre": "clef",
+  "ou": "affaire-enquete-le-trone-vide",
+  "quoi": "La mémoire de Cole",
+  "lieu": "",
+  "etat": ""
+ },
+ "2330": {
+  "genre": "action",
+  "ou": "affaire-enquete-le-trone-vide",
+  "quoi": "L'embuscade",
+  "lieu": "San Francisco",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": "-"
+ },
+ "2331": {
+  "genre": "action",
+  "ou": "affaire-enquete-le-trone-vide",
+  "quoi": "L'avertissement de Cole",
+  "lieu": "Manoir",
+  "etat": "à faire",
+  "depend_de": [
+   "2330"
+  ],
+  "jour_du": "-"
+ },
+ "1000": {
+  "genre": "etat_cible",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "🩸 Belthazor est rendu",
+  "lieu": "Salle de la Source",
+  "importance": 80,
+  "etat": ""
+ },
+ "1100": {
+  "genre": "etat_cible",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "🕳️ La fêlure des Trois est nommée et datée",
+  "lieu": "Le bassin de l'Oracle ; Prescott Street",
+  "importance": 85,
+  "etat": ""
+ },
+ "1200": {
+  "genre": "etat_cible",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "👑 La cour ne parle plus bas",
+  "lieu": "Les galeries",
+  "importance": 70,
+  "etat": ""
+ },
+ "1001": {
+  "genre": "verrou",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "🏠 On ne prend pas un démon dans la maison des Trois",
+  "lieu": "",
+  "etat": ""
+ },
+ "1002": {
+  "genre": "verrou",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "❓ On ne sait pas s'il vit",
+  "lieu": "",
+  "etat": ""
+ },
+ "1101": {
+  "genre": "verrou",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "🌊 Le bassin se trouble près des sorcières",
+  "lieu": "",
+  "etat": ""
+ },
+ "1102": {
+  "genre": "verrou",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "⚖️ L'Accord : on tente, on ne force pas",
+  "lieu": "",
+  "etat": ""
+ },
+ "1201": {
+  "genre": "verrou",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "🗣️ Trois échecs en un mois, et la cour le sait",
+  "lieu": "",
+  "etat": ""
+ },
+ "1202": {
+  "genre": "verrou",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "👁️ Je ne vois pas tout chez Kazhar",
+  "lieu": "",
+  "etat": ""
+ },
+ "1010": {
+  "genre": "clef",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "🐍 Attendre qu'il miroite",
+  "lieu": "",
+  "etat": ""
+ },
+ "1011": {
+  "genre": "clef",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "🚪 Le faire sortir par elle",
+  "lieu": "",
+  "etat": ""
+ },
+ "1012": {
+  "genre": "clef",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "👁️ Un œil dans son appartement",
+  "lieu": "",
+  "etat": ""
+ },
+ "1110": {
+  "genre": "clef",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "🕯️ Le deuil comme porte",
+  "lieu": "",
+  "etat": ""
+ },
+ "1111": {
+  "genre": "clef",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "🌊 Lire une sœur à la fois",
+  "lieu": "",
+  "etat": ""
+ },
+ "1210": {
+  "genre": "clef",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "⚔️ Donner la chasse à Kazhar",
+  "lieu": "",
+  "etat": ""
+ },
+ "1211": {
+  "genre": "clef",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "🗡️ L'exemple",
+  "lieu": "",
+  "etat": ""
+ },
+ "1212": {
+  "genre": "clef",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "👂 Compter les visiteurs",
+  "lieu": "",
+  "etat": ""
+ },
+ "1020": {
+  "genre": "action",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "📜 Porter le rapport du matin",
+  "lieu": "Salle de la Source",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "10.10.2001, au lever"
+ },
+ "1021": {
+  "genre": "action",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "🏚️ Tenir le toit d'en face",
+  "lieu": "Toits de Pacific Heights",
+  "etat": "en cours",
+  "depend_de": [],
+  "jour_du": "—"
+ },
+ "1022": {
+  "genre": "action",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "🔎 Fouiller l'appartement de Belthazor",
+  "lieu": "L'appartement de Belthazor, en ville",
+  "etat": "en cours",
+  "depend_de": [],
+  "jour_du": "11.10.2001"
+ },
+ "1120": {
+  "genre": "action",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "🌊 Une nuit au bassin, sur une sœur seule",
+  "lieu": "L'antre de l'Oracle",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "11.10.2001"
+ },
+ "1121": {
+  "genre": "action",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "🕯️ Ouvrir le salon à Piper",
+  "lieu": "San Francisco ; son salon",
+  "etat": "en cours",
+  "depend_de": [
+   "2001"
+  ],
+  "jour_du": "16.10.2001"
+ },
+ "1220": {
+  "genre": "action",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": "👂 Compter qui entre chez Kazhar",
+  "lieu": "Les galeries",
+  "etat": "en cours",
+  "depend_de": [],
+  "jour_du": "12.10.2001"
+ },
+ "affaire-les-trois-refaites:O01": {
+  "genre": "office",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": ""
+ },
+ "affaire-les-trois-refaites:O02": {
+  "genre": "office",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": ""
+ },
+ "affaire-les-trois-refaites:O03": {
+  "genre": "office",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": ""
+ },
+ "affaire-les-trois-refaites:O04": {
+  "genre": "office",
+  "ou": "affaire-les-trois-refaites",
+  "quoi": ""
+ },
+ "1503": {
+  "genre": "etat_cible",
+  "ou": "affaire-le-tableau-des-chasses",
+  "quoi": "Les chasseurs ne se gênent pas",
+  "lieu": "ce tableau",
+  "importance": 50,
+  "etat": ""
+ },
+ "1513": {
+  "genre": "verrou",
+  "ou": "affaire-le-tableau-des-chasses",
+  "quoi": "Chacun chasse pour soi",
+  "lieu": "",
+  "etat": ""
+ },
+ "1532": {
+  "genre": "action",
+  "ou": "affaire-le-tableau-des-chasses",
+  "quoi": "Tenir le tableau des chasses",
+  "lieu": "salle-de-la-source",
+  "etat": "en cours",
+  "depend_de": [],
+  "jour_du": ""
+ },
+ "1533": {
+  "genre": "action",
+  "ou": "affaire-le-tableau-des-chasses",
+  "quoi": "Déclarer sa chasse : proie, fêlure, fenêtre",
+  "lieu": "ce volume",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "16.10.2001"
+ },
+ "1534": {
+  "genre": "action",
+  "ou": "affaire-le-tableau-des-chasses",
+  "quoi": "Déclarer sa chasse : proie, fêlure, fenêtre",
+  "lieu": "ce volume",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": ""
+ },
+ "1535": {
+  "genre": "action",
+  "ou": "affaire-le-tableau-des-chasses",
+  "quoi": "Déclarer sa chasse : proie, fêlure, fenêtre",
+  "lieu": "ce volume",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "20.10.2001"
+ },
+ "1536": {
+  "genre": "action",
+  "ou": "affaire-le-tableau-des-chasses",
+  "quoi": "Déclarer sa chasse : proie, fêlure, fenêtre",
+  "lieu": "ce volume",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": ""
+ },
+ "1538": {
+  "genre": "action",
+  "ou": "affaire-le-tableau-des-chasses",
+  "quoi": "Déclarer sa chasse : proie, fêlure, fenêtre",
+  "lieu": "ce volume",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": ""
+ },
+ "1539": {
+  "genre": "action",
+  "ou": "affaire-le-tableau-des-chasses",
+  "quoi": "Trouver un porteur mortel pour Piper",
+  "lieu": "cimetiere",
+  "etat": "bloquée",
+  "depend_de": [],
+  "jour_du": "16.10.2001"
+ },
+ "1540": {
+  "genre": "action",
+  "ou": "affaire-le-tableau-des-chasses",
+  "quoi": "Préparer le salon et les mots destinés à Piper",
+  "lieu": "russian-hill",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "16.10.2001"
+ },
+ "1601": {
+  "genre": "etat_cible",
+  "ou": "affaire-le-trone-vide",
+  "quoi": "Les clans me suivent",
+  "lieu": "les-galeries",
+  "importance": 100,
+  "etat": ""
+ },
+ "1602": {
+  "genre": "etat_cible",
+  "ou": "affaire-le-trone-vide",
+  "quoi": "La Source échoue devant la cour",
+  "lieu": "salle-de-la-source",
+  "importance": 80,
+  "etat": ""
+ },
+ "1611": {
+  "genre": "verrou",
+  "ou": "affaire-le-trone-vide",
+  "quoi": "Varek compte mes visiteurs",
+  "lieu": "",
+  "etat": ""
+ },
+ "1612": {
+  "genre": "verrou",
+  "ou": "affaire-le-trone-vide",
+  "quoi": "Personne ne veut être le premier",
+  "lieu": "",
+  "etat": ""
+ },
+ "1621": {
+  "genre": "clef",
+  "ou": "affaire-le-trone-vide",
+  "quoi": "Recevoir sous prétexte de la meute",
+  "lieu": "",
+  "etat": ""
+ },
+ "1631": {
+  "genre": "action",
+  "ou": "affaire-le-trone-vide",
+  "quoi": "Recevoir trois chefs, un par nuit",
+  "lieu": "les-galeries",
+  "etat": "en cours",
+  "depend_de": [],
+  "jour_du": ""
+ },
+ "1632": {
+  "genre": "action",
+  "ou": "affaire-le-trone-vide",
+  "quoi": "Faire savoir chaque échec, par d'autres bouches",
+  "lieu": "les-galeries",
+  "etat": "en cours",
+  "depend_de": [],
+  "jour_du": ""
+ },
+ "1633": {
+  "genre": "action",
+  "ou": "affaire-le-trone-vide",
+  "quoi": "Acheter la route de Shax si on la vend",
+  "lieu": "les-galeries",
+  "etat": "à faire",
+  "depend_de": [],
+  "jour_du": ""
+ },
+ "1700": {
+  "genre": "etat_cible",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Le dispensaire est prêt et peut se faire connaître",
+  "lieu": "San Francisco, site à établir",
+  "importance": 85,
+  "etat": ""
+ },
+ "1701": {
+  "genre": "verrou",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Aucun bâtiment n'est choisi",
+  "lieu": "",
+  "etat": ""
+ },
+ "1702": {
+  "genre": "verrou",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Les seuils ne sont pas préparés",
+  "lieu": "",
+  "etat": ""
+ },
+ "1703": {
+  "genre": "verrou",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "L'appel n'a ni voix ni support",
+  "lieu": "",
+  "etat": ""
+ },
+ "1704": {
+  "genre": "verrou",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Aucun captif n'est présent",
+  "lieu": "",
+  "etat": ""
+ },
+ "1705": {
+  "genre": "verrou",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "La surveillance et la retraite ne sont pas tranchées",
+  "lieu": "",
+  "etat": ""
+ },
+ "1710": {
+  "genre": "clef",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Trouver un dispensaire fermé",
+  "lieu": "",
+  "etat": ""
+ },
+ "1711": {
+  "genre": "clef",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Marquer les seuils",
+  "lieu": "",
+  "etat": ""
+ },
+ "1712": {
+  "genre": "clef",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Composer l'appel",
+  "lieu": "",
+  "etat": ""
+ },
+ "1713": {
+  "genre": "clef",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Amener les captifs",
+  "lieu": "",
+  "etat": ""
+ },
+ "1714": {
+  "genre": "clef",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Armer et signaler",
+  "lieu": "",
+  "etat": ""
+ },
+ "1720": {
+  "genre": "action",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Ouvrir l'affaire",
+  "lieu": "Salle de la Source",
+  "etat": "faite",
+  "depend_de": [],
+  "jour_du": "10.10.2001"
+ },
+ "1721": {
+  "genre": "action",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Identifier trois sites et en vérifier un",
+  "lieu": "San Francisco",
+  "etat": "faite",
+  "depend_de": [
+   "1720"
+  ],
+  "jour_du": "10.10.2001 au soir"
+ },
+ "1722": {
+  "genre": "action",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Tracer le schéma des seuils",
+  "lieu": "Site retenu",
+  "etat": "faite",
+  "depend_de": [
+   "1721"
+  ],
+  "jour_du": "11.10.2001"
+ },
+ "1723": {
+  "genre": "action",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Préparer la voix et le support",
+  "lieu": "Site retenu",
+  "etat": "faite",
+  "depend_de": [
+   "1721"
+  ],
+  "jour_du": "11.10.2001"
+ },
+ "1724": {
+  "genre": "action",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Poser les sceaux",
+  "lieu": "Site retenu",
+  "etat": "faite",
+  "depend_de": [
+   "1722",
+   "1725"
+  ],
+  "jour_du": "11.10.2001"
+ },
+ "1725": {
+  "genre": "action",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Fixer surveillance et retraite",
+  "lieu": "Salle de la Source",
+  "etat": "faite",
+  "depend_de": [
+   "1721"
+  ],
+  "jour_du": "avant tout déplacement"
+ },
+ "1726": {
+  "genre": "action",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Déplacer Ferran et Néris",
+  "lieu": "Du palais infernal au site retenu",
+  "etat": "faite",
+  "depend_de": [
+   "1721",
+   "1722",
+   "1723",
+   "1725"
+  ],
+  "jour_du": "11.10.2001"
+ },
+ "1727": {
+  "genre": "action",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Amener des innocents vivants",
+  "lieu": "Site retenu",
+  "etat": "faite",
+  "depend_de": [
+   "1724",
+   "1726"
+  ],
+  "jour_du": "après 1724"
+ },
+ "1728": {
+  "genre": "action",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": "Diffuser l'appel et relayer au camp du bien",
+  "lieu": "Site retenu et relais de scènes",
+  "etat": "faite",
+  "depend_de": [
+   "1724",
+   "1725",
+   "1727"
+  ],
+  "jour_du": "après 1727"
+ },
+ "affaire-le-dispensaire-ferme:O01": {
+  "genre": "office",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": ""
+ },
+ "affaire-le-dispensaire-ferme:O02": {
+  "genre": "office",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": ""
+ },
+ "affaire-le-dispensaire-ferme:O03": {
+  "genre": "office",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": ""
+ },
+ "affaire-le-dispensaire-ferme:O04": {
+  "genre": "office",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": ""
+ },
+ "affaire-le-dispensaire-ferme:O05": {
+  "genre": "office",
+  "ou": "affaire-le-dispensaire-ferme",
+  "quoi": ""
+ },
+ "pers:piper-halliwell": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Piper Halliwell",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "en deuil, colère rentrée",
+  "lieu_id": "prescott-street",
+  "objectifs": [
+   {
+    "but": "Tenir debout sans Prue",
+    "priorite": 1
+   },
+   {
+    "but": "Ne laisser personne remplacer Prue — y compris Paige",
+    "priorite": 2
+   },
+   {
+    "but": "Faire tourner le P3, seul argent de la maison",
+    "priorite": 3
+   }
+  ]
+ },
+ "etape:piper-p3": {
+  "genre": "etape",
+  "ou": "piper-halliwell",
+  "quoi": "Rouvrir le P3 et reprendre les comptes",
+  "etat": "en-cours",
+  "jours_restants": 1,
+  "cout": [
+   "une soirée sur place"
+  ],
+  "depend_de": []
+ },
+ "pers:paige-matthews": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Paige Matthews",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "appartement-paige",
+  "objectifs": [
+   {
+    "but": "Savoir qui elle est",
+    "priorite": 1
+   },
+   {
+    "but": "Ne pas s'imposer chez des sœurs en deuil",
+    "priorite": 2
+   },
+   {
+    "but": "Garder sa vie à elle : son travail, son appartement, Shane",
+    "priorite": 3
+   }
+  ]
+ },
+ "etape:paige-recul": {
+  "genre": "etape",
+  "ou": "paige-matthews",
+  "quoi": "Retourner à son travail et à son appartement, revenir au Manoir quand ",
+  "etat": "en-cours",
+  "jours_restants": 3,
+  "cout": [],
+  "depend_de": []
+ },
+ "pers:leo-wyatt": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Leo Wyatt",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "prescott-street",
+  "objectifs": [
+   {
+    "but": "Garder Piper en vie et en paix",
+    "priorite": 1
+   },
+   {
+    "but": "Former Paige",
+    "priorite": 2
+   },
+   {
+    "but": "Tenir les règles des Fondateurs — jusqu'à ce qu'elles tuent quelqu'un",
+    "priorite": 3
+   }
+  ]
+ },
+ "etape:leo-paige": {
+  "genre": "etape",
+  "ou": "leo-wyatt",
+  "quoi": "Premières leçons d'orbe à Paige",
+  "etat": "en-cours",
+  "jours_restants": 2,
+  "cout": [
+   "une leçon à la fois, à la demande de Paige"
+  ],
+  "depend_de": []
+ },
+ "pers:cole-turner": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Cole Turner",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "convalescent",
+  "lieu_id": "prescott-street",
+  "objectifs": [
+   {
+    "but": "Garder Phoebe en vie",
+    "priorite": 1
+   },
+   {
+    "but": "Survivre à la meute que la Source a lâchée sur lui",
+    "priorite": 2
+   },
+   {
+    "but": "Être enfin quelqu'un que les sœurs ne regardent pas de travers",
+    "priorite": 3
+   }
+  ]
+ },
+ "etape:cole-forces": {
+  "genre": "etape",
+  "ou": "cole-turner",
+  "quoi": "Reprendre des forces sans miroiter (le miroitement se piste)",
+  "etat": "en-cours",
+  "jours_restants": 4,
+  "cout": [
+   "rester sous le toit des sœurs"
+  ],
+  "depend_de": []
+ },
+ "etape:cole-entrainer": {
+  "genre": "etape",
+  "ou": "cole-turner",
+  "quoi": "Entraîner Phoebe au combat rapproché",
+  "etat": "en-cours",
+  "jours_restants": 5,
+  "cout": [
+   "des séances régulières"
+  ],
+  "depend_de": [
+   "cole-forces"
+  ]
+ },
+ "pers:l-oracle": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "L'Oracle",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "en sursis",
+  "lieu_id": "les-enfers",
+  "objectifs": [
+   {
+    "but": "Rester vivante : la Source tue ceux qui voient faux",
+    "priorite": 1
+   },
+   {
+    "but": "Être épargnée, c'est ce qu'elle a demandé en paiement",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:oracle-lire": {
+  "genre": "etape",
+  "ou": "l-oracle",
+  "quoi": "Lire dans le bassin la prochaine fêlure des Trois",
+  "etat": "fait",
+  "jours_restants": 0,
+  "cout": [
+   "une nuit au bassin"
+  ],
+  "depend_de": []
+ },
+ "pers:penny-halliwell": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Penny Halliwell",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "morte",
+  "lieu_id": "l-au-dela",
+  "objectifs": [
+   {
+    "but": "Que les Trois tiennent",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:darryl-morris": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Darryl Morris",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "commissariat",
+  "objectifs": [
+   {
+    "but": "Couvrir les sœurs sans perdre sa plaque",
+    "priorite": 1
+   },
+   {
+    "but": "Rentrer chez sa femme le soir",
+    "priorite": 2
+   }
+  ]
+ },
+ "pers:patty-halliwell": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Patty Halliwell",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "morte",
+  "lieu_id": "l-au-dela",
+  "objectifs": [
+   {
+    "but": "Que Paige se sache chez elle",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:malek-le-veneur": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Malek, dit le Veneur",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "à l'affût",
+  "lieu_id": "san-francisco",
+  "objectifs": [
+   {
+    "but": "Rapporter la tête de Belthazor avant qu'un autre ne touche la prime",
+    "priorite": 1
+   },
+   {
+    "but": "Ne pas perdre un chasseur de plus contre les sorcières",
+    "priorite": 2
+   },
+   {
+    "but": "Qu'on dise aux Enfers que c'est SA meute qui a eu le traître",
+    "priorite": 3
+   }
+  ]
+ },
+ "etape:malek-cerner": {
+  "genre": "etape",
+  "ou": "malek-le-veneur",
+  "quoi": "Poster Tarn sur les toits de Pacific Heights, Vesk du côté de l'appart",
+  "etat": "en-cours",
+  "jours_restants": 1,
+  "cout": [
+   "trois chasseurs",
+   "des nuits sans relève"
+  ],
+  "depend_de": []
+ },
+ "etape:malek-frapper": {
+  "genre": "etape",
+  "ou": "malek-le-veneur",
+  "quoi": "Frapper Belthazor à la première sortie hors de la maison, à trois, loi",
+  "etat": "en-cours",
+  "jours_restants": 5,
+  "cout": [
+   "que Belthazor sorte ou miroite",
+   "les trois chasseurs ensemble"
+  ],
+  "depend_de": [
+   "malek-cerner"
+  ]
+ },
+ "pers:vesk": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Vesk",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "san-francisco",
+  "objectifs": [
+   {
+    "but": "Toucher la prime seul, sans la partager avec Malek",
+    "priorite": 1
+   }
+  ]
+ },
+ "etape:vesk-appartement": {
+  "genre": "etape",
+  "ou": "vesk",
+  "quoi": "Fouiller l'appartement de Belthazor et y attendre son retour",
+  "etat": "en-cours",
+  "jours_restants": 2,
+  "cout": [
+   "une nuit seul"
+  ],
+  "depend_de": []
+ },
+ "pers:tarn": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Tarn",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "san-francisco",
+  "objectifs": [
+   {
+    "but": "Garder la piste chaude : savoir à toute heure où est Belthazor",
+    "priorite": 1
+   }
+  ]
+ },
+ "etape:tarn-guet": {
+  "genre": "etape",
+  "ou": "tarn",
+  "quoi": "Guetter le Manoir depuis les toits de Pacific Heights",
+  "etat": "en-cours",
+  "cout": [
+   "ne pas dormir plus de trois heures d'affilée"
+  ],
+  "depend_de": []
+ },
+ "pers:varek": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Varek",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "les-enfers",
+  "objectifs": [
+   {
+    "but": "Rester utile à la Source : on ne tue pas celui qui apporte les nouvelles à temps",
+    "priorite": 1
+   },
+   {
+    "but": "Savoir avant tout le monde qui monte et qui tombe aux Enfers",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:varek-rapport": {
+  "genre": "etape",
+  "ou": "varek",
+  "quoi": "Rapport du matin : la meute, la Glaneuse, les galeries",
+  "etat": "en-cours",
+  "jours_restants": 1,
+  "cout": [
+   "une audience accordée"
+  ],
+  "depend_de": []
+ },
+ "etape:varek-compter-kazhar": {
+  "genre": "etape",
+  "ou": "varek",
+  "quoi": "Compter qui entre chez Kazhar, trois nuits de suite",
+  "etat": "en-cours",
+  "jours_restants": 3,
+  "cout": [
+   "deux espions des galeries"
+  ],
+  "depend_de": []
+ },
+ "etape:varek-recruter-guetteurs-ville": {
+  "genre": "etape",
+  "ou": "varek",
+  "quoi": "Rendre à la Source deux noms vérifiés pour surveiller urgences et comm",
+  "etat": "en-cours",
+  "jours_restants": 1,
+  "cout": [
+   "une recherche dans les galeries",
+   "le prix encore inconnu des deux candidats"
+  ],
+  "depend_de": [
+   "le-courtier propose des candidats",
+   "malek-le-veneur vérifie leurs capacités et leur retenue"
+  ]
+ },
+ "pers:kazhar": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Kazhar",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "les-enfers",
+  "objectifs": [
+   {
+    "but": "Que les Enfers voient la Source échouer, et s'en souviennent",
+    "priorite": 1
+   },
+   {
+    "but": "Être celui vers qui l'on se tourne quand le trône vacillera",
+    "priorite": 2
+   },
+   {
+    "but": "Ne jamais être pris à désobéir",
+    "priorite": 3
+   }
+  ]
+ },
+ "etape:kazhar-recevoir": {
+  "genre": "etape",
+  "ou": "kazhar",
+  "quoi": "Recevoir trois chefs de clan, un par nuit, sous prétexte de la meute",
+  "etat": "en-cours",
+  "jours_restants": 3,
+  "cout": [
+   "trois nuits",
+   "que Varek ne voie pas tout"
+  ],
+  "depend_de": []
+ },
+ "etape:kazhar-compter": {
+  "genre": "etape",
+  "ou": "kazhar",
+  "quoi": "Faire savoir aux galeries, par d'autres bouches, chaque échec de la me",
+  "etat": "en-cours",
+  "cout": [],
+  "depend_de": [
+   "kazhar-recevoir"
+  ]
+ },
+ "etape:kazhar-offrir": {
+  "genre": "etape",
+  "ou": "kazhar",
+  "quoi": "Offrir à la Source un plan contre les Trois, pour en être le chef — et",
+  "etat": "en-cours",
+  "jours_restants": 10,
+  "cout": [
+   "une audience",
+   "un plan qui tienne"
+  ],
+  "depend_de": [
+   "kazhar-recevoir"
+  ]
+ },
+ "pers:la-glaneuse": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "La Glaneuse",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "san-francisco",
+  "objectifs": [
+   {
+    "but": "Se nourrir du deuil des Halliwell, le plus grand de la ville cette lune",
+    "priorite": 1
+   },
+   {
+    "but": "Amener une sorcière à user de sa magie pour ramener sa morte — et la voir basculer",
+    "priorite": 2
+   },
+   {
+    "but": "Que la Source apprenne qui lui a rendu ce service",
+    "priorite": 3
+   }
+  ]
+ },
+ "etape:glaneuse-salon": {
+  "genre": "etape",
+  "ou": "la-glaneuse",
+  "quoi": "Ouvrir un salon de médium à Russian Hill et glaner trois endeuillés po",
+  "etat": "en-cours",
+  "jours_restants": 4,
+  "cout": [
+   "trois endeuillés",
+   "un loyer de façade"
+  ],
+  "depend_de": []
+ },
+ "etape:glaneuse-message": {
+  "genre": "etape",
+  "ou": "la-glaneuse",
+  "quoi": "Faire porter au Manoir une carte : « Prue a quelque chose à dire à Pip",
+  "etat": "en-cours",
+  "jours_restants": 7,
+  "cout": [
+   "un souvenir de Prue volé au cimetière ou à un proche"
+  ],
+  "depend_de": [
+   "glaneuse-salon"
+  ]
+ },
+ "pers:ezra-vane": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Ezra Vane",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "san-francisco",
+  "objectifs": [
+   {
+    "but": "Prendre le pouvoir de la jeune sorcière apparue le mois dernier sur la carte de la Baie",
+    "priorite": 1
+   },
+   {
+    "but": "Le prendre avant qu'un démon ou ses aînées ne la lui enlèvent",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:ezra-entrer": {
+  "genre": "etape",
+  "ou": "ezra-vane",
+  "quoi": "Se faire accepter comme bénévole par M. Cowan",
+  "etat": "en-cours",
+  "jours_restants": 3,
+  "cout": [
+   "une lettre de recommandation fausse",
+   "un entretien"
+  ],
+  "depend_de": []
+ },
+ "etape:ezra-prendre": {
+  "genre": "etape",
+  "ou": "ezra-vane",
+  "quoi": "La trouver seule, le soir, et la tuer à l'athamé",
+  "etat": "en-cours",
+  "jours_restants": 9,
+  "cout": [
+   "l'athamé",
+   "qu'elle soit seule"
+  ],
+  "depend_de": [
+   "ezra-entrer"
+  ]
+ },
+ "pers:m-cowan": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "M. Cowan",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "services-sociaux",
+  "objectifs": [
+   {
+    "but": "Que les dossiers partent à l'heure : un dossier en retard, c'est un enfant qui attend",
+    "priorite": 1
+   },
+   {
+    "but": "Garder Paige, qui est bonne, si elle cesse de disparaître",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:cowan-bourse": {
+  "genre": "etape",
+  "ou": "m-cowan",
+  "quoi": "Exiger le dossier O'Brien sur son bureau avant la fin de la semaine",
+  "etat": "en-cours",
+  "jours_restants": 4,
+  "cout": [
+   "Paige à son poste"
+  ],
+  "depend_de": []
+ },
+ "etape:cowan-benevole": {
+  "genre": "etape",
+  "ou": "m-cowan",
+  "quoi": "Recevoir le bénévole recommandé et lui confier le classement",
+  "etat": "en-cours",
+  "jours_restants": 3,
+  "cout": [
+   "un bureau libre"
+  ],
+  "depend_de": []
+ },
+ "pers:gil-navarro": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Gil Navarro",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "p3",
+  "objectifs": [
+   {
+    "but": "Être payé ce qu'il vaut : le P3 perd des clients et sa part avec",
+    "priorite": 1
+   },
+   {
+    "but": "Ne pas laisser Piper seule le soir où il partira",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:gil-tenir": {
+  "genre": "etape",
+  "ou": "gil-navarro",
+  "quoi": "Tenir le club seul les soirs où Piper ne vient pas",
+  "etat": "en-cours",
+  "cout": [
+   "ses nuits"
+  ],
+  "depend_de": []
+ },
+ "etape:gil-partir": {
+  "genre": "etape",
+  "ou": "gil-navarro",
+  "quoi": "Annoncer son départ à Piper, avec deux semaines de préavis",
+  "etat": "en-cours",
+  "jours_restants": 6,
+  "cout": [
+   "trouver le bon soir pour le dire"
+  ],
+  "depend_de": []
+ },
+ "pers:fondateur-porte-parole": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Le Fondateur à la robe d'or",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "le-haut",
+  "objectifs": [
+   {
+    "but": "Que les Trois reformées tiennent, et vite : Paige formée avant que la Source ne revienne",
+    "priorite": 1
+   },
+   {
+    "but": "Qu'un démon ne vive pas sous le toit du Nexus sans qu'on sache ce qu'il est devenu",
+    "priorite": 2
+   },
+   {
+    "but": "Que Leo reste un être de lumière avant d'être un époux",
+    "priorite": 3
+   }
+  ]
+ },
+ "etape:fondateur-paige": {
+  "genre": "etape",
+  "ou": "fondateur-porte-parole",
+  "quoi": "Appeler Leo et lui confier la formation de Paige, avec une échéance : ",
+  "etat": "en-cours",
+  "jours_restants": 2,
+  "cout": [
+   "que Leo monte quand on l'appelle"
+  ],
+  "depend_de": []
+ },
+ "etape:fondateur-belthazor": {
+  "genre": "etape",
+  "ou": "fondateur-porte-parole",
+  "quoi": "Exiger de Leo un rapport sur Belthazor : que reste-t-il de démon en lu",
+  "etat": "en-cours",
+  "jours_restants": 6,
+  "cout": [
+   "la parole de Leo"
+  ],
+  "depend_de": [
+   "fondateur-paige"
+  ]
+ },
+ "pers:morne-le-charognard": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Morne, le charognard",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "affamé",
+  "lieu_id": "san-francisco",
+  "objectifs": [
+   {
+    "but": "Manger les restes de la mort de Prue avant qu'ils ne refroidissent tout à fait",
+    "priorite": 1
+   },
+   {
+    "but": "Vendre ce qu'il y apprendra au plus offrant des Enfers",
+    "priorite": 2
+   },
+   {
+    "but": "Ne jamais se battre contre plus fort que lui",
+    "priorite": 3
+   }
+  ]
+ },
+ "etape:morne-repas": {
+  "genre": "etape",
+  "ou": "morne-le-charognard",
+  "quoi": "Entrer de nuit par les conduits du Manoir avec sa meute et manger les ",
+  "etat": "en-cours",
+  "jours_restants": 13,
+  "cout": [
+   "sa meute de quatre",
+   "une nuit sans veille dans l'entrée"
+  ],
+  "depend_de": []
+ },
+ "etape:morne-vendre": {
+  "genre": "etape",
+  "ou": "morne-le-charognard",
+  "quoi": "Vendre la route de Shax au plus offrant — Kazhar d'abord, qui paie les",
+  "etat": "en-cours",
+  "jours_restants": 3,
+  "cout": [
+   "la route apprise",
+   "un acheteur reçu"
+  ],
+  "depend_de": [
+   "morne-repas"
+  ]
+ },
+ "pers:le-greffier": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Le Greffier",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "les-enfers",
+  "objectifs": [
+   {
+    "but": "Être payé de l'identité de Cole Turner, qu'il a fabriquée",
+    "priorite": 1
+   },
+   {
+    "but": "Qu'aucun débiteur n'apprenne qu'on peut ne pas payer",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:greffier-dossier": {
+  "genre": "etape",
+  "ou": "le-greffier",
+  "quoi": "Rassembler les pièces de l'identité Cole Turner : diplôme, barreau, ba",
+  "etat": "en-cours",
+  "jours_restants": 20,
+  "cout": [
+   "l'accès aux greffes et aux banques où il a signé"
+  ],
+  "depend_de": []
+ },
+ "etape:greffier-lettre": {
+  "genre": "etape",
+  "ou": "le-greffier",
+  "quoi": "Faire porter la lettre de créance à l'appartement de Cole : le prix ou",
+  "etat": "en-cours",
+  "jours_restants": 9,
+  "cout": [
+   "le dossier complet",
+   "une lettre sans timbre"
+  ],
+  "depend_de": [
+   "greffier-dossier"
+  ]
+ },
+ "pers:le-liseur": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Le Liseur",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "les-enfers",
+  "objectifs": [
+   {
+    "but": "Être le devin qu'on paie aux Enfers, plus sûr que l'Oracle",
+    "priorite": 1
+   },
+   {
+    "but": "Faire courir la sorcière qui voit là où il veut, et prouver qu'il la tient",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:liseur-route": {
+  "genre": "etape",
+  "ou": "le-liseur",
+  "quoi": "Lire la route de Phoebe : ses heures, ses lieux, ce qu'elle touche san",
+  "etat": "en-cours",
+  "jours_restants": 30,
+  "cout": [
+   "un verre dans la ville où se regarder"
+  ],
+  "depend_de": []
+ },
+ "etape:liseur-objet": {
+  "genre": "etape",
+  "ou": "le-liseur",
+  "quoi": "Faire déposer l'objet préparé sur la route de Phoebe et écrire dans la",
+  "etat": "en-cours",
+  "jours_restants": 13,
+  "cout": [
+   "l'objet préparé",
+   "un porteur mortel"
+  ],
+  "depend_de": [
+   "liseur-route"
+  ]
+ },
+ "pers:le-courtier": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Le Courtier d'ambre",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "lieu_id": "les-enfers",
+  "objectifs": [
+   {
+    "but": "Mettre à l'abri les pouvoirs que d'autres démons lui confient, contre une dette",
+    "priorite": 1
+   },
+   {
+    "but": "Trouver des coffres que personne ne viendra ouvrir : des enfants que personne ne réclame",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:courtier-famille": {
+  "genre": "etape",
+  "ou": "le-courtier",
+  "quoi": "Monter la façade : maison à Daly City, papiers, références, agrément d",
+  "etat": "en-cours",
+  "jours_restants": 40,
+  "cout": [
+   "un mortel de paille pour signer",
+   "des références"
+  ],
+  "depend_de": []
+ },
+ "etape:courtier-placement": {
+  "genre": "etape",
+  "ou": "le-courtier",
+  "quoi": "Se présenter à South Bay pour un enfant sans famille, et faire signer ",
+  "etat": "en-cours",
+  "jours_restants": 21,
+  "cout": [
+   "l'agrément",
+   "un dossier signé par M. Cowan"
+  ],
+  "depend_de": [
+   "courtier-famille"
+  ]
+ },
+ "pers:ferran-le-verrouilleur": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Ferran, le Verrouilleur",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "objectifs": [
+   {
+    "but": "Capturer des innocents dans un lieu préparé pour les vendre aux Enfers",
+    "priorite": 1
+   },
+   {
+    "but": "Faire entrer les secours dans le piège plutôt que les combattre dehors",
+    "priorite": 2
+   }
+  ]
+ },
+ "pers:neris-le-sonneur": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Néris, le Sonneur",
+  "genres": [
+   "personne"
+  ],
+  "etat": "actif",
+  "condition": "libre",
+  "objectifs": [
+   {
+    "but": "Attirer un sauveteur isolé puis livrer sa victime aux Enfers",
+    "priorite": 1
+   },
+   {
+    "but": "Obtenir des voix crédibles sans dévoiler sa propre présence",
+    "priorite": 2
+   }
+  ]
+ },
+ "pers:kharos-le-briseur": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Kharos, le Briseur",
+  "genres": [
+   "personne"
+  ],
+  "etat": "mort",
+  "condition": "détruit par Piper au grenier le 10.10.2001 à 7 h 12",
+  "lieu_id": "prescott-street",
+  "objectifs": [
+   {
+    "but": "Attaquer une sorcière du Manoir pour gagner une réputation aux Enfers",
+    "priorite": 1
+   },
+   {
+    "but": "Fuir plutôt que mourir si les trois sœurs se rassemblent",
+    "priorite": 2
+   }
+  ]
+ },
+ "etape:kharos-assaut-manoir": {
+  "genre": "etape",
+  "ou": "kharos-le-briseur",
+  "quoi": "Attaquer une cible réellement vue au grenier par une décharge ; le tir",
+  "etat": "faite",
+  "cout": [
+   "reprise de la scène",
+   "une cible réellement vue",
+   "main libre et temps de charge"
+  ],
+  "depend_de": []
+ },
+ "main:les-comptes-du-manoir": {
+  "genre": "compte",
+  "ou": "mains",
+  "quoi": "L'argent du ménage : le compte joint, nourri par le P3"
+ },
+ "les-comptes-du-manoir.compte-joint": {
+  "genre": "mesure",
+  "ou": "les-comptes-du-manoir",
+  "quoi": "dollars sur le compte du Manoir"
+ },
+ "ev:paige-s-installe-au-manoir": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Paige accepte de quitter son appartement et d'emménager au Manoir ; el"
+ },
+ "ev:phoebe-convoquee-jure": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Une convocation au jury criminel de San Francisco arrive au Manoir au "
+ },
+ "ev:dossier-cole-turner-rouvert": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Les enquêteurs du bureau du procureur rouvrent le dossier de Cole Turn"
+ },
+ "ev:glen-rentre-d-australie": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Glen Belland, l'ami d'enfance de Paige, rentre d'un long voyage en Aus"
+ },
+ "ev:piper-et-leo-veulent-un-enfant": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Piper et Leo décident d'essayer d'avoir un enfant, malgré les démons, "
+ },
+ "ev:la-voyante-demande-audience": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Une voyante démoniaque, dont les visions passent pour plus sûres que c"
+ },
+ "ev:piper-decouvre-sa-grossesse": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Piper apprend qu'elle est enceinte."
+ },
+ "ev:morne-mange-les-restes": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Morne, un démon charognard, et sa petite meute viennent la nuit dans l"
+ },
+ "ev:le-greffier-reclame-sa-creance": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Une lettre sans timbre attend Cole Turner : le Greffier, qui a fabriqu"
+ },
+ "ev:le-liseur-pose-un-objet": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Le Liseur fait déposer sur la route de Phoebe un objet préparé ; le pr"
+ },
+ "ev:le-courtier-place-un-enfant": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Une famille d'accueil modèle se présente aux Services sociaux pour un "
+ },
+ "ev:indice-guet-sur-prescott": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Au matin, un voisin signale à Darryl une silhouette demeurée des heure"
+ },
+ "ev:indice-carte-de-la-glaneuse": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Une carte prétendant porter un message de Prue est remise au Manoir pa"
+ },
+ "ev:indice-fausse-recommandation-ezra": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "La lettre de recommandation produite par Ezra aux Services sociaux por"
+ },
+ "ev:la-faction-se-leve": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Kazhar réunit les chefs de clan qu'il reçoit depuis l'automne et se dé"
+ },
+ "ev:indice-echos-dispensaire-howard": {
+  "genre": "evenement",
+  "ou": "evenements",
+  "quoi": "Les rumeurs et l'empreinte magique (runes) autour du dispensaire Howar"
+ },
+ "pers:phoebe-halliwell": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Phoebe Halliwell",
+  "etat": "actif",
+  "condition": "en deuil",
+  "lieu_id": "prescott-street",
+  "objectifs": [
+   {
+    "but": "Garder ce qui reste des Trois ensemble : Piper debout, Paige dedans",
+    "priorite": 1
+   },
+   {
+    "but": "Garder Cole en vie, alors que la Source le fait chasser",
+    "priorite": 2
+   },
+   {
+    "but": "Trouver un travail : le diplôme est là, l'argent non",
+    "priorite": 3
+   }
+  ]
+ },
+ "pers:la-source": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "La Source de tout mal",
+  "etat": "actif",
+  "condition": "contrarié",
+  "lieu_id": "les-enfers",
+  "objectifs": [
+   {
+    "but": "Que le Pouvoir des Trois ne se reforme pas — ou ne tienne pas",
+    "priorite": 1
+   },
+   {
+    "but": "Que Belthazor, le traître, paie, et que son exemple ne fasse pas école",
+    "priorite": 2
+   },
+   {
+    "but": "Que les Enfers le craignent assez pour ne pas le remplacer",
+    "priorite": 3
+   }
+  ]
+ },
+ "pers:prue-halliwell": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Prue Halliwell",
+  "etat": "mort",
+  "condition": "morte",
+  "lieu_id": "l-au-dela",
+  "objectifs": []
+ },
+ "pers:shane": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Shane",
+  "etat": "dormant",
+  "condition": "secoué",
+  "lieu_id": "san-francisco",
+  "objectifs": []
+ },
+ "pers:victor-bennett": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Victor Bennett",
+  "etat": "dormant",
+  "condition": "libre",
+  "lieu_id": "san-francisco",
+  "objectifs": []
+ },
+ "pers:treat-taylor": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Treat Taylor",
+  "etat": "dormant",
+  "condition": "libre",
+  "lieu_id": "san-francisco",
+  "objectifs": [
+   {
+    "but": "Prendre un club qui va mal et le refaire à son image",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:silas-hale": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Silas Hale",
+  "etat": "dormant",
+  "condition": "libre",
+  "objectifs": [
+   {
+    "but": "Prouver aux mortels ce que sont les sorcières, par les papiers",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:la-mere-des-noces": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "La Mère des noces",
+  "etat": "dormant",
+  "condition": "libre",
+  "lieu_id": "san-francisco",
+  "objectifs": [
+   {
+    "but": "Un enfant de sorcière né sous rite sombre",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:le-roi-des-limbes": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Le Roi des limbes",
+  "etat": "dormant",
+  "condition": "libre",
+  "lieu_id": "les-limbes",
+  "objectifs": [
+   {
+    "but": "Qu'une sœur entre dans les limbes de son plein gré, pour l'y garder",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:le-gardien-renegat": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Le Gardien renégat",
+  "etat": "dormant",
+  "condition": "libre",
+  "objectifs": [
+   {
+    "but": "Reprendre la magie à ceux qui ont rompu l'Accord, d'un côté comme de l'autre",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:la-voyante": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "La Voyante",
+  "etat": "dormant",
+  "condition": "libre",
+  "lieu_id": "les-enfers",
+  "objectifs": [
+   {
+    "but": "Servir la Source mieux que l'Oracle, pour son propre avenir",
+    "priorite": 1
+   }
+  ]
+ },
+ "pers:glen-belland": {
+  "genre": "personne",
+  "ou": "personnages",
+  "quoi": "Glen Belland",
+  "etat": "dormant",
+  "condition": "libre",
+  "objectifs": [
+   {
+    "but": "Revoir Paige à son retour",
+    "priorite": 1
+   }
+  ]
+ },
+ "lieu:san-francisco": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "San Francisco",
+  "jours_de_pr": 0,
+  "region": "La Baie",
+  "type_lieu": "ville"
+ },
+ "lieu:prescott-street": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Le Manoir, 1329 Prescott Street",
+  "jours_de_pr": 0,
+  "region": "Pacific Heights",
+  "type_lieu": "maison"
+ },
+ "lieu:p3": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Le P3",
+  "jours_de_pr": 0,
+  "region": "South of Market",
+  "type_lieu": "club"
+ },
+ "lieu:appartement-cole": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "L'appartement de Cole",
+  "jours_de_pr": 0,
+  "region": "Financial District",
+  "type_lieu": "maison"
+ },
+ "lieu:appartement-paige": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "L'appartement de Paige",
+  "jours_de_pr": 0,
+  "region": "Mission",
+  "type_lieu": "maison"
+ },
+ "lieu:services-sociaux": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "South Bay Social Services",
+  "jours_de_pr": 0,
+  "region": "South of Market",
+  "type_lieu": "bureau"
+ },
+ "lieu:commissariat": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Le Hall of Justice, 850 Bryant Street",
+  "jours_de_pr": 0,
+  "region": "South of Market",
+  "type_lieu": "bureau"
+ },
+ "lieu:golden-gate": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Le sommet du Golden Gate",
+  "jours_de_pr": 0,
+  "region": "La Porte d'Or",
+  "type_lieu": "lieu"
+ },
+ "lieu:les-enfers": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Les Enfers",
+  "jours_de_pr": 0,
+  "region": "Ailleurs",
+  "type_lieu": "ailleurs"
+ },
+ "lieu:le-haut": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Là-haut",
+  "jours_de_pr": 0,
+  "region": "Ailleurs",
+  "type_lieu": "ailleurs"
+ },
+ "lieu:l-au-dela": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "L'au-delà",
+  "jours_de_pr": 0,
+  "region": "Ailleurs",
+  "type_lieu": "ailleurs"
+ },
+ "lieu:maison-darryl": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "La maison de Darryl et Sheila",
+  "jours_de_pr": 0,
+  "region": "Sunset",
+  "type_lieu": "maison"
+ },
+ "lieu:bay-mirror": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Les bureaux du Bay Mirror",
+  "jours_de_pr": 0,
+  "region": "South of Market",
+  "type_lieu": "bureau"
+ },
+ "lieu:hopital": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "L'hôpital San Francisco Memorial",
+  "jours_de_pr": 0,
+  "region": "Potrero",
+  "type_lieu": "bureau"
+ },
+ "lieu:cimetiere": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Le cimetière",
+  "jours_de_pr": 0,
+  "region": "Colma",
+  "type_lieu": "lieu"
+ },
+ "lieu:toits-pacific-heights": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Les toits de Pacific Heights",
+  "jours_de_pr": 0,
+  "region": "Pacific Heights",
+  "type_lieu": "lieu"
+ },
+ "lieu:salon-de-la-glaneuse": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "La maison de la Glaneuse",
+  "jours_de_pr": 0,
+  "region": "Russian Hill",
+  "type_lieu": "maison"
+ },
+ "lieu:planque-ezra": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "L'appartement d'Ezra Vane",
+  "jours_de_pr": 0,
+  "region": "Noe Valley",
+  "type_lieu": "maison"
+ },
+ "lieu:domicile-cowan": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Chez M. Cowan",
+  "jours_de_pr": 0,
+  "region": "Bernal Heights",
+  "type_lieu": "maison"
+ },
+ "lieu:domicile-gil": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Chez Gil Navarro",
+  "jours_de_pr": 0,
+  "region": "Lower Haight",
+  "type_lieu": "maison"
+ },
+ "lieu:les-limbes": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "Les limbes",
+  "jours_de_pr": 0,
+  "region": "Ailleurs",
+  "type_lieu": "ailleurs"
+ },
+ "lieu:terre-desolee": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "La terre désolée",
+  "jours_de_pr": 0,
+  "region": "Ailleurs",
+  "type_lieu": "ailleurs"
+ },
+ "lieu:dispensaire-howard": {
+  "genre": "lieu",
+  "ou": "lieux",
+  "quoi": "L'ancien dispensaire de Howard Street, 412 Howard Street",
+  "jours_de_pr": 0,
+  "region": "South of Market",
+  "type_lieu": "bureau"
+ },
+ "echelle:scene": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "scene"
+ },
+ "echelle:orbite": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "orbite"
+ },
+ "echelle:royaume": {
+  "genre": "echelle",
+  "ou": "schema",
+  "quoi": "royaume"
+ },
+ "neant": {
+  "genre": "rien",
+  "ou": "schema",
+  "quoi": "ce qui ne coute rien"
+ },
+ "a_designer": {
+  "genre": "vacant",
+  "ou": "schema",
+  "quoi": "aucun titulaire — case ouverte"
+ },
+ "unite:homme": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "homme"
+ },
+ "unite:hommes": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "hommes"
+ },
+ "unite:quille": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "quille"
+ },
+ "unite:quilles": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "quilles"
+ },
+ "unite:coque": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "coque"
+ },
+ "unite:coques": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "coques"
+ },
+ "unite:cheval": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "cheval"
+ },
+ "unite:chevaux": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "chevaux"
+ },
+ "unite:corbeau": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "corbeau"
+ },
+ "unite:corbeaux": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "corbeaux"
+ },
+ "unite:compagnie": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "compagnie"
+ },
+ "unite:compagnies": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "compagnies"
+ },
+ "unite:emissaire": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "emissaire"
+ },
+ "unite:emissaires": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "emissaires"
+ },
+ "unite:clerc": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "clerc"
+ },
+ "unite:clercs": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "clercs"
+ },
+ "unite:barque": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "barque"
+ },
+ "unite:barques": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "barques"
+ },
+ "unite:dollar": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "dollar"
+ },
+ "unite:dollars": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "dollars"
+ },
+ "unite:cent": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "cent"
+ },
+ "unite:cents": {
+  "genre": "unite",
+  "ou": "schema",
+  "quoi": "cents"
+ },
+ "80000": {
+  "genre": "affaire_mj",
+  "ou": "chambres/mj/books",
+  "quoi": "L'escalier des menaces",
+  "local": true,
+  "autorite": "mj",
+  "livre_id": "affaire-l-escalier-des-menaces",
+  "namespace": "mj",
+  "plage": {
+   "de": 80000,
+   "a": 80499
+  }
+ },
+ "80001": {
+  "genre": "etat_cible_mj",
+  "ou": "chambre:mj:affaire-l-escalier-des-menaces",
+  "quoi": "Chaque menace a sa fuite",
+  "local": true,
+  "autorite": "mj",
+  "livre_id": "affaire-l-escalier-des-menaces",
+  "code_local": "E.1",
+  "adresse_mj": "80001",
+  "namespace": "mj",
+  "etat": "Chaque menace a sa fuite",
+  "jour_du": "",
+  "importance": 100
+ },
+ "80002": {
+  "genre": "etat_cible_mj",
+  "ou": "chambre:mj:affaire-l-escalier-des-menaces",
+  "quoi": "Le mal s'aligne par écrit",
+  "local": true,
+  "autorite": "mj",
+  "livre_id": "affaire-l-escalier-des-menaces",
+  "code_local": "E.2",
+  "adresse_mj": "80002",
+  "namespace": "mj",
+  "etat": "Le mal s'aligne par écrit",
+  "jour_du": "",
+  "importance": 80
+ },
+ "80101": {
+  "genre": "verrou_mj",
+  "ou": "chambre:mj:affaire-l-escalier-des-menaces",
+  "quoi": "Aucune diffusion programmée",
+  "local": true,
+  "autorite": "mj",
+  "livre_id": "affaire-l-escalier-des-menaces",
+  "code_local": "V.1",
+  "adresse_mj": "80101",
+  "namespace": "mj",
+  "etat": "",
+  "jour_du": ""
+ },
+ "80201": {
+  "genre": "clef_mj",
+  "ou": "chambre:mj:affaire-l-escalier-des-menaces",
+  "quoi": "Une fuite par verrou, écrite avec le verrou",
+  "local": true,
+  "autorite": "mj",
+  "livre_id": "affaire-l-escalier-des-menaces",
+  "code_local": "K.1",
+  "adresse_mj": "80201",
+  "namespace": "mj",
+  "etat": "",
+  "jour_du": ""
+ },
+ "80301": {
+  "genre": "action_mj",
+  "ou": "chambre:mj:affaire-l-escalier-des-menaces",
+  "quoi": "Programmer la fuite de chaque menace active",
+  "local": true,
+  "autorite": "mj",
+  "livre_id": "affaire-l-escalier-des-menaces",
+  "code_local": "A.1",
+  "adresse_mj": "80301",
+  "namespace": "mj",
+  "etat": "faite",
+  "jour_du": ""
+ },
+ "80302": {
+  "genre": "action_mj",
+  "ou": "chambre:mj:affaire-l-escalier-des-menaces",
+  "quoi": "Dépêcher les démons avec --contexte sur leur affaire",
+  "local": true,
+  "autorite": "mj",
+  "livre_id": "affaire-l-escalier-des-menaces",
+  "code_local": "A.2",
+  "adresse_mj": "80302",
+  "namespace": "mj",
+  "etat": "en cours",
+  "jour_du": ""
+ },
+ "80500": {
+  "genre": "affaire_mj",
+  "ou": "chambres/mj/books",
+  "quoi": "Les scènes des sièges",
+  "local": true,
+  "autorite": "mj",
+  "livre_id": "affaire-les-scenes-des-sieges",
+  "namespace": "mj",
+  "plage": {
+   "de": 80500,
+   "a": 80999
+  }
+ },
+ "80501": {
+  "genre": "etat_cible_mj",
+  "ou": "chambre:mj:affaire-les-scenes-des-sieges",
+  "quoi": "Le joueur tranche ce qui est à lui",
+  "local": true,
+  "autorite": "mj",
+  "livre_id": "affaire-les-scenes-des-sieges",
+  "code_local": "E.1",
+  "adresse_mj": "80501",
+  "namespace": "mj",
+  "etat": "Le joueur tranche ce qui est à lui",
+  "jour_du": "",
+  "importance": 100
+ },
+ "80601": {
+  "genre": "verrou_mj",
+  "ou": "chambre:mj:affaire-les-scenes-des-sieges",
+  "quoi": "La pente se joue d'elle-même",
+  "local": true,
+  "autorite": "mj",
+  "livre_id": "affaire-les-scenes-des-sieges",
+  "code_local": "V.1",
+  "adresse_mj": "80601",
+  "namespace": "mj",
+  "etat": "",
+  "jour_du": ""
+ },
+ "80701": {
+  "genre": "clef_mj",
+  "ou": "chambre:mj:affaire-les-scenes-des-sieges",
+  "quoi": "Lire la chronologie avant chaque Advance",
+  "local": true,
+  "autorite": "mj",
+  "livre_id": "affaire-les-scenes-des-sieges",
+  "code_local": "K.1",
+  "adresse_mj": "80701",
+  "namespace": "mj",
+  "etat": "",
+  "jour_du": ""
+ },
+ "80801": {
+  "genre": "action_mj",
+  "ou": "chambre:mj:affaire-les-scenes-des-sieges",
+  "quoi": "Préparer la scène de l'entraînement (Cole, S04E04)",
+  "local": true,
+  "autorite": "mj",
+  "livre_id": "affaire-les-scenes-des-sieges",
+  "code_local": "A.1",
+  "adresse_mj": "80801",
+  "namespace": "mj",
+  "etat": "armée",
+  "jour_du": ""
+ },
+ "80802": {
+  "genre": "action_mj",
+  "ou": "chambre:mj:affaire-les-scenes-des-sieges",
+  "quoi": "Faire entrer la formation de Paige dans la vie de Phoebe",
+  "local": true,
+  "autorite": "mj",
+  "livre_id": "affaire-les-scenes-des-sieges",
+  "code_local": "A.2",
+  "adresse_mj": "80802",
+  "namespace": "mj",
+  "etat": "faite",
+  "jour_du": ""
+ }
+}

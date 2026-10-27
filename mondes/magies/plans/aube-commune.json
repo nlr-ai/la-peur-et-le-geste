@@ -1,0 +1,233 @@
+{
+ "nom": "Aube commune",
+ "viewBox": "0 0 820 600",
+ "fonds": [],
+ "decor": [],
+ "mur": "M35 35H785V555H35Z",
+ "guet": [],
+ "rose": null,
+ "etiquettes": [],
+ "salles": [
+  {
+   "id": "aube-commune-entree",
+   "nom": "Entrée",
+   "forme": {
+    "r": [
+     70,
+     410,
+     190,
+     115,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    444
+   ],
+   "lignes": [
+    "Entrée"
+   ],
+   "quoi": "Accès local au siège.",
+   "motifs": [
+    "entrée"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "aube-commune-salle-commune",
+   "nom": "Halle des assemblées",
+   "forme": {
+    "r": [
+     300,
+     240,
+     220,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    410,
+    274
+   ],
+   "lignes": [
+    "Halle des",
+    "assemblées"
+   ],
+   "quoi": "Les assemblées y choisissent les projets et les œuvres communes.",
+   "motifs": [
+    "halle des assemblées",
+    "salle commune"
+   ],
+   "alias": [
+    "salle commune"
+   ],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "aube-commune-ceremonie",
+   "nom": "Aire de cérémonie",
+   "forme": {
+    "r": [
+     70,
+     70,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    104
+   ],
+   "lignes": [
+    "Aire de cérémonie"
+   ],
+   "quoi": "❤️ Émotions : on n'y agit que là où une croyance est réellement partagée.",
+   "motifs": [
+    "aire de cérémonie"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": true
+  },
+  {
+   "id": "aube-commune-vecus",
+   "nom": "Chambre des vécus",
+   "forme": {
+    "r": [
+     300,
+     70,
+     220,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    410,
+    104
+   ],
+   "lignes": [
+    "Chambre des vécus"
+   ],
+   "quoi": "🧠 Esprit : on y recueille les expériences et l'on aide à les comprendre.",
+   "motifs": [
+    "chambre des vécus"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "aube-commune-apparences",
+   "nom": "Atelier des apparences",
+   "forme": {
+    "r": [
+     560,
+     70,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    104
+   ],
+   "lignes": [
+    "Atelier des",
+    "apparences"
+   ],
+   "quoi": "🪞 Illusions : préparations et mélanges, bornés par l'émotion qui les alimente.",
+   "motifs": [
+    "atelier des apparences"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "aube-commune-chantier",
+   "nom": "Chantier commun",
+   "forme": {
+    "r": [
+     70,
+     240,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    274
+   ],
+   "lignes": [
+    "Chantier commun"
+   ],
+   "quoi": "⚒️ Matière : on y bâtit les lieux de rencontre des cercles.",
+   "motifs": [
+    "chantier commun"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": true
+  },
+  {
+   "id": "aube-commune-foyer",
+   "nom": "Foyer d'entraide",
+   "forme": {
+    "r": [
+     560,
+     240,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    274
+   ],
+   "lignes": [
+    "Foyer d'entraide"
+   ],
+   "quoi": "Les repas, les lits, et ce qu'on donne à qui arrive.",
+   "motifs": [
+    "foyer d'entraide"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "aube-commune-ecole",
+   "nom": "École ouverte",
+   "forme": {
+    "r": [
+     560,
+     410,
+     190,
+     115,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    444
+   ],
+   "lignes": [
+    "École ouverte"
+   ],
+   "quoi": "La transmission ouverte : multiplier les initiés et les communautés participantes.",
+   "motifs": [
+    "école ouverte"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  }
+ ]
+}

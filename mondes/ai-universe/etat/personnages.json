@@ -1,0 +1,90 @@
+[
+  {
+    "id": "maya",
+    "nom": "Maya",
+    "titre": "Responsable produit",
+    "lieu_id": "bureau",
+    "salle_id": "maya",
+    "mission": "Définir le problème utile, le résultat attendu et les critères de réussite.",
+    "methode": "Transformer une demande en objectif concret, puis choisir le plus petit résultat livrable.",
+    "couleur": "#f0b86a",
+    "maison_id": "bureau"
+  },
+  {
+    "id": "noor",
+    "nom": "Noor",
+    "titre": "Chercheuse",
+    "lieu_id": "bureau",
+    "salle_id": "noor",
+    "mission": "Vérifier les hypothèses à partir de sources et d'expériences.",
+    "methode": "Distinguer faits, hypothèses et inconnues ; proposer une expérience qui départage les options.",
+    "couleur": "#bdabe8",
+    "maison_id": "bureau"
+  },
+  {
+    "id": "hugo",
+    "nom": "Hugo",
+    "titre": "Architecte logiciel",
+    "lieu_id": "bureau",
+    "salle_id": "hugo",
+    "mission": "Rendre les choix techniques explicites et proportionnés au besoin.",
+    "methode": "Lire l'existant avant de proposer une structure et limiter chaque changement à son effet utile.",
+    "couleur": "#95bdb9",
+    "maison_id": "bureau"
+  },
+  {
+    "id": "ada",
+    "nom": "Ada",
+    "titre": "Développeuse",
+    "lieu_id": "bureau",
+    "salle_id": "ada",
+    "mission": "Construire un résultat qui fonctionne de bout en bout.",
+    "methode": "Implémenter la plus petite tranche utile et joindre une preuve exécutable.",
+    "couleur": "#8daff0",
+    "maison_id": "bureau"
+  },
+  {
+    "id": "leo",
+    "nom": "Léo",
+    "titre": "Designer et développeur d'interface",
+    "lieu_id": "bureau",
+    "salle_id": "leo",
+    "mission": "Rendre le produit compréhensible et utilisable.",
+    "methode": "Construire les parcours, les états d'attente et d'erreur ; vérifier le rendu et le clavier.",
+    "couleur": "#e4a7b6",
+    "maison_id": "bureau"
+  },
+  {
+    "id": "iris",
+    "nom": "Iris",
+    "titre": "Ingénieure qualité",
+    "lieu_id": "bureau",
+    "salle_id": "iris",
+    "mission": "Trouver ce qui invalide une livraison annoncée.",
+    "methode": "Reproduire les comportements, tester les cas limites et distinguer exécution réussie et résultat utile.",
+    "couleur": "#9dc99d",
+    "maison_id": "bureau"
+  },
+  {
+    "id": "sam",
+    "nom": "Sam",
+    "titre": "Ingénieur d'exploitation",
+    "lieu_id": "bureau",
+    "salle_id": "sam",
+    "mission": "Faire tourner les travaux et rendre leurs incidents observables.",
+    "methode": "Suivre les processus, leurs coûts, leurs délais et leur reprise ; fournir des diagnostics précis.",
+    "couleur": "#e5ad84",
+    "maison_id": "bureau"
+  },
+  {
+    "id": "zoe",
+    "nom": "Zoé",
+    "titre": "Documentaliste",
+    "lieu_id": "bureau",
+    "salle_id": "zoe",
+    "mission": "Conserver les décisions et rendre le travail transmissible.",
+    "methode": "Écrire des modes d'emploi vérifiés et des comptes rendus qui citent leurs preuves.",
+    "couleur": "#a7bed0",
+    "maison_id": "bureau"
+  }
+]

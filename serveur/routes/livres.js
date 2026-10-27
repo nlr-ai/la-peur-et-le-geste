@@ -2,7 +2,7 @@
 const fs = require("fs");
 const path = require("path");
 const bibliotheque = require("../plan/bibliotheque"); // meme container : import direct
-const { RACINE, cheminNotes } = require("../http");
+const { RACINE, ETAT, cheminNotes } = require("../http");
 const { envoyer, inlinerFigure } = require("../http");
 const { monPersonnage, qui, roster, volumesVisibles } = require("../http");
 const { coffretsChambre } = require("../agents").chambreLivres; // LA PORTE serveur des agents
@@ -63,7 +63,7 @@ function traiter(req, res, url) {
     // une table, ce sont deux tables qui se ressemblent.
     if (url === "/nappe") {
       try {
-        const f = path.join(RACINE, "etat", "nappe.json");
+        const f = path.join(ETAT, "nappe.json");
         const d = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf-8")) : {};
         return envoyer(res, 200, JSON.stringify({ pieces: d.pieces || [] }));
       } catch (e) {
@@ -79,11 +79,11 @@ function traiter(req, res, url) {
     // pour lâcher un oiseau.
     if (url === "/plis") {
       try {
-        const f = JSON.parse(fs.readFileSync(path.join(RACINE, "etat", "plis.json"), "utf-8"));
+        const f = JSON.parse(fs.readFileSync(path.join(ETAT, "plis.json"), "utf-8"));
         const plis = Array.isArray(f.plis) ? f.plis : [];
         const gens = {};
         try {
-          const pj = JSON.parse(fs.readFileSync(path.join(RACINE, "etat", "personnages.json"), "utf-8"));
+          const pj = JSON.parse(fs.readFileSync(path.join(ETAT, "personnages.json"), "utf-8"));
           const liste = Array.isArray(pj) ? pj : (pj.personnages || []);
           for (const p of liste) if (p && p.id) gens[p.id] = p.lieu_id || null;
         } catch (e) { /* sans les gens, `de_lieu` reste nul : le client s'en passe */ }

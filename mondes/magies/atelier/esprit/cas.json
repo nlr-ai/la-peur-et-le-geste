@@ -1,0 +1,107 @@
+{
+  "detail_inconnu": {
+    "titre": "Retoucher exactement un détail compatible chez un inconnu",
+    "action": "retoucher",
+    "modificateurs": {
+      "familiarite": "inconnu",
+      "precision": "exacte"
+    },
+    "contexte": "Contact déjà établi, souvenir accessible. Ne comprend pas la navigation préalable."
+  },
+  "couleur_inconnu": {
+    "titre": "Changer une couleur sans nuance précise chez un inconnu",
+    "action": "retoucher",
+    "modificateurs": {
+      "familiarite": "inconnu"
+    }
+  },
+  "detail_contradictoire": {
+    "titre": "Retoucher un détail exact qui contredit de nombreux souvenirs",
+    "action": "retoucher",
+    "modificateurs": {
+      "familiarite": "inconnu",
+      "precision": "exacte",
+      "coherence": "contradictions_multiples"
+    }
+  },
+  "message_ami": {
+    "titre": "Envoyer un message simple à un ami connu",
+    "action": "message",
+    "modificateurs": {},
+    "contexte": "L’ami n’est pas télépathe. Contact établi ; compréhension, réponse et croyance ne sont pas garanties."
+  },
+  "prise_proche": {
+    "titre": "Rejoindre un proche intime par une prise au vécu identique",
+    "action": "entrer",
+    "modificateurs": {
+      "familiarite": "intime",
+      "vecu": "identique"
+    }
+  },
+  "traversee_incertaine": {
+    "titre": "Traverser vers un inconnu parmi de nombreuses correspondances",
+    "action": "traverser",
+    "modificateurs": {
+      "familiarite": "inconnu",
+      "ambiguite": "nombreux",
+      "intermediaires": 2
+    }
+  },
+  "refus_actif": {
+    "titre": "Tenter une lecture malgré un refus actif",
+    "action": "lire",
+    "modificateurs": {},
+    "resistance": true
+  },
+  "message_masque": {
+    "titre": "Tenter de masquer volontairement l’origine d’un message",
+    "action": "message",
+    "modificateurs": {
+      "discretion": "masque"
+    }
+  },
+  "lecture_traversee": {
+    "titre": "Un relais lit la référence mobilisée par un navigateur inconnu",
+    "action": "percevoir_traversee",
+    "modificateurs": {
+      "familiarite": "inconnu"
+    },
+    "contexte": "Contact de relais déjà établi. Perception possible des références actives, sans connaissance automatique de la destination ni compétence gratuite pour un relais non télépathe."
+  },
+  "exposer_pensee": {
+    "titre": "Mettre une pensée personnelle en évidence",
+    "action": "mettre_en_evidence",
+    "modificateurs": {},
+    "contexte": "Préparation de son propre psyché. Le score ne déclare pas cette action réussie."
+  },
+  "lire_pensee_exposee": {
+    "titre": "Lire une pensée déjà mise en évidence chez une personne connue",
+    "action": "percevoir",
+    "modificateurs": {
+      "disponibilite": "en_evidence"
+    },
+    "contexte": "Suppose une mise en évidence effectivement réussie et un contact établi."
+  },
+  "cacher_pensee": {
+    "titre": "Cacher une pensée personnelle non mobilisée",
+    "action": "cacher_pensee",
+    "modificateurs": {},
+    "contexte": "La pensée reste en mémoire. Sa dissimulation n’efface ni les souvenirs connexes ni la présence du praticien."
+  },
+  "lire_pensee_cachee": {
+    "titre": "Explorer un souvenir déjà caché chez une personne connue",
+    "action": "lire",
+    "modificateurs": {
+      "disponibilite": "cache"
+    },
+    "contexte": "Suppose une dissimulation réussie. Aucun refus actif dans ce cas ; accès plus difficile, pas immunité."
+  },
+  "cacher_reference_active": {
+    "titre": "Cacher la référence qui soutient sa traversée en cours",
+    "action": "cacher_pensee",
+    "modificateurs": {
+      "mobilisation": "active"
+    },
+    "contexte": "Non chiffrable : maintenir le chemin tout en retirant son point d’appui reste à définir."
+  }
+}

@@ -384,61 +384,6 @@
   }
  },
  {
-  "personnage_id": "josiah-crewe",
-  "croyances": [
-   "La prophétie de Melinda Warren court depuis deux siècles : trois sœurs viendront. Chaque génération Warren qu'on laisse passer rapproche l'échéance.",
-   "Le Livre des Warren ne sort pas de sa maison sans qu'une Warren l'emporte. Il faut donc qu'une Warren l'emporte, ou qu'on lui fasse croire qu'elle le donne à sa sœur.",
-   "La cadette vit loin de la maison, en garni ; son visage ouvre la porte de l'aînée."
-  ],
-  "ignore": [
-   "Que la terre va trembler et que la ville va brûler trois jours.",
-   "Ce qui est scellé sous la maison de Prescott Street, et qui veut la même place que lui.",
-   "Le nom et le visage de l'Être de lumière qui veille les Warren."
-  ],
-  "intention": "Faire approcher la cadette par Marsh, lentement, jusqu'à ce que son visage puisse passer la porte de Prescott Street.",
-  "plan": [
-   {
-    "id": "crewe-visage",
-    "quoi": "Envoyer Gideon Marsh prendre la mesure de Patience Warren : sa voix, son pas, une chose à elle",
-    "etat": "en-cours",
-    "jours_restants": 6,
-    "depend_de": [],
-    "cout": [
-     "Marsh",
-     "que Patience reste à Howard Street"
-    ],
-    "si_bloque": "Si Patience quitte Howard Street, Marsh la suit à la trace des listes de logés et des camps ; l'échéance recule d'autant."
-   },
-   {
-    "id": "crewe-livre",
-    "quoi": "Faire sortir le Livre par la main d'une Warren trompée, et le prendre",
-    "etat": "a-faire",
-    "jours_restants": null,
-    "depend_de": [
-     "crewe-visage"
-    ],
-    "cout": [
-     "un visage aimé porté par Marsh",
-     "le Livre hors de la maison"
-    ],
-    "si_bloque": "Si le Livre reste dans la maison, il attend : la Maison compte en générations, pas en jours."
-   }
-  ],
-  "declencheurs": [
-   {
-    "si": "il apprend que le Livre des Warren est sorti de la maison de Prescott Street, ou que la maison est vide",
-    "alors": "Il lâche la patience : Marsh prend le premier visage aimé à portée, cette nuit même, et va chercher le Livre là où il est.",
-    "une_fois": true
-   }
-  ],
-  "attitude_joueur": "une dette qui court, et qu'il compte encaisser",
-  "date_maj": {
-   "annee": 1906,
-   "lune": 4,
-   "jour": 18
-  }
- },
- {
   "personnage_id": "gideon-marsh",
   "croyances": [
    "Un corps se copie en le touchant ; une voix, en l'écoutant une heure ; les souvenirs, jamais — il faut les deviner.",

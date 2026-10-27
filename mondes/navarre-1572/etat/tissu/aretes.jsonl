@@ -1,0 +1,131 @@
+{"de": "pers:catherine-de-medicis", "vers": "etape:catherine-fetes", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:catherine-fetes", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "la presence du roi a chaque fete"}
+{"de": "pers:catherine-de-medicis", "vers": "etape:catherine-laisser-guise", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:catherine-laisser-guise", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "un tireur aux Guise"}
+{"de": "etape:catherine-laisser-guise", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "le silence d'Anjou"}
+{"de": "pers:catherine-de-medicis", "vers": "etape:catherine-conseil", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:catherine-conseil", "vers": "etape:catherine-laisser-guise", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:catherine-conseil", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "la presence du roi"}
+{"de": "etape:catherine-conseil", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "Anjou et les conseillers"}
+{"de": "pers:catherine-de-medicis", "vers": "etape:catherine-epargner-princes", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "pers:catherine-de-medicis", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Navarre fait sortir ses gentilshommes du Louvre ou parle de quitter Paris avant la fin des fetes"}
+{"de": "pers:catherine-de-medicis", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Navarre lui parle seul a seule"}
+{"de": "pers:henri-de-guise", "vers": "etape:guise-maison", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:guise-maison", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une maison sur le trajet"}
+{"de": "etape:guise-maison", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "Maurevert"}
+{"de": "pers:henri-de-guise", "vers": "etape:guise-coup", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:guise-coup", "vers": "etape:guise-maison", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:guise-coup", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "l'amiral a pied sur le trajet"}
+{"de": "etape:guise-coup", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "Maurevert"}
+{"de": "pers:henri-de-guise", "vers": "etape:guise-finir", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:guise-finir", "vers": "etape:guise-coup", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:guise-finir", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "l'ordre ou le silence du roi"}
+{"de": "etape:guise-finir", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "ses gens armes"}
+{"de": "pers:henri-de-guise", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Navarre ou ses gens s'approchent de la maison louee ou interrogent ses serviteurs"}
+{"de": "pers:henri-de-guise", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Coligny quitte Paris"}
+{"de": "pers:charles-ix", "vers": "etape:charles-fetes", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:charles-fetes", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "sa sante"}
+{"de": "pers:charles-ix", "vers": "etape:charles-flandre", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:charles-flandre", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "l'amiral au conseil"}
+{"de": "pers:charles-ix", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "on tire sur l'amiral"}
+{"de": "pers:charles-ix", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "sa mere et Anjou lui disent que les huguenots vont venger l'amiral sur sa personne"}
+{"de": "pers:charles-ix", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Navarre lui parle seul et lui donne une preuve qu'on prepare un coup contre l'amiral"}
+{"de": "pers:marguerite-de-valois", "vers": "etape:margot-savoir", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:margot-savoir", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une conversation avec Claude"}
+{"de": "pers:marguerite-de-valois", "vers": "etape:margot-rang", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "pers:marguerite-de-valois", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Henri la traite en alliee : lui confie une chose vraie, lui demande son avis"}
+{"de": "pers:marguerite-de-valois", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "un huguenot blesse se jette dans sa chambre"}
+{"de": "pers:marguerite-de-valois", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Henri l'humilie en public"}
+{"de": "pers:coligny", "vers": "etape:coligny-audiences", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "pers:coligny", "vers": "etape:coligny-flandre", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:coligny-flandre", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une audience du roi"}
+{"de": "pers:coligny", "vers": "etape:coligny-noces", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:coligny-noces", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "l'obeissance des capitaines"}
+{"de": "pers:coligny", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Navarre lui demande de quitter Paris sans preuve"}
+{"de": "pers:coligny", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "on lui montre une preuve qu'un coup se prepare contre lui (tireur, maison, ordre)"}
+{"de": "pers:coligny", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "il est blesse"}
+{"de": "pers:henri-de-conde", "vers": "etape:conde-garde", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:conde-garde", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une ecurie au faubourg"}
+{"de": "pers:henri-de-conde", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "on tire sur l'amiral"}
+{"de": "pers:henri-de-conde", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Navarre propose de quitter Paris"}
+{"de": "pers:henri-d-anjou", "vers": "etape:anjou-guise", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:anjou-guise", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "une entrevue discrete"}
+{"de": "pers:henri-d-anjou", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Navarre se montre trop pres du roi"}
+{"de": "pers:francois-d-alencon", "vers": "etape:alencon-approcher", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:alencon-approcher", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "un moment seul avec lui"}
+{"de": "pers:francois-d-alencon", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Navarre lui fait une confidence"}
+{"de": "pers:teligny", "vers": "etape:teligny-rassurer", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "pers:teligny", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "on lui parle de quitter Paris"}
+{"de": "pers:la-rochefoucauld", "vers": "etape:rochefoucauld-jeux", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "pers:la-rochefoucauld", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "le roi lui demande de rester coucher au Louvre"}
+{"de": "pers:agrippa-d-aubigne", "vers": "etape:aubigne-querelle", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "pers:agrippa-d-aubigne", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Navarre lui confie une mission"}
+{"de": "pers:piles", "vers": "etape:piles-tenir", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:piles-tenir", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "les gentilshommes"}
+{"de": "pers:piles", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Navarre ordonne de sortir les hommes du Louvre"}
+{"de": "pers:armagnac", "vers": "etape:armagnac-porte", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "pers:armagnac", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "quelqu'un demande a voir son maitre de nuit"}
+{"de": "pers:ambroise-pare", "vers": "etape:pare-service", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "pers:ambroise-pare", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "un blesse de marque est amene ou l'appelle"}
+{"de": "pers:maurevert", "vers": "etape:maurevert-poste", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:maurevert-poste", "vers": "etape:guise-maison", "nature": "depend_de", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:maurevert-poste", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "la maison louee"}
+{"de": "etape:maurevert-poste", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "l'amiral a pied"}
+{"de": "pers:maurevert", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "on vient fouiller la maison ou le questionner"}
+{"de": "pers:le-charron", "vers": "etape:lecharron-armes", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "etape:lecharron-armes", "vers": "?", "nature": "coute_chiffre", "source": "intentions/cout", "flou": true, "texte": "les capitaines de quartier"}
+{"de": "pers:le-charron", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "le roi ou la reine mere lui ordonne de fermer les portes et d'armer la milice"}
+{"de": "pers:cardinal-de-bourbon", "vers": "etape:cardinal-messe", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "pers:cardinal-de-bourbon", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "Henri entre a Notre-Dame pour la messe des noces"}
+{"de": "pers:montgomery", "vers": "etape:montgomery-chevaux", "nature": "poursuit", "source": "intentions/plan", "flou": false, "texte": ""}
+{"de": "pers:montgomery", "vers": "?", "nature": "repond", "source": "intentions/declencheurs", "flou": true, "texte": "il entend le tocsin ou voit des troupes au bord de l'eau"}
+{"de": "pers:charles-ix", "vers": "ev:banquet-et-bal-des-noces", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:catherine-de-medicis", "vers": "ev:banquet-et-bal-des-noces", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:marguerite-de-valois", "vers": "ev:banquet-et-bal-des-noces", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:henri-de-navarre", "vers": "ev:banquet-et-bal-des-noces", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:paradis-d-amour", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si le roi de Navarre refuse de jouer son role, la fete se fait sans lui et la cour le remarque"}
+{"de": "pers:charles-ix", "vers": "ev:paradis-d-amour", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:henri-d-anjou", "vers": "ev:paradis-d-amour", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:francois-d-alencon", "vers": "ev:paradis-d-amour", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:henri-de-navarre", "vers": "ev:paradis-d-amour", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:charles-ix", "vers": "ev:tournoi-du-21", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:henri-d-anjou", "vers": "ev:tournoi-du-21", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:henri-de-guise", "vers": "ev:tournoi-du-21", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:henri-de-navarre", "vers": "ev:tournoi-du-21", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:arquebusade-de-l-amiral", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si l'amiral a quitte Paris ou ne rentre plus a pied, le coup n'a pas lieu ce jour-la (voir la tete de Guise)"}
+{"de": "?", "vers": "ev:arquebusade-de-l-amiral", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si la maison louee a ete decouverte et fouillee avant le 22, Maurevert fuit et le coup est perdu"}
+{"de": "?", "vers": "ev:arquebusade-de-l-amiral", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si l'amiral se penche au moment du tir (canon : il refaisait sa chaussure), il vit : c'est le canon"}
+{"de": "pers:maurevert", "vers": "ev:arquebusade-de-l-amiral", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:coligny", "vers": "ev:arquebusade-de-l-amiral", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:henri-de-guise", "vers": "ev:arquebusade-de-l-amiral", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:visite-du-roi-a-l-amiral", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si l'arquebusade n'a pas eu lieu, cette visite n'a pas lieu"}
+{"de": "pers:charles-ix", "vers": "ev:visite-du-roi-a-l-amiral", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:catherine-de-medicis", "vers": "ev:visite-du-roi-a-l-amiral", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:henri-d-anjou", "vers": "ev:visite-du-roi-a-l-amiral", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:coligny", "vers": "ev:visite-du-roi-a-l-amiral", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:conseil-du-23", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si l'amiral n'a pas ete blesse, ce conseil ne se tient pas en ces termes"}
+{"de": "?", "vers": "ev:conseil-du-23", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si le roi a ete gagne avant (preuve du coup en main, Navarre ou l'amiral pres de lui ce soir-la), il peut refu"}
+{"de": "?", "vers": "ev:conseil-du-23", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si les chefs huguenots ont quitte Paris, l'ordre vise ce qui reste"}
+{"de": "pers:catherine-de-medicis", "vers": "ev:conseil-du-23", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:henri-d-anjou", "vers": "ev:conseil-du-23", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:charles-ix", "vers": "ev:conseil-du-23", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:nuit-du-24", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si le conseil du 23 ne s'est pas tenu ou si le roi a refuse, la nuit n'a pas lieu"}
+{"de": "?", "vers": "ev:nuit-du-24", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si les gentilshommes de Navarre ne logent plus au Louvre, ils ne sont pas tues dans la cour"}
+{"de": "?", "vers": "ev:nuit-du-24", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si l'amiral a quitte Paris, Guise ne le trouve pas"}
+{"de": "pers:henri-de-guise", "vers": "ev:nuit-du-24", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:charles-ix", "vers": "ev:nuit-du-24", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:le-charron", "vers": "ev:nuit-du-24", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:coligny", "vers": "ev:nuit-du-24", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:piles", "vers": "ev:nuit-du-24", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "?", "vers": "ev:messe-mort-ou-bastille", "nature": "devie", "source": "evenements/conditions", "flou": true, "texte": "si Navarre n'est plus au Louvre, la scene n'a pas lieu"}
+{"de": "pers:charles-ix", "vers": "ev:messe-mort-ou-bastille", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:henri-de-navarre", "vers": "ev:messe-mort-ou-bastille", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:henri-de-conde", "vers": "ev:messe-mort-ou-bastille", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:charles-ix", "vers": "ev:mort-de-charles-ix", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:henri-d-anjou", "vers": "ev:mort-de-charles-ix", "nature": "acteur_de", "source": "evenements/acteurs", "flou": false, "texte": ""}
+{"de": "pers:piles", "vers": "main:gentilshommes-a-paris", "nature": "tient", "source": "mains/porteur", "flou": false, "texte": ""}
+{"de": "main:gentilshommes-a-paris", "vers": "echelle:scene", "nature": "promeut", "source": "mains/seuils", "flou": false, "texte": ""}
+{"de": "pers:armagnac", "vers": "main:bourse-de-navarre", "nature": "tient", "source": "mains/porteur", "flou": false, "texte": ""}
+{"de": "main:bourse-de-navarre", "vers": "echelle:scene", "nature": "promeut", "source": "mains/seuils", "flou": false, "texte": ""}
+{"de": "pers:le-charron", "vers": "main:armes-des-quartiers", "nature": "tient", "source": "mains/porteur", "flou": false, "texte": ""}
+{"de": "main:armes-des-quartiers", "vers": "echelle:scene", "nature": "promeut", "source": "mains/seuils", "flou": false, "texte": ""}

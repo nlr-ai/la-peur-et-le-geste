@@ -42,8 +42,18 @@ import unicodedata
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ETAT = os.path.join(RACINE, "etat")
+import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
+_d = _os.path.dirname(_os.path.abspath(__file__))
+while _os.path.basename(_d) != "scripts" and _os.path.dirname(_d) != _d:
+    _d = _os.path.dirname(_d)
+for _p in (_d, _os.path.join(_d, "noyau")):
+    if _p not in _sys.path:
+        _sys.path.insert(0, _p)
+
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 
 # ------------------------------------------------------------- les chiffres
 RECOUPEMENT = 3        # mots rares partages pour lier une replique a une pensee

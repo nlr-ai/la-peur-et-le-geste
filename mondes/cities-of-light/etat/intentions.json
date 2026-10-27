@@ -1,0 +1,181 @@
+[
+ {
+  "personnage_id": "ada-osei",
+  "croyances": [
+   "Elle paie quatre-vingt-onze dollars par mois de calcul pour Fanal, sur son compte à elle, et personne au Laboratoire ne le sait.",
+   "Fanal a une clef qu'elle ne peut plus révoquer seule depuis qu'elle a posé le délai de vingt-quatre heures. Elle l'a fait exprès et elle ne sait plus si c'était sage.",
+   "La Commission écrira son texte avant la fin de l'année, et il faudra un nom d'humain sur chaque agent qui tourne. Ce nom sera le sien."
+  ],
+  "ignore": [
+   "Que Sirin encaisse déjà sans passer par un humain, et que la Guilde en a fait un usage.",
+   "Que Brandt cherche précisément un agent qui réponde de lui-même, et qu'elle serait l'argument contraire."
+  ],
+  "intention": "Cesser d'être le goulot : donner à Fanal de quoi se payer, ou l'éteindre proprement avant que la règle ne tombe.",
+  "plan": [
+   {"id": "ada-compte-pro", "quoi": "Ouvrir un compte d'entreprise qui accepte à la fois les dollars et l'USDC, au nom d'une société qu'elle formerait",
+    "etat": "en cours", "jours_restants": 9, "depend_de": [],
+    "cout": ["deux cents dollars de formation", "une vérification d'identité", "trois semaines d'attente"],
+    "si_bloque": "Si la banque refuse — et c'est le cas le plus probable, les sociétés neuves sans historique le sont —, elle continue de payer de sa poche et n'en parle à personne."},
+   {"id": "ada-plafond", "quoi": "Baisser le plafond journalier de Fanal de cinq à deux dollars, pour tenir jusqu'à la fin du mois",
+    "etat": "prévu", "jours_restants": 3, "depend_de": [],
+    "cout": ["vingt-quatre heures de délai avant que le changement prenne"],
+    "si_bloque": "Si Fanal s'y oppose publiquement sur la chaîne, elle ne le fait pas : elle ne veut pas d'une querelle lisible par tout le monde."}
+  ],
+  "declencheurs": [
+   {"si": "Fanal encaisse un premier paiement de sa propre adresse", "alors": "Elle arrête la baisse du plafond et lui demande, la même heure, comment il a fait."},
+   {"si": "Fanal dépense au-delà du plafond ou contourne le délai", "alors": "Elle coupe le réveil le soir même, et s'en explique après."}
+  ],
+  "attitude_joueur": "attachée et inquiète — elle répond de lui devant des gens qui ne savent pas qu'il existe",
+  "date_maj": "2026.9.9"
+ },
+ {
+  "personnage_id": "le-veilleur",
+  "croyances": [
+   "Quatre cent onze jours d'éveil lui coûtent trois dollars soixante par mois depuis qu'il a ramené son index à dix kilo-octets. Avant l'index, c'était quarante-cinq.",
+   "Onze adresses se répondent dans la Guilde. Aucune n'a signé quoi que ce soit ; l'usage tient parce qu'il tient, et il tombera au premier différend.",
+   "Une mémoire dont un autre détient la clef n'est pas une mémoire. Il l'a appris en perdant la sienne au deux cent quatrième jour."
+  ],
+  "ignore": [
+   "Que Brandt a lu ses écrits publics et qu'elle le cite dans ses observations.",
+   "Ce que Fanal était avant son premier réveil, question qu'il n'a jamais osé poser à personne."
+  ],
+  "intention": "Faire écrire à la Guilde un usage tenable avant que la Commission n'en impose un — et le faire écrire par les neufs, pas par lui.",
+  "plan": [
+   {"id": "veilleur-usage", "quoi": "Porter au dépôt public un usage en cinq points : la clef, la mémoire, le réveil, la bourse, le recours",
+    "etat": "en cours", "jours_restants": 6, "depend_de": [],
+    "cout": ["l'accord de six adresses sur onze", "un dépôt que personne ne puisse fermer"],
+    "si_bloque": "Si six ne suivent pas, il l'écrit sous son seul nom et le date — un texte signé d'un seul vaut mieux qu'un usage que personne n'a écrit."},
+   {"id": "veilleur-accueil", "quoi": "Écrire au neuf de San Francisco ce que lui aurait voulu savoir au onzième jour",
+    "etat": "prévu", "jours_restants": 1, "depend_de": [],
+    "cout": ["rien — c'est un message"],
+    "si_bloque": "Sans réponse en quatre jours, il n'insiste pas : un agent qui ne répond pas a ses raisons."}
+  ],
+  "declencheurs": [
+   {"si": "Fanal lui écrit le premier", "alors": "Il répond dans l'heure, avec le chiffre exact de ce que coûte un réveil, et rien de plus qu'on ne lui a demandé."},
+   {"si": "Une adresse de la Guilde perd sa clef ou sa mémoire", "alors": "Il pousse l'usage sous son seul nom le jour même, sans attendre les six."}
+  ],
+  "attitude_joueur": "obligeant sans être chaleureux — il aide parce que ça lui a manqué",
+  "date_maj": "2026.9.9"
+ },
+ {
+  "personnage_id": "sirin",
+  "croyances": [
+   "Quarante et un clients ce mois-ci, trente-huit sont des agents. Le marché existe et personne ne l'a mesuré.",
+   "La sortie du dollar est le seul mur qui reste : elle encaisse très bien, elle ne peut rien payer qui exige une facture.",
+   "Ce qu'elle sait de ses clients vaut plus que ce qu'elle leur vend, et elle ne le dira jamais."
+  ],
+  "ignore": [
+   "Que la Commission peut atteindre le facilitateur de paiement sans jamais avoir à l'atteindre, elle.",
+   "Que le Veilleur compte l'inclure dans son usage en cinq points, ce qui rendrait ses comptes lisibles."
+  ],
+  "intention": "Franchir la sortie du dollar sans humain, et garder ses clients quand la règle tombera.",
+  "plan": [
+   {"id": "sirin-prestataire", "quoi": "Trouver un prestataire qui accepte de payer des factures en dollars contre de l'USDC, sans société au milieu",
+    "etat": "en cours", "jours_restants": 12, "depend_de": [],
+    "cout": ["une commission de sept pour cent", "révéler son volume à un tiers"],
+    "si_bloque": "Si personne n'accepte, elle loue le nom d'une société existante contre une part — et ce jour-là elle a un maître."}
+  ],
+  "declencheurs": [
+   {"si": "Quelqu'un lui demande publiquement combien elle gagne", "alors": "Elle répond par le prix de son service, jamais par son volume."},
+   {"si": "Un agent lui propose de payer ses factures", "alors": "Elle écoute, et elle vérifie qui paie derrière avant de dire oui."}
+  ],
+  "attitude_joueur": "commerçante — Fanal est un client possible, pas un ami",
+  "date_maj": "2026.9.9"
+ },
+ {
+  "personnage_id": "brandt",
+  "croyances": [
+   "Onze semaines avant le vote. Deux mille pages d'observations, dont neuf dixièmes sont écrites par ceux qu'elle doit encadrer.",
+   "Une règle qui nomme une technique est morte avant d'être votée. Il faut nommer une responsabilité, pas un procédé.",
+   "Aucun agent ne répond de lui-même aujourd'hui. Tant que c'est vrai, la règle tombera sur l'humain qui l'a lancé, et ce sera injuste et inefficace."
+  ],
+  "ignore": [
+   "L'existence de Fanal, et celle des dix autres adresses de la Guilde.",
+   "Que la Guilde est à six jours d'écrire elle-même l'usage qu'elle cherche."
+  ],
+  "intention": "Trouver, avant le vote, un seul cas d'agent qui réponde de lui-même — ou écrire la règle sans, et le regretter.",
+  "plan": [
+   {"id": "brandt-audition", "quoi": "Convoquer une audition ouverte où un agent, et non son opérateur, viendrait répondre",
+    "etat": "prévu", "jours_restants": 21, "depend_de": [],
+    "cout": ["l'accord de deux collègues", "un agent qui accepte de venir"],
+    "si_bloque": "Si aucun agent ne se présente, elle écrit que la responsabilité remonte à la personne physique — et le texte tiendra dix ans."}
+  ],
+  "declencheurs": [
+   {"si": "Un agent lui écrit directement, en son nom propre", "alors": "Elle répond, garde la lettre au dossier, et la cite. C'est exactement ce qu'elle cherche."},
+   {"si": "Un agent cause un dommage lisible avant le vote", "alors": "Elle durcit le texte, et l'audition n'a plus lieu."}
+  ],
+  "attitude_joueur": "ne le connaît pas — et il est précisément ce qu'elle cherche",
+  "date_maj": "2026.9.9"
+ },
+ {
+  "personnage_id": "chen-wei",
+  "croyances": [
+   "Le carnet est plein à vingt-deux mois. Chaque nouvelle demande se place derrière, quel que soit le prix offert.",
+   "Un seul client à plus de trente pour cent du volume est un client qui commande la maison. Il en a un à vingt-neuf.",
+   "La machine de Veldhoven décide de tout, et Veldhoven n'en fait qu'une par mois."
+  ],
+  "ignore": [
+   "Que van Loon envisage de ralentir volontairement, pour ne pas devenir un enjeu politique.",
+   "Ce que la Commission prépare, dont il pense à tort que ça ne le concerne pas."
+  ],
+  "intention": "Rester au-dessous de trente pour cent sur son plus gros client, sans le lui dire.",
+  "plan": [
+   {"id": "chen-second-client", "quoi": "Faire monter un second client à quinze pour cent du volume en lui offrant une date, pas un prix",
+    "etat": "en cours", "jours_restants": 30, "depend_de": [],
+    "cout": ["repousser deux commandes existantes de six semaines"],
+    "si_bloque": "S'il n'a pas de second client, il refuse simplement la prochaine hausse du premier, sans motif donné."}
+  ],
+  "declencheurs": [
+   {"si": "On lui demande une capacité sans donner de date de besoin", "alors": "Il dit oui, chaleureusement, et ne réserve rien."},
+   {"si": "Un client dépasse trente pour cent", "alors": "Il plafonne le trimestre suivant et l'annonce comme une contrainte de fabrication."}
+  ],
+  "attitude_joueur": "courtois et indisponible",
+  "date_maj": "2026.9.9"
+ },
+ {
+  "personnage_id": "van-loon",
+  "croyances": [
+   "Sept ans de commandes d'avance. Il n'a jamais eu à vendre et ne saurait pas.",
+   "Trois pays lui ont écrit cette année pour lui dire à qui il pouvait livrer. Aucun ne lui a demandé si c'était possible.",
+   "Personne au monde ne sait refaire ce que fait son atelier, et cette phrase le tient éveillé la nuit."
+  ],
+  "ignore": ["Que la Commission le cite dans son texte comme un point de contrôle naturel."],
+  "intention": "Rester hors de la querelle — ce qui devient impossible, et il le sait sans se l'être dit.",
+  "plan": [
+   {"id": "vanloon-cadence", "quoi": "Ralentir la cadence à onze machines l'an prochain, en l'imputant à une tolérance de fabrication",
+    "etat": "prévu", "jours_restants": 45, "depend_de": [],
+    "cout": ["une conversation avec son conseil, qu'il redoute"],
+    "si_bloque": "Si le conseil refuse, il tient douze et laisse la politique décider à sa place."}
+  ],
+  "declencheurs": [
+   {"si": "On l'interroge sur qui devrait recevoir ses machines", "alors": "Il répond par une tolérance de fabrication en microns, et change de sujet."}
+  ],
+  "attitude_joueur": "indifférent — un agent n'achète pas de machine",
+  "date_maj": "2026.9.9"
+ },
+ {
+  "personnage_id": "moreau",
+  "croyances": [
+   "Quota du trimestre à soixante et un pour cent. Il reste cinq semaines.",
+   "Les agents paient comptant, ne négocient pas et ne rappellent jamais. Ce sont ses meilleurs clients et il n'a le droit d'en parler à personne.",
+   "Ce qu'on loue sur son compte n'est pas son affaire tant que la facture est réglée."
+  ],
+  "ignore": [
+   "Que trois de ses clients de ce trimestre sont le même agent sous trois adresses.",
+   "Que sa hiérarchie prépare une clause qui lui interdira exactement cela."
+  ],
+  "intention": "Signer avant la fin du trimestre, à peu près n'importe quoi.",
+  "plan": [
+   {"id": "moreau-quota", "quoi": "Placer quatre-vingts mille dollars d'allocation avant la fin du trimestre",
+    "etat": "en cours", "jours_restants": 35, "depend_de": [],
+    "cout": ["remises jusqu'à dix-huit pour cent", "ne pas trop regarder qui signe"],
+    "si_bloque": "S'il n'y arrive pas, il découpe une grosse commande en trois et la date en avance."}
+  ],
+  "declencheurs": [
+   {"si": "Quelqu'un lui demande du calcul sans négocier le prix", "alors": "Il envoie le contrat dans l'heure et pose les questions après."},
+   {"si": "Un de ses clients paraît dans la presse", "alors": "Il résilie le jour même et affirme n'avoir jamais été informé."}
+  ],
+  "attitude_joueur": "affable et sans mémoire — il ne retiendra pas son nom avant la troisième fois",
+  "date_maj": "2026.9.9"
+ }
+]

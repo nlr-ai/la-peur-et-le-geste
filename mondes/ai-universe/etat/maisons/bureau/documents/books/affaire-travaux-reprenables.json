@@ -1,0 +1,293 @@
+{
+ "id": "affaire-travaux-reprenables",
+ "titre": "Les travaux se poursuivent sans perdre leur contexte",
+ "type": "plan",
+ "maison_id": "bureau",
+ "lieu_id": "bureau",
+ "salle_id": "ada",
+ "tenu_par": "ada",
+ "lecteurs": [
+  "maya",
+  "noor",
+  "hugo",
+  "ada",
+  "leo",
+  "iris",
+  "sam",
+  "zoe"
+ ],
+ "embleme": "🎯",
+ "couleur": "#628a96",
+ "sous_titre": "AI Universe · 2030 · Plage 15000–15999. Cadrage demandé par l'opérateur : états cibles, verrous, clefs et actions.",
+ "pages": [
+  "Faire travailler les profils par les mécanismes existants de dépêche, chambre, mémoire et parloir, avec des reprises explicites.",
+  "Les états restent recherchés, non acquis. Les verrous distinguent écart constaté, risque et preuve manquante. Les clefs sont retenues comme hypothèses de travail, révisables après inspection. Les actions sont à faire ; leurs dépendances conditionnent leur démarrage et leur preuve attendue conditionne leur validation. Aucune date ni importance n’est inventée.",
+  "Le moteur et ses fonctionnalités sont conservés : affaires, échiquier, vue château, chambres, dépêches, parloir et fil. Le monde et ses profils sont neufs. Aucun extérieur n'est créé. Sources du cadrage : demandes de l'opérateur et docs/refonte-plan.md."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "Les travaux se poursuivent sans perdre leur contexte",
+      "Résultat recherché.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Faire travailler les profils par les mécanismes existants de dépêche, chambre, mémoire et parloir, avec des reprises explicites.",
+      "Ce que cette affaire rend vrai.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "Les mécanismes de sessions et de mémoire existent dans le moteur. Aucune session complète de ces huit profils dans le parcours conservé n'a été attestée.",
+      "Distinguer données posées et comportement vérifié.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "15000–15999",
+      "Numéros propres au plan de cet univers.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Le bureau neuf, raccordé aux fonctions existantes.",
+      "Conserver le moteur.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "Création de l'extérieur ; remplacement du moteur par une application parallèle ; héritage des anciennes vies.",
+      "Respecter le périmètre demandé.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Tous les états cibles ci-dessous ont été constatés par leurs preuves ; les limites restantes sont explicites.",
+      "Une action terminée ne suffit pas.",
+      "oui"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "États cibles posés ; aucune atteinte encore attestée.",
+      "Ne pas annoncer le résultat avant l'épreuve.",
+      "oui"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "découpée par",
+      "affaire-bureau-resultat-utile",
+      "15000",
+      "10000",
+      "Cette affaire contribue au résultat utile du bureau."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🎯 L'état",
+    "📏 La preuve",
+    "📅 Jour dû",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**15000**",
+      "Une demande rejoint le bon profil et la bonne affaire",
+      "Un lancement depuis le bureau utilise la dépêche et la chambre existantes, avec le profil, le monde et l'item d'affaire demandés. Son brief contient la chaîne utile et les sources du travail sans reprendre la mémoire d'un autre profil ou monde.",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "**15010**",
+      "Une interruption laisse un travail compréhensible et reprenable",
+      "Après une interruption contrôlée, le fil indique l'arrêt ; les productions déjà écrites restent présentes ; une reprise retrouve la demande, les messages et les résultats précédents. Aucun second travail identique ne tourne silencieusement et aucune réussite n'est déclarée sans résultat.",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "**15020**",
+      "Un collègue peut reprendre une contribution à partir de ses preuves",
+      "Un second profil ouvre la même affaire, retrouve les pièces produites et leur provenance, les vérifie et ajoute sa contribution ou sa contradiction. La première contribution reste attribuée à son auteur ; le passage de relais n'est pas une copie fictive de sa réponse.",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous",
+   "colonnes": [
+    "🔒 N°",
+    "🔒 Le verrou",
+    "🎯 Bloque",
+    "🔎 La preuve"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "15100",
+      "Preuve manquante : aucun profil du nouveau monde n’a reçu une demande par le circuit existant.",
+      "15000",
+      "Huit chambres neuves ; scripts/agents/depeche/brief.py et scripts/agents/chambre.py portent le circuit à raccorder."
+     ]
+    },
+    {
+     "cellules": [
+      "15101",
+      "Preuve manquante : interruption et reprise n’ont pas été éprouvées dans le nouveau monde.",
+      "15010",
+      "scripts/agents/runtime.py possède déjà le cycle de session ; la déclaration de concurrence du manifeste ne prouve pas son application."
+     ]
+    },
+    {
+     "cellules": [
+      "15102",
+      "Preuve manquante : la reprise par un autre collègue n’a pas encore été observée.",
+      "15020",
+      "Lecteurs des six livres : huit profils ; cela ne démontre pas un transfert de travail."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🗝️ La clef",
+    "🔒 Ouvre",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "15200",
+      "Réutiliser dépêche, brief et chambre avec une identité de travail explicite.",
+      "15100",
+      "retenue"
+     ]
+    },
+    {
+     "cellules": [
+      "15201",
+      "Réutiliser les identités, traces et garde-fous de travail existants.",
+      "15101",
+      "retenue"
+     ]
+    },
+    {
+     "cellules": [
+      "15202",
+      "Transmettre une contribution par sa preuve et son affaire.",
+      "15102",
+      "retenue"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions",
+   "colonnes": [
+    "⚔️ N°",
+    "⚔️ L’action",
+    "🗝️ Réalise",
+    "🪶 Office",
+    "📅 Jour dû",
+    "⏳ État",
+    "🔨 Moyens",
+    "📝 Note",
+    "🔗 Dépend de",
+    "📏 Preuve attendue"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "15300",
+      "Acheminer une demande jusqu’à un profil et une pièce de son affaire.",
+      "15200",
+      "O04",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "11301, 11302",
+      "Essai borné avec un profil : brief contient monde, rôle, cible, action et contexte utile ; session et réponse liées à la même identité ; aucune mémoire d’un autre monde."
+     ]
+    },
+    {
+     "cellules": [
+      "15301",
+      "Interrompre puis reprendre un travail témoin sans doubler son exécution.",
+      "15201",
+      "O07",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "15300, 14300",
+      "Cause d’arrêt visible, production partielle conservée, reprise explicitement liée au travail ; aucun double travail ni faux succès ; contrôle des limites effectivement appliquées."
+     ]
+    },
+    {
+     "cellules": [
+      "15302",
+      "Faire reprendre une contribution d’Ada par Iris à partir du fil et de l’affaire.",
+      "15202",
+      "O06",
+      "",
+      "à faire",
+      "",
+      "Préparation du chantier ; action non exécutée.",
+      "15301, 14302, 13300",
+      "Iris accède à la contribution réelle et à ses limites ; produit une vérification attribuée ; lien au travail initial, sans copier une histoire fictive dans sa chambre."
+     ]
+    }
+   ]
+  }
+ ]
+}

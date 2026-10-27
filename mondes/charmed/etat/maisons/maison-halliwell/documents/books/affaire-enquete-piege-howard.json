@@ -1,0 +1,266 @@
+{
+  "id": "affaire-enquete-piege-howard",
+  "titre": "L'Enquête sur le Piège Howard",
+  "sous_titre": "Les indices laissés par les Enfers et la manière dont les sœurs vont les découvrir.",
+  "type": "plan",
+  "embleme": "🔍",
+  "couleur": "#3a4a3a",
+  "tenu_par": "mj",
+  "office": "Narrateur",
+  "lecteurs": [
+    "mj"
+  ],
+  "lieu_id": "prescott-street",
+  "salle_id": "salon",
+  "maison_id": "maison-halliwell",
+  "pages": [
+    {
+      "titre": "L'Objectif de cette Affaire",
+      "texte": "Donner au MJ la trame pour remonter la piste du piège tendu par Varek au dispensaire Howard. La Source a verrouillé le site, mais a sciemment laissé des indices (3 innocents enlevés, échos magiques lâchés, faux appel de détresse de Néris) pour attirer les sœurs."
+    }
+  ],
+  "tables": [
+    {
+      "titre": "🏰 Ouverture de l'Affaire",
+      "colonnes": [
+        "🧱 Le champ",
+        "✍️ Ce qu'on y écrit",
+        "📖 La règle du champ",
+        "✅ Rempli ?"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "🏷️ **LE NOM**",
+            "L'Enquête sur le Piège Howard",
+            "Le sujet dont on traite.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🔢 **LA PLAGE**",
+            "2000-2099",
+            "États 2000-2009, Verrous 2010-2019, Clefs 2020-2029, Actions 2030-2099.",
+            "**oui**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "🎯 N°",
+        "🏁 L'état",
+        "📖 Ce que c'est",
+        "⏳ État"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "2000",
+            "Les sœurs apprennent l'existence d'une menace",
+            "Le premier contact avec les indices lâchés par Varek.",
+            "en cours"
+          ]
+        },
+        {
+          "cellules": [
+            "2001",
+            "Les sœurs identifient le lieu (Dispensaire Howard)",
+            "La localisation exacte du piège est découverte.",
+            "à faire"
+          ]
+        },
+        {
+          "cellules": [
+            "2002",
+            "Le piège est déjoué ou déclenché",
+            "L'affrontement au dispensaire contre Ferran et Néris.",
+            "à faire"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": [
+        "🔒 N°",
+        "🛡️ Le verrou",
+        "🧱 Bloque",
+        "👁️ Ce qui est vrai aujourd'hui",
+        "📝 La preuve",
+        "✅ Levé quand"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "2010",
+            "Darryl n'a pas encore alerté les sœurs",
+            "2000",
+            "Trois disparitions de SDF ont eu lieu mais ne sont pas encore liées dans un dossier criminel majeur.",
+            "Appel de Darryl",
+            "à faire"
+          ]
+        },
+        {
+          "cellules": [
+            "2011",
+            "Les échos magiques n'ont pas été captés",
+            "2000",
+            "Varek a lâché des traces, mais le Manoir ne les a pas encore détectées.",
+            "Une vision de Phoebe ou une alerte de Leo",
+            "à faire"
+          ]
+        },
+        {
+          "cellules": [
+            "2012",
+            "Le nom du dispensaire est inconnu",
+            "2001",
+            "Les sœurs sentent le mal mais ne savent pas où il est posté.",
+            "Croisement des indices",
+            "à faire"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "🗝️ N°",
+        "🏷️ La clef",
+        "🔓 Ouvre",
+        "💡 Le principe",
+        "💰 Le prix",
+        "🚪 Ce que cela ferme",
+        "👁️ La preuve attendue",
+        "⚖️ Décision"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "2020",
+            "La piste policière",
+            "2010",
+            "Darryl vient voir Piper avec les dossiers des trois innocents disparus (capturés par les Enfers).",
+            "Du temps de recherche",
+            "Rien",
+            "Les dossiers remis aux sœurs",
+            "retenue"
+          ]
+        },
+        {
+          "cellules": [
+            "2021",
+            "La piste magique (Prémonition / Senseur)",
+            "2011",
+            "Phoebe touche un objet d'une des victimes, ou Leo perçoit la signature de Néris le Sonneur.",
+            "Un risque d'être détectés",
+            "Rien",
+            "La révélation du piège",
+            "retenue"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "⚔️ N°",
+        "🏷️ L'action",
+        "🗝️ Réalise",
+        "📝 Ce qu'on fait",
+        "📍 Où",
+        "🪶 Office",
+        "👤 Qui",
+        "🧰 Moyens",
+        "💰 Ce qu'elle coûte",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "⏳ État",
+        "📅 Jour fait",
+        "📝 Note",
+        "📅 Jour dû"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "2030",
+            "Darryl signale les disparitions",
+            "2020",
+            "Darryl débarque au Manoir pour parler des trois personnes enlevées. Il demande l'aide des sœurs.",
+            "Manoir",
+            "O01",
+            "darryl-morris",
+            "Dossiers de police",
+            "Temps",
+            "-",
+            "Information transmise",
+            "à faire",
+            "",
+            "Peut être joué dans la prochaine scène",
+            "10.10.2001"
+          ]
+        },
+        {
+          "cellules": [
+            "2031",
+            "Vision de Phoebe",
+            "2021",
+            "Phoebe touche un indice ramené par Darryl (ex: le manteau d'une victime) et voit le dispensaire Howard et Néris.",
+            "Manoir",
+            "O02",
+            "phoebe-halliwell",
+            "Pouvoir de prémonition",
+            "Énergie",
+            "2030",
+            "Vision claire du bâtiment",
+            "à faire",
+            "",
+            "-",
+            "10.10.2001"
+          ]
+        },
+        {
+          "cellules": [
+            "2032",
+            "Leo perçoit le signal",
+            "2021",
+            "L'appel de détresse de Néris commence à résonner. Leo ressent une intense douleur ou urgence.",
+            "Manoir",
+            "O03",
+            "leo-wyatt",
+            "Connexion céleste",
+            "Douleur psychique",
+            "-",
+            "Leo alerte les sœurs",
+            "à faire",
+            "",
+            "Option alternative ou complémentaire à 2031",
+            "10.10.2001"
+          ]
+        },
+        {
+          "cellules": [
+            "2033",
+            "Recherche dans le Livre des Ombres",
+            "-",
+            "Les sœurs cherchent la description des démons vus par Phoebe (Ferran / Néris) pour comprendre qu'il s'agit d'un piège.",
+            "Grenier",
+            "O04",
+            "piper-halliwell",
+            "Livre des Ombres",
+            "Temps de recherche",
+            "2031",
+            "Découverte des points faibles",
+            "à faire",
+            "",
+            "Permet de se préparer avant l'assaut",
+            "10.10.2001"
+          ]
+        }
+      ]
+    }
+  ]
+}

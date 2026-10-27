@@ -1,0 +1,235 @@
+{
+ "nom": "Sept-Seuils",
+ "viewBox": "0 0 820 600",
+ "fonds": [],
+ "decor": [],
+ "mur": "M35 35H785V555H35Z",
+ "guet": [],
+ "rose": null,
+ "etiquettes": [],
+ "salles": [
+  {
+   "id": "sept-seuils-entree",
+   "nom": "Entrée",
+   "forme": {
+    "r": [
+     70,
+     410,
+     190,
+     115,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    444
+   ],
+   "lignes": [
+    "Entrée"
+   ],
+   "quoi": "Accès local au siège.",
+   "motifs": [
+    "entrée"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "sept-seuils-salle-commune",
+   "nom": "Salle du conseil fédéral",
+   "forme": {
+    "r": [
+     300,
+     240,
+     220,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    410,
+    274
+   ],
+   "lignes": [
+    "Salle du",
+    "conseil fédéral"
+   ],
+   "quoi": "Horaires, contributions, priorités de passage et obligations de secours s'y négocient.",
+   "motifs": [
+    "salle du conseil fédéral",
+    "salle commune"
+   ],
+   "alias": [
+    "salle commune"
+   ],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "sept-seuils-seuil",
+   "nom": "Seuil d'arrivée",
+   "forme": {
+    "r": [
+     70,
+     70,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    104
+   ],
+   "lignes": [
+    "Seuil d'arrivée"
+   ],
+   "quoi": "Le cercle d'ouverture. Rien ne s'ouvre sans une équipe à l'autre bout.",
+   "motifs": [
+    "seuil d'arrivée"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "sept-seuils-accords",
+   "nom": "Chambre des accords",
+   "forme": {
+    "r": [
+     300,
+     70,
+     220,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    410,
+    104
+   ],
+   "lignes": [
+    "Chambre",
+    "des accords"
+   ],
+   "quoi": "Les conventions entre stations, station par station. Le conseil négocie, il n'ordonne pas.",
+   "motifs": [
+    "chambre des accords"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "sept-seuils-atelier",
+   "nom": "Atelier des seuils",
+   "forme": {
+    "r": [
+     560,
+     70,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    104
+   ],
+   "lignes": [
+    "Atelier des seuils"
+   ],
+   "quoi": "⚒️ Matière : on y aménage et répare les cercles et leurs abords.",
+   "motifs": [
+    "atelier des seuils"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "sept-seuils-destinations",
+   "nom": "Mur des destinations",
+   "forme": {
+    "r": [
+     70,
+     240,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    165,
+    274
+   ],
+   "lignes": [
+    "Mur des",
+    "destinations"
+   ],
+   "quoi": "🔍 Divination : l'état des liaisons et les incidents rapportés.",
+   "motifs": [
+    "mur des destinations"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "sept-seuils-magasin",
+   "nom": "Magasin des équipements",
+   "forme": {
+    "r": [
+     560,
+     240,
+     190,
+     130,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    274
+   ],
+   "lignes": [
+    "Magasin des",
+    "équipements"
+   ],
+   "quoi": "🏺 Enchantement : ce qui donne à une station une fonction durable.",
+   "motifs": [
+    "magasin des équipements"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  },
+  {
+   "id": "sept-seuils-garde",
+   "nom": "Corps de garde",
+   "forme": {
+    "r": [
+     560,
+     410,
+     190,
+     115,
+     8
+    ]
+   },
+   "etiq": [
+    655,
+    444
+   ],
+   "lignes": [
+    "Corps de garde"
+   ],
+   "quoi": "🛡️ Protection : les frontières physiques et magiques de la station.",
+   "motifs": [
+    "corps de garde"
+   ],
+   "alias": [],
+   "cle": true,
+   "dehors": false
+  }
+ ]
+}

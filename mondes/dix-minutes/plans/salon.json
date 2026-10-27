@@ -1,0 +1,398 @@
+{
+ "_": "LE SALON, VU D'EN HAUT — un vestibule, quatre tables, neuf alcôves. Les ids sont ceux de etat/chemins.json. Lieu inventé, hors du temps.",
+ "nom": "Le salon",
+ "viewBox": "0 0 640 330",
+ "fonds": [],
+ "mur": "M30,30 L610,30 L610,320 L30,320 Z",
+ "guet": [],
+ "decor": [],
+ "etiquettes": [
+  {
+   "classe": "plan-large",
+   "x": 320,
+   "y": 250,
+   "texte": "Les alcôves"
+  }
+ ],
+ "salles": [
+  {
+   "id": "vestibule",
+   "nom": "Le vestibule",
+   "fond": true,
+   "cle": true,
+   "forme": {
+    "d": "M40,40 L600,40 L600,110 L40,110 Z"
+   },
+   "etiq": [
+    320,
+    78
+   ],
+   "lignes": [
+    "Le vestibule"
+   ],
+   "quoi": "Là où les invités attendent entre deux rondes. Une clochette d'argent sur un guéridon.",
+   "alias": [
+    "vestibule"
+   ],
+   "motifs": [
+    "vestibule",
+    "le vestibule"
+   ]
+  },
+  {
+   "id": "table-1",
+   "nom": "La table du tilleul",
+   "forme": {
+    "r": [
+     40,
+     140,
+     125,
+     90,
+     8
+    ]
+   },
+   "etiq": [
+    102,
+    188
+   ],
+   "lignes": [
+    "du tilleul"
+   ],
+   "quoi": "Près de la fenêtre haute, sous une branche de tilleul qui entre par la croisée.",
+   "alias": [
+    "la table du tilleul"
+   ],
+   "motifs": [
+    "la table du tilleul",
+    "table 1"
+   ]
+  },
+  {
+   "id": "table-2",
+   "nom": "La table de la cheminée",
+   "forme": {
+    "r": [
+     185,
+     140,
+     125,
+     90,
+     8
+    ]
+   },
+   "etiq": [
+    247,
+    188
+   ],
+   "lignes": [
+    "de la cheminée"
+   ],
+   "quoi": "Devant un feu qui ne fume pas et ne s'éteint pas.",
+   "alias": [
+    "la table de la cheminée"
+   ],
+   "motifs": [
+    "la table de la cheminée",
+    "table 2"
+   ]
+  },
+  {
+   "id": "table-3",
+   "nom": "La table des cartes",
+   "forme": {
+    "r": [
+     330,
+     140,
+     125,
+     90,
+     8
+    ]
+   },
+   "etiq": [
+    392,
+    188
+   ],
+   "lignes": [
+    "des cartes"
+   ],
+   "quoi": "Sous un mur couvert de cartes qu'aucun des invités ne sait toutes lire.",
+   "alias": [
+    "la table des cartes"
+   ],
+   "motifs": [
+    "la table des cartes",
+    "table 3"
+   ]
+  },
+  {
+   "id": "table-4",
+   "nom": "La table du jardin d'hiver",
+   "forme": {
+    "r": [
+     475,
+     140,
+     125,
+     90,
+     8
+    ]
+   },
+   "etiq": [
+    537,
+    188
+   ],
+   "lignes": [
+    "du jardin d'hiver"
+   ],
+   "quoi": "Parmi des plantes de tous les continents, dont la moitié n'ont pas de nom pour l'autre moitié.",
+   "alias": [
+    "la table du jardin d'hiver"
+   ],
+   "motifs": [
+    "la table du jardin d'hiver",
+    "table 4"
+   ]
+  },
+  {
+   "id": "alcove-marc-aurele",
+   "nom": "L'alcôve de Marc Aurèle",
+   "forme": {
+    "r": [
+     40,
+     260,
+     56,
+     50,
+     4
+    ]
+   },
+   "etiq": [
+    68,
+    288
+   ],
+   "lignes": [
+    "Marc"
+   ],
+   "quoi": "Une alcôve close d'un rideau, une chaise, une écritoire et le carnet de Marc Aurèle.",
+   "alias": [
+    "alcove de marc aurèle"
+   ],
+   "motifs": [
+    "alcove-marc-aurele"
+   ]
+  },
+  {
+   "id": "alcove-wu-zetian",
+   "nom": "L'alcôve de Wu Zhao",
+   "forme": {
+    "r": [
+     103,
+     260,
+     56,
+     50,
+     4
+    ]
+   },
+   "etiq": [
+    131,
+    288
+   ],
+   "lignes": [
+    "Wu"
+   ],
+   "quoi": "Une alcôve close d'un rideau, une chaise, une écritoire et le carnet de Wu Zhao.",
+   "alias": [
+    "alcove de wu zhao"
+   ],
+   "motifs": [
+    "alcove-wu-zetian"
+   ]
+  },
+  {
+   "id": "alcove-mansa-moussa",
+   "nom": "L'alcôve de Mansa Moussa",
+   "forme": {
+    "r": [
+     166,
+     260,
+     56,
+     50,
+     4
+    ]
+   },
+   "etiq": [
+    194,
+    288
+   ],
+   "lignes": [
+    "Mansa"
+   ],
+   "quoi": "Une alcôve close d'un rideau, une chaise, une écritoire et le carnet de Mansa Moussa.",
+   "alias": [
+    "alcove de mansa moussa"
+   ],
+   "motifs": [
+    "alcove-mansa-moussa"
+   ]
+  },
+  {
+   "id": "alcove-elisabeth",
+   "nom": "L'alcôve de Élisabeth",
+   "forme": {
+    "r": [
+     229,
+     260,
+     56,
+     50,
+     4
+    ]
+   },
+   "etiq": [
+    257,
+    288
+   ],
+   "lignes": [
+    "Élisabeth"
+   ],
+   "quoi": "Une alcôve close d'un rideau, une chaise, une écritoire et le carnet de Élisabeth.",
+   "alias": [
+    "alcove de élisabeth"
+   ],
+   "motifs": [
+    "alcove-elisabeth"
+   ]
+  },
+  {
+   "id": "alcove-ipi",
+   "nom": "L'alcôve de Ipi",
+   "forme": {
+    "r": [
+     292,
+     260,
+     56,
+     50,
+     4
+    ]
+   },
+   "etiq": [
+    320,
+    288
+   ],
+   "lignes": [
+    "Ipi"
+   ],
+   "quoi": "Une alcôve close d'un rideau, une chaise, une écritoire et le carnet de Ipi.",
+   "alias": [
+    "alcove de ipi"
+   ],
+   "motifs": [
+    "alcove-ipi"
+   ]
+  },
+  {
+   "id": "alcove-xochitl",
+   "nom": "L'alcôve de Xochitl",
+   "forme": {
+    "r": [
+     355,
+     260,
+     56,
+     50,
+     4
+    ]
+   },
+   "etiq": [
+    383,
+    288
+   ],
+   "lignes": [
+    "Xochitl"
+   ],
+   "quoi": "Une alcôve close d'un rideau, une chaise, une écritoire et le carnet de Xochitl.",
+   "alias": [
+    "alcove de xochitl"
+   ],
+   "motifs": [
+    "alcove-xochitl"
+   ]
+  },
+  {
+   "id": "alcove-sarah-bagley",
+   "nom": "L'alcôve de Sarah Bagley",
+   "forme": {
+    "r": [
+     418,
+     260,
+     56,
+     50,
+     4
+    ]
+   },
+   "etiq": [
+    446,
+    288
+   ],
+   "lignes": [
+    "Sarah"
+   ],
+   "quoi": "Une alcôve close d'un rideau, une chaise, une écritoire et le carnet de Sarah Bagley.",
+   "alias": [
+    "alcove de sarah bagley"
+   ],
+   "motifs": [
+    "alcove-sarah-bagley"
+   ]
+  },
+  {
+   "id": "alcove-zhang-min",
+   "nom": "L'alcôve de Zhang Min",
+   "forme": {
+    "r": [
+     481,
+     260,
+     56,
+     50,
+     4
+    ]
+   },
+   "etiq": [
+    509,
+    288
+   ],
+   "lignes": [
+    "Zhang"
+   ],
+   "quoi": "Une alcôve close d'un rideau, une chaise, une écritoire et le carnet de Zhang Min.",
+   "alias": [
+    "alcove de zhang min"
+   ],
+   "motifs": [
+    "alcove-zhang-min"
+   ]
+  },
+  {
+   "id": "alcove-mnemo",
+   "nom": "L'alcôve de Mnémo",
+   "forme": {
+    "r": [
+     544,
+     260,
+     56,
+     50,
+     4
+    ]
+   },
+   "etiq": [
+    572,
+    288
+   ],
+   "lignes": [
+    "Mnémo"
+   ],
+   "quoi": "Une alcôve close d'un rideau, une chaise vide et une lueur.",
+   "alias": [
+    "alcove de mnemo"
+   ],
+   "motifs": [
+    "alcove-mnemo"
+   ]
+  }
+ ]
+}

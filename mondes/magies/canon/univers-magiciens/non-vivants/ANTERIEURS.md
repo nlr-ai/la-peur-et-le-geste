@@ -1,0 +1,93 @@
+# ⏳ Les Antérieurs
+
+[← Bestiaire](BESTIAIRE.md) · [Regroupements](REGROUPEMENTS.md) · [Sorts du Temps](../magies/TEMPS_SORTS.md) · [Nature du Temps](../magies/TEMPS_NATURE.md)
+
+## 📌 Statut
+
+Développement de la discussion enregistré à la suite du « go » de l’utilisateur. **L’Antérieur est une créature rencontrée pendant l’observation du passé, capable de remarquer le regard du mage.** Son anatomie et la distinction entre scène historique et rencontre constituent le développement proposé ci-dessous.
+
+L’histoire observée reste inchangée. Conditions particulières de naissance, reproduction, alimentation, échanges possibles avec le présent et usages par les retournés restent à concevoir. Le modèle mathématique du Temps conserve son statut de proposition théorique.
+
+## 👁️ Proposition visuelle
+
+![Antérieur entre les poutres d’une galerie passée, orientant son organe sensoriel vers l’observateur](../visuels/anterieur-v1.png)
+
+[Image complète](../visuels/anterieur-v1.png) · [Prompt de génération](../visuels/anterieur-v1-prompt.md)
+
+L’image représente le point de vue de l’observateur temporel. La présence visuelle de la créature entre les poutres ne prouve pas qu’elle occupait matériellement cet endroit pour les ouvriers de l’époque.
+
+## 🧩 Un corps qui tient une configuration
+
+La créature est ramassée sur elle-même. Des membres fins se replient en figures géométriques imbriquées. Ses articulations coulissent lentement ; chaque mouvement en entraîne plusieurs autres et maintient une configuration complexe.
+
+Le mage du Temps doit retrouver un espace mental purement théorique. L’Antérieur maintient une organisation équivalente dans son corps, instinctivement. Cette analogie ne lui donne ni conscience mathématique ni capacité de démonstration.
+
+Son apparente immobilité est un travail permanent. Un organe sensoriel peut se déployer depuis la configuration et s’orienter vers l’observation.
+
+| Partie ou comportement | Fonction proposée |
+|---|---|
+| Membres repliés | Maintiennent les relations corporelles nécessaires à son activité. |
+| Articulations couplées | Ajustent la configuration par des mouvements interdépendants. |
+| Organe sensoriel déployable | S’oriente vers le point depuis lequel la scène est observée. |
+| Immobilité apparente | Résultat d’ajustements continus, pas d’une suspension universelle du temps. |
+
+Cette version développe sa relation à l’observation. Elle ne lui accorde pas automatiquement accélération, ralentissement, suspension ou vieillissement d’autres êtres.
+
+## 👁️ Instinct : se tourner vers le regard
+
+Dans la scène examinée, les humains poursuivent leurs gestes. L’Antérieur demeure posé quelque part : entre des poutres, au fond d’une cour ou entre des rayonnages.
+
+Lorsque le mage dirige son observation vers lui, la créature déploie son organe sensoriel et l’oriente vers ce point d’observation. Elle répond au contact temporel ; elle ne reconnaît pas nécessairement une personne, son identité ou son intention.
+
+Cette réaction ne constitue ni une invitation consciente ni une attaque garantie. Ce que la créature retire de l’attention reçue reste ouvert.
+
+## ⏳ Une rencontre qui ne réécrit pas l’histoire
+
+Le modèle proposé distingue deux choses :
+
+- **La scène historique :** les événements examinés demeurent inchangés. Les ouvriers n’accomplissent pas de nouveaux gestes en réponse au mage du présent.
+- **La rencontre pendant l’accès magique :** la posture perceptible de l’Antérieur répond au regard actuel de l’observateur.
+
+Ainsi, revenir au même instant depuis un autre point d’observation peut montrer une orientation différente de la créature sans produire une autre histoire de la galerie. L’Antérieur habiterait la relation d’accès au passé ; la nature exacte de cette existence reste à développer.
+
+La réaction observable est le contact minimal décrit ici. Parole, transmission volontaire d’un message, passage de matière et sortie de la créature dans le présent ne sont pas acquis.
+
+## 🪵 Exemple proposé : la galerie effondrée
+
+Cette scène illustre les capacités discutées ; elle ne fixe pas un événement biographique déjà survenu à Ariane.
+
+[Ariane Veille](../personnages/03-ariane-veille.md) examine l’effondrement d’une galerie. Elle remonte la scène jusqu’au passage du dernier ouvrier.
+
+Au-dessus de lui, une forme nouée repose entre deux poutres. Elle la prend d’abord pour un assemblage de cordes. Elle déplace son observation. La forme tourne un appendice vers elle.
+
+Ariane revient quelques instants en arrière et regarde depuis l’autre côté de la galerie. L’Antérieur s’oriente de nouveau vers son point d’observation. Il ne suit pas l’ouvrier : il suit son regard.
+
+Maintenir le sort occupe déjà 90 % de ses capacités mentales, conformément aux règles humaines du Temps. Les déplacements du regard, la perception et l’interprétation doivent tenir dans la disponibilité restante. La créature n’est pas supposée lui voler une réserve mentale supplémentaire.
+
+Ariane veut comprendre. Chaque nouvel examen lui demande de continuer à diriger le sort avec peu d’attention disponible. Elle finit par relâcher.
+
+La galerie est depuis longtemps effondrée. Elle n’en a changé aucun événement. La rencontre cesse d’être accessible avec la fin de son observation ; cela ne prouve ni la mort ni la disparition de la créature.
+
+**Au milieu d’un passé qui se déroule sans vous, une seule chose vous regarde.**
+
+## 🧙 Retournés et supervision
+
+Les moyens précis de superviser un Antérieur restent à concevoir. Organiser l’accès humain à une scène peut donner au retourné une position d’intermédiaire ; cela ne prouve pas qu’il commande la créature.
+
+Il pourrait organiser des observations répétées et étudier les réactions selon les points de vue. Cette piste ne définit encore ni récompense, ni conditionnement efficace, ni gain magique garanti.
+
+L’alimentation réelle de la créature doit être définie. Dire qu’elle réagit à l’attention ne suffit pas à faire de cette attention une énergie gratuite.
+
+## 🕸️ Dans les Veilles
+
+Les Antérieurs donnent à certaines enquêtes une dimension de rencontre. Les Remontés peuvent produire des réponses qui encouragent les consultations ; les Retours de regard exploitent les liens divinatoires ouverts par d’autres recherches.
+
+Ces mécanismes restent distincts : un Antérieur ne reçoit pas automatiquement toutes les capacités d’un Retour de regard, et observer le passé n’est pas en soi pratiquer la Divination.
+
+Le superviseur organise les accès et interprète les réactions. La puissance des Veilles dépend encore de ce que ces créatures peuvent effectivement transmettre ou produire.
+
+## ❓ Paramètres ouverts
+
+Conditions particulières de naissance, reproduction, alimentation, ressources de maintien, nature corporelle de l’existence dans l’accès au passé, scènes accessibles, perception de plusieurs observateurs, continuité d’une rencontre à l’autre, éventuelle mémoire des contacts, conséquences d’une configuration rompue, supervision et échanges avec le présent.
+
+La contrainte humaine de 90 % ne devient pas une mesure de la cognition de l’Antérieur. Aucun coût, délai ni pouvoir temporel supplémentaire n’est fixé.

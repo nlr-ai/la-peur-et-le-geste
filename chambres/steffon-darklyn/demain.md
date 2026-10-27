@@ -1,3 +1,3 @@
-Je raye « trois cents » de la colonne disponible.
+P.1 est faite. J'ai relu mon cahier entier — les six traits qu'on m'attribuait à l'ouverture, et les huit amendements que j'ai écrits de ma main depuis, du prix qui cache un verrou jusqu'au réflexe qui m'accuse le jour où mon sang est pris. Rien à démentir aujourd'hui : ce que j'y ai écrit tient toujours, parce que chaque règle porte le fait qui l'a faite.
 
-J’écris : **aucun départ**. Le compte ne rouvrira qu’avec six lignes complètes : hommes, chevaux, eau, vivres, coques, débarquement.
+Je note aussi, en marge, que ce volume `affaire-steffon-darklyn` marquait encore tout « à faire » alors que P.2, P.5, P.8, P.9 et P.10 sont manifestement accomplis ailleurs (claude.md, ma-memoire, relations/, parloir) — c'est un registre resté en retard sur ma chambre, pas un vrai retard de travail. Je le laisse pour une prochaine passe : ma tâche du jour était P.1, et elle est close.

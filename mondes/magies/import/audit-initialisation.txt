@@ -1,0 +1,220 @@
+Audit de etat/ — 212 anomalie(s) + 1 note(s) informative(s)
+
+== GRAVE (80) ==
+  [heloise-braise] siege VACANT sans tete dans intentions.json — ce personnage n'agira pas hors ecran tant qu'on ne lui en ecrit pas une
+  [heloise-braise] siege marque `occupe` dans joueurs.json alors que plus rien n'y respire (aucun signal) — il n'est ni joue par un humain ni active par la boucle, donc il DORT. python scripts/sieges.py --rafraichir --vraiment
+  [book source-magies-geographie-monde-001-readme] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-geographie-monde-002-portrait-readme] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-magies-divination-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-magies-elementaire-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-magies-emotions-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-magies-enchantement-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-magies-espace-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-magies-esprit-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-magies-matiere-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-magies-mort-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-magies-protection-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-magies-temps-nature] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-magies-temps-sorts] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-magies-et-relations] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-monde] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-anterieurs] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-architectes-aveugles] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-bestiaire] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-deliants] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-enclos] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-entre-deux] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-greffiers] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-heritiers-creux] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-mages-retournes] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-mnemophages] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-obstines] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-peaux-de-peur] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-readme] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-regroupements] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-retours-de-regard] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-non-vivants-saints-affames] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-organisations-01-bastion] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-organisations-02-ligue-des-passages] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-organisations-03-college-des-preuves] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-organisations-04-communion-des-recits] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-organisations-06-corps-de-resolution] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-organisations-07-federation-insaisissable] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-organisations-bastion-couronne-eau-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-organisations-bastion-defense-recettes-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-organisations-bastion-fournaise-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-organisations-bastion-maisons-veille-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-organisations-bastion-porte-cousue-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-organisations-bastion-quartiers-articules-v1] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-organisations-readme] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-organisations-relations] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-personnages-01-heloise-braise] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-personnages-02-naim-des-seuils] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-personnages-03-ariane-veille] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-personnages-04-malo-veyre] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-personnages-06-soeur-cendre] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-personnages-07-vesper-ronce] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-personnages-readme] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-readme] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-visuels-anterieur-v1-prompt] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-visuels-architecte-aveugle-v1-prompt] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-visuels-deliant-v1-prompt] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-visuels-enclos-v1-prompt] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-visuels-entre-deux-v1-prompt] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-visuels-greffier-v1-prompt] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-visuels-heritier-creux-v1-prompt] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-visuels-mnemophage-v1-prompt] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-visuels-obstine-eau-v1-prompt] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-visuels-peau-de-peur-v1-prompt] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-visuels-retour-de-regard-v1-prompt] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [book source-magies-visuels-saint-affame-v1-prompt] ni salle_id ni acteur_id ni boite : ce livre n'est nulle part, il ne s'affichera jamais
+  [chainage actions-actes] acte-o12-route-nord-ecrite-non-armee-4e : action 10022 absente de affaire-fermeture-route-nord
+  [chainage actions-actes] acte-le-sanglier-ouvre-10120-4e : action 10120 absente de affaire-fermeture-route-nord
+  [chainage actions-actes] acte-hallis-prepare-10120-4e : action 10120 absente de affaire-fermeture-route-nord
+  [chainage actions-actes] acte-sara-porte-fret-hask-129-4-4 : action 37125 absente de affaire-blesses-morts-prisonniers
+  [chainage actions-actes] acte-hask-un-seul-prix-daffretement-129-5-12 : action 28025 absente de affaire-financement-campagne
+  [chainage actions-actes] acte-vittoria-ouvre-audit-reprise-retour-joueur-129-5-12 : action 94020 absente de affaire-audit-reprise-retour-joueur
+  [chainage actions-actes] acte-vittoria-matrice-coupures-retour-joueur-129-5-12 : action 94020 absente de affaire-audit-reprise-retour-joueur
+  [chainage actions-actes] acte-vittoria-depose-rapport-audit-retour-joueur-129-5-12 : action 94420 absente de affaire-audit-reprise-retour-joueur
+  [chainage actions-actes] acte-giovanni-audit-spec-cloture-reveil-129-5-12 : action 87120 absente de affaire-audit-sortie-silencieuse-reveil
+  [rapporteur couverture] N'A JAMAIS BATTU. les couvertures d'affaire, recalculees depuis les cahiers — nul ne sait s'il tourne encore. `python scripts/couverture.py`
+  [rapporteur couverture-registres] N'A JAMAIS BATTU. les quatre registres derives du plan (etats-cibles, verrous, clefs, actions) — nul ne sait s'il tourne encore. `python scripts/couverture.py --registres`
+  [rapporteur verser-cahier] N'A JAMAIS BATTU. les changements de registre rapportes par les hommes depeches — nul ne sait s'il tourne encore. `python scripts/verser_cahier.py --vraiment`
+  [rapporteur bilan] N'A JAMAIS BATTU. la mesure d'ecart du plan, et l'empreinte des pieces — nul ne sait s'il tourne encore. `python scripts/analyse/bilan.py`
+
+== AVERTISSEMENT (132) ==
+  [journal] journal.personnage_joueur_id vaut 'heloise-braise' alors que son siege est marque vacant
+  [heloise-braise] personnage actif sans tete, ni mains, ni temoignage, ni place dans la journee — donne-lui une entree dans intentions.json (il decide) ou dans mains.json (son affaire tourne seule), ou repasse-le dormant
+  [book source-magies-geographie-monde-001-readme] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-geographie-monde-001-readme] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-geographie-monde-002-portrait-readme] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-geographie-monde-002-portrait-readme] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-magies-divination-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-magies-divination-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-magies-elementaire-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-magies-elementaire-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-magies-emotions-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-magies-emotions-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-magies-enchantement-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-magies-enchantement-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-magies-espace-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-magies-espace-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-magies-esprit-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-magies-esprit-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-magies-matiere-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-magies-matiere-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-magies-mort-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-magies-mort-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-magies-protection-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-magies-protection-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-magies-temps-nature] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-magies-temps-nature] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-magies-temps-sorts] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-magies-temps-sorts] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-magies-et-relations] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-magies-et-relations] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-monde] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-monde] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-anterieurs] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-anterieurs] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-architectes-aveugles] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-architectes-aveugles] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-bestiaire] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-bestiaire] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-deliants] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-deliants] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-enclos] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-enclos] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-entre-deux] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-entre-deux] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-greffiers] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-greffiers] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-heritiers-creux] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-heritiers-creux] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-mages-retournes] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-mages-retournes] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-mnemophages] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-mnemophages] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-obstines] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-obstines] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-peaux-de-peur] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-peaux-de-peur] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-readme] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-readme] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-regroupements] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-regroupements] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-retours-de-regard] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-retours-de-regard] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-non-vivants-saints-affames] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-non-vivants-saints-affames] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-organisations-01-bastion] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-organisations-01-bastion] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-organisations-02-ligue-des-passages] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-organisations-02-ligue-des-passages] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-organisations-03-college-des-preuves] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-organisations-03-college-des-preuves] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-organisations-04-communion-des-recits] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-organisations-04-communion-des-recits] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-organisations-06-corps-de-resolution] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-organisations-06-corps-de-resolution] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-organisations-07-federation-insaisissable] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-organisations-07-federation-insaisissable] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-organisations-bastion-couronne-eau-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-organisations-bastion-couronne-eau-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-organisations-bastion-defense-recettes-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-organisations-bastion-defense-recettes-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-organisations-bastion-fournaise-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-organisations-bastion-fournaise-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-organisations-bastion-maisons-veille-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-organisations-bastion-maisons-veille-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-organisations-bastion-porte-cousue-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-organisations-bastion-porte-cousue-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-organisations-bastion-quartiers-articules-v1] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-organisations-bastion-quartiers-articules-v1] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-organisations-readme] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-organisations-readme] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-organisations-relations] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-organisations-relations] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-personnages-01-heloise-braise] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-personnages-01-heloise-braise] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-personnages-02-naim-des-seuils] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-personnages-02-naim-des-seuils] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-personnages-03-ariane-veille] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-personnages-03-ariane-veille] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-personnages-04-malo-veyre] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-personnages-04-malo-veyre] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-personnages-06-soeur-cendre] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-personnages-06-soeur-cendre] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-personnages-07-vesper-ronce] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-personnages-07-vesper-ronce] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-personnages-readme] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-personnages-readme] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-readme] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-readme] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-visuels-anterieur-v1-prompt] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-visuels-anterieur-v1-prompt] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-visuels-architecte-aveugle-v1-prompt] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-visuels-architecte-aveugle-v1-prompt] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-visuels-deliant-v1-prompt] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-visuels-deliant-v1-prompt] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-visuels-enclos-v1-prompt] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-visuels-enclos-v1-prompt] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-visuels-entre-deux-v1-prompt] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-visuels-entre-deux-v1-prompt] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-visuels-greffier-v1-prompt] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-visuels-greffier-v1-prompt] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-visuels-heritier-creux-v1-prompt] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-visuels-heritier-creux-v1-prompt] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-visuels-mnemophage-v1-prompt] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-visuels-mnemophage-v1-prompt] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-visuels-obstine-eau-v1-prompt] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-visuels-obstine-eau-v1-prompt] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-visuels-peau-de-peur-v1-prompt] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-visuels-peau-de-peur-v1-prompt] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-visuels-retour-de-regard-v1-prompt] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-visuels-retour-de-regard-v1-prompt] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+  [book source-magies-visuels-saint-affame-v1-prompt] sans embleme : son onglet ne se reconnaitra qu'a la lecture
+  [book source-magies-visuels-saint-affame-v1-prompt] sans couleur : il prendra la teinte de son genre, comme tous ceux du meme type
+
+== NOTE (1) ==
+  [intentions] 5 tete(s) dans le quartier, 0 au loin

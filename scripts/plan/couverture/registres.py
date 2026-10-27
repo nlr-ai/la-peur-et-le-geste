@@ -8,7 +8,7 @@ import re
 import bibliotheque
 
 from plan.couverture.lecture import (nu, sans_emoji, genre_de, numero_de,
-                                     RACINE)
+                                     RACINE, ETAT)
 
 # Le suffixe des tables calculees. Il vit ici parce que deriver() le pose et
 # que ecart_registres() le verifie ; ecrire.py le reprend pour les blocs.
@@ -264,7 +264,7 @@ def ecart_registres(livres=None):
     écrit dans l'index. On ne peut pas distinguer une retouche d'une divergence
     ancienne par le calcul — on peut rendre la liste visible, et c'est assez."""
     if livres is None:
-        livres = bibliotheque.charger(os.path.join(RACINE, "etat"))
+        livres = bibliotheque.charger(ETAT)
     ecarts, divergences = [], []
     sorties = deriver(livres)
     for b in livres:

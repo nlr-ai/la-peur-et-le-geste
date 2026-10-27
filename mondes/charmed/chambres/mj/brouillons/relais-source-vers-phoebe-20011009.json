@@ -1,0 +1,27 @@
+{
+  "faits": [
+    "Le déclencheur de Piper lié aux mentions de Prue a été évalué par sa propre session après le départ de Phoebe du grenier.",
+    "Piper a refusé que Prue soit présentée comme une place libre ou un trou à reboucher dans le Pouvoir des Trois, puis a quitté le grenier avant que sa colère ne tombe sur quelqu'un.",
+    "La parole est inscrite sous parole-piper-prue-n-est-pas-une-place-2001-10-09-2232 et l'acte sous acte-piper-quitte-grenier-colere-2001-10-09-2232.",
+    "L'événement indice-guet-sur-prescott est désormais explicitement armé : Tarn tient le toit au titre de l'action 1021. Il ne se réalise qu'à 7 h 30 le 10 octobre si Tarn est encore là et si le voisin peut joindre la police."
+  ],
+  "actions_en_attente": [
+    "À la reprise du camp du bien, ne pas rejouer le déclencheur de Piper : le fait hors champ est déjà inscrit. En tenir compte seulement si une source l'apprend à Phoebe ou si elle retrouve Piper.",
+    "Au passage de 7 h 30 le 10 octobre, évaluer les deux conditions de indice-guet-sur-prescott ; si elles tiennent, Darryl reçoit le signalement. La diffusion vers Phoebe reste prévue à 18 h 00 et n'est pas encore livrée.",
+    "Ne pas déclencher la carte de la Glaneuse : la Source n'a pas encore ouvert son salon. Ne pas considérer Ezra admis : ce fait n'est pas établi."
+  ],
+  "savoirs_par_joueur": {
+    "phoebe-halliwell": [
+      "Phoebe ne sait pas ce que Piper a dit après son départ du grenier.",
+      "Phoebe ne sait rien de Tarn, du futur signalement de Darryl, de la Glaneuse ni des préparatifs des Enfers."
+    ],
+    "la-source": [
+      "La Source sait que Tarn tient le toit par son affaire, mais ignore le témoin mortel et ce que Piper vient de dire au Manoir."
+    ]
+  },
+  "contraintes": [
+    "Relais de coordination seulement : garder les scènes séparées et ne pas répondre --pret ; aucune fusion de présence ni d'horloge.",
+    "Ne pousser aucune parole de Piper à Phoebe rétroactivement : Phoebe avait quitté le grenier.",
+    "Les connaissances ne voyagent que par leurs sources et délais."
+  ]
+}

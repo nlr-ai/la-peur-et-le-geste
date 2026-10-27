@@ -118,6 +118,8 @@
   </div>
 </div>
 
+<!-- le siège de CET onglet : avant tout module qui interroge le serveur. -->
+<script src="/modules/onglet.js"></script>
 <!-- le visage d'un homme : une seule main le dessine, pour la salle comme pour
      le fil. Avant bus.js et galerie.js, qui l'un et l'autre s'en servent. -->
 <script src="/modules/visage.js"></script>
@@ -129,6 +131,7 @@
 <script src="/modules/poignee.js"></script>
 <script src="/modules/attention.js"></script>
 <script src="/modules/entites.js"></script>
+<script src="/modules/fiche.js"></script>
 <script src="/modules/renvois.js"></script>
 <script src="/modules/galerie.js"></script>
 <script src="/modules/narration.js"></script>
@@ -139,10 +142,15 @@
 <script src="/modules/actions.js"></script>
 <script src="/modules/fil-homme.js"></script>
 <script src="/modules/suites.js"></script>
+<script src="/modules/statut.js"></script>
 <script src="/modules/demandes.js"></script>
 <script src="/modules/ecrits.js"></script>
 <script src="/modules/geo.js"></script>
 <script src="/modules/loupe.js"></script>
+<!-- ce que le monde dit de lui-même (window.MONDE) : AVANT blasons, jetons,
+     carte et plans, qui lisent leurs tables à l'évaluation — un fetch
+     arriverait après, et la table serait dessinée nue puis repeinte -->
+<script src="/monde.js"></script>
 <script src="/modules/blasons.js"></script>
 <script src="/modules/jetons.js"></script>
 <script src="/modules/carte.js"></script>
@@ -193,7 +201,9 @@
 <script src="/modules/reperes.js"></script>
 <script src="/modules/reglages.js"></script>
 <script src="/modules/sieges.js"></script>
+<script src="/modules/mondes.js"></script>
 <!-- la régie : ne s'arme que pour un siège `regie` (Corneille) -->
+<script src="/modules/recherche.js"></script>
 <script src="/modules/regie.js"></script>
 <script src="/modules/defilement.js"></script>
 <script src="/modules/voix.js"></script>

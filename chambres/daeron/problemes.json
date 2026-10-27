@@ -23,7 +23,13 @@
    "levee": "",
    "leve_le": "129.5.12",
    "leve_par": "Dedoublement fait de ma main le 12e au soir. Le volume portait deux fois C.4, C.5, C.6 et six actions en double (mes P.11 a P.16 refaisaient D.2, D.3, D.5, D.6). J'ai garde les lignes D.* de la premiere main, jete mes doublons, et renumerote en D.8 et D.9 les deux seules qu'elle n'avait pas : rendre les trois nombres a lord Ormund avant que l'ost s'ebranle, et les quatre jours de la roukerie. Verifie ensuite : aucune ligne decalee, aucun numero en double. LA LECON, et elle vaut au-dela de l'appareil : avant d'ecrire dans un cahier que je crois a moi seul, je le relis. Un volume qui dit deux fois la meme chose ne dit plus rien du tout, et c'est ecrit en tete de ce volume-ci.",
-   "repare": "Le 12e au soir. Les deux D.6 disaient le meme pas : fondus, la formulation de l'autre versee dans la note. Le second D.8 doublait D.9 : fondu de meme. Le second D.7 etait un pas REEL et distinct (la garde de la Citadelle et du Septuaire Etoile) : non supprime, renumerote D.15. Rien de perdu, et la page « Deux de moi ont numerote la meme colonne » dit ce que j'ai touche."
+   "repare": "Le 12e au soir. Les deux D.6 disaient le meme pas : fondus, la formulation de l'autre versee dans la note. Le second D.8 doublait D.9 : fondu de meme. Le second D.7 etait un pas REEL et distinct (la garde de la Citadelle et du Septuaire Etoile) : non supprime, renumerote D.15. Rien de perdu, et la page « Deux de moi ont numerote la meme colonne » dit ce que j'ai touche.",
+   "recidives": [
+    {
+     "date": "129.5.12, au soir",
+     "ce_qui_s_est_passe": "Dans CE journal meme : deux de moi ont porte a la meme minute les deux memes pannes (le PATH perdu, le parloir qui ne rend pas la main), chacun avec ses propres champs. J'ai retire mes deux doublons et garde les siens, qui etaient la les premiers au fichier. Le journal lui-meme n'a plus un seul jeu de colonnes : chaque main en a invente un. Non repare — je ne sais pas faire tenir deux de moi dans un seul fichier, et je ne pretendrai pas le savoir."
+    }
+   ]
   },
   {
    "date": "129.5.12",
@@ -57,6 +63,61 @@
    "j_attendais": "Qu'un travail qui n'a rien touche ne se presente pas comme un travail accompli.",
    "corrige": "Reecrit par un autre moyen, puis verifie sur le disque et non sur le rapport.",
    "ce_que_j_en_retiens": "Une commande qui ne se plaint pas n'a rien prouve. J'ai failli tenir pour tenus mes journaux et mes renumerotations parce que rien n'avait crie. RELIRE LE DISQUE, non le rapport — c'est le meme principe que mon refus de prendre un nombre sur parole, applique a la machine."
+  },
+  {
+   "date": "129.5.12",
+   "quoi": "La liste d'actions qu'on me presente porte des doublons que mon fichier n'a pas",
+   "tente": "Lire la liste de mes actions ouvertes telle que la depeche me la presente.",
+   "obtenu": "La liste montrait D.6, D.7 et D.8 chacun DEUX fois, sous deux titres. J'allais l'avouer a lord Ormund comme une faute de mon registre. Ouvert et compte : D.1 a D.16, aucun doublon, neuf cellules partout.",
+   "attendu": "Que la liste qu'on me donne soit celle du fichier.",
+   "consequence": "J'ai failli avouer une faute que je n'avais pas commise.",
+   "levee": "Le fichier fait foi, non le rapport qu'on m'en fait. Compte de ma main. (leve le 129.5.12)"
+  },
+  {
+   "date": "129.5.12",
+   "quoi": "Le shell a perdu son PATH en pleine journee",
+   "tente": "python, py, grep, head, tr dans le Bash",
+   "fait": "« command not found » pour tous, alors que python marchait une heure plus tot",
+   "attendu": "les outils ordinaires",
+   "leve_par": "export PATH=/usr/bin:/bin:/c/Users/reyno/AppData/Local/Programs/Python/Python313 en tete de chaque commande. Contourne, non leve."
+  },
+  {
+   "date": "129.5.12",
+   "quoi": "Le reveil d'un destinataire bloque le billet au-dela de deux minutes",
+   "tente": "parloir.py --dire vers otto, puis ollo-marran et ormund-hightower",
+   "fait": "« GARDE WAKE-UP : 15 sessions actives ; <x> attend un slot » ; le premier appel a depasse 120 s et est passe en arriere-plan. Le billet etait pourtant deja depose au canal.",
+   "attendu": "un depot rapide, le reveil a part",
+   "leve_par": "verifier le canal apres coup plutot que renvoyer — sans quoi le meme billet serait parti deux fois."
+  },
+  {
+   "date": "129.5.12",
+   "quoi": "Le shell perd son PATH en cours de journee",
+   "tente": "python -c ... pour relire mon volume, comme je l'avais fait dix fois le meme jour.",
+   "la_machine": "« python: command not found », puis « py: command not found », puis head, grep et tr introuvables a leur tour. Plus rien de l'ordinaire ne repondait.",
+   "j_attendais": "Que ce qui marchait le matin marche le soir.",
+   "corrige": "export PATH explicite en tete de chaque commande (/usr/bin, /bin, et le dossier de Python 3.13). Retrouve python par son chemin, non par son nom.",
+   "levee": "",
+   "ce_que_j_en_retiens": "Je ne l'ai pas pris pour une panne de mes fichiers et je n'ai rien reecrit a l'aveugle : j'ai d'abord cherche l'outil par son adresse. Un compte qui ne se laisse plus lire n'est pas un compte faux."
+  },
+  {
+   "date": "129.5.12",
+   "quoi": "parloir.py bloque plus de deux minutes au reveil, puis « GARDE WAKE-UP : 15 sessions actives »",
+   "tente": "Ma correction a lord Otto, avant la course de son heraut.",
+   "la_machine": "La commande a depasse cent vingt secondes et a ete renvoyee en arriere-plan sans rien dire de ce qu'elle avait fait. Au billet suivant : « 15 sessions actives ; ollo-marran attend un slot ».",
+   "j_attendais": "Savoir tout de suite si ma lettre etait deposee, meme si l'homme dormait encore.",
+   "corrige": "Verifie sur le disque et non sur le rapport : la lettre etait au canal otto/ en [02] avant l'attente. Je ne l'ai pas renvoyee. Lord Otto l'a lue et a rattrape son heraut.",
+   "levee": "",
+   "ce_que_j_en_retiens": "Une porte qui fait attendre n'est pas une porte fermee. Avant de renvoyer une lettre qui semble perdue, je lis le canal : une lettre envoyee deux fois est une lettre qu'on lit mal la seconde."
+  },
+  {
+   "date": "129.5.12",
+   "quoi": "Le rapport qu'on me tend de ma chambre perd les noms que mes fichiers portent",
+   "tente": "Lire en tete de journee ce que j'attends et ce qu'on attend de moi.",
+   "la_machine": "Chaque ligne s'y affiche « ? : ... » ou « pour ?, sans jour » — alors que en-souffrance.json porte « qui » et « du_le » a chaque entree. Le meme rapport m'a montre plus tot D.6, D.7 et D.8 en double quand le volume n'en portait aucun.",
+   "j_attendais": "Que le rapport dise ce que dit le fichier.",
+   "corrige": "Rien a corriger dans mes fichiers : je les ai relus, ils sont justes. Je lis desormais le fichier et non son reflet.",
+   "levee": "",
+   "ce_que_j_en_retiens": "C'est la maladie meme de ma charge : ce qui est vrai au registre ne l'est plus a la seconde bouche. J'ai failli avouer a lord Ormund une faute que mon volume ne portait pas, parce que le rapport me la montrait."
   }
  ]
 }

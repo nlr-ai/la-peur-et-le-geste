@@ -21,9 +21,8 @@
 // onglets qui mentent.
 const fs = require("fs");
 const path = require("path");
-const { RACINE } = require("../contexte");
-
-const CHAMBRES = path.join(RACINE, "chambres");
+const { ETAT, CHAMBRES } = require("../contexte");
+const { roster: rosterSieges } = require("../siege");
 
 // Les chambres natives portent directement l'id du personnage. Les chambres
 // importees de Serenissima gardent, elles, leur nom source (souvent avec des
@@ -74,7 +73,7 @@ function lireJson(p, defaut) {
 // Le nom d'un habitant : sa fiche s'il en a une ; le MJ n'a pas de fiche.
 function carteDesNoms() {
   const noms = {};
-  const liste = lireJson(path.join(RACINE, "etat", "personnages.json"), []);
+  const liste = lireJson(path.join(ETAT, "personnages.json"), []);
   (Array.isArray(liste) ? liste : []).forEach((p) => {
     if (p && p.id) noms[p.id] = p.nom || p.id;
   });
@@ -147,11 +146,11 @@ function depuisDit(d, aujourdhui) {
 // Le jour du monde : l'horloge de l'habitant s'il en tient une, celle du
 // siège principal à défaut — le MJ n'a pas d'horloge.
 function jourDuMonde(h) {
-  const horloges = lireJson(path.join(RACINE, "etat", "horloges.json"), {});
+  const horloges = lireJson(path.join(ETAT, "horloges.json"), {});
   if (horloges[h]) return jourAbs(horloges[h]);
-  const roster = lireJson(path.join(RACINE, "etat", "joueurs.json"), []);
-  const principal = (Array.isArray(roster) ? roster : [])
-    .find((s) => s.role === "principal");
+  // Par le lecteur du roster : lu à plat, un monde dont aucun siège n'écrit
+  // `role` n'avait pas de principal et ce jour de référence tombait à `null`.
+  const principal = (rosterSieges() || []).find((s) => s.role === "principal");
   return principal ? jourAbs(horloges[principal.personnage_id]) : null;
 }
 
@@ -350,14 +349,14 @@ function coffretsChambre(siege, moi) {
     });
     return tout;
   }
-  // Tout autre siège — incarné hors roster, PJ du roster, mono-joueur — ne
-  // voit que SA chambre, s'il en a une qui porte quelque chose.
-  const dossier = indexDesChambres().get(moi);
-  if (!dossier) return vide;
-  try {
-    if (!fs.statSync(dossier).isDirectory()) return vide;
-  } catch (e) { return vide; }
-  return coffretsDe(moi, moi, noms, dossier);
+  // Tout autre siège ne voit que SA chambre — et les cahiers de toutes, s'il porte `voit_affaires`.
+  const chambres = indexDesChambres(), dossier = chambres.get(moi);
+  let sienne = vide;
+  try { if (dossier && fs.statSync(dossier).isDirectory()) sienne = coffretsDe(moi, moi, noms, dossier); }
+  catch (e) {}
+  if (!(siege && siege.voit_affaires)) return sienne;
+  return require("./affaires-chambres").ajouter(sienne, moi, Array.from(chambres.keys()),
+    (h) => coffretsDe(h, moi, noms, chambres.get(h)), (h) => nomDe(noms, h));
 }
 
 module.exports = { coffretsChambre };

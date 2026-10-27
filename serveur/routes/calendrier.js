@@ -1,7 +1,7 @@
 // GET /calendrier — les bandes, les jours et les notes d'agenda d'un siège.
 const fs = require("fs");
 const path = require("path");
-const { RACINE, dateDe, lireCroyance } = require("../http");
+const { ETAT, dateDe, lireCroyance } = require("../http");
 const { envoyer } = require("../http");
 const { qui } = require("../http");
 
@@ -12,12 +12,12 @@ function traiter(req, res, url) {
         const siege = qui(req, url);
         const aujourdhui = dateDe(siege);
         const moi = (siege && siege.personnage_id) ||
-          (() => { try { return JSON.parse(fs.readFileSync(path.join(RACINE, "etat", "journal.json"), "utf-8")).personnage_joueur_id; } catch (e) { return null; } })();
+          (() => { try { return JSON.parse(fs.readFileSync(path.join(ETAT, "journal.json"), "utf-8")).personnage_joueur_id; } catch (e) { return null; } })();
         const p = new URLSearchParams(req.url.split("?")[1] || "");
         const devant = Math.min(30, Math.max(1, parseInt(p.get("jours"), 10) || 8));
         const derriere = 1; // la veille : ce qu'on a manqué se voit encore
         const lire = (f, d) => {
-          try { return JSON.parse(fs.readFileSync(path.join(RACINE, "etat", f), "utf-8")); }
+          try { return JSON.parse(fs.readFileSync(path.join(ETAT, f), "utf-8")); }
           catch (e) { return d; }
         };
         const jour = (d) => d ? ((d.annee || 0) * 12 + ((d.lune || 1) - 1)) * 30 + (d.jour || 0) : null;

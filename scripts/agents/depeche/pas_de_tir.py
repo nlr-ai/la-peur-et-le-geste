@@ -10,7 +10,7 @@ import os
 
 from etat.expose import tables
 
-from agents.depeche.brief import RACINE
+from agents.depeche.brief import ETAT
 
 
 def poser_la_memoire(neutre, qui, contexte=None):
@@ -32,7 +32,7 @@ def poser_la_memoire(neutre, qui, contexte=None):
     # le pointeur mort qu'on cherche a eviter. A defaut, on relit la tete.
     intention = (contexte or {}).get("intention")
     if not intention:
-        tetes = tables.lire(os.path.join(RACINE, "etat", "intentions.json"), [])
+        tetes = tables.lire(os.path.join(ETAT, "intentions.json"), [])
         if isinstance(tetes, dict):
             tetes = tetes.get("intentions") or []
         intention = next((t for t in tetes
@@ -41,7 +41,7 @@ def poser_la_memoire(neutre, qui, contexte=None):
 
     croyances = [str(x) for x in (intention.get("croyances") or []) if x]
     if croyances:
-        with io.open(os.path.join(dossier, "ce-que-je-tiens-pour-vrai.txt"),
+        with io.open(os.path.join(dossier, "croyances-etat.txt"),
                      "w", encoding="utf-8", newline=chr(10)) as f:
             f.write("CE QUE JE TIENS POUR VRAI" + chr(10))
             f.write("La derniere en tete. Rien ici n'est prouve : c'est ce que"
@@ -49,10 +49,12 @@ def poser_la_memoire(neutre, qui, contexte=None):
                     + chr(10) * 2)
             for x in croyances:
                 f.write("- " + x + chr(10) * 2)
+        _initialiser_personnel(dossier, "croyances-etat.txt",
+                              "ce-que-je-tiens-pour-vrai.txt")
 
     pensees = [p for p in _pensees_de(qui)]
     if pensees:
-        with io.open(os.path.join(dossier, "ce-que-jai-appris.txt"), "w",
+        with io.open(os.path.join(dossier, "pensees-etat.txt"), "w",
                      encoding="utf-8", newline=chr(10)) as f:
             f.write("CE QUE J'AI APPRIS" + chr(10))
             f.write("Mes pensees datees, la plus recente en tete." + chr(10) * 2)
@@ -64,12 +66,25 @@ def poser_la_memoire(neutre, qui, contexte=None):
                 if x.get("source"):
                     f.write(chr(10) + "   (source : %s)" % x["source"])
                 f.write(chr(10) * 2)
+        _initialiser_personnel(dossier, "pensees-etat.txt", "ce-que-jai-appris.txt")
     return {"croyances": len(croyances), "pensees": len(pensees)}
+
+
+def _initialiser_personnel(dossier, source, cible):
+    """Amorce une mémoire neuve ; les réveils suivants préservent son auteur."""
+    with io.open(os.path.join(dossier, source), encoding="utf-8") as f:
+        contenu = f.read()
+    try:
+        with io.open(os.path.join(dossier, cible), "x", encoding="utf-8",
+                     newline=chr(10)) as f:
+            f.write(contenu)
+    except FileExistsError:
+        pass
 
 
 def _pensees_de(qui):
     """Ses pensees, la plus recente en tete. Lecture par la porte."""
-    d = tables.lire(os.path.join(RACINE, "etat", "pensees.json"), [])
+    d = tables.lire(os.path.join(ETAT, "pensees.json"), [])
     if isinstance(d, dict):
         d = d.get("pensees") or []
     siennes = [p for p in d if isinstance(p, dict) and p.get("qui") == qui]

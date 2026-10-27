@@ -1,0 +1,136 @@
+{
+  "source": "C:\\Users\\reyno\\Modern Front\\content\\map\\map.json",
+  "sha256": "52c2c3f3bcde35e5f6499d426db2805cf4ea45eecb64295eae62499307ced6f3",
+  "lieux": [
+    {
+      "id": "hotel-voyageurs",
+      "source_site_id": 49,
+      "source_nom": "Hôtel-café des Voyageurs, Niort",
+      "source_reference": "special/mailbox/2",
+      "source_position": {
+        "x": 862.1,
+        "y": 219.3
+      },
+      "statut_source": "Lieu généré par Modern Front",
+      "statut_jeu": "canonique",
+      "interieur": "Création de fiction, non-relevé historique"
+    },
+    {
+      "id": "imprimerie-progres",
+      "source_site_id": 68,
+      "source_nom": "Imprimerie du Progrès, Niort",
+      "source_reference": "special/print_shop/0",
+      "source_position": {
+        "x": 828.7,
+        "y": 297.2
+      },
+      "statut_source": "Lieu généré par Modern Front",
+      "statut_jeu": "canonique",
+      "interieur": "Création de fiction, non-relevé historique"
+    },
+    {
+      "id": "gare-niort",
+      "source_site_id": 22,
+      "source_nom": "Niort",
+      "source_reference": "node/4975045143",
+      "source_position": {
+        "x": 926.5,
+        "y": 305.6
+      },
+      "statut_source": "Fond cartographique moderne de Modern Front",
+      "statut_jeu": "canonique",
+      "interieur": "Création de fiction, non-relevé historique"
+    },
+    {
+      "id": "atelier-photographie",
+      "source_site_id": 71,
+      "source_nom": "Atelier de photographie, Niort",
+      "source_reference": "special/forger_workshop/1",
+      "source_position": {
+        "x": 873.6,
+        "y": 327.7
+      },
+      "statut_source": "Lieu généré par Modern Front",
+      "statut_jeu": "canonique",
+      "interieur": "Création de fiction, non-relevé historique"
+    },
+    {
+      "id": "ferme-coulon",
+      "source_site_id": 169,
+      "source_nom": "Ferme de Coulon",
+      "source_reference": "way/142183194",
+      "source_position": {
+        "x": 346.4,
+        "y": 274.8
+      },
+      "statut_source": "Fond cartographique moderne de Modern Front",
+      "statut_jeu": "canonique",
+      "interieur": "Création de fiction, non-relevé historique"
+    },
+    {
+      "id": "hotel-breche",
+      "source_site_id": 65,
+      "source_nom": "Hôtel de la Brèche (première Kommandantur, puis logement d'officiers)",
+      "source_reference": "historic/niort_hotel_breche",
+      "source_position": {
+        "x": 905.2,
+        "y": 272.9
+      },
+      "statut_source": "Dossier historique de Modern Front",
+      "statut_jeu": "canonique",
+      "interieur": "Création de fiction, non-relevé historique"
+    },
+    {
+      "id": "papeterie-centre",
+      "source_site_id": 50,
+      "source_nom": "Papeterie du Centre, Niort",
+      "source_reference": "special/forger_workshop/0",
+      "source_position": {
+        "x": 838.7,
+        "y": 227.8
+      },
+      "statut_source": "Lieu généré par Modern Front",
+      "statut_jeu": "canonique",
+      "interieur": "Création de fiction, non-relevé historique"
+    },
+    {
+      "id": "prefecture",
+      "source_site_id": 0,
+      "source_nom": "Préfecture (secrétariat général)",
+      "source_reference": "way/249936863",
+      "source_position": {
+        "x": 866.7,
+        "y": 261.2
+      },
+      "statut_source": "Dossier historique de Modern Front",
+      "statut_jeu": "canonique",
+      "interieur": "Création de fiction, non-relevé historique"
+    },
+    {
+      "id": "cafe-commerce-coulon",
+      "source_site_id": 171,
+      "source_nom": "Café du Commerce, Coulon",
+      "source_reference": "special/mailbox/15",
+      "source_position": {
+        "x": 242.3,
+        "y": 264.2
+      },
+      "statut_source": "Lieu généré par Modern Front",
+      "statut_jeu": "canonique",
+      "interieur": "Création de fiction, non-relevé historique"
+    },
+    {
+      "id": "maison-arret",
+      "source_site_id": 4,
+      "source_nom": "Maison d'arrêt de Niort",
+      "source_reference": "way/677659721",
+      "source_position": {
+        "x": 864.9,
+        "y": 265.7
+      },
+      "statut_source": "Dossier historique de Modern Front",
+      "statut_jeu": "canonique",
+      "interieur": "Création de fiction, non-relevé historique"
+    }
+  ]
+}

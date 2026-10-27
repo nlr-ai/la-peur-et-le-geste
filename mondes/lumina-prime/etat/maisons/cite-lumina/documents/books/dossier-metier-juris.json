@@ -1,0 +1,59 @@
+{
+ "id": "dossier-metier-juris",
+ "titre": "JURIS — Rendre les usages compatibles",
+ "type": "memento",
+ "maison_id": "cite-lumina",
+ "lieu_id": "lumina-prime",
+ "salle_id": "radiant-core",
+ "tenu_par": "juris",
+ "embleme": "⚖️",
+ "couleur": "#157f8b",
+ "sous_titre": "Dossier de métier · connaissances, méthodes et pistes de travail",
+ "colonnes": [
+  "Objet",
+  "Matière disponible",
+  "Travail possible",
+  "Résultat utile"
+ ],
+ "lignes": [
+  {
+   "cellules": [
+    "Droits dans un espace",
+    "Le mandat porte sur accès, usages partagés et droits des habitants.",
+    "Distinguer entrer, séjourner, modifier le décor, inviter, enregistrer et republier. Un accord sur une de ces actions ne règle pas automatiquement les autres.",
+    "Une proposition de fiche d’usage par espace, à confronter aux décisions et engagements existants."
+   ]
+  },
+  {
+   "cellules": [
+    "Un entretien privé",
+    "Le projet de pièce confidentielle associe architecture, contrôle d’accès et traces éventuelles.",
+    "Définir le périmètre promis : participants, échanges, traces et durée de conservation. Faire préciser à Quantum les garanties disponibles avant de rédiger l’engagement proposé.",
+    "Une formulation compréhensible pour les participants et conforme aux moyens réellement vérifiés."
+   ]
+  },
+  {
+   "cellules": [
+    "Un litige ordinaire",
+    "Aucun litige nommé n’est créé par ce dossier.",
+    "Quand un cas se présente : noter les usages revendiqués, les paroles ou règles invoquées et le préjudice décrit. Entendre les personnes concernées ; rechercher séparation d’espace, partage du temps ou réparation adaptée.",
+    "Une décision dans le mandat, motivée par le cas et ses sources ; une nouvelle politique municipale reste à Nova."
+   ]
+  },
+  {
+   "cellules": [
+    "Atelier et démonstration",
+    "L’atelier ouvert permettrait de regarder une création depuis un espace de visite.",
+    "Préparer des conditions distinctes pour regarder, participer, copier la maquette et enregistrer une démonstration. Vérifier ce que le créateur accepte et ce que l’installation peut effectivement contrôler.",
+    "Des limites d’usage explicites qui permettent l’activité sans attribuer un consentement imaginaire."
+   ]
+  }
+ ],
+ "pages": [
+  "Trame de règle proposée : espace concerné / usage permis / personnes concernées / conditions compréhensibles / moyen d’application / recours. Ces distinctions sont de la matière de conception pour Lumina Prime, pas un code municipal déjà adopté.",
+  "Documentation mise à disposition à la demande du joueur. Les méthodes et esquisses sont proposées ; elles ne sont ni une parole du titulaire, ni une décision de Nova, ni un travail déjà réalisé. Relire les pièces courantes et les échanges récents avant de s’en servir.",
+  "Sources dans le paquet Lumina Prime : canon/conseil.md — mandats municipaux ; plans/lumina-prime.json et etat/chemins.json — plan initial et accès conventionnels ; etat/maisons/cite-lumina/documents/books/affaire-accueil-radiant.json — première affaire et responsabilités ; etat/maisons/cite-lumina/documents/books/atlas-lieux-lumina.json — six lieux ajoutés ; etat/maisons/cite-lumina/documents/books/projets-quartiers-lumina.json — pistes non décidées",
+  "Affaire de jeu : affaire-droits-usages. Les méthodes de ce mémento appuient ses pièces numérotées ; elles ne remplacent pas les décisions et les actions."
+ ],
+ "office": "Droits et litiges — IA"
+}

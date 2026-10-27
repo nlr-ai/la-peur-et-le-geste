@@ -11,7 +11,8 @@
  "salle_id": "braavos-table-peinte",
  "pages": [
   "COUCHE HAUTE SEULEMENT. Cette affaire ne dessine pas encore les quartiers et ne lance aucun chantier. Elle doit rendre les premiers choix de ville discutables, comparables et vérifiables avant que la matière soit engagée.",
-  "La ville visée est celle où les habitants pourront vivre, créer et échanger. Sa forme doit partir de leurs besoins réels, de la géographie disponible et des capacités effectivement mobilisables."
+  "La ville visée est celle où les habitants pourront vivre, créer et échanger. Sa forme doit partir de leurs besoins réels, de la géographie disponible et des capacités effectivement mobilisables.",
+  "LISTE DE TRAVAIL AJOUTÉE À LA DEMANDE DU JOUEUR. Les bâtiments et aménagements proposés déclinent les trois objectifs urbains. Le relevé de l'existant et des besoins (53100) doit établir lesquels construire, réparer, réaffecter ou mutualiser. Pour chaque intervention retenue, 53120 doit fixer emplacement, capacité, matière, porteur volontaire, dépendances et condition d'arrêt. Cette liste ne constate aucun chantier commencé et n'attribue aucune décision à un habitant."
  ],
  "tables": [
   {
@@ -321,6 +322,162 @@
       "Artisans, artistes, maîtres, apprentis, marchands et habitants qui ont besoin de leurs biens, savoirs ou œuvres.",
       "Des espaces identifiables accueillent au moins un cycle complet observé — apport de matière ou de savoir, travail ou apprentissage, puis remise, exposition ou échange — et les conflits d'usage ainsi révélés sont consignés.",
       "Il dépend des deux premiers rangs : les personnes, matières et produits doivent circuler, et les mains qui créent doivent d'abord pouvoir demeurer et se soigner."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🏗️ Bâtiments et aménagements proposés",
+   "colonnes": [
+    "Priorité",
+    "Bâtiment ou aménagement",
+    "Usage visé",
+    "Vérification préalable",
+    "État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "1",
+      "Rues et chemins praticables",
+      "Relier les lieux habités et les services communs.",
+      "Relever les parcours existants et leurs ruptures.",
+      "Commencé — relevé documentaire : 161 tronçons connectés entre eux ; accès aux bâtiments et transport de biens à vérifier. Relevé : etat/maisons/maison-serenissima/documents/releve-rues-braavos-2026-09-10.md. Aucun chantier physique déclaré."
+     ]
+    },
+    {
+     "cellules": [
+      "1",
+      "Ponts ou passerelles",
+      "Franchir les coupures sur les parcours utiles.",
+      "Confirmer un franchissement nécessaire et sa faisabilité.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
+     ]
+    },
+    {
+     "cellules": [
+      "1",
+      "Quais de desserte",
+      "Faire arriver personnes et approvisionnements par eau.",
+      "Vérifier les quais existants, les accès et les usages réels.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
+     ]
+    },
+    {
+     "cellules": [
+      "1",
+      "Place de marché",
+      "Permettre les échanges quotidiens.",
+      "Identifier les échanges existants et un espace accessible.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
+     ]
+    },
+    {
+     "cellules": [
+      "1",
+      "Entrepôt commun",
+      "Abriter et distribuer les biens.",
+      "Établir les biens, volumes et conditions de stockage nécessaires.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
+     ]
+    },
+    {
+     "cellules": [
+      "2",
+      "Logements",
+      "Permettre aux habitants de demeurer sur place.",
+      "Recenser les habitants sans logement et les places disponibles.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
+     ]
+    },
+    {
+     "cellules": [
+      "2",
+      "Maison d’accueil",
+      "Héberger temporairement les nouveaux arrivants.",
+      "Mesurer le besoin temporaire et les capacités existantes.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
+     ]
+    },
+    {
+     "cellules": [
+      "2",
+      "Cuisine et réfectoire communs",
+      "Préparer et prendre les repas.",
+      "Vérifier eau, approvisionnement, combustible et capacité utile.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
+     ]
+    },
+    {
+     "cellules": [
+      "2",
+      "Bains et latrines",
+      "Permettre la toilette et les besoins sanitaires.",
+      "Vérifier alimentation en eau et évacuation avant implantation.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
+     ]
+    },
+    {
+     "cellules": [
+      "2",
+      "Infirmerie",
+      "Recevoir les premiers soins.",
+      "Identifier les besoins, les soignants disponibles et un lieu adapté.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
+     ]
+    },
+    {
+     "cellules": [
+      "2",
+      "Salle commune",
+      "Se réunir près des lieux de vie.",
+      "Vérifier si un espace existant peut remplir cet usage.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
+     ]
+    },
+    {
+     "cellules": [
+      "3",
+      "Ateliers partagés",
+      "Fabriquer et travailler avec des équipements communs.",
+      "Recenser métiers, outils et contraintes de voisinage.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
+     ]
+    },
+    {
+     "cellules": [
+      "3",
+      "Salles d’apprentissage",
+      "Transmettre et apprendre les savoirs.",
+      "Identifier les usages, les personnes intéressées et les espaces partageables.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
+     ]
+    },
+    {
+     "cellules": [
+      "3",
+      "Bibliothèque",
+      "Conserver et consulter les ouvrages.",
+      "Recenser les collections accessibles et leurs conditions de conservation.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
+     ]
+    },
+    {
+     "cellules": [
+      "3",
+      "Lieu de création et d’exposition",
+      "Créer et présenter les œuvres.",
+      "Identifier les pratiques et les besoins réels des créateurs.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
+     ]
+    },
+    {
+     "cellules": [
+      "3",
+      "Hall de vente des ouvrages",
+      "Échanger les productions locales.",
+      "Vérifier le besoin distinct de la place de marché et les mutualisations possibles.",
+      "Proposé — existant à relever ; construire, réparer ou réaffecter à déterminer."
      ]
     }
    ]

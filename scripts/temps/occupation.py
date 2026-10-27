@@ -80,8 +80,20 @@ import time
 
 from etat.expose import tables  # LA PORTE de etat/ : une lecture, une ecriture, une semantique d'erreur
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ETAT = os.path.join(RACINE, "etat")
+import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
+_d = _os.path.dirname(_os.path.abspath(__file__))
+while _os.path.basename(_d) != "scripts" and _os.path.dirname(_d) != _d:
+    _d = _os.path.dirname(_d)
+for _p in (_d, _os.path.join(_d, "noyau")):
+    if _p not in _sys.path:
+        _sys.path.insert(0, _p)
+
+import racines
+# `RACINE` reste exposee, et c'est la racine du DEPOT : retirer un nom que
+# le module publiait casse ses importeurs a l'autre bout d'un cycle.
+# Seul `ETAT` suit le monde.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 
 
 # --------------------------------------------------------------------------

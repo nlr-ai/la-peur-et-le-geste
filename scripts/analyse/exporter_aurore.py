@@ -22,7 +22,13 @@ for _p in (_d, _os.path.join(_d, "noyau")):
 from plan.expose import bibliotheque  # LA PORTE de plan/
 from etat.expose import tables  # LA PORTE de etat/
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import racines
+
+# `RACINE` reste le DEPOT : `export/`, `docs/`, `musiques/` et `analyse/`
+# sont a lui. Les chemins de ce script sont donnes relatifs au depot, sauf
+# `etat/...` qui appartient au monde — c'est `_chemin` qui fait le partage.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 SORTIE = os.path.join(RACINE, "export")
 ID = "aurore-inchauspe"
 MOTS = re.compile(r"aurore|inchausp", re.I)
@@ -31,18 +37,24 @@ os.makedirs(SORTIE, exist_ok=True)
 _ecrits = []
 
 
+def _chemin(rel):
+    """Un chemin relatif du depot — sauf `etat/...`, qui suit le monde."""
+    return (os.path.join(ETAT, rel[5:]) if rel.startswith("etat/")
+            else os.path.join(RACINE, rel))
+
+
 def lire(rel):
     # Un fichier vide ou tronque — l'inbox en porte trois de zero octet — ne
     # doit pas faire tomber tout l'export. On rend ce qu'on peut lire : c'est
     # le seul endroit ou l'on rattrape TableAbimee, et c'est un export.
     try:
-        return tables.lire(os.path.join(RACINE, rel), None)
+        return tables.lire(_chemin(rel), None)
     except tables.TableAbimee:
         return None
 
 
 def lignes_jsonl(rel):
-    p = os.path.join(RACINE, rel)
+    p = _chemin(rel)
     if not os.path.exists(p):
         return []
     out = []
@@ -115,8 +127,8 @@ ecrire("02-siege.txt", "AURORE — le siège", [
     ("Ses réglages de narrateur", bloc(lire("etat/joueurs/%s/reglages.json" % ID))),
     ("Tête archivée en s'asseyant (etat/archive/tetes/)", "\n\n".join(
         "# " + n + "\n" + bloc(lire("etat/archive/tetes/" + n))
-        for n in sorted(os.listdir(os.path.join(RACINE, "etat/archive/tetes")))
-        if ID in n) if os.path.isdir(os.path.join(RACINE, "etat/archive/tetes")) else ""),
+        for n in sorted(os.listdir(os.path.join(ETAT, "archive/tetes")))
+        if ID in n) if os.path.isdir(os.path.join(ETAT, "archive/tetes")) else ""),
     ("Entrée dans intentions.json (doit être absente : siège occupé)", "\n".join(
         bloc(i) for i in (lire("etat/intentions.json") or [])
         if i.get("personnage_id") == ID) or "(absente — conforme)"),
@@ -217,9 +229,9 @@ if isinstance(travaux, dict):
 else:
     sien = [t for t in travaux if t.get("qui") == ID or touche(t)]
 journees = [(n, o) for n, o in lignes_jsonl("etat/journees.jsonl") if touche(o)]
-arch = os.path.join(RACINE, "etat/archive/journees")
+arch = os.path.join(ETAT, "archive/journees")
 arch_f = sorted(n for n in os.listdir(arch) if ID in n) if os.path.isdir(arch) else []
-stag = os.path.join(RACINE, "etat/rapports")
+stag = os.path.join(ETAT, "rapports")
 stag_f = sorted(n for n in os.listdir(stag) if ID in n) if os.path.isdir(stag) else []
 ecrire("09-journees-et-pensees.txt", "AURORE — ses journées de travail", [
     ("Ses affaires dans etat/travaux.json (%d)" % len(sien),
@@ -241,14 +253,14 @@ ecrire("10-ce-quelle-croit.txt", "AURORE — sa table de guerre et ses vues", [
 
 # ---------------------------------------------------------- 11 notes de régie
 def fichier_texte(rel):
-    p = os.path.join(RACINE, rel)
+    p = _chemin(rel)
     if not os.path.exists(p):
         return ""
     with open(p, encoding="utf-8", errors="replace") as f:
         return f.read()
 
 
-veille_dir = os.path.join(RACINE, "etat/veille")
+veille_dir = os.path.join(ETAT, "veille")
 notes_veille = []
 if os.path.isdir(veille_dir):
     for n in sorted(os.listdir(veille_dir)):
@@ -317,7 +329,7 @@ DEJA = {"etat/personnages.json", "etat/paroles.json", "etat/actes.json",
         "etat/joueurs.json", "etat/journees.jsonl", "etat/travaux.json",
         "etat/liens.json", "etat/horloges.json"}
 ailleurs = []
-for nom in sorted(os.listdir(os.path.join(RACINE, "etat"))):
+for nom in sorted(os.listdir(ETAT)):
     rel = "etat/" + nom
     if not nom.endswith(".json") or rel in DEJA:
         continue
@@ -356,17 +368,18 @@ ecrire("13-mentions-ailleurs.txt", "AURORE — mentions dans le reste de l'état
 ])
 
 # ------------------------------------------------------------- 14 l'inbox
-inbox = os.path.join(RACINE, "etat/inbox", ID)
+inbox = os.path.join(ETAT, "inbox", ID)
 actions = []
 if os.path.isdir(inbox):
     for n in sorted(os.listdir(inbox)):
         actions.append("##### " + n + "\n" + bloc(lire("etat/inbox/%s/%s" % (ID, n))))
 parloir = []
-pdir = os.path.join(RACINE, "etat/parloir")
+pdir = os.path.join(ETAT, "parloir")
 if os.path.isdir(pdir):
     for base, _d, fics in os.walk(pdir):
         for n in sorted(fics):
-            rel = os.path.relpath(os.path.join(base, n), RACINE).replace("\\", "/")
+            rel = "etat/parloir/" + os.path.relpath(
+                os.path.join(base, n), pdir).replace("\\", "/")
             c = fichier_texte(rel)
             if MOTS.search(c) or MOTS.search(n):
                 parloir.append("##### " + rel + "\n" + c.rstrip())

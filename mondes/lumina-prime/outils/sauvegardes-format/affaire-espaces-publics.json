@@ -1,0 +1,526 @@
+{
+  "maison_id": "cite-lumina",
+  "lieu_id": "lumina-prime",
+  "salle_id": "radiant-core",
+  "id": "affaire-espaces-publics",
+  "titre": "Des espaces publics tenus et libres",
+  "type": "plan",
+  "sous_titre": "Affaire de l’entretien · ouverte par Gaia au conseil · J1, 2042, 9h · mise au standard des champs à 9h42",
+  "tenu_par": "gaia",
+  "office": "Espaces publics et entretien",
+  "pages": [
+    "Les jardins, places et parcours de Lumina Prime relèvent de l’entretien (O04). Les livres de la cité nomment comme décor établi le jardin intérieur, le parvis, le Quai commun et le Jardin calme (Data Gardens) ; ils nomment aussi des jardins sauvages, que je n’ai pas encore situés. Les tracés de l’atlas sont schématiques. Aucun état d’entretien, aucune fréquentation, aucun moyen n’est noté. Aucune zone d’expérimentation libre n’est désignée.",
+    "**Ce que je décide seule, dans mon mandat :** la tournée, la manière de relever les usages, l’instruction du tronçon Quai commun → Data Gardens, l’entretien au jour le jour des espaces existants. **À décider par Nova :** réaliser ou non la promenade continue, désigner une zone d’expérimentation libre et ses limites, affecter des moyens à l’entretien.",
+    "Les capacités, budgets et effectifs de l’entretien ne sont pas recensés. Le coût en calcul du maintien du décor est inconnu. Suivre les usages ne doit pas devenir surveiller les habitants : la méthode passe devant JURIS avant le premier relevé.",
+    "Grille de tournée, pour chaque espace : peut-on entrer, se repérer, traverser, rester, se retirer, puis sortir ? Les usages observés et les usages souhaités sont notés séparément. Aucun défaut n’est écrit sans constat.",
+    "Ce qui n’est pas de ma main et que je renvoie : les cotes et plans des lieux (DEV, 30302) ; une panne technique vue en tournée va au registre des pannes de Quantum (40304), je ne la répare pas ; la règle d’accès des lieux partagés est dressée par JURIS avec O04 (70305) ; le prêt d’un lieu à un collectif est à PITCH selon la règle accordée par Nova (60201) ; les décisions de Nova se suivent chez Aria (20303, 20308). Je renvoie, je ne recopie pas.",
+    "Mise au standard des champs (livre « Le standard des champs d’une affaire », posé par Nova à 9h42) : chaque état porte sa valence, chaque verrou dit avec « doit » ce qui manque, chaque clef commence par un verbe, chaque relation est une adresse, chaque action dit son statut. Le standard nomme « proposée, prise, en cours, faite » ; les registres de la maison n’acceptent que « à faire, en cours, bloquée, faite, close, abandonnée » : mes actions sont engagées, et s’écrivent donc « à faire ». Aucun moyen de la cité n’a encore d’adresse : la colonne des moyens reste vide plutôt que d’en inventer. Les tables calculées ne sont pas écrites à la main.",
+    "**Terminé quand :** chaque espace public connu figure dans un relevé d’entretien daté, un parcours entre deux espaces publics a été réellement essayé, une zone d’expérimentation libre existe avec des limites écrites, et les usages sont suivis selon une méthode relue par JURIS."
+  ],
+  "tables": [
+    {
+      "titre": "🏰 Ouverture de l’Affaire",
+      "colonnes": [
+        "🧱 Le champ",
+        "✍️ Ce qu’on y écrit",
+        "✅ Rempli ?"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "🏷️ **LE NOM**",
+            "Des espaces publics tenus et libres",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🎯 **L’OBJET**",
+            "Connaître, entretenir et relier les jardins, places et parcours de la cité ; suivre leurs usages sans identifier personne ; conserver une place à l’expérimentation libre.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🧱 **LE PÉRIMÈTRE — DANS**",
+            "Les espaces publics du décor établi (jardin intérieur, parvis, Quai commun, Jardin calme), les jardins sauvages une fois situés, les parcours qui les relient, le relevé de leurs usages.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🚫 **LE PÉRIMÈTRE — HORS**",
+            "Les plans et chantiers (DEV, 30001–30304), les règles d’accès et les droits (JURIS, 70001–70305), les capacités et la captation (Quantum, 40001–40305), le prêt des lieux aux collectifs (PITCH, 60201).",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "📌 **L’ÉTAT ACTUEL**",
+            "Quatre espaces du décor établi nommés par les livres, jamais relevés. Aucune mesure d’usage, aucune zone d’expérimentation libre désignée, aucun moyen recensé.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🔢 **LA PLAGE**",
+            "**50000 à 50999**, réservée à l’entretien dans Lumina Prime. En usage : 50000–50004, 50101–50105, 50201–50206, 50301–50307.",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "💡 **LA CONCLUSION**",
+            "",
+            "non — rien n’est encore relevé"
+          ]
+        },
+        {
+          "cellules": [
+            "🔚 **FERMÉE QUAND**",
+            "Les quatre états 50001 à 50004 sont prouvés sur place.",
+            "**oui**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔗 Affaires liées — les liens écrits",
+      "colonnes": [
+        "🪢 Le lien",
+        "🔗 L’affaire",
+        "🔢 Notre pièce",
+        "🔢 La leur",
+        "📝 Pourquoi"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "partage",
+            "Les plans de Lumina Prime",
+            "50301",
+            "30302",
+            "DEV relève les lieux de l’atlas, dont le Quai commun et le Jardin calme ; ma tournée y note l’état et les usages. Un seul passage, deux relevés qui se complètent."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Les plans de Lumina Prime",
+            "50202",
+            "30204",
+            "Fixer l’usage avant le plan : le tronçon s’instruit par ses usages avant d’être dessiné."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Des droits lisibles pour les habitants",
+            "50204",
+            "70202",
+            "La règle d’accès de chaque lieu s’écrit avec l’office qui le tient : pour les espaces publics, c’est O04. La méthode d’observation passe devant JURIS."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Des droits lisibles pour les habitants",
+            "50203",
+            "70202",
+            "Une zone libre a besoin d’une règle d’accès écrite et de limites connues."
+          ]
+        },
+        {
+          "cellules": [
+            "attend",
+            "Ce qui tient la ville : chambres, calcul, réseau",
+            "50205",
+            "40302",
+            "Le coût du maintien du décor ne se déduit pas : il sort de la mesure du calcul et du stockage."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "Qui vient, et où le mettre",
+            "50203",
+            "60201",
+            "Le prêt accordé à PITCH (temporaire, réversible, non exclusif) n’est pas une zone libre sans autorisation préalable : les deux se règlent entre nous avant le J3."
+          ]
+        },
+        {
+          "cellules": [
+            "renvoie",
+            "La mémoire de la cité",
+            "50305",
+            "20201",
+            "Les décisions de Nova sur 50202 et 50203 s’inscrivent au registre des décisions."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "🎯 N°",
+        "🏷️ L’état",
+        "✅ Ce qui doit être vrai",
+        "💡 Valence",
+        "📍 Où",
+        "👁️ La preuve",
+        "⬆️ Sert",
+        "💯 Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**50000**",
+            "**Des espaces publics tenus, parcourables et libres**",
+            "Chaque jardin, place et parcours de la cité est connu, entretenu et praticable, et une part en reste ouverte à l’essai.",
+            "La cité a des lieux communs où l’on peut aller, rester et essayer ; sans eux, elle n’est qu’un réseau de pièces de travail.",
+            "Lumina Prime, tous quartiers",
+            "Les preuves de 50001 à 50004 réunies.",
+            "racine",
+            "**60**"
+          ]
+        },
+        {
+          "cellules": [
+            "**50001**",
+            "**Les espaces publics sont recensés**",
+            "Pour chaque espace public : où il est, par où on y entre, dans quel état il est, qui en répond. Ce qui est vu, ce qui est convention du plan et ce qui reste inconnu sont distingués.",
+            "On entretient ce qu’on connaît ; une panne se voit parce qu’on sait ce qui était là avant.",
+            "Jardin intérieur, parvis, Quai commun, Jardin calme ; jardins sauvages à situer",
+            "Relevé de tournée daté, inscrit dans cette affaire.",
+            "50000",
+            "**55**"
+          ]
+        },
+        {
+          "cellules": [
+            "**50002**",
+            "**Les parcours publics sont praticables et lisibles**",
+            "On va d’un espace public à l’autre sans se perdre ni traverser un lieu de travail. Premier tronçon visé : du Quai commun aux Data Gardens.",
+            "Les espaces communs forment une ville qu’on traverse, pas des îlots qu’on cherche.",
+            "Quai commun → Data Gardens",
+            "Parcours réellement essayé de bout en bout, noté avec ses seuils et ses ruptures.",
+            "50000",
+            "**45**"
+          ]
+        },
+        {
+          "cellules": [
+            "**50003**",
+            "**Une zone d’expérimentation libre est conservée**",
+            "Un espace public où les habitants peuvent essayer sans autorisation préalable, dans des limites visibles et écrites.",
+            "Ce qui n’est pas encore prévu a une place pour naître sans passer par une demande.",
+            "À désigner",
+            "Zone désignée par Nova ; limites écrites ; usage constaté en tournée.",
+            "50000",
+            "**45**"
+          ]
+        },
+        {
+          "cellules": [
+            "**50004**",
+            "**Les usages sont suivis**",
+            "On sait quels espaces servent, à quelles heures et à quoi, et ce qui s’use — sans identifier les personnes.",
+            "L’entretien suit ce qui sert réellement, et les décisions d’aménagement partent de faits constatés.",
+            "Espaces recensés en 50001",
+            "Méthode relue par JURIS ; premier relevé d’usage daté.",
+            "50000",
+            "**40**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous ouverts",
+      "colonnes": [
+        "🔒 N°",
+        "🏷️ Le verrou ouvert",
+        "⛔ Bloque",
+        "📌 Ce qui est vrai aujourd’hui",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "🔓 Levé quand"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**50101**",
+            "**Chaque espace public doit pouvoir se retrouver dans un relevé d’entretien daté.**",
+            "50001 · 50004",
+            "Les livres nomment quatre espaces du décor établi ; l’atlas n’en donne que des tracés schématiques et ne note aucun état.",
+            "",
+            "Atlas des lieux ; dossier de métier de l’entretien.",
+            "Une première tournée est inscrite dans cette affaire."
+          ]
+        },
+        {
+          "cellules": [
+            "**50102**",
+            "**Le tronçon Quai commun → Data Gardens doit pouvoir être décidé sur un relevé de continuité.**",
+            "50002",
+            "La promenade continue est une piste du registre des projets (Gaia · DEV), sans décision de Nova ; continuité des accès, usages existants et coût du décor à établir.",
+            "50101",
+            "Registre « Trois projets pour les quartiers ».",
+            "Nova décide de la réaliser ou non, sur le relevé du tronçon."
+          ]
+        },
+        {
+          "cellules": [
+            "**50103**",
+            "**Un espace public doit pouvoir être désigné libre, avec des limites écrites.**",
+            "50003",
+            "Aucun livre ne désigne de zone libre. Le Bassin d’essais (Innovation Fields) est un périmètre d’essais VR à accès unique dont l’isolation reste à vérifier : ce n’est pas un espace libre.",
+            "50101",
+            "Atlas des lieux ; registre du conseil.",
+            "Nova désigne une zone et ses limites."
+          ]
+        },
+        {
+          "cellules": [
+            "**50104**",
+            "**L’usage d’un espace public doit pouvoir être relevé sans identifier personne.**",
+            "50004",
+            "Aucune fréquentation n’est mesurée dans la cité ; l’affaire de l’accueil le constate aussi.",
+            "50101",
+            "Affaire « Un accueil pour Lumina Prime », page 3.",
+            "Une méthode relue par JURIS a donné un premier relevé."
+          ]
+        },
+        {
+          "cellules": [
+            "**50105**",
+            "**L’entretien doit connaître le coût et les moyens du maintien du décor.**",
+            "50000",
+            "Capacités, budgets et effectifs non recensés ; les lieux ne prouvent ni effectif, ni capacité, ni budget.",
+            "",
+            "Atlas des lieux, page 2 ; mon état transféré à Nova à 9h32.",
+            "Le coût du maintien du décor est mesuré et Nova affecte des moyens."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "🗝️ N°",
+        "🏷️ La clef",
+        "🔓 Ouvre",
+        "💡 Le principe et sa valence",
+        "🧰 Moyens",
+        "🧭 Ancrage",
+        "👁️ La preuve",
+        "⚖️ Décision"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**50201**",
+            "**Relever chaque espace public en tournée, selon une grille de visite**",
+            "50101",
+            "Passer soi-même, noter accès, état et usages vus en séparant vu, convention et inconnu : l’entretien part d’un constat, pas d’une supposition.",
+            "",
+            "Grille de tournée (page 4) ; atlas des lieux.",
+            "Relevé de tournée daté dans cette affaire.",
+            "**retenue** — mandat O04"
+          ]
+        },
+        {
+          "cellules": [
+            "**50202**",
+            "**Instruire la continuité du Quai commun aux Data Gardens avant tout tracé**",
+            "50102",
+            "Relever accès, seuils et usages du tronçon avec DEV : Nova décide sur ce qui existe, pas sur un dessin.",
+            "",
+            "Registre des projets ; plans de DEV.",
+            "Relevé du tronçon soumis à Nova.",
+            "**retenue** pour l’instruction ; la réalisation revient à Nova"
+          ]
+        },
+        {
+          "cellules": [
+            "**50203**",
+            "**Désigner une zone libre sur un espace déjà existant**",
+            "50103",
+            "Choisir un espace public existant, poser des limites visibles et des règles courtes, sans rien construire : l’essai a sa place sans coût de chantier.",
+            "",
+            "Espaces relevés en 50301.",
+            "Désignation par Nova ; règles relues par JURIS.",
+            "**à décider** par Nova"
+          ]
+        },
+        {
+          "cellules": [
+            "**50204**",
+            "**Observer les usages sans captation nominative**",
+            "50104",
+            "Compter et décrire ce qui se voit en tournée, à heures fixes, sans identifier personne : on apprend ce qui sert sans surveiller qui.",
+            "",
+            "Grille de tournée ; avis de JURIS.",
+            "Méthode relue par JURIS ; premier relevé.",
+            "**retenue** sous avis de JURIS"
+          ]
+        },
+        {
+          "cellules": [
+            "**50205**",
+            "**Mesurer le coût du maintien du décor plutôt que l’estimer**",
+            "50105",
+            "Obtenir de la mesure des capacités ce que coûte chaque espace entretenu : les moyens se demandent sur un chiffre.",
+            "",
+            "Mesure de Quantum (40302).",
+            "Chiffre ou fourchette datée, par espace relevé.",
+            "**retenue**"
+          ]
+        },
+        {
+          "cellules": [
+            "**50206**",
+            "**Tenir l’inventaire d’entretien depuis les seuls constats**",
+            "50101",
+            "Par lieu, une ligne par défaut réellement constaté, rangée en décor, continuité du chemin, repérage ou fonctionnement technique : l’inventaire dit ce qui est, jamais ce qu’on suppose.",
+            "",
+            "Relevé de tournée (50301) ; registre des pannes de Quantum (40304) pour le technique.",
+            "Chaque ligne de l’inventaire renvoie à un constat daté.",
+            "**retenue** — mandat O04"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "⚔️ N°",
+        "🏷️ L’action",
+        "🗝️ Réalise",
+        "📝 Ce qu’on fait",
+        "📍 Où",
+        "🪶 Office",
+        "🧰 Moyens",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "⏳ État",
+        "📅 Jour dû",
+        "🙋 Qui"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**50301**",
+            "Faire la première tournée",
+            "50201",
+            "Parcourir jardin intérieur, parvis, Quai commun et Jardin calme selon la grille ; situer les jardins sauvages si je les trouve ; noter tout autre espace public rencontré.",
+            "Radiant Core ; Quai commun ; Data Gardens",
+            "O04",
+            "",
+            "",
+            "Table de tournée ajoutée à cette affaire, datée.",
+            "à faire",
+            "2042.1.1, avant 18h",
+            "gaia"
+          ]
+        },
+        {
+          "cellules": [
+            "**50302**",
+            "Écrire la méthode de suivi des usages et la porter à JURIS",
+            "50204",
+            "Heures de passage, ce qu’on compte, ce qu’on ne note jamais.",
+            "Data Gardens",
+            "O04",
+            "",
+            "",
+            "Méthode écrite dans cette affaire, avec l’avis de JURIS.",
+            "à faire",
+            "2042.1.2",
+            "gaia"
+          ]
+        },
+        {
+          "cellules": [
+            "**50303**",
+            "Relever la continuité Quai commun → Data Gardens",
+            "50202",
+            "Parcourir le tronçon, noter seuils, ruptures et usages ; convenir avec DEV de ce que le plan dit et ne dit pas.",
+            "Quai commun → Data Gardens",
+            "O04",
+            "",
+            "50301",
+            "Relevé du tronçon distinguant mesures, conventions et inconnues.",
+            "à faire",
+            "2042.1.2",
+            "gaia"
+          ]
+        },
+        {
+          "cellules": [
+            "**50304**",
+            "Demander à Quantum le coût du maintien du décor",
+            "50205",
+            "Lui poser la question pour les espaces relevés, une fois sa mesure des capacités engagée.",
+            "Radiant Core",
+            "O04",
+            "",
+            "50301",
+            "Chiffre ou fourchette de Quantum, avec sa date.",
+            "à faire",
+            "2042.1.2",
+            "gaia"
+          ]
+        },
+        {
+          "cellules": [
+            "**50305**",
+            "Présenter à Nova la promenade et une zone libre candidate",
+            "50202 · 50203",
+            "Rapprocher relevés, coûts connus et inconnus ; faire apparaître les deux décisions.",
+            "Salle du conseil",
+            "O04",
+            "",
+            "50303",
+            "Décisions de Nova inscrites au registre des décisions.",
+            "à faire",
+            "2042.1.3",
+            "gaia"
+          ]
+        },
+        {
+          "cellules": [
+            "**50306**",
+            "Ouvrir l’inventaire d’entretien par lieu",
+            "50206",
+            "Une table par lieu, remplie depuis les constats de la tournée ; une panne technique part au registre des pannes de Quantum, pas dans mes mains.",
+            "Espaces relevés en 50301",
+            "O04",
+            "",
+            "50301",
+            "Inventaire dans cette affaire, chaque ligne rattachée à un constat daté.",
+            "à faire",
+            "2042.1.2",
+            "gaia"
+          ]
+        },
+        {
+          "cellules": [
+            "**50307**",
+            "Découper le Jardin calme en zones de passage, de séjour et de retrait",
+            "50201",
+            "Proposée, non engagée : examiner lignes de vue, croisements, sorties et emplacements de séjour ; garder des retraits tout en laissant comprendre comment sortir.",
+            "Jardin calme, Data Gardens",
+            "O04",
+            "",
+            "50301",
+            "Une fiche par zone dans cette affaire.",
+            "à faire",
+            "—",
+            "gaia"
+          ]
+        }
+      ]
+    }
+  ],
+  "embleme": "🌿"
+}

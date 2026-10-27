@@ -1,0 +1,288 @@
+{
+  "version": "0.3",
+  "statut": "Proposition de calibration, pas une mesure du monde ni une probabilité de réussite.",
+  "actions": {
+    "entrer": {
+      "skill": "naviguer",
+      "libelle": "Entrer par une prise connue",
+      "base": 4
+    },
+    "suivre": {
+      "skill": "naviguer",
+      "libelle": "Suivre une association vers une autre prise",
+      "base": 6
+    },
+    "traverser": {
+      "skill": "naviguer",
+      "libelle": "Traverser vers un autre esprit",
+      "base": 8
+    },
+    "percevoir": {
+      "skill": "recevoir",
+      "libelle": "Percevoir une sensation ou une pensée présente",
+      "base": 4
+    },
+    "lire": {
+      "skill": "recevoir",
+      "libelle": "Lire un souvenir accessible",
+      "base": 6
+    },
+    "message": {
+      "skill": "transmettre",
+      "libelle": "Envoyer une sensation ou un message simple",
+      "base": 6
+    },
+    "partager": {
+      "skill": "transmettre",
+      "libelle": "Faire vivre un épisode",
+      "base": 8
+    },
+    "retoucher": {
+      "skill": "transmettre",
+      "libelle": "Modifier durablement un détail d’un souvenir",
+      "base": 10,
+      "reecriture": true
+    },
+    "restructurer": {
+      "skill": "transmettre",
+      "libelle": "Changer un élément central du souvenir",
+      "base": 14,
+      "reecriture": true,
+      "proposee": true
+    },
+    "fabriquer": {
+      "skill": "transmettre",
+      "libelle": "Construire un faux épisode complet",
+      "base": 18,
+      "reecriture": true,
+      "proposee": true
+    },
+    "percevoir_traversee": {
+      "skill": "recevoir",
+      "libelle": "Percevoir la pensée mobilisée par un télépathe en traversée",
+      "base": 4,
+      "defauts": {
+        "disponibilite": "mobilise"
+      },
+      "choix_autorises": {
+        "disponibilite": [
+          "mobilise",
+          "en_evidence"
+        ]
+      }
+    },
+    "mettre_en_evidence": {
+      "skill": "transmettre",
+      "libelle": "Mettre une pensée en évidence dans son propre psyché",
+      "base": 4,
+      "cible": "soi"
+    },
+    "cacher_pensee": {
+      "skill": "transmettre",
+      "libelle": "Cacher une pensée dans son propre psyché",
+      "base": 8,
+      "cible": "soi",
+      "cache": true
+    }
+  },
+  "modificateurs": {
+    "familiarite": {
+      "libelle": "Familiarité avec l’esprit",
+      "defaut": "connu",
+      "choix": {
+        "intime": -2,
+        "connu": 0,
+        "inconnu": 2
+      },
+      "externe": true
+    },
+    "vecu": {
+      "libelle": "Proximité du vécu utilisé",
+      "defaut": "comparable",
+      "choix": {
+        "identique": -2,
+        "comparable": 0,
+        "lointain": 3
+      },
+      "externe": true
+    },
+    "disponibilite": {
+      "libelle": "Disponibilité du contenu",
+      "defaut": "accessible",
+      "choix": {
+        "maintenu": -2,
+        "accessible": 0,
+        "enfoui": 3,
+        "mobilise": -2,
+        "en_evidence": -3,
+        "cache": 4
+      },
+      "externe": true
+    },
+    "ambiguite": {
+      "libelle": "Ambiguïté du chemin",
+      "skills": [
+        "naviguer"
+      ],
+      "defaut": "quelques_branches",
+      "choix": {
+        "distinctif": -2,
+        "quelques_branches": 0,
+        "nombreux": 3
+      }
+    },
+    "precision": {
+      "libelle": "Précision exigée",
+      "defaut": "ordinaire",
+      "choix": {
+        "approximative": -1,
+        "ordinaire": 0,
+        "exacte": 2
+      }
+    },
+    "etendue": {
+      "libelle": "Étendue du contenu",
+      "skills": [
+        "recevoir",
+        "transmettre"
+      ],
+      "defaut": "element",
+      "choix": {
+        "element": 0,
+        "plusieurs": 2,
+        "sequence": 4
+      }
+    },
+    "coherence": {
+      "libelle": "Cohérence de la modification",
+      "reecriture": true,
+      "defaut": "compatible",
+      "choix": {
+        "compatible": 0,
+        "contradiction_locale": 2,
+        "contradictions_multiples": 5
+      }
+    },
+    "charge": {
+      "libelle": "Charge de l’opérateur",
+      "defaut": "disponible",
+      "choix": {
+        "disponible": 0,
+        "sollicite": 2,
+        "sature": 4
+      }
+    },
+    "intermediaires": {
+      "libelle": "Contacts intermédiaires supplémentaires maintenus",
+      "defaut": 0,
+      "par_contact": 1,
+      "externe": true
+    },
+    "discretion": {
+      "libelle": "Dissimulation volontaire",
+      "defaut": "assume",
+      "choix": {
+        "assume": 0,
+        "masque": 3
+      },
+      "non_definis": [
+        "masque"
+      ],
+      "externe": true
+    },
+    "mobilisation": {
+      "libelle": "Pensée à cacher utilisée par une opération en cours",
+      "cache": true,
+      "defaut": "inactive",
+      "choix": {
+        "inactive": 0,
+        "active": 0
+      },
+      "non_definis": [
+        "active"
+      ]
+    }
+  },
+  "echelle": [
+    {
+      "max": 3,
+      "libelle": "Très facile"
+    },
+    {
+      "max": 7,
+      "libelle": "Simple"
+    },
+    {
+      "max": 11,
+      "libelle": "Délicate"
+    },
+    {
+      "max": 15,
+      "libelle": "Difficile"
+    },
+    {
+      "max": 19,
+      "libelle": "Très difficile"
+    },
+    {
+      "max": null,
+      "libelle": "Extrême"
+    }
+  ],
+  "perceptibilite": {
+    "statut": "Modèle expérimental de calibration : les principes sont retenus, les coefficients et seuils sont proposés.",
+    "flow": {
+      "min": 0,
+      "max": 4,
+      "defaut": 2
+    },
+    "duree": {
+      "min": 1,
+      "max": 10,
+      "defaut": 1,
+      "unite": "battement d’attention, sans durée physique fixée"
+    },
+    "reference_par_battement": 1,
+    "pensees": {
+      "dans_le_flow": 0,
+      "commentaires": 2,
+      "peur_et_corrections": 4
+    },
+    "pensees_defaut": "commentaires",
+    "bruit_actions": {
+      "entrer": 0,
+      "suivre": 1,
+      "traverser": 1,
+      "percevoir": 0,
+      "lire": 1,
+      "message": 2,
+      "partager": 3,
+      "retoucher": 4,
+      "restructurer": 5,
+      "fabriquer": 6,
+      "percevoir_traversee": 0
+    },
+    "observateurs": {
+      "non_forme": {
+        "libelle": "Cible non formée",
+        "phenomene": {
+          "distraite": 12,
+          "ordinaire": 8,
+          "vigilante": 5
+        },
+        "surcout_reconnaissance": null
+      },
+      "forme": {
+        "libelle": "Cible formée",
+        "phenomene": {
+          "distraite": 8,
+          "ordinaire": 5,
+          "vigilante": 3
+        },
+        "surcout_reconnaissance": 2
+      }
+    },
+    "formation_defaut": "non_forme",
+    "attention_defaut": "ordinaire"
+  }
+}

@@ -45,8 +45,11 @@ import os
 import sys
 
 SCRIPTS = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RACINE = os.path.dirname(SCRIPTS)
-ETAT = os.path.join(RACINE, "etat")
+
+import racines  # noqa: E402
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 
 import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
 _d = _os.path.dirname(_os.path.abspath(__file__))

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "parole-outlander-nicolas-hoy-1743-5-4-1028",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 628
+    },
+    "locuteur_id": "nicolas",
+    "destinataires": [
+      "isobel-grant"
+    ],
+    "temoins": [
+      "isobel-grant"
+    ],
+    "texte": "Hoy"
+  },
+  {
+    "id": "parole-outlander-isobel-seuil-1743-5-4-1029",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 629
+    },
+    "locuteur_id": "isobel-grant",
+    "destinataires": [
+      "nicolas"
+    ],
+    "temoins": [
+      "nicolas"
+    ],
+    "texte": "Qui êtes-vous ? Que voulez-vous ?"
+  },
+  {
+    "id": "parole-outlander-aurore-appelle-nicolas-croisee-1743-5-4-1044",
+    "date": {
+      "annee": 1743,
+      "lune": 5,
+      "jour": 4,
+      "minute": 644
+    },
+    "locuteur_id": "aurore",
+    "destinataires": [
+      "nicolas"
+    ],
+    "temoins": [],
+    "texte": "Nicolas, as-tu appris des choses ? Où est-ce qu’on est ?"
+  }
+]

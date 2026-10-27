@@ -15,6 +15,11 @@ python -m unittest discover -s scripts/tests -p "test_*.py"
 | `test_flux_transport.py` | la plume unique : empreinte sans estampilles, fenêtre anti-retry et verrou entre deux processus d'écriture |
 | `test_git_donnees.py` | snapshot data-only : périmètre, exclusions des verrous/caches, validation JSONL et détection d'une écriture concurrente |
 | `test_runtime_agents.py` | runtime multi-fournisseur et garde basse : 15 slots globaux, refus atomique du 16e, adoption d'une réservation CAST sans double comptage, nettoyage des PID recyclés |
+| `test_runtime_claude.py` | l'ordre des essais Claude : session connue reprise d'abord, création seulement si la reprise ne trouve rien, aucun rejeu sur un autre échec |
+| `test_runtime_gemini.py` | le manuel Gemini posé en `AGENTS.md` du pas-de-tir (jamais dans le dépôt), sans `--add-dir` |
+| `test_mj_generation.py` | la rotation des sessions du MJ : identifiant historique conservé, bascule au N-ième tour, `SESSION NEUVE` une seule fois, 0 qui désactive |
+| `test_mj_point.py` | le point d'étape : dû au N-ième tour d'un joueur, tenu tant qu'aucun `suites` marqué `point` n'a été poussé, 0 qui désactive |
+| `test_sections_mode.py` | les sections du manuel MJ servies selon les modes du tour, et le réveil qui ne porte plus que des données |
 | `test_depeche_contextes.py` | les appels hommes : session stable et fil de chambre distincts par item d'affaire, transmission CLI et sûreté du chemin |
 | `test_copier_claude_vers_agents.py` | le miroir récursif `CLAUDE.md` → `AGENTS.md`, l'écrasement et le mode de vérification sans écriture |
 | `test_comptoir_moyens.py` | le contrat de comparaison M110 : conformité, dérive, sources des deux valeurs et registre incomplet |

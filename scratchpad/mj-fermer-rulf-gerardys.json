@@ -1,0 +1,25 @@
+[
+  {
+    "type":"replique",
+    "locuteur_id":"gerardys",
+    "qui":"Mestre Gerardys",
+    "texte":"Willa des Séchoirs est la première retenue. Je viens de lui faire porter l’ordre de comparaître seule devant vous, sans parler à Rulf ni aux trois autres témoins avant son audience.",
+    "lieu":"Salle de la Table Peinte, Peyredragon",
+    "salle":"table-peinte",
+    "moment":"midi",
+    "duree":1,
+    "pour":"rhaenyra",
+    "ref":"vmv5p0n3inyue"
+  },
+  {
+    "type":"recit",
+    "texte":"Le temps de descendre au bourg et de remonter, la Table Peinte demeure ouverte sur la ligne de six heures sept. Vingt et une minutes plus tard, Willa des Séchoirs franchit seule le seuil ; Rulf et les trois autres noms sont tenus hors de son audience.",
+    "entrent":[{"id":"willa-sechoirs","nom":"Willa des Séchoirs","titre":"Porte-parole du bourg"}],
+    "lieu":"Salle de la Table Peinte, Peyredragon",
+    "salle":"table-peinte",
+    "moment":"midi passé",
+    "duree":21,
+    "pour":"rhaenyra",
+    "ref":"vmv5p0n3inyue"
+  }
+]

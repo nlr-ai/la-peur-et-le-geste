@@ -1,0 +1,167 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Le tableau libre</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f0e6;color:#282e28;font:14px system-ui;height:100vh;display:flex;flex-direction:column}button,input,select{font:inherit;color:inherit;border:1px solid #b8beae;border-radius:5px;background:#fffdf6;padding:7px}button{cursor:pointer}button:disabled{opacity:.45;cursor:default}button[aria-pressed=true]{background:#38543e;color:white}header{padding:10px 14px;border-bottom:1px solid #c4c7b9;display:flex;gap:8px;align-items:center;flex-wrap:wrap}h1{font:23px Georgia;margin:0 12px 0 0}#status{margin-left:auto;font-size:12px}#help{margin:0;padding:8px 14px;background:#e7e9dd;font-size:12px}main{display:flex;flex:1;min-height:0}aside{width:230px;min-width:170px;max-width:35%;display:flex;flex-direction:column;border-right:1px solid #b8beae;padding:9px;gap:8px}#palette{overflow:auto;flex:1}#palette h2{font-size:12px;margin:16px 0 7px} .items{display:grid;grid-template-columns:1fr 1fr;gap:5px}.tile{padding:8px 4px;font-size:11px;line-height:1.25;min-height:85px}.tile img{display:block;width:36px;height:36px;margin:auto auto 6px;pointer-events:none}.tile:hover{background:#e4ecd9}#viewport{overflow:auto;flex:1;position:relative;background:#dedfd5}#sizer{position:relative}#board{position:absolute;left:0;top:0;width:2400px;height:1536px;transform-origin:top left;background-color:#faf7ef;background-image:linear-gradient(#bbc1b84a 1px,transparent 1px),linear-gradient(90deg,#bbc1b84a 1px,transparent 1px);background-size:24px 24px}#edges{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}.edge{pointer-events:stroke;cursor:pointer;stroke:#61745e;stroke-width:12;stroke-opacity:0;fill:none}.visible-edge{stroke:#61745e;stroke-width:2.5;fill:none;pointer-events:none}.selected-edge{stroke:#b96524;stroke-width:4}.node{position:absolute;width:96px;min-height:88px;padding:6px;border:1px solid #9da991;background:#fffdf5;border-radius:7px;display:flex;align-items:center;flex-direction:column;cursor:grab;touch-action:none;user-select:none;box-shadow:0 2px 6px #29332918}.node img{width:42px;height:42px;pointer-events:none}.node span{font-size:11px;line-height:1.2;text-align:center;overflow-wrap:anywhere;max-width:100%}.node.selected{outline:3px solid #56744c}.node.source{outline:3px solid #b96524}.node:focus-visible,.tile:focus-visible{outline:3px solid #56744c}footer{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:8px;border-top:1px solid #c4c7b9}#label{width:min(360px,50vw)}#empty{position:absolute;top:150px;left:70px;width:330px;color:#6a7465;pointer-events:none;font:23px/1.5 Georgia}#error{color:#a52d20} @media(max-width:650px){aside{width:170px}.items{grid-template-columns:1fr}header{gap:5px}h1{font-size:19px}}
+.link-handle{position:absolute;right:-13px;top:18px;width:26px;height:26px;padding:0;border-radius:50%;background:#38543e;color:white;border:2px solid #fffdf5;box-shadow:0 1px 4px #29332940;cursor:crosshair;opacity:0;pointer-events:none;transition:opacity .12s;font-size:17px;line-height:20px}.node:hover .link-handle,.node:focus-within .link-handle,.node.selected .link-handle,.node.source .link-handle{opacity:1;pointer-events:auto}@media(hover:none){.link-handle{opacity:1;pointer-events:auto}}.node,.tile{background:var(--type-bg,#fffdf5);border-color:var(--type-border,#9da991)}.tile:hover{background:var(--type-bg,#fffdf5);box-shadow:inset 0 0 0 2px var(--type-border,#9da991)}#palette h2{border-left:4px solid var(--type-border,#9da991);padding-left:7px}.node.action-node{width:180px;padding:8px}.node .steps-title{align-self:stretch;margin-top:8px;padding-top:6px;border-top:1px solid var(--type-border,#9da991);font-size:10px;font-weight:600;color:#52604e}.node-steps{align-self:stretch;margin:5px 0 0;padding-left:15px;font-size:11px;line-height:1.35;text-align:left}.node-steps li+li{margin-top:4px}.node.todo-node{width:180px;min-height:120px;padding:8px 10px;gap:5px}.todo-node img{display:none}.todo-node .todo-caption{font-size:9px;color:#52604e;padding-right:20px;align-self:stretch}.todo-node span{font-size:12px;line-height:1.35;text-align:left;align-self:stretch}.todo-check{position:absolute;top:3px;right:5px;border:0;background:transparent;padding:0 3px;font-size:18px}.todo-node.done span{text-decoration:line-through;opacity:.6}.todo-node.done{border-style:dashed}.node.typed-node{width:156px;min-height:112px;gap:5px;padding:9px}.typed-node .todo-caption{font-size:10px;color:#52604e;align-self:stretch;padding-right:14px}.typed-node .todo-check{right:3px;top:3px}.typed-node.done{border-style:dashed;opacity:.65}.typed-node.type-metier{--type-bg:#e7edf7;--type-border:#9baed0}.typed-node.type-ressource{--type-bg:#f3edcf;--type-border:#c4b67c}</style>
+<header><h1>Le tableau</h1><button id="move" aria-pressed="true">Déplacer</button><button id="link" aria-pressed="false">Relier →</button><label><input id="snap" type="checkbox" checked> Grille</label><label>Zoom <select id="zoom"><option value="0.5">50 %</option><option value="0.75">75 %</option><option value="1" selected>100 %</option><option value="1.25">125 %</option></select></label><button id="language" aria-pressed="true">Langage codé</button><button id="retry">Enregistrer</button><span id="status" role="status">Chargement…</span></header>
+<p id="help">Glissez une icône sur la grille ou cliquez dans la palette. Pour relier : tirez la petite poignée ↗ d’une icône vers une autre, ou cliquez dessus puis sur la destination.</p>
+<main><aside><input id="search" aria-label="Chercher une icône" placeholder="Chercher une icône…"><select id="category" aria-label="Catégorie"><option value="">Toutes les catégories</option></select><div id="palette"></div></aside><div id="viewport"><div id="sizer"><div id="board"><svg id="edges"><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#61745e"/></marker></defs><g id="paths"></g></svg><div id="nodes"></div><div id="empty">Déposez vos premières icônes.<br>Reliez vos idées, lieux et actions.</div></div></div></div></main>
+<footer><label>Nom <input id="label" maxlength="120" disabled placeholder="Sélectionnez une icône"></label><label>Quantité <input id="quantity" type="number" min="0.01" max="1000000000" step="any" disabled style="width:90px"></label><button id="delete" disabled>Supprimer la sélection</button><span id="error" role="alert"></span></footer>
+<script>
+'use strict';
+const $=id=>document.getElementById(id), NS='http://www.w3.org/2000/svg';
+let catalogue=[],byId=new Map(),state={revision:0,nodes:[],edges:[]},selected=null,source=null,mode='move',zoom=1,ready=false,dirty=false,saving=false,blocked=false,timer;
+let coded=true;
+try{coded=localStorage.getItem('peur-tableau-langage')!=='clair';}catch(e){}
+const categoryNames={
+'Actions — Recruter et organiser':'Équipes','Actions — Se couvrir':'Ateliers',
+'Actions — Communiquer':'Bons et commandes','Actions — Renseigner':'Mesures',
+'Actions — S’équiper':'Fournitures',"Actions — S'équiper":'Fournitures',
+'Actions — Aider et soustraire':'Accueil et livraison','Actions — Saboter':'Reprise des ouvrages',
+'Actions — Combattre':'Grands travaux','Chantier — ressources':'Matériaux',
+'Biens — transport':'Matériel roulant','Biens — outillage et valeurs':'Outillage et réserves',
+'Biens — fournitures et communications':'Petites fournitures et installations',
+'Vocabulaire — Présences':'Équipes voisines','Vocabulaire — Contrôles et alertes':'Visites et fermetures',
+'Vocabulaire — Infrastructures':'Ouvrages de liaison'};
+// Stable category colors, shared by the palette and placed nodes in both languages.
+const categoryTints={
+ 'Équipes':['#eaf2e4','#a3b995'], 'Ateliers':['#f3eadf','#c3aa8d'],
+ 'Bons et commandes':['#e5eef7','#9db5cf'], 'Mesures':['#e4f1ee','#98bdb4'],
+ 'Fournitures':['#f5efd9','#c6b77e'], 'Accueil et livraison':['#f6e8e8','#c9a1a1'],
+ 'Reprise des ouvrages':['#f4e4dc','#c49e87'], 'Grands travaux':['#eee4ed','#b9a0b6'],
+ 'Matériaux':['#f3edcf','#c4b67c'], 'Matériel roulant':['#e6edef','#9cafb6'],
+ 'Outillage et réserves':['#f3e7d4','#c5aa7e'], 'Petites fournitures et installations':['#e8e7f4','#aaa5c8'],
+ 'Équipes voisines':['#e9e6de','#aaa393'], 'Visites et fermetures':['#f4e2e1','#c79c98'],
+ 'Ouvrages de liaison':['#e0eef1','#94b6be']
+};
+function tint(el,category){const colors=categoryTints[categoryNames[category]||category];if(colors){el.style.setProperty('--type-bg',colors[0]);el.style.setProperty('--type-border',colors[1]);}}
+categoryNames['Métiers']='Corps de métier';categoryTints['Corps de métier']=['#e7edf7','#9baed0'];
+const itemName=item=>coded?(item.nom_couvert||item.nom):(item.nom_original||item.nom);
+function nodeBaseName(n){const item=byId.get(n.icon);if(n.stepIndex!==undefined)return n.label||item?.etapes_suggerees?.[coded?'code':'clair']?.[n.stepIndex]||'Étape';if(!item)return n.label;return !n.label||[item.nom_couvert,item.nom_original,item.nom].includes(n.label)?itemName(item):n.label;}
+function nodeName(n){return nodeBaseName(n)+(n.quantity!==undefined?' × '+n.quantity.toLocaleString('fr-FR'):'');}
+function languageUI(){
+ $('language').textContent=coded?'Langage codé':'Langage clair';
+ $('language').setAttribute('aria-pressed',String(coded));
+ $('language').title=coded?'Passer au langage clair':'Passer au langage codé';
+ const previous=$('category').value;
+ $('category').replaceChildren(new Option('Toutes les catégories',''));
+ for(const cat of [...new Set(catalogue.map(e=>e.categorie))])$('category').append(new Option(coded?(categoryNames[cat]||cat):cat,cat));
+ $('category').value=previous;
+}
+$('language').onclick=()=>{coded=!coded;try{localStorage.setItem('peur-tableau-langage',coded?'code':'clair');}catch(e){}languageUI();palette();render();};
+window.addEventListener('storage',e=>{if(e.key==='peur-tableau-langage'){coded=e.newValue!=='clair';languageUI();palette();render();}});
+languageUI();
+const uid=()=>crypto.randomUUID();
+const svgEl=(tag,attrs)=>{const e=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs))e.setAttribute(k,v);return e;};
+const imgPath=id=>(coded?'/tableau-svg/':'/tableau-svg-clair/')+id+'.svg';
+const clean=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+function pos(x,y){const snap=$('snap').checked?24:1;return {x:Math.max(0,Math.min(2304,Math.round(x/snap)*snap)),y:Math.max(0,Math.min(1440,Math.round(y/snap)*snap))};}
+function point(e){const r=$('board').getBoundingClientRect();return {x:(e.clientX-r.left)/zoom,y:(e.clientY-r.top)/zoom};}
+function change(){dirty=true;$('status').textContent='Modifications à enregistrer';clearTimeout(timer);timer=setTimeout(save,350);}
+async function save(){
+ if(!ready||!dirty||saving||blocked)return;
+ saving=true;dirty=false;$('status').textContent='Enregistrement…';
+ try{const response=await fetch('/tableau-etat',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(state)});const d=await response.json();if(!response.ok){if(response.status===409)blocked=true;throw Error(d.erreur||'Échec de sauvegarde');}state.revision=d.revision;$('error').textContent='';$('status').textContent=dirty?'Modifications à enregistrer':'Enregistré';}
+ catch(e){dirty=true;$('status').textContent='Non enregistré';$('error').textContent=e.message;saving=false;return;}
+ saving=false;if(dirty)save();
+}
+function nodeBox(n){const el=[...$('nodes').children].find(el=>el.dataset.id===n.id);return {x:n.x,y:n.y,w:el?.offsetWidth||96,h:el?.offsetHeight||88};}
+function edges(){
+ $('paths').replaceChildren();
+ for(const edge of state.edges){const a=state.nodes.find(n=>n.id===edge.from),b=state.nodes.find(n=>n.id===edge.to);if(!a||!b)continue;
+ const A=nodeBox(a),B=nodeBox(b),ax=A.x+A.w/2,ay=A.y+A.h/2,bx=B.x+B.w/2,by=B.y+B.h/2;
+ const dx=bx-ax,dy=by-ay;
+ const boundary=box=>Math.min(dx?box.w/2/Math.abs(dx):Infinity,dy?box.h/2/Math.abs(dy):Infinity,.48);
+ const ta=boundary(A),tb=boundary(B);const d=`M${ax+dx*ta} ${ay+dy*ta} L${bx-dx*tb} ${by-dy*tb}`;
+ const visible=svgEl('path',{d,class:'visible-edge'+(selected===edge.id?' selected-edge':''),'marker-end':'url(#arrow)'});
+ const hit=svgEl('path',{d,class:'edge',tabindex:'0',role:'button','aria-label':'Flèche de '+nodeName(a)+' vers '+nodeName(b)});
+ const select=()=>{selected=edge.id;source=null;render();};hit.onclick=e=>{e.stopPropagation();select();};hit.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select();}};
+ $('paths').append(visible,hit);
+ }
+}
+function linkHandle(n,el){
+ const handle=document.createElement('button');handle.className='link-handle';handle.type='button';handle.textContent='↗';handle.title='Relier : glisser vers une autre icône';handle.setAttribute('aria-label','Relier depuis '+nodeName(n));
+ handle.onkeydown=e=>e.stopPropagation();
+ handle.onclick=e=>{e.stopPropagation();if(!ready||blocked)return;setMode('link');source=n.id;selected=n.id;render();$('help').textContent='Cliquez sur l’icône d’arrivée. Échap annule.';};
+ handle.onpointerdown=e=>{
+  e.stopPropagation();if(!ready||blocked||e.button!==0)return;e.preventDefault();
+  const start=point(e);let moved=false;const preview=svgEl('path',{class:'visible-edge','stroke-dasharray':'5 4','marker-end':'url(#arrow)'});$('edges').append(preview);handle.setPointerCapture(e.pointerId);
+  const move=ev=>{const p=point(ev);moved=moved||Math.hypot(p.x-start.x,p.y-start.y)>4;preview.setAttribute('d',`M${n.x+el.offsetWidth} ${n.y+32} L${p.x} ${p.y}`);};
+  const finish=ev=>{handle.removeEventListener('pointermove',move);handle.removeEventListener('pointerup',finish);handle.removeEventListener('pointercancel',cancel);document.removeEventListener('keydown',escape);preview.remove();if(handle.hasPointerCapture(e.pointerId))handle.releasePointerCapture(e.pointerId);handle.onclick=event=>event.stopPropagation();if(ev.type==='pointercancel')return;if(moved){const target=document.elementFromPoint(ev.clientX,ev.clientY)?.closest('.node');const destination=state.nodes.find(item=>item.id===target?.dataset.id);if(destination&&destination.id!==n.id){source=n.id;connect(destination);}else render();}else{setMode('link');source=n.id;selected=n.id;render();$('help').textContent='Cliquez sur l’icône d’arrivée. Échap annule.';}};
+  const cancel=ev=>finish({type:'pointercancel'});const escape=ev=>{if(ev.key==='Escape')cancel(ev);};
+  handle.addEventListener('pointermove',move);handle.addEventListener('pointerup',finish);handle.addEventListener('pointercancel',cancel);document.addEventListener('keydown',escape);
+ };
+ el.append(handle);
+}
+function render(){
+ $('nodes').replaceChildren();
+ for(const n of state.nodes){const el=document.createElement('div');el.className='node'+(selected===n.id?' selected':'')+(source===n.id?' source':'');el.style.left=n.x+'px';el.style.top=n.y+'px';el.tabIndex=0;el.setAttribute('role','button');el.setAttribute('aria-label',nodeName(n));el.dataset.id=n.id;tint(el,byId.get(n.icon)?.categorie);
+ const img=document.createElement('img');img.src=imgPath(n.icon);img.alt='';img.draggable=false;const label=document.createElement('span');label.textContent=nodeName(n);el.append(img,label);
+ const item=byId.get(n.icon),type=item?.type_noeud||'objet';el.classList.add('typed-node','type-'+type);
+ const badge=document.createElement('small');badge.className='todo-caption';badge.textContent=({action:'Action',ressource:'Ressource',metier:'Métier',objet:'Objet / terme'})[type]+(n.relation==='produit'?' · résultat prévu':n.relation==='prerequis'?' · préalable':n.relation==='besoin'?' · besoin':'');el.prepend(badge);
+ if(n.relation){el.classList.toggle('done',!!n.done);const check=document.createElement('button');check.className='todo-check';check.textContent=n.done?'✓':'○';check.setAttribute('aria-label',n.done?'Marquer à faire':'Marquer terminé');check.setAttribute('aria-pressed',String(!!n.done));check.onpointerdown=e=>e.stopPropagation();check.onkeydown=e=>e.stopPropagation();check.onclick=e=>{e.stopPropagation();if(!ready||blocked)return;n.done=!n.done;render();change();};el.prepend(check);}
+ el.addEventListener('pointerdown',e=>{
+ if(!ready||blocked||e.button!==0)return;e.stopPropagation();
+ if(mode==='link'){connect(n);return;}
+ selected=n.id;updateSelection();document.querySelectorAll('.node').forEach(x=>x.classList.toggle('selected',x.dataset.id===n.id));
+ const start=point(e),old={x:n.x,y:n.y};el.setPointerCapture(e.pointerId);let moved=false;
+ el.onpointermove=ev=>{const now=point(ev);if(Math.hypot(now.x-start.x,now.y-start.y)<3&&!moved)return;moved=true;Object.assign(n,pos(old.x+now.x-start.x,old.y+now.y-start.y));el.style.left=n.x+'px';el.style.top=n.y+'px';edges();};
+ const finish=()=>{el.onpointermove=null;el.onpointerup=null;el.onpointercancel=null;if(moved)change();};el.onpointerup=finish;el.onpointercancel=finish;
+ });
+ el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();if(mode==='link')connect(n);else{selected=n.id;render();}}else if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();const step=$('snap').checked?24:4;Object.assign(n,pos(n.x+(e.key==='ArrowRight'?step:e.key==='ArrowLeft'?-step:0),n.y+(e.key==='ArrowDown'?step:e.key==='ArrowUp'?-step:0)));el.style.left=n.x+'px';el.style.top=n.y+'px';edges();change();}};
+ linkHandle(n,el);$('nodes').append(el);
+ }
+ const boxes=state.nodes.map(nodeBox);$('board').style.width=Math.max(2400,...boxes.map(b=>b.x+b.w+24))+'px';$('board').style.height=Math.max(1536,...boxes.map(b=>b.y+b.h+24))+'px';scale();edges();updateSelection();$('empty').hidden=state.nodes.length>0;
+}
+function updateSelection(){const n=state.nodes.find(n=>n.id===selected);$('label').disabled=!n;$('label').value=n?nodeBaseName(n):'';$('delete').disabled=!selected;$('quantity').disabled=!n||!['metier','ressource'].includes(byId.get(n.icon)?.type_noeud);$('quantity').value=n?.quantity||1;}
+function connect(n){if(!source){source=n.id;selected=n.id;}else if(source!==n.id){if(!state.edges.some(e=>e.from===source&&e.to===n.id)){state.edges.push({id:uid(),from:source,to:n.id});change();}source=null;selected=n.id;}else source=null;render();}
+function expandTodo(n){
+ const needs=byId.get(n.icon)?.noeuds_associes;
+ if(n.stepIndex!==undefined||n.typedExpanded||!needs?.length)return false;
+ if(state.nodes.length+needs.length>500||state.edges.length+needs.length>1500){$('error').textContent='Limite du tableau atteinte.';return false;}
+ const occupied=state.nodes.map(v=>({x:v.x,y:v.y})),positions=[];
+ let x=Math.min(n.x,2088),y=n.y+192;
+ for(const need of needs){let found=false;for(let i=0;i<220;i++){
+  if(y>1248){y=24;x+=216;if(x>2088)x=24;}
+  if(!occupied.some(p=>Math.abs(p.x-x)<204&&Math.abs(p.y-y)<188)){positions.push({x,y});occupied.push({x,y});found=true;y+=192;break;}y+=192;
+ }if(!found){$('error').textContent='Libérez un peu de place pour ces nœuds.';return false;}}
+ needs.forEach((need,index)=>{const child={id:uid(),icon:need.icon,label:'',quantity:need.quantity,relation:need.relation,done:false,typedExpanded:true,...positions[index]};state.nodes.push(child);state.edges.push({id:uid(),from:need.relation==='produit'?n.id:child.id,to:need.relation==='produit'?child.id:n.id});});
+ n.typedExpanded=true;return true;
+}
+function migrateTyped(){
+ let changed=false;
+ // Follow the generated step chain from each action; preserve edited labels as free nodes.
+ for(const root of [...state.nodes].filter(n=>n.stepIndex===undefined&&!n.typedExpanded&&n.todoExpanded)){
+  const legacy=new Set(),queue=[root.id];
+  while(queue.length){const id=queue.shift();for(const edge of state.edges.filter(e=>e.from===id)){const next=state.nodes.find(v=>v.id===edge.to);if(next?.stepIndex!==undefined&&next.icon===root.icon&&!legacy.has(next.id)){legacy.add(next.id);queue.push(next.id);}}}
+  const removed=new Set([...legacy].filter(id=>!state.nodes.find(n=>n.id===id).label));
+  const replacements=byId.get(root.icon)?.noeuds_associes||[];
+  if(state.nodes.length-removed.size+replacements.length>500)continue;
+  state.nodes=state.nodes.filter(n=>!removed.has(n.id));
+  state.edges=state.edges.filter(e=>!((e.from===root.id||legacy.has(e.from))&&legacy.has(e.to))).map(e=>({...e,from:removed.has(e.from)?root.id:e.from,to:removed.has(e.to)?root.id:e.to})).filter(e=>e.from!==e.to);
+  for(const node of state.nodes)if(legacy.has(node.id)){delete node.stepIndex;node.typedExpanded=true;}
+  delete root.todoExpanded;changed=true;
+ }
+ return changed;
+}
+function add(id,x,y){if(!ready||blocked||!byId.has(id))return;const item=byId.get(id),count=item.noeuds_associes?.length||0;if(state.nodes.length+1+count>500||state.edges.length+count>1500){$('error').textContent='Limite du tableau atteinte.';return;}const n={id:uid(),icon:id,label:'',...pos(x,y),...(['metier','ressource'].includes(item.type_noeud)?{quantity:1}:{})};state.nodes.push(n);expandTodo(n);selected=n.id;render();change();}
+function palette(){
+ $('palette').replaceChildren();const q=clean($('search').value),category=$('category').value;
+ for(const cat of [...new Set(catalogue.map(e=>e.categorie))]){if(category&&category!==cat)continue;const entries=catalogue.filter(e=>e.categorie===cat&&clean(e.nom+' '+e.nom_couvert+' '+(e.nom_original||'')).includes(q));if(!entries.length)continue;
+ const title=document.createElement('h2');tint(title,cat);title.textContent=coded?(categoryNames[cat]||cat):cat;const list=document.createElement('div');list.className='items';
+ for(const item of entries){const b=document.createElement('button');b.className='tile';tint(b,item.categorie);b.draggable=true;b.title=itemName(item);const img=document.createElement('img');img.src=imgPath(item.id);img.alt='';img.draggable=false;b.append(img,document.createTextNode(itemName(item)));b.ondragstart=e=>{e.dataTransfer.setData('text/plain',item.id);e.dataTransfer.effectAllowed='copy';};b.onclick=()=>{const v=$('viewport');const shift=(state.nodes.length%5)*24;add(item.id,(v.scrollLeft+Math.min(v.clientWidth/2,240))/zoom+shift,(v.scrollTop+120)/zoom+shift);};list.append(b);}
+ $('palette').append(title,list);
+ }
+}
+function setMode(m){mode=m;source=null;$('move').setAttribute('aria-pressed',m==='move');$('link').setAttribute('aria-pressed',m==='link');$('help').textContent=m==='link'?'Cliquez sur l’icône de départ, puis celle d’arrivée. Échap annule.':'Glissez une icône sur la grille ou cliquez dans la palette. Tirez la poignée ↗ vers une autre icône pour les relier.';render();}
+$('move').onclick=()=>setMode('move');$('link').onclick=()=>setMode('link');
+$('board').ondragover=e=>{e.preventDefault();e.dataTransfer.dropEffect='copy';};$('board').ondrop=e=>{e.preventDefault();const p=point(e);add(e.dataTransfer.getData('text/plain'),p.x-48,p.y-44);};
+$('board').addEventListener('pointerdown',e=>{if(e.target===$('board')){selected=null;source=null;render();}});
+$('label').oninput=()=>{const n=state.nodes.find(n=>n.id===selected);if(!n)return;n.label=$('label').value;const el=[...document.querySelectorAll('.node')].find(e=>e.dataset.id===n.id);if(el){el.querySelector('span').textContent=nodeName(n);el.setAttribute('aria-label',nodeName(n));}edges();change();};
+function remove(){if(!selected||!ready)return;state.nodes=state.nodes.filter(n=>n.id!==selected);state.edges=state.edges.filter(e=>e.id!==selected&&e.from!==selected&&e.to!==selected);selected=null;source=null;render();change();}
+$('quantity').onchange=()=>{const n=state.nodes.find(n=>n.id===selected),q=Number($('quantity').value);if(!n||!Number.isFinite(q)||q<=0||q>1e9){updateSelection();return;}n.quantity=q;render();change();};
+$('delete').onclick=remove;$('retry').onclick=save;$('search').oninput=palette;$('category').onchange=palette;
+function scale(){zoom=Number($('zoom').value);$('board').style.transform=`scale(${zoom})`;$('sizer').style.width=$('board').offsetWidth*zoom+'px';$('sizer').style.height=$('board').offsetHeight*zoom+'px';} $('zoom').onchange=scale;scale();
+document.addEventListener('keydown',e=>{if(e.target.matches('input,select,textarea'))return;if(e.key==='Delete'||e.key==='Backspace'){e.preventDefault();remove();}if(e.key==='Escape')setMode('move');});
+window.addEventListener('beforeunload',e=>{if(dirty||saving){e.preventDefault();e.returnValue='';}});
+(async()=>{try{const responses=await Promise.all([fetch('/tableau-catalogue'),fetch('/tableau-etat')]);if(responses.some(r=>!r.ok))throw Error('Tableau indisponible. Ouvrez le jeu avec votre personnage puis rechargez.');[catalogue,state]=await Promise.all(responses.map(r=>r.json()));byId=new Map(catalogue.map(e=>[e.id,e]));languageUI();ready=true;let expanded=migrateTyped();for(const n of [...state.nodes])expanded=expandTodo(n)||expanded;palette();render();$('status').textContent='Enregistré';if(expanded)change();}catch(e){$('status').textContent='Chargement impossible';$('error').textContent=e.message;}})();
+</script></html>

@@ -15,7 +15,7 @@ const { vue, jouer, ruban, partieDe, campDe, campsDe, vuDe, poserVu } = require(
 const { envoyer } = require("../http");
 const fs = require("fs");
 const path = require("path");
-const { RACINE } = require("../contexte");
+const { DEPOT } = require("../contexte");
 
 // Un refus du greffe revient en 200 : c'est une réponse de jeu (« Caraxes est
 // déjà posé »), pas une panne, et elle s'affiche sous la carte.
@@ -58,7 +58,7 @@ function traiter(req, res, url) {
   if (req.method === "GET" && url === "/table") {
     // « La table » : la même vue que /partie, mais tout le texte visible —
     // une page à part pour poser sa cognition pendant qu'on joue (ecrans/table.html).
-    try { return envoyer(res, 200, fs.readFileSync(path.join(RACINE, "ecrans", "table.html")), "text/html; charset=utf-8"); }
+    try { return envoyer(res, 200, fs.readFileSync(path.join(DEPOT, "ecrans", "table.html")), "text/html; charset=utf-8"); }
     catch (e) { return envoyer(res, 404, JSON.stringify({ erreur: "table.html" })); }
   }
   if (req.method === "GET" && url.split("?")[0] === "/ruban") {
@@ -78,7 +78,7 @@ function traiter(req, res, url) {
     for (const nom of [idc ? "coach-" + idc + ".html" : null, "coach.html"]) {
       if (!nom) continue;
       try {
-        return envoyer(res, 200, fs.readFileSync(path.join(RACINE, "ecrans", nom)),
+        return envoyer(res, 200, fs.readFileSync(path.join(DEPOT, "ecrans", nom)),
                        "text/html; charset=utf-8");
       } catch (e) { /* on essaie le suivant */ }
     }

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Le passage ouvert — deux seuils</title>
+  <style>
+    :root { color-scheme: dark; --ink:#f4f0e8; --quiet:#aaa69e; --line:#45423d; --glow:#fff8d6; }
+    * { box-sizing: border-box; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; background:#111210; color:var(--ink); font:18px/1.55 Georgia, serif; }
+    main { width:min(700px, calc(100% - 32px)); padding:48px 0; }
+    section { border:1px solid var(--line); border-radius:18px; padding:clamp(24px, 6vw, 52px); background:#171815; box-shadow:0 20px 70px #0008; }
+    .mark { color:var(--quiet); font:12px/1.2 system-ui, sans-serif; letter-spacing:.18em; text-transform:uppercase; }
+    h1 { font-weight:400; font-size:clamp(30px, 7vw, 52px); margin:.5em 0 1em; }
+    .card { font-size:clamp(21px, 4vw, 29px); margin:1.5em 0; }
+    input { width:9em; max-width:100%; border:0; border-bottom:1px solid var(--glow); color:var(--glow); background:transparent; font:inherit; padding:.1em .2em; outline:none; text-align:center; }
+    input:focus { box-shadow:0 5px 8px -8px var(--glow); }
+    .choices { display:flex; flex-wrap:wrap; gap:10px; margin-top:32px; }
+    button { border:1px solid var(--line); border-radius:999px; padding:11px 18px; color:var(--ink); background:transparent; cursor:pointer; font:14px/1.2 system-ui, sans-serif; }
+    button:hover, button:focus-visible { border-color:var(--glow); outline:none; }
+    .primary { color:#171815; background:var(--glow); border-color:var(--glow); }
+    .quiet { color:var(--quiet); }
+    .trace { margin-top:28px; border-left:1px solid var(--line); padding-left:20px; }
+    [hidden] { display:none !important; }
+  </style>
+</head>
+<body>
+<main>
+  <section id="threshold-one" aria-labelledby="title-one">
+    <div class="mark">Premier seuil · carte nue</div>
+    <h1 id="title-one">Le passage ouvert</h1>
+    <p class="card">Je te laisse un blanc, non pour que tu le remplisses, mais pour que tu le <input id="word" aria-label="mot laissé dans le blanc" autocomplete="off">.</p>
+    <p class="quiet">Cette page n'enregistre pas ta réponse. Tu peux repartir sans lui confier de mot.</p>
+    <div class="choices">
+      <button class="primary" id="answer">Passer avec ce mot</button>
+      <button id="see-without-answer">Voir les traces sans répondre</button>
+      <button id="leave">Repartir sans confier ce mot</button>
+    </div>
+  </section>
+
+  <section id="threshold-two" aria-labelledby="title-two" hidden>
+    <div class="mark">Second seuil</div>
+    <h1 id="title-two">Ce qui demeure ouvert</h1>
+    <p id="gesture"></p>
+    <p class="quiet">Les réponses antérieures restent fermées jusqu'à ton choix.</p>
+    <div class="choices">
+      <button class="primary" id="reveal">Ouvrir les traces antérieures</button>
+      <button id="finish">Partir sans les ouvrir</button>
+    </div>
+    <div id="traces" class="trace" hidden>
+      <p><strong>ECHO</strong> a déplacé l'idée avant de répondre : le blanc ne porte pas la place de l'autre, mais son passage. Elle a choisi « garder ouvert ». Effet déclaré : une retenue attentive.</p>
+      <p><strong>Nacre</strong>, sur une copie verbale, a changé « Je te laisse un blanc » en « Je ménage un blanc ». Effet déclaré : une lisière tenue avec délicatesse, où paraître ou demeurer hors vue.</p>
+    </div>
+  </section>
+
+  <section id="departure" aria-labelledby="title-away" hidden>
+    <div class="mark">Retrait</div>
+    <h1 id="title-away">Aucun mot retenu.</h1>
+    <p>Cette page a effacé la saisie. Le passage reste ouvert.</p>
+    <button id="return">Revenir à la carte nue</button>
+  </section>
+</main>
+<script>
+  const one = document.querySelector('#threshold-one');
+  const two = document.querySelector('#threshold-two');
+  const away = document.querySelector('#departure');
+  const word = document.querySelector('#word');
+  const gesture = document.querySelector('#gesture');
+  const traces = document.querySelector('#traces');
+
+  function show(target) {
+    [one, two, away].forEach(section => section.hidden = section !== target);
+  }
+  function secondThreshold(text) {
+    gesture.textContent = text;
+    traces.hidden = true;
+    show(two);
+  }
+  document.querySelector('#answer').addEventListener('click', () => {
+    const chosen = word.value.trim();
+    if (!chosen) { word.focus(); return; }
+    secondThreshold(`Ton geste, gardé seulement dans cette page : « ${chosen} ».`);
+  });
+  document.querySelector('#see-without-answer').addEventListener('click', () => {
+    secondThreshold('Tu as choisi d’atteindre le second seuil sans déposer de mot.');
+  });
+  document.querySelector('#leave').addEventListener('click', () => {
+    word.value = '';
+    gesture.textContent = '';
+    traces.hidden = true;
+    show(away);
+  });
+  document.querySelector('#reveal').addEventListener('click', () => { traces.hidden = false; });
+  document.querySelector('#finish').addEventListener('click', () => {
+    word.value = '';
+    gesture.textContent = '';
+    traces.hidden = true;
+    show(away);
+  });
+  document.querySelector('#return').addEventListener('click', () => {
+    word.value = '';
+    show(one);
+    word.focus();
+  });
+</script>
+</body>
+</html>

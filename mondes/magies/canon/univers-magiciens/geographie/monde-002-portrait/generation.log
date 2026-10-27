@@ -1,0 +1,76 @@
+Worldengine - a world generator (v. 0.20.0)
+-----------------------
+ operation            : world generation
+ seed                 : 1609
+ name                 : monde-002-portrait
+ width                : 512
+ height               : 1024
+ number of plates     : 12
+ world format         : protobuf
+ black and white maps : False
+ step                 : full
+ greyscale heightmap  : True
+ icecaps heightmap    : True
+ rivers map           : True
+ scatter plot         : False
+ satellite map        : True
+ fade borders         : True
+ gamma value          : 1.25
+ gamma offset         : 0.2
+
+starting (it could take a few minutes) ...
+...plates.generate_plates_simulation() complete. Elapsed time 19.807515859603882 seconds.
+geo.center_land: height complete
+geo.center_land: width complete
+geo.center_land: width complete
+...plates.world_gen: set_elevation, set_plates, center_land complete. Elapsed time 19.835399866104126 seconds.
+...plates.world_gen: elevation noise added. Elapsed time 0.6630690097808838 seconds.
+...plates.world_gen: oceans initialized. Elapsed time 2.8866429328918457 seconds.
+...precipitations calculated. Elapsed time 1.401025  seconds.
+...erosion calculated
+
+Biome obtained:
+                          ocean =  416445
+                            ice =   10988
+                   polar desert =    2657
+          subpolar moist tundra =    4199
+            subpolar wet tundra =    5703
+            subpolar dry tundra =    1808
+                  boreal desert =    2034
+           subpolar rain tundra =     230
+               boreal dry scrub =    2631
+            boreal moist forest =    7370
+              boreal wet forest =    6077
+    cool temperate moist forest =    6527
+          cool temperate steppe =    8163
+             boreal rain forest =      34
+      cool temperate wet forest =     470
+    cool temperate desert scrub =    1543
+          cool temperate desert =      47
+      warm temperate dry forest =    4331
+    warm temperate moist forest =    1522
+     warm temperate thorn scrub =    2303
+       subtropical moist forest =    7885
+         subtropical dry forest =   11398
+         subtropical wet forest =    2347
+        subtropical rain forest =     435
+            tropical dry forest =    7889
+          tropical moist forest =    4109
+       tropical very dry forest =     456
+            tropical wet forest =     811
+           tropical rain forest =     189
+        tropical thorn woodland =      12
+     subtropical thorn woodland =    3675
+
+Producing ouput:
+* world data saved in 'geographie/monde-002-portrait/monde-002-portrait.world'
+* ocean image generated in 'geographie/monde-002-portrait/monde-002-portrait_ocean.png'
+* precipitation image generated in 'geographie/monde-002-portrait/monde-002-portrait_precipitation.png'
+* temperature image generated in 'geographie/monde-002-portrait/monde-002-portrait_temperature.png'
+* biome image generated in 'geographie/monde-002-portrait/monde-002-portrait_biome.png'
+* elevation image generated in 'geographie/monde-002-portrait/monde-002-portrait_elevation.png'
++ grayscale heightmap generated in 'geographie/monde-002-portrait/monde-002-portrait_grayscale.png'
++ rivers map generated in 'geographie/monde-002-portrait/monde-002-portrait_rivers.png'
++ satellite map generated in 'geographie/monde-002-portrait/monde-002-portrait_satellite.png'
++ icecap map generated in 'geographie/monde-002-portrait/monde-002-portrait_icecaps.png'
+...done

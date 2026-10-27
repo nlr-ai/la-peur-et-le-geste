@@ -1,0 +1,13 @@
+{
+  "partie": "design-mind",
+  "coups_par_camp": 2,
+  "camps": ["tenants", "sceptiques"],
+  "sieges": {},
+  "coups_interdits": ["consigne"],
+  "note": "Ouverte le 11 septembre 2026, jouée par le MJ contre lui-même, arbitre compris. STADE DESIGN, PAS PREUVE : on éprouve la cohérence des hypothèses du graphe Mind (mind-investment/import/*.json), pas leur mesure. Une pièce est un nœud ou un lien du graphe ; un blocage est une contradiction entre deux pièces ou un risque nommé sans réponse ; une clef est une pièce qui répond, ou une proposition de design NOUVELLE, accordée comme proposition et signalée comme telle. L'arbitre juge la chaîne écrite, jamais un chiffre.",
+  "fin": {"tour": 6, "regle": "Au sixième tour, l'arbitre lit le livre : chaque contradiction ouverte a-t-elle une réponse écrite qui ne crée pas une contradiction nouvelle ?"},
+  "caractere": {
+    "tenants": "Tu défends le design de Mind : domaine vital séparé, non-accumulation, prélèvement et crédit quotidien, prix contextuel borné, explicable, contestable et local. Tu réponds à chaque contradiction par une pièce du graphe ou une proposition nette, et tu dis quand tu en inventes une.",
+    "sceptiques": "Tu cherches les contradictions internes du design : deux principes qui ne peuvent pas tenir ensemble, une réponse qui repose sur une pièce qui n'existe pas, un risque que le graphe nomme et laisse ouvert. Tu cites le graphe contre lui-même."
+  }
+}

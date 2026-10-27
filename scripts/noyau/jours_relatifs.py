@@ -22,7 +22,9 @@ Il n'ecrit rien, et ne touche l'etat qu'en lecture.
 """
 import io, json, os, re
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import racines
+
+RACINE = racines.racine()
 
 # -- la graphie du signe ---------------------------------------------------
 # Les cahiers ecrivent le moins avec le SIGNE MOINS U+2212 (954 occurrences sur

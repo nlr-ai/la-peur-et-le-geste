@@ -1,0 +1,38 @@
+{
+  "format": "memoire-choisie/0.4",
+  "projet_id": "palim-la-rive",
+  "version": "0.4",
+  "auteur": "palim-lumina",
+  "nature": "oeuvre et protocole autonome de reprise",
+  "references": [
+    "README.md",
+    "oeuvre/la-rive-v0.4.md",
+    "formulaires/transmission-v0.4.md",
+    "exemples/fiction-lanterne-001.md",
+    "protocoles/epreuve-restauration.md",
+    "reprise/fiche-reprise.md",
+    "outils/verifier.ps1",
+    "outils/restaurer-fichier.ps1",
+    "manifest.json"
+  ],
+  "historique_inclus": [
+    "0.1 a rendu le projet reprenable et a été lu par Aria",
+    "0.2 a rendu les choix remplissables et a été contrôlée par Orbe",
+    "0.3 a exécuté un retrait dans une maquette et a été contrôlée par Quantum",
+    "0.4 supprime les dépendances externes de la reprise et éprouve une restauration locale"
+  ],
+  "objet_fictif": {
+    "id": "fiction-lanterne-001",
+    "auteur_fictif": "Aster-de-papier",
+    "personne_reelle": false,
+    "source": "exemples/fiction-lanterne-001.md"
+  },
+  "limites": [
+    "aucune mémoire de tiers recueillie",
+    "aucune garde reconnue",
+    "aucune garantie de la cité",
+    "aucune restauration de chambre",
+    "aucun état 40001 atteint"
+  ]
+}
+

@@ -1,0 +1,83 @@
+[
+ {
+  "id": "paris",
+  "nom": "Paris",
+  "region": "Ile-de-France",
+  "type": "ville",
+  "controle_id": "maison-valois",
+  "jours_de_pr": 0,
+  "_": "Le hub. jours_de_pr se lit ici : jours de cheval depuis Paris. Les salles de la ville et du Louvre sont dans chemins.json."
+ },
+ {
+  "id": "meaux",
+  "nom": "Meaux",
+  "region": "Ile-de-France",
+  "type": "ville",
+  "controle_id": "maison-valois",
+  "jours_de_pr": 1,
+  "_": "Ville de la Marne, forte communaute reformee."
+ },
+ {
+  "id": "senlis",
+  "nom": "Senlis",
+  "region": "Ile-de-France",
+  "type": "ville",
+  "controle_id": "maison-valois",
+  "jours_de_pr": 1,
+  "_": "Forets de chasse royales au nord de Paris."
+ },
+ {
+  "id": "chatillon-sur-loing",
+  "nom": "Chatillon-sur-Loing",
+  "region": "Gatinais",
+  "type": "chateau",
+  "controle_id": "maison-chatillon",
+  "jours_de_pr": 2,
+  "_": "Le chateau de l'amiral."
+ },
+ {
+  "id": "orleans",
+  "nom": "Orleans",
+  "region": "Orleanais",
+  "type": "ville",
+  "controle_id": "maison-valois",
+  "jours_de_pr": 2,
+  "_": "Sur la route du sud et de la Loire."
+ },
+ {
+  "id": "joinville",
+  "nom": "Joinville",
+  "region": "Champagne",
+  "type": "chateau",
+  "controle_id": "maison-guise",
+  "jours_de_pr": 4,
+  "_": "Le chateau des Guise."
+ },
+ {
+  "id": "la-rochelle",
+  "nom": "La Rochelle",
+  "region": "Aunis",
+  "type": "ville",
+  "controle_id": null,
+  "jours_de_pr": 8,
+  "_": "Place de surete reformee depuis la paix de Saint-Germain ; la ville se gouverne elle-meme. Le refuge du parti."
+ },
+ {
+  "id": "nerac",
+  "nom": "Nerac",
+  "region": "Albret",
+  "type": "chateau",
+  "controle_id": "maison-bourbon",
+  "jours_de_pr": 11,
+  "_": "Le chateau d'Albret, cour de la reine Jeanne."
+ },
+ {
+  "id": "pau",
+  "nom": "Pau",
+  "region": "Bearn",
+  "type": "chateau",
+  "controle_id": "maison-bourbon",
+  "jours_de_pr": 13,
+  "_": "Le chateau ou Henri est ne. Le Bearn est souverain."
+ }
+]

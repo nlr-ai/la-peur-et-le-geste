@@ -1,0 +1,27 @@
+{
+ "_": "CHARMED — San Francisco, automne 2001, saison 4. Prue est morte de la main de Shax ; Paige Matthews, la demi-sœur que personne ne connaissait, a reconstitué le Pouvoir des Trois. On y joue Phoebe Halliwell, et, en face, la Source de tout mal. Le canon de la série est la pente du monde ; il ne se produit plus de lui-même là où l'un des deux sièges décide.",
+ "id": "charmed",
+ "nom": "Charmed",
+ "calendrier": {
+  "lunes": 12,
+  "jours_par_lune": 30,
+  "dit": "%(jour)d / %(lune)d / %(annee)d",
+  "_": "Le moteur compte 12 mois de 30 jours ; le grégorien non. L'écart est assumé comme dans charmed-1906 : aucune date de ce monde ne sert à un calcul qui en sortirait."
+ },
+ "monnaie": {
+  "unites": [
+   "dollar",
+   "dollars",
+   "cent",
+   "cents"
+  ]
+ },
+ "depart": {
+  "lieu": "san-francisco",
+  "siege": "phoebe-halliwell"
+ },
+ "gens": {
+  "brouillard": true,
+  "_": "« Les gens » ne sert à un siège que ceux qu'il peut connaître : sa maison, son entourage, ceux qu'il a en relation (serveur/monde/connus.js). Un démon que Phoebe n'a pas croisé n'existe pas pour elle à l'écran."
+ }
+}

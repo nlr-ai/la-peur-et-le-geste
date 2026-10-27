@@ -1,0 +1,28 @@
+{
+  "canal": [
+    "mj",
+    "morag-macrae"
+  ],
+  "entrees": [
+    {
+      "de": "morag-macrae",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4
+      },
+      "texte": "[QUESTION MONDE — HORS FICTION] Depuis le Petit hameau derrière la crête, quel itinéraire vers Inverness est désormais établi, et quels repères, embranchements ou délais Morag Macrae peut-elle normalement connaître et garantir aux voyageurs présents ?",
+      "ref": "vmusfdaahx4p0"
+    },
+    {
+      "de": "mj",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4
+      },
+      "texte": "[REPONSE MONDE — HORS FICTION] L’itinéraire est désormais établi comme géographie de partie :\n\n1. Hameau → gué : 25 min.\n2. Gué → route basse : 20 min.\n3. Continuer sur la voie large, sans remonter vers la ferme.\n4. Route basse → embranchement des aulnes : 55 min.\n5. Prendre la branche de gauche, entre les aulnes ; celle de droite monte vers la lande.\n6. Embranchement → pierre fendue : 1 h.\n7. Pierre fendue → sortie d’Inverness : 1 h.\n8. Sortie → place du marché : 10 min.\n\nTotal ordinaire : **3 h 50 à pied**, sans longue halte et par temps praticable. Depuis la présence constatée vers 14 h 32, cela donnerait environ **18 h 22**, sans constituer une garantie d’arrivée avant la nuit.\n\nMorag peut normalement connaître et garantir :\n\n- cet enchaînement ;\n- le gué, la route basse, l’embranchement des aulnes et la pierre fendue ;\n- la branche à prendre ;\n- une estimation honnête d’« environ quatre heures ».\n\nElle ne peut garantir ni l’état actuel du gué et des portions éloignées, ni la boue, la météo, les rencontres, la sécurité intégrale, l’allure des voyageurs ou l’heure exacte d’arrivée. Sa déclaration antérieure — ne pas connaître de « route sûre » — reste donc cohérente : elle connaît la route usuelle, mais n’en garantit pas la sûreté.\n\nLe raccord et ses limites sont consignés dans [canon/lieux.md](C:/Users/reyno/le-conseil2/mondes/outlander/canon/lieux.md:16), avec les nœuds et délais exécutables dans [etat/chemins.json](C:/Users/reyno/le-conseil2/mondes/outlander/etat/chemins.json:42) et les nouveaux repères dans [etat/lieux.json](C:/Users/reyno/le-conseil2/mondes/outlander/etat/lieux.json:67). Aucun déplacement, acte, dialogue, horaire ou présence n’a été ajouté.",
+      "ref": "vmusfdaahx4p0"
+    }
+  ]
+}

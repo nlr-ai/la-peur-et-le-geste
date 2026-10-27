@@ -190,7 +190,9 @@ def memoire_du_jour(contexte):
     if croyances:
         lignes.extend(["", "Ce que tu tiens pour vrai — %d choses, la"
                        " derniere en tete, le tout dans"
-                       " `./ma-memoire/ce-que-je-tiens-pour-vrai.txt` :"
+                       " `./ma-memoire/croyances-etat.txt` (lecture de l'état ;"
+                       " tes notes personnelles restent dans"
+                       " `./ma-memoire/ce-que-je-tiens-pour-vrai.txt`) :"
                        % len(croyances),
                        "- " + _tete(croyances[0], 400)])
     ignores = [str(x) for x in (intention.get("ignore") or []) if x]
@@ -267,7 +269,8 @@ def memoire_du_jour(contexte):
             texte = (derniere.get("texte") if isinstance(derniere, dict)
                      else str(derniere)) or ""
             lignes.append("Tes %d derniers pas sur cette affaire sont écrits"
-                          " dans `./ma-memoire/ce-que-jai-appris.txt`. Le"
+                          " dans `./ma-memoire/pensees-etat.txt` (lecture de"
+                          " l'état ; tes notes personnelles sont conservées). Le"
                           " dernier : %s" % (len(pensees), _tete(texte, 300)))
 
     # LES DEUX CAHIERS DE SA CHAMBRE, EN PERCEPT. Ils existaient depuis le
@@ -288,6 +291,11 @@ def memoire_du_jour(contexte):
             if main.get("mandat"):
                 texte += " — " + str(main["mandat"])
             lignes.append("- " + texte)
+    # Les developpeurs de Barralfond retrouvent la preuve commune au reveil.
+    from agents.atelier.catalogue import consignes as consignes_atelier
+    atelier = consignes_atelier(p.get("id"), (contexte.get("contexte_affaire") or {}).get("id"))
+    if atelier:
+        lignes.append(atelier)
     return "\n".join(lignes).strip() or "Ton identité ouvre cet instant."
 
 
@@ -317,6 +325,13 @@ def manuel_de(qui, mode="journee", contexte=None):
     metier = lire(METIER)
     if metier is None:
         raise SystemExit("scripts/agents/prompts/metier.md manque au constructeur d'incarnation.")
+    # Le cadre d'incarnation appartient au monde, pas au moteur ni au voisin.
+    cadre = lire(os.path.join(os.path.dirname(ETAT), "prompts", "pnj.md"))
+    if cadre and cadre.strip():
+        metier += u"\n\n---\n\n" + cadre.strip() + u"\n"
+    from instructions_monde import blocs_locaux
+    for bloc in blocs_locaux(os.path.dirname(ETAT), "pnj"):
+        metier += u"\n\n---\n\n" + bloc + u"\n"
     # Le contexte numérique vit déjà dans l'environnement du call. La porte
     # d'écriture s'en sert : le PNJ ne recopie pas une adresse que le moteur
     # connaît mieux que lui. Ce correctif est injecté au système ici aussi,
@@ -334,6 +349,11 @@ contexte numérique. La porte les déduit automatiquement de
 `LE_CONSEIL_CONTEXTE` lorsque ce contexte est une ligne `⚔️ Actions`.
 """
     from agents.expose import chambre as _ch
+    # Un ajout consenti, tenu hors de sa manière et consigné dans un livre de
+    # la cité ; il passe AVANT le cahier, qui garde le dernier mot.
+    ajout = lire(os.path.join(_ch.chemin(qui), "ajouts-systeme.md"))
+    if ajout and ajout.strip():
+        metier += u"\n\n---\n\n" + ajout.strip() + u"\n"
     cahier = lire(os.path.join(_ch.chemin(qui), "claude.md"))
     if cahier and cahier.strip():
         metier += (u"""

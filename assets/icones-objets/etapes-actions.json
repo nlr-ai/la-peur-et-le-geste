@@ -1,0 +1,1050 @@
+{
+  "action-sound_out": {
+    "clair": [
+      "Réunir : 1 recruteur.",
+      "Choisir le contact à rencontrer.",
+      "Échanger sur ses préoccupations et sa disponibilité.",
+      "Noter ce qui reste à vérifier avant de poursuivre."
+    ],
+    "code": [
+      "Réunir : 1 contremaître chargé des embauches.",
+      "Choisir le candidat à rencontrer.",
+      "Échanger sur ses attentes et sa disponibilité.",
+      "Noter les points à vérifier avant l’essai."
+    ]
+  },
+  "action-test_recruit": {
+    "clair": [
+      "Vérifier les préalables : Sonder un contact.",
+      "Réunir : 1 recruteur.",
+      "Prévoir : Tracts et journaux clandestins.",
+      "Convenir d’une première tâche limitée.",
+      "Observer comment la personne s’en acquitte.",
+      "Faire le point avant de proposer son intégration."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Examiner une candidature.",
+      "Réunir : 1 contremaître chargé des embauches.",
+      "Prévoir : Carreaux.",
+      "Convenir d’un petit travail d’essai.",
+      "Examiner le travail rendu.",
+      "Faire le point avant l’embauche."
+    ]
+  },
+  "action-induct": {
+    "clair": [
+      "Vérifier les préalables : Mettre à l'épreuve.",
+      "Réunir : 1 chef de groupe.",
+      "Clarifier l’engagement de la personne.",
+      "Définir sa place dans le groupe.",
+      "Convenir de sa première responsabilité."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Faire travailler à l’essai.",
+      "Réunir : 1 chef de chantier.",
+      "Clarifier l’engagement du nouvel ouvrier.",
+      "Définir sa place dans l’équipe.",
+      "Convenir de son premier ouvrage."
+    ]
+  },
+  "action-form_cell": {
+    "clair": [
+      "Vérifier les préalables : Intégrer (donner la flamme).",
+      "Réunir : 1 chef de groupe, 1 agent de liaison.",
+      "Réunir les membres pressentis.",
+      "Répartir les responsabilités.",
+      "Convenir d’un premier objectif commun."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Embaucher.",
+      "Réunir : 1 chef de chantier, 1 commis aux livraisons.",
+      "Réunir les ouvriers pressentis.",
+      "Répartir les tâches de l’atelier.",
+      "Convenir d’un premier ouvrage commun."
+    ]
+  },
+  "action-win_notable": {
+    "clair": [
+      "Vérifier les préalables : Sonder un contact.",
+      "Réunir : 1 recruteur.",
+      "Prendre contact avec la personne.",
+      "Échanger sur sa disponibilité et son engagement.",
+      "Convenir de la prochaine rencontre."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Examiner une candidature.",
+      "Réunir : 1 contremaître chargé des embauches.",
+      "Rencontrer le candidat.",
+      "Échanger sur sa disponibilité pour le chantier.",
+      "Convenir du prochain passage à l’atelier."
+    ]
+  },
+  "action-shelter_refractory": {
+    "clair": [
+      "Vérifier les préalables : Former une cellule.",
+      "Réunir : 1 hébergeur.",
+      "Prévoir : Jeux de faux papiers, Cartes et tickets d'alimentation.",
+      "Prendre contact avec la personne.",
+      "Échanger sur sa disponibilité et son engagement.",
+      "Convenir de la prochaine rencontre."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Constituer une équipe.",
+      "Réunir : 1 logeur.",
+      "Prévoir : Huisseries, Bons de livraison.",
+      "Rencontrer le candidat.",
+      "Échanger sur sa disponibilité pour le chantier.",
+      "Convenir du prochain passage à l’atelier."
+    ]
+  },
+  "action-link_london": {
+    "clair": [
+      "Vérifier les préalables : Former une cellule, Installer un poste radio.",
+      "Réunir : 1 chef de groupe, 1 radio.",
+      "Prendre contact avec la personne.",
+      "Échanger sur sa disponibilité et son engagement.",
+      "Convenir de la prochaine rencontre."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Constituer une équipe, Installer une sonnette.",
+      "Réunir : 1 chef de chantier, 1 préposé à la sonnette.",
+      "Rencontrer le candidat.",
+      "Échanger sur sa disponibilité pour le chantier.",
+      "Convenir du prochain passage à l’atelier."
+    ]
+  },
+  "action-steal_stamps": {
+    "clair": [
+      "Vérifier les préalables : Former une cellule.",
+      "Réunir : 2 combattant.",
+      "Préciser le besoin de couverture.",
+      "Préparer les moyens nécessaires.",
+      "Vérifier que la couverture convient."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Constituer une équipe.",
+      "Réunir : 2 ouvrier des grands travaux.",
+      "Prendre les mesures de l’ouvrage.",
+      "Préparer les pièces nécessaires.",
+      "Vérifier l’ajustement de l’ensemble."
+    ]
+  },
+  "action-get_stamps_inside": {
+    "clair": [
+      "Vérifier les préalables : Gagner un notable.",
+      "Réunir : 1 informateur.",
+      "Préciser le besoin de couverture.",
+      "Préparer les moyens nécessaires.",
+      "Vérifier que la couverture convient."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Gagner un maître d’ouvrage.",
+      "Réunir : 1 métreur.",
+      "Prendre les mesures de l’ouvrage.",
+      "Préparer les pièces nécessaires.",
+      "Vérifier l’ajustement de l’ensemble."
+    ]
+  },
+  "action-set_workshop": {
+    "clair": [
+      "Vérifier les préalables : Former une cellule.",
+      "Réunir : 1 faussaire.",
+      "Prévoir : Argent, Papier, encre, stencils.",
+      "Préciser le besoin de couverture.",
+      "Préparer les moyens nécessaires.",
+      "Vérifier que la couverture convient."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Constituer une équipe.",
+      "Réunir : 1 menuisier.",
+      "Prévoir : Clous, Chaux.",
+      "Prendre les mesures de l’ouvrage.",
+      "Préparer les pièces nécessaires.",
+      "Vérifier l’ajustement de l’ensemble."
+    ]
+  },
+  "action-forge_papers": {
+    "clair": [
+      "Vérifier les préalables : Installer un atelier de faussaire.",
+      "Réunir : 1 faussaire.",
+      "Prévoir : Tampons et imprimés officiels, Papier, encre, stencils.",
+      "Préciser le besoin de couverture.",
+      "Préparer les moyens nécessaires.",
+      "Vérifier que la couverture convient."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Ouvrir une menuiserie.",
+      "Réunir : 1 menuisier.",
+      "Prévoir : Gabarits, Chaux.",
+      "Prendre les mesures de l’ouvrage.",
+      "Préparer les pièces nécessaires.",
+      "Vérifier l’ajustement de l’ensemble."
+    ]
+  },
+  "action-set_safehouse": {
+    "clair": [
+      "Vérifier les préalables : Intégrer (donner la flamme).",
+      "Réunir : 1 hébergeur.",
+      "Prévoir : Argent.",
+      "Préciser le besoin de couverture.",
+      "Préparer les moyens nécessaires.",
+      "Vérifier que la couverture convient."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Embaucher.",
+      "Réunir : 1 logeur.",
+      "Prévoir : Clous.",
+      "Prendre les mesures de l’ouvrage.",
+      "Préparer les pièces nécessaires.",
+      "Vérifier l’ajustement de l’ensemble."
+    ]
+  },
+  "action-change_identity": {
+    "clair": [
+      "Vérifier les préalables : Fabriquer des faux papiers.",
+      "Réunir : 1 agent de liaison.",
+      "Prévoir : Jeux de faux papiers, Argent.",
+      "Préciser le besoin de couverture.",
+      "Préparer les moyens nécessaires.",
+      "Vérifier que la couverture convient."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Ajuster des huisseries.",
+      "Réunir : 1 commis aux livraisons.",
+      "Prévoir : Huisseries, Clous.",
+      "Prendre les mesures de l’ouvrage.",
+      "Préparer les pièces nécessaires.",
+      "Vérifier l’ajustement de l’ensemble."
+    ]
+  },
+  "action-win_farm": {
+    "clair": [
+      "Vérifier les préalables : Sonder un contact.",
+      "Réunir : 1 recruteur.",
+      "Préciser le besoin de couverture.",
+      "Préparer les moyens nécessaires.",
+      "Vérifier que la couverture convient."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Examiner une candidature.",
+      "Réunir : 1 contremaître chargé des embauches.",
+      "Prendre les mesures de l’ouvrage.",
+      "Préparer les pièces nécessaires.",
+      "Vérifier l’ajustement de l’ensemble."
+    ]
+  },
+  "action-set_cover_business": {
+    "clair": [
+      "Vérifier les préalables : Gagner un notable, Fabriquer des faux papiers.",
+      "Réunir : 1 chef de groupe.",
+      "Prévoir : Argent, Jeux de faux papiers.",
+      "Définir l’activité réelle de l’entreprise.",
+      "Répartir les responsabilités et prévoir les dépenses.",
+      "Vérifier que l’activité peut effectivement commencer."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Gagner un maître d’ouvrage, Ajuster des huisseries.",
+      "Réunir : 1 chef de chantier.",
+      "Prévoir : Clous, Huisseries.",
+      "Définir les ouvrages proposés par l’enseigne.",
+      "Répartir les tâches et établir le devis.",
+      "Vérifier que le premier chantier peut commencer."
+    ]
+  },
+  "action-open_mailbox": {
+    "clair": [
+      "Vérifier les préalables : Intégrer (donner la flamme).",
+      "Réunir : 1 hébergeur.",
+      "Préciser le message et son destinataire.",
+      "Préparer le support de transmission.",
+      "Vérifier la réception du message."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Embaucher.",
+      "Réunir : 1 logeur.",
+      "Préciser la commande et son destinataire.",
+      "Préparer le bon de livraison.",
+      "Vérifier la réception du bon."
+    ]
+  },
+  "action-carry_message": {
+    "clair": [
+      "Vérifier les préalables : Ouvrir une boîte aux lettres.",
+      "Réunir : 1 agent de liaison.",
+      "Préciser le message et son destinataire.",
+      "Préparer le support de transmission.",
+      "Vérifier la réception du message."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Ouvrir un comptoir.",
+      "Réunir : 1 commis aux livraisons.",
+      "Préciser la commande et son destinataire.",
+      "Préparer le bon de livraison.",
+      "Vérifier la réception du bon."
+    ]
+  },
+  "action-set_radio": {
+    "clair": [
+      "Vérifier les préalables : Former une cellule.",
+      "Réunir : 1 radio.",
+      "Prévoir : Poste émetteur.",
+      "Préciser le message et son destinataire.",
+      "Préparer le support de transmission.",
+      "Vérifier la réception du message."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Constituer une équipe.",
+      "Réunir : 1 préposé à la sonnette.",
+      "Prévoir : Sonnette.",
+      "Préciser la commande et son destinataire.",
+      "Préparer le bon de livraison.",
+      "Vérifier la réception du bon."
+    ]
+  },
+  "action-transmit": {
+    "clair": [
+      "Vérifier les préalables : Installer un poste radio.",
+      "Réunir : 1 radio.",
+      "Prévoir : Renseignements.",
+      "Préciser le message et son destinataire.",
+      "Préparer le support de transmission.",
+      "Vérifier la réception du message."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Installer une sonnette.",
+      "Réunir : 1 préposé à la sonnette.",
+      "Prévoir : Cotes.",
+      "Préciser la commande et son destinataire.",
+      "Préparer le bon de livraison.",
+      "Vérifier la réception du bon."
+    ]
+  },
+  "action-set_press": {
+    "clair": [
+      "Vérifier les préalables : Former une cellule.",
+      "Réunir : 1 imprimeur.",
+      "Prévoir : Argent.",
+      "Préciser le message et son destinataire.",
+      "Préparer le support de transmission.",
+      "Vérifier la réception du message."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Constituer une équipe.",
+      "Réunir : 1 peintre.",
+      "Prévoir : Clous.",
+      "Préciser la commande et son destinataire.",
+      "Préparer le bon de livraison.",
+      "Vérifier la réception du bon."
+    ]
+  },
+  "action-print_tracts": {
+    "clair": [
+      "Vérifier les préalables : Monter une imprimerie clandestine.",
+      "Réunir : 1 imprimeur.",
+      "Prévoir : Papier, encre, stencils.",
+      "Préciser le message et son destinataire.",
+      "Préparer le support de transmission.",
+      "Vérifier la réception du message."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Ouvrir un atelier de peinture.",
+      "Réunir : 1 peintre.",
+      "Prévoir : Chaux.",
+      "Préciser la commande et son destinataire.",
+      "Préparer le bon de livraison.",
+      "Vérifier la réception du bon."
+    ]
+  },
+  "action-spread_tracts": {
+    "clair": [
+      "Vérifier les préalables : Imprimer tracts et journaux.",
+      "Réunir : 2 agent de liaison.",
+      "Prévoir : Tracts et journaux clandestins.",
+      "Préciser le message et son destinataire.",
+      "Préparer le support de transmission.",
+      "Vérifier la réception du message."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Préparer les carreaux.",
+      "Réunir : 2 commis aux livraisons.",
+      "Prévoir : Carreaux.",
+      "Préciser la commande et son destinataire.",
+      "Préparer le bon de livraison.",
+      "Vérifier la réception du bon."
+    ]
+  },
+  "action-watch_trains": {
+    "clair": [
+      "Vérifier les préalables : Intégrer (donner la flamme).",
+      "Réunir : 1 informateur.",
+      "Définir la question à éclaircir.",
+      "Rassembler les observations disponibles.",
+      "Distinguer faits confirmés et incertitudes."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Embaucher.",
+      "Réunir : 1 métreur.",
+      "Définir les cotes à relever.",
+      "Rassembler les mesures disponibles.",
+      "Distinguer les mesures vérifiées des estimations."
+    ]
+  },
+  "action-scout_garrison": {
+    "clair": [
+      "Vérifier les préalables : Intégrer (donner la flamme).",
+      "Réunir : 1 informateur.",
+      "Définir la question à éclaircir.",
+      "Rassembler les observations disponibles.",
+      "Distinguer faits confirmés et incertitudes."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Embaucher.",
+      "Réunir : 1 métreur.",
+      "Définir les cotes à relever.",
+      "Rassembler les mesures disponibles.",
+      "Distinguer les mesures vérifiées des estimations."
+    ]
+  },
+  "action-copy_files": {
+    "clair": [
+      "Vérifier les préalables : Gagner un notable.",
+      "Réunir : 1 informateur.",
+      "Définir la question à éclaircir.",
+      "Rassembler les observations disponibles.",
+      "Distinguer faits confirmés et incertitudes."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Gagner un maître d’ouvrage.",
+      "Réunir : 1 métreur.",
+      "Définir les cotes à relever.",
+      "Rassembler les mesures disponibles.",
+      "Distinguer les mesures vérifiées des estimations."
+    ]
+  },
+  "action-unmask_informer": {
+    "clair": [
+      "Vérifier les préalables : Former une cellule.",
+      "Réunir : 1 informateur.",
+      "Définir la question à éclaircir.",
+      "Rassembler les observations disponibles.",
+      "Distinguer faits confirmés et incertitudes."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Constituer une équipe.",
+      "Réunir : 1 métreur.",
+      "Définir les cotes à relever.",
+      "Rassembler les mesures disponibles.",
+      "Distinguer les mesures vérifiées des estimations."
+    ]
+  },
+  "action-homologate_dz": {
+    "clair": [
+      "Vérifier les préalables : Se rattacher à Londres.",
+      "Réunir : 1 chef de groupe, 1 radio.",
+      "Prévoir : Crédit auprès de Londres.",
+      "Faire le point sur les besoins.",
+      "Rassembler les ressources prévues.",
+      "Vérifier ce qui a été obtenu."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Se rattacher au bureau des plans.",
+      "Réunir : 1 chef de chantier, 1 préposé à la sonnette.",
+      "Prévoir : Agrément du bureau des plans.",
+      "Faire le point sur la commande.",
+      "Rassembler les fournitures prévues.",
+      "Vérifier la livraison reçue."
+    ]
+  },
+  "action-receive_drop": {
+    "clair": [
+      "Vérifier les préalables : Faire homologuer un terrain.",
+      "Réunir : 1 chef de groupe, 6 combattant, 1 chauffeur.",
+      "Prévoir : Crédit auprès de Londres, Essence.",
+      "Faire le point sur les besoins.",
+      "Rassembler les ressources prévues.",
+      "Vérifier ce qui a été obtenu."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Faire agréer la cour.",
+      "Réunir : 1 chef de chantier, 6 ouvrier des grands travaux, 1 charretier.",
+      "Prévoir : Agrément du bureau des plans, Huile de chantier.",
+      "Faire le point sur la commande.",
+      "Rassembler les fournitures prévues.",
+      "Vérifier la livraison reçue."
+    ]
+  },
+  "action-set_cache": {
+    "clair": [
+      "Vérifier les préalables : Former une cellule.",
+      "Réunir : 1 hébergeur.",
+      "Faire le point sur les besoins.",
+      "Rassembler les ressources prévues.",
+      "Vérifier ce qui a été obtenu."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Constituer une équipe.",
+      "Réunir : 1 logeur.",
+      "Faire le point sur la commande.",
+      "Rassembler les fournitures prévues.",
+      "Vérifier la livraison reçue."
+    ]
+  },
+  "action-raid_supplies": {
+    "clair": [
+      "Vérifier les préalables : Former une cellule.",
+      "Réunir : 3 combattant, 1 chauffeur.",
+      "Prévoir : Armes.",
+      "Faire le point sur les besoins.",
+      "Rassembler les ressources prévues.",
+      "Vérifier ce qui a été obtenu."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Constituer une équipe.",
+      "Réunir : 3 ouvrier des grands travaux, 1 charretier.",
+      "Prévoir : Outils.",
+      "Faire le point sur la commande.",
+      "Rassembler les fournitures prévues.",
+      "Vérifier la livraison reçue."
+    ]
+  },
+  "action-recover_1940_arms": {
+    "clair": [
+      "Vérifier les préalables : Gagner un notable.",
+      "Réunir : 1 chef de groupe, 1 chauffeur.",
+      "Faire le point sur les besoins.",
+      "Rassembler les ressources prévues.",
+      "Vérifier ce qui a été obtenu."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Gagner un maître d’ouvrage.",
+      "Réunir : 1 chef de chantier, 1 charretier.",
+      "Faire le point sur la commande.",
+      "Rassembler les fournitures prévues.",
+      "Vérifier la livraison reçue."
+    ]
+  },
+  "action-black_market": {
+    "clair": [
+      "Vérifier les préalables : Intégrer (donner la flamme).",
+      "Réunir : 1 agent de liaison.",
+      "Prévoir : Argent.",
+      "Faire le point sur les besoins.",
+      "Rassembler les ressources prévues.",
+      "Vérifier ce qui a été obtenu."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Embaucher.",
+      "Réunir : 1 commis aux livraisons.",
+      "Prévoir : Clous.",
+      "Faire le point sur la commande.",
+      "Rassembler les fournitures prévues.",
+      "Vérifier la livraison reçue."
+    ]
+  },
+  "action-meet_london_agent": {
+    "clair": [
+      "Vérifier les préalables : Former une cellule.",
+      "Réunir : 1 chef de groupe, 1 hébergeur.",
+      "Faire le point sur les besoins.",
+      "Rassembler les ressources prévues.",
+      "Vérifier ce qui a été obtenu."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Constituer une équipe.",
+      "Réunir : 1 chef de chantier, 1 logeur.",
+      "Faire le point sur la commande.",
+      "Rassembler les fournitures prévues.",
+      "Vérifier la livraison reçue."
+    ]
+  },
+  "action-collect_funds": {
+    "clair": [
+      "Vérifier les préalables : Gagner un notable.",
+      "Réunir : 1 recruteur.",
+      "Faire le point sur les besoins.",
+      "Rassembler les ressources prévues.",
+      "Vérifier ce qui a été obtenu."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Gagner un maître d’ouvrage.",
+      "Réunir : 1 contremaître chargé des embauches.",
+      "Faire le point sur la commande.",
+      "Rassembler les fournitures prévues.",
+      "Vérifier la livraison reçue."
+    ]
+  },
+  "action-gather_food": {
+    "clair": [
+      "Vérifier les préalables : Aménager une cache d'armes.",
+      "Réunir : 1 chauffeur.",
+      "Prévoir : Argent, Cartes et tickets d'alimentation.",
+      "Faire le point sur les besoins.",
+      "Rassembler les ressources prévues.",
+      "Vérifier ce qui a été obtenu."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Aménager le magasin d’outillage.",
+      "Réunir : 1 charretier.",
+      "Prévoir : Clous, Bons de livraison.",
+      "Faire le point sur la commande.",
+      "Rassembler les fournitures prévues.",
+      "Vérifier la livraison reçue."
+    ]
+  },
+  "action-open_escape_line": {
+    "clair": [
+      "Vérifier les préalables : Fabriquer des faux papiers.",
+      "Réunir : 2 passeur, 2 hébergeur.",
+      "Prévoir : Argent.",
+      "Préciser qui doit être aidé.",
+      "Réunir les personnes et moyens disponibles.",
+      "Faire le point sur la situation après l’aide."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Ajuster des huisseries.",
+      "Réunir : 2 guide de livraison, 2 logeur.",
+      "Prévoir : Clous.",
+      "Préciser quels ouvriers accueillir.",
+      "Préparer l’équipe et les fournitures.",
+      "Vérifier les conditions d’accueil."
+    ]
+  },
+  "action-exfiltrate": {
+    "clair": [
+      "Vérifier les préalables : Fabriquer des faux papiers.",
+      "Réunir : 1 passeur.",
+      "Prévoir : Jeux de faux papiers, Argent.",
+      "Préciser qui doit être aidé.",
+      "Réunir les personnes et moyens disponibles.",
+      "Faire le point sur la situation après l’aide."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Ajuster des huisseries.",
+      "Réunir : 1 guide de livraison.",
+      "Prévoir : Huisseries, Clous.",
+      "Préciser quels ouvriers accueillir.",
+      "Préparer l’équipe et les fournitures.",
+      "Vérifier les conditions d’accueil."
+    ]
+  },
+  "action-hide_children": {
+    "clair": [
+      "Vérifier les préalables : Gagner un notable.",
+      "Réunir : 1 hébergeur.",
+      "Prévoir : Jeux de faux papiers, Cartes et tickets d'alimentation.",
+      "Préciser qui doit être aidé.",
+      "Réunir les personnes et moyens disponibles.",
+      "Faire le point sur la situation après l’aide."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Gagner un maître d’ouvrage.",
+      "Réunir : 1 logeur.",
+      "Prévoir : Huisseries, Bons de livraison.",
+      "Préciser quels ouvriers accueillir.",
+      "Préparer l’équipe et les fournitures.",
+      "Vérifier les conditions d’accueil."
+    ]
+  },
+  "action-set_infirmary": {
+    "clair": [
+      "Vérifier les préalables : Gagner un notable.",
+      "Réunir : 1 médecin ou infirmière.",
+      "Prévoir : Argent.",
+      "Préciser qui doit être aidé.",
+      "Réunir les personnes et moyens disponibles.",
+      "Faire le point sur la situation après l’aide."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Gagner un maître d’ouvrage.",
+      "Réunir : 1 réparateur.",
+      "Prévoir : Clous.",
+      "Préciser quels ouvriers accueillir.",
+      "Préparer l’équipe et les fournitures.",
+      "Vérifier les conditions d’accueil."
+    ]
+  },
+  "action-free_prisoner": {
+    "clair": [
+      "Vérifier les préalables : Copier des listes officielles, Coup de main (tickets, essence, argent).",
+      "Réunir : 1 chef de groupe, 4 combattant, 1 chauffeur.",
+      "Prévoir : Armes, Munitions, Jeux de faux papiers, Essence.",
+      "Préciser qui doit être aidé.",
+      "Réunir les personnes et moyens disponibles.",
+      "Faire le point sur la situation après l’aide."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Reproduire les cotes, Prélever des fournitures.",
+      "Réunir : 1 chef de chantier, 4 ouvrier des grands travaux, 1 charretier.",
+      "Prévoir : Outils, Pointes, Huisseries, Huile de chantier.",
+      "Préciser quels ouvriers accueillir.",
+      "Préparer l’équipe et les fournitures.",
+      "Vérifier les conditions d’accueil."
+    ]
+  },
+  "action-slow_work": {
+    "clair": [
+      "Vérifier les préalables : Intégrer (donner la flamme).",
+      "Réunir : 1 informateur.",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les risques et les conditions d’annulation.",
+      "Faire constater le résultat par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Embaucher.",
+      "Réunir : 1 métreur.",
+      "Préciser l’ouvrage à reprendre.",
+      "Évaluer les contraintes et les motifs de report.",
+      "Faire constater l’état de l’ouvrage."
+    ]
+  },
+  "action-sabotage_rolling_stock": {
+    "clair": [
+      "Vérifier les préalables : Sabotage au travail.",
+      "Réunir : 1 artificier.",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les risques et les conditions d’annulation.",
+      "Faire constater le résultat par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Ralentir le rabotage.",
+      "Réunir : 1 ouvrier de carrière.",
+      "Préciser l’ouvrage à reprendre.",
+      "Évaluer les contraintes et les motifs de report.",
+      "Faire constater l’état de l’ouvrage."
+    ]
+  },
+  "action-cut_phone": {
+    "clair": [
+      "Vérifier les préalables : Former une cellule.",
+      "Réunir : 2 artificier.",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les risques et les conditions d’annulation.",
+      "Faire constater le résultat par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Constituer une équipe.",
+      "Réunir : 2 ouvrier de carrière.",
+      "Préciser l’ouvrage à reprendre.",
+      "Évaluer les contraintes et les motifs de report.",
+      "Faire constater l’état de l’ouvrage."
+    ]
+  },
+  "action-unbolt_rail": {
+    "clair": [
+      "Vérifier les préalables : Relever les trains.",
+      "Réunir : 3 artificier.",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les risques et les conditions d’annulation.",
+      "Faire constater le résultat par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Mesurer les longues pièces.",
+      "Réunir : 3 ouvrier de carrière.",
+      "Préciser l’ouvrage à reprendre.",
+      "Évaluer les contraintes et les motifs de report.",
+      "Faire constater l’état de l’ouvrage."
+    ]
+  },
+  "action-blow_rail": {
+    "clair": [
+      "Vérifier les préalables : Réceptionner un parachutage, Relever les trains.",
+      "Réunir : 2 artificier, 2 combattant.",
+      "Prévoir : Explosifs (plastic, crayons détonateurs).",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les risques et les conditions d’annulation.",
+      "Faire constater le résultat par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Décharger les matériaux, Mesurer les longues pièces.",
+      "Réunir : 2 ouvrier de carrière, 2 ouvrier des grands travaux.",
+      "Prévoir : Poudre de carrière.",
+      "Préciser l’ouvrage à reprendre.",
+      "Évaluer les contraintes et les motifs de report.",
+      "Faire constater l’état de l’ouvrage."
+    ]
+  },
+  "action-blow_pylon": {
+    "clair": [
+      "Vérifier les préalables : Réceptionner un parachutage.",
+      "Réunir : 2 artificier.",
+      "Prévoir : Explosifs (plastic, crayons détonateurs).",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les risques et les conditions d’annulation.",
+      "Faire constater le résultat par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Décharger les matériaux.",
+      "Réunir : 2 ouvrier de carrière.",
+      "Prévoir : Poudre de carrière.",
+      "Préciser l’ouvrage à reprendre.",
+      "Évaluer les contraintes et les motifs de report.",
+      "Faire constater l’état de l’ouvrage."
+    ]
+  },
+  "action-blow_bridge": {
+    "clair": [
+      "Vérifier les préalables : Faire sauter une voie.",
+      "Réunir : 2 artificier, 6 combattant.",
+      "Prévoir : Explosifs (plastic, crayons détonateurs), Munitions.",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les risques et les conditions d’annulation.",
+      "Faire constater le résultat par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Rompre les traverses.",
+      "Réunir : 2 ouvrier de carrière, 6 ouvrier des grands travaux.",
+      "Prévoir : Poudre de carrière, Pointes.",
+      "Préciser l’ouvrage à reprendre.",
+      "Évaluer les contraintes et les motifs de report.",
+      "Faire constater l’état de l’ouvrage."
+    ]
+  },
+  "action-sabotage_factory": {
+    "clair": [
+      "Vérifier les préalables : Sabotage au travail, Réceptionner un parachutage.",
+      "Réunir : 2 artificier.",
+      "Prévoir : Explosifs (plastic, crayons détonateurs).",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les risques et les conditions d’annulation.",
+      "Faire constater le résultat par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Ralentir le rabotage, Décharger les matériaux.",
+      "Réunir : 2 ouvrier de carrière.",
+      "Prévoir : Poudre de carrière.",
+      "Préciser l’ouvrage à reprendre.",
+      "Évaluer les contraintes et les motifs de report.",
+      "Faire constater l’état de l’ouvrage."
+    ]
+  },
+  "action-burn_depot": {
+    "clair": [
+      "Vérifier les préalables : Repérer une garnison ou un dépôt, Réceptionner un parachutage.",
+      "Réunir : 2 artificier, 3 combattant.",
+      "Prévoir : Explosifs (plastic, crayons détonateurs), Munitions.",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les risques et les conditions d’annulation.",
+      "Faire constater le résultat par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Relever le chantier voisin, Décharger les matériaux.",
+      "Réunir : 2 ouvrier de carrière, 3 ouvrier des grands travaux.",
+      "Prévoir : Poudre de carrière, Pointes.",
+      "Préciser l’ouvrage à reprendre.",
+      "Évaluer les contraintes et les motifs de report.",
+      "Faire constater l’état de l’ouvrage."
+    ]
+  },
+  "action-destroy_sto_files": {
+    "clair": [
+      "Vérifier les préalables : Copier des listes officielles.",
+      "Réunir : 3 combattant.",
+      "Prévoir : Armes.",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les risques et les conditions d’annulation.",
+      "Faire constater le résultat par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Reproduire les cotes.",
+      "Réunir : 3 ouvrier des grands travaux.",
+      "Prévoir : Outils.",
+      "Préciser l’ouvrage à reprendre.",
+      "Évaluer les contraintes et les motifs de report.",
+      "Faire constater l’état de l’ouvrage."
+    ]
+  },
+  "action-found_maquis": {
+    "clair": [
+      "Vérifier les préalables : Accueillir un réfractaire au STO, Aménager une cache d'armes.",
+      "Réunir : 1 chef de groupe, 8 combattant.",
+      "Prévoir : Vivres, Armes.",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire résoudre l’action par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Loger un ouvrier de passage, Aménager le magasin d’outillage.",
+      "Réunir : 1 chef de chantier, 8 ouvrier des grands travaux.",
+      "Prévoir : Sable, Outils.",
+      "Préciser le résultat attendu du chantier.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire constater l’avancement du chantier."
+    ]
+  },
+  "action-train_maquis": {
+    "clair": [
+      "Vérifier les préalables : Prendre un maquis, Réceptionner un parachutage.",
+      "Réunir : 1 chef de groupe.",
+      "Prévoir : Munitions, Vivres.",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire résoudre l’action par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Ouvrir un chantier forestier, Décharger les matériaux.",
+      "Réunir : 1 chef de chantier.",
+      "Prévoir : Pointes, Sable.",
+      "Préciser le résultat attendu du chantier.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire constater l’avancement du chantier."
+    ]
+  },
+  "action-execute_traitor": {
+    "clair": [
+      "Vérifier les préalables : Identifier un indicateur.",
+      "Réunir : 2 combattant.",
+      "Prévoir : Armes, Munitions.",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire résoudre l’action par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Repérer le bois véreux.",
+      "Réunir : 2 ouvrier des grands travaux.",
+      "Prévoir : Outils, Pointes.",
+      "Préciser le résultat attendu du chantier.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire constater l’avancement du chantier."
+    ]
+  },
+  "action-ambush": {
+    "clair": [
+      "Vérifier les préalables : Instruire les maquisards.",
+      "Réunir : 1 chef de groupe, 15 combattant.",
+      "Prévoir : Munitions, Explosifs (plastic, crayons détonateurs).",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire résoudre l’action par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Former les ouvriers forestiers.",
+      "Réunir : 1 chef de chantier, 15 ouvrier des grands travaux.",
+      "Prévoir : Pointes, Poudre de carrière.",
+      "Préciser le résultat attendu du chantier.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire constater l’avancement du chantier."
+    ]
+  },
+  "action-break_contact": {
+    "clair": [
+      "Vérifier les préalables : Prendre un maquis.",
+      "Réunir : 1 chef de groupe.",
+      "Prévoir : Vivres.",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire résoudre l’action par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Ouvrir un chantier forestier.",
+      "Réunir : 1 chef de chantier.",
+      "Prévoir : Sable.",
+      "Préciser le résultat attendu du chantier.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire constater l’avancement du chantier."
+    ]
+  },
+  "action-plan_green": {
+    "clair": [
+      "Vérifier les préalables : Faire sauter une voie, Émettre vers Londres.",
+      "Réunir : 6 artificier.",
+      "Prévoir : Explosifs (plastic, crayons détonateurs).",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire résoudre l’action par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Rompre les traverses, Appeler le bureau des plans.",
+      "Réunir : 6 ouvrier de carrière.",
+      "Prévoir : Poudre de carrière.",
+      "Préciser le résultat attendu du chantier.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire constater l’avancement du chantier."
+    ]
+  },
+  "action-plan_violet": {
+    "clair": [
+      "Vérifier les préalables : Couper une ligne téléphonique, Émettre vers Londres.",
+      "Réunir : 4 artificier.",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire résoudre l’action par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Couper le cordeau, Appeler le bureau des plans.",
+      "Réunir : 4 ouvrier de carrière.",
+      "Préciser le résultat attendu du chantier.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire constater l’avancement du chantier."
+    ]
+  },
+  "action-plan_turtle": {
+    "clair": [
+      "Vérifier les préalables : Tendre une embuscade.",
+      "Réunir : 20 combattant.",
+      "Prévoir : Explosifs (plastic, crayons détonateurs), Munitions.",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire résoudre l’action par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Préparer un serrage.",
+      "Réunir : 20 ouvrier des grands travaux.",
+      "Prévoir : Poudre de carrière, Pointes.",
+      "Préciser le résultat attendu du chantier.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire constater l’avancement du chantier."
+    ]
+  },
+  "action-plan_blue": {
+    "clair": [
+      "Vérifier les préalables : Abattre un pylône, un transformateur, Émettre vers Londres.",
+      "Réunir : 4 artificier.",
+      "Prévoir : Explosifs (plastic, crayons détonateurs).",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire résoudre l’action par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Abattre un montant, Appeler le bureau des plans.",
+      "Réunir : 4 ouvrier de carrière.",
+      "Prévoir : Poudre de carrière.",
+      "Préciser le résultat attendu du chantier.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire constater l’avancement du chantier."
+    ]
+  },
+  "action-liberate_town": {
+    "clair": [
+      "Vérifier les préalables : Tendre une embuscade, Gagner un notable.",
+      "Réunir : 2 chef de groupe, 60 combattant.",
+      "Prévoir : Munitions, Vivres.",
+      "Préciser l’objectif dans le plan.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire résoudre l’action par le MJ."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Préparer un serrage, Gagner un maître d’ouvrage.",
+      "Réunir : 2 chef de chantier, 60 ouvrier des grands travaux.",
+      "Prévoir : Pointes, Sable.",
+      "Préciser le résultat attendu du chantier.",
+      "Évaluer les moyens et les conséquences possibles.",
+      "Faire constater l’avancement du chantier."
+    ]
+  },
+  "action-hold_meeting": {
+    "clair": [
+      "Vérifier les préalables : Former une cellule.",
+      "Réunir : 1 chef de groupe, 1 agent de liaison.",
+      "Choisir le lieu, l’heure et qui sera prévenu.",
+      "Faire passer la convocation de bouche à oreille.",
+      "Tenir la réunion et convenir de ce que chacun fera."
+    ],
+    "code": [
+      "Vérifier les travaux préalables : Constituer une équipe.",
+      "Réunir : 1 chef de chantier, 1 commis aux livraisons.",
+      "Choisir l’atelier, l’heure et les ouvriers à prévenir.",
+      "Faire passer l’heure de la réunion de chantier.",
+      "Tenir la réunion et répartir l’ouvrage de la semaine."
+    ]
+  }
+}

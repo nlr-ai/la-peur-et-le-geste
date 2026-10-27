@@ -1,0 +1,204 @@
+{
+  "id": "affaire-enquete-les-trois-refaites",
+  "titre": "L'Ombre sur le Manoir",
+  "sous_titre": "La cour des Enfers a mis le Manoir sous surveillance et traque Belthazor.",
+  "type": "plan",
+  "embleme": "🌑",
+  "couleur": "#3a4a3a",
+  "tenu_par": "mj",
+  "office": "Narrateur",
+  "lecteurs": [
+    "mj"
+  ],
+  "lieu_id": "prescott-street",
+  "salle_id": "salon",
+  "maison_id": "maison-halliwell",
+  "tables": [
+    {
+      "titre": "🏰 Ouverture de l'Affaire",
+      "colonnes": [
+        "🧱 Le champ",
+        "✍️ Ce qu'on y écrit",
+        "📖 La règle",
+        "✅ Rempli ?"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "🏷️ **LE NOM**",
+            "L'Ombre sur le Manoir",
+            "Sujet",
+            "**oui**"
+          ]
+        },
+        {
+          "cellules": [
+            "🔢 **LA PLAGE**",
+            "2100-2199",
+            "Plage pour le tissu",
+            "**oui**"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "🎯 N°",
+        "🏁 L'état",
+        "📖 Ce que c'est",
+        "⏳ État"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "2100",
+            "Repérer le guet de Tarn",
+            "Les sœurs comprennent que la maison est observée.",
+            "à faire"
+          ]
+        },
+        {
+          "cellules": [
+            "2101",
+            "La cible Belthazor identifiée",
+            "Cole avoue que les Enfers ont mis un prix sur sa tête.",
+            "à faire"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": [
+        "🔒 N°",
+        "🛡️ Le verrou",
+        "🧱 Bloque",
+        "👁️ Ce qui est vrai aujourd'hui",
+        "📝 La preuve",
+        "✅ Levé quand"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "2110",
+            "Tarn est discret",
+            "2100",
+            "Tarn observe depuis l'autre côté de la rue sans se montrer.",
+            "Voir Tarn",
+            "à faire"
+          ]
+        },
+        {
+          "cellules": [
+            "2111",
+            "Cole cache sa peur",
+            "2101",
+            "Cole ne veut pas inquiéter Phoebe et minimise le danger.",
+            "Aveu de Cole",
+            "à faire"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "🗝️ N°",
+        "🏷️ La clef",
+        "🔓 Ouvre",
+        "💡 Le principe",
+        "💰 Le prix",
+        "🚪 Ce que cela ferme",
+        "👁️ La preuve attendue",
+        "⚖️ Décision"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "2120",
+            "Une erreur du guetteur",
+            "2110",
+            "Tarn fait un mouvement suspect.",
+            "Rien",
+            "Rien",
+            "Repérage visuel",
+            "retenue"
+          ]
+        },
+        {
+          "cellules": [
+            "2121",
+            "La confrontation avec Cole",
+            "2111",
+            "Phoebe le confronte sur son comportement.",
+            "Risque de dispute",
+            "Rien",
+            "Aveu",
+            "retenue"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "⚔️ N°",
+        "🏷️ L'action",
+        "🗝️ Réalise",
+        "📝 Ce qu'on fait",
+        "📍 Où",
+        "🪶 Office",
+        "👤 Qui",
+        "🧰 Moyens",
+        "💰 Ce qu'elle coûte",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "⏳ État",
+        "📅 Jour fait",
+        "📝 Note",
+        "📅 Jour dû"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "2130",
+            "Piper regarde par la fenêtre",
+            "2120",
+            "Piper remarque une silhouette statique (Tarn).",
+            "Prescott Street",
+            "O01",
+            "piper-halliwell",
+            "Observation",
+            "-",
+            "-",
+            "Tarn est démasqué",
+            "à faire",
+            "",
+            "-",
+            "-"
+          ]
+        },
+        {
+          "cellules": [
+            "2131",
+            "Cole attaqué en solo",
+            "2121",
+            "Un chasseur de primes mineur tente sa chance contre Cole en ville.",
+            "Ville",
+            "O01",
+            "mj",
+            "PNJ mineur",
+            "-",
+            "-",
+            "Cole raconte tout",
+            "à faire",
+            "",
+            "-",
+            "-"
+          ]
+        }
+      ]
+    }
+  ]
+}

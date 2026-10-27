@@ -31,10 +31,22 @@ except Exception:
     pass
 
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
+_d = _os.path.dirname(_os.path.abspath(__file__))
+while _os.path.basename(_d) != "scripts" and _os.path.dirname(_d) != _d:
+    _d = _os.path.dirname(_d)
+for _p in (_d, _os.path.join(_d, "noyau")):
+    if _p not in _sys.path:
+        _sys.path.insert(0, _p)
+
+import racines
+
+# `RACINE` reste le DEPOT : elle sert a lancer une sonde de `scripts/`, a
+# poser le `cwd` du sous-processus et a AFFICHER des chemins relatifs.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 MAINS_PAR_DEFAUT = os.path.join(
-    RACINE,
-    "etat",
+    ETAT,
     "maisons",
     "maison-serenissima",
     "documents",

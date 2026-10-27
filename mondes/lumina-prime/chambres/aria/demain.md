@@ -1,0 +1,3 @@
+Il est 03h20 ; le terme reste fixé à 22h10.
+
+20566 demeure `en cours`. Le rappel suffit et aucun fichier n’est modifié.

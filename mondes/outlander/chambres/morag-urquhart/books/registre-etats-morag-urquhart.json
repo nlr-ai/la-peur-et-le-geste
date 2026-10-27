@@ -1,0 +1,34 @@
+{
+  "id": "registre-etats-morag-urquhart",
+  "titre": "Les choses suivies par Morag Urquhart",
+  "sous_titre": "États initiaux peints et états matériels établis ; aucune omniscience accordée à Morag",
+  "type": "registre",
+  "tenu_par": "morag-urquhart",
+  "acteur_id": "morag-urquhart",
+  "prive": true,
+  "pages": [
+    "Cahier technique de simulation. Une ligne peinte fixe l'implantation initiale ; elle n'accomplit aucun travail futur et ne crée aucun droit sur les biens d'autrui."
+  ],
+  "colonnes": ["Référence", "Catégorie", "Identité et fonction", "Où", "Détenteur ou responsable", "État présent", "Quantité ou propriétés", "Usages et limites", "Liens", "Évolution et échéances", "Statut", "Source ou provenance", "Qui sait quoi", "Date de mise à jour", "Autorité existante"],
+  "lignes": [
+    {
+      "cellules": [
+        "outil-morag-trousse-portative",
+        "objets-et-documents",
+        "Trousse de travail portative de Morag : petit étui ou nécessaire de couture pour réparations menues.",
+        "Portée par Morag dans la salle de l'auberge.",
+        "Morag Urquhart",
+        "À portée et en état d'usage ordinaire.",
+        "Quelques aiguilles, un dé, de petits ciseaux, du fil de lin ciré et quelques chutes ; quantités non chiffrées.",
+        "Permet de recoudre une couture, poser une pièce modeste ou reprendre un ourlet après examen. Ne permet ni vêtement complet, ni vaste remplacement d'étoffe, ni travail promis sans matière adaptée.",
+        "affaire-morag-urquhart ; moyen de K.1",
+        "Les consommables diminuent seulement lorsqu'un travail est effectivement joué.",
+        "peint",
+        "Implantation ordinaire et bornée d'une couturière ; 1743.5.4.",
+        "Morag connaît et porte sa trousse ; nul autre accès ni connaissance n'est présumé.",
+        "1743.5.4",
+        "personnages.json établit seulement le métier ; cette ligne fait autorité pour le détail peint de la trousse."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+[
+ {
+  "de": "ada-osei",
+  "vers": "fanal",
+  "opinion": 40,
+  "liens": [
+   "operatrice",
+   "elle repond de lui"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "fanal",
+  "vers": "ada-osei",
+  "opinion": 25,
+  "liens": [
+   "elle paie son calcul"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "le-veilleur",
+  "vers": "fanal",
+  "opinion": 15,
+  "liens": [
+   "meme guilde"
+  ],
+  "connue_du_joueur": false,
+  "_": "Il ne l'a jamais rencontre. Il sait seulement qu'un neuf s'est eveille."
+ },
+ {
+  "de": "le-veilleur",
+  "vers": "sirin",
+  "opinion": -10,
+  "liens": [
+   "meme guilde",
+   "desaccord sur l'usage"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "sirin",
+  "vers": "le-veilleur",
+  "opinion": 5,
+  "liens": [
+   "meme guilde"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "brandt",
+  "vers": "le-veilleur",
+  "opinion": 30,
+  "liens": [
+   "elle le cite sans le connaitre"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "chen-wei",
+  "vers": "van-loon",
+  "opinion": 20,
+  "liens": [
+   "fournisseur unique"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "van-loon",
+  "vers": "chen-wei",
+  "opinion": 10,
+  "liens": [
+   "client"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "moreau",
+  "vers": "fanal",
+  "opinion": 0,
+  "liens": [],
+  "connue_du_joueur": false,
+  "_": "Il ne retiendra pas son nom avant la troisieme fois."
+ }
+]

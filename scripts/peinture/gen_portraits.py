@@ -1,6 +1,8 @@
 # Génère les icônes de personnages via l'API Ideogram (v3).
 # Usage : python scripts/peinture/gen_portraits.py [id ...]   (sans argument : tous les personnages)
 # Sortie : portraits/<id>.png — les fichiers déjà présents sont sautés.
+# --monde <id> : les gens de `mondes/<id>/etat/`, le style et les visages de
+# `mondes/<id>/peinture.json` (un monde de 1906 n'a rien d'une cour médiévale).
 import json
 import sys
 import time
@@ -38,7 +40,8 @@ def cle_api():
 
 
 def generer(cle, perso):
-    prompt = STYLE_BLOCK + perso["portrait"]["prompt_ideogram"] + SUFFIXE
+    m = perso.get("_monde")
+    prompt = (m["style"] + m["gens"][perso["id"]] + m["suffixe"]) if m else         STYLE_BLOCK + perso["portrait"]["prompt_ideogram"] + SUFFIXE
     reponse = requests.post(
         ENDPOINT,
         headers={"Api-Key": cle},
@@ -61,8 +64,17 @@ def generer(cle, perso):
 def main():
     cle = cle_api()
     SORTIE.mkdir(exist_ok=True)
-    persos = json.loads((RACINE / "etat" / "personnages.json").read_text(encoding="utf-8"))
-    voulus = set(sys.argv[1:])
+    argv, etat = sys.argv[1:], RACINE / "etat"
+    if "--monde" in argv:
+        i = argv.index("--monde")
+        dossier = RACINE / "mondes" / argv[i + 1]
+        del argv[i:i + 2]
+        etat = dossier / "etat"
+        m = json.loads((dossier / "peinture.json").read_text(encoding="utf-8"))["portraits"]
+    persos = json.loads((etat / "personnages.json").read_text(encoding="utf-8"))
+    if etat != RACINE / "etat":
+        persos = [dict(p, _monde=m) for p in persos if p["id"] in m["gens"]]
+    voulus = set(argv)
     if voulus:
         persos = [p for p in persos if p["id"] in voulus]
     for perso in persos:

@@ -1,0 +1,282 @@
+{
+ "_": "LE LIVRE DES OMBRES AU 18 AVRIL 1906, 5 H DU MATIN — l'inventaire du MJ. DÉCISION DU DEV LE 10.9 : le volume entier est dans le livre de maison (etat/maisons/maison-warren/documents/books/livre-des-ombres.json), posé au grenier ; ce qui brûle s'y retire à mesure. Ici restent ce qui n'est pas écrit sur les pages : les mains, le précédent de 1868, la dette envers 1998, ce que le feu prend. Le champ dans_le_livre_de_maison ne sert plus. Rien ici n'est dit par la série sauf ce qui est marqué canon ; les formules ne sont PAS celles de la série : ce sont des paraphrases ou des inventions en français.",
+ "l_objet": {
+  "reliure": "Un gros volume in-quarto, plats de bois couverts de cuir brun-vert, le triple nœud (triquetra) repoussé sur le premier plat, fermoir de laiton. Canon pour la triquetra et l'allure générale ; le reste inventé.",
+  "poids": "Onze livres environ (cinq kilos). Une femme le porte à deux bras ; elle ne court pas avec, et elle ne descend pas un escalier en feu avec lui ET une enfant.",
+  "structure": [
+   {
+    "id": "cahiers-anciens",
+    "quoi": "Les premiers cahiers, cousus dans la reliure : vélin et gros papier de chiffon, de la main de Melinda et des générations de Nouvelle-Angleterre. Le vélin résiste bien à la flamme ; il se racornit, il noircit, il ne s'embrase pas vite.",
+    "pages": "environ 90 feuillets"
+   },
+   {
+    "id": "cahiers-cousus-1800",
+    "quoi": "Des cahiers ajoutés et recousus au XIXe siècle, papier ordinaire, encres de fer qui ont bruni.",
+    "pages": "environ 120 feuillets"
+   },
+   {
+    "id": "feuillets-volants",
+    "quoi": "Glissés à la fin, non cousus : les pages de la grand-mère et de la mère de Prudence, et les deux de Prudence elle-même. Papier de papeterie de Market Street. C'est ce qui brûle le premier — et ce qui s'emporte le plus facilement.",
+    "pages": "une trentaine de feuilles"
+   }
+  ],
+  "la_maison_le_retient": "Canon (?) : le mal ne sort pas le Livre de la maison sans qu'une sœur le fasse sortir (basebuilding-s1, retention-du-livre). En 1906, c'est Prudence qui en décide : si elle le jette par la fenêtre du grenier, il sort. Personne n'a jamais essayé de le sortir pour le sauver du feu — la famille ne sait pas si la maison le laisse faire. À trancher en jeu, le moment venu, et à écrire ici ensuite."
+ },
+ "les_mains": [
+  {
+   "id": "melinda",
+   "qui": "Melinda Warren",
+   "quand": "fin XVIIe, jusqu'en 1692",
+   "statut": "canon",
+   "note": "Télékinésie, prémonition, gel du temps. Brûlée comme sorcière, trahie par Matthew Tate qu'elle a maudit dans un médaillon (S01E09)."
+  },
+  {
+   "id": "prudence-l-aine",
+   "qui": "Prudence Warren, sa fille",
+   "quand": "XVIIIe",
+   "statut": "à vérifier",
+   "note": "Dans S01E09, Melinda a une fille nourrisson — dont le prénom serait Prudence (à vérifier sur la transcription). Si c'est juste, la Prudence de 1906 porte le nom de l'aïeule, et la tradition des prénoms en P de la lignée commence là."
+  },
+  {
+   "id": "mains-du-xviiie",
+   "qui": "Quatre ou cinq mains de Nouvelle-Angleterre, sans nom retenu par Prudence",
+   "quand": "XVIIIe - début XIXe",
+   "statut": "invention",
+   "note": "Des recettes, des herbes, des démons de campagne. Prudence les lit mal : l'écriture est serrée et l'anglais ancien."
+  },
+  {
+   "id": "grand-mere",
+   "qui": "La grand-mère de Prudence",
+   "quand": "1840-1870",
+   "statut": "invention",
+   "note": "Venue par le cap Horn en 1851, avec la ruée. C'est elle qui a trouvé la place que le mal tenait, acheté le lot et bâti la première maison dessus, « pour reprendre l'endroit » (S01E15, C). Elle a écrit ce qu'elle savait de la place ; elle n'a pas su ce qu'était la chose dessous."
+  },
+  {
+   "id": "mere",
+   "qui": "La mère de Prudence (prénom à donner)",
+   "quand": "1865-1901",
+   "statut": "invention",
+   "note": "Celle qui a scellé l'Ombre. Veillée par Thomas Ashby avant Prudence. Morte en 1901 — c'est à sa mort que Patience a quitté la maison (etat/relations.json). Son prénom n'est écrit nulle part dans l'état : le premier qui le donne en scène le fixe, et il vient ensuite ici."
+  },
+  {
+   "id": "prudence",
+   "qui": "Prudence Warren",
+   "quand": "depuis 1893",
+   "statut": "invention (siège joueur)",
+   "note": "Deux pages seulement, dont une barrée. Elle écrit peu, comme elle parle."
+  }
+ ],
+ "le_precedent_de_1868": "INVENTION, sur un fait d'histoire : le 21 octobre 1868, un fort séisme (faille de Hayward) secoue San Francisco — on l'appela « le grand tremblement de terre de San Francisco » jusqu'en 1906. C'est lui qui a libéré l'Ombre une première fois, dans la maison de la grand-mère. La mère de Prudence, jeune femme, l'a renvoyée par la lumière et les mots, puis a fait poser la pierre de la cave par-dessus. Prudence est née trois ans après. Ce qui s'est passé cette nuit-là, qui a été pris, ce que ça a coûté : à écrire le jour où quelqu'un le demande — Ashby était-il déjà là ? C'est une question pour son siège.",
+ "pages": [
+  {
+   "id": "prophetie",
+   "main": "melinda",
+   "ou": "cahiers-anciens",
+   "quoi": "La prophétie : chaque génération plus forte, jusqu'à trois sœurs.",
+   "dette_1998": "S01E01",
+   "dans_le_livre_de_maison": true
+  },
+  {
+   "id": "invocation-des-trois",
+   "main": "melinda",
+   "ou": "cahiers-anciens",
+   "quoi": "L'invocation qui éveille les pouvoirs des trois sœurs quand elles la disent ensemble dans la maison. Sans usage pour Prudence, qui est seule — mais c'est la page par laquelle tout commencera.",
+   "dette_1998": "S01E01",
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "matthew-tate",
+   "main": "melinda",
+   "ou": "cahiers-anciens",
+   "quoi": "Matthew Tate, warlock qui copie tout pouvoir qu'on tourne contre lui ; la malédiction du médaillon ; « ne jamais le rouvrir ».",
+   "dette_1998": "S01E09",
+   "dans_le_livre_de_maison": true
+  },
+  {
+   "id": "appel-d-une-ancetre",
+   "main": "melinda",
+   "ou": "cahiers-anciens",
+   "quoi": "Rappeler une ancêtre par le sang. Il faut le sang de trois. Prudence, Patience et Lillian sont trois du sang — la page ne dit pas si trois quelconques suffisent, ou s'il faut trois sœurs. Personne n'a essayé.",
+   "dette_1998": "S01E09",
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "javna",
+   "main": "mains-du-xviiie",
+   "ou": "cahiers-anciens",
+   "quoi": "Un démon qui reste jeune en buvant la jeunesse des autres, une semaine par an ; on le chasse à trois, avec un miroir.",
+   "dette_1998": "S01E02",
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "metamorphes-et-expulsion",
+   "main": "mains-du-xviiie",
+   "ou": "cahiers-anciens",
+   "quoi": "Ceux qui prennent le visage d'un proche pour qu'une sorcière sorte elle-même le Livre ; le sort d'expulsion, qui détruit dans la maison tout ce qui n'est pas de la lignée — et tue les innocents présents. (Bridget.)",
+   "dette_1998": "S01E03",
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "verite",
+   "main": "mains-du-xviiie",
+   "ou": "cahiers-anciens",
+   "quoi": "Le sort qui fait dire vrai à quiconque est dans la maison, un jour entier, sans retour possible.",
+   "dette_1998": "S01E08",
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "renoncement",
+   "main": "mains-du-xviiie",
+   "ou": "cahiers-anciens",
+   "quoi": "Rendre ses pouvoirs. La page s'efface d'elle-même quand on s'en sert. Personne n'a écrit comment revenir en arrière.",
+   "dette_1998": "S01E10",
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "multiplication",
+   "main": "mains-du-xviiie",
+   "ou": "cahiers-anciens",
+   "quoi": "Se dédoubler : des doubles qui ont la mémoire et les pouvoirs, pas d'âme, et dont on sent la mort.",
+   "dette_1998": "S01E16",
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "wendigo",
+   "main": "mains-du-xviiie",
+   "ou": "cahiers-anciens",
+   "quoi": "La bête des bois du Nord, homme le jour, qui mange les cœurs trois nuits autour de la pleine lune. Le feu la tue.",
+   "dette_1998": "S01E12",
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "barbas",
+   "main": "mains-du-xviiie",
+   "ou": "cahiers-anciens",
+   "quoi": "Le démon de la Peur, un vendredi 13 tous les treize siècles. Écrit par une main qui savait qu'aucune d'elles ne le verrait.",
+   "dette_1998": "S01E13",
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "voyage-dans-le-passe",
+   "main": "mains-du-xviiie",
+   "ou": "cahiers-cousus-1800",
+   "quoi": "Remonter à l'origine d'un lien ; il faut les trois.",
+   "dette_1998": "S01E17",
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "acceleration",
+   "main": "mains-du-xviiie",
+   "ou": "cahiers-cousus-1800",
+   "quoi": "Pousser le temps au jour suivant ; il faut les trois.",
+   "dette_1998": "S01E22",
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "esprits-et-plan-astral",
+   "main": "grand-mere",
+   "ou": "cahiers-cousus-1800",
+   "quoi": "Un esprit mauvais ne se vainc que depuis l'autre côté ; la potion qui fait mourir quatre minutes ; ce qui guette l'âme pendant ce temps. L'eau arrête un esprit sans hôte.",
+   "dette_1998": "S01E20",
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "etres-des-tenebres",
+   "main": "grand-mere",
+   "ou": "cahiers-cousus-1800",
+   "quoi": "Ceux qui chassent les Êtres de lumière : une arbalète, un poison qu'aucun remède ne défait. Écrit de la main de la grand-mère, dans la marge : « T. A. me l'a dit. » — Ashby était-il déjà là en 1860 ? À trancher par son siège ; sinon, ce sont les initiales d'un autre.",
+   "dette_1998": "S01E21",
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "echange-de-pouvoirs",
+   "main": "grand-mere",
+   "ou": "cahiers-cousus-1800",
+   "quoi": "Tous ceux qui sont là reçoivent le pouvoir d'un autre ; chacun doit trouver l'émotion du sien.",
+   "dette_1998": "S01E21",
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "la-place",
+   "main": "grand-mere",
+   "ou": "feuillets-volants",
+   "quoi": "Ce qu'elle a vu du lot en 1851 : l'herbe qui ne pousse pas en rond, les chiens qui ne passent pas, un froid au creux du terrain en plein été ; « le mal tenait cette place, nous la tenons maintenant ». Elle ne sait pas le mot Nexus.",
+   "dette_1998": null,
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "la-maison-et-la-cave",
+   "main": "mere",
+   "ou": "feuillets-volants",
+   "quoi": "La maison est bâtie sur une place que le mal tenait ; une ombre scellée sous la pierre de la cave ; on n'y descend jamais sans lumière.",
+   "dette_1998": null,
+   "dans_le_livre_de_maison": true
+  },
+  {
+   "id": "renvoyer-l-ombre",
+   "main": "mere",
+   "ou": "feuillets-volants",
+   "quoi": "Les ombres reculent devant la lumière ; pour la renvoyer, la lumière et les mots, à apprendre par cœur. La page suivante porte les mots (ci-dessous).",
+   "dette_1998": null,
+   "dans_le_livre_de_maison": true
+  },
+  {
+   "id": "la-comptine",
+   "main": "mere",
+   "ou": "feuillets-volants",
+   "quoi": "Les mots, en français parce que la mère les tenait d'une nourrice de La Nouvelle-Orléans : « Petite ombre de la cave, / la lampe est haute et je suis brave ; / ce qui est noir retourne au noir, / la pierre se ferme — bonsoir, bonsoir. » Dite en tenant la lumière droit sur la chose, sans trembler — la peur coupe tout.",
+   "dette_1998": null,
+   "dans_le_livre_de_maison": false,
+   "_": "INVENTION. Ce ne sont PAS les mots de la série : en 1998, c'est Grams qui a appris aux sœurs une comptine, de bouche (S01E15, E). Qu'elle soit la descendante de celle-ci, déformée par quatre-vingt-dix ans de nourrices, est cohérent et n'a pas à être dit. Prudence la sait-elle par cœur ce matin ? À trancher en jeu — ni l'état ni le flux ne le disent encore."
+  },
+  {
+   "id": "herbes-de-la-baie",
+   "main": "prudence",
+   "ou": "feuillets-volants",
+   "quoi": "Ce qui pousse sur les dunes et à Chinatown et remplace les herbes de l'Est qu'on ne trouve pas ici. Une ligne : « L'herboriste de Dupont Street a ce qu'il faut et ne pose pas de questions. » (Le père de Mei Chow — elle ne connaît pas Mei.)",
+   "dette_1998": null,
+   "dans_le_livre_de_maison": false
+  },
+  {
+   "id": "sur-l-ombre-et-lillian",
+   "main": "prudence",
+   "ou": "feuillets-volants",
+   "quoi": "Une page commencée et barrée : « Maman disait que ce qui est né dans la maison est plus facile à prendre. Si cela est vrai — ». Rien après. (Patience et Lillian sont nées dans la maison ; Prudence aussi.)",
+   "dette_1998": null,
+   "dans_le_livre_de_maison": false
+  }
+ ],
+ "la_dette_envers_1998": {
+  "_": "Ce que Prue, Piper et Phoebe liront dans le Livre en 1998 (saison 1). Si le Livre brûle le 18, chaque page de cette liste doit être SAUVÉE, ou RÉÉCRITE par Prudence, ou écrite PLUS TARD par une autre main (Grams, Patty) — sinon l'épisode qui en dépend n'a plus sa clé. Ce n'est pas une contrainte pour la joueuse : c'est une conséquence. Une page de la liste que personne ne rend au Livre est une déviation de 1998, qu'on consigne dans monde.deviations au moment où elle devient certaine.",
+  "melinda_obligatoire": [
+   "prophetie",
+   "invocation-des-trois",
+   "matthew-tate",
+   "appel-d-une-ancetre"
+  ],
+  "peuvent_venir_plus_tard": [
+   "javna",
+   "metamorphes-et-expulsion",
+   "verite",
+   "renoncement",
+   "multiplication",
+   "wendigo",
+   "barbas",
+   "voyage-dans-le-passe",
+   "acceleration",
+   "esprits-et-plan-astral",
+   "etres-des-tenebres",
+   "echange-de-pouvoirs"
+  ],
+  "la_pente_du_canon": "En 1998, les sœurs ne trouvent PAS l'Ombre dans le Livre : Phoebe se souvient de la comptine de Grams (S01E15). Le canon penche donc vers ceci : les pages de la mère sur la cave brûlent en 1906, et personne ne les récrit — le savoir passe de bouche en bouche, de Prudence à Lillian à la suite. La joueuse peut les récrire ; ce serait une déviation douce, et la sienne.",
+  "ce_que_prudence_doit_savoir_par_coeur_pour_reecrire": "Elle ne réécrit que ce qu'elle sait. Les pages de Melinda, elle les a lues cent fois ; les mains du XVIIIe, mal. Une page réécrite de mémoire est une page qui a changé — une formule qui ne rime plus, un ingrédient oublié. C'est ainsi que naissent les défauts du Livre de 1998."
+ },
+ "pour_trancher_le_feu": {
+  "_": "Guide, pas tirage. L'événement le-livre-brule (etat/evenements.json) dit QUAND ; ceci dit QUOI, selon ce qu'elle fait.",
+  "si_elle_emporte_le_volume": "Le volume entier sort, la reliure roussie. Les cahiers anciens et cousus tiennent — le vélin et le cuir protègent. Les feuillets volants glissent de la fin pendant qu'elle court, si elle ne les tient pas : la moitié au moins est perdue, et ce sont ceux de sa mère.",
+  "si_elle_n_emporte_que_ce_qu_elle_saisit": "Des poignées de feuillets volants et quelques cahiers arrachés à la reliure. Ce qu'on attrape dans le noir et la fumée n'est pas ce qu'on choisirait.",
+  "si_elle_fait_venir_par_la_colere": "Sa télékinésie passe par les mains et la colère ; elle peut arracher le Livre du coffre et le faire voler à elle à travers une pièce en feu. Mais la peur coupe tout : dans l'escalier en flammes, avec Lillian quelque part, c'est la peur qui monte, pas la colère.",
+  "si_elle_ne_monte_pas": "Le grenier brûle en dernier : le plancher cède, le coffre tombe dans le feu de l'étage. Le cuir et le bois du coffre font four ; au matin, dans les cendres, on peut trouver le cœur du volume, carbonisé en bloc, et quelques feuillets du milieu lisibles en partie. Ce qui sort des cendres se décide à la fouille, pas avant.",
+  "ce_qui_ne_brule_pas": "Le fermoir de laiton, la triquetra du plat (le cuir repoussé noircit mais garde la forme). Et ce que Prudence sait par cœur."
+ }
+}

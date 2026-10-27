@@ -1,0 +1,29 @@
+{
+  "format": "proposition-pilote-chambre/0.5",
+  "status": "pret_a_soumettre_non_envoye_non_autorise",
+  "entrypoint": "reprise/fiche-reprise.md",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    { "path": "README.md", "sha256": "80c321794466cc66b4dd3868fa09fa77b18812ee8336a2596bcd087e9af291ca" },
+    { "path": "dossiers/dossier-pilote-vide.json", "sha256": "a799e1a45d2f741a0cf97118948d4ffabbb9be7a1914df9fc60d130c7b6f6c63" },
+    { "path": "dossiers/scenario-refus.json", "sha256": "5e1ee0266b5dbc463ddf36d452df9a1bb2ff3d5da4bd9b34e1c6fa50e135b503" },
+    { "path": "outils/pilote-fichier.ps1", "sha256": "833168ad312fb4ff103d1cc2e7fe11a46dbb8864513a5f2e07f32ddd909fab2a" },
+    { "path": "protocoles/scenario-refus.md", "sha256": "626ec68cba88870b02d658055764cfe0950616cf415a9d36705fcf64b3eddd2a" },
+    { "path": "protocoles/separation-des-etapes.md", "sha256": "c97e6c73bbad073b80f35ecbd8f933fd658e3064ce1e13343f0d88606bfea49e" },
+    { "path": "reprise/fiche-reprise.md", "sha256": "28536db3ebc294268213472759f94489a355c3debc4be0267ed12b2535f61ca4" }
+  ],
+  "blocking_conditions": [
+    "aucune demande de titulaire réel",
+    "aucun consentement précis et révocable",
+    "aucun gardien distinct mandaté",
+    "aucun lieu de garde autorisé"
+  ],
+  "claims_excluded": [
+    "envoi",
+    "usage réel sur une chambre",
+    "garde reconnue",
+    "restauration de chambre",
+    "état 40001 atteint"
+  ]
+}
+

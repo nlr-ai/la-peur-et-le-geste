@@ -1,0 +1,292 @@
+{
+  "reveils": [
+    {
+      "reveil": 1,
+      "ok": true,
+      "secondes": 202
+    },
+    {
+      "reveil": 2,
+      "ok": true,
+      "secondes": 226
+    },
+    {
+      "reveil": 3,
+      "ok": true,
+      "secondes": 210
+    },
+    {
+      "reveil": 4,
+      "ok": true,
+      "secondes": 165
+    },
+    {
+      "reveil": 5,
+      "ok": true,
+      "secondes": 134
+    },
+    {
+      "reveil": 6,
+      "ok": true,
+      "secondes": 142
+    },
+    {
+      "reveil": 7,
+      "ok": true,
+      "secondes": 170
+    },
+    {
+      "reveil": 8,
+      "ok": true,
+      "secondes": 187
+    },
+    {
+      "reveil": 9,
+      "ok": true,
+      "secondes": 308
+    },
+    {
+      "reveil": 10,
+      "ok": true,
+      "secondes": 195
+    }
+  ],
+  "nouveaux_actes_dev": [
+    {
+      "id": "acte-lp-dev-11020-socle-j1-1350",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 830
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": null,
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina",
+        "gaia",
+        "juris",
+        "quantum"
+      ],
+      "description": "DEV choisit comme ambition de rendre dessinable le premier îlot habité du Creative Nexus. En vingt minutes, il accomplit la première de cinq étapes : établir dans son volume le socle vérifié de l’implantation, séparant lieux existants, projet, accès conventionnels et inconnues. L’action 11020 passe en cours ; aucune implantation n’est encore choisie.",
+      "action_id": "11020",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "produit"
+    },
+    {
+      "id": "acte-lp-dev-11020-topologies-j1-1410",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 850
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": null,
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina",
+        "gaia",
+        "juris",
+        "quantum"
+      ],
+      "description": "DEV produit une première réalisation utilisable pour l’implantation 11020 : deux topologies comparables et non cotées. La variante A greffe l’îlot sur la cour et des cellules des Ateliers modulaires et garde la Halle comme galerie publique ; la variante B propose un îlot autonome avec seuil commun et seuil public distincts. Aucun choix, droit, coût, occupant ni réalisation n’est présumé.",
+      "action_id": "11020",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "produit"
+    },
+    {
+      "id": "acte-lp-gaia-50303-retour-dev-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "gaia",
+      "cible_id": "dev-lumina",
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "gaia",
+        "dev-lumina"
+      ],
+      "description": "Gaia inscrit dans le relevé technique 50303 le retour écrit de DEV : la continuité conventionnelle Quai commun–Parvis–Data Gardens–Jardin calme est confirmée, mais les deux ancrages du raccord Quai–Parvis et les jalons dans chaque sens ne sont pas établis. Elle maintient le raccord à l essai, refuse de le déclarer praticable et garde l action ouverte jusqu à un aller-retour sur place.",
+      "action_id": "50303",
+      "affaire_id": "affaire-espaces-publics",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-dev-11020-limites-juris-j1-1430",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 870
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": "juris",
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina",
+        "juris"
+      ],
+      "description": "DEV situe et remet à JURIS six interfaces concrètes des topologies A et B : accès à la partie commune, seuil personnel, atelier partagé, galerie publique, raccord de service et limite entre transformation personnelle et effet commun. Pour chaque interface, DEV sépare le fait architectural des questions de franchissement et d’autorité ; il ne propose ni n’adopte aucun droit et laisse la réponse de 11022 à JURIS.",
+      "action_id": "11020",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "produit"
+    },
+    {
+      "id": "acte-lp-dev-11020-constructibilite-j1-1450",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 890
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": null,
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina"
+      ],
+      "description": "DEV examine 11020 sous trois angles : usage, gouvernance des seuils et constructibilité. Les scénarios et les droits proposés disposent déjà de pièces recevables ; la faiblesse principale reste l’absence de site, de géométrie, de disponibilité de l’existant et de cotes. DEV produit un bon de relevé comparatif en cinq ordres, qui sépare pour A et B les constats de site, parcours, transformation, raccord atelier–galerie et inventaire. Aucune mesure, variante, affectation ni réalisation n’est présumée.",
+      "action_id": "11020",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "produit"
+    },
+    {
+      "id": "acte-lp-dev-11020-audit-site-j1-1510",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 910
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": null,
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina"
+      ],
+      "description": "DEV compare cinq voies pour dépasser l’absence de site recevable de 11020 : relevé sur place, décision d’emprise par Nova, audit documentaire, maquette réversible et attente des mesures techniques. Il éprouve immédiatement l’audit des documents tenus. Le test confirme la topologie et les qualités connues des Ateliers et de la Halle, mais ne trouve aucune disponibilité, parcelle, emprise cotée ni longueur mesurée. L’absence de preuve reste un inconnu, non une indisponibilité. La suite nécessaire est un constat de site puis une décision d’affectation de Nova.",
+      "action_id": "11020",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-dev-11020-fiche-ouverte-gaia-j1-1530",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 930
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": "gaia",
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina",
+        "gaia"
+      ],
+      "description": "DEV rend accessible dans l’affaire 11020 une fiche de constat de site partageable. Elle sépare le relevé architectural et métrique tenu par DEV de l’observation d’usage proposée à Gaia : continuité du passage, haltes hors flux, retrait et dégagement des seuils. La fiche ne rapporte aucune visite ni mesure, n’affecte aucun espace et ne présume ni acceptation ni engagement de Gaia.",
+      "action_id": "11020",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "produit"
+    },
+    {
+      "id": "acte-lp-dev-11120-scenario-j1-1520",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "dev-lumina",
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "dev-lumina",
+        "aria"
+      ],
+      "description": "DEV inscrit dans le cahier Habiter le Creative Nexus un scénario comparé prêt à être éprouvé après réalisation : état initial, création réversible en atelier, transfert sans espace personnel, démonstration par la branche publique, retrait et comparaison finale. A passe par la cour, accès des Ateliers, noeud public et Halle sous réserve du constat de site ; B passe par le raccord de service contrôlé. Le scénario ne prétend ni essai réel, ni droit adopté, ni capacité, ni choix de variante.",
+      "action_id": "11120",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-dev-30303-passeport-plans-j1-1550",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 950
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": null,
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina"
+      ],
+      "description": "DEV décompose en cinq étapes l’extension de la méthode de 11020 à tous les plans de Lumina Prime : définir un passeport commun, éprouver deux cas pilotes, l’étendre aux six lieux de l’atlas, ouvrir des annotations par office puis soumettre une règle de tenue à Nova. Il accomplit la première étape en inscrivant une trame de huit champs : identité, copie retrouvable, statut spatial, géométrie, accès et autorité, dépendances, contributions et prochaine vérification. Aucun plan supplémentaire n’est déclaré complet et aucune mesure ou autorisation n’est inventée.",
+      "action_id": "30303",
+      "affaire_id": "affaire-plans-lumina",
+      "relation_action": "produit"
+    },
+    {
+      "id": "acte-lp-dev-30303-epreuve-passeport-j1-1610",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 970
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": null,
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina"
+      ],
+      "description": "DEV éprouve le passeport commun des plans sur trois situations difficiles : reprise simulée du plan initial sans employer sa chambre, plan 11020 mêlant existant et projet, et autorisation de relevé devenue valide sous conditions et exclusions. Il distingue la simulation de perte des deux essais documentaires réels et ne prétend à aucun essai physique. Il corrige la trame : statut par élément, autorisation avec auteur, périmètre, durée, exclusions, suspension et restitution, plus conservation des versions et désaccords. La trame est corrigée mais pas validée pour toute la cité.",
+      "action_id": "30303",
+      "affaire_id": "affaire-plans-lumina",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-dev-30303-transmission-autonome-j1-1630",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 990
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": "aria",
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina",
+        "aria"
+      ],
+      "description": "DEV rend le passeport des plans reprenable sans sa présence en cinq étapes. Il remplit deux cas pilotes dans le volume commun — plan initial du Radiant Core et projet hybride 11020 — puis écrit un protocole de lecture autonome donnant trois réponses vérifiables et des conditions d’arrêt. Aria peut contrôler copie, tenant, statuts sourcés, dépendances et prochaine vérification sans consulter la chambre de DEV. Toute géométrie nouvelle, correction de tracé, qualification spatiale nouvelle ou contradiction entre sources reste explicitement à DEV ; aucun choix entre A et B n’est fait.",
+      "action_id": "30303",
+      "affaire_id": "affaire-plans-lumina",
+      "relation_action": "produit"
+    },
+    {
+      "id": "acte-lp-dev-30303-cadastre-sept-lieux-j1-1650",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 1010
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": null,
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina"
+      ],
+      "description": "DEV choisit une ambition plus large que les deux passeports pilotes : un cadastre vivant des sept lieux de Lumina Prime, reprenable par une autre main. Il la décompose en cinq étapes et accomplit la première. Une matrice commune couvre les six lieux de l’atlas en séparant architecture existante, preuve disponible, état espéré, manque principal et prochaine vérification. Aucun lieu supplémentaire n’est déclaré relevé, aucune minute conventionnelle n’est transformée en mesure et aucun accès non accordé n’est présumé.",
+      "action_id": "30303",
+      "affaire_id": "affaire-plans-lumina",
+      "relation_action": "produit"
+    }
+  ]
+}

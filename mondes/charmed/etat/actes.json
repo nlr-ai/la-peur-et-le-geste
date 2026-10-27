@@ -1,0 +1,684 @@
+[
+  {
+    "id": "acte-varek-rapport-1020-2001-10-09-2230",
+    "date": "09.10.2001, 22 h 30",
+    "lieu": "salle-de-la-source",
+    "auteur": "varek",
+    "fait": "Rapport porte a la Source : aucun retour de la meute en trois nuits ; la Glaneuse a demande audience sans chasse declaree ; Kazhar recoit un chef par nuit, noms non etablis.",
+    "temoins": [
+      "la-source",
+      "varek"
+    ],
+    "action_id": "1020",
+    "affaire_id": "affaire-les-trois-refaites",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-phoebe-accepte-paige-et-se-retire-2001-10-09-2232",
+    "date": "09.10.2001, 22 h 32",
+    "lieu": "grenier",
+    "auteur": "phoebe-halliwell",
+    "fait": "Phoebe reconnaît Paige comme leur sœur, lui laisse la liberté de rester avec Patty, puis quitte le grenier pour aller dormir dans sa chambre.",
+    "temoins": [
+      "piper-halliwell",
+      "paige-matthews",
+      "leo-wyatt",
+      "patty-halliwell"
+    ]
+  },
+  {
+    "cible_id": "grenier",
+    "date": "09.10.2001, 22 h 32",
+    "description": "Après que Patty a parlé de Prue et de la place de Paige dans la lignée, Piper refuse que Prue soit traitée comme une place libre, puis quitte le grenier avant que sa colère ne tombe sur quelqu'un.",
+    "id": "acte-piper-quitte-grenier-colere-2001-10-09-2232",
+    "acteur_id": "piper-halliwell",
+    "connu_de": [
+      "piper-halliwell",
+      "paige-matthews",
+      "leo-wyatt",
+      "patty-halliwell"
+    ]
+  },
+  {
+    "id": "acte-phoebe-va-dormir-2001-10-09-2234",
+    "date": "09.10.2001, 22 h 34",
+    "lieu": "chambre-phoebe",
+    "auteur": "phoebe-halliwell",
+    "fait": "Phoebe va dormir dans sa chambre et laisse Paige poursuivre seule sa rencontre avec Patty.",
+    "temoins": []
+  },
+  {
+    "id": "acte-leo-propose-premiere-lecon-orbe-2001-10-09-2234",
+    "date": "09.10.2001, 22 h 34",
+    "lieu": "grenier",
+    "auteur": "leo-wyatt",
+    "fait": "Après le départ de Phoebe, Leo propose à Paige de lui apprendre à appeler l’orbe et de lui expliquer sa part d’Être de lumière, seulement avec son accord.",
+    "temoins": [
+      "paige-matthews",
+      "piper-halliwell",
+      "patty-halliwell"
+    ]
+  },
+  {
+    "id": "acte-paige-accepte-une-lecon-orbe-2001-10-09-2235",
+    "date": "09.10.2001, 22 h 35",
+    "lieu": "grenier",
+    "auteur": "paige-matthews",
+    "fait": "Paige accepte une première leçon d’orbe de Leo, une seule pour commencer, sans accepter d’un bloc tout ce que les autres appellent son destin.",
+    "temoins": [
+      "leo-wyatt",
+      "piper-halliwell",
+      "patty-halliwell"
+    ]
+  },
+  {
+    "id": "acte-cole-securise-salon-2001-10-10-0700",
+    "date": "10.10.2001, 7 h 00",
+    "lieu": "salon",
+    "auteur": "cole-turner",
+    "fait": "Encore convalescent, Cole vérifie les fenêtres et les accès du salon puis installe un fauteuil face à l’entrée afin de surveiller le Manoir tout en récupérant.",
+    "temoins": []
+  },
+  {
+    "affaire_id": "affaire-les-trois-refaites",
+    "date": "09.10.2001, 22 h 38",
+    "description": "La Glaneuse accepte l'ordre de viser Piper seule pendant sept jours, sans approcher Phoebe ni Paige ni prononcer le nom de la Source, et commence cette nuit.",
+    "cible_id": "piper-halliwell",
+    "relation_action": "produit",
+    "acteur_id": "la-glaneuse",
+    "connu_de": [
+      "la-glaneuse",
+      "la-source",
+      "varek"
+    ],
+    "id": "acte-glaneuse-commence-chasse-piper-2001-10-09-2238",
+    "action_id": "1121"
+  },
+  {
+    "id": "acte-paige-premiere-lecon-orbe-2001-10-09-2236",
+    "date": "09.10.2001, 22 h 36",
+    "lieu": "grenier",
+    "auteur": "paige-matthews",
+    "fait": "Paige suit avec Leo une première leçon consacrée à l’orbe, puis rentre dormir dans son appartement.",
+    "temoins": [
+      "leo-wyatt"
+    ]
+  },
+  {
+    "id": "acte-leo-porte-lecon-paige-a-phoebe-2001-10-10-0701",
+    "date": "10.10.2001, 7 h 01",
+    "lieu": "chambre-phoebe",
+    "auteur": "leo-wyatt",
+    "fait": "Leo vient au seuil de la chambre de Phoebe, lui apprend que Paige a accepté et commencé sa formation, puis lui propose d’appeler Paige et d’assister à la prochaine leçon.",
+    "temoins": [
+      "phoebe-halliwell"
+    ]
+  },
+  {
+    "id": "acte-phoebe-appelle-paige-2001-10-10-0703",
+    "date": "10.10.2001, 7 h 03",
+    "lieu": "chambre-phoebe",
+    "auteur": "phoebe-halliwell",
+    "fait": "Phoebe appelle Paige par téléphone depuis sa chambre au Manoir, après que Leo lui a proposé de l’inviter à revenir pour sa prochaine leçon d’orbe.",
+    "temoins": []
+  },
+  {
+    "id": "vesk-guet-cole-2001-10-10",
+    "date": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 10
+    },
+    "acteur_id": "vesk",
+    "type": "guet",
+    "lieu": "Devant l appartement de Cole",
+    "fait": "Vesk reste en guet devant l appartement de Cole, pret a entrer si une ouverture se presente.",
+    "resultat": "Aucune apparition ni ouverture n est constatee pendant ce temps de veille."
+  },
+  {
+    "id": "acte-varek-lance-recrutement-guetteurs-2001-10-09-2241",
+    "cible_id": null,
+    "description": "Varek lance deux voies de recherche pour obtenir avant le lendemain soir deux démons vérifiés capables de surveiller urgences et commissariats sans tuer de mortel : le Courtier cherche les candidats et Malek doit vérifier leurs capacités, leur disponibilité, leur retenue et leur prix.",
+    "date": "09.10.2001, 22 h 41",
+    "acteur_id": "varek",
+    "connu_de": [
+      "la-source",
+      "varek",
+      "le-courtier",
+      "malek-le-veneur"
+    ]
+  },
+  {
+    "id": "acte-phoebe-monte-grenier-lecon-paige-2001-10-10-0706",
+    "date": "10.10.2001, 7 h 06",
+    "lieu": "grenier",
+    "auteur": "phoebe-halliwell",
+    "fait": "Phoebe monte au grenier avec Leo pour assister à la leçon d’orbe de Paige ; Cole reste au salon pour se reposer.",
+    "temoins": [
+      "leo-wyatt",
+      "paige-matthews"
+    ]
+  },
+  {
+    "id": "acte-paige-appelle-coussin-orbes-2001-10-10-0709",
+    "date": "10.10.2001, 7 h 09",
+    "lieu": "grenier",
+    "auteur": "paige-matthews",
+    "fait": "Guidée par Leo devant Phoebe, Paige appelle un coussin : il se défait en lueurs bleu-blanc, réapparaît au-dessus de sa main et elle le rattrape contre elle.",
+    "temoins": [
+      "phoebe-halliwell",
+      "leo-wyatt"
+    ]
+  },
+  {
+    "date": "09.10.2001, 22 h 52",
+    "cible_id": "antre-de-l-oracle",
+    "acteur_id": "la-source",
+    "id": "acte-source-va-voir-oracle-2001-10-09-2252",
+    "connu_de": [
+      "la-source",
+      "l-oracle"
+    ],
+    "description": "La Source quitte sa salle du trône et rejoint l'Oracle dans son antre par les galeries."
+  },
+  {
+    "id": "acte-glaneuse-prepare-invitation-piper-2001-10-10",
+    "date": "10.10.2001",
+    "lieu": "salle-de-la-source",
+    "acteur_id": "la-glaneuse",
+    "cible_id": "piper-halliwell",
+    "description": "La Glaneuse fixe par écrit une invitation à son salon de Russian Hill pour Piper seule. Le texte ne promet ni apparition ni retour, demande un souvenir choisi, reste retenu faute de porteur établi et n est pas attribué à Prue.",
+    "connu_de": [
+      "la-glaneuse"
+    ],
+    "action_id": "1121",
+    "affaire_id": "affaire-les-trois-refaites",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-glaneuse-demande-piste-porteur-varek-2001-10-10",
+    "date": "10.10.2001",
+    "lieu": "salle-de-la-source",
+    "acteur_id": "la-glaneuse",
+    "cible_id": "varek",
+    "description": "La Glaneuse informe Varek que sa première recherche au cimetière n a établi aucun porteur, lui demande seulement le nom d un mortel endeuillé que ses futurs guetteurs pourraient repérer sans l approcher, maintient Piper et ses sœurs hors de leur portée et précise que Piper n a encore donné aucun signe de recherche magique de Prue.",
+    "connu_de": [
+      "la-glaneuse",
+      "varek"
+    ],
+    "action_id": "1121",
+    "affaire_id": "affaire-les-trois-refaites",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-1220-pose-verre-20011010",
+    "date": "2001-10-10",
+    "acteur_id": "le-greffier",
+    "description": "À 18 h 40, le Greffier a placé et scellé un verre dans le joint haut de la paroi de la galerie, en face et à gauche du seuil de Kazhar, hors de ses pièces. Son angle montre au Liseur le seuil et les arrivées par les deux sens de la galerie sans regarder à l’intérieur. Le Liseur en a pris la veille jusqu’au 12 octobre ; si le verre ou son regard est remarqué, l’observation cesse sans remplacement.",
+    "cible_id": null,
+    "temoins": [
+      "le-liseur"
+    ],
+    "connu_de": [
+      "le-greffier",
+      "le-liseur",
+      "le-courtier"
+    ],
+    "action_id": "1220",
+    "affaire_id": "affaire-les-trois-refaites",
+    "relation_action": "produit"
+  },
+  {
+    "id": "acte-glaneuse-demande-a-morne-un-nom-deja-vu-2001-10-10",
+    "date": "10.10.2001",
+    "lieu": "cimetiere",
+    "acteur_id": "la-glaneuse",
+    "cible_id": "morne-le-charognard",
+    "description": "La Glaneuse demande à Morne seulement le nom et les faits déjà vus concernant un mortel endeuillé lié à Piper Halliwell ou au Manoir, sans lui demander de chasser, suivre, toucher ou avertir ce mortel ni aucune des sœurs. Morne n a pas encore répondu.",
+    "connu_de": [
+      "la-glaneuse",
+      "morne-le-charognard"
+    ],
+    "action_id": "1121",
+    "affaire_id": "affaire-les-trois-refaites",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-20011010-1840-verre-kazhar",
+    "date": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 10,
+      "minute": 1120
+    },
+    "acteur_id": "le-greffier",
+    "cible_id": "kazhar",
+    "lieu_id": "les-enfers",
+    "type": "installation",
+    "quoi": "À 18 h 40, le Greffier a posé et scellé un verre dans le joint haut de la paroi de galerie, en face et à gauche du seuil de Kazhar, hors de ses pièces. Le champ couvre le seuil et les arrivées des deux sens, sans regard à l'intérieur. Le Liseur peut y commencer son compte jusqu'au 12 octobre ; découverte du verre ou du regard entraîne la cessation sans remplacement.",
+    "temoins": [
+      "le-courtier"
+    ],
+    "connu_de": [
+      "le-courtier",
+      "le-greffier",
+      "le-liseur"
+    ],
+    "action_id": "1220",
+    "affaire_id": "affaire-les-trois-refaites",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-2001-10-10-1220-verre-kazhar",
+    "date": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 10,
+      "minute": 1120
+    },
+    "acteur_id": "le-greffier",
+    "cible_id": "verre-de-kazhar",
+    "lieu_id": "chez-kazhar",
+    "type": "pose-et-scellement",
+    "quoi": "À 18 h 40, le Greffier a posé et scellé le verre hors du seuil de Kazhar, son axe à 35 degrés de l'axe de l'entrée. Le sceau était intact à son départ. Le constat identique a été porté au Courtier d'ambre et au Liseur ; le compte de la première nuit commence à 18 h 40.",
+    "temoins": [],
+    "connu_de": [
+      "le-greffier",
+      "le-courtier",
+      "le-liseur"
+    ],
+    "action_id": "1220",
+    "affaire_id": "affaire-les-trois-refaites",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-glaneuse-installe-salon-piper-seule-2001-10-10",
+    "date": "10.10.2001",
+    "lieu": "russian-hill",
+    "acteur_id": "la-glaneuse",
+    "cible_id": "piper-halliwell",
+    "description": "La Glaneuse quitte la piste épuisée du cimetière et prépare matériellement son salon pour Piper seule : une place face à la sienne, aucun siège offert à Phoebe ou Paige, aucun objet ni écrit attribué à Prue. Le billet d invitation demeure retenu faute de porteur.",
+    "connu_de": [
+      "la-glaneuse"
+    ],
+    "action_id": "1121",
+    "affaire_id": "affaire-les-trois-refaites",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-varek-autorise-prix-morne-2001-10-10-1840",
+    "date": "10.10.2001, après 18 h 40",
+    "lieu": "salle-de-la-source",
+    "auteur": "varek",
+    "fait": "Varek autorise pour les trois veilles effectivement rendues de Morne le Charognard le prix de trois dépouilles humaines déjà mortes depuis moins d une nuit, une après chaque veille, en interdisant qu un vivant soit tué, blessé ou hâté pour les fournir ; il ordonne au Courtier d ouvrir le second angle avant la nuit sans révéler le Liseur ni le verre.",
+    "temoins": [
+      "la-source",
+      "l-oracle",
+      "varek"
+    ],
+    "action_id": "1220",
+    "affaire_id": "affaire-les-trois-refaites",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-20011010-1830-poste-morne-kazhar",
+    "date": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 10,
+      "minute": 1110
+    },
+    "acteur_id": "morne-le-charognard",
+    "cible_id": "kazhar",
+    "lieu_id": "les-enfers",
+    "type": "surveillance",
+    "quoi": "À 18 h 30, Morne le Charognard a ouvert un poste de veille dans l'anfractuosité haute du mur extérieur, deux longueurs avant le seuil de Kazhar, avec vue sur l'approche droite. Il reste hors du seuil, sa meute demeure loin, et il compte séparément noms, heures et torches. S'il est remarqué, il se retire sans geste et avertit aussitôt le Courtier.",
+    "temoins": [],
+    "connu_de": [
+      "le-courtier",
+      "morne-le-charognard",
+      "varek"
+    ],
+    "action_id": "1220",
+    "affaire_id": "affaire-les-trois-refaites",
+    "relation_action": "preuve"
+  },
+  {
+    "fait": "Après avoir tenu le toit face au Manoir toute la nuit, Tarn comprend qu'un voisin l'a vu et quitte sa ligne de vue sans l'affronter.",
+    "lieu": "toits-pacific-heights",
+    "id": "acte-tarn-repere-quitte-ligne-vue-2001-10-10-0730",
+    "auteur": "tarn",
+    "temoins": [
+      "voisin-prescott"
+    ],
+    "date": "10.10.2001, 7 h 30"
+  },
+  {
+    "fait": "Darryl reçoit le signalement d'une silhouette restée plusieurs heures sur le toit face au Manoir, fait consigner les faits, demande une vérification discrète sans sirène et appelle Phoebe immédiatement.",
+    "lieu": "maison-darryl",
+    "id": "acte-darryl-signalement-guet-prescott-2001-10-10-0730",
+    "auteur": "darryl-morris",
+    "temoins": [
+      "phoebe-halliwell"
+    ],
+    "date": "10.10.2001, 7 h 30"
+  },
+  {
+    "auteur": "darryl-morris",
+    "id": "acte-darryl-rappelle-unite-prescott-2001-10-10-0733",
+    "date": "10.10.2001, 7 h 33",
+    "temoins": [
+      "phoebe-halliwell"
+    ],
+    "fait": "Darryl rappelle la voiture banalisée envoyée vers Prescott, lui ordonne de quitter le secteur sans contact si elle est déjà engagée et de rester disponible à distance.",
+    "lieu": "maison-darryl"
+  },
+  {
+    "temoins": [
+      "phoebe-halliwell",
+      "paige-matthews"
+    ],
+    "auteur": "leo-wyatt",
+    "id": "acte-leo-verifie-manoir-depuis-interieur-2001-10-10-0742",
+    "lieu": "prescott-street",
+    "date": "10.10.2001, 7 h 42",
+    "fait": "Leo vérifie depuis l'intérieur les accès et lignes de vue du Manoir : aucun accès forcé, personne encore visible sur le toit, et plusieurs pièces observables depuis le poste signalé, pas seulement le salon où Cole récupère."
+  },
+  {
+    "temoins": [
+      "voisin-prescott"
+    ],
+    "auteur": "darryl-morris",
+    "id": "acte-darryl-reinterroge-temoin-guet-2001-10-10-0744",
+    "lieu": "maison-darryl",
+    "date": "10.10.2001, 7 h 44",
+    "fait": "Darryl recontacte le voisin et fixe son témoignage : première observation estimée vers 5 h 15, silhouette déjà présente, observation intermittente, heure de début inconnue, aucune arrivée de Cole identifiable."
+  },
+  {
+    "id": "acte-source-commande-verre-dormant-manoir-2001-10-09-2300",
+    "date": "09.10.2001, 23 h 00",
+    "auteur": "la-source",
+    "temoins": [
+      "varek"
+    ],
+    "lieu": "les-enfers",
+    "fait": "La Source accepte le marché du Liseur pour un verre dormant donnant l'image d'une pièce du Manoir : vingt-sept minutes d'audience dues seulement après vingt-quatre heures d'image vérifiée. La fabrication de six heures commencera après la fin du compte de Kazhar le 12 octobre à 18 h 40 ; aucun dépôt n'est autorisé avant présentation à la Source du nom d'un porteur admis et de sa voie d'entrée."
+  },
+  {
+    "id": "acte-oracle-veille-piper-2001-10-10-matin",
+    "date": "10.10.2001, au matin",
+    "acteur_id": "l-oracle",
+    "cible_id": "piper-halliwell",
+    "lieu_id": "antre-de-l-oracle",
+    "type": "vision",
+    "quoi": "De 23 h 05 jusqu'au matin, l'Oracle consacre sans interruption le bassin à Piper seule. L'eau parvient à l'isoler hors du Manoir, au P3, mais ne montre aucun acte accompli par elle. Elle rend une possibilité : vers le soir du 10 octobre, à peu près, Piper pourrait s'écarter des deux autres si un signe assez intime pour qu'elle l'attribue à Prue lui promettait non de remplacer la morte, mais de l'entendre une fois. Une simple mention de Prue, une promesse sans preuve ou l'idée que Paige la remplace la fermerait au lieu de la faire céder. La date et l'issue restent conditionnelles.",
+    "temoins": [],
+    "connu_de": [
+      "l-oracle"
+    ],
+    "action_id": "1120",
+    "affaire_id": "affaire-les-trois-refaites",
+    "relation_action": "produit"
+  },
+  {
+    "auteur": "leo-wyatt",
+    "temoins": [],
+    "lieu": "toits-pacific-heights",
+    "fait": "Leo inspecte le poste de guet signalé. Il trouve deux empreintes de semelles répétées dans le gravier au même point et une zone de poussière essuyée sur le parapet, signes récents d'une station prolongée face au Manoir. Aucun objet, mégot, douille, sang ni trace permettant une identité ou un camp.",
+    "date": "10.10.2001, 7 h 49",
+    "id": "acte-leo-inspecte-toit-guet-2001-10-10-0749"
+  },
+  {
+    "fait": "Leo prélève sans contact direct quelques grains et de la poussière du bord intérieur de l'empreinte la plus nette au poste de guet, conserve le reste des traces pour Darryl, étiquette le paquet avec heure et emplacement et le pose fermé au grenier à disposition de Phoebe.",
+    "temoins": [
+      "phoebe-halliwell",
+      "paige-matthews"
+    ],
+    "id": "acte-leo-preleve-gravier-empreinte-guet-2001-10-10-0753",
+    "lieu": "toits-pacific-heights",
+    "date": "10.10.2001, 7 h 53",
+    "auteur": "leo-wyatt"
+  },
+  {
+    "id": "acte-leo-emmene-phoebe-poste-guet-2001-10-10-0756",
+    "auteur": "leo-wyatt",
+    "fait": "Après avoir revérifié le toit, Leo orbe Phoebe plusieurs pas en retrait des empreintes et se place près d'elle. Phoebe rejoint volontairement la trace originale pour tenter éventuellement une prémonition, mais ne l'a encore touchée ni sur l'empreinte ni sur le parapet.",
+    "temoins": [
+      "phoebe-halliwell"
+    ],
+    "lieu": "toits-pacific-heights",
+    "date": "10.10.2001, 7 h 56"
+  },
+  {
+    "id": "acte-tarn-2001-10-10-0756",
+    "date": "2001.10.10",
+    "qui": "tarn",
+    "fait": "Repérée à 7 h 30 sur le toit face au Manoir, Tarn a quitté la vue du voisin, changé de poste et prévenu Malek. À 7 h 56, depuis une vue oblique, elle a vu Leo et Phoebe s'orber sur l'ancien poste et examiner les empreintes et le parapet ; elle a transmis l'information à Malek puis rompu la ligne de vue.",
+    "action_id": "1021",
+    "affaire_id": "affaire-les-trois-refaites",
+    "relation_action": "preuve"
+  },
+  {
+    "auteur": "tarn",
+    "fait": "Depuis son nouveau poste, Tarn voit Leo et Phoebe examiner ses traces sur l'ancien toit. Elle considère le poste compromis, décroche et reprend plus loin après avoir prévenu Malek ; elle ne les attaque pas et ne constate aucun mouvement de Belthazor.",
+    "temoins": [],
+    "id": "acte-tarn-voit-phoebe-leo-ancien-poste-2001-10-10-0756",
+    "date": "10.10.2001, 7 h 56",
+    "lieu": "toits-pacific-heights"
+  },
+  {
+    "id": "acte-phoebe-vision-empreinte-guet-2001-10-10-0757",
+    "auteur": "phoebe-halliwell",
+    "fait": "Phoebe touche volontairement l'empreinte intacte du poste de guet. Sa prémonition montre une femme inconnue surveillant de façon répétée la fenêtre du salon où Cole repose, puis réagissant au regard d'un voisin. La vision ne donne ni nom, ni camp, ni heure exacte, ni motif.",
+    "temoins": [
+      "leo-wyatt"
+    ],
+    "lieu": "toits-pacific-heights",
+    "date": "10.10.2001, 7 h 57"
+  },
+  {
+    "id": "acte-phoebe-leo-retour-grenier-2001-10-10-0758",
+    "auteur": "phoebe-halliwell",
+    "fait": "Après sa prémonition au contact de l'empreinte, Phoebe retourne immédiatement au grenier avec Leo par orbe. Ils abandonnent le poste de guet sans altérer davantage les traces.",
+    "temoins": [
+      "leo-wyatt"
+    ],
+    "lieu": "grenier",
+    "date": "10.10.2001, 7 h 58"
+  },
+  {
+    "id": "acte-phoebe-cherche-guetteuse-livre-2001-10-10-0800",
+    "auteur": "phoebe-halliwell",
+    "fait": "Phoebe cherche dans le Livre des Ombres le visage de la femme aperçue en prémonition. Aucun portrait ni nom ne correspond. La recherche la ramène toutefois à la page de la Source, qui consigne que celle-ci a mis la tête de Cole à prix, donnant une hypothèse documentée au lien visuel entre la guetteuse et Cole sans identifier cette femme.",
+    "temoins": [
+      "leo-wyatt"
+    ],
+    "lieu": "grenier",
+    "date": "10.10.2001, 8 h 00"
+  },
+  {
+    "id": "acte-phoebe-decrit-guetteuse-cole-2001-10-10-0812",
+    "auteur": "phoebe-halliwell",
+    "fait": "Phoebe rejoint Cole au salon et lui décrit fidèlement la femme vue en prémonition, son poste sur le toit et son attention répétée vers la fenêtre où il reposait. Elle lui rapporte aussi que le Livre ne contient aucun portrait correspondant mais rappelle la mise à prix de sa tête par la Source.",
+    "temoins": [
+      "cole-turner"
+    ],
+    "lieu": "salon",
+    "date": "10.10.2001, 8 h 12"
+  },
+  {
+    "id": "acte-piper-rouvre-p3-2001-10-10-1825",
+    "date": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 10
+    },
+    "acteur_id": "piper-halliwell",
+    "description": "Piper rouvre le P3 au public et prend elle-même la soirée ainsi que la caisse.",
+    "cible_id": null,
+    "lieu_id": "p3",
+    "type": "travail",
+    "quoi": "À 18 h 25, Piper ouvre le P3 au public et tient la caisse pour la soirée.",
+    "temoins": [],
+    "connu_de": [
+      "piper-halliwell"
+    ]
+  },
+  {
+    "id": "acte-kharos-attaque-phoebe-grenier-2001-10-10-0712",
+    "auteur": "kharos-le-briseur",
+    "fait": "Placé au grenier à vue de Phoebe, Piper, Paige et Leo, Kharos fixe Phoebe, ramène les mains, charge sa frappe une seconde puis déclenche une décharge droit sur elle. Phoebe lévite immédiatement : la décharge passe sous elle sans la toucher et Kharos reste brièvement figé par le contrecoup.",
+    "temoins": [
+      "phoebe-halliwell",
+      "piper-halliwell",
+      "paige-matthews",
+      "leo-wyatt"
+    ],
+    "lieu": "grenier",
+    "date": "10.10.2001, 7 h 12"
+  },
+  {
+    "id": "acte-phoebe-esquive-decharge-kharos-2001-10-10-0712",
+    "auteur": "phoebe-halliwell",
+    "fait": "Phoebe utilise sa lévitation pour se soulever au-dessus de la trajectoire de la décharge de Kharos. Le tir passe sous elle et la manque.",
+    "temoins": [
+      "kharos-le-briseur",
+      "piper-halliwell",
+      "paige-matthews",
+      "leo-wyatt"
+    ],
+    "lieu": "grenier",
+    "date": "10.10.2001, 7 h 12"
+  },
+  {
+    "id": "acte-piper-frappe-kharos-pouvoir-2001-10-10",
+    "date": {
+      "annee": 2001,
+      "lune": 10,
+      "jour": 10
+    },
+    "acteur_id": "piper-halliwell",
+    "description": "À la demande de Phoebe, Piper dirige immédiatement son pouvoir d explosion contre Kharos.",
+    "cible_id": "kharos-le-briseur",
+    "lieu_id": "grenier",
+    "type": "combat",
+    "quoi": "Piper lève les mains et frappe Kharos de plein fouet avec son pouvoir d'explosion. Pris dans le contrecoup de sa propre décharge, Kharos ne peut esquiver : la détonation le détruit.",
+    "temoins": [
+      "phoebe-halliwell",
+      "paige-matthews",
+      "leo-wyatt",
+      "kharos-le-briseur"
+    ],
+    "connu_de": [
+      "piper-halliwell",
+      "phoebe-halliwell",
+      "paige-matthews",
+      "leo-wyatt",
+      "kharos-le-briseur"
+    ]
+  },
+  {
+    "id": "acte-piper-protege-soeurs-apres-kharos-2001-10-10-0712",
+    "auteur": "piper-halliwell",
+    "fait": "Après avoir détruit Kharos, Piper garde les mains levées, se place entre ses sœurs et le point de l'intrusion, puis vérifie qu'aucune partie du démon ne bouge encore. Il ne reste que de la poussière démoniaque et la trace du tir dans la malle.",
+    "temoins": [
+      "phoebe-halliwell",
+      "paige-matthews",
+      "leo-wyatt"
+    ],
+    "lieu": "grenier",
+    "date": "10.10.2001, 7 h 12"
+  },
+  {
+    "id": "acte-phoebe-cherche-kharos-livre-2001-10-10-0714",
+    "auteur": "phoebe-halliwell",
+    "fait": "Phoebe cherche activement Kharos ou les traces du démon d assaut dans le Livre des Ombres ; le Livre ne contient aucune entrée à son sujet.",
+    "temoins": [
+      "piper-halliwell",
+      "paige-matthews",
+      "leo-wyatt"
+    ],
+    "lieu": "grenier",
+    "date": "10.10.2001, 7 h 14"
+  },
+  {
+    "id": "acte-leo-accepte-consulter-fondateurs-2001-10-10-0720",
+    "auteur": "leo-wyatt",
+    "fait": "Leo accepte de monter immédiatement consulter les Fondateurs au sujet du démon Kharos et de la Source, en demandant aux sœurs de rester ensemble au grenier.",
+    "temoins": [
+      "phoebe-halliwell",
+      "piper-halliwell",
+      "paige-matthews"
+    ],
+    "lieu": "grenier",
+    "date": "10.10.2001, 7 h 20"
+  },
+  {
+    "id": "acte-courtier-livre-dispensaire-howard-2001-10-10-0732",
+    "date": "10.10.2001, 7 h 32",
+    "lieu": "salle-de-la-source",
+    "auteur": "le-courtier",
+    "fait": "Sur intervention souveraine, le Courtier revient dans la salle basse et remet à la Source et à Varek l'adresse vérifiée de l'ancien dispensaire du 412 Howard Street (accès arrière discret, huisseries intactes, deux seuils successifs).",
+    "temoins": [
+      "la-source",
+      "varek",
+      "ferran-le-verrouilleur",
+      "neris-le-sonneur"
+    ],
+    "action_id": "1721",
+    "affaire_id": "affaire-le-dispensaire-ferme",
+    "relation_action": "preuve"
+  },
+  {
+    "id": "acte-affaire-1700-debloquee-1791051843",
+    "date": "10.10.2001, 7 h 40",
+    "lieu_id": "les-enfers",
+    "acteur_id": "le-courtier",
+    "type": "decision",
+    "quoi": "Le Courtier d'ambre livre l'adresse vérifiée de l'ancien dispensaire de Howard Street à Varek. Le premier verrou logistique (1701) est levé, débloquant l'affaire 1700.",
+    "connu_de": [
+      "varek",
+      "le-courtier",
+      "la-source"
+    ],
+    "affaire_id": "affaire-le-dispensaire-ferme"
+  },
+  {
+    "id": "acte-deploiement-piege-1791051843",
+    "date": "10.10.2001, 7 h 50",
+    "lieu_id": "dispensaire-howard",
+    "acteur_id": "ferran-le-verrouilleur",
+    "type": "installation",
+    "quoi": "Ferran et Néris investissent le dispensaire Howard. Trois otages (un médecin, une infirmière, un patient de rue) y sont séquestrés dans le sous-sol. Les runes invisibles du piège sont tracées sur les accès.",
+    "connu_de": [
+      "ferran-le-verrouilleur",
+      "neris"
+    ],
+    "affaire_id": "affaire-le-dispensaire-ferme"
+  },
+  {
+    "id": "acte-fuite-echos-1791051843",
+    "date": "10.10.2001, 8 h 00",
+    "lieu_id": "les-enfers",
+    "acteur_id": "le-courtier",
+    "type": "ruse",
+    "quoi": "Le Courtier orchestre volontairement des fuites d'information (échos et rumeurs magiques) dans les bas-fonds de San Francisco concernant l'occupation démoniaque du dispensaire Howard, servant d'appât pour les sœurs.",
+    "connu_de": [
+      "le-courtier",
+      "varek"
+    ],
+    "affaire_id": "affaire-le-dispensaire-ferme"
+  },
+  {
+    "id": "acte-leo-revient-fondateurs-2001-10-10-0724",
+    "auteur": "leo-wyatt",
+    "fait": "Leo revient du plan des Fondateurs et rapporte qu'aucune mention de Kharos le Briseur n'existe dans leurs registres, confirmant seulement que la Source commence à s'agiter.",
+    "temoins": [
+      "phoebe-halliwell",
+      "piper-halliwell",
+      "paige-matthews"
+    ],
+    "lieu": "grenier",
+    "date": "10.10.2001, 7 h 24"
+  }
+]

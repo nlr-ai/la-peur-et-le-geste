@@ -44,8 +44,11 @@ import os
 import re
 import sys
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-LIVRES = os.path.join(RACINE, "etat", "books.json")
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+LIVRES = os.path.join(ETAT, "books.json")
 
 import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
 _d = _os.path.dirname(_os.path.abspath(__file__))
@@ -185,7 +188,7 @@ def passer(livres, affaire=None):
 if __name__ == "__main__":
     args = sys.argv[1:]
     aff = args[args.index("--affaire") + 1] if "--affaire" in args else None
-    session = bibliotheque.ouvrir(os.path.join(RACINE, "etat"))
+    session = bibliotheque.ouvrir(ETAT)
     livres, faits, refus, deja, numerotees = passer(session.livres, aff)
 
     sys.stdout.write(u"\n%d cellule(s) d'office prendraient leur numéro :\n\n"

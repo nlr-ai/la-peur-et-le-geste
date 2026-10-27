@@ -12,8 +12,26 @@ from temps.expose import occupation
 from etat.expose import tables
 
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ETAT = os.path.join(RACINE, "etat")
+import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
+_d = _os.path.dirname(_os.path.abspath(__file__))
+while _os.path.basename(_d) != "scripts" and _os.path.dirname(_d) != _d:
+    _d = _os.path.dirname(_d)
+for _p in (_d, _os.path.join(_d, "noyau")):
+    if _p not in _sys.path:
+        _sys.path.insert(0, _p)
+
+import racines
+
+# LES DEUX RACINES, ET POURQUOI LES DEUX RESTENT ICI.
+# `ETAT` suit le monde courant : c'est la donnee. `RACINE` ne le suit pas —
+# `regence_passation` l'importe pour rendre un chemin LISIBLE (`os.path.relpath`)
+# et c'est la racine du DEPOT qu'il lui faut, celle qu'elle a toujours valu.
+# Le nom doit rester expose : il traverse un import circulaire (cette porte
+# charge `regence_passation`, qui relit ces deux noms-ci), donc le supprimer ne
+# rend pas une erreur de nom a la ligne fautive mais un « partially initialized
+# module » a l'autre bout du cercle, et la garde d'occupation tombe.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 
 
 def lire_json(chemin, defaut):

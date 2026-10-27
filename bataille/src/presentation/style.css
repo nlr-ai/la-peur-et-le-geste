@@ -175,6 +175,13 @@ body {
   color: var(--texte-faible);
 }
 
+/* ── Incarner ── */
+.incarner-aide {
+  font-size: 11px;
+  color: var(--texte-faible);
+  line-height: 1.4;
+}
+
 /* ── Ordres ── */
 .ordres {
   display: flex;

@@ -1,0 +1,33 @@
+{
+  "version": "activation-graphe/2",
+  "qui": "aemond",
+  "tache": {
+    "id": "70023",
+    "quoi": "🌙 Maillon 0 — faire coucher Vhagar au Fossedragon chaque nuit"
+  },
+  "activation": {
+    "issue": "traitee-par-depeche",
+    "energie_depensee": 25.0,
+    "activites": [
+      {
+        "action": {
+          "verbe": "poursuivre",
+          "quoi": "BOUCLE D'ACTIVATION — le graphe t'a élu pour poursuivre cette tâche maintenant.\nTÂCHE : `70023`\nOBJET : 🌙 Maillon 0 — faire coucher Vhagar au Fossedragon chaque nuit\nBUDGET DE TRAVAIL : 25 unités.\n\nAgis depuis ta tête, tes documents de maison et l'état réel du dépôt. Tu as accès au dépôt : écris directement, par les portes canoniques, les changements d'état, d'action, d'étape, d'acte ou de mesure que ton travail produit. Ne demande rien au MJ. Si une issue dépend d'un autre ou d'un fait absent, écris ton geste et laisse seulement cette issue en attente."
+        },
+        "temps": {
+          "duree_s": 750
+        },
+        "resultats_produits": [],
+        "cout_energie": 25.0
+      }
+    ]
+  },
+  "_activation": {
+    "cree_le": "2026-09-10T19:13:54.779796+02:00",
+    "front": "nicolas-lester-reynolds",
+    "present_secondes": 33420.0,
+    "budget": 25,
+    "duree_api_ms": 117981,
+    "mode": "depeche-directe-repo"
+  }
+}

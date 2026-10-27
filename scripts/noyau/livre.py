@@ -41,8 +41,12 @@ import documents_maison
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ETAT = os.path.join(RACINE, "etat")
+import racines
+# `RACINE` reste exposee, et c'est la racine du DEPOT : retirer un nom que
+# le module publiait casse ses importeurs a l'autre bout d'un cycle.
+# Seul `ETAT` suit le monde.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 
 
 def _charger(nom, defaut):

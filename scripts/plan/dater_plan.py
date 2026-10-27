@@ -33,7 +33,6 @@ d'ecrire et refuse si son empreinte a bouge depuis la lecture.
 """
 import io, os, re, sys
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
 _d = _os.path.dirname(_os.path.abspath(__file__))
 while _os.path.basename(_d) != "scripts" and _os.path.dirname(_d) != _d:
@@ -45,8 +44,11 @@ for _p in (_d, _os.path.join(_d, "noyau")):
 from plan.expose import couverture as C    # noqa: E402
 from temps.expose import jours_relatifs as JR  # noqa: E402 — LA PORTE de temps/
 import bibliotheque                        # noqa: E402
+import racines                             # noqa: E402
 
-BOOKS = os.path.join(RACINE, "etat", "books.json")
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+BOOKS = os.path.join(ETAT, "books.json")
 COL_JOUR = u"\U0001F4C5 Jour dû"
 CLOS = (u"faite", u"close", u"abandonnée", u"abandonnee")
 
@@ -67,7 +69,7 @@ def entetes(cols):
 
 
 def passer(ecrire=False, filtre=None):
-    session_livres = bibliotheque.ouvrir(os.path.join(RACINE, "etat"))
+    session_livres = bibliotheque.ouvrir(ETAT)
     livres = session_livres.livres
     portees, deja, clos, muettes, colonnes = [], 0, 0, 0, 0
     for livre in livres:

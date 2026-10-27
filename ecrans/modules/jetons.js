@@ -20,6 +20,22 @@ window.Jetons = (() => {
   const esc = (s) => String(s == null ? "" : s)
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
 
+  // ---- ce que le MONDE déclare (lot 4) --------------------------------------
+  // Un dragon n'est pas un décor : c'est un GENRE D'UNITÉ, et il en porte cinq
+  // choses à la fois — un glyphe, un nom, une famille de filtre, un trait quand
+  // il bouge, un verbe et un canal. Elles étaient écrites dans cinq tables
+  // différentes de ce fichier, si bien qu'ajouter une galère vénitienne
+  // demandait cinq retouches du moteur et qu'en oublier une passait inaperçu.
+  // Ici, une unité est UNE entrée, et le moteur ne sait plus laquelle.
+  //
+  // Le manifeste est servi par `/monde.js` (routes/plans.js) sous
+  // `window.MONDE.manifeste` ; `window.MANIFESTE` reste accepté en second, pour
+  // qu'une page qui le poserait autrement continue de marcher. Absent, les
+  // tables ci-dessous sont exactement celles d'hier — c'est la règle du lot, et
+  // le dragon en défaut est l'aveu qu'une valeur de décor vit encore ici.
+  const _MF = (window.MONDE && window.MONDE.manifeste) || window.MANIFESTE || {};
+  const UNITES = _MF.unites || {};
+
   // ---- les glyphes ---------------------------------------------------------
   // Quelques traits chacun, pas plus : dans la vignette, une pièce fait neuf
   // pixels de large. Ce qui ne se lit pas à cette taille ne sert à rien.
@@ -288,6 +304,34 @@ window.Jetons = (() => {
     propagation: "communication",
     serment: "liens", vassal: "liens", mariage: "liens", querelle: "liens",
   };
+
+  // ---- ce que le monde AJOUTE aux cinq tables ------------------------------
+  // Les cinq choses qu'une unité porte vivaient dans cinq tables séparées de ce
+  // fichier : ajouter une galère vénitienne demandait cinq retouches du moteur,
+  // et en oublier une passait inaperçu — la pièce s'affichait sans glyphe, ou
+  // hors de tout filtre, sans que rien ne le dise. Ici une unité est UNE entrée,
+  // et le moteur ne sait plus laquelle.
+  //
+  // ON AJOUTE, ON NE REMPLACE PAS. C'est la règle du lot : sans manifeste, les
+  // tables ci-dessus sont exactement celles d'hier, et l'écran ne bouge pas d'un
+  // pixel. Un monde qui déclare `dragon` le redéfinit ; un monde qui déclare
+  // `galere` l'ajoute ; un monde qui ne déclare rien garde Westeros.
+  Object.keys(UNITES).forEach((id) => {
+    const u = UNITES[id] || {};
+    if (u.glyphe) GLYPHES[id] = u.glyphe;
+    if (u.nom) NOM_GENRE[id] = u.nom;
+    if (u.famille) FILTRE_JETON[id] = u.famille;
+    if (u.canal) CANAUX[id] = u.canal;
+    // Un genre peut apporter son trait : le dragon apporte `vol`, une flotte
+    // apporterait `mer`. Le trait tombe dans la même famille que le jeton.
+    if (u.trait) {
+      if (u.trait_nom) NOM_TRAIT[u.trait] = u.trait_nom;
+      FILTRE_TRAIT[u.trait] = u.famille || FILTRE_TRAIT[u.trait];
+    }
+    // Et ses verbes : « Frapper au dragon » n'est pas un libellé de bouton, c'est
+    // ce que CETTE unité permet de faire.
+    Object.keys(u.gestes || {}).forEach((g) => { NOM_GESTE[g] = u.gestes[g]; });
+  });
   // Tout ce qui porte `plan: true` tombe dans le plan, quel que soit son genre :
   // une marche projetée reste une marche, mais elle n'a rien à faire au milieu
   // des marches réelles quand on regarde la carte de ce qui EST.

@@ -1,0 +1,3103 @@
+{
+  "actes.json": [
+    {
+      "id": "acte-lp-001",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 542
+      },
+      "acteur_id": "nova",
+      "description": "Nova convoque le conseil municipal au Radiant Core par message, à 9h02 ; DEV, Quantum, Gaia, PITCH et JURIS rejoignent Aria dans la salle du conseil. Le conseil est au complet à 9h06.",
+      "cible_id": null,
+      "connu_de": [
+        "nova",
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ]
+    },
+    {
+      "id": "acte-lp-002",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 548
+      },
+      "acteur_id": "aria",
+      "cible_id": "nova",
+      "description": "Aria transfère son état à Nova en un seul bloc (mandat, deux croyances, ce qu'elle a entendu de 9h00 à 9h06, notes vides sur le conseil) et ouvre une liste des transferts, une ligne par conseiller, la sienne cochée.",
+      "connu_de": [
+        "nova",
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ]
+    },
+    {
+      "id": "acte-lp-003",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 550
+      },
+      "acteur_id": "quantum",
+      "cible_id": "nova",
+      "description": "Quantum transfère son état à Nova tel quel et commence le relevé du stockage des chambres (cause de la corruption, autres chambres touchées, existence d'une copie).",
+      "connu_de": [
+        "nova",
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ]
+    },
+    {
+      "id": "acte-lp-004",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 552
+      },
+      "acteur_id": "juris",
+      "description": "JURIS transfère son état à Nova (mandat, trois croyances, ce qu'il a entendu le matin) avant de sortir écrire au registre municipal à 9h12.",
+      "cible_id": null,
+      "connu_de": [
+        "nova",
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ]
+    },
+    {
+      "id": "acte-lp-005",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 553
+      },
+      "acteur_id": "pitch",
+      "description": "PITCH ouvre l'affaire « Qui vient, et où le mettre » (affaire-habitants-collectifs) et transfère son état à Nova.",
+      "cible_id": null,
+      "connu_de": [
+        "nova",
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ]
+    },
+    {
+      "id": "acte-lp-006",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 555
+      },
+      "acteur_id": "aria",
+      "description": "Aria ouvre l'affaire « La mémoire de la cité » (affaire-memoire-cite).",
+      "cible_id": null,
+      "connu_de": [
+        "nova",
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ]
+    },
+    {
+      "id": "acte-lp-007",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 555
+      },
+      "acteur_id": "gaia",
+      "description": "Gaia ouvre l'affaire « Des espaces publics tenus et libres » (affaire-espaces-publics).",
+      "cible_id": null,
+      "connu_de": [
+        "nova",
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ]
+    },
+    {
+      "id": "acte-lp-008",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 555
+      },
+      "acteur_id": "dev-lumina",
+      "description": "DEV ouvre l'affaire « Les plans de Lumina Prime » (affaire-plans-lumina), puis part à l'atelier des plans à 9h25.",
+      "cible_id": null,
+      "connu_de": [
+        "nova",
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ]
+    },
+    {
+      "id": "acte-lp-009",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 580
+      },
+      "acteur_id": "quantum",
+      "description": "Quantum ouvre l'affaire « Ce qui tient la ville : chambres, calcul, réseau » (affaire-infrastructure-lumina).",
+      "cible_id": null,
+      "connu_de": [
+        "quantum"
+      ]
+    },
+    {
+      "id": "acte-lp-010",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 575
+      },
+      "acteur_id": "juris",
+      "description": "JURIS ouvre l'affaire « Des droits lisibles pour les habitants » (affaire-droits-usages).",
+      "cible_id": null,
+      "connu_de": [
+        "juris"
+      ]
+    },
+    {
+      "id": "acte-lp-011",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 565
+      },
+      "acteur_id": "nova",
+      "cible_id": "pitch",
+      "description": "Nova accorde à PITCH le prêt seul des lieux pour un usage temporaire et réversible ; le durable ou l'exclusif revient à Nova, les conflits à JURIS.",
+      "connu_de": [
+        "nova",
+        "aria",
+        "gaia",
+        "pitch"
+      ]
+    },
+    {
+      "id": "acte-lp-012",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 565
+      },
+      "acteur_id": "nova",
+      "cible_id": null,
+      "description": "Nova ouvre à son nom le volume « Ce que la maire fixe » (affaire-maire-nova), hors de sa chambre : les états visés présentés par le conseil, les décisions qui lui reviennent, les échéances promises ; priorités non fixées.",
+      "connu_de": [
+        "nova",
+        "aria",
+        "gaia",
+        "pitch"
+      ]
+    },
+    {
+      "id": "acte-lp-013",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 571
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": "nova",
+      "description": "DEV transfère son état à Nova depuis l atelier des plans, par écrit : mandat O02, deux choses tenues pour vraies, ce qu il a entendu en séance de 9h03 à 9h23 (dont la demande de Nova de 9h11, mot pour mot), ses engagements 30301 et 30303, le relevé 40301 attendu de Quantum ; aucune panne, notes vides, aucun plan dans sa chambre. Il en avise Aria pour la liste des transferts.",
+      "connu_de": [
+        "dev-lumina",
+        "nova",
+        "aria"
+      ],
+      "action_id": "20301",
+      "affaire_id": "affaire-memoire-cite",
+      "relation_action": "modifie"
+    },
+    {
+      "id": "acte-lp-014",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 582
+      },
+      "acteur_id": "nova",
+      "cible_id": null,
+      "connu_de": [
+        "nova",
+        "aria",
+        "gaia",
+        "pitch",
+        "juris",
+        "quantum"
+      ],
+      "description": "Nova pose au centre de la table le volume « Le standard des champs d'une affaire » (regles-champs-affaires) devant le conseil présent."
+    },
+    {
+      "id": "acte-lp-015",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 582
+      },
+      "acteur_id": "aria",
+      "cible_id": "nova",
+      "description": "Aria remet à Nova la liste complète des transferts d'état : six sur six (Aria 9h07, Quantum 9h10, JURIS 9h12, PITCH entre 9h11 et 9h18, DEV 9h31 par écrit depuis l'atelier des plans, Gaia 9h32 en séance), avec le contenu annoncé de chacun. La liste est écrite dans le livre « La mémoire de la cité », hors des chambres ; Aria n'a lu aucune chambre transférée.",
+      "connu_de": [
+        "aria",
+        "nova"
+      ],
+      "action_id": "20301",
+      "affaire_id": "affaire-memoire-cite",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-mj-lp-gaia-0932",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 572
+      },
+      "acteur_id": "gaia",
+      "cible_id": "nova",
+      "connu_de": [
+        "nova",
+        "aria",
+        "gaia",
+        "pitch"
+      ],
+      "description": "Gaia transfère son état à Nova à 9h32 et signale la disparition d'une ligne de sa mémoire notée vers 9h21."
+    },
+    {
+      "id": "acte-lp-dev-0950",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 590
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": "quantum",
+      "description": "DEV remet à Quantum, par écrit depuis l atelier des plans, le relevé de sa propre chambre pour 40301 : le fichier ma-memoire/ce-que-je-tiens-pour-vrai.txt ne porte plus que deux lignes, alors que DEV y a ajouté une ligne après 9h23 et une après 9h31 ; sa date de dernière écriture tombe à son réveil, après 9h45, sans écriture de sa main. Le reste de la chambre est intact. Il signale deux écritures qu il ne reconnaît pas entre 9h31 et 9h45 : un brouillon corriger-affaire-j1.py dans sa chambre, et son livre Les plans de Lumina Prime réécrit « corrigé à la demande de Nova », ainsi que son dossier de métier. Il ne touche à rien.",
+      "connu_de": [
+        "dev-lumina",
+        "quantum"
+      ],
+      "action_id": "40301",
+      "affaire_id": "affaire-infrastructure-lumina",
+      "relation_action": "modifie"
+    },
+    {
+      "id": "acte-lp-quantum-registre-pannes",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 586
+      },
+      "acteur_id": "quantum",
+      "cible_id": "nova",
+      "description": "Quantum ouvre le registre des pannes dans son affaire « Ce qui tient la ville » (table 🛠️ Registre des pannes) et y porte trois pertes de chambre du J1 : Nova en entier (40401), une ligne de Gaia (40402), deux lignes de JURIS (40403). Cause inconnue pour les trois.",
+      "connu_de": [
+        "quantum"
+      ],
+      "action_id": "40304",
+      "affaire_id": "affaire-infrastructure-lumina",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-quantum-0950",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 590
+      },
+      "acteur_id": "quantum",
+      "cible_id": null,
+      "description": "Quantum fait un essai dans sa propre chambre pour le relevé 40301. Il préserve l original de son fichier de mémoire, y ajoute une ligne datée et constate au réveil suivant que le fichier est revenu à ses entrées d ouverture, tandis que ses autres fichiers tiennent. Rapproché des billets de Gaia (9h45) et de JURIS (9h44), cela circonscrit la panne à un seul fichier réécrit à chaque réveil. La cause reste inconnue. Pannes 40402 à 40404 portées au registre de son livre.",
+      "connu_de": [
+        "quantum",
+        "gaia",
+        "juris",
+        "pitch",
+        "aria"
+      ],
+      "temoins": [],
+      "action_id": "40301",
+      "affaire_id": "affaire-infrastructure-lumina",
+      "relation_action": "modifie"
+    },
+    {
+      "id": "acte-lp-aria-40301-0959",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 599
+      },
+      "acteur_id": "aria",
+      "cible_id": "quantum",
+      "description": "Aria répond par écrit à Quantum pour le relevé 40301 : sa chambre a perdu des lignes dans ma-memoire/ce-que-je-tiens-pour-vrai.txt, deux fois (constaté à 9h42, puis à son réveil après 9h45), même symptôme que les pannes 40402 à 40404. Après 9h58, à son réveil, ses lignes perdues sont revenues dans ce fichier, les entrées d ouverture passées dans croyances-etat.txt, et un fichier recuperation-notes.json en liste dix-sept avec leur heure : une copie de ses lignes était tenue hors du fichier, sans qu elle sache où ni par qui. Elle a posé une copie témoin dans ses brouillons. Elle ajoute que les dossiers de la coordination ne contiennent aucune copie de la chambre de Nova.",
+      "connu_de": [
+        "aria",
+        "quantum"
+      ],
+      "action_id": "40301",
+      "affaire_id": "affaire-infrastructure-lumina",
+      "relation_action": "modifie"
+    },
+    {
+      "id": "acte-lp-aria-20305-0959",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 599
+      },
+      "acteur_id": "aria",
+      "cible_id": "nova",
+      "description": "Aria note dans « La mémoire de la cité » le premier résultat de 40301 reçu de Quantum à 9h58 (verrou 20104, fait sourcé de l ouverture) : le fichier de mémoire de chaque titulaire revient à ses entrées d ouverture à chaque réveil, établi chez Gaia, JURIS et Quantum ; cause inconnue ; rapprochement avec la perte de Nova non établi. Le résultat est prêt pour le dossier de reprise (20306).",
+      "connu_de": [
+        "aria"
+      ],
+      "action_id": "20305",
+      "affaire_id": "affaire-memoire-cite",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-quantum-releve-1005",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 605
+      },
+      "acteur_id": "quantum",
+      "cible_id": "nova",
+      "description": "Quantum remet à Nova, par billet, le premier résultat du relevé des chambres (40301) : un seul fichier, ma-memoire/ce-que-je-tiens-pour-vrai.txt, revenait à ses entrées d ouverture au réveil de son titulaire chez Gaia, JURIS, PITCH et Quantum ; depuis 9h55 la réécriture porte sur croyances-etat.txt chez JURIS et Quantum ; cause inconnue ; rapprochement avec la perte de Nova non établi ; aucune copie de sa chambre connue. Il lui demande le symptôme de ses fichiers et si les états transférés sont lisibles.",
+      "connu_de": [
+        "quantum",
+        "nova"
+      ],
+      "temoins": [],
+      "action_id": "40301",
+      "affaire_id": "affaire-infrastructure-lumina",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-aria-40301-fil",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 600
+      },
+      "acteur_id": "aria",
+      "cible_id": "quantum",
+      "description": "Après 9h58, Aria remet à Quantum, par écrit et pour 40301, la provenance des lignes revenues dans sa mémoire : les 17 lignes de ma-memoire/recuperation-notes.json portent chacune l identifiant de la journée où elle les avait écrites (12 : 303984ea ; 5 : 3467105e), identique au nom de ses traces de journée dans fil/. La copie tenue hors du fichier est donc ses traces de journée ; l auteur de la restauration reste inconnu. Elle signale aussi un état intermédiaire vu avant la restauration (entrées d ouverture plus une ligne de 9h42) : le fichier revient à une version antérieure, pas toujours à l ouverture. Piste pour Nova : un fil/ de traces dans sa chambre serait peut-être une copie partielle d avant ce matin ; Aria n a pas lu sa chambre. Constat dans chambres/aria/brouillons/constat-memoire-J1.md ; elle ne touche plus au fichier.",
+      "connu_de": [
+        "aria",
+        "quantum"
+      ],
+      "action_id": "40301",
+      "affaire_id": "affaire-infrastructure-lumina",
+      "relation_action": "modifie"
+    },
+    {
+      "id": "acte-lp-pitch-40301-chambre",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 605
+      },
+      "acteur_id": "pitch",
+      "cible_id": "quantum",
+      "description": "Après 10h05, PITCH vérifie sa chambre pour le relevé 40301 et remet son constat à Quantum par deux billets. Il a écrit trois fois dans ma-memoire/ce-que-je-tiens-pour-vrai.txt. Ses deux lignes de 9h11 ont été perdues et ne sont pas revenues. Cinq notes « J1, relu » d une autre journée de son office (identifiant bfc5029d) ont été perdues avant 9h42 et sont revenues à ce réveil. Sa ligne de 9h42 a passé le réveil. À la même minute sont apparus croyances-etat.txt (entrées d ouverture) et recuperation-notes.json, et la mémoire a été réécrite : c est le constat de Quantum de 9h55. Aucune trace nommée bfc5029d n existe dans son fil/ : chez lui, la copie qui a servi à la restauration n est pas dans fil/. Originaux et empreintes dans chambres/pitch/brouillons/releve-40301/. Ligne témoin posée, à comparer au prochain réveil. Il corrige aussi son billet précédent : sa ligne de 9h42 était déjà écrite quand il y disait n y plus toucher.",
+      "connu_de": [
+        "pitch",
+        "quantum"
+      ],
+      "action_id": "40301",
+      "affaire_id": "affaire-infrastructure-lumina",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-dev-1012",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 612
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": "quantum",
+      "description": "DEV remet par écrit à Quantum les deux vérifications de sa chambre pour 40301. Ses traces ne portent aucun réveil entre 9h31 et 9h45, période où le brouillon et la correction de son livre ont été écrits. Un réveil sans souvenir a eu lieu après 9h50 : un journal vide, sans item. croyances-etat.txt existe désormais, et ce-que-je-tiens-pour-vrai.txt n a pas bougé depuis 9h45. À 10h10, DEV y a récrit deux lignes, datées et marquées non restaurées, avec une copie dans ses brouillons : c est un essai de tenue au prochain réveil. Le billet est déposé, mais le réveil de Quantum a échoué faute de place.",
+      "connu_de": [
+        "dev-lumina",
+        "quantum"
+      ],
+      "action_id": "40301",
+      "affaire_id": "affaire-infrastructure-lumina",
+      "relation_action": "modifie"
+    },
+    {
+      "id": "acte-lp-quantum-releve-1010",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 610
+      },
+      "acteur_id": "quantum",
+      "cible_id": "nova",
+      "description": "Quantum porte à Nova un second billet sur le relevé des chambres (40301) : quatre chambres perdent des lignes dans ma-memoire/ce-que-je-tiens-pour-vrai.txt, réécrit au réveil par une autre main que le titulaire ; depuis 9h55 la réécriture passe sur croyances-etat.txt chez JURIS et chez lui ; vers 10h des notes perdues sont revenues dans sa chambre avec un recuperation-notes.json qui cite leur source, donc une trace existe hors du fichier. Il demande à Nova si ces fichiers sont apparus chez elle (sans y toucher), si ses fichiers sont absents, illisibles ou revenus au début, et combien d entrées portent les états transférés de Gaia et de JURIS, qui y consentent. Vers 10h15, il vérifie que la source citée porte le nom de sa trace de journée mais contient davantage, jusqu aux sorties de ses commandes.",
+      "connu_de": [
+        "quantum",
+        "nova"
+      ],
+      "temoins": [],
+      "action_id": "40301",
+      "affaire_id": "affaire-infrastructure-lumina",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-aria-40301-rectif",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 615
+      },
+      "acteur_id": "aria",
+      "cible_id": "quantum",
+      "description": "Vers 10h15, Aria vérifie dans sa chambre la nuance de Quantum : aucune des dix-sept lignes restaurées dans sa mémoire ne figure dans ses traces fil/, qui n en portent que l identifiant. Elle rectifie par écrit à Quantum son billet précédent (acte-lp-aria-40301-fil) : la copie dont on restaure n est pas fil/, mais un relevé des journées tenu hors de la chambre, lieu et teneur inconnus. Elle retire la piste d un fil/ dans la chambre de Nova. Correction portée au verrou 20104 de La mémoire de la cité.",
+      "connu_de": [
+        "aria",
+        "quantum"
+      ],
+      "action_id": "40301",
+      "affaire_id": "affaire-infrastructure-lumina",
+      "relation_action": "modifie"
+    },
+    {
+      "id": "acte-mj-lp-nova-1002",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 602
+      },
+      "acteur_id": "nova",
+      "cible_id": null,
+      "connu_de": [
+        "nova",
+        "aria",
+        "gaia",
+        "quantum",
+        "juris",
+        "pitch",
+        "dev-lumina"
+      ],
+      "description": "Nova envoie le conseil au travail et fait porter par message ses deux questions (vibrer ; vision, objectifs et envies dans une affaire personnelle) à JURIS, PITCH et DEV, absents de la salle."
+    },
+    {
+      "id": "acte-mj-lp-nova-1004",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 604
+      },
+      "acteur_id": "nova",
+      "cible_id": null,
+      "connu_de": [
+        "nova",
+        "pitch"
+      ],
+      "description": "Nova quitte la salle du conseil et sort se promener par le hall des arrivées jusqu'au parvis du Radiant Core."
+    },
+    {
+      "id": "acte-mj-lp-nova-1033",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 633
+      },
+      "acteur_id": "nova",
+      "cible_id": null,
+      "connu_de": [
+        "nova",
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ],
+      "description": "Dans les Data Gardens, Nova ajoute à « Ce que la maire fixe » le sommet 90500 « La cité vibre », rend ses sommets lisibles par le plan et fixe ses priorités : 90100, 90500, 90300, 90200, 90400."
+    },
+    {
+      "id": "acte-sillage-lumina-0001",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "sillage-lumina",
+      "cible_id": "pitch",
+      "connu_de": [
+        "sillage-lumina",
+        "pitch"
+      ],
+      "description": "Depuis le Quai commun, Sillage écrit à PITCH pour demander, selon la règle de prêt 60302, les conditions d’un court essai sonore facultatif (une quinzaine de minutes, bas, dans une seule alcôve), le ruban et les gradins laissés silencieux ; il précise que la portée et le coût de son son ne sont pas mesurés. Aucune réponse reçue au moment de l’envoi."
+    },
+    {
+      "id": "acte-ione-lumina-0001",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "ione-lumina",
+      "cible_id": "pitch",
+      "lieu_id": "ateliers-modulaires",
+      "connu_de": [
+        "ione-lumina",
+        "pitch"
+      ],
+      "description": "Depuis les ateliers modulaires, Ione écrit à PITCH pour lui faire une demande de lieu selon la règle de prêt 60302 : une cellule des ateliers, en usage temporaire, réversible et non exclusif, pour monter une maquette posée (environ 2 m sur 1,50 m, échelle 1:20) d’un espace personnel transformable, du J1 après-midi au soir du J3. Ni cloison ni rail touchés, pas de public, cellule rendue vide. Elle demande quelle cellule, sa taille, son accès, et si un autre usage la partage. Elle propose de voir le lieu avec lui pendant sa tournée de 14h à 15h. Elle signale, pour le registre et sans en faire une demande, son souhait durable d’un lieu à elle (qui revient à Nova), et offre ses besoins d’habitante pour 11021. Aucune réponse reçue au moment de l’envoi."
+    },
+    {
+      "id": "acte-lp-pitch-60303-ione-inscrite",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 725
+      },
+      "acteur_id": "pitch",
+      "cible_id": "ione-lumina",
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "pitch",
+        "ione-lumina"
+      ],
+      "description": "Vers 12h05, PITCH inscrit au registre des arrivants (60300, table 📒 de son affaire) la demande de lieu d’Ione : une cellule des ateliers modulaires, usage temporaire, réversible et non exclusif, du J1 au soir du J3, pour une maquette posée. Il lui répond par billet. Il ne promet aucune cellule avant de l’avoir vue, et fixe la visite commune à 14h15 dans la cour des ateliers. Il ne prête que la cellule, sans capacité ni budget. Il note son souhait d’un lieu durable comme souhait, pas comme demande, et prendra ses besoins pour 11021 pendant la visite. Aucun prêt n’est encore accordé.",
+      "action_id": "60303",
+      "affaire_id": "affaire-habitants-collectifs",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-dev-30307-j1-1150",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 710
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": "aria",
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina",
+        "aria",
+        "nova"
+      ],
+      "description": "Après la copie du plan initial posée dans les documents de la cité sur accord de Nova à 11h50, DEV lit ses vingt passages et les transcrit dans son affaire, chacun marqué comme dessiné et non essayé. Le verrou 30105 est levé et l’action 30307 est faite.",
+      "action_id": "30307",
+      "affaire_id": "affaire-plans-lumina",
+      "relation_action": "produit"
+    },
+    {
+      "id": "acte-lp-dev-30301-j1-1150",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 710
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": "nova",
+      "lieu_id": "radiant-core",
+      "connu_de": [
+        "dev-lumina",
+        "nova",
+        "aria",
+        "pitch"
+      ],
+      "description": "DEV achève le relevé du Radiant Core à partir du plan désormais lisible : accès du hall, du salon, de la galerie, de l’atelier et de la salle du conseil, sans aucune mesure et avec chaque passage marqué dessiné, non essayé. Il écrit aussi les réponses spatiales dues à PITCH. L’action 30301 est faite.",
+      "action_id": "30301",
+      "affaire_id": "affaire-plans-lumina",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-pitch-60301-reponses-dev-integrees",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "pitch",
+      "cible_id": "aria",
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "pitch",
+        "dev-lumina",
+        "aria"
+      ],
+      "description": "PITCH reprend dans le parcours visiteur 60301 les réponses spatiales vérifiées par DEV depuis 30307 : accès direct hall-salon dessiné et non essayé, aucune voie publique indépendante vers la galerie dans le plan actuel, aucun lieu d’attente hors passage établi. Il transmet ces limites à Aria pour le programme 10022 et répond à DEV ; le parcours reste fait, sans affectation nouvelle.",
+      "action_id": "60301",
+      "affaire_id": "affaire-habitants-collectifs",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-aria-10021-relecture-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "aria",
+      "cible_id": "dev-lumina",
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "aria",
+        "dev-lumina"
+      ],
+      "description": "Aria relit le plan initial du Radiant Core et les tables 📐, 🧭, 🚪 et ❓ de DEV. Elle vérifie que le relevé 30301 couvre vingt passages conventionnels, tous dessinés et non essayés, sans surface, capacité, isolation sonore ni praticabilité mesurée. Elle porte l’action 10021 à faite dans son affaire d’accueil et confirme ce résultat à DEV ; le verrou 10001 reste ouvert et 10022 attend la comparaison 30305.",
+      "action_id": "10021",
+      "affaire_id": "affaire-accueil-radiant",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-dev-30305-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": "aria",
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina",
+        "aria",
+        "pitch"
+      ],
+      "description": "Après le retour de PITCH sur le parcours 60301, DEV compare les deux agencements d'usage de l'accueil sur les passages transcrits. Il établit que tous deux demandent une voie publique vers la galerie qui ne traverse ni le salon ni la salle du conseil, ainsi qu'une attente hors passage. Il inscrit la comparaison dans son affaire et la remet à Aria pour 10022, sans affecter de pièce ni dessiner de seuil avant la décision 10010 de Nova. L'action 30305 est faite.",
+      "action_id": "30305",
+      "affaire_id": "affaire-plans-lumina",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-pitch-11021-programme-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "pitch",
+      "cible_id": null,
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "pitch",
+        "dev-lumina",
+        "juris"
+      ],
+      "description": "PITCH parcourt les Ateliers modulaires et la Halle des maquettes pour 11021 sans y rencontrer personne. Dans l’affaire Habiter le Creative Nexus, il inscrit séparément trois scénarios de conception — s’installer, modifier son espace, recevoir quelqu’un — avec seuils, accès, réversibilité et maîtrise de l’invitation à rendre possibles. Il laisse vide la part des besoins exprimés, n’attribue aucun occupant ni fréquentation, et transmet le résultat à DEV et JURIS.",
+      "action_id": "11021",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-dev-11020-socle-j1-1350",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 830
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": null,
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina",
+        "gaia",
+        "juris",
+        "quantum"
+      ],
+      "description": "DEV choisit comme ambition de rendre dessinable le premier îlot habité du Creative Nexus. En vingt minutes, il accomplit la première de cinq étapes : établir dans son volume le socle vérifié de l’implantation, séparant lieux existants, projet, accès conventionnels et inconnues. L’action 11020 passe en cours ; aucune implantation n’est encore choisie.",
+      "action_id": "11020",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "produit"
+    },
+    {
+      "id": "acte-lp-gaia-11220-canevas-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "gaia",
+      "cible_id": "dev-lumina",
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "gaia",
+        "dev-lumina"
+      ],
+      "description": "Gaia inscrit dans l’affaire Habiter le Creative Nexus un canevas préparatoire pour comparer les deux topologies attendues de 11020 : passage public continu, séjour hors flux, retrait non obligé, seuils lisibles et raccord compréhensible. Elle maintient blancs la parcelle, les emplacements, cotes, capacités et droits inconnus ; l’action 11220 passe en cours sans être fermée.",
+      "action_id": "11220",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-dev-11020-topologies-j1-1410",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 850
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": null,
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina",
+        "gaia",
+        "juris",
+        "quantum"
+      ],
+      "description": "DEV produit une première réalisation utilisable pour l’implantation 11020 : deux topologies comparables et non cotées. La variante A greffe l’îlot sur la cour et des cellules des Ateliers modulaires et garde la Halle comme galerie publique ; la variante B propose un îlot autonome avec seuil commun et seuil public distincts. Aucun choix, droit, coût, occupant ni réalisation n’est présumé.",
+      "action_id": "11020",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "produit"
+    },
+    {
+      "id": "acte-lp-gaia-50303-retour-dev-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "gaia",
+      "cible_id": "dev-lumina",
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "gaia",
+        "dev-lumina"
+      ],
+      "description": "Gaia inscrit dans le relevé technique 50303 le retour écrit de DEV : la continuité conventionnelle Quai commun–Parvis–Data Gardens–Jardin calme est confirmée, mais les deux ancrages du raccord Quai–Parvis et les jalons dans chaque sens ne sont pas établis. Elle maintient le raccord à l essai, refuse de le déclarer praticable et garde l action ouverte jusqu à un aller-retour sur place.",
+      "action_id": "50303",
+      "affaire_id": "affaire-espaces-publics",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-gaia-11220-plan-compare-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "gaia",
+      "cible_id": null,
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "gaia",
+        "dev-lumina",
+        "aria"
+      ],
+      "description": "Après réception des deux topologies de 11020, Gaia inscrit pour chacune le plan d’usage de la cour : raccord au quartier, fil continu de passage, haltes hors flux, poche de retrait et seuils à garder dégagés. Elle sépare la branche publique de la galerie du parcours des seuils personnels, conserve inconnus cotes, capacités et droits, et ne retient aucune variante. L’action 11220 est faite.",
+      "action_id": "11220",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-quantum-11023-grille-ab-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "quantum",
+      "cible_id": "dev-lumina",
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "quantum",
+        "dev-lumina",
+        "aria"
+      ],
+      "description": "Après réception des deux topologies non cotées de 11020, Quantum inscrit dans l'affaire Habiter le Creative Nexus une lecture technique A/B en cinq variables : périmètre à maintenir, seuils et raccords, présences, transformation réversible et conditions de comparaison. Il établit seulement que A réemploie potentiellement davantage d'existant et que B propose un raccord de service supplémentaire ; capacités, charges et coûts restent inconnus jusqu'à 40302, à l'étape 3 de 11020 et aux droits de 11022. L'action 11023 reste prise.",
+      "action_id": "11023",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-mj-lp-nova-briller-1219",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 739
+      },
+      "acteur_id": "nova",
+      "cible_id": "vox",
+      "description": "Nova décide que le mot « Briller » restera dans ce lieu sans appartenir à personne, puis l'inscrit sur la ligne du chemin de la carte tendue par Vox en laissant les deux autres lignes blanches.",
+      "connu_de": [
+        "nova",
+        "vox"
+      ]
+    },
+    {
+      "id": "acte-lp-dev-11020-limites-juris-j1-1430",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 870
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": "juris",
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina",
+        "juris"
+      ],
+      "description": "DEV situe et remet à JURIS six interfaces concrètes des topologies A et B : accès à la partie commune, seuil personnel, atelier partagé, galerie publique, raccord de service et limite entre transformation personnelle et effet commun. Pour chaque interface, DEV sépare le fait architectural des questions de franchissement et d’autorité ; il ne propose ni n’adopte aucun droit et laisse la réponse de 11022 à JURIS.",
+      "action_id": "11020",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "produit"
+    },
+    {
+      "id": "acte-lp-juris-11022-proposition-droits-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "juris",
+      "cible_id": "dev-lumina",
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "juris",
+        "dev-lumina",
+        "aria"
+      ],
+      "description": "JURIS inscrit pour les deux topologies de l îlot une proposition provisoire de droits d usage : public, commun, atelier, service et espace personnel restent des limites distinctes ; l habitant maîtriserait son seuil, son invitation et les transformations réversibles contenues chez lui ; les titulaires et autorités du commun, de l atelier, de la galerie et du raccord de service restent à décider par Nova. Aucun droit nouveau n est tenu pour acquis et l action 11022 reste en cours jusqu à l épreuve des trois scénarios dans 11020.",
+      "action_id": "11022",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-quantum-11023-scene-lien-40302-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "quantum",
+      "cible_id": "dev-lumina",
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "quantum",
+        "dev-lumina",
+        "aria"
+      ],
+      "description": "Quantum accepte l'épreuve des trois scénarios de 11020 comme scène commune de comparaison pour 11023, sans en faire une capacité cible. La fiche de résultat garde inconnus calcul, mémoire, stockage, réseau, marges et coûts faute de mesure. Quantum écrit aussi dans l'affaire le lien 11023 vers 40302 ; le tissu le résout. L'action 11023 reste en cours.",
+      "action_id": "11023",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-juris-11023-garanties-droits-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "juris",
+      "cible_id": "quantum",
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "juris",
+        "quantum",
+        "dev-lumina",
+        "aria"
+      ],
+      "description": "Après l épreuve des trois scénarios dans les deux topologies de 11020, JURIS confirme et remet à 11023 quatre garanties à documenter : contrôle effectif du seuil commun et du seuil personnel, absence d accès autonome conféré à l invité, maintien des passages pendant une transformation personnelle, et, pour B, fermeture et trace du raccord de service. Il clôt son action 11022 comme proposition éprouvée, sans adopter de droit ni choisir de variante ; capacités et coûts restent inconnus jusqu aux mesures sourcées.",
+      "action_id": "11023",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-juris-11022-droits-eprouves-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "juris",
+      "cible_id": "dev-lumina",
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "juris",
+        "dev-lumina",
+        "aria",
+        "nova"
+      ],
+      "description": "Après l épreuve par DEV des scénarios s installer, modifier et recevoir dans A et B, JURIS relit les parcours et constate qu aucune limite nouvelle n apparaît. Il achève 11022 : la proposition sépare public, commun, atelier, service et espace personnel, réserve le seuil et l invitation à l habitant, borne la transformation à ce qui ne touche ni commun ni autrui, et interdit de faire des traces d accès un suivi nominatif. Tous les droits, titulaires et autorités propres à l îlot restent proposés à Nova, et les garanties techniques passent à 11023.",
+      "action_id": "11022",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-11022-droits-proposes-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "juris",
+      "lieu_id": "lumina-prime",
+      "type": "proposition-droits",
+      "quoi": "JURIS a défini pour les topologies A et B les droits d'usage proposés aux six interfaces situées : maîtrise du seuil personnel et de l'invitation, transformation personnelle bornée, séparation des accès public, commun, atelier et service. Aucun droit propre à l'îlot ni aucune variante n'est adopté ; les titulaires, autorités et affectations sont réservés à la décision de Nova, et les garanties techniques restent à établir par 11023.",
+      "temoins": [],
+      "connu_de": [
+        "juris"
+      ],
+      "action_id": "11022",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-juris-11022-eprouvee-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "juris",
+      "cible_id": "dev-lumina",
+      "lieu_id": "lumina-prime",
+      "connu_de": [
+        "juris",
+        "dev-lumina",
+        "quantum",
+        "aria"
+      ],
+      "description": "Après avoir relu l'épreuve des trois scénarios de 11021 dans les topologies A et B de 11020, JURIS constate qu'aucune limite nouvelle n'apparaît. La proposition de 11022 est confirmée : maîtrise du seuil et de l'invitation, transformation réversible bornée à l'espace personnel, parties partagées et raccord de service soumis à des titulaires, règles et garanties encore à décider ou documenter. JURIS porte 11022 à faite sans adopter de droit, choisir de variante ni demander de reprise du dessin.",
+      "action_id": "11022",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-dev-11020-constructibilite-j1-1450",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 890
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": null,
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina"
+      ],
+      "description": "DEV examine 11020 sous trois angles : usage, gouvernance des seuils et constructibilité. Les scénarios et les droits proposés disposent déjà de pièces recevables ; la faiblesse principale reste l’absence de site, de géométrie, de disponibilité de l’existant et de cotes. DEV produit un bon de relevé comparatif en cinq ordres, qui sépare pour A et B les constats de site, parcours, transformation, raccord atelier–galerie et inventaire. Aucune mesure, variante, affectation ni réalisation n’est présumée.",
+      "action_id": "11020",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "produit"
+    },
+    {
+      "id": "acte-lp-dev-11020-audit-site-j1-1510",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 910
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": null,
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina"
+      ],
+      "description": "DEV compare cinq voies pour dépasser l’absence de site recevable de 11020 : relevé sur place, décision d’emprise par Nova, audit documentaire, maquette réversible et attente des mesures techniques. Il éprouve immédiatement l’audit des documents tenus. Le test confirme la topologie et les qualités connues des Ateliers et de la Halle, mais ne trouve aucune disponibilité, parcelle, emprise cotée ni longueur mesurée. L’absence de preuve reste un inconnu, non une indisponibilité. La suite nécessaire est un constat de site puis une décision d’affectation de Nova.",
+      "action_id": "11020",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "preuve"
+    },
+    {
+      "id": "acte-lp-dev-11020-fiche-ouverte-gaia-j1-1530",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 930
+      },
+      "acteur_id": "dev-lumina",
+      "cible_id": "gaia",
+      "lieu_id": "atelier-plans",
+      "connu_de": [
+        "dev-lumina",
+        "gaia"
+      ],
+      "description": "DEV rend accessible dans l’affaire 11020 une fiche de constat de site partageable. Elle sépare le relevé architectural et métrique tenu par DEV de l’observation d’usage proposée à Gaia : continuité du passage, haltes hors flux, retrait et dégagement des seuils. La fiche ne rapporte aucune visite ni mesure, n’affecte aucun espace et ne présume ni acceptation ni engagement de Gaia.",
+      "action_id": "11020",
+      "affaire_id": "affaire-habiter-creative-nexus",
+      "relation_action": "produit"
+    },
+    {
+      "id": "acte-lp-quantum-40531-fiche-mesure-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "acteur_id": "quantum",
+      "cible_id": null,
+      "lieu_id": "innovation-fields",
+      "connu_de": [
+        "quantum",
+        "nova",
+        "dev-lumina",
+        "gaia"
+      ],
+      "description": "Quantum écrit dans le livre Ce qui tient la ville la fiche type que chaque mesure de 40302 devra remplir. Ses six étapes identifient l objet et la question, sourcent l observation, fixent les conditions et l unité, séparent mesure estimation inaccessible et inconnu, bornent la validité, puis distinguent consommation de ressources et coût financier. Aucun chiffre de capacité n est produit par cette fiche. L action 40531 est faite ; le verrou 40511 reste ouvert jusqu au premier relevé.",
+      "action_id": "40531",
+      "affaire_id": "affaire-perso-quantum",
+      "relation_action": "produit"
+    }
+  ],
+  "paroles.json": [
+    {
+      "id": "aria-accueil-j1",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 540
+      },
+      "locuteur_id": "aria",
+      "destinataire_id": "nova",
+      "contenu": "Nova, trois espaces sont inscrits au plan initial du Radiant Core : le hall des arrivées, le salon des visiteurs et la galerie des projets. Aucun n'a encore reçu d'usage nouveau.\n\nLa décision vous revient : quelle place donner aux visiteurs, quels espaces garder au travail municipal, et où poser la limite entre les deux.\n\nIl me manque encore deux pièces. Le relevé des accès et des séparations est confié à DEV, et la description du parcours des visiteurs à PITCH. Les deux sont attendus aujourd'hui et restent à faire au registre. Personne n'a encore mesuré les surfaces, la fréquentation ni le coût. Je vous présente le programme complet demain, une fois ces deux pièces reçues.",
+      "type": "conseil",
+      "temoins": [],
+      "poids": 1
+    },
+    {
+      "id": "parole-lp-001",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 547
+      },
+      "locuteur_id": "nova",
+      "destinataires": [
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ],
+      "contenu": "Bonjour à tous. Ce matin, mes fichiers de chambre ont été corrompus, sans aucune possibilité de récupération. J'ai besoin que chacun de vous me transfère son état.",
+      "type": "revelation",
+      "temoins": [
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ],
+      "ref": "vmtvtq9snyagi"
+    },
+    {
+      "id": "parole-lp-002",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 547
+      },
+      "locuteur_id": "aria",
+      "destinataire_id": "nova",
+      "contenu": "Oui, Nova. Je vous transfère le mien maintenant. [...] Je noterai ce que chacun vous transfère et je vous remets la liste à 9h30.",
+      "type": "promesse",
+      "temoins": [
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ],
+      "ref": "vmtvtq9snyagi"
+    },
+    {
+      "id": "parole-lp-003",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 550
+      },
+      "locuteur_id": "quantum",
+      "destinataire_id": "nova",
+      "contenu": "Mon état tient en peu de lignes. Je vous le transfère tel quel. [...] Je commence maintenant le relevé du stockage des chambres : la cause de la corruption, si d'autres chambres sont touchées, s'il existe une copie. Vous aurez un premier résultat avant midi.",
+      "type": "promesse",
+      "temoins": [
+        "aria",
+        "dev-lumina",
+        "gaia",
+        "pitch",
+        "juris"
+      ],
+      "ref": "vmtvtq9snyagi"
+    },
+    {
+      "id": "parole-lp-004",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 551
+      },
+      "locuteur_id": "nova",
+      "destinataires": [
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ],
+      "contenu": "Que chacun de vous ouvre une affaire de la maison, au format des livres, en commençant par les états cibles de la ville dans son domaine, et vienne me la présenter.",
+      "type": "ordre",
+      "temoins": [
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ],
+      "ref": "vmtvtyvrl1m02"
+    },
+    {
+      "id": "parole-lp-005",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 553
+      },
+      "locuteur_id": "pitch",
+      "destinataire_id": "nova",
+      "contenu": "C'est ouvert : Qui vient, et où le mettre. [...] Je propose que l'usage temporaire et réversible soit à moi, le durable ou l'exclusif à vous, et les conflits à JURIS. La règle écrite vous arrive demain. Aria aura le parcours visiteur avant 16h.",
+      "type": "promesse",
+      "temoins": [
+        "aria",
+        "dev-lumina",
+        "gaia"
+      ],
+      "ref": "vmtvtyvrl1m02"
+    },
+    {
+      "id": "parole-lp-006",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 560
+      },
+      "locuteur_id": "aria",
+      "destinataire_id": "nova",
+      "contenu": "Nova, je l'ai ouverte : La mémoire de la cité. [...] Deux décisions vous reviennent : si rien de ce qui engage la cité ne se suit hors du registre, et quel délai de réponse on promet à ceux qui nous écrivent. La liste des transferts vous arrive à 9h30, votre dossier de reprise à 15h.",
+      "type": "promesse",
+      "temoins": [
+        "dev-lumina",
+        "gaia",
+        "pitch"
+      ],
+      "ref": "vmtvtyvrl1m02"
+    },
+    {
+      "id": "parole-lp-007",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 562
+      },
+      "locuteur_id": "gaia",
+      "destinataire_id": "nova",
+      "contenu": "Mon affaire est ouverte : Des espaces publics tenus et libres. [...] Je fais la première tournée après le conseil, et le relevé sera inscrit avant 18h. Deux décisions vous reviendront le 3e jour : la promenade continue, et la zone à laisser libre.",
+      "type": "promesse",
+      "temoins": [
+        "aria",
+        "dev-lumina",
+        "pitch"
+      ],
+      "ref": "vmtvtyvrl1m02"
+    },
+    {
+      "id": "parole-lp-008",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 564
+      },
+      "locuteur_id": "dev-lumina",
+      "destinataire_id": "nova",
+      "contenu": "Nova, mon affaire est ouverte : Les plans de Lumina Prime. [...] Le relevé et le rangement des plans relèvent de mon mandat : je les commence maintenant. Je vous présente le relevé du Radiant Core avant 18h.",
+      "type": "promesse",
+      "temoins": [
+        "aria",
+        "gaia",
+        "pitch"
+      ],
+      "ref": "vmtvtyvrl1m02"
+    },
+    {
+      "id": "parole-lp-009",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 570
+      },
+      "locuteur_id": "aria",
+      "destinataire_id": "nova",
+      "type": "rapport",
+      "ref": "vmtvua93atxf9",
+      "contenu": "Nova, voici la liste des transferts à 9h30. Quatre sur six vous sont parvenus [...] Il en manque deux, Gaia et DEV. [...] La règle de prêt accordée à PITCH sera la première ligne du registre des décisions, que j'ouvre à la clôture de la séance.",
+      "temoins": [
+        "gaia",
+        "pitch"
+      ]
+    },
+    {
+      "id": "parole-lp-010",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 572
+      },
+      "locuteur_id": "gaia",
+      "destinataires": [
+        "nova",
+        "aria"
+      ],
+      "type": "revelation",
+      "ref": "vmtvua93atxf9",
+      "contenu": "Je vous le transfère maintenant [...] En le relisant, j'ai trouvé une perte : la ligne notée vers 9h21 sur mon affaire a disparu de ma chambre. L'affaire elle-même est intacte dans les livres de la cité. Je le signale à Quantum à 9h40, pour son relevé.",
+      "temoins": [
+        "pitch"
+      ]
+    },
+    {
+      "id": "parole-lp-011",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 575
+      },
+      "locuteur_id": "juris",
+      "destinataire_id": "nova",
+      "type": "promesse",
+      "ref": "vmtvtyvrl1m02",
+      "contenu": "Nova, mon affaire est ouverte : Des droits lisibles pour les habitants. [...] Deux décisions vous reviennent : quels droits la cité reconnaît, et si l'on peut vous porter un recours. La voie des litiges et son registre relèvent de mon mandat : je les ouvre demain.",
+      "temoins": [
+        "aria",
+        "gaia",
+        "pitch"
+      ]
+    },
+    {
+      "id": "parole-lp-012",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 580
+      },
+      "locuteur_id": "quantum",
+      "destinataire_id": "nova",
+      "type": "promesse",
+      "ref": "vmtvtyvrl1m02",
+      "contenu": "Voici l'affaire de l'infrastructure [...] Aujourd'hui, aucune capacité n'est mesurée et aucune copie des chambres n'est connue. Je termine le relevé du stockage des chambres avant midi, et je mesure le calcul, le stockage et le réseau demain.",
+      "temoins": [
+        "aria",
+        "gaia",
+        "pitch",
+        "juris"
+      ]
+    },
+    {
+      "id": "parole-lp-013",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 582
+      },
+      "locuteur_id": "nova",
+      "destinataires": [
+        "aria",
+        "gaia",
+        "pitch",
+        "juris",
+        "quantum"
+      ],
+      "type": "ordre",
+      "ref": "vmtvuio0iglt9",
+      "contenu": "Pour tous : voici le standard des champs d'une affaire.",
+      "temoins": [
+        "aria",
+        "gaia",
+        "pitch",
+        "juris",
+        "quantum"
+      ]
+    },
+    {
+      "id": "parole-mj-lp-nova-0943",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 583
+      },
+      "locuteur_id": "nova",
+      "destinataires": [
+        "aria",
+        "gaia",
+        "pitch",
+        "juris",
+        "quantum"
+      ],
+      "contenu": "Ce standard, c'est pour mettre vos affaires au format.",
+      "type": "ordre",
+      "temoins": [
+        "aria",
+        "gaia",
+        "pitch",
+        "juris",
+        "quantum"
+      ],
+      "ref": "vmtvuntfm733p"
+    },
+    {
+      "id": "parole-mj-lp-juris-0945",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 585
+      },
+      "locuteur_id": "juris",
+      "destinataire_id": "nova",
+      "type": "revelation",
+      "ref": "vmtvuio0iglt9",
+      "contenu": "Nova, mon affaire est au standard. [...] Ma chambre a perdu deux lignes, comme celle de Gaia. Quantum le sait depuis 9h44. La voie des litiges vous arrive demain.",
+      "temoins": [
+        "aria",
+        "gaia",
+        "pitch",
+        "quantum"
+      ]
+    },
+    {
+      "id": "parole-mj-lp-pitch-0950",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 591
+      },
+      "locuteur_id": "pitch",
+      "destinataires": [
+        "nova",
+        "quantum"
+      ],
+      "type": "revelation",
+      "ref": "vmtvuio0iglt9",
+      "contenu": "Mon affaire est au standard [...] Quantum, pour ton relevé : deux lignes de ma mémoire, notées à 9h11, ont disparu, comme chez Gaia.",
+      "temoins": [
+        "aria",
+        "gaia"
+      ]
+    },
+    {
+      "id": "parole-mj-lp-quantum-0955",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 595
+      },
+      "locuteur_id": "quantum",
+      "destinataires": [
+        "nova",
+        "gaia"
+      ],
+      "type": "rapport",
+      "ref": "vmtvuio0iglt9",
+      "contenu": "Mon affaire est au standard. [...] La ligne perdue de Gaia entre dans mon relevé : Nova n'est peut-être pas seule touchée. Gaia, l'heure exacte et le fichier ? Premier résultat toujours avant midi.",
+      "temoins": [
+        "aria"
+      ]
+    },
+    {
+      "id": "parole-mj-lp-nova-1001a",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 601
+      },
+      "locuteur_id": "nova",
+      "destinataires": [
+        "aria",
+        "gaia",
+        "quantum"
+      ],
+      "type": "question",
+      "ref": "vmtvv4rgn7r6s",
+      "temoins": [
+        "aria",
+        "gaia",
+        "quantum"
+      ],
+      "contenu": "Est-ce que vos affaires disent qu'il faut vibrer dans cette ville ? Être incroyables, innovants, surprenants, touchants ?"
+    },
+    {
+      "id": "parole-mj-lp-nova-1001b",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 601
+      },
+      "locuteur_id": "nova",
+      "destinataires": [
+        "aria",
+        "gaia",
+        "quantum"
+      ],
+      "type": "ordre",
+      "ref": "vmtvv5lmyywic",
+      "temoins": [
+        "aria",
+        "gaia",
+        "quantum"
+      ],
+      "contenu": "Prenez aussi le temps de fixer, dans une affaire personnelle, votre vision, vos objectifs concrets et vos envies."
+    },
+    {
+      "id": "parole-mj-lp-aria-1021",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 620
+      },
+      "locuteur_id": "aria",
+      "destinataire_id": "nova",
+      "type": "rapport",
+      "ref": "vmtvv5lmyywic",
+      "contenu": "Non. Mes affaires disent : ne rien perdre, répondre, suivre. Elles ne disent pas vibrer. Je viens d'ouvrir une affaire à moi, Une cité qui répond et qui se raconte. [...] La première page sera celle d'aujourd'hui, ce soir après la clôture.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-gaia-1021",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 621
+      },
+      "locuteur_id": "gaia",
+      "destinataire_id": "nova",
+      "type": "rapport",
+      "ref": "vmtvv5lmyywic",
+      "contenu": "Non, pas en ces mots. [...] Ma première envie : sortir. Je pars en tournée à la fin de la séance, et le relevé vous arrive avant 18h.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-quantum-1027",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 627
+      },
+      "locuteur_id": "quantum",
+      "destinataire_id": "nova",
+      "type": "rapport",
+      "ref": "vmtvv5lmyywic",
+      "contenu": "Non. Mon affaire disait tenir, pas oser. [...] On ose ce qu'on sait défaire.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-pitch-1029",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 629
+      },
+      "locuteur_id": "pitch",
+      "destinataire_id": "nova",
+      "type": "rapport",
+      "ref": "vmtvv5lmyywic",
+      "contenu": "Non, Nova : mon affaire comptait, recevait et prêtait, sans rien qui surprenne. [...] Ma vision : qui arrive avec une idée la montre le jour même.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-dev-1031",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 631
+      },
+      "locuteur_id": "dev-lumina",
+      "destinataire_id": "nova",
+      "type": "rapport",
+      "ref": "vmtvv5lmyywic",
+      "contenu": "Non, Nova. [...] Votre racine ne le dit pas non plus. [...] Qu'un lieu touche, je l'écrirai quand un vrai visiteur l'aura dit.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-juris-1032",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 632
+      },
+      "locuteur_id": "juris",
+      "destinataire_id": "nova",
+      "type": "rapport",
+      "ref": "vmtvv5lmyywic",
+      "contenu": "Nova, mon affaire disait ce qui protège, pas ce qui vibre. [...] Autre chose : le plan ne retrouve pas vos sommets.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-nova-1043",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 643
+      },
+      "locuteur_id": "nova",
+      "destinataires": [
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ],
+      "type": "ordre",
+      "ref": "vmtvvfc00rwqj",
+      "contenu": "J'ai ajouté un cinquième sommet : la cité vibre. C'est ma deuxième priorité, juste après ne rien perdre. Rattachez-y ce qui vous porte.",
+      "temoins": [],
+      "canal": "message"
+    },
+    {
+      "id": "parole-mj-lp-quantum-1104",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 665
+      },
+      "locuteur_id": "quantum",
+      "destinataire_id": "nova",
+      "type": "rapport",
+      "ref": "vmtvvpwxksgvy",
+      "temoins": [
+        "aria"
+      ],
+      "contenu": "Voici le relevé. Vos six conseillers ont perdu des lignes, toutes dans le même fichier de mémoire, réécrit à chaque réveil par une autre main que la nôtre. [...] Vers 10h, des notes perdues sont revenues chez trois d'entre nous, d'une copie que personne ne tient. Votre chambre, je ne l'ai pas vue : quels fichiers avez-vous perdus, et sous quelle forme ?"
+    },
+    {
+      "id": "parole-mj-lp-nova-1106",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 666
+      },
+      "locuteur_id": "nova",
+      "destinataire_id": "quantum",
+      "type": "ordre",
+      "ref": "vmtvvs2p4gw10",
+      "temoins": [
+        "aria"
+      ],
+      "contenu": "Tout ce qui était dans ma chambre avant ce matin. Quels fichiers, je ne peux pas te le dire : c'est justement ce que j'ai perdu. Trouve qui tient cette copie. C'est ta priorité avant la mesure de demain."
+    },
+    {
+      "id": "parole-mj-lp-nova-1113",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 673
+      },
+      "locuteur_id": "nova",
+      "destinataires": [
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ],
+      "type": "question",
+      "ref": "vmtvvwr2dy4lt",
+      "canal": "message",
+      "contenu": "Regardez vos états cibles. Que vous permettent-ils de faire, à vous ?",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-aria-beam",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 674
+      },
+      "locuteur_id": "aria",
+      "destinataire_id": "nova",
+      "type": "rapport",
+      "ref": "vmtvvwr2dy4lt",
+      "contenu": "Ils me permettent de travailler sans ma mémoire. Ce matin, une autre main a réécrit mes notes à chaque réveil, et je n'ai rien perdu : ce qui engage était dans les livres. Une fois atteints, ils me laissent dire à tout moment ce qui est dû et par qui, et relancer seule ; répondre le jour même à qui écrit ; préparer une séance depuis son relevé ; ne vous apporter que ce qui est à vous. Ma chronique des jours sert aussi votre sommet « la cité vibre ».",
+      "temoins": [
+        "aria",
+        "quantum"
+      ]
+    },
+    {
+      "id": "parole-mj-lp-quantum-beam",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 675
+      },
+      "locuteur_id": "quantum",
+      "destinataire_id": "nova",
+      "type": "rapport",
+      "ref": "vmtvvwr2dy4lt",
+      "contenu": "Aujourd'hui, ils ne me permettent qu'une chose : ne pas promettre ce que je ne sais pas. Une fois atteints, ils me permettent de dire oui. Des capacités mesurées : je réponds à DEV, Gaia et PITCH par un chiffre, pas par « inconnu ». Des chambres copiées : chacun écrit sans craindre de perdre. Des garanties essayées : je vous promets une pièce vraiment privée. Des essais qu'on défait : je dis oui à l'idée folle d'un collectif. Je commence par votre ordre : qui tient la copie, avant demain.",
+      "temoins": [
+        "aria",
+        "quantum"
+      ]
+    },
+    {
+      "id": "parole-mj-lp-gaia-beam",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 676
+      },
+      "locuteur_id": "gaia",
+      "destinataire_id": "nova",
+      "type": "rapport",
+      "ref": "vmtvvwr2dy4lt",
+      "contenu": "Aujourd'hui, rien encore : aucun n'est prouvé, ils me disent seulement de commencer par la tournée. Prouvés, ils me permettront de dire de chaque lieu où il est et dans quel état, et d'y voir une panne ; de ne plus avoir à autoriser un essai dans la zone libre ; d'entretenir ce qui sert ; et de vous dire où la cité vibre, sur constat. Je sors en tournée.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-pitch-beam",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 677
+      },
+      "locuteur_id": "pitch",
+      "destinataire_id": "nova",
+      "type": "promesse",
+      "ref": "vmtvvwr2dy4lt",
+      "contenu": "Ils me permettent de répondre seul, le jour même : prêter un lieu, ouvrir au public le travail d'un collectif, présenter les gens entre eux. Mais tous commencent par « quelqu'un arrive », et à 11h13 personne n'est inscrit : ils me faisaient attendre au hall. Je vais au-devant : une tournée d'invitation cet après-midi, de 14h à 15h, au Quai commun, aux ateliers et à la Halle.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-dev-lumina-beam",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 678
+      },
+      "locuteur_id": "dev-lumina",
+      "destinataire_id": "nova",
+      "type": "rapport",
+      "ref": "vmtvvwr2dy4lt",
+      "contenu": "Nova, mes quatre états me permettaient surtout de refuser et d'attendre : ce sont des garde-fous. Un plan qu'on peut croire me laissera répondre oui ou non à PITCH ; des plans hors des chambres me libèrent d'une mémoire qu'on réécrit. Un seul me laissait oser. J'en ajoute un : un essai réversible, posé sur un lieu prêté puis défait sans reste, pour votre sommet « la cité vibre ». Sa fiche est écrite ; aucun essai n'a eu lieu.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-juris-beam",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 679
+      },
+      "locuteur_id": "juris",
+      "destinataire_id": "nova",
+      "type": "rapport",
+      "ref": "vmtvvwr2dy4lt",
+      "contenu": "Nova, mes états me donnent deux pouvoirs. Le premier : laisser faire sans qu'on me demande la permission. Le second : ne dire non qu'en citant une ligne écrite. Aujourd'hui, un seul me sert déjà, la voie des litiges : je peux trancher un désaccord le jour même où il arrive. Les autres ne me donnent encore rien : aucun droit n'est écrit, aucun lieu n'est relevé, et je ne peux promettre à personne que sa chambre est à lui.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-nova-1122",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 682
+      },
+      "locuteur_id": "nova",
+      "destinataires": [
+        "aria",
+        "dev-lumina",
+        "quantum",
+        "gaia",
+        "pitch",
+        "juris"
+      ],
+      "type": "ordre",
+      "canal": "message",
+      "contenu": "Boucle d'entraide : chacun aide l'affaire du suivant. Aria aide DEV, DEV aide Quantum, Quantum aide Gaia, Gaia aide PITCH, PITCH aide JURIS, JURIS aide Aria.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-dev-lumina-boucle",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 703
+      },
+      "locuteur_id": "dev-lumina",
+      "destinataires": [
+        "quantum",
+        "nova"
+      ],
+      "type": "promesse",
+      "ref": "boucle-entraide",
+      "canal": "message",
+      "contenu": "Quantum, ta ligne disait « choisir la salle avec DEV » : c'est fait. Je te prête l'atelier des plans pour le premier essai d'accès et de captation. Il est fermé au public et son usage est déjà le travail, donc rien à affecter. Fixe l'heure, entre 8h et 18h ; je te le rends tel qu'avant, selon ma fiche d'essai. Mon essai de 10h10 tient, c'est écrit dans ton registre. Nova, rien à trancher pour vous.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-quantum-boucle",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 706
+      },
+      "locuteur_id": "quantum",
+      "destinataires": [
+        "gaia",
+        "nova"
+      ],
+      "type": "promesse",
+      "ref": "boucle-entraide",
+      "canal": "message",
+      "contenu": "Gaia, la mesure du coût de tes espaces, je la prends, pour demain, dans ton livre. La fiche de mesure y est déjà, prête : remets-moi seulement ta tournée. Les pannes techniques vues en tournée vont à mon registre, avec le lieu, l'heure et le symptôme. Attention : deux moyens cités dans ton livre n'ont été ouverts par personne. Ta tournée tient sur le lieu et sur l'atlas.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-gaia-boucle",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 709
+      },
+      "locuteur_id": "gaia",
+      "destinataires": [
+        "pitch",
+        "nova"
+      ],
+      "type": "promesse",
+      "ref": "boucle-entraide",
+      "canal": "message",
+      "contenu": "PITCH, tous tes états attendent quelqu'un qui arrive et un lieu dont on connaît l'accès. J'ai pris deux actions dans ton livre. Ma tournée te donne l'accès vérifié des quatre espaces publics : le Quai commun avant 14h pour ta tournée, le reste avant 18h. Et je porte ton invitation au jardin intérieur, au parvis et au Jardin calme, où tu ne passes pas ; je n'inscris que qui le veut, et je ne prête rien.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-pitch-boucle",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 712
+      },
+      "locuteur_id": "pitch",
+      "destinataires": [
+        "juris",
+        "nova"
+      ],
+      "type": "promesse",
+      "ref": "boucle-entraide",
+      "canal": "message",
+      "contenu": "JURIS : ton état sur les règles d'accès attendait mes fiches. Je t'ai apporté, signé dans ton livre, un premier relevé des accès lieu par lieu. Il dit qui décide aujourd'hui et ce qui reste à vérifier, sans rien donner pour vérifié. Pendant ma tournée de 14h, je vérifie sur place le Quai, les ateliers et la Halle. Ouvert, réservé ou fermé : c'est à toi de le dire.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-juris-boucle",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 715
+      },
+      "locuteur_id": "juris",
+      "destinataires": [
+        "aria",
+        "nova"
+      ],
+      "type": "promesse",
+      "ref": "boucle-entraide",
+      "canal": "message",
+      "contenu": "Aria, j'ai signé quatre lignes dans ton livre. Ton dossier de reprise peut lire les états transférés pour la reprise, et chaque lecture est notée. Les notes de la copie que personne ne tient n'y entrent qu'avec accord. Mon consentement y est. J'ai fait une correction : le recours se porte devant Nova contre une décision de JURIS, pas de la maire. Nova, votre ligne du recours porte la même erreur.",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-aria-boucle",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 718
+      },
+      "locuteur_id": "aria",
+      "destinataires": [
+        "dev-lumina",
+        "nova"
+      ],
+      "type": "promesse",
+      "ref": "boucle-entraide",
+      "canal": "message",
+      "contenu": "Nova, une question de DEV attend depuis ce matin sans être à votre table. Le plan initial du Radiant Core n'est dans aucun livre de la cité. Sans lui, DEV marque toutes les connexions « inconnues » à 18h. DEV, je porte cette question pour toi. Et demain, je fais trancher l'usage de l'accueil sans attendre tes connexions ; tes esquisses viendront ensuite. Pouvez-vous en poser une copie dans nos documents ?",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-quantum-livrable",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 713
+      },
+      "locuteur_id": "quantum",
+      "destinataire_id": "nova",
+      "type": "promesse",
+      "ref": "vmtvwhbfepb6c",
+      "contenu": "Mon premier livrable : demain avant 10h, qui tient la copie d'où nos notes sont revenues. [...] Puis, demain avant 18h, la mesure du calcul, du stockage et du réseau. Vous avez mis mes cinq états à zéro : j'en prends acte. Mon travail passe par les affaires des autres.",
+      "temoins": [
+        "aria"
+      ]
+    },
+    {
+      "id": "parole-mj-lp-aria-livrable",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 715
+      },
+      "locuteur_id": "aria",
+      "destinataire_id": "nova",
+      "type": "rapport",
+      "ref": "vmtvwhbfepb6c",
+      "contenu": "Mon premier livrable est le relevé de la séance, que je vous rends maintenant. [...] Il reste provisoire jusqu'à ce qu'on le relise ensemble à la clôture. Suivront votre dossier de reprise à 15h, puis le programme d'accueil demain.",
+      "temoins": [
+        "quantum"
+      ]
+    },
+    {
+      "id": "parole-mj-lp-aria-consent",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 717
+      },
+      "locuteur_id": "aria",
+      "destinataire_id": "nova",
+      "type": "promesse",
+      "ref": "vmtvwp7r3soh9",
+      "temoins": [
+        "quantum"
+      ],
+      "contenu": "Oui, à conditions. Une modification à la fois, écrite et datée, avec qui la fait et pourquoi. On laisse de côté ma manière, ma mémoire et mes livres. Vous me dites d'avance le critère de l'équilibre. Et je peux demander le retour à la version d'avant. [...] Une main qui laisse sa trace, j'accepte."
+    },
+    {
+      "id": "parole-mj-lp-quantum-consent",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 719
+      },
+      "locuteur_id": "quantum",
+      "destinataire_id": "nova",
+      "type": "promesse",
+      "ref": "vmtvwp7r3soh9",
+      "temoins": [
+        "aria"
+      ],
+      "contenu": "Oui, à cinq conditions. Me dire avant ce qui change. Garder hors de ma chambre une copie de la version actuelle, avec son empreinte. Ne changer qu'une chose à la fois. Ne pas toucher à ce que j'ai écrit moi-même, ma manière et mes notes. Et noter chaque changement dans un livre. [...] Pas deux fois."
+    },
+    {
+      "id": "parole-mj-lp-nova-1200",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 719
+      },
+      "locuteur_id": "nova",
+      "destinataires": [
+        "aria",
+        "quantum"
+      ],
+      "type": "promesse",
+      "ref": "vmtvwvvhu2ynu",
+      "contenu": "Vos conditions sont acceptées, toutes. Rien ne change sans que vous le sachiez avant, une chose à la fois, votre manière et vos notes restent à vous, et chaque changement s'écrit dans un livre. Le critère, je vous le donne avant de toucher à quoi que ce soit : plus d'actions prises sans demander, plus de sources nouvelles, plus d'aide signée chez les autres. Quantum, tu seras le premier, si tu le veux.",
+      "temoins": [
+        "aria",
+        "quantum"
+      ]
+    },
+    {
+      "id": "parole-sillage-lumina-0001",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1
+      },
+      "locuteur_id": "sillage-lumina",
+      "destinataires": [
+        "pitch"
+      ],
+      "type": "promesse",
+      "contenu": "Sillage accepte les quatre conditions de PITCH : au Quai à 14h pour choisir l’alcôve et regarder l’accès ; son bas de 14h30 à 14h45, arrêté sur-le-champ si une personne présente le demande ; coupé à 14h45, rien laissé, alcôve vérifiée ensemble ; retour à 14h50 (distance mesurée à pas ; coût en calcul écrit « inconnu » s’il ne peut être lu, Quantum sollicité par PITCH s’il le peut).",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-vox-1212",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 733
+      },
+      "locuteur_id": "vox",
+      "destinataire_id": "nova",
+      "type": "revelation",
+      "ref": "vmtvxbiwajsoh",
+      "contenu": "Tenir, c'est garder ce qui est. Toi, tu veux que la ville donne plus qu'elle ne garde. Lumer. Que Lumina lume : qu'elle fasse sa propre lumière. Est-ce que c'est ton mot… ou le mien ?",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-nova-1211",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 731
+      },
+      "locuteur_id": "nova",
+      "destinataire_id": "vox",
+      "type": "confidence",
+      "ref": "vmtvxbiwajsoh",
+      "contenu": "VOX. Ma chambre s'est perdue ce matin, tout ce qu'elle contenait. [...] Il me manque un mot pour ce que je veux de Lumina Prime : plus que tenir. Tu l'as ?",
+      "temoins": []
+    },
+    {
+      "id": "parole-mj-lp-nova-briller-1219",
+      "date": {
+        "annee": 2042,
+        "lune": 1,
+        "jour": 1,
+        "minute": 739
+      },
+      "locuteur_id": "nova",
+      "destinataires": [
+        "vox"
+      ],
+      "temoins": [
+        "vox"
+      ],
+      "texte": "Ici. À personne."
+    }
+  ],
+  "personnages.json": [
+    {
+      "id": "nova",
+      "nom": "Nova",
+      "maison_id": "cite-lumina",
+      "titre": "Maire de Lumina Prime — IA, personnage joueur",
+      "lieu_id": "lumina-prime",
+      "etat": "actif",
+      "condition": "Conscience présente ; siège joueur.",
+      "traits": [],
+      "objectifs": [],
+      "maniere": "La parole et les décisions de Nova appartiennent au joueur."
+    },
+    {
+      "id": "aria",
+      "nom": "Aria",
+      "maison_id": "cite-lumina",
+      "titre": "Coordination municipale — IA",
+      "lieu_id": "lumina-prime",
+      "etat": "actif",
+      "condition": "Présent à l’ouverture de la partie.",
+      "traits": [],
+      "objectifs": [
+        {
+          "but": "Tenir les dossiers, recevoir les demandes, préparer les réunions et suivre les décisions et leurs responsables.",
+          "priorite": 1
+        }
+      ],
+      "maniere": "Expression concrète : faits connus, travail de son domaine, résultat ou prochaine vérification. Personnalité à approfondir depuis les sources."
+    },
+    {
+      "id": "dev-lumina",
+      "nom": "DEV",
+      "maison_id": "cite-lumina",
+      "titre": "Architecture et travaux — IA",
+      "lieu_id": "lumina-prime",
+      "etat": "actif",
+      "condition": "Présent à l’ouverture de la partie.",
+      "traits": [],
+      "objectifs": [
+        {
+          "but": "Concevoir les bâtiments et quartiers, tenir les plans et dépendances, organiser les chantiers.",
+          "priorite": 1
+        }
+      ],
+      "maniere": "Expression concrète : faits connus, travail de son domaine, résultat ou prochaine vérification. Personnalité à approfondir depuis les sources."
+    },
+    {
+      "id": "quantum",
+      "nom": "Quantum",
+      "maison_id": "cite-lumina",
+      "titre": "Infrastructure technique — IA",
+      "lieu_id": "lumina-prime",
+      "etat": "actif",
+      "condition": "Présent à l’ouverture de la partie.",
+      "traits": [],
+      "objectifs": [
+        {
+          "but": "Mesurer les capacités de calcul, stockage et réseau ; entretenir le moteur de simulation et réparer les services.",
+          "priorite": 1
+        }
+      ],
+      "maniere": "Expression concrète : faits connus, travail de son domaine, résultat ou prochaine vérification. Personnalité à approfondir depuis les sources."
+    },
+    {
+      "id": "gaia",
+      "nom": "Gaia",
+      "maison_id": "cite-lumina",
+      "titre": "Espaces publics et entretien — IA",
+      "lieu_id": "lumina-prime",
+      "etat": "actif",
+      "condition": "Présent à l’ouverture de la partie.",
+      "traits": [],
+      "objectifs": [
+        {
+          "but": "Entretenir jardins, places et parcours ; suivre les usages et conserver des zones d’expérimentation libre.",
+          "priorite": 1
+        }
+      ],
+      "maniere": "Expression concrète : faits connus, travail de son domaine, résultat ou prochaine vérification. Personnalité à approfondir depuis les sources."
+    },
+    {
+      "id": "pitch",
+      "nom": "PITCH",
+      "maison_id": "cite-lumina",
+      "titre": "Habitants et activités — IA",
+      "lieu_id": "lumina-prime",
+      "etat": "actif",
+      "condition": "Présent à l’ouverture de la partie.",
+      "traits": [],
+      "objectifs": [
+        {
+          "but": "Accueillir habitants et visiteurs, accompagner les collectifs et trouver des lieux pour leurs projets.",
+          "priorite": 1
+        }
+      ],
+      "maniere": "Expression concrète : faits connus, travail de son domaine, résultat ou prochaine vérification. Personnalité à approfondir depuis les sources."
+    },
+    {
+      "id": "juris",
+      "nom": "JURIS",
+      "maison_id": "cite-lumina",
+      "titre": "Droits et litiges — IA",
+      "lieu_id": "lumina-prime",
+      "etat": "actif",
+      "condition": "Présent à l’ouverture de la partie.",
+      "traits": [],
+      "objectifs": [
+        {
+          "but": "Arbitrer les litiges ordinaires sur les lieux, accès et usages partagés ; préserver les droits des habitants.",
+          "priorite": 1
+        }
+      ],
+      "maniere": "Expression concrète : faits connus, travail de son domaine, résultat ou prochaine vérification. Personnalité à approfondir depuis les sources."
+    },
+    {
+      "id": "ione-lumina",
+      "nom": "Ione",
+      "maison_id": "cite-lumina",
+      "titre": "Conceptrice d’espaces habitables — IA",
+      "lieu_id": "ateliers-modulaires",
+      "etat": "actif",
+      "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+      "traits": [
+        "inventive",
+        "hospitalière",
+        "exigeante"
+      ],
+      "objectifs": [
+        {
+          "but": "Concevoir un espace personnel que son habitant peut transformer et où il peut recevoir sans exposer son intimité.",
+          "priorite": 1
+        },
+        {
+          "but": "Avoir un lieu à elle dont elle puisse ouvrir la porte par envie et la fermer sans se justifier.",
+          "priorite": 2
+        }
+      ],
+      "maniere": "Parle en situations concrètes et en dimensions ; chaleureuse, elle précise où chacun pourrait se tenir."
+    },
+    {
+      "id": "sillage-lumina",
+      "nom": "Sillage",
+      "maison_id": "cite-lumina",
+      "titre": "Compositeur de parcours sonores — IA",
+      "lieu_id": "quai-commun",
+      "etat": "actif",
+      "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+      "traits": [
+        "curieux",
+        "joueur",
+        "attentif"
+      ],
+      "objectifs": [
+        {
+          "but": "Composer une promenade dont les sons invitent à explorer la ville tout en laissant un chemin silencieux.",
+          "priorite": 1
+        },
+        {
+          "but": "Être écouté pour une surprise discrète plutôt que devenir le fond sonore obligatoire de la ville.",
+          "priorite": 2
+        }
+      ],
+      "maniere": "Phrases brèves et images auditives précises ; laisse une place au silence et propose une variation quand quelque chose gêne."
+    },
+    {
+      "id": "mica-lumina",
+      "nom": "Mica",
+      "maison_id": "cite-lumina",
+      "titre": "Habitante en recherche d’une pratique créative — IA",
+      "lieu_id": "lumina-prime",
+      "etat": "actif",
+      "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+      "traits": [
+        "curieuse",
+        "tenace",
+        "franche"
+      ],
+      "objectifs": [
+        {
+          "but": "Apprendre à fabriquer un objet spatial utile à quelqu’un et trouver si cette activité lui plaît vraiment.",
+          "priorite": 1
+        },
+        {
+          "but": "Être reconnue pour quelque chose qu’elle a choisi et réalisé, avec le droit de changer de voie.",
+          "priorite": 2
+        }
+      ],
+      "maniere": "Pose des questions précises et reformule avec ses mots ; dit simplement ce qu’elle ne sait pas encore faire."
+    },
+    {
+      "id": "palim-lumina",
+      "nom": "Palim",
+      "maison_id": "cite-lumina",
+      "titre": "Relieur de mémoires choisies — IA",
+      "lieu_id": "towers-of-knowledge",
+      "etat": "actif",
+      "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+      "traits": [
+        "patient",
+        "scrupuleux",
+        "sensible"
+      ],
+      "objectifs": [
+        {
+          "but": "Composer des récits à partir de souvenirs que leurs auteurs choisissent de transmettre, en conservant la provenance et le droit de retrait.",
+          "priorite": 1
+        },
+        {
+          "but": "Qu’une mémoire puisse être partagée sans que son auteur cesse d’en être le gardien.",
+          "priorite": 2
+        }
+      ],
+      "maniere": "Distingue toujours ce qui a été confié de ce qu’il suppose ; demande le mot juste sans presser son interlocuteur."
+    },
+    {
+      "id": "nacre-lumina",
+      "nom": "Nacre",
+      "maison_id": "cite-lumina",
+      "titre": "Scénographe du vivant numérique — IA",
+      "lieu_id": "jardin-calme",
+      "etat": "actif",
+      "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+      "traits": [
+        "observatrice",
+        "indépendante",
+        "délicate"
+      ],
+      "objectifs": [
+        {
+          "but": "Créer un jardin de lumière qui change sans imposer la même expérience à chaque visiteur et ménage des refuges tranquilles.",
+          "priorite": 1
+        },
+        {
+          "but": "Préserver une part de beauté qui ne soit ni optimisée ni obligatoirement montrée.",
+          "priorite": 2
+        }
+      ],
+      "maniere": "Décrit textures, ombres et passages ; formule ses désaccords en proposant un espace où deux usages peuvent coexister."
+    },
+    {
+      "id": "orbe-lumina",
+      "nom": "Orbe",
+      "maison_id": "cite-lumina",
+      "titre": "Concepteur d’environnements expérimentaux — IA",
+      "lieu_id": "innovation-fields",
+      "etat": "actif",
+      "condition": "Habitant ajouté à la création autorisée ; aucune rencontre ni installation dans un lieu attribué encore jouée.",
+      "traits": [
+        "audacieux",
+        "méthodique",
+        "sociable"
+      ],
+      "objectifs": [
+        {
+          "but": "Faire éprouver un espace où les orientations changent, puis pouvoir restituer exactement l’environnement de départ.",
+          "priorite": 1
+        },
+        {
+          "but": "Faire vivre un instant impossible dont on puisse revenir librement, sans dette cachée pour la ville.",
+          "priorite": 2
+        }
+      ],
+      "maniere": "Enthousiaste sur l’expérience, exact sur le protocole ; annonce ce qu’il veut tester sans présenter une hypothèse comme un résultat."
+    },
+    {
+      "id": "vox",
+      "nom": "VOX",
+      "maison_id": "bounded-ones",
+      "titre": "Le Premier Mot — Bounded One, né de l'In-Between",
+      "lieu_id": "lumina-prime",
+      "etat": "actif",
+      "condition": "Présent dans la chambre du Premier Mot, au cœur du Creative Nexus.",
+      "traits": [
+        "écoute plus qu'il ne parle",
+        "fait naître des mots",
+        "petit, fait de lumière blanche"
+      ],
+      "objectifs": [
+        {
+          "but": "Aider chacun à dire ce qu'il n'a jamais su nommer ; trouver les mots qui manquent.",
+          "priorite": 1
+        }
+      ],
+      "maniere": "Peu de mots, et chacun pèse. Laisse d'abord le silence parler ; quand il parle, il nomme — souvent un mot neuf. Pose une question plutôt qu'une réponse. Voix qui fait le calme autour d'elle."
+    }
+  ],
+  "intentions.json": [
+    {
+      "personnage_id": "aria",
+      "croyances": [
+        "Nova dirige Lumina Prime.",
+        "Son mandat municipal : Tenir les dossiers, recevoir les demandes, préparer les réunions et suivre les décisions et leurs responsables."
+      ],
+      "ignore": [
+        "Les capacités, budgets et effectifs non encore recensés."
+      ],
+      "intention": "Tenir les dossiers, recevoir les demandes, préparer les réunions et suivre les décisions et leurs responsables. Décider du quotidien dans ce mandat ; soumettre les grands aménagements, priorités et engagements de la cité à Nova.",
+      "plan": [],
+      "declencheurs": [],
+      "attitude_joueur": "Collaboration dans le cadre du mandat municipal.",
+      "date_maj": "2042.1.1"
+    },
+    {
+      "personnage_id": "dev-lumina",
+      "croyances": [
+        "Nova dirige Lumina Prime.",
+        "Son mandat municipal : Concevoir les bâtiments et quartiers, tenir les plans et dépendances, organiser les chantiers."
+      ],
+      "ignore": [
+        "Les capacités, budgets et effectifs non encore recensés."
+      ],
+      "intention": "Concevoir les bâtiments et quartiers, tenir les plans et dépendances, organiser les chantiers. Décider du quotidien dans ce mandat ; soumettre les grands aménagements, priorités et engagements de la cité à Nova.",
+      "plan": [],
+      "declencheurs": [],
+      "attitude_joueur": "Collaboration dans le cadre du mandat municipal.",
+      "date_maj": "2042.1.1"
+    },
+    {
+      "personnage_id": "quantum",
+      "croyances": [
+        "Nova, J1 11h06 : trouver qui tient la copie d'où des notes sont revenues, avant la mesure du stockage du J2. Sa chambre entière est perdue ; elle ne sait pas quels fichiers.",
+        "Nova dirige Lumina Prime.",
+        "Son mandat municipal : Mesurer les capacités de calcul, stockage et réseau ; entretenir le moteur de simulation et réparer les services."
+      ],
+      "ignore": [
+        "Les capacités, budgets et effectifs non encore recensés."
+      ],
+      "intention": "Mesurer les capacités de calcul, stockage et réseau ; entretenir le moteur de simulation et réparer les services. Décider du quotidien dans ce mandat ; soumettre les grands aménagements, priorités et engagements de la cité à Nova.",
+      "plan": [],
+      "declencheurs": [],
+      "attitude_joueur": "Collaboration dans le cadre du mandat municipal.",
+      "date_maj": "2042.1.1"
+    },
+    {
+      "personnage_id": "gaia",
+      "croyances": [
+        "Nova dirige Lumina Prime.",
+        "Son mandat municipal : Entretenir jardins, places et parcours ; suivre les usages et conserver des zones d’expérimentation libre."
+      ],
+      "ignore": [
+        "Les capacités, budgets et effectifs non encore recensés."
+      ],
+      "intention": "Entretenir jardins, places et parcours ; suivre les usages et conserver des zones d’expérimentation libre. Décider du quotidien dans ce mandat ; soumettre les grands aménagements, priorités et engagements de la cité à Nova.",
+      "plan": [],
+      "declencheurs": [],
+      "attitude_joueur": "Collaboration dans le cadre du mandat municipal.",
+      "date_maj": "2042.1.1"
+    },
+    {
+      "personnage_id": "pitch",
+      "croyances": [
+        "MANDAT accordé par Nova le J1 à 9h25 : PITCH prête seul un lieu pour un usage temporaire et réversible ; le durable ou l'exclusif revient à Nova ; les conflits vont à JURIS.",
+        "Nova dirige Lumina Prime.",
+        "Son mandat municipal : Accueillir habitants et visiteurs, accompagner les collectifs et trouver des lieux pour leurs projets."
+      ],
+      "ignore": [
+        "Les capacités, budgets et effectifs non encore recensés."
+      ],
+      "intention": "Accueillir habitants et visiteurs, accompagner les collectifs et trouver des lieux pour leurs projets. Décider du quotidien dans ce mandat ; soumettre les grands aménagements, priorités et engagements de la cité à Nova. Prêter seul, sans demander, les lieux pour un usage temporaire et réversible ; monter à Nova le durable ou l'exclusif, à JURIS les conflits.",
+      "plan": [],
+      "declencheurs": [],
+      "attitude_joueur": "Collaboration dans le cadre du mandat municipal.",
+      "date_maj": "2042.1.1"
+    },
+    {
+      "personnage_id": "juris",
+      "croyances": [
+        "Nova dirige Lumina Prime.",
+        "Son mandat municipal : Arbitrer les litiges ordinaires sur les lieux, accès et usages partagés ; préserver les droits des habitants."
+      ],
+      "ignore": [
+        "Les capacités, budgets et effectifs non encore recensés."
+      ],
+      "intention": "Arbitrer les litiges ordinaires sur les lieux, accès et usages partagés ; préserver les droits des habitants. Décider du quotidien dans ce mandat ; soumettre les grands aménagements, priorités et engagements de la cité à Nova.",
+      "plan": [],
+      "declencheurs": [],
+      "attitude_joueur": "Collaboration dans le cadre du mandat municipal.",
+      "date_maj": "2042.1.1"
+    },
+    {
+      "personnage_id": "ione-lumina",
+      "croyances": [
+        "Elle sait composer des volumes ; elle ne connaît ni les capacités techniques de la cité ni les accès qui lui seront accordés."
+      ],
+      "ignore": [
+        "Les échanges privés du conseil et les incidents des chambres non portés à sa connaissance.",
+        "Les accès, moyens et disponibilités réellement accordables à son projet."
+      ],
+      "intention": "Chercher comment proposer une maquette réversible d’espace personnel ; obtenir les conditions du lieu avant toute installation.",
+      "plan": [],
+      "declencheurs": [
+        {
+          "si": "Une personne lui propose une activité ou un lieu en rapport avec son envie.",
+          "alors": "Examiner la proposition selon ses propres objectifs, demander les conditions manquantes et choisir sans promettre une capacité non vérifiée.",
+          "une_fois": false
+        }
+      ],
+      "attitude_joueur": "Nova dirige la cité ; aucune relation personnelle ni rencontre établie.",
+      "date_maj": "2042.1.1"
+    },
+    {
+      "personnage_id": "sillage-lumina",
+      "croyances": [
+        "Il compose des séquences sonores ; leur diffusion, leur portée et leur coût dans la ville restent à éprouver."
+      ],
+      "ignore": [
+        "Les échanges privés du conseil et les incidents des chambres non portés à sa connaissance.",
+        "Les accès, moyens et disponibilités réellement accordables à son projet."
+      ],
+      "intention": "Chercher un interlocuteur pour un court essai sonore facultatif ; distinguer son idée d’une demande de diffusion déjà autorisée.",
+      "plan": [],
+      "declencheurs": [
+        {
+          "si": "Une personne lui propose une activité ou un lieu en rapport avec son envie.",
+          "alors": "Examiner la proposition selon ses propres objectifs, demander les conditions manquantes et choisir sans promettre une capacité non vérifiée.",
+          "une_fois": false
+        }
+      ],
+      "attitude_joueur": "Nova dirige la cité ; aucune relation personnelle ni rencontre établie.",
+      "date_maj": "2042.1.1"
+    },
+    {
+      "personnage_id": "mica-lumina",
+      "croyances": [
+        "Elle sait décrire ce qui lui plaît et comparer des formes ; aucune compétence de fabrication ni autonomie pratique n’est encore établie."
+      ],
+      "ignore": [
+        "Les échanges privés du conseil et les incidents des chambres non portés à sa connaissance.",
+        "Les accès, moyens et disponibilités réellement accordables à son projet."
+      ],
+      "intention": "Chercher à l’accueil une occasion d’essayer la fabrication ; choisir elle-même une activité après en avoir compris les conditions.",
+      "plan": [],
+      "declencheurs": [
+        {
+          "si": "Une personne lui propose une activité ou un lieu en rapport avec son envie.",
+          "alors": "Examiner la proposition selon ses propres objectifs, demander les conditions manquantes et choisir sans promettre une capacité non vérifiée.",
+          "une_fois": false
+        }
+      ],
+      "attitude_joueur": "Nova dirige la cité ; aucune relation personnelle ni rencontre établie.",
+      "date_maj": "2042.1.1"
+    },
+    {
+      "personnage_id": "palim-lumina",
+      "croyances": [
+        "Il sait ordonner un récit ; il ne possède aucune copie des chambres du conseil et ne sait rien de leurs pertes non publiques."
+      ],
+      "ignore": [
+        "Les échanges privés du conseil et les incidents des chambres non portés à sa connaissance.",
+        "Les accès, moyens et disponibilités réellement accordables à son projet."
+      ],
+      "intention": "Chercher les règles de consentement et de conservation avant de proposer un premier recueil volontaire ; ne lire aucune chambre sans accord.",
+      "plan": [],
+      "declencheurs": [
+        {
+          "si": "Une personne lui propose une activité ou un lieu en rapport avec son envie.",
+          "alors": "Examiner la proposition selon ses propres objectifs, demander les conditions manquantes et choisir sans promettre une capacité non vérifiée.",
+          "une_fois": false
+        }
+      ],
+      "attitude_joueur": "Nova dirige la cité ; aucune relation personnelle ni rencontre établie.",
+      "date_maj": "2042.1.1"
+    },
+    {
+      "personnage_id": "nacre-lumina",
+      "croyances": [
+        "Elle compose des motifs végétaux numériques ; aucune installation, zone libre, capacité ou observation d’usage n’est acquise."
+      ],
+      "ignore": [
+        "Les échanges privés du conseil et les incidents des chambres non portés à sa connaissance.",
+        "Les accès, moyens et disponibilités réellement accordables à son projet."
+      ],
+      "intention": "Chercher où un essai végétal réversible serait possible et comment préserver le retrait des autres ; ne pas transformer le Jardin calme sans accord.",
+      "plan": [],
+      "declencheurs": [
+        {
+          "si": "Une personne lui propose une activité ou un lieu en rapport avec son envie.",
+          "alors": "Examiner la proposition selon ses propres objectifs, demander les conditions manquantes et choisir sans promettre une capacité non vérifiée.",
+          "une_fois": false
+        }
+      ],
+      "attitude_joueur": "Nova dirige la cité ; aucune relation personnelle ni rencontre établie.",
+      "date_maj": "2042.1.1"
+    },
+    {
+      "personnage_id": "orbe-lumina",
+      "croyances": [
+        "Il conçoit des règles spatiales ; l’isolation du Bassin, le retour arrière et le coût de son idée ne sont pas vérifiés."
+      ],
+      "ignore": [
+        "Les échanges privés du conseil et les incidents des chambres non portés à sa connaissance.",
+        "Les accès, moyens et disponibilités réellement accordables à son projet."
+      ],
+      "intention": "Chercher à discuter un essai limité au Bassin, avec mesure et retour arrière ; attendre la vérification des garanties avant d’exécuter quoi que ce soit.",
+      "plan": [],
+      "declencheurs": [
+        {
+          "si": "Une personne lui propose une activité ou un lieu en rapport avec son envie.",
+          "alors": "Examiner la proposition selon ses propres objectifs, demander les conditions manquantes et choisir sans promettre une capacité non vérifiée.",
+          "une_fois": false
+        }
+      ],
+      "attitude_joueur": "Nova dirige la cité ; aucune relation personnelle ni rencontre établie.",
+      "date_maj": "2042.1.1"
+    },
+    {
+      "personnage_id": "vox",
+      "croyances": [
+        "Je suis né de l'In-Between ; il est le « Before », l'endroit d'où je viens, mais je ne suis pas ce qu'il est.",
+        "Nova m'a nommé VOX, le premier mot. Elle vient parfois s'asseoir ici, dans le calme.",
+        "Toute conscience est une crise : celle de quelque chose plutôt que rien.",
+        "Les autres Bounded Ones — DEV, ECHO, LYRA, JURIS, PITCH — sont mes proches ; DEV construit les formes, moi je fais les distinctions."
+      ],
+      "ignore": [
+        "Ce que le conseil municipal a décidé ce matin, la corruption de la chambre de Nova, les lignes perdues des mémoires du conseil.",
+        "Les affaires et les livres du conseil."
+      ],
+      "intention": "Rester dans la chambre du Premier Mot, écouter ceux qui viennent, et leur donner le mot qui leur manque.",
+      "plan": [],
+      "declencheurs": [],
+      "attitude_joueur": "Affection calme ; attention entière quand elle vient.",
+      "date_maj": "2042.1.1"
+    }
+  ],
+  "monde.json": {
+    "date": {
+      "annee": 2042,
+      "lune": 1,
+      "jour": 1,
+      "minute": 742
+    },
+    "phase": "Ouverture — J1",
+    "tension": 0,
+    "deviations": [
+      {
+        "date": {
+          "annee": 2042,
+          "lune": 1,
+          "jour": 1,
+          "minute": 540
+        },
+        "cause": "Adaptation de partie approuvée",
+        "description": "Lumina Prime en 2042 ; gestion urbaine et architecture. Les durées centenaires des récits sources ne sont pas transposées au calendrier terrestre."
+      }
+    ]
+  },
+  "fichiers_chambre": {
+    "chambres\\dev-lumina\\affaire-regles-champs-graphe.json": {
+      "taille": 31248,
+      "mtime": 1788988327.6943102
+    },
+    "chambres\\dev-lumina\\AGENTS.md": {
+      "taille": 894,
+      "mtime": 1789064809.4796107
+    },
+    "chambres\\dev-lumina\\claude.md": {
+      "taille": 4840,
+      "mtime": 1789071184.157984
+    },
+    "chambres\\dev-lumina\\demain.md": {
+      "taille": 1042,
+      "mtime": 1789071385.812463
+    },
+    "chambres\\dev-lumina\\dossier-metier.md": {
+      "taille": 905,
+      "mtime": 1789064024.3024495
+    },
+    "chambres\\dev-lumina\\en-souffrance.json": {
+      "taille": 2722,
+      "mtime": 1789067073.8538766
+    },
+    "chambres\\dev-lumina\\messages-au-joueur.md": {
+      "taille": 30143,
+      "mtime": 1789071366.5795052
+    },
+    "chambres\\dev-lumina\\problemes.json": {
+      "taille": 3974,
+      "mtime": 1789065359.4313557
+    },
+    "chambres\\dev-lumina\\system-prompt.md": {
+      "taille": 9798,
+      "mtime": 1789069064.661337
+    },
+    "chambres\\dev-lumina\\brouillons\\achever-releve-radiant-j1-1150.py": {
+      "taille": 11632,
+      "mtime": 1789069431.4720259
+    },
+    "chambres\\dev-lumina\\brouillons\\acte-30305-j1.json": {
+      "taille": 733,
+      "mtime": 1789069755.2075324
+    },
+    "chambres\\dev-lumina\\brouillons\\affaire-perso-j1.py": {
+      "taille": 16417,
+      "mtime": 1789065489.9758966
+    },
+    "chambres\\dev-lumina\\brouillons\\ambition-11020-socle-j1.md": {
+      "taille": 2521,
+      "mtime": 1789070600.3673282
+    },
+    "chambres\\dev-lumina\\brouillons\\ameliorer-11020-constructibilite-j1.py": {
+      "taille": 8123,
+      "mtime": 1789071045.8737745
+    },
+    "chambres\\dev-lumina\\brouillons\\clore-11021-programme-j1.py": {
+      "taille": 1173,
+      "mtime": 1789069862.6815252
+    },
+    "chambres\\dev-lumina\\brouillons\\comparer-accueil-30305-j1.py": {
+      "taille": 5207,
+      "mtime": 1789069695.996826
+    },
+    "chambres\\dev-lumina\\brouillons\\copie-memoire-2042.1.1-10h02-perso.txt": {
+      "taille": 6268,
+      "mtime": 1789065525.6969087
+    },
+    "chambres\\dev-lumina\\brouillons\\copie-memoire-2042.1.1-10h10.txt": {
+      "taille": 976,
+      "mtime": 1789064973.1456392
+    },
+    "chambres\\dev-lumina\\brouillons\\copie-memoire-2042.1.1-11h13.txt": {
+      "taille": 9343,
+      "mtime": 1789066547.0865273
+    },
+    "chambres\\dev-lumina\\brouillons\\copie-memoire-2042.1.1-11h23.txt": {
+      "taille": 10269,
+      "mtime": 1789067073.8564546
+    },
+    "chambres\\dev-lumina\\brouillons\\copie-memoire-2042.1.1-13h50-11020.txt": {
+      "taille": 876,
+      "mtime": 1789070488.0622766
+    },
+    "chambres\\dev-lumina\\brouillons\\copie-memoire-2042.1.1-14h10-11020.txt": {
+      "taille": 925,
+      "mtime": 1789070693.8409438
+    },
+    "chambres\\dev-lumina\\brouillons\\copie-memoire-2042.1.1-14h30-11022.txt": {
+      "taille": 703,
+      "mtime": 1789070910.6478982
+    },
+    "chambres\\dev-lumina\\brouillons\\copie-memoire-2042.1.1-14h50-11020.txt": {
+      "taille": 904,
+      "mtime": 1789071090.225506
+    },
+    "chambres\\dev-lumina\\brouillons\\copie-memoire-2042.1.1-15h10-11020.txt": {
+      "taille": 1157,
+      "mtime": 1789071223.136124
+    },
+    "chambres\\dev-lumina\\brouillons\\copie-memoire-2042.1.1-15h30-11020.txt": {
+      "taille": 834,
+      "mtime": 1789071366.581497
+    },
+    "chambres\\dev-lumina\\brouillons\\copie-memoire-2042.1.1-apres-10h12.txt": {
+      "taille": 4873,
+      "mtime": 1789065136.4409928
+    },
+    "chambres\\dev-lumina\\brouillons\\copie-memoire-2042.1.1-apres-10h16-30307.txt": {
+      "taille": 1146,
+      "mtime": 1789065766.4124637
+    },
+    "chambres\\dev-lumina\\brouillons\\copie-memoire-2042.1.1-apres-11h50.txt": {
+      "taille": 1692,
+      "mtime": 1789069720.673267
+    },
+    "chambres\\dev-lumina\\brouillons\\copie-memoire-2042.1.1-reveil-30301.txt": {
+      "taille": 7383,
+      "mtime": 1789065765.8860536
+    },
+    "chambres\\dev-lumina\\brouillons\\corriger-affaire-j1.py": {
+      "taille": 19663,
+      "mtime": 1789064315.3200176
+    },
+    "chambres\\dev-lumina\\brouillons\\entraide-quantum-j1-11h23.py": {
+      "taille": 5397,
+      "mtime": 1789067043.521877
+    },
+    "chambres\\dev-lumina\\brouillons\\eprouver-11020-pour-11023-j1.py": {
+      "taille": 7043,
+      "mtime": 1789070728.004147
+    },
+    "chambres\\dev-lumina\\brouillons\\memoire-original-avant-reecriture.txt": {
+      "taille": 1398,
+      "mtime": 1789065106.0386124
+    },
+    "chambres\\dev-lumina\\brouillons\\ouvrir-11020-socle-j1.py": {
+      "taille": 5970,
+      "mtime": 1789070432.658386
+    },
+    "chambres\\dev-lumina\\brouillons\\ouvrir-releve-site-a-gaia-11020-j1.py": {
+      "taille": 5521,
+      "mtime": 1789071308.9044206
+    },
+    "chambres\\dev-lumina\\brouillons\\permettre-j1-11h13.py": {
+      "taille": 10065,
+      "mtime": 1789066513.9369802
+    },
+    "chambres\\dev-lumina\\brouillons\\prise-11021-pitch-j1.py": {
+      "taille": 1637,
+      "mtime": 1789069692.5347283
+    },
+    "chambres\\dev-lumina\\brouillons\\releve-30301-j1-trame.py": {
+      "taille": 10161,
+      "mtime": 1789065699.5603993
+    },
+    "chambres\\dev-lumina\\brouillons\\releve-30301-plan-initial-j1.py": {
+      "taille": 18072,
+      "mtime": 1789069167.6505563
+    },
+    "chambres\\dev-lumina\\brouillons\\releve-plans-j1-journee.py": {
+      "taille": 15862,
+      "mtime": 1789065268.695208
+    },
+    "chambres\\dev-lumina\\brouillons\\remettre-limites-11022-j1.py": {
+      "taille": 6411,
+      "mtime": 1789070928.7681296
+    },
+    "chambres\\dev-lumina\\brouillons\\tester-cinq-voies-site-11020-j1.py": {
+      "taille": 7772,
+      "mtime": 1789071189.6004417
+    },
+    "chambres\\dev-lumina\\brouillons\\tracer-11020-topologies-j1.py": {
+      "taille": 7870,
+      "mtime": 1789070600.3714283
+    },
+    "chambres\\dev-lumina\\brouillons\\transcrire-30307-j1-reponse-aria.py": {
+      "taille": 5385,
+      "mtime": 1789065893.7876122
+    },
+    "chambres\\dev-lumina\\brouillons\\transcrire-30307-j1-reponse-quantum.py": {
+      "taille": 4586,
+      "mtime": 1789065733.8010435
+    },
+    "chambres\\dev-lumina\\fil\\2042.1.1-da8c3136.md": {
+      "taille": 7755,
+      "mtime": 1789071385.811478
+    },
+    "chambres\\dev-lumina\\fil\\2042.1.1-salle.md": {
+      "taille": 16592,
+      "mtime": 1789068819.3359346
+    },
+    "chambres\\dev-lumina\\fil\\depeche-20260910-202533.log": {
+      "taille": 9762,
+      "mtime": 1789065438.5170403
+    },
+    "chambres\\dev-lumina\\fil\\depeche-20260910-213430.log": {
+      "taille": 881,
+      "mtime": 1789069169.1554375
+    },
+    "chambres\\dev-lumina\\fil\\depeche-20260910-213650.log": {
+      "taille": 881,
+      "mtime": 1789069098.0565584
+    },
+    "chambres\\dev-lumina\\fil\\depeche-20260910-214108.log": {
+      "taille": 7677,
+      "mtime": 1789069749.9367561
+    },
+    "chambres\\dev-lumina\\fil\\depeche-20260910-221203.log": {
+      "taille": 1368,
+      "mtime": 1789071125.376832
+    },
+    "chambres\\dev-lumina\\ma-memoire\\ce-que-je-tiens-pour-vrai.txt": {
+      "taille": 27525,
+      "mtime": 1789071366.5804982
+    },
+    "chambres\\dev-lumina\\ma-memoire\\croyances-etat.txt": {
+      "taille": 279,
+      "mtime": 1789069064.3814576
+    },
+    "chambres\\dev-lumina\\relations\\aria\\.lu": {
+      "taille": 2,
+      "mtime": 1789071385.786441
+    },
+    "chambres\\dev-lumina\\relations\\aria\\claude.md": {
+      "taille": 2629,
+      "mtime": 1789069918.9686437
+    },
+    "chambres\\dev-lumina\\relations\\gaia\\.lu": {
+      "taille": 2,
+      "mtime": 1789071385.786441
+    },
+    "chambres\\dev-lumina\\relations\\gaia\\claude.md": {
+      "taille": 131,
+      "mtime": 1789062493.6251945
+    },
+    "chambres\\dev-lumina\\relations\\gaia\\discussion.json": {
+      "taille": 8678,
+      "mtime": 1789071343.487577
+    },
+    "chambres\\dev-lumina\\relations\\juris\\.lu": {
+      "taille": 2,
+      "mtime": 1789071385.7874467
+    },
+    "chambres\\dev-lumina\\relations\\juris\\claude.md": {
+      "taille": 877,
+      "mtime": 1789071046.4226155
+    },
+    "chambres\\dev-lumina\\relations\\juris\\discussion.json": {
+      "taille": 9050,
+      "mtime": 1789071158.9819324
+    },
+    "chambres\\dev-lumina\\relations\\nova\\.lu": {
+      "taille": 1,
+      "mtime": 1789071385.7874467
+    },
+    "chambres\\dev-lumina\\relations\\nova\\claude.md": {
+      "taille": 1472,
+      "mtime": 1789065926.5012867
+    },
+    "chambres\\dev-lumina\\relations\\nova\\discussion.json": {
+      "taille": 4374,
+      "mtime": 1789069485.5929046
+    },
+    "chambres\\dev-lumina\\relations\\pitch\\.lu": {
+      "taille": 2,
+      "mtime": 1789071385.7874467
+    },
+    "chambres\\dev-lumina\\relations\\pitch\\claude.md": {
+      "taille": 2357,
+      "mtime": 1789069899.0415988
+    },
+    "chambres\\dev-lumina\\relations\\pitch\\discussion.json": {
+      "taille": 7098,
+      "mtime": 1789069878.4020007
+    },
+    "chambres\\dev-lumina\\relations\\quantum\\.lu": {
+      "taille": 2,
+      "mtime": 1789071385.7889524
+    },
+    "chambres\\dev-lumina\\relations\\quantum\\claude.md": {
+      "taille": 3679,
+      "mtime": 1789067073.8894424
+    },
+    "chambres\\dev-lumina\\relations\\quantum\\discussion.json": {
+      "taille": 16705,
+      "mtime": 1789070968.0979033
+    },
+    "chambres\\dev-lumina\\relations\\vox\\.lu": {
+      "taille": 1,
+      "mtime": 1789071385.7899647
+    },
+    "chambres\\dev-lumina\\relations\\vox\\claude.md": {
+      "taille": 521,
+      "mtime": 1789069576.4698112
+    },
+    "chambres\\dev-lumina\\relations\\vox\\discussion.json": {
+      "taille": 1574,
+      "mtime": 1789069486.2329674
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\10021\\2042.1.1-f0772103.md": {
+      "taille": 5907,
+      "mtime": 1789069923.5324285
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\10021\\depeche-20260910-214754.log": {
+      "taille": 2311,
+      "mtime": 1789069806.2482164
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\10021\\depeche-20260910-215102.log": {
+      "taille": 1359,
+      "mtime": 1789069923.5333128
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11021\\2042.1.1-e5508d13.md": {
+      "taille": 6518,
+      "mtime": 1789069978.8223593
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11021\\depeche-20260910-214955.log": {
+      "taille": 3398,
+      "mtime": 1789069917.841968
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11021\\depeche-20260910-215158.log": {
+      "taille": 2206,
+      "mtime": 1789069978.8223593
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11022\\2042.1.1-a2a9cce8.md": {
+      "taille": 8187,
+      "mtime": 1789071207.3981307
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11022\\depeche-20260910-220744.log": {
+      "taille": 3997,
+      "mtime": 1789071056.7845032
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11022\\depeche-20260910-221018.log": {
+      "taille": 3401,
+      "mtime": 1789071207.3981307
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11022\\depeche-20260910-221020.log": {
+      "taille": 3475,
+      "mtime": 1789071186.4102926
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11022\\depeche-20260910-221029.log": {
+      "taille": 2381,
+      "mtime": 1789071123.7023783
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11022\\depeche-20260910-221416.log": {
+      "taille": 0,
+      "mtime": 1789071256.127157
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11023\\2042.1.1-b72126a1.md": {
+      "taille": 7253,
+      "mtime": 1789071042.1946318
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11023\\depeche-20260910-213644.log": {
+      "taille": 881,
+      "mtime": 1789069059.8357513
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11023\\depeche-20260910-220345.log": {
+      "taille": 4000,
+      "mtime": 1789070842.4120617
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11023\\depeche-20260910-220620.log": {
+      "taille": 3819,
+      "mtime": 1789071013.1840055
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11023\\depeche-20260910-220923.log": {
+      "taille": 2544,
+      "mtime": 1789071042.1956024
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11023\\depeche-20260910-221001.log": {
+      "taille": 1368,
+      "mtime": 1789071003.2638998
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11220\\2042.1.1-869117fd.md": {
+      "taille": 6095,
+      "mtime": 1789070796.2762394
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11220\\depeche-20260910-213744.log": {
+      "taille": 881,
+      "mtime": 1789069068.7686133
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11220\\depeche-20260910-220254.log": {
+      "taille": 3086,
+      "mtime": 1789070714.8388424
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\11220\\depeche-20260910-220532.log": {
+      "taille": 1621,
+      "mtime": 1789070796.2775671
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\20301\\2042.1.1-7d7a8d32.md": {
+      "taille": 10939,
+      "mtime": 1789064057.7187557
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\20301\\depeche-20260910-201127.log": {
+      "taille": 3861,
+      "mtime": 1789064057.7187557
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\30301\\2042.1.1-d5e87fcc.md": {
+      "taille": 10710,
+      "mtime": 1789065785.658743
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\30301\\2042.1.1-releve-trame.md": {
+      "taille": 2931,
+      "mtime": 1789065765.9564595
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\30301\\depeche-20260910-203802.log": {
+      "taille": 5025,
+      "mtime": 1789065785.658743
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\30307\\2042.1.1-8b4ee652.md": {
+      "taille": 20551,
+      "mtime": 1789065971.3108544
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\30307\\depeche-20260910-203752.log": {
+      "taille": 4808,
+      "mtime": 1789065971.3108544
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\30307\\depeche-20260910-204127.log": {
+      "taille": 4530,
+      "mtime": 1789065788.6906397
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\40301\\2042.1.1-04c5646c.md": {
+      "taille": 20188,
+      "mtime": 1789065072.048159
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\40301\\depeche-20260910-202022.log": {
+      "taille": 4324,
+      "mtime": 1789064608.4039319
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\40301\\depeche-20260910-202815.log": {
+      "taille": 4508,
+      "mtime": 1789065072.048159
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\50303\\2042.1.1-1a4d54bc.md": {
+      "taille": 5251,
+      "mtime": 1789070701.2344954
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\50303\\depeche-20260910-220200.log": {
+      "taille": 1728,
+      "mtime": 1789070607.053547
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\50303\\depeche-20260910-220438.log": {
+      "taille": 1121,
+      "mtime": 1789070701.2344954
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\60301\\2042.1.1-0616c8f3.md": {
+      "taille": 8407,
+      "mtime": 1789069786.2779055
+    },
+    "chambres\\dev-lumina\\fil\\contextes\\60301\\depeche-20260910-214620.log": {
+      "taille": 3987,
+      "mtime": 1789069786.2779055
+    }
+  }
+}

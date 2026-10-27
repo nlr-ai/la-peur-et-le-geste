@@ -1,0 +1,42 @@
+{
+ "_": "LA TABLE DE CHARMED — la baie de San Francisco, automne 2001 : la Marina, Mission Bay comblée, l'Embarcadero, les deux ponts. Géométrie dans geo.js (engendré par dessiner_geo.py). `tout` montre la baie entière, Marin et l'East Bay compris ; `repos` serre sur la ville.",
+ "cadrages": {
+  "tout": "baie",
+  "repos": "ville"
+ },
+ "mers": [
+  [
+   11.9,
+   175.0,
+   "Océan Pacifique"
+  ],
+  [
+   169.9,
+   85.0,
+   "Baie de San Francisco"
+  ],
+  [
+   43.5,
+   102.0,
+   "La Porte d'Or"
+  ]
+ ],
+ "etiquettes": {
+  "san-francisco": [
+   4,
+   -3,
+   "d"
+  ]
+ },
+ "regions": {
+  "western-addition": null,
+  "nord": null,
+  "centre": null,
+  "som": null,
+  "richmond": null,
+  "parc": null,
+  "marina": null,
+  "pacific-heights": null
+ },
+ "_regions": "À l'échelle de la baie, douze noms de quartier s'empilent sur trois centimètres de ville : on ne garde que Presidio, Sunset, Mission et Potrero. Le reste se lit par ses repères (bourgs) quand on approche."
+}

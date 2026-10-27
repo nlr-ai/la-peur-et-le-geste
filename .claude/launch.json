@@ -10,6 +10,30 @@
       "port": 3129
     },
     {
+      "name": "cities-of-light",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "serveur/serveur.js",
+        "3191",
+        "--monde",
+        "cities-of-light"
+      ],
+      "port": 3191,
+      "autoPort": false
+    },
+    {
+      "name": "charmed-1906",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "serveur/serveur.js",
+        "3192",
+        "--monde",
+        "charmed-1906"
+      ],
+      "port": 3192,
+      "autoPort": false
+    },
+    {
       "name": "vampire-counts",
       "runtimeExecutable": "node",
       "runtimeArgs": [
@@ -19,6 +43,30 @@
         "vampire-counts"
       ],
       "port": 3201,
+      "autoPort": false
+    },
+    {
+      "name": "navarre-1572",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "serveur/serveur.js",
+        "3202",
+        "--monde",
+        "navarre-1572"
+      ],
+      "port": 3202,
+      "autoPort": false
+    },
+    {
+      "name": "lyon-1943",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "serveur/serveur.js",
+        "3203",
+        "--monde",
+        "lyon-1943"
+      ],
+      "port": 3203,
       "autoPort": false
     },
     {
@@ -85,6 +133,145 @@
         "serveur/serveur.js"
       ],
       "port": 3141,
+      "autoPort": false
+    },
+    {
+      "name": "charmed-atelier",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "serveur/serveur.js",
+        "3196",
+        "--monde",
+        "charmed-1906"
+      ],
+      "port": 3196,
+      "autoPort": false
+    },
+    {
+      "name": "lumina-prime",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "serveur/serveur.js",
+        "3197",
+        "--monde",
+        "lumina-prime"
+      ],
+      "port": 3197,
+      "autoPort": false
+    },
+    {
+      "name": "lumina-prime-mj",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": [
+        "/d",
+        "/c",
+        "set CONSEIL_SANS_REVEIL=1&& node serveur/serveur.js 3197 --monde lumina-prime"
+      ],
+      "port": 3197,
+      "autoPort": false
+    },
+    {
+      "name": "bataille",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "bataille/outils/serveur.mjs",
+        "4174"
+      ],
+      "port": 4174,
+      "autoPort": false
+    },
+    {
+      "name": "magies",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "serveur/serveur.js",
+        "3198",
+        "--monde",
+        "magies"
+      ],
+      "port": 3198,
+      "autoPort": false
+    },
+    {
+      "name": "charmed",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "serveur/serveur.js",
+        "3200",
+        "--monde",
+        "charmed"
+      ],
+      "port": 3200,
+      "autoPort": false
+    },
+    {
+      "name": "frontieres-du-vivant",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "serveur/serveur.js",
+        "3204",
+        "--monde",
+        "frontieres-du-vivant"
+      ],
+      "port": 3204,
+      "autoPort": false
+    },
+    {
+      "name": "argent-intelligent",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "serveur/serveur.js",
+        "3210",
+        "--monde",
+        "argent-intelligent"
+      ],
+      "port": 3210,
+      "autoPort": false
+    },
+    {
+      "name": "argent-intelligent-mj",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": [
+        "/d",
+        "/c",
+        "set CONSEIL_SANS_REVEIL=1&& node serveur/serveur.js 3210 --monde argent-intelligent"
+      ],
+      "port": 3210,
+      "autoPort": false
+    },
+    {
+      "name": "dix-minutes",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": [
+        "/d",
+        "/c",
+        "set CONSEIL_SANS_REVEIL=1&& node serveur/serveur.js 3211 --monde dix-minutes"
+      ],
+      "port": 3211,
+      "autoPort": false
+    },
+    {
+      "name": "dix-minutes-reveil",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "serveur/serveur.js",
+        "3211",
+        "--monde",
+        "dix-minutes"
+      ],
+      "port": 3211,
+      "autoPort": false
+    },
+    {
+      "name": "la-peur-et-le-geste",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "serveur/serveur.js",
+        "3212",
+        "--monde",
+        "la-peur-et-le-geste"
+      ],
+      "port": 3212,
       "autoPort": false
     }
   ]

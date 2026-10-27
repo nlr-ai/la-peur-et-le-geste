@@ -29,6 +29,23 @@ class JumpTests(unittest.TestCase):
         ]
         self.monde = {"date": {"annee": 129, "lune": 4, "jour": 4}}
 
+    def test_passer_sans_evenement_et_sans_ecriture(self):
+        with mock.patch.object(jump, "_lire_json", side_effect=[self.monde, []]):
+            resultat = jump.preparer_scene("voir les voisins", joueurs=["michel"])
+        self.assertEqual("passer/1", resultat["version"])
+        self.assertEqual([], resultat["evenements"])
+        self.assertEqual(self.monde["date"], resultat["depart"])
+        self.assertFalse(resultat["contrat"]["decision_joueur"])
+
+    def test_passer_exige_une_scene_et_une_date_avancee(self):
+        depart = {"annee": 1940, "lune": 6, "jour": 15, "minute": 750}
+        apres = dict(depart, minute=760)
+        routage = {"jump": {"version": "passer/1", "depart": depart}}
+        with mock.patch.object(mj, "_items_flux_depuis", return_value=[]), mock.patch.object(mj, "_lire_json", return_value={"date": depart}):
+            self.assertEqual(2, len(mj._manques_jump(routage, 0)))
+        with mock.patch.object(mj, "_items_flux_depuis", return_value=[{"type": "recit", "date": apres}]), mock.patch.object(mj, "_lire_json", return_value={"date": apres}):
+            self.assertEqual([], mj._manques_jump(routage, 0))
+
     def test_prend_un_seul_prochain_evenement_ou_l_id_nomme(self):
         self.assertEqual("prochain", jump.choisir_evenement(
             "", self.evenements, self.monde)["id"])
@@ -89,21 +106,16 @@ class JumpTests(unittest.TestCase):
         self.assertIn("name: jump-scene", brief_jump)
         self.assertIn("Compléter le sous-graphe", brief_jump)
         self.assertIn("Mettre les PNJ concernés à jour", brief_jump)
-        self.assertIn("Meubler pendant les appels", brief_jump)
+        self.assertIn("passer/1", brief_jump)
         self.assertIn("sous-entendus", brief_jump)
-        self.assertIn("Chaque signe doit pouvoir être relié à un nœud",
-                      brief_jump)
+        self.assertIn("Rendre la main dès que le joueur peut agir", brief_jump)
         self.assertIn("clock doit avancer pour de vrai", brief_jump)
         self.assertIn("Ne rends pas la main au milieu du Jump", brief_jump)
         self.assertIn("au moins 24 heures", brief_jump)
         self.assertIn("jalons intermédiaires", brief_jump)
-        self.assertIn("--beats-jump", brief_jump)
-        self.assertIn("jump_beats.py --pousser", brief_jump)
-        self.assertIn("--dire --sans-reveil --de mj", brief_jump)
-        self.assertIn("ne lance aucune", brief_jump)
-        self.assertIn("une seule commande parallèle", brief_jump)
-        self.assertIn("--front 3", brief_jump)
-        self.assertIn("Ne fais jamais trois commandes successives", brief_jump)
+        self.assertIn("Jouer directement les PNJ", brief_jump)
+        self.assertIn("aucune dépêche obligatoire", brief_jump)
+
 
     def test_un_homme_prepare_des_beats_lies_et_la_file_n_en_pousse_qu_un(self):
         with tempfile.TemporaryDirectory() as depot:
@@ -159,12 +171,16 @@ class JumpTests(unittest.TestCase):
         self.assertIn("Tu es l'auteur", instructions)
 
     def test_le_reveil_jump_ordonne_d_executer_le_skill_entier(self):
+        # Le reveil nomme le mode ; la consigne vit dans le systeme du tour.
         message = mj._message("rhaenyra", "brief", "JOUEUR",
                               modes=["jump"])
-        self.assertIn("skill système `jump-scene`", message)
-        self.assertIn("mises à jour des PNJ", message)
-        self.assertIn("avance réellement la clock", message)
-        self.assertIn("ne rends pas la main au milieu", message)
+        self.assertIn("MODES DU TOUR : jump", message)
+        manuel = mj._manuel(modes=["jump"])
+        self.assertIn("le skill `jump-scene` est chargé", manuel)
+        self.assertIn("mises à jour des PNJ", manuel)
+        self.assertIn("avance réellement la clock", manuel)
+        self.assertIn("ne rends pas la main au milieu", manuel)
+        self.assertNotIn("Quand le mode `jump` est actif", mj._manuel())
 
     def test_le_garde_refuse_le_meublage_avant_la_scene_cible(self):
         preparation = {"event": {"id": "prochain", "date_prevue": {
@@ -184,7 +200,7 @@ class JumpTests(unittest.TestCase):
                 f.write(json.dumps({"type": "recit", "texte": "La pluie.",
                                     "date": {"annee": 129, "lune": 4,
                                              "jour": 4, "minute": 800}}) + "\n")
-            with mock.patch.object(mj, "RACINE", dossier), \
+            with mock.patch.object(mj, "ETAT", etat), \
                     mock.patch.object(mj, "FLUX", flux), \
                     mock.patch("plan.graphe_causal.charger_tissu",
                                return_value=({}, [])), \
@@ -213,7 +229,7 @@ class JumpTests(unittest.TestCase):
             with open(flux, "w", encoding="utf-8") as f:
                 f.write(json.dumps({"type": "evenement", "texte": "Cible",
                                     "date": date}) + "\n")
-            with mock.patch.object(mj, "RACINE", dossier), \
+            with mock.patch.object(mj, "ETAT", etat), \
                     mock.patch.object(mj, "FLUX", flux), \
                     mock.patch("plan.graphe_causal.charger_tissu",
                                return_value=({}, [])), \

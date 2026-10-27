@@ -31,8 +31,11 @@ Usage :
 """
 import io, os, re, sys, time, unicodedata, collections
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-LIVRES = os.path.join(RACINE, "etat", "books.json")
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+LIVRES = os.path.join(ETAT, "books.json")
 import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
 _d = _os.path.dirname(_os.path.abspath(__file__))
 while _os.path.basename(_d) != "scripts" and _os.path.dirname(_d) != _d:

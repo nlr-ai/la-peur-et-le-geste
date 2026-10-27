@@ -1,0 +1,88 @@
+{
+ "maison:maison-warren": {
+  "@mains": {
+   "maison_id": "maison-warren",
+   "_": "CE QUE LA MAISON A SOUS LA MAIN — ce que Bridget dira, un chiffre à la fois, quand on lui demandera de quoi l'on vit. Les 212 dollars de maisons.json sont à la banque, et les banques n'ouvriront pas leurs chambres fortes avant des semaines (canon/histoire-1906.md §4) : ils ne comptent pas ici. INVENTION DÉCLARÉE, chiffres de jeu.",
+   "mains": [
+    {
+     "id": "la-maison-tient",
+     "quoi": "Ce que la maison de Prescott Street a pour vivre sans marché ni banque",
+     "porteur": {
+      "type": "personnage",
+      "id": "bridget-oconnell"
+     },
+     "lieu_id": "prescott-street",
+     "mandat": null,
+     "mesure": [
+      {
+       "id": "jours-de-vivres",
+       "quoi": "jours de manger pour trois (farine, pommes de terre, lard, conserves, le thé) au train ordinaire",
+       "unite": "jours",
+       "valeur": 5,
+       "rythme": {
+        "par": -1,
+        "jours": 1
+       },
+       "reliquat": 0,
+       "plancher": 0,
+       "plafond": 30,
+       "depend_de": [],
+       "_": "Bridget fait le marché deux fois la semaine ; le mercredi est jour de marché, donc le garde-manger est au plus bas ce matin. Une bouche de plus (Patience, un réfugié qu'on recueille) raccourcit le compte à la main. Le feu de la cuisine peut en prendre une partie."
+      },
+      {
+       "id": "argent-comptant",
+       "quoi": "l'argent qui est DANS la maison : quatre dollars dans la boîte à thé de Bridget, treize dans le secrétaire de Prudence",
+       "unite": "dollars",
+       "valeur": 17,
+       "rythme": {
+        "par": 0,
+        "jours": 1
+       },
+       "reliquat": 0,
+       "plancher": 0,
+       "plafond": null,
+       "depend_de": [],
+       "_": "Ne bouge qu'à la main. Le secrétaire est au salon : s'il brûle, les treize dollars brûlent avec."
+      }
+     ],
+     "seuils": [
+      {
+       "id": "garde-manger-vide",
+       "mesure_id": "jours-de-vivres",
+       "quand": "sous",
+       "valeur": 2,
+       "promeut": "scene",
+       "affaire": "Plus que deux jours de manger à la maison. Faire la queue aux distributions de l'armée au parc avec la petite, acheter au prix du jour avec ce qui reste, ou demander aux voisins de Prescott Street — qui demanderont ce que Madame fait la nuit avec sa lampe.",
+       "franchi_le": null
+      },
+      {
+       "id": "plus-d-argent",
+       "mesure_id": "argent-comptant",
+       "quand": "sous",
+       "valeur": 5,
+       "promeut": "scene",
+       "affaire": "Moins de cinq dollars dans la maison et la banque fermée. Engager quelque chose chez le prêteur, emprunter sur la planche de Giannini au port, ou vivre des distributions comme tout le monde.",
+       "franchi_le": null
+      }
+     ],
+     "dernier_rapport": null,
+     "date_maj": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 18
+     }
+    }
+   ],
+   "id": "@mains",
+   "_type_document": "mains"
+  }
+ },
+ "maison:le-sous-sol": {
+  "@mains": {
+   "maison_id": "le-sous-sol",
+   "mains": [],
+   "id": "@mains",
+   "_type_document": "mains"
+  }
+ }
+}

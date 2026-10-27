@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Le seuil que je choisis — fin de visite</title>
+<style>
+  :root { --ink:#173b39; --paper:#f6f0e4; --coral:#bd7650; --teal:#168a79; --veil:#d8cab7; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:24px; color:var(--ink); background:var(--paper); font:16px/1.45 system-ui,sans-serif; }
+  main { max-width:920px; margin:auto; }
+  h1 { margin:.2rem 0; font-size:clamp(1.8rem,5vw,3.2rem); }
+  .note { border-left:5px solid var(--coral); padding:.6rem 1rem; background:#fff9; }
+  .controls { display:flex; gap:.7rem; flex-wrap:wrap; margin:1rem 0; }
+  button { border:2px solid var(--ink); border-radius:2rem; padding:.65rem 1rem; background:white; color:var(--ink); font:inherit; cursor:pointer; }
+  button[aria-pressed="true"] { background:var(--ink); color:white; }
+  button:disabled { cursor:not-allowed; opacity:.42; }
+  #end { border-color:var(--coral); }
+  .phase { font-weight:700; letter-spacing:.04em; text-transform:uppercase; }
+  .room { position:relative; width:min(100%,640px); aspect-ratio:3.2/3.6; margin:1.3rem auto 3.5rem; border:8px solid var(--ink); background:#fffdf7; overflow:visible; }
+  .door { position:absolute; bottom:-8px; left:7%; width:34.375%; height:16px; background:var(--paper); border-left:3px solid var(--coral); border-right:3px solid var(--coral); z-index:5; }
+  .door::before { content:"porte 1,10 m"; position:absolute; bottom:22px; width:100%; text-align:center; font-size:.8rem; }
+  .path { position:absolute; left:7%; bottom:0; width:28.125%; height:100%; background:repeating-linear-gradient(135deg,#168a7918 0 12px,#168a7905 12px 24px); border-right:2px dashed var(--teal); overflow:hidden; }
+  .path::after { content:"passage libre 0,90 m"; position:absolute; top:45%; left:-32%; width:165%; transform:rotate(-90deg); text-align:center; color:var(--teal); font-weight:700; }
+  .guest-zone { position:absolute; top:8%; left:40%; right:8%; height:27%; border:3px solid var(--coral); background:#bd765020; padding:8px; transition:.35s; }
+  .private { position:absolute; left:40%; right:8%; top:43%; bottom:8%; border:3px solid var(--teal); background:#168a7915; padding:8px; }
+  .veil { position:absolute; left:37%; right:5%; top:38%; height:10%; border-top:6px solid var(--ink); transform-origin:left center; transition:.35s; }
+  .closed .guest-zone, .ended .guest-zone { opacity:.35; transform:translateY(-12px); }
+  .closed .veil, .ended .veil { height:54%; background:var(--veil); opacity:.96; z-index:3; }
+  .open .veil, .ending .veil { transform:scaleX(.13); }
+  .person { position:absolute; z-index:6; width:42px; height:42px; border-radius:50%; background:var(--coral); color:white; display:grid; place-items:center; font-weight:800; box-shadow:0 2px 0 #0003; opacity:0; pointer-events:none; }
+  .open .person { opacity:1; left:58%; top:18%; }
+  .ending .person { opacity:1; animation:leave 1.8s ease-in-out forwards; }
+  .ended .person { opacity:0; left:18%; top:105%; }
+  @keyframes leave {
+    0% { left:58%; top:18%; }
+    35% { left:18%; top:22%; }
+    100% { left:18%; top:105%; }
+  }
+  .exit-arrow { position:absolute; left:18%; top:22%; bottom:-38px; width:0; border-left:4px dotted var(--coral); opacity:0; z-index:4; }
+  .exit-arrow::after { content:"▼ sortie"; position:absolute; bottom:-18px; left:-27px; color:var(--coral); width:70px; font-weight:800; }
+  .ending .exit-arrow, .ended .exit-arrow { opacity:1; }
+  .measure { position:absolute; right:3px; bottom:3px; font-size:.75rem; }
+  #reading, #trace { padding:1rem; border:2px solid var(--ink); background:white; }
+  #reading { min-height:5em; }
+  #trace { border-style:dashed; }
+  ul { padding-left:1.2rem; }
+  @media (prefers-reduced-motion:reduce) { .ending .person { animation-duration:.01ms; } }
+</style>
+</head>
+<body>
+<main>
+  <p>Maquette numérique réversible, version 2 · Ione · J1, 2042</p>
+  <h1>Ouvrir, recevoir, terminer</h1>
+  <p class="note"><strong>Simulation sur une copie.</strong> La cellule réelle n’est pas modifiée. La séquence ci-dessous ne crée ni droit d’invitation, ni autorisation, ni visite réelle.</p>
+  <p>État : <span id="phase" class="phase">seule, espace fermé</span></p>
+  <div class="controls" aria-label="Gestes de l’habitante">
+    <button id="alone" aria-pressed="true">Je ferme pour moi</button>
+    <button id="welcome" aria-pressed="false">J’ouvre à une personne</button>
+    <button id="end" disabled>Je mets fin à la visite — sans motif</button>
+  </div>
+  <div id="room" class="room closed" role="img" aria-label="Plan : espace fermé, aucune personne invitée">
+    <div class="path"></div>
+    <div class="guest-zone"><strong>Bande d’accueil</strong><br>L’invitée se tient ici pendant la visite.</div>
+    <div class="private"><strong>Retrait personnel</strong><br>Il reste distinct, même quand j’ouvre.</div>
+    <div class="veil" title="filtre mobile hypothétique"></div>
+    <div class="exit-arrow"></div>
+    <div class="person" aria-hidden="true">I</div>
+    <div class="door"></div>
+    <div class="measure">3,20 × 3,60 m · schéma proportionné</div>
+  </div>
+  <p id="reading" aria-live="polite"><strong>Avant invitation.</strong> Je suis seule et l’espace est fermé sous ma maîtrise.</p>
+  <p id="trace" aria-live="polite"><strong>Trace de l’essai :</strong> aucune invitation commencée.</p>
+  <h2>Enchaînement à essayer</h2>
+  <ol>
+    <li>Cliquer « J’ouvre à une personne » : la silhouette I apparaît dans la bande d’accueil.</li>
+    <li>Cliquer le geste devenu disponible : « Je mets fin à la visite — sans motif ».</li>
+    <li>Suivre la silhouette le long du passage de 0,90 m jusqu’à la porte. Après sa sortie, le filtre se referme et la trace conserve l’enchaînement.</li>
+  </ol>
+  <p><strong>Limites :</strong> la silhouette simule un déplacement, elle n’atteste ni compréhension ni consentement d’une personne réelle. La matière, la hauteur, la stabilité et la sécurité du filtre restent inconnues. La règle qui permettrait réellement à l’habitante de terminer une visite n’est pas adoptée par cette maquette.</p>
+</main>
+<script>
+const room=document.querySelector('#room'), reading=document.querySelector('#reading');
+const phase=document.querySelector('#phase'), trace=document.querySelector('#trace');
+const alone=document.querySelector('#alone'), welcome=document.querySelector('#welcome'), end=document.querySelector('#end');
+let state='closed', timer;
+function controls(open){
+  alone.setAttribute('aria-pressed',String(!open));
+  welcome.setAttribute('aria-pressed',String(open));
+  end.disabled=!open;
+}
+function closeSpace(fromVisit=false){
+  clearTimeout(timer); state=fromVisit?'ended':'closed'; room.className='room '+state; controls(false);
+  phase.textContent=fromVisit?'visite terminée, invitée sortie':'seule, espace fermé';
+  room.setAttribute('aria-label',fromVisit?'Plan : l’invitée est sortie par la porte et l’espace est revenu sous la maîtrise de l’habitante':'Plan : espace fermé, aucune personne invitée');
+  reading.innerHTML=fromVisit
+    ? '<strong>Après la visite.</strong> L’invitée a quitté la bande d’accueil par le passage et la porte représentés. Le filtre est refermé ; la copie montre l’espace sous la seule maîtrise de l’habitante.'
+    : '<strong>Avant invitation.</strong> Je suis seule et l’espace est fermé sous ma maîtrise.';
+  if(!fromVisit) trace.innerHTML='<strong>Trace de l’essai :</strong> aucune invitation commencée.';
+}
+function openVisit(){
+  clearTimeout(timer); state='open'; room.className='room open'; controls(true);
+  phase.textContent='visite en cours';
+  room.setAttribute('aria-label','Plan : une invitée se tient dans la bande d’accueil, passage libre');
+  reading.innerHTML='<strong>Visite en cours.</strong> La silhouette I se tient dans la bande d’accueil. Elle ne prend ni le passage de 0,90 m ni le retrait personnel.';
+  trace.innerHTML='<strong>Trace de l’essai :</strong> invitation ouverte par l’habitante ; fin de visite disponible.';
+}
+function endVisit(){
+  if(state!=='open') return;
+  state='ending'; room.className='room ending'; end.disabled=true; welcome.setAttribute('aria-pressed','false');
+  phase.textContent='fin de visite : sortie en cours';
+  room.setAttribute('aria-label','Plan animé : l’invitée quitte la bande d’accueil, suit le passage et sort par la porte');
+  reading.innerHTML='<strong>Fin demandée, sans motif.</strong> La silhouette quitte la bande d’accueil, rejoint le passage libre et se dirige vers la porte.';
+  trace.innerHTML='<strong>Trace de l’essai :</strong> invitation ouverte → fin demandée par l’habitante → sortie représentée.';
+  timer=setTimeout(()=>closeSpace(true),1850);
+}
+alone.onclick=()=>closeSpace(false); welcome.onclick=openVisit; end.onclick=endVisit;
+</script>
+</body>
+</html>

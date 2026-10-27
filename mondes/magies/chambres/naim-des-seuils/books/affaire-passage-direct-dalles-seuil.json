@@ -1,0 +1,413 @@
+{
+ "id": "affaire-passage-direct-dalles-seuil",
+ "maison_id": "ligue-des-passages",
+ "titre": "Le couloir d'évacuation direct — joindre la station sans traverser les feux",
+ "sous_titre": "🚪 Proposition de plan magique de l'Espace par NAÏM DES SEUILS, coordinateur des liaisons d'urgence. Ouvrage mixte Bastion–Ligue pour relier la cour basse au relais des Sept-Seuils.",
+ "type": "plan",
+ "embleme": "🚪",
+ "couleur": "#2a52be",
+ "lieu_id": "sept-seuils",
+ "salle_id": "station-centrale",
+ "tenu_par": "naim-des-seuils",
+ "office": "O05",
+ "pages": [
+  "CE QUE CETTE ÉCOLE SAIT FAIRE EN VRAI, ET CE QU'ELLE NE FERA JAMAIS. L'Espace ne téléporte rien par la pensée et n'ouvre aucun trou dans le vide : elle joint deux ouvertures matérielles préexistantes, préparées de même taille, tenues par des corps vivants à chaque bout. Si les deux cercles ne sont pas occupés par des marcheurs immobiles, le passage retombe en poussière. Ce plan prend la magie exactement là où elle est, sans poésie.",
+  "POURQUOI CETTE PROPOSITION EST NÉCESSAIRE AU BASTION. Si le rempart extérieur est submergé ou si les dalles d'approche montent à blanc par surchauffe de la fournaise, le Bastion n'a plus d'issue piétonne sans brûler ses fuyards. La Ligue propose d'implanter un seuil permanent de douze lieues vers la station des Sept-Seuils, ouvrant une retraite sans traverser les feux.",
+  "LES QUATRE DIFFÉRENCES D'OUVRAGE. Ce cahier n'est pas une prière : il sépare rigoureusement ce que nous demandons aux magasins du Bastion (les ressources), la façon dont nous modifions le dessin de nos glyphes pour tenir la charge (le mécanisme), le volet de fermeture d'urgence que nous forgeons pour vous rassurer (l'ajout), et l'arbitrage politique que le Conseil doit signer avant le premier coup de pioche (la validation)."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "Le couloir d'évacuation direct — joindre la station sans traverser les feux.",
+      "Le sujet précis, jamais une intention vague.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Démontrer la capacité de l'Espace à maintenir un franchissement instantané de 12 lieues entre le Bastion et les Sept-Seuils, en substitution d'une traversée de surface compromise par les attaques ou les feux défensifs.",
+      "Pourquoi l'affaire mérite l'attention du conseil.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "La baie de la cour basse, la station réceptrice des Sept-Seuils, la taille de dalle d'ardoise, les postures synchrones de deux équipes de deux veilleurs, et le protocole de coupure par volet lourd.",
+      "Ce qui est traité.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "Le transport de matériel de siège, l'agrandissement d'intérieurs, et les stations non raccordées au réseau principal.",
+      "Ce qui est expressément exclu.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "L'accord de principe existe entre la Ligue et le Bastion mais aucun seuil permanent n'est scellé. Les passages actuels se font sur des cercles de craie fragiles qui s'effacent après dix personnes.",
+      "Ce qui est constaté ce jour.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "",
+      "Réservée au jour où l'épreuve de transfert aura eu lieu.",
+      "non"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "La liaison aura évacué 40 personnes en un exercice chronométré sans défaillance de posture ni retour de charge thermique.",
+      "Condition mesurable de clôture.",
+      "**oui**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "N°",
+    "L'état visé",
+    "Pourquoi c'est l'état visé",
+    "Ce que ça coûte",
+    "La preuve",
+    "Poids"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "C.1",
+      "Franchir 12 lieues en un pas sans sortir sur le rempart",
+      "Permet d'évacuer blessés et civils même quand les dalles extérieures sont portées au rouge.",
+      "La présence de deux équipes mobilisées à heure fixe.",
+      "40 personnes sorties aux Sept-Seuils en moins de 10 minutes.",
+      "**100%**"
+     ]
+    },
+    {
+     "cellules": [
+      "C.2",
+      "Maintenir l'ouverture 4 heures consécutives sans dérive d'ancrage",
+      "Nécessaire pour absorber un flux continu sans réajustement des glyphes.",
+      "Une rotation de quatre opérateurs entraînés.",
+      "Relevé d'alignement au fil à plomb identique à l'ouverture et à la fermeture.",
+      "**90%**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous",
+   "colonnes": [
+    "N°",
+    "Le verrou",
+    "Ce qu'il bloque",
+    "Pourquoi il tient"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "V.1",
+      "L'érosion du cercle par le piétinement",
+      "C.1",
+      "La craie ordinaire se dissout sous les semelles ; à la dixième personne, le tracé se brise et le seuil se referme violemment."
+     ]
+    },
+    {
+     "cellules": [
+      "V.2",
+      "La fatigue musculaire de la posture",
+      "C.2",
+      "Un opérateur ne peut pas tenir les bras tendus en glyphe spatial plus de 45 minutes sans tremblement rompant la phase."
+     ]
+    },
+    {
+     "cellules": [
+      "V.3",
+      "Le risque de brèche thermique inversée",
+      "C.1",
+      "Une porte spatiale transmet l'air et la chaleur : si le Bastion flambe, la station des Sept-Seuils reçoit le souffle ardent."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "N°",
+    "La clef",
+    "Ouvre",
+    "Principe de levée"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "K.1",
+      "La gravure incisée sur ardoise dure",
+      "V.1",
+      "Remplacer le tracé pulvérulent par une gorge taillée au ciseau dans une dalle minérale polie."
+     ]
+    },
+    {
+     "cellules": [
+      "K.2",
+      "Le relais de posture par appui d'épaule",
+      "V.2",
+      "Un remplaçant glisse ses paumes sous celles de l'opérateur avant qu'il ne lâche, sans rupture de contact avec le cercle."
+     ]
+    },
+    {
+     "cellules": [
+      "K.3",
+      "L'écran de plomb guillotiné",
+      "V.3",
+      "Un panneau massif qui tombe en travers de la baie coupe la continuité d'onde avant que la chaleur n'envahisse la station."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions — les pratiques",
+   "colonnes": [
+    "N°",
+    "🏷️ Typologie",
+    "L'action",
+    "Ce qu'on fait",
+    "Où",
+    "Titulaire",
+    "Dépend",
+    "La preuve",
+    "État",
+    "📅 Échéance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "P.1",
+      "📦 Ressource demandée",
+      "Livraison de la dalle d'ardoise et des gemmes",
+      "Faire descendre 20 coudées d'ardoise et 4 gemmes de calcaire poli chargées à 120 pas depuis la réserve du Bastion.",
+      "Cour basse, magasin 3",
+      "naim-des-seuils",
+      "",
+      "Bon de réception visé par l'intendance",
+      "à faire",
+      "J.1"
+     ]
+    },
+    {
+     "cellules": [
+      "P.2",
+      "⚙️ Changement de mécanisme",
+      "Substitution de la craie par rainurage minéral",
+      "Graver les glyphes de convergence dans la pierre au lieu de les tracer à la poudre volatile.",
+      "Baie du seuil, cour basse",
+      "naim-des-seuils",
+      "P.1",
+      "Empreinte indélébile contrôlée au compas",
+      "à faire",
+      "J.3"
+     ]
+    },
+    {
+     "cellules": [
+      "P.3",
+      "🧩 Ajout",
+      "Pose du volet guillotine de plomb",
+      "Installer au chambranle une plaque coupe-flux suspendue sur contrepoids largable.",
+      "Baie du seuil, cour basse",
+      "naim-des-seuils",
+      "P.2",
+      "Chute du volet en moins d'une demi-seconde",
+      "à faire",
+      "J.5"
+     ]
+    },
+    {
+     "cellules": [
+      "P.4",
+      "⚖️ Demande de validation",
+      "Signature de la convention de percement de courtine",
+      "Faire valider par Yselde Arquen et Héloïse Braise l'ouverture de la baie aveugle dans le mur est de la cour basse.",
+      "Salle du conseil",
+      "naim-des-seuils",
+      "",
+      "Parchemin scellé des deux sceaux",
+      "à faire",
+      "J.2"
+     ]
+    },
+    {
+     "cellules": [
+      "P.5",
+      "⚔️ Pratique d'épreuve",
+      "Épreuve de transfert continu de 40 veilleurs",
+      "Ouvrir la liaison, faire passer le détachement, chronométrer et inspecter les supports.",
+      "Cour basse et Sept-Seuils",
+      "naim-des-seuils",
+      "P.3, P.4",
+      "Procès-verbal signé à l'arrivée aux Sept-Seuils",
+      "à faire",
+      "J.7"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "📦 Ressources demandées",
+   "colonnes": [
+    "N°",
+    "Ressource",
+    "Quantité / Spécification",
+    "Affectée par / Sur",
+    "Justification",
+    "⏳ État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "R.1",
+      "Dalle d'ardoise dense sans fente",
+      "20 coudées carrées, épaisseur 3 doigts",
+      "Carrières du Bastion",
+      "Support inerte indéformable sous le piétinement lourd",
+      "demandée"
+     ]
+    },
+    {
+     "cellules": [
+      "R.2",
+      "Gemmes de calcaire polies",
+      "4 gemmes étalonnées à 120 pas de charge",
+      "Réserve de Matière (O01)",
+      "Maintien de la tension de liaison entre les deux stations",
+      "demandée"
+     ]
+    },
+    {
+     "cellules": [
+      "R.3",
+      "Équipe de marcheurs de relais",
+      "4 veilleurs entraînés aux postures de l'Espace",
+      "Garnison ou guilde des messagers",
+      "Relève d'épaule sans coupure d'arc",
+      "demandée"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚙️ Changements de mécanisme",
+   "colonnes": [
+    "N°",
+    "Mécanisme modifié",
+    "Fonctionnement antérieur",
+    "Nouveau comportement",
+    "Contrainte physique / Risque",
+    "⏳ État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M.1",
+      "Ancrage du seuil",
+      "Tracé circulaire à la craie blanche renouvelé à chaque usage",
+      "Gorge géométrique incisée dans la pierre, remplie de poudre de plomb",
+      "Impossibilité de déplacer le seuil une fois gravé ; emplacement définitif",
+      "proposé"
+     ]
+    },
+    {
+     "cellules": [
+      "M.2",
+      "Passage de relais",
+      "Extinction du seuil, repos de l'opérateur, puis réouverture",
+      "Glissement paume contre paume sans rupture de flux",
+      "Si le contact se perd un quart de battement, cisaillement de l'ouverture",
+      "proposé"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🧩 Ajouts",
+   "colonnes": [
+    "N°",
+    "Élément ajouté",
+    "Fonction magique",
+    "Mode d'intégration",
+    "⏳ État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "A.1",
+      "Volet guillotine de plomb",
+      "Interruption physique et magique immédiate de la ligne d'onde spatiale",
+      "Monté sur glissière de chêne armé de fer au-dessus du linteau",
+      "proposé"
+     ]
+    },
+    {
+     "cellules": [
+      "A.2",
+      "Pige d'alignement au fil à plomb",
+      "Indicateur mécanique de dérive spatiale avant rupture de charge",
+      "Suspendue au centre de la baie",
+      "proposé"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚖️ Demandes de validation",
+   "colonnes": [
+    "N°",
+    "Objet de la décision",
+    "Autorité requise",
+    "Conséquence si refus",
+    "⏳ État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "D.1",
+      "Percement d'une baie aveugle dans la courtine est",
+      "Héloïse Braise (O01) et Yselde Arquen",
+      "Le seuil ne pourra être posé que dans une cour ouverte vulnérable aux projectiles",
+      "en attente"
+     ]
+    },
+    {
+     "cellules": [
+      "D.2",
+      "Protocole d'ouverture d'urgence sans préavis",
+      "Conseil fédéral de la Ligue et Cheffe du Bastion",
+      "Chaque franchissement devra être annoncé par corbeau trois jours avant, annulant l'intérêt défensif",
+      "en attente"
+     ]
+    }
+   ]
+  }
+ ]
+}

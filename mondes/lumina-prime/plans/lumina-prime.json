@@ -1,0 +1,480 @@
+{
+  "nom": "Radiant Core — Lumina Prime",
+  "viewBox": "0 0 1040 770",
+  "fonds": [
+    {
+      "classe": "lp-lagune",
+      "d": "M0,0 H1040 V770 H0 Z"
+    },
+    {
+      "classe": "lp-socle",
+      "d": "M707.2,376.0 L624.9,490.3 L482.3,556.3 L317.7,556.3 L175.1,490.3 L92.8,376.0 L92.8,244.0 L175.1,129.7 L317.7,63.7 L482.3,63.7 L624.9,129.7 L707.2,244.0 Z"
+    }
+  ],
+  "decor": [
+    {
+      "classe": "lp-liaisons",
+      "d": "M277.5,116 L400,245 M522.5,116 L400,245 M202.5,256 L400,245 M597.5,256 L400,245 M255.0,411 L400.0,451 M545.0,411 L400.0,451 M400.0,451 L400,245 M400.0,451 L400.0,571 M202.5,256 L255.0,411 M597.5,256 L545.0,411 M117.5,41 L277.5,116 M682.5,41 L522.5,116 M117.5,566 L400.0,571 M682.5,566 L400.0,571"
+    },
+    {
+      "classe": "lp-anneau",
+      "d": "M507.0,290.0 L506.1,304.0 L503.4,317.7 L498.9,330.9 L492.7,343.5 L484.9,355.1 L475.7,365.7 L465.1,374.9 L453.5,382.7 L440.9,388.9 L427.7,393.4 L414.0,396.1 L400.0,397.0 L386.0,396.1 L372.3,393.4 L359.1,388.9 L346.5,382.7 L334.9,374.9 L324.3,365.7 L315.1,355.1 L307.3,343.5 L301.1,330.9 L296.6,317.7 L293.9,304.0 L293.0,290.0 L293.9,276.0 L296.6,262.3 L301.1,249.1 L307.3,236.5 L315.1,224.9 L324.3,214.3 L334.9,205.1 L346.5,197.3 L359.1,191.1 L372.3,186.6 L386.0,183.9 L400.0,183.0 L414.0,183.9 L427.7,186.6 L440.9,191.1 L453.5,197.3 L465.1,205.1 L475.7,214.3 L484.9,224.9 L492.7,236.5 L498.9,249.1 L503.4,262.3 L506.1,276.0 Z"
+    },
+    {
+      "classe": "lp-liaisons",
+      "d": "M400,613 L400,675"
+    },
+    {
+      "classe": "lp-liaisons",
+      "d": "M780,581 L825,581"
+    }
+  ],
+  "mur": "",
+  "guet": [],
+  "rose": null,
+  "etiquettes": [
+    {
+      "x": 400,
+      "y": 45,
+      "texte": "RADIANT CORE"
+    },
+    {
+      "x": 400,
+      "y": 755,
+      "texte": "LUMINA PRIME · ESPACES PUBLICS ET MUNICIPAUX"
+    },
+    {
+      "x": 400,
+      "y": 651,
+      "texte": "1 min · convention d’essai"
+    },
+    {
+      "x": 802,
+      "y": 545,
+      "texte": "↔ 1 min"
+    },
+    {
+      "x": 650,
+      "y": 650,
+      "texte": "← Quai · Parvis     Jardin calme →"
+    }
+  ],
+  "salles": [
+    {
+      "id": "bureau-nova",
+      "nom": "Bureau de Nova",
+      "forme": {
+        "r": [
+          200,
+          100,
+          155,
+          95,
+          12
+        ]
+      },
+      "etiq": [
+        277.5,
+        116
+      ],
+      "lignes": [
+        "Bureau",
+        "de Nova"
+      ],
+      "quoi": "Travail de la maire et entretiens confidentiels.",
+      "motifs": [
+        "bureau de nova"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "registre-municipal",
+      "nom": "Registre municipal",
+      "forme": {
+        "r": [
+          445,
+          100,
+          155,
+          95,
+          12
+        ]
+      },
+      "etiq": [
+        522.5,
+        116
+      ],
+      "lignes": [
+        "Registre",
+        "municipal"
+      ],
+      "quoi": "Dossiers, plans consultables et suivi des engagements municipaux.",
+      "motifs": [
+        "registre municipal"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "radiant-core",
+      "nom": "Salle du conseil",
+      "forme": {
+        "c": [
+          400,
+          290,
+          86
+        ]
+      },
+      "etiq": [
+        400,
+        245
+      ],
+      "lignes": [
+        "Salle du",
+        "conseil"
+      ],
+      "cle": true,
+      "quoi": "Au cœur du Radiant Core : la table des plans et des décisions.",
+      "motifs": [
+        "salle du conseil",
+        "radiant core"
+      ],
+      "alias": []
+    },
+    {
+      "id": "galerie-projets",
+      "nom": "Galerie des projets",
+      "forme": {
+        "r": [
+          125,
+          240,
+          155,
+          100,
+          12
+        ]
+      },
+      "etiq": [
+        202.5,
+        256
+      ],
+      "lignes": [
+        "Galerie des",
+        "projets"
+      ],
+      "quoi": "Présentation des projets de quartier et de leurs maquettes.",
+      "motifs": [
+        "galerie des projets"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "atelier-plans",
+      "nom": "Atelier des plans",
+      "forme": {
+        "r": [
+          520,
+          240,
+          155,
+          100,
+          12
+        ]
+      },
+      "etiq": [
+        597.5,
+        256
+      ],
+      "lignes": [
+        "Atelier des",
+        "plans"
+      ],
+      "quoi": "Espace de travail sur les implantations et les usages ; DEV garde son foyer aux Towers of Knowledge.",
+      "motifs": [
+        "atelier des plans"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "salon-visiteurs",
+      "nom": "Salon des visiteurs",
+      "forme": {
+        "r": [
+          170,
+          395,
+          170,
+          105,
+          12
+        ]
+      },
+      "etiq": [
+        255.0,
+        411
+      ],
+      "lignes": [
+        "Salon des",
+        "visiteurs"
+      ],
+      "quoi": "Pièce existante au départ ; son usage dans le futur accueil reste à décider.",
+      "motifs": [
+        "salon des visiteurs"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "jardin-interieur",
+      "nom": "Jardin intérieur",
+      "forme": {
+        "r": [
+          460,
+          395,
+          170,
+          105,
+          12
+        ]
+      },
+      "etiq": [
+        545.0,
+        411
+      ],
+      "lignes": [
+        "Jardin",
+        "intérieur"
+      ],
+      "quoi": "Espace commun végétal et lumineux, ouvert sur la lagune.",
+      "motifs": [
+        "jardin intérieur"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "hall-arrivees",
+      "nom": "Hall des arrivées",
+      "forme": {
+        "r": [
+          340,
+          435,
+          120,
+          95,
+          12
+        ]
+      },
+      "etiq": [
+        400.0,
+        451
+      ],
+      "lignes": [
+        "Hall des",
+        "arrivées"
+      ],
+      "quoi": "Entrée publique du Radiant Core et accès vers les quartiers.",
+      "motifs": [
+        "hall des arrivées"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": false
+    },
+    {
+      "id": "parvis-radiant",
+      "nom": "Parvis du Radiant Core",
+      "forme": {
+        "r": [
+          280,
+          555,
+          240,
+          58,
+          12
+        ]
+      },
+      "etiq": [
+        400.0,
+        571
+      ],
+      "lignes": [
+        "Parvis · lagune",
+        "↓ Quai · Jardins →"
+      ],
+      "quoi": "Espace public au bord de la lagune, devant le hall.",
+      "motifs": [
+        "parvis du radiant core"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": true
+    },
+    {
+      "id": "towers-of-knowledge",
+      "nom": "Towers of Knowledge",
+      "forme": {
+        "r": [
+          20,
+          25,
+          195,
+          52,
+          12
+        ]
+      },
+      "etiq": [
+        117.5,
+        41
+      ],
+      "lignes": [
+        "Towers of Knowledge"
+      ],
+      "quoi": "Accès au quartier des bibliothèques et au foyer de DEV.",
+      "motifs": [
+        "towers of knowledge"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": true
+    },
+    {
+      "id": "innovation-fields",
+      "nom": "Innovation Fields",
+      "forme": {
+        "r": [
+          585,
+          25,
+          195,
+          52,
+          12
+        ]
+      },
+      "etiq": [
+        682.5,
+        41
+      ],
+      "lignes": [
+        "Innovation Fields"
+      ],
+      "quoi": "Accès aux laboratoires de Quantum.",
+      "motifs": [
+        "innovation fields"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": true
+    },
+    {
+      "id": "creative-nexus",
+      "nom": "Creative Nexus",
+      "forme": {
+        "r": [
+          20,
+          550,
+          195,
+          52,
+          12
+        ]
+      },
+      "etiq": [
+        117.5,
+        566
+      ],
+      "lignes": [
+        "Creative Nexus"
+      ],
+      "quoi": "Accès au Nexus et au lieu de VOX.",
+      "motifs": [
+        "creative nexus"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": true
+    },
+    {
+      "id": "data-gardens",
+      "nom": "Data Gardens",
+      "forme": {
+        "r": [
+          585,
+          550,
+          195,
+          52,
+          12
+        ]
+      },
+      "etiq": [
+        682.5,
+        566
+      ],
+      "lignes": [
+        "Data Gardens",
+        "← Parvis · Jardin →"
+      ],
+      "quoi": "Accès aux jardins publics et aux zones sauvages.",
+      "motifs": [
+        "data gardens"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": true
+    },
+    {
+      "id": "quai-commun",
+      "nom": "Quai commun",
+      "forme": {
+        "r": [
+          300,
+          675,
+          200,
+          58,
+          12
+        ]
+      },
+      "etiq": [
+        400,
+        696
+      ],
+      "lignes": [
+        "Quai commun",
+        "Vers Parvis ↑"
+      ],
+      "quoi": "Accès public au Parvis du Radiant Core. Essai réversible : une minute de navigation conventionnelle, aucune distance mesurée.",
+      "motifs": [
+        "quai commun"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": true
+    },
+    {
+      "id": "jardin-calme",
+      "nom": "Jardin calme",
+      "forme": {
+        "r": [
+          825,
+          555,
+          195,
+          74,
+          12
+        ]
+      },
+      "etiq": [
+        922.5,
+        575
+      ],
+      "lignes": [
+        "Jardin calme",
+        "Retour : Data Gardens"
+      ],
+      "quoi": "Repère du plan d’essai : retour par Data Gardens, puis Parvis et Quai commun. Liaison Jardin calme–Data Gardens : une minute conventionnelle. La sortie dans une scène 3D reste à établir.",
+      "motifs": [
+        "jardin calme"
+      ],
+      "alias": [],
+      "cle": true,
+      "dehors": true
+    }
+  ],
+  "_": "Implantation initiale de partie, non extraite des récits. Les quatre rectangles extérieurs sont des accès aux quartiers ; leurs parcours VR sont conventionnels."
+}

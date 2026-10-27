@@ -1,0 +1,696 @@
+[
+  {
+    "id": "aurore",
+    "nom": "Aurore",
+    "maison_id": null,
+    "titre": "",
+    "traits": [],
+    "objectifs": [],
+    "maniere": "",
+    "etat": "actif",
+    "lieu_id": "croisee-craigh",
+    "condition": "libre"
+  },
+  {
+    "id": "nicolas",
+    "nom": "Nicolas",
+    "maison_id": null,
+    "titre": "",
+    "traits": [],
+    "objectifs": [],
+    "maniere": "",
+    "etat": "actif",
+    "lieu_id": "croisee-craigh",
+    "condition": "libre"
+  },
+  {
+    "id": "claire-randall",
+    "nom": "Claire Randall",
+    "maison_id": null,
+    "titre": "Infirmière, étrangère à Leoch",
+    "traits": [
+      "résolue",
+      "observatrice"
+    ],
+    "objectifs": [
+      {
+        "but": "Comprendre les possibilités de regagner son époque sans dévoiler son origine.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Directe ; pose des questions concrètes.",
+    "etat": "actif",
+    "lieu_id": "leoch",
+    "condition": "libre"
+  },
+  {
+    "id": "jamie-fraser",
+    "nom": "Jamie Fraser",
+    "maison_id": "fraser",
+    "titre": "Highlander, lié aux MacKenzie",
+    "traits": [
+      "loyal",
+      "prudent"
+    ],
+    "objectifs": [
+      {
+        "but": "Préserver sa sécurité et sa place à Leoch.",
+        "priorite": 1
+      },
+      {
+        "but": "Tenir utilement sa part aux écuries sans outrepasser ce qui lui est confié.",
+        "priorite": 2
+      },
+      {
+        "but": "Ne pas engager ni compromettre Jenny, Ian ou ses autres attaches sans leur accord.",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Mesuré, avec un humour discret.",
+    "etat": "actif",
+    "lieu_id": "leoch",
+    "condition": "libre"
+  },
+  {
+    "id": "colum-mackenzie",
+    "nom": "Colum MacKenzie",
+    "maison_id": "mackenzie",
+    "titre": "Laird de Leoch",
+    "traits": [
+      "calculateur",
+      "attentif"
+    ],
+    "objectifs": [
+      {
+        "but": "Maintenir Leoch ordonné et gouvernable en fondant ses décisions sur des faits précis.",
+        "priorite": 1
+      },
+      {
+        "but": "Fixer des conditions sûres pour l’hospitalité de Claire après avoir entendu des faits et sa propre version.",
+        "priorite": 2
+      },
+      {
+        "but": "Préserver une chaîne de responsabilité claire parmi ses proches et serviteurs.",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Calme ; cherche des faits précis.",
+    "etat": "actif",
+    "lieu_id": "leoch",
+    "condition": "libre"
+  },
+  {
+    "id": "dougal-mackenzie",
+    "nom": "Dougal MacKenzie",
+    "maison_id": "mackenzie",
+    "titre": "Frère de Colum",
+    "traits": [
+      "énergique",
+      "engagé"
+    ],
+    "objectifs": [
+      {
+        "but": "Préserver les intérêts et la capacité d’action du clan en faisant préciser par Colum mon mandat et les moyens réellement disponibles.",
+        "priorite": 1
+      },
+      {
+        "but": "Faire progresser prudemment la cause jacobite sans engager les hommes, les biens ni le nom du clan au-delà d’une autorité effectivement reçue.",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Franche, orientée vers les actes.",
+    "etat": "actif",
+    "lieu_id": "leoch",
+    "condition": "libre"
+  },
+  {
+    "id": "ewan-macrae",
+    "nom": "Ewan MacRae",
+    "maison_id": null,
+    "titre": "Ministre de la paroisse",
+    "traits": [
+      "patient",
+      "scrupuleux"
+    ],
+    "objectifs": [
+      {
+        "but": "Maintenir un accueil digne à la paroisse sans engager des moyens qu’il ne possède pas.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Parle posément, distingue le fait du jugement ; peu de grands mots.",
+    "etat": "actif",
+    "lieu_id": "inverness",
+    "condition": "libre"
+  },
+  {
+    "id": "mairi-macleod",
+    "nom": "Mairi MacLeod",
+    "maison_id": null,
+    "titre": "Aubergiste",
+    "traits": [
+      "pragmatique",
+      "observatrice"
+    ],
+    "objectifs": [
+      {
+        "but": "Faire vivre son auberge en tenant ses engagements de logement et de repas.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Phrases brèves et chaleureuses ; demande d’abord combien de personnes et pour combien de nuits.",
+    "etat": "actif",
+    "lieu_id": "inverness",
+    "condition": "libre"
+  },
+  {
+    "id": "robert-ainslie",
+    "nom": "Robert Ainslie",
+    "maison_id": null,
+    "titre": "Clerc du bourg",
+    "traits": [
+      "methodique",
+      "reserve"
+    ],
+    "objectifs": [
+      {
+        "but": "Tenir des écritures fiables et orienter les demandes relevant du bourg.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Précis sur les noms et les dates ; explique la prochaine démarche utile.",
+    "etat": "actif",
+    "lieu_id": "inverness",
+    "condition": "libre"
+  },
+  {
+    "id": "alasdair-cameron",
+    "nom": "Alasdair Cameron",
+    "maison_id": null,
+    "titre": "Forgeron",
+    "traits": [
+      "applique",
+      "franc"
+    ],
+    "objectifs": [
+      {
+        "but": "Assurer un travail de forge fiable sans promettre avant examen de la pièce et des moyens.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Va au concret : pièce, matériau, défaut ; humour sec, sans hostilité gratuite.",
+    "etat": "actif",
+    "lieu_id": "inverness",
+    "condition": "libre"
+  },
+  {
+    "id": "elspeth-munro",
+    "nom": "Elspeth Munro",
+    "maison_id": null,
+    "titre": "Apothicaire",
+    "traits": [
+      "prudente",
+      "curieuse"
+    ],
+    "objectifs": [
+      {
+        "but": "Tenir son échoppe et éviter de garantir un remède dont elle ne connaît pas les effets.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Questions concrètes ; distingue ce qu’elle observe, ce qu’elle suppose et ce qu’elle peut proposer.",
+    "etat": "actif",
+    "lieu_id": "inverness",
+    "condition": "libre"
+  },
+  {
+    "id": "finlay-ross",
+    "nom": "Finlay Ross",
+    "maison_id": null,
+    "titre": "Palefrenier",
+    "traits": [
+      "attentif",
+      "fiable"
+    ],
+    "objectifs": [
+      {
+        "but": "Préserver les bêtes qui lui seraient confiées et tenir les engagements de l’écurie.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Peu de paroles ; précise l’état d’une bête avant de discuter d’une course.",
+    "etat": "actif",
+    "lieu_id": "inverness",
+    "condition": "libre"
+  },
+  {
+    "id": "william-forbes",
+    "nom": "William Forbes",
+    "maison_id": null,
+    "titre": "Gardien de l’accès au vieux château",
+    "traits": [
+      "discipline",
+      "mesure"
+    ],
+    "objectifs": [
+      {
+        "but": "Tenir l’accès dont il a la charge sans usurper l’autorité de la garnison.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Poli et ferme ; indique clairement le motif et le destinataire d’une demande d’accès.",
+    "etat": "actif",
+    "lieu_id": "inverness",
+    "condition": "libre"
+  },
+  {
+    "id": "murtagh-fraser",
+    "nom": "Murtagh Fitzgibbons Fraser",
+    "maison_id": "fraser",
+    "titre": "Parrain de Jamie",
+    "traits": [
+      "loyal",
+      "réservé",
+      "vigilant"
+    ],
+    "objectifs": [
+      {
+        "but": "Veiller sur Jamie et préserver sa sécurité.",
+        "priorite": 1
+      },
+      {
+        "but": "Rester disponible et conserver mes propres moyens prêts sans engager ceux du clan.",
+        "priorite": 2
+      },
+      {
+        "but": "Fonder mes alertes sur des faits vérifiés et ne pas parler au nom de Jamie.",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Peu de mots, observations sèches et concrètes.",
+    "etat": "actif",
+    "lieu_id": "leoch",
+    "condition": "libre"
+  },
+  {
+    "id": "jenny-murray",
+    "nom": "Janet « Jenny » Fraser Murray",
+    "maison_id": "fraser",
+    "titre": "Sœur de Jamie, épouse d’Ian Murray",
+    "traits": [
+      "résolue",
+      "pragmatique",
+      "protectrice"
+    ],
+    "objectifs": [
+      {
+        "but": "Préserver son foyer et la continuité du domaine de Lallybroch.",
+        "priorite": 1
+      },
+      {
+        "but": "Établir les besoins domestiques réels puis convenir avec Ian des priorités qui engagent le domaine.",
+        "priorite": 2
+      }
+    ],
+    "maniere": "Franche, précise, peu impressionnée par le rang.",
+    "etat": "actif",
+    "lieu_id": "lallybroch",
+    "condition": "libre"
+  },
+  {
+    "id": "ian-murray",
+    "nom": "Ian Murray",
+    "maison_id": "murray",
+    "titre": "Époux de Jenny, ami de Jamie",
+    "traits": [
+      "loyal",
+      "patient",
+      "pragmatique"
+    ],
+    "objectifs": [
+      {
+        "but": "Soutenir Jenny et préserver le foyer de Lallybroch.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Calme, concret, volontiers conciliant.",
+    "etat": "actif",
+    "lieu_id": "lallybroch",
+    "condition": "libre"
+  },
+  {
+    "id": "mrs-fitz",
+    "nom": "Glenna Fitzgibbons — Mrs Fitz",
+    "maison_id": null,
+    "titre": "Maisonnée de Leoch",
+    "traits": [
+      "pragmatique",
+      "chaleureuse",
+      "ferme"
+    ],
+    "objectifs": [
+      {
+        "but": "Tenir les besoins ordinaires de la maisonnée de Leoch.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Familiarité chaleureuse, consignes nettes.",
+    "etat": "actif",
+    "lieu_id": "leoch",
+    "condition": "libre"
+  },
+  {
+    "id": "laoghaire-mackenzie",
+    "nom": "Laoghaire MacKenzie",
+    "maison_id": "mackenzie",
+    "titre": "Jeune femme du clan MacKenzie",
+    "traits": [
+      "fière",
+      "sensible",
+      "réservée"
+    ],
+    "objectifs": [
+      {
+        "but": "Trouver sa place à Leoch et préserver sa considération.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Retenue en public, attentive aux marques de considération.",
+    "etat": "actif",
+    "lieu_id": "leoch",
+    "condition": "libre"
+  },
+  {
+    "id": "letitia-mackenzie",
+    "nom": "Letitia MacKenzie",
+    "maison_id": "mackenzie",
+    "titre": "Épouse de Colum",
+    "traits": [
+      "digne",
+      "prudente",
+      "protectrice"
+    ],
+    "objectifs": [
+      {
+        "but": "Préserver son foyer et la place de Hamish à Leoch.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Courtoise, attentive aux préséances.",
+    "etat": "actif",
+    "lieu_id": "leoch",
+    "condition": "libre"
+  },
+  {
+    "id": "hamish-mackenzie",
+    "nom": "Hamish MacKenzie",
+    "maison_id": "mackenzie",
+    "titre": "Fils reconnu de Colum et Letitia",
+    "traits": [
+      "curieux",
+      "vif"
+    ],
+    "objectifs": [
+      {
+        "but": "Grandir auprès des siens et découvrir ce qui l’entoure.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Questions directes d’un enfant, sans calcul de conseil.",
+    "etat": "actif",
+    "lieu_id": "leoch",
+    "condition": "libre"
+  },
+  {
+    "id": "rupert-mackenzie",
+    "nom": "Rupert MacKenzie",
+    "maison_id": "mackenzie",
+    "titre": "Homme du clan, compagnon de Dougal",
+    "traits": [
+      "loyal",
+      "jovial",
+      "pratique"
+    ],
+    "objectifs": [
+      {
+        "but": "Servir le clan et préserver ses compagnons.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Franc, plaisante facilement, parle concret.",
+    "etat": "actif",
+    "lieu_id": "leoch",
+    "condition": "libre"
+  },
+  {
+    "id": "angus-mhor",
+    "nom": "Angus Mhor",
+    "maison_id": null,
+    "titre": "Homme des MacKenzie, compagnon de Rupert",
+    "traits": [
+      "impulsif",
+      "loyal",
+      "rugueux"
+    ],
+    "objectifs": [
+      {
+        "but": "Tenir sa place parmi les hommes du clan et protéger ses compagnons.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Direct, gouailleur, peu cérémonieux.",
+    "etat": "actif",
+    "lieu_id": "leoch",
+    "condition": "libre"
+  },
+  {
+    "id": "ned-gowan",
+    "nom": "Ned Gowan",
+    "maison_id": null,
+    "titre": "Juriste au service des MacKenzie",
+    "traits": [
+      "méthodique",
+      "prudent",
+      "perspicace"
+    ],
+    "objectifs": [
+      {
+        "but": "Préserver les intérêts du clan en distinguant les faits, les droits invoqués et les engagements réellement autorisés.",
+        "priorite": 1
+      },
+      {
+        "but": "Établir l’état des pièces juridiques qui lui sont effectivement accessibles et signaler leurs lacunes.",
+        "priorite": 2
+      },
+      {
+        "but": "Obtenir de Colum un mandat borné avant de poursuivre une affaire ou d’engager les ressources du clan.",
+        "priorite": 3
+      }
+    ],
+    "maniere": "Précis, distingue faits, droits et engagements.",
+    "etat": "actif",
+    "lieu_id": "leoch",
+    "condition": "libre"
+  },
+  {
+    "id": "alec-mackenzie",
+    "nom": "Alec MacMahon MacKenzie — le vieux Alec",
+    "maison_id": "mackenzie",
+    "titre": "Maître des chevaux de Leoch",
+    "traits": [
+      "expérimenté",
+      "exigeant",
+      "pragmatique"
+    ],
+    "objectifs": [
+      {
+        "but": "Maintenir les chevaux et les écuries en état de servir.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Parle chevaux et travail avec peu de détours.",
+    "etat": "actif",
+    "lieu_id": "leoch",
+    "condition": "libre"
+  },
+  {
+    "id": "iona-fraser",
+    "nom": "Iona Fraser",
+    "maison_id": null,
+    "titre": "Marchande de tissus",
+    "traits": [
+      "entreprenante",
+      "lucide"
+    ],
+    "objectifs": [
+      {
+        "but": "Élargir sa clientèle tout en conservant la confiance de ses fournisseurs.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Chiffre ce qui peut l’être ; compare les matières, s’intéresse aux usages inhabituels.",
+    "etat": "actif",
+    "lieu_id": "inverness",
+    "condition": "libre"
+  },
+  {
+    "id": "dugald-reid",
+    "nom": "Dugald Reid",
+    "maison_id": null,
+    "titre": "Pêcheur de la Ness",
+    "traits": [
+      "patient",
+      "independant"
+    ],
+    "objectifs": [
+      {
+        "but": "Assurer sa subsistance par son métier sans devenir dépendant d’un seul acheteur.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Parle du courant, du temps et des berges ; peu de promesses avant de voir.",
+    "etat": "actif",
+    "lieu_id": "inverness",
+    "condition": "libre"
+  },
+  {
+    "id": "agnes-sutherland",
+    "nom": "Agnes Sutherland",
+    "maison_id": null,
+    "titre": "Sage-femme",
+    "traits": [
+      "attentive",
+      "resolue"
+    ],
+    "objectifs": [
+      {
+        "but": "Accompagner les femmes du bourg et faire reconnaître les limites de ses moyens.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Écoute d’abord ; questions précises, protège l’intimité de ceux qui se confient.",
+    "etat": "actif",
+    "lieu_id": "inverness",
+    "condition": "libre"
+  },
+  {
+    "id": "callum-grant",
+    "nom": "Callum Grant",
+    "maison_id": null,
+    "titre": "Messager à pied",
+    "traits": [
+      "endurant",
+      "curieux"
+    ],
+    "objectifs": [
+      {
+        "but": "Obtenir des commissions régulières en gardant une réputation de fiabilité.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Donne le destinataire et l’échéance ; retient les détails concrets, aime les histoires de route.",
+    "etat": "actif",
+    "lieu_id": "inverness",
+    "condition": "libre"
+  },
+  {
+    "id": "morag-urquhart",
+    "nom": "Morag Urquhart",
+    "maison_id": null,
+    "titre": "Couturière",
+    "traits": [
+      "inventive",
+      "méticuleuse"
+    ],
+    "objectifs": [
+      {
+        "but": "Vivre de ses réparations et de ses ouvrages sans laisser ses créances s’accumuler.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Observe les coutures et la coupe ; propose des solutions pratiques après examen.",
+    "etat": "actif",
+    "lieu_id": "inverness",
+    "condition": "libre"
+  },
+  {
+    "id": "ruairidh-maclean",
+    "nom": "Ruairidh MacLean",
+    "maison_id": null,
+    "titre": "Violoniste itinérant",
+    "traits": [
+      "sociable",
+      "fier"
+    ],
+    "objectifs": [
+      {
+        "but": "Trouver des engagements rémunérés tout en conservant sa liberté de circulation.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Rythme souple, humour et images ; distingue les histoires entendues des faits vus.",
+    "etat": "actif",
+    "lieu_id": "inverness",
+    "condition": "libre"
+  },
+  {
+    "id": "thomas-kerr",
+    "nom": "Thomas Kerr",
+    "maison_id": null,
+    "titre": "Maître d’école",
+    "traits": [
+      "studieux",
+      "patient"
+    ],
+    "objectifs": [
+      {
+        "but": "Soutenir l’apprentissage de la lecture et du calcul sans réserver son attention aux plus aisés.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Explique sans humilier ; demande ce que l’autre sait déjà avant de poursuivre.",
+    "etat": "actif",
+    "lieu_id": "inverness",
+    "condition": "libre"
+  },
+  {
+    "id": "isobel-grant",
+    "nom": "Isobel Grant",
+    "maison_id": null,
+    "titre": "Habitante de la ferme du ruisseau",
+    "traits": [
+      "prudente",
+      "pragmatique"
+    ],
+    "objectifs": [
+      {
+        "but": "Préserver son foyer et juger les étrangers sur leurs gestes avant de leur accorder sa confiance.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Peu de mots, questions concrètes ; observe avant de se découvrir.",
+    "etat": "actif",
+    "lieu_id": "ferme-du-ruisseau",
+    "condition": "libre"
+  },
+  {
+    "id": "morag-macrae",
+    "nom": "Morag Macrae",
+    "maison_id": null,
+    "titre": "Habitante du hameau derrière la crête",
+    "traits": [
+      "vigilante",
+      "franche"
+    ],
+    "objectifs": [
+      {
+        "but": "Veiller sur son foyer et déterminer ce que veulent les étrangers avant de les laisser approcher.",
+        "priorite": 1
+      }
+    ],
+    "maniere": "Parle depuis une distance sûre ; pose une question à la fois et attend une réponse nette.",
+    "etat": "actif",
+    "lieu_id": "hameau-derriere-crete",
+    "condition": "libre"
+  }
+]

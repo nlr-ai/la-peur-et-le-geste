@@ -1,0 +1,516 @@
+[
+ {
+  "de": "phoebe-halliwell",
+  "vers": "piper-halliwell",
+  "opinion": 92,
+  "liens": [
+   "sœur"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "piper-halliwell",
+  "vers": "phoebe-halliwell",
+  "opinion": 90,
+  "liens": [
+   "sœur"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "phoebe-halliwell",
+  "vers": "paige-matthews",
+  "opinion": 70,
+  "liens": [
+   "sœur"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "paige-matthews",
+  "vers": "phoebe-halliwell",
+  "opinion": 72,
+  "liens": [
+   "sœur"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "piper-halliwell",
+  "vers": "paige-matthews",
+  "opinion": 35,
+  "liens": [
+   "sœur"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "paige-matthews",
+  "vers": "piper-halliwell",
+  "opinion": 55,
+  "liens": [
+   "sœur"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "phoebe-halliwell",
+  "vers": "cole-turner",
+  "opinion": 90,
+  "liens": [
+   "amant"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "cole-turner",
+  "vers": "phoebe-halliwell",
+  "opinion": 98,
+  "liens": [
+   "amant"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "piper-halliwell",
+  "vers": "cole-turner",
+  "opinion": 30,
+  "liens": [
+   "méfiance"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "piper-halliwell",
+  "vers": "leo-wyatt",
+  "opinion": 85,
+  "liens": [
+   "époux"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "leo-wyatt",
+  "vers": "piper-halliwell",
+  "opinion": 95,
+  "liens": [
+   "époux"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "leo-wyatt",
+  "vers": "phoebe-halliwell",
+  "opinion": 80,
+  "liens": [
+   "protégée"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "leo-wyatt",
+  "vers": "paige-matthews",
+  "opinion": 70,
+  "liens": [
+   "protégée"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "leo-wyatt",
+  "vers": "cole-turner",
+  "opinion": 40,
+  "liens": [
+   "méfiance"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "darryl-morris",
+  "vers": "phoebe-halliwell",
+  "opinion": 65,
+  "liens": [
+   "ami"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "la-source",
+  "vers": "cole-turner",
+  "opinion": 0,
+  "liens": [
+   "traître",
+   "ancien serviteur"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "cole-turner",
+  "vers": "la-source",
+  "opinion": 0,
+  "liens": [
+   "ancien maître",
+   "ennemi"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "la-source",
+  "vers": "phoebe-halliwell",
+  "opinion": 5,
+  "liens": [
+   "cible"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "la-source",
+  "vers": "l-oracle",
+  "opinion": 30,
+  "liens": [
+   "servante"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "l-oracle",
+  "vers": "la-source",
+  "opinion": 20,
+  "liens": [
+   "maître",
+   "peur"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "malek-le-veneur",
+  "vers": "cole-turner",
+  "opinion": -60,
+  "liens": [
+   "gibier",
+   "prime"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "malek-le-veneur",
+  "vers": "la-source",
+  "opinion": 10,
+  "liens": [
+   "celui qui paie",
+   "peur"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "malek-le-veneur",
+  "vers": "vesk",
+  "opinion": 20,
+  "liens": [
+   "chef",
+   "méfiance"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "vesk",
+  "vers": "malek-le-veneur",
+  "opinion": -10,
+  "liens": [
+   "chef",
+   "rival"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "tarn",
+  "vers": "malek-le-veneur",
+  "opinion": 60,
+  "liens": [
+   "chef",
+   "loyauté"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "la-source",
+  "vers": "malek-le-veneur",
+  "opinion": 10,
+  "liens": [
+   "chasseur à gages"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "varek",
+  "vers": "la-source",
+  "opinion": 40,
+  "liens": [
+   "maître",
+   "terreur"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "la-source",
+  "vers": "varek",
+  "opinion": 25,
+  "liens": [
+   "serviteur",
+   "héraut"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "varek",
+  "vers": "kazhar",
+  "opinion": -20,
+  "liens": [
+   "surveillé",
+   "peur"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "kazhar",
+  "vers": "la-source",
+  "opinion": -30,
+  "liens": [
+   "maître",
+   "rival caché"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "la-source",
+  "vers": "kazhar",
+  "opinion": 20,
+  "liens": [
+   "vassal puissant"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "kazhar",
+  "vers": "varek",
+  "opinion": -10,
+  "liens": [
+   "espion de la Source"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "la-glaneuse",
+  "vers": "piper-halliwell",
+  "opinion": -40,
+  "liens": [
+   "proie"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "la-glaneuse",
+  "vers": "la-source",
+  "opinion": 30,
+  "liens": [
+   "maître espéré"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "ezra-vane",
+  "vers": "paige-matthews",
+  "opinion": -50,
+  "liens": [
+   "proie"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "m-cowan",
+  "vers": "paige-matthews",
+  "opinion": 45,
+  "liens": [
+   "patron",
+   "agacement"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "paige-matthews",
+  "vers": "m-cowan",
+  "opinion": 20,
+  "liens": [
+   "patron"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "gil-navarro",
+  "vers": "piper-halliwell",
+  "opinion": 60,
+  "liens": [
+   "patronne"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "piper-halliwell",
+  "vers": "gil-navarro",
+  "opinion": 55,
+  "liens": [
+   "gérant",
+   "confiance"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "fondateur-porte-parole",
+  "vers": "leo-wyatt",
+  "opinion": 50,
+  "liens": [
+   "supérieur",
+   "inquiétude"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "leo-wyatt",
+  "vers": "fondateur-porte-parole",
+  "opinion": 45,
+  "liens": [
+   "supérieur",
+   "obéissance lasse"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "fondateur-porte-parole",
+  "vers": "cole-turner",
+  "opinion": -30,
+  "liens": [
+   "démon",
+   "inquiétude"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "cole-turner",
+  "vers": "malek-le-veneur",
+  "opinion": -50,
+  "liens": [
+   "chasseur"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "morne-le-charognard",
+  "vers": "kazhar",
+  "opinion": 20,
+  "liens": [
+   "acheteur espéré"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "le-greffier",
+  "vers": "cole-turner",
+  "opinion": -20,
+  "liens": [
+   "débiteur"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "le-liseur",
+  "vers": "l-oracle",
+  "opinion": -40,
+  "liens": [
+   "rivale"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "le-liseur",
+  "vers": "phoebe-halliwell",
+  "opinion": -30,
+  "liens": [
+   "proie",
+   "concurrente"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "le-courtier",
+  "vers": "m-cowan",
+  "opinion": 10,
+  "liens": [
+   "signataire utile"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "phoebe-halliwell",
+  "vers": "victor-bennett",
+  "opinion": 45,
+  "liens": [
+   "père"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "phoebe-halliwell",
+  "vers": "gil-navarro",
+  "opinion": 50,
+  "liens": [
+   "gérant du P3"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "phoebe-halliwell",
+  "vers": "shane",
+  "opinion": 40,
+  "liens": [
+   "l'ami de Paige"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "phoebe-halliwell",
+  "vers": "darryl-morris",
+  "opinion": 70,
+  "liens": [
+   "ami"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "phoebe-halliwell",
+  "vers": "leo-wyatt",
+  "opinion": 85,
+  "liens": [
+   "beau-frère"
+  ],
+  "connue_du_joueur": true
+ },
+ {
+  "de": "la-source",
+  "vers": "piper-halliwell",
+  "opinion": 5,
+  "liens": [
+   "cible"
+  ],
+  "connue_du_joueur": false
+ },
+ {
+  "de": "la-source",
+  "vers": "paige-matthews",
+  "opinion": 5,
+  "liens": [
+   "cible",
+   "celle qui lui a échappé"
+  ],
+  "connue_du_joueur": false
+ }
+]

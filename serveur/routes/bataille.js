@@ -10,9 +10,9 @@
 
 const fs = require("fs");
 const path = require("path");
-const { RACINE, envoyer } = require("../http");
+const { DEPOT, envoyer } = require("../http");
 
-const MOTEUR = path.join(RACINE, "bataille");
+const MOTEUR = path.join(DEPOT, "bataille");
 // Le moteur ayant été extrait de l'archive, les données cuites sont maintenant dans son propre dossier
 const MONTAGES = { "donnees/ville": path.join(MOTEUR, "donnees/ville") };
 
@@ -35,7 +35,7 @@ function monte(relatif) {
 }
 
 module.exports = function bataille(req, res, url) {
-  // Les villes cuites sont demandees a la RACINE par le moteur (`donnees/ville/
+  // Les villes cuites sont demandees a la racine du DEPOT par le moteur (`donnees/ville/
   // portreal.masque.bin`), pas sous son prefixe : sa page ignore ou on la sert.
   // On prend donc les deux, et le montage repond dans les deux cas.
   if (url.startsWith("/donnees/ville/")) {

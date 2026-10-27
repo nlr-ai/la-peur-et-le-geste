@@ -15,55 +15,40 @@
 window.Carte = (() => {
   const G = window.Geo;
 
+  // ---- ce que le MONDE déclare de sa table (lot 3) --------------------------
+  // Quatre tables vivaient ici, écrites à la main et pleines de Westeros : où
+  // décaler le nom de dix-neuf places, comment s'appellent cinq mers, quelles
+  // régions ont une étiquette mal posée, et — cinq fois — le mot « westeros »
+  // comme nom du cadrage qui montre tout. Elles vivent maintenant dans le
+  // paquet du monde (`carte/cadrages.json`), servies dans `window.MONDE`.
+  // Ce fichier ne connaît plus que la GÉOMÉTRIE de la table et son rendu.
+  const D = (window.MONDE && window.MONDE.carte) || {};
+
   // Étiquettes des lieux : [dx, dy, ancre], en unités de la grande carte.
   // Ancre "g" = texte aligné à droite (fin), "d" = à gauche, "c" = centré.
-  // Autour de la baie, les noms rayonnent vers l'extérieur de la grappe.
-  const ETIQ = {
-    "harrenhal": [-4, 0, "g"],
-    "port-real": [-4, 3.5, "g"],
-    "rosby": [-4, 1, "g"],
-    "stokeworth": [-4, 0, "g"],
-    "sombreval": [-4, -1.5, "g"],
-    "repaire-aux-corneilles": [0, -4, "c"],
-    "griffes": [0, -4, "c"],
-    "cracfosse": [-4, -1.5, "g"],
-    "sweetport-sound": [-4, 1, "g"],
-    "peyredragon": [4, 0, "d"],
-    "lamarck": [-3, 4, "g"],
-    "sharp-point": [4, 1, "d"],
-    "pointe-massey": [4, 2.5, "d"],
-    "winterfell": [4, 1, "d"],
-    "les-eyrie": [4, 1, "d"],
-    "vivesaigues": [-4, -1, "g"],
-    "castral-roc": [-4, 1, "g"],
-    "villevieille": [-4, 1, "g"],
-    "accalmie": [4, 1, "d"],
-  };
+  // Une place absente de la table prend le défaut ci-dessous, comme avant.
+  const ETIQ = D.etiquettes || {};
   const ANCRE = { g: "end", d: "start", c: "middle" };
 
   // En deçà de cette part du royaume dans le cadre, la carte porte aussi ses
   // bourgs. Au-dessus, elle ne garde que les places qui décident.
   const SEUIL_BOURGS = .46;
 
-  // Les mers n'ont pas de contour dans l'état : leurs noms sont posés à la main,
-  // dans le repère de geo.js.
-  const MERS = [
-    [366, 290, "Le Détroit"],
-    [268, 268, "La Morsure"],
-    [288, 424, "La Néra"],
-    [42, 330, "Mer du Crépuscule"],
-    [305, 598, "Mer de Dorne"],
-  ];
+  // Les mers n'ont pas de contour dans l'état : leurs noms sont posés à la main.
+  const MERS = D.mers || [];
 
-  // Le générateur pose l'étiquette d'une région en son centre. Trois d'entre
-  // elles tombent alors sur un nom de lieu : on les décale. La Couronne, elle,
-  // n'est qu'un anneau de côtes autour de la baie — aucun creux ne peut porter
-  // son nom, et ses places la nomment assez : null = pas d'étiquette.
-  const DECALE_REGION = {
-    "the_crownlands": null,
-    "the_riverlands": [215, 340],
-    "the_westerlands": [140, 420],
-  };
+  // Le générateur pose l'étiquette d'une région en son centre. Certaines
+  // tombent alors sur un nom de lieu, et le monde les décale ; `null` = pas
+  // d'étiquette du tout. Une région absente garde celle qu'on a engendrée.
+  const DECALE_REGION = D.regions || {};
+
+  // LES DEUX CADRAGES QUE CE MODULE NOMME. Les rectangles sont dans geo.js ;
+  // ici on ne dit que lequel sert à quoi — `TOUT` quand on s'approche de la
+  // table, `REPOS` pour la vignette du décor. Le repli garde les deux noms
+  // d'aujourd'hui, et c'est un AVEU : deux mots de Westeros vivent encore dans
+  // ce fichier, faute d'un monde qui les déclare.
+  const CAD = D.cadrages || {};
+  const TOUT = CAD.tout || "westeros", REPOS = CAD.repos || "baie";
 
   const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
 
@@ -78,7 +63,7 @@ window.Carte = (() => {
   // Deux niveaux par surface : le cadrage de REPOS (celui qu'impose la scène ou
   // une démonstration) et la VUE courante, que la loupe déplace. Un double-clic
   // repose la table ; un changement de scène efface les deux.
-  let cadreVignette = "baie", vueVignette = null;
+  let cadreVignette = REPOS, vueVignette = null;
   let cadreTable = null, vueTable = null;
 
   // ---- les filtres ---------------------------------------------------------
@@ -86,7 +71,8 @@ window.Carte = (() => {
   // serments et les gens se marchent dessus au-dessus des mêmes places. Chaque
   // famille s'allume et s'éteint, et le choix tient dans localStorage — on
   // revient au tour suivant avec la table qu'on avait laissée.
-  const FILTRES = (window.Jetons && Jetons.FILTRES) || [];
+  const FILTRES = ((window.Jetons && Jetons.FILTRES) || [])
+    .filter((f) => !Array.isArray(D.filtres) || D.filtres.includes(f.id));
   // On garde les filtres ÉTEINTS, jamais les allumés. Garder la liste des
   // allumés paraît plus naturel et c'est un piège : le jour où l'on ajoute une
   // famille, elle est absente de toutes les listes déjà enregistrées, donc
@@ -139,13 +125,14 @@ window.Carte = (() => {
   };
 
   // ---- cadrage -------------------------------------------------------------
-  // Un cadrage est nommé ("baie", "westeros"), donné en clair ([x,y,l,h]), ou
+  // Un cadrage est nommé (`REPOS`, `TOUT`, ou tout autre nom de `G.cadres` que
+  // le monde connaît), donné en clair ([x,y,l,h]), ou
   // déduit de ce qu'on montre ("auto") : la boîte des pièces, avec de la marge.
   function cadre(spec, m) {
     let vb;
     if (Array.isArray(spec) && spec.length === 4) vb = spec.join(" ");
     else if (spec === "auto") vb = auto(m || marques());
-    else vb = (G.cadres && G.cadres[spec]) || G.cadres.baie || G.viewBox;
+    else vb = (G.cadres && G.cadres[spec]) || G.cadres[REPOS] || G.viewBox;
     const n = String(vb).split(/\s+/).map(Number);
     return { vb: n.join(" "), x: n[0], y: n[1], l: n[2], h: n[3], ech: n[2] / G.largeur };
   }
@@ -153,7 +140,7 @@ window.Carte = (() => {
   const RATIO = 1.2;               // celui de la baie : la colonne du décor s'y fait
   function auto(m) {
     const b = window.Jetons && Jetons.boite(m);
-    if (!b) return G.cadres.baie;
+    if (!b) return G.cadres[REPOS];
     let { x, y, l, h } = b;
     const marge = Math.max(18, Math.max(l, h) * .35);
     x -= marge; y -= marge; l += marge * 2; h += marge * 2;
@@ -185,6 +172,7 @@ window.Carte = (() => {
       ") scale(" + t.toFixed(4) + ')">' + armes + "</g>";
   }
 
+  const CORPS_MIN = 11;             // pixels réels : sous ça, un nom ne se lit plus
   let nCarte = 0;                   // pour numéroter les <defs> d'une page
   function svgCarte(c, opts) {
     const o = opts || {};
@@ -196,10 +184,19 @@ window.Carte = (() => {
     const dit = o.dit || (neuves.size ? neuves : null);
     // Une seule échelle pilote épaisseurs et corps de texte, pour que la
     // vignette serrée et la grande table se ressemblent.
+    // LE CORPS A UN PLANCHER EN PIXELS RÉELS. Le corps se pose en unités du
+    // cadrage — mais un monde portrait tassé dans une colonne étroite rendait
+    // ses noms de ville à cinq pixels : présents, illisibles, donc inutiles.
+    // Quand l'appelant dit la taille de sa boîte (`px`/`ph`), on calcule
+    // l'échelle réellement affichée et on interdit au nom de descendre sous
+    // CORPS_MIN — c'est `caler()` qui mesure le dessin posé et rend ce corps.
+    // Les métriques d'encombrement qui suivent se déduisent du corps retenu,
+    // sinon un nom plus gros recouvrirait son voisin.
+    const corps = Math.max(8.5 * c.ech, Number(o.corps) || 0);
     let s = '<svg viewBox="' + c.vb + '" xmlns="http://www.w3.org/2000/svg"' +
       ' class="' + (o.classe || (o.grand ? "carte-grande" : "carte-petite")) + '"' +
       ' style="--k:' + c.ech.toFixed(4) +
-      ';font-size:' + (8.5 * c.ech).toFixed(2) + 'px">';
+      ';font-size:' + corps.toFixed(2) + 'px">';
 
     // La mer d'abord : sans elle, la côte ne sépare rien de rien. Puis le
     // haut-fond — un large trait pâle collé au rivage, comme sur les cartes
@@ -214,13 +211,26 @@ window.Carte = (() => {
     s += '<defs><path id="' + idt + '" d="' + G.terre + '"/></defs>';
     const cote = (cl, extra) => '<use href="#' + idt + '" class="' + cl + '"' +
       (extra || "") + "/>";
+    // Un monde qui pose son propre fond peint AUSSI sa mer : le cadrage
+    // déborde l'image pour remplir la boîte, et sans cette teinte on verrait
+    // deux bleus se toucher au bord de la carte.
+    const mer = G.fond_image && G.fond_image.mer;
     s += '<rect class="mer" x="' + c.x + '" y="' + c.y + '" width="' + c.l +
-      '" height="' + c.h + '"/>' +
+      '" height="' + c.h + '"' + (mer ? ' style="fill:' + esc(mer) + '"' : "") + '/>' +
       cote("hautfond", ' stroke-width="' + (5 * c.ech).toFixed(2) + '"');
     Object.keys(G.fonds).forEach((nom) => {
       if (G.fonds[nom]) s += '<path class="lointain" d="' + G.fonds[nom] + '"/>';
     });
     s += cote("terre");
+    // Un fond propre au monde conserve ses couleurs et son repère ; les
+    // régions, lieux et pièces restent dessinés au-dessus dans ce repère.
+    if (G.fond_image) {
+      const f = G.fond_image;
+      s += '<image href="' + esc(f.url) + '" x="' + Number(f.x || 0) +
+        '" y="' + Number(f.y || 0) + '" width="' + Number(f.largeur) +
+        '" height="' + Number(f.hauteur) +
+        '" preserveAspectRatio="xMidYMid meet" pointer-events="none"/>';
+    }
     // Le relief passe SOUS les teintes de région : c'est une ombre du sol, pas
     // une couche d'information. Deux bandes seulement — là où le pays se
     // soulève, là où il devient infranchissable.
@@ -303,17 +313,21 @@ window.Carte = (() => {
         const [x, y] = b.p;
         if (x < c.x + marge || x > c.x + c.l - marge ||
             y < c.y + marge || y > c.y + c.h - marge) return;
-        const dx = 3 * c.ech;
-        const large = b.nom.length * 3.4 * c.ech;
+        const dx = .35 * corps;
+        const large = b.nom.length * .4 * corps;
         if (x + dx + large > c.x + c.l - marge) return;
         s += '<g class="bourg"><circle cx="' + x + '" cy="' + y + '" r="' +
           (1.5 * c.ech).toFixed(2) + '"/><text x="' + (x + dx).toFixed(1) +
-          '" y="' + (y + 1.1 * c.ech).toFixed(1) + '">' + esc(b.nom) +
+          '" y="' + (y + .13 * corps).toFixed(1) + '">' + esc(b.nom) +
           "</text></g>";
       });
     }
 
-    etat.lieux.forEach((l) => {
+    // Deux noms ne se couvrent jamais : le lieu où l'on est se pose d'abord, puis
+    // les villes ; un nom qui chevaucherait un nom posé se tait (le point reste)
+    // et revient quand on approche. Une ville dense n'a pas les lieues de Westeros.
+    const poses = [], rang = (l) => (l.id === etat.joueur_lieu_id ? 0 : l.type === "ville" ? 1 : 2);
+    etat.lieux.slice().sort((a, b) => rang(a) - rang(b)).forEach((l) => {
       const p = G.lieux[l.id];
       if (!p) return;
       const [x, y] = p;
@@ -324,13 +338,16 @@ window.Carte = (() => {
       // Hors du cadrage, on ne laisse pas un nom se faire trancher par le
       // bord : le lieu est simplement absent de la vignette (il reste sur la
       // grande table). Largeur estimée du texte, en unités du cadre.
-      const large = nom.length * 4.2 * c.ech;
+      const large = nom.length * .494 * corps;
       const gauche = e[2] === "g" ? x + dx - large
         : e[2] === "c" ? x + dx - large / 2 : x + dx;
       const marge = 2 * c.ech;
       if (gauche < c.x + marge || gauche + large > c.x + c.l - marge ||
           y + dy < c.y + marge * 3 || y + dy > c.y + c.h - marge) return;
-
+      const haut = 1.223 * corps, bas = y + dy - .965 * corps;  // mesuré : corps 10, jambage 2
+      const plein = nom.length * .6 * corps, g0 = e[2] === "g" ? x + dx - plein : x + dx;
+      const tait = poses.some((q) => g0 < q[0] + q[2] && q[0] < g0 + plein && bas < q[1] + haut && q[1] < bas + haut);
+      if (!tait) poses.push([g0, bas, plein]);
       const ici = l.id === etat.joueur_lieu_id;
       s += '<g class="lieu-carte allg-' + (l.allegeance || "neutre") +
         (ici ? " ici" : "") + '" data-id="' + esc(l.id) +
@@ -340,10 +357,9 @@ window.Carte = (() => {
           (7 * c.ech).toFixed(2) + '"/>' : "") +
         '<circle class="point" cx="' + x + '" cy="' + y + '" r="' +
         ((l.type === "ville" ? 3.6 : 2.9) * c.ech).toFixed(2) + '"/>' +
-        banniereDe(l, x, y, e[2], c, serres[l.id]) +
+        banniereDe(l, x, y, e[2], c, serres[l.id]) + (tait ? "" :
         '<text class="nom" x="' + (x + dx).toFixed(1) + '" y="' +
-        (y + dy).toFixed(1) + '" text-anchor="' + ANCRE[e[2]] + '">' +
-        nom + "</text></g>";
+        (y + dy).toFixed(1) + '" text-anchor="' + ANCRE[e[2]] + '">' + nom + "</text>") + "</g>";
     });
 
     if (window.Jetons) {
@@ -413,21 +429,24 @@ window.Carte = (() => {
   // On ne se penche pas dans le vide : la loupe reste sur le royaume, avec ce
   // qu'il faut de marge pour que les noms de la côte est aient leur mer.
   function bornes() {
-    const w = cadre("westeros");
+    const w = cadre(TOUT);
     const m = Math.max(w.l, w.h) * .06;
     return [w.x - m, w.y - m, w.l + m * 2, w.h + m * 2];
   }
 
   function dateEnClair(d) {
     if (!d) return "";
+    if (D.date) return String(D.date).replace(/%\((annee|lune|jour)\)d/g,
+      (_, cle) => String(d[cle]));
     return d.annee + " AC — " + d.lune + (d.lune === 1 ? "re" : "e") + " lune, " +
       d.jour + (d.jour === 1 ? "er" : "e") + " jour";
   }
 
   const LEGENDE_BASE =
+    (D.allegeances === false ? "" :
     '<span class="leg leg-noir">Noirs</span>' +
     '<span class="leg leg-vert">Verts</span>' +
-    '<span class="leg leg-neutre">Sans parti déclaré</span>' +
+    '<span class="leg leg-neutre">Sans parti déclaré</span>') +
     '<span class="leg leg-ici">Vous êtes ici</span>';
   const MANUEL = '<span class="leg-manuel">Molette pour approcher, ' +
     'glisser pour déplacer, double-clic pour reposer la table</span>';
@@ -550,9 +569,9 @@ window.Carte = (() => {
     if (window.Jetons) Jetons.eveiller(seul);
     // Tenir une affaire, c'est aussi la regarder : la table se cadre dessus,
     // et se repose sur le royaume quand on la relâche.
-    cadreTable = seul ? "auto" : "westeros";
+    cadreTable = seul ? "auto" : TOUT;
     vueTable = null;
-    cadreVignette = seul ? "auto" : "baie";
+    cadreVignette = seul ? "auto" : REPOS;
     vueVignette = null;
     ["carte", "table-carte"].forEach((h) => {
       const n = document.getElementById(h);
@@ -569,9 +588,9 @@ window.Carte = (() => {
     ov.hidden = true;
     ov.innerHTML =
       '<div id="table-cadre">' +
-      '<div id="table-tete"><span id="table-titre">La table peinte</span>' +
+      '<div id="table-tete"><span id="table-titre">' + esc(D.titre || "La table peinte") + '</span>' +
       '<span id="table-date"></span>' +
-      '<button id="table-large" title="Voir tout le royaume">Le royaume entier</button>' +
+      '<button id="table-large" title="' + esc(D.nom_entier || "Voir tout le royaume") + '">' + esc(D.nom_entier || "Le royaume entier") + '</button>' +
       '<button id="table-fermer" title="Refermer">Quitter la table</button></div>' +
       '<div id="table-corps"><div id="table-liste"></div>' +
       '<div id="table-carte"></div></div>' +
@@ -586,7 +605,7 @@ window.Carte = (() => {
     ov.querySelector("#table-fermer").addEventListener("click", fermerTable);
     ov.querySelector("#table-large").addEventListener("click", (e) => {
       e.stopPropagation();
-      ouvrirTable("westeros");
+      ouvrirTable(TOUT);
     });
     window.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && !ov.hidden) fermerTable();
@@ -604,20 +623,24 @@ window.Carte = (() => {
     liste.hidden = !reg;
     const conteneur = ov.querySelector("#table-carte");
     if (window.Loupe && spec) Loupe.oublier(conteneur);
+    // La table se découvre AVANT qu'on y dessine : une boîte masquée mesure
+    // zéro, et le corps des noms perdrait son plancher de lisibilité.
+    ov.hidden = false;
     poserTable(conteneur);
     brancher(conteneur, {
       apres: fermerTable,
       loupe: {
-        vue: () => vueTable || vbDe(cadre(cadreTable || "westeros")),
+        vue: () => vueTable || vbDe(cadre(cadreTable || TOUT)),
         bornes, min: 22,
         poser: (vb) => { vueTable = vb; poserTable(conteneur); },
         reposer: () => { vueTable = null; poserTable(conteneur); },
       },
     });
-    ov.hidden = false;
   }
-  function poserTable(conteneur) {
-    conteneur.innerHTML = svgCarte(cadre(vueTable || cadreTable || "westeros"), { grand: true });
+  function poserTable(conteneur, corps) {
+    const c = cadre(vueTable || cadreTable || TOUT);
+    conteneur.innerHTML = svgCarte(c, { grand: true, corps });
+    if (!corps) caler(conteneur, c, (v) => poserTable(conteneur, v));
   }
   function fermerTable() {
     const ov = document.getElementById("table-peinte");
@@ -631,7 +654,7 @@ window.Carte = (() => {
     if (seul) {
       seul = null;
       if (window.Jetons) Jetons.eveiller(null);
-      cadreVignette = "baie";
+      cadreVignette = REPOS;
       vueVignette = null;
       const h = document.getElementById("carte");
       if (h && window.Loupe) Loupe.oublier(h);
@@ -642,22 +665,57 @@ window.Carte = (() => {
   // ---- la table au centre du plateau -------------------------------------
   // Le fond (légende, bouton) ne se refait qu'au changement d'état ; la loupe,
   // elle, ne remplace que le dessin — soixante fois par seconde s'il le faut.
-  function poserVignette(conteneur) {
-    const svg = svgCarte(cadre(vueVignette || cadreVignette));
+  // La vignette REMPLIT le décor au lieu de s'y ajuster : un monde portrait
+  // dans une colonne étroite laissait un quart de la boîte en papier nu.
+  // `remplit` passe le dessin en `slice` (il déborde et se rogne) et donne au
+  // corps des noms l'échelle réellement affichée.
+  // ON NE DEVINE PAS LA TAILLE DE LA BOÎTE, ON MESURE LE DESSIN POSÉ. Une
+  // boîte encore vide mesure zéro, et une boîte qui contient autre chose (la
+  // liste, à côté de la table) ment sur la largeur du dessin. On dessine donc
+  // une fois, on lit l'échelle réellement obtenue, et on ne redessine que si
+  // les noms tombent sous le plancher de lisibilité.
+  // REMPLIR SANS ROGNER. Un monde portrait dans une colonne étroite (ou
+  // l'inverse) laissait un quart de la boîte en papier nu ; `slice` aurait
+  // rempli, mais en coupant la moitié de Westeros. On élargit donc le CADRAGE
+  // au format de la boîte : on montre un peu plus de mer, jamais moins de
+  // terre, et le dessin occupe tout.
+  function remplir(c, hote) {
+    const px = hote.clientWidth, ph = hote.clientHeight;
+    if (!px || !ph) return c;
+    let { x, y, l, h } = c;
+    if (l / h < px / ph) { const n = h * px / ph; x -= (n - l) / 2; l = n; }
+    else { const n = l * ph / px; y -= (n - h) / 2; h = n; }
+    return { vb: [x, y, l, h].map((v) => v.toFixed(1)).join(" "),
+             x, y, l, h, ech: c.ech };
+  }
+  function caler(hote, c, refaire) {
+    const svg = hote.querySelector("svg");
+    if (!svg) return;
+    const ech = svg.getBoundingClientRect().width / c.l;
+    if (!ech) return;
+    const vise = CORPS_MIN / ech;
+    if (vise > parseFloat(svg.style.fontSize || 0) + .05) refaire(vise);
+  }
+  function poserVignette(conteneur, corps) {
+    const c = remplir(cadre(vueVignette || cadreVignette), conteneur);
+    const svg = svgCarte(c, { corps });
     const vieux = conteneur.querySelector("svg");
     if (vieux) vieux.outerHTML = svg;
     else conteneur.insertAdjacentHTML("afterbegin", svg);
+    if (!corps) caler(conteneur, c, (v) => poserVignette(conteneur, v));
   }
 
   function dessiner() {
     const conteneur = document.getElementById("carte");
     if (!conteneur) return;
-    conteneur.innerHTML = svgCarte(cadre(vueVignette || cadreVignette)) +
+    const cv = remplir(cadre(vueVignette || cadreVignette), conteneur);
+    conteneur.innerHTML = svgCarte(cv) +
       '<div id="carte-legende">' + legende() + "</div>" +
       // la vignette n'a pas la place d'une légende, mais elle a celle des
       // filtres : c'est là qu'on regarde la table les trois quarts du temps.
       '<div id="carte-filtres">' + barreFiltres() + "</div>" +
       '<button id="carte-approcher">S\'approcher de la table…</button>';
+    caler(conteneur, cv, (v) => poserVignette(conteneur, v));
     brancher(conteneur, {
       fond: () => ouvrirTable(),
       loupe: {
@@ -797,7 +855,7 @@ window.Carte = (() => {
   function effacer() {
     ephemeres = { jetons: [], traits: [], zones: [] };
     neuves = new Set();
-    cadreVignette = "baie";
+    cadreVignette = REPOS;
     vueVignette = null;
     const h = document.getElementById("carte");
     if (h && window.Loupe) Loupe.oublier(h);

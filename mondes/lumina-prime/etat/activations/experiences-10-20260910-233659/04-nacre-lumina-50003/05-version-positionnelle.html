@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La lisière respire — épreuve spatiale hypothétique</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #07100f; color: #e1eee8; }
+    body { max-width: 1180px; margin: 0 auto; padding: 1.5rem; }
+    p, li { max-width: 78ch; line-height: 1.5; }
+    fieldset { border: 1px solid #527064; border-radius: .7rem; margin: 1rem 0; }
+    label { display: inline-block; margin: .35rem .8rem .35rem 0; padding: .55rem .75rem; border: 1px solid #78958a; border-radius: .45rem; cursor: pointer; }
+    input { margin-right: .4rem; }
+    .scene { border: 1px solid #527064; border-radius: 1rem; overflow: hidden; background: #13241f; }
+    svg { display: block; width: 100%; height: auto; }
+    .lisiere { opacity: 0; transition: opacity 400ms ease; }
+    body:has(#light:checked) .scene .lisiere { opacity: .82; }
+    .light-on, .light-off { display: none; font-weight: 650; }
+    body:has(#light:checked) .status .light-on { display: inline; }
+    body:not(:has(#light:checked)) .status .light-off { display: inline; }
+    .position { opacity: 0; }
+    body:has(#look:checked) .scene .pos-look,
+    body:has(#edge:checked) .scene .pos-edge,
+    body:has(#retreat:checked) .scene .pos-retreat { opacity: 1; }
+    .legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: .5rem 1.5rem; padding-left: 1.2rem; }
+    .limits { border-left: .3rem solid #b79a67; padding-left: 1rem; }
+    code { color: #bde8cf; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>La lisière respire — épreuve spatiale sur copie</h1>
+    <p>Scène entièrement hypothétique : rectangle de <strong>12 × 8 m</strong>, dessiné à l’échelle logique de 100 unités par mètre. Ce n’est ni un plan, ni une mesure, ni une désignation du Jardin calme. La page ne capte, n’enregistre, n’identifie ni ne suit rien.</p>
+
+    <fieldset>
+      <legend>Commande visuelle de la copie</legend>
+      <label><input id="light" type="checkbox"> Allumer la lisière</label>
+    </fieldset>
+    <p class="status">État visible : <span class="light-on">lisière allumée</span><span class="light-off">copie revenue visuellement à l’état éteint</span>.</p>
+
+    <fieldset>
+      <legend>Choisir une position-gabarit statique — aucune ne représente un usage réel</legend>
+      <label><input id="look" name="position" type="radio" checked> Regarder</label>
+      <label><input id="edge" name="position" type="radio"> Longer</label>
+      <label><input id="retreat" name="position" type="radio"> Se retirer</label>
+    </fieldset>
+
+    <figure class="scene">
+      <svg viewBox="0 0 1200 800" role="img" aria-labelledby="scene-title scene-desc">
+        <title id="scene-title">Copie abstraite cotée avec frontière, entrée, sortie et alcôve de retrait</title>
+        <desc id="scene-desc">Une frontière rectangulaire possède deux ouvertures opposées. Un passage de deux mètres les relie hors lumière. Une branche de un mètre vingt conduit à une alcôve cloisonnée. La lisière unique occupe le bord supérieur gauche. Trois positions de silhouette peuvent être choisies.</desc>
+        <defs>
+          <pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <line x1="0" y1="0" x2="0" y2="12" stroke="#557c6b" stroke-width="3"/>
+          </pattern>
+          <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0 0 L10 5 L0 10 Z" fill="#dce9e3"/>
+          </marker>
+          <marker id="dim-arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M10 0 L0 5 L10 10" fill="none" stroke="#c6b88c" stroke-width="1.5"/>
+          </marker>
+        </defs>
+
+        <rect width="1200" height="800" fill="#13241f"/>
+
+        <!-- Frontière de la copie : murs interrompus par deux ouvertures de 1,50 m. -->
+        <g stroke="#aec4bb" stroke-width="12" fill="none" stroke-linecap="square">
+          <path d="M100 100 H1100 M100 700 H1100"/>
+          <path d="M100 100 V325 M100 475 V700"/>
+          <path d="M1100 100 V325 M1100 475 V700"/>
+        </g>
+        <g fill="#e1eee8" font-family="system-ui, sans-serif" font-size="20">
+          <text x="112" y="88">frontière hypothétique de la scène</text>
+          <text x="24" y="390">entrée</text>
+          <text x="1110" y="390">sortie</text>
+        </g>
+        <g stroke="#e1eee8" stroke-width="4" fill="none" marker-end="url(#arrow)">
+          <path d="M18 420 H92"/>
+          <path d="M1108 420 H1182"/>
+        </g>
+
+        <!-- Emprise bornée de l'essai et lisière unique. -->
+        <path d="M155 130 H720 V285 H155 Z" fill="url(#hatch)" fill-opacity=".22" stroke="#6a9d86" stroke-width="3" stroke-dasharray="12 10"/>
+        <text x="170" y="160" fill="#b9d9ca" font-family="system-ui, sans-serif" font-size="19">frontière de l’essai sur cette copie</text>
+        <path class="lisiere" id="lisiere-unique" d="M205 250 C225 205 290 176 370 170 C485 162 585 176 665 222" fill="none" stroke="#75d8a5" stroke-width="10" stroke-linecap="round"/>
+
+        <!-- Passage entrée-sortie de 2 m, structurellement hors de l'emprise lumineuse. -->
+        <path d="M0 300 H1200 V500 H0 Z" fill="#091311" stroke="#527064" stroke-width="2"/>
+        <path d="M28 400 H1172" fill="none" stroke="#dce9e3" stroke-width="3" stroke-dasharray="16 14" marker-end="url(#arrow)"/>
+
+        <!-- Accès de 1,20 m au retrait. -->
+        <path d="M820 500 H940 V572 H820 Z" fill="#091311" stroke="#527064" stroke-width="2"/>
+        <path d="M880 505 V565" fill="none" stroke="#dce9e3" stroke-width="3" stroke-dasharray="12 10" marker-end="url(#arrow)"/>
+
+        <!-- Alcôve géométrique : trois parois, seuil de 1,20 m et écran intérieur. -->
+        <g stroke="#aec4bb" stroke-width="12" fill="#07100f" stroke-linecap="square">
+          <path d="M760 565 V700 H1080 V565"/>
+          <path d="M760 565 H820 M940 565 H1080"/>
+          <path d="M900 595 L1010 635"/>
+        </g>
+        <text x="965" y="545" fill="#aebfb7" font-family="system-ui, sans-serif" font-size="19">alcôve</text>
+
+        <!-- Cotes hypothétiques et largeurs libres. -->
+        <g stroke="#c6b88c" stroke-width="2" fill="none" marker-start="url(#dim-arrow)" marker-end="url(#dim-arrow)">
+          <path d="M120 325 V475"/>
+          <path d="M300 305 V495"/>
+          <path d="M820 525 H940"/>
+          <path d="M820 580 H940"/>
+        </g>
+        <g fill="#e0d3a7" font-family="system-ui, sans-serif" font-size="18">
+          <text x="132" y="352">1,50 m libre</text>
+          <text x="310" y="332">2,00 m libres</text>
+          <text x="835" y="520">1,20 m libre</text>
+          <text x="947" y="585">seuil 1,20 m</text>
+        </g>
+
+        <!-- Gabarit : disque de 0,60 m, enveloppe pointillée de 0,80 m, orientation par flèche. -->
+        <g class="position pos-look" transform="translate(325 405)">
+          <circle r="40" fill="none" stroke="#d7c884" stroke-width="2" stroke-dasharray="6 5"/>
+          <circle r="30" fill="#d7c884" stroke="#fff4bd" stroke-width="3"/>
+          <path d="M0 -5 L-35 -85" stroke="#fff4bd" stroke-width="4" marker-end="url(#arrow)"/>
+          <text x="48" y="8" fill="#fff4bd" font-family="system-ui, sans-serif" font-size="19">regarder</text>
+        </g>
+        <g class="position pos-edge" transform="translate(650 405)">
+          <circle r="40" fill="none" stroke="#d7c884" stroke-width="2" stroke-dasharray="6 5"/>
+          <circle r="30" fill="#d7c884" stroke="#fff4bd" stroke-width="3"/>
+          <path d="M5 0 H88" stroke="#fff4bd" stroke-width="4" marker-end="url(#arrow)"/>
+          <text x="48" y="-18" fill="#fff4bd" font-family="system-ui, sans-serif" font-size="19">longer</text>
+        </g>
+        <g class="position pos-retreat" transform="translate(980 660)">
+          <circle r="40" fill="none" stroke="#d7c884" stroke-width="2" stroke-dasharray="6 5"/>
+          <circle r="30" fill="#d7c884" stroke="#fff4bd" stroke-width="3"/>
+          <path d="M0 0 L-62 22" stroke="#fff4bd" stroke-width="4" marker-end="url(#arrow)"/>
+        </g>
+
+        <g transform="translate(145 742)" fill="#d7c884" stroke="#fff4bd">
+          <circle cx="30" cy="0" r="30" stroke-width="3"/>
+          <circle cx="30" cy="0" r="40" fill="none" stroke-dasharray="6 5"/>
+          <text x="85" y="7" fill="#e1eee8" stroke="none" font-family="system-ui, sans-serif" font-size="18">gabarit hypothétique : corps 0,60 m ; enveloppe 0,80 m</text>
+        </g>
+      </svg>
+    </figure>
+
+    <ul class="legend">
+      <li>La frontière extérieure est interrompue physiquement à l’entrée et à la sortie.</li>
+      <li>Le passage principal et la branche vers le retrait ne croisent pas l’emprise hachurée de l’essai.</li>
+      <li>Le retrait est une alcôve avec seuil, parois et écran intérieur : sa forme ne dépend pas seulement d’un nom ou d’une couleur.</li>
+      <li>Les trois silhouettes sont des positions de gabarit choisies manuellement, jamais des personnes observées.</li>
+    </ul>
+
+    <div class="limits">
+      <p><strong>Retour visuel de cette copie :</strong> décocher « Allumer » masque le seul tracé lumineux et rend la copie à son état graphique éteint.</p>
+      <p><strong>Arrêt technique :</strong> non prouvé ; aucun processus de la cité, aucune ressource ni commande réelle n’est relié à cette page.</p>
+      <p><strong>Retrait matériel :</strong> non essayé ; rien n’est installé au Jardin calme ni ailleurs.</p>
+    </div>
+  </main>
+</body>
+</html>

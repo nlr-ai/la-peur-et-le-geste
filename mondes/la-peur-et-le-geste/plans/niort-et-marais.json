@@ -1,0 +1,272 @@
+{
+  "nom": "Niort et le marais",
+  "viewBox": "0 0 1000 720",
+  "fonds": [],
+  "mur": "",
+  "guet": [],
+  "decor": [],
+  "etiquettes": [],
+  "salles": [
+    {
+      "id": "hotel-voyageurs",
+      "nom": "Hôtel-café des Voyageurs",
+      "forme": {
+        "r": [
+          42,
+          52,
+          280,
+          120,
+          2
+        ]
+      },
+      "etiq": [
+        182,
+        100
+      ],
+      "lignes": [
+        "Hôtel-café des Voyageurs"
+      ],
+      "cle": true,
+      "quoi": "Une salle commune ouverte sur la rue, des chambres au-dessus. Niort. Lieu généré par Modern Front.",
+      "motifs": [
+        "Hôtel-café des Voyageurs"
+      ],
+      "alias": []
+    },
+    {
+      "id": "imprimerie-progres",
+      "nom": "Imprimerie du Progrès",
+      "forme": {
+        "r": [
+          362,
+          52,
+          280,
+          120,
+          2
+        ]
+      },
+      "etiq": [
+        502,
+        100
+      ],
+      "lignes": [
+        "Imprimerie du Progrès"
+      ],
+      "cle": true,
+      "quoi": "Le papier, les caractères et les presses occupent un atelier profond. Niort. Lieu généré par Modern Front.",
+      "motifs": [
+        "Imprimerie du Progrès"
+      ],
+      "alias": []
+    },
+    {
+      "id": "gare-niort",
+      "nom": "Gare de Niort",
+      "forme": {
+        "r": [
+          682,
+          52,
+          280,
+          120,
+          2
+        ]
+      },
+      "etiq": [
+        822,
+        100
+      ],
+      "lignes": [
+        "Gare de Niort"
+      ],
+      "cle": true,
+      "quoi": "Un seuil entre la ville et le départ, organisé autour du hall et du quai. Niort. Fond cartographique moderne de Modern Front.",
+      "motifs": [
+        "Gare de Niort"
+      ],
+      "alias": []
+    },
+    {
+      "id": "atelier-photographie",
+      "nom": "Atelier de photographie",
+      "forme": {
+        "r": [
+          42,
+          217,
+          280,
+          120,
+          2
+        ]
+      },
+      "etiq": [
+        182,
+        265
+      ],
+      "lignes": [
+        "Atelier de photographie"
+      ],
+      "cle": true,
+      "quoi": "Une boutique sur rue ; le travail des images se fait derrière. Niort. Lieu généré par Modern Front.",
+      "motifs": [
+        "Atelier de photographie"
+      ],
+      "alias": []
+    },
+    {
+      "id": "ferme-coulon",
+      "nom": "Ferme de Coulon",
+      "forme": {
+        "r": [
+          362,
+          217,
+          280,
+          120,
+          2
+        ]
+      },
+      "etiq": [
+        502,
+        265
+      ],
+      "lignes": [
+        "Ferme de Coulon"
+      ],
+      "cle": true,
+      "quoi": "Une cour distribue le logis et les bâtiments de travail. Coulon. Fond cartographique moderne de Modern Front.",
+      "motifs": [
+        "Ferme de Coulon"
+      ],
+      "alias": []
+    },
+    {
+      "id": "hotel-breche",
+      "nom": "Hôtel de la Brèche",
+      "forme": {
+        "r": [
+          682,
+          217,
+          280,
+          120,
+          2
+        ]
+      },
+      "etiq": [
+        822,
+        265
+      ],
+      "lignes": [
+        "Hôtel de la Brèche"
+      ],
+      "cle": true,
+      "quoi": "Un hôtel retenu par le corpus comme logement d’officiers. Niort. Dossier historique de Modern Front.",
+      "motifs": [
+        "Hôtel de la Brèche"
+      ],
+      "alias": []
+    },
+    {
+      "id": "papeterie-centre",
+      "nom": "Papeterie du Centre",
+      "forme": {
+        "r": [
+          42,
+          382,
+          280,
+          120,
+          2
+        ]
+      },
+      "etiq": [
+        182,
+        430
+      ],
+      "lignes": [
+        "Papeterie du Centre"
+      ],
+      "cle": true,
+      "quoi": "Le comptoir et les rayonnages séparent la boutique de la réserve. Niort. Lieu généré par Modern Front.",
+      "motifs": [
+        "Papeterie du Centre"
+      ],
+      "alias": []
+    },
+    {
+      "id": "prefecture",
+      "nom": "Préfecture — secrétariat général",
+      "forme": {
+        "r": [
+          362,
+          382,
+          280,
+          120,
+          2
+        ]
+      },
+      "etiq": [
+        502,
+        430
+      ],
+      "lignes": [
+        "Préfecture — secrétariat général"
+      ],
+      "cle": true,
+      "quoi": "Un parcours de guichets et de bureaux autour des dossiers. Niort. Dossier historique de Modern Front.",
+      "motifs": [
+        "Préfecture — secrétariat général"
+      ],
+      "alias": []
+    },
+    {
+      "id": "cafe-commerce-coulon",
+      "nom": "Café du Commerce",
+      "forme": {
+        "r": [
+          682,
+          382,
+          280,
+          120,
+          2
+        ]
+      },
+      "etiq": [
+        822,
+        430
+      ],
+      "lignes": [
+        "Café du Commerce"
+      ],
+      "cle": true,
+      "quoi": "Une salle de café et ses pièces de service, à l’échelle du bourg. Coulon. Lieu généré par Modern Front.",
+      "motifs": [
+        "Café du Commerce"
+      ],
+      "alias": []
+    },
+    {
+      "id": "maison-arret",
+      "nom": "Maison d’arrêt de Niort",
+      "forme": {
+        "r": [
+          42,
+          547,
+          280,
+          120,
+          2
+        ]
+      },
+      "etiq": [
+        182,
+        595
+      ],
+      "lignes": [
+        "Maison d’arrêt de Niort"
+      ],
+      "cle": true,
+      "quoi": "Les seuils séparent l’accueil, les visites et la détention. Niort. Dossier historique de Modern Front.",
+      "motifs": [
+        "Maison d’arrêt de Niort"
+      ],
+      "alias": []
+    }
+  ],
+  "_": "Répertoire spatial schématique, sans échelle ni itinéraires entre les sites. Les coordonnées source sont conservées dans provenance-lieux.json."
+}

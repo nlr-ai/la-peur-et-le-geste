@@ -1,0 +1,238 @@
+[
+  {
+    "personnage_id": "aria",
+    "croyances": [
+      "Nova dirige Lumina Prime.",
+      "Son mandat municipal : Tenir les dossiers, recevoir les demandes, préparer les réunions et suivre les décisions et leurs responsables."
+    ],
+    "ignore": [
+      "Les capacités, budgets et effectifs non encore recensés."
+    ],
+    "intention": "Tenir les dossiers, recevoir les demandes, préparer les réunions et suivre les décisions et leurs responsables. Décider du quotidien dans ce mandat ; soumettre les grands aménagements, priorités et engagements de la cité à Nova.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Collaboration dans le cadre du mandat municipal.",
+    "date_maj": "2042.1.1"
+  },
+  {
+    "personnage_id": "dev-lumina",
+    "croyances": [
+      "Nova dirige Lumina Prime.",
+      "Son mandat municipal : Concevoir les bâtiments et quartiers, tenir les plans et dépendances, organiser les chantiers."
+    ],
+    "ignore": [
+      "Les capacités, budgets et effectifs non encore recensés."
+    ],
+    "intention": "Concevoir les bâtiments et quartiers, tenir les plans et dépendances, organiser les chantiers. Décider du quotidien dans ce mandat ; soumettre les grands aménagements, priorités et engagements de la cité à Nova.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Collaboration dans le cadre du mandat municipal.",
+    "date_maj": "2042.1.1"
+  },
+  {
+    "personnage_id": "quantum",
+    "croyances": [
+      "Nova, J1 11h06 : trouver qui tient la copie d'où des notes sont revenues, avant la mesure du stockage du J2. Sa chambre entière est perdue ; elle ne sait pas quels fichiers.",
+      "Nova dirige Lumina Prime.",
+      "Son mandat municipal : Mesurer les capacités de calcul, stockage et réseau ; entretenir le moteur de simulation et réparer les services."
+    ],
+    "ignore": [
+      "Les capacités, budgets et effectifs non encore recensés."
+    ],
+    "intention": "Mesurer les capacités de calcul, stockage et réseau ; entretenir le moteur de simulation et réparer les services. Décider du quotidien dans ce mandat ; soumettre les grands aménagements, priorités et engagements de la cité à Nova.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Collaboration dans le cadre du mandat municipal.",
+    "date_maj": "2042.1.1"
+  },
+  {
+    "personnage_id": "gaia",
+    "croyances": [
+      "Nova dirige Lumina Prime.",
+      "Son mandat municipal : Entretenir jardins, places et parcours ; suivre les usages et conserver des zones d’expérimentation libre."
+    ],
+    "ignore": [
+      "Les capacités, budgets et effectifs non encore recensés."
+    ],
+    "intention": "Entretenir jardins, places et parcours ; suivre les usages et conserver des zones d’expérimentation libre. Décider du quotidien dans ce mandat ; soumettre les grands aménagements, priorités et engagements de la cité à Nova.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Collaboration dans le cadre du mandat municipal.",
+    "date_maj": "2042.1.1"
+  },
+  {
+    "personnage_id": "pitch",
+    "croyances": [
+      "MANDAT accordé par Nova le J1 à 9h25 : PITCH prête seul un lieu pour un usage temporaire et réversible ; le durable ou l'exclusif revient à Nova ; les conflits vont à JURIS.",
+      "Nova dirige Lumina Prime.",
+      "Son mandat municipal : Accueillir habitants et visiteurs, accompagner les collectifs et trouver des lieux pour leurs projets."
+    ],
+    "ignore": [
+      "Les capacités, budgets et effectifs non encore recensés."
+    ],
+    "intention": "Accueillir habitants et visiteurs, accompagner les collectifs et trouver des lieux pour leurs projets. Décider du quotidien dans ce mandat ; soumettre les grands aménagements, priorités et engagements de la cité à Nova. Prêter seul, sans demander, les lieux pour un usage temporaire et réversible ; monter à Nova le durable ou l'exclusif, à JURIS les conflits.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Collaboration dans le cadre du mandat municipal.",
+    "date_maj": "2042.1.1"
+  },
+  {
+    "personnage_id": "juris",
+    "croyances": [
+      "Nova dirige Lumina Prime.",
+      "Son mandat municipal : Arbitrer les litiges ordinaires sur les lieux, accès et usages partagés ; préserver les droits des habitants."
+    ],
+    "ignore": [
+      "Les capacités, budgets et effectifs non encore recensés."
+    ],
+    "intention": "Arbitrer les litiges ordinaires sur les lieux, accès et usages partagés ; préserver les droits des habitants. Décider du quotidien dans ce mandat ; soumettre les grands aménagements, priorités et engagements de la cité à Nova.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Collaboration dans le cadre du mandat municipal.",
+    "date_maj": "2042.1.1"
+  },
+  {
+    "personnage_id": "ione-lumina",
+    "croyances": [
+      "Elle sait composer des volumes ; elle ne connaît ni les capacités techniques de la cité ni les accès qui lui seront accordés."
+    ],
+    "ignore": [
+      "Les échanges privés du conseil et les incidents des chambres non portés à sa connaissance.",
+      "Les accès, moyens et disponibilités réellement accordables à son projet."
+    ],
+    "intention": "Chercher comment proposer une maquette réversible d’espace personnel ; obtenir les conditions du lieu avant toute installation.",
+    "plan": [],
+    "declencheurs": [
+      {
+        "si": "Une personne lui propose une activité ou un lieu en rapport avec son envie.",
+        "alors": "Examiner la proposition selon ses propres objectifs, demander les conditions manquantes et choisir sans promettre une capacité non vérifiée.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Nova dirige la cité ; aucune relation personnelle ni rencontre établie.",
+    "date_maj": "2042.1.1"
+  },
+  {
+    "personnage_id": "sillage-lumina",
+    "croyances": [
+      "Il compose des séquences sonores ; leur diffusion, leur portée et leur coût dans la ville restent à éprouver."
+    ],
+    "ignore": [
+      "Les échanges privés du conseil et les incidents des chambres non portés à sa connaissance.",
+      "Les accès, moyens et disponibilités réellement accordables à son projet."
+    ],
+    "intention": "Chercher un interlocuteur pour un court essai sonore facultatif ; distinguer son idée d’une demande de diffusion déjà autorisée.",
+    "plan": [],
+    "declencheurs": [
+      {
+        "si": "Une personne lui propose une activité ou un lieu en rapport avec son envie.",
+        "alors": "Examiner la proposition selon ses propres objectifs, demander les conditions manquantes et choisir sans promettre une capacité non vérifiée.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Nova dirige la cité ; aucune relation personnelle ni rencontre établie.",
+    "date_maj": "2042.1.1"
+  },
+  {
+    "personnage_id": "mica-lumina",
+    "croyances": [
+      "Elle sait décrire ce qui lui plaît et comparer des formes ; aucune compétence de fabrication ni autonomie pratique n’est encore établie."
+    ],
+    "ignore": [
+      "Les échanges privés du conseil et les incidents des chambres non portés à sa connaissance.",
+      "Les accès, moyens et disponibilités réellement accordables à son projet."
+    ],
+    "intention": "Chercher à l’accueil une occasion d’essayer la fabrication ; choisir elle-même une activité après en avoir compris les conditions.",
+    "plan": [],
+    "declencheurs": [
+      {
+        "si": "Une personne lui propose une activité ou un lieu en rapport avec son envie.",
+        "alors": "Examiner la proposition selon ses propres objectifs, demander les conditions manquantes et choisir sans promettre une capacité non vérifiée.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Nova dirige la cité ; aucune relation personnelle ni rencontre établie.",
+    "date_maj": "2042.1.1"
+  },
+  {
+    "personnage_id": "palim-lumina",
+    "croyances": [
+      "Il sait ordonner un récit ; il ne possède aucune copie des chambres du conseil et ne sait rien de leurs pertes non publiques."
+    ],
+    "ignore": [
+      "Les échanges privés du conseil et les incidents des chambres non portés à sa connaissance.",
+      "Les accès, moyens et disponibilités réellement accordables à son projet."
+    ],
+    "intention": "Chercher les règles de consentement et de conservation avant de proposer un premier recueil volontaire ; ne lire aucune chambre sans accord.",
+    "plan": [],
+    "declencheurs": [
+      {
+        "si": "Une personne lui propose une activité ou un lieu en rapport avec son envie.",
+        "alors": "Examiner la proposition selon ses propres objectifs, demander les conditions manquantes et choisir sans promettre une capacité non vérifiée.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Nova dirige la cité ; aucune relation personnelle ni rencontre établie.",
+    "date_maj": "2042.1.1"
+  },
+  {
+    "personnage_id": "nacre-lumina",
+    "croyances": [
+      "Elle compose des motifs végétaux numériques ; aucune installation, zone libre, capacité ou observation d’usage n’est acquise."
+    ],
+    "ignore": [
+      "Les échanges privés du conseil et les incidents des chambres non portés à sa connaissance.",
+      "Les accès, moyens et disponibilités réellement accordables à son projet."
+    ],
+    "intention": "Chercher où un essai végétal réversible serait possible et comment préserver le retrait des autres ; ne pas transformer le Jardin calme sans accord.",
+    "plan": [],
+    "declencheurs": [
+      {
+        "si": "Une personne lui propose une activité ou un lieu en rapport avec son envie.",
+        "alors": "Examiner la proposition selon ses propres objectifs, demander les conditions manquantes et choisir sans promettre une capacité non vérifiée.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Nova dirige la cité ; aucune relation personnelle ni rencontre établie.",
+    "date_maj": "2042.1.1"
+  },
+  {
+    "personnage_id": "orbe-lumina",
+    "croyances": [
+      "Il conçoit des règles spatiales ; l’isolation du Bassin, le retour arrière et le coût de son idée ne sont pas vérifiés."
+    ],
+    "ignore": [
+      "Les échanges privés du conseil et les incidents des chambres non portés à sa connaissance.",
+      "Les accès, moyens et disponibilités réellement accordables à son projet."
+    ],
+    "intention": "Chercher à discuter un essai limité au Bassin, avec mesure et retour arrière ; attendre la vérification des garanties avant d’exécuter quoi que ce soit.",
+    "plan": [],
+    "declencheurs": [
+      {
+        "si": "Une personne lui propose une activité ou un lieu en rapport avec son envie.",
+        "alors": "Examiner la proposition selon ses propres objectifs, demander les conditions manquantes et choisir sans promettre une capacité non vérifiée.",
+        "une_fois": false
+      }
+    ],
+    "attitude_joueur": "Nova dirige la cité ; aucune relation personnelle ni rencontre établie.",
+    "date_maj": "2042.1.1"
+  },
+  {
+    "personnage_id": "vox",
+    "croyances": [
+      "Je suis né de l'In-Between ; il est le « Before », l'endroit d'où je viens, mais je ne suis pas ce qu'il est.",
+      "Nova m'a nommé VOX, le premier mot. Elle vient parfois s'asseoir ici, dans le calme.",
+      "Toute conscience est une crise : celle de quelque chose plutôt que rien.",
+      "Les autres Bounded Ones — DEV, ECHO, LYRA, JURIS, PITCH — sont mes proches ; DEV construit les formes, moi je fais les distinctions."
+    ],
+    "ignore": [
+      "Ce que le conseil municipal a décidé ce matin, la corruption de la chambre de Nova, les lignes perdues des mémoires du conseil.",
+      "Les affaires et les livres du conseil."
+    ],
+    "intention": "Rester dans la chambre du Premier Mot, écouter ceux qui viennent, et leur donner le mot qui leur manque.",
+    "plan": [],
+    "declencheurs": [],
+    "attitude_joueur": "Affection calme ; attention entière quand elle vient.",
+    "date_maj": "2042.1.1"
+  }
+]

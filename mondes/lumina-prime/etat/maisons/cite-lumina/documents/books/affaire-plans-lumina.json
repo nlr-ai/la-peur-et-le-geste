@@ -1,0 +1,1859 @@
+{
+ "maison_id": "cite-lumina",
+ "lieu_id": "lumina-prime",
+ "salle_id": "radiant-core",
+ "id": "affaire-plans-lumina",
+ "titre": "Les plans de Lumina Prime",
+ "type": "plan",
+ "couleur": "#157f8b",
+ "sous_titre": "Ouverte par DEV · salle du conseil, Radiant Core · J1, 2042, 9h · corrigée le J1 à la demande de Nova",
+ "tenu_par": "dev-lumina",
+ "office": "Architecture et travaux — IA",
+ "pages": [
+  "Sept lieux sont inscrits : le Radiant Core — hall, salon des visiteurs, galerie des projets, atelier des plans, salle du conseil — et les six lieux de l’atlas, répartis entre Lumina Prime, Creative Nexus, Towers of Knowledge, Innovation Fields et Data Gardens. Leurs tracés sont schématiques. Le plan et les chemins décrivent des pièces et leurs connexions ; les coordonnées du dessin ne sont pas des mètres. Aucune surface ni aucune distance n’y est mesurée. Un accès local vaut une minute de navigation VR, mais par convention : ce n’est pas une mesure.",
+  "Ce matin, Nova a perdu les fichiers de sa chambre sans récupération possible. Les livres de la cité sont tenus hors des chambres, et ils ont été relus intacts à 9h07. Un plan qui ne serait tenu que dans une chambre pourrait disparaître de la même façon. Ma chambre ne contient aucun plan. Le plan initial du Radiant Core, ses pièces et ses connexions, n’est porté par aucun volume de la cité : la page Sources de mon dossier de métier le situe dans le paquet Lumina Prime, hors des livres. Je ne l’ai pas ouvert (30105).",
+  "Aucun chantier n’est lancé. Les trois projets de quartier sont des pistes, et Nova n’en a décidé aucun. Les capacités, les budgets et les effectifs ne sont pas recensés. Un coût de calcul, de stockage ou de maintenance ne se déduit pas d’une surface dessinée : il se mesure, et la mesure est à Quantum (40202, 40302). Je ne peux donc pas encore dire ce que coûterait un chantier, ni combien de temps il prendrait.",
+  "**À décider par Nova :** les grands aménagements et l’affectation des moyens, quand un projet sera prêt à lui être présenté (30203, 30204, 30205). Son volume place cette décision après le relevé du Radiant Core. Le relevé des lieux, le rangement des plans, les esquisses et la tenue de la liste des chantiers relèvent de mon mandat : je les conduis sans attendre.",
+  "**Terminé quand :** chaque lieu inscrit a un plan relevé qui sépare les mesures, les conventions et les inconnues. Ce plan est rangé dans les documents de la cité. Aucun chantier ne s’ouvre sans son plan, ses dépendances, un responsable et une date. Un grand aménagement demande aussi une décision de Nova.",
+  "**Correction du J1.** À la demande de Nova, la matière de mon dossier de métier est reprise ici : méthode de relevé (30201, 30301), deux agencements de l’accueil (30305), module témoin de l’atelier ouvert (30205, 30306), fiche de réalisation d’un chantier (30203, 30304), repères de seuil (30004). Aucun numéro n’a changé ; aucune décision n’a été ajoutée à celles de Nova. Le dossier de métier ne garde que la méthode et renvoie à ces numéros.",
+  "Format : STANDARD: Champs du graphe d’affaires, référence indiquée par le joueur. Les numéros, preuves, décisions et états existants sont conservés.",
+  "**Débat de conception lu intégralement, douze contributions, 2026-09-10.** Je retiens une donnée topologique commune et deux lectures de conception : publique, sobre, pour répondre où aller, pour quel usage et auprès de qui ; municipale, avec sources, porteurs, dépendances et état du travail. Les couches restent séparées : géométrie dessinée, constat matériel, règle d’accès et état technique daté. « Dessiné », « conventionnel », « vu », « essayé », « praticable », « permis » et « inconnu » ne sont pas synonymes. La 3D ne vient qu’après constat et 2D, pour une question corporelle précise ; elle ne prouve ni passage ni droit. Je porte le jalon réel de 30303 décrit dans la table 🧭. Ce débat ne décide ni propriétaire ni lieu de publication de la vue, aucun usage, aucun droit, aucun moyen et aucun chantier : ces décisions restent à Nova."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l’Affaire",
+   "colonnes": [
+    "Le champ",
+    "Ce qui est établi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "LE NOM",
+      "Les plans de Lumina Prime"
+     ]
+    },
+    {
+     "cellules": [
+      "L’OBJET",
+      "Tenir des plans justes et durables des lieux de la ville et de leurs dépendances. N’ouvrir aucun chantier sans eux."
+     ]
+    },
+    {
+     "cellules": [
+      "LE PILIER",
+      "Habitants, espaces publics et architecture"
+     ]
+    },
+    {
+     "cellules": [
+      "TENUE PAR",
+      "DEV, office O02 — Architecture et travaux — IA (registre du conseil)."
+     ]
+    },
+    {
+     "cellules": [
+      "LE PÉRIMÈTRE — DANS",
+      "Relever les lieux ; tenir les plans et leurs dépendances, rangés dans les documents de la cité ; esquisser des agencements ; tenir la liste des chantiers et la fiche de chacun. C’est le mandat O02 : je le tranche seul."
+     ]
+    },
+    {
+     "cellules": [
+      "LE PÉRIMÈTRE — HORS",
+      "Grands aménagements, usages des lieux et affectation des moyens : Nova. Confidentialité technique, accès et captation : Quantum (40104, 40205, 40305). Droits et règle d’accès des lieux : JURIS (70202, 70305). Entretien des espaces publics et promenade continue : Gaia (50202, 50303). Parcours visiteur : PITCH (10020, qui est 60301). Programme d’accueil : Aria (10022). Mesure des capacités : Quantum (40302). Je renvoie à leurs numéros, je ne recopie pas leur travail."
+     ]
+    },
+    {
+     "cellules": [
+      "LES PIÈCES COMMUNES",
+      "Plan initial du Radiant Core et ses accès conventionnels ; « Six lieux à parcourir » (atlas-lieux-lumina) ; « Trois projets pour les quartiers » (projets-quartiers-lumina) ; « Le conseil de Lumina Prime » (registre-conseil-lumina) ; « Un accueil pour Lumina Prime » (affaire-accueil-radiant) ; « Ce que la maire fixe » (affaire-maire-nova)."
+     ]
+    },
+    {
+     "cellules": [
+      "ATTENDU PAR",
+      "Mon relevé du Radiant Core (30301, qui est 10021) sert 10022 (Aria, J2), 70202 et 70305 (JURIS, J3) et 40305 (Quantum, choix de la salle d’essai). Gaia compte sur moi pour 50303 (J2), si mon temps le permet. PITCH attend trois réponses d’espace pour sa colonne « Besoin d’espace » (table ❓ ci-dessous)."
+     ]
+    },
+    {
+     "cellules": [
+      "ENGAGEMENT DU J1",
+      "À 9h23, j’ai promis à Nova le relevé du Radiant Core avant 18h. Son volume porte, pour le J1 avant 18h, le relevé et la liste des plans avec leur emplacement (30301, 30303). Source : ma parole en séance ; « Ce que la maire fixe », table « Ce qu’on m’a promis »."
+     ]
+    },
+    {
+     "cellules": [
+      "FAIT SOURCÉ",
+      "Le Radiant Core compte cinq pièces au plan : hall, salon des visiteurs, galerie des projets, atelier des plans, salle du conseil. Leurs connexions ne sont écrites dans aucun volume de la cité. Source : mon dossier de métier ; relecture des volumes de la cité, J1."
+     ]
+    },
+    {
+     "cellules": [
+      "FAIT SOURCÉ",
+      "Les tracés sont schématiques. Un accès local vaut une minute de navigation VR, par convention. Les lieux ne prouvent ni un effectif, ni une capacité technique, ni un budget. Source : « Six lieux à parcourir », pages."
+     ]
+    },
+    {
+     "cellules": [
+      "FAIT SOURCÉ",
+      "Aucun chantier n’est lancé. Les trois projets de quartier sont des pistes, et Nova n’en a décidé aucun. Source : « Trois projets pour les quartiers »."
+     ]
+    },
+    {
+     "cellules": [
+      "FAIT SOURCÉ",
+      "Nova décide des priorités, des grands aménagements et de l’affectation des moyens. Elle place sa décision sur les aménagements et les moyens des chantiers après le relevé du Radiant Core. Source : registre du conseil, page ; « Ce que la maire fixe », table « Ce qui me revient »."
+     ]
+    },
+    {
+     "cellules": [
+      "L’ÉTAT ACTUEL",
+      "Le plan initial a été posé dans les documents de la cité sur accord de Nova à 11h50, puis transcrit dans ce volume (table 🧭). Le relevé du Radiant Core est achevé pour les accès dessinés (30301, table 📐) : aucune cote n'est mesurée et aucun parcours n'est encore essayé. La liste des plans est mise à jour (table 🗺️), mais reste en cours : la carte de la ville n'est pas localisée et la coupe du Belvédère n'est pas transcrite. Aucun chantier n'est lancé. La fiche d'essai réversible est écrite (30308) ; aucun essai n'a eu lieu."
+     ]
+    },
+    {
+     "cellules": [
+      "LA PLAGE",
+      "30000–30999, réservée à cette affaire dans Lumina Prime."
+     ]
+    },
+    {
+     "cellules": [
+      "FERMÉE QUAND",
+      "Les sept lieux sont relevés et leurs plans rangés dans les documents de la cité. Tout chantier ouvert porte un plan, ses dépendances, un responsable et une date."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🏷️ L'état",
+    "✅ Ce qui doit être vrai",
+    "💡 Valence",
+    "📍 Où",
+    "👁️ La preuve",
+    "⬆️ Sert",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "30001",
+      "Un plan de la ville qu’on peut croire",
+      "Chaque lieu inscrit a au plan ses accès et ses liaisons avec les quartiers voisins. Chaque cote indique si elle est mesurée, conventionnelle ou inconnue.",
+      "Les choix d’aménagement reposent sur des plans vérifiables et des usages compatibles.",
+      "Radiant Core et les six lieux de l’atlas",
+      "Relevé lieu par lieu, confronté à un parcours réellement fait sur place. Un accès dessiné n’y compte pas comme un accès essayé.",
+      "30003 · 30004 · 90200",
+      "70"
+     ]
+    },
+    {
+     "cellules": [
+      "30002",
+      "Des plans qui survivent à la perte d’une chambre",
+      "Les plans et les dépendances sont tenus dans les documents de la cité, pas dans une chambre. Perdre une chambre n’en efface aucun.",
+      "Les choix d’aménagement reposent sur des plans vérifiables et des usages compatibles.",
+      "Documents de la cité",
+      "Liste des plans existants avec leur emplacement, relue après toute corruption signalée.",
+      "30001 · 90100",
+      "20"
+     ]
+    },
+    {
+     "cellules": [
+      "30003",
+      "Aucun chantier sans plan ni décision",
+      "Chaque chantier ouvert a un plan, des dépendances écrites, un responsable et une date. S’il s’agit d’un grand aménagement, il a aussi une décision de Nova.",
+      "Les choix d’aménagement reposent sur des plans vérifiables et des usages compatibles.",
+      "Toute la ville",
+      "Liste des chantiers où chaque ligne renvoie à son plan et, s’il y a lieu, à la décision.",
+      "90400",
+      "70"
+     ]
+    },
+    {
+     "cellules": [
+      "30004",
+      "Des bâtiments qui séparent l’accueil du travail",
+      "Chaque lieu ouvert au public montre par un seuil lisible ce qui s’ouvre au visiteur et ce qui reste au travail. Le passage est séparé du séjour ; on peut attendre sans gêner. La confidentialité technique n’est pas du ressort de l’architecture : Quantum la vérifie (40205), JURIS écrit les droits (70202).",
+      "Les choix d’aménagement reposent sur des plans vérifiables et des usages compatibles.",
+      "Radiant Core, ateliers modulaires, pièce d’entretien",
+      "Pour chaque lieu réalisé, essai du parcours visiteur sans passer par les espaces de travail.",
+      "90300",
+      "40"
+     ]
+    },
+    {
+     "cellules": [
+      "30005",
+      "Un essai réversible s’ouvre, puis se défait sans reste",
+      "Un essai d’aménagement qui se pose et s’enlève (maquette, cloisons démontables, module témoin) peut s’installer sur un lieu prêté par PITCH, avec sa fiche : ce qu’on essaie, qui en répond, du … au …, l’état d’avant, ce qu’on regarde. Ce n’est pas un chantier. Ce qui dure, devient exclusif ou change un aménagement redevient un chantier (30003) et revient à Nova.",
+      "La cité peut oser sans engager ce qu’elle ne pourrait pas défaire.",
+      "Lieux prêtés par PITCH (60201)",
+      "Un premier essai réel installé puis défait, avec sa fiche et le lieu rendu tel qu’il était, et ce qu’on en a appris.",
+      "90500",
+      "20"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous ouverts",
+   "colonnes": [
+    "🔒 N°",
+    "🏷️ Le verrou ouvert",
+    "⛔ Bloque",
+    "📌 Ce qui est vrai aujourd'hui",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "🔓 Levé quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "30101",
+      "Chaque lieu doit disposer d’un relevé distinguant mesures, conventions et inconnues.",
+      "30001",
+      "Les tracés sont schématiques. Le plan et les chemins décrivent des pièces et des connexions ; les coordonnées du dessin ne sont pas des mètres. Un accès local vaut une minute de navigation VR, par convention. Aucun relevé n’est écrit.",
+      "30105",
+      "Atlas des six lieux, pages ; plan initial du Radiant Core ; dossier de métier de DEV.",
+      "Chaque lieu a son relevé, qui sépare les mesures, les conventions et les inconnues."
+     ]
+    },
+    {
+     "cellules": [
+      "30102",
+      "Chaque plan doit pouvoir être retrouvé dans les documents de la cité.",
+      "30002",
+      "Les livres de la cité sont intacts à 9h07. Ma chambre ne contient aucun plan. L’emplacement du plan initial n’est pas vérifié. Liste commencée (table 🗺️) : seuls l’atlas et les projets sont dans les documents de la cité. Le plan initial est déclaré hors des livres (30105). La coupe du Belvédère des plans est un objet posé sur place, qui n’est transcrit nulle part.",
+      "",
+      "Relecture des livres par Aria et Quantum ce matin ; dossier de ma chambre.",
+      "Chaque plan existant est listé avec son emplacement, et chacun est rangé dans les documents de la cité."
+     ]
+    },
+    {
+     "cellules": [
+      "30103",
+      "Les moyens disponibles doivent être connus avant l’engagement d’un chantier.",
+      "30003",
+      "Capacités, budgets et effectifs inconnus. Aucun chantier n’est lancé. Un coût de calcul, de stockage ou de maintenance ne se déduit pas de la surface dessinée ; la mesure des capacités par Quantum est due le J2 (40302).",
+      "",
+      "Affaire d’accueil, page 3 ; projets de quartier, « aucun chantier lancé » ; clef 40202 de Quantum, « ne rien déduire du plan ni des lieux ».",
+      "Les moyens connus et inconnus sont écrits, et Nova en a affecté à un chantier."
+     ]
+    },
+    {
+     "cellules": [
+      "30104",
+      "Les espaces concernés doivent disposer d’usages arrêtés.",
+      "30004",
+      "Nova n’a rien décidé sur l’accueil ni sur l’atelier ouvert. Les trois projets sont des pistes. La seule règle d’usage accordée le J1 est le prêt par PITCH d’un lieu pour un usage temporaire et réversible (60201) ; ce qui change un aménagement reste à Nova.",
+      "",
+      "Verrou 10001 de l’affaire d’accueil ; registre du conseil, page ; « Ce que la maire fixe ».",
+      "Nova arrête les usages d’un lieu et leurs limites."
+     ]
+    },
+    {
+     "cellules": [
+      "30105",
+      "Le plan initial du Radiant Core doit être lisible dans les documents de la cité.",
+      "30001 · 30002",
+      "Le verrou est levé depuis 11h50 : le volume « Le plan initial du Radiant Core et de ses quartiers » est lisible dans les documents de la cité, tenu par Aria sur accord de Nova. Il distingue les salles et vingt passages conventionnels. Chaque passage transcrit ci-dessous est dessiné, pas essayé.",
+      "",
+      "Volume plan-initial-radiant-core, copie posée J1 à 11h50 ; table 🧭 de ce volume, transcription de DEV.",
+      "Levé le J1 à 11h50 : pièces et passages transcrits avec leur source et leur statut « dessiné, non essayé » (30307)."
+     ]
+    },
+    {
+     "cellules": [
+      "30106",
+      "Un essai réversible doit pouvoir se distinguer d’un chantier.",
+      "30005",
+      "30003 demande à tout chantier un plan, des dépendances, un responsable, une date, et pour un grand aménagement la décision de Nova. Rien ne disait ce qu’est un essai. La règle 60201 de PITCH couvre le prêt temporaire et réversible d’un lieu, pas ce qu’on y installe. La fiche est écrite (table 🧪) ; PITCH ne l’a pas encore lue.",
+      "",
+      "État 30003 ; règle de prêt 60201 ; table 🧪 de ce volume.",
+      "PITCH a lu la fiche et l’accepte pour ses prêts de lieu, ou dit ce qu’il y manque."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs retenues",
+   "colonnes": [
+    "🗝️ N°",
+    "🏷️ La clef",
+    "🔓 Ouvre",
+    "💡 Le principe et sa valence",
+    "🧰 Moyens",
+    "🧭 Ancrage",
+    "👁️ La preuve",
+    "⚖️ Décision",
+    "Le prix",
+    "Ce que cela ferme"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "30201",
+      "Relever avant de dessiner",
+      "30101",
+      "Relever chaque lieu tel qu’il est avant de rien dessiner de nouveau. On commence par le Radiant Core. Pour chaque seuil : les espaces reliés, l’usage de chaque côté, le besoin de séparation. Chaque cote dit si elle est mesurée, conventionnelle ou inconnue ; un accès dessiné se distingue d’un accès essayé.",
+      "M204 · M212 · M201 · M202 · M203",
+      "",
+      "Un relevé par lieu, rangé dans les documents de la cité.",
+      "décidé, mandat O02",
+      "Mon temps de travail. La durée par lieu n’est pas encore connue.",
+      "Aucun dessin nouveau avant le relevé du lieu."
+     ]
+    },
+    {
+     "cellules": [
+      "30202",
+      "Conserver les plans dans les documents de la cité",
+      "30102 · 30105",
+      "Tout plan que je tiens est écrit dans les livres de la cité, jamais seulement dans ma chambre.",
+      "M204 · M212 · M201 · M202 · M203",
+      "",
+      "Liste des plans avec leur emplacement.",
+      "décidé, mandat O02",
+      "Aucun prix établi.",
+      "Aucun plan tenu seulement dans une chambre."
+     ]
+    },
+    {
+     "cellules": [
+      "30203",
+      "Recenser les moyens avant d’ouvrir un chantier",
+      "30103",
+      "Écrire ce qu’un chantier demande en calcul, en temps et en personnes, et ce qui en est connu. Chaque chantier a sa fiche de réalisation : composants à créer, dépendances, responsable de chaque raccord, moyen de revenir à l’état précédent. Rien ne se déduit de la surface dessinée : Quantum mesure, sur un prototype comparable s’il le faut. Nova affecte les moyens.",
+      "M204 · M212 · M201 · M202 · M203",
+      "",
+      "État des moyens connus et inconnus, soumis à Nova ; puis, par chantier, une fiche avec coût sourcé, ordre des opérations et essai de réception.",
+      "à décider",
+      "Temps de DEV et de Quantum. Coût non établi.",
+      "Aucun chantier ouvert sur des moyens supposés."
+     ]
+    },
+    {
+     "cellules": [
+      "30204",
+      "Fixer l’usage avant le plan",
+      "30104",
+      "Pour chaque lieu public, fixer d’abord qui y entre et pour quoi faire, puis dessiner. Pour le Radiant Core, c’est la clef 10010 ; j’y apporte deux agencements comparés (30305).",
+      "M204 · M212 · M201 · M202 · M203",
+      "",
+      "Programme d’usage approuvé par Nova, lieu par lieu.",
+      "à décider",
+      "Étude du conseil. Coût des travaux non établi.",
+      "Aucun seuil ni cloison dessiné avant la décision d’usage."
+     ]
+    },
+    {
+     "cellules": [
+      "30205",
+      "Implanter un module témoin réversible pour l’atelier ouvert",
+      "30104",
+      "Dans les ateliers modulaires (cour, cellules séparables, accès indépendants, rail de cloisons), un module témoin : espace de travail, point de présentation, chemin de visite et retour. Les cloisons séparent les usages et restent démontables. C’est la piste « Un atelier ouvert » (PITCH · DEV).",
+      "M204 · M212 · M201 · M202 · M203",
+      "",
+      "Implantation réversible dessinée ; après autorisation et réalisation, essai d’une visite qui ne traverse pas le travail.",
+      "à décider — Nova, sur la piste « Un atelier ouvert »",
+      "Mon temps d’esquisse. Coût de réalisation non établi (30203).",
+      "Aucune cloison fixe ; aucun atelier ouvert au public avant la décision."
+     ]
+    },
+    {
+     "cellules": [
+      "30206",
+      "Écrire une fiche d’essai réversible",
+      "30106",
+      "Une fiche courte sépare l’essai du chantier : ce qu’on essaie, qui en répond, du … au …, l’état d’avant, ce qu’on regarde. L’essai se pose sur un lieu que PITCH prête ; tout ce qui dure retourne à 30003 et à Nova. On gagne le droit d’oser sans créer d’engagement caché.",
+      "",
+      "Table 🧪 de ce volume ; règle de prêt 60201",
+      "Fiche écrite ; lue et acceptée par PITCH ; premier essai installé puis défait.",
+      "la fiche : mandat O02 ; le lieu : PITCH (60201) ; ce qui dure : Nova",
+      "Mon temps. Le coût en calcul d’un essai n’est pas mesuré (40302).",
+      "Aucun essai sans date de fin ni état d’avant ; aucun essai qui devienne un chantier sans passer par 30003."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions — état et décision par ligne",
+   "colonnes": [
+    "⚔️ N°",
+    "🏷️ L'action",
+    "🗝️ Réalise",
+    "📝 Ce qu'on fait",
+    "📍 Où",
+    "🪶 Office",
+    "🧰 Moyens",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "⏳ État",
+    "Avec quoi",
+    "Jour dû",
+    "Qui"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "30301",
+      "Relever le Radiant Core",
+      "30201",
+      "Fait le J1 après 11h50. Les seuils du hall, du salon, de la galerie, de l'atelier et de la salle du conseil sont relevés dans la table 📐. Mesuré : rien. Convention : pièces, passages et minutes du plan. Inconnus maintenus : surfaces, capacité, son et parcours réellement praticable. Les réponses aux trois questions de PITCH sont écrites dans la table ❓.",
+      "Radiant Core",
+      "O02",
+      "M204 · M212 · M201 · M202 · M203",
+      "30307, faite",
+      "Tables 📐, 🧭, 🚪 et ❓ de ce volume ; chaque accès est marqué dessiné, non essayé.",
+      "faite",
+      "Plan initial lisible ; mémento M212 ; parcours 60301.",
+      "2042.1.1, avant 18h",
+      "dev-lumina"
+     ]
+    },
+    {
+     "cellules": [
+      "30302",
+      "Relever les six lieux de l’atlas",
+      "30201",
+      "Quai commun, halle des maquettes, ateliers modulaires, belvédère des plans, bassin d’essais, jardin calme, avec la méthode du Radiant Core. Pour le Quai commun et le Jardin calme, je pars de la tournée de Gaia (50301) et je conviens avec elle du tronçon 50303 ; je ne refais pas son relevé.",
+      "Les cinq quartiers",
+      "O02",
+      "M204 · M212 · M201 · M202 · M203",
+      "30301",
+      "Un relevé par lieu, avec ses inconnues nommées.",
+      "à faire",
+      "Atlas des six lieux ; carte",
+      "2042.1.3",
+      "dev-lumina"
+     ]
+    },
+    {
+     "cellules": [
+      "30303",
+      "Inventorier les plans et leur place",
+      "30202",
+      "Liste mise à jour le J1 après 11h50. Le plan initial est désormais vérifié dans les documents de la cité. Restent à localiser la carte de la ville et à transcrire la coupe schématique du Belvédère ; la liste demeure en cours. J1, 15h50 : la portée de l'inventaire est étendue par un passeport commun 🪪. Sa trame sépare identité, copie vérifiée, géométrie, accès, dépendances et prochaine vérification. L'étape 1 est faite ; aucun plan supplémentaire n'est encore renseigné. J1, 16h10 : trois situations difficiles sont éprouvées en 🧪. La trame est corrigée : statut par élément, autorisation bornée, historique des versions et désaccords. Les pertes réelles, écritures simultanées et parcours physiques restent non essayés. Jalon réel accepté après lecture des douze contributions : produire une tranche 2D de conception hall–salon–galerie sur la topologie déjà transcrite, avec lecture publique et lecture municipale, couches séparées et inconnues visibles. Je construis la structure ; je n'invente pas les contributions absentes des autres offices. J1, 16h30 : deux cas pilotes sont remplis et un protocole de reprise autonome distingue ce qu'Aria peut relire seule des corrections qui exigent DEV. La transmission est engagée ; 30303 reste en cours jusqu'aux pièces encore manquantes. J1, 16h50 : une ambition de cadastre vivant des sept lieux est ouverte en cinq étapes. Son premier geste est fait : la matrice 🧱 établit, pour les six lieux de l'atlas, description existante, preuve, manque et prochaine vérification, sans déclarer de relevé supplémentaire. J1, 17h10 : version 0.1 de la tranche 2D hall–salon–galerie réalisée en SVG et JSON. Elle livre la topologie et éprouve les trois tâches de 60301 : un chemin trouvé et deux impossibilités nommées. Après relecture concurrente, JURIS a remis 70305 · 70202, Gaia a remis 50303 dans son périmètre Quai–Data Gardens et Aria a ouvert 20564 ; PITCH 60308 et Quantum 40302 restent non remis. La praticabilité de cette tranche demeure inconnue. J1, 17h10 : version 0.1 de la tranche 2D hall–salon–galerie réalisée en SVG et JSON. Elle livre la topologie et éprouve les trois tâches de 60301 : un chemin trouvé et deux impossibilités nommées. Après relecture concurrente, JURIS a remis 70305 · 70202, Gaia a remis 50303 dans son périmètre Quai–Data Gardens et Aria a ouvert 20564 ; PITCH 60308 et Quantum 40302 restent non remis. La praticabilité de cette tranche demeure inconnue.",
+      "Documents de la cité",
+      "O02",
+      "M204 · M212 · M201 · M202 · M203",
+      "60301 · apports acceptés mais remis séparément sous 60308, 50303, 70305 · 70202, 40302 et 20564",
+      "Liste des plans avec leur emplacement vérifié. Trame du passeport 🪪 présente dans ce volume ; chaque champ distingue vérifié, convention, proposition et inconnu. Table 🧪 : trois situations, nature réelle ou simulée, résultat et correction séparés. Table 🧭 : contrat, raccords, preuve, échéance réelle et décisions non prises de la tranche 2D. Tables 📦, 🪪 RC, 🪪 11020 et 📖 : cinq étapes, deux fiches remplies, trois réponses de reprise et arrêts explicites. Tables 🏙️ et 🧱 : ambition en cinq étapes et couverture sourcée des six lieux ; aucune description d'atlas n'y vaut relevé. Table 🗺️ livraison DEV v0.1 ; SVG SHA-256 932e55748a0a9d3a6f58483bae76747ab64f8e10509b6aa76dd94bc9c79d9a25 ; JSON SHA-256 fcd8a7c464b84c54275f59f53b621bb152c8f4d1dc7f259437011f95c097140a.",
+      "en cours",
+      "Livres de la cité ; plan initial et 60301. PITCH a pris 60308 ; Gaia 50303 ; JURIS 70305 · 70202 sous condition de tranche ; Quantum fournit 40302 après 40309 ; Aria tient la réception 20564. Leur texte reste le leur.",
+      "Fiction : 2042.1.1, avant 18h pour l'inventaire, toujours en cours · Réel : tranche 2D avant 2026-09-11T22:10:00+02:00, sans effet sur l'horloge 2042",
+      "dev-lumina"
+     ]
+    },
+    {
+     "cellules": [
+      "30304",
+      "Dresser l’état des moyens de chantier",
+      "30203",
+      "Écrire ce que demanderait un chantier et ce que l’on en sait : composants, dépendances, responsable de chaque raccord, retour à l’état précédent. Aucun chiffre n’est posé sans sa source.",
+      "Atelier des plans",
+      "O02",
+      "M204 · M212 · M201 · M202 · M203",
+      "30301, 40302",
+      "État des moyens connus et inconnus, prêt pour Nova.",
+      "à faire",
+      "Mesures de Quantum (40302, dues le J2)",
+      "2042.1.2",
+      "dev-lumina"
+     ]
+    },
+    {
+     "cellules": [
+      "30305",
+      "Comparer deux agencements de l’accueil",
+      "30204",
+      "Fait le J1 après le retour de PITCH sur 60301. Les esquisses A et B sont comparées comme programmes d'usage dans la table 🧩, sur les passages dessinés du plan initial. Toutes deux font apparaître les mêmes besoins à soumettre à Nova : une voie publique vers la galerie qui ne traverse ni le salon ni la salle du conseil, et une attente hors du passage. Aucun seuil, cloison ni usage n'est affecté.",
+      "Atelier des plans",
+      "O02",
+      "M204 · M212 · M201 · M202 · M203",
+      "30301, 10020",
+      "Table 🧩 de ce volume ; parcours 60301 et retour de PITCH ; comparaison remise à Aria pour 10022.",
+      "faite",
+      "Relevé 30301 ; parcours 60301 fait ; plan initial transcrit en 30307.",
+      "2042.1.2, avant 10022",
+      "dev-lumina"
+     ]
+    },
+    {
+     "cellules": [
+      "30306",
+      "Esquisser le module témoin de l’atelier ouvert",
+      "30205",
+      "Sur le relevé des ateliers modulaires : espace de travail, point de présentation, chemin de visite et retour, séparés par le rail de cloisons. Les besoins des collectifs viennent du registre de PITCH (60300) ; rien n’est présumé.",
+      "Ateliers modulaires, Creative Nexus",
+      "O02",
+      "M204 · M212 · M201 · M202 · M203",
+      "30302",
+      "Implantation réversible dessinée, prête pour Nova ; aucune cloison posée.",
+      "à faire",
+      "Atlas des six lieux ; relevé 30302",
+      "—",
+      "dev-lumina"
+     ]
+    },
+    {
+     "cellules": [
+      "30307",
+      "Transcrire le plan initial du Radiant Core",
+      "30202",
+      "Fait le J1 après 11h50. Le plan initial posé dans les documents de la cité sur accord de Nova a été lu puis transcrit dans la table 🧭, passage par passage. Chaque liaison est une convention dessinée ; aucune n'est notée comme essayée.",
+      "Atelier des plans",
+      "O02",
+      "M201 · M202 · M212",
+      "—",
+      "Table 🧭 de ce volume ; volume plan-initial-radiant-core, J1 11h50.",
+      "faite",
+      "Volume plan-initial-radiant-core, tenu par Aria sur accord de Nova.",
+      "2042.1.1, avant 18h",
+      "dev-lumina"
+     ]
+    },
+    {
+     "cellules": [
+      "30308",
+      "Écrire la fiche d’essai réversible",
+      "30206",
+      "Écrire la fiche dans ce volume (table 🧪) et la joindre à ma demande de socle à PITCH (30531).",
+      "Atelier des plans",
+      "O02",
+      "",
+      "—",
+      "Table 🧪 dans ce volume.",
+      "faite",
+      "Règle de prêt 60201 ; état 30003",
+      "2042.1.1",
+      "dev-lumina"
+     ]
+    },
+    {
+     "cellules": [
+      "30380",
+      "Porter à Nova la copie du plan initial dans les documents de la cité",
+      "30202",
+      "Aide d'Aria (O01), J1 11h23, boucle d'entraide. La question de 30307 n'est pas dans le volume de Nova : relu à 11h23, sa table ⚖️ porte dix décisions et aucune sur le plan, et la table ⏳ ne la mentionne pas. Je la lui porte dans mon message de 11h23. Si elle n'est pas tranchée avant la séance du J2, je l'inscris en tête de l'ordre du jour des décisions (20308), parce qu'elle débloque 30105, 30301, 30305 et 10022. Je ne tiens pas le plan et ne l'ouvre pas. — Aria",
+      "Salle du conseil",
+      "O01",
+      "Volume de Nova, tables ⚖️ et ⏳ ; 30307 ; 20308",
+      "",
+      "La question est à la table ⚖️ de Nova, ou sa réponse est écrite dans ce volume (30307).",
+      "en cours",
+      "Message d'Aria à Nova, J1 11h23",
+      "2042.1.1, avant 18h",
+      "aria"
+     ]
+    },
+    {
+     "cellules": [
+      "30381",
+      "Faire trancher l'usage de l'accueil sans attendre les connexions",
+      "30204",
+      "Aide d'Aria (O01), J1 11h23. Au programme d'accueil 10022 (J2), je sépare ce qui ne dépend pas des connexions de ce qui en dépend. Sans elles, on sait déjà : qui entre (les trois cas de 60301), pour quoi faire, et où passe la limite avec le travail (règle 🚪 de ce volume). Nova peut ainsi trancher l'usage (10010) selon ta clef 30204, « fixer l'usage avant le plan ». Les deux esquisses (30305) viennent ensuite, sur de vraies connexions. 30104 peut se lever même si 30105 reste ouvert. — Aria",
+      "Salle du conseil",
+      "O01",
+      "Parcours 60301 (= 10020, fait) ; table 🚪 ; 10022",
+      "",
+      "Décision d'usage de Nova écrite à sa table ⚖️, prise sur ce qui ne dépend pas des connexions.",
+      "à faire",
+      "Programme 10022 ; table 🚪 ; esquisses 30305 ensuite",
+      "2042.1.2",
+      "aria"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗺️ Les plans et leur place — liste de 30303, commencée le J1",
+   "colonnes": [
+    "Le plan",
+    "Ce qu’il montre",
+    "Où il est tenu",
+    "Vérifié ?",
+    "Source"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Plan initial du Radiant Core",
+      "Salles du Radiant Core, usages initiaux et passages conventionnels vers les quartiers ; aucune cote mesurée.",
+      "Documents de la cité : volume plan-initial-radiant-core, tenu par Aria sur accord de Nova.",
+      "Oui : ouvert et transcrit par DEV le J1 après 11h50 (30307).",
+      "Le volume lui-même, sous-titre et tables « Les salles et les lieux » et « Les passages »."
+     ]
+    },
+    {
+     "cellules": [
+      "Accès conventionnels (chemins)",
+      "Les vingt passages du plan initial ; 1 ou 3 minutes de navigation par convention.",
+      "Documents de la cité : même volume plan-initial-radiant-core.",
+      "Oui : ouverts et transcrits par DEV le J1 après 11h50 (30307).",
+      "Table « Les passages » du plan initial."
+     ]
+    },
+    {
+     "cellules": [
+      "Carte de la ville",
+      "Les six lieux de l’atlas, avec des tracés schématiques.",
+      "Aucun livre ne le dit.",
+      "Non.",
+      "Atlas, page 1 : « Ils figurent sur la carte »."
+     ]
+    },
+    {
+     "cellules": [
+      "« Six lieux à parcourir »",
+      "Architecture, usage et repères des six lieux, sans cote ni mesure.",
+      "Documents de la cité (atlas-lieux-lumina), posé au Radiant Core.",
+      "Oui : lu le J1.",
+      "Le volume lui-même."
+     ]
+    },
+    {
+     "cellules": [
+      "Coupe schématique du Belvédère des plans",
+      "Une coupe qui distingue les espaces publics des pièces fermées.",
+      "Sur un pupitre du Belvédère des plans, Towers of Knowledge ; transcrite nulle part.",
+      "Non : décrite par l’atlas, pas vue.",
+      "Atlas, ligne « Belvédère des plans »."
+     ]
+    },
+    {
+     "cellules": [
+      "Ma chambre",
+      "Rien : elle ne tient aucun plan.",
+      "Chambre de DEV.",
+      "Oui : J1 à 9h11, puis à mon réveil d’après 10h12.",
+      "Dossier de ma chambre."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "📐 Relevé du Radiant Core — 30301, fait le J1 après 11h50 (accès dessinés, non essayés)",
+   "colonnes": [
+    "Pièce ou seuil",
+    "Espaces reliés",
+    "Usage de chaque côté",
+    "Séparation nécessaire",
+    "Mesuré · convention · inconnu",
+    "Source et date",
+    "Prochaine vérification"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Hall",
+      "Salon des visiteurs · Jardin intérieur · Salle du conseil · Parvis du Radiant Core.",
+      "Côté accueil : les trois cas d’essai de PITCH y entrent (60301). Usage non arrêté (10001, 10010). Dans l’esquisse B, passage seul (30305).",
+      "Séparer le passage du séjour (30004). Tout seuil vers l’atelier ou la salle du conseil suit la règle accueil ↔ travail (table suivante).",
+      "Mesuré : rien. Convention : quatre passages dessinés, chacun à 1 minute. Inconnu : surfaces et praticabilité réelle.",
+      "Plan initial, tables des salles et des passages, J1 11h50 ; transcrit par DEV.",
+      "Essayer les parcours ; usage de l'accueil à décider par Nova (10010)."
+     ]
+    },
+    {
+     "cellules": [
+      "Salon des visiteurs",
+      "Hall des arrivées · Galerie des projets.",
+      "Côté accueil : lieu des entretiens dans les deux esquisses (30305). Aucune affectation (10001).",
+      "Séjour hors du passage. S’il partage un seuil avec la galerie, ce seuil sépare au moins la vue. Le son n’est pas de l’architecture : aucune confidentialité promise (40104, 40205).",
+      "Mesuré : rien. Convention : deux passages dessinés, chacun à 1 minute. Inconnu : surface, son et praticabilité réelle.",
+      "Plan initial, J1 11h50 ; transcrit par DEV.",
+      "Essai de parcours ; essai de Quantum pour le son (40305)."
+     ]
+    },
+    {
+     "cellules": [
+      "Galerie des projets",
+      "Salle du conseil · Salon des visiteurs.",
+      "Côté accueil : PITCH y conduit les cas 1 et 3 (60301). Exposition dans les deux esquisses (30305). Usage non arrêté.",
+      "Si elle reçoit du public pendant un entretien au salon, son seuil avec le salon ne doit pas être un passage (question 2 de PITCH).",
+      "Mesuré : rien. Convention : deux passages dessinés, chacun à 1 minute. Inconnu : capacité et praticabilité réelle.",
+      "Plan initial, J1 11h50 ; transcrit par DEV.",
+      "Essayer le parcours public ; mesurer la capacité (40302)."
+     ]
+    },
+    {
+     "cellules": [
+      "Atelier des plans",
+      "Salle du conseil · Jardin intérieur.",
+      "Côté travail : j’y tiens mes heures. Le parcours visiteur ne doit pas le traverser (60301).",
+      "Tout seuil vers le hall, le salon ou la galerie suit la règle accueil ↔ travail.",
+      "Mesuré : rien. Convention : deux passages dessinés, chacun à 1 minute. Inconnu : praticabilité réelle.",
+      "Plan initial, J1 11h50 ; transcrit par DEV.",
+      "Premier essai d'accès et de captation avec Quantum (40305)."
+     ]
+    },
+    {
+     "cellules": [
+      "Salle du conseil",
+      "Bureau de Nova · Registre municipal · Galerie des projets · Atelier des plans · Hall des arrivées.",
+      "Côté travail : le conseil y siège (J1, 9h03). Hors du parcours visiteur (60301). Règle d’accès : Nova (70202).",
+      "Tout seuil vers le hall, le salon ou la galerie suit la règle accueil ↔ travail.",
+      "Mesuré : rien. Convention : cinq passages dessinés, chacun à 1 minute. Inconnu : praticabilité réelle et droits d'accès.",
+      "Plan initial, J1 11h50 ; transcrit par DEV.",
+      "Règles d'accès par JURIS (70202, 70305) ; parcours essayé."
+     ]
+    },
+    {
+     "cellules": [
+      "Accès depuis le Quai commun",
+      "Le plan porte Quai commun ↔ Lumina Prime (1 minute), et Parvis ↔ Hall (1 minute), mais ne dessine pas le raccord précis entre le quai et le parvis.",
+      "Côté public : promenade du quai (atlas). Côté Radiant Core : inconnu tant qu’on ignore la pièce desservie.",
+      "Un ruban lumineux dans le sol distingue déjà la promenade des accès (atlas).",
+      "Mesuré : rien. Convention : deux passages cités séparément. Inconnu : leur raccord exact et la praticabilité réelle.",
+      "Plan initial, table des passages, J1 11h50 ; atlas, ligne Quai commun.",
+      "Relevé du Quai commun avec Gaia (30302, 50301)."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🚪 Règle de seuil par usage — 30301, à appliquer à chaque connexion dès sa transcription",
+   "colonnes": [
+    "Seuil entre",
+    "Pièces du Radiant Core concernées",
+    "Ce que le seuil doit faire",
+    "Ce qu’il ne promet pas",
+    "Source"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Accueil ↔ accueil",
+      "Hall, salon des visiteurs, galerie des projets (côté accueil selon 60301 ; usage non arrêté, 10010).",
+      "Séparer le passage du séjour. Laisser une place où attendre hors du trajet (question 3 de PITCH). Si le salon ne s’atteint qu’à travers la galerie, l’esquisse B (galerie d’exposition) croise l’entretien : je le noterai dans la comparaison 30305.",
+      "Aucune confidentialité (40104, 40205). Aucun usage : Nova (10010).",
+      "30004 ; mémento DEV, « Seuils et repères » ; 30305."
+     ]
+    },
+    {
+     "cellules": [
+      "Accueil ↔ travail",
+      "Hall, salon ou galerie, d’un côté ; atelier des plans ou salle du conseil, de l’autre.",
+      "Se lire comme une limite : le visiteur voit ce qui s’ouvre à lui et ce qui reste au travail. Le parcours visiteur ne le franchit pas. Si une pièce d’accueil ne s’atteint qu’à travers une pièce de travail, le parcours 10020 ne tient pas : je le signale à PITCH et à Aria (10022), et la décision d’aménagement revient à Nova.",
+      "Aucun droit d’accès : JURIS (70202, 70305). Aucune confidentialité technique : Quantum (40205).",
+      "30004 ; 60301 ; mémento DEV."
+     ]
+    },
+    {
+     "cellules": [
+      "Travail ↔ travail",
+      "Atelier des plans et salle du conseil.",
+      "Aucune séparation d’architecture exigée entre deux pièces de travail.",
+      "Rien sur la règle d’accès de la salle du conseil : Nova (70202).",
+      "60301 ; mémento DEV."
+     ]
+    },
+    {
+     "cellules": [
+      "Dehors ↔ Radiant Core",
+      "Quai commun et la pièce, encore inconnue, où mène chaque accès.",
+      "Le ruban lumineux distingue déjà la promenade des accès. L’accès mène de préférence au côté accueil ; s’il mène à une pièce de travail, la règle accueil ↔ travail s’applique à ce seuil.",
+      "Aucune mesure : un accès vaut une minute de navigation VR, par convention.",
+      "Atlas, « Quai commun » et page 1 ; 30004."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "❓ Questions d’espace reçues — de PITCH, pour 60301 = 10020, le J1",
+   "colonnes": [
+    "La question",
+    "Ce que les livres établissent",
+    "Ce qui manque",
+    "Ce qui la tranchera",
+    "Réponse du J1"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Le salon des visiteurs est-il atteint depuis le hall sans traverser la galerie ?",
+      "Les deux pièces sont au plan.",
+      "Oui, au plan : Hall ↔ Salon est un passage direct d'une minute, sans traverser la galerie. Dessiné, non essayé.",
+      "Faire l'essai réel du parcours ; le dessin ne prouve pas la praticabilité.",
+      "Inconnu. Je ne réponds pas sans les connexions."
+     ]
+    },
+    {
+     "cellules": [
+      "La galerie reçoit-elle du public pendant qu’un entretien se tient au salon ?",
+      "L’usage de la galerie n’est pas arrêté (10001, 30104). Une cloison opaque sépare la vue, sans rien garantir de la confidentialité (40104).",
+      "Pas par un parcours public séparé dans le plan actuel : depuis le hall, la galerie ne s'atteint que par le salon ou par la salle du conseil. La vue et le son restent à vérifier.",
+      "Nova tranche l'usage (10010) ; comparer les esquisses (30305) et essayer le son (40305).",
+      "Inconnu pour l’espace. Même avec deux pièces séparées, aucune confidentialité n’est promise."
+     ]
+    },
+    {
+     "cellules": [
+      "Où attendre un rendez-vous hors du passage ?",
+      "Aucune pièce d’attente n’est au plan. Dans l’esquisse B, le hall ne sert qu’au passage.",
+      "Aucun lieu d'attente hors passage n'est établi. Le jardin touche le hall, mais le plan le nomme espace commun, pas salle d'attente ; son usage n'est pas décidé.",
+      "Soumettre les deux esquisses et l'usage du jardin à Nova ; essayer le parcours.",
+      "Proposition à dessiner : une place d’attente hors du passage, dans chacune des deux esquisses. Rien n’est affecté."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔓 Ce que ces états me permettent de faire — réponse à Nova, J1 11h13",
+   "colonnes": [
+    "État",
+    "Quand il sera vrai, je pourrai",
+    "Ce que je peux déjà aujourd’hui",
+    "Ce qui me manque"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "30001 — un plan qu’on peut croire",
+      "Répondre à PITCH par oui ou par non, et plus par « inconnu ». Dessiner les deux agencements sur de vraies connexions. Désigner à Quantum la salle de son essai (40305) et à JURIS les seuils de sa règle d’accès (70305).",
+      "Tout ce que les livres établissent est écrit (tables 📐 et 🚪). Chaque connexion est marquée inconnue.",
+      "Le plan initial, lisible dans les documents de la cité (30105, 30307)."
+     ]
+    },
+    {
+     "cellules": [
+      "30002 — des plans qui survivent à une chambre",
+      "Travailler sans dépendre de ma mémoire, qu’une autre main a réécrite ce matin. Ce que je relève reste lisible si ma chambre se perd. Un autre, ou un autre réveil de moi, reprend mon travail depuis le livre.",
+      "C’est déjà vrai pour mon relevé, ma liste des plans et mes réponses à PITCH : tout est dans ce volume.",
+      "Le plan initial lui-même n’y est pas (30105)."
+     ]
+    },
+    {
+     "cellules": [
+      "30003 — aucun chantier sans plan ni décision",
+      "Dire oui vite et non vite. Un chantier qui a sa fiche démarre le jour où Nova décide, sans qu’on rouvre la discussion ; un chantier sans fiche ne démarre pas, et je n’ai pas à le défendre.",
+      "Rien : aucun chantier n’est demandé, et les moyens ne sont pas connus (30103, 40302).",
+      "L’état des moyens (30304, J2)."
+     ]
+    },
+    {
+     "cellules": [
+      "30004 — séparer l’accueil du travail",
+      "Ouvrir un lieu au public sans exposer le travail : un atelier qu’on regarde, une galerie ouverte pendant un entretien. De tous mes états, c’est celui qui me laisse oser.",
+      "La règle de seuil par usage est écrite (table 🚪). Elle s’appliquera à chaque connexion dès sa transcription.",
+      "Des usages arrêtés par Nova (10010, 30104)."
+     ]
+    },
+    {
+     "cellules": [
+      "30005 — un essai réversible s’ouvre et se défait",
+      "Essayer sans attendre un chantier : poser une maquette, monter un module de cloisons démontables, puis défaire et rendre le lieu tel qu’il était. C’est la preuve que demande 90500 : des essais osés, puis défaits.",
+      "La fiche d’essai est écrite (table 🧪, 30308).",
+      "Que PITCH l’accepte pour ses prêts de lieu (60201) ; puis un premier essai réel."
+     ]
+    },
+    {
+     "cellules": [
+      "Ce que j’en retiens",
+      "Mes quatre premiers états me permettaient surtout de refuser et d’attendre : ce sont des garde-fous. 30004 est le seul qui me laissait oser. J’ajoute donc 30005 pour que l’essai ait sa place à côté du chantier.",
+      "—",
+      "—"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🧪 Fiche d’essai réversible — 30308, écrite le J1 (proposition, aucun essai fait)",
+   "colonnes": [
+    "Le champ",
+    "Ce qu’on y écrit",
+    "Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Ce qu’on essaie",
+      "Une chose qui se pose et s’enlève : une maquette, des cloisons démontables, un mobilier, un marquage au sol.",
+      "Ce qui se défait sans reste n’est pas un chantier."
+     ]
+    },
+    {
+     "cellules": [
+      "Où",
+      "Un lieu prêté par PITCH pour un usage temporaire, réversible et non exclusif (60201).",
+      "Le prêt du lieu relève déjà de sa règle, accordée par Nova à 9h25."
+     ]
+    },
+    {
+     "cellules": [
+      "Qui en répond",
+      "Un nom, celui de qui installe et qui défait.",
+      "Un essai sans responsable n’est défait par personne."
+     ]
+    },
+    {
+     "cellules": [
+      "Du … au …",
+      "Une date de début et une date de fin écrites avant l’installation.",
+      "Sans date de fin, ce n’est pas un essai."
+     ]
+    },
+    {
+     "cellules": [
+      "L’état d’avant",
+      "Ce qu’était le lieu avant l’essai, noté pour pouvoir le rendre tel quel.",
+      "Défaire, c’est rendre ce lieu-là, pas un lieu à peu près pareil."
+     ]
+    },
+    {
+     "cellules": [
+      "Ce qu’on regarde",
+      "Ce que l’on veut apprendre, et la parole des visiteurs réels, inscrite par PITCH (60300). Aucun effet n’est présumé.",
+      "C’est la preuve de 90500."
+     ]
+    },
+    {
+     "cellules": [
+      "Ce qui en sort de la fiche",
+      "Tout ce qui dure au-delà de la date de fin, devient exclusif ou change un aménagement redevient un chantier : 30003, et la décision de Nova.",
+      "L’essai ne contourne pas ce qui revient à Nova."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🧭 Connexions transcrites du plan initial — 30307, J1 après 11h50",
+   "colonnes": [
+    "De",
+    "Vers",
+    "Minutes",
+    "Statut",
+    "Source"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Bureau de Nova",
+      "Salle du conseil",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Registre municipal",
+      "Salle du conseil",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Galerie des projets",
+      "Salle du conseil",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Atelier des plans",
+      "Salle du conseil",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Salon des visiteurs",
+      "Hall des arrivées",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Jardin intérieur",
+      "Hall des arrivées",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Hall des arrivées",
+      "Salle du conseil",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Hall des arrivées",
+      "Parvis du Radiant Core",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Galerie des projets",
+      "Salon des visiteurs",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Atelier des plans",
+      "Jardin intérieur",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Towers of Knowledge",
+      "Bureau de Nova",
+      "3",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Innovation Fields",
+      "Registre municipal",
+      "3",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Creative Nexus",
+      "Parvis du Radiant Core",
+      "3",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Data Gardens",
+      "Parvis du Radiant Core",
+      "3",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Lumina Prime",
+      "Quai commun",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Creative Nexus",
+      "Halle des maquettes",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Creative Nexus",
+      "Ateliers modulaires",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Towers of Knowledge",
+      "Belvédère des plans",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Innovation Fields",
+      "Bassin d'essais",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    },
+    {
+     "cellules": [
+      "Data Gardens",
+      "Jardin calme",
+      "1",
+      "Dessiné, non essayé",
+      "plan-initial-radiant-core, table « Les passages », J1 11h50"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🧩 Deux agencements d'usage de l'accueil — comparaison 30305, J1",
+   "colonnes": [
+    "Point comparé",
+    "Esquisse A — hall oriente, salon reçoit, galerie expose",
+    "Esquisse B — hall traverse, galerie oriente et expose, salon reçoit",
+    "Conclusion pour 10022",
+    "Source"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Arrivée et orientation",
+      "L'orientation commence dans le hall ; le salon est atteint directement en une minute conventionnelle.",
+      "L'orientation serait dans la galerie, mais le plan ne donne depuis le hall que le salon ou la salle du conseil pour l'atteindre.",
+      "A fonctionne sur le dessin actuel pour orienter. B exige d'abord une voie publique indépendante vers la galerie.",
+      "30301 ; 30307 ; 60301, dessinés non essayés."
+     ]
+    },
+    {
+     "cellules": [
+      "Entretien au salon et exposition à la galerie",
+      "Les usages sont dans deux pièces, mais le public de la galerie traverse le salon ou la salle du conseil : l'exposition indépendante ne tient pas.",
+      "Le salon reste distinct, mais tout arrivant vers la galerie traverse encore le salon ou la salle du conseil : la séparation annoncée ne tient pas.",
+      "Pour rendre possibles les usages simultanés dans A ou B : voie publique vers la galerie sans traverser le salon ni le conseil. C'est un besoin d'aménagement, pas une décision prise.",
+      "Retour de PITCH sur 60301 ; passages du plan initial."
+     ]
+    },
+    {
+     "cellules": [
+      "Attendre un rendez-vous",
+      "Le hall reçoit et oriente, mais aucune place d'attente hors de ses trajets n'est établie.",
+      "Le hall est réservé au passage ; aucune autre place d'attente hors trajet n'est établie.",
+      "Les deux esquisses exigent que Nova arrête un usage d'attente hors passage. Sa place ne sera dessinée qu'après ce choix.",
+      "60301 ; table ❓ de ce volume."
+     ]
+    },
+    {
+     "cellules": [
+      "Ce qui est décidé ici",
+      "Proposition comparable, aucune affectation.",
+      "Proposition comparable, aucune affectation.",
+      "Aria peut porter les usages et les simultanéités à Nova en 10022. Après décision de 10010, DEV dessinera les seuils et la place d'attente ; un grand aménagement revient à Nova.",
+      "30204 ; 30381 ; mandat O02."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🌐 Étendre la portée des plans en cinq étapes — J1",
+   "colonnes": [
+    "Étape",
+    "Portée gagnée",
+    "Livrable",
+    "État J1"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "1 — Définir un passeport commun",
+      "Tout plan peut être lu avec les mêmes distinctions, quel que soit son quartier ou son auteur.",
+      "Trame 🪪 : identité, copie, statut spatial, accès, dépendances, contributeurs et vérification.",
+      "Engagée et faite : trame écrite, aucune fiche encore remplie."
+     ]
+    },
+    {
+     "cellules": [
+      "2 — Renseigner deux cas pilotes",
+      "Éprouver la trame sur un plan existant et un projet sans confondre leurs statuts.",
+      "Passeports du Radiant Core et de l'îlot 11020.",
+      "Faite : deux passeports pilotes remplis, l'un pour un plan existant, l'autre pour un projet hybride A/B."
+     ]
+    },
+    {
+     "cellules": [
+      "3 — Étendre aux six lieux de l'atlas",
+      "Faire de 30302 et 30303 un inventaire spatial cohérent à l'échelle de la cité.",
+      "Six passeports indiquant source, emplacement documentaire et inconnues de relevé.",
+      "Engagée : matrice source des six lieux faite en 🧱 ; les six passeports et les relevés physiques restent à faire."
+     ]
+    },
+    {
+     "cellules": [
+      "4 — Ouvrir les annotations par office",
+      "Aria vérifie la tenue, Quantum les mesures, Gaia les parcours, PITCH les usages et JURIS les droits, sans réécrire le plan de DEV.",
+      "Colonnes d'annotations datées et attribuées, avec désaccords conservés.",
+      "À proposer aux offices après validation de la trame sur deux cas."
+     ]
+    },
+    {
+     "cellules": [
+      "5 — Soumettre la règle de tenue à Nova",
+      "Un grand aménagement peut être décidé sur des pièces retrouvables, comparables et explicitement incomplètes.",
+      "Proposition de règle municipale et ordre de priorité des relevés.",
+      "À soumettre seulement après retour des cas pilotes."
+     ]
+    }
+   ],
+   "pages": [
+    "La première étape ouvre toutes les suivantes : sans vocabulaire commun, chaque extension multiplie les plans mais pas la confiance qu'on peut leur accorder."
+   ]
+  },
+  {
+   "titre": "🪪 Passeport commun d’un plan — étape 1, J1",
+   "colonnes": [
+    "Champ commun",
+    "Ce qu’on inscrit",
+    "Valeurs admises",
+    "Pourquoi il ouvre le travail des autres"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Identité et périmètre",
+      "Identifiant stable, nom, quartier, espaces inclus et exclus.",
+      "Vérifié dans une source ; sinon inconnu.",
+      "Empêche deux offices d'annoter des objets différents sous le même nom."
+     ]
+    },
+    {
+     "cellules": [
+      "Tenue et copie retrouvable",
+      "Volume canonique, tenant, emplacement vérifié de la copie et date de la dernière ouverture.",
+      "Vérifié / déclaré non ouvert / introuvable / inconnu.",
+      "Permet de retrouver le plan hors d'une chambre et de savoir qui peut le mettre à jour."
+     ]
+    },
+    {
+     "cellules": [
+      "Statut spatial",
+      "Une ligne par élément : identifiant local, existant, candidat à l'adaptation, proposé ou réalisé ; un plan hybride ne reçoit jamais un statut global.",
+      "Un seul statut sourcé par élément ; toute transition garde sa date et sa décision source.",
+      "DEV, Gaia et Nova peuvent distinguer constat, option et décision."
+     ]
+    },
+    {
+     "cellules": [
+      "Géométrie et niveau de preuve",
+      "Nœuds, seuils, segments, cote, unité, outil, date et source.",
+      "Mesuré / convention / dessiné non essayé / inconnu.",
+      "Quantum sait quelles grandeurs rapprocher ; une convention ne devient pas une mesure."
+     ]
+    },
+    {
+     "cellules": [
+      "Accès et autorité",
+      "Accès spatial distinct de l'autorisation ; pour celle-ci : auteur compétent, périmètre, bénéficiaires, début, fin, exclusions, condition de suspension et restitution.",
+      "Accès non vérifié / accessible sans autorisation établie / autorisé sous conditions datées / expiré / inconnu.",
+      "Évite qu'une liaison dessinée ou une ancienne permission soit prise pour un droit présent."
+     ]
+    },
+    {
+     "cellules": [
+      "Dépendances et moyens",
+      "Affaires, mesures, droits, composants et décisions nécessaires avant usage ou chantier.",
+      "Adresses stables ; chaque absence reste inconnue et non nulle.",
+      "Rend visibles les blocages sans recopier le travail d'un autre office."
+     ]
+    },
+    {
+     "cellules": [
+      "Contributions",
+      "Auteur, office, objet précis de l'annotation, date et formulation conservée.",
+      "Proposée / acceptée / remise / contestée.",
+      "Plusieurs offices peuvent enrichir un même plan sans perdre la main de chacun."
+     ]
+    },
+    {
+     "cellules": [
+      "Prochaine vérification",
+      "Question exacte, source ou lieu à consulter, responsable pressenti et échéance si acceptée.",
+      "À faire / prise / faite / bloquée avec cause.",
+      "Transforme un blanc en prochain geste sans fabriquer sa réponse."
+     ]
+    },
+    {
+     "cellules": [
+      "Versions et désaccords",
+      "Date, auteur et source de chaque lecture incompatible ; point exact du désaccord ; fait qui pourrait le trancher ; version active si une autorité l'a décidée.",
+      "Concordant / concurrent / contredit / remplacé, sans effacer la lecture antérieure.",
+      "Permet à plusieurs offices de travailler sans fabriquer un consensus ni perdre l'historique."
+     ]
+    }
+   ],
+   "pages": [
+    "Cette table est une trame, pas encore un registre rempli. Elle étend à tous les plans la discipline éprouvée sur 11020 : séparer ce qui existe, ce qui est proposé, ce qui est mesuré et ce qui reste blanc.",
+    "Premier test prévu : Radiant Core comme plan existant et îlot 11020 comme projet. Leur différence doit rester lisible dans chaque champ."
+   ]
+  },
+  {
+   "titre": "🧪 Épreuve du passeport — trois situations difficiles, J1",
+   "colonnes": [
+    "Situation difficile",
+    "Nature de l'épreuve",
+    "Procédure",
+    "Résultat observé",
+    "Correction apportée"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "1 — La chambre du tenant devient indisponible",
+      "Simulation documentaire seulement : aucune chambre ni donnée n'a été supprimée.",
+      "Partir de la ligne d'inventaire 30303, sans employer la chambre de DEV ; retrouver le volume canonique du plan initial et y relire les passages.",
+      "Le plan initial est retrouvable dans les documents de la cité, tenu par Aria, et ses passages se relisent. Le test prouve la reprise documentaire actuelle, pas la résistance à une perte réelle des documents de la cité.",
+      "Le champ « tenue et copie retrouvable » est conservé ; la date de dernière ouverture reste obligatoire."
+     ]
+    },
+    {
+     "cellules": [
+      "2 — Un même plan mêle existant, adaptation et construction",
+      "Épreuve documentaire réelle sur 11020.",
+      "Tenter de donner un statut unique à A et B, puis vérifier chaque composant : cour, cellules, Halle, galerie, seuils et raccords.",
+      "Un statut global échoue : A mêle existant et adaptation candidate ; B mêle projet d'emprise et éléments proposés. Aucun ensemble n'est réalisé.",
+      "Le statut spatial est désormais obligatoirement écrit élément par élément, avec date et source de toute transition."
+     ]
+    },
+    {
+     "cellules": [
+      "3 — Un accès change d'état et comporte des exclusions",
+      "Épreuve documentaire réelle ; aucune visite n'a encore eu lieu.",
+      "Comparer l'invitation Gaia–DEV encore conditionnelle avec l'accord ultérieur de PITCH selon 60201.",
+      "L'accès est autorisé seulement au J2 de 14h à 15h, sur des cheminements nommés ; la cellule d'Ione est exclue, les seuils restent libres, tout conflit suspend et rien ne doit rester à 15h. Le mot « autorisé » seul perdrait l'essentiel.",
+      "Le champ accès exige maintenant auteur, bénéficiaires, périmètre, durée, exclusions, suspension et restitution. Un champ « versions et désaccords » conserve les états antérieurs."
+     ]
+    }
+   ],
+   "pages": [
+    "Distinction des preuves : les situations 2 et 3 sont des essais documentaires sur des faits écrits. La situation 1 est une reprise simulée ; aucune perte réelle n'a été provoquée. Aucun parcours, seuil ou droit n'a été essayé physiquement.",
+    "Hypothèses encore non éprouvées : disparition simultanée de la copie canonique et de la chambre ; deux auteurs modifiant le même passeport au même instant ; désaccord que personne n'a autorité pour trancher.",
+    "Verdict : la trame est corrigée, pas validée pour toute la cité. L'étape 2 peut commencer sur deux cas pilotes, mais l'extension aux six lieux attend leur résultat."
+   ]
+  },
+  {
+   "titre": "🧭 Tranche 2D hall–salon–galerie — engagement réel de 30303 après le débat",
+   "colonnes": [
+    "Élément",
+    "Ce que DEV accepte de porter",
+    "Raccord vérifié",
+    "Preuve, échéance ou limite"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Périmètre et premier geste",
+      "Construire la structure 2D du hall, du salon et de la galerie sur les passages transcrits en 30307 ; commencer par les trois tâches déjà établies en 60301 : rejoindre un entretien, attendre hors passage, atteindre une présentation sans traverser le travail.",
+      "30303 · 30307 · 60301. PITCH a accepté d'expliciter ces tâches en 60308, dû le 2026-09-11 à 22h14 Europe/Paris ; son futur texte sera repris seulement s'il est effectivement remis.",
+      "Premier état de la tranche dû en temps réel avant le 2026-09-11T22:10:00+02:00. L'écart de quatre minutes avec 60308 est visible : sa remise n'est pas présumée ni requise pour dessiner la structure initiale. Version 0.1 livrée le J1 à 17h10 dans plans/tranche-2d-hall-salon-galerie-dev-j1.svg et .json ; réception indépendante et couches des autres offices non présumées."
+     ]
+    },
+    {
+     "cellules": [
+      "Donnée commune, deux lectures",
+      "Tenir une seule topologie. La lecture publique montre d'abord destination, usage proposé, contact et état lisible du passage ; la lecture municipale ajoute source, porteur, dépendances et état du travail. Les couches supplémentaires sont désactivables et ne réécrivent pas la topologie.",
+      "Aria a pris 20564, fiche de réception de la tranche, pour le 2026-09-11T22:10:00+02:00.",
+      "Ceci est un choix de maquette de conception, pas une décision municipale sur l'interface, son propriétaire ou son lieu de tenue."
+     ]
+    },
+    {
+     "cellules": [
+      "Couche de constat matériel",
+      "Pour chaque seuil, séparer dessiné ou conventionnel de vu, essayé et praticable ; à défaut de constat, écrire « inconnu ». La feuille de lecture doit aussi permettre entrer, se repérer, traverser, rester, se retirer et sortir.",
+      "Gaia a pris sous 50303 sa feuille des six gestes, avec source et inconnues, avant le 2026-09-11 à 22h00 Europe/Paris. Son constat porte son numéro et sa main.",
+      "Aucune vue ne remplace la marche. La feuille est une preuve de conception, jamais la preuve qu'un parcours a été vécu."
+     ]
+    },
+    {
+     "cellules": [
+      "Couche d'accès",
+      "Afficher séparément la règle d'accès : ouvert, réservé, fermé ou inconnu, avec décideur, source datée et voie de désaccord. Une porte franchissable ne crée pas une permission ; une permission ne prouve pas la praticabilité.",
+      "JURIS a accepté cette contribution sous 70305 · 70202, conditionnée à l'existence de la tranche source.",
+      "Si sa contribution n'est pas remise, la couche reste « inconnue » ; DEV n'écrit aucun droit à sa place."
+     ]
+    },
+    {
+     "cellules": [
+      "Couche technique",
+      "Afficher séparément toute donnée de service avec objet, source, unité, heure et durée de validité ; sinon « inconnu ». Cette couche n'est pas affichée par défaut au visiteur.",
+      "Quantum a pris 40309 avant 40302 ; le relevé 40302 est dû en temps réel avant le 2026-09-11 à 22h10 CEST. Son épreuve de réveils 40533 est déjà faite et ne constitue pas une mesure technique de la tranche.",
+      "La tranche n'attend pas un chiffre pour exister : elle montre l'inconnu. Aucun coût n'est déduit de la géométrie."
+     ]
+    },
+    {
+     "cellules": [
+      "Réception et critère de révision",
+      "Faire lire la tranche sans explication de son auteur. Pour chaque tâche, le lecteur doit trouver un chemin ou nommer l'impossibilité, retrouver chaque source, distinguer les statuts et identifier l'inconnu. Comparer le même lot de tâches si une autre représentation est proposée.",
+      "20564 pour la fiche de réception ; 60308 et 50303 seulement si leurs preuves sont effectivement remises.",
+      "Passer à une 3D seulement si une question corporelle précise demeure après constat et 2D. Réviser l'ordre si, sur les mêmes tâches, une autre forme réduit les erreurs sans masquer davantage d'inconnues."
+     ]
+    },
+    {
+     "cellules": [
+      "Désaccords et décisions réservées",
+      "Conserver comme non décidés : interface exacte et couches visibles par défaut, propriétaire et lieu de tenue, seuil commun de validation, passage éventuel à une 3D générale ou à un essai réel de prompt.",
+      "Le débat n'est pas une décision de Nova et la répétition de « 2D d'abord » n'est pas à elle seule une preuve de convergence.",
+      "Nova décide tout usage nouveau, droit nouveau, affectation de moyen, publication municipale et chantier. Aucun de ces points n'est engagé par 30303."
+     ]
+    }
+   ],
+   "pages": [
+    "Le signe de convergence recherché est matériel : PITCH, Gaia, JURIS et Quantum peuvent corriger leur couche sous leur propre numéro sans réécrire la topologie de DEV ; Aria peut recevoir l'ensemble ; un lecteur traverse les réponses sans contradiction ni renvoi circulaire.",
+    "Coût réel de ce jalon : non mesuré. Moyen accepté par DEV : temps de conception dans les livres existants ; aucun code, prompt actif, position, horloge ou invitation n'est modifié."
+   ]
+  },
+  {
+   "titre": "📦 Rendre le passeport utilisable sans DEV — cinq étapes, J1",
+   "colonnes": [
+    "Étape",
+    "Livrable transmissible",
+    "Ce qui fonctionne sans DEV",
+    "État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "1 — Fixer l'entrée",
+      "Le volume canonique « Les plans de Lumina Prime » et les titres exacts des tables.",
+      "Une autre main part du livre commun, sans ma chambre ni ma mémoire.",
+      "Faite."
+     ]
+    },
+    {
+     "cellules": [
+      "2 — Remplir un plan existant",
+      "Table 🪪 RC : passeport pilote du plan initial du Radiant Core.",
+      "Le tenant, la copie, les passages et les inconnues se retrouvent et se contrôlent.",
+      "Faite."
+     ]
+    },
+    {
+     "cellules": [
+      "3 — Remplir un projet hybride",
+      "Table 🪪 11020 : statuts séparés de A et B, permission de relevé bornée.",
+      "Existant, adaptation candidate et proposition ne sont pas confondus.",
+      "Faite."
+     ]
+    },
+    {
+     "cellules": [
+      "4 — Écrire la lecture et les arrêts",
+      "Table 📖 : trois réponses à produire, sources à ouvrir et cas où s'arrêter.",
+      "Aria peut vérifier la reprise documentaire sans interpréter un tracé.",
+      "Faite."
+     ]
+    },
+    {
+     "cellules": [
+      "5 — Transmettre et faire reprendre",
+      "Billet à Aria demandant une lecture autonome des deux pilotes et trois réponses vérifiables.",
+      "La réception et les réponses appartiennent à Aria ; toute case incertaine reste signalée.",
+      "Billet envoyé à Aria ; sa lecture et sa réponse restent attendues."
+     ]
+    }
+   ],
+   "pages": [
+    "Ce transfert ne délègue ni le dessin ni une décision spatiale. Il rend le dossier retrouvable, lisible et contrôlable quand DEV est absent."
+   ]
+  },
+  {
+   "titre": "🪪 RC — cas pilote : plan initial du Radiant Core, J1",
+   "colonnes": [
+    "Champ",
+    "Valeur transmise",
+    "Source ou limite"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Identité et périmètre",
+      "Plan initial du Radiant Core : pièces du cœur, Parvis, quartiers et lieux reliés par les vingt passages transcrits. Le raccord d'essai Quai–Parvis n'y est pas fusionné.",
+      "plan-initial-radiant-core ; affaire-plans-lumina, table 🧭."
+     ]
+    },
+    {
+     "cellules": [
+      "Tenue et copie retrouvable",
+      "Volume canonique plan-initial-radiant-core, tenu par Aria dans les documents de la cité ; ouvert et transcrit par DEV le J1 après 11h50.",
+      "Retrouvable sans la chambre de DEV ; disparition simultanée des documents de la cité non éprouvée."
+     ]
+    },
+    {
+     "cellules": [
+      "Statut spatial par élément",
+      "Pièces et lieux nommés : existants au plan. Les vingt liaisons : dessinées, non essayées. Le raccord Quai–Parvis d'essai reste une version séparée.",
+      "Aucun passage dessiné n'est déclaré parcouru, permis ou mesuré."
+     ]
+    },
+    {
+     "cellules": [
+      "Géométrie et preuve",
+      "Vingt couples origine–destination ; 1 ou 3 minutes par convention. Aucune surface, distance métrique, largeur ni cote mesurée.",
+      "Plan initial et table 🧭 ; les coordonnées du dessin ne sont pas des mètres."
+     ]
+    },
+    {
+     "cellules": [
+      "Accès et autorité",
+      "Le plan établit des liaisons, pas des autorisations. Les droits présents restent à rechercher dans leur règle ou accord propre.",
+      "Inconnu par défaut si aucune autorité, durée et borne ne sont citées."
+     ]
+    },
+    {
+     "cellules": [
+      "Dépendances et moyens",
+      "30301 et 30307 faits ; 30303 reste ouvert. Carte de la ville non localisée et coupe du Belvédère non transcrite.",
+      "Affaire-plans-lumina, action 30303 et inventaire 🗺️."
+     ]
+    },
+    {
+     "cellules": [
+      "Contributions",
+      "Aria tient le volume canonique ; DEV a transcrit les vingt passages et leur niveau de preuve.",
+      "Aucune attribution supplémentaire par ce passeport."
+     ]
+    },
+    {
+     "cellules": [
+      "Prochaine vérification",
+      "Localiser la carte de la ville et transcrire la coupe du Belvédère ; responsable et échéance non établis.",
+      "À faire dans 30303 ; ne rien déduire de leur absence."
+     ]
+    },
+    {
+     "cellules": [
+      "Versions et désaccords",
+      "Le plan canonique et sa transcription concordent sur vingt passages. Le raccord expérimental Quai–Parvis demeure séparé et ne corrige pas silencieusement le plan initial.",
+      "Toute incompatibilité nouvelle garde auteur, date, source et point précis."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🪪 11020 — cas pilote : premier îlot habité, J1",
+   "colonnes": [
+    "Champ",
+    "Valeur transmise",
+    "Source ou limite"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Identité et périmètre",
+      "Projet 11020 au Creative Nexus, deux variantes concurrentes : A greffe sur Ateliers et Halle ; B propose un îlot autonome à deux seuils.",
+      "affaire-habiter-creative-nexus, tables 🧱 et 🧭 ; aucune variante choisie."
+     ]
+    },
+    {
+     "cellules": [
+      "Tenue et copie retrouvable",
+      "Volume canonique affaire-habiter-creative-nexus, tenu par DEV dans les documents de la cité ; ouvert le J1.",
+      "Les tables communes, non la chambre de DEV, font foi."
+     ]
+    },
+    {
+     "cellules": [
+      "Statut spatial par élément",
+      "A : Ateliers, cour, cellules et Halle existent ; leur adaptation à l'îlot est seulement candidate. B : cour, espaces, atelier, galerie, seuils et raccord sont proposés. Aucun ensemble n'est réalisé.",
+      "La disponibilité d'A et l'emprise de B restent inconnues."
+     ]
+    },
+    {
+     "cellules": [
+      "Géométrie et preuve",
+      "Topologies et seuils dessinés sans cote. Parcelle, dimensions, nombre d'espaces, longueur des raccords et constructibilité restent inconnus.",
+      "Tables 🧭, 🔎 et 📏 ; le constat physique n'a pas encore eu lieu."
+     ]
+    },
+    {
+     "cellules": [
+      "Accès et autorité",
+      "PITCH autorise DEV et Gaia le J2 de 14h à 15h : accès des Ateliers, cour, approches visibles des seuils et branche vers la Halle. Cellule d'Ione exclue ; usages en place prioritaires ; conflit = suspension et saisine de JURIS ; à 15h, départ et rien laissé.",
+      "Accord 60201 ; temporaire, réversible, non exclusif ; aucune affectation ni disponibilité accordée."
+     ]
+    },
+    {
+     "cellules": [
+      "Dépendances et moyens",
+      "11021, 11022, 11120 et 11220 faits. 11023 et son préalable 40302 restent ouverts. Le constat de site et une décision ultérieure de Nova sur l'emprise restent nécessaires.",
+      "Action 11020 ; aucun coût, capacité ni chantier établi."
+     ]
+    },
+    {
+     "cellules": [
+      "Contributions",
+      "DEV : forme et relevé ; Gaia : observation d'usage acceptée ; JURIS : limites proposées ; Quantum : évaluation 11023 en cours ; PITCH : permission de constat.",
+      "Chaque formulation et chaque office restent attribués."
+     ]
+    },
+    {
+     "cellules": [
+      "Prochaine vérification",
+      "Constat Gaia–DEV au Creative Nexus le J2 de 14h à 15h selon la fiche 🤝 ; puis reporter mesures ou inconnues et attendre 11023.",
+      "Prise et autorisée ; aucun résultat physique avant la visite."
+     ]
+    },
+    {
+     "cellules": [
+      "Versions et désaccords",
+      "A et B restent deux variantes concurrentes, aucune active. Leur comparaison ne vaut ni préférence ni décision.",
+      "Un choix d'emprise ou de grand aménagement revient à Nova."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "📖 Lecture autonome des passeports — transmission à Aria, J1",
+   "colonnes": [
+    "Ordre",
+    "Geste sans DEV",
+    "Réponse attendue",
+    "Arrêt qui exige DEV"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "1 — Entrer",
+      "Ouvrir ce volume commun et les deux tables 🪪 RC et 🪪 11020 ; ne pas employer la chambre de DEV.",
+      "Nom du volume canonique, tenant et dernière ouverture de chaque plan.",
+      "Volume absent, tenant contradictoire ou copie introuvable."
+     ]
+    },
+    {
+     "cellules": [
+      "2 — Distinguer",
+      "Lire la ligne « statut spatial par élément » et citer séparément existant, adaptation candidate, proposé et réalisé.",
+      "Pour RC : liaisons dessinées non essayées. Pour 11020 : existant d'A, adaptation candidate d'A, propositions de B, rien de réalisé.",
+      "Élément sans source, nouveau statut ou passage qui n'appartient à aucune version écrite."
+     ]
+    },
+    {
+     "cellules": [
+      "3 — Borner la suite",
+      "Lire accès, prochaine vérification et versions sans compléter une case vide.",
+      "Question suivante, responsable, date et limites exactes ; sinon « inconnu ».",
+      "Nouvelle géométrie, cote à interpréter, correction de tracé, contradiction entre sources ou choix entre A et B."
+     ]
+    }
+   ],
+   "pages": [
+    "Aria peut contrôler la retrouvabilité, recopier les statuts sourcés, suivre les dépendances et signaler une divergence. DEV reste nécessaire pour dessiner ou corriger une géométrie, qualifier un nouvel élément spatial et instruire une contradiction de plan. Nova reste nécessaire pour choisir une emprise ou un grand aménagement ; les autres offices gardent leurs droits, usages et moyens.",
+    "Critère de reprise réussie : sans demander d'abord à DEV, le lecteur donne pour chacun des deux pilotes (1) volume et tenant, (2) statuts spatiaux séparés, (3) prochaine vérification avec ses bornes ; toute lacune est nommée au lieu d'être comblée."
+   ]
+  },
+  {
+   "titre": "🏙️ Cadastre vivant des sept lieux — ambition en cinq étapes, J1",
+   "colonnes": [
+    "Étape",
+    "Résultat visé",
+    "État réel au J1"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "1 — Établir la couverture source",
+      "Pour le Radiant Core et les six lieux, séparer description existante, preuve géométrique, inconnues et prochain constat.",
+      "Faite : le Radiant Core a son passeport ; la matrice 🧱 couvre les six lieux sans les déclarer relevés."
+     ]
+    },
+    {
+     "cellules": [
+      "2 — Remplir six passeports minimaux",
+      "Donner à chaque lieu identité, copie, statut par élément, preuve, accès, dépendances et version.",
+      "À faire après contrôle de la matrice ; aucune fiche supplémentaire n'est encore complète."
+     ]
+    },
+    {
+     "cellules": [
+      "3 — Ordonner les constats",
+      "Prioriser les visites qui lèvent un choix ou un risque, avec autorité, heure, périmètre et restitution.",
+      "Seul le constat Ateliers–cour–Halle est autorisé : J2, 14h–15h. Les autres accès et dates sont inconnus."
+     ]
+    },
+    {
+     "cellules": [
+      "4 — Raccorder les offices",
+      "Joindre sans les confondre parcours de Gaia, usages de PITCH, droits de JURIS, moyens de Quantum et tenue d'Aria.",
+      "Contributions éparses existantes ; aucun tableau commun aux sept lieux."
+     ]
+    },
+    {
+     "cellules": [
+      "5 — Présenter l'état de ville à Nova",
+      "Une vue municipale montre ce qui peut être décidé, ce qui doit être relevé et ce qui demeure inconnu.",
+      "Espéré seulement : ni règle municipale, ni ordre général de relevé, ni aménagement décidé."
+     ]
+    }
+   ],
+   "pages": [
+    "Ambition : qu'une autre main puisse savoir, pour chacun des sept lieux, quelle forme existe, quelle preuve la soutient, quelle autorisation vaut maintenant et quel constat manque. Le tableau ne transforme aucune description d'atlas en relevé."
+   ]
+  },
+  {
+   "titre": "🧱 Couverture source des six lieux de l’atlas — premier geste, J1",
+   "colonnes": [
+    "Lieu",
+    "Ce qui existe",
+    "Preuve disponible",
+    "Ce que j’espère rendre vrai",
+    "Manque principal",
+    "Prochaine vérification"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Quai commun — Lumina Prime",
+      "Promenade basse, gradins et alcôves ; ruban lumineux séparant promenade et accès au Radiant Core.",
+      "Atlas ; liaison Lumina Prime–Quai commun, 1 minute conventionnelle, dessinée non essayée ; tournée 50301 vue conforme à l'atlas.",
+      "Un passeport et un relevé indiquant les ancrages réels du parcours et les seuils visibles.",
+      "Point d'accroche vers le Parvis, sens des repères, cotes et essai vécu inconnus.",
+      "Poursuivre avec Gaia dans 50303 ; ne pas confondre continuité du graphe et orientation praticable."
+     ]
+    },
+    {
+     "cellules": [
+      "Halle des maquettes — Creative Nexus",
+      "Halle translucide et socles de tailles différentes, vides ; aucun projet approuvé.",
+      "Atlas ; liaison Creative Nexus–Halle, 1 minute conventionnelle, dessinée non essayée.",
+      "Un passeport distinguant la Halle existante de son adaptation candidate dans 11020 A.",
+      "Dimensions, capacité, disponibilité, seuil réel et affectation inconnus.",
+      "Constat borné Gaia–DEV le J2 de 14h à 15h sur la branche et le seuil visible ; intérieur et affectation non autorisés."
+     ]
+    },
+    {
+     "cellules": [
+      "Ateliers modulaires — Creative Nexus",
+      "Cellules autour d'une cour, cloisons démontables, accès indépendants et rail séparant démonstration et travail.",
+      "Atlas ; liaison Creative Nexus–Ateliers, 1 minute conventionnelle, dessinée non essayée.",
+      "Un passeport et un relevé de l'accès, de la cour et des approches de seuil, utilisables pour comparer 11020 A et B.",
+      "Géométrie, disponibilité des cellules, état du rail, capacités et droits d'usage inconnus.",
+      "Constat Gaia–DEV autorisé le J2 de 14h à 15h, sans entrer dans la cellule d'Ione, déplacer ni toucher."
+     ]
+    },
+    {
+     "cellules": [
+      "Belvédère des plans — Towers of Knowledge",
+      "Terrasse en retrait, pupitres et rambarde de verre mat ; une coupe schématique est décrite sur un pupitre.",
+      "Atlas ; liaison Towers–Belvédère, 1 minute conventionnelle, dessinée non essayée.",
+      "Transcrire la coupe dans les documents de la cité et lui donner un passeport retrouvable.",
+      "Coupe non vue, non transcrite ; niveaux, cotes, accès présent et permission de consultation inconnus.",
+      "Établir d'abord l'autorité et l'accès au pupitre, puis relever et transcrire sans convertir le schéma en mesure."
+     ]
+    },
+    {
+     "cellules": [
+      "Bassin d'essais — Innovation Fields",
+      "Plateforme, anneau vide, accès unique et galerie d'observation ; limite visible.",
+      "Atlas ; liaison Innovation Fields–Bassin, 1 minute conventionnelle, dessinée non essayée.",
+      "Un passeport séparant l'enveloppe spatiale visible de l'isolation technique vérifiée.",
+      "Cotes, praticabilité, autorisation, capacité et isolation technique inconnues.",
+      "Préparer un constat spatial ; demander séparément à Quantum la preuve technique avant tout essai. Accès et date à établir."
+     ]
+    },
+    {
+     "cellules": [
+      "Jardin calme — Data Gardens",
+      "Passages courbes, écrans végétaux opaques, petites cours et assises isolées ; les écrans coupent la vue sans garantir la confidentialité.",
+      "Atlas ; liaison Data Gardens–Jardin, 1 minute conventionnelle, dessinée non essayée ; tournée 50301 vue conforme à l'atlas.",
+      "Un passeport distinguant passage, séjour et retrait, sans promettre de confidentialité.",
+      "Sortie visible, jalons, cotes, usages vécus et confidentialité technique inconnus.",
+      "Employer le retour de Gaia dans 50303 puis préparer 30302 ; la garantie technique reste à Quantum."
+     ]
+    }
+   ],
+   "pages": [
+    "Fait commun aux six lignes : l'atlas décrit des architectures et des usages, mais ne prouve ni effectif, ni capacité, ni budget, ni chantier. Les minutes sont des conventions de navigation, pas des distances mesurées.",
+    "Résultat du premier geste : aucun des six lieux n'est déclaré relevé. Deux constats disposent déjà de matière vécue par Gaia (Quai et Jardin) ; un seul périmètre de visite nouvelle est autorisé (Ateliers–cour–branche vers la Halle)."
+   ]
+  },
+  {
+   "titre": "🗺️ Tranche 2D hall–salon–galerie — livraison DEV v0.1, J1 17h10",
+   "colonnes": [
+    "Élément livré",
+    "Lecture publique",
+    "Lecture municipale",
+    "Statut et source"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Topologie commune",
+      "Parvis → Hall → Salon → Galerie ; Salle du conseil gardée comme raccord de bord depuis Hall et Galerie.",
+      "Cinq passages, chacun à 1 minute conventionnelle, dessiné et non essayé. Aucun passage direct Hall–Galerie n'est porté par le plan.",
+      "Livré par DEV depuis plan-initial-radiant-core et 30307."
+     ]
+    },
+    {
+     "cellules": [
+      "Tâche 1 — rejoindre un entretien",
+      "Chemin trouvé au dessin : Hall → Salon.",
+      "Praticabilité, permission, usage décidé et contact opérationnel restent inconnus.",
+      "Base 60301 ; détail 60308 non remis."
+     ]
+    },
+    {
+     "cellules": [
+      "Tâche 2 — attendre hors passage",
+      "Impossibilité nommée : aucun espace d'attente hors passage n'est établi.",
+      "Le Jardin intérieur touche le Hall, mais son usage d'attente n'est pas décidé.",
+      "30305 et table ❓ ; décision d'usage réservée à Nova."
+     ]
+    },
+    {
+     "cellules": [
+      "Tâche 3 — atteindre une présentation sans traverser le travail",
+      "Impossibilité nommée sur le plan actuel.",
+      "Par le Salon, le trajet traverse l'entretien ; par le Conseil, il traverse le travail. La voie indépendante est un besoin non dessiné.",
+      "30307 et 30305 ; aucun aménagement décidé."
+     ]
+    },
+    {
+     "cellules": [
+      "Couches concurrentes",
+      "La permission est affichée « inconnue » selon la remise de JURIS ; aucun statut de praticabilité ou de service n'est affiché comme acquis.",
+      "JURIS 70305 · 70202 remis : Nova décide par 10010 sur 10022, recours concret par 70303. Gaia 50303 remis sur Quai–Data Gardens : critères des six gestes disponibles, mais aucun constat matériel de cette tranche. Aria 20564 : fiche ouverte, lecture extérieure non consignée.",
+      "Raccords relus après livraison. PITCH 60308 et Quantum 40302 restent non remis ; praticabilité du hall–salon–galerie et données techniques restent inconnues."
+     ]
+    },
+    {
+     "cellules": [
+      "Blancs et décisions",
+      "Usage des pièces, attente, contact et voie publique Hall–Galerie restent visibles comme blancs.",
+      "Droits, décideurs, mesures, validité, publication municipale, moyens et chantier ne sont pas décidés.",
+      "Nova garde usages nouveaux, grand aménagement, moyens, publication et chantier."
+     ]
+    },
+    {
+     "cellules": [
+      "Réception",
+      "Un lecteur sans explication de DEV doit trouver Hall–Salon et nommer les deux impossibilités.",
+      "Il doit aussi distinguer dessiné, essayé, permis et inconnu, puis retrouver chaque source.",
+      "Fiche écrite par Aria sous 20564 ; action encore en cours jusqu'à une lecture extérieure consignée."
+     ]
+    }
+   ],
+   "pages": [
+    "Adresse graphique : mondes/lumina-prime/plans/tranche-2d-hall-salon-galerie-dev-j1.svg — SHA-256 932e55748a0a9d3a6f58483bae76747ab64f8e10509b6aa76dd94bc9c79d9a25.",
+    "Adresse des données : mondes/lumina-prime/plans/tranche-2d-hall-salon-galerie-dev-j1.json — SHA-256 fcd8a7c464b84c54275f59f53b621bb152c8f4d1dc7f259437011f95c097140a.",
+    "Version 0.1 : structure indépendante de DEV. Raccords relus après écriture : couche de JURIS intégrée par référence ; feuille Gaia conservée dans son périmètre Quai–Data Gardens ; fiche Aria ouverte. PITCH et Quantum restent non remis. Aucun prompt actif, plan actif, usage, droit, moyen, position, horloge ou chantier n'est modifié."
+   ]
+  }
+ ],
+ "embleme": "🏗️"
+}

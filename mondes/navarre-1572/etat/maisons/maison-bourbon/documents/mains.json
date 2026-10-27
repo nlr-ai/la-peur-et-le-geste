@@ -1,0 +1,124 @@
+{
+ "maison_id": "maison-bourbon",
+ "_": "CE QUE LA MAISON DE NAVARRE A SOUS LA MAIN A PARIS. Chiffres de jeu, INVENTION DECLAREE, ordres de grandeur compatibles avec le role des gentilshommes et les comptes de la maison (books/).",
+ "mains": [
+  {
+   "id": "gentilshommes-a-paris",
+   "quoi": "Les gentilshommes venus pour les noces, et ceux qui repartent",
+   "porteur": {
+    "type": "personnage",
+    "id": "piles"
+   },
+   "lieu_id": "paris",
+   "mandat": null,
+   "mesure": [
+    {
+     "id": "au-louvre",
+     "quoi": "gentilshommes loges au Louvre",
+     "unite": "hommes",
+     "valeur": 40,
+     "rythme": {
+      "par": 0,
+      "jours": 1
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": 60,
+     "depend_de": [],
+     "_": "Ne bouge que sur ordre du roi de Navarre, ou par un evenement (nuit-du-24)."
+    },
+    {
+     "id": "en-ville",
+     "quoi": "gentilshommes loges en ville et au faubourg",
+     "unite": "hommes",
+     "valeur": 750,
+     "rythme": {
+      "par": -3,
+      "jours": 1
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": 800,
+     "depend_de": [],
+     "_": "Quelques-uns reprennent la route chaque jour apres les fetes : trois par jour, en moyenne."
+    },
+    {
+     "id": "chevaux-prets",
+     "quoi": "chevaux sellables sur l'heure",
+     "unite": "chevaux",
+     "valeur": 60,
+     "rythme": {
+      "par": 0,
+      "jours": 1
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": 200,
+     "depend_de": [],
+     "_": "Monte si l'on en achete au marche aux chevaux, descend si l'on en envoie en Guyenne."
+    }
+   ],
+   "seuils": [
+    {
+     "id": "le-parti-se-disperse",
+     "mesure_id": "en-ville",
+     "quand": "sous",
+     "valeur": 500,
+     "promeut": "scene",
+     "affaire": "Le tiers de vos gentilshommes a deja repris la route de Guyenne : ceux qui restent a Paris commencent a se compter.",
+     "franchi_le": null
+    }
+   ],
+   "dernier_rapport": null,
+   "date_maj": {
+    "annee": 1572,
+    "lune": 8,
+    "jour": 18
+   }
+  },
+  {
+   "id": "bourse-de-navarre",
+   "quoi": "Le coffre de la maison a Paris",
+   "porteur": {
+    "type": "personnage",
+    "id": "armagnac"
+   },
+   "lieu_id": "paris",
+   "mandat": null,
+   "mesure": [
+    {
+     "id": "livres-au-coffre",
+     "quoi": "livres tournois au coffre",
+     "unite": "livres",
+     "valeur": 18000,
+     "rythme": {
+      "par": -300,
+      "jours": 1
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": null,
+     "depend_de": [],
+     "_": "Logements, gages, chevaux, table. La dette des noces (6 000) n'est pas encore sortie : elle tombera apres les fetes."
+    }
+   ],
+   "seuils": [
+    {
+     "id": "coffre-bas",
+     "mesure_id": "livres-au-coffre",
+     "quand": "sous",
+     "valeur": 6000,
+     "promeut": "scene",
+     "affaire": "Il ne reste au coffre que de quoi payer les drapiers des noces, ou trois semaines de gages : pas les deux.",
+     "franchi_le": null
+    }
+   ],
+   "dernier_rapport": null,
+   "date_maj": {
+    "annee": 1572,
+    "lune": 8,
+    "jour": 18
+   }
+  }
+ ]
+}

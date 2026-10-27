@@ -1,7 +1,7 @@
 // POST /foule/journal — la page d'essai verse ce qu'elle a vu bouger.
 const fs = require("fs");
 const path = require("path");
-const { RACINE } = require("../http");
+const { DEPOT } = require("../http");
 const { envoyer } = require("../http");
 
 function traiter(req, res, url) {
@@ -12,7 +12,7 @@ function traiter(req, res, url) {
       try {
         const { lignes } = JSON.parse(corps);
         if (!Array.isArray(lignes)) throw new Error("lignes");
-        const dossier = path.join(RACINE, "monde", "journaux");
+        const dossier = path.join(DEPOT, "monde", "journaux");
         fs.mkdirSync(dossier, { recursive: true });
         const nom = "foule-" + new Date().toISOString().slice(0, 13)
           .replace(/[-T:]/g, "") + ".jsonl";

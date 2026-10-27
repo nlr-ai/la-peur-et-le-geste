@@ -1,0 +1,500 @@
+{
+  "personnage_id": "michel",
+  "modern_front_id": 6116,
+  "nom": "Michel Sauzeau",
+  "source_population": "C:\\Users\\reyno\\Modern Front\\out\\unreal\\population.json",
+  "source": {
+    "id": 6116,
+    "first": "Michel",
+    "last": "Sauzeau",
+    "age": 22,
+    "sex": "m",
+    "household": 2547,
+    "relation": "child",
+    "from": null,
+    "settlement": "Niort",
+    "job": "employé",
+    "status": "work",
+    "traits": [
+      "apolitical",
+      "loyal"
+    ],
+    "appearance": {
+      "id": 6116,
+      "class": {
+        "key": "worker",
+        "name": "Ouvrier",
+        "weights": {
+          "stubble": 2
+        },
+        "gates": {
+          "glasses": 0.6
+        },
+        "outfit": {
+          "m": [
+            {
+              "slot": "head",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "cap",
+                  "name": "casquette",
+                  "feminine": true,
+                  "shape": "cap",
+                  "colors": [
+                    "grey",
+                    "charcoal",
+                    "navy",
+                    "brown"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "beret",
+                  "name": "béret",
+                  "feminine": false,
+                  "shape": "beret",
+                  "colors": [
+                    "black",
+                    "navy"
+                  ],
+                  "weight": 25,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "bare",
+                  "name": "tête nue",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [],
+                  "weight": 15,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "top",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "work_jacket",
+                  "name": "veste de travail",
+                  "feminine": true,
+                  "shape": "jacket",
+                  "colors": [
+                    "work_blue",
+                    "faded_blue"
+                  ],
+                  "weight": 55,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "worn_jacket",
+                  "name": "veston usé",
+                  "feminine": false,
+                  "shape": "jacket",
+                  "colors": [
+                    "grey",
+                    "brown",
+                    "charcoal"
+                  ],
+                  "weight": 30,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "rolled_shirt",
+                  "name": "chemise aux manches retroussées",
+                  "feminine": true,
+                  "shape": "shirt",
+                  "colors": [
+                    "ecru",
+                    "light_grey",
+                    "faded_blue"
+                  ],
+                  "weight": 15,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "bottom",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "work_trousers",
+                  "name": "pantalon de travail",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "work_blue",
+                    "faded_blue",
+                    "grey",
+                    "brown"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "feet",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "boots",
+                  "name": "brodequins",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "black",
+                    "brown"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "galoshes",
+                  "name": "galoches",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "black"
+                  ],
+                  "weight": 40,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            }
+          ],
+          "f": [
+            {
+              "slot": "head",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "headscarf",
+                  "name": "fichu noué",
+                  "feminine": false,
+                  "shape": "headscarf",
+                  "colors": [
+                    "burgundy",
+                    "faded_blue",
+                    "mustard",
+                    "grey"
+                  ],
+                  "weight": 35,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "turban",
+                  "name": "turban",
+                  "feminine": false,
+                  "shape": "turban",
+                  "colors": [
+                    "burgundy",
+                    "bottle_green",
+                    "mustard",
+                    "navy"
+                  ],
+                  "weight": 15,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "bare",
+                  "name": "tête nue",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [],
+                  "weight": 50,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "top",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "work_smock",
+                  "name": "blouse de travail",
+                  "feminine": true,
+                  "shape": "smock",
+                  "colors": [
+                    "grey",
+                    "faded_blue",
+                    "beige"
+                  ],
+                  "weight": 55,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "dress",
+                  "name": "robe",
+                  "feminine": true,
+                  "shape": "dress",
+                  "colors": [
+                    "chestnut_brown",
+                    "burgundy",
+                    "grey",
+                    "bottle_green",
+                    "plum"
+                  ],
+                  "weight": 45,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "bottom",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "skirt",
+                  "name": "jupe",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [
+                    "grey",
+                    "black",
+                    "chestnut_brown",
+                    "navy"
+                  ],
+                  "weight": 100,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            },
+            {
+              "slot": "feet",
+              "chance": 1,
+              "options": [
+                {
+                  "key": "wooden_soles",
+                  "name": "chaussures à semelles de bois",
+                  "feminine": true,
+                  "shape": null,
+                  "colors": [
+                    "black",
+                    "brown"
+                  ],
+                  "weight": 60,
+                  "minAge": 0,
+                  "maxAge": 200
+                },
+                {
+                  "key": "galoshes",
+                  "name": "galoches",
+                  "feminine": false,
+                  "shape": null,
+                  "colors": [
+                    "black"
+                  ],
+                  "weight": 40,
+                  "minAge": 0,
+                  "maxAge": 200
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "heightCm": 167,
+      "build": {
+        "key": "stocky",
+        "name": "trapu",
+        "nameF": "trapue",
+        "color": null,
+        "weight": 20,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1.12
+      },
+      "skin": {
+        "key": "fair",
+        "name": "clair",
+        "nameF": null,
+        "color": "efd2bd",
+        "weight": 30,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "eyes": {
+        "key": "eyes_dark",
+        "name": "noirs",
+        "nameF": null,
+        "color": "2a1c14",
+        "weight": 8,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "brows": {
+        "key": "straight",
+        "name": "sourcils droits",
+        "nameF": null,
+        "color": null,
+        "weight": 35,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "face": {
+        "key": "round",
+        "name": "visage rond",
+        "nameF": null,
+        "color": null,
+        "weight": 22,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1.1
+      },
+      "nose": {
+        "key": "snub",
+        "name": "nez retroussé",
+        "nameF": null,
+        "color": null,
+        "weight": 16,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 0.75
+      },
+      "hairColor": {
+        "key": "chestnut",
+        "name": "châtains",
+        "nameF": null,
+        "color": "6b4a2f",
+        "weight": 32,
+        "minAge": 0,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": null,
+        "size": 1
+      },
+      "hairStyle": {
+        "key": "slick",
+        "name": "gominés en arrière",
+        "nameF": null,
+        "color": null,
+        "weight": 18,
+        "minAge": 16,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "slick",
+        "size": 1
+      },
+      "facialHair": {
+        "key": "stubble",
+        "name": "mal rasé",
+        "nameF": null,
+        "color": null,
+        "weight": 5,
+        "minAge": 18,
+        "maxAge": 200,
+        "sex": null,
+        "gate": null,
+        "shape": "stubble",
+        "size": 1
+      },
+      "glasses": null,
+      "mark": null,
+      "outfit": [
+        {
+          "slot": "head",
+          "key": "cap",
+          "text": "casquette grise",
+          "shape": "cap",
+          "color": "6b6e70",
+          "from": null
+        },
+        {
+          "slot": "top",
+          "key": "work_jacket",
+          "text": "veste de travail bleu délavé",
+          "shape": "jacket",
+          "color": "6d87a8",
+          "from": null
+        },
+        {
+          "slot": "bottom",
+          "key": "work_trousers",
+          "text": "pantalon de travail bleu de chauffe",
+          "shape": null,
+          "color": "2e4e7e",
+          "from": null
+        },
+        {
+          "slot": "feet",
+          "key": "boots",
+          "text": "brodequins brun",
+          "shape": null,
+          "color": "5a3d2b",
+          "from": null
+        }
+      ]
+    }
+  },
+  "contacts_documentes": [
+    {
+      "source": "C:\\Users\\reyno\\Modern Front\\out\\pnj\\reunion-raymond-sauvegarde\\person-7472.json",
+      "contact": {
+        "person": {
+          "id": 6116,
+          "name": "Michel Sauzeau"
+        },
+        "kinds": "Regular",
+        "outgoing": 44,
+        "incoming": 61
+      }
+    }
+  ],
+  "adaptations": [
+    "Âge du PJ conservé à 19 ans en juin 1940 ; export : 22 ans.",
+    "Lucien reste le frère créé pour cette partie, sans identité source attribuée.",
+    "Traits sources non imposés au PJ.",
+    "Contacts documentés partiels, pas un réseau complet."
+  ],
+  "simulation_active": {
+    "michel_id": 406,
+    "lucien_id": 407,
+    "foyer": 2547,
+    "source": "C:/Users/reyno/Modern Front/content/map/people.json",
+    "verification": "C:/Users/reyno/Modern Front/out/la-peur-et-le-geste/population-verifiee.json"
+  }
+}

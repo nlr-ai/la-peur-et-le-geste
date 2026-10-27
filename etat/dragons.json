@@ -1,0 +1,15 @@
+{
+  "_": "LES BÊTES ET LES DÉTROITS QUE LA FICTION NOMME SANS QU'AUCUNE TABLE LES TIENNE. Écrit le 9.9, quand le monde d'épreuve a servi Caraxès, Vhagar, Meleys et Syrax dans un monde qui n'a ni dragons ni Westeros : ces neuf entités étaient recopiées EN DUR dans `serveur/routes/monde-jeu.js`, et partaient donc avec n'importe quel monde. `noyau/partie_cartes.py` lisait déjà ce fichier pour nommer ses pièces — le fichier n'existait pas, et la partie rendait des ids nus là où elle voulait des noms. Le nom du fichier vient de ce lecteur-là, pas d'un choix : on ne renomme pas une table que du code attend.",
+  "__": "Le Gosier n'est pas une bête : c'est le détroit. Il est ici et non dans `lieux.json` parce que l'y mettre le ferait apparaître sur la table peinte et sur les bannières, ce qui est une décision de jeu et non un rangement. Son `type` le dit, au lieu qu'un test sur son id le devine dans une route — c'est la donnée qui porte sa nature.",
+  "dragons": [
+    {"id": "caraxes", "nom": "Caraxès", "type": "dragon"},
+    {"id": "vhagar", "nom": "Vhagar", "type": "dragon"},
+    {"id": "meleys", "nom": "Meleys", "type": "dragon"},
+    {"id": "syrax", "nom": "Syrax", "type": "dragon"},
+    {"id": "vermax", "nom": "Vermax", "type": "dragon"},
+    {"id": "arrax", "nom": "Arrax", "type": "dragon"},
+    {"id": "revefeu", "nom": "Rêvefeu", "type": "dragon"},
+    {"id": "sunfyre", "nom": "Sunfyre", "type": "dragon"},
+    {"id": "gosier", "nom": "le Gosier", "type": "lieu"}
+  ]
+}

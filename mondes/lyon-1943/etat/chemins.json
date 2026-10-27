@@ -1,0 +1,114 @@
+{
+ "_": "LA TOPOLOGIE DE LYON EN 1943 — en minutes de marche. Le plateau de la Croix-Rousse (logement Rivoire, place, café du Gros Caillou), les pentes (montée de la Grande-Côte, imprimerie Chabert, cour des Voraces, cave de Merle), la presqu'île (Terreaux, rue Sainte-Catherine, Bellecour, Perrache et le Terminus), le Vieux-Lyon (rue Saint-Jean, Saint-Georges), la rive gauche par le pont Morand (gare des Brotteaux) ou par la Guillotière (avenue Berthelot, Montluc), et Caluire (place Castellane) au nord du plateau. Minutes : invention déclarée, ordres de grandeur sur le plan de Lyon. Un pont est un contrôle possible.",
+ "alias": {
+  "atelier": "imprimerie-chabert",
+  "chez-moi": "logement-rivoire",
+  "terreaux": "place-des-terreaux",
+  "bellecour": "place-bellecour",
+  "brotteaux": "gare-des-brotteaux",
+  "perrache": "gare-de-perrache",
+  "terminus": "hotel-terminus",
+  "berthelot": "avenue-berthelot",
+  "montluc": "prison-montluc",
+  "caluire": "place-castellane",
+  "croix-rousse": "place-croix-rousse",
+  "voraces": "cour-des-voraces"
+ },
+ "aretes": [
+  [
+   "logement-rivoire",
+   "place-croix-rousse",
+   4
+  ],
+  [
+   "place-croix-rousse",
+   "cafe-gros-caillou",
+   5
+  ],
+  [
+   "place-croix-rousse",
+   "montee-grande-cote",
+   3
+  ],
+  [
+   "montee-grande-cote",
+   "imprimerie-chabert",
+   2
+  ],
+  [
+   "imprimerie-chabert",
+   "cour-des-voraces",
+   6
+  ],
+  [
+   "cour-des-voraces",
+   "cave-merle",
+   4
+  ],
+  [
+   "montee-grande-cote",
+   "place-des-terreaux",
+   12
+  ],
+  [
+   "cour-des-voraces",
+   "place-des-terreaux",
+   12
+  ],
+  [
+   "place-des-terreaux",
+   "rue-sainte-catherine",
+   2
+  ],
+  [
+   "place-des-terreaux",
+   "pont-morand",
+   6
+  ],
+  [
+   "pont-morand",
+   "gare-des-brotteaux",
+   18
+  ],
+  [
+   "place-des-terreaux",
+   "place-bellecour",
+   20
+  ],
+  [
+   "place-bellecour",
+   "rue-saint-jean",
+   8
+  ],
+  [
+   "rue-saint-jean",
+   "chambre-thivolet",
+   7
+  ],
+  [
+   "place-bellecour",
+   "gare-de-perrache",
+   15
+  ],
+  [
+   "gare-de-perrache",
+   "hotel-terminus",
+   1
+  ],
+  [
+   "place-bellecour",
+   "avenue-berthelot",
+   25
+  ],
+  [
+   "avenue-berthelot",
+   "prison-montluc",
+   15
+  ],
+  [
+   "cafe-gros-caillou",
+   "place-castellane",
+   20
+  ]
+ ]
+}

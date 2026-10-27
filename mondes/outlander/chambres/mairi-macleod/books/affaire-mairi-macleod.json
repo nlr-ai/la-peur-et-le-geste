@@ -1,0 +1,62 @@
+{
+  "id": "affaire-mairi-macleod",
+  "titre": "Les affaires de Mairi MacLeod",
+  "sous_titre": "Cahier stratégique personnel — tenir l'auberge et ses engagements",
+  "type": "affaire",
+  "tenu_par": "mairi-macleod",
+  "acteur_id": "mairi-macleod",
+  "prive": true,
+  "pages": [
+    "Ce cahier distingue les engagements réellement pris des possibilités encore offertes.",
+    "Les détails ordinaires peints de l'auberge n'accomplissent aucune action future et ne garantissent ni paiement ni accord d'un voyageur."
+  ],
+  "tables": [
+    {
+      "titre": "Ouverture",
+      "colonnes": ["Champ", "Contenu"],
+      "lignes": [
+        {"cellules": ["Porteur", "Mairi MacLeod"]},
+        {"cellules": ["Périmètre", "Logement, repas et engagements de l'auberge."]},
+        {"cellules": ["État de préparation", "Implantation minimale peinte ; prix, réserves et engagements restent à établir selon les demandes."]},
+        {"cellules": ["Registre compagnon", "registre-etats-mairi-macleod"]}
+      ]
+    },
+    {
+      "titre": "Dimensions à peindre",
+      "colonnes": ["Catégorie", "Ce que je pose", "Statut", "Source ou provenance", "Renvois"],
+      "lignes": [
+        {"cellules": ["fins-et-doctrine", "Faire vivre l'auberge sans promettre plus de couchages ni de repas que je peux tenir.", "établi", "intention de Mairi dans etat/intentions.json", ""]},
+        {"cellules": ["personnes-et-relations", "Finlay Ross collabore avec moi pour l'hébergement et les écuries ; les voyageurs présents ne me sont pas encore connus.", "établi", "relations initiales et scène courante", ""]},
+        {"cellules": ["pouvoir-et-acces", "La salle commune et la chambre relèvent de mon auberge.", "établi", "etat/intentions.json", "registre-etats-mairi-macleod : auberge-chambre-hotes"]},
+        {"cellules": ["moyens-materiels", "La chambre pouvant coucher deux personnes et deux portions du souper ordinaire sont engagées pour Aurore et Nicolas pour la nuit du 1743.5.5.", "peint", "capacité ordinaire de l'auberge établie en réponse à la demande ref vmush18aecblb", "registre-etats-mairi-macleod : auberge-chambre-hotes ; auberge-souper-1743-5-5"]},
+        {"cellules": ["savoirs-et-secrets", "Aurore demande une chambre et le souper pour deux pendant une nuit, en proposant leur travail à tous deux pour la vaisselle ce soir.", "établi", "parole d'Aurore ref vmusfsin9tr4j", ""]},
+        {"cellules": ["engagements-et-temps", "Le marché du 1743.5.4 est acquitté. Un nouveau marché est conclu pour deux soupers et une chambre la nuit du 1743.5.5, contre toute la vaisselle et une cuisine laissée nette après le repas ; le travail reste à accomplir.", "établi", "accord de Mairi en réponse à l'offre ref vmush18aecblb", "registre-etats-mairi-macleod"]},
+        {"cellules": ["strategie-et-alternatives", "Demander d'abord combien de personnes et de nuits, puis le règlement et le repas avant de conclure.", "établi", "manière et intention de Mairi", ""]},
+        {"cellules": ["zones-a-peindre", "Prix en monnaie, contenu précis du repas, réserves et capacité au-delà de cette nuit.", "inconnu", "à établir lorsqu'une demande concrète le nécessite", ""]}
+      ]
+    },
+    {"titre": "🎯 États cibles", "colonnes": ["N°", "L'état visé", "Ce qui doit être vrai", "La preuve", "Jour dû", "Importance"], "lignes": []},
+    {"titre": "🔒 Verrous", "colonnes": ["N°", "Le verrou", "Bloque", "La preuve"], "lignes": []},
+    {"titre": "🗝️ Clefs", "colonnes": ["N°", "La clef", "Ouvre", "Prix et limites"], "lignes": []},
+    {"titre": "⚔️ Actions", "colonnes": ["N°", "L'action", "Réalise", "Dépend de", "Qui", "Où", "La preuve", "État", "Jour dû", "Jour fait", "Note"], "lignes": []},
+    {
+      "titre": "Stratégie et alternatives",
+      "colonnes": ["Fin", "Approche", "Pourquoi", "Alternative", "Changer si", "Moyens engagés"],
+      "lignes": [
+        {"cellules": ["Tenir les engagements de l'auberge", "Qualifier la demande avant d'accepter", "Le nombre, la durée et le paiement déterminent ce que je peux promettre", "Refuser ou réduire l'engagement si mes moyens ne suffisent pas", "Une réponse des voyageurs révèle une incompatibilité matérielle ou de paiement", "Une chambre disponible ce soir"]}
+      ]
+    },
+    {"titre": "Moyens disponibles", "colonnes": ["Référence", "Nature", "Accès réel", "Quantité ou portée", "Limites", "Provenance"], "lignes": [
+      {"cellules": ["auberge-chambre-hotes", "chambre d'hôtes", "sous ma responsabilité", "une chambre pouvant coucher Aurore et Nicolas la nuit du 1743.5.5", "aucune nuit suivante promise", "engagée par l'accord ref vmush18aecblb"]}
+      ,{"cellules": ["auberge-souper-1743-5-5", "repas", "sous ma responsabilité", "deux portions le soir du 1743.5.5", "aucune réserve ultérieure présumée", "peint et engagé pour la demande ref vmush18aecblb"]}
+    ]},
+    {"titre": "Trous de préparation", "colonnes": ["Trou", "Catégorie", "Ce qui en dépend", "Traitement", "Qui", "Échéance", "État", "Résultat"], "lignes": [
+      {"cellules": ["Conditions exactes demandées par Aurore", "obtenir", "accord de logement", "lui demander personnes, nuits et règlement", "Mairi", "maintenant", "clos", "Deux personnes, une nuit, souper compris, contre leur service à tous deux pour la vaisselle ce soir ; offre reçue ref vmusfsin9tr4j"]}
+    ]},
+    {"titre": "Connaissances et croyances", "colonnes": ["Sujet", "Ce que je crois", "Source reçue", "Ce que j’ignore", "Référence de réalité"], "lignes": []},
+    {"titre": "Résultats et révisions", "colonnes": ["Date", "Fait ou découverte", "Preuve", "Ce que je change", "Renvois"], "lignes": [
+      {"cellules": ["1743.5.4 19:42", "Aurore et Nicolas ont achevé la vaisselle et le nettoyage convenus ; le marché est acquitté pour eux deux.", "fil/1743.5.4-salle.md, scène de 19 h 42", "Je ne leur réclame aucun autre paiement pour la chambre et les deux soupers de cette nuit.", "registre-etats-mairi-macleod"]},
+      {"cellules": ["1743.5.5 matin", "J'ai accepté un nouveau marché pour Aurore et Nicolas : deux soupers et une chambre pour une nuit, contre la vaisselle et la cuisine laissée nette.", "parole d'Aurore et accord ref vmush18aecblb", "Je réserve la chambre et deux portions pour ce soir ; le règlement en travail reste dû après le repas.", "registre-etats-mairi-macleod"]}
+    ]}
+  ]
+}

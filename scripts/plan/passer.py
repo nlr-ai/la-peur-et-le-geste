@@ -31,8 +31,11 @@ import io, json, os, sys, tempfile
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 # Deux etages de plus qu'a la racine : scripts/plan/ (voir scripts/CLAUDE.md).
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-BOOKS = os.path.join(RACINE, "etat", "books.json")
+import racines  # noqa: E402
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+BOOKS = os.path.join(ETAT, "books.json")
 from etat.expose import ajouter  # noqa: E402  — on reutilise sa fenetre etroite
 import bibliotheque  # noqa: E402
 
@@ -44,7 +47,7 @@ def charger(p):
 
 def date_du_monde():
     try:
-        return charger(os.path.join(RACINE, "etat", "monde.json")).get("date")
+        return charger(os.path.join(ETAT, "monde.json")).get("date")
     except Exception:
         return None
 
@@ -56,7 +59,7 @@ def horloge(pid):
     acte avec elle le placerait dans le passé de la scène où il se produit.
     """
     try:
-        h = charger(os.path.join(RACINE, "etat", "horloges.json"))
+        h = charger(os.path.join(ETAT, "horloges.json"))
         if pid and h.get(pid):
             return h[pid]
     except Exception:
@@ -68,7 +71,7 @@ def nom_de(pid):
     if not pid:
         return None
     try:
-        gens = charger(os.path.join(RACINE, "etat", "personnages.json"))
+        gens = charger(os.path.join(ETAT, "personnages.json"))
         liste = gens if isinstance(gens, list) else gens.get("personnages", [])
         for p in liste:
             if p.get("id") == pid:
@@ -97,7 +100,7 @@ def etagere(books, filtre=None):
 
 
 def main(argv):
-    books = bibliotheque.charger(os.path.join(RACINE, "etat"))
+    books = bibliotheque.charger(ETAT)
     if not isinstance(books, list):
         raise SystemExit("etat/books.json ne porte pas une liste.")
 
@@ -180,7 +183,7 @@ def main(argv):
         return
 
     # --- la fenêtre étroite : relire, muter, réécrire dans la même seconde ---
-    session_livres = bibliotheque.ouvrir(os.path.join(RACINE, "etat"))
+    session_livres = bibliotheque.ouvrir(ETAT)
     frais = session_livres.livres
     cible = next((b for b in frais if b.get("id") == livre_id), None)
     if cible is None:

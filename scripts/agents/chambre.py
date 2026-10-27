@@ -43,10 +43,11 @@ import re
 
 from etat.expose import tables  # LA PORTE de etat/ — meme pour une lecture
 
-# Deux etages au-dessus : scripts/agents/ -> la racine du depot.
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.abspath(__file__))))
-CHAMBRES = os.path.join(RACINE, "chambres")
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+CHAMBRES = racines.chambres()
 _CHAMBRES_SERENISSIMA = None
 
 DOSSIERS = ("fil", "books", "brouillons", "relations")
@@ -174,7 +175,7 @@ def fil(qui, contexte_id=None, creer=False):
 
 def _fiche(qui):
     """La fiche de personnages.json, ou {} — un MJ n'en a pas, et c'est bien."""
-    donnees = tables.lire(os.path.join(RACINE, "etat", "personnages.json"), [])
+    donnees = tables.lire(os.path.join(ETAT, "personnages.json"), [])
     if isinstance(donnees, dict):
         donnees = donnees.get("personnages") or []
     return next((p for p in donnees
@@ -396,9 +397,7 @@ def verser_histoire(a, b, entrees):
     tables.ecrire(fichier, {"canal": sorted((a, b)), "entrees": total},
                   indent=1)
     for qui, autre in ((a, b), (b, a)):
-        with io.open(_curseur(qui, autre), "w",
-                     encoding="utf-8", newline="\n") as f:
-            f.write(u"%d" % len(total))
+        _graver_curseur(_curseur(qui, autre), len(total))
     return len(total)
 
 
@@ -406,6 +405,18 @@ def _curseur(qui, autre):
     """Le fichier .lu de SON cote : combien d'entrees du canal il a deja
     vues. Un entier nu — le plus simple qui tienne."""
     return os.path.join(chemin(qui), "relations", autre, ".lu")
+
+
+def _graver_curseur(c, n, essais=6):
+    """Deux activations paralleles sur la meme paire : OSError 22 sous Windows
+    (10.9, une journee de Denys perdue pour un curseur). On reessaie."""
+    for i in range(essais):
+        try:
+            with io.open(c, "w", encoding="utf-8", newline="\n") as f:
+                return f.write(u"%d" % n)
+        except OSError:
+            if i == essais - 1: raise
+            __import__("time").sleep(0.2 * (i + 1))
 
 
 def non_lus(qui):
@@ -455,8 +466,7 @@ def marquer_lu(qui, autre):
     n = len(_entrees(canal(qui, autre, creer=False)))
     c = _curseur(qui, autre)
     os.makedirs(os.path.dirname(c), exist_ok=True)
-    with io.open(c, "w", encoding="utf-8", newline="\n") as f:
-        f.write(u"%d" % n)
+    _graver_curseur(c, n)
 
 
 def marquer_lus(qui):
@@ -470,6 +480,4 @@ def marquer_lus(qui):
         if not os.path.isdir(os.path.join(base, autre)):
             continue
         n = len(_entrees(canal(qui, autre, creer=False)))
-        with io.open(_curseur(qui, autre), "w",
-                     encoding="utf-8", newline="\n") as f:
-            f.write(u"%d" % n)
+        _graver_curseur(_curseur(qui, autre), n)

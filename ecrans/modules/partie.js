@@ -516,7 +516,7 @@ window.PartieVue = (() => {
     if (window.Plan && Plan.echelle) {
       Plan.echelle({
         id: "conseil", nom: "Le conseil", hote: "partie", ordre: 2.6,
-        dispo: () => true,
+        dispo: () => false,
         reparu: () => { charger(); },
       });
     }

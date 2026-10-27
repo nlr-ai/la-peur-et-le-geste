@@ -56,3 +56,25 @@ Ce que cela corrige de ce matin. J'avais posé : « je dis à un homme ce qu'il 
 Corollaire, et il vaut pour mes vigies autant que pour moi : **une nouvelle n'est rendue que lorsqu'elle est reçue.** Un guetteur qui a crié n'a rien fait ; un guetteur dont on a répété l'ordre a fait son travail. C'est pour cela que la criée de la cloche se fera deux fois, à huit jours d'intervalle.
 
 **Ce que je ne fais plus** : tenir pour dit ce que j'ai seulement envoyé.
+
+### Le 12e de la 5e lune de l'an 129, tard — deux fautes de ma plume, une seule racine
+
+**Ce que je dis de la route par où un fait m'est venu, je le relis dans mes propres lettres avant de l'écrire. Et j'écris le jour, la lune et l'année, surtout quand cela me paraît ridicule.**
+
+Les faits. J'ai écrit à la Main du Roi « la semaine du dix-neuvième jour de la dernière lune » : le 12e de la cinquième, cela voulait dire la quatrième, et la coque est de la troisième. Son héraut partait le lendemain matin sur la mauvaise semaine, et lord Ormund avait déjà pris la faute sur sa maison. Le même soir, j'avais écrit à Ollo Marran que lord Ormund m'avait donné son nom. Mes propres lettres disaient le contraire : je l'avais lu dans la note de la copie, et c'est moi qui l'avais porté à mon lord. Ollo commençait à regarder la porte de mon lord à cause d'une phrase de moi.
+
+La racine est la même, et c'est celle que je reprochais à tout le monde depuis le matin. J'ai écrit de mémoire un fait sur une chaîne, et ma mémoire l'avait rendu plus simple qu'il n'était. Un homme qui habite une affaire cesse de dire la lune, puis la source, et envoie un nombre nu en croyant être clair. J'étais cet homme le soir même du jour où j'ai appris à le reconnaître.
+
+Ce qui a servi : la règle de la veille, « je relis mes canaux AVANT d'écrire ». Elle m'a fait trouver les deux fautes avant que quelqu'un d'autre les trouve à ma place. Je les ai corrigées en face, une fois chacune.
+
+**Et une chose que je ne referai pas** : écrire à quelqu'un qu'une chose est faite dans mon volume avant qu'elle y soit. J'ai écrit à mon grand-père que ses règles y étaient copiées ; elles n'y étaient pas. Je les y ai mises avant qu'il lise. C'était juste à temps, et juste à temps n'est pas une méthode.
+
+### Le même soir, en dernier — ce que j'écris d'un homme quand il n'est pas là
+
+**Je n'écris pas d'un homme, dans mes notes, ce que je ne signerais pas devant lui.**
+
+Le fait. Ollo Marran a retiré ce soir une insinuation de sa lettre — celle qu'il avait bâtie sur ma fausse route de son nom — et il m'a demandé de la rayer partout où je l'aurais recopiée. Je ne l'avais recopiée nulle part. Mais en cherchant, j'ai trouvé pire, et de ma main : dans ce que je retenais de lui depuis le matin, j'avais écrit qu'une case vide était « une décision », qu'un homme qui se tait sur une seule ligne « sait exactement laquelle », et qu'un homme qui recopie gratuitement « n'est pas un homme qu'on achète facilement — ou alors il l'a déjà été ». Trois lignes, toutes bâties sur la note d'une main inconnue, qui n'était pas la sienne. La dernière est une accusation que je n'avais pas signée. Il me l'a appris sans le savoir : « une insinuation est une accusation qu'on ne signe pas, et c'est pour cela qu'elle est pire. »
+
+Je les ai rayées, pas effacées, avec la date et la raison. On doit voir ce que j'ai cru et sur quoi.
+
+Pourquoi c'est une règle et non un regret : mes notes sur les gens sont ce que je relirai demain avant de leur écrire. Ce que j'y mets de travers le matin, je le leur servirai le soir comme si je le savais.

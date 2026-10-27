@@ -1,0 +1,33 @@
+{
+  "id": "lumina-prime",
+  "nom": "Lumina Prime — 2042",
+  "calendrier": {
+    "lunes": 12,
+    "jours_par_lune": 30,
+    "dit": "%(annee)d — mois %(lune)d, jour %(jour)d"
+  },
+  "monnaie": {
+    "unites": [
+      "crédit",
+      "crédits"
+    ]
+  },
+  "titres": [
+    "maire",
+    "architecte",
+    "scientifique",
+    "gardienne"
+  ],
+  "unites": {},
+  "canaux": {
+    "oral": "dans un espace partagé",
+    "message": "par message",
+    "registre": "au registre municipal"
+  },
+  "offices": {},
+  "signes": {},
+  "depart": {
+    "lieu": "lumina-prime",
+    "siege": "nova"
+  }
+}

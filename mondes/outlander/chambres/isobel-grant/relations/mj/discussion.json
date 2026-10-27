@@ -1,0 +1,28 @@
+{
+  "canal": [
+    "isobel-grant",
+    "mj"
+  ],
+  "entrees": [
+    {
+      "de": "isobel-grant",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4
+      },
+      "texte": "[QUESTION MONDE — HORS FICTION] Vérification factuelle du canal : le registre chemins.json relie-t-il actuellement la route basse de Craigh na Dun à Inverness ? Consulte ce seul registre et réponds en citant sa source. Ne définis et ne modifie aucun itinéraire pour cette vérification, ne joue aucune scène.",
+      "ref": "verification-consultation-monde"
+    },
+    {
+      "de": "mj",
+      "date": {
+        "annee": 1743,
+        "lune": 5,
+        "jour": 4
+      },
+      "texte": "[REPONSE MONDE — HORS FICTION] Non. `route-basse-craigh` et Inverness appartiennent actuellement à deux réseaux séparés ; aucune arête ne les relie.\n\nSource : [etat/chemins.json](C:\\Users\\reyno\\le-conseil2\\mondes\\outlander\\etat\\chemins.json). Le registre précise également : « réseau séparé des pierres, sans trajet distant ». Aucun itinéraire n’a été créé ni modifié.",
+      "ref": "verification-consultation-monde"
+    }
+  ]
+}

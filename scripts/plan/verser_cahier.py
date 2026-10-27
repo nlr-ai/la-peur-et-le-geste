@@ -40,9 +40,12 @@ except Exception:
     pass
 
 # Deux etages de plus qu'a la racine : scripts/plan/ (voir scripts/CLAUDE.md).
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-BOOKS = os.path.join(RACINE, "etat", "books.json")
-RAPPORTS = os.path.join(RACINE, "etat", "rapports")
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+BOOKS = os.path.join(ETAT, "books.json")
+RAPPORTS = os.path.join(ETAT, "rapports")
 
 
 lire = tables.lire

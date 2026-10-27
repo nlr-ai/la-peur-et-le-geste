@@ -1,7 +1,7 @@
 // GET /chemin et /monde/* — l'itinéraire à pied et les couches du monde en volume.
 const fs = require("fs");
 const path = require("path");
-const { RACINE } = require("../http");
+const { ETAT } = require("../http");
 const { envoyer } = require("../http");
 const { LIEU3D_DEFAUT, butProche, cheminPieton, graphePieton, noeudProche,
         repereProche, serviceMonde } = require("../monde3d");
@@ -47,7 +47,7 @@ function traiter(req, res, url) {
         if (cible) {
           try {
             const aff = JSON.parse(fs.readFileSync(
-              path.join(RACINE, "etat", "corps.json"), "utf-8")).affectations || {};
+              path.join(ETAT, "corps.json"), "utf-8")).affectations || {};
             for (const cle in aff)
               if (aff[cle] && aff[cle].bat === cible.bat)
                 { nomme = { cle, nom: aff[cle].nom || cle }; break; }

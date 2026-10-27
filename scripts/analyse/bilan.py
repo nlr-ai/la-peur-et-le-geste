@@ -35,8 +35,11 @@ import re
 import sys
 import time
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-TRACE = os.path.join(RACINE, "etat", "bilan.jsonl")
+import racines
+
+RACINE = racines.DEPOT
+ETAT = racines.etat()
+TRACE = os.path.join(ETAT, "bilan.jsonl")
 # LES EMPREINTES — ce qui permet de dire « cette pièce est neuve ».
 #
 # Le bilan compte des totaux ; il ne sait pas QUELLES pièces ont bougé. Or c'est
@@ -50,7 +53,7 @@ TRACE = os.path.join(RACINE, "etat", "bilan.jsonl")
 # l'empreinte a changé est RETOUCHÉE ; une pièce disparue l'est aussi. Trois
 # faits, une ligne de 1400 condensés — vingt kilo-octets par jour, et le seul
 # moyen d'avoir une mémoire du plan.
-EMPREINTES = os.path.join(RACINE, "etat", "plan-empreintes.jsonl")
+EMPREINTES = os.path.join(ETAT, "plan-empreintes.jsonl")
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -122,7 +125,7 @@ def mesurer(vue_de=None):
         motif = re.compile(u"|".join(re.escape(x) for x in
                                      sorted(lieux, key=len, reverse=True)))
         occasions = muettes = 0
-        for l in io.open(os.path.join(RACINE, "etat", "flux.jsonl"), encoding="utf-8"):
+        for l in io.open(os.path.join(ETAT, "flux.jsonl"), encoding="utf-8"):
             l = l.strip()
             if not l:
                 continue

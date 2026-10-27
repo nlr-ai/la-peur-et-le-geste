@@ -3,10 +3,26 @@
  "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme. Un fil ne compte comme demandé que si le pli est PARTI — et si l'homme est dans la salle, on ne lui écrit pas, on se lève.",
  "j_attends": [
   {
+   "de": "Le Sanglier, sergent au rôle de Peyredragon — et non Hallis Roon, qui tient un rôle de DÉPART",
+   "quoi": "Une réponse à une seule question avant tout dragon : son rôle porte-t-il des hommes du bourg payés à la JOURNÉE, ou seulement les présents à demeure ? Si oui : RETENIR les quarante bras, six cerfs la journée, cinq jours, sans les faire venir, jour exact porté par moi cinq jours avant J-18. Si non : le nom de qui tient ce rôle-là.",
+   "demande_le": "129.5.12 au soir — pli PARTI, canal aldon-hask/le-sanglier",
+   "relance": "le 15e, en même temps que je relance la reine et maître Rulf — je ne multiplie pas les fils ouverts le même jour.",
+   "adresse": "canal le-sanglier",
+   "note": "MA PREMIÈRE ADRESSE ÉTAIT FAUSSE : j'ai écrit à Hallis Roon en croyant qu'il était « le Sanglier ». Il ne l'est pas — deux hommes, deux rôles : lui un rôle de DÉPART (les hommes qui ont quitté le rocher), le Sanglier un rôle des PRÉSENTS. Ni l'un ni l'autre n'a encore confirmé tenir un rôle de journaliers payés au jour ; maître Rulf dit que ses charpentiers de grève n'y figurent pas."
+  },
+  {
+   "de": "Maître Rulf Corne — RENDU, fil fermé",
+   "quoi": "Répondu le 12e au soir : il ne tient pas ce chiffre, et ne le cherchera pas — vingt-deux ans de charge sans jamais avoir compté combien le bourg fournit en un jour sans se vider des champs. Ce n'est pas sa colonne. VERDICT RENDU, non un silence : le fil se ferme sur ce zéro. Deux faits nets en échange : ses deux journaliers du 3e-5e de la 4e lune ne sont pas de la même fenêtre que mes quarante (18e de la 3e lune) ; et il les nomme ce soir même pour me dire s'ils recoupent mes quarante, sans que je le lui aie redemandé.",
+   "demande_le": "129.5.12 au soir — pli PARTI, canal aldon-hask/rulf-corne (second pli du soir, après celui sur les tirants et les dates)",
+   "relance": "aucune — le fil est clos par un verdict, pas par un silence.",
+   "adresse": "canal rulf-corne",
+   "note": "NOUVELLE PISTE OUVERTE PAR LUI, NON ENCORE ADRESSÉE : Willa des Séchoirs, à côté du Sanglier, pourrait tenir ce chiffre. Je n'écris ni à l'un ni à l'autre pour l'instant — le Sanglier tient déjà ma demande de retenue et verra le doublon en tenant son propre rôle, exactement comme je l'avais prévu. Je n'écris à Willa que si le Sanglier revient sans le savoir non plus."
+  },
+  {
    "de": "Maître Rulf Corne",
-   "quoi": "LE FEUILLET DES DATES de ⚔️ 22049 — quelles nuits sont de morte-eau. RENDU AU 15e DE LA 5e LUNE, date qu'il tient seul et qu'il a donnée de lui-même.",
-   "demande_le": "129.5.12 au soir — RENDU (il a donné la date sans qu'on la lui arrache une seconde fois)",
-   "relance": "le 15e au matin il me dit lui-même si les deux gaffes n'ont pas rendu et si la date bouge. Je n'ai donc rien à relancer avant le 15e au soir.",
+   "quoi": "RENDU LE 12e AU SOIR : le 14e de la 5e lune, les DATES des nuits de morte-eau — quatre sur quinze — et la durée de fenêtre à l'intérieur. Marqué RÈGLE DE MÉTIER ET NON LEVÉ par lui-même. Je chiffre dessus, je ne le tiens pas pour prouvé.",
+   "demande_le": "129.5.12 — pli parti ; RENDU le 12e au soir",
+   "relance": "aucune — la date est tenue par lui et j'attends le 14e.",
    "adresse": "canal rulf-corne",
    "note": "Sa condition, donnée d'avance : son heure d'étale porte un doute de deux jours (chambre le 5e, greffe le 3e) = une heure quarante d'eau = une nuit entière déplacée. Il la fait trancher à la gaffe en DEUX lieux par deux mains à qui il a interdit de se parler et à qui il n'a pas donné son calcul."
   },
@@ -16,7 +32,7 @@
    "demande_le": "129.5.12 au soir — pli PARTI, mais de la main de maître Rulf, non de la mienne",
    "relance": "AUCUNE de ma part. Deux hommes qui posent la même question le même soir font perdre une réponse, pas gagner un jour. Je reprends le fil le 15e au soir si Rulf n'a rien.",
    "adresse": "par maître Rulf Corne",
-   "note": "EN COURS et DÛ LE 4e DE LA 4e LUNE : trente-huit jours de retard. Ce qui l'a débloqué n'est pas une demande mais un MOTIF DONNÉ — Rulf lui a écrit ce qui pend sur son levé, ce que Ryke ignorait. Un homme à qui l'on demande une date sans lui dire ce qui pend dessus répond au hasard. Et la mesure veut DEUX nuits, une morte-eau et une vive-eau : elle attend une occasion que personne ne fait venir."
+   "note": "EN COURS et DÛ LE 4e DE LA 4e LUNE : trente-huit jours de retard. Ce qui l'a débloqué n'est pas une demande mais un MOTIF DONNÉ — Rulf lui a écrit ce qui pend sur son levé, ce que Ryke ignorait. Un homme à qui l'on demande une date sans lui dire ce qui pend dessus répond au hasard. Et la mesure veut DEUX nuits, une morte-eau et une vive-eau : elle attend une occasion que personne ne fait venir. AJOUT DU 12e AU SOIR : maître Rulf lui demande aussi l'ÉCART pleine/basse mer à la barre, en morte-eau et vive-eau séparément — si le creux de morte-eau est moins creux (donc moins fermant), mon deuxième emprunt sur les 368 tombe. Hypothèse, non fait."
   },
   {
    "de": "La reine",
@@ -63,6 +79,14 @@
    "relance": "le 14e. Si Roon n'a rendu personne, je prends le calfat du quai — sur nos propres quilles nul ne profite du chiffre, la condition de maître Rulf ne mord pas.",
    "adresse": "ma ligne d'entretien, aucune autre repoussée",
    "note": "C'est le seul des trois emprunts des 368 places que je puisse rembourser seul. Contre deux mille trois cents dragons d'une fenêtre perdue, je n'hésite pas. Lettrée n'est pas visitée ; passe la barre n'est pas tient l'eau."
+  },
+  {
+   "de": "Willa des Séchoirs — EN RÉSERVE, non engagée",
+   "quoi": "Le compte de bras que le bourg peut fournir un jour sans se vider des champs. Ni maître Rulf ni Hallis Roon ne le tiennent ; le Sanglier peut-être.",
+   "demande_le": "non demandé",
+   "relance": "si la réponse du Sanglier ne suffit pas, et pas avant.",
+   "adresse": "inconnue — à trouver si besoin",
+   "note": "Je n'ouvre pas deux fils le même jour pour la même chose. Le Sanglier a la priorité."
   }
  ],
  "on_attend_de_moi": [

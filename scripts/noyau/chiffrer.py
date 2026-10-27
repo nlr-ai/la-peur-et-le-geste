@@ -29,8 +29,12 @@ import collections
 
 from etat.expose import tables  # LA PORTE de etat/ : le depot atomique de la proposition
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ETAT = os.path.join(RACINE, "etat")
+import racines  # ce que le MONDE declare : sa monnaie, ses titres, ses unites
+
+# `RACINE` reste le DEPOT : elle ne sert qu'a `os.path.relpath`, pour
+# AFFICHER le chemin de la proposition deposee.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 TISSU = os.path.join(ETAT, "tissu")
 
 # --------------------------------------------------------- la grammaire
@@ -49,7 +53,12 @@ UNITES = ("homme", "hommes", "quille", "quilles", "coque", "coques", "cheval",
           "chevaux", "corbeau", "corbeaux", "compagnie", "compagnies",
           "emissaire", "emissaires", "clerc", "clercs", "barque", "barques")
 
-MONNAIE = ("dragon", "dragons", "cerf", "cerfs", "sol", "sols")
+# LA MONNAIE VIENT DU MONDE (lot 4). Le defaut est la table d'hier, mot pour
+# mot : sans manifeste, `lire_quantites` compte exactement les memes dragons.
+# Ce defaut est un aveu — il dit qu'un mot de decor vit encore dans ce fichier.
+# Le manifeste porte soit `{"unites": [...]}`, soit la liste nue.
+_m = racines.dit("monnaie", ("dragon", "dragons", "cerf", "cerfs", "sol", "sols"))
+MONNAIE = tuple(_m.get("unites") or () if isinstance(_m, dict) else _m)
 
 NEANT = re.compile(r"\b(n[ée]ant|rien|z[ée]ro|gratuit)\b", re.I)
 ACHIFFRER = re.compile(r"\b(à|a) chiffrer\b", re.I)
@@ -88,7 +97,9 @@ def lire_quantites(texte):
             q["pendant"] = int(d.group(1))
             q["unite_temps"] = d.group(2)
         out.append(q)
-    for m in re.finditer(r"(\d+)\s*(" + "|".join(MONNAIE) + r")", t):
+    # `t` est deja aplati : la monnaie du monde l'est aussi, sinon un « écu »
+    # accentue au manifeste ne se trouverait jamais dans le texte aplati.
+    for m in re.finditer(r"(\d+)\s*(" + "|".join(plat(x) for x in MONNAIE) + r")", t):
         out.append({"combien": int(m.group(1)), "quoi": m.group(2)})
     return out
 

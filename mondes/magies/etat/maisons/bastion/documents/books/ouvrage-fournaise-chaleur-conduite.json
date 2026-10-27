@@ -1,0 +1,742 @@
+{
+ "id": "ouvrage-fournaise-chaleur-conduite",
+ "maison_id": "bastion",
+ "lieu_id": "bastion-couronne",
+ "salle_id": "conseil-couronne",
+ "titre": "La fournaise à chaleur conduite — spécification de l'ouvrage",
+ "sous_titre": "🔥 R11–R12. Ce que l'ouvrage EST, pièce par pièce : ce qui le compose, ce qui va d'où à où, ce qui se commande, les positions admises, les grandeurs et leurs trous, les défaillances. Tenu par Héloïse Braise, maîtresse des ouvrages (O01), et posé à la salle du conseil, à côté du cahier d'affaire.",
+ "type": "memento",
+ "embleme": "⚙️",
+ "tenu_par": "heloise-braise",
+ "office": "O01",
+ "pages": [
+  "CE LIVRE DÉCRIT, IL NE PROPOSE RIEN. Il n'y a ici ni état cible, ni clef, ni action : ce qu'on veut obtenir de cet ouvrage et ce qu'il faut lui faire subir avant de s'en servir vivent dans le cahier d'affaire, posé à côté de celui-ci. **Les deux sont à la salle du conseil**, et c'est voulu : on ne délibère pas sur une machine dont la description est restée à la machine. Qui veut savoir ce qui est branché sur quoi le lit ici — un livre posé se consulte de tout le château, il suffit de monter le chercher.",
+  "LES REPÈRES SONT DE MOI ET N'EXISTENT NULLE PART AILLEURS. **P** pour une pièce, **L** pour une liaison, **C** pour une commande, **G** pour une grandeur, **D** pour une défaillance. Ils ne remplacent ni les recettes du manuel (R01, R06, R11, R12), qui disent comment on fabrique, ni les codes M du registre des moyens, qui n'existe pas encore : la dernière table dit lesquels de mes repères chaque M désignera le jour où l'on ouvrira ce registre.",
+  "UN TROU ÉCRIT VAUT MIEUX QU'UN CHIFFRE INVENTÉ, ET C'EST LA RÈGLE DE LA TABLE DES GRANDEURS. Aucune valeur de cet ouvrage n'est mesurée : ni température admissible, ni débit, ni capacité, ni délai. J'ai donc écrit chaque grandeur avec son unité, ce qu'elle décide, et **le numéro de l'action qui la remplira** — de sorte qu'une case vide n'est pas un oubli mais une créance sur quelqu'un. Le jour où une case se remplit, elle se remplit ici et nulle part ailleurs.",
+  "LA DERNIÈRE TABLE EST LA PLUS UTILE, ET C'EST CELLE QU'ON N'ÉCRIT JAMAIS. Ce qu'un ouvrage ne fait pas se découvre d'ordinaire le jour où quelqu'un le lui demande, dans la circonstance où il le lui demande. Sept lignes suffisent à épargner ça, et six des sept sortent des règles communes du manuel — elles ne sont pas des précautions de ma main, ce sont des lois de l'art."
+ ],
+ "tables": [
+  {
+   "titre": "🧩 Les pièces",
+   "colonnes": [
+    "P",
+    "La pièce",
+    "Ce qu'elle fait",
+    "✨ Magie",
+    "🪨 Tient-elle sans magie ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**P1**",
+      "Foyer",
+      "Produit de la chaleur en consommant combustible et air",
+      "aucune",
+      "**oui** — c'est un feu"
+     ]
+    },
+    {
+     "cellules": [
+      "**P2**",
+      "Arrivée d'air",
+      "Alimente la combustion de P1",
+      "aucune",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "**P3**",
+      "Cheminée",
+      "Évacue les fumées de P1 par un trajet matériel qui n'est celui d'aucun transfert",
+      "aucune",
+      "**oui** — et c'est la seule issue des fumées"
+     ]
+    },
+    {
+     "cellules": [
+      "**P4**",
+      "Collecteur",
+      "Reçoit la chaleur de P1 et porte les prises élémentaires des trois branches",
+      "⚒️ Matière (appuis, joints) ; 🔥 prises",
+      "oui comme corps, non comme transfert"
+     ]
+    },
+    {
+     "cellules": [
+      "**P5**",
+      "Branche civile",
+      "Conduit la chaleur vers les ateliers",
+      "🔥 Éléments ; 🏺 Enchantement pour la procédure",
+      "non — sans transfert, elle ne porte rien"
+     ]
+    },
+    {
+     "cellules": [
+      "**P6**",
+      "Branche défensive",
+      "Conduit la chaleur vers les dalles d'approche P9",
+      "🔥 Éléments ; 🏺 Enchantement",
+      "non"
+     ]
+    },
+    {
+     "cellules": [
+      "**P7**",
+      "Branche de dissipation",
+      "Conduit vers P8 ce dont P5 et P6 ne peuvent pas disposer",
+      "🔥 Éléments ; 🏺 Enchantement",
+      "non"
+     ]
+    },
+    {
+     "cellules": [
+      "**P8**",
+      "Dissipateur",
+      "Reçoit la chaleur dont les autres usages ne veulent pas, et l'évacue réellement",
+      "aucune — c'est un récepteur matériel",
+      "**oui**, et sa capacité n'est pas infinie"
+     ]
+    },
+    {
+     "cellules": [
+      "**P9**",
+      "Dalles d'approche",
+      "Surface extérieure qui chauffe et devient difficile à traverser ou à occuper",
+      "aucune — elles reçoivent, elles n'opèrent pas",
+      "**oui**, et elles restent chaudes après la fermeture"
+     ]
+    },
+    {
+     "cellules": [
+      "**P10**",
+      "Écran thermique des traversées habitées",
+      "Détourne vers un récepteur réel la chaleur des passages proches des habitants",
+      "🛡️ Protection (R06) ; 🏺 Enchantement",
+      "non — c'est une frontière tenue"
+     ]
+    },
+    {
+     "cellules": [
+      "**P11**",
+      "Capteur Mercure Chaud",
+      "Mesure l'échauffement du support sur lequel il est posé",
+      "⚒️ Matière (empreinte)",
+      "il mesure, il ne commande pas seul"
+     ]
+    },
+    {
+     "cellules": [
+      "**P12**",
+      "Fil de Trace",
+      "Porte la mesure de P11 jusqu'à P13",
+      "🏺 Enchantement",
+      "non — et son silence ne se distingue pas d'un repos"
+     ]
+    },
+    {
+     "cellules": [
+      "**P13**",
+      "Barrer",
+      "Ferme le transfert quand P11 le lui dit par P12",
+      "🏺 Enchantement",
+      "non — **et il s'ouvre en l'absence de Trace**"
+     ]
+    },
+    {
+     "cellules": [
+      "**P14**",
+      "Admission générale",
+      "Ferme l'entrée de chaleur au collecteur, en amont des trois branches",
+      "aucune si elle est matérielle",
+      "**à trancher** — c'est l'objet de la clef 52210"
+     ]
+    },
+    {
+     "cellules": [
+      "**P15**",
+      "Appuis, joints et supports",
+      "Portent l'ouvrage et reçoivent les contraintes que les transferts déposent",
+      "⚒️ Matière (R02)",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "**P16**",
+      "Gemme de travaux auxiliaires",
+      "Restitue un travail comprimé auparavant, pour ce qui en demande hors de la chaleur",
+      "⚒️ Matière + 🏺 Enchantement (R01)",
+      "oui comme objet ; elle s'épuise et ne se recharge pas seule"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Les liaisons — ce qui va d'où à où",
+   "colonnes": [
+    "L",
+    "De",
+    "Vers",
+    "Ce qui passe",
+    "Par quel moyen",
+    "✂️ Coupable par"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**L1**",
+      "P2 air · combustible",
+      "P1 foyer",
+      "matière et comburant",
+      "matériel",
+      "C5"
+     ]
+    },
+    {
+     "cellules": [
+      "**L2**",
+      "P1 foyer",
+      "P3 cheminée",
+      "**les fumées**",
+      "matériel, et lui seul",
+      "rien — cette liaison ne doit jamais se couper"
+     ]
+    },
+    {
+     "cellules": [
+      "**L3**",
+      "P1 foyer",
+      "P4 collecteur",
+      "chaleur",
+      "prise élémentaire",
+      "C4 (P14)"
+     ]
+    },
+    {
+     "cellules": [
+      "**L4**",
+      "P4 collecteur",
+      "P5 ateliers",
+      "chaleur",
+      "transfert conduit",
+      "C1"
+     ]
+    },
+    {
+     "cellules": [
+      "**L5**",
+      "P4 collecteur",
+      "P6 → P9 dalles",
+      "chaleur",
+      "transfert conduit",
+      "C2, et C6 par la mesure"
+     ]
+    },
+    {
+     "cellules": [
+      "**L6**",
+      "P4 collecteur",
+      "P7 → P8 dissipateur",
+      "chaleur",
+      "transfert conduit",
+      "C3 — **à n'employer qu'en dernier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**L7**",
+      "P6 en traversée habitée",
+      "P10 → récepteur de l'écran",
+      "chaleur détournée",
+      "frontière de Protection",
+      "l'accord de P10, qui n'est pas le mien"
+     ]
+    },
+    {
+     "cellules": [
+      "**L8**",
+      "P11 capteur",
+      "P13 Barrer",
+      "**une mesure, pas une puissance**",
+      "P12, fil de Trace",
+      "la rupture du fil — qui OUVRE P13"
+     ]
+    },
+    {
+     "cellules": [
+      "**L9**",
+      "P5 · P6 · P7 en charge",
+      "P15 appuis",
+      "les contraintes que le transfert dépose",
+      "matériel",
+      "rien — les appuis reçoivent toujours"
+     ]
+    },
+    {
+     "cellules": [
+      "**L10**",
+      "P16 gemme",
+      "travaux auxiliaires",
+      "un travail restitué",
+      "raccord de détente",
+      "coupure matérielle du départ"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎛️ Les commandes",
+   "colonnes": [
+    "C",
+    "Où",
+    "🤲 Qui peut la toucher",
+    "✅ Ce qu'elle fait",
+    "🚫 Ce qu'elle ne fait pas"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**C1**",
+      "Départ de P5",
+      "un opérateur, sans don",
+      "Ouvre ou ferme le transfert vers les ateliers",
+      "Ne réduit pas P1. La chaleur refusée cherche une autre destination"
+     ]
+    },
+    {
+     "cellules": [
+      "**C2**",
+      "Départ de P6",
+      "un opérateur, sans don",
+      "Ouvre ou ferme le transfert vers les dalles",
+      "Ne refroidit pas P9, qui garde ce qu'elle a déjà reçu"
+     ]
+    },
+    {
+     "cellules": [
+      "**C3**",
+      "Départ de P7",
+      "un opérateur, sans don",
+      "Ouvre le transfert vers P8",
+      "Ne crée pas de capacité chez P8. Un dissipateur plein reste plein"
+     ]
+    },
+    {
+     "cellules": [
+      "**C4**",
+      "P14, au collecteur",
+      "**à trancher — clef 52210**",
+      "Ferme l'entrée de chaleur en amont des trois branches",
+      "N'éteint pas P1 et ne touche pas L2"
+     ]
+    },
+    {
+     "cellules": [
+      "**C5**",
+      "Au foyer : air et combustible",
+      "l'équipe du foyer (O03)",
+      "Réduit la production, matériellement",
+      "N'agit pas vite, et n'efface pas l'inertie de P1"
+     ]
+    },
+    {
+     "cellules": [
+      "**C6**",
+      "P13, commandé par P11",
+      "personne — c'est la mesure qui commande",
+      "Ferme le transfert surveillé quand le support monte",
+      "**Ne ferme rien si P12 se tait** : sans Trace, P13 s'ouvre"
+     ]
+    },
+    {
+     "cellules": [
+      "**C7**",
+      "Mode de conduite",
+      "O01",
+      "Choisit entre direct élémentaire et procédure enchantée",
+      "**Les deux ne se mêlent pas** : deux commandes concurrentes sur une même branche sont interdites"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚖️ Les positions admises",
+   "colonnes": [
+    "La position",
+    "P5 ateliers",
+    "P6 défense",
+    "P7 dissipation",
+    "✅ Pour y entrer, il faut",
+    "⛔ Ce qui l'interdit"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**Ordinaire**",
+      "ouverte",
+      "fermée",
+      "prête",
+      "Rien de particulier : c'est la position de tous les jours",
+      "—"
+     ]
+    },
+    {
+     "cellules": [
+      "**Défense**",
+      "réduite ou fermée",
+      "ouverte",
+      "prête",
+      "P8 a de la capacité ; P10 est en place sur les traversées habitées ; P11 répond",
+      "P8 saturé, ou P10 non éprouvé, ou P12 muet"
+     ]
+    },
+    {
+     "cellules": [
+      "**Dissipation seule**",
+      "fermée",
+      "fermée",
+      "ouverte",
+      "Une position de repli, pas de travail : on n'y va que pour vider",
+      "P8 saturé — il n'y a alors plus de position du tout, et il faut C5"
+     ]
+    },
+    {
+     "cellules": [
+      "**Arrêt magique**",
+      "sans transfert",
+      "sans transfert",
+      "sans transfert",
+      "C4 tenue, L2 libre, et quelqu'un au foyer",
+      "Rien ne l'interdit — mais ce n'est pas un arrêt : P1 brûle encore"
+     ]
+    },
+    {
+     "cellules": [
+      "**Arrêt complet**",
+      "—",
+      "—",
+      "—",
+      "P1 éteint par C5, et **le temps du refroidissement réellement attendu**",
+      "L'urgence. Il n'existe aucun geste qui refroidisse sur ordre"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "📏 Les grandeurs — chacune a son trou, et son créancier",
+   "colonnes": [
+    "G",
+    "La grandeur",
+    "📐 Unité",
+    "⚖️ Ce qu'elle décide",
+    "🔢 Valeur",
+    "✍️ Qui la remplit"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**G1**",
+      "Capacité de P8 avant saturation",
+      "chaleur par temps",
+      "Si la position Défense est tenable, et combien de temps",
+      "— **non mesurée**",
+      "⚔️ 52120"
+     ]
+    },
+    {
+     "cellules": [
+      "**G2**",
+      "Écart entre la fermeture des branches et la baisse effective de P1",
+      "temps",
+      "Le surplus qui cherche une issue à chaque fermeture",
+      "— **non mesurée**",
+      "⚔️ 52121"
+     ]
+    },
+    {
+     "cellules": [
+      "**G3**",
+      "Temps d'isolement par C4, fil coupé",
+      "temps",
+      "Si la perte de P12 est une panne ou un accident",
+      "— **non mesurée**",
+      "⚔️ 52220"
+     ]
+    },
+    {
+     "cellules": [
+      "**G4**",
+      "Délai de retour au froid de P9 après fermeture de C2",
+      "temps",
+      "Quand on peut retraverser l'approche — et quand l'ennemi le peut",
+      "— **non mesurée**",
+      "⚔️ 52320"
+     ]
+    },
+    {
+     "cellules": [
+      "**G5**",
+      "Hommes nécessaires pour tenir P1 sans magie",
+      "personnes",
+      "Si l'épreuve D est survivable en service réel",
+      "— **non mesurée**",
+      "⚔️ 52321"
+     ]
+    },
+    {
+     "cellules": [
+      "**G6**",
+      "Température admissible de P15",
+      "chaleur",
+      "Le point où un support cesse de porter",
+      "— **non mesurée**",
+      "à désigner — aucune action ne la porte"
+     ]
+    },
+    {
+     "cellules": [
+      "**G7**",
+      "Durée de tenue ininterrompue du transfert au collecteur",
+      "jours",
+      "La profondeur du sillon, et donc ce qui peut y naître",
+      "— **inconnue depuis une date qu'on ignore**",
+      "⚔️ 52420"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚠️ Les défaillances",
+   "colonnes": [
+    "D",
+    "Ce qui lâche",
+    "💥 Ce que l'ouvrage fait alors",
+    "🪨 Ce qui reste vrai",
+    "🤲 Le geste, et par qui",
+    "🧪 Éprouvé ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**D1**",
+      "P12 se tait (fil rompu, capteur perdu)",
+      "**P13 s'ouvre.** Le transfert surveillé continue sans surveillance",
+      "P11 mesure peut-être encore ; plus personne ne l'entend",
+      "C4 à la main, puis C5 — O01 et O03",
+      "**non** — épreuve B"
+     ]
+    },
+    {
+     "cellules": [
+      "**D2**",
+      "P8 sature",
+      "La chaleur refusée par P5 et P6 n'a plus d'issue et reste dans P4 et P15",
+      "P1 produit toujours ; les appuis montent",
+      "C5, et rien d'autre ne marche — O03",
+      "**non** — épreuve C"
+     ]
+    },
+    {
+     "cellules": [
+      "**D3**",
+      "On ferme C2 sous la menace",
+      "Le surplus part vers P7, à hauteur de G1",
+      "P9 reste chaude pendant G4 ; l'approche reste tenue un temps",
+      "Vérifier P8 avant de fermer, pas après — O01",
+      "**non** — épreuve A"
+     ]
+    },
+    {
+     "cellules": [
+      "**D4**",
+      "Toute magie cesse",
+      "Les transferts s'arrêtent net ; **le feu continue**",
+      "L2 évacue, P15 reste chaud, P9 garde ce qu'elle a",
+      "Conduire P1 à la main par C5 — O03, avec G5 hommes",
+      "**non** — épreuve D"
+     ]
+    },
+    {
+     "cellules": [
+      "**D5**",
+      "P16 se rompt ou s'épuise",
+      "Les travaux auxiliaires s'arrêtent",
+      "Le transfert de chaleur, lui, ne dépendait pas d'elle",
+      "Isoler le départ avant remplacement — O01",
+      "non"
+     ]
+    },
+    {
+     "cellules": [
+      "**D6**",
+      "L2 s'obstrue",
+      "Les fumées n'ont plus d'issue et reviennent par où l'on travaille",
+      "Aucun transfert magique ne les emporte : elles ne suivent pas la chaleur",
+      "C5 immédiat, et l'on évacue les hommes — O03",
+      "non"
+     ]
+    },
+    {
+     "cellules": [
+      "**D7**",
+      "Un Obstiné s'installe dans le réseau",
+      "Il poursuit une commande avec les ressources qu'il y trouve",
+      "Couper la commande ne suffit pas s'il atteint la chaleur ou le combustible",
+      "Isoler les ressources, pas la commande — et sa capacité exacte reste à définir",
+      "non — et la question dépasse cet ouvrage"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "✍️ Les accords — deux mains, jamais une",
+   "colonnes": [
+    "Ce qui est accordé",
+    "Qui l'a accordé",
+    "Ce que l'accord fixe",
+    "Ce qui le relève"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Le transfert des trois branches (P5 · P6 · P7)",
+      "Héloïse Braise (🔥) + **un enchanteur à nommer**",
+      "Les opérations répétables et leurs déclencheurs, pour qu'un opérateur sans don puisse commander",
+      "Une relève d'accord ; aucune date n'en est écrite"
+     ]
+    },
+    {
+     "cellules": [
+      "La régulation P11 → P12 → P13",
+      "**à nommer** (⚒️ + 🏺)",
+      "Que la mesure commande le Barrer du transfert surveillé",
+      "Idem — et personne ne sait quand elle a été relevée"
+     ]
+    },
+    {
+     "cellules": [
+      "L'écran P10",
+      "**un protecteur à nommer** (🛡️ + 🏺)",
+      "Le détournement vers un récepteur réel, et ce récepteur",
+      "⚔️ 52520, qui doit d'abord retrouver son nom"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🚫 Ce que cet ouvrage ne fait pas",
+   "colonnes": [
+    "Ce qu'on lui demandera un jour",
+    "Pourquoi il ne le fera pas"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Multiplier la chaleur en changeant sa destination",
+      "Aucune création d'énergie. Répartir ne duplique pas ; la source se refroidit ou consomme"
+     ]
+    },
+    {
+     "cellules": [
+      "Projeter une flamme sur l'approche",
+      "Une flamme demande combustible et conditions de combustion **à l'endroit où elle se produit**. Un signe de feu ne crée pas de combustible. Hors de cette v1"
+     ]
+    },
+    {
+     "cellules": [
+      "Rendre un conduit plus conducteur qu'il n'est",
+      "La recette de conductivité de la ⚒️ Matière n'existe pas. Rien ici ne la suppose"
+     ]
+    },
+    {
+     "cellules": [
+      "Épargner les nôtres et brûler les autres",
+      "La 🛡️ Protection filtre des propriétés concrètes, jamais l'ennemi. P10 détourne de la chaleur, il ne choisit pas qui la reçoit"
+     ]
+    },
+    {
+     "cellules": [
+      "Refroidir sur ordre",
+      "La coupure n'efface pas ce qui est déjà produit. Un arrêt est un mot ; le refroidissement est une durée — G4"
+     ]
+    },
+    {
+     "cellules": [
+      "Se recharger tout seul",
+      "P16 restitue un travail comprimé auparavant. Aucune boucle ne charge sa propre alimentation"
+     ]
+    },
+    {
+     "cellules": [
+      "Dire l'état du Bastion",
+      "Aucun capteur ne donne une connaissance globale. P11 dit la chaleur d'un support, et rien au-delà"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔨 Ce que les codes M du cahier d'affaire désigneront ici",
+   "colonnes": [
+    "M",
+    "Ce qu'il désigne dans cet ouvrage"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M01",
+      "P16 — et le poste de distribution dont elle vient (R01)"
+     ]
+    },
+    {
+     "cellules": [
+      "M02",
+      "P15"
+     ]
+    },
+    {
+     "cellules": [
+      "M05",
+      "P1 · P2 · P4 · P5 · P6 · P7 pris ensemble — le foyer et son collecteur à trois branches"
+     ]
+    },
+    {
+     "cellules": [
+      "M06",
+      "P11 · P13"
+     ]
+    },
+    {
+     "cellules": [
+      "M07",
+      "P12"
+     ]
+    },
+    {
+     "cellules": [
+      "M08",
+      "P8"
+     ]
+    },
+    {
+     "cellules": [
+      "M09",
+      "P10"
+     ]
+    },
+    {
+     "cellules": [
+      "M10",
+      "P9"
+     ]
+    },
+    {
+     "cellules": [
+      "M11",
+      "P3 — et la liaison L2, qui est ce qui compte"
+     ]
+    }
+   ]
+  }
+ ]
+}

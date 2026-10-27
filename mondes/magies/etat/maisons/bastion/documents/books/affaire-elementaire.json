@@ -1,0 +1,1002 @@
+{
+ "id": "affaire-elementaire",
+ "maison_id": "bastion",
+ "titre": "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+ "sous_titre": "🔥 Affaire ouverte à la salle du conseil du Bastion couronné et POSÉE LÀ, où elle reste. Trois états atteignables, douze lois dont deux tranchées par nous, dix-huit mécanismes, trente-six pratiques. Le don est sous ce toit et alimente nos ateliers. Plage 50000 à 50999.",
+ "type": "plan",
+ "embleme": "🔥",
+ "couleur": "#8c4a24",
+ "lieu_id": "bastion-couronne",
+ "salle_id": "conseil-couronne",
+ "tenu_par": "heloise-braise",
+ "office": "O01",
+ "pages": [
+  "TROIS CHOSES SE FONT AVEC CETTE ÉCOLE : engager un élément présent dans un circuit préparé, conduire ou partager son flux selon une géométrie de runes, et décharger l'excès ou l'énergie retirée vers un récepteur réel.\n\nUne seule loi les commande toutes : **rien ne se crée.** L'Air ne se souffle pas du vide : il se prélève dans le courant ambiant. Le Feu n'apparaît pas par décret : il se tire d'un foyer ou d'une gemme où un travail réel a comprimé de la chaleur. L'Eau ne jaillit pas sans source, la Terre ne s'anime que si le minéral libre est déjà là, et la Lumière meurt dès que son foyer s'éteint. L'élémentaliste ne crée aucune substance : il saisit ce qui existe et l'oblige à suivre un trajet taillé pour lui.\n\nConduire un jet, dresser une barrière d'eau, souffler les gaz d'une galerie ne sont pas des miracles : ce sont des transferts matériels gouvernés par l'effort et la matière.",
+  "LA PHYSIQUE DE CETTE ÉCOLE TIENT EN DOUZE LOIS, ET DEUX SONT DE NOUS.\n\nCe qu'elles disent de dur : **la double commande est absolue.** La parole nomme l'élément et l'opération (« Feu », « Conduis ») ; le geste sélectionne la source, oriente l'axe et règle le débit. Si la bouche dit une chose et que la main en esquisse une autre, le circuit refuse l'ordre et maintient le flux antérieur sans choisir à notre place. Les cinq signes (🜁 Air, 🜂 Feu, 🜄 Eau, 🜃 Terre, ☉ Lumière) ne sont pas interchangeables. Les quatre cercles (⊙ Source, ⊗ Travail, ◎ Destination, ⊖ Décharge) doivent être orientés par leur encoche matérielle. Et surtout : **couper la commande n'arrête pas le mouvement.** L'eau lancée continue sa course, la pierre roule par son inertie et la dalle chauffée reste brûlante jusqu'au froid naturel.\n\n**Nos deux décisions.** *La dissipation obligatoire* : les sources laissent indécis le devenir de l'énergie retirée lorsqu'on freine un flux ; nous tranchons qu'on ne ralentit rien sans évacuer la chaleur ou la pression vers un récepteur désigné, ce qui interdit tout arrêt instantané sans casse. *Le couplage corporel* : nous tranchons que la voix et la posture imposent une contrainte physique continue, interdisant de mener deux conduites indépendantes d'un même corps.",
+  "CE CAHIER TOMBE SUR UNE CHARGE TENUE, ET NOUS EN DÉPENDONS AU QUOTIDIEN.\n\nO01, Maîtrise des ouvrages, est tenue par Héloïse Braise. Le don élémentaire est le cœur battant du Bastion : il allume le collecteur des Fournaises, chauffe les ateliers de fonte et permet de projeter la chaleur au rempart. Mais hors du foyer central, **les applications élémentaires du Bastion tournent sans doctrine d'ensemble.**\n\nNous avons des canalisations d'eau que personne n'a éprouvées sous pression magique, des conduits de ventilation d'air que les mineurs ouvrent à l'intuition, et des réserves de gemmes dont nul ne sait si la détente restitue un travail propre ou un souffle destructeur. Le registre des moyens cite les foyers mais tait les décharges d'air et d'eau. Ce cahier pose les règles de tout ce qui coule, brûle ou souffle sous nos voûtes avant qu'un retour de flamme n'emporte une galerie.",
+  "TROIS CHOSES À SAVOIR AVANT DE S'APPUYER SUR CE CAHIER.\n\n**Aucune des trente-six pratiques n'a été portée au grand livre comme achevée.** Certaines décrivent pourtant des manœuvres courantes aux Fournaises — mais une pratique quotidienne sans relevé d'épreuve n'est qu'une habitude, et une habitude rompt dès que l'opérateur change.\n\n**Sept des dix-huit mécanismes ne demandent aucun don** : poser un chenal maçonné sous le flux, orienter les encoches des cercles au fil à plomb, vérifier la présence d'eau dans la bâche avant l'appel, poser une coupure manuelle par vanne de bronze, surveiller le niveau du bassin de décharge, mesurer la température d'une dalle témoin, et consigner les heures de chauffe. Ce sont des besognes de maçons et de commis.\n\n**Deux lois n'ont qu'une seule clef** : la persistance cinétique et le couplage corporel. On ne contourne pas l'élan d'une masse d'eau lancée, on lui donne une zone de perte de charge ; et l'on ne dédouble pas un mage, on organise des tours de relève.\n\nCe qui reste ouvert et qu'aucun verrou ne règle : les limites ultimes de débit en toises cubes par sablier, l'équation exacte de détente des gemmes de Matière, et la géométrie fine de la foudre, que les anciens évoquent sans en donner le glyphe d'inscription."
+ ],
+ "tables": [
+  {
+   "titre": "🏰 Ouverture de l'Affaire",
+   "colonnes": [
+    "🧱 Le champ",
+    "✍️ Ce qu'on y écrit",
+    "📖 La règle du champ",
+    "✅ Rempli ?"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "🏷️ **LE NOM**",
+      "La Magie élémentaire — paroles, gestes, runes et cercles, et la physique des transferts",
+      "Le sujet dont le conseil traite, **jamais la solution**.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🎯 **L'OBJET**",
+      "Nos fournaises, nos fonderies et la défense de nos remparts reposent sur cette école. Le conseil doit connaître les exigences de la conduite directe, ce que coûte un ralentissement en dissipation thermique, et l'obligation d'un récepteur réel avant d'ouvrir un nouveau conduit.",
+      "Une phrase : pourquoi cette affaire mérite l'attention du conseil.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🧱 **LE PÉRIMÈTRE — DANS**",
+      "Les trois états qu'un élémentaliste peut atteindre : conduire un flux depuis une source réelle, répartir ou freiner ce flux sans rompre l'ouvrage, et décharger les excès vers un récepteur adapté. Les signes des cinq éléments, les six runes d'opération, les quatre cercles et leurs liaisons matérielles.",
+      "Ce qui est réellement traité dans ce cahier.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🚫 **LE PÉRIMÈTRE — HORS**",
+      "L'inscription répétable sur support permanent sans présence humaine, qui relève de l'Enchantement (51000). La fabrication et la compression des gemmes de puissance, qui relèvent de la Matière (57000). Le détail particulier du collecteur thermique, qui relève de l'affaire de la Fournaise (52000). Le phénomène de la foudre.",
+      "Sans le dehors écrit, une affaire d'école avale tout en trois semaines.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "📌 **L'ÉTAT ACTUEL**",
+      "**Ce qui est vrai :** Héloïse Braise conduit le feu aux Fournaises quotidiennement ; le don est présent et éprouvé sur le thermique ; les runes et gestes de base sont maîtrisés. **Ce qu'on reconnaît ignorer :** aucune canalisation d'eau n'a été éprouvée sous refoulement magique ; la décharge des surpressions d'air dépend d'évents non calibrés ; les limites d'endurance de la voix et du geste n'ont jamais été chronométrées ; le stock de gemmes élémentaires disponibles est inconnu du conseil.",
+      "Ce qu'on sait réellement à l'ouverture, et ce qu'on reconnaît ignorer.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "🔢 **LA PLAGE**",
+      "**50000 à 50999**",
+      "Un bloc de cent par état cible ; verrous en 01 à 09, clefs en 10 à 19, pratiques en 20 à 99.",
+      "**oui**"
+     ]
+    },
+    {
+     "cellules": [
+      "💡 **LA CONCLUSION**",
+      "",
+      "Écrite de la main de qui tient la charge, quand elle l'est. Pas avant.",
+      "non"
+     ]
+    },
+    {
+     "cellules": [
+      "🔚 **FERMÉE QUAND**",
+      "Chaque circuit élémentaire actif du Bastion dispose d'un récepteur de décharge nommé et calibré ; la double commande parole/geste fait l'objet d'un protocole de sécurité affiché aux ateliers ; et les limites de débit des gemmes sont consignées au registre des moyens.",
+      "La fermeture couvre l'état de notre savoir et de nos ouvrages, jamais la maîtrise de l'école.",
+      "**oui**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔗 Affaires liées — les liens écrits, puis les calculés",
+   "colonnes": [
+    "🪢 Le lien",
+    "🔗 L'affaire",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "📝 Pourquoi"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "M05 🔥 Le foyer, son arrivée d'air, le collecteur et ses trois branches",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M76 ⚒️ Le don de Matière",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "M06 🌡️ Le capteur Mercure Chaud et son Barrer",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M01 💎 La gemme de travaux auxiliaires, et son poste de distribution",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M06 🌡️ Le capteur Mercure Chaud et son Barrer",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "M76 ⚒️ Le don de Matière",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "M01 💎 La gemme de travaux auxiliaires, et son poste de distribution",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "M05 🔥 Le foyer, son arrivée d'air, le collecteur et ses trois branches",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "M06 🌡️ Le capteur Mercure Chaud et son Barrer",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "La fournaise à chaleur conduite — l'éprouver avant de s'en servir",
+      "O01 —",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "M08 ♨️ Le dissipateur",
+      "",
+      ""
+     ]
+    },
+    {
+     "cellules": [
+      "partage",
+      "Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations",
+      "O01 —",
+      "",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⛓️ Ce qui pend, et sur qui — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🧭 Sens",
+    "🔢 Notre pièce",
+    "🔢 La leur",
+    "🔗 L'affaire"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "—",
+      "",
+      "",
+      "rien ne traverse"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔨🪶 Ce qu'on engage, et qui d'autre le veut — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🔢 La pièce",
+    "⚔️ Nos actions",
+    "🔗 Aussi engagée par"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M01 💎 La gemme de travaux auxiliaires, et son poste de distribution",
+      "🗝️ 50211 · ⚔️ 50221",
+      "La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir"
+     ]
+    },
+    {
+     "cellules": [
+      "M02 🧱 Les appuis, joints et supports de l'ouvrage",
+      "🗝️ 50010 · 🗝️ 50012 · 🗝️ 50013 · ⚔️ 50020 · ⚔️ 50022 · ⚔️ 50023 · 🗝️ 50110 · 🗝️ 50112 · ⚔️ 50121 · ⚔️ 50122 · ⚔️ 50220",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages · La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "M05 🔥 Le foyer, son arrivée d'air, le collecteur et ses trois branches",
+      "🗝️ 50010 · 🗝️ 50014 · ⚔️ 50020 · ⚔️ 50024 · ⚔️ 50025 · ⚔️ 50123",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir"
+     ]
+    },
+    {
+     "cellules": [
+      "M06 🌡️ Le capteur Mercure Chaud et son Barrer",
+      "🗝️ 50011 · ⚔️ 50021 · ⚔️ 50120 · ⚔️ 50123",
+      "La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir"
+     ]
+    },
+    {
+     "cellules": [
+      "M08 ♨️ Le dissipateur",
+      "🗝️ 50011 · 🗝️ 50013 · ⚔️ 50021 · ⚔️ 50023 · 🗝️ 50110 · 🗝️ 50111 · 🗝️ 50112 · ⚔️ 50120 · ⚔️ 50121 · 🗝️ 50210 · ⚔️ 50220 · ⚔️ 50222",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    },
+    {
+     "cellules": [
+      "M76 ⚒️ Le don de Matière",
+      "🗝️ 50211 · ⚔️ 50221",
+      "L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose"
+     ]
+    },
+    {
+     "cellules": [
+      "O01 —",
+      "⚔️ 50020 · ⚔️ 50021 · ⚔️ 50022 · ⚔️ 50023 · ⚔️ 50024 · ⚔️ 50025 · ⚔️ 50120 · ⚔️ 50121 · ⚔️ 50122 · ⚔️ 50123 · ⚔️ 50220 · ⚔️ 50221 · ⚔️ 50222",
+      "L'Annulation — le sillon, l'excédent et les encres, et ce qui s'y oppose · L'Enchantement — le grimoire des circuits, les grilles et la commande des ouvrages · L'Espace — les trois choses que cette école fait, et la physique qui s'y oppose · La Divination — les liens de contact, les bassins de regard et la recherche des relations · La Protection — les trois choses que cette école fait, et la physique qui s'y oppose · La fournaise à chaleur conduite — l'éprouver avant de s'en servir · Le Temps — la succession causale, la charge des neuf dixièmes et les quatre modulations"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🕳️ Les trous — calculé, ne pas écrire à la main",
+   "colonnes": [
+    "🕳️ Le défaut",
+    "🔢 Les pièces"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "aucun — la chaîne tient de bout en bout",
+      ""
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🧾 Ce que ce cahier cite et que la Maison ne tient pas encore",
+   "colonnes": [
+    "🔢 La pièce citée",
+    "📖 Ce qu'elle désigne",
+    "⚠️ Ce qui manque"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "M01",
+      "La gemme de travaux auxiliaires et son poste de distribution.",
+      "**Présente, mais capacité inconnue.** On ignore combien de décharges ou de transferts de secours elle peut soutenir avant vidange complète."
+     ]
+    },
+    {
+     "cellules": [
+      "M05",
+      "Le grand foyer des Fournaises et son alimentation en charbon.",
+      "**Présent et tenu**, mais sans registre d'extinction d'urgence en cas de rupture de commande élémentaire."
+     ]
+    },
+    {
+     "cellules": [
+      "M08",
+      "Le dissipateur thermique et les puisards d'évacuation d'eau.",
+      "**Incomplets.** Le dissipateur prend la chaleur, mais les évacuations d'eau boueuse et d'air vicié sous pression n'ont pas de puisard calibré."
+     ]
+    },
+    {
+     "cellules": [
+      "O01",
+      "Maîtrise des ouvrages — Héloïse Braise.",
+      "**Pourvue.** Héloïse détient le don et la charge, mais manque d'un second pour relayer la voix lors des longues conduites de chauffe."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🎯 États cibles",
+   "colonnes": [
+    "🎯 N°",
+    "🏷️ L'état",
+    "✅ Ce qui doit être vrai",
+    "💡 Valence",
+    "📍 Où",
+    "👁️ La preuve",
+    "⬆️ Sert",
+    "💯 Importance"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**50000**",
+      "**Conduire un transfert élémentaire par la parole et le geste simultanés depuis une source réelle.**",
+      "L'élément désigné (air, feu, eau, terre, lumière) se meut le long de la liaison préparée sans création d'énergie ni perte en chemin, sous l'action conjointe de la voix et du mouvement.",
+      "L'acte fondamental de l'école. Rien ne naît de rien : la volonté oriente et ouvre, mais la ressource doit être préexistante et l'énergie puisée dans une réserve réelle. C'est ce qui fait la solidité de l'artisanat du Bastion face aux mirages.",
+      "Aux cercles de source et ateliers de travail",
+      "Un flux mesuré à la destination égal au flux soutiré à la source moins les pertes de frottement normales.",
+      "racine",
+      "**100**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50100**",
+      "**Répartir, rassembler et freiner les flux sans rupture de charge ni contrainte destructive.**",
+      "À chaque dérivation, le débit se partage exactement entre les branches ; à chaque freinage, l'énergie retirée est évacuée sans faire claquer le support.",
+      "Ce qui sépare une conduite maîtrisée d'une explosion de canalisation. La magie ne fait pas disparaître la pression : freiner un courant exige d'encaisser son inertie.",
+      "Aux nœuds de dérivation et vannes de régulation",
+      "Une fermeture de vanne opérée à plein débit sans fissuration du support minéral ni coup de bélier thermique.",
+      "50000",
+      "**95**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50200**",
+      "**Décharger intégralement les excès et l'énergie retirée vers un récepteur réel avant saturation.**",
+      "Tout surplus de matière ou d'énergie thermique est dirigé vers le cercle de décharge ⊖ relié à un récepteur de capacité connue, sans retour dans l'ouvrage.",
+      "L'exigence de sauvegarde. Une installation élémentaire sans décharge est une bombe à retardement qui charge les dalles et attire les Non-Vivants.",
+      "Aux puisards, dissipateurs et évents extérieurs",
+      "Un trop-plein provoqué volontairement qui s'écoule au récepteur sans échauffement des zones habitées.",
+      "50000",
+      "**90**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🔒 Verrous",
+   "colonnes": [
+    "🔒 N°",
+    "🏷️ Le verrou",
+    "⛔ Bloque",
+    "📌 Ce qui est vrai aujourd'hui",
+    "📚 D'où ça vient",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "🔓 Levé quand"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**50001**",
+      "**La double commande** — La parole et le geste doivent concorder rigoureusement.",
+      "50000",
+      "Un ordre sans geste est ignoré ; un geste sans parole ne transmet rien ; une discordance fige le circuit sur sa consigne précédente. Aucune intention vague ne supplée à la forme.",
+      "**source**",
+      "",
+      "🔥 Parole et geste sont tous deux indispensables à la conduite directe.",
+      "Une commande a été enregistrée alors que la bouche ou les doigts étaient entravés."
+     ]
+    },
+    {
+     "cellules": [
+      "**50002**",
+      "**La présence de ressource** — Aucun élément n'est créé ex nihilo.",
+      "50000",
+      "Désigner le feu exige un foyer ou une gemme chaude ; désigner l'eau exige une cuve ou une nappe ; désigner la terre n'agit que sur le minéral meuble libre. L'air n'est pas le vide.",
+      "**source**",
+      "",
+      "🔥 Le signe ne crée pas sa ressource : il engage ce qui est physiquement présent.",
+      "Un jet d'eau ou une flamme a jailli dans une enceinte close et sèche sans source mesurable."
+     ]
+    },
+    {
+     "cellules": [
+      "**50003**",
+      "**L'orientation des cercles** — Le cercle exige une encoche d'alignement matériel.",
+      "50000",
+      "Un cercle tracé sans encoche d'orientation ou tourné de quart n'adresse plus le trajet prévu et déverse son flux dans la maçonnerie environnante.",
+      "**source**",
+      "",
+      "🔥 Une encoche fixe l'orientation. Un cercle tourné n'adresse pas le même trajet.",
+      "Un cercle pivoté a continué d'alimenter la même sortie sans déviation."
+     ]
+    },
+    {
+     "cellules": [
+      "**50004**",
+      "**La continuité matérielle** — Le flux exige un trajet préparé ou un espace libre guidé.",
+      "50000",
+      "Une rupture de conduit interrompt le flux ou le répand au point de cassure. La magie ne saute pas par téléportation à travers une paroi intacte.",
+      "**source**",
+      "",
+      "🔥 Une liaison exige un tracé continu, un support ou un raccord construit.",
+      "Un flux élémentaire a franchi une cloison étanche sans ouverture ni conduit."
+     ]
+    },
+    {
+     "cellules": [
+      "**50005**",
+      "**Le couplage corporel** — La tenue d'une conduite mobilise entièrement le praticien.",
+      "50000",
+      "Garder une posture et répéter les ordres respiratoires interdit de marcher vite, de combattre ou de mener une seconde conduite d'un même corps.",
+      "**décision Bastion**",
+      "50001",
+      "🔥 Décision Bastion : la conduite directe impose une immobilisation physique relative.",
+      "Un élémentaliste a maintenu deux flux indépendants tout en se déplaçant librement."
+     ]
+    },
+    {
+     "cellules": [
+      "**50101**",
+      "**La conservation du débit** — La dérivation partage le flux, elle ne le multiplie pas.",
+      "50100",
+      "Séparer un conduit en deux avec la rune ⑂ donne au plus la moitié du débit sur chaque branche si la résistance est égale. Deux sorties ne reçoivent jamais chacune le total.",
+      "**source**",
+      "50002",
+      "🔥 Une dérivation partage un débit ; elle ne le duplique pas.",
+      "La somme des débits mesurés en aval dépasse le débit entrant mesuré en amont."
+     ]
+    },
+    {
+     "cellules": [
+      "**50102**",
+      "**Le freinage avec dissipation** — Ralentir exige d'évacuer l'énergie cinétique ou thermique.",
+      "50100",
+      "La rune ⇸ ne fait pas disparaître le mouvement : elle convertit l'élan en contrainte mécanique sur les parois ou en échauffement du fluide.",
+      "**décision Bastion**",
+      "",
+      "🔥 Décision Bastion : freiner un flux transfère son énergie cinétique sous forme de chaleur.",
+      "Un flux violent a été stoppé net sans aucun échauffement ni choc sur les appuis."
+     ]
+    },
+    {
+     "cellules": [
+      "**50103**",
+      "**La persistance d'inertie** — Relâcher le contrôle magique ne détruit pas l'élan acquis.",
+      "50100",
+      "Cesser le geste avec ⇥ retire la prise magique ; la masse d'eau lancée poursuit sa trajectoire balistique et la chaleur accumulée continue de diffuser.",
+      "**source**",
+      "",
+      "🔥 Abandonner la posture cesse la prise active ; les conséquences physiques continuent.",
+      "Une masse d'eau projetée s'est arrêtée en plein vol à l'ouverture des doigts du mage."
+     ]
+    },
+    {
+     "cellules": [
+      "**50201**",
+      "**La saturation du récepteur** — Une destination pleine refoule vers l'amont.",
+      "50200",
+      "Le cercle de décharge ⊖ ne débouche pas sur un vide infini : quand la cuve ou le bloc calcaire est saturé, la surpression reflue et fend les cercles de travail.",
+      "**source**",
+      "50101",
+      "🔥 Les pertes et excès doivent rejoindre un récepteur ou se dissiper ; saturation = débordement.",
+      "Un récepteur plein a continué d'absorber du fluide sans rejet ni surpression."
+     ]
+    },
+    {
+     "cellules": [
+      "**50202**",
+      "**Le travail défavorable** — Remonter un gradient exige une alimentation réelle.",
+      "50200",
+      "Refouler de l'eau vers le haut ou pousser de l'air contre une pression supérieure consomme le travail comprimé d'une gemme ou l'effort d'une pompe mécanique.",
+      "**source**",
+      "50002",
+      "🔥 Transférer contre le sens naturel impose un travail qui doit être payé.",
+      "Un liquide est monté de dix toises sans consommation d'énergie mécanique ou de gemme."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "🗝️ Clefs",
+   "colonnes": [
+    "🗝️ N°",
+    "🏷️ La clef",
+    "🔓 Ouvre",
+    "💡 Le principe et sa valence",
+    "🧰 Moyens",
+    "💰 Le prix",
+    "👁️ La preuve attendue",
+    "⚖️ Décision"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**50010**",
+      "**Le pupitre de commande fixe** — Poser des repères matériels pour caler la posture et la parole.",
+      "50001 · 50005",
+      "Plutôt que de laisser l'opérateur debout dans le vent, on lui bâtit un poste avec accoudoirs réglés et texte gravé sous les yeux. Aucun don requis pour construire le meuble.",
+      "M02 · M05",
+      "L'opérateur est cloué à son poste et ne peut suivre le flux en mouvement.",
+      "Un exercice de maintien de deux heures sans faute de geste ni hésitation de voix.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50011**",
+      "**La jauge d'alimentation d'amont** — Mesurer la présence de l'élément avant d'ordonner la prise.",
+      "50002",
+      "Un flotteur dans la cuve d'eau, une flamme témoin au foyer : on ne lance jamais ↦ « Prends » sans voir l'aiguille de ressource au-dessus du repère rouge.",
+      "M06 · M08",
+      "Un instrument mécanique de plus à inspecter et graisser régulièrement.",
+      "Aucune tentative d'engagement sur cuve vide sur une période d'un mois de travail.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50012**",
+      "**Le détrompeur d'encoche** — Tailler une clavette dans la pierre du cercle pour interdire la rotation.",
+      "50003",
+      "La dalle portant le cercle ⊙ est taillée avec un ergot qui ne s'emboîte dans la maçonnerie que dans l'axe exact du conduit.",
+      "M02",
+      "La dalle doit être retaillée si le réseau change de configuration.",
+      "Impossibilité physique de poser le cercle de travers lors des travaux de réfection.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50013**",
+      "**Le doublement maçonné** — Doubler tout tracé magique par une goulotte de pierre de taille.",
+      "50004",
+      "Si la liaison magique s'interrompt brutalement, la matière liquide ou gazeuse s'écoule par gravité dans la goulotte au lieu d'inonder le plancher.",
+      "M02 · M08",
+      "Poids et volume considérables des tranchées sous le dallage des ateliers.",
+      "Une coupure de contrôle provoquée sans une goutte d'eau hors de la goulotte de sûreté.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50014**",
+      "**Le binôme de relève vocale** — Placer un second praticien en écoute pour relayer la prise.",
+      "50005",
+      "Le premier opérateur passe la consigne par contact d'épaule et répétition synchrone des mots et gestes avant de relâcher.",
+      "M05",
+      "Mobilise deux mages qualifiés pour une seule ligne de travail.",
+      "Une transition de relève sans baisse de débit mesurable au manomètre d'arrivée.",
+      "**à étudier**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50110**",
+      "**Le calibrage géométrique des sections** — Dimensionner les sorties selon le rapport des débits.",
+      "50101",
+      "Puisque la dérivation partage le flux, les conduits de départ sont taillés avec des sections rigoureusement proportionnelles aux besoins des ateliers aval.",
+      "M02 · M08",
+      "Rigidité du réseau : on ne peut modifier la répartition sans changer la tuyauterie.",
+      "Les débits aux ateliers correspondent aux calibres taillés à 5 % près.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50111**",
+      "**Le bac de dissipation par barbotage** — Ralentir le flux chaud dans une réserve d'eau froide.",
+      "50102",
+      "L'énergie de freinage retirée par ⇸ est déversée sous forme thermique dans un volume d'eau renouvelé par ruissellement.",
+      "M08",
+      "Consommation constante d'eau froide pompée des puits profonds.",
+      "Absence de surchauffe des vannes de réglage lors des décélérations brutales.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50112**",
+      "**La chambre de tranquillement aval** — Ménager un bassin d'amortissement après la coupure.",
+      "50103",
+      "L'eau qui poursuit sa course par inertie après ⇥ vient buter dans une chicane incurvée qui absorbe l'onde de choc sans éclabousser.",
+      "M02 · M08",
+      "Emprise au sol importante à l'extrémité de chaque ligne de refoulement.",
+      "Arrêt complet d'un jet d'essai sans rupture du mur de fond de chambre.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50210**",
+      "**Le regard de trop-plein étagé** — Évacuer par surverse gravitaire vers les égouts bas.",
+      "50201",
+      "Avant que le récepteur ne sature, une lèvre maçonnée laisse filer le surplus par simple gravité vers les caniveaux extérieurs du Bastion.",
+      "M08",
+      "Perte définitive du fluide rejeté qui ne peut plus être réinjecté dans le circuit.",
+      "Aucun débordement en salle de travail lors des surpressions expérimentales.",
+      "**retenue**"
+     ]
+    },
+    {
+     "cellules": [
+      "**50211**",
+      "**Le couplage avec gemme de charge** — Payer le refoulement montant sur une gemme de Matière.",
+      "50202",
+      "Pour monter l'eau aux courtines, le travail mécanique est extrait de la décompression d'une gemme auxiliaire dédiée.",
+      "M01 · M76",
+      "Dépendance directe envers l'atelier de compression d'Héloïse et stock de gemmes limité.",
+      "L'eau s'élève aux merlons à débit constant jusqu'à épuisement calculé de la gemme.",
+      "**retenue**"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "⚔️ Actions — les pratiques",
+   "colonnes": [
+    "⚔️ N°",
+    "🏷️ La pratique",
+    "🗝️ Réalise",
+    "📝 Ce qu'on fait",
+    "📍 Où",
+    "🪶 Office",
+    "🧰 Moyens",
+    "⛓️ Dépend de",
+    "👁️ La preuve",
+    "⏳ État"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**50020**",
+      "**Le bornage des postes de conduite**",
+      "50010",
+      "Bâtir un pupitre maçonné avec garde-corps et angles de visée pour chaque cercle de prise permanent.",
+      "Fournaises et courtines",
+      "O01",
+      "M02 · M05",
+      "",
+      "Un pupitre posé, avec ses repères gravés dans la pierre.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**50021**",
+      "**La pose des jauges de niveau sur cuves d'eau**",
+      "50011",
+      "Installer un flotteur de cuivre relié à une aiguille extérieure sur chaque citerne alimentant les prises d'eau.",
+      "Réservoirs hauts",
+      "O01",
+      "M06 · M08",
+      "",
+      "Le niveau de réserve lisible sans ouvrir la trappe de la cuve.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**50022**",
+      "**Le taillage des encoches détrompeuses sur cercles**",
+      "50012",
+      "Fraiser une rainure d'axe sur toutes les dalles de cercles de travail et de décharge pour bloquer l'orientation.",
+      "Ateliers de taille",
+      "O01",
+      "M02",
+      "",
+      "Vingt dalles vérifiées et calées sur leurs ergots respectifs.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**50023**",
+      "**Le creusement des goulottes de sécurité sous conduites**",
+      "50013",
+      "Décaisser le dallage sous les tracés élémentaires de la galerie Ouest pour y loger une rigole de fuite.",
+      "Galerie des ateliers",
+      "O01",
+      "M02 · M08",
+      "",
+      "Cinquante toises de rigoles maçonnées et raccordées à l'égout.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**50024**",
+      "**L'épreuve de synchronisme parole-geste à froid**",
+      "50010",
+      "Faire répéter les séquences de commande sans combustible pour chronométrer le temps de réponse et la tenue posturale.",
+      "Salle d'exercice",
+      "O01",
+      "M05",
+      "50020",
+      "Un tableau d'écart chronométrique signé par l'instructeur.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**50025**",
+      "**Le protocole de relève de conduite en chauffe**",
+      "50014",
+      "Tester la transmission de consigne entre deux praticiens pendant une chauffe intermédiaire du collecteur.",
+      "Fournaises",
+      "O01",
+      "M05",
+      "50024",
+      "La chauffe maintenue sans saute thermique pendant le changement de main.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**50120**",
+      "**L'étalonnage des sections de partage de flux**",
+      "50110",
+      "Mesurer les débits réels en sortie de chaque branche de dérivation ⑂ et ajuster les diaphragmes de plomb.",
+      "Nœud de distribution Nord",
+      "O01",
+      "M06 · M08",
+      "",
+      "Un rapport de débit conforme aux besoins des trois forges.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**50121**",
+      "**La construction du bac de barbotage des Fournaises**",
+      "50111",
+      "Maçonner une fosse de deux toises sous le circuit de détente thermique pour noyer les surpressions d'arrêt.",
+      "Sous-sol des Fournaises",
+      "O01",
+      "M02 · M08",
+      "",
+      "La fosse étanchée au bitume et mise en eau.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**50122**",
+      "**L'aménagement de la chicane d'amortissement d'eau**",
+      "50112",
+      "Poser des blocs de granit inclinés en fond de goulotte de refoulement pour dissiper la vitesse des jets relâchés.",
+      "Cour Basse",
+      "O01",
+      "M02",
+      "",
+      "La chicane éprouvée sous le choc d'un muid d'eau lâché d'un coup.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**50123**",
+      "**L'épreuve de freinage progressif par vanne et geste**",
+      "50111",
+      "Lancer un flux d'air chaud à mi-régime et le freiner par la rune ⇸ tout en ouvrant l'échappement vers le barbotage.",
+      "Banc d'essai",
+      "O01",
+      "M05 · M06",
+      "50121",
+      "La décélération enregistrée sans fissure sur la conduite de grès.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**50220**",
+      "**L'installation du trop-plein à lèvre de pierre**",
+      "50210",
+      "Tailler et sceller la lèvre de surverse en calcaire dur au sommet du collecteur de décharge principal.",
+      "Collecteur bas",
+      "O01",
+      "M02 · M08",
+      "",
+      "La cote de surverse vérifiée au niveau d'eau.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**50221**",
+      "**Le raccordement de la gemme auxiliaire au refoulement**",
+      "50211",
+      "Installer le récepteur de détente d'une gemme de Matière sur la pompe magique de courtine et tester la montée.",
+      "Courtine Est",
+      "O01",
+      "M01 · M76",
+      "",
+      "Dix muids d'eau hissés au parapet sans recours au bras d'homme.",
+      "à faire"
+     ]
+    },
+    {
+     "cellules": [
+      "**50222**",
+      "**La ronde des récepteurs de décharge**",
+      "50210",
+      "Instituer une visite bi-hebdomadaire pour vérifier le curage des rigoles de décharge et l'absence de dépôts d'encre ou de suie.",
+      "Caniveaux et fosses",
+      "O01",
+      "M08",
+      "50220",
+      "Un carnet de ronde paraphé chaque semaine par le responsable de secteur.",
+      "à faire"
+     ]
+    }
+   ]
+  }
+ ]
+}

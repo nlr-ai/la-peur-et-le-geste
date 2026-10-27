@@ -1,0 +1,1464 @@
+{
+  "metiers": [
+    {
+      "id": "metier-leader",
+      "nom": "Chef de groupe",
+      "nom_original": "Chef de groupe",
+      "nom_couvert": "Chef de chantier",
+      "categorie": "Métiers",
+      "type_noeud": "metier",
+      "fichier": "svg/metier-leader.svg",
+      "fichier_clair": "svg-clair/metier-leader.svg",
+      "source": "resistance_actions.json",
+      "cle_source": "leader"
+    },
+    {
+      "id": "metier-recruiter",
+      "nom": "Recruteur",
+      "nom_original": "Recruteur",
+      "nom_couvert": "Contremaître des embauches",
+      "categorie": "Métiers",
+      "type_noeud": "metier",
+      "fichier": "svg/metier-recruiter.svg",
+      "fichier_clair": "svg-clair/metier-recruiter.svg",
+      "source": "resistance_actions.json",
+      "cle_source": "recruiter"
+    },
+    {
+      "id": "metier-liaison",
+      "nom": "Agent de liaison",
+      "nom_original": "Agent de liaison",
+      "nom_couvert": "Commis aux livraisons",
+      "categorie": "Métiers",
+      "type_noeud": "metier",
+      "fichier": "svg/metier-liaison.svg",
+      "fichier_clair": "svg-clair/metier-liaison.svg",
+      "source": "resistance_actions.json",
+      "cle_source": "liaison"
+    },
+    {
+      "id": "metier-forger",
+      "nom": "Faussaire",
+      "nom_original": "Faussaire",
+      "nom_couvert": "Menuisier",
+      "categorie": "Métiers",
+      "type_noeud": "metier",
+      "fichier": "svg/metier-forger.svg",
+      "fichier_clair": "svg-clair/metier-forger.svg",
+      "source": "resistance_actions.json",
+      "cle_source": "forger"
+    },
+    {
+      "id": "metier-printer",
+      "nom": "Imprimeur",
+      "nom_original": "Imprimeur",
+      "nom_couvert": "Peintre",
+      "categorie": "Métiers",
+      "type_noeud": "metier",
+      "fichier": "svg/metier-printer.svg",
+      "fichier_clair": "svg-clair/metier-printer.svg",
+      "source": "resistance_actions.json",
+      "cle_source": "printer"
+    },
+    {
+      "id": "metier-radio_operator",
+      "nom": "Radio",
+      "nom_original": "Radio",
+      "nom_couvert": "Préposé à la sonnette",
+      "categorie": "Métiers",
+      "type_noeud": "metier",
+      "fichier": "svg/metier-radio_operator.svg",
+      "fichier_clair": "svg-clair/metier-radio_operator.svg",
+      "source": "resistance_actions.json",
+      "cle_source": "radio_operator"
+    },
+    {
+      "id": "metier-informant",
+      "nom": "Informateur",
+      "nom_original": "Informateur",
+      "nom_couvert": "Métreur",
+      "categorie": "Métiers",
+      "type_noeud": "metier",
+      "fichier": "svg/metier-informant.svg",
+      "fichier_clair": "svg-clair/metier-informant.svg",
+      "source": "resistance_actions.json",
+      "cle_source": "informant"
+    },
+    {
+      "id": "metier-smuggler",
+      "nom": "Passeur",
+      "nom_original": "Passeur",
+      "nom_couvert": "Guide de livraison",
+      "categorie": "Métiers",
+      "type_noeud": "metier",
+      "fichier": "svg/metier-smuggler.svg",
+      "fichier_clair": "svg-clair/metier-smuggler.svg",
+      "source": "resistance_actions.json",
+      "cle_source": "smuggler"
+    },
+    {
+      "id": "metier-medic",
+      "nom": "Médecin ou infirmière",
+      "nom_original": "Médecin ou infirmière",
+      "nom_couvert": "Réparateur",
+      "categorie": "Métiers",
+      "type_noeud": "metier",
+      "fichier": "svg/metier-medic.svg",
+      "fichier_clair": "svg-clair/metier-medic.svg",
+      "source": "resistance_actions.json",
+      "cle_source": "medic"
+    },
+    {
+      "id": "metier-driver",
+      "nom": "Chauffeur",
+      "nom_original": "Chauffeur",
+      "nom_couvert": "Charretier",
+      "categorie": "Métiers",
+      "type_noeud": "metier",
+      "fichier": "svg/metier-driver.svg",
+      "fichier_clair": "svg-clair/metier-driver.svg",
+      "source": "resistance_actions.json",
+      "cle_source": "driver"
+    },
+    {
+      "id": "metier-saboteur",
+      "nom": "Artificier",
+      "nom_original": "Artificier",
+      "nom_couvert": "Ouvrier de carrière",
+      "categorie": "Métiers",
+      "type_noeud": "metier",
+      "fichier": "svg/metier-saboteur.svg",
+      "fichier_clair": "svg-clair/metier-saboteur.svg",
+      "source": "resistance_actions.json",
+      "cle_source": "saboteur"
+    },
+    {
+      "id": "metier-fighter",
+      "nom": "Combattant",
+      "nom_original": "Combattant",
+      "nom_couvert": "Ouvrier des grands travaux",
+      "categorie": "Métiers",
+      "type_noeud": "metier",
+      "fichier": "svg/metier-fighter.svg",
+      "fichier_clair": "svg-clair/metier-fighter.svg",
+      "source": "resistance_actions.json",
+      "cle_source": "fighter"
+    },
+    {
+      "id": "metier-host",
+      "nom": "Hébergeur",
+      "nom_original": "Hébergeur",
+      "nom_couvert": "Logeur",
+      "categorie": "Métiers",
+      "type_noeud": "metier",
+      "fichier": "svg/metier-host.svg",
+      "fichier_clair": "svg-clair/metier-host.svg",
+      "source": "resistance_actions.json",
+      "cle_source": "host"
+    }
+  ],
+  "actions": {
+    "action-sound_out": [
+      {
+        "icon": "metier-recruiter",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-test_recruit": [
+      {
+        "icon": "action-sound_out",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-recruiter",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-tracts",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-induct": [
+      {
+        "icon": "action-test_recruit",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-form_cell": [
+      {
+        "icon": "action-induct",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-liaison",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-win_notable": [
+      {
+        "icon": "action-sound_out",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-recruiter",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-shelter_refractory": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-host",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-false_papers",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-ration_cards",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-link_london": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-set_radio",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-radio_operator",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-london_credit",
+        "quantity": 2,
+        "relation": "produit"
+      }
+    ],
+    "action-steal_stamps": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-stamps",
+        "quantity": 3,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-ration_cards",
+        "quantity": 20,
+        "relation": "produit"
+      }
+    ],
+    "action-get_stamps_inside": [
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-informant",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-stamps",
+        "quantity": 2,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-ration_cards",
+        "quantity": 10,
+        "relation": "produit"
+      }
+    ],
+    "action-set_workshop": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-forger",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 5000,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-paper_ink",
+        "quantity": 2,
+        "relation": "besoin"
+      }
+    ],
+    "action-forge_papers": [
+      {
+        "icon": "action-set_workshop",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-forger",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-stamps",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-paper_ink",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-false_papers",
+        "quantity": 5,
+        "relation": "produit"
+      }
+    ],
+    "action-set_safehouse": [
+      {
+        "icon": "action-induct",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-host",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 1000,
+        "relation": "besoin"
+      }
+    ],
+    "action-change_identity": [
+      {
+        "icon": "action-forge_papers",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-liaison",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-false_papers",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 2000,
+        "relation": "besoin"
+      }
+    ],
+    "action-win_farm": [
+      {
+        "icon": "action-sound_out",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-recruiter",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-set_cover_business": [
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-forge_papers",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 20000,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-false_papers",
+        "quantity": 5,
+        "relation": "besoin"
+      }
+    ],
+    "action-open_mailbox": [
+      {
+        "icon": "action-induct",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-host",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-carry_message": [
+      {
+        "icon": "action-open_mailbox",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-liaison",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-set_radio": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-radio_operator",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-radio_set",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-transmit": [
+      {
+        "icon": "action-set_radio",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-radio_operator",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-intel",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-london_credit",
+        "quantity": 1,
+        "relation": "produit"
+      }
+    ],
+    "action-set_press": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-printer",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 8000,
+        "relation": "besoin"
+      }
+    ],
+    "action-print_tracts": [
+      {
+        "icon": "action-set_press",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-printer",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-paper_ink",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-tracts",
+        "quantity": 10,
+        "relation": "produit"
+      }
+    ],
+    "action-spread_tracts": [
+      {
+        "icon": "action-print_tracts",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-liaison",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-tracts",
+        "quantity": 5,
+        "relation": "besoin"
+      }
+    ],
+    "action-watch_trains": [
+      {
+        "icon": "action-induct",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-informant",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-intel",
+        "quantity": 1,
+        "relation": "produit"
+      }
+    ],
+    "action-scout_garrison": [
+      {
+        "icon": "action-induct",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-informant",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-intel",
+        "quantity": 1,
+        "relation": "produit"
+      }
+    ],
+    "action-copy_files": [
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-informant",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-intel",
+        "quantity": 2,
+        "relation": "produit"
+      }
+    ],
+    "action-unmask_informer": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-informant",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-homologate_dz": [
+      {
+        "icon": "action-link_london",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-radio_operator",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-london_credit",
+        "quantity": 2,
+        "relation": "besoin"
+      }
+    ],
+    "action-receive_drop": [
+      {
+        "icon": "action-homologate_dz",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 6,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-driver",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-london_credit",
+        "quantity": 3,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-fuel",
+        "quantity": 20,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-weapons",
+        "quantity": 15,
+        "relation": "produit"
+      },
+      {
+        "icon": "munition",
+        "quantity": 6,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 30,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 100000,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-radio_set",
+        "quantity": 1,
+        "relation": "produit"
+      }
+    ],
+    "action-set_cache": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-host",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-raid_supplies": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 3,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-driver",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-weapons",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-ration_cards",
+        "quantity": 50,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-fuel",
+        "quantity": 100,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 30000,
+        "relation": "produit"
+      }
+    ],
+    "action-recover_1940_arms": [
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-driver",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-weapons",
+        "quantity": 10,
+        "relation": "produit"
+      },
+      {
+        "icon": "munition",
+        "quantity": 3,
+        "relation": "produit"
+      }
+    ],
+    "action-black_market": [
+      {
+        "icon": "action-induct",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-liaison",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 5000,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-paper_ink",
+        "quantity": 3,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-food",
+        "quantity": 50,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-fuel",
+        "quantity": 20,
+        "relation": "produit"
+      }
+    ],
+    "action-meet_london_agent": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-host",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-radio_set",
+        "quantity": 1,
+        "relation": "produit"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 50000,
+        "relation": "produit"
+      }
+    ],
+    "action-collect_funds": [
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-recruiter",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 10000,
+        "relation": "produit"
+      }
+    ],
+    "action-gather_food": [
+      {
+        "icon": "action-set_cache",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-driver",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 2000,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-ration_cards",
+        "quantity": 10,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-food",
+        "quantity": 200,
+        "relation": "produit"
+      }
+    ],
+    "action-open_escape_line": [
+      {
+        "icon": "action-forge_papers",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-smuggler",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-host",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 20000,
+        "relation": "besoin"
+      }
+    ],
+    "action-exfiltrate": [
+      {
+        "icon": "action-forge_papers",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-smuggler",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-false_papers",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 10000,
+        "relation": "besoin"
+      }
+    ],
+    "action-hide_children": [
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-host",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-false_papers",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-ration_cards",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-set_infirmary": [
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-medic",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-money",
+        "quantity": 5000,
+        "relation": "besoin"
+      }
+    ],
+    "action-free_prisoner": [
+      {
+        "icon": "action-copy_files",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-raid_supplies",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 4,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-driver",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-weapons",
+        "quantity": 5,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-false_papers",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-fuel",
+        "quantity": 30,
+        "relation": "besoin"
+      }
+    ],
+    "action-slow_work": [
+      {
+        "icon": "action-induct",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-informant",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-sabotage_rolling_stock": [
+      {
+        "icon": "action-slow_work",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-cut_phone": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 2,
+        "relation": "besoin"
+      }
+    ],
+    "action-unbolt_rail": [
+      {
+        "icon": "action-watch_trains",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 3,
+        "relation": "besoin"
+      }
+    ],
+    "action-blow_rail": [
+      {
+        "icon": "action-receive_drop",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-watch_trains",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 2,
+        "relation": "besoin"
+      }
+    ],
+    "action-blow_pylon": [
+      {
+        "icon": "action-receive_drop",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 4,
+        "relation": "besoin"
+      }
+    ],
+    "action-blow_bridge": [
+      {
+        "icon": "action-blow_rail",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 6,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 40,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-sabotage_factory": [
+      {
+        "icon": "action-slow_work",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-receive_drop",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 8,
+        "relation": "besoin"
+      }
+    ],
+    "action-burn_depot": [
+      {
+        "icon": "action-scout_garrison",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-receive_drop",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 3,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 3,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-destroy_sto_files": [
+      {
+        "icon": "action-copy_files",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 3,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-weapons",
+        "quantity": 3,
+        "relation": "besoin"
+      }
+    ],
+    "action-found_maquis": [
+      {
+        "icon": "action-shelter_refractory",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-set_cache",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 8,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-food",
+        "quantity": 300,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-weapons",
+        "quantity": 5,
+        "relation": "besoin"
+      }
+    ],
+    "action-train_maquis": [
+      {
+        "icon": "action-found_maquis",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-receive_drop",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-food",
+        "quantity": 200,
+        "relation": "besoin"
+      }
+    ],
+    "action-execute_traitor": [
+      {
+        "icon": "action-unmask_informer",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-weapons",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ],
+    "action-ambush": [
+      {
+        "icon": "action-train_maquis",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 15,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 4,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 5,
+        "relation": "besoin"
+      }
+    ],
+    "action-break_contact": [
+      {
+        "icon": "action-found_maquis",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-food",
+        "quantity": 100,
+        "relation": "besoin"
+      }
+    ],
+    "action-plan_green": [
+      {
+        "icon": "action-blow_rail",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-transmit",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 6,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 20,
+        "relation": "besoin"
+      }
+    ],
+    "action-plan_violet": [
+      {
+        "icon": "action-cut_phone",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-transmit",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 4,
+        "relation": "besoin"
+      }
+    ],
+    "action-plan_turtle": [
+      {
+        "icon": "action-ambush",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 20,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 30,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 6,
+        "relation": "besoin"
+      }
+    ],
+    "action-plan_blue": [
+      {
+        "icon": "action-blow_pylon",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-transmit",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-saboteur",
+        "quantity": 4,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-explosives",
+        "quantity": 16,
+        "relation": "besoin"
+      }
+    ],
+    "action-liberate_town": [
+      {
+        "icon": "action-ambush",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "action-win_notable",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 2,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-fighter",
+        "quantity": 60,
+        "relation": "besoin"
+      },
+      {
+        "icon": "munition",
+        "quantity": 20,
+        "relation": "besoin"
+      },
+      {
+        "icon": "ressource-food",
+        "quantity": 500,
+        "relation": "besoin"
+      }
+    ],
+    "action-hold_meeting": [
+      {
+        "icon": "action-form_cell",
+        "quantity": 1,
+        "relation": "prerequis"
+      },
+      {
+        "icon": "metier-leader",
+        "quantity": 1,
+        "relation": "besoin"
+      },
+      {
+        "icon": "metier-liaison",
+        "quantity": 1,
+        "relation": "besoin"
+      }
+    ]
+  }
+}

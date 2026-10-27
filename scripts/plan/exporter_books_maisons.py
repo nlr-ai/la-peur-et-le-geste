@@ -7,8 +7,20 @@ import os
 import uuid
 
 
-RACINE = os.path.dirname(os.path.dirname(os.path.dirname(
-    os.path.abspath(__file__))))
+import os as _os, sys as _sys  # le chemin des freres : scripts/ et scripts/noyau/
+_d = _os.path.dirname(_os.path.abspath(__file__))
+while _os.path.basename(_d) != "scripts" and _os.path.dirname(_d) != _d:
+    _d = _os.path.dirname(_d)
+for _p in (_d, _os.path.join(_d, "noyau")):
+    if _p not in _sys.path:
+        _sys.path.insert(0, _p)
+
+import racines
+
+# `RACINE` reste le DEPOT : elle sert a `os.path.relpath` pour AFFICHER un
+# chemin, et a resoudre un dossier de sortie donne relatif au depot.
+RACINE = racines.DEPOT
+ETAT = racines.etat()
 MAISONS = (
     ("noir", "maison-targaryen-noir"),
     ("vert", "maison-targaryen-vert"),
@@ -79,7 +91,7 @@ def exporter(sortie):
     total = 0
     index = ["EXPORT DES DOCUMENTS DE MAISON", "=" * 100, ""]
     for alias, maison_id in MAISONS:
-        source = os.path.join(RACINE, "etat", "maisons", maison_id,
+        source = os.path.join(ETAT, "maisons", maison_id,
                               "documents", "books")
         if not os.path.isdir(source):
             raise OSError("dossier source absent : %s" % source)

@@ -1,0 +1,205 @@
+{
+  "nom": "Atelier de photographie",
+  "viewBox": "0 0 1000 480",
+  "fonds": [],
+  "mur": "",
+  "guet": [],
+  "decor": [
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L490.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L780.0,152.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,152.5 L210.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,152.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M780.0,152.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M210.0,312.5 L490.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    },
+    {
+      "classe": "plan-passage",
+      "d": "M490.0,312.5 L780.0,312.5",
+      "style": "fill:none;stroke:#9d805a;stroke-width:3;stroke-dasharray:5 5"
+    }
+  ],
+  "etiquettes": [],
+  "salles": [
+    {
+      "id": "atelier-photographie",
+      "nom": "Boutique",
+      "forme": {
+        "r": [
+          80,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        148.5
+      ],
+      "lignes": [
+        "Boutique"
+      ],
+      "cle": true,
+      "quoi": "Boutique — Atelier de photographie.",
+      "motifs": [
+        "Boutique, Atelier de photographie"
+      ],
+      "alias": []
+    },
+    {
+      "id": "atelier-photographie-piece-2",
+      "nom": "Studio de prise de vue",
+      "forme": {
+        "r": [
+          360,
+          90,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        148.5
+      ],
+      "lignes": [
+        "Studio de",
+        "prise de vue"
+      ],
+      "cle": true,
+      "quoi": "Studio de prise de vue — Atelier de photographie.",
+      "motifs": [
+        "Studio de prise de vue, Atelier de photographie"
+      ],
+      "alias": []
+    },
+    {
+      "id": "atelier-photographie-piece-3",
+      "nom": "Chambre noire",
+      "forme": {
+        "r": [
+          640,
+          90,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        148.5
+      ],
+      "lignes": [
+        "Chambre noire"
+      ],
+      "cle": true,
+      "quoi": "Chambre noire — Atelier de photographie.",
+      "motifs": [
+        "Chambre noire, Atelier de photographie"
+      ],
+      "alias": []
+    },
+    {
+      "id": "atelier-photographie-piece-4",
+      "nom": "Réserve",
+      "forme": {
+        "r": [
+          80,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        210.0,
+        308.5
+      ],
+      "lignes": [
+        "Réserve"
+      ],
+      "cle": true,
+      "quoi": "Réserve — Atelier de photographie.",
+      "motifs": [
+        "Réserve, Atelier de photographie"
+      ],
+      "alias": []
+    },
+    {
+      "id": "atelier-photographie-piece-5",
+      "nom": "Bureau",
+      "forme": {
+        "r": [
+          360,
+          250,
+          260,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        490.0,
+        308.5
+      ],
+      "lignes": [
+        "Bureau"
+      ],
+      "cle": true,
+      "quoi": "Bureau — Atelier de photographie.",
+      "motifs": [
+        "Bureau, Atelier de photographie"
+      ],
+      "alias": []
+    },
+    {
+      "id": "atelier-photographie-piece-6",
+      "nom": "Cour",
+      "forme": {
+        "r": [
+          640,
+          250,
+          280,
+          125,
+          2
+        ]
+      },
+      "etiq": [
+        780.0,
+        308.5
+      ],
+      "lignes": [
+        "Cour"
+      ],
+      "cle": true,
+      "quoi": "Cour — Atelier de photographie.",
+      "motifs": [
+        "Cour, Atelier de photographie"
+      ],
+      "alias": []
+    }
+  ],
+  "_": "Plan de fiction canonique. Disposition schématique ; aucun relevé historique revendiqué."
+}

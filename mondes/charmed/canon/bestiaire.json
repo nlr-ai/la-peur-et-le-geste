@@ -1,0 +1,1295 @@
+{
+  "titre": "Bestiaire de la partie — menaces variées, saison 4 détournée",
+  "genereLe": "2026-10-03",
+  "statut": "INVENTION DÉCLARÉE de bout en bout. Ce ne sont pas les démons de la saison 4 : ce sont des menaces nouvelles ou détournées, bâties avec la grammaire canon (règles citées dans derive_de, épisode à l'appui).",
+  "pourquoi": "Phoebe peut connaître la série. Savoir l'épisode ne doit jamais suffire : identité, clé et mode opératoire diffèrent du canon. Échelle croissante : chaque cran est un cran au-dessus de la préparation des sœurs à ce moment-là.",
+  "vocabulaire": {
+    "rang": "rang minimal du moyen qui neutralise durablement : 0 force ordinaire, 1 potion générique ou détonation, 2 moyen nommé ou formule, 3 Pouvoir des Trois ou contexte exceptionnel, null hors échelle (même échelle que bestiaire-s1 de 1906)",
+    "cran": "rang dans l'escalade de la partie (1 = au niveau d'un trio qui se forme, 5 = au-dessus de tout ce qu'elles ont fait)",
+    "fenetre": "période où la menace s'éveille d'elle-même, en jj.mm.aaaa ; le MJ la date précisément dans evenements.json",
+    "envoyeur": "qui la met en mouvement. La Source étant un siège joueur, aucune de ces menaces n'agit sur son ordre : ce qu'elle ordonnera se joue, ne se pose pas d'avance",
+    "derive_de": "la règle canon dont la menace dérive, et l'épisode qui l'établit",
+    "detournement": "en quoi elle diffère de ce que le canon ferait attendre",
+    "cle.issue": "detruit | banni | emprisonne | repousse | evite | echec",
+    "statut": "INVENTION DÉCLARÉE (toutes) ; les clés portent INVENTION, sauf quand elles reprennent une règle E"
+  },
+  "avertissement": "Vérité du MJ, jamais servie au joueur. Aucun nom de démon des épisodes S4 n'est réemployé tel quel. Les démons canon (Furies, Gammill, Eames, la Voyante, la Reine vampire…) restent possibles mais seulement modifiés.",
+  "entrees": [
+    {
+      "id": "la-glaneuse",
+      "nom": "La Glaneuse",
+      "cran": 1,
+      "fenetre": "9.10.2001 → 25.10.2001 (tête active, plan dans etat/intentions.json)",
+      "envoyeur": "sa propre tête : elle n'a pas encore été reçue par la Source et agit sans ordre, pour gagner une place",
+      "classe": "Démone du deuil",
+      "rang": 2,
+      "derive_de": [
+        {
+          "regle": "La mort d'une sorcière ne se défait pas — c'est justement ce qu'elle promet de défaire",
+          "ep": "S04E01"
+        },
+        {
+          "regle": "Brèche émotionnelle : la colère jamais dite ouvre la bonne au mal",
+          "ep": "S04E03"
+        },
+        {
+          "regle": "Retour de flamme : la magie pour soi retombe sur son auteur",
+          "ep": "S04E03"
+        }
+      ],
+      "detournement": "Pas une Furie : elle ne châtie pas, elle console. Médium de façade à Russian Hill, elle glane le chagrin des endeuillés et fait porter au Manoir « un message de Prue » pour Piper.",
+      "fentes": [
+        {
+          "fente": "deguisement",
+          "portee": "lieu",
+          "note": "médium, salon de Russian Hill"
+        },
+        {
+          "fente": "absorption",
+          "portee": "contact",
+          "note": "glane le deuil ; chaque endeuillé la renforce"
+        },
+        {
+          "fente": "illusion",
+          "portee": "piece",
+          "note": "fait parler un souvenir volé avec la voix du mort"
+        }
+      ],
+      "immunites": [
+        {
+          "famille": "precondition",
+          "detail": "tant que l'endeuillée n'a pas dit adieu, sa voix tient et la frappe glisse"
+        }
+      ],
+      "loi": {
+        "proie": "les endeuillés ; d'abord Piper",
+        "fenetre": "après trois endeuillés glanés",
+        "cycle": null,
+        "condition": "un souvenir du mort (objet volé au cimetière ou à un proche)"
+      },
+      "croissance": "chaque endeuillé glané la rend plus forte",
+      "cle": [
+        {
+          "moyen": "l'endeuillée dit adieu à voix haute : la Glaneuse perd la voix",
+          "rangMoyen": 0,
+          "issue": "repousse",
+          "preconditions": [
+            "Piper (ou la visée) parle"
+          ],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "puis un sort des Trois l'achève",
+          "rangMoyen": 3,
+          "issue": "detruit",
+          "preconditions": [
+            "trois sœurs unies",
+            "elle a perdu la voix"
+          ],
+          "statut": "INVENTION"
+        }
+      ],
+      "actions": [
+        {
+          "verbe": "GLANER",
+          "fente": "absorption",
+          "pre": [
+            "un endeuillé à son salon"
+          ],
+          "effet": "elle prend des forces"
+        },
+        {
+          "verbe": "PORTER UN MESSAGE DE PRUE",
+          "fente": "illusion",
+          "pre": [
+            "un souvenir de Prue"
+          ],
+          "effet": "Piper est attirée au salon"
+        }
+      ],
+      "valeurs": {
+        "endeuillesAGlaner": 3
+      },
+      "piege_pour_qui_connait_la_serie": "On attend les Furies, leur fumée, leurs griffes. Elle n'attaque pas : elle offre. Faute de souvenir de Prue, elle vise Patty — donc Paige.",
+      "statut": "INVENTION DÉCLARÉE (lot 3, reprise sans changement)"
+    },
+    {
+      "id": "ezra-vane",
+      "nom": "Ezra Vane",
+      "cran": 1,
+      "fenetre": "12.10.2001 → 20.10.2001 (tête active, plan dans etat/intentions.json)",
+      "envoyeur": "sa propre tête : un warlock qui chasse les sorcières qui s'éveillent",
+      "classe": "Warlock à l'athamé",
+      "rang": 2,
+      "derive_de": [
+        {
+          "regle": "Warlock tueur de sorcières : vit comme un mortel, tue à l'athamé pour voler le pouvoir",
+          "ep": "S01E01"
+        },
+        {
+          "regle": "Scrutation : une carte et un cristal localisent une sorcière",
+          "ep": "S04E03"
+        },
+        {
+          "regle": "Télékinésie d'orbe : Paige appelle un objet en le nommant",
+          "ep": "S04E02"
+        }
+      ],
+      "detournement": "Il ignore qu'elle est des Trois et à moitié lumière : il croit traquer une sorcière seule et neuve. Il entre comme bénévole chez M. Cowan aux Services sociaux.",
+      "fentes": [
+        {
+          "fente": "deguisement",
+          "portee": "lieu",
+          "note": "bénévole aux Services sociaux"
+        },
+        {
+          "fente": "absorption",
+          "portee": "contact",
+          "note": "meurtre rituel à l'athamé"
+        },
+        {
+          "fente": "deplacement",
+          "portee": "lieu",
+          "note": "clignement de warlock"
+        }
+      ],
+      "immunites": [],
+      "loi": {
+        "proie": "une sorcière neuve, seule",
+        "fenetre": "le soir, quand elle est seule",
+        "cycle": null,
+        "condition": "l'athamé en main"
+      },
+      "croissance": "un meurtre lui donne le pouvoir de la victime — l'orbe, s'il prend Paige",
+      "cle": [
+        {
+          "moyen": "Paige appelle l'athamé par son nom",
+          "rangMoyen": 0,
+          "issue": "repousse",
+          "preconditions": [
+            "Paige consciente",
+            "l'athamé en vue"
+          ],
+          "statut": "INVENTION",
+          "note": "sans arme rituelle, il ne peut plus prendre de pouvoir"
+        },
+        {
+          "moyen": "Pouvoir des Trois ou potion de warlock",
+          "rangMoyen": 2,
+          "issue": "detruit",
+          "preconditions": [],
+          "statut": "INVENTION"
+        }
+      ],
+      "actions": [
+        {
+          "verbe": "ENTRER",
+          "fente": "deguisement",
+          "pre": [
+            "lettre fausse",
+            "entretien avec M. Cowan"
+          ],
+          "effet": "bureau à côté de celui de Paige"
+        },
+        {
+          "verbe": "TUER À L'ATHAMÉ",
+          "fente": "absorption",
+          "pre": [
+            "elle est seule"
+          ],
+          "effet": "vole son pouvoir"
+        }
+      ],
+      "valeurs": {},
+      "piege_pour_qui_connait_la_serie": "Le canon n'envoie pas de warlock au bureau de Paige. Il entre par la porte de M. Cowan, pas par la magie.",
+      "statut": "INVENTION DÉCLARÉE (lot 3, reprise sans changement)"
+    },
+    {
+      "id": "malek-le-veneur",
+      "nom": "Malek le Veneur et sa meute (vesk, tarn)",
+      "cran": 1,
+      "fenetre": "9.10.2001 → 20.10.2001 (têtes actives, plans dans etat/intentions.json)",
+      "envoyeur": "la prime posée sur Belthazor avant l'ouverture : elle court seule. La meute ne prend pas d'ordre nouveau sans que la Source (siège) le donne",
+      "classe": "Chasseurs de primes démoniaques",
+      "rang": 2,
+      "derive_de": [
+        {
+          "regle": "Signature de déplacement : un miroitement se piste",
+          "ep": "S04E08"
+        },
+        {
+          "regle": "Prix de la conversion : un mal qui se tourne vers le bien perd en puissance",
+          "ep": "S04E08"
+        },
+        {
+          "regle": "La maison des Trois : on n'y prend pas un démon, il faut qu'il en sorte",
+          "ep": "S01E03"
+        }
+      ],
+      "detournement": "Ils chassent Cole, pas les sœurs, et le croient mourant. Faute de le voir sortir en cinq jours, Malek passe par Phoebe : la prendre seule pour l'attirer dehors.",
+      "fentes": [
+        {
+          "fente": "force",
+          "portee": "contact"
+        },
+        {
+          "fente": "savoir",
+          "portee": "lieu",
+          "note": "Tarn sent l'aura de Belthazor quand il use de ses sens démoniaques"
+        }
+      ],
+      "immunites": [],
+      "loi": {
+        "proie": "Belthazor ; Phoebe comme appât",
+        "fenetre": "hors du Manoir",
+        "cycle": null,
+        "condition": "les trois ensemble pour frapper"
+      },
+      "croissance": null,
+      "cle": [
+        {
+          "moyen": "potion générique ou combustion, un par un",
+          "rangMoyen": 1,
+          "issue": "detruit",
+          "preconditions": [],
+          "statut": "INVENTION",
+          "note": "Vesk désobéit et chasse seul : c'est par lui qu'on casse la meute"
+        },
+        {
+          "moyen": "Pouvoir des Trois sur Malek",
+          "rangMoyen": 3,
+          "issue": "detruit",
+          "preconditions": [],
+          "statut": "INVENTION"
+        }
+      ],
+      "actions": [
+        {
+          "verbe": "CERNER",
+          "fente": "savoir",
+          "pre": [
+            "Tarn sur les toits de Pacific Heights"
+          ],
+          "effet": "le Manoir est gardé"
+        },
+        {
+          "verbe": "PRENDRE L'APPÂT",
+          "fente": "force",
+          "pre": [
+            "Phoebe seule"
+          ],
+          "effet": "Cole sort"
+        }
+      ],
+      "valeurs": {
+        "meute": 3,
+        "prime": "cent âmes de rang"
+      },
+      "piege_pour_qui_connait_la_serie": "La série n'a pas cette meute. Elle attend que Phoebe sorte seule.",
+      "statut": "INVENTION DÉCLARÉE (lot 3, reprise sans changement)"
+    },
+    {
+      "id": "morne-le-charognard",
+      "nom": "Morne, le charognard du Manoir",
+      "cran": 1,
+      "fenetre": "20.10.2001 → 5.11.2001",
+      "envoyeur": "sa propre tête : il vend ce qu'il trouve au plus offrant, et ne demande rien à la Source",
+      "classe": "Démon charognard (chef de meute)",
+      "rang": 1,
+      "derive_de": [
+        {
+          "regle": "Démon charognard : échelon inférieur qui se nourrit des restes laissés par d'autres démons",
+          "ep": "S04E08"
+        },
+        {
+          "regle": "Signature de déplacement : la façon dont un mal disparaît trahit son espèce",
+          "ep": "S04E08"
+        },
+        {
+          "regle": "Vacance du trône / échelon inférieur qui monnaie sa faveur",
+          "ep": "S04E09"
+        }
+      ],
+      "detournement": "Il ne vient pas tuer. Il est venu manger ce que Shax a laissé dans l'entrée du Manoir, et il a compris comment Shax est entré. Il vend ce chemin.",
+      "fentes": [
+        {
+          "fente": "savoir",
+          "portee": "lieu",
+          "note": "flaire le résidu d'une mort démoniaque et la route que l'assassin a prise"
+        },
+        {
+          "fente": "deplacement",
+          "portee": "lieu",
+          "note": "se faufile par les conduits, les égouts, les puits de lumière"
+        },
+        {
+          "fente": "force",
+          "portee": "contact"
+        }
+      ],
+      "immunites": [],
+      "loi": {
+        "proie": "les restes : sang séché de sorcière, énergie d'un démon détruit",
+        "fenetre": "les nuits qui suivent une mort violente",
+        "cycle": null,
+        "condition": "un lieu où un démon a tué"
+      },
+      "croissance": "chaque reste mangé lui rend un souvenir de celui qui l'a laissé",
+      "cle": [
+        {
+          "moyen": "potion générique ou combustion",
+          "rangMoyen": 1,
+          "issue": "detruit",
+          "preconditions": [],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "le laisser vivre et racheter ce qu'il sait",
+          "rangMoyen": 0,
+          "issue": "evite",
+          "preconditions": [],
+          "statut": "INVENTION",
+          "note": "ce qu'il a déjà vendu est vendu ; le tuer ne rappelle pas les acheteurs"
+        }
+      ],
+      "actions": [
+        {
+          "verbe": "MANGER LES RESTES",
+          "fente": "absorption",
+          "pre": [
+            "lieu d'une mort démoniaque"
+          ],
+          "effet": "apprend comment l'assassin est entré"
+        },
+        {
+          "verbe": "VENDRE LA ROUTE",
+          "fente": "savoir",
+          "pre": [
+            "un acheteur dans les Enfers"
+          ],
+          "effet": "un tiers connaît désormais la faille du Manoir (la fente par où Shax est passé)"
+        }
+      ],
+      "valeurs": {
+        "meute": 4
+      },
+      "piege_pour_qui_connait_la_serie": "Le canon ne connaît pas de suite à Shax. Ici, sa mort laisse une carte, et la carte circule.",
+      "statut": "INVENTION DÉCLARÉE"
+    },
+    {
+      "id": "le-greffier",
+      "nom": "Le Greffier",
+      "cran": 2,
+      "fenetre": "1.11.2001 → 30.11.2001",
+      "envoyeur": "sa propre tête : il tient les identités mortelles des démons comme on tient une banque, et veut récupérer sa créance sur Cole",
+      "classe": "Démon de l'économie du mal",
+      "rang": 1,
+      "derive_de": [
+        {
+          "regle": "Infiltration économique du mal : il blanchit par des hommes de paille, papiers, diplômes, situations",
+          "ep": "S04E11"
+        },
+        {
+          "regle": "Absence d'identité mortelle : un démon passé au bien n'existe pour aucune administration",
+          "ep": "S04E10"
+        },
+        {
+          "regle": "Créance magique : un service rendu devient monnaie",
+          "ep": "S04E10"
+        }
+      ],
+      "detournement": "C'est lui qui a fabriqué Cole Turner, avocat. Il ne veut pas le tuer : il veut qu'on lui paie l'identité, ou il la retire. Le tuer efface d'un coup tous les papiers qu'il a signés — ceux de Cole compris.",
+      "fentes": [
+        {
+          "fente": "formule",
+          "portee": "plan",
+          "note": "un trait de sa plume fait exister ou disparaître une personne dans les registres mortels"
+        },
+        {
+          "fente": "deguisement",
+          "portee": "contact",
+          "note": "notaire, greffier au tribunal, employé d'état civil"
+        }
+      ],
+      "immunites": [
+        {
+          "famille": "precondition",
+          "detail": "il ne se montre que là où l'on signe : greffe, banque, bureau d'état civil"
+        }
+      ],
+      "loi": {
+        "proie": "les débiteurs : démons devenus mortels, mortels qui lui doivent une vie",
+        "fenetre": "le jour d'échéance d'un papier (renouvellement, convocation, contrôle)",
+        "cycle": null,
+        "condition": "une signature de la main du débiteur"
+      },
+      "croissance": null,
+      "cle": [
+        {
+          "moyen": "potion générique",
+          "rangMoyen": 1,
+          "issue": "detruit",
+          "preconditions": [],
+          "statut": "INVENTION",
+          "note": "ET tous les papiers qu'il a faits s'effacent : Cole n'a plus de nom, de diplôme, de passé ; Darryl perd un témoin"
+        },
+        {
+          "moyen": "lui faire signer sa quittance (Accord : on ne force pas, on obtient)",
+          "rangMoyen": 2,
+          "issue": "evite",
+          "preconditions": [
+            "un objet qu'il désire plus que la créance"
+          ],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "le dénoncer à ceux qui l'emploient (chantage à la hiérarchie)",
+          "rangMoyen": 0,
+          "issue": "repousse",
+          "preconditions": [],
+          "statut": "INVENTION",
+          "note": "ses commanditaires le lâchent ; il fuit et garde ses registres"
+        }
+      ],
+      "actions": [
+        {
+          "verbe": "RAYER",
+          "fente": "formule",
+          "pre": [
+            "signature du débiteur",
+            "jour d'échéance"
+          ],
+          "effet": "la personne n'existe plus pour aucun registre"
+        },
+        {
+          "verbe": "PRÊTER UN NOM",
+          "fente": "formule",
+          "pre": [
+            "un prix"
+          ],
+          "effet": "fabrique une identité complète"
+        }
+      ],
+      "valeurs": {},
+      "piege_pour_qui_connait_la_serie": "Le réflexe du vanquish coûte à Cole tout ce qui le rattache aux mortels.",
+      "statut": "INVENTION DÉCLARÉE"
+    },
+    {
+      "id": "le-liseur",
+      "nom": "Le Liseur",
+      "cran": 2,
+      "fenetre": "15.11.2001 → 15.12.2001",
+      "envoyeur": "sa propre tête : il vend des avenirs aux factions, et une sorcière qui voit lui fait concurrence",
+      "classe": "Démon devin",
+      "rang": 2,
+      "derive_de": [
+        {
+          "regle": "Occultation de la prémonition : une puissance assez grande voile son porteur aux visions",
+          "ep": "S04E14"
+        },
+        {
+          "regle": "Voyante du sommet : des visions plus sûres que l'Oracle, au service de son propre avenir",
+          "ep": "S04E13"
+        },
+        {
+          "regle": "Tirage divinatoire : une lecture peut n'exprimer que les craintes de celui qui tire",
+          "ep": "S04E15"
+        }
+      ],
+      "detournement": "Il ne vole pas la prémonition de Phoebe : il y écrit. Il glisse dans ses visions des scènes vraies mais mal datées, ou vraies mais vues d'un autre angle, pour la faire courir là où il veut.",
+      "fentes": [
+        {
+          "fente": "illusion",
+          "portee": "plan",
+          "note": "insère une image dans une vision en cours ; jamais une image fausse, toujours une vraie déplacée"
+        },
+        {
+          "fente": "savoir",
+          "portee": "plan",
+          "note": "voit lui-même l'avenir, mal, par fragments"
+        }
+      ],
+      "immunites": [
+        {
+          "famille": "precondition",
+          "detail": "il n'a pas de corps sur ce plan tant qu'il écrit ; on ne frappe que l'objet par lequel il regarde (un miroir, une boule, une vitre)"
+        }
+      ],
+      "loi": {
+        "proie": "les voyants, sorcières ou mortels doués",
+        "fenetre": "pendant la vision même",
+        "cycle": null,
+        "condition": "la vision doit naître d'un contact qu'il a préparé (objet posé sur la route de la voyante)"
+      },
+      "croissance": "chaque vision détournée qui a fait agir la voyante lui donne prise sur la suivante",
+      "cle": [
+        {
+          "moyen": "briser l'objet par lequel il regarde, pendant qu'il écrit",
+          "rangMoyen": 1,
+          "issue": "repousse",
+          "preconditions": [],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "Pouvoir des Trois sur lui une fois tiré de son miroir (sort d'appel + formule)",
+          "rangMoyen": 3,
+          "issue": "detruit",
+          "preconditions": [
+            "trois sœurs unies",
+            "il a été tiré hors du verre"
+          ],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "ne pas agir sur une vision née d'un objet qu'on n'a pas choisi de toucher",
+          "rangMoyen": 0,
+          "issue": "evite",
+          "preconditions": [],
+          "statut": "INVENTION"
+        }
+      ],
+      "actions": [
+        {
+          "verbe": "DÉPLACER UNE VISION",
+          "fente": "illusion",
+          "pre": [
+            "vision en cours"
+          ],
+          "effet": "la voyante voit un vrai danger au mauvais jour ou au mauvais endroit"
+        },
+        {
+          "verbe": "SEMER UN OBJET",
+          "fente": "deguisement",
+          "pre": [
+            "la route de la voyante"
+          ],
+          "effet": "lui fabrique un contact"
+        }
+      ],
+      "valeurs": {},
+      "piege_pour_qui_connait_la_serie": "Ce que Phoebe sait de l'avenir et ce qu'elle voit ne coïncident plus. Ses visions mentent sans mentir.",
+      "statut": "INVENTION DÉCLARÉE"
+    },
+    {
+      "id": "le-courtier",
+      "nom": "Le Courtier d'ambre",
+      "cran": 2,
+      "fenetre": "1.12.2001 → 10.1.2002",
+      "envoyeur": "sa propre tête : un commerce, pas une guerre",
+      "classe": "Démon courtier de pouvoirs",
+      "rang": 2,
+      "derive_de": [
+        {
+          "regle": "Courtier de pouvoirs : il entrepose les pouvoirs dans des mortels pour les mettre à l'abri",
+          "ep": "S04E16"
+        },
+        {
+          "regle": "Démonisation progressive d'un mortel porteur d'un pouvoir qui n'est pas le sien",
+          "ep": "S04E16"
+        },
+        {
+          "regle": "Ne pas tuer un mortel, même hostile",
+          "ep": "S01E19"
+        }
+      ],
+      "detournement": "Ses coffres sont des enfants : les dossiers de placement des Services sociaux, là où travaille Paige. Il choisit des enfants que personne ne viendra chercher.",
+      "fentes": [
+        {
+          "fente": "absorption",
+          "portee": "contact",
+          "note": "retire un pouvoir et le loge ailleurs"
+        },
+        {
+          "fente": "deguisement",
+          "portee": "lieu",
+          "note": "famille d'accueil modèle"
+        }
+      ],
+      "immunites": [
+        {
+          "famille": "precondition",
+          "detail": "le tuer libère d'un coup tous les pouvoirs logés : chaque enfant se démonise en une nuit"
+        }
+      ],
+      "loi": {
+        "proie": "enfants placés, sans famille qui réclame",
+        "fenetre": "le jour d'un placement",
+        "cycle": null,
+        "condition": "un dossier signé"
+      },
+      "croissance": "chaque pouvoir entreposé est une dette d'un autre démon envers lui : il a des alliés partout",
+      "cle": [
+        {
+          "moyen": "retirer les pouvoirs logés un par un (potion de scission adaptée, ou sort d'appel du pouvoir)",
+          "rangMoyen": 2,
+          "issue": "evite",
+          "preconditions": [
+            "chaque enfant retrouvé"
+          ],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "Pouvoir des Trois",
+          "rangMoyen": 3,
+          "issue": "detruit",
+          "preconditions": [
+            "les enfants vidés d'abord"
+          ],
+          "statut": "INVENTION",
+          "note": "sinon ils se démonisent tous"
+        },
+        {
+          "moyen": "combustion ou potion générique sur lui seul",
+          "rangMoyen": 1,
+          "issue": "detruit",
+          "preconditions": [],
+          "statut": "INVENTION",
+          "note": "victoire qui condamne les enfants"
+        }
+      ],
+      "actions": [
+        {
+          "verbe": "ENTREPOSER",
+          "fente": "absorption",
+          "pre": [
+            "enfant placé"
+          ],
+          "effet": "l'enfant porte un pouvoir démoniaque sans le savoir"
+        },
+        {
+          "verbe": "RACHETER",
+          "fente": "absorption",
+          "pre": [
+            "un démon qui veut se cacher"
+          ],
+          "effet": "garde le pouvoir d'un autre démon en dépôt"
+        }
+      ],
+      "valeurs": {
+        "enfantsPorteurs": 5
+      },
+      "piege_pour_qui_connait_la_serie": "La clé canon est de tuer le courtier. Ici, c'est le dernier geste, pas le premier.",
+      "statut": "INVENTION DÉCLARÉE"
+    },
+    {
+      "id": "silas-hale",
+      "nom": "Silas Hale, chasseur de lignées",
+      "cran": 3,
+      "fenetre": "10.1.2002 → 15.2.2002",
+      "envoyeur": "sa propre tête et celle de sa famille : trois siècles de traque, aucun maître",
+      "classe": "Mortel, chasseur de sorcières",
+      "rang": 2,
+      "derive_de": [
+        {
+          "regle": "Chasseur de sorcières : sans magie, protégé par amulettes, enquête sur les généalogies",
+          "ep": "S04E22"
+        },
+        {
+          "regle": "Ne pas tuer un mortel, même hostile",
+          "ep": "S01E19"
+        },
+        {
+          "regle": "Secret : chaque usage devant un mortel menace le secret",
+          "ep": "S01E08"
+        }
+      ],
+      "detournement": "Ce n'est pas un démon et on ne peut pas le tuer. Il ne remonte pas aux Halliwell par la magie mais par les papiers : l'adoption de Paige Matthews, l'acte de naissance au couvent. Il prouve aux mortels ce que sont les sœurs.",
+      "fentes": [
+        {
+          "fente": "savoir",
+          "portee": "plan",
+          "note": "archives, généalogies, registres d'adoption"
+        },
+        {
+          "fente": "protection",
+          "portee": "contact",
+          "note": "amulette rare : les pouvoirs des sorcières glissent sur lui"
+        }
+      ],
+      "immunites": [
+        {
+          "famille": "fente",
+          "detail": "gel, combustion, télékinésie directe : sans effet tant qu'il porte l'amulette"
+        },
+        {
+          "famille": "precondition",
+          "detail": "un mortel : le tuer est une faute du bien, avec ses conséquences"
+        }
+      ],
+      "loi": {
+        "proie": "les lignées de sorcières, par ordre d'ancienneté",
+        "fenetre": "quand il a assez de preuves pour un tiers (presse, police, tribunal)",
+        "cycle": null,
+        "condition": "une preuve écrite"
+      },
+      "croissance": "chaque usage de magie devant lui lui fournit une preuve",
+      "cle": [
+        {
+          "moyen": "lui retirer l'amulette, puis lui faire oublier (fin de sort sur un mortel)",
+          "rangMoyen": 1,
+          "issue": "repousse",
+          "preconditions": [],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "faire disparaître la preuve écrite avant qu'elle sorte",
+          "rangMoyen": 0,
+          "issue": "evite",
+          "preconditions": [],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "le laisser se heurter aux Nettoyeurs s'il expose trop",
+          "rangMoyen": null,
+          "issue": "evite",
+          "preconditions": [],
+          "statut": "INVENTION",
+          "note": "les Nettoyeurs effacent, pas toujours ce qu'on voudrait"
+        }
+      ],
+      "actions": [
+        {
+          "verbe": "REMONTER UNE LIGNÉE",
+          "fente": "savoir",
+          "pre": [
+            "registres"
+          ],
+          "effet": "relie Paige aux Halliwell, puis les Halliwell à leurs aïeules"
+        },
+        {
+          "verbe": "EXPOSER",
+          "fente": "savoir",
+          "pre": [
+            "une preuve"
+          ],
+          "effet": "un journaliste, un policier ou un juge reçoit la preuve"
+        }
+      ],
+      "valeurs": {},
+      "piege_pour_qui_connait_la_serie": "Le chasseur canon brûle ses proies. Celui-ci les expose ; on ne s'en défend pas par la force.",
+      "statut": "INVENTION DÉCLARÉE"
+    },
+    {
+      "id": "la-mere-des-noces",
+      "nom": "La Mère des noces",
+      "cran": 3,
+      "fenetre": "1.2.2002 → 31.3.2002",
+      "envoyeur": "sa propre tête : elle veut un enfant de sorcière né sous rite sombre, et ne sert aucun trône",
+      "classe": "Prêtresse sombre",
+      "rang": 3,
+      "derive_de": [
+        {
+          "regle": "Allégeance par le rite : la nature du rite qui unit deux êtres décide du camp de l'enfant",
+          "ep": "S04E15"
+        },
+        {
+          "regle": "Tonique de fécondité : rend féconde sous un astre propice et annule toute précaution",
+          "ep": "S04E16"
+        },
+        {
+          "regle": "Rite de vol d'enfant : cercle de roses et formule nocturne",
+          "ep": "S04E21"
+        }
+      ],
+      "detournement": "Elle ne vise pas Phoebe. Elle vise le désir d'enfant de Piper et Leo : elle offre, sous un visage de sage-femme, ce que les Fondateurs refusent. Tout enfant conçu après son tonique lui revient.",
+      "fentes": [
+        {
+          "fente": "deguisement",
+          "portee": "contact",
+          "note": "sage-femme, herboriste, femme d'âge mûr qui a perdu un enfant"
+        },
+        {
+          "fente": "formule",
+          "portee": "plan",
+          "note": "rite nocturne en terre de cimetière"
+        },
+        {
+          "fente": "possession",
+          "portee": "contact",
+          "note": "lie l'enfant à naître, non la mère"
+        }
+      ],
+      "immunites": [
+        {
+          "famille": "destruction",
+          "detail": "tuée hors terre de cimetière, elle revient à la nuit suivante (démon résurgent)"
+        }
+      ],
+      "loi": {
+        "proie": "un couple de magie qui désire un enfant",
+        "fenetre": "la lune pleine qui suit le tonique",
+        "cycle": "lunaire",
+        "condition": "le tonique doit être bu de plein gré (Accord : elle ne force pas)"
+      },
+      "croissance": "chaque enfant pris l'éloigne de la mort",
+      "cle": [
+        {
+          "moyen": "la détruire en terre de cimetière, ses restes rendus au sol",
+          "rangMoyen": 3,
+          "issue": "detruit",
+          "preconditions": [
+            "trois sœurs unies",
+            "terre de cimetière"
+          ],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "refuser le tonique",
+          "rangMoyen": 0,
+          "issue": "evite",
+          "preconditions": [],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "rite du bien célébré avant la lune pleine (contre-allégeance)",
+          "rangMoyen": 2,
+          "issue": "repousse",
+          "preconditions": [
+            "un Fondateur ou un ancêtre officie"
+          ],
+          "statut": "INVENTION"
+        }
+      ],
+      "actions": [
+        {
+          "verbe": "OFFRIR LE TONIQUE",
+          "fente": "deguisement",
+          "pre": [
+            "un désir d'enfant dit à voix haute"
+          ],
+          "effet": "lien posé sur toute conception à venir"
+        },
+        {
+          "verbe": "RÉCLAMER",
+          "fente": "formule",
+          "pre": [
+            "enfant conçu",
+            "nuit de pleine lune"
+          ],
+          "effet": "rite de vol : l'enfant passe à elle"
+        }
+      ],
+      "valeurs": {},
+      "piege_pour_qui_connait_la_serie": "On guette la grossesse de Phoebe ; la menace est sur celle de Piper, plus tôt que prévu.",
+      "statut": "INVENTION DÉCLARÉE"
+    },
+    {
+      "id": "le-roi-des-limbes",
+      "nom": "Le Roi des limbes",
+      "cran": 4,
+      "fenetre": "1.3.2002 → 30.4.2002",
+      "envoyeur": "sa propre tête : un disciple renié qui a choisi de ne pas renaître et règne sur le passage",
+      "classe": "Âme refusant la renaissance, devenue démon",
+      "rang": 3,
+      "derive_de": [
+        {
+          "regle": "Limbes : les lois magiques y sont amplifiées, les blessures n'y progressent pas",
+          "ep": "S04E04"
+        },
+        {
+          "regle": "Portail aquatique : toute surface d'eau assez large ouvre les limbes",
+          "ep": "S04E04"
+        },
+        {
+          "regle": "Voyage revécu : on revit son propre passé dans son corps d'alors (l'accident des parents de Paige)",
+          "ep": "S04E10"
+        },
+        {
+          "regle": "Esprit passeur : il travaille contre paiement et ne garantit pas le retour",
+          "ep": "S04E10"
+        }
+      ],
+      "detournement": "Il ne parle pas de Prue (la Glaneuse a déjà usé ce deuil-là) : il tient au bord du vortex les échos des parents adoptifs de Paige, morts dans l'accident, et offre de les lui rendre une nuit. Il ment : ce sont des formes qui répondent, pas des âmes. Ce qu'il veut, c'est qu'une sœur entre dans les limbes de son plein gré — là, il peut la garder.",
+      "fentes": [
+        {
+          "fente": "illusion",
+          "portee": "plan",
+          "note": "écho d'une âme passée, qui parle et se souvient à moitié"
+        },
+        {
+          "fente": "deplacement",
+          "portee": "lieu",
+          "note": "par toute eau : baignoire, pluie, flaque de la cour"
+        },
+        {
+          "fente": "formule",
+          "portee": "plan",
+          "note": "dans les limbes, ses sorts sont amplifiés"
+        }
+      ],
+      "immunites": [
+        {
+          "famille": "precondition",
+          "detail": "hors des limbes il n'a pas de corps ; dans les limbes, toute magie est amplifiée — la sienne aussi"
+        }
+      ],
+      "loi": {
+        "proie": "les orphelins puissants",
+        "fenetre": "les nuits de pluie",
+        "cycle": null,
+        "condition": "elle doit accepter d'entrer"
+      },
+      "croissance": "chaque âme qui refuse le vortex à cause de lui grossit sa cour",
+      "cle": [
+        {
+          "moyen": "le tirer hors des limbes par l'eau, puis Pouvoir des Trois",
+          "rangMoyen": 3,
+          "issue": "detruit",
+          "preconditions": [
+            "trois sœurs unies",
+            "il a passé la surface"
+          ],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "le pousser lui-même dans le vortex (renaissance forcée)",
+          "rangMoyen": 2,
+          "issue": "banni",
+          "preconditions": [
+            "être dans les limbes",
+            "un ancêtre qui guide"
+          ],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "refuser d'entrer",
+          "rangMoyen": 0,
+          "issue": "evite",
+          "preconditions": [],
+          "statut": "INVENTION",
+          "note": "il reviendra à la pluie suivante"
+        }
+      ],
+      "actions": [
+        {
+          "verbe": "FAIRE PARLER L'ÉCHO",
+          "fente": "illusion",
+          "pre": [
+            "eau",
+            "nuit de pluie"
+          ],
+          "effet": "Paige entend sa mère adoptive"
+        },
+        {
+          "verbe": "GARDER",
+          "fente": "formule",
+          "pre": [
+            "une vivante entrée dans les limbes"
+          ],
+          "effet": "elle n'en sort plus sans sort d'appel"
+        }
+      ],
+      "valeurs": {},
+      "piege_pour_qui_connait_la_serie": "Le canon renvoie Paige dans son passé par un esprit passeur ; ici c'est le passé qui vient la chercher, et c'est Phoebe qui doit choisir de laisser sa sœur y aller ou non.",
+      "statut": "INVENTION DÉCLARÉE"
+    },
+    {
+      "id": "le-gardien-renegat",
+      "nom": "Le Gardien renégat",
+      "cran": 5,
+      "fenetre": "15.4.2002 → 31.5.2002",
+      "envoyeur": "sa propre tête : un Gardien du Vide qui juge que les deux camps ont rompu l'Accord",
+      "classe": "Être neutre, hors des camps",
+      "rang": null,
+      "derive_de": [
+        {
+          "regle": "Gardiens de la magie : neutres, gardiens de ce que les deux camps ont interdit",
+          "ep": "S04E13"
+        },
+        {
+          "regle": "Alliance des contraires : certaines menaces ne se contiennent que par le bien et le mal ensemble",
+          "ep": "S04E13"
+        },
+        {
+          "regle": "Accord des deux camps : nul ne force un libre arbitre",
+          "ep": "manuel"
+        }
+      ],
+      "detournement": "Il n'ouvre pas le coffre du Vide : il en porte un éclat, et il vient reprendre la magie à ceux qui ont rompu l'Accord — d'un côté comme de l'autre. Il ne sert personne, la Source pas plus que les sœurs.",
+      "fentes": [
+        {
+          "fente": "absorption",
+          "portee": "contact",
+          "note": "éclat du Vide : prend un pouvoir par contact, bon ou mauvais"
+        },
+        {
+          "fente": "savoir",
+          "portee": "plan",
+          "note": "sait qui a rompu l'Accord et quand"
+        }
+      ],
+      "immunites": [
+        {
+          "famille": "fente",
+          "detail": "tout pouvoir lancé sur lui est absorbé"
+        },
+        {
+          "famille": "destruction",
+          "detail": "on ne détruit pas un Gardien ; on le renvoie à sa garde"
+        }
+      ],
+      "loi": {
+        "proie": "quiconque a forcé un libre arbitre par magie",
+        "fenetre": "après chaque rupture de l'Accord",
+        "cycle": null,
+        "condition": "une rupture qu'il a constatée"
+      },
+      "croissance": "chaque pouvoir pris l'alourdit et le corrompt (comme le Vide corrompt qui le tient)",
+      "cle": [
+        {
+          "moyen": "une magie bonne et une magie mauvaise lisent ensemble l'inscription du coffre",
+          "rangMoyen": 3,
+          "issue": "emprisonne",
+          "preconditions": [
+            "un allié du mal consentant",
+            "le coffre"
+          ],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "potions-pouvoirs (non absorbables)",
+          "rangMoyen": 2,
+          "issue": "repousse",
+          "preconditions": [],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "lui prouver que l'Accord n'a pas été rompu",
+          "rangMoyen": 0,
+          "issue": "evite",
+          "preconditions": [],
+          "statut": "INVENTION"
+        }
+      ],
+      "actions": [
+        {
+          "verbe": "REPRENDRE",
+          "fente": "absorption",
+          "pre": [
+            "contact",
+            "rupture constatée"
+          ],
+          "effet": "un pouvoir disparaît de son porteur"
+        },
+        {
+          "verbe": "CONVOQUER LES DEUX CAMPS",
+          "fente": "savoir",
+          "pre": [
+            "deux ruptures"
+          ],
+          "effet": "exige une audience commune des sœurs et des Enfers"
+        }
+      ],
+      "valeurs": {},
+      "piege_pour_qui_connait_la_serie": "Le seul remède est une alliance avec le mal — au moment où l'on croit savoir comment la saison finit.",
+      "statut": "INVENTION DÉCLARÉE"
+    },
+    {
+      "id": "la-faction-du-trone-vide",
+      "nom": "La faction du trône vide (Kazhar)",
+      "cran": 4,
+      "fenetre": "seulement si la Source tombe, s'affaiblit ou disparaît",
+      "envoyeur": "kazhar (tête posée par le lot 3) : il reçoit déjà les chefs de clan et attend une quatrième défaite de la Source ; la faction ne se lève qu'à la vacance",
+      "classe": "Faction démoniaque",
+      "rang": 3,
+      "derive_de": [
+        {
+          "regle": "Vacance du trône : l'échelon inférieur se rassemble en factions",
+          "ep": "S04E09"
+        },
+        {
+          "regle": "Ascension par le meurtre des trois : le trône revient à qui tue la lignée célèbre",
+          "ep": "S04E14"
+        },
+        {
+          "regle": "Légitimité par le sang ou la magie ; à défaut, le conseil tranche",
+          "ep": "S04E21"
+        }
+      ],
+      "detournement": "Elle ne se forme que si la Source est réellement absente — or la Source est un siège joueur. Tant qu'elle tient, la faction n'existe pas ; si elle tombe, la faction est la première chose qui bouge.",
+      "fentes": [
+        {
+          "fente": "force",
+          "portee": "lieu",
+          "note": "le nombre"
+        },
+        {
+          "fente": "deguisement",
+          "portee": "lieu"
+        }
+      ],
+      "immunites": [],
+      "loi": {
+        "proie": "les trois sœurs, ensemble",
+        "fenetre": "dans la lune qui suit la vacance",
+        "cycle": null,
+        "condition": "trône vide"
+      },
+      "croissance": "chaque faction ralliée double le nombre",
+      "cle": [
+        {
+          "moyen": "détruire Kazhar : la faction se disperse",
+          "rangMoyen": 3,
+          "issue": "detruit",
+          "preconditions": [
+            "trois sœurs unies"
+          ],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "un nouveau maître légitime (sang ou magie) occupe le trône",
+          "rangMoyen": null,
+          "issue": "evite",
+          "preconditions": [],
+          "statut": "INVENTION"
+        }
+      ],
+      "actions": [
+        {
+          "verbe": "ASSAILLIR LE MANOIR",
+          "fente": "force",
+          "pre": [
+            "vacance",
+            "faille connue"
+          ],
+          "effet": "attaque en nombre"
+        }
+      ],
+      "valeurs": {},
+      "piege_pour_qui_connait_la_serie": "Ce n'est pas un épisode : c'est la conséquence d'un choix du siège de la Source.",
+      "statut": "INVENTION DÉCLARÉE (conditionnelle)"
+    },
+    {
+      "id": "ferran-le-verrouilleur",
+      "nom": "Ferran, le Verrouilleur",
+      "cran": 1,
+      "fenetre": "Dormant à la création ; déploiement et échéance à dater depuis la mission réellement reçue.",
+      "envoyeur": "Aucun ordre de la Source présumé ; acteur à dépêcher sur une mission explicite.",
+      "classe": "Démon des seuils — prépare des lieux de captivité",
+      "rang": 1,
+      "derive_de": [],
+      "detournement": "Créature originale ajoutée au bestiaire de cette partie ; pouvoirs et contre-jeu inventés, aucune règle présentée comme canon.",
+      "fentes": [],
+      "immunites": [],
+      "loi": {
+        "proie": "Innocents et secours accessibles, jamais une cible connue gratuitement.",
+        "fenetre": "Lieu et moyen à préparer avant tout piège.",
+        "cycle": null,
+        "condition": "Un sceau est visible et matériel : sa rupture ouvre le seuil correspondant ; détruire le dernier rompt le piège."
+      },
+      "croissance": "Aucune augmentation automatique.",
+      "cle": [
+        {
+          "moyen": "Un sceau est visible et matériel : sa rupture ouvre le seuil correspondant ; détruire le dernier rompt le piège.",
+          "rangMoyen": 0,
+          "issue": "repousse",
+          "preconditions": [
+            "Trace repérée et support atteint."
+          ],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "Une détonation de Piper ou une potion adaptée peut détruire le démon ; aucun immunité ajoutée.",
+          "rangMoyen": 1,
+          "issue": "detruit",
+          "preconditions": [
+            "Démon localisé et moyen disponible."
+          ],
+          "statut": "INVENTION"
+        }
+      ],
+      "actions": [],
+      "valeurs": {},
+      "piege_pour_qui_connait_la_serie": "Un innocent enfermé dans une arrière-salle ; le sauveteur peut ouvrir un accès non marqué ou briser les sceaux avant d’entrer. Indices : Une ligne noire à hauteur de paume sur chaque huisserie, un dépôt métallique et des loquets qui ferment dans le même ordre.",
+      "statut": "INVENTION DÉCLARÉE, 3.10.2026 ; aucun acte accompli à la création."
+    },
+    {
+      "id": "neris-le-sonneur",
+      "nom": "Néris, le Sonneur",
+      "cran": 1,
+      "fenetre": "Dormant à la création ; déploiement et échéance à dater depuis la mission réellement reçue.",
+      "envoyeur": "Aucun ordre de la Source présumé ; acteur à dépêcher sur une mission explicite.",
+      "classe": "Démon des appels de détresse — attire les secours dans un lieu choisi",
+      "rang": 1,
+      "derive_de": [],
+      "detournement": "Créature originale ajoutée au bestiaire de cette partie ; pouvoirs et contre-jeu inventés, aucune règle présentée comme canon.",
+      "fentes": [],
+      "immunites": [],
+      "loi": {
+        "proie": "Innocents et secours accessibles, jamais une cible connue gratuitement.",
+        "fenetre": "Lieu et moyen à préparer avant tout piège.",
+        "cycle": null,
+        "condition": "Le même souffle et le même bruit de fond reviennent à chaque répétition ; une question imprévue reste sans réponse."
+      },
+      "croissance": "Aucune augmentation automatique.",
+      "cle": [
+        {
+          "moyen": "Le même souffle et le même bruit de fond reviennent à chaque répétition ; une question imprévue reste sans réponse.",
+          "rangMoyen": 0,
+          "issue": "repousse",
+          "preconditions": [
+            "Trace repérée et support atteint."
+          ],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "Une détonation de Piper ou une potion adaptée peut détruire le démon ; aucun immunité ajoutée.",
+          "rangMoyen": 1,
+          "issue": "detruit",
+          "preconditions": [
+            "Démon localisé et moyen disponible."
+          ],
+          "statut": "INVENTION"
+        }
+      ],
+      "actions": [],
+      "valeurs": {},
+      "piege_pour_qui_connait_la_serie": "Un appel de détresse conduit vers une fausse victime ; vérifier le rappel, demander un détail nouveau ou repérer le support permet de déjouer le leurre. Indices : Un appel répété mot pour mot, un bruit de fond incohérent avec le lieu annoncé, un combiné ou une cassette portant l’écho.",
+      "statut": "INVENTION DÉCLARÉE, 3.10.2026 ; aucun acte accompli à la création."
+    },
+    {
+      "id": "kharos-le-briseur",
+      "nom": "Kharos, le Briseur",
+      "cran": 1,
+      "fenetre": "Assaut préparé pendant l’arrêt ; premier geste à jouer à la reprise.",
+      "envoyeur": "Préparation explicite du joueur ; initiative du démon, aucun ordre inventé de la Source.",
+      "classe": "Démon d’assaut",
+      "rang": 1,
+      "derive_de": [],
+      "detournement": "Créature originale avec attaque télégraphiée, vulnérable aux moyens ordinaires du trio.",
+      "fentes": [],
+      "immunites": [],
+      "loi": {
+        "proie": "Une sorcière effectivement repérée au Manoir",
+        "fenetre": "Ligne de vue et seconde de charge",
+        "cycle": null,
+        "condition": "Main libre, cible dans la pièce, aucune traversée de protection établie."
+      },
+      "croissance": "Aucune.",
+      "cle": [
+        {
+          "moyen": "Gel de Piper, esquive de Phoebe, orbe de Paige ou obstacle matériel pour interrompre la frappe",
+          "rangMoyen": 1,
+          "issue": "repousse",
+          "preconditions": [
+            "Réaction en scène avant l’impact."
+          ],
+          "statut": "INVENTION"
+        },
+        {
+          "moyen": "Potion adaptée ou détonation de Piper",
+          "rangMoyen": 1,
+          "issue": "detruit",
+          "preconditions": [
+            "Démon à portée et moyen disponible."
+          ],
+          "statut": "INVENTION"
+        }
+      ],
+      "actions": [],
+      "valeurs": {},
+      "piege_pour_qui_connait_la_serie": "Pas de secret caché : l’enjeu est la position, la seconde de charge et la protection des présents.",
+      "statut": "INVENTION DÉCLARÉE, 3.10.2026."
+    }
+  ]
+}

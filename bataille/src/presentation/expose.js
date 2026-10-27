@@ -35,6 +35,7 @@ import { brancherSelection } from './interactions/selection.js';
 import { brancherDepot } from './interactions/depot.js';
 import { brancherRedimension } from './interactions/redimension.js';
 import { brancherPilotage } from './interactions/pilotage.js';
+import { brancherIncarnation } from './interactions/incarnation.js';
 
 /**
  * @param {Object} deps — injectées au bootstrap
@@ -60,7 +61,9 @@ import { brancherPilotage } from './interactions/pilotage.js';
  *   qui naissent allumés, et la caméra se navigue toujours (naviguer n'est pas
  *   un menu). C'est la route `/` ; la vue de travail complète est `/bataille`.
  */
-export function creerPresentation({ vuesMonde, vuesCorps, cheminsDebug, refusDebug, coupsDebug, introspecter, perceptionDebug, formationDebug, orientationDebug, couvertureDebug, etatMajorDebug, forcesDebug, transport, ordres, scenarios, spawn, plan = null, pj = null, habillage = true }) {
+export function creerPresentation({ vuesMonde, vuesCorps, cheminsDebug, refusDebug, coupsDebug, introspecter, perceptionDebug, formationDebug, orientationDebug, couvertureDebug, etatMajorDebug, forcesDebug, transport, ordres, scenarios, spawn, plan = null, pj = null, incarnation = null, habillage = true }) {
+  let incarne = null;               // brancherIncarnation, une fois monté
+  let boutonIncarner = null;
   let camera = null;
   let renderer = null;
   let transportUi = null;
@@ -230,6 +233,11 @@ export function creerPresentation({ vuesMonde, vuesCorps, cheminsDebug, refusDeb
         return;
       }
 
+      const selectionner = (id) => {
+        idSelectionne = id;
+        if (id == null) inspecteur?.fermer();
+        else inspecteur?.ouvrir(id);
+      };
       const menu = creerMenuGauche(panneauGauche);
       if (scenarios) {
         menu.ajouterSection('Scénario', creerScenarios(scenarios).element);
@@ -237,6 +245,51 @@ export function creerPresentation({ vuesMonde, vuesCorps, cheminsDebug, refusDeb
       if (ordres) {
         ordresUi = creerOrdres(ordres);
         menu.ajouterSection('Ordres', ordresUi.element);
+      }
+      // ── INCARNER : le toggle. Un homme au centre de la vue, et l'on est
+      // lui (interactions/incarnation.js) ; on le rend d'un second clic.
+      if (incarnation) {
+        incarne = brancherIncarnation({
+          canvas, camera, corpsSous, conduite: incarnation,
+          surChangement: (id) => {
+            boutonIncarner.classList.toggle('actif', id != null);
+            boutonIncarner.textContent = id != null ? '✕ Le rendre à lui-même' : '☺ Incarner un homme';
+            if (id != null) { suivi = true; selectionner(id); }
+          },
+        });
+        boutonIncarner = document.createElement('button');
+        boutonIncarner.className = 'ordre-bouton';
+        boutonIncarner.textContent = '☺ Incarner un homme';
+        boutonIncarner.addEventListener('click', () => {
+          if (incarne.id() != null) incarne.sortir();
+          else incarne.entrer(camera.versMonde({ x: canvas.clientWidth / 2, y: canvas.clientHeight / 2 }));
+          boutonIncarner.blur(); // les touches vont au champ, pas au bouton
+        });
+        // le commandant le plus proche du centre de la vue : on choisit en
+        // cadrant, pas dans une liste
+        const boutonChef = document.createElement('button');
+        boutonChef.className = 'ordre-bouton';
+        boutonChef.textContent = '⚑ Incarner un commandant';
+        boutonChef.addEventListener('click', () => {
+          const centre = camera.versMonde({ x: canvas.clientWidth / 2, y: canvas.clientHeight / 2 });
+          const courant = incarne.id();
+          let chef = null;
+          let dMin = Infinity;
+          for (const c of incarnation.commandants()) {
+            if (c.id === courant) continue;
+            const d = Math.hypot(c.pos.x - centre.x, c.pos.y - centre.y);
+            if (d < dMin) { dMin = d; chef = c.id; }
+          }
+          if (chef != null) incarne.entrerDans(chef);
+          boutonChef.blur();
+        });
+        const aide = document.createElement('div');
+        aide.className = 'incarner-aide';
+        aide.textContent = 'ZQSD marche · F frappe · clic sur un ennemi frappe';
+        const bloc = document.createElement('div');
+        bloc.className = 'ordres';
+        bloc.append(boutonIncarner, boutonChef, aide);
+        menu.ajouterSection('Incarner', bloc);
       }
       menu.ajouterSection(
         'Bibliothèque',
@@ -261,11 +314,6 @@ export function creerPresentation({ vuesMonde, vuesCorps, cheminsDebug, refusDeb
         surFermeture: () => { idSelectionne = null; },
       });
 
-      const selectionner = (id) => {
-        idSelectionne = id;
-        if (id == null) inspecteur.fermer();
-        else inspecteur.ouvrir(id);
-      };
 
       brancherNavigation({ canvas, camera });
       brancherSelection({ canvas, camera, corpsSous, selectionner });
@@ -291,8 +339,11 @@ export function creerPresentation({ vuesMonde, vuesCorps, cheminsDebug, refusDeb
       //
       // Le joueur reprend la main quand il tire le decor, et la garde : la
       // camera ne revient sur son homme que s'il le demande (double-clic).
-      if (pj && suivi && toile) {
-        const moi = vuesMonde.corpsParId(pj.id);
+      incarne?.tick();
+      // l'incarné passe devant le PJ : c'est lui qu'on suit tant qu'on l'est
+      const idSuivi = incarne?.id() ?? pj?.id ?? null;
+      if (idSuivi != null && suivi && toile) {
+        const moi = vuesMonde.corpsParId(idSuivi);
         if (moi) cadrer(toile, moi.pos);
       }
       renderer.rendre({

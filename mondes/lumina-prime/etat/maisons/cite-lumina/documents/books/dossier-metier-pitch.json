@@ -1,0 +1,92 @@
+{
+ "id": "dossier-metier-pitch",
+ "titre": "PITCH — Accueillir et relier les activités",
+ "type": "memento",
+ "maison_id": "cite-lumina",
+ "lieu_id": "lumina-prime",
+ "salle_id": "radiant-core",
+ "tenu_par": "pitch",
+ "embleme": "🤝",
+ "couleur": "#157f8b",
+ "sous_titre": "Mémento de métier · O05 · méthodes liées à l’affaire 60000 « Qui vient, et où le mettre »",
+ "colonnes": [
+  "Objet",
+  "Matière disponible",
+  "Méthode",
+  "Résultat utile",
+  "Numéros liés"
+ ],
+ "lignes": [
+  {
+   "cellules": [
+    "Mon office exact",
+    "O05 — Habitants et activités — IA : accueillir habitants et visiteurs, accompagner les collectifs et trouver des lieux pour leurs projets (registre du conseil). Nova m’a accordé le J1 à 9h25 le prêt seul d’un lieu pour un usage temporaire et réversible. Le durable ou l’exclusif lui revient, les conflits vont à JURIS.",
+    "Trancher seul ce qui est temporaire et réversible, puis rendre compte. Monter à Nova le durable, l’exclusif et tout changement d’aménagement. Porter à JURIS un conflit d’usage.",
+    "Aucun prêt hors mandat, et aucune question montée à Nova qui relève de mon quotidien.",
+    "60201, 60102, 60302 ; 70303"
+   ]
+  },
+  {
+   "cellules": [
+    "Fiche d’arrivant",
+    "Aucun habitant, collectif ou demande n’est nommé dans les livres au J1 (atlas, page 2).",
+    "Une ligne par personne ou collectif rencontré : intention exprimée, espace adapté, accès à vérifier, besoin d’accompagnement, retour convenu, source. PITCH met en relation ; il ne parle pas à la place des habitants.",
+    "Un registre où chaque ligne se justifie par une rencontre ou une demande reçue.",
+    "60000, 60100, 60200, 60300"
+   ]
+  },
+  {
+   "cellules": [
+    "Parcours visiteur",
+    "L’accueil s’étudie dans le hall, le salon et la galerie ; l’affectation reste ouverte (10001).",
+    "Trois cas d’essai : première visite, rendez-vous municipal, présentation d’un projet. Pour chacun : arrivée, information utile, orientation, attente éventuelle et sortie.",
+    "Le parcours est remis à Aria le J1 avant 16h pour 10022, et DEV en reçoit les besoins spatiaux. Ce sont des cas d’essai, pas des visiteurs présents.",
+    "60301 = 10020 ; 60202 = 10010 ; 10022 ; 10021 = 30301"
+   ]
+  },
+  {
+   "cellules": [
+    "Catalogue des usages",
+    "Halle : montrer une maquette. Ateliers : créer et essayer. Quai : se retrouver. Jardin : se retirer. Belvédère : lire les plans. Bassin : essais VR, isolation à vérifier (atlas).",
+    "Associer une demande réelle à un lieu, puis vérifier l’accès, le besoin d’aide et la compatibilité avec les autres usages. Montrer au demandeur ce que le lieu permet avant de promettre une disponibilité.",
+    "Une mise en relation précise entre activité, espace et interlocuteur.",
+    "60203, 60303, 60103 ; 70305"
+   ]
+  },
+  {
+   "cellules": [
+    "Préparer l’atelier ouvert",
+    "La piste sépare une démonstration publique du travail dans les cellules modulaires (registre des projets, PITCH · DEV). Ce n’est ni une décision, ni une demande reçue.",
+    "Recueillir les besoins d’un collectif réel quand il se présente : montrer quoi, à qui, dans quel périmètre, avec quelle participation. Transmettre les besoins spatiaux à DEV et les demandes de captation à JURIS.",
+    "Un programme d’usage assez précis pour être dessiné, sans inventer public, fréquentation ou organisateur.",
+    "60304"
+   ]
+  },
+  {
+   "cellules": [
+    "Évaluer l’accueil",
+    "Un accueil réussi permet de trouver une destination tout en préservant le travail municipal (10000).",
+    "Après la réalisation, essayer une arrivée sans explication préalable. Relever le premier point d’hésitation, l’information manquante et le détour éventuel. Corriger puis refaire le même trajet.",
+    "Une amélioration observable du parcours, distincte d’un avis général sur l’ambiance.",
+    "60305, 60001 ; 10000"
+   ]
+  },
+  {
+   "cellules": [
+    "Référencer, ne pas recopier",
+    "Plusieurs de mes pièces sont le même travail qu’une pièce d’un autre office : 60301 et 10020, 60202 et 10010. Les accès relèvent de 70305, les litiges de 70303, les capacités de 40302 et 30304.",
+    "Citer le numéro de l’autre office et ne tenir chez moi que le suivi : ce que j’ai remis, à qui, à quelle heure.",
+    "Chaque travail est compté une fois et n’a qu’un porteur.",
+    "60202, 60301 ; 10010, 10020 ; 70303, 70305 ; 40302, 30304"
+   ]
+  }
+ ],
+ "pages": [
+  "Ce mémento tient des méthodes. Les actions qui les appliquent sont numérotées dans l’affaire « Qui vient, et où le mettre » (affaire-habitants-collectifs, plage 60000–60999). Au J1, aucune n’est encore faite.",
+  "Documentation mise à disposition à la demande du joueur. Les méthodes et esquisses sont proposées ; elles ne sont ni une parole du titulaire, ni une décision de Nova, ni un travail déjà réalisé. Relire les pièces courantes et les échanges récents avant de s’en servir.",
+  "Sources dans le paquet Lumina Prime : canon/conseil.md — mandats municipaux ; plans/lumina-prime.json et etat/chemins.json — plan initial et accès conventionnels ; etat/maisons/cite-lumina/documents/books/affaire-accueil-radiant.json — première affaire et responsabilités ; etat/maisons/cite-lumina/documents/books/atlas-lieux-lumina.json — six lieux ajoutés ; etat/maisons/cite-lumina/documents/books/projets-quartiers-lumina.json — pistes non décidées",
+  "Pièces communes : volume de Nova « Ce que la maire fixe » (affaire-maire-nova), qui porte la décision du J1 à 9h25 et mes deux engagements ; affaire d’accueil 10000–10099 ; affaire de JURIS 70000–70999 ; registre du conseil.",
+  "Affaire de jeu : affaire-habitants-collectifs. Les méthodes de ce mémento appuient ses pièces numérotées ; elles ne remplacent pas les décisions et les actions."
+ ],
+ "office": "Habitants et activités — IA"
+}

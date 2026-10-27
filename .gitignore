@@ -92,3 +92,22 @@ etat/histoire/empreintes-sans-perte.json
 # Artefact de redirection Windows : `NUL` est un nom de peripherique reserve
 # que Git for Windows ne peut pas indexer (short read while indexing NUL).
 /NUL
+
+# LES BROUILLONS DE POUSSEE (ferme le 9.9). Une tranche de flux se prepare dans
+# un fichier avant `append_flux.py --fichier`, et le fichier restait la. On en
+# comptait 94 SUIVIS a la racine — des fragments de scenes jouees il y a des
+# lunes, que personne ne relira et que tout le monde doit lire pour comprendre
+# qu'il n'y a rien a y lire. Le brouillon est un geste, pas une piece du depot :
+# il vit dans le scratchpad ou sous ce motif, jamais dans l'historique.
+/tmp_*.json
+/tmp-*.json
+/*.tmp.json
+
+# Les vidages de mise au point a la racine. Meme raison : une redirection de
+# sortie n'est pas un fichier du depot.
+/err.txt
+/sec.txt
+/dec.txt
+/sur.txt
+/msg.json
+/prev.json

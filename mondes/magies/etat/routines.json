@@ -1,0 +1,128 @@
+{
+ "peremption_minutes": 240,
+ "modeles": {
+  "resident": {
+   "nom": "Disponibilité initiale",
+   "bandes": [
+    {
+     "de": 0,
+     "a": 480,
+     "salle": "@poste",
+     "ferme": true
+    },
+    {
+     "de": 480,
+     "a": 1080,
+     "salle": "@poste",
+     "ferme": false
+    },
+    {
+     "de": 1080,
+     "a": 1440,
+     "salle": "@poste",
+     "ferme": true
+    }
+   ]
+  }
+ },
+ "gens": {
+  "naim-des-seuils": {
+   "modele": "resident",
+   "poste": {
+    "salle": "sept-seuils-seuil",
+    "lieu": "Seuil d'arrivée, Sept-Seuils"
+   }
+  },
+  "ariane-veille": {
+   "modele": "resident",
+   "poste": {
+    "salle": "haute-preuve-cabinets",
+    "lieu": "Cabinets d'enquête, Haute-Preuve"
+   }
+  },
+  "malo-veyre": {
+   "modele": "resident",
+   "poste": {
+    "salle": "aube-commune-ceremonie",
+    "lieu": "Aire de cérémonie, Aube commune"
+   }
+  },
+  "soeur-cendre": {
+   "modele": "resident",
+   "poste": {
+    "salle": "chapitre-du-seuil-garde",
+    "lieu": "Salle de garde, Chapitre du Seuil"
+   }
+  },
+  "vesper-ronce": {
+   "modele": "resident",
+   "poste": {
+    "salle": "havre-des-lisieres-liens",
+    "lieu": "Chambre des liens, Havre des Lisières"
+   }
+  },
+  "yselde-arquen": {
+   "modele": "resident",
+   "poste": {
+    "salle": "conseil-couronne",
+    "lieu": "Salle du conseil, Bastion couronné"
+   }
+  },
+  "oren-sangle": {
+   "modele": "resident",
+   "poste": {
+    "salle": "sept-seuils-salle-commune",
+    "lieu": "Salle du conseil fédéral, Sept-Seuils"
+   }
+  },
+  "sevran-orme": {
+   "modele": "resident",
+   "poste": {
+    "salle": "haute-preuve-salle-commune",
+    "lieu": "Salle des pairs, Haute-Preuve"
+   }
+  },
+  "talie-sorne": {
+   "modele": "resident",
+   "poste": {
+    "salle": "aube-commune-salle-commune",
+    "lieu": "Halle des assemblées, Aube commune"
+   }
+  },
+  "mael-orsan": {
+   "modele": "resident",
+   "poste": {
+    "salle": "chapitre-du-seuil-salle-commune",
+    "lieu": "Le chapitre, Chapitre du Seuil"
+   }
+  },
+  "eline-vare": {
+   "modele": "resident",
+   "poste": {
+    "salle": "havre-des-lisieres-salle-commune",
+    "lieu": "Table des mandats, Havre des Lisières"
+   }
+  },
+  "soren-dalle": {
+   "modele": "resident",
+   "poste": {
+    "salle": "nv-forges-reprises-atelier",
+    "lieu": "Forges reprises"
+   }
+  },
+  "daria-vanne": {
+   "modele": "resident",
+   "poste": {
+    "salle": "nv-cour-basse-atelier",
+    "lieu": "Cour basse"
+   }
+  },
+  "ilyan-sere": {
+   "modele": "resident",
+   "poste": {
+    "salle": "nv-archives-creuses-atelier",
+    "lieu": "Atelier, Archives creuses"
+   }
+  }
+ }
+}

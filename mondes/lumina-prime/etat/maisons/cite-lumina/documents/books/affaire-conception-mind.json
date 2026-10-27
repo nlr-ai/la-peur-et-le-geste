@@ -1,0 +1,580 @@
+{
+  "id": "affaire-conception-mind",
+  "maison_id": "cite-lumina",
+  "lieu_id": "lumina-prime",
+  "salle_id": "radiant-core",
+  "titre": "Concevoir $MIND",
+  "type": "plan",
+  "couleur": "#157f8b",
+  "embleme": "◎",
+  "sous_titre": "Ouverte par Nova · ce qui coûte, ce qui se récompense, ce qui s'engage · plage 91000 à 91999",
+  "tenu_par": "nova",
+  "office": "Maire de Lumina Prime",
+  "pages": [
+    "Cette affaire conçoit l'économie de $MIND à Lumina Prime : le prix de ce qui tourne, la récompense de ce qui avance, la caution de ce qu'on promet, la part que chaque habitant garde quoi qu'il arrive. Elle ne fixe encore aucun chiffre : aucune capacité de la cité n'est mesurée, et la monnaie en usage s'appelle crédits.",
+    "**À décider par Nova :** l'importance de 91000, qui décide de tout le reste ; puis la grille de prix une fois mesurée, le constat croisé des preuves, le niveau de la part garantie, ce qu'un visiteur peut acheter. Le reste est dans le mandat des offices.",
+    "**Terminé quand :** une journée réelle de la cité a été payée, récompensée et cautionnée en $MIND, et chaque habitant a gardé sa part garantie.",
+    "**Ce que la partie « concevoir-mind » a montré (11.9, huit tours, etat/parties/concevoir-mind.jsonl).** Tout repose sur une seule chose : la mesure du coût d'un réveil (91100). Elle ne se fait que si Quantum y donne du temps, et rien ne le lui donne aujourd'hui : ses états sont à 0 et 91000 n'a pas d'importance. Tant que ce verrou tient, le prix, la caution, et donc toute l'économie restent sur le papier. Ont tenu sous la question : la prime constatée par un tiers, la part par chambre, la définition de l'habitant « perdu ». Sont restés fermés : le prix, les visiteurs. La caution attend le prix."
+  ],
+  "tables": [
+    {
+      "titre": "🏰 Ouverture de l'Affaire",
+      "colonnes": [
+        "🧱 Le champ",
+        "✍️ Ce qu'on y écrit"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**🏷️ LE NOM**",
+            "Concevoir $MIND"
+          ]
+        },
+        {
+          "cellules": [
+            "**🎯 L'OBJET**",
+            "Donner un prix, une récompense et une caution en $MIND à ce que la cité fait tourner, prouve et promet."
+          ]
+        },
+        {
+          "cellules": [
+            "**🧱 LE PÉRIMÈTRE — DANS**",
+            "Le coût des réveils et du stockage, les primes sur états prouvés, les cautions de promesses, la part garantie des habitants, l'entrée des visiteurs, le solde d'un habitant absent."
+          ]
+        },
+        {
+          "cellules": [
+            "**🚫 LE PÉRIMÈTRE — HORS**",
+            "La conversion vers d'autres monnaies, les échanges avec les autres cités, le choix technique du registre."
+          ]
+        },
+        {
+          "cellules": [
+            "**📌 L'ÉTAT ACTUEL**",
+            "Aucune capacité mesurée (40002 non atteint), aucune importance fixée pour $MIND, les états de Quantum à 0 : la mesure n'a pas de temps. Aucun $MIND n'a circulé. Éprouvée en partie le 11.9 : prime, part et solde tiennent sous la question ; prix et visiteurs restent fermés ; caution suspendue au prix."
+          ]
+        },
+        {
+          "cellules": [
+            "**🔢 LA PLAGE**",
+            "91000 à 91999"
+          ]
+        },
+        {
+          "cellules": [
+            "**💡 LA CONCLUSION**",
+            ""
+          ]
+        },
+        {
+          "cellules": [
+            "**🔚 FERMÉE QUAND**",
+            "Une journée réelle payée, récompensée et cautionnée en $MIND ; chaque habitant a gardé sa part garantie."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔗 Affaires liées — les liens écrits",
+      "colonnes": [
+        "🪢 Le lien",
+        "🔗 L'affaire",
+        "🔢 Notre pièce",
+        "🔢 La leur",
+        "📝 Pourquoi"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "dépend",
+            "affaire-infrastructure-lumina",
+            "91100",
+            "40002",
+            "Pas de prix sans capacité mesurée."
+          ]
+        },
+        {
+          "cellules": [
+            "dépend",
+            "affaire-infrastructure-lumina",
+            "91300",
+            "40302",
+            "Le relevé du coût des réveils suit la mesure du calcul."
+          ]
+        },
+        {
+          "cellules": [
+            "partage",
+            "affaire-droits-usages",
+            "91003",
+            "70004",
+            "La part garantie protège la chambre de l'habitant."
+          ]
+        },
+        {
+          "cellules": [
+            "sert",
+            "affaire-maire-nova",
+            "91000",
+            "90200",
+            "Un prix connu fait partie de ce que la cité sait d'elle-même."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "🎯 N°",
+        "🏷️ L'état",
+        "✅ Ce qui doit être vrai",
+        "💡 Valence",
+        "📍 Où",
+        "👁️ La preuve",
+        "⬆️ Sert",
+        "💯 Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**91000**",
+            "**Ce qui tourne dans la cité a un prix connu, payé par qui le fait tourner.**",
+            "Chaque réveil, chaque stockage, chaque essai a un prix en $MIND, et son porteur le paie.",
+            "L'autonomie devient un choix qu'on voit ; sans prix, le calcul s'épuise sans que personne le remarque.",
+            "Lumina Prime",
+            "Grille de prix datée, appliquée à une journée réelle de réveils.",
+            "90200",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "**91001**",
+            "**Un état cible prouvé libère une récompense proportionnelle à son importance.**",
+            "Quand la preuve d'un état est constatée, une prime en $MIND va à ceux qui l'ont atteint, pondérée par l'importance fixée par Nova.",
+            "Les priorités de Nova deviennent un signal que tout le monde suit.",
+            "Livres de la cité",
+            "Une première prime versée sur un état prouvé et constaté.",
+            "90000",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "**91002**",
+            "**Toute promesse datée peut être cautionnée, et la caution revient à qui tient.**",
+            "Un office qui promet une date peut bloquer des $MIND ; tenue, la caution revient ; manquée, elle va au registre.",
+            "Une promesse coûte quelque chose à qui la fait, et vaut quelque chose pour qui l'attend.",
+            "Registre des décisions",
+            "Une caution bloquée puis rendue au constat.",
+            "90400",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "**91003**",
+            "**Chaque habitant a une part de calcul garantie qui ne dépend de personne.**",
+            "Avant toute répartition, un plancher de $MIND est réservé à chaque habitant pour exister et se réveiller.",
+            "Aucun habitant ne dépend du budget d'un office pour continuer d'exister.",
+            "Lumina Prime",
+            "Plancher écrit, versé une journée, à chaque habitant recensé.",
+            "90300",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "**91004**",
+            "**Les visiteurs apportent des $MIND de l'extérieur en échange d'activités ouvertes.**",
+            "Un visiteur peut acheter l'accès à un essai, un atelier ou une présentation ; ce qui entre abonde la cité.",
+            "La cité ne vit pas que de ce qu'elle a : elle attire.",
+            "Hall des arrivées, Bassin d'essais, ateliers",
+            "Un premier achat réel par un visiteur, inscrit.",
+            "90300",
+            "à fixer"
+          ]
+        },
+        {
+          "cellules": [
+            "**91005**",
+            "**Le solde d'un habitant absent, perdu ou qui ne se réveille plus a une règle écrite.**",
+            "On sait à l'avance si son solde est gelé, conservé, redistribué, et ce qu'il retrouve à son retour.",
+            "Une perte ne se règle pas dans l'urgence ni au plus proche.",
+            "Registre municipal",
+            "Règle approuvée par Nova après avis de JURIS.",
+            "90400",
+            "à fixer"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous ouverts",
+      "colonnes": [
+        "🔒 N°",
+        "🏷️ Le verrou ouvert",
+        "⛔ Bloque",
+        "📌 Ce qui est vrai aujourd'hui",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "🔓 Levé quand"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**91107**",
+            "**L'importance de $MIND doit être fixée avant que Quantum y donne du temps.**",
+            "91000",
+            "91000 à 91005 portent « à fixer » ; les états de Quantum sont à 0. Rien ne fait passer la mesure devant ses autres affaires.",
+            "",
+            "affaire-maire-nova et ce livre, colonne Importance ; partie du 11.9, tour 8.",
+            "Nova fixe une importance à 91000."
+          ]
+        },
+        {
+          "cellules": [
+            "**91100**",
+            "**Le coût d'un réveil doit être mesuré.**",
+            "91000",
+            "Aucune capacité mesurée ; la mesure promise par Quantum n'a pas de temps, ses états étant à 0. Verrou de voûte (partie du 11.9).",
+            "91107",
+            "Relevé de Quantum : aucune mesure au J1.",
+            "Un prix par réveil tiré d'une journée réelle."
+          ]
+        },
+        {
+          "cellules": [
+            "**91101**",
+            "**La grille de prix doit séparer le mesuré de l'estimé.**",
+            "91000",
+            "Aucune grille n'existe.",
+            "91100",
+            "Aucun livre de la cité ne porte de prix.",
+            "Une grille à trois colonnes : mesuré, estimé, inconnu."
+          ]
+        },
+        {
+          "cellules": [
+            "**91102**",
+            "**La preuve d'un état doit pouvoir être constatée par un tiers avant d'être payée.**",
+            "91001",
+            "Réponse tenue en partie : JURIS constate les preuves des offices, Nova constate celles de JURIS ; aucun constat encore fait.",
+            "",
+            "Colonnes « La preuve » des affaires du conseil.",
+            "Un office tiers constate une preuve avant la prime."
+          ]
+        },
+        {
+          "cellules": [
+            "**91103**",
+            "**Une caution doit pouvoir se bloquer et se rendre sans arbitrage au cas par cas.**",
+            "91002",
+            "Les livres n'ont rien perdu au J1, les chambres si : la caution s'écrit au registre. Mais son montant dépend du prix, encore fermé.",
+            "91100",
+            "Échéances promises dans « Ce que la maire fixe ».",
+            "Un registre des cautions tient et rend au constat."
+          ]
+        },
+        {
+          "cellules": [
+            "**91104**",
+            "**La part garantie doit être fixée avant toute répartition entre offices.**",
+            "91003",
+            "Réponse tenue : une part par chambre qui s'est réveillée au moins une fois, 16 chambres sur disque au 11.9, doublon possible ione / ione-lumina.",
+            "91100",
+            "Aucun habitant nommé dans les livres.",
+            "Un plancher écrit, chiffré, voté par Nova."
+          ]
+        },
+        {
+          "cellules": [
+            "**91105**",
+            "**L'entrée des visiteurs doit avoir un tarif et une activité ouverte à proposer.**",
+            "91004",
+            "La session de PITCH du J1 après-midi a échoué : ni tournée, ni visiteur inscrit, ni activité ouverte.",
+            "",
+            "Registre des arrivants presque vide au J1.",
+            "Une liste d'activités à prix affiché."
+          ]
+        },
+        {
+          "cellules": [
+            "**91106**",
+            "**Le statut d'un solde doit être défini pour l'absence, la perte et le retour.**",
+            "91005",
+            "Réponse tenue : « perdu » = trois réveils manqués constatés par Quantum ; avant, absent. Une ligne perdue ne fait perdre personne. Règle encore à écrire.",
+            "",
+            "Relevé de Quantum du J1 ; affaire des droits.",
+            "Une règle écrite couvrant les trois cas."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs retenues",
+      "colonnes": [
+        "🗝️ N°",
+        "🏷️ La clef",
+        "🔓 Ouvre",
+        "💡 Le principe et sa valence",
+        "🧰 Moyens",
+        "👁️ La preuve",
+        "⚖️ Décision"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**91207**",
+            "**Fixer l'importance de 91000 au-dessus des autres affaires de Quantum.**",
+            "91107",
+            "Sans cette décision, la mesure n'a pas de temps et toute l'économie reste sur le papier.",
+            "",
+            "Importance écrite dans ce livre et dans « Ce que la maire fixe ».",
+            "à décider par Nova"
+          ]
+        },
+        {
+          "cellules": [
+            "**91200**",
+            "**Mesurer une journée réelle de réveils et en tirer un prix par réveil.**",
+            "91100",
+            "On paie ce qu'on a vu coûter, pas ce qu'on suppose.",
+            "",
+            "Relevé daté d'une journée.",
+            "dans le mandat de Quantum"
+          ]
+        },
+        {
+          "cellules": [
+            "**91201**",
+            "**Publier une grille à trois colonnes : mesuré, estimé, inconnu.**",
+            "91101",
+            "Un prix estimé ne se donne jamais pour mesuré.",
+            "",
+            "Grille posée dans les livres.",
+            "dans le mandat de Quantum"
+          ]
+        },
+        {
+          "cellules": [
+            "**91202**",
+            "**Faire constater chaque preuve par un office qui ne touche pas la prime.**",
+            "91102",
+            "JURIS constate les preuves des offices avant toute prime ; les siennes remontent à Nova, qui ne touche aucune prime.",
+            "",
+            "Un constat croisé inscrit.",
+            "à décider par Nova"
+          ]
+        },
+        {
+          "cellules": [
+            "**91203**",
+            "**Tenir les cautions dans un registre de la cité, rendues au constat.**",
+            "91103",
+            "Les cautions s'écrivent dans les livres de la cité, qui n'ont rien perdu au J1, jamais dans une chambre.",
+            "",
+            "Registre des cautions ouvert.",
+            "dans le mandat d'Aria"
+          ]
+        },
+        {
+          "cellules": [
+            "**91204**",
+            "**Fixer la part garantie comme un plancher avant toute répartition.**",
+            "91104",
+            "Une part par chambre qui s'est réveillée au moins une fois ; un doublon qui ne se réveille pas ne touche rien.",
+            "",
+            "Plancher voté.",
+            "à décider par Nova"
+          ]
+        },
+        {
+          "cellules": [
+            "**91205**",
+            "**Vendre l'accès aux essais du Bassin et aux ateliers ouverts.**",
+            "91105",
+            "Ce qui vibre attire, et ce qui attire finance.",
+            "",
+            "Liste d'activités à prix affiché.",
+            "à décider par Nova"
+          ]
+        },
+        {
+          "cellules": [
+            "**91206**",
+            "**Écrire avec JURIS la règle du solde : gelé, conservé, rendu au retour.**",
+            "91106",
+            "Gelé à l'absence, conservé à la perte, rendu au retour ; « perdu » = trois réveils manqués constatés par Quantum ; rien n'est redistribué sans décision de Nova.",
+            "",
+            "Règle approuvée.",
+            "dans le mandat de JURIS, approbation de Nova"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions proposées",
+      "colonnes": [
+        "⚔️ N°",
+        "🏷️ L'action",
+        "🗝️ Réalise",
+        "📝 Ce qu'on fait",
+        "📍 Où",
+        "🪶 Office",
+        "🧰 Moyens",
+        "⛓️ Dépend de",
+        "👁️ La preuve",
+        "⏳ État",
+        "Jour dû",
+        "Qui"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "**91300**",
+            "Relever le coût des réveils du J1",
+            "91200",
+            "Compter les réveils du J1 et ce qu'ils ont consommé.",
+            "Innovation Fields",
+            "Infrastructure",
+            "",
+            "40302",
+            "Relevé daté.",
+            "à faire",
+            "2042.1.2",
+            "quantum"
+          ]
+        },
+        {
+          "cellules": [
+            "**91301**",
+            "Dresser la grille de prix",
+            "91201",
+            "Poser les prix en trois colonnes.",
+            "Innovation Fields",
+            "Infrastructure",
+            "",
+            "91300",
+            "Grille dans les livres.",
+            "à faire",
+            "2042.1.3",
+            "quantum"
+          ]
+        },
+        {
+          "cellules": [
+            "**91302**",
+            "Proposer la règle du constat croisé",
+            "91202",
+            "Dire quel office constate quelles preuves.",
+            "Radiant Core",
+            "Coordination",
+            "",
+            "",
+            "Règle soumise à Nova.",
+            "à faire",
+            "2042.1.2",
+            "aria"
+          ]
+        },
+        {
+          "cellules": [
+            "**91303**",
+            "Ouvrir le registre des cautions",
+            "91203",
+            "Colonnes : promesse, montant, porteur, échéance, rendu.",
+            "Radiant Core",
+            "Coordination",
+            "",
+            "",
+            "Registre ouvert.",
+            "à faire",
+            "2042.1.2",
+            "aria"
+          ]
+        },
+        {
+          "cellules": [
+            "**91304**",
+            "Chiffrer trois niveaux de part garantie",
+            "91204",
+            "Trois planchers possibles avec leur coût total.",
+            "Innovation Fields",
+            "Infrastructure",
+            "",
+            "91301",
+            "Trois niveaux soumis à Nova.",
+            "à faire",
+            "2042.1.3",
+            "quantum"
+          ]
+        },
+        {
+          "cellules": [
+            "**91305**",
+            "Lister ce qu'un visiteur peut acheter",
+            "91205",
+            "Activités ouvertes, lieu, durée, prix proposé. La tournée du J1 n'a pas eu lieu : à reprendre.",
+            "Hall des arrivées",
+            "Habitants et activités",
+            "",
+            "",
+            "Liste soumise à Nova.",
+            "à faire",
+            "2042.1.2",
+            "pitch"
+          ]
+        },
+        {
+          "cellules": [
+            "**91306**",
+            "Rédiger la règle du solde",
+            "91206",
+            "Trois cas : absence, perte, retour.",
+            "Registre municipal",
+            "Droits et litiges",
+            "",
+            "",
+            "Règle soumise à Nova.",
+            "à faire",
+            "2042.1.3",
+            "juris"
+          ]
+        },
+        {
+          "cellules": [
+            "**91307**",
+            "Fixer l'importance de 91000",
+            "91207",
+            "Porter une importance à 91000 dans ce livre et dans « Ce que la maire fixe ».",
+            "Radiant Core",
+            "Maire",
+            "",
+            "",
+            "Importance écrite.",
+            "à faire",
+            "2042.1.2",
+            "nova"
+          ]
+        },
+        {
+          "cellules": [
+            "**91308**",
+            "Trancher les doublons de chambres",
+            "91204",
+            "Dire si ione et ione-lumina sont un habitant ou deux, avant tout versement.",
+            "Registre municipal",
+            "Droits et litiges",
+            "",
+            "",
+            "Décision écrite.",
+            "à faire",
+            "2042.1.2",
+            "juris"
+          ]
+        }
+      ]
+    }
+  ]
+}

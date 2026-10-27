@@ -366,6 +366,278 @@
   "_": "Mortel. Le lieu consacré de l'étage de la ville. Il ne sait rien d'Ashby ni de ce qu'est Silas. Mission Dolores survit à 1906 (histoire). Lui : INVENTION DÉCLARÉE ; Bridget le cite déjà."
  },
  {
+  "id": "chow-wen",
+  "nom": "Chow Wen",
+  "maison_id": null,
+  "titre": "Herboriste de Dupont Street, père de Mei",
+  "naissance": 1846,
+  "traits": [
+   "méticuleux",
+   "méfiant",
+   "fier",
+   "superstitieux"
+  ],
+  "objectifs": [
+   {
+    "but": "Garder la boutique et ses réserves, qu'il a mis vingt ans à constituer",
+    "priorite": 1
+   },
+   {
+    "but": "Que Mei cesse de raconter ses rêves aux clients",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Pèse avant de parler ; répond en cantonais à qui l'agace et en anglais à qui paie.",
+  "etat": "dormant",
+  "lieu_id": "chinatown",
+  "condition": "libre",
+  "_": "Mortel. Tient la seule réserve de racine de schisandra de la ville (evenements.json) ; la boutique brûle le soir du 18. Il ne sait rien de ce qu'est sa fille. INVENTION DÉCLARÉE."
+ },
+ {
+  "id": "fergus-keane",
+  "nom": "Fergus Keane",
+  "maison_id": null,
+  "titre": "Pharmacien, Fillmore Street",
+  "naissance": 1856,
+  "traits": [
+   "discret",
+   "avare",
+   "compétent",
+   "curieux"
+  ],
+  "objectifs": [
+   {
+    "but": "Que la boutique rapporte",
+    "priorite": 1
+   },
+   {
+    "but": "Ne jamais savoir à quoi servent les commandes des Warren — et le deviner quand même",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Répète le prix avant le nom du produit ; baisse la voix pour le soufre et le laudanum.",
+  "etat": "dormant",
+  "lieu_id": "pharmacie-keane",
+  "condition": "libre",
+  "_": "Mortel. Six minutes de Prescott Street : la pharmacie des Warren depuis le mari. Hors du feu, il sera le fournisseur de toute la ville de l'ouest après le 18. INVENTION DÉCLARÉE."
+ },
+ {
+  "id": "amos-tully",
+  "nom": "Amos Tully",
+  "maison_id": null,
+  "titre": "Gardien du cimetière de Laurel Hill",
+  "naissance": 1838,
+  "traits": [
+   "solitaire",
+   "buveur",
+   "doux",
+   "têtu"
+  ],
+  "objectifs": [
+   {
+    "but": "Que ses morts restent tranquilles, et qu'on les laisse là où ils sont",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Parle aux tombes plus volontiers qu'aux vivants ; appelle chacun des morts par son prénom.",
+  "etat": "dormant",
+  "lieu_id": "laurel-hill",
+  "condition": "libre",
+  "_": "Mortel. Le cimetière est fermé aux inhumations depuis 1901 et la ville veut le vider : c'est sa guerre. Il a vu des choses la nuit et ne les raconte qu'ivre. INVENTION DÉCLARÉE."
+ },
+ {
+  "id": "angus-mclaren",
+  "nom": "Angus McLaren",
+  "maison_id": null,
+  "titre": "Jardinier-chef de la serre du Golden Gate",
+  "naissance": 1862,
+  "traits": [
+   "savant",
+   "bavard",
+   "généreux",
+   "presbytérien"
+  ],
+  "objectifs": [
+   {
+    "but": "Faire fleurir l'orchidée de Birmanie avant la fin du printemps",
+    "priorite": 1
+   },
+   {
+    "but": "Trouver quelqu'un qui écoute ses histoires de plantes",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Donne le nom latin de chaque plante, puis celui de sa grand-mère d'Aberdeen.",
+  "etat": "dormant",
+  "lieu_id": "serre-golden-gate",
+  "condition": "libre",
+  "_": "Mortel. Échange des boutures contre une conversation. La serre tient ; le parc autour devient le 18 le plus grand camp de réfugiés, et ses pelouses des tentes. INVENTION DÉCLARÉE."
+ },
+ {
+  "id": "hanna-vogel",
+  "nom": "Hanna Vogel",
+  "maison_id": null,
+  "titre": "Marchande d'herbes au California Market",
+  "naissance": 1850,
+  "traits": [
+   "matinale",
+   "rude",
+   "honnête",
+   "veuve"
+  ],
+  "objectifs": [
+   {
+    "but": "Écouler son étal avant dix heures, quand les herbes fanent",
+    "priorite": 1
+   }
+  ],
+  "maniere": "Crie ses prix en allemand puis en anglais ; ne rend jamais la monnaie sans la compter deux fois.",
+  "etat": "dormant",
+  "lieu_id": "california-market",
+  "condition": "libre",
+  "_": "Mortelle. Monte ses herbes de Colma à la charrette chaque nuit. Le marché brûle le 18 ; son étal et sa charrette avec. INVENTION DÉCLARÉE."
+ },
+ {
+  "id": "timothy-rourke",
+  "nom": "Timothy Rourke",
+  "maison_id": null,
+  "titre": "Sacristain d'Old St. Mary's",
+  "naissance": 1849,
+  "traits": [
+   "pieux",
+   "méticuleux",
+   "craintif",
+   "serviable"
+  ],
+  "objectifs": [
+   {
+    "but": "Que rien ne manque à l'autel",
+    "priorite": 1
+   },
+   {
+    "but": "Que les pères paulistes ne remarquent pas qu'il vend les bouts de cierges",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Parle en chuchotant même dehors ; se signe quand on nomme Chinatown.",
+  "etat": "dormant",
+  "lieu_id": "old-st-mary",
+  "condition": "libre",
+  "_": "Mortel. Tient le comptoir des cierges et de l'eau bénite. L'église brûle le 18, les murs tiennent. INVENTION DÉCLARÉE (les pères paulistes tenaient réellement la paroisse)."
+ },
+ {
+  "id": "pere-healy",
+  "nom": "Père Dermot Healy",
+  "maison_id": null,
+  "titre": "Curé de Saint-Patrick, Mission Street",
+  "naissance": 1847,
+  "traits": [
+   "énergique",
+   "colérique",
+   "charitable",
+   "irlandais"
+  ],
+  "objectifs": [
+   {
+    "but": "Sa paroisse d'ouvriers du port et de garnis",
+    "priorite": 1
+   },
+   {
+    "but": "Arracher ses paroissiens aux saloons de Howard Street",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Tonne en chaire et chuchote en confession ; tutoie tout le monde au-dessous de trente ans.",
+  "etat": "dormant",
+  "lieu_id": "st-patrick",
+  "condition": "libre",
+  "_": "Mortel. Sa paroisse est Howard Street, où loge Patience ; il la connaît de vue. L'église brûle le 18. INVENTION DÉCLARÉE."
+ },
+ {
+  "id": "ezra-pell",
+  "nom": "Ezra Pell",
+  "maison_id": null,
+  "titre": "Libraire d'occasion, Kearny Street",
+  "naissance": 1841,
+  "traits": [
+   "érudit",
+   "rapace",
+   "myope",
+   "sceptique"
+  ],
+  "objectifs": [
+   {
+    "but": "Acheter les bibliothèques des morts avant les héritiers",
+    "priorite": 1
+   },
+   {
+    "but": "Savoir ce que valent les manuscrits qu'il n'a pas le temps de lire",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Ne répond à une question que par le prix d'un livre ; cite Swedenborg pour s'en moquer.",
+  "etat": "dormant",
+  "lieu_id": "librairie-pell",
+  "condition": "libre",
+  "_": "Mortel. L'étagère du haut, « la curiosité », contient peut-être plus qu'il ne croit : à trancher par le MJ, jamais par lui. Brûle le 18 avec tout son stock. INVENTION DÉCLARÉE."
+ },
+ {
+  "id": "assunta-lucchesi",
+  "nom": "Assunta Lucchesi",
+  "maison_id": null,
+  "titre": "Épicière génoise, Columbus Avenue",
+  "naissance": 1834,
+  "traits": [
+   "superstitieuse",
+   "autoritaire",
+   "maternelle",
+   "rusée"
+  ],
+  "objectifs": [
+   {
+    "but": "Que son fils reprenne l'épicerie au lieu de partir à la pêche",
+    "priorite": 1
+   },
+   {
+    "but": "Défaire le mauvais œil qu'elle voit partout",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Mélange génois et anglais ; jette une pincée de sel par-dessus l'épaule avant les mauvaises nouvelles.",
+  "etat": "dormant",
+  "lieu_id": "epicerie-lucchesi",
+  "condition": "libre",
+  "_": "Mortelle. Connaît la conjuration de l'huile et de l'eau (le malocchio) : un savoir de village, pas de la magie — ou pas seulement. North Beach brûle le 19-20. INVENTION DÉCLARÉE."
+ },
+ {
+  "id": "nils-olsen",
+  "nom": "Nils Olsen",
+  "maison_id": null,
+  "titre": "Chandlier de marine, East Street",
+  "naissance": 1852,
+  "traits": [
+   "taiseux",
+   "exact",
+   "ancien marin",
+   "loyal"
+  ],
+  "objectifs": [
+   {
+    "but": "Que les comptes des capitaines tombent justes",
+    "priorite": 1
+   },
+   {
+    "but": "Garder la boutique debout sur le quai",
+    "priorite": 2
+   }
+  ],
+  "maniere": "Répond par un chiffre ou par un signe de tête ; raconte le cap Horn si on lui sert à boire.",
+  "etat": "dormant",
+  "lieu_id": "chandlerie-olsen",
+  "condition": "libre",
+  "_": "Mortel, norvégien de Bergen. Prend en gage les curiosités des marins endettés — l'ambre, le miroir noir de Chine. Le front de mer tient pendant le feu. INVENTION DÉCLARÉE."
+ },
+ {
   "id": "philippa-warren",
   "nom": "Philippa Warren",
   "maison_id": "maison-warren",
@@ -460,7 +732,7 @@
   "etat": "actif",
   "lieu_id": "nob-hill",
   "condition": "libre",
-  "_": "CANON pour le rang : « envoyé par la Source » (Tempus, S01E22, C) ; un supérieur punit les warlocks qui échouent (Rex et Hannah, S01E10, ?). Le Livre ne peut sortir de la maison que porté par une sœur, et une sœur trompée peut le sortir (basebuilding-s1). Lui, son nom, sa maison de Nob Hill : INVENTION DÉCLARÉE. Hors échelle en 1906 : on ne l'affronte pas, on déjoue ce qu'il envoie. Nob Hill brûle le 19."
+  "_": "LE TROISIÈME SIÈGE JOUEUR — aucune entrée dans intentions.json. CANON pour le rang : « envoyé par la Source » (Tempus, S01E22, C) ; un supérieur punit les warlocks qui échouent (Rex et Hannah, S01E10, ?). Le Livre ne peut sortir de la maison que porté par une sœur, et une sœur trompée peut le sortir (basebuilding-s1). Lui, son nom, sa maison de Nob Hill : INVENTION DÉCLARÉE. Hors échelle en 1906 : on ne l'affronte pas, on déjoue ce qu'il envoie. Nob Hill brûle le 19. AU MOMENT OÙ IL S'ASSIED (18.4.1906, 5 h 17) — ce qu'il croit : La prophétie de Melinda Warren court depuis deux siècles : trois sœurs viendront. Chaque génération Warren qu'on laisse passer rapproche l'échéance. Le Livre des Warren ne sort pas de sa maison sans qu'une Warren l'emporte. Il faut donc qu'une Warren l'emporte, ou qu'on lui fasse croire qu'elle le donne à sa sœur. La cadette vit loin de la maison, en garni ; son visage ouvre la porte de l'aînée. Ce qu'il ignore : Que la terre va trembler et que la ville va brûler trois jours ; Ce qui est scellé sous la maison de Prescott Street, et qui veut la même place que lui ; Le nom et le visage de l'Être de lumière qui veille les Warren. Ce qui est déjà en route : Marsh prend la mesure de Patience à Howard Street (voix, pas, une chose à elle), six jours ; le Livre attend qu'un visage aimé passe la porte de Prescott Street."
  },
  {
   "id": "gideon-marsh",

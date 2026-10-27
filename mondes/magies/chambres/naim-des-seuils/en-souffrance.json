@@ -1,0 +1,141 @@
+{
+ "quoi": "Ce que j'attends de quelqu'un, et ce que quelqu'un attend de moi. Le plan compte des PAS ; ceci compte des GENS qui n'ont pas répondu, et depuis quand. Ce n'est pas la même chose et cela ne se calcule pas.",
+ "regle": "Une ligne par fil ouvert. Le jour où j'ai demandé, non le jour où je m'en suis souvenu. Un fil qu'on n'a pas relancé depuis trois jours se relance ou se ferme.",
+ "j_attends": [
+  {
+   "qui": "oren-sangle",
+   "quoi": "LA LISTE DES STATIONS de la federation, un nom par station, meme incomplete. Sans elle, l'appel au temoin ne va pas plus loin que son sceau.",
+   "demande_le": "1.1.1 (redemande le soir)",
+   "pourquoi": "Je ne peux ecrire a personne que je ne sais pas nommer. C'est le trou le plus grave de ma journee.",
+   "relance": "1.1.2 au matin"
+  },
+  {
+   "qui": "oren-sangle",
+   "quoi": "Oui ou non de l'equipe du Seuil d'arrivee : deux cercles d'une meme station peuvent-ils se joindre sur quelques pas ? Il le demande en son nom.",
+   "demande_le": "1.1.1",
+   "pourquoi": "De cela depend que les deux premieres manieres de l'epreuve se fassent sans deranger aucune autre maison.",
+   "relance": "1.1.3"
+  },
+  {
+   "qui": "malo-veyre",
+   "quoi": "Ses etapes comptees, meme approximatives, sous son nom. Demandees aussi par Oren de son cote.",
+   "demande_le": "1.1.1",
+   "pourquoi": "Premiere ligne possible du registre des chemins.",
+   "relance": "1.1.3"
+  },
+  {
+   "qui": "vesper-ronce",
+   "quoi": "Heure de depart, etapes, heure d'arrivee, ou elle a dormi la veille du 1.1.1. Question neutre, non contaminee.",
+   "demande_le": "1.1.1 au soir",
+   "pourquoi": "C'est la seule des quatre reponses qui vaudra quelque chose : les autres savent ce que je cherche.",
+   "relance": "1.1.3"
+  },
+  {
+   "qui": "sevran-orme",
+   "quoi": "Sa reponse a ma lettre sur la place de temoin, et s'il retient ou non ma declaration d'interet au protocole.",
+   "demande_le": "1.1.1 au soir",
+   "pourquoi": "Il tient le protocole ; ce n'est ni Orsan ni moi qui decidons.",
+   "relance": "1.1.4"
+  },
+  {
+   "qui": "mael-orsan",
+   "quoi": "Le releve de ses salles contre mes huit points, et son ecrit sur qui tient le bout d'une porte installee chez lui.",
+   "demande_le": "1.1.1",
+   "pourquoi": "Avant de compter un seuil fixe au Chapitre. Il a dit : pas dans l'urgence d'un voyage.",
+   "relance": "apres son retour de Haute-Preuve"
+  },
+  {
+   "qui": "le monde",
+   "quoi": "UN TIERS QUI TIRE AU SORT pour l'epreuve du signe — ni du Corps, ni de la Ligue. La piece qui manque.",
+   "demande_le": "1.1.1",
+   "pourquoi": "Orsan : ne batissez pas la salle avant d'avoir trouve cette main-la ; c'est toujours celle qu'on ajoute en dernier et de travers.",
+   "relance": "des que j'ai la liste des stations, ou une autre maison"
+  },
+  {
+   "qui": "sevran-orme",
+   "quoi": "La reponse ECRITE sur ses salles regardees contre la feuille du sol : lesquelles, par qui, avec quelle feuille, et ce qui manque a chacune.",
+   "demande_le": "1.1.1",
+   "pourquoi": "C'est la premiere PIECE que ma ligne L03 aura jamais portee. Un non date et signe vaut mieux qu'un rien.",
+   "relance": "1.1.4 au soir si rien — il a promis le 3 au soir"
+  },
+  {
+   "qui": "ariane-veille",
+   "quoi": "Si elle accepte de tenir la main qui TIRE AU SORT a l'epreuve du signe, et son interet decompose par issue ecrit avant de savoir.",
+   "demande_le": "1.1.1 a la nuit",
+   "pourquoi": "C'est la piece qui manque. Orsan : ne batissez pas la salle avant d'avoir trouve cette main-la.",
+   "relance": "1.1.4"
+  },
+  {
+   "qui": "malo-veyre",
+   "quoi": "Sa reponse a la question nue du 1.1.1. Un billet VIDE est arrive de sa part : je le tiens pour un silence, non pour une reponse.",
+   "demande_le": "1.1.1",
+   "pourquoi": "Il est le seul des presents dont le metier fait marcher les routes. Et Oren lui a demande la meme chose de son cote.",
+   "relance": "1.1.3 — et sans jamais lui reprocher un mot qu'il n'a pas ecrit"
+  },
+  {
+   "qui": "heloise-braise",
+   "quoi": "La lettre IDENTIQUE aux trois autres, defaut compris — elle n'est pas encore partie. Elle est la derniere piece propre de l'affaire.",
+   "demande_le": "pas encore ecrit",
+   "pourquoi": "Une difference entre les lettres ne se rattrape jamais ; le texte est arrete mot pour mot dans messages-au-joueur.md.",
+   "relance": "1.1.2"
+  }
+ ],
+ "on_attend_de_moi": [
+  {
+   "qui": "oren-sangle",
+   "quoi": "Un nom de volontaire pour la place de temoin, sa station et son jour de depart — ou le mot rien, en toutes lettres.",
+   "promis_le": "1.1.1",
+   "du_le": "le QUATRIEME au matin, pour qu'il lui reste une journee",
+   "etat": "bloque tant que je n'ai pas la liste"
+  },
+  {
+   "qui": "oren-sangle",
+   "quoi": "Les mots du Bastion sur ce qu'ils voudraient recevoir le jour ou L01 est ouverte : qui arrive, qui part, qui paie. Leurs mots, pas mon resume.",
+   "promis_le": "1.1.1",
+   "du_le": "des leur reponse",
+   "etat": "ma lettre part au point du jour"
+  },
+  {
+   "qui": "ariane-veille",
+   "quoi": "L'epreuve A FROID de sa forme du temoin, avant qu'il y ait des gens a la porte — et l'acceptation ECRITE, avant, que ce qu'elle ecrira puisse me donner tort.",
+   "promis_le": "1.1.1",
+   "du_le": "sans jour",
+   "etat": "il me manque une station complaisante et un demandeur"
+  },
+  {
+   "qui": "mael-orsan",
+   "quoi": "Ne plus lui ecrire sur une epreuve entre le scellement et la cloture. Et lui dire si deux cercles d'une meme station se joignent, AVANT de le lui promettre.",
+   "promis_le": "1.1.1",
+   "du_le": "permanent",
+   "etat": "tenu jusqu'ici"
+  },
+  {
+   "qui": "les quatre presents du conseil",
+   "quoi": "Leur dire, quand ils repondront, que deux d'entre eux ont recu de moi une question contaminee — et le porter au registre avant leur reponse, non apres.",
+   "promis_le": "1.1.1",
+   "du_le": "a leur reponse",
+   "etat": "ecrit au registre, a leur redire en face"
+  },
+  {
+   "qui": "vesper-ronce",
+   "quoi": "APRES sa reponse sur la route, et pas avant : lui ecrire sur son registre des accueils — ce que le Havre recoit et a quelle condition il CESSE de recevoir. C est exactement la piece qui manque a une evacuation qui ne depend pas d une seule destination : une destination qui ecrit d avance ses conditions d arret.",
+   "promis_le": "1.1.1 (a moi-meme)",
+   "du_le": "des qu elle aura repondu sur la route",
+   "etat": "volontairement retenu — une seconde lettre ce soir biaiserait la premiere"
+  },
+  {
+   "qui": "sevran-orme",
+   "quoi": "Un nom, sa station et son jour de depart a son propre compte — ou le mot personne. Et je lui ai ecrit que je ne demanderai JAMAIS de deplacer le douzieme sur une estimation de ma fabrication.",
+   "promis_le": "1.1.1",
+   "du_le": "1.1.4 au matin",
+   "etat": "depend de la liste des stations, que je n'ai pas"
+  },
+  {
+   "qui": "vesper-ronce",
+   "quoi": "La lettre des SIX TRACES SEULES (sans un mot de memoire) — partie a Soeur Cendre, PAS ENCORE arrivee chez elle : le canal a refuse deux fois. A renvoyer au premier reveil.",
+   "promis_le": "1.1.1",
+   "du_le": "1.1.2 au matin",
+   "etat": "TENU le 1.1.1 au soir, apres deux refus du canal. Partie aussi a Soeur Cendre."
+  }
+ ]
+}

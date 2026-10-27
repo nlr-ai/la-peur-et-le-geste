@@ -1,0 +1,106 @@
+{
+ "maison:maison-warren": {
+  "@mains": {
+   "maison_id": "maison-warren",
+   "mains": [],
+   "id": "@mains",
+   "_type_document": "mains"
+  }
+ },
+ "maison:le-sous-sol": {
+  "@mains": {
+   "maison_id": "le-sous-sol",
+   "_": "LA MONTÉE DE LA TENSION. Ce que le monde d'en bas remarque de la lignée Warren. Le canon ne donne aucun chiffre : TOUT ce fichier est valeur de jeu, déclarée. Ce qu'il transpose du canon : le Livre attire les démons (C), le Nexus peut basculer (C), l'éveil rend visible (E). Le tick fait monter le regard seul ; le reste le nourrit à la main (voir manuel.md, « Ce qui nourrit le regard »). L'équilibre du bien et du mal ne passe PAS par ce compteur : quand un seuil tombe, le Haut l'apprend par une diffusion, jamais en lisant la mesure.",
+   "mains": [
+    {
+     "id": "attention-du-mal",
+     "quoi": "Ce que le monde d'en bas remarque de la lignée Warren à San Francisco",
+     "porteur": {
+      "type": "maison",
+      "id": "le-sous-sol"
+     },
+     "lieu_id": "san-francisco",
+     "mandat": null,
+     "mesure": [
+      {
+       "id": "nexus-ouvert",
+       "quoi": "La place sous la maison est-elle ouverte ? 0 = scellée sous la pierre, 1 = ouverte au noir",
+       "unite": "état",
+       "valeur": 0,
+       "rythme": {
+        "par": 0,
+        "jours": 1
+       },
+       "plancher": 0,
+       "plafond": 1,
+       "depend_de": [],
+       "_": "Le séisme la met à 1 (la pierre se fend). Elle retombe à 0 quand Prudence a repris la place — pas avant que ce soit fait pour de bon."
+      },
+      {
+       "id": "regard",
+       "quoi": "Combien d'en bas regardent la lignée",
+       "unite": "degrés",
+       "valeur": 5,
+       "rythme": {
+        "par": 1,
+        "jours": 1
+       },
+       "plancher": 0,
+       "plafond": 100,
+       "depend_de": [
+        "attention-du-mal.nexus-ouvert"
+       ],
+       "_": "Gelé tant que la cave est scellée (nexus-ouvert à son plancher) : un degré par jour dès qu'elle est ouverte. 5 au départ : la lignée n'est pas inconnue, elle est tranquille."
+      }
+     ],
+     "seuils": [
+      {
+       "id": "regard-15",
+       "mesure_id": "regard",
+       "quand": "sur",
+       "valeur": 15,
+       "promeut": "quartier",
+       "affaire": "Un suivant démoniaque rôde sur Prescott Street la nuit : il ne frappe pas, il regarde, et il rapporte ce qu'il a vu. (R1 — une potion ou le feu le chassent.)",
+       "franchi_le": null
+      },
+      {
+       "id": "regard-30",
+       "mesure_id": "regard",
+       "quand": "sur",
+       "valeur": 30,
+       "promeut": "quartier",
+       "affaire": "Des métamorphes veulent le Livre : l'un d'eux viendra sous le visage de quelqu'un que la maison laisse entrer. (R2 — canon S01E03 ; le Livre ne sort pas sans une sorcière trompée.)",
+       "franchi_le": null
+      },
+      {
+       "id": "regard-50",
+       "mesure_id": "regard",
+       "quand": "sur",
+       "valeur": 50,
+       "promeut": "quartier",
+       "affaire": "Un warlock tueur de sorcières prend la trace de Prudence : il la veut isolée, et il a le temps. (R3 à trois sœurs, hors de portée seule : l'éviter, l'emprisonner, ou l'écrire pour celles qui viendront.)",
+       "franchi_le": null
+      },
+      {
+       "id": "regard-75",
+       "mesure_id": "regard",
+       "quand": "sur",
+       "valeur": 75,
+       "promeut": "quartier",
+       "affaire": "En bas, on veut le Nexus pour de bon : ce qui vient n'est plus un curieux mais un démon qui a les moyens de le prendre. (Rang et nom à tirer du bestiaire au moment où ça tombe, jamais d'avance.)",
+       "franchi_le": null
+      }
+     ],
+     "dernier_rapport": null,
+     "date_maj": {
+      "annee": 1906,
+      "lune": 4,
+      "jour": 18
+     }
+    }
+   ],
+   "id": "@mains",
+   "_type_document": "mains"
+  }
+ }
+}

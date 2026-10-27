@@ -1,0 +1,92 @@
+{
+ "id": "role-des-gentilshommes",
+ "maison_id": "maison-bourbon",
+ "titre": "Le rôle des gentilshommes",
+ "sous_titre": "Qui est venu avec le roi de Navarre, où il loge, et ce qu'il a d'armes et de chevaux. Tenu par le baron de Piles depuis l'arrivée du 8 juillet.",
+ "type": "registre",
+ "tenu_par": "piles",
+ "office": "Capitaine des gentilshommes du roi de Navarre (hors registre)",
+ "lieu_id": "paris",
+ "salle_id": "logis-des-gentilshommes",
+ "tables": [
+  {
+   "titre": "Où logent les nôtres",
+   "colonnes": [
+    "Où",
+    "Combien",
+    "Qui en répond",
+    "Ce qu'il faut savoir"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "**Le Louvre** — logis des gentilshommes, près de la chambre du roi de Navarre",
+      "une quarantaine",
+      "le baron de Piles",
+      "Le guichet ferme le soir ; les gardes du roi tiennent les escaliers. Épées au râtelier, deux veilleurs par nuit."
+     ]
+    },
+    {
+     "cellules": [
+      "**Rue de Béthisy et alentours** — autour de l'hôtel de l'amiral",
+      "environ cent cinquante",
+      "M. de Téligny",
+      "Les capitaines de l'amiral et les gentilshommes du Poitou et de Saintonge."
+     ]
+    },
+    {
+     "cellules": [
+      "**Hôtelleries de la rive droite** — rue Saint-Honoré, rue de l'Arbre-Sec, les Halles",
+      "environ trois cent cinquante",
+      "chacun son capitaine",
+      "Logés à leurs frais, dispersés ; les hôtes sont parisiens et catholiques."
+     ]
+    },
+    {
+     "cellules": [
+      "**Faubourg Saint-Germain** — outre-Seine",
+      "environ deux cent cinquante",
+      "le comte de Montgomery",
+      "La Seine entre eux et la ville. Chevaux à l'écurie, bateliers à trouver pour passer."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Ce qu'on a sous la main",
+   "colonnes": [
+    "Quoi",
+    "Combien",
+    "Où"
+   ],
+   "lignes": [
+    {
+     "cellules": [
+      "Chevaux sellables sur l'heure",
+      "une soixantaine",
+      "écuries du Louvre et du faubourg"
+     ]
+    },
+    {
+     "cellules": [
+      "Épées et dagues",
+      "une par homme",
+      "au râtelier, au Louvre"
+     ]
+    },
+    {
+     "cellules": [
+      "Pistolets et arquebuses",
+      "peu : on est venu pour des noces",
+      "chez les capitaines"
+     ]
+    }
+   ]
+  }
+ ],
+ "pages": [
+  "Les nombres sont ceux du baron de Piles à la veille des noces. Huit cents, dit-on à la cour ; il en compte un peu moins, parce que quelques-uns sont déjà repartis après les fiançailles, et d'autres arrivent encore."
+ ],
+ "embleme": "⚔️",
+ "couleur": "#2a2724"
+}

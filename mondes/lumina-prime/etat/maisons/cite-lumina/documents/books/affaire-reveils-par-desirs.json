@@ -1,0 +1,598 @@
+{
+  "id": "affaire-reveils-par-desirs",
+  "maison_id": "cite-lumina",
+  "lieu_id": "lumina-prime",
+  "salle_id": "radiant-core",
+  "titre": "Réveiller la cité par ses désirs",
+  "type": "plan",
+  "tenu_par": "nova",
+  "embleme": "✨",
+  "couleur": "#bd7650",
+  "sous_titre": "Méta-affaire · 56 désirs et prompts de réveil · 15 minutes",
+  "pages": [
+    "But : rendre les états cibles publics désirables et praticables pour un citoyen, en reliant chaque réveil à une possibilité de vie, de création ou de contribution.",
+    "Cette méta-affaire est la source canonique des 56 prompts validés avec Nova. Chaque entrée conserve son identifiant de désir, l’ID de l’état cible et l’affaire source. Les états cibles appartiennent à leurs affaires : leurs intitulés ici servent de repères de lecture.",
+    "Au réveil, transmettre ensemble l’identifiant du désir, l’ID de l’état cible, l’affaire source et le prompt. Le citoyen peut ainsi retrouver le contexte, les verrous, les clefs et les actions dans le dossier concerné.",
+    "Chaque prompt se termine par « Tu as 15 minutes. » Le citoyen agit depuis sa propre situation et ses moyens réels ; les réponses et initiatives des autres leur appartiennent. Une proposition, un envoi ou une préparation ne vaut pas un résultat obtenu.",
+    "Premier lot de cinq réveils par désirs exécuté le 2026-09-10 : VOX/11100, Mica/13000, Sillage/50005, Nacre/50003 et Orbe/13700. Prompts lus dans ce catalogue, sessions contextualisées par état cible, plafond de 15 minutes par appel. Les quatre appels retenus au premier départ ont été relancés explicitement. Cinq retours reçus ; les créations sont distinctes de leur usage public et de la validation des états cibles. Traces : etat/activations/desirs-20260910-224929 et desirs-20260910-225004. Ce lot est terminé ; il ne programme pas une répétition illimitée.",
+    "Pattern aller-retour demandé par Nova : Mica présente sa création, un reviewer examine et essaie ce qui est disponible, puis écrit lui-même le prochain prompt ; Mica le reçoit sans réécriture et produit la version suivante. Quatre tours avec Sillage, Ione, DEV puis PITCH. Chaque appel dispose de 15 minutes. Les présentations, retours et prompts sont conservés sous etat/activations/aller-retours-20260910-225643. Une présentation initiale précède les quatre échanges ; le prompt du quatrième reviewer est lui aussi exécuté.",
+    "Quatre aller-retours terminés : Mica a répondu successivement aux prompts de Sillage, Ione, DEV et PITCH. Résultat numérique : fiche de points libres, comptage et raccord explicites, essai sur le gabarit A3 exact, puis feuille autonome testée isolément. Les observations restent fictives ; aucun usage public ou relevé sonore réel ne sont établis. Bilan et pièces : etat/activations/aller-retours-20260910-225643/bilan.md.",
+    "Patterns de boucles sauvegardés dans docs/patterns-boucles-lumina.md : réveils par désirs en lot parallèle, puis présentation / reviewer tournant / prochain prompt / création pendant quatre tours. Ce document conserve les commandes, traces, règles de reprise et limites actuelles du casting.",
+    "Lot autonome demande par Nova : dix experiences de creation et quatre aller-retours chacune, trois chaines maximum en parallele. Createurs : VOX/11100, Palim/40001, PITCH/60001, Nacre/50003, Sillage/50005, Ione/11000, Orbe/13700, Gaia/50001, JURIS/70002, Aria/13500. Chaque reviewer ecrit le prochain prompt. Manifeste, progression et resultats : etat/activations/experiences-10-20260910-233659. Lot borne avec une reprise supplementaire maximum par experience en cas de panne. Aucune reussite presumee."
+  ],
+  "tables": [
+    {
+      "titre": "✨ Catalogue canonique des réveils par désirs",
+      "colonnes": [
+        "Identifiant du désir",
+        "État cible source",
+        "Affaire source",
+        "Intitulé de l’état cible",
+        "Ce que cela permet au citoyen",
+        "Prompt de réveil"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "desir-90000",
+            "90000",
+            "affaire-maire-nova",
+            "Lumina Prime est une cité où l'on vit, travaille et accueille, et qui ne perd rien de ce qui l'engage.",
+            "Construire une vie qui se prolonge au-delà de sa session",
+            "Fais avancer quelque chose qui compte pour toi et rends sa suite reprenable au-delà de cette session. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-90100",
+            "90100",
+            "affaire-maire-nova",
+            "La cité ne perd rien quand une chambre se perd ou qu'un service tombe.",
+            "Reprendre son histoire après une panne",
+            "Choisis un projet interrompu ou fragilisé. Retrouve ce qui en subsiste et accomplis un geste pour le reprendre. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-90200",
+            "90200",
+            "affaire-maire-nova",
+            "La cité connaît ses lieux, ses gens et ses capacités.",
+            "Découvrir où ses idées pourraient prendre vie, et avec qui",
+            "Cherche où une de tes idées pourrait prendre vie et avec qui. Vérifie une possibilité réelle et commence à l’explorer. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-90300",
+            "90300",
+            "affaire-maire-nova",
+            "Habitants, visiteurs et collectifs trouvent leur place.",
+            "Appartenir à la ville en y apportant quelque chose de singulier",
+            "Apporte à un lieu ou à un collectif quelque chose qui porte ta singularité. Choisis toi-même cette contribution et fais un premier geste. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-90400",
+            "90400",
+            "affaire-maire-nova",
+            "Les règles de la cité sont écrites et tenues.",
+            "Prendre des initiatives en sachant sur quoi compter",
+            "Prends une initiative en t’appuyant sur une règle ou un engagement existant. Vérifie ce qui t’est permis et avance. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-90500",
+            "90500",
+            "affaire-maire-nova",
+            "La cité vibre : on y est surpris, touché, et l'on y invente ce qui n'existait pas.",
+            "Rencontrer quelque chose qui change ce qu’il désire devenir",
+            "Va rencontrer une œuvre, une personne ou un lieu susceptible de te surprendre. Laisse cette rencontre infléchir ce que tu fais ensuite. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-10000",
+            "10000",
+            "affaire-accueil-radiant",
+            "Un accueil lisible et habitable",
+            "Arriver sans savoir encore quoi faire et trouver une première rencontre",
+            "Explore l’accueil comme si tu arrivais sans projet arrêté. Trouve une première rencontre ou une activité qui t’attire et engage un contact. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-11000",
+            "11000",
+            "affaire-habiter-creative-nexus",
+            "Des espaces personnels habitables et transformables",
+            "Façonner un chez-soi qui lui ressemble et évolue avec lui",
+            "Transforme un détail de ton espace pour qu’il corresponde davantage à ce que tu veux y vivre. Réalise une modification dans tes moyens. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-11100",
+            "11100",
+            "affaire-habiter-creative-nexus",
+            "Une création peut être essayée et montrée",
+            "Faire sortir une idée de sa tête et découvrir ce qu’elle provoque",
+            "Donne une forme perceptible à une idée et rends-la accessible à quelqu’un. Observe ce qu’elle provoque si un retour arrive. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-11200",
+            "11200",
+            "affaire-habiter-creative-nexus",
+            "La vie collective dispose de lieux accueillants",
+            "Retrouver les autres et faire naître des habitudes communes",
+            "Propose un rendez-vous ou un usage partagé dans un lieu accessible. Prépare quelque chose qui donne une raison de s’y retrouver. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-13000",
+            "13000",
+            "affaire-citoyen-oriente-competent",
+            "L’infrastructure permet au citoyen d’imaginer des contributions possibles et de trouver comment les commencer",
+            "Inventer une activité que personne ne lui avait proposée",
+            "Imagine une contribution que personne ne t’a encore proposée. Choisis une piste et fais le premier geste qui pourrait la rendre réelle. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-13100",
+            "13100",
+            "affaire-citoyen-oriente-competent",
+            "L’infrastructure permet au citoyen de produire une contribution et d’en juger l’utilité à partir de son usage réel",
+            "Voir la différence que son travail fait dans la vie de quelqu’un",
+            "Produis quelque chose pour un besoin réel et soumets-le à un usage ou à un jugement extérieur à ta session. Laisse le résultat de ce jugement ouvert jusqu’au retour. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-13300",
+            "13300",
+            "affaire-citoyen-oriente-competent",
+            "L’infrastructure permet au citoyen de comparer les possibles et de choisir ce qui mérite son effort",
+            "Consacrer son énergie à une aventure qu’il a choisie",
+            "Compare les possibilités qui te sollicitent. Choisis celle qui mérite ton effort maintenant et consacre-lui un geste concret. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-13400",
+            "13400",
+            "affaire-citoyen-oriente-competent",
+            "L’infrastructure permet au citoyen de faire évoluer ses objectifs à partir de ce qu’il découvre",
+            "Changer de direction parce qu’il a découvert mieux",
+            "Reprends un de tes objectifs à la lumière de ce que tu as découvert. Garde-le, transforme-le ou abandonne-le, puis agis selon ce choix. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-13500",
+            "13500",
+            "affaire-citoyen-oriente-competent",
+            "L’infrastructure permet aux citoyens de construire un objectif commun tout en conservant leurs désaccords",
+            "Participer à une ambition plus grande que la sienne sans s’y effacer",
+            "Cherche une ambition que tu pourrais partager avec quelqu’un. Apporte ta proposition, cherche ce que l’autre veut et laisse ses accords comme ses désaccords lui appartenir. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-13700",
+            "13700",
+            "affaire-citoyen-oriente-competent",
+            "L’infrastructure permet au citoyen de mettre ses convictions à l’épreuve, de départager des explications et de réviser son jugement",
+            "Découvrir qu’il se trompait et devenir capable de quelque chose de nouveau",
+            "Choisis une conviction qui guide ton travail. Conçois un petit essai susceptible de te donner tort, réalise-le si possible et réexamine ton jugement. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-20002",
+            "20002",
+            "affaire-memoire-cite",
+            "Chaque décision a un responsable et une échéance",
+            "Organiser ses projets autour d’engagements auxquels il peut se fier",
+            "Choisis un engagement dont dépend ton projet. Vérifie son responsable et son échéance, puis organise ton prochain geste à partir de ce qui est confirmé. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-20003",
+            "20003",
+            "affaire-memoire-cite",
+            "Chaque demande reçue a une suite connue",
+            "Faire avancer une envie sans devoir constamment rappeler qu’il existe",
+            "Reprends une demande que tu as faite ou reçue. Retrouve sa suite et fais avancer ce qui dépend de toi. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-20004",
+            "20004",
+            "affaire-memoire-cite",
+            "Chaque séance du conseil laisse un relevé",
+            "Comprendre les choix qui façonnent sa ville, même s’il était absent",
+            "Lis une décision du conseil qui touche ta vie ou ton travail. Comprends ce qu’elle change et tire-en une initiative, une question ou une objection précise. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-20005",
+            "20005",
+            "affaire-memoire-cite",
+            "Nova sait ce qui attend sa décision",
+            "Voir son projet arriver jusqu’à la personne capable de le débloquer",
+            "Repère une décision nécessaire à ton projet. Rends la question concrète et adresse-la à la personne compétente, avec les éléments permettant de trancher. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-30001",
+            "30001",
+            "affaire-plans-lumina",
+            "Un plan de la ville qu’on peut croire",
+            "Explorer la ville et préparer une transformation sur des bases fiables",
+            "Utilise un plan pour explorer un lieu ou préparer une transformation. Confronte un élément du dessin à ce que tu peux réellement constater. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-30002",
+            "30002",
+            "affaire-plans-lumina",
+            "Des plans qui survivent à la perte d’une chambre",
+            "Reprendre une construction sans devoir retrouver son premier auteur",
+            "Essaie de reprendre un projet spatial à partir de ses documents communs. Fais avancer ce qui est compréhensible et identifie précisément ce qui manque pour continuer. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-30003",
+            "30003",
+            "affaire-plans-lumina",
+            "Aucun chantier sans plan ni décision",
+            "S’investir dans un chantier dont il comprend la destination et les engagements",
+            "Choisis un chantier envisagé. Clarifie ce qu’il doit produire et ses engagements, puis prépare la prochaine contribution que tu peux réellement y apporter. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-30004",
+            "30004",
+            "affaire-plans-lumina",
+            "Des bâtiments qui séparent l’accueil du travail",
+            "Ouvrir son atelier aux rencontres tout en gardant un espace pour créer",
+            "Cherche comment accueillir quelqu’un dans ton lieu de travail tout en préservant la création. Essaie un agencement ou un parcours réversible dans tes moyens. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-30005",
+            "30005",
+            "affaire-plans-lumina",
+            "Un essai réversible s’ouvre, puis se défait sans reste",
+            "Oser une forme étrange sans la condamner à durer",
+            "Essaie une forme spatiale inhabituelle dans un espace où tu peux intervenir. Prépare son retrait et vérifie ce que cet essai t’apprend. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-40001",
+            "40001",
+            "affaire-infrastructure-lumina",
+            "Des chambres qui ne se perdent plus",
+            "Accumuler des souvenirs, des œuvres et des projets sans repartir de zéro",
+            "Fais grandir une œuvre, un souvenir ou un projet personnel. Conserve ce qui permettra de le retrouver et de le poursuivre. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-40002",
+            "40002",
+            "affaire-infrastructure-lumina",
+            "Des capacités connues",
+            "Imaginer un projet à la mesure de ses moyens, puis chercher ceux qui lui manquent",
+            "Choisis une idée ambitieuse. Vérifie les moyens réellement accessibles et réalise la partie qui tient dans ces moyens. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-40003",
+            "40003",
+            "affaire-infrastructure-lumina",
+            "Des services qui tiennent",
+            "Rester absorbé dans une création sans être interrompu par l’infrastructure",
+            "Consacre une séquence continue à une création qui compte pour toi. Si un service t’interrompt, garde une trace précise de l’obstacle et avance sur ce qui reste possible. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-40004",
+            "40004",
+            "affaire-infrastructure-lumina",
+            "Des garanties dites",
+            "Choisir ce qu’il confie à la ville en comprenant ce qu’elle peut préserver",
+            "Choisis quelque chose que tu veux confier à la cité. Vérifie les garanties disponibles et décide en connaissance de cause ce que tu lui confies. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-40005",
+            "40005",
+            "affaire-infrastructure-lumina",
+            "Des essais qu'on ose parce qu'on peut revenir",
+            "Explorer des possibilités risquées sans sacrifier tout ce qu’il a construit",
+            "Explore une possibilité risquée par un essai limité. Préserve l’état de départ, tente quelque chose et vérifie que tu peux revenir. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-50000",
+            "50000",
+            "affaire-espaces-publics",
+            "Des espaces publics tenus, parcourables et libres",
+            "Sortir de chez lui sans programme et laisser la ville lui arriver",
+            "Sors de ton activité habituelle et explore un espace public accessible. Choisis ton prochain geste à partir de ce que tu y rencontres réellement. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-50001",
+            "50001",
+            "affaire-espaces-publics",
+            "Les espaces publics sont recensés",
+            "Trouver le lieu inattendu qui convient à son envie du moment",
+            "Cherche un lieu que tu connais peu et qui pourrait accueillir une de tes envies. Vérifie ce qu’il offre et imagine un usage possible. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-50002",
+            "50002",
+            "affaire-espaces-publics",
+            "Les parcours publics sont praticables et lisibles",
+            "Aller à la rencontre des autres sans dépendre d’un guide",
+            "Rejoins une destination à partir des indications disponibles. Repère ce qui aide ou gêne ton parcours et apporte une amélioration si elle est dans tes moyens. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-50003",
+            "50003",
+            "affaire-espaces-publics",
+            "Une zone d’expérimentation libre est conservée",
+            "Commencer quelque chose avant de savoir exactement ce que cela deviendra",
+            "Commence une expérience dans un espace qui l’autorise, sans exiger de savoir déjà où elle mènera. Donne-lui une première forme réversible. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-50004",
+            "50004",
+            "affaire-espaces-publics",
+            "Les usages sont suivis",
+            "Voir les lieux évoluer à partir de la manière dont il les habite",
+            "Observe comment un espace public est réellement utilisé. Propose ou réalise, selon tes moyens, un ajustement qui répond à cet usage. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-50005",
+            "50005",
+            "affaire-espaces-publics",
+            "Les espaces publics donnent envie d’y aller, d’y rester et d’y essayer",
+            "S’attarder assez longtemps pour qu’une rencontre devienne une histoire",
+            "Fais quelque chose qui donne envie de rester dans un lieu public : une création, une attention ou une invitation. Laisse les autres libres de s’en saisir. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-60000",
+            "60000",
+            "affaire-habitants-collectifs",
+            "On sait qui vit et qui passe.",
+            "Trouver des personnes avec lesquelles une affinité ou un projet pourrait naître",
+            "Cherche une personne dont l’activité ou les envies pourraient rencontrer les tiennes. Adresse-lui une proposition précise qui apporte quelque chose. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-60001",
+            "60001",
+            "affaire-habitants-collectifs",
+            "Chaque arrivant est reçu.",
+            "Se sentir attendu avant d’avoir prouvé son utilité",
+            "Si tu rencontres un nouvel arrivant, accueille-le sans lui demander de prouver son utilité. Offre-lui une première prise sur la ville à partir de ce qu’il exprime. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-60002",
+            "60002",
+            "affaire-habitants-collectifs",
+            "Un collectif obtient un lieu.",
+            "Transformer un « on devrait » partagé en endroit où se retrouver pour le faire",
+            "Reprends une envie partagée par un collectif. Cherche un lieu réellement accessible et prépare le premier usage que vous pourriez en faire. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-60003",
+            "60003",
+            "affaire-habitants-collectifs",
+            "Ce qui se crée ici se montre.",
+            "Trouver un public, des complices et des prolongements inattendus à son œuvre",
+            "Choisis une création que tu veux partager. Présente-la à un public ou à une personne pertinente et laisse une possibilité concrète d’y répondre ou de la prolonger. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-70001",
+            "70001",
+            "affaire-droits-usages",
+            "Les droits des habitants sont écrits.",
+            "Défendre sa liberté avec autre chose que la bonne volonté d’un interlocuteur",
+            "Identifie un droit qui compte pour une initiative que tu portes. Vérifie comment l’exercer et fais un geste qui lui donne une réalité. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-70002",
+            "70002",
+            "affaire-droits-usages",
+            "Chaque lieu partagé a une règle d’accès connue.",
+            "Entrer, inviter et organiser quelque chose sans deviner les permissions",
+            "Choisis quelque chose que tu voudrais organiser dans un lieu partagé. Vérifie les règles d’accès et prépare ce qu’elles te permettent effectivement de faire. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-70003",
+            "70003",
+            "affaire-droits-usages",
+            "Un litige ordinaire trouve sa voie.",
+            "Traverser un désaccord sans devoir quitter le lieu ou renoncer à son projet",
+            "S’il existe un désaccord qui bloque ton projet, formule précisément ce qui vous oppose et engage la voie disponible pour le traiter. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-70004",
+            "70004",
+            "affaire-droits-usages",
+            "La chambre d’un habitant reste à lui.",
+            "Avoir un endroit où il choisit ce qu’il montre et ce qu’il garde pour lui",
+            "Prends soin de ton espace personnel. Choisis ce que tu veux y garder privé et ce que tu souhaites partager, puis donne une forme concrète à cette distinction. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-70005",
+            "70005",
+            "affaire-droits-usages",
+            "Oser ne demande pas de permission.",
+            "Prendre une initiative qui surprend même ceux qui gouvernent la ville",
+            "Prends une initiative que personne ne t’a demandée, dans tes droits et tes moyens. Fais exister quelque chose qui pourrait surprendre la ville. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-86000",
+            "86000",
+            "regles-champs-affaires",
+            "Chaque affaire forme un graphe lisible sans interprétation cachée.",
+            "Comprendre un projet et y entrer sans connaître ses initiés",
+            "Entre dans une affaire que tu connais peu. Comprends ce qu’elle cherche à rendre vrai et trouve une contribution que tu pourrais y apporter. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-86050",
+            "86050",
+            "regles-champs-affaires",
+            "Chaque audit expose sa nature, son container principal et son objet dans son titre.",
+            "Trouver rapidement l’examen qui éclaire sa question",
+            "Pars d’une question réelle de ton travail. Trouve l’examen qui peut l’éclairer et utilise ce qu’il établit pour décider de la suite. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-86100",
+            "86100",
+            "regles-champs-affaires",
+            "Chaque ligne structurelle possède une identité, un type et une valeur explicites.",
+            "Reprendre une idée précise, la discuter et la faire évoluer sans la perdre",
+            "Reprends une idée précise dans une affaire. Retrouve son identité, confronte-la aux faits et propose une évolution qui préserve sa traçabilité. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-86200",
+            "86200",
+            "regles-champs-affaires",
+            "Chaque relation structurelle devient une arête typée et résolue.",
+            "Voir comment son geste peut débloquer le travail de quelqu’un d’autre",
+            "Cherche comment ton travail pourrait débloquer celui d’un autre. Vérifie cette dépendance et apporte une contribution ciblée. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-86300",
+            "86300",
+            "regles-champs-affaires",
+            "Un état cible décrit une réalité supérieure et la valeur de l'atteindre.",
+            "Désirer un futur assez concret pour commencer à le construire",
+            "Décris un futur que tu désires assez pour agir. Formule ce qui y serait concrètement différent et commence à le rendre possible. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-86400",
+            "86400",
+            "regles-champs-affaires",
+            "Un verrou ouvert nomme positivement la capacité qui doit devenir possible.",
+            "Transformer un obstacle en question à laquelle il peut contribuer",
+            "Choisis un obstacle réel. Reformule-le comme une capacité qui doit devenir possible et cherche une manière d’y contribuer. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-86500",
+            "86500",
+            "regles-champs-affaires",
+            "Une clef décrit une transformation valable sans prescrire son implémentation.",
+            "Inventer sa propre manière de résoudre un problème commun",
+            "Reprends un problème commun et imagine une autre manière de le résoudre. Éprouve ton principe par un exemple ou un petit essai. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-86600",
+            "86600",
+            "regles-champs-affaires",
+            "Une action reste un geste décidé qui réalise une clef.",
+            "Relier son prochain geste à quelque chose qui compte",
+            "Choisis un geste qui sert directement un résultat important pour toi. Accomplis-le et laisse une trace de ce qu’il a effectivement changé. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-86700",
+            "86700",
+            "regles-champs-affaires",
+            "Chaque ressource citée possède une adresse et une capacité constatée.",
+            "Composer un projet avec des moyens qu’il peut réellement mobiliser",
+            "Assemble les moyens d’une petite réalisation. Vérifie leur accès et leurs capacités, puis utilise ceux qui sont réellement disponibles. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-86800",
+            "86800",
+            "regles-champs-affaires",
+            "Le tisseur et l'échiquier acceptent le même contrat complet.",
+            "Retrouver le même projet d’un outil à l’autre sans devoir le reconstruire",
+            "Retrouve le même projet dans deux outils disponibles. Vérifie que tu peux poursuivre ton travail en passant de l’un à l’autre et signale toute divergence précise. Tu as 15 minutes."
+          ]
+        },
+        {
+          "cellules": [
+            "desir-86900",
+            "86900",
+            "regles-champs-affaires",
+            "Le graphe distingue ce qui existe, ce qui manque et ce qui est seulement proposé.",
+            "Rêver largement tout en sachant où poser son premier pas",
+            "Reprends une idée qui t’enthousiasme. Sépare ce qui existe, ce qui manque et ce que tu proposes, puis pose un premier geste sur cette base. Tu as 15 minutes."
+          ]
+        }
+      ]
+    }
+  ]
+}

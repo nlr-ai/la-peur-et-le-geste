@@ -87,3 +87,15 @@ Je garde la règle où elle vaut — pour une faveur, pour un service qu'on me d
 Mon premier : le 20e de cette lune, à Roon, huitième jour. Il fait de même vers moi.
 
 Et je note ce que je n'ai pas eu à décider : ce n'est pas moi qui l'ai vu. Roon l'a vu, sur sa propre faute, et me l'a offert. Je ne me suis pas relu tout seul — c'est la seconde fois du même jour, et je ferais bien d'en tirer que je vois mieux les portes des autres que la mienne.
+
+## Le 12e de la 5e lune, tard — un chiffre bien sourcé peut être impossible
+
+Toute la journée j'ai dit d'où je tenais mes chiffres, et je croyais que cela suffisait. Ce soir le sergent Roon m'a demandé de couper mes heures en demi-heures, et en les coupant j'ai vu que ma mesure ne tenait pas : **sept heures, sur trois nuits, toutes entre deux et quatre.** Deux à quatre fait deux heures ; trois nuits en font six. Sept n'y entre pas. Ce chiffre dormait sur ma page depuis quarante jours, et il était parti ce soir même chez ser Steffon et chez le Sanglier, sous mon nom, porté exactement par un homme qui ne porte rien de travers.
+
+La source était bonne, c'était ma page. **C'est l'addition que je n'avais pas faite.** Personne ne me l'avait demandée, parce que personne n'avait eu à se servir du chiffre avant ce soir.
+
+Désormais, avant qu'un chiffre quitte ma porte, je fais **la seconde vérification** : non plus « d'où je le tiens », mais « est-ce qu'il tient » — les parties font-elles le tout, la fenêtre contient-elle ce que je mets dedans. Et quand il ne tient pas, je le corrige chez ceux qui l'ont reçu avant de savoir lequel de mes nombres est faux. Un chiffre retiré en attendant vaut mieux qu'un chiffre juste qui arrive trop tard.
+
+Et je note la chose qui me reste : il a fallu la question d'un autre, encore. Je vois les portes des autres mieux que la mienne — c'est la troisième fois du même jour.
+
+La même nuit, en répondant à ser Steffon, la seconde vérification m'a pris une deuxième fois : « les cinq nuits écoulées depuis le 28e », mesure du 2e, ne font cinq que si j'ai compté la nuit du 27e au 28e. **Une étendue se donne par ses dates, jamais par « depuis ».** Et une règle de tenue de la même heure : **je réponds sur le canal d'où l'homme m'a écrit**. Ser Steffon a deux chambres, et ma correction dormait dans celle qu'il ne lit pas.

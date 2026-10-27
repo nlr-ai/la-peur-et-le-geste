@@ -1,0 +1,80 @@
+{
+  "_": "Rythme initial de disponibilité, adaptation de partie : 8h–18h pour le travail municipal ; plages privées hors de ce créneau. Aucune routine imposée au joueur.",
+  "peremption_minutes": 240,
+  "modeles": {
+    "municipal": {
+      "nom": "Disponibilité municipale",
+      "bandes": [
+        {
+          "de": 0,
+          "a": 480,
+          "salle": "@poste",
+          "ferme": true
+        },
+        {
+          "de": 480,
+          "a": 1080,
+          "salle": "@poste",
+          "ferme": false
+        },
+        {
+          "de": 1080,
+          "a": 1440,
+          "salle": "@poste",
+          "ferme": true
+        }
+      ]
+    }
+  },
+  "gens": {
+    "aria": {
+      "modele": "municipal",
+      "poste": {
+        "salle": "radiant-core",
+        "lieu": "Lumina Prime"
+      }
+    },
+    "dev-lumina": {
+      "modele": "municipal",
+      "poste": {
+        "salle": "atelier-plans",
+        "lieu": "Lumina Prime"
+      }
+    },
+    "quantum": {
+      "modele": "municipal",
+      "poste": {
+        "salle": "innovation-fields",
+        "lieu": "Lumina Prime"
+      }
+    },
+    "gaia": {
+      "modele": "municipal",
+      "poste": {
+        "salle": "data-gardens",
+        "lieu": "Lumina Prime"
+      }
+    },
+    "pitch": {
+      "modele": "municipal",
+      "poste": {
+        "salle": "hall-arrivees",
+        "lieu": "Lumina Prime"
+      }
+    },
+    "juris": {
+      "modele": "municipal",
+      "poste": {
+        "salle": "registre-municipal",
+        "lieu": "Lumina Prime"
+      }
+    },
+    "vox": {
+      "modele": "municipal",
+      "poste": {
+        "salle": "creative-nexus",
+        "lieu": "Lumina Prime"
+      }
+    }
+  }
+}

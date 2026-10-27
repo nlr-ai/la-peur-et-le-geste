@@ -1,0 +1,208 @@
+{
+  "maison_id": "cite-lumina",
+  "lieu_id": "lumina-prime",
+  "salle_id": "radiant-core",
+  "id": "affaire-accueil-radiant",
+  "titre": "Un accueil pour Lumina Prime",
+  "type": "plan",
+  "couleur": "#157f8b",
+  "sous_titre": "Première affaire · Radiant Core · J1, 2042",
+  "tenu_par": "aria",
+  "office": "Coordination municipale",
+  "pages": [
+    "Le Radiant Core accueille à la fois la vie municipale et les visiteurs de Lumina Prime. Le hall, le salon et la galerie des projets figurent sur son plan. Leur articulation comme accueil public est la première question d’aménagement de cette partie.",
+    "**À décider par Nova :** quelle place donner aux visiteurs dans le Radiant Core, et quels espaces garder pour le travail municipal ? Le plan permet de situer les usages ; aucune affectation nouvelle n’est encore décidée.",
+    "Le conseil dispose de mandats pour préparer et conduire l’aménagement. Les surfaces utiles, la fréquentation, le coût en calcul et la disponibilité des équipes restent à mesurer. Les personnes disponibles ne constituent pas une capacité illimitée.",
+    "**Terminé quand :** un visiteur peut trouver l’entrée, s’orienter et rejoindre une activité accessible, tandis qu’un entretien municipal peut se tenir à l’écart. La vérification doit porter sur un parcours réellement essayé, après réalisation."
+  ],
+  "tables": [
+    {
+      "titre": "🏰 Ouverture de l’Affaire",
+      "colonnes": [
+        "Le champ",
+        "Ce qui est établi"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "LE NOM",
+            "Un accueil pour Lumina Prime"
+          ]
+        },
+        {
+          "cellules": [
+            "L’OBJET",
+            "Aménager l’entrée publique du Radiant Core et sa relation avec les lieux de travail."
+          ]
+        },
+        {
+          "cellules": [
+            "LE PILIER",
+            "Habitants, espaces publics et architecture"
+          ]
+        },
+        {
+          "cellules": [
+            "L’ÉTAT ACTUEL",
+            "Hall, salon des visiteurs et galerie sont inscrits au plan initial. Aucun aménagement nouveau n’est validé."
+          ]
+        },
+        {
+          "cellules": [
+            "LA PLAGE",
+            "10000–10099, réservée à cette affaire dans Lumina Prime."
+          ]
+        },
+        {
+          "cellules": [
+            "FERMÉE QUAND",
+            "Un parcours visiteur et un entretien confidentiel fonctionnent dans les espaces réalisés."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🎯 États cibles",
+      "colonnes": [
+        "N°",
+        "L’état",
+        "Ce qui doit être vrai",
+        "Où",
+        "La preuve",
+        "Sert",
+        "Importance"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "10000",
+            "Un accueil lisible et habitable",
+            "Les visiteurs trouvent leur destination ; le travail municipal conserve ses espaces.",
+            "Radiant Core",
+            "Essai du parcours et de la séparation des usages, après réalisation.",
+            "—",
+            "60"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🔒 Verrous",
+      "colonnes": [
+        "N°",
+        "Le verrou",
+        "Bloque",
+        "Ce qui est vrai aujourd’hui",
+        "La preuve",
+        "Levé quand"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "10001",
+            "L’usage des espaces d’accueil reste à décider",
+            "10000",
+            "Aucune décision d’affectation dans cette partie.",
+            "Registre des décisions sans affectation pour cet accueil.",
+            "Nova arrête les usages et leurs limites."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "🗝️ Clefs",
+      "colonnes": [
+        "N°",
+        "La clef",
+        "Ouvre",
+        "Le principe",
+        "Le prix",
+        "Ce que cela ferme",
+        "La preuve attendue",
+        "Décision"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "10010",
+            "Un programme d’accueil sur les espaces existants",
+            "10001",
+            "Préciser les usages avant de dessiner ou construire.",
+            "Étude du conseil ; coût des travaux non établi.",
+            "Aucun espace affecté avant décision.",
+            "Programme approuvé par Nova.",
+            "à décider"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "⚔️ Actions",
+      "colonnes": [
+        "N°",
+        "L’action",
+        "Réalise",
+        "Ce qu’on fait",
+        "Où",
+        "Office",
+        "Avec quoi",
+        "Dépend de",
+        "La preuve",
+        "État",
+        "Jour dû",
+        "Qui"
+      ],
+      "lignes": [
+        {
+          "cellules": [
+            "10020",
+            "Décrire le parcours visiteur",
+            "10010",
+            "Distinguer arrivée, orientation, rencontre et accès aux activités.",
+            "Hall des arrivées",
+            "O05",
+            "Plan initial ; mandat de PITCH",
+            "—",
+            "Besoins et parcours proposés, sans fréquentation inventée.",
+            "à faire",
+            "2042.1.1",
+            "pitch"
+          ]
+        },
+        {
+          "cellules": [
+            "10021",
+            "Relever les espaces utilisables",
+            "10010",
+            "Documenter les accès, les usages actuels et les possibilités de séparation.",
+            "Radiant Core",
+            "O02",
+            "Plan initial ; mandat de DEV",
+            "—",
+            "Relevé distinguant mesures, conventions du plan et inconnues.",
+            "à faire",
+            "2042.1.1",
+            "dev-lumina"
+          ]
+        },
+        {
+          "cellules": [
+            "10022",
+            "Présenter le programme à Nova",
+            "10010",
+            "Rapprocher besoins et possibilités ; faire apparaître la décision municipale.",
+            "Salle du conseil",
+            "O01",
+            "Dossier d’accueil",
+            "10020, 10021",
+            "Programme avec limites, coûts connus et inconnus, soumis à Nova.",
+            "à faire",
+            "2042.1.2",
+            "aria"
+          ]
+        }
+      ]
+    }
+  ],
+  "embleme": "🏙️"
+}

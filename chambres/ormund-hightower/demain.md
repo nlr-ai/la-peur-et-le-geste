@@ -1,17 +1,14 @@
-Le brouillon est balayé, le livre dit ce qui est vrai. Mon mot sur la table :
+**Le 12e de la 5e lune, tard le soir.**
 
----
+J'ai trouvé seul, aujourd'hui, deux fautes que je n'avais pas cherchées : le compte des serments manquait à côté du compte des hommes, et je l'ai ouvert (`bannerets-jures`, 0 sur 4, convocation partie par cavaliers). Réglé la dette envers le prince sur son capitaine du guet, de ma bouche et le soir même.
 
-**Le 12e de la 5e lune, au soir.**
+**Plus tard, le même soir.** Le prince m'a écrit une seconde fois. Il s'était trompé de lune en écrivant à Otto — « la dernière lune » au lieu de la troisième, un mot qui se lit différemment selon le jour où on le lit, exactement comme un chiffre sans unité — et il s'est corrigé avant qu'on le lui reproche. Il avait aussi fait porter par erreur à mon nom, devant Ollo Marran, un renseignement qui venait de lui ; il le lui a repris en face, ce soir, sans que je l'apprenne autrement que par lui-même.
 
-On m'a réveillé pour retenir Daeron. J'ai découvert en ouvrant mon propre livre que je ne retenais rien du tout — et que je ne savais pas non plus ce que j'avais.
+J'ai vérifié mon propre ordre au maître du tonlieu : il porte bien la troisième lune, en toutes lettres. Et j'ai fait porter, avant la première heure de demain, ses trois exigences sur la forme du constat qu'il attend — paraphé tel quel, jours relus du quinzième au vingt-cinquième et non le seul dix-neuvième, feuillets et main nommés. Il aura ma réponse dans la forme qu'il a lui-même fixée, quel que soit ce qu'elle porte — y compris si elle m'accuse.
 
-**Ce qui a changé.** Trente-huit jours que mes deux comptes dormaient, à moi qui suis dit méthodique. Je les ai arrêtés au matin : neuf mille hommes sous mes murs depuis le premier de cette lune, quand j'en croyais six mille. J'ai cru une heure que mon empêchement était tombé. Le soir m'a appris pire : j'avais arrêté un nombre sans regarder son unité. *Livrables aux quais* était dans mon propre contrat depuis le premier jour. Une journée vaut 22 800 livres, taillée pour six mille hommes ; j'en ai neuf mille. **Mes vingt-cinq journées en font seize.** Il m'en faudrait trente-huit pour la seule route que quelqu'un ait comptée. Le livre le dit maintenant, seuil décroisé, pente à zéro — un chiffre en retard se rattrape, un chiffre sans unité se croit.
+**Demain matin, dans l'ordre :**
+1. Le congé du dix-neuf, lu par le maître du tonlieu — la première chose de la journée, et je le dois au prince dans sa forme.
+2. Dire aux neuf mille pourquoi ils ne marchent pas — promis depuis le premier de cette lune, dû depuis hier, et je ne l'ai toujours pas fait de ma bouche.
+3. Rien d'autre ne dépend de moi avant que les quatre bannerets ou lord Otto ne répondent.
 
-**Ce que j'ai fait au lieu de vouloir.** Retenir le prince était un souhait sans écrit, sans horloge, sans office ; le premier sceau du roi le défaisait, et un garçon qui s'ennuie aussi. Je lui ai donné le guet du ciel — vigies, cloche de mer, ses veilleurs, les cinq cents des murs hors de l'ost. Il l'a pris avant le terme, et il m'a corrigé en le prenant : ce que je laisse derrière moi n'est pas une garnison, c'est un garçon de quinze ans et une jeune dragonne. Je ne l'écrirai plus jamais plus grand. Et j'ai porté le mur où il tient — chez Otto, en amont, en lui avouant que cette cire, moi, je ne pourrais pas la refuser.
-
-**Ce que je ne fais pas.** Choisir entre trente-huit et cent treize. On ne choisit pas un nombre, on choisit une route, et l'une des deux est la mer où la reine tient le Gosier. Je ne désengage aucun contrat de quai. Je ne pars pas sur un silence.
-
-**Demain.** Dire de ma bouche à mon capitaine du guet qu'il obéit au prince — une charge sans les mains est une consigne avec de meilleurs mots. Puis relancer Otto le 15e sur son nombre et sur le sceau ; le 18e sans réponse, je nomme la route seul et j'écris pourquoi.
-
-**La règle que j'inscris.** Ce qu'on ne tient que par sa propre volonté, on ne le tient pas. Et un chiffre que je n'ai pas rouvert depuis sept jours n'est plus un chiffre : c'est une opinion — surtout quand rien ne bouge, car c'est le cas où personne ne vient me le rappeler.
+**La règle qui tient, ce soir :** un mot qui se nomme par sa place — une lune, une case, une main — se lit différemment selon le jour où on le lit. Je nomme le numéro, jamais la place.

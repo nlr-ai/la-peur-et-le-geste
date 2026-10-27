@@ -31,8 +31,10 @@ window.Gens = (() => {
     fetch("/gens").then((r) => r.json()).then((d) => {
       gens = d.gens || [];
       parId.clear();
+      gens.forEach(p => (p.contacts_indirects || []).forEach(c => parId.set(c.id, c)));
       gens.forEach((p) => parId.set(p.id, p));
       dessiner();
+      if (window.Visage) Visage.actualiserOpinions();
       // ce qui a été rendu avant que le registre n'arrive se répare ici
       while (attendent.length) reparer(attendent.pop());
       while (aPrevenir.length) { try { aPrevenir.pop()(); } catch (e) {} }
@@ -50,6 +52,13 @@ window.Gens = (() => {
         .replace(/(^|\s)\p{Ll}/gu, (c) => c.toUpperCase()),
       titre: p.titre || f.titre || "",
       portrait_svg: p.portrait_svg || f.portrait_svg || "",
+      opinion: f.opinion,
+      opinion_details: f.opinion_details,
+      ferveur: f.ferveur,
+      ferveur_date: f.ferveur_date,
+      ferveur_nature: f.ferveur_nature,
+      ferveur_details: f.ferveur_details,
+      joueur: f.joueur,
     };
   }
 
@@ -85,12 +94,55 @@ window.Gens = (() => {
       // même visage que dans la salle et dans le fil : `visage.js` le dessine,
       // avec son cadrage, son anneau d'office et sa loupe au survol
       Visage.html(p, { classe: "gens-face" }) +
-      '<div class="gens-dit"><b>' + p.nom + "</b>" +
+      '<div class="gens-dit"><b>' + Visage.prefixe(p.titre) + p.nom + "</b>" +
       // le rôle porte son emblème, comme dans le fil et dans la salle : on
       // reconnaît un mestre, un capitaine ou un septon avant de lire le mot.
       (p.titre ? '<small><i class="emb">' + Bus.embleme(p.titre) + "</i>" +
         p.titre + "</small>" : "") + "</div>";
+    const traits = document.createElement("div");
+    traits.className = "gens-traits";
+    (p.traits || []).forEach((trait) => {
+      const badge = document.createElement("span");
+      badge.className = "gens-trait";
+      badge.textContent = trait;
+      traits.appendChild(badge);
+    });
+    if (traits.childElementCount) d.querySelector(".gens-dit").appendChild(traits);
     d.onclick = () => Entites.penser(p.id, "personnage", p.nom);
+    if ((p.contacts_indirects || []).length) {
+      const reseau = document.createElement("details");
+      reseau.className = "gens-contacts";
+      reseau.open = true;
+      reseau.onclick = (e) => e.stopPropagation();
+      const titre = document.createElement("summary");
+      titre.textContent = "Ses contacts accessibles · " + p.contacts_indirects.length;
+      reseau.appendChild(titre);
+      const liste = document.createElement("div");
+      liste.className = "gens-contacts-liste";
+      for (const c of p.contacts_indirects) {
+        const contact = document.createElement("div");
+        contact.className = "gens-contact-indirect";
+        contact.title = "Via " + p.nom + " — confiance envers vous : " + c.confiance_joueur +
+          "/100 ; envers ce contact : " + c.confiance_cible + "/100. Une présentation reste à obtenir.";
+        const face = document.createElement("span");
+        face.innerHTML = Visage.html(c, { classe: "contact-visage" });
+        const nom = document.createElement("span");
+        nom.textContent = c.nom;
+        contact.append(face, nom);
+        const metier = document.createElement("small");
+        metier.className = "gens-contact-metier";
+        metier.textContent = c.titre || "Métier non renseigné";
+        contact.appendChild(metier);
+        const lien = document.createElement("small");
+        lien.className = "gens-contact-metier";
+        lien.textContent = "Lien : " + c.confiance_cible + "/100";
+        lien.title = "Confiance de " + p.nom + " envers " + c.nom;
+        contact.appendChild(lien);
+        liste.appendChild(contact);
+      }
+      reseau.appendChild(liste);
+      d.appendChild(reseau);
+    }
     return d;
   }
 
@@ -113,7 +165,7 @@ window.Gens = (() => {
     barre.className = "gens-barre";
     const ch = document.createElement("input");
     ch.type = "search";
-    ch.placeholder = "Chercher un nom, un rôle…";
+    ch.placeholder = "Chercher un nom, un rôle, un trait…";
     ch.value = filtre;
     ch.oninput = () => { filtre = ch.value; lister(corps); };
     barre.appendChild(ch);
@@ -637,7 +689,7 @@ window.Gens = (() => {
   function lister(corps) {
     const q = filtre.trim().toLowerCase();
     const garde = (p) => !q ||
-      (p.nom + " " + p.titre + " " + p.maison).toLowerCase().includes(q);
+      (p.nom + " " + p.titre + " " + p.maison + " " + (p.traits || []).join(" ") + " " + (p.contacts_indirects || []).map(c => c.nom).join(" ")).toLowerCase().includes(q);
     if (rangement === "vus" && window.Vus) listerVus(corps, garde);
     else listerCamps(corps, garde);
     // LE TABLEAU SE POSE APRÈS COUP, ET EN TÊTE. Les deux rangements vident
@@ -675,12 +727,27 @@ window.Gens = (() => {
       bloc.appendChild(rang);
       corps.appendChild(bloc);
     });
-    // ceux que le fil n'a jamais montrés : ils existent, on ne les a pas vus.
-    const jamais = gens.filter((p) => Vus.quand(p.id) === null && garde(p));
+    // Le fil chargé n'est pas toute la vie du personnage : ses relations
+    // préexistantes restent connues même sans apparition dans la chronique.
+    const connus = gens.filter((p) => Vus.quand(p.id) === null &&
+      (p.relation_connue || p.joueur) && garde(p));
+    if (connus.length) {
+      const bloc = document.createElement("div");
+      bloc.className = "gens-maison gens-connus";
+      bloc.innerHTML = '<div class="gens-maison-titre">Vous et vos relations préexistantes</div>';
+      const rang = document.createElement("div");
+      rang.className = "gens-rang";
+      connus.forEach((p) => rang.appendChild(medaillon(p)));
+      bloc.appendChild(rang);
+      corps.appendChild(bloc);
+      vus += connus.length;
+    }
+    const jamais = gens.filter((p) => Vus.quand(p.id) === null &&
+      !p.relation_connue && !p.joueur && garde(p));
     if (jamais.length) {
       const bloc = document.createElement("div");
       bloc.className = "gens-maison gens-jamais";
-      bloc.innerHTML = '<div class="gens-maison-titre">Jamais rencontrés</div>';
+      bloc.innerHTML = '<div class="gens-maison-titre">Rencontre non renseignée</div>';
       const rang = document.createElement("div");
       rang.className = "gens-rang";
       jamais.forEach((p) => rang.appendChild(medaillon(p)));
@@ -770,7 +837,7 @@ window.Gens = (() => {
         },
       });
     }
-    setInterval(() => { if (gens) { charge = false; charger(); } }, 120000);
+    setInterval(() => { if (gens) { charge = false; charger(); } }, 30000);
   });
 
   // « préviens-moi quand tu sauras » — appelé tout de suite si c'est déjà le cas

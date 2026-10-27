@@ -3,7 +3,7 @@
 Un acteur — humain ou PNJ — est un SIÈGE (docs/organisation.md §3, l'invariant
 du siège). Ce container possède la machinerie qui fait vivre un siège hors
 scène : lui servir son point de vue (le brief, le dossier), l'envoyer vivre sa
-journée sur demande (la dépêche, la Règle Zéro), lui écrire (le parloir : billet-réveil entre habitants ; appels au MJ réservés au front joueur),
+journée sur demande (la dépêche facultative, sur demande explicite du joueur), lui écrire (le parloir : billet-réveil entre habitants ; appels au MJ réservés au front joueur),
 et ancrer les choses de la fiction dans des
 mètres (l'affectation).
 
@@ -18,6 +18,10 @@ elles aussi par la porte.
 |---|---|---|
 | `depeche/` | `depecher.py` | appeler un homme — le prompt système liste les documents de sa maison ; `--contexte <N°>` isole la session et focalise le brief |
 | `runtime.py` | tous les appels LLM | porte basse commune aux fournisseurs : plafond global de 15 sessions actives ; le 16e wake-up attend un slot ; un CAST réserve avant de créer son worker ; les marqueurs associent PID et naissance du processus pour éliminer les faux actifs |
+| `runtime_gemini.py` | `runtime.py` (4.10) | l'appel `agy` : le manuel en `AGENTS.md` du pas-de-tir, relu à chaque appel ; pas de `--add-dir`, qui lui faisait lire l'`AGENTS.md` racine (90 ko) en plus |
+| `mj_generation.py` | `mj.py` (4.10) | la rotation des sessions du MJ : tous les `LE_CONSEIL_MJ_TOURS` tours réussis (20 par défaut, 0 = jamais), génération + 1 et nouvel identifiant ; la génération 0 garde l'identifiant historique ; le premier réveil d'une génération reçoit `SESSION NEUVE` ; compteur dans `<monde>/.agents-runtime/mj/generations.json` |
+| `mj_point.py` | `mj.py` (11.10) | le point d'étape : tous les `LE_CONSEIL_MJ_POINT` tours d'un joueur (20 par défaut, 0 = jamais), le réveil porte `POINT D'ETAPE` ; le compte ne repart à zéro qu'à la vue d'un `suites` marqué `point: true` — compteur dans `<monde>/.agents-runtime/mj/points.json` |
+| `sections_mode.py` | `mj.py` (4.10) | `filtrer(texte, modes)` : une section précédée de `<!-- modes: run -->` n'est servie au MJ que les tours où ce mode est actif |
 | `parloir.py` | `parloir.py` | l'adressage de la parole — `--dire` entre habitants ; `--sans-reveil`, réservé au MJ, dépose une notification sans cast ; `--contexte` + `--ref` sont conservés dans canal, web et spool MJ ; vers un siège joueur occupé : pas de cast, billet + `reponse` web privée + copie append-only au flux MJ ; appels d'autorité vers `mj` toujours refusés aux PNJ et réservés au front marqué `--joueur`, criée `tous` |
 | `matiere.py` | `dossier.py` | le dossier d'un sujet, rassemblé dans l'ordre d'autorité |
 | `portage.py` | D.34 (31.8) | les registres portés au réveil-POST du MJ — `matiere_du_message` (nombres + noms propres de l'inbox → `matiere.dossier_registres`, 6 lignes au plus jointes au mot), appelé par `mj.main`, jamais bloquant |
@@ -25,12 +29,18 @@ elles aussi par la porte.
 | `jump.py` | préparation de `jump/1` | choisit un seul événement `a-venir` (ou l'ID nommé), extrait son sous-graphe causal et son item de contexte MJ ; le MJ élit ensuite une coupe de trois PNJ maximum, attend leurs réponses, arbitre et joue une seule scène |
 | `affectation/` | `affecter.py` | une adresse physique pour une chose de la fiction — lecture, controle, cli |
 | `sieges.py` | `scene/sieges.py` (décision du 30 : les sièges sont la machinerie des acteurs, pas la peau) | s'asseoir, quitter : occupé → pas de tête ; vacant → une tête obligatoirement ; l'archive des têtes — façade `scripts/sieges.py` (chemin ULTRA-GELÉ) |
-| `mj.py` | le réveil de l'unique MJ | `appeler_mj(de, mot, verbe)` : session continue sans date, traitement des POST et verbes du front joueur ; consomme le flux append-only `retours-parloir.jsonl` sans reprendre ce qui arrive pendant l'appel |
+| `mj.py` | le réveil de l'unique MJ | `appeler_mj(de, mot, verbe)` : session continue sans date, traitement des POST et verbes du front joueur ; le message ne porte que des données, la procédure vit dans `mj-spectacle.md` (« Le réveil ») ; consomme le flux append-only `retours-parloir.jsonl` sans reprendre ce qui arrive pendant l'appel |
 | `billet.py` | le modèle habitant (docs/habitant.md §4, pas 5) | écrire = réveiller — `deposer` (l'entrée au canal canonique de la paire), `ecrire` (dépôt puis réveil du destinataire en CAST via `mission.appeler(attendre=False)`). Le dépôt est sérialisé et idempotent : même `ref` + enveloppe = un seul passage durable ; sans `ref`, un retry identique est filtré 60 s. Un doublon ne réveille personne et ses copies web/MJ ne partent pas. SANS garde de creux : un billet neuf réveille. Lié après `depeche` dans la porte |
 | `salle.py` | le modèle habitant (docs/habitant.md §2) | ce qu'un habitant entend là où il se tient — `entendre` (accumule, n'écrit rien), `deposer` (une écriture par chambre en fin de poussée : le fil de salle + les relations ouvertes par co-présence). Appelé par `scene/flux.py`, jamais bloquant. Le filtre est `chambre.existe` |
 | `chambre.py` | le modèle habitant (docs/habitant.md §2, pas 1) | le domicile d'un habitant — `chemin`, `ouvrir`, `fil` (fil historique ou fil isolé par item d'affaire), `canal` (le discussion.json canonique d'une paire), `non_lus`/`marquer_lus`, `problemes`/`en_souffrance`. Hommes et MJ : mêmes fonctions. RIEN dans `chambres/` ne fait foi — la vérité vit dans `etat/` |
 
 ## Les prompts (`prompts/`)
+
+`atelier/` raccorde les preuves techniques de Barralfond aux affaires : noms de
+travail explicites, sources figees, comparaison bornee, sorties conservees et
+verdict. Facade : `scripts/atelier.py`, via `expose.py`. Le brief de l'equipe
+retrouve le dernier resultat ; le registre `work_identity` et le parloir sont
+reutilises. Contrat et commandes : `docs/atelier-developpement.md`.
 
 - `metier.md` — le manuel d'une personne dans le monde (servi par `depeche/manuel.py`).
 - `mj-spectacle.md` — la couche de scène du seul MJ, servie avec le manuel
@@ -66,4 +76,3 @@ Entre modules du MÊME container, l'import est direct
 (`from agents.depeche.brief import brief_de`) ; seuls les façades et les
 autres containers passent par la porte. `livre` et `bibliotheque` (noyau,
 réclamés par plan) n'ont qu'un point de contact dans `depeche/` : `brief.py`.
-

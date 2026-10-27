@@ -38,4 +38,8 @@ depecher = _depeche.depecher
 appeler = _depeche.appeler
 
 if __name__ == "__main__":
-    main()
+    if "--mode" in sys.argv and sys.argv[sys.argv.index("--mode") + 1] == "plateau":
+        from agents.plateau import main as plateau_main
+        plateau_main()
+    else:
+        main()

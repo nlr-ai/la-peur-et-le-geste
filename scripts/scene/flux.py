@@ -43,6 +43,10 @@ from scene.flux_scribe import (  # les chemins et les gestes d'ecriture du fil
 from scene.flux_ecrits import (  # les avis sur ce qui s'annonce
     avis_renvois, avis_ecrits, sans_accents_simple)
 from scene import flux_transport
+from racines import racine as racine_monde
+from scenes_partagees import Scenes
+MONDE_RACINE = racine_monde()
+SCENES = Scenes(MONDE_RACINE)
 
 # Minutes consommees par defaut, par type d'item.
 # question/reponse sont hors fiction ; pensee est gratuite par regle du jeu.
@@ -61,6 +65,9 @@ DUREES = {
     # L'atelier de chanson : on compose SUR la partie, jamais dedans. Hors
     # univers comme les coulisses, et sans une minute de fiction.
     "composer": 0, "chanson": 0,
+    # Le battement du MJ (agents/battement_mj.py) : une ligne de machine qui
+    # dit que le monde travaille. Hors fiction, sans une minute.
+    "statut": 0,
 }
 
 # --- les fronts de temps, un par joueur -----------------------------------
@@ -73,7 +80,7 @@ DUREES = {
 # qui est commun, la scene travaille en minutes sur ce qui est prive.
 BARRIERE_MINUTES = 2880  # un joueur ne devance jamais l'autre de plus de deux jours
 DEDUP_SECONDES = 60
-RUNTIME_FLUX = os.path.join(racine, ".agents-runtime", "flux")
+RUNTIME_FLUX = os.path.join(MONDE_RACINE, ".agents-runtime", "flux")
 MEMOIRE_DEDUP = os.path.join(RUNTIME_FLUX, "dedup.json")
 
 
@@ -145,7 +152,7 @@ def lire_horloges(defaut):
         # Le tick, lui, travaille en JOURS sur `monde.date` : quand il fait
         # avancer le monde commun, un front reste derriere. Il le rattrape ici,
         # sans quoi la scene rejouerait une journee que le monde a deja passee.
-        if minute_absolue(h[pid]) < minute_absolue(defaut):
+        if not SCENES.active and minute_absolue(h[pid]) < minute_absolue(defaut):
             h[pid] = dict(defaut)
     return h
 
@@ -187,7 +194,7 @@ def audience_courante():
 # part l'enleve d'office d'ailleurs, par construction du dictionnaire — c'est tout
 # le correctif. Le MJ n'a rien de nouveau a ecrire : le script le derive des
 # items qu'il pousse deja.
-presence_p = os.path.join(racine, "etat", "presence.json")
+presence_p = os.path.join(MONDE_RACINE, "etat", "presence.json")
 
 
 def lire_presence():
@@ -315,6 +322,37 @@ if not explicite:
         raise SystemExit(2)
 
 flux_transport.prendre_verrou(RUNTIME_FLUX)
+if SCENES.active:
+    # En duo, une poussée physique à l'un vaut pour le groupe. Les apartés
+    # déclarés et les items hors fiction conservent leur audience privée.
+    regie_partagee = all(i.get("type") in {"reparation", "meta", "coulisses", "intervention"}
+        or (i.get("type") == "reponse" and not i.get("locuteur_id")) for i in items)
+    if isinstance(pour, str) and not messe_basse and (regie_partagee or all(
+            i.get("type") not in {"question", "reponse", "pensee", "meta", "coulisses",
+                "composer", "chanson", "intervention", "reparation", "run"} for i in items)):
+        pour = SCENES.audience(pour)
+    for item in items:
+        audience = item.get("pour", messe_basse or pour)
+        if (isinstance(audience, str) and item.get("type") not in
+                {"question", "reponse", "pensee", "meta", "coulisses", "composer", "intervention", "reparation"}
+                and SCENES.passations_non_recues(audience)):
+            raise SystemExit("REFUS : recevoir la passation privée avant de reprendre la scène. Rien écrit.")
+        if audience in ("tous", "commun", "-"):
+            audience = [j["personnage_id"] for j in roster() if j.get("occupe")]
+        if isinstance(audience, list) and len(audience) > 1:
+            communes = SCENES.etat()["communes"]
+            if not any(set(c["membres"]) == set(audience) for c in communes):
+                raise SystemExit("REFUS : scene commune sans relais accepte. Rien ecrit.")
+            if not SCENES.physique(audience)["compatible"]:
+                raise SystemExit("REFUS : scene commune desynchronisee. Rien ecrit.")
+        elif isinstance(audience, str) and audience in [j["personnage_id"] for j in roster()]:
+            nommes = [p.get("id") if isinstance(p, dict) else p for p in item.get("presents", [])]
+            autres_pj = set(nommes) & {j["personnage_id"] for j in roster() if j.get("occupe")}
+            autorises = SCENES.audience(audience)
+            autorises = set(autorises if isinstance(autorises, list) else [autorises])
+            if not autres_pj <= autorises:
+                raise SystemExit("REFUS : second PJ dans la scene sans relais accepte. Rien ecrit.")
+
 _maintenant_transport = time.time()
 _dedup_flux = flux_transport.lire(
     MEMOIRE_DEDUP, _maintenant_transport, DEDUP_SECONDES)
@@ -366,16 +404,26 @@ en_regie = isinstance(pour, str) and pour in REGIES
 # n'ont pas lieu dans la salle et ne coutent pas une minute. Elles restent
 # privees au siege vise meme quand la scene, elle, est commune.
 HORS_FICTION = {"question", "reponse", "pensee", "meta", "coulisses",
-                "composer", "chanson", "intervention", "reparation"}
+                "composer", "chanson", "intervention", "reparation", "statut"}
 pour_hors_fiction = pour if pour in sieges else None
 
 if messe_basse:
     pour = messe_basse if len(messe_basse) > 1 else messe_basse[0]
     explicite = True
 
+# Front temporaire explicite des pilotes de journee, sans modifier le roster.
+_pnj_journee = os.environ.get("CONSEIL_PNJ_JOURNEE")
+if _pnj_journee and _pnj_journee == pour and pour not in sieges and pour not in REGIES:
+    _canoniques = tables.lire(os.path.join(MONDE_RACINE, "etat", "personnages.json"), [])
+    if not any(p.get("id") == pour for p in _canoniques):
+        raise SystemExit("Siege PNJ temporaire inconnu : " + pour)
+    sieges.append(pour)
 mien = pour if pour in sieges else None
 horloges = lire_horloges(monde["date"]) if sieges else {}
-date = dict(horloges[mien]) if mien else monde["date"]
+if mien and mien not in horloges:
+    horloges[mien] = dict(monde["date"])
+sieges_du_tour = pour if SCENES.active and isinstance(pour, list) else sieges
+date = dict(horloges[mien]) if mien else (dict(horloges[pour[0]]) if SCENES.active and isinstance(pour, list) else monde["date"])
 date.setdefault("minute", 0)
 depart = (date["jour"], date["minute"])
 
@@ -409,7 +457,7 @@ def reclamer_un_run(retarde, demandeur, ecart):
     Un seul ordre a la fois : si l'on en a deja depose un qui n'a pas ete
     traite, on ne l'empile pas — le MJ d'en face n'a pas besoin de dix.
     """
-    dossier = os.path.join(racine, "etat", "inbox", retarde)
+    dossier = os.path.join(MONDE_RACINE, "etat", "inbox", retarde)
     try:
         os.makedirs(dossier, exist_ok=True)
         for f in os.listdir(dossier):
@@ -463,7 +511,7 @@ if (mien and len(sieges) > 1
 # front des joueurs n'aurait aucun sens.
 if not mien and not en_regie and sieges:
     fin = minute_absolue(simuler(date))
-    for s in sieges:
+    for s in sieges_du_tour:
         saut = fin - minute_absolue(horloges[s])
         if saut > BARRIERE_MINUTES:
             sys.stderr.write(
@@ -476,7 +524,7 @@ if not mien and not en_regie and sieges:
     # dans le passe d'un joueur deja plus avance. C'est le cas ordinaire (son
     # front porte quelques minutes de scene privee), mais au-dela d'une heure
     # c'est le signe qu'on lui pousse du vecu par-dessous. On le dit, sans bloquer.
-    for s in sieges:
+    for s in sieges_du_tour:
         retard = minute_absolue(horloges[s]) - minute_absolue(date)
         if retard > 60:
             sys.stderr.write(
@@ -525,7 +573,7 @@ def _ids_connus():
     global _registre_ids
     if _registre_ids is None:
         try:
-            with io.open(os.path.join(racine, "etat", "personnages.json"),
+            with io.open(os.path.join(MONDE_RACINE, "etat", "personnages.json"),
                          encoding="utf-8") as f:
                 g = json.load(f)
             g = g if isinstance(g, list) else g.get("personnages", [])
@@ -752,7 +800,8 @@ def suivre_presence(it, quand):
         # Une salle DECLAREE fait autorite sur ses occupants : qui y etait sans
         # y etre nomme n'y est plus. C'est le `vider()` du navigateur, cote etat.
         for pid in list(presence):
-            if pid not in nommes and meme_piece(presence[pid], piece):
+            if (pid not in nommes and meme_piece(presence[pid], piece)
+                    and not (SCENES.active and pid in sieges and pid != mien)) :
                 del presence[pid]
                 suivi["touchee"] = True
         for p in it["presents"]:
@@ -783,6 +832,9 @@ def suivre_presence(it, quand):
         # tout seul, au bon moment, sans que le MJ ait a y penser — et il ne se
         # leve que la ou il a marche.
         vus.add(piece.get("salle"))
+    elif SCENES.active and isinstance(pour, list) and it.get("type") not in HORS_FICTION and it.get("type") != "run":
+        for membre in pour:
+            poser(membre)
     for p in (it.get("entrent") or []):
         poser(p)
     for x in (it.get("sortent") or []):
@@ -803,7 +855,7 @@ def suivre_presence(it, quand):
 # moment ou l'on pousse. C'est tout ce qu'il fallait.
 def avis_acteurs_inconnus(items):
     try:
-        with io.open(os.path.join(racine, "etat", "personnages.json"),
+        with io.open(os.path.join(MONDE_RACINE, "etat", "personnages.json"),
                      encoding="utf-8") as f:
             gens = json.load(f)
     except Exception:
@@ -1052,7 +1104,7 @@ else:
     # reculer au prochain calcul.
     if sieges:
         change = False
-        for s in sieges:
+        for s in sieges_du_tour:
             if minute_absolue(horloges[s]) < minute_absolue(date):
                 horloges[s] = dict(date)
                 change = True
@@ -1060,6 +1112,8 @@ else:
             tables.ecrire(horloges_p, horloges)
 if not en_regie:
     tables.ecrire(monde_p, monde)
+    if SCENES.active and isinstance(pour, list) and piece:
+        SCENES.suivre_mouvement(pour, piece.get("salle"))
 
 # Sans encodage force, la console Windows (cp1252) etouffe sur une fleche et
 # le script sort en erreur APRES avoir tout ecrit — de quoi croire a un echec.

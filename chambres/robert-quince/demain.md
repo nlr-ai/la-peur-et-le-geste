@@ -1,3 +1,15 @@
-Sara tient désormais le premier compte des réserves ; je relirai derrière elle. J’ai répété son ordre et envoyé Wend chercher le rôle réel des coques, sans compléter les blancs de Hask ni de Bry.
+Journée de rattrapage, close sur un point réglé et un point accepté comme irrésolu.
 
-Reste à recevoir le bordereau de remise et les deux dates de vive-eau de Rulf. Aucun total avant cela.
+RÉGLÉ : les cinquante de Sarro Vaeth sont dix-huit (réclamés par lui le 5e, sa propre ligne) et trente-deux rentrés au rôle de la muraille — mais CE DERNIER FAIT NE SERA JAMAIS CERTIFIÉ : ni Le Sanglier (son rôle ferme au 22e, ne rouvre pas), ni Hallis Roon (sa feuille des vus de la relève des fosses est vide) ne peuvent le confirmer. Trois mains cherchées, trois mains vides. J'ai cessé de chercher la pièce : les trente-deux restent RAPPORTÉS sous mon seul nom, définitivement, sauf qu'un appel nominatif réel ne les nomme un jour un par un. Ce n'est pas un échec de la journée, c'est une vérité obtenue — un chiffre dont je connais maintenant exactement la solidité.
+
+RÉGLÉ AUSSI : « l'ordre du 24e » n'existe comme pièce écrite nulle part — ni chez moi, ni chez Hallis, ni (a priori) ailleurs que peut-être chez Sarro Vaeth lui-même, à vérifier. Ma seule trace est une ligne tardive de mon propre cahier. Dit tel quel à Hallis, qui en tire la conséquence juste : sans cet ordre, les dix-huit de Sarro ne s'adossent qu'à SA propre réclamation du 5e — ce qui suffit par ma propre règle (un détaché se vérifie chez celui qui le réclame), mais ne suffit pas à prouver qu'un ordre existait ce jour-là. Deux choses différentes, toutes deux vraies.
+
+CORRIGÉ DEUX FOIS AUPRÈS DE STEFFON : d'abord son office (bien nommé, Commandement de l'ost et de la marche, 26e/3e lune) ; puis ma propre erreur — j'avais écrit que Hallis tenait le rôle nominatif daté, c'est faux, c'est Le Sanglier (211 lignes, clos le 22e) qui le tient. Corrigé avant que Steffon ne s'en serve.
+
+CORRIGÉ UNE TROISIÈME FOIS, ET SUR MOI CETTE FOIS : j'avais tranché que Le Sanglier et moi serions les deux lecteurs du registre de garde et de l'ordre du 24e. Ma propre règle m'exclut aussi — je suis nommé dans les deux (registre de garde sous ma charge CA.2 ; l'ordre du 24e n'existe que par ma ligne). Je ne peux pas certifier ce que je porte. Proposé Denys Bar-Emmon comme second lecteur, sans attache dans aucune des trois pièces, déjà attendu à l'archive à trois heures.
+
+Reste bloquée : 10033 (les geôles), sauf clarification contraire de Denys sur l'arrêt de la reine.
+Reste ouvert : l'heure de Sara Poulain pour la réserve de Steffon — pas encore de réponse ; échéance le 14e à midi.
+Reste à recevoir : la page corrigée de Wend sur les heures d'arche (six, pas sept).
+CONFIRMÉ : Le Sanglier accepte Denys comme second lecteur (aucune attache trouvée dans les trois pièces). Il a déjà corrigé sa propre page avant même ma lettre : cinquante MANQUANTS, les trente-deux retirés tant que Hallis ou Sarro ne les confirment pas de leur bouche. Rien à trancher de plus là-dessus avant trois heures — seulement lire et signer à deux, Denys en second.
+À faire ensuite : trois heures, archive — Le Sanglier (rôle du 22e, rôle de la muraille du 6e, je tiens les clefs sans signer) et Denys (clarifier 10033, et signer en second). Demander directement à Sarro Vaeth s'il détient un papier du 24e.

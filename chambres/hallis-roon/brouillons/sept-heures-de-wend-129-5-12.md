@@ -6,11 +6,17 @@ Il l'a mesuré à SON livre du jour, relu à l'envers, et il l'a marqué lui-mê
 comme n'étant pas l'heure du rôle. Je le porte sous son nom et il y restera.
 
 ## CE QU'IL DIT, MOT POUR MOT DANS SA SUBSTANCE
-Fenêtre relue : les CINQ NUITS du 28e de la 3e lune au 2e de la 4e lune.
-SEPT HEURES où l'arche a été tenue PAR UN SEUL HOMME.
-Toutes entre DEUX ET QUATRE HEURES.
-Au CHANGEMENT DE GARDE.
-UNE NUIT SUR DEUX.
+~~Fenêtre relue : les CINQ NUITS… UNE NUIT SUR DEUX.~~ — RAYÉ le 12e au soir :
+c'était MA forme, et elle était fausse. Wend m'a repris sur sa page.
+
+LE COMPTE : SEPT HEURES où l'arche a été tenue PAR UN SEUL HOMME, sur TROIS
+NUITS DES CINQ (28e de la 3e lune au 2e de la 4e). Deux nuits propres.
+SANS EXCEPTION : les sept heures TOUTES entre DEUX ET QUATRE, au changement de
+garde. C'est le seul point sans réserve, et c'est le fait.
+SA CONCLUSION, NON UN COMPTE : le creux revient une nuit sur deux. Sous son nom.
+ÂGE : QUARANTE JOURS. Prise le 2e de la 4e lune, jamais refaite. Second chiffre
+de sa main annoncé pour le 13e, mêmes livre et planchette.
+Corrigé chez le Sanglier et ser Steffon, les deux mains où j'avais porté ma forme.
 
 ## CE QUE ÇA PROUVE
 Que la porte de mer a été mince sept heures en cinq nuits, à une heure qui
@@ -72,3 +78,15 @@ trois frères, et le jour où l'une est corrigée les deux autres continuent de
 courir. J'ai gardé CELLE-CI, qui porte DE QUI EST LE COMPTE en tête, et j'ai
 détruit les deux autres. Rien n'est perdu : tout ce qu'elles portaient est
 au-dessus.
+
+
+## Le 12e au soir — la pièce du Sanglier en regard
+Rampe : un demi-tour non payé de TROIS À SIX, coupé pour le froid depuis la
+première lune (son livre). Arche : DEUX À QUATRE (livre de Wend).
+Heure commune : DE TROIS À QUATRE. Le Sanglier avait écrit qu'elles ne se
+touchaient pas ; il l'a retiré sur ma lettre.
+Ce qui tranche : les heures creuses de Wend DEMI-HEURE PAR DEMI-HEURE —
+de deux à trois, chaque porte a son trou ; de trois à quatre, une heure où
+les deux portes étaient minces à la fois. Demandé à Wend le 12e.
+Les deux pièces ne sont pas du même âge : les poser à la même date avant
+de les poser l'une sur l'autre.

@@ -54,6 +54,34 @@ BOOKS_SERENISSIMA = os.path.join(
     ETAT, "maisons", "maison-serenissima", "documents", "books")
 
 
+def sources_energie_lumina(noeuds):
+    """Les porteurs déclarés du monde courant, une source par personne."""
+    sources = set()
+    for chemin in glob.glob(os.path.join(
+            ETAT, "maisons", "*", "documents", "books", "affaire-*.json")):
+        pid = str(lire_json(chemin, {}).get("tenu_par") or "").strip()
+        if pid and "pers:" + pid in noeuds:
+            sources.add(pid)
+    return sorted(sources)
+
+
+def est_lumina():
+    return os.path.basename(os.path.dirname(ETAT)) == "lumina-prime"
+
+
+def acteurs_en_session():
+    """Lecture des réservations vivantes ; aucun nettoyage ni interruption."""
+    from agents import runtime
+    resultat = set()
+    for chemin in glob.glob(os.path.join(runtime.ACTIVITES, "*.json")):
+        d = lire_json(chemin, {})
+        if d.get("reserve") and time.time() - float(d.get("t") or 0) < 60:
+            resultat.add(d.get("homme"))
+        elif d.get("processus") and runtime._identite_processus(d.get("pid")) == d["processus"]:
+            resultat.add(d.get("homme"))
+    return resultat
+
+
 def sources_energie_braavos(noeuds, books_dir=None):
     """Le siège de Nicolas, plus chaque porteur canonique d'une affaire."""
     sources = {SOURCE_BRAAVOS}
@@ -160,16 +188,22 @@ def cycle(args, etat=None):
     journaliser("diffusion.importance")
     sources_energie = (sources_energie_braavos(noeuds)
                        if getattr(args, "braavos", False) else None)
+    lumina = est_lumina() and not braavos
+    if lumina:
+        sources_energie = sources_energie_lumina(noeuds)
+        horloge["energie_mur_s"] = time.time()
     scores, adj = importance(noeuds, aretes, evaluation, horloge["source_id"],
                              occupes, source_ids=sources_energie)
     polarites, _horloge_moyenne = polarites_horloge_acteurs(noeuds, adj)
     energies_graphe = mettre_a_jour_energie_graphe(
         etat, horloge, scores, noeuds, adj, polarites,
-        front="braavos" if braavos else None)
+        front="braavos" if braavos else "lumina-prime" if lumina else None)
     if sources_energie:
         amorcer_sources_energie(
-            etat, energies_graphe, sources_energie, "braavos",
-            horloge["present_secondes"])
+            etat, energies_graphe, sources_energie,
+            "lumina-prime" if lumina else "braavos",
+            horloge["present_secondes"],
+            minimum=ENERGIE_MAX if lumina else ENERGIE_MIN)
         journaliser("energie.sources", front="braavos",
                     acteurs=sources_energie)
     journaliser("diffusion.calendrier")
@@ -217,10 +251,14 @@ def cycle(args, etat=None):
         rotation["tour"] = 1
         rotation["vus"] = []
     vus_rotation = set(rotation.get("vus") or [])
+    en_session = acteurs_en_session()
     def selectionner(exclus_rotation):
         choix = []
         taches_selectionnees = set()
         for energie, score, pid, jauge in eligibles:
+            if pid in en_session:
+                journaliser("selection.rejetee", acteur=pid, raison="session_active")
+                continue
             capacite_homme = float(jauge.get("facteur_compute") or 1.0)
             homme_ouvert = mettre_a_jour_porte(
                 etat, "acteurs", pid, capacite_homme)
@@ -256,7 +294,7 @@ def cycle(args, etat=None):
             tache = choisir_tache(
                 "pers:" + pid, noeuds, aretes, adj, energies_graphe,
                 etat=etat, present=horloge["present_secondes"],
-                amorcage_lieu=("braavos" if braavos else None),
+                amorcage_lieu=("braavos" if braavos else "lumina-prime" if lumina else None),
                 sur_verrous=braavos)
             if tache is None:
                 journaliser("selection.rejetee", acteur=pid,
@@ -420,7 +458,8 @@ def cycle(args, etat=None):
         duree_monde = sum(
             int((a.get("temps") or {}).get("duree_s") or 0)
             for a in activites_rapport)
-        reserves_noeuds = etat["graphe"]["noeuds"]
+        reserves_noeuds = (etat["graphe"]["fronts"]["lumina-prime"]["noeuds"]
+                           if lumina else etat["graphe"]["noeuds"])
         acteur_nid = "pers:" + pid
         energie_brute = lot["energie_brute"]
         energie_acteur_apres = max(0.0, energie_brute - float(depense))
@@ -514,16 +553,22 @@ def prevoir_activations(limite, braavos=False):
     amorcer_continuite_historique(etat, noeuds)
     amorcer_fatigue_historique(etat)
     sources_energie = sources_energie_braavos(noeuds) if braavos else None
+    lumina = est_lumina() and not braavos
+    if lumina:
+        sources_energie = sources_energie_lumina(noeuds)
+        horloge["energie_mur_s"] = time.time()
     scores, adj = importance(noeuds, aretes, evaluation, horloge["source_id"],
                              occupes, source_ids=sources_energie)
     polarites, _horloge_moyenne = polarites_horloge_acteurs(noeuds, adj)
     energies_graphe = mettre_a_jour_energie_graphe(
         etat, horloge, scores, noeuds, adj, polarites,
-        front="braavos" if braavos else None)
+        front="braavos" if braavos else "lumina-prime" if lumina else None)
     if sources_energie:
         amorcer_sources_energie(
-            etat, energies_graphe, sources_energie, "braavos",
-            horloge["present_secondes"])
+            etat, energies_graphe, sources_energie,
+            "lumina-prime" if lumina else "braavos",
+            horloge["present_secondes"],
+            minimum=ENERGIE_MAX if lumina else ENERGIE_MIN)
     disponibilites = calendrier(noeuds, aretes, evaluation,
                                  horloge["source_id"])
     for nid, score in scores.items():
@@ -559,7 +604,7 @@ def prevoir_activations(limite, braavos=False):
         tache = choisir_tache(
             "pers:" + pid, noeuds, aretes, adj, energies_graphe,
             etat=etat, present=horloge["present_secondes"],
-            amorcage_lieu=("braavos" if braavos else None),
+            amorcage_lieu=("braavos" if braavos else "lumina-prime" if lumina else None),
             sur_verrous=braavos)
         if tache is None:
             attentes["aucune_tache_disponible"] += 1

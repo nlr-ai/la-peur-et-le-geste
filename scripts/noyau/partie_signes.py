@@ -16,8 +16,24 @@ une biobanque, une doctorante et des réactifs y étaient la même boîte que to
 le reste.
 
 L'ORDRE EST LA RÈGLE dans les deux tables : le plus précis d'abord.
+
+**ET LE MONDE PEUT EN APPORTER** (lot 4). La clef `signes` du manifeste ajoute
+ses mots aux tables ci-dessous — elle ne les remplace JAMAIS : un moteur qui
+perdrait ⛵ parce qu'un monde a déclaré ses gondoles serait un moteur qui oblige
+chaque paquet à recopier quarante lignes pour en ajouter une. Trois sections,
+chacune de la forme exacte de la table qu'elle nourrit, pour qu'une ligne se
+copie d'ici au manifeste sans être traduite :
+
+    "signes": {"genres": {"<genre>": "🚤"},
+               "pieces": [["🚤", ["gondole", "sandolo"]]],
+               "cartes": [[["gondole", "rialto"], "🚤"]]}
+
+Les mots du monde passent EN TÊTE, par la même règle du plus précis d'abord :
+ils sont de son vocabulaire à lui, la table de base est le fonds commun.
 """
 import re
+
+import racines  # ce que le MONDE declare : ici, les mots qu'il ajoute
 
 
 _DRAGONS = ("caraxes", "syrax", "meleys", "vermax", "vhagar", "sunfyre", "tessarion",
@@ -192,6 +208,19 @@ _SIGNES = (
     (("homme", "sergent", " ser ", "lord", "lady", "otto", "criston", "aegon",
       "aemond", "daemon", "steffon", "corlys", "rhaenys"), "👤"),
 )
+
+
+
+# ---------------------------------------------------------------------------
+# LA FUSION — les mots du monde entrent ici, et nulle part ailleurs.
+# Un seul endroit, apres les deux tables, pour qu'on voie d'un coup d'oeil que
+# rien n'est retire : `update` et une concatenation en tete, c'est tout. Sans
+# manifeste, les trois lignes sont des identites et le fichier rend ce qu'il
+# rendait hier, signe pour signe.
+_MONDE = racines.dit("signes", {}) or {}
+GENRES.update(_MONDE.get("genres") or {})
+_MOTS = tuple((e, tuple(m)) for e, m in (_MONDE.get("pieces") or ())) + _MOTS
+_SIGNES = tuple((tuple(m), e) for m, e in (_MONDE.get("cartes") or ())) + _SIGNES
 
 
 def signe_de(texte, rid=""):

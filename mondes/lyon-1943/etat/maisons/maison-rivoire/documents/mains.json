@@ -1,0 +1,50 @@
+{
+ "maison_id": "maison-rivoire",
+ "_": "CE QUE LES RIVOIRE ONT SOUS LA MAIN. Chiffres de jeu, INVENTION DÉCLARÉE, ordres de grandeur d'un ménage ouvrier lyonnais de 1943 (à recouper). Le chiffre atteint Marcel par la bouche de sa mère.",
+ "mains": [
+  {
+   "id": "bourse-du-menage",
+   "quoi": "Les économies du ménage, rognées par le marché noir",
+   "porteur": {
+    "type": "personnage",
+    "id": "louise-rivoire"
+   },
+   "lieu_id": "lyon",
+   "mandat": null,
+   "mesure": [
+    {
+     "id": "economies",
+     "quoi": "francs d'avance dans la boîte à biscuits",
+     "unite": "francs",
+     "valeur": 3200,
+     "rythme": {
+      "par": -20,
+      "jours": 1
+     },
+     "reliquat": 0,
+     "plancher": 0,
+     "plafond": 20000,
+     "depend_de": [],
+     "_": "Les deux paies couvrent le loyer et les tickets ; le marché noir (beurre, viande, charbon) mange vingt francs par jour d'avance. Si Marcel ne rapporte plus sa paie, passer à -60."
+    }
+   ],
+   "seuils": [
+    {
+     "id": "plus-de-reserve",
+     "mesure_id": "economies",
+     "quand": "sous",
+     "valeur": 1000,
+     "promeut": "scene",
+     "affaire": "Louise compte ce qui reste dans la boîte à biscuits : de quoi tenir trois semaines de marché noir, pas une de plus.",
+     "franchi_le": null
+    }
+   ],
+   "dernier_rapport": null,
+   "date_maj": {
+    "annee": 1943,
+    "lune": 3,
+    "jour": 5
+   }
+  }
+ ]
+}

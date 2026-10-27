@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trois bords, v2 — maquette sonore de Sillage</title>
+  <style>
+    :root { color-scheme:dark; --ink:#edf7f4; --dim:#9db8b2; --water:#071f25; --line:#3dd6b1; --warn:#efc76b; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; background:linear-gradient(160deg,#041419,var(--water)); color:var(--ink); font:17px/1.55 system-ui,sans-serif; }
+    main { width:min(760px,calc(100% - 32px)); padding:32px; border:1px solid #28535a; border-radius:24px; background:#092128e6; box-shadow:0 20px 80px #0008; }
+    h1 { margin:0 0 4px; font-size:clamp(2rem,7vw,4.4rem); letter-spacing:-.04em; }
+    .lede,.note { color:var(--dim); }
+    .lede { margin:0 0 28px; }
+    fieldset { border:0; padding:0; margin:24px 0; }
+    legend { font-weight:700; margin-bottom:10px; }
+    .choices,.transport { display:flex; flex-wrap:wrap; gap:10px; }
+    button { min-height:48px; padding:10px 16px; border:1px solid #447078; border-radius:999px; background:#102e35; color:var(--ink); font:inherit; cursor:pointer; }
+    button:hover,button:focus-visible { border-color:var(--line); outline:3px solid #3dd6b133; }
+    button[aria-pressed="true"] { color:#031512; background:var(--line); border-color:var(--line); }
+    button:disabled { cursor:not-allowed; opacity:.42; }
+    .transport { margin-top:28px; }
+    .play { background:var(--line); color:#031512; border-color:var(--line); font-weight:800; }
+    .stop { border-color:#e97b75; }
+    .silent { border-color:var(--warn); }
+    #uncertain { margin:18px 0; padding:18px; border:1px solid var(--warn); border-radius:16px; background:#2b2617; }
+    #uncertain[hidden] { display:none; }
+    #uncertain p { margin:0 0 14px; }
+    #status { min-height:3.2em; margin:20px 0 0; padding:14px 16px; border-left:3px solid var(--line); background:#06171c; }
+    .note { font-size:.9rem; margin-top:24px; }
+    code { color:#b6f6e6; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Trois bords <small>v2</small></h1>
+  <p class="lede">Trois apparitions. Beaucoup de Quai entre elles. L’incertain ne joue pas à savoir.</p>
+
+  <fieldset>
+    <legend>1. Choisis une direction du relevé</legend>
+    <div class="choices" id="directions">
+      <button type="button" data-direction="ruban" aria-pressed="true">Le long du ruban</button>
+      <button type="button" data-direction="gradins" aria-pressed="false">Vers les gradins</button>
+      <button type="button" data-direction="passage" aria-pressed="false">Vers le passage</button>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>2. Place-toi sur un point réellement observé</legend>
+    <div class="choices" id="borders"></div>
+  </fieldset>
+
+  <section id="uncertain" hidden aria-labelledby="uncertain-title">
+    <p id="uncertain-title"><strong>Le relevé ne tranche pas ici.</strong> La maquette ne reproduit donc aucun son à ce seuil.</p>
+    <div class="choices">
+      <button type="button" class="play" id="last-heard">Écouter le dernier point entendu</button>
+      <button type="button" class="silent" id="uncertain-silent">Prendre le silence</button>
+    </div>
+  </section>
+
+  <div class="transport">
+    <button type="button" class="play" id="play">Écouter un cycle</button>
+    <button type="button" class="silent" id="silent">Prendre le chemin silencieux</button>
+    <button type="button" class="stop" id="stop">Arrêt immédiat</button>
+  </div>
+
+  <p id="status" role="status" aria-live="polite">Maquette muette. Direction : ruban. Point : entendu à 5 pas.</p>
+  <p class="note">Maquette locale, au casque de préférence. Elle met en scène la partition et les étiquettes du relevé ; elle ne reproduit pas l’acoustique du Quai. Les pas de Sillage ne sont pas des mètres. Le coût en calcul du premier essai demeure <code>inconnu</code>.</p>
+</main>
+
+<script>
+  const observations = {
+    ruban:   [{label:'entendu',pas:5,kind:'heard'},{label:'seuil incertain',pas:6,kind:'uncertain'},{label:'plus entendu',pas:8,kind:'silent'}],
+    gradins: [{label:'entendu',pas:7,kind:'heard'},{label:'seuil incertain',pas:8,kind:'uncertain'},{label:'plus entendu',pas:10,kind:'silent'}],
+    passage: [{label:'entendu',pas:4,kind:'heard'},{label:'seuil incertain',pas:5,kind:'uncertain'},{label:'plus entendu',pas:7,kind:'silent'}]
+  };
+  let direction='ruban', border=0, ctx=null, master=null, timers=[];
+  const status=document.querySelector('#status'), borders=document.querySelector('#borders');
+  const uncertain=document.querySelector('#uncertain'), play=document.querySelector('#play'), lastHeard=document.querySelector('#last-heard');
+  function current(){ return observations[direction][border]; }
+  function describe(prefix='Maquette muette.') { const p=current(); status.textContent=`${prefix} Direction : ${direction}. Point : ${p.label} à ${p.pas} pas.`; }
+  function updateMode(){
+    const p=current(), isUncertain=p.kind==='uncertain';
+    uncertain.hidden=!isUncertain; play.disabled=isUncertain;
+    if(isUncertain){ const heard=observations[direction][0]; lastHeard.textContent=`Écouter le dernier point entendu — ${heard.pas} pas`; }
+  }
+  function renderBorders(){
+    borders.replaceChildren();
+    observations[direction].forEach((p,i)=>{
+      const b=document.createElement('button'); b.type='button'; b.textContent=`${p.label} — ${p.pas} pas`; b.setAttribute('aria-pressed',i===border?'true':'false');
+      b.addEventListener('click',()=>{ stopAudio(); border=i; renderBorders(); updateMode(); describe(p.kind==='uncertain'?'Le relevé ne tranche pas ici. Aucun son ne reproduit ce seuil.':'Maquette muette.'); });
+      borders.append(b);
+    });
+  }
+  document.querySelectorAll('[data-direction]').forEach(b=>b.addEventListener('click',()=>{
+    stopAudio(); direction=b.dataset.direction; border=0;
+    document.querySelectorAll('[data-direction]').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false'));
+    renderBorders(); updateMode(); describe();
+  }));
+
+  function schedule(fn,ms){ timers.push(setTimeout(fn,ms)); }
+  function envelope(node,start,peak,duration){ node.gain.setValueAtTime(.0001,start); node.gain.exponentialRampToValueAtTime(peak,start+.03); node.gain.exponentialRampToValueAtTime(.0001,start+duration); }
+  function friction(at,level){
+    const n=ctx.sampleRate*.22,buf=ctx.createBuffer(1,n,ctx.sampleRate),d=buf.getChannelData(0); for(let i=0;i<n;i++) d[i]=(Math.random()*2-1)*(1-i/n);
+    const src=ctx.createBufferSource(),filter=ctx.createBiquadFilter(),g=ctx.createGain(); src.buffer=buf; filter.type='bandpass'; filter.frequency.value=2600; filter.Q.value=5;
+    envelope(g,at,level,.22); src.connect(filter).connect(g).connect(master); src.start(at);
+  }
+  function pulse(at,level){ const o=ctx.createOscillator(),g=ctx.createGain(); o.type='sine'; o.frequency.setValueAtTime(92,at); o.frequency.exponentialRampToValueAtTime(62,at+.3); envelope(g,at,level,.34); o.connect(g).connect(master); o.start(at); o.stop(at+.36); }
+  function breath(at,level){
+    const n=ctx.sampleRate*1.8,buf=ctx.createBuffer(1,n,ctx.sampleRate),d=buf.getChannelData(0); for(let i=0;i<n;i++) d[i]=(Math.random()*2-1)*Math.sin(Math.PI*i/n);
+    const src=ctx.createBufferSource(),filter=ctx.createBiquadFilter(),g=ctx.createGain(); src.buffer=buf; filter.type='lowpass'; filter.frequency.setValueAtTime(1500,at); filter.frequency.exponentialRampToValueAtTime(230,at+1.8);
+    envelope(g,at,level*.75,1.8); src.connect(filter).connect(g).connect(master); src.start(at);
+  }
+  async function soundCycle(prefix){
+    stopAudio(); ctx=new (window.AudioContext||window.webkitAudioContext)(); master=ctx.createGain(); master.gain.value=.7; master.connect(ctx.destination); await ctx.resume();
+    const now=ctx.currentTime+.08,level=.16; friction(now,level); [5,6.2,7.4,8.6].forEach(s=>pulse(now+s,level)); breath(now+14,level);
+    describe(prefix); schedule(()=>describe('Le souffle est tombé. Écoute maintenant ce qui reste autour.'),16000); schedule(()=>{ stopAudio(); describe('Cycle fini. Aucun redémarrage automatique.'); },23000);
+  }
+  function playSelected(){ const p=current(); if(p.kind==='silent'){ describe('Ici, le relevé disait « plus entendu ». Le cycle reste silencieux.'); return; } if(p.kind==='uncertain'){ describe('Le relevé ne tranche pas ici. Choisis le dernier point entendu ou le silence.'); return; } soundCycle('Cycle lancé au point entendu : frottement, quatre pas mats, souffle, puis silence.'); }
+  function chooseSilence(){ stopAudio(); describe('Chemin silencieux choisi. Rien ne joue.'); }
+  function stopAudio(){ timers.forEach(clearTimeout); timers=[]; if(master&&ctx){ master.gain.cancelScheduledValues(ctx.currentTime); master.gain.setTargetAtTime(0,ctx.currentTime,.015); } if(ctx){ const old=ctx; setTimeout(()=>old.close().catch(()=>{}),100); } ctx=null; master=null; }
+  play.addEventListener('click',playSelected);
+  lastHeard.addEventListener('click',()=>{ const heard=observations[direction][0]; soundCycle(`Cycle lancé au dernier point entendu — ${heard.pas} pas. Le seuil incertain n’est pas reproduit.`); });
+  document.querySelector('#silent').addEventListener('click',chooseSilence); document.querySelector('#uncertain-silent').addEventListener('click',chooseSilence);
+  document.querySelector('#stop').addEventListener('click',()=>{ stopAudio(); describe('Arrêt demandé. Silence immédiat.'); });
+  renderBorders(); updateMode();
+</script>
+</body>
+</html>
