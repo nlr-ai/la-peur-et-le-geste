@@ -273,6 +273,16 @@
       ],
       "port": 3212,
       "autoPort": false
+    },
+    {
+      "name": "fil-dev",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "fil-dev/serveur.js",
+        "3300"
+      ],
+      "port": 3300,
+      "autoPort": false
     }
   ]
 }

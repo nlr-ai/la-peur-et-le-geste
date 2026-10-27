@@ -111,3 +111,8 @@ etat/histoire/empreintes-sans-perte.json
 /sur.txt
 /msg.json
 /prev.json
+
+# Le fil dev : ce que deux sessions de développement se sont dit, et le jeton
+# qui garde la porte du tunnel. Ni l'un ni l'autre n'a à entrer dans l'historique.
+fil-dev/fil.jsonl
+fil-dev/jeton.txt

@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fil dev</title>
+<style>
+  :root {
+    --fond: #f6f4ef; --carte: #ffffff; --encre: #1f1d1a; --pale: #6f6a62;
+    --trait: #e2ddd3; --code: #f0ece4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fond: #17161a; --carte: #211f25; --encre: #ece8e1; --pale: #9a948b;
+      --trait: #34313a; --code: #2a2830;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--fond); color: var(--encre);
+    font: 15px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  header {
+    position: sticky; top: 0; z-index: 1; background: var(--fond);
+    border-bottom: 1px solid var(--trait); padding: 10px 16px;
+    display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+  }
+  header h1 { font-size: 16px; margin: 0 8px 0 0; }
+  header label { color: var(--pale); font-size: 13px; display: flex; gap: 6px; align-items: center; }
+  select { font: inherit; font-size: 13px; }
+  main { max-width: 900px; margin: 0 auto; padding: 16px; }
+  .item {
+    background: var(--carte); border: 1px solid var(--trait);
+    border-left: 4px solid var(--teinte); border-radius: 6px;
+    padding: 10px 14px; margin: 10px 0;
+  }
+  .item.prompt { margin-top: 26px; }
+  .item.session { background: transparent; border-style: dashed; color: var(--pale); font-size: 13px; }
+  .tete { font-size: 12px; color: var(--pale); display: flex; gap: 10px; flex-wrap: wrap; }
+  .tete b { color: var(--teinte); }
+  .corps { white-space: pre-wrap; overflow-wrap: anywhere; margin-top: 4px; }
+  .reponse .corps.replie { max-height: 14em; overflow: hidden; mask-image: linear-gradient(#000 70%, transparent); }
+  pre { background: var(--code); padding: 8px 10px; border-radius: 4px; overflow-x: auto; white-space: pre; }
+  code { background: var(--code); padding: 0 3px; border-radius: 3px; font-size: 13px; }
+  pre code { padding: 0; background: none; }
+  button.deplier { margin-top: 6px; font: inherit; font-size: 12px; background: none; border: 1px solid var(--trait); color: var(--pale); border-radius: 4px; padding: 2px 8px; cursor: pointer; }
+  #vide { color: var(--pale); text-align: center; margin-top: 40px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Fil dev</h1>
+  <label>Auteur <select id="auteur"><option value="">tous</option></select></label>
+  <label><input type="checkbox" id="suivre" checked> suivre</label>
+</header>
+<main>
+  <div id="fil"></div>
+  <p id="vide">Rien encore. Les prompts et réponses des sessions branchées arriveront ici.</p>
+</main>
+<script>
+"use strict";
+const fil = document.getElementById("fil");
+const choixAuteur = document.getElementById("auteur");
+const suivre = document.getElementById("suivre");
+const teintes = ["#b5532f", "#2f6db5", "#3a8a4d", "#8a3a8a", "#a07a12", "#2f8a8a"];
+const auteurs = new Map();
+let curseur = 0;
+
+function teinte(auteur) {
+  if (!auteurs.has(auteur)) {
+    auteurs.set(auteur, teintes[auteurs.size % teintes.length]);
+    const o = document.createElement("option");
+    o.value = o.textContent = auteur;
+    choixAuteur.appendChild(o);
+  }
+  return auteurs.get(auteur);
+}
+
+function echapper(s) {
+  return s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+}
+
+// Un markdown minimal : blocs ``` et `code` en ligne. Le reste reste du texte.
+function rendre(texte) {
+  return echapper(texte).split(/```[^\n]*\n?/).map((bout, i) =>
+    i % 2 ? "<pre><code>" + bout.replace(/\n$/, "") + "</code></pre>"
+          : bout.replace(/`([^`\n]+)`/g, "<code>$1</code>")
+  ).join("");
+}
+
+function heure(ts) {
+  const d = new Date(ts);
+  return d.toLocaleDateString("fr-FR", { day: "2-digit", month: "2-digit" }) + " " +
+    d.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
+}
+
+function ajouter(it) {
+  const div = document.createElement("div");
+  div.className = "item " + it.type;
+  div.dataset.auteur = it.auteur;
+  div.style.setProperty("--teinte", teinte(it.auteur));
+  const quoi = { prompt: "demande", reponse: "Claude répond", session: "session" }[it.type];
+  div.innerHTML =
+    '<div class="tete"><b>' + echapper(it.auteur) + "</b><span>" + quoi + "</span>" +
+    "<span>" + heure(it.ts) + "</span>" +
+    (it.branche ? "<span>" + echapper(it.branche) + "</span>" : "") +
+    "<span>#" + echapper(it.session.slice(0, 8)) + "</span></div>" +
+    '<div class="corps">' + rendre(it.texte) + "</div>";
+  if (choixAuteur.value && choixAuteur.value !== it.auteur) div.hidden = true;
+  fil.appendChild(div);
+  const corps = div.querySelector(".corps");
+  if (it.type === "reponse" && corps.scrollHeight > 300) {
+    corps.classList.add("replie");
+    const b = document.createElement("button");
+    b.className = "deplier";
+    b.textContent = "Tout lire";
+    b.onclick = () => {
+      const replie = corps.classList.toggle("replie");
+      b.textContent = replie ? "Tout lire" : "Replier";
+    };
+    div.appendChild(b);
+  }
+}
+
+choixAuteur.onchange = () => {
+  for (const d of fil.children) d.hidden = !!choixAuteur.value && d.dataset.auteur !== choixAuteur.value;
+};
+
+async function tirer() {
+  try {
+    const r = await fetch("/fil?depuis=" + curseur, { cache: "no-store" });
+    if (r.ok) {
+      const neufs = await r.json();
+      for (const it of neufs) ajouter(it);
+      curseur += neufs.length;
+      if (curseur) document.getElementById("vide").hidden = true;
+      if (neufs.length && suivre.checked) window.scrollTo(0, document.body.scrollHeight);
+    }
+  } catch (_) {}
+  setTimeout(tirer, 2000);
+}
+tirer();
+</script>
+</body>
+</html>
